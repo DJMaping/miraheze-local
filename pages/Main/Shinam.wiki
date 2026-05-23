@@ -1,0 +1,123 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Shinam
+| native_name            = ''__''  - Shinamese
+| image_flag             = Shinam Flag.png
+| image_coat             = Shinam coat of arms.png
+| symbol_type            = 
+| national_motto         = SHEE-nahm
+| national_anthem        = /ˈʃiː.nɑːm/
+| image_map              = Shinam Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Shinam (green)
+| capital                = [[Mirzulek]]
+| largest_city           = [[Mirzulek]]
+| official_languages     = Shinamese
+| religion               = 55.8% [[Folk Religions in Shinam|Folk Religions]]
+{{tree list}}
+*32.6% [[Kallimethra]]
+**27.4% [[Anakalli]]
+**5.2% [[Doxis]]
+{{tree list/end}}11.6% [[Religion in Shinam|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.shi/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Shinam]] }}</ref>
+| demonym                = Shinamese
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Shinam
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emaran]]
+| established            = 
+| established_event1     = [[Treaty of the Globe]]
+| established_date1      = 1635 AFA
+| established_event2     = Independence
+| established_date2      = 1715 AFA
+| established_event3     = 
+| established_date3      = 
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 69th
+| area_km2               = 494,101
+| area_sq_mi             = 190,773
+| area_footnote          = <!--Optional footnote for area-->
+| population_estimate    = {{increaseNeutral}}31,948,027<ref name="POP SHI">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.shi/List_of_countries_and_dependencies_by_population/Shinam|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 42nd
+| population_estimate_year = 1765
+| population_density_km2 = 64.7
+| population_density_rank = 71st
+| GDP_PPP                = {{increase}} {{lahn}}56.122 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/shi/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 109th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}1,757
+| GDP_PPP_per_capita_rank = 163rd
+| GDP_nominal            = {{increase}} {{lahn}}15.720 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/shi/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 119th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}492
+| GDP_nominal_per_capita_rank = 161st
+| HDI_year               = 1765
+| HDI                    = 0.543
+| HDI_change             = decreace
+| HDI_rank               = 156th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Myones]] (_) (MYO)
+| time_zone              = SSH +0 (Standard Shinamese Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .shi
+| calling_code           = +518
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.shi/ The Federal Republic of Shinam's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Shinam] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/shinam/ Shinam]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

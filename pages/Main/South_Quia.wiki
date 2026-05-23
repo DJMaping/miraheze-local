@@ -1,0 +1,74 @@
+{{Infobox continent
+|title          = South Quia
+|image          = South Quia Globe.png
+|imagecaption   = Location of South Quia
+|area           = {{convert|13,908,738|km2|sqmi|abbr=on}}
+|population     = 74,200,007 (1765)
+|density        = {{convert|5.33|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}1.071 trillion
+|GDP_nominal    = {{lahn}}678.819 trillion
+|GDP_per_capita = {{lahn}}9,149
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = South Quian
+|countries      = 5
+|list_countries = 
+|dependencies   = 17
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Desakian Language|Desakian]]
+* [[Iarevan Language|Iarevan]]
+* [[Mihilian Language|Mihilian]]
+* [[Verstian Language|Verstian]]
+}}
+|time           = UTC -13 to -7
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Bristel]]
+* [[Droskaneth]]
+* [[Nalvin]]
+* [[Trephin]]
+* [[Velkura]]
+* [[Velthura]]
+* [[Yshtra]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''South Quia''' is a sub-continent located in the southern hemisphere. It is bordered the [[North Quia|North]], [[West Quia|West]] and [[East Quia]] to the north, the [[Haanian Ocean]] to the southwest, and the [[Southern Eanif Ocean]] to the east. The continent covers around {{convert|13,908,738|km2|sqmi|abbr=on}} of land, making it the largest sub-continent in the world, with a total of about 74,200,007 as of 1765, making it also the 22nd largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Desaki}} || [[Desaki]] || style="text-align:right;" | 2,445,136 || style="text-align:right;" | 29,182,698 || style="text-align:right;" | 12 || [[Olmurra]]
+|-
+| style="text-align:center;"| {{flagicon|Far Lands}} || [[Far Lands]] || style="text-align:right;" | 1,836,884 || style="text-align:right;" | 1,441,954 || style="text-align:right;" | 1 || [[Ueente]]
+|-
+| style="text-align:center;"| {{flagicon|Iareva}} || [[Iareva]] || style="text-align:right;" | 4,156,962 || style="text-align:right;" | 8,002,152 || style="text-align:right;" | 2 || [[Droskaneth]]
+|-
+| style="text-align:center;"| {{flagicon|Mesjan Hyaa}} || [[Mesjan Hyaa]] || style="text-align:right;" | 2,660,845 || style="text-align:right;" | 2,048,851 || style="text-align:right;" | 1 || [[Ythrenak]]
+|-
+| style="text-align:center;"| {{flagicon|United Mihili}} || [[United Mihili]] || style="text-align:right;" | 2,808,911 || style="text-align:right;" | 33,524,353 || style="text-align:right;" | 12 || [[Talashi]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 13,908,738
+| style="text-align:right;"| 74,200,008
+| style="text-align:right;"| 5
+|}
+==References==
+{{reflist}}
+[[Category:Geoscheme]]

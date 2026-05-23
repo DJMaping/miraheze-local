@@ -1,0 +1,121 @@
+{{Infobox country
+| conventional_long_name = Republic of Sivoso
+| native_name            = ''__''  - Sivosan
+| image_flag             = Sivoso Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = SEE-voh-soh
+| national_anthem        = /ˈsiː.voʊ.soʊ/
+| image_map              = Sivoso Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Sivoso (green)
+| capital                = [[Amrata]]
+| largest_city           = [[Amrata]]
+| official_languages     = Sivosan
+| ethnic_groups          = 75.5% Sivosan<br>13.8% [[Trian]]<br>5.2% [[Taoisia|Taoisian]]<br>5.5% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.siv/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Sivoso]] }}</ref>
+| religion               = 59.2% [[Thessovai]]<br>23.4% [[Kallimethra]]<br>4.7% [[Religion in ___|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.siv/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Sivoso]] }}</ref>
+| demonym                = Sivosan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Sivoso
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 
+| established_event1     = [[Acarak Kingdom]]
+| established_date1      = 1028 AFA
+| established_event2     = [[Sivoso Kingdom]]
+| established_date2      = 1155 AFA
+| established_event3     = [[Sivosan Empire]]
+| established_date3      = 1230 AFA
+| established_event4     = [[Etertes Treaty]]
+| established_date4      = 1579 AFA
+| established_event5     = [[Treaty of the Globe]]
+| established_date5      = 1635 AFA
+| established_event6     = Republic establised
+| established_date6      = 1699 AFA
+| area_rank              = 30th
+| area_km2               = 1,328,657
+| area_sq_mi             = 512,997
+| area_footnote          = <!--Optional footnote for area-->
+| population_estimate    = {{increaseNeutral}}21,995,000<ref name="POP SIV">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.siv/List_of_countries_and_dependencies_by_population/Sivoso|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 61st
+| population_estimate_year = 1765
+| population_density_km2 = 16.5544
+| population_density_rank = 132nd
+| GDP_PPP                = {{increase}} {{lahn}}201.957 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/siv/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 64th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}9,182
+| GDP_PPP_per_capita_rank = 110th
+| GDP_nominal            = {{increase}} {{lahn}}81.434 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/siv/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 67th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,702
+| GDP_nominal_per_capita_rank = 102nd
+| HDI_year               = 1765
+| HDI                    = 0.745
+| HDI_change             = increase
+| HDI_rank               = 95th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Zarund]] (_) (ZAR)
+| time_zone              = SST +3 (Standard Sivosan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .siv
+| calling_code           = +905
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.siv/ The Republic of Sivoso's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Sivoso] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/sivoso/ Sivoso]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

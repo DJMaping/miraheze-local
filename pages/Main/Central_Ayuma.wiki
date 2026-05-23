@@ -1,0 +1,90 @@
+{{Infobox continent
+|title          = Central Ayuma
+|image          = Central Ayuma Globe.png
+|imagecaption   = Location of Central Ayuma
+|area           = {{convert|2,902,984|km2|sqmi|abbr=on}}
+|population     = 270,793,519 (1765)
+|density        = {{convert|93.28|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}3.843 trillion
+|GDP_nominal    = {{lahn}}1.864 trillion
+|GDP_per_capita = {{lahn}}6,886
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Central Ayuman
+|countries      = 5
+|list_countries = 
+|dependencies   = 
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Eladorii Language|Eladorii]]
+* [[Eosl Language|Eosl]]
+* [[Heoan Language|Heoan]]
+* [[Hkuqoan Language|Hkuqoan]]
+* [[Kaalsite Language|Kaalsite]]
+* [[Seljan Language|Seljan]]
+* [[Ukhdari Language|Ukhdari]]
+* [[Zensahan Language|Zensahan]]
+}}
+|time           = UTC +1 to +2
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Borshavi]]
+* [[Dy]]
+* [[Havrishka]]
+* [[Muvash]]
+* [[Shurqan]]
+* [[Tanshiva]]
+* [[Turashik]]
+* [[Veshgadar]]
+* [[Zarhesh]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Central Ayuma''' is a sub-continent located in the northern hemisphere. It is bordered the [[Nasuanian Sea]] and [[Tasa Bay]] to the south. [[South Ayuma]] to the west, the [[North Ayuma]] to the north, and the [[North Acrola]] to the east. The continent covers around {{convert|2,902,984|km2|sqmi|abbr=on}} of land, making it the 19th largest sub-continent in the world, with a total of about 270,793,519 as of 1765, making it also the 9thth largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Acrana}} || [[Acrana]] || style="text-align:right;" | 131,864 || style="text-align:right;" | 14,469,041 || style="text-align:right;" | 110 || [[Samaru]]
+|-
+| style="text-align:center;"| {{flagicon|Ealdorii}} || [[Ealdorii]] || style="text-align:right;" | 1,563,780 || style="text-align:right;" | 137,992,639 || style="text-align:right;" | 88 || [[Shurqan]]
+|-
+| style="text-align:center;"| {{flagicon|Hkuqo}} || [[Hkuqo]] || style="text-align:right;" | 370,702 || style="text-align:right;" | 22,833,760 || style="text-align:right;" | 62 || [[Tanshiva]]
+|-
+| style="text-align:center;"| {{flagicon|Ukhdari}} || [[Ukhdari]] || style="text-align:right;" | 783,607 || style="text-align:right;" | 85,678,806 || style="text-align:right;" | 109 || [[Faramozan]]
+|-
+| style="text-align:center;"| {{flagicon|Zenashan}} || [[Zenashan]] || style="text-align:right;" | 53,031 || style="text-align:right;" | 9,819,273 || style="text-align:right;" | 185 || [[Zirafu]]
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 2,902,984
+| style="text-align:right;"| 270,793,000
+| style="text-align:right;"| 93
+|}
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

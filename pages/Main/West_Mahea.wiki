@@ -1,0 +1,87 @@
+{{Infobox continent
+|title          = West Mahea
+|image          = West Mahea Globe.png
+|imagecaption   = Location of West Mahea
+|area           = {{convert|3,615,572|km2|sqmi|abbr=on}}
+|population     = 146,859,371 (1765)
+|density        = {{convert|40.62|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}2.708 trillion
+|GDP_nominal    = {{lahn}}1.549 trillion
+|GDP_per_capita = {{lahn}}10,549
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = West Mahean
+|countries      = 5
+|list_countries = 
+|dependencies   = 4
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Emaran Language|Emaran]] 
+* [[Seytinemasi Language|Seytinemasi]] 
+* [[Sivosan Language|Sivosan]]
+* [[Taoisian Language|Taoisian]] 
+* [[Trian Language|Trian]] 
+}}
+|time           = UTC +3
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Jirakai]]
+*[[Amrata]]
+*[[Treka]]
+*[[Tibokan]]
+*[[Vulna]]
+*[[Tarvic]]
+*[[Lunmar]]
+*[[Mansek]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''West Mahea''' is a sub-continent located in the southern hemisphere. It is bordered the [[Ubrana Sea]] and [[South Mahea]] to the south. [[North Mahea]] to the west, [[South Ayuma]] to the north, and the [[Kera Sea]] to the east. The continent covers around {{convert|3,615,572|km2|sqmi|abbr=on}} of land, making it the 16th largest sub-continent in the world, with a total of about 146,859,371 as of 1765, making it also the 17th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | [[Flag]]
+! Name
+! [[List of countries by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries by population|Population]]<br />
+! [[List of countries by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! [[Capital city|Capital]]
+|-
+| style="text-align:center;"| {{flagicon|Chaenia}} || [[Chaenia]] || style="text-align:right;" | 84,476 || style="text-align:right;" | 13,815,053 || style="text-align:right;" | 164 || [[Lutur]]
+|-
+| style="text-align:center;"| {{flagicon|Seytinemas}} || [[Seytinemas]] || style="text-align:right;" | 877,397 || style="text-align:right;" | 71,957,346 || style="text-align:right;" | 82 || [[Vulna]]
+|-
+| style="text-align:center;"| {{flagicon|Sivoso}} || [[Sivoso]] || style="text-align:right;" | 1,328,657 || style="text-align:right;" | 21,995,119 || style="text-align:right;" | 17 || [[Amrata]]
+|-
+| style="text-align:center;"| {{flagicon|Taoisia}} || [[Taoisia]] || style="text-align:right;" | 942,386 || style="text-align:right;" | 11,247,660 || style="text-align:right;" | 12 || [[Kumazi]]
+|-
+| style="text-align:center;"| {{flagicon|Trian}} || [[Trian]] || style="text-align:right;" | 382,656 || style="text-align:right;" | 27,844,193 || style="text-align:right;" | 73 || [[Treka]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 3,615,572
+| style="text-align:right;"| 146,859,371
+| style="text-align:right;"| 41
+|}
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,416 @@
+[[File:Global_Democratic_Integrity_Index_1762.png|alt=|thumb|The 1765 [[Global Trade Union]] ''Democracy Index'' map
+
+{{Col-begin}}
+{{Col-break}}
+'''Full democracies'''
+{{Legend|#0c3091|0.900–1.000}}
+{{legend|#2f5cd5|0.800–0.899}}
+----
+{{legend|#c0c0c0|No data}}
+{{Col-break}}
+'''Flawed democracies'''
+{{legend|#6bd2df|0.700–0.799}}
+{{legend|#c3eded|0.600–0.699}}
+{{Col-break}}
+'''Hybrid regimes'''
+{{legend|#f9f8bb|0.500–0.59}}
+{{legend|#fad45d|0.400–0.49}}
+{{Col-break}}
+'''Authoritarian regimes'''
+{{legend|#da820f|0.300–0.399}}
+{{legend|#a8261f|0.200–0.299}}
+{{legend|#66000f|0.100–0.199}}
+{{legend|#240011|0.000–0.099}}
+{{Col-end}}|upright=2]]
+
+
+
+{{Table TOC|Full democracies|Flawed democracies|Hybrid regimes|Authoritarian regimes}}
+{{sticky header}}{{table alignment}}
+{| class="wikitable sortable sticky-header" style="text-align:center;"
+|+ Year 1765
+! data-sort-type="number" | Rank
+! {{Tooltip|Δ <small>Rank</small>|Change in ranking from the previous year}}
+! data-sort-type="text" | Country
+! Regime type
+! data-sort-type="number" | <small>Overall score</small>
+! {{Tooltip|Δ <small>Score</small>|Change in the nation's overall score from the previous year}}
+! data-sort-type="number" | <small>Elec<br>toral pro<br>cess<br>and plura<br>lism</small>
+! data-sort-type="number" | <small>Func<br>tioning<br />of govern<br>ment</small>
+! data-sort-type="number" | <small>Poli<br>tical<br />partici<br>pation</small>
+! data-sort-type="number" | <small>Poli<br>tical<br />cul<br>ture</small>
+! data-sort-type="number" | <small>Civil<br />liber<br>ties</small>
+|- style="display:none;"
+| colspan="11" | <!-- Non-displayed row to allow «Full democracies» row to sort at the bottom -->
+|- class="sortbottom" id="Full democracies"
+! colspan="11" | Full democracies
+|-
+| 1 || {{steady}} 0 || style="text-align:left;" | {{flag|Fermori}} || Full democracy || style="background:#0c3091;" | {{white|'''9.77'''}} || {{steady}} 0 || 10 || 9.64 || 10 || 10|| 9.41
+|-
+| 2 || {{steady}} 0 || style="text-align:left;" | {{flag|Kaastini}} || Full democracy || style="background:#0c3091;" | {{white|'''9.76'''}} || {{steady}} 0 || 10 || 9.29 || 10 || 8.75|| 10
+|-
+| 3 || {{increase}} 1 || style="text-align:left;" | {{flag|Koruch}} || Full democracy || style="background:#0c3091;" | {{white|'''9.69'''}} || {{steady}} 0 || 9.58 || 9.64 || 8.33 || 10|| 9.41
+|-
+| 4 || {{decrease}} 1 || style="text-align:left;" | {{flag|Siana}} || Full democracy || style="background:#0c3091;" | {{white|'''9.67'''}} || {{decrease}} 0.07 || 10 || 8.93 || 8.89 || 9.38|| 9.71
+|-
+| 5 || {{increase}} 3 || style="text-align:left;" | {{flag|Verusa}} || Full democracy || style="background:#0c3091;" | {{white|'''9.59'''}} || {{increase}} 0.18 || 9.58 || 9.29 || 8.33 || 10|| 9.41
+|-
+| 6 || {{decrease}} 1 || style="text-align:left;" | {{flag|Sanagara}} || Full democracy || style="background:#0c3091;" | {{white|'''9.51'''}} || {{steady}} 0 || 10 || 9.64 || 7.78 || 9.38|| 9.71
+|-
+| 7 || {{decrease}} 1 || style="text-align:left;" | {{flag|Stinebar}} || Full democracy || style="background:#0c3091;" | {{white|'''9.37'''}} || {{steady}} 0 || 10 || 9.29 || 8.33 || 9.38|| 9.41
+|-
+| 8 || {{decrease}} 1 || style="text-align:left;" | {{flag|New Kizura}} || Full democracy || style="background:#0c3091;" | {{white|'''9.35'''}} || {{steady}} 0 || 10 || 8.21 || 8.33 || 10|| 9.41
+|-
+| 9 || {{steady}} 0 || style="text-align:left;" | {{flag|Genaire}} || Full democracy || style="background:#0c3091;" | {{white|'''9.25'''}} || {{steady}} 0 || 9.58 || 8.93 || 8.33 || 8.75|| 9.41
+|-
+| 10 || {{increase}} 1 || style="text-align:left;" | {{flag|Crila Republic}} || Full democracy || style="background:#0c3091;" | {{white|'''9.22'''}} || {{increase}} 0.07 || 10 || 9.29 || 6.67 || 8.75|| 9.71
+|-
+| 11 || {{increase}} 3 || style="text-align:left;" | {{flag|Chaenia}} || Full democracy || style="background:#0c3091;" | {{white|'''9.07'''}} || {{increase}} 0.19 || 10 || 8.57 || 7.22 || 8.75|| 9.71
+|-
+| 12 || {{decrease}} 2 || style="text-align:left;" | {{flag|Etirha}} || Full democracy || style="background:#0c3091;" | {{white|'''9.04'''}} || {{decrease}} 0.14 || 10 || 8.57 || 7.78 || 8.13|| 9.41
+|-
+| 13 || {{decrease}} 1 || style="text-align:left;" | {{flag|Prystr Hii}} || Full democracy || style="background:#0c3091;" | {{white|'''9.02'''}} || {{decrease}} 0.07 || 9.58 || 8.21 || 8.33 || 8.13|| 9.41
+|-
+| 14 || {{decrease}} 1 || style="text-align:left;" | {{flag|Tomscilus}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.98'''}} || {{steady}} 0 || 10 || 8.21 || 8.89 || 7.5|| 8.82
+|-
+| 15 || {{decrease}} 1 || style="text-align:left;" | {{flag|Cloja}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.97'''}} || {{increase}} 0.01 || 10 || 9.29 || 7.78 || 6.88|| 9.41
+|-
+| 16 || {{steady}} 0 || style="text-align:left;" | {{flag|Sunsokua}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.92'''}} || {{increase}} 0.08 || 9.58 || 8.93 || 6.67 || 8.13|| 9.12
+|-
+| 17 || {{increase}} 1 || style="text-align:left;" | {{flag|United Delet}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.91'''}} || {{increase}} 0.06 || 9.58 || 7.5 || 8.33 || 6.88|| 9.41
+|-
+| 18 || {{decrease}} 1 || style="text-align:left;" | {{flag|Yaxuto}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.85'''}} || {{steady}} 0 || 9.58 || 7.5 || 7.78 || 6.88|| 9.71
+|-
+| 19 || {{decrease}} 1 || style="text-align:left;" | {{flag|Disal Nila}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.77'''}} || {{steady}} 0 || 9.58 || 7.5 || 8.89 || 6.88|| 8.53
+|-
+| 20 || {{steady}} 0 || style="text-align:left;" | {{flag|Acetoa}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.74'''}} || {{increase}} 0.09 || 9.58 || 7.86 || 6.11 || 8.75|| 8.82
+|-
+| 21 || {{increase}} 6 || style="text-align:left;" | {{flag|Merela Sta}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.73'''}} || {{increase}} 0.17 || 10 || 8.57 || 6.67 || 6.88|| 8.53
+|-
+| 22 || {{increase}} 2 || style="text-align:left;" | {{flag|Ahokini}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.72'''}} || {{increase}} 0.11 || 9.58 || 7.5 || 7.22 || 7.5|| 8.82
+|-
+| 23 || {{increase}} 3 || style="text-align:left;" | {{flag|Raledria}} 
+| Full democracy || style="background:#2f5cd5;" | {{white|'''8.66'''}} || {{increase}} 0.33 || 9.58 || 6.43 || 7.78 || 7.5|| 9.12
+|-
+| 24 || {{increase}} 8 || style="text-align:left;" | {{flag|Desaki}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.64'''}} || {{increase}} 0.07 || 9.58 || 7.14 || 6.11 || 8.75|| 8.82
+|-
+| 25 || {{decrease}} 5 || style="text-align:left;" | {{flag|Grazail}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.59'''}} || {{decrease}} 0 || 10 || 6.79 || 7.22 || 7.5|| 8.82
+|-
+| 26 || {{decrease}} 3 || style="text-align:left;" | {{flag|Selaja}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.57'''}} || {{decrease}} 0.08 || 9.58 || 7.86 || 7.22 || 6.25|| 7.5
+|-
+| 27 || {{increase}} 1 || style="text-align:left;" | {{flag|Easuhura}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.56'''}} || {{steady}} 0 || 9.58 || 7.5 || 7.78 || 6.88|| 8.24
+|-
+| 28 || {{increase}} 1 || style="text-align:left;" | {{flag|Lycroa}} 
+| Full democracy || style="background:#2f5cd5;" | {{white|'''8.46'''}} || {{steady}} 0 || 9.17 || 7.14 || 6.67 || 8.13|| 8.53
+|-
+| 29 || {{decrease}} 4 || style="text-align:left;" | {{flag|Gaeiya}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.44'''}} || {{decrease}} 0.15 || 9.17 || 6.43 || 8.89 || 6.25|| 8.53
+|-
+| 30 || {{increase}} 1 || style="text-align:left;" | {{flag|Yihnurda}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.39'''}} || {{increase}} 0.07 || 9.58 || 7.86 || 6.67 || 5.63|| 9.41
+|-
+| 31 || {{decrease}} 1 || style="text-align:left;" | {{flag|Enina}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.34'''}} || {{steady}} 0 || 9.58 || 7.5 || 7.22 || 6.25|| 8.53
+|-
+| 32 || {{decrease}} 10 || style="text-align:left;" | {{flag|Pha Hii}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.15'''}} || {{decrease}} 0.34 || 9.58 || 7.5 || 9.44 || 6.88|| 5.59
+|-
+| 33 || {{increase}} 4 || style="text-align:left;" | {{flag|Ilicuhe}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.14'''}} || {{increase}} 0.28 || 9.58 || 7.5 || 7.22 || 5.63|| 8.82
+|-
+| 34 || {{increase}} 2 || style="text-align:left;" | {{flag|Curata}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.12'''}} || {{steady}} 0 || 10 || 7.14 || 6.67 || 6.25|| 8.24
+|-
+| 35 || {{decrease}} 2 || style="text-align:left;" | {{flag|Guise}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.07'''}} || {{decrease}} 0.1 || 9.58 || 8.21 || 5 || 6.88|| 8.53
+|-
+| 36 || {{increase}} 3 || style="text-align:left;" | {{flag|Eldjo}} || Full democracy || style="background:#2f5cd5;" | {{white|'''8.03'''}} || {{increase}} 0.28 || 9.58 || 6.43 || 6.11 || 7.5|| 8.53
+|-
+|- class="sortbottom" id="Flawed democracies"
+! colspan="11" | Flawed democracies
+|-
+| 37 || {{decrease}} 2 || style="text-align:left;" | {{flag|Palina}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.95'''}} || {{decrease}} 0.07 || 10 || 7.14 || 6.67 || 5.63|| 8.53
+|-
+| 38 || {{decrease}} 3 || style="text-align:left;" | {{flag|Darewa}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.88'''}} || {{decrease}} 0.11 || 9.17 || 6.64 || 6.67 || 6.88|| 8.53
+|-
+| 39 || {{increase}} 2 || style="text-align:left;" | {{flag|Peka}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.85'''}} || {{increase}} 0.22 || 9.58 || 7.14 || 7.22 || 6.88|| 7.06
+|-
+| 40 || {{decrease}} 3 || style="text-align:left;" | {{flag|Vayvele}} 
+| Flawed democracy || style="background:#6bd2df;" | {{white|'''7.84'''}} || {{steady}} 0 || 10 || 6.43 || 6.67 || 6.25|| 7.65
+|-
+| 41 || {{steady}} 0 || style="text-align:left;" | {{flag|Suenan}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.84'''}} || {{increase}} 0.11 || 9.17 || 5.36 || 6.67 || 6.88|| 8.82
+|-
+| 42 || {{increase}} 2 || style="text-align:left;" | {{flag|Fincen}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.68'''}} || {{increase}} 0.14 || 8.67 || 7.5 || 7.22 || 6.88|| 6.18
+|-
+| 43 || {{increase}} 4 || style="text-align:left;" | {{flag|Ohtina}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.66'''}} || {{increase}} 0.11 || 10 || 6.07 || 6.11 || 5.63|| 8.24
+|-
+| 44 || {{decrease}} 4 || style="text-align:left;" | {{flag|Emara}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.64'''}} || {{decrease}} 0.18 || 9.17 || 6.79 || 7.78 || 5|| 7.06
+|-
+| 45 || {{decrease}} 2 || style="text-align:left;" | {{flag|Terressin}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.61'''}} || {{decrease}} 0.07 || 9.58 || 7.14 || 6.67 || 6.25|| 5.88
+|-
+| 46 || {{decrease}} 1 || style="text-align:left;" | {{flag|Oyreain}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.47'''}} || {{decrease}} 0.03 || 9.58 || 6.79 || 6.11 || 5.63|| 7.35
+|-
+| 47 || {{increase}} 1 || style="text-align:left;" | {{flag|Cruthi Anoso}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.45'''}} || {{decrease}} 0.07 || 9.58 || 6.07 || 5.56 || 6.88|| 7.06
+|-
+| 48 || {{increase}} 1 || style="text-align:left;" | {{flag|Laselteh}} 
+| Flawed democracy || style="background:#6bd2df;" | {{white|'''7.39'''}} || {{decrease}} 0.09 || 9.58 || 5.71 || 7.22 || 3.75|| 7.94
+|-
+| 49 || {{decrease}} 4 || style="text-align:left;" | {{flag|Aetintio}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.36'''}} || {{decrease}} 0.32 || 9.58 || 5.36 || 6.67 || 5|| 7.35
+|-
+| 50 || {{increase}} 2 || style="text-align:left;" | {{flag|Yutnitu}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.33'''}} || {{increase}} 0.06 || 8.75 || 6.43 || 5 || 5|| 8.53
+|-
+| 51 || {{increase}} 2 || style="text-align:left;" | {{flag|Taval}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.29'''}} || {{decrease}} 0.03 || 8.75 || 7.14 || 6.67 || 3.75|| 7.35
+|-
+| 52 || {{increase}} 9 || style="text-align:left;" | {{flag|Ashain}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.18'''}} || {{increase}} 0.18 || 8.75 || 4.64 || 8.33 || 4.38|| 7.06
+|-
+| 53 || {{increase}} 6 || style="text-align:left;" | {{flag|Rijan bu}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.18'''}} || {{increase}} 0.05 || 9.17 || 5 || 7.22 || 4.38|| 7.35
+|-
+| 54 || {{steady}} 0 || style="text-align:left;" | {{flag|Praesyu}} 
+| Flawed democracy || style="background:#6bd2df;" | {{white|'''7.11'''}} || {{decrease}} 0.11 || 8.75 || 5.71 || 6.67 || 5.63|| 5.88
+|-
+| 55 || {{decrease}} 4 || style="text-align:left;" | {{flag|Iareva}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.1'''}} || {{decrease}} 0.21 || 9.17 || 5 || 6.11 || 3.75|| 8.53
+|-
+| 56 || {{increase}} 2 || style="text-align:left;" | {{flag|Veelmit}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.1'''}} || {{steady}} 0 || 8.75 || 5.71 || 4.44 || 6.88|| 6.76
+|-
+| 57 || {{decrease}} 6 || style="text-align:left;" | {{flag|Trian}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.03'''}} || {{decrease}} 0.19 || 9.17 || 6.07 || 6.11 || 4.38|| 6.76
+|-
+| 58 || {{decrease}} 1 || style="text-align:left;" | {{flag|Ukhdari}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.02'''}} || {{decrease}} 0.04 || 9.58 || 5 || 6.11 || 5|| 6.76
+|-
+| 59 || {{decrease}} 3 || style="text-align:left;" | {{flag|Mendereide}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.97'''}} || {{decrease}} 0.09 || 7.42 || 5.36 || 6.67 || 5|| 7.94
+|-
+| 60 || {{decrease}} 5 || style="text-align:left;" | {{flag|Metndria}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.92'''}} || {{decrease}} 0.2 || 7.92 || 6.79 || 7.22 || 5|| 5.29
+|-
+| 61 || {{increase}} 1 || style="text-align:left;" | {{flag|Reerica}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.92'''}} || {{decrease}} 0.07 || 9.17 || 5.71 || 6.11 || 3.13|| 7.65
+|-
+| 62 || {{increase}} 10 || style="text-align:left;" | {{flag|Arbiya}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.91'''}} || {{increase}} 0.25 || 8.75 || 5.36 || 5.56 || 4.38|| 7.65
+|-
+| 63 || {{steady}} 0 || style="text-align:left;" | {{flag|Haiza}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.89'''}} || {{decrease}} 0.08 || 8.75 || 6.07 || 6.11 || 3.13|| 7.35
+|-
+| 64 || {{steady}} 0 || style="text-align:left;" | {{flag|Rkmepuia}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.88'''}} || {{decrease}} 0.07 || 6.5 || 5 || 8.33 || 5.63|| 5.88
+|-
+| 65 || {{steady}} 0 || style="text-align:left;" | {{flag|Lydroa}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.84'''}} || {{decrease}} 0.06 || 7.83 || 5.71 || 6.67 || 3.75|| 7.35
+|-
+| 66 || {{steady}} 0 || style="text-align:left;" | {{flag|Uularin}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.78'''}} || {{decrease}} 0.08 || 8.33 || 4.64 || 6.11 || 6.25|| 5.88
+|-
+| 67 || {{increase}} 3 || style="text-align:left;" | {{flag|Isari}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.75'''}} || {{increase}} 0.02 || 7 || 5.71 || 5 || 6.25|| 7.06
+|-
+| 68 || {{increase}} 1 || style="text-align:left;" | {{flag|New Misos}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.73'''}} || {{steady}} 0.15 || 7 || 4.29 || 7.22 || 6.25|| 6.18
+|-
+| 69 || {{decrease}} 2 || style="text-align:left;" | {{flag|Jau}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.57'''}} || {{decrease}} 0 || 5.33 || 7.14 || 4.44 || 7.5|| 6.47
+|-
+| 70 || {{increase}} 1 || style="text-align:left;" | {{flag|Acrana}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.43'''}} || {{steady}} 0.19 || 6.92 || 6.07 || 6.11 || 5|| 6.47
+|-
+| 71 || {{decrease}} 3 || style="text-align:left;" | {{flag|Canldives}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.43'''}} || {{decrease}} 0 || 9.17 || 3.79 || 5.56 || 5.63|| 6.18
+|-
+| 72 || {{decrease}} 12 || style="text-align:left;" | {{flag|Anymna}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.43'''}} || {{decrease}} 0.46 || 6.5 || 5.36 || 7.22 || 4.38|| 6.76
+|-
+| 73 || {{decrease}} 1 || style="text-align:left;" | {{flag|Inania}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.43'''}} || {{decrease}} 0.06 || 7.42 || 5.36 || 6.11 || 6.88|| 6.18
+|-
+| 74 || {{increase}} 9 || style="text-align:left;" | {{flag|Aplasia}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.43'''}} || {{increase}} 0.45 || 8.25 || 5.36 || 5.56 || 3.75|| 7.06
+|-
+| 75 || {{decrease}} 1 || style="text-align:left;" | {{flag|Fire Coast}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.43'''}} || {{decrease}} 0.08 || 6.92 || 6.07 || 3.89 || 5.63|| 7.35
+|-
+| 76 || {{steady}} 0 || style="text-align:left;" | {{flag|Prstreula}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.39'''}} || {{steady}} 0 || 7.42 || 5.36 || 4.44 || 6.25|| 6.18
+|-
+| 77 || {{increase}} 1 || style="text-align:left;" | {{flag|Ztesh}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.24'''}} || {{decrease}} 0.07 || 8.33 || 5.36 || 6.67 || 1.88|| 7.35
+|-
+| 78 || {{decrease}} 1 || style="text-align:left;" | {{flag|Dahe}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.21'''}} || {{decrease}} 0.12 || 7 || 4.29 || 5.56 || 6.25|| 6.18
+|-
+| 79 || {{increase}} 2 || style="text-align:left;" | {{flag|Sadain}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.21'''}} || {{increase}} 0.11 || 7.92 || 3.29 || 5 || 6.88|| 5.59
+|-
+| 80 || {{decrease}} 1 || style="text-align:left;" | {{flag|Estijan}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.21'''}} || {{steady}} 0 || 8.75 || 5.71 || 5 || 2.5|| 6.47
+|-
+| 81 || {{decrease}} 1 || style="text-align:left;" | {{flag|Rethern}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.21'''}} || {{decrease}} 0.16 || 8.75 || 5.93 || 3.89 || 5|| 4.71
+|-
+| 82 || {{increase}} 2 || style="text-align:left;" | {{flag|lasri}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.18'''}} || {{decrease}} 0.07 || 7.83 || 2.71 || 6.11 || 5.63|| 5.59
+|-
+| 83 || {{increase}} 4 || style="text-align:left;" | {{flag|Iainoa}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.18'''}} || {{increase}} 0.07 || 6.58 || 5 || 4.44 || 5.63|| 5.29
+|-
+| 84 || {{increase}} 6 || style="text-align:left;" | {{flag|Trevilla}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.12'''}} || {{increase}} 0.18 || 7.92 || 4.29 || 6.11 || 3.13|| 5.29
+|-
+| 85 || {{steady}} 0 || style="text-align:left;" | {{flag|Seytinemas}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.08'''}} || {{decrease}} 0.17 || 6.58 || 3.93 || 6.11 || 5.63|| 4.41
+|-
+| 86 || {{steady}} 0 || style="text-align:left;" | {{flag|Rinew}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.07'''}} || {{decrease}} 0.15 || 6.92 || 5 || 7.22 || 1.88|| 5.59
+|-
+| 87 || {{increase}} 1 || style="text-align:left;" | {{flag|Umarcia}} || Flawed democracy || style="background:#c3eded;" | {{white|'''6.04'''}} || {{decrease}} 0.15 || 8.75 || 5 || 5.56 || 1.88|| 5
+|-
+|- class="sortbottom" id="Hybrid regimes"
+! colspan="11" | Hybrid regimes
+|-
+| 88 || {{increase}} 6 || style="text-align:left;" | {{flag|Astye}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.91'''}} || {{increase}} 0.06 || 4.42 || 5 || 5 || 6.88|| 4.71
+|-
+| 89 || {{increase}} 3 || style="text-align:left;" | {{flag|Ikzen}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.91'''}} || {{steady}} 0 || 2.75 || 4 || 3.89 || 6.88|| 7.94
+|-
+| 90 || {{increase}} 5 || style="text-align:left;" | {{flag|Isnti}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.88'''}} || {{steady}} 0 || 7 || 3.64 || 5 || 3.75|| 5.88
+|-
+| 91 || {{increase}} 2 || style="text-align:left;" | {{flag|Ozinia}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.7'''}} || {{decrease}} 0.05 || 3.5 || 5.36 || 6.67 || 5.63|| 4.12
+|-
+| 92 || {{decrease}} 1 || style="text-align:left;" | {{flag|Walporein}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.68'''}} || {{decrease}} 0.16 || 8.75 || 3.93 || 4.44 || 2.5|| 5.29
+|-
+| 93 || {{decrease}} 11 || style="text-align:left;" | {{flag|Kusierna}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.62'''}} || {{decrease}} 0.8 || 5.25 || 4.29 || 5.56 || 5.63|| 4.12
+|-
+| 94 || {{decrease}} 5 || style="text-align:left;" | {{flag|Exilium}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.62'''}} || {{decrease}} 0.5 || 5.17 || 2.71 || 7.22 || 5|| 4.41
+|-
+| 95 || {{increase}} 1 || style="text-align:left;" | {{flag|Eldavpir}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.62'''}} || {{decrease}} 0.1 || 3.42 || 3.93 || 5.56 || 5.63|| 5
+|-
+| 96 || {{increase}} 2 || style="text-align:left;" | {{flag|Onphello}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.58'''}} || {{steady}} 0 || 5.67 || 3.21 || 5.56 || 3.75|| 5.59
+|-
+| 97 || {{increase}} 3 || style="text-align:left;" | {{flag|Sivoso}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.49'''}} || {{increase}} 0.08 || 6.17 || 3.21 || 5.56 || 3.13|| 5
+|-
+| 98 || {{increase}} 1 || style="text-align:left;" | {{flag|Hkuqo}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.38'''}} || {{steady}} 0 || 4.83 || 5.36 || 5 || 2.5|| 5.29
+|-
+| 99 || {{increase}} 1 || style="text-align:left;" | {{flag|Elja and Munusia}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.34'''}} || {{steady}} 0 || 6.08 || 3.93 || 5 || 1.88|| 5.88
+|-
+| 100 || {{decrease}} 25 || style="text-align:left;" | {{flag|North Ayre}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.33'''}} || {{decrease}} 1.43 || 3.42 || 3.57 || 3.89 || 6.88|| 4.71
+|-
+| 101 || {{decrease}} 3 || style="text-align:left;" | {{flag|Pelines}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.31'''}} || {{decrease}} 0.24 || 4.42 || 4.29 || 3.89 || 5.63|| 4.12
+|-
+| 102 || {{increase}} 1 || style="text-align:left;" | {{flag|Niretui and Anulan}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.29'''}} || {{steady}} 0 || 6.08 || 2.57 || 5 || 5|| 3.53
+|-
+| 103 || {{increase}} 3 || style="text-align:left;" | {{flag|Pelan}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.24'''}} || {{increase}} 0.06 || 1.75 || 5.36 || 4.44 || 6.25|| 4.41
+|-
+| 104 || {{decrease}} 1 || style="text-align:left;" | {{flag|Areoix Lie}} 
+| Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.23'''}} || {{decrease}} 0 || 4.83 || 2.86 || 3.89 || 5|| 5
+|-
+| 105 || {{steady}} 0 || style="text-align:left;" | {{flag|Erkizil}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.22'''}} || {{steady}} 0.07 || 4.33 || 3.93 || 5.56 || 1.88|| 5.59
+|-
+| 106 || {{decrease}} 2 || style="text-align:left;" | {{flag|Niul Spijan}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.2'''}} || {{decrease}} 0.13 || 3.5 || 4.64 || 6.11 || 5|| 2.06
+|-
+| 107 || {{steady}} 0 || style="text-align:left;" | {{flag|Slyiaduun}} 
+| Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.19'''}} || {{decrease}} 0 || 4.33 || 2.86 || 4.44 || 5.63|| 3.89
+|-
+| 108 || {{increase}} 3 || style="text-align:left;" | {{flag|Tvecoca}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.15'''}} || {{decrease}} 0.18 || 5.17 || 3.57 || 3.89 || 3.75|| 4.41
+|-
+| 109 || {{steady}} 0 || style="text-align:left;" | {{flag|Etretes}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.11'''}} || {{steady}} 0 || 4.5 || 4.29 || 5.56 || 5|| 2.35
+|-
+| 110 || {{decrease}} 2 || style="text-align:left;" | {{flag|Andsaudare}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.07'''}} || {{decrease}} 0.11 || 4.5 || 4.29 || 3.89 || 5|| 3.89
+|-
+| 111 || {{increase}} 3 || style="text-align:left;" | {{flag|Zenashan}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.06'''}} || {{decrease}} 0.18 || 3.5 || 3.21 || 5.56 || 3.13|| 4.41
+|-
+| 112 || {{steady}} 0 || style="text-align:left;" | {{flag|Volver}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.01'''}} || {{decrease}} 0.03 || 3.08 || 0.79 || 6.67 || 3.13|| 4.12
+|-
+| 113 || {{increase}} 3 || style="text-align:left;" | {{flag|Taniduna}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.96'''}} || {{decrease}} 0.13 || 3.08 || 2.5 || 3.33 || 5|| 3.82
+|-
+| 114 || {{increase}} 7 || style="text-align:left;" | {{flag|Verste}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.93'''}} || {{increase}} 0.04 || 3.42 || 1.86 || 3.89 || 3.13|| 5.29
+|-
+| 115 || {{steady}} 0 || style="text-align:left;" | {{flag|Byllu}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.91'''}} || {{increase}} 0.24 || 1.58 || 0 || 8.33 || 3.75|| 3.53
+|-
+| 116 || {{decrease}} 6 || style="text-align:left;" | {{flag|Feio Lie}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.88'''}} || {{decrease}} 0.13 || 1.67 || 1.43 || 5.56 || 5|| 3.24
+|-
+| 117 || {{increase}} 2 || style="text-align:left;" | {{flag|Myla}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.79'''}} || {{decrease}} 0.48 || 1.42 || 4.29 || 3.33 || 5|| 2.65
+|-
+| 118 || {{increase}} 6 || style="text-align:left;" | {{flag|Ruylku}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.77'''}} || {{steady}} 0 || 3.08 || 2.86 || 4.44 || 2.5|| 3.53
+|-
+| 119 || {{decrease}} 1 || style="text-align:left;" | {{flag|Wundry}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.76'''}} || {{increase}} 0.06 || 0.42 || 2.86 || 6.11 || 5.63|| 1.18
+|-
+| 120 || {{increase}} 5 || style="text-align:left;" | {{flag|Hiwush}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.6'''}} || {{decrease}} 0.07 || 0 || 3.93 || 2.78 || 5.63|| 3.53
+|-
+| 121 || {{steady}} 0 || style="text-align:left;" | {{flag|Nia}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.52'''}} || {{steady}} 0 || 0.5 || 3.21 || 5 || 3.75|| 2.94
+|-
+| 122 || {{decrease}} 2 || style="text-align:left;" | {{flag|Deschon}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.51'''}} || {{decrease}} 0.06 || 0 || 4.29 || 2.78 || 5.63|| 2.65
+|-
+| 123 || {{decrease}} 2 || style="text-align:left;" | {{flag|Tonder}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.44'''}} || {{decrease}} 0.11 || 0.08 || 3.57 || 2.78 || 5|| 3.82
+|-
+| 124 || {{decrease}} 6 || style="text-align:left;" | {{flag|Viussi}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.39'''}} || {{decrease}} 0.2 || 0.92 || 2.14 || 3.33 || 5.63|| 2.94
+|-
+| 125 || {{increase}} 4 || style="text-align:left;" | {{flag|Far Lands}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.35'''}} || {{decrease}} 0.41 || 0 || 2.5 || 4.44 || 5|| 2.94
+|-
+| 126 || {{increase}} 2 || style="text-align:left;" | {{flag|Dual Cenryia}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.29'''}} || {{steady}} 0 || 0 || 2.36 || 5 || 5|| 2.35
+|-
+| 127 || {{increase}} 3 || style="text-align:left;" | {{flag|Jshain}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.21'''}} || {{decrease}} 0.08 || 0.83 || 2.21 || 3.89 || 3.75|| 3.53
+|-
+| 128 || {{decrease}} 1 || style="text-align:left;" | {{flag|Vesozata}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.18'''}} || {{steady}} 0 || 0.83 || 4.29 || 2.78 || 2.5|| 3.82
+|-
+| 129 || {{decrease}} 16 || style="text-align:left;" | {{flag|Otiiric}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.17'''}} || {{decrease}} 0.14 || 0.5 || 2.5 || 3.33 || 5|| 2.65
+|-
+| 130 || {{decrease}} 2 || style="text-align:left;" | {{flag|Maalle}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.13'''}} || {{decrease}} 0.72 || 4.83 || 0 || 6.11 || 1.88|| 1.18
+|-
+| 131 || {{increase}} 2 || style="text-align:left;" | {{flag|Ealdorii}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.12'''}} || {{decrease}} 0.07 || 0 || 2.5 || 4.44 || 3.75|| 3.24
+|-
+| 132 || {{decrease}} 3 || style="text-align:left;" | {{flag|Baluyde}} || Hybrid regime || style="background:#fad45d;" | {{white|'''4.09'''}} || {{steady}} 0 || 0.42 || 2.86 || 3.89 || 5|| 1.76
+|-
+|- class="sortbottom" id="Authoritarian regimes"
+! colspan="11" | Authoritarian regimes
+|-
+| 133 || {{decrease}} 2 || style="text-align:left;" | {{flag|Welenu Fana}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.94'''}} || {{steady}} 0 || 0.92 || 3.21 || 2.78 || 3.75|| 3.24
+|-
+| 134 || {{decrease}} 1 || style="text-align:left;" | {{flag|Finae}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.91'''}} || {{decrease}} 0.18 || 0 || 0.29 || 2.78 || 5.63|| 5
+|-
+| 135 || {{increase}} 2 || style="text-align:left;" | {{flag|Isuibul}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.86'''}} || {{decrease}} 0.07 || 0 || 1.64 || 3.89 || 5.63|| 2.35
+|-
+| 136 || {{increase}} 4 || style="text-align:left;" | {{flag|Pruim Fijan}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.68'''}} || {{steady}} 0 || 0 || 3.93 || 2.78 || 3.75|| 2.65
+|-
+| 137 || {{decrease}} 1 || style="text-align:left;" | {{flag|Taoisia}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.65'''}} || {{decrease}} 0.18 || 0 || 1.64 || 2.78 || 5.63|| 2.94
+|-
+| 138 || {{steady}} 0 || style="text-align:left;" | {{flag|Danocia}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.27'''}} || {{decrease}} 0.07 || 0 || 2.86 || 3.33 || 3.75|| 2.94
+|-
+| 139 || {{increase}} 17 || style="text-align:left;" | {{flag|Nheyes Si}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.26'''}} || {{decrease}} 0.18 || 0.33 || 2.14 || 3.89 || 4.38|| 2.06
+|-
+| 140 || {{decrease}} 2 || style="text-align:left;" | {{flag|Taing}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.1'''}} || {{increase}} 0.53 || 0 || 2.14 || 3.33 || 3.75|| 3.53
+|-
+| 141 || {{increase}} 4 || style="text-align:left;" | {{flag|Heiso}} || Authoritarian regime || style="background:#da820f;" | {{white|'''3.09'''}} || {{decrease}} 0.11 || 0.42 || 2.36 || 3.33 || 4.38|| 1.76
+|-
+| 142 || {{decrease}} 3 || style="text-align:left;" | {{flag|Rtesania}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.96'''}} || {{decrease}} 0.06 || 0 || 0 || 5 || 4.38|| 2.65
+|-
+| 143 || {{increase}} 3 || style="text-align:left;" | {{flag|Quidic}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.88'''}} || {{steady}} 0 || 1.25 || 0 || 3.89 || 3.75|| 2.65
+|-
+| 144 || {{steady}} 0 || style="text-align:left;" | {{flag|Umendel}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.87'''}} || {{steady}} 0 || 0.33 || 1.14 || 1.67 || 3.75|| 4.41
+|-
+| 145 || {{steady}} 0 || style="text-align:left;" | {{flag|Inrea}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.76'''}} || {{decrease}} 0.01 || 0 || 1.07 || 5 || 3.13|| 2.06
+|-
+| 146 || {{increase}} 4 || style="text-align:left;" | {{flag|Othya}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.68'''}} || {{decrease}} 0.02 || 0.83 || 1.14 || 2.22 || 3.75|| 2.94
+|-
+| 147 || {{increase}} 1 || style="text-align:left;" | {{flag|Ucrua}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.66'''}} || {{decrease}} 0.17 || 0 || 0 || 3.89 || 5|| 1.76
+|-
+| 148 || {{increase}} 4 || style="text-align:left;" | {{flag|Eparia}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.58'''}} || {{steady}} 0 || 0 || 3.21 || 3.33 || 3.13|| 0.88
+|-
+| 149 || {{increase}} 10 || style="text-align:left;" | {{flag|Phuris}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.57'''}} || {{decrease}} 0.17 || 0 || 1.86 || 2.78 || 5|| 0.88
+|-
+| 150 || {{decrease}} 6 || style="text-align:left;" | {{flag|Hyelen}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.56'''}} || {{decrease}} 0.42 || 0 || 2.14 || 2.78 || 3.75|| 1.76
+|-
+| 151 || {{steady}} 0 || style="text-align:left;" | {{flag|Letan}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.47'''}} || {{decrease}} 0.19 || 0 || 3.57 || 2.22 || 3.13|| 1.47
+|-
+| 152 || {{decrease}} 1 || style="text-align:left;" | {{flag|Saa}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.44'''}} || {{steady}} 0 || 0 || 0.43 || 3.33 || 4.38|| 2.06
+|-
+| 153 || {{decrease}} 1 || style="text-align:left;" | {{flag|Amcha}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.38'''}} || {{steady}} 0 || 2.17 || 0 || 2.78 || 3.13|| 2.06
+|-
+| 154 || {{decrease}} 1 || style="text-align:left;" | {{flag|Mesjan Hyaa}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.34'''}} || {{steady}} 0 || 0 || 2.14 || 2.22 || 3.75|| 2.06
+|-
+| 155 || {{decrease}} 4 || style="text-align:left;" | {{flag|Pelugrotoa}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.33'''}} || {{steady}} 0 || 0 || 0.79 || 3.33 || 4.38|| 1.47
+|-
+| 156 || {{decrease}} 1 || style="text-align:left;" | {{flag|Urbiqu}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.3'''}} || {{increase}} 0.24 || 0 || 2.14 || 0.56 || 6.88|| 0.29
+|-
+| 157 || {{decrease}} 3 || style="text-align:left;" | {{flag|United Mihili}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.11'''}} || {{steady}} 0 || 0 || 2.5 || 3.33 || 2.5|| 1.47
+|-
+| 158 || {{decrease}} 4 || style="text-align:left;" | {{flag|Iquir}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.09'''}} || {{increase}} 0.22 || 0 || 0 || 3.89 || 5|| 0.88
+|-
+| 159 || {{increase}} 1 || style="text-align:left;" | {{flag|Lieri}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.05'''}} || {{decrease}} 0.11 || 2.08 || 0.43 || 2.78 || 3.13|| 1.18
+|-
+| 160 || {{steady}} 0 || style="text-align:left;" | {{flag|Ihner}} || Authoritarian regime || style="background:#a8261f;" | {{white|'''2.04'''}} || {{steady}} 0 || 0 || 0.43 || 3.33 || 4.38|| 1.47
+|-
+| 161 || {{increase}} 1 || style="text-align:left;" | {{flag|Candenat}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.98'''}} || {{steady}} 0 || 0 || 0 || 3.33 || 3.75|| 2.35
+|-
+| 162 || {{decrease}} 1 || style="text-align:left;" | {{flag|Oscairia}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.86'''}} || {{decrease}} 0.3 || 0 || 2.21 || 1.67 || 4.38|| 0.88
+|-
+| 163 || {{increase}} 1 || style="text-align:left;" | {{flag|Zhanshe}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.8'''}} || {{decrease}} 0.11 || 0 || 2.86 || 1.67 || 3.75|| 0.29
+|-
+| 164 || {{decrease}} 2 || style="text-align:left;" | {{flag|Jathua}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.76'''}} || {{steady}} 0 || 0 || 0.79 || 2.22 || 5|| 0.29
+|-
+| 165 || {{steady}} 0 || style="text-align:left;" | {{flag|Shinam}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.53'''}} || {{steady}} 0 || 0 || 0 || 1.11 || 5.63|| 0.59
+|-
+| 166 || {{steady}} 0 || style="text-align:left;" | {{flag|Sattle}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.35'''}} || {{decrease}} 0.11 || 0 || 0 || 2.22 || 4.38|| 0
+|-
+| 167 || {{steady}} 0 || style="text-align:left;" | {{flag|Western Migoku}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.25'''}} || {{increase}} 0.01 || 0 || 0 || 1.67 || 1.88|| 2.35
+|-
+| 168 || {{steady}} 0 || style="text-align:left;" | {{flag|Galca}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.14'''}} || {{steady}} 0 || 0 || 0 || 1.54 || 4.38|| 0
+|-
+| 169 || {{steady}} 0 || style="text-align:left;" | {{flag|Migoku}} || Authoritarian regime || style="background:#66000f;" | {{white|'''1.09'''}} || {{steady}} 0 || 0 || 2.5 || 1.67 || 1.25|| 0
+|-
+| 170 || {{increase}} 1 || style="text-align:left;" | {{flag|Yoprioq}} || Authoritarian regime || style="background:#240011;" | {{white|'''0.95'''}} || {{decrease}} 0.01 || 0 || 0 || 1.67 || 3.13|| 0
+|-
+| 171 || {{steady}} 0 || style="text-align:left;" | {{flag|Shomjind}} || Authoritarian regime || style="background:#240012;" | {{white|'''0.67'''}} || {{decrease}} 0.12 || 0 || 0 || 0 || 1.25|| 0
+|-
+| 172 || {{steady}} 0 || style="text-align:left;" | {{flag|Ocaun}} || Authoritarian regime || style="background:#240013;" | {{white|'''0.61'''}} || {{increase}} 0.06 || 0 || 0.52 || 0 || 0|| 0
+|-
+|}
+
+[[Category:All country data templates|Slyiaduun]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Slyiaduun]]

@@ -1,0 +1,103 @@
+{{Infobox country
+| conventional_long_name = Republic of Letan
+| native_name            = ''__''  - Sianan
+| image_flag             = Letan Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = LEH-tahn
+| national_anthem        = /ˈlɛ.tɑːn/
+| image_map              = Letan Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Letan(green)
+| capital                = [[Actilica]]
+| largest_city           = [[Actilica]]
+| official_languages     = Sianan
+| demonym                = Letan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Letan
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Siana]]
+| area_rank              = 163rd
+| area_km2               = 1,646
+| area_sq_mi             = 636
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 5.93
+| population_estimate    = {{increaseNeutral}}76,045<ref name="POP LET">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.let/List_of_countries_and_dependencies_by_population/Letan|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 166th 
+| population_estimate_year = 1765
+| population_density_km2 = 46.2
+| population_density_rank = 91st
+| GDP_PPP                = {{increase}} {{lahn}}328.304 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/let/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 169th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}4,317
+| GDP_PPP_per_capita_rank = 152nd
+| GDP_nominal            = {{increase}} {{lahn}}123.422 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/let/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 169th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}1,623
+| GDP_nominal_per_capita_rank = 146th
+| HDI_year               = 1765
+| HDI                    = 0.720
+| HDI_change             = increase
+| HDI_rank               = 106th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Llocha]] (_) (LLO)
+| time_zone              = SET -8 (Standard Letan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .let
+| calling_code           = +780
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.let/ The Republic of Letan's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Letan] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/letan/ Letan]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

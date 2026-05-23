@@ -1,0 +1,83 @@
+{{Infobox settlement 
+| name = Moaneill
+| official_name = 
+| settlement_type = Overseas territories of [[Etirha]] 
+| image_map = 
+| image_map1 = 
+| map_caption = 
+| image_flag = Moaneill Flag.png
+| flag_size = 
+| image_seal = 
+| seal_size = 110
+| seal_type = Coat of arms
+| seal_link = Coat of arms of Moaneill
+| image_blank_emblem = Coat of arms of Moaneill.png
+| blank_emblem_size = 80
+| blank_emblem_type = Coat of arms of Moaneil
+| motto = 
+| subdivision_type = [[wikipedia:Sovereign_state|Sovereign state]]
+| subdivision_name = {{Flag|Etirha}}
+| demographics_type1 = Languages
+| demographics1_title1 = Official
+| demographics1_info1 = [[Ersuckl language|Ersuckl]]<br>[[Lastnu language|Lastnu]]
+| seat_type = Capital & largest city
+| seat = [[Talvasha]]
+| parts_type = [[Departments of Etirha|Departments]]
+| parts_style = list
+| parts = 1 (every overseas region consists of a department in itself)
+| leader_title1 = [[List of colonial and departmental heads of Moaneill|Prefect]]
+| leader_name1 = 
+| leader_title2 = [[High Wiaa of the Assembly]]
+| leader_name2 = 
+| leader_title3 = [[Legislature]]
+| leader_name3 = [[Assembly of Moaneill]]
+| area_footnotes = 
+| area_total_km2 = 298000
+| area_total_sq_mi = 115000
+| area_land_km2 = 297991
+| area_land_sq_mi = 115054
+| area_water_km2 = 1763
+| area_water_sq_mi = 680
+| population_footnotes = 
+| population_total = 2318440 
+| population_density_km2 = auto
+| population_demonym = Moaneillean
+| timezone = -4
+| demographics_type2 = GDP
+| demographics2_footnotes = 
+| demographics2_title1 = Total
+| demographics2_info1 = {{lahn}}39.513 Billion (1765)
+| demographics2_title2 = Per capita 
+| demographics2_info2 = {{lahn}}17,043 (1765)
+| blank_name_sec2 = Currency
+| blank_info_sec2 = [[Etirhan Kasare]] (_) (EKA) 
+}}
+
+'''Moaneill''', or is an overseas region of [[Etirha]] located on the eastern coast of [[New Ayre]] in the [[Demeeri]]. Bordered by [[Maalle]] and [[Nia]] to the west, [[Aplasia]] to the north, [[Veelmit]] to the south, and the [[Rianian Ocean]] to the east and south, Moaneill covers a total area of {{convert|298,000|km2|abbr=on}}
+[[File:Paramaribo WPM 20220915 221 106 L4 BAND4321.png|thumb| View of Talvasha from above, June 1758]]
+
+Moaneill is the ___-largest [[Regions of Etirha|region of Etirha]], being approximately one-fifth the size of [[Etirha|Mainland Etirha]]. It has a very low population density, with only {{convert|7.2|PD/sqkm|abbr=out}}. About a third of its residents live in its capital, [[Talvasha]]. Approximately 96.9% of Moaneill is covered by forests,<ref>{{cite web |url=http://www.fakioo.org/faostat/las/#data/EL |title=Fakioo – Land Use |publisher=[[Food and Agriculture Organization]]}}</ref> much of it [[wikipedia:Old-growth forest|primeval]] [[wikipedia:Tropical rainforest|rainforest]]. [[Moaneill Demeerian Park]], one of the largest [[wikipedia:national park|national park]] in the world, covers 81% of Moaneill's territory.
+
+Since December 1746, both the region and department have been ruled by a single assembly within the framework of a single territorial collectivity, the Moaneill Territorial Collectivity. This assembly, the [[Moaneill Assembly]], replaced the former [[Regional Council of Moaneill|regional council]], which was dissolved. The Moaneill Assembly is in charge of regional and departmental government. 
+[[File:Panorama depuis l'île Royale.jpg|thumb|View from the [[Reoda Islands]], [[Eulasti]]]]
+
+Fully integrated in the United Provinces of Etirha since 1696. A large part of Moaneill's economy depends on jobs and businesses associated with the presence of the [[Moaneill Space Centre]], a jointly owned Raledrian-Etirhan launch site near the equator. As elsewhere in Etirha, the official language is standard Ersuckl, but each ethnic community has its own language, of which [[Lastnu language]], a constructed language, is the most widely spoken. Moaneill is the only territory on the continental mainland of the [[New Ayre]] that is still under the sovereignty of a non-[[New Ayre|Ayren]] state.
+
+==Name==
+==History==
+{{Main|History of Moaneill}}
+
+==See also==
+* [[New Ayre]]
+* [[Etirha]]
+{{Clear}}
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist|colwidth=30em}}
+==Further reading==
+* {{Cite book |last1=Aldrich |first1=Raelly |title=Etirha's overseas frontier |last2=Connell |first2=Jhephos |date=1746 |publisher=[[Albiran University Press]] |location=Albiran}}
+* {{Cite book |last=Belben |first=Re |title=Book 1 |author-link=Re Belben|publisher=[[S. Lutton]] |year=1726 |location=Albiran}}
+* {{Cite book |last=Belben |first=Re |title=Hell on trial |publisher=[[Blue Books]] |year=1732 |location=Albiran}}

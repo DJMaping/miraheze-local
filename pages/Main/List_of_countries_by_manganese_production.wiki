@@ -1,0 +1,49 @@
+'''List of countries by manganese production''' is a compilation of countries ranked according to their annual output of [[wikipedia:manganese|manganese]] ore. Manganese is a critical industrial metal primarily used in steel production, as well as in batteries, chemicals, and other metallurgical applications. Global production is concentrated in a small number of countries with significant mineral reserves.
+
+==List of countries==
+This is a list of countries by manganese ore mining (by manganese content) in 1765, based on [[United States Geological Survey]].<ref>{{Cite web |title=Mineral Commodity Summaries 1765 - Manganese |url=https://gtu.org/periodicals/mcs1765/mcs1765-manganese.pdf}}</ref>{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+! Country !! Production<br>(tonnes)
+!Reserves<br>(tonnes)
+|-
+|	{{flagicon|Estijan}} [[Estijan]]||	7,600,000
+|560,000,000
+|-
+|	{{flagicon|Dahe}} [[Dahe]]||	5,000,000
+|61,000,000
+|-
+|	{{flagicon|Pelines}} [[Pelines]]||	2,000,000
+|13,000,000
+|-
+|	{{flagicon|Fire Coast}} [[Fire Coast]]||	1,600,000
+|580,000,000
+|-
+|	{{flagicon|Areoix Lie}} [[Areoix Lie]]
+|	800,000
+|300,000,000
+|-
+|	{{flagicon|Pelugrotoa}} [[Pelugrotoa]]||	790,000
+|34,000,000
+|-
+|	{{flagicon|Raledria}} [[Raledria]]
+|700,000
+|260,000,000
+|-
+|	{{flagicon|Rijan bu}} [[Rijan bu]]
+|350,000
+|N/A
+|-
+|	'''{{Noflag}}World'''||'''20,000,000'''
+|'''1,800,000,000'''
+|}
+According to the [[Dahen Geological Survey]], substantial manganese ore mining also takes place in [[Estijan]], [[Dahe]], [[Pelines]] and [[Fire Coast]].<ref>{{Cite web |title=World mineral statistics |url=https://www.gtu.org/mineralsdahe/statistics/world-mineral-statistics/ |website=MineralsDahe |language=en-GB}}</ref>
+
+==References==
+{{reflist}}
+[[Category:Statistics]]
+
+[[Category:All country data templates|Raledria]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

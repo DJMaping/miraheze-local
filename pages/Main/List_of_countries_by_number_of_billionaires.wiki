@@ -1,0 +1,191 @@
+{{Short description|None}}
+
+[[File:Countries_by_their_number_of_billionaires_by_net_worth.png|thumb|Countries by their number of billionaires by net worth (Lahn) in 1765:
+{{Col-begin}}
+{{Col-break}}
+{{legend|#b3b3b3|<small>No data or 0</small>}}
+{{legend|#FF6666|<small>1–2</small>}}
+{{legend|#CC3333|<small>3–5</small>}}
+{{legend|#990033|<small>6–10</small>}}
+{{Col-break}}
+{{legend|#660000|<small>11–50</small>}}
+{{legend|#330000|<small>51–150</small>}}
+{{legend|#000000|<small>>150</small>}}
+{{col-end}}|500x500px]]
+
+This is a '''list of countries by their number of billionaire residents''', based on annual assessments of the [[Net worth#Individuals|net worth]] in {{lahn}}[[Lahn]] of wealthy individuals worldwide.
+
+== ''Forbes'' ==
+
+{{further|The World's Billionaires}}
+
+{{sticky header}}
+{| class="wikitable sortable sticky-header"
+|+Per [[Krali]] (1765)
+! rowspan="2" | Rank
+! rowspan="2" | Country/Territory
+! colspan="2" | Billionaires
+! rowspan="2" | Change
+|-
+!1765
+!1764
+|-
+| 1 || {{flag| Dahe}}|| align="center" | 420 || align="center" | 413 || align="center" | +7
+|-
+| 2 || {{flag| Raledria}}
+| align="center" | 392 || align="center" | 386 || align="center" | +6
+|-
+| 3 || {{flag| Ztesh}}|| align="center" | 99 || align="center" | 96 || align="center" | +3
+|-
+| 4 || {{flag| Areoix Lie}}
+| align="center" | 87 || align="center" | 82 || align="center" | +5
+|-
+| 5 || {{flag| Emara}}|| align="center" | 75 || align="center" | 75 || align="center" | 0
+|-
+| 6 || {{flag| Pelugrotoa}}|| align="center" | 67 || align="center" | 63 || align="center" | +4
+|-
+| 7 || {{flag| Etirha}}|| align="center" | 55 || align="center" | 52 || align="center" | +3
+|-
+| 8 || {{flag| Verusa}}|| align="center" | 44 || align="center" | 48 || align="center" | -4
+|-
+| 9 || {{flag| Estijan}}|| align="center" | 35 || align="center" | 33 || align="center" | +2
+|-
+| 10 || {{flag| Pha Hii}}|| align="center" | 34 || align="center" | 37 || align="center" | -3
+|-
+| 11 || {{flag| Lycroa}}
+| align="center" | 32 || align="center" | 29 || align="center" | +3
+|-
+| 12 || {{flag| Verste}}|| align="center" | 28 || align="center" | 28 || align="center" | 0
+|-
+| 13 || {{flag| Sunsokua}}|| align="center" | 19 || align="center" | 17 || align="center" | +2
+|-
+| 14 || {{flag| Ealdorii}}|| align="center" | 18 || align="center" | 12 || align="center" | +6
+|-
+| 15 || {{flag| Prystr Hii}}|| align="center" | 17 || align="center" | 18 || align="center" | -1
+|-
+| 16 || {{flag| United Delet}}|| align="center" | 15 || align="center" | 14 || align="center" | +1
+|-
+| 17 || {{flag| Ukhdari}}|| align="center" | 12 || align="center" | 13 || align="center" | -1
+|-
+| 18 || {{flag| Arbiya}}|| align="center" | 11 || align="center" | 11 || align="center" | 0
+|-
+| 19 || {{flag| Quidic}}|| align="center" | 10 || align="center" | 10 || align="center" | 0
+|-
+| 19 || {{flag| Ahokini}}|| align="center" | 10 || align="center" | 8 || align="center" | +2
+|-
+| 21 || {{flag| Sanagara}}|| align="center" | 9 || align="center" | 7 || align="center" | +2
+|-
+| 22 || {{flag| Inania}}|| align="center" | 8 || align="center" | 8 || align="center" | 0
+|-
+| 22 || {{flag| Ilicuhe}}|| align="center" | 8 || align="center" | 9 || align="center" | -1
+|-
+| 24 || {{flag| Praesyu}}
+| align="center" | 7 || align="center" | 5 || align="center" | +2
+|-
+| 24 || {{flag| New Misos}}|| align="center" | 7 || align="center" | 4 || align="center" | +3
+|-
+| 24 || {{flag| Chaenia}}|| align="center" | 7 || align="center" | 8 || align="center" | -1
+|-
+| 27 || {{flag| Yaxuto}}|| align="center" | 6 || align="center" | 5 || align="center" | +1
+|-
+| 27 || {{flag| Vayvele}}
+| align="center" | 6 || align="center" | 6 || align="center" | 0
+|-
+| 27 || {{flag| United Mihili}}|| align="center" | 6 || align="center" | 1 || align="center" | +5
+|-
+| 27 || {{flag| Myla}}|| align="center" | 6 || align="center" | 6 || align="center" | 0
+|-
+| 31 || {{flag| Ashain}}|| align="center" | 6 || align="center" | 7 || align="center" | -1
+|-
+| 32 || {{flag| Siana}}|| align="center" | 5 || align="center" | 2 || align="center" | +3
+|-
+| 32 || {{flag| Anymna}}|| align="center" | 5 || align="center" | 4 || align="center" | +1
+|-
+| 34 || {{flag| Trian}}|| align="center" | 4 || align="center" | 2 || align="center" | +2
+|-
+| 34 || {{flag| Finae}}|| align="center" | 4 || align="center" | 3 || align="center" | +1
+|-
+| 36 || {{flag| Seytinemas}}|| align="center" | 3 || align="center" | 3 || align="center" | 0
+|-
+| 36 || {{flag| Pelines}}|| align="center" | 3 || align="center" | 3 || align="center" | 0
+|-
+| 36 || {{flag| Merela Sta}}|| align="center" | 3 || align="center" | 3 || align="center" | 0
+|-
+| 39 || {{flag| Wundry}}|| align="center" | 2 || align="center" | 0 || align="center" | +2
+|-
+| 39 || {{flag| Terressin}}|| align="center" | 2 || align="center" | 0 || align="center" | +2
+|-
+| 39 || {{flag| Taval}}|| align="center" | 2 || align="center" | 0 || align="center" | +2
+|-
+| 39 || {{flag| Ocaun}}|| align="center" | 2 || align="center" | 1 || align="center" | +1
+|-
+| 39 || {{flag| Laselteh}}
+| align="center" | 2 || align="center" | 1 || align="center" | +1
+|-
+| 39 || {{flag| Genaire}}|| align="center" | 2 || align="center" | 1 || align="center" | +1
+|-
+| 39 || {{flag| Fermori}}|| align="center" | 2 || align="center" | 0 || align="center" | +2
+|-
+| 39 || {{flag| Eldjo}}|| align="center" | 2 || align="center" | 1 || align="center" | +1
+|-
+| 47 || {{flag| Volver}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Vesozata}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Umarcia}}|| align="center" | 1 || align="center" | 0 || align="center" | +1
+|-
+| 47 || {{flag| Suenan}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Selaja}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Sadain}}|| align="center" | 1 || align="center" | 0 || align="center" | +1
+|-
+| 47 || {{flag| Reerica}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Palina}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Oyreain}}|| align="center" | 1 || align="center" | 0 || align="center" | +1
+|-
+| 47 || {{flag| Ohtina}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Lydroa}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Haiza}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Gaeiya}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Etretes}}|| align="center" | 1 || align="center" | 0 || align="center" | +1
+|-
+| 47 || {{flag| Dual Cenryia}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Desaki}}|| align="center" | 1 || align="center" | 1 || align="center" | 0
+|-
+| 47 || {{flag| Astye}}|| align="center" | 1 || align="center" | 0 || align="center" | +1
+|-
+|}
+
+== See also ==
+* [[List of cities by number of billionaires]]
+* [[List of countries by number of millionaires]]
+* [[List of countries by share of income of the richest one percent]] 
+* ''[[The World's Billionaires]]''
+* [[Millionaire]]
+* [[List of wealthiest families]]
+{{DEFAULTSORT:Billionaires}}
+
+[[Category:All country data templates|Germany]]
+[[Category:Articles with hatnote templates targeting a nonexistent page|Billionaires]]
+[[Category:Articles with short description|Billionaires]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Flag icons missing country data templates|Billionaires]]
+[[Category:Lists of countries by economic indicator|Billionaires]]
+[[Category:Lists of people by wealth|Billionaires]]
+[[Category:Pages using the JsonConfig extension|Billionaires]]
+[[Category:Pages with broken file links|Billionaires]]
+[[Category:Statistics|Billionaires]]
+[[Category:Templates using TemplateData|Billionaires]]
+[[Category:Uncategorized country data templates|Vayvele]]
+[[Category:Wikipedia pages with incorrect protection templates|List of countries by number of billionaires]]

@@ -1,0 +1,70 @@
+{{Infobox continent
+|title          = Mahea
+|image          = Mahea Map.png
+|imagecaption   = Location of Mahea
+|area           = {{convert|16,973,205|km2|sqmi|abbr=on}}
+|population     = 1,287,320,000 (1765)
+|density        = {{convert|75.84|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}$17.876 trillion
+|GDP_nominal    = {{lahn}}$9.092 trillion
+|GDP_per_capita = {{lahn}}$7,063
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Mahean
+|countries      = 25
+|list_countries = 
+|dependencies   = 6
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+*[[Ashani Language|Ashani]]
+*[[Cenryi Language|Cenryi]]
+*[[Inanian Language|Inanian]]
+*[[Lastnu Language|Lastnu]]
+*[[Ocunese Language|Ocunese]]
+*[[Pelugrotoan Language|Pelugrotoan]]
+*[[Seytinemasi Language|Seytinemasi]]
+*[[Sunsokuan Language|Sunsokuan]]
+*[[Trian Language|Trian]]
+*[[Vayvelean Language|Vayvelean]]
+}}
+|time           = UTC +3 to +6
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Fashti]]
+*[[Havok]]
+*[[Hikrum]]
+*[[Kaisri]]
+*[[Kejira]]
+*[[Mahsira]]
+*[[Mikalu]]
+*[[Panstel]]
+*[[Pothin]]
+*[[Thavrin]]
+*[[Varnan]]
+*[[Veshtak]]
+*[[Vrandig]]
+*[[Vulna]]
+*[[Zilvak]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Mahea''' is a continent located in the southern hemisphere. It is bordered by the [[Acrola]] to the north, the [[Hinsakian Ocean]] to the west, [[Krta Sea]], [[Ubrana Sea]] and [[Trayd Sea]] to the east, and the [[Haanian Ocean]] to the south. The continent covers around {{convert|16,973,205|km2|sqmi|abbr=on}} of land, making it the 5th largest continent in the world, with a total of about 1,287,320,000 as of 1765, making it also the 2nd largest continent by population behind [[Massir]].
+
+[[Category:Convert errors|16,973,205km2]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Mahea]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,65 @@
+{{Infobox continent
+|title          = Massir
+|image          = Massir Map.png
+|imagecaption   = Location of Massir
+|area           = {{convert|17,731,160|km2|sqmi|abbr=on}}
+|population     = 1,389,670,000 (1765)
+|density        = {{convert|78.37|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}24.347 trillion
+|GDP_nominal    = {{lahn}}12.830 trillion
+|GDP_per_capita = {{lahn}}9,233
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Massiran
+|countries      = 26
+|list_countries = 
+|dependencies   = 4
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+*[[Alqiran Language|Alqiran]]
+*[[Dahen Language|Dahen]]
+*[[Emaran Language|Emaran]]
+*[[Hujan Language|Hujan]]
+*[[Lastnu Language|Lastnu]]
+*[[Sanagaran Language|Sanagaran]]
+*[[Suenan Language|Suenan]]
+*[[Vesozatan Language|Vesozatan]]
+}}
+|time           = UTC -2 to +3
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Bhaliloi]]
+*[[Fekhalai]]
+*[[Fekunza]]
+*[[Korvani]]
+*[[Koyaya]]
+*[[Shatiruk]]
+*[[Shinlotha]]
+*[[Suraspa]]
+*[[Tamalpura]]
+*[[Vukwazi]]
+*[[Weregami]]
+*[[Xuqilin]]
+*[[Zhangola]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Massir''' is a continent located in the southern hemisphere. It is bordered by the [[Vihsanna Ocean]] to the north, the [[Diairesi Dea]], [[Krta Sea]], [[Ubrana Sea]] and [[Trayd Sea]] to the east, [[Hinsakian Ocean]] to the south, and the [[Southern Eanif Ocean]], [[Sheilia Bay]] and [[Sea of Miali]] to the south. The continent covers around {{convert|17,731,160|km2|sqmi|abbr=on}} of land, making it the 4th largest continent in the world, with a total of about 1,389,670,000 as of 1765, making it also the 1st largest continent by population.
+
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Massir]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,126 @@
+{{Infobox country
+| conventional_long_name = Sattle
+| native_name            = ''__''  - Sattlean
+| image_flag             = Sattle Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = SAT-ul
+| national_anthem        = /ˈsæt.əl/
+| image_map              = Sattle Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Sattle(green)
+| capital                = [[Espralit]]
+| largest_city           = [[Espralit]]
+| official_languages     = Sattlean
+| regional_languages     = 22+ [[regional languages]]
+| ethnic_groups          = 77.3% [[Tzinalli]]
+{{tree list}}
+*8.4% [[Kelhari]]
+**6.2% [[Oruun]]
+**2.2% [[Thimoruun]]
+{{tree list/end}}3.1% [[Acrolan traditional religions|traditional faiths]]<br>1.9% [[Kallimethra]]<br>9.3% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.sat/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Sattle]] }}</ref>
+| religion               = 61.5% Irreligion<br>14.5% ______<br>12.3% _______<br>4.9% _____<br>3.2% _____<br>2.1% Others<br>1.5% N/a
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.sat/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Sattle]] }}</ref>
+| demonym                = Sattlean
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Sattle
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Lycroa]]
+| established            = 
+| established_event1     = [[Lycroan Colony]]
+| established_date1      = 1650 AFA
+| established_event2     = [[Treaty of Fraud]]
+| established_date2      = 1667 AFA
+| established_event3     = republic
+| established_date3      = 1669 AFA
+| established_event4     = [[Iquir independence war]]
+| established_date4      = 1675 AFA
+| established_event5     = Current constitution
+| established_date5      = 1704 AFA
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 103rd
+| area_km2               = 232,273
+| area_sq_mi             = 89,681
+| population_estimate    = {{increaseNeutral}}9,388,000<ref name="POP SAT">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.sat/List_of_countries_and_dependencies_by_population/Sattle|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 97th
+| population_estimate_year = 1765
+| population_density_km2 = 40.4
+| population_density_rank = 102nd 
+| GDP_PPP                = {{increase}} {{lahn}}18.214 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sat/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 135th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}1,940
+| GDP_PPP_per_capita_rank = 161st
+| GDP_nominal            = {{increase}} {{lahn}}6.259 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sat/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 141st
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}667
+| GDP_nominal_per_capita_rank = 160th
+| HDI_year               = 1765
+| HDI                    = 0.474
+| HDI_change             = increase
+| HDI_rank               = 164th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Sattlean Qekinin]] (_) (SQE)
+| time_zone              = SET +4 (Standard Sattlean Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .sat
+| calling_code           = +911
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.sat/ Sattle's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Sattle] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/sattle/ Sattle]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

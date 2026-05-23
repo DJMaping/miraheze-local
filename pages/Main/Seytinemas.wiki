@@ -1,0 +1,132 @@
+{{Infobox country
+| conventional_long_name = Republic of Seytinemas
+| native_name            = ''__''  - Seytinemasi
+| image_flag             = Seytinemas Flag.png
+| image_coat             = Seytinemas logo.png
+| alt_coat               = Seytinemas Coat of arms
+| symbol_type            = 
+| national_motto         = SAY-tee-neh-mahs
+| national_anthem        = /ˈseɪ.ti.nɛ.mɑːs/
+| image_map              = Seytinemas Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Seytinemas(green)
+| capital                = [[Vulna]]
+| largest_city           = [[Vulna]]
+| official_languages     = Seytinemasi
+| regional_languages     = Cenryi<br>Chaenian<br>Emaran<br>Lierin<br>Trian
+| ethnic_groups          = 62.4% Seytinemasi<br>19.2% [[Dual Cenryia|Cenryi]]<br>10.0% [[Lieri|Lierin]]<br>4.8% [[Chaenia|Chaenian]]<br>1.5% [[Trian]]<br>2.1% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.sey/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Seytinemas]] }}</ref>
+| religion               = 49.5% [[Kallimethra]]<br>45.3% [[Thessovai]]<br>2.1% [[wikipedia:Irreligion|None]]<br>3.1% [[Religion in Seytinemas|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.sey/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Seytinemas]] }}</ref>
+| demonym                = Seytinemasi
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Seytinemas
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = Seytinemasi Empire
+| established_date1      = 1146 AFA
+| established_event2     = [[Emara|Emaran Colony]]
+| established_date2      = 1633 AFA
+| established_event3     = Independence
+| established_date3      = 1705 AFA
+| established_event4     = Current Republic
+| established_date4      = 1732 AFA
+| area_rank              = 42nd
+| area_km2               = 877,397
+| area_sq_mi             = 338,765
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 3.12
+| population_estimate    = {{increaseNeutral}}71,957,000<ref name="POP SEY">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.sey/List_of_countries_and_dependencies_by_population/Seytinemas|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+
+| population_estimate_rank = 25st
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}69,720,000<ref>{{cite web|url=https://www.gov.sey/1765/caX3a/SEYTINEMAS_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Seytinemas]] }}</ref>
+| population_census_year = 1762
+| population_density_km2 = 82.0
+| population_density_sq_mi = 31.7
+| population_density_rank = 55th
+| GDP_PPP                = {{increase}} {{lahn}}1.479 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sey/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 16th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,555
+| GDP_PPP_per_capita_rank = 38th
+| GDP_nominal            = {{increase}} {{lahn}}790 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sey/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 16st
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}10,992
+| GDP_nominal_per_capita_rank = 51st
+| HDI_year               = 1765
+| HDI                    = 0.832
+| HDI_change             = decrease
+| HDI_rank               = 56th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Seytinemas Velleci]] (_) (SVE)
+| time_zone              = SST +3 (Standard Seytinemasi Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .sey
+| calling_code           = +921
+}}
+'''Seytinemas''', officially the '''Republic of Seytinemas''', is a country in [[West Mahea]]. Situated on around the [[Lanol]] River, it shares land borders with [[Trian]] to the west, [[Sivoso]] and [[Lieri]] to the north, [[Pelugrotoa]] and [[Taing]] to the east, and [[Chaenia]] and [[Dual Cenryia]] to the south. The [[Ubrana Sea]] lies to the east of the mainland. It has a [[List of countries and dependencies by population|population of over 70 million]]. [[Vulna]] is the nation's capital and largest city.
+
+In the 4th to 11th century, the region was a battleground for ancient [[Trians]], [[Huans]], [[Cenryi]], and Seytinemese. Stability came when the [[Seytinemasi Empire]] conquered the region in 1164. After the [[Pashal Elunt]] state splintered, tribal invasions in the region resumed. Around the 11th century, these territories were settled by the [[Early Seytinemes Culture|early Seytinemes]], with the [[Trian Migration|trian minority migrating west]]. It dominated most of the [[West Mahea]] and significantly influenced surrounding cultures by developing the Modern [[Tiaaoan script]]. Under the rule of the [[Oum's dynasty]], the country rose to the status of a mighty empire and great power. The [[Seytinemasi Empire]] lasted until the early 13th century, when [[Sivoso|Sivosan]] emperor [[Dialq the Great]] conquered and dismantled it. A successful [[Seytinemese revolt in 1241]] established a [[Second Seytinemasi Empire]], which reached. After numerous exhausting wars and feudal strife, the empire disintegrated, and in 1244, fell under Sivosan rule again for nearly [[four centuries]].
+
+The [[Trian Independence war|Trian Independence war of 1628-1633]] resulted in the formation of the third and current [[Seytinemese state]], which declared independence from the [[Sivoan Empire]] in 1631, though became an [[Emara|Emaran]] colony in just a few years later in 1634. Many ethnic Seytinemese were left outside the new nation's borders which stoked [[Wikipedia:Irredentism|irredentist]] sentiments that led to several conflicts with its neighbours after independence and alliances with [[Dahe]]. In 1707, Seytinemas came under the [[Estijan|Estijan-led]] Sphere and became a nationalistic state. The ruling [[Nationalistic Party of Seytinemas|Nationalistic Party]] gave up its monopoly on power after the [[Seytinemese Civil War|Civil War]] lasting from 1717-1719. Seytinemas then transitioned into a [[Wikipedia:Democracy|democracy]], and allowed multiparty elections.
+
+Owing to [[Seytinemese economic miracle|record economic growth from 1720 to 1740]], Seytinemas is a [[Wikipedia:Developed_country|developed country]] with an advanced high-income economy: [[Wikipedia:Manufacturing|manufacturing]] and [[Wikipedia:Tourism|tourism]] are major economic sectors, with Seytinemas being the ninth most-visited country in the world in 2024. Seytinemas is part of multiple international organisations and forums. The country's rich historical legacy is reflected partly by its 31 [[Global Heritage Sites|Global Heritage Sites.]]
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.sey/ The Republic of Seytinemas's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Seytinemas] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/seytinemas/ Seytinemas]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages using the JsonConfig extension]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

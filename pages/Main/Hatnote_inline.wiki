@@ -1,0 +1,10 @@
+{{#invoke:Hatnote inline|hatnoteInline
+ |1={{{1|{{{text|{{{content}}}}}}}}}
+ |extraclasses={{{class|{{{extraclasses|}}}}}}
+ |selfref={{#if:{{{printworthy|{{{selfref|}}}}}}||yes}}
+ |category={{{category|}}}
+ |inline={{{inline|true}}}
+}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>

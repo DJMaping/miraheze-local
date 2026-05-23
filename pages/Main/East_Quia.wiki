@@ -1,0 +1,80 @@
+{{Infobox continent
+|title          = East Quia
+|image          = East Quia Globe.png
+|imagecaption   = Location of East Quia
+|area           = {{convert|8,401,652|km2|sqmi|abbr=on}}
+|population     = 123,174,103 (1765)
+|density        = {{convert|14.66|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}1.819 trillion
+|GDP_nominal    = {{lahn}}871.94 billion
+|GDP_per_capita = {{lahn}}7,079
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = East Quian
+|countries      = 7
+|list_countries = 
+|dependencies   = 3
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Finaean Language|Finaean]]
+* [[Mylanese Language|Mylanese]]
+* [[Onphellan Language|Onphellan]]
+* [[Tauber Language|Tauber]]
+* [[Toroait Language|Toroait]]
+}}
+|time           = UTC -11 to -8
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Bolar]]
+* [[Drolmukhazin]]
+* [[Erkadu]]
+* [[Hisara]]
+* [[Jokla]]
+* [[Mankat]]
+* [[MavagaT]]
+* [[Skorilantheda]]
+* [[Tumnar]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''East Quia''' is a sub-continent located in the southern hemisphere. It is bordered the [[South Quia]] to the south, [[North Quia]] to the west, the [[Northern Eanif Ocean]] to the north, and the [[Southern Eanif Ocean]] to the east. The continent covers around {{convert|8,401,652|km2|sqmi|abbr=on}} of land, making it the 4th largest continent in the world, with a total of about 123,174,103 as of 1765, making it also the 18th largest continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Finae}} || [[Finae]] || style="text-align:right;" | 440,878 || style="text-align:right;" | 31,745,420 || style="text-align:right;" | 72 || [[Hishara]]
+|-
+| style="text-align:center;"| {{flagicon|Hyelen}} || [[Hyelen]] || style="text-align:right;" | 154,449 || style="text-align:right;" | 1,724,423 || style="text-align:right;" | 11 || [[PrajuleD]]
+|-
+| style="text-align:center;"| {{flagicon|Myla}} || [[Myla]] || style="text-align:right;" | 431,272 || style="text-align:right;" | 42,672,208 || style="text-align:right;" | 99 || [[Erkadu]]
+|-
+| style="text-align:center;"| {{flagicon|Nheyes Si}} || [[Nheyes Si]] || style="text-align:right;" | 266,831 || style="text-align:right;" | 12,224,862 || style="text-align:right;" | 46 || [[MavagaT]]
+|-
+| style="text-align:center;"| {{flagicon|Onphello}} || [[Onphello]] || style="text-align:right;" | 255,572 || style="text-align:right;" | 10,233,103 || style="text-align:right;" | 40 || [[Khazor]]
+|-
+| style="text-align:center;"| {{flagicon|Volver}} || [[Volver]] || style="text-align:right;" | 1,542,246 || style="text-align:right;" | 17,219,177 || style="text-align:right;" | 11 || [[Drolmukhazin]]
+|-
+| style="text-align:center;"| {{flagicon|Zhanshe}} || [[Zhanshe]] || style="text-align:right;" | 5,310,404 || style="text-align:right;" | 7,354,910 || style="text-align:right;" | 1 || [[Tumnar]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 8,401,652
+| style="text-align:right;"| 123,174,103
+| style="text-align:right;"| 15
+|}erences==
+{{reflist}}
+[[Category:Geoscheme]]

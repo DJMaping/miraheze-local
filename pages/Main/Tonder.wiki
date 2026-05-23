@@ -1,0 +1,116 @@
+{{Infobox country
+| conventional_long_name = Republic of Tonder
+| native_name            = ''__''  - Duhmi
+| image_flag             = Tonder Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = TON-der
+| national_anthem        = /ˈtɒn.dər/
+| image_map              = Tonder Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Tonder(green)
+| capital                = [[Tonder]]
+| largest_city           = [[Tonder]]
+| official_languages     = Duhmi
+| ethnic_groups          = 93.2% Tonderian<br>6.8% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.ton/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Tonder]] }}</ref>
+| religion               = 49.4% [[wikipedia:Irreligion|Irreligion]]
+{{tree list}}
+*37.9% [[Kelhari]]
+**27.1% [[Kelhari Veth]]
+**10.8% [[Thimoruun]]
+{{tree list/end}}
+12.7% [[Religion in ___|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ton/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Tonder]] }}</ref>
+| demonym                = Tonderian
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Tonder
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Inependence
+| sovereignty_note       = from [[Urbiqu]]
+| area_rank              = 146th
+| area_km2               = 21,990
+| area_sq_mi             = 8,490
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}143,900<ref name="POP TON">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.ton/List_of_countries_and_dependencies_by_population/Tonder|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 146th
+| population_estimate_year = 1765
+| population_density_km2 = 6.5
+| population_density_rank = 154th
+| GDP_PPP                = {{increase}} {{lahn}}456.4 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ton/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 167th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,171
+| GDP_PPP_per_capita_rank = 157th
+| GDP_nominal            = {{increase}} {{lahn}}154.2 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ton/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+
+| GDP_nominal_rank       = 168th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}1,071
+| GDP_nominal_per_capita_rank = 155th
+| HDI_year               = 1765
+| HDI                    = 0.662
+| HDI_change             = increase
+| HDI_rank               = 132nd
+| HDI_ref                = <!--(for any ref/s to associate with HDI number)-->
+| currency               = [[Tonderian Zundetra]] (_) (TZU)
+| time_zone              = STN +1 (Standard Tonderian Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .ton
+| calling_code           = +185
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ton/ The Republic of Tonder's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Tonder] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/tonder/ Tonder]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

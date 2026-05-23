@@ -1,0 +1,107 @@
+{{Infobox continent
+|title          = North Massir
+|image          = North Massir Globe.png
+|imagecaption   = Location of North Massir
+|area           = {{convert|5,790,442|km2|sqmi|abbr=on}}
+|population     = 197,726,757 (1765)
+|density        = {{convert|34.15|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}1.826 trillion
+|GDP_nominal    = {{lahn}}806.046 billion
+|GDP_per_capita = {{lahn}}4,077
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = North Massiran
+|countries      = 12
+|list_countries = 
+|dependencies   = 18
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Alqiran Language|Alqiran]]
+* [[Fanian Language|Fanian]]
+* [[Haizan Language|Haizan]]
+* [[Hujan Language|Hujan]]
+* [[Migokan Language|Migokan]]
+* [[Oscairian Language|Oscairian]]
+* [[Rickeic Language|Rickeic]]
+* [[Shinamese Language|Shinamese]]
+* [[Silin Language|Silin]]
+}}
+|time           = UTC +1 to +2
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Chavira]]
+* [[Fermahal]]
+* [[Mirzulek]]
+* [[Morzelka]]
+* [[Palnoro]]
+* [[Suraspa]]
+* [[Tamalpura]]
+* [[Tijhara]]
+* [[Zundalor]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''North Massir''' is a sub-continent located in the southern hemisphere. It is bordered the [[South Massir]] and [[West Massir]] to the south, [[Eashor]] and [[Vihsanna Ocean]] to the west, the [[Diairesi Sea]] to the north, and the [[Kera Sea]] to the east. The continent covers around {{convert|5,790,442|km2|sqmi|abbr=on}} of land, making it the 9th largest sub-continent in the world, with a total of about 197,726,757 as of 1765, making it also the 14th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Canldives}} || [[Canldives]] || style="text-align:right;" | 5,418 || style="text-align:right;" | 759,043 || style="text-align:right;" | 140 || [[Maranthulo]]
+|-
+| style="text-align:center;"| {{flagicon|Haiza}} || [[Haiza]] || style="text-align:right;" | 739,599 || style="text-align:right;" | 17,079,116 || style="text-align:right;" | 23 || [[Chavira]]
+|-
+| style="text-align:center;"| {{flagicon|Ihner}} || [[Ihner]] || style="text-align:right;" | 541,922 || style="text-align:right;" | 6,257,140 || style="text-align:right;" | 12 || [[Talmeera]]
+|-
+| style="text-align:center;"| {{flagicon|Migoku}} || [[Migoku]] || style="text-align:right;" | 1,011,994 || style="text-align:right;" | 6,231,859 || style="text-align:right;" | 6 || [[Trisande]]
+|-
+| style="text-align:center;"| {{flagicon|Oscairia}} || [[Oscairia]] || style="text-align:right;" | 497,086 || style="text-align:right;" | 22,386,666 || style="text-align:right;" | 45 || [[Morzelka]]
+|-
+| style="text-align:center;"| {{flagicon|Pruim Fijan}} || [[Pruim Fijan]] || style="text-align:right;" | 143,234 || style="text-align:right;" | 3,307,617 || style="text-align:right;" | 23 || [[Senkowari]]
+|-
+| style="text-align:center;"| {{flagicon|Ruylku}} || [[Ruylku]] || style="text-align:right;" | 404,675 || style="text-align:right;" | 11,838,201 || style="text-align:right;" | 29 || [[Kelvizu]]
+|-
+| style="text-align:center;"| {{flagicon|Shinam}} || [[Shinam]] || style="text-align:right;" | 494,101 || style="text-align:right;" | 31,948,027 || style="text-align:right;" | 65 || [[Mirzulek]]
+|-
+| style="text-align:center;"| {{flagicon|Taval}} || [[Taval]] || style="text-align:right;" | 345,341 || style="text-align:right;" | 44,529,546 || style="text-align:right;" | 129 || [[Suraspa]]
+|-
+| style="text-align:center;"| {{flagicon|Ucrua}} || [[Ucrua]] || style="text-align:right;" | 619,575 || style="text-align:right;" | 30,764,253 || style="text-align:right;" | 50 || [[Frevinta]]
+|-
+| style="text-align:center;"| {{flagicon|Welenu Fana}} || [[Welenu Fana]] || style="text-align:right;" | 774,542 || style="text-align:right;" | 19,674,606 || style="text-align:right;" | 25 || [[Skalvira]]
+|-
+| style="text-align:center;"| {{flagicon|Western Migoku}} || [[Western Migoku]] || style="text-align:right;" | 212,955 || style="text-align:right;" | 2,950,683 || style="text-align:right;" | 14 || [[Jemlosta]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 12
+| style="text-align:right;"| 5,790,442
+| style="text-align:right;"| 197,726,757
+| style="text-align:right;"| 34
+|}
+
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

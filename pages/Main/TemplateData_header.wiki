@@ -1,0 +1,30 @@
+<div class="templatedata-header">{{#if:{{{noheader|}}}|<!--
+ noheader:
+-->{{Template parameter usage|{{{1|{{BASEPAGENAME}}}}}|based=y}}|<!--
+ +header:
+-->This is the {{#if:{{{nolink|}}}|<!--
+  +header, nolink TD
+  -->TemplateData|<!--
+  +header,  +link [[TD]]; DEFAULT:
+-->[[Wikipedia:TemplateData|TemplateData]]}}<!--
+   e.o. #if:nolink; DEFAULT:
+--> for this template used by [[mw:Extension:TemplateWizard|TemplateWizard]], [[Wikipedia:VisualEditor|VisualEditor]] and other tools. {{Template parameter usage|{{{1|{{BASEPAGENAME}}}}}|based=y}}<!--
+   e.o. #if:noheader
+-->}}
+
+'''TemplateData for {{{1|{{BASEPAGENAME}}}}}'''
+</div><includeonly><!--
+
+ check parameters
+-->{{#invoke:Check for unknown parameters|check
+|unknown={{template other|1=[[Category:Pages using TemplateData header with unknown parameters|_VALUE_]]}}
+|template=Template:TemplateData header
+|1 |nolink |noheader
+|preview=<div class="error" style="font-weight:normal">Unknown parameter '_VALUE_' in [[Template:TemplateData header]].</div>
+}}<!--
+-->{{template other|{{sandbox other||
+[[Category:Templates using TemplateData]]
+
+}}}}</includeonly><!--
+
+--><noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,124 @@
+{{Infobox country
+| conventional_long_name = Republic of Quidic
+| native_name            = ''__''  - Lirali
+| image_flag             = Quidic Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = KWID-ik
+| national_anthem        = /ˈkwɪd.ɪk/
+| image_map              = Quidic Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Quidic (green)<br>Quian Union (light green)
+| capital                = [[Talvani]]
+| largest_city           = [[Talvani]]
+| official_languages     = Quidican
+| regional_languages     = Aksalshai<br>[[Sursian]]<br>[[Verste|Verstian]]
+| ethnic_groups          = 54.3% Quidican<br>21.7% [[Ztesh|Sursian]]<br>15.3% [[Verste|Verstian]]<br>7.4% [[Erkizil|Erkizilian]]<br>1.3% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.qui/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Quidic]] }}</ref>
+| religion               = 64.7% [[Srivandha]]
+{{tree list}}
+*31.5% [[Thurvael]]
+**27.3% [[Rhov]]
+**4.2% Other
+{{tree list/end}}3.8% [[Religion in Quidic|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.qui/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Quidic]] }}</ref>
+| demonym                = Quidican
+| government_type        = Unitary parliamentary republic under an interim government
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| leader_title3          = Great Sectary 
+| leader_name3           = N/a
+| legislature            = Union of Quidic
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Establishment
+| established_event1     = Quidic Kingdom
+| established_date1      = 1566 AFA
+| established_event2     = Ashain Colony
+| established_date2      = 1629 AFA
+| established_event3     = Independence
+| established_date3      = 1695 AFA
+| area_rank              = 52nd
+| area_km2               = 663,041
+| area_sq_mi             = 256,001
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.92
+| population_estimate    = {{increaseNeutral}}143,970,000<ref name="POP QUI">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.qui/List_of_countries_and_dependencies_by_population/Quidic|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 25st
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}139,560,000<ref>{{cite web|url=https://www.gov.qui/1765/caX3a/QUIDIC_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Quidic]] }}</ref>
+| population_census_year = 1762
+| population_density_km2 = 217.1
+| population_density_sq_mi = 83.8
+| population_density_rank = 9th
+| GDP_PPP                = {{decrease}} {{lahn}}1.950 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/qui/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 12th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{decrease}} {{lahn}}13,550
+| GDP_PPP_per_capita_rank = 87th
+| GDP_nominal            = {{decrease}} {{lahn}}719 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/qui/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 20th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{decrease}} {{lahn}}5,000
+| GDP_nominal_per_capita_rank = 94th
+| HDI_year               = 1765
+| HDI                    = 0.734
+| HDI_change             = increase
+| HDI_rank               = 101st
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Soreo]] (_) (SOR)
+| time_zone              = SQT +12 (Standard Quidican Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .qui
+| calling_code           = +72
+}}
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.qui/ The Republic of Quidic's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Quidic] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/quidic/ Quidic]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

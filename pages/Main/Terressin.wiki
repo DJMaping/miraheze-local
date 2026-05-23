@@ -1,0 +1,116 @@
+{{Infobox country
+| conventional_long_name = Republic of Terressin
+| native_name            = ''__''  - Terressin
+| image_flag             = Terressin Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = TER-ruh-sin
+| national_anthem        = /ˈtɛr.ə.sɪn/
+| image_map              = Terressin Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Terressin (green)
+| capital                = [[Veloro]]
+| largest_city           = [[Veloro]]
+| official_languages     = Terressin<br>Arten
+| religion               = 88.8% [[Tzinalli]]<br>6.1% [[Kelhari]]<br>4.5% [[wikipedia:Irreligion|None]]<br>0.6% [[Religion in Terressin|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ter/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Terressin]] }}</ref>
+| demonym                = Terressin 
+| government_type        = Federal parliamentary republic
+| leader_title1          = Catesi
+| leader_name1           = N/a
+| leader_title2          = Sallam
+| leader_name2           = N/a
+| legislature            = Appic Alsa
+| upper_house            = Dumentemov
+| lower_house            = Dumentemli
+| sovereignty_type       = Independence
+| sovereignty_note       = 
+| established            = 
+| established_event1     = [[Guchare System]]
+| established_date1      = 769 AFA
+| established_event2     = [[Pottery Rebelion]]
+| established_date2      = 887 AFA
+| established_event3     = [[War of Five Thrones]]
+| established_date3      = 925 AFA
+| established_event4     = [[Areoix Lie Reformation]]
+| established_date4      = 1715 AFA
+| area_rank              = 35th
+| area_km2               = 1,112,428
+| area_sq_mi             = 429,511
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.28
+| population_estimate    = {{increaseNeutral}}74,091,000<ref name="POP TER">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.ter/List_of_countries_and_dependencies_by_population/Terressin|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 23rd
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}72,000,000<ref>{{cite web|url=https://www.gov.ter/1765/caX3a/TERRESSIN_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Terressin]] }}</ref>
+| population_census_year = 1763
+| population_density_km2 = 66.6
+| population_density_rank = 68th
+| GDP_PPP                = {{increase}} {{lahn}}759 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ter/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 31st
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}10,250
+| GDP_PPP_per_capita_rank = 105th
+| GDP_nominal            = {{increase}} {{lahn}}361 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ter/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 32nd
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}4,881
+| GDP_nominal_per_capita_rank = 96th
+| HDI_year               = 1765
+| HDI                    = 0.655
+| HDI_change             = increase
+| HDI_rank               = 136th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Terressin Araik]] (_) (TAR)
+| time_zone              = SRT +3 (Standard Terressin Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .ter
+| calling_code           = +81
+}}
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ter/ The Republic of Terressin's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Terressin] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/terressin/ Terressin]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

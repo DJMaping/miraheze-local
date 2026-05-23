@@ -1,0 +1,106 @@
+/* {{pp|small=y}} */
+.ombox {
+	margin: 4px 0;
+	border-collapse: collapse;
+	border: 1px solid #a2a9b1;    /* Default "notice" gray */
+	background-color: var(--background-color-neutral-subtle, #f8f9fa);
+	box-sizing: border-box;
+    color: var(--color-base, #202122);
+}
+
+/* For the "small=yes" option. */
+.ombox.mbox-small {
+	font-size: 88%;
+	line-height: 1.25em;
+}
+
+.ombox-speedy {
+	border: 2px solid #b32424;    /* Red */
+	background-color: #fee7e6;    /* Pink */
+}
+
+.ombox-delete {
+	border: 2px solid #b32424;    /* Red */
+}
+
+.ombox-content {
+	border: 1px solid #f28500;    /* Orange */
+}
+
+.ombox-style {
+	border: 1px solid #fc3;       /* Yellow */
+}
+
+.ombox-move {
+	border: 1px solid #9932cc;    /* Purple */
+}
+
+.ombox-protection {
+	border: 2px solid #a2a9b1;    /* Gray-gold */
+}
+
+.ombox .mbox-text {
+	border: none;
+	/* @noflip */
+	padding: 0.25em 0.9em;
+	width: 100%;
+}
+
+.ombox .mbox-image {
+	border: none;
+	/* @noflip */
+	padding: 2px 0 2px 0.9em;
+	text-align: center;
+}
+
+.ombox .mbox-imageright {
+	border: none;
+	/* @noflip */
+	padding: 2px 0.9em 2px 0;
+	text-align: center;
+}
+
+/* An empty narrow cell */
+.ombox .mbox-empty-cell {
+	border: none;
+	padding: 0;
+	width: 1px;
+}
+
+/* keep synced with each other type of message box as this isn't qualified */
+.mbox-invalid-type {
+	text-align: center;
+}
+
+@media (min-width: 720px) {
+	.ombox {
+		margin: 4px 10%;
+	}
+	
+	.ombox.mbox-small {
+		/* @noflip */
+		clear: right;
+		/* @noflip */
+		float: right;
+		/* @noflip */
+		margin: 4px 0 4px 1em;
+		width: 238px;
+	}
+}
+
+/** T367463 */
+body.skin--responsive table.ombox img {
+	max-width: none !important;
+}
+
+@media screen {
+	html.skin-theme-clientpref-night .ombox-speedy {
+		background-color: #310402;    /* Dark red, same hue/saturation as light */
+	}
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .ombox-speedy {
+		background-color: #310402; /* Dark red, same hue/saturation as light */
+	}
+}

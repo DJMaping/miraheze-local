@@ -1,0 +1,122 @@
+{{Infobox country
+| conventional_long_name = State of Ozinia
+| native_name            = ''__''  - Ozinian
+| image_flag             = Ozinia Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = oh-ZIN-ee-ah
+| national_anthem        = /ˌoʊˈzɪn.i.ə/
+| image_map              = Ozinia Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Ozinia (green)
+| capital                = [[Nuswi]]
+| largest_city           = [[Nuswi]]
+| official_languages     = Ozinian
+| ethnic_groups          = 59.2% Ozinian<br>22.3% [[Lieri|Lierin]]<br>14.2% [[Inania|Inanian]]<br>2.2% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.ozi/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Ozinia]] }}</ref>
+| religion               = 89.3% [[Thessovai]]<br>2.8% [[wikipedia:Irreligion|Irreligion]]<br>2.5% [[Passanu]]<br>5.4% [[Religion in Ozinia|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ozi/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Ozinia]] }}</ref>
+| demonym                = Ozinian
+| government_type        = Unitary presidential republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Ozinia
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 
+| established_event1     = [[Sivosan Protectorate]]
+| established_date1      = 1432 AFA
+| established_event2     = [[Treaty of the Globe]]
+| established_date2      = 1635 AFA
+| established_event3     = Demonstration
+| established_date3      = 1743 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 111st
+| area_km2               = 197,284
+| area_sq_mi             = 76,172
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}7,898,000<ref name="POP OZI">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.ozi/List_of_countries_and_dependencies_by_population/Ozinia|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 103rd
+| population_estimate_year = 1765
+| population_density_km2 = 40.0
+| population_density_rank = 106th
+| GDP_PPP                = {{increase}} {{lahn}}40,593,836,404<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ozi/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 117th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}5,139
+| GDP_PPP_per_capita_rank = 143rd
+| GDP_nominal            = {{increase}} {{lahn}}13,854,551,674<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ozi/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 124th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}1,754
+| GDP_nominal_per_capita_rank = 139th
+| HDI_year               = 1765
+| HDI                    = 0.666
+| HDI_change             = increase
+| HDI_rank               = 130th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Ozinian Oran]] (_) (OZO)
+| time_zone              = SET +4 (Standard Ozinian Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .ozi
+| calling_code           = +921
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ozi/ The State of Ozinia's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Ozinia] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/ozinia/ Ozinia]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

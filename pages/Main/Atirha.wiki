@@ -1,0 +1,61 @@
+{{Infobox continent
+|title          = Atirha
+|image          = Athirha Map.png
+|imagecaption   = Location of Atirha
+|area           = {{convert|13,816,821|km2|sqmi|abbr=on}}
+|population     = 538,280,000 (1765)
+|density        = {{convert|38.95|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}$13.715 trillion
+|GDP_nominal    = {{lahn}}$13.288 trillion
+|GDP_per_capita = {{lahn}}$24,686
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Atirhran
+|countries      = 20
+|list_countries = 
+|dependencies   = 0
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+*[[Alqiran Language|Alqiran]]
+*[[Emaran Language|Emaran]]
+*[[Ersuckl Language|Ersuckl]]
+*[[Estijan Language|Estijan]]
+*[[Lastnu Language|Lastnu]]
+*[[Lycroan Language|Lycroan]]
+}}
+|time           = UTC -3 to -10
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Albiran]]
+*[[Birska]]
+*[[City of Dauris]]
+*[[Lirika]]
+*[[Lunava]]
+*[[Lunru]]
+*[[Pekrin-Vavlen]]
+*[[Rovik]]
+*[[Tavik]]
+*[[Tirna]]
+*[[Zunle]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Atirha''' is a continent located in the northern hemisphere. It is bordered by the [[Srandan Ocean]] to the north, [[Rianian Ocean]] to the east, and the [[Northern Eanif Ocean]] south and east, and [[Usscea Bay]] the south. The continent covers around {{convert|13,816,821|km2|sqmi|abbr=on}} of land, making it the 6nd largest continent in the world, with a total of about 538,280,000 as of 1765, making it also the 6th largest continent by population behind [[Massir]], [[Mahea]], [[Quia]], [[Acrola]] and [[Ayuma]].
+
+[[Category:Atirha]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

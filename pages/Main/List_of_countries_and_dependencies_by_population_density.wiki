@@ -1,0 +1,389 @@
+[[File:Population density 1765.png| thumb | [[Population density]] (people per {{km2}}) by country|350x350px]]
+
+This is a '''list of countries and dependencies ranked by population density''', sorted by habitants per [[square kilometre]] or [[square mile]]. The list includes [[sovereign state]]s and self-governing [[dependent territory|dependent territories]]. The list also includes [[list of states with limited recognition|unrecognized]] but de facto independent countries. The figures in the table are based on areas including internal bodies of water such as bays, lakes, reservoirs and rivers. The list does include [[list of states with limited recognition|states with limited recognition]].
+
+Unless otherwise noted, areas and populations are sourced from the [[World Data Union]] World Population Prospects, which uses the latest censuses and official figures, as well as figures from the [[Food and Agriculture List]], an agency of the WDU.<Data is current as of 2025.>
+
+
+{{mw-datatable}}{{sort under}}{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable mw-datatable sort-under static-row-numbers sticky-header-multi col1left" {{right}}
+|+ List of countries and dependencies showing population densities, populations, and areas 
+! rowspan=2 style=width:18em | Location
+! colspan=2 | Density
+! rowspan=2 | Population
+! colspan=2 | Land area
+|-
+! /{{km2}}
+! /{{mi2}}
+! {{km2}}
+! {{mi2}}
+|- class=static-row-numbers-norank
+| {{noflag|'''World'''}} || {{convert|55|sqmi|km2|disp=table|sortable=on}} || 8,231,613,070 || {{convert|148940000|km2|disp=table|sortable=on}} 
+|-
+| {{flag|Pha Hii}} || {{convert|4,311|sqmi|km2|disp=table|sortable=on}} || 2,646,840 || {{convert|614|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Prystr Hii}} || {{convert|2,694|sqmi|km2|disp=table|sortable=on}} || 1,640,804 || {{convert|609|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Crila Republic}} || {{convert|449|sqmi|km2|disp=table|sortable=on}} || 945,980 || {{convert|2106|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Sanagara}} || {{convert|341|sqmi|km2|disp=table|sortable=on}} || 38,792,291 || {{convert|113626|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Wundry}} || {{convert|275|sqmi|km2|disp=table|sortable=on}} || 140,080,976 || {{convert|509719|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Easuhura}} || {{convert|273|sqmi|km2|disp=table|sortable=on}} || 29,913,650 || {{convert|109571|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ztesh}} || {{convert|253|sqmi|km2|disp=table|sortable=on}} || 425,141,434 || {{convert|1682296|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Walporein}} || {{convert|221|sqmi|km2|disp=table|sortable=on}} || 730,203 || {{convert|3310|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Quidic}} || {{convert|217|sqmi|km2|disp=table|sortable=on}} || 143,972,723 || {{convert|663041|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Phuris}} || {{convert|214|sqmi|km2|disp=table|sortable=on}} || 27,120,468 || {{convert|126688|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Emara}} || {{convert|212|sqmi|km2|disp=table|sortable=on}} || 90,861,040 || {{convert|428786|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Dahe}} || {{convert|201|sqmi|km2|disp=table|sortable=on}} || 890,601,322 || {{convert|4429149|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|North Ayre}} || {{convert|192|sqmi|km2|disp=table|sortable=on}} || 10,967,500 || {{convert|57100|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Suenan}} || {{convert|189|sqmi|km2|disp=table|sortable=on}} || 54,705,622 || {{convert|288915|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Zenashan}} || {{convert|185|sqmi|km2|disp=table|sortable=on}} || 9,819,273 || {{convert|53031|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Yutnitu}} || {{convert|176|sqmi|km2|disp=table|sortable=on}} || 447,879 || {{convert|2551|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Tomscilus}} || {{convert|175|sqmi|km2|disp=table|sortable=on}} || 1,158,763 || {{convert|6615|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Erkizil}} || {{convert|174|sqmi|km2|disp=table|sortable=on}} || 90,945,636 || {{convert|522616|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Stinebar}} || {{convert|172|sqmi|km2|disp=table|sortable=on}} || 345,037 || {{convert|2001|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Pelan}} || {{convert|171|sqmi|km2|disp=table|sortable=on}} || 13,705,584 || {{convert|80042|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Rijan bu}} || {{convert|169|sqmi|km2|disp=table|sortable=on}} || 3,626,297 || {{convert|21457|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Sadain}} || {{convert|164|sqmi|km2|disp=table|sortable=on}} || 18,288,844 || {{convert|111241|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Lycroa}} 
+| {{convert|164|sqmi|km2|disp=table|sortable=on}} || 81,313,729 || {{convert|494588|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Chaenia}} || {{convert|164|sqmi|km2|disp=table|sortable=on}} || 13,815,053 || {{convert|84476|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Oyreain}} || {{convert|150|sqmi|km2|disp=table|sortable=on}} || 31,491,757 || {{convert|209781|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ashain}} || {{convert|147|sqmi|km2|disp=table|sortable=on}} || 62,265,521 || {{convert|422225|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Isnti}} || {{convert|144|sqmi|km2|disp=table|sortable=on}} || 35,956,798 || {{convert|250357|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Canldives}} || {{convert|140|sqmi|km2|disp=table|sortable=on}} || 759,043 || {{convert|5418|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Merela Sta}} || {{convert|137|sqmi|km2|disp=table|sortable=on}} || 23,361,657 || {{convert|169966|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Pelugrotoa}} || {{convert|135|sqmi|km2|disp=table|sortable=on}} || 347,520,587 || {{convert|2581890|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Niretui and Anulan}} || {{convert|133|sqmi|km2|disp=table|sortable=on}} || 189,681 || {{convert|1428|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Siana}} || {{convert|130|sqmi|km2|disp=table|sortable=on}} || 39,335,005 || {{convert|303188|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Vayvele}} 
+| {{convert|129|sqmi|km2|disp=table|sortable=on}} || 74,436,761 || {{convert|577124|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Taval}} || {{convert|129|sqmi|km2|disp=table|sortable=on}} || 44,529,546 || {{convert|345341|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Raledria}} 
+| {{convert|128|sqmi|km2|disp=table|sortable=on}} || 301,115,278 || {{convert|2355916|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ahokini}} || {{convert|123|sqmi|km2|disp=table|sortable=on}} || 20,712,946 || {{convert|168631|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Pelines}} || {{convert|118|sqmi|km2|disp=table|sortable=on}} || 88,057,485 || {{convert|745025|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ilicuhe}} || {{convert|118|sqmi|km2|disp=table|sortable=on}} || 3,254,988 || {{convert|27541|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Selaja}} || {{convert|112|sqmi|km2|disp=table|sortable=on}} || 31,644,352 || {{convert|282440|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Acrana}} || {{convert|110|sqmi|km2|disp=table|sortable=on}} || 14,469,041 || {{convert|131864|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ukhdari}} || {{convert|109|sqmi|km2|disp=table|sortable=on}} || 85,678,806 || {{convert|783607|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Sunsokua}} || {{convert|108|sqmi|km2|disp=table|sortable=on}} || 79,558,877 || {{convert|737960|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Otiiric}} || {{convert|108|sqmi|km2|disp=table|sortable=on}} || 21,611,863 || {{convert|200464|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Baluyde}} || {{convert|108|sqmi|km2|disp=table|sortable=on}} || 1,638,021 || {{convert|15195|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Yaxuto}} || {{convert|103|sqmi|km2|disp=table|sortable=on}} || 18,401,158 || {{convert|178349|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Myla}} || {{convert|99|sqmi|km2|disp=table|sortable=on}} || 42,672,208 || {{convert|431272|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Areoix Lie}} 
+| {{convert|99|sqmi|km2|disp=table|sortable=on}} || 579,087,437 || {{convert|5854217|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Guise}} || {{convert|97|sqmi|km2|disp=table|sortable=on}} || 833,491 || {{convert|8590|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Verusa}} || {{convert|95|sqmi|km2|disp=table|sortable=on}} || 69,480,631 || {{convert|730606|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Enina}} || {{convert|94|sqmi|km2|disp=table|sortable=on}} || 51,690 || {{convert|548|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Dual Cenryia}} || {{convert|92|sqmi|km2|disp=table|sortable=on}} || 95,001,457 || {{convert|1028181|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ealdorii}} || {{convert|88|sqmi|km2|disp=table|sortable=on}} || 137,992,639 || {{convert|1563780|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Astye}} || {{convert|84|sqmi|km2|disp=table|sortable=on}} || 44,277,194 || {{convert|529951|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Jshain}} || {{convert|83|sqmi|km2|disp=table|sortable=on}} || 12,584,520 || {{convert|151329|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Seytinemas}} || {{convert|82|sqmi|km2|disp=table|sortable=on}} || 71,957,346 || {{convert|877397|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Inania}} || {{convert|80|sqmi|km2|disp=table|sortable=on}} || 236,475,569 || {{convert|2964408|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Praesyu}} 
+| {{convert|77|sqmi|km2|disp=table|sortable=on}} || 39,227,750 || {{convert|506753|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|United Delet}} || {{convert|74|sqmi|km2|disp=table|sortable=on}} || 93,832,500 || {{convert|1262717|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Iquir}} || {{convert|74|sqmi|km2|disp=table|sortable=on}} || 36,356,117 || {{convert|489302|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Trian}} || {{convert|73|sqmi|km2|disp=table|sortable=on}} || 27,844,193 || {{convert|382656|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Finae}} || {{convert|72|sqmi|km2|disp=table|sortable=on}} || 31,745,420 || {{convert|440878|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Palina}} || {{convert|72|sqmi|km2|disp=table|sortable=on}} || 3,123,402 || {{convert|43383|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Fire Coast}} || {{convert|72|sqmi|km2|disp=table|sortable=on}} || 7,181,169 || {{convert|99744|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Lydroa}} || {{convert|71|sqmi|km2|disp=table|sortable=on}} || 18,995,781 || {{convert|268177|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Shomjind}} || {{convert|68|sqmi|km2|disp=table|sortable=on}} || 2,898,502 || {{convert|42776|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Rkmepuia}} || {{convert|68|sqmi|km2|disp=table|sortable=on}} || 324,028 || {{convert|4782|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Galca}} || {{convert|67|sqmi|km2|disp=table|sortable=on}} || 16,057,397 || {{convert|241076|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Terressin}} || {{convert|67|sqmi|km2|disp=table|sortable=on}} || 74,091,042 || {{convert|1112428|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Isari}} || {{convert|66|sqmi|km2|disp=table|sortable=on}} || 12,783,095 || {{convert|193050|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Othya}} || {{convert|66|sqmi|km2|disp=table|sortable=on}} || 30,421,695 || {{convert|462090|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Shinam}} || {{convert|65|sqmi|km2|disp=table|sortable=on}} || 31,948,027 || {{convert|494101|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Slyiaduun}} 
+| {{convert|64|sqmi|km2|disp=table|sortable=on}} || 2,166,683 || {{convert|34106|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ocaun}} || {{convert|64|sqmi|km2|disp=table|sortable=on}} || 88,913,943 || {{convert|1399717|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Lieri}} || {{convert|62|sqmi|km2|disp=table|sortable=on}} || 36,478,307 || {{convert|588468|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Hiwush}} || {{convert|62|sqmi|km2|disp=table|sortable=on}} || 239,092 || {{convert|3881|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Rethern}} || {{convert|62|sqmi|km2|disp=table|sortable=on}} || 82,798 || {{convert|1344|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Heiso}} || {{convert|62|sqmi|km2|disp=table|sortable=on}} || 20,605,956 || {{convert|334534|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Hkuqo}} || {{convert|62|sqmi|km2|disp=table|sortable=on}} || 22,833,760 || {{convert|370702|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Fermori}} || {{convert|57|sqmi|km2|disp=table|sortable=on}} || 12,299,328 || {{convert|214401|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Exilium}} || {{convert|55|sqmi|km2|disp=table|sortable=on}} || 25,083,674 || {{convert|452426|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Aetintio}} || {{convert|55|sqmi|km2|disp=table|sortable=on}} || 1,405,387 || {{convert|25529|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|lasri}} || {{convert|52|sqmi|km2|disp=table|sortable=on}} || 2,170,550 || {{convert|41453|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Eldavpir}} || {{convert|51|sqmi|km2|disp=table|sortable=on}} || 29,421,790 || {{convert|574577|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ohtina}} || {{convert|51|sqmi|km2|disp=table|sortable=on}} || 33,245,174 || {{convert|654175|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ucrua}} || {{convert|50|sqmi|km2|disp=table|sortable=on}} || 30,764,253 || {{convert|619575|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Vesozata}} || {{convert|48|sqmi|km2|disp=table|sortable=on}} || 121,753,072 || {{convert|2530444|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Curata}} || {{convert|48|sqmi|km2|disp=table|sortable=on}} || 4,523,613 || {{convert|94754|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Rtesania}} || {{convert|47|sqmi|km2|disp=table|sortable=on}} || 9,975,075 || {{convert|214130|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Iainoa}} || {{convert|46|sqmi|km2|disp=table|sortable=on}} || 15,105,090 || {{convert|326950|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Candenat}} || {{convert|46|sqmi|km2|disp=table|sortable=on}} || 27,332,521 || {{convert|591613|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Letan}} || {{convert|46|sqmi|km2|disp=table|sortable=on}} || 76,045 || {{convert|1646|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Nheyes Si}} || {{convert|46|sqmi|km2|disp=table|sortable=on}} || 12,224,862 || {{convert|266831|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|New Misos}} || {{convert|46|sqmi|km2|disp=table|sortable=on}} || 53,637,198 || {{convert|1170921|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Oscairia}} || {{convert|45|sqmi|km2|disp=table|sortable=on}} || 22,386,666 || {{convert|497086|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Verste}} || {{convert|45|sqmi|km2|disp=table|sortable=on}} || 53,302,916 || {{convert|1193527|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Viussi}} || {{convert|45|sqmi|km2|disp=table|sortable=on}} || 17,339,111 || {{convert|388247|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Disal Nila}} || {{convert|44|sqmi|km2|disp=table|sortable=on}} || 7,438,559 || {{convert|168040|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Anymna}} || {{convert|44|sqmi|km2|disp=table|sortable=on}} || 21,768,597 || {{convert|500370|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Elja and Munusia}} || {{convert|43|sqmi|km2|disp=table|sortable=on}} || 495,291 || {{convert|11432|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Uularin}} || {{convert|42|sqmi|km2|disp=table|sortable=on}} || 5,001,934 || {{convert|119193|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Eldjo}} || {{convert|41|sqmi|km2|disp=table|sortable=on}} || 5,393,380 || {{convert|130920|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Sattle}} || {{convert|40|sqmi|km2|disp=table|sortable=on}} || 9,388,939 || {{convert|232273|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Onphello}} || {{convert|40|sqmi|km2|disp=table|sortable=on}} || 10,233,103 || {{convert|255572|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Tvecoca}} || {{convert|40|sqmi|km2|disp=table|sortable=on}} || 5,165 || {{convert|129|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Etirha}} || {{convert|40|sqmi|km2|disp=table|sortable=on}} || 74,667,447 || {{convert|1864826|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ozinia}} || {{convert|40|sqmi|km2|disp=table|sortable=on}} || 7,898,975 || {{convert|197284|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Deschon}} || {{convert|40|sqmi|km2|disp=table|sortable=on}} || 30,642,963 || {{convert|765347|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Peka}} || {{convert|38|sqmi|km2|disp=table|sortable=on}} || 1,300,163 || {{convert|34109|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Cloja}} || {{convert|36|sqmi|km2|disp=table|sortable=on}} || 47,933 || {{convert|1325|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Estijan}} || {{convert|36|sqmi|km2|disp=table|sortable=on}} || 260,844,816 || {{convert|7271341|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Fincen}} || {{convert|35|sqmi|km2|disp=table|sortable=on}} || 4,620,320 || {{convert|131875|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Metndria}} || {{convert|35|sqmi|km2|disp=table|sortable=on}} || 635,532 || {{convert|18341|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Feio Lie}} || {{convert|34|sqmi|km2|disp=table|sortable=on}} || 7,849,450 || {{convert|229074|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Reerica}} || {{convert|33|sqmi|km2|disp=table|sortable=on}} || 8,871,251 || {{convert|264853|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Yoprioq}} || {{convert|32|sqmi|km2|disp=table|sortable=on}} || 5,131,190 || {{convert|158373|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Eparia}} || {{convert|32|sqmi|km2|disp=table|sortable=on}} || 4,070,555 || {{convert|125915|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Mendereide}} || {{convert|32|sqmi|km2|disp=table|sortable=on}} || 11,019,227 || {{convert|344798|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ruylku}} || {{convert|29|sqmi|km2|disp=table|sortable=on}} || 11,838,201 || {{convert|404675|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Umarcia}} || {{convert|29|sqmi|km2|disp=table|sortable=on}} || 12,307,247 || {{convert|426225|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Acetoa}} || {{convert|29|sqmi|km2|disp=table|sortable=on}} || 11,203,256 || {{convert|388005|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Darewa}} || {{convert|29|sqmi|km2|disp=table|sortable=on}} || 19,678,480 || {{convert|681553|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Taniduna}} || {{convert|26|sqmi|km2|disp=table|sortable=on}} || 45,062,542 || {{convert|1746881|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Welenu Fana}} || {{convert|25|sqmi|km2|disp=table|sortable=on}} || 19,674,606 || {{convert|774542|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Haiza}} || {{convert|23|sqmi|km2|disp=table|sortable=on}} || 17,079,116 || {{convert|739599|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Pruim Fijan}} || {{convert|23|sqmi|km2|disp=table|sortable=on}} || 3,307,617 || {{convert|143234|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Prstreula}} || {{convert|23|sqmi|km2|disp=table|sortable=on}} || 6,835,852 || {{convert|300940|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Umendel}} || {{convert|22|sqmi|km2|disp=table|sortable=on}} || 7,437,017 || {{convert|338878|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Rinew}} || {{convert|22|sqmi|km2|disp=table|sortable=on}} || 233,966 || {{convert|10661|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Trevilla}} || {{convert|19|sqmi|km2|disp=table|sortable=on}} || 10,360 || {{convert|545|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Cruthi Anoso}} || {{convert|17|sqmi|km2|disp=table|sortable=on}} || 3,984 || {{convert|230|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Grazail}} || {{convert|17|sqmi|km2|disp=table|sortable=on}} || 3,347,590 || {{convert|202209|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Sivoso}} || {{convert|17|sqmi|km2|disp=table|sortable=on}} || 21,995,119 || {{convert|1328657|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Byllu}} || {{convert|16|sqmi|km2|disp=table|sortable=on}} || 9,106,539 || {{convert|563506|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Maalle}} || {{convert|15|sqmi|km2|disp=table|sortable=on}} || 22,501,433 || {{convert|1461132|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Isuibul}} || {{convert|15|sqmi|km2|disp=table|sortable=on}} || 37,482 || {{convert|2562|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Western Migoku}} || {{convert|14|sqmi|km2|disp=table|sortable=on}} || 2,950,683 || {{convert|212955|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Jathua}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 13,153,004 || {{convert|1067614|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Niul Spijan}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 220,218 || {{convert|18110|km2|disp=table|sortable=on}}
+|-  
+| {{flag|Taoisia}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 11,247,660 || {{convert|942386|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Desaki}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 29,182,698 || {{convert|2445136|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|United Mihili}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 33,524,353 || {{convert|2808911|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Arbiya}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 6,585,930 || {{convert|551835|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Ihner}} || {{convert|12|sqmi|km2|disp=table|sortable=on}} || 6,257,140 || {{convert|541922|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Taing}} || {{convert|11|sqmi|km2|disp=table|sortable=on}} || 2,162,677 || {{convert|193698|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Volver}} || {{convert|11|sqmi|km2|disp=table|sortable=on}} || 17,219,177 || {{convert|1542246|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Hyelen}} || {{convert|11|sqmi|km2|disp=table|sortable=on}} || 1,724,423 || {{convert|154449|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Jau}} || {{convert|11|sqmi|km2|disp=table|sortable=on}} || 22,993,720 || {{convert|2059631|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Saa}} || {{convert|11|sqmi|km2|disp=table|sortable=on}} || 2,549,416 || {{convert|236495|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Aplasia}} || {{convert|10.4|sqmi|km2|disp=table|sortable=on}} || 376,609 || {{convert|36234|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Nia}} || {{convert|9.6|sqmi|km2|disp=table|sortable=on}} || 16,302,960 || {{convert|1693814|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Kusierna}} || {{convert|9.2|sqmi|km2|disp=table|sortable=on}} || 9,164,021 || {{convert|992110|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Genaire}} || {{convert|8.9|sqmi|km2|disp=table|sortable=on}} || 15,795,087 || {{convert|1783768|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Etretes}} || {{convert|8.5|sqmi|km2|disp=table|sortable=on}} || 21,374,692 || {{convert|2524560|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Tonder}} || {{convert|6.5|sqmi|km2|disp=table|sortable=on}} || 143,925 || {{convert|21990|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Kaastini}} || {{convert|6.5|sqmi|km2|disp=table|sortable=on}} || 4,348,275 || {{convert|664569|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Amcha}} || {{convert|6.2|sqmi|km2|disp=table|sortable=on}} || 2,236,563 || {{convert|363049|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Migoku}} || {{convert|6.2|sqmi|km2|disp=table|sortable=on}} || 6,231,859 || {{convert|1011994|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Inrea}} || {{convert|5.|sqmi|km2|disp=table|sortable=on}} || 2,051,970 || {{convert|409984|km2|disp=table|sortable=on}} 
+|- 
+| {{flag|Yihnurda}} || {{convert|4.6|sqmi|km2|disp=table|sortable=on}} || 8,714,286 || {{convert|1886209|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Veelmit}} || {{convert|4.6|sqmi|km2|disp=table|sortable=on}} || 828,597 || {{convert|179350|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Laselteh}} 
+| {{convert|4.1|sqmi|km2|disp=table|sortable=on}} || 6,524,522 || {{convert|1599030|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Gaeiya}} || {{convert|2.7|sqmi|km2|disp=table|sortable=on}} || 9,533,900 || {{convert|3518174|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Danocia}} || {{convert|2.7|sqmi|km2|disp=table|sortable=on}} || 2,020,940 || {{convert|749885|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Iareva}} || {{convert|1.9|sqmi|km2|disp=table|sortable=on}} || 8,002,152 || {{convert|4156962|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Koruch}} || {{convert|1.9|sqmi|km2|disp=table|sortable=on}} || 820,937 || {{convert|426461|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Andsaudare}} || {{convert|1.5|sqmi|km2|disp=table|sortable=on}} || 3,146,473 || {{convert|2043164|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Ikzen}} || {{convert|1.5|sqmi|km2|disp=table|sortable=on}} || 3,103,322 || {{convert|2015144|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Urbiqu}} || {{convert|1.5|sqmi|km2|disp=table|sortable=on}} || 1,914,198 || {{convert|1242986|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Zhanshe}} || {{convert|1.4|sqmi|km2|disp=table|sortable=on}} || 7,354,910 || {{convert|5310404|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Far Lands}} || {{convert|.8|sqmi|km2|disp=table|sortable=on}} || 1,441,954 || {{convert|1836884|km2|disp=table|sortable=on}}  
+|-
+| {{flag|Mesjan Hyaa}} || {{convert|.8|sqmi|km2|disp=table|sortable=on}} || 2,048,851 || {{convert|2660845|km2|disp=table|sortable=on}} 
+|-
+| {{flag|New Kizura}} || {{convert|.4|sqmi|km2|disp=table|sortable=on}} || 133,065 || {{convert|345623|km2|disp=table|sortable=on}}  
+|-
+|}
+
+== See also ==
+* [[List of countries by arable land density]]
+* [[List of countries and dependencies by area]]
+* [[List of countries and dependencies by population]]
+* [[List of sovereign states]]
+* [[List of metropolitan areas by population density]]
+
+[[Category:All country data templates|Laseltsh]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Laseltsh]]

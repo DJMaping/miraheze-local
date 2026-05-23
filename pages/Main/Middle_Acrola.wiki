@@ -1,0 +1,87 @@
+{{Infobox continent
+|title          = Middle Acrola
+|image          = Midddle Acrola Globe.png
+|imagecaption   = Location of Middle Acrola
+|area           = {{convert|2,524,625|km2|sqmi|abbr=on}}
+|population     = 111,363,641 (1765)
+|density        = {{convert|44.11|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}523.519 billion
+|GDP_nominal    = {{lahn}}185,428 billion
+|GDP_per_capita = {{lahn}}1,665
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Middle Acrolan
+|countries      = 7
+|list_countries = 
+|dependencies   = 4
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Arten Language|Arten]]
+* [[Emaran Language|Emaran]]
+* [[Estijan Language|Estijan]]
+* [[Iquirian Language|Iquirian]]
+* [[Lastnu Language|Lastnu]]
+}}
+|time           = UTC +3 to +4
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Chavillar]]
+*[[Espralit]]
+*[[Zambhori]]
+*[[Halumbaro]]
+*[[Tavon]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Middle Acrola''' is a sub-continent located in the northern hemisphere. It is bordered the [[South Acrola]] to the south, [[North Acrola]] to the north, and the [[Hinsakian Ocean|Great Hinsakian Ocean]] to the east. The sub-continent covers around {{convert|12,671,321|km2|sqmi|abbr=on}} of land, making it the 20th largest sub-continent in the world, with a total of about 111,363,641 as of 1765, making it also the 19th largest continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Eldavpir}} || [[Eldavpir]] || style="text-align:right;" | 574,577 || style="text-align:right;" | 29,421,790 || style="text-align:right;" | 51 || [[Lunfrix]]
+|-
+| style="text-align:center;"| {{flagicon|Iquir}} || [[Iquir]] || style="text-align:right;" | 489,302 || style="text-align:right;" | 36,356,117 || style="text-align:right;" | 74 || [[Chavillar]]
+|-
+| style="text-align:center;"| {{flagicon|Reerica}} || [[Reerica]] || style="text-align:right;" | 264,853 || style="text-align:right;" | 8,871,251 || style="text-align:right;" | 33 || [[Halumbaro]]
+|-
+| style="text-align:center;"| {{flagicon|Saa}} || [[Saa]] || style="text-align:right;" | 236,495 || style="text-align:right;" | 2,549,416 || style="text-align:right;" | 11 || [[Suvallor]]
+|-
+| style="text-align:center;"| {{flagicon|Sattle}} || [[Sattle]] || style="text-align:right;" | 232,273 || style="text-align:right;" | 9,388,939 || style="text-align:right;" | 40 || [[Espralit]]
+|-
+| style="text-align:center;"| {{flagicon|Umendel}} || [[Umendel]] || style="text-align:right;" | 338,878 || style="text-align:right;" | 7,437,017 || style="text-align:right;" | 22 || [[Vireptan]]
+|-
+| style="text-align:center;"| {{flagicon|Viussi}} || [[Viussi]] || style="text-align:right;" | 388,247 || style="text-align:right;" | 17,339,111 || style="text-align:right;" | 45 || [[Zambhori]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 2,524,625
+| style="text-align:right;"| 111,363,641
+| style="text-align:right;"| 44
+|}
+
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

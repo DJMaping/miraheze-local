@@ -1,0 +1,4 @@
+<span class="nowrap">&#123;&#123;</span>[[Template:{{{1}}}|{{{1}}}]]<span class="nowrap">&#125;&#125;</span><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage and interwikis go on Wikidata. -->
+</noinclude>

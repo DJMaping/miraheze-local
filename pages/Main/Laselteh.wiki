@@ -1,0 +1,119 @@
+{{Infobox country
+| conventional_long_name = Republic of Laselteh
+| native_name            = ''__''  - Estijan
+| image_flag             = Laselteh Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = LAH-seltsh
+| national_anthem        = /ˈlɑː.sɛltʃ/
+| image_map              = Laselteh Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Laselteh(green)
+| capital                = [[Dariya]]
+| largest_city           = [[Dariya]]
+| official_languages     = Estijan
+| religion               = 89.4% Irreligion<br>10.6% Others
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.las/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Laselteh]] }}</ref>
+| demonym                = Laseltshen
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Laselteh
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independece 
+| sovereignty_note       = from [[Estijan]]
+| established            = 
+| established_event1     = [[Mii Lands colony]]
+| established_date1      = 1470 AFA
+| established_event2     = [[Laseltshe independence war]]
+| established_date2      = 1647 AFA
+| established_event3     = [[Backstab war]]
+| established_date3      = 1655 AFA
+| established_event4     = [[Yantat acquisition]]
+| established_date4      = 1700 AFA
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 25th
+| area_km2               = 1,599,030
+| area_sq_mi             = 617,389
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.79
+| population_estimate    = {{increaseNeutral}}6,524,000<ref name="POP LAS">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.las/List_of_countries_and_dependencies_by_population/Laselteh|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 111st
+| population_estimate_year = 1765
+| population_density_km2 = 4.1
+| population_density_rank = 161st
+| GDP_PPP                = {{increase}}$183.882 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/las/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 68th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}}$28,183
+| GDP_PPP_per_capita_rank = 14th
+| GDP_nominal            = {{increase}}$161.300 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/las/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 52nd
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}}$24,722
+| GDP_nominal_per_capita_rank = 8th
+| HDI_year               = 1765
+| HDI                    = 0.908
+| HDI_change             = increase
+| HDI_rank               = 24th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Laseltshen Kasare]] (_) (LKA)
+| time_zone              = SET -3 (Standard Laseltshen Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .las
+| calling_code           = +28
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.las/ The Republic of Laselteh's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Laselteh] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/laselteh/ Laselteh]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

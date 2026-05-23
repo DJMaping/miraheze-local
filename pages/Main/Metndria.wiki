@@ -1,0 +1,123 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Metndria
+| native_name            = ''__''  - Metndrian Alqiran
+| image_flag             = Metndria Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = METN-dree-ah
+| national_anthem        = /ˈmɛtnd.ri.ɑː/
+| image_map              = Metndria Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Metndria (green)
+| capital                = [[Hidoro]]
+| largest_city           = [[Hidoro]]
+| official_languages     = Metndrian Alqiran
+| ethnic_groups          = 99.2% Metndrian<br>0.8% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.met/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Metndria]] }}</ref>
+| religion               = 91.3% [[Kallimethra]]<br>8.7% [[Religion in Metndria|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.met/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Metndria]] }}</ref>
+| demonym                = Metndrian 
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Metndria
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Phuris]]
+| established            = 
+| established_event1     = [[Emaran colony]]
+| established_date1      = 1452 AFA
+| established_event2     = [[Metndria Autonomy]]
+| established_date2      = 1592 AFA
+| established_event3     = Independence
+| established_date3      = 1747 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 148th
+| area_km2               = 18,341
+| area_sq_mi             = 7,081
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.54
+| population_estimate    = {{increaseNeutral}}635,532<ref name="POP MET">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.met/List_of_countries_and_dependencies_by_population/Metndria|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 153rd
+| population_estimate_year = 1765
+| population_density_km2 = 34.7
+| population_density_rank = 112th
+| GDP_PPP                = {{increase}} {{lahn}}6.553 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/met/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 150th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}10,311
+| GDP_PPP_per_capita_rank = 104th
+| GDP_nominal            = {{increase}} {{lahn}}2.824 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/met/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 150th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}4,444
+| GDP_nominal_per_capita_rank = 99th
+| HDI_year               = 1765
+| HDI                    = 0.774
+| HDI_change             = increase
+| HDI_rank               = 79th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+
+| currency               = [[Metndria Nie]] (_) (YAC)
+| time_zone              = SET -9 (Standard Metndria Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .met
+| calling_code           = +271
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.met/ The Republic of Metndria's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Metndria] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/metndria/ Metndria]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,124 @@
+{{Infobox country
+| conventional_long_name = Republic of Desaki
+| native_name            = ''__''  - Desakian<br>''__''  - Verstian
+| image_flag             = Desaki Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = DEH-sah-kee
+| national_anthem        = /ˈdɛ.sɑː.ki/
+| image_map              = Desaki Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Desaki(green)
+| capital                = [[Olmurra]]
+| largest_city           = [[Velthura]]
+| official_languages     = Desakian<br>Verstian
+| regional_languages     = 
+| religion               = 62.5% [[Srivandha]]<br>34.2% [[wikipedia:Irreligion|Irreligion]]<br>3.3% [[Religion in Desaki|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.des/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Desaki]] }}</ref>
+| demonym                = Desakian
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Desaki
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 
+| established_event1     = [[Ethana Republic]]
+| established_date1      = 1257 AFA
+| established_event2     = [[Desaki Empire]]
+| established_date2      = 1388 AFA
+| established_event3     = [[Ast-Desaki]]
+| established_date3      = 1484 AFA
+| established_event4     = Desaki Republic
+| established_date4      = 1595
+| area_rank              = 13th
+| area_km2               = 2,445,136
+| area_sq_mi             = 944,072
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 4.21
+| population_estimate    = {{decreaseNeutral}}29,032,000<ref name="POP DES">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.des/List_of_countries_and_dependencies_by_population/Desaki|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 
+| population_estimate_year = 1765
+| population_census      = {{decreaseNeutral}}29,182,000<ref>{{cite web|url=https://www.gov.des/1765/caX3a/DESAKI_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Desaki]] }}</ref>
+| population_census_year = 1760
+| population_density_km2 = 11.9
+| population_density_rank = 141st
+| GDP_PPP                = {{increase}} {{lahn}}545 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/des/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 40th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}18,683
+| GDP_PPP_per_capita_rank = 56th
+| GDP_nominal            = {{increase}} {{lahn}}409 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/des/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 30th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}14,048
+| GDP_nominal_per_capita_rank = 37th
+| HDI_year               = 1765
+| HDI                    = 0.924
+| HDI_change             = increase
+| HDI_rank               = 17th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+
+| currency               = [[Desakian Soreo]] (_) (DSR)
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .des
+| calling_code           = +771
+}}
+'''Desaki''' formally the '''Republic of Desaki''', is a [[Myista country]] located on the southern half of the [[Quia|Quian]] continent. It borders [[United Mihili]] to the west and north, [[Far Lands]] to the north and east, and [[Iareva]] to the West. At [[List of countries and dependencies by area|2,445,136 square kilometres (944,072 sq mi)]], Desaki is the [[List of countries and dependencies by area|13th largest country]] by area, and is the [[Largest country in Quia|fifth-largest country in Quia]]. Its capital is [[Olmurra]], and largest city is [[Velthura]]. Desaki has a [[List of countries and dependencies by population|population of 29 million]], and a low [[List of countries and dependencies by population density|population density of 11.9 inhabitants per square kilometre (30.8/sq mi)]]; 78% of Desakians reside in [[wikipedia:Urban_area|urban areas]]. They are mostly in the border of [[United Mihili]] and the southern half of the country. Desakian urban areas together cover under 0.5% of its land area. Desaki has a [[Desaki climate|diverse climate]] owing to the length of the country.
+
+Desaki has been [[inhabited]] since prehistoric times around 20,000 BFA. The inhabitants emerged as the [[Spol culture]], who were one of the most [[advanced prehistoric peoples]] we know of. The modern people of Desaki did not arrive until the [[7th century]] with the [[Ast-Sirilan conquests]]. The [[Kingdom of Danraa]] was established during the early 11th century, which is seen as the first [[Durnate Kingdom]]. In 1384, [[Athnul]], [[Ethana]] and other [[Desaki cities states|smaller cities states]] on the periphery united to form Desaki. Over the next century Desaki conquered [[Ciniu]], proclaiming [[Ast-Desaki]] in 1483, which remained one of the [[great powers]] of [[Quia]] until the late 16th century It was later involved in the [[Hakushan invasions]], which caused the [[Ast to fall apart in 1590]]. Most of the conquered territories outside the modern Desaki were lost during the 17th centuries. [[Desaki Republic]] was proclaimed in 1595.
+
+'''Desaki''' is a highly developed country in the [[List of countries by Krali Total Development Index|Krali Total Development Index.]] It is a Unitary republic and a [[wikipedia:Parliamentary_system|parliamentary]] democracy, with [[wikipedia:Legislature|legislative power]] vested in the 410-member [[wikipedia:Unicameral|unicameral]]. It is a [[wikipedia:Unitary_state|unitary state]], divided into 24 counties and 314 municipalities. Desaki’s social welfare system that provides [[wikipedia:Universal_health_care|universal health care]] and [[wikipedia:Tertiary_education|tertiary education]] for its citizens. It has the world's 37th highest GDP per capita and ranks very highly in quality of life, health, education, protection of [[wikipedia:Freedom_in_the_World|civil liberties]], economic competitiveness, income equality, gender equality and prosperity. Desaki is in the [[Quian Union]].
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.des/ The Federal Republic of Desaki's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Desaki] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/desaki/ Desaki]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages using the JsonConfig extension]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

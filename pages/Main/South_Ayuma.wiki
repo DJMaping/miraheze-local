@@ -1,0 +1,95 @@
+{{Infobox continent
+|title          = South Ayuma
+|image          = South Ayuma Globe.png
+|imagecaption   = Location of South Ayuma
+|area           = {{convert|1,720,149|km2|sqmi|abbr=on}}
+|population     = 250,108,462 (1765)
+|density        = {{convert|145.40|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}6.725 trillion
+|GDP_nominal    = {{lahn}}5.261 trillion
+|GDP_per_capita = {{lahn}}21,035
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = South Ayuman
+|countries      = 7
+|list_countries = 
+|dependencies   = 1
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Easuhuran Language|Easuhuran]] 
+* [[Emaran Language|Emaran]] 
+* [[Fravala Language|Fravala]]
+* [[Lycroan Language|Lycroan]] 
+}}
+|time           = UTC 0 to +1
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Rivostan]]
+*[[Tanbai]]
+*[[Jungui]]
+*[[Khalzhun]]
+*[[Brimasha]]
+*[[Liambra]]
+*[[Chisanov]]
+*[[Sakhen]]
+*[[Shorakim]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Ayuma''' is a sub-continent located in the northern hemisphere. It is bordered the [[Vihsanna Ocean]] and [[Nasianian Sea]] to the south. [[West Ayuma]] to the north and [[Central Ayuma]] to the east. The continent covers around {{convert|1,610,578|km2|sqmi|abbr=on}} of land, making it the 22nd largest continent in the world, with a total of about 1,020,200,000 as of 1765, making it also the 11th largest continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Easuhura}} || [[Easuhura]] || style="text-align:right;" | 109,571 || style="text-align:right;" | 29,913,650 || style="text-align:right;" | 273 || [[Tanbai]]
+|-
+| style="text-align:center;"| {{flagicon|Eldjo}} || [[Eldjo]] || style="text-align:right;" | 130,920 || style="text-align:right;" | 5,393,380 || style="text-align:right;" | 41 || [[Shorakim]]
+|-
+| style="text-align:center;"| {{flagicon|Emara}} || [[Emara]] || style="text-align:right;" | 428,786 || style="text-align:right;" | 90,861,040 || style="text-align:right;" | 212 || [[Rivostan]]
+|-
+| style="text-align:center;"| {{flagicon|Ilicuhe}} || [[Ilicuhe]] || style="text-align:right;" | 27,541 || style="text-align:right;" | 3,254,988 || style="text-align:right;" | 118 || [[Sakhen]]
+|-
+| style="text-align:center;"| {{flagicon|Lycroa}} 
+| [[Lycroa]] || style="text-align:right;" | 494,588 || style="text-align:right;" | 81,313,729 || style="text-align:right;" | 164 || [[Jungui]]
+|-
+| style="text-align:center;"| {{flagicon|Praesyu}} 
+| [[Praesyu]] || style="text-align:right;" | 506,753 || style="text-align:right;" | 39,227,750 || style="text-align:right;" | 77 || [[Brimasha]]
+|-
+| style="text-align:center;"| {{flagicon|Tonder}} || [[Tonder]] || style="text-align:right;" | 21,990 || style="text-align:right;" | 143,925 || style="text-align:right;" | 7 || [[Tonder (City)|Tonder]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 1,720,149
+| style="text-align:right;"| 250,108,462
+| style="text-align:right;"| 145
+|}
+==References==
+{{reflist}}
+[[Category:Geoscheme]]
+
+[[Category:All country data templates|Praesyu]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Praesyu]]
+[[Category:Wikipedia metatemplates|Infobox]]

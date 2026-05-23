@@ -1,0 +1,143 @@
+{{Short description|None}}
+{{For|first- and second-language speakers|List of languages by total number of speakers}}
+{{pp-semi-indef}}
+[[File:Distribution_of_the_Major_Language_Families.png|thumb|450px|Current distribution of human language families]]
+This is a '''list of languages by number of native speakers'''.
+
+All such rankings of human languages ranked by their number of [https://en.wikipedia.org/wiki/First_language native speakers] should be used with caution, because it is not possible to devise a coherent set of linguistic criteria for distinguishing languages in a [https://en.wikipedia.org/wiki/Dialect_continuum dialect continuum]. For example, a language is often defined as a set of mutually intelligible [https://en.wikipedia.org/wiki/Variety_(linguistics) varieties], but independent national standard languages may be considered separate languages even though they are largely [https://en.wikipedia.org/wiki/Mutual_intelligibility mutually intelligible], as in the case of [[Versuan language|Versuan]] and [[Uularin language|Uularin]]. Conversely, many commonly accepted languages, including [[Emaran language|Emaran]], [[Easuhuran language|Easuhuran]], and [[Lycroan language|Lycroan]], encompass varieties that are not mutually intelligible. While [[Arten language|Arten]] is sometimes considered a single language centred on [[Standard Arten language|Standard Arten]], other authors consider its mutually unintelligible varieties separate languages. Similarly, [[Dahen language|Dahen]] is sometimes viewed as a single language because of a shared culture and common literary language. It is also common to describe various Dahen dialect groups, such as [[Qai Dahen|Qai]] and [[Shie Dahen|Shie]], as languages, even though each of these groups contains wide, mutually unintelligible varieties.
+
+There are also difficulties in obtaining reliable speaker counts, which vary over time due to population change and language shift [https://en.wikipedia.org/wiki/Language_shift]. In some areas, there is no reliable [https://en.wikipedia.org/wiki/Census census] data, the data is not current, or the census may not record languages spoken, or record them ambiguously. Sometimes speaker populations are exaggerated for political reasons, or speakers of minority languages may be underreported in favour of a national language.
+
+==Top languages by population==
+
+=== ''Tumati'' (2025) ===
+According to ''[[Tumati]],'' the following languages have more than 40 million first-language speakers as of 1765.
+{| class="wikitable sortable static-row-numbers"
+|+Languages with at least 40 million first-language speakers
+! Language
+! data-sort-type=number | Native speakers<br>(millions)
+! Language family
+! Branch
+|-
+| [[Dahen Language]] || 709 || [[Dahen-Kino]] || [[Dahen]]
+|-
+| [[Alqiran Language]] || 607 || [[Alzuria-Ayuman]] || [[Passonin]]
+|-
+| [[Arten Language]] || 581 || [[Arten]] || [[Arten]]
+|-
+| [[Emaran Language]] || 471 || [[Alzuria-Ayuman]] || [[Saetnde]]
+|-
+| [[Pelugrotoan Language]] || 314 || [[Ankuano-Elaian]] || [[Mikrolean]]
+|-
+| [[Estijan Language]] || 272 || [[Alzuria-Ayuman]] || [[Surtan]]
+|-
+| [[Sursian  Language]] || 193 || [[Ankuano-Elaian]] || [[Sakernlesi]]
+|-
+| [[Lastnu Language]] || 174 || [[Conlang]] || N/a
+|-
+| [[Inanian Language]] || 137 || [[Casa-Mahean]] || [[Huan]]
+|-
+| [[Vesozatan Language]] || 127 || [[Casa-Mahean]] || [[Secsuu]]
+|-
+| [[Dorimian Language]] || 120 || [[Pyrru-Kanqer]] || [[Dorimian]]
+|-
+| [[Cenryi Language]] || 113 || [[Casa-Mahean]] ||	[[Huan]]
+|-
+| [[Aksalshai Language]] || 104 || [[Ankuano-Elaian]] || [[Kiiaavo]]
+|-
+| [[Ealdorii Language]] || 103 || [[Alzuria-Ayuman]] || [[Alzurian]]
+|-
+| [[Quidican Language]] || 94 || [[Ankuano-Elaian]] || [[Kiiaavo]]
+|-
+| [[Lycroan Language]] || 94 || [[Alzuria-Ayuman]] || [[Saetnde]]
+|-
+| [[Ukhdari Language]] || 92 || [[Alzuria-Ayuman]] || [[Alzurian]]
+|-
+| [[Terressin  Language]] || 84 || [[Arten]] || [[Daisti]]
+|-
+| [[Vayvelean Language]] || 82 || [[Kuhn]] || [[Vayvelean]]
+|-
+| [[Suenan Language]] || 82 || [[Irasumi]] || [[Silans]]
+|-
+| [[Ocunese Language]] || 81 || [[Kuhn]] || [[Ocunese ]]
+|-
+| [[Shie Dahen Language|Shie Language]] || 75 || [[Dahen-Kino]] || [[Dahen]]
+|-
+| [[Ersuckl Language]] || 73 || [[Alzuria-Ayuman]] || [[Saetnde]]
+|-
+| [[Verusan Language]] || 71 || [[Alzuria-Ayuman]] || [[Saetnde]]
+|-
+| [[Ashani Language]] || 65 || [[Ankuano-Elaian]] || [[Ashonic]]
+|-
+| [[Verstian Language]] || 56 || [[Zanalaric]] || —
+|-
+| [[Sunsokuan Language]] || 52 || [[Ankuano-Elaian]] || [[Ashonic]]
+|-
+| [[Seytinemasi Language]] || 49 || [[Casa-Mahean]] || [[Casn]]
+|-
+| [[Lierin Language]] || 49 || [[Casa-Mahean]] || [[Cenryi]]
+|-
+| [[Qai DahenLanguage|Qai Language]] || 49 || [[Dahen-Kino]] || [[Dahen]]
+|-
+| [[Praesian Language]] || 44 || [[Alzuria-Ayuman]] || [[Saetnde]]
+|-
+| [[Sianan Language]] || 40 || [[Alzuria-Ayuman]] || [[Saetnde]]
+|-
+| [[Easuhuran Language]] || 39 || [[Alzuria-Ayuman]] || [[Nasucisan]]
+|-
+| [[Sanagaran Language]] || 39 || [[Irasumi]] || [[Kajitans]]
+|-
+| [[Mylanese Language]] || 38 || [[Tabber-Nij]] || [[Tabber]]
+|}
+
+=== ''Krali World Factbook'' (1763 estimates) ===
+According to the ''[[Krali Development Report,]]'', the most-spoken first languages in 1763 were:
+
+{| class="wikitable"
+|+ Top first languages by population per ''Krali''
+|-
+! Language
+! Percentage<br>of world<br>population<br>(1763)
+|-
+| [[Dahen Language]] || 10.50%
+|-
+| [[Alqiran Language]] || 8.99%
+|-
+| [[Arten Language]] || 8.61%
+|-
+| [[Emaran Language]] || 6.98%
+|-
+| [[Pelugrotoan Language]] || 4.65%
+|-
+| [[Estijan Language]] || 4.03%
+|-
+| [[Sursian Language]] || 2.86%
+|-
+| [[Lastnu Language]] || 2.58%
+|-
+| [[Inanian Language]] || 2.03%
+|-
+| [[Vesozatan Language]] || 1.88%
+|}
+
+==See also==
+{{div col|colwidth=30em}}
+* [[List of languages by total number of speakers]]
+* [[List of sign languages by number of native signers]]
+* [[List of language families]] (with number of speakers)
+* [[List of official languages by country and territory]]
+* [[List of countries by number of languages]]
+* [[Languages used on the Internet]]
+* [[Lists of languages]]
+* [[List of languages by number of speakers in Europe]]
+* [[Global language system]]
+* [[Linguistic diversity index]]
+* [[World language]]
+{{div col end}}
+
+{{DEFAULTSORT:Languages by Number of Native Speakers}}
+
+[[Category:Articles with short description|Languages by Number of Native Speakers]]
+[[Category:Pages with short description|Languages by Number of Native Speakers]]
+[[Category:Statistics|Languages by Number of Native Speakers]]
+[[Category:Wikipedia pages with incorrect protection templates|List of languages by number of native speakers]]
