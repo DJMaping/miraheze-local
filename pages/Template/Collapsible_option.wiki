@@ -1,0 +1,20 @@
+This template's '''initial visibility currently defaults to {{param value|{{#switch:{{{default|}}}|collapsed=collapsed|expanded=expanded|autocollapse|#default=autocollapse}}}}''', meaning that {{#switch:{{{default|}}}|collapsed=it is hidden apart from its title bar.|expanded=it is fully visible.|autocollapse|#default=if there is another collapsible item on the page (a [[Wikipedia:Navigation_template#Types|navbox, sidebar]], or [[Help:Collapsing tables and more|table with the collapsible attribute]]), it is hidden apart from its title bar; if not, it is fully visible.}}
+
+To change this template's initial visibility, the {{para|{{{parameter_name|state}}}}} [[Help:Template#Parameters|parameter]] may be used:
+<ul>
+{{#ifeq:{{{default|}}}|collapsed|<!-- don't show -->|<li>{{#tag:syntaxhighlight|<nowiki>{{</nowiki><includeonly>{{</includeonly>{{#if:{{{nobase|}}}| |BASE}}PAGENAME<includeonly>}}</includeonly><nowiki>|</nowiki>{{{parameter_name|state}}}<nowiki>=collapsed}}</nowiki>|lang=wikitext|inline=1}} will show the template collapsed, i.e. hidden apart from its title bar.</li>}}
+{{#ifeq:{{{default|}}}|expanded|<!-- don't show -->|<li>{{#tag:syntaxhighlight|<nowiki>{{</nowiki><includeonly>{{</includeonly>{{#if:{{{nobase|}}} | |BASE}}PAGENAME<includeonly>}}</includeonly><nowiki>|</nowiki>{{{parameter_name|state}}}<nowiki>=expanded}}</nowiki>|lang=wikitext|inline=1}} will show the template expanded, i.e. fully visible.</li>}}
+{{#ifeq:{{{default|autocollapse}}}|autocollapse|<!-- don't show -->|<li>{{#tag:syntaxhighlight|<nowiki>{{</nowiki><includeonly>{{</includeonly>{{#if:{{{nobase|}}} | |BASE}}PAGENAME<includeonly>}}</includeonly><nowiki>|</nowiki>{{{parameter_name|state}}}<nowiki>=autocollapse}}</nowiki>|lang=wikitext|inline=1}} will show the template autocollapsed, i.e. if there is another collapsible item on the page (a [[Wikipedia:Navigation_template#Types|navbox, sidebar]], or [[Help:Collapsing|table with the collapsible attribute]]), it is hidden apart from its title bar, but if not, it is fully visible.</li>}}</ul><!-- 
+ -->{{#if:{{{align|}}}|{{para|align|{{var|value}}}} is also available; where {{var|value}} can be either <code>right</code> or <code>left</code>. The default is {{kbd|center}}.
+}}{{#if:{{{title-background|}}}|{{para|title-background|{{var|value}}}} is also available; where {{var|value}} can be either {{kbd|navbox}} or a {{kbd|color}}. The default is {{kbd|none}}, and {{{kbd|navbox}}} defaults to the default navbox color.
+}}{{#if:{{{width|}}}|
+{{para|width|{{var|value}}}} is also available; where {{var|value}} can be either {{kbd|{{var|N}} [em/%/px]}} or {{kbd|auto}}. The default is {{kbd|100%}}.
+}}{{sandbox other|__EXPECTUNUSEDTEMPLATE__}}<!--
+Add {{pp-template}} if template page where this template is transcluded is protected:
+-->{{template other
+    | {{#if:{{PROTECTIONLEVEL:edit}} |{{pp-template|docusage=yes}}
+       | {{#if:{{PROTECTIONLEVEL:move}} |{{pp-move|docusage=yes|small=yes}} }}
+   }} }}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

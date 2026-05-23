@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bavaria
+| flag alias = Flag of Bavaria (lozengy).svg
+| flag alias-striped = Flag of Bavaria (striped).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = striped
+| redir1 = Bayern
+| redir2 = DE-BY
+| redir3 = Free State of Bavaria
+| related1 = Kingdom of Bavaria
+| related2 = Electorate of Bavaria
+</noinclude>
+}}

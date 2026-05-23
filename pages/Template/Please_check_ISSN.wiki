@@ -1,0 +1,5 @@
+{{#if: {{NAMESPACE}} ||[[Category:Articles with invalid ISSNs]]}}{{#if:{{REVISIONID}}||&ensp;<span class="error" style="font-size:100%; font-weight:normal">(Warning: Check ISSN)</span>}}<noinclude>
+
+{{Documentation}}
+
+</noinclude>

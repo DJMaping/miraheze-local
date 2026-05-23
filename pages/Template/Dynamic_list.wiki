@@ -1,0 +1,5 @@
+{{hatnote|1={{#if:{{yesno|{{{multiple|}}}}}|This article contains [[Wikipedia:WikiProject Lists#Dynamic lists|dynamic lists]] that|This is a [[Wikipedia:WikiProject Lists#Dynamic lists|dynamic list]] and}} may never be able to satisfy particular standards for completeness. You can help by [[Special:EditPage/{{FULLPAGENAME}}|editing the page]] to add missing items, with references to [[Wikipedia:Reliable sources|reliable sources]].}}<!--
+
+-->{{#ifeq:{{NAMESPACE}}||[[Category:Dynamic lists]]}}<noinclude>
+{{documentation}}
+</noinclude>

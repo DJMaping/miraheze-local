@@ -1,0 +1,49 @@
+{{Navbox
+| name = Semantic markup templates
+| state = {{{state|{{{1|<includeonly>collapsed</includeonly>}}}}}}
+| title = {{c|Semantic markup templates}}
+| liststyle = font-size:110%;
+| tracking = no <!-- keep the documented templates out of the hlist tracking category -->
+
+| list1 =
+  {{Aligned table
+   |cols=3 |class=wikitable sortable |style=line-height:1.35em;text-align:left;
+   |colstyle=<!--vertical-align:middle;-->padding-right:1.0em;
+   |col2style=white-space:nowrap; |col3style=white-space:normal;
+   |row1style=line-height:1.6em;
+   |row1header=on
+   | Template&nbsp;      | Example output&nbsp;                                 | Use&nbsp;
+
+   | {{tlb|strong}}     | {{strong|Important!}}                                | To indicate [[HTML element#strong|<nowiki><strong></nowiki>]] importance, seriousness, or urgency instead of just simple typographical boldfacing
+   | {{tlb|strongbad}}  | "{{strongbad|Never}} use&thinsp;..."                 | Same as {{braces|strong}} but in red
+   | {{tlb|stronggood}} | "{{stronggood|Only}} use&thinsp;..."                 | Same as {{braces|strong}} but in green
+   | {{tlb|em}}         | "An {{em|emphatic phrase}}"                          | To indicate [[HTML element#em|<nowiki><em></nowiki>]] stress emphasis (not just purely typographical italicization like for book titles or foreign terms)
+   | {{tlb|var}}        | {{var|strPrefix}}                                    | To indicate text is a variable name. Use for any variable names except those including "I" (uppercase&nbsp;i) and/or "l" (lowercase&nbsp;L); for these, {{braces|var serif}} should be used to ensure a noticeable distinction
+   | {{tlb|var serif}}   | {{var serif|strIllustratePrefix}}                     | (see {{braces|var}} above)
+   | {{tlb|tld}}        | {{tld|DEFAULTSORT:Y, X}}                             | To display wikicode variables and [[Help:Magic words|magic words]] as they would appear in code
+   | {{tlb|para}}       | {{para|year|2008}}                                   | To display template parameters with or without values
+   | {{tlb|param}}      | {{param|title|alt}}                                  | To display parameters as used in code (i.e. with triple braces), especially to indicate relationships between them. May be combined with {{braces|para}} above
+   | {{tlb|tjp}}        | {{tjp|selfref: yes|category: no}}                    | To display template parameters with colors (as they would appear in the {{tl|tj}} and {{tl|tji}} templates)
+   | {{tlb|param value}}| {{pvalue|  2 blanks fore and aft  |space=·}}         | To display parameter values lightly bordered; replaces &lt;code>...&lt;/code>, especially when value contains embedded or leading/trailing blanks; visualized here with [[middot]] (&middot;) but can use ␠, ▯, or any character.
+   | {{tlb|tlx}} etc.   | {{tlx|Template|{{var|1}}|{{var|2}}|...|{{var|10}}}}  | To display a template call (with or without parameters and values) as code
+   | {{tlb|tji}}        | {{tji|hatnote|Hello|selfref: yes|category: no}}      | To showcase with colors in horizontal format the syntax of any template, while providing an easy way to display placeholder texts using colons as separators
+   | {{tlb|tag}}        | {{resize|95%|"The {{tag|img}} tags&thinsp;..."}}     | To render [[HTML element]]s ("tags") in prose
+   | {{tlb|code}}/{{tlb|codett}} | {{resize|95%|"Ensure the {{code|1=alt=}} parameter&thinsp;..."}}  | To indicate text is source code. To nest other templates within {{braces|code}}, use {{tag|code}}. {{tl|codett}} differs only in styling: {{code|someMethod}} becomes  {{codett|someMethod}}
+   | {{tlb|PreCode}} | {{resize|95%|"[[Forth (programming language)|FORTH]] has keyword {{PreCode|?BRANCH}}."}} | Like {{tlb|code}}, but prevents line breaks inside the code. Only for very short code parts.
+   | {{tls|codenowiki}} | <code><nowiki>{{small|small text example}}</nowiki></code>   | To wrap example code in {{code|<code><<nowiki>nowiki</nowiki>>...<<nowiki>/nowiki</nowiki>></code>}}
+   | {{tls|kbdnowiki}}  | <kbd><nowiki>{{large|large text example}}</nowiki></kbd>         | To wrap example code in {{code|<kbd><<nowiki>nowiki</nowiki>>...<<nowiki>/nowiki</nowiki>></kbd>}}
+
+   | {{tlb|syntaxhighlight}}       | &nbsp; &nbsp; <sub>[this is a block template]</sub> | ({{thin space|or {{tlx|sxhl}}}})&nbsp; Wrapper for {{tag|syntaxhighlight}}, but will wrap overflowing text
+   | {{tlb|deprecated code}}       | "Do not use {{tag|{{deprecated code|blink}}|o}}."   | ({{thin space|or {{tlx|dc}}}})&nbsp; To indicate [[Deprecation|deprecated]] source code in template documentation, articles on HTML specs, etc. The {{tlx|dc2}} variant uses strike-through ({{tag|{{dc2|blink}}|o}}) while {{tlx|dcr}} uses red ({{tag|{{dcr|blink}}|o}}).
+   | {{tlb|pre}}                   | &nbsp; &nbsp; <sub>[this is a block template]</sub> | For larger blocks of source code and other pre-formatted text
+   | {{tlb|tj}}                    | &nbsp; &nbsp; <sub>[this is a block template]</sub> | To showcase with colors and multiple lines (vertical format) the syntax of any template, while providing an easy way to display placeholder texts using colons as separators
+   | {{tlb|quote}}                 | &nbsp; &nbsp; <sub>[this is a block template]</sub> | For block quotations (only – never for non-quotations)
+   | {{tlb|block indent}}          | &nbsp; &nbsp; <sub>[this is a block template]</sub> | For indented blocks of material; visually identical to {{tlx|quote}} but without quote markup
+   | {{tlb|kbd}}                   | {{kbd|user input}}                                  | To indicate user input
+   | {{tlb|key press}}             | {{key press|Ctrl|x}}                                | To indicate specific-keystroke input, including combinations
+   | {{tlb|key top}}               | {{key top|Left shift}}                              | Similar; includes more symbols, but does not directly support combinations
+   | {{tlb|button}}                | {{button|Don't save}}                               | To indicate a button in a user interface
+   | {{tlb|samp}}                  | {{samp|example output}}                             | To indicate sample or example output
+  }}
+
+}}<noinclude>{{documentation}}</noinclude>

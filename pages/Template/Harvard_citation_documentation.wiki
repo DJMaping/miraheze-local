@@ -1,0 +1,1031 @@
+{{tl1|{{{1}}}}} is designed to be used to create {{sfnote|lc=y}}, a citation style which pairs a short, author-date citation in a footnote with a [[WP:HOWCITE|complete citation]] in the references section at the end of the article (see example [[#Usage|below]]). This citation style is used to reduce clutter in the edit window and to combine multiple citations to the same source.
+
+Common problems and known workarounds are given in the [[#Possible issues|possible issues]] section below.
+
+There are several related "Harvard" and short footnote templates that are designed for use with shortened footnotes. They differ slightly in the way they format the author-date citation and how much of their functionality is automated. A full list of these related templates is [[#Other author–date citation templates|below]].
+
+Note that the use (or even non-use) of these templates is an element of citation "style", and adding or removing them in articles with an established style should be consistent with that style. See [[WP:CITEVAR]].
+{{#if:{{{noref|}}}||<nowiki/>
+
+Also note that certain uses of these templates, i.e. use of {{tl|harv}} without {{tag|ref}} tags around it, [[WP:PARREF|were deprecated in September 2020]]. See the discussion [[#Parenthetical references are deprecated|below]].}}
+==Usage==
+{{{1}}} generates an "author-date" style short-cite from the following parameters:
+
+<div style="margin-left: 2em"><code>{{#if:{{{noref|}}}||<nowiki><ref></nowiki>}}{{{{{1}}} | &lt;{{var|last1}}*> | &lt;{{var|last2}}> | &lt;{{var|last3}}> | &lt;{{var|last4}}> | &lt;{{var|year}}*> | p= &lt;{{var|page}}> | loc= &lt;{{var|location}}> &#125;&#125;{{#if:{{{noref|}}}||<nowiki></ref></nowiki>}}</code></div>
+
+with
+* &lt;{{var|last1}}> – required; surname of first author or corporate author
+* &lt;{{var|last2}}>–&lt;{{var|last4}}> – positional parameters; surnames of next three authors; required if available in the full citation
+* &lt;{{var|year}}> – required; four-digit year; may have a lowercase disambiguation letter, like {{pval|2012a}}
+* {{para|p}} – specific page referenced in the source (alias: {{para|page}}{{hairspace}})
+* {{para|pp}} – comma-separated list of [[Template:Csdoc#pages|individual pages and / or range(s) of pages]] referenced in the source  (alias: {{para|pages}}{{hairspace}})
+* {{para|loc}} – in-source location when {{para|p}} and {{para|pp}} are inappropriate; may be used to supplement {{para|p}} and {{para|pp}}; information such as a section or figure number. (alias: {{para|at}}{{hairspace}})
+
+Typical usage is shown in the example below. The text and the footnote are connected by a bi-directional link – clicking on the superscript takes the reader to the footnote, clicking on the footnote number takes them back to the superscript. The clicking on the short citation takes them to the full citation in the references section.
+
+{{#if:{{{noref|}}}|
+
+Template {{{1}}} is not placed inside {{tag|ref}} tags and generates the footnote internally. (To place {{{1}}} in a footnote, see [[#A citation inside an explanatory footnote|putting a citation inside a footnote]], below.)
+{{markup|<nowiki>
+Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}
+More article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}
+Still more article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=26}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book
+ | last = Smith | first = John
+ | date = 2020
+ | title = Smith's Book
+}}
+</nowiki>|
+Article text.{{{{{1}}}|Smith|2020|p=25}}
+More article text.{{{{{1}}}|Smith|2020|p=25}}
+Still more article text.{{{{{1}}}|Smith|2020|p=26}}
+
+{{fake notes and references||}}
+{{cite book
+ | last = Smith | first = John
+ | date = 2020
+ | title = Smith's Book
+}}}}|
+
+Template {{{1}}} is placed inside {{tag|ref}} tags to create {{sfnote|lc=y}}. Using {{{1}}} outside of {{tag|ref}} tags is deprecated in [[#Parenthetical references are deprecated|some contexts]].
+{{markup|<nowiki>
+Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}</ref>
+More article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}</ref>
+Still more article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=26}}</ref>
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book
+ | last = Smith | first = John
+ | date = 2020
+ | title = Smith's Book
+}}
+</nowiki>|
+Article text.{{#tag:ref|{{{{{1}}}|Smith|2020|p=25}}}}
+More article text.{{#tag:ref|{{{{{1}}}|Smith|2020|p=25}}}}
+Still more article text.{{#tag:ref|{{{{{1}}}|Smith|2020|p=26}}}}
+
+{{fake notes and references||}}
+*{{cite book
+ | last = Smith | first = John
+ | date = 2020
+ | title = Smith's Book
+}}
+*{{cite book|last1=Smith|last2=Jones|date=2020|title=Book by Smith and Jones}}
+*{{cite book|last1=Smith|last2=Jones|last3=Brown|date=2020|title=Book by Smith and Jones and Brown}}
+*{{cite book|last1=Smith|last2=Jones|last3=Brown|last4=Black|date=2020|title=Book by Smith and Jones and Brown and Black}}
+}}
+
+}}
+
+===Parameters===
+
+====Author(s) and year====
+The first four author surnames (or all authors if fewer than four; use the values from {{para|last''N''}} or {{para|author''N''}}{{hairspace}}) are required, followed by the year of publication (from {{para|year}} or {{para|date}}). Authors past the fourth must be omitted or an error will result.
+
+The [[#Possible issues|possible issues]] section below describes workarounds for various common problems, such as [[#Large number of authors|large number of authors]], [[#No author name in citation template|no author name]], [[#More than one work in a year|multiple works in the same year]], [[#More than one author with the same last name|multiple authors with same last name]] and others.
+
+{{#if:{{{noref|}}}|
+{{markup
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}</nowiki>
+|Article text.{{{{{1}}}|Smith|2020|p=25}}<br />
+{{reflist}}
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|Jones|2020|p=25}}</nowiki>
+|Article text.{{{{{1}}}|Smith|Jones|2020|p=25}}<br />
+{{reflist}}
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|Jones|Brown|2020|p=25}}</nowiki>
+|Article text.{{{{{1}}}|Smith|Jones|Brown|2020|p=25}}<br />
+{{reflist}}
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|Jones|Brown|Black|2020|p=25}}</nowiki>
+|Article text.{{{{{1}}}|Smith|Jones|Brown|Black|2020|p=25}}<br />
+{{reflist}}
+}}
+|
+{{markup
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|2020|p=25}}}}<br />
+{{reflist}}
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|Jones|2020|p=25}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|Jones|2020|p=25}}}}<br />
+{{reflist}}
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|Jones|Brown|2020|p=25}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|Jones|Brown|2020|p=25}}}}<br />
+{{reflist}}
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|Jones|Brown|Black|2020|p=25}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|Jones|Brown|Black|2020|p=25}}}}<br />
+{{reflist}}
+}}
+}}
+
+====Location in the source text====
+The optional parameters {{para|p}}, {{para|pp}} and {{para|loc}} can be used to indicate the location in the source, such as page numbers. For single pages, use {{para|p}}; for multiple pages (such as ranges), use {{para|pp}}. Use of {{para|p}} for multiple pages or {{para|pp}} for single pages can cause [[Help:Cite errors/Cite error references duplicate key|cite errors]]. {{para|loc}} can be used to specify a location in the source in another way, such as section numbers or chapters. It can also be combined with {{para|p}} or {{para|pp}}. The parameters {{para|page}} and {{para|pages}} exist as aliases for {{para|p}} and {{para|pp}}, respectively.
+
+{{#if:{{{noref|}}}|
+{{markup
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}</nowiki>
+|Article text.{{{{{1}}}|Smith|2020|p=25}}<br />
+{{reflist}}
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|pp=25–26}}</nowiki>
+|Article text.{{{{{1}}}|Smith|2020|pp=25–26}}<br />
+{{reflist}}
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|loc=ch. 3}}</nowiki>
+|Article text.{{{{{1}}}|Smith|2020|loc=ch. 3}}<br />
+{{reflist}}
+|<nowiki>Article text.{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25|loc=n. 14}}</nowiki>
+|Article text.{{{{{1}}}|Smith|2020|p=25|loc=n. 14}}<br />
+{{reflist}}
+}}
+|
+{{markup
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|2020|p=25}}}}<br />
+{{reflist}}
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|pp=25–26}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|2020|pp=25–26}}}}<br />
+{{reflist}}
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|loc=ch. 3}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|2020|loc=ch. 3}}}}<br />
+{{reflist}}
+|<nowiki>Article text.<ref>{{</nowiki>{{{1}}}<nowiki>|Smith|2020|p=25|loc=n. 14}}</ref></nowiki>
+|Article text.{{#tag:ref|{{{{{1}}}|Smith|2020|p=25|loc=n. 14}}}}<br />
+{{reflist}}
+}}
+}}
+
+====Additional text====
+The optional parameter {{para|postscript}} or {{para|ps}} can be used to change the text which appears at the end of the note in the reference list. (See [[#Additional comments or quotes|§ Adding additional comments or quotes]] and [[#No closing period|§ No closing period]], below.) Subsequent invocations of {{tl2|sfn}} with the same author, year, page, and location values but a different value for this parameter with produce a cite error about multiple definition.
+
+====Hard-coded link names====
+''Not available in {{tl2|sfn}} and similar templates.''
+
+The optional parameter {{para|ref}} is used to create an unusually named link from the short citation to the full citation. This parameter is usually not necessary, and it is more common to use {{tl2|sfnRef}} or {{tl2|harvid}} in the reference section. If you specify {{para|ref|none}}, no hyperlink is created. However, if one does not want the link, it is always possible to simply use plain text instead of the template. The parameter {{para|Ref}} is an alias for {{para|ref}}.
+
+==Possible issues==
+
+=== Parenthetical references are deprecated ===
+
+Per [[WP:PAREN]], a certain style of short citations using parentheses, placed ''within the article text itself'', is deprecated on Wikipedia. Several examples were raised and discussed during the [[Special:PermanentLink/976895063#Deprecate parenthetical citations|September 2020 request for comments]]. To summarize the consensus reached there:
+
+{| class="wikitable"
+|-
+! Example !! Consensus
+|-
+| {{no| The Sun is pretty big. (Miller 2005, p. 1)}} || Formally deprecated; replace with "The Sun is pretty big.{{dummy reference}}"
+|-
+| {{no| The paper by Eek (2020) showed...}} || Wordy; use "Eek showed...{{dummy reference}}" instead
+|-
+| {{no| Eek (p. 35) showed...}} || Wordy; use "Eek showed...{{dummy reference}}" instead
+|-
+| {{no| In 2020, Pelagic et al. found that...}} || Wordy; use "{{dummy link|Pelagic et al. (2020)}} found that..." instead
+|-
+| {{yes| {{fake link|Smith (2008)}} argued...}} || Acceptable, in contexts where both year and author are encyclopedic information
+|-
+| {{yes| Smith argued...{{dummy reference}}}} || May be preferable to the above; no consensus
+|}
+
+Specifically the {{tl2|harvnb}} or {{tl2|harvtxt}} templates may be used to create the linked author-date in-text citation, as shown in the second-to-last example above.
+
+The deprecation does not apply to short citations in {{tag|ref|o}} tags, so the templates may continue to be used freely in that context.
+
+{{anchor|Additional comments or quotes}}
+=== Adding additional comments or quotes ===
+The templates {{tl2|harvnb}} or {{tl2|harvtxt}} can be used to add quotes or additional comments into the footnote. Examples are below.
+
+{{markup
+|<nowiki>
+Some information.<ref>{{harvnb|Smith|2011|p=2}}: "A quote verifying the information."</ref>
+== Notes ==
+{{reflist}}
+</nowiki>|
+Some information.<ref>{{harvnb|Smith|2011|p=2}}: "A quote verifying the information."</ref>
+{{Fake heading|sub=3|Notes}}
+{{reflist}}
+|<nowiki>
+"A quote in a secondary source."<ref>{{harvtxt|Smith|2011|p=2}} quoted in {{harvtxt|Jones|2010|p=343}}</ref>
+== Notes ==
+{{reflist}}
+</nowiki>|
+"A quote in a secondary source."<ref>{{harvtxt|Smith|2011|p=2}} quoted in {{harvtxt|Jones|2010|p=343}}</ref>
+{{Fake heading|sub=3|Notes}}
+{{reflist}}
+}}
+
+{{lang|la|Nota bene}}: In the past, the use of {{para|ps}} has been advised to hold this additional information, but it is not suitable for this purpose. Two or more {{tlc|sfn}} templates with the same authors, same year, and same page, but different {{para|ps}} will result in a {{small|{{error|Cite error: The named reference ... was defined multiple times with different content}}}} message. This message happens because the reference names that {{tlc|sfn}} creates will be the same, but the content between the {{tag|ref|params=name="FOOTNOTE..."|o}} tag and the {{tag|ref|c}} tag will be different. A workaround is to convert one or some of the {{tlc|sfn}} templates to {{tlx|harvnb}} wrapped in {{tag|ref}} tags.
+
+===Adding a URL for the page or location===
+If a specific link to the page or section is available, a [[Uniform Resource Locator|URL]] can be added to the location or page number.
+{{markup
+|<syntaxhighlight lang="wikitext">Article text.{{sfn|Smith|2011|p=[https://en.wikipedia.org 3]}}
+
+Other article text.{{sfn|Smith|2011|loc=[https://en.wikipedia.org &sect;7]}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book | last = Smith | date = 2011 | title = Smith's
+other book }}</syntaxhighlight>
+|{{Fake notes and references
+|Article text.{{sfn|Smith|2011|p=[https://en.wikipedia.org 3]}}
+
+Other article text.{{sfn|Smith|2011|loc=[https://en.wikipedia.org &sect;7]}}
+|* {{cite book | last = Smith | date = 2011 | title = Smith's book }}
+}}}}
+
+===A citation inside an explanatory footnote===
+
+Sometimes an explanatory footnote requires a citation. Templates like {{tl1|sfn}} can't be directly imbedded between {{tag|ref}} tags, because the following message will be produced: {{small|{{error|Cite error references missing group||nocat=true}}}}.
+
+The templates {{tl1|efn}} and {{tl1|notelist}} can be used to create separate explanatory footnotes from short citations, as shown in the first example. An article that uses this technique extensively is [[Chinese Room]].
+
+It is also possible to use the [[Help:Magic words|magic word]] <code><nowiki>{{#tag:ref|...}}</nowiki></code> and the {{tl|sfn}} template will work correctly inside the footnote, as shown in the second example.
+
+{{markup
+|<nowiki>
+Interesting fact.{{efn|Clarification of interesting fact.{{sfn|Smith|2018}}}}
+
+==Notes==
+{{notelist}}
+
+==Citations==
+{{reflist}}
+
+==References==
+* {{cite book
+| last = Smith
+| date = 2018
+| title = Smith's other book }}
+</nowiki>|
+Interesting fact.{{efn|Clarification of interesting fact.{{sfn|Smith|2018}}}}
+
+{{fake heading|Notes}}
+{{notelist}}
+
+{{fake heading|Citations}}
+{{reflist}}
+
+{{fake heading|References}}
+* {{cite book
+| last = Smith
+| date = 2018
+| title = Smith's other book }}
+|<nowiki>
+Interesting fact.{{#tag:ref|Clarification of interesting fact.{{sfn|Smith|2017}}}}
+
+==Citations==
+{{reflist}}
+
+==References==
+* {{cite book
+| last = Smith
+| date = 2017
+| title = Smith's other book }}
+</nowiki>|
+Interesting fact.{{#tag:ref|Clarification of interesting fact.{{sfn|Smith|2017}}}}
+
+{{fake heading|Notes}}
+{{reflist}}
+
+{{fake heading|References}}
+* {{cite book
+| last = Smith
+| date = 2017
+| title = Smith's other book }}
+}}
+
+====Multiple lists of inline citations====
+Sometimes there is a need to create two or more separate lists of inline footnotes. For example some family trees are contained in templates, they are transluded into several biographies, and they have their own self contained citations (see [[Template:Houston family tree]] and the article [[Margaret Lea Houston]]).
+
+To facilitate this, while the main page uses the standard 1,2,3 footnote counting, it is common for family trees to use the efn template with a group parameter set—for example {{tlx|efn-lg}} (lower-greek). The efn templates are text templates, to link some or all of the content of the efn template to a long citation template such as {{tlx|cite book}} place {{tlx|harvnb}} or {{tlx|harv}} within the efn template.
+
+{{markup
+|<nowiki>
+...by the fact itself.<ref>{{harvnb|Smith|2022|p=1}}</ref>
+
+==Family Tree==
+He's his own grandpa.{{efn-lg|{{harvnb|Latham|1947|p=9}} }}
+
+===FT notes===
+{{notelist-lg}}
+
+===FT references===
+*{{citation
+|last=Latham
+|first=Dwight
+|date=1947
+|title=The Adams family}}
+
+==See also==
+[[Ipso facto]]<ref>{{harvnb|Smith|2022|p=2}}</ref>
+
+==Notes==
+{{Reflist}}
+
+==References==
+* {{citation
+|last=Smith
+|date=2018
+|title=Smith's other book}}
+</nowiki>|
+...by the fact itself.<ref>{{harvnb|Smith|2022|p=1}}</ref>
+
+{{fake heading|Family Tree}}
+He's his own grandpa.{{efn-lg|{{harvnb|Latham|1947|p=9}} }}
+
+<small>{{fake heading|FT notes}}</small>
+{{notelist-lg}}
+
+<small>{{fake heading|FT references}}</small>
+*{{citation
+|last=Latham
+|first=Dwight
+|date=1947
+|title=The Adams family}}
+
+
+{{fake heading|See also}}
+[[Ipso facto]]<ref>{{harvnb|Smith|2022|p=2}}</ref>
+
+{{fake heading|Notes}}
+{{Reflist}}
+
+{{fake heading|References}}
+* {{citation
+|last=Smith
+|date=2022
+|title=Smith's other book }}
+}}
+
+===More than one work in a year===
+Where there is a need to cite more than one work ''by the same author published in the same year'', the standard way to disambiguate such works is to add a letter suffix after the year element of the {{tlc|sfn}} template (e.g. {{tlc|sfn|Smith|2006a}} and {{tlc|sfn|Smith|2006b}}). Make sure to add the disambiguation letter to the matching full citation, (e.g. <code><nowiki>{{cite book|...|last=Smith|date=2006b}}</nowiki></code>).
+
+====Templates that use Module:Citation/CS1====
+When {{tlc|sfn}} is used with {{tlx|citation}} or {{cs1}} templates, a year-suffix letter may be added to {{para|date}} for all accepted date formats except year-initial numeric ({{small|YYYY-MM-DD}}). It is not necessary to include both {{para|date}} and {{para|year}} (see exception [[#NB_YEAR|below]]). If both are included, {{para|year}} is used for the <code>CITEREF</code> anchor to be compliant with legacy citations.
+:{{para|date|2013a}}: simple year only dates
+:{{para|date|Jan 2013b}} or {{para|date|Winter 2013b}}: month or season and year dates
+:{{para|date|9 November 2013b}} or {{para|date|November 9, 2013b}}: full dates
+:{{para|date|June–July 2013c}} or {{para|date|Winter–Spring 2013c}}: month or season ranges and year dates
+:{{para|date|c. 2013d}}: circa year dates
+:{{para|date|{{#time:Y}}–{{#time:Y|now +1 year}}e}} or {{para|date|Summer {{#time:Y}}–{{#time:y|now +1 year}}e}}: year ranges
+:{{para|date|n.d.f}}: no date (n.d.)
+:{{anchor|NB_YEAR}}<s>{{para|date|2013g-11-09}}</s>: not supported, the template must use {{para|year|2013g}}. If month and day should be part of the citation as well, both parameters need to be given: {{para|date|2013-11-09}} {{para|year|2013x}}. In this case, {{para|date}} is used for citation display and metadata purposes, and {{para|year}} for link disambiguation.
+
+{{markup
+|<nowiki>Article text.{{sfn|Smith|1993a|p=25}}
+More text.{{sfn|Smith|1993b|p=32}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite journal
+|last=Smith
+|first=Karen
+|date=January 1993a
+|title=Smith's first paper
+|journal=Important Journal
+}}
+* {{cite journal
+|last=Smith
+|first=Karen
+|date=Spring–Summer 1993b
+|title=Smith's second paper
+|journal=Another Important Journal
+}}</nowiki>
+|{{fake notes and references
+|Article text.{{sfn|Smith|1993a|p=25}}
+More text.{{sfn|Smith|1993b|p=32}}
+|* {{cite journal|last=Smith|first=Karen|date=January 1993a|title=Smith's first paper|journal=Important Journal}}
+* {{cite journal|last=Smith|first=Karen|date=Spring–Summer 1993b|title=Smith's second paper|journal=Another Important Journal}}
+}}}}
+
+=== More than one author with the same last name ===
+The above solution to add a letter suffix after the year element also works for multiple authors with the same last name. For example, both [[Richard Bushman]] and [[Claudia Lauper Bushman]] published books in 2006. To differentiate between the two books, the first one can be given the year "2006a" and the second one "2006b".
+===Large number of authors===
+If there are more than four authors, the first four authors' surnames (the value in {{para|last}} or {{para|author}}) are required by the template. Listing more authors is not supported. It is also possible to use the {{para|ref|{{tl|harvid}}}} in the citation template, which allows a more concise citation in the article text.
+
+{{markup
+|<nowiki>Article text.<ref>{{harv|Smith|Jones|Brown|Black|1994|p=25}}</ref>
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite journal
+| last = Smith
+| last2 = Jones
+| last3 = Brown
+| last4 = Black
+| last5 = Davis
+| last6 = Martinez
+| last7 = Hsu
+| date = 1994
+| title = Scientific paper written by
+many scientists
+| journal = Important Journal
+}}</nowiki>
+|{{fake notes and references
+|Article text.<ref>{{harv|Smith|Jones|Brown|Black|1994|p=25}}</ref>
+|
+* {{cite journal
+| last = Smith
+| last2 = Jones
+| last3 = Brown
+| last4 = Black
+| last5 = Davis
+| last6 = Martinez
+| last7 = Hsu
+| date = 1994
+| title = Scientific paper written by many scientists
+| journal = Important Journal}}
+}}
+|<nowiki>Article text.<ref>{{harv|Smith et al.|1995|p=25}}</ref>
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite journal
+| last = Smith
+| last2 = Jones
+| last3 = Brown
+| last4 = Black
+| last5 = Davis
+| last6 = Martinez
+| last7 = Hsu
+| date = 1995
+| title = Another paper by many scientists
+| journal = Important Journal
+| ref = {{harvid|Smith et al.|1995}}
+}}</nowiki>
+|{{fake notes and references
+|Article text.<ref>{{harv|Smith et al.|1995|p=25}}</ref>
+|
+* {{cite journal
+| last = Smith
+| last2 = Jones
+| last3 = Brown
+| last4 = Black
+| last5 = Davis
+| last6 = Martinez
+| last7 = Hsu
+| date = 1995
+| title = Another paper by many scientists
+| journal = Important Journal
+| ref = {{harvid|Smith et al.|1995}}
+}}
+}}}}
+
+===No author name in citation template===
+Some sources do not have a single author with a last name, such as a magazine article or a report from a government institution. There is no consensus (in Wikipedia or among citation styles) about how to format author–date citations for works that do not have a specific author. Several choices are:
+# The title of the article, or a shortened form of the title, is recommended by some style guides.
+# For a newspaper or periodical, you may use the name of the paper and the date.
+# For a publication by an institution, use either:
+## The initials of the institution
+## The name of the institution
+# Other style guides recommend using "Anonymous" or "Anon."
+An article should adopt one of these styles consistently. Using {{para|ref|{{tl|harvid}}}} in the citation template can handle these cases.
+
+{{markup
+|<syntaxhighlight lang="wikitext">Article text.{{sfn|BGI|1996|p=429}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book
+| title = Important Book
+| date = 1996
+| publisher = Big Government Institution
+| ref = {{harvid|BGI|1996}}
+}}</syntaxhighlight>
+|{{fake notes and references
+|Article text.{{sfn |BGI|1996|p=429}}
+|* {{cite book
+| title = Important Book
+| date = 1996
+| publisher = Big Government Institution
+| ref = {{harvid|BGI|1996}}
+}}}}
+|<syntaxhighlight lang="wikitext">Article text.{{sfn |''Popular Magazine''|1996|p=29}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite magazine
+| magazine = Popular Magazine
+| title = An Article by an Anonymous Author
+| date = 1996
+| ref = {{harvid|Popular Magazine|1996}}
+}}</syntaxhighlight>
+|{{fake notes and references
+|Article text.{{sfn |''Popular Magazine''|1996|p=29}}
+|* {{cite magazine
+| magazine = Popular Magazine
+| title = An Article by an Anonymous Author
+| date = 1996
+| ref = {{harvid|Popular Magazine|1996}}
+}}}}}}
+
+===Citation has <code>|date=</code> and no <code>|year=</code>===
+Either the {{para|date}} or {{para|year}} of a citation template can be matched—the template logic can extract the year from a full date. If the date parameter is not a full date, then the extraction will fail. If the link does not seem to work, it also possible to set both {{para|date}} and {{para|year}} parameters. The template will display the date and use the year for the anchor. These two examples show a year being successfully extracted from full date.
+
+{{markup
+|<nowiki>Article text.{{sfn|Smith|1997|p=101}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite journal
+| last = Smith | first = Karen
+| date = 11 May 1997
+| title = Smith's 1997 paper
+| journal= Important Journal
+}}</nowiki>
+|{{fake notes and references
+| Article text.{{sfn|Smith|1997|p=101}}
+|* {{cite journal
+| last = Smith | first = Karen
+| date = 11 May 1997
+| title = Smith's 1997 paper
+| journal= Important Journal
+}}}}
+|<nowiki>Article text.{{sfn|Smith|1998|p=101}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite journal
+| last = Smith | first = Karen
+| date = May 1998
+| title = Smith's 1998 paper
+| journal= Important Journal
+}}</nowiki>
+|{{fake notes and references
+| Article text.{{sfn|Smith|1998|p=101}}
+|* {{cite journal
+| last = Smith | first = Karen
+| date = May 1998
+| title = Smith's 1998 paper
+| journal= Important Journal
+}}}}}}
+
+===Using {{{1}}} with [[Template:Cite comic|<code><nowiki>{{cite comic}}</nowiki></code>]]===
+The {{tl|cite comic}} template uses the parameter {{para|ref}} to create an anchor for the Harvard citation templates. This can be set with {{tl2|sfnRef}}, {{tl2|harvid}}, or using CITEREF directly with a concatenation of <code>#CITEREF</code> plus the parameters passed to the Harvard citation template.
+
+{{markup
+|<nowiki>Article text.{{sfn|Morrison|1987}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite comic
+ |writer=Morrison, Grant
+ |artist=Yeowell, Steve
+ |title=2000 AD
+ |date=August 15, 1987
+ |publisher=[[Fleetway]]
+ |ref={{sfnref|Morrison|1987}}
+}}</nowiki>
+|{{fake notes and references
+| Article text.{{sfn|Morrison|1987}}
+|* {{cite comic
+ |writer=Morrison, Grant
+ |artist=Yeowell, Steve
+ |title=2000 AD
+ |date=August 15, 1987
+ |publisher=[[Fleetway]]
+ |ref={{sfnref|Morrison|1987}}
+}}}}}}
+
+===Citation format does not support anchors: [[Template:wikicite|<code><nowiki>{{wikicite}}</nowiki></code>]]===
+In a few very rare cases, it may be impossible for the citation templates to create an anchor. Either (1) the citation is formatted with a template that does not support the {{para|ref}} parameter or (2) the source can't be described using our citation templates at all. In these cases, it is possible to use {{tl2|wikicite}} to make the anchor. (As of November 2010, there are only approximately 100 articles that require this technique.) It is also possible that (3) local editors would prefer not to use citation templates. In this case, it is important to discuss what the local editors would like to do about the bad links. It is always possible to simply remove {{tl2|harv}} or {{tl2|sfn}}, leaving plain text without links.
+
+{{markup
+|<nowiki>Article text.{{sfn |Big Government Agency|1999}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{wikicite
+ | reference = {{cite report
+ | title=Important Government Report
+ | publisher=Big Government Agency
+ | date=1999
+ }}
+ | ref = {{harvid|Big Government Agency|1999}}
+}}
+</nowiki>
+
+|{{fake notes and references
+| Article text.{{sfn |Big Government Agency|1999}}
+|* {{wikicite
+| reference = {{cite report
+ | title=Important Government Report
+ | publisher=Big Government Agency
+ | date=1999
+}}
+| ref = {{harvid|Big Government Agency|1999}}
+}}}}
+|<nowiki>Article text.{{sfn |A particularly unusual citation}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{wikicite
+| reference = A source that can't be described
+using our citation templates at all.
+| ref = {{harvid|A particularly unusual citation}}
+}}
+</nowiki>
+|{{fake notes and references
+| Article text.{{sfn |A particularly unusual citation}}
+|* {{wikicite
+| reference = A source that can't be described using our citation templates at all.
+| ref = {{harvid|A particularly unusual citation}}
+}}}}}}
+
+It is also possible to use {{tag|cite|o}} to achieve the same effect, but this may not be compatible with [[HTML 5]].
+
+{{Anchor|Citation has multiple authors and no date}}<!-- This workaround is no longer necessary. -->
+
+{{anchor|No closing period}}
+=== No closing period: <code>|ps=none</code> ===
+
+Using {{para|ps|none}} in {{tl2|sfn}} removes the final period. Compare the two examples. Suppressing the default period (full stop) ensures consistency with [[Help:Citation_Style_2|Citation style 2]], as produced by {{tl2|Citation}}, which does not use a trailing period (full stop) when rendering full citations. The postscript is only effective the first time {{tl2|sfn}} is used for a particular author, year, and location. An empty {{para|ps|}} will also suppress terminal punctuation, but {{para|ps|none}} is recommended in order to make it clear that an editor intended there to be no terminal punctuation. 
+
+{{markup
+|<nowiki>
+Article text.{{sfn|Smith|2011|ps=none}}
+== Notes ==
+{{reflist}}
+</nowiki>|
+Article text.{{sfn|Smith|2011|ps=none}}
+{{Fake heading|sub=3|Notes}}
+{{reflist}}
+|<nowiki>
+Article text.{{sfn|Smith|2011}}
+== Notes ==
+{{reflist}}
+</nowiki>|
+Article text.{{sfn|Smith|2011}}
+{{Fake heading|sub=3|Notes}}
+{{reflist}}
+}}
+Note that {{t|harvnb}} does not emit a closing period by default: {{harvnb|Smith|2020|p=25}}
+
+===Wikilink to citation does not work===
+If an article is using this template, and nothing happens when you click on the highlighted [[wikilink]] from a Harvard style citation to a full citation at the bottom of the page, there are several possible solutions. If:
+# The correct citation does ''not'' appear at the bottom of the article. '''Solution''': Find the source (it may be copied from an article on a similar subject), and check that it verifies the text. If the source can't be found, tag the citation with {{tl2|citation not found}}.
+# The correct citation appears at the bottom of the article, and
+## The Harvard citation uses a template (such as {{tl2|sfn}} or {{tl2|harv}}):
+### The citation uses a template from the list at [[Help:Citation Style 1|Citation Style 1]]:
+#### The name is spelled or capitalized differently here than in the citation. '''Solution''': check the source for the correct spelling, and use the same spelling, spacing, and capitalization in both the short and full citations.
+#### The year is different here than the citation. '''Solution''': check the source for the correct year, and use the same year in both the short and full citations.
+#### The template has a {{para|date}} field and no {{para|year}} field, but the format of the {{para|date}} field is unusual. '''Solution''': Try to fix the date. If the link still does not work, add {{para|year}} to the citation template. (It's okay if it has both.)
+#### The citation does not have an author's, or an editor's, last name (authors take precedence over editors). '''Solution''': check that {{para|ref|{{tl|harvid|''args''}}}} is set correctly (see below).
+### The citation uses a template that does not support {{para|ref}} (See [[Wikipedia:Citation templates and reference anchors]]). '''Solution''': Consider modifying the template to support {{para|ref}}. Alternatively, an anchor can be created using <code><nowiki>{{wikicite|id={{harvid|</nowiki>''args''<nowiki>}}|reference={{</nowiki>''citation''<nowiki>}}}}</nowiki></code>.
+### The full citation does not use a template:
+#### It has no wikicode to create an anchor. '''Solution''': If {{cite *}} citation templates are used liberally throughout the article, then reformat the full citation with the appropriate {{cite *}} template (and set the {{para|ref}} appropriately, if necessary). Otherwise consult with local editors on the talk page about how to proceed. Either add {{cite *}} templates and {{tl2|harv}} templates, or remove all templates, depending on what local editors prefer. A few articles use {{tl2|wikicite}} to create an anchor as an alternative to standard templates.
+#### It uses a {{tag|cite}} span to create an anchor. '''Solution''': remove the cite span (these are deprecated) and proceed following the recommendation immediately above.
+#### It uses {{tl2|wikicite}}. '''Solution''': Check that the text in {{para|id|{{tl|harvid|''args''}}}} matches the text in {{tl2|wikicite}}.
+## If the Harvard citation uses a handwritten wikilink, such as <code><nowiki>[[#Reference-Smith2006|Smith (2006)]]</nowiki></code>:
+### The citation uses a citation template which supports {{para|ref}} (See [[Wikipedia:Citation templates and reference anchors]]). '''Solution''': Check that {{para|ref}} is set to a matching id.
+### Otherwise, check that the reference has <code><nowiki>{{wikicite|ref=</nowiki>''id''<nowiki>|reference=</nowiki>''citation''<nowiki>}}</nowiki></code> with a matching id.
+
+Templates that have broken [[wikilink]]s using these templates are added to the category {{cat|All articles with broken links to citations}}.
+
+===Link works but displays a no target error===
+When a short-cite template links to a full citation that is rendered by a template that wraps a CS1 template, like {{txl|cite DNB}} (which wraps {{txl|cite encyclopedia}}), a {{error-small|no target}} error may be displayed even when the short-cite template is valid and the link works. That is a "false positive" error. The error message can be suppressed by adding {{para|ignore-err|yes}} to the template, or by adding the template {{t|Sfn whitelist}} with the anchor ID(s) to the article. If you are testing changes in [[Special:ExpandTemplates]] and the error message cannot be suppressed, try testing in a sandbox or user subpage instead.
+
+==={{ucfirst:{{{1}}}}} embedded in list-defined ref does not work===
+If you [[Help:Footnotes#embedding references|embed]] an {{ucfirst:{{{1}}}}} template in a [[Help:List-defined references|list-defined reference]], you may get a false-positive "[[Help:Cite errors/Cite error references missing key|missing key" error]] which looks like this:
+: <span style="color:#d73333; font-weight:bold; font-size:115%">A [[Help:Footnotes#WP:LDR|list-defined reference]] named "{{nobr|. . .}}" is not used in the content (see the [[Help:Cite errors/Cite error references missing key|help page]]).</span>
+{{tracked|T22707}}
+This is a false-positive: list-defined references [[Wikipedia:Nesting footnotes#5. List-defined references|do not work correctly when references are nested]]. It is due to a long-standing bug in mediawiki software (see [[phab:T22707]]). 
+A [[Template:Sfnlink#example-3|workaround]] is possible using {{tl|sfnlink}}.
+
+[[Help:Cite errors/Cite error references missing key#Bugs|Additional bugs]] associated with embedding footnotes in list-defined references are known. One of them is that the [[WP:REFNAME|reference name]] given in the error message will identify the wrong list-defined reference in the first false-positive error message on the page; this is tracked in {{phab|T26600}}.
+
+==Other author–date citation templates==
+There are several templates used to create short citations; they differ in the use and placement of parentheses, in the separator before the page or location, and in whether a terminal full stop (period) is present:
+
+{| class="wikitable"
+|+ In-text templates
+! Templates !! Aliases !! Example
+|-
+|{{tl2|Harvard citation no brackets}} || {{tl2|harvnb}} || {{harvnb|Smith|2006|p=25}}
+|-
+| {{tl2|Harvard citation}} || {{tl2|harv}} || {{harv|Smith|2006|p=25}}
+|-
+| {{tl2|Harvard citation text}} || {{tl2|harvtxt}} || {{harvtxt|Smith|2006|p=25}}
+|-
+| {{tl2|Harvard citation with colon text}} || {{tl2|harvcoltxt}} || {{Harvcoltxt|Smith|2006|p=25}}
+|-
+| {{tl2|Harvard citation with colon}} || {{tl2|harvcol}} || {{Harvcol|Smith|2006|p=25}}
+|-
+| {{tl2|Harvard citation with colon no brackets}} || {{tl2|harvcolnb}} || {{Harvcolnb|Smith|2006|p=25}}
+|-
+| {{tl2|Harvard citations}} || {{tl2|harvs}} || {{harvs|txt=yes|last=Smith|first=John|year1=2006| year2=2007|page=25}} ''(and many other forms)''.
+|-
+| {{tl2|Harvard citation year brackets}} || {{tl2|harvp}} || {{harvp|Smith|2006|page=25}}
+|-
+| {{tl2|Harvc}} || {{tl2|Citec}} || (Cite several contributions/chapters in a larger work)<br />Article text.{{sfn|Stout|Johnson|1957}} More article text.{{sfn|Wadleigh|1957}} Even more article text.<ref>[[#Stefferud preface|Stefferud 1957]]</ref>
+'''References'''
+{{reflist}}
+'''Sources'''
+* {{cite book|title=Soil: The Yearbook of Agriculture 1957|editor-last=Stefferud|editor-first=Alfred|date=1957|publisher=United States Department of Agriculture|url=https://archive.org/stream/yoa1957#page/n2/mode/1up|oclc=704186906}}
+** {{harvc|last=Stefferud|first=A.|year=1957|id=Stefferud preface |c=Preface |url=https://archive.org/stream/yoa1957#page/n7/mode/1up |in=Stefferud |ignore-err=yes}}
+** {{harvc|last1=Stout|first1=P. R.|last2=Johnson|first2=C. M.|year=1957|c=Trace Elements |url=https://archive.org/stream/yoa1957#page/n167/mode/1up |in=Stefferud |ignore-err=yes}}
+** {{harvc|last=Wadleigh|first=C. H.|year=1957 |c=Growth of Plants |url=https://archive.org/stream/yoa1957#page/n57/mode/1up |in=Stefferud |ignore-err=yes}}
+|-
+|{{tl2|sfn}}|| {{tl2|Shortened footnote template}} || Article text.{{sfn|Smith|2006|p=25}} <br /> {{Reflist}}
+|-
+|{{tl2|Sfnp}} || || Article text.{{sfnp|Smith|2006|p=25}} <br /> {{Reflist}}
+|-
+|{{tl2|Sfnm}} || || Article text.{{sfnm|1a1=Smith|1a2=Jones|1a3=Brown|la4=Black|1y=2020|1p=15|2a1=Smith|2y=2006|2p=50}} <br /> {{Reflist}}
+|-
+|{{tl2|Sfnmp}} || || Article text.{{sfnmp|1a1=Smith|1a2=Jones|1a3=Brown|la4=Black|1y=2020|1p=15|2a1=Smith|2y=2006|2p=50}} <br /> {{Reflist}}
+|}
+
+Full citations can be created manually or by templates:
+
+* {{cs1}} templates
+* {{tl2|citation}}
+
+All of these templates have the same parameters and basic functionality. This page describes all of them except the parameters of {{tl2|sfnm}} and {{tl2|harvs}}; please see their documentation pages. Editors editing one of these templates are requested to make parallel changes to the other versions.
+
+===Applications of these templates===
+{{anchor|Shortened footnote}}
+====Shortened footnote: [[Template:sfn|<code><nowiki>{{sfn}}</nowiki></code>]] or [[Template:harvnb|<code><nowiki>{{harvnb}}</nowiki></code>]]====
+{{see also|Wikipedia:Citing sources#Short citations|Help:Shortened footnotes}}
+
+Template {{tl2|harvnb}} inside a {{tag|ref|o}} span can be used to create a [[Help:Shortened footnotes|shortened footnote]] that is linked to the full citation at the bottom of the article. Template {{tl2|sfn}} (without the use of {{tag|ref|o}}) has the same effect, automatically adds a period (full stop) after the page number, and combines identical footnotes automatically.
+
+{{markup|<nowiki>
+Article text.{{sfn|Smith|2007|p=25}}
+More article text.{{sfn|Smith|2007|p=25}}
+Still more article text.{{sfn|Smith|2007|p=26}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book
+ | last = Smith | first = John
+ | date = 2007
+ | title = Smith's Book
+}}
+</nowiki>|
+Article text.{{sfn|Smith|2007|p=25}}
+More article text.{{sfn|Smith|2007|p=25}}
+Still more article text.{{sfn|Smith|2007|p=26}}
+{{fake notes and references||}}
+* {{cite book
+ | last = Smith | first = John
+ | date = 2007
+ | title = Smith's Book
+}}
+
+|<nowiki>
+Article text.<ref name=Smith2008p25>{{harvnb|Smith|2008|p=25}}.</ref>
+More article text.<ref name=Smith2008p25/>
+Still more article text.<ref>{{harvnb|Smith|2008|p=26}}.</ref>
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book
+ | last = Smith | first = John
+ | date = 2008
+ | title = Smith's Book
+}}
+</nowiki>|
+Article text.<ref name=Smith2007p25>{{harvnb|Smith|2008|p=25}}.</ref>
+More article text.<ref name=Smith2007p25/>
+Still more article text.<ref>{{harvnb|Smith|2008|p=26}}.</ref>
+
+{{fake notes and references||}}
+* {{cite book
+ | last = Smith | first = John
+ | date = 2008
+ | title = Smith's Book
+}}
+
+}}
+
+====In text attribution: [[Template:harvtxt|<code><nowiki>{{harvtxt}}</nowiki></code>]]====
+{{see also|Wikipedia:Citing sources#In-text attribution}}
+
+Template {{tl2|harvtxt}} can be used to link an [[Wikipedia:Citing sources#In-text attribution|in-text attribution]] to the full citation at the bottom of the page.
+{{markup
+|<nowiki>According to {{harvtxt|Smith|2009|p=25}} ...
+
+==References==
+* {{citation
+ | last = Smith | first = John
+ | date = 2009
+ | title = Smith's Book
+}}
+</nowiki>
+|
+According to {{harvtxt|Smith|2009|p=25}} ...
+{{Fake heading|sub=3|References}}
+* {{citation
+| last = Smith | first = John
+| date = 2009
+| title = Smith's Book
+}}
+}}
+
+====Bundled citation: [[Template:harvnb|<code><nowiki>{{harvnb}}</nowiki></code>]] or [[Template:sfnm|<code><nowiki>{{sfnm}}</nowiki></code>]]====
+{{see also|Help:Citation merging ‎|Wikipedia:Citing sources#Bundling citations}}
+Template {{tl2|harvnb}} can be used to [[WP:CITE#Bundling citations|bundle citations]]. {{tl2|sfnm}} also produces bundled citations.
+
+{{markup
+|<nowiki>
+Article text ({{harvnb|Smith|2010|p=25}}; {{harvnb|Jones|2010}}).
+</nowiki>
+|Article text ({{harvnb|Smith|2010|p=25}}; {{harvnb|Jones|2010}}).
+|<nowiki>
+Article text.<ref>{{harvnb|Smith|2010|p=25}}; {{harvnb|Jones|2010}}</ref>
+</nowiki>
+|Article text.<ref>{{harvnb|Smith|2010|p=25}}; {{harvnb|Jones|2010}}</ref>
+{{Fake heading|sub=3|Notes}}
+<references />
+|<nowiki>
+Article text.{{sfnm|1a1=Smith|1y=2010|1p=25|2a1=Jones|2y=2010}}
+</nowiki>
+|Article text.{{sfnm|1a1=Smith|1y=2010|1p=25|2a1=Jones|2y=2010}}
+{{Fake heading|sub=3|Notes}}
+<references />
+|<nowiki>
+==References==
+* {{cite book |last = Smith |first = John |date = 2010 |title = Smith's book}}
+* {{cite book |last = Jones |first = Mary |date = 2010 |title = Jones' book}}
+</nowiki>
+|{{Fake heading|sub=3|References}}
+* {{cite book |last = Smith |first = John |date = 2010 |title = Smith's book }}
+* {{cite book |last = Jones |first = Mary |date = 2010 |title = Jones' book }}
+}}
+
+Note that {{tl2|sfn}} is inappropriate for bundled citations; use {{tl2|harvnb}} or {{tl2|sfnm}}.
+
+====Harvard citation: [[Template:harv|<code><nowiki>{{harv}}</nowiki></code>]]====
+<!--{{see also|Wikipedia:Citing sources#Parenthetical referencing}}-->
+
+Template {{tl2|harv}} creates a [[Wikipedia:Citing sources#Parenthetical referencing|parenthetical reference]] with a link to the full citation. It should only be used within footnotes or on internal pages. Use of inline parenthetical referencing within the [[body text]] of articles has been '''[[WP:PARENTHETICAL|deprecated by the Wikipedia community]]''' since 2022. This usage has not been deprecated within internal pages such as Wikipedia documentation, user pages, or wikiprojects, though there is rarely a practical use for it instead of just using normal [[Help:Footnotes|citation footnotes]].
+
+{{Markup
+|<nowiki>Article text.<ref>{{harv|Smith|2006|p=25}}</ref>
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{cite book
+ | last = Smith | first = John
+ | title = Smith's book
+ | date = 2006
+}}</nowiki>
+|
+Article text.<ref>{{harv|Smith|2006|p=25}}</ref>
+
+{{fake heading|sub=3|Notes}}
+{{reflist}}
+
+{{fake heading|sub=3|References}}
+* {{cite book|last=Smith|first=John|title=Smith's book|date=2006}}
+}}
+
+====More exotic Harvard citations: [[Template:harvid|<code><nowiki>{{harvid}}</nowiki></code>]] or [[Template:harvs|<code><nowiki>{{harvs}}</nowiki></code>]]====
+{{Main|Template:Harvard citations|Template:harvid}}
+
+More exotic Harvard citations can be constructed using the {{tl2|harvs}} template, such as multiple papers by the same author, using both the first and last names, links to articles about the author, and others. Any kind of unusual link can also be constructed using the idiom <code><nowiki>[[#{{harvid|</nowiki></code>''parameters''<code><nowiki>}}|</nowiki></code>''link name''<code><nowiki>]]</nowiki></code>. ({{tl|citeref}} is a wrapper for {{tl|harvid}} making it easier to consistently create such internal links in small superscript<sup>[n]</sup> or plain-text label styles.)
+
+{{markup|<nowiki>
+The theory was developed by {{harvs|txt|first=F. J.|last=Murray|author1-link=F. J. Murray|first2=J.|last2=von Neumann|author2-link=John von Neumann|year=1936|year2=1937|year3=1943}}.
+</nowiki>|
+The theory was developed by {{harvs|txt|first=F. J.|last=Murray|author1-link=F. J. Murray|first2=J.|last2=von Neumann|author2-link=John von Neumann|year=1936|year2=1937|year3=1943}}.
+|<nowiki>
+The theory was developed by [[F. J. Murray]] and [[John von Neumann|J. von Neumann]] ([[#{{harvid|Murray|von Neumann|1936}}|1936]],[[#{{harvid|Murray|von Neumann|1937}}|1937]],[[#{{harvid|Murray|von Neumann|1943}}|1943]]).
+</nowiki>|
+The theory was developed by [[F. J. Murray]] and [[John von Neumann|J. von Neumann]] ([[#{{harvid|Murray|von Neumann|1936}}|1936]], [[#{{harvid|Murray|von Neumann|1937}}|1937]], [[#{{harvid|Murray|von Neumann|1943}}|1943]]).
+|<nowiki>
+== References ==
+* {{citation | last1 = Murray | first1 = F. J. | date = 1936 | ...}}
+* {{citation | last1 = Murray | first1 = F. J. | date = 1937 | ...}}
+* {{citation | last1 = Murray | first1 = F. J. | date = 1943 | ...}}
+</nowiki>|
+{{fake header|sub=3|References}}
+* {{citation | last=Murray | first=F. J.| last2=von Neumann | first2=John | date=1936 | title=Mathematics Paper }}
+* {{citation | last=Murray | first=F. J.| last2=von Neumann | first2=John | date=1937 | title=Another Mathematics Paper }}
+* {{citation | last=Murray | first=F. J.| last2=von Neumann | first2=John | date=1943 | title=Yet Another Mathematics Paper }}
+}}
+
+Some articles use this idiom <code><nowiki>[[#CITEREF</nowiki></code>''id ''|'' link name ''<code><nowiki>]]</nowiki></code>. See notes on [[#Implementation notes|implementation details]] below.
+
+===Variations===
+==== Using colon format: {{tl2|harvcol}}, {{tl2|harvcolnb}}, {{tl2|harvcoltxt}} ====
+Templates {{tl2|harvcol}}, {{tl2|harvcolnb}}, and {{tl2|harvcoltxt}} use a colon to indicate the page number(s) or location.
+
+{{markup
+|<nowiki>{{harvcol|Smith|2011|p=25}}</nowiki>|{{harvcol|Smith|2011|p=25}}
+|<nowiki>{{harvcolnb|Smith|2011|p=25}}</nowiki>|{{harvcolnb|Smith|2011|p=25}}
+|<nowiki>{{harvcoltxt|Smith|2011|p=25}}</nowiki>|{{harvcoltxt|Smith|2011|p=25}}
+|<nowiki>{{harvcol|Smith|2011|p=25–26}}</nowiki>|{{harvcol|Smith|2011|p=25–26}}
+|<nowiki>{{harvcol|Smith|2011|loc=ch. 3}}</nowiki>|{{harvcol|Smith|2011|p=ch. 3}}}}
+
+==== Parentheses around the year: [[Template:sfnp|<code><nowiki>{{sfnp}}</nowiki></code>]] and [[Template:harvp|<code><nowiki>{{harvp}}</nowiki></code>]] ====
+
+Template {{tl2|sfnp}} puts parentheses around the year. Compare the two examples.
+
+{{markup
+|<nowiki>
+Article text.{{sfnp|Smith|2011}}
+== Notes ==
+{{reflist}}
+</nowiki>|
+Article text.{{sfnp|Smith|2011}}
+{{Fake heading|sub=3|Notes}}
+{{reflist}}
+|<nowiki>
+Article text.{{sfn|Smith|2011}}
+== Notes ==
+{{reflist}}
+</nowiki>|
+Article text.{{sfn|Smith|2011}}
+{{Fake heading|sub=3|Notes}}
+{{reflist}}
+}}
+
+Similarly, in order to mimic {{cs1}} citations, template {{tl2|harvp}} puts parentheses around the year.
+{{markup
+|<nowiki>{{harvp|Smith|2011|p=25}}</nowiki>|{{harvp|Smith|2011|p=25}}
+}}
+
+==Implementation notes==
+These templates use two elements: a [[wikilink]] in the body of the article, and an [[WP:ANCHOR DEF|anchor]] in the reference section of the article. Clicking on the wikilink repositions the page at the anchor.
+
+===Citation template [[HTML element#Links and anchors|anchor]]===
+{{See also|Wikipedia:Citation templates and reference anchors}}
+
+The most common citation templates are {{cs1}} or {{cs2}}. By default, [[Module:Citation/CS1]] creates an [[HTML element#Links and anchors|anchor]] {{tag|a|o|params=name="CITEREF"}} followed by the concatenation of the following parameters:
+* '''last''' or '''last1''' or '''surname''' or '''surname1''' or '''author-last''' or '''author-last1''' or '''author1-last''' or '''author-surname''' or '''author-surname1''' or '''author1-surname''' or '''author''' or '''author1''' or '''authors''',
+* '''last2''' or '''surname2''' or '''author-last2''' or '''author2-last''' or '''author-surname2''' or '''author2-surname''' or '''author2''',
+* '''last3''' or '''surname3''' or '''author-last3''' or '''author3-last''' or '''author-surname3''' or '''author3-surname''' or '''author3''',
+* '''last4''' or '''surname4''' or '''author-last4''' or '''author4-last''' or '''author-surname4''' or '''author4-surname''' or '''author4''',
+* '''editor-last''' or '''editor-last1''' or '''editor1-last''' or '''editor-surname''' or '''editor-surname1''' or '''editor1-surname''' or '''editor1''' or '''editor''',
+* '''editor-last2''' or '''editor2-last''' or '''editor-surname2''' or '''editor2-surname''' or '''editor2''',
+* '''editor-last3''' or '''editor3-last''' or '''editor-surname3''' or '''editor3-surname''' or '''editor3''',
+* '''editor-last4''' or '''editor4-last''' or '''editor-surname4''' or '''editor4-surname''' or '''editor4''',
+* '''date''', '''year'''
+
+This covers the most common templates. Information about all of the templates is available at [[Wikipedia:Citation templates and reference anchors]].
+
+Use of the '''date''' parameter in place of the '''year''' parameter in citation templates is preferred.
+
+===Harvard citation wikilink===
+The Harvard citation templates create a [[wikilink]] to the anchor. For example {{tlx|Harv|Smith|2006|4=p=25}} produces the link {{code|#CITEREFSmith2006}} and {{tlx|Citation|2=last=Smith|3=first=John|4=date=27 January 2006|5=title=My Life}} produces the anchor {{code|CITEREFSmith2006}}.
+
+===Using CITEREF directly===
+{{Shortcut|WP:CITEREF}}
+A few articles create a custom ID using {{code|CITEREF}}, either in place of the Harvard citation template (e.g. <code><nowiki>[[#CITEREFSmith2006|(2006)]]</nowiki></code>) or as a value for {{para|ref}} in the citation template.
+{{Refname rules|A custom ID must follow these rules:|
+* If CITEREF is used, then spaces in the {{para|ref}} field must be replaced with underscores}}
+
+Examples:
+* {{tlx|sfn|{{var|cite name}}|{{var|year}}}}
+* {{tlx|cite book|2=ref=CITEREF{{var|cite_nameyear}}}}
+* {{tlx|cite book|2=ref={{tl|sfnref|{{var|cite_name}}|{{var|year}}}}}}
+Where {{var|cite_name}} is a name such as the publisher.
+
+To avoid the sometimes difficult to remember syntax for links to CITEREF anchors, {{tl|citeref}} can be used to create internal wikilinks with either small superscript-style labels (like this<sup>[n]</sup>) or plain free-text labels to such anchors. It can be used inside of other citations.
+
+Note that the {{code|CITEREF}} prefix is necessary for the [[mw:Reference Tooltips|reference tooltips gadget]] ([[MediaWiki:Gadget-ReferenceTooltips.js]]) to detect that a link goes to a citation.
+
+===[[Template:sfn|<code><nowiki>{{sfn}}</nowiki></code>]]'s [[WP:REFNAME|ref name]]===
+Template {{tl2|sfn}} creates a [[WP:REFNAME|named footnote]], so that identical footnotes are combined automatically. The footnote name begins with {{code|FOOTNOTE}} followed by a concatenation of the arguments to {{tl2|sfn}}. E.g.: this template call {{tlx|sfn|Smith|2006|4=p=26}} should have exactly the same functionality as {{tag|ref|params=name="FOOTNOTESmith200626"|content={{tl|Harvnb|Smith|2006|4=p=26}}}} which, in turn, has the same functionality as {{tag|ref|params=name="FOOTNOTESmith200626"|content=<nowiki>[[#CITEREFSmith2006|Smith (2006)]], p. 26</nowiki>}}.
+
+The ref name becomes more complicated when the page (p) parameter includes a URL, e.g. {{tlg|sfn|Joyce|1903|p{{=}}[https://archive.org/details/aconcisehistory00joycgoog/page/n226 213]|code=on}}, which, once defined, can be called by {{tag|ref|empty|params=name="FOOTNOTEJoyce1903[httpsarchiveorgdetailsaconcisehistory00joycgoogpagen226 213]"}}. The "p=" and the characters |,:,.,/,?,=; are therefore stripped out of the URL. The content of the loc parameter is similarly appended after this.
+
+The call to {{tl2|harvnb}} has been [[subst]]'ed for quicker load times.
+
+==Tracking categories==
+{{clc|Pages using sfn with unknown parameters}}<noinclude>
+{{Documentation}}
+</noinclude>

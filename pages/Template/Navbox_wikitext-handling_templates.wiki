@@ -1,0 +1,22 @@
+{{Navbox
+| name  = Navbox wikitext-handling templates
+| state = {{{state|expanded}}}
+| bodyclass = text-align:left
+| title = Wikitext-changing templates
+
+| group1  = wikitext
+|  list1  =
+* {{tl|Nowiki}} / dtag
+* {{tl|Plain text}} / [[:Module:Plain text]]
+* {{tl|Unstrip}}, {{tl|UnstripNoWiki}}, {{tl|KillMarkers}} / [[:Module:Unstrip]]
+* {{tl|Strip tags}}
+* [[:Module:Check for unknown parameters]] 
+| group2  = Encode/decode
+|  list2  =
+* HTML: [[Module:DecodeEncode]]
+* URLs: [[Module:Urldecode]]
+
+| below   = See also: {{tl|String-handling templates}}{{middot}}{{clc|Category:Wikicode string manipulation templates}}
+}}<noinclude>
+{{documentation}}
+</noinclude>

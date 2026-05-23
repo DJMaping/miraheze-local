@@ -1,0 +1,23 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Eswatini
+| flag alias = Flag of Eswatini.svg
+| flag alias-1890 = Flag of Swaziland (c. 1890-1894).svg
+| flag alias-1894 = Flag of Swaziland (1894–1902).svg
+| flag alias-1968 = Flag of Swaziland (1968–2011).svg
+| link alias-military = Umbutfo Eswatini Defence Force
+| link alias-army = Umbutfo Eswatini Defence Force{{!}}Eswatini Army
+| link alias-air force = Umbutfo Eswatini Defence Force{{!}}Eswatini Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+| shortname alias = {{{shortname alias|Eswatini}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = 1890
+| var2 = 1894
+| var3 = 1968
+| redir1 = SWZ
+| related1 = Swaziland
+</noinclude>
+}}

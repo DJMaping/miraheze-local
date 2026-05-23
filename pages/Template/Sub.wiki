@@ -1,0 +1,4 @@
+<includeonly><sub>{{{1}}}</sub></includeonly><noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>

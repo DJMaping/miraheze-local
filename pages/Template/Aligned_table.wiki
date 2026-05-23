@@ -1,0 +1,4 @@
+{{<includeonly>safesubst:</includeonly>#invoke:aligned table|table}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

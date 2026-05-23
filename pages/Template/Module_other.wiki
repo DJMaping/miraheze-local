@@ -1,0 +1,17 @@
+{{safesubst:<noinclude/>#switch:
+  <noinclude><!-- If no or empty "demospace" parameter then detect namespace --></noinclude>
+  {{safesubst:<noinclude/>#if:{{{demospace|}}}
+  | {{safesubst:<noinclude/>lc: {{{demospace}}} }}    <noinclude><!-- Use lower case "demospace" --></noinclude>
+  | {{safesubst:<noinclude/>#ifeq:{{safesubst:<noinclude/>NAMESPACE}}|{{safesubst:<noinclude/>ns:Module}}
+    | module
+    | other
+    }}
+  }}
+| module = {{{module|{{{1|}}}}}}
+| other
+| #default = {{{other|{{{2|}}}}}}
+}}<noinclude><!--End switch-->
+
+{{documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>

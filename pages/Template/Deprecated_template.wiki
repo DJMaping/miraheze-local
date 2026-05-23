@@ -1,0 +1,27 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||$params=old,by,new,note,historical,nocat|date=__DATE__|$B=
+{{Ombox
+| image = [[File:Commons-emblem-hand.svg|45px]]
+| type  = delete
+| text  = [[{{{old|Template:{{{1|{{PAGENAME}}}}}}}}]] is [[deprecation|deprecated]]{{#if:{{{by|}}}|&#32;by {{{by}}}}}{{#if:{{{historical|}}}|, and is preserved only for historical reasons}}.{{#if:{{{new|{{{2<includeonly>|</includeonly>}}}}}}
+  | &#32;Please {{#if:{{{3|}}}
+    |use {{tlx|{{{new|{{{2}}}}}}|{{{3}}}}}
+    |{{#if:{{{new|}}}
+      |see [[{{{new}}}]]
+      |use [[Template:{{{2}}}]]
+      }}
+    }} instead.
+}} {{{note|{{{reason|{{{result|}}}}}}}}}
+}}{{#ifeq:{{{nocat|}}}|true
+   ||{{Template other
+      |{{Sandbox other|<!-- Don't categorise subpages, like /doc, /sandbox or /testcases -->|
+          {{#ifeq:{{PAGENAME}}|{{ucfirst:{{{1|{{PAGENAME}}}}}}}<!-- Only for the deprecated template itself -->
+            |<includeonly>{{#if:{{{historical|}}}|[[Category:Deprecated templates kept for historical reasons]]__EXPECTUNUSEDTEMPLATE__|[[Category:Deprecated templates]]}}</includeonly>
+          }}
+       }}
+      |{{#ifeq:{{{old|}}}|{{FULLPAGENAME}}||[[Category:Pages using deprecated templates]]}}
+     }}
+  }}
+}}<noinclude>
+{{Documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>

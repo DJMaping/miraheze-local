@@ -1,0 +1,91 @@
+--[=[
+Configuration for [[Module:Format TemplateData]] on enwiki
+mw.loadData()
+]=]
+
+local Serial = "2026-01-25"
+
+return {
+  catProblem          = "Templates with TemplateData errors",
+  classMultiColumns   = "column-multiple",
+  classNoNumTOC       = "nonumtoc",
+  classTable          = {
+    "wikitable",
+    "templatedata-params"
+  },
+  cssParWrap          = {
+    ["margin-left"]  = "-1em",
+    ["margin-right"] = "-1em"
+  },
+  cssParams           = {
+    ["border"]       = "thin solid var(--background-color-progressive-subtle, #b3b7ff)",
+    ["margin-left"]  = "auto",
+    ["margin-right"] = "auto"
+  },
+  docpageCreate       = "%s/doc",
+  docpageDetect       = "/doc$",
+  failsafe            = Serial,
+  helpAliases         = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#aliases",
+  helpBoolean         = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#boolean",
+  helpContent         = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#Content",
+  helpDate            = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#date",
+  helpDefault         = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#default",
+  helpFile            = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#wiki-file-name",
+  helpFormat          = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#format",
+  helpLine            = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#line",
+  helpNumber          = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#number",
+  helpPage            = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#wiki-page-name",
+  helpString          = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#string",
+  helpTemplate        = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#wiki-template-name",
+  helpURL             = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#url",
+  helpUser            = "mediawikiwiki:Special:MyLanguage/Help:TemplateData#wiki-user-name",
+  msgDescMiss         = "missing <code>description</code>",
+  permit              = {
+    boole = {
+      [true]  = {
+        css  = {
+          ["color"]       = "var(--color-content-added, #050)",
+          ["font-weight"] = "700"
+        },
+        lead = false,
+        show = "True"
+      },
+      [false] = {
+        css  = {
+          ["color"]       = "var(--color-content-removed, #610)",
+          ["font-weight"] = "700"
+        },
+        lead = false,
+        show = "False"
+      }
+    },
+    css   = {
+      bg          = {},
+      deprecated  = {
+        ["background-color"] = "var(--background-color-destructive-subtle, #fdd)",
+        ["border-left"]      = "3px dotted var(--color-error, red)",
+        ["color"]            = "var(--color-base, #000)"
+      },
+      fg          = {},
+      optional    = {
+        ["border-left"]      = "3px solid #ccc",
+        ["color"]            = "var(--color-base, #000)"
+      },
+      required    = {
+        ["border-left"]      = "3px solid #000",
+        ["color"]            = "var(--color-base, #000)"
+      },
+      suggested   = {
+        ["border-left"]      = "3px solid var(--border-color-subtle, #888)",
+        ["color"]            = "var(--color-base, #000)"
+      },
+      tableheadbg = {
+        ["background-color"] = "var(--background-color-progressive-subtle, #b3b7ff)",
+        ["color"]            = "var(--color-base, #000)"
+      }
+    }
+  },
+  serial              = Serial,
+  tStylesMultiColumns = "column-multiple",
+  tStylesTOCnum       = "TOC nonum"
+}

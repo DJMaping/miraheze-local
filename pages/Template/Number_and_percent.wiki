@@ -1,0 +1,10 @@
+{{#if:{{{1|}}}
+  |{{#ifeq:{{{disp|}}}|table|style{{=}}text-align:{{{align|right}}} {{!}} }}{{#ifexpr:{{formatnum:{{{1}}}|R}}<0|−}}{{{prefix|}}}{{formatnum:{{#expr:abs({{formatnum:{{{1}}}|R}})}}}}{{{suffix|}}}<!--
+-->{{#ifeq:{{{disp|}}}|table
+      |{{#if:{{{2|}}} 
+            | {{!!}} style{{=}}"text-align:{{{align|right}}};font-size:{{{size|inherit}}}" {{!}} {{formatnum:{{percentage|{{{1|}}}|{{{2|}}}|{{{3|}}}|pad={{{pad|}}}|sigfig={{{sigfig|}}}|%={{{%|%}}}|nonscinote={{{nonscinote|}}}}}}}<!--
+       -->{{#if:{{{total|}}}|{{!!}}style{{=}}text-align:{{{align|right}}} {{!}} {{formatnum:{{{2}}}}}}}
+               | {{!!}} {{#if:{{{total|}}}|{{!!}}}}}}
+               | {{#if:{{{2|}}}|{{#ifeq:{{{disp|}}}|br()|<br>|&nbsp;}}<span style="font-size:{{{size|inherit}}}">({{formatnum:{{percentage|{{{1|}}}|{{{2|}}}|{{{3|}}}|pad={{{pad|}}}|sigfig={{{sigfig|}}}|%={{{%|%}}}|nonscinote={{{nonscinote|}}}}})}}</span>}}
+          }}
+   }}<noinclude>{{documentation}}</noinclude>

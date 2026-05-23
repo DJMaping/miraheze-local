@@ -1,0 +1,7 @@
+<includeonly>{{{{{|safesubst:}}}#ifeq:{{{1|a}}}|{{{1|b}}}
+|<div style="float:left;">{{{1|}}}</div>
+|style="text-align:left"{{{{{|safesubst:}}}!}}
+}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Please add categories to the /doc subpage, and interwikis at Wikidata (see Wikipedia:Wikidata) -->
+</noinclude>

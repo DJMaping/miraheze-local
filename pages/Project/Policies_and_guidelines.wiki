@@ -1,0 +1,249 @@
+{{Redirect|WP:POL|the WikiProject about politics|Wikipedia:WikiProject Politics|notability criteria for politicians|Wikipedia:Notability (people)#Politicians and judges|the WikiProject about the Republic of Poland|Wikipedia:WikiProject Poland}}
+{{short description|Wikimedia procedural policy}}
+{{procedural policy|WP:PG|WP:PAG|WP:POLICY<!-- DO NOT add more shortcuts! Please read the previous discussions at [[Wikipedia_talk:Policies_and_guidelines#Shortcuts]] and the [[WP:LINKBOXES]] guideline. -->}}
+<noinclude>{{pp-semi-vandalism|small=yes}}{{pp-move-indef}}</noinclude>
+{{nutshell|Wikipedia's policies and guidelines document the good practices accepted in the Wikipedia community. This page describes how our policies and guidelines should normally be developed and maintained.}}
+{{Policy list}}
+
+Wikipedia's '''policies and guidelines''' are developed by the community to describe best practices, clarify principles, resolve conflicts, and otherwise further our goal of creating a free, reliable encyclopedia. There is no need to read any policy or guideline pages to start editing. The [[Wikipedia:Five pillars|five pillars]] are a popular summary of the most pertinent principles.
+
+Although Wikipedia generally [[Wikipedia:What Wikipedia is not#Wikipedia is not a bureaucracy|does not have hard-and-fast rules]], policies and guidelines are standards all users should normally follow, with guidelines providing guidance in specific contexts. Policies and guidelines should be applied using reason and [[Wikipedia:What "Ignore all rules" means#Use common sense|common sense]]. Policy and guideline pages are living documents that attempt to describe the actual practice of experienced editors. When [[Wikipedia:Consensus|consensus]] exists, they are updated as needed to reflect changes in editor behaviour.
+
+This policy page specifies the community standards related to the organization, life cycle, maintenance of, and adherence to policies, guidelines, and related pages of the [[English Wikipedia]]. It does not cover other editions of Wikipedia.
+
+==Derivation==
+
+{{See|Wikipedia:Administration#Human and legal administration}}
+
+Wikipedia is operated by the not-for-profit [[Wikimedia Foundation]], which reserves certain legal rights—see [[foundation:Policies|the Wikimedia Foundation's Policies page]] for a list of its policies. See also [[Wikipedia:Role of Jimmy Wales|Role of Jimmy Wales]]. Nevertheless, normally Wikipedia is a self-governing project run by its community. Its policies and guidelines are intended to reflect the [[WP:Consensus|consensus]] of the community.
+
+==<span class="anchor" id="Policies"></span><span class="anchor" id="policies"></span>Role==
+{{Shortcut|WP:POLICIES}}{{See|Wikipedia:The difference between policies, guidelines and essays}}
+
+'''Policies''' have wide acceptance among editors and describe standards all users should [[Wikipedia:Ignore all rules|normally]] follow. All policy pages are in [[Wikipedia:List of policies and guidelines]] and [[:Category:Wikipedia policies]]. For summaries of key policies, {{crossref|see [[Wikipedia:List of policies|List of policies]]}}.
+{{Shortcut|WP:GUIDES}}
+{{anchor|Guidelines|guides|guide}}'''Guidelines''' are sets of best practices supported by consensus. Editors should attempt to follow guidelines, though they are best treated with common sense, and occasional exceptions may apply. Guideline pages can be found in [[Wikipedia:List of policies and guidelines]] and [[:Category:Wikipedia guidelines]]. For summaries of key guidelines, {{crossref|see [[Wikipedia:List of guidelines|List of guidelines]]}}.
+
+{{anchor|Essays}}'''[[Wikipedia:Essays|Essays]]''' are the opinion or advice of an editor or group of editors. They may not be supported by a widespread consensus. They do not necessarily speak for the entire community and may be created and written without approval. Essays the author does not want others to edit, or that overtly contradict consensus, belong in the [[Wikipedia:User pages|user namespace]]. 
+
+Other [[Wikipedia:Administration#Data structure and development|administration pages]] in the [[Wikipedia:Project namespace|project namespace]] include:
+* Process pages, which facilitate the application of the policies and guidelines (e.g. [[Wikipedia:Articles for deletion]]),
+* [[Wikipedia:WikiProject|WikiProject]] pages, including [[Wikipedia:WikiProject advice pages|essays they have written to give advice to other editors]] about their areas of interest,
+* [[Wikipedia:How to pages|How-to]] or help pages (also found in the [[Wikipedia:Help namespace|Help namespace]]), which provide mainly technical information,
+* [[Wikipedia:Information pages|Information pages]], which generally provide factual information,
+* [[Wikipedia:Supplemental pages|Supplements]] to guidelines and policies, which explain advice in greater detail,
+* [[:Category:Wikipedia discussion|Community discussion pages]] and [[:Category:Wikipedia noticeboards|noticeboards]] for communication between editors, and
+* Historical pages, which are outdated.<ref>Many historical essays can still be found within [[:Meta:Category:Essays|Meta's essay category]]. The Wikimedia Foundation's [[meta:|Meta-Wiki]] was envisioned as the original place for editors to comment on and discuss Wikipedia, although the "Wikipedia" project space has since taken over most of that role.</ref>
+
+==Adherence==
+
+{{shortcut|WP:ADHERENCE}}
+[[Wikipedia:What "Ignore all rules" means#Use common sense|Use common sense]] in interpreting and applying policies and guidelines; rules have [[Wikipedia:Ignore all rules|occasional exceptions]]. However, those who violate the spirit of a rule may be reprimanded or sanctioned even if they do not technically break the rule.
+
+Whether a policy or guideline is an accurate description of best practice is determined through [[Wikipedia:Consensus|consensus]].
+
+==Shortcuts==
+On discussion pages and in edit summaries, [[Wikipedia:Shortcuts|shortcuts]] are often used to refer to policies and guidelines; for example, {{no redirect|WP:NOR}} (no original research), {{no redirect|WP:NPOV}} (neutral point of view), and {{no redirect|WP:BLP}} (biographies of living persons). Similar shortcuts are also used for other types of project pages, like essays and how-to guides. Thus a shortcut does not necessarily imply the linked page has policy or guideline status or has been widely accepted by the community.
+
+When referencing shortcuts or policy pages, verify they support the points you're making. The names of the policy and guideline pages and [[Wikipedia:Shortcuts|shortcuts]] can be misleading.
+
+==Enforcement==
+
+{{further|Wikipedia:Enforcement policies|Wikipedia:Active sanctions|Wikipedia:Arbitration enforcement}}
+{{Shortcut|WP:ENFORCEMENT|WP:ENFORCE}}
+
+If an editor violates the community standards described in policies and guidelines, other editors will warn the person to adhere to [[WP:CONDUCT|acceptable norms of conduct]], though editors will resort to more forceful means if the behavior continues, such as [[Wikipedia:Administrators|administrator]] and [[m:Stewards|steward]] actions. Gross violations are met with harder enforcement. Going against the principles set out on these pages, particularly policy pages, is unlikely to prove acceptable, although it may be possible to convince others [[Wikipedia:Ignore all rules|an exception ought to be made]]. This means individual editors (including ''you'') enforce and apply policies and guidelines.
+
+In cases where it is clear a user is acting against policy (or against a guideline in a way that conflicts with policy), especially if they are doing so intentionally and persistently, that user may be temporarily or indefinitely [[Wikipedia:Blocking policy|blocked]] from editing by an administrator. In cases where the [[Wikipedia:Dispute resolution|dispute resolution]] procedure has been ineffective, the [[Wikipedia:Arbitration Committee|Arbitration Committee]] deals with highly disruptive or sensitive situations.
+
+==Content==
+
+{{See also|Wikipedia:Avoid instruction creep}}
+
+Policy and guideline pages should:
+* '''Be clear.''' Avoid esoteric or quasi-legal terms or dumbed-down language. Be plain, direct, unambiguous, and specific. Avoid platitudes and generalities.  Avoid using wiki-jargon to mean anything other than its specific meaning.  For example, maintain the distinction between an admin ''[[Wikipedia:Deletion policy|deleting]]'' a page and ordinary editors ''removing'' or ''[[Wikipedia:Page blanking|blanking]]'' some or all of its contents. Even in guidelines, help pages, and other non-policy pages, do not be afraid to tell editors they ''must'' or ''should'' do something.
+* '''Be as concise as possible—but no more concise.''' Verbosity is not a good defense against misinterpretation. Omit needless words. Direct, concise writing is clearer than rambling examples. Footnotes and links to other pages may be used for clarification.
+* '''Emphasize the spirit of the rule.''' Expect editors to use common sense. If the spirit of the rule is clear, say no more.
+{{shortcut|WP:REDUNDANTPOLICY}}
+* {{Anchor|Redundancy}} '''Maintain scope and avoid redundancy.''' Identify the purpose and scope early, as many readers will just look at the beginning. Content should be within the scope of its policy. When the scope of one advice page overlaps with the scope of another, minimize redundancy. When one policy refers to another policy, it should do so briefly, clearly, and explicitly.
+* '''Avoid [[Wikipedia:Overlinking|overlinking]].''' Policies and guidelines may contain links to any type of page, including essays and articles. Such links should only appear when clarification or context is needed. Links to other advice pages may unintentionally or intentionally defer "authority" to them. Make it clear when such links defer, and when they do not.
+* '''Not contradict each other.''' The community's view cannot simultaneously be "A" and "not A". When apparent discrepancies arise between pages, editors at all the affected pages should discuss how they can correct the contradictory pages to reflect the community's view. This discussion should be on <u>one</u> talk page, with invitations to that page at the talk pages of the various affected pages.
+
+==Not part of the encyclopedia==
+{{Shortcut|WP:NOTPART}}
+{{see|Wikipedia:Project namespace#Content}}
+Wikipedia has many policies and guidelines about encyclopedic [[Wikipedia:Content in Wikipedia|content]]. These standards require verifiability, neutrality, [[Wikipedia:BLP|respect for living people]], and more.
+
+The policies, guidelines, and process pages themselves are not part of the encyclopedia. They do not generally need to conform to the same [[Wikipedia:Core content policies|content standards]] or [[Wikipedia:Manual of Style|style conventions]] as articles. It is not necessary to provide [[Wikipedia:Reliable sources|reliable sources]] to [[Wikipedia:Verifiability|verify]] administrative pages, or to phrase procedures or principles in a [[Wikipedia:Neutral point of view|neutral]] manner, or to [[Wikipedia:No original research|cite an outside authority]] in determining editorial practices. Instead, the content of these pages is controlled by [[Wikipedia:Consensus|community-wide consensus]], and the style should emphasize clarity, directness, and usefulness.<ref>There is no prohibition against including appropriate external references to support and explain our policies or guidelines, but such sources are not authoritative with respect to Wikipedia.</ref>
+
+These pages do, however, need to comply with Wikipedia's legal and behavioral policies, as well as policies applicable to non-content pages. For example, editors may neither violate copyrights nor edit-war anywhere on Wikipedia.
+
+==Life cycle==
+{{Shortcut|WP:PGLIFE}}
+Many of the most well-established policies and guidelines have developed from principles that have been accepted as fundamental since Wikipedia's inception. Others developed as solutions to common problems and disruptive editing. Policy and guideline pages are seldom established without precedent<ref>[[Wikipedia:Office actions|Office declarations]] may establish unprecedented policies to avoid copyright, legal, or technical problems, though they are rare.</ref> and require strong community support. Policies and guidelines may be established through new proposals, promotion of essays or guidelines, and reorganization of existing policies and guidelines through splitting and merging.
+
+Essays and information pages may be established by writing them and adding {{tl|essay}}, {{tl|Information page}}, {{tl|Wikipedia how-to}}, or [[Wikipedia:Template index/Wikipedia namespace|a similar template]] to the page.
+
+Current policy and guideline proposals can be found in [[:Category:Wikipedia proposals]], and failed ones at [[:Category:Wikipedia failed proposals]]. All editors are welcome to comment.
+
+===<span class="anchor" id="proposal"></span>Proposals===
+{{Shortcut|WP:PROPOSAL}}
+
+{{further|Wikipedia:How to contribute to Wikipedia guidance}}
+{{redirect|WP:PROPOSAL|proposed deletion of a page|Wikipedia:Proposed deletion|and|Wikipedia:Deletion requests}}
+
+Proposals for new guideline and policy pages require discussion and a [[WP:Local consensus|high level of consensus]] from the entire community for promotion to guideline or policy status. Simply adding the {{tl|policy}} or {{tl|guideline}} template to a page without the required consensus does not mean the page is policy, even if the page summarizes or copies existing policies. Most commonly, new policies or guidelines document established practices, rather than proposing a change to what experienced editors already choose to do. 
+
+{{anchor|Good practice for proposals}}A common path for proposals follows these steps:
+#{{tl|brainstorming}}
+#{{tl|draft proposal}}
+#{{tl|proposal}}
+#{{tl|policy}} or {{tl|guideline}}
+
+==== Brainstorming ====
+
+The first step is to write the best initial proposal you can. Authors can request early-stage feedback at [[Wikipedia:Village pump (idea lab)|Wikipedia's village pump for idea incubation]] or from any active [[Wikipedia:WikiProject#Finding a project|relevant WikiProjects]]. Amendments to a proposal can be discussed on its talk page. It is crucial to improve a proposal in response to feedback received from outside editors. Consensus is built through a process of listening to and discussing the proposal with many other editors.
+
+==== Creating a request for comment ====
+{{see|Wikipedia:Village pump (policy)|Wikipedia:Village pump (proposals)}}
+Once you think the initial proposal is well written, and the issues involved have been sufficiently discussed among early participants to create a proposal that has a solid chance of success with the broader community, start a [[Wikipedia:Request for comment|request for comment]] (RfC) about your policy or guideline proposal in a new section on the proposal's talk page. Include the {{tlx|rfc|policy}} tag, along with a brief, time-stamped explanation of the proposal. Then, if you want, you can provide a detailed explanation of what the page does and why you think it should be a policy or guideline. The {{tl|Proposal}} template should be placed at the top of the proposed page; this tag will get the proposal properly categorized.
+
+The RfC should typically be announced at the [[Wikipedia:Village pump (policy)|policy]] and/or [[Wikipedia:Village pump (proposals)|proposals]] village pumps, and you should notify other potentially interested groups. If your proposal affects a specific content area, then related WikiProjects can be found at the [[Wikipedia:WikiProject Council/Directory|WikiProject directory]]. If your proposal relates to an existing policy or guideline, then leave a note on the talk page of the related policy or guideline. For example, proposed style guidelines should be announced at [[Wikipedia talk:Manual of Style]], which is the main guideline for style issues. Try to identify the subcategory of guideline or policy (see {{tl|Subcat guideline}} template). Proposals involving contentious subjects or wide-ranging effects should normally be listed on [[Wikipedia:Centralized discussion]] for the duration of the RfC. Rarely, a particularly important proposal may be advertised via a [[Wikipedia:Watchlist notices|watchlist notice]]; sitenotices (which are displayed to all readers, not just to active editors) are not used for proposals. RfCs for policy and guideline proposals are normally left open for at least a week or sometimes a couple of months.
+
+To avoid later complaints about insufficient notice, it may be helpful to provide a complete list of the groups or pages you used to advertise the proposal on the talk page. Be careful not to [[Wikipedia:Canvassing|canvass]], and avoid non-neutral wording.
+
+Editors should respond to proposals in a way that helps identify and build consensus. Explain your thoughts, ask questions, and raise concerns. Many editors begin their responses with bold-font 'vote' of support or opposition to make evaluation easier.
+
+==== Closing the request for comment ====
+Closing a discussion requires careful evaluation of the responses to determine the consensus. This does not require the intervention of an administrator; it may be done by any sufficiently experienced impartial editor, not involved in the discussion, who is familiar with all policies and guidelines related to the proposal. The following points are important in evaluating consensus:
+* [[Wikipedia:Consensus|Consensus]] for guidelines and policies should be reasonably strong, though unanimity is not required.
+* There must be exposure to the community beyond just the authors of the proposal.
+* Consider the strength of the proposed page:
+** Have major concerns raised during the community discussion been addressed?
+** Does the proposal contradict any existing guidelines or policies?
+** Can the new proposed guideline or policy be merged into an existing one?
+** Is the proposed guideline or policy, or some part of it, redundant with an existing guideline or policy?
+* A proposal's status is not determined by counting votes. [[Wikipedia:Polling is not a substitute for discussion|Polling is not a substitute for discussion]], nor is a poll's numerical outcome tantamount to consensus.
+* {{anchor|failed}}If consensus for broad community support has not developed after a reasonable time, the proposal has failed. If consensus is neutral or unclear on the issue and unlikely to improve, the proposal has likewise failed.
+
+Discussion may be closed as one of: '''Promote''', '''No consensus''', or '''Failed'''. Please leave a short note about the conclusion you came to. Update the proposal to reflect the consensus. Remove the {{tl|Proposal}} template and replace it with another appropriate template, such as {{tl|Subcat guideline}}, {{tl|Policy}}, {{tl|Supplement}}, {{tl|essay}}, or {{tl|Failed proposal}}. See [[Wikipedia:Template index/Wikipedia namespace|Wikipedia namespace templates]] for a listing of banners.
+
+If a proposal fails, the failed tag should not usually be removed. It is typically more productive to rewrite a failed proposal from scratch to address problems or seek consensus to integrate uncontroversial aspects of it into existing pages, rather than to re-nominate a proposal.
+
+===<span class="anchor" id="historical"></span>Demotion===
+
+{{Shortcut|WP:HISTORICAL}}
+{{See also|Wikipedia:Project namespace#Deletion of project pages|Wikipedia:Project namespace#Historical pages}}
+
+An accepted policy or guideline may become obsolete because of changes in editorial practice or community standards, may become redundant because of improvements to other pages, or may represent unwarranted [[Wikipedia:Avoid instruction creep|instruction creep]]. In such situations editors may propose that a policy be demoted to a guideline, or that a policy or guideline be demoted to a [[Template:Supplement|supplement]], [[Template:Information page|informational page]], [[Template:Essay|essay]] or [[Template:Historical|historical]] page. In certain cases, a policy or guideline may be [[Template:Superseded|superseded]], in which case the old page is marked and retained for historical interest.
+
+The process for demotion is similar to promotion. A talk page discussion is typically started, the {{tlx|Under discussion|status|''Discussion Title''}} template is added to the top of the project page, and community input is solicited. After a reasonable amount of time for comments, an independent editor should close the discussion and evaluate the discussion and determine whether a consensus has formed to change the status.
+
+The {{tl|Disputed tag}} template is typically used instead of {{tl|Under discussion}} for claims that a page was recently assigned guideline or policy status without proper or sufficient consensus being established.
+
+Essays, information pages, and other informal pages that are supported by only a small minority of the community are typically moved to the primary author's userspace. These discussions typically happen on the page's talk page, sometimes with an RfC, but they have at times also been conducted at [[Wikipedia:Miscellany for deletion|Miscellany for deletion]] (despite the MFD guidelines explicitly discouraging this practice). Other pages are retained for historical reference and are marked as such.
+
+===Content changes===
+{{Shortcut|WP:PGCHANGE}}
+{{See also|WP:Editing policy|label 1 = Editing policy|Wikipedia:Policy writing is hard}}
+
+Policies and guidelines can be edited like any other page. It is ''not'' strictly necessary to discuss changes or to obtain consensus in advance. However, because policies and guidelines are sensitive and complex, users should take care over any edits, to be sure they reflect the community's view and do not introduce confusion.
+
+The purpose of policies and guidelines is to state what most agree upon, and they should be phrased to reflect the present [[Wikipedia:Consensus|consensus]]. Editing a policy/guideline/essay page does not in itself imply an immediate change to accepted practice. It is bad practice to recommend a rejected practice on a policy or guideline page.
+
+As explained below, update best practices by [[Wikipedia:BOLD|editing boldly]] or by working toward widespread consensus for the change through discussion.
+
+====Substantive changes====
+
+{{See|Wikipedia:Be bold#Wikipedia namespace}}
+
+'''Implement.''' Before making substantive changes to policy and guideline pages, it is sometimes useful to try to establish a reasonable exception to the existing practice. To try to update the existing best practices this way, you may directly deviate from the established practice following the [[Wikipedia:Ignore all rules|WP:IGNORE]] and [[Wikipedia:Be bold|WP:BOLD]] principles and make the change to [[Wikipedia:Namespace#In_use|mainspace]] pages. After some time, if there are no objections to the change and/or if a widespread consensus for your change or implementation is reached through discussion, you can then edit policy and guideline pages describing the practice to reflect the new situation.
+
+{{Shortcut|WP:TALKFIRST}}
+{{anchor|Talk first}}'''Talk first.''' Talk page discussion typically precedes substantive changes to a policy. Changes may be made if there are no objections or if the discussion shows there is consensus for the change. Minor edits for grammar and clarity can be made at any time.
+
+If the result of discussions is unclear, then it should be evaluated by an administrator or other independent editor, as in the proposal process. Major changes should also be publicized to the community in general; announcements may be appropriate.
+
+If wider input on a proposed change is desired, it may be useful to mark the section with the tag {{tlx|Under discussion|section|talk<nowiki>=</nowiki>''Discussion Title''}}. (If the proposal relates to a single statement, use {{tlx|Under discussion inline|''Discussion Title''}} immediately after it.)
+
+{{Shortcut|WP:PGBOLD}}{{anchor|Bold}}
+
+'''Or be bold.''' Although most editors find discussions helpful, especially at well-developed pages, [[Wikipedia:Consensus#Reaching consensus through editing|directly editing these pages is permitted by Wikipedia's policies]]. Consequently, you should not remove any change ''solely'' because there was no discussion indicating consensus for the change before it was made. Instead, give a substantive reason for challenging it either in your [[Help:Edit summary|edit summary]] or on the talk page.
+
+[[Wikipedia:Be bold#Wikipedia namespace|Bold]] editors of policy and guideline pages are strongly encouraged to follow [[Wikipedia:Edit warring#Other revert rules|WP:1RR]] or [[Wikipedia:Edit warring#Other revert rules|WP:0RR]] standards. Editing a policy to support your own argument in an active discussion may be seen as [[Wikipedia:gaming the system|gaming the system]], especially if you do not disclose it when making the edits.
+
+===Conflicts between advice pages===
+
+{{Shortcut|WP:POLCON}}
+{{See also|Wikipedia:Content forking/Internal#Policy forks}}
+
+If policy and/or guideline pages conflict, one or more pages need to be revised to resolve the conflict so all the conflicting pages accurately reflect the community's actual practices and best advice. As a temporary measure, if a guideline appears to conflict with a policy, editors may assume the policy takes precedence.
+
+More commonly, advice pages do not directly conflict, but provide multiple options. For example, [[Wikipedia:Reliable sources]] says newspaper articles are generally considered to be reliable sources, and [[Wikipedia:Identifying reliable sources (medicine)]] recommends against newspaper articles for certain technical purposes. Editors must use their judgement to decide which advice is most appropriate and relevant to the situation at hand.
+
+==Naming==
+
+The page names of policies and guidelines usually do not include the words "policy" or "guideline", unless required to distinguish the page from another.
+
+==Finding policies and guidelines==
+{{short|WP:PGSEARCH}}
+{{main| Wikipedia:List of policies|Wikipedia:List of guidelines|Wikipedia:Manual of Style/Contents}}
+
+[[Wikipedia:List of policies|Policies]] and [[Wikipedia:List of guidelines|guidelines]] can be navigated via the [[Wikipedia:List of policies and guidelines|directory]], [[:Category:Wikipedia policies and guidelines|categories]], the [[Template:Wikipedia policies and guidelines|navigation template]] or by [[Help:Searching#Custom search boxes|custom search boxes]] (as seen below).
+<inputbox>
+id = style-searchbox
+type=fulltext
+width=35
+break=no
+searchfilter=incategory:"Wikipedia policies"
+namespaces=Wikipedia**
+searchbuttonlabel = Search policies
+</inputbox>
+<br>
+<inputbox>
+id = style-searchbox
+type=fulltext
+width=35
+break=no
+searchfilter=deepcat:"Wikipedia guidelines"
+namespaces=Wikipedia**
+searchbuttonlabel = Search guidelines
+</inputbox>
+<br>
+<inputbox>
+id = style-searchbox
+type=fulltext
+width=35
+break=no
+searchfilter=incategory:"Wikipedia Manual of Style"
+namespaces=Wikipedia**
+searchbuttonlabel = Search the MOS
+</inputbox>
+
+==See also==
+
+* {{section link|Criticism of Wikipedia#Excessive rule-making}}
+* [[Wikipedia:Requests for comment/Wikipedia policies and guidelines]] – a listing of policy and guideline proposals advertised through [[Wikipedia:Requests for comment]]
+* [[Wikipedia:Centralized discussion]] – a centralized list of ongoing policy discussions
+* [[Wikipedia:Perennial proposals]] – proposals that come up very often
+* [[Wikipedia:Product, process, policy]] – the place of policies in Wikipedia
+* [[Help:Introduction to policies and guidelines]] – major policies and guidelines for very new users
+* [[Wikipedia:Principles]] – an index of essays about the community's principles and values
+* [[Wikipedia:Simplified ruleset]] – an explanatory supplement of key policies and guidelines
+* [[Wikipedia:Wikimedia proposals]] – links to proposals at the wiki for Wikimedia
+
+==Notes==
+
+<references />
+
+==Further reading==
+* [[wmf:Mission statement|Mission statement]] – The Wikimedia Foundation
+* [[wmf:Values|Wikimedia values]] – The six values of the Wikimedia Foundation
+* [[meta:Founding principles|Wikimedia founding principles]] – Principles generally supported by all the Wikimedia communities
+
+{{Wikipedia policies and guidelines|state=plain}}
+{{Wikipedia accounts|state=collapsed}}
+[[Category:Wikipedia policies and guidelines| ]]
+[[Category:Wikipedia policies| ]]
+[[Category:Wikipedia administration|{{PAGENAME}}]]
+[[Category:Wikipedia procedural policies]]

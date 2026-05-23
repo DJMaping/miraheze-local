@@ -1,0 +1,134 @@
+{{#invoke:Navbox with collapsible groups|navbox
+| name = String-handling templates
+| state = {{{state|expanded}}}
+| bodyclass = plainlist
+| title = String-handling templates [[Help:Manipulating_strings|(help page)]]
+| selected = {{{selected|{{{expanded|{{{1|}}}}}}}}}
+
+<!---------------------- Trimming ------------------------->
+| abbr1 = sub
+| sect1 = Substring (select chunk of string by its position)
+| content1 =  {{Aligned table |fullwidth=on |style=text-align: left; |col1width=50%;
+  | {{Aligned table |style=padding-right: 2em;
+    |col1style=width: 12em; text-align: right; padding-right: 0.75em;
+    | {{tl|str sub new}} | Select a substring based on starting and ending index counted in either direction.
+    | {{tl|str left}}      | Keep the first N characters of a string, or duplicate it to N characters.
+    | {{tl|str crop}}      | Return all but the last N characters of a string.
+    | {{tl|str index}}     | Return the N-th character of a string.
+    }}
+  | {{Aligned table
+    |col1style=width: 12em; text-align: right; padding-right: 0.75em;
+    | {{tl|str right}}     | Return substring starting at N-th character to end of string.
+    | {{tl|str rightc}}    | Return the last N characters of a string; or a given value if empty.
+    | {{tl|str sub old}}   | Return substring of given length starting at N-th character.
+}} }}
+
+| abbr2 = trim
+| sect2 = Trimming (select/remove chunk of string by character type)
+| content2 =
+{{Aligned table |fullwidth=on |style=text-align: left; |col1width=50%;
+    | {{Aligned table |style=padding-right: 2em;
+       |col1style=width: 12em; text-align: right; padding-right: 0.75em;
+       | {{tl|trim}}                | Trim any leading or trailing whitespace
+       | {{tl|str letter/trim}}     | Trim down to the beginning letters.
+       | {{tl|str number/trim}}     | Trim down to the beginning numbers.
+       | {{tl|trim brackets}}       | Trim any leading or trailing square brackets.
+       | {{tl|trim quotes}}         | Trim leading or trailing matching quotes.
+       | {{tl|trim leading}}        | Trim up to six instances of specified <prefix>.
+      }}
+    | {{Aligned table
+       |col1style=width: 12em; text-align: right; padding-right: 0.75em;
+       | {{tl|string split}}        | Extract a short string from a long string.
+       | {{tl|first word}}          | Trim down to the first space.
+       | {{tl|remove first word}}   | Remove anything before the first space.
+       | {{tl|last word}}           | Trim down from the last space.
+       | {{tl|remove last word}}    | Remove anything after the last space.
+}} }}
+
+| abbr3 = specific
+| group3 = Select/remove specific item from string
+| content3 =
+{{Aligned table |fullwidth=on |style=text-align:left; |col1width=50%;
+    | {{Aligned table |style=padding-right: 2em;
+       |col1style=width: 12em; text-align: right; padding-right: 0.75em;
+       | {{tl|delink}}, {{tl|trim brackets}} | Removes wikilink brackets (wikicode); ''all'' or ''outer only''.
+       | {{tl|Plain text}}          | Removes wikicode (formatting and brackets)
+       | {{tl|PAGENAMEBASE}}        | Trim off any parenthesis text at the end of a string (disambiguation).
+       | {{tl|title disambig text}} | Returns text in parentheses at the end of a string (disambiguation).
+      }}
+    | {{Aligned table
+       |col1style=width: 12em; text-align: right; padding-right: 0.75em;
+       | {{tl|title year}}          | Returns the 3-or-4-digit year from a pagename, if any.
+       | {{tl|title decade}}        | Returns the 4-digit decade from a pagename (e.g. "1740" from "Foo 1740s bar"), if any.
+       | {{tl|title number}}        | Returns any number from a pagename.
+       | {{tl|WikiProjectbasename}} | Removes "WikiProject" from a pagename.
+   }} }}
+
+<!----------- Insertion, replacement, length -------------->
+| abbr4 = IRL
+| sect4 = Insertion, replacement, and length
+| content4 =
+ {{Aligned table |style=margin: 0 auto 0; text-align: left;
+  |  <!---(Insertion, replacement)--->
+    {{Aligned table |style=padding-right: 2em;
+     |col1style=text-align: right; padding-right: 0.75em;
+     | {{tl|loop}}          | Repeat character string a specified number of times.
+     | {{tl|replace}}       | Returns the string, after replacing ''all'' occurrences of a specified string with another string.
+     | {{tl|str rep}}       | Returns the string, after replacing the first occurrence of a specified string with another string.
+     | {{tl|digits}}        | Returns the string, after removing all characters that are not digits 0–9
+     | {{tl|Nowiki}}        | Displays wikitext as plain text.
+    }}
+  |  <!---(Length)--->
+    {{Aligned table
+     |col1style=text-align: right; padding-right: 0.75em;
+     | {{tl|str len}}       | Returns a string's length.
+     | {{tl|str ≥ len}}     | Check if a string is "longer or equally long" or "shorter" than a given length.
+     | {{tl|str ≤ len}}     | Check if a string is "shorter or equally long" or "longer" than a given length.
+     | {{tl|str ≠ len}}     | Check if a string is "not equal" or "equal" to a given length.
+ }} }}
+
+<!----------------- Analysis, technical ------------------->
+| abbr5 = anlys/tech
+| sect5 = Analysis and searching
+| content5 =
+ {{Aligned table |style=margin: 0 auto 0; text-align: left;
+  |  <!---(Analysis)--->
+    {{Aligned table |style=padding-right: 2em;
+     |col1style=text-align: right; padding-right: 0.75em;
+     | {{tl|str startswith}}<br>{{tl|str endswith}}  | Check if a string starts or ends with a given string.
+     | {{tl|str find}}, {{tl|strfind short}} |style2.2=vertical-align:middle;| Returns the numerical location of a given string in a string.
+     | {{tl|str count}}     | Count the number of occurrences of a pattern within a string.
+    }}
+  |  <!---(Analysis cont'd)--->
+    {{Aligned table
+     |col1style=text-align: right; padding-right: 0.75em;
+     | {{tl|Array}}         | Array item manipulation and retrieval.
+     | {{tl|a or an}}       | Takes a noun and produces the appropriate indefinite article, based on whether the first letter is a vowel.
+     | {{tl|in string}}     | Returns optional string when given string is not found
+     | {{tl|Isnumeric}}     | Returns number when true, blank when not numeric.
+     | {{tl|str letter}}    | Returns the number of letters that begin a string.
+     | {{tl|str number}}    | Returns the number of numbers that begin a string.
+ }} }}
+|state1=<noinclude>expanded</noinclude><!-- show everything on this template's page -->
+|state2=<noinclude>expanded</noinclude>
+|state3=<noinclude>expanded</noinclude>
+|state4=<noinclude>expanded</noinclude>
+|state5=<noinclude>expanded</noinclude>
+|state6=expanded
+|group6=Modules and built-in functions
+|list6={{div col|style=text-align:left}}
+* [[:Module:String]], [[:Module:String2]], [[:Module:Ustring]], [[Module:Text]], [[:Template:Navbox wikitext-handling templates|wikitext handling]]: modules that together contain most necessary string functions.
+* [[mw:Help:Magic words|Magic words]]: About <code><nowiki>{{padleft:&#124;}}</nowiki></code>, <code><nowiki>{{lc:&#124;}}</nowiki></code>,  <code><nowiki>{{formatnum:&#124;}}</nowiki></code> etc.
+* [[mw:Help:Extension:ParserFunctions|ParserFunctions]]: About <code><nowiki>{{#titleparts:&#124;}}, {{#expr:&#124;}}, {{#ifeq:&#124;}}, </nowiki></code> etc.{{div col end}}
+<!----------------------- below --------------------------->
+| belowclass = hlist
+| below =
+* [[:Category:String manipulation templates]] 
+** [[:c:Category:String manipulation templates|Commons]]
+** [[:mw:Category:String manipulation templates|MediaWiki]]
+** [[:m:Category:String manipulation templates|Meta-Wiki]]
+** [[:d:Category:String manipulation templates|Wikidata]]
+* [[:Category:Modules that manipulate strings]]
+| tracking = no <!--(keep all these string templates (by /doc pages) out of the tracking category)-->
+
+}}<noinclude>{{documentation}}</noinclude>

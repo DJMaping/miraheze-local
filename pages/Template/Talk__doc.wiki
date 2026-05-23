@@ -1,0 +1,24 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template returns a link to the talk page of any given page.
+
+This template can be substituted.
+
+=== Usage ===
+:{{tlx|Talk}} → This page's talk page: {{Talk}}
+:{{tlx|Talk|File:Example.jpg}} → The given page's talk page: {{Talk|File:Example.jpg}}
+:{{tlx|Talk|Foo|Bar}} → The given page's talk page, shown as a piped link: {{Talk|Foo|Bar}}
+:{{tlx|Talk|2=2=Talk page}} → This page's talk page, shown as a piped link: {{Talk|2=Talk page}}
+
+==See also==
+*{{tl|Article}}
+*{{tl|Further}}
+*{{tl|See also}}
+*{{tl|Talkpage of help}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Internal link templates]]
+}}</includeonly>

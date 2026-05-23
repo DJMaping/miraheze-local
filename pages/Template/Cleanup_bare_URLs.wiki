@@ -1,0 +1,19 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Cleanup bare URLs}} begin-->{{Ambox
+| name  = Cleanup bare URLs
+| type  = style
+| class = ambox-cleanup-link_rot
+| image = [[File:Text document with red question mark.svg|50x40px|link=|alt=]]
+| issue = This {{{1|article}}} '''uses [[Wikipedia:Bare URLs|bare URLs]], which are uninformative and vulnerable to [[Wikipedia:Link rot|link rot]].'''
+| fix   = Please consider converting them to [[Wikipedia:Citing sources#Citation styles|full citations]] to ensure the article remains [[Wikipedia:Verifiability|verifiable]] and maintains a consistent citation style. [[Wikipedia:Template index/Sources of articles#Examples|Several templates]] and tools are available to assist in formatting, such as {{nowrap|1=[https://refill.toolforge.org/ng/result.php?page={{FULLPAGENAMEE}}&defaults=y reFill] ([[Wikipedia:ReFill|documentation]])}} and {{nowrap|1=[https://citations.toolforge.org/process_page.php?edit=automated_tools&slow=1&page={{FULLPAGENAMEE}} Citation bot] ([[User:Citation bot|documentation]])}}.
+| date  = {{{date|}}}
+| cat   = Articles needing cleanup
+| cat2  = Articles with bare URLs for citations
+| all2  = All articles with bare URLs for citations
+| cat3  = Articles covered by WikiProject Wikify
+| all3  = All articles covered by WikiProject Wikify
+| removalnotice = yes
+}}<!--{{Cleanup bare URLs}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>

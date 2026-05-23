@@ -1,0 +1,8 @@
+{{#ifeq:{{lc:{{{1|}}}}}|none|{{SHORTDESC:|{{{2|}}}}}<nowiki/><!--Prevents whitespace issues when used with adjacent newlines-->|<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">{{{1|}}}{{SHORTDESC:{{{1|}}}|{{{2|}}}}}</div>}}<includeonly>{{#ifeq:{{{pagetype}}}|Disambiguation pages||{{#ifeq:{{pagetype |defaultns = all |user=exclude}}|exclude||{{#ifeq:{{#switch: {{NAMESPACENUMBER}} | 2 | 3 | 4 | 5 | 6 | 7 | 10 | 11 | 12 | 13 | 14 | 15 | 100 | 101 | 118 | 119 | 828 | 829 | = exclude|#default=}}|exclude||[[Category:{{{pagetype|{{pagetype |defaultns = extended |plural=y}}}}} with short description]]}}}}}}</includeonly><!-- Start tracking
+-->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using short description with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Short description]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | 2 | pagetype | bot |plural }}<!--
+-->{{#ifexpr: {{#invoke:String|len|{{{1|}}}}}>100 | [[Category:{{{pagetype|{{pagetype |defaultns = extended |plural=y}}}}} with long short description]]}}<!--
+--><includeonly>{{#if:{{{1|}}}||[[Category:Pages with empty short description]]}}</includeonly><!--
+-->{{Short description/lowercasecheck|{{{1|}}}}}<!-- 
+-->{{Main other |{{SDcat |sd={{{1|}}} }} }}<noinclude>
+{{Documentation}}
+</noinclude>

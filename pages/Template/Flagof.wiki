@@ -1,0 +1,10 @@
+{{#invoke:Flagg|main
+|p{{#if:{{#switch:{{{link}}}|=1|{{(((}}link{{)))}}={{#if:{{{1|}}}||1}}}}|{{yesno|{{{list|}}}|yes=s|no=x}}x|{{yesno|{{{list|}}}|yes=s|no=n}}{{yesno|{{{prefix|}}}|yes=f|no=p}}}}
+|{{{1|}}}
+|{{{2|}}}
+|size={{{size|l}}}
+|flink={{{link|}}}
+|nodata={{{nodata|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,61 @@
+{{Infobox
+|title    = {{{title|}}}
+|image    = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image size|{{{image_size|{{{imagesize|}}}}}}}}}|upright={{{image upright|{{{image_upright|{{{imageupright|1}}}}}}}}}|alt={{{alt|}}}}} 
+|caption  = {{{image caption|{{{image_caption|{{{imagecaption|}}}}}}}}}
+|image2   = {{#invoke:InfoboxImage|InfoboxImage|image={{{photo|}}}|size={{{photo size|{{{photo_size|{{{photosize|}}}}}}}}}|upright={{{photo upright|{{{photo_upright|{{{photoupright|1}}}}}}}}}|alt={{{alt_photo|}}}}}
+|caption2 = {{{photo caption|{{{photo_caption|{{{photocaption|}}}}}}}}}
+|label1   = Area
+|data1    = {{{area|}}}
+|label2   = Population
+|data2    = {{{population|}}}
+|label3   = Population density 
+|data3    = {{{density|}}}
+|label4   = GDP [[List of countries by GDP (PPP)|PPP]]
+|data4    = {{{GDP_PPP}}}
+|label5   = GDP ([[List of countries by GDP (nominal)|nominal]]) 
+|data5    = {{{GDP_nominal|}}} 
+|label6   = GDP [[List of countries by GDP (nominal) per capita|per capita]]
+|data6    = {{{GDP_per_capita|}}}
+|label7   = HDI
+|data7    = {{{HDI|}}}
+|label8   = [[Ethnicity|Ethnic groups]]
+|data8    = {{{ethnic_groups|}}}
+|label9   = Religions
+|data9    = {{{religions|}}}
+|label10  = [[wikipedia:Demonym|Demonym]]
+|data10   = {{{demonym|}}}
+|label11  = Countries
+|data11   = {{#if: {{{list_countries|}}} | [[{{{list_countries}}}|{{{countries|}}}]] | {{{countries|}}}}}
+|label12  = Regional organizations
+|data12   = {{{organizations|}}}
+|label13  = Dependencies
+|data13   = {{{dependencies|}}}
+|label14  = Non-UN states
+|data14   = {{{unrecognized|}}}
+|label15  = Languages
+|data15   = {{{languages|}}}
+|label16  = Time zones
+|data16   = {{{time|}}}
+|label17  = Internet [[Top-level domain|TLD]]
+|data17   = {{{internet|}}}
+|label18  = Calling code
+|data18   = {{{calling_code|}}}
+|label19  = Largest {{<!-- for Antarctica -->#if:{{{settlements|}}}|settlements|cities}}
+|data19   = {{{cities|{{{settlements|}}}}}}
+|label20  = [[UN M49]] code
+|data20   = {{{m49|}}}
+|label21  = Part of
+|data21   = {{{part_of|}}}
+|belowstyle = text-align:left; border-top:#aaa 1px solid;
+|below    = {{{footnotes|}}}
+}}<noinclude>{{documentation}}</noinclude>
+
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

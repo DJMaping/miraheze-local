@@ -1,0 +1,18 @@
+{{#if:{{{br|}}}|{{substr|{{#invoke:HTMLDecode | HTMLDecode | text={{{br|}}}}}|0|1}}}}{{#if:{{{image|}}} 
+| [[File:{{{image|}}}|frameless|{{{size|}}}|baseline|alt={{{na|}}}]]
+| {{#switch:{{{gc|<#not a Unicode code point#>}}}
+ | <#not a Unicode code point#> =
+ | Cc =<span style="font-size:small"><control-{{{hval|}}}></span>
+ | Cs =<span style="font-size:small"><surrogate-{{{hval|}}}></span>
+ | Cp =<span style="font-size:small"><private-use-{{{hval|}}}></span>
+ | Cn =<!--Cn=<reserved> is not detected--><span style="font-size:small"><noncharacter-{{{hval|}}}></span>
+ | Cf | Zl | Zp =<!--formatting chars, no glyph or html code at all-->
+ | Zs =<span class="Unicode" style="background:lightblue;line-height:1em">{{#ifeq:{{{hval|}}}| 0020  |&#xA0;|&#x{{{hval|}}};}}</span><!--change space 0x20 into nbsp=0xA0 to preserve the space from wiki-markup deletion-->
+ | #default=<span style="font-size:{{{size|unexp}}};line-height:1em">{{#switch:{{{use|}}}
+   | ipa   ={{IPA|{{{cwith|}}}&#x{{{hval}}};{{{suffix|}}}}}
+   | lang  ={{lang|{{{use2|}}}|{{{cwith|}}}&#x{{{hval}}};{{{suffix|}}}}}
+   | script={{script|{{{use2|}}}|{{{cwith|}}}&#x{{{hval}}};{{{suffix|}}}}}<!--use2: first char uc here?-->
+   | unicode 
+   | #default = {{#ifeq:{{{cwith|}}}|◌|{{script|serif|{{{cwith|}}}&#x{{{hval}}};{{{suffix|}}}}}|{{{cwith|}}}&#x{{{hval|}}};{{{suffix|}}} }}}}</span>}}{{#ifeq:{{{cwith|}}}|&nbsp;|&nbsp;}}}}{{#if:{{{br|}}}|{{substr|{{#invoke:HTMLDecode | HTMLDecode | text={{{br|}}}}}|1|2}}}}<!--
+
+--><noinclude>{{documentation}}</noinclude>

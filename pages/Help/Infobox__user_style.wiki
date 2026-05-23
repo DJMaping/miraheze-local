@@ -1,0 +1,26 @@
+{{{heading|
+==Infoboxes and user style ==
+}}}
+Users can have [[WP:User style|user CSS]] that hides<!--, moves, or makes collapsible--> any infoboxes in their own browsers.
+
+To hide all infoboxes, add the following to [[Special:MyPage/common.css]] (for all [[WP:Skin|skins]], or [[Special:MyPage/skin.css]] for just the current skin), on a line by itself:
+<syntaxhighlight lang="css">div.mw-parser-output .infobox { display: none; }</syntaxhighlight>
+
+Alternatively, you can add the following code to [[Special:MyPage/common.js|your common.js]] or into a browser user script that is executed by an extension like [[Greasemonkey]]:
+
+<syntaxhighlight lang="js">$('.infobox').hide();</syntaxhighlight>
+
+Be aware that although{{#if:{{{guideline|}}}||, per [[WP:Manual of Style/Infoboxes]],}} all information in an infobox ideally should also be found in the main body of an article, there isn't perfect compliance with this guideline. For example, the full taxonomic hierarchy in {{tlx|Taxobox}}, and the OMIM and other medical database codes of {{tlx|Infobox disease}} are often not found in the main article content. The infobox is also often the location of the most significant, even only, image in an article. There is a userscript which removes infoboxes but moves the images contained to separate thumbnails: [[User:Maddy from Celeste/disinfobox.js]].<!--
+
+Needs Special:Mypage/common.js options for:
+* Making infoboxes collapsible
+** Making them auto-collapsed
+* Moving infoboxes to bottom of page
+
+--><noinclude>
+{{Documentation|content=
+This documentation snippet is transcluded at [[Help:Infobox]], [[Template:Infobox/doc]], [[WP:Customisation#Hiding specific messages]], [[Help:User style]], [[WP:Manual of Style/Infoboxes]], and other places where this information is relevant.
+
+As a template, this snippet takes a {{para|heading}} parameter to replace the level-2 <code>==Infoboxes and user style==</code> section heading code, as needed. E.g., for a <code>=== ... ===</code> level-3 heading: <code><nowiki>heading={{=}}{{=}}{{=}}Infoboxes and user style{{=}}{{=}}{{=}}</nowiki></code>
+}}
+</noinclude>

@@ -1,0 +1,3 @@
+[[:Category:{{PAGENAME:{{{1}}}}}|{{{2|{{PAGENAME:{{{1}}}}}}}}]]<noinclude>
+{{Documentation}}
+</noinclude>

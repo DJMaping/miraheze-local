@@ -1,0 +1,5 @@
+#REDIRECT [[Template:·]]
+<noinclude>
+{{Redirect category shell| {{R from template shortcut}} }}
+[[Category:Wikipedia formatting templates|{{PAGENAME}}]]
+</noinclude>

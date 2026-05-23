@@ -1,0 +1,18 @@
+{{Documentation subpage}}
+This template converts a square kilometer value into square miles, and displays both values.
+
+== Usage ==
+
+{{tlxi|km2 mi2|number|sig figs|allow decimal}}
+
+Example:
+* {{tld|km2 mi2|512}} → {{km2 mi2|512}}
+* {{tld|km2 mi2|512|2}} → {{km2 mi2|512|2}}
+* {{tld|km2 mi2|512.3|4|yes}} → {{km2 mi2|512.3|4|yes}}
+
+The second argument is the maximum number of significant figures. Values are rounded to the nearest integer unless a value is present in the third argument.
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line -->
+[[Category:Conversion templates]]
+}}</includeonly>

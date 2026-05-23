@@ -1,0 +1,22 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+{{Ambox
+| name  = {{{name|Unreferenced}}}
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| type  = content
+| class = ambox-Unreferenced
+| small = {{{small|}}}
+| image = [[File:Question book-new.svg|50x40px|alt=icon]]
+| issue = This {{{1|article}}} '''does not [[Wikipedia:Citing sources|cite]] any [[Wikipedia:Verifiability|sources]]'''.
+| fix   = Please help [[Special:EditPage/{{FULLPAGENAME}}|improve this {{{1|article}}}]] by [[Help:Referencing for beginners|adding citations to reliable sources]]. Unsourced material may be challenged and [[Wikipedia:Verifiability#Burden of evidence|removed]].{{#if:{{{find2|{{{unquoted|}}}}}}|<!--
+--><br /><small>{{find sources mainspace|{{#if:{{{find|}}}|{{{find}}}|.}}|{{{find2|{{{unquoted|}}}}}}}}</small><!--
+-->  |{{#if:{{{find|}}}|{{#ifeq: {{{find|}}} |none ||<br /><small>{{find sources mainspace|{{{find}}} }}</small>}}|<br /><small>{{find sources mainspace}}</small>}}<!--
+-->}}
+| removalnotice = yes
+| date  = {{{date|}}}
+| cat   = Articles {{#ifeq:{{{1}}}|section|needing additional references|lacking sources}}
+| all   = All articles {{#ifeq:{{{1}}}|section|needing additional references|lacking sources}}
+| all2  = {{#ifeq:{{{status}}}|hasaref|All articles possibly lacking sources}}
+}}
+}}<includeonly>{{safesubst:<noinclude/>ifsubst||{{template other|[[Category:Templates lacking sources]]}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,10 @@
+<span style="white-space: nowrap;">{{#if:{{{1|}}}|{{#if:{{{2|}}}||&thinsp;}}}}{{{1|}}}&thinsp;<!--
+-->{{#if:{{{2|}}}|{{{2}}}}}{{#if:{{{3|}}}|&thinsp;{{{3}}}}}<!--
+-->{{#if:{{{4|}}}|&thinsp;{{{4}}}}}{{#if:{{{5|}}}|&thinsp;{{{5}}}}}<!--
+-->{{#if:{{{6|}}}|&thinsp;{{{6}}}}}{{#if:{{{7|}}}|&thinsp;{{{7}}}}}<!--
+-->{{#if:{{{8|}}}|&thinsp;{{{8}}}}}{{#if:{{{9|}}}|&thinsp;{{{9}}}}}<!--
+-->{{#if:{{{10|}}}|&thinsp;{{{10}}}}}</span><noinclude>
+
+{{Documentation}}
+<!-- Please add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+</noinclude>

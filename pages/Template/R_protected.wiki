@@ -1,0 +1,9 @@
+<includeonly>{{#switch:{{{protlevel|{{#invoke:effective protection level|edit|1={{{title|{{FULLPAGENAME}}}}}}}}}}
+|sysop={{R protected/full|nocat={{{nocat|}}}}}{{pp-protected|small=yes|category={{#ifeq:{{{nocat|}}}|true|no|yes}}}}
+|templateeditor={{R protected/template|nocat={{{nocat|}}}}}{{pp-template|small=yes|category={{#ifeq:{{{nocat|}}}|true|no|yes}}}}
+|extendedconfirmed={{R protected/excon|nocat={{{nocat|}}}}}{{pp-extended|small=yes|category={{#ifeq:{{{nocat|}}}|true|no|yes}}}}
+|autoconfirmed={{R protected/semi|nocat={{{nocat|}}}}}{{pp-semi|small=yes|category={{#ifeq:{{{nocat|}}}|true|no|yes}}}}
+|#default=<!-- Show nothing -->{{#ifeq:{{{nocat|}}}|true||[[Category:Wikipedia pages with incorrect protection templates]]}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

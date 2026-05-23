@@ -1,0 +1,78 @@
+{{Documentation subpage}}
+{{tsh|n+p|n&p|nap}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+This template may be used to generate a number and a percentage of total.  For the reverse, see {{tl|percent and number}}.
+== Usage ==
+*<code><nowiki>{{number and percent|number|total}}</nowiki></code>
+*<code><nowiki>{{number and percent|number|total|decimals to round to (zero or greater)}}</nowiki></code>
+
+=== Optional parameters ===
+For two-column table output, use {{para|disp|table}}
+
+To show the total with the table option, use {{para|total|yes}} 
+
+To insert a line break before the parenthetical expression, use {{para|disp|br()}}
+
+To add a prefix to the numbers, use {{para|prefix}}; for example, <code>prefix=$</code>
+
+To add a suffix to the number, use {{para|suffix}}; for example, <code>suffix=&amp;nbsp;units</code>
+
+To pad the result with zeros to achieve the desired precision, use {{para|pad|yes}}.
+
+To specify a number ''n'' of significant figures for the percentage, use {{para|sigfig|n}}.
+
+To specify a percentage suffix (e.g. ''per cent'') other than ''%'', use {{para|%|suffix}}, e.g. {{para|%|per cent}}.
+
+To override the scientific notation default for very large and very small numbers, use {{para|nonscinote|yes}}.
+
+To override the default right alignment in table mode, use {{para|align|left}} or {{para|align|center}}.
+
+The percent font size may be specified with {{para|size}}, e.g. {{para|size|small}}, {{para|size|90%}}.
+
+== Basic examples ==
+<code><nowiki>{{number and percent|3333|20000}}</nowiki></code> &rarr; {{number and percent|3333|20000}}
+
+<code><nowiki>{{number and percent|3333|20000|3}}</nowiki></code> &rarr; {{number and percent|3333|20000|3}}
+
+<code><nowiki>{{number and percent|3,333|20,000}}</nowiki></code> &rarr; {{number and percent|3,333|20,000}}
+
+<code><nowiki>{{number and percent|3,333|20,000|3}}</nowiki></code> &rarr; {{number and percent|3,333|20,000|3}}
+
+<code><nowiki>{{number and percent|111|1000|4|pad=yes}}</nowiki></code> &rarr; {{number and percent|111|1000|4|pad=yes}}
+
+<code><nowiki>{{number and percent|3333|20000|disp=br()}}</nowiki></code> &rarr; {{number and percent|3333|20000|disp=br()}}
+
+== Table display ==
+<syntaxhighlight lang="wikitext">
+{| class="wikitable sortable"
+|-
+! Location !! Population !! Percentage
+|-
+| City A || {{number and percent|5000|12000|disp=table}}
+|-
+| City B || {{number and percent|6500|12000|disp=table}}
+|-
+| City C || {{number and percent|500|12000|disp=table}}
+|}
+</syntaxhighlight>
+{| class="wikitable sortable"
+|-
+! Location !! Population !! Percentage
+|-
+| City A || {{number and percent|5000|12000|disp=table}}
+|-
+| City B || {{number and percent|6500|12000|disp=table}}
+|-
+| City C || {{number and percent|500|12000|disp=table}}
+|}
+
+== See also ==
+* {{tl|percentage}}
+* {{tl|percent and number}}
+
+{{progress templates|general=yes}}
+
+<includeonly>{{basepage subpage|
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Mathematical function templates]]
+}}</includeonly>

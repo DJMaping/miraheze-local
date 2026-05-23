@@ -1,0 +1,5 @@
+&nbsp;[[<!---(link:)-->{{{1|Assassination}}}<!--
+       -->|<!--(label:)-->{{#ifeq:{{{alt|}}}|yes |(Assassinated) |{{#ifeq:{{{bold|}}}|no |X |'''X'''}}}}<!--
+      -->]]<noinclude>
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,18 @@
+/* {{pp-template|small=yes}} */
+@media print {
+	body.ns-0 .sistersitebox {
+		display: none !important;
+	}
+}
+
+/* The Wiktionary logo needs a white background in dark mode since it is a transparent SVG */
+@media screen {
+	html.skin-theme-clientpref-night .sistersitebox img[src*="Wiktionary-logo-en-v2.svg"] {
+		filter: invert(1) brightness(55%) contrast(250%) hue-rotate(180deg);
+	}
+}
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .sistersitebox img[src*="Wiktionary-logo-en-v2.svg"] {
+		filter: invert(1) brightness(55%) contrast(250%) hue-rotate(180deg);
+	}
+}

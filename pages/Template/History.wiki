@@ -1,0 +1,3 @@
+<span class="plainlinks">[{{SAFESUBST:<noinclude/>fullurl:{{SAFESUBST:<noinclude/>#ifeq:{{lc:{{{1|}}}}}|talk|{{SAFESUBST:<noinclude/>TALKPAGENAME:{{SAFESUBST:<noinclude/>SUBJECTPAGENAME}}}}|{{{1|{{SAFESUBST:<noinclude/>SUBJECTPAGENAME}}}}}}}|action=history}} {{SAFESUBST:<noinclude/>#ifeq:{{lc:{{{1|}}}}}|talk|{{{2|history}}}|{{{2|{{{1|history}}}}}}}}]</span><noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,9 @@
+<span class="texhtml {{#if:{{{big|}}}{{{size|}}}|texhtml-big}}" {{#if:{{{big|}}}{{{size|}}}|style="font-size:{{{size|165%}}};"}}>{{{1}}}</span><!--
+-->{{#invoke:Check for unknown parameters|check
+| unknown = {{main other|[[Category:Pages using Math with unknown parameters|_VALUE_]]}}
+| showblankpositional=1
+| preview = unknown parameter "_VALUE_" (consider using <code>{{!}}1=</code>, <code><nowiki>{{!}}</nowiki></code>, <code><nowiki>{{=}}</nowiki></code>)
+| 1 | big | size
+}}<noinclude>
+{{Documentation}}
+</noinclude>

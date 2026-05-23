@@ -1,0 +1,9 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Stack documentation}}
+
+<includeonly>{{Sandbox other|
+| <!-- Categories below this line, please: -->
+[[Category:Graphics templates]]
+[[Category:Positioning templates]]
+}}</includeonly>

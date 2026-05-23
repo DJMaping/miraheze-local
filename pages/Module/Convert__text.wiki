@@ -1,0 +1,348 @@
+-- Text used by Module:Convert for enwiki.
+-- This is a separate module to simplify translation for use on another wiki.
+-- See [[:en:Template:Convert/Transwiki guide]] if copying to another wiki.
+
+-- Some units accept an SI prefix before the unit code, such as "kg" for kilogram.
+local SIprefixes = {
+	-- The prefix field is what the prefix should be, if different from the prefix used.
+	['Q'] = { exponent = 30, name = 'quetta',                 },
+	['R'] = { exponent = 27, name = 'ronna',                  },
+	['Y'] = { exponent = 24, name = 'yotta',                  },
+	['Z'] = { exponent = 21, name = 'zetta',                  },
+	['E'] = { exponent = 18, name = 'exa'  ,                  },
+	['P'] = { exponent = 15, name = 'peta' ,                  },
+	['T'] = { exponent = 12, name = 'tera' ,                  },
+	['G'] = { exponent =  9, name = 'giga' ,                  },
+	['M'] = { exponent =  6, name = 'mega' ,                  },
+	['k'] = { exponent =  3, name = 'kilo' ,                  },
+	['h'] = { exponent =  2, name = 'hecto',                  },
+	['da']= { exponent =  1, name = 'deca' , name_us = 'deka' },
+	['d'] = { exponent = -1, name = 'deci' ,                  },
+	['c'] = { exponent = -2, name = 'centi',                  },
+	['m'] = { exponent = -3, name = 'milli',                  },
+	['μ'] = { exponent = -6, name = 'micro',                  },  -- key = 'GREEK SMALL LETTER MU' (U+03BC) utf-8 CE BC
+	['µ'] = { exponent = -6, name = 'micro', prefix = 'μ'     },  -- key = 'MICRO SIGN' (U+00B5) utf-8 C2 B5
+	['u'] = { exponent = -6, name = 'micro', prefix = 'μ'     },  -- not an SI prefix, but allow for people typing this
+	['n'] = { exponent = -9, name = 'nano' ,                  },
+	['p'] = { exponent =-12, name = 'pico' ,                  },
+	['f'] = { exponent =-15, name = 'femto',                  },
+	['a'] = { exponent =-18, name = 'atto' ,                  },
+	['z'] = { exponent =-21, name = 'zepto',                  },
+	['y'] = { exponent =-24, name = 'yocto',                  },
+	['r'] = { exponent =-27, name = 'ronto',                  },
+	['q'] = { exponent =-30, name = 'quecto',                 },
+}
+
+-- Some units can be qualified with one of the following prefixes, when linked.
+local customary_units = {
+	{ "US", link = "United States customary units" },
+	{ "U.S.", link = "United States customary units" },
+	{ "imperial", link = "Imperial units" },
+	{ "imp", link = "Imperial units" },
+}
+
+-- Names when using engineering notation (a prefix of "eN" where N is a number; example "e6km").
+-- key = { "name", link = "article title", exponent = numeric_key_value }
+-- If lk=on and link is defined, the name of the number will appear as a link.
+local eng_scales = {
+	["3"]  = { "thousand", exponent = 3 },
+	["6"]  = { "million", exponent = 6 },
+	["9"]  = { "billion", link = "1000000000 (number)", exponent = 9 },
+	["12"] = { "trillion", link = "1000000000000 (number)", exponent = 12 },
+	["15"] = { "quadrillion", link = "1000000000000000 (number)", exponent = 15 },
+}
+
+local all_categories = {
+	unit = "[[Category:Convert errors]]",
+	option = "[[Category:Convert errors]]",
+	warning = '[[Category:Convert invalid options]]',
+	tracking = '[[Category:Convert tracking]]',
+}
+
+-- For some error messages, the following puts the wanted style around
+-- each unit code marked like '...%{ft%}...'.
+local unitcode_regex = '%%([{}])'
+local unitcode_replace = { ['{'] = '"', ['}'] = '"' }  -- no longer need the more elaborate substitute used before 2013-09-28
+
+-- All messages that may be displayed if a problem occurs.
+local all_messages = {
+	-- Message format string: $1=title, $2=text, $3=category, $4=anchor.
+	-- Each displayed message starts with "Convert:" so can easily locate by searching article.
+	cvt_format = '<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i>[[Help:Convert messages#$4|<span title="Convert: $1">convert: $2</span>]]</i>]</sup>$3<span class="error"></span>',
+	cvt_format2 = '<sup class="noprint Inline-Template" style="white-space:nowrap;">[[Help:Convert messages#$4|<span title="Convert: $1">$2</span>]]</sup>$3<span class="error"></span>',
+	cvt_format_preview = '<strong class="error">Error in convert: $1 [[Help:Convert messages#$4|(help)]]</strong>$3',
+	-- Each of following messages is a table:
+	-- { [1] = 'title',         -- mouseover title text
+	--   [2] = 'text',          -- link text displayed in article
+	--   [3] = 'category key',  -- key to lookup category in all_categories
+	--   [4] = 'anchor',        -- anchor for link to relevant section on help page
+	--   regex = gsub_regex,
+	--   replace = gsub_table,
+	-- }                    Mouseover title text                           Link text               CatKey     Anchor
+	cvt_bad_input      = { 'input "$1" must be a number and unit'       , 'invalid input'       , 'option',  'invalid_input'        },
+	cvt_bad_num        = { 'Value "$1" must be a number'                , 'invalid number'      , 'option',  'invalid_number'       },
+	cvt_big_prec       = { 'Precision "$1" is too large'                , 'precision too large' , 'option',  'precision_too_large'  },
+	cvt_invalid_num    = { 'Number has overflowed'                      , 'number overflow'     , 'option',  'number_overflow'      },
+	cvt_no_num         = { 'Needs the number to be converted'           , 'needs a number'      , 'option',  'needs_number'         },
+	cvt_no_num2        = { 'Needs another number for a range'           , 'needs another number', 'option',  'needs_another_number' },
+	cvt_bad_altitude   = { '"$1" needs an integer'                      , 'invalid altitude'    , 'option',  'invalid_altitude'     },
+	cvt_bad_frac       = { '"$1" needs an integer above 1'              , 'invalid fraction'    , 'option',  'invalid_fraction'     },
+	cvt_bad_prec       = { 'Precision "$1" must be an integer'          , 'invalid precision'   , 'option',  'invalid_precision'    },
+	cvt_bad_sigfig     = { '"$1" needs a positive integer'              , 'invalid sigfig'      , 'option',  'invalid_sigfig'       },
+	cvt_empty_option   = { 'Ignored empty option "$1"'                  , 'empty option'        , 'option',  'empty_option'         },
+	cvt_deprecated     = { 'Option "$1" is deprecated'                  , '*'                   , 'option',  'deprecated_option', format = 'cvt_format2', nowarn = true },
+	cvt_no_spell       = { 'Spelling is not available'                  , 'bug, ask for help'   , 'option',  'ask_for_help'         },
+	cvt_unknown_option = { 'Ignored invalid option "$1"'                , 'invalid option'      , 'option',  'invalid_option'       },
+	cvt_wd_fail        = { 'Unable to access Wikidata'                  , 'wikidata problem'    , 'option',  'wikidata_problem'     },
+	cvt_bad_default    = { 'Unit "$1" has an invalid default'           , 'bug, ask for help'   , 'unit'  ,  'ask_for_help'         },
+	cvt_bad_unit       = { 'Unit "$1" is invalid here'                  , 'unit invalid here'   , 'unit'  ,  'unit_invalid_here'    },
+	cvt_no_default     = { 'Unit "$1" has no default output unit'       , 'bug, ask for help'   , 'unit'  ,  'ask_for_help'         },
+	cvt_no_unit        = { 'Needs name of unit'                         , 'needs unit name'     , 'unit'  ,  'needs_unit_name'      },
+	cvt_unknown        = { 'Unit name "$1" is not known'                , 'unknown unit'        , 'unit'  ,  'unknown_unit'         },
+	cvt_should_be      = { '$1'                                         , 'ambiguous unit'      , 'unit'  ,  'ambiguous_unit', regex = unitcode_regex, replace = unitcode_replace },
+	cvt_mismatch       = { 'Cannot convert "$1" to "$2"'                , 'unit mismatch'       , 'unit'  ,  'unit_mismatch'        },
+	cvt_bug_convert    = { 'Bug: Cannot convert between specified units', 'bug, ask for help'   , 'unit'  ,  'ask_for_help'         },
+	cvt_lookup         = { 'Unit "$1" is incorrectly defined'           , 'bug, ask for help'   , 'unit'  ,  'ask_for_help'         },
+}
+
+-- Text to join input value/unit with output value/unit.
+local disp_joins = {
+	-- [1]=before output, [2]=after output, [3]=between outputs in a combination; default "; "
+	-- [wantname] gives default abbr=off
+	["or"]         = { " or "    , "" , " or ", wantname = true },
+	["sqbr-sp"]    = { " ["      , "]" },
+	["sqbr-nbsp"]  = { "&nbsp;[" , "]" },
+	["comma"]      = { ", "      , "" , ", " },
+	["semicolon"]  = { "; "      , ""  },
+	["slash-sp"]   = { " / "     , "" , wantname = true },
+	["slash-nbsp"] = { "&nbsp;/ ", "" , wantname = true },
+	["slash-nosp"] = { "/"       , "" , wantname = true },
+	["b"]          = { " ("      , ")" },
+	["(or)"]       = { " ("      , ")", " or " },
+	["br"]         = { "<br />"  , "" , wantname = true },
+	["br()"]       = { "<br />(" , ")", wantname = true },
+}
+
+-- Text to separate values in a range.
+local range_types = {
+	-- Specifying a table requires either:
+	-- * "off" and "on" values (for "abbr=off" and "abbr=on"), or
+	-- * "input" and "output" values (for LHS and RHS);
+	-- other fields are optional.
+	-- When "adj=on|abbr=off" applies, spaces in range text are replaced with hyphens.
+	-- With "exception = true", that also occurs with "adj=on|abbr=on".
+	-- If "adj" is defined here, that text (unchanged) is used with "adj=on".
+	["+"]      = " + ",
+	[","]      = ",&nbsp;",
+	[", and"]  = ", and ",
+	[", or"]   = ", or ",
+	["by"]     = " by ",
+	["-"]      = "–",
+	["to about"] = " to about ",
+	["and"]    = { off = " and ", on = " and ", exception = true },
+	["and(-)"] = { input = " and ", output = "–" },
+	["or"]     = { off = " or " , on = " or " , exception = true },
+	["to"]     = { off = " to " , on = " to " , exception = true },
+	["to(-)"]  = { input = "&nbsp;to ", output = "–" },
+	["+/-"]    = { off = "&nbsp;±&nbsp;", on = "&nbsp;±&nbsp;", adj = "&nbsp;±&nbsp;", is_range_change = true },
+	["by(x)"]  = { input = " by ", output = " ×&nbsp;", out_range_x = true },
+	["x"]      = { off = " by ", on = " ×&nbsp;", abbr_range_x = true },
+	["xx"]     = "&nbsp;×&nbsp;",
+	["*"]      = "×",
+	["/"]      = "&thinsp;/&thinsp;",  -- for a table of high/low temperatures with {{convert|83|/|63|F|disp=br()|abbr=values}}
+}
+
+local range_aliases = {
+	-- ["alternative name for a range"] = "standard range name"
+	["–"]        = "-",
+	["&ndash;"]  = "-",
+	["×"]        = "x",
+	["&times;"]  = "x",
+	["±"]        = "+/-",
+	["&plusmn;"] = "+/-",
+}
+
+-- Convert accepts range text delimited with whitespace, for example, {{convert|1 to 2|ft}}.
+-- In addition, the following "words" are accepted without spaces, for example, {{convert|1-2|ft}}.
+-- Words must be in correct order for searching, for example, 'x' after 'xx'.
+local range_words = { '-', '–', 'xx', 'x', '*' }
+
+local ranges = {
+	types = range_types,
+	aliases = range_aliases,
+	words = range_words,
+}
+
+-- Valid option names.
+local en_option_name = {
+	-- ["local text for option name"] = "en name used in this module"
+	["$"] = "$",
+	["abbr"] = "abbr",
+	["adj"] = "adj",
+	["altitude_ft"] = "altitude_ft",
+	["altitude_m"] = "altitude_m",
+	["comma"] = "comma",
+	["debug"] = "debug",
+	["disp"] = "disp",
+	["error"] = "error",
+	["frac"] = "frac",
+	["input"] = "input",
+	["lang"] = "lang",
+	["link"] = "lk",
+	["lk"] = "lk",
+	["order"] = "order",
+	["qid"] = "qid",
+	["qual"] = "qual",
+	["qualifier"] = "qual",
+	["round"] = "round",
+	["sigfig"] = "sigfig",
+	["sing"] = "adj",                   -- "sing" is an old alias for "adj"
+	["sortable"] = "sortable",
+	["sp"] = "sp",
+	["spell"] = "spell",
+	["stylein"] = "stylein",
+	["styleout"] = "styleout",
+	["tracking"] = "tracking",
+}
+
+-- Valid option values.
+-- Convention: parms.opt_xxx refers to an option that is set here
+-- (not intended to be set by the template which invokes this module).
+-- Example: At enwiki, "abbr" includes:
+--     ["values"] = "opt_values"
+-- As a result, if the template uses abbr=values, Module:Convert sets:
+--     parms["opt_values"] = true
+--     parms["abbr"] = nil
+-- Therefore parms.abbr will be nil, or will have one of the listed values
+-- that do not start with "opt_".
+-- An option value of form "xxx?" is the same as "xxx" but shows the input as deprecated.
+-- Options removed in January 2018 with remnants still in Module:Convert:
+--     abbr=mos (in a range, repeat the input unit)
+--     adj=1 (set opt_singular to make the unit name singular when 0 < abs(value) <= 1)
+local en_option_value = {
+	["$"] = 'TEXT',                     -- TEXT should be a currency symbol that will be used instead of "$"
+	["abbr"] = {
+		-- ["local text for option value"] = "en value used in this module"
+		["def"] = "",                   -- ignored (some wrapper templates call convert with "abbr=def" to mean "default abbreviation")
+		["h"] = "on",                   -- abbr=on + use "h" for hand unit (default)
+		["hh"] = "opt_hand_hh",         -- abbr=on + use "hh" for hand unit
+		["in"] = "in",                  -- use symbol for LHS unit
+		["none"] = "off",               -- old name for "off"
+		["off"] = "off",                -- use name for all units
+		["on"] = "on",                  -- use symbol for all units
+		["out"] = "out",                -- use symbol for RHS unit (default)
+		["unit"] = "unit",              -- abbr=on but abbreviate units only: e6km → million km (not ×10⁶ km)
+		["values"] = "opt_values",      -- show only input and output numbers, not units
+		["~"] = "opt_also_symbol",      -- show input unit symbol as well as name
+	},
+	["adj"] = {
+		["mid"] = "opt_adjectival, opt_adj_mid",  -- adj=on with user-specified text after input unit (between input and output)
+		["off"] = "",                   -- ignored (off is the default)
+		["on"] = "opt_adjectival",      -- unit name is singular and hyphenated
+		["pre"] = "opt_one_preunit",    -- user-specified text before input unit
+		["ri0"] = "opt_ri=0",           -- round input with precision = 0
+		["ri1"] = "opt_ri=1",           -- round input with precision = 1
+		["ri2"] = "opt_ri=2",           -- round input with precision = 2
+		["ri3"] = "opt_ri=3",           -- round input with precision = 3
+		["~"] = "opt_also_symbol",      -- same as abbr=~ so can have {{convert|1|C|K|abbr=off|adj=~}}
+	},
+	["altitude_ft"] = 'INTEGER',
+	["altitude_m"] = 'INTEGER',
+	["comma"] = {
+		["5"] = "opt_comma5",           -- only use numsep grouping if 5 or more digits
+		["gaps"] = "opt_gaps",          -- use gaps, not numsep, to separate groups of digits
+		["gaps3"] = "opt_gaps, opt_gaps3",  -- group only in threes rather than default of no gap before a single digit after decimal mark
+		["off"] = "opt_nocomma",        -- no numsep in input or output numbers
+	},
+	["debug"] = {
+		["yes"] = "opt_sortable_debug", -- make the normally hidden sort key visible
+	},
+	["disp"] = {
+		["5"] = "opt_round=5?",         -- round output value to nearest 5
+		["b"] = "b",                    -- join: '(...)'
+		["(or)"] = "(or)",              -- join: '(...)' with 'or' between outputs in a combination
+		["br"] = "br",                  -- join: '<br />'
+		["br()"] = "br()",              -- join: '<br />(...)'
+		["comma"] = "comma",            -- join: ','
+		["flip"] = "opt_flip",          -- reverse order of input/output
+		["number"] = "opt_output_number_only",  -- display output value (not input, and not output symbol/name)
+		["or"] = "or",                  -- join: 'or'
+		["out"] = "opt_output_only",
+		["output number only"] = "opt_output_number_only",
+		["output only"] = "opt_output_only",
+		["preunit"] = "opt_two_preunits",    -- user-specified text before input and output units
+		["semicolon"] = "semicolon",    -- join: ';'
+		["sqbr"] = "sqbr",              -- join: '[...]'
+		["table"] = "opt_table",        -- output is suitable for a table cell with align="right"
+		["tablecen"] = "opt_tablecen",  -- output is suitable for a table cell with align="center"
+		["unit"] = "opt_input_unit_only", -- display input symbol/name (not output, and not input value)
+		["unit or text"] = "opt_input_unit_only, opt_ignore_error", -- display input symbol/name, or given unit code if not known
+		["unit2"] = "opt_output_unit_only",
+		["x"] = "x",                    -- join: <first>...<second> (user-specified text)
+	},
+	["error"] = 'TEXT',                 -- TEXT is any text that will be returned if the conversion fails, instead of an error occurring
+	["frac"] = 'INTEGER',
+	["input"] = 'TEXT',                 -- TEXT should be <value><space><unitcode> or <wikidata-property-id>
+	["lang"] = {                        -- language for output digits (both en and local digits are always accepted for input)
+		["en"] = "opt_lang_en",         -- use en digits for numbers, regardless of local language
+		["local"] = "opt_lang_local",   -- use local digits for numbers (default, although config can change default to en)
+	},
+	["lk"] = {
+		["in"] = "in",                  -- link LHS unit name or symbol
+		["off"] = "off",                -- do not link: same as default except for hand unit
+		["on"] = "on",                  -- link all unit names or symbols (but not twice for the same unit)
+		["out"] = "out",                -- link RHS unit name or symbol
+	},
+	["order"] = {
+		["flip"] = "opt_flip",          -- reverse order of input/output
+		["out"] = "opt_order_out",      -- do not show input; instead, use order in output combination, with the first output shown as the input
+	},
+	["qid"] = 'TEXT',                   -- TEXT should be a Wikidata Q item identifier
+	["qual"] = 'TEXT',                  -- TEXT should be a Wikidata Q item identifier
+	["round"] = {
+		["0.5"] = "opt_round=0.5",      -- round output value to nearest 0.5
+		["5"] = "opt_round=5",          -- round output value to nearest 5
+		["10"] = "opt_round=10",        -- round output value to nearest 10 (same as but clearer than "|-1")
+		["25"] = "opt_round=25",        -- round output value to nearest 25
+		["50"] = "opt_round=50",        -- round output value to nearest 50
+		["each"] = "opt_round_each",    -- using default precision in a range, round each output separately (default uses highest precision of each item in range)
+	},
+	["sigfig"] = 'INTEGER',
+	["sortable"] = {
+		["off"] = "",                   -- ignored (off is the default)
+		["on"] = "opt_sortable_on",     -- output sort key for use in a sortable table, based on value from converting to a standard base unit
+		["debug"] = "opt_sortable_on, opt_sortable_debug",  -- |sortable=debug is the same as |sortable=on|debug=yes
+	},
+	["sp"] = {
+		["us"] = "opt_sp_us",           -- use U.S. spelling (like "meter" instead of default "metre")
+	},
+	["spell"] = {                       -- only English spelling is supported; not scientific notation; only some fractions
+		["in"] = "opt_spell_in",        -- spell input value in words
+		["In"] = "opt_spell_in, opt_spell_upper",                -- spell input value in words with first letter uppercase
+		["on"] = "opt_spell_in, opt_spell_out",                  -- spell input and output values in words
+		["On"] = "opt_spell_in, opt_spell_out, opt_spell_upper", -- same, with first letter of first word in result uppercase
+		["us"] = "opt_sp_us",           -- use U.S. spelling; same as sp=us so spell=us also works
+	},
+	["stylein"] = 'TEXT',
+	["styleout"] = 'TEXT',
+	["tracking"] = 'TEXT',
+}
+
+local titles = {
+	["frac"] = "Fraction/styles.css",
+	["sfrac"] = "Sfrac/styles.css",
+}
+
+return {
+	SIprefixes = SIprefixes,
+	all_categories = all_categories,
+	all_messages = all_messages,
+	currency = { ['$'] = true, ['£'] = true, ['€'] = true, ['₱'] = true, ['₽'] = true, ['¥'] = true },
+	customary_units = customary_units,
+	disp_joins = disp_joins,
+	en_option_name = en_option_name,
+	en_option_value = en_option_value,
+	eng_scales = eng_scales,
+	ranges = ranges,
+	titles = titles,
+}

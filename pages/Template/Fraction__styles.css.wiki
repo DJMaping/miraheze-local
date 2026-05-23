@@ -1,0 +1,29 @@
+/* {{pp|small=y}} */
+.frac {
+	white-space: nowrap;
+}
+
+.frac .num,
+.frac .den {
+	font-size: 80%;
+	line-height: 0; /* we want this inline */
+	vertical-align: super;
+}
+
+.frac .den {
+	vertical-align: sub;
+}
+
+/* [[Template:Screen reader-only]] is canonical implementation onwiki */
+.sr-only {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	/* white-space: nowrap; /* already have nowrap above */
+}

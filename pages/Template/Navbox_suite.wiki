@@ -1,0 +1,30 @@
+{{#invoke:sidebar|sidebar
+| width = auto
+| class = skin-invert
+| bodystyle = border-spacing:0;background:#f7f7f7;padding:2px;color:inherit;
+| title = Navbox suite
+| titlestyle = padding: 0.2em 0.8em; font-size: 145%; line-height: 1.2em; background-color: #ccf;
+| contentclass = plainlist
+| contentstyle = padding:0.25em;background:#fdfdfd;
+
+| content1 =
+*{{tl|Navbox}}
+*{{tl|Navbox with collapsible groups}}
+*{{tl|Navbox with columns}}
+*{{tl|Navboxes}}
+
+| navbarstyle = background:#fdfdfd;padding:0 5px
+}}<!--
+
+  NOTE: A template MUST support all of the parameters marked with a cross in Template:Navbox/doc in order to be Navbox suite compliant.
+        In particular, the name, state, border, and navbar parameters are especially important.  
+
+--><noinclude>
+{{Documentation|content=
+Helper template for linking between main navbox templates in their documentation.
+
+[[Category:Wikipedia-internal sidebar templates]]
+[[Category:Navigational box metatemplates|Δ]]<!-- Δ for documentation ([[WP:SORTKEY]]) -->
+[[Category:Documentation see also templates]]
+}}
+</noinclude>

@@ -1,0 +1,64 @@
+'''Continue to [[Atirha]]'''
+{{Atirhran Map Labelled}}
+
+==List of states and territories==
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style=@text-align:center;@| {{flagicon|Aetintio}} || [[Aetintio]] || style=@text-align:right;@ | 25,529 || style=@text-align:right;@ | 1,405,387 || style=@text-align:right;@ | 55 || [[Elora]]
+|-
+| style=@text-align:center;@| {{flagicon|Arbiya}} || [[Arbiya]] || style=@text-align:right;@ | 551,835 || style=@text-align:right;@ | 6,585,930 || style=@text-align:right;@ | 12 || [[Kraevu]]
+|-
+| style=@text-align:center;@| {{flagicon|Curata}} || [[Curata]] || style=@text-align:right;@ | 94,754 || style=@text-align:right;@ | 4,523,613 || style=@text-align:right;@ | 48 || [[Hulong]]
+|-
+| style=@text-align:center;@| {{flagicon|Disal Nila}} || [[Disal Nila]] || style=@text-align:right;@ | 168,040 || style=@text-align:right;@ | 7,438,559 || style=@text-align:right;@ | 44 || [[Naliti]]
+|-
+| style=@text-align:center;@| {{flagicon|Etirha}} || [[Etirha]] || style=@text-align:right;@ | 1,864,826 || style=@text-align:right;@ | 74,667,447 || style=@text-align:right;@ | 40 || [[Albiran]]
+|-
+| style=@text-align:center;@| {{flagicon|Fincen}} || [[Fincen]] || style=@text-align:right;@ | 131,875 || style=@text-align:right;@ | 4,620,320 || style=@text-align:right;@ | 35 || [[Tiyomi]]
+|-
+| style=@text-align:center;@| {{flagicon|Gaeiya}} || [[Gaeiya]] || style=@text-align:right;@ | 3,518,174 || style=@text-align:right;@ | 9,533,900 || style=@text-align:right;@ | 3 || [[Tsyanka]]
+|-
+| style=@text-align:center;@| {{flagicon|Genaire}} || [[Genaire]] || style=@text-align:right;@ | 1,783,768 || style=@text-align:right;@ | 15,795,087 || style=@text-align:right;@ | 9 || [[Lishka]]
+|-
+| style=@text-align:center;@| {{flagicon|Grazail}} || [[Grazail]] || style=@text-align:right;@ | 202,209 || style=@text-align:right;@ | 3,347,590 || style=@text-align:right;@ | 17 || [[Mushira]]
+|-
+| style=@text-align:center;@| {{flagicon|Guise}} || [[Guise]] || style=@text-align:right;@ | 8,590 || style=@text-align:right;@ | 833,491 || style=@text-align:right;@ | 97 || [[Tosakaa]]
+|-
+| style=@text-align:center;@| {{flagicon|Laselteh}} || [[Laselteh]] || style=@text-align:right;@ | 1,599,030 || style=@text-align:right;@ | 6,524,522 || style=@text-align:right;@ | 4 || [[Dariya]]
+|-
+| style=@text-align:center;@| {{flagicon|lasri}} || [[lasri]] || style=@text-align:right;@ | 41,453 || style=@text-align:right;@ | 2,170,550 || style=@text-align:right;@ | 52 || [[Rukara]]
+|-
+| style=@text-align:center;@| {{flagicon|Metndria}} || [[Metndria]] || style=@text-align:right;@ | 18,341 || style=@text-align:right;@ | 635,532 || style=@text-align:right;@ | 35 || [[Hidoro]]
+|-
+| style=@text-align:center;@| {{flagicon|New Misos}} || [[New Misos]] || style=@text-align:right;@ | 1,170,921 || style=@text-align:right;@ | 53,637,198 || style=@text-align:right;@ | 46 || [[Lunava]]
+|-
+| style=@text-align:center;@| {{flagicon|Peka}} || [[Peka]] || style=@text-align:right;@ | 34,109 || style=@text-align:right;@ | 1,300,163 || style=@text-align:right;@ | 38 || [[Kerefa]]
+|-
+| style=@text-align:center;@| {{flagicon|Pelan}} || [[Pelan]] || style=@text-align:right;@ | 80,042 || style=@text-align:right;@ | 13,705,584 || style=@text-align:right;@ | 171 || [[Taoqu]]
+|-
+| style=@text-align:center;@| {{flagicon|Phuris}} || [[Phuris]] || style=@text-align:right;@ | 126,688 || style=@text-align:right;@ | 27,120,468 || style=@text-align:right;@ | 214 || [[City of Dauris]]
+|-
+| style=@text-align:center;@| {{flagicon|Raledria}} 
+| [[Raledria]] || style=@text-align:right;@ | 2,355,916 || style=@text-align:right;@ | 301,115,278 || style=@text-align:right;@ | 128 || [[Tirna]]
+|-
+| style=@text-align:center;@| {{flagicon|Slyiaduun}} 
+| [[Slyiaduun]] || style=@text-align:right;@ | 34,106 || style=@text-align:right;@ | 2,166,683 || style=@text-align:right;@ | 64 || [[Liaojin]]
+|-
+| style=@text-align:center;@| {{flagicon|Tomscilus}} || [[Tomscilus]] || style=@text-align:right;@ | 6,615 || style=@text-align:right;@ | 1,158,763 || style=@text-align:right;@ | 175 || [[Ternyu]]
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 20
+| style="text-align:right;"| 13,816,821
+| style="text-align:right;"| 538,286,065
+| style="text-align:right;"| 39
+|}
+
+[[Category:Continents]]

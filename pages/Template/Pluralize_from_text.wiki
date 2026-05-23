@@ -1,0 +1,1 @@
+{{#invoke:Detect singular|pluralize}}<noinclude>{{documentation}}</noinclude>

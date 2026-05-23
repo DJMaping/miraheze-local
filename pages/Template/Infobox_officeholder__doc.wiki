@@ -1,0 +1,2320 @@
+{{Documentation subpage}}
+{{Person infobox header}}
+{{High-use}}
+{{Notice|Please note that in June 2017, the {{para|religion}} parameter was removed from Infobox officeholder as a result of [[Template talk:Infobox officeholder/Archive 21#Religion in officeholder infoboxes|this discussion]].}}
+
+{{tl|Infobox officeholder}} is incorporated into the following templates (i.e. all the templates listed <span class="plainlinks">[{{fullurl:Special:WhatLinksHere/Template:Infobox officeholder|namespace=10&limit=1000&hidetrans=1&hidelinks=1}} here]</span>). Please use the most appropriate name when placing this template on a page.
+
+{{collapse top |title= List of templates}}
+{{refbegin|colwidth=20em}}
+* {{Tld|Infobox AM}}
+* {{Tld|Infobox Canadian MP}}
+* {{Tld|Infobox Canadian senator}}
+* {{Tld|Infobox candidate}}
+* {{Tld|Infobox civil servant}}
+* {{Tld|Infobox chancellor}}
+* {{Tld|Infobox congressional candidate}}
+* {{Tld|Infobox congressman}}
+* {{Tld|Infobox defense minister}}
+* {{Tld|Infobox deputy first minister}}
+* {{Tld|Infobox deputy prime minister}}
+* {{Tld|Infobox doge}}
+* {{Tld|Infobox Eritrea cabinet official}}
+* {{Tld|Infobox first lady}}
+* {{Tld|Infobox first minister}}
+* {{Tld|Infobox governor}}
+* {{Tld|Infobox governor-elect}}
+* {{Tld|Infobox governor general}}
+* {{Tld|Infobox governor-general}}
+* {{Tld|Infobox Indian politician}}
+* {{Tld|Infobox judge}}
+* {{Tld|Infobox lt governor}}
+* {{Tld|Infobox mayor}}
+* {{Tld|Infobox MEP}}
+* {{Tld|Infobox minister}}
+* {{Tld|Infobox MLA}}
+* {{Tld|Infobox MP}}
+* {{Tld|Infobox MSP}}
+* {{Tld|Infobox PM}}
+* {{Tld|Infobox politician}}
+* {{Tld|Infobox politician (general)}}
+* {{Tld|Infobox premier}}
+* {{Tld|Infobox president}}
+* {{Tld|Infobox president-elect}}
+* {{Tld|Infobox prime minister}}
+* {{Tld|Infobox prime minister-elect}}
+* {{Tld|Infobox representative-elect}}
+* {{Tld|Infobox SCC chief justice}}
+* {{Tld|Infobox SCC puisne justice}}
+* {{Tld|Infobox secretary-general}}
+* {{Tld|Infobox senator}}
+* {{Tld|Infobox senator-elect}}
+* {{Tld|Infobox speaker}}
+* {{Tld|Infobox state representative}}
+* {{Tld|Infobox state SC associate justice}}
+* {{Tld|Infobox state SC justice}}
+* {{Tld|Infobox state senator}}
+* {{Tld|Infobox US ambassador}}
+* {{Tld|Infobox US associate justice}}
+* {{Tld|Infobox US cabinet official}}
+* {{Tld|Infobox US chief justice}}
+* {{Tld|Infobox US territorial governor}}
+* {{Tld|Infobox vice president}}
+{{refend}}
+{{collapse bottom}}
+
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+
+==Usage==
+{{hatnote|Note: This template is for use on articles about '''individual people'''. For the infobox for use on articles about offices/positions, see [[Template:Infobox official post]].}}
+
+Paste the code for the relevant office and then add the [[#Personal data|personal data]] to the bottom. There are no required fields and some fields will not appear when others are in use. For instructions on how to implement multiple terms, see [[Template:Infobox officeholder/example#Multiple terms|this page]]. For advice on alt text, see ''[[Wikipedia:Alternative text for images]]''.
+
+The parameter {{para|order}} is used in conjunction with {{para|office}} to state that the officeholder is the ''n''th holder of the office, for example "42nd President of the United States". This should only be used when there is a well-established use of such numbering in reliable sources. Do not add numbers simply based on a Wikipedia list of holders of the office, because (1) the list may not be accurate and (2) even with a definite list, different numbering systems could be applied (as to how various categories of "irregular" officeholders should be counted, and as to the counting of those serving for multiple non-consecutive periods) making the numbers arbitrary; and even where such issues are not yet present, they are bound to be in the future, making this unsustainable. Per [[WP:SEAOFBLUE]], it is not recommended to wikilink {{para|order}} to a list of officeholders, even if such a list exists.
+
+If {{para|order}} is not specified, the value of {{para|office}} can be [[Help:Link#Wikilinks|wikilinked]] in the usual way, for example, "<code><nowiki>[[Ministry of Defence (Singapore)|Minister for Defence]]</nowiki></code>". However, if {{para|order}} is specified together with {{para|office}}, the value of {{para|office}} is automatically linked to a Wikipedia article of the same name, whether such an article exists or not. Wikilinking cannot be used to redirect the link elsewhere, but a [[Wikipedia:Piped link|piped link]] can be created like this: "<code><nowiki>Ministry of Defence (Singapore){{!}}Minister for Defence</nowiki></code>" (note that the double square brackets have been omitted).
+
+When both a start and an end term are given, you can instead specify the complete term using the parameters {{para|term}}, {{para|term2}}, etc. This can be helpful for complicated terms that cannot be given as simple starting or ending dates, or if you prefer something other than the default term separator (an en dash, with spaces around it if the start or end is not a simple integer date).
+
+Where a politician was redistricted into a new district, you can use {{para|prior_term}} to indicate which district(s) they were in before. This saves space in the infobox by not generating a completely new office each time redistricting happens. If you do this, it is recommended that you list the person who preceded the subject when the subject first took office and the person who succeeded the subject when the subject last left office. Where the use of "same district number" is used for determining "predecessor" and "successor" in any office, but where the area is so altered as to make such a "predecessor" or "successor" of little or no biographical value, the word "redistricted" should be used rather than using names of officeholders whose connection is accidental by virtue of district number, but unrelated to any election contests between officeholders.
+
+Please do not re-purpose any fields to add decorative images, icons or flags. Template:Infobox viceroy styles or the like can be used for this. [[WP:INFOBOXFLAG]] applies here.
+
+Per consensus in [[Wikipedia:Village pump (proposals)/Archive 175#RfC: Interim use of successor in Infobox officeholder|this RfC]], the infobox for an incumbent officeholder should not mention an [[-elect|elected or designated]] successor, or the end date of the term, until the successor takes office.
+
+===General office===
+{{For|examples of this code in use|Template:Infobox officeholder/example#General office}}
+{{Generic template demo
+ | honorific_prefix
+ | name<!-- defaults to article title when left blank -->
+ | native_name
+ | native_name_lang
+ | honorific_suffix
+ | image
+ | image_size
+ | image_upright
+ | image name
+ | image_name_alt
+ | smallimage
+ | smallimage_alt
+ | alt
+ | caption
+ | order
+ | office
+ | status<!--If this is specified, overrides Incumbent.-->
+ | term_start
+ | term_end<!-- Add data only when the actual term has ended, not for terms which will end in the future. (Per usage guideline.) -->
+ | subterm
+ | suboffice
+ | alongside
+ | monarch
+ | president
+ | governor_general
+ | primeminister
+ | chancellor
+ | taoiseach
+ | governor
+ | co-leader
+ | vicepresident
+ | viceprimeminister
+ | deputy
+ | lieutenant
+ | parliamentarygroup
+ | constituency
+ | majority
+ | predecessor
+ | successor
+ | prior_term
+ | order2
+ | office2
+ | term_start2
+ | term_end2
+ | subterm2
+ | suboffice2
+ | alongside2
+ | monarch2
+ | president2
+ | governor_general2
+ | primeminister2
+ | chancellor2
+ | taoiseach2
+ | governor2
+ | co-leader2
+ | vicepresident2
+ | viceprimeminister2
+ | deputy2
+ | lieutenant2Z
+ | parliamentarygroup2
+ | constituency2
+ | predecessor2
+ | successor2
+ | majority2
+ | prior_term2
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox officeholder
+ | honorific_prefix   = 
+ | name               =  <!-- defaults to article title when left blank -->
+ | native_name        =  <!--The person's name in their own language, if different.-->
+ | native_name_lang   =  <!--ISO 639-1 code, e.g., "fr" for French. If more than one, use {{lang}} in |native_name= instead.-->
+ | honorific_suffix   = 
+ | image              = 
+ | image_size         = 
+ | image_upright      = 
+ | smallimage         =  <!--If this is specified, "image" should not be.-->
+ | smallimage_alt     =
+ | alt                = 
+ | caption            = 
+ | order              = 
+ | office             = 
+ | status             =  <!--If this is specified, overrides Incumbent.-->
+ | term_start         = 
+ | term_end           =  <!-- Add data only when the actual term has ended, not for terms which will end in the future. (Per usage guideline.) -->
+ | subterm            = 
+ | suboffice          = 
+ | alongside          =  <!--For two or more people serving in the same position from the same district.  (e.g. United States senators.)-->
+ | monarch            = 
+ | president          = 
+ | governor_general   = 
+ | primeminister      = 
+ | taoiseach          = 
+ | chancellor         = 
+ | governor           = 
+ | co-leader          =
+ | vicepresident      = 
+ | viceprimeminister  = 
+ | deputy             = 
+ | lieutenant         = 
+ | succeeding         =  <!--For President-elect or equivalent-->
+ | parliamentarygroup = 
+ | constituency       = 
+ | majority           = 
+ | predecessor        = 
+ | successor          =  <!-- should not be filled until the successor takes office-->
+ | prior_term         = 
+ | order2             =  <!--Can be repeated up to 16 times by changing the number-->
+ | office2            =  <!--Can be repeated up to 16 times by changing the number-->
+ | term_start2        =  <!--Can be repeated up to 16 times by changing the number-->
+ | term_end2          =  <!--Can be repeated up to 16 times by changing the number-->
+ | subterm2           =  <!--Can be repeated up to 16 times by changing the number-->
+ | suboffice2         =  <!--Can be repeated up to 16 times by changing the number-->
+ | alongside2         =  <!--Can be repeated up to 16 times by changing the number-->
+ | monarch2           =  <!--Can be repeated up to 16 times by changing the number-->
+ | president2         =  <!--Can be repeated up to 16 times by changing the number-->
+ | governor_general2  =  <!--Can be repeated up to 16 times by changing the number-->
+ | primeminister2     =  <!--Can be repeated up to 16 times by changing the number-->
+ | chancellor2        =  <!--Can be repeated up to 16 times by changing the number-->
+ | taoiseach2         =  <!--Can be repeated up to 16 times by changing the number-->
+ | governor2          =  <!--Can be repeated up to 16 times by changing the number-->
+ | co-leader2         =  <!--Can be repeated up to 16 times by changing the number-->
+ | vicepresident2     =  <!--Can be repeated up to 16 times by changing the number-->
+ | viceprimeminister2 =  <!--Can be repeated up to 16 times by changing the number-->
+ | deputy2            =  <!--Can be repeated up to 16 times by changing the number-->
+ | lieutenant2        =  <!--Can be repeated up to 16 times by changing the number-->
+ | succeeding2        =  <!--Can be repeated up to 16 times by changing the number-->
+ | predecessor2       =  <!--Can be repeated up to 16 times by changing the number-->
+ | successor2         =  <!--Can be repeated up to 16 times by changing the number-->
+ | parliamentarygroup2=  <!--Can be repeated up to 16 times by changing the number-->
+ | constituency2      =  <!--Can be repeated up to 16 times by changing the number-->
+ | majority2          =  <!--Can be repeated up to 16 times by changing the number-->
+ | prior_term2        =  <!--Can be repeated up to 16 times by changing the number-->
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+===Ambassador===
+{{For|examples of this code in use|Template:Infobox officeholder/example#Ambassador}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | order
+ | ambassador_from
+ | country
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+ | president
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox ambassador
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | alt         = 
+ | caption     =
+ | order       =  <!--Can be repeated up to 16 times by adding a number-->
+ | ambassador_from =  <!--Can be repeated up to 16 times by adding a number-->
+ | country     =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_start  =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_end    =  <!--Can be repeated up to 16 times by adding a number-->
+ | predecessor =  <!--Can be repeated up to 16 times by adding a number-->
+ | successor   =  <!--Can be repeated up to 16 times by adding a number-->
+ | president   =  <!--Can be repeated up to 16 times by adding a number-->
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+===Assembly member===
+{{For|examples of this code in use|Template:Infobox officeholder/example#Assembly Member}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | constituency_AM
+ | assembly
+ | majority
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+ | prior_term
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox AM
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | alt         = 
+ | caption     = 
+ | constituency_AM =  <!--Can be repeated up to eight times by adding a number-->
+ | assembly    =  <!--Can be repeated up to 16 times by adding a number-->
+ | majority    =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_start  =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_end    =  <!--Can be repeated up to 16 times by adding a number-->
+ | predecessor =  <!--Can be repeated up to 16 times by adding a number-->
+ | successor   =  <!--Can be repeated up to 16 times by adding a number-->
+ | prior_term  =
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+===Governor===
+{{For|examples of this code in use|Template:Infobox officeholder/example#Governor}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | order
+ | office
+ | term_start
+ | term_end
+ | lieutenant
+ | predecessor
+ | successor
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox governor
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | alt         = 
+ | caption     =
+ | order       =  <!--Can be repeated up to 16 times by adding a number-->
+ | office      =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_start  =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_end    =  <!--Can be repeated up to 16 times by adding a number-->
+ | lieutenant  =  <!--Can be repeated up to 16 times by adding a number-->
+ | predecessor =  <!--Can be repeated up to 16 times by adding a number-->
+ | successor   =  <!--Can be repeated up to 16 times by adding a number-->
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+If Governor was appointed by a President, add:
+{{Generic template demo
+ | president
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | president   =  <!--name of president-->
+</syntaxhighlight>
+{{clear}}
+
+If Governor appointed by other, add:
+{{Generic template demo
+ | appointed
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | appointed   =  <!--name of appointer-->
+</syntaxhighlight>
+{{clear}}
+
+===Judge===
+{{For|examples of this code in use|Template:Infobox officeholder/example#Judge}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | office
+ | term_start
+ | term_end
+ | nominator
+ | appointer
+ | predecessor
+ | successor
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox judge
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | alt         = 
+ | caption     = 
+ | office      =  <!--Can be repeated up to 16 times by changing the number-->
+ | term_start  =  <!--Can be repeated up to 16 times by changing the number-->
+ | term_end    =  <!--Can be repeated up to 16 times by changing the number-->
+ | nominator   =  <!--Can be repeated up to 16 times by changing the number-->
+ | appointer   =  <!--Can be repeated up to 16 times by changing the number-->
+ | predecessor =  <!--Can be repeated up to 16 times by changing the number-->
+ | successor   =  <!--Can be repeated up to 16 times by changing the number-->
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+===Member of Parliament===
+{{For|examples of this code in use|Template:Infobox officeholder/example#Member of Parliament}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | constituency_MP
+ | parliament
+ | majority
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+ | prior_term
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox MP
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | alt         = 
+ | caption     = 
+ | constituency_MP =  <!--Can be repeated up to eight times by adding a number-->
+ | parliament  =  <!--Can be repeated up to 16 times by adding a number-->
+ | majority    =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_start  =  <!--Can be repeated up to 16 times by adding a number-->
+ | term_end    =  <!--Can be repeated up to 16 times by adding a number-->
+ | predecessor =  <!--Can be repeated up to 16 times by adding a number-->
+ | successor   =  <!--Can be repeated up to 16 times by adding a number-->
+ | prior_term  =
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+===U.S. Representatives===
+
+====U.S. Congressperson====
+{{For|examples of this code in use|Template:Infobox officeholder/example#US Congressperson}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | state
+ | district
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+ | prior_term
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox Congressman
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | alt         = 
+ | caption     =
+ | state       =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | district    =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | term_start  =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | term_end    =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | predecessor =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | successor   =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | prior_term  =
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+If Congressperson served as Speaker of the House add:
+{{Generic template demo
+ | speaker
+ | term_start2
+ | term_end2
+ | predecessor2
+ | successor2
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | speaker      =  <!--number of office holder-->
+ | term_start2  = 
+ | term_end2    = 
+ | predecessor2 = 
+ | successor2   = 
+</syntaxhighlight>
+{{clear}}
+
+If Congressman has been elected but not sworn in:
+{{Generic template demo
+ | succeeding
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | succeeding   =  <!--the name of the incumbent congressman-->
+</syntaxhighlight>
+{{clear}}
+
+====State Representative====
+{{For|examples of this code in use|Template:Infobox officeholder/example#State Representative}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | state_house
+ | district
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+ | prior_term
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox state representative
+ | honorific_prefix = 
+ | name         = 
+ | honorific_suffix = 
+ | image        = 
+ | alt          = 
+ | caption      =
+ | state_house  =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | district     =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | term_start   =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | term_end     =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | predecessor  =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | successor    =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | prior_term   =
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+For Representative from states that have an Assembly, instead of state_house use:
+{{Generic template demo
+ | state_assembly
+ | district
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | state_assembly =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | district       =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+For Representative from states that have a House of Delegates, instead of state_house use:
+{{Generic template demo
+ | state_delegate
+ | district
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | state_delegate =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | district       =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+For Representative from states that have a Legislature, instead of state_house use:
+{{Generic template demo
+ | state_legislature
+ | district
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | state_legislature =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+ | district          =  <!--Can be repeated up to 16 times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+If Representative served as Speaker of the State House add:
+{{Generic template demo
+ | speaker
+ | state_house
+ | term_start2
+ | term_end2
+ | predecessor2
+ | successor2
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | speaker      =  <!--number of office holder-->
+ | state_house  = 
+ | term_start2  = 
+ | term_end2    = 
+ | predecessor2 = 
+ | successor2   = 
+</syntaxhighlight>
+{{clear}}
+
+===U.S. Senators===
+
+====U.S. Senator====
+{{For|examples of this code in use|Template:Infobox officeholder/example#US Senator}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | image_size
+ | image_upright
+ | alt
+ | caption
+ | jr/sr
+ | state
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox senator
+ | honorific_prefix = 
+ | name        = 
+ | honorific_suffix = 
+ | image       = 
+ | image_size  = 
+ | image_upright =
+ | alt         = 
+ | caption     =
+ | jr/sr       =  <!--Can be repeated up to eight times by appending 2, 3, etc-->  Set to any value to display the "United States Senator from" header. If this parameter is missing or empty, "United States Senator from" will not be displayed.
+ | state       =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | term_start  =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | term_end    =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | predecessor =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | successor   =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+{{Generic template demo
+ | term_start
+ | alongside
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | term_start  =
+ | alongside   =  <!--the name of fellow senator-->
+</syntaxhighlight>
+{{clear}}
+
+If Senator has just been elected and is a Senator-Elect:
+{{Generic template demo
+ | succeeding
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | succeeding  =  <!--the name of the incumbent senator-->
+</syntaxhighlight>
+{{clear}}
+
+If Senator served as Senate Majority Leader add:
+{{Generic template demo
+ | majorityleader3
+ | term_start3
+ | term_end3
+ | predecessor3
+ | successor3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | majorityleader3 =  <!--number of office holder-->
+ | term_start3  =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_end3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | predecessor3 =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | successor3   =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+If Senator served as Congressman add:
+{{Generic template demo
+ | state3
+ | district3
+ | term_start3
+ | term_end3
+ | predecessor3
+ | successor3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | state3       =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | district3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_start3  =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_end3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | predecessor3 =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | successor3   =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+====State Senator====
+{{For|examples of this code in use|Template:Infobox officeholder/example#State Senator}}
+{{Generic template demo
+ | honorific_prefix
+ | name
+ | honorific_suffix
+ | image
+ | alt
+ | caption
+ | state_senate
+ | district
+ | term_start
+ | term_end
+ | predecessor
+ | successor
+ | prior_term
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox state senator
+ | honorific_prefix = 
+ | name         = 
+ | honorific_suffix = 
+ | image        = 
+ | alt          = 
+ | caption      =
+ | state_senate =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | district     =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | term_start   =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | term_end     =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | predecessor  =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | successor    =  <!--Can be repeated up to eight times by appending 2, 3, etc-->
+ | prior_term   =
+</syntaxhighlight>
+''add [[#Personal data|personal data]]''
+{{clear}}
+
+If State Senator served as Majority Leader of the State Senate add:
+{{Generic template demo
+ | majority_leader3
+ | term_start3
+ | term_end3
+ | predecessor3
+ | successor3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | majority_leader3 =  <!--number of office holder-->
+ | term_start3  =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_end3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | predecessor3 =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | successor3   =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+If State Senator served as Minority Leader of the State Senate add:
+{{Generic template demo
+ | minority_leader3
+ | term_start3
+ | term_end3
+ | predecessor3
+ | successor3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | minority_leader3 =  <!--number of office holder-->
+ | term_start3  =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_end3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | predecessor3 =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | successor3   =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+If State Senator served as Majority Floor Leader of the State Senate add:
+{{Generic template demo
+ | majority_floor_leader3
+ | term_start3
+ | term_end3
+ | predecessor3
+ | successor3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | majority_floor_leader3 =  <!--number of office holder-->
+ | term_start3  =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_end3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | predecessor3 =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | successor3   =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+If State Senator served as Minority Floor Leader of the State Senate add:
+{{Generic template demo
+ | minority_floor_leader3
+ | term_start3
+ | term_end3
+ | predecessor3
+ | successor3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | minority_floor_leader3 =  <!--number of office holder-->
+ | term_start3  =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | term_end3    =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | predecessor3 =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+ | successor3   =  <!--Can be repeated up to seven times by adding a number, start at 3-->
+</syntaxhighlight>
+{{clear}}
+
+===Ukrainian legislative office===
+{{For|examples of this code in use|Template:Infobox officeholder/example#Ukrainian legislative office}}
+
+{{Generic template demo
+| name 
+| native_name 
+| native_name_lang 
+| image 
+| caption 
+| office1
+| convocation1
+| constituency1
+| term_start1
+| term_end1
+| convocation2
+| constituency2
+| term_start2
+| term_end2
+| office3
+| convocation3
+| constituency3
+| term_start3
+| term_end3
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox Ukrainian legislative office
+| name          = 
+| native_name   = 
+| native_name_lang = 
+| image         = 
+| caption       = 
+| office1       = 
+| convocation1  = 
+| constituency1 = 
+| term_start1   = 
+| term_end1     =  
+| convocation2  = 
+| constituency2 = 
+| term_start2   =
+| term_end2     = 
+| office3       =  <!--Can be repeated up to 16 times by adding a number-->
+| convocation3  =  <!--Can be repeated up to 16 times by adding a number-->
+| constituency3 =  <!--Can be repeated up to 16 times by adding a number-->
+| term_start3   =  <!--Can be repeated up to 16 times by adding a number-->
+| term_end3     =  <!--Can be repeated up to 16 times by adding a number--> 
+</syntaxhighlight>
+
+==Personal data==
+Place this underneath the template
+{{Generic template demo
+ | pronunciation
+ | birth_name <!-- only use if different from name -->
+ | birth_date
+ | birth_place
+ | death_date
+ | death_place
+ | death_cause <!-- should only be included when the cause of death has significance for the subject's notability -->
+ | resting_place
+ | resting_place_coordinates
+ | citizenship <!-- use only when necessary per [[WP:INFONAT]] -->
+ | nationality <!-- use only when necessary per [[WP:INFONAT]] -->
+ | party
+ | otherparty
+ | height
+ | spouse <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | partner <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | relations <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | children <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | parents <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | mother <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | father <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | relatives <!--Fill only if notable (reference required) or there is a WP article on this person-->
+ | residence <!-- Only use for residences that come with the office. NOT for towns, cities, states, countries, etc. -->
+ | education
+ | alma_mater
+ | occupation
+ | profession
+ | salary
+ | known_for
+ | cabinet
+ | committees
+ | portfolio
+ | awards
+ | blank1
+ | data1
+ | blank2
+ | data2
+ | blank3
+ | data3
+ | blank4
+ | data4
+ | blank5
+ | data5
+ | signature
+ | signature_alt
+ | website
+ | nickname
+ | allegiance
+ | branch
+ | serviceyears
+ | rank
+ | unit
+ | commands
+ | battles
+ | mawards
+ | military_blank1
+ | military_data1
+ | military_blank2
+ | military_data2
+ | military_blank3
+ | military_data3
+ | military_blank4
+ | military_data4
+ | military_blank5
+ | military_data5
+ | module
+ | module2
+ | module3
+ | module4
+ | module5
+ | footnotes
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+ | pronunciation   = 
+ | birth_name      =  <!-- only use if different from name -->
+ | birth_date      =  <!-- {{Birth date and age|YYYY|MM|DD}} -->
+ | birth_place     = 
+ | death_date      =  <!-- {{Death date and age|YYYY|MM|DD|YYYY|MM|DD}} -->
+ | death_place     = 
+ | death_cause     =  <!-- should only be included when the cause of death has significance for the subject's notability -->
+ | resting_place   = 
+ | resting_place_coordinates = 
+ | citizenship     =  <!-- use only when necessary per [[WP:INFONAT]] -->
+ | nationality     =  <!-- use only when necessary per [[WP:INFONAT]] -->
+ | party           = 
+ | otherparty      =  <!--For additional political affiliations-->
+ | height          =  <!-- "X cm", "X m"  or "X ft Y in" plus optional reference (conversions are automatic) -->
+ | spouse          = 
+ | partner         =  <!--For those with a domestic partner and not married-->
+ | relations       = 
+ | children        = 
+ | parents         =  <!-- overrides mother and father parameters -->
+ | mother          =  <!-- may be used (optionally with father parameter) in place of parents parameter (displays "Parent(s)" as label) -->
+ | father          =  <!-- may be used (optionally with mother parameter) in place of parents parameter (displays "Parent(s)" as label) -->
+ | relatives       = 
+ | residence       = <!-- Only use for residences that come with the office. NOT for towns, cities, states, countries, etc. -->
+ | education       = 
+ | alma_mater      = 
+ | occupation      = 
+ | profession      = 
+ | known_for       = 
+ | salary          = 
+ | cabinet         = 
+ | committees      = 
+ | portfolio       = 
+ | awards          =  <!-- For civilian awards - appears as "Awards" if |mawards= is not set -->
+ | blank1          = 
+ | data1           = 
+ | blank2          = 
+ | data2           = 
+ | blank3          = 
+ | data3           = 
+ | blank4          = 
+ | data4           = 
+ | blank5          = 
+ | data5           = 
+ | signature       = 
+ | signature_alt   = 
+ | signature_size  =
+ | website         = 
+ | nickname        = 
+<!--Military service-->
+ | allegiance      = 
+ | branch          = 
+ | serviceyears    = 
+ | rank            = 
+ | unit            = 
+ | commands        = 
+ | battles         = 
+ | mawards         =  <!-- for military awards - appears as "Awards" if |awards= is not set -->
+ | military_blank1 = 
+ | military_data1  = 
+ | military_blank2 = 
+ | military_data2  = 
+ | military_blank3 = 
+ | military_data3  = 
+ | military_blank4 = 
+ | military_data4  = 
+ | military_blank5 = 
+ | military_data5  = 
+<!--Embedded templates / Footnotes-->
+ | module          = 
+ | module2         = 
+ | module3         = 
+ | module4         = 
+ | module5         = 
+ | footnotes       = 
+}}
+</syntaxhighlight>
+{{clear}}
+
+<code>nationality</code> is [[Wikipedia:Manual of Style/Infoboxes#Nationality and citizenship in infoboxes|not displayed]] if the corresponding country is mentioned in <code>birth_place</code>, for example <code>|birth_place = Tokyo, Japan |nationality = Japanese</code>.
+
+== Embedding other templates ==
+The ''module'' parameters (module, module2, ... module5) may used to embed other templates into this infobox (see [[Wikipedia:Infobox modules]]).
+
+<syntaxhighlight lang="wikitext" style="overflow: auto;">
+{{Infobox officeholder
+ | name = 
+ | <!-- etc. -->
+ | module = 
+  {{Infobox football biography | embed = yes
+   | <!-- etc. -->
+  }}
+}}
+</syntaxhighlight>
+
+== Embedding within a different infobox ==
+Many officeholders are known for more than just their appointments (e.g., [[Clint Eastwood]]), and hence it may be desirable to merge this infobox with another one, like {{tl|Infobox person}}.  By adding {{para|embed|yes}} to the first line of the infobox code, one can embed this infobox into another, creating the illusion of one continuous infobox. Though the process is a little complicated, it is possible to insert this infobox into most if not all other infoboxes.  For {{tl|Infobox person}}, this infobox is passed as a "module" using the {{para|module}} syntax.
+
+<syntaxhighlight lang="wikitext" style="overflow: auto">
+{{Infobox person
+ | name          = John Infobox
+ | image         = Example.jpg
+ | caption       = John Infobox in 2005
+ | birth_name    = John Officeholder Person Infobox
+ | birth_date    = {{Birth date|1950|5|25}}
+ | birth_place   = Template City
+ | death_date    = {{Death date and age|2010|10|22|1950|5|25}}
+ | occupation    = Actor
+ | years_active  = 1970–1990
+ | module        = 
+  {{Infobox officeholder | embed = yes
+   | office        = Mayor of Wikipedia
+   | term_start    = 1994
+   | term_end      = 1998
+ }}
+ | website       = {{URL|example.com}}
+}}
+</syntaxhighlight>
+
+==Microformat==
+{{UF-hcard-person}}
+
+==TemplateData==
+{{Collapse top|title=[[Wikipedia:TemplateData|TemplateData]] for this template used by [[mw:Extension:TemplateWizard|TemplateWizard]], [[Wikipedia:VisualEditor|VisualEditor]] and other tools}}
+{{TemplateData header|noheader=1}}
+<templatedata>
+{
+	"description": "An infobox for office holders",
+	"format": "{{_\n| ___________________ = _\n}}\n",
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "Commonly-known name of person (defaults to article name, without disambiguation)",
+			"type": "line",
+			"default": "PAGENAME"
+		},
+		"office": {
+			"label": "office",
+			"description": "Office held",
+			"type": "string"
+		},
+		"order": {
+			"label": "order",
+			"description": "Used in conjunction with 'office' to state that the officeholder is the nth holder of the office",
+			"type": "string"
+		},
+		"bodyclass": {
+			"label": "bodyclass",
+			"type": "string"
+		},
+		"mainwidth": {
+			"label": "mainwidth",
+			"default": "22em",
+			"type": "string"
+		},
+		"native_name": {
+			"label": "Native name",
+			"type": "string",
+			"description": "Name in the person's native language",
+			"example": "Melquíades Rafael Martínez Ruiz"
+		},
+		"native_name_lang": {
+			"label": "Native name language",
+			"type": "string",
+			"description": "Language in which the person's native name is",
+			"example": "ca"
+		},
+		"image": {
+			"label": "Image",
+			"description": "Filename for the image (e.g. 'Example.jpg').",
+			"type": "wiki-file-name",
+			"required": false
+		},
+		"width": {
+			"label": "width",
+			"type": "string",
+			"aliases": [
+				"imagesize",
+				" image_size"
+			]
+		},
+		"alt": {
+			"label": "Alternative text",
+			"description": "Alternative text for the image.",
+			"type": "line"
+		},
+		"image name": {
+			"label": "image name",
+			"type": "string"
+		},
+		"smallimage": {
+			"label": "smallimage",
+			"type": "string"
+		},
+		"caption": {
+			"label": "Image caption",
+			"description": "Caption for the image.",
+			"type": "string",
+			"required": false
+		},
+		"alongside": {
+			"label": "alongside",
+			"description": "For two or more people serving in the same position from the same district.  (e.g. United States senators.)",
+			"type": "string"
+		},
+		"ambassador_from": {
+			"label": "ambassador from",
+			"type": "string"
+		},
+		"appointer": {
+			"label": "appointer",
+			"type": "string"
+		},
+		"assembly": {
+			"label": "assembly",
+			"type": "string"
+		},
+		"chancellor": {
+			"label": "chancellor",
+			"type": "string"
+		},
+		"co-leader": {
+			"label": "co-leader",
+			"type": "string"
+		},
+		"constituency_AM": {
+			"label": "constituency AM",
+			"type": "string"
+		},
+		"constituency": {
+			"label": "constituency",
+			"type": "string"
+		},
+		"country": {
+			"label": "country",
+			"type": "string",
+			"example": "Israel"
+		},
+		"deputy": {
+			"label": "deputy",
+			"type": "string"
+		},
+		"district": {
+			"label": "district",
+			"type": "string"
+		},
+		"firstminister": {
+			"label": "first minister",
+			"type": "string"
+		},
+		"governor-general": {
+			"label": "governor-general",
+			"type": "string"
+		},
+		"leader": {
+			"label": "leader",
+			"type": "string"
+		},
+		"legislature": {
+			"label": "legislature",
+			"type": "wiki-page-name",
+			"example": "[[United States House of Representatives]]"
+		},
+		"lieutenant_governor": {
+			"label": "lieutenant governor",
+			"type": "string"
+		},
+		"lieutenant": {
+			"label": "lieutenant",
+			"type": "string"
+		},
+		"majorityleader": {
+			"label": "majority leader",
+			"type": "string"
+		},
+		"minister": {
+			"label": "minister",
+			"type": "string"
+		},
+		"minister_from": {
+			"label": "minister from",
+			"type": "string"
+		},
+		"minority_floor_leader": {
+			"label": "minority floor leader",
+			"type": "string"
+		},
+		"majority_floor_leader": {
+			"label": "majority floor leader",
+			"type": "string"
+		},
+		"minorityleader": {
+			"label": "minority leader",
+			"type": "string",
+			"example": "[[Chuck Shumer]]"
+		},
+		"monarch": {
+			"label": "monarch",
+			"type": "string"
+		},
+		"nominator": {
+			"label": "nominator",
+			"type": "string"
+		},
+		"parliament": {
+			"label": "parliament",
+			"type": "string"
+		},
+		"parliamentarygroup": {
+			"label": "parliamentary group",
+			"type": "string"
+		},
+		"predecessor": {
+			"label": "predecessor",
+			"type": "string"
+		},
+		"preceding": {
+			"label": "preceding",
+			"type": "string"
+		},
+		"preceded": {
+			"label": "preceded",
+			"type": "string"
+		},
+		"premier": {
+			"label": "premier",
+			"type": "string"
+		},
+		"president": {
+			"label": "president",
+			"type": "string"
+		},
+		"primeminister": {
+			"label": "primeminister",
+			"type": "string"
+		},
+		"riding": {
+			"label": "riding",
+			"type": "string"
+		},
+		"status": {
+			"label": "status",
+			"description": "If this is specified, overrides Incumbent.",
+			"type": "string"
+		},
+		"succeeded": {
+			"label": "succeeded",
+			"type": "string"
+		},
+		"succeeding": {
+			"label": "succeeding",
+			"description": "For President-elect or equivalent.",
+			"type": "string"
+		},
+		"successor": {
+			"label": "successor",
+			"type": "string"
+		},
+		"taoiseach": {
+			"label": "taoiseach",
+			"type": "string"
+		},
+		"term_start": {
+			"label": "term start",
+			"type": "string",
+			"description": "Date of the beginning of the person's term"
+		},
+		"term_end": {
+			"label": "term end",
+			"type": "string",
+			"description": "Date for the end of the person's term"
+		},
+		"title": {
+			"label": "title",
+			"type": "string"
+		},
+		"vicechair": {
+			"label": "vice chair",
+			"type": "string"
+		},
+		"vicegovernor": {
+			"label": "vice governor",
+			"type": "string"
+		},
+		"vicepresident": {
+			"label": "vice president",
+			"type": "string"
+		},
+		"vicepremier": {
+			"label": "vice premier",
+			"type": "string"
+		},
+		"viceprimeminister": {
+			"label": "vice prime minister",
+			"type": "string"
+		},
+		"speaker": {
+			"label": "speaker",
+			"type": "string"
+		},
+		"footnotes": {
+			"label": "footnotes",
+			"type": "string"
+		},
+		"date": {
+			"label": "date",
+			"type": "string"
+		},
+		"year": {
+			"label": "year",
+			"type": "string"
+		},
+		"source": {
+			"label": "source",
+			"type": "string"
+		},
+		"signature": {
+			"label": "signature",
+			"type": "wiki-file-name"
+		},
+		"signature_alt": {
+			"label": "signature alt text",
+			"type": "string"
+		},
+		"appointe": {
+			"label": "appointee",
+			"type": "string"
+		},
+		"alongside2": {
+			"label": "alongside 2",
+			"type": "string"
+		},
+		"peerage2": {
+			"label": "peerage 2",
+			"type": "string"
+		},
+		"ambassador_from2": {
+			"label": "ambassador from 2",
+			"type": "string"
+		},
+		"appointer2": {
+			"label": "appointer 2",
+			"type": "string"
+		},
+		"assembly2": {
+			"label": "assembly 2",
+			"type": "string"
+		},
+		"chancellor2": {
+			"label": "chancellor 2",
+			"type": "string"
+		},
+		"co-leader2": {
+			"label": "co-leader 2",
+			"type": "string"
+		},
+		"constituency_AM2": {
+			"label": "constituency AM 2",
+			"type": "string"
+		},
+		"country2": {
+			"label": "country 2",
+			"type": "string",
+			"example": "Malaya"
+		},
+		"deputy2": {
+			"label": "deputy 2",
+			"type": "string"
+		},
+		"district2": {
+			"label": "district 2",
+			"type": "string"
+		},
+		"firstminister2": {
+			"label": "first minister 2",
+			"type": "string"
+		},
+		"governor": {
+			"label": "governor",
+			"type": "string"
+		},
+		"governor-general2": {
+			"label": "governor-general 2",
+			"type": "string"
+		},
+		"governor2": {
+			"label": "governor 2",
+			"type": "string"
+		},
+		"leader2": {
+			"label": "leader 2",
+			"type": "string",
+			"example": "Donald Trump"
+		},
+		"legislature2": {
+			"label": "legislature 2",
+			"type": "wiki-page-name",
+			"example": "[[United States Senate]]"
+		},
+		"lieutenant_governor2": {
+			"label": "lieutenant governor 2",
+			"type": "string"
+		},
+		"lieutenant2": {
+			"label": "lieutenant2",
+			"type": "string"
+		},
+		"majority": {
+			"label": "majority",
+			"type": "string"
+		},
+		"majorityleader2": {
+			"label": "majority leader 2",
+			"type": "string",
+			"example": "Mitch McConnell"
+		},
+		"minister_from2": {
+			"label": "minister from 2",
+			"type": "string"
+		},
+		"minority_floor_leader2": {
+			"label": "minority floor leader 2",
+			"type": "string"
+		},
+		"majority_floor_leader2": {
+			"label": "majority floor leader 2",
+			"type": "string"
+		},
+		"majority2": {
+			"label": "majority 2",
+			"type": "string"
+		},
+		"minister2": {
+			"label": "minister 2",
+			"type": "string"
+		},
+		"minority": {
+			"label": "minority",
+			"type": "string"
+		},
+		"minorityleader2": {
+			"label": "minority leader 2",
+			"type": "string",
+			"example": "[[Chuck Shumer]]"
+		},
+		"monarch2": {
+			"label": "monarch 2",
+			"type": "string"
+		},
+		"nominator2": {
+			"label": "nominator 2",
+			"type": "string"
+		},
+		"office2": {
+			"label": "office 2",
+			"type": "string"
+		},
+		"order2": {
+			"label": "order 2",
+			"type": "string"
+		},
+		"parliament2": {
+			"label": "parliament2",
+			"type": "string"
+		},
+		"parliamentarygroup2": {
+			"label": "parliamentary group 2",
+			"type": "string"
+		},
+		"predecessor2": {
+			"label": "predecessor 2",
+			"type": "string"
+		},
+		"preceding2": {
+			"label": "preceding 2",
+			"type": "string"
+		},
+		"preceded2": {
+			"label": "preceded 2",
+			"type": "string"
+		},
+		"premier2": {
+			"label": "premier 2",
+			"type": "string"
+		},
+		"president2": {
+			"label": "president 2",
+			"type": "string"
+		},
+		"primeminister2": {
+			"label": "prime minister 2",
+			"type": "string"
+		},
+		"riding2": {
+			"label": "riding 2",
+			"type": "string"
+		},
+		"speaker_office": {
+			"label": "speaker office",
+			"type": "string"
+		},
+		"state_assembly": {
+			"label": "state assembly",
+			"type": "string"
+		},
+		"state_delegate": {
+			"label": "state delegate",
+			"type": "string"
+		},
+		"state_house": {
+			"label": "state house",
+			"type": "string"
+		},
+		"state_legislature": {
+			"label": "state legislature",
+			"type": "string"
+		},
+		"state_senate": {
+			"label": "state senate",
+			"type": "string"
+		},
+		"state": {
+			"label": "state",
+			"type": "string",
+			"description": "The state this officeholder represents or represented",
+			"example": "[[Alabama]]"
+		},
+		"term": {
+			"label": "term",
+			"type": "string"
+		},
+		"party": {
+			"label": "party",
+			"type": "string"
+		},
+		"prior_term": {
+			"label": "prior_term",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"1blankname": {
+			"label": "1blankname",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"1namedata": {
+			"label": "1namedata",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"2blankname": {
+			"label": "2blankname",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"2namedata": {
+			"label": "2namedata",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"3blankname": {
+			"label": "3blankname",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"3namedata": {
+			"label": "3namedata",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"4blankname": {
+			"label": "4blankname",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"4namedata": {
+			"label": "4namedata",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"5blankname": {
+			"label": "5blankname",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"5namedata": {
+			"label": "5namedata",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"1blankname1": {
+			"label": "1blankname1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"1namedata1": {
+			"label": "1namedata1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"2blankname1": {
+			"label": "2blankname1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"2namedata1": {
+			"label": "2namedata1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"3blankname1": {
+			"label": "3blankname1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"3namedata1": {
+			"label": "3namedata1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"4blankname1": {
+			"label": "4blankname1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"4namedata1": {
+			"label": "4namedata1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"5blankname1": {
+			"label": "5blankname1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"5namedata1": {
+			"label": "5namedata1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"alongside1": {
+			"label": "alongside1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"ambassador_from1": {
+			"label": "ambassador_from1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"appointer1": {
+			"label": "appointer1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"assembly1": {
+			"label": "assembly1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"chair1": {
+			"label": "chair1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"chancellor1": {
+			"label": "chancellor1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"co-leader1": {
+			"label": "co-leader1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"constituency_AM1": {
+			"label": "constituency_AM1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"constituency1": {
+			"label": "constituency1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"country1": {
+			"label": "country1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"deputy1": {
+			"label": "deputy1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"district1": {
+			"label": "district1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"firstminister1": {
+			"label": "firstminister1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"governor-general1": {
+			"label": "governor-general1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"governor1": {
+			"label": "governor1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"leader1": {
+			"label": "leader1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"legislature1": {
+			"label": "legislature1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"lieutenant_governor1": {
+			"label": "lieutenant governor 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"lieutenant1": {
+			"label": "lieutenant 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"minority_floor_leader1": {
+			"label": "minority floor leader 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"minister_from1": {
+			"label": "minister from 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"majority_floor_leader1": {
+			"label": "majority_floor_leader1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"majorityleader1": {
+			"label": "majorityleader1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"majority1": {
+			"label": "majority1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"minister1": {
+			"label": "minister1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"minorityleader1": {
+			"label": "minorityleader1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"monarch1": {
+			"label": "monarch1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"nominator1": {
+			"label": "nominator1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"office1": {
+			"label": "office1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"order1": {
+			"label": "order1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"parliament1": {
+			"label": "parliament1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"parliamentarygroup1": {
+			"label": "parliamentary group 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"predecessor1": {
+			"label": "predecessor1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"preceding1": {
+			"label": "preceding1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"preceded1": {
+			"label": "preceded1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"premier1": {
+			"label": "premier1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"president1": {
+			"label": "president1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"primeminister1": {
+			"label": "primeminister1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"riding1": {
+			"label": "riding 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_assembly1": {
+			"label": "state_assembly1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_delegate1": {
+			"label": "state_delegate1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_house1": {
+			"label": "state_house1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_legislature1": {
+			"label": "state_legislature1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_senate1": {
+			"label": "state_senate1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state1": {
+			"label": "state1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"succeeded1": {
+			"label": "succeeded1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"succeeding1": {
+			"label": "succeeding1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"successor1": {
+			"label": "successor1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"taoiseach1": {
+			"label": "taoiseach1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"termend1": {
+			"label": "termend1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"termstart1": {
+			"label": "termstart1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"term1": {
+			"label": "term1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"title1": {
+			"label": "title1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"vicechair1": {
+			"label": "vicechair1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"vicegovernor1": {
+			"label": "vicegovernor1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"vicepresident1": {
+			"label": "vicepresident1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"vicepremier1": {
+			"label": "vicepremier1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"viceprimeminister1": {
+			"label": "viceprimeminister1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"prior_term1": {
+			"label": "prior term 1",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"termend2": {
+			"label": "term end 2",
+			"type": "string"
+		},
+		"termstart2": {
+			"label": "term start 2",
+			"type": "string"
+		},
+		"term2": {
+			"label": "term 2",
+			"type": "string"
+		},
+		"title2": {
+			"label": "title 2",
+			"type": "string"
+		},
+		"vicechair2": {
+			"label": "vice chair 2",
+			"type": "string"
+		},
+		"vicegovernor2": {
+			"label": "vice governor 2",
+			"type": "string"
+		},
+		"vicepresident2": {
+			"label": "vice president 2",
+			"type": "string"
+		},
+		"vicepremier2": {
+			"label": "vice premier 2",
+			"type": "string"
+		},
+		"viceprimeminister2": {
+			"label": "vice prime minister 2",
+			"type": "string"
+		},
+		"succeeded2": {
+			"label": "succeeded 2",
+			"type": "string"
+		},
+		"succeeding2": {
+			"label": "succeeding 2",
+			"type": "string"
+		},
+		"successor2": {
+			"label": "successor 2",
+			"type": "string"
+		},
+		"taoiseach2": {
+			"label": "taoiseach 2",
+			"type": "string"
+		},
+		"state_assembly2": {
+			"label": "state assembly2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_delegate2": {
+			"label": "state delegate2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_house2": {
+			"label": "state house 2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_legislature2": {
+			"label": "state legislature 2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state_senate2": {
+			"label": "state senate2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"state 2": {
+			"label": "state 2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string",
+			"example": "[[Georgia (U.S. State)|Georgia]]"
+		},
+		"prior_term2": {
+			"label": "prior term 2",
+			"description": "Additional fields numbered up to 14",
+			"type": "string"
+		},
+		"birth_name": {
+			"label": "Birth name",
+			"description": "Name at birth, if different from 'name'.",
+			"type": "string",
+			"required": false,
+			"aliases": [
+				"birthname"
+			]
+		},
+		"birth_date": {
+			"label": "Birth date",
+			"description": "Date of birth. Use {{birth date and age}} (for living people) or {{birth date}} for the deceased.",
+			"type": "line",
+			"required": false
+		},
+		"birth_place": {
+			"label": "Birth place",
+			"description": "Place of birth.",
+			"type": "line"
+		},
+		"death_date": {
+			"label": "Death date",
+			"description": "Date of death. Use {{death date and age}}. Use {{death date}} if birth date unknown or incomplete.",
+			"type": "content"
+		},
+		"death_place": {
+			"label": "Death place",
+			"description": "The person's place of death, if deceased",
+			"type": "line",
+			"required": false,
+			"example": "[[Crown Heights]]"
+		},
+		"resting_place": {
+			"label": "Resting place",
+			"description": "Person's grave, etc.",
+			"type": "line",
+			"required": false
+		},
+		"resting_place_coordinates": {
+			"label": "Resting place",
+			"description": "Coordinates of grave, etc. Use {{Coord|LAT|LONG|type:landmark|display=inline}}",
+			"type": "line"
+		},
+		"citizenship": {
+			"label": "citizenship",
+			"type": "string",
+			"description": "The person's country of citizenship",
+			"example": "[[Germany]]"
+		},
+		"nationality": {
+			"label": "Nationality",
+			"description": "The person's nationality, use only when necessary per [[WP:INFONAT]]",
+			"type": "line",
+			"example": "Canadian"
+		},
+		"otherparty": {
+			"label": "other political party",
+			"type": "string"
+		},
+		"spouse": {
+			"label": "Spouse(s)",
+			"description": "Spouse(s), if notable",
+			"type": "line",
+			"required": false,
+			"aliases": [
+				"spouses"
+			]
+		},
+		"partner": {
+			"label": "Partner(s)",
+			"description": "Domestic partner(s), if notable",
+			"type": "line"
+		},
+		"relations": {
+			"label": "relations",
+			"type": "string"
+		},
+		"children": {
+			"label": "children",
+			"type": "string"
+		},
+		"parents": {
+			"label": "parents",
+			"type": "string"
+		},
+		"residence": {
+			"label": "Residence",
+			"description": "Where this person lives. Only use for residences that come with the office. NOT for towns, cities, states, countries, etc.",
+			"type": "line"
+		},
+		"alma_mater": {
+			"label": "Alma mater",
+			"description": "The linked name of attended higher education institution(s).",
+			"type": "line"
+		},
+		"occupation": {
+			"label": "occupation",
+			"description": " Please observe sentence case and capitalise only the first letter of the first item: (i.e. Politician, entrepreneur, businessman)",
+			"type": "string"
+		},
+		"profession": {
+			"label": "profession",
+			"description": " Please observe sentence case and capitalise only the first letter of the first item: (i.e. Attorney, accountant)",
+			"type": "string"
+		},
+		"cabinet": {
+			"label": "cabinet",
+			"type": "string"
+		},
+		"committees": {
+			"label": "committees",
+			"type": "string"
+		},
+		"portfolio": {
+			"label": "portfolio",
+			"type": "string"
+		},
+		"blank1": {
+			"label": "blank1",
+			"description": "Also blank2 ... blank5",
+			"type": "string"
+		},
+		"data1": {
+			"label": "data1",
+			"description": "Also data2 ... data5",
+			"type": "string"
+		},
+		"website": {
+			"label": "Official website",
+			"description": "Office holder's official website, using {{URL}}.",
+			"type": "line"
+		},
+		"nickname": {
+			"label": "nickname",
+			"type": "string"
+		},
+		"allegiance": {
+			"label": "allegiance",
+			"type": "string"
+		},
+		"branch": {
+			"label": "branch",
+			"type": "string"
+		},
+		"serviceyears": {
+			"label": "serviceyears",
+			"type": "string"
+		},
+		"rank": {
+			"label": "rank",
+			"type": "string"
+		},
+		"unit": {
+			"label": "unit",
+			"type": "string"
+		},
+		"commands": {
+			"label": "commands",
+			"type": "string"
+		},
+		"battles": {
+			"label": "battles fought",
+			"type": "string"
+		},
+		"military_blank1": {
+			"label": "military blank 1",
+			"description": "Also military_blank2 ... military_blank5",
+			"type": "string"
+		},
+		"military_data1": {
+			"label": "military data 1",
+			"description": "Also military_data2 ... military_data5",
+			"type": "string"
+		},
+		"1blankname2": {
+			"label": "1blankname2",
+			"type": "string"
+		},
+		"1namedata2": {
+			"label": "1namedata2",
+			"type": "string"
+		},
+		"2blankname2": {
+			"label": "2blankname2",
+			"type": "string"
+		},
+		"2namedata2": {
+			"label": "2namedata2",
+			"type": "string"
+		},
+		"3blankname2": {
+			"label": "3blankname2",
+			"type": "string"
+		},
+		"3namedata2": {
+			"label": "3namedata2",
+			"type": "string"
+		},
+		"4blankname2": {
+			"label": "4blankname2",
+			"type": "string"
+		},
+		"4namedata2": {
+			"label": "4namedata2",
+			"type": "string"
+		},
+		"5blankname2": {
+			"label": "5blankname2",
+			"type": "string"
+		},
+		"5namedata2": {
+			"label": "5namedata2",
+			"type": "string"
+		},
+		"pronunciation": {
+			"label": "Name pronunciation",
+			"type": "string"
+		},
+		"honorific_prefix": {
+			"label": "Honorific prefix",
+			"description": "Title such as 'The Honourable', 'His/Her Excellency'",
+			"type": "wiki-page-name",
+			"required": false,
+			"aliases": [
+				"honorific prefix"
+			]
+		},
+		"honorific_suffix": {
+			"label": "Honorific suffix",
+			"description": "Initials such as 'OBE', 'FRSA'",
+			"type": "wiki-page-name",
+			"required": false,
+			"aliases": [
+				"honorific suffix"
+			]
+		},
+		"image_size": {
+			"label": "Image size",
+			"description": "Size of the image (e.g. '220px').",
+			"type": "line",
+			"default": "varies",
+			"required": false,
+			"aliases": [
+				"imagesize"
+			]
+		},
+		"education": {
+			"label": "Education",
+			"description": "Where or with whom the officeholder trained.",
+			"type": "line",
+			"required": false
+		},
+		"awards": {
+			"label": "Awards",
+			"description": "Awards won by the officeholder. Consider using {{awd}}.",
+			"type": "line",
+			"required": false
+		},
+		"image_name_alt": {},
+		"smallname_alt": {},
+		"net_worth": {
+			"label": "DEPRECATED: Net worth",
+			"description": "Current estimated net worth, if relevant. Please be sure to support with a citation from a reliable source, in the article body.",
+			"deprecated": "DEPRECATED: Use of this parameter is discouraged. Delete it when encountered."
+		}
+	}
+}
+</templatedata>
+{{Collapse bottom}}
+
+== Tracking categories ==
+'''Hidden tracking/maintenance categories (in main and supporting templates)'''
+* {{clc|Biography template using pronunciation}}
+* {{clc|Pages using infobox officeholder with ambassador from or minister from}}
+* {{clc|Pages using infobox officeholder with both term and term_start or term_end}}
+* {{clc|Pages using infobox officeholder with office0}}
+* {{clc|Pages using infobox officeholder with speaker}}
+* {{clc|Pages using infobox officeholder with succeeding and term or termend}}
+* {{clc|Pages using infobox officeholder with unknown parameters}}
+
+== See also ==
+* [[Template:S-start]] ([[Wikipedia:WikiProject Succession Box Standardization|succession box standardization]])
+'''Supporting templates'''
+* [[Template:Infobox officeholder/office]]
+* <!-- [[Template:Infobox officeholder/Personal data]] -->
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Infobox templates|Officeholder]]
+[[Category:Politics and government infobox templates|Officeholder]]
+[[Category:People and person infobox templates|Officeholder]]
+[[Category:Infobox templates with module parameter|Officeholder]]
+[[Category:Biographical templates usable as a module|Officeholder]]
+[[Category:Templates that add a tracking category]]
+
+}}</includeonly>

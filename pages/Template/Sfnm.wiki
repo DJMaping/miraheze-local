@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Footnotes|sfnm|template=sfnm}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

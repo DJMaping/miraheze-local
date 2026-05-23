@@ -1,0 +1,8 @@
+{{ombox
+|image=[[File:Edit-copy.svg|40px|alt=|link=]]
+|text={{{text|See {{#if:{{{1|}}}|[[{{{1}}}]]|[[{{FULLPAGENAME}}/Transwiki guide]]}} for help copying this {{#if: {{{type|}}}|{{{type}}}|{{#ifeq: {{NAMESPACE}}|Template|template|{{#ifeq: {{NAMESPACE}}|Module|module|project}}}}}} and modifying it for use on another wiki.}}}
+|small={{{small|}}}
+}}<includeonly>[[Category:Transwiki guide|{{{2|{{PAGENAME}}}}}]]</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>

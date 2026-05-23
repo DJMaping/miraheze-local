@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Category link without namespace]]
+
+{{Redirect category shell|
+{{R from move}}
+}}

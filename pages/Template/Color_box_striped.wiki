@@ -1,0 +1,3 @@
+<templatestyles src="Legend/styles.css" /><span class="legend-color" style="background:repeating-linear-gradient({{{degrees|-45}}}deg, {{{1|}}} 0 {{#expr:2^{{{stripe|1}}}}}px, {{#if:{{{2|}}}|{{{2}}}|white}} 0 {{#expr:2*2^{{{stripe|1}}}}}px); border:1px solid {{{border|#000000}}}; text-align:center; color:{{#if:{{{4|}}}|{{{4}}}|{{greater color contrast ratio|{{{1|}}}{{#if:{{{2|}}}|{{!}}{{{2}}}|{{!}}white}}|black|white}}}};"> {{#if:{{{3|}}}|&nbsp;{{{3}}}&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;}}</span><noinclude>
+{{documentation}}
+</noinclude>

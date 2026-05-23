@@ -1,0 +1,26 @@
+/* {{pp-protected|small=yes}} */
+.percentage-bar {
+	position: relative;
+	border: 1px solid #aaa;
+	background-color: #fff;
+    color:inherit;
+	width: 100px;
+	max-width: 100%;
+	height: 1.5em;
+}
+
+.percentage-bar-fill {
+	position: absolute;
+	background-color: #dbdbdb;
+    color:inherit;
+	height: 1.5em;
+	width: 50%;
+}
+
+.percentage-bar-text {
+	position: absolute;
+	width: 100%;
+	height: 1.5em;
+	text-align: center;
+	color: #000;
+}

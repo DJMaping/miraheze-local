@@ -1,0 +1,56 @@
+{{Navbox
+| state = {{{state|{{{1|<includeonly>collapsed</includeonly>}}}}}}
+| title = {{c|Protection templates}}
+| image<!--left--> = <!--[[File:Padlock.svg|40px|link=|alt=]]-->
+| tracking = no <!-- keep all the documented templates out of the hlist tracking category -->
+| inner-style = table-format:fixed;
+| list1 =  <div style="overflow:auto">{{Aligned table
+            |cols=5 |style=table-format:fixed;border:1px solid #aaa;margin:0 auto<!-- 0.2em-->;
+            |colstyle=vertical-align:middle;padding-left:1.0em;<!--font-family:monospace;-->padding-right:1.0em;
+            |col1style=background:#ddf;
+<!--row#-->
+            |row1header=on |row1style=background:none;padding-bottom:0.25em;border-bottom:1px solid #bbf;
+            |style1.1=background:none;border-bottom:1px solid #bbf;
+<!--  1 --> | | Edit | Move | [[Wikipedia:Pending changes|Pending changes]] | Upload
+
+<!--  2 --> | Generic | {{tl|pp}} | {{tl|pp-move}} | {{tl|pp-pc}} | {{tl|pp-upload}}
+            |row2style=background:whitesmoke;
+
+<!--  3 --> | [[Wikipedia:Biographies of living persons|BLP]] | {{tl|pp-blp}} | – | – | –
+
+<!--  4 --> | Blocked user's talk page | {{tl|pp-usertalk}} | – | – | –
+            |row10style=background:whitesmoke;
+
+<!--  5 --> | Dispute | {{tl|pp-dispute}} | {{tl|pp-move-dispute}} | – | –
+
+<!--  6 --> | [[Wikipedia:Protection_policy#Extended_confirmed_protection|Extended confirmed protection]] | {{tl|pp-extended}} | – | – | –
+            |row4style=background:whitesmoke;
+            
+<!--  7 --> | Indefinite | {{tl|pp-semi-indef}} | {{tl|pp-move-indef}} | – | –
+
+<!--  8 --> | [[Main Page]] image | {{tl|pp-main-page}}  | – | – | –
+            |row6style=background:whitesmoke;
+
+<!--  9 --> | [[Wikipedia:Office actions|Office]] | {{tl|pp-office}} | – | – | –
+
+<!-- 10--> | [[Wikipedia:Sockpuppetry|Sockpuppetry]] | {{tl|pp-sock}} | – | – | –
+            |row8style=background:whitesmoke;
+
+<!-- 11 --> | Templates and images | {{tl|pp-template}} | – | – | {{tl|pp-upload}}
+            
+<!-- 12 --> | Vandalism | {{tl|pp-vandalism}}  | {{tl|pp-move-vandalism}} | – | –
+            |row12style=background:whitesmoke;
+
+<!-- 13 --> | Talk page | {{tl|Permanently protected}} {{tl|Temporarily protected}} | – | – | –
+           }}</div>
+
+| below = [[Module:Protection banner]]
+
+}}<noinclude>
+{{Documentation|content=
+{{Collapsible option |statename=optional |default=collapsed}}
+{{Sandbox other||
+[[Category:Documentation see also templates]]
+[[Category:Wikipedia administration templates]]
+}}}}<!--(end Documentation)-->
+</noinclude>

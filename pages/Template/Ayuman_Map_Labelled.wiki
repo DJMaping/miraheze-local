@@ -1,0 +1,29 @@
+{{Image label begin|image=Ayuman Map Labelled.png|width={{{width|1100}}}|font-size=95%|float={{{float|none}}}|link=}}
+{{Image label custom|x=540|y=230|scale=1|text=''[[:Category:North Ayuma|North<br>Ayuma]]''}}
+{{Image label custom|x=370|y=330|scale=1|text=''[[:Category:West Ayuma|West<br>Ayuma]]''}}
+{{Image label custom|x=575|y=475|scale=1|text=''[[:Category:Central Ayuma|Central Ayuma]]''}}
+{{Image label custom|x=450|y=450|scale=1|text=''[[:Category:South Ayuma|South<br>Ayuma]]''}}
+{{Image label custom|x=975|y=550|scale=1|text=''[[:Category:Mahea|Mahea]]''}}
+{{Image label custom|x=145|y=092|scale=1|text=''[[:Category:Atirha|Atirha]]''}}
+{{Image label custom|x=860|y=460|scale=1|text=''[[:Category:Acrola|Acrola]]''}}
+{{Image label custom|x=20|y=330|scale=1|text=''[[:Category:New Ayre|New<br>Ayre]]''}}
+
+{{Image label custom|x=650|y=360|scale=1|text=[[Valmiran Mountains|Valmiran<br>Mountains]]}}
+{{Image label custom|x=700|y=555|scale=1|text=[[Moksha Mountains|Moksha<br>Mountains]]}}
+{{Image label custom|x=530|y=505|scale=1|text=[[Samarran Mountains|Samarran<br>Mountains]]}}
+{{Image label custom|x=425|y=300|scale=1|text=[[Amnant Mountains|Amnant<br>Mountains]]}}
+{{Image label custom|x=610|y=495|scale=1|text=[[Alzuria (region)|Alzuria]]}}
+{{Image label custom|x=355|y=500|scale=1|text=[[Emaran Peninsula|Emaran<br>Peninsula]]}}
+{{Image label custom|x=520|y=370|scale=1|text=[[Taiylsh Desert]]}}
+{{Image label custom|x=415|y=420|scale=1|text=[[Lake Arn De Mon]]}}
+{{Image label custom|x=500|y=140|scale=1|text=[[Lake Keetsuc]]}}
+{{Image label custom|x=680|y=170|scale=1|text=[[Crisqui]]}}
+{{Image label custom|x=540|y=310|scale=1|text=[[Untschalle]]}}
+{{Image label custom|x=540|y=170|scale=1|text=[[Raveria]]}}
+
+{{Image label custom|x=575|y=425|scale=1|text=[[Tusil River]]}}
+{{Image label custom|x=390|y=450|scale=1|text=[[Elishara River|Elishara<br>River]]}}
+{{Image label custom|x=370|y=385|scale=1|text=[[Ryska River]]}}
+{{Image label custom|x=440|y=230|scale=1|text=[[Blue River]]}}
+
+{{Image label end}}</center>

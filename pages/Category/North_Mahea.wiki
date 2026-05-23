@@ -1,0 +1,30 @@
+==List of states and territories==
+'''Continue to [[North Mahea]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Inania}} || [[Inania]] || style="text-align:right;" | 2,964,408 || style="text-align:right;" | 236,475,569 || style="text-align:right;" | 80 || [[Fashti]]
+|-
+| style="text-align:center;"| {{flagicon|Lieri}} || [[Lieri]] || style="text-align:right;" | 588,468 || style="text-align:right;" | 36,478,307 || style="text-align:right;" | 62 || [[Nabruik]]
+|-
+| style="text-align:center;"| {{flagicon|Ozinia}} || [[Ozinia]] || style="text-align:right;" | 197,284 || style="text-align:right;" | 7,898,975 || style="text-align:right;" | 40 || [[Nuswi]]
+|-
+| style="text-align:center;"| {{flagicon|Pelugrotoa}} || [[Pelugrotoa]] || style="text-align:right;" | 2,581,890 || style="text-align:right;" | 347,520,587 || style="text-align:right;" | 135 || [[Thavrin]]
+|-
+| style="text-align:center;"| {{flagicon|Rtesania}} || [[Rtesania]] || style="text-align:right;" | 214,130 || style="text-align:right;" | 9,975,075 || style="text-align:right;" | 47 || [[Bardin]]
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 6,546,180
+| style="text-align:right;"| 638,348,513
+| style="text-align:right;"| 98
+|}
+
+[[Category:Mahea]]
+[[Category:Mahean Regions]]

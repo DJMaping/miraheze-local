@@ -1,0 +1,41 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Brazil
+| flag alias-1692 = Flag of the Princes of Brazil.svg
+| flag alias-1816 = Flag of the United Kingdom of Portugal, Brazil, and the Algarves.svg
+| flag alias-1822 = Flag of Brazil (1822-1853).svg
+| flag alias-1870 = Flag of Brazil (1853-1889).svg
+| flag alias = Flag of Brazil.svg
+| flag alias-1889 = Flag of Brazil (1889–1960).svg
+| flag alias-1960 = Flag of Brazil (1960–1968).svg
+| flag alias-1968 = Flag of Brazil (1968–1992).svg
+| flag alias-army = Flag of the Brazilian Army.svg
+| link alias-army = Brazilian Army
+| flag alias-air force = Flag of the Brazilian Air Force Command.svg
+| link alias-air force = Brazilian Air Force
+| link alias-naval = Brazilian Navy
+| flag alias-marines=Flag of the Brazilian Marine Corps.svg
+| link alias-marines=Brazilian Marine Corps
+| link alias-military = Brazilian Armed Forces
+| link alias-navy = Brazilian Navy
+| flag alias-navy = Flag of the Brazilian Navy.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1692
+| var2 = 1816
+| var3 = 1822
+| var4 = 1870
+| var5 = 1889
+| var6 = 1960
+| var7 = 1968
+| redir1 = BRA
+| redir2 = Federative Republic of Brazil
+| related1 = Empire of Brazil
+| related2 = Brazilian military government
+| related3 = First Brazilian Republic
+| related4 = Second Brazilian Republic
+| related5 = Vargas Era
+</noinclude>
+}}

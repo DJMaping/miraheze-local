@@ -1,0 +1,8 @@
+{{#invoke:Footnotes|harvard_citation
+|page_sep = :
+|pages_sep = :
+|template=harvcolnb
+}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

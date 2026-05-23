@@ -1,0 +1,94 @@
+/* {{pp|small=yes}} */
+.locmap .od {
+	position: absolute;
+}
+
+.locmap .id {
+	position: absolute;
+	line-height: 0;
+}
+
+.locmap .l0 {
+	font-size: 0;
+	position: absolute;
+}
+
+.locmap .pv {
+	line-height: 110%;
+	position: absolute;
+	text-align: center;
+}
+
+.locmap .pl {
+	line-height: 110%;
+	position: absolute;
+	top: -0.75em;
+	text-align: right;
+}
+
+.locmap .pr {
+	line-height: 110%;
+	position: absolute;
+	top: -0.75em;
+	text-align: left;
+}
+
+.locmap .pv > div {
+	display: inline;
+	padding: 1px;
+}
+
+.locmap .pl > div {
+	display: inline; /* inline does not impact floated elements */
+	padding: 1px;
+	float: right;
+}
+
+.locmap .pr > div {
+	display: inline; /* inline does not impact floated elements */
+	padding: 1px;
+	float: left;
+}
+
+/* Dark mode theme: */
+
+@media screen {
+	html.skin-theme-clientpref-night .od,
+	html.skin-theme-clientpref-night .od .pv > div,
+	html.skin-theme-clientpref-night .od .pl > div,
+	html.skin-theme-clientpref-night .od .pr > div {
+		/* Use !important to override any infobox rules */
+		background: #fff !important;
+		color: #000 !important;
+	}
+
+	html.skin-theme-clientpref-night .locmap img {
+		filter: grayscale(0.6);
+	}
+
+	/* Special handling for maps inside infoboxes
+	 * [[Module talk:Location map#Map label background bug in dark mode]]
+	 */
+	html.skin-theme-clientpref-night .infobox-full-data .locmap div {
+		background: transparent !important;
+	}
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .locmap img {
+		filter: grayscale(0.6);
+	}
+	
+	html.skin-theme-clientpref-os .od,
+	html.skin-theme-clientpref-os .od .pv > div,
+	html.skin-theme-clientpref-os .od .pl > div,
+	html.skin-theme-clientpref-os .od .pr > div {
+		/* Use !important to override any infobox rules */
+		background: white !important;
+		color: #000 !important;
+	}
+
+	html.skin-theme-clientpref-os .infobox-full-data .locmap div {
+		background: transparent !important;
+	}
+}

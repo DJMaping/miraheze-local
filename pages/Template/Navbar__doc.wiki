@@ -1,0 +1,160 @@
+{{documentation subpage}}
+{{#ifeq:{{BASEPAGENAME}}|Navbar|{{used in system}}}}
+{{lua|Module:Navbar}}{{#ifeq:{{BASEPAGENAME}}|VTE|{{tsh|V}}}}
+
+{{tlx|Navbar}} provides a small "view&nbsp;'''&middot;'''&nbsp;talk&nbsp;'''&middot;'''&nbsp;edit" navigation bar. It is primarily used for content-heavy templates and other transcluded content blocks, so that the content inside the template or block is more easily editable {{lang|la|in situ}} where it was found, without having track it down through examining transclusion code.  {{tnull|Navbar}}'s extremely high use rate and consequent protection level are because it is integrated as a feature into numerous [[WP:NAVBOX|navigation box]] and [[WP:INFOBOX|infobox]] templates used in millions of articles. It is also a regular feature of many internal-use templates and tables of the Wikipedia, Help, and Template [[WP:NAMESPACE|namespaces]].
+
+==Usage==
+===General===
+When one of the following examples is placed inside a given [[Wikipedia:Navigation templates|template]] (or block of content used for [[Wikipedia:Transclusion#Selective transclusion|selective transclusion]]), it adds basic navbar navigational functionality:
+:<syntaxhighlight lang="wikitext" inline>{{navbar|{{subst:PAGENAME}}|mini=y}}</syntaxhighlight>
+:<syntaxhighlight lang="wikitext" inline>{{navbar|{{subst:PAGENAME}}|plain=y}}</syntaxhighlight>
+:<syntaxhighlight lang="wikitext" inline>{{navbar|{{subst:PAGENAME}}|fontstyle=color: green; font-style: italic;}}</syntaxhighlight>
+
+The <syntaxhighlight lang="wikitext" inline>{{subst:PAGENAME}}</syntaxhighlight> will be [[WP:SUBST|substituted]] with the page name of the real location of the content when parsed by the servers. For example, <syntaxhighlight lang="wikitext" inline>{{navbar|Navbar/doc}}</syntaxhighlight> gives:<br />{{navbar|Navbar/doc}}
+
+If the page is moved or renamed the substituted text will need to be updated accordingly. Alternatively, you can use <code>{{mfl|params|self}}</code> instead of <syntaxhighlight lang="wikitext" inline>{{subst:PAGENAME}}</syntaxhighlight> to keep track of the current location of the transcluded page:
+
+: <syntaxhighlight lang="wikitext" inline>{{navbar|{{#invoke:params|self}}|mini=...|plain=...|...}}</syntaxhighlight>
+
+When used in content that is selectively transcluded but which is also used as-is in its original location, this template should be wrapped in {{xtag|includeonly|p}} markup, so that it only appears when transcluded.
+
+===Font size and weight ===
+The font-size is 88% when used in a topical navbar template or in plain text, and 100% when nested in a navbox or infobox (because those templates' text size is already reduced; the "100%" is relative to the surrounding template's own content, not that of the entire page). The {{para|fontstyle}} parameter can be used to adjust the font size as needed (e.g. to reduce font size even more when the template is used inside a block element with a large font size). Do not abuse this to make excessively small text (i.e. less than 85% of the normal page text), since that causes [[MOS:SMALLTEXT|accessibility problems]] for many readers.
+
+In a topical navbar, the weight is "normal"; when nested in a navbox or infobox, it inherits the style of the surrounding content. The middot bullets are bold for better visibility.
+
+=== Block level element ===
+The template generates block-level markup with {{tag|div}} tags, and therefore, any surrounding markup cannot include {{tag|span}} tags, which would cause a [[Special:LintErrors/misc-tidy-replacement-issues|div-span-flip]] lint error.
+
+==Examples==
+===Required parameters===
+*<code><nowiki>{{navbar|Template Name}}</nowiki></code> – the template name is required.
+
+===Optional parameters===
+{| class="wikitable"
+! Options !! Parameters !! Produces... !! "Shortcut" template
+|-
+| Basic || <code><nowiki>{{navbar|Template Name}}</nowiki></code> || {{navbar|Navbar/doc}} ||
+|-
+| Different text || <code><nowiki>{{navbar|Template Name|</nowiki>'''text'''<nowiki>=This template:}}</nowiki></code> || {{navbar|Navbar/doc|text=This template:}} ||
+|-
+| Without "This box:" text || <code><nowiki>{{navbar|Template Name|</nowiki>'''plain'''<nowiki>=y}}</nowiki></code> || {{navbar|Navbar/doc|plain=y}} || {{tl|view}}
+|-
+| Short version || <code><nowiki>{{navbar|Template Name|</nowiki>'''mini'''<nowiki>=y}}</nowiki></code> || {{navbar|Navbar/doc|mini=y}} || {{tl|v}}
+|-
+| With brackets || <code><nowiki>{{navbar|Template Name|</nowiki>'''brackets'''<nowiki>=y}}</nowiki></code> || {{navbar|Navbar/doc|brackets=y}} ||
+|-
+| With font styling examples ([[Span and div|span]]) || <code><nowiki>{{navbar|Template Name|</nowiki>'''fontstyle'''<nowiki>=color: green; font-style: italic;}}</nowiki></code> || {{navbar|Navbar/doc|fontstyle=color: green; font-style: italic;}} ||
+|-
+| With whole-template styling examples ([[Span and div|div]]) || <code><nowiki>{{navbar|Template Name|</nowiki>'''style'''<nowiki>=float:right; background: Beige; padding: 5px; border: 1px solid;}}</nowiki></code> || {{navbar|Navbar/doc|style=float:right; background: Beige; padding: 5px; border: 1px solid;}} ||
+|-
+| History, move, and watchlist links || <code><nowiki>{{navbar|template=Template Name|e|t|h|m|w}}</nowiki></code> || {{navbar|template=Navbar/doc|e|t|h|m|w}}
+|}
+Note that to show the history, move, and watchlist links, {{para|template}} needs to be set to the template value specifically. Individual values can be left out of this list, e.g. <code><nowiki>{{navbar|template=Template Name|h|m|w}}</nowiki></code> will only show the view, history, move, and watchlist links.
+
+===Shortcut templates ===
+The <code>mini=y</code> and <code>plain=y</code> parameters can be avoided by using the {{tlx|v}} or {{tlx|view}} templates, respectively, instead.
+
+{{tl|view}} and {{tl|v}} also support changing the shown links, for example only view and edit, or only view and talk:
+
+{| class="wikitable"
+|-
+! Code
+! Result
+|-
+|{{demo|br=<td>|<nowiki>{{view|template=view/doc}}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{view|template=view/doc|talk}}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{view|template=view/doc|talk|edit}}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{v|template=v/doc}}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{v|template=v/doc|t}}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{v|template=v/doc|t|e}}</nowiki>}}
+|}
+
+==Notes==
+Navbar is contained within a {{tag|div}} in order to accommodate a horizontal unnumbered list. This means it cannot be placed inside a {{tag|span}} or other inline element, because the [[HTML Tidy]] extension will 'fix' situations where it finds block elements inside inline elements.
+
+==Prepackaged==
+;{{tl|Navbar-header}}: Positions {{navbar|Navbar/doc|mini=1}} on the right edge of the line, often used in non-collapsible navbox heading.
+;{{tl|Navbar-collapsible}}: For use in conjunction with [[Help:Collapsing|collapsible tables]], floats {{navbar|Navbar/doc|mini=1}} opposite of the [hide]/[show] feature.
+
+==See also==
+{{Edit templates}}
+
+Other [[:Category:Internal link templates|internal link templates]], including:
+*{{tl|Talk}} – plain talk link
+*{{tl|Watch}} – plain link that adds the page to your [[Help:Watchlist|watchlist]] 
+*{{tl|Subscribe}} – plain link that adds the page to your [[Special:TopicSubscriptions|subscriptions]]
+*[[:Category:Internal template-link templates]]
+
+{{Navigation templates}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+        "description": "When placed inside a given template, it adds navbar navigational functionality",
+        "params": {
+                "1": {
+                        "label": "Template Name",
+                        "description": "The name of the template, so links work correctly",
+                        "type": "string",
+                        "default": "",
+                        "required": true
+                },
+                "text": {
+                        "label": "Different text",
+                        "description": "Allows custom text to replace the default 'this box'",
+                        "type": "string",
+                        "default": "This box",
+                        "required": false
+                             },
+                "plain": {
+                        "label": "Without 'This box:' text",
+                        "description": "Removes 'This box'",
+                        "type": "number",
+                        "default": "0",
+                        "required": false
+
+                },
+                "mini": {
+                        "label": "Short Version",
+                        "description": "Shortens text to V T E",
+                        "type": "number",
+                        "default": "0",
+                        "required": false
+                },
+                "brackets": {
+                        "label": "with brackets",
+                        "description": "adds brackets before and after the links",
+                        "type": "number",
+                        "default": "0",
+                        "required": false
+                },
+                "fontstyle": {
+                        "label": "Font color",
+                        "description": "Allows you to change the color of the font (in the format color:green)",
+                        "type": "string",
+                        "default": "",
+                        "required": false
+                },
+                "style": {
+                        "label": "To float to the side",
+                        "description": "Allows the template to float to the side (format=float:right)",
+                        "type": "string",
+                        "default": "float:left",
+                        "required": false
+
+                 }
+        }
+}
+</templatedata><!---
+   PLEASE ADD METADATA TO THE <includeonly> SECTION HERE
+---><includeonly>{{Sandbox other||
+[[Category:Internal link templates]]
+}}</includeonly>

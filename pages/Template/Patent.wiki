@@ -1,0 +1,10 @@
+<includeonly>{{Cite patent
+    |1={{{1|US}}}
+    |2={{{2|0}}}
+    |3={{#ifeq:{{{3}}}|application|application}}
+}}{{#ifeq:{{{3}}}|application
+    |{{#if:{{{4|}}}|&#32;{{{4}}}}}
+    |{{#if:{{{3|}}}|&#32;{{{3}}}}}
+}}</includeonly><noinclude>
+{{Documentation}} 
+</noinclude>

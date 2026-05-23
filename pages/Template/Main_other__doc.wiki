@@ -1,0 +1,72 @@
+{{Documentation subpage}}
+{{used in system}}
+{{cascade-protected template}}
+{{Template shortcut|ns0|mo|ao}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+
+This is the {{tl|main other}} meta-template.
+
+This template helps other templates detect if they are on a main space (article) page or some "other" type of page.
+
+===Basic usage===
+This template usually takes two parameters, like this:
+: {{Tlc|main other&#32;|{{var|result if in mainspace}}&#32;|{{var|result if elsewhere}}}}
+
+If the template is on a main space (article) page, it will return this:
+: {{main other |demospace=main |{{var|result if in mainspace}} |{{var|result if elsewhere}} }}
+
+If the template is on any other page, it will return this:
+: {{main other |{{var|result if in mainspace}} |{{var|result if elsewhere}} }}
+
+A typical usage case would be to warn that a template should not be used on non-article pages:
+: {{Tlc|main other&#32;|&#32;|This template should only be used in articles.}}
+or vice versa:
+: {{Tlc|main other&#32;|This template should not be used in articles.|&#32;}}
+
+Note that in the first case above the "main" parameter was not used, and in the second example the "other" parameter was left empty.
+
+===Demospace===
+For testing and demonstration purposes, this template can take a parameter named '''demospace'''.
+* If it has the value '''main''' it returns the article text.
+* It if has the value '''other''' or any other value such as the name of some other namespace it returns the other pages text.
+* If the parameter is empty or undefined, the actual page type determines the result.
+
+Like this:
+: {{tlc|main other&#32;|{{var|result if in mainspace}}&#32;|{{var|result if elsewhere}}&#32;|demospace{{=}}main}}
+
+No matter on what kind of page the code above is used, it will return: {{main other |{{var|result if in mainspace}} |{{var|result if elsewhere}} |demospace=main}}
+
+You can make it so your template also understands the '''demospace''' parameter. That means you can demonstrate the different appearances of your template in the documentation for your template:
+: {{tlc|main other&#32;|{{var|result if in mainspace}}&#32;|{{var|result if elsewhere}}&#32;|<nowiki>demospace={{{demospace|}}}</nowiki>&#32;}}
+
+===Technical details===
+This template detects article "Talk:" pages as type '''other'''.
+
+This template works like {{tl|main talk other}}. For more examples and technical details, see the documentation there.
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "If mainspace",
+			"description": "Content if page is located in mainspace (i.e. article space)",
+			"type": "content"
+		},
+		"2": {
+			"label": "If not mainspace",
+			"description": "Content if page is not located in mainspace",
+			"type": "content"
+		}
+	}
+}
+</templatedata>
+
+===Redirects===
+* {{tl|article only}}
+* {{tl|article other}}
+
+{{Namespace and pagename-detecting templates}}
+
+<includeonly>{{Sandbox other||
+[[Category:If-namespace-then-else templates]]
+}}</includeonly>

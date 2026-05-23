@@ -1,0 +1,48 @@
+/* {{pp-template}} */
+.refbegin {
+	margin-bottom: 0.5em;
+}
+
+.refbegin-hanging-indents > ul {
+	margin-left: 0;
+}
+
+.refbegin-hanging-indents > ul > li {
+	margin-left: 0;
+	padding-left: 3.2em;
+	text-indent: -3.2em;
+}
+
+.refbegin-hanging-indents ul,
+.refbegin-hanging-indents ul li {
+	list-style: none;
+}
+
+@media (max-width: 720px) {
+	.refbegin-hanging-indents > ul > li {
+		padding-left: 1.6em;
+		text-indent: -1.6em;
+	}
+}
+
+.refbegin-columns {
+	margin-top: 0.3em;
+}
+
+/* Reset top margin for lists embedded in columns */
+.refbegin-columns ul {
+	margin-top: 0;
+}
+
+/* Avoid elements breaking between columns */
+.refbegin-columns li {
+	page-break-inside: avoid; /* Removed from CSS in favor of break-inside c. 2020 */
+	break-inside: avoid-column;
+}
+
+/* make font smaller only on a display */
+@media screen {
+	.refbegin {
+		font-size: 90%;
+	}
+}

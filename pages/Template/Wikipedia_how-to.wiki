@@ -1,0 +1,20 @@
+{{ombox
+| type       = notice
+| style = {{#if:{{{style|}}} |margin:0 auto;width:80%;{{{style}}} }}
+| image      = [[File:Twemoji 1f527.svg|30x30px|link=|alt=]]
+| imageright = {{#if:{{{shortcut|{{{shortcut1|{{{sc1|{{{1<includeonly>|</includeonly>}}}}}}}}}}}} |{{Shortcut|{{{shortcut|{{{shortcut1|{{{sc1|{{{1}}}}}}}}}}}}|{{{shortcut2|{{{sc2|{{{2|}}}}}}}}}||{{{shortcut3|{{{sc3|{{{3|}}}}}}}}}|{{{shortcut4|{{{sc4|{{{4|}}}}}}}}}||{{{shortcut5|{{{sc5|{{{5|}}}}}}}}}<noinclude>|category=no</noinclude>}} }}
+| text       = <div style="padding-top: 6px; padding-bottom: 5px;">'''This help page is a [[Wikipedia:Project namespace#Wikipedia how-to and information pages|how-to guide]].'''<br><div style="font-size: 90%;">It explains concepts or processes used <!--
+  -->{{#if:{{{page|{{{pages|{{{interprets|}}}}}}}}}
+      | <!--doesn't handle multiple items--> {{#ifexist:{{{page|{{{pages|{{{interprets}}}}}}}}} |[[{{{page|{{{pages|{{{interprets}}}}}}}}}]] |{{{page|{{{pages|{{{interprets}}}}}}}}}}}
+      | by the Wikipedia community.
+     }} It is not one of [[Wikipedia:Policies and guidelines|Wikipedia's policies or guidelines]], and may reflect varying levels of [[Wikipedia:Consensus|consensus]].</div></div>
+}}{{#if: {{{nocat|{{{demo|}}}}}}||<includeonly>{{Namespace detect
+                | wikipedia = {{{category|[[Category:Wikipedia how-to|{{#if:{{{sort-by|}}}|{{{sort-by}}}|{{PAGENAME}}}}]]}}}
+                | help      = {{{category|[[Category:Wikipedia how-to|{{#if:{{{sort-by|}}}|{{{sort-by}}}|{{PAGENAME}}}}]]}}}
+                | user      = [[Category:User essays]]{{{category|}}}
+                }}
+               </includeonly>}}<noinclude>
+{{Documentation|content=
+{{Information page/doc |howto=y}}
+}}
+</noinclude>

@@ -1,0 +1,18 @@
+<includeonly>{{civil navigation 
+|name = {{{name|}}}
+| above      = {{br separated entries|{{{above|}}}|{{#if:{{{partof|}}}|Part of {{{partof}}}}}}}
+|state = {{{state|}}}
+|style = float:right; clear:right; margin:0.2em 0 0.2em 0.5em; width:{{{width|300px}}}; display:table;
+|titlestyle = background-color: #CEE0F2; color:inherit;
+|border = {{{border|}}}
+|title = <span style="line-height:1.6em">{{#if:{{{title|}}}|{{{title}}}|{{{name}}}}}</span>
+|abovestyle = background-color: #eeeeee; color:inherit; vertical-align: middle
+|belowstyle = background-color: #eeeeee; color:inherit; vertical-align: middle; {{box-shadow border|t|#aaa|1px}}
+|belowclass = {{{belowclass|}}}
+|bodyclass = {{{bodyclass|}}}
+|listclass = {{{listclass|}}}
+|list1 = {{{events|}}}
+|below = {{{notes|}}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

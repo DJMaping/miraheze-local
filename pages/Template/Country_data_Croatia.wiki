@@ -1,0 +1,29 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Croatia
+| flag alias = Flag of Croatia.svg
+| flag alias-civil = Civil Ensign of Croatia.svg
+| flag alias-1990 = Flag of Croatia (1990).svg
+| flag alias-naval = Naval ensign of Croatia.svg
+| link alias-naval = Croatian Navy
+| flag alias-air force = Flag of the Croatian Air Force.svg
+| link alias-air force = Croatian Air Force
+| link alias-military = Armed Forces of Croatia
+| flag alias-army = Flag of Croatian Army.svg 
+| link alias-army = Croatian Army
+| flag alias-navy = Naval ensign of Croatia.svg
+| link alias-navy = Croatian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| var2 = 1990
+| redir1 = HRV
+| redir2 = CRO
+| related1 = Independent State of Croatia
+| related2 = SR Croatia
+| related3 = PR Croatia
+| related4 = Kingdom of Croatia (Habsburg)
+</noinclude>
+}}

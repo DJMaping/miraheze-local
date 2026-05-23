@@ -1,0 +1,109 @@
+<includeonly><!-- 
+ -->{{#switch: {{{align|}}} 
+       | center | centre = <!-- div1 --><div class = "center"> 
+    }}<!-- 
+div2 --><div class= "thumb <!-- 
+ -->{{#switch: {{{align|}}} 
+        | right  | #default      = tright 
+        | left                   = tleft 
+        | center | centre | none = tnone
+    }}" style = "<!-- 
+ -->{{#ifeq: {{{mode|}}} 
+        | scrollable
+        | style = overflow: hidden; <!-- 
+        -->{{#if:{{{max-width|}}}
+                | {{#ifeq: {{{border|}}} 
+                    | no 
+                    | max-width: {{#expr:{{{max-width}}}+8}}px;
+                    | max-width: {{#expr:{{{max-width}}}+10}}px;
+                  }}
+                | {{#if:{{{width|}}}|
+                      {{#ifeq: {{{border|}}} 
+                          | no 
+                          | width: {{#expr:{{{width|}}}+8}}px;
+                          | width: {{#expr:{{{width|}}}+10}}px;
+                       }}
+                      | width: {{{width|auto}}};
+                  }}
+             }} {{{style|}}}"
+    <!-- | style = "{{{style|}}}" DUPLICATE, BUT WHY? -->
+     }}><!-- div3
+ --><div class = "thumbinner" <!-- 
+ -->{{#ifeq: {{{mode|}}} 
+        | scrollable
+        |
+        | style = "width: {{#if: {{{width|}}}
+                              | {{#ifeq: {{{border|}}} 
+                                    | no 
+                                    | {{{width}}}px;
+                                    | {{#expr:{{{width}}}+2}}px;
+                                 }}
+                              |<!-- -moz-fit-content LONG DEPRECATED --> fit-content;
+                          }}"
+     }}><!-- 
+  -->{{#ifeq: {{{pos|}}} 
+         | top 
+         | <!-- [[ div4 --><div class = "thumbcaption" ><!-- 
+          -->{{#if: {{{link|}}} 
+                 | {{align|right|{{{linkoverride|[[File:Information icon4.svg|16px|link={{{link}}}<!-- 
+                  -->{{#if: {{{link_text|}}} 
+                         | {{!}}{{{link_text}}}
+                     }}]]}}}}} 
+              }}{{{caption|}}}<!-- 
+        --><!-- div4 ]] --></div> 
+      }}<!-- 
+   --><!-- div5 --><div class="<!-- 
+   -->{{#ifeq: {{{border|}}} 
+         | no 
+         | {{#ifeq: {{{mode|}}} 
+               | scrollable
+               |
+               | center
+            }} 
+         | thumbimage 
+       }} noresize" style="width: {{#if:{{{width|}}}
+                                      | {{{width}}}px
+                                      | auto 
+                                   }};<!-- 
+ -->{{#ifeq: {{#lc:{{{mode|}}}}}
+        | scrollable
+        | overflow: auto;<!-- 
+         -->{{#ifeq:{{#lc:{{{dir|}}}}}
+                | rtl
+                | direction: rtl;
+            }}
+    }} {{{innerstyle|}}}"><!-- 
+ -->{{#ifeq: {{#lc:{{{mode|}}}}}
+        | scrollable
+        | {{#ifeq: {{#lc:{{{nowrap|}}}}}
+              | yes
+              | <!-- div6 --><div class="nowrap">
+           }}
+     }}
+{{{content}}} {{#ifeq: {{#lc:{{{mode|}}}}}
+                 | scrollable
+                 | {{#ifeq: {{#lc:{{{nowrap|}}}}}
+                      | yes 
+                      | <!-- div6 ]] --></div>
+                   }}
+               }}<!-- div5 ]] --></div><!-- 
+ -->{{#ifeq: {{{pos|}}} 
+        | top 
+        |
+        | {{#if:{{{caption|}}}
+              |<!-- div7 --><div class = "thumbcaption"><!-- 
+           -->{{#if: {{{link|}}} 
+                  | {{align|right|{{{linkoverride|[[File:Information icon4.svg|16px|link={{{link}}}<!-- 
+                   -->{{#if: {{{link_text|}}} 
+                          | {{!}}{{{link_text}}}
+                      }}]]}}}}} 
+              }}{{{caption|}}}<!-- div7 ]] --></div>
+           }} 
+     }}<!-- div3 ]] --></div><!-- div2 ]] --></div><!-- 
+ -->{{#switch: {{{align|}}} 
+        | center | centre = <!-- div1 ]] --></div> 
+     }}</includeonly><!-- 
+ -->{{#invoke:Check for unknown parameters| check | unknown = [[Category:Pages using image frame with unknown parameters|_VALUE_{{PAGENAME}}]] | preview = Page using [[Template:Image frame]] with unknown parameter "_VALUE_"| ignoreblank = y | align | border | caption | content | dir | innerstyle | link | link_text | linkoverride | max-width | mode | nowrap | pos | style | width 
+     }}<noinclude>
+{{documentation}}
+</noinclude>

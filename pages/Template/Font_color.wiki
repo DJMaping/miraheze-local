@@ -1,0 +1,18 @@
+<includeonly>{{ safesubst:#if: {{{text|{{{3|}}}}}}
+ | {{ safesubst:#if: {{{link|}}}
+      | {{ safesubst:#ifeq: {{{link|}}} | yes
+      | [[ {{ safesubst:#if:trim | {{{text|{{{3|}}}}}} }}|<span style="background-color:{{ safesubst:#if:trim | {{{bg|{{{2|inherit}}}}}} }}; color:{{ safesubst:#if:trim | {{{fg|{{{1|inherit}}}}}} }};">{{ safesubst:#if:trim | {{{text|{{{3|}}}}}} }}</span>]]
+      | [[{{{link|}}}|<span style="background-color:{{ safesubst:#if:trim | {{{bg|{{{2|inherit}}}}}} }}; color:{{ safesubst:#if:trim | {{{fg|{{{1|inherit}}}}}} }};">{{ safesubst:#if:trim | {{{text|{{{3|}}}}}} }}</span>]]
+      }}
+    | <span style="background-color:{{ safesubst:#if:trim | {{{bg|{{{2|inherit}}}}}} }}; color:{{ safesubst:#if:trim | {{{fg|{{{1|inherit}}}}}} }};">{{ safesubst:#if:trim | {{{text|{{{3|}}}}}} }}</span>
+    }}
+ | {{ safesubst:#if: {{{link|}}}
+      | {{ safesubst:#ifeq: {{{link|}}} | yes
+      | [[ {{ safesubst:#if:trim | {{{bg|{{{2|}}}}}} }} |<span style="color:{{ safesubst:#if:trim | {{{fg|{{{1|inherit}}}}}} }};">{{ safesubst:#if:trim | {{{bg|{{{2|}}}}}} }}</span>]]
+      | [[ {{ safesubst:#if:trim | {{{link|}}} }} |<span style="color:{{ safesubst:#if:trim | {{{fg|{{{1|inherit}}}}}} }};">{{ safesubst:#if:trim | {{{bg|{{{2|}}}}}} }}</span>]]
+    }}
+  | <span style="color:{{ safesubst:#if:trim | {{{fg|{{{1|inherit}}}}}} }};">{{ safesubst:#if:trim | {{{bg|{{{2|}}}}}} }}</span>
+  }}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

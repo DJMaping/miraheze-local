@@ -1,0 +1,25 @@
+{{#if:{{{art|}}}{{{article|}}}|[[Wikipedia:Phabricator|Phabricator]]''':'''&nbsp;}}<!--
+-->{{#if:{{{1|}}}|{{#ifeq:{{padleft:|1|{{{1|T}}}}}|T|[[Phabricator:{{{1}}}|{{{1}}}]]|[[Phabricator:T{{{1}}}|T{{{1}}}]]}}{{#if:{{{label1|}}}|&#32;({{{label1}}})}}|[[Phabricator:|Phabricator]]}}<!--
+Extra fields
+-->{{#if:{{{2|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{2|T}}}}}|T|[[Phabricator:{{{2}}}|{{{2}}}]]|[[Phabricator:T{{{2}}}|T{{{2}}}]]}}{{#if:{{{label2|}}}|&#32;({{{label2}}})}}}}<!--
+-->{{#if:{{{3|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{3|T}}}}}|T|[[Phabricator:{{{3}}}|{{{3}}}]]|[[Phabricator:T{{{3}}}|T{{{3}}}]]}}{{#if:{{{label3|}}}|&#32;({{{label3}}})}}}}<!--
+-->{{#if:{{{4|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{4|T}}}}}|T|[[Phabricator:{{{4}}}|{{{4}}}]]|[[Phabricator:T{{{4}}}|T{{{4}}}]]}}{{#if:{{{label4|}}}|&#32;({{{label4}}})}}}}<!--
+-->{{#if:{{{5|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{5|T}}}}}|T|[[Phabricator:{{{5}}}|{{{5}}}]]|[[Phabricator:T{{{5}}}|T{{{5}}}]]}}{{#if:{{{label5|}}}|&#32;({{{label5}}})}}}}<!--
+-->{{#if:{{{6|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{6|T}}}}}|T|[[Phabricator:{{{6}}}|{{{6}}}]]|[[Phabricator:T{{{6}}}|T{{{6}}}]]}}{{#if:{{{label6|}}}|&#32;({{{label6}}})}}}}<!--
+-->{{#if:{{{7|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{7|T}}}}}|T|[[Phabricator:{{{7}}}|{{{7}}}]]|[[Phabricator:T{{{7}}}|T{{{7}}}]]}}{{#if:{{{label7|}}}|&#32;({{{label7}}})}}}}<!--
+-->{{#if:{{{8|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{8|T}}}}}|T|[[Phabricator:{{{8}}}|{{{8}}}]]|[[Phabricator:T{{{8}}}|T{{{8}}}]]}}{{#if:{{{label8|}}}|&#32;({{{label8}}})}}}}<!--
+-->{{#if:{{{9|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{9|T}}}}}|T|[[Phabricator:{{{9}}}|{{{9}}}]]|[[Phabricator:T{{{9}}}|T{{{9}}}]]}}{{#if:{{{label9|}}}|&#32;({{{label9}}})}}}}<!--
+-->{{#if:{{{10|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{10|T}}}}}|T|[[Phabricator:{{{10}}}|{{{10}}}]]|[[Phabricator:T{{{10}}}|T{{{10}}}]]}}{{#if:{{{label10|}}}|&#32;({{{label10}}})}}}}<!--
+-->{{#if:{{{11|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{11|T}}}}}|T|[[Phabricator:{{{11}}}|{{{11}}}]]|[[Phabricator:T{{{11}}}|T{{{11}}}]]}}{{#if:{{{label11|}}}|&#32;({{{label11}}})}}}}<!--
+-->{{#if:{{{12|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{12|T}}}}}|T|[[Phabricator:{{{12}}}|{{{12}}}]]|[[Phabricator:T{{{12}}}|T{{{12}}}]]}}{{#if:{{{label12|}}}|&#32;({{{label12}}})}}}}<!--
+-->{{#if:{{{13|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{13|T}}}}}|T|[[Phabricator:{{{13}}}|{{{13}}}]]|[[Phabricator:T{{{13}}}|T{{{13}}}]]}}{{#if:{{{label13|}}}|&#32;({{{label13}}})}}}}<!--
+-->{{#if:{{{14|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{14|T}}}}}|T|[[Phabricator:{{{14}}}|{{{14}}}]]|[[Phabricator:T{{{14}}}|T{{{14}}}]]}}{{#if:{{{label14|}}}|&#32;({{{label14}}})}}}}<!--
+-->{{#if:{{{15|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{15|T}}}}}|T|[[Phabricator:{{{15}}}|{{{15}}}]]|[[Phabricator:T{{{15}}}|T{{{15}}}]]}}{{#if:{{{label15|}}}|&#32;({{{label15}}})}}}}<!--
+-->{{#if:{{{16|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{16|T}}}}}|T|[[Phabricator:{{{16}}}|{{{16}}}]]|[[Phabricator:T{{{16}}}|T{{{16}}}]]}}{{#if:{{{label16|}}}|&#32;({{{label16}}})}}}}<!--
+-->{{#if:{{{17|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{17|T}}}}}|T|[[Phabricator:{{{17}}}|{{{17}}}]]|[[Phabricator:T{{{17}}}|T{{{17}}}]]}}{{#if:{{{label17|}}}|&#32;({{{label17}}})}}}}<!--
+-->{{#if:{{{18|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{18|T}}}}}|T|[[Phabricator:{{{18}}}|{{{18}}}]]|[[Phabricator:T{{{18}}}|T{{{18}}}]]}}{{#if:{{{label18|}}}|&#32;({{{label18}}})}}}}<!--
+-->{{#if:{{{19|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{19|T}}}}}|T|[[Phabricator:{{{19}}}|{{{19}}}]]|[[Phabricator:T{{{19}}}|T{{{19}}}]]}}{{#if:{{{label19|}}}|&#32;({{{label19}}})}}}}<!--
+-->{{#if:{{{20|}}}|{{nbsp}}• {{#ifeq:{{padleft:|1|{{{20|T}}}}}|T|[[Phabricator:{{{20}}}|{{{20}}}]]|[[Phabricator:T{{{20}}}|T{{{20}}}]]}}{{#if:{{{label20|}}}|&#32;({{{label20}}})}}}}<!--
+-->{{#if:{{{label|}}}|&#32;({{{label}}})}}<noinclude>
+{{documentation}}
+</noinclude>

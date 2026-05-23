@@ -1,0 +1,50 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Georgia (country)
+| shortname alias = Georgia
+| flag alias = Flag of Georgia.svg
+| flag alias-1008 = Sakartvelo_-_drosha.svg
+| flag alias-1762 = Flag_of_Kingdom_of_Kartli-Kakheti.svg
+| flag alias-1918 = Flag of Georgia (1918–1921).svg
+| flag alias-1921 = Flag of the Georgian Soviet Socialist Republic (1921–1922).svg
+| flag alias-1922 = Flag of the Georgian Soviet Socialist Republic (1922–1937).svg
+| flag alias-1937 = Flag of the Georgian Soviet Socialist Republic (1937–1951).svg
+| flag alias-1951 = Flag of the Georgian Soviet Socialist Republic.svg
+| flag alias-1990 = Flag of Georgia (1990–2004).svg
+| flag alias-naval-1997 = Naval ensign of Georgia (1997–2004).svg
+| link alias-naval-1997 = Georgian Navy
+| flag alias-army  = Army Flag of Georgia.svg
+| link alias-army  = Georgian Land Forces
+| flag alias-coast guard=Battle ensign of the Coast Guard of Georgia.svg
+| link alias-coast guard=Coast Guard of Georgia
+| flag alias-military = Flag of the Georgian Armed Forces.svg
+| link alias-military = Georgian Armed Forces
+| flag alias-navy=Flag of the Georgian Border Police.svg
+| link alias-navy=Border Police of Georgia
+| flag alias-air force=Flag of the Aviation and Air Defense Command of the Defense Forces of Georgia.png
+| link alias-air force=Georgian Air Force
+| flag alias-naval = Naval Ensign of Georgia.svg
+| link alias-naval = {{#switch:{{{variant|}}}|coast guard=Coast Guard of Georgia|Georgian Navy}}
+| {{#ifeq:{{{altlink}}}|A national rugby union team|link alias-rugby union|empty}} = Georgia XV national rugby union team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| hatnote = {{Redirect|Template:Country data Georgia|the state in the U.S.|Template:Country data Georgia (U.S. state)}}
+| var1 = 1008
+| var2 = 1762
+| var3 = 1918
+| var4 = 1921
+| var5 = 1922
+| var6 = 1937
+| var7 = 1951
+| var8 = 1990
+| var9 = naval-1997
+| redir1 = GEO
+| redir2 = Georgia
+| related1 = Georgian SSR
+| related2 = Georgia (U.S. state)
+| related3 = Republic of Georgia
+</noinclude>
+}}

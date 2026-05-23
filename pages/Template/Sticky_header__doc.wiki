@@ -1,0 +1,415 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Template redirect|sticky-header}}
+{{uses TemplateStyles|Template:Sticky header/styles.css}}
+
+This template makes a [[Help:Table|table]]'s column headers stick to the top of the screen as the table's data is scrolled in and out of view. It's used on tall tables that have column headers that might be difficult to remember as you scroll through the data. If you want a table to be both top-sticky and side-sticky see {{tl|sticky table start}}.
+
+== Usage ==
+
+Include this template by adding {{tlc|sticky header}} or its redirect {{tlc|sticky-header}} above a table. Add one of the following classes to the table start wikitext.
+
+{| class=wikitable style="background-color: white;"
+|+ Classes for table start wikitext: <code><nowiki>{|</nowiki> class="''class1 class2''"</code>.
+|-
+! Class
+! Summary
+|-
+| class=nowrap | <code>sticky-header</code>
+| Make the first header row top sticky.
+|-
+| class=nowrap | <code>sticky-header-multi</code>
+| <strong>Requires sortable table</strong>. Make multiple header rows top sticky. Avoid use with the <code>sorttop</code> class that becomes sticky after sorting. Avoid making headers sticky that aren't for the entire table (ex. section header rows). Avoid making excessively tall header rows sticky that might block too much data on short screens (ex. mobile landscape).<br>
+'''<code>class=unsortable</code>''' can be added to all columns if necessary. See below: [[#Multi-row header that can't be visibly sortable]]
+|}
+
+== Single sticky header row ==
+
+The <code>sticky-header</code> class is used to make the first header row top sticky. Sortable is not required. '''<code>sorttop</code>''' and '''<code>sortbottom</code>''' are not a problem with single header rows.
+
+<div style="display: inline-grid; vertical-align:top;">
+{{sticky header}}
+{| class="wikitable sortable sticky-header"
+|+ Caption
+|-
+! Color !! A !! B
+! class="unsortable" | C
+|- class=sorttop
+| '''Max''' || 10 || 11 || 12
+|-
+| Red || 1 || 2 || 3
+|-
+| Lime || 4 || 5 || 6
+|-
+| Gold || 7 || 8 || 9
+|-
+| Blue || 10 || 11 || 12
+|- class=sortbottom
+| '''Total''' || 22 || 26 || 30
+|}
+</div>
+
+<div style="display: inline-grid; vertical-align:top;">
+<syntaxhighlight lang=wikitext highlight=1-2,7,17>
+{{sticky header}}
+{| class="wikitable sortable sticky-header"
+|+ Caption
+|-
+! Color !! A !! B
+! class="unsortable" | C
+|- class=sorttop
+| '''Max''' || 10 || 11 || 12
+|-
+| Red || 1 || 2 || 3
+|-
+| Lime || 4 || 5 || 6
+|-
+| Gold || 7 || 8 || 9
+|-
+| Blue || 10 || 11 || 12
+|- class=sortbottom
+| '''Total''' || 22 || 26 || 30
+|}
+</syntaxhighlight>
+</div>
+
+== Multiple sticky header rows ==
+
+{{Tracked|T6740}}
+{{Tracked|T355492}}
+The <code>sticky-header-multi</code> class is used to make multiple header rows top sticky. '''Sortable table is required''' since sortable is currently the only way to move consecutive rows of column headers to the {{Tag|thead|o}} element. If some or all columns should not be sortable, then <code>class=unsortable</code> can be put in the header cell with the sorting icon. Table top will still be sticky. See [[Help:Sortable tables]]. If [[JavaScript]] is disabled, then sortable and this solution won't work. 
+
+=== Sorttop versus sortbottom ===
+
+Avoid using the '''<code>sorttop</code>''' class since sortable moves those rows into the {{Tag|thead|o}} element after sorting, which makes them top sticky too. A solution might be to move them to the bottom and use the '''<code>sortbottom</code>''' class instead.
+
+<div style="display: inline-grid; vertical-align:top;">
+{{sticky header}}
+{| class="wikitable sortable sticky-header-multi"
+|+ Caption
+|-
+! rowspan=2 | Color
+! colspan=3 | Data
+|-
+! A !! B
+! class="unsortable" | C
+|-
+| Red || 1 || 2 || 3
+|-
+| Lime || 4 || 5 || 6
+|-
+| Gold || 7 || 8 || 9
+|-
+| Blue || 10 || 11 || 12
+|- class=sortbottom
+| '''Max''' || 10 || 11 || 12
+|- class=sortbottom
+| '''Total''' || 22 || 26 || 30
+|}
+</div>
+
+<div style="display: inline-grid; vertical-align:top;">
+<syntaxhighlight lang=wikitext highlight=1-2,18,20>
+{{sticky header}}
+{| class="wikitable sortable sticky-header-multi"
+|+ Caption
+|-
+! rowspan=2 | Color
+! colspan=3 | Data
+|-
+! A !! B
+! class="unsortable" | C
+|-
+| Red || 1 || 2 || 3
+|-
+| Lime || 4 || 5 || 6
+|-
+| Gold || 7 || 8 || 9
+|-
+| Blue || 10 || 11 || 12
+|- class=sortbottom
+| '''Max''' || 10 || 11 || 12
+|- class=sortbottom
+| '''Total''' || 22 || 26 || 30
+|}
+</syntaxhighlight>
+</div>
+
+=== Row starts off at top and moves to bottom after sorting ===
+This table excerpt is adapted from [[List of countries by tariff rate]]. '''<code>sortbottom</code>''' is used instead of '''<code>sorttop</code>''' for the "World" row. So the World row does not become sticky after sorting. After sorting it moves to the bottom with the regional rows.
+{{sticky header}}{{mw-datatable}}{{Static row numbers}}{{sort under}}{{table alignment}}
+{| class="mw-datatable wikitable sortable sticky-header-multi static-row-numbers sort-under col1left" style="text-align:right;"
+|-
+! rowspan=2 data-sort-type=text | Country/Territory/Region/Group || colspan=2 | [[World Bank|WB]] || colspan=2 | [[WTO]] || colspan=2 | [[UNCTAD]]
+|-
+! data-sort-type=number | Tariff rate, applied, weighted mean, all products || data-sort-type=number | Year || data-sort-type=number | Simple average applied MFN tariff, all products || data-sort-type=number | Year || data-sort-type=number | Import tariff rates on non-agricultural and non-fuel products || data-sort-type=number | Year
+|- class="sortbottom static-row-header" style="font-weight:bold;" 
+| style="background-color:#f8f9fa; text-align:left;" | {{flag icon|UN}} WORLD || {{val|2.59|u=%|fmt=gaps}} || <small>2017</small> || || || || 
+|-
+| {{ABW}} || {{val|0|u=%|fmt=gaps}} || <small>2021</small> || || || {{val|10.80|u=%|fmt=gaps}} || <small>2021</small> 
+|-
+| {{AFG}} || {{val|0|u=%|fmt=gaps}} || <small>2018</small> || {{val|6.5|u=%|fmt=gaps}} || <small>2018</small> || {{val|0|u=%|fmt=gaps}} || <small>2018</small> 
+|-
+| {{AGO}} || {{val|0|u=%|fmt=gaps}} || <small>2021</small> || {{val|10.9|u=%|fmt=gaps}} || <small>2021</small> || {{val|0|u=%|fmt=gaps}} || <small>2021</small> 
+|-
+| {{AIA}} || || || || || {{val|13.14|u=%|fmt=gaps}} || <small>2021</small> 
+|- class="sortbottom static-row-header" style="background-color:#ececec;"
+| style="font-style:italic;" | Low & middle income economies (WB) || {{val|4.28|u=%|fmt=gaps}} || <small>2017</small> || || || || 
+|- class="sortbottom static-row-header" style="background-color:#ececec;"
+| style="font-style:italic;" | Low-income economies (WB) || {{val|9.79|u=%|fmt=gaps}} || <small>2017</small> || || || || 
+|- class="sortbottom static-row-header" style="background-color:#ececec;"
+| style="font-style:italic;" | Middle-income economies (WB) || {{N/A}} || || || || || 
+|- class="sortbottom static-row-header" style="background-color:#ececec;"
+| style="font-style:italic; padding-left:25px;" | <small>Upper middle income economies (WB)</small> || {{val|3.70|u=%|fmt=gaps}} || <small>2017</small> || || || || 
+|- class="sortbottom static-row-header" style="background-color:#ececec;"
+| style="font-style:italic;" | [[High-income economies]] (WB) || {{val|2.02|u=%|fmt=gaps}} || <small>2017</small> || || || || 
+|- class="sortbottom static-row-header" style="background-color:#ececec;"
+| style="font-style:italic;" | [[European Union]] || {{val|1.39|u=%|fmt=gaps}} || <small>2021</small> || {{val|5.2|u=%|fmt=gaps}} || <small>2021</small> || {{val|1.49|u=%|fmt=gaps}} || <small>2021</small> 
+|}
+
+=== Header rows not for whole table ===
+
+Consecutive rows of column headers are top sticky, so avoid adding a row of headers right under the column headers that don't apply to the entire table such as a section header meant to visually separate the table.
+
+A solution might be to move each section to a column or separate tables, which also avoids accessibility issues per [[MOS:COLHEAD]].
+
+Another solution might be to add a blank row of data cells (<code>| colspan=4 |</code>) between the last column header row and the first section header row so the latter is not included in the consecutive header rows.
+
+<div style="display: inline-grid; vertical-align:top;">
+{{sticky header}}
+{| class="wikitable sortable sticky-header-multi"
+|+ Caption
+|-
+! rowspan=2 | Color
+! colspan=3 | Data
+|-
+! A !! B !! C
+|-
+| colspan=4 |
+|-
+! colspan=4 | Section 1
+|-
+| Red || 1 || 2 || 3
+|-
+| Lime || 4 || 5 || 6
+|-
+! colspan=4 | Section 2
+|-
+| Gold || 7 || 8 || 9
+|-
+| Blue || 10 || 11 || 12
+|}
+</div>
+
+<div style="display: inline-grid; vertical-align:top;">
+<syntaxhighlight lang=wikitext highlight=1-2,9-10>
+{{sticky header}}
+{| class="wikitable sortable sticky-header-multi"
+|+ Caption
+|-
+! rowspan=2 | Color
+! colspan=3 | Data
+|-
+! A !! B !! C
+|-
+| colspan=4 |
+|-
+! colspan=4 | Section 1
+|-
+| Red || 1 || 2 || 3
+|-
+| Lime || 4 || 5 || 6
+|-
+! colspan=4 | Section 2
+|-
+| Gold || 7 || 8 || 9
+|-
+| Blue || 10 || 11 || 12
+|}
+</syntaxhighlight>
+</div>
+
+=== Excessively tall header rows ===
+
+Avoid excessively tall header rows that might block too much or all data when sticky on a small mobile screen, especially in [[Page orientation|landscape orientation]]. Some solutions might be to move some of the header text to the table caption, more concise header text, remove line-breaks ({{Tag|br|o}}) in the headers, or split the table up into smaller tables to reduce headers.
+
+<div style="display: inline-grid; overflow-y: scroll; max-height: 300px;">
+{{sticky header}}{{sort under}}
+{| class="wikitable sortable sort-under sticky-header-multi" style="margin: 0;"
+|-
+! colspan=4 | Header<br>group<br>1
+|-
+! colspan=2 | Header<br>group<br>2
+! colspan=2 | Header<br>group<br>3
+|-
+! Header<br>1 !! Header<br>2 !! Header<br>3 !! Header<br>4
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|-
+| data || data || data || data
+|}
+</div>
+
+== Multi-row header that can't be visibly sortable ==
+
+This table is adapted from here: [[AptX#Variants]]. It uses '''class=sortable''' in order to have a sticky multi-row header, but all columns individually use '''class=unsortable.''' 
+
+None of the columns can be sortable because the type of info and data within any single column varies greatly, and there is no point in ordering it alphabetically or numerically. Plus sorting any column removes the rowspans in the first column which gives the overall order of the table. 
+
+{{sticky header}}{{mw-datatable}}
+{|class="wikitable sortable sticky-header-multi mw-datatable" style="text-align:center"
+|+aptX variants
+! class=unsortable rowspan="2" style="border-bottom:2px solid gray; background-color:#D8D9DD" | 
+! class=unsortable rowspan="2" style="border-bottom:2px solid gray; background-color:#D8D9DD" | 
+! style="border-bottom:hidden; background-color:#D8D9DD" | [[SBC (codec)|SBC]]
+! style="border-bottom:hidden; background-color:#D6F9D6" | aptX
+! style="border-bottom:hidden; background-color:#D6F9D6" | aptX LL
+! style="border-bottom:hidden; background-color:#D6F9D6" | aptX HD
+! colspan="3" style="border-bottom:hidden; background-color:#D6F9D6" | aptX Adaptive
+! style="border-bottom:hidden; background-color:#D8D9DD" | [[Compact Disc Digital Audio|Audio CD]]
+|-
+! class=unsortable style="background-color:#D8D9DD; border-bottom:2px solid gray" | <small>(for reference)</small>
+! class=unsortable style="background-color:#D6F9D6; border-bottom:2px solid gray" | 
+! class=unsortable style="background-color:#D6F9D6; border-bottom:2px solid gray" | 
+! class=unsortable style="background-color:#D6F9D6; border-bottom:2px solid gray" | 
+! class=unsortable style="background-color:#D6F9D6; border-bottom:2px solid gray; font-weight:lighter" | @&nbsp;279&nbsp;kbit/s
+! class=unsortable style="background-color:#D6F9D6; border-bottom:2px solid gray; font-weight:lighter" | @&nbsp;420&nbsp;kbit/s
+! class=unsortable style="background-color:#D6F9D6; border-bottom:2px solid gray; font-weight:lighter" | @ up to {{nowrap|~1.2 mbit/s}}
+! class=unsortable style="background-color:#D8D9DD; border-bottom:2px solid gray" | <small>(for reference)</small>
+|-
+! rowspan="6" | misc.
+! style="text-align:left" | Launch
+| style="background-color:#F0F2F6" | '''?'''
+| '''< 2009''' || '''2012''' || '''2016''' || colspan="2" | '''2018'''
+|'''2021'''
+| style="background-color:#F0F2F6" | '''1980s'''
+|-
+! style="text-align:left" | [[Trademark]]
+| style="background-color:#F0F2F6" | –
+| colspan="6" | [[Qualcomm]]<br><small>(until August 2015: [[CSR (company)|CSR]], until July 2010: [[APT Licensing|APT Licensing Ltd.]], until March 2005: [[Solid State Logic]])</small> || style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | Related [[patent]]s
+| style="background-color:#F0F2F6" | {{patent|EP|0400755B1}} (expired) || {{patent|EP|0398973B1}} (revoked) || aptX,<br> {{patent|US|9398620B1}} (expired) || aptX || colspan="3" | ? || style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | [[Free software|Free implementations]]
+| style="background-color:#F0F2F6" | [[FFmpeg]], libsbc || [[FFmpeg]], libopenaptx|| [[FFmpeg]], libopenaptx || [[FFmpeg]], libopenaptx || colspan="3" | N/A || style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | [[Proprietary software|Proprietary implementations]]
+| style="background-color:#F0F2F6" | Multiple || Qualcomm libaptX || None || Qualcomm libaptXHD || colspan="3" | ? || style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | Chip
+| style="background-color:#F0F2F6" | –
+| CSR8635 || CSR8670 || CSR8675 || colspan="3" | QCC5100 || style="background-color:#F0F2F6" | –
+|-
+! rowspan="8" | Audio<br>Encoding
+! style="text-align:left" | [[Audio bit depth|Word depth]]
+| style="background-color:#F0F2F6" | '''?'''
+| '''16-bit''' || '''16-bit''' || '''16-bit'''<br>'''24-bit''' || colspan="2" | '''24-bit''' 
+|'''16-bit'''|| style="background-color:#F0F2F6" | '''16-bit'''
+|-
+! style="text-align:left" | [[Sampling rate]]
+| style="background-color:#F0F2F6" | 44.1&nbsp;kHz<br>48&nbsp;kHz<br>&nbsp; || 44.1&nbsp;kHz<br>48&nbsp;kHz<br>&nbsp; || 44.1&nbsp;kHz<br>48&nbsp;kHz<br>&nbsp; || 44.1&nbsp;kHz<br>48&nbsp;kHz<br>&nbsp; || colspan="2" | 44.1&nbsp;kHz<br>48&nbsp;kHz<br>96&nbsp;kHz 
+|44.1&nbsp;kHz|| style="background-color:#F0F2F6" | 44.1&nbsp;kHz<br><br>&nbsp;
+|-
+! style="text-align:left" rowspan="2" | [[Bit rate]]
+| style="background-color:#F0F2F6" | '''345 kbit/s''' <small>(@ 48&nbsp;kHz)</small> || '''352 kbit/s''' <small>(@ 44.1&nbsp;kHz)</small><br>'''384 kbit/s''' <small>(@ 48&nbsp;kHz)</small> || '''352 kbit/s''' <small>(@ 48&nbsp;kHz)</small> || '''576 kbit/s''' <small>(24 bits @ 48&nbsp;kHz)</small> || '''279 kbit/s''' || '''420 kbit/s''' 
+|'''~140 kbit/s to 1.2 mbit/s''' (content dependent) || style="background-color:#F0F2F6" | '''1411 kbit/s''' <small>(@ 44.1&nbsp;kHz)</small>
+|-
+| style="background-color:#F0F2F6" | Constant || Constant || Constant || Constant || colspan="2" | Variable 
+|Variable|| style="background-color:#F0F2F6" | Constant
+|-
+! style="text-align:left" | [[Codec latency]]
+| style="background-color:#F0F2F6" | ?
+| 1.8 – 2.0 ms || ? || 1.8 – 2.0 ms || colspan="2" | 1.4 – 2.0 ms 
+| ?|| style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | Hardware transmitter [[Latency (audio)|latency]]
+| style="background-color:#F0F2F6" | ? || ? || '''≈ 40 ms'''<br><small>(using dedicated antenna)</small> || ? || colspan="2" | '''≈ 80 ms'''
+| ?|| style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | Software transmitter [[Latency (audio)|latency]] <small>(most&nbsp;phones)</small>
+| colspan="7" | '''200 – 500 ms'''<br><small>depending on the transmitting device</small> || style="background-color:#F0F2F6" | –
+|-
+! style="text-align:left" | Backwards compatible with
+| style="background-color:#F0F2F6" | –
+| SBC{{Citation needed|reason=Looks like a totally separated codec|date=February 2024}} || SBC, aptX || SBC, aptX || colspan="2" | SBC, aptX, aptX HD 
+| ?|| style="background-color:#F0F2F6" | ?
+|-
+! rowspan="7" | Sound<br>quality
+! style="text-align:left" | [[THD+N]] @ 1&nbsp;kHz
+| style="background-color:#F0F2F6" | 
+| −67&nbsp;dB or −85&nbsp;dB? || −85&nbsp;dB || -80&nbsp;dB or −90&nbsp;dB? || −90&nbsp;dB || −100&nbsp;dB 
+|−96&nbsp;dB|| style="background-color:#F0F2F6" | −96&nbsp;dB
+|-
+! style="text-align:left" | [[Multi-tone]] @ 1&nbsp;kHz
+| style="background-color:#F0F2F6" | 
+| −100&nbsp;dB || ? || −100&nbsp;dB || −90&nbsp;dB || −100&nbsp;dB 
+| ?|| style="background-color:#F0F2F6" |
+|-
+! style="text-align:left" | Multi-tone @ 10&nbsp;kHz
+| style="background-color:#F0F2F6" | 
+| −65&nbsp;dB || ? || −90&nbsp;dB || −85&nbsp;dB || −95&nbsp;dB 
+| ?|| style="background-color:#F0F2F6" |
+|-
+! style="text-align:left" | [[Crosstalk]]
+| style="background-color:#F0F2F6" | 
+| −120&nbsp;dB || ? || −155&nbsp;dB || −90&nbsp;dB || −200&nbsp;dB 
+| ?|| style="background-color:#F0F2F6" |
+|-
+! style="text-align:left" | [[Signal-to-noise ratio|SNR]] @ 1&nbsp;kHz
+| style="background-color:#F0F2F6" | 
+| 93&nbsp;dB || 93&nbsp;dB || 129&nbsp;dB || 130&nbsp;dB || 135&nbsp;dB 
+|−96&nbsp;dB|| style="background-color:#F0F2F6" | −96&nbsp;dB
+|-
+! style="text-align:left" | [[Perceptual Evaluation of Audio Quality|PEAQ]] ODG
+| style="background-color:#F0F2F6" | 
+| −0.18 or −0.08? || ? || 0.05 or 0.04? || −0.06 || 0.045 
+| ?|| style="background-color:#F0F2F6" |
+|-
+! style="text-align:left" | [[Frequency response]] over [[Bluetooth]]
+| style="background-color:#F0F2F6" | 
+| 20&nbsp;Hz – 22.7&nbsp;kHz || 20&nbsp;Hz – 22.7&nbsp;kHz || 20&nbsp;Hz – 22.7&nbsp;kHz || colspan="2" | 20&nbsp;Hz – 22.7&nbsp;kHz 
+|20&nbsp;Hz – 22&nbsp;kHz|| style="background-color:#F0F2F6" | 20&nbsp;Hz – 22&nbsp;kHz
+|}
+
+== Known issues ==
+<!-- Have to use the full URL to get the link below to work consistently -->
+See '''[https://en.wikipedia.org/wiki/Template:Sticky_header/doc/Narrow_tables page of narrow sticky tables]''' for testing in cell phones, etc. 
+
+Tested in browsers on [[Windows 10]], [[Windows 11]], [[iOS 18]] ([[iPhone SE (2nd generation)|iphone SE 2020]]), [[iOS 17]] ([[iPhone 14 Pro Max|iPhone 14 Pro Max]]), and [[Android 14]] ([[Samsung Galaxy S21]]).
+
+* Due to changes to the [[mw:Skin:Minerva Neue|Minerva skin]] (default mobile skin), '''{{tl|sticky header}}''' no longer works at all in that skin. Tested in iOS and Android. The changes are from [[phab:T387768]], which adds an <code>overflow: hidden;</code> style to a parent container. See also: [[phab:T388986]]. '''{{tl|sticky table start}}''' works fine in mobile.
+* Does not work on the MonoBook skin when the browser width is 550 pixels or less due to the <code>body.skin--responsive .monobook-body {overflow: auto;}</code> style that can't be overridden.
+* <code><nowiki><div style="overflow:auto"></div></nowiki></code> - Do not use this around tables. It prevents sticky headers until removed. See [https://en.wikipedia.org/w/index.php?title=The_Economist_Democracy_Index&diff=1222822979&oldid=1222822630 diff]. See "List by region" table.
+* Jumping to an {{tl|Anchor}} (or similar mechanism for creating an anchor) in a table causes that location of the table to be at the top of the screen, where the sticky header covers it. True for all skins except Vector 2022 and MinervaNeue skin (mobile). See discussions [[Template talk:Sticky header#Sticky header covering jump result|here]] and [[Template talk:Sticky header/Archive 1#Headings cover the row when you link an anchor in a table|here]].
+
+== See also ==
+
+* {{slink|Help:Table/Advanced#Tables with sticky headers}}
+* {{t|sticky table start}} - allows sticky rows and columns inside a scrollable area.
+* {{t|shy}} – Can be used to help narrow columns by adding a [[soft hyphen]] to a word to allow it to wrap.
+
+More [[WP:template styles|template styles]] for tables:
+* {{t|sort under}} - moves the sorting arrows under the headers.
+* {{t|row hover highlight}} - adds row hover highlighting, and option for white background. 
+* {{t|static row numbers}} - adds a column of row numbers to a table.
+* {{t|table alignment}} - aligns the cells in a column, or a whole table.
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Table templates]]
+[[Category:Templates using TemplateStyles to style external elements]]
+}}
+</includeonly>

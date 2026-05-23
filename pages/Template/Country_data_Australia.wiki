@@ -1,0 +1,38 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Australia
+| flag alias = Flag of Australia (converted).svg
+| flag alias-1901 = Flag of Australia (1901-1903).svg
+| flag alias-1903 = Flag of Australia (1903-1908).svg
+| flag alias-union = Flag of the United Kingdom.svg
+| flag alias-colonial = Australian Colonial Flag.svg
+| flag alias-civil = Civil Ensign of Australia.svg
+| flag alias-naval = Naval Ensign of Australia.svg
+| flag alias-naval-1913 = Naval ensign of the United Kingdom.svg
+| link alias-naval = Royal Australian Navy
+| link alias-army = Australian Army
+| flag alias-air force = Air Force Ensign of Australia.svg
+| link alias-air force = Royal Australian Air Force
+| flag alias-air force-1948 = Air Force Ensign of Australia (1948–1982).svg
+| flag alias-air force-1922 = Air Force Ensign of the United Kingdom.svg
+| link alias-football = Australia {{{mw|men's}}} national {{{age|}}} soccer {{{class|}}} team
+| flag alias-marines=UCP 2RAR.svg
+| link alias-marines=2nd Battalion, Royal Australian Regiment
+| flag alias-navy = Naval Ensign of Australia.svg
+| link alias-navy = Royal Australian Navy
+| flag alias-military = Ensign of the Australian Defence Force.svg
+| link alias-military = Australian Defence Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1901
+| var2 = 1903
+| var3 = colonial
+| var4 = civil
+| var5 = naval-1913
+| redir1 = AUS
+| related1 = Australasia
+</noinclude>
+}}

@@ -1,0 +1,26 @@
+<noinclude>{{Template:This is a redirect/rcat|from shortcut}}
+</noinclude>{{#switch:{{#invoke:RedirectData|getRedirectToNamespace}}
+|Template=
+{{Redirect template
+  |id=R from template shortcut
+  |name=From a template shortcut
+  |from=a [[Wikipedia:Shortcut|shortcut]] page name '''in ''any'' [[WP:namespace|namespace]]'''
+  |to=a page in [[WP:template namespace|template namespace]]
+  |info=**Shortcuts are [[wikilink]]ed on community pages, talk pages, and edit summaries, but not in [[wp:mainspace|mainspace]] articles. [[WP:Transclusion|Transclusions]] in mainspace are common and do not need to be "[[WP:NOTBROKEN|fixed]]".
+  |all category=Redirects from template shortcuts
+  |printworthy=no
+}}
+|#default=
+{{Redirect template
+  |id=R from shortcut
+  |name=From a shortcut
+  |from=a [[Wikipedia:Shortcut|shortcut]] in any namespace
+  |to=a page in any namespace{{#if:{{{of|}}}{{{for|}}}|. The referent of this shortcut is: {{{of|{{{for}}}}}}}}
+  |info=**Shortcuts are [[wikilink]]ed on community pages, talk pages, and edit summaries, but not in [[wp:mainspace|mainspace]] articles.
+  |all category=Redirects from shortcuts
+  |printworthy=no
+}}
+}}<noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,8 @@
+#REDIRECT [[Template:Protection padlock]]
+
+{{Rcat shell|
+{{R from move}}
+{{R from long name}}
+{{R with history}}
+}}
+[[Category:Top icon protection templates]]

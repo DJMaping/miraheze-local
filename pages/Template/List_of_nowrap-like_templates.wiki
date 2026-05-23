@@ -1,0 +1,15 @@
+<noinclude>{{Hatnote|This template provides a see-also section for various templates.}}</noinclude>{{navbar|List of nowrap-like templates|plain=y|style=float:right}}
+* {{tl|nowrap}} prevents wrapping within a single template (i.e. not suitable for relatively complex or lengthy content).
+* {{tl|nowraplinks}} ... {{tl|nowraplinks end}} prevents wraps inside links while allowing wraps between links and in normal text. Very useful for link lists and easy to use.
+* {{tl|nowrap begin}} ... {{tl|nowrap end}} prevents wraps in both text and links. For the trickier wrapping cases when you need full control, for instance in very complex link lists.
+* {{tl|word joiner}} prevents wraps for both two adjacent characters.
+* {{tl|avoid wrap}} prevents wraps unless the space is too narrow to display the text on one line.
+** {{tl|inline block}} does the same and allows further style customization, but does not automatically add the "avoidwrap" CSS class.
+* {{tl|spaces}} produces multiple non-breaking spaces (or a single one).
+* {{tl|wrap}} can be used to provide a (brief) exception within a no-wrapping area.
+** {{tl|normalwraplink}} allows links to wrap when they otherwise would not.
+* {{tn|·}} and {{tn|•}}, spaced and wrap-sensitive [[interpunct]] (dot) and bullet.
+* [[Help:Line-break handling]], Wikipedia's how-to guide about word wrapping and line breaks.
+** In particular, to avoid line wrapping when quoting a passage such as a poem or computer code, see {{slink|Template:Quote|Line breaks}}{{snd}}e.g. Template:Blockquote with "poem" tag.<noinclude>
+[[Category:Documentation see also templates]]
+</noinclude>

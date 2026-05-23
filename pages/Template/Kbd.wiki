@@ -1,0 +1,4 @@
+<templatestyles src="Kbd/styles.css"></templatestyles><kbd class="{{{class|}}} mw-tmpl-kbd" {{#if:{{{id|}}}|id="{{{id}}}"}} style="{{#if:{{{spacing|}}}| padding-left:{{{padding|0.2em}}}; padding-right:{{{padding|0.2em}}};| letter-spacing:0.05em; padding-left:0.25em; padding-right:0.2em;}}{{#if:{{{style|}}}|{{{style}}}}}" {{#if:{{{lang|}}}|lang="{{{lang}}}"}} {{#if:{{{title|}}}|title="{{{title}}}"}}>{{{1|user input}}}</kbd><noinclude>
+<!--Categories go near the bottom of the /doc page.-->
+{{Documentation}}
+</noinclude>

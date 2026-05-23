@@ -1,0 +1,82 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+'''Template:Years or months ago''' displays the number of years (or months if less than 1 year) between a specified year/month date and the current year/month. It will also work correctly when only the year is given. Optionally, a second year/month date can be specified to be used instead of the current year/month.
+
+This was designed as a supporting template for '''[[Template:Start date and age]]''', to be used when the specified date does not include the day of the month. The formatting of the output was designed to be similar to '''[[Template:Time ago]]'''.
+
+{{TOC right}}
+
+== Usage ==
+For years or months before or after current date:
+* <code><nowiki>{{</nowiki>Years or months ago|''year''|''month''}}</code>
+* <code><nowiki>{{</nowiki>Years or months ago|''year''}}</code>
+
+For years or months between two dates:
+* <code><nowiki>{{</nowiki>Years or months ago|''year1''|''month1''|''year2''|''month2''}}</code>
+
+== Examples ==
+The following examples use {{CURRENTMONTHNAME}} {{CURRENTYEAR}} as the current month and year. If that is not correct, click the Purge link at the top of this documentation (or <span class="plainlinks">[{{fullurl:{{FULLPAGENAME}}|action=purge}} here]</span>) to update the page.
+
+=== Year and month ===
+{| class="wikitable"
+! Template
+! Output
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#expr:{{CURRENTYEAR}}-2}}&#124;{{#expr:{{CURRENTMONTH}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#expr:{{CURRENTYEAR}}-2}}|{{#expr:{{CURRENTMONTH}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#expr:{{CURRENTYEAR}}-1}}&#124;{{#expr:{{CURRENTMONTH}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#expr:{{CURRENTYEAR}}-1}}|{{#expr:{{CURRENTMONTH}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#ifexpr:{{CURRENTMONTH}}-2<1|{{#expr:{{CURRENTYEAR}}-2}}|{{CURRENTYEAR}}}}&#124;{{#ifexpr:{{CURRENTMONTH}}-2<1|{{#expr:{{CURRENTMONTH}}-2+12}}|{{#expr:{{CURRENTMONTH}}-2}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#ifexpr:{{CURRENTMONTH}}-2<1|{{#expr:{{CURRENTYEAR}}-2}}|{{CURRENTYEAR}}}}|{{#ifexpr:{{CURRENTMONTH}}-2<1|{{#expr:{{CURRENTMONTH}}-2+12}}|{{#expr:{{CURRENTMONTH}}-2}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#ifexpr:{{CURRENTMONTH}}-1<1|{{#expr:{{CURRENTYEAR}}-1}}|{{CURRENTYEAR}}}}&#124;{{#ifexpr:{{CURRENTMONTH}}-1<1|{{#expr:{{CURRENTMONTH}}-1+12}}|{{#expr:{{CURRENTMONTH}}-1}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#ifexpr:{{CURRENTMONTH}}-1<1|{{#expr:{{CURRENTYEAR}}-1}}|{{CURRENTYEAR}}}}|{{#ifexpr:{{CURRENTMONTH}}-1<1|{{#expr:{{CURRENTMONTH}}-1+12}}|{{#expr:{{CURRENTMONTH}}-1}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{CURRENTYEAR}}&#124;{{#expr:{{CURRENTMONTH}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{CURRENTYEAR}}|{{#expr:{{CURRENTMONTH}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#ifexpr:{{CURRENTMONTH}}+1>12|{{#expr:{{CURRENTYEAR}}+1}}|{{CURRENTYEAR}}}}&#124;{{#ifexpr:{{CURRENTMONTH}}+1>12|{{#expr:{{CURRENTMONTH}}+1-12}}|{{#expr:{{CURRENTMONTH}}+1}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#ifexpr:{{CURRENTMONTH}}+1>12|{{#expr:{{CURRENTYEAR}}+1}}|{{CURRENTYEAR}}}}|{{#ifexpr:{{CURRENTMONTH}}+1>12|{{#expr:{{CURRENTMONTH}}+1-12}}|{{#expr:{{CURRENTMONTH}}+1}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#ifexpr:{{CURRENTMONTH}}+2>12|{{#expr:{{CURRENTYEAR}}+2}}|{{CURRENTYEAR}}}}&#124;{{#ifexpr:{{CURRENTMONTH}}+2>12|{{#expr:{{CURRENTMONTH}}+2-12}}|{{#expr:{{CURRENTMONTH}}+2}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#ifexpr:{{CURRENTMONTH}}+2>12|{{#expr:{{CURRENTYEAR}}+2}}|{{CURRENTYEAR}}}}|{{#ifexpr:{{CURRENTMONTH}}+2>12|{{#expr:{{CURRENTMONTH}}+2-12}}|{{#expr:{{CURRENTMONTH}}+2}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#expr:{{CURRENTYEAR}}+1}}&#124;{{#expr:{{CURRENTMONTH}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#expr:{{CURRENTYEAR}}+1}}|{{#expr:{{CURRENTMONTH}}}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#expr:{{CURRENTYEAR}}+2}}&#124;{{#expr:{{CURRENTMONTH}}}}<nowiki>}}</nowiki></code>
+| {{Years or months ago|{{#expr:{{CURRENTYEAR}}+2}}|{{#expr:{{CURRENTMONTH}}}}}}
+|}
+
+=== Year only (no month) ===
+{| class="wikitable"
+! Template
+! Output
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#time:Y|now - 2 years}}}}</code>
+| {{Years or months ago|{{#time:Y|now - 2 years}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#time:Y|now - 1 year}}}}</code>
+| {{Years or months ago|{{#time:Y|now - 1 year}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#time:Y|now}}}}</code>
+| {{Years or months ago|{{#time:Y|now}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#time:Y|now + 1 year}}}}</code>
+| {{Years or months ago|{{#time:Y|now + 1 year}}}}
+|-
+| <code><nowiki>{{Years or months ago|</nowiki>{{#time:Y|now + 2 years}}}}</code>
+| {{Years or months ago|{{#time:Y|now + 2 years}}}}
+|}
+
+== See also ==
+* [[Template:Time ago]] &ndash; displays elapsed time (with same singular or plural text as this template)
+* [[Template:Age]] &ndash; displays elapsed time in years (number only, future dates generate negative number)
+
+<includeonly>{{Sandbox other|
+| <!-- Categories below this line please; interwikis to Wikidata -->
+[[Category:Date mathematics templates]]
+}}</includeonly>

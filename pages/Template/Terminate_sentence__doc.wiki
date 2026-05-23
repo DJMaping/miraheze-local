@@ -1,0 +1,14 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Lua|Module:Text}}
+This template returns its first argument, after adding a full stop (or its second argument) if the sentence was not finished.
+
+== Usage ==
+* {{#invoke:DemoTemplate|{{BASEPAGENAME}}|The rain in Spain}}
+* {{#invoke:DemoTemplate|{{BASEPAGENAME}}|falls mainly on the plain.}}
+* {{#invoke:DemoTemplate|{{BASEPAGENAME}}|BANG|!}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line -->
+{{uncategorized}}
+}}</includeonly>

@@ -1,0 +1,25 @@
+{{Image label begin|image=Atirhran Map Labelled.png|width={{{width|1100}}}|font-size=95%|float={{{float|none}}}|link=}}
+
+{{Image label custom|x=640|y=290|scale=1|text=''[[:Category:Central Atirha|Central Atirha]]''}}
+{{Image label custom|x=890|y=270|scale=1|text=''[[:Category:East Atirha|East<br>Atirha]]''}}
+{{Image label custom|x=450|y=360|scale=1|text=''[[:Category:West Atirha|West<br>Atirha]]''}}
+{{Image label custom|x=1055|y=30|scale=1|text=''[[:Category:Ayuma|Ayuma]]''}}
+
+{{Image label custom|x=540|y=450|scale=1|text='[[Puchala]]}}
+{{Image label custom|x=580|y=210|scale=1|text='[[The Great Mountain Range|The Great<br>Mountain Range]]}}
+{{Image label custom|x=370|y=311|scale=1|text='[[Cawrrolds]]}}
+{{Image label custom|x=730|y=150|scale=1|text='[[The Great Lake]]}}
+{{Image label custom|x=515|y=425|scale=1|text='[[Lake Uterri ]]}}
+{{Image label custom|x=880|y=340|scale=1|text='[[Lake Agran]]}}
+{{Image label custom|x=155|y=270|scale=1|text='[[Island Chain]]}}
+{{Image label custom|x=370|y=360|scale=1|text='[[Falurr]]}}
+{{Image label custom|x=610|y=380|scale=1|text='[[Raledrian Vally]]}}
+{{Image label custom|x=730|y=260|scale=1|text='[[Geaiyan Sheild]]}}
+{{Image label custom|x=933|y=402|scale=1|text='[[Salal]]}}
+{{Image label custom|x=450|y=410|scale=1|text='[[Zahni]]}}
+{{Image label custom|x=730|y=340|scale=1|text='[[Kissesch]]}}
+{{Image label custom|x=550|y=340|scale=1|text='[[Kethele]]}}
+{{Image label custom|x=850|y=230|scale=1|text='[[Mii lands]]}}
+
+
+{{Image label end}}</center>

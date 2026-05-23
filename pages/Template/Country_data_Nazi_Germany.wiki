@@ -1,0 +1,36 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Nazi Germany
+| shortname alias = Germany
+| flag alias = Flag of Germany (1935–1945).svg
+| flag alias-1933 = Flag of the German Reich (1933–1935).svg
+| flag alias-1933n = Flag of the NSDAP (1920–1945).svg
+| flag alias-naval = War ensign of Germany (1938–1945).svg
+| link alias-naval = Kriegsmarine
+| flag alias-army = War ensign of Germany (1938–1945).svg
+| link alias-army = German Army (1935–1945){{!}}German Army
+| flag alias-air force = War ensign of Germany (1938–1945).svg
+| link alias-air force = Luftwaffe
+| flag alias-navy = War ensign of Germany (1938–1945).svg
+| link alias-navy = Kriegsmarine
+| flag alias-military = War ensign of Germany (1938–1945).svg
+| link alias-military = Wehrmacht
+| flag alias-ss = Flag of the Schutzstaffel.svg
+| link alias-ss = Schutzstaffel
+| flag alias-sa = Flag of Germany (1935–1945).svg
+| link alias-sa = Sturmabteilung
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1933
+| var2 = 1933n
+| var3 = ss
+| var4 = sa
+| related1 = Germany
+| related2 = German Empire
+| related3 = Weimar Republic
+| cat = Germany, Nazi
+</noinclude>
+}}

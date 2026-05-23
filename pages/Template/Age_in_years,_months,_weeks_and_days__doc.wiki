@@ -1,0 +1,30 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{Lua|Module:Age}}
+
+This template returns the number of months, weeks and days that have elapsed between two dates. 
+
+== Usage ==
+
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |month1 = |day1 = |year1 = |month2 = |day2 = | year2 = }}</code>
+
+Note that all parameters default to the current date, so for example, the second set of parameters can be left out to calculate elapsed time since a past date:
+* <code><nowiki>{{</nowiki>Age in years, months, weeks and days |month1 = 1 |day1 = 1 |year1 = 1 }}</code> → {{Age in years, months, weeks and days |month1=1 |day1=1 |year1=1 }}
+
+Or simply, using the simpler parameter names, compatible with {{tl|Age in years, months and days}}:
+* <code><nowiki>{{</nowiki>Age in years, months, weeks and days |month = 1 |day = 1 |year = 1 }}</code> → {{Age in years, months, weeks and days |month=1 |day=1 |year=1 }}
+
+Alternatively, the first set of parameters can be left out to get the time left until a future date, such as the next [[Wikipedia:Wikipedia Day|Wikipedia Day]]:
+* <code><nowiki>{{</nowiki>Age in years, months, weeks and days |month2 = 1 |day2 = 15 |year2 = {{#ifexpr:{{CURRENTMONTH}}{{CURRENTDAY2}}>0114|{{#time:Y|+1year}}|{{CURRENTYEAR}}}} }}</code> → {{Age in years, months, weeks and days |month2=1 |day2=15 |year2={{#ifexpr:{{CURRENTMONTH}}{{CURRENTDAY2}}>0114|{{#time:Y|+1year}}|{{CURRENTYEAR}}}} }}
+
+== See also ==
+* [[Wikipedia:Age calculation templates]]
+
+{{Birth, death and age templates|age}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line and interwikis at Wikidata -->
+[[Category:Date mathematics templates|{{PAGENAME}}]]
+
+}}</includeonly>

@@ -1,0 +1,7 @@
+{{#if:{{{char_entity|}}}{{{note|}}}
+|({{trim|1=<!--
+   -->{{#ifeq:{{{char_entity|}}}|||{{mono|1={{{char_entity|}}}}}<!-- -->{{#if:{{{note|}}}|{{int:dot-separator}}}}}} <!--
+   -->{{{note|}}}<!--
+  -->}})}}<!--
+  
+  --><noinclude>{{Documentation}}</noinclude>

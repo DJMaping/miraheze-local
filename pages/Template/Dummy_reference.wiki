@@ -1,0 +1,3 @@
+<includeonly><templatestyles src="Template:Fake link/styles.css" />{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{Error|[[Template:Dummy reference]] is only for use in template documentation, guidelines and other Wikipedia-internal purposes. Do not use it in actual articles.}}[[Category:Articles with dummy references]]|<sup class="reference nowrap ltr fakelinks">[{{#ifeq:{{yes/no|{{{txtital|}}}}}|yes|<span style="font-style:italic">}}{{#if:{{{txtcol|}}}|<span style="color:{{{txtcol|}}}">}}{{{1|1}}}{{#if:{{{txtcol|}}}|</span>}}{{#ifeq:{{yes/no|{{{txtital|}}}}}|yes|</span>}}]</sup>}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

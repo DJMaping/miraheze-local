@@ -1,0 +1,2 @@
+<abbr {{#if:{{{class|}}}|class="{{{class}}}"}} {{#if:{{{id|}}}|id="{{{id}}}"}} {{#if:{{{style|}}}|style="{{{style}}}"}} title="{{#tag:nowiki|{{#invoke:String|replace|{{{2|}}}|"|&quot;}}}}">{{{1|}}}</abbr><noinclude>{{Documentation}}
+</noinclude>

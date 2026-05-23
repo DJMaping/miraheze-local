@@ -1,0 +1,53 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = India
+| flag alias = Flag of India.svg
+| flag alias-1880 = British Raj Red Ensign.svg
+| flag alias-British = British Raj Red Ensign.svg
+| flag alias-1931 = 1931 Flag of India.svg
+| flag alias-civil = Civil Ensign of India.svg
+| flag alias-army = Flag of Indian Army.svg
+| link alias-army = Indian Army
+| flag alias-naval-1879 = Flag of Imperial India.svg
+| flag alias-naval-1884 = Flag of Imperial India.svg
+| flag alias-naval-1928 = Naval ensign of the United Kingdom.svg
+| flag alias-naval-1947 = Naval ensign of the United Kingdom.svg
+| flag alias-naval-1950 = Naval Ensign of India (1950–2001).svg
+| flag alias-naval-2001 = Naval Ensign of India (2001–2004).svg
+| flag alias-naval-2004 = Naval Ensign of India (2004–2014).svg
+| flag alias-naval-2014 = Naval Ensign of India (2014–2022).svg
+| flag alias-naval-2022 = Naval Ensign of India (2022).svg
+| flag alias-naval = Naval Ensign of India.svg
+| flag alias-air force-1950 = Air Force Ensign of India (1950–2023).svg
+| flag alias-air force = Air Force Ensign of India.svg
+| flag alias-coast guard = Indian Coast Guard flag.svg
+| link alias-coast guard = Indian Coast Guard
+| link alias-naval = Indian Navy
+| link alias-air force = Indian Air Force
+| flag alias-navy = Naval Ensign of India.svg
+| link alias-navy = Indian Navy
+| flag alias-military = Flag of Indian Armed Forces.svg
+| link alias-military = Indian Armed Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1880
+| var2 = British
+| var3= 1931
+| var4 = civil
+| var5 = naval-1879
+| var6 = naval-1884
+| var7 = naval-1928
+| var8 = naval-1947
+| var9 = naval-1950
+| var10 = naval-2001
+| var11 = naval-2004
+| var12 = naval-2014
+| var13 = naval-2022
+| var14 = air force-1950
+| redir1 = IND
+| related1 = British Raj
+| related2 = Dominion of India
+</noinclude>
+}}

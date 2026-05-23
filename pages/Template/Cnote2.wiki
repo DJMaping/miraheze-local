@@ -1,0 +1,22 @@
+<li id="cnote_{{anchorencode:{{{1}}}}}{{#if:{{{group|}}}|_grp_{{anchorencode:{{{group}}}}}}}" name="cnote_{{anchorencode:{{{1}}}}}{{#if:{{{group|}}}|_grp_{{anchorencode:{{{group}}}}}}}" {{#if:{{{value|}}}|value{{=}}"{{{value}}}"}} >{{#if:{{{n|}}}|{{#switch: {{{n}}}<!--
+
+-->|0=<!--
+
+-->|1=<span class="mw-cite-backlink">'''[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|^]]'''</span><!--
+
+-->|2=<span class="mw-cite-backlink">^ '''''<sup>[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|a]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_2|b]]</sup>'''''</span><!--
+
+-->|3=<span class="mw-cite-backlink">^ '''''<sup>[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|a]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_2|b]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_3|c]]</sup>'''''</span><!--
+
+-->|4=<span class="mw-cite-backlink">^ '''''<sup>[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|a]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_2|b]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_3|c]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_4|d]]</sup>'''''</span><!--
+
+-->|5=<span class="mw-cite-backlink">^ '''''<sup>[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|a]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_2|b]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_3|c]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_4|d]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_5|e]]</sup>'''''</span><!--
+
+-->|6=<span class="mw-cite-backlink">^ '''''<sup>[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|a]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_2|b]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_3|c]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_4|d]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_5|e]] [[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_6|f]]</sup>'''''</span><!--
+
+-->|#default = <span class="error">n must either be omitted or equal an integer between 1 and 6</span><!--
+
+-->}}|<span class="mw-cite-backlink">'''[[#ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_1|^]]'''</span>
+}} <div style="display:inline;" class="reference-text">{{{2|<span class="error">parameter "2", text parameter, is empty</span>}}}</div></li><noinclude>
+{{Documentation}}<!-- Please add documentation and categories to the /doc subpage, interwikis to Wikidata, thank you -->
+</noinclude>

@@ -1,0 +1,36 @@
+==List of states and territories==
+'''Continue to [[North Quia]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Anymna}} || [[Anymna]] || style="text-align:right;" | 500,370 || style="text-align:right;" | 21,768,597 || style="text-align:right;" | 44 || [[Khureldai]]
+|-
+| style="text-align:center;"| {{flagicon|Baluyde}} || [[Baluyde]] || style="text-align:right;" | 15,195 || style="text-align:right;" | 1,638,021 || style="text-align:right;" | 108 || [[Kirotu]]
+|-
+| style="text-align:center;"| {{flagicon|Letan}} || [[Letan]] || style="text-align:right;" | 1,646 || style="text-align:right;" | 76,045 || style="text-align:right;" | 46 || [[Actilica]]
+|-
+| style="text-align:center;"| {{flagicon|Shomjind}} || [[Shomjind]] || style="text-align:right;" | 42,776 || style="text-align:right;" | 2,898,502 || style="text-align:right;" | 68 || [[City 1 (Arimoa)]]
+|-
+| style="text-align:center;"| {{flagicon|Wundry}} || [[Wundry]] || style="text-align:right;" | 509,719 || style="text-align:right;" | 140,080,976 || style="text-align:right;" | 275 || [[Teveme]]
+|-
+| style="text-align:center;"| {{flagicon|Yihnurda}} || [[Yihnurda]] || style="text-align:right;" | 1,886,209 || style="text-align:right;" | 8,714,286 || style="text-align:right;" | 5 || [[Parloth]]
+|-
+| style="text-align:center;"| {{flagicon|Ztesh}} || [[Ztesh]] || style="text-align:right;" | 1,682,296 || style="text-align:right;" | 425,141,434 || style="text-align:right;" | 253 || [[Nakos]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 4,638,211
+| style="text-align:right;"| 600,317,860
+| style="text-align:right;"| 130
+|}
+
+[[Category:Pages with broken file links]]
+[[Category:Quia]]
+[[Category:Quian Regions]]

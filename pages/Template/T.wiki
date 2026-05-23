@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Template link]]
+
+{{Rcat shell|
+{{R from template shortcut}}
+}}
+<!-- Used as Template:tl throughout English Wikipedia; demo template referenced only on meta -->

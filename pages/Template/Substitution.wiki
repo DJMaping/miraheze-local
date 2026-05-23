@@ -1,0 +1,1 @@
+{{Ombox | type = notice | text = {{#if:{{{2|}}}||}}This template should {{large|'''{{{1}}}'''}} be [[Wikipedia:Substitution|substituted]]{{#if:{{{2|}}}|&#32;{{{2}}}}}. }}<noinclude> {{Documentation}} </noinclude>

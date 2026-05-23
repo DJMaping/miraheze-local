@@ -1,0 +1,11 @@
+<noinclude>{{hatnote|This rcat template is automatically added to all new redirects that result from page moves; it must be added manually to older redirects when appropriate.}}{{This is a redirect/rcat}}
+</noinclude>{{Redirect template
+  |id=R from move
+  |name=From a page move
+  |from=a page that has been moved (renamed)
+  |info=This page was kept as a redirect to avoid breaking links, both internal and external, that may have been made to the old page name.
+  |all category=Redirects from moves
+}}<includeonly>{{R from move/except}}</includeonly><noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}}
+</noinclude>

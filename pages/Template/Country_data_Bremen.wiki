@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bremen (state)
+| shortname alias = Bremen
+| flag alias = Flag of Bremen.svg
+| flag alias-1919 = Socialist red flag.svg
+| link alias-1919 = Bremen Soviet Republic
+| flag alias-soviet = Socialist red flag.svg
+| link alias-soviet = Bremen Soviet Republic
+| name = {{{name|}}}
+<noinclude>
+| var1 = 1919
+| var2 = soviet
+| related1 = Bremen Soviet Republic
+| size = {{{size|}}}
+| redir1 = DE-HB
+</noinclude>}}

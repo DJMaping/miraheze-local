@@ -1,0 +1,6 @@
+#REDIRECT [[Template:R from shortcut]]
+
+{{rcat shell|
+{{R from merge}}
+{{R to rcat}}
+}}

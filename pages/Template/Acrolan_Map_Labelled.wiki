@@ -1,0 +1,25 @@
+{{Image label begin|image=Acrolan Map Labelled.png|width={{{width|1100}}}|font-size=95%|float={{{float|none}}}|link=}}
+{{Image label custom|x=105|y=48|scale=1|text=🡔}}
+{{Image label custom|x=550|y=250|scale=1|text=''[[:Category:North Acrola|North<br>Acrola]]''}}
+{{Image label custom|x=640|y=330|scale=1|text=''[[:Category:Middle Acrola|Middle<br>Acrola]]''}}
+{{Image label custom|x=600|y=430|scale=1|text=''[[:Category:South Acrola|South<br>Acrola]]''}}
+{{Image label custom|x=550|y=150|scale=1|text=[[The Red River]]}}
+{{Image label custom|x=610|y=200|scale=1|text=[[Synctra Shield]]}}
+{{Image label custom|x=505|y=200|scale=1|text=[[Arten Vally]]}}
+{{Image label custom|x=505|y=360|scale=1|text=[[Ducili Steppes]]}}
+{{Image label custom|x=430|y=450|scale=1|text=[[Kiha]]}}
+{{Image label custom|x=420|y=175|scale=1|text=[[Valmiran Mountains|Valmiran<br>Mountains]]}}
+{{Image label custom|x=370|y=350|scale=1|text=[[Moksha Mountains|Moksha<br>Mountains]]}}
+{{Image label custom|x=530|y=530|scale=1|text=[[Okaren Mountains|Okaren Mountains]]}}
+{{Image label custom|x=450|y=270|scale=1|text=[[Siita Desert]]}}
+{{Image label custom|x=715|y=430|scale=1|text=[[Lake Erhau]]}}
+{{Image label custom|x=550|y=495|scale=1|text=[[Dyrswo Desert]]}}
+{{Image label custom|x=520|y=445|scale=1|text=[[Coroa]]}}
+{{Image label custom|x=715|y=390|scale=1|text=[[Honi]]}}
+{{Image label custom|x=635|y=260|scale=1|text=[[The Otafer]]}}
+
+{{Image label custom|x=680|y=550|scale=1|text=''[[:Category:Mahea|Mahea]]''}}
+{{Image label custom|x=355|y=520|scale=1|text=''[[:Category:Massir|Massir]]''}}
+{{Image label custom|x=350|y=090|scale=1|text=''[[:Category:Ayuma|Ayuma]]''}}
+{{Image label custom|x=050|y=270|scale=1|text=↓}}
+{{Image label end}}</center>

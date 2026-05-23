@@ -1,0 +1,19 @@
+/* {{pp-template}} */
+.mw-tmpl-kbd {
+	background: #EEE;
+	color: var(--color-base);
+}
+
+
+@media screen {
+    html.skin-theme-clientpref-night .mw-tmpl-kbd {
+		background: #171a1d;
+	}
+}
+
+
+@media screen and (  prefers-color-scheme: dark ) {
+	html.skin-theme-clientpref-os .mw-tmpl-kbd {
+		background: #171a1d;
+	}
+}

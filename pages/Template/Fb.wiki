@@ -1,0 +1,10 @@
+<span style="white-space:{{safesubst:<noinclude/>yesno|{{{wrap|}}}|yes=normal|no=nowrap}}">{{country data {{{1}}}
+| {{safesubst:<noinclude/>yesno|{{{align|}}}|yes=flag link/aligned|no=flag link/core}}
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = national football team
+| altvar = football
+}}</span><noinclude>
+{{documentation}}
+</noinclude>

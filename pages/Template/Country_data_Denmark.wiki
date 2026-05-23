@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Denmark
+| flag alias = Flag of Denmark.svg
+| flag alias-state = Flag of Denmark (state).svg
+| border-state =
+| flag alias-naval = Naval Ensign of Denmark.svg
+| link alias-naval = Royal Danish Navy
+| link alias-army = Royal Danish Army
+| flag alias-army = Flag of Denmark (state).svg
+| link alias-air force = Royal Danish Air Force
+| flag alias-air force = Flag of Denmark (state).svg
+| flag alias-navy = Naval Ensign of Denmark.svg
+| link alias-navy = Royal Danish Navy
+| border-army =
+| border-air force = 
+| border-naval = 
+| border-navy = 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = state
+| redir1 = DNK
+| redir2 = DEN
+| redir3 = Kingdom of Denmark
+</noinclude>
+}}

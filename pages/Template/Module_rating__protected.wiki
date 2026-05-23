@@ -1,0 +1,13 @@
+<includeonly>{{#switch:{{Namespace detect|template=t|module=m|demospace={{{demospace|<noinclude>module</noinclude>}}}}}
+|t
+|m = {{#switch:{{#invoke:Effective protection level|edit|1={{{demopage|{{#switch:{{SUBPAGENAME}}|doc|sandbox={{FULLBASEPAGENAME}}|#default={{FULLPAGENAME}}}}}}}}}|*|user=|#default={{ombox
+| type = notice
+| image = [[File:{{#switch:{{#invoke:Effective protection level|edit|1={{{demopage|{{#switch:{{SUBPAGENAME}}|doc|sandbox={{FULLBASEPAGENAME}}|{{FULLPAGENAME}}}}}}}}}|autoconfirmed=Semi|extendedconfirmed=Extended|accountcreator|templateeditor=Template|sysop=Full}}-protection-shackle.svg|40x40px|link=|alt=Protected]]
+| text = This {{Namespace detect|template=template|module=module|demospace={{{demospace|<noinclude>module</noinclude>}}}}} is [[:Category:Modules subject to page protection|subject to page protection]]{{#if:{{{reason|}}}|{{space}}{{{reason|}}}|. It is a [[Wikipedia:High-risk templates|highly visible {{Namespace detect|template=template|module=module|demospace={{{demospace|<noinclude>module</noinclude>}}}}}]] in use by a very large number of pages, or is [[Wikipedia:Substitution|substituted]] very frequently. Because vandalism or mistakes would affect many pages, and even trivial editing might cause substantial load on the servers, it is [[Wikipedia:Protection policy|protected]] from editing.}}
+}}
+}}
+|#default=
+}}</includeonly><noinclude>
+{{Module rating/protected}}
+{{documentation}}
+</noinclude>

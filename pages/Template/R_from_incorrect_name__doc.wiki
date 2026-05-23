@@ -1,0 +1,195 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]) -->
+{{High use| 6150 }}
+{{Substitution|not|nor used to tag [[Wikipedia:Soft redirects|soft redirects]]}}
+{{tsh|R wrongname}}
+__NOTOC__
+=== Purpose ===
+This template marks a redirect as one that should not be used as a link, and this template provides the correct name.  Any link to a redirect page transcluding this template should be changed to the correct name without [[WP:piping|piping]] that would hide the correct title.  
+
+This template automatically sorts the redirect into the following categories:
+* {{Cat|Redirects from incorrect names}} – should never be used in articles – only the '''''correct name''''' should be used
+* {{Cat|Unprintworthy redirects}} – when a [[WP:MAINSPACE|mainspace]] redirect is tagged
+In 2003, efforts were begun to support the [[Wikimedia Foundation]]'s goal of increasing access and availability of  ''Wikipedia'' articles in {{diff|Wikipedia:Pushing to 1.0||1319195|printed versions}}.  Redirects from incorrect names are not usually suitable for a printed version, so they are sorted to the [[wp:Printworthiness|Unprintworthy]] category by default.  [[#print|See below]] for what to do for those few incorrect names that are printworthy.
+{{info|image=Stop hand nuvola.svg|Please do not alter the printworthy settings of this rcat without first notifying the '''[[WP:Version 1.0 Editorial Team|Version 1.0 Editorial Team]]''', who are responsible for any and all materials, including redirects, that go into a printed version of ''Wikipedia''.}}
+
+With a correct name specified for all uses of this template, repair of links to the redirect page becomes simple: the link to the redirect page should be changed to link to the correct name.  Given the correct name is specified for each case below, it should always be easy to fix links to these redirects.
+
+=== Usage ===
+{{hatnote|Use this rcat template in '''any [[wp:namespace|namespace]]'''.}}
+* Use this redirect category ([[WP:RCAT|rcat]]) template for any redirect from an incorrect article name to the correct name. Add this template to the redirect in the following manner:
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[(target page name)]]
+
+{{Rcat shell|
+{{R from incorrect name}}
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+: Template {{tl|Rcat shell}} is an alias for the ''Redirect category shell'' template, which may be used to add as many appropriate rcats as needed, usually from one to seven, along with their parameters, to a redirect.  For more information see the documentation on its template page.  This rcat may also tag a redirect individually:
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[(target page name)]]
+
+{{R from incorrect name}}
+</syntaxhighlight>
+: This is in accord with instructions found at [[Wikipedia:REDCAT]].
+* This template is '''not''' for simple punctuation differences – use {{tl|R from modification}} ''instead''.
+* There is one unnamed parameter that may be used to specify the ''correct name'' when the target is different from the correct name or title:
+<syntaxhighlight lang="wikitext">
+{{Rcat shell|
+{{R from incorrect name|(correct name)}}
+}}
+</syntaxhighlight>
+:''or'':
+<syntaxhighlight lang="wikitext">
+{{R from incorrect name|(correct name)}}
+</syntaxhighlight>
+'''Example:''' 
+:''UK Cycling''[[File:Redirect arrow without text.svg|35px]]''British Cycling''  (the target, "British Cycling", is the name of an organisation)
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[British Cycling]]
+
+{{Rcat shell|
+{{R from incorrect name}}
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+:''or'':
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[British Cycling]]
+
+{{R from incorrect name}}
+</syntaxhighlight>
+:It is acceptable (however unnecessary and redundant) to specify the redirect target as the ''correct name'':
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[British Cycling]]
+
+{{Rcat shell|
+{{R from incorrect name|British Cycling}}
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+:''or'':
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[British Cycling]]
+
+{{R from incorrect name|British Cycling}}
+</syntaxhighlight>
+: Both of the above will change the wording from "The correct name is given by the target of the redirect," to "The correct name is '''{{Large|British Cycling}}'''."
+
+'''Redirect target only mentions subject:'''
+
+: If the target article just mentions the correct name and is not actually titled with it, then this rcat is used as follows:
+<syntaxhighlight lang="wikitext">
+{{Rcat shell|
+{{R from incorrect name|(correct name)}}
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+:''or'':
+<syntaxhighlight lang="wikitext">
+{{R from incorrect name|(correct name)}}
+</syntaxhighlight>
+:''The correct name should also be a redirect that targets the same article or other page name.''  That is, if this redirect is an incorrect name, and the target article is not the ''correct name'', there should be a matching redirect page that is titled with the ''correct name''.
+
+'''Example:''' 
+:''Virginia Western Coal and Iron Railroad''[[File:Redirect arrow without text.svg|35px]]''Virginia–Carolina Railway''; the correct name is '''Virginia Western Coal and Iron Railway''', which also redirects to the '''''Virginia–Carolina Railway''''' article:
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[Virginia–Carolina Railway]]
+
+{{Rcat shell|
+{{R from incorrect name|Virginia Western Coal and Iron Railway}}
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+: This will change the wording to "The correct name is '''{{large|Virginia Western Coal and Iron Railway}}'''."
+
+'''Redirect targets a #section or #anchor:'''
+
+: When the redirect is to a section or anchor within an article, then the correct usage is:
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[(target page)#(section or anchor title)]]
+
+{{Rcat shell|
+{{R from incorrect name|(correct name)}}
+{{R to section}} (or {{R to anchor}} if not a section title)
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+: The ''correct name'' is expected to be either the anchor/section title, or a redirect page that also redirects to that same anchor/section of the target page.  That is, if the redirect is an incorrect name, and the target page title, anchor title, or section header is not the correct name (the correct name is down in the page content), then there should be a matching redirect titled with the ''correct name''.
+
+'''[[WP:Printability|Printability]]:'''
+
+: {{anchor|print}}By default, this template sorts redirects into the {{c|Unprintworthy redirects}} category. There might be the occasional case where an incorrect name is still a good search term. Also, an incorrect title might be the correct name of another subject that has possibilities, that is, a subject that may have its own article someday.  To tag and categorize such an "incorrect-name" redirect as printworthy, use the unnamed 2nd parameter in the following manner:
+<syntaxhighlight lang="wikitext">
+{{Rcat shell|
+{{R from incorrect name||printworthy}}
+{{R with possibilities}}
+{{R printworthy}}
+}}
+
+  (note the two pipes together for an "empty" first parameter) or:
+
+{{Rcat shell|
+{{R from incorrect name|(correct name)|printworthy}}
+{{R with possibilities}}
+{{R printworthy}}
+}}
+</syntaxhighlight>
+: That will subdue the default unprintworthy category and populate {{Cat|Printworthy redirects}} ''instead''.  This must be done if {{tl|R with possibilities}} is also used on the redirect.  Otherwise, the redirect will be sorted to both ''Printworthy redirects'' and ''Unprintworthy redirects'' categories, an undesirable situation.
+
+==== Aliases ====
+* <span class="plainlinks">[{{fullurl:Special:WhatLinksHere/Template:R_from_incorrect_name|hidetrans=1&hidelinks=1&limit=500}} Also known as...]</span> – list of templates that redirect here and may also be used
+
+=== TemplateData ===
+{{TemplateData header}}
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Correct name",
+			"description": "The correct name of the subject, if different from the redirect's target.",
+			"type": "wiki-page-name"
+		},
+		"2": {
+			"label": "Printability",
+			"description": "Set to \"printworthy\" to mark the redirect as printworthy (otherwise marked as unprintworthy).",
+			"type": "line"
+		},
+		"demo": {
+			"description": "Set to \"yes\" to prevent categorization in Category:Redirects from incorrect names",
+			"type": "line"
+		}
+	},
+	"paramOrder": [
+		"1",
+		"2",
+		"demo"
+	],
+	"format": "inline"
+}
+</templatedata>
+
+=== See also ===
+* {{tl|R from less specific name}}
+* {{tl|R from more specific name}}
+* {{tl|R from alternative name}}
+* {{tl|R from non-neutral name}}
+* {{tl|R from subsidiary title}}, a special case of the '''R from incorrect name''' template that is used for [[subsidiary title]]s in the peerage system – hereditary titles held by royals or nobles, but not regularly used to identify those whom they name
+* {{tl|R from misspelling}}
+* [[Wikipedia:WikiProject Redirect/Style guide|WikiProject Redirect/Style guide]]
+
+{{R template index}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Redirect templates|Incorrect name]]
+[[Category:Redirects from incorrect names| ]]
+[[Category:Templates for unprintworthy redirects|Incorrect name]]
+[[Category:Unprintworthy redirects| ]]
+[[Category:Templates for printworthy redirects|Incorrect name]]
+[[Category:Printworthy redirects| ]]
+[[Category:All namespace redirect templates]]}}</includeonly> <noinclude>
+[[Category:Redirect category template documentation pages|Incorrect name]]
+</noinclude>

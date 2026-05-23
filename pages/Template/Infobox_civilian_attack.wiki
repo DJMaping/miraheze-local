@@ -1,0 +1,112 @@
+{{#invoke:Infobox|infoboxTemplate
+| bodyclass  = vevent
+| aboveclass = summary
+| abovestyle = font-size:125%;
+| above      = {{if empty|{{{title|}}}|{{PAGENAMEBASE}}}}
+| subheader2 = {{#if:{{{partof|}}}|Part of {{{partof|}}}}}
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}} |size={{{image_size|}}}|upright={{{image_upright|}}}|sizedefault=frameless|alt={{{alt|}}}}}
+| caption    = {{{caption|}}}
+| image2     = {{#invoke:InfoboxImage|InfoboxImage |image={{{map|}}} |size={{{map_size|}}} |upright={{{map_upright|}}}|sizedefault=250px |alt={{{map_alt|}}} }}
+| caption2   = {{{map_caption|}}}
+
+| image3     = {{#invoke:Infobox mapframe
+  | autoWithCaption
+  | onByDefault = no
+  | mapframe-frame-width = 250
+  | mapframe-zoom = 6
+}}
+
+| subheader  = {{{subheader|}}}
+
+| label1     = Native&nbsp;name
+|  data1     = {{#if:{{{native_name|}}}|<span {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
+
+| label2     = Location
+| class2     = location
+| data2      = {{br list
+ |{{#invoke:WikidataIB|getValue|P625|name=coordinate location|suppressfields={{{suppressfields|}}}|fetchwikidata={{if empty|{{{fetchwikidata|}}}|ALL}}|onlysourced={{{onlysourced|}}}|{{{coordinates|}}} }}
+ |{{#invoke:WikidataIB|getValue|P276|name=location|suppressfields={{{suppressfields|}}}|fetchwikidata={{if empty|{{{fetchwikidata|}}}|ALL}}|onlysourced={{{onlysourced|}}}|{{{location|}}} }}
+ }}
+
+| label4     = Date
+| data4      = {{#invoke:WikidataIB|getValue|P585|name=date|suppressfields={{{suppressfields|}}}|fetchwikidata={{if empty|{{{fetchwikidata|}}}|ALL}}|onlysourced={{{onlysourced|}}}|{{{date|}}} {{#if:{{{time|}}}|<br/>{{{time}}}}}{{#if:{{{time-begin|}}}|<br/>{{{time-begin}}}&nbsp;– {{{time-end}}}}} {{#if:{{{timezone|}}}|({{{timezone}}})}} }}
+
+| label5     = Target
+| data5      = {{{target|}}}
+
+| label6     = {{longitem|Attack type}}
+| data6      = {{{type|}}}
+
+| label7     = Weapon{{#if:{{{weapon|}}} | |s}}
+| data7      = {{if empty|{{{weapon|}}}|{{{weapons|}}}}}
+
+| label8     = Deaths
+| data8      = {{{fatalities|}}}
+
+| label9     = Injured
+| data9      = {{{injuries|}}}
+
+| label10    = {{#if:{{{victims|}}}|Victims|Victim}}
+| data10     = {{if empty|{{{victims|}}}|{{{victim|}}}}}
+
+| label11    = {{#if:{{{perpetrators|}}}{{{perps|}}}|Perpetrators|Perpetrator}}
+| data11     = {{#if:{{{perpetrators|}}}{{{perps|}}}|{{if empty|{{{perpetrators|}}}|{{{perps}}}}}|{{if empty|{{{perpetrator|}}}|{{{perp|}}}}}}}
+
+| label12    = {{#if:{{{assailants|}}}|Assailants|Assailant}}
+| data12     = {{if empty|{{{assailants|}}}|{{{assailant|}}}}}
+
+| label13    = {{#if:{{{numparts|}}}|{{longitem|{{abbr|No.|Number}}&nbsp;of participants}}|Participant}}
+| data13     = {{if empty|{{{numparts|}}}|{{{numpart|}}}}}
+
+| label14    = {{#if:{{{dfens|}}}|Defenders|Defender}}
+| data14     = {{if empty|{{{dfens|}}}|{{{dfen|}}}}}
+
+| label15    = Motive
+| data15     = {{{motive|}}}
+
+| label16    = {{#if:{{{inquiries|}}}|Inquiries|Inquiry}}
+| data16     = {{if empty|{{{inquiries|}}}|{{{inquiry|}}}}}
+
+| label17    = {{#if:{{{coroners|}}}|Coroners|Coroner}}
+| data17     = {{if empty|{{{coroners|}}}|{{{coroner|}}}}}
+
+| label18    = Accused
+| data18     = {{{accused|}}}
+
+| label19    = Charges
+| data19     = {{{charges|}}}
+
+| label20    = Verdict
+| data20     = {{{verdict|}}}
+
+| label21    = Convictions
+| data21     = {{{convictions|}}}
+
+| label22    = Convicted
+| data22     = {{{convicted|}}}
+
+| label23    = Litigation
+| data23     = {{{litigation|}}}
+
+| label24    = Judge
+| data24     = {{{judge|}}}
+
+| label25    = Website
+| data25     = {{{website|}}}
+
+| header26 = {{{module|}}}
+
+| data27     = {{#if:{{{notes|}}} |<div style="border-top:1px solid #aaa;">{{{notes}}}</div>}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox civilian attack with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox civilian attack]] with unknown parameter "_VALUE_"|ignoreblank=y|mapframe_args=y| accused | alt | assailant | assailants | caption | charges | convicted | convictions | coordinates | coroner | coroners | date | dfen | dfens | fatalities | fetchwikidata | image | image_size | image_upright | injuries | inquiries | inquiry | judge | litigation | location | map | map_alt | map_caption | map_size | map_upright | module | motive | native_name | native_name_lang | notes | numpart | numparts | onlysourced | partof | perp | perpetrator | perpetrators | perps | subheader | suppressfields | target | time | time-begin | time-end | timezone | title | type | verdict | victim | victims | weapon | weapons | website }}{{#invoke:Check for conflicting parameters|check
+| template = [[Template:Infobox civilian attack]]
+| cat = {{main other|Category:Pages using infobox civilian attack with conflicting parameters}}
+| weapon; weapons 
+| victims; victim 
+| perpetrators; perps 
+| perpetrator; perp 
+| assailants; assailant 
+| numparts; numpart 
+| dfens; dfen 
+| inquiries; inquiry 
+| coroners; coroner 
+}}<noinclude>{{Documentation}}</noinclude>

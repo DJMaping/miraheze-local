@@ -1,0 +1,42 @@
+/* {{pp|small=y}} */
+.toc-top-false-title {
+	font-weight: bold;
+	text-align: center;
+}
+
+.toc-top .hlist ul {
+	text-align: inherit;
+}
+
+@media all and (min-width: 720px) {
+	.toc-top {
+		clear: left;
+	}
+	
+	.toc-top-left {
+		float: left;
+	}
+	
+	.toc-top-right {
+		float: right;
+		clear: right;
+	}
+	
+	.toc-top-center {
+		 margin: auto;
+		 clear: none;
+	}
+}
+
+/* Vector 2022 rules */
+
+body.skin-vector-2022 .toc-top {
+	padding: 7px;
+}
+
+body.skin-vector-2022 .toc-top #toc-title-text {
+	border-bottom: 0;
+	margin-top: 0;
+	font-weight: bold;
+	text-align: center;
+}

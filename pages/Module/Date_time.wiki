@@ -1,0 +1,642 @@
+--[[
+Module:Date time – Date formatting and validation module.
+
+This module provides functions for validating and formatting dates in templates such as
+{{Start date}}, {{End date}}, {{Start date and age}}, and {{End date and age}}. 
+It handles:
+- Validation of date components (year, month, day)
+- Validation of time components (hour, minute, second)
+- Timezone formatting and validation
+- Generation of appropriate hCalendar microformat markup
+- "time-ago" calculations
+
+Design notes:
+- Functions are organized into helper, validation, and formatting sections
+- Error handling uses a consistent pattern with centralized error messages
+- Timezone validation supports standard ISO 8601 formats
+- Leap year calculation is cached for performance
+]]
+
+require("strict")
+
+local p = {}
+
+---------------
+-- Constants --
+---------------
+
+local HTML_SPACE = "&#32;"
+local HTML_NBSP = "&nbsp;"
+
+-- Error message constants
+local ERROR_MESSAGES = {
+	integers = "All values must be integers",
+	has_leading_zeros = "Values cannot have unnecessary leading zeros",
+	missing_year = "Year value is required",
+	invalid_month = "Value is not a valid month",
+	missing_month = "Month value is required when a day is provided",
+	invalid_day = "Value is not a valid day (Month %d has %d days)",
+	invalid_hour = "Value is not a valid hour",
+	invalid_minute = "Value is not a valid minute",
+	invalid_second = "Value is not a valid second",
+	timezone_incomplete_date = "A timezone cannot be set without a day and hour",
+	invalid_timezone = "Value is not a valid timezone",
+	yes_value_parameter = '%s must be either "yes" or "y"',
+	duplicate_parameters = 'Duplicate parameters used: %s and %s',
+	template = "Template not supported",
+	time_without_hour = "Minutes and seconds require an hour value"
+}
+
+-- Template class mapping
+-- "itvstart" and "itvend" are unique classes used by the TV infoboxes,
+-- which only allow the usage of {{Start date}} and {{End date}}.
+local TEMPLATE_CLASSES = {
+	["start date"] = "bday dtstart published updated itvstart",
+	["start date and age"] = "bday dtstart published updated",
+	["end date"] = "dtend itvend",
+	["end date and age"] = "dtend"
+}
+
+-- Templates that require "time ago" calculations
+local TIME_AGO = {
+	["start date and age"] = true,
+	["end date and age"] = true
+}
+
+-- English month names
+local MONTHS = {
+	"January", "February", "March", "April", "May", "June",
+	"July", "August", "September", "October", "November", "December"
+}
+
+-- Error category
+local ERROR_CATEGORY = "[[Category:Pages using Module:Date time with invalid values]]"
+
+-- Namespaces where error categories should be applied
+local CATEGORY_NAMESPACES = {
+	[0] = true,		-- Article
+	[1] = true,		-- Article talk
+	[4] = true,		-- Wikipedia
+	[10] = true,	-- Template
+	[100] = true,	-- Portal
+	[118] = true	-- Draft
+}
+
+-- Cached leap year calculations for performance
+local leap_year_cache = {}
+
+-- Local variables for error handling
+local help_link
+
+----------------------
+-- Helper Functions --
+----------------------
+
+--- Pads a number with leading zeros to ensure a minimum of two digits.
+-- @param value (number|string) The value to pad with leading zeros
+-- @return string The value padded to at least two digits, or nil if input is nil
+local function pad_left_zeros(value)
+	if value == nil then
+		return nil
+	end
+
+	local str = tostring(value)
+	return string.rep("0", math.max(0, 2 - #str)) .. str
+end
+
+--- Replaces [[U+2212]] (Unicode minus) with [[U+002D]] (ASCII hyphen) or vice versa.
+-- @param value (string) The string value to process
+-- @param to_unicode (boolean) If true, converts ASCII hyphen to Unicode minus;
+--                            If false, converts Unicode minus to ASCII hyphen
+-- @return string The processed string with appropriate minus characters, or nil if input is nil
+local function replace_minus_character(value, to_unicode)
+	if not value then
+		return nil
+	end
+
+	if to_unicode then
+		return value:gsub("-", "−")
+	end
+
+	return value:gsub("−", "-")
+end
+
+--- Normalizes timezone format by ensuring proper padding of hours.
+-- @param timezone (string) The timezone string to normalize
+-- @return string The normalized timezone string with properly padded hours, or nil if input is nil
+local function fix_timezone(timezone)
+	if not timezone then
+		return nil
+	end
+
+	-- Replace U+2212 (Unicode minus) with U+002D (ASCII hyphen)
+	timezone = replace_minus_character(timezone, false)
+
+	-- Match the timezone pattern for ±H:MM format
+	local sign, hour, minutes = timezone:match("^([+-])(%d+):(%d+)$")
+
+	if sign and hour and minutes then
+		-- Pad the hour with a leading zero if necessary
+		hour = pad_left_zeros(hour)
+		return sign .. hour .. ":" .. minutes
+	end
+
+	-- If no match, return the original timezone (this handles invalid or already padded timezones)
+	return timezone
+end
+
+--- Checks if a timezone string is valid according to standard timezone formats.
+-- Valid timezones range from UTC-12:00 to UTC+14:00.
+-- @param timezone (string) The timezone string to validate
+-- @return boolean true if the timezone is valid, false otherwise
+local function is_timezone_valid(timezone)
+	-- Consolidated timezone pattern for better performance
+	local valid_patterns = {
+		-- Z (UTC)
+		"^Z$",
+		-- Full timezone with minutes ±HH:MM
+		"^[+]0[1-9]:[0-5][0-9]$",
+		"^[+-]0[1-9]:[0-5][0-9]$", 
+		"^[+-]1[0-2]:[0-5][0-9]$",
+		"^[+]1[34]:[0-5][0-9]$",
+		-- Whole hour timezones ±HH
+		"^[+-]0[1-9]$",
+		"^[+-]1[0-2]$",
+		"^[+]1[34]$",
+		-- Special cases
+		"^[+]00:00$",
+		"^[+]00$"
+	}
+
+	-- Additional checks for invalid -00 and -00:00 cases
+	if timezone == "-00" or timezone == "-00:00" then
+		return false
+	end
+
+	for _, pattern in ipairs(valid_patterns) do
+		if string.match(timezone, pattern) then
+			return true
+		end
+	end
+
+	return false
+end
+
+--- Checks if a given year is a leap year.
+-- Uses a cache for better performance.
+-- @param year (number) The year to check for leap year status
+-- @return boolean true if the year is a leap year, false otherwise
+local function is_leap_year(year)
+	if leap_year_cache[year] == nil then
+		leap_year_cache[year] = (year % 4 == 0 and year % 100 ~= 0) or (year % 400 == 0)
+	end
+	return leap_year_cache[year]
+end
+
+--- Returns the number of days in a given month of a specified year.
+-- Handles leap years for February.
+-- @param year (number) The year to check for leap year conditions
+-- @param month (number) The month (1-12) for which to return the number of days
+-- @return number The number of days in the specified month, accounting for leap years
+local function get_days_in_month(year, month)
+	local days_in_month = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 }
+
+	if month == 2 and is_leap_year(year) then
+		return 29
+	end
+
+	return days_in_month[month] or 0
+end
+
+--- Checks if a given value has invalid leading zeros.
+-- @param value (string) The value to check for leading zeros
+-- @param field_type (string) Field type ("day", "month", "hour", "minute", "second")
+-- @return boolean true if the value has invalid leading zeros, false otherwise
+local function has_leading_zeros(value, field_type)
+	value = tostring(value)
+
+	-- Common checks for day and month
+	if field_type == "day" or field_type == "month" then
+		-- Reject "00" and values with leading zero followed by more than one digit
+		return value == "00" or 
+		       string.match(value, "^0[0-9][0-9]$") ~= nil or 
+		       string.match(value, "^0[1-9][0-9]") ~= nil
+	end
+
+	-- Checks for hour, minute, second
+	if field_type == "hour" or field_type == "minute" or field_type == "second" then
+		-- Allow "00" and "01" to "09"
+		if value == "00" or string.match(value, "^0[1-9]$") then
+			return false
+		end
+
+		-- Reject values starting with "0" followed by more than one digit
+		return string.match(value, "^0[0-9][0-9]+$") ~= nil
+	end
+
+	return false
+end
+
+--- Checks if a given value is an integer.
+-- @param value (string|number) The value to check
+-- @return boolean true if the value is a valid integer, false otherwise
+local function is_integer(value)
+	if not value then
+		return false
+	end
+	-- Check if the value is a number first
+	local num_value = tonumber(value)
+	if not num_value then
+		return false
+	end
+	-- Check if it's an integer by comparing floor with the original
+	if math.floor(num_value) ~= num_value then
+		return false
+	end
+	-- For string inputs, check for decimal point to reject values like "7."
+	if type(value) == "string" then
+		-- If the string contains a decimal point, it's not an integer
+		if string.find(value, "%.") then
+			return false
+		end
+	end
+	return true
+end
+
+--- Returns the name of a month based on its numerical representation.
+-- @param month_number (number) The month number (1-12)
+-- @return string|nil The name of the month, or nil if invalid
+local function get_month_name(month_number)
+	month_number = tonumber(month_number)
+	return MONTHS[month_number]
+end
+
+--- Generates an error message wrapped in HTML.
+-- @param message (string) The error message to format
+-- @param add_tracking_category (boolean, optional) If false, omits the tracking category
+-- @return string An HTML-formatted error message with help link and error category
+local function generate_error(message, add_tracking_category)
+	local category = ERROR_CATEGORY
+
+	if add_tracking_category == false then
+		category = ""
+	end
+
+	-- Get current page title object
+	local article_title = mw.title.getCurrentTitle()
+	
+	-- Special case for testcases pages
+	local is_test_page = article_title.subpageText == "testcases"
+	local allow_this_test_page = article_title.fullText == "Module talk:Date time/testcases"
+
+	-- Remove category if the page is not in a tracked namespace or is any other testcases other than this module
+	if (not CATEGORY_NAMESPACES[article_title.namespace] and not allow_this_test_page)
+	or (is_test_page and not allow_this_test_page) then
+		category = ""
+	end
+
+	return '<strong class="error">Error: ' .. message .. '</strong> ' .. help_link .. category
+end
+
+--------------------------
+-- Formatting Functions --
+--------------------------
+
+--- Formats the time portion of a datetime string.
+-- @param hour (string) The hour component
+-- @param minute (string) The minute component
+-- @param second (string) The second component
+-- @return string The formatted time string, or empty string if hour is nil
+local function format_time_string(hour, minute, second)
+	if not hour then
+		return ""
+	end
+
+	local time_string = string.format("%s:%s", hour, minute)
+
+	if second and second ~= "00" and minute ~= "00" then
+		time_string = string.format("%s:%s", time_string, second)
+	end
+
+	return time_string .. "," .. HTML_SPACE
+end
+
+--- Formats the date portion of a datetime string based on the specified format.
+-- @param year (string) The year component
+-- @param month (string) The month component
+-- @param day (string) The day component
+-- @param date_format_dmy (string) The date format ("yes" or "y" for day-month-year, otherwise month-day-year)
+-- @return string The formatted date string, or empty string if year is nil
+local function format_date_string(year, month, day, date_format_dmy)
+	if not year then
+		return ""
+	end
+
+	local date_string
+	if month then
+		local month_name = get_month_name(month)
+		
+		if day then
+			day = tonumber(day)
+			if date_format_dmy then
+				date_string = day .. HTML_NBSP .. month_name
+			else
+				date_string = month_name .. HTML_NBSP .. day .. ","
+			end
+			date_string = date_string .. HTML_NBSP .. year
+		else
+			date_string = month_name .. HTML_NBSP .. year
+		end
+	else
+		date_string = year
+	end
+
+	return date_string
+end
+
+--- Formats the timezone portion of a datetime string.
+-- @param timezone (string) The timezone component
+-- @return string The formatted timezone string, or empty string if timezone is nil
+local function format_timezone(timezone)
+	if not timezone then
+		return ""
+	end
+
+	return HTML_SPACE .. (timezone == "Z" and "(UTC)" or "(" .. timezone .. ")")
+end
+
+--- Generates an hCalendar microformat string for the given date-time values.
+-- @param date_time_values (table) A table containing date and time components
+-- @param classes (string) The CSS classes to apply to the microformat span
+-- @return string The HTML for the hCalendar microformat
+local function generate_h_calendar(date_time_values, classes)
+	local parts = {}
+
+	if date_time_values.year then
+		table.insert(parts, date_time_values.year)
+
+		if date_time_values.month then
+			table.insert(parts, "-" .. date_time_values.month)
+
+			if date_time_values.day then
+				table.insert(parts, "-" .. date_time_values.day)
+			end
+		end
+
+		if date_time_values.hour then
+			table.insert(parts, "T" .. date_time_values.hour)
+
+			if date_time_values.minute then
+				table.insert(parts, ":" .. date_time_values.minute)
+
+				if date_time_values.second then
+					table.insert(parts, ":" .. date_time_values.second)
+				end
+			end
+		end
+	end
+
+	local h_calendar_content = table.concat(parts) .. (date_time_values.timezone or "")
+	local class_span = string.format('<span class="%s">', classes)
+
+	return string.format(
+		'<span style="display: none;">%s(%s)</span>', 
+		HTML_NBSP, 
+		class_span .. h_calendar_content .. '</span>'
+	)
+end
+
+--- Generates a "time ago" string for age calculation templates.
+-- @param date_time_values (table) Table containing date components (year, month, day)
+-- @param br (boolean) Whether to include a line break before the time ago text
+-- @param p (boolean) Whether to format with parentheses around the time ago text
+-- @return string Formatted "time ago" text wrapped in a noprint span
+local function get_time_ago(date_time_values, br, p)
+	-- Build timestamp based on available date components
+	local timestamp
+	local min_magnitude
+	
+	if date_time_values.day then
+		-- Format with padding for month and day if needed
+		timestamp = string.format("%d-%02d-%02d", 
+								 date_time_values.year, 
+								 date_time_values.month, 
+								 date_time_values.day)
+		min_magnitude = "days"
+	elseif date_time_values.month then
+		-- Format with padding for month if needed
+		timestamp = string.format("%d-%02d", 
+								 date_time_values.year, 
+								 date_time_values.month)
+
+		-- Get the current date
+		local current_date = os.date("*t")
+
+		-- Compute the difference in months
+		local year_diff = current_date.year - date_time_values.year
+		local month_diff = (year_diff * 12) + (current_date.month - date_time_values.month)
+
+		-- If the difference is less than 12 months, use "months", otherwise "years"
+		if month_diff < 12 then
+			min_magnitude = "months"
+		else
+			min_magnitude = "years"
+		end
+	else
+		timestamp = tostring(date_time_values.year)
+		min_magnitude = "years"
+	end
+	
+	-- Calculate time ago using [[Module:Time]] ago
+	local m_time_ago = require("Module:Time ago")._main
+	local time_ago = m_time_ago({timestamp, ["min_magnitude"] = min_magnitude})
+	
+	-- Format the result based on br and p parameters
+	if br then
+		time_ago = p and ("<br/>(" .. time_ago .. ")") or (";<br/>" .. time_ago)
+	else
+		time_ago = p and (HTML_SPACE .. "(" .. time_ago .. ")") or (";" .. HTML_SPACE .. time_ago)
+	end
+	
+	-- Wrap in noprint span
+	return "<span class=\"noprint\">" .. time_ago .. "</span>"
+end
+
+--------------------------
+-- Validation Functions --
+--------------------------
+
+--- Validates the date and time values provided.
+-- @param args (table) Table containing date and time values and optional parameters
+-- @return nil|string Nil if validation passes, or an error message if validation fails
+local function _validate_date_time(args)
+	local template_name = args.template or "start date"
+	help_link = string.format("<small>[[:Template:%s|(help)]]</small>", template_name)
+
+	-- Store and validate date-time values
+	local date_time_values = {
+		year = args[1], 
+		month = args[2], 
+		day = args[3],
+		hour = args[4], 
+		minute = args[5], 
+		second = args[6]
+	}
+
+	-- Validate each value
+	for key, value in pairs(date_time_values) do
+		if value then
+			-- Check for integer and leading zeros
+			if not is_integer(value) then
+				return generate_error(ERROR_MESSAGES.integers)
+			end
+
+			if has_leading_zeros(tostring(value), key) then
+				return generate_error(ERROR_MESSAGES.has_leading_zeros)
+			end
+
+			-- Convert to number
+			date_time_values[key] = tonumber(value)
+		end
+	end
+
+	-- Validate date components
+	if not date_time_values.year then
+		return generate_error(ERROR_MESSAGES.missing_year)
+	end
+
+	if date_time_values.month and (date_time_values.month < 1 or date_time_values.month > 12) then
+		return generate_error(ERROR_MESSAGES.invalid_month)
+	end
+
+	if date_time_values.day then
+		if not date_time_values.month then
+			return generate_error(ERROR_MESSAGES.missing_month)
+		end
+
+		local max_day = get_days_in_month(date_time_values.year, date_time_values.month)
+		if date_time_values.day < 1 or date_time_values.day > max_day then
+			return generate_error(string.format(ERROR_MESSAGES.invalid_day, date_time_values.month, max_day))
+		end
+	end
+
+	-- Validate time components
+	if (date_time_values.minute or date_time_values.second) and not date_time_values.hour then
+		return generate_error(ERROR_MESSAGES.time_without_hour)
+	end
+
+	if date_time_values.hour and (date_time_values.hour < 0 or date_time_values.hour > 23) then
+		return generate_error(ERROR_MESSAGES.invalid_hour)
+	end
+
+	if date_time_values.minute and (date_time_values.minute < 0 or date_time_values.minute > 59) then
+		return generate_error(ERROR_MESSAGES.invalid_minute)
+	end
+
+	if date_time_values.second and (date_time_values.second < 0 or date_time_values.second > 59) then
+		return generate_error(ERROR_MESSAGES.invalid_second)
+	end
+
+	-- Timezone cannot be set without a specific date and hour
+	if args[7] and not (date_time_values.day and date_time_values.hour) then
+		return generate_error(ERROR_MESSAGES.timezone_incomplete_date)
+	elseif args[7] and not is_timezone_valid(args[7]) then
+		return generate_error(ERROR_MESSAGES.invalid_timezone)
+	end
+
+	-- Validate that there aren't any duplicate parameters
+	if args.p and args.paren then
+		return generate_error(string.format(ERROR_MESSAGES.duplicate_parameters, "p", "paren"))
+	end
+
+	-- Validate parameters that use "y" or "yes" for values	
+	local boolean_params = {'df', 'p', 'paren', 'br'}
+	for _, param_name in ipairs(boolean_params) do
+		if args[param_name] and not (args[param_name] == "yes" or args[param_name] == "y") then
+			return generate_error(string.format(ERROR_MESSAGES.yes_value_parameter, param_name))
+		end
+	end
+
+	return nil
+end
+
+----------------------
+-- Public Functions --
+----------------------
+
+--- Validates date-time values from template arguments.
+-- @param frame (table) The MediaWiki frame containing template arguments
+-- @return nil|string Result of date-time validation
+function p.validate_date_time(frame)
+	local get_args = require("Module:Arguments").getArgs
+	local args = get_args(frame)
+	
+	-- Sanitize inputs
+	args[7] = fix_timezone(args[7])
+	
+	return _validate_date_time(args)
+end
+
+--- Generates a formatted date string with microformat markup.
+-- @param frame (table) The MediaWiki frame containing template arguments
+-- @return string A formatted date string, or an error message if validation fails
+function p.generate_date(frame)
+	local get_args = require("Module:Arguments").getArgs
+	local args = get_args(frame)
+
+	-- Sanitize inputs
+	args[7] = fix_timezone(args[7])
+
+	local validation_error = _validate_date_time(args)
+	if validation_error then
+		return validation_error
+	end
+
+	local classes = TEMPLATE_CLASSES[args.template or "start date"]
+	if not classes then
+		return generate_error(ERROR_MESSAGES.template, false)
+	end
+	
+	-- Process date-time values
+	local date_time_values = {
+		year = args[1], 
+		month = pad_left_zeros(args[2]), 
+		day = pad_left_zeros(args[3]),
+		hour = pad_left_zeros(args[4]), 
+		minute = args[5] and pad_left_zeros(args[5]) or "00",
+		second = args[6] and pad_left_zeros(args[6]) or "00", 
+		timezone = replace_minus_character(args[7], true) -- Restore U+2212 (Unicode minus)
+	}
+
+    -- Generate individual components
+	local time_string = format_time_string(
+		date_time_values.hour, 
+		date_time_values.minute, 
+		date_time_values.second
+	)
+
+	local date_string = format_date_string(
+		date_time_values.year, 
+		date_time_values.month, 
+		date_time_values.day, 
+		args.df
+	)
+
+	local timezone_string = format_timezone(date_time_values.timezone)
+
+	local time_ago = ""
+	if TIME_AGO[args.template] then
+		time_ago = get_time_ago(
+			date_time_values, 
+			args.br,
+			args.p or args.paren
+		)
+	end
+
+	local h_calendar = generate_h_calendar(date_time_values, classes)
+
+	-- Combine components
+	return time_string .. date_string .. timezone_string .. time_ago .. h_calendar
+end
+
+return p

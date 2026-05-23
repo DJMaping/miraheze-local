@@ -1,0 +1,9 @@
+{{High-use}}
+{{lua|Module:Check for unknown parameters}}
+Implements [[Template:Multiple image]].
+
+Can be called directly with {{ml|Multiple image|{{!}}''template parameters''}} to reduce article [[WP:PEIS|post-expand include size]].
+
+The module depends on the setting of [[mediawikiwiki:Manual:$wgUseLegacyMediaStyles|$wgUseLegacyMediaStyles]].
+
+{{Uses TemplateStyles|Template:Multiple image/styles.css}}

@@ -1,0 +1,8 @@
+return {
+	name = 'Earth',
+	top = 90,
+	bottom = -90,
+	left = -180,
+	right = 180,
+	image = 'World location map (equirectangular 180).svg',
+	image1='World location map (equirectangular 180).svg'}

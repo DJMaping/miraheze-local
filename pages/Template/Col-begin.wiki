@@ -1,0 +1,11 @@
+<templatestyles src="Col-begin/styles.css"/><div>
+{| class="{{{class|}}} col-begin {{#if:{{{small|}}}|col-begin-small}}" role="presentation" {{#if:{{{bgColor|{{{bgcolor|}}}}}}{{{border|}}}{{{width|}}}{{{style|}}}|style="{{#if:{{{bgColor|{{{bgcolor|}}}}}}|background: {{{bgColor|{{{bgcolor}}}}}};}}{{#if:{{{border|}}}|border: {{{border}}};}}{{#if:{{{width|}}}|width: {{{width}}};}}{{#if:{{{style|}}}|{{{style}}}}}"
+}}
+<noinclude>
+|-
+|
+|}
+</div>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

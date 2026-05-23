@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Saxony
+| flag alias = Flag of Saxony.svg
+| flag alias-kingdom = Flagge Königreich Sachsen (1815-1918).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = Sachsen
+| redir2 = DE-SN
+| var1 = kingdom
+</noinclude>
+}}

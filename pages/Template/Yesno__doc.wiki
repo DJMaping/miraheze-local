@@ -1,0 +1,229 @@
+{{#ifeq:{{FULLPAGENAME}}|Template:Yesno|{{used in system|in [[MediaWiki:Protectedpagetext]]}}|{{high-use}}}}{{cascade-protected template}}
+{{Documentation subpage}}
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Template shortcut|yn}}
+{{tlx|Yesno}} (or {{tlg|YesNo|nolink=on|code=on}}) evaluates any input and produces a normalized <samp>yes</samp> or nil output, based on the content of the input and several configurable options. It is not used in article prose, but in coding complex templates.
+
+== Usage ==
+The template distinguishes five different types of input, supplied on the first unnamed parameter:
+# '''Yes''': Case-insensitive forms of <code>Yes</code>, <code>y</code>, <code>true</code>, <code>on</code>, and <code>1</code>; e.g. {{tlx|Yesno|yEs}} &rarr; {{Yesno|yEs}}
+# '''No''': Case-insensitive forms of <code>No</code>, <code>n</code>, <code>false</code>, <code>off</code>, and <code>0</code>; e.g. {{tlx|Yesno|nO}} &rarr; {{Yesno|nO}}
+# '''Nothing''': When the input is defined but either contains no value or consists of [[whitespace character]] only; i.e. <code><nowiki>{{Yesno|}}</nowiki></code> or {{tlx|Yesno|&nbsp;}} &rarr; {{Yesno|}}
+# '''Negation''': When the input is either <code>¬</code> ([[alt code]] [https://www.rapidtables.com/code/text/alt-codes.html 170]) or entirely missing; i.e. {{tlx|Yesno|¬}} or {{tlx|Yesno}} &rarr; {{Yesno|¬}} 
+# '''Anything else''': e.g. {{tlx|Yesno|Purple monkey dish washer}} &rarr; {{Yesno|Purple monkey dish washer}}
+
+By default, the template returns "yes" in the first and last case but returns nil (blank, empty string) in the other cases.
+
+Two short-hand templates for the most common uses that override the default behavior:
+* {{tlx|yesno-yes}} or {{tlg|YesNo-Yes|nolink=on|code=on}} – always returns "yes" (or the specified replacement result in {{para|yes}}) unless an explicit negative value is given; i.e., it evaluates to "yes" even when the value is empty or missing.
+* {{tlx|yesno-no}} or {{tlg|YesNo-No|nolink=on|code=on}} – always returns "no" (or the specified replacement result in {{para|no}}) unless an explicit positive value is given; i.e., it evaluates to "no" even when the value is present, as long as it does not contain anything that resolves to "yes".
+
+===Customizing the output===
+Template's default output can be customized with five named parameters, respectively: {{para|yes}}, {{para|no}}, {{para|blank}}, {{para|¬}} and {{para|def}}. If these parameters are specified, the template response is as follows:
+# '''Yes''': Template returns the contents of {{para|yes}}, otherwise returns "yes". For example:
+#* {{tlx|yesno|y|3=yes=Yeah}} results in "{{yesno|y|yes=Yeah}}"
+#* {{tlx|yesno|y|3=yes=bacon}}  results in "{{yesno|y|yes=bacon}}"
+# '''No''': Template returns the contents of {{para|no}}, otherwise returns blank. For example:
+#* {{tlx|yesno|n|3=no=Nay}} results in "{{yesno|n|no=Nay}}"
+#* {{tlx|yesno|n|3=no=ham}} results in "{{yesno|n|no=ham}}"
+# '''Nothing''': Template returns the contents of {{para|blank}}, or of {{para|no}} in absence of the former; otherwise, returns blank.
+#* {{tlx|yesno||3=blank=eggs}} results in "{{yesno||blank=eggs}}"
+#* {{tlx|yesno||3=no=ham}} results in "{{yesno||no=ham}}"
+#* {{tlx|yesno||3=blank=eggs|4=no=ham}} results in "{{yesno||blank=eggs|no=ham}}"
+# '''Negation''': Template returns the contents of {{para|¬}}, otherwise returns blank. For example:
+#* {{tlx|yesno|¬|3=¬=sausage}} results in "{{yesno|¬|¬=sausage}}"
+# '''Anything else''': Template returns the contents of {{para|def}}, or of {{para|yes}} in absence of the former; otherwise, returns "yes".
+#* {{tlx|yesno|purple monkey dish washer|3=def=cup of tea}} results in "{{yesno|purple monkey dish washer|def=cup of tea}}"
+#* {{tlx|yesno|purple monkey dish washer|3=yes=bacon}} results in "{{yesno|purple monkey dish washer|yes=bacon}}"
+#* {{tlx|yesno|purple monkey dish washer|3=def=cup of tea|4=yes=bacon}} results in "{{yesno|purple monkey dish washer|def=cup of tea|yes=bacon}}"
+
+For the named parameters, use of a blank value is not the same as omitting the parameter. A blank named parameter tells the template that the customized return value is blank. For example:
+* {{tlx|yesno|purple monkey dish washer}} results in "{{yesno|purple monkey dish washer}}"
+* {{tlx|yesno|purple monkey dish washer|3=def=}} results in "{{yesno|purple monkey dish washer|def=}}" {{var|[blank]}}
+
+===Logical distinctions===
+
+{| class=wikitable style="text-align:left; width:100%;"
+|-
+! colspan=7 style="background:#d0d0d0;color:black;" | Overview of {{tlx|yesno}} ''logical values'' and their associated texts
+|- style="text-align:left; vertical-align:top; font-weight:bold; background:#e8e8e8;color:black;"
+| Input<br />parameter 1<br />({{code|1=1=}})
+| In code
+| Logical return value
+| Default<br />return text
+|
+| Return text when set:<br />{{code|1=yes=Pos}}<br />{{code|1=no=Neg}}<br />{{code|1=blank=Blank}}<br />{{code|1=¬=Undefined}}<br />{{code|1=def=Def}}
+| Note
+|-
+| yes, y, true, 1*
+| {{code|1=<nowiki>{{yesno|yes}}</nowiki>}}
+| {{nowrap|{{code|yes by definition}}}}
+| "{{yesno|yes}}"
+|
+| "{{yesno|yes|yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+| <nowiki>*</nowiki> Case-insensitive (Y=y)
+|-
+| {{nowrap|Some Text}}
+| {{nowrap|{{code|1=<nowiki>{{yesno|Some Text}}</nowiki>}}}}
+| {{code|yes by default}}
+| "{{yesno|Some Text}}"
+|
+| "{{yesno|Some Text|yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+| "{{yesno|Some Text|yes=Pos|no=Neg|blank=Blank|¬=Undefined}}" when {{nowrap|1=<code>def={{var|[omitted]}}</code>}}
+|-
+| no, n, false, 0*
+| {{code|1=<nowiki>{{yesno|no}}</nowiki>}}
+| {{code|no by definition}}
+| "{{yesno|no}}" {{var|[blank]}}
+|
+| "{{yesno|no|yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+| <nowiki>*</nowiki> Case-insensitive (N=n)
+|-
+| {{var|[blank]}}
+| {{code|1=<nowiki>{{yesno|}}</nowiki>}}
+| {{code|blank}}
+| "{{yesno|1=}}" {{var|[blank]}}
+|
+| "{{yesno||yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+| "{{yesno||yes=Pos|no=Neg|¬=Undefined|def=Def}}" when {{nowrap|1=<code>blank={{var|[omitted]}}</code>}}
+|-
+| 1={{var|[blank]}}
+| {{code|1=<nowiki>{{yesno|1=}}</nowiki>}}
+| {{code|blank}}
+| "{{yesno|1=}}" {{var|[blank]}}
+|
+| "{{yesno|1=|yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+| "{{yesno|1=|yes=Pos|no=Neg|¬=Undefined|def=Def}}" when {{nowrap|1=<code>blank={{var|[omitted]}}</code>}}
+|-
+| ¬
+| {{code|1=<nowiki>{{yesno|¬}}</nowiki>}}
+| {{code|¬}}
+| "{{yesno|¬}}" {{var|[blank]}}
+|
+| "{{yesno|¬|yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+|
+|-
+| {{var|[omitted]}}
+| {{code|1=<nowiki>{{yesno}}</nowiki>}}
+| {{code|¬}}
+| "{{yesno}}" {{var|[blank]}}
+|
+| "{{yesno|yes=Pos|no=Neg|blank=Blank|¬=Undefined|def=Def}}"
+| 
+|}
+
+{| class="wikitable"
+|-
+! colspan="4" style="background:#d0d0d0;color:black;" | Comparison with related templates
+|- style="text-align:left; vertical-align:top; font-weight:bold; background:#e8e8e8;color:black;"
+| Input parameter 1 ({{code|1=1=}})
+| {{tl|yesno}}
+| {{tl|yesno-yes}}
+| {{tl|yesno-no}}
+|-
+| yes, y, true, 1*
+| "{{yesno|yes}}"
+| "{{yesno-yes|yes}}"
+| "{{yesno-no|yes}}"
+|-
+| {{nowrap|Some Text}}
+| "{{yesno|Some Text}}"
+| "{{yesno-yes|Some Text}}"
+| "{{yesno-no|Some Text}}"
+|-
+| no, n, false, 0*
+| "{{yesno|no}}" {{var|[blank]}}
+| "{{yesno-yes|no}}"
+| "{{yesno-no|no}}"
+|-
+| {{var|[blank]}}
+| "{{yesno|1=}}" {{var|[blank]}}
+| "{{yesno-yes|1=}}"
+| "{{yesno-no|1=}}"
+|-
+| 1={{var|[blank]}}
+| "{{yesno|1=}}" {{var|[blank]}}
+| "{{yesno-yes|1=}}"
+| "{{yesno-no|1=}}"
+|-
+| ¬
+| "{{yesno|¬}}" {{var|[blank]}}
+| "{{yesno-yes|¬}}"
+| "{{yesno-no|¬}}"
+|-
+| {{var|[omitted]}}
+| "{{yesno}}" {{var|[blank]}}
+| "{{yesno-yes}}"
+| "{{yesno-no}}"
+|}
+
+== Full parameter list ==
+Unnamed parameter 1= the input value to be evaluated. The other parameters (all named, all optional), are the ''return values'' for their respective logical outcome. When set, each one overrules their ''default return value''.
+
+{{tj|yesno
+  | Input value
+  | yes: Output on yes
+  | no: Output on no
+  | blank: Output on blank input
+  | ¬: Output on ¬
+  | def: Definite output
+}}
+
+== See also ==
+* {{unichar|AC|NOT SIGN|html=}}
+* [[Module:yesno]]
+* {{tlx|Yesno-yes}} – variant of Yesno that defaults to "yes" if value is not explicitly negative
+* {{tlx|Yesno-no}} – variant of Yesno that defaults to "no" if value is not explicitly positive
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "This template normalises an input to be a yes or nil output.",
+	"params": {
+		"1": {
+			"label": "Input value",
+			"description": "The value to be evaluated",
+			"type": "string",
+			"suggested": true
+		},
+		"yes": {
+			"label": "Output on yes",
+			"description": "Specifies the output of the template when the input value is a case-insensitive forms of 'Yes', 'Y', 'True' or '1'",
+			"type": "string",
+			"required": false
+		},
+		"no": {
+			"label": "Output on no",
+			"description": "Specifies the output of the template when the input value is a case-insensitive forms of 'No', 'N', 'False, or '0'",
+			"type": "string",
+			"required": false
+		},
+		"blank": {
+			"label": "Output on blank input",
+			"description": "Specifies the output of the template when the input value is defined but is either empty or contains nothing but whitespace character(s)",
+			"type": "string",
+			"required": false
+		},
+		"¬": {
+			"label": "Output on ¬",
+			"description": "Specifies the output of the template when the input value is either '¬' (negation) or entirely missing (undefined)",
+			"type": "string",
+			"required": false
+		},
+		"def": {
+			"label": "Definite output",
+			"description": "Specifies the output of the template when the input value is defined but not a form of 'yes', 'no', '1', '0', '¬' or blank",
+			"type": "string",
+			"required": false
+		}
+	}
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+
+<!----CATEGORIES BELOW THIS LINE, PLEASE:---->
+[[Category:If-then-else templates]]
+
+}}</includeonly>

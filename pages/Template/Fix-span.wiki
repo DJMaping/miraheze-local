@@ -1,0 +1,28 @@
+{{#if:{{{content|}}}|<span class="{{{span-class|cleanup-needed-content}}}" style="padding-left:0.1em; padding-right:0.1em; color:var(--color-subtle, #54595d); border:1px solid var(--border-color-subtle, #c8ccd1);">{{{content|}}}</span>}}{{#switch:{{{subst|¬}}}
+ |¬={{category handler
+  |template=[[Category:Templates needing substitution checking]]
+  |nocat={{{nocat|<noinclude>true</noinclude>}}}
+ }}
+ |SUBST=[[Category:Pages with incorrectly substituted templates]]
+}}{{Category handler
+ |main={{Fix/category
+  |cat-date={{{cat-date|}}} 
+  |cat={{{cat|}}} 
+  |cat-date2={{{cat-date2|}}} 
+  |cat2={{{cat2|}}} 
+  |cat-date3={{{cat-date3|}}} 
+  |cat3={{{cat3|}}} 
+  |date={{{date|}}}
+ }}
+ |template={{#if:{{{name|}}}|{{#ifeq:{{{name}}}|{{ROOTPAGENAME}}||{{#if:{{{date|}}}||[[Category:Templates including undated clean-up tags]]}}}}}} 
+ |subpage=no
+}}{{#if:{{{special|}}}
+ |{{{special|}}}
+ |<sup class="noprint Inline-Template {{{class|}}}" style="margin-left:0.1em; white-space:nowrap;">&#91;<i>{{#if:{{{pre-text|}}}
+  |{{{pre-text}}}&#32;
+ }}[[{{{link|Wikipedia:Cleanup}}}|<span title="{{#invoke:decodeEncode|encode|s={{{title|{{{link|Wikipedia:Cleanup}}}}}} {{#if:{{{date|}}}|({{{date}}})}}}}">{{{text|}}}</span>]]{{#if:{{{post-text|}}}
+  |&#32;{{{post-text}}}
+ }}</i>&#93;</sup>
+}}<noinclude>
+{{Documentation}}
+</noinclude>

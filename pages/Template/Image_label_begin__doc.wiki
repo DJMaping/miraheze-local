@@ -1,0 +1,170 @@
+{{Documentation subpage}}
+{{High-use}}
+{{notice|Please keep both widths and scales greater than zero and exactly the same in each template. For example, if width is 300, then all the scales must also be 300. Thanks.<!-- See http://en.wikipedia.org/w/index.php?title=Template_talk%3ALanarkshire_and_Ayrshire_Railway_Map&diff=165876967&oldid=165872467 -->}}
+{{notice|For a simpler and more general alternative to this template, see {{[[Template:annotated image|annotated image]]}}<br />For a different style, simpler, and more general alternative, see {{[[Template:overlay|overlay]]}}.}}
+
+This [[Wikipedia:Templates|template]] is a [[Wikipedia:Manual of Style/Self-references to avoid|self-reference]] and thus is part of the Wikipedia project rather than the encyclopaedic content.
+
+==Usage==
+Consider this example, adapted from [[Template:Australia Labelled Map]]:
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Image label begin|image=Australia location map recolored.png
+                   |alt=Australia map. Western Australia in the west third with capital Perth, Northern Territory in the north centre with capital Darwin, Queensland in the northeast with capital Brisbane, South Australia in the south with capital Adelaide, New South Wales in the northern southeast with capital Sydney, and Victoria in the far southeast with capital Melbourne. Tasmania, with capital Hobart, is off the coast of Victoria, across the Bass Strait. The Indian Ocean is to the west and northwest, the South Pacific Ocean to the east, the Southern Ocean to the south, and the Tasman Sea to the southeast. The Great Australian Bight to the south and the Gulf of Carpentaria to the north are the major bays. The Timor and Arafura Seas are off the north coast, and the Great Barrier Reef guards the northeast coast from the Coral Sea.
+                   |width={{{width|}}}
+                   |font-size=85%}}
+{{Image label|scale={{{width|}}}|x=0.26 |y=0.345 |text=[[Western Australia|Western<br/>Australia]]}}
+{{Image label|scale={{{width|}}}|x=0.46 |y=0.20  |text=[[Northern Territory|Northern<br/>Territory]]}}
+{{Image label|scale={{{width|}}}|x=0.505|y=0.4025|text=[[South Australia|South<br/>Australia]]}}
+...
+{{Image label end}}
+</syntaxhighlight>
+
+==Parameters==
+===width/scale===
+
+A number of pixels. Default is 400. (Do not include "px" after the number.)
+
+If {{para|width}} is given for <nowiki>{{image label begin}}</nowiki>, '''the same value must be given as {{para|scale}}''' for <nowiki>{{image label}}</nowiki>, or the labels will become misaligned if the image is resized. When used in a template, the simplest way to ensure this is by passing through the same parameter, as in the example. For example, ''&#123;{Australia Labelled Map|width=500}}'' displays the labelled image as a larger one of 500 pixels in width instead of the default, 400.
+
+For earthly geographic maps, conforming to these specifications can allow easier conversion to for any other purposes such as for the use of {{tl|Location map+}}.
+
+===x/y===
+
+X values are always between 0 and 1. For square images, Y values are also between 0 and 1. The maximum Y value is higher for tall images, lower for wide images. The X and Y values represent the fraction of the width where the label will be placed. The exact point is the top-left corner of the image label.
+ x=0  |y=0   will place the top-left corner of the label at the top-left     of a square image
+ x=0  |y=1   will place the top-left corner of the label at the bottom-left  of a square image
+ x=1  |y=1   will place the top-left corner of the label at the bottom-right of a square image
+ x=1  |y=0   will place the top-left corner of the label at the top-right    of a square image
+ x=0.5|y=0.5 will place the top-left corner of the label at the centre       of a square image
+
+===image===
+
+The title of the wiki page of the image without the "Image:" prefix.
+
+===text===
+
+The text label to display as wiki markup.
+
+===float===
+
+Three options:
+
+* {{para|float|none}} – makes the image sit on its own line of the page (default)
+* {{para|float|left}} – makes the image pushed to the left of the page
+* {{para|float|right}} – makes the image pushed to the right of the page
+
+===font-size===
+
+Optional. If given, specifies a font size for the labels. For example, {{para|font-size|85%}} displays labels in a smaller font size. If omitted, font size will inherit from surrounding content.
+
+{{para|font-size}} can also be set on each individual <nowiki>{{image label}}</nowiki> to adjust the font size for that label.
+
+===font-stretch===
+
+Available only in <nowiki>{{image label}}</nowiki>. If given, alters text width for a label. The proper value could be <code>normal</code>, <code>semi-condensed</code>, <code>condensed</code>, <code>extra-condensed</code>, <code>ultra-condensed</code>, <code>semi-expanded</code>, <code>expanded</code>, <code>extra-expanded</code> or <code>ultra-expanded</code>, or alternatively a percentage number, for example: {{para|font-stretch|75%}}.
+
+===text-align===
+
+Optional. If given, affects the line-by-line alignment within labels with line breaks. If omitted, the default text alignment is centered.
+
+===link===
+
+Specifies where the image should link to. If <code>File:</code> (the default), the image links to its file page. If empty, the image does not link to anything; this is appropriate for [[MOS:PDI|purely decorative images]].
+
+===alt===
+
+Specifies text to be used in the image's "alt" attribute. If {{para|link}} is empty, this should be empty; if {{para|link}} is <code>File:</code> or is not given, this should describe the image; if {{para|link}} points to some other page this should describe the action that will be taken if you click on the image. See [[Wikipedia:Manual of Style/Accessibility/Alternative text for images]].
+
+===caption===
+
+Specifies text to be used in the image's "title" attribute.
+In certain browsers, this text will appear in a tooltip when the mouse pointer is rolled over it.
+
+==Template set==
+* {{tlx|Image label begin|image{{=}}Example.png|width{{=}}400|float{{=}}right}}
+** {{tl|Image label start}} (template redirect to <nowiki>{{Image label begin}}</nowiki>)
+* {{tlx|Image label|x{{=}}0.25|y{{=}}0.75|scale{{=}}400|text{{=}}&#91;[Wikipedia]]}}
+** {{tl|Image label small}} (deprecated, use {{para|font-size|85%}} on <nowiki>{{Image label begin}}</nowiki> or <nowiki>{{Image label}}</nowiki> instead)
+* {{tlx|Image label end}}
+
+==Sample labelled images==
+{{hidden begin|titlestyle=text-align:center|border=#aaa 1px solid|title = list}}
+{{div col|colwidth=30em}}
+* {{tl|Africa Labelled Map}}
+* {{tl|Armenia Labelled Map}}
+* {{tl|Asia Labelled Map}}
+* {{tl|Australia Labelled Map}}
+** {{tl|Australian Capitals Labelled Map}}
+* {{tl|Bulgaria Provinces}}
+* {{tl|Brazil Labelled Map}}
+* {{tl|Brunei Labelled Map}}
+* {{tl|Cambodia labelled map}}
+* {{tl|Colombia Labelled Map}}
+* {{tl|Dhaka City Labelled Map}}
+* {{tl|Earth Labelled Map}}
+* {{tl|England Labelled Map}}
+** {{tl|Cornwall Labelled Map}}
+** {{tl|England Ceremonial Counties Labelled Map}}
+* {{tl|European Union Labelled Map (blue)}}
+* {{tl|European Union Labelled Map (brown)}}
+* {{tl|Eurozone labelled map}}
+* {{tl|France Regions Labelled Map}}
+* {{tl|Gaza Strip labelled map}}
+* {{tl|Georgia Labelled Map}}
+* {{tl|India States and Territories Labelled Map}}
+* {{tl|Indonesia provinces labelled map}}
+**{{tl|Central Java labelled map}}
+* {{tl|Israel Labelled Map}}
+** {{tl|Israel Geographical Map}}
+* {{tl|Jericho TV series map}}
+* {{tl|Lebanon Labelled Map}}
+* {{tl|Malaysia Labelled Map}}
+** {{tl|Johor Labelled Map}}
+** {{tl|Pahang Labelled Map}}
+** {{tl|Penang district level labelled map}}
+** {{tl|Perak Labelled Map}}
+** {{tl|Selangor Labelled Map}}
+** {{tl|Sabah Labelled Map}}
+** {{tl|Sarawak Labelled Map}}
+** {{tl|Terengganu Labelled Map}}
+* {{tl|Nepal province labelled map}}
+* {{tl|Peru Labelled Area Map}}
+* {{tl|Poland Labelled Map Small}}
+* {{tl|Puerto Rico Labelled Map}}
+* {{tl|Provinces of Iran Labelled Map}}
+** {{tl|Neighborhoods of Tehran metropolis Labelled Map}}
+** {{tl|Iran Ethnic Groups Labelled Map}}
+* {{tl|Schengen Agreement Labelled Map}}
+* {{tl|Shanghai Labelled Map}}
+* {{tl|Singapore Planning Areas Labelled Map}}
+* {{tl|Switzerland Cantons Labelled Map}}
+* {{tl|Syria Labelled Map}}
+** {{tl|Al-Hasakah Labelled Map}}
+** {{tl|Aleppo Labelled Map}}
+** {{tl|Raqqa Labelled Map}}
+** {{tl|Al-Suwayda Labelled Map}}
+** {{tl|Daraa Labelled Map}}
+** {{tl|Deir ez-Zor Labelled Map}}
+** {{tl|Hama Labelled Map}}
+** {{tl|Homs Labelled Map}}
+** {{tl|Idlib Labelled Map}}
+** {{tl|Latakia Labelled Map}}
+** {{tl|Quneitra Labelled Map}}
+** {{tl|Rif Dimashq Labelled Map}}
+** {{tl|Tartus Labelled Map}}
+* {{tl|Turkey Labelled Map}}
+* {{tl|Ukraine Labelled Map}}
+* {{tl|Uzbekistan Regions Labelled Map}}
+* {{tl|United States Labelled Map}}
+* {{tl|West Bank Labelled Map}}
+* {{tl|World Labelled Map}}
+{{div col end}}
+{{hidden end}}
+
+== Tracking categories ==
+* {{Category link with count|Pages using image label with a wide image}}
+* {{Category link with count|Pages using image label with a tall image}}<includeonly>
+{{#switch:{{FULLPAGENAME}}
+  |Template:Image label begin|Template:Image label end|Template:Image label|Template:Image label small=[[Category:Graphics templates]]
+}}
+</includeonly>

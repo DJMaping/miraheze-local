@@ -1,0 +1,13 @@
+{{safesubst<noinclude />: {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = United Mihili
+| flag alias = United Mihili Flag.png
+| border-navy =
+| border-army=
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+</noinclude>
+}}

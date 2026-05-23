@@ -1,0 +1,37 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{High-use}}
+
+== Usage ==
+Place this notification template immediately before the applicable [[Wikipedia:WikiProject Lists#Incomplete lists|incomplete list]] (i.e. in a section, not at the top of the article). This template will automatically add the article to [[:Category:Dynamic lists]].
+
+== What is a dynamic list? ==
+From [[Wikipedia:Manual of Style/Lists#Special names of lists]]:
+
+{{blockquote|A dynamic list is any list that may never be fully complete (since it will only include [[WP:N|notable]] examples from a given category), or may require constant updates to remain current.}}
+
+See [[Wikipedia:WikiProject Lists#Dynamic lists]]
+
+== Parameters ==
+<templatedata>
+{
+	"params": {
+		"multiple": {
+			"label": "Multiple lists?",
+			"description": "Set to yes to change the wording for articles containing multiple dynamic lists.",
+			"type": "boolean",
+			"autovalue": "yes",
+			"suggested": true
+		}
+	}
+}
+</templatedata>
+
+== See also ==
+*[[Template:Dynamic list editnotice]]
+
+<includeonly>{{Sandbox other||
+<!--Categories-->
+[[Category:Hatnote templates for lists]]
+
+}}</includeonly>

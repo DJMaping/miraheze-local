@@ -1,0 +1,5 @@
+{{<includeonly>safesubst:</includeonly>ifsubst|1=|2=<templatestyles src="Mono/styles.css" />}}<span class="monospaced">{{{2|{{{1}}}}}}</span><noinclude>
+
+{{Documentation}}
+<!-- Categories go on the /doc subpage and interwikis go on Wikidata. -->
+</noinclude>

@@ -1,0 +1,41 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Thailand
+| shortname alias = {{{shortname alias|Thailand}}}
+| flag alias = Flag of Thailand.svg
+| flag alias-1767 = Flag of Thailand (Ayutthaya period).svg
+| flag alias-1782 = Flag of Thailand (1782).svg
+| flag alias-1817 = Flag of Thailand (1817).svg
+| flag alias-1855 = Flag of Thailand 1855.svg
+| flag alias-1893 = State Flag of Thailand (1916).svg
+| flag alias-1916 = Flag of Siam (1916).svg
+| flag alias-marines=Flag of the Royal Thai Marine Corps.svg
+| link alias-marines=Royal Thai Marine Corps
+| border-marines=
+| flag alias-naval = Naval Ensign of Thailand.svg
+| link alias-naval = Royal Thai Navy
+| flag alias-navy = Flag of the Royal Thai Navy.svg
+| link alias-navy = Royal Thai Navy
+| flag alias-military=Flag of the Royal Thai Armed Forces HQ.svg
+| link alias-military=Royal Thai Armed Forces
+| flag alias-air force = Flag of the Royal Thai Air Force.svg
+| link alias-air force = Royal Thai Air Force
+| flag alias-army= Flag of the Royal Thai Army.svg
+| link alias-army=Royal Thai Army
+| flag alias-sanctionedFB = THA AFF 2020.png 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1767
+| var2 =  1782
+| var3 = 1817
+| var4 = 1855
+| var5 = 1893
+| var6 = 1916
+| var7 = sanctionedFB
+| redir1 = THA
+| related1 = Siam
+</noinclude>
+}}

@@ -1,0 +1,61 @@
+local p = {}
+
+p = {
+	['en-GB'] = {
+		['preceding'] = function(s)
+			return s and 'Preceding ' .. s
+		end,
+		['following'] = function(s)
+			return s and 'Following ' .. s
+		end,
+		['stop_noun'] = 'station',
+		['nonstop_past'] = function(s)
+			return s and s .. ' did not stop here'
+		end,
+		['nonstop_present'] = function(s)
+			return s and s .. ' does not stop here'
+		end,
+		['comma'] = function(s)
+			return s and ', ' .. s
+		end,
+		['or'] = function(s)
+			return s and ' or ' .. s
+		end,
+		['via-first'] = false, -- If the «via» text comes before termini, change to «true»
+		['via'] = function(s)
+			return s and ' via&nbsp;' .. s
+		end,
+		['comma-format'] = ',%s+',
+		['or-format'] = '%s+or%s+',
+		['via-format'] = '%s+via%s+(.+)$', -- first match is station name
+		['towards'] = function(s)
+			return s and 'towards ' .. s
+		end,
+		['through'] = function(s)
+			return s and 'through to ' .. s
+		end,
+		['reverse'] = 'Reverses direction',
+		['oneway'] = 'One-way operation',
+		['terminus'] = 'Terminus',
+		['transfer'] = function(s)
+			return s and 'transfer at ' .. s
+		end,
+		['error_duplicate'] = function(s)
+			return s and 'Same row number used multiple times for ' .. s
+		end,
+		['error_format'] = 'Station format table missing in data page',
+		['error_line'] = 'Lines table missing in data module',
+		['error_missing'] = function(s)
+			return s and '"' .. (s or '') .. '" is missing from the data page'
+		end,
+		['error_unknown'] = function(s)
+			return s and 'Unknown line "' .. (s or '') .. '"'
+		end
+	}
+}
+
+p['en-US'] = mw.clone(p['en-GB'])
+p['en-US']['towards'] = function(s) return s and 'toward ' .. s end
+p['en-AU'] = mw.clone(p['en-GB'])
+
+return p

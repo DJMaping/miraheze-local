@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Country2nationality||{{{1}}}|nocat={{{nocat|}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

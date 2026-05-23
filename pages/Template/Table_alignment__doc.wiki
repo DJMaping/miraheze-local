@@ -1,0 +1,122 @@
+{{Documentation subpage}}
+{{High-use}}
+{{TemplateStyles|Template:Table alignment/tables.css}}
+
+== Purpose ==
+To make it simpler to align the columns in tables with less wikicode.
+
+== Usage ==
+Place <code><nowiki>{{Table alignment}}</nowiki></code> just before the table and then add some classes to the table.
+
+{| class="wikitable"
+! classname
+! Purpose
+|-
+| <code>defaultleft</code> || Align all table cells left by default
+|-
+| <code>defaultcenter</code> || Align all table cells center by default
+|-
+| <code>defaultright</code> || Align all table cells right by default
+|-
+| <code>col''N''left</code> || Align the cells in column ''N'' left, where N is a number
+|-
+| <code>col''N''center</code> || Align the cells in column ''N'' center, where N is a number
+|-
+| <code>col''N''right</code> || Align the cells in column ''N'' right, where N is a number
+|}
+
+With the wikitable class the header cell content is always centered unless individually adjusted.
+
+The '''col''' and '''default''' classes never affect the header cells (column, row, or anywhere) if the wikitable class is used. The '''col''' class overrides the '''default''' class.
+
+If the wikitable class is not used, then '''col''' and '''default''' affect header cells.
+
+== Limitations ==
+* Column numbers up to <code>col29</code> are supported. A table can have more columns but they cannot be aligned with this method.
+* On tables using <code>rowspan</code> or <code>colspan</code>, using the classes may not work well on those rows because the alignment appears in wrong cells. Normal table code like {{nowrap|1=<code>style="text-align: left/center/right;"{{!}} ''cell content''</code>}} can be added to individual cells, both to get the wanted alignment and override unwanted alignment.
+
+== Example ==
+<div style="display:inline-table; vertical-align:top;">
+<syntaxhighlight lang="wikitext">
+{{Table alignment}}
+{| class="wikitable defaultcenter col1left col4right"
+!Item1
+!Item2
+!Item3
+!Item4
+|-
+|AAAAAA
+|100-200
+|3-4
+|53.43
+|-
+|BBB
+|5-6
+|7-8
+|5563.35
+|-
+|CC
+|9-10
+|113-125
+|322313.00
+|}
+</syntaxhighlight>
+</div>
+<div style="display:inline-table; vertical-align:top;">
+{{Table alignment}}
+{| class="wikitable defaultcenter col1left col4right"
+!Item1
+!Item2
+!Item3
+!Item4
+|-
+|AAAAAA
+|100-200
+|3-4
+|53.43
+|-
+|BBB
+|5-6
+|7-8
+|5563.35
+|-
+|CC
+|9-10
+|113-125
+|322313.00
+|}
+</div>
+
+== Align a column of row headers ==
+
+With the wikitable class the header cell content is always centered unless individually adjusted. So the template is no help with row header cells in this case. 
+
+Instead do a mass search-and-replace to add '''style=text-align:left''' to each row header cell. To do so be sure the table is in a separate article section, or in a sandbox. Click on the wikitext source editing link. Click on "Advanced" in the editing toolbar. Then click on the "search and replace" icon on the right. Fill in the '''"Search for"''' box with: 
+
+<code>!</code>
+
+Fill in the '''"Replace with"''' box with: 
+
+<code>! style=text-align:left|</code>
+
+Make sure all the option boxes are unchecked. Then click '''"Replace all".'''
+
+Preview the page. Remove <code>style=text-align:left|</code> from the column headers. An easier way may be to cut out the top headers before the search-and-replace, and park them in Notepad or elsewhere.
+
+Other individual cell adjustments may be needed. Publish the page.
+
+== See also ==
+
+* {{t|shy}} – Can be used to help narrow columns by adding a [[soft hyphen]] to a word to allow it to wrap.
+More [[WP:template styles|template styles]] for tables:
+* {{t|sticky header}} - Makes column headers stick to the top of the page while scrolling through table data. 
+* {{t|sticky table start}} - allows sticky rows and columns inside a scrollable area.
+* {{t|sort under}} - moves the sorting arrows under the headers.
+* {{t|row hover highlight}} - adds row hover highlighting, and option for white background. 
+* {{t|static row numbers}} - adds a column of row numbers to a table.
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line -->
+[[Category:Table templates]]
+[[Category:Templates using TemplateStyles to style external elements]]
+}}</includeonly>

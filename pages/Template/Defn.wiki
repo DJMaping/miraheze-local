@@ -1,0 +1,3 @@
+<dd {{safesubst<noinclude/>:#if:{{{class|}}}|class="{{{class}}}"|}} {{safesubst<noinclude/>:#if:{{{id|}}}|id="{{{id}}}"|{{safesubst<noinclude/>:#if:{{{term|}}}|id="{{{term}}}-defn{{{2|{{{no|1}}}}}}"|}}|}} {{safesubst<noinclude/>:#if:{{{style|}}}|style="{{{style}}}"|}}>{{safesubst<noinclude/>:#if:{{{2|{{{no|}}}}}}|{{{2|{{{no}}}}}}.&nbsp;&nbsp;|}}{{{defn|{{{1|{{{content}}}}}}}}}</dd><noinclude>
+{{documentation}}<!--Please add this template's categories to the /doc subpage, interwikis to Wikidata, not here - thanks!-->
+</noinclude>

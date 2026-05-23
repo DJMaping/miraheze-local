@@ -1,0 +1,234 @@
+{{Short description|Displays documentation from a subpage}}
+<noinclude>{{pp-semi-indef}}
+</noinclude>{{Documentation subpage}}
+{{Distinguish|Template:Documentation subpage}}
+{{High-use}}
+{{Never substitute}}
+{{template shortcut|doc}}
+{{Lua|Module:Documentation}}
+
+The {{tlx|documentation}} template is used to contain the [[WP:TDOC|documented information and instructions]] of a certain template, usually from a /doc subpage. It can also be configured to load the content from other pages or be directly fed by text.
+
+For detailed instructions on how and when to use this template, see [[Wikipedia:Template documentation]] (shortcut: [[WP:TDOC]]).
+
+This template has two parts: the big "documentation box" with the documentation inside alongside a toolbar (the <code>[view][edit][history][purge]</code> links), and the smaller "link box" that shows metadata about the documentation alongside the [[Wikipedia:Template sandbox and test cases|sandbox and testcases]] links.
+
+Use of this template allows templates to be [[Wikipedia:Protection policy|protected]], where necessary, while allowing anyone to edit the documentation and categories.
+
+== General syntax ==
+Normally, the template is used without parameters and is placed inside {{tag|noinclude}} at the bottom of the template page (see {{section link|#Placement and tags}} for more information):
+
+<syntaxhighlight lang="wikitext">
+<!--Last line of your template code--><noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage -->
+</noinclude>
+</syntaxhighlight>
+
+=== Transcluding a different page ===
+To transclude a different page other than the /doc subpage, simply provide {{para|1}} like this:
+
+<syntaxhighlight lang="wikitext">
+<!--Last line of your template code--><noinclude>
+{{Documentation|Template:Other page/doc}}
+</noinclude>
+</syntaxhighlight>
+
+Note that when loading the documentation from a page other than the local /doc subpage, it becomes tricky to handle the categories.
+
+=== Using the {{para|content}} parameter ===
+The documentation can also be fed directly as text, by using the {{para|content}} parameter:
+
+<syntaxhighlight lang="wikitext">
+<!--Last line of your template code--><noinclude>
+{{Documentation
+ | content =
+<!-- template documentation -->
+}}</noinclude>
+</syntaxhighlight>
+
+When using this parameter, the toolbar will not show. Note that the /doc subpage in the link box will still show up if it exists.
+
+Also note that when {{para|1}} and {{para|content}} is specified, {{para|content}} takes precedence and always shows in the documentation box.
+
+== Advanced syntax ==
+=== Customizing the heading ===
+The heading in the documentation box changes depending on namespace. See the below list for the default text in each namespace:
+
+* Template namespace: [[File:Test Template Info-Icon - Version (2).svg|32px|link=[[Wikipedia:Template documentation]]]] '''Template documentation'''
+* Module namespace: [[File:Test Template Info-Icon - Version (2).svg|32px|link=[[Wikipedia:Template documentation]]]] '''Module documentation'''
+* Other namespaces: '''Documentation'''
+
+To customize the heading, simply set the parameter {{para|heading}} to anything you like, for example {{para|heading|Infobox documentation}}.
+
+Note that if the heading parameter is empty but defined (like {{para|heading|}}) the heading alongside the toolbar will not show.
+
+The {{para|heading-style}} parameter can be fed optional [[Cascading Style Sheets|CSS]] values, like {{para|heading-style|font-size:150%;color:red;}}. Not that you should omit quotation marks <code>" "</code> and add the ending semicolon <code>;</code>. 
+
+=== Customizing the link box ===
+To customize the link box, set {{para|link box}} to something else, like {{para|link box|The above documentation is automatically generated from [[Template:Foo]]}}.
+
+To hide the link box, simply set {{para|link box}} to <code>off</code>.
+
+=== Testing ===
+You can simulate the output for a given page by using the {{para|page}} parameter. For example, if you use the code {{para|page|Template:Edit protected}}, the template will behave exactly as if it were on the page [[Template:Edit protected]], including showing the documentation from [[Template:Edit protected/doc]], linking to [[Template:Edit protected/sandbox]], etc. This parameter is useful for testing and is used extensively on the [[Module:Documentation/testcases|module testcases page]]. 
+
+== Placement and tags ==
+{{Further information|Wikipedia:Template documentation#Where to place it}}
+This code should be added at the bottom of the template code page, with no space before {{Tag|noinclude|o}} (which causes extra whitespace to show on pages where the template is transcluded):
+
+<syntaxhighlight lang="wikitext"><!--Last line of your template code--><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage -->
+</noinclude></syntaxhighlight>
+
+To automatically insert the above text, you can also use the [[Wikipedia:Substitution|substitution]] code shortcut {{tlxs|doc-code}}.
+
+=== Categories and interwikis ===
+Depending on where to the documentation is placed, it may be tricky to handle the categories and interwikis. See {{section link|Wikipedia:Template documentation#Categories and interwiki links}} for information about adding these.
+
+== Technical details ==
+=== Automatic functions ===
+If the documentation page does not exist, the toolbar is replaced with a <code>[create][purge]</code> link. The <code>[create]</code> link automatically [[mw:Manual:Creating pages with preloaded text|creates the page with preloaded text]] with the basic documentation syntax. Preload text is also used for the /sandbox and /testcases [create] links.
+
+The preload page for the /doc <code>[create]</code> link is [[Template:Documentation/preload]]. The preload pages for the /sandbox and /testcases links are [[Template:Documentation/preload-sandbox]] and [[Template:Documentation/preload-testcases]]. The preload page for the /sandbox <code>[mirror]</code> link is [[Template:Documentation/mirror]].
+
+This template also automatically adds {{tl|pp-template}} to a protected template page. When this template is on a /sandbox subpage, it also adds the {{tl|Template sandbox notice}} template.
+
+=== Link box features ===
+Depending on the namespace, the link box may have less features, or may not show up at all. The following table shows this:
+
+{| class="wikitable"
+! Namespace 
+! Behavior 
+|-
+| Template
+| Full behavior
+|-
+| Module
+| Full behavior, with the addition of a "create documentation" link when the page does not exist
+|-
+| User
+| Full behavior
+|-
+| Other namespaces 
+| Hidden, unless {{para|1}} is specified (which will show "The above documentation is transcluded from {{param|1}}")
+|}
+
+Alongside that, if {{para|1}} or {{para|content}} is specified, the "Add categories to the /doc subpage" text will not show.
+
+=== Subject namespaces vs. talk namespaces ===
+This template is usually placed in the [[WP:NS#Subject namespaces|subject namespace]]. But in some cases this template needs to be on the [[WP:TALKSPACE|Talk namespace]]:
+
+* In the MediaWiki namespace, since {{tag|noinclude|o}} often does not work in system messages, and since the MediaWiki namespace needs to be kept clean for performance reasons.
+
+When placed on talk pages, this template usually is placed near the top of the page and without {{tag|noinclude}} tags.
+
+The /doc, /sandbox and /testcases pages should normally be in the subject namespace, except in the namespaces that do not have the MediaWiki [[meta:Help:Link#Subpage feature|subpage feature]] enabled: Main, File, and MediaWiki. (Categories can have subpages, but documentation is created in the Category talk namespace to prevent creating empty categories. There are also a whole bunch of other technical reasons why the /doc page must be stored under the talk page for those (but only those) namespaces.
+
+This template automatically points its [create] links for the /doc, /sandbox and /testcases to the right namespace.
+
+=== Color scheme ===
+{| class="wikitable" style="font-size:90%"
+|+ Wikipedia background colors for {{Template link|documentation}} <small>([[Help:Using colors]])</small>
+! !! RGB !! HSV !! Color !! General usage !! Note
+|-
+| A&nbsp;
+| <kbd>#ECFCF4</kbd> || 150&deg;, 6%, 99%
+| style="background:#ECFCF4;color:inherit;" | &nbsp;
+| Sample || Current documentation background
+|-
+| B
+| <kbd>#00FF80</kbd>
+| style="font-size:90%;" | {{nowrap|1=Hue=150&deg; <small>(41.7%; 106/255<small>dec</small>)</small> 100%, 100%}}
+| style="background:#00FF80;color:inherit;" | &nbsp;
+| Basic hue || What we'd call ''the color''
+|-
+| colspan="6" |
+|-
+| 1
+| <kbd>#A3BFB1</kbd> || 150&deg;, 15%, 75%
+| style="background:#A3BFB1;color:inherit;" | &nbsp;
+| Header border only ||
+|-
+| 2
+| <kbd>#CEF2E0</kbd> || 150&deg;, 15%, 95%
+| style="background:#CEF2E0;color:inherit;" | &nbsp;
+| Main&nbsp;border; header&nbsp;background ||
+|-
+| 3
+| <kbd>#E6FFF2</kbd> || 150&deg;, 10%, 100%
+| style="background:#E6FFF2;color:inherit;" | &nbsp;
+| 2nd header, accent colour ||
+|-
+| 4
+| <kbd>#F5FFFA</kbd> || 150&deg;, 4%, 100%
+| style="background:#F5FFFA;color:inherit;" | &nbsp;
+| Main background || So saturation in A is a bit off
+|}
+{{collapse top|title=Colors for documentation navbox}}
+As a suggestion, here are colors for a navbox intended for documentation pages only.
+They follow the shading of regular blue navbox colors:
+<syntaxhighlight lang="wikitext">
+| titlestyle = background:#ccffe5;color:inherit;
+| basestyle  = background:#ddffee;color:inherit;
+<!-- basestyle= sets groupstyle, abovestyle, belowstyle together -->
+</syntaxhighlight>
+For subgroups, in child navboxes:
+<syntaxhighlight lang="wikitext">
+{{Navbox|child
+| groupstyle = background:#e6fff2;color:inherit;
+...
+</syntaxhighlight>
+
+Example:{{Template link expanded|Periodic table templates overview}}
+{{collapse bottom}}
+
+== Full syntax ==
+<syntaxhighlight lang="wikitext">
+{{Documentation}}
+
+or
+
+{{Documentation
+ | [path to documentation page]
+}}
+
+{{Documentation
+ | content =
+}}
+
+or
+
+{{Documentation
+| [path to documentation page]
+| heading-style = 
+| heading = 
+| link box = 
+}}
+
+or 
+
+{{Documentation
+| [path to documentation page]
+| content = 
+| heading-style = 
+| heading = 
+| link box = 
+| page =
+}}
+</syntaxhighlight>
+
+==See also==
+* {{tl|Documentation subpage}}, a notice placed at the top of a /doc subpage explaining its role and including a link to the page it documents.
+* {{tl|Barnstar documentation}}, a variant of {{tl|Documentation}} for use with [[Wikipedia:Barnstars|barnstar]] templates.
+* {{tl|Navbox documentation}}, a variant of {{tl|Documentation}} for use with [[Wikipedia:Navigation template|navigation templates]].
+* [[Wikipedia:Template documentation]] is a how-to guide to template documentation.
+* [[Wikipedia:Template sandbox and test cases]] explains the use of /sandbox and /testcases subpages and includes more information about template testing.
+
+<includeonly><!-- Make sure that only page [[Template:Documentation]] is categorised. No other page (no subpages, not when transcluded).
+ -->{{#ifeq:{{FULLPAGENAME}}|Template:Documentation|
+[[Category:Documentation templates| ]]
+[[Category:Template namespace templates|Documentation]]
+
+}}</includeonly>

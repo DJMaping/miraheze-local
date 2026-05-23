@@ -1,0 +1,181 @@
+/* {{pp-template}} */
+/**
+ * Make first row or thead element top sticky.
+ *
+ * Table classes:
+ * - sticky-header: sticky first row.
+ * - sticky-header-multi: sticky thead; headers moved via sortable + JavaScript.
+ *
+ * Tested:
+ * - Windows 10: (all skins) Chrome, Firefox, Edge.
+ * - Android Galaxy S21 (Minerva): Chrome, Firefox.
+ * - iPhone SE 2020 (Minerva): Chrome, Edge, Firefox, Opera, Safari.
+ * - Wikipedia Android app.
+ * - Print: Not styled.
+ * - No JavaScript.
+ *
+ * Notes:
+ * - Sortable moves to thead any header rows and (after sort) sorttop rows.
+ * - Sticky gadget (.mw-sticky-header) moves to thead any wikitable header rows.
+ *
+ * Issues:
+ * - Sticky in Timeless any width and other skins at <=639px width: tables wider
+ *   than content area overflow and horizontal table scroll lost.
+ * - Monobook <=550px width, can't override style:
+ *   body.skin--responsive .monobook-body {overflow: auto;}
+ */
+@media screen and (min-width: 640px) {
+  /**
+   * Make top sticky.
+   */
+  .sticky-header > thead > tr:first-child,
+  .sticky-header > caption + tbody > tr:first-child,
+  .sticky-header > tbody:first-child > tr:first-child,
+  .sticky-header-multi > thead {
+    position: sticky; /* Was "static". */
+    top: 0;
+    z-index: 10;
+  }
+  /* Timeless overflowed tables not sticky. */
+  body.skin-timeless .content-table-wrapper.overflowed .sticky-header > thead > tr:first-child,
+  body.skin-timeless .content-table-wrapper.overflowed .sticky-header > caption + tbody > tr:first-child,
+  body.skin-timeless .content-table-wrapper.overflowed .sticky-header > tbody:first-child > tr:first-child,
+  body.skin-timeless .content-table-wrapper.overflowed .sticky-header-multi > thead {
+    position: static; /* Reset to prior. */
+  }
+
+  /**
+   * Fix scrolling data shows through sticky's transparent background.
+   */
+  /* Plain table headers. */
+  .sticky-header:not(.wikitable),
+  .sticky-header-multi:not(.wikitable) {
+    background-color: var(--color-inverted, #fff);
+  }
+  /* Plain table headers. */
+  .sticky-header:not(.wikitable) > *, /* For thead, tbody. */
+  .sticky-header:not(.wikitable) > thead > tr:first-child,
+  .sticky-header:not(.wikitable) > caption + tbody > tr:first-child,
+  .sticky-header:not(.wikitable) > tbody:first-child > tr:first-child,
+  .sticky-header-multi:not(.wikitable) > thead,
+  /* Wikitable and plain table .sorttop rows after sort. */
+  .sticky-header-multi > thead {
+    background-color: inherit;
+  }
+
+  /**
+   * Fix missing borders due to sticky position and wikitable collapsed borders.
+   * https://bugs.webkit.org/show_bug.cgi?id=128486
+   *
+   * Skip rare plain table separated borders, which sometimes shows scrolling
+   * data through sticky's 2px "border-spacing".
+   *
+   * Skip very rare Timeless plain table ".mw-datatable" collapsed boarders.
+   */
+  .sticky-header.wikitable,
+  .sticky-header-multi.wikitable {
+    border-collapse: separate; /* Was "collapse". */
+    border-spacing: 0;
+    border-width: 0 1px 1px 0;
+  }
+  .sticky-header.wikitable td,
+  .sticky-header.wikitable th,
+  .sticky-header-multi.wikitable td,
+  .sticky-header-multi.wikitable th {
+    border-width: 1px 0 0 1px;
+  }
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header.wikitable,
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header-multi.wikitable {
+    border-bottom-width: 0.2em;
+    padding: 0;
+  }
+  /* Adjust {{static row numbers}} borders. */
+  .sticky-header.static-row-numbers.wikitable tr::before,
+  .sticky-header-multi.static-row-numbers.wikitable tr::before {
+    border-left-width: 1px;
+  }
+  .sticky-header.static-row-numbers.wikitable > thead > tr:first-child::before,
+  .sticky-header.static-row-numbers.wikitable > caption + tbody > tr:first-child::before,
+  .sticky-header.static-row-numbers.wikitable > tbody:first-child > tr:first-child::before,
+  .sticky-header-multi.static-row-numbers.wikitable > thead > tr:first-child::before,
+  .sticky-header-multi.static-row-numbers.wikitable > caption + tbody > tr:first-child::before,
+  .sticky-header-multi.static-row-numbers.wikitable > tbody:first-child > tr:first-child::before,
+  /* Sortbotton #1: all. When supported, consolidate #1-2 to tr:nth-child(1 of .sortbottom)::before */
+  .sticky-header.static-row-numbers.wikitable .sortbottom::before,
+  .sticky-header-multi.static-row-numbers.wikitable .sortbottom::before {
+    border-top-width: 1px;
+  }
+  /* Sortbottom #2: all minus 1st. */
+  .sticky-header.static-row-numbers.wikitable .sortbottom ~ .sortbottom::before,
+  .sticky-header-multi.static-row-numbers.wikitable .sortbottom ~ .sortbottom::before {
+    border-top-width: 0;
+  }
+  /* After sort, "tbody:first-of-type" targets "tbody>tr:first-child". */
+  .sticky-header.static-row-numbers.wikitable > tbody:first-of-type > tr:not(.static-row-header)::before,
+  .sticky-header-multi.static-row-numbers.wikitable > tbody:first-of-type > tr:not(.static-row-header)::before {
+    border-bottom-width: 0;
+    border-right-width: 0;
+  }
+  /* Timeless overflowed tables not sticky. */
+  body.skin-timeless .content-table-wrapper.overflowed .sticky-header.wikitable,
+  body.skin-timeless .content-table-wrapper.overflowed .sticky-header-multi.wikitable {
+    border-collapse: collapse; /* Reset to prior. */
+    border-width: 1px; /* Reset to prior. */
+  }
+}
+
+/**
+ * Adjust to other sticky elements.
+ */
+@media screen and (min-width: 1120px) {
+  /* Vector (2022) width >=1120px: Below sticky header bar. */
+  body.vector-sticky-header-visible .sticky-header > thead > tr:first-child,
+  body.vector-sticky-header-visible .sticky-header > caption + tbody > tr:first-child,
+  body.vector-sticky-header-visible .sticky-header > tbody:first-child > tr:first-child,
+  body.vector-sticky-header-visible .sticky-header-multi > thead {
+    top: 3.125rem;
+  }
+}
+@media screen and (min-width: 851px) {
+  /* Timeless width >=851px: Below sticky header bar. */
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header > thead > tr:first-child,
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header > caption + tbody > tr:first-child,
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header > tbody:first-child > tr:first-child,
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header-multi > thead {
+    top: 3.51em;
+  }
+}
+
+/**
+ * Fix "Sticky Table Headers" gadget issues; this template has priority.
+ */
+@media screen {
+  .sticky-header.jquery-tablesorter > thead,
+  .sticky-header.mw-sticky-header > thead {
+    position: static; /* Was "sticky". */
+    top: auto; /* Was "0". */
+    z-index: auto; /* Was "10". */
+  }
+  .sticky-header.jquery-tablesorter > tfoot,
+  .sticky-header.mw-sticky-header > tfoot,
+  .sticky-header-multi.jquery-tablesorter > tfoot,
+  .sticky-header-multi.mw-sticky-header > tfoot {
+    position: static; /* Was "sticky". */
+    bottom: auto; /* Was "0". */
+    z-index: auto; /* Was "10". */
+  }
+}
+@media screen and (min-width: 1120px) {
+  body.skin-vector-2022.vector-sticky-header-visible .sticky-header.jquery-tablesorter > thead {
+    top: auto; /* Was "3.125rem". */
+  }
+  html.client-js.vector-sticky-header-enabled .sticky-header .mw-sticky-header-element {
+    top: auto !important; /* Was "3.125rem !important". */
+  }
+}
+@media screen and (min-width: 851px) {
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header.jquery-tablesorter > thead,
+  body.skin-timeless .content-table-wrapper:not(.overflowed) .sticky-header.mw-sticky-header > thead {
+    top: auto; /* Was "3.125rem". */
+  }
+}

@@ -1,0 +1,58 @@
+local mHatnote = require('Module:Hatnote')
+local mHatlist = require('Module:Hatnote list')
+local mArguments --initialize lazily
+local mTableTools = require('Module:TableTools')
+local p = {}
+
+function p.redirectDistinguish (frame)
+	mArguments = require('Module:Arguments')
+	local args = mArguments.getArgs(frame)
+	return p._redirectDistinguish(args)
+end
+
+function p._redirectDistinguish(args)
+	if not args[1] then
+		return mHatnote.makeWikitextError(
+			'no redirect supplied',
+			'Template:Redirect-distinguish',
+			args.category
+		)
+	end
+	local redirectTitle = mw.title.new(args[1])
+	local currentTitle = currentTitle or mw.title.getCurrentTitle()
+	if
+		string.match(args[1], 'REDIRECT%d+') or
+		args[1] == 'TERM' or
+		currentTitle.namespace ~= 0
+	then
+		--do nothing
+	elseif not redirectTitle or not redirectTitle.exists then
+		args[1] = args[1] .. '[[Category:Missing redirects]]'
+	elseif not redirectTitle.isRedirect then
+		if string.find(redirectTitle:getContent(), '#invoke:RfD') then
+			args[1] = args[1] ..
+				'[[Category:Articles with redirect hatnotes impacted by RfD]]'
+		else
+			args[1] = args[1] ..
+				'[[Category:Articles with redirect hatnotes needing review]]'
+		end
+	end
+	if not args[2] then
+		return mHatnote.makeWikitextError(
+			'no page to be distinguished supplied',
+			'Template:Redirect-distinguish',
+			args.category
+		)
+	end
+	args = mTableTools.compressSparseArray(args)
+	--Assignment by removal here makes for convenient concatenation later
+	local redirect = table.remove(args, 1)
+	local text = string.format(
+		'"%s" redirects here; not to be confused with %s.',
+		redirect,
+		mHatlist.orList(args, true)
+	)
+	return mHatnote._hatnote(text)
+end
+
+return p

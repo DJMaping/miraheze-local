@@ -1,0 +1,136 @@
+/* {{pp-template}} */
+/**
+ * Add a static (unsortable) column of numbers to the left of a table.
+ * Optionally disable numbers on specific rows for headers (no borders) or data
+ * (borders). Optionally display column header text: "No." or hash ("#").
+ *
+ * Classes:
+ * - table.static-row-numbers
+ * - table.static-row-header-text
+ * - table.static-row-header-hash
+ * - tr.static-row-header
+ * - tr.static-row-numbers-norank
+ *
+ * Tested:
+ * - Windows 10: (all skins) Chrome, Firefox, Edge.
+ * - Android Galaxy S21 (MinervaNeue): Chrome, Firefox.
+ * - Wikipedia Android app.
+ * - Print.
+ * - No JavaScript.
+ * - Sticky gadget in Windows browsers (default skin).
+ * - Dark Reader browser extention in Windows browsers (default skin).
+ *
+ * Notes:
+ * - Sortable moves to thead any header rows and (after sort) sorttop rows.
+ * - Sticky gadget (.mw-sticky-header) moves to thead any wikitable header rows.
+ */
+.static-row-numbers {
+  counter-reset: rowNumber;
+}
+.static-row-numbers tr::before {
+  content: "";
+  display: table-cell;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  text-align: right;
+  vertical-align: inherit;
+}
+.static-row-numbers.static-row-numbers-left tr::before {
+	text-align: left;
+}
+.static-row-numbers.static-row-numbers-center tr::before {
+	text-align: center;
+}
+.static-row-numbers.wikitable tr::before {
+  background-color: var(--background-color-neutral, #eaecf0);
+}
+body.skin-minerva .static-row-numbers.wikitable tr::before {
+  background-color: var(--background-color-neutral, #eaecf0);
+  color: var(--color-base, #202122);
+}
+
+/**
+ * Add count to all tbody rows except for two classes. If no thead, skip the
+ * first tbody row which may not have one of the two classes:
+ */
+.static-row-numbers thead + tbody tr:first-child:not(.static-row-header):not(.static-row-numbers-norank)::before,
+.static-row-numbers tbody tr:not(:first-child):not(.static-row-header):not(.static-row-numbers-norank)::before {
+  counter-increment: rowNumber;
+  content: counter(rowNumber);
+}
+
+/**
+ * Add column label to first row in thead or, if no thead, in tbody:
+ */
+.static-row-header-text.static-row-numbers thead tr:first-child::before,
+.static-row-header-text.static-row-numbers caption + tbody tr:first-child::before,
+.static-row-header-text.static-row-numbers tbody:first-child tr:first-child::before {
+  content: "No.";
+  font-weight: bold;
+}
+.static-row-header-hash.static-row-numbers thead tr:first-child::before,
+.static-row-header-hash.static-row-numbers caption + tbody tr:first-child::before,
+.static-row-header-hash.static-row-numbers tbody:first-child tr:first-child::before {
+  content: "#";
+  font-weight: bold;
+}
+
+/**
+ * Add borders in numbers column.
+ *
+ * Windows Firefox tr::before doesn't inherit color, so hard set.
+ * Plain table borders on Timeless {{row hover highlight}} mw-datatable.
+ */
+/* Wikitable. */
+.static-row-numbers.wikitable tr::before {
+  border: 0 solid var(--border-color-base, #a2a9b1);
+}
+.static-row-numbers.wikitable thead + tbody tr:first-child:not(.static-row-header)::before,
+.static-row-numbers.wikitable tbody tr:not(:first-child):not(.static-row-header)::before {
+  border-width: 1px;
+}
+body.skin-monobook .static-row-numbers.wikitable tr::before {
+  border-color: #aaaaaa;
+}
+body.skin-timeless .static-row-numbers.wikitable tr::before {
+  border-color: #c8ccd1;
+}
+body.skin-minerva .static-row-numbers.wikitable tr::before {
+  border-color: rgba(84,89,93,.3);
+}
+/* Plain with border. */
+table[border].static-row-numbers:not(.wikitable) tr::before {
+  border: 0 inset #202122;
+}
+table[border].static-row-numbers:not(.wikitable) thead + tbody tr:first-child:not(.static-row-header)::before,
+table[border].static-row-numbers:not(.wikitable) tbody tr:not(:first-child):not(.static-row-header)::before {
+  border-width: 1px;
+}
+body.skin-monobook table[border].static-row-numbers:not(.wikitable) tr::before,
+body.skin-timeless table[border].static-row-numbers:not(.wikitable):not(.mw-datatable) tr::before {
+  border-color: #000000;
+}
+/* Plain with optional border + .mw-datatable. */
+body.skin-timeless .static-row-numbers.mw-datatable:not(.wikitable) tr::before {
+  border: 0 solid #c8ccd1;
+}
+body.skin-timeless .static-row-numbers.mw-datatable:not(.wikitable) thead + tbody tr:first-child:not(.static-row-header)::before,
+body.skin-timeless .static-row-numbers.mw-datatable:not(.wikitable) tbody tr:not(:first-child):not(.static-row-header)::before {
+  border-width: 1px;
+}
+/* Minerva mobile. */
+@media all and (max-width: 720px) {
+  /* Wikitable. */
+  body.skin-minerva .static-row-numbers.wikitable tr::before {
+    border-left-width: 1px;
+  }
+  body.skin-minerva .static-row-numbers.wikitable thead tr:first-child::before,
+  body.skin-minerva .static-row-numbers.wikitable caption + tbody tr:first-child::before,
+  body.skin-minerva .static-row-numbers.wikitable tbody:first-child tr:first-child::before {
+    border-top-width: 1px;
+  }
+  body.skin-minerva .static-row-numbers.wikitable tbody tr:last-child::before,
+  body.skin-minerva .static-row-numbers.wikitable tfoot tr:last-child::before {
+    border-bottom-width: 1px;
+  }
+}

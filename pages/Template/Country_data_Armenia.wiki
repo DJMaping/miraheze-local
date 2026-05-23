@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Armenia
+| flag alias = Flag of Armenia.svg
+| flag alias-1918 = Flag of the First Republic of Armenia.svg
+| link alias-air force = Armenian Air Force
+| link alias-army = Armenian Ground Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1918
+| redir1 = ARM
+| related1 = Armenian SSR
+</noinclude>
+}}

@@ -1,0 +1,3 @@
+<dt {{safesubst<noinclude/>:#if:{{{class|}}}|class="{{{class}}}"|}} {{safesubst<noinclude/>:#if: {{{noid|}}}||id="{{safesubst<noinclude/>:#invoke:delink|delink|{{safesubst<noinclude/>:#invoke:String|replace|source={{safesubst<noinclude/>:lc:{{{id|{{{term|{{{1}}}}}}}}}}}|"|<!--blank to strip out double quote mark-->}}}}"}} {{safesubst<noinclude/>:#if:{{{style|}}}|style="{{{style}}}"|}}>{{safesubst<noinclude/>:#if:{{{nondefining|}}}||<dfn>}}{{{content|{{{2|{{{term|{{{1}}}}}}}}}}}}{{safesubst<noinclude/>:#if:{{{nondefining|}}}||</dfn>}}</dt><noinclude>
+{{Documentation}}
+</noinclude>

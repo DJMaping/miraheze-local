@@ -1,0 +1,37 @@
+{{Helpbox
+ |templatename = Collapsible templates
+ |name = Collapsible templates
+ |bodyclass = vcard
+
+ |list1 = {{aligned table|fullwidth=y|rightleft=y|col1style=font-weight:bold;
+   |Help:     |[[Help:Collapsing|Collapsing]]
+   |Guideline:|[[MOS:COLLAPSE|Hidden content]]
+  }}
+
+ |group2 = [[WP:Mainspace|Article namespace]]
+ |list2 = {{plainlist|1=
+* {{tl|collapsible list}}
+* {{tl|hidden}}
+* {{hlist|{{tl|hidden begin}}|{{tl|hidden end}}}}
+}}
+ |group3 = [[Wikipedia:Infobox|Infoboxes]]
+ |list3 = {{plainlist|1=
+* {{tl|collapsed infobox section begin}}
+* {{tl|collapsed infobox section end}}
+}}
+ |group4 = [[Wikipedia:Navigation template|Navigation templates]]
+ |list4 = {{plainlist|1=
+* {{tl|sidebar with collapsible lists}}
+* {{tl|navbox with collapsible groups}}
+}}
+ |group5 = [[Help:Talk pages|Talk namespace]]
+ |list5 = {{plainlist|1=
+* {{tl|collapse}}
+* {{hlist|{{tl|collapse top}}|{{tl|collapse bottom}}}}
+* {{tl|collapse AI top}}
+* {{tl|hidden archive top}}
+* {{tl|hidden archive bottom}}
+}}
+}}<noinclude>
+[[Category:Collapse templates]]
+</noinclude>

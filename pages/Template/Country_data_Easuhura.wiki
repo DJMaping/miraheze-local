@@ -1,0 +1,13 @@
+{{safesubst<noinclude />: {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Easuhura
+| flag alias = Easuhura Flag.png
+| border-navy =
+| border-army=
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+</noinclude>
+}}

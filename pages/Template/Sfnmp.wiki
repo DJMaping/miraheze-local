@@ -1,0 +1,7 @@
+<includeonly>{{#invoke:Footnotes|sfnm
+|bracket_year_left = (
+|bracket_year_right = )
+|template=sfnmp
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

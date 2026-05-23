@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Morocco
+| flag alias = Flag of Morocco.svg
+| flag alias-1666 = Flag of Morocco (1666–1915).svg
+| flag alias-1913 = Flag of Spanish Morocco.svg
+| flag alias-civil = Civil Ensign of Morocco.svg
+| flag alias-naval = Naval Ensign of Morocco.svg
+| link alias-naval = Royal Moroccan Navy
+| flag alias-air force = Flag of the Royal Moroccan Air Force.png
+| link alias-air force = Royal Moroccan Air Force
+| flag alias-army = Flag of the Royal Moroccan Army.svg
+| link alias-army = Royal Moroccan Army
+| flag alias-navy = Flag of the Royal Moroccan Navy.svg
+| link alias-navy = Royal Moroccan Navy
+| flag alias-military = Flag of the Royal Moroccan Armed Forces.svg
+| link alias-military = Royal Moroccan Armed Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1666
+| var2 = 1913
+| var3 = civil
+| redir1 = MAR
+</noinclude>
+}}

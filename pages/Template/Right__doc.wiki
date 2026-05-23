@@ -1,0 +1,68 @@
+{{Documentation subpage}}
+{{high-risk}}
+<!-- Please add categories at the bottom of this page, and interwikis at Wikidata (see Wikipedia:Wikidata) -->
+
+== Description ==
+It is to '''right''' align in-line elements on a page. The only parameter is the content to be aligned. See also [[Template:Align]] for more options and flexibility.
+
+== Usage ==
+With no input arguments, it saves typing the following text (in a table):
+: <code><nowiki>style="text-align:right"|</nowiki></code>
+
+To use, type <code><nowiki>{{right}}</nowiki></code> at the start of the table cell. 
+
+With an input argument, it saves typing: 
+: <code><nowiki>&lt;div style="float:right;">...</div&gt;</nowiki></code>
+
+To use, type <code><nowiki>{{right|content}}</nowiki></code> to align contents.
+
+== Examples ==
+=== Example 1 ===
+{{col-begin}}
+{{col-break}}
+<pre style="overflow:auto">
+{| class="wikitable" style="width:30em; text-align:center"
+!colspan="4"| Header text
+|-
+| {{Right}} Content1A <br/> Content1B || Content2
+|}
+</pre>
+{{col-break|gap=2em}}
+{| class="wikitable" style="width:30em; text-align:center"
+!colspan="4"| Header text
+|-
+| {{Right}} Content1A <br/> Content1B || Content2
+|}
+{{col-end}}
+
+=== Example 2 ===
+{{col-begin}}
+{{col-break}}
+<pre style="overflow:auto">
+{| class="wikitable" style="width:30em; text-align:center"
+!colspan="4"| Header text
+|-
+| {{Right|Content1A}} <br/> Content1B || Content2
+|}
+</pre>
+{{col-break|gap=2em}}
+{| class="wikitable" style="width:30em; text-align:center"
+!colspan="4"| Header text
+|-
+| {{Right|Content1A}} <br/> Content1B || Content2
+|}
+{{col-end}}
+
+== See also ==
+* {{tl|align}}
+* {{tl|center}}, {{tl|left}} and {{tl|justify}}
+* {{tl|Center block}}
+* {{tl|Image frame}}
+* {{tl|Table alignment}} - to align whole columns in tables.
+
+
+<includeonly>{{sandbox other||
+<!-- Add categories below this line, and interwikis at Wikidata -->
+[[Category:Positioning templates]]
+[[Category:Typing-aid templates]]
+}}</includeonly>

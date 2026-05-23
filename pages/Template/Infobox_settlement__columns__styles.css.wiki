@@ -1,0 +1,20 @@
+/* {{pp|small=y}} */
+.ib-settlement-cols {
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+
+.ib-settlement-cols-row {
+	display: table-row;
+}
+
+.ib-settlement-cols-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ib-settlement-cols-cellt {
+	display: table-cell;
+	vertical-align: top;
+}

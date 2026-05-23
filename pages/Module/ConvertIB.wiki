@@ -1,0 +1,172 @@
+require('strict')
+local p = {}
+local getArgs = require('Module:Arguments').getArgs
+
+-- Units accepted by {{convert}} that come in groups (e.g., "5 ft 6 in")
+local multiple = 
+{'mich', 'michlk', 'michainlk', 'miyd', 'miydftin', 'mift', 'ydftin', 'ydft',
+'ftin', 'footin', 'handin', 'lboz', 'stlb', 'stlboz', 'stlb'}
+
+-- Convert unit list to hash
+local mult_table = {}
+for _, v in ipairs(multiple) do
+	mult_table[v] = true
+end
+
+-- Function to pull out values and units from numeric args
+-- Returns:
+--   values:  list of numeric values, or "false" if no numeric argument is given
+--   units: list of units (str)
+--   value: if there is a last numeric value unpaired with a unit, it becomes the precision
+--   anyValue: whether there is a non-false value in the values list
+local function parseValuesUnits(args)
+	local values = {}
+	local units = {}
+	local indx = 1
+	local value = nil
+	local anyValue = false
+	-- loop through numeric arguments in pairs
+	while args[indx] or args[indx+1] do
+		value = args[indx]
+		anyValue = anyValue or value
+		-- if there is a unit, save in output lists
+		if args[indx+1] then
+			table.insert(values, value or false)
+			table.insert(units, args[indx+1])
+			value = nil
+		end
+		indx = indx+2
+	end
+	return values, units, value, anyValue
+end
+
+-- Function to identify multiple units and rewrite them as new input or output groups
+-- Args:
+--   values, units: numeric values and units, as lists with same length
+-- Returns:
+--   newValues, newUnits: same lists rewritten
+local function parseMultiples(values, units)
+	local newValues = {}
+	local newUnits = {}
+	local i = 1
+	-- we will search for multiples with up to 4 entries (depending on length)
+	local maxMultiple = math.min(4,#units-1)
+	local valueFound = false -- flag to suppress second (and later) input values
+	--- Hack for handling "stone": check if only value supplied is "lb"
+	local onlyPounds = true
+	for i = 1, #units do
+		if values[i] and units[i] ~= 'lb' then
+			onlyPounds = false
+			break
+		end
+	end
+	-- sweep through units
+	while i <= #units do
+		-- determine index of last possible unit that could contain a multiple
+		local last_unit = math.min(i+maxMultiple-1,#units)
+		local multipleFound = false
+		-- try from longest multiple down to double multiple (prefer longest ones)
+		for j = last_unit, i+1, -1 do
+			local key = table.concat({unpack(units,i,j)}, '')
+			if mult_table[key] then
+				-- we found a multiple unit
+				multipleFound = true
+				-- Hack for "stone": add either 'lb' or multiple unit string to output units
+				--    depending on whether 'lb' was the only unit string with a value
+				if mw.ustring.sub(key,1,2) == 'st' then
+					table.insert(newValues, false)
+					table.insert(newUnits, onlyPounds and key or 'lb')
+				end
+				-- if there are any value in the span of the multiple,
+				-- then the multiple is an input
+				-- assume all missing values after the first are zero
+				local firstValueFound = false
+				for k = i, j do
+					firstValueFound = not valueFound and (firstValueFound or values[k])
+					if firstValueFound then
+						table.insert(newValues, values[k] or 0)
+						table.insert(newUnits, units[k])
+					end
+				end
+				valueFound = valueFound or firstValueFound
+				-- if no values in the span of the multiple,
+				-- then the multiple is an output. Insert combined string as output unit
+				if not firstValueFound then
+					table.insert(newValues, false)
+					table.insert(newUnits, key)
+				end
+				i = j+1
+				break
+			end
+		end
+		--- If no multiple unit was found, insert value[i] and unit[i] into rewritten lists
+		if not multipleFound then
+			if valueFound then
+				table.insert(newValues, false) -- skip writing value if it is a duplicate
+			else
+				table.insert(newValues,values[i])
+				valueFound = values[i]
+			end
+			table.insert(newUnits, units[i])
+			i = i+1
+		end
+	end
+	return newValues, newUnits			
+end
+
+-- Implement {{convinfobox}}
+function p._convert(args)
+	-- find all values and units in numeric args (and the precision, if it exists)
+	local values, units, precision, anyValue = parseValuesUnits(args)
+	-- bail if no values at all
+	if not anyValue then
+		return nil
+	end
+	-- rewrite values and units if multiple units are found
+	values, units = parseMultiples(values, units)
+	-- sort input and outputs into different buckets
+	local input_values = {}
+	local input_units = {}
+	local output_units = {}
+	for i = 1, #units do
+		if values[i] then
+			table.insert(input_values, values[i])
+			table.insert(input_units, units[i])
+		else
+			table.insert(output_units, units[i])
+		end
+	end
+	-- bail if nothing to convert
+	if #input_values == 0 or #output_units == 0 then
+		return nil
+	end
+	-- assemble argument list to {{convert}}
+	local innerArgs = {}
+	-- First, pass all input unit(s)
+	for i, v in ipairs(input_values) do
+		table.insert(innerArgs,v)
+		table.insert(innerArgs,input_units[i])
+	end
+	-- Then the output unit(s) [concatenated as single argument]
+	table.insert(innerArgs,table.concat(output_units,"+"))
+	if precision then
+		table.insert(innerArgs,precision) -- last non-nil value contains precision
+	end
+	-- now handle all non-numeric arguments, passing to {{convert}}
+	innerArgs.abbr = 'on'  -- abbr=on by default
+	for k, v in pairs(args) do
+		if not tonumber(k) then
+			innerArgs[k] = v
+		end
+	end
+	-- Call {{convert}} with innerArgs
+	local frame = mw.getCurrentFrame()
+	return frame:expandTemplate{title='Convert', args=innerArgs}
+end
+
+function p.convert(frame)
+	local args = getArgs(frame)
+	return p._convert(args) or ""
+end
+
+return p

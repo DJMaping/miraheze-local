@@ -1,0 +1,12 @@
+{{<includeonly>safesubst:</includeonly>#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Dead link}} begin-->{{Fix
+| special  = <sup class="noprint Inline-Template"><span style="white-space: nowrap;">&#91;<i>{{#if: {{{url|}}}|[https://web.archive.org/web/*/{{{url|}}} <span title="{{{title|}}}{{#if:{{{date|}}}|&nbsp;tagged {{{date}}}}}">dead link</span>]|[[Wikipedia:Link rot|<span title="{{{title|}}}{{#if:{{{date|}}}|&nbsp;Dead link tagged {{{date}}}}}">{{#if:{{{fix-attempted|}}}|permanent dead link|dead link}}</span>]]}}</i>&#93;</span></sup>
+| date     = {{{date|}}}
+| cat      = {{main other|[[Category:All articles with dead external links]]}}
+| cat-date = Category:Articles with dead external links
+| cat2     = {{main other|{{#if:{{{fix-attempted|}}}|[[Category:Articles with permanently dead external links]]}}}}
+}}<!--{{Dead link}} end-->
+}}<noinclude>
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES TO THE /doc SUBPAGE; INTERWIKIS GO TO WIKIDATA, THANK YOU! -->
+</noinclude>

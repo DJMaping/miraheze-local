@@ -1,0 +1,52 @@
+-- Module to display an icon with a tooltip such as "Edit this at Wikidata".
+-- Icon is linked to the Wikidata entry for the article where this is placed.
+-- This message is only displayed if a local_parameter is not supplied
+-- i.e. when called from a template, it can be coded not to display the message.
+-- The qid of a Wikidata entry can optionally be supplied for testing outside the article.
+-- Usage:
+-- {{#invoke:EditAtWikidata|showMessage|local_parameter}}
+-- {{#invoke:EditAtWikidata|showMessage|qid=<ArticleID>|local_parameter}}
+
+local p = {}
+
+local i18n =
+{
+	["message"] = "Edit this at Wikidata"
+}
+
+local function trimToNil(text)
+	-- Return trimmed non-empty text, or nil.
+	if type(text) == 'string' then
+		return text:match('(%S.-)%s*$')
+	end
+end
+
+function p._showMessage(args)
+	local local_parm = trimToNil(args[1])
+	if local_parm then return "" end
+	-- Parameter qid=x specifies the Wikidata ID for the article.
+	-- This is not normally used except for testing outside the article.
+	local qid = trimToNil(args.qid) or mw.wikibase.getEntityIdForCurrentPage()
+	if qid and mw.wikibase.entityExists(qid) then
+		-- Parameter pid=x uses x as an anchor in the link to the Wikidata entry.
+		local anchor = trimToNil(args.pid)
+		-- Parameter nbsp replaces the leading space with &nbsp;
+		local space = trimToNil(args.nbsp) and "&nbsp;" or " "
+		return
+			space ..
+			"[[File:OOjs UI icon edit-ltr-progressive.svg|frameless|text-top|10px" ..
+			"|alt=" .. i18n.message ..
+			"|link=https://www.wikidata.org/wiki/" .. qid ..
+			(anchor and ("#" .. anchor) or "") ..
+			"|class=noprint" ..
+			"|" .. i18n.message ..
+			"]]"
+	end
+	return ""
+end
+
+function p.showMessage(frame)
+	return p._showMessage(frame.args)
+end
+
+return p

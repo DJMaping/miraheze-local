@@ -1,0 +1,63 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Transwiki guide |small=yes |Template:Reflist/Transwiki guide}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+'''Explanatory footnotes''' or '''Efn''' are footnotes that  provide something other than, or more than, a reference to a [[WP:Reliable sources|source]] that supports the accompanying text. The first unnamed parameter is displayed as the content of the footnote.
+
+{{hatnote|'''Note''': If the note's content contains an "{{=}}" character, a reference error will be displayed; precede the content with {{para|1}} (or one of its aliases, {{para|text}}, {{para|reference}}, or {{para|content}}) to fix the error.}}
+
+The following explanation is transcluded from [[Help:Footnotes#Footnotes: predefined groups]].
+{{#section:Help:footnotes|pregroup}}
+
+==Example articles==
+* [[Logic Theorist]] (a short article showing basic usage)
+* [[Chinese room]] (a long and complex article which uses all the features: named footnotes, list defined notes, etc.)
+* [[Empire of Brazil]]
+* [[John Diefenbaker]] (with name= and notes in <nowiki>{{notes}}</nowiki>)
+* [[USS Monitor|USS ''Monitor'']]
+<includeonly>{{sandbox other||
+<!-- Categories and interwikis go here: -->
+[[Category:Explanatory footnote templates]]
+[[Category:Templates that generate named references]]
+}}</includeonly>
+
+== Template data ==
+Description: <templatedata>
+{
+	"description": "Inserts an explanatory footnote. Notes can be named and grouped.",
+	"params": {
+		"1": {
+			"aliases": [
+				"reference",
+				"text",
+				"content"
+			],
+			"label": "Note",
+			"description": "Text of the note",
+			"type": "content",
+			"suggested": true
+		},
+		"name": {
+			"label": "Ref. name",
+			"description": "Reference name of the note",
+			"type": "string"
+		},
+		"group": {
+			"label": "Reference group",
+			"description": "Styled group to which the note belongs. Unrecognized values are treated as \"lower-alpha\".",
+			"type": "string",
+			"suggestedvalues": [
+				"upper-alpha",
+				"lower-greek",
+				"note",
+				"lower-roman",
+				"upper-roman"
+			],
+			"default": "lower-alpha"
+		}
+	}
+}
+</templatedata>
+
+==See also==
+* [[Template:Cref]] - A manual system alternative

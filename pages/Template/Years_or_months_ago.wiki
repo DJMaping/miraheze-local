@@ -1,0 +1,15 @@
+<includeonly>{{#ifexpr:{{#if:{{{2|}}}|1|0}}=0 or abs( ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12)) >= 12
+
+|<!-- in years -->{{#expr:floor(abs( ( ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) ) / 12 ))}}&nbsp;{{#ifexpr:({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) < 0
+|<!-- future -->{{#ifexpr:ceil( ( ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) ) / 12 ) = -1|year's|years'}}
+|<!-- past/current -->{{#ifexpr:floor( ( ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) ) / 12 ) = 1|year|years}}
+}}
+
+|<!-- in months -->{{#expr:abs( ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) )}}&nbsp;{{#ifexpr:({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) < 0
+|<!-- future -->{{#ifexpr: ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) = -1|month's|months'}}
+|<!-- past/current -->{{#ifexpr: ({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) = 1|month|months}}
+}}
+
+}} {{#ifexpr:({{{4|{{CURRENTMONTH}}}}}+{{{3|{{CURRENTYEAR}}}}}*12) - ({{{2|{{CURRENTMONTH}}}}}+{{{1|{{CURRENTYEAR}}}}}*12) < 0|time|ago}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

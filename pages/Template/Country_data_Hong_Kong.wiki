@@ -1,0 +1,29 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Hong Kong
+| flag alias = Flag of Hong Kong.svg
+| flag alias-colonial = Flag of Hong Kong 1959.svg  <!-- deprecate the "colonial" varname -->
+| flag alias-1959 = Flag of Hong Kong 1959.svg
+| flag alias-1955 = Flag of Hong Kong 1955.svg
+| flag alias-1910 = Flag of Hong Kong 1876.svg
+| flag alias-1876 = Flag of Hong Kong 1876.svg
+| flag alias-1871 = Flag of Hong Kong 1871.svg
+| flag alias-red = Flag of Hong Kong (1959–1997, unofficial Red Ensign).svg
+| link alias-naval = Hong Kong Marine Police
+| link alias-navy = Hong Kong Marine Police
+| link alias-korfball = Hong Kong China national korfball team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1959
+| var2 = 1955
+| var3 = 1910
+| var4 = 1876
+| var5 = 1871
+| var6 = red
+| redir1 = HKG
+| redir2 = Hong Kong, China
+</noinclude>
+}}

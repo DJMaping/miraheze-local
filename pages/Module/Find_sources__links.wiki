@@ -1,0 +1,282 @@
+-- This is a list of links used by [[Module:Find sources]].
+
+return {
+	["archive.org"] = {
+		url = 'https://archive.org/search.php?query=$1%20AND%20mediatype:texts',
+		display = 'Archive.org',
+		description = "The [[Internet Archive]], a digital library of public websites.",
+	},
+	["bing"] = {
+		url = 'https://www.bing.com/search?q=$1',
+		display = 'Bing',
+		description = "[[Bing (search engine)|Bing]], Microsoft's flagship search engine.",
+	},
+	["britannica"] = {
+		url = 'https://www.britannica.com/search?nop=1a15&cse=on&query=$1&cx=ccef96e8363da4b5f&tbm=3&fxx=3',
+		display = 'Encyclopedia Britannica',
+		description = "[[Encyclopedia Britannica]]",
+	},
+	["british library"] = {
+		url = 'https://explore.bl.uk/primo_library/libweb/action/search.do?fn=search&ct=search&initialSearch=true&mode=Basic&tab=local_tab&indx=1&dum=true&srt=rank&vid=BLVU1&frbg=&tb=t&vl%28freeText0%29=$1',
+		display = 'British Library',
+		description = "National library of the United Kingdom",
+	},
+	["ccsearch"] = {
+		url = "https://search.creativecommons.org/search?q=$1&license_type=commercial,modification",
+		display = "CC Search",
+		description = "CC Search: The official search engine of [[Creative Commons]]",
+	},
+	["cochrane"] = {
+		url = "https://www.cochranelibrary.com/en/advanced-search?searchBy=-1&isWordVariations=&resultPerPage=25&searchType=advanced&selectedType=review&displayText=&orderBy=relevancy&p_p_id=scolarissearchresultsportlet_WAR_scolarissearchresults&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&searchText=$1",
+		display = "Cochrane",
+		description = "[[Cochrane Library]]: Leading publisher of systematic reviews.",
+	},
+	["doaj"] = {
+		url = "https://www.doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A$1%2C%22default_operator%22%3A%22AND%22%7D%7D%7D",
+		display = "DOAJ",
+		description = "[[Directory of Open Access Journals|DOAJ]]: Directory of Open Access Journals",
+	},
+	["duckduckgo"] = {
+		url = 'https://duckduckgo.com/?q=$1',
+		display = 'DuckDuckGo',
+		description = "[[DuckDuckGo]], a search engine that emphasizes protecting searchers' privacy and avoiding the \"filter bubble\" of personalized search results.",
+	},
+	["eowb"] = {
+		url = 'https://search.lib.umich.edu/everything?query=$1',
+		display = 'Encyclopedia of World Biography',
+		tooltip = 'Encyclopedia of World Biography, by Gale Research; online results provided by University of Michigan.',
+	},
+	["free news sources"] = {
+		url = 'https://en.wikipedia.org/wiki/Wikipedia:Free_English_newspaper_sources',
+		display = 'free news sources',
+	},
+	["gale"] = {
+		url = "https://go.gale.com/ps/basicSearch.do?inputFieldNames%5B0%5D=OQE&nwf=y&searchType=BasicSearchForm&userGroupName=anon%7Ee3e4f4eb&prodId=AONE&spellCheck=true&method=doSearch&dblist=&stw.option=&ebook=&singleLimiterFieldValues%5BAC%5D=y&_singleLimiterFieldValues%5BAC%5D=on&_singleLimiterFieldValues%5BRE%5D=on&standAloneLimiters=LI&_singleLimiterFieldValues%5BLI%5D=on&inputFieldValues%5B0%5D=$1",
+		display = "Gale Academic OneFile",
+		description = "	Gale Academic OneFile: Academic publisher portal from [[Gale (publisher)|Gale]]. Access via [[Wikipedia:The Wikipedia Library|Wikipedia Library]]",
+	},
+	["gin"] = {
+		url = "https://guidelines.ebmportal.com/guidelines-international-network?type=search&search=$1",
+		display = "GIN guidelines",
+		tooltip = "Content from the library and the registry of guidelines in development provided by the Guidelines International Network",
+	},
+	["globe and mail"] = {
+		url = 'https://www.theglobeandmail.com/search/?q=$1',
+		display = "''The Globe and Mail''",
+		description = "The website of ''[[The Globe and Mail]]'', a [[newspaper of record]] for Canada.",
+	},
+	["google"] = {
+		url = 'https://www.google.com/search?as_eq=wikipedia&q=$1',
+		display = 'Google',
+		description = "[[Google]], the flagship search engine from Google Inc.",
+	},
+	["google books"] = {
+		url = 'https://www.google.com/search?tbs=bks:1&q=$1+-wikipedia',
+		display = 'Google Books',
+		description = "[[Google Books]], Google's search engine for books."
+	},
+	["google free images"] = {
+		url = 'https://www.google.com/search?safe=off&tbs=sur:fmc&tbm=isch&q=$1+-site:wikipedia.org+-site:wikimedia.org',
+		display = 'Free Google Images',
+		description = "[[Google Images]], Google's search engine for images. Only images compatible with Wikipedia's licensing are included.",
+	},
+	["google news"] = {
+		url = 'https://www.google.com/search?tbm=nws&q=$1+-wikipedia&tbs=ar:1',
+		display = 'Google News',
+		description = "[[Google News]], Google's search engine for news sites.",
+		notes = "In the past this link searched news archives, but this functionality has been removed by Google. Currently, only recent news articles are searched.",
+	},
+	["google newspapers"] = {
+		url = 'https://www.google.com/search?&q=$1&tbs=bkt:s&tbm=bks',
+		display = 'Google Newspapers',
+		description = "Google Newspapers, a search of Google's digital archive of print newspapers.",
+	},
+	["google scholar"] = {
+	url = 'https://scholar.google.com/scholar?q=$1',
+		display = 'Google Scholar',
+		description = "[[Google Scholar]], Google's search engine for academic papers and other scholarly research.",
+	},
+	["haaretz"] = {
+		url = 'https://www.haaretz.com/search-results?q=$1',
+		display = "''Haaretz''",
+		description = "The website of ''[[Haaretz]]'', a [[newspaper of record]] for Israel.",
+	},
+	["internet archive scholar"] = {
+		url = 'https://scholar.archive.org/search?&sort_order=time_desc&q=$1',
+		display = 'IA scholar',
+		description = "The [[Internet Archive Scholar]], a digital library of open access academic journals.",
+		tooltip = "The [[Internet Archive Scholar]], a digital library of open access academic journals.",
+	},
+	["infoplease"] = {
+		url = 'https://www.infoplease.com/search/$1',
+		display = 'Infoplease',
+		tooltip = 'Infoplease encyclopedia, dictionary, and almanac',
+	},
+	["jstor"] = {
+		url = 'https://www.jstor.org/action/doBasicSearch?Query=$1&acc=on&wc=on',
+		display = 'JSTOR',
+		description = "[[JSTOR]], an online library containing digitised versions of academic journals. Requires a subscription."
+	},
+	["library of congress"] = {
+		url = 'https://www.loc.gov/search/?in=&q=$1',
+		display = "Library of Congress",
+		description = "U.S. [[Library of Congress]]",
+	},
+	["mail and guardian"] = {
+		url = 'https://mg.co.za/?s=$1',
+		display = "''Mail & Guardian''",
+		description = "The website of the ''[[Mail & Guardian]]'', a [[newspaper of record]] for South Africa.",
+	},
+	["medrs"] = {
+		url = "https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources_(medicine)",
+		display = "find medical sources",
+		tooltip = "Ideal sources for biomedical material include recent literature reviews and medical guidelines; learn how to identify reliable sources for medical content at Wikipedia at WP:MEDRS.",
+		description = "[[WP:MEDRS|MEDRS]]: Ideal sources for biomedical material include recent literature reviews and medical guidelines; learn how to identify reliable sources for medical content.",
+	},
+	["muse"] = {
+		url = 'https://muse.jhu.edu/search?action=search&min=1&max=10&t=header&query=content:$1:and',
+		display = 'MUSE',
+		tooltip = 'Project MUSE: humanities and social science content from academic journals and societies.',
+	},
+	["new york times"] = {
+		url = 'https://www.nytimes.com/search/$1',
+		display = "''New York Times''",
+		description = "The website of ''[[The New York Times]]'', a [[newspaper of record]] for the United States.",
+	},
+	["new zealand herald"] = {
+		url = 'https://www.nzherald.co.nz/search/$1/',
+		display = "''The New Zealand Herald''",
+		description = "The website of ''[[The New Zealand Herald]]'', a [[newspaper of record]] for New Zealand.",
+	},
+	["openlibrary"] = {
+		url = 'https://openlibrary.org/search?q=$1&mode=everything',
+		display = 'OpenLibrary',
+		separator = '+',
+	},
+	["openmd"] = {
+		url = "https://openmd.com/search?q=$1",
+		display = "OpenMD",
+		description = "OpenMD: Search engine for medical literature.",
+	},
+	["pubmed"] = {
+		url = "https://pubmed.ncbi.nlm.nih.gov/?term=$1&filter=pubt.meta-analysis&filter=pubt.review&filter=pubt.systematicreview&filter=datesearch.y_10",
+		display = "PubMed",
+		description = "[[PubMed]]: Search engine for biomedical literature from [[United States National Library of Medicine|NLM]].",
+	},
+	["sciencedirect"] = {
+		url = "https://www.sciencedirect.com/search?qs=$1&articleTypes=REV%2CEN%2CCH%2CSSU%2CPGL&lastSelectedFacet=articleTypes",
+		display = "ScienceDirect",
+		description = "ScienceDirect: [[Elsevier]]'s scientific, technical, and medical research portal.",
+	},
+	["south china morning post"] = {
+		url = 'https://www.scmp.com/search/$1',
+		display = "''South China Morning Post''",
+		description = "The website of the ''[[South China Morning Post]]'', a [[newspaper of record]] for Hong Kong.",
+	},
+	["springer"] = {
+		url = "https://link.springer.com/search?query=$1",
+		display = "Springer",
+		description = "Springer Nature's portal for journals, books, and reference works.",
+	},
+	["statpearls"] = {
+		url = "https://www.ncbi.nlm.nih.gov/books/NBK430685/?term=$1",
+		display = "StatPearls",
+		description = "StatPearls: the largest provider of healthcare continuing education worldwide, providing peer-reviewed practice-guiding knowledge authored by clinical experts.",
+	},
+	["straits times"] = {
+		url = 'https://www.straitstimes.com/search?searchkey=$1',
+		display = "''The Straits Times''",
+		description = "The website of ''[[The Straits Times]]'', a [[newspaper of record]] for Singapore.",
+	},
+	["sydney morning herald"] = {
+		url = 'https://www.smh.com.au/search?text=$1',
+		display = "''The Sydney Morning Herald''",
+		description = "The website of ''[[The Sydney Morning Herald]]'', a [[newspaper of record]] for Australia.",
+	},
+	["the age"] = {
+		url = 'https://www.theage.com.au/search?text=$1',
+		display = "''The Age''",
+		description = "The website of ''[[The Age]]'', a [[newspaper of record]] for Australia.", 
+	},
+	["the guardian"] = {
+		url = 'https://www.google.co.uk/search?as_sitesearch=www.theguardian.com&q=$1',
+		display = 'The Guardian',
+		description = "''[[The Guardian]]'' newspaper, U.K.",
+	},
+	["the hindu"] = {
+		url = 'https://www.thehindu.com/search/?q=$1',
+		display = "''The Hindu''",
+		description = "The website of ''[[The Hindu]]'', a [[newspaper of record]] for India.",
+	},
+	["the times"] = {
+		url = 'https://www.thetimes.co.uk/search?source=search-page&q=$1',
+		display = "''The Times''",
+		description = "The website of ''[[The Times]]'', a [[newspaper of record]] for the United Kingdom.",
+	},
+	["times of india"] = {
+		url = 'https://timesofindia.indiatimes.com/topic/$1',
+		display = "''The Times of India''",
+		description = "The website of ''[[The Times of India]]'', a [[newspaper of record]] for India.",
+	},
+	["trip"] = {
+		url = "https://www.tripdatabase.com/Searchresult?search_type=standard&criteria=$1&from_date=2012",
+		display = "Trip Database",
+		description = "Trip Database: Search engine for clinical research evidence.",
+	},
+	["uptodate"] = {
+		url = "https://www.uptodate.com/contents/search?sp=0&searchType=PLAIN_TEXT&source=USER_INPUT&searchControl=TOP_PULLDOWN&searchOffset=1&autoComplete=false&language=en&max=10&search=$1",
+		display = "UpToDate",
+		tooltip = "Evidence-based resource for clinical decision support written for and by physicians",
+	},
+	["vgrl"] = {
+		url = 'https://en.wikipedia.org/wiki/Special:Search?search=$1&prefix=Wikipedia%3AWikiProject+Video+games%2FReference+library&fulltext=Search+reference+library&fulltext=Search',
+		display = 'VGRL',
+		description = "[[Wikipedia:WikiProject Video games/Reference library]] internal archive search.",
+	},
+	["vgrs"] = {
+		url = 'https://www.google.com/cse?cx=009782238053898643791%3A8naerdbd-oy&q=$1',
+		display = 'VGRS',
+		description = "[http://www.google.com/cse/home?cx=003516479746865699832:leawcwkqifq Google RS], a [[custom Google search engine]] that limits the search to sites listed in [[Wikipedia:WikiProject Video games/Sources]].",
+	},
+	["vgtalk"] = {
+		url = 'https://en.wikipedia.org/w/index.php?search=$1+prefix%3AWikipedia+talk%3AWikiProject+Video+games&title=Special:Search&profile=default&fulltext=1',
+		display = 'WPVG Talk',
+		description = "A search in the WikiProject Video games talk page and its archives under [[Wikipedia talk:WikiProject Video games]].",
+	},
+	["wikipedia library"] = {
+		url = "https://wikipedialibrary.wmflabs.org/search/?q=$1",
+		display = "TWL",
+		tooltip = "The Wikipedia Library",
+		description = "Search results from dozens of services provided via EBSCOhost to Wikipedians via [[Wikipedia:The Wikipedia Library]].",
+	},
+	["wikipedia reference search"] = {
+		url = 'https://www.google.com/custom?hl=en&cx=007734830908295939403%3Agalkqgoksq0&cof=FORID%3A13%3BAH%3Aleft%3BCX%3AWikipedia%2520Reference%2520Search&q=$1',
+		display = 'Wikipedia Reference Search',
+		description = "[[WP:WRS|Wikipedia Reference Search]], a Google search that only searches sites vetted by Wikipedians.",
+	},
+	["wiley"] = {
+		url = "https://onlinelibrary.wiley.com/action/doSearch?AllField=$1",
+		display = "Wiley",
+		description = "Wiley Online Library: [[Wiley (publisher)|Wiley's]] portal for academic articles, books, and collections.",
+	},
+	["ap"] = {
+		url = 'https://apnews.com/search?q=$1',
+		display = "Associated Press",
+		description = "The [[Associated Press]], an American news agency",
+	},
+	["reuters"] = {
+		url = 'https://www.reuters.com/site-search/?query=$1',
+		display = "Reuters",
+		description = "[[Reuters]], an international news agency",
+	},
+	["bbc"] = {
+		url = 'https://www.bbc.co.uk/search?q=$1',
+		display = "BBC",
+		description = "[[BBC]], British public broadcaster",
+	},
+	["wsj"] = {
+		url = 'https://www.wsj.com/search?query=$1',
+		display = "Wall Street Journal",
+		description = "The website of ''[[The Wall Street Journal]]'', a [[newspaper of record]] for the United States.",
+	}
+}

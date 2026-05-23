@@ -1,0 +1,42 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Lua|Module:Sortkey}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{deprecated template|Hidden sort key|date=March 2019}}
+{{Ombox|type=content|text=This template and {{Tl|Sort}} should be avoided. Table sort keys are best defined using the <code>data-sort-value</code> attribute, like so: <code><nowiki>| data-sort-value="Doe, John" | John Doe</nowiki></code>. Please see {{Section link|Help:Sortable tables|Specifying a sort key for a cell}} for details.}}
+
+This template allows you to [[Help:Sortable tables#Specifying a sort key for a cell|specify its parameter as the sort key for a cell]] in sortable tables.
+
+==Usage==
+; {{Tlx|Hidden sort key|sort term}} : Insert this template with the appropriate sort term before the cell data.
+
+==Example==
+<syntaxhighlight lang="wikitext">{| class="wikitable sortable"
+!C1
+|-
+|{{Hidden sort key|1999-12-15}}15 December 1999
+|-
+|{{Hidden sort key|1997-04-21}}21 April 1997
+|-
+|{{Hidden sort key|1998-04-21}}21 April 1998
+|}</syntaxhighlight> produces:
+{| class="wikitable sortable"
+!C1
+|-
+|{{Hidden sort key|1999-12-15}}15 December 1999
+|-
+|{{Hidden sort key|1997-04-21}}21 April 1997
+|-
+|{{Hidden sort key|1998-04-21}}21 April 1998
+|}
+
+==See also==
+*{{tl|Date table sorting}} – Specialized sorting template for dates
+*{{tl|Sort}}
+
+<includeonly>{{sandbox other||
+<!-- CATEGORIES HERE, INTERWIKIS AT WIKIDATA; THANKS -->
+[[Category:Hidden text templates]]
+[[Category:Typing-aid templates]]
+[[Category:Sorting templates]]
+}}</includeonly>

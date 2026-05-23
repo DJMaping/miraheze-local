@@ -1,0 +1,59 @@
+/* {{pp|small=yes}} */
+/* columns-2 and columns-3 are legacy for "2 or more" column view from when the
+ * template was implemented with column-count.
+ */
+.reflist-columns-2 {
+	column-width: 30em;
+}
+.reflist-columns-3 {
+	column-width: 25em;
+}
+/* Match Vector 2022 after [[gerrit:1185300]]. */
+body.skin-vector-2022 .reflist-columns-2 {
+	column-width: 27em;
+}
+body.skin-vector-2022 .reflist-columns-3 {
+	column-width: 22.5em;
+}
+
+/* These should probably be moved to MediaWiki:Common.css to work with <references> as well. */
+.references[data-mw-group=upper-alpha] {
+	list-style-type: upper-alpha;
+}
+
+.references[data-mw-group=upper-roman] {
+	list-style-type: upper-roman;
+}
+
+.references[data-mw-group=lower-alpha] {
+	list-style-type: lower-alpha;
+}
+
+.references[data-mw-group=lower-greek] {
+	list-style-type: lower-greek;
+}
+
+.references[data-mw-group=lower-roman] {
+	list-style-type: lower-roman;
+}
+
+/* Liststyle param. */
+div.reflist-liststyle-upper-alpha .references {
+	list-style-type: upper-alpha;
+}
+
+div.reflist-liststyle-upper-roman .references {
+	list-style-type: upper-roman;
+}
+
+div.reflist-liststyle-lower-alpha .references {
+	list-style-type: lower-alpha;
+}
+
+div.reflist-liststyle-lower-greek .references {
+	list-style-type: lower-greek;
+}
+
+div.reflist-liststyle-lower-roman .references {
+	list-style-type: lower-roman;
+}

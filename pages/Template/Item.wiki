@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Item|pack}}</includeonly><noinclude>
+{{doc}}
+</noinclude>

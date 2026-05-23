@@ -1,0 +1,215 @@
+<noinclude>{{Protection padlock|small=yes}}</noinclude>
+{{Redirect|Template:Inline list|a navbox listing templates used within lines of text to mark problems needing attention|Template:Inline cleanup tags}}
+{{Documentation subpage}}<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata. Thank you! -->
+{{Used in system|in [[MediaWiki:Pageinfo-header]]}}
+{{Cascade-protected template}}
+{{Uses TemplateStyles|Template:Hlist/styles.css}}
+{{Template redirect|Flt|Startflatlist}}
+This template provides a [[Web Content Accessibility Guidelines|WCAG]]/ISO standards-compliant accessible alternative to comma-, dash- or other single character-delimited lists, per [[Wikipedia:Manual of Style/Lists#Horizontal lists|Manual of Style/Lists § Horizontal lists]] and [[Wikipedia:Manual of Style/Accessibility#Horizontal lists|Manual of Style:Accessibility § Horizontal lists]].
+
+Lists output by {{Template link general|Flatlist}} and {{Template link general|Hlist}} are semantically and visually identical, differing only in the underlying wiki-markup they expect as input to create the lists.
+
+{{TOC limit|3}}
+
+== Usage ==
+{{Template link general|Flatlist}} starts a horizontal list, such as:
+{{Flatlist|
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+}}
+
+If this template is used with no parameters, {{Template link general|Endflatlist}} is required. For navigation boxes using {{Template link general|Navbox}}, one can set {{Para|listclass|hlist}} and achieve the same styling without using this template. For image captions, list (i.e. leading asterisk) markup does not work, so consider using {{Template link general|Hlist}} instead.
+
+== Parameters ==
+{{#switch:{{NAMESPACE}}:{{ROOTPAGENAME}}
+ | #default = {{Format TemplateData|1=<templatedata>{
+	"description": {
+		"en": "Used to create horizontal bulleted lists."
+	},
+	"format": "block",
+	"paramOrder": [
+		"class",
+		"style",
+		"indent",
+		"1"
+	],
+	"params": {
+		"1": {
+			"label": {
+				"en": "Content"
+			},
+			"description": {
+				"en": "The list to wrap."
+			},
+			"suggested": true,
+			"type": "content"
+		},
+		"class": {
+			"label": {
+				"en": "Extra Classes"
+			},
+			"description": {
+				"en": "Adds extra CSS classes to the containing div."
+			},
+			"type": "string"
+		},
+		"style": {
+			"label": {
+				"en": "CSS Style"
+			},
+			"description": {
+				"en": "Adds extra CSS properties to the containing div. Complex styles should not be used in articles (per [[MOS:DEVIATIONS]]) but may be acceptable on user, project and talk pages."
+			},
+			"example": "\n border: solid 1px silver;\n background: lightyellow;\n color: black;\n",
+			"type": "string"
+		},
+		"indent": {
+			"label": {
+				"en": "Indent"
+			},
+			"description": {
+				"en": "Indents the list by a number of standard indents (one indent being 1.6[[em (typography)|em]]). (Useful in an indented discussion thread.)"
+			},
+			"example": "2",
+			"type": "number"
+		}
+	}
+}</templatedata>}}
+ | Template:Endflatlist = {{Format TemplateData|1=<templatedata>{
+	"description": "Ends a flat list created by &lbrace;&lbrace;[[Template:Flatlist|Flatlist]]&rbrace;&rbrace;.",
+	"format": "inline",
+	"params": {}
+}</templatedata>}}
+}}
+
+== Examples ==
+<syntaxhighlight lang="wikitext">{{Flatlist|
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+}}</syntaxhighlight>
+…produces:
+{{Flatlist|
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+}}
+
+=== Alternative syntax ===
+<syntaxhighlight lang="wikitext">{{Startflatlist}}
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+{{Endflatlist}}</syntaxhighlight>
+…produces:
+{{Startflatlist}}
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+{{Endflatlist}}
+
+=== Syntax for ordered lists ===
+<syntaxhighlight lang="wikitext">{{Flatlist|
+# [[first]]
+# [[second]]
+# [[3|third]]
+# [[fourth]]
+# [[fifth]]
+# [[sixth]]
+}}</syntaxhighlight>
+…produces:
+{{Flatlist|
+# [[first]]
+# [[second]]
+# [[3|third]]
+# [[fourth]]
+# [[fifth]]
+# [[sixth]]
+}}
+
+=== Using optional parameters ===
+<syntaxhighlight lang="wikitext">{{Flatlist|indent=2|class=nowraplinks|style=background-color: var(--background-color-notice-subtle, lightgray); border: thin solid silver; color: var(--color-base, black);|
+* [[Alpine skiing at the 1936 Winter Olympics]]
+* [[Alpine skiing at the 1948 Winter Olympics]]
+* [[Alpine skiing at the 1952 Winter Olympics]]
+* [[Alpine skiing at the 1956 Winter Olympics]]
+* [[Alpine skiing at the 1960 Winter Olympics]]
+* [[Alpine skiing at the 1964 Winter Olympics]]
+}}</syntaxhighlight>
+…produces:
+{{Flatlist|indent=2|class=nowraplinks|style=background-color: var(--background-color-notice-subtle, lightgray); border: thin solid silver; color: var(--color-base, black);|
+* [[Alpine skiing at the 1936 Winter Olympics]]
+* [[Alpine skiing at the 1948 Winter Olympics]]
+* [[Alpine skiing at the 1952 Winter Olympics]]
+* [[Alpine skiing at the 1956 Winter Olympics]]
+* [[Alpine skiing at the 1960 Winter Olympics]]
+* [[Alpine skiing at the 1964 Winter Olympics]]
+}}
+
+== Technical details ==
+This template uses the {{Code|.hlist}} [[CSS]] class defined in [[Template:Hlist/styles.css]] to generate horizontal lists. It causes ordinary HTML list items to be displayed inline (horizontally), where normally they would be displayed as block elements (vertically). The class also generates the [[interpunct]]s between list items and parentheses around nested lists.
+
+{| class="wikitable"
+ ! Wikitext
+ ! Expanded template
+ ! HTML
+ |- style="vertical-align: top;"
+ | <syntaxhighlight lang="wikitext">{{Flatlist|
+* cat
+* dog
+* horse
+* cow
+* sheep
+* pig
+}}</syntaxhighlight>
+ | {{nowiki2|tag=pre|{{Flatlist|
+* cat
+* dog
+* horse
+* cow
+* sheep
+* pig
+}}}}
+ | <syntaxhighlight lang="html"><div class="hlist"><ul>
+<li>cat</li>
+<li>dog</li>
+<li>horse</li>
+<li>cow</li>
+<li>sheep</li>
+<li>pig</li>
+</ul></div></syntaxhighlight>
+|}
+
+== Maintenance categories ==
+* {{Category link with count|Pages using flatlist with unknown parameters}}
+
+== See also ==
+* {{Template link general|Endflatlist}}
+* {{Template link general|Hlist}}
+* {{Template link general|Plainlist}} and {{Template link general|Unbulleted list}}
+* {{Template link general|Bulleted list}}
+* {{Template link general|Ordered list}}
+* {{Template link general|Nowrap}}
+* {{Template link general|Pagelist}}
+* [[Wikipedia:Manual of Style/Accessibility#Horizontal lists|Manual of Style:Accessibility § Horizontal lists]]
+{{HTML lists}}
+<includeonly>{{Sandbox other||<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:List formatting and function templates|Flatlist]]
+[[Category:Typing-aid templates|Flatlist]]
+}}</includeonly>

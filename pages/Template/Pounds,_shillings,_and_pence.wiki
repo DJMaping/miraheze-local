@@ -1,0 +1,4 @@
+<includeonly>{{Round|{{#expr: {{#expr: {{{l|0}}}}}+{{#expr: {{{s|0}}}/20}}+{{#expr: {{{d|0}}}/240}}+{{#expr: {{{g|0}}}*1.05}}+{{#expr: {{{m|0}}}*2/3}}}}|{{{round|2}}}}}</includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->
+</noinclude>

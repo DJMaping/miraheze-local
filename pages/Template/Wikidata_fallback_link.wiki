@@ -1,0 +1,19 @@
+{{#if:{{#invoke:wd|label|raw|eid={{{1|}}}}}
+ |{{#ifexist:{{#invoke:wd|title|{{{1|}}}}}
+  |{{#if:{{{r|}}}
+   |{{#ifeq:{{FULLPAGENAME}}|{{#invoke:redirect|main|{{#invoke:wd|title|{{{1|}}}}}}}
+    |{{#invoke:wd|label|{{{1|}}}}}&nbsp;{{Wikidata fallback link/Wikidata link|{{{1|}}}|wd={{{wd|}}}|s={{{s|}}}}}<!--Do not link self-redirects-->
+    |{{#invoke:wd|label|linked|{{{1|}}}}}
+   }}
+   |{{#invoke:wd|label|linked|{{{1|}}}}}
+  }}
+  |{{#if:{{#invoke:wd|label|{{{1|}}}}}
+   |{{#ifexist:{{#invoke:wd|label|{{{1|}}}}}
+    |{{#invoke:wd|label|{{{1|}}}}}<!--Do not link to label if it targets the wrong article-->
+    |[[{{#invoke:wd|label|{{{1|}}}}}]]
+   }}&nbsp;
+  }}{{Wikidata fallback link/Wikidata link|{{{1|}}}|wd={{{wd|}}}|s={{{s|}}}}}
+ }}
+}}<noinclude>
+{{documentation}}
+</noinclude>

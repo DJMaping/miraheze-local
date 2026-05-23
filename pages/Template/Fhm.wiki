@@ -1,0 +1,9 @@
+{{country data {{{1}}}
+| flag link/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = men's national field hockey team
+| altvar = field hockey
+| mw = men's
+}}<noinclude>{{documentation}}</noinclude>

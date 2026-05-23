@@ -1,0 +1,38 @@
+{{#if:{{{1|}}}<!--
+-->|{{#ifexpr: {{{1}}}<=65535<!--
+    in plane 0 BMP
+    -->|{{#ifexpr: (00<={{{1}}}) and ({{{1}}}<=31) or (127<={{{1}}}) and ({{{1}}}<=159)<!--
+    -->| Cc <!--00..1F 7F..9F
+    -->| {{#ifexpr: (55296<={{{1}}}) and ({{{1}}}<=57343)<!--
+    -->| Cs <!--D800..DFFF high&low Surrogates
+    -->| {{#ifexpr: ((57344<={{{1}}}) and ({{{1}}}<=63743))<!--
+    -->| Cp <!--E000..F8FF Private Use
+    -->| {{#ifexpr: (64976<={{{1}}} and {{{1}}}<=65007) or {{{1}}}=65534 or {{{1}}}=65535<!--
+    -->| Cn <!--FDD0..FDEF FFFE FFFF; Not-a-character
+    -->| {{#ifexpr: ({{{1}}}=173) or ({{{1}}}=1807) or ({{{1}}}=6068) or ({{{1}}}=6069) or (8203<={{{1}}} and {{{1}}}<=8207) or (8234<={{{1}}} and {{{1}}}<=8238) or (8288<={{{1}}} and {{{1}}}<=8292) or (8298<={{{1}}} and {{{1}}}<=8303) or ({{{1}}}=65279) or (65529<={{{1}}} and {{{1}}}<=65531)<!--
+    -->| Cf <!--00AD 070F 17B4 17B5 200B..200F 202A..202E 2060..2064 206A..206F FEFF FFF9..FFFB
+    -->| {{#ifexpr: (1536<={{{1}}} and {{{1}}}<=1539) or ({{{1}}}=1757)<!--
+    -->| Cf (visible)<!--0600..0603 06DD See documentation: five visible Cf characters
+    -->| {{#ifexpr: {{{1}}}=32 or {{{1}}}=160 or {{{1}}}=5760 or {{{1}}}=6158 or {{{1}}}=8239 or {{{1}}}=8287 or {{{1}}}=8288 or {{{1}}}=12288 or (8192<={{{1}}} and {{{1}}}<=8205)<!--
+    -->| Zs <!--20 A0 1680 180E 202? 205F 2060 2000..200D 3000 Space
+    -->| {{#ifexpr: {{{1}}}=8232<!--
+    -->| Zl <!--2028 LSEP
+    -->| {{#ifexpr: {{{1}}}=8233<!--
+    -->| Zp <!--2029 PSEP
+    -->| <!--(final param position in BMP: no gc determined)
+    -->}} }} }} }} }} }} }} }} }}<!--
+-->|<!--in planes 1-16, not 0
+-->{{#switch: {{#invoke:ustring|sub|{{{hval|}}}|-4}}<!--
+   -->| FFFE | FFFF = Cn <!--hhFFFE hhFFFF Not-a-character
+   -->| {{#ifexpr: ((983040<={{{1}}}) and ({{{1}}}<=1114111))<!--
+   -->| Cp <!--Private use, planes 15-16 (minus Cn, checked earlier)
+   -->| {{#ifexpr: {{{1}}}>=1114112 | <#not a Unicode code point#><!--greater th 0x110000
+   -->| {{#ifexpr: ({{{1}}}=69821) or (119155<={{{1}}} and {{{1}}}<=119162) or ({{{1}}}=917505) or (917536<={{{1}}} and {{{1}}}<=917631)<!--
+   -->| Cf <!--110BD 1D173..1D17A E0001 E0020..E0096 (planes 1 and E = 1 and 14): 
+   -->| <!--all other cp in planes 1-16, other gc not determined
+   -->}} }} }} }} }}<!--
+-->|<#not a Unicode code point#> <!--Input is blank or undefined
+-->}}<noinclude>
+
+{{documentation}}
+</noinclude>

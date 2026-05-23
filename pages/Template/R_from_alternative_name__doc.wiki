@@ -1,0 +1,87 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwiki links are handled on Wikidata, not here! See also: [[WP:Wikidata]]. -->
+{{High-use}}
+{{Twinkle standard installation}}
+{{Substitution|not|nor used to tag [[Wikipedia:Soft redirects|soft redirects]]}}
+
+__NOTOC__
+=== Usage ===
+
+{{hatnote|Unlike some other templates, you can use this rcat template in '''any [[WP:Namespace|namespace]]'''.}}
+This redirect category ([[wp:RCAT|rcat]]) template populates {{Cat|Redirects from alternative names}}. Add this rcat to a redirect in the following manner:
+
+====When using {{tlc|Rcat shell}}====
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[Target page name]]
+
+{{Rcat shell|
+{{R from alternative name}}
+}}
+</syntaxhighlight>
+: Template {{tl|Rcat shell}} is an [[Wikipedia:Alias|alias]] for the template {{tl|Redirect category shell}}, which may be used to add to a redirect page as many appropriate rcats as needed ''(usually from one to seven)'' along with their parameters in a demarcated place. For more information, see [[Template:Redirect category shell/doc|the documentation on Rcat shell's template page]].
+
+====When rcats are used individually====
+<syntaxhighlight lang="wikitext">
+#REDIRECT [[Target page name]]
+
+{{R from alternative name}}
+</syntaxhighlight>
+: This accords with instructions found at [[Wikipedia:REDCAT]].
+* Use this rcat on all redirects from a title that is another name such as a nickname, or a synonym of the target page name. For stage names and other [[pseudonym]]s, use the more specific {{tl|R from pseudonym}} instead.
+
+====Optional parameters====
+Either the {{para|of}} or the {{para|1}} parameter can be used to specify the more common name. This is useful when redirecting from an obscure term to a more common one that is a subsection or anchor in a broader article that itself is not the other name of what is being redirected. For example [[Primary research]] redirects to [[Research#Forms of research]], where this subtopic is treated under the term "original research"; the redirect has {{tnull|R from alternative name|of{{=}}original research}}, which adds the following to the first sentence: "(in this case, the more common name is: ''original research'')". Three ways to accomplish this are as follows:
+* {{tnull|R from alternative name|of{{=}}(alternative name)}}
+* {{tnull|R from alternative name|1{{=}}(alternative name)}}
+* {{tnull|R from alternative name|(alternative name)}}
+
+====Aliases====
+
+* <nowiki>{{</nowiki>[[Template:R to alternative name|R {{large|'''''to'''''}} alternative name]]}} redirects here and reflects that "alternative" goes both ways.
+* <span class="plainlinks">[{{fullurl:Special:WhatLinksHere/Template:R_from_alternative_name|hidetrans=1&hidelinks=1&limit=500}} Also known as...]</span> – list of templates that redirect here and may also be used
+
+===Printworthiness===
+{{notice|image=Stop hand nuvola.svg|Please do not alter the printworthy settings of this rcat without first notifying the '''[[WP:Version 1.0 Editorial Team|Version 1.0 Editorial Team]]''', who are responsible for any and all materials, including redirects, that go into a printed version of ''Wikipedia''.}}
+* In the [[Wikipedia:Mainspace|main (article) namespace]], many other-name redirects are considered [[WP:Printworthiness|printworthy]]. However, there are also many that are not printworthy, so there is no default sort for printworthiness. In 2003, efforts were begun to support the [[Wikimedia Foundation]]'s goal of increasing access and availability of ''Wikipedia'' articles in {{diff|Wikipedia:Pushing to 1.0||1319195|printed version}}s. Some rcats automatically populate either {{Cat|Printworthy redirects}} or {{Cat|Unprintworthy redirects}} by default. Others, like this rcat, do not. That means it is up to editors to choose which of those categories, ''Printworthy'' or ''Unprintworthy'', is appropriate and should be populated. The rcats that are used separately to populate those categories are: 
+:* {{tlx|R printworthy}} ''and''
+:* {{tlx|R unprintworthy}} ''please click on each one for more details and guidance''.
+:* Template {{tl|Redirect category shell}} will accept these rcats just like any other; for example:
+<syntaxhighlight lang="wikitext">
+{{Rcat shell|
+{{R from alternative name}}
+{{R printworthy}}
+}}
+
+{{Rcat shell|
+{{R from alternative name}}
+{{R unprintworthy}}
+}}
+</syntaxhighlight>
+:{{tl|Redirect category shell}} may be used.
+
+===TemplateData===
+
+{{TemplateData header}}
+<TemplateData>
+{
+   "description": "Places a redirect in [[Category:Redirects from alternative names]]. This template can be added to a redirect which has a name which is a valid alternative to the title of the target page.  There are several more specific alternative name redirect templates which can be used instead of this general one.  Do not use this if the redirect is an incorrect title for the target page; use {{R from incorrect name}} instead. ",
+    "params": {
+    }
+}
+</TemplateData>
+''This template takes no parameters.<br />See ''{{tl|R from}}'' for an example that does''.
+
+===See also===
+{{div col|colwidth=30em}}{{bulleted list|{{tl|R from alternative scientific name}}|{{tl|R from birth name}}|{{tl|R from former name}}|{{tl|R from long name}}|{{tl|R from married name}}|{{tl|R from modification}}|{{tl|R from non-neutral name}}|{{tl|R from pseudonym}}|{{tl|R from short name}}|{{tl|R from synonym}}|{{tl|R from personal name}}}}{{div col end}}
+* [[Wikipedia:WikiProject Redirect/Style guide|WikiProject Redirect style guide]]
+
+{{R template index}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; links to interwikis now are handled on Wikidata. See also: [[WP:Wikidata]]. Thank you! -->
+[[Category:Redirect templates|Alternative name]]
+[[Category:Redirects from alternative names| ]]
+[[Category:Templates for redirects from alternative names|Alternative name]]
+[[Category:All namespace redirect templates]]}}</includeonly><noinclude>
+[[Category:Redirect category template documentation pages|Alternative name]]
+</noinclude>

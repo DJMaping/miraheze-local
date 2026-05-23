@@ -1,0 +1,76 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{high use}}
+
+== Description ==
+It is to center elements on a page. See also [[Template:Align]] for more options and flexibility.
+
+== Usage ==
+{{See also|Span and div}}
+{{markup
+| <nowiki>{{Center|Hello world!}}</nowiki>
+| {{Center|Hello world!}}
+}}
+
+To do this without a template, simply use the following code:
+<syntaxhighlight lang="HTML">
+<div class="center">...</div>
+</syntaxhighlight>
+To center a table, see [[Help:TABLECENTER]].
+
+Notes:
+* If the markup to be centered includes an equals sign, the markup must be preceded by <code>1=</code>. Example: <code><nowiki>{{Center|1=the <span style="color:red">red</span> one}}</nowiki></code>.
+* If the markup to be centered includes a displaying pipe, the pipe must be escaped as <code><nowiki>{{!}}</nowiki></code> or <code>&amp;#124;</code>.
+
+=== Tables ===
+Using {{tlc|left}} / {{tlc|center}} / {{tlc|right}}
+{| class="wikitable"
+!colspan="3" style="width:300px"| Header text
+|-
+| {{Left|Left}} || {{Center|Center}} || {{Right|Right}}
+|}
+Using {{tlc|align|left}} / {{tlc|align|center}} / {{tlc|align|right}}
+{| class="wikitable"
+!colspan="3" style="width:300px"| Header text
+|-
+| {{align|left|Left}} || {{align|center|Center}} || {{align|right|Right}}
+|}
+
+== Tracking categories ==
+*{{clc|Pages using center with no arguments}}
+*{{clc|Pages using center with unknown parameters}}
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Content",
+			"type": "content",
+			"required": true,
+			"description": "Content to be centered"
+		},
+		"style": {
+			"label": "Custom CSS",
+			"description": "Optional css styling for the centered text",
+			"type": "string"
+		}
+	},
+	"description": "A simple template to center-align content in tables and other places. Be aware that the center class is applied to this template, which means every element within the template has its left and right margins set to auto. This may harm some templates."
+}
+</templatedata>
+
+== See also ==
+* {{tl|Center block}}
+* {{tl|align}}
+* {{tl|right}}, {{tl|left}} and {{tl|justify}}
+* {{tl|Image frame}}
+* {{tl|Table alignment}} - to align whole columns in tables.
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Positioning templates]]
+[[Category:Typing-aid templates]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+}}</includeonly>

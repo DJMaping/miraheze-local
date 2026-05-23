@@ -1,0 +1,36 @@
+local mt = {}
+
+function mt.__index(t, k)
+	return function(frame)
+		local success, data = pcall(mw.loadData, k)
+		if not success then
+			success, data = pcall(mw.loadJsonData, k)
+			if not success then
+				error("'" .. k .. "' is not a valid data page")
+			end
+		end
+		for i, v in ipairs(frame.args) do
+			local ty = type(data)
+			if ty ~= 'table' then
+				local args = {}
+				for j = 1, i - 1 do
+					args[j] = frame.args[j]
+				end
+				if frame.args.softfail then
+					return '<span class="error">[[Category:Pages with failed Module:Data lookups]]Error: Tried to read index "' .. mw.text.nowiki(v) .. '" of mw.loadData("' .. mw.text.nowiki(k) .. '").' .. mw.text.nowiki(table.concat(args, '.')) .. ', which is a ' .. ty .. '</span>'
+				else
+					error('Tried to read index "' .. v .. '" of mw.loadData("' .. k .. '").' .. table.concat(args, '.') .. ', which is a ' .. ty)
+				end
+			end
+			local nextdata = data[v]
+			if nextdata == nil and tonumber(v) then
+				data = data[tonumber(v)]
+			else
+				data = nextdata
+			end
+		end
+		return data
+	end
+end
+
+return setmetatable({}, mt)

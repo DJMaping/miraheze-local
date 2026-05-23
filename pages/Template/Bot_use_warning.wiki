@@ -1,0 +1,7 @@
+{{mbox
+|image= [[File:Logo wikibot.svg|50px|alt=icon]]<!-- THIS FILE can't be used with an empty `|link=` -->
+|textstyle=
+|title=
+|text='''This {{{namespace|{{pagetype|defaultns=extended}}}}} {{#if:{{yesno|{{{subcats|}}}}}| and subcategories are | is }} used by one or more [[Wikipedia:Bots|bots]].'''<br />If you intend to change this {{{namespace|{{pagetype|defaultns=extended}}}}} in any significant way, move it, or nominate it for deletion, please inform the bot operators. Thank you. {{#if:{{{bot|{{{bots|}}}}}}|The relevant bots are: {{{bot|{{{bots}}}}}}}}}}<includeonly>{{Sandbox other||[[Category:Pages monitored by Wikipedia bots]]}}</includeonly><noinclude>
+{{documentation}}<!-- Please place categories and language links on the /doc page, not here! -->
+</noinclude>

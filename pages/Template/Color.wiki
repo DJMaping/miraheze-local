@@ -1,0 +1,1 @@
+{{<includeonly>safesubst:</includeonly>ifsubst|1=<span|2=<templatestyles src="Template:Color/styles.css" /><span class="tmp-color"}} style="color:{{{1|}}}">{{{2|{{{1|}}}}}}<includeonly></span></includeonly><noinclude>{{Documentation}}<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --></noinclude>

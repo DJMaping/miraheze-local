@@ -1,0 +1,1 @@
+<includeonly>*{{#expr:{{Inflation/DE/dataset|{{{2}}}}}/{{Inflation/DE/dataset|{{{1}}}}}}}</includeonly><noinclude>{{documentation|Template:Inflation/doc/table}}</noinclude>

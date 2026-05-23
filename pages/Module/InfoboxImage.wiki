@@ -1,0 +1,214 @@
+-- Inputs:
+--    image - Can either be a bare filename (with or without the File:/Image: prefix) or a fully formatted image link
+--    page - page to display for multipage images (DjVu)
+--    size - size to display the image
+--    maxsize - maximum size for image
+--    sizedefault - default size to display the image if size param is blank
+--    alt - alt text for image
+--    title - title text for image
+--    border - set to yes if border
+--    center - set to yes, if the image has to be centered
+--    upright - upright image param
+--    suppressplaceholder - if yes then checks to see if image is a placeholder and suppresses it
+--    link - page to visit when clicking on image
+--    class - HTML classes to add to the image
+-- Outputs:
+--    Formatted image.
+-- More details available at the "Module:InfoboxImage/doc" page
+
+local i = {}
+
+-- List of placeholder images and tracking categories stored in [[Module:InfoboxImage/data]]
+-- Other constants:
+--   the system-wide default thumbnail size (in px)
+local defaultThumbnailSize = 250
+
+-- If page is not a user page, return tracking category. Else return empty.
+local function trackingCat(cat)
+	local ns = mw.title.getCurrentTitle().nsText:lower()
+    local categories = mw.loadData('Module:InfoboxImage/data').categories
+	return (ns ~= 'user' and ns ~= 'user talk' and categories[cat]) or ""
+end
+
+-- Determine whether image is a placeholder
+function i.IsPlaceholder(image)
+    -- change underscores to spaces
+    image = mw.ustring.gsub(image, "_", " ");
+    assert(image ~= nil, 'mw.ustring.gsub(image, "_", " ") must not return nil')
+    -- if image starts with [[ then remove that and anything after |
+    if mw.ustring.sub(image,1,2) == "[[" then
+        image = mw.ustring.sub(image,3);
+        image = mw.ustring.gsub(image, "([^|]*)|.*", "%1");
+        assert(image ~= nil, 'mw.ustring.gsub(image, "([^|]*)|.*", "%1") must not return nil')
+    end
+    -- Trim spaces
+    image = mw.ustring.gsub(image, '^[ ]*(.-)[ ]*$', '%1');
+    assert(image ~= nil, "mw.ustring.gsub(image, '^[ ]*(.-)[ ]*$', '%1') must not return nil")
+    -- remove prefix if exists
+    local allNames = mw.site.namespaces[6].aliases
+    allNames[#allNames + 1] = mw.site.namespaces[6].name
+    allNames[#allNames + 1] = mw.site.namespaces[6].canonicalName
+    for i, name in ipairs(allNames) do
+        if mw.ustring.lower(mw.ustring.sub(image, 1, mw.ustring.len(name) + 1)) == mw.ustring.lower(name .. ":") then
+            image = mw.ustring.sub(image, mw.ustring.len(name) + 2);
+            break
+        end
+    end
+    -- Trim spaces
+    image = mw.ustring.gsub(image, '^[ ]*(.-)[ ]*$', '%1');
+    -- capitalise first letter
+    image = mw.ustring.upper(mw.ustring.sub(image,1,1)) .. mw.ustring.sub(image,2);
+
+    local placeholder_image = mw.loadData('Module:InfoboxImage/data').placeholder_image
+    return placeholder_image[image]
+end
+
+local function isempty(x)
+    return (not x) or x == ""
+end
+
+-- Main entry point
+function i.InfoboxImage(frame)
+    local image = frame.args["image"];
+    
+    if isempty(image) then
+        return "";
+    end
+    if image == "&nbsp;" then
+        return image;
+    end
+    if frame.args["suppressplaceholder"] ~= "no" then
+        if i.IsPlaceholder(image) == true then
+            return "";
+        end
+    end
+    
+    if string.find(image, "^%[*https?:") then
+		-- Error category.
+		return trackingCat("url_image_links")
+	end
+
+    if mw.ustring.sub(image,1,2) == "[[" then
+        -- search for thumbnail images and add to tracking cat if found
+        local cat = "";
+        if mw.title.getCurrentTitle().namespace == 0 and (mw.ustring.find(image, "|%s*thumb%s*[|%]]") or mw.ustring.find(image, "|%s*thumbnail%s*[|%]]")) then
+            cat = trackingCat("thumbnail_images")
+        end
+        return image .. cat;
+    elseif mw.ustring.sub(image,1,2) == "{{" and mw.ustring.sub(image,1,3) ~= "{{{" then
+        return image;
+    elseif mw.ustring.sub(image,1,1) == "<" then
+        return image;
+    elseif mw.ustring.sub(image,1,8) == mw.ustring.char(127).."'\"`UNIQ" then
+        -- Found strip marker at begining, so pass don't process at all
+        return image;
+    else
+        local result = "";
+        local page = frame.args["page"];
+        local upright = frame.args["upright"] or ""
+        local size = frame.args["size"];
+        local maxsize = frame.args["maxsize"];
+        local sizedefault = frame.args["sizedefault"];
+        local alt = frame.args["alt"];
+        local link = frame.args["link"];
+        local title = frame.args["title"];
+        local border = frame.args["border"];
+        local thumbtime = frame.args["thumbtime"] or "";
+        local center = frame.args["center"];
+        local class = frame.args["class"];
+        
+        -- remove prefix if exists
+        local allNames = mw.site.namespaces[6].aliases
+        allNames[#allNames + 1] = mw.site.namespaces[6].name
+        allNames[#allNames + 1] = mw.site.namespaces[6].canonicalName
+        for i, name in ipairs(allNames) do
+            if mw.ustring.lower(mw.ustring.sub(image, 1, mw.ustring.len(name) + 1)) == mw.ustring.lower(name .. ":") then
+                image = mw.ustring.sub(image, mw.ustring.len(name) + 2);
+                break
+            end
+        end
+        
+        if not isempty(maxsize) then
+            -- if no sizedefault nor upright, then set to maxsize
+            if isempty(sizedefault) and isempty(upright) then
+                sizedefault = maxsize
+            end
+            -- check to see if size bigger than maxsize
+            local maxsizenumber = tonumber(mw.ustring.match(maxsize,"%d*")) or 0;
+            if not isempty(size) then
+                local sizenumber = tonumber(mw.ustring.match(size,"%d*")) or 0;
+                if sizenumber > maxsizenumber and maxsizenumber > 0 then
+                    size = maxsize;
+                end
+            end
+            -- check to see if upright bigger than maxsize (at default preferred size)
+            if not isempty(upright) then
+                local uprightnumber = tonumber(upright) or (upright == "yes" and 0.75) or 0
+                if uprightnumber*defaultThumbnailSize > maxsizenumber and maxsizenumber > 0 then
+                    upright = tostring(maxsizenumber/defaultThumbnailSize)
+                end
+            end
+        end
+        -- add px to size if just a number
+        if (tonumber(size) or 0) > 0 then
+            size = size .. "px";
+        end
+        -- add px to sizedefault if just a number
+        if (tonumber(sizedefault) or 0) > 0 then
+            sizedefault = sizedefault .. "px";
+        end
+        
+        result = "[[File:" .. image;
+        if not isempty(page) then
+            result = result .. "|page=" .. page;
+        end
+        if not isempty(size) then
+            result = result .. "|" .. size;
+        elseif not isempty(sizedefault) and isempty(upright) then
+            result = result .. "|" .. sizedefault;
+        else
+            result = result .. "|frameless";
+        end
+        if center == "yes" then
+            result = result .. "|center"
+        end
+        if not isempty(alt) then
+            result = result .. "|alt=" .. alt;
+        end
+        if not isempty(link) then
+            result = result .. "|link=" .. link;
+        end
+        if border == "yes" then
+            result = result .. "|border";
+        end
+        if upright == "yes" then
+            result = result .. "|upright";
+        elseif upright ~= "" then
+            result = result .. "|upright=" .. upright;
+        end
+        if thumbtime ~= "" then
+            result = result .. "|thumbtime=" .. thumbtime;
+        end
+        if not isempty(class) then
+            result = result .. "|class=" .. class;
+        end
+        -- if alt value is a keyword then do not use as a description
+        if alt == "thumbnail" or alt == "thumb" or alt == "frameless" or alt == "left" or alt == "center" or alt == "right" or alt == "upright" or alt == "border" or mw.ustring.match(alt or "", '^[0-9]*px$', 1) ~= nil then
+            alt = nil;
+        end
+        if not isempty(title) then
+            -- does title param contain any templatestyles? If yes then set to blank.
+            if mw.ustring.match(frame:preprocess(title), 'UNIQ%-%-templatestyles', 1) ~= nil then
+                title = nil;
+            end
+        end
+        if not isempty(title) then
+            result = result .. "|" .. title;
+        end
+        result = result .. "]]";
+        
+        return result;
+    end
+end
+
+return i;

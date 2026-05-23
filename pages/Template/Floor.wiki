@@ -1,0 +1,1 @@
+<span style="font-size:{{{2|1em}}}">⌊</span>{{{1}}}<span style="font-size:{{{2|1em}}}">⌋</span><noinclude>{{Documentation}}</noinclude>

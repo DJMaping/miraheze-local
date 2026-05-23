@@ -1,0 +1,3325 @@
+{{Documentation subpage}}
+<!--Categories where indicated at the bottom of this page, please; interwikis at Wikidata (see [[Wikipedia:Wikidata]])-->
+{{Auto short description}}
+{{High-use}}
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Coordinates|Module:Check for unknown parameters|Module:Check for clobbered parameters|Module:Settlement short description|Module:Wikidata}}
+{{Uses TemplateStyles|Template:Infobox settlement/styles.css}}
+{{Uses Wikidata|P41|P94|P158|P625|P856}}
+
+This template should be used to produce an [[WP:Infobox|Infobox]] for human settlements (cities, towns, villages, communities) as well as other administrative districts, counties, provinces, et cetera—in fact, any subdivision below the level of a country, for which {{tl|Infobox country}} should be used.  Parameters are described in the table below. For questions, see the [[Template talk:Infobox settlement|talk page]]. For a US city guideline, see [[WP:USCITIES]].
+
+The template is aliased or used as a sub-template for several infobox front-end templates.
+
+==Usage==
+* '''Important''': Please enter all numeric values in a raw, unformatted fashion. References and {{tl|citation needed}} tags are to be included in their respective section footnotes field. Numeric values that are not "raw" may create an "Expression error". Raw values will be automatically formatted by the template. If you find a raw value is not formatted in your usage of the template, please post a notice on the discussion page for this template.
+* An expression error may also occur when any coordinate parameter has a value, but one or more coordinate parameters are blank or invalid.
+* To specify CSS class "X" should be applied to an image, append to the filename: <code><nowiki>{{!}}class=X</nowiki></code>
+
+Basic blank template, ready to cut and paste. See the next section for a copy of the template with all parameters and comments. See the table below that for a full description of each parameter.
+
+===Using metric units===
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Infobox settlement
+|name                    = 
+|native_name             = <!-- Settlement name in local language(s), if different from the English name -->
+|native_name_lang        = <!-- ISO 639-1 code e.g. "fr" for French. If more than one, use {{lang}} instead -->
+|settlement_type         = 
+|image_skyline           = 
+|imagesize               = 
+|image_alt               = 
+|image_caption           = 
+|image_flag              = 
+|flag_alt                = 
+|image_seal              = 
+|seal_alt                = 
+|image_shield            = 
+|shield_alt              = 
+|etymology               = 
+|nickname                = 
+|motto                   = 
+|image_map               = 
+|map_alt                 = 
+|map_caption             = 
+|pushpin_map             = 
+|pushpin_map_alt         = 
+|pushpin_map_caption     = 
+|pushpin_mapsize         =
+|pushpin_label_position  = 
+|mapframe                = <!-- "yes" to show an interactive map -->
+|coordinates             = <!-- {{coord|latitude|longitude|type:city|display=inline,title}} -->
+|coor_pinpoint           = 
+|coordinates_footnotes   = 
+|subdivision_type        = Country
+|subdivision_name        = 
+|subdivision_type1       = 
+|subdivision_name1       = 
+|subdivision_type2       = 
+|subdivision_name2       = 
+|subdivision_type3       = 
+|subdivision_name3       = 
+|established_title       = 
+|established_date        = 
+|founder                 = 
+|seat_type               = 
+|seat                    = 
+|government_footnotes    = 
+|government_type         = 
+|governing_body          = 
+|leader_party            = 
+|leader_title            = 
+|leader_name             = 
+|leader_title1           = 
+|leader_name1            = 
+|leader_title2           = 
+|leader_name2            = 
+|leader_title3           = 
+|leader_name3            = 
+|leader_title4           = 
+|leader_name4            = 
+|unit_pref               = Metric
+<!-- ALL fields with measurements have automatic unit conversion -->
+<!-- for references: use <ref> tags -->
+|area_footnotes          = 
+|area_urban_footnotes    = <!-- <ref> </ref> -->
+|area_rural_footnotes    = <!-- <ref> </ref> -->
+|area_metro_footnotes    = <!-- <ref> </ref> -->
+|area_note               = 
+|area_water_percent      = 
+|area_rank               = 
+|area_blank1_title       = 
+|area_blank2_title       = 
+<!-- square kilometers -->
+|area_total_km2          = 
+|area_land_km2           = 
+|area_water_km2          = 
+|area_urban_km2          = 
+|area_rural_km2          = 
+|area_metro_km2          = 
+|area_blank1_km2         = 
+|area_blank2_km2         = 
+<!-- hectares -->
+|area_total_ha           = 
+|area_land_ha            = 
+|area_water_ha           = 
+|area_urban_ha           = 
+|area_rural_ha           = 
+|area_metro_ha           = 
+|area_blank1_ha          = 
+|area_blank2_ha          = 
+|length_km               = 
+|width_km                = 
+|dimensions_footnotes    = 
+|elevation_footnotes     = 
+|elevation_m             = 
+|population_footnotes    = 
+|population_as_of        = 
+|population_total        = 
+|population_density_km2  = auto
+|population_note         = 
+|population_demonym      = 
+|timezone1               = 
+|utc_offset1             = 
+|timezone1_DST           = 
+|utc_offset1_DST         = 
+|postal_code_type        = 
+|postal_code             = 
+|area_code_type          = 
+|area_code               = 
+|area_codes              = <!-- for multiple area codes -->
+|iso_code                = 
+|website                 = <!-- {{Official URL}} -->
+|module                  = 
+|footnotes               = 
+}}
+</syntaxhighlight>
+
+===Using non-metric units===
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Infobox settlement
+|name                    = 
+|native_name             = 
+|native_name_lang        = <!-- ISO 639-1 code e.g. "fr" for French. If more than one, use {{lang}} instead -->
+|settlement_type         = 
+|image_skyline           = 
+|imagesize               = 
+|image_alt               = 
+|image_caption           = 
+|image_flag              = 
+|flag_alt                = 
+|image_seal              = 
+|seal_alt                = 
+|image_shield            = 
+|shield_alt              = 
+|etymology               = 
+|nickname                = 
+|motto                   = 
+|image_map               = 
+|map_alt                 = 
+|map_caption             = 
+|pushpin_map             = 
+|pushpin_map_alt         = 
+|pushpin_map_caption     = 
+|pushpin_label_position  = 
+|mapframe                = <!-- "yes" to show an interactive map -->
+|coordinates             = <!-- {{coord|latitude|longitude|type:city|display=inline,title}} -->
+|coor_pinpoint           = 
+|coordinates_footnotes   = 
+|subdivision_type        = Country
+|subdivision_name        = 
+|subdivision_type1       = 
+|subdivision_name1       = 
+|subdivision_type2       = 
+|subdivision_name2       = 
+|subdivision_type3       = 
+|subdivision_name3       = 
+|established_title       = 
+|established_date        = 
+|founder                 = 
+|seat_type               = 
+|seat                    = 
+|government_footnotes    = 
+|leader_party            = 
+|leader_title            = 
+|leader_name             = 
+|unit_pref               = Imperial
+<!-- ALL fields with measurements have automatic unit conversion -->
+<!-- for references: use <ref> tags -->
+|area_footnotes          = 
+|area_urban_footnotes    = <!-- <ref> </ref> -->
+|area_rural_footnotes    = <!-- <ref> </ref> -->
+|area_metro_footnotes    = <!-- <ref> </ref> -->
+|area_note               = 
+|area_water_percent      = 
+|area_rank               = 
+|area_blank1_title       = 
+|area_blank2_title       = 
+<!-- square miles -->
+|area_total_sq_mi        = 
+|area_land_sq_mi         = 
+|area_water_sq_mi        = 
+|area_urban_sq_mi        = 
+|area_rural_sq_mi        = 
+|area_metro_sq_mi        = 
+|area_blank1_sq_mi       = 
+|area_blank2_sq_mi       = 
+<!-- acres -->
+|area_total_acre         = 
+|area_land_acre          = 
+|area_water_acre         = 
+|area_urban_acre         = 
+|area_rural_acre         = 
+|area_metro_acre         = 
+|area_blank1_acre        = 
+|area_blank2_acre        = 
+|length_mi               = 
+|width_mi                = 
+|dimensions_footnotes    = 
+|elevation_footnotes     = 
+|elevation_ft            = 
+|population_footnotes    = 
+|population_as_of        = 
+|population_total        = 
+|population_density_sq_mi = auto
+|population_note         = 
+|population_demonym      = 
+|timezone1               = 
+|utc_offset1             = 
+|timezone1_DST           = 
+|utc_offset1_DST         = 
+|postal_code_type        = 
+|postal_code             = 
+|area_code_type          = 
+|area_code               = 
+|iso_code                = 
+|website                 = <!-- {{Official URL}} -->
+|module                  = 
+|footnotes               = 
+}}
+</syntaxhighlight>
+
+===Short version===
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Infobox settlement
+|name                    = 
+|native_name             = 
+|native_name_lang        = <!-- ISO 639-1 code e.g. "fr" for French. If more than one, use {{lang}} instead -->
+|settlement_type         = 
+|image_skyline           = 
+|imagesize               = 
+|image_alt               = 
+|image_caption           = 
+|etymology               = 
+|nickname                = 
+|coordinates             = <!-- {{Coord}} -->
+|population_total        = 
+|subdivision_type        = Country
+|subdivision_name        = 
+|subdivision_type1       = 
+|subdivision_name1       = 
+|subdivision_type2       = 
+|subdivision_name2       = 
+|website                 = <!-- {{Official URL}} -->
+}}
+</syntaxhighlight>
+
+===Complete empty syntax, with comments===
+This copy of the template lists all parameters except for some of the repeating numbered parameters which are noted in the comments. Comments here should be brief; see the table below for full descriptions of each parameter.
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox settlement
+| name                    = <!-- at least one of the first two fields must be filled in -->
+| official_name           = <!-- avoid if redundant with e.g. `settlement_type` of `name`
+| native_name             = <!-- if different from the English name -->
+| native_name_lang        = <!-- ISO 639-1 code e.g. "fr" for French. If more than one, use {{lang}} instead -->
+| other_name              = 
+| settlement_type         = <!-- such as Town, Village, City, Borough etc. -->
+<!-- transliteration(s) -->
+| translit_lang1          = 
+| translit_lang1_type     = 
+| translit_lang1_info     = 
+| translit_lang1_type1    = 
+| translit_lang1_info1    = 
+| translit_lang1_type2    = 
+| translit_lang1_info2    = <!-- etc., up to translit_lang1_type6 / translit_lang1_info6 -->
+| translit_lang2          = 
+| translit_lang2_type     = 
+| translit_lang2_info     = 
+| translit_lang2_type1    = 
+| translit_lang2_info1    = 
+| translit_lang2_type2    = 
+| translit_lang2_info2    = <!-- etc., up to translit_lang2_type6 / translit_lang2_info6 -->
+<!-- images, nickname, motto -->
+| image_skyline           = 
+| imagesize               = 
+| image_alt               = 
+| image_caption           = 
+| image_flag              = 
+| flag_size               = 
+| flag_alt                = 
+| flag_border             = 
+| flag_link               = 
+| image_seal              = 
+| seal_size               = 
+| seal_alt                = 
+| seal_link               = 
+| seal_type               = 
+| image_shield            = 
+| shield_size             = 
+| shield_alt              = 
+| shield_link             = 
+| image_blank_emblem      = 
+| blank_emblem_type       = 
+| blank_emblem_size       = 
+| blank_emblem_alt        = 
+| blank_emblem_link       = 
+| etymology               = 
+| nickname                = 
+| nicknames               = 
+| motto                   = 
+| mottoes                 = 
+| anthem                  = 
+<!-- maps and coordinates -->
+| image_map               = 
+| mapsize                 = 
+| map_alt                 = 
+| map_caption             = 
+| image_map1              = 
+| mapsize1                = 
+| map_alt1                = 
+| map_caption1            = 
+| pushpin_map             = <!-- name of a location map as per Template:Location_map -->
+| pushpin_mapsize         = 
+| pushpin_map_alt         = 
+| pushpin_map_caption     = 
+| pushpin_map_caption_notsmall = 
+| pushpin_label           = <!-- only necessary if "name" or "official_name" are too long -->
+| pushpin_label_position  = <!-- position of the pushpin label: left, right, top, bottom, none -->
+| pushpin_outside         = 
+| pushpin_relief          = 
+| pushpin_image           = 
+| pushpin_overlay         = 
+| mapframe                = <!-- "yes" to show an interactive map -->
+| coordinates             = <!-- {{Coord}} -->
+| coor_pinpoint           = <!-- to specify exact location of coordinates (was coor_type) -->
+| coordinates_footnotes   = <!-- for references: use <ref> tags -->
+| grid_name               = <!-- name of a regional grid system -->
+| grid_position           = <!-- position on the regional grid system -->
+<!-- location -->
+| subdivision_type        = Country
+| subdivision_name        = <!-- the name of the country -->
+| subdivision_type1       = 
+| subdivision_name1       = 
+| subdivision_type2       = 
+| subdivision_name2       = <!-- etc., subdivision_type6 / subdivision_name6 -->
+<!-- established -->
+| established_title       = <!-- Founded -->
+| established_date        = <!-- requires established_title= -->
+| established_title1      = <!-- Incorporated (town) -->
+| established_date1       = <!-- requires established_title1= -->
+| established_title2      = <!-- Incorporated (city) -->
+| established_date2       = <!-- requires established_title2= -->
+| established_title3      = 
+| established_date3       = <!-- requires established_title3= -->
+| established_title4      = 
+| established_date4       = <!-- requires established_title4= -->
+| established_title5      = 
+| established_date5       = <!-- requires established_title5= -->
+| established_title6      = 
+| established_date6       = <!-- requires established_title6= -->
+| established_title7      = 
+| established_date7       = <!-- requires established_title7= -->
+| extinct_title           = 
+| extinct_date            = 
+| founder                 = 
+| named_for               = 
+<!-- seat, smaller parts -->
+| seat_type               = <!-- defaults to: Seat -->
+| seat                    = 
+| seat1_type              = <!-- defaults to: Former seat -->
+| seat1                   = 
+| parts_type              = <!-- defaults to: Boroughs -->
+| parts_style             = <!-- list, coll (collapsed list), para (paragraph format) -->
+| parts                   = <!-- parts text, or header for parts list -->
+| p1                      = 
+| p2                      = <!-- etc., up to p50: for separate parts to be listed-->
+<!-- government type, leaders -->
+| government_footnotes    = <!-- for references: use <ref> tags -->
+| government_type         = 
+| governing_body          = 
+| leader_party            = 
+| leader_title            = 
+| leader_name             = <!-- add &amp;nbsp; (no-break space) to disable automatic links -->
+| leader_title1           = 
+| leader_name1            = <!-- etc., up to leader_title4 / leader_name4 -->
+<!-- display settings -->
+| total_type              = <!-- to set a non-standard label for total area and population rows -->
+| unit_pref               = <!-- enter: Imperial, to display imperial before metric -->
+<!-- area -->
+| area_footnotes          = <!-- for references: use <ref> tags -->
+| dunam_link              = <!-- If dunams are used, this specifies which dunam to link. -->
+| area_total_km2          = <!-- ALL fields with measurements have automatic unit conversion -->
+| area_total_sq_mi        = <!-- see table @ Template:Infobox settlement for details -->
+| area_total_ha           = 
+| area_total_acre         = 
+| area_total_dunam        = <!-- used in Middle East articles only -->
+| area_land_km2           = 
+| area_land_sq_mi         = 
+| area_land_ha            = 
+| area_land_acre          = 
+| area_land_dunam         = <!-- used in Middle East articles only -->
+| area_water_km2          = 
+| area_water_sq_mi        = 
+| area_water_ha           = 
+| area_water_acre         = 
+| area_water_dunam        = <!-- used in Middle East articles only -->
+| area_water_percent      = 
+| area_urban_footnotes    = <!-- for references: use <ref> tags -->
+| area_urban_km2          = 
+| area_urban_sq_mi        = 
+| area_urban_ha           = 
+| area_urban_acre         = 
+| area_urban_dunam        = <!-- used in Middle East articles only -->
+| area_rural_footnotes    = <!-- for references: use <ref> tags -->
+| area_rural_km2          = 
+| area_rural_sq_mi        = 
+| area_rural_ha           = 
+| area_rural_acre         = 
+| area_rural_dunam        = <!-- used in Middle East articles only -->
+| area_metro_footnotes    = <!-- for references: use <ref> tags -->
+| area_metro_km2          = 
+| area_metro_sq_mi        = 
+| area_metro_ha           = 
+| area_metro_acre         = 
+| area_metro_dunam        = <!-- used in Middle East articles only -->
+| area_rank               = 
+| area_blank1_title       = 
+| area_blank1_km2         = 
+| area_blank1_sq_mi       = 
+| area_blank1_ha          = 
+| area_blank1_acre        = 
+| area_blank1_dunam       = <!-- used in Middle East articles only -->
+| area_blank2_title       = 
+| area_blank2_km2         = 
+| area_blank2_sq_mi       = 
+| area_blank2_ha          = 
+| area_blank2_acre        = 
+| area_blank2_dunam       = <!-- used in Middle East articles only -->
+| area_note               = 
+<!-- dimensions -->
+| dimensions_footnotes    = <!-- for references: use <ref> tags -->
+| length_km               = 
+| length_mi               = 
+| width_km                = 
+| width_mi                = 
+<!-- elevation -->
+| elevation_footnotes     = <!-- for references: use <ref> tags -->
+| elevation_m             = 
+| elevation_ft            = 
+| elevation_point         = <!-- for denoting the measurement point -->
+| elevation_max_footnotes = <!-- for references: use <ref> tags -->
+| elevation_max_m         = 
+| elevation_max_ft        = 
+| elevation_max_point     = <!-- for denoting the measurement point -->
+| elevation_max_rank      = 
+| elevation_min_footnotes = <!-- for references: use <ref> tags -->
+| elevation_min_m         = 
+| elevation_min_ft        = 
+| elevation_min_point     = <!-- for denoting the measurement point -->
+| elevation_min_rank      = 
+<!-- population -->
+| population_footnotes    = <!-- for references: use <ref> tags -->
+| population_as_of        = 
+| population_total        = 
+| pop_est_footnotes       = 
+| pop_est_as_of           = 
+| population_est          = 
+| population_rank         = 
+| population_density_km2  = <!-- for automatic calculation of any density field, use: auto -->
+| population_density_sq_mi =
+| population_urban_footnotes     = 
+| population_urban               = 
+| population_density_urban_km2   = 
+| population_density_urban_sq_mi = 
+| population_rural_footnotes     = 
+| population_rural               = 
+| population_density_rural_km2   = 
+| population_density_rural_sq_mi = 
+| population_metro_footnotes     = 
+| population_metro               = 
+| population_density_metro_km2   = 
+| population_density_metro_sq_mi = 
+| population_density_rank        = 
+| population_blank1_title        = 
+| population_blank1              = 
+| population_density_blank1_km2  = 
+| population_density_blank1_sq_mi = 
+| population_blank2_title        = 
+| population_blank2              = 
+| population_density_blank2_km2  = 
+| population_density_blank2_sq_mi = 
+| population_demonym      = <!-- demonym, e.g. Liverpudlian for someone from Liverpool -->
+| population_demonyms     = 
+| population_note         = 
+<!-- demographics (section 1) -->
+| demographics_type1      = 
+| demographics1_footnotes = <!-- for references: use <ref> tags -->
+| demographics1_title1    = 
+| demographics1_info1     = <!-- etc., up to demographics1_title7 / demographics1_info7 -->
+<!-- demographics (section 2) -->
+| demographics_type2      = 
+| demographics2_footnotes = <!-- for references: use <ref> tags -->
+| demographics2_title1    = 
+| demographics2_info1     = <!-- etc., up to demographics2_title10 / demographics2_info10 -->
+<!-- time zone(s) -->
+| timezone_link           = 
+| timezone1_location      = 
+| timezone1               = 
+| utc_offset1             = 
+| timezone1_DST           = 
+| utc_offset1_DST         = 
+| timezone2_location      = 
+| timezone2               = 
+| utc_offset2             = 
+| timezone2_DST           = 
+| utc_offset2_DST         = 
+| timezone3_location      = 
+| timezone3               = 
+| utc_offset3             = 
+| timezone3_DST           = 
+| utc_offset3_DST         = 
+| timezone4_location      = 
+| timezone4               = 
+| utc_offset4             = 
+| timezone4_DST           = 
+| utc_offset4_DST         = 
+| timezone5_location      = 
+| timezone5               = 
+| utc_offset5             = 
+| timezone5_DST           = 
+| utc_offset5_DST         = 
+<!-- postal codes, area code -->
+| postal_code_type        = <!-- enter ZIP Code, Postcode, Post code, Postal code... -->
+| postal_code             = 
+| postal2_code_type       = <!-- enter ZIP Code, Postcode, Post code, Postal code... -->
+| postal2_code            = 
+| area_code_type          = <!-- defaults to: Area code(s) -->
+| area_code               = 
+| area_codes              = 
+| geocode                 = 
+| iso_code                = 
+| registration_plate_type = 
+| registration_plate      = 
+| code1_name              = 
+| code1_info              = 
+| code2_name              = 
+| code2_info              = 
+<!-- blank fields (section 1) -->
+| blank_name_sec1         = 
+| blank_info_sec1         = 
+| blank1_name_sec1        = 
+| blank1_info_sec1        = 
+| blank2_name_sec1        = 
+| blank2_info_sec1        = <!-- etc., up to blank7_name_sec1 / blank7_info_sec1 -->
+<!-- blank fields (section 2) -->
+| blank_name_sec2         = 
+| blank_info_sec2         = 
+| blank1_name_sec2        = 
+| blank1_info_sec2        = 
+| blank2_name_sec2        = 
+| blank2_info_sec2        = <!-- etc., up to blank7_name_sec2 / blank7_info_sec2 -->
+<!-- website, footnotes -->
+| website                 = <!-- {{Official URL}} -->
+| module                  = 
+| footnotes               = 
+}}
+</syntaxhighlight>
+
+==Parameter names and descriptions==
+{| class="wikitable" style="background: white"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Name and transliteration===
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+|  '''name''' || optional || This is the usual name in English.  If it's not specified, the infobox will use the '''official_name''' as a title unless this too is missing, in which case the page name will be used.
+|- style="vertical-align:top;"
+|  '''official_name''' || optional || The official name in English. Avoid using '''official_name''' if it leads to redundancy with '''name''' and '''settlement_type'''. Use '''official_name''' if the official name is unusual or cannot be simply deduced from the name and settlement type.
+|- style="vertical-align:top;"
+|  '''native_name''' || optional || Name in the local language, if different from '''name''', and if not English.  In this case "native" does not mean indigenous but is related to de facto language that is not English. This will display below the name/official name. 
+|- style="vertical-align:top;"
+|  '''native_name_lang''' || optional || Use [[List of ISO 639-1 codes|ISO 639-1 code]], e.g. "fr" for French. If there is more than one native name, in different languages, enter those names using {{tl|lang}}, instead.
+|- style="vertical-align:top;"
+|  '''other_name''' || optional || For places with other commonly used names like Bombay or Saigon
+|- style="vertical-align:top;"
+| '''settlement_type''' || optional || Any type can be entered, such as City, Town, Village, Hamlet, Municipality, Reservation, etc. If set, will be displayed under the names. Might also be used as a label for total population/area (defaulting to ''City''), if needed to distinguish from ''Urban'', ''Rural'' or ''Metro'' (if urban, rural or metro figures are not present, the label is ''Total'' unless '''total_type''' is set).
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Transliteration(s)
+|- style="vertical-align:top;"
+|  '''translit_lang1''' || optional || Will place the "entry" before the word "transliteration(s)". Can be used to specify a particular language like in [[Dêlêg]] or one may just enter "Other", like in [[Gaza City|Gaza]]'s article.
+|- style="vertical-align:top;"
+|  '''translit_lang1_type'''<br />'''translit_lang1_type1'''<br />to<br />'''translit_lang1_type6''' || optional ||
+|- style="vertical-align:top;"
+|  '''translit_lang1_info'''<br />'''translit_lang1_info1'''<br />to<br />'''translit_lang1_info6''' || optional ||
+|- style="vertical-align:top;"
+|  '''translit_lang2''' || optional || Will place a second transliteration. See [[Dêlêg]]
+|- style="vertical-align:top;"
+|  '''translit_lang2_type'''<br />'''translit_lang2_type1'''<br />to<br />'''translit_lang2_type6''' || optional ||
+|- style="vertical-align:top;"
+|  '''translit_lang2_info'''<br />'''translit_lang2_info1'''<br />to<br />'''translit_lang2_info6''' || optional ||
+|- style="vertical-align:top;"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Images, nickname, motto===
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Image
+|- style="vertical-align:top;"
+|  '''image_skyline''' || optional || Primary image representing the settlement. Commonly a photo of the settlement’s skyline. For large urban areas, the <nowiki>{{multiple image}}</nowiki> template is often used in place of a single image to create a collage of the settlement's skyline and several notable landmarks.
+|- style="vertical-align:top;"
+|  '''imagesize''' || optional || Can be used to tweak the size of the image_skyline up or down. This can be helpful if an editor wants to make the infobox wider. If used, '''px''' must be specified; default size is 250px. Note [[WP:IMGSIZELEAD]] recommends that images should be no wider than <code>upright=1.35</code> -equivalent to 300px
+|- style="vertical-align:top;"
+| '''image_alt''' || optional || [[Alt text]] for the image, used by visually impaired readers who cannot see the image. See [[WP:ALT]].
+|- style="vertical-align:top;"
+| '''image_caption''' || optional || Will place a caption under the image_skyline (if present)
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Flag image
+|- style="vertical-align:top;"
+| '''image_flag''' || optional || Used for a flag.
+|- style="vertical-align:top;"
+| '''flag_size''' || optional || Can be used to tweak the size of the image_flag up or down from 100px as desired. If used, '''px''' must be specified; default size is 100px.
+|- style="vertical-align:top;"
+| '''flag_alt''' || optional || Alt text for the flag.
+|- style="vertical-align:top;"
+| '''flag_border''' || optional || Set to 'no' to remove the border from the flag
+|- style="vertical-align:top;"
+| '''flag_link''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Seal image
+|- style="vertical-align:top;"
+| '''image_seal''' || optional || If the place has an official seal.
+|- style="vertical-align:top;"
+| '''seal_size''' || optional || If used, '''px''' must be specified; default size is 100px.
+|- style="vertical-align:top;"
+| '''seal_alt''' || optional || Alt text for the seal.
+|- style="vertical-align:top;"
+| '''seal_link'''<br />'''seal_type''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Coat of arms image
+|- style="vertical-align:top;"
+| '''image_shield''' || optional || Can be used for a place with a coat of arms.
+|- style="vertical-align:top;"
+| '''shield_size''' || optional || If used, '''px''' must be specified; default size is 100px.
+|- style="vertical-align:top;"
+| '''shield_alt''' || optional || Alt text for the shield.
+|- style="vertical-align:top;"
+| '''shield_link''' || optional || Can be used if a wiki article if known but is not automatically linked by the template. See [[Coquitlam, British Columbia]]'s infobox for an example.
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Logo or emblem image
+|- style="vertical-align:top;"
+| '''image_blank_emblem''' || optional || Can be used if a place has an official logo, crest, emblem, etc.
+|- style="vertical-align:top;"
+| '''blank_emblem_type''' || optional || Caption beneath "image_blank_emblem" to specify what type of emblem it is.
+|- style="vertical-align:top;"
+| '''blank_emblem_size''' || optional || If used, '''px''' must be specified; default size is 100px.
+|- style="vertical-align:top;"
+| '''blank_emblem_alt''' || optional || Alt text for blank emblem.
+|- style="vertical-align:top;"
+| '''blank_emblem_link''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Nickname, motto
+|- style="vertical-align:top;"
+|  '''etymology''' || optional || origin of name
+|- style="vertical-align:top;"
+|  '''nickname''' || optional || well-known nickname
+|- style="vertical-align:top;"
+|  '''nicknames''' || optional || if more than one well-known nickname, use this
+|- style="vertical-align:top;"
+|  '''motto''' || optional || Will place the motto under the nicknames
+|- style="vertical-align:top;"
+|  '''mottoes''' || optional || if more than one motto, use this
+|- style="vertical-align:top;"
+|  '''anthem''' || optional || Will place the anthem (song) under the nicknames
+|- style="vertical-align:top;"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Maps, coordinates===
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Map images
+|- style="vertical-align:top;"
+| '''image_map''' || optional ||
+|- style="vertical-align:top;"
+| '''mapsize''' || optional || If used, '''px''' must be specified; default is 250px.
+|- style="vertical-align:top;"
+| '''map_alt''' || optional || Alt text for map.
+|- style="vertical-align:top;"
+| '''map_caption''' || optional ||
+|- style="vertical-align:top;"
+| '''image_map1''' || optional || A secondary map image. The field '''image_map''' must be filled in first. Example see: [[Bloomsburg, Pennsylvania]].
+|- style="vertical-align:top;"
+| '''mapsize1''' || optional || If used, '''px''' must be specified; default is 250px.
+|- style="vertical-align:top;"
+| '''map_alt1''' || optional || Alt text for secondary map.
+|- style="vertical-align:top;"
+| '''map_caption1''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Pushpin map(s), coordinates
+|- style="vertical-align:top;"
+| '''pushpin_map''' || optional || The name of a location map as per [[Template:Location map]] (e.g. ''Indonesia'' or ''Russia''). The coordinate fields (from {{para|coordinates}}) position a pushpin coordinate marker and label on the map '''automatically'''. Example: [[Padang, Indonesia]]. To show multiple pushpin maps, provide a list of maps separated by #, e.g., ''California#USA''
+|- style="vertical-align:top;"
+| '''pushpin_mapsize''' || optional || Must be entered as only a number—'''do not use px'''. The default value is 250.<br/>''Equivalent to <code>width</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_map_alt''' || optional || Alt text for pushpin map; used by [[screen reader]]s, see [[WP:ALT]].<br/>''Equivalent to <code>alt</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_map_caption''' || optional || Fill out if a different caption from ''map_caption'' is desired.<br/>''Equivalent to <code>caption</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_map_caption_notsmall''' || optional || <!-- add documentation here -->
+|- style="vertical-align:top;"
+| '''pushpin_label''' || optional || The text of the label to display next to the identifying mark; a [[Wiki markup|wikilink]] can be used. If not specified, the label will be the text assigned to the ''name'' or ''official_name'' parameters (if {{para|pushpin_label_position|none}}, no label is displayed).<br/>''Equivalent to <code>label</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_label_position''' || optional || The position of the label on the pushpin map relative to the pushpin coordinate marker. Valid options are {left, right, top, bottom, none}. If this field is not specified, the default value is ''right''.<br/>''Equivalent to <code>position</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_outside''' || optional || ''Equivalent to <code>outside</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_relief''' || optional || Set this to <code>y</code> or any non-blank value to use an alternative relief map provided by the selected location map (if a relief map is available). <br/>''Equivalent to <code>relief</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_image''' || optional || Allows the use of an alternative map; the image must have the same edge coordinates as the location map template.<br/>''Equivalent to <code>AlternativeMap</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''pushpin_overlay''' || optional || Can be used to specify an image to be superimposed on the regular pushpin map.<br/>''Equivalent to <code>overlay_image</code> parameter in [[Template:Location map]].''
+|- style="vertical-align:top;"
+| '''mapframe''' || optional || Add a {{tl|infobox mapframe}} map. See the documentation below in [[#Mapframe maps]] for more details on usage.
+|- style="vertical-align:top;"
+| '''coordinates''' || optional || Latitude and longitude. Use {{tl|Coord}}. See the documentation for {{tl|Coord}} for more details on usage.
+|- style="vertical-align:top;"
+| '''coor_pinpoint''' || optional || If needed, to specify more exactly where (or what) coordinates are given (e.g. ''Town Hall'') or a specific place in a larger area (e.g. a city in a county). Example: In the article [[Masovian Voivodeship]], <code>coor_pinpoint=Warsaw</code> specifies [[Warsaw]].
+|- style="vertical-align:top;"
+| '''coordinates_footnotes''' || optional || Reference(s) for coordinates, placed within <code><nowiki><ref> </ref></nowiki></code> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''grid_name'''<br />'''grid_position''' || optional || Name of a regional grid system and position on the regional grid 
+|- style="vertical-align:top;"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Location, established, seat, subdivisions, government, leaders===
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Location
+|- style="vertical-align:top;"
+| {{anchor|subdivision_type}}'''subdivision_type''' || optional || almost always <code><nowiki>Country</nowiki></code>
+|- style="vertical-align:top;"
+| '''subdivision_name''' || optional || Depends on the subdivision_type — use the name in text form, sample: <code>United States</code>. Per [[MOS:INFOBOXFLAG]], flag icons or flag templates may be used in this field
+|- style="vertical-align:top;"
+| '''subdivision_type1'''<br />to<br />'''subdivision_type6''' || optional || Can be State/Province, region, county. These labels are for subdivisions ''above'' the level of the settlement described in the article. For subdivisions ''below'' or ''within'' the place described in the article, use {{para|parts_type}}.
+|- style="vertical-align:top;"
+| '''subdivision_name1'''<br />to<br />'''subdivision_name6''' || optional || Use the name in text form, sample: <code>Florida</code> or <code><nowiki>[[Florida]]</nowiki></code>. Per [[MOS:INFOBOXFLAG]], settlements "may have flags of the country and first-level administrative subdivision in infoboxes". Flag icons or flag templates is permitted for subdivision_name1 (which is usually state or province); flag icons or flag templates should '''not''' be used in subdivision_name2-6.
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Established
+|- style="vertical-align:top;"
+| '''established_title''' || optional || Example: Founded
+|- style="vertical-align:top;"
+| '''established_date''' || optional ||  Requires established_title=
+|- style="vertical-align:top;"
+| '''established_title1''' || optional || Example: Incorporated (town) <br/>[Note that "established_title1" is distinct from "established_title"; you can think of "established_title" as behaving like "established_title0".]
+|- style="vertical-align:top;"
+| '''established_date1''' || optional || [See note for "established_title1".] Requires established_title1=
+|- style="vertical-align:top;"
+| '''established_title2''' || optional || Example: Incorporated (city)
+|- style="vertical-align:top;"
+| '''established_date2''' || optional || Requires established_title2=
+|- style="vertical-align:top;"
+| '''established_title3''' || optional ||
+|- style="vertical-align:top;"
+| '''established_date3''' || optional || Requires established_title3=
+|- style="vertical-align:top;"
+| '''established_title4''' || optional ||
+|- style="vertical-align:top;"
+| '''established_date4''' || optional || Requires established_title4=
+|- style="vertical-align:top;"
+| '''established_title5''' || optional ||
+|- style="vertical-align:top;"
+| '''established_date5''' || optional || Requires established_title5=
+|- style="vertical-align:top;"
+| '''established_title6''' || optional ||
+|- style="vertical-align:top;"
+| '''established_date6''' || optional || Requires established_title6=
+|- style="vertical-align:top;"
+| '''established_title7''' || optional ||
+|- style="vertical-align:top;"
+| '''established_date7''' || optional || Requires established_title7=
+|- style="vertical-align:top;"
+| '''extinct_title''' || optional || For when a settlement ceases to exist
+|- style="vertical-align:top;"
+| '''extinct_date''' || optional || Requires extinct_title=
+|- style="vertical-align:top;"
+| '''founder''' || optional || Who the settlement was founded by
+|- style="vertical-align:top;"
+| '''named_for''' || optional || The source of the name of the settlement (a person, a place, et cetera)
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Seat of government
+|- style="vertical-align:top;"
+| '''seat_type''' || optional || The label for the seat of government (defaults to ''Seat'').
+|- style="vertical-align:top;"
+| '''seat''' || optional || The seat of government.
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Smaller parts (e.g. boroughs of a city)
+|- style="vertical-align:top;"
+| '''parts_type''' || optional || The label for the smaller subdivisions (defaults to ''Boroughs'').
+|- style="vertical-align:top;"
+| '''parts_style''' || optional || Set to ''list'' to display as a collapsible list, ''coll'' as a collapsed list, or ''para'' to use paragraph style. Default is ''list'' for up to 5 items, otherwise ''coll''.
+|- style="vertical-align:top;"
+| '''parts''' || optional || Text or header of the list of smaller subdivisions.
+|- style="vertical-align:top;"
+| '''p1'''<br />'''p2'''<br />to<br />'''p50''' || optional || The smaller subdivisions to be listed. Example: [[Warsaw]]
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Government type, leaders
+|- style="vertical-align:top;"
+| '''government_footnotes''' || optional || Reference(s) for government, placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''government_type''' || optional || Examples: [[Mayor–council government]], [[Council–manager government]], [[City commission government]], ...
+|- style="vertical-align:top;"
+| '''governing_body''' || optional || Name of the place's governing body
+|- style="vertical-align:top;"
+| '''leader_party''' || optional || Political party of the place's leader
+|- style="vertical-align:top;"
+| '''leader_title''' || optional || First title of the place's leader, e.g. Mayor
+|- style="vertical-align:top;"
+| '''leader_name''' || optional || Name of the place's leader
+|- style="vertical-align:top;"
+| '''leader_title1'''<br />to<br />'''leader_title4''' || optional ||
+|- style="vertical-align:top;"
+| '''leader_name1'''<br />to<br />'''leader_name4''' || optional || For long lists use {{tl|Collapsible list}}. See [[Halifax Regional Municipality|Halifax]] for an example.
+|- style="vertical-align:top;"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Geographic information===
+|- style="vertical-align:top;"
+|  colspan=3 | These fields have '''dual automatic unit conversion''' meaning that if only metric values are entered, the imperial values will be automatically converted and vice versa. If an editor wishes to over-ride the automatic conversion, e.g. if the source gives both metric and imperial or if a range of values is needed, they should enter both values in their respective fields. All values must be entered in a '''raw format: no commas, spaces, or unit symbols'''. The template will format them automatically.
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Display settings
+|- style="vertical-align:top;"
+| '''total_type''' || optional || Specifies what "total" area and population figure refer to, e.g. ''Greater London''. This overrides other labels for total population/area. To make the total area and population display on the same line as the words "Area" and "Population", with no "Total" or similar label, set the value of this parameter to '''&amp;nbsp;'''.
+|- style="vertical-align:top;"
+| '''unit_pref''' || optional || To change the unit order to ''imperial (metric)'', enter '''imperial'''. The default display style is ''metric (imperial)''. However, the template will swap the order automatically if the '''subdivision_name''' equals some variation of the US or the UK.<br />For the Middle East, a unit preference of [[dunam]] can be entered (only affects total area). <br /> 
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Area
+|- style="vertical-align:top;"
+| '''area_footnotes''' || optional || Reference(s) for area, placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''dunam_link''' || optional || If dunams are used, the default is to link the word ''dunams'' in the total area section.  This can be changed by setting <code>dunam_link</code> to another measure (e.g. <code>dunam_link=water</code>).  Linking can also be turned off by setting the parameter to something else (e.g.  <code>dunam_link=none</code> or  <code>dunam_link=off</code>).
+|- style="vertical-align:top;"
+| '''area_total_km2''' || optional || Total area in square kilometers—symbol: km<sup>2</sup>. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square miles if area_total_sq_mi is empty.
+|- style="vertical-align:top;"
+| '''area_total_ha''' || optional || Total area in hectares—symbol: ha. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display acres if area_total_acre is empty.
+|- style="vertical-align:top;"
+| '''area_total_sq_mi''' || optional || Total area in square miles—symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square kilometers if area_total_km2 is empty.
+|- style="vertical-align:top;"
+| '''area_total_acre''' || optional || Total area in acres. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display hectares if area_total_ha is empty.
+|- style="vertical-align:top;"
+| '''area_total_dunam''' || optional || Total area in dunams, which is wiki-linked. Used in middle eastern places like Israel, Gaza, and the West Bank. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square kilometers or hectares and square miles or acreds if area_total_km2, area_total_ha, area_total_sq_mi, and area_total_acre are empty. Examples: [[Gaza City|Gaza]] and [[Ramallah]]
+|- style="vertical-align:top;"
+| '''area_land_km2''' || optional || Land area in square kilometers—symbol: km<sup>2</sup>. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square miles if area_land_sq_mi is empty.
+|- style="vertical-align:top;"
+| '''area_land_sq_mi''' || optional || Land area in square miles—symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square kilometers if area_land_km2 is empty.
+|- style="vertical-align:top;"
+| '''area_land_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_land_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_land_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_water_km2''' || optional || Water area in square kilometers—symbol: km<sup>2</sup>. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square miles if area_water_sq_mi is empty.
+|- style="vertical-align:top;"
+| '''area_water_sq_mi''' || optional || Water area in square miles—symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square kilometers if area_water_km2 is empty.
+|- style="vertical-align:top;"
+| '''area_water_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_water_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_water_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_water_percent''' || optional || percent of water without the "%"
+|- style="vertical-align:top;"
+| '''area_urban_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''area_urban_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''area_urban_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_urban_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_urban_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_rural_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''area_rural_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''area_rural_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_rural_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_rural_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_metro_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''area_metro_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''area_metro_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_metro_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_metro_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_rank''' || optional || The settlement's area, as ranked within its parent sub-division
+|- style="vertical-align:top;"
+| '''area_blank1_title''' || optional || Example see London
+|- style="vertical-align:top;"
+| '''area_blank1_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''area_blank1_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''area_blank1_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_blank1_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_blank1_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_blank2_title''' || optional ||
+|- style="vertical-align:top;"
+| '''area_blank2_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''area_blank2_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''area_blank2_ha''' || optional || similar to <code>area_total_ha</code>
+|- style="vertical-align:top;"
+| '''area_blank2_dunam''' || optional ||  similar to <code>area_total_dunam</code>
+|- style="vertical-align:top;"
+| '''area_blank2_acre''' || optional ||  similar to <code>area_total_acre</code>
+|- style="vertical-align:top;"
+| '''area_note''' || optional || A place for additional information such as the name of the source.
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Dimensions
+|- style="vertical-align:top;"
+| '''dimensions_footnotes''' || optional || Reference(s) for dimensions, placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''length_km''' || optional || Raw number entered in kilometers. Will automatically convert to display length in miles if length_mi is empty.
+|- style="vertical-align:top;"
+| '''length_mi''' || optional || Raw number entered in miles. Will automatically convert to display length in kilometers if length_km is empty.
+|- style="vertical-align:top;"
+| '''width_km''' || optional || Raw number entered in kilometers. Will automatically convert to display width in miles if length_mi is empty.
+|- style="vertical-align:top;"
+| '''width_mi''' || optional || Raw number entered in miles. Will automatically convert to display width in kilometers if length_km is empty.
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Elevation
+|- style="vertical-align:top;"
+| '''elevation_footnotes''' || optional || Reference(s) for elevation, placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''elevation_m''' || optional || Raw number entered in meters. Will automatically convert to display elevation in feet if elevation_ft is empty. However, if a range in elevation (i.e. 5–50 m ) is desired, use the "max" and "min" fields below
+|- style="vertical-align:top;"
+| '''elevation_ft''' || optional || Raw number, entered in feet. Will automatically convert to display the average elevation in meters if '''elevation_m''' field is empty. However, if a range in elevation (e.g. 50–500&nbsp;ft ) is desired, use the "max" and "min" fields below
+|- style="vertical-align:top;"
+| '''elevation_max_footnotes'''<br />'''elevation_min_footnotes''' || optional || Same as above, but for the "max" and "min" elevations. See [[City of Leeds]].
+|- style="vertical-align:top;"
+| '''elevation_max_m'''<br />'''elevation_max_ft'''<br />'''elevation_max_rank'''<br />'''elevation_min_m'''<br />'''elevation_min_ft'''<br />'''elevation_min_rank''' || optional || Used to give highest & lowest elevations and rank, instead of just a single value. Example: [[Halifax Regional Municipality]].
+|- style="vertical-align:top;"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Population, demographics===
+|- style="vertical-align:top;"
+|  colspan=3 | The density fields have '''dual automatic unit conversion''' meaning that if only metric values are entered, the imperial values will be automatically converted and vice versa. If an editor wishes to over-ride the automatic conversion, e.g. if the source gives both metric and imperial or if a range of values is needed, they can enter both values in their respective fields. '''To calculate density with respect to the total area automatically, type ''auto'' in place of any density value.'''
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Population
+|- style="vertical-align:top;"
+| '''population_total''' || optional || Actual population (see below for estimates) preferably consisting of digits only (without any commas)
+|- style="vertical-align:top;"
+| '''population_as_of''' || optional || The year for the population total (usually a census year)
+|- style="vertical-align:top;"
+| '''population_footnotes''' || optional || Reference(s) for population, placed within <nowiki><ref> </ref></nowiki> tags
+|- style="vertical-align:top;"
+| '''population_density_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''population_est''' || optional || Population estimate.
+|- style="vertical-align:top;"
+| '''pop_est_as_of''' || optional || The year or month & year of the population estimate
+|- style="vertical-align:top;"
+| '''pop_est_footnotes''' || optional || Reference(s) for population estimate, placed within <nowiki><ref> </ref></nowiki> tags
+|- style="vertical-align:top;"
+| '''population_urban''' || optional ||
+|- style="vertical-align:top;"
+| '''population_urban_footnotes''' || optional || Reference(s) for urban population, placed within <nowiki><ref> </ref></nowiki> tags
+|- style="vertical-align:top;"
+| '''population_density_urban_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_urban_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''population_rural''' || optional ||
+|- style="vertical-align:top;"
+| '''population_rural_footnotes''' || optional || Reference(s) for rural population, placed within <nowiki><ref> </ref></nowiki> tags
+|- style="vertical-align:top;"
+| '''population_density_rural_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_rural_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''population_metro''' || optional ||
+|- style="vertical-align:top;"
+| '''population_metro_footnotes''' || optional || Reference(s) for metro population, placed within <nowiki><ref> </ref></nowiki> tags
+|- style="vertical-align:top;"
+| '''population_density_metro_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_metro_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''population_rank''' || optional || The settlement's population, as ranked within its parent sub-division
+|- style="vertical-align:top;"
+| '''population_density_rank''' || optional || The settlement's population density, as ranked within its parent sub-division
+|- style="vertical-align:top;"
+| '''population_blank1_title''' || optional || Can be used for estimates. Example: [[Windsor, Ontario]]
+|- style="vertical-align:top;"
+| '''population_blank1''' || optional || The population value for blank1_title
+|- style="vertical-align:top;"
+| '''population_density_blank1_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_blank1_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''population_blank2_title''' || optional ||
+|- style="vertical-align:top;"
+| '''population_blank2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_blank2_km2''' || optional ||
+|- style="vertical-align:top;"
+| '''population_density_blank2_sq_mi''' || optional ||
+|- style="vertical-align:top;"
+| '''population_demonym''' || optional || A demonym or gentilic is a word that denotes the members of a people or the inhabitants of a place. For example, a citizen in [[Liverpool]] is known as a [[Liverpudlian]].
+|- style="vertical-align:top;"
+| '''population_demonyms''' || optional || If more than one demonym, use this
+|- style="vertical-align:top;"
+| '''population_note''' || optional || A place for additional information such as the name of the source. See [[Windsor, Ontario]] for example.
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Demographics (section 1)
+|- style="vertical-align:top;"
+| '''demographics_type1''' || optional || Section Header. For example: Ethnicity
+|- style="vertical-align:top;"
+| '''demographics1_footnotes''' || optional || Reference(s) for demographics section 1, placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''demographics1_title1'''<br />to<br />'''demographics1_title7''' || optional || Titles related to demographics_type1. For example: White, Black, Hispanic...
+|- style="vertical-align:top;"
+| '''demographics1_info1'''<br />to<br />'''demographics1_info7''' || optional || Information related to the "titles". For example: 50%, 25%, 10%...
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Demographics (section 2)
+|- style="vertical-align:top;"
+| '''demographics_type2''' || optional || A second section header. For example: Languages
+|- style="vertical-align:top;"
+| '''demographics2_footnotes''' || optional || Reference(s) for demographics section 2, placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{tl|Cite web}}
+|- style="vertical-align:top;"
+| '''demographics2_title1'''<br />to<br />'''demographics2_title10''' || optional || Titles related to '''demographics_type2'''. For example: English, French, Arabic...
+|- style="vertical-align:top;"
+| '''demographics2_info1'''<br />to<br />'''demographics2_info10''' || optional || Information related to the "titles" for type2. For example: 50%, 25%, 10%...
+|- style="vertical-align:top;"
+| colspan=3 style="background: orange; text-align: center;" |
+
+===Other information===
+|- style="background: whitesmoke;"
+! Parameter name !! Usage !! Description
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Time zone(s)
+|- style="vertical-align:top;"
+| '''timezone1''' || optional ||
+|- style="vertical-align:top;"
+| '''utc_offset1''' || optional || Plain text, e.g. "+05:00" or "-08:00". Auto-linked, so do not include references or additional text.
+|- style="vertical-align:top;"
+| '''timezone1_DST''' || optional ||
+|- style="vertical-align:top;"
+| '''utc_offset1_DST''' || optional ||
+|- style="vertical-align:top;"
+| '''timezone2''' || optional || A second timezone field for larger areas such as a Province.
+|- style="vertical-align:top;"
+| '''utc_offset2''' || optional ||
+|- style="vertical-align:top;"
+| '''timezone2_DST''' || optional ||
+|- style="vertical-align:top;"
+| '''utc_offset2_DST''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Postal code(s) & area code
+|- style="vertical-align:top;"
+| '''postal_code_type''' || optional ||
+|- style="vertical-align:top;"
+| '''postal_code''' || optional ||
+|- style="vertical-align:top;"
+| '''postal2_code_type''' || optional ||
+|- style="vertical-align:top;"
+| '''postal2_code''' || optional ||
+|- style="vertical-align:top;"
+| '''area_code_type''' || optional || If left blank/not used template will default to "[[Telephone numbering plan|Area code(s)]]"
+|- style="vertical-align:top;"
+| '''area_code''' || optional || Refers to the telephone dialing code for the settlement, ''not'' a geographic area code.
+|- style="vertical-align:top;"
+| '''area_codes''' || optional || If more than one area code, use this
+|- style="vertical-align:top;"
+| '''geocode''' || optional || See [[Geocode]]
+|- style="vertical-align:top;"
+| '''iso_code''' || optional || See [[ISO 3166]]
+|- style="vertical-align:top;"
+| '''registration_plate_type''' || optional || If left blank/not used template will default to "[[Vehicle registration plate|Vehicle registration]]"
+|- style="vertical-align:top;"
+| '''registration_plate''' || optional || See [[Vehicle registration plate]]
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Blank fields (section 1)
+|- style="vertical-align:top;"
+| '''blank_name_sec1''' || optional || Fields used to display other information. The name is displayed in bold on the left side of the infobox.
+|- style="vertical-align:top;"
+| '''blank_info_sec1''' || optional || The information associated with the ''blank_name'' heading. The info is displayed on right side of infobox, in the same row as the name. For an example, see: [[Warsaw]]
+|- style="vertical-align:top;"
+| '''blank1_name_sec1'''<br />to<br />'''blank7_name_sec1''' || optional || Up to 7 additional fields (8 total) can be displayed in this section
+|- style="vertical-align:top;"
+| '''blank1_info_sec1'''<br />to<br />'''blank7_info_sec1''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Blank fields (section 2)
+|- style="vertical-align:top;"
+| '''blank_name_sec2''' || optional || For a second section of blank fields
+|- style="vertical-align:top;"
+| '''blank_info_sec2''' || optional || Example: [[Beijing]]
+|- style="vertical-align:top;"
+| '''blank1_name_sec2'''<br />to<br />'''blank7_name_sec2''' || optional || Up to 7 additional fields (8 total) can be displayed in this section
+|- style="vertical-align:top;"
+| '''blank1_info_sec2'''<br />to<br />'''blank7_info_sec2''' || optional ||
+|- style="vertical-align:top;"
+! colspan=3 style="background: #DDDDDD;" | Website, footnotes
+|- style="vertical-align:top;"
+| '''website''' || optional || External link to official website, use {{Tl|Official URL}} if Property P856 "official website" exists on Wikidata, or <nowiki>{{URL|example.com}}</nowiki>
+|- style="vertical-align:top;"
+| '''module''' || optional || To embed infoboxes at the bottom of the infobox
+|- style="vertical-align:top;"
+| '''footnotes''' || optional || Text to be displayed at the bottom of the infobox
+|}
+<!-- End of parameter name/description table -->
+
+===Mapframe maps===
+{{Infobox mapframe/doc/parameters
+| onByDefault = yes, unless any of the other map parameters are present: {{para|pushpin_map}}, {{para|image_map}}, {{para|image_map1}}
+| mapframe-frame-width = 250
+| mapframe-type = city
+| mapframe-marker = town
+| mapframe-population = {{para|population_metro}} or {{para|population_total}}
+}}
+
+==Examples==
+;Example 1:
+<!-- NOTE: This differs from the actual Chicago infobox in order to provide examples. -->
+{{Infobox settlement
+| name = Chicago
+| settlement_type = [[City (Illinois)|City]]
+| image_skyline = Chicago montage.jpg
+| imagesize = 275px <!--default is 250px-->
+| image_caption = Clockwise from top: [[Downtown Chicago]], the [[Chicago Theatre]], the [[Chicago 'L']], [[Navy Pier]], [[Millennium Park]], the [[Field Museum]], and the [[Willis Tower|Willis (formerly Sears) Tower]]
+| image_flag = Flag of Chicago, Illinois.svg
+| image_seal = 
+| etymology = {{langx|mia|shikaakwa}} ("wild onion" or "wild garlic")
+| nickname = [[Origin of Chicago's "Windy City" nickname|The Windy City]], The Second City, Chi-Town, Chi-City, Hog Butcher for the World, City of the Big Shoulders, The City That Works, and others found at [[List of nicknames for Chicago]]
+| motto = {{langx|la|Urbs in Horto}} (City in a Garden), Make Big Plans (Make No Small Plans), I Will
+| image_map = US-IL-Chicago.png
+| map_caption = Location in the [[Chicago metropolitan area]] and Illinois
+| pushpin_map = USA
+| pushpin_map_caption = Location in the United States
+| mapframe = yes
+| mapframe-zoom = 8
+| mapframe-stroke-width = 1
+| mapframe-shape-fill = #0096ff
+| mapframe-marker = building-alt1
+| mapframe-wikidata = yes
+| mapframe-id = Q1297
+| coordinates = {{coord|41|50|15|N|87|40|55|W}}
+| coordinates_footnotes = <ref name="USCB Gazetteer 2010"/>
+| subdivision_type = Country
+| subdivision_name = United States
+| subdivision_type1 = State
+| subdivision_name1 = [[Illinois]]
+| subdivision_type2 = [[List of counties in Illinois|Counties]]
+| subdivision_name2 = [[Cook County, Illinois|Cook]], [[DuPage County, Illinois|DuPage]]
+| established_title = Settled
+| established_date = 1770s
+| established_title2 = [[Municipal corporation|Incorporated]]
+| established_date2 = March 4, 1837
+| founder =
+| named_for = {{langx|mia|shikaakwa}}<br /> ("Wild onion")
+| government_type = [[Mayor–council government|Mayor–council]]
+| leader_title = [[Mayor of Chicago|Mayor]]
+| leader_name = [[Rahm Emanuel]]
+| leader_party = [[Democratic Party (United States)|D]]
+| leader_title1 = [[City council|Council]]
+| leader_name1 = [[Chicago City Council]]
+| unit_pref = Imperial
+| area_footnotes = <ref name="USCB Gazetteer 2010">{{cite web | url = https://www.census.gov/geo/www/gazetteer/files/Gaz_places_national.txt | title = 2010 United States Census Gazetteer for Places: January 1, 2010 | format = text | work = 2010 United States Census | publisher = [[United States Census Bureau]] | date = April 2010 | access-date = August 1, 2012}}</ref>
+| area_total_sq_mi = 234.114
+| area_land_sq_mi  = 227.635
+| area_water_sq_mi = 6.479
+| area_water_percent = 3
+| area_urban_sq_mi = 2123
+| area_metro_sq_mi = 10874
+| elevation_footnotes = <ref name="GNIS"/>
+| elevation_ft = 594
+| elevation_m  = 181
+| population_footnotes = <ref name="USCB PopEstCities 2011">{{cite web | url = https://www.census.gov/popest/data/cities/totals/2011/tables/SUB-EST2011-01.csv | title = Annual Estimates of the Resident Population for Incorporated Places Over 50,000, Ranked by July 1, 2011 Population | format = [[comma-separated values|CSV]] | work = 2011 Population Estimates | publisher = [[United States Census Bureau]], Population Division | date = June 2012 | access-date = August 1, 2012}}</ref><ref name="USCB Metro 2010">{{cite web | url=https://www.census.gov/prod/cen2010/briefs/c2010br-01.pdf | title = Population Change for the Ten Most Populous and Fastest Growing Metropolitan Statiscal Areas: 2000 to 2010 | date = March 2011 | publisher = [[U.S. Census Bureau]] | page = 6 |access-date = April 12, 2011}}</ref>
+| population_as_of = [[2010 United States census|2010]]
+| population_total = 2695598
+| pop_est_footnotes =
+| pop_est_as_of = 2011
+| population_est = 2707120
+| population_rank  = [[List of United States cities by population|3rd US]]
+| population_density_sq_mi = 11,892.4<!-- 2011 population_est / area_land_sq_mi -->
+| population_urban = 8711000
+| population_density_urban_sq_mi = auto
+| population_metro = 9461105
+| population_density_metro_sq_mi = auto
+| population_demonym = Chicagoan
+| timezone = [[Central Standard Time|CST]]
+| utc_offset = −06:00
+| timezone_DST = [[Central Daylight Time|CDT]]
+| utc_offset_DST = −05:00
+| area_code_type = [[North American Numbering Plan|Area codes]]
+| area_codes = [[Area code 312|312]], [[Area code 773|773]], [[Area code 872|872]]
+| blank_name = [[Federal Information Processing Standards|FIPS]] code
+| blank_info = {{FIPS|17|14000}}
+| blank1_name = [[Geographic Names Information System|GNIS]] feature ID
+| blank1_info = {{GNIS 4|423587}}, {{GNIS 4|428803}}
+| website = {{URL|www.cityofchicago.org}}
+| footnotes = <ref name="GNIS">{{Cite gnis|428803|City of Chicago|April 12, 2011}}</ref>
+}}
+
+<syntaxhighlight lang="wikitext" style="overflow:auto; white-space: pre-wrap;">
+<!-- NOTE: This differs from the actual Chicago infobox in order to provide examples. -->
+{{Infobox settlement
+| name = Chicago
+| settlement_type = [[City (Illinois)|City]]
+| image_skyline = Chicago montage.jpg
+| imagesize = 275px <!--default is 250px-->
+| image_caption = Clockwise from top: [[Downtown Chicago]], the [[Chicago Theatre]], the [[Chicago 'L']], [[Navy Pier]], [[Millennium Park]], the [[Field Museum]], and the [[Willis Tower|Willis (formerly Sears) Tower]]
+| image_flag = Flag of Chicago, Illinois.svg
+| image_seal = 
+| etymology = {{langx|mia|shikaakwa}} ("wild onion" or "wild garlic")
+| nickname = [[Origin of Chicago's "Windy City" nickname|The Windy City]], The Second City, Chi-Town, Chi-City, Hog Butcher for the World, City of the Big Shoulders, The City That Works, and others found at [[List of nicknames for Chicago]]
+| motto = {{langx|la|Urbs in Horto}} (City in a Garden), Make Big Plans (Make No Small Plans), I Will
+| image_map = US-IL-Chicago.png
+| map_caption = Location in the [[Chicago metropolitan area]] and Illinois
+| pushpin_map = USA
+| pushpin_map_caption = Location in the United States
+| mapframe = yes
+| mapframe-zoom = 8
+| mapframe-stroke-width = 1
+| mapframe-shape-fill = #0096ff
+| mapframe-marker = building-alt1
+| coordinates = {{coord|41|50|15|N|87|40|55|W}}
+| coordinates_footnotes = <ref name="USCB Gazetteer 2010"/>
+| subdivision_type = Country
+| subdivision_name = United States
+| subdivision_type1 = State
+| subdivision_name1 = [[Illinois]]
+| subdivision_type2 = [[List of counties in Illinois|Counties]]
+| subdivision_name2 = [[Cook County, Illinois|Cook]], [[DuPage County, Illinois|DuPage]]
+| established_title = Settled
+| established_date = 1770s
+| established_title2 = [[Municipal corporation|Incorporated]]
+| established_date2 = March 4, 1837
+| founder =
+| named_for = {{langx|mia|shikaakwa}}<br /> ("Wild onion")
+| government_type = [[Mayor–council government|Mayor–council]]
+| leader_title = [[Mayor of Chicago|Mayor]]
+| leader_name = [[Rahm Emanuel]]
+| leader_party = [[Democratic Party (United States)|D]]
+| leader_title1 = [[City council|Council]]
+| leader_name1 = [[Chicago City Council]]
+| unit_pref = Imperial
+| area_footnotes = <ref name="USCB Gazetteer 2010">{{cite web | url = https://www.census.gov/geo/www/gazetteer/files/Gaz_places_national.txt | title = 2010 United States Census Gazetteer for Places: January 1, 2010 | format = text | work = 2010 United States Census | publisher = [[United States Census Bureau]] | date = April 2010 | access-date = August 1, 2012}}</ref>
+| area_total_sq_mi = 234.114
+| area_land_sq_mi  = 227.635
+| area_water_sq_mi = 6.479
+| area_water_percent = 3
+| area_urban_sq_mi = 2123
+| area_metro_sq_mi = 10874
+| elevation_footnotes = <ref name="GNIS"/>
+| elevation_ft = 594
+| elevation_m  = 181
+| population_footnotes = <ref name="USCB PopEstCities 2011">{{cite web | url = https://www.census.gov/popest/data/cities/totals/2011/tables/SUB-EST2011-01.csv | title = Annual Estimates of the Resident Population for Incorporated Places Over 50,000, Ranked by July 1, 2011 Population | format = [[comma-separated values|CSV]] | work = 2011 Population Estimates | publisher = [[United States Census Bureau]], Population Division | date = June 2012 | access-date = August 1, 2012}}</ref><ref name="USCB Metro 2010">{{cite web | url=https://www.census.gov/prod/cen2010/briefs/c2010br-01.pdf | title = Population Change for the Ten Most Populous and Fastest Growing Metropolitan Statiscal Areas: 2000 to 2010 | date = March 2011 | publisher = [[U.S. Census Bureau]] | page = 6 |access-date = April 12, 2011}}</ref>
+| population_as_of = [[2010 United States census|2010]]
+| population_total = 2695598
+| pop_est_footnotes =
+| pop_est_as_of = 2011
+| population_est = 2707120
+| population_rank  = [[List of United States cities by population|3rd US]]
+| population_density_sq_mi = 11,892.4<!-- 2011 population_est / area_land_sq_mi -->
+| population_urban = 8711000
+| population_density_urban_sq_mi = auto
+| population_metro = 9461105
+| population_density_metro_sq_mi = auto
+| population_demonym = Chicagoan
+| timezone = [[Central Standard Time|CST]]
+| utc_offset = −06:00
+| timezone_DST = [[Central Daylight Time|CDT]]
+| utc_offset_DST = −05:00
+| area_code_type = [[North American Numbering Plan|Area codes]]
+| area_codes = [[Area code 312|312]], [[Area code 773|773]], [[Area code 872|872]]
+| blank_name = [[Federal Information Processing Standards|FIPS]] code
+| blank_info = {{FIPS|17|14000}}
+| blank1_name = [[Geographic Names Information System|GNIS]] feature ID
+| blank1_info = {{GNIS 4|423587}}, {{GNIS 4|428803}}
+| website = {{URL|www.cityofchicago.org}}
+| footnotes = <ref name="GNIS">{{Cite gnis|428803|City of Chicago|April 12, 2011}}</ref>
+}}
+</syntaxhighlight>
+
+'''References'''
+{{reflist}}
+{{clear}}
+----
+;Example 2:
+{{Infobox settlement
+| name                    = Detroit
+| settlement_type         = [[City (Michigan)|City]]
+| image_skyline           = Detroit Montage.jpg
+| imagesize               = 290px
+| image_caption           = Images from top to bottom, left to right: [[Downtown Detroit]] skyline, [[Spirit of Detroit]], [[Greektown Historic District|Greektown]], [[Ambassador Bridge]], [[Michigan Soldiers' and Sailors' Monument]], [[Fox Theatre (Detroit)|Fox Theatre]], and [[Comerica Park]].
+| image_flag              = Flag of Detroit.svg
+| image_seal              = Seal of Detroit.svg
+| etymology               = {{langx|fr|détroit}} ([[strait]])
+| nickname                = The Motor City, Motown, Renaissance City, The D, Hockeytown, The Automotive Capital of the World, Rock City, The 313
+| motto                   = ''Speramus Meliora; Resurget Cineribus''<br /><small>([[Latin]]: We Hope For Better Things; It Shall Rise From the Ashes)</small>
+| image_map               = Wayne County Michigan Incorporated and Unincorporated areas Detroit highlighted.svg
+| mapsize                 = 250x200px
+| map_caption             = Location within [[Wayne County, Michigan|Wayne County]] and the state of [[Michigan]]
+| pushpin_map             = USA
+| pushpin_map_caption     = Location within the [[contiguous United States]]
+| mapframe = yes
+| mapframe-stroke-width = 1
+| mapframe-marker = city
+| mapframe-zoom = 9
+| mapframe-wikidata = yes
+| mapframe-id = Q12439
+| coordinates = {{coord|42|19|53|N|83|2|45|W}}
+| coordinates_footnotes   =
+| subdivision_type        = Country
+| subdivision_name        = United States
+| subdivision_type1       = State
+| subdivision_name1       = [[Michigan]]
+| subdivision_type2       = [[List of counties in Michigan|County]]
+| subdivision_name2       = [[Wayne County, Michigan|Wayne]]
+| established_title       = Founded
+| established_date        = 1701
+| established_title2      = Incorporated
+| established_date2       = 1806
+| government_footnotes    = <!-- for references: use<ref> tags -->
+| government_type         = [[Mayor–council government|Mayor–council]]
+| leader_title            = [[List of mayors of Detroit|Mayor]]
+| leader_name             = [[Mike Duggan]]
+| leader_party            = [[Democratic Party (United States)|D]]
+| leader_title1           = [[Detroit City Council|City Council]]
+| leader_name1            = {{collapsible list|bullets=yes
+ | title = Members
+ | 1 = [[Charles Pugh]] – Council President
+ | 2 = [[Gary Brown (Detroit politician)|Gary Brown]] – Council President Pro-Tem
+ | 3 = [[JoAnn Watson]]
+ | 4 = [[Kenneth Cockrel, Jr.]]
+ | 5 = [[Saunteel Jenkins]]
+ | 6 = [[Andre Spivey]]
+ | 7 = [[James Tate (Detroit politician)|James Tate]]
+ | 8 = [[Brenda Jones (Detroit politician)|Brenda Jones]]
+ | 9 = [[Kwame Kenyatta]]
+ }}
+| unit_pref               = Imperial
+| area_footnotes          =
+| area_total_sq_mi        = 142.87
+| area_total_km2          = 370.03
+| area_land_sq_mi         = 138.75
+| area_land_km2           = 359.36
+| area_water_sq_mi        = 4.12
+| area_water_km2          = 10.67
+| area_urban_sq_mi        = 1295
+| area_metro_sq_mi        = 3913
+| elevation_footnotes     =
+| elevation_ft            = 600
+| population_footnotes    =
+| population_as_of        = 2011
+| population_total        = 706585
+| population_rank         = [[List of United States cities by population|18th in U.S.]]
+| population_urban        = 3863924
+| population_metro        = 4285832 (US: [[List of United States metropolitan statistical areas|13th]])
+| population_blank1_title = [[Combined statistical area|CSA]]
+| population_blank1       = 5207434 (US: [[List of United States combined statistical areas|11th]])
+| population_density_sq_mi= {{#expr:713777/138.8 round 0}}
+| population_demonym      = Detroiter
+| population_note         =
+| timezone                = [[Eastern Time Zone (North America)|EST]]
+| utc_offset              = −5
+| timezone_DST            = [[Eastern Daylight Time|EDT]]
+| utc_offset_DST          = −4
+| postal_code_type        =
+| postal_code             =
+| area_code               = [[Area code 313|313]]
+| blank_name              = [[Federal Information Processing Standards|FIPS code]]
+| blank_info              = {{FIPS|26|22000}}
+| blank1_name             = [[Geographic Names Information System|GNIS]] feature ID
+| blank1_info             = {{GNIS 4|1617959}}, {{GNIS 4|1626181}}
+| website                 = [http://www.detroitmi.gov/ DetroitMI.gov]
+| footnotes               =
+}}
+
+<syntaxhighlight lang="wikitext" style="overflow:auto; white-space: pre-wrap;">
+{{Infobox settlement
+| name                    = Detroit
+| settlement_type         = [[City (Michigan)|City]]
+| official_name           = City of Detroit
+| image_skyline           = Detroit Montage.jpg
+| imagesize               = 290px
+| image_caption           = Images from top to bottom, left to right: [[Downtown Detroit]] skyline, [[Spirit of Detroit]], [[Greektown Historic District|Greektown]], [[Ambassador Bridge]], [[Michigan Soldiers' and Sailors' Monument]], [[Fox Theatre (Detroit)|Fox Theatre]], and [[Comerica Park]].
+| image_flag              = Flag of Detroit, Michigan.svg
+| image_seal              = Seal of Detroit, Michigan.svg
+| etymology               = {{langx|fr|détroit}} ([[strait]])
+| nickname                = The Motor City, Motown, Renaissance City, The D, Hockeytown, The Automotive Capital of the World, Rock City, The 313
+| motto                   = ''Speramus Meliora; Resurget Cineribus''<br /><small>([[Latin]]: We Hope For Better Things; It Shall Rise From the Ashes)</small>
+| image_map               = Wayne County Michigan Incorporated and Unincorporated areas Detroit highlighted.svg
+| mapsize                 = 250x200px
+| map_caption             = Location within [[Wayne County, Michigan|Wayne County]] and the state of [[Michigan]]
+| pushpin_map             = USA
+| pushpin_map_caption     = Location within the [[contiguous United States]]
+| mapframe = yes
+| mapframe-stroke-width = 1
+| mapframe-marker = city
+| mapframe-zoom = 9
+| coordinates = {{coord|42|19|53|N|83|2|45|W}}
+| coordinates_footnotes   =
+| subdivision_type        = Country
+| subdivision_name        = United States
+| subdivision_type1       = State
+| subdivision_name1       = Michigan
+| subdivision_type2       = [[List of counties in Michigan|County]]
+| subdivision_name2       = [[Wayne County, Michigan|Wayne]]
+| established_title       = Founded
+| established_date        = 1701
+| established_title2      = Incorporated
+| established_date2       = 1806
+| government_footnotes    = <!-- for references: use<ref> tags -->
+| government_type         = [[Mayor-council government|Mayor-Council]]
+| leader_title            = [[List of mayors of Detroit|Mayor]]
+| leader_name             = [[Mike Duggan]]
+| leader_party            = [[Democratic Party (United States)|D]]
+| leader_title1           = [[Detroit City Council|City Council]]
+| leader_name1            = {{collapsible list|bullets=yes
+ | title = Members
+ | 1 = [[Charles Pugh]] – Council President
+ | 2 = [[Gary Brown (Detroit politician)|Gary Brown]] – Council President Pro-Tem
+ | 3 = [[JoAnn Watson]]
+ | 4 = [[Kenneth Cockrel, Jr.]]
+ | 5 = [[Saunteel Jenkins]]
+ | 6 = [[Andre Spivey]]
+ | 7 = [[James Tate (Detroit politician)|James Tate]]
+ | 8 = [[Brenda Jones (Detroit politician)|Brenda Jones]]
+ | 9 = [[Kwame Kenyatta]]
+ }}
+| unit_pref               = Imperial
+| area_footnotes          =
+| area_total_sq_mi        = 142.87
+| area_total_km2          = 370.03
+| area_land_sq_mi         = 138.75
+| area_land_km2           = 359.36
+| area_water_sq_mi        = 4.12
+| area_water_km2          = 10.67
+| area_urban_sq_mi        = 1295
+| area_metro_sq_mi        = 3913
+| elevation_footnotes     =
+| elevation_ft            = 600
+| population_footnotes    =
+| population_as_of        = 2011
+| population_total        = 706585
+| population_rank         = [[List of United States cities by population|18th in U.S.]]
+| population_urban        = 3863924
+| population_metro        = 4285832 (US: [[List of United States metropolitan statistical areas|13th]])
+| population_blank1_title = [[Combined statistical area|CSA]]
+| population_blank1       = 5207434 (US: [[List of United States combined statistical areas|11th]])
+| population_density_sq_mi= {{#expr:713777/138.8 round 0}}
+| population_demonym      = Detroiter
+| population_note         =
+| timezone                = [[Eastern Time Zone (North America)|EST]]
+| utc_offset              = −5
+| timezone_DST            = [[Eastern Daylight Time|EDT]]
+| utc_offset_DST          = −4
+| postal_code_type        =
+| postal_code             =
+| area_code               = [[Area code 313|313]]
+| blank_name              = [[Federal Information Processing Standards|FIPS code]]
+| blank_info              = {{FIPS|26|22000}}
+| blank1_name             = [[Geographic Names Information System|GNIS]] feature ID
+| blank1_info             = {{GNIS 4|1617959}}, {{GNIS 4|1626181}}
+| website                 = [http://www.detroitmi.gov/ DetroitMI.gov]
+| footnotes               =
+}}
+</syntaxhighlight>
+{{clear}}
+
+==Supporting templates==
+The following is a list of sub-templates used by Infobox settlement. See the [{{fullurl:Special:PrefixIndex|prefix=Infobox+settlement%2F&namespace=10&hideredirects=1}} current list of all sub-templates] for documentation, sandboxes, testcases, etc.
+# {{tl|Infobox settlement/areadisp}}
+# {{tl|Infobox settlement/densdisp}}
+# {{tl|Infobox settlement/dunam}}
+# {{tl|Infobox settlement/dunam/mag}}
+# {{tl|Infobox settlement/impus}}
+# {{tl|Infobox settlement/impus/mag}}
+# {{tl|Infobox settlement/lengthdisp}}
+# {{tl|Infobox settlement/link}}
+# {{tl|Infobox settlement/metric}}
+# {{tl|Infobox settlement/metric/mag}}
+# {{tl|Infobox settlement/pref}}
+
+==Microformat==
+{{UF-hcard-geo}}
+
+== TemplateData ==
+{{TemplateData header}}
+{{collapse top|title=TemplateData}}
+<templatedata>
+{
+	"description": "Infobox for human settlements (cities, towns, villages, communities) as well as other administrative districts, counties, provinces, etc.",
+	"format": "{{_\n| __________________ = _\n}}\n",
+	"params": {
+		"name": {
+			"label": "Common name",
+			"description": "This is the usual name in English. If it's not specified, the infobox will use the 'official_name' as a title unless this too is missing, in which case the page name will be used.",
+			"type": "string",
+			"suggested": true
+		},
+		"official_name": {
+			"label": "Official name",
+			"description": "The official name in English, if different from 'name'.",
+			"type": "string",
+			"suggested": true
+		},
+		"native_name": {
+			"label": "Native name",
+			"description": "This will display under the name/official name.",
+			"type": "string",
+			"example": "Distrito Federal de México"
+		},
+		"native_name_lang": {
+			"label": "Native name language",
+			"description": "Use ISO 639-1 code, e.g. 'fr' for French. If there is more than one native name in different languages, enter those names using {{lang}} instead.",
+			"type": "string",
+			"example": "zh"
+		},
+		"other_name": {
+			"label": "Other name",
+			"description": "For places with other commonly used names like Bombay or Saigon.",
+			"type": "string"
+		},
+		"settlement_type": {
+			"label": "Type of settlement",
+			"description": "Any type can be entered, such as 'City', 'Town', 'Village', 'Hamlet', 'Municipality', 'Reservation', etc. If set, will be displayed under the names, provided either 'name' or 'official_name' is filled in. Might also be used as a label for total population/area (defaulting to 'City'), if needed to distinguish from 'Urban', 'Rural' or 'Metro' (if urban, rural or metro figures are not present, the label is 'Total' unless 'total_type' is set).",
+			"type": "string",
+			"aliases": [
+				"type"
+			]
+		},
+		"translit_lang1": {
+			"label": "Transliteration from language 1",
+			"description": "Will place the entry before the word 'transliteration(s)'. Can be used to specify a particular language, like in Dêlêg, or one may just enter 'Other', like in Gaza's article.",
+			"type": "string"
+		},
+		"translit_lang1_type": {
+			"label": "Transliteration type for language 1",
+			"type": "line",
+			"example": "[[Hanyu pinyin]]",
+			"description": "The type of transliteration used for the first language."
+		},
+		"translit_lang1_info": {
+			"label": "Transliteration language 1 info",
+			"description": "Parameters 'translit_lang2_info1' ... 'translit_lang2_info6' are also available, but not documented here.",
+			"type": "string"
+		},
+		"translit_lang2": {
+			"label": "Transliteration language 2",
+			"description": "Will place a second transliteration. See Dêlêg.",
+			"type": "string"
+		},
+		"image_skyline": {
+			"label": "Image",
+			"description": "Primary image representing the settlement. Commonly a photo of the settlement’s skyline.",
+			"type": "wiki-file-name"
+		},
+		"imagesize": {
+			"label": "Image size",
+			"description": "Can be used to tweak the size of 'image_skyline' up or down. This can be helpful if an editor wants to make the infobox wider. If used, 'px' must be specified; default size is 250px.",
+			"type": "string"
+		},
+		"image_alt": {
+			"label": "Image alt text",
+			"description": "Alt (hover) text for the image, used by visually impaired readers who cannot see the image.",
+			"type": "string"
+		},
+		"image_caption": {
+			"label": "Image caption",
+			"description": "Will place a caption under 'image_skyline' (if present).",
+			"type": "content"
+		},
+		"image_flag": {
+			"label": "Flag image",
+			"description": "Used for a flag.",
+			"type": "wiki-file-name"
+		},
+		"flag_size": {
+			"label": "Flag size",
+			"description": "Can be used to tweak the size of 'image_flag' up or down from 100px as desired. If used, 'px' must be specified; default size is 100px.",
+			"type": "string"
+		},
+		"flag_alt": {
+			"label": "Flag alt text",
+			"description": "Alt text for the flag.",
+			"type": "string"
+		},
+		"flag_border": {
+			"label": "Flag border?",
+			"description": "Set to 'no' to remove the border from the flag.",
+			"type": "boolean",
+			"example": "no"
+		},
+		"flag_link": {
+			"label": "Flag link",
+			"type": "string",
+			"description": "Link to the flag."
+		},
+		"image_seal": {
+			"label": "Official seal image",
+			"description": "An image of an official seal, if the place has one.",
+			"type": "wiki-file-name"
+		},
+		"seal_size": {
+			"label": "Seal size",
+			"description": "If used, 'px' must be specified; default size is 100px.",
+			"type": "string"
+		},
+		"seal_alt": {
+			"label": "Seal alt text",
+			"description": "Alt (hover) text for the seal.",
+			"type": "string"
+		},
+		"seal_link": {
+			"label": "Seal link",
+			"type": "string",
+			"description": "Link to the seal."
+		},
+		"image_shield": {
+			"label": "Coat of arms/shield image",
+			"description": "Can be used for a place with a coat of arms.",
+			"type": "wiki-file-name"
+		},
+		"shield_size": {
+			"label": "Shield size",
+			"description": "If used, 'px' must be specified; default size is 100px.",
+			"type": "string",
+			"example": "200px"
+		},
+		"shield_alt": {
+			"label": "Shield alt text",
+			"description": "Alternate text for the shield.",
+			"type": "string"
+		},
+		"shield_link": {
+			"label": "Shield link",
+			"description": "Can be used if a wiki article if known but is not automatically linked by the template. See Coquitlam, British Columbia's infobox for an example.",
+			"type": "string"
+		},
+		"image_blank_emblem": {
+			"label": "Blank emblem image",
+			"description": "Can be used if a place has an official logo, crest, emblem, etc.",
+			"type": "wiki-file-name"
+		},
+		"blank_emblem_type": {
+			"label": "Blank emblem type",
+			"description": "Caption beneath 'image_blank_emblem' to specify what type of emblem it is.",
+			"type": "string",
+			"example": "Logo"
+		},
+		"blank_emblem_size": {
+			"label": "Blank emblem size",
+			"description": "If used, 'px' must be specified; default size is 100px.",
+			"type": "string",
+			"example": "200px"
+		},
+		"blank_emblem_alt": {
+			"label": "Blank emblem alt text",
+			"description": "Alt text for blank emblem.",
+			"type": "string"
+		},
+		"blank_emblem_link": {
+			"label": "Blank emblem link",
+			"type": "string",
+			"description": "A link to the emblem of custom type."
+		},
+		"nickname": {
+			"label": "Nickname",
+			"description": "Well-known nickname(s).",
+			"type": "string",
+			"example": "Sin City"
+		},
+		"motto": {
+			"label": "Motto",
+			"description": "Will place the motto under the nicknames.",
+			"type": "string"
+		},
+		"anthem": {
+			"label": "Anthem",
+			"description": "Will place the anthem (song) under the nicknames.",
+			"type": "string",
+			"example": "[[Hatikvah]]"
+		},
+		"image_map": {
+			"label": "Map image",
+			"description": "A map of the region, or a map with the region highlighted within a parent region.",
+			"type": "wiki-file-name"
+		},
+		"mapsize": {
+			"label": "Map size",
+			"description": "If used, 'px' must be specified; default is 250px.",
+			"type": "string"
+		},
+		"map_alt": {
+			"label": "Map alt text",
+			"description": "Alternate (hover) text for the map.",
+			"type": "string"
+		},
+		"map_caption": {
+			"label": "Map caption",
+			"type": "content",
+			"description": "Caption for the map displayed."
+		},
+		"image_map1": {
+			"label": "Map 2 image",
+			"description": "A secondary map image. The field 'image_map' must be filled in first. For an example, see [[Bloomsburg, Pennsylvania]].",
+			"example": "File:Columbia County Pennsylvania Incorporated and Unincorporated areas Bloomsburg Highlighted.svg",
+			"type": "wiki-file-name"
+		},
+		"mapsize1": {
+			"label": "Map 2 size",
+			"description": "If used, 'px' must be specified; default is 250px.",
+			"type": "string",
+			"example": "300px"
+		},
+		"map_alt1": {
+			"label": "Map 2 alt text",
+			"description": "Alt (hover) text for the second map.",
+			"type": "string"
+		},
+		"map_caption1": {
+			"label": "Map 2 caption",
+			"type": "content",
+			"description": "Caption of the second map."
+		},
+		"pushpin_map": {
+			"label": "Pushpin map",
+			"description": "The name of a location map (e.g. 'Indonesia' or 'Russia'). The coordinates information (from the coordinates parameter) positions a pushpin coordinate marker and label on the map automatically. For an example, see Padang, Indonesia.",
+			"type": "string",
+			"example": "Indonesia"
+		},
+		"pushpin_mapsize": {
+			"label": "Pushpin map size",
+			"description": "Must be entered as only a number—do not use 'px'. The default value is 250.",
+			"type": "number",
+			"example": "200"
+		},
+		"pushpin_map_alt": {
+			"label": "Pushpin map alt text",
+			"description": "Alt (hover) text for the pushpin map.",
+			"type": "string"
+		},
+		"pushpin_map_caption": {
+			"label": "Pushpin map caption",
+			"description": "Fill out if a different caption from 'map_caption' is desired.",
+			"type": "string",
+			"example": "Map showing Bloomsburg in Pennsylvania"
+		},
+		"pushpin_label": {
+			"label": "Pushpin label",
+			"type": "line",
+			"example": "Bloomsburg",
+			"description": "Label of the pushpin."
+		},
+		"pushpin_label_position": {
+			"label": "Pushpin label position",
+			"description": "The position of the label on the pushpin map relative to the pushpin coordinate marker. Valid options are 'left', 'right', 'top', 'bottom', and 'none'. If this field is not specified, the default value is 'right'.",
+			"type": "string",
+			"example": "left",
+			"default": "right"
+		},
+		"pushpin_outside": {
+			"label": "Pushpin outside?",
+			"type": "line"
+		},
+		"pushpin_relief": {
+			"label": "Pushpin relief",
+			"description": "Set this to 'y' or any non-blank value to use an alternative relief map provided by the selected location map (if a relief map is available).",
+			"type": "string",
+			"example": "y"
+		},
+		"pushpin_image": {
+			"label": "Pushpin image",
+			"type": "wiki-file-name",
+			"description": "Image to use for the pushpin."
+		},
+		"pushpin_overlay": {
+			"label": "Pushpin overlay",
+			"description": "Can be used to specify an image to be superimposed on the regular pushpin map.",
+			"type": "wiki-file-name"
+		},
+		"coordinates": {
+			"label": "Coordinates",
+			"description": "Latitude and longitude. Use {{Coord}}. See the documentation for {{Coord}} for more details on usage.",
+			"type": "wiki-template-name",
+			"example": "{{coord|41|50|15|N|87|40|55|W}}"
+		},
+		"coor_pinpoint": {
+			"label": "Coordinate pinpoint",
+			"description": "If needed, to specify more exactly where (or what) coordinates are given (e.g. 'Town Hall') or a specific place in a larger area (e.g. a city in a county). Example: Masovian Voivodeship.",
+			"type": "string"
+		},
+		"coordinates_footnotes": {
+			"label": "Coordinates footnotes",
+			"description": "Reference(s) for coordinates. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"subdivision_type": {
+			"label": "Subdivision type 1",
+			"description": "Almost always 'Country'.",
+			"type": "string",
+			"example": "[[List of sovereign states|Country]]"
+		},
+		"subdivision_name": {
+			"label": "Subdivision name 1",
+			"description": "Depends on 'subdivision_type'. Use the name in text form, e.g., 'United States'. Per MOS:INFOBOXFLAG, flag icons or flag templates may be used in this field.",
+			"type": "string"
+		},
+		"subdivision_type1": {
+			"label": "Subdivision type 2",
+			"description": "Additional subdivisions; can be state/province, region, or county.",
+			"type": "string"
+		},
+		"subdivision_type2": {
+			"label": "Subdivision type 3",
+			"description": "Additional subdivisions; can be state/province, region, or county.",
+			"type": "string"
+		},
+		"subdivision_type3": {
+			"label": "Subdivision type 4",
+			"description": "Additional subdivisions; can be state/province, region, or county.",
+			"type": "string"
+		},
+		"subdivision_type4": {
+			"label": "Subdivision type 5",
+			"description": "Additional subdivisions; can be state/province, region, or county.",
+			"type": "string"
+		},
+		"subdivision_type5": {
+			"label": "Subdivision type 6",
+			"description": "Additional subdivisions; can be state/province, region, or county.",
+			"type": "string"
+		},
+		"subdivision_type6": {
+			"label": "Subdivision type 7",
+			"description": "Additional subdivisions; can be state/province, region, or county.",
+			"type": "string"
+		},
+		"subdivision_name1": {
+			"label": "Subdivision name 2",
+			"description": "Use the name in text form, e.g., 'Florida' or '[[Florida]]'. Per MOS:INFOBOXFLAG, flag icons or flag templates should not be used in this field.",
+			"type": "string",
+			"example": "[[Connecticut]]"
+		},
+		"subdivision_name2": {
+			"label": "Subdivision name 3",
+			"description": "Use the name in text form, e.g., 'Florida' or '[[Florida]]'. Per MOS:INFOBOXFLAG, flag icons or flag templates should not be used in this field.",
+			"type": "string",
+			"example": "[[Florida]]"
+		},
+		"subdivision_name3": {
+			"label": "Subdivision name 4",
+			"description": "Use the name in text form, e.g., 'Florida' or '[[Florida]]'. Per MOS:INFOBOXFLAG, flag icons or flag templates should not be used in this field.",
+			"type": "string",
+			"example": "[[Utah]]"
+		},
+		"subdivision_name4": {
+			"label": "Subdivision name 5",
+			"description": "Use the name in text form, e.g., 'Florida' or '[[Florida]]'. Per MOS:INFOBOXFLAG, flag icons or flag templates should not be used in this field.",
+			"type": "string",
+			"example": "[[California]]"
+		},
+		"subdivision_name5": {
+			"label": "Subdivision name 6",
+			"description": "Use the name in text form, e.g., 'Florida' or '[[Florida]]'. Per MOS:INFOBOXFLAG, flag icons or flag templates should not be used in this field.",
+			"type": "string",
+			"example": "[[Vermont]]"
+		},
+		"subdivision_name6": {
+			"label": "Subdivision name 7",
+			"description": "Use the name in text form, e.g., 'Florida' or '[[Florida]]'. Per MOS:INFOBOXFLAG, flag icons or flag templates should not be used in this field.",
+			"type": "string",
+			"example": "[[Wyoming]]"
+		},
+		"established_title": {
+			"label": "First establishment event",
+			"description": "Title of the first establishment event.",
+			"type": "string",
+			"example": "First settled"
+		},
+		"established_date": {
+			"label": "First establishment date",
+			"type": "date",
+			"description": "Date of the first establishment event."
+		},
+		"established_title1": {
+			"label": "Second establishment event",
+			"description": "Title of the second establishment event.",
+			"type": "string",
+			"example": "Incorporated as a town"
+		},
+		"established_date1": {
+			"label": "Second establishment date",
+			"type": "date",
+			"description": "Date of the second establishment event."
+		},
+		"established_title2": {
+			"label": "Third establishment event",
+			"description": "Title of the third establishment event.",
+			"type": "string",
+			"example": "Incorporated as a city"
+		},
+		"established_date2": {
+			"label": "Third establishment date",
+			"type": "date",
+			"description": "Date of the third establishment event."
+		},
+		"established_title3": {
+			"label": "Fourth establishment event",
+			"type": "string",
+			"description": "Title of the fourth establishment event.",
+			"example": "Incorporated as a county"
+		},
+		"established_date3": {
+			"label": "Fourth establishment date",
+			"type": "date",
+			"description": "Date of the fourth establishment event."
+		},
+		"extinct_title": {
+			"label": "Extinction event title",
+			"description": "For when a settlement ceases to exist.",
+			"type": "string",
+			"example": "[[Sack of Rome]]"
+		},
+		"extinct_date": {
+			"label": "Extinction date",
+			"type": "string",
+			"description": "Date the settlement ceased to exist."
+		},
+		"founder": {
+			"label": "Founder",
+			"description": "Who the settlement was founded by.",
+			"type": "string"
+		},
+		"named_for": {
+			"label": "Named for",
+			"description": "The source of the name of the settlement (a person, a place, et cetera).",
+			"type": "string",
+			"example": "[[Ho Chi Minh]]"
+		},
+		"seat_type": {
+			"label": "Seat of government type",
+			"description": "The label for the seat of government (defaults to 'Seat').",
+			"type": "string",
+			"default": "Seat"
+		},
+		"seat": {
+			"label": "Seat of government",
+			"description": "The seat of government.",
+			"type": "string",
+			"example": "[[White House]]"
+		},
+		"parts_type": {
+			"label": "Type of smaller subdivisions",
+			"description": "The label for the smaller subdivisions (defaults to 'Boroughs').",
+			"type": "string",
+			"default": "Boroughs"
+		},
+		"parts_style": {
+			"label": "Parts style",
+			"description": "Set to 'list' to display as a collapsible list, 'coll' as a collapsed list, or 'para' to use paragraph style. Default is 'list' for up to 5 items, otherwise 'coll'.",
+			"type": "string",
+			"example": "list"
+		},
+		"parts": {
+			"label": "Smaller subdivisions",
+			"description": "Text or header of the list of smaller subdivisions.",
+			"type": "string"
+		},
+		"p1": {
+			"label": "Smaller subdivision 1",
+			"description": "The smaller subdivisions to be listed. Parameters 'p1' to 'p50' can also be used.",
+			"type": "string"
+		},
+		"government_footnotes": {
+			"label": "Government footnotes",
+			"description": "Reference(s) for government. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "content"
+		},
+		"government_type": {
+			"label": "Government type",
+			"description": "The place's type of government.",
+			"type": "string",
+			"example": "[[Mayor–council government]]"
+		},
+		"governing_body": {
+			"label": "Governing body",
+			"description": "Name of the place's governing body.",
+			"type": "wiki-page-name",
+			"example": "Legislative Council of Hong Kong"
+		},
+		"leader_party": {
+			"label": "Leader political party",
+			"description": "Political party of the place's leader.",
+			"type": "string"
+		},
+		"leader_title": {
+			"label": "Leader title",
+			"description": "First title of the place's leader, e.g. 'Mayor'.",
+			"type": "string",
+			"example": "[[Governor (United States)|Governor]]"
+		},
+		"leader_name": {
+			"label": "Leader's  name",
+			"description": "Name of the place's leader.",
+			"type": "string",
+			"example": "[[Jay Inslee]]"
+		},
+		"leader_title1": {
+			"label": "Leader title 1",
+			"description": "First title of the place's leader, e.g. 'Mayor'.",
+			"type": "string",
+			"example": "Mayor"
+		},
+		"leader_name1": {
+			"label": "Leader name 1",
+			"description": "Additional names for leaders. Parameters 'leader_name1' .. 'leader_name4' are available. For long lists, use {{Collapsible list}}.",
+			"type": "string"
+		},
+		"total_type": {
+			"label": "Total type",
+			"description": "Specifies what total area and population figure refer to, e.g. 'Greater London'. This overrides other labels for total population/area. To make the total area and population display on the same line as the words ''Area'' and ''Population'', with no ''Total'' or similar label, set the value of this parameter to '&nbsp;'.",
+			"type": "string"
+		},
+		"unit_pref": {
+			"label": "Unit preference",
+			"description": "To change the unit order to 'imperial (metric)', enter 'imperial'. The default display style is 'metric (imperial)'. However, the template will swap the order automatically if the 'subdivision_name' equals some variation of the US or the UK. For the Middle East, a unit preference of dunam can be entered (only affects total area). All values must be entered in a raw format (no commas, spaces, or unit symbols). The template will format them automatically.",
+			"type": "string",
+			"example": "imperial"
+		},
+		"area_footnotes": {
+			"label": "Area footnotes",
+			"description": "Reference(s) for area. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"dunam_link": {
+			"label": "Link dunams?",
+			"description": "If dunams are used, the default is to link the word ''dunams'' in the total area section. This can be changed by setting 'dunam_link' to another measure (e.g. 'dunam_link=water'). Linking can also be turned off by setting the parameter to something else (e.g., 'dunam_link=none' or 'dunam_link=off').",
+			"type": "boolean",
+			"example": "none"
+		},
+		"area_total_km2": {
+			"label": "Total area (km2)",
+			"description": "Total area in square kilometers (symbol: km²). Value must be entered in raw format (no commas or spaces). Auto-converted to display square miles if 'area_total_sq_mi' is empty.",
+			"type": "number"
+		},
+		"area_total_sq_mi": {
+			"label": "Total area (sq. mi)",
+			"description": "Total area in square miles (symbol: sq mi). Value must be entered in raw format (no commas or spaces). Auto-converted to display square kilometers if 'area_total_km2' is empty.",
+			"type": "number"
+		},
+		"area_total_ha": {
+			"label": "Total area (hectares)",
+			"description": "Total area in hectares (symbol: ha). Value must be entered in raw format (no commas or spaces). Auto-converted to display acres if 'area_total_acre' is empty.",
+			"type": "number"
+		},
+		"area_total_acre": {
+			"label": "Total area (acres)",
+			"description": "Total area in acres. Value must be entered in raw format (no commas or spaces). Auto-converted to display hectares if 'area_total_ha' is empty.",
+			"type": "number"
+		},
+		"area_total_dunam": {
+			"label": "Total area (dunams)",
+			"description": "Total area in dunams, which is wikilinked. Used in Middle Eastern places like Israel, Gaza, and the West Bank. Value must be entered in raw format (no commas or spaces). Auto-converted to display square kilometers or hectares and square miles or acres if 'area_total_km2', 'area_total_ha', 'area_total_sq_mi', and 'area_total_acre' are empty. Examples: Gaza and Ramallah.",
+			"type": "number"
+		},
+		"area_land_km2": {
+			"label": "Land area (sq. km)",
+			"description": "Land area in square kilometers (symbol: km²). Value must be entered in raw format (no commas or spaces). Auto-converted to display square miles if 'area_land_sq_mi' is empty.",
+			"type": "number"
+		},
+		"area_land_sq_mi": {
+			"label": "Land area (sq. mi)",
+			"description": "Land area in square miles (symbol: sq mi). Value must be entered in raw format (no commas or spaces). Auto-converted to display square kilometers if 'area_land_km2' is empty.",
+			"type": "number"
+		},
+		"area_land_ha": {
+			"label": "Land area (hectares)",
+			"description": "The place's land area in hectares.",
+			"type": "number"
+		},
+		"area_land_dunam": {
+			"label": "Land area (dunams)",
+			"description": "The place's land area in dunams.",
+			"type": "number"
+		},
+		"area_land_acre": {
+			"label": "Land area (acres)",
+			"description": "The place's land area in acres.",
+			"type": "number"
+		},
+		"area_water_km2": {
+			"label": "Water area (sq. km)",
+			"description": "Water area in square kilometers (symbol: km²). Value must be entered in raw format (no commas or spaces). Auto-converted to display square miles if 'area_water_sq_mi' is empty.",
+			"type": "number"
+		},
+		"area_water_sq_mi": {
+			"label": "Water area (sq. mi)",
+			"description": "Water area in square miles (symbol: sq mi). Value must be entered in raw format (no commas or spaces). Auto-converted to display square kilometers if 'area_water_km2' is empty.",
+			"type": "number"
+		},
+		"area_water_ha": {
+			"label": "Water area (hectares)",
+			"description": "The place's water area in hectares.",
+			"type": "number"
+		},
+		"area_water_dunam": {
+			"label": "Water area (dunams)",
+			"description": "The place's water area in dunams.",
+			"type": "number"
+		},
+		"area_water_acre": {
+			"label": "Water area (acres)",
+			"description": "The place's water area in acres.",
+			"type": "number"
+		},
+		"area_water_percent": {
+			"label": "Percent water area",
+			"description": "Percent of water without the %.",
+			"type": "number",
+			"example": "21"
+		},
+		"area_urban_km2": {
+			"label": "Urban area (sq. km)",
+			"type": "number",
+			"description": "Area of the place's urban area in square kilometers."
+		},
+		"area_urban_sq_mi": {
+			"label": "Urban area (sq. mi)",
+			"type": "number",
+			"description": "Area of the place's urban area in square miles."
+		},
+		"area_urban_ha": {
+			"label": "Urban area (hectares)",
+			"description": "Area of the place's urban area in hectares.",
+			"type": "number"
+		},
+		"area_urban_dunam": {
+			"label": "Urban area (dunams)",
+			"description": "Area of the place's urban area in dunams.",
+			"type": "number"
+		},
+		"area_urban_acre": {
+			"label": "Urban area (acres)",
+			"description": "Area of the place's urban area in acres.",
+			"type": "number"
+		},
+		"area_urban_footnotes": {
+			"label": "Urban area footnotes",
+			"description": "Reference(s) for the urban area. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"area_rural_km2": {
+			"label": "Rural area (sq. km)",
+			"type": "number",
+			"description": "Area of the place's rural area in square kilometers."
+		},
+		"area_rural_sq_mi": {
+			"label": "Rural area (sq. mi)",
+			"type": "number",
+			"description": "Area of the place's rural area in square miles."
+		},
+		"area_rural_ha": {
+			"label": "Rural area (hectares)",
+			"description": "Area of the place's rural area in hectares.",
+			"type": "number"
+		},
+		"area_rural_dunam": {
+			"label": "Rural area (dunams)",
+			"description": "Area of the place's rural area in dunams.",
+			"type": "number"
+		},
+		"area_rural_acre": {
+			"label": "Rural area (acres)",
+			"description": "Area of the place's rural area in acres.",
+			"type": "number"
+		},
+		"area_rural_footnotes": {
+			"label": "Rural area footnotes",
+			"description": "Reference(s) for the urban area. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"area_metro_km2": {
+			"label": "Metropolitan area (sq. km)",
+			"type": "number",
+			"description": "Area of the place's metropolitan area in square kilometers."
+		},
+		"area_metro_sq_mi": {
+			"label": "Metropolitan area (sq. mi)",
+			"type": "number",
+			"description": "Area of the place's metropolitan area in square miles."
+		},
+		"area_metro_ha": {
+			"label": "Metropolitan area (hectares)",
+			"description": "Area of the place's metropolitan area in hectares.",
+			"type": "number"
+		},
+		"area_metro_dunam": {
+			"label": "Metropolitan area (dunams)",
+			"description": "Area of the place's metropolitan area in dunams.",
+			"type": "number"
+		},
+		"area_metro_acre": {
+			"label": "Metropolitan area (acres)",
+			"description": "Area of the place's metropolitan area in acres.",
+			"type": "number"
+		},
+		"area_metro_footnotes": {
+			"label": "Metropolitan area footnotes",
+			"description": "Reference(s) for the urban area. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"area_rank": {
+			"label": "Area rank",
+			"description": "The settlement's area, as ranked within its parent sub-division.",
+			"type": "string"
+		},
+		"area_blank1_title": {
+			"label": "First blank area section title",
+			"description": "Title of the place's first custom area section.",
+			"type": "string",
+			"example": "see [[London]]"
+		},
+		"area_blank1_km2": {
+			"label": "Area blank 1 (sq. km)",
+			"type": "number",
+			"description": "Area of the place's first blank area section in square kilometers."
+		},
+		"area_blank1_sq_mi": {
+			"label": "Area blank 1 (sq. mi)",
+			"type": "number",
+			"description": "Area of the place's first blank area section in square miles."
+		},
+		"area_blank1_ha": {
+			"label": "Area blank 1 (hectares)",
+			"description": "Area of the place's first blank area section in hectares.",
+			"type": "number"
+		},
+		"area_blank1_dunam": {
+			"label": "Area blank 1 (dunams)",
+			"description": "Area of the place's first blank area section in dunams.",
+			"type": "number"
+		},
+		"area_blank1_acre": {
+			"label": "Area blank 1 (acres)",
+			"description": "Area of the place's first blank area section in acres.",
+			"type": "number"
+		},
+		"area_blank2_title": {
+			"label": "Second blank area section title",
+			"type": "string",
+			"description": "Title of the place's second custom area section."
+		},
+		"area_blank2_km2": {
+			"label": "Area blank 2 (sq. km)",
+			"type": "number",
+			"description": "Area of the place's second blank area section in square kilometers."
+		},
+		"area_blank2_sq_mi": {
+			"label": "Area blank 2 (sq. mi)",
+			"type": "number",
+			"description": "Area of the place's second blank area section in square miles."
+		},
+		"area_blank2_ha": {
+			"label": "Area blank 2 (hectares)",
+			"description": "Area of the place's third blank area section in hectares.",
+			"type": "number"
+		},
+		"area_blank2_dunam": {
+			"label": "Area blank 2 (dunams)",
+			"description": "Area of the place's third blank area section in dunams.",
+			"type": "number"
+		},
+		"area_blank2_acre": {
+			"label": "Area blank 2 (acres)",
+			"description": "Area of the place's third blank area section in acres.",
+			"type": "number"
+		},
+		"area_note": {
+			"label": "Area footnotes",
+			"description": "A place for additional information such as the name of the source.",
+			"type": "content",
+			"example": "<ref name=\"CenPopGazetteer2016\">{{cite web|title=2016 U.S. Gazetteer Files|url=https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2016_Gazetteer/2016_gaz_place_42.txt|publisher=United States Census Bureau|access-date=August 13, 2017}}</ref>"
+		},
+		"dimensions_footnotes": {
+			"label": "Dimensions footnotes",
+			"description": "Reference(s) for dimensions. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "content"
+		},
+		"length_km": {
+			"label": "Length in km",
+			"description": "Raw number entered in kilometers. Will automatically convert to display length in miles if 'length_mi' is empty.",
+			"type": "number"
+		},
+		"length_mi": {
+			"label": "Length in miles",
+			"description": "Raw number entered in miles. Will automatically convert to display length in kilometers if 'length_km' is empty.",
+			"type": "number"
+		},
+		"width_km": {
+			"label": "Width in kilometers",
+			"description": "Raw number entered in kilometers. Will automatically convert to display width in miles if 'length_mi' is empty.",
+			"type": "number"
+		},
+		"width_mi": {
+			"label": "Width in miles",
+			"description": "Raw number entered in miles. Will automatically convert to display width in kilometers if 'length_km' is empty.",
+			"type": "number"
+		},
+		"elevation_m": {
+			"label": "Elevation in meters",
+			"description": "Raw number entered in meters. Will automatically convert to display elevation in feet if 'elevation_ft' is empty. However, if a range in elevation (i.e. 5–50&nbsp;m) is desired, use the 'max' and 'min' fields below.",
+			"type": "number"
+		},
+		"elevation_ft": {
+			"label": "Elevation in feet",
+			"description": "Raw number, entered in feet. Will automatically convert to display the average elevation in meters if 'elevation_m' field is empty. However, if a range in elevation (i.e. 50–500&nbsp;ft) is desired, use the 'max' and 'min' fields below.",
+			"type": "number"
+		},
+		"elevation_footnotes": {
+			"label": "Elevation footnotes",
+			"description": "Reference(s) for elevation. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"elevation_min_point": {
+			"type": "line",
+			"label": "Point of min elevation",
+			"description": "The name of the point of lowest elevation in the place.",
+			"example": "[[Death Valley]]"
+		},
+		"elevation_min_m": {
+			"label": "Minimum elevation (m)",
+			"type": "number",
+			"description": "The minimum elevation in meters."
+		},
+		"elevation_min_ft": {
+			"label": "Minimum elevation (ft)",
+			"type": "number",
+			"description": "The minimum elevation in feet."
+		},
+		"elevation_min_rank": {
+			"type": "line",
+			"label": "Minimum elevation rank",
+			"description": "The point of minimum elevation's rank in the parent region.",
+			"example": "1st"
+		},
+		"elevation_min_footnotes": {
+			"label": "Min elevation footnotes",
+			"type": "content",
+			"description": "Footnotes or citations for the minimum elevation."
+		},
+		"elevation_max_point": {
+			"type": "line",
+			"label": "Point of max elevation",
+			"description": "The name of the point of highest elevation in the place.",
+			"example": "[[Mount Everest]]"
+		},
+		"elevation_max_m": {
+			"label": "Maximum elevation (m)",
+			"type": "number",
+			"description": "The maximum elevation in meters."
+		},
+		"elevation_max_ft": {
+			"label": "Maximum elevation (ft)",
+			"type": "number",
+			"description": "The maximum elevation in feet."
+		},
+		"elevation_max_rank": {
+			"type": "line",
+			"label": "Maximum elevation rank",
+			"description": "The point of maximum elevation's rank in the parent region.",
+			"example": "2nd"
+		},
+		"elevation_max_footnotes": {
+			"label": "Max elevation footnotes",
+			"type": "content",
+			"description": "Footnotes or citations for the maximum elevation."
+		},
+		"population_total": {
+			"label": "Population total",
+			"description": "Actual population (see below for estimates) preferably consisting of digits only (without any commas).",
+			"type": "number"
+		},
+		"population_as_of": {
+			"label": "Population total figure's year",
+			"description": "The year for the population total (usually a census year).",
+			"type": "number"
+		},
+		"population_footnotes": {
+			"label": "Population footnotes",
+			"description": "Reference(s) for population; placed within <nowiki><ref> </ref></nowiki> tags.",
+			"type": "content"
+		},
+		"population_density_km2": {
+			"label": "Population density (per square km)",
+			"type": "string",
+			"description": "The place's population density per square kilometer.",
+			"example": "auto"
+		},
+		"population_density_sq_mi": {
+			"label": "Population density (per square mi)",
+			"type": "string",
+			"description": "The place's population density per square mile.",
+			"example": "auto"
+		},
+		"population_est": {
+			"label": "Population estimate",
+			"description": "Population estimate, e.g. for growth projections 4 years after a census.",
+			"type": "number",
+			"example": "331000000"
+		},
+		"pop_est_as_of": {
+			"label": "Population estimate figure as of",
+			"description": "The year, or the month and year, of the population estimate.",
+			"type": "date"
+		},
+		"pop_est_footnotes": {
+			"label": "Population estimate footnotes",
+			"description": "Reference(s) for population estimate; placed within <nowiki><ref> </ref></nowiki> tags.",
+			"type": "content",
+			"example": "<ref name=\"USCensusEst2016\"/>"
+		},
+		"population_urban": {
+			"label": "Urban population",
+			"type": "number",
+			"description": "The place's urban population."
+		},
+		"population_urban_footnotes": {
+			"label": "Urban population footnotes",
+			"description": "Reference(s) for urban population; placed within <nowiki><ref> </ref></nowiki> tags.",
+			"type": "content"
+		},
+		"population_density_urban_km2": {
+			"label": "Urban population density (per square km)",
+			"type": "string",
+			"description": "The place's urban population density per square kilometer.",
+			"example": "auto"
+		},
+		"population_density_urban_sq_mi": {
+			"label": "Urban population density (per square mi)",
+			"type": "string",
+			"description": "The place's urban population density per square mile.",
+			"example": "auto"
+		},
+		"population_rural": {
+			"label": "Rural population",
+			"type": "number",
+			"description": "The place's rural population."
+		},
+		"population_rural_footnotes": {
+			"label": "Rural population footnotes",
+			"description": "Reference(s) for rural population; placed within <nowiki><ref> </ref></nowiki> tags.",
+			"type": "content"
+		},
+		"population_density_rural_km2": {
+			"label": "Rural population density per sq. km",
+			"type": "line",
+			"description": "The place's rural population density per square kilometer.",
+			"example": "auto"
+		},
+		"population_density_rural_sq_mi": {
+			"label": "Rural population density per sq. mi",
+			"type": "line",
+			"description": "The place's rural population density per square mile.",
+			"example": "auto"
+		},
+		"population_metro": {
+			"label": "Metropolitan area population",
+			"type": "number",
+			"description": "Population of the place's metropolitan area."
+		},
+		"population_metro_footnotes": {
+			"label": "Metropolitan area population footnotes",
+			"description": "Reference(s) for metro population; placed within <nowiki><ref> </ref></nowiki> tags.",
+			"type": "string"
+		},
+		"population_density_metro_km2": {
+			"label": "Metropolitan population density per sq. km",
+			"type": "number",
+			"description": "The place's metropolitan area's population density per square kilometer.",
+			"example": "auto"
+		},
+		"population_density_metro_sq_mi": {
+			"label": "Metropolitan population density per sq. mi",
+			"type": "number",
+			"description": "The place's metropolitan area's population density per square mile.",
+			"example": "auto"
+		},
+		"population_rank": {
+			"label": "Population rank",
+			"description": "The settlement's population, as ranked within its parent sub-division.",
+			"type": "string"
+		},
+		"population_density_rank": {
+			"label": "Population density rank",
+			"description": "The settlement's population density, as ranked within its parent sub-division.",
+			"type": "string"
+		},
+		"population_blank1_title": {
+			"label": "Custom population type 1 title",
+			"description": "Can be used for estimates. For an example, see Windsor, Ontario.",
+			"type": "string",
+			"example": "See: [[Windsor, Ontario]]"
+		},
+		"population_blank1": {
+			"label": "Custom population type 1",
+			"description": "The population value for 'blank1_title'.",
+			"type": "string"
+		},
+		"population_density_blank1_km2": {
+			"label": "Custom population type 1 density per sq. km",
+			"type": "string",
+			"description": "Population density per square kilometer, according to the 1st custom population type."
+		},
+		"population_density_blank1_sq_mi": {
+			"label": "Custom population type 1 density per sq. mi",
+			"type": "string",
+			"description": "Population density per square mile, according to the 1st custom population type."
+		},
+		"population_blank2_title": {
+			"label": "Custom population type 2 title",
+			"description": "Can be used for estimates. For an example, see Windsor, Ontario.",
+			"type": "string",
+			"example": "See: [[Windsor, Ontario]]"
+		},
+		"population_blank2": {
+			"label": "Custom population type 2",
+			"description": "The population value for 'blank2_title'.",
+			"type": "string"
+		},
+		"population_density_blank2_km2": {
+			"label": "Custom population type 2 density per sq. km",
+			"type": "string",
+			"description": "Population density per square kilometer, according to the 2nd custom population type."
+		},
+		"population_density_blank2_sq_mi": {
+			"label": "Custom population type 2 density per sq. mi",
+			"type": "string",
+			"description": "Population density per square mile, according to the 2nd custom population type."
+		},
+		"population_demonym": {
+			"label": "Demonym",
+			"description": "A demonym or gentilic is a word that denotes the members of a people or the inhabitants of a place. For example, a citizen in Liverpool is known as a Liverpudlian.",
+			"type": "line",
+			"example": "Liverpudlian"
+		},
+		"population_note": {
+			"label": "Population note",
+			"description": "A place for additional information such as the name of the source. See Windsor, Ontario, for an example.",
+			"type": "content"
+		},
+		"demographics_type1": {
+			"label": "Demographics type 1",
+			"description": "A sub-section header.",
+			"type": "string",
+			"example": "Ethnicities"
+		},
+		"demographics1_footnotes": {
+			"label": "Demographics section 1 footnotes",
+			"description": "Reference(s) for demographics section 1. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "content"
+		},
+		"demographics1_title1": {
+			"label": "Demographics section 1 title 1",
+			"description": "Titles related to demographics_type1. For example: 'White', 'Black', 'Hispanic'... Additional rows 'demographics1_title1' to 'demographics1_title5' are also available.",
+			"type": "string"
+		},
+		"demographics_type2": {
+			"label": "Demographics type 2",
+			"description": "A second sub-section header.",
+			"type": "line",
+			"example": "Languages"
+		},
+		"demographics2_footnotes": {
+			"label": "Demographics section 2 footnotes",
+			"description": "Reference(s) for demographics section 2. Placed within <nowiki><ref> </ref></nowiki> tags, possibly using the citing format at {{Cite web}}.",
+			"type": "string"
+		},
+		"demographics2_title1": {
+			"label": "Demographics section 2 title 1",
+			"description": "Titles related to 'demographics_type1'. For example: 'English', 'French', 'Arabic'... Additional rows 'demographics2_title2' to 'demographics1_title5' are also available.",
+			"type": "string"
+		},
+		"demographics2_info1": {
+			"label": "Demographics section 2 info 1",
+			"description": "Information related to the titles. For example: '50%', '25%', '10%'...  Additional rows 'demographics2_info2' to 'demographics2_info5' are also available.",
+			"type": "content"
+		},
+		"timezone1": {
+			"label": "Timezone 1",
+			"type": "string",
+			"description": "The place's primary time-zone.",
+			"example": "[[Eastern Standard Time]]",
+			"aliases": [
+				"timezone"
+			]
+		},
+		"utc_offset": {
+			"label": "UTC offset",
+			"type": "string",
+			"description": "The place's time-zone's offset from UTC.",
+			"example": "+8"
+		},
+		"timezone_DST": {
+			"label": "Timezone during DST",
+			"type": "string",
+			"description": "The place's time-zone during daylight savings time, if applicable.",
+			"example": "[[Eastern Daylight Time]]"
+		},
+		"utc_offset_DST": {
+			"label": "UTC offset during DST",
+			"type": "string",
+			"description": "The place's time-zone's UTC offset during daylight savings time, if applicable.",
+			"example": "+9"
+		},
+		"utc_offset1": {
+			"label": "UTC offset 1",
+			"type": "string",
+			"description": "The place's primary time-zone's offset from UTC.",
+			"example": "-5"
+		},
+		"timezone1_DST": {
+			"label": "Timezone 1 (during DST)",
+			"type": "string",
+			"description": "The place's primary time-zone during daylight savings time, if applicable.",
+			"example": "[[Eastern Daylight Time]]"
+		},
+		"utc_offset1_DST": {
+			"label": "UTC offset 1 (during DST)",
+			"type": "string",
+			"description": "The place's primary time-zone's UTC offset during daylight savings time, if applicable.",
+			"example": "-6"
+		},
+		"timezone2": {
+			"label": "Timezone 2",
+			"description": "A second timezone field for larger areas such as a province.",
+			"type": "string",
+			"example": "[[Central Standard Time]]"
+		},
+		"utc_offset2": {
+			"label": "UTC offset 2",
+			"type": "string",
+			"description": "The place's secondary time-zone's offset from UTC.",
+			"example": "-6"
+		},
+		"timezone2_DST": {
+			"label": "Timezone 2 during DST",
+			"type": "string",
+			"description": "The place's secondary time-zone during daylight savings time, if applicable.",
+			"example": "[[Central Daylight Time]]"
+		},
+		"utc_offset2_DST": {
+			"label": "UTC offset 2 during DST",
+			"type": "string",
+			"description": "The place's secondary time-zone's offset from UTC during daylight savings time, if applicable.",
+			"example": "-7"
+		},
+		"postal_code_type": {
+			"label": "Postal code type",
+			"description": "Label used for postal code info, e.g. 'ZIP Code'. Defaults to 'Postal code'.",
+			"example": "[[Postal code of China|Postal code]]",
+			"type": "string"
+		},
+		"postal_code": {
+			"label": "Postal code",
+			"description": "The place's postal code/zip code.",
+			"type": "string",
+			"example": "90210"
+		},
+		"postal2_code_type": {
+			"label": "Postal code 2 type",
+			"type": "string",
+			"description": "If applicable, the place's second postal code type."
+		},
+		"postal2_code": {
+			"label": "Postal code 2",
+			"type": "string",
+			"description": "A second postal code of the place, if applicable.",
+			"example": "90007"
+		},
+		"area_code": {
+			"label": "Area code",
+			"description": "The regions' telephone area code.",
+			"type": "string"
+		},
+		"area_code_type": {
+			"label": "Area code type",
+			"description": "If left blank/not used, template will default to 'Area code(s)'.",
+			"type": "string"
+		},
+		"geocode": {
+			"label": "Geocode",
+			"description": "See [[Geocode]].",
+			"type": "string"
+		},
+		"iso_code": {
+			"label": "ISO 3166 code",
+			"description": "See ISO 3166.",
+			"type": "string"
+		},
+		"registration_plate": {
+			"label": "Registration/license plate info",
+			"description": "See Vehicle registration plate.",
+			"type": "string"
+		},
+		"blank_name_sec1": {
+			"label": "Blank name section 1",
+			"description": "Fields used to display other information. The name is displayed in bold on the left side of the infobox.",
+			"type": "string",
+			"aliases": [
+				"blank_name"
+			]
+		},
+		"blank_info_sec1": {
+			"label": "Blank info section 1",
+			"description": "The information associated with the 'blank_name_sec1' heading. The info is displayed on the right side of the infobox in the same row as the name. For an example, see [[Warsaw]].",
+			"type": "content",
+			"aliases": [
+				"blank_info"
+			]
+		},
+		"blank1_name_sec1": {
+			"label": "Blank 1 name section 1",
+			"description": "Up to 7 additional fields 'blank1_name_sec1' ... 'blank7_name_sec1' can be specified.",
+			"type": "string"
+		},
+		"blank1_info_sec1": {
+			"label": "Blank 1 info section 1",
+			"description": "Up to 7 additional fields 'blank1_info_sec1' ... 'blank7_info_sec1' can be specified.",
+			"type": "content"
+		},
+		"blank_name_sec2": {
+			"label": "Blank name section 2",
+			"description": "For a second section of blank fields.",
+			"type": "string"
+		},
+		"blank_info_sec2": {
+			"label": "Blank info section 2",
+			"example": "Beijing",
+			"type": "content",
+			"description": "The information associated with the 'blank_name_sec2' heading. The info is displayed on right side of infobox, in the same row as the name. For an example, see [[Warsaw]]."
+		},
+		"blank1_name_sec2": {
+			"label": "Blank 1 name section 2",
+			"description": "Up to 7 additional fields 'blank1_name_sec2' ... 'blank7_name_sec2' can be specified.",
+			"type": "string"
+		},
+		"blank1_info_sec2": {
+			"label": "Blank 1 info section 2",
+			"description": "Up to 7 additional fields 'blank1_info_sec2' ... 'blank7_info_sec2' can be specified.",
+			"type": "content"
+		},
+		"website": {
+			"label": "Official website in English",
+			"description": "External link to official website. Use the {{URL}} template, thus: {{URL|example.com}}.",
+			"type": "string"
+		},
+		"footnotes": {
+			"label": "Footnotes",
+			"description": "Text to be displayed at the bottom of the infobox.",
+			"type": "content"
+		},
+		"translit_lang1_info1": {
+			"label": "Language 1 first transcription ",
+			"description": "Transcription of type 1 in the first other language.",
+			"example": "{{langx|zh|森美兰}}",
+			"type": "line"
+		},
+		"translit_lang1_type1": {
+			"label": "Language 1 first transcription type",
+			"description": "Type of transcription used in the first language's first transcription.",
+			"example": "[[Chinese Language|Chinese]]",
+			"type": "line"
+		},
+		"translit_lang1_info2": {
+			"label": "Language 1 second transcription ",
+			"description": "Transcription of type 1 in the first other language.",
+			"example": "{{langx|ta|நெகிரி செம்பிலான்}}",
+			"type": "line"
+		},
+		"translit_lang1_type2": {
+			"label": "Language 1 second transcription type",
+			"description": "Type of transcription used in the first language's first transcription.",
+			"example": "[[Tamil Language|Tamil]]",
+			"type": "line"
+		},
+		"demographics1_info1": {
+			"label": "Demographics section 1 info 1",
+			"description": "Information related to the titles. For example: '50%', '25%', '10%'...  Additional rows 'demographics1_info1' to 'demographics1_info5' are also available.",
+			"type": "content"
+		},
+		"mapframe": {
+			"label": "Show mapframe map",
+			"description": "Specify yes or no to show or hide the map, overriding the default",
+			"example": "yes",
+			"type": "string",
+			"default": "no",
+			"suggested": true
+		},
+		"mapframe-caption": {
+			"label": "Mapframe caption",
+			"description": "Caption for the map. If mapframe-geomask is set, then the default is \"Location in <<geomask's label>>\"",
+			"type": "string"
+		},
+		"mapframe-custom": {
+			"label": "Custom mapframe",
+			"description": "Use a custom map instead of the automatic mapframe. Specify either a {{maplink}} template, or another template that generates a mapframe map, or an image name. If used, other mapframe parameters will be ignored.",
+			"type": "wiki-template-name"
+		},
+		"mapframe-id": {
+			"aliases": [
+				"id",
+				"qid"
+			],
+			"label": "Mapframe Wikidata item",
+			"description": "Id (Q-number) of Wikidata item to use.",
+			"type": "string",
+			"default": "(item for current page)"
+		},
+		"mapframe-coordinates": {
+			"aliases": [
+				"mapframe-coord",
+				"coordinates",
+				"coord"
+			],
+			"label": "Mapframe coordinates ",
+			"description": "Coordinates to use, instead of any on Wikidata. Use the {{Coord}} template.",
+			"example": "{{Coord|12.34|N|56.78|E}}",
+			"type": "wiki-template-name",
+			"default": "(coordinates from Wikidata)"
+		},
+		"mapframe-wikidata": {
+			"label": "Mapframe shapes from Wikidata",
+			"description": "et to yes to show shape/line features from the wikidata item, if any, when coordinates are specified by parameter",
+			"example": "yes",
+			"type": "string"
+		},
+		"mapframe-shape": {
+			"label": "Mapframe shape feature",
+			"description": "Override display of mapframe shape feature. Turn off by setting to \"none\". Use an inverse shape (geomask) instead of a regular shape by setting to \"inverse\"",
+			"type": "string"
+		},
+		"mapframe-point": {
+			"label": "Mapframe point feature",
+			"description": "Override display of mapframe point feature. Turn off display of point feature by setting to \"none\". Force point marker to be displayed by setting to \"on\"",
+			"type": "string"
+		},
+		"mapframe-geomask": {
+			"label": "Mapframe geomask",
+			"description": "Wikidata item to use as a geomask (everything outside the boundary is shaded darker). Can either be a specific Wikidata item (Q-number), or a property that specifies the item to use (e.g. P17 for country, or P131 for located in the administrative territorial entity)",
+			"example": "Q100",
+			"type": "wiki-page-name"
+		},
+		"mapframe-switcher": {
+			"label": "Mapframe switcher",
+			"description": "Set to \"auto\" or \"geomasks\" or \"zooms\" to enable Template:Switcher-style switching between multiple mapframes. IF SET TO auto – switch geomasks found in location (P276) and located in the administrative territorial entity (P131) statements on the page's Wikidata item, searching recursively. E.g. an item's city, that city's state, and that state's country. IF SET TO geomasks – switch between the geomasks specified as a comma-separated list of Wikidata items (Q-numbers) in the mapframe-geomask parameter. IF SET TO zooms – switch between \"zoomed in\"/\"zoomed midway\"/\"zoomed out\", where \"zoomed in\" is the default zoom (with a minimum of 3), \"zoomed out\" is 1, and \"zoomed midway\" is the average.",
+			"type": "string"
+		},
+		"mapframe-frame-width": {
+			"aliases": [
+				"mapframe-width"
+			],
+			"label": "Mapframe width",
+			"description": "Frame width in pixels",
+			"type": "number",
+			"default": "270"
+		},
+		"mapframe-frame-height": {
+			"aliases": [
+				"mapframe-height"
+			],
+			"label": "Mapframe height",
+			"description": "Frame height in pixels",
+			"type": "number",
+			"default": "200"
+		},
+		"mapframe-shape-fill": {
+			"label": "Mapframe shape fill",
+			"description": "Color used to fill shape features",
+			"type": "string",
+			"default": "#606060"
+		},
+		"mapframe-shape-fill-opacity": {
+			"label": "Mapframe shape fill opacity",
+			"description": "Opacity level of shape fill, a number between 0 and 1",
+			"type": "number",
+			"default": "0.5"
+		},
+		"mapframe-stroke-color": {
+			"aliases": [
+				"mapframe-stroke-colour"
+			],
+			"label": "Mapframe stroke color",
+			"description": "Color of line features, and outlines of shape features",
+			"type": "string",
+			"default": "#ff0000"
+		},
+		"mapframe-stroke-width": {
+			"label": "Mapframe stroke width",
+			"description": "Width of line features, and outlines of shape features",
+			"type": "number",
+			"default": "5"
+		},
+		"mapframe-marker": {
+			"label": "Mapframe marker",
+			"description": "Marker symbol to use for coordinates; see [[mw:Help:Extension:Kartographer/Icons]] for options",
+			"example": "museum",
+			"type": "string"
+		},
+		"mapframe-marker-color": {
+			"aliases": [
+				"mapframe-marker-colour"
+			],
+			"label": "Mapframe marker color",
+			"description": "Background color for the marker",
+			"type": "string",
+			"default": "#5E74F3"
+		},
+		"mapframe-geomask-stroke-color": {
+			"aliases": [
+				"mapframe-geomask-stroke-colour"
+			],
+			"label": "Mapframe geomask stroke color",
+			"description": "Color of outline of geomask shape",
+			"type": "string",
+			"default": "#555555"
+		},
+		"mapframe-geomask-stroke-width": {
+			"label": "Mapframe geomask stroke width",
+			"description": "Width of outline of geomask shape",
+			"type": "number",
+			"default": "2"
+		},
+		"mapframe-geomask-fill": {
+			"label": "Mapframe geomask fill",
+			"description": "Color used to fill outside geomask features",
+			"type": "string",
+			"default": "#606060"
+		},
+		"mapframe-geomask-fill-opacity": {
+			"label": "Mapframe geomask fill opacity",
+			"description": "Opacity level of fill outside geomask features, a number between 0 and 1",
+			"type": "number",
+			"default": "0.5"
+		},
+		"mapframe-zoom": {
+			"label": "Mapframe zoom",
+			"description": "Set the zoom level, from \"1\" to \"18\", to used if the zoom level cannot be determined automatically from object length or area",
+			"example": "12",
+			"type": "number",
+			"default": "10"
+		},
+		"mapframe-length_km": {
+			"label": "Mapframe length (km)",
+			"description": "Object length in kilometres, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-length_mi": {
+			"label": "Mapframe length (mi)",
+			"description": "Object length in miles, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-area_km2": {
+			"label": "Mapframe area (km^2)",
+			"description": "Object arean square kilometres, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-area_mi2": {
+			"label": "Mapframe area (mi^2)",
+			"description": "Object area in square miles, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-frame-coordinates": {
+			"aliases": [
+				"mapframe-frame-coord"
+			],
+			"label": "Mapframe frame coordinates",
+			"description": "Alternate latitude and longitude coordinates for initial placement of map, using {{coord}}",
+			"example": "{{Coord|12.35|N|56.71|E}}",
+			"type": "wiki-template-name"
+		},
+		"mapframe-line": {}
+	},
+	"paramOrder": [
+		"name",
+		"official_name",
+		"native_name",
+		"native_name_lang",
+		"other_name",
+		"settlement_type",
+		"translit_lang1",
+		"translit_lang1_type",
+		"translit_lang1_info",
+		"translit_lang2",
+		"image_skyline",
+		"imagesize",
+		"image_alt",
+		"image_caption",
+		"image_flag",
+		"flag_size",
+		"flag_alt",
+		"flag_border",
+		"flag_link",
+		"image_seal",
+		"seal_size",
+		"seal_alt",
+		"seal_link",
+		"image_shield",
+		"shield_size",
+		"shield_alt",
+		"shield_link",
+		"image_blank_emblem",
+		"blank_emblem_type",
+		"blank_emblem_size",
+		"blank_emblem_alt",
+		"blank_emblem_link",
+		"nickname",
+		"motto",
+		"anthem",
+		"image_map",
+		"mapsize",
+		"map_alt",
+		"map_caption",
+		"image_map1",
+		"mapsize1",
+		"map_alt1",
+		"map_caption1",
+		"pushpin_map",
+		"pushpin_mapsize",
+		"pushpin_map_alt",
+		"pushpin_map_caption",
+		"pushpin_label",
+		"pushpin_label_position",
+		"pushpin_outside",
+		"pushpin_relief",
+		"pushpin_image",
+		"pushpin_overlay",
+		"mapframe",
+		"mapframe-caption",
+		"mapframe-custom",
+		"mapframe-id",
+		"mapframe-coordinates",
+		"mapframe-wikidata",
+		"mapframe-point",
+		"mapframe-shape",
+		"mapframe-frame-width",
+		"mapframe-frame-height",
+		"mapframe-shape-fill",
+		"mapframe-shape-fill-opacity",
+		"mapframe-stroke-color",
+		"mapframe-stroke-width",
+		"mapframe-marker",
+		"mapframe-marker-color",
+		"mapframe-geomask",
+		"mapframe-geomask-stroke-color",
+		"mapframe-geomask-stroke-width",
+		"mapframe-geomask-fill",
+		"mapframe-geomask-fill-opacity",
+		"mapframe-zoom",
+		"mapframe-length_km",
+		"mapframe-length_mi",
+		"mapframe-area_km2",
+		"mapframe-area_mi2",
+		"mapframe-frame-coordinates",
+		"mapframe-switcher",
+        "mapframe-line",
+		"coordinates",
+		"coor_pinpoint",
+		"coordinates_footnotes",
+		"subdivision_type",
+		"subdivision_name",
+		"subdivision_type1",
+		"subdivision_name1",
+		"subdivision_type2",
+		"subdivision_name2",
+		"subdivision_type3",
+		"subdivision_name3",
+		"subdivision_type4",
+		"subdivision_name4",
+		"subdivision_type5",
+		"subdivision_name5",
+		"subdivision_type6",
+		"subdivision_name6",
+		"established_title",
+		"established_date",
+		"established_title1",
+		"established_date1",
+		"established_title2",
+		"established_date2",
+		"established_title3",
+		"established_date3",
+		"extinct_title",
+		"extinct_date",
+		"founder",
+		"named_for",
+		"seat_type",
+		"seat",
+		"parts_type",
+		"parts_style",
+		"parts",
+		"p1",
+		"government_footnotes",
+		"government_type",
+		"governing_body",
+		"leader_party",
+		"leader_title",
+		"leader_name",
+		"leader_title1",
+		"leader_name1",
+		"total_type",
+		"unit_pref",
+		"area_footnotes",
+		"dunam_link",
+		"area_total_km2",
+		"area_total_sq_mi",
+		"area_total_ha",
+		"area_total_acre",
+		"area_total_dunam",
+		"area_land_km2",
+		"area_land_sq_mi",
+		"area_land_ha",
+		"area_land_dunam",
+		"area_land_acre",
+		"area_water_km2",
+		"area_water_sq_mi",
+		"area_water_ha",
+		"area_water_dunam",
+		"area_water_acre",
+		"area_water_percent",
+		"area_urban_km2",
+		"area_urban_sq_mi",
+		"area_urban_ha",
+		"area_urban_dunam",
+		"area_urban_acre",
+		"area_urban_footnotes",
+		"area_rural_km2",
+		"area_rural_sq_mi",
+		"area_rural_ha",
+		"area_rural_dunam",
+		"area_rural_acre",
+		"area_rural_footnotes",
+		"area_metro_km2",
+		"area_metro_sq_mi",
+		"area_metro_ha",
+		"area_metro_dunam",
+		"area_metro_acre",
+		"area_metro_footnotes",
+		"area_rank",
+		"area_blank1_title",
+		"area_blank1_km2",
+		"area_blank1_sq_mi",
+		"area_blank1_ha",
+		"area_blank1_dunam",
+		"area_blank1_acre",
+		"area_blank2_title",
+		"area_blank2_km2",
+		"area_blank2_sq_mi",
+		"area_blank2_ha",
+		"area_blank2_dunam",
+		"area_blank2_acre",
+		"area_note",
+		"dimensions_footnotes",
+		"length_km",
+		"length_mi",
+		"width_km",
+		"width_mi",
+		"elevation_m",
+		"elevation_ft",
+		"elevation_footnotes",
+		"elevation_min_point",
+		"elevation_min_m",
+		"elevation_min_ft",
+		"elevation_min_rank",
+		"elevation_min_footnotes",
+		"elevation_max_point",
+		"elevation_max_m",
+		"elevation_max_ft",
+		"elevation_max_rank",
+		"elevation_max_footnotes",
+		"population_total",
+		"population_as_of",
+		"population_footnotes",
+		"population_density_km2",
+		"population_density_sq_mi",
+		"population_est",
+		"pop_est_as_of",
+		"pop_est_footnotes",
+		"population_urban",
+		"population_urban_footnotes",
+		"population_density_urban_km2",
+		"population_density_urban_sq_mi",
+		"population_rural",
+		"population_rural_footnotes",
+		"population_density_rural_km2",
+		"population_density_rural_sq_mi",
+		"population_metro",
+		"population_metro_footnotes",
+		"population_density_metro_km2",
+		"population_density_metro_sq_mi",
+		"population_rank",
+		"population_density_rank",
+		"population_blank1_title",
+		"population_blank1",
+		"population_density_blank1_km2",
+		"population_density_blank1_sq_mi",
+		"population_blank2_title",
+		"population_blank2",
+		"population_density_blank2_km2",
+		"population_density_blank2_sq_mi",
+		"population_demonym",
+		"population_note",
+		"demographics_type1",
+		"demographics1_footnotes",
+		"demographics1_title1",
+		"demographics_type2",
+		"demographics2_footnotes",
+		"demographics2_title1",
+		"demographics2_info1",
+		"timezone1",
+		"utc_offset",
+		"timezone_DST",
+		"utc_offset_DST",
+		"utc_offset1",
+		"timezone1_DST",
+		"utc_offset1_DST",
+		"timezone2",
+		"utc_offset2",
+		"timezone2_DST",
+		"utc_offset2_DST",
+		"postal_code_type",
+		"postal_code",
+		"postal2_code_type",
+		"postal2_code",
+		"area_code",
+		"area_code_type",
+		"geocode",
+		"iso_code",
+		"registration_plate",
+		"blank_name_sec1",
+		"blank_info_sec1",
+		"blank1_name_sec1",
+		"blank1_info_sec1",
+		"blank_name_sec2",
+		"blank_info_sec2",
+		"blank1_name_sec2",
+		"blank1_info_sec2",
+		"website",
+		"footnotes",
+		"translit_lang1_info1",
+		"translit_lang1_type1",
+		"translit_lang1_info2",
+		"translit_lang1_type2",
+		"demographics1_info1"
+	]
+}
+</templatedata>
+{{collapse bottom}}
+
+==Calls and redirects ==
+At least {{PAGESINCATEGORY:Templates calling Infobox settlement}} other [[:Category:Templates calling Infobox settlement|templates call this one]].
+
+[{{fullurl:Special:WhatLinksHere/Template:Infobox_settlement|namespace=10&hidetrans=1&hidelinks=1}} Several templates redirect here].
+
+== Tracking categories ==
+# {{clc|Pages using infobox settlement with bad settlement type}}
+# {{clc|Pages using infobox settlement with image map1 but not image map}}
+# {{clc|Pages using infobox settlement with infobox mapframe errors}}
+# {{clc|Pages using infobox settlement with missing country}}
+# {{clc|Pages using infobox settlement with no map}}
+# {{clc|Pages using infobox settlement with no coordinates}}
+# {{clc|Pages using infobox settlement with possible area code list}}
+# {{clc|Pages using infobox settlement with possible demonym list}}
+# {{clc|Pages using infobox settlement with possible motto list}}
+# {{clc|Pages using infobox settlement with possible nickname list}}
+# {{clc|Pages using infobox settlement with the wikidata parameter}}
+# {{clc|Pages using infobox settlement with unknown parameters}}
+# {{clc|Pages using infobox settlement with conflicting parameters}}
+# {{clc|Pages using infobox settlement with ignored type}}
+# {{clc|Templates calling Infobox settlement}}
+
+<includeonly>{{Sandbox other||
+<!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Place infobox templates|Settlement]]
+[[Category:Embeddable templates]]
+[[Category:Infobox templates using Wikidata]]
+[[Category:Templates that add a tracking category]]
+
+}}</includeonly>
+
+[[Category:Pages with script errors|Infobox settlement/doc]]
+[[Category:Pages with template loops|Infobox settlement/doc]]
+[[Category:Template documentation pages|Infobox settlement/doc]]

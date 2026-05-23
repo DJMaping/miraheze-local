@@ -1,0 +1,35 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{high-use}}
+{{lua|Module:String}}
+
+__NOTOC__
+This template returns the first word of the first parameter. Use {{para|1}} for the first parameter if the string may contain an [[equals sign]] (=). By default, words are delimited by spaces, but the optional parameter {{para|sep}} can set the separator to any character. 
+
+==Usage==
+One parameter (space as separator):
+* <code>'''{&#123;{{BASEPAGENAME}}|'''<var>string</var>'''}}'''</code>
+* <code>'''{&#123;{{BASEPAGENAME}}|1='''<var>string</var>'''}}'''</code>
+
+Two parameters (user-defined character as separator):
+* <code>'''{&#123;{{BASEPAGENAME}}|'''<var>string</var>'''|sep='''<var>character</var>'''}}'''</code>
+* <code>'''{&#123;{{BASEPAGENAME}}|1='''<var>string</var>'''|sep='''<var>character</var>'''}}'''</code>
+
+==Examples==
+* <code>{&#123;{{BASEPAGENAME}}|Foo bar baz}}</code> → {{{{BASEPAGENAME}}|Foo bar baz}}
+* <code>{&#123;{{BASEPAGENAME}}| Foo bar baz}}</code> → {{{{BASEPAGENAME}}| Foo bar baz}}
+* <code>{&#123;{{BASEPAGENAME}}|Foo}}</code> → {{{{BASEPAGENAME}}|Foo}}
+* <code>{&#123;{{BASEPAGENAME}}|Foo-bar-baz}}</code> → {{{{BASEPAGENAME}}|Foo-bar-baz}}
+* <code>{&#123;{{BASEPAGENAME}}|Foo-bar-baz|sep=-}}</code> → {{{{BASEPAGENAME}}|Foo-bar-baz|sep=-}}
+* <code>{&#123;{{BASEPAGENAME}}|34,000,500|sep=,}}</code> → {{{{BASEPAGENAME}}|34,000,500|sep=,}}
+* <code>{&#123;{{BASEPAGENAME}}|Hear ye, users|sep=,}}</code> → {{{{BASEPAGENAME}}|Hear ye, users|sep=,}}
+* <code>{&#123;{{BASEPAGENAME}}|1=len = a+b|sep==}}</code> → {{{{BASEPAGENAME}}|1=len = a+b|sep==}}
+
+==See also==
+{{String-handling templates |trim}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+
+[[Category:String manipulation templates]]
+}}</includeonly>

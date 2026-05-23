@@ -1,0 +1,182 @@
+{{Documentation subpage}}
+{{High-risk}}
+{{Notice|1=This template is intended for [[Wikipedia:External links|external links]]. It is not designed for use as a [[Wikipedia:Citation templates|citation template]].}}
+{{Bot use warning|bots=[[User:KiranBOT|KiranBOT]]}}
+{{lua|Module:Webarchive}}
+{{tl|{{BASEPAGENAME}}}} is for linking to web archiving services such as the [[Wayback Machine]] and [[List of Web archiving initiatives|all other web archiving services]].
+
+This template is a replacement for {{tld|wayback}}, {{tld|webcite}}, {{tld|memento}}, and {{tld|cite archives}}, as decided in [[Wikipedia:Templates for discussion/Log/2016 October 24#Template:Wayback|this discussion]].
+
+Note: The most common method for linking a web archive are the CS1|2 templates such as {{tld|cite web}} with the {{para|archive-url}}, {{para|archive-date}}, and {{para|url-status}} parameters. Please be aware of [[WP:CITEVAR]] before converting this template to a CS1|2 template.
+
+== Usage ==
+In most cases the template needs only two parameters, the archive {{para|url}} and archive {{para|date}}. It is also common to include a {{para|title}}. For some URLs, the template can automatically display the date. To prevent the template from adding a [[Help:wikilink|wikilink]] to the name of the [[web archiving]] site, use the {{para|nolink}} parameter with any value.
+
+; Usage with {{para|url}} and {{para|date}}
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=2 August 2016}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=2 August 2016}}
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=12 February 2009}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=12 February 2009}}
+; Usage with {{para|url}} and {{para|title}}
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title}}
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |title=Page Title}}
+; Usage with {{para|url}}, {{para|date}}, and {{para|title}}
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |title=Page Title}}
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=February 12, 2009 |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=February 12, 2009 |title=Page Title}}
+; Usage with {{para|url}}, {{para|date}}, and {{para|nolink}}
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |nolink=y}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |nolink=y}}
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=February 12, 2009 |nolink=1}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=February 12, 2009 |nolink=1}}
+
+== Multiple URLs ==
+
+The template optionally supports multiple URLs (up to 10) for linking to multiple archiving services for the same source link. The first url argument is {{para|url}} then {{para|url2}} .. {{para|url10}}. Each URL can have its own date and title argument, thus {{para|date2}} .. {{para|date10}} and {{para|title2}} .. {{para|title10}}.
+
+== Parameters ==
+
+===Main parameters===
+
+;url..url10: The URL(s) to the archive service. There should always be a {{para|url}} which counts as the first url. Each {{para|url#}} can have its own numbered corresponding {{para|date#}} and {{para|title#}}. Matching of URL with date and title is done by numbers, not position. Numbers do not need to be in sequence, for example {{para|url2}} followed by {{para|url5}} works.
+;date..date10: The date the page was archived. The date format displayed is the same as entered. If {{para|date}} is missing the template will make a best effort to find the date by decoding the archive URL (wayback and webcite for example provide this data in the URL), and will display the date in iso format by default. However including a date is recommended for date formatting reasons, and because other tools may not have the ability to decode the date from the URL.
+;title..title10: The text displayed for the link. If no {{para|title}} is provided then {{para|date}} is displayed. Otherwise {{para|title}} takes precedence if both are set.
+
+===Secondary parameters===
+
+;nolink: If set to any value, the archive service name will not be wikilinked.
+;format: This is a special option to support the merger of {{tld|cite archives}}. It may be deprecated in the future. Because CS1|2 templates do not currently support more than one archive link, this template will tack on additional archive links to the end of a CS1|2 template output. It takes two values: {{para|format|addlarchives}} or {{para|format|addlpages}}. ''Addlarchives'' will display output appropriate for linking to multiple web archiving services. ''Addlpages'' will display output appropriate for linking to multiple pages at the same archive.
+
+==Examples==
+The number of possible examples is extensive depending on the mix of options. Some common cases follow. For more extensive testing see the [[Template:Webarchive/testcases|testcases page]].
+
+; Single link at the [[Wayback Machine]] with date and title (<em>recommended method</em>)
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |title=Page Title}}
+; Single link at the Wayback Machine with date only
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 1, 2016}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016}}
+; Single link at the Wayback Machine with title; date extracted from URL
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title}}
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |date=mdy}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |date=mdy}}
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |date=dmy}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |date=dmy}}
+; Single link at [[WebCite]] with title; date extracted from URL
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com |title=Page Title}}
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com |title=Page Title |date=mdy}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com |title=Page Title |date=mdy}}
+: <code><nowiki>{{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com |title=Page Title |date=dmy}}</nowiki></code>
+: {{webarchive |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com |title=Page Title |date=dmy}}
+<!--; Single link at [[archive.today]] with title; date extracted from URL
+: <code><nowiki>{{webarchive |url=https://archive.today/2016.08.08-112330/http://example.com |title=Page Title}}</nowiki></code>
+: {{webarchive |url=https://archive.today/2016.08.08-112330/http://example.com |title=Page Title}}
+: <code><nowiki>{{webarchive |url=https://archive.today/2016.08.08-112330/http://example.com |title=Page Title |date=mdy}}</nowiki></code>
+: {{webarchive |url=https://archive.today/2016.08.08-112330/http://example.com |title=Page Title |date=mdy}}
+: <code><nowiki>{{webarchive |url=https://archive.today/2016.08.08-112330/http://example.com |title=Page Title |date=dmy}}</nowiki></code>
+: {{webarchive |url=https://archive.today/2016.08.08-112330/http://example.com |title=Page Title |date=dmy}}-->
+; Multi-link at the Wayback Machine with dates and titles (<em>recommended method</em>)
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |date=August 2, 2016 |url2=https://web.archive.org/web/20160902000046/http://example.com/ |title2=Page2 Title |date2=September 2, 2016}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |date=August 2, 2016 |url2=https://web.archive.org/web/20160902000046/http://example.com/ |title2=Page2 Title |date2=September 2, 2016}}
+; Multi-link at the Wayback Machine with dates only
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |url2=https://web.archive.org/web/20160902000046/http://example.com/ |date2=September 2, 2016}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |date=August 2, 2016 |url2=https://web.archive.org/web/20160902000046/http://example.com/ |date2=September 2, 2016}}
+; Multi-link at the Wayback Machine with titles only
+: <code><nowiki>{{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |url2=https://web.archive.org/web/20160902000046/http://example.com/ |title2=Page2 Title}}</nowiki></code>
+: {{webarchive |url=https://web.archive.org/web/20160802001301/http://example.com/ |title=Page Title |url2=https://web.archive.org/web/20160902000046/http://example.com/ |title2=Page2 Title}}
+; Additional archives format
+: <code><nowiki>{{webarchive |format=addlarchives |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=12 February 2009}}</nowiki></code>
+: {{webarchive |format=addlarchives |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |date=12 February 2009}}
+; Additional pages format
+: <code><nowiki>{{webarchive |format=addlpages |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |url2=https://web.archive.org/web/20160902000046/http://example.com/ |date=12 February 2009}}</nowiki></code>
+: {{webarchive |format=addlpages |url=https://www.webcitation.org/5eWaHRbn4?url=http://www.example.com/ |url2=https://web.archive.org/web/20160902000046/http://example.com/ |date=12 February 2009}}
+
+== Tracking categories ==
+The template has a number of hidden tracking categories which may be added (via [[Module:Webarchive]]):
+
+===Tracking archive sites===
+* {{clc|Webarchive template wayback links}}: links to the Wayback Machine
+* {{clc|Webarchive template archiveis links}}: links to Archive.today
+* {{clc|Webarchive template webcite links}}: links to WebCite
+* {{clc|Webarchive template other archives}}: links to known archive sites that don't have their own tracking category
+* {{clc|Webarchive template unknown archives}}: the template doesn't recognize the archive URL; this may indicate an error in the data; or the template itself needs updating to reflect a new archive site
+
+===Tracking warnings and errors===
+* {{clc|Webarchive template warnings}}: soft errors that do not prevent the template from working but leave a red message
+* {{clc|Webarchive template errors}}: errors typically requiring human intervention
+
+== Template maintenance ==
+The following can be done to maintain the template.
+
+===Monitor tracking categories===
+* The tracking categories for "warnings" and "errors" can be monitored to alert for any problems in the data.
+* The tracking category for "unknown archives" may indicate a problem in the data; for example an editor used the source URL instead of the archive URL in the {{para|url}} field.
+
+===Monitor template argument usage===
+[https://bambots.brucemyers.com/TemplateParam.php?wiki=enwiki&template=Webarchive This tool] shows which instances of the template are using which arguments—it might show, for example, that {{para|access-date}} is being used by five instances in five articles. Since this is an error (the template does not support {{para|access-date}}) those five template instances should be fixed to remove the {{para|access-date}}.
+
+===Configuration: verifydates===
+The template can verify that dates in URLs for Wayback, WebCite, and Archive.is match the date in the {{para|date}} argument. If the dates do not match it will display the date from the URL, add a red warning message "date mismatch", and add the article to the warning tracking category.
+
+Because the verification function adds some overhead to the template, it can optionally be globally disabled by setting the variable "verifydates = no" (see the Module source in function p.webarchive()). (After setting to "yes", it can take a week or more for the tracking category to be fully populated. Set to "yes" if you are searching for problems in the data that need fixing (they'll show up in the tracking category).)
+
+===Configuration: maxurls===
+The max number of URLs is 10 but this can be changed by setting the "maxurls" variable in the p.webarchive() function. This is a global variable that will affect all instances of the template, use with caution. Reducing the number will increase the template speed and reduce resource use.
+
+==TemplateData==
+{{TemplateData header}}
+
+<templatedata>
+{
+    "description": "A template for linking to offsite archives such as Wayback, WebCite, Archive.is, etc.. ",
+    "params": {
+        "url": {
+            "label": "Archive URL",
+            "description": "URL to the archive.",
+            "type": "string",
+            "example": "https://web.archive.org/web/20160802001301/http://example.com/",
+            "required": true
+        },
+        "date": {
+            "label": "Archive date",
+            "description": "Date of the archive.",
+            "type": "string",
+            "example": "August 2, 2016",
+            "suggested": true
+        },
+        "title": {
+            "label": "Archive title",
+            "description": "Title (or text) displayed on the Wiki page for the link.",
+            "type": "string",
+            "suggested": true,
+            "example": "Example website",
+            "default": "Date argument, or the word 'Archive'"
+        },
+        "nolink": {
+            "label": "Wikilink",
+            "description": "Wikilink to the archive's page in the rendering. Any value including blank means no wikilink.",
+            "type": "string"
+        },
+        "format": {
+            "label": "Format of template rendering",
+            "description": "For multi-URL instances, render display in one of two formats.",
+            "type": "string"
+        }
+    }
+}
+</templatedata>
+
+== See also ==
+* {{tl|Link with archives}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Internet Archive templates]]
+[[Category:Templates that add a tracking category]]
+[[Category:Web archive external link templates]]
+}}</includeonly>

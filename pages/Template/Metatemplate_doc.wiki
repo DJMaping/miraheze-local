@@ -1,0 +1,23 @@
+<noinclude><!--
+--
+-- BEGIN TEMPLATE
+--
+--></noinclude>{{#switch:{{{1|links}}}<!--
+-->|links=* [[Help:Metatemplating]]
+* [[{{ns:Template}}:dtag]]
+* [[{{ns:Template}}:eval]]
+* [[{{ns:Template}}:includeonly]], [[{{ns:Template}}:noinclude]], [[{{ns:Template}}:onlyinclude]], and [[{{ns:Template}}:nowiki]]
+* [[{{ns:Template}}:sibling]]
+* [[{{ns:Template}}:TEMPLATENAME]] and [[{{ns:Template}}:TEMPLATENAMEE]]
+* [[{{ns:Template}}:!]]
+* [[{{ns:Template}}:=]]
+* [[{{ns:Template}}:((]] and [[{{ns:Template}}:))]]
+* [[{{ns:Template}}:(((]] and [[{{ns:Template}}:)))]]
+|categories=[[Category:Wikipedia metatemplates]]
+|#default=Options for <nowiki>{{{1}}}</nowiki> are: links, categories}}<noinclude><!--
+--
+-- END TEMPLATE
+--
+-->
+
+{{documentation}}</noinclude>

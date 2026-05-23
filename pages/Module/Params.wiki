@@ -1,0 +1,2516 @@
+require[[strict]]
+
+
+	---                                        ---
+	---     LOCAL ENVIRONMENT                  ---
+	---    ________________________________    ---
+	---                                        ---
+
+
+
+	--[[ Abstract utilities ]]--
+	----------------------------
+
+
+-- Helper function for `string.gsub()` (for managing zero-padded numbers)
+local function zero_padded (str)
+	return ('%03d%s'):format(#str, str)
+end
+
+
+-- Helper function for `table.sort()` (for natural sorting)
+local function natural_sort (var1, var2)
+	return tostring(var1):gsub('%d+', zero_padded) <
+		tostring(var2):gsub('%d+', zero_padded)
+end
+
+
+-- Return a copy or a reference to a table
+local function copy_or_ref_table (src, refonly)
+	if refonly then return src end
+	local newtab = {}
+	for key, val in pairs(src) do newtab[key] = val end
+	return newtab
+end
+
+
+-- Remove some numeric elements from a table, shifting everything to the left
+local function remove_numeric_keys (tbl, idx, len)
+	local cache = {}
+	local tmp = idx + len - 1
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' and key >= idx then
+			if key > tmp then cache[key - len] = val end
+			tbl[key] = nil
+		end
+	end
+	for key, val in pairs(cache) do tbl[key] = val end
+end
+
+
+-- Make a reduced copy of a table (shifting in both directions if necessary)
+local function copy_table_reduced (tbl, idx, len)
+	local ret = {}
+	local tmp = idx + len - 1
+	if idx > 0 then
+		for key, val in pairs(tbl) do
+			if type(key) ~= 'number' or key < idx then
+				ret[key] = val
+			elseif key > tmp then ret[key - len] = val end
+		end
+	elseif tmp > 0 then
+		local nshift = 1 - idx
+		for key, val in pairs(tbl) do
+			if type(key) ~= 'number' then ret[key] = val
+			elseif key > tmp then ret[key - tmp] = val
+			elseif key < idx then ret[key + nshift] = val end
+		end
+	else
+		for key, val in pairs(tbl) do
+			if type(key) ~= 'number' or key > tmp then
+				ret[key] = val
+			elseif key < idx then ret[key + len] = val end
+		end
+	end
+	return ret
+end
+
+
+-- Make an expanded copy of a table (shifting in both directions if necessary)
+--[[
+local function copy_table_expanded (tbl, idx, len)
+	local ret = {}
+	local tmp = idx + len - 1
+	if idx > 0 then
+		for key, val in pairs(tbl) do
+			if type(key) ~= 'number' or key < idx then
+				ret[key] = val
+			else ret[key + len] = val end
+		end
+	elseif tmp > 0 then
+		local nshift = idx - 1
+		for key, val in pairs(tbl) do
+			if type(key) ~= 'number' then ret[key] = val
+			elseif key > 0 then ret[key + tmp] = val
+			elseif key < 1 then ret[key + nshift] = val end
+		end
+	else
+		for key, val in pairs(tbl) do
+			if type(key) ~= 'number' or key > tmp then
+				ret[key] = val
+			else ret[key - len] = val end
+		end
+	end
+	return ret
+end
+]]--
+
+
+-- Move a key from a table to another, but only if under a different name and
+-- always parsing numeric strings as numbers
+local function steal_if_renamed (val, src, skey, dest, dkey)
+	local realkey = dkey:match'^%s*(.-)%s*$'
+	if realkey == '0' or realkey:find'^%-?[1-9]%d*$' ~= nil then
+		realkey = tonumber(realkey)
+	end
+	if skey ~= realkey then
+		dest[realkey] = val
+		src[skey] = nil
+	end
+end
+
+
+-- Given a table, create two new tables containing the sorted list of keys
+local function get_key_list_sorted (ctx, tbl, sort_fn)
+	local nums = {}
+	local words = {}
+	local nn = 0
+	local nw = 0
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			nn = nn + 1
+			nums[nn] = key
+		else
+			nw = nw + 1
+			words[nw] = key
+		end
+	end
+	table.sort(nums)
+	table.sort(words, sort_fn)
+	return nums, words, nn, nw
+end
+
+
+
+	--[[ Public strings ]]--
+	------------------------
+
+
+-- Special match keywords (functions and modifiers MUST avoid these names)
+local mkeywords = {
+	['or'] = 0,
+	pattern = 1,
+	plain = 2,
+	strict = 3
+}
+
+
+-- Sort functions (functions and modifiers MUST avoid these names)
+local sortfunctions = {
+	--alphabetically = false, -- Simply uncommenting enables the option
+	naturally = natural_sort
+}
+
+
+-- Callback styles for the `mapping_*` and `renaming_*` class of modifiers
+-- (functions and modifiers MUST avoid these names)
+--[[
+
+Meanings of the columns:
+
+  col[1] = Loop type (0-3)
+  col[2] = Number of module arguments that the style requires (1-3)
+  col[3] = Minimum number of sequential parameters passed to the callback
+  col[4] = Name of the callback parameter where to place each parameter name
+  col[5] = Name of the callback parameter where to place each parameter value
+  col[6] = Argument in the modifier's invocation that will override `col[4]`
+  col[7] = Argument in the modifier's invocation that will override `col[5]`
+
+A value of `-1` indicates that no meaningful value is stored (i.e. `nil`)
+
+]]--
+local mapping_styles = {
+	names_and_values = { 3, 2, 2, 1, 2, -1, -1 },
+	values_and_names = { 3, 2, 2, 2, 1, -1, -1 },
+	values_only = { 1, 2, 1, -1, 1, -1, -1 },
+	names_only = { 2, 2, 1, 1, -1, -1, -1 },
+	names_and_values_as = { 3, 4, 0, -1, -1, 2, 3 },
+	names_only_as = { 2, 3, 0, -1, -1, 2, -1 },
+	values_only_as = { 1, 3, 0, -1, -1, -1, 2 },
+	blindly = { 0, 2, 0, -1, -1, -1, -1 }
+}
+
+
+-- Memory slots (functions and modifiers MUST avoid these names)
+local memoryslots = {
+	h = 'header',
+	f = 'footer',
+	i = 'itersep',
+	l = 'lastsep',
+	n = 'ifngiven',
+	p = 'pairsep',
+	s = 'oxfordsep'
+}
+
+
+-- Possible trimming modes for the `parsing` modifier
+local trim_parse_opts = {
+	trim_none = { false, false },
+	trim_positional = { false, true },
+	trim_named = { true, false },
+	trim_all = { true, true }
+}
+
+
+-- Possible string modes for the iteration separator in the `parsing` and
+-- `reinterpreting` modifiers
+local isep_parse_opts = {
+	splitter_pattern = false,
+	splitter_string = true
+}
+
+
+-- Possible string modes for the key-value separator in the `parsing` and
+-- `reinterpreting` modifiers
+local psep_parse_opts = {
+	setter_pattern = false,
+	setter_string = true
+}
+
+
+-- Functions and modifiers MUST avoid these names too: `let`
+
+
+
+	--[[ Module's private environment ]]--
+	--------------------------------------
+
+
+-- Hard-coded name of the module (to avoid going through `frame:getTitle()`)
+local modulename = 'Module:Params'
+
+
+-- The functions listed here declare that they don't need the `frame.args`
+-- metatable to be copied into a regular table; if they are modifiers they also
+-- guarantee that they will make their own (modified) copy available
+local refpipe = {
+	call_for_each_group = true,
+	coins = true,
+	count = true,
+	for_each = true,
+	list = true,
+	list_values = true,
+	list_maybe_with_names = true,
+	value_of = true
+}
+
+
+-- The functions listed here declare that they don't need the
+-- `frame:getParent().args` metatable to be copied into a regular table; if 
+-- they are modifiers they also guarantee that they will make their own
+-- (modified) copy available
+local refparams = {
+	call_for_each_group = true,
+	combining_by_calling = true,
+	concat_and_call = true,
+	concat_and_invoke = true,
+	concat_and_magic = true,
+	renaming_to_uppercase = true,
+	renaming_to_lowercase = true,
+	count = true,
+	--inserting = true,
+	grouping_by_calling = true,
+	mixing_names_and_values = true,
+	renaming_by_mixing = true,
+	--renaming_to_values = true,
+	--swapping_names_and_values = true,
+	value_of = true,
+	with_name_matching = true
+}
+
+
+-- Maximum number of numeric parameters that can be filled, if missing (we
+-- chose an arbitrary number for this constant; you can discuss about its
+-- optimal value at Module talk:Params)
+local maxfill = 1024
+
+
+-- The private table of functions
+local library = {}
+
+
+-- Functions and modifiers that can only be invoked in first position
+local static_iface = {}
+
+
+-- Create a new context
+local function context_new (frame)
+	local ctx = {}
+	ctx.frame = frame
+	ctx.oparams = frame.args
+	ctx.firstposonly = static_iface
+	ctx.iterfunc = pairs
+	ctx.sorttype = 0
+	ctx.n_parents = 0
+	ctx.n_children = 0
+	ctx.n_available = maxfill
+	return ctx
+end
+
+
+-- Move to the next action within the user-given list
+local function context_iterate (ctx, n_forward)
+	local nextfn
+	if ctx.pipe[n_forward] ~= nil then
+		nextfn = ctx.pipe[n_forward]:match'^%s*(.*%S)'
+	end
+	if nextfn == nil then error(modulename ..
+		': You must specify a function to call', 0) end
+	if library[nextfn] == nil then
+		if ctx.firstposonly[nextfn] == nil then error(modulename ..
+			': The function ‘' .. nextfn .. '’ does not exist', 0)
+		else error(modulename .. ': The ‘' .. nextfn ..
+			'’ directive can only appear in first position', 0)
+		end
+	end
+	remove_numeric_keys(ctx.pipe, 1, n_forward)
+	return library[nextfn]
+end
+
+
+-- Main loop
+local function main_loop (ctx, start_with)
+	local fn = start_with
+	repeat fn = fn(ctx) until not fn
+	if ctx.n_parents > 0 then error(modulename ..
+		': One or more ‘merging_substack’ directives are missing', 0) end
+	if ctx.n_children > 0 then error(modulename ..
+		', For some of the snapshots either the ‘flushing’ directive is missing or a group has not been properly closed with ‘merging_substack’', 0) end
+end
+
+
+-- Add a new stack of parameters to `ctx.children`
+local function push_cloned_stack (ctx, tbl)
+	local newparams = {}
+	local currsnap = ctx.n_children + 1
+	if ctx.children == nil then ctx.children = { newparams }
+	else ctx.children[currsnap] = newparams end
+	for key, val in pairs(tbl) do newparams[key] = val end
+	ctx.n_children = currsnap
+end
+
+
+-- Parse optional user arguments of type `...|[let]|[...][number of additional
+-- parameters]|[parameter 1]|[parameter 2]|[...]`
+local function load_child_opts (src, start_from, append_after)
+	local names
+	local tmp
+	local tbl = {}
+	local pin = start_from
+	if src[pin] ~= nil and src[pin]:match'^%s*let%s*$' and
+		src[pin + 1] ~= nil and src[pin + 2] ~= nil
+	then
+		names = {}
+		repeat
+			tmp = src[pin + 1]:match'^%s*(.-)%s*$'
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				tmp = tonumber(tmp)
+			end
+			names[tmp] = src[pin + 2]
+			pin = pin + 3
+		until src[pin] == nil or not src[pin]:match'^%s*let%s*$' or
+			src[pin + 1] == nil or src[pin + 2] == nil
+	end
+	tmp = tonumber(src[pin])
+	if tmp ~= nil then
+		if tmp < 0 then tmp = -1 end
+		local shf = append_after - pin
+		for idx = pin + 1, pin + tmp do tbl[idx + shf] = src[idx] end
+		pin = pin + tmp + 1
+	end
+	if names ~= nil then
+		for key, val in pairs(names) do tbl[key] = val end
+	end
+	return tbl, pin
+end
+
+
+-- Load the optional arguments of some of the `mapping_*` and `renaming_*`
+-- class of modifiers
+local function load_callback_opts (src, n_skip, default_style)
+	local style
+	local shf
+	local tmp = src[n_skip + 1]
+	if tmp ~= nil then style = mapping_styles[tmp:match'^%s*(.-)%s*$'] end
+	if style == nil then
+		style = default_style
+		shf = n_skip - 1
+	else shf = n_skip end
+	local n_exist = style[3]
+	local karg = style[4]
+	local varg = style[5]
+	tmp = style[6]
+	if tmp > -1 then
+		karg = src[tmp + shf]:match'^%s*(.-)%s*$'
+		if karg == '0' or karg:find'^%-?[1-9]%d*$' ~= nil then
+			karg = tonumber(karg)
+			n_exist = math.max(n_exist, karg)
+		end
+	end
+	tmp = style[7]
+	if tmp > -1 then
+		varg = src[tmp + shf]:match'^%s*(.-)%s*$'
+		if varg == '0' or varg:find'^%-?[1-9]%d*$' ~= nil then
+			varg = tonumber(varg)
+			n_exist = math.max(n_exist, varg)
+		end
+	end
+	local dest, nargs = load_child_opts(src, style[2] + shf, n_exist)
+	tmp = style[1]
+	if (tmp == 3 or tmp == 2) and dest[karg] ~= nil then
+		tmp = tmp - 2 end
+	if (tmp == 3 or tmp == 1) and dest[varg] ~= nil then
+		tmp = tmp - 1 end
+	return dest, nargs, tmp, karg, varg
+end
+
+
+-- Parse the arguments of some of the `mapping_*` and `renaming_*` class of
+-- modifiers
+local function load_replace_args (opts, fname)
+	if opts[1] == nil then error(modulename ..
+		', ‘' .. fname .. '’: No pattern string was given', 0) end
+	if opts[2] == nil then error(modulename ..
+		', ‘' .. fname .. '’: No replacement string was given', 0) end
+	local ptn = opts[1]
+	local repl = opts[2]
+	local argc = 3
+	local nmax = tonumber(opts[3])
+	if nmax ~= nil or (opts[3] or ''):match'^%s*$' ~= nil then argc = 4 end
+	local flg = opts[argc]
+	if flg ~= nil then flg = mkeywords[flg:match'^%s*(.-)%s*$'] end
+	if flg == 0 then flg = nil elseif flg ~= nil then argc = argc + 1 end
+	return ptn, repl, nmax, flg, argc, (nmax ~= nil and nmax < 1) or
+		(flg == 3 and ptn == repl)
+end
+
+
+-- Parse the arguments of the `with_*_matching` class of modifiers
+local function load_pattern_args (opts, fname)
+	local state = 0
+	local cnt = 1
+	local keyw
+	local nptns = 0
+	local ptns = {}
+	for _, val in ipairs(opts) do
+		if state == 0 then
+			nptns = nptns + 1
+			ptns[nptns] = { val, false, false }
+			state = -1
+		else
+			keyw = val:match'^%s*(.*%S)'
+			if keyw == nil or mkeywords[keyw] == nil or (
+				state > 0 and mkeywords[keyw] > 0
+			) then break
+			else
+				state = mkeywords[keyw]
+				if state > 1 then ptns[nptns][2] = true end
+				if state == 3 then ptns[nptns][3] = true end
+			end
+		end
+		cnt = cnt + 1
+	end
+	if state == 0 then error(modulename .. ', ‘' .. fname ..
+		'’: No pattern was given', 0) end
+	return ptns, nptns, cnt
+end
+
+
+-- Load the optional arguments of the `parsing` and `reinterpreting` modifiers
+local function load_parse_opts (opts, start_from)
+	local argc = start_from
+	local tmp
+	local optslots = { true, true, true }
+	local noptslots = 3
+	local trimn = true
+	local trimu = false
+	local iplain = true
+	local pplain = true
+	local isp = '|'
+	local psp = '='
+	repeat
+		noptslots = noptslots - 1
+		tmp = opts[argc]
+		if tmp == nil then break end
+		tmp = tmp:match'^%s*(.-)%s*$'
+		if optslots[1] ~= nil and trim_parse_opts[tmp] ~= nil then
+			tmp = trim_parse_opts[tmp]
+			trimn = tmp[1]
+			trimu = tmp[2]
+			optslots[1] = nil
+		elseif optslots[2] ~= nil and isep_parse_opts[tmp] ~= nil then
+			argc = argc + 1
+			iplain = isep_parse_opts[tmp]
+			isp = opts[argc]
+			optslots[2] = nil
+		elseif optslots[3] ~= nil and psep_parse_opts[tmp] ~= nil then
+			argc = argc + 1
+			pplain = psep_parse_opts[tmp]
+			psp = opts[argc]
+			optslots[3] = nil
+		else break end
+		argc = argc + 1
+	until noptslots < 1
+	return isp, iplain, psp, pplain, trimn, trimu, argc
+end
+
+
+-- Map parameters' values using a custom callback and a referenced table
+local value_maps = {
+	[0] = function (tbl, margs, karg, varg, fn)
+		for key in pairs(tbl) do tbl[key] = fn() end
+	end,
+	[1] = function (tbl, margs, karg, varg, fn)
+		for key, val in pairs(tbl) do
+			margs[varg] = val
+			tbl[key] = fn()
+		end
+	end,
+	[2] = function (tbl, margs, karg, varg, fn)
+		for key in pairs(tbl) do
+			margs[karg] = key
+			tbl[key] = fn()
+		end
+	end,
+	[3] = function (tbl, margs, karg, varg, fn)
+		for key, val in pairs(tbl) do
+			margs[karg] = key
+			margs[varg] = val
+			tbl[key] = fn()
+		end
+	end
+}
+
+
+-- Private table for `map_names()`
+local name_thieves = {
+	[0] = function (cache, tbl, rargs, karg, varg, fn)
+		for key, val in pairs(tbl) do
+			steal_if_renamed(val, tbl, key, cache, fn())
+		end
+	end,
+	[1] = function (cache, tbl, rargs, karg, varg, fn)
+		for key, val in pairs(tbl) do
+			rargs[varg] = val
+			steal_if_renamed(val, tbl, key, cache, fn())
+		end
+	end,
+	[2] = function (cache, tbl, rargs, karg, varg, fn)
+		for key, val in pairs(tbl) do
+			rargs[karg] = key
+			steal_if_renamed(val, tbl, key, cache, fn())
+		end
+	end,
+	[3] = function (cache, tbl, rargs, karg, varg, fn)
+		for key, val in pairs(tbl) do
+			rargs[karg] = key
+			rargs[varg] = val
+			steal_if_renamed(val, tbl, key, cache, fn())
+		end
+	end
+}
+
+
+-- Map parameters' names using a custom callback and a referenced table
+local function map_names (tbl, rargs, karg, varg, looptype, fn)
+	local cache = {}
+	name_thieves[looptype](cache, tbl, rargs, karg, varg, fn)
+	for key, val in pairs(cache) do tbl[key] = val end
+end
+
+
+-- Return a new table that contains `src` regrouped according to the numeric
+-- suffixes in its keys
+local function make_groups (src)
+	-- NOTE: `src` might be the original metatable!
+	local prefix
+	local gid
+	local groups = {}
+	for key, val in pairs(src) do
+		-- `key` must only be a string or a number...
+		if type(key) == 'string' then
+			prefix, gid = key:match'^%s*(.-)%s*(%-?%d*)%s*$'
+			gid = tonumber(gid) or ''
+		else
+			prefix = ''
+			gid = key
+		end
+		if groups[gid] == nil then groups[gid] = {} end
+		if prefix == '0' or prefix:find'^%-?[1-9]%d*$' ~= nil then
+			prefix = tonumber(prefix)
+			if prefix < 1 then prefix = prefix - 1 end
+		end
+		groups[gid][prefix] = val
+	end
+	return groups
+end
+
+
+-- Split into parts a string containing the `$#` and `$@` placeholders and
+-- return the information as a skeleton table, a canvas table and a length
+local function parse_placeholder_string (target)
+	local skel = {}
+	local canvas = {}
+	local idx = 1
+	local s_pos = 1
+	local e_pos = string.find(target, '%$[@#]', 1, false)
+	while e_pos ~= nil do
+		canvas[idx] = target:sub(s_pos, e_pos - 1)
+		skel[idx + 1] = target:sub(e_pos, e_pos + 1) == '$@'
+		idx = idx + 2
+		s_pos = e_pos + 2
+		e_pos = string.find(target, '%$[@#]', s_pos, false)
+	end
+	if (s_pos > target:len()) then idx = idx - 1
+	else canvas[idx] = target:sub(s_pos) end
+	return skel, canvas, idx
+end
+
+
+-- Populate a table by parsing a parameter string
+local function parse_parameter_string (tbl, str, isp, ipl, psp, ppl, trn, tru)
+	local key
+	local val
+	local spos1
+	local spos2
+	local pos1
+	local pos2
+	local pos3 = 0
+	local idx = 1
+	local lenplone = #str + 1
+	if isp == nil or isp == '' then
+		if psp == nil or psp == '' then
+			if tru then tbl[idx] = str:match'^%s*(.-)%s*$'
+			else tbl[idx] = str end
+			return tbl
+		end
+		spos1, spos2 = str:find(psp, 1, ppl)
+		if spos1 == nil then
+			key = idx
+			if tru then val = str:match'^%s*(.-)%s*$'
+			else val = str end
+			idx = idx + 1
+		else
+			key = str:sub(1, spos1 - 1):match'^%s*(.-)%s*$'
+			if key == '0' or key:find'^%-?[1-9]%d*$' ~= nil then
+				key = tonumber(key)
+			end
+			val = str:sub(spos2 + 1)
+			if trn then val = val:match'^%s*(.-)%s*$' end
+		end
+		tbl[key] = val
+		return tbl
+	end
+	if psp == nil or psp == '' then
+		repeat
+			pos1 = pos3 + 1
+			pos2, pos3 = str:find(isp, pos1, ipl)
+			val = str:sub(pos1, (pos2 or lenplone) - 1)
+			if tru then val = val:match'^%s*(.-)%s*$' end
+			tbl[idx] = val
+			idx = idx + 1
+		until pos2 == nil
+		return tbl
+	end
+	repeat
+		pos1 = pos3 + 1
+		pos2, pos3 = str:find(isp, pos1, ipl)
+		val = str:sub(pos1, (pos2 or lenplone) - 1)
+		spos1, spos2 = val:find(psp, 1, ppl)
+		if spos1 == nil then
+			key = idx
+			if tru then val = val:match'^%s*(.-)%s*$' end
+			idx = idx + 1
+		else
+			key = val:sub(1, spos1 - 1):match'^%s*(.-)%s*$'
+			if key == '0' or key:find'^%-?[1-9]%d*$' ~= nil then
+				key = tonumber(key)
+			end
+			val = val:sub(spos2 + 1)
+			if trn then val = val:match'^%s*(.-)%s*$' end
+		end
+		tbl[key] = val
+	until pos2 == nil
+	return tbl
+end
+
+
+-- Concatenate the numeric keys from the table of parameters to the numeric
+-- keys from the table of options; non-numeric keys from the table of options
+-- will prevail over colliding non-numeric keys from the table of parameters
+local function concat_params (ctx)
+	local tbl = ctx.params
+	local nmax = table.maxn(ctx.pipe)
+	local retval = {}
+	if ctx.subset == 1 then
+		-- We need only the sequence
+		for key, val in ipairs(tbl) do retval[key + nmax] = val end
+	else
+		if ctx.subset == -1 then
+			for key in ipairs(tbl) do tbl[key] = nil end
+		end
+		for key, val in pairs(tbl) do
+			if type(key) == 'number' and key > 0 then
+				retval[key + nmax] = val
+			else retval[key] = val end
+		end
+	end
+	for key, val in pairs(ctx.pipe) do retval[key] = val end
+	return retval
+end
+
+
+-- Flush the parameters by calling a custom function for each value (after this
+-- function has been invoked `ctx.params` will be no longer usable)
+local function flush_params (ctx, fn)
+	local tbl = ctx.params
+	if ctx.subset == 1 then
+		for key, val in ipairs(tbl) do fn(key, val) end
+		return
+	end
+	if ctx.subset == -1 then
+		for key, val in ipairs(tbl) do tbl[key] = nil end
+	end
+	if ctx.sorttype > 0 then
+		local nums, words, nn, nw = get_key_list_sorted(ctx, tbl, natural_sort)
+		if ctx.sorttype == 2 then
+			for idx = 1, nw do fn(words[idx], tbl[words[idx]]) end
+			for idx = 1, nn do fn(nums[idx], tbl[nums[idx]]) end
+			return
+		end
+		for idx = 1, nn do fn(nums[idx], tbl[nums[idx]]) end
+		for idx = 1, nw do fn(words[idx], tbl[words[idx]]) end
+		return
+	end
+	if ctx.subset ~= -1 then
+		for key, val in ipairs(tbl) do
+			fn(key, val)
+			tbl[key] = nil
+		end
+	end
+	for key, val in pairs(tbl) do fn(key, val) end
+end
+
+
+-- Flush the parameters by calling one of two custom functions for each value
+-- (after this function has been invoked `ctx.params` will be no longer usable)
+local function mixed_flush_params (ctx, fn_seq, fn_oth)
+	if ctx.subset == 1 then
+		for key, val in ipairs(ctx.params) do fn_seq(key, val) end
+		return
+	end
+	if ctx.subset == -1 then
+		flush_params(ctx, fn_oth)
+		return
+	end
+	local tbl = ctx.params
+	if ctx.sorttype > 0 then
+		local nums, words, nn, nw = get_key_list_sorted(ctx, tbl, natural_sort)
+		local sequence = {}
+		for key, val in ipairs(tbl) do sequence[key] = val end
+		if ctx.sorttype == 2 then
+			for idx = 1, nw do fn_oth(words[idx], tbl[words[idx]]) end
+		end
+		for idx = 1, nn do
+			if sequence[nums[idx]] then
+				fn_seq(nums[idx], sequence[nums[idx]])
+			else
+				fn_oth(nums[idx], tbl[nums[idx]])
+			end
+		end
+		if ctx.sorttype ~= 2 then
+			for idx = 1, nw do fn_oth(words[idx], tbl[words[idx]]) end
+		end
+		return
+	end
+	if ctx.subset ~= -1 then
+		for key, val in ipairs(tbl) do
+			fn_seq(key, val)
+			tbl[key] = nil
+		end
+	end
+	for key, val in pairs(tbl) do fn_oth(key, val) end
+end
+
+
+-- Finalize and return a concatenated list
+local function finalize_and_return_concatenated_list (ctx, lst, len, modsize)
+	if len > 0 then
+		local tmp = ctx.oxfordsep or ctx.lastsep
+		if tmp ~= nil and len > modsize * 2 then
+			lst[len - modsize + 1] = tmp
+		elseif len > modsize and ctx.lastsep ~= nil then
+			lst[len - modsize + 1] = ctx.lastsep
+		end
+		lst[1] = ctx.header or ''
+		if ctx.footer ~= nil then lst[len + 1] = ctx.footer end
+		ctx.text = table.concat(lst)
+	else ctx.text = ctx.ifngiven or '' end
+end
+
+
+
+	--[[ Modifiers ]]--
+	-----------------------------
+
+
+-- Syntax:  #invoke:params|sequential|pipe to
+library.sequential = function (ctx)
+	if ctx.subset == -1 then error(modulename ..
+		': The two directives ‘non-sequential’ and ‘sequential’ are in contradiction with each other', 0) end
+	if ctx.sorttype > 0 then error(modulename ..
+		': The ‘all_sorted’ and ‘reassorted’ directives are redundant when followed by ‘sequential’', 0) end
+	ctx.iterfunc = ipairs
+	ctx.subset = 1
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|non-sequential|pipe to
+library['non-sequential'] = function (ctx)
+	if ctx.subset == 1 then error(modulename ..
+		': The two directives ‘sequential’ and ‘non-sequential’ are in contradiction with each other', 0) end
+	ctx.iterfunc = pairs
+	ctx.subset = -1
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|all_sorted|pipe to
+library.all_sorted = function (ctx)
+	if ctx.subset == 1 then error(modulename ..
+		': The ‘all_sorted’ directive is redundant after ‘sequential’', 0) end
+	if ctx.sorttype == 2 then error(modulename ..
+		': The two directives ‘reassorted’ and ‘sequential’ are in contradiction with each other', 0) end
+	ctx.sorttype = 1
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|reassorted|pipe to
+library.reassorted = function (ctx)
+	if ctx.subset == 1 then error(modulename ..
+		': The ‘reassorted’ directive is redundant after ‘sequential’', 0) end
+	if ctx.sorttype == 1 then error(modulename ..
+		': The two directives ‘sequential’ and ‘reassorted’ are in contradiction with each other', 0) end
+	ctx.sorttype = 2
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|setting|directives|...|pipe to
+library.setting = function (ctx)
+	local opts = ctx.pipe
+	local cmd = opts[1]
+	if cmd ~= nil then
+		cmd = cmd:gsub('%s+', ''):gsub('/+', '/'):match'^/*(.*[^/])'
+	end
+	if cmd == nil then error(modulename ..
+		', ‘setting’: No directive was given', 0) end
+	local sep = string.byte('/')
+	local argc = 2
+	local dest = {}
+	local vname
+	local chr
+	for idx = 1, #cmd do
+		chr = cmd:byte(idx)
+		if chr == sep then
+			for key, val in ipairs(dest) do
+				ctx[val] = opts[argc]
+				dest[key] = nil
+			end
+			argc = argc + 1
+		else
+			vname = memoryslots[string.char(chr)]
+			if vname == nil then error(modulename ..
+				', ‘setting’: Unknown slot ‘' ..
+				string.char(chr) .. '’', 0) end
+			table.insert(dest, vname)
+		end
+	end
+	for key, val in ipairs(dest) do ctx[val] = opts[argc] end
+	return context_iterate(ctx, argc + 1)
+end
+
+
+-- Syntax:  #invoke:params|scoring|new parameter name|pipe to
+--[[
+library.scoring = function (ctx)
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘scoring’: No parameter name was provided', 0) end
+	local retval = 0
+	for _ in pairs(ctx.params) do retval = retval + 1 end
+	ctx.params[ctx.pipe[1]:match'^%s*(.-)%s*$'] = tostring(retval)
+	return context_iterate(ctx, 2)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|squeezing|pipe to
+library.squeezing = function (ctx)
+	local tbl = ctx.params
+	local store = {}
+	local indices = {}
+	local newlen = 0
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			newlen = newlen + 1
+			indices[newlen] = key
+			store[key] = val
+			tbl[key] = nil
+		end
+	end
+	table.sort(indices)
+	for idx = 1, newlen do tbl[idx] = store[indices[idx]] end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|filling_the_gaps|pipe to
+library.filling_the_gaps = function (ctx)
+	local tbl = ctx.params
+	local nmin = 1
+	local nmax = nil
+	local nnums = -1
+	local tmp = {}
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			if nmax == nil then
+				if key < nmin then nmin = key end
+				nmax = key
+			elseif key > nmax then nmax = key
+			elseif key < nmin then nmin = key end
+			nnums = nnums + 1
+			tmp[key] = val
+		end
+	end
+	if nmax ~= nil and nmax - nmin > nnums then
+		ctx.n_available = ctx.n_available + nmin + nnums - nmax
+		if ctx.n_available < 0 then error(modulename ..
+			', ‘filling_the_gaps’: It is possible to fill at most ' ..
+			tostring(maxfill) .. ' parameters', 0) end
+		for idx = nmin, nmax, 1 do tbl[idx] = '' end
+		for key, val in pairs(tmp) do tbl[key] = val end
+	end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|clearing|pipe to
+library.clearing = function (ctx)
+	local tbl = ctx.params
+	local numerics = {}
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			numerics[key] = val
+			tbl[key] = nil
+		end
+	end
+	for key, val in ipairs(numerics) do tbl[key] = val end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|cutting|left cut|right cut|pipe to
+library.cutting = function (ctx)
+	local lcut = tonumber(ctx.pipe[1])
+	if lcut == nil then error(modulename ..
+		', ‘cutting’: Left cut must be a number', 0) end
+	local rcut = tonumber(ctx.pipe[2])
+	if rcut == nil then error(modulename ..
+		', ‘cutting’: Right cut must be a number', 0) end
+	local tbl = ctx.params
+	local len = #tbl
+	if lcut < 0 then lcut = len + lcut end
+	if rcut < 0 then rcut = len + rcut end
+	local tot = lcut + rcut
+	if tot > 0 then
+		local cache = {}
+		if tot >= len then
+			for key in ipairs(tbl) do tbl[key] = nil end
+			tot = len
+		else
+			for idx = len - rcut + 1, len, 1 do tbl[idx] = nil end
+			for idx = 1, lcut, 1 do tbl[idx] = nil end
+		end
+		for key, val in pairs(tbl) do
+			if type(key) == 'number' and key > 0 then
+				if key > len then cache[key - tot] = val
+				else cache[key - lcut] = val end
+				tbl[key] = nil
+			end
+		end
+		for key, val in pairs(cache) do tbl[key] = val end
+	end
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|cropping|left crop|right crop|pipe to
+library.cropping = function (ctx)
+	local lcut = tonumber(ctx.pipe[1])
+	if lcut == nil then error(modulename ..
+		', ‘cropping’: Left crop must be a number', 0) end
+	local rcut = tonumber(ctx.pipe[2])
+	if rcut == nil then error(modulename ..
+		', ‘cropping’: Right crop must be a number', 0) end
+	local tbl = ctx.params
+	local nmin
+	local nmax
+	for key in pairs(tbl) do
+		if type(key) == 'number' then
+			if nmin == nil then
+				nmin = key
+				nmax = key
+			elseif key > nmax then nmax = key
+			elseif key < nmin then nmin = key end
+		end
+	end
+	if nmin ~= nil then
+		local len = nmax - nmin + 1
+		if lcut < 0 then lcut = len + lcut end
+		if rcut < 0 then rcut = len + rcut end
+		if lcut + rcut - len > -1 then
+			for key in pairs(tbl) do
+				if type(key) == 'number' then tbl[key] = nil end
+			end
+		elseif lcut + rcut > 0 then
+			for idx = nmax - rcut + 1, nmax do tbl[idx] = nil end
+			for idx = nmin, nmin + lcut - 1 do tbl[idx] = nil end
+			local lshift = nmin + lcut - 1
+			if lshift > 0 then
+				for idx = lshift + 1, nmax, 1 do
+					tbl[idx - lshift] = tbl[idx]
+					tbl[idx] = nil
+				end
+			end
+		end
+	end
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|purging|start offset|length|pipe to
+library.purging = function (ctx)
+	local idx = tonumber(ctx.pipe[1])
+	if idx == nil then error(modulename ..
+		', ‘purging’: Start offset must be a number', 0) end
+	local len = tonumber(ctx.pipe[2])
+	if len == nil then error(modulename ..
+		', ‘purging’: Length must be a number', 0) end
+	local tbl = ctx.params
+	if len < 1 then
+		len = len + table.maxn(tbl)
+		if idx > len then return context_iterate(ctx, 3) end
+		len = len - idx + 1
+	end
+	ctx.params = copy_table_reduced(tbl, idx, len)
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|backpurging|start offset|length|pipe to
+library.backpurging = function (ctx)
+	local last = tonumber(ctx.pipe[1])
+	if last == nil then error(modulename ..
+		', ‘backpurging’: Start offset must be a number', 0) end
+	local len = tonumber(ctx.pipe[2])
+	if len == nil then error(modulename ..
+		', ‘backpurging’: Length must be a number', 0) end
+	local idx
+	local tbl = ctx.params
+	if len > 0 then
+		idx = last - len + 1
+	else
+		for key in pairs(tbl) do
+			if type(key) == 'number' and (idx == nil or
+				key < idx) then idx = key end
+		end
+		if idx == nil then return context_iterate(ctx, 3) end
+		idx = idx - len
+		if last < idx then return context_iterate(ctx, 3) end
+		len = last - idx + 1
+	end
+	ctx.params = copy_table_reduced(ctx.params, idx, len)
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|reversing_numeric_names|pipe to
+library.reversing_numeric_names = function (ctx)
+	local tbl = ctx.params
+	local numerics = {}
+	local nmax = 0
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			numerics[key] = val
+			tbl[key] = nil
+			if key > nmax then nmax = key end
+		end
+	end
+	for key, val in pairs(numerics) do tbl[nmax - key + 1] = val end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|pivoting_numeric_names|pipe to
+--[[
+library.pivoting_numeric_names = function (ctx)
+	local tbl = ctx.params
+	local shift = #tbl + 1
+	if shift < 2 then return library.reversing_numeric_names(ctx) end
+	local numerics = {}
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			numerics[key] = val
+			tbl[key] = nil
+		end
+	end
+	for key, val in pairs(numerics) do tbl[shift - key] = val end
+	return context_iterate(ctx, 1)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|mirroring_numeric_names|pipe to
+--[[
+library.mirroring_numeric_names = function (ctx)
+	local tbl = ctx.params
+	local numerics = {}
+	local nmax
+	local nmin
+	for key, val in pairs(tbl) do
+		if type(key) == 'number' then
+			numerics[key] = val
+			tbl[key] = nil
+			if nmax == nil then
+				nmax = key
+				nmin = key
+			elseif key > nmax then nmax = key
+			elseif key < nmin then nmin = key end
+		end
+	end
+	for key, val in pairs(numerics) do tbl[nmax + nmin - key] = val end
+	return context_iterate(ctx, 1)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|swapping_numeric_names|pipe to
+--[[
+library.swapping_numeric_names = function (ctx)
+	local tbl = ctx.params
+	local cache = {}
+	local nsize = 0
+	local tmp
+	for key in pairs(tbl) do
+		if type(key) == 'number' then
+			nsize = nsize + 1
+			cache[nsize] = key
+		end
+	end
+	table.sort(cache)
+	for idx = math.floor(nsize / 2), 1, -1 do
+		tmp = tbl[cache[idx] ]
+		tbl[cache[idx] ] = tbl[cache[nsize - idx + 1] ]
+		tbl[cache[nsize - idx + 1] ] = tmp
+	end
+	return context_iterate(ctx, 1)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|sorting_sequential_values|[criterion]|pipe to
+library.sorting_sequential_values = function (ctx)
+	local sortfn
+	if ctx.pipe[1] ~= nil then sortfn = sortfunctions[ctx.pipe[1]] end
+	if sortfn then table.sort(ctx.params, sortfn)
+	else table.sort(ctx.params) end -- i.e. either `false` or `nil`
+	if sortfn == nil then return context_iterate(ctx, 1) end
+	return context_iterate(ctx, 2)
+end
+
+
+-- Syntax:  #invoke:params|inserting|position|how many|...|pipe to
+--[[
+library.inserting = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local idx = tonumber(ctx.pipe[1])
+	if idx == nil then error(modulename ..
+		', ‘inserting’: Position must be a number', 0) end
+	local len = tonumber(ctx.pipe[2])
+	if len == nil or len < 1 then error(modulename ..
+		', ‘inserting’: The amount must be a number greater than zero', 0) end
+	local opts = ctx.pipe
+	local tbl = copy_table_expanded(ctx.params, idx, len)
+	for key = idx, idx + len - 1 do tbl[key] = opts[key - idx + 3] end
+	ctx.params = tbl
+	return context_iterate(ctx, len + 3)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|imposing|name|value|pipe to
+library.imposing = function (ctx)
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘imposing’: Missing parameter name to impose', 0) end
+	local key = ctx.pipe[1]:match'^%s*(.-)%s*$'
+	if key == '0' or key:find'^%-?[1-9]%d*$' then key = tonumber(key) end
+	ctx.params[key] = ctx.pipe[2]
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|providing|name|value|pipe to
+library.providing = function (ctx)
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘providing’: Missing parameter name to provide', 0) end
+	local key = ctx.pipe[1]:match'^%s*(.-)%s*$'
+	if key == '0' or key:find'^%-?[1-9]%d*$' ~= nil then
+		key = tonumber(key)
+	end
+	if ctx.params[key] == nil then ctx.params[key] = ctx.pipe[2] end
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|discarding|name|[how many]|pipe to
+library.discarding = function (ctx)
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘discarding’: Missing parameter name to discard', 0) end
+	local key
+	local len = tonumber(ctx.pipe[2])
+	if len == nil then
+		key = ctx.pipe[1]:match'^%s*(.-)%s*$'
+		if key == '0' or key:find'^%-?[1-9]%d*$' ~= nil then
+			key = tonumber(key)
+		end
+		ctx.params[key] = nil
+		return context_iterate(ctx, 2)
+	end
+	key = tonumber(ctx.pipe[1])
+	if key == nil then error(modulename ..
+		', ‘discarding’: A range was provided, but the initial parameter name is not numeric', 0) end
+	if len < 1 then error(modulename ..
+		', ‘discarding’: A range can only be a number greater than zero', 0) end
+	for idx = key, key + len - 1 do ctx.params[idx] = nil end
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|excluding_non-numeric_names|pipe to
+library['excluding_non-numeric_names'] = function (ctx)
+	local tmp = ctx.params
+	for key, val in pairs(tmp) do
+		if type(key) ~= 'number' then tmp[key] = nil end
+	end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|excluding_numeric_names|pipe to
+library.excluding_numeric_names = function (ctx)
+	local tmp = ctx.params
+	for key, val in pairs(tmp) do
+		if type(key) == 'number' then tmp[key] = nil end
+	end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|with_name_matching|target 1|[plain flag 1]|[or]
+--            |[target 2]|[plain flag 2]|[or]|[...]|[target N]|[plain flag
+--            N]|pipe to
+library.with_name_matching = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local targets, nptns, argc = load_pattern_args(ctx.pipe,
+		'with_name_matching')
+	local tmp
+	local ptn
+	local tbl = ctx.params
+	local newparams = {}
+	for idx = 1, nptns do
+		ptn = targets[idx]
+		if ptn[3] then
+			tmp = ptn[1]
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				tmp = tonumber(tmp)
+			end
+			newparams[tmp] = tbl[tmp]
+		else
+			for key, val in pairs(tbl) do
+				if tostring(key):find(ptn[1], 1, ptn[2]) then
+					newparams[key] = val
+				end
+			end
+		end
+	end
+	ctx.params = newparams
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|with_name_not_matching|target 1|[plain flag 1]
+--            |[and]|[target 2]|[plain flag 2]|[and]|[...]|[target N]|[plain
+--            flag N]|pipe to
+library.with_name_not_matching = function (ctx)
+	local targets, nptns, argc = load_pattern_args(ctx.pipe,
+		'with_name_not_matching')
+	local tbl = ctx.params
+	if nptns == 1 and targets[1][3] then
+		local tmp = targets[1][1]
+		if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+			tbl[tonumber(tmp)] = nil
+		else tbl[tmp] = nil end
+		return context_iterate(ctx, argc)
+	end
+	local yesmatch
+	local ptn
+	for key in pairs(tbl) do
+		yesmatch = true
+		for idx = 1, nptns do
+			ptn = targets[idx]
+			if ptn[3] then
+				if tostring(key) ~= ptn[1] then
+					yesmatch = false
+					break
+				end
+			elseif not tostring(key):find(ptn[1], 1, ptn[2]) then
+				yesmatch = false
+				break
+			end
+		end
+		if yesmatch then tbl[key] = nil end
+	end
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|with_value_matching|target 1|[plain flag 1]|[or]
+--            |[target 2]|[plain flag 2]|[or]|[...]|[target N]|[plain flag
+--            N]|pipe to
+library.with_value_matching = function (ctx)
+	local tbl = ctx.params
+	local targets, nptns, argc = load_pattern_args(ctx.pipe,
+		'with_value_matching')
+	local nomatch
+	local ptn
+	for key, val in pairs(tbl) do
+		nomatch = true
+		for idx = 1, nptns do
+			ptn = targets[idx]
+			if ptn[3] then
+				if val == ptn[1] then
+					nomatch = false
+					break
+				end
+			elseif val:find(ptn[1], 1, ptn[2]) then
+				nomatch = false
+				break
+			end
+		end
+		if nomatch then tbl[key] = nil end
+	end
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|with_value_not_matching|target 1|[plain flag 1]
+--            |[and]|[target 2]|[plain flag 2]|[and]|[...]|[target N]|[plain
+--            flag N]|pipe to
+library.with_value_not_matching = function (ctx)
+	local tbl = ctx.params
+	local targets, nptns, argc = load_pattern_args(ctx.pipe,
+		'with_value_not_matching')
+	local yesmatch
+	local ptn
+	for key, val in pairs(tbl) do
+		yesmatch = true
+		for idx = 1, nptns do
+			ptn = targets[idx]
+			if ptn[3] then
+				if val ~= ptn[1] then
+					yesmatch = false
+					break
+				end
+			elseif not val:find(ptn[1], 1, ptn[2]) then
+				yesmatch = false
+				break
+			end
+		end
+		if yesmatch then tbl[key] = nil end
+	end
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|trimming_values|pipe to
+library.trimming_values = function (ctx)
+	local tbl = ctx.params
+	for key, val in pairs(tbl) do tbl[key] = val:match'^%s*(.-)%s*$' end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|mapping_to_lowercase|pipe to
+library.mapping_to_lowercase = function (ctx)
+	local tbl = ctx.params
+	for key, val in pairs(tbl) do tbl[key] = val:lower() end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|mapping_to_uppercase|pipe to
+library.mapping_to_uppercase = function (ctx)
+	local tbl = ctx.params
+	for key, val in pairs(tbl) do tbl[key] = val:upper() end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|mapping_by_calling|template name|[call
+--            style]|[let]|[...][number of additional parameters]|[parameter
+--            1]|[parameter 2]|[...]|[parameter N]|pipe to
+library.mapping_by_calling = function (ctx)
+	local opts = ctx.pipe
+	local tname
+	if opts[1] ~= nil then tname = opts[1]:match'^%s*(.*%S)' end
+	if tname == nil then error(modulename ..
+		', ‘mapping_by_calling’: No template name was provided', 0) end
+	local margs, argc, looptype, karg, varg = load_callback_opts(opts, 1,
+		mapping_styles.values_only)
+	local model = { title = tname, args = margs }
+	value_maps[looptype](ctx.params, margs, karg, varg, function ()
+		return ctx.frame:expandTemplate(model)
+	end)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|mapping_by_invoking|module name|function
+--            name|[call style]|[let]|[...]|[number of additional
+--            arguments]|[argument 1]|[argument 2]|[...]|[argument N]|pipe to
+library.mapping_by_invoking = function (ctx)
+	local opts = ctx.pipe
+	local mname
+	local fname
+	if opts[1] ~= nil then mname = opts[1]:match'^%s*(.*%S)' end
+	if mname == nil then error(modulename ..
+		', ‘mapping_by_invoking’: No module name was provided', 0) end
+	if opts[2] ~= nil then fname = opts[2]:match'^%s*(.*%S)' end
+	if fname == nil then error(modulename ..
+		', ‘mapping_by_invoking’: No function name was provided', 0) end
+	local margs, argc, looptype, karg, varg = load_callback_opts(opts, 2,
+		mapping_styles.values_only)
+	local model = { title = 'Module:' .. mname, args = margs }
+	local mfunc = require(model.title)[fname]
+	if mfunc == nil then error(modulename ..
+		', ‘mapping_by_invoking’: The function ‘' .. fname ..
+		'’ does not exist', 0) end
+	value_maps[looptype](ctx.params, margs, karg, varg, function ()
+		return tostring(mfunc(ctx.frame:newChild(model)))
+	end)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|mapping_by_magic|parser function|[call
+--            style]|[let]|[...][number of additional arguments]|[argument
+--            1]|[argument 2]|[...]|[argument N]|pipe to
+library.mapping_by_magic = function (ctx)
+	local opts = ctx.pipe
+	local magic
+	if opts[1] ~= nil then magic = opts[1]:match'^%s*(.*%S)' end
+	if magic == nil then error(modulename ..
+		', ‘mapping_by_magic’: No parser function was provided', 0) end
+	local margs, argc, looptype, karg, varg = load_callback_opts(opts, 1,
+		mapping_styles.values_only)
+	value_maps[looptype](ctx.params, margs, karg, varg, function ()
+		return ctx.frame:callParserFunction(magic, margs)
+	end)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|mapping_by_replacing|target|replace|[count]|[plain
+--            flag]|pipe to
+library.mapping_by_replacing = function (ctx)
+	local ptn, repl, nmax, flg, argc, die =
+		load_replace_args(ctx.pipe, 'mapping_by_replacing')
+	if die then return context_iterate(ctx, argc) end
+	local tbl = ctx.params
+	if flg == 3 then
+		for key, val in pairs(tbl) do
+			if val == ptn then tbl[key] = repl end
+		end
+	else
+		if flg == 2 then
+			-- Copied from Module:String's `str._escapePattern()`
+			ptn = ptn:gsub('[%(%)%.%%%+%-%*%?%[%^%$%]]', '%%%0')
+		end
+		for key, val in pairs(tbl) do
+			tbl[key] = val:gsub(ptn, repl, nmax)
+		end
+	end
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|mapping_by_mixing|mixing string|pipe to
+library.mapping_by_mixing = function (ctx)
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘mapping_by_mixing’: No mixing string was provided', 0) end
+	local mix = ctx.pipe[1]
+	local tbl = ctx.params
+	if mix == '$#' then
+		for key in pairs(tbl) do tbl[key] = tostring(key) end
+		return context_iterate(ctx, 2)
+	end
+	local skel, cnv, n_parts = parse_placeholder_string(mix)
+	for key, val in pairs(tbl) do
+		for idx = 2, n_parts, 2 do
+			if skel[idx] then cnv[idx] = val else cnv[idx] = tostring(key) end
+		end
+		tbl[key] = table.concat(cnv)
+	end
+	return context_iterate(ctx, 2)
+end
+
+
+-- Syntax:  #invoke:params|mapping_to_names|pipe to
+--[[
+library.mapping_to_names = function (ctx)
+	local tbl = ctx.params
+	for key in pairs(tbl) do tbl[key] = key end
+	return context_iterate(ctx, 1)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|renaming_to_lowercase|pipe to
+library.renaming_to_lowercase = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local cache = {}
+	for key, val in pairs(ctx.params) do
+		if type(key) == 'string' then cache[key:lower()] = val else
+		cache[key] = val end
+	end
+	ctx.params = cache
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|renaming_to_uppercase|pipe to
+library.renaming_to_uppercase = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local cache = {}
+	for key, val in pairs(ctx.params) do
+		if type(key) == 'string' then cache[key:upper()] = val else
+		cache[key] = val end
+	end
+	ctx.params = cache
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|renaming_by_calling|template name|[call
+--            style]|[let]|[...][number of additional parameters]|[parameter
+--            1]|[parameter 2]|[...]|[parameter N]|pipe to
+library.renaming_by_calling = function (ctx)
+	local opts = ctx.pipe
+	local tname
+	if opts[1] ~= nil then tname = opts[1]:match'^%s*(.*%S)' end
+	if tname == nil then error(modulename ..
+		', ‘renaming_by_calling’: No template name was provided', 0) end
+	local rargs, argc, looptype, karg, varg = load_callback_opts(opts, 1,
+		mapping_styles.names_only)
+	local model = { title = tname, args = rargs }
+	map_names(ctx.params, rargs, karg, varg, looptype, function ()
+		return ctx.frame:expandTemplate(model)
+	end)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|renaming_by_invoking|module name|function
+--            name|[call style]|[let]|[...]|[number of additional
+--            arguments]|[argument 1]|[argument 2]|[...]|[argument N]|pipe to
+library.renaming_by_invoking = function (ctx)
+	local opts = ctx.pipe
+	local mname
+	local fname
+	if opts[1] ~= nil then mname = opts[1]:match'^%s*(.*%S)' end
+	if mname == nil then error(modulename ..
+		', ‘renaming_by_invoking’: No module name was provided', 0) end
+	if opts[2] ~= nil then fname = opts[2]:match'^%s*(.*%S)' end
+	if fname == nil then error(modulename ..
+		', ‘renaming_by_invoking’: No function name was provided', 0) end
+	local rargs, argc, looptype, karg, varg = load_callback_opts(opts, 2,
+		mapping_styles.names_only)
+	local model = { title = 'Module:' .. mname, args = rargs }
+	local mfunc = require(model.title)[fname]
+	if mfunc == nil then error(modulename ..
+		', ‘renaming_by_invoking’: The function ‘' .. fname ..
+		'’ does not exist', 0) end
+	map_names(ctx.params, rargs, karg, varg, looptype, function ()
+		return tostring(mfunc(ctx.frame:newChild(model)))
+	end)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|renaming_by_magic|parser function|[call
+--            style]|[let]|[...][number of additional arguments]|[argument
+--            1]|[argument 2]|[...]|[argument N]|pipe to
+library.renaming_by_magic = function (ctx)
+	local opts = ctx.pipe
+	local magic
+	if opts[1] ~= nil then magic = opts[1]:match'^%s*(.*%S)' end
+	if magic == nil then error(modulename ..
+		', ‘renaming_by_magic’: No parser function was provided', 0) end
+	local rargs, argc, looptype, karg, varg = load_callback_opts(opts, 1,
+		mapping_styles.names_only)
+	map_names(ctx.params, rargs, karg, varg, looptype, function ()
+		return ctx.frame:callParserFunction(magic, rargs)
+	end)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|renaming_by_replacing|target|replace|[count]|[plain
+--            flag]|pipe to
+library.renaming_by_replacing = function (ctx)
+	local ptn, repl, nmax, flg, argc, die =
+		load_replace_args(ctx.pipe, 'renaming_by_replacing')
+	if die then return context_iterate(ctx, argc) end
+	local tbl = ctx.params
+	if flg == 3 then
+		ptn = ptn:match'^%s*(.-)%s*$'
+		if ptn == '0' or ptn:find'^%-?[1-9]%d*$' ~= nil then
+			ptn = tonumber(ptn)
+		end
+		local val = tbl[ptn]
+		if val ~= nil then
+			tbl[ptn] = nil
+			repl = repl:match'^%s*(.-)%s*$'
+			if repl == '0' or repl:find'^%-?[1-9]%d*$' ~= nil then
+				repl = tonumber(repl)
+			end
+			tbl[repl] = val
+		end
+	else
+		if flg == 2 then
+			-- Copied from Module:String's `str._escapePattern()`
+			ptn = ptn:gsub('[%(%)%.%%%+%-%*%?%[%^%$%]]', '%%%0')
+		end
+		local cache = {}
+		for key, val in pairs(tbl) do
+			steal_if_renamed(val, tbl, key, cache,
+				tostring(key):gsub(ptn, repl, nmax))
+		end
+		for key, val in pairs(cache) do tbl[key] = val end
+	end
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|renaming_by_mixing|mixing string|pipe to
+library.renaming_by_mixing = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘renaming_by_mixing’: No mixing string was provided', 0) end
+	local mix = ctx.pipe[1]:match'^%s*(.-)%s*$'
+	local cache = {}
+	local tmp
+	if mix == '$@' then
+		for _, val in pairs(ctx.params) do
+			tmp = val:match'^%s*(.-)%s*$'
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				cache[tonumber(tmp)] = val
+			else cache[tmp] = val end
+		end
+	else
+		local skel, canvas, n_parts = parse_placeholder_string(mix)
+		for key, val in pairs(ctx.params) do
+			for idx = 2, n_parts, 2 do
+				if skel[idx] then canvas[idx] = val
+				else canvas[idx] = tostring(key) end
+			end
+			tmp = table.concat(canvas):match'^%s*(.-)%s*$'
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				cache[tonumber(tmp)] = val
+			else cache[tmp] = val end
+		end
+	end
+	ctx.params = cache
+	return context_iterate(ctx, 2)
+end
+
+
+-- Syntax:  #invoke:params|renaming_to_values|pipe to
+--[[
+library.renaming_to_values = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local cache = {}
+	for _, val in pairs(ctx.params) do cache[val] = val end
+	ctx.params = cache
+	return context_iterate(ctx, 1)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|grouping_by_calling|template
+--            name|[let]|[...]|[number of additional arguments]|[argument
+--            1]|[argument 2]|[...]|[argument N]|pipe to
+library.grouping_by_calling = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local opts = ctx.pipe
+	local tmp
+	if opts[1] ~= nil then tmp = opts[1]:match'^%s*(.*%S)' end
+	if tmp == nil then error(modulename ..
+		', ‘grouping_by_calling’: No template name was provided', 0) end
+	local model = { title = tmp }
+	local tmp, argc = load_child_opts(opts, 2, 0)
+	local gargs = {}
+	for key, val in pairs(tmp) do
+		if type(key) == 'number' and key < 1 then gargs[key - 1] = val
+		else gargs[key] = val end
+	end
+	local groups = make_groups(ctx.params)
+	for gid, group in pairs(groups) do
+		for key, val in pairs(gargs) do group[key] = val end
+		group[0] = gid
+		model.args = group
+		groups[gid] = ctx.frame:expandTemplate(model)
+	end
+	ctx.params = groups
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|parsing|string to parse|[trim flag]|[iteration
+--            delimiter setter]|[...]|[key-value delimiter setter]|[...]|pipe to
+library.parsing = function (ctx)
+	local opts = ctx.pipe
+	if opts[1] == nil then error(modulename ..
+		', ‘parsing’: No string to parse was provided', 0) end
+	local isep, iplain, psep, pplain, trimnamed, trimunnamed, argc =
+		load_parse_opts(opts, 2)
+	parse_parameter_string(ctx.params, opts[1], isep, iplain, psep, pplain,
+		trimnamed, trimunnamed)
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|reinterpreting|parameter to reinterpret|[trim
+--            flag]|[iteration delimiter setter]|[...]|[key-value delimiter
+--            setter]|[...]|pipe to
+library.reinterpreting = function (ctx)
+	local opts = ctx.pipe
+	if opts[1] == nil then error(modulename ..
+		', ‘reinterpreting’: No parameter to reinterpret was provided', 0) end
+	local isep, iplain, psep, pplain, trimnamed, trimunnamed, argc =
+		load_parse_opts(opts, 2)
+	local tbl = ctx.params
+	local tmp = opts[1]:match'^%s*(.-)%s*$'
+	if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+		tmp = tonumber(tmp)
+	end
+	local str = tbl[tmp]
+	if str ~= nil then
+		tbl[tmp] = nil
+		parse_parameter_string(tbl, str, isep, iplain, psep, pplain,
+			trimnamed, trimunnamed)
+	end
+	return context_iterate(ctx, argc)
+end
+
+
+-- Syntax:  #invoke:params|mixing_names_and_values|mixing string|pipe to
+library.mixing_names_and_values = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	if ctx.pipe[1] == nil then error(modulename ..
+		', ‘mixing_names_and_values’: No mixing string was provided for parameter names', 0) end
+	if ctx.pipe[2] == nil then error(modulename ..
+		', ‘mixing_names_and_values’: No mixing string was provided for parameter values', 0) end
+	local mix_k = ctx.pipe[1]:match'^%s*(.-)%s*$'
+	local mix_v = ctx.pipe[2]
+	local cache = {}
+	local tmp
+	if mix_k == '$@' and mix_v == '$@' then
+		for _, val in pairs(ctx.params) do
+			tmp = val:match'^%s*(.-)%s*$'
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				cache[tonumber(tmp)] = val
+			else cache[tmp] = val end
+		end
+	elseif mix_k == '$@' and mix_v == '$#' then
+		for key, val in pairs(ctx.params) do
+			tmp = val:match'^%s*(.-)%s*$'
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				cache[tonumber(tmp)] = tostring(key)
+			else cache[tmp] = tostring(key) end
+		end
+	elseif mix_k == '$#' and mix_v == '$#' then
+		for _, val in pairs(ctx.params) do cache[key] = tostring(key) end
+	else
+		local skel_k, cnv_k, n_parts_k = parse_placeholder_string(mix_k)
+		local skel_v, cnv_v, n_parts_v = parse_placeholder_string(mix_v)
+		for key, val in pairs(ctx.params) do
+			tmp = tostring(key)
+			for idx = 2, n_parts_k, 2 do
+				if skel_k[idx] then cnv_k[idx] = val else cnv_k[idx] = tmp end
+			end
+			for idx = 2, n_parts_v, 2 do
+				if skel_v[idx] then cnv_v[idx] = val else cnv_v[idx] = tmp end
+			end
+			tmp = table.concat(cnv_k):match'^%s*(.-)%s*$'
+			if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+				tmp = tonumber(tmp)
+			end
+			cache[tmp] = table.concat(cnv_v)
+		end
+	end
+	ctx.params = cache
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|swapping_names_and_values|pipe to
+--[[
+library.swapping_names_and_values = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local cache = {}
+	for key, val in pairs(ctx.params) do cache[val] = key end
+	ctx.params = cache
+	return context_iterate(ctx, 1)
+end
+]]--
+
+
+-- Syntax:  #invoke:params|combining_by_calling|template name|new parameter
+--            name|pipe to
+library.combining_by_calling = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable! As a modifier,
+	-- this function MUST create a copy of it before returning
+	local tname = ctx.pipe[1]
+	if tname ~= nil then tname = tname:match'^%s*(.*%S)'
+	else error(modulename ..
+		', ‘combining_by_calling’: No template name was provided', 0) end
+	local merge_into = ctx.pipe[2]
+	if merge_into == nil then error(modulename ..
+		', ‘combining_by_calling’: No parameter name was provided', 0) end
+	merge_into = merge_into:match'^%s*(.-)%s*$'
+	if merge_into == '0' or merge_into:find'^%-?[1-9]%d*$' ~= nil then
+		merge_into = tonumber(merge_into)
+	end
+	ctx.params = {
+		[merge_into] = ctx.frame:expandTemplate{
+			title = tname,
+			args = ctx.params
+		}
+	}
+	return context_iterate(ctx, 3)
+end
+
+
+-- Syntax:  #invoke:params|snapshotting|pipe to
+library.snapshotting = function (ctx)
+	push_cloned_stack(ctx, ctx.params)
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|remembering|pipe to
+library.remembering = function (ctx)
+	push_cloned_stack(ctx, ctx.oparams)
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|entering_substack|[new]|pipe to
+library.entering_substack = function (ctx)
+	local tbl = ctx.params
+	local ncurrparent = ctx.n_parents + 1
+	if ctx.parents == nil then ctx.parents = { tbl }
+	else ctx.parents[ncurrparent] = tbl end
+	ctx.n_parents = ncurrparent
+	if ctx.pipe[1] ~= nil and ctx.pipe[1]:match'^%s*new%s*$' then
+		ctx.params = {}
+		return context_iterate(ctx, 2)
+	end
+	local currsnap = ctx.n_children
+	if currsnap > 0 then
+		ctx.params = ctx.children[currsnap]
+		ctx.children[currsnap] = nil
+		ctx.n_children = currsnap - 1
+	else
+		local newparams = {}
+		for key, val in pairs(tbl) do newparams[key] = val end
+		ctx.params = newparams
+	end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|pulling|parameter name|pipe to
+library.pulling = function (ctx)
+	local opts = ctx.pipe
+	if opts[1] == nil then error(modulename ..
+		', ‘pulling’: No parameter to pull was provided', 0) end
+	local parent
+	local tmp = ctx.n_parents
+	if tmp < 1 then parent = ctx.oparams else parent = ctx.parents[tmp] end
+	tmp = opts[1]:match'^%s*(.-)%s*$'
+	if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+		tmp = tonumber(tmp)
+	end
+	if parent[tmp] ~= nil then ctx.params[tmp] = parent[tmp] end
+	return context_iterate(ctx, 2)
+end
+
+
+-- Syntax:  #invoke:params|detaching_substack|pipe to
+library.detaching_substack = function (ctx)
+	local ncurrparent = ctx.n_parents
+	if ncurrparent < 1 then error(modulename ..
+		', ‘detaching_substack’: No substack has been created', 0) end
+	local parent = ctx.parents[ncurrparent]
+	for key in pairs(ctx.params) do parent[key] = nil end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|dropping_substack|pipe to
+library.dropping_substack = function (ctx)
+	local ncurrparent = ctx.n_parents
+	if ncurrparent < 1 then error(modulename ..
+		', ‘dropping_substack’: No substack has been created', 0) end
+	ctx.params = ctx.parents[ncurrparent]
+	ctx.parents[ncurrparent] = nil
+	ctx.n_parents = ncurrparent - 1
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|leaving_substack|pipe to
+library.leaving_substack = function (ctx)
+	local ncurrparent = ctx.n_parents
+	if ncurrparent < 1 then error(modulename ..
+		', ‘leaving_substack’: No substack has been created', 0) end
+	local currsnap = ctx.n_children + 1
+	if ctx.children == nil then ctx.children = { ctx.params }
+	else ctx.children[currsnap] = ctx.params end
+	ctx.params = ctx.parents[ncurrparent]
+	ctx.parents[ncurrparent] = nil
+	ctx.n_parents = ncurrparent - 1
+	ctx.n_children = currsnap
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|merging_substack|pipe to
+library.merging_substack = function (ctx)
+	local ncurrparent = ctx.n_parents
+	if ncurrparent < 1 then error(modulename ..
+		', ‘merging_substack’: No substack has been created', 0) end
+	local parent = ctx.parents[ncurrparent]
+	local child = ctx.params
+	ctx.params = parent
+	ctx.parents[ncurrparent] = nil
+	ctx.n_parents = ncurrparent - 1
+	for key, val in pairs(child) do parent[key] = val end
+	return context_iterate(ctx, 1)
+end
+
+
+-- Syntax:  #invoke:params|flushing|pipe to
+library.flushing = function (ctx)
+	if ctx.n_children < 1 then error(modulename ..
+		', ‘flushing’: There are no substacks to flush', 0) end
+	local parent = ctx.params
+	local currsnap = ctx.n_children
+	for key, val in pairs(ctx.children[currsnap]) do parent[key] = val end
+	ctx.children[currsnap] = nil
+	ctx.n_children = currsnap - 1
+	return context_iterate(ctx, 1)
+end
+
+
+
+	--[[ Functions ]]--
+	-----------------------------
+
+
+-- Syntax:  #invoke:params|count
+library.count = function (ctx)
+	-- NOTE: `ctx.pipe` and `ctx.params` might be the original metatables!
+	local retval = 0
+	for _ in ctx.iterfunc(ctx.params) do retval = retval + 1 end
+	if ctx.subset == -1 then retval = retval - #ctx.params end
+	ctx.text = retval
+	return false
+end
+
+
+-- Syntax:  #invoke:args|concat_and_call|template name|[prepend 1]|[prepend 2]
+--            |[...]|[item n]|[named item 1=value 1]|[...]|[named item n=value
+--            n]|[...]
+library.concat_and_call = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable!
+	local opts = ctx.pipe
+	local tname
+	if opts[1] ~= nil then tname = opts[1]:match'^%s*(.*%S)' end
+	if tname == nil then error(modulename ..
+		', ‘concat_and_call’: No template name was provided', 0) end
+	remove_numeric_keys(opts, 1, 1)
+	ctx.text = ctx.frame:expandTemplate{
+		title = tname,
+		args = concat_params(ctx)
+	}
+	return false
+end
+
+
+-- Syntax:  #invoke:args|concat_and_invoke|module name|function name|[prepend
+--            1]|[prepend 2]|[...]|[item n]|[named item 1=value 1]|[...]|[named
+--            item n=value n]|[...]
+library.concat_and_invoke = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable!
+	local opts = ctx.pipe
+	local mname
+	local fname
+	if opts[1] ~= nil then mname = opts[1]:match'^%s*(.*%S)' end
+	if mname == nil then error(modulename ..
+		', ‘concat_and_invoke’: No module name was provided', 0) end
+	if opts[2] ~= nil then fname = opts[2]:match'^%s*(.*%S)' end
+	if fname == nil then error(modulename ..
+		', ‘concat_and_invoke’: No function name was provided', 0) end
+	remove_numeric_keys(opts, 1, 2)
+	local mfunc = require('Module:' .. mname)[fname]
+	if mfunc == nil then error(modulename ..
+		', ‘concat_and_invoke’: The function ‘' .. fname ..
+		'’ does not exist', 0) end
+	ctx.text = mfunc(ctx.frame:newChild{
+		title = 'Module:' .. mname,
+		args = concat_params(ctx)
+	})
+	return false
+end
+
+
+-- Syntax:  #invoke:args|concat_and_magic|parser function|[prepend 1]|[prepend
+--            2]|[...]|[item n]|[named item 1=value 1]|[...]|[named item n=
+--            value n]|[...]
+library.concat_and_magic = function (ctx)
+	-- NOTE: `ctx.params` might be the original metatable!
+	local opts = ctx.pipe
+	local magic
+	if opts[1] ~= nil then magic = opts[1]:match'^%s*(.*%S)' end
+	if magic == nil then error(modulename ..
+		', ‘concat_and_magic’: No parser function was provided', 0) end
+	remove_numeric_keys(opts, 1, 1)
+	ctx.text = ctx.frame:callParserFunction(magic, concat_params(ctx))
+	return false
+end
+
+
+-- Syntax:  #invoke:params|value_of|parameter name
+library.value_of = function (ctx)
+	-- NOTE: `ctx.pipe` and `ctx.params` might be the original metatables!
+	local opts = ctx.pipe
+	if opts[1] == nil then error(modulename ..
+		', ‘value_of’: No parameter name was provided', 0) end
+	local val
+	local key = opts[1]:match'^%s*(.-)%s*$'
+	if key == '0' or key:find'^%-?[1-9]%d*$' ~= nil then
+		key = tonumber(key)
+		val = ctx.params[key]
+		-- No worries: #ctx.params is unused if the modifier in first position
+		if val ~= nil and (
+			ctx.subset ~= -1 or key > #ctx.params or key < 1
+		) and (
+			ctx.subset ~= 1 or (key <= #ctx.params and key > 0)
+		) then
+			ctx.text = (ctx.header or '') .. val .. (ctx.footer or '')
+		else ctx.text = ctx.ifngiven or '' end
+	else
+		val = ctx.params[key]
+		if ctx.subset ~= 1 and val ~= nil then
+			ctx.text = (ctx.header or '') .. val .. (ctx.footer or '')
+		else ctx.text = ctx.ifngiven or '' end
+	end
+	return false
+end
+
+
+-- Syntax:  #invoke:params|list
+library.list = function (ctx)
+	-- NOTE: `ctx.pipe` might be the original metatable!
+	local kvs = ctx.pairsep or ''
+	local pps = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	flush_params(
+		ctx,
+		function (key, val)
+			ret[nss + 1] = pps
+			ret[nss + 2] = key
+			ret[nss + 3] = kvs
+			ret[nss + 4] = val
+			nss = nss + 4
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 4)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|list_values
+library.list_values = function (ctx)
+	-- NOTE: `ctx.pipe` might be the original metatable!
+	-- NOTE: `library.coins()` and `library.unique_coins()` rely on us
+	local pps = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	flush_params(
+		ctx,
+		function (key, val)
+			ret[nss + 1] = pps
+			ret[nss + 2] = val
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|list_maybe_with_names
+library.list_maybe_with_names = function (ctx)
+	-- NOTE: `ctx.pipe` might be the original metatable!
+	local kvs = ctx.pairsep or ''
+	local pps = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	mixed_flush_params(
+		ctx,
+		function (key, val)
+			ret[nss + 1] = pps
+			ret[nss + 2] = ''
+			ret[nss + 3] = ''
+			ret[nss + 4] = val
+			nss = nss + 4
+		end,
+		function (key, val)
+			ret[nss + 1] = pps
+			ret[nss + 2] = key
+			ret[nss + 3] = kvs
+			ret[nss + 4] = val
+			nss = nss + 4
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 4)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|coins|[first coin = value 1]|[second coin = value
+--            2]|[...]|[last coin = value N]
+library.coins = function (ctx)
+	-- NOTE: `ctx.pipe` might be the original metatable!
+	local opts = ctx.pipe
+	local tbl = ctx.params
+	local tmp
+	for key, val in pairs(tbl) do
+		tmp = val:match'^%s*(.-)%s*$'
+		if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+			tbl[key] = opts[tonumber(tmp)]
+		else tbl[key] = opts[tmp] end
+	end
+	return library.list_values(ctx)
+end
+
+
+-- Syntax:  #invoke:params|unique_coins|[first coin = value 1]|[second coin =
+--            value 2]|[...]|[last coin = value N]
+library.unique_coins = function (ctx)
+	local opts = ctx.pipe
+	local tbl = ctx.params
+	local tmp
+	for key, val in pairs(tbl) do
+		tmp = val:match'^%s*(.-)%s*$'
+		if tmp == '0' or tmp:find'^%-?[1-9]%d*$' ~= nil then
+			tmp = tonumber(tmp)
+		end
+		tbl[key] = opts[tmp]
+		opts[tmp] = nil
+	end
+	return library.list_values(ctx)
+end
+
+
+-- Syntax:  #invoke:params|for_each|wikitext
+library.for_each = function (ctx)
+	-- NOTE: `ctx.pipe` might be the original metatable!
+	local txt = ctx.pipe[1] or ''
+	local pps = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	local skel, cnv, n_parts = parse_placeholder_string(txt)
+	flush_params(
+		ctx,
+		function (key, val)
+			for idx = 2, n_parts, 2 do
+				if skel[idx] then cnv[idx] = val
+				else cnv[idx] = tostring(key) end
+			end
+			ret[nss + 1] = pps
+			ret[nss + 2] = table.concat(cnv)
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|call_for_each|template name|[append 1]|[append 2]
+--            |[...]|[append n]|[named param 1=value 1]|[...]|[named param
+--            n=value n]|[...]
+library.call_for_each = function (ctx)
+	local opts = ctx.pipe
+	local tname
+	if opts[1] ~= nil then tname = opts[1]:match'^%s*(.*%S)' end
+	if tname == nil then error(modulename ..
+		', ‘call_for_each’: No template name was provided', 0) end
+	local model = { title = tname, args = opts }
+	local ccs = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	table.insert(opts, 1, true)
+	flush_params(
+		ctx,
+		function (key, val)
+			opts[1] = key
+			opts[2] = val
+			ret[nss + 1] = ccs
+			ret[nss + 2] = ctx.frame:expandTemplate(model)
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|invoke_for_each|module name|module function|[append
+--            1]|[append 2]|[...]|[append n]|[named param 1=value 1]|[...]
+--            |[named param n=value n]|[...]
+library.invoke_for_each = function (ctx)
+	local opts = ctx.pipe
+	local mname
+	local fname
+	if opts[1] ~= nil then mname = opts[1]:match'^%s*(.*%S)' end
+	if mname == nil then error(modulename ..
+		', ‘invoke_for_each’: No module name was provided', 0) end
+	if opts[2] ~= nil then fname = opts[2]:match'^%s*(.*%S)' end
+	if fname == nil then error(modulename ..
+		', ‘invoke_for_each’: No function name was provided', 0) end
+	local model = { title = 'Module:' .. mname, args = opts }
+	local mfunc = require(model.title)[fname]
+	local ccs = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	flush_params(
+		ctx,
+		function (key, val)
+			opts[1] = key
+			opts[2] = val
+			ret[nss + 1] = ccs
+			ret[nss + 2] = mfunc(ctx.frame:newChild(model))
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|magic_for_each|parser function|[append 1]|[append 2]
+--            |[...]|[append n]|[named param 1=value 1]|[...]|[named param
+--            n=value n]|[...]
+library.magic_for_each = function (ctx)
+	local opts = ctx.pipe
+	local magic
+	if opts[1] ~= nil then magic = opts[1]:match'^%s*(.*%S)' end
+	if magic == nil then error(modulename ..
+		', ‘magic_for_each’: No parser function was provided', 0) end
+	local ccs = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	table.insert(opts, 1, true)
+	flush_params(
+		ctx,
+		function (key, val)
+			opts[1] = key
+			opts[2] = val
+			ret[nss + 1] = ccs
+			ret[nss + 2] = ctx.frame:callParserFunction(magic, opts)
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|call_for_each_value|template name|[append 1]|[append
+--            2]|[...]|[append n]|[named param 1=value 1]|[...]|[named param
+--            n=value n]|[...]
+library.call_for_each_value = function (ctx)
+	local opts = ctx.pipe
+	local tname
+	if opts[1] ~= nil then tname = opts[1]:match'^%s*(.*%S)' end
+	if tname == nil then error(modulename ..
+		', ‘call_for_each_value’: No template name was provided', 0) end
+	local model = { title = tname, args = opts }
+	local ccs = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	flush_params(
+		ctx,
+		function (key, val)
+			opts[1] = val
+			ret[nss + 1] = ccs
+			ret[nss + 2] = ctx.frame:expandTemplate(model)
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|invoke_for_each_value|module name|[append 1]|[append
+--            2]|[...]|[append n]|[named param 1=value 1]|[...]|[named param
+--            n=value n]|[...]
+library.invoke_for_each_value = function (ctx)
+	local opts = ctx.pipe
+	local mname
+	local fname
+	if opts[1] ~= nil then mname = opts[1]:match'^%s*(.*%S)' end
+	if mname == nil then error(modulename ..
+		', ‘invoke_for_each_value’: No module name was provided', 0) end
+	if opts[2] ~= nil then fname = opts[2]:match'^%s*(.*%S)' end
+	if fname == nil then error(modulename ..
+		', ‘invoke_for_each_value’: No function name was provided', 0) end
+	local model = { title = 'Module:' .. mname, args = opts }
+	local mfunc = require(model.title)[fname]
+	local ccs = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	remove_numeric_keys(opts, 1, 1)
+	flush_params(
+		ctx,
+		function (key, val)
+			opts[1] = val
+			ret[nss + 1] = ccs
+			ret[nss + 2] = mfunc(ctx.frame:newChild(model))
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|magic_for_each_value|parser function|[append 1]
+--            |[append 2]|[...]|[append n]|[named param 1=value 1]|[...]|[named
+--            param n=value n]|[...]
+library.magic_for_each_value = function (ctx)
+	local opts = ctx.pipe
+	local magic
+	if opts[1] ~= nil then magic = opts[1]:match'^%s*(.*%S)' end
+	if magic == nil then error(modulename ..
+		', ‘magic_for_each_value’: No parser function was provided', 0) end
+	local ccs = ctx.itersep or ''
+	local ret = {}
+	local nss = 0
+	flush_params(
+		ctx,
+		function (key, val)
+			opts[1] = val
+			ret[nss + 1] = ccs
+			ret[nss + 2] = ctx.frame:callParserFunction(magic, opts)
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+-- Syntax:  #invoke:params|call_for_each_group|template name|[append 1]|[append
+--            2]|[...]|[append n]|[named param 1=value 1]|[...]|[named param
+--            n=value n]|[...]
+library.call_for_each_group = function (ctx)
+	-- NOTE: `ctx.pipe` and `ctx.params` might be the original metatables!
+	local opts = ctx.pipe
+	local tmp
+	if opts[1] ~= nil then tmp = opts[1]:match'^%s*(.*%S)' end
+	if tmp == nil then error(modulename ..
+		', ‘call_for_each_group’: No template name was provided', 0) end
+	local model = { title = tmp }
+	local ccs = ctx.itersep or ''
+	local nss = 0
+	local ret = {}
+	opts = {}
+	for key, val in pairs(ctx.pipe) do
+		if type(key) == 'number' then opts[key - 1] = val
+		else opts[key] = val end
+	end
+	ctx.pipe = opts
+	ctx.params = make_groups(ctx.params)
+	flush_params(
+		ctx,
+		function (gid, group)
+			for key, val in pairs(opts) do group[key] = val end
+			group[0] = gid
+			model.args = group
+			ret[nss + 1] = ccs
+			ret[nss + 2] = ctx.frame:expandTemplate(model)
+			nss = nss + 2
+		end
+	)
+	finalize_and_return_concatenated_list(ctx, ret, nss, 2)
+	return false
+end
+
+
+
+	---                                        ---
+	---     PUBLIC ENVIRONMENT                 ---
+	---    ________________________________    ---
+	---                                        ---
+
+
+
+	--[[ First-position-only modifiers ]]--
+	---------------------------------------
+
+
+-- Syntax:  #invoke:params|new|pipe to
+static_iface.new = function (frame)
+	local ctx = context_new(frame:getParent())
+	ctx.pipe = copy_or_ref_table(frame.args, false)
+	ctx.params = {}
+	main_loop(ctx, context_iterate(ctx, 1))
+	return ctx.text
+end
+
+
+
+	--[[ First-position-only functions ]]--
+	---------------------------------------
+
+
+-- Syntax:  #invoke:params|self
+static_iface.self = function (frame)
+	return frame:getParent():getTitle()
+end
+
+
+
+	--[[ Public metatable of functions ]]--
+	---------------------------------------
+
+
+return setmetatable({}, {
+	__index = function (_, query)
+		local fname = query:match'^%s*(.*%S)'
+		if fname == nil then error(modulename ..
+			': You must specify a function to call', 0) end
+		local func = static_iface[fname]
+		if func ~= nil then return func end
+		func = library[fname]
+		if func == nil then error(modulename ..
+			': The function ‘' .. fname .. '’ does not exist', 0) end
+		return function (frame)
+			local ctx = context_new(frame:getParent())
+			ctx.pipe = copy_or_ref_table(frame.args, refpipe[fname])
+			ctx.params = copy_or_ref_table(ctx.oparams, refparams[fname])
+			main_loop(ctx, func)
+			return ctx.text
+		end
+	end
+})

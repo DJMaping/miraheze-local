@@ -1,0 +1,11 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Anguilla
+| flag alias = Flag of Anguilla.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| redir1 = AIA
+| related1 = Republic of Anguilla
+</noinclude>
+}}

@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Lang unset italics]]
+
+{{Redirect category shell|
+{{R from move}}
+{{R from template shortcut}}
+}}

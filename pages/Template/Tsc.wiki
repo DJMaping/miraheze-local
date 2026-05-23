@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Template shortcut]]
+
+{{Rcatsh|1=
+{{R tsh}}
+}}

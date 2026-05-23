@@ -1,0 +1,18 @@
+<templatestyles src="Reflist/styles.css" /><!--
+-->{{#switch:{{{liststyle}}}|upper-alpha|upper-roman|lower-alpha|lower-greek|lower-roman=<div class="reflist-liststyle-{{{liststyle}}}">
+<nowiki/>}}<!--
+-->{{#if:{{{1|}}}{{{colwidth|}}}|
+<div class="mw-references-wrap <!--
+-->{{#iferror:{{#ifexpr: {{{1|}}} > 1 }}|mw-references-columns|{{#switch:{{{1|}}}|1=|2=mw-references-columns reflist-columns-2|#default=mw-references-columns reflist-columns-3}} }}" <!-- end class
+-->{{#if: {{{1|}}}<!-- start style. The multiplication by 0.9 is for [[hysterical raisins]]. -->
+    | {{#iferror: {{#ifexpr: {{{1|1}}} > 1 }} |style="column-width: calc( 0.9 * {{{1}}} );"}}
+    | {{#if: {{{colwidth|}}}|style="column-width: calc( 0.9 * {{{colwidth}}} );"}}
+}}>{{#tag:references|{{{refs|}}}|group={{{group|}}}|responsive=0}}</div>
+|
+<div><!-- VE for some reason requires a div wrapping the references tag. 🤷 -->
+{{#tag:references|{{{refs|}}}|group={{{group|}}}|responsive=1}}</div>
+}}<!--
+-->{{#switch:{{{liststyle}}}|upper-alpha|upper-roman|lower-alpha|lower-greek|lower-roman=</div>}}<!--
+-->{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using reflist with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Reflist]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | colwidth | group | liststyle | refs }}<noinclude>
+{{Documentation}}
+</noinclude>

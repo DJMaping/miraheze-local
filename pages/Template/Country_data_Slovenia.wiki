@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Slovenia
+| flag alias = Flag of Slovenia.svg
+| link alias-army = Slovenian Ground Force
+| link alias-military=Slovenian Armed Forces
+| flag alias-military=Flag of the Slovenian Armed Forces.svg
+| flag alias-naval=Naval Jack of Slovenia.svg
+| link alias-naval=Slovenian Navy
+| link-alias-navy=Slovenian Navy
+| link alias-air force = Slovenian Air Force and Air Defence
+| size = {{{size|}}}
+| variant = {{{variant|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| redir1 = SVN
+| redir2 = SLO
+| related1 = SR Slovenia
+</noinclude>
+}}

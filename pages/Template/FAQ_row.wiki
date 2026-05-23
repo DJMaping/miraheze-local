@@ -1,0 +1,11 @@
+<div {{#if:{{{index|}}}|id="Q{{{index}}}"}} class="faqrow mw-collapsible {{#ifeq:{{{show|}}}|yes||{{#ifeq:{{#invoke:String|find|{{FULLPAGENAME}}|/FAQ}}|0|mw-collapsed|{{#ifeq:{{{show|}}}|no|mw-collapsed|}}}}}}">
+<templatestyles src="FAQ row/styles.css" />
+<div class="faqrow-title">{{#if:{{{index|}}}|Q{{{index}}}:}} {{{q|}}}</div>
+<div class="faqrow-body mw-collapsible-content">{{#if:{{{index|}}}
+|{{#if:{{#invoke:ustring|match|{{{a|}}}|^[*#:;]}}
+|'''A{{{index}}}:'''
+{{{a|}}}
+|'''A{{{index}}}:''' {{{a|}}}
+}}
+|{{{a|}}}
+}}</div></div><noinclude>{{documentation}}</noinclude>

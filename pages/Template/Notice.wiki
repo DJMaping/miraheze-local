@@ -1,0 +1,16 @@
+{{Mbox
+| name       = Notice
+| demospace  = {{{demospace|}}}
+| style      = {{#if:{{{style|}}} |{{{style}}} }}
+| subst      = <includeonly>{{subst:substcheck}}</includeonly>
+| type       = notice
+| image      = {{#if:{{{image|}}} |[[File:{{{image}}}|40px|Notice|alt={{{imagealt|}}}]]}}
+| small      = {{{small|}}}
+| smallimage = {{#if:{{{image|}}} |[[File:{{{image}}}|30px|Notice|alt={{{imagealt|}}}]]}}
+| imageright = {{#if:{{{imageright|}}} |{{{imageright}}} |{{#if:{{{shortcut|{{{shortcut1|}}}}}} |{{Ombox/shortcut|{{{shortcut|{{{shortcut1|}}}}}}|{{{shortcut2|}}}|{{{shortcut3|}}}|{{{shortcut4|}}}|{{{shortcut5|}}}}}}} }}
+| textstyle  = {{{textstyle|text-align: {{#if:{{{center|}}}|center|{{{align|left}}}}};}}}
+| text       = {{#if:{{{header|{{{heading|{{{title|}}}}}}}}} |<div style="{{{headstyle|text-align: {{#if:{{{center|}}}|center|left}};}}}">'''{{{header|{{{heading|{{{title|}}}}}}}}}'''</div>}}<!--
+            -->{{{text|{{{content|{{{reason|{{{1}}}}}}}}}}}}
+}}{{Editnotice EXPECTUNUSEDTEMPLATE}}<noinclude>
+{{Documentation}}
+</noinclude>

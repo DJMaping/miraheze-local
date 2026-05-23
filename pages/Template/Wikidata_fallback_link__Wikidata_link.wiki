@@ -1,0 +1,6 @@
+{{#switch:{{{wd|on}}}
+ |off=
+ |icon=<span class="noprint metadata ill">[[File:OOjs UI icon edit-ltr-progressive.svg|10px|link=:d:Special:EntityPage/{{{1}}}|Edit on Wikidata]]</span>
+ |on
+ |#default=<span class="noprint metadata ill"><small>&#91;[[:d:Special:EntityPage/{{{1}}}|{{#switch:{{{short|{{{s|}}}}}}|yes|y|true|t|on|set|1=d|Wikidata}}]]&#93;</small></span>
+}}

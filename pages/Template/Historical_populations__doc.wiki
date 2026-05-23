@@ -1,0 +1,363 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{Lua|Module:Historical populations}}
+
+{{tlx|Historical populations}} is used as an information box on pages showing each census year with a population and a percent gain/loss comparison. It is intended to combine the functionalities of two existing templates, [[Template:US Census population]] and [[Template:Histpop]], the former of which is specialized for the United States, and the latter of which lacks many features of the former.
+
+==Usage==
+This template takes a series of parameters in the form <code>|date |population</code>. This template does not require any more than that. This template will take between 0 and 50 entries; any more will be ignored.
+
+===Full syntax===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+|title        = 
+|align        =
+|clear        =
+|direction    =
+|percentages  = 
+|state        = 
+|type         = 
+|shading      = 
+|width        = 
+|subbox       =
+|pop_name     =
+|year_name    =
+|percent_name =
+|footnote     = 
+|source       = 
+|percol       =
+|cols         =
+|perrow       =
+|rows         =
+|date |population
+|date |population
+|date |population
+|date |population
+|date |population
+|date |population
+|date |population
+}}
+</syntaxhighlight>
+
+===Parameters===
+{|class="wikitable"
+|+Template parameters for Template:Historical populations
+!scope="col"|Parameter
+!scope="col"|Description
+|-
+!scope="row"|date{{sub|''n''}}
+|Ideally, a four-digit year, but can be anything. Usually a multiple of 10, but does not have to be.
+|-
+!scope="row"|population{{sub|''n''}}
+|The population of row ''n''. Must be a plain number with no formatting (commas, etc.).
+|-
+!scope="row"|title
+|''Optional.'' The title of the table.
+* {{code|Historical population}} ('''Default''')
+|-
+!scope="row"|align
+|''Optional.'' The alignment of the table on the page.
+* {{code|right}} ('''Default''')
+* {{code|left}}
+* {{code|center}}
+* {{code|none}}
+|-
+!scope="row"|clear
+|''Optional.'' Use to clear any left or right floating elements nearby.
+* {{code|right}} ('''Default''' if align = right)
+* {{code|left}} ('''Default''' if align = left)
+* {{code|none}} ('''Default''' if align = none)
+* {{code|both}}
+|-
+!scope="row"|direction
+|''Optional.'' How the box is arranged on the page.
+* {{code|vertical}} ('''Default''')
+* {{code|horizontal}}
+|-
+!scope="row"|percentages
+|''Optional.'' Whether to include an automatically generated column of percent differences. This works best with linear lists (1900, 1910, 1920, etc.). Alternately, you can specify "'''pagr'''" to display annual growth rates ('''per annum growth rate''') using the formula from [[Population growth]].
+* {{code|on}} ('''Default''')
+* {{code|pagr}}
+* {{code|off}}
+|-
+!scope="row"|state
+|''Optional.'' The collapsed state of the table. Set it to {{code|collapsed}} to collapse the table by default.
+* {{code|none}} ('''Default''')
+* {{code|collapsed}}
+|-
+!scope="row"|type
+|''Optional.'' This is designed to add functionality specific to different regions or types of information. Currently the only value that does anything is {{code|US}} (or the obsolescent {{code|USA}}).
+* {{code|none}} ('''Default''')
+* {{code|US}} Will link each year to the relevant [[United States census]] entry. Years that do not have entries will be left alone.
+
+Please think of more ideas for this feature.
+|-
+!scope="row"|shading
+|''Optional.'' Whether to mark off every five entries with a line, to facilitate reading. This works best with large, linear lists (such as the US Census, which has been taken every 10 years for over 200 years), but should probably be turned off for small or irregular lists (e.g., less than 10 entries), where it could be confusing.
+* {{code|on}} ('''Default''')
+* {{code|off}}
+|-
+!scope="row"|width
+|''Optional.'' The width of the table (or of each block of columns). Can be any valid CSS {{code|width}} value.
+* {{code|15em}} ('''Default''')
+|-
+!scope="row"|pop_name
+|''Optional.'' The text in the column header of the population data.
+* {{code|<nowiki>{{abbr|Pop.|Population}}</nowiki>}} ('''Default''', displays as {{abbr|Pop.|Population}})
+|-
+!scope="row"|footnote
+|''Optional.'' Free-form footnote. Can be used as a variant to, or in addition to, the ''source'' parameter.
+|-
+!scope="row"|source
+|''Optional.'' Displayed as a footnote under the table with the text "Source:" inserted automatically. '''Every table should indicate the source of the data.'''
+|-
+!scope="row"|cols
+|''Optional.'' Total number of columns of data (default is {{code|1}}).  This is useful for very long tables, or when {{para|align|none}}.
+|-
+|}
+
+==Examples==
+===United States===
+{{Historical populations
+|type = US
+|source = {{cite web|url=http://factfinder.census.gov|publisher=[[United States Census Bureau]]|title=American FactFinder}}
+|1890 |1046964
+|1900 |1293697
+|1910 |1549008
+|1920 |1823779
+|1930 |1950961
+|1940 |1931334
+|1950 |2071605
+|1960 |2002512
+|1970 |1948609
+|1980 |1688210
+|1990 |1585577
+|2000 |1517550
+|2006 (est.)
+      |1448394
+}}
+
+The following code will yield the table on the right:
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+|type = US
+|source = {{subst:Historical populations/USCensusRef}}
+|1890 |1046964
+|1900 |1293697
+|1910 |1549008
+|1920 |1823779
+|1930 |1950961
+|1940 |1931334
+|1950 |2071605
+|1960 |2002512
+|1970 |1948609
+|1980 |1688210
+|1990 |1585577
+|2000 |1517550
+|2006 (est.)
+      |1448394
+}}
+</syntaxhighlight>
+{{clear}}
+
+===Smaller areas===
+{{Historical populations
+|width = 10em
+|shading = off
+|percentages = off
+|1845|749
+|1951|6717
+|1960|6984
+|1970|31752
+|1980|34758
+|1990|35888
+|2000|39317
+|footnote = Note: Sandefjord and [[Sandar, Norway|Sandar]] were merged in 1970.
+|source = [http://www.ssb.no SSB]
+}}
+
+The following code will yield the table on the right:
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+|width = 10em
+|shading = off
+|percentages = off
+|1845 |749
+|1951 |6717
+|1960 |6984
+|1970 |31752
+|1980 |34758
+|1990 |35888
+|2000 |39317
+|footnote=Note: Sandefjord and [[Sandar, Norway|Sandar]] were merged in 1970.
+|source = [http://www.ssb.no SSB]
+}}
+</syntaxhighlight>
+
+===Non-regular date ranges===
+{{Historical populations
+| title= Population census
+| percentages = pagr
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+
+For non-regular date ranges, use <code>percentages=pagr</code> to show annual growth rate percentages.
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+| title= Population census
+| percentages = pagr
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+</syntaxhighlight>
+
+===Two columns===
+For a multicolumn non-floating table, use <code>align=none</code> and <code>cols=2</code>
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+| title= Population census
+| percentages = pagr
+| align = none
+| cols = 2
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+</syntaxhighlight>
+
+{{Historical populations
+| title= Population census
+| percentages = pagr
+| align = none
+| cols = 2
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+
+<!--
+Disabled as of October 2025:
+===Two columns with graph===
+For a multicolumn non-floating table with a bottom graph, use <code>align=none</code> and <code>cols=2</code> and <code>graph-pos=bottom</code>
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+| title= Population census
+| percentages = pagr
+| align = none
+| cols = 2
+| graph-pos = bottom
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+</syntaxhighlight>
+
+{{Historical populations
+| title= Population census
+| percentages = pagr
+| align = none
+| cols = 2
+| graph-pos = bottom
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+-->
+
+===Horizontal direction===
+For a horizontally arranged table, use <code>direction=horizontal</code>
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Historical populations
+| title= Population census
+| align = none
+| direction = horizontal
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+</syntaxhighlight>
+
+{{Historical populations
+| title= Population census
+| align = none
+| direction = horizontal
+| 1903 |219928
+| 1960 |1138611
+| 1970 |1330788
+| 1975 |1479116
+| 1980 |1630485
+| 1990 |1601234
+| 1995 |1654761
+| 2000 |1581082
+| 2007 |1660714
+| 2010 |1652171
+}}
+
+==See also==
+* {{tl|Demography}} – for horizontal tables
+* {{tl|US Census population}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:History and events templates]]
+[[Category:Population templates]]
+}}</includeonly>

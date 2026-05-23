@@ -1,0 +1,14 @@
+{{<includeonly>safesubst:</includeonly>#invoke:Unsubst||date=__DATE__ |$B=
+{{Ambox
+| name  = Current
+| type  = notice
+| image = [[File:{{Ambox globe current red}}|50x40px|alt=Graphic of a globe with a red analog clock|link=]] 
+| text  = '''This {{#if:{{{1|}}}|{{{1}}}|article}} documents {{#switch:{{lc:{{str left|{{{2|current event}}}|1}}}}|a|e|i|o|u=an|#default=a}} [[Portal:Current events|{{#if:{{{2|}}}|{{{2}}}|current event}}]]''' and may change rapidly.
+| removalnotice = yes
+| fix   = Please [{{fullurl:{{FULLPAGENAME}}|action=edit}} update] outdated or incomplete information with [[Help:Introduction to referencing|citations]] to [[WP:RS|reliable sources]].
+| cat   = Current events
+| date  = {{{date|}}}
+}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,19 @@
+{{#if:{{{3|}}}|[[{{{3}}}|<span style="color:{{{1|black}}}; font-size:{{{size|100}}}%; line-height:{{#expr:100/{{{size|100}}}}};" title="{{title case|{{{description|{{{1}}}}}}}}">{{#switch:{{lc:{{{2}}}}}
+  | c|circle|r|round = ●
+  | d|diamond = ◆
+  | tu|up|uptriangle = ▲
+  | td|dn|downtriangle = ▼
+  | tl|lt|lefttriangle = ◀
+  | tr|rt|righttriangle = ▶
+  | #default = ■
+}}</span>]]|<span style="color:{{{1|black}}}; font-size:{{{size|100}}}%; line-height:{{#expr:100/{{{size|100}}}}};" title="{{title case|{{{description|{{{1}}}}}}}}">{{#switch:{{lc:{{{2}}}}}
+  | c|circle|r|round = ●
+  | d|diamond = ◆
+  | tu|up|uptriangle = ▲
+  | td|dn|downtriangle = ▼
+  | tl|lt|lefttriangle = ◀
+  | tr|rt|righttriangle = ▶
+  | #default = ■
+}}</span>}}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,10 @@
+<noinclude>{{pp-template|small=yes}}</noinclude><templatestyles src="Image key/styles.css" />{{<includeonly>safesubst:</includeonly>#invoke:list|{{#switch:{{{list type|}}}
+|bulleted=bulleted
+|ordered=ordered
+|unbulleted
+|plainlist
+|#default=unbulleted}}|class=image-key {{#switch:{{{thumb size|}}}|wide=image-key-wide|narrow=image-key-narrow|#default=}}}}<noinclude>
+
+{{documentation}}
+[[Category:Legend templates]]
+</noinclude>

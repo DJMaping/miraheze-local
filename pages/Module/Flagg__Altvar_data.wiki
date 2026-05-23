@@ -1,0 +1,255 @@
+local p = {}
+
+function p.alttable(age)
+
+	local alt_map = {
+		["af"] = { altlink="national American football team"; altvar="American football" };
+		["afu"] = { altlink="national junior American football team"; altvar="American football" };
+		["afw"] = { altlink="women's national American football team"; altvar="American football" };
+		["arf"] = { altlink="national Australian rules football team"; altvar="Australian rules football"; mw="men's" };
+		["arfw"] = { altlink="women's national Australian rules football team"; altvar="Australian rules football"; mw="women's" };
+		["bandy"] = { altlink="national bandy team"; altvar="bandy" };
+		["bandyw"] = { altlink="women's national bandy team"; altvar="bandy"; template="bandyW" };
+		["bb"] = { altlink="national baseball team"; altvar="baseball" };
+		["bbstate"] = { altlink="state baseball team"; altvar="baseball"; template="bb-state" };
+		["bbw"] = { altlink="women's national baseball team"; altvar="baseball" };
+		["bd"] = { altlink="national badminton team"; altvar="badminton" };
+		["bs"] = { altlink="national beach soccer team"; altvar="beach soccer"; template="beachsoccer" };
+		["bsw"] = { altlink="women's national beach soccer team"; altvar="women's beach soccer"; template="beachsoccerwomen" };
+		["bh"] = { altlink="national beach handball team"; altvar="beach handball" };
+		["bhw"] = { altlink="women's national beach handball team"; altvar="beach handball"; mw="women's" };
+		["bk"] = { altlink="national basketball team"; altvar="basketball" };
+		["bku"] = { altlink="men's national under-"..age.." basketball team"; altvar="basketball"; age="under-"..age};
+		["bkw"] = { altlink="women's national basketball team"; altvar="basketball"; mw="women's" };
+		["bkwu"] = { altlink="women's national under-"..age.." basketball team"; altvar="basketball"; mw="women's"; age="under-"..age};
+		["cr"] = { altlink="national cricket team"; altvar="cricket" };
+		["cr19"] = { altlink="national under-19 cricket team"; altvar="cricket"; age="Under-19" };
+		["crw"] = { altlink="national women's cricket team"; altvar="cricket"; mw="women's" };
+		["davis"] = { altlink="Davis Cup team"; altvar="tennis"; mw="Davis" };
+		["fb"] = { altlink="national football team"; altvar="football" };
+		["fba"] = { altlink="Football Association"; altvar="football" };
+		["fbl"] = { altlink="A' national football team"; altvar="football"; mw="A'" };
+		["fbm"] = { altlink="military national football team"; altvar="football" };
+		["fbo"] = { altlink="Olympic football team"; altvar="football"; mw="Olympic" };
+		["fbu"] = { altlink="national under-"..age.." football team"; altvar="football"; age="under-"..age};
+		["fbw"] = { altlink="women's national football team"; altvar="football"; mw="women's" };
+		["fbwm"] = { altlink="women's military national football team"; altvar="football"; mw="women's" };
+		["fbwu"] = { altlink="women's national under-"..age.." football team"; altvar="football"; mw="women's"; age="under-"..age};
+		["fed"] = { altlink="Fed Cup team"; altvar="tennis"; mw="Fed" };
+		["fhm"] = { altlink="men's national field hockey team"; altvar="field hockey"; mw="men's" };
+		["fhw"] = { altlink="women's national field hockey team"; altvar="field hockey"; mw="women's" };
+		["fl"] = { altlink="men's national floorball team"; altvar="floorball"; mw="men's" };
+		["flu"] = { altlink="men's national under-19 floorball team"; altvar="floorball"; mw="men's"; age="under-19" };
+		["flw"] = { altlink="women's national floorball team"; altvar="floorball"; mw="women's" };
+		["flwu"] = { altlink="women's national under-19 floorball team"; altvar="floorball"; mw="women's"; template="flw19" };
+		["fsw"] = { altlink="women's national futsal team"; altvar="futsal"; mw="women's" };
+		["fs"] = { altlink="national futsal team"; altvar="futsal"; template="futsal" };
+		["gb"] = { altlink="men's national goalball team"; altvar="goalball"; mw="men's" };
+		["gbw"] = { altlink="women's national goalball team"; altvar="goalball"; mw="women's" };
+		["hb"] = { altlink="national handball team"; altvar="handball" };
+		["hbj"] = { altlink="national junior handball team"; altvar="handball" };
+		["hbw"] = { altlink="women's national handball team"; altvar="handball"; mw="women's" };
+		["hbwj"] = { altlink="women's junior national handball team"; altvar="handball" };
+		["hbwy"] = { altlink="women's youth national handball team"; altvar="handball"; mw="women's" };
+		["hby"] = { altlink="national youth handball team"; altvar="handball" };
+		["hopman"] = { altlink="at the Hopman Cup"; altvar="tennis"; mw="Hopman" };
+		["iflm"] = { altlink="men's national lacrosse team"; altvar="lacrosse"; mw="men's" };
+		["iflw"] = { altlink="women's national lacrosse team"; altvar="lacrosse"; mw="women's" };
+		["iflwu"] = { altlink="women's national under-19 lacrosse team"; altvar="lacrosse"; mw="women's"; template="iflwu19" };
+		["ih"] = { altlink="men's national ice hockey team"; altvar="ice hockey"; mw="men's" };
+		["ih18"] = { altlink="men's national under-18 ice hockey team"; altvar="ice hockey"; mw="men's"; age="under-18" };
+		["ihj"] = { altlink="men's national junior ice hockey team"; altvar="ice hockey"; mw="men's"; age="junior" };
+		["ihw"] = { altlink="women's national ice hockey team"; altvar="ice hockey"; mw="women's" };
+		["ihw18"] = { altlink="women's national under-18 ice hockey team"; altvar="ice hockey"; mw="women's"; age="U-18" };
+		["iih"] = { altlink="men's national inline hockey team"; altvar="inline hockey" };
+		["iihj"] = { altlink="men's national junior inline hockey team"; altvar="inline hockey"; mw="junior" };
+		["iihw"] = { altlink="women's national inline hockey team"; altvar="inline hockey"; mw="women's" };
+		["iil"] = { altlink="national indoor lacrosse team"; altvar="lacrosse"; mw="men's" };
+		["ish"] = { altlink="men's national ice sledge hockey team"; altvar="sledge hockey" };
+		["kd"] = { altlink="national kabaddi team"; altvar="Kabaddi" };
+		["korf"] = { altlink="national korfball team"; altvar="korfball" };
+		["nb"] = { altlink="national netball team"; altvar="netball" };
+		["p&p"] = { altlink="men's national pitch and putt team"; altvar="pitch and putt" };
+		["rhm"] = { altlink="national roller hockey team"; altvar="roller hockey"; mw="men's" };
+		["rhw"] = { altlink="women's national roller hockey team"; altvar="roller hockey"; mw="women's" };
+		["rl"] = { altlink="national rugby league team"; altvar="rugby league" };
+		["rollerderby"] = { altlink="national roller derby team"; altvar="roller derby"; template="RollerDerby" };
+		["ru"] = { altlink="national rugby union team"; altvar="rugby union" };
+		["ru7"] = { altlink="national rugby union team (sevens)"; altvar="rugby sevens" };
+		["ru7w"] = { altlink="women's national rugby union team (sevens)"; altvar="rugby sevens"; mw="women's" };
+		["rua"] = { altlink="A national rugby union team"; altvar="rugby union-a"; template="ruA" };
+		["ruu"] = { altlink="national under-"..age.." rugby union team"; altvar="rugby union"; age="under-"..age};
+		["ruw"] = { altlink="women's national rugby union team"; altvar="rugby union"; mw="women's" };
+		["sb"] = { altlink="men's national softball team"; altvar="softball"; mw="men's" };
+		["sbw"] = { altlink="women's national softball team"; altvar="softball"; mw="women's" };
+		["speedway"] = { altlink="national speedway team"; altvar="speedway" };
+		["speedwaylt"] = { altlink="national long track team"; altvar="long track"; template="speedwayLT" };
+		["svb"] = { altlink="men's national sitting volleyball team"; altvar="sitting volleyball"; mw="men's" };
+		["svbw"] = { altlink="women's sitting national volleyball team"; altvar="sitting volleyball"; mw="women's" };
+		["vb"] = { altlink="men's national volleyball team"; altvar="volleyball"; mw="men's" };
+		["vbw"] = { altlink="women's national volleyball team"; altvar="volleyball"; mw="women's" };
+		["wbk"] = { altlink="men's national wheelchair basketball team"; altvar="wheelchair basketball" };
+		["wbkw"] = { altlink="women's national wheelchair basketball team"; altvar="wheelchair basketball"; mw="women's" };
+		["whr"] = { altlink="national wheelchair rugby team"; altvar="wheelchair rugby" };
+		["wightman"] = { altlink="Wightman Cup team"; altvar="tennis"; mw="Wightman" };
+		["wp"] = { altlink="men's national water polo team"; altvar="water polo" };
+		["wpw"] = { altlink="women's national water polo team"; altvar="water polo"; mw="women's" };
+		["military"] = { altlink="military"; altvar="military" };
+		["airforce"] = { altlink="Air Force"; altvar="air force"; template="air force" };
+		["army"] = { altlink="Army"; altvar="army" };
+		["navy"] = { altlink="Navy"; altvar="naval" }
+	}
+
+	local alt_aliases = {
+		["armed forces"] = "military";
+		["a'football"] = "fbl";
+		["americanfootball"] = "af";
+		["australianrulesfootball"] = "arf";
+		["badminton"] = "bd";
+		["baseball"] = "bb";
+		["baseballstate"] = "bbstate";
+		["beachhandball"] = "bh";
+		["beachsoccer"] = "bs";
+		["beachsoccerwomen"] = "bsw";
+		["basketball"] = "bk";
+		["cricket"] = "cr";
+		["daviscup"] = "davis";
+		["fedcup"] = "fed";
+		["football"] = "fb";
+		["footballassociation"] = "fba";
+		["fh"] = "fhm";
+		["fieldhockey"] = "fhm";
+		["fl19"] = "flu";
+		["floorball"] = "fl";
+		["flw19"] = "flwu";
+		["flwu19"] = "flwu";
+		["futsal"] = "fs";
+		["goalball"] = "gb";
+		["handball"] = "hb";
+		["hopmancup"] = "hopman";
+		["icehockey"] = "ih";
+		["icesledgehockey"] = "ish";
+		["iflwu19"] = "iflwu";
+		["indoorlacrosse"] = "iil";
+		["inlinehockey"] = "iih";
+		["junioramericanfootball"] = "afu";
+		["juniorhandball"] = "hbj";
+		["junioricehockey"] = "ihj";
+		["juniorinlinehockey"] = "iihj";
+		["kabaddi"] = "kd";
+		["korfball"] = "korf";
+		["lacrosse"] = "iflm";
+		["men'sfieldhockey"] = "fhm";
+		["men'slacrosse"] = "iflm";
+		["militaryfootball"] = "fbm";
+		["netball"] = "nb";
+		["olympicfootball"] = "fbo";
+		["pitchandputt"] = "p&p";
+		["rollerhockey"] = "rhm";
+		["rugbyleague"] = "rl";
+		["rugbysevens"] = "ru7";
+		["rugbyunion"] = "ru";
+		["rugbyuniona"] = "rua";
+		["rugbyunionsevens"] = "ru7";
+		["softball"] = "sb";
+		["longtrack"] = "speedwaylt";
+		["sittingvolleyvall"] = "svb";
+		["under18icehockey"] = "ih18";
+		["under19cricket"] = "cr19";
+		["volleyball"] = "vb";
+		["waterpolo"] = "wp";
+		["wheelchairbasketball"] = "wbk";
+		["wheelchairrugby"] = "whr";
+		["wightmancup"] = "wightman";
+		["women'samericanfootball"] = "afw";
+		["women'saustralianrulesfootball"] = "arfw";
+		["women'sbandy"] = "bandyw";
+		["women'sbaseball"] = "bbw";
+		["women'sbasketball"] = "bkw";
+		["women'sbeachhandball"] = "bhw";
+		["women'sbeachsoccer"] = "bsw";
+		["women'scricket"] = "crw";
+		["women'sfieldhockey"] = "fhw";
+		["women'sfloorball"] = "flw";
+		["women'sfootball"] = "fbw";
+		["women'sfutsal"] = "fsw";
+		["women'sgoalball"] = "gbw";
+		["women'shandball"] = "hbw";
+		["women'sicehockey"] = "ihw";
+		["women'sinlinehockey"] = "iihw";
+		["women'srollerhockey"] = "rhw";
+		["women'sunder18icehockey"] = "ihw18";
+		["women'sjuniorhandball"] = "hbwj";
+		["women'slacrosse"] = "iflw";
+		["women'smilitaryfootball"] = "fbwm";
+		["women'srugbysevens"] = "ru7w";
+		["women'srugbyunion"] = "ruw";
+		["women'srugbyunionsevens"] = "ru7w";
+		["women'ssittingvolleyvall"] = "svbw";
+		["women'ssoftball"] = "sbw";
+		["women'svolleyball"] = "vbw";
+		["women'swaterpolo"] = "wpw";
+		["women'swheelchairbasketball"] = "wbkw";
+		["women'syouthbasketball"] = "bkwu";
+		["women'syouthfootball"] = "fbwu";
+		["women'syouthhandball"] = "hbwy";
+		["youthbasketball"] = "bku";
+		["youthcricket"] = "cr19";
+		["youthfootball"] = "fbu";
+		["youthhandball"] = "hby";
+		["youthrugbyunion"] = "ruu"
+	}
+
+	return alt_map, alt_aliases
+
+end
+
+function p.list_all(frame)
+
+	--Load data
+	local alt_map, alt_aliases = p.alttable("''<span style=\"color:green;\">age</span>''")
+
+	--Add aliases to map table
+	for k,v in pairs(alt_map) do
+		alt_map[k].aliases = {}
+	end
+	local wrong_aliases = {}
+	table.sort(alt_aliases)
+	for k,v in pairs(alt_aliases) do
+		if alt_map[v]
+		then table.insert(alt_map[v].aliases,k)
+		else table.insert(wrong_aliases,k)
+		end
+	end
+
+	--Create html table & header row
+	local list = mw.html.create("table")
+	list:addClass("wikitable sortable collapsible")
+	local head = list:tag("tr")
+	head:tag("th"):wikitext("Code")
+	head:tag("th"):wikitext("Aliases")
+	head:tag("th"):wikitext("Altlink (suffix)")
+	head:tag("th"):wikitext("Altvar")
+	head:tag("th"):wikitext("Template")
+
+	--Append rows to create table body
+	table.sort(alt_map)
+	for k,v in pairs(alt_map) do
+		local row = list:tag("tr")
+		local temp = alt_map[k].template or k
+		row:tag("td"):wikitext("<code>"..k.."</code>")
+		row:tag("td"):wikitext("<code>"..table.concat(alt_map[k].aliases,"</code><br/><code>").."</code>")
+		row:tag("td"):wikitext(alt_map[k].altlink)
+		row:tag("td"):wikitext(alt_map[k].altvar)
+		row:tag("td"):wikitext("[[Template:"..temp.."|"..temp.."]]")
+	end
+	if #wrong_aliases > 0 then
+		local wrong_list = "These aliases point to non-existing data: <code>"..table.concat(wrong_aliases,"</code> <code>").."</code>"
+		list:tag("tr"):tag("td"):attr("colspan","4"):css("color","red"):wikitext(wrong_list)
+	end
+
+	return list
+
+end
+
+return p

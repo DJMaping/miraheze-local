@@ -1,0 +1,7 @@
+{{SAFESUBST:<noinclude />#invoke:Plain text|main|1={{SAFESUBST:<noinclude />#if:{{{1|}}}|<!-- If the template is called with a non-empty non-named argument:  
+   -->{{SAFESUBST:<noinclude />if empty|{{SAFESUBST:<noinclude />#invoke:WikidataIB|getEntityFromTitle|{{{1|}}}}}<!-- If the Wikipedia page has a Wikidata item, get its qid 
+      -->|{{SAFESUBST:<noinclude />#invoke:WikidataIB|getEntityFromTitle|{{SAFESUBST:<noinclude />#invoke:redirect|main|{{{1|}}} }} }} }}<!-- Otherwize: Get the qid of the redirect destination.
+  -->|{{SAFESUBST:<noinclude />#invoke:WikidataIB |getQid|qid={{{qid|}}}}}}}<!-- If empty argument or qid argument: Get the qid of current page, or pass the qid. 
+-->}}<noinclude>
+{{Documentation}}
+</noinclude>

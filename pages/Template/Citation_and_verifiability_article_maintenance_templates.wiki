@@ -1,0 +1,107 @@
+{{Navbox
+| name      = Citation and verifiability article maintenance templates
+| title     = [[Wikipedia:Template index/Cleanup/Verifiability and sources|Citation and verifiability article maintenance templates]]
+| listclass = hlist
+| state     = {{{state|autocollapse}}}
+
+| group1    = Sourcing
+| list1     =
+* {{Tlg|Circular}}
+* {{Tlg|Dubious}}
+* {{Tlg|Excessive citations}}
+* {{Tlg|Further reading cleanup}}
+* {{Tlg|Independent sources}}
+* {{Tlg|More citations needed}}
+** {{Tlg|More citations needed section}}
+* {{Tlg|More footnotes needed}}
+* {{Tlg|No footnotes}}
+* {{Tlg|No reliable sources}}
+* {{Tlg|No significant coverage}}
+* {{Tlg|One source}}
+** {{Tlg|One source section}}
+* {{Tlg|Only primary sources}}
+** {{Tlg|NRIS only}}
+* {{Tlg|Primary sources}}
+** {{Tlg|Primary sources section}}
+* {{Tlg|Religious text primary}}
+* {{Tlg|Self-published}}
+* {{Tlg|Self-reference cleanup}}
+* {{Tlg|Self-sourcing examples}}
+** {{Tlg|Refexample section}}
+* {{Tlg|Sources exist}}
+* {{Tlg|Text-source}}
+* {{Tlg|Unreferenced}}
+** {{Tlg|Unreferenced section}}
+* {{Tlg|Unreferenced category}}
+* {{Tlg|Unreliable sources}}
+** {{Tlg|Unreliable sources section}}
+* {{tlg|User-generated}}
+
+| group2    = [[Wikipedia:Biographies of living persons|BLP]]-specific
+| list2     =
+* {{Tlg|BLP unreferenced}}
+** {{Tlg|BLP unreferenced section}}
+* {{Tlg|BLP primary sources}}
+* {{Tlg|BLP self-published}}
+* {{Tlg|BLP sources}}
+** {{Tlg|BLP sources section}}
+* {{Tlg|BLP no footnotes}}
+* {{Tlg|BLP more footnotes needed}}
+* {{Tlg|BLP one source}}
+
+| group3    = Topic specific
+| list3     =
+* {{Tlg|Localist}}
+* {{Tlg|Media IMDb refimprove}}
+* {{Tlg|More medical citations needed}}
+* {{Tlg|More science citations needed}}
+* {{Tlg|Neologism}}
+* {{Tlg|Science review}}
+* {{Tlg|Unreferenced law}}
+* {{Tlg|Unreferenced medical section}}
+
+| group4    = Dispute-related
+| list4     =
+* {{Tlg|Cite check}}
+** {{Tlg|Cite check section}}
+* {{Tlg|Content}}
+* {{Tlg|Disputed}}
+** {{Tlg|Dispute about}}
+** {{Tlg|Disputed section}}
+** {{Tlg|Disputed chem}}
+** {{Tlg|Disputed list}}
+** {{Tlg|Disputed map}}
+* {{Tlg|Expert needed}}
+* {{Tlg|Hoax}}
+* {{Tlg|Original research}}
+** {{Tlg|Original research section}}
+* {{Tlg|Speculation}}
+** {{Tlg|Speculation section}}
+* {{Tlg|Synthesis}}
+* {{Tlg|Verifiability}}
+* {{Tlg|Verify sources}}
+
+| group5    = Citation improvements
+| list5     =
+* {{Tlg|Citation style}}
+* {{Tlg|Citations broken}}
+* {{Tlg|Cleanup bare URLs}}
+* {{Tlg|Format footnotes}}
+* {{Tlg|Full citations needed}}
+* {{Tlg|Ibid}}
+* {{Tlg|Page numbers improve}}
+* {{Tlg|Page numbers needed}}
+* {{Tlg|Parenthetical referencing}}
+* {{Tlg|Shallow references}}
+
+| group6 = General advice
+| list6 =
+* [[Wikipedia:Citing sources|Citing sources]]
+* [[Wikipedia:Reliable sources|Reliable sources]]
+* [[Help:Maintenance template removal |Maintenance template removal]]
+* [[Wikipedia:Citation needed|Citation needed]]
+* [[Help:Find sources|Find sources]]
+* [[Wikipedia:Combining sources|Combining sources]]
+* [[Help:Overview of referencing styles|Referencing styles]]
+
+}}<noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,3 @@
+{{#invoke:Protection banner|main}}<noinclude>
+{{documentation}}
+</noinclude>

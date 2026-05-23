@@ -1,0 +1,13 @@
+{{{1|Names for footnotes and groups must follow these rules:}}}
+* Names are case-sensitive.  Please do not use raNdOM capitalization.
+* Names {{strong|must not}} be purely numeric; the software will accept something like <code>":31337"</code> (which is punctuation plus a number), but it will ignore <code>"31337"</code> (purely numeric). 
+* Names should have semantic value, so that they can be more easily distinguished from each other by human editors who are looking at the wikitext.  This means that ref names like <code>"Nguyen 2010"</code> are preferred to names like <code>":31337"</code>.
+* Names must be unique. You may not use the same name to define different groups or footnotes. Try to avoid picking a name that someone else is likely to choose for a new citation, such as <code>":0"</code> or <code>"NYT"</code>.
+* Please consider keeping reference names short, simple, and restricted to the standard [[English alphabet]] and numerals. If spaces are used, the following technical restrictions become relevant:
+** Quotation marks are preferred but optional if the only characters used are letters <code>A–Z</code>, <code>a–z</code>, digits <code>0–9</code>, and the symbols <code  style="word-break: break-all;">!$%&()*,-.:;<@[]^_`{|}~</code>. That is, all printable ASCII characters except <code style="word-break: break-all;">#"'/=>?\</code> and space. 
+** Inclusion of any other characters, {{em|including spaces}}, requires that the reference name be enclosed in quotes; for example, <code>name="John Smith"</code>. But quote-enclosed reference names may not include a less-than sign (<code><</code>) or a double straight quote symbol (<code>"</code>), which may, however, be included by [[Escape sequence|escaping]] as <code>&amp;lt;</code> and <code>&amp;quot;</code> respectively.{{#if: {{{2|}}}|
+{{{2}}}}}
+** The quote marks must be the standard, straight, double quotation marks (<code>"</code>); curly or other quotes will be parsed as part of the reference name.
+* You may optionally provide reference names even when the reference name is not required. This makes later re-use of the sourced reference easier.<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,64 @@
+local yn = require("Module:Yesno")
+return {
+	main = function(frame)
+		local args = require("Module:Arguments").getArgs(frame)
+		local data = args["data"] and mw.loadData(args["data"]) or mw.loadData("Module:Lorem_ipsum/data")
+		local paragraphs = {}
+		for k,v in ipairs(data) do
+			table.insert(paragraphs, v)
+		end
+		local out = ''
+		local outTbl = {}
+		local link = yn(args["link"]) or yn(args[4]) or false
+		local join = yn(args["join"]) or false
+		local joinprefixsuffix = yn(args["joinprefixsuffix"]) or false
+		local cat = yn(args["cat"]) or true
+		local count = tonumber(args[1] or 1)
+		local i = 1
+		if join and (not joinprefixsuffix) then
+			table.insert(outTbl, (args["prefix"] or args[2] or ""))
+		end
+		while i <= count do
+			if (not join) or joinprefixsuffix then
+				table.insert(outTbl, (args["prefix"] or args[2] or "\n"))
+			end
+			table.insert(outTbl, mw.ustring.format(paragraphs[math.mod(i - 1, #paragraphs) + 1], (link and "link" or "")))
+			if not join then
+				table.insert(outTbl, (args["suffix"] or args[3] or "") .. "\n")
+			else
+				if joinprefixsuffix then
+					table.insert(outTbl, (args["suffix"] or args[3] or ""))
+				end
+				table.insert(outTbl, (i == count and "" or " "))
+			end
+			link = false
+			i = i + 1
+		end
+		if join and (not joinprefixsuffix) then
+			table.insert(outTbl, (args["suffix"] or args[3] or ""))
+		end
+		if cat and mw.title.getCurrentTitle().namespace == 0 and not mw.isSubsting() then
+			table.insert(outTbl, "[[Category:Wikipedia articles containing placeholders]]")
+		end
+		return frame:preprocess(table.concat(outTbl, ''))
+	end,
+	oneParagraph = function(frame)
+		local args = require("Module:Arguments").getArgs(frame)
+		local data = args["data"] and mw.loadData(args["data"]) or mw.loadData("Module:Lorem_ipsum/data")
+		local paragraphs = {}
+		for k,v in ipairs(data) do
+			table.insert(paragraphs, v)
+		end
+		local i = tonumber(args[1] or 1)
+		local link = yn(args["link"])
+		local paragraph = paragraphs[math.mod(i - 1, #paragraphs) + 1]
+		local out = ""
+		if cat and mw.title.getCurrentTitle().namespace == 0 and not mw.isSubsting() then
+			out = out .. "[[Category:Wikipedia articles containing placeholders]]"
+		end
+		out = out .. mw.ustring.format(paragraph, (link and "link" or ""))
+		out = frame:preprocess(out)
+		local maxLen = tonumber(args["max len"] or mw.ustring.len(out))
+		return mw.ustring.sub(out, 1, maxLen)
+	end
+}

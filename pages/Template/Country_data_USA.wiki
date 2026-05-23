@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Country data United States]]
+
+{{Rcat shell|
+{{R from template shortcut}}
+}}
+[[Category:Country data redirects|USA]]

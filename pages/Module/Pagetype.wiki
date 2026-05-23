@@ -1,0 +1,276 @@
+--------------------------------------------------------------------------------
+--                                                                            --
+--      This meta-module which automatically detects namespaces, and allows   --
+--      for a great deal of customisation. It can easily be ported to other   --
+--      wikis by changing the values in the [[Module:Pagetype/config]].       --
+--                                                                            --
+--------------------------------------------------------------------------------
+-- Load config.
+local cfg = mw.loadData('Module:Pagetype/config')
+
+-- Load required modules.
+local yesno = require('Module:Yesno')
+local p = {}
+
+-- Look up a namespace argument in the args table.
+local function lookUpNamespaceArg(args, key)
+	local arg = args[key]
+	-- Convert "yes", "1" etc. to true, "no", "0" etc. to false, and leave
+	-- other values the same.
+	return yesno(arg, arg)
+end
+
+-- Append multiple values to an array
+local function appendMultiple(target, source)
+	for _, value in ipairs(source) do
+		table.insert(target, value)
+	end
+end
+
+-- Get argument keys for a title's namespace
+local function getNamespaceArgKeys(title)
+	local nsInfo = mw.site.namespaces[title.namespace]
+	local customAliases = cfg.customNamespaceAliases[title.namespace] or {}
+	local keys = {}
+	if nsInfo.name ~= '' then
+		table.insert(keys, nsInfo.name)
+	end
+	if nsInfo.canonicalName ~= nsInfo.name and nsInfo.canonicalName ~= '' then
+		table.insert(keys, nsInfo.canonicalName)
+	end
+	appendMultiple(keys, nsInfo.aliases)
+	appendMultiple(keys, customAliases)
+	return keys
+end
+
+-- Get the argument for a title's namespace, if it was specified in the args table.
+local function getNamespaceArg(title, args)
+	if title.isTalkPage then
+		return lookUpNamespaceArg(args, cfg.talk)
+	end
+	for _, key in ipairs(getNamespaceArgKeys(title)) do
+		local arg = lookUpNamespaceArg(args, mw.ustring.lower(key))
+		if arg ~= nil then
+			return arg
+		end
+	end
+	return nil
+end
+
+-- Look up a page type specific to the title's namespace
+local function getExplicitPageType(title)
+	if title.isTalkPage then
+		return cfg.talkDefault
+	else
+		return cfg.pagetypes[title.namespace]
+	end
+end
+
+-- Get a default page type that is not specific to the title's namespace
+local function getDefaultPageType(args)
+	local other = lookUpNamespaceArg(args, cfg.other)
+	if type(other) == 'string' then
+		return other
+	else
+		return cfg.otherDefault
+	end
+end
+
+local function detectRedirects(title, args)
+	local redirect = lookUpNamespaceArg(args, cfg.redirect)
+	if redirect == false then
+		-- Don't detect redirects if they have been specifically disallowed.
+		return nil
+	end
+
+	-- Allow custom values for redirects.
+	if not title.isRedirect then
+		return nil
+	elseif type(redirect) == 'string' then
+		return redirect
+	else
+		return cfg.redirectDefault
+	end
+end
+
+local function capitalize(pageType)
+	local first = mw.ustring.sub(pageType, 1, 1)
+	local rest = mw.ustring.sub(pageType, 2)
+	return mw.ustring.upper(first) .. rest
+end
+
+local function pluralize(pageType)
+	if cfg.irregularPlurals[pageType] then
+		return cfg.irregularPlurals[pageType]
+	else
+		return pageType .. cfg.plural -- often 's'
+	end
+end
+
+local function parseContent(title, args, optionsList)
+	if title.namespace==828 and title.subpageText~='doc' -- don't detect modules
+		or not title.exists -- can't check unless page exists
+	then
+		return nil
+	end
+	local content = title:getContent()
+	if content == nil then
+		return nil
+	end
+	local templates -- lazily evaluated
+	for _, options in next, optionsList do
+		local list, parameter, default, articleOnly = unpack(options, 1, 4)
+		if not articleOnly or title.namespace==0 then -- only check for templates if we should...
+			local out = lookUpNamespaceArg(args, parameter)
+			if type(out) == "string" or (out ~= false and default) then -- ...and if we actually have anything to say about them
+				if not templates then
+					templates = {} -- do our delayed evaluation now that we are required to
+					content = require('Module:Wikitext Parsing').PrepareText(content) -- disregard templates which do not have any affect
+					for template in string.gmatch(content, "{{%s*([^|}]-)%s*[|}]") do
+						templates[#templates+1] = capitalize(template)
+					end
+				end
+				local wantedTemplates = mw.loadData('Module:Pagetype/' .. list)
+				local templateFound = false
+				for _, template in next, templates do
+					if wantedTemplates[template] then
+						templateFound = true
+						break
+					end
+				end
+				if templateFound then
+					if type(out)=='string' then
+						return out
+					elseif out ~= false and default then
+						return default
+					end
+				end
+			end
+		end
+	end
+end
+
+-- Find pages which do not exist
+local function nonExistent(title, args)
+	local arg = lookUpNamespaceArg(args, cfg.ne)
+	if arg == false then
+		return nil
+	end
+	local exists = false
+	if title.exists then -- not an article if it does not exist
+		exists = true
+	elseif title.namespace==8 and mw.message.new(title.text):exists() then
+		exists = true
+	elseif title.namespace==6 and title.fileExists then
+		exists = true
+	end
+	if not exists then
+		if type(arg) == 'string' then
+			return arg
+		else
+			return cfg.naDefault
+		end
+	end
+end
+
+-- Get page types for mainspaces pages with an explicit class specified
+local function getMainNamespaceClassPageType(title, args)
+	local class = args[1]
+	if type(class) == 'string' then	-- Put in lower case so e.g. "na" and "NA" will both match
+		class = mw.ustring.lower(class)
+	end
+	local arg = lookUpNamespaceArg(args, cfg.na)
+	if arg == false then -- don't check for this class if it is specifically disallowed
+		return nil
+	end
+	if cfg.naAliases[class] then
+		if type(arg) == 'string' then
+			return arg
+		else
+			return cfg.naDefault
+		end
+	else
+		return nil
+	end
+end
+
+-- Get page type specified by an explicit namespace argument.
+local function getNamespaceArgPageType(title, args)
+	local namespaceArg = getNamespaceArg(title, args)
+	if namespaceArg == true then
+		-- Namespace has been explicitly enabled, so return the default for
+		-- this namespace
+		return getExplicitPageType(title)
+	elseif namespaceArg == false then
+		-- Namespace has been explicitly disabled
+		return getDefaultPageType(args)
+	elseif namespaceArg then
+		-- This namespaces uses custom text
+		return namespaceArg
+	else
+		return nil
+	end
+end
+
+
+-- Get page type not specified or detected by other means
+local function getOtherPageType(title, args)
+-- Whether the title is in the set of default active namespaces which are looked up in cfg.pagetypes.
+	local isInDefaultActiveNamespace = false
+	local defaultNamespacesKey = args[cfg.defaultns]
+	if defaultNamespacesKey == cfg.defaultnsAll then
+		isInDefaultActiveNamespace = true
+	else
+		local defaultNamespaces
+		if defaultNamespacesKey == cfg.defaultnsExtended then
+			defaultNamespaces = cfg.extendedNamespaces
+		elseif defaultNamespacesKey == cfg.defaultnsNone then
+			defaultNamespaces = {}
+		else
+			defaultNamespaces = cfg.defaultNamespaces
+		end
+		isInDefaultActiveNamespace = defaultNamespaces[title.namespace]
+	end
+	if isInDefaultActiveNamespace then
+		return getExplicitPageType(title)
+	else
+		return getDefaultPageType(args)
+	end
+end
+
+function p._main(args)
+	local title
+	if args.page then
+		title = mw.title.new(args.page)
+	else
+		title = mw.title.getCurrentTitle()
+	end
+	if title and not yesno(args.talk, true) and args[cfg.defaultns] ~= cfg.defaultnsAll then
+		title = title.subjectPageTitle
+	end
+	local pageType = detectRedirects(title, args)
+		or nonExistent(title, args)
+		or parseContent(title, args, {
+			{'softredirect', cfg.softRedirect, cfg.softRedirectDefault},
+			{'setindex', cfg.sia, cfg.siaDefault, true},
+			{'disambiguation', cfg.dab, cfg.dabDefault, true},
+			{'rfd', cfg.rfd, cfg.rfdDefault},
+		})
+		or (title.namespace == 0 and getMainNamespaceClassPageType(title, args))
+		or getNamespaceArgPageType(title, args)
+		or getOtherPageType(title, args)
+	if yesno(args.plural, false) then
+		pageType = pluralize(pageType)
+	end
+	if yesno(args.caps, false) then
+		pageType = capitalize(pageType)
+	end
+	return pageType
+end
+
+function p.main(frame)
+	local args = require('Module:Arguments').getArgs(frame)
+	return p._main(args)
+end
+
+return p

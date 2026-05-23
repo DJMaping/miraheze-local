@@ -1,0 +1,3 @@
+{{#invoke:flag||Angola}}<noinclude>
+{{flag template documentation|Angola|AGO|ANG|ANG}}
+</noinclude>

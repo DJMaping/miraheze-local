@@ -1,0 +1,99 @@
+--[==[ This is the "B" list of portal image names. It contains a list of portal images for use with [[Module:Portal]]
+-- for portal names that start with the letter "B". For aliases to existing portal names, and for portal names that
+-- start with other letters, please use the appropriate page from the following list:
+ 
+-- [[Module:Portal/images/a]]       - for portal names beginning with "A".
+-- [[Module:Portal/images/c]]       - for portal names beginning with "C".
+-- [[Module:Portal/images/d]]       - for portal names beginning with "D".
+-- [[Module:Portal/images/e]]       - for portal names beginning with "E".
+-- [[Module:Portal/images/f]]       - for portal names beginning with "F".
+-- [[Module:Portal/images/g]]       - for portal names beginning with "G".
+-- [[Module:Portal/images/h]]       - for portal names beginning with "H".
+-- [[Module:Portal/images/i]]       - for portal names beginning with "I".
+-- [[Module:Portal/images/j]]       - for portal names beginning with "J".
+-- [[Module:Portal/images/k]]       - for portal names beginning with "K".
+-- [[Module:Portal/images/l]]       - for portal names beginning with "L".
+-- [[Module:Portal/images/m]]       - for portal names beginning with "M".
+-- [[Module:Portal/images/n]]       - for portal names beginning with "N".
+-- [[Module:Portal/images/o]]       - for portal names beginning with "O".
+-- [[Module:Portal/images/p]]       - for portal names beginning with "P".
+-- [[Module:Portal/images/q]]       - for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]       - for portal names beginning with "R".
+-- [[Module:Portal/images/s]]       - for portal names beginning with "S".
+-- [[Module:Portal/images/t]]       - for portal names beginning with "T".	
+-- [[Module:Portal/images/u]]       - for portal names beginning with "U".
+-- [[Module:Portal/images/v]]       - for portal names beginning with "V".
+-- [[Module:Portal/images/w]]       - for portal names beginning with "W".
+-- [[Module:Portal/images/x]]       - for portal names beginning with "X".
+-- [[Module:Portal/images/y]]       - for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]       - for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]   - for portal names beginning with any other letters. This includes numbers,
+--                                    letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]] - for adding aliases for existing portal names. Use this page for variations
+--                                    in spelling and diacritics, etc., no matter what letter the portal begins with.
+ 
+-- When adding entries, please use alphabetical order. The format of the images table entries is as follows:
+--          ["portal name"] = "image.svg",
+-- The portal name should be the name of your portal, in lower case. For example, the portal name for 
+-- "Portal:United Kingdom" would be "united kingdom". The image name should be capitalised normally, and the "File:"
+-- namespace prefix should be
+-- omitted.
+]==]
+
+return {
+	["babism"] = "Haykal2.gif|link=|alt=",
+	["baden-württemberg"] = "Flag of Baden-Württemberg.svg|border|link=|alt=flag",
+    ["badminton"] = "Badminton racquet.svg|link=|alt=",
+	["bahrain"] = "Flag of Bahrain.svg|border|link=|alt=flag",
+	["balochistan, pakistan"] = "Flag of Balochistan.svg|border|link=|alt=",
+	["baltic states"] = "Subdivisions of baltic states.svg|link=|alt=map",
+	["baltimore"] = "Seal of Baltimore, Maryland.png|link=|alt=seal",
+	["bangalore"] = "Bangalore Palace.jpg|alt=icon",
+	["bangladesh"] = "Flag of Bangladesh.svg|border|link=|alt=flag",
+	["banks"] = "All-currency-symbol.svg|link=|alt=icon|class=skin-invert-image",
+	["barbados"] = "Flag of Barbados.svg|border|link=|alt=flag",
+	["baseball"] = "Baseball.svg|link=|alt=icon",
+	["basketball"] = "Basketball Clipart.svg|link=|alt=icon",
+	["battleships"] = "BS Bismarck.png|alt=icon",
+	["bavaria"] = "Flag of Bavaria (lozengy).svg|border|alt=flag",
+	["bbc"] = "BBC Logo 2021.svg|link=|alt=|class=skin-invert-image",
+	["beer"] = "Projet bière logo v2.png|alt=icon",
+	["belarus"] = "Flag of Belarus.svg|border|link=|alt=flag",
+	["belgium"] = "Flag of Belgium.svg|border|link=|alt=flag",
+	["belize"] = "Flag of Belize.svg|border|link=|alt=flag",
+	["benin"] = "Flag of Benin.svg|border|link=|alt=flag",
+	["berkshire"] = "Flag of Berkshire.svg|link=|alt=flag",
+	["berlin"] = "Flag of Berlin (state).svg|border|link=|alt=flag",
+	["bermuda"] = "Flag of Bermuda.svg|border|link=|alt=flag",
+	["bhutan"] = "Flag of Bhutan.svg|border|link=|alt=flag",
+	["bible"] = "Bible.malmesbury.arp.jpg|link=|alt=",
+	["bihar"] = "Seal of Bihar.jpg|link=|alt=",
+	["biography"] = "P vip.svg|link=|alt=|class=skin-invert-image",
+	["biology"] = "Issoria lathonia.jpg|alt=icon",
+	["birds"] = "Eagle 01.svg|link=|alt=|class=skin-invert-image",
+	["blues"] = "Guit Blues.JPG|alt=icon",
+	["bohemia"] = "Flag of Bohemia.svg|border|link=|alt=flag",
+	["bolivia"] = "Flag of Bolivia.svg|border|link=|alt=flag",
+	["bonaire"] = "Flag of Bonaire.svg|border|link=|alt=flag",
+	["books"] = "Nuvola apps bookcase.svg|alt=icon",
+	["bosnia and herzegovina"] = "Flag of Bosnia and Herzegovina.svg|border|link=|alt=flag",
+	["boston"] = "Flag of Boston.svg|border|link=|alt=flag",
+	["botany"] = "Rosa villosa.jpg|alt=icon",
+	["botswana"] = "Flag of Botswana.svg|border|link=|alt=flag",
+	["brandenburg"] = "Flag of Brandenburg.svg|border|link=|alt=flag",
+	["brazil"] = "Flag of Brazil.svg|border|link=|alt=flag",
+	["brigham young university"] = "Brigham Young University medallion.svg|link=|alt=seal",
+	["bristol"] = "Bristol arms cropped.jpg|alt=icon",
+	["british columbia"] = "Flag of British Columbia.svg|border|link=|alt=flag",
+	["british empire"] = "British Empire 1897.jpg|link=|alt=",
+	["british indian ocean territory"] = "Flag of the British Indian Ocean Territory.svg|border|link=|alt=flag",
+	["british virgin islands"] = "Flag of the British Virgin Islands.svg|border|link=|alt=flag",
+	["brunei"] = "Flag of Brunei.svg|border|link=|alt=flag",
+	["buddhism"] = "Dharma Wheel (2).svg|alt=icon",
+	["bulgaria"] = "Flag of Bulgaria.svg|border|link=|alt=flag",
+	["burkina faso"] = "Flag of Burkina Faso.svg|border|link=|alt=flag",
+	["burundi"] = "Flag of Burundi.svg|border|link=|alt=flag",
+	["buses"] = "BSicon BUS.svg|link=|alt=|class=skin-invert-image",
+	["business and economics"] = "Emblem-money.svg|alt=icon",
+	["byzantine empire"] = "Flag of Palaeologus Dynasty.svg|border|link=|alt=flag"
+}

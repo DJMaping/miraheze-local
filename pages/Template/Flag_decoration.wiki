@@ -1,0 +1,16 @@
+<includeonly><!-- #Check for existence of Template: Country data foo before invoking it
+-->{{#ifexist: Template:Country data {{{1|}}}<!--
+-->|<!-- # It exists, so proceed
+    -->{{country data {{{1|}}}|flag decoration/core|variant={{{variant|{{{2|}}}}}}|size={{{size|}}}}}<!--
+-->|<!--# It doesn't exist, add to error category
+    --><small>Error: [[Template:Country data {{{1|}}}]] does not exist</small> {{namespace detect showall
+| 1 = 
+| 2 = [[Category:Flag decoration missing country data templates]]
+| user  = 1
+| talk  = 1
+| other = 2
+}}<!--
+-->}}<!--
+--></includeonly><noinclude>
+{{Documentation}}
+</noinclude>

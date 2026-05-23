@@ -1,0 +1,494 @@
+{{Documentation subpage}}
+{{Anchor|ombox}}
+{{ombox |type= content |imageright= [[File:Emblem-money.svg|42px]] |text= This template defaults to calculating the inflation of [[Consumer Price Index]] values: staples, workers' rent, small service bills (doctor's costs, train tickets). '''For inflating capital expenses, government expenses, or the personal wealth and expenditure of the rich''', the US-GDP or UK-GDP indexes should be used, which calculate inflation based on the [[gross domestic product]] (GDP) for the [[United States]] and [[United Kingdom]], respectively.}}
+{{ombox |type= content |imageright= [[File:Current event warning.svg|42px]] |text= <strong>Do not assume that using this template will mean that a calculated value is <em>"current"</em></strong>, <em>"as of {{CURRENTYEAR}}"</em>, <em>"as of {{#expr:{{CURRENTYEAR}}-1}}"</em> or even necessarily <em>"recent"</em>. Per [[MOS:REALTIME]], statements made using this template should either specify an <code>end_year</code>, or rely on {{para|fmt|eq}} or <strong>{{tlx|Inflation/year}}</strong> to automatically indicate the latest year this template provides an inflation calculation. <strong>Do not use <code><nowiki>{{CURRENTYEAR}}</nowiki></code>.</strong>}}
+{{High-use}}
+{{Never substitute}}
+{{TOC right}}
+
+This template calculates inflation based on several [[price index|inflation index]] data sets. The template uses an identification code for an inflation <code>index</code> (usually a [[Lists of country codes|country code]]), an original <code>value</code>, an original <code>start_year</code> and either a specific reference <code>end_year</code> or by default the latest currently available end year,<ref>How recently depends on how the data set for each country is constructed, and on the internal tables being updated accordingly every January. Some data tables provide inflation data up to December 31, {{#expr:{{CURRENTYEAR}}-1}}, others up to roughly June-July {{#expr:{{CURRENTYEAR}}-1}}, and others yet up to December 31, {{#expr:{{CURRENTYEAR}}-2}}.</ref> and calculates the equivalent value from historical economic changes between the original and reference years. For example, this template calls the United States inflation table located in the sub-template [[Template:Inflation/US/dataset]] to perform the U.S. calculation.
+
+Aside from a convenient way to calculate values from different specified time periods, this template allows a regularly automatically updated calculation of value based on the most recent available inflation data. Whenever inflation tables are updated, potentially annually, all articles using this template have their displayed values updated accordingly.
+
+For US currency (different from US-GDP), there is a simplified wrapper template, {{tl|USDCY}}, which turns e.g. "<code><nowiki>{{USDCY|6.66|1899}}</nowiki></code>" into "{{USDCY|6.66|1899}}".
+
+== Usage ==
+ {{Tlx|Inflation|''index''|''value''|''start_year''}}
+ {{Tlx|Inflation|''index''|''value''|''start_year''|''end_year''}}
+ {{Tlx|Inflation|''index''|''value''|''start_year''|5=r=''decimals''|6=fmt=c}}
+ {{Tlx|Inflation|''index''|''value''|''start_year''|5=r=''decimals''|6=fmt=eq}}
+ {{Tlx|Inflation|''index''|''value''|''start_year''|5=r=''decimals''|6=fmt=eq|7=cursign=X}}
+
+The supported countries are listed below, with their <code>index</code> and available data periods:
+
+{| class="wikitable sortable"
+! scope="col" | <code>index</code> !! scope="col" | Country !! scope="col" | <code>start_year</code> minimum !! scope="col" | <code>end_year</code> maximum
+|-
+!AR
+|Argentina{{Inflation/fn|AR}}
+|{{Inflation/AR/startyear}}
+|{{Inflation/year|AR}}
+|-
+!AT
+|Austria{{Inflation/fn|AT}}
+|{{Inflation/AT/startyear}}
+|{{Inflation/year|AT}}
+|-
+! scope="row" | AU
+| style="text-align:left;" | Australia{{Inflation/fn|AU}} || {{Inflation/AU/startyear}} || {{Inflation/year|AU}}
+|-
+! scope="row" | AU-road
+| style="text-align:left;" | Australia [...?]{{Inflation/fn|AU-road}} || {{Inflation/AU-road/startyear}} || {{Inflation/year|AU-road}}
+|-
+! scope="row" | BD
+| style="text-align:left;" | Bangladesh{{Inflation/fn|BD}} || {{Inflation/BD/startyear}} || {{Inflation/year|BD}}
+|-
+!BE
+|Belgium{{Inflation/fn|BE}}
+|{{Inflation/BE/startyear}}
+|{{Inflation/year|BE}}
+|-
+!BR
+|Brazil{{Inflation/fn|BR}}
+|{{Inflation/BR/startyear}}
+|{{Inflation/year|BR}}
+|-
+! scope="row" | CA
+| style="text-align:left;" | Canada{{Inflation/fn|CA}} || {{Inflation/CA/startyear}} || {{Inflation/year|CA}}
+|-
+!CH
+|Switzerland{{Inflation/fn|CH}}
+|{{Inflation/CH/startyear}}
+|{{Inflation/year|CH}}
+|-
+!CL
+|Chile{{Inflation/fn|CL}}
+|{{Inflation/CL/startyear}}
+|{{Inflation/year|CL}}
+|-
+!CN
+|China{{Inflation/fn|CN}}
+|{{Inflation/CN/startyear}}
+|{{Inflation/year|CN}}
+|-
+! scope="row" | DE
+| style="text-align:left;" | Germany{{Inflation/fn|DE}}{{dl}} || {{Inflation/DE/startyear}} || {{Inflation/year|DE}}
+|-
+!DK
+|Denmark{{Inflation/fn|DK}}
+|{{Inflation/DK/startyear}}
+|{{Inflation/year|DK}}
+|-
+!EG
+|Egypt{{Inflation/fn|EG}}
+|{{Inflation/EG/startyear}}
+|{{Inflation/year|EG}}
+|-
+!ES
+|Spain{{Inflation/fn|ES}}
+|{{Inflation/ES/startyear}}
+|{{Inflation/year|ES}}
+|-
+!EU
+|Euro (European Union){{Inflation/fn|EU}}
+|{{Inflation/EU/startyear}}
+|{{Inflation/year|EU}}
+|-
+!FI
+|Finland{{Inflation/fn|FI}}
+|{{Inflation/FI/startyear}}
+|{{Inflation/year|FI}}
+|-
+!FR
+|France{{Inflation/fn|FR}}
+|{{Inflation/FR/startyear}}
+|{{Inflation/year|FR}}
+|-
+!GR
+|Greece{{Inflation/fn|GR}}
+|{{Inflation/GR/startyear}}
+|{{Inflation/year|GR}}
+|-
+!HK
+|Hong Kong{{Inflation/fn|HK}}
+|{{Inflation/HK/startyear}}
+|{{Inflation/year|HK}}
+|-
+!ID
+|Indonesia{{Inflation/fn|ID}}
+|{{Inflation/ID/startyear}}
+|{{Inflation/year|ID}}
+|-
+!IL
+|Israel{{Inflation/fn|IL}}
+|{{Inflation/IL/startyear}}
+|{{Inflation/year|IL}}
+|-
+! scope="row" | IN
+| style="text-align:left;" | India{{Inflation/fn|IN}} || {{Inflation/IN/startyear}} || {{Inflation/year|IN}}
+|-
+! scope="row" | IR
+| style="text-align:left;" | Iran{{Inflation/fn|IR}}{{dl}} || {{Inflation/IR/startyear}}<ref name="IR calendar note>[[Iran]]'s CPI is calculated only in [[Solar Hijri calendar]] which is offset by -621/622 years to [[Common Era|CE]]</ref> || {{Inflation/year|IR}}<ref name="IR calendar note"/>
+|-
+!IS
+|Iceland{{Inflation/fn|IS}}
+|{{Inflation/IS/startyear}}
+|{{Inflation/year|IS}}
+|-
+!IT
+|Italy{{Inflation/fn|IT}}
+|{{Inflation/IT/startyear}}
+|{{Inflation/year|IT}}
+|-
+! scope="row" | JP
+| style="text-align:left;" | Japan{{Inflation/fn|JP}} || {{Inflation/JP/startyear}} || {{Inflation/year|JP}}
+|-
+!MX
+|Mexico{{Inflation/fn|MX}}
+|{{Inflation/MX/startyear}}
+|{{Inflation/year|MX}}
+|-
+!NL
+|Netherlands{{Inflation/fn|NL}}
+|{{Inflation/NL/startyear}}
+|{{Inflation/year|NL}}
+|-
+!NO
+|Norway{{Inflation/fn|NO}}
+|{{Inflation/NO/startyear}}
+|{{Inflation/year|NO}}
+|-
+!NZ
+|New Zealand{{Inflation/fn|NZ}}
+|{{Inflation/NZ/startyear}}
+|{{Inflation/year|NZ}}
+|-
+!PE
+|Peru{{Inflation/fn|PE}}
+|{{Inflation/PE/startyear}}
+|{{Inflation/year|PE}}
+|-
+! scope="row" | PH
+| style="text-align:left;" | Philippines{{Inflation/fn|PH}} || {{Inflation/PH/startyear}} || {{Inflation/year|PH}}
+|-
+! scope="row" | PK
+| style="text-align:left;" | Pakistan{{Inflation/fn|PK}} || {{Inflation/PK/startyear}} || {{Inflation/year|PK}}
+|-
+!PL
+|Poland{{Inflation/fn|PL}}
+|{{Inflation/PL/startyear}}
+|{{Inflation/year|PL}}
+|-
+!PT
+|Portugal{{Inflation/fn|PT}}
+|{{Inflation/PT/startyear}}
+|{{Inflation/year|PT}}
+|-
+!RU
+|Russia{{Inflation/fn|RU}}
+|{{Inflation/RU/startyear}}
+|{{Inflation/year|RU}}
+|-
+!SE
+|Sweden{{Inflation/fn|SE}}
+|{{Inflation/SE/startyear}}
+|{{Inflation/year|SE}}
+|-
+! scope="row" | SG
+| style="text-align:left;" | Singapore{{Inflation/fn|SG}} || {{Inflation/SG/startyear}} || {{Inflation/year|SG}}
+|-
+!TH
+|Thailand{{Inflation/fn|TH}}
+|{{Inflation/TH/startyear}}
+|{{Inflation/year|TH}}
+|-
+!TR
+|Turkey{{Inflation/fn|TR}}
+|{{Inflation/TR/startyear}}
+|{{Inflation/year|TR}}
+|-
+!TW
+|Taiwan{{Inflation/fn|TW}}
+|{{Inflation/TW/startyear}}
+|{{Inflation/year|TW}}<!-- |-
+! scope="row" | TEST
+| style="text-align:left;" | TEST{{Inflation/fn|TEST}} || {{Inflation/TEST/startyear}} || {{Inflation/year|TEST}} -->
+|-
+! scope="row" | UK
+| style="text-align:left;" | United Kingdom{{Inflation/fn|UK}} || {{Inflation/UK/startyear}} || {{Inflation/year|UK}}
+|-
+! scope="row" | UK-GDP
+| style="text-align:left;" | United Kingdom [[GDP deflator]]{{Inflation/fn|UK-GDP}} || {{Inflation/UK-GDP/startyear}} || {{Inflation/year|UK-GDP}}
+|-
+! scope="row" | US
+| style="text-align:left;" | United States{{Inflation/fn|US}} || {{Inflation/US/startyear}} || {{Inflation/year|US}}
+|-
+! scope="row" | US-GDP
+| style="text-align:left;" | United States [[GDP deflator]]{{Inflation/fn|US-GDP}} || {{Inflation/US-GDP/startyear}} || {{Inflation/year|US-GDP}}
+|-
+! scope="row" | ZAR
+| style="text-align:left;" | South Africa{{Inflation/fn|ZAR}} || {{Inflation/ZAR/startyear}} || {{Inflation/year|ZAR}}
+|-
+! scope="row" | KRW
+| style="text-align:left;" | South Korea{{Inflation/fn|KRW}} || {{Inflation/KRW/startyear}} || {{Inflation/year|KRW}}
+|-
+|}
+
+=== Parameters ===
+* {{para|index}} (parameter 1), <strong>required</strong>, an index code for one of several available inflation indexes.
+* {{para|value}} (parameter 2), <strong>required</strong>, original price or value from which to base the inflation calculation on. Will ignore any commas, but must not have a [[currency symbol]].
+* {{para|start_year}} (parameter 3), <strong>required</strong>, original year from which to base the inflation calculation on. Must be a year available in the chosen inflation index. As an exception to this, if the <em>current</em> year is specified and no <code>end_year</code> is specified, the template will output <code>value</code> unchanged, as it can be assumed an inflation of zero.
+* {{para|end_year}} (parameter 4), <strong>optional</strong>, reference year for which to calculate inflation. Must be higher (later) than <code>start_year</code>, but not higher than the highest (most recent) year available in the chosen inflation index, and will default to the highest (most recent) available year if omitted.
+* {{para|r|digit}} sets the digits to which the value must be rounded. A negative value indicates rounding to an upper significant digit, and a positive value indicates a [[fractional digit]] including [[trailing zeros]]. Defaults to <code>0</code>, i.e., without cents.
+* {{para|fmt|c}} will insert [[thousands separator]] commas into the calculated value.
+* {{para|fmt|eq}} will show an equivalent-to phrase, in the format, "{{xtn|equivalent to <code>cursign</code><code>end_value</code> in <code>end_year</code>}}". Uses [[thousands separator]] commas.
+** {{para|cursign}} will set the [[currency symbol]] to be shown. Only functions when {{para|fmt|eq}} is used. Can use advanced symbol formats, but can only precede the calculated value. Default is <code>$</code>.
+** {{para|orig|yes}} will display the original value too, with the currency sign provided.
+
+=== Examples ===
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|KRW|100|2000}}}}</code> → {{xt|{{Inflation|KRW|100|2000}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|DE|100|2000}}}}</code> → {{xt|{{Inflation|DE|100|2000}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|US|595|1982}}}}</code> → {{xt|{{Inflation|US|595|1982}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|US|595|1982|5=fmt=eq}}}}</code> → {{xt|{{Inflation|US|595|1982|fmt=eq}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|US|800|1942|5=fmt=eq|6=r=-3}}}}</code> → {{xt|{{Inflation|US|800|1942|fmt=eq|r=-3}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|US|100|2010|2012|6=fmt=eq|7=r=2}}}}</code> → {{xt|{{Inflation|US|100|2010|2012|fmt=eq|r=2}}}}
+* {{Aye}} <code>{{mxt|<nowiki>US$595</nowiki> ({{tlf|Inflation|US|595|1982|5=fmt=eq}})}}</code> → {{xt|US$595 ({{Inflation|US|595|1982|fmt=eq}})}}
+* {{Aye}} <code>{{mxt|<nowiki>US$595</nowiki> ({{tlf|Inflation|US|595|1982|5=fmt=eq|6=cursign=<nowiki>[[United States dollar|US$]]</nowiki>}})}}</code> → {{xt|US$595 ({{Inflation|US|595|1982|fmt=eq|cursign=[[United States dollar|US$]]}})}}
+* {{Aye}} <code>{{mxt|<nowiki>$21&amp;nbsp;million</nowiki> (equivalent to ${{tlf|Inflation|US|21|2005|5=r=2}}&amp;nbsp;million in {{tlf|Inflation/year|US}})}}</code> → {{xt|$21&nbsp;million (equivalent to ${{Inflation|US|21|2005|r=2}}&nbsp;million in {{Inflation/year|US}})}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|UK|1|1209|5=fmt=eq|6=cursign=£}}}}</code> → {{xt|{{Inflation|UK|1|1209|fmt=eq|cursign=£}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|AU|100|{{CURRENTYEAR}}|5=fmt=eq}}}}</code> → {{xt|{{Inflation|AU|100|{{CURRENTYEAR}}|fmt=eq}}}}
+* {{Aye}} <code>{{mxt|${{tlf|Inflation|US|100|{{CURRENTYEAR}}}}}} in {{mxt|{{tlf|Inflation/year|US}}}}</code> → {{xt|${{Inflation|US|100|{{CURRENTYEAR}}}} in {{Inflation/year|US}}}}
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|UK|100|1982|5=fmt=eq|6=orig=yes|7=cursign=£}}}}</code> → {{xt|{{Inflation|UK|100|1982|fmt=eq|orig=yes|cursign=£}}}}
+It is possible to use the template in incorrect ways without producing error messages. <strong>[[#ombox|Please read the warnings and appropriate uses of this template at the beginning of the template description]].</strong>
+
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|UK|10|1971|5=fmt=eq}}}}</code> → {{!xt|{{Inflation|UK|10|1971|fmt=eq}}}} (Omitting the {{para|cursign}} parameter will show the $ symbol by default, which is the wrong currency symbol for British currency)
+* {{Aye}} <code>{{mxt|{{tlf|Inflation|UK|10|1971|5=fmt=eq|6=cursign=£}}}}</code> → {{xt|{{Inflation|UK|10|1971|fmt=eq|cursign=£}}}}
+* {{Nay}} <code>{{!mxt|$595 (${{tlf|Inflation|US|595|1982|5=fmt=c}} today)}}</code> → {{!xt|$595 (${{Inflation|US|595|1982|fmt=c}} today)}} (Misleading time reference)
+* {{Nay}} <code>{{!mxt|$595 (${{tlf|Inflation|US|595|1982|5=fmt=c}} in {{tlf|CURRENTYEAR}})}}</code> → {{!xt|$595 (${{Inflation|US|595|1982|fmt=c}} in {{CURRENTYEAR}})}} (Misleading time reference)
+* {{Nay}} <code>{{!mxt|$100 (${{tlf|Inflation|US|595|1982|5=fmt=c}} adjusted for inflation)}}</code> → {{!xt|$100 (${{Inflation|US|595|1982|fmt=c}} adjusted for inflation)}} (Misleading time reference)
+* {{Aye}} <code>{{mxt|$595 ({{tlf|Inflation|US|595|1982|5=fmt=eq}})}}</code> → {{xt|$595 ({{Inflation|US|595|1982|fmt=eq}})}}
+* {{Aye}} <code>{{mxt|$595 (equivalent to ${{tlf|Inflation|US|595|1982|5=fmt=c}} in {{tlf|Inflation/year|US}})}}</code> → {{xt|$595 (equivalent to ${{Inflation|US|595|1982|fmt=c}} in {{Inflation/year|US}})}}
+* {{Nay}} <code>{{!mxt|Jane Doe amassed a fortune of $1 billion in 1975, making her worth ${{tlf|Inflation|US|1|1975|5=fmt=c}} billion in {{tlf|Inflation/year|US}}.}}</code> → {{!xt|Jane Doe amassed a fortune of $1 billion in 1975, making her worth ${{Inflation|US|1|1975|fmt=c}} billion in {{Inflation/year|US}}.}} (CPI is not for personal wealth of the wealthy – use GDP deflator instead)
+* {{Nay}} <code>{{!mxt|Jane Doe amassed a fortune of $1 billion in 1975, equivalent to ${{tlf|Inflation|US|1|1975|5=fmt=c}} billion in {{tlf|Inflation/year|US}}.}}</code> → {{!xt|Jane Doe amassed a fortune of $1 billion in 1975, equivalent to ${{Inflation|US|1|1975|fmt=c}} billion in {{Inflation/year|US}}.}} (CPI is not for personal wealth of the wealthy – use GDP deflator instead)
+* {{Aye}} <code>{{mxt|Jane Doe amassed a fortune of $1 billion in 1975, equivalent to ${{tlf|Inflation|US-GDP|1|1975|5=fmt=c}} billion in {{tlf|Inflation/year|US-GDP}}.}}</code> → {{xt|Jane Doe amassed a fortune of $1 billion in 1975, equivalent to ${{Inflation|US-GDP|1|1975|fmt=c}} billion in {{Inflation/year|US-GDP}}}}
+
+Entering invalid parameters or omitting required parameters will result in an error message and categorization into [[:Category:Pages with errors in inflation template]].
+
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation}}}}</code> → {{Inflation|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|abc}}}}</code> → {{Inflation|abc|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU}}}}</code> → {{Inflation|AU|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100}}}}</code> → {{Inflation|AU|100|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|abc|€100|1980}}}}</code> → {{Inflation|abc|€100|1980|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|DE|€100|1980}}}}</code> → {{Inflation|DE|€100|1980|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|DE|€100|zzzz|zzzz|6=r=zzzz}}}}</code> → {{Inflation|DE|€100|zzzz|zzzz|r=zzzz|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100|1200|{{#expr:{{CURRENTYEAR}}+1}}}}}}</code> → {{Inflation|AU|100|1200|{{#expr:{{CURRENTYEAR}}+1}}|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100|2005|2004}}}}</code> → {{Inflation|AU|100|2005|2004|nocat=y}} (see the Limitations section below)
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100|2005|{{#expr:{{CURRENTYEAR}}+1}}|6=fmt=eq}}}}</code> → {{Inflation|AU|100|2005|{{#expr:{{CURRENTYEAR}}+1}}|fmt=eq|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100|{{CURRENTYEAR}}|{{#expr:{{CURRENTYEAR}}+1}}|6=fmt=eq}}}}</code> → {{Inflation|AU|100|{{CURRENTYEAR}}|{{#expr:{{CURRENTYEAR}}+1}}|fmt=eq|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100|{{CURRENTYEAR}}|1905|6=fmt=eq}}}}</code> → {{Inflation|AU|100|{{CURRENTYEAR}}|1905|fmt=eq|nocat=y}}
+* {{Nay}} <code>{{!mxt|{{tlf|Inflation|AU|100|{{#expr:{{CURRENTYEAR}}+1}}|5=fmt=eq}}}}</code> → {{Inflation|AU|100|{{#expr:{{CURRENTYEAR}}+1}}|fmt=eq|nocat=y}}
+
+=== Tips & tricks ===
+==== Currency conversion ====
+Many datasets are currency agnostic, which means they don't convert between different currencies (or for currency redenominations). Thus, if you wanted to know today's equivalent value of 1,000.00 [[Austrian schilling]]s in 1960, entering {{Tlx|Inflation|AT|1000|1960|5=r=2}} would provide a result ({{xtn|{{Inflation|AT|1000|1960|r=2}}}}) still in schillings, not in [[euro]]s.
+
+Consequently, if you need a result in a currency other than the one in which the original value is stated, for now you must do the conversion manually, as in the following example which uses the defined conversion rate of 13.7603 schillings to one Euro:
+
+* {{Aye}} <code>{{mxt|<nowiki>{{Euro| {{#expr:</nowiki>({{tlf|Inflation|AT|1000|1960|5=r=2}}<nowiki> / 13.7603) round 2}}</nowiki>}} }}</code> → {{xt|{{Euro| {{#expr:({{Inflation|AT|1000|1960|r=2}} / 13.7603) round 2}} }}}}
+
+Instead of manually inputting a conversion for the Euro from a national currency, it is possible to divide by {{Tlx|FixedEuroRate}} instead; for conversion to USD, use {{Tlx|International dollars}}.
+
+* {{Aye}} <code>{{mxt|<nowiki>{{Euro| {{#expr:</nowiki>({{tlf|Inflation|AT|1000|1960|5=r=2}}<nowiki> / {{FixedEuroRate|ATS}}) round 2}}</nowiki>}} }}</code> → {{xt|{{Euro| {{#expr:({{Inflation|AT|1000|1960|r=2}} / {{FixedEuroRate|ATS}}) round 2}} }}}}
+
+Some datasets are not currency agnostic; check the sources for each dataset to determine this. 
+
+{{Tlx|FXConvert}} provides the ability to convert between some currencies/indices currently used in the inflation template.
+
+See also: {{tl|To USD}} and {{tl|To USD round}}.
+
+==== Non-decimal inputs ====
+The template does not accept non-decimal inputs such as [[£sd]]; these must be decimalized beforehand. For example, if you wanted to know the value of three shillings and sixpence (3s 6d) Sterling in 1950 in 2018, you must convert to the appropriate decimal value (in this case £0.175) for use in the template:
+
+* {{Aye}} <code>{{mxt|<nowiki>{{Inflation|GBP|0.175|1950|2018}}</nowiki>}}</code> → {{xt|{{Inflation|GBP|0.175|1950|2018}}}}
+
+For £sd specifically {{tl|Pounds, shillings, and pence}} can be used to convert to decimal.  For other non-decimal currencies, such as the old [[Indian rupee]], templates can be made for decimalization upon request.
+
+* {{Aye}} <code>{{mxt|<nowiki>{{Inflation|GBP|{{Pounds, shillings, and pence|s=3|d=6}}|1950|2018|r=0|fmt=eq|cursign=£}}</nowiki>}}</code> → {{xt|{{Inflation|UK|{{Pounds, shillings, and pence|s=3|d=6}}|1950|2018|r=0|fmt=eq|cursign=£}}}}
+
+* {{Aye}} <code>{{mxt|<nowiki>{{Inflation|UK|{{Pounds, shillings, and pence|s=10|d=6}}|1865|fmt=eq|cursign=£}}</nowiki>}}</code> → {{xt|{{Inflation|UK|{{Pounds, shillings, and pence|s=10|d=6}}|1865|fmt=eq|cursign=£}}}}
+
+==== Rounding ====
+By default the values are calculated to the unit, as for all but very low values cents are undesirable. You can specify rounding with the {{para|r}} parameter which determines the number of decimals. To obtain cents use {{para|r|2}}, but other values can be used, including negative ones: {{para|r|-3}}, for example, will round to the nearest thousand, {{para|r|-6}} to the nearest million, and so on. It is advisable to avoid [[false precision]]; even if the start value is known to be exact, the template's result will not be because the inflation index tables are rarely accurate to more than about 1%, and a granularity of whole years is used.
+
+;Rounding examples
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=3'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=3}}}} (3 decimal places)
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=2'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=2}}}} (2 decimal places)
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=1'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=1}}}} (1 decimal place)
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=0'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=0}}}} (whole number)
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=-1'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=-1}}}} (-1 decimal place)
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=-2'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=-2}}}} (-2 decimal place)
+*<code><nowiki>{{formatnum:{{Inflation|US|2923706.9|2009|2023|</nowiki>'''r=-3'''<nowiki>}}}}</nowiki></code> &rarr; {{formatnum:{{Inflation|US|2923706.9|2009|2023|r=-3}}}} (-3 decimal place)
+
+==== Very large results ====
+Very large results are expressed in scientific notation ("1.2E+14" instead of "120000000000000") which is normally not desirable. A workaround is to express the value to be inflated with fewer digits, adding a multiplier text such as "trillion" after the result, using the "Show preview" button as many times as needed, changing parameters until the best result is found:
+
+* {{Aye}} <code>{{mxt|${{tlf|Inflation|US-GDP|1000000000000|1900|5=r=-11|6=fmt=c}}}}</code> → {{xt|${{Inflation|US-GDP|1000000000000|1900|r=-11|fmt=c}}}}
+* {{Nay}} <code>{{!mxt|${{tlf|Inflation|US-GDP|10000000000000|1900|5=r=-12|6=fmt=c}}}}</code> → {{!xt|${{Inflation|US-GDP|10000000000000|1900|r=-12|fmt=c}}}}
+* {{Nay}} <code>{{!mxt|${{tlf|Inflation|US-GDP|10000000000|1900|5=r=-9|6=fmt=c}}&amp;nbsp;'''thousand'''}}</code> → {{!xt|${{Inflation|US-GDP|10000000000|1900|r=-9|fmt=c}}&nbsp;thousand}}
+* {{Aye}} <code>{{mxt|${{tlf|Inflation|US-GDP|10000000|1900|5=r=-6|6=fmt=c}}&amp;nbsp;'''million'''}}</code> → {{xt|${{Inflation|US-GDP|10000000|1900|r=-6|fmt=c}}&nbsp;million}}
+* {{Aye}} <code>{{mxt|${{tlf|Inflation|US-GDP|10000|1900|5=r=-3|6=fmt=c}}&amp;nbsp;'''billion'''}}</code> → {{xt|${{Inflation|US-GDP|10000|1900|r=-3|fmt=c}}&nbsp;billion}}
+* {{Aye}} <code>{{mxt|${{tlf|Inflation|US-GDP|10|1900|5=fmt=c}}&amp;nbsp;'''trillion'''}}</code> → {{xt|${{Inflation|US-GDP|10|1900|fmt=c}}&nbsp;trillion}}
+
+The following section provides an automated way of avoiding this trial and error scenario.
+
+==== Format price ====
+{{Tlx|Format price}} is a template specifically designed to display price values, both big and small, in a readable way. For example, instead of showing the whole of a huge number such as "953,783,409,856.12", it would show it as "{{Format price|953783409856.12}}", while small numbers have their cents part appearing as expected, "1234.5" being properly shown as "{{Format price|1234.5}}".
+
+* {{Aye}} <code>{{mxt|$<nowiki>{{</nowiki>[[Template:Format price|Format price]]<nowiki>|</nowiki>{{tlf|Inflation|US-GDP|10000000000000|1900}}<nowiki>}}</nowiki>}}</code> → {{xt|${{Format price|{{Inflation|US-GDP|10000000000000|1900}}}}}}
+* {{Aye}} <code>{{mxt|$<nowiki>{{</nowiki>[[Template:Format price|Format price]]<nowiki>|</nowiki>{{tlf|Inflation|US-GDP|1000000|1990}}<nowiki>}}</nowiki>}}</code> → {{xt|${{Format price|{{Inflation|US-GDP|1000000|1990}}}}}}
+* {{Aye}} <code>{{mxt|DM <nowiki>{{</nowiki>[[Template:Format price|Format price]]<nowiki>|</nowiki>{{tlf|Inflation|DE|1000000|1957|1978}}<nowiki>}}</nowiki>}}</code> → {{xt|DM {{Format price|{{Inflation|DE|1000000|1957|1978}}}}}}
+* {{Aye}} <code>{{mxt|£<nowiki>{{</nowiki>[[Template:Format price|Format price]]<nowiki>|</nowiki>{{tlf|Inflation|UK-GDP|1000|1323}}<nowiki>}}</nowiki>}}</code> → {{xt|£{{Format price|{{Inflation|UK|1000|1323}}}}}}
+
+==== Citing inflation data sources ====
+It's a good practice to provide a valid reference for the prices calculated with this template in articles where it's used. The template {{Tl|Inflation/fn|''country''}} was developed to ease this task. It accepts as its single parameter the same country codes used here, and will generate one or more appropriate footnotes. Typically, this is how a piece of text using it looks:
+
+* <code><nowiki>In 1985 a unit cost on average $1,040. This is {{Inflation|US|1040|1985|fmt=eq}}.{{Inflation/fn|US}}</nowiki></code>
+
+Resulting in this converted code (notice the footnote link at the end):
+
+* In 1985 a unit cost on average $1,040. This is {{Inflation|US|1040|1985|fmt=eq}}.{{Inflation/fn|US}}
+
+The footnote thus generated appears whenever {{Tlx|reflist}} or <code><nowiki><references /></nowiki></code> is used in an article, usually in its "References" section. See below for the live example in this document's own [[Template:Inflation#References|References]] section, or click the above generated footnote to jump to it.
+
+=== Limitations ===
+# Currently it isn't possible to "de-inflate" a value to what it would have been in a previous year. If you need this functionality, please request it at the [[Template talk:Inflation|talk page]]. Adding it won't be difficult, but there's no point in doing so before someone actually needs it.
+# [[Wikipedia:substitution|Substitution]] isn't supported at all. Trying to <code><nowiki>{{subst:</nowiki>[[Template:Inflation|Inflation]]<nowiki>|...}}</nowiki></code> would only result in a long sequence of embedded parser code without any direct benefit. If you need to obtain an inflated price only once, please use the special [[Special:ExpandTemplates|ExpandTemplates]] page then copy the result and paste it at the desired location.
+
+== Developer documentation ==
+An inflation series represents templates in the following categories:
+
+* Template:Inflation/''index''
+* Template:Inflation/''index''/dataset
+* Template:Inflation/''index''/startyear
+* Template:Inflation/doc/''index'' (Which is then displayed at Inflation/name/dataset as the documentation, and needs to refer to the original data source)
+Modifications need to be made to:
+* [[Template:Inflation/fn]]
+* [[Template:Inflation/year]]
+
+Current subpages:
+
+{{list subpages|Inflation|Template}}
+
+=== Useful sources ===
+* [https://www.bis.org/statistics/cp.htm Bank of International Settlements]: Has long term data for more than 50 countries and is updated regularly.
+* [http://gpih.ucdavis.edu/Datafilelist.htm Global Price and Income History Group]: Partially duplicates the above sources, but has a lot of pre-1950s data on many parts of the world.
+* [https://web.archive.org/web/20230327191500/https://iisg.amsterdam/en/blog/research/projects/hpw/datafiles Historical Prices and Wages (HPW): Datafiles]: Includes [https://datasets.iisg.amsterdam/file.xhtml?fileId=13634&version=2.0 inflation 1800–2000], which has data for ~50 countries, most dating back to the early 20th century and ending in 2007, and various other very long term datafiles.
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"value": {
+			"aliases": [
+				"2"
+			],
+			"label": "Value",
+			"description": "Original price or value from which to base the inflation calculation on. Will ignore any commas.",
+			"example": "1000",
+			"type": "number",
+			"required": true
+		},
+		"start_year": {
+			"aliases": [
+				"3"
+			],
+			"label": "Start year",
+			"description": "Original year from which to base the inflation calculation on. Must be a year available in the chosen inflation index. As an exception to this, if the current year is specified and no 'End year' is specified, the template will output value unchanged, as it can be assumed an inflation of zero.",
+			"example": "1975",
+			"type": "number",
+			"required": true
+		},
+		"index": {
+			"aliases": [
+				"1"
+			],
+			"label": "Index",
+			"description": "An index code for one of several available inflation indexes. One of AU, AU-road, BD, CA, DE, IN, JP, PH, PK, UK, UK-GDP, US, US-GDP, ZAR, and various others.",
+			"example": "US",
+			"type": "string",
+			"required": true
+		},
+		"end_year": {
+			"aliases": [
+				"4"
+			],
+			"label": "End year",
+			"description": "Reference year for which to calculate inflation. Must be higher (later) than 'Start year', but not higher than the highest (most recent) year available in the chosen inflation index, and will default to the highest (most recent) available year if omitted.",
+			"example": "2015",
+			"type": "number"
+		},
+		"r": {
+			"label": "Number of digits",
+			"description": "Sets the digits to which the value must be rounded. A negative value indicates rounding to an upper significant digit, and a positive value indicates a fractional digit including trailing zeros. Defaults to 0. When used in mainspace, this should be set to the number of significant figures the source value has.",
+			"example": "1",
+			"type": "number",
+			"default": "0",
+			"required": true
+		},
+		"fmt": {
+			"label": "Format",
+			"description": "\"c\" will insert thousands separator commas into the calculated value. \"eq\" will show an equivalent-to phrase, in the format, \"equivalent to (cursign)(end_value) in (end_year)\". Uses thousands separator commas.",
+			"example": "eq",
+			"type": "string"
+		},
+		"cursign": {
+			"label": "Currency sign",
+			"description": "Sets the currency symbol to be shown. Only functions when Format \"eq\" is used. Can use advanced symbol formats, but can only precede the calculated value. Default is $.",
+			"example": "€",
+			"type": "string",
+			"default": "$"
+		}
+	},
+	"paramOrder": [
+		"index",
+		"value",
+		"start_year",
+		"end_year",
+		"r",
+		"fmt",
+		"cursign"
+	],
+	"format": "inline",
+	"description": "This template calculates inflation based on several inflation index data sets. \n\nNote that this template defaults to calculating the inflation of Consumer Price Index values: staples, workers' rent, small service bills (doctor's costs, train tickets). For inflating capital expenses, government expenses, or the personal wealth and expenditure of the rich, the US-GDP or UK-GDP indexes should be used, which calculate inflation based on the [[gross domestic product]] (GDP) for the [[United States]] and [[United Kingdom]], respectively."
+}
+</templatedata>
+
+== See also ==
+* {{Cl|Currency conversion templates}}
+* [[:Category:Currency templates]]
+* [[c:Category:Tabular data of consumer price indices|Tabular data of consumer price indices]]
+* [[Consumer Price Index (United Kingdom)]]
+* [[Consumer price index]]
+* {{Tl|Format price}}
+* [[GDP deflator]]
+* [[Harmonised Index of Consumer Prices]]
+* [[Inflation]]
+* {{Tl|Inflation/fn}}
+* {{Tl|Inflation/year}}
+* [[List of circulating currencies]]
+* [[Lists of country codes]]
+* [[United States Consumer Price Index]]
+
+== References ==
+{{Reflist|33em}}
+
+{{Math templates|conversion}}
+
+<includeonly>{{Sandbox other||
+<!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Inflation calculation templates]]
+[[Category:Economics formatting and function templates]]
+[[Category:Finance formatting and function templates]]
+[[Category:United States economic templates]]
+}}</includeonly>

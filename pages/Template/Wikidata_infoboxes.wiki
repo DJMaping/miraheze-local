@@ -1,0 +1,32 @@
+{{Navbox
+| name       = Wikidata infoboxes
+| title      = Infoboxes using Wikidata
+| listclass  = hlist
+| state      = {{{state|}}}
+| list1     =
+* {{t|Biota infobox/Wikidata}}
+* {{t|Infobox archive/wikidata}}
+* {{t|Infobox artwork/wikidata}}
+* {{t|Infobox book/wikidata}}
+* {{t|Infobox expedition/Wikidata}}
+* {{t|Infobox library/wikidata}}
+* {{t|Infobox museum/wikidata}}
+* {{t|Infobox noble/Wikidata}}
+* {{t|Infobox organization/Wikidata}}
+* {{t|Infobox person/Wikidata}}
+* {{t|Infobox power station}}
+* {{t|Infobox product}}
+* {{t|Infobox religious biography/Wikidata}}
+* {{t|Infobox scientist/Wikidata}}
+* {{t|Infobox settlement/Wikidata}}
+* {{t|Infobox sportsperson/Wikidata}}
+* {{t|Infobox telescope}}
+* {{t|Infobox theatre/wikidata}}
+* {{t|Infobox university/wikidata}}
+* {{t|Infobox writer/Wikidata}}
+* {{t|Ordination}}
+}}
+
+<noinclude>
+[[Category:Documentation see also templates]]
+</noinclude>

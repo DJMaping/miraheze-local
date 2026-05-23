@@ -1,0 +1,4 @@
+<onlyinclude><includeonly>{{safesubst:<noinclude/>#invoke:Uses TNT|main}}</includeonly></onlyinclude>
+{{Uses TNT|Module:TNT/testcases|nocat=1}}
+{{Documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->

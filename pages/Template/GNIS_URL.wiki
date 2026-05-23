@@ -1,0 +1,6 @@
+{{#switch:{{{type|}}}
+  |antarid=https://web.archive.org/web/2020/https://geonames.usgs.gov/apex/f?p=gnispq:5:::NO::P5_ANTAR_ID:{{urlencode:{{{1|{{{id|}}}}}}}}
+  |retired|archived=https://gnis-ld.org/lod/gnis/feature/{{urlencode:{{{1|{{{id|}}}}}}}}
+  |#default=https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names/{{urlencode:{{{1|{{{id|}}}}}}}}}}<noinclude>
+{{Documentation}}
+</noinclude>

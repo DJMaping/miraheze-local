@@ -1,0 +1,61 @@
+local p = {}
+
+function p.getRedirectToNamespace(frame)
+	titleObject = mw.title.getCurrentTitle() -- check if this is a redirect
+	if titleObject.redirectTarget then
+		targetNamespace = titleObject.redirectTarget.nsText
+		return targetNamespace
+	end
+	return "Notaredirect"
+end
+
+function p.getTalkPage(frame) -- this is code written to check for the criteria to apply {{R to talk page}} - essentially, whether the redirect is outside of, and going into, a talk namespace
+	titleObject = mw.title.getCurrentTitle() -- check if this is a redirect
+	if titleObject.redirectTarget then
+		if not titleObject.isTalkPage then -- the current page is NOT a talk page
+			if titleObject.redirectTarget.isTalkPage then -- the target page IS a talk page
+				return "Yes"
+			end
+		end
+		return "No"
+	end
+	return "Notaredirect"
+end
+
+function p.getSubpageStatus(frame)
+	titleObject = mw.title.getCurrentTitle()
+	if titleObject.redirectTarget then -- check if this is a redirect
+		pageIsSubpage = titleObject.isSubpage
+		targetIsSubpage = titleObject.redirectTarget.isSubpage
+		if (pageIsSubpage or targetIsSubpage) then
+			if (pageIsSubpage and targetIsSubpage) then
+				return "Both" -- both are subpages, return three
+			elseif pageIsSubpage then
+				return "Onlypage" -- just the page is a subpage, target isn't, return one
+			else
+				return "Onlytarget" -- just the target is a subpage, the page isn't, return two
+			end
+		else -- neither page nor target is a subpage, return zero
+			return "Neither"
+		end
+	end
+	return "Notaredirect"
+end
+
+function p.toDisambig(frame) -- this checks if the page title contains (disambiguation), as well as if it's a talkpage
+	titleObject = mw.title.getCurrentTitle()
+	if titleObject.redirectTarget then -- check if this is a redirect
+		if string.match(titleObject.text, "(disambiguation)") then -- title contains (disambiguation)
+			if titleObject.isTalkPage then -- this is a talk page ({{R from unnecessary disambiguation}})
+				return "Talk"
+			else -- this is not a talkpage ({{R to disambiguation page}})
+				return "Article"
+			end
+		else -- title does not contain "(disambiguation)"
+			return "No"
+		end
+	end
+	return "Notaredirect"
+end
+
+return p

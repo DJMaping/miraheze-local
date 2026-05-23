@@ -1,0 +1,174 @@
+local yesno = require('Module:Yesno')
+local p = {}
+
+local function makeData(args)
+	local data = {}
+
+	-- Main table classes
+	data.classes = {}
+	if yesno(args.metadata) ~= false then
+		table.insert(data.classes, 'metadata')
+	end
+	if args.position and args.position:lower() == 'left' then
+		table.insert(data.classes, 'side-box-left')
+	else
+		table.insert(data.classes, 'side-box-right')
+	end
+	
+	if args.collapsible then
+		table.insert(data.classes, 'mw-collapsible')
+		if args.collapsible == "collapsed" then
+			table.insert(data.classes, 'mw-collapsed')
+		end
+		data.collapsible = true
+	end
+
+	table.insert(data.classes, args.class)
+	
+	-- Image
+	if args.image and args.image ~= 'none' then
+		data.image = args.image
+	end
+	
+	-- we have to check to see if a downstream use has plainlist like
+	-- Template:Sister_project. also it's the default. wikitext is :(
+	if args.textclass == 'plainlist' or not args.textclass then
+		data.textclass = 'plainlist'
+		data.plainlist_templatestyles = 'Plainlist/styles.css'
+	else
+		data.textclass = args.textclass
+	end
+
+	-- Copy over data that does not need adjusting
+	local argsToCopy = {
+		-- aria qualities
+		'role',
+		'labelledby',
+
+		-- Styles
+		'style',
+		'textstyle',
+		'templatestyles',
+
+		-- Above row
+		'above',
+		'abovestyle',
+
+		-- Body row
+		'text',
+		'imageright',
+
+		-- Below row
+		'below',
+	}
+	for i, key in ipairs(argsToCopy) do
+		data[key] = args[key]
+	end
+
+	return data
+end
+
+local function renderSidebox(data)
+	-- Renders the sidebox HTML.
+
+	-- Table root
+	local root = mw.html.create('div')
+	root:attr('role', data.role)
+		:attr('aria-labelledby', data.labelledby)
+		:addClass('side-box')
+	for i, class in ipairs(data.classes or {}) do
+		root:addClass(class)
+	end
+	if data.style then
+		root:cssText(data.style)
+	end
+	
+	local frame = mw.getCurrentFrame()
+	if data.plainlist_templatestyles then
+		root:wikitext(frame:extensionTag{
+			name = 'templatestyles', args = { src = data.plainlist_templatestyles }
+		})
+	end
+
+	-- The "above" row
+	if data.above then
+		local above = root:newline():tag('div')
+		above:addClass('side-box-abovebelow')
+			:newline()
+			:wikitext(data.above)
+		if data.textstyle then
+			above:cssText(data.textstyle)
+		end
+		if data.abovestyle then
+			above:cssText(data.abovestyle)
+		end
+	end
+
+	-- The body row
+	local body = root:newline():tag('div')
+		body:addClass('side-box-flex')
+			:addClass(data.collapsible and 'mw-collapsible-content')
+			:newline()
+	if data.image then
+		body:tag('div')
+			:addClass('side-box-image')
+			:wikitext(data.image)
+	end
+	local text = body:newline():tag('div')
+	text:addClass('side-box-text')
+		:addClass(data.textclass)
+	if data.textstyle then
+		text:cssText(data.textstyle)
+	end
+	text:wikitext(data.text)
+	if data.imageright then
+		body:newline():tag('div')
+			:addClass('side-box-imageright')
+			:wikitext(data.imageright)
+	end
+
+	-- The below row
+	if data.below then
+		local below = root:newline():tag('div')
+		below
+			:addClass('side-box-abovebelow')
+			:wikitext(data.below)
+		if data.textstyle then
+			below:cssText(data.textstyle)
+		end
+	end
+
+	root:newline()
+	local templatestyles = ''
+	if data.templatestyles then
+		templatestyles = frame:extensionTag{
+			name = 'templatestyles', args = { src = data.templatestyles }
+		}
+	end
+	return frame:extensionTag{
+		name = 'templatestyles', args = { src = 'Module:Side box/styles.css' }
+	} .. templatestyles .. tostring(root)
+end
+
+-- private, export for testing
+p._makeData = makeData
+p._renderSidebox = renderSidebox
+
+function p._main(args)
+	local data = makeData(args)
+	return renderSidebox(data)
+end
+
+function p.main(frame)
+	local origArgs = frame:getParent().args
+	local args = {}
+	for k, v in pairs(origArgs) do
+		v = v:match('%s*(.-)%s*$')
+		if v ~= '' then
+			args[k] = v
+		end
+	end
+	return p._main(args)
+end
+
+return p

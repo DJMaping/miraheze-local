@@ -1,0 +1,15 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Mali
+| flag alias = Flag of Mali.svg
+| flag alias-1959 = Flag of Mali (1959-1961).svg
+| link alias-army = Malian Army
+| link alias-air force = Malian Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1959
+| redir1 = MLI
+</noinclude>
+}}

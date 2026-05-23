@@ -1,0 +1,121 @@
+{{Documentation subpage}}
+{{tsh|mfn|more fn}}
+{{High-use| 36980 }}
+{{Twinkle standard installation}}
+{{AWB standard installation}}
+==When to use==
+This template indicates that the article [[Wikipedia:Citing sources|cites]] a sufficient number of [[Wikipedia:Reliable sources|reliable sources]], but uses an ''inappropriate'' combination of inline citations and [[WP:Citing sources#General_reference|general references]]. All material in articles must be [[WP:Verifiability|verifiable]], but outside of [[WP:Featured articles|featured articles]] and [[WP:Good article criteria|good articles]] Wikipedia does not require the use of inline citations except to support [[direct quotations]], material that has been challenged or is likely to be challenged and contentious material about [[Wikipedia:Biographies of living persons|living persons]].
+
+An [[WP:INCITE|inline citation]] is ''any'' system that associates a given piece of an article with a specific citation. Do not add this tag to articles that use the "wrong" style of inline citation.
+
+For articles that do not contain any general references, but that need a greater number of citations, use {{tl|More citations needed}} instead.
+
+== How to use ==
+
+To add this template to an article, copy and paste:
+* {{tlx|{{PAGENAME}}|<nowiki>{{subst:DATE}}</nowiki>}}
+:or
+* {{tlx|{{PAGENAME}}|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+
+Both options result in the same output.
+
+The template can be placed in the article's "References" section, or, as appropriate for the citation style, "Notes" section.
+
+An optional unnamed parameter:
+*{{tlx|{{PAGENAME}}|section|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+will change the word "article" in "This article...", e.g. <code>{{tlx|{{PAGENAME}}|list}}</code> or {{tlx|{{PAGENAME}}|table}}.  When used this way, the template cannot be placed in the "References" section.
+
+This template will add the article to [[:Category:Articles lacking in-text citations]].
+
+The template also has an optional {{para|BLP}} parameter. If its value is <var>yes</var>, this will indicate that the article is a [[WP:Biographies of living persons |biography of a living person]], which have higher standards for further reading and external links.
+
+You can add {{para|small|yes}} to make the template smaller and left-justified. This form factor is primarily used with {{para||section}} and when the template is put in the References section (typically after {{tlx|Reflist}} and before a pile of "general references" that are not cited inline in the article).
+
+To change the output "largely unverified" to "partially unverified", use the parameter {{para|partial|yes}} or {{para|partial|y}}.  This is appropriate for article that do have a significant number of inline citations but which also have a pile of references that have not been cited inline.  (Do not confuse this with articles that in one section of references use short inline citations to the same works more fully specified in a second references section.)
+
+The following parameter is obsolete and deprecated: {{para|{{strongbad|suffix}}}} (simply use the first unnamed parameter).
+
+==Examples==
+
+{{demo|<nowiki>{{More footnotes needed|section|date=February 2011}}</nowiki>}}
+<br />
+{{demo|<nowiki>{{More footnotes needed|BLP=yes|date=February 2011}}</nowiki>}}
+
+== Template Data ==
+{{TemplateData header}}
+<TemplateData>
+{
+	"description": "Indicates that the article cites a sufficient number of reliable sources, but uses an inappropriate combination of inline citations and general references.",
+	"format": "inline",
+	"params": {
+		"1": {
+			"label": "Type",
+			"description": "Indicate a part of the page that the template is referring to instead of the entire article, typically \"section\"",
+			"type": "string",
+			"example": "section"
+		},
+		"date": {
+			"label": "Date",
+			"description": "Date the template was added",
+			"required": true,
+			"type": "string",
+			"autovalue": "{{SUBST:CURRENTMONTHNAME}} {{SUBST:CURRENTYEAR}}",
+			"example": "April 2016"
+		},
+		"BLP": {
+			"label": "Biography of Living Persons",
+			"description": "Whether this is a biography of a living person. If the parameter's value is 'yes', this will indicate that the article is a biography of a living person, which has higher standards for further reading and external links.",
+			"type": "string",
+			"aliases": [
+				"blp"
+			],
+			"example": "yes"
+		},
+		"partial": {
+			"label": "Partially unsourced",
+			"description": "Changes the wording 'largely unsourced' to 'partially unsourced' for cases in which many inline citations are present along with a list of sources not yet used in inline citations.",
+			"type": "string",
+			"example": "yes"
+		},
+		"small": {
+			"label": "Small",
+			"description": "Make the template smaller and left-justified. This form factor is primarily used with the \"section\" parameter and when the template is put in the References section (typically after {{Reflist}} and before a pile of \"general references\" that are not cited inline in the article). ",
+			"example": "yes",
+			"type": "string"
+		},
+		"suffix": {
+			"label": "Suffix",
+			"deprecated": "Use the \"type\" parameter instead",
+			"description": "Deprecated",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"1",
+		"date",
+		"BLP",
+		"partial",
+		"small",
+		"suffix"
+	]
+}
+</TemplateData>
+
+== Redirects ==
+{{div col|colwidth=25em}}
+{{Special:WhatLinksHere/Template:More footnotes needed|hidetrans=1|hidelinks=1|limit=100}}
+{{div col end}}
+
+== See also ==
+* {{tl|Further reading cleanup}} &ndash; for articles with a properly cited "References" section and an uncited "Further reading" section
+* [[Help:Footnotes]]
+* [[Wikipedia:Citing sources]]
+* [[Wikipedia:Citation templates]]
+* [[Wikipedia:Template index/Cleanup]]
+
+{{Citation and verifiability article maintenance templates}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Citation and verifiability maintenance templates|{{PAGENAME}}]]
+}}</includeonly>

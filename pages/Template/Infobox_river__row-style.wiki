@@ -1,0 +1,1 @@
+<noinclude>{{pp-template|small=yes}}</noinclude>padding: 0 0.6em 0.2em 0.6em;line-height: 1.2em;

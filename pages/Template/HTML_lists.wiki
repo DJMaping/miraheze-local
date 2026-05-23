@@ -1,0 +1,157 @@
+{{navbox top
+|name= HTML lists
+|title=HTML lists
+|state=<includeonly>collapsed</includeonly>
+
+|above = More information — {{hlist|class=inline
+| [[Help:List]]
+| [[WP:List dos and don'ts]]
+| [[WP:Manual of Style/Embedded lists]]
+| {{section link|WP:Manual of Style/Accessibility#Lists}}
+| [[WP:WikiProject Lists]]
+}}
+}}
+{|style="width:100%"
+| style="vertical-align:top; width:32%" |
+{| class="wikitable" style="width:100%"
+|-
+! Horizontal list
+|-
+| {{tlx|hlist |item1&nbsp;|item2&nbsp;}}
+|-
+|
+{{hlist |item1 |item2}}
+|}
+| rowspan=4 style="width:2%"|
+| style="vertical-align:top; width:32%"|
+{| class="wikitable" style="width:100%"
+|-
+! Horizontal list
+|-
+| {{tlx|flatlist|<br />* item1<br />* item2}}
+|-
+|
+{{flatlist|
+* item1
+* item2
+}}
+|}
+| rowspan=4 style="width:2%" |
+| style="vertical-align:top; width:32%"|
+{| class="wikitable" style="width:100%"
+|-
+! Horizontal list
+|-
+| {{tlx|cslist |item1&nbsp;|item2&nbsp;}}
+|-
+|
+{{cslist |item1 |item2 }}
+|}
+|-
+| style="vertical-align:top;"|
+{| class="wikitable" style="width:100%"
+|-
+! Bulleted list
+|-
+| {{tlx|bulleted list |item1&nbsp;|item2&nbsp;}}
+|-
+|
+{{bulleted list |item1 |item2 }}
+|}
+| style="vertical-align:top;"|
+{| class="wikitable" style="width:100%"
+|-
+! Numeric ordered list
+|-
+| {{tlx|Ordered list |first&nbsp;|second&nbsp;}}
+|-
+|
+{{Ordered list |first |second }}
+|}
+| style="vertical-align:top;"|
+{| class="wikitable" style="width:100%"
+|-
+! Alphabetic ordered list
+|-
+| {{tlx|Ordered list |list_style_type{{=}}lower-alpha&nbsp;|first&nbsp;|second&nbsp;}}
+|-
+|
+{{Ordered list |list_style_type=lower-alpha |first |second }}
+|}
+|-
+| style="vertical-align:top"| 
+{| class="wikitable" style="width:100%"
+|-
+! Unbulleted list
+|-
+| {{tlx|unbulleted list |item1&nbsp;|item2&nbsp;}}
+|-
+|
+{{unbulleted list|item1 |item2 }}
+|}
+| style="vertical-align:top"|
+{| class="wikitable" style="width:100%"
+|-
+! Unbulleted list
+|-
+| {{tlx|plainlist|<br />* item1<br />* item2}}
+|-
+|
+{{plainlist|
+* item1
+* item2
+}}
+|}
+| style="vertical-align:top" rowspan=2|
+{| class="wikitable" style="width:100%"
+|-
+! [[Wikipedia:Manual of Style/Glossaries|Glossary]] or definition list
+|-
+| {{tlx|glossary}}<br />
+{{tlx|term|first term}}{{tlx|defn|first description}}<br />
+{{tnull|term|second term}}{{tnull|defn|second description}}<br />
+{{tlx|glossary end}}
+|-
+|
+{{glossary}}
+{{term|first term}}{{defn|first description}}
+{{term|second term}}{{defn|second description}}
+{{glossary end}}
+|}
+|-
+| style="vertical-align:top"|
+{| class="wikitable" style="width:100%"
+|-
+! Bulleted list to flow around an image
+|-
+| <code><nowiki>[[File:Bad Title Example.png|left|thumb|100px]]</nowiki></code><br />
+{{tlx|flowlist|<br />*item1<br />*item2}}
+|-
+|
+[[File:Bad Title Example.png|left|thumb|100px]]
+{{flowlist|
+*item1
+*item2
+}}
+|}
+| style="vertical-align:top"|
+{| class="wikitable" style="width:100%"
+|-
+! Ordered list in columns
+|-
+| {{tlx|columns-list|colwidth{{=}}5em|<br /># first<br /># second}}
+|-
+|
+{{columns-list|colwidth=5em|
+# first
+# second
+}}
+|}
+| style="vertical-align:top"|
+|}
+{{navbox bottom
+|below = {{cl|List formatting and function templates‎}}
+}}<noinclude>
+{{documentation}}
+<!-- Please add categories to the /doc subpage; interwikis go to Wikidata -->
+</noinclude>

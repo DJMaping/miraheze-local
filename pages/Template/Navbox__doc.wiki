@@ -1,0 +1,817 @@
+{{for|vertically-aligned navigation|Template:Sidebar}}
+{{documentation subpage}}
+{{high use}}
+{{Template display|nomobile}}
+{{Lua|Module:Navbox}}
+{{Navbox suite}}
+{{Lua sidebar}}
+
+This template allows a [[Wikipedia:Navigation template|navigational template]] to be set up relatively quickly by supplying it with one or more lists of links. It comes equipped with default styles that should work for most navigational templates. Changing the default styles is possible, but not recommended. Using this template, or one of its "Navbox suite" sister templates, is highly recommended for standardization of navigational templates, and for ease of use.
+
+{{Navbox visibility}}
+
+== Usage ==
+Please remove the parameters that are left blank.
+
+<syntaxhighlight lang="wikitext" style="overflow: auto;">{{Navbox
+| name       = {{subst:PAGENAME}}{{subst:void|Don't change anything on this line. It will change itself when you save.}}
+| title      =
+| listclass  = hlist
+| state      = {{{state|}}}
+
+| above      =
+| image      =
+
+| group1     =
+| list1      =
+
+| group2     =
+| list2      =
+
+| group3     =
+| list3      =
+
+<!-- ... -->
+
+| below      =
+}}<noinclude>
+{{navbox documentation}}
+<!-- add a navbox category here -->
+</noinclude>
+
+</syntaxhighlight>
+
+== Parameter list ==
+{{{{PAGENAMETDOC}}
+| name   = Navbox/doc
+| state  = uncollapsed
+| title  = {{{title}}}
+| above  = {{{above}}}
+| image  = {{{image}}}
+| group1 = {{{group1}}}
+| list1  = {{{list1}}}
+| group2 = {{{group2}}}
+| list2  = {{{list2}}}
+| group3 = {{{group3}}}
+| list3  = {{{list3}}}
+| group4 = {{{group4}}}
+| list4  = {{{list4}}}
+| below  = {{{below}}} <br /> See alternate navbox formats under: [[#Layout of table|''Layout of table'']]
+}}
+
+The navbox uses lowercase parameter names, as shown in the box (''above''). The required ''name'' and ''title'' will create a one-line box if other parameters are omitted.
+
+Notice "group1" (etc.) is optional, as are sections named "above/below".
+{{clear}}
+The basic and most common parameters are as follows (see [[#Parameter descriptions|below]] for the full list):
+
+* <code>name</code> – the name (Wikipedia location) of the template.
+* <code>title</code> – text in the title bar, such as: <nowiki>[[Widget stuff]]</nowiki>.
+* <code>listclass</code> – a CSS class for the list cells, usually <code>hlist</code> for horizontal lists. Alternatively, use bodyclass for the whole box.
+* <code>state</code> – controls when a navbox is expanded or collapsed.
+* <code>titlestyle</code> – a CSS style for the title-bar, such as: <code>background: gray;</code>
+* <code>groupstyle</code> – a CSS style for the group-cells, such as: <code>background: #eee;</code>
+* <code>above</code> – text to appear above the group/list section (could be a list of overall wikilinks).
+* <code>image</code> – an optional right-side image, coded as the whole image, such as: <code><nowiki>[[File:</nowiki><var>XX</var><nowiki>.jpg|80px|alt=Alternate text]]</nowiki></code>
+*: Note that most of such images don't comply with [[MOS:DECOR]] and should be removed at sight.
+* <code>imageleft</code> – an optional left-side image (code the same as the "image" parameter).
+* <code>group<sub>n</sub></code> – the left-side text before list-n (if group-n omitted, list-n extends to the left edge of the box, and defaults to <code>text-align:center</code> styling).
+* <code>list<sub>n</sub></code> – text listing wikilinks using a [[Help:List|wikilist]] format.
+* <code>below</code> – optional text to appear below the group/list section.
+
+== Parameter descriptions ==
+The following is a complete list of parameters for using {{tl|Navbox}}. In most cases, the only required parameters are <code>name</code>, <code>title</code>, and <code>list1</code>, though [[Template:Navbox/doc#Child navboxes|child navboxes]] do not even require those to be set.
+
+{{tl|Navbox}} shares numerous common parameter names with its sister templates, {{tl|Navbox with columns}} and {{tl|Navbox with collapsible groups}}, for consistency and ease of use. Parameters marked with an asterisk (*) are common to all three master templates.
+
+=== Setup parameters ===
+; ''name''*
+: The name of the template, which is needed for the "V&nbsp;• T&nbsp;• E" ("View&nbsp;• Talk&nbsp;• Edit") links to work properly on all pages where the template is used. You can enter {{tlc|subst:PAGENAME}} for this value as a shortcut. The name parameter is only mandatory if a <code>title</code> is specified, and the <code>border</code> parameter is not set, and the <code>navbar</code> parameter is not used to disable the navbar.
+; ''state''* <span style="font-weight:normal;">[<code>autocollapse, collapsed, expanded, plain, off</code>]</span>{{anchor|Autocollapse}}
+:* Defaults to <code>autocollapse</code>. A navbox with <code>autocollapse</code> will start out collapsed if there are two or more collapsible elements on the same page. Otherwise, the navbox will be expanded. For the technically minded, see [[MediaWiki:Common.js]] (search for "autocollapse").
+:* If set to <code>collapsed</code>, the navbox will always start out in a collapsed state.
+:* If set to <code>expanded</code>, the navbox will always start out in an expanded state.
+:* If set to <code>plain</code>, the navbox will always be expanded with no [hide] link on the right, and the title will remain centered (by using padding to offset the <small>V&nbsp;• T&nbsp;• E</small> links).
+:* If set to <code>off</code>, the navbox will always be expanded with no [hide] link on the right, but no padding will be used to keep the title centered. This is for advanced use only; the "plain" option should suffice for most applications where the [show]/[hide] button needs to be hidden.
+: To show the box when standalone (non-included) but then auto-hide contents when in an article, put "expanded" inside {{xtag|noinclude|p}} tags. This setting will force the box to be visible when standalone (even when followed by other boxes), displaying "[hide]", but then it will auto-collapse the box when stacked inside an article: 
+:: {{para|state|{{xtag|noinclude|p|content=expanded}}}}
+:Often times, editors will want a default initial state for a navbox, which may be overridden in an article. Here is the trick to do this:
+:* In your intermediate template, create a parameter also named "state" as a pass-through like this: 
+:*: {{para|state|<nowiki>{{{state<includeonly>|your_desired_initial_state</includeonly>}}}</nowiki>}}
+:* The {{tag|includeonly|o}}<code>|</code> will make the template expanded when viewing the template page by itself.
+:** Example 1: {{tl|Peso}} with ''autocollapse'' as the default initial state. [[Catalan peseta]] transcludes it and has only one navbox; thus, the peso navbox shows. [[Chilean peso]] has more than two navboxes; thus, the peso navbox collapses.
+:** Example 2: {{tl|Historical currencies of Hungary}} with ''expanded'' as the default initial state, as such: 
+:**: {{para|state|<nowiki>{{{state<includeonly>|expanded</includeonly>}}}</nowiki>}} All transcluding articles show the content by default, unless there is a hypothetical article that specifies {{tlc|templatename|state{{=}}collapsed}} when transcluding.
+:** Example 3: {{tl|Tourism}} with ''collapsed'' as the default initial state, as such:
+:**: {{para|state|<nowiki>{{{state<includeonly>|collapsed</includeonly>}}}</nowiki>}} All transcluding articles will show the template as collapsed by default, but the template will still be uncollapsed when displayed on its own page.
+:* The template {{tl|Collapsible option}} explains how to use the <code>state</code> parameter. It can be added to a {{xtag|noinclude|p}} section after the template definition or to the instructions on the {{tl|documentation subpage}}.
+; ''navbar''*
+: If set to <code>plain</code>, the <span style="font-size: 88%;">V&nbsp;• T&nbsp;• E</span> links on the left side of the titlebar will not be displayed, and padding will be automatically used to keep the title centered. Use <code>off</code> to remove the <span style="font-size: 88%;">V&nbsp;• T&nbsp;• E</span> links, but not apply padding (this is for advanced use only; the "plain" option should suffice for most applications where a navbar is not desired). It is highly recommended that one not hide the navbar, in order to make it easier for users to edit the template, and to keep a standard style across pages.
+; ''border''*
+: ''See later section on [[#Child navboxes|using navboxes within one another]] for examples and a more complete description.'' If set to <code>child</code> or <code>subgroup</code>, then the navbox can be used as a borderless child that fits snugly in another navbox. The border is hidden and there is no padding on the sides of the table, so it fits into the ''list'' area of its parent navbox. If set to <code>none</code>, then the border is hidden and padding is removed, and the navbox may be used as a child of another container (do not use the <code>none</code> option inside of another navbox; similarly, only use the <code>child</code>/<code>subgroup</code> option inside of another navbox). If set to anything else (default), then a regular navbox is displayed with a 1px border. An alternate way to specify the border to be a subgroup style is like this (i.e. use the first unnamed parameter instead of the named ''border'' parameter):
+:{{tlx|Navbox|child|...}}
+
+=== Cells ===
+; ''title''*
+: Text that appears centered in the top row of the table. It is usually the template's topic, i.e. a succinct description of the body contents. This should be a single line, but if a second line is needed, use <code><nowiki>{{-}}</nowiki></code> to ensure proper centering. This parameter is technically not mandatory, but using {{tl|Navbox}} is rather pointless without a title.
+; ''above''*
+: A full-width cell displayed between the titlebar and first group/list, i.e. ''above'' the template's body (groups, lists and image). In a template without an image, ''above'' behaves in the same way as the ''list1'' parameter without the ''group1'' parameter.
+; ''group<sub>n</sub>''*
+: (i.e. ''group1'', ''group2'', etc.) If specified, text appears in a header cell displayed to the left of ''list<sub>n</sub>''. If omitted, ''list<sub>n</sub>'' uses the full width of the table.
+; ''list<sub>n</sub>''*
+: (i.e. ''list1'', ''list2'', etc.) The body of the template, usually a list of links. Format is inline, although the text can be entered on separate lines if the entire list is enclosed within {{tag|div}}. At least one ''list'' parameter is required; each additional ''list'' is displayed in a separate row of the table. Each ''list<sub>n</sub>'' may be preceded by a corresponding ''group<sub>n</sub>'' parameter, if provided (see below).
+:Entries should be separated using a [[newline]] and an [[asterisk]] (*). If instead two asterisks are used, it provides [[Nesting (computing)|nesting]] within the previous entry by enclosing the entry with brackets. Increasing the number of asterisks used increases the number of brackets around entries.
+:Set to the keyword <code>child</code> or <code>subgroup</code> to denote that the list is using the inline [[#Child navboxes]] (does not work with {{tl|Navbox with columns}} or {{tl|Navbox with collapsible groups}}).
+; ''image''*
+: An image to be displayed in a cell below the title and to the right of the body (the groups/lists). For the image to display properly, the ''list1'' parameter must be specified. The ''image'' parameter accepts standard wikicode for displaying an image, ''e.g.'': {{elc|File:<var>XX</var>.jpg|<nowiki>80px|link=|alt=</nowiki>}} nb: including {{para||right}} will produce the usual left margin to provide separation from the list items and [[Zebra striping (computer graphics)|zebra striping]].
+:Note that most of such images don't comply with [[MOS:DECOR]] and should be removed at sight. A rare example of a correct usage would be [[special:permalink/995622594|this one]]: a map shows (in green) the location of a region within the state of Kazakhstan, and this is consistently implemented for [[:category:Kazakhstan region templates|all state's regions]].
+; ''imageleft''*
+: An image to be displayed in a cell below the title and to the left of the body (lists). For the image to display properly, the ''list1'' parameter must be specified and no groups can be specified. It accepts the same sort of parameter that ''image'' accepts.
+; ''below''*
+: A full-width cell displayed ''below'' the template's body (groups, lists and image). In a template without an image, ''below'' behaves in the same way as the template's final ''list<sub>n</sub>'' parameter without a ''group<sub>n</sub>'' parameter. For an example of the ''below'' parameter in use, see {{oldid|Main Page|352612160|this}} version of {{tl|Lists of the provinces and territories of Canada}}. {{tl|icon}} is often used for non-article links, for example <code>{{tlf|icon|category}} {{elc|:Category:''name''|Category}}</code>.
+
+=== Style parameters ===
+Styles are generally advised against, to maintain consistency among templates and pages in Wikipedia; but the option to modify styles is given.
+
+; ''bodystyle''*
+: Specifies [[Cascading Style Sheets|CSS]] styles to apply to the template body. This option should be used sparingly as it can lead to visual inconsistencies. Examples:
+:* <code>bodystyle = background: #''nnnnnn'';</code>
+:* <code>bodystyle = width: ''N''&nbsp;[em/%/px or width: auto];</code>
+:* <code>bodystyle = float: [''left/right/none''];</code>
+:* <code>bodystyle = clear: [''right/left/both/none''];</code>
+; ''basestyle''*
+: CSS styles to apply to the ''title'', ''above'', ''below'', and ''group'' cells all at once. The styles are not applied to ''list'' cells. This is convenient for easily changing the basic color of the navbox without having to repeat the style specifications for the different parts of the navbox. Example: <code>basestyle = background: lightskyblue;</code>
+; ''titlestyle''*
+: [[Cascading Style Sheets|CSS]] styles to apply to ''title'', most often the titlebar's background color:
+:* <code>titlestyle = background: ''#nnnnnn'';</code>
+:* <code>titlestyle = background: ''name'';</code>
+:* <code>titlestyle = background: none;</code> — for no background color
+; ''groupstyle''*
+: CSS styles to apply to the ''groupN'' cells. This option overrides any styles that are applied to the entire table. Examples:
+:* <code>groupstyle = background: #''nnnnnn'';</code>
+:* <code>groupstyle = text-align: [''left/center/right''];</code>
+:* <code>groupstyle = vertical-align: [''top/middle/bottom''];</code>
+; ''group<sub>n</sub>style''*
+: CSS styles to apply to a specific group, in addition to any styles specified by the ''groupstyle'' parameter. This parameter should only be used when absolutely necessary in order to maintain standardization and simplicity. Example: <code>group3style = background: red; color: white;</code>
+; ''groupwidth''
+: A number and unit specifying a uniform width for the group cells, in cases where little content in the list cells may cause group cells to be too wide. No default. However, may be overridden by the ''group(n)style'' parameter. Example: <code>groupwidth = 9em</code>
+; ''liststyle''*
+: CSS styles to apply to all lists. Overruled by the ''oddstyle'' and ''evenstyle'' parameters (if specified) hereafter. When using backgound colors in the navbox, see the [[#Intricacies|note hereafter]].
+; ''list<sub>n</sub>style''*
+: CSS styles to apply to a specific list, in addition to any styles specified by the ''liststyle'' parameter. This parameter should only be used when absolutely necessary in order to maintain standardization and simplicity. Example: <code>list5style = background: #ddddff;</code>
+; ''listpadding''*
+: A number and unit specifying the padding in each ''list'' cell. The ''list'' cells come equipped with a default padding of 0.25em on the left and right, and 0 on the top and bottom. Due to complex technical reasons, simply setting "liststyle = padding: 0.5em;" (or any other padding setting) will not work. Examples:
+:* <code>listpadding = 0.5em 0;</code> (sets 0.5em padding for the top/bottom, and 0 padding for the left/right.)
+:* <code>listpadding = 0;</code> (removes all list padding.)
+; ''oddstyle''
+; ''evenstyle''
+: Applies to odd/even list numbers. Overrules styles defined by ''liststyle''. The default behavior is to add striped colors (white and gray) to odd/even rows, respectively, in order to improve readability. These should not be changed except in extraordinary circumstances.
+; ''evenodd'' <span style="font-weight: normal;"><code>[swap, even, odd, off]</code></span>
+: If set to <code>swap</code>, then the automatic striping of even and odd rows is reversed. Normally, even rows get a light gray background for striping; when this parameter is used, the odd rows receive the gray striping instead of the even rows. Setting to <code>even</code> or <code>odd</code> sets all rows to have that striping color. Setting to <code>off</code> disables automatic row striping.
+; ''abovestyle''*
+; ''belowstyle''*
+: CSS styles to apply to the top cell (specified via the ''above'' parameter) and bottom cell (specified via the ''below'' parameter). Typically used to set background color or text alignment:
+:* <code>abovestyle = background: #''nnnnnn'';</code>
+:* <code>abovestyle = text-align: [''left/center/right''];</code>
+:* <code>belowstyle = background: #''nnnnnn'';</code>
+:* <code>belowstyle = text-align: [''left/center/right''];</code>
+; ''imagestyle''*
+; ''imageleftstyle''*
+: CSS styles to apply to the cells where the image/imageleft sits. These styles should only be used in exceptional circumstances, usually to fix width problems if the width of groups is set and the width of the image cell grows too large. Example: <code>imagestyle = width:5em;</code>
+
+===== Default styles =====
+The style settings listed here are those that editors using the navbox change most often. The other more complex style settings were left out of this list to keep it simple. Most styles are set in [[Module:Navbox/styles.css]].
+
+<syntaxhighlight lang="css">
+bodystyle = background: #fdfdfd; width: 100%; vertical-align: middle;
+titlestyle = background: #ccccff; padding-left: 1em; padding-right: 1em; text-align: center;
+abovestyle = background: #ddddff; padding-left: 1em; padding-right: 1em; text-align: center;
+belowstyle = background: #ddddff; padding-left: 1em; padding-right: 1em; text-align: center;
+groupstyle = background: #ddddff; padding-left: 1em; padding-right: 1em; text-align: right;
+liststyle = background: transparent; text-align: left/center;
+oddstyle = background: transparent;
+evenstyle = background: #f7f7f7;
+</syntaxhighlight>
+Since ''liststyle'' and ''oddstyle'' are transparent, odd lists have the color of the ''bodystyle'', which defaults to #fdfdfd (white with a hint of gray). A list defaults to <code>text-align: left;</code> if it has a group, if not it defaults to <code>text-align: center;</code>. Since only ''bodystyle'' has a vertical-align all the others inherit its <code>vertical-align: middle;</code>.
+
+=== Advanced parameters ===
+; ''bodyclass''
+; ''aboveclass''
+; ''groupclass''
+; ''listclass''
+; ''belowclass''
+: This enables attaching a CSS class to group or list cells. The most common use for ''listclass'' is to give it the <code>hlist</code> class that will cause lists to render horizontally. All these parameters accept the <code>hlist</code> class, but if more than one parameter is used for <code>hlist</code>, use {{para|bodyclass|hlist}} instead.
+:{{tl|navbox}} automatically adds the class <code>nowraplinks</code> which can be overridden, for example with <code>{{para|listclass|wraplinks}}</code>.
+; ''innerstyle''
+: A very advanced parameter to be used ''only'' for advanced meta-templates employing the navbox. Internally, the navbox uses an outer table to draw the border, and then an inner table for everything else (title/above/groups/lists/below/images, etc.). The ''style''/''bodystyle'' parameter sets the style for the outer table, which the inner table inherits, but in advanced cases (meta-templates) it may be necessary to directly set the style for the inner table. This parameter provides access to that inner table so styles can be applied. Use at your own risk.
+; ''nowrapitems''
+: Setting <code>|nowrapitems=yes</code> applies nowrap to each line in a list item, and to any <code>above</code> or <code>below</code> item.
+; ''orphan''
+: Setting <code>|orphan=yes</code> in a child navbox fixes odd/even striping and removes [[:Category:Navbox orphans]].
+
+==== Microformats ====
+; ''bodyclass''
+: This parameter is inserted into the "class" attribute for the navbox as a whole.
+; ''titleclass''
+: This parameter is inserted into the "class" attribute for the navbox's title caption.
+
+This template supports the addition of microformat information. This is done by adding "class" attributes to various data cells, indicating what kind of information is contained within. To flag a navbox as containing [[hCard]] information about a person, for example, add the following parameter:
+
+<pre>
+| bodyclass = vcard
+</pre>
+
+''and''
+
+<pre>
+| titleclass = fn
+</pre>
+
+''or'' (for example):
+
+<syntaxhighlight lang="wikitext">
+| title = The books of <span class="fn">[[Iain Banks]]</span>
+</syntaxhighlight>
+
+...and so forth.
+
+See [[Wikipedia:WikiProject Microformats]] for more information on adding microformat information to Wikipedia, and [[microformat]] for more information on microformats in general.
+
+== Layout of table ==
+===Without image, above and below===
+Table generated by {{tl|Navbox}} '''without''' ''image'', ''above'' and ''below'' parameters (gray list background color added for illustration only):
+
+{{{{PAGENAMETDOC}}
+| name = Navbox/doc
+| state = uncollapsed
+| liststyle = background: silver;
+| title  = {{{title}}}
+| group1 = {{{group1}}}
+| list1  = {{{list1}}}
+| group2 = {{{group2}}}
+| list2  = {{{list2}}}
+| list3  = {{{list3}}} ''without {{{group3}}}''
+| group4 = {{{group4}}}
+| list4  = {{{list4}}}
+}}
+
+===With image, above and below===
+Table generated by {{tl|Navbox}} '''with''' ''image'', ''above'' and ''below'' parameters (gray list background color added for illustration only):
+
+{{{{PAGENAMETDOC}}
+| name = Navbox/doc
+| state = uncollapsed
+| liststyle = background: silver;
+| image  = {{{image}}}
+| title  = {{{title}}}
+| above  = {{{above}}}
+| group1 = {{{group1}}}
+| list1  = {{{list1}}}
+| group2 = {{{group2}}}
+| list2  = {{{list2}}}
+| list3  = {{{list3}}} ''without {{{group3}}}''
+| group4 = {{{group4}}}
+| list4  = {{{list4}}}
+| below  = {{{below}}}
+}}
+
+===With image and without groups===
+Table generated by {{tl|Navbox}} '''with''' ''image'', ''imageleft'', ''lists'', and '''without''' ''groups'', ''above'', ''below'' (gray list background color added for illustration only):
+
+{{{{PAGENAMETDOC}}
+| name = Navbox/doc
+| state = uncollapsed
+| liststyle = background: silver;
+| image = {{{image}}}
+| imageleft = {{{imageleft}}}
+| title = {{{title}}}
+| list1 = {{{list1}}}
+| list2 = {{{list2}}}
+| list3 = {{{list3}}}
+| list4 = {{{list4}}}
+}}
+
+== Examples ==
+<!-- Please do not encourage folks to use <div> within Navboxes as (unless handled carefully) they can negate liststyles/groupstyles/etc. settings. -->
+
+=== No image ===
+<syntaxhighlight lang="wikitext" style="overflow: auto;">
+{{Navbox
+| name  = Navbox/doc
+| title = [[MSC Malaysia]]
+| listclass = hlist
+
+| group1 = Centre
+| list1  =
+* [[Cyberjaya]]
+
+| group2 = Area
+| list2  =
+* [[Klang Valley]]
+
+| group3 = Major landmarks
+| list3  =
+* [[Petronas Twin Towers]]
+* [[Kuala Lumpur Tower]]
+* [[Kuala Lumpur Sentral]]
+* [[Technology Park Malaysia]]
+* [[Putrajaya]]
+* [[Cyberjaya]]
+* [[Kuala Lumpur International Airport]]
+
+| group4 = Infrastructure
+| list4  =
+* [[Express Rail Link]]
+* [[KL-KLIA Dedicated Expressway]]
+
+| group5 = Prime applications
+| list5  =
+* [[E-Government]]
+* [[MyKad]]
+}}
+</syntaxhighlight>
+
+{{{{PAGENAMETDOC}}
+| name   = Navbox/doc
+| state  = uncollapsed
+| title  = [[MSC Malaysia]]
+| listclass = hlist
+| group1 = Centre
+| list1  =
+* [[Cyberjaya]]
+| group2 = Area
+| list2  =
+* [[Klang Valley]]
+| group3 = Major landmarks
+| list3  =
+* [[Petronas Twin Towers]]
+* [[Kuala Lumpur Tower]]
+* [[Kuala Lumpur Sentral]]
+* [[Technology Park Malaysia]]
+* [[Putrajaya]]
+* [[Cyberjaya]]
+* [[Kuala Lumpur International Airport]]
+| group4 = Infrastructure
+| list4  =
+* [[Express Rail Link]]
+* [[KL-KLIA Dedicated Expressway]]
+| group5 = Prime applications
+| list5  =
+* [[E-Government]]
+* [[MyKad]]
+}}
+
+== Child navboxes ==
+{{Selfref|For additional examples, see the [[Template:Navbox/testcases|Navbox testcases page]].}}
+
+It is possible to place multiple navboxes within a single border. These can either be specified inline or by using a nested navbox template, although the latter method can result in a significantly large [[WP:PEIS|post-expand include size]].
+
+To specify child navboxes inline, set the <code>list<sub>n</sub></code> parameter to <code>child</code> or <code>subgroup</code>. Elements of the child navbox can be specified by prepending <code>child<sub>n</sub>_</code>, <code>subgroup<sub>n</sub>_</code>, or just <code><sub>n</sub>_</code> to the parameter names (e.g. <code>1_list1</code>). Child navboxes can be nested by adding an additional prefix (e.g. <code>1_1_list1</code>). The basic code for doing this is as follows (which adds a subgroup for the first group/list area):
+
+<syntaxhighlight lang="wikitext" style="overflow: auto;">
+{{Navbox
+| name = {{subst:PAGENAME}}
+| title = Title
+
+| group1 = [optional]
+| list1  = child
+  | 1_title = [optional]
+
+  | 1_group1 = [optional]
+  | 1_list1  = child
+    | 1_1_title = [optional]
+    
+    | 1_1_group1 = [optional]
+    | 1_1_list1  = 
+    ...list contents...
+  ...
+...
+}}
+</syntaxhighlight>
+
+To specify child navboxes using a nested template, use "child" as the first parameter or set the ''border'' parameter. The basic code for doing this is as follows (which adds a subgroup for the first group/list area):
+
+<syntaxhighlight lang="wikitext" style="overflow: auto;">
+{{Navbox
+| name = {{subst:PAGENAME}}
+| title = Title
+
+| group1 = [optional]
+| list1  = {{Navbox|child
+   ...child navbox parameters...
+ }}
+
+...
+}}
+</syntaxhighlight>
+
+=== Subgroups example ===
+This example shows two subgroups and a sub-subgroup created using <code>child</code> and <code>subgroup</code> keywords (both are interchangible). The striping is alternated automatically. To remove the striping altogether, you can set <code>child<sub>n</sub>_liststyle = background:transparent;</code> in each.
+
+{{{{PAGENAMETDOC}}
+| name = Navbox/doc
+| state = uncollapsed
+| title = Multiple subgroup example
+| above = Above
+| below = Below
+| group1 = Group1
+| list1  = List1
+| group2 = Group2
+| list2  = child
+  | child2_group1 = Group2.1
+  | child2_list1  = List1
+  | child2_group2 = Group2.2
+  | child2_list2  = List2
+  | child2_group3 = Group2.3
+  | child2_list3  = List3
+| group3 = Group3
+| list3 = List3
+| group4 = Group4
+| list4 = subgroup
+  | subgroup4_group1 = Group4.1
+  | subgroup4_list1  = List1
+  | subgroup4_group2 = Group4.2
+  | subgroup4_list2  = List2
+  | subgroup4_group3 = Group4.3
+  | subgroup4_list3  = child
+    |subgroup4_child3_group1 = Group 4.3.1
+    |subgroup4_child3_list1 = List1
+    |subgroup4_child3_group2 = Group 4.3.2
+    |subgroup4_child3_list2 = List2
+}}
+
+==== Relationship with other Navbox templates ====
+This navbox template works in conjunction with two other templates: {{tl|Navbox with columns}} and {{tl|Navbox with collapsible groups}}. All three of these templates share common parameters for consistency and ease of use (such parameters are marked with an asterisk (*) in the [[#Parameter descriptions|parameter descriptions]] list hereinbefore). Most importantly, each template can be used as a child of one another. Using the inline notation, the <code><sub>n</sub>_type=</code> parameter can be set to <code>with columns</code> or <code>with collapsible groups</code> to set the type of that child navbox, as shown in the example below. Press the edit button for the section to view the code.
+
+{{Navbox
+|name = Template:Navbox/doc
+|title = Navbox with nested regular Navbox, Navbox with Collapsible Groups, and Navbox with Columns
+|group1 = Regular Navbox
+|listclass = hlist<!--Note that this applies to the child navboxes unless explicitly set otherwise-->
+|list1 = subgroup
+  |1_group1 = Group 1
+  |1_list1 =
+* List 1.1
+* List 1.2
+  |1_group2 = Group 2
+  |1_list2 =
+* List 2.1
+* List 2.2
+|group2 = Navbox with Collapsible Groups
+|list2 = subgroup
+  |2_type = with collapsible groups
+  |2_group1 = Group 1
+  |2_list1 =
+* List 1.1
+* List 1.2
+  |2_group2 = Group 2
+  |2_list2 =
+* List 2.1
+* List 2.2
+|group3 = Navbox with Columns
+|list3 = subgroup
+  |3_type = with columns
+  |3_col1header = Column 1
+  |3_col1 =
+* List 1.1
+* List 1.2
+  |3_col2header = Column 2
+  |3_col2 =
+* List 2.1
+* List 2.2
+
+|list11 = subgroup
+  |11_title = Regular Navbox
+  |11_group1 = Group 1
+  |11_list1 =
+* List 1.1
+* List 1.2
+  |11_group2 = Group 2
+  |11_list2 =
+* List 2.1
+* List 2.2
+|list12 = subgroup
+  |12_title = Navbox with Collapsible Groups
+  |12_type = with collapsible groups
+  |12_group1 = Group 1
+  |12_list1 =
+* List 1.1
+* List 1.2
+  |12_group2 = Group 2
+  |12_list2 =
+* List 2.1
+* List 2.2
+|list13 = subgroup
+  |13_title = Navbox with Columns
+  |13_type = with columns
+  |13_col1header = Column 1
+  |13_col1 =
+* List 1.1
+* List 1.2
+  |13_col2header = Column 2
+  |13_col2 =
+* List 2.1
+* List 2.2
+}}
+
+You can also nest these or other navbox templates by using the {{para|border|child}} parameter, or by specifying the first unnamed parameter to be <code>child</code>. For example: <code><nowiki>{{Navbox|child ...}}</nowiki></code>, <code><nowiki>{{Navbox with columns|child ...}}</nowiki></code> or <code><nowiki>{{Navbox with collapsible groups|child ...}}</nowiki></code>. Note that this style of nesting can lead to a large increase in the template's [[WP:PEIS|post-expand include size]].
+
+=== Multiple show/hides in a single container ===
+{{main|Template:Navbox with collapsible groups}}
+
+The example below is generated using a regular navbox for the main container, then its list1, list2, and list3 parameters each contain the <code>child</code> keyword. The view (v), talk (t), edit (e) navbar links are hidden automatically because the "child" or "subgroup" keyword is used, so using <code>navbar = plain</code> for each of them is not necessary. The code <syntaxhighlight lang="wikitext" inline>N_state = {{#ifeq:{{{selected|}}|ABBREVIATION|uncollapsed|{{{stateN|collapsed}}}}}</syntaxhighlight> is used to replicate the <syntaxhighlight lang="wikitext" inline>abbrN = ABBREVIATION</syntaxhighlight> functionality of {{tl|Navbox with collapsible groups}}.
+
+{{{{PAGENAMETDOC}}
+| name = Navbox/doc
+| title = [[French colonial empire|Former French overseas empire]]
+| state = uncollapsed
+| list1 = child
+ | 1_state     = {{#ifeq:{{{selected|}}|Africa|uncollapsed|{{{state1|collapsed}}}}}
+ | 1_title     = [[French colonial empire|Former French colonies]] in [[Africa]] and the [[Indian Ocean]]
+ | 1_listclass = hlist
+ | 1_group1 = [[Mahgreb]]
+  | 1_list1  =
+* [[French rule in Algeria|Algeria]]
+* [[French Morocco|Morocco]] <small>([[Arguin|Arguin Island]])</small>
+* [[History of Tunisia|Tunisia]]
+ | 1_group2 = [[French West Africa]]
+  | 1_list2  =
+* [[History of Côte d'Ivoire#French colonial era|Côte d'Ivoire]]
+* [[French Dahomey|Dahomey]]
+* [[French Sudan]]
+* [[French Guinea|Guinea]]
+* [[History of Mauritania#French colonization and post-colonial history|Mauritania]]
+* [[History of Niger#Colonization|Niger]]
+* [[History of Senegal|Senegal]]
+* [[French Upper Volta|Upper Volta]]
+* [[French Togoland]]
+* [[James Island (The Gambia)|James Island]]
+ | 1_group3 = [[French Equatorial Africa]]
+  | 1_list3  =
+* [[Colonial Chad|Chad]]
+* [[History of Gabon|Gabon]]
+* [[History of the Republic of the Congo|Middle Congo]]
+* [[Oubangui-Chari]]
+ | 1_group4 = [[Comoros]]
+  | 1_list4  =
+* [[Anjouan]]
+* [[Grande Comore]]
+* [[Mohéli]]
+* [[History of Djibouti#French Interest|French Somaliland (Djibouti)]]
+* [[History of Madagascar#French control|Madagascar]]
+* [[Mauritius|Ile de France]]
+* [[Seychelles]]
+| list2 = child
+ | 2_state     = {{#ifeq:{{{selected|}}|Americas|uncollapsed|{{{state2|collapsed}}}}}
+ | 2_title     = [[French colonial empire|Former French colonies]] in the [[Americas]]
+ | 2_listclass = hlist
+ | 2_list1 =
+* [[New France]]{{spaces|2}}<small>([[Acadia]], [[Louisiana (New France)|Louisiana]], [[Canada, New France|Canada]], [[Newfoundland (island)|Terre Neuve]]) 1655–1763 </small>
+ | 2_list2 =
+* [[Inini]]
+* [[Berbice]]
+* [[Saint-Domingue]]
+* <small>[[Haiti]]</small>
+* [[Tobago]]
+* [[History of the British Virgin Islands|Virgin Islands]]
+* [[France Antarctique]]
+* [[France Équinoxiale]]
+ | 2_below      = [[French West India Company]]
+| list3 = child
+ | 3_state     = {{#ifeq:{{{selected|}}|Asia|uncollapsed|{{{state3|collapsed}}}}}
+ | 3_title      = [[French colonial empire|Former French colonies]] in [[Asia]] and [[Oceania]]
+ | 3_listclass  = hlist
+ | 3_group1 = [[Asia]]
+ | 3_list1 = child
+  | 3_1_group1 = [[French India]]
+   | 3_1_list1  =
+* [[Chandernagor]]
+* [[Coromandel Coast]]
+* [[History of Chennai|Madras]]
+* [[Mahé, India|Mahé]]
+* [[History of Pondicherry|Pondichéry]]
+* [[Karaikal]]
+* [[Yanam (India)|Yanaon]]
+  | 3_1_group2 = [[French Indochina]]
+   | 3_1_list2  =
+* [[Colonial Cambodia|Cambodia]]
+* [[History of Laos to 1945#French Laos|Laos]]
+* [[French Indochina|Vietnam]] <small>([[Annam (French colony)|Annam]], [[Cochinchina]], [[Tonkin]])</small>
+  | 3_1_group3 = Other Asian
+   | 3_1_list3  =
+* [[Alawite State|Alaouites]]
+* [[Republic of Hatay|Alexandretta-Hatay]]
+* [[Sri Lanka|Ceylon]]
+* [[Kwangchowan]]
+ | 3_group4 = [[Oceania]]
+  | 3_list4  =
+* [[New Hebrides]]
+** [[History of Vanuatu|Vanuatu]]
+ | 3_below      = [[Louis XIV's East India Company|French East India Company]]
+}}
+
+
+== Technical details ==
+* The {{navbar|1=:{{FULLPAGENAME}}|mini=on}} links are produced by [[Template:Navbar]]. If you have a question about them, it is probably best to ask at [[Template talk:Navbar]].
+* The 2px wide border between groups and lists is drawn using the border-left property of the list cell. Thus, if you wish to change the background color of the template (for example <code>bodystyle = background:purple;</code>), then you'll need to make the border-left-color match the background color (i.e. <code>liststyle = border-left-color: purple;</code>). If you wish to have a border around each list cell, then the 2px border between the list cells and group cells will disappear; you'll have to come up with your own solution.
+* Adjacent navboxes have only a 1 pixel border between them. If you set the top or bottom margin of <code>style/bodystyle</code>, then this will not work.
+* The default margin-left and margin-right of the outer navbox table are set to "auto;". If you wish to use navbox as a float, you need to manually set the margin-left and margin-right values, because the auto margins interfere with the float option. For example, add the following code to use the navbox as a float:
+** <code>bodystyle = width: 22em; float: right; margin-left: 1em; margin-right: 0;</code>
+* Navbox templates, including this one, are a major contributor to the [[WP:PEIS|post-expand include size]] of pages, and can cause pages to exceed the limit and not render correctly. There are a few ways to mitigate this.
+** {{tlx|{{ROOTPAGENAME}}}} can be replaced with {{mlx|Navbox|navbox}}, which approximately halves the include size.
+** Nesting other templates inside of a navbox can cause the include size increase by a factor of two or more. Using the in-line child syntax documented at [[#Child navboxes]] mitigates this, but only for plain Navboxes, Navboxes with columns, and Navboxes with collapsible groups (not other types of navboxes).
+
+=== Copying to other projects or wikis ===
+If you are trying to copy {{tlf|Navbox}} to your local wiki, there are several other things that must be installed or copied over as well:
+* The [[mw:Extension:Scribunto|Scribunto]] and [[:mw:Extension:TemplateStyles|TemplateStyles]] extensions must be installed.
+* [[Module:Navbox]] and its module and TemplateStyles dependencies, listed at [[Module:Navbox/doc]]
+* Optionally, the <code>Add support to mw-collapsible for autocollapse, innercollapse and outercollapse</code> script from [[MediaWiki:Common.js]] may be copied, if autocollapsing is desired.
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"state": {
+			"label": "State",
+			"description": "Controls when a navbox is expanded or collapsed",
+			"example": "autocollapse",
+			"suggestedvalues": [
+				"autocollapse",
+				"collapsed",
+				"expanded",
+				"plain",
+				"off"
+			],
+			"default": "autocollapse",
+			"suggested": true
+		},
+		"title": {
+			"label": "Title",
+			"description": "Text in the title bar; centered in the top row of the table. Usually the template's topic.",
+			"example": "[[Widget stuff]]",
+			"suggested": true
+		},
+		"above": {
+			"label": "Above",
+			"description": "Full-width cell displayed between the titlebar and first group/list, i.e. above the template's body (groups, lists and image)",
+			"type": "string",
+			"suggested": true
+		},
+		"image": {
+			"label": "Image",
+			"description": "Image to be displayed in a cell below the title and to the right of the body",
+			"example": "[[File:XX.jpg | 80px | link= | alt= ]]",
+			"type": "wiki-file-name",
+			"suggested": true
+		},
+		"group1": {
+			"label": "Group 1",
+			"description": "If specified, text appears in a header cell displayed to the left of list 1. If omitted, list 1 uses the full width of the table.",
+			"suggested": true
+		},
+		"list1": {
+			"label": "List 1",
+			"description": "Body of the template; usually a list of links. Format is inline. At least one list parameter is required; each additional list is displayed in a separate row of the table. Each listn may be preceded by a corresponding groupn parameter.\nEntries should be separated using a newline and an asterisk. If two asterisks are used, it provides nesting within the previous entry with brackets.",
+			"required": true,
+			"suggested": true
+		},
+		"group2": {
+			"suggested": true
+		},
+		"list2": {
+			"suggested": true
+		},
+		"list3": {
+			"suggested": true
+		},
+		"group3": {
+			"suggested": true
+		},
+		"group4": {},
+		"list4": {},
+		"below": {
+			"label": "Below",
+			"description": "Full-width cell displayed below the template's body.",
+			"suggested": true
+		},
+		"imageleft": {
+			"label": "Image left",
+			"description": "Image to be displayed in a cell below the title and to the left of the body. For the image to display properly, list1 parameter must be specified and no groups can be specified.",
+			"example": "[[File:XX.jpg | 80px | link= | alt= ]]",
+			"type": "wiki-file-name"
+		},
+		"name": {
+			"label": "Name",
+			"description": "The name of the template. Needed for \"View • Talk • Edit\" links to work properly.",
+			"type": "string",
+			"default": "{{subst:PAGENAME}}{{subst:void|Don't change anything on this line. It will change itself when you save.}}",
+			"suggested": true
+		},
+		"listclass": {
+			"label": "List class",
+			"description": "CSS class for the list cells, usually hlist for horizontal lists. Alternatively, use bodyclass for the whole box.",
+			"example": "hlist",
+			"type": "string"
+		},
+		"navbar": {
+			"label": "Navbar status",
+			"example": "plain, off",
+			"type": "string"
+		},
+		"border": {
+			"label": "Border status",
+			"example": "child, subgroup, none",
+			"type": "string"
+		},
+		"bodystyle": {},
+		"basestyle": {},
+		"titlestyle": {},
+		"groupstyle": {},
+		"group1style": {},
+		"groupwidth": {},
+		"liststyle": {},
+		"list1style": {},
+		"listpadding": {},
+		"oddstyle": {},
+		"evenstyle": {},
+		"evenodd": {
+			"suggestedvalues": [
+				"swap",
+				"even",
+				"odd",
+				"off"
+			]
+		},
+		"abovestyle": {},
+		"belowstyle": {},
+		"imagestyle": {},
+		"imageleftstyle": {}
+	},
+	"description": "Creates a navigational box for links to other pages. \nDoes not display in mobile.",
+	"paramOrder": [
+		"name",
+		"title",
+		"group1",
+		"list1",
+		"listclass",
+		"state",
+		"above",
+		"below",
+		"image",
+		"group2",
+		"list2",
+		"group3",
+		"list3",
+		"group4",
+		"list4",
+		"imageleft",
+		"navbar",
+		"border",
+		"bodystyle",
+		"basestyle",
+		"titlestyle",
+		"groupstyle",
+		"liststyle",
+		"group1style",
+		"list1style",
+		"groupwidth",
+		"listpadding",
+		"oddstyle",
+		"evenstyle",
+		"evenodd",
+		"abovestyle",
+		"belowstyle",
+		"imagestyle",
+		"imageleftstyle"
+	]
+}
+</templatedata>
+
+== See also ==
+* {{tl|Navbox decade list}} — To create a row of ten evenly spaced year links.
+* {{tl|Navboxes}} — groups several navigation boxes together.
+* {{tl|Nobold}} — To display text at normal font-weight within a context where the default font-weight is bold, e.g. header cells in tables.
+* {{tl|Sidebar}} — Vertically-aligned navigation templates.
+* {{tl|Navbox documentation}} — Shows the standard documentation using {{tl|Documentation}}.
+* [[Template:Navbox/testcases]] — For additional examples of template code.
+* [[Wikipedia:Line-break handling]] — The how-to guide about how to handle word wraps (line breaks) on Wikipedia, such as the wrapping of the link lists used in navboxes.
+* [[Wikipedia:Template documentation]] — Guideline to creating the accompanying documentation
+* {{tl|Nowrap begin}}, {{tl|·}} and {{tl|•}} are '''deprecated''' in favor of the <code>hlist</code> class for formatting lists. See [[Template:Flatlist#Technical details|Flatlist]] for a technical explanation of how <code>hlist</code> works.
+
+=== Tracking categories ===
+* {{clc|Navbox orphans}}
+* {{clc|Navigational boxes without horizontal lists}}
+* {{clc|Navboxes using background colours}}
+* {{clc|Potentially illegible navboxes}}
+* {{clc|Navboxes using borders}}
+
+{{Navigation templates}}
+
+<includeonly>{{sandbox other||
+<!-- Add categories below this line, and interwikis at Wikidata -->
+[[Category:Navigational box metatemplates| ]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that are not mobile friendly]]
+[[Category:Collapse templates]]
+}}</includeonly>

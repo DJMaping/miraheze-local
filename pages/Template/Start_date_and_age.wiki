@@ -1,0 +1,49 @@
+<includeonly><!--
+
+     IMPLEMENTATION OF DATE
+
+-->{{#if: {{{1|}}}<!--
+  -->|{{#if: {{{2|}}}<!--
+     -->|{{#if: {{{3|}}}<!--
+        -->|{{#ifeq:{{yesno|{{{df|no}}}}}|yes<!--
+           -->|{{#expr:{{{3}}}}}&nbsp;{{MONTHNAME|{{{2}}}}}<!--
+           -->|{{MONTHNAME|{{{2}}}}}&nbsp;{{#expr:{{{3}}}}},<!--
+           -->}} {{{1}}}<!--
+        -->|{{MONTHNAME|{{{2}}}}}&nbsp;{{{1}}}<!--
+        -->}}<!--
+     -->|{{{1}}}<!--
+     -->}}<!--
+     --><span class="noprint">{{#ifeq:{{yesno|{{{paren|{{{p|no}}}}}}}}|yes||&#059;}}<!--
+     -->{{#ifeq:{{yesno|{{{br|no}}}}}|yes|<br/>|&#032;}}<!--
+     -->{{#ifeq:{{yesno|{{{paren|{{{p|no}}}}}}}}|yes|(}}<!--
+     -->{{#if: {{{2|}}}<!--
+       -->|{{#if: {{{3|}}}<!--
+          -->|{{time ago|{{{1}}}-{{{2}}}-{{{3}}}|min_magnitude=days}}<!--
+          -->|{{years or months ago|{{{1}}}|{{#time:n|1-{{trim|{{{2}}}}}-1}}}}<!--
+          -->}}<!--
+       -->|{{#iferror:{{#expr:{{{1}}}}}<!--
+          -->|{{time ago|{{{1}}}|min_magnitude=days}}<!--
+          -->|{{years or months ago|{{{1}}}}}<!--
+          -->}}<!--
+       -->}}<!--
+     -->{{#ifeq:{{yesno|{{{paren|{{{p|no}}}}}}}}|yes|)}}</span><!--
+  -->|<!--first parameter is missing.-->{{#if: {{{2|}}}|{{Error|Error: first parameter is missing.|tag=span}}<!--
+                                    -->|{{#if: {{{3|}}}|{{Error|Error: first parameter is missing.|tag=span}} }} }}<!--
+-->}}<!--
+
+     IMPLEMENTATION OF microformat date classes
+
+--><span style="display:none">&#160;(<span class="{{#ifeq:{{yesno|{{{end|no}}}}}|yes|dtend|bday dtstart published updated}}"><!--
+-->{{#if: {{{1|}}}<!--
+  -->|{{{1}}}<!--
+   -->{{#if: {{{2|}}}<!--
+     -->| -{{#time:m|1-{{trim|{{{2}}}}}-1}}<!--
+       -->{{#if: {{{3|}}}<!--
+         -->| -{{padleft:{{{3}}}|2|0}}<!--
+         -->}}<!--
+     -->}}<!--
+  -->}}<!--
+--></span>)</span><!-- Tracking categories
+-->{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using start date and age with unknown parameters|_VALUE_]]|preview=Page using [[Template:Start date and age]] with unknown parameter "_VALUE_"|showblankpositional=1| 1 | 2 | 3 | br | df | end | p | paren }}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

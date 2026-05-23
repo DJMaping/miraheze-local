@@ -1,0 +1,9 @@
+/* {{pp-template}}
+Styling for Template:Smallcaps */
+span.smallcaps {
+	font-variant: small-caps;
+}
+
+span.smallcaps-smaller {
+	font-size: 85%;
+}

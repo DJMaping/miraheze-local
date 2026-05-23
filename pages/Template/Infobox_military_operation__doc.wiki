@@ -1,0 +1,137 @@
+{{#ifeq:{{{noheader|}}}|yes||{{Documentation subpage}}
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+}}
+This infobox may be used to describe a particular planned or executed military operation or attack.  For operations that resulted in combat, it can be used as an auxiliary template to the {{tl|infobox military conflict}}, if necessary; for other types of operations, including those that were planned but never executed, it may be used alone.  In the case of conflicts that consisted of multiple independent operations, multiple copies of the box may be used on a single article.
+
+__TOC__
+=== Usage ===
+{{Parameter names example|_template = Infobox military operation |title |name |partof |conflict |image |image_size |image_upright |alt |caption |coordinates = {{coord|0|0}} |map_type=Earth |map_size= |map_label |map_caption |scope |type |location |coordinates |planned |planned_by |commanded_by |target |objective |date |time |time-begin |time-end |timezone |executed_by |outcome |casualties |fatalities |injuries}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox military operation
+ |name          = 
+ |partof        = 
+ |subtitle      = 
+ |image         = 
+ |image_upright = 
+ |alt           = 
+ |caption       = 
+ |scope         = 
+ |type          = 
+ |location      = 
+ |location2     = <!-- 2 through 10 for more locations -->
+ |coordinates   = 
+ |coordinates2  = <!-- 2 through 10 for more locations -->
+ |map_type      = 
+ |map_size      = 
+ |map_caption   = 
+ |map_label     = 
+ |map_label2    = <!-- 2 through 10 for more locations -->
+ |planned       = 
+ |planned_by    = 
+ |commanded_by  = 
+ |objective     = 
+ |target        = 
+ |date          = <!-- {{start date|YYYY|MM|DD|df=y}} --> 
+ |time          = 
+ |time-begin    = 
+ |time-end      = 
+ |timezone      = 
+ |executed_by   = 
+ |outcome       = 
+ |casualties    = 
+ |fatalities    = 
+ |injuries      = 
+}}</syntaxhighlight>
+
+=== Example ===
+{{Infobox military operation
+ |name        = Case Blue
+ |scope       = Strategic offensive
+ |planned_by  = ''[[Wehrmacht]]''
+ |objective   = Capture of [[Caucasus]] oil fields
+ |executed    = Began {{start date|1942|06|28|df=y}}
+ |executed_by = [[Army Group South]]
+}}
+<syntaxhighlight lang="wikitext">
+{{Infobox military operation
+ |name        = Case Blue
+ |scope       = Strategic offensive
+ |planned_by  = ''[[Wehrmacht]]''
+ |objective   = Capture of [[Caucasus]] oil fields
+ |executed    = Began {{start date|1942|06|28|df=y}}
+ |executed_by = [[Army Group South]]
+}}</syntaxhighlight>
+
+=== Parameters ===
+{{#ifeq:{{BASEPAGENAME}}|Infobox military operation||'''Note:''' These parameters are for {{tl|Infobox military operation}}.<br /><br />}}
+'''Note''': When using parameters, avoid the ambiguous abbreviation "N/A", and instead use "unknown" or "none". All subjective or qualitative judgements and numerical quantities or statistics must be cited to a reliable source (see [[WP:MILMOS#CITE]]).
+
+* '''name''' – the name of the operational plan; names in multiple languages may be provided. 
+* '''subtitle''' – alternative name of the conflict being described.
+* '''partof''' – ''optional'' – the larger conflict containing the event described in the article.
+* '''image''' – ''optional'' – an image for the warbox.  Given in the form <code>File:Example.jpg</code>
+* '''image_upright''' – ''optional'' – image upright scaling factor.
+* '''alt'''  – ''optional'' – [[Wikipedia:Manual of Style/Accessibility/Alternative text for images|Alternative text for image]] that is accessible to [[screen reader]]s to help the [[visually impaired]]
+* '''caption''' – ''optional'' – the text to be placed below the image.
+* '''location''' – ''optional'' – the location of the operation.
+* '''coordinates''' – ''optional'' – the coordinates for the location above, given as {{tl|coord}} with ''|display=inline,title''. Used to display the geographic location of the conflict and the location on a map added with the <code>map_type</code> parameter. If coordinates for several locations are given, consider if hany shall have the title display.
+* '''map_type''' &ndash; ''optional'' &ndash; the base map to be used for the location map, e.g. "Scotland"; see {{tl|location map}} for more details.
+* '''map_size''' &ndash; ''optional'' &ndash; width of the location map in pixels (px), e.g. "150"; defaults to: "220".  
+* '''map_caption''' &ndash; ''optional'' &ndash; caption displayed below the location map; defaults to "Location within {{{map_type}}}", e.g. "Location within Scotland".
+* '''map_label''' &ndash; ''optional'' &ndash; the label placed next to the marker on the location map.
+* '''scope''' – ''optional'' – the scope of the operation, such as "Strategic", "Operational", or "Tactical". 
+* '''type''' – ''optional'' – as an alternative to the '''scope''' field above, the type of operation, such as "Suicide attack" or "Ambush".
+* '''planned''' – ''optional'' – the date(s) on which the plan was developed. 
+* '''planned_by''' – ''optional'' – the person or group responsible for developing the plan. 
+* '''commanded_by''' – ''optional'' – the person commanding the operation. 
+* '''objective''' – ''optional'' – the objective(s) of the operation. 
+* '''target''' – ''optional'' – as an alternative to the '''objective''' field above, the target(s) of the operation. 
+* '''date''' – ''optional'' – the date(s), if any, on which the operation was executed. use {{Tl|Start date}} (and {{Tl|End date}} if required) 
+* '''time''' – ''optional'' – the time, if any, at which the operation was executed.
+* '''time-begin''' and '''time-end''' – ''optional'' – as an alternative to the '''time''' field above, the start and end times, respectively.
+* '''timezone''' – ''optional'' – the timezone of the location of the operation; [[UTC]]+X, [[UTC]]-X, or [[UTC]] (i.e. offset from [[UTC]]) is preferred.
+* '''executed_by''' – ''optional'' – the people, groups, units, or formations responsible for executing the operation.
+* '''outcome''' – ''optional'' – the outcome of the operation from the perspective of the planners with a very brief summary of defence if appropriate.
+* '''casualties''' – ''optional'' – any casualties occurring during the execution of the operation.
+* '''fatalities''' – ''optional'' – as an alternative to the '''casualties''' field above, the number of fatalities occurring during the execution of the operation.
+* '''injuries''' – ''optional'' – as an alternative to the '''casualties''' field above, the number of injuries occurring during the execution of the operation.
+
+=== Microformat ===
+{{UF-hcal}}
+
+=== TemplateData ===
+{{collapse top|title=[[Wikipedia:TemplateData|TemplateData]] for this template used by [[mw:Extension:TemplateWizard|TemplateWizard]], [[Wikipedia:VisualEditor|VisualEditor]] and other tools}}
+{{TemplateData header|noheader=y}}
+<templatedata>
+{
+    "description": "This infobox may be used to describe a particular planned or executed military operation or attack.",
+	"format": "{{_\n| _____________ = _\n}}\n",
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "The name of the military operation",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"name"
+	]
+}
+</templatedata>
+{{collapse bottom}}
+
+=== See also ===
+* {{tl|Infobox civil conflict}}
+* {{tl|Infobox civilian attack}}
+* {{tl|Infobox military conflict}}<noinclude>
+[[Category:WikiProject Military history template instructions|Military operation]]
+</noinclude>
+<includeonly>
+{{Sandbox other||{{#ifeq:{{{noheader|}}}|yes||
+<!-- Categories below this line; interwikis at Wikidata -->
+
+[[Category:Templates with coordinates fields]]
+[[Category:Military auxiliary infobox templates|Military operation]]
+[[Category:Templates that add a tracking category|{{PAGENAME}}]]
+}}}}</includeonly>

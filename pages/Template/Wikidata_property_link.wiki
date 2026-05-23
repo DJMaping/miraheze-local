@@ -1,0 +1,18 @@
+<includeonly>{{#switch:{{str left|{{uc:{{{id|}}}}}|1}}
+| N <!--none--> = {{#switch:{{str left|{{uc:{{{1|}}}}}|1}}
+  | P = [[d:Special:EntityPage/{{uc:{{{1|}}}}}|{{wikidata|label|{{uc:{{{1|}}}}}}}]]
+  | [[d:Special:EntityPage/P{{uc:{{{1|}}}}}|{{wikidata|label|P{{uc:{{{1|}}}}}}}]]
+  }}
+| O <!--only--> = {{#switch:{{str left|{{uc:{{{1|}}}}}|1}}
+  | P = [[d:Special:EntityPage/{{uc:{{{1|}}}}}|{{uc:{{{1|}}}}}]]
+  | [[d:Special:EntityPage/P{{uc:{{{1|}}}}}|P{{uc:{{{1|}}}}}]]
+  }}
+| F <!--first--> = {{#switch:{{str left|{{uc:{{{1|}}}}}|1}}
+  | P = [[d:Special:EntityPage/{{uc:{{{1|}}}}}|{{uc:{{{1|}}}}}]]{{#if:{{wikidata|label|{{uc:{{{1|}}}}}}}|&#58; <small>{{wikidata|label|{{uc:{{{1|}}}}}}}</small>}}
+  | [[d:Special:EntityPage/P{{uc:{{{1|}}}}}|P{{uc:{{{1|}}}}}]]{{#if:{{wikidata|label|P{{uc:{{{1|}}}}}}}|&#58; <small>{{wikidata|label|P{{uc:{{{1|}}}}}}}</small>}}
+  }}
+| #default = {{#switch:{{str left|{{uc:{{{1|}}}}}|1}}
+  | P = [[d:Special:EntityPage/{{uc:{{{1|}}}}}|{{wikidata|label|{{uc:{{{1|}}}}}}} <small>({{uc:{{{1|}}}}})</small>]]
+  | [[d:Special:EntityPage/P{{uc:{{{1|}}}}}|{{wikidata|label|P{{uc:{{{1|}}}}}}} <small>(P{{uc:{{{1|}}}}})</small>]]
+  }}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,12 @@
+{{{{{|safesubst:}}}#invoke:Unsubst|main|$B=
+{{Ombox
+| name  = Subst only
+| type  = notice
+| text  = This template <strong>{{#switch:{{{yesnomaybe|}}}|may=may be [[Help:Substitution|substituted]]</strong>|never=should <em>not</em> be [[Help:Substitution|substituted]]</strong>||#default=should always be [[Help:Substitution|substituted]]</strong> – use <!--
+ -->{{{actualtemplate|{{template other|{{Tlsp|code=yes|{{#switch:{{SUBPAGENAME}}|doc|sandbox={{BASEPAGENAME}}|{{PAGENAME}}}}}}|{{Tlsu|code=yes|{{FULLPAGENAME}}}}}}}}}}}. <!--
+ -->{{#if:{{yesno|{{{auto|no}}}}} |Any accidental transclusions will be automatically substituted by a bot.{{{1|}}}{{#if:{{yesno|{{{nocat|}}}}}|<!--no categorization-->|{{#switch:{{SUBPAGENAME}}|doc|sandbox=|[[Category:Wikipedia templates to be automatically substituted]]}}}}}} <!--
+ -->{{#if:{{{alt|}}} |For transcluding, use {{Tl|{{{alt|}}}}} instead.}}
+}}{{#if:{{yesno|{{{nocat|<noinclude>true</noinclude>}}}}}|<!--no categorization-->|{{#switch:{{SUBPAGENAME}}|doc|sandbox=|{{#switch:{{{yesnomaybe|}}}
+|never=[[Category:Wikipedia never-substituted templates]]
+|#default=[[Category:Wikipedia substituted templates]]
+}}}}}}}}<includeonly>__EXPECTUNUSEDTEMPLATE__</includeonly><noinclude>{{Documentation}}</noinclude>

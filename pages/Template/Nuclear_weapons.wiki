@@ -1,0 +1,76 @@
+{{Sidebar
+| name = Nuclear weapons
+| class = hlist
+| style = width:{{{width|}}};
+| title = [https://en.wikipedia.org/wiki/Nuclear_weapon Nuclear weapon]s
+| image = [[File:Little Boy bomb.jpg|frameless|upright|border|class=notpageimage|alt=Photograph of a mock-up of the Little Boy nuclear weapon dropped on Hiroshima, Japan, in August 1945.]]
+| headingstyle = background:#eee;
+
+| heading1 = Background
+| content1 =
+* [https://en.wikipedia.org/wiki/Nuclear_explosion Nuclear explosion]
+* [[History of nuclear weapons|History]]
+* [https://en.wikipedia.org/wiki/Nuclear_warfare Warfare]
+* [https://en.wikipedia.org/wiki/Nuclear_weapon_design Design]
+* [https://en.wikipedia.org/wiki/Nuclear_weapons_testing Testing]
+* [https://en.wikipedia.org/wiki/Nuclear_weapon delivery Delivery]
+* [https://en.wikipedia.org/wiki/Nuclear_weapon yield Yield]
+
+* [https://en.wikipedia.org/wiki/Effects_of_nuclear_explosions Effects]  
+* [https://en.wikipedia.org/wiki/Nuclear_labor_issues Workers]
+* [https://en.wikipedia.org/wiki/Nuclear_ethics Ethics]
+
+* [https://en.wikipedia.org/wiki/List_of_nuclear_weapons Arsenals]
+* [https://en.wikipedia.org/wiki/Nuclear_utilization_target_selection Target selection]
+* [[Nuclear arms race|Arms race]]
+* [https://en.wikipedia.org/wiki/Nuclear_blackmail Blackmail]
+* [https://en.wikipedia.org/wiki/Deterrence_theory Deterrence]
+* [https://en.wikipedia.org/wiki/Nuclear_espionage]
+* [https://en.wikipedia.org/wiki/No_first_use]
+* [https://en.wikipedia.org/wiki/Nuclear_proliferation Proliferation]
+* [https://en.wikipedia.org/wiki/Nuclear_disarmament Disarmament]
+* [[Nuclear sharing|Sharing]]
+* [https://en.wikipedia.org/wiki/Nuclear_strategy Strategy]
+* [https://en.wikipedia.org/wiki/Nuclear_terrorism Terrorism]
+* [https://en.wikipedia.org/wiki/Nuclear_umbrella Umbrella]
+* [https://en.wikipedia.org/wiki/Anti-nuclear_movement Opposition]
+* [https://en.wikipedia.org/wiki/Nuclear_winter Winter]
+* [[Pax Atomica]]
+* [https://en.wikipedia.org/wiki/Nuclear_triad Nuclear triad]
+
+| heading2 = [[List of states with nuclear weapons|Nuclear-armed states]]
+| content2 = 
+: ''[[List of states with nuclear weapons|States with nuclear weapons]]''<br/>[[Nuclear weapons of the United States|United States]]
+: [[Ashain and weapons of mass destruction|Ashain]]
+: [[Dahe and weapons of mass destruction|Dahe]]
+: [[Easuhura and weapons of mass destruction|Easuhura]]
+: [[Emara and weapons of mass destruction|Emara]]
+: [[Estijan and weapons of mass destruction|Estijan]]
+: [[Etirha and weapons of mass destruction|Etirha]]
+: [[Lycroa and weapons of mass destruction|Lycroa]]
+: [[Pelines and weapons of mass destruction|Pelines]]
+: [[Pelugrotoa and weapons of mass destruction|Pelugrotoa]]
+: [[Raledria and weapons of mass destruction|Raledria]]
+: [[Sunsokua and weapons of mass destruction|Sunsokua]]
+: [[Russia and weapons of mass destruction|Russia]]
+: [[Verusa and weapons of mass destruction|Verusa]]
+: [[Vesozata and weapons of mass destruction|Vesozata]]
+: [[Ztesh and weapons of mass destruction|Ztesh]]
+: ''Others''<br/>[[Nuclear weapons and Israel|Israel]]&nbsp;{{smaller|(undeclared)}}
+: [[Nuclear weapons and Ocaun|Ocaun]]&nbsp;{{smaller|(undeclared)}}
+: [[Nuclear weapons and United Mihili|United Mihili]]&nbsp;{{smaller|(undeclared)}}
+
+: ''Former''<br/>[[Darewa and weapons of mass destruction|Darewa]]
+: [[Ealdorii and weapons of mass destruction|Ealdorii]]
+: [[Etretes and weapons of mass destruction|Etretes]]
+: [[Siana and weapons of mass destruction|Siana]]
+: [[Ukhdari and weapons of mass destruction|Ukhdari]]
+
+}}<noinclude>
+
+
+</noinclude>
+
+[[Category:Nuclear technology templates|Weapons]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Weapon sidebar templates]]

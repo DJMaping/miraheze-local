@@ -1,0 +1,17 @@
+{{#ifeq:{{NAMESPACE}}|Template talk||'''{{small|{{smallcaps|When used with the}} "Redirect category shell" (Rcat shell) {{smallcaps|template:}}}}}}'''
+{{Mbox
+| name  = This is a redirect/rcat
+| type  = move 
+| image = none
+| style = margin-top: 1.1em; border: solid 1px darkblue; border-left-width: 0.5em;
+| textstyle = padding-top: 0.9em; padding-bottom: 0.9em;
+| text  = '''This page is a [[Wikipedia:Redirect|redirect]]. <small>The following [[Wikipedia:Categorizing redirects|categories]] are used to track and monitor this redirect:</small>'''
+{{#ifeq:{{PAGENAME}}|R avoided double redirect|<includeonly>{{{text|{{ {{#switch:{{PAGENAME}}|This is a redirect/rcat=|This is a redirect/rcat/sandbox=|This is a redirect/rcat/testcases=|#default={{PAGENAME}}}}|embed=yes}}}}}</includeonly>|
+<noinclude>* (Text of rcat)</noinclude><includeonly>{{{text|{{ {{#switch:{{PAGENAME}}|This is a redirect/rcat=|This is a redirect/rcat/sandbox=|This is a redirect/rcat/testcases=|#default={{PAGENAME}}}}|embed=yes}}}}}</includeonly>}}
+''<small>When appropriate, [[WP:PP|protection levels]] are automatically sensed, described and categorized.</small>''
+}}
+:''{{small|Template {{tl|Redirect category shell}} may be used to add one or more [[WP:RCAT|rcat]] templates, along with their parameters and categories, to a redirect.  {{#ifeq:{{NAMESPACE}}|Template talk||For more information, see the documentation page below.}}}}''{{#ifeq:{{NAMESPACE}}|Template talk||{{#if:{{{1|}}}||
+<br />
+'''{{small|{{smallcaps|When used by itself:}}}}'''}}}}<noinclude>
+{{Documentation}}
+</noinclude>

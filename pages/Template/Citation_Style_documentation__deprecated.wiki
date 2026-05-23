@@ -1,0 +1,4 @@
+{{#lst:Help:CS1 errors|deprecated_params_table}}<!--
+{{#lst:Help:CS1 errors|discouraged_unhyphenated_alias_help}}
+{{#lst:Help:CS1 errors|discouraged_params_table}}-->
+{{#lst:Help:CS1 errors|deleted_params_table}}

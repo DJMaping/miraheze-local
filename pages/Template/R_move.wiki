@@ -1,0 +1,6 @@
+#REDIRECT [[Template:R from move]]
+
+{{Redirect category shell|
+{{R to redirect template}}
+{{R from template shortcut}}
+}}

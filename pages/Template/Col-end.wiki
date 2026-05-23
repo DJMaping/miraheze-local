@@ -1,0 +1,5 @@
+<includeonly>&#32;
+|}</div></includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

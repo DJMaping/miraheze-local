@@ -1,0 +1,22 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Latvia
+| flag alias = Flag of Latvia.svg
+| flag alias-pantone = Flag of Latvia (Textile).svg
+| flag alias-air force = Flag of the Latvian Air Forces.svg
+| link alias-air force = Latvian Air Force
+| flag alias-naval = Naval Ensign of Latvia.svg
+| link alias-naval = Latvian Naval Forces
+| link alias-army = Latvian Land Forces
+| flag alias-navy = Naval Ensign of Latvia.svg
+| link alias-navy = Latvian Naval Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = pantone
+| redir1 = LVA
+| redir2 = LAT
+| related1 = Latvian SSR
+</noinclude>
+}}

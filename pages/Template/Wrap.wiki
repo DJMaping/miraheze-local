@@ -1,0 +1,4 @@
+<noinclude>{{about|tagging wrappable segments within nowrap-scoped text|a doc page banner that flags a wrapper template|Template:Wrapper|a wrapper template generator|Module:Template wrapper}}</noinclude><includeonly><span class="wrap">{{{1|&#32;}}}</span></includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>

@@ -1,0 +1,36 @@
+/* {{pp-template}} */	
+/* we add figure[typeof="mw:File/Thumb"] so that there is a lesser chance of
+   these styles being used for nefarious general purposes :)
+   if/when necessary to support some other kind of figures, can be added then
+*/
+figure[typeof="mw:File/Thumb"] .image-key > ol {
+	margin-left: 1.3em;
+	margin-top: 0;
+}
+
+figure[typeof="mw:File/Thumb"] .image-key > ul {
+	margin-top: 0;
+}
+
+figure[typeof="mw:File/Thumb"] .image-key li {
+	page-break-inside: avoid;
+	break-inside: avoid-column;
+}
+
+/* support mobile with queries */
+@media (min-width: 300px) {
+	figure[typeof="mw:File/Thumb"] .image-key,
+	figure[typeof="mw:File/Thumb"] .image-key-wide {
+		column-count: 2;
+	}
+	
+	figure[typeof="mw:File/Thumb"] .image-key-narrow {
+		column-count: 1;
+	}
+}
+
+@media (min-width: 450px) {
+	figure[typeof="mw:File/Thumb"] .image-key-wide {
+		column-count: 3;
+	}
+}

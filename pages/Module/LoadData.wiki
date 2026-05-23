@@ -1,0 +1,60 @@
+local p = {}
+
+-- Finds the next key key <= or >= the given i.
+-- operator is ±1
+local function findItemRange(data, i, operator)
+    local bestIndex = nil
+    i = i * operator
+    for k, v in pairs(data) do
+    	local kop = type(k) == 'number' and k * operator
+        if kop and kop <= i and (bestIndex == nil or kop > bestIndex * operator) then
+        	bestIndex = k
+        end
+    end
+    if bestIndex then return data[bestIndex] else return nil end
+end
+
+local function load(datamodule, frame)
+	local args = frame.args
+    local data = mw.loadData(datamodule)
+    for i = 1, 20 do
+        if args[i] then data = data[tonumber(args[i]) or args[i]]
+        elseif args[i .. ' lteq'] then
+            data = findItemRange(data, tonumber(args[i .. ' lteq']), 1)
+        elseif args[i .. ' gteq'] then
+            data = findItemRange(data, tonumber(args[i .. ' gteq']), -1)
+        else break end
+    end
+    
+    if data == nil then
+    	return args['if_nil'] -- not a required argument, OK to return nil here.
+    end
+    
+    if type(data) == 'table' then
+    	-- Put the table into another table because the return value of loadData
+    	-- is a "fake" table that only has certain metamethods.
+    	local realdata = {}
+    	for k, v in pairs(data) do
+    		realdata[k] = v
+    	end
+    	data = realdata
+    else
+    	data = { data }
+    end
+    
+    if args['template'] then
+    	return mw.text.unstripNoWiki(args['template']):format(unpack(data))
+    elseif args['preprocess'] then
+    	return frame:preprocess(mw.text.unstripNoWiki(args['preprocess']):format(unpack(data)))
+    else
+    	return table.concat(data)
+    end
+end
+
+return setmetatable({}, {
+	__index = function(t, k)
+		return function(frame)
+			return load('Module:' .. k, frame)
+    	end
+	end
+})

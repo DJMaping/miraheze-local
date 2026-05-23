@@ -1,0 +1,308 @@
+{{Short description|Prefix before a Wikipedia page's name}}
+{{redirect-distinguish|WP:NS|Wikipedia:WikiProject Nova Scotia}}
+{{redirect-distinguish|WP:NSPACE|Wikipedia:Notability (astronomical objects)}}
+{{pp-semi-vandalism|small=yes}}{{pp-move-indef}}
+{{Infopage|WP:NS|WP:NSPACE}}
+{{Namespaces}}
+
+A Wikipedia '''namespace''' is a set of Wikipedia pages whose [[Help:page name|names]] begin with a particular reserved word recognized by the [[MediaWiki]] software (followed by a colon). For example, in the ''user namespace'' all titles begin with the prefix ''User:''. In the case of the article (or main) namespace, in which encyclopedia articles appear, the reserved word and colon are absent. (Note: main space articles can optionally include a colon at the beginning with no reserved word, so <code>[<nowiki/>[Article]]</code> and <code>[<nowiki/>[:Article]]</code> are equivalent. This is usually only necessary for the advanced technique of [[WP:Transclusion|transcluding]] a main space article into a page in another namespace.)
+
+More generally, a Wikipedia '''namespace''' is a class of pages that falls under a common type. All pages in the <code>User</code> namespace, for example, are [[Wikipedia:User pages|user pages]], whereas [[WP:Drafts|Drafts]] are in the <code>Draft</code> namespace. This page is in the <code>[[WP:Project namespace|Wikipedia]]</code> namespace, for information or discussions about the project itself and its policies.
+
+Wikipedia has 30 current namespaces: 14 subject namespaces, 14 corresponding talk namespaces, and 2 virtual namespaces. These are all listed in the box to the right. While surfing Wikipedia, a list of namespaces is available in two clicks: do an empty search, then click ''Advanced'' under the search box. The list also makes itself available where needed in the dropdown menus of, for example, [[Special:Prefixindex]], [[Special:Allpages]], [[Special:Recentchanges]], and [[Special:Contributions]].
+
+The aliases '''WP''' for '''Wikipedia''', and '''WT''' for '''Wikipedia&nbsp;talk''', work for page names in the search box, and making links as well as inclusions. See [[#Aliases|Aliases]] below for other aliases. (The pseudo-namespaces such as '''H''' for '''Help''', and '''CAT''' for '''Category''', are extremely limited. See ''[[#Pseudo-namespaces|Pseudo-namespaces]]'' below.)
+
+The table on the right shows what number to use when you want to hide pages that are on your watchlist. See: [[Wikipedia:Hide Pages in Watchlist]] for details.
+
+== Subject namespaces ==
+{{see|Wikipedia:Administration#Data structure and development}}
+[[File:Policies and guidelines indicator.png|thumb|350px|This page is in the [[Wikipedia:Project namespace|Wikipedia namespace]].]]
+Namespaces allow for the organization and separation of [[Wikipedia:Administration#Content namespaces|content pages]] from [[Wikipedia:Administration#Administrative namespaces|administration pages]]. Namespaces separate data into core sets, those intended for public viewing, and those intended for the editing community. Wikipedia's subject namespaces and their functions are listed below. A brief description is provided, but see the link for more information.
+
+{{anchor|subjectpage}}A namespace is sometimes called a ''space'', for short, as in "Project space". A ''subject page'' and its ''talk page'' form a pair.
+<!--
+in order of {{NAMESPACENUMBER}}
+-->
+
+===Current namespaces===
+* '''[[Wikipedia:Main namespace|Main namespace]]''' (no prefix): contains all encyclopedia articles, lists, [[Wikipedia:Disambiguation|disambiguation pages]], and encyclopedia [[Wikipedia:Redirect|redirects]]. Sometimes referred to as "mainspace" or "Article".
+* '''[[Wikipedia:User namespace|User namespace]]''' (prefix '''User:'''): contains user pages and other pages created by individual users for their own personal use. Pages under this namespace can still be viewed and modified by others, so do not keep any of your sensitive data here.
+* '''[[Wikipedia:Wikipedia namespace|Wikipedia namespace]]''' or '''[[Wikipedia:Project namespace|Project namespace]]''' (prefix '''Wikipedia:'''): contains many types of pages connected with the Wikipedia project itself: information, policies, guidelines, essays, processes, discussion, etc. [[Wikipedia:Namespace#Aliases|Namespace aliases]]: '''WP:''' or '''Project:'''
+*{{anchor|File|File namespace}}'''[[Wikipedia:File namespace|File namespace]]''' (prefix '''File:'''): contains [[Help:File description page|description pages for media files]] (images, videos, and audio files). A link starting with <code><nowiki>[[File:</nowiki></code> will display the media at that position on the page instead of showing a wikilink that leads to the specified file description page, so if you want the latter effect, use a link beginning with <code><nowiki>[[:File:</nowiki></code> (the [[Help:Colon trick|colon trick]]). Namespace alias: '''Image:'''
+* '''[[Help:MediaWiki namespace|MediaWiki namespace]]''' (prefix '''MediaWiki:'''): a namespace containing interface texts, such as the links and messages that appear on automatically generated pages. Pages in this namespace are permanently [[Wikipedia:Protection policy|protected]] against editing by regular users. For a list of these messages, see [[Special:AllMessages]]. (The prefix ''cannot'' be shortened to "MW" because '''mw''' is an interwiki prefix. See ''[[#Interwiki links|Interwiki links]]'' below.)
+* '''[[Wikipedia:Template namespace|Template namespace]]''' (prefix '''Template:'''): contains templates&nbsp;– pages that are intended primarily to be [[Wikipedia:Transclusion|transcluded]] or [[Wikipedia:Substitution|substituted]] onto other pages to insert standard text or boxes such as infoboxes and navigation boxes. [[Wikipedia:Namespace#Aliases|Namespace alias]]: '''TM:'''
+* '''[[WP:Help namespace|Help namespace]]''' (prefix '''Help:'''): contains pages which provide help in using Wikipedia and its software, both for users of the encyclopedia and for editors.
+* '''[[Wikipedia:Category namespace|Category namespace]]''' (prefix '''Category:'''): contains category pages, which are curated lists of related pages and subcategories, along with optional additional text. A link beginning with <code><nowiki>[[Category:</nowiki></code> has the effect of adding the page the link appears on to the specified category; it will not result in a wikilink to the category page itself. If you want the latter, use the [[Help:Colon trick|colon trick]]: <code><nowiki>[[:Category:</nowiki></code>.
+* '''[[Wikipedia:Portal namespace|Portal namespace]]''' (prefix '''Portal:'''): for reader-oriented portals that help readers find articles related to a specific topic, and may contain links to encourage contributions to relevant [[Wikipedia:WikiProject|WikiProjects]]. See, for example, [[Portal:Cricket]] and [[Portal:Spaceflight]].
+* '''[[Wikipedia:Draft namespace|Draft namespace]]''' (prefix '''Draft:'''): hosts drafts of new (potential) Wikipedia articles.
+* '''[[mw:Extension:TimedMediaHandler|TimedText namespace]]''' (prefix '''TimedText:'''): synchronized subtitles for media files.
+* '''[[Wikipedia:Module namespace|Module namespace]]''' (prefix '''Module:'''): contains [[mw:Extension:Scribunto|Scribunto]] modules&nbsp;– Lua scripts implementing special-purpose [[mw:Manual:Parser functions|parser functions]] for use in templates, beyond the [[Help:Magic words#Parser functions|basic set]] included with MediaWiki and its [[mw:Extensions FAQ|extensions]].
+* {{anchor|MOS}}'''[[WP:Manual of Style|MOS namespace]]''' (prefix '''MOS:'''): contains redirects to subpages of [[WP:Manual of Style]]. Until 2024 this was a pseudo-namespace, but it was turned into a real namespace in 2024 to avoid conflicts with the [[Mooré]] Wikipedia (with the language code <code>mos:</code>).<ref>[[phab:T363538]]</ref>
+* '''[[Event:Sandbox|Event namespace]]''' (prefix '''Event:''') contains [[mw:Extension:CampaignEvents]] events.
+
+===Former namespaces===
+The following namespaces previously existed but no longer do:
+
+*'''[[Wikipedia:Flow|Flow namespace]]''' (prefix '''Topic:''') was a proposed talk page replacement, formerly installed on English Wikipedia by [[mw:Extension:StructuredDiscussions|Extension:StructuredDiscussions]]. It is no longer installed after being rejected by the community.
+* '''[[Wikipedia:Course pages|Education Program namespace]]''' (prefix '''Education Program:'''): uninstalled in 2018, and replaced with the [[wmfdashboard:|Programs & Events Dashboard]].<ref>[[outreach:Education/News/January 2018/Education Extension scheduled shutdown|Education Extension scheduled shutdown]], Wikimedia outreach</ref><ref>{{Section link|Wikipedia:Education noticeboard/Archive 18#NOTICE:_EducationProgram extension is being deprecated}}</ref> However, the namespace was re-added later that year to allow access to old talk pages in the Education program talk: namespace. The namespace was then uninstalled again in 2021 after the remaining talk pages were moved to subpages of [[Wikipedia talk:Education program archive]].
+* '''[[Wikipedia:Books|Book namespace]]''' (prefix '''Book:'''): contained entries for Wikipedia books, collections of articles about one theme, which were used to generate downloadable files or printable documents or order books from PediaPress. In 2017, the online book rendering service was withdrawn, leading to the removal of most links leading to the namespace in 2019. The namespace and its transclusions were still retained in the hope that the WMF would come up with a solution,<ref>{{Section link|Wikipedia:Village pump (technical)/Archive 176|Suppress rendering of Template:Wikipedia books}}</ref> but in 2021 the namespace was uninstalled after all remaining books were moved to subpages of [[Wikipedia:Books/archive]].
+* '''Gadget namespace''' (prefix '''Gadget:'''):<ref>{{Section link|Wikipedia:Village pump (technical)/Archive 139#New "Gadget:" and "Gadget definition:" namespaces?}}</ref> was intended to store [[Wikipedia:Gadget|Gadgets]], which are small [[Snippet (programming)|snippets]] enabled in [[Special:Preferences#mw-prefsection-gadgets|user preferences]], but was never used for anything other than redirects to the video game ''[[Gadget: Invention, Travel, & Adventure]]'', and for most of its existence could only be edited by WMF staff. Gadgets currently use the [[Help:MediaWiki namespace|MediaWiki namespace]] with the ''MediaWiki:Gadget-'' page name prefix. It was a [[mw:Manual:Using custom namespaces|custom namespace]] installed by the [[mw:Extension:Gadgets|Gadget extension]].
+* '''Gadget definition namespace''' (prefix '''Gadget definition:'''): installed but never used; see above for more information. Gadget definitions currently use the [[MediaWiki:Gadgets-definition]] page.
+
+===Aliases and pseudo-namespaces===
+{{redirect|Wikipedia:Alias|template parameter aliases|Help:Template#Handling parameters}}
+An ''alias'' of a namespace is its namespace. For example, '''WP:''' is '''Wikipedia:''', and so
+<code><nowiki>[[</nowiki>Wikipedia:[[WP:Page name|''Page name'']]]]</code> can be abbreviated <code><nowiki>[[WP:</nowiki>[[WP:Page name|''Page name'']]]]</code>.
+See ''[[#Aliases|Aliases]]'' below, for a list of aliases, such as '''WT:''' for '''Wikipedia talk:'''.
+
+A ''pseudo-namespace'' is an agreement to create redirect pages named that way, each of which
+is a shortcut from mainspace to ''a single page in its namespace''.
+So an alias refers to ''any page in its namespace'', but a pseudo-namespace has far fewer pages than its real namespace.
+There are a few pseudo-namespace names like '''H:''' for '''Help:''', and '''CAT:''' for '''Category:''', and these can be discovered below in the section ''[[#Pseudo-namespaces|Pseudo-namespaces]]''.
+
+== <span id="Talk"></span><span id="Wikipedia talk"></span><span id="WT"></span> Talk namespaces==
+{{shortcut|WP:TALKSPACE}}
+{{main|Help:Using talk pages|Wikipedia:Talk page guidelines}}
+Each of the above namespaces (but not the virtual namespaces and the former Topic: namespace) has an associated [[help:talk page|talk namespace]]—these are also known as ''discussion pages''. The talk namespaces are designated by appending the word <code>talk</code> to the namespace name. For example, the talk namespace associated with the user namespace has the prefix '''User talk:'''. The talk namespace associated with the article namespace is '''Talk:'''.
+
+Most of the pages in the talk namespaces are used to discuss changes to the corresponding page in the associated namespace. Pages in the ''user talk'' namespace are used to leave messages for a particular user. The user talk namespace is special in that, whenever a user's talk page is edited, that user will see an orange box saying "You have new messages" on the top of every page that they view until they visit their talk page. By default, logged-in users will see [[Wikipedia:Notifications|a red notification square]] ''and'' a small orange box on the top right hand corner of the page; IP users will only see a wide orange box spanning the top of the page. (Minor edits made by [[Wikipedia:Bot policy|bots]] no longer set off the new message bar. For logged-in users, the new-message bar may be disabled in [[Special:Preferences]].)
+
+Note that the prefix '''WT:''' expands to '''Wikipedia talk:''', just as '''WP:''' expands to '''Wikipedia:''' (see [[#Aliases|Aliases]] below). For example, <nowiki>[[WT:Verifiability]]</nowiki> links to [[Wikipedia talk:Verifiability]].
+
+
+== Virtual namespaces<span id="Special"></span> ==
+In addition to subject namespaces, and their corresponding talk pages, there are two virtual namespaces (without corresponding talk pages) for specialist purposes:
+
+=== Special ===
+{{main|Help:Special page}}
+The ''Special:'' namespace consists of pages (called ''special pages'') that are created by the software on demand, such as [[Special:RecentChanges]]. These pages can be linked as usual, as with <nowiki>[[Special:RecentChanges]]</nowiki>, except when they have parameters. To use parameters, the full URL must be given as an external link. For example, https:{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:Recentchanges&days=3&limit=10, which returns the last ten changes in the last three days.
+
+You can create a [[Wikipedia:redirect|redirect]] to a Special page, but the redirect will not be followed automatically.
+
+For a list of special pages, see [[Special:SpecialPages]].
+
+{{anchor|Media|Media namespace}}
+
+=== Media ===
+{{Main|Help:Files}}
+The ''Media:'' namespace can be used to link directly to a file, rather than to the file description page.
+
+== Aliases and pseudo-namespaces==
+{{See|Wikipedia:Shortcut#List of prefixes}}
+Aliases and pseudo-namespaces are not namespaces in themselves; their main role is to provide handy ways to link to actual namespaces, by providing shortened links.
+
+The main difference between them being the way they work for this purpose; while aliases directly link to namespaces, pseudo-namespaces can only link to other namespaces by using specialist [[Wikipedia:Redirect|redirect pages]] in the main namespace called [[Wikipedia:Shortcut|shortcuts]]. While aliases are also used for shortcuts, this isn't necessary if the pagename is not shortened.
+
+Pseudo-namespaces all actually reside in main namespace; but a pseudo-namespace called [[m:Help:Transwiki|Transwiki:]] exists as a pseudo-namespace before being moved to another namespace.
+
+=== Aliases ===
+{{Shortcut|WP:ALIAS}}
+There are seven aliases defined for namespaces, all of which are case-insensitive:
+
+{| class=wikitable
+!Alias
+!Namespace
+|-
+|WP||rowspan=2|Wikipedia
+|-
+|Project
+|-
+|WT||rowspan=2|Wikipedia talk
+|-
+|Project talk
+|-
+|Image||File
+|-
+|Image talk||File talk
+|-
+|TM||Template
+|}
+
+These aliases are automatically translated by the Wikipedia servers to the proper namespace prefix. So if a link is made to a page title beginning with one of these aliases, or else entered in the search box or used in a URL in a browser address bar, the alias links to the page with the corresponding true namespace prefix. Hence entering [[WP:External links]] or [[Project:External links]] is equivalent to entering [[Wikipedia:External links]]; and entering [[WT:External links]] or [[Project talk:External links]] is equivalent to entering [[Wikipedia talk:External links]]. 
+
+An alias cannot be used as the actual namespace in a page title. For example, you cannot create page ''WP:123''; if tried, the page name is instantly converted to ''Wikipedia:123''. It ''is'', however, possible to [[Wikipedia:Page name#Changing the displayed title|change the ''displayed'' title]] on page ''Wikipedia:123'' to make it ''WP:123'' or ''Project:123''.
+
+<span class="plainlinks">This is very handy for the creation of [[Wikipedia:Shortcut|shortcuts]]. For example, the shortcut for this section is [[WP:ALIAS]], as shown in the right-side box. When the link is clicked, it is automatically translated to [https://en.wikipedia.org/w/index.php?title=Wikipedia:ALIAS&redirect=no Wikipedia:ALIAS]. At this page is a [[Help:Redirect|redirect]] to {{Section link|Wikipedia:Namespace#Aliases}}. This means that the shortcut goes directly to this section from anywhere on Wikipedia. It can also be entered as a [[URL]] in the browser address bar as https://en.wikipedia.org/wiki/WP:ALIAS .</span>
+
+=== Pseudo-namespaces ===
+<!-- This section is linked from [[Wikipedia:Glossary]] -->
+{{Shortcut|WP:PNS}}
+Apart from Wikipedia's 24 regular namespaces and their aliases, and 2 virtual ones, there are several title prefixes appearing in [[Help:Shortcut|shortcut redirects]] pointing to frequently-referred-to Wikipedia pages. These prefixes are referred to as '''pseudo-namespaces''' and include the following:
+
+* '''[[Special:Prefixindex/CAT:|CAT:]]''' for shortcuts to the [[Wikipedia:Category namespace|Category namespace]]. See also [[:Category:Redirects to category space]]
+* '''[[Special:Prefixindex/H:|H:]]''' for shortcuts to the [[Wikipedia:Help namespace|Help namespace]]. See also [[:Category:Redirects to help namespace]]
+* '''[[Special:Prefixindex/P:|P:]]''' for shortcuts to the [[Wikipedia:Portal namespace|Portal namespace]]. See also [[:Category:Redirects to portal namespace]]
+
+A more complete list is available at {{Section link|Wikipedia:Shortcut#List of prefixes}}.
+
+Pseudo-namespaces are not in any way recognised by the wiki software; they are purely a community custom. Titles in pseudo-namespaces actually belong technically in the main (article) namespace and are treated as such by the software: they are case-sensitive and appear in [[Help:Search#Syntax|search results]] restricted to the main namespace. An alias is treated like a real namespace, resulting in a search for the [[WP:page name|pagename]] in its namespace, but the "pseudo-namespace:pagename" search is in mainspace, not its pseudo-namespace. For example, searching for "H:S" will not search '''Help'''.
+
+To learn some of these shortcuts, first follow the pseudo-namespace link above, then follow one of the redirects listed on that page. It will take you to the target, where you then notice any {{tl|shortcut}} boxes to the right of the page, which may also list some additional shortcuts to that same area. By observing these steps repeatedly, you can discover ways to shorten your typing. You will use pseudo-namespace names more often if you are an advanced editor, highly active in many namespaces, or constantly linking to pages that have a pseudo-namespace shortcut.
+
+To understand the appropriateness of redirects of this type, see [[Wikipedia:Cross-namespace redirects]]. All shortcuts are discoverable by [[Help:Searching|searching]] for redirects. There is also the category [[:Category:Wikipedia redirects|Wikipedia redirects]].
+
+As a final example, every [[Wikimedia Foundation]] project has a "[[m:Help:Transwiki|Transwiki:]]" pseudo-namespace (sometimes a real namespace) for importing articles manually. A wiki project that would manually move many pages between [[wp:sister|sister projects]] uses this tag. Redirects/shortcuts are not directly involved here, as described above. Instead, the page title is [[WP:move|move]]d to "Transwiki:''namespace:pagename''", and that content is then copied and pasted into a new page name of that temporary title on the target wiki. When it is accepted, the title is then moved out of the '''Transwiki''' pseudo-namespace there and becomes a real page name in its respective namespace.
+
+==<span id="Interwiki links"></span>Interwiki and interlanguage links ==
+{{see|Help:Interwiki linking|Help:Interlanguage links}}
+
+[[m:Table of Wikimedia projects|Interwiki]] and [[m:List of Wikipedias|interlanguage]] prefixes do not define namespaces, but point to pages in other Wikimedia projects, outside the en.wikipedia.org website. They are mentioned here because they use a namespace-like prefix technique for linking. Examples of interwiki prefixes include '''w:''' for Wikipedia; '''m:''' (or '''meta:''') for [[Meta-Wiki]], '''mw:''' for [[MediaWiki]],  and '''wikt:''' for [[Wiktionary]]. Examples of interlanguage prefixes include '''en:''' for English language, '''fr:''' for French language, and '''de:''' for German language. 
+
+Important points to note:
+
+* In the presence of an interwiki prefix and the absence of an interlanguage prefix, the link will be to a specified project in the current language. So <code><nowiki>[[w:Internet]]</nowiki></code> links to "[[w:Internet|Internet]]" on the English Wikipedia, if the link is on any English-language Wikimedia project.
+* In the presence of an interlanguage prefix and the absence of an interwiki prefix, the link will be to a specified language in the current project. So <code><nowiki>[[:en:Internet]]</nowiki></code> will link to "[[:en:Internet|Internet]]" on the English Wikipedia, if the link is on a Wikipedia project in any language.
+
+When making links to other language Wikipedias, add an initial colon if you want the link to appear inline rather than in the skin's sidebar under "Languages"; see [[Help:Colon trick]] for an explanation. So <code><nowiki>[[:de:Internet]]</nowiki></code> is an inline link to "[[:de:Internet|Internet]]" in the German Wikipedia; but if using an interwiki prefix this is unnecessary, for example <code><nowiki>[[w:de:Internet]]</nowiki></code> is the same inline link.
+
+Further examples:
+
+* [[m:Meta:Babel]] and [[meta:Meta:Babel]] both link to the "Babel" page in the project namespace (Meta:, the 2nd prefix) of Meta-Wiki (m: or meta:, the 1st prefix).
+* [[wikt:fr:Discuter:pied/fusion daf]] links to the "pied/fusion daf" page in the talk namespace (Discuter:, the 3rd prefix) of French (fr:, the 2nd prefix) Wiktionary (wikt:, the 1st prefix).
+
+Interwiki prefixes are not just for Wikimedia projects. For example, [[Dictionary:]] is the interwiki link for [[dict.org]] (the DICT Development Group). For a complete list of interwiki prefixes, see the [[m:Interwiki map|interwiki map]] and [[m:Special:Interwiki|interwiki table]].
+
+As with aliases, it is not possible to create a page with a title beginning with an interwiki or interlanguage prefix. It is also not possible to create redirects to interwiki pages, unless it is a [[Wikipedia:Soft redirect|soft redirect]].
+
+== Case insensitivity ==
+Standard namespace names, aliases and interwiki prefixes are case insensitive. The same applies to the first character after the colon. Hence the following all link to the same page:
+* [[Wikipedia:Afd]], [[WIKIPEDIA:Afd]], [[wIKIpedia:Afd]], [[wikipedia:afd]]
+* [[wP:Afd]], [[wp:Afd]], [[WP:afd]]
+* [[PROJECT:Afd]], [[project:Afd]], [[ProjecT:Afd]], [[Project:afd]]
+
+== Namespace-dependent functionality ==
+The namespace name is a useful variable for searching in and reporting on sets of [[WP:Page name|pages]]. It is also used to apply features that configure the sets of pages in one namespace differently from another namespace. Using the namespace name MediaWiki can:
+*[[WP:Search|Search]] for pages in a particular namespace only.
+* [[Help:Special page|Report]] on [[Special:AllPages|content]] or [[WP:Recent changes|changes in content]] of a namespace.
+* Enable or disable the [[WP:Subpage|subpage]] feature, per namespace.
+* Offer a [[WP:Random article|random article]] for the mainspace (<kbd><nowiki>[[</nowiki>Special:Random<nowiki>]]</nowiki></kbd>), or for a namespace <kbd><nowiki>[[</nowiki>Special:Random/''Namespace'']]</kbd>.
+* Change the functionality of <kbd><nowiki>[[</nowiki>''wikilink''<nowiki>]]</nowiki></kbd> if it targets the '''Category''' namespace or '''File''' namespace. Normally wikilinks are activated by the mouse, but <kbd><nowiki>[[</nowiki>Category:''Pagename''<nowiki>]]</nowiki></kbd> activates software functionality when the [[WP:Category|page is saved]], and <kbd><nowiki>[[</nowiki>File:''Page name''<nowiki>]]</nowiki></kbd> activates software functionality when the [[WP:Image|page is rendered]].
+* Change the functionality of <kbd><nowiki>{{</nowiki>[[WP:Transclusion|pagename]]<nowiki>}}</nowiki></kbd> so that it defaults to the set of pagenames in '''Template'''.
+* Tailor ''[[Wikipedia:Edit notices|edit notices]]'' to a particular namespace's edit page, informing an editor of certain aspects about the content of that namespace.
+* Allow ''[[Wikipedia:Templates|templates]]'' to behave differently on pages of different namespaces.
+
+The namespace functionality is often visible in the URL, where you will see a namespace number. These are given in the table below.
+
+Subpages are configured for all namespaces except Main, File, MediaWiki and Category namespaces. Subpages are configured in the software by enabling or disabling the subpage feature per namespace. This further extends the function of a namespace by extending the types of pages or topics of pages a namespace can home. For example, talk page ''/archives'' are subpages, and they are both namespace searchable and page name searchable from the search box, unlike [[WP:page history|history pages]], which are in no namespace. Another example is in the Template namespace where it is routine to put the documentation in a subpage called ''/doc''.
+
+Random pages are enabled, in the default software configuration, only for the mainspace.
+
+Searching and reporting can operate over the entire database, or they can be limited to a namespace, and so they will offer a list of all the namespaces currently configured. [[Special:WhatLinksHere]] also offers a list of namespaces.
+
+== Programming ==
+{{anchor|Enumeration}}
+The 30 namespaces in the English Wikipedia are numbered for programming purposes. The prefix for each namespace is generated using the [[Help:Magic words#Paths|magic word]] <syntaxhighlight lang=wikitext inline>{{ns}}</syntaxhighlight>, in the form <syntaxhighlight lang=wikitext inline>{{ns:xx}}</syntaxhighlight>, as shown in the table below.
+
+{| border="0" cellpadding="4" cellspacing="0" class="wikitable"
+|-
+!Namespace variable
+!Result (namespace name)
+!Namespace variable
+!Result (talk namespace name)
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:-2}}</syntaxhighlight>
+|{{ns:-2}}
+|
+|
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:-1}}</syntaxhighlight>
+|{{ns:-1}}
+|
+|
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:0}}</syntaxhighlight>
+|{{ns:0}} (main namespace, returns empty string)
+|<syntaxhighlight lang=wikitext inline>{{ns:1}}</syntaxhighlight>
+|{{ns:1}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:2}}</syntaxhighlight>
+|{{ns:2}}
+|<syntaxhighlight lang=wikitext inline>{{ns:3}}</syntaxhighlight>
+|{{ns:3}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:4}}</syntaxhighlight>
+|{{ns:4}}
+|<syntaxhighlight lang=wikitext inline>{{ns:5}}</syntaxhighlight>
+|{{ns:5}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:6}}</syntaxhighlight>
+|{{ns:6}}
+|<syntaxhighlight lang=wikitext inline>{{ns:7}}</syntaxhighlight>
+|{{ns:7}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:8}}</syntaxhighlight>
+|{{ns:8}}
+|<syntaxhighlight lang=wikitext inline>{{ns:9}}</syntaxhighlight>
+|{{ns:9}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:10}}</syntaxhighlight>
+|{{ns:10}}
+|<syntaxhighlight lang=wikitext inline>{{ns:11}}</syntaxhighlight>
+|{{ns:11}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:12}}</syntaxhighlight>
+|{{ns:12}}
+|<syntaxhighlight lang=wikitext inline>{{ns:13}}</syntaxhighlight>
+|{{ns:13}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:14}}</syntaxhighlight>
+|{{ns:14}}
+|<syntaxhighlight lang=wikitext inline>{{ns:15}}</syntaxhighlight>
+|{{ns:15}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:100}}</syntaxhighlight>
+|{{ns:100}}
+|<syntaxhighlight lang=wikitext inline>{{ns:101}}</syntaxhighlight>
+|{{ns:101}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:118}}</syntaxhighlight>
+|{{ns:118}}
+|<syntaxhighlight lang=wikitext inline>{{ns:119}}</syntaxhighlight>
+|{{ns:119}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:126}}</syntaxhighlight>
+|{{ns:126}}
+|<syntaxhighlight lang=wikitext inline>{{ns:127}}</syntaxhighlight>
+|{{ns:127}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:710}}</syntaxhighlight>
+|{{ns:710}}
+|<syntaxhighlight lang=wikitext inline>{{ns:711}}</syntaxhighlight>
+|{{ns:711}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:828}}</syntaxhighlight>
+|{{ns:828}}
+|<syntaxhighlight lang=wikitext inline>{{ns:829}}</syntaxhighlight>
+|{{ns:829}}
+|-
+|<syntaxhighlight lang=wikitext inline>{{ns:1728}}</syntaxhighlight>
+|{{ns:1728}}
+|<syntaxhighlight lang=wikitext inline>{{ns:1729}}</syntaxhighlight>
+|{{ns:1729}}
+|}
+
+Alternative variables are available for most namespaces, for example <syntaxhighlight lang=wikitext inline>{{ns:talk}}</syntaxhighlight>, <syntaxhighlight lang=wikitext inline>{{ns:user}}</syntaxhighlight>, and <syntaxhighlight lang=wikitext inline>{{ns:user_talk}}</syntaxhighlight> for <syntaxhighlight lang=wikitext inline>{{ns:1}}</syntaxhighlight>, <syntaxhighlight lang=wikitext inline>{{ns:2}}</syntaxhighlight> and <syntaxhighlight lang=wikitext inline>{{ns:3}}</syntaxhighlight>. The portal namespace is numbered in the 100-plus range, as are all MediaWiki nonstandard namespaces. It is also possible to use {{tl|Namespace name}} for this, i.e. "<syntaxhighlight lang=wikitext inline>{{Namespace name|711}}</syntaxhighlight>" produces "{{Namespace name|711}}".
+
+All namespaces with a positive number or zero in this list are searchable. Specifically, the {{ns:-2}} and {{ns:-1}} namespaces are not searchable.
+
+The [[Help:Magic words|magic word]] <syntaxhighlight lang=wikitext inline>{{NAMESPACE}}</syntaxhighlight> returns the namespace prefix of the current page. This can be used in combination with other magic words and [[meta:Help:ParserFunctions|parser functions]] to change the appearance of [[WP:Template|templates]] depending on the namespace in which they are transcluded.
+
+Meta-templates have been created to simplify this process. These include the simple template {{tl|main other}}, and the more complex and versatile {{tl|namespace detect}}.
+
+For information on changing the appearance of a page or template by namespace based on CSS, see '''CSS''' section of [[mw:Help:Namespaces#Identifying namespaces|Identifying namespaces]] on the MediaWiki help page.
+
+== See also ==
+{{Help desk}}
+* [[Wikipedia:Page name]]
+* [[Wikipedia:Controlling search engine indexing]]
+* [[mw:Help:Namespaces|MediaWiki help page on namespaces]], for general MediaWiki technical information
+* [[mw:Extension default namespaces]], for namespaces added by extensions
+* [[Special:NamespaceInfo]] - automated listing of information for configured namespaces
+
+== References ==
+{{reflist}}
+
+{{Wikipedia technical help|collapsed}}
+[[Category:Wikipedia features]]
+[[Category:Wikipedia namespace administration| ]]

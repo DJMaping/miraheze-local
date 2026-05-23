@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Param value]]
+
+{{Rcat shell|
+{{R shortcut}}
+}}

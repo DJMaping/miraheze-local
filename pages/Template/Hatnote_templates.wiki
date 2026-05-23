@@ -1,0 +1,106 @@
+{{Navbox
+| name = Hatnote templates
+| state = {{{state|expanded}}}
+| bodyclass = hlist
+| belowclass = hlist
+| title  = [[WP:Hatnote#Hatnote templates|Hatnote templates]]
+
+| above =
+*[[Wikipedia:Hatnote]]
+*[[Wikipedia:Disambiguation]]
+*[[Wikipedia:Redirect]]
+
+| group1 = Generic
+| list1 =
+*{{tl|Hatnote}}
+*{{tl|Hatnote group}}
+*{{tl|Self-reference}}
+
+| group2 = For and about
+| list2 =
+*{{tl|For}}
+*{{tl|For-text}} (for custom text)
+*{{tl|For-multi}} (for multiple uses)
+*{{tl|About}}
+{{navbox|subgroup|
+ | group1 = Variations
+ | list1 = *{{tl|Other uses}}
+*{{tl|Other uses of}}
+*{{tl|Redirect-distinguish-for}}
+*{{tl|About-distinguish}}
+*{{tl|About-distinguish-text}}
+}}
+| group3 = Other topics
+| list3 =
+*{{tl|Other people}}
+*{{tl|About other people}} (adds "about" description)
+*{{tl|Similar names}}
+*{{tl|Other storms}}
+*{{tl|Other stars by Bayer designation}}
+*{{tl|Other places}}
+*{{tl|Other ships}}
+
+| group4 = Redirect
+| list4 =
+*{{tl|Redirect}}
+*{{tl|Redirect2}} (for two redirects)
+*{{tl|Redirect-multi}} (for multiple redirects)
+*{{tl|Redirect-several}} (for several redirects, without listing each)
+*{{tl|Redirect-synonym}}
+*{{tl|Redirect-distinguish}}
+*{{tl|Redirect-distinguish-text}}
+*{{tl|Redirect-distinguish-for}}
+*{{tl|Technical reasons}}
+
+| group5 = Distinguish
+| list5 =
+*{{tl|Distinguish}} (supports custom text)
+*{{tl|About-distinguish}}
+*{{tl|About-distinguish-text}} (for custom text)
+*{{tl|Redirect-distinguish}}
+*{{tl|Redirect-distinguish-text}} (for custom text)
+*{{tl|Redirect-distinguish-for}}
+
+| group6 = For use in sections
+| list6 =
+*{{tl|Main}}
+*{{tl|Main if exists}}
+*{{tl|Main list}}
+*{{tl|Further}}
+*{{tl|Further-text}} (for custom text)
+*{{tl|Further interlanguage link}}
+*{{tl|See also}}
+*{{tl|See also-text}} (for custom text)
+*{{tl|For outline}}
+*{{tl|For timeline}}
+
+| group7 = Special
+| list7 =
+*{{tl|Broader}}
+*{{tl|For introduction}}
+*{{tl|See Wiktionary}}
+*{{tl|Transcluding article}}
+*{{tl|Transcluded section}}
+
+| group8 = Subject specific
+| list8 = 
+* {{tl|About year}}
+* {{tl|Highway detail hatnote}}
+* {{tl|For LMST}}
+* {{tl|WikiIPA}}
+
+| below =
+*{{Icon|cat}} [[:Category:Hatnote templates]]
+**[[:Category:Hatnote modules|modules]]
+**[[:Category:Hatnote templates for names|for [family] names]]
+**[[:Category:Hatnote templates for lists|for lists]]
+*[[Template:Category hatnote templates|hatnote templates for category pages]]
+}}<noinclude>
+{{Navbox documentation|expanded|hatnotes=
+{{See also|Wikipedia:Hatnote#Hatnote templates}}
+}}
+{{Sandbox other||
+<!-- Add categories below this line, and interwikis at Wikidata -->
+[[Category:Hatnote templates| ]]
+[[Category:Documentation see also templates]]
+}}</noinclude>

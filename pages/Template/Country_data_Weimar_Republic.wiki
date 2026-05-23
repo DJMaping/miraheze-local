@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Weimar Republic
+| shortname alias = Germany
+| flag alias = Flag of Germany (3-2 aspect ratio).svg
+| flag alias-civil = Merchant flag of Germany (1919–1933).svg
+| flag alias-1918=Flag of the German Empire.svg
+| flag alias-1919=Flag of Germany (3-2 aspect ratio).svg
+| flag alias-naval = War Ensign of Germany (1921–1933).svg
+| link alias-naval = Reichsmarine
+| flag alias-army = War Ensign of Germany (1921–1933).svg
+| link alias-army = Reichswehr{{!}}Reichsheer
+| flag alias-navy = War Ensign of Germany (1921–1933).svg
+| link alias-navy = Reichsmarine
+| flag alias-military = War Ensign of Germany (1921–1933).svg
+| link alias-military = Reichswehr
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| var2=1918
+| var3=1919
+| related1 = Germany
+| related2 = German Empire
+| related3 = Nazi Germany
+</noinclude>
+}}

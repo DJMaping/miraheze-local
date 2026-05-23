@@ -1,0 +1,14 @@
+{{ombox
+  |type={{#ifeq: {{{1|}}}|n|content|notice}}
+  |image={{#ifeq: {{{1|}}}|n|[[File:Commons-emblem-hand-orange.svg|50px|alt=icon]]|[[File:Commons-emblem-success.svg|50px|alt=icon]]}}
+  |text={{#ifeq: {{{1|}}}|n
+    |This template '''should not be used in [[WP:Citation templates|citation templates]]''' such as [[Help:Citation Style 1|Citation Style 1]] and [[Help:Citation Style 2|Citation Style 2]], because it includes markup that will pollute the [[COinS]] metadata they produce; see [[Wikipedia:COinS]]. {{{addtext|}}}{{Sandbox other||{{category handler
+      |all=[[Category:Templates not safe for use in citation templates]]
+      |nocat={{{nocat|}}}
+      }}}}
+    |This template is '''safe for use in [[WP:Citation templates|citation templates]]''' that produce [[COinS]] metadata; see [[Wikipedia:COinS]]. If HTML or other markup is added, then its use must be reevaluated. {{{addtext|}}}
+  }}
+}}<noinclude>
+{{Documentation}}
+<!-- Please add categories to the /doc subpage, and interwikis at Wikidata (see Wikipedia:Wikidata) --> 
+</noinclude>

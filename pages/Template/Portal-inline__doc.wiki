@@ -1,0 +1,136 @@
+{{Documentation subpage}}
+{{#ifeq:{{SUBPAGENAME}}|sandbox||{{High-use}}}}
+{{Lua|Module:Portal-inline}}
+
+'''Template:Portal-inline''' is used to produce an inline link to a [[Portal:Contents/Portals|portal]] that is supported by print and mobile versions of Wikipedia pages.
+
+== Differences between <nowiki>{{Portal}} and {{Portal-inline}}</nowiki> ==
+
+{{tl|Portal}} creates a list of one or more portal links within an accessible navigation region. It is hidden in printer and mobile view. This is useful, for example, in an article's "See also" section.
+
+{{tl|Portal-inline}} creates one portal link with no accessibility context. It is visible in printer and mobile view. This is useful, for example, if making a mid-sentence link on a talk page, or if there is an alternative list structure in a "See also" section.
+{{Quotation |
+*<small>Mobile version of '''{{Plain link|url=https://{{CONTENTLANG}}.m.{{SITENAME}}.org/wiki/{{urlencode:{{{1|{{FULLPAGENAME}}}}}|WIKI}}|name={{{1|{{FULLPAGENAME}}}}}}}'''</small>
+*<small>Desktop version of '''{{Plain link|url=https://{{CONTENTLANG}}.{{SITENAME}}.org/wiki/{{urlencode:{{{1|{{FULLPAGENAME}}}}}|WIKI}}|name={{{1|{{FULLPAGENAME}}}}}}}'''</small>}}
+
+== Usage ==
+* <code><nowiki>{{Portal-inline|<name> }}</nowiki></code>
+* <code><nowiki>{{Portal-inline|<name> [|size= <size> ]  [|text= <text> ] [|short= <anything> ]}}</nowiki></code>
+Everything inside square brackets is optional, do not include the square brackets.
+
+== Parameters ==
+* <code>1</code> — required; The first unnamed/positional parameter is the name of the portal.
+* <code>size</code>— optional; Specify <code>|size=small</code> to show a 23x20 image or <code>|size=tiny</code> for a 17×15 image instead of the usual size.
+* <code>text</code>— optional; Specify <code>|text=(name)</code> for a different associated name to appear.
+* <code>short</code>— optional; Specify <code>|short=''anything''</code> to remove ''portal'' from the output.
+* <code>redlinks</code>— optional; Specify <code>|redlinks=yes</code> to show the portal if it is redlinked.
+* <code>nowrap</code>— optional; Specify <code>|nowrap=yes</code> to prevent the entire output from wrapping.
+
+== Examples ==
+
+=== Using only the name parameter ===
+* Code: <code><nowiki>{{Portal-inline|Canada}}</nowiki></code>
+* Produces: {{Portal-inline|Canada}}
+
+=== Using the name and size parameters ===
+* Code: <code><nowiki>{{Portal-inline|Canada|size=tiny}}</nowiki></code>
+* Produces: {{Portal-inline|Canada|size=tiny}}
+
+=== Using the name and text parameters ===
+* Code: <code><nowiki>{{Portal-inline|Canada|text=Canadian portal}}</nowiki></code>
+* Produces: {{Portal-inline|Canada |text=Canadian portal}}
+
+=== Using the name and short parameters ===
+* Code: <code><nowiki>{{Portal-inline|Canada|short=yes}}</nowiki></code>
+* Produces: {{Portal-inline|Canada |short=yes}}
+
+===Right  align element===
+{{portal|border=no|Canada}}
+See: {{tlx|Portal|border{{=}}no}}
+
+=== Lists ===
+In an article's "See also" section, to generate an accessible list of portal links, use {{tl|portal}}. If a different list structure is preferred, prefix each {{tl|portal-inline}} with an asterisk.
+
+<pre>
+* {{Portal-inline|Canada}}
+* {{Portal-inline|Feminism}}
+</pre>
+*Produces:
+* {{Portal-inline|Canada}}
+* {{Portal-inline|Feminism}}
+
+====Right align element ====
+{{portal|border=no|Canada|Feminism}}
+See {{tlx|Portal|border{{=}}no}}
+
+==Image==
+The portal image name is found using [[Module:Portal]]. Please see [[Module:Portal#Image]] for instructions on how to add, update, or remove an image.
+
+== Error tracking ==
+{{Purge button|right}}
+If the template is used incorrectly, the page will be added to a tracking category.
+
+The tracking categories are not applied if any of the following is true:
+# Tracking is specially disabled for that usage. This is done by setting the optional parameter {{para|tracking}} to any the following values: <code><nowiki>no</nowiki></code>, <code><nowiki>n</nowiki></code>, <code><nowiki>false</nowiki></code>
+# the template is used on a page in any of these namespaces: Talk, User, User talk, Wikipedia talk, File talk, Template talk, Category talk, Portal talk, Draft, Draft talk, Module talk
+# The title page on which the template is used includes any of the following case-insensitive strings: "/archive", "/doc", "/test"
+
+* {{clc|Portal-inline template with too few portals}}
+* {{clc|Portal-inline template with too many portals}}
+* {{clc|Portal-inline template with redlinked portals}}
+* {{clc|Pages with empty portal template}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"description": "Name of the portal to link to.",
+			"example": "Science",
+			"type": "wiki-page-name",
+			"required": true
+		},
+		"size": {
+			"label": "Size",
+			"description": "Set to \"tiny\"  to show a 17px image, or \"small\" to show a 23px image, instead of the usual size.",
+			"example": "tiny",
+			"type": "string",
+			"suggestedvalues": [
+				"tiny, small"
+			]
+		},
+		"text": {
+			"label": "Text",
+			"description": "Show a different name instead of the portal name.",
+			"example": "Portal of science",
+			"type": "string"
+		},
+		"short": {
+			"label": "Short",
+			"description": "Set to any value to exclude \"portal\" from the output.",
+			"example": "yes",
+			"type": "boolean"
+		},
+		"redlinks": {
+			"label": "Red links",
+			"description": "Set to \"yes\" to show the portal even if it is redlinked.",
+			"example": "yes",
+			"type": "boolean"
+		}
+	},
+	"description": "Produce an inline link to a portal with an image.",
+	"format": "inline"
+}
+</templatedata>
+
+== See also ==
+* [[Template:Subject bar]]
+
+{{Portal template list}}
+
+<includeonly>{{Sandbox other||<!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Internal link templates]]
+[[Category:Portal namespace templates]]
+[[Category:Wikipedia Portal navflags]]
+}}</includeonly>

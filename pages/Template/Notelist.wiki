@@ -1,0 +1,10 @@
+{{reflist|{{{1|{{{colwidth|}}}}}}|refs={{{refs|{{{notes|}}}}}}|group={{safesubst<noinclude />:#switch: {{{group|}}}
+    | note
+    | upper-alpha
+    | upper-roman
+    | lower-alpha
+    | lower-greek
+    | lower-roman = {{{group|}}}
+    | #default = lower-alpha
+   }}}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using notelist with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Notelist]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | colwidth | group | notes | refs }}<noinclude>
+{{documentation}}</noinclude>

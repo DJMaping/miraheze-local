@@ -1,0 +1,10 @@
+<includeonly><!--(Template:TEMPLATENAME start:)
+ -->{{safesubst:#ifeq:{{{require|{{{1|{{SUBPAGENAMEE}}}}}}}}|{{SUBPAGENAMEE}}
+     | {{safesubst:#ifeq:{{safesubst:NAMESPACE}}|{{ns:Template}} | |{{safesubst:NAMESPACE}}:}}<!--
+      -->{{safesubst:#ifeq:{{safesubst:SUBPAGENAMEE}}|{{{docpage|{{{override|doc}}}}}}
+          | {{safesubst:BASEPAGENAME}}
+          | {{safesubst:#switch:{{SUBPAGENAMEE}}
+             |doc |sandbox |testcases = {{safesubst:BASEPAGENAME}}
+             | {{safesubst:PAGENAME}}
+    }}   }} }}<!--(Template:TEMPLATENAME ends)
+--></includeonly><noinclude>{{Documentation}}</noinclude>

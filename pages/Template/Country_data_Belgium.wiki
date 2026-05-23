@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Belgium
+| flag alias = Flag of Belgium (civil).svg <!-- Not the official flag of Belgium, but see talk page for objections to using the state flag as the default -->
+| flag alias-government = Government Ensign of Belgium.svg
+| flag alias-state = Flag of Belgium.svg<!-- The official flag of Belgium. See talk page for why it is not the default. -->
+| flag alias-1830 = Flag of Belgium (1830).svg
+| flag alias-1858 = Royal ensign of Belgium (1858).svg
+| flag alias-army = Flag of the Belgian Army.svg
+| link alias-army = Belgian Land Component
+| flag alias-naval = Naval Ensign of Belgium.svg
+| link alias-naval = Belgian Navy
+| flag alias-air force = Air Force Ensign of Belgium.svg
+| link alias-air force = Belgian Air Component
+| flag alias-navy = Naval Ensign of Belgium.svg
+| link alias-navy = Belgian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = state
+| var2 = government
+| var3 = 1830
+| var4 = 1858
+| redir1 = BEL
+</noinclude>
+}}

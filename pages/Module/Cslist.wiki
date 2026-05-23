@@ -1,0 +1,46 @@
+p = {}
+
+p.makelist = function(frame)
+	local args = frame.args
+	if not args[1] then
+		args = frame:getParent().args
+		if not args[1] then return end
+	end
+	
+	local semi = args.semi
+	if semi then semi = semi:lower() end
+	local oxford = args.oxford
+	if oxford then oxford = oxford:lower() end
+	local embedded = args.embedded
+	if embedded then embedded = embedded:lower() end
+	
+	local out = ""
+	for k, v in ipairs(args) do
+		v = mw.text.trim(v)
+		if v ~= "" then
+			out = out .. "<li>" .. v .. "</li>"
+		end
+	end
+	local listclass = ""
+	if semi then
+		listclass = listclass .. "sslist"
+	else
+		if oxford then
+			if args[3] then
+				listclass = listclass .. "andlistoxford"
+			else
+				listclass = listclass .. "andlist"
+			end
+		else
+			listclass = listclass .. "cslist"
+		end
+	end
+	if embedded then
+		listclass = listclass .. " cslist-embedded"
+	end
+	if out ~= "" then
+		return '<ul class="'.. listclass ..'">' .. out .. '</ul>'
+	end
+end
+
+return p

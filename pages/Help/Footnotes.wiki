@@ -1,0 +1,540 @@
+{{short description|Wikipedia help article}}
+{{For|the official guideline on citing sources|Wikipedia:Citing sources}}
+{{For|help with citation templates|Help:Citation Style 1}}
+{{Redirect|WP:FN|the fringe theories noticeboard|Wikipedia:Fringe theories/Noticeboard}}
+{{Redirect|WP:NOTES|hatnotes|Wikipedia:Hatnote|article layout of footnotes|MOS:NOTES|musical notes|Wikipedia:Manual of Style/Music#Images and notation}}
+<noinclude>{{pp-semi-indef}}</noinclude>
+{{Wikipedia how to|H:FOOT|WP:FOOTNOTES|H:FN}}
+
+This page explains how to create the '''Footnotes''' section for Wikipedia articles. In this context, the word "Footnotes" refers to the Wikipedia-specific manner of documenting an article's sources and providing tangential information, and should not be confused with the general concept of [[Note (typography)|footnotes]]. This how-to does not cover the formatting of citations within the Footnotes section, which is reviewed in [[Wikipedia:Citing sources|Citing sources]].
+
+Footnotes are used most commonly to provide:
+* [[Wikipedia:Citing sources|references (bibliographic citations) to reliable sources]],
+* [[Help:explanatory notes|explanatory information]], or
+* source information for tables and other elements.
+
+Footnotes or [[Help:Shortened footnotes|shortened footnotes]] may be used at the editor's discretion in accordance with the guideline on [[WP:CITEVAR|Variation in citation methods]].
+
+Only certain types of material on the English Wikipedia are required to have an inline citation. There is [[Wikipedia:Inline citation#Citation density|no requirement to provide a citation for every sentence]], because multiple sentences may be supported by the same footnote. For advice on which material should be cited, see the guidelines on [[WP:MINREF|When you must use inline citations]], the [[Wikipedia:Good article criteria|Good article criteria]] and [[Wikipedia:when to cite|When to cite]]. For advice on how to organize and format bibliographic citations, see the guideline on [[Wikipedia:Citing sources|Citing sources]] and examples of [[Wikipedia:Citation templates#Examples|Citation templates]].
+
+Footnotes are created using the {{cite.php}} software extension. This extension adds the HTML-like elements {{xtag|ref|p}}, {{xtag|references|s}} and {{tag|references}}. On many pages, {{tl|reflist}} is used as a wrapper to style the reference list, but it cannot be used with [[Help:List-defined references|list-defined references]] due to incompatibility with Visual Editor. CSS style templates can also be used ''alongside'' {{tag|references|s}}, for example, {{tl|refwidth}} (and this does not create Visual Editor compatibility problems). In general, {{tag|references|s}} is preferred when the capabilities of {{tl|reflist}} are not needed.
+
+==Overview==
+
+The Footnotes system shows two elements on the page:
+* A '''Footnote marker''' is displayed in the article's content as a bracketed, superscripted number, letter, or word. Examples shown respectively are: {{dummy ref}}{{dummy ref|a}}{{dummy ref|Note 1}}. This footnote label is linked to the full footnote. Clicking on the footnote marker jumps the page down to the footnote and highlights the citation. If you are using the desktop site and have Javascript enabled, then hovering your cursor over a footnote marker (or touching it on touch devices) will show a pop-up box containing the footnote.
+* A '''Footnote''' displays the full citation for the source. Together the footnotes are displayed in an ordered list wherever the reference list markup {{tag|references|s}} or {{tl|reflist}} is placed. Each entry begins with the footnote label in plain text. The entire reference list is formatted in a slightly smaller font.
+
+:Each successive footnote label is automatically incremented. Thus the first footnote marker would be {{dummy ref}}, the second would be {{dummy ref|2}} and so on. Custom labels are also incremented: {{dummy ref|a}}{{dummy ref|b}}{{dummy ref|c}}, {{dummy ref|Note 1}} {{dummy ref|Note 2}} {{dummy ref|Note 3}}.
+:For a single-use footnote, the label is followed by a caret (^) that is a backlink to the matching footnote marker. For example:
+{{dummy footnote|margin=5em}}
+:If a named footnote is used in the text multiple times, then the footnote has multiple backlinks shown as letters:
+{{dummy footnote|2|a b c|margin=5em}}
+:Clicking on the backlink or pressing {{keypress|Alt|←}} returns to the footnote marker.
+
+===Footnotes in action===
+The superscript numeral "1" in square brackets at the end of this sentence is an example of a footnote marker.<ref>This is a footnote that contains a citation or note.</ref>
+
+{{reflist}}
+{{anchor|Footnote markers: the basics}}
+
+==Footnotes: the basics==
+
+{{See also|Help:Reftags}}
+
+To create the footnote marker, determine the point in the page content where the marker is desired and enter the markup with the citation or note inside the {{tag|ref}} tags. For example:
+
+{{markup
+|<nowiki>This is page content.<ref>''LibreOffice For Starters'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+{{reflist}}</nowiki>
+|This is page content.<ref>''LibreOffice For Starters'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+{{reflist}}
+}}
+
+The {{tl|reflist}} template will be explained in the next section; {{tag|references|s}} can also be used.
+
+The content inside the {{tag|ref}} will show in the reference list. The ref tags can be added anywhere a citation or note is needed. There must be content inside the tags, else an error will show.
+
+===Where to place ref tags===
+Ref tags should follow any punctuation (usually a period), not precede it; see [[WP:REFPUNC]]. There should be no space between the punctuation and the tag:
+
+{{markup
+|<nowiki>...text.<ref>Content of the reference</ref>
+{{reflist}}</nowiki>
+|...text.<ref>Content of the reference</ref> &nbsp; &nbsp; {{xt|Correct}}
+{{reflist}}
+|<nowiki>...text<ref>Content of the reference</ref>.
+{{reflist}}</nowiki>
+|...text<ref>Content of the reference</ref>. &nbsp; &nbsp; {{!xt|Incorrect (tag before punctuation)}}
+{{reflist}}
+|<nowiki>...text. <ref>Content of the reference</ref>
+{{reflist}}</nowiki>
+|...text. <ref>Content of the reference</ref> &nbsp; &nbsp; {{!xt|Incorrect (space before tag)}}
+{{reflist}}
+}}
+
+===Formatting ref tags===
+The content of the ref tags can be formatted using most wiki markup or HTML markup, although techniques such as the [[Help:Pipe trick|pipe trick]] and [[Help:Substitution|template substitution]] will not work in footnotes. For example:
+
+{{markup
+|<nowiki>This is page content.<ref>''LibreOffice For Starters'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+{{reflist}}</nowiki>
+|This is page content.<ref>''LibreOffice For Starters'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+{{reflist}}
+}}
+
+The ref tag content may also contain an internal or external link:
+
+{{markup
+|<nowiki>This is page content.<ref>''[http://www.example.org LibreOffice For Starters]'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+{{reflist}}</nowiki>
+|This is page content.<ref>''[http://www.example.org LibreOffice For Starters]'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+{{reflist}}
+}}
+
+{{MediaWiki URL rules}}
+
+==Reference lists: the basics==
+Once any number of footnotes have been inserted into the content, the reference list must be generated. For the basic reference list, add {{tag|references|s}} or {{tl|reflist}} wherever the list is desired. Once the page is published  and viewed, the footnotes will be automatically generated and numbered and the reference list will be generated. The main reference list is placed in a separate section, usually titled "References", "Notes" or the like.
+
+{{markup
+|<nowiki>This is page content.<ref>''LibreOffice For Starters'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+
+==References==
+{{reflist}}</nowiki>
+|This is page content.<ref>''LibreOffice For Starters'', First Edition, Flexible Minds, Manchester, 2002, p. 18</ref>
+
+{{fake heading|sub=2|References}}
+{{reflist}}
+}}
+
+'''Notes'''
+{{shortcut|HELP:MULTIREF}}
+* In some cases, a page has more than one reference list. Until 2014, multiple uses of {{tl|reflist}} on the same page required use of a {{para|close}} parameter; that bug has been fixed and the{{para|close}} parameter may safely be removed.
+
+{{anchor|Naming a ref tag so it can be used more than once|Footnote markers: using a source more than once}}
+
+==Footnotes: using a source more than once==
+{{Shortcut|WP:REFNAME|WP:NAMEDREFS}}
+{{Anchor|Reference name (naming a ref tag so it can be used more than once)}}{{Anchor|Multiple references to the same footnote}}
+{{Anchor|WP:NAMEDREF}} <!-- from WP:NAMEDREFS redirect -->
+{{See also|Wikipedia:Citing sources#Citing multiple pages of the same source}}
+You can cite the same source more than once on a page by using '''named references''', also called named footnotes. Using the example name of "manchester2002", the syntax to define a named footnote is:
+:{{tag|ref|params=name="<var>manchester2002</var>"|content=<var>text of full reference</var>}} is the full "named" reference and used only once.
+
+To invoke the named reference:
+:{{tag|ref|s|params=name="<var>manchester2002</var>"}} is the short version that is used other places in the article.
+
+{{refname rules}}
+
+Note that the colon-followed-by-numeral names, like <code>":0"</code>, are currently [[WP:VENAMEDREFS|generated by default]] in [[WP:VE|VisualEditor]]. They should be improved by replacement, using unique information from the citation, such as author and date of publication. For example, change <code>":0"</code> to <code>"manchester2002"</code>, or even better, an exact date, such as <code>"manchester_12/14/2002"</code>. Scientific publications and the [https://tools.wmflabs.org/yadkard/yadkard.fcgi Yadkard] tool always use unique ref names based on the last name(s) of the author(s) and the full publication date.
+
+{{markup
+|<nowiki>This is page content.<ref name="manchester2002">{{cite book|title=LibreOffice for Starters|edition=First|publisher=Flexible Minds|location=Manchester|year=2002|p=18}}</ref> This is more content.<ref name="manchester2002" />
+{{reflist}}</nowiki>
+|This is page content.<ref name="manchester2002">{{cite book|title=LibreOffice for Starters|edition=First|publisher=Flexible Minds|location=Manchester|year=2002|p=18}}</ref> This is more content.<ref name="manchester2002" />
+{{reflist}}
+}}
+
+The actual name used can be almost anything, but it is recommended that it have information derived from the citation or note. A common practice is to use the author-year or publisher-year for the reference name. This helps editors remember the name by associating it with the information that is visible to the reader.
+
+Note that the footnote labels are incremented in the order they are used, and that they use the same label when reused, thus the labels can seem out of order:
+{{markup
+|<nowiki>This is starter content.<ref name="manchester2002">{{cite book|title=LibreOffice for Starters|edition=First|publisher=Flexible Minds|location=Manchester|year=2002|p=18}}</ref> This is expert content.<ref name="lexington2004">{{cite book|title=OpenOffice for Experts|publisher=Lexington|year=2004|p=18}}</ref> And more starter content.<ref name="manchester2002" /> And more expert content.<ref name="lexington2004" />
+{{reflist}}</nowiki>
+|This is starter content.<ref name="manchester2002">{{cite book|title=LibreOffice for Starters|edition=First|publisher=Flexible Minds|location=Manchester|year=2002|p=18}}</ref> This is expert content.<ref name="lexington2004">{{cite book|title=OpenOffice for Experts|publisher=Lexington|year=2004|p=18}}</ref> And more starter content.<ref name="manchester2002" /> And more expert content.<ref name="lexington2004" />
+{{reflist}}
+}}
+
+When using both names and [[#Footnotes:_groups|groups]], the syntax is:
+:{{tag|ref|params=group="<var>groupname</var>" name="<var>name</var>"|content=Content}}
+Care should be taken when deleting references to avoid creating a cite error. See [[Wikipedia:Avoiding common mistakes#Deleting...|Avoiding common mistakes]].
+
+==Reference lists: columns==
+{{Shortcut|H:REFCOLS}}
+{{Hatnote|Columns are not supported by Internet Explorer 9 and below; see {{tl|Reflist}} for technical details}}
+
+Footnote lists generated by {{tl|Reflist}} or {{tag|references|s}} automatically split into columns if there are 10 or more items. The number of columns adjusts responsively to the width of the display, which can range from mobile phones and tablets to wide-screen "cinema" displays.
+
+The CSS "column-width" property is by default set at 25–30 [[em (typography)|em]] depending on the skin. Browsers interpret this as a minimum width suggestion; if there is leftover space that cannot be used by an additional column, columns may render wider. This property can be adjusted with {{tl|reflist}} or {{tl|refwidth}}. {{tl|refwidth}} only allows three settings, "short", "medium", and "long". For example:
+
+<syntaxhighlight lang="wikitext">
+==References==
+{{refwidth|short}}
+<references />
+</syntaxhighlight>
+
+{{tl|reflist}} allows this property to be set directly. To accommodate different fonts and zoom settings, this should always be done in em and not pixels. For example, to make narrow columns similar to the "short" setting:
+
+<syntaxhighlight lang="wikitext">
+==References==
+{{reflist|20em}}
+</syntaxhighlight>
+
+The "short" or "20em" setting is commonly used for [[Help:Shortened footnotes|shortened footnotes]], but not for [[Help:Citation Style 1|Citation Style 1]]. For a shortened footnote example, see {{oldid|NBR 224 and 420 Classes|442508215#Notes|NBR 224 and 420 Classes (13:32, 1 August 2011)}}.
+
+Setting a [[Template:Reflist#Columns|specific number of columns]] in reflist now no longer actually sets the "column-count" CSS property; instances of {{tlx|reflist|2}} or {{tlx|reflist|3}} can be replaced with the default behavior or variant requesting a specific column width. Given the range of reader screen sizes, fixing the number of columns would result in wasted space for some readers and overly narrow columns for others.
+
+==List-defined references==
+{{shortcut|WP:LDR}}
+{{main|Help:List-defined references}}
+
+Some or all of the footnotes can also be defined within the reference section/list, and invoked in the page content. This keeps those citations in one central location for easier maintenance and avoids cluttering the text. This is purely a source code change{{snd}}the actual display of the citation in the text to a reader is unaffected.
+
+For a more detailed evaluation of this method, see [[WP:LDRHOW]]. The syntax is:
+
+<syntaxhighlight lang="xml">
+<references>
+<ref name="name1">Content</ref>
+<ref name="name2">Content</ref>
+<ref name="name...n">Content</ref>
+</references>
+</syntaxhighlight>
+
+The footnote markers are included as usual for a named footnote. For example:
+
+{{markup
+|<nowiki>The quick brown fox jumps over the lazy dog.<ref name="LazyDog"/>
+Amazingly few discotheques provide jukeboxes.<ref name="Jukeboxes"/>
+How razorback-jumping frogs can level six piqued gymnasts.<ref name="JumpingFrogs"/>
+
+==References==
+<references>
+<ref name="Jukeboxes">This is the jukeboxes reference.</ref>
+<ref name="LazyDog">This is the lazy dog reference.</ref>
+<ref name="JumpingFrogs">This is the jumping frogs reference.</ref>
+</references></nowiki>
+|The quick brown fox jumps over the lazy dog.<ref name="LazyDog"/>
+Amazingly few discotheques provide jukeboxes.<ref name="Jukeboxes"/>
+How razorback-jumping frogs can level six piqued gymnasts.<ref name="JumpingFrogs"/>
+
+{{fake heading|sub=3|References}}
+<references>
+<ref name="LazyDog">This is the lazy dog reference.</ref>
+<ref name="Jukeboxes">This is the jukeboxes reference.</ref>
+<ref name="JumpingFrogs">This is the jumping frogs reference.</ref>
+</references>}}
+
+The references will be numbered, and appear in the output, ''in the order that they are first referred to in the content,'' regardless of their order within the list. All references in the reference list must be referenced in the content, otherwise an error message will be shown.
+
+Although the template {{T|Reflist}} with {{para|refs}} parameter also supports list-defined references, its use is deprecated as it is not supported by the [[Wikipedia:VisualEditor|VisualEditor]].
+
+{{anchor|Embedding references within footnotes}}
+
+==Footnotes: embedding references==
+{{shortcut|WP:REFNEST}}
+
+{{See also|WP:Nesting footnotes}}
+
+[[Help:Explanatory notes|Explanatory notes]] may need to be referenced. Because of limitations in the {{cite.php}} software, reference tags cannot be nested; that is, a set of {{tag|ref}} tags cannot be placed inside another pair of {{tag|ref}} tags. Attempting to do so will result in a cite error.
+
+The templates {{tl|r}} and {{tl|refn}} can be used to nest references. The markup is:
+
+:{{tlx|refn|2=group=''group''|3=name=''name''|4=''content''}} or
+:{{tlx|r|2=group=''group''|3=name=''name''|4=refn=''content''}} or
+:{{tlx|r|2=g=''group''|3=n=''name''|4=r=''content''}} (shorter)
+''name'' and ''group'' being optional parameters. The ''content'' may include {{tag|ref|o}} tags or another {{tl|r}} template.
+
+The other templates listed below in [[#Footnotes: predefined groups|Predefined groups]] are variants of {{tl|refn}} that include a styled group and have a matching styled reference list template.
+
+Examples:
+
+===Using {{tl|refn}}===
+{{markup
+|<nowiki>The quick brown fox jumps over the lazy dog.{{refn|group=nb|A footnote.<ref>A reference for the footnote.</ref>}}
+
+==Notes==
+{{reflist|group=nb}}
+
+==References==
+{{reflist}}
+</nowiki>
+|The quick brown fox jumps over the lazy dog.{{refn|group=nb|A footnote.<ref>A reference for the footnote.</ref>}}
+
+{{fake heading|sub=3|Notes}}
+{{reflist|group=nb}}
+
+{{fake heading|sub=3|References}}
+{{reflist}}
+}}
+
+===Using {{tl|r}}===
+{{markup
+|<nowiki>The quick brown fox jumps over the lazy dog.{{r|g=nb|r=A footnote.{{r|r=A reference for the footnote.}}}}
+
+==Notes==
+{{reflist|group=nb}}
+
+==References==
+{{reflist}}
+</nowiki>
+|The quick brown fox jumps over the lazy dog.{{r|g=nb|r=A footnote.{{r|r=A reference for the footnote.}}}}
+
+{{fake heading|sub=3|Notes}}
+{{reflist|group=nb}}
+
+{{fake heading|sub=3|References}}
+{{reflist}}
+}}
+
+The use of the magic word <code>#tag:ref</code> is valid, but the sequence of parameters is invariant and nonintuitive. {{tl|r}} as well as {{tl|refn}} and its variants use this markup internally.
+
+:<code>&#123;&#123;#tag:ref|<var>refcontent</var>|group=<var>groupname</var>|name=<var>name</var>}}</code>
+{{anchor|Grouping footnotes}}
+
+==Footnotes: groups==
+{{shortcut|WP:REFGROUP|WP:CITELABEL}}
+
+Sometimes it is useful to group the footnotes into separate lists, for example to separate explanatory notes from references, or to list references for tables, image captions, infoboxes and navboxes. The sequence of footnote labels is independent in each group.
+
+The syntax to define a footnote with a group is:
+:{{tag|ref|params=group=<var>groupname</var>|content=Content}}
+
+If the footnote marker group name includes a space, the group name ''must'' be enclosed in quotes, else a cite error will occur. Otherwise, quotes are optional.
+
+The syntax for the reference list with a group is:
+:{{tlx|reflist|2=group=<var>groupname</var>}}
+or:
+:<nowiki><references group="</nowiki><var>groupname</var><nowiki>"></nowiki>
+
+Example:
+{{markup
+|<nowiki>This part of the text requires clarification,<ref group=note>Listed separately from the citation</ref> whereas the entire text is cited.<ref>Citation.</ref> And this needs even more clarification.<ref group=note>Another note</ref>
+
+==Notes==
+{{reflist|group=note}}
+
+==References==
+{{reflist}}</nowiki>
+|This part of the text requires clarification,<ref group=note>Listed separately from the citation</ref> whereas the entire text is cited.<ref>Citation</ref> And this needs even more clarification.<ref group=note>Another note</ref>
+
+{{fake heading|sub=3|Notes}}
+{{reflist|group=note}}
+
+{{fake heading|sub=3|References}}
+{{reflist}}
+}}
+
+Note that the footnote labels in the reference list show only the numbers and not the group name.
+
+When using both names and groups, the syntax is:
+
+:{{tag|ref|params=group="<var>groupname</var>" name="<var>name</var>"|content=Content}}
+
+For the repeated note:
+
+:{{tag|ref|s|params=group="<var>groupname</var>" name="<var>name</var>"}}
+
+{{anchor|Footnotes:predefinedgroups}}
+==Footnotes: predefined groups==
+{{shortcut|H:PREGROUP|WP:EXPLNOTE}}
+{{for|technical details|Help:Cite link labels}}
+{{for|Shortened footnotes with explanatory footnotes|Help:Shortened footnotes#Explanatory notes}}
+{{See also|Wikipedia:Citing sources#Variation in citation methods|Wikipedia:Manual of Style/Layout#Notes and references}}
+<section begin=pregroup /><!--this section is used as the documentation for the efn/notelist templates-->{{anchor|footnotes_predefined_groups}}
+There are several predefined groups that can have a reference list styled so that the label (a superscripted character within square brackets, e.g., {{dummy ref|1}}) of an [[Help:Explanatory notes|explanatory note]] or citation ({{aka}} footnote, reference) matches and links to the note marker label located in the main text and the label in front of the note's text in the appropriate group's list. There can be [[Wikipedia:Citing sources#Separating citations from explanatory footnotes|more than one of these groups' lists]] in the Notes, References and other similarly purposed sections.
+
+These predefined note and citation groups have templates that make the [[wikitext]] markup simpler. These templates also allow a standard reference to be inserted, so that an explanatory note can have a reference, or citations can be nested.
+
+'''Note:''' If the note's text has a reference name that is used more than once, the labels will still match, but the clickable alpha characters (superscript lowercase letters like <sup>'''''a b c'''''</sup>) will be ''next to'' the note's label, with links to the multiple locations of its marker in the main text. See [[Help:Footnotes#Footnotes: using a source more than once|WP:REFNAME]] and the first point below in [[#Issues|§&nbsp;Issues]].
+
+===Template use by reference group type===
+<section begin=pregrouptable />
+{| class="wikitable"
+|- style="vertical-align:top;"
+! Group type !! Footnote marker template<br/>or markup !! Reference list<br/> template !! Sample labels
+|-
+|rowspan=3|''none by default,<br>but optionally any'' || {{tag|ref}}
+|rowspan=3| {{tlx|reflist}}
+|rowspan=3| 1 2 3 4 5 6 7 8 9 10
+|-
+| {{tlx|r}} (for nested references)
+|-
+| {{tlx|refn}} (for nested references)
+|-
+| lower-alpha || {{ubl| {{tlx|efn}} | {{tlx|efn-la}} }} || {{ubl| {{tlx|notelist}} | {{tlx|notelist-la}} }} || a b c d e f g h i j
+|-
+| upper-alpha || {{tlx|efn-ua}} || {{tlx|notelist-ua}} || A B C D E F G H I J
+|-
+| lower-roman || {{tlx|efn-lr}} || {{tlx|notelist-lr}} || i ii iii iv v vi vii viii ix x
+|-
+| upper-roman || {{tlx|efn-ur}} || {{tlx|notelist-ur}} || I II III IV V VI VII VIII IX X
+|-
+| lower-greek || {{tlx|efn-lg}} || {{tlx|notelist-lg}} || α β γ δ ε ζ η θ ι κ
+|-
+|note || {{ubl| {{tlx|NoteTag}} | {{tlx|efn-num}} }} || {{ubl| {{tlx|NoteFoot}} | {{tlx|notelist-num}} }} || note 1 note 2 note 3
+|}<section end="pregrouptable" />
+
+* {{tlx|efn}} supports {{para|name}}, which works the same as the parameter in {{tag|ref|o}} (see, for instance, the 4th and 5th examples below). It also supports {{para|group}}, which functions similarly to the parameter of the same name in {{tag|ref|o}} but accepts only 'lower-alpha', 'upper-alpha', 'lower-roman', 'upper-roman', 'lower-greek', or 'note'.  Do not enclose values in quotes.
+* {{tlx|notelist}} supports the {{para|colwidth}} and {{para|refs}} parameters, which work the same as the same parameters in {{tlx|reflist}}, and {{para|group}}, which works similarly to the parameter of the same name in {{tlx|efn}}. Do not enclose values in quotes.
+
+In these examples, the footnote labels match between the footnote marker and the reference list:
+
+{{markup|title=With lower-alpha labels
+|<nowiki>Lorem ipsum dolor sit amet.{{efn|Footnote 1}} Consectetur adipisicing elit.{{efn|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|Footnote 3}}
+
+{{notelist}}
+</nowiki>
+|Lorem ipsum dolor sit amet.{{efn|Footnote 1}} Consectetur adipisicing elit.{{efn|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|Footnote 3}}
+
+{{notelist}}
+}}
+
+{{markup|title=With lower-roman labels
+|<nowiki>Lorem ipsum dolor sit amet.{{efn-lr|Footnote 1}} Consectetur adipisicing elit.{{efn-lr|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn-lr|Footnote 3}}
+
+{{notelist-lr}}
+</nowiki>
+|Lorem ipsum dolor sit amet.{{efn-lr|Footnote 1}} Consectetur adipisicing elit.{{efn-lr|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn-lr|Footnote 3}}
+{{notelist-lr}}
+}}
+
+{{markup|title=With {{para|group}} and multiple types
+|<nowiki>Lorem ipsum dolor sit amet.{{efn|group=lower-roman|Footnote 1}} Consectetur adipisicing elit.{{efn|lower-alpha|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|group=lower-roman|Footnote 3}}
+
+Notes: 
+{{notelist|group=lower-roman}}
+Refs: 
+{{notelist|group=lower-alpha}}
+</nowiki>
+|Lorem ipsum dolor sit amet.{{efn|group=lower-roman|Footnote 1}} Consectetur adipisicing elit.{{efn|group=lower-alpha|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|group=lower-roman|Footnote 3}}
+
+Notes:
+{{notelist|group=lower-roman}}
+Refs:
+{{notelist|group=lower-alpha}}
+}}
+
+{{markup|title=With named references
+|<nowiki>Lorem ipsum dolor sit amet.{{efn|name=fn1|Footnote 1}} Consectetur adipisicing elit.{{efn|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|name=fn1}}
+
+{{notelist}}
+</nowiki>
+|Lorem ipsum dolor sit amet.{{efn|name=fn1|Footnote 1}} Consectetur adipisicing elit.{{efn|Footnote 2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|name=fn1}}
+{{notelist}}
+}}
+'''Note''': With named references you only need to add the details once. For each use after the first you just need to re-use the reference name. Doing this will not cause the inline superscript to display a custom name.
+
+{{markup|title=Named references can also be defined in the notelist
+|<nowiki>Lorem ipsum dolor sit amet.{{efn|name=fn1}} Consectetur adipisicing elit.{{efn|name=fn2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|name=fn1}}
+
+{{notelist|refs=
+{{efn|name=fn1|Very long footnote 1}}
+{{efn|name=fn2|Very long footnote 2}}
+}}
+</nowiki>
+|Lorem ipsum dolor sit amet.{{efn|name=fn1}} Consectetur adipisicing elit.{{efn|name=fn2}} Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{{efn|name=fn1}}
+{{notelist|refs=
+{{efn|name=fn1|Very long footnote 1}}
+{{efn|name=fn2|Very long footnote 2}}
+}}
+}}
+
+{{collapsed top|title=Currently broken; see {{section link|MediaWiki talk:Common.css|&lt;references /&gt; groups}}.}}
+
+[[WP:LDR|List-defined footnotes]] are incompatible with Visual Editor. {{tl|notelist}} is a simply a wrapper for {{tl|reflist}}, which is a wrapper for {{tag|references|s}}. Explanatory footnotes can be used with the raw tag (which ''is'' compatible with Visual Editor) by specifying the correct group name, for example:
+
+<pre>
+<references group="lower-alpha">
+<ref name="name1">Content</ref>
+<ref name="name2">Content</ref>
+</references>
+</pre>
+
+{{tl|refwidth}} can be used to set column widths.
+{{collapsed bottom}}
+
+===Issues===
+* Multiple backlink labels (see [[WP:REFNAME]]) are always styled as lower-alpha. This can be confusing when {{tlx|efn}} is used. See the note in the introduction of [[#footnotes_predefined_groups|this section]], above.
+* The entries in the reference list will show the default decimal styling if:
+** The value for {{para|group}} in {{tlx|reflist}} or {{tag|references|s}} does not exactly match one of the predefined values; use {{tlx|efn}} or variant as {{para|group}} will not be needed.
+** The value for {{para|group}} in {{tlx|reflist}} or {{tag|references|s}} is enclosed by quotes; use {{tlx|efn}} or variant as {{para|group}} will not be needed.
+** {{tlx|reflist}} is indented with the {{code|:}} markup.
+** {{tag|references|s}} is used instead of {{tlx|reflist}}
+* The entries in the reference list will have no styling if:
+** A reference is included in {{tlx|navbox}} or one of the variants and the style is set to <code>bodyclass=hlist</code>; to resolve this, replace the style with <code>listclass=hlist</code>.<section end=pregroup />
+* If the note text contains an "=" sign, precede the note text with {{para|1}}, like this: <code><nowiki>{{efn|name=fn1|1=Very long footnote with an equation, 2+2=4}}</nowiki></code>
+* If {{tlx|notelist}} is embedded within an infobox, a navbox or a reference section that already uses a small font size, the footnotes will likely render in a font size that breaches the 85% minimum needed to maintain accessibility described at [[MOS:SMALLFONT]]. This can be addressed by wrapping <nowiki>{{notelist}}</nowiki> with <nowiki><div></nowiki> tags that increase the font size of the output produced by the <code>notelist</code> template. For instance, to call <code>notelist</code> within an infobox that calls {{tlx|infobox}}, <code><nowiki><div style="font-size:108%">{{notelist}}</div></nowiki></code> will cause the output of the <code>notelist</code> template to render in the same font size as the remainder of the text in the infobox.
+
+==Reference lists: automatically generated==
+{{main|Help:Automatically generated reference list}}
+
+A page with {{tag|ref|o}} tags but no reference list markup used to display an error, except on talk and user pages. In recent versions of Wikipedia, the error no longer appears; instead an automatically generated reference list (AGRL) is displayed at the bottom of the page.
+
+Compared to the reference lists on properly formatted pages, an AGRL can be confusing to both readers and editors. But it is easily corrected by adding reference list markup such as the following:
+<syntaxhighlight lang="wikitext" style="width: 10.6em;">
+==References==
+{{reflist}}
+</syntaxhighlight>
+
+Add it at the position [[Wikipedia:Manual of Style/Layout#Order of article elements|where the reference list would normally appear]]:
+<syntaxhighlight lang="wikitext" style="width: 15.6em;">
+==See also==
+==Notes==
+==References==
+{{reflist}}
+==External links==
+</syntaxhighlight>
+
+===Talk pages===
+On talk pages, the {{tl|reflist-talk}} template can be used to add a reference list to a specific discussion.
+
+{{anchor|Citing one book repeatedly with different page numbers}}
+
+==Footnotes: page numbers==
+{{main|Help:References and page numbers}}
+
+Suppose you would like to cite one book, but different facts appear on different pages. You would like to cite the book again and again, but point each fact to the proper page. Suppose one fact is on page 8, a different fact on page 12, a third fact on page 18, a fourth fact on page 241. You could put a line in the "pages" parameter saying "see pages 8, 12, 18, 241" but a fact-checker might have to check all of them before figuring out the right one. Or, you could duplicate the entire citation for the book in each instance, but that would be redundant. 
+
+One common approach is to use [[Help:Shortened footnotes|shortened citations]]. The long citation to support the shortened citations can either be placed as a bullet point in a separate ''References section'' after the ''Footnotes section''; or it can be placed in the first footnote to cite the source (with the initial relevant page number[s]). The remaining footnotes will use shortened citations (these usually contain the author's last name, the date of publication, and the relevant page number[s]).
+
+A less common approach is to attach a {{tlx|rp|page}} right after the footnote marker replacing the "page" with the appropriate page number or numbers. For example:
+
+{{markup
+|<nowiki>Schudson said the Constitution shaped citizenship in fundamental ways.<ref name="Schudson">{{Cite book |last=Schudson |first=Michael |title=The Good Citizen: A Brief History of American Civic Life |publisher=Simon & Schuster |date=1998 |url=https://books.google.com/books?id=aawMAQAAMAAJ |isbn=0-684-82729-8}}</ref>{{rp|8}} But elections in early American politics did not generate much interest<ref name="Schudson"/>{{rp|12}} while "open discussion of differences" was generally avoided.<ref name="Schudson"/>{{rp|18}} Citizenship later shifted to a polity of essentially "self-absorbed citizens", according to his analysis.<ref name="Schudson"/>{{rp|241-3}}</nowiki>
+|Schudson said the Constitution shaped citizenship in fundamental ways.<ref name="Schudson">{{Cite book |last=Schudson |first=Michael |title=The Good Citizen: A Brief History of American Civic Life |publisher=Simon & Schuster |date=1998 |url=https://books.google.com/books?id=aawMAQAAMAAJ |isbn=0-684-82729-8}}</ref>{{rp|8}} But elections in early American politics did not generate much interest<ref name="Schudson"/>{{rp|12}} while "open discussion of differences" was generally avoided.<ref name="Schudson"/>{{rp|18}} Citizenship later shifted to a polity of essentially "self-absorbed citizens", according to his analysis.<ref name="Schudson"/>{{rp|241-3}}
+{{fake heading|sub=3|References}}
+{{reflist}}
+}}
+
+{{tlx|r}} compactly combines the functions of <code><nowiki><ref></nowiki></code> and {{t|rp}}: <code><nowiki>{{r|Schudson}}</nowiki></code> is equivalent to <code><nowiki><ref name="Schudson"/></nowiki></code> and <code><nowiki>{{r|Schudson|p=241-3}}</nowiki></code> is equivalent to <code><nowiki><ref name="Schudson"/>{{rp|241-3}}</nowiki></code>.
+
+==Previewing edits==
+When you [[Help:Section#Section editing|edit a single section]] of a page, the footnotes list will be visible when you [[Help:Show preview|preview your edits]] under the heading "Preview of references", although you will still not be able to see named references whose definition is outside the section you are editing.
+
+Tools that can be used are the [[user:js/ajaxPreview]] or [[User:Anomie/ajaxpreview.js]] scripts or the [[User:Cacycle/wikEd|wikEd]] gadget.
+
+==RefToolbar==
+{{main|Wikipedia:RefToolbar/2.0}}
+
+[[File:Cite web named ref 01.png|thumb|400px|Using the citation toolbar to name the first reference]]
+[[File:Citation toolbar named ref.png|thumb|400px|Using the citation toolbar to insert additional references to the first source]]
+You can use the citation toolbar to name references. When you first create a reference, you can enter a value in the "Ref name" box. When you want to reuse this reference, click the "Named references" button on the citation toolbar and choose which reference you would like to insert.
+{{clear}}
+
+==Issues and limitations==
+* {{cite.php|bug}}
+* [[Help:Substitution|subst:]] does not work within {{tag|ref|o}} tags. {{phab|T4700}}
+* The [[Help:Pipe trick|pipe trick]] does not work within {{tag|ref|o}} tags. {{phab|T4700}}
+
+== Flagging inadequate referencing ==
+{{See also|Template: Unreferenced/doc#Usage|Template:Citation style}}
+* The template {{Tlx|Refimprove}} should be added to articles where there are '''some, but insufficient, inline citations to support the material''' currently in the article. For [[WP:BLP|biographies of living persons]], use {{tlx|BLP sources}} instead.
+* The template {{Tlx|Unreferenced}} should be added to articles with '''no references at all'''. For biographies of living persons, use {{tlx|BLP unsourced}} instead.
+* The template {{Tlx|Unreferenced section}} is for '''individual sections that have no citations''' in articles that have at least one citation somewhere else. For biographies of living persons, use {{tlx|BLP unsourced section}} instead.
+* The template {{Tlx|Medref}} is specifically for articles '''needing additional ''medical'' references'''.
+
+==See also==
+{{For|instructions on how to "bundle" citations|Help:Citation merging}} 
+*[[Template:Harvard citation#Using CITEREF directly]] and {{tl|sfnref}}
+* [[Wikipedia:Citing sources/Further considerations]]—a how-to article with some additional considerations for citing sources
+* [[Wikipedia:Help desk]]—to ask questions about using footnotes in articles if you were not able to find the information you need on this help page.
+* [[Template:Editor tools]]—{{tl|Editor tools}}
+* [[mw:Help:Cite]]—Mediawiki documentation of the {{tag|ref}} and {{tag|references|s}} tags.
+* For details on what CSS is available to style reference list output, the source code and CSS styles for {{tl|reflist}} and {{tl|refwidth}} may be helpful.
+
+{{Wikipedia referencing}}
+{{Help navigation}}
+
+[[Category:Wikipedia editor help]]
+[[Category:Wikipedia citation administration]]

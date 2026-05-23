@@ -1,0 +1,6 @@
+{{#Invoke:Template link general|main|bold=on}}<noinclude>
+{{Documentation|1=Template:Tlg/doc
+|content = {{tlg/doc|tlb}}
+}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>

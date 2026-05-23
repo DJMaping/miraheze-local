@@ -1,0 +1,6 @@
+<includeonly>{{{{{|safesubst:}}}#ifeq:{{{1|a}}}|{{{1|b}}}
+|<div style="float:right;">{{{1|}}}</div>
+|style="text-align:right"{{{{{|safesubst:}}}!}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

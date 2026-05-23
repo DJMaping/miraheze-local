@@ -1,0 +1,312 @@
+
+local function isEmpty(value) return value == nil or value == '' end
+
+local function notEmpty(value) return not isEmpty(value) end
+
+local function isNone(value) return value:lower() == 'none' end
+
+local function alarmingMessage(message, preview)
+	message = '<span style="color:#d33">[[Module:GetShortDescription]] '..message..'.</span>'
+	if not preview then
+		message = message..'[[Category:Pages displaying alarming messages about Module:GetShortDescription]]'
+	end
+	return message
+end
+
+-- Grammatically reasonable concatenation of possible issues into one message per problematic link target.
+local function previewWarning(args_name, quantity_of_things)
+	local message = ''
+	if quantity_of_things.params > 3 then
+		message = message..' with extraneous parameters'
+	end
+	if quantity_of_things.descriptions > 1 then
+		message = message..', declaring '..quantity_of_things.descriptions..' short descriptions'
+	end
+	if quantity_of_things.templates > 1 or notEmpty(message) then
+		message = 'has detected that [[:'..args_name..'|'..args_name..']] has '..
+			quantity_of_things.templates..' {{tlx|short description}}'..message
+		mw.addWarning(alarmingMessage(message, true))
+	end
+end
+
+local function getWikidataDescription(title, args, fallback)
+	local wikidata_id = mw.wikibase.getEntityIdForTitle(title)
+	if isEmpty(wikidata_id) then
+		return nil
+	end
+	local wikidata_description, wikidata_description_lang = mw.wikibase.getDescriptionWithLang(wikidata_id)
+	if isEmpty(wikidata_description) then
+		return nil
+	end
+	local result = {wikidata = wikidata_description}
+	if isEmpty(args.lang_no) and notEmpty(wikidata_description_lang) and wikidata_description_lang ~= 'en' then
+		-- According to the docs this is a possibility...
+		result.wikidata = require('Module:Lang')._lang{
+			wikidata_description_lang,
+			wikidata_description,
+			italic = args.lang_italic,
+			nocat = args.lang_nocat,
+			size = args.lang_size,
+			cat = args.lang_cat,
+			rtl = args.lang_rtl
+		}
+	end
+	result.fellback = fallback
+	return result
+end
+
+local function getShortDescriptionTemplates(title_table)
+	local page_content = title_table:getContent()
+	
+	-- Assume no content means a nonexistent title because it's cheaper than testing if it exists.
+	if isEmpty(page_content) then
+		return {redlink = true}
+	end
+	
+	local contents_of_all_short_description_templates = {}
+	
+	-- Because there could be any number of short description templates, and not all where there should be; get all the templates.
+	for template in page_content:gmatch('{%b{}}') do
+		local short_description_content = mw.ustring.match(template, '^{{%s*[Ss]hort description%s*|%s*(.-)%s*}}')
+		if notEmpty(short_description_content) then
+			-- Collect the contents of short description templates.
+			contents_of_all_short_description_templates[#contents_of_all_short_description_templates+1] = short_description_content
+		end
+		-- An opportunity for efficiency gain exists - to break if another type of template is found e.g. citation templates,
+		-- but on an appallingly formatted page, a short description template down by the categories would likely be missed.
+	end
+	return contents_of_all_short_description_templates
+end
+
+local function getShortDescription(args_name, args_name_title_table, title, title_table, fallback)
+	local contents_of_all_short_description_templates = {}
+	local redirected
+	
+	-- Check for short description templates on redirect pages.
+	if title ~= args_name then
+		contents_of_all_short_description_templates = getShortDescriptionTemplates(args_name_title_table)
+		if contents_of_all_short_description_templates.redlink then
+			return contents_of_all_short_description_templates
+		end
+		redirected = false
+	end
+	
+	if #contents_of_all_short_description_templates < 1 then
+		contents_of_all_short_description_templates = getShortDescriptionTemplates(title_table)
+		if notEmpty(redirected) then
+			redirected = true
+		end
+	end
+	
+	if contents_of_all_short_description_templates.redlink then
+		return contents_of_all_short_description_templates
+	end
+	
+	if #contents_of_all_short_description_templates < 1 then
+		return nil
+	end
+	
+	local quantity_of_things = {
+		templates = #contents_of_all_short_description_templates,
+		descriptions = 0,
+		params = 0
+	}
+	
+	local possible_short_descriptions = {}
+	
+	-- Look through the short description templates:
+	for template_content_index, short_description_template_contents in ipairs(contents_of_all_short_description_templates) do
+		-- Split the contents at pipes and trim.
+		local short_description_template_params = mw.text.split(short_description_template_contents, '%s*|%s*')
+		if #short_description_template_params > quantity_of_things.params then
+			quantity_of_things.params = #short_description_template_params
+		end
+		possible_short_descriptions[template_content_index] = {}
+		-- Look through the params:
+		for i, param in ipairs(short_description_template_params) do
+			if param == 'noreplace' or mw.ustring.match(param, '^2%s*=%s*noreplace$') then
+				-- Take note of 'noreplace'-ing for establishment of hierarchy later.
+				possible_short_descriptions[template_content_index].noreplace = true
+			else
+				local has_equals = param:match('=')
+				if not has_equals or param:match('^1') then
+					-- Grab the short description.
+					if has_equals then
+						param = mw.ustring.gsub(param, '^1%s*=%s*', '')
+					end
+					-- If the template has both a numbered and an unnumbered short description;
+					-- whichever comes last (ltr) will be used by that template, so overwriting works out great.
+					possible_short_descriptions[template_content_index].description = param
+					-- And we want to know the total quantity of descriptions being declared.
+					quantity_of_things.descriptions = quantity_of_things.descriptions + 1
+				end
+			end
+		end
+	end
+	
+	local short_descriptions = {}
+	
+	-- Look through the possible short descriptions for definite short descriptions,
+	-- and prepare for working out which of possibly multiple short descriptions is actually being applied for the page:
+	for i, possible_short_description in ipairs(possible_short_descriptions) do
+		if possible_short_description.description then
+			-- If a description is 'noreplace'-ing or 'none'; demote it.
+			if (possible_short_description.noreplace or isNone(possible_short_description.description)) and
+				#possible_short_descriptions > 1 then
+				-- But don't demote it if it's already at the bottom.
+				if i > 1 then
+					table.insert(short_descriptions, #short_descriptions, possible_short_description)
+				else
+					short_descriptions[#short_descriptions+1] = possible_short_description
+				end
+			else
+				short_descriptions[#short_descriptions+1] = possible_short_description
+			end
+		end
+	end
+	
+	-- Let previewWarning() work out if these numbers are bad.
+	previewWarning(args_name, quantity_of_things)
+	
+	if #short_descriptions >= 1 then
+		-- Pop!
+		local short_description = short_descriptions[#short_descriptions].description
+		if notEmpty(short_description) then
+			return {explicit = short_description, fellback = fallback, redirected = redirected}
+		end
+	end
+	return nil
+end
+
+local function isSisterProjectLink(title)
+	local sister_project_prefixes = {
+		'wiktionary', 'wikt',
+		'wikinews', 'n',
+		'wikibooks', 'b',
+		'wikiquote', 'q',
+		'wikisource', 's',
+		'wikispecies', 'species',
+		'wikiversity', 'v',
+		'wikivoyage', 'voy',
+		'commons', 'c',
+		'wikidata', 'd',
+		'mediawikiwiki', 'mw',
+		'wikimedia', 'foundation', 'wmf',
+		'meta', 'm',
+		'incubator',
+		'phabricator', 'phab'
+	}
+	local pre_colon = title:match('^(%a+):')
+	if pre_colon then
+		for i, sister in ipairs(sister_project_prefixes) do
+			if pre_colon == sister then
+				return true
+			end
+		end
+	end
+	return false
+end
+
+-- Literally testing if title_table.isRedirect can be expensive;
+-- processing this way resolves (multiple) redirects without the possibly expensive check.
+local function getTitleAndTable(orig_name)
+	local title_table = mw.title.new(orig_name)
+	title_table = title_table.redirectTarget or title_table
+	local title = title_table.prefixedText
+	if title == orig_name then
+		return title, title_table
+	end
+	return getTitleAndTable(title)
+end
+
+local function getDescription(args)
+	local args_name = args.name
+	if isEmpty(args_name) then
+		return {alarm = 'requires a page name (including namespace)'}
+	end
+	
+	-- Keep the orginal name, cleaned up, and its title_table for later.
+	local args_name_title_table = mw.title.new(args_name)
+	args_name = args_name_title_table.prefixedText
+	
+	if isSisterProjectLink(args_name) then
+		return nil
+	end
+	
+	local title, title_table = getTitleAndTable(args_name)
+	
+	if title ~= args_name then
+		if isSisterProjectLink(title) then
+			return nil
+		end
+	end
+	
+	local only = args.only
+	local prefer = args.prefer or 'explicit'
+	
+	-- Pass args_name to getShortDescription() so previewWarning()s won't be confusing for redirects.
+	
+	if notEmpty(only) then
+		if only == 'explicit' then
+			return getShortDescription(args_name, args_name_title_table, title, title_table)
+		end
+		if only == 'wikidata' then
+			return getWikidataDescription(title, args)
+		end
+		return {alarm = 'accepts either "explicit" or "wikidata" as the value of |only='}
+	end
+	
+	if notEmpty(prefer) then
+		if prefer == 'explicit' then
+			local short_description = getShortDescription(args_name, args_name_title_table, title, title_table)
+			if notEmpty(short_description) then
+				-- Assume a Wikidata search would be a bad idea for an assumed nonexistent title.
+				if short_description.redlink or (not isNone(short_description.explicit) or args.none_is_valid) then
+					return short_description
+				end
+			end
+			return getWikidataDescription(title, args, true)
+		end
+		if prefer == 'wikidata' then
+			return getWikidataDescription(title, args) or getShortDescription(args_name, args_name_title_table, title, title_table, true)
+		end
+		return {alarm = 'accepts either "explicit" or "wikidata" as the value of |prefer='}
+	end
+end
+
+local function main(args)
+	local result = getDescription(args)
+	if notEmpty(result) then
+		if result.alarm then
+			result.alarm = alarmingMessage(result.alarm)
+		end
+		if args.stringify then
+			if result.alarm then
+				result = result.alarm
+			else
+				result = result.explicit or result.wikidata
+				if args.none_is_nil and isNone(result) then
+					result = nil
+				end
+			end
+		elseif not result.alarm and args.none_is_nil then
+			local description = result.explicit or result.wikidata
+			if description and args.none_is_nil and isNone(description) then
+				result = nil
+			end
+		end
+	end
+	return result
+end
+
+local p = {}
+
+function p.main(frame)
+	local args = require('Module:Arguments').getArgs(frame)
+	if isEmpty(args) then
+		return alarmingMessage('could not getArgs') -- This really would be alarming.
+	end
+	return main(args)
+end
+
+return p

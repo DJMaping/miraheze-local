@@ -1,0 +1,3 @@
+<includeonly>{{safesubst:#invoke:If preview|pwarning}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

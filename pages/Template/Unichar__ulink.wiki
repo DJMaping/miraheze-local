@@ -1,0 +1,7 @@
+{{#switch:{{{ulink|<#salted#>}}}
+| <#salted#>=U+
+| =[[{{{ulinkdefault|}}}|U+]]
+| #default=[[{{{ulink|}}}{{!}}U+]]}}<noinclude>
+
+{{Documentation}}
+</noinclude>

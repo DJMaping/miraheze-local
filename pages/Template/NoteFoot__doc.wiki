@@ -1,0 +1,8 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+{{#section:Help:footnotes|pregroup}}
+<includeonly>{{Sandbox other||
+<!-- Categories and interwikis go here: -->
+[[Category:Explanatory footnote templates]]
+}}</includeonly>

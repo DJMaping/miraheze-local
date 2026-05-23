@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Xmark]]
+
+{{Redirect category shell|
+{{R from move}}
+}}

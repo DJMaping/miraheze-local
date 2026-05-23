@@ -1,0 +1,6 @@
+{{country data {{{1}}} 
+| Coast guard/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}} 
+}}<noinclude>{{documentation}}</noinclude>

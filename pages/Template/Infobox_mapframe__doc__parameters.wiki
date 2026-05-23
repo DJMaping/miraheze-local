@@ -1,0 +1,46 @@
+<noinclude>{{Documentation}}</noinclude><includeonly>{{navbar|Template:Infobox mapframe/doc/parameters|plain=y|style=float: right;}}</includeonly><nowiki></nowiki>
+*Basic {{tl|Infobox mapframe}} parameters:{{#if:{{{noprefix|}}}||<nowiki></nowiki>
+**'''mapframe''' – Specify yes or no to show or hide the map, overriding the default. ''Default:'' {{{mapframe|no}}}{{#if:{{{onByDefault|}}}|, ''but also modified by onByDefault''}}
+*** Internal ''onByDefault'' parameter: {{{onByDefault|''not specified''}}}
+**{{#if:{{{noprefix|}}}||'''mapframe-coordinates''' or '''mapframe-coord''' or}} '''coordinates''' or '''coord'''  – Coordinates to use, instead of any on Wikidata. Use the {{tl|Coord}} template, e.g. {{para|coord|2={{tlx|Coord|12.34|N|56.78|E}}}}. ''Default:'' {{{mapframe-coordinates|{{{mapframe-coord|{{{coordinates|{{{coord|''coordinates from Wikidata [[d:Property:P625]]''}}}}}}}}}}}}
+**'''mapframe-caption''' – Caption for the map. ''Default'': {{{mapframe-caption|''blank'' (or if {{para|mapframe-geomask}} is set, "Location in {{kbd|geomask's label}}")}}}
+**'''mapframe-custom''' – Use a custom map instead of the automatic mapframe. Specify either a {{tlx|maplink}} template, or another template that generates a mapframe map, or an image name. If used, most mapframe parameters will be ignored. ''Default'': ''not specified''}}
+**{{#if:{{{noprefix|}}}|'''id'''|'''mapframe-id''' or '''id''' or '''qid'''}} – Id (Q-number) of Wikidata item to use. ''Default:'' ''item for current page''
+**'''{{#if:{{{noprefix|}}}||mapframe-}}wikidata''' – Set to {{code|yes}} to show all shape/line features from OpenStreetMap. ''Default:'' {{{mapframe-wikidata|''not specified''}}}
+*Customise which features are displayed:
+**'''{{#if:{{{noprefix|}}}||mapframe-}}point''' – Turn off display of point feature by setting to {{code|none}}. Force point marker to be displayed by setting to {{code|on}}. ''Default:'' {{{mapframe-point|''not specified''}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}shape''' – Turn off display of shape feature by setting to {{code|none}}. Force display of shape by setting to {{code|on}}. Use an inverse shape (geomask) instead of a regular shape by setting to {{code|inverse}}. ''Default:'' {{{mapframe-shape|''not specified''}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}line''' – Turn off display of line feature by setting to {{code|none}}. Force display of line by setting to {{code|on}}. ''Default:'' {{{mapframe-line|''not specified''}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}geomask''' – Wikidata item to use as a geomask (everything outside the boundary is shaded darker). Can either be a specific Wikidata item (Q-number), or a property that specifies the item to use (e.g. <code>P17</code> for {{Q|P17}}, <code>P131</code> for {{Q|P131}}). ''Default:'' {{{mapframe-geomask|''not specified''}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}switcher''' – set to {{code|auto}} or {{code|geomasks}} or {{code|zooms}} to enable [[Template:Switcher]]-style switching between multiple mapframes. ''Default:'' {{{mapframe-switcher|''not specified''}}}
+***{{code|auto}} – switch geomasks found in {{Q|P276}} and {{Q|P131}} statements on the page's Wikidata item, searching recursively. E.g. an item's city, that city's state, and that state's country.
+***{{code|geomasks}} – switch between the geomasks specified as a comma-separated list of Wikidata items (Q-numbers) in the '''{{#if:{{{noprefix|}}}||mapframe-}}geomask''' parameter
+***{{code|zooms}} – switch between "zoomed in"/"zoomed midway"/"zoomed out", where "zoomed in" is the default zoom (with a minimum of {{code|3}}), "zoomed out" is {{code|1}}, and "zoomed midway" is the average
+*Other optional parameters:
+**'''{{#if:{{{noprefix|}}}||mapframe-}}frame-width''' or '''{{#if:{{{noprefix|}}}||mapframe-}}width''' – Frame width. ''Default:'' {{{mapframe-frame-width|270}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}frame-height''' or '''{{#if:{{{noprefix|}}}||mapframe-}}height''' – Frame height. ''Default:'' {{{mapframe-frame-height|200}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}shape-fill''' – Color used to fill shape features. ''Default:'' {{{mapframe-shape-fill|#606060}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}shape-fill-opacity''' – Opacity level of shape fill, a number between 0 and 1. ''Default:'' {{{mapframe-shape-fill-opacity|0.1}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}stroke-color''' or '''{{#if:{{{noprefix|}}}||mapframe-}}stroke-colour''' – Color of line features, and outlines of shape features. ''Default:'' {{{mapframe-stroke-color|{{{mapframe-stroke-colour|#ff0000}}}}}}
+***'''{{#if:{{{noprefix|}}}||mapframe-}}line-stroke-color''' or '''{{#if:{{{noprefix|}}}||mapframe-}}line-stroke-colour''' – Color of line features. ''Default:'' {{{mapframe-line-stroke-color|{{{mapframe-line-stroke-colour|#ff0000}}}}}}
+***'''{{#if:{{{noprefix|}}}||mapframe-}}shape-stroke-color''' or '''{{#if:{{{noprefix|}}}||mapframe-}}shape-stroke-colour''' – Color of outlines of shape features. ''Default:'' {{{mapframe-shape-stroke-color|{{{mapframe-shape-stroke-colour|#ff0000}}}}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}stroke-width''' – Width of line features, and outlines of shape features. ''Default:'' {{{mapframe-stroke-width|2}}}
+***'''{{#if:{{{noprefix|}}}||mapframe-}}shape-stroke-width''' – Width of outlines of shape features. ''Default:'' {{{mapframe-shape-stroke-width|2}}}
+***'''{{#if:{{{noprefix|}}}||mapframe-}}line-stroke-width''' – Width of line features. ''Default:'' {{{mapframe-line-stroke-width|5}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}marker''' – Marker symbol to use for coordinates; see [[mw:Help:Extension:Kartographer/Icons]] for options.  ''Default:'' {{{mapframe-marker|''not specified (i.e. blank)''}}}
+***Can also be set to {{code|blank}} to override any default marker symbol
+**'''{{#if:{{{noprefix|}}}||mapframe-}}marker-color''' or '''{{#if:{{{noprefix|}}}||mapframe-}}marker-colour''' – Background color for the marker. ''Default:'' {{{mapframe-marker-color|{{{mapframe-marker-colour|#5E74F3}}}}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}geomask-stroke-color''' or '''{{#if:{{{noprefix|}}}||mapframe-}}geomask-stroke-colour''' – Color of outline of geomask shape. ''Default:'' {{{mapframe-geomask-stroke-color|{{{mapframe-geomask-stroke-colour|#555555}}}}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}geomask-stroke-width''' – Width of outline of geomask shape. ''Default:'' {{{mapframe-geomask-stroke-width|1}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}geomask-fill''' – Color used to fill outside geomask features. ''Default:'' {{{mapframe-geomask-fill|#606060}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}geomask-fill-opacity''' – Opacity level of fill outside geomask features, a number between 0 and 1. ''Default:'' {{{mapframe-geomask-fill-opacity|0.25}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}zoom''' – Set the zoom level, from "1" (map of earth) to "18" (maximum zoom in), to be used if the zoom level cannot be determined automatically from object length or area. ''Default:'' {{{mapframe-zoom|10}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}length_km {{nobold|or}} {{#if:{{{noprefix|}}}||mapframe-}}length_mi {{nobold|or}} {{#if:{{{noprefix|}}}||mapframe-}}area_km2 {{nobold|or}} {{#if:{{{noprefix|}}}||mapframe-}}area_mi2''' – Determine zoom level by passing in object's length (in kilometres or miles) or area (in square kilometres or square miles). ''Default:'' ''{{{mapframe-length_km|not specified}}} / {{{mapframe-length_mi|not specified}}} / {{{mapframe-area_km2|not specified}}} / {{{mapframe-area_mi2|not specified}}}''
+**'''{{#if:{{{noprefix|}}}||mapframe-}}frame-coordinates''' or '''{{#if:{{{noprefix|}}}||mapframe-}}frame-coord''' – Alternate latitude and longitude coordinates for initial placement of map, using {{tl|coord}}. ''Default:'' ''derived from item coordinates''
+**'''{{#if:{{{noprefix|}}}||mapframe-}}type''' – Set the type of the object, with the same usage as {{tl|coord}}. ''Default:'' {{{mapframe-type|''not specified''}}}
+**'''{{#if:{{{noprefix|}}}||mapframe-}}population''' – Set the population, useful with type="city", for {{tl|Infobox dim}}. ''Default:'' {{{mapframe-population|''not specified''}}}
+{{#if:{{{deprecated|}}}|<nowiki></nowiki>
+*Deprecated parameters
+**{{gray|1='''{{#if:{{{noprefix|}}}||mapframe-}}frame-lat''' or '''{{#if:{{{noprefix|}}}||mapframe-}}frame-latitude'''}} – Alternate latitude coordinate for initial placement of map; default is derived from item coordinates
+**{{gray|1='''{{#if:{{{noprefix|}}}||mapframe-}}frame-long''' or '''{{#if:{{{noprefix|}}}||mapframe-}}frame-longitude'''}} – Alternate longitude coordinate for initial placement of map; default is derived from item coordinates
+}}

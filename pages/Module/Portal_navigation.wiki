@@ -1,0 +1,191 @@
+require('strict')
+local p = {}
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require("Module:Yesno")
+
+local function converttolinearrgb(c)
+	c = tonumber(c, 16)
+	c = c / 255.0
+	if c <= 0.03928 then
+		c = c/12.92321  -- Correct constant from sRGB standard
+	else
+		c = ((c+0.055)/1.055) ^ 2.4
+	end
+	
+	return c
+end
+
+local function luminance(color)
+	-- The text color in the header is automatically chosen based on the best contrast
+	-- https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
+	
+	local rgb = string.gsub(color, '#', '')
+	rgb = mw.text.split(rgb, '')
+	local r, g, b
+	if #rgb == 6 then
+		r = rgb[1] .. rgb[2]
+		g = rgb[3] .. rgb[4]
+		b = rgb[5] .. rgb[6]
+	elseif #rgb == 3 then
+		r = rgb[1] .. rgb[1]
+		g = rgb[2] .. rgb[2]
+		b = rgb[3] .. rgb[3]
+	end
+	r = converttolinearrgb(r)
+	g = converttolinearrgb(g)
+	b = converttolinearrgb(b)
+	
+	return 0.2126 * r + 0.7152 * g + 0.0722 * b
+end
+
+local function generate_header(root, args)
+	local header = root:tag('div')
+	header:css('font-size','1.6875em')
+	header:css('border-radius','2px')
+	header:css('font-weight','bold')
+	header:css('padding','0.25em')
+	header:css('background',args.themecolor)
+	header:css('color',luminance(args.themecolor) > 0.1791 and '#000' or '#fff')
+	header:cssText(args.headerstyle)
+	header:wikitext(args.portalname)
+	if args.portalicon then
+		local span = header:tag('span')
+		span:css('padding','0.3em')
+		span:css('display','inline-block')
+		span:css('margin-right','0.5em')
+		span:wikitext(portalicon)
+	end
+	return header
+end
+
+local function generate_tab(body, index, args)
+	local container = body:tag('li')
+	container:css('display','inline-block')
+	container:css('position','relative')
+	container:css('vertical-align','top')
+	container:css('margin','0')
+			
+	-- Create the tab itself
+			
+	local entry = container:tag('span')
+	entry:css('display','inline-block')
+	entry:css('margin','1em')
+	entry:css('padding-bottom','0.5em')
+	entry:css('font-weight','bold')
+	if index == args.active then
+		if not args.subtabs[index] or args.hidesubnav then
+			entry:css('border-bottom','0.3em solid '..args.themecolor)
+		else
+			entry:css('margin-bottom','0')
+		end
+	else
+		entry:css('border-bottom','0.3em solid #c8ccd1')
+	end
+			
+	if args.tabsicons[index] then
+		local icon = entry:tag('span')
+		icon:css('margin-right','0.75em')
+		icon:wikitext(args.tabsicons[index])
+	end
+	entry:wikitext(args.tabs[index])
+	
+	-- If the tab is active, show the subnav if there is any
+			
+	if index == args.active and args.subtabs[index] and not args.hidesubnav then
+		local subnav = container:tag('ul')
+		subnav:css('font-size','95%')
+		subnav:css('margin','0 1em')
+		subnav:css('padding','1.125em 0')
+		local borderColor = '0.35em solid '..args.themecolor
+		subnav:css('border-top',borderColor)
+		subnav:css('border-bottom',borderColor)
+		subnav:css('list-style','none')
+		for _, subpagelink in ipairs(args.subtabs[index]) do
+			local link = subnav:tag('li')
+			link:css('margin','0')
+			link:wikitext(subpagelink)
+		end
+	end
+	return container
+end
+
+function p._render(args)
+	local tabs = {}
+	local subtabs = {}
+	local tabsicons = {}
+    -- Default values
+	args.portalname = args.portalname or 'Portal'
+	args.themecolor = args.themecolor or '#54595d'
+	for _, key in ipairs({'wrc','hidenav','hidesubnav'}) do
+		args[key] = yesno(args[key])
+	end
+	args.active = tonumber(args.active)
+	for key, value in pairs(args) do
+		local id = tonumber(mw.ustring.match(key,'^tab(%d+)$'))
+		if id then
+			tabs[id] = value
+		else
+			id = tonumber(mw.ustring.match(key,'^icon(%d+)$'))
+			if id then
+				tabsicons[id] = value
+			else
+				local primetab, subtab = mw.ustring.match(key,'^subtab(%d+)-(%d+)$')
+				if primetab and subtab then
+					primetab = tonumber(primetab)
+					subtab = tonumber(subtab)
+					if not subtabs[primetab] then
+						subtabs[primetab] = {}
+					end
+					subtabs[primetab][subtab] = value
+				end
+			end
+		end
+	end
+	args.tabs = tabs
+	args.subtabs = subtabs
+	args.tabsicons = tabsicons
+		
+	-- Constructing header
+	
+	local root = mw.html.create('div')
+	if args.wrc then
+		local badgeargs = {}
+		if wrcadditional then
+			badgeargs['additional'] = args.wrcadditional
+		end
+
+		root:wikitext(frame:expandTemplate{
+			title = 'Wikimedia Resource Center badge',
+			args = badgeargs })
+	end
+	generate_header(root, args)
+	
+	-- Constructing the rest
+	
+	if not args.hidenav then
+		local body = root:tag('ul')
+		body:css('font-size','1.125em')
+		body:css('list-style','none')
+		body:css('margin','0 0 1.125em 0')
+		
+		local tabindex = {}
+		for index, _ in pairs(tabs) do
+			table.insert(tabindex,index)
+		end
+		table.sort(tabindex)
+		
+		for _, index in ipairs(tabindex) do
+			generate_tab(body, index, args)
+		end
+	end
+	local clear = root:tag('div')
+	clear:css('clear','both')
+	return tostring(root)
+end
+
+function p.render(frame)
+	local args = getArgs(frame)
+	return p._render(args)
+end
+
+return p

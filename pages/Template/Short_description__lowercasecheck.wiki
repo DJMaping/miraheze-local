@@ -1,0 +1,20 @@
+{{#ifeq:<!--test first character for lower-case letter-->{{#invoke:string|find|1={{{1|}}}|2=^%l|plain=false}}|1
+|<!-- first character is a lower case letter; test against whitelist
+-->{{#switch: {{First word|{{{1|}}}}}<!--begin whitelist-->
+|c. <!--for circa-->
+|gTLD
+|iMac
+|iOS
+|iOS,
+|iPad
+|iPhone
+|iTunes
+|macOS
+|none
+|pH
+|pH-dependent=<!-- end whitelist; short description starts with an allowed lower-case string; whitelist matched; do nothing --> 
+|#default=<!-- apply category to track lower-case short descriptions -->{{main other|[[Category:Pages with lower-case short description|{{trim|{{{1|}}}}}]]}}{{Testcases other|{{red|CATEGORY APPLIED}}}}<!-- end whitelist test -->}}
+|<!-- short description does not start with lower-case letter; do nothing; end lower-case test -->
+}}<noinclude>
+{{documentation}}
+</noinclude>

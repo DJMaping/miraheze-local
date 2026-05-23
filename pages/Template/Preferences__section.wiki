@@ -1,0 +1,79 @@
+{{#switch:{{{1}}}/{{{2}}}
+|User profile/User profile=[[Special:Preferences#mw-prefsection-personal|{{int:prefs-personal}}]]
+|User profile/Basic information=[[Special:Preferences#mw-prefsection-personal-info|{{int:prefs-info}}]]
+|User profile/Internationalisation=[[Special:Preferences#mw-prefsection-personal-i18n|{{int:prefs-i18n}}]]
+|User profile/Signature=[[Special:Preferences#mw-prefsection-personal-signature|{{int:prefs-signature}}]]
+|User profile/Email options=[[Special:Preferences#mw-prefsection-personal-email|{{int:prefs-email}}]]
+|User profile/QuickSurvey extension=[[Special:Preferences#mw-prefsection-personal-quicksurveyext|{{int:prefs-quicksurveyext}}]]
+|User profile/User page=[[Special:Preferences#mw-prefsection-personal-userpage|{{int:prefs-userpage}}]]
+|User profile/Newcomer editor features=[[Special:Preferences#mw-prefsection-personal-homepage|{{int:prefs-homepage}}]]
+|User profile/Invitation lists=[[Special:Preferences#mw-prefsection-personal-campaignevents-invitations|{{int:prefs-campaignevents-invitations}}]]
+
+|Appearance/Appearance=[[Special:Preferences#mw-prefsection-rendering|{{int:prefs-rendering}}]]
+|Appearance/Skin=[[Special:Preferences#mw-prefsection-rendering-skin|{{int:prefs-skin}}]]
+|Appearance/Skin preferences=[[Special:Preferences#mw-prefsection-rendering-skin-skin-prefs|{{int:prefs-skin-prefs}}]]
+|Appearance/Reading preferences=[[Special:Preferences#mw-prefsection-rendering-reading|{{int:prefs-reading}}]]
+|Appearance/Date format=[[Special:Preferences#mw-prefsection-rendering-dateformat|{{int:prefs-dateformat}}]]
+|Appearance/Time offset=[[Special:Preferences#mw-prefsection-rendering-timeoffset|{{int:prefs-timeoffset}}]]
+|Appearance/Files=[[Special:Preferences#mw-prefsection-rendering-files|{{int:prefs-files}}]]
+|Appearance/Diffs=[[Special:Preferences#mw-prefsection-rendering-diffs|{{int:prefs-diffs}}]]
+|Appearance/Advanced options=[[Special:Preferences#mw-prefsection-rendering-advancedrendering|{{int:prefs-advancedrendering}}]]
+|Appearance/Math=[[Special:Preferences#mw-prefsection-rendering-math|{{int:prefs-math}}]]
+|Appearance/Languages=[[Special:Preferences#mw-prefsection-rendering-languages|{{int:prefs-languages}}]]
+
+|Editing/Editing=[[Special:Preferences#mw-prefsection-editing|{{int:prefs-editing}}]]
+|Editing/General options=[[Special:Preferences#mw-prefsection-editing-advancedediting|{{int:prefs-advancedediting}}]]
+|Editing/Editor=[[Special:Preferences#mw-prefsection-editing-editor|{{int:prefs-editor}}]]
+|Editing/Preview=[[Special:Preferences#mw-prefsection-editing-preview|{{int:prefs-preview}}]]
+|Editing/Accessibility=[[Special:Preferences#mw-prefsection-editing-accessibility|{{int:prefs-accessibility}}]]
+|Editing/Discussion pages=[[Special:Preferences#mw-prefsection-editing-discussion|{{int:prefs-discussion}}]]
+|Editing/Developer tools=[[Special:Preferences#mw-prefsection-editing-developertools|{{int:prefs-developertools}}]]
+
+|Recent changes/Recent changes=[[Special:Preferences#mw-prefsection-rc|{{int:prefs-rc}}]]
+|Recent changes/Display options=[[Special:Preferences#mw-prefsection-rc-displayrc|{{int:prefs-displayrc}}]]
+|Recent changes/Advanced options=[[Special:Preferences#mw-prefsection-rc-advancedrc|{{int:prefs-advancedrc}}]]
+|Recent changes/Changes shown=[[Special:Preferences#mw-prefsection-rc-changesrc|{{int:prefs-changesrc}}]]
+|Recent changes/Pending changes=[[Special:Preferences#mw-prefsection-rc-flaggedrevs-ui|{{int:prefs-flaggedrevs-ui}}]]
+|Recent changes/Revision scoring on Recent changes and Related changes=[[Special:Preferences#mw-prefsection-rc-ores-rc|{{int:prefs-ores-rc}}]]
+
+|Watchlist/Watchlist=[[Special:Preferences#mw-prefsection-watchlist|{{int:prefs-watchlist}}]]
+|Watchlist/Edit watchlist=[[Special:Preferences#mw-prefsection-watchlist-editwatchlist|{{int:prefs-editwatchlist}}]]
+|Watchlist/Display options=[[Special:Preferences#mw-prefsection-watchlist-displaywatchlist|{{int:prefs-displaywatchlist}}]]
+|Watchlist/Advanced options=[[Special:Preferences#mw-prefsection-watchlist-advancedwatchlist|{{int:prefs-advancedwatchlist}}]]
+|Watchlist/Changes shown=[[Special:Preferences#mw-prefsection-watchlist-changeswatchlist|{{int:prefs-changeswatchlist}}]]
+|Watchlist/Watched pages=[[Special:Preferences#mw-prefsection-watchlist-pageswatchlist|{{int:prefs-pageswatchlist}}]]
+|Watchlist/Token=[[Special:Preferences#mw-prefsection-watchlist-tokenwatchlist|{{int:prefs-tokenwatchlist}}]]
+|Watchlist/Revision scoring on Watchlist and Contributions=[[Special:Preferences#mw-prefsection-watchlist-ores-wl|{{int:prefs-ores-wl}}]]
+
+|Search/Search=[[Special:Preferences#mw-prefsection-searchoptions|{{int:prefs-searchoptions}}]]
+|Search/General=[[Special:Preferences#mw-prefsection-searchoptions-searchmisc|{{int:prefs-searchmisc}}]]
+|Search/Search completion=[[Special:Preferences#mw-prefsection-searchoptions-completion|{{int:prefs-completion}}]]
+|Search/Advanced Search=[[Special:Preferences#mw-prefsection-searchoptions-advancedsearch|{{int:prefs-advancedsearch}}]]
+
+|Gadgets/Gadgets=[[Special:Preferences#mw-prefsection-gadgets|{{int:prefs-gadgets}}]]
+|Gadgets/Browsing=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-browsing|{{int:gadget-section-browsing}}]]
+|Gadgets/Watchlist=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-watchlist|{{int:gadget-section-watchlist}}]]
+|Gadgets/Editing=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-editing|{{int:gadget-section-editing}}]]
+|Gadgets/Appearance=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-appearance|{{int:gadget-section-appearance}}]]
+|Gadgets/Advanced=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-advanced|{{int:gadget-section-advanced}}]]
+|Gadgets/Maintenance and administration=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-maintenance|{{int:gadget-section-maintenance}}]]
+|Gadgets/Testing and development=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-test|{{int:gadget-section-test}}]]
+|Gadgets/Template gadgets=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-template-gadgets|{{int:gadget-section-template-gadgets}}]]
+|Gadgets/Utility modules=[[Special:Preferences#mw-prefsection-gadgets-gadget-section-modules|{{int:gadget-section-modules}}]]
+
+|Banners/Banners=[[Special:Preferences#mw-prefsection-centralnotice-banners|{{int:prefs-centralnotice-banners}}]]
+|Banners/Banner types to display=[[Special:Preferences#mw-prefsection-centralnotice-banners-centralnotice-display-banner-types|{{int:prefs-centralnotice-display-banner-types}}]]
+
+|Beta features/Beta features=[[Special:Preferences#mw-prefsection-betafeatures|{{int:prefs-betafeatures}}]]
+
+|Notifications/Notifications=[[Special:Preferences#mw-prefsection-echo|{{int:prefs-echo}}]]
+|Notifications/Email options=[[Special:Preferences#mw-prefsection-echo-emailsettings|{{int:prefs-emailsettings}}]]
+|Notifications/Notify me about these events=[[Special:Preferences#mw-prefsection-echo-echosubscriptions|{{int:prefs-echosubscriptions}}]]
+|Notifications/Cross-wiki notifications=[[Special:Preferences#mw-prefsection-echo-echocrosswiki|{{int:prefs-echocrosswiki}}]]
+|Notifications/Muted users=[[Special:Preferences#mw-prefsection-echo-blocknotificationslist|{{int:prefs-blocknotificationslist}}]]
+|Notifications/Muted pages for page link notifications=[[Special:Preferences#mw-prefsection-echo-mutedpageslist|{{int:prefs-mutedpageslist}}]]
+
+|#default = {{{2}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>

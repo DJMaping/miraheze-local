@@ -1,0 +1,3 @@
+{{#invoke:Find sources|Find sources mainspace}}<noinclude>
+{{#invoke:Find sources/autodoc|Find sources mainspace}}
+</noinclude>

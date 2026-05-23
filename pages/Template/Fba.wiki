@@ -1,0 +1,8 @@
+<span style="{{#if:{{{wrap|}}}||white-space:nowrap}}">{{country data {{{1|}}}
+| Fba/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{old|}}}
+| altvar = football
+}}</span><noinclude>{{documentation}}</noinclude>

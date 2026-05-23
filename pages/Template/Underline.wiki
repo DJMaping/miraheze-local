@@ -1,0 +1,7 @@
+<span style="text-decoration: underline;">{{{1}}}</span><noinclude>
+{{Documentation}}
+<!--
+   PLEASE ADD CATEGORIES TO THE /doc SUBPAGE;
+   INTERWIKIS GO TO WIKIDATA, THANK YOU!
+-->
+</noinclude>

@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = German Empire
+| shortname alias = Germany
+| flag alias = Flag of the German Empire.svg
+| flag alias-naval = War Ensign of Germany 1903-1918.svg
+| link alias-naval = Imperial German Navy
+| link alias-air force = Luftstreitkräfte
+| flag alias-army = War Ensign of Germany 1903-1918.svg
+| link alias-army = Imperial German Army
+| flag alias-navy = War Ensign of Germany 1903-1918.svg
+| link alias-navy = Imperial German Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| related1 = Germany
+| related2 = Weimar Republic
+| related3 = Nazi Germany
+</noinclude>
+}}

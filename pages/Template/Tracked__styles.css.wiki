@@ -1,0 +1,28 @@
+/* {{pp|small=y}} */
+.tracked {
+	float: right;
+	clear: right;
+	margin: 0 0 1em 1em;
+	width: 12em;
+	border: 1px solid var( --border-color-base, #a2a9b1 );
+	border-radius: 2px;
+	background-color: var( --background-color-interactive, #EAECF0 );
+    color: var( --color-base, #202122 );
+	font-size: 85%;
+	text-align: center;
+	padding: 0.5em;
+}
+
+.tracked-url {
+	font-weight: bold;
+}
+
+.tracked-closure {
+	color: var( --color-emphasized, #000 );
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tracked-resolved {
+	color: var( --color-success, #14866d );
+}

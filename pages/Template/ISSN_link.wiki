@@ -1,0 +1,14 @@
+{{#if:{{{1|}}}|{{#if:{{{2|}}}|[https://www.worldcat.org/search?fq=x0:jrnl&q=n2:{{#if:1|{{{1}}}}} {{#if:1|{{{1}}}}}]&nbsp;(print)<includeonly>{{#invoke:check isxn|check_issn|1={{{1|}}}|error={{Please check ISSN}}}}</includeonly>{{{br|<br>}}} [https://www.worldcat.org/search?fq=x0:jrnl&q=n2:{{#if:1|{{{2}}}}} {{#if:1|{{{2}}}}}]&nbsp;(web)<includeonly>{{#invoke:check isxn|check_issn|1={{{2|}}}|error={{Please check ISSN}}}}</includeonly>|[https://www.worldcat.org/search?fq=x0:jrnl&q=n2:{{#if:1|{{{1}}}}} {{#if:1|{{{1}}}}}]<includeonly>{{#invoke:check isxn|check_issn|1={{{1|}}}|error={{Please check ISSN}}}}</includeonly>}}}}<noinclude>
+<!-- * INTERNAL NOTE:
+     *
+     * This template uses WorldCat, with the benefit that the link format
+     *
+     *   https://www.worldcat.org/search?fq=x0:jrnl&q=n2:[item ISSN]
+     *
+     * is _documented_ (see worldcat.org) and thus unlikely to change.
+     *
+     * {{#if:1| {{{1|}}} }} is equivalent to {{trim|{{{1|}}}}}
+-->
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>

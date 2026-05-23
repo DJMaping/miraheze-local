@@ -1,0 +1,17 @@
+/* {{pp|small=y}} */
+/*
+ * This page is a convenient place for the "citation" styles that are
+ * available in many of our citation templates. This page can be considered the
+ * authoritative source for those styles. [[Template:Citation]], like all CS1/2
+ * templates, is styled from [[Module:Citation/CS1/styles.css]], *not* here.
+ */
+/* Break long urls, etc., rather than overflowing box */
+.citation {
+	word-wrap: break-word;
+}
+
+/* Highlight linked elements (such as clicked references) in blue */
+.citation:target {
+	/* ignore the linter - all browsers of interest implement this */
+	background-color: rgba(0, 127, 255, 0.133);
+}

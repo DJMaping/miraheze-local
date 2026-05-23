@@ -1,0 +1,3 @@
+<includeonly>{{subst:dtag|nowiki|{{{1|}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

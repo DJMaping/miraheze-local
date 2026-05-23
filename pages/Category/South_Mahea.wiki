@@ -1,0 +1,43 @@
+==List of states and territories==
+'''Continue to [[South Mahea]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Amcha}} || [[Amcha]] || style="text-align:right;" | 363,049 || style="text-align:right;" | 2,236,563 || style="text-align:right;" | 6 || [[Harnuk]]
+|-
+| style="text-align:center;"| {{flagicon|Byllu}} || [[Byllu]] || style="text-align:right;" | 563,506 || style="text-align:right;" | 9,106,539 || style="text-align:right;" | 16 || [[Dundryan]]
+|-
+| style="text-align:center;"| {{flagicon|Cruthi Anoso}} || [[Cruthi Anoso]] || style="text-align:right;" | 230 || style="text-align:right;" | 3,984 || style="text-align:right;" | 17 || [[Lunarev]]
+|-
+| style="text-align:center;"| {{flagicon|Dual Cenryia}} || [[Dual Cenryia]] || style="text-align:right;" | 1,028,181 || style="text-align:right;" | 95,001,457 || style="text-align:right;" | 92 || [[Vrandig]]
+|-
+| style="text-align:center;"| {{flagicon|Exilium}} || [[Exilium]] || style="text-align:right;" | 452,426 || style="text-align:right;" | 25,083,674 || style="text-align:right;" | 55 || [[Dulvasra]]
+|-
+| style="text-align:center;"| {{flagicon|Galca}} || [[Galca]] || style="text-align:right;" | 241,076 || style="text-align:right;" | 16,057,397 || style="text-align:right;" | 67 || [[Dherkiv]]
+|-
+| style="text-align:center;"| {{flagicon|Inrea}} || [[Inrea]] || style="text-align:right;" | 409,984 || style="text-align:right;" | 2,051,970 || style="text-align:right;" | 5 || [[Dalsjiv]]
+|-
+| style="text-align:center;"| {{flagicon|Isnti}} || [[Isnti]] || style="text-align:right;" | 250,357 || style="text-align:right;" | 35,956,798 || style="text-align:right;" | 144 || [[Mahsira]]
+|-
+| style="text-align:center;"| {{flagicon|Ocaun}} || [[Ocaun]] || style="text-align:right;" | 1,399,717 || style="text-align:right;" | 88,913,943 || style="text-align:right;" | 64 || [[Kejira]]
+|-
+| style="text-align:center;"| {{flagicon|Otiiric}} || [[Otiiric]] || style="text-align:right;" | 200,464 || style="text-align:right;" | 21,611,863 || style="text-align:right;" | 108 || [[Fyntek]]
+|-
+| style="text-align:center;"| {{flagicon|Taing}} || [[Taing]] || style="text-align:right;" | 193,698 || style="text-align:right;" | 2,162,677 || style="text-align:right;" | 11 || [[Kanrido]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 11
+| style="text-align:right;"| 5,102,688
+| style="text-align:right;"| 298,186,865
+| style="text-align:right;"| 58
+|}
+
+[[Category:Mahea]]
+[[Category:Mahean Regions]]

@@ -1,0 +1,12 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Electorate of Saxony
+| shortname alias = Saxony
+| flag alias = Flag of Electoral Saxony.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+<noinclude>
+| related1 = Kingdom of Saxony
+| related2 = Saxony
+| cat = Saxony electorate
+</noinclude>
+}}

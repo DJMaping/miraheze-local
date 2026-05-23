@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Reflist-talk]]
+
+{{Rcat shell|
+{{R from alternative name}}
+{{R from template shortcut}}
+}}

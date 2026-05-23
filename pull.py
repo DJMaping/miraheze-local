@@ -69,11 +69,19 @@ def session_login():
     return s
 
 
+_WIN_BAD = '<>:"/\\|?*'
+
+
 def safe_filename(title: str) -> str:
-    """Convert a page title to a safe-ish filename."""
-    # MediaWiki already disallows most bad characters; we just swap spaces and
-    # slashes which appear in subpages.
-    return title.replace(" ", "_").replace("/", "__")
+    """Convert a page title to a Windows-safe filename."""
+    # Spaces become underscores (MediaWiki convention). Slashes (subpages) become
+    # "__" so the path stays one level deep. Every other Windows-illegal char gets
+    # replaced with "_". Strip leading dots/dashes so Path can't treat the result
+    # as drive-rooted or a hidden file.
+    name = title.replace(" ", "_").replace("/", "__")
+    name = "".join("_" if c in _WIN_BAD else c for c in name)
+    name = name.lstrip("._-")
+    return name or "_"
 
 
 def list_pages(s, namespace: int):
@@ -126,8 +134,11 @@ def write_page(title: str, namespace: int, content: str, revid: int, state: dict
     # strip it for the filename since the folder already encodes the namespace.
     bare_title = title.split(":", 1)[1] if namespace != 0 and ":" in title else title
     filepath = folder / f"{safe_filename(bare_title)}.wiki"
-    filepath.write_text(content, encoding="utf-8")
-
+    try:
+        filepath.write_text(content, encoding="utf-8")
+    except OSError as e:
+        print(f"  !! skipped {title!r}: {e}")
+        return
     state[title] = {"revid": revid, "path": str(filepath)}
     print(f"  pulled {title}  (rev {revid})")
 
@@ -174,6 +185,7 @@ def main():
                 content, revid = fetch_page(s, title)
                 if content is not None:
                     write_page(title, ns, content, revid, state)
+            save_state(state)
 
     save_state(state)
     print("Done. State saved to .state.json")

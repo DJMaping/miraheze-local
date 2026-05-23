@@ -1,0 +1,4 @@
+<includeonly>{{#invoke:Number table sorting|main}}</includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+</noinclude>

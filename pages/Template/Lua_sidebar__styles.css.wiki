@@ -1,0 +1,4 @@
+.lua-sidebar {
+	width: auto;
+	max-width: 22em;
+}

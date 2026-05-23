@@ -1,0 +1,436 @@
+--[==[ This module is a Lua implementation of the old {{Portal}} template. As of February 2019 it is used on nearly 7,900,000 articles.
+-- Please take care when updating it! It outputs two functions: p.portal, which generates a list of portals, and p.image, which
+-- produces the image name for an individual portal.
+
+-- The portal image data is kept in submodules of [[Module:Portal/images]], listed below:
+-- [[Module:Portal/images/a]]		- for portal names beginning with "A".
+-- [[Module:Portal/images/b]]		- for portal names beginning with "B".
+-- [[Module:Portal/images/c]]		- for portal names beginning with "C".
+-- [[Module:Portal/images/d]]		- for portal names beginning with "D".
+-- [[Module:Portal/images/e]]		- for portal names beginning with "E".
+-- [[Module:Portal/images/f]]		- for portal names beginning with "F".
+-- [[Module:Portal/images/g]]		- for portal names beginning with "G".
+-- [[Module:Portal/images/h]]		- for portal names beginning with "H".
+-- [[Module:Portal/images/i]]		- for portal names beginning with "I".
+-- [[Module:Portal/images/j]]		- for portal names beginning with "J".
+-- [[Module:Portal/images/k]]		- for portal names beginning with "K".
+-- [[Module:Portal/images/l]]		- for portal names beginning with "L".
+-- [[Module:Portal/images/m]]		- for portal names beginning with "M".
+-- [[Module:Portal/images/n]]		- for portal names beginning with "N".
+-- [[Module:Portal/images/o]]		- for portal names beginning with "O".
+-- [[Module:Portal/images/p]]		- for portal names beginning with "P".
+-- [[Module:Portal/images/q]]		- for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]		- for portal names beginning with "R".
+-- [[Module:Portal/images/s]]		- for portal names beginning with "S".
+-- [[Module:Portal/images/t]]		- for portal names beginning with "T".
+-- [[Module:Portal/images/u]]		- for portal names beginning with "U".
+-- [[Module:Portal/images/v]]		- for portal names beginning with "V".
+-- [[Module:Portal/images/w]]		- for portal names beginning with "W".
+-- [[Module:Portal/images/x]]		- for portal names beginning with "X".
+-- [[Module:Portal/images/y]]		- for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]		- for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]	- for portal names beginning with any other letters. This includes numbers,
+-- 									  letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]]	- for adding aliases for existing portal names. Use this page for variations
+-- 									  in spelling and diacritics, etc., no matter what letter the portal begins with.
+--
+-- The images data pages are separated by the first letter to reduce server load when images are added, changed, or removed.
+-- Previously all the images were on one data page at [[Module:Portal/images]], but this had the disadvantage that all
+-- 5,000,000 pages using this module needed to be refreshed every time an image was added or removed.
+]==]
+
+local p = {}
+
+-- determine whether we're being called from a sandbox
+local isSandbox = mw.getCurrentFrame():getTitle():find('sandbox', 1, true)
+local sandbox = isSandbox and '/sandbox' or ''
+
+local function sandboxVersion(s)
+	return isSandbox and s..'-sand' or s
+end
+
+local templatestyles = 'Module:Portal'..sandbox..'/styles.css'
+
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+
+-- List of non-talk namespaces which should not be tracked (Talk pages are never tracked)
+local badNamespaces = {'user','template','draft','wikipedia'}
+
+-- Check whether to do tracking in this namespace
+-- Returns true unless the page is one of the banned namespaces
+local function checkTracking(title)
+	local thisPage = title or mw.title.getCurrentTitle()
+	if thisPage.isTalkPage then
+		return false
+	end
+	local ns = thisPage.nsText:lower()
+	for _, v in ipairs(badNamespaces) do
+		if ns == v then
+			return false
+		end
+	end
+	return true
+end
+
+local function matchImagePage(s)
+	-- Finds the appropriate image subpage given a lower-case
+	-- portal name plus the first letter of that portal name.
+	if type(s) ~= 'string' or #s < 1 then return end
+	local firstLetter = mw.ustring.sub(s, 1, 1)
+	local imagePage
+	if mw.ustring.find(firstLetter, '^[a-z]') then
+		imagePage = 'Module:Portal/images/' .. firstLetter .. sandbox
+	else
+		imagePage = 'Module:Portal/images/other' .. sandbox
+	end
+	return mw.loadData(imagePage)[s]
+end
+
+local function getAlias(s)
+	-- Gets an alias from the image alias data page.
+	local aliasData = mw.loadData('Module:Portal/images/aliases'..sandbox)
+	for portal, aliases in pairs(aliasData) do
+		for _, alias in ipairs(aliases) do
+			if alias == s then
+				return portal
+			end
+		end
+	end
+end
+
+local defaultImage = 'Portal-puzzle.svg|link=|alt='
+
+local function getImageName(s)
+	-- Gets the image name for a given string.
+	if type(s) ~= 'string' or #s < 1 then
+		return defaultImage
+	end
+	s = mw.ustring.lower(s)
+	local image = matchImagePage(s) or matchImagePage(getAlias(s)) or defaultImage
+	image = mw.ustring.gsub(image,'^File:','') --- strip mistaken leading File: or Image:
+	image = mw.ustring.gsub(image,'^Image:','')
+	return image
+end
+
+local function exists(title) 
+	local success, exists = pcall(function() return title.exists end)
+	-- If success = false, then we're out of expensive parser function calls and can't check whether it exists
+	-- in that case, don't throw a Lua error
+	return not success or exists
+end
+
+ -- Function to check argument portals for errors, generate tracking categories if needed
+ --     Function first checks for too few/many portals provided
+ --     Then checks the portal list to purge any portals that don't exist
+ -- Arguments:
+ --   portals: raw list of portals
+ --   args.tracking: is tracking requested? (will not track on bad titles or namespaces)
+ --   args.redlinks: should redlinks be displayed?
+ --   args.minPortals: minimum number of portal arguments
+ --   args.maxPortals: maximum number of portal arguments
+ -- Returns:
+ --   portals = list of portals, with redlinks purged (if args.redlinks=false)
+ --   trackingCat = possible tracking category
+ --   errorMsg = error message
+function p._checkPortals(portals, args)
+	local trackingCat = ''
+	local errMsg = nil
+	
+	-- Tracking is on by default.
+	-- It is disabled if any of the following is true
+	-- 1/ the parameter "tracking" is set to 'no, 'n', or 'false'
+	-- 2/ the current page fails the namespace or pagename tests 
+	local trackingEnabled = args.tracking and checkTracking()
+	
+	args.minPortals = args.minPortals or 1
+	args.maxPortals = args.maxPortals or -1
+	-- check for too few portals
+	if #portals < args.minPortals then
+		errMsg = 'please specify at least '..args.minPortals..' portal'..(args.minPortals > 1 and 's' or '')
+		trackingCat = (trackingEnabled and '[[Category:Portal templates with too few portals]]' or '')
+		return portals, trackingCat, errMsg
+	end
+	-- check for too many portals
+	if args.maxPortals >= 0 and #portals > args.maxPortals then
+		errMsg = 'too many portals (maximum = '..args.maxPortals..')'
+		trackingCat = (trackingEnabled and '[[Category:Portal templates with too many portals]]' or '')
+		return portals, trackingCat, errMsg
+	end
+	if not args.redlinks or trackingEnabled then
+		-- make new list of portals that exist
+		local existingPortals = {}
+		for _, portal in ipairs(portals) do
+			local portalTitle = mw.title.new(portal,"Portal")
+			-- if portal exists, put it into list
+			if portalTitle and exists(portalTitle) then
+				table.insert(existingPortals,portal)
+			-- otherwise set tracking cat
+			elseif trackingEnabled then
+				trackingCat = "[[Category:Portal templates with redlinked portals]]"
+			end
+		end
+		-- If redlinks is off, use portal list purged of redlinks
+		portals = args.redlinks and portals or existingPortals
+		-- if nothing left after purge, set tracking cat
+		if #portals == 0 and trackingEnabled then
+			trackingCat = trackingCat.."[[Category:Pages with empty portal template]]" 
+		end
+	end
+	return portals, trackingCat, errMsg
+end
+
+local function portalBox(args)
+	return mw.html.create('ul')
+		:attr('role', 'navigation')
+		:attr('aria-label', 'Portals')
+		:addClass('noprint')
+		:addClass(args.error and '' or sandboxVersion('portalbox'))
+		:addClass(args.border and sandboxVersion('portalborder') or '')
+		:addClass(sandboxVersion(args.left and 'portalleft' or 'portalright'))
+		:css('margin', args.margin or nil)
+		:newline()
+end
+
+local function fillBox(root, contents)
+	for _, item in ipairs(contents) do
+		local entry = root:tag('li')
+		entry:addClass(sandboxVersion('portalbox-entry'))
+		local image = entry:tag('span')
+		image:addClass(sandboxVersion('portalbox-image'))
+		image:wikitext(item[1])
+		local link = entry:tag('span')
+		link:addClass(sandboxVersion('portalbox-link'))
+		link:wikitext(item[2])
+	end
+	return root
+end
+
+local function noviewer(portalImage)
+    -- Function to add noviewer class to filespec for portalImage
+    local portalImage, hasClass = mw.ustring.gsub(portalImage, "class%s*=[^%|]+", "%0 noviewer")
+    if hasClass == 0 then
+        portalImage = portalImage.."|class=noviewer"
+    end
+    return portalImage
+end
+
+function p._portal(portals, args)
+	-- This function builds the portal box used by the {{portal}} template.
+	
+	-- Normalize all arguments
+	if args.redlinks == 'include' then args.redlinks = true end
+	args.addBreak = args['break']
+	for key, default in pairs({left=false,tracking=true,nominimum=false,
+		                       redlinks=false,addBreak=false,border=true}) do
+		if args[key] == nil then args[key] = default end
+		args[key] = yesno(args[key], default)
+	end
+
+	local root = portalBox(args)
+
+	local trackingCat = ''
+	local errMsg = nil
+	args.minPortals = args.nominimum and 0 or 1
+	args.maxPortals = -1
+	portals, trackingCat, errMsg = p._checkPortals(portals, args)
+	root:wikitext(trackingCat)
+	-- if error message, put it in the box and return
+	if errMsg then
+		if args.border then -- suppress error message when border=no
+			args.error = true  -- recreate box without fancy formatting
+			root = portalBox(args)
+			root:wikitext(trackingCat)
+			local errTag = root:tag('strong')
+			errTag:addClass('error')
+			errTag:css('padding','0.2em')
+			errTag:wikitext('Error: '..errMsg)
+		end
+		return tostring(root)
+	end
+	-- if no portals (and no error), just return tracking category
+	if #portals == 0 then
+		return trackingCat
+	end
+
+	local contents = {}
+	-- Display the portals specified in the positional arguments.
+	local defaultUsed = nil
+	for _, portal in ipairs(portals) do
+		local portalImage = getImageName(portal)
+		if portalImage == defaultImage then
+			defaultUsed = portal
+        else
+            portalImage = noviewer(portalImage)
+		end
+		local image = string.format('[[File:%s|32x28px]]',
+			portalImage)
+		local link = string.format('[[Portal:%s|%s%sportal]]',
+			portal, portal, args.addBreak and '<br />' or ' ')
+		table.insert(contents, {image, link})
+	end
+	if defaultUsed and args.tracking and checkTracking() then
+		local cat = string.format('[[Category:Portal templates with default image|%s]]',
+			                      defaultUsed)
+		root:wikitext(cat)
+	end
+	return tostring(fillBox(root, contents))
+end
+
+function p._demo(imageList, args)
+	for key, default in pairs({left=false,border=true}) do
+		if args[key] == nil then args[key] = default end
+		args[key] = yesno(args[key], default)
+	end
+	
+	local root = portalBox(args)
+
+	local contents = {}
+	-- Display the portals specified in the positional arguments.
+	for _, fn in ipairs(imageList) do
+		local image = string.format('[[File:%s|32x28px]]',noviewer(fn))
+		local link = string.format('[[:File:%s|%s]]',fn,fn)
+		table.insert(contents,{image,link})
+	end
+
+	return tostring(fillBox(root,contents))
+end
+
+function p._image(portal,keep)
+	-- Wrapper function to allow getImageName() to be accessed through #invoke.
+	-- backward compatibility: if table passed, take first element
+	if type(portal) == 'table' then
+		portal = portal[1]
+	end
+	local name = getImageName(portal)
+	-- If keep is yes (or equivalent), then allow all metadata (like image borders) to be returned
+    -- also, add "noviewer" class to metadata
+	local keepargs = yesno(keep)
+    if keepargs then
+        return noviewer(name)
+    end
+    -- otherwise, just keep filename, plus optional category
+	local args = mw.text.split(name, "|", true)
+	local result = {args[1]}  -- the filename always comes first
+	local category = ''
+	-- parse name, looking for category arguments
+	for i = 2,#args do
+		local m = mw.ustring.match(args[i],  "^%s*category%s*=")
+		if m then
+			table.insert(result, args[i])
+		end
+	end
+	-- reassemble arguments
+	return table.concat(result,"|")
+end
+
+
+local function getAllImageTable()
+	-- Returns an array containing all image subpages (minus aliases) as loaded by mw.loadData.
+	local images = {}
+	for i, subpage in ipairs{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'other'} do
+		local imageTable = mw.loadData('Module:Portal/images/' .. subpage .. sandbox)
+		for portal, image in pairs(imageTable) do
+			local args = mw.text.split(image,"|")
+			images[portal] = args[1] -- just use image filename
+		end
+	end
+	return images
+end
+
+function p._displayAll(portals, args)
+	-- This function displays all portals that have portal images. This function is for maintenance purposes and should not be used in
+	-- articles, for two reasons: 1) there are over 1500 portals with portal images, and 2) the module doesn't record how the portal
+	-- names are capitalized, so the portal links may be broken.
+	local lang = mw.language.getContentLanguage()
+	portals = portals or {}
+	for portal in pairs(getAllImageTable()) do
+		table.insert(portals,lang:ucfirst(portal))
+	end
+	table.sort(portals)
+	args.redlinks = args.redlinks or "yes"
+	return p._portal(portals, args)
+end
+
+function p._imageDupes()
+	-- This function searches the image subpages to find duplicate images. If duplicate images exist, it is not necessarily a bad thing,
+	-- as different portals might just happen to choose the same image. However, this function is helpful in identifying images that
+	-- should be moved to a portal alias for ease of maintenance.
+	local exists, dupes = {}, {}
+	for portal, image in pairs(getAllImageTable()) do
+		if not exists[image] then
+			exists[image] = portal
+		else
+			table.insert(dupes, string.format('The image "[[:File:%s|%s]]" is used for both portals "%s" and "%s".', image, image, exists[image], portal))
+		end
+	end
+	if #dupes < 1 then
+		return 'No duplicate images found.'
+	else
+		return 'The following duplicate images were found:\n* ' .. table.concat(dupes, '\n* ')
+	end
+end
+
+local function processPortalArgs(args)
+	-- This function processes a table of arguments and returns two tables: an array of portal names for processing by ipairs, and a table of
+	-- the named arguments that specify style options, etc. We need to use ipairs because we want to list all the portals in the order
+	-- they were passed to the template, but we also want to be able to deal with positional arguments passed explicitly, for example
+	-- {{portal|2=Politics}}. The behaviour of ipairs is undefined if nil values are present, so we need to make sure they are all removed.
+	args = type(args) == 'table' and args or {}
+	local portals = {}
+	local namedArgs = {}
+	for k, v in pairs(args) do
+		if type(k) == 'number' and type(v) == 'string' then -- Make sure we have no non-string portal names.
+			table.insert(portals, k)
+		elseif type(k) ~= 'number' then
+			namedArgs[k] = v
+		end
+	end
+	table.sort(portals)
+	for i, v in ipairs(portals) do
+		portals[i] = args[v]
+	end
+	return portals, namedArgs
+end
+
+-- Entry point for sorting portals from other named arguments
+function p._processPortalArgs(args)
+	return processPortalArgs(args)
+end
+
+function p.image(frame)
+	local origArgs = getArgs(frame)
+	local portals, args = processPortalArgs(origArgs)
+	return p._image(portals[1],args.border)
+end
+
+function p.demo(frame)
+	local args = getArgs(frame)
+	local styles = frame:extensionTag{ name = 'templatestyles', args = { src = templatestyles} }
+	return styles..p._demo(args,args)
+end
+
+local function makeWrapper(funcName)
+	-- Processes external arguments and sends them to the other functions.
+	return function (frame)
+		-- If called via #invoke, use the args passed into the invoking
+		-- template, or the args passed to #invoke if any exist. Otherwise
+		-- assume args are being passed directly in from the debug console
+		-- or from another Lua module. 
+		-- Also: trim whitespace and remove blank arguments
+		local origArgs = getArgs(frame)
+		-- create two tables to pass to func: an array of portal names, and a table of named arguments.
+		local portals, args = processPortalArgs(origArgs)
+		local results = ''
+		if funcName == '_portal' or funcName == '_displayAll' then
+			results = frame:extensionTag{ name = 'templatestyles', args = { src = templatestyles} }
+		end
+		return results .. p[funcName](portals, args) 
+	end
+end
+
+for _, funcName in ipairs{'portal', 'imageDupes', 'displayAll'} do
+	p[funcName] = makeWrapper('_' .. funcName)
+end
+
+return p

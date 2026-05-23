@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Category link]]
+
+{{Redirect category shell|
+{{R from merge}}
+{{R from template shortcut}}
+}}

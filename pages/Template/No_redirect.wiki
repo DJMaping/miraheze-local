@@ -1,0 +1,6 @@
+{{safesubst:<noinclude/>#if: {{safesubst:<noinclude/>#invoke:Redirect|isRedirect|{{{1}}}}}
+| <span class="plainlinks">[{{safesubst:<noinclude/>fullurl:{{{1}}}|redirect=no}} {{{2|{{{1}}}}}}]</span><span style="display: none">[[:{{{1}}}]]</span>
+| [[:{{safesubst:<noinclude/>FULLPAGENAME:{{{1}}}}}|{{{2|{{{1}}}}}}]]
+}}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,1 @@
+<includeonly><code>&#123;&#123;{{{{{|safesubst:}}}#invoke:Separated entries|main|[[Module:{{{1}}}{{{section|}}}|#invoke:{{{1}}}]]|{{{2|''function''}}}|separator=&#124;}}&#125;&#125;</code></includeonly><noinclude>{{documentation}}<!-- Categories go on the /doc subpage and interwikis go on Wikidata. --></noinclude>

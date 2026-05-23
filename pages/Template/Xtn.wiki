@@ -1,0 +1,4 @@
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{FormattingError|[[:{{safesubst:<noinclude/>#invoke:TEMPLATENAME|main}}]] is only for examples of style and formatting. Do not use it in actual articles.}}|<span class="example example-neutral" style="font-family: Georgia, 'DejaVu Serif', serif;" {{#if:{{{title|}}}|title="{{{title}}}"}}>{{{1|Example text}}}</span>}}<noinclude>
+<!-- No, "color: initial;" is not redundant; it fixes inconsistent link-appearance behavior between this template and [[Template:Xt]], etc. -->
+{{Documentation|Template:Xt/doc}}
+</noinclude>

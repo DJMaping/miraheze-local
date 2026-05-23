@@ -1,0 +1,25 @@
+<noinclude>This is the exception page for {{tl|R from move}}.  This page makes exceptions that include certain pages that should not inhabit either {{cat|Unsynchronized talk page redirects}} or {{cat|Redirects from moves}}.  If necessary, new exceptions may be added with no need to edit the main template, {{tl|R from move}}.
+</noinclude>{{#switch: {{FULLPAGENAME}}
+|MediaWiki:Move-redirect-text=
+|Template:R from move/except=
+|#default=[[Category:Redirects from moves]]
+}}{{#switch: {{NAMESPACENUMBER}}
+  |1={{#ifeq: {{#invoke:redirect|isRedirect|{{FULLPAGENAME}}}}|yes|
+      {{#ifeq: {{#invoke:redirect|isRedirect|{{SUBJECTPAGENAME}}}}|yes|
+        {{#ifeq: {{PAGENAME:{{#invoke:redirect|main|{{TALKPAGENAME}}}}}}|{{PAGENAME:{{#invoke:redirect|main|{{SUBJECTPAGENAME}}}}}}||
+          {{#ifeq: {{FULLPAGENAME}}|{{SUBJECTPAGENAME}}||
+            {{#ifeq: {{Str left|{{PAGENAME}}|16}}|List of ships of||[[Category:Unsynchronized talk page redirects]]
+            }}
+          }}
+        }}
+      |{{#ifexist:{{SUBJECTPAGENAME}}|
+        {{#ifeq: {{SUBJECTPAGENAME}}|{{Target of|{{SUBJECTPAGENAME:{{Target of|{{FULLPAGENAME}}}}}}}}|[[Category:Articles with unsynchronized talk page redirects]]|
+          {{#ifexpr: {{#invoke:string|find|{{#invoke:page|getContent|{{SUBJECTPAGENAME}}|as=raw}}|:Rfd}}|[[Category:Redirects for discussion with talk page redirects]]|[[Category:Articles with talk page redirects]]}}}}
+        }}
+      }}
+    |{{error|Page is not a redirect, misplaced [[Template:R from move]]}}
+    }}
+  |0={{#switch:{{NAMESPACENUMBER:{{#invoke:redirect|main|{{FULLPAGENAME}}}}}}|0|4|10|12|14|100=|#default={{R from move/Cross-namespace}}}}
+}}<noinclude>
+{{Documentation|Template:R from move/doc}}
+</noinclude>

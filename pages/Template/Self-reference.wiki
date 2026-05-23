@@ -1,0 +1,11 @@
+{{#switch:{{{2|NONE}}}
+|NONE|hatnote|hat={{Hatnote|extraclasses=plainlinks selfreference noprint|1={{{1}}}}}
+|inline=<div class="plainlinks selfreference" style="display:inline; font-style: italic;"><!--Same style as class hatnote.-->{{{1}}}</div>
+|<!--Matching the empty string here for unprintworthy content is for backwards compatibility with the 2006-2008 version. Do not depend on it!-->=<div style="display:inline;"  class="plainlinks selfreference noprint">{{{1}}}</div>
+|#default={{error|Second parameter must be <code>hatnote</code>, <code>hat</code>, or <code>inline</code>}}
+}}<noinclude>
+{{Documentation}}
+
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES THE /doc SUBPAGE, AND INTERWIKIS TO WIKIDATA, THANKS -->
+
+</noinclude>

@@ -1,0 +1,6 @@
+<templatestyles src="Template:Tooltip/styles.css" />{{#ifeq:{{yesno-no|{{{link}}}}}|yes
+ |[[{{{1}}}|<span class="rt-commentedText tooltip {{#ifeq:{{yesno-yes|{{{dotted}}}}}|no||tooltip-dotted}} {{{class|}}}" {{#if:{{{id|}}}|id="{{{id}}}"}} {{#if:{{{style|}}}|style="{{{style}}}"}} title="{{#tag:nowiki|{{#invoke:String|replace|{{{2|}}}|"|&quot;}}}}">{{{1|}}}</span>]]
+ |<span class="rt-commentedText tooltip {{#ifeq:{{yesno-yes|{{{dotted}}}}}|no||tooltip-dotted}} {{{class|}}}" {{#if:{{{id|}}}|id="{{{id}}}"}} {{#if:{{{style|}}}|style="{{{style}}}"}} title="{{#tag:nowiki|{{#invoke:String|replace|{{{2|}}}|"|&quot;}}}}">{{Encodefirst|{{trim|1={{{1|}}}}}}}</span>
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using tooltip with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Tooltip]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | 2 | class | dotted | id | link | style }}<noinclude>
+{{Documentation}}
+</noinclude>

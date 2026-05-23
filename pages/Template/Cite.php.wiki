@@ -1,0 +1,3 @@
+[[mw:Extension:Cite|Cite]]{{#ifeq: {{{1|}}}|bug|&#32;[[phab:tag/cite/|bug list]]}}<noinclude>
+{{documentation}}
+</noinclude>

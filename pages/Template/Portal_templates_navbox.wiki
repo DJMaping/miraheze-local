@@ -1,0 +1,114 @@
+{{Navbox
+| name       = Portal templates navbox
+| title      = [[Wikipedia:Portal|Portal]] templates
+| listclass  = hlist
+| state      = {{{state|}}}
+| image      = [[File:Portal.svg|50px]]
+| above      = '''[[Wikipedia:WikiProject Portals/Components|Visual overview of template usage]]'''
+
+| group1     = Layout and formatting
+| list1      =
+* {{tl|Box portal skeleton}}
+* {{tl|Box-header}}
+** [[Template:Box-header#Box-header_color_palettes|color palettes]]
+** [[Template:Box-header-plain|plain]]
+** [[Template:Box-header-round|round]]
+** [[Template:Box-header-square|square]]
+** [[Template:Box-header-watch|watch]]
+*{{tl|Box-header colour}}<sup>{{Tooltip|[1]|Uses Module:Box-header}}</sup>
+*{{tl|Box-footer}}
+*{{tl|Flex columns}}
+*{{tl|Plain navboxes}}
+
+| group2     = Content transclusion
+| list2      = 
+* {{tl|Transclude lead excerpt}}<sup>{{Tooltip|[2]|Uses Module:Excerpt/portals}}</sup>
+* {{tl|Transclude linked excerpt}}<sup>{{Tooltip|[2]|Uses Module:Excerpt/portals}}</sup>
+* {{tl|Transclude list item excerpt}}<sup>{{Tooltip|[2]|Uses Module:Excerpt/portals}}</sup>
+* {{tl|Transclude random excerpt}}<sup>{{Tooltip|[2]|Uses Module:Excerpt/portals}}</sup>
+* {{tl|Transclude selected excerpt}}<sup>{{Tooltip|[2]|Uses Module:Excerpt/portals}}</sup>
+* {{tl|Excerpt}}
+* {{tl|Transclude DYK}}<sup>{{Tooltip|[9]|Uses Module:Transclude DYK}}</sup>
+* {{tl|Transclude selected current events}}<sup>{{Tooltip|[3]|Uses Module:Selected current events}}</sup>
+* {{tl|Transclude selected recent additions}}<sup>{{Tooltip|[4]|Uses Module:Selected recent additions}}</sup>
+
+| group3     = Content slideshows
+| list3      =
+* {{tl|Random slideshow}}<sup>{{Tooltip|[5]|Uses Module:Random slideshow}}</sup>
+* {{tl|Transclude files as random slideshow}}<sup>{{Tooltip|[5]|Uses Module:Random slideshow}}</sup>
+* {{tl|Transclude excerpts as random slideshow}}<sup>{{Tooltip|[6]|Uses Module:Excerpt slideshow}}</sup>
+* {{tl|Transclude linked excerpts as random slideshow}}<sup>{{Tooltip|[6]|Uses Module:Excerpt slideshow}}</sup>
+* {{tl|Transclude list item excerpts as random slideshow}}<sup>{{Tooltip|[6]|Uses Module:Excerpt slideshow}}</sup>
+
+| group4     = Content randomisation
+| list4      =
+* {{tl|Random portal component}}<sup>{{Tooltip|[7]|Uses Module:Random portal component}}</sup>
+* {{tl|Random quotation}}
+* {{tl|Random subpage}}
+
+| group5     = General
+| list5      =
+* {{tl|Portals}}
+* {{tl|Portals browsebar}}
+* {{tl|Portal description}}
+* {{tl|Portal information sidebar}}
+* {{tl|Portal navbar no header2}}
+* {{tl|Purge link portals}}
+* {{tl|Wikimedia for portals}}
+
+| group6     = Linking templates
+| list6      = 
+* {{tl|Portal}}<sup>{{Tooltip|[11]|Uses Module:Portal}}</sup>
+* {{tl|Portal bar}}<sup>{{Tooltip|[12]|Uses Module:Portal bar}}</sup>
+* {{tl|Portal-inline}}<sup>{{Tooltip|[13]|Uses Module:Portal-inline}}</sup>
+* {{tl|Pbox}}
+* {{tl|Related portals2}}
+
+| group7     = Talk pages / Maintenance
+| list7      =
+* {{tl|Portal talk}}
+* {{tl|Portal maintenance status}}<sup>{{Tooltip|[8]|Uses Module:Portal maintenance status}}</sup>
+* {{tl|Portal suggestions}}
+* {{tl|Portal toolbox}}
+* {{tl|WikiProject Portals}}<sup>{{Tooltip|[8]|Uses Module:Portal maintenance status}}</sup>
+
+| group8    = Images
+| list8=
+* {{tl|Portal dynamic image}}
+* {{tl|Portal image banner}}<sup>{{Tooltip|[10]|Uses Module:Portal image banner}}</sup>
+* {{tl|Portal pictures}}<sup>{{Tooltip|[14]|Uses Module:Portal pictures}}</sup>
+* {{tl|Portal POTD}}
+
+| group9     = Modules
+| list9      =
+* 1.&nbsp;[[Module:Box-header]]
+* 2.&nbsp;[[Module:Excerpt/portals]]
+* 3.&nbsp;[[Module:Selected current events]]
+* 4.&nbsp;[[Module:Selected recent additions]]
+* 5.&nbsp;[[Module:Random slideshow]]
+* 6.&nbsp;[[Module:Excerpt slideshow]]
+* 7.&nbsp;[[Module:Random portal component]]
+* 8.&nbsp;[[Module:Portal maintenance status]]
+* 9.&nbsp;[[Module:Transclude DYK]]
+* 10.&nbsp;[[Module:Portal image banner]]
+* 11.&nbsp;[[Module:Portal]]
+* 12.&nbsp;[[Module:Portal bar]]
+* 13.&nbsp;[[Module:Portal-inline]]
+* 14.&nbsp;[[Module:Portal pictures]]
+|group10 =Wikiprojects
+|list10=
+*{{tl|Portal and project}}
+*{{tl|WPbox}}
+*{{tl|NBbox}}
+
+| group11     = Usage
+| list11      =
+* [[Wikipedia:Portal]]
+* [[Wikipedia:WikiProject Portals]]
+
+| below = ''For more information, see: {{cl|Template-Class Portal pages}} and {{cl|Wikipedia Portal templates}}''
+}}<noinclude>
+{{documentation|content={{Collapsible option}}
+[[Category:Wikipedia Portal templates| ]]
+[[Category:Documentation see also templates]]
+}}</noinclude>

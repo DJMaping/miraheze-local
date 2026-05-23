@@ -1,0 +1,4 @@
+<includeonly>{{SAFESUBST:<noinclude />#invoke:Section link|main}}</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage and interwikis go on Wikidata. -->
+</noinclude>

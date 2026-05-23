@@ -1,0 +1,25 @@
+<includeonly>{{safesubst<noinclude />:#ifeq: {{Yesno-no|{{{noredlink|}}}}}|yes<noinclude><!--
+   --></noinclude>|<noinclude><!--
+          #Check for existence of Template: Country data foo before invoking it
+      --></noinclude>{{safesubst<noinclude />:#ifexist: Template: Country data {{{1|}}}<noinclude><!--
+         --></noinclude>|<noinclude><!--
+               # It exists, so proceed
+           --></noinclude>{{country data {{{1|}}}|flag icon/core|variant={{{variant|{{{2|}}}}}}|size={{{size|}}}}}<noinclude><!--
+         --></noinclude>|<noinclude><!--
+               # It doesn't exist, so do nothing
+      --></noinclude>}}<noinclude><!--
+   --></noinclude>|<noinclude><!--
+          # DEFAULT call  Template: Country data {{{1|}}}
+          # with no prior checks
+     --></noinclude>{{country data {{{1|}}}|flag icon/core|variant={{{variant|{{{2|}}}}}}|size={{{size|}}}}}<noinclude><!--
+          # Track use where "Template:Country data Foo" does not exist
+     --></noinclude>{{safesubst<noinclude />:#ifexist: Template:Country data {{{1|}}}||{{safesubst<noinclude />:namespace detect showall
+| 1 = 
+| 2 = [[Category:Flag icons missing country data templates]]{{Preview warning|unrecognized country in Template:flag icon}}
+| user  = 1
+| talk  = 1
+| other = 2
+}}}}<noinclude><!--
+--></noinclude>}}</includeonly>{{safesubst<noinclude />:#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using flag icon template with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Flag icon]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | 2 | noredlink | size | variant }}<noinclude>
+{{Documentation}}
+</noinclude>

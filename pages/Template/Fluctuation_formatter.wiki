@@ -1,0 +1,38 @@
+{{#switch:{{{type|{{{2|maximize}}}}}}<!-- Check type and use appropriate symbols -->
+|maximize = {{#switch:1
+|{{#expr: {{formatnum:{{{1}}}|R}} > {{{threshold|0}}}}} = {{Increase}}&nbsp;{{{custom label|+{{#expr:{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: {{formatnum:{{{1}}}|R}} < -{{{threshold|0}}}}} = {{Decrease}}&nbsp;{{{custom label|−{{#expr:abs{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: abs{{formatnum:{{{1}}}|R}} <= {{{threshold|0}}}}} = {{Steady}}&nbsp;{{#switch:1<!-- Check value and display number or steady label -->
+|{{#expr: {{formatnum:{{{1}}}|R}} > 0}} = {{{custom label|+{{#expr:{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: {{formatnum:{{{1}}}|R}} < 0}} = {{{custom label|−{{#expr:abs{{formatnum:{{{1}}}|R}}}}}}}
+|1 = {{{custom label|{{{steady label|no change}}}}}}
+}}
+|1 = <includeonly>{{Error|Error: Unrecognized value.}}</includeonly>
+}}
+
+|minimize = {{#switch:1
+|{{#expr: {{formatnum:{{{1}}}|R}} > {{{threshold|0}}}}} = {{IncreaseNegative}}&nbsp;{{{custom label|+{{#expr:{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: {{formatnum:{{{1}}}|R}} < -{{{threshold|0}}}}} = {{DecreasePositive}}&nbsp;{{{custom label|−{{#expr:abs{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: abs{{formatnum:{{{1}}}|R}} <= {{{threshold|0}}}}} = {{Steady}}&nbsp;{{#switch:1<!-- Check value and display number or steady label -->
+|{{#expr: {{formatnum:{{{1}}}|R}} > 0}} = {{{custom label|+{{#expr:{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: {{formatnum:{{{1}}}|R}} < 0}} = {{{custom label|−{{#expr:abs{{formatnum:{{{1}}}|R}}}}}}}
+|1 = {{{custom label|{{{steady label|no change}}}}}}
+}}
+|1 = <includeonly>{{Error|Error: Unrecognized value.}}</includeonly>
+}}
+
+|neutral = {{#switch:1
+|{{#expr: {{formatnum:{{{1}}}|R}} > {{{threshold|0}}}}} = {{IncreaseNeutral}}&nbsp;{{{custom label|+{{#expr:{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: {{formatnum:{{{1}}}|R}} < -{{{threshold|0}}}}} = {{DecreaseNeutral}}&nbsp;{{{custom label|−{{#expr:abs{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: abs{{formatnum:{{{1}}}|R}} <= {{{threshold|0}}}}} = {{Steady}}&nbsp;{{#switch:1<!-- Check value and display number or steady label -->
+|{{#expr: {{formatnum:{{{1}}}|R}} > 0}} = {{{custom label|+{{#expr:{{formatnum:{{{1}}}|R}}}}}}}
+|{{#expr: {{formatnum:{{{1}}}|R}} < 0}} = {{{custom label|−{{#expr:abs{{formatnum:{{{1}}}|R}}}}}}}
+|1 = {{{custom label|{{{steady label|no change}}}}}}
+}}
+|1 = <includeonly>{{Error|Error: Unrecognized value.}}</includeonly>
+}}
+
+|{{{type|{{{2|maximize}}}}}} = {{Error|Error: Unrecognized type. Please use "maximize", "minimize", or "neutral".}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>

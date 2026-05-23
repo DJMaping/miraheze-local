@@ -1,0 +1,61 @@
+<div style="position:absolute; float:left;">{{navbar|Flag templates|text=This template:}}</div>
+{| class="wikitable"
+|+ Flag templates
+! scope="row" | Output style → 
+! scope="col" | Country name 
+! scope="col" | Country name (code) 
+! scope="col" | Athlete (country code) 
+! scope="col" | Athlete Country Name 
+! scope="col" | Country code
+|-
+! scope="row" | Olympic Games
+| {{tlg|Flag IOC}} || {{tlg|Flag IOC team}} || {{tlg|Flag IOC athlete}} || {{tlg|Flag IOC medalist}} || {{tlg|Flag IOC short}}
+|-
+! scope="row" | Other games
+| {{tlg|Flag IOC 2}} || {{tlg|Flag IOC 2 team}} || {{tlg|Flag IOC 2 athlete}} || {{tlg|Flag IOC 2 medalist}} || {{tlg|Flag IOC 2 short}}
+|-
+! scope="row" | Paralympic Games
+| {{tlg|Flag IPC}} || {{tlg|Flag IPC team}} || {{tlg|Flag IPC athlete}} || {{tlg|Flag IPC medalist}} || {{tlg|Flag IPC short}}
+|-
+! scope="row" | Pan American
+| {{tlg|Flag PASO}} || {{tlg|Flag PASO team}} || {{tlg|Flag PASO athlete}} || {{tlg|Flag PASO medalist}} || 
+|-
+! scope="row" | Parapan American
+| {{tlg|Flag PPASO}} || || || || 
+|-
+! scope="row" | Commonwealth
+| {{tlg|Flag CGF}} || {{tlg|Flag CGF team}} || {{tlg|Flag CGF athlete}} || {{tlg|Flag CGF medalist}} || 
+|-
+! scope="row" | Southeast Asian
+| {{tlg|Flag SEAGF}} || {{tlg|Flag SEAGF team}} || {{tlg|Flag SEAGF athlete}} || {{tlg|Flag SEAGF medalist}} || 
+|-
+! scope="row" | World Games
+| {{tlg|Flag IWGA}} || || || ||
+|-
+! scope="row" | Central American and Caribbean Games
+| {{tlg|Flag CAC}} || || || || 
+|-
+! scope="row" | Asian Games
+| {{tlg|Flag OCA}} || || || || 
+|-
+! scope="row" | European Games
+| {{tlg|Flag EOC}} || || || || 
+|-
+! scope="row" | African Games
+| {{tlg|Flag AFOC}} || || || || 
+|-
+! scope="row" | Mediterranean Games
+| {{tlg|Flag CIJM}} || || || || 
+|-
+! scope="row" | Summer Universiade
+| {{tlg|Flag FISU}} || || || || 
+|-
+! scope="row" | "Nation at Championships"-style
+| || {{tlg|Flag link team}} ||  || ||
+|-
+! scope="row" | Generic
+| {{t|Flag}} || {{tlg|Flag team}} || {{tlg|Flag athlete}} || {{tlg|Flag medalist}} ||
+|-
+! scope="row" | Generic (variant)
+| {{tlg|Flag link}} ||  || {{tlg|Flag link athlete}} || {{tlg|Flag link medalist}} ||
+|}<noinclude>{{documentation}}</noinclude>

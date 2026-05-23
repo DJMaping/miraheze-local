@@ -1,0 +1,4 @@
+<span style="padding-right:0.15em;">{{{1}}}</span><noinclude>
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKI LINK ON THE DOCUMENTATION PAGE. -->
+</noinclude>

@@ -1,0 +1,20 @@
+{{safesubst<noinclude />: {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Estijan Huan
+| flag alias = Estijan Flag.png
+| border-navy =
+| border-army=
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+</noinclude>
+}}
+
+[[Category:All country data templates|Estijan Huan]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with script errors]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Estijan Huan]]

@@ -1,0 +1,1 @@
+{{{name}}}<br/><span class="flagicon">[[File:{{{flag alias-{{{variant}}}|{{{flag alias}}}}}}|{{{size flag alias-{{{variant}}}|{{#if:{{{variant|}}}|23x15px|{{{size flag alias|23x15px}}}}}}}}|{{{border-{{{variant}}}|{{{border|border}}}}}} |alt=|link=]]&nbsp;</span>[[{{{alias}}}|{{{shortname alias|{{{alias}}}}}}]]<noinclude>{{Documentation}}</noinclude>

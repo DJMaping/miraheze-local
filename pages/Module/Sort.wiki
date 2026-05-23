@@ -1,0 +1,45 @@
+local getArgs = require('Module:Arguments').getArgs
+
+local p = {}
+
+local demo = function(s) return '&lt;' .. string.sub(s,2,-8) .. '&lt;/span>' end
+
+-- Protect against sortkey nesting.
+-- Example: {{sort|{{dts|2013|07|07}}|{{dts|1990|12|01}}}}
+local encode = function(s) return (string.find(s, "sortkey") or string.find(s, "data-sort-value"))
+		and "" or mw.text.encode(s) end
+
+function p._name(args)
+	local sortkey = encode( ((args[4] or args.sort or '') ~= '')
+		and (args[4] or args.sort)
+		or ((args[2] or args.last or '{{{last}}}')..', '..(args[1] or args.first or '{{{first}}}')))
+	local span = (args[1] or args.first or '{{{first}}}')..' '..(args[2] or args.last or '{{{last}}}')
+	if ((args.nolink or '') == '') and ((args[1] or args.first or '')..(args[2] or args.last or '')..(args.dab or '') ~= '-') then
+		if (args[3] or args.link or '') ~= '' then
+			span = (args[3] or args.link) .. '|' .. span 
+		elseif (args.dab or '') ~= '' then
+			span = span .. ' (' .. args.dab .. ')|' .. span
+		end
+		span = '[[' .. span .. ']]'
+	end
+	local cat = (mw.title.getCurrentTitle().namespace == 0 and not args.demo)
+		and '[[Category:Articles with hCards]]' or ''
+	span = '<span data-sort-value="' .. sortkey ..
+		'"><span class="vcard"><span class="fn">' .. span .. 
+		'</span></span></span>'
+	return (args.demo and demo(span) or span) .. cat
+end
+
+function p._sort(args)
+	local span = '<span data-sort-value="' ..
+		encode((args[1] or '{{{1}}}') .. ' !') .. '">' ..
+		(args[2] or ('[['..(args[1] or '{{{1}}}')..']]')) .. '</span>'
+	return args.demo and demo(span) or span
+end
+
+-- {{sortname}}
+p.name = function (frame) return p._name( getArgs(frame, {removeBlanks = false}) ) end
+-- {{sort}}
+p.sort = function (frame) return p._sort( getArgs(frame, {removeBlanks = false}) ) end
+
+return p

@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Uruguay
+| flag alias = Flag of Uruguay.svg
+| flag alias-1828 = Flag of Uruguay (1828-1830).svg
+| link alias-naval = National Navy of Uruguay
+| flag alias-army = Flag of Uruguayan Army.svg
+| link alias-army = National Army (Uruguay){{!}}National Army of Uruguay
+| link alias-air force = Uruguayan Air Force
+| flag alias-air force = Flag of the Uruguayan Air Force.svg
+| link alias-navy = National Navy of Uruguay
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1828
+| redir1 = URY
+| redir2 = URU
+</noinclude>
+}}

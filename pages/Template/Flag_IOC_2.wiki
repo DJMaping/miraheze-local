@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Country alias|flagXYZ|name={{{name|}}}|type=name}}</includeonly><noinclude>
+{{documentation|Template:FlagIOC2/doc}}
+</noinclude>

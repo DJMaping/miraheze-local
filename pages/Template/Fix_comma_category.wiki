@@ -1,0 +1,1 @@
+{{#invoke:String|replace|{{{1}}}|%[%[Category:(.-)from (.-) 2,(.-)%]%]|[[Category:%1 from %2 2%3]]|plain=false}}<noinclude>{{documentation}}</noinclude>

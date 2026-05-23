@@ -1,0 +1,167 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High-use|17355.142857142857142857142857142857142857142857142857142857142857142857}}
+{{Uses TemplateStyles|Template:Legend/styles.css}}
+Shows a legend row with a colored box.
+__TOC__
+
+==Usage==
+{{Missing information|section|''the function of the '''parameter <code>alt</code>'''''|date=December 2023}}
+ <nowiki>{{</nowiki>legend|''background-color''|''caption''|outline=''outline color''|border=''css border''<nowiki>}}</nowiki>
+
+*''background-color'' is passed to the [[Cascading Style Sheets|CSS]] background-color property of the color box.
+*The optional ''outline'' parameter is the color of the outline around the box. Not to be confused with the CSS outline property.
+*The optional ''border'' argument which overrides the ''outline'' argument and sets the CSS property (e.g., <code>1px solid #aaa</code>) of the border that will be drawn around the box.
+
+==Examples==
+===Use in text===
+{{demo|<nowiki>
+{{legend|black|Africa}}
+{{legend|green|Americas}}
+{{legend|blue|Oceania}}
+{{legend|#ffa|Europe|outline=silver}}
+{{legend|#ff2800|Asia|outline=#A2A9B1}}
+<!-- #A2A9B1 is the [[Help:Basic table markup|wikitables]] border color. -->
+</nowiki>}}
+
+===Use in captions===
+{{markup|<syntaxhighlight lang="wikitext">
+ [[File:Celts in Europe.png|upright=.9|thumb|right|The Celts in Europe, past and present:
+ {{legend|#1a8000|Present-day Celtic-speaking areas}}
+ {{legend|#27c600|Other parts of the six most commonly recognized "Celtic nations" and where a Celtic language is spoken but not the dominating language}}
+ {{legend|#97ffb6|Other parts of Europe once peopled by Celts; modern-day inhabitants of many of these areas often claim a Celtic heritage and/or culture}}
+ {{legend|#D2FFD2|Lusitanian area of Iberia, "Celticity" uncertain}}
+ {{legend|yellow|The core Hallstatt territory, expansion before 500 BC}}
+ ]]
+</syntaxhighlight>|
+[[File:Celts in Europe.png|upright=.9|thumb|right|The Celts in Europe, past and present:
+{{legend|#1a8000|Present-day Celtic-speaking areas}}
+{{legend|#27c600|Other parts of the six most commonly recognized "Celtic nations" and where a Celtic language is spoken but not the dominating language}}
+{{legend|#97ffb6|Other parts of Europe once peopled by Celts; modern-day inhabitants of many of these areas often claim a Celtic heritage and/or culture}}
+{{legend|#D2FFD2|Lusitanian area of Iberia, "Celticity" uncertain}}
+{{legend|yellow|The core Hallstatt territory, expansion before 500 BC}}]]
+}}
+
+=== Use with all parameters ===
+<syntaxhighlight lang="wikitext">
+{{legend
+| #ded <!--light green-->
+| The meadow is green.
+| outline   = #00e <!--blue >> will be not used because overridden by border-parameter-->
+| border    = 2px solid #e00 <!--red-->
+| textcolor = #00e <!--blue-->
+| size      = 200%
+| text      = green
+}}
+</syntaxhighlight>
+{{legend
+| #ded <!--light green-->
+| The meadow is green.
+| outline   = #00e <!--blue >> will be not used because overridden by border-parameter-->
+| border    = 2px solid #e00 <!--red-->
+| textcolor = #00e <!--blue-->
+| size      = 200%
+| text      = green
+}}
+
+==Full parameter list==
+<syntaxhighlight lang="wikitext">
+{{legend
+| [legend box's colo(u)r]
+| [text following legend box]
+| outline =   <!--colo(u)r of border around legend box-->
+| border =    <!--use to specify custom CSS styling for border (overrides 'outline')-->
+| textcolor = <!--colo(u)r of 'text'-->
+| size =      <!--'text' font-size-->
+| text =      <!--to place text inside the legend box-->
+}}
+</syntaxhighlight>
+
+==Limitations==
+Using certain special characters in {{para|text}} that have meaning in wikitext can cause unexpected results. To use {{asterisk}} in {{para|text}}, use {{para|text|{{tlf|asterisk}}}}. To use # in {{para|text}}, use {{para|text|{{tlf|number sign}}}}.
+
+==Determine hex colors for legend==
+
+One way to determine the exact color is via freeware [[IrfanView]]. Open image. Then:
+:Edit menu > Show Paint dialog > click on the eyedropper > click somewhere in the image > click on the color at the bottom of the Paint dialog > Write down the Red, Green, and Blue color numbers (RGB).
+
+Online sites that can identify the color of any pixel in an uploaded image are also available: 
+*[https://imagecolorpicker.com/ imagecolorpicker.com]
+
+Convert [[RGB colors]] to [[hex color]] or [[Web colors#HTML color names|color name]] (if there is one):
+*[https://www.w3schools.com/colors/colors_converter.asp Color Converter].
+
+==See also==
+*Variant blocks
+**{{tl|legend striped}}, two colors, for striped color areas
+**{{tl|legend inline}}, uses ''display:inline'' to avoid line breaks after each legend
+**{{tl|legend0}}, without the line-feed
+**{{tl|leftlegend}}, with text-align set to left
+**{{tl|color box}} and {{tl|RouteBox}}, with text placed inside the colored legend and article linking
+*{{tl|legend-line}}, legends for lines
+*{{tl|image key}}, allows legend templates being used in image captions to use multiple columns
+
+* [[Lists of colors]]
+* [[Web colors]]
+'''Templates that list colors'''
+* {{tl|Colornames}}
+* {{tl|X11 color chart}}
+* {{tl|Web Colors}}
+
+==TemplateData==
+{{Missing information|section|''the function of the '''parameter <code>alt</code>'''''|date=December 2023}}
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Color",
+			"description": "The color for the legend entry, in any CSS format",
+			"example": "\"#6D6E00\", \"#ffa\", \"yellow\"",
+			"type": "line",
+			"required": true
+		},
+		"2": {
+			"label": "Caption",
+			"description": "Label for the legend entry",
+			"example": "\"soda\" is most common",
+			"type": "string",
+			"suggested": true
+		},
+		"border": {
+			"label": "CSS border style",
+			"description": "CSS style for the legend entry's border",
+			"type": "string"
+		},
+		"outline": {
+			"label": "Entry outline",
+			"description": "CSS color for the outline of the legend entry",
+			"example": "silver",
+			"type": "line"
+		},
+		"text": {
+			"label": "Text in the entry",
+			"description": "Text to be displayed in the legend entry box, i.e. within the color specified",
+			"example": "Af",
+			"type": "line"
+		},
+		"textcolor": {
+			"label": "Text color",
+			"description": "CSS color of text inside the legend's colored box",
+			"type": "string"
+		},
+		"size": {
+            "label": "Size",
+			"description": "Font size of the legend entry, including colored box",
+			"type": "string"
+		}
+	},
+	"description": "Shows a legend row with a colored box and a caption."
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Legend templates]]
+
+}}</includeonly>

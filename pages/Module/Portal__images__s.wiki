@@ -1,0 +1,144 @@
+--[==[ This is the "S" list of portal image names. It contains a list of portal images for use with [[Module:Portal]]
+-- for portal names that start with the letter "S". For aliases to existing portal names, and for portal names that
+-- start with other letters, please use the appropriate page from the following list:
+ 
+-- [[Module:Portal/images/a]]       - for portal names beginning with "A".
+-- [[Module:Portal/images/b]]       - for portal names beginning with "B".
+-- [[Module:Portal/images/c]]       - for portal names beginning with "C".
+-- [[Module:Portal/images/d]]       - for portal names beginning with "D".
+-- [[Module:Portal/images/e]]       - for portal names beginning with "E".
+-- [[Module:Portal/images/f]]       - for portal names beginning with "F".
+-- [[Module:Portal/images/g]]       - for portal names beginning with "G".
+-- [[Module:Portal/images/h]]       - for portal names beginning with "H".
+-- [[Module:Portal/images/i]]       - for portal names beginning with "I".
+-- [[Module:Portal/images/j]]       - for portal names beginning with "J".
+-- [[Module:Portal/images/k]]       - for portal names beginning with "K".
+-- [[Module:Portal/images/l]]       - for portal names beginning with "L".
+-- [[Module:Portal/images/m]]       - for portal names beginning with "M".
+-- [[Module:Portal/images/n]]       - for portal names beginning with "N".
+-- [[Module:Portal/images/o]]       - for portal names beginning with "O".
+-- [[Module:Portal/images/p]]       - for portal names beginning with "P".
+-- [[Module:Portal/images/q]]       - for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]       - for portal names beginning with "R".
+-- [[Module:Portal/images/t]]       - for portal names beginning with "T".
+-- [[Module:Portal/images/u]]       - for portal names beginning with "U".
+-- [[Module:Portal/images/v]]       - for portal names beginning with "V".
+-- [[Module:Portal/images/w]]       - for portal names beginning with "W".
+-- [[Module:Portal/images/x]]       - for portal names beginning with "X".
+-- [[Module:Portal/images/y]]       - for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]       - for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]   - for portal names beginning with any other letters. This includes numbers,
+--                                    letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]] - for adding aliases for existing portal names. Use this page for variations
+--                                    in spelling and diacritics, etc., no matter what letter the portal begins with.
+ 
+-- When adding entries, please use alphabetical order. The format of the images table entries is as follows:
+--          ["portal name"] = "image.svg",
+-- The portal name should be the name of your portal, in lower case. For example, the portal name for 
+-- "Portal:United Kingdom" would be "united kingdom". The image name should be capitalised normally, and the "File:"
+-- namespace prefix should be omitted.
+]==]
+ 
+return {
+	["saba"] = "Flag of Saba.svg|border|alt=flag",
+	["saint barthelemy"] = "Flag of Saint Barthelemy (local).svg|border|alt=flag",
+	["saint helena, ascension and tristan da cunha"] = "Flag of Saint Helena.svg|border|link=|alt=flag",
+	["saint kitts and nevis"] = "Flag of Saint Kitts and Nevis.svg|border|link=|alt=flag",
+	["saint lucia"] = "Flag of Saint Lucia.svg|border|link=|alt=flag",
+	["saint martin"] = "Flag of Saint Martin.png|border|link=|alt=flag",
+	["saint pierre and miquelon"] = "Flag of Saint-Pierre and Miquelon.svg|border|link=|alt=flag",
+	["saint vincent and the grenadines"] = "Flag of Saint Vincent and the Grenadines.svg|border|link=|alt=flag",
+	["saints"] = "Gloriole blur.svg|link=|alt=",
+	["samoa"] = "Flag of Samoa.svg|border|link=|alt=flag",
+	["san antonio"] = "Coat of arms of San Antonio.svg|alt=arms",
+	["san diego"] = "San Diego,California,USA. - panoramio (139).jpg|alt=photo",
+	["san francisco bay area"] = "SF From Marin Highlands3.jpg|border|link=|alt=",
+	["san marino"] = "Flag of San Marino.svg|border|link=|alt=flag",
+	["são tomé and príncipe"] = "Flag of São Tomé and Príncipe.svg|border|link=|alt=flag",
+	["saskatchewan"] = "Flag of Saskatchewan.svg|border|link=|alt=flag",
+	["saudi arabia"] = "Flag of Saudi Arabia.svg|border|link=|alt=flag",
+	["saxony"] = "Flag of Saxony.svg|border|link=|alt=flag",
+	["schleswig-holstein"] = "Flag of Schleswig-Holstein (state).svg|border|link=|alt=flag",
+	["schools"] = "School.svg|link=|alt=icon",
+	["science"] = "Nuvola apps kalzium.svg|alt=icon",
+	["science and academia"] = "Rachel Carson w (cropped).jpg|link=|alt=photo",
+	["science fiction"] = "Sf-userbox.png|alt=icon",
+	["scotland"] = "Flag of Scotland.svg|border|link=|alt=flag",
+	["scottish islands"] = "Scottish Isles.gif|alt=map",
+	["scouting"] = "WikiProject Scouting fleur-de-lis dark.svg|alt=icon",
+	["seamounts"] = "Seamount.svg|link=|alt=",
+	["seattle"] = "SpaceNeedleTopClose.jpg|alt=icon",
+	["senegal"] = "Flag of Senegal.svg|border|link=|alt=flag",
+    ["seoul"] = "Flag_of_Seoul_cropped.gif|link=|alt=flag",
+	["september 11 attacks"] = "Y24-Wtc-september-5.jpg|alt=icon",
+	["serbia"] = "Flag of Serbia.svg|border|link=|alt=flag",
+	["seton hall university"] = "Shu logo.png|link=|alt=logo",
+	["sex work"] = "Umbrella-159361.svg|link=|alt=",
+	["seychelles"] = "Flag of Seychelles.svg|border|link=|alt=flag",
+	["sharjah"] = "Flag of Sharjah.svg|border|link=|alt=flag",
+	["sharks"] = "Greyreefsharksmall2.jpg|alt=icon",
+	["shia islam"] = "Ghadir logo.png|alt=icon",
+	["siberia"] = "Kuznetsk Alatau 3.jpg|border|alt=photo",
+	["sierra leone"] = "Flag of Sierra Leone.svg|border|link=|alt=flag",
+	["sikhism"] = "Khanda emblem.svg|link=|alt=",
+	["sikkim"] = "Seal of Sikkim color.png|link=|alt=seal",
+	["sindh"] = "Flag of Sindh.svg|border|link=|alt=flag",
+	["singapore"] = "Flag of Singapore.svg|border|link=|alt=flag",
+	["sint eustatius"] = "Flag of Sint Eustatius.svg|border|alt=flag",
+	["sint maarten"] = "Flag of Sint Maarten.svg|border|link=|alt=flag",
+	["slovakia"] = "Flag of Slovakia.svg|border|link=|alt=flag",
+	["slovenia"] = "Flag of Slovenia.svg|border|link=|alt=flag",
+	["snakes"] = "Snake icon.svg|link=|alt=|class=skin-invert-image",
+	["snooker"] = "Snooker balls triangled.png|alt=icon",
+	["social movements"] = "Peace sign.svg|link=|alt=|class=skin-invert-image",
+	["social science"] = "Social sciences.svg|alt=icon|class=skin-invert-image",
+	["socialism"] = "Red flag II.svg|alt=icon",
+	["society"] = "Social sciences.svg|alt=icon|class=skin-invert-image",
+	["sociology"] = "People icon.svg|link=Sociology|alt=icon",
+	["software"] = "Crystal Clear device cdrom unmount.png|alt=icon",
+	["solar system"] = "Solar system.jpg|link=|alt=",
+	["solomon islands"] = "Flag of Solomon Islands.svg|border|link=|alt=flag",
+	["somalia"] = "Flag of Somalia.svg|border|link=|alt=flag",
+	["somaliland"] = "Flag of Somaliland.svg|border|link=|alt=flag",
+	["somerset"] = "Somerset shield.png|alt=icon",
+	["south africa"] = "Flag of South Africa.svg|border|link=|alt=flag",
+	["south america"] = "South America (orthographic projection).svg|alt=map",
+	["south asia"] = "India 78.40398E 20.74980N.jpg|link=|alt=",
+	["south australia"] = "Flag of South Australia.svg|border|link=|alt=flag",
+	["south carolina"] = "Flag of South Carolina.svg|border|link=|alt=flag",
+	["south dakota"] = "Flag of South Dakota.svg|border|link=|alt=flag",
+	["south east england"] = "EnglandSouthEast.png|alt=icon",
+	["south georgia and the south sandwich islands"] = "Flag of South Georgia and the South Sandwich Islands.svg|border|link=|alt=flag",
+	["south korea"] = "Flag of South Korea.svg|border|link=|alt=flag",
+	["south sudan"] = "Flag of South Sudan.svg|border|link=|alt=flag",
+	["southeast asia"] = "Location Southeast Asia.svg|link=|alt=",
+	["southern california"] = "USA California Southern location map.svg|alt=map",
+	["soviet union"] = "Flag of the Soviet Union.svg|border|link=|alt=flag",
+	["space"] = "Earth-moon.jpg|link=|alt=",
+	["spaceflight"] = "RocketSunIcon.svg|link=|alt=",
+	["spain"] = "Flag of Spain.svg|border|link=|alt=flag",
+	["speculative fiction"] = "Dragon-149393.svg|alt=icon|class=skin-invert-image",
+	["speculative fiction/fantasy"] = "Masked man.svg|link=|alt=icon",
+	["speculative fiction/horror"] = "Vampire Smiley.png|alt=icon",
+	["speculative fiction/science fiction"] = "Sf-userbox.png|alt=icon",
+	["sports"] = "Sports icon.png|link=|alt=",
+	["sports and games"] = "Sports and games.png|alt=icon",
+	["sport of athletics"] = "Roman bronze copy of Myron’s Discobolos, 2nd century CE (Glyptothek Munich).jpg|alt=photo",
+	["sri lanka"] = "Flag of Sri Lanka.svg|border|link=|alt=flag",
+	["staffordshire"] = "Staffordshire Flag.svg|border|link=|alt=flag",
+	["stamford"] = "Stamford town crest.png|alt=crest",
+	["stanford university"] = "Stanford logo.png|link=|alt=logo",
+	["stars"] = "He1523a.jpg|alt=icon",
+	["statistics"] = "Fisher iris versicolor sepalwidth.svg|alt=icon",
+	["sudan"] = "Flag of Sudan.svg|border|link=|alt=flag",
+	["superfunds"] = "Superfund sites.svg|alt=map",
+	["supermarkets"] = "ShoppingCart.svg|alt=icon",
+	["suriname"] = "Flag of Suriname.svg|border|link=|alt=flag",
+	["surrey"] = "EnglandSurrey.png|alt=icon",
+	["sweden"] = "Flag of Sweden.svg|border|link=|alt=flag",
+	["switzerland"] = "Flag of Switzerland.svg|border|link=|alt=flag",
+	["sydney"] = "Sydney COA.gif|alt=icon",
+	["syria"] = "Flag of Syria.svg|border|link=|alt=flag",
+	["systems engineering initiative"] = "Systems Engineering Process II.gif|link=|alt=diagram",
+	["systems science"] = "Complex-adaptive-system.jpg|link=|alt=diagram"
+}

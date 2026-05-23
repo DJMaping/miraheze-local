@@ -1,0 +1,1 @@
+<span class="extiw">[[:wikipedia:<includeonly>{{#if:{{{lang|}}}|{{{lang|}}}:|}}</includeonly>{{{1}}}|{{{2|{{{1}}}}}}]]</span><noinclude>{{doc}}</noinclude>

@@ -1,0 +1,4 @@
+{{main other|{{FormattingError|Template:Strongbad is only for use in template documentation, guidelines, and other Wikipedia-internal purposes. Do not use it in actual articles.}}|{{strong|1={{{1}}}|style=color: var(--color-error,#bf3c2c); {{{style|}}} |role={{{role|}}} |class={{{class|}}} |id={{{id|}}} |title={{{title|}}} }}}}<noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>

@@ -1,0 +1,3 @@
+[[:{{{2}}}|<span class="tmpl-colored-link {{{{{|safesubst:}}}#if:{{{noinvert|}}}|mw-no-invert|}}" style="color: {{{1}}}; text-decoration: inherit;">{{{3|{{{2}}}}}}</span>]]<noinclude>
+{{Documentation}}<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>

@@ -1,0 +1,8 @@
+{{flatlist|style=text-align:center|1=
+*[[List of international rankings]]
+*[[Lists by country]]
+}}<noinclude>
+{{Footer documentation}}
+[[Category:Country list templates]]
+[[Category:Footer templates]]
+</noinclude>

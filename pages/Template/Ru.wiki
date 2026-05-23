@@ -1,0 +1,11 @@
+<includeonly>{{#if: {{{noflag|}}} | {{#switch: {{{1|}}}
+ | IRE | EIR | Ireland = [[Ireland national rugby union team|{{{name|Ireland}}}]]
+ | #default = [[{{getalias|{{{1|}}}}} national rugby union team|{{{name|{{getalias|{{{1|}}}}}}}}]]
+}}| {{Country data {{{1}}}
+| flag link/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = national rugby union team
+| altvar = rugby union}}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

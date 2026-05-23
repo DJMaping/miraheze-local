@@ -1,0 +1,55 @@
+{{#ifeq:{{FULLROOTPAGENAME}}|Template:Editnotices
+ |{{Editnotice/notice
+  |expiry={{{expiry|¬}}}
+  |redirect={{{redirect|}}}
+ }}
+}}{{#ifexpr:{{#ifeq:{{FULLROOTPAGENAME}}|Template:Editnotices
+  |1
+  |0
+ }}+{{#switch:{{{expiry|¬}}}
+  |indefinite = 1
+  |
+  |¬          = 1 <!-- Expiry not specified -->
+  |#default   = {{#iferror:{{#time:U|{{{expiry}}}}}
+   |0 <!-- Invalid expiry time -->
+   |{{#ifexpr:{{#time:U|{{{expiry}}}}}-{{#time:U|{{CURRENTTIMESTAMP}}}}>0
+    |1 <!-- Notice current -->
+    |0 <!-- Notice expired -->
+   }}
+  }}
+ }}
+ |{{fmbox
+  |plainlinks= no<!-- override with `class` if needed -->
+  |type      = {{{type|editnotice}}}
+  |id        = {{{id|}}}
+  |templatestyles = {{{templatestyles|}}}
+  |textstyle = {{{textstyle|}}}
+  |style     = {{{style|}}}
+  |class     = {{{class|}}}
+  |image     = {{#if:{{{image|}}}
+   |{{#invoke:InfoboxImage|InfoboxImage|image={{{image}}}|size={{{imagesize|}}}|sizedefault=40x40px}}
+   |none
+  }}
+  |imageright= {{#if:{{{imageright|}}}
+   |{{#invoke:InfoboxImage|InfoboxImage|image={{{imageright}}}|size={{{imagerightsize|}}}|sizedefault=40x40px}}
+  }}
+  |text      = {{#if:{{{header|}}}
+   |<div class="editnotice-header" style="font-weight: bold; {{{headerstyle|}}}">{{{header}}}</div>
+  }}
+{{{text|{{{1}}}}}}
+ }}
+}}{{#ifeq:{{FULLROOTPAGENAME}}|Template:Editnotices|{{#switch:{{{expiry|¬}}}
+  |indefinite
+  |
+  |¬          = <!-- Expiry not specified -->
+  |#default   = {{#iferror:{{#time:U|{{{expiry}}}}}
+   | <!-- Invalid expiry time -->
+   |{{#ifexpr:{{#time:U|{{{expiry}}}}}-{{#time:U|{{CURRENTTIMESTAMP}}}}>0
+    | <!-- Notice current -->
+    |[[Category:Expired editnotices]] <!-- Notice expired -->
+   }}
+  }}
+ }}
+}}<noinclude>
+{{documentation}}
+</noinclude>

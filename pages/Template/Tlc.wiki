@@ -1,0 +1,7 @@
+#REDIRECT [[Template:Template link code]]
+
+{{Redirect category shell|
+{{R from template shortcut}}
+{{R from high-use template}}
+{{R from move}}
+}}

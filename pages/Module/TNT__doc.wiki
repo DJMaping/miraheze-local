@@ -1,0 +1,61 @@
+{{High-use}}
+This module allows templates and modules to be easily translated as part of the [[mw:Multilingual Templates and Modules|multilingual templates and modules project]]. Instead of storing English text in a module or a template, TNT module allows modules to be designed language-neutral, and store multilingual text in the [[mw:Help:Tabular_Data|tabular data pages]] on Commons. This way your module or template will use those translated strings (messages), or if the message has not yet been translated, will fallback to English.  When someone updates the translation table, your page will automatically update (might take some time, or you can purge it), but no change in the template or module is needed on any of the wikis.  This process is very similar to MediaWiki's [[mw:localisation|localisation]], and supports all standard localization conventions such as <nowiki>{{PLURAL|...}}</nowiki> and [[mw:Localisation#Message_parameters|other parameters]].
+
+This module can be used from templates using #invoke, and from other modules.  For a simple example, see [[commons:Data:I18n/Template:Graphs.tab|Data:I18n/Template:Graphs.tab]] - a table with two messages, each message having a single parameter. By convention, all translation tables should have <nowiki>'''</nowiki>Data:I18n/...<nowiki>'''</nowiki> prefix to separate them from other types of data.
+
+=== Using from Templates ===
+{| class="wikitable" style="width: 85%;"
+|+
+! style="width: 60%" | Description
+! style="width: 40%" | Wiki Markup
+|-
+|In a template, this command translates '''source_table''' message using Commons' [[commons:Data:I18n/Template:Graphs.tab|Data:I18n/Template:Graphs.tab]] translation table.
+|<pre>
+{{#invoke:TNT | msg
+| I18n/Template:Graphs.tab
+| source_table
+}}
+</pre>
+|-
+|If your message contains parameters, you can specify them after the message ID.
+|<pre>
+{{#invoke:TNT | msg
+| I18n/Template:My Template.tab
+| message-with-two-params
+| param1
+| param2
+}}
+</pre>
+|}
+
+=== Translating Template Parameters ===
+Template parameters are usually stored as a [[mw:wikipedia:JSON|JSON]] '''templatedata''' block inside the template's /doc subpage. This makes it convenient to translate, but when a new parameter is added to a global template, all /doc pages need to be updated in every language. TNT helps with this by automatically generating the templatedata block from a table stored on Commons.  Placing this line into every /doc sub-page will use [[Commons:Data:Templatedata/Graph:Lines.tab|Data:Templatedata/Graph:Lines.tab]] table to generate all the needed templatedata information in every language.  Even if the local community has not translated the full template documentation, they will be able to see all template parameters, centrally updated.<pre>
+{{#invoke:TNT | doc | Graph:Lines }}
+</pre>
+
+=== Using from Modules ===
+Just like templates, modules should also use this module for localization:
+<syntaxhighlight lang="lua">
+local TNT = require('Module:TNT')
+
+-- format <messageId> string with two parameters using a translation table.
+local text = TNT.format('I18n/My_module_messages', 'messageId', 'param1', 'param2', ...)
+
+-- Same, but translate to a specific language.
+local text = TNT.formatInLanguage('fr', 'I18n/My_module_messages', 'messageId', 'param1', 'param2', ...)
+</syntaxhighlight>
+
+=== Using TNTTools ===
+[[Module:TNTTools]] has:
+* Question functions: with boolean or numerical indexed return. To be called from other modules or from templates. With:
+** Case sensitive option.
+** Possibility of more than one translated text value (where each value is separated by "|").
+* To put aside write, adding "I18n/" as a prefix and ".tab" extension as a suffix for the table names.
+* Several examples.
+
+== See also==
+* [[JSON]], a language-independent data format.
+
+<includeonly>
+[[Category:Modules using tabular data]]
+</includeonly>

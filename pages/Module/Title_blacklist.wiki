@@ -1,0 +1,18 @@
+--helper module for title blacklist
+
+local p = {}
+p.main = function(frame)
+	local args = frame.args
+	local action = args['action']
+	local pagename = args['pagename']
+	local blacklistentry = mw.ext.TitleBlacklist.test(action, pagename)
+	if blacklistentry then
+		if blacklistentry.params.autoconfirmed then
+			return args['autoconfirmed'] or "autoconfirmed"
+		else
+			return args['templateeditor'] or "templateeditor"
+		end
+	else return '' end
+end
+
+return p

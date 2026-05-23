@@ -1,0 +1,12 @@
+{{Sister project
+| position = {{{position|}}}
+| project  = data
+| text     = This {{module other|module|template}} uses {{#if:{{{section|}}} | one or more [[Wikidata]] properties; see {{Section link||{{{section}}}}} for details. | the [[Wikidata]] propert{{#if:{{{2|}}}|ies|y}}:
+{{#invoke:Uses Wikidata|usesProperty}}
+}}}}<includeonly>{{#switch:{{SUBPAGENAME}}
+|sandbox |testcases |doc= <!--no category-->
+|#default={{module other |[[Category:Modules using data from Wikidata]] |{{template other |[[Category:Templates using data from Wikidata]]}} }}
+}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage -->
+</noinclude>

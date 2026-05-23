@@ -1,0 +1,11 @@
+<includeonly><templatestyles src="Markup/styles.css" />
+{| class="markup" style="{{#if:{{{width|}}}|width:{{{width}}};}} {{#if:{{{margin-left|{{{margin|}}}}}}|margin-left:{{{margin-left|{{{margin}}}}}};}} {{{style|}}}"
+{{#if:{{{title|}}} |{{!}}+ {{{title}}}}}
+{{#if:{{{noheaders|}}}{{{notitle|}}} |
+ |!   scope="col" style="{{{colheaderstyle|}}}{{{col1headerstyle|}}}"{{!}} {{{col1|{{{t1|Markup}}}}}} {{!!}}<!--
+   -->scope="col" style="{{{colheaderstyle|}}}{{{col2headerstyle|}}}"{{!}} {{{col2|{{{t2|Renders as}}}}}}
+}}<!--
+-->{{For loop||call=format item|pc1n=template|pc1v=Markup/row|pc2n=col1style|pc2v={{{col1style|}}}|pc3n=col2style|pc3v={{{col2style|}}}|pc4n=c1style|pc4v={{{codestyle|{{{markupstyle|}}}}}}|pc5n=c2style|pc5v={{{outputstyle|}}}|pc6n=tag|pc6v={{{tag|}}}|pc7n=padding|pc7v={{{padding|}}}|pv=item|{{item|c1={{{1|}}}|c2={{{2|}}}}}|{{item|c1={{{3|}}}|c2={{{4|}}}}}|{{item|c1={{{5|}}}|c2={{{6|}}}}}|{{item|c1={{{7|}}}|c2={{{8|}}}}}|{{item|c1={{{9|}}}|c2={{{10|}}}}}|{{item|c1={{{11|}}}|c2={{{12|}}}}}|{{item|c1={{{13|}}}|c2={{{14|}}}}}|{{item|c1={{{15|}}}|c2={{{16|}}}}}|{{item|c1={{{17|}}}|c2={{{18|}}}}}|{{item|c1={{{19|}}}|c2={{{20|}}}}}|{{item|c1={{{21|}}}|c2={{{22|}}}}}|{{item|c1={{{23|}}}|c2={{{24|}}}}}|{{item|c1={{{25|}}}|c2={{{26|}}}}}|{{item|c1={{{27|}}}|c2={{{28|}}}}}|{{item|c1={{{29|}}}|c2={{{30|}}}}}|{{item|c1={{{31|}}}|c2={{{32|}}}}}|{{item|c1={{{33|}}}|c2={{{34|}}}}}|{{item|c1={{{35|}}}|c2={{{36|}}}}}|{{item|c1={{{37|}}}|c2={{{38|}}}}}|{{item|c1={{{39|}}}|c2={{{40|}}}}}}}
+|}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

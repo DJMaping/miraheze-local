@@ -1,0 +1,12 @@
+{{Campaignbox
+| name = Campaignbox Punic Wars
+| title = [[Punic Wars]]
+| listclass = hlist 
+| battles = 
+* [[First Punic War|First]]
+* [[Mercenary War|Mercenary]]
+* [[Second Punic War|Second]]
+* [[Third Punic War|Third]]
+}}<noinclude>
+[[Category:Punic Wars navigational boxes|Punic wars]]
+</noinclude>

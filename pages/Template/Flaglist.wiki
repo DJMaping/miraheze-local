@@ -1,0 +1,4 @@
+<includeonly>{{#ifexist:Template:country data {{{1|}}}
+|{{country data {{{1|}}}|flaglist/core{{#ifeq:{{{table|}}}|yes|table}}|name={{#ifeq:{{{short|}}}|yes|<!--empty to signal usage of shortname alias-->|{{#if:{{{name|}}}|{{{name}}}|{{{1|}}}}}<!--if name is given but left empty then use 1-->}}|variant={{{variant|{{{2|}}}}}}|size={{{size|}}}}}<!--
+-->|{{flaglist/core{{#ifeq:{{{table|}}}|yes|table}}|alias={{{1|}}}|name={{{name|{{{1|}}}}}}|size={{{size|}}}|flag alias=Flag placeholder.svg|border=}}}}</includeonly><noinclude>
+{{documentation}}</noinclude>

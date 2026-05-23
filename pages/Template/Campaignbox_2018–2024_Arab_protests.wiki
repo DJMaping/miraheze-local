@@ -1,0 +1,27 @@
+{{civil conflict sidebar
+| name = Campaignbox Second Arab Spring
+| state = {{{state|{{{1|}}}}}}
+| title = [[Second Arab Spring]]
+| listclass = hlist
+| border =
+| bodyclass =
+| belowclass = hlist
+| notes = '''See also'''
+* {{Icon|Category}} '''[[:Category:Second Arab Spring|Category]]'''
+| events =
+* [[2018 Iraqi protests]]
+* [[2018 Tunisian protests]]
+* [[2018 Jordanian protests]]
+* Sudan 
+** [[Sudanese Revolution]]
+** [[2019–2022 Sudanese protests]]
+* [[2019–2021 Algerian protests]]
+* [[2019 Gaza economic protests]]
+* [[2019 Egyptian protests|2019]]–[[2020 Egyptian protests]]
+* [[2019–2021 Lebanese protests]]
+* [[2019–2021 Iraqi protests]]
+* [[2021 Tunisian protests]]
+}}<noinclude>
+[[Category:Arab world templates]]
+[[Category:Middle East campaignbox templates]]
+</noinclude>

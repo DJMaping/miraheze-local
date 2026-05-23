@@ -1,0 +1,56 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Chile
+| flag alias = Flag of Chile.svg
+| flag alias-mapuche = Ancient mapuche flag.svg
+| flag alias-lautaro = Lautaro flag.svg
+| flag alias-spain = Flag of Cross of Burgundy.svg
+| flag alias-spain1 = Flag of Spain (1785–1873, 1875–1931).svg
+| flag alias-1812 = Flag of Chile (1812-1814).svg
+| flag alias-1812a = Flag of Chile (1812-1814, alternative).svg
+| flag alias-andes = Bandera de la Provincia de Mendoza.svg
+| flag alias-1817 = Flag of Chile of the transition (1817).svg
+| flag alias-1817_proposal = Flag of Chile (1817-1818, 2nd).svg
+| flag alias-1818 = Flag of Chile (1818).svg
+| flag alias-1818a = Flag of Chile (1818-1854).svg
+| flag alias-1819 = State Ensign of Chile (1819-1834).svg
+| flag alias-expedition = Flag of the Liberating Expedition of Peru.svg
+| flag alias-1826 = Flag of Chile (Civil Use, 1826-1854).svg
+| flag alias-ap = Flag of the Kingdom of Araucanía and Patagonia.svg
+| flag alias-easter1 = Easter Island flag 1876 to 1888.svg
+| flag alias-easter = Flag of Rapa Nui, Chile.svg
+| flag alias-president = Bandera del presidente de Chile.svg
+| flag alias-naval = Naval Jack of Chile.svg
+| link alias-naval = Chilean Navy
+| flag alias-air force = Flag of the Chilean Air Force.svg
+| link alias-air force =Chilean Air Force
+| flag alias-army = Flag of the Chilean Army.svg
+| link alias-army = Chilean Army
+| flag alias-navy = Flag of Chile.svg
+| link alias-navy = Chilean Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = mapuche
+| var2 = lautaro
+| var3 = spain
+| var4 = spain1
+| var5 = 1812
+| var6 = 1812a
+| var7 = andes
+| var8 = 1817
+| var9 = 1817_proposal
+| var10 = 1818
+| var11 = 1818a
+| var12 = 1819
+| var13 = expedition
+| var14 = 1826
+| var15 = ap
+| var16 = easter1
+| var17 = easter
+| var18 = president
+| redir1 = CHL
+| redir2 = CHI
+</noinclude>
+}}

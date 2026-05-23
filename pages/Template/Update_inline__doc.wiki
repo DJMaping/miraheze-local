@@ -1,0 +1,69 @@
+{{Documentation subpage}}
+{{High-use}}
+{{tsc|nu}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+
+This inline tag is used to indicate that a small portion of an article (usually a sentence or paragraph) is in need of an update.
+
+== Usage ==
+{{markup
+|<nowiki>{{Update inline|date</nowiki>{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}<nowiki>}}</nowiki>
+ |{{Update inline|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+|<nowiki>{{Update inline|date</nowiki>{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}<nowiki>|?=yes}}</nowiki>
+ |{{Update inline|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|?=yes}}
+|<nowiki>{{Update inline|date</nowiki>{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}<nowiki>|reason=But they never mentioned it again...}}</nowiki>
+ |{{Update inline|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|reason=But they never mentioned it again...}}
+|<nowiki>{{Update inline|date</nowiki>{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}<nowiki>|?=yes|reason=Does this still hold after so many years?}}</nowiki>
+ |{{Update inline|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|?=yes|reason=Does this still hold after so many years?}}
+}}
+
+This template will add [[WP:mainspace|mainspace]] articles to [[:Category:Wikipedia articles in need of updating]] or [[:Category:Articles containing potentially dated statements]] if the <code>?</code> param is specified. Categories are not populated for pages in other [[WP:namespace|namespace]]s.
+
+==TemplateData==
+{{TemplateDataHeader}}
+<TemplateData>
+{
+	"description": "This template should only be added to indicate a sentence that needs to be updated based on recent events.",
+	"params": {
+		"date": {
+			"label": "Date",
+			"description": "The date this template was added to the page. (Input: Monthname Year)",
+			"type": "string",
+			"autovalue": "{{subst:CURRENTMONTHNAME}} {{subst:CURRENTYEAR}}",
+			"suggested": true
+		},
+		"reason": {
+			"label": "Reason",
+			"description": "Brief explanation of the reason why this template is placed, e.g. the event that renders accuracy of the claim questionable.",
+			"default": "The date of the event predicted near this tag has passed.",
+			"type": "string",
+			"required": false,
+			"suggested": true
+		},
+		"?": {
+			"label": "?",
+			"description": "Adds '?' to the end of template text, changes caption to denote uncertainty, and applies \"potentially dated\" maintenance categories. (Input: yes)",
+			"type": "string",
+			"required": false
+		}
+	}
+}
+</TemplateData>
+
+== Aliases ==
+The following templates are redirects and can be used in place of {{tl|update inline}}:
+{{cot|Redirects to this template}}
+{{list redirects|{{FULLPAGENAME}}}}
+{{cob}}
+
+== See also ==
+* {{Tl|Update span}}
+* {{Tl|Update}}
+* {{Tl|Update after}}
+{{Inline tags}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go here; interwikis go in Wikidata. -->
+[[Category:Inline cleanup templates]]
+[[Category:Temporal templates]]
+}}</includeonly>

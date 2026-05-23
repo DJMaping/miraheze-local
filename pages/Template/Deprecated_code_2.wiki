@@ -1,0 +1,5 @@
+<del class="deprecated-content {{{class|}}}" style="color:{{#if:{{{red|}}}|#B26F5A|#A9A9A9}}; text-decoration:line-through; {{#if:{{{style|}}}|{{{style}}}|}}" {{#if:{{{id|}}}|id="{{{id}}}|}}" {{#if:{{{title|{{{2|}}}}}}|title="{{{title|{{{2}}}}}}"|}}><span style="color:{{#if:{{{red|}}}|#8B0000|#696969}};">{{{1}}}</span></del><noinclude>
+
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

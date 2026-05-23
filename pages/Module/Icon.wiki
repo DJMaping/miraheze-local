@@ -1,0 +1,72 @@
+-- This module implements [[Template:Icon]].
+
+require("strict")
+local yesNo = require("Module:Yesno")
+local getArgs = require("Module:Arguments").getArgs
+
+local p = {}
+
+-- Determine whether we're being called from a sandbox
+local sandbox = mw.getCurrentFrame():getTitle():find('sandbox', 1, true) and '/sandbox' or ''
+
+-- Implements [[Template:Icon]]
+-- Returns the icon image corresponding to a string (like 'B')
+function p._main(args, data)
+	local data_module = 'Module:Icon/data'..sandbox
+	data = data or mw.loadData(data_module)
+	local code = args.class or args[1]
+	local iconData
+	if code then
+		code = code:match('^%s*(.-)%s*$'):lower() -- trim whitespace and put in lower case
+		iconData = data[code]
+	end
+	if not iconData then
+		iconData = data._DEFAULT
+	end
+	return string.format(
+		'[[File:%s%s%s|%s|class=noviewer|alt=%s]]',
+		iconData.image,
+		iconData.tooltip and '|' .. iconData.tooltip or '',
+		iconData.link == false and '|link=' or '',
+		args.size or '16x16px',
+		iconData.alt or ''
+	)
+end
+
+-- Implements [[Template:Icon link]], a superset of [[Template:Icon]]
+-- Returns an icon, plus a suitably formatted wikilink
+function p._link(args, data)
+	args.size = args.size or args.iconsize
+	local icon = p._main(args, data)
+	-- If no link given in args[2], default back to [[Template:Icon]]
+	if not args[2] then
+		return icon
+	end
+	-- Strip wiki markup out of link
+	local getPlain = require("Module:Text").Text().getPlain
+	local link = getPlain(args[2])
+	local display = args[3] or args[2]
+	-- italicize display string, if requested
+	if yesNo(args.i) or yesNo(args.italic) or yesNo(args.italics) then
+		display = '<i>'..display..'</i>'
+	end
+	-- if display is link, just use standard wlink
+	if link == display then
+		return '<span class="nowrap">'..icon..' </span>[['..link..']]'
+	end
+	return '<span class="nowrap">'..icon..' </span>[['..link..'|'..display..']]'
+end
+
+function p.main(frame)
+	local args = getArgs(frame,{parentFirst=true})
+	return p._main(args)
+end
+
+function p.link(frame)
+	local args = getArgs(frame,{parentFirst=true})
+	return p._link(args)
+end
+
+p[''] = function (frame) return p._main(frame.args) end
+
+return p

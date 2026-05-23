@@ -1,0 +1,20 @@
+{{Sidebar
+| class = lua-sidebar
+| templatestyles = Template:Lua sidebar/styles.css
+| title = Related pages
+| content1 = {{plainlist}}
+* [[Template:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}|Template]] {{#if:{{#invoke:redirect|isRedirect|Template talk:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}}}||([[Template talk:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}|talk]])}}
+* [[Template:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}/sandbox|Template sandbox]]
+* [[Template:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}/testcases|Template testcases]]
+* [[Template:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}/doc|Template doc]]
+* [[Special:PrefixIndex/Template:{{{template|{{{title|{{BASEPAGENAME}}}}}}}}/|Template subpages]]
+* [[Module:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}|Module]] {{#if:{{#invoke:redirect|isRedirect|Module talk:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}}}||([[Module talk:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}|talk]])}}
+* [[Module:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}/sandbox|Module sandbox]]
+* [[Module talk:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}/testcases|Module testcases]]
+* [[Module:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}/doc|Module doc]]
+* [[Special:PrefixIndex/Module:{{{module|{{{title|{{BASEPAGENAME}}}}}}}}/|Module subpages]]
+{{endplainlist}}
+| content2 = {{{1|}}}
+}}[[Category:Lua-based templates]]<noinclude>
+{{Documentation}}
+</noinclude>

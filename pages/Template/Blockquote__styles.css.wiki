@@ -1,0 +1,20 @@
+/* {{pp-template}} */
+.templatequote {
+	overflow: hidden;
+	margin: 1em 0;
+	padding: 0 32px;
+}
+
+.templatequotecite {
+    line-height: 1.5em;
+    /* @noflip */
+    text-align: left;
+    margin-top: 0;
+}
+
+@media (min-width: 500px) {
+	.templatequotecite {
+	    /* @noflip */
+	    padding-left: 1.6em;
+	}
+}

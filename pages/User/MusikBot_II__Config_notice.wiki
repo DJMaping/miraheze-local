@@ -1,0 +1,5 @@
+{{Mbox
+| image = [[File:Crystal Clear action run.svg|50px|alt=Bot logo]]
+| text = If this template is '''moved''', '''redirected''' or '''deleted''', please ask an administrator to update [[User:MusikBot II/{{{task|FixPP}}}/config]] accordingly. Thank you.{{#if:{{{1|}}}|<br>
+{{{1}}}}}}}<noinclude>
+{{Documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>

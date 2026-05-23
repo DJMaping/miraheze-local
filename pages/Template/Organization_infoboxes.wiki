@@ -1,0 +1,115 @@
+{{Navbox
+| name = Organization infoboxes
+| state = {{{state<includeonly>|expanded</includeonly>}}}
+| bodyclass = hlist
+| title = [[Wikipedia:Template index|Wikipedia templates]]: [[organization]] [[Template:Infobox|infoboxes]]
+
+| above = [[Wikipedia:Manual of Style/Infoboxes]]
+
+| group1 = General
+| list1 =
+* {{Tl|Infobox organization}}
+* {{Tl|Infobox official post}}
+* {{tl|Infobox criminal organization}}
+* {{tl|Infobox fictional organisation}}
+
+| group2 = {{longitem|Government<br/>and politics}}
+| list2 =
+* {{Tl|Infobox government}}
+* {{Tl|Infobox government agency}}
+* {{Tl|Infobox legislature}}
+* {{Tl|Infobox political party}}
+* {{Tl|Infobox court}}
+* {{Tl|Infobox detention facility}}
+* {{tl|Infobox fire department}}
+* {{Tl|Infobox law enforcement agency}}
+* {{Tl|Infobox space agency}}
+
+| group3 = Military
+| list3 =
+* {{Tl|Infobox national military}}
+* {{Tl|Infobox military unit}}
+* {{tl|Infobox military rank}}
+* {{Tl|Infobox military gear}}
+* {{Tl|Infobox militant organization}}
+
+| group4 = Religion
+| list4 =
+* {{Tl|Infobox religious group}}
+* {{Tl|Infobox religion}}
+* {{Tl|Infobox diocese}}
+* {{Tl|Infobox church}}
+* {{Tl|Infobox monastery}}
+
+| group5 = People
+| list5 =
+* {{Tl|Infobox ethnic group}}
+* {{Tl|Infobox caste}}
+* {{Tl|Infobox clan}}
+* {{Tl|Infobox family}}
+* {{Tl|Infobox iwi}}
+* {{Tl|Infobox hereditary title}}
+* {{Tl|Infobox monarchy}}
+* {{Tl|Infobox officeholder}}
+* {{Tl|Infobox tribe}}
+
+| group6 = {{longitem|Typically<br/>non-profit}}
+| list6 =
+* {{tl|Infobox hospital}}
+* {{Tl|Infobox institute}}
+* {{Tl|Infobox laboratory}}{{sup|1}}
+* {{tl|Infobox museum}}
+* {{Tl|Infobox observatory}}
+* {{Tl|Infobox school}}
+* {{tl|Infobox school district}}
+* {{Tl|Infobox university}}{{sup|2}}
+
+| group7 = Publications
+| list7 =
+* {{Tl|Infobox journal}}
+* {{Tl|Infobox magazine}}
+* {{Tl|Infobox newspaper}}
+* {{Tl|Infobox publisher}}
+
+| group8 = Business
+| list8 =
+* {{Tl|Infobox company}}
+* {{tl|Infobox brewery}}
+* {{Tl|Infobox law firm}}
+* {{tl|Infobox restaurant}}
+* {{tl|Infobox website}} – ''type of business or publication'' 
+
+| group9 = Distinctions
+| list9 =
+* {{Tl|Infobox order}}
+* {{Tl|Infobox fraternity}}
+* {{Tl|Infobox Grand Lodge}}
+
+| group10 = Subtemplates
+| list10 =
+* '''Coordinates'''&nbsp;{{Tl|coord}}
+* '''Dates'''
+** {{Tl|start date}}}—for {{para|established}}, {{para|founded}}, {{para|opened}} etc.
+** {{Tl|end date}}}—for {{para|dissolved}}, {{para|defunct}}
+* '''Lists'''
+**{{tl|plainlist}}
+** {{tl|flatlist}}
+** {{tl|unbulleted list}}
+* '''Non-English text'''&nbsp;{{Tl|lang}}
+* '''Website'''
+** {{tl|URL}}
+** {{tl|Official URL}}
+** {{tl|Official website}}
+* '''Documentation'''
+** &nbsp;{{Tl|mf-adr}}}—Address
+** &nbsp;{{Tl|UF-hcard-org}}—[[Microformat]]/metadata
+
+| below =
+* {{sup|1}} or research institution
+* {{sup|2}} or college
+
+* [[:Category:Infobox templates|Category]]
+* [[Help:Infobox|Help]]
+* [[Wikipedia:List of infoboxes|List of infoboxes]]
+
+}}<noinclude>{{documentation}}</noinclude>

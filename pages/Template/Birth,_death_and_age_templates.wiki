@@ -1,0 +1,110 @@
+{{Navbox with collapsible groups
+|name =Birth, death and age templates
+|state={{if empty|{{{state|}}}|<includeonly>collapsed</includeonly>|<noinclude>uncollapsed</noinclude>}}
+|title=Birth, death and age templates
+|selected={{if empty|{{{selected|}}}|{{{expanded|}}}|{{{1|}}}}}
+|listclass=hlist <!-- can't see why tracking=no doesn't work, but this does -->
+
+|abbr1=BDA
+|section1=birth, death, age
+|state1 = <noinclude>uncollapsed</noinclude>
+|content1=
+
+{{Aligned table|fullwidth=y
+ |style=line-height:1.45em; text-align:left
+ |col1style=font-size:110%; white-space:nowrap; padding-right:1.0em; width:18em
+ |row1style=line-height:1.6em; font-weight:bold; border-bottom:1px solid #aaa
+ |Birth templates&nbsp;|{{Resize|110%|Description{{\}}use&nbsp;}}
+ |{{Template link|Birth date}}|To display a birth date and related hidden metadata.
+ |{{Template link|Birth date text}}|
+ |{{Template link|Birth date and age}}|{{Template link with link off|Birth date}} with suffix '(age ''N'')'.
+ |{{Template link|Birth date and age2}}|{{Template link with link off|Birth date and age}} plus age as of a specified date.
+ |{{Template link|Birth-date and age}}|As {{Template link with link off|Birth date and age}}, but accepts dates in text form ('15 June 1950', 'June 15, 1950', 'June 1950', etc.).
+ |{{Template link|Birth date and age in years and days}}|{{Template link with link off|Birth date and age}}, but with the age displayed in years and days rather than just years.
+ |{{Template link|Birth year and age}}|Year of birth and approximate age.
+ |{{Template link|Birth based on age as of date}}|To display approximate birth year and current age given a particular date (e.g. when a dated reference mentions the age of a person), only works for living people.
+ |{{Template link|Birth based on age as of dates}}|To display approximate birth year and current age given several particular dates (e.g. when a dated reference mentions the age of a person), only works for living people.
+ |{{Template link|Birth based on age at death}}|To display approximate birth year based on age at death, or on age at a specific date if death date isn't known.
+ }}
+{{Aligned table|fullwidth=y
+ |style=line-height:1.45em; text-align:left
+ |col1style=font-size:110%; white-space:nowrap; padding-right:1.0em; width:18em
+ |row1style=line-height:1.6em; font-weight:bold; border-bottom:1px solid #aaa
+ |Death templates&nbsp;|{{Resize|110%|Description{{\}}use&nbsp;}}
+ |{{Template link|Death date}}|To display a death date and related hidden metadata.
+ |{{Template link|Death date text}}|
+ |{{Template link|Death date and age}}|{{Template link with link off|Death date}} with suffix '(aged ''N'')'; also called with {{Template link with link off|event date and age}}.
+ |{{Template link|Death date and given age}}|To display a death date and specified age.
+ |{{Template link|Death year and age}}|To display a year of, and approximate age at death.
+}}
+
+|abbr2=Age
+|section2=age only
+|state2 = <noinclude>uncollapsed</noinclude>
+|content2=
+{{Aligned table|fullwidth=y
+ |style=line-height:1.45em; text-align:left
+ |col1style=font-size:110%; white-space:nowrap; padding-right:1.0em; width:18em
+ |row1style=line-height:1.6em; font-weight:bold; border-bottom:1px solid #aaa
+ |Conventional age templates&nbsp;|{{Resize|110%|Description{{\}}use&nbsp;}}
+ |{{Template link|Age in years, months, weeks and days}}|Number of complete years, months, weeks and days between two dates.
+ |{{Template link|Age in years, months and days}}|Number of complete years, months and days between two dates.
+ |{{Template link|Age in years and months}}|Number of complete years and remaining months between two dates.
+ |{{Template link|Age in years and days}}|Number of complete years and remaining days between two dates.
+ |{{Template link|Age in years and days nts}}|{{Template link with link off|Age in years and days}} with output formatted for use in [[Help:Sortable tables|number sortable tables]].
+ |{{Template link|Age in decimal years}}|Number of years between two dates, rounded to the specified number of decimal places.
+ |{{Template link|Age in years}}|Number of years between two dates.
+ |{{Template link|Age in years nts}}|{{Template link with link off|Age in years}} with output formatted for use in number sortable tables.
+ |{{Template link|Age in months}}|Number of months between two dates.
+ |{{Template link|Age in weeks and days}}|Number of weeks and days between two dates.
+ |{{Template link|Age in weeks}}|Number of weeks between two dates.
+ |{{Template link|Age in days}}|Age in days between two dates.
+ |{{Template link|Age in days nts}}|{{Template link with link off|Age in days}} with output formatted for use in number sortable tables.
+ }}
+{{Aligned table|fullwidth=y
+ |style=line-height:1.45em; text-align:left
+ |col1style=font-size:110%; white-space:nowrap; padding-right:1.0em; width:18em
+ |row1style=line-height:1.6em; font-weight:bold; border-bottom:1px solid #aaa
+ |Reverse-determined age template&nbsp;|{{Resize|110%|Description{{\}}use&nbsp;}}
+ |{{Template link|Age}}|Age based on number of complete years between two dates.
+ |{{Template link|Age nts}}|{{Template link with link off|Age}} with output formatted for use in [[Help:Sortable tables|number sortable tables]].
+ |{{Template link|Age as of date}}|Current age (in years) from a known age at a specified date.
+ |{{Template link|Age for infant}}|Current age for infant: months and days up to one year, years and months up to three years, and years beyond age 3.
+}}
+
+|abbr3=Dates
+|section3=start{{\}}end dates
+|state3 = <noinclude>uncollapsed</noinclude>
+|content3=
+{{Aligned table|fullwidth=y
+ |style=line-height:1.45em; text-align:left
+ |col1style=font-size:110%; white-space:nowrap; padding-right:1.0em; width:18em
+ |row1style=line-height:1.6em; font-weight:bold; border-bottom:1px solid #aaa
+ |Date-focused templates&nbsp;|{{Resize|110%|Description{{\}}use&nbsp;}}
+ |{{Template link|Start date}} / {{Template link|End date}}|
+ |{{Template link|Start date text}} / {{Template link|End date text}}|
+ |{{Template link|Start date and age}} / {{Template link|End date and age}}|
+}}
+
+|abbr4=Misc
+|section4=miscellaneous
+|state4 = <noinclude>uncollapsed</noinclude>
+|content4=
+{{Aligned table|fullwidth=y
+ |style=line-height:1.45em; text-align:left
+ |col1style=font-size:110%; white-space:nowrap; padding-right:1.0em; width:18em
+ |row1style=line-height:1.6em; font-weight:bold; border-bottom:1px solid #aaa
+ |Template&nbsp;|{{Resize|110%|Description{{\}}use&nbsp;}}
+ |{{Template link|OldStyleDate<!--|9 June|1672|30 May-->}}|Dates in [[Julian calendar]].
+ |{{Template link|OldStyleDateDY}}|As {{Template link with link off|OldStyleDate}} but used when Julian / [[Gregorian date]]s fall in different years.
+ |{{Template link|OldStyleDateNY}}|As {{Template link with link off|OldStyleDate}} but without the year.
+ |{{Template link|Unidentified for}}|
+ |{{Template link|Missing for}}|
+}}
+
+|belowclass=hlist
+|belowstyle=font-weight:bold
+|below=
+*[[Wikipedia:Age calculation templates|About age calculation templates]]
+*[[:Category:Date mathematics templates|Date mathematics templates]]
+}}<noinclude>{{Documentation}}</noinclude>

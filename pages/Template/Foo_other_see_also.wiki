@@ -1,0 +1,9 @@
+* {{tl|Sandbox other}} &mdash; Distinguishes between the /sandbox subpages and the root template page and other subpages.
+* {{tl|Testcases other}} &mdash; Distinguishes between the /testcases subpages and the root template page and other subpages.
+* {{tl|Template other}} &mdash; Distinguishes between pages in the template namespace and other namespaces.
+* {{tl|When on basepage}} &mdash; Distinguishes between the root template page and subpages, without special consideration in the mainspace.
+* {{tl|Subpage other}} &mdash; Distinguisheds between the root page and subpages (any subpage), classifying pagenames in the mainspace with a slash as being the root page.<noinclude>
+{{Documentation|content=
+List of "Foo other" templates for inclusion in "See also" section of documentation.
+[[Category:Documentation see also templates]]
+}}</noinclude>

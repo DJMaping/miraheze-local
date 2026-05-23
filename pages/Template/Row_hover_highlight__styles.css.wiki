@@ -1,0 +1,10 @@
+/* {{pp-template}} */
+.hover-highlight tr:hover,
+.mw-datatable tr:hover {
+  background-color: var( --background-color-progressive-subtle, #eaf3ff );
+  color: var( --color-base, #333 );
+}
+.mw-datatable {
+  background-color: var( --background-color-base, #fff );
+  color: var( --color-base, #333 );
+}

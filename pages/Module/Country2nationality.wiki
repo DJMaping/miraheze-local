@@ -1,0 +1,54 @@
+local p = {}
+local data = { -- override list
+	AFRICA = "African",
+	ANTARCTICA = "Antarctic",
+	ASIA = "Asian",
+	BRITISHHONGKONG = "British Hong Kong",
+	BRITISHINDIA = "British India",
+	AUSTROHUNGARIANEMPIRE = "Austrian",
+	CATALONIA = "Catalan",
+	CZECHOSLOVAKIA = "Czech",
+	DUTCHEASTINDIES = "Dutch East Indian",
+	EASTGERMANY = "East German",
+	EUROPE = "European",
+	FPRYUGOSLAVIA = "Yugoslavian",
+	GERMANDEMOCRATICREPUBLIC = "East German",
+	GERMANEMPIRE = "German",
+	KURDISTAN = "Kurdish",
+	NAZIGERMANY = "German",
+	NORTHAMERICA = "North American",
+	OCEANIA = "Oceanian",
+	PAHLAVIIRAN = "Iranian",
+	REPUBLICOFVIETNAM = "Vietnamese",
+	RHODESIA = "Rhodesian",
+	RUSSIANEMPIRE = "Russian",
+	SOUTHAMERICA = "South American",
+	SOUTHVIETNAM = "Vietnamese",
+	SOVIETUNION = "Soviet",
+    WESTGERMANY = "West German",
+    UNITEDARABREPUBLIC = "Arab",
+	USSR = "Soviet",
+    YUGOSLAVIA = "Yugoslavian"
+}
+
+function p.c2n(name, nocat)
+	name = mw.text.trim(name)
+	local country = mw.ustring.gsub(name, "^St. ", "Saint ")
+	country = mw.ustring.gsub(mw.ustring.gsub(country, "SFR ", ""), " SSR", "" )
+	local iso = require("Module:ISO 3166")
+	local isocode = iso.code({country, nocat = nocat})
+	if #isocode == 2 or #isocode == 6 then -- valid code
+		return require("Module:Iso2nationality").i2n(isocode)
+	elseif data[iso.strip(country)] then -- in override list
+		return data[iso.strip(country)]
+	elseif mw.ustring.find(name, " SSR") then -- most SSRs are already in adjective form
+		return country
+	elseif string.sub(isocode,1,2)=="[[" then
+		return name..isocode
+	end
+	return name
+end
+
+p[''] = function (frame) return p.c2n(frame.args[1], frame.args.nocat) end
+
+return p

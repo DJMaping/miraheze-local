@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Catalonia
+| flag alias = Flag of Catalonia.svg
+| link alias-roller hockey = Catalonia {{{mw}}} national roller hockey team
+| flag link = Senyera
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| redir1 = CAT
+</noinclude>
+}}

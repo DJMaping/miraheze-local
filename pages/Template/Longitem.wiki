@@ -1,0 +1,5 @@
+<noinclude>{{#tag: code|
+</noinclude>{{#ifeq: {{{1|+}}} | {{{1|-}}} | <div style="}}display: inline-block; line-height: 1.2em; padding: .1em 0; {{#ifeq: {{{1|+}}} | {{{1|-}}} | {{{style|}}}">{{{1|}}}</div> | <includeonly>width: 100%;</includeonly> }}<includeonly>{{#if:{{{2|}}}|[[Category:Pages using Template:Longitem with unnamed style parameter]]}}</includeonly><noinclude>
+|lang=wikitext}}
+{{documentation}}
+</noinclude>

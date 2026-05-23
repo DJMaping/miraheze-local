@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Self-reference]]
+{{Redirect category shell|
+{{R from template shortcut}}
+{{R from alternative hyphenation}}
+{{R from move}}
+}}

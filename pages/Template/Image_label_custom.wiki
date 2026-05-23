@@ -1,0 +1,4 @@
+<includeonly><div style="{{#if:{{{size|}}}|font-size: {{{size}}}; |}}{{#if:{{{font-stretch|}}}|font-stretch:{{{font-stretch}}};}}{{#ifeq:{{{bold|}}}|yes|font-weight: bold; }}{{#if:{{{border|}}}|{{#ifeq:{{{border|}}}|yes|border: solid 1px; |border: {{{border}}}; }}}}{{#if:{{{padding|}}}|padding:{{{padding}}}; |}}position:absolute;text-align:{{{text-align|center}}};left:{{#expr:{{{x|0}}}*{{{scale|1}}}-6}}px;top:{{#expr:{{{y|0}}}*{{{scale|1}}}-8}}px;{{#if:{{{background|}}}|background-color: rgba(255, 255, 255, 0.5); padding: 0 2px;}}{{{extra|}}}">{{{text}}}</div></includeonly><noinclude>
+{{Documentation}}
+[[Category:Graphics templates]][[Category:Map formatting and function templates]]
+</noinclude>

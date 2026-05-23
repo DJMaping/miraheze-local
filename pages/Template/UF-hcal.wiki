@@ -1,0 +1,18 @@
+{{Microformat message
+| format = hCalendar
+| data = event details
+
+| subtemplates =
+{{#if:{{{hide_subtemplates}}} |<noinclude>}}
+Dates will only be included if you use {{tl|start date}} (for single dates) or {{tl|end date}}. Do not, however, use these templates [[Wikipedia:WikiProject Microformats/dates|if a date before 1583&nbsp;CE is involved]].
+
+To include URLs, use {{tl|URL}}.
+{{#if:{{{hide_subtemplates}}} |</noinclude>}}
+|attendee |contact |description |dtend |dtstart |location |organiser |summary |url |vevent
+| nocollapse = on
+}}<includeonly>{{#ifeq:{{SUBPAGENAME}}|doc | |{{#ifeq:{{SUBPAGENAME}}|sandbox | |[[Category:Templates generating hCalendars|{{PAGENAME}}]]}} }}</includeonly><noinclude>
+
+{{Documentation |content={{Microformat message templates}}}}
+
+[[Category:Microformat message templates]]
+</noinclude>

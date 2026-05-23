@@ -1,0 +1,15 @@
+{{<includeonly>safesubst:</includeonly>#invoke:Unsubst||date=__DATE__ |$B=
+{{Fix
+ |name     = {{{name|Citation needed}}}
+ |link     = Wikipedia:Citation needed
+ |text     = citation needed
+ |class    = Template-Fact
+ |title    = {{{reason|This claim needs references to reliable sources.}}}
+ |date     = {{{date|}}}
+ |cat      = [[Category:All articles with unsourced statements]]
+ |cat-date = Category:Articles with unsourced statements
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages containing citation needed template with unsupported parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Citation needed]] with unknown parameter "_VALUE_"|ignoreblank=y| date | name | reason }}}}<noinclude>
+
+{{Documentation}}
+
+</noinclude>

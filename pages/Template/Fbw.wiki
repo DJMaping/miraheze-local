@@ -1,0 +1,16 @@
+<noinclude><!--
+{{country data {{{1}}} 
+| flag link/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}} 
+| altlink = women's national football team 
+| altvar = football
+| mw = women's 
+}}
+--></noinclude>{{#invoke:flagg|main|unpe|{{{1}}} 
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}} 
+| altvar = fbw
+}}<noinclude>{{documentation}}</noinclude>

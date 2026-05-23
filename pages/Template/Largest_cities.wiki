@@ -1,0 +1,74 @@
+<templatestyles src="Template:Largest_cities/styles.css" />
+{{#switch:{{{class|}}}
+|nav={{navbox top
+  | name = {{{name|}}}
+  | navbar = {{#if:{{{nonav|}}}|off|{{#if:{{{name|}}}||off}}}}
+  | title = {{#if:{{{largest|}}}|{{{largest}}}|Largest}} {{{kind|cities or towns}}} in {{{country}}}<br /><div style="display:inline;font-weight:normal;font-size:90%;">{{#if:{{{stat_ref|}}} | {{{stat_ref|Source?}}} | Source? }}</div>
+  | state = {{{collapsed_state|}}}
+}}
+{{(!}} style="width:100%" class="wraplinks"
+|#default=<div>
+{{(!}} {{#if:{{{collapsed_state|}}}|class="collapsible {{{collapsed_state}}} largestCities-table-background"}} style="font-size:88%;margin-left: auto; margin-right: auto; width: 100%; border: 1px solid darkgray;"
+{{!}}-<!-- TITLE & SOURCE -->
+!colspan="{{#if:{{{metro|}}}|12|10}}" style="padding:0.3em 0.75em;"{{!}} {{#if:{{{collapsed_state|}}}||<div style="float:right; width:6em; height:2.6em">&nbsp;</div>}}{{#if:{{{nonav|}}}||{{#if:{{{name|}}}|{{navbar|{{{name|}}}|mini=1|style=float: left;height:2.6em;}}|<div style="float:left; width:6em; height:2.6em">&nbsp;</div>}}}} <div style="height:2.6em;line-height:1.3em;"><span style="font-size:110%;">{{#if:{{{largest|}}}|{{{largest}}}|Largest}} {{{kind|cities or towns}}} in {{{country}}}</span><br /><div style="display:inline;font-weight:normal;">{{#if:{{{stat_ref|}}} | {{{stat_ref|Source?}}} | Source? }}</div></div>
+}}<!-- END IF CLASS-->
+|- <!-- TABLE HEADINGS -->
+!  {{#if:{{{list_by_pop|}}} | [[{{{list_by_pop}}}|Rank]] | {{#ifexist: List of cities in {{{country}}} by population | [[List of cities in {{{country}}} by population|Rank]] | Rank }} }}
+! {{#if:{{{name_link|}}} | [[{{{name_link}}}|Name]] | {{#ifexist: List of cities in {{{country}}} | [[List of cities in {{{country}}}|Name]]}} }}
+{{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|! {{#if:{{{div_link|}}} | [[{{{div_link}}}]] | {{#ifexist:{{{div_name|Administrative division}}}s of {{{country}}}|[[{{{div_name|Administrative division}}}s of {{{country}}}|{{{div_name|Administrative division}}}]]|{{{div_name|Administrative division}}}}} }} }}
+! {{#if:{{{list_by_pop|}}} | [[{{{list_by_pop}}}| Pop.]] | {{#ifexist: List of cities in {{{country}}} by population | [[List of cities in {{{country}}} by population|Pop.]] | Pop. }} }} {{#if:{{{metro|}}}|!! {{#if:{{{list_by_metro|}}} | [[{{{list_by_Metro}}}| Metro.]] | {{#ifexist: List of cities in {{{country}}} by metropolitan population | [[List of cities in {{{country}}} by metropolitan population|Metro.]] | Metro. }} }} }}
+{{#if:{{{city_11|}}} | <!-- determines whether there should be two columns or just one -->
+! {{#if:{{{list_by_pop|}}} | [[{{{list_by_pop}}}|Rank]] | {{#ifexist: List of cities in {{{country}}} by population | [[List of cities in {{{country}}} by population|Rank]] | Rank }} }}
+! {{#if:{{{name_link|}}} | [[{{{name_link}}}|Name]] | {{#ifexist: List of cities in {{{country}}} | [[List of cities in {{{country}}}|Name]]}} }}
+{{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}| ! {{#if:{{{div_link|}}} | [[{{{div_link}}}]] | [[{{{div_name}}}s of {{{country}}}|{{{div_name}}}]] }} }}
+! {{#if:{{{list_by_pop|}}} | [[{{{list_by_pop}}}| Pop.]] | {{#ifexist: List of cities in {{{country}}} by population | [[List of cities in {{{country}}} by population|Pop.]] | Pop. }} }} {{#if:{{{metro|}}}|!! {{#if:{{{list_by_metro|}}} | [[{{{list_by_Metro}}}| Metro.]] | {{#ifexist: List of cities in {{{country}}} by metropolitan population | [[List of cities in {{{country}}} by metropolitan population|Metro.]] | Metro. }} }} }} 
+}} <!-- ends if city_11 -->
+|-
+
+<!-- LIST OF CITIES, SUBDIVISIONS, POPULATION FIGURES -->
+| class="largestCities-cell-background" style="text-align:center;" | 1 || style="text-align:left;" | [[{{{city_1}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_1}}}]]}} || style="text-align:right;" | {{{pop_1}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_1}}} }} {{#if:{{{city_11|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 11 {{!!}} style="text-align:left;" {{!}} [[{{{city_11}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_11}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_11}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_11}}} }}
+}}
+
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 2 || style="text-align:left;" | [[{{{city_2}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_2}}}]]}} || style="text-align:right;" | {{{pop_2}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_2}}} }} {{#if:{{{city_12|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 12 {{!!}} style="text-align:left;" {{!}} [[{{{city_12}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_12}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_12}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_12}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 3 || style="text-align:left;" | [[{{{city_3}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_3}}}]]}} || style="text-align:right;" | {{{pop_3}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_3}}} }} {{#if:{{{city_13|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 13 {{!!}} style="text-align:left;" {{!}} [[{{{city_13}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_13}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_13}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_13}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 4 || style="text-align:left;" | [[{{{city_4}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_4}}}]]}} || style="text-align:right;" | {{{pop_4}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_4}}} }} {{#if:{{{city_14|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 14 {{!!}} style="text-align:left;" {{!}} [[{{{city_14}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_14}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_14}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_14}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 5 || style="text-align:left;" | [[{{{city_5}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_5}}}]]}} || style="text-align:right;" | {{{pop_5}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_5}}} }} {{#if:{{{city_15|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 15 {{!!}} style="text-align:left;" {{!}} [[{{{city_15}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_15}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_15}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_15}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 6 || style="text-align:left;" | [[{{{city_6}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_6}}}]]}} || style="text-align:right;" | {{{pop_6}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_6}}} }} {{#if:{{{city_16|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 16 {{!!}} style="text-align:left;" {{!}} [[{{{city_16}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_16}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_16}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_16}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 7 || style="text-align:left;" | [[{{{city_7}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_7}}}]]}} || style="text-align:right;" | {{{pop_7}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_7}}} }} {{#if:{{{city_17|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 17 {{!!}} style="text-align:left;" {{!}} [[{{{city_17}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_17}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_17}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_17}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 8 || style="text-align:left;" | [[{{{city_8}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_8}}}]]}} || style="text-align:right;" | {{{pop_8}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_8}}} }} {{#if:{{{city_18|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 18 {{!!}} style="text-align:left;" {{!}} [[{{{city_18}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_18}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_18}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_18}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 9 || style="text-align:left;" | [[{{{city_9}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_9}}}]]}} || style="text-align:right;" | {{{pop_9}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_9}}} }} {{#if:{{{city_19|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 19 {{!!}} style="text-align:left;" {{!}} [[{{{city_19}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_19}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_19}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_19}}} }}
+}}
+|-
+| class="largestCities-cell-background" style="text-align:center;" | 10 || style="text-align:left;" | [[{{{city_10}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_10}}}]]}} || style="text-align:right;" | {{{pop_10}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_10}}} }} {{#if:{{{city_20|}}} | {{!!}} class="largestCities-cell-background" style="text-align:center;" {{!}} 20 {{!!}} style="text-align:left;" {{!}} [[{{{city_20}}}]] {{#if:{{{div_1|}}}{{{div_2|}}}{{{div_4|}}}{{{div_5|}}}|{{!!}} style="text-align:left;" {{!}} [[{{{div_20}}}]]}} {{!!}} style="text-align:right;" {{!}} {{{pop_20}}} {{#if:{{{metro|}}}|{{!!}} style="text-align:right" {{!}} {{{metro_20}}} }}
+}}
+|-
+{{#switch:{{{class|}}}
+|nav={{!)}}
+{{navbox bottom}}
+|#default={{!)}}</div>
+}}{{#switch:{{{class|}}}
+ | = 
+ | nav = [[Category:Pages using largest cities with nav class]]
+ | #default = [[Category:Pages using largest cities with class|{{#invoke:string|replace|{{{class}}}|[^A-Za-z0-9]||plain=false}} ]]
+ }}{{#invoke:Check for unknown parameters|check|unknown={{Namespace detect
+ | main  = [[Category:Pages using largest cities with unknown parameters|_VALUE_{{PAGENAME}}]]
+ | template = [[Category:Pages using largest cities with unknown parameters|τ_VALUE_{{PAGENAME}}]]
+ | other = 
+}}|preview=Page using [[Template:Largest cities]] with unknown parameter "_VALUE_"|ignoreblank=y| city_1 | city_2 | city_3 | city_4 | city_5 | city_6 | city_7 | city_8 | city_9 | city_10 | city_11 | city_12 | city_13 | city_14 | city_15 | city_16 | city_17 | city_18 | city_19 | city_20 | class | collapsed_state | country | div_1 | div_2 | div_3 | div_4 | div_5 | div_6 | div_7 | div_8 | div_9 | div_10 | div_11 | div_12 | div_13 | div_14 | div_15 | div_16 | div_17 | div_18 | div_19 | div_20 | div_link | div_name| kind | largest | list_by_metro | list_by_Metro | list_by_pop | metro | metro_1 | metro_2 | metro_3 | metro_4 | metro_5 | metro_6 | metro_7 | metro_8 | metro_9 | metro_10 | metro_11 | metro_12 | metro_13 | metro_14 | metro_15 | metro_16 | metro_17 | metro_18 | metro_19 | metro_20 | name | name_link | nonav | pop_1 | pop_2 | pop_3 | pop_4 | pop_5 | pop_6 | pop_7 | pop_8 | pop_9 | pop_10 | pop_11 | pop_12 | pop_13 | pop_14 | pop_15 | pop_16 | pop_17 | pop_18 | pop_19 | pop_20 | stat_ref | img_5 }}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,10 @@
+{{#invoke:Footnotes|harvard_citation
+|bracket_left = (
+|bracket_right = )
+|page_sep = :
+|pages_sep = :
+|template=harvcol
+}}<noinclude>
+{{documentation}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+</noinclude>

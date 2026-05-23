@@ -1,0 +1,16 @@
+-- Configuration data for [[Module:Find sources]].
+
+return {
+
+-- Define the error message and category to be used if the module is used in
+-- the main namespace and the template config doesn't set the
+-- isUsedInMainspace key to true. The category is optional; if it is not
+-- wanted, it can be removed.
+['namespace-error'] = 'Error: Please do not use this template in articles.',
+['namespace-error-category'] = 'Pages with templates in the wrong namespace',
+ 
+-- The separator to be used if no separator is specified in the template
+-- config.
+['default-separator'] = mw.message.new('Dot-separator'):plain()
+
+}

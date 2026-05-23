@@ -1,0 +1,6 @@
+#REDIRECT [[Template:R from alternative name]]
+
+{{Redirect category shell|
+{{R to redirect template}}
+{{R with possibilities}}
+}}

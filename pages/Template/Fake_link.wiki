@@ -1,0 +1,2 @@
+<templatestyles src="Fake link/styles.css"/><span title="{{{2|{{{1|foo}}}}}}" class="fakelinks">{{{1|default}}}</span><noinclude>
+{{documentation}}</noinclude>

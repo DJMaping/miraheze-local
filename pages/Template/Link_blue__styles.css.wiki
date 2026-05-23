@@ -1,0 +1,15 @@
+body.skin-vector-2022 .color-link-blue, body.skin-minerva .color-link-blue, body.skin-timeless .color-link-blue {
+    color:var(--color-progressive,#36c)
+}
+body.skin-vector:not(.skin-vector-2022) .color-link-blue {
+    color:#0645ad
+}
+body.skin-monobook .color-link-blue {
+    color:#002bb8
+}
+body.skin-cologneblue .color-link-blue {
+    color:#236
+}
+body.skin-modern .color-link-blue {
+    color:#036
+}

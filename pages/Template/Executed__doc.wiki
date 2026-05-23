@@ -1,0 +1,17 @@
+{{Documentation subpage}}
+
+== Information ==
+
+This template is used to indicate commanders who were either captured or surrendered, and were subsequently [[Capital punishment|executed]]. Use in {{tlg|Infobox military conflict}} and similar infoboxes. 
+
+== Usage ==
+
+<code>{{tl|Executed}}</code> produces: [[File:Skull and Crossbones.svg|16px|Executed|link=executed]]
+
+== See also ==
+{{Infobox military conflict documentation}}
+
+<includeonly>{{Sandbox other||
+<!--Categories below here, please; interwikis to Wikidata.-->
+[[Category:Military abbreviation templates|{{PAGENAME}}]]
+}}</includeonly>

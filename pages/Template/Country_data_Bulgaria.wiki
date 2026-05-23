@@ -1,0 +1,42 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bulgaria
+| flag alias = Flag of Bulgaria.svg
+| flag alias-digital = Flag of Bulgaria (digital).svg
+| flag alias-1878 = Flag of Bulgaria.svg
+| flag alias-1947 = Flag of Bulgaria (1946–1948).svg
+| flag alias-1948 = Flag of Bulgaria (1948–1967).svg
+| flag alias-1968 = Flag of Bulgaria (1967-1971).svg
+| flag alias-1971 = Flag of Bulgaria (1971–1990).svg
+| flag alias-naval-1879 = Naval Ensign of Bulgaria (1878-1944).svg
+| flag alias-naval-1949 = Naval Ensign of Bulgaria (1949-1955).svg
+| flag alias-naval-1955 = Naval Ensign of Bulgaria (1955-1990).svg
+| flag alias-naval-1991 = Naval Ensign of Bulgaria 1991-2005.svg
+| flag alias-naval = Naval Ensign of Bulgaria.svg
+| link alias-naval = Bulgarian Navy
+| flag alias-army = War flag of Bulgaria.svg
+| link alias-army = Bulgarian Land Forces
+| link alias-air force = Bulgarian Air Force
+| flag alias-navy = Naval Ensign of Bulgaria.svg
+| link alias-navy = Bulgarian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = digital
+| var2 = 1878
+| var3 = 1947
+| var4 = 1948
+| var5 = 1968
+| var6 = 1971
+| var7 = naval-1879
+| var8 = naval-1949
+| var9 = naval-1955
+| var10 = naval-1991
+| redir1 = BGR
+| redir2 = BUL
+| related1 = Principality of Bulgaria
+| related2 = Tsardom of Bulgaria (1908–1946)
+| related3 = People's Republic of Bulgaria
+</noinclude>
+}}

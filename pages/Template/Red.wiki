@@ -1,0 +1,4 @@
+<noinclude>{{Ombox|type=content|text=This template should '''NOT''' be used for generic error messages and warnings, because it does not have any semantic meaning embedded. Please use {{tl|error-small}} for errors, and {{tl|destructive}} for everything else.}}</noinclude><span style="color: red;">{{{1}}}</span><noinclude>
+<!-- Add categories to the /doc subpage, not here! -->
+{{Documentation}}
+</noinclude>

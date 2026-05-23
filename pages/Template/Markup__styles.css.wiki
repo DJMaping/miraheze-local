@@ -1,0 +1,46 @@
+/* {{pp-template|small=yes}} */
+.markup {
+	margin: 0;
+	margin-bottom: 0.5em;
+	border-width: medium;
+	padding: 0;
+}
+
+.markup > caption {
+	font-weight: bold;
+}
+
+.markup > tbody > tr > th[scope=col] {
+	width: 50%;
+}
+
+.markup > tbody > tr > td {
+	background: var(--background-color-interactive-subtle, #f8f9fa);
+    color:inherit;
+	border: 1px solid #eaecf0;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.markup-wrapper > :first-child {
+	margin-top: 0;
+}
+
+.markup-wrapper > :last-child {
+	margin-bottom: 0;
+}
+
+.markup-markup {
+	margin: 0;
+	border: none;
+	overflow-wrap: break-word;
+	white-space: pre-wrap;	
+}
+
+code.markup-markup {
+	padding: 0;
+}
+
+pre.markup-markup {
+	padding: 2px 0 0;
+}

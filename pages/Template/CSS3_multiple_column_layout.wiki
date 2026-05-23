@@ -1,0 +1,18 @@
+{| class="wikitable" style="float:right;clear:right;font-size:85%;margin:0 0 1em 1em;text-align:center;line-height:1.25em;"
+|+ style="line-height:1.25em;padding-bottom:0.25em;"| CSS3 multiple-column layout browser support
+|-
+! Property !! [[Internet Explorer|Internet<br />Explorer]] !! [[Firefox]] !! [[Safari (web browser)|Safari]] !! [[Google Chrome|Chrome]] !! [[Opera (web browser)|Opera]]
+|-
+| column-width<br/>column-count
+| {{yes|≥ 10<br />(2012)}} || {{yes|≥ 1.5<br />(2005)}} || {{yes|≥ 3<br />(2007)}} || {{yes|≥ 1<br />(2008)}} || {{yes|≥ 11.1<br />(2011)}}
+|-
+| columns
+| {{yes|≥ 10<br />(2012)}} || {{yes|≥ 9<br />(2011)}} || {{yes|≥ 3<br />(2007)}} || {{yes|≥ 1<br />(2008)}} || {{yes|≥ 11.1<br />(2011)}}
+|-
+| break-before<br/>break-after<br/>break-inside
+| {{yes|≥ 10<br />(2012)}} || {{maybe|≥ 65<br />(2019)}}<!-- no break-after --> || {{yes|≥ 10<br />(2016)}} || {{yes|≥ 65<br />(2016)}}<!-- no break-after --> || {{yes|≥ 15<br />(2013)}}<!-- no break-after -->
+|-
+|colspan="6" style="text-align:right"|{{navbar|CSS3 multiple column layout|mini=y}}
+|}<noinclude>
+{{Documentation}}
+</noinclude>

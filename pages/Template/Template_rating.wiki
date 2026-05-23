@@ -1,0 +1,68 @@
+<includeonly>{{#if:{{{1|}}}<!-- Escape empty required first unnamed parameter -->|{{#switch:{{Namespace detect|template=t|module=m|demospace={{{demospace|}}}|page={{{demopage|}}}}}
+|m
+|t = <!-- ***** IF IN MODULE OR TEMPLATE NAMESPACE ***** -->{{ombox
+ | type      = notice
+ | image     = {{#switch: {{lc:{{{1|}}}}}
+   | pre-alpha | prealpha | pa | experimental = [[File:Ambox warning blue construction.svg|40x40px|link=|alt=]]
+   | alpha | a                                = [[File:Greek lc alpha icon.svg|class=skin-invert|26x26px|link=|alt=]]
+   | beta | b                                 = [[File:Greek lc beta icon.svg|class=skin-invert|40x40px|link=|alt=]]
+   | release | r | general | g | stable | protected | protect | p | semiprotected | semiprotect | semi = [[File:Green check.svg|40x40px|link=|alt=]]
+   | broken | br | unstable = [[File:Red x.svg|40x40px|link=|alt=]]
+   | deprecated | d | defunct = [[File:Historical.svg|40x40px|link=|alt=]]
+  }}
+ | style     = 
+ | textstyle = 
+ | text      = {{#switch: {{lc:{{{1|}}}}}
+   | pre-alpha | prealpha | pa | experimental = This [[Wikipedia:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}|{{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}]] is rated as [[:Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s in pre-alpha development|pre-alpha]]. It is incomplete and may or may not be in active development. Do not use it in [[Wikipedia:Article namespace|article namespace]] pages. A {{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}} remains in pre-alpha until its developer, or another editor who adopts it if it is abandoned for some time, considers the basic structure complete.
+   | alpha | a                 = This [[Wikipedia:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}|{{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}]]  is rated as [[:Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s in alpha|alpha]]. It is ready for limited use and third-party feedback. It may be used on a small number of pages, but should be monitored closely. Suggestions for new features or adjustments to input and output are welcome.
+   | beta | b                  = This [[Wikipedia:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}|{{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}]]  is rated as [[:Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s in beta|beta]]. It is considered ready for widespread use, but as it is still relatively new, it should be applied with some caution to ensure results are as expected.
+   | release | r | general | g | stable | protected | protect | p | semiprotected | semiprotect | semi = This [[Wikipedia:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}|{{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}]]  is rated as [[:Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s for general use|ready for general use]]. It has reached a mature state, is considered relatively stable and bug-free, and may be used wherever appropriate. It can be mentioned on [[Wikipedia:Help pages|help pages]] and other Wikipedia resources as an option for new users. To minimise server load and avoid disruptive output, improvements should be developed through [[Wikipedia:Template sandbox and test cases|sandbox testing]] rather than repeated trial-and-error editing.
+   | broken | br | unstable    = This [[Wikipedia:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}|{{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}]]  is rated as [[:Category:Unstable {{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}s|unstable]]. It has missing dependencies, compatibility issues, or output errors that make it unusable. Editors are encouraged to [[Special:EditPage/{{FULLPAGENAME}}|improve its compatibility]] or [[Wikipedia:Templates for discussion|nominate it for deletion]] if it cannot be fixed.
+   | deprecated | d | defunct  = This [[Wikipedia:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}|{{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}]]  is rated as '''[[:Category:Deprecated {{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}s|deprecated]]''' and defunct.{{#if:{{{replaced|}}}|{{space}}It is recommended editors use [[{{{replaced}}}]].}}{{#if:{{{message|}}}|{{space}}{{{message}}}}}
+   | #default                  = {{error|Page using [[Template:Template rating]] with <u>invalid</u> template or module rating in {{para|1}} parameter.}}[[Category:Pages using template rating template with unknown parameters|{{FULLPAGENAME}}]]
+  }}
+}}<!-- Categorize.
+-->{{#if:{{{demopage|}}}{{{demospace|}}}||
+      {{#switch: {{lc:{{SUBPAGENAME}}}}
+         | doc | sandbox =<!-- No category for /doc or /sandbox subpages -->
+         | {{#ifeq: {{{nocat|}}} | true 
+             | <!-- No category if user sets nocat=true --> 
+             | {{#switch: {{lc:{{{1|}}}}}
+                 | pre-alpha | prealpha | pa | experimental = [[Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s in pre-alpha development|{{PAGENAME}}]]
+                 | alpha | a                                = [[Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s in alpha|{{PAGENAME}}]]
+                 | beta | b                                 = [[Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s in beta|{{PAGENAME}}]]
+                 | release | r | general | g | stable | protected | p | semiprotected | semiprotect | semi = [[Category:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}s for general use|{{PAGENAME}}]]
+                 | deprecated | d | defunct = [[Category:Deprecated {{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}s|{{PAGENAME}}]]
+				 | broken | br | unstable = [[Category:Unstable {{lc:{{NAMESPACE:{{{demopage|{{FULLPAGENAME}}}}}}}}}s|{{PAGENAME}}]]
+               }}
+           }}
+       }}
+}}
+| #default = <!-- ***** Error not in Template or Module namespaces ***** -->{{if preview|1={{error|Error: {{tl|Template rating}} can only be used on pages in the [[Wikipedia:Template namespace|Template:]] or [[Wikipedia:Module namespace|Module: namespaces]].}}}}[[Category:Pages with templates in the wrong namespace]]
+}}<!-- End switch. -->|{{If preview|1={{error|Page using [[Template:Template rating]] with <u>empty</u> {{para|1}} module rating parameter.}}}}[[Category:Pages using template rating template with unknown parameters|{{FULLPAGENAME}}]]<!--
+-->}}<!-- End if. Display protection template if necessary, this will obviously show it for /doc page too since it uses {{FULLPAGENAME}}: -->{{#switch:{{Namespace detect|template=t|module=m|demospace={{{demospace|}}}}}
+|t|m = {{#if:{{{suppress-pp|}}}
+           |
+           |{{#switch:{{#invoke:Effective protection level|edit|1={{{demopage|{{FULLPAGENAME}}}}}}}
+                |*|user = <!-- If not protected page, do nothing. -->
+                |#default = {{#ifeq:{{lc:{{SUBPAGENAME}}}}|doc
+                    |<!-- {{#if:{{{2|}}}{{{doc-reason|}}}{{{3|}}}{{{doc-action|}}} --><!-- 
+                      --><!-- | -->{{pp|{{{2|{{{doc-reason|}}}}}}|action={{{3|{{{doc-action|}}}}}}}}<!--
+                  --><!-- }} -->
+                 -->|{{pp|1={{{reason|{{{doc-reason|}}}}}}|action={{{action|{{{doc-action|}}}}}}|demolevel={{{demolevel|}}}}}<!-- 
+             -->}}<!--
+        -->}}<!-- 
+    -->}}
+|#default = <!-- If not in template or module namespace, do nothing
+-->}}<!--
+  End template, start tracking.
+-->{{#invoke:Check for unknown parameters| check
+| unknown = {{#if:{{{demopage|}}}{{{demospace|}}}||{{#switch:{{Namespace detect|template=t|module=m}}|m|t=[[Category:Pages using template rating template with unknown parameters|_VALUE_{{FULLPAGENAME}}]]}}}}
+| preview = Page using [[Template:Template rating]] with unknown parameter "_VALUE_"
+| ignoreblank=y | demospace | demopage | 1 | 2 | 3 | reason | action | doc-reason | doc-action | nocat | replaced | message | demolevel | suppress-pp | demopage
+}}</includeonly><!-- End tracking. --><noinclude>
+{{template rating/sandbox|release|nocat=true|demospace=template|demopage=template:template rating|demolevel=edit}}
+{{mbox|text=The above template is a demo.}}
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go in Wikidata. -->
+</noinclude>

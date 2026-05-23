@@ -1,0 +1,19 @@
+[[{{ safesubst:<noinclude/>#switch:{{ safesubst:<noinclude/>lc:{{{color|{{{colour|}}}}}} }}
+|green              |grn  |gn  =File:Yes check.svg
+|lightgreen |lgreen |lgrn |lgn =File:Light green check.svg
+|red                |rd   |r   =File:Red check.svg
+|darkred    |dkred  |drd  |dr  =File:Check-188-25-49-red.svg
+|pink               |pnk  |pk  =File:Pink check.svg
+|orange             |or   |o   =File:Check.svg
+|yellow             |yel  |y   =File:Yellow check.svg
+|black              |blk  |k   =File:Black check.svg
+|blue               |blu  |u   =File:Check-blue.svg
+|lightblue  |lblue  |lblu |lb  =File:Cornflower blue check.svg
+|cyan               |cy   |c   =File:B-check.svg
+|purple             |pur  |pu  =File:Purple check.svg
+|grey       |gray   |gry  |gy  =File:SemiTransBlack v.svg
+|brown              |brn  |bn  =File:Brown check.svg
+<!--default-->                 |File:Yes check.svg
+}}|{{ safesubst:<noinclude/>#if:{{{1|}}}|{{Str number/trim|{{{1}}}}}|20}}px|link=|alt={{#if:{{{alt|}}}|{{{alt}}}|check}}]]<span style="display:none">Y</span><!--template:tick--><noinclude>
+{{documentation}}
+</noinclude>

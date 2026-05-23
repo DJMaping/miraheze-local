@@ -1,0 +1,1 @@
+<span class="nowrap">{{Main other||[[File:Yes check.svg|11px|link=|alt=]] <b>{{{1|Yes}}}</b>}}</span><noinclude>{{documentation|Template:Resolved mark/doc}}[[Category:Image with comment templates|{{PAGENAME}}]]</noinclude>

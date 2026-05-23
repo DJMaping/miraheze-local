@@ -1,0 +1,13 @@
+{{ safesubst:<noinclude/>#invoke:Unsubst||date=__DATE__ |$B=
+{{Fix-span
+|link=Wikipedia:Vagueness
+|text=vague
+|title={{{title|{{{reason|This information is too vague.}}}}}}
+|date={{{date|}}}
+|cat=[[Category:All Wikipedia articles needing clarification]]
+|cat-date=Category:Wikipedia articles needing clarification
+|content={{{text|}}}
+}}
+}}<noinclude>
+{{documentation}}
+</noinclude>

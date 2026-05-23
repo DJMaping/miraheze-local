@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Unbulleted list]]
+
+{{Rcat shell|
+{{R from template shortcut}}
+}}

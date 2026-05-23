@@ -1,0 +1,6 @@
+<templatestyles src="Reflist-talk/styles.css"/><div class="reflist-talk" {{#if:{{{style|}}}|style="{{{style}}}"}}>
+<p class="reflist-talk-title">{{{title|References}}}</p>
+{{reflist|{{{1|{{{colwidth|}}}}}}|refs={{{refs|}}}|group={{{group|}}}}}
+</div><noinclude>
+{{Documentation}}
+</noinclude>

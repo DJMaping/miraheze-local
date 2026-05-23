@@ -1,0 +1,202 @@
+/* {{pp-template}} */
+/* TODO: Invert width design to be "mobile first" */
+.sidebar {
+	/* TODO: Ask if we should have max-width 22em instead */
+	width: 22em;
+	/* @noflip */
+	float: right;
+	/* @noflip */
+	clear: right;
+	/* @noflip */
+	margin: 0.5em 0 1em 1em;
+	background: var(--background-color-neutral-subtle, #f8f9fa);
+	border: 1px solid var(--border-color-base, #a2a9b1);
+	padding: 0.2em;
+	text-align: center;
+	line-height: 1.4em;
+	font-size: 88%;
+	border-collapse: collapse;
+	/* Timeless has display: none on .nomobile at mobile resolutions, so we
+	 * unhide it with display: table and let precedence and proximity win.
+	 */
+	display: table; 
+}
+
+/* Unfortunately, so does Minerva desktop, except Minerva drops an
+ * !important on the declaration. So we have to be mean for Minerva users.
+ * Mobile removes the element entirely with `wgMFRemovableClasses` in 
+ * https://github.com/wikimedia/operations-mediawiki-config/blob/master/
+ wmf-config/InitialiseSettings.php#L16992
+ * which is why displaying it categorically with display: table works.
+ * We don't really want to expose the generic user in the wild on mobile to have
+ * to deal with sidebars. (Maybe the ones with collapsible lists, so that
+ * might be an improvement. That is blocked on [[:phab:T111565]].)
+ */
+body.skin-minerva .sidebar {
+	display: table !important;
+	/* also, minerva is way too aggressive about other stylings on tables.
+	 * TODO remove when this template gets moved to a div. plans on talk page.
+	 * We always float right on Minerva because that's a lot of extra CSS
+	 * otherwise. */
+    float: right !important;
+    margin: 0.5em 0 1em 1em !important;
+}
+
+.sidebar-subgroup {
+	width: 100%;
+	margin: 0;
+	border-spacing: 0;
+}
+
+.sidebar-left {
+	/* @noflip */
+	float: left;
+	/* @noflip */
+	clear: left;
+	/* @noflip */
+	margin: 0.5em 1em 1em 0;
+}
+
+.sidebar-none {
+	float: none;
+	clear: both;
+	/* @noflip */
+	margin: 0.5em 1em 1em 0;
+}
+
+.sidebar-outer-title {
+	padding: 0 0.4em 0.2em;
+	font-size: 125%;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+.sidebar-top-image {
+	padding: 0.4em;
+}
+
+.sidebar-top-caption,
+.sidebar-pretitle-with-top-image,
+.sidebar-caption {
+	padding: 0.2em 0.4em 0;
+	line-height: 1.2em;
+}
+
+.sidebar-pretitle {
+	padding: 0.4em 0.4em 0;
+	line-height: 1.2em;
+}
+
+.sidebar-title,
+.sidebar-title-with-pretitle {
+	padding: 0.2em 0.8em;
+	font-size: 145%;
+	line-height: 1.2em;
+}
+
+.sidebar-title-with-pretitle {
+	padding: 0.1em 0.4em;
+}
+
+.sidebar-image {
+	padding: 0.2em 0.4em 0.4em;
+}
+
+.sidebar-heading {
+	padding: 0.1em 0.4em;
+}
+
+.sidebar-content {
+	padding: 0 0.5em 0.4em;
+}
+
+.sidebar-content-with-subgroup {
+	padding: 0.1em 0.4em 0.2em;
+}
+
+.sidebar-above,
+.sidebar-below {
+	padding: 0.3em 0.8em;
+	font-weight: bold;
+}
+
+.sidebar-collapse .sidebar-above,
+.sidebar-collapse .sidebar-below {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+.sidebar-navbar {
+	text-align: right;
+	font-size: 115%;
+	padding: 0 0.4em 0.4em;
+}
+
+.sidebar-list-title {
+	padding: 0 0.4em;
+	text-align: left;
+	font-weight: bold;
+	line-height: 1.6em;
+	font-size: 105%;
+}
+
+/* centered text with mw-collapsible headers is finicky */
+.sidebar-list-title-c {
+	padding: 0 0.4em;
+	text-align: center;
+	margin: 0 3.3em;
+}
+
+@media (max-width: 640px) {
+	/* users have wide latitude to set arbitrary width and margin :(
+	   "Super-specific" selector to prevent overriding this appearance by
+	   lower level sidebars too */
+	body.mediawiki .sidebar {
+		width: 100% !important;
+		clear: both;
+		float: none !important; /* Remove when we div based; Minerva is dumb */
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	/* TODO: We might consider making all links wrap at small resolutions and then
+	 * only introduce nowrap at higher resolutions. Do when we invert the media
+	 * query.
+	 */
+}
+
+/* Fixes: T367463 */
+body.skin--responsive .sidebar a > img {
+	max-width: none !important;
+}
+
+/* Disable backgrounds via style attribute in night mode Eg.https://phabricator.wikimedia.org/F55243859
+ * https://en.wikipedia.org/w/index.php?title=Laissez-faire
+ */
+
+@media screen {
+    html.skin-theme-clientpref-night .sidebar:not( .notheme ) .sidebar-list-title,
+    html.skin-theme-clientpref-night .sidebar:not( .notheme ) .sidebar-title-with-pretitle {
+	  background: transparent !important;
+    }
+
+    html.skin-theme-clientpref-night .sidebar:not( .notheme ) .sidebar-title-with-pretitle a {
+     	color: var( --color-progressive ) !important;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .sidebar:not( .notheme ) .sidebar-list-title,
+	html.skin-theme-clientpref-os .sidebar:not( .notheme ) .sidebar-title-with-pretitle {
+		background: transparent !important;
+	}
+	
+	html.skin-theme-clientpref-os .sidebar:not( .notheme ) .sidebar-title-with-pretitle a {
+		color: var( --color-progressive ) !important;
+	}
+}
+
+@media print {
+	body.ns-0 .sidebar {
+		display: none !important;
+	}
+}

@@ -1,0 +1,28 @@
+__NONEWSECTIONLINK__{{Mbox
+| name  = Redirect category shell
+| type  = move 
+| image = none
+| style = margin-top: 1.1em; border: solid 1px darkblue; border-left-width: 0.5em;
+| textstyle = padding-top: 0.9em; padding-bottom: 0.9em;
+| text  = '''This {{Talk other|talk page|page}} is a [[Wikipedia:Redirect|redirect]]. <small>The following [[Wikipedia:Categorizing redirects|categories]] are used to track and monitor this redirect:</small>'''{{#if:{{{h|}}}
+ |{{block indent|1= ''{{{h}}}''}}
+ }}
+<!--
+  Automatically detect protected redirects:
+--><includeonly>{{#switch: {{PROTECTIONLEVEL:move}}
+   |sysop|templateeditor|extendedconfirmed={{pp-move|small=yes|catonly=no}}
+ }}{{#switch: {{PROTECTIONLEVEL:edit}}
+   |sysop
+   |templateeditor
+   |extendedconfirmed
+   |autoconfirmed={{pp-protected|small=yes}}{{R protected}}
+   | <!--Not protected, or only semi-move-protected-->
+ }}</includeonly>{{#if: {{{1|}}}||<includeonly>
+* {{red|'''Important – Please Read! {{maroon|This template should {{em|not}} be applied without parameters by bot nor by any automated or semi-automated process. It should {{em|not}} be used without parameters {{em|unless you want to learn how to categorize redirects}}. For editors who want to learn how to categorize redirects, this template is a {{em|learning tool}}. {{em|Only}} those editors who intend to return to the redirect to learn which rcats to use should apply this template without parameters, or with an empty first parameter!}}'''}}</includeonly>
+* '''Manifold sort''':  If help is needed to determine appropriate categories, then this redirect populates '''{{Cat|Miscellaneous redirects}}'''.  Monitors of that category will check this redirect and add or remove [[Wikipedia:Categorizing redirects|rcats]] as needed.{{#ifeq: {{lc:{{{nocat|false}}}}} | false |{{{category|<includeonly>[[Category:Miscellaneous redirects]]</includeonly>}}}}}
+}}
+{{#if: {{{2|}}}|{{{2}}}|{{{1|}}}}}{{#if: {{{1|}}}{{{2|}}}||{{#ifeq: {{ROOTPAGENAME}}|Redirect category shell||[[Category:Redirect category shell without parameters]]}}}}
+''<small>When appropriate, [[Wikipedia:Protection policy|protection levels]] are automatically sensed, described and categorized.</small>''
+}}<noinclude>
+{{Documentation}}
+</noinclude>

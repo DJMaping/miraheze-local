@@ -1,0 +1,35 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{#section:Help:footnotes|pregroup}}
+
+== TemplateData ==
+<templatedata>
+{
+	"description": "Inserts an explanatory footnote. Notes can be named and grouped. Will show as for example: [Note 1]",
+	"format": "inline",
+	"params": {
+		"1": {
+			"label": "Text",
+			"description": "Text of the note",
+			"aliases": [
+				"note",
+				"content",
+				"text"
+			],
+			"type": "content",
+			"required": true
+		},
+		"name": {
+			"label": "Name",
+			"description": "Reference name of the note",
+			"type": "line"
+		}
+	}
+}
+</templatedata>
+<includeonly>{{Sandbox other||
+<!-- Categories and interwikis go here: -->
+[[Category:Explanatory footnote templates]]
+[[Category:Templates that generate named references]]
+}}</includeonly>

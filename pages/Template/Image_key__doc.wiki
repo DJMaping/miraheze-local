@@ -1,0 +1,319 @@
+{{documentation subpage}}
+{{Lua|Module:List}}
+{{Uses TemplateStyles|Template:Image key/styles.css}}
+
+The '''image key''' template is intended to help create lists of keys in images. These keys will display in 2 columns. The syntax is trivial: just add the list using the same syntax as [[Template:Unbulleted list]]!
+
+== Use ==
+Note: This template may be used only within the caption parameter of an image. It won't work in a caption parameter of an infobox.
+<syntaxhighlight lang="wikitext">{{image key
+|list type=
+|
+|
+|
+...
+}}</syntaxhighlight>
+
+Prefer the redirect {{tl|legend-col}} when this template is being used to support the use of {{tl|legend}}.
+
+== Parameters ==
+; {{para|list type}}
+: Defines a list type for the template. Can be one of the values {{kbd|ordered}}, {{kbd|bulleted}}, {{kbd|unbulleted}} (synonym {{kbd|plainlist}}). An ordered list is numbered, bulleted are basic lists, and unbulleted display nothing (i.e., are "plain lists").
+; {{para|<N>}}
+: A list item. If there is an equal sign in the list item, add it as the numbered item e.g. {{para|1|list item with equals sign}}.
+; {{para|thumb size}}
+: Optional.
+: {{para|thumb size|wide}} Adds a 3rd column. Use only for "wide" images.
+: {{para|thumb size|narrow}} Removes one column to display 1 column only. Use only for "narrow" images.
+
+Most thumbnails these days use {{para|upright}}, so these are qualitative rather than quantitative directions for use of {{para|wide}} and {{para|narrow}}.
+
+== Examples ==
+=== Unordered list ===
+[[File:Map of global minimum wages per hour in USD.svg|thumb|upright=2.1|alt=World map, countries colored in different shades of blue by minimum wage|Minimum wages per hour in U.S. dollars (as of '''2014'''):
+{{legend-col
+|{{legend|#e0e0e0|No data}}
+|{{legend|#cccccc|No minimum wage}}
+|{{legend|#d0d1e6|$0.00–$1.00}}
+|{{legend|#a6bddb|$1.01–$2.00}}
+|{{legend|#74a9cf|$2.01–$3.00}}
+|{{legend|#3690c0|$3.01–$5.00}}
+|{{legend|#0570b0|$5.01–$7.50}}
+|{{legend|#045a8d|$7.51–$10.00}}
+|{{legend|#023858|>$10.00}}
+}}]]
+<syntaxhighlight lang="wikitext">
+[[File:Map of global minimum wages per hour in USD.svg|thumb|upright=2.1|alt=World map, countries colored in different shades of blue by minimum wage|Minimum wages per hour in U.S. dollars (as of '''2014'''):
+{{legend-col
+|{{legend|#e0e0e0|No data}}
+|{{legend|#cccccc|No minimum wage}}
+|{{legend|#d0d1e6|$0.00–$1.00}}
+|{{legend|#a6bddb|$1.01–$2.00}}
+|{{legend|#74a9cf|$2.01–$3.00}}
+|{{legend|#3690c0|$3.01–$5.00}}
+|{{legend|#0570b0|$5.01–$7.50}}
+|{{legend|#045a8d|$7.51–$10.00}}
+|{{legend|#023858|>$10.00}}
+}}]]
+</syntaxhighlight>
+
+{{clear}}
+
+=== Ordered list ===
+[[File:Insect anatomy diagram.svg|right|upright=1.35|thumb|alt=Diagram of an insect with callouts for morphology|Insect morphology<br />
+'''A''': Head, '''B''': Thorax, '''C''': Abdomen
+{{image key
+|list type=ordered
+|[[Antenna (biology)|antenna]]
+|[[Ocellus|ocelli]] (lower)
+|ocelli (upper)
+|[[compound eye]]
+|brain (cerebral [[Ganglion|ganglia]])
+|[[prothorax]]
+|dorsal blood vessel
+|[[invertebrate trachea|tracheal]] tubes (trunk with [[Spiracle (arthropods)|spiracle]])
+|[[mesothorax]]
+|[[metathorax]]
+|[[insect wing|forewing]]
+|[[insect wing|hindwing]]
+|mid-gut (stomach)
+|dorsal tube (Heart)
+|ovary
+|[[hind-gut]] (intestine, rectum & anus)
+|anus
+|oviduct
+|nerve chord (abdominal ganglia)
+|[[Malpighian tubule system|Malpighian tubes]]
+|tarsal pads
+|claws
+|[[Arthropod leg|tarsus]]
+|[[Arthropod leg|tibia]]
+|[[Arthropod leg|femur]]
+|[[Arthropod leg|trochanter]]
+|fore-gut (crop, gizzard)
+|thoracic ganglion
+|[[Arthropod leg|coxa]]
+|salivary gland
+|[[subesophageal ganglion]]
+|[[insect mouthparts|mouthparts]]
+}}]]
+<syntaxhighlight lang="wikitext">[[File:Insect anatomy diagram.svg|right|upright=1.35|thumb|alt=Diagram of an insect with callouts for morphology|Insect morphology<br />
+'''A'''- Head '''B'''- Thorax '''C'''- Abdomen <br />
+{{image key
+|list type=ordered
+|[[Antenna (biology)|antenna]]
+|[[Ocellus|ocelli]] (lower)
+|ocelli (upper)
+|[[compound eye]]
+|brain (cerebral [[Ganglion|ganglia]])
+|[[prothorax]]
+|dorsal blood vessel
+|[[invertebrate trachea|tracheal]] tubes (trunk with [[Spiracle (arthropods)|spiracle]])
+|[[mesothorax]]
+|[[metathorax]]
+|[[insect wing|forewing]]
+|[[insect wing|hindwing]]
+|mid-gut (stomach)
+|dorsal tube (Heart)
+|ovary
+|[[hind-gut]] (intestine, rectum & anus)
+|anus
+|oviduct
+|nerve chord (abdominal ganglia)
+|[[Malpighian tubule system|Malpighian tubes]]
+|tarsal pads
+|claws
+|[[Arthropod leg|tarsus]]
+|[[Arthropod leg|tibia]]
+|[[Arthropod leg|femur]]
+|[[Arthropod leg|trochanter]]
+|fore-gut (crop, gizzard)
+|thoracic ganglion
+|[[Arthropod leg|coxa]]
+|salivary gland
+|[[subesophageal ganglion]]
+|[[insect mouthparts|mouthparts]]
+}}]]</syntaxhighlight>
+{{clear}}
+
+=== Ordered list, narrow ===
+[[File:Insect anatomy diagram.svg|right|upright=1.35|thumb|alt=Diagram of an insect with callouts for morphology|Insect morphology<br />
+'''A''': Head, '''B''': Thorax, '''C''': Abdomen
+{{image key
+|list type=ordered
+|thumb size=narrow
+|[[Antenna (biology)|antenna]]
+|[[Ocellus|ocelli]] (lower)
+|ocelli (upper)
+|[[compound eye]]
+|brain (cerebral [[Ganglion|ganglia]])
+|[[prothorax]]
+|dorsal blood vessel
+|[[invertebrate trachea|tracheal]] tubes (trunk with [[Spiracle (arthropods)|spiracle]])
+|[[mesothorax]]
+|[[metathorax]]
+|[[insect wing|forewing]]
+|[[insect wing|hindwing]]
+|mid-gut (stomach)
+|dorsal tube (Heart)
+|ovary
+|[[hind-gut]] (intestine, rectum & anus)
+|anus
+|oviduct
+|nerve chord (abdominal ganglia)
+|[[Malpighian tubule system|Malpighian tubes]]
+|tarsal pads
+|claws
+|[[Arthropod leg|tarsus]]
+|[[Arthropod leg|tibia]]
+|[[Arthropod leg|femur]]
+|[[Arthropod leg|trochanter]]
+|fore-gut (crop, gizzard)
+|thoracic ganglion
+|[[Arthropod leg|coxa]]
+|salivary gland
+|[[subesophageal ganglion]]
+|[[insect mouthparts|mouthparts]]
+}}]]
+<syntaxhighlight lang="wikitext">[[File:Insect anatomy diagram.svg|right|upright=1.35|thumb|alt=Diagram of an insect with callouts for morphology|Insect morphology<br />
+'''A'''- Head '''B'''- Thorax '''C'''- Abdomen <br />
+{{image key
+|list type=ordered
+|thumb size=narrow
+|[[Antenna (biology)|antenna]]
+|[[Ocellus|ocelli]] (lower)
+|ocelli (upper)
+|[[compound eye]]
+|brain (cerebral [[Ganglion|ganglia]])
+|[[prothorax]]
+|dorsal blood vessel
+|[[invertebrate trachea|tracheal]] tubes (trunk with [[Spiracle (arthropods)|spiracle]])
+|[[mesothorax]]
+|[[metathorax]]
+|[[insect wing|forewing]]
+|[[insect wing|hindwing]]
+|mid-gut (stomach)
+|dorsal tube (Heart)
+|ovary
+|[[hind-gut]] (intestine, rectum & anus)
+|anus
+|oviduct
+|nerve chord (abdominal ganglia)
+|[[Malpighian tubule system|Malpighian tubes]]
+|tarsal pads
+|claws
+|[[Arthropod leg|tarsus]]
+|[[Arthropod leg|tibia]]
+|[[Arthropod leg|femur]]
+|[[Arthropod leg|trochanter]]
+|fore-gut (crop, gizzard)
+|thoracic ganglion
+|[[Arthropod leg|coxa]]
+|salivary gland
+|[[subesophageal ganglion]]
+|[[insect mouthparts|mouthparts]]
+}}]]</syntaxhighlight>
+{{clear}}
+
+=== Unordered list, wide ===
+[[File:Map of global minimum wages per hour in USD.svg|thumb|upright=2.1|alt=World map, countries colored in different shades of blue by minimum wage|Minimum wages per hour in U.S. dollars (as of '''2014'''):
+{{legend-col
+|thumb size=wide
+|{{legend|#e0e0e0|No data}}
+|{{legend|#cccccc|No minimum wage}}
+|{{legend|#d0d1e6|$0.00–$1.00}}
+|{{legend|#a6bddb|$1.01–$2.00}}
+|{{legend|#74a9cf|$2.01–$3.00}}
+|{{legend|#3690c0|$3.01–$5.00}}
+|{{legend|#0570b0|$5.01–$7.50}}
+|{{legend|#045a8d|$7.51–$10.00}}
+|{{legend|#023858|>$10.00}}
+}}]]
+<syntaxhighlight lang="wikitext">
+[[File:Map of global minimum wages per hour in USD.svg|thumb|upright=2.1|alt=World map, countries colored in different shades of blue by minimum wage|Minimum wages per hour in U.S. dollars (as of '''2014'''):
+{{legend-col
+|thumb size=wide
+|{{legend|#e0e0e0|No data}}
+|{{legend|#cccccc|No minimum wage}}
+|{{legend|#d0d1e6|$0.00–$1.00}}
+|{{legend|#a6bddb|$1.01–$2.00}}
+|{{legend|#74a9cf|$2.01–$3.00}}
+|{{legend|#3690c0|$3.01–$5.00}}
+|{{legend|#0570b0|$5.01–$7.50}}
+|{{legend|#045a8d|$7.51–$10.00}}
+|{{legend|#023858|>$10.00}}
+}}]]
+</syntaxhighlight>
+
+{{clear}}
+
+== TemplateData ==
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "List element",
+			"description": "Element in the list. Can be infinite elements.",
+			"type": "content",
+			"required": true
+		},
+		"2": {
+			"inherits": "1",
+			"required": false
+		},
+		"3": {
+			"inherits": "2"
+		},
+		"4": {
+			"inherits": "2"
+		},
+		"5": {
+			"inherits": "2"
+		},
+		"6": {
+			"inherits": "2"
+		},
+		"7": {
+			"inherits": "2"
+		},
+		"8": {
+			"inherits": "2"
+		},
+		"9": {
+			"inherits": "2"
+		},
+		"10": {
+			"inherits": "2"
+		},
+		"list type": {
+			"label": "List type",
+			"description": "Optional kind of list to display. Can be \"ordered\", \"bulleted\", or the default, which is \"unbulleted\".",
+			"type": "string",
+			"required": false,
+			"default": "unbulleted"
+		},
+		"thumb size": {
+			"label": "Thumb size",
+			"description": "Optional size of the containing thumbnail. \"narrow\" will output only 1 column. \"wide\" will output 3 columns. Default is 2 columns. (Column count may differ on mobile.)",
+			"type": "string",
+			"required": false
+		}
+	},
+	"description": "Helps create lists of keys in images, especially using columns",
+	"format": "block",
+	"paramOrder": [
+		"list type",
+		"thumb size",
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"10"
+	]
+}
+</templatedata>

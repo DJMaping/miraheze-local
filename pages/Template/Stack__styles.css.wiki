@@ -1,0 +1,51 @@
+/* {{pp-template}} */
+.stack {
+	box-sizing: border-box;
+}
+
+.stack > div {
+	margin: 1px;
+	overflow: hidden;
+}
+
+@media all and (min-width: 720px) {
+	.stack-clear-left {
+		float: left;
+		clear: left;
+	}
+	
+	.stack-clear-right {
+		float: right;
+		clear: right;
+	}
+	
+	.stack-left {
+		float: left;
+	}
+	
+	.stack-right {
+		float: right;
+	}
+	
+	.stack-margin-clear-left {
+		float: left;
+		clear: left;
+		margin-right: 1em;
+	}
+	
+	.stack-margin-clear-right {
+		float: right;
+		clear: right;
+		margin-left: 1em;
+	}
+	
+	.stack-margin-left {
+		float: left;
+		margin-right: 1em;
+	}
+	
+	.stack-margin-right {
+		float: right;
+		margin-left: 1em;
+	}
+}

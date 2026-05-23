@@ -1,0 +1,11 @@
+{{#switch:{{{1|all}}}
+  | a | all | #default = box-shadow: inset {{{w|{{{3|1px}}}}}} {{{w|{{{3|1px}}}}}} 0 {{{c1|{{{c|{{{2|#000}}}}}}}}}, inset -{{{w|{{{3|1px}}}}}} -{{{w|{{{3|1px}}}}}} 0 {{{c2|{{{c|{{{2|#000}}}}}}}}};
+  | t | top = box-shadow: inset 0 {{{w|{{{3|1px}}}}}} 0 0 {{{c|{{{2|#000}}}}}};
+  | b | bottom = box-shadow: inset 0 -{{{w|{{{3|1px}}}}}} 0 0 {{{c|{{{2|#000}}}}}};
+  | tb | bt | top bottom | bottom top = box-shadow: inset 0 {{{w|{{{3|1px}}}}}} 0 0 {{{c1|{{{c|{{{2|#000}}}}}}}}}, inset 0 -{{{w|{{{3|1px}}}}}} 0 0 {{{c2|{{{c|{{{2|#000}}}}}}}}};
+  | lr | rl | left right | right left = box-shadow: inset {{{w|{{{3|1px}}}}}} 0 0 0 {{{c1|{{{c|{{{2|#000}}}}}}}}}, inset -{{{w|{{{3|1px}}}}}} 0 0 0 {{{c2|{{{c|{{{2|#000}}}}}}}}};
+  | l | left = box-shadow: inset {{{w|{{{3|1px}}}}}} 0 0 0 {{{c|{{{2|#000}}}}}};
+  | r | right = box-shadow: inset -{{{w|{{{3|1px}}}}}} 0 0 0 {{{c|{{{2|#000}}}}}};
+}}<noinclude>
+{{Documentation}}
+</noinclude>

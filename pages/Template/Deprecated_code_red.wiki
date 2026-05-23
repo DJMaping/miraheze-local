@@ -1,0 +1,6 @@
+{{Deprecated code|red=y|{{{1|Example text}}}}}<noinclude>
+
+{{documentation|Template:Deprecated code/doc}}
+
+<!-- Please add documentation and categories to the /doc subpage, interwikis to Wikidata, thank you -->
+</noinclude>

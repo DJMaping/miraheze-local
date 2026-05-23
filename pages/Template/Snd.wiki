@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Spaced en dash]]
+
+{{Redirect category shell|
+{{R from template shortcut}}
+}}

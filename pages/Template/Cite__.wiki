@@ -1,0 +1,5 @@
+<code><nowiki>{{</nowiki>[[Template:Citation/core|cite *]]<nowiki>}}</nowiki></code><noinclude>
+{{doc|content=
+This template can be used on documentation pages to describe the set of templates supported by [[Module:Citation/CS1]]. [[Category:Documentation assistance templates]]
+}}
+</noinclude>

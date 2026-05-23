@@ -1,0 +1,51 @@
+{{Documentation subpage}}
+
+This template shows square miles only.
+
+Conversion to square miles via {{tlx|cvt}} or {{tlx|convert}} is strongly suggested by [[WP:UNITS]]. Eg:
+* <code><nowiki>{{cvt|100|mi2|0}}</nowiki></code> → {{cvt|100|mi2|0}}
+* <code><nowiki>{{cvt|100|mi2|round=5}}</nowiki></code> → {{cvt|100|mi2|round=5}}
+
+== Usage ==
+{{tlxi|mi2|number}}
+
+Example:
+* {{tld|mi2}} → {{mi2}}
+* {{tld|mi2|123.45}} → {{mi2|123.45}}
+* {{tld|mi2|123.45 million}} → {{mi2|123.45 million}}
+* {{tld|mi2|123.45|3=link=yes}} → {{mi2|123.45|link=yes}}
+
+==Template data==
+{{template data header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Area",
+			"description": "Area in square miles",
+			"type": "number",
+			"required": false
+		},
+		"link": {
+			"label": "Link?",
+			"description": "Link square mile to article",
+			"example": "yes",
+			"type": "boolean",
+			"suggested": false,
+			"required": false
+		}
+	},
+	"description": "This template shows square miles only.",
+	"format": "inline",
+	"paramOrder": [
+		"1",
+		"link"
+	]
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+{{DEFAULTSORT:mi2}}
+[[Category:Unit indicator templates]]
+
+}}</includeonly>

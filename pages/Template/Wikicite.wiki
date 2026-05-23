@@ -1,0 +1,9 @@
+<templatestyles src="Citation/styles.css"/><span class="citation wikicite" id={{#if: {{{ref|}}}
+     |{{{ref}}}
+     |{{#if: {{{id|}}}
+           |"Reference-{{{id}}}"
+           |{{#invoke:Template wrapper |wrap |_include-positional=yes |_template=SfnRef}}
+      }}
+}}>{{{reference|}}}</span><noinclude>
+{{Documentation}}
+</noinclude>

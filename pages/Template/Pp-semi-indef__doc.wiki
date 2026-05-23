@@ -1,0 +1,26 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Twinkle standard installation}}
+{{User:MusikBot II/Config notice}}
+{{Lua|Module:Protection banner}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+'''Note: This template is not blank; see the top right corner of the protected page'''
+
+=== Usage ===
+This template is normally used for pages that are semi-protected for longer periods of time.
+
+This template categorizes articles into [[:Category:Wikipedia indefinitely semi-protected pages]]. For articles that are semi-protected, use [[Template:pp-vandalism]].
+
+This template will not be visible on pages that are not protected. '''Adding this template to an article does not protect it.''' Protection can only be applied by [[Wikipedia:Administrators|administrators]], and can be requested at [[Wikipedia:Requests for page protection]].
+
+=== See also ===
+* {{tl|high traffic}}
+
+{{protection templates}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Top icon protection templates|{{PAGENAME}}]]
+[[Category:Title templates|{{PAGENAME}}]]
+
+}}</includeonly>

@@ -1,0 +1,10 @@
+{{high risk}}
+{{cascade-protected template|page=module}}
+This submodule of [[Module:Pagetype]] contains a list of templates used to identify [[Wikipedia:Set index articles|set index articles]].
+
+It should consist of all templates in [[:Category:Set index article templates]], plus their redirects. 
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+
+}}</includeonly>

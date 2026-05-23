@@ -1,0 +1,29 @@
+{{Navbox
+| name       = Purge Pages
+| title      = Purge Pages
+| bodyclass  = hlist
+| state      = {{{state|{{{1|}}}}}}
+
+| group1     = General purge templates
+| list1      =
+*{{tl|Purge}}
+*{{tl|Purge box}}
+*{{tl|Purge button}}
+*{{tl|Purge link portals}}
+*{{tl|Purge page}}
+*{{tlu|User:UBX/Purge}}
+
+| group2     = About Purge on Wikipedia
+| list2      =
+*[[Wikipedia:Purge]]
+*[[commons:Template:Purge]]
+
+|belowstyle = font-weight:bold;
+|below =
+* {{Purge}}
+
+}}<noinclude>
+{{documentation|content=
+{{collapsible option|statename=optional}}
+[[Category:Documentation see also templates]]
+}}</noinclude>

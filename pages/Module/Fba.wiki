@@ -1,0 +1,17 @@
+local p = {}
+
+local list = require("Module:Fba/list")
+
+function p.list(frame)
+	return list.list(frame)
+end
+
+function p.clist(frame)
+	return list.codes[frame.args[1]] or ""
+end
+
+function p.fbalist(frame)
+	return list.fbas[frame.args[1]] or ""
+end
+
+return p

@@ -1,0 +1,3 @@
+{{#invoke:flag||Anguilla}}<noinclude>
+{{flag template documentation|Anguilla|AIA||AIA}}
+</noinclude>

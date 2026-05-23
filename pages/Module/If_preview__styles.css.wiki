@@ -1,0 +1,14 @@
+/* {{pp|small=yes}} */
+.preview-warning {
+	font-style: italic;
+	/* @noflip */
+	padding-left: 1.6em;
+	margin-bottom: 0.5em;
+	color: var(--color-error, red);
+}
+
+/* The templatestyles element inserts a link element before hatnotes.
+ * TODO: Remove link if/when WMF resolves T200206 */
+.preview-warning + link + .preview-warning {
+	margin-top: -0.5em;
+}

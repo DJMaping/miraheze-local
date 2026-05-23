@@ -1,0 +1,4 @@
+<span class="flagicon">[[File:{{{flag alias-air force-{{{variant}}}|{{{flag alias-{{{variant}}}|{{{flag alias-air force|{{{flag alias}}}}}}}}}}}}|{{#if:{{{size|}}}|{{{size}}}|{{{size flag alias-air force-{{{variant}}}|{{#if:{{{flag alias-air force-{{{variant}}}|}}}|23x15px|{{{size flag alias-{{{variant}}}|{{#if:{{{variant|}}}|23x15px|{{{size flag alias-air force|{{#if:{{{flag alias-air force|}}}|23x15px|{{{size flag alias|23x15px}}}}}}}}}}}}}}}}}}}}|{{{border-air force-{{{variant}}}|{{{border-{{{variant}}}|{{{border-air force|{{{border|border}}}}}}}}}}}} |alt=|link=]]&nbsp;</span>[[{{{link alias-air force|{{{shortname alias|{{{alias}}}}}} Air Force}}}{{#if: {{{name|}}} | {{!}}{{{name}}} }}]]<noinclude>
+{{Documentation|content=This is a meta-template used internally by [[Template:Air force]]. It is not intended to be transcluded directly from the main article space.}}
+[[Category:Flag template system cores]]
+</noinclude>

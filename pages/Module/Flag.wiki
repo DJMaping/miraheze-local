@@ -1,0 +1,142 @@
+local margs = require('Module:Arguments')
+
+local function _main(frame, name, mode, key)
+	local categories = {
+		['Flag icon'] = '[[Category:Flag icons missing country data templates]]',
+		['Flag decoration'] = '[[Category:Flag decoration missing country data templates]]',
+	}
+
+    local yesno = require('Module:Yesno')
+
+	--Get input arguments
+	local args = margs.getArgs(frame, {
+		frameOnly = ((frame.args.frameonly or '') ~= ''), valueFunc =
+			function(key,value)
+				if value then
+					value = mw.text.trim(value)
+					--Change empty string to nil for all args except 'image' and 'border'
+					if key=="image" or key=="border" or value~="" then
+						return value
+					end
+				end
+				return nil
+			end
+	} )
+	
+	local preftext, sufftext = "", ""
+	
+	if name == 'Flag+link' then
+		args.pref = args[1]
+	elseif name == 'Flag athlete' then
+		args.preftext = args[1]
+		args[2] = args.code or args[2] or ""
+		args.variant = args.variant or args[3]
+	elseif name == 'Flag medalist' then
+		preftext = (args[1] or "") .. "<br/>"
+		args[2] = args.code or args[2] or ""
+		args.variant = args.variant or args[3]
+	elseif name == 'Flag link' then
+		args.suff = args[2]
+		args[2] = args[1] or ""
+		args.variant = args.variant or args[3]
+	elseif key ~= nil then
+		args.variant = args.variant or args[1]
+		args[2] = key
+	else
+		sports = {
+			fb = 'fb',
+			['fb-rt'] = 'fb',
+			fbicon = 'fb',
+			ru = 'ru',
+			fba = 'fba',
+			fbaicon = 'fba'
+		}
+		if sports[name] and args[1] then
+			args.avar = sports[name]
+			if name == 'fb' and yesno(args.align) == true then
+				args.align='c'
+			elseif args.avar == 'fba' then
+				local list = require("Module:Fba/list")
+				local old = ((args.old or "") ~= "") and "_old" or ""
+				local fba = list.fbas[args[1] .. old]
+				if not fba and string.len(args[1]) == 3 then
+					for k, v in pairs(list.codes) do
+						if v == args[1] then fba = list.fbas[k]; break end
+					end
+				end
+				if args.name == "code" then
+					args.name = list.codes[args[1]]
+				elseif args.name == "full" then
+					args.name = fba
+				end
+				if fba then
+					mode = string.gsub(mode, "p", "c")
+					args.link = fba
+				end
+				args.altlink = args.old
+			end
+		elseif name == "Flag team" and (args.code or args[1]) then
+			sufftext = '&nbsp;<span style="font-size:90%;">('..(args.code or args[1])..')</span>'
+		end
+		args.variant = args.variant or args[2]
+		args[2] = args[1] or ""
+	end
+
+	args[1] = mode .. (args.opts or '')
+	args.missingcategory = categories[name]
+	args.noredlink = args.noredlink or 'notext'
+
+	if args.placeholder and yesno(args.placeholder) ~= true then
+		args[1] = args[1] .. 'o'
+	end
+
+	check = ''
+	
+	if name == 'Flag icon' and mw.title.getCurrentTitle().namespace == 0 then
+		local unknown = '[[Category:Pages using ' .. mw.ustring.lower(name) .. 
+			' template with unknown parameters|_VALUE_' .. frame:getParent():getTitle() .. ']]'
+		local opts = {
+            unknown=unknown,
+            preview='Page using [[Template:' .. name .. ']] with unknown parameter "_VALUE_"',
+            ignoreblank='y',
+            '1','2','variant','image','size','sz','border','align','al','width',
+            'w','alt','ilink','noredlink','missingcategory','name','clink','link',
+            'pref','suff','plink','the','section','altvar','avar','age','nalign',
+            'nal','text','nodata','opts','placeholder','getParent','frameonly'
+		}
+		check = require('Module:Check for unknown parameters')._check(opts,args)
+	end
+
+	return preftext .. require('Module:Flagg').luaMain(frame,args) .. sufftext .. check
+end
+
+local p = {
+	['']       = function (frame) return _main(frame, 'Flag',            'unc'   ) end,
+	decoration = function (frame) return _main(frame, 'Flag decoration', 'uxx'   ) end,
+	icon       = function (frame) return _main(frame, 'Flag icon',       'cxxl'  ) end,
+	link       = function (frame) return _main(frame, 'Flag link',       'unpe'  ) end,
+	['+link']  = function (frame) return _main(frame, 'Flag+link',       'unpefo') end,
+	country    = function (frame) return _main(frame, 'Flag country',    'unce'  ) end,
+	team       = function (frame) return _main(frame, 'Flag team',       'unce'  ) end,
+	athlete    = function (frame) return _main(frame, 'Flag athlete',    'unape' ) end,
+	medalist   = function (frame) return _main(frame, 'Flag medalist',   'unce'  ) end,
+	fb         = function (frame) return _main(frame, 'fb',              'unpe'  ) end,
+	fba        = function (frame) return _main(frame, 'fba',             'unpe'  ) end,
+	['fb-rt']  = function (frame) return _main(frame, 'fb-rt',           'unpre' ) end,
+	fbicon     = function (frame) return _main(frame, 'fbicon',          'pxxl'  ) end,
+	fbaicon    = function (frame) return _main(frame, 'fbaicon',         'pxxl'  ) end,
+	ru         = function (frame) return _main(frame, 'ru',              'unpe'  ) end,
+	IOC        = function (frame) return require('Module:Country_alias').flagIOC(frame:newChild{ title = 'Template:Flag IOC' }) end,
+	IOC2       = function (frame) return require('Module:Country_alias').flagXYZ(frame:newChild{ title = 'Template:Flag IOC 2', args = {name = margs.getArgs(frame).name or '', type = 'name'} }) end,
+	IOCathlete = function (frame) return require('Module:Country_alias').flagXYZ(frame:newChild{ title = 'Template:Flag IOC athlete', args = {type = 'athlete-O'} }) end,
+}
+
+p['deco'] = p.decoration
+p['IOC 2'] = p.IOC2
+p['IOC athlete'] = p.IOCathlete
+
+return setmetatable (p, {['__index'] =											-- returns table p with the metatable __index set so that, if the table KEY isn't recognized, it returns
+	function (_, key)															-- this anonymous function called as function(p, KEY)
+		return function (frame) return _main(frame, 'Flag', 'unc', key) end		-- which interprets the module call as {{flag|KEY}} and passes it to _main()
+	end
+})

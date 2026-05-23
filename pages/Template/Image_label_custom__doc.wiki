@@ -1,0 +1,39 @@
+{{Documentation subpage}}
+This [[Wikipedia:Template|template]] is intended for use with [[Template:Image label begin]] and [[Template:Image label end]]. For an overview of their use, examples, best practices, and alternative templates, see [[Template:Image label begin/doc]].
+
+This template creates text labels over an image when used between {{tl|Image label begin}} and {{tl|Image label end}}. It is based on [[Template:Image label]] but allows for changing font size and more.
+
+{| class="wikitable plainrowheaders" style="line-height:1.3em;"
+! scope="col" | Parameter
+! scope="col" | Explanation
+|-
+| scope="row" | ''x''
+| The point on the x-axis on which the text will start (it will be the text's top-left corner). The value is always between 0 and 1, with 0 being the left edge and 1 being the right edge of the image.
+|-
+| scope="row" | ''y''
+| The point on the y-axis on which the text will start (it will be the text's top-left corner). The value is always between 0 and 1, with 0 being the top edge and 1 being the bottom edge of the image.
+|-
+| scope="row" | ''scale''
+| This should likely correspond to the size specified in [[Template:image label begin]]. It is a value in pixels which the coordinates will scale to. This way, the overall image can change size while maintaining labels in the correct position.
+|-
+| scope="row" | ''size''
+| (Optional) Font size. Accepts any CSS <code>[http://www.w3schools.com/cssref/pr_font_font-size.asp font-size]</code> property values (but do not include a semicolon).
+|-
+| scope="row" | ''font-stretch''
+| (Optional) Font stretch. Accepts any valid CSS <code>[https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch font-stretch]</code> property values (but do not include a semicolon).
+|-
+| scope="row" | ''bold''
+| (Optional) Bold text. Default is no. The only recognized value is "yes", which will result in bold text.
+|-
+| scope="row" | ''border''
+| (Optional) Border around the text. Default is none. Use value "yes" for a basic 1px solid border. Otherwise, if any value is given it will be treated as the CSS property <code>[http://www.w3schools.com/cssref/pr_border.asp border]</code> (but do not include a semicolon).
+|-
+|scope="row" | ''padding''
+|(Optional) padding. Default is none. Treated as the CSS <code>[http://www.w3schools.com/cssref/pr_padding.asp padding]</code> property (but do not include a semicolon).
+|-
+| scope="row" | ''extra''
+| (Optional) Additional style of the label. Can contain a valid CSS property if needed.
+|-
+| scope="row" | ''text''
+| Text of the label. Can contain wikilinks.
+|}

@@ -1,0 +1,7 @@
+<includeonly>{{#expr:{{{3}}}+{{precision|{{{1}}}}}+1}}</includeonly><noinclude>
+{{documentation|content=
+This subtemplate counts significant figures in a number.
+
+[[Category:Subtemplates of mathematical function templates|sum]]
+}}
+</noinclude>

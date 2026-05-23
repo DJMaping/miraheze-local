@@ -1,0 +1,5 @@
+<span style="background-color: {{{c|{{{1|}}}}}};color:black;">{{{t|{{{2|}}}}}}</span>{{Main other|{{Ensure AAA contrast ratio|base={{{c|{{{1|}}}}}}|other={{{t|{{{2|}}}}}}|category=[[Category:Pages using Template:Background color with invalid color combination]]}}}}{{Template other|{{Ensure AAA contrast ratio|base={{{c|{{{1|}}}}}}|other={{{t|{{{2|}}}}}}|category=[[Category:Pages using Template:Background color with invalid color combination]]}}}}<noinclude>
+
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>

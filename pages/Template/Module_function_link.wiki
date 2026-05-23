@@ -1,0 +1,7 @@
+<includeonly>{{safesubst:<noinclude />#if:{{{1|}}}
+	|&#123;&#123;{{safesubst:<noinclude />#invoke:separated entries|main|[[Module:{{{1}}}|#invoke:{{{1}}}]]|{{safesubst:<noinclude />#if:{{{2|/}}}
+		|{{safesubst:<noinclude />#if:{{{2|}}}|[[Module:{{{1}}}#{{{2}}}|{{{2}}}]]}}
+		|''function''
+	}}|separator=&#124;}}&#125;&#125;
+	|{{#invoke:Error|error|Error: Missing module name.}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>

@@ -1,0 +1,24 @@
+<includeonly><templatestyles src="Refbegin/styles.css" /><!--
+--><div class="refbegin <!--
+-->{{#if: {{{indent|}}} | refbegin-hanging-indents }} <!--
+-->{{#if: {{{1|{{{colwidth|}}}}}} |
+     {{#ifeq: {{{1}}} | 1 
+       | <!--default to no columns-->
+       | refbegin-columns references-column-width 
+     }}
+   }}
+    " style="<!--
+ -->{{#if: {{{1|}}}
+      |{{#ifeq: {{{1}}} | 1 
+        |<!--default to no columns-->
+        | {{#iferror: {{#ifexpr: {{{1|1}}} > 1 }}
+            | column-width: {{#if:1|{{{1|30em}}}}}
+            | column-width: 30em 
+          }}
+       }}
+      | {{#if: {{{colwidth|}}}
+          | column-width: {{{colwidth|30em}}} 
+        }} 
+    }}"></includeonly><noinclude>
+{{Documentation}}
+</noinclude>

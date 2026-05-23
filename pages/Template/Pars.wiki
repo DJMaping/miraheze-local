@@ -1,0 +1,25 @@
+<includeonly>{{
+  #if: {{{2|}}}
+     |{{font | size={{{2}}} | text=(}}<span class="nowrap" style="padding-left:0.1em; padding-right:0.1em;">{{{1|&nbsp;&nbsp;}}}</span>{{font | size={{{2}}} | text=)}}|{{#if: {{{s|}}}
+           |{{font | size={{{s}}} | text=(}}|(}}{{
+                #if: {{{1|}}}
+                   |<span class="nowrap" style="padding-left:0.1em; padding-right:0.1em;">{{{1}}}</span>|&nbsp;&nbsp;}}{{
+                #if: {{{s|}}}
+                   |{{font | size={{{s}}} | text=)}}|)}}}}</includeonly><noinclude>
+<!------- 
+
+Below, we add spacing to the above code to make it more readable: 
+
+------->
+{{#if: {{{2|}}}  |   <!--- Start case where 2 is defined --->
+{{font | {{{2}}} | text=(}}<span class="nowrap" style="padding-left:0.1em; padding-right:0.1em;">{{{1|&nbsp;&nbsp;}}}</span>{{font | {{{2}}} | text=)}}      <!--- End case where 2 is defined -->
+|                  <!-- Start case where 2 is NOT defined -->
+{{#if: {{{s|}}} |{{font | size={{{s}}} | text=(}}|(}} <!--- If s is defined then font ( otherwise, print a normal ( --->
+{{#if: {{{1|}}} |   <!--- Start case where 1 is defined --->
+<span class="nowrap" style="padding-left:0.1em; padding-right:0.1em;">{{{1}}}</span>
+|                  <!--- Start case where 1 is NOT defined --->
+&nbsp;&nbsp;}}
+{{#if: {{{s|}}} |{{font | size={{{s}}} | text=)}}|)}} <!--- If s is defined then font ) otherwise, else print a normal ) --->
+}}<!--- End the if statement: {{#if: {{{2|}}} | ...  --->
+{{documentation}}
+</noinclude>

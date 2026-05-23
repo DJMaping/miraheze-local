@@ -1,0 +1,43 @@
+<div style="float:right; background-color:#e1e6db; color: #393D38; padding: 1em; font-size: 0.9em; width:28%; border-radius:10px;box-shadow:-2px -2px 1px #8e8a78;">[[File:MirahezeHoneycomb.png|40px|right]] {{trim|
+Dependencies:
+* [[{{{1}}}]]
+{{#if:{{{2|}}}|* [[{{{2}}}]]}}
+{{#if:{{{3|}}}|* [[{{{3}}}]]}}
+{{#if:{{{4|}}}|* [[{{{4}}}]]}}
+{{#if:{{{5|}}}|* [[{{{5}}}]]}}
+{{#if:{{{6|}}}|* [[{{{6}}}]]}}
+{{#if:{{{7|}}}|* [[{{{7}}}]]}}
+{{#if:{{{8|}}}|* [[{{{8}}}]]}}
+{{#if:{{{9|}}}|* [[{{{9}}}]]}}
+{{#if:{{{10|}}}|* [[{{{10}}}]]}}
+{{#if:{{{11|}}}|* [[{{{11}}}]]}}
+{{#if:{{{12|}}}|* [[{{{12}}}]]}}
+{{#if:{{{13|}}}|* [[{{{13}}}]]}}
+{{#if:{{{14|}}}|* [[{{{14}}}]]}}
+{{#if:{{{15|}}}|* [[{{{15}}}]]}}
+{{#if:{{{16|}}}|* [[{{{16}}}]]}}
+{{#if:{{{17|}}}|* [[{{{17}}}]]}}
+{{#if:{{{18|}}}|* [[{{{18}}}]]}}
+{{#if:{{{19|}}}|* [[{{{19}}}]]}}
+{{#if:{{{20|}}}|* [[{{{20}}}]]}}
+{{#if:{{{21|}}}|* [[{{{21}}}]]}}
+{{#if:{{{22|}}}|* [[{{{22}}}]]}}
+{{#if:{{{23|}}}|* [[{{{23}}}]]}}
+{{#if:{{{24|}}}|* [[{{{24}}}]]}}
+{{#if:{{{25|}}}|* [[{{{25}}}]]}}
+{{#if:{{{26|}}}|* [[{{{26}}}]]}}
+{{#if:{{{27|}}}|* [[{{{27}}}]]}}
+{{#if:{{{28|}}}|* [[{{{28}}}]]}}
+{{#if:{{{29|}}}|* [[{{{29}}}]]}}
+{{#if:{{{30|}}}|* [[{{{30}}}]]}}
+}}</div><noinclude>{{doc|content=Indicates which other templates (or modules) from this wiki the given template depends on. If you export this template to another wiki, you will need to export those too.
+
+== Usage ==
+<pre>{{Dependencies| | | | | }}</pre>
+
+== Example ==
+{{Dependencies|Template:Bible/V |Template:Bible/Verselink }}
+; [[Template:Bible]]
+<code><nowiki>{{Dependencies|Template:Bible/V |Template:Bible/Verselink }}</nowiki></code> ➡️
+
+}}[[Category:Dependency templates]]</noinclude>

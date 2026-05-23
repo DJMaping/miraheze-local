@@ -1,0 +1,5 @@
+<templatestyles src="Plainlist/styles.css"/><div class="plainlist {{{class|}}}" {{safesubst<noinclude />:#if:{{{style|}}}{{{indent|}}}|style="{{safesubst<noinclude />:#if:{{{indent|}}}|margin-left: {{safesubst<noinclude />:#expr:{{{indent}}}*1.6}}em;}} {{{style|}}}"}}>{{safesubst<noinclude />:#if:{{{1|}}}|
+{{{1}}}
+</div>}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using plainlist with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Plainlist]] with unknown parameter "_VALUE_"|ignoreblank=y| class | style | indent | 1 }}<noinclude></div>
+{{documentation}}
+</noinclude>

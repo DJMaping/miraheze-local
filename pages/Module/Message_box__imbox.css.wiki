@@ -1,0 +1,100 @@
+/* {{pp|small=y}} */
+.imbox {
+	margin: 4px 0;
+	border-collapse: collapse;
+	border: 3px solid #36c;    /* Default "notice" blue */
+	background-color: var(--background-color-interactive-subtle, #f8f9fa); 
+	box-sizing: border-box;
+}
+
+/* For imboxes inside imbox-text cells. */
+.imbox .mbox-text .imbox {
+	margin: 0 -0.5em; /* 0.9 - 0.5 = 0.4em left/right. */
+	/* TODO: Still needed? */
+	display: block; /* Fix for webkit to force 100% width.  */
+}
+
+.imbox-speedy {
+	border: 3px solid #b32424;    /* Red */
+	background-color: #fee7e6;    /* Pink */
+}
+
+.imbox-delete {
+	border: 3px solid #b32424;    /* Red */
+}
+
+.imbox-content {
+	border: 3px solid #f28500;    /* Orange */
+}
+
+.imbox-style {
+	border: 3px solid #fc3;       /* Yellow */
+}
+
+.imbox-move {
+	border: 3px solid #9932cc;    /* Purple */
+}
+
+.imbox-protection {
+	border: 3px solid #a2a9b1;    /* Gray-gold */
+}
+
+.imbox-license {
+	border: 3px solid #88a;       /* Dark gray */
+}
+
+.imbox-featured {
+	border: 3px solid #cba135;    /* Brown-gold */
+}
+
+.imbox .mbox-text {
+	border: none;
+	/* @noflip */
+	padding: 0.25em 0.9em;
+	width: 100%;
+}
+
+.imbox .mbox-image {
+	border: none;
+	/* @noflip */
+	padding: 2px 0 2px 0.9em;
+	text-align: center;
+}
+
+.imbox .mbox-imageright {
+	border: none;
+	/* @noflip */
+	padding: 2px 0.9em 2px 0;
+	text-align: center;
+}
+
+/* An empty narrow cell */
+.imbox .mbox-empty-cell {
+	border: none;
+	padding: 0;
+	width: 1px;
+}
+
+.imbox .mbox-invalid-type {
+	text-align: center;
+}
+
+@media (min-width: 720px) {
+	.imbox {
+		margin: 4px 10%;
+	}
+}
+
+
+@media screen {
+    html.skin-theme-clientpref-night .imbox-speedy {
+		background-color: #310402;    /* Dark red, same hue/saturation as light */
+	}
+}
+
+
+@media screen and ( prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .imbox-speedy {
+		background-color: #310402; /* Dark red, same hue/saturation as light */
+	}
+}

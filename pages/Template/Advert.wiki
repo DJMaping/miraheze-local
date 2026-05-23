@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Promotional]]
+
+{{Redirect category shell|
+{{R from move}}
+}}

@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bahrain
+| flag alias = Flag of Bahrain.svg
+| flag alias-old = Flag of Bahrain (before 1820).svg
+| flag alias-1820 = Flag of Bahrain (1820-1932).svg
+| flag alias-1932 = Flag of Bahrain (1932 to 1972).svg
+| flag alias-1972 = Flag of Bahrain (1972-2002).svg
+| link alias-naval = Royal Bahraini Naval Force
+| flag alias-military = Flag of the Bahrain Defence Force.svg
+| link alias-military = Bahrain Defence Force
+| flag alias-army = Flag of the Royal Bahraini Army.svg
+| link alias-army = Royal Bahraini Army
+| flag alias-air force = Flag of the Royal Bahraini Air Force.svg
+| link alias-air force = Royal Bahraini Air Force
+| flag alias-navy = Flag of the Royal Bahrain Naval Force.svg
+| link alias-navy = Royal Bahraini Naval Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1972
+| var2 = 1932
+| var3 = 1820
+| var4 = old
+| redir1 = BHR
+</noinclude>
+}}

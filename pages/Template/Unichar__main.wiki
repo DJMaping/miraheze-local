@@ -1,0 +1,14 @@
+{{#ifexpr:({{{dval|-1}}}=0) and ({{#ifeq:X{{{hval}}}|X0000 |0 |1}}) |<!--(error triggered if X{{{hval}}} ≠ X0000:)-->{{Error |tag=span |Error using &#123;&#123;[[Template:unichar|unichar]]&#125;&#125;: Input "{{{hvalinput|}}}" is not a [[hexadecimal]] value.}}
+ | {{nowrap|{{{{#ifeq:{{{sans|}}}|y|sans-serif|mono}}|{{Unichar/ulink |ulink={{{ulink|<#salted#>}}} |ulinkdefault=Unicode}}{{{hval|}}}}}&#x20;}}<!--
+
+   -->{{Unichar/glyph |hval={{{hval|}}} |gc={{{gc|<#not a Unicode code point#>}}} |size={{{size}}}
+                      |use={{{use|}}} |use2={{{use2|}}} |cwith={{{cwith|}}} |image={{{image|}}} |br={{{br|}}} |suffix={{{suffix|}}} }} <!--
+
+   -->{{Unichar/name  |hval={{{hval|}}} |na={{{na|}}} |name={{{name|}}} |nlink={{{nlink|<#salted#>}}} |gc={{{gc|}}} }} <!--
+
+   -->{{Unichar/notes |html={{{html|}}}
+                      |char_entity={{#ifeq:{{{html|no}}}|yes|{{#invoke:LoadData|Numcr2namecr|{{{dval|}}}}}|}}
+                      |note={{{note|}}} }}
+}}<!--
+
+--><noinclude>{{Documentation|1=Template:Unichar/doc}}</noinclude>

@@ -1,0 +1,49 @@
+{{Navbox
+| name = Graph, chart and plot formatting and function templates
+|title=[[:Category:Chart, diagram and graph formatting and function templates|Graph, chart and plot templates]]
+|state = {{{state<includeonly>|expanded</includeonly>}}}
+|bodyclass = hlist
+
+|group20 = Bar
+|list20 = * {{tl|Bar chart}}
+* {{tl|Bar box}}
+* {{tl|Bar stacked}}
+* [[Module:Bar]]
+* {{tl|Data bars}}
+
+|group40 = [[Scatter plot]]
+|list40 = * {{tl|Dot chart}}
+
+|group50 = [[Pie chart]]
+|list50 = * {{tl|Pie chart}}
+
+|group60 = Tree
+|list60 =
+* {{tl|Tree chart}}
+* {{tl|Ahnentafel}}
+* {{tl|Clade}}
+
+|group70 = Stacked
+|list70 = * {{tl|Stacked bar}}
+
+|group90 = Color legends
+|list90 = * {{tl|Legend}}
+* {{tl|Legend-line}}
+* {{tl|BrewerColorLegends}}
+
+|group100 = Deprecated
+|list100  = 
+* {{tl|Graph:Chart}}
+* [[Module:Chart]]
+* {{tl|Graph:Chart}}
+* {{tl|Graph:Lines}}
+* {{tl|Map with marks}}
+* {{tl|Graph:Lines}}
+* {{tl|Graph:Map}}
+* {{tl|Global Heat Maps by Year}}
+
+}}{{Template other |<includeonly>{{sandbox other||{{#ifeq: {{{cat|yes}}}|yes|[[Category:Chart, diagram and graph formatting and function templates]]|}}
+}}</includeonly>}}<noinclude>{{documentation|content=
+{{collapsible option|default=expanded}}
+[[Category:Chart, diagram and graph formatting and function templates| ]]
+}}</noinclude>

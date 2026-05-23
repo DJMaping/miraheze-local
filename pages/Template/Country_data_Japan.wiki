@@ -1,0 +1,44 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Japan
+| flag alias = Flag of Japan.svg
+| flag alias-1870 = Flag of Japan (1870-1999).svg
+| link alias-1870 = Empire of Japan
+| flag alias-1945 = Flag of Allied Occupied Japan.svg
+| border-1945 =
+| flag alias-1947 = Flag of Japan (1870-1999).svg
+| flag alias-ryukyu = Civil ensign of the Ryukyu Islands (1952–1967).svg
+| border-ryukyu =
+| flag alias-naval = Naval Ensign of Japan.svg
+| flag alias-coast guard = Ensign of the Japanese Coast Guard.svg
+| link alias-coast guard = Japan Coast Guard
+| link alias-naval = Japan Maritime Self-Defense Force
+| flag alias-army = Flag of JSDF.svg
+| link alias-army  = Japan Ground Self-Defense Force
+| flag alias-air force = Flag of the Japan Air Self-Defense Force.svg
+| link alias-air force = Japan Air Self-Defense Force
+| flag alias-air force-1955 = Flag of the Japan Air Self-Defense Force (1955-1957).png
+| link alias-air force-1955 = Japan Air Self-Defense Force
+| flag alias-air force-1957 = Flag of the Japan Air Self-Defense Force (1957-1972).png
+| link alias-air force-1957 = Japan Air Self-Defense Force
+| flag alias-air force-1972 = Flag of the Japan Air Self-Defense Force (1972-2001).png
+| link alias-air force-1972 = Japan Air Self-Defense Force
+| flag alias-military=Flag of the Japan Self-Defense Forces.svg
+| link alias-military=Japan Self-Defense Forces
+| flag alias-marines=Flag of JSDF.svg
+| link alias-marines=Japanese Amphibious Rapid Deployment Brigade
+| flag alias-navy = Naval Ensign of Japan.svg
+| link alias-navy = Japan Maritime Self-Defense Force
+| {{#ifeq:{{{altlink}}}|A national rugby union team|link alias-rugby union|empty}} = Junior Japan
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1870
+| var2 = 1945
+| var3 = 1947
+| var4 = ryukyu
+| redir1 = JPN
+| related1 = Empire of Japan
+</noinclude>
+}}

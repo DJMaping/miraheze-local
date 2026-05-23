@@ -1,0 +1,6 @@
+<noinclude>[[{{{{FULLPAGENAMEE}}|Example|ignore=}}]]
+ <nowiki>[[{{</nowiki>{{FULLPAGENAMEE}}&#124;Example&#124;ignore=<nowiki>}}]]</nowiki>
+
+{{documentation}}<!--
+--
+--></noinclude><includeonly>{{safesubst:#if:{{safesubst:NAMESPACE}}|{{safesubst:#ifeq:{{safesubst:NAMESPACE}}|{{{ignore|{{safesubst:ns:Template}}}}}||{{safesubst:NAMESPACEE}}:}}}}{{safesubst:#if:{{safesubst:#titleparts:{{safesubst:PAGENAMEE}}|{{safesubst:#ifeq:{{SUBPAGENAMEE}}|doc|-2|-1}}}}|{{safesubst:#titleparts:{{safesubst:PAGENAMEE}}|{{safesubst:#ifeq:{{safesubst:SUBPAGENAMEE}}|doc|-2|-1}}}}/{{{1|}}}|{{{1|}}}}}</includeonly>

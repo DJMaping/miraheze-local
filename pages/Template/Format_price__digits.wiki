@@ -1,0 +1,10 @@
+{{#expr:({{{1|1}}} round {{#ifexpr:({{{1|1}}} >= 100)
+  |0
+  |{{#ifexpr:({{{1|1}}} >= 10)
+   |1
+   |2
+  }}
+ }}
+)}}<noinclude>
+{{documentation}}
+</noinclude>

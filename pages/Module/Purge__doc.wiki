@@ -1,0 +1,28 @@
+{{Module rating|protected}}
+{{used in system}}
+This module produces a link to [[WP:PURGE|purge a page's cache]]. This is usually the current page, but can be another page.
+
+== Usage ==
+
+=== From wiktext ===
+
+From wikitext, this module should be accessed via [[Template:Purge]]. Please see the template page for documentation.
+
+=== From Lua ===
+
+From Lua, first you need to load the module:
+<syntaxhighlight lang="lua">
+local mPurge = require('Module:Purge')
+</syntaxhighlight>
+
+Then you can create purge links with the <code>_main</code> function:
+<syntaxhighlight lang="lua">
+mPurge._main(args)
+</syntaxhighlight>
+
+<var>args</var> is a table of arguments, identical to the ones accepted by [[Template:Purge]]. Please see the template documentation for more details.
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+
+}}</includeonly>

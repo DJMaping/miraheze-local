@@ -1,0 +1,71 @@
+<!-- This is transcluded into all these templates' /doc pages to save time.
+--><div style="float: right; padding: 0 1em;">{{navbar|Text color templates see also|plain=y}}</div>
+{| class="wikitable"
+! template code !! width="150px" | color palette
+|-
+| {{tl|aqua}}                || style="background: #00FFFF;" |
+|-
+| {{tl|azure}}               || style="background: #0080FF;" |
+|-
+| {{tl|black}}               || style="background: #000000;" |
+|-
+| {{tl|blue}}                || style="background: #0000FF;" |
+|-
+| {{tl|brown}}               || style="background: #964B00;" |
+|-
+| {{tl|burgundy}}            || style="background: #800020;" |
+|-
+| {{tl|cyan}}                || style="background: #00CCCC;" |
+|-
+| {{tl|dark red}}            || style="background: #8B0000;" |
+|-
+| {{tl|fuchsia}}             || style="background: #FF00FF;" |
+|-
+| {{tl|gold}}                || style="background: #FFD700;" |
+|-
+| {{tl|gray}} or {{tl|grey}} || style="background: #808080;" |
+|-
+| {{tl|green}}               || style="background: #008000;" |
+|-
+| {{tl|verdyre}}             || style="background: #789922;" |
+|-
+| {{tl|lime}}                || style="background: #00FF00;" |
+|-
+| {{tl|link blue}}           || style="background: #0645AD;" |
+|-
+| printer's {{tl|magenta}}   || style="background: #FF0090;" |
+|-
+| {{tl|maroon}}              || style="background: #800000;" |
+|-
+| {{tl|navy (color)}}        || style="background: #000080;" |
+|-
+| {{tl|olive}}               || style="background: #808000;" |
+|-
+| {{tl|orange}}              || style="background: #FFA500;" |
+|-
+| hot {{tl|pink}}            || style="background: #FF69B4;" |
+|-
+| {{tl|purple}}              || style="background: #800080;" |
+|-
+| {{tl|red}}                 || style="background: #FF0000;" |
+|-
+| {{tl|silver}}              || style="background: #C0C0C0;" |
+|-
+| {{tl|teal}}                || style="background: #008080;" |
+|-
+| {{tl|white}}               || style="background: #FFFFFF;" |
+|-
+| {{tl|yellow}}              || style="background: #FFFF00;" |
+|}
+
+=== Color templates ===
+* {{tl|Background color}} ''or'' {{tl|bg}} - sets background color
+* {{tl|Color}} ''or'' {{tl|Red}} etc. – sets text color
+* {{tl|Colored link}} – sets link color
+* {{tl|Font color}} – sets both text and background color
+* {{tl|Color contrast ratio}}
+* {{tl|Talk quote inline}}
+* {{clc|Color templates}}
+<noinclude>
+{{documentation}}
+</noinclude>

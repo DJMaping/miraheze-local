@@ -1,0 +1,3 @@
+{{#Invoke:Template link general|main|brace=yes}}<noinclude>
+{{documentation}}<!-- Add categories to the /doc subpage and interwikis to Wikidata, not here! -->
+</noinclude>

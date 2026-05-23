@@ -1,0 +1,12 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = United Nations
+| flag alias = Flag of the United Nations.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = UN
+| redir2 = UNO
+| redir3 = the United Nations
+</noinclude>
+}}

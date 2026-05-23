@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Honduras
+| flag alias = Flag of Honduras (2022-).svg
+| flag alias-1839 = Flag of Honduras (1839-1866).svg
+| flag alias-1866 = Flag of Honduras (1866-1898).svg
+| flag alias-1898 = Flag of Honduras (1898-1949).svg
+| flag alias-1949 = Flag of Honduras (1949-2022).svg
+| flag alias-naval = Naval Ensign of Honduras.svg
+| link alias-naval = Honduran Navy
+| link alias-air force = Honduran Air Force
+| link alias-army = Honduran Army
+| flag alias-army = Flag of the Honduran Army.svg
+| flag alias-navy = Naval Ensign of Honduras.svg
+| link alias-navy = Honduran Navy
+| link alias-military = Armed Forces of Honduras
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1839
+| var2 = 1866
+| var3 = 1898
+| var4 = 1949
+| redir1 = HND
+| redir2 = HON
+</noinclude>
+}}

@@ -1,0 +1,321 @@
+<includeonly>__NOEDITSECTION__
+{{documentation|content=
+{{#if:{{{hatnote|}}}|{{{hatnote}}}}}
+{{#ifeq:{{#invoke:High-use|num|x|demo={{ROOTPAGENAME}}}}|many||{{High-use|demo={{ROOTPAGENAME}}}}}}
+{{notice|image=Exclamationdiamond.svg|<code>Template:{{{demopagename|{{PAGENAME}}}}}</code> is an internal data container not intended to be transcluded directly. It is used indirectly by templates such as <code>[[Template:flag|flag]]</code>, <code>[[Template:flag icon|flag icon]]</code>, and others.}}
+
+{{ombox|text=This template is within the scope of '''[[Wikipedia:WikiProject Flag Template|WikiProject Flag Template]]''', a collaborative effort to maintain flag templates on Wikipedia.  A more thorough discussion of the flag template system, including parameters not described here, can be found on the project page.}}
+
+[[File:{{{flag alias|Flag of None.svg}}}|thumb|{{#if:{{{flag link|}}} | See also: [[{{{flag link}}}]] | {{#ifexist: Flag of {{{alias}}} | See also: [[Flag of {{{alias}}}]] | }} }}]]
+
+===Standard parameters===
+<table class="wikitable">
+<tr><th>Parameter name</th><th>Value</th><th>Meaning</th>
+</tr><tr>
+<td><code>alias</code></td>
+<td>{{#if: {{{alias|}}} | <code>{{{alias}}}</code> | <span style="color:red">'''undefined!'''</span> }}
+<td>Main article name ([[{{{alias}}}]])</td>
+</tr>
+{{#if: {{{shortname alias|}}} |
+<tr>
+<td><code>shortname alias</code></td>
+<td><code>{{{shortname alias}}}</code></td>
+<td>''(optional)'' Display name to be used for the wikilink, if <code>alias</code> is a disambiguated article name, for example</td>
+</tr>
+}}
+<tr>
+<td><code>flag alias</code></td>
+<td>{{#if: {{{flag alias|}}} | <code>{{{flag alias}}}</code> | <span style="color:red">'''undefined!'''</span> }}</td>
+<td>Image name ([[:File:{{{flag alias}}}]], shown on right)</td>
+</tr></table>
+{{#if: {{{var1|{{{flag alias-naval|{{{flag alias-marines|{{{flag alias-military|{{{flag alias-coast guard|{{{flag alias-navy|{{{flag alias-air force|{{{flag alias-space force|{{{flag alias-army|}}}}}}}}}}}}}}}}}}}}}}}}}}} |
+
+===Flag variants===
+{{#if:{{{flag link|}}} | {{details|{{{flag link}}}}} | {{#ifexist: Flag of {{{alias}}} | {{details|Flag of {{{alias}}}}} | }} }}
+{{#ifeq:{{{variant|♦}}}|♦|{{red|Note: These variants cannot be used unless the line <code>{{!}} variant {{=}} {{(((}}variant{{!}}{{)))}}</code> is added to this template.}}}}
+<table class="wikitable">
+<tr><th>Label</th><th>Flag image (40px)</th><th>Image name</th></tr>
+{{#if: {{{var1|}}} | <tr><td><code>{{{var1}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var1}}}}}}|40px|{{{border-{{{var1}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var1}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var2|}}} | <tr><td><code>{{{var2}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var2}}}}}}|40px|{{{border-{{{var2}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var2}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var3|}}} | <tr><td><code>{{{var3}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var3}}}}}}|40px|{{{border-{{{var3}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var3}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var4|}}} | <tr><td><code>{{{var4}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var4}}}}}}|40px|{{{border-{{{var4}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var4}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var5|}}} | <tr><td><code>{{{var5}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var5}}}}}}|40px|{{{border-{{{var5}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var5}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var6|}}} | <tr><td><code>{{{var6}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var6}}}}}}|40px|{{{border-{{{var6}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var6}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var7|}}} | <tr><td><code>{{{var7}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var7}}}}}}|40px|{{{border-{{{var7}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var7}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var8|}}} | <tr><td><code>{{{var8}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var8}}}}}}|40px|{{{border-{{{var8}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var8}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var9|}}} | <tr><td><code>{{{var9}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var9}}}}}}|40px|{{{border-{{{var9}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var9}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var10|}}} | <tr><td><code>{{{var10}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var10}}}}}}|40px|{{{border-{{{var10}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var10}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var11|}}} | <tr><td><code>{{{var11}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var11}}}}}}|40px|{{{border-{{{var11}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var11}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var12|}}} | <tr><td><code>{{{var12}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var12}}}}}}|40px|{{{border-{{{var12}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var12}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var13|}}} | <tr><td><code>{{{var13}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var13}}}}}}|40px|{{{border-{{{var13}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var13}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var14|}}} | <tr><td><code>{{{var14}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var14}}}}}}|40px|{{{border-{{{var14}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var14}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var15|}}} | <tr><td><code>{{{var15}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var15}}}}}}|40px|{{{border-{{{var15}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var15}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var16|}}} | <tr><td><code>{{{var16}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var16}}}}}}|40px|{{{border-{{{var16}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var16}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var17|}}} | <tr><td><code>{{{var17}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var17}}}}}}|40px|{{{border-{{{var17}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var17}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var18|}}} | <tr><td><code>{{{var18}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var18}}}}}}|40px|{{{border-{{{var18}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var18}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var19|}}} | <tr><td><code>{{{var19}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var19}}}}}}|40px|{{{border-{{{var19}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var19}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var20|}}} | <tr><td><code>{{{var20}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var20}}}}}}|40px|{{{border-{{{var20}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var20}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var21|}}} | <tr><td><code>{{{var21}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var21}}}}}}|40px|{{{border-{{{var21}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var21}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var22|}}} | <tr><td><code>{{{var22}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var22}}}}}}|40px|{{{border-{{{var22}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var22}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var23|}}} | <tr><td><code>{{{var23}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var23}}}}}}|40px|{{{border-{{{var23}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var23}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var24|}}} | <tr><td><code>{{{var24}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var24}}}}}}|40px|{{{border-{{{var24}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var24}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var25|}}} | <tr><td><code>{{{var25}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var25}}}}}}|40px|{{{border-{{{var25}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var25}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var26|}}} | <tr><td><code>{{{var26}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var26}}}}}}|40px|{{{border-{{{var26}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var26}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var27|}}} | <tr><td><code>{{{var27}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var27}}}}}}|40px|{{{border-{{{var27}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var27}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var28|}}} | <tr><td><code>{{{var28}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var28}}}}}}|40px|{{{border-{{{var28}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var28}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var29|}}} | <tr><td><code>{{{var29}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var29}}}}}}|40px|{{{border-{{{var29}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var29}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var30|}}} | <tr><td><code>{{{var30}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var30}}}}}}|40px|{{{border-{{{var30}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var30}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var31|}}} | <tr><td><code>{{{var31}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var31}}}}}}|40px|{{{border-{{{var31}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var31}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var32|}}} | <tr><td><code>{{{var32}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var32}}}}}}|40px|{{{border-{{{var32}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var32}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var33|}}} | <tr><td><code>{{{var33}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var33}}}}}}|40px|{{{border-{{{var33}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var33}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var34|}}} | <tr><td><code>{{{var34}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var34}}}}}}|40px|{{{border-{{{var34}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var34}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var35|}}} | <tr><td><code>{{{var35}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var35}}}}}}|40px|{{{border-{{{var35}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var35}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var36|}}} | <tr><td><code>{{{var36}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var36}}}}}}|40px|{{{border-{{{var36}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var36}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var37|}}} | <tr><td><code>{{{var37}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var37}}}}}}|40px|{{{border-{{{var37}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var37}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var38|}}} | <tr><td><code>{{{var38}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var38}}}}}}|40px|{{{border-{{{var38}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var38}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var39|}}} | <tr><td><code>{{{var39}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var39}}}}}}|40px|{{{border-{{{var39}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var39}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{var40|}}} | <tr><td><code>{{{var40}}}</code></td><td style="text-align:center;">[[File:{{{flag alias-{{{var40}}}}}}|40px|{{{border-{{{var40}}}|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-{{{var40}}}}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-naval|}}} | <tr><td><code>naval</code></td><td style="text-align:center;">[[File:{{{flag alias-naval}}}|40px|{{{border-naval|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-naval}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-marines|}}} | <tr><td><code>marines</code></td><td style="text-align:center;">[[File:{{{flag alias-marines}}}|40px|{{{border-marines|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-marines}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-military|}}} | <tr><td><code>military</code></td><td style="text-align:center;">[[File:{{{flag alias-military}}}|40px|{{{border-military|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-military}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-coast guard|}}} | <tr><td><code>coast guard</code></td><td style="text-align:center;">[[File:{{{flag alias-coast guard}}}|40px|{{{border-coast guard|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-coast guard}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-navy|}}} | <tr><td><code>navy</code></td><td style="text-align:center;">[[File:{{{flag alias-navy}}}|40px|{{{border-navy|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-navy}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-air force|}}} | <tr><td><code>air force</code></td><td style="text-align:center;">[[File:{{{flag alias-air force}}}|40px|{{{border-air force|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-air force}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-space force|}}} | <tr><td><code>space force</code></td><td style="text-align:center;">[[File:{{{flag alias-space force}}}|40px|{{{border-space force|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-space force}}}</code></td></tr> }}<!--
+-->{{#if: {{{flag alias-army|}}} | <tr><td><code>army</code></td><td style="text-align:center;">[[File:{{{flag alias-army}}}|40px|{{{border-army|{{{border|border}}}}}}]]</td><td><code>{{{flag alias-army}}}</code></td></tr> }}<!--
+--></table>
+}}
+{{#if: {{{redir1|}}} |
+
+===Redirect aliases===
+This template can also be used via an ''alias'' name (implemented as a redirect to this template):<!--
+--><table class="wikitable"><!--
+--><tr><th>Alias name</th><th>{{tlx|flag|''alias''}} output</th><th>{{tlx|flag country|''alias''}} output</th></tr>
+{{#if: {{{redir1|}}} | <tr><td><code>{{{redir1}}}</code> (<span class="plainlinks">[{{fullurl:Template:Country data {{{redir1}}}|redirect=no}} view]</span>)</td><td>{{flag|{{{redir1}}}}}</td><td>{{flag country|{{{redir1}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir2|}}} | <tr><td><code>{{{redir2}}}</code> (<span class="plainlinks">[{{fullurl:Template:Country data {{{redir2}}}|redirect=no}} view]</span>)</td><td>{{flag|{{{redir2}}}}}</td><td>{{flag country|{{{redir2}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir3|}}} | <tr><td><code>{{{redir3}}}</code> (<span class="plainlinks">[{{fullurl:Template:Country data {{{redir3}}}|redirect=no}} view]</span>)</td><td>{{flag|{{{redir3}}}}}</td><td>{{flag country|{{{redir3}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir4|}}} | <tr><td><code>{{{redir4}}}</code> (<span class="plainlinks">[{{fullurl:Template:Country data {{{redir4}}}|redirect=no}} view]</span>)</td><td>{{flag|{{{redir4}}}}}</td><td>{{flag country|{{{redir4}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir5|}}} | <tr><td><code>{{{redir5}}}</code> (<span class="plainlinks">[{{fullurl:Template:Country data {{{redir5}}}|redirect=no}} view]</span>)</td><td>{{flag|{{{redir5}}}}}</td><td>{{flag country|{{{redir5}}}}}</td></tr> }}<!--
+--></table>
+See [{{fullurl:Special:WhatLinksHere/{{FULLPAGENAMEE}}|hidelinks=1&hidetrans=1}} What links here] for a full list of redirects.
+}}
+
+===Example usage===
+* <code><nowiki>{{flag|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{flag|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}<!--
+-->{{#if: {{{shortname alias|}}} |
+* <code><nowiki>{{flag country|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{flag country|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}} }}
+{{#if: {{{var1|}}} |
+
+====Using a flag variant====
+* <code><nowiki>{{flag|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|</nowiki>{{{var1}}}<nowiki>}}</nowiki></code> → {{flag|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|{{{var1}}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|</nowiki>{{{var1}}}<nowiki>}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|{{{var1}}}}}
+}}
+{{#if: {{{redir1|}}} |
+
+====Using a redirect alias====
+* <code><nowiki>{{flag icon|</nowiki>{{{redir1}}}<nowiki>}}</nowiki></code> → {{flag icon|{{{redir1}}}}}
+* <code><nowiki>{{flag country|</nowiki>{{{redir1}}}<nowiki>}}</nowiki></code> → {{flag country|{{{redir1}}}}}
+* <code><nowiki>{{flag|</nowiki>{{{redir1}}}<nowiki>}}</nowiki></code> → {{flag|{{{redir1}}}}}
+}}
+{{#if: {{{flag alias-naval|}}}{{{link alias-naval|}}}{{{flag alias-air force|}}}{{{link alias-air force|}}}{{{flag alias-space force|}}}{{{link alias-space force|}}}{{{flag alias-army|}}}{{{link alias-army|}}}{{{flag alias-coast guard|}}}{{{link alias-coast guard|}}}{{{flag alias-military|}}}{{{link alias-military|}}}{{{flag alias-marines|}}}{{{link alias-marines|}}} |
+
+===Military ensigns===
+{{#if: {{{flag alias-naval|}}} |
+This template includes a naval flag variant that can be used with [[Template:Naval]]:
+* <code><nowiki>{{naval|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{naval|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|naval}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|naval}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|naval}}
+| {{#if: {{{link alias-naval|}}} |
+This nation's naval flag is the same as its national flag, so [[Template:Naval]] produces the following:
+* <code><nowiki>{{naval|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{naval|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-air force|}}} |{{break}}
+This template includes an air force ensign flag variant that can be used with [[Template:Air force]]:
+* <code><nowiki>{{air force|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{air force|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|air force}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|air force}}
+| {{#if: {{{link alias-air force|}}} |{{break}}
+This nation's air force ensign is the same as its national flag, so [[Template:Air force]] produces the following:
+* <code><nowiki>{{air force|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{air force|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-space force|}}} |{{break}}
+This template includes a space force ensign flag variant that can be used with [[Template:Space force]]:
+* <code><nowiki>{{space force|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{space force|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|space force}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|space force}}
+| {{#if: {{{link alias-space force|}}} |{{break}}
+This nation's space force flag is the same as its national flag, so [[Template:Space force]] produces the following:
+* <code><nowiki>{{space force|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{space force|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-marines|}}} |{{break}}
+This template includes a marine ensign flag variant that can be used with [[Template:Marines]]:
+* <code><nowiki>{{marines|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{marines|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|marines}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|marines}}
+| {{#if: {{{link alias-marines|}}} |{{break}}
+This nation's marine ensign is the same as its national flag, so [[Template:Marines]] produces the following:
+* <code><nowiki>{{marines|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{marines|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-military|}}} |{{break}}
+This template includes a marine ensign flag variant that can be used with [[Template:Armed forces]]:
+* <code><nowiki>{{Armed forces|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{Armed forces|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|military}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|military}}
+| {{#if: {{{link alias-military|}}} |{{break}}
+This nation's military ensign is the same as its national flag, so [[Template: Armed forces]] produces the following:
+* <code><nowiki>{{Armed forces|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{Armed forces|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-navy|}}} |{{break}}
+This template includes an ensign flag variant that can be used with [[Template:Navy]]:
+* <code><nowiki>{{navy|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{navy|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|navy}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|navy}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|navy}}
+| {{#if: {{{link alias-navy|}}} |{{break}}
+This nation's navy flag is the same as its national flag, so [[Template:Navy]] produces the following:
+* <code><nowiki>{{navy|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{navy|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-coast guard|}}} |{{break}}
+This template includes a coast guard ensign flag variant that can be used with [[Template:Coast guard]]:
+* <code><nowiki>{{coast guard|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{coast guard|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|coast guard}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|coast guard}}
+| {{#if: {{{link alias-coast guard|}}} |{{break}}
+This nation's coast guard ensign is the same as its national flag, so [[Template:Coast guard]] produces the following:
+* <code><nowiki>{{coast guard|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{coast guard|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}}<!--
+-->{{#if: {{{flag alias-army|}}} |{{break}}
+This template includes an army ensign flag variant that can be used with [[Template:Army]]:
+* <code><nowiki>{{army|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{army|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+* <code><nowiki>{{flag icon|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>|army}}</nowiki></code> → {{flag icon|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}|army}}
+| {{#if: {{{link alias-army|}}} |{{break}}
+This nation's army ensign is the same as its national flag, so [[Template:Army]] produces the following:
+* <code><nowiki>{{army|</nowiki>{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}<nowiki>}}</nowiki></code> → {{army|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}
+}}}} }}
+{{#if: {{{related1|}}} |
+
+===Related templates===
+Please see the following related <code>country_data</code> templates:
+* [[Template:Country data {{{related1}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related1}}}<!-- {{#if:{{{related1param|}}}|{{!}}{{{related1param}}}}} -->}}</span><!--
+-->{{#if: {{{related2|}}} |
+* [[Template:Country data {{{related2}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related2}}}<!-- {{#if:{{{related2param|}}}|{{!}}{{{related2param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related3|}}} |
+* [[Template:Country data {{{related3}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related3}}}<!-- {{#if:{{{related3param|}}}|{{!}}{{{related3param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related4|}}} |
+* [[Template:Country data {{{related4}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related4}}}<!-- {{#if:{{{related4param|}}}|{{!}}{{{related4param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related5|}}} |
+* [[Template:Country data {{{related5}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related5}}}<!-- {{#if:{{{related5param|}}}|{{!}}{{{related5param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related6|}}} |
+* [[Template:Country data {{{related6}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related6}}}<!-- {{#if:{{{related6param|}}}|{{!}}{{{related6param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related7|}}} |
+* [[Template:Country data {{{related7}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related7}}}<!-- {{#if:{{{related7param|}}}|{{!}}{{{related7param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related8|}}} |
+* [[Template:Country data {{{related8}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related8}}}<!-- {{#if:{{{related8param|}}}|{{!}}{{{related8param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related9|}}} |
+* [[Template:Country data {{{related9}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related9}}}<!-- {{#if:{{{related9param|}}}|{{!}}{{{related9param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related10|}}} |
+* [[Template:Country data {{{related10}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related10}}}<!-- {{#if:{{{related10param|}}}|{{!}}{{{related10param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related11|}}} |
+* [[Template:Country data {{{related11}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related11}}}<!-- {{#if:{{{related11param|}}}|{{!}}{{{related11param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related12|}}} |
+* [[Template:Country data {{{related12}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related12}}}<!-- {{#if:{{{related12param|}}}|{{!}}{{{related12param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related13|}}} |
+* [[Template:Country data {{{related13}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related13}}}<!-- {{#if:{{{related13param|}}}|{{!}}{{{related13param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related14|}}} |
+* [[Template:Country data {{{related14}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related14}}}<!-- {{#if:{{{related14param|}}}|{{!}}{{{related14param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related15|}}} |
+* [[Template:Country data {{{related15}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related15}}}<!-- {{#if:{{{related15param|}}}|{{!}}{{{related15param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related16|}}} |
+* [[Template:Country data {{{related16}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related16}}}<!-- {{#if:{{{related16param|}}}|{{!}}{{{related16param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related17|}}} |
+* [[Template:Country data {{{related17}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related17}}}<!-- {{#if:{{{related17param|}}}|{{!}}{{{related17param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related18|}}} |
+* [[Template:Country data {{{related18}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related18}}}<!-- {{#if:{{{related18param|}}}|{{!}}{{{related18param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related19|}}} |
+* [[Template:Country data {{{related19}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related19}}}<!-- {{#if:{{{related19param|}}}|{{!}}{{{related19param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related20|}}} |
+* [[Template:Country data {{{related20}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related20}}}<!-- {{#if:{{{related20param|}}}|{{!}}{{{related20param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related21|}}} |
+* [[Template:Country data {{{related21}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related21}}}<!-- {{#if:{{{related21param|}}}|{{!}}{{{related21param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related22|}}} |
+* [[Template:Country data {{{related22}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related22}}}<!-- {{#if:{{{related22param|}}}|{{!}}{{{related22param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related23|}}} |
+* [[Template:Country data {{{related23}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related23}}}<!-- {{#if:{{{related23param|}}}|{{!}}{{{related23param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related24|}}} |
+* [[Template:Country data {{{related24}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related24}}}<!-- {{#if:{{{related24param|}}}|{{!}}{{{related24param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related25|}}} |
+* [[Template:Country data {{{related25}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related25}}}<!-- {{#if:{{{related25param|}}}|{{!}}{{{related25param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related26|}}} |
+* [[Template:Country data {{{related26}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related26}}}<!-- {{#if:{{{related26param|}}}|{{!}}{{{related26param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related27|}}} |
+* [[Template:Country data {{{related27}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related27}}}<!-- {{#if:{{{related27param|}}}|{{!}}{{{related27param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related28|}}} |
+* [[Template:Country data {{{related28}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related28}}}<!-- {{#if:{{{related28param|}}}|{{!}}{{{related28param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related29|}}} |
+* [[Template:Country data {{{related29}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related29}}}<!-- {{#if:{{{related29param|}}}|{{!}}{{{related29param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related30|}}} |
+* [[Template:Country data {{{related30}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related30}}}<!-- {{#if:{{{related30param|}}}|{{!}}{{{related30param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related31|}}} |
+* [[Template:Country data {{{related31}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related31}}}<!-- {{#if:{{{related31param|}}}|{{!}}{{{related31param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related32|}}} |
+* [[Template:Country data {{{related32}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related32}}}<!-- {{#if:{{{related32param|}}}|{{!}}{{{related32param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related33|}}} |
+* [[Template:Country data {{{related33}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related33}}}<!-- {{#if:{{{related33param|}}}|{{!}}{{{related33param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related34|}}} |
+* [[Template:Country data {{{related34}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related34}}}<!-- {{#if:{{{related34param|}}}|{{!}}{{{related34param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related35|}}} |
+* [[Template:Country data {{{related35}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related35}}}<!-- {{#if:{{{related35param|}}}|{{!}}{{{related35param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related36|}}} |
+* [[Template:Country data {{{related36}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related36}}}<!-- {{#if:{{{related36param|}}}|{{!}}{{{related36param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related37|}}} |
+* [[Template:Country data {{{related37}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related37}}}<!-- {{#if:{{{related37param|}}}|{{!}}{{{related37param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related38|}}} |
+* [[Template:Country data {{{related38}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related38}}}<!-- {{#if:{{{related38param|}}}|{{!}}{{{related38param}}}}} -->}}</span> }}<!--
+-->{{#if: {{{related39|}}} |
+* [[Template:Country data {{{related39}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related39}}}<!-- {{#if:{{{related39param|}}}|{{!}}{{{related39param}}}}} -->}}</span> }}<!--
+-->}}
+
+{{#ifeq:{{SUBPAGENAME}}|sandbox||{{#ifexist:{{FULLPAGENAME}}/doc |
+{{#if:{{Suppress categories|{{{{FULLPAGENAME}}/doc}}}}|
+
+===Other information===
+}}
+{{{{FULLPAGENAME}}/doc|alias={{{alias|}}}|cat={{{cat|}}}}}
+}}}}
+
+===TemplateData===
+{{TemplateData header}}
+<templatedata>
+{
+  "description": "This template should not be used directly. It is used indirectly by flag templates such as Template:Flag and Template:Flag icon. See Category:Flag template system for a full list of flag templates and Wikipedia:WikiProject Flag Template for further documentation.",
+  "params": {}
+}
+</templatedata>
+
+{{#ifeq:{{NAMESPACE}}|{{ns:Template}}|<!--
+-->{{#ifeq:{{SUBPAGENAME}}|sandbox|<!--
+  -->[[Category:Country data template sandboxes|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]|<!--
+  -->{{#ifexist:{{FULLPAGENAME}}/doc|<!--
+    -->[[Category:Country data templates with documentation subpage|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]|<!--
+    -->[[Category:Uncategorized country data templates|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]<!--
+    -->}}<!--
+  -->{{#if:{{{size flag alias-{{{var1}}}|}}}{{{size flag alias-{{{var2}}}|}}}{{{size flag alias-{{{var3}}}|}}}{{{size flag alias-{{{var4}}}|}}}{{{size flag alias-{{{var5}}}|}}}{{{size flag alias-{{{var6}}}|}}}{{{size flag alias-{{{var7}}}|}}}{{{size flag alias-{{{var8}}}|}}}{{{size flag alias-{{{var9}}}|}}}{{{size flag alias-{{{var10}}}|}}}{{{size flag alias-{{{var11}}}|}}}{{{size flag alias-{{{var12}}}|}}}{{{size flag alias-{{{var13}}}|}}}{{{size flag alias-{{{var14}}}|}}}{{{size flag alias-{{{var15}}}|}}}{{{size flag alias-{{{var16}}}|}}}{{{size flag alias-{{{var17}}}|}}}{{{size flag alias-{{{var18}}}|}}}{{{size flag alias-{{{var19}}}|}}}{{{size flag alias-{{{var20}}}|}}}{{{size flag alias-{{{var21}}}|}}}{{{size flag alias-{{{var22}}}|}}}{{{size flag alias-{{{var23}}}|}}}{{{size flag alias-{{{var24}}}|}}}{{{size flag alias-{{{var25}}}|}}}{{{size flag alias-{{{var26}}}|}}}{{{size flag alias-{{{var27}}}|}}}{{{size flag alias-{{{var28}}}|}}}{{{size flag alias-{{{var29}}}|}}}{{{size flag alias-{{{var30}}}|}}}{{{size flag alias-{{{var31}}}|}}}{{{size flag alias-{{{var32}}}|}}}{{{size flag alias-{{{var33}}}|}}}{{{size flag alias-{{{var34}}}|}}}{{{size flag alias-{{{var35}}}|}}}{{{size flag alias-{{{var36}}}|}}}{{{size flag alias-{{{var37}}}|}}}{{{size flag alias-{{{var38}}}|}}}{{{size flag alias-{{{var39}}}|}}}{{{size flag alias-{{{var40}}}|}}}{{{size flag alias-naval|}}}{{{size flag alias-marines|}}}{{{size flag alias-military|}}}{{{size flag alias-coast guard|}}}{{{size flag alias-navy|}}}{{{size flag alias-air force|}}}{{{size flag alias-space force|}}}{{{size flag alias-army|}}}{{{size flag alias|}}}|[[Category:Country data templates with distinct default size|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]<!--
+    -->}}<!--
+  -->[[Category:All country data templates|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]<!--
+  -->{{#if:{{{shortname alias|}}}|<!--
+    -->[[Category:Country data templates with distinct shortname|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]<!--
+    -->}}<!--
+  -->{{#ifeq:{{{demopagename|{{PAGENAME}}}}}|Country data {{{alias}}}||<!--
+    -->{{#ifeq:{{{demopagename|{{PAGENAME}}}}}|Country data {{{shortname alias}}}||<!--
+      -->[[Category:Country data templates with distinct template name|{{{cat|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}}}}]]<!--
+      -->}}<!--
+    -->}}<!--
+    -->{{#if:{{{flag alias|}}}||<!--
+      -->[[Category:Country data templates without flag alias|{{#invoke:String|replace|{{{demopagename|{{PAGENAME}}}}}|^%w+ data |||false}}]]<!--
+      -->}}<!--
+  -->}}<!--
+-->}}
+|link box=This is the documentation for '''Template:{{{demopagename|{{PAGENAME}}}}}'''. It is automatically generated by [[Template:Country showdata]].<br />Editors can experiment in this template's {{#ifeq:{{SUBPAGENAME}}|sandbox|'''sandbox''' ([{{fullurl:{{FULLPAGENAME}}|action=edit}} edit] {{!}} [{{fullurl:Special:ComparePages|page1=Template:{{urlencode:{{BASEPAGENAME}}}}&page2={{urlencode:{{FULLPAGENAME}}}}}} diff])|{{#ifexist:{{FULLPAGENAME}}/sandbox|[[{{FULLPAGENAME}}/sandbox|sandbox]] ([{{fullurl:{{FULLPAGENAME}}/sandbox|action=edit}} edit] {{!}} [{{fullurl:Special:ComparePages|page1={{urlencode:{{FULLPAGENAME}}}}&page2={{urlencode:{{FULLPAGENAME}}}}/sandbox}} diff])|sandbox ([{{fullurl:{{FULLPAGENAME}}/sandbox|action=edit&preload=Template:Country_showdata/preload-sandbox}} create] {{!}} [{{fullurl:{{FULLPAGENAME}}/sandbox|action=edit&preload=Template:Country_showdata/mirror&summary=Create+sandbox+version+of+{{urlencode:[[{{FULLPAGENAME}}]]}}}} mirror])}}}} and {{#ifexist:{{#ifeq:{{SUBPAGENAME}}|sandbox|Template:{{BASEPAGENAME}}|{{FULLPAGENAME}}}}/testcases|[[{{#ifeq:{{SUBPAGENAME}}|sandbox|Template:{{BASEPAGENAME}}|{{FULLPAGENAME}}}}/testcases|testcases]] ([{{fullurl:{{#ifeq:{{SUBPAGENAME}}|sandbox|Template:{{BASEPAGENAME}}|{{FULLPAGENAME}}}}/testcases|action=edit}} edit])|testcases ([{{fullurl:{{#ifeq:{{SUBPAGENAME}}|sandbox|Template:{{BASEPAGENAME}}|{{FULLPAGENAME}}}}/testcases|action=edit&preload=Template%3ADocumentation%2Fpreload-testcases}} create])}} pages.<br />Please {{purge|purge the cache}} after making any changes to this template.<!--
+-->{{#ifeq:{{SUBPAGENAME}}|sandbox||{{#ifexist:{{FULLPAGENAME}}/doc|<!--
+  --><br />This template has a [[{{FULLPAGENAME}}/doc|/doc]] subpage for the purposes of [[WP:CAT|categories]] and documentation specific to this template.|<!--
+  -->{{#switch:{{PROTECTIONLEVEL:edit}}|sysop|templateeditor=<!--
+    --><br />This template is [[WP:PROTECT|{{#ifeq:{{PROTECTIONLEVEL:edit}}|sysop|fully protected|template-protected}}]] and any [[WP:CAT|categories]] should be added to the template's [{{fullurl:{{FULLPAGENAME}}/doc|action=edit&preload=Template:Country_showdata/preload}} /doc] subpage, which is not protected.|#default=<!--
+    --><br />Any [[WP:CAT|categories]] should be added to the template's [{{fullurl:{{FULLPAGENAME}}/doc|action=edit&preload=Template:Country_showdata/preload}} /doc] subpage, which does not exist yet.<!--
+  -->}}<!--
+-->}}}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

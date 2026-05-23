@@ -1,0 +1,1807 @@
+require('strict')
+local delink=require('Module:Delink').delink
+local getArgs = require('Module:Arguments').getArgs
+local p = {}
+local maplist={}
+local sgNames={}
+local highlightOption=false
+local highlightNum
+local visibleLinks
+
+-- This module creates framed maps of anywhere in the world, at the required scale, and enables annotations, 
+-- dots, shapes, lines and other ways to customise the area of the map being shown. It also provides a link
+-- to an interactive fullscreen version, which has locator dots instead of annotations and shapes.
+
+
+-- This is the 2025 successor module to a wiki-markup template version of 2024, which itself was a successor 
+-- to the 'Graph'/VEGA driven template that was begun in 2016, until the Vega version was switched off in 2023.
+
+-- This module is called from template {{OSM Location map}}, which uses the same parameter formats as before.
+
+-- In addition it will be possible to use a more concise parameter format using the template {{OSM Location dots}}
+-- In general the css output from the two formats will be identical, but the the concise version will allow bits of
+-- greater control over some of the settings.
+
+-- see the documentation on the two template pages for details of how to use the mapping features.
+
+-- If language customisation is needed, there are text items below that can be translated. Also see the color table
+-- below with details of how to add additional color names to allow localised alternatives.
+-- (Translating other language shape-types could be possible, but has not currently been contemplated. 
+-- Parameter name translation would be harder but likely to be possible, ideally still retaining compatibility 
+-- with template calls already written using English).
+
+local negativeAnswer={no=1,'0'-1,off=1}
+local fullscreenlinktext='Click for interactive fullscreen map with links to nearby articles'
+local toggletext='[Hide/show caption list]'
+local termsOfUse='Maps: terms of use'
+local aboutOSM='About OpenStreetMaps'
+    
+local shapeList={}             --This sets up the 'factoryDefault' shape group 0
+shapeList["0"]={shapeType="0",
+  Name="initialSettings",
+  Parent="0",
+--sga items for the shape 
+  shape="circle",
+  shapeSize="12px",
+  shapeColor="blue",
+  shapeAngle="0deg",
+--sgb items for border of the shape
+  outlineWidth="0.5px",
+  outlineColor="darkblue",
+  outlineStyle="solid",
+--sgc items text settings for labels
+  textSZ="11px",
+  textCL="darkgrey",
+  textNG="0deg",
+--sgf further text settings    
+  textSP="0px",
+  textLH="120%",
+  textOL="0px",
+  textBG="transparent",
+--sgd items for dotTag text settings
+  tagSize="10px",
+  tagColor="white",
+  tagSpacer="0px",
+  tagAngle="0deg",
+--sge items for extension line to connect label to dot
+  textEW="0px",
+  textEC="darkgrey",
+  textES="solid"
+}
+
+local   colorList={}			-- used by colorLookup to catch unsupported colors (eg 'LimeGreen'), to convert to generic version
+colorList['green']='hardgreen'	-- it could also be added to to include alternative language equivelants, for a quick solution.
+colorList['red']='hardred'		-- colorList ['source'] = target    
+colorList['white']='white'		-- converts any color that includes 'source' into its equivelent target
+colorList['blue']='hardblue'	-- note, for translation you can add to this list, rather than replace it,  
+colorList['brown']='brown'		-- which would mean existing map definitions in english would also still work, alongside translated ones
+colorList['grey']='hardgrey'
+colorList['gray']='hardgrey'
+colorList['purple']='hardpurple'
+colorList['orange']='hardorange'
+colorList['leaf']='hardleaf'
+
+--for a more thorough translation, you can add all the variants of the colors as further CTB elements and hex values or redirects
+local CTB={} -- set up a table of color names (the CTB Color table index) and html hash colorhex values.
+CTB["paleblue"],CTB["softblue"],CTB["hardblue"],CTB["darkblue"]="#D6E1EC","#77A1CB","#4B77D6","#1c559e"
+CTB["palered"],CTB["softred"],CTB["hardred"],CTB["darkred"] = "#FCC6C0","#EC644B","#DB3123","#AA1205"
+CTB["palegreen"],CTB["softgreen"],CTB["hardgreen"],CTB["darkgreen"]= "#D2F0E5","#81AF81","#269F46","#0b7527"
+CTB["paleleaf"],CTB["softleaf"],CTB["hardleaf"],CTB["darkleaf"]= "#dff5c1","#b5e376","#8cc244","#679c21"
+CTB["palegrey"],CTB["softgrey"],CTB["hardgrey"],CTB["darkgrey"]= "#E8E8D6","#AAAA88","#777755","#444433"
+CTB["palegray"],CTB["softgray"],CTB["hardgray"],CTB["darkgray"]=CTB["palegrey"],CTB["softgrey"],CTB["hardgrey"],CTB["darkgrey"]
+CTB["palebrown"],CTB["softbrown"],CTB["hardbrown"],CTB["darkbrown"]="#FAF6ED","#CCB56C","#AD7F14","#754910"
+CTB["palepurple"],CTB["softpurple"],CTB["hardpurple"],CTB["darkpurple"]="#e0d1e6","#c784e0","#a029cf","#7a05a8"
+CTB["paleorange"],CTB["softorange"],CTB["hardorange"],CTB["darkorange"]="#ffedc2","#ffcf61","#EEB533","#e39f05"
+CTB["black"],CTB["white"],CTB["yellow"]="#000000","#FFFFFF","#FAF039"
+CTB["background"],CTB["paleground"],CTB["beigeground"]="#f9f6f2","#FEFEFA","#F5F5DC"
+CTB["beige"]=CTB["beigeground"]
+CTB["aqua"],CTB["teal"],CTB["fuchsia"] = "#00FFFF","#008080","#FF00FF"
+CTB["maroon"],CTB["olive"],CTB["navy"] = "#800000","#808000","#000080"
+CTB["lime"],CTB["limegreen"],CTB["aquamarine"] = "#00FF00","#32CD32","#7FFFD4"
+CTB["silver"],CTB["yellow"],CTB["orchid"] = "#800000","#FFFF00","#DA70D6"
+
+-- set up a table of predefined clip-paths
+local pathshape={}
+pathshape.squaredd = "M 19,1.25 l 0,18 -18,0 0,-18 18,0m-1,1 -16,0 0,16 16,0 0,-16m-1,1 0,14 -14,0 0,-14 14,0zm-1,1 -12,0 0,12 12,0 0,-12zm-1,1 0,10 -10,0 0,-10 10,0z"
+pathshape.squared =  "M 18,2.5 l 0,15 -15,0 0,-15 15,0m-1,1 -13,0 0,13 13,0 0,-13zm-1,1 0,11 -11,0 0,-11 11,0z"
+pathshape.triangledd="M 0 20,20 20,10 0,0 20ZM1.5 19,10 1.7,18.5 19,1.5 19ZM3 18,17 18,10 3.8,3 18ZM4.5 17,10 5.4,15.4 17, 4.5,17ZM6 16,13.8 16,10 7.4z"
+pathshape.triangled ="M1,18 l 18,0 l -9,-18 l -9,18zm1.7,-1.1 l 7.3,-14.6 l 7.3,14.6 l -14.6, 0zm1.7,-1 l 11.0,0 l -5.5,-11 l -5.5,11z"
+pathshape.circledd = "M0,10a10,10 0 1,0 20,0a10,10 0 1,0 -20,0zm0.8,0a9.2,9.2 0 1,1 18.4,0a9.2,9.2 0 1,1 -18.4,0m1,0a8.2,8.2 0 1,0 16.4,0a8.2,8.2 0 1,0 -16.4,0zm0.8,0a7.2,7.2 0 1,1 14.8,0a7.2,7.2 0 1,1 -14.8,0m1,0 a6.4,6.4 0 1,1 12.8,0a6.4,6.4 0 1,1 -12.8,0z"
+pathshape.circled =  "M2.5,10a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0zm1,0a6.5,6.5 0 1,1 13,0a6.5,6.5 0 1,1 -13,0m0.8,0 a5,5 0 1,1 11.4,0a5,5 0 1,1 -11.4,0"
+pathshape.diamond =  "M3,10 l 7,-10 l 7,10 -7,10 -7,-10z"
+pathshape.diamondd = "M3,10 l 7,-10 l 7,10 -7,10 -7,-10zm1,0 l 6,8.5 l 6,-8.5 -6,-8.5 -6,8.5zm1,0 l 5,-7 5,7 -5,7 -5,-7z"
+pathshape.diamonddd = "M3,10 l 7,-10 l 7,10 -7,10 -7,-10zm0.75,0 l 6.25,9 l 6.25,-9 -6.25,-9 -6.25,9zm0.75,0 l 5.5,-8 5.5,8 -5.5,8 -5.5,-8zm0.75,0 l 4.75,7 l 4.75,-7 -4.75,-7 -4.75,7zm0.75,0 l 4,-6 4,6 -4,6 -4,-6z"
+pathshape.crossd = "M3.1,12.5 l4.2,0 l0,4.2 l5,0 l0,-4 l4.2,0 l0,-5 l-4.2,0 l0,-4.2 l-5,0 l0,4.2 l-4.2,0zM2.3,10a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0zm1,0a6.5,6.5 0 1,1 13,0a6.5,6.5 0 1,1 -13,0z"
+pathshape.cross = "M3.1,12.5 l4.2,0 l0,4.2 l5,0 l0,-4 l4.2,0 l0,-5 l-4.2,0 l0,-4.2 l-5,0 l0,4.2 l-4.2,0z"
+pathshape.thincross = "M2,12 l6,0 l0,6 l4,0 l0,-6 l6,0 l0,-4 l-6,0 l0,-6 l-4,0 l0,6 l-6,0z"
+pathshape.fivepointstar = "M10 0 L12.245 6.91 19.511 6.91 13.633 11.18 15.878 18.09 10 13.82 4.122 18.09 6.367 11.18 0.489 6.91 7.755 6.91Z"
+pathshape.fivepointstard = "M10 1.5 L 11.90825 7.3735 18.08435 7.3735 13.08805 11.003 14.9963 16.8765 10 13.247 5.0037 16.8765 6.91195 11.003 1.91565 7.3735 8.09175 7.3735 ZM0,10a10,10 0 1,0 20,0a10,10 0 1,0 -20,0zm1.5,0a8.5,8.5 0 1,1 17,0a8.5,8.5 0 1,1 -17,0z"
+pathshape.sixpointstar = "M10 0 L12.323 5.977 18.66 5 14.645 10 18.66 15 12.323 14.023 10 20 7.677 14.023 1.34 15 5.355 10 1.34 5 7.677 5.977Z"
+pathshape.sixpointstard = "M10 1.5 L 11.97455 6.58045 17.361 5.75 13.94825 10 17.361 14.25 11.97455 13.41955 10 18.5 8.02545 13.41955 2.639 14.25 6.05175 10 2.639 5.75 8.02545 6.58045 ZM0,10a10,10 0 1,0 20,0a10,10 0 1,0 -20,0zm1.5,0a8.5,8.5 0 1,1 17,0a8.5,8.5 0 1,1 -17,0z"
+pathshape.sevenpointstar = "M10 0 L12.048 5.747 17.818 3.765 14.602 8.95 19.749 12.225 13.69 12.943 14.339 19.01 10 14.72 5.661 19.01 6.31 12.943 0.251 12.225 5.398 8.95 2.182 3.765 7.952 5.747Z"
+pathshape.sevenpointstard = "M10 1.5 L11.7408 6.38495 16.6453 4.70025 13.9117 9.1075 18.28665 11.89125 13.1365 12.50155 13.68815 17.6585 10 14.012 6.31185 17.6585 6.8635 12.50155 1.71335 11.89125 6.0883 9.1075 3.3547 4.70025 8.2592 6.38495 ZM0,10a10,10 0 1,0 20,0a10,10 0 1,0 -20,0zm1.5,0a8.5,8.5 0 1,1 17,0a8.5,8.5 0 1,1 -17,0z"
+pathshape.eightpointstar = "M10 0 L11.88 5.46 17.071 2.929 14.54 8.12 20 10 14.54 11.88 17.071 17.071 11.88 14.54 10 20 8.12 14.54 2.929 17.071 5.46 11.88 0 10 5.46 8.12 2.929 2.929 8.12 5.46Z"
+pathshape.eightpointstard = "M10 0 L10 1.5 L11.598 6.141 16.01035 3.98965 13.859 8.402 18.5 10 13.859 11.598 16.01035 16.01035 11.598 13.859 10 18.5 8.402 13.859 3.98965 16.01035 6.141 11.598 1.5 10 6.141 8.402 3.98965 3.98965 8.402 6.141ZM0,10a10,10 0 1,0 20,0a10,10 0 1,0 -20,0zm1.5,0a8.5,8.5 0 1,1 17,0a8.5,8.5 0 1,1 -17,0z"
+pathshape.ring="M2.6,9.5a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0zm1,0a6.5,6.5 0 1,1 13,0a6.5,6.5 0 1,1 -13,0z"
+pathshape.boxd=pathshape.squared 
+pathshape.boxdd=pathshape.squaredd
+pathshape.ellipsed=pathshape.circled 
+pathshape.ellipsedd=pathshape.circledd 
+
+local msg={}
+local function debugmsg(txt)
+	table.insert(msg,txt)
+end
+local pmsg={}
+local function previewMsg(txt)
+	table.insert(pmsg,txt)
+end
+
+local function colorLookup(color)
+  for c,l in pairs(colorList) do
+    if string.find(color,c) then return l end
+  end
+  return color
+end
+
+local function getColor (color,chk)
+    local c
+    local opacity="100"
+    if not color or color=='' then color='hardgrey' end
+    if color=="transparent" then return color end
+    if color=="background1" then color='background' end
+    if string.byte(color,1,1)==35 and (#color == 7 or #color == 9) then
+    	 c=color
+    elseif string.byte(color,1,1)==35 and #color == 4 then
+    	 c=string.sub(color,1,2)..'f'..string.sub(color,3,3)..'f'..string.sub(color,4,4)..'f'
+    else
+    	local s=color..'1'
+    	s= s:sub(0,s:find("%d")-1)
+    	opacity=string.match(color,"%d+")
+    	if not CTB[s] then s= colorList[s] end -- check for synonyms and translations
+    	if not CTB[s] then debugmsg(mw.addWarning('color = '..color..'. The color name is not defined. Used default grey instead')) end
+    	c=CTB[s] or CTB.hardgrey
+    end
+    if opacity and (tonumber(opacity) < 100) and string.find(c,"#")==1 and string.len(c)==7 and opacity~="" then
+        local hexval=string.format("%x",(math.floor(tonumber(opacity)*2.55)))
+        c=c..hexval
+    end
+    return c
+end
+
+function p.colorvalue(frame)   -- enable external access to the CTB colorTable values. usage: {{#invoke:OSM Location map|colorvalue|color=hard blue}}
+	local c
+	if not frame.args.color or frame.args.color=='' then c='grey'
+	else c=string.lower(string.gsub(frame.args.color,'%s+','')) end
+	return string.upper(string.sub(getColor(c),2))
+end
+
+
+local function checkColors(color)
+	local c=getColor(color,'check')
+	local opacity =1 -- calculate colour brightness and return black or white for contrast
+	if c=='transparent' then return c,'#000000',0 end
+	if not (string.find(c,'#')==1) then return c,'#FFFFFF',0 end
+	if #c>8 then opacity= tonumber('0x'..(string.sub(c,8,9)))/500 end
+	local r=tonumber('0x'..(string.sub(c,2,3)))/255
+    local g=tonumber('0x'..(string.sub(c,4,5)))/255
+    local b=tonumber('0x'..(string.sub(c,6,7)))/255
+    if 0.2126 * r + 0.7152 * g + 0.0722 * b / opacity < 0.7 then
+		return c,'#FFFFFF',0.2126 * r + 0.7152 * g + 0.0722 * b / opacity
+	else return c,'#000000',0.2126 * r + 0.7152 * g + 0.0722 * b / opacity
+	end
+end
+
+local function morethan(a,b)
+  a = tonumber(string.match(a, '%f[%d]%d[,.%d]*%f[%D]') or '0')
+  b = tonumber(string.match(b, '%f[%d]%d[,.%d]*%f[%D]') or '0')
+  return a>b
+end
+
+local function lessthan(a,b)
+  if tonumber(string.match(a, '%f[%d]%d[,.%d]*%f[%D]')) then
+    a = tonumber(string.match(a, '%f[%d]%d[,.%d]*%f[%D]'))
+    b = tonumber(string.match(b, '%f[%d]%d[,.%d]*%f[%D]') or '0')
+  end
+  return a<b
+end
+
+local function getsize(size)
+    --size1 is between 1 and 3 values, each with px, equating to width,height,corner-rounding
+    --eg '15px 25px 5px' (spaces are optional) or '18px'. returns three numbers
+    local sizeval = {}
+    for v in string.gmatch(size, "[^px]+") do
+        table.insert(sizeval,v)
+    end
+    sizeval[1] = tonumber(sizeval[1]) or 13
+    sizeval[2] = tonumber(sizeval[2]) or sizeval[1]
+    sizeval[3] = tonumber(sizeval[3]) or 0
+    
+    return sizeval[1],sizeval[2],sizeval[3]
+end
+
+local function coord2text(coord) -- looks through the output from {{coord}} to find the lat and long decimal values 
+	                       -- and converts compass points to minus or not-minus, return with separating comma.
+	local lat = string.match(coord,'[%.%d]+°[NS]')
+	local lon = string.match(coord,'[%.%d]+°[EW]')
+	local neg={N="",S="-",W="-",E=""}
+	return neg[string.match(lat, '[NS]')]..string.match(lat,'[%.%d]+')..","..neg[string.match(lon, '[EW]')]..string.match(lon,'[%.%d]+')
+end
+
+local function convertCoordsTrad (row)
+	local coords=''
+	if row and string.find (row,'<span class="geo">') then 
+		local a,b=string.find(row,'<span class="geo">')
+		local start=b+1
+    	a,b=string.find(row,"</span>",b)
+    	local finish=a-1
+    	coords=string.sub(row,start,finish)
+    	coords=string.gsub(coords,'; ',',')
+	end
+	return coords
+end
+
+local function convertCoords (row)
+	local start,finish,lat,lon,coords,says
+	if row then
+		local a,b=string.find(row,"<span class=")
+		start=a
+		while a do -- find the final span>
+    		finish=b
+    		a,b=string.find(row,"span>",b)
+		end
+		if start then
+			coords= string.sub(row,start,finish)
+			says=""
+			if string.find(coords,'<span class="error">') then
+				error("coord error: badly formed coordinates",0)
+			end
+			coords=coord2text(coords)
+			coords = string.sub(row,1,start-1)..coords..string.sub(row,finish+1)
+		else 
+			coords=row
+		end
+		return coords
+	else
+		return "Nothing to see here"
+	end
+end
+
+local function fillCommas(val,max)
+  local line=''
+  if not val then line=',' -- ensure there is some content
+  else line = val --string.lower(string.gsub(val,"%s+","")) -- or strip spaces
+  end 
+  if string.find(line,',') == 1 then line=' '..line end -- ensure initial comma is not skipped
+  local _, count=string.gsub(line,",","") -- add enough subsequent commas for all entries
+  line=line..string.rep(',',max-count)
+  while(string.find(line,",,") ) do
+    line=string.gsub(line,",,",", ,") --ensure string.gmatch doesn't ignore any empty items by padding with spaces
+  end
+  return line
+end
+
+local function makeLinkBox(left,top,wid,label, link)
+	local linkBoxName='Transparent square.svg'
+	if visibleLinks or '' =='yes' then linkBoxName='Red hollow square.svg' end
+	local builder = mw.html.create('div') --display:inline-block; 
+	builder
+		:cssText('position:absolute;left:'..tostring(left-1-wid/2)..'px;top:'..tostring(top-1 + math.min(wid/2-12,0) - wid/2)..'px')
+		:wikitext(string.format( '[[File:%s|%dpx|link=%s|%s]]', linkBoxName, wid+2, link, label	))
+	return tostring(builder)
+end
+
+local function extractItem(row,searchItem) 
+-- remove text following a searchItem or start of line, which might be in quote-marks to allow commas
+  local xend,xstart=1,0
+  if not row then return '','' end
+  if searchItem then xend,xstart= string.find(row or '',searchItem or 'image:') end
+  if not xstart then return string.gsub(string.gsub(row or '',"%b\"\"", ''),"%b\'\'", '') or '','' end
+  while row:byte(xstart+1) == 32 and xstart<#row do  -- skip over any leading spaces
+    xstart=xstart+1 
+  end
+  local xbyte=row:byte(xstart+1)
+  if xbyte == 34 or xbyte == 39 then -- are they wrapped in single or double quotes
+    xstart=xstart+1
+    xend=row:find(string.char(xbyte),xstart+1)
+  else
+    xend = row:find(',',xstart+1) -- if no quotes, we assume no commas
+    if not xend then xend=#row+1 end
+  end  -- return residual row and extracted text
+  return row:sub(0,xstart)..row:sub(xend), row:sub(xstart+1,xend-1)
+end
+
+local function itemCheck(item,ext)
+	if not item then return nil end
+	if not ext then ext='' end
+    return (string.match(item,"[%.%-?%d]+") or '0')..ext
+end
+
+local function stripdivs(line)
+   return string.gsub(line or '',"%b<>", ' ')
+end
+
+local function splitItem(item,max) -- takes a commas-sep list and returns a table of lowercase items with no spaces, or nil
+	local r={}
+	local x=1
+	item=string.lower(fillCommas(item,max))
+	for t in string.gmatch(item,"[^,]+") do
+	    r[x]=string.gsub(t,"%s+","")
+	    if r[x]=='' then r[x]= nil else -- residual items might have commas
+	    	if x>max then r[max]=(r[max] or '')..', '..r[x] end
+	    end
+	    x=x+1
+	end
+	return r
+end
+
+local function ParseShapeTypes (result,args,sgval) -- for use with compressed, comma-separated 'sg plus dots' parameters
+	--[[ shape table items and default values as set at top of page
+	shapeType="0",	Name="initialSettings",  Parent="0",
+	--sga items for the shape 	shape="circle", 	shapeSize="12px",		shapeColor="blue",  shapeAngle="0deg",
+	--sgb items for border		outlineWidth="0.5px", outlineColor="darkblue",  outlineStyle="solid",
+	--sgc items label text  	textSZ="11px",  	textCL="white",			textNG="0deg", textAT=attributes ("bold" and/or "italic")
+	--sgd items for dotTag	tagSize="11px",	tagColor="darkgrey",	tagSpacer="0px",	tagAngle="0deg",	
+	--sge extension line		textEW="1px",		textEC="darkblue",  	textES="solid"
+	--sgf fx for text labels	textSP="0px"		textLH="100%"			textOL="1px",		textBG="paleground",	
+	<!--| sga = shape,Size,Color,Angle|sgb= outlineWidth,color,style eg: sga1=circle,14px,blue,0deg| sgb1=0px,dark grey,solid
+    | sgc=textSize,color,angle,bold/italic  | sgd=tagSize,Color,Spacer,Angle  eg: sgc1=11px,dark grey,0deg,normal| sgd1=9px,white,0px,0deg
+    | sge=lineWidth,color,style |sgf=textspacing,lineHeight%,outlinepx,backgroundcolor, [bold,italic] eg: sge1=0px,black, solid| sgf1=0px,120%,0px,background
+    | dot=shape-group/lat/lon/title/dotTag | dotlink=link or tooltip | dotlabel=label,position,dx,dy,param1,info| dotpic=filename-->
+	--]]
+	
+  if args["sgn"..sgval] then
+  	local sgname=string.match(args["sgn"..sgval],"(%w+)(.*)")
+    sgNames[sgname]=sgval
+  end
+  local parent= args["sgp"..sgval]
+  if parent then 
+  	parent=string.match(parent,"(%w+)(.*)")
+    local pos= string.find(parent,"%d+")
+    if pos == 1 then
+      parent=string.match(parent,"%d+")
+    else
+      parent=sgNames[parent] or '1'
+    end
+  end
+  if sgval~='H' then
+	if not parent or tonumber(parent) > tonumber(sgval) then 
+    	if sgval=="1" then parent="0" else parent="1" end
+	end 
+  end
+  local itemTab, line, filename
+  result[sgval]={}
+  result[sgval].shapeType=sgval 
+  line,filename=extractItem(args['sga'..sgval] or '','image:')
+  if sgval=='1' and not args.sga1 then line='circle,12px,blue,0deg' end -- ensure there is a parent=1 sga
+  result[sgval].shapeFile=filename or ''
+-- sga= Attributes for shape
+	itemTab=splitItem(line,4)
+    result[sgval].shape = itemTab[1] or result[parent].shape
+    result[sgval].shapeSize=itemTab[2] or result[parent].shapeSize
+    result[sgval].shapeColor=itemTab[3] or result[parent].shapeColor
+    result[sgval].shapeAngle=itemCheck(itemTab[4],'deg') or result[parent].shapeAngle
+-- sgb= Border outline attributes for shape
+	itemTab=splitItem(args['sgb'..sgval],3)
+    result[sgval].outlineWidth=itemCheck(itemTab[1],'px') or result[parent].outlineWidth 
+    result[sgval].outlineColor=itemTab[2] or result[parent].outlineColor
+    result[sgval].outlineStyle=itemTab[3] or result[parent].outlineStyle
+--sgc=character attributes for label
+	itemTab=splitItem(args['sgc'..sgval],4)
+    result[sgval].textSZ=itemCheck(itemTab[1],'px') or result[parent].textSZ       -- size of text in px
+    result[sgval].textCL=itemTab[2] or result[parent].textCL       -- colour for text
+    result[sgval].textNG=itemCheck(itemTab[3],'deg') or result[parent].textNG       -- Angle for text
+    result[sgval].textAT=itemTab[4] or result[parent].textAT -- attributes  bold, and/or italic
+--sgd=dotTag attributes
+  itemTab=splitItem(args['sgd'..sgval],4)
+	result[sgval].tagSize=itemCheck(itemTab[1],'px') or result[parent].tagSize
+	result[sgval].tagColor=itemTab[2] or result[parent].tagColor
+	result[sgval].tagSpacer=itemCheck(itemTab[3],'px') or result[parent].tagSpacer
+	result[sgval].tagAngle=itemCheck(itemTab[4],'deg') or result[parent].tagAngle
+--sge= extension line attributes
+	itemTab=splitItem(args['sge'..sgval],4)
+	result[sgval].textEW=itemCheck(itemTab[1],'px') or result[parent].textEW -- width
+    result[sgval].textEC=itemTab[2] or result[parent].textEC       -- colour 
+    result[sgval].textES=itemTab[3] or result[parent].textES       -- style
+--sgf= fx for label text
+	itemTab=splitItem(args['sgf'..sgval],4)
+    result[sgval].textSP=itemCheck(itemTab[1],'px') or result[parent].textSP       -- spacing value for letters
+    result[sgval].textLH=itemCheck(itemTab[2],'%') or result[parent].textLH       -- Angle for text
+    result[sgval].textOL=itemCheck(itemTab[3],'px') or result[parent].textOL       -- width of text-border line
+    result[sgval].textBG=itemTab[4] or result[parent].textBG       -- color for text background
+
+	return result
+end
+
+local function round(x,dec) 
+	-- x=number [, dec=integer] returns numeric value with upto dec decimals (all but first trailing zeros get truncated)
+    if (dec or 0)==0 then
+        return x>=0 and math.floor(x+0.5) or math.ceil(x-0.5) --this avoids .0 where dec=0
+    end
+    dec =10^(dec)
+  return x>=0 and math.floor(x*dec+0.5)/dec or math.ceil(x*dec-0.5)/dec
+end
+
+local function maptogrid(t,r)
+	--[[ converts mercator projection longitude and latitude coordinates to x and y pixel coordinates, within a frame of given size, centre coordinates and zoom level.
+	t is a table of named indices: {lon, lat, lonbase, latbase, width, height, zoom} 
+	output is two values, x and y, rounded to r decimal places--]]
+	local x,y
+    	x=t.width/2 + ( ((math.rad(t.lon)*6378137) - (math.rad(t.lonbase)* 6378137) )  / (156543.03*math.cos(t.latbase/180)/(2^t.zoom) ) )*(1-(0.075*(math.abs(t.latbase)/90)))
+	    y=t.height/2 + ( ( (math.log(math.tan(math.rad(t.latbase)/2+math.pi/4))*6378137) - (math.log(math.tan(math.rad(t.lat)/2+math.pi/4))*6378137) ) / (156543.03*math.cos(t.latbase/180) / (2^t.zoom) ) )*(1-(0.075*(math.abs(t.latbase)/90))) 
+    return round(x,r),round(y,r)
+    --source: python code at https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames and https://wiki.openstreetmap.org/wiki/Mercator
+--[[    
+width and height are the size, in pixels, of the map, which will be centerd around lonbase,latbase.
+Method: Convert lon and lonbase to meter-offsets from coord(0,0), and subtract lonbase from lon,
+zoom and latbase are used to scale the resulting meter-offset to pixels, and add it to width/2.
+Convert lat and lat-base to meter-offsets from coord(0,0), subtract lat from latbase,
+scale the resulting meter-offset to pixels, add it to height/2.
+A correction factor '*(1-(0.075*(math.abs(t.latbase)/90) ) )' compensates for an error that seems to creep in towards 
+the edges of the map at higher latitudes. It was identified experimentally, and ensures a dot at the edge is 
+in the same place as if that location is positioned at the centre.
+
+Original Python code for lat,lon to x,y where 0,0 is the centre of the map
+print('x=',width+(((math.radians(lon1) * 6378137)-
+      (math.radians(lonbase) * 6378137))/
+      (156543.03*math.cos(latbase/180)/(2**zoom))),' y=',height+((
+      (math.log(math.tan(math.pi / 4 + math.radians(latbase) / 2)) * 6378137)-
+      (math.log(math.tan(math.pi / 4 + math.radians(lat1) / 2)) * 6378137))/
+      (156543.03*math.cos(latbase/180)/(2**zoom)))
+     )  --]]
+end
+
+local function getScale(zoom, lat,magVal)
+	if magVal and magVal>1 and magVal <=2 then zoom=zoom+(magVal-1) end
+	local dist=(156543.03 * math.cos(math.rad(math.abs(lat))) / (2 ^ zoom))/17
+	local y
+	if dist < 1 then
+		y=(round(dist*10,1))
+    	return tostring(y*100)..'m', tostring(round(y*109,0))..'yds'
+	elseif dist <18 then
+		y=(round(dist,0))
+    	return tostring(y)..'km', tostring(round(y*0.621371,1))..'miles'
+    elseif dist <500 then
+    	y=round(dist/10)
+    	return tostring(y*10)..'km', tostring(round(y*6.21371,0))..'miles'
+	else 
+    	y=round(dist/100)
+    	return tostring(y*100)..'km', tostring(round(y*62.1371,0))..'miles'
+	end
+end
+
+local function ParseData (args,dotval)  -- for use with compressed, comma-separated 'sg plus dots' parameters
+    -- takes a structured series of comma-separated items which get parsed as the following:
+    -- dot(n)= (sgNumber or Name),{{coord}} or (lat,lon), (dotTag)
+    -- dotlink(n) = single-parameter text to give wikilink and/or title used by tootlip, fullscreen dots and autocaption list
+    -- dotlabel(n) = 'label text',pos(left,roght,top,bottom,centre,auto),(dx), (dy) pixel offsets,  params, info 
+    -- dotpic(n) = single parameter wikimedia filename for an image to use in photopanel and/or fullscreen dots
+    -- dotfeature(n)= 'mark-line' (,linewidth,style,gap)  or  'photo-panel' (,image-dim,panel-width,panel-height), draws line to n-1
+    -- label is used if either a position and/or an x,y offset are not 0,0 ( if no label then dotTag will be put at at the x,y offset, or over the dot
+    -- label text can be autoaligned if x,y puts it left or right of the dot, or centered if above/below)
+    -- quote marks are not needed unless including commas within the label text
+    -- param1 is optional items separated by spaces, and can include [nolabel nolist nomap hemisphere+1 hemisphere-1]
+    -- info is free wikitext, to be used in the fullscreen dot box. (use dotpic to show a picture)
+
+    --<!--| dotx=shape-group,[lat,lon or {{coord}} ], dotTag | dotlink=link or tooltip | dotlabel=label,position,dx,dy,param1,info| dotpic=filename-->
+	local result={}
+    local count=1
+    local row = convertCoords (args["dot"..dotval])  -- swap in any {{coord}} values so they are csv lat and lon
+    row=fillCommas(row,4)
+        result.code=dotval -- store the parameter name as the id code
+    for item in string.gmatch(row,"[^,]+") do -- iterate through 'row', adding each csv item in turn, if present
+	  if count==1 then --see if it is a number or a name
+	    local pos= string.find(item,"%d+")
+    	if pos == 1 then
+    		result.group=string.lower(string.gsub(item,"%s+",""))
+    	else
+    		item=string.match(item,"(%w+)(.*)") -- ensure just a single word
+    		result.group=sgNames[item]
+    	end
+      elseif count==2 then 
+        result.lat=tonumber(string.match(item,"[%.%-?%d]+")) or 0-- find the number, with no non-numeric stuff
+      elseif count==3 then 
+        result.lon=tonumber(string.match(item,"[%.%-?%d]+")) or 0 
+      elseif count==4 then
+        result.dotTag=item:match( "^%s*(.-)%s*$" ) or "" -- dotTag allows for internal spaces, but no commas
+      end
+      count=count+1
+    end
+    row, result.labelText= extractItem(args["dotlabel"..dotval])
+    result.labelText= string.gsub(result.labelText,"[%^]+","<br>") -- convert hats to line breaks
+    local item=splitItem(row,6)
+    result.labelPos=item[2] or 'center'
+    result.dx=tonumber(string.match(item[3] or '0',"[%.%-?%d]+")) or 0
+    result.dy=tonumber(string.match(item[4] or '0',"[%.%-?%d]+")) or 0
+    result.param1=string.lower(item[5] or '')
+    if string.find(result.param1,"hemisphere-1",1,true) then result.lon=result.lon-360
+    elseif string.find(result.param1,"hemisphere+1",1,true) then result.lon=result.lon+360
+    end
+    local txt = ''
+    if item[6] then -- ensure all info elements are included, including commas
+    	count=1 
+    	local max=6
+	    for t1 in string.gmatch(fillCommas(row,max),"[^,]+") do
+			if count>max then txt=txt..',' end
+			if count>=max then txt=txt..t1 end
+			count=count+1
+	    end
+    end
+    result.info=txt
+	result.imageName = args['dotpic'..dotval]
+	-- Get first wikilinked item (if any) from the args.dotlink and set this plus the delinked text
+	local testx=args["dotlink"..dotval] or ''
+	result.dotLink=testx
+	if testx ~= '' then
+		testx=stripdivs(testx)
+		result.title=delink({ testx })
+		local linkstart= string.find(testx,'[[',1,true) -- use true to ensure a plain search (no pattern)
+		if linkstart then
+			result.dlink=delink( { string.sub(testx,linkstart,string.find(testx,']]',1,true)+1),wikilinks='target' } )
+		else result.dlink=''
+		end
+	else
+        result.dlink=''
+        result.title=''
+	end
+	if args['dotfeature'..dotval] then
+		local item=splitItem(args['dotfeature'..dotval],6)
+		if (item[1] or '') =='photo-panel' then 
+			result.ppwidth= tonumber(string.match((item[3] or '110'),"%d+")) -- panel width
+			result.ppheight= tonumber(string.match((item[4] or '48'),"%d+") ) --panel height
+			result.photowidth=round(tonumber(string.match((item[2] or '1.3'),"[%.%-?%d]+")) * result.ppheight+1,0) -- dimension to set image size
+			result.photoImage=result.imageName
+			result.posType='photo-panel'
+		elseif (item[1] or '') == 'mark-line' then
+			local x=tonumber(dotval or '0')
+			result.markDest=item[5] or tostring(x-1)
+			result.mlWidth= tonumber(string.match((item[2]) or '',"%d+") or '1')
+			result.mlStyle= item[3] or 'solid'
+			result.mlGap=tonumber(string.match((item[4] or ''),"[%d]+") or '0')
+			result.posType='mark-line'
+--	debugmsg('making line for '..tostring(x)..'to '..tostring(result.markDest)..' with width '..tostring(result.mlWidth))
+		end
+		--debugmsg('photo-panel, '..shapePos[2]..', 3='..shapePos[3]..', 4='..shapePos[4]..', 5='..(shapePos[5] or '(48')..'photowidth='..tostring(dotItem.photowidth))
+	end
+
+    maplist.lon=result.lon
+	maplist.lat=result.lat
+	result.gridx, result.gridy = maptogrid(maplist,1) -- convert geo coords to grid xy - using values from maplist table
+  return result
+end
+
+local function multiCheck (args, argName, argVal, defVal, alt)
+	if not alt then alt='nonexistant' end
+	if argVal=='H' and not args[argName..'H'] then argVal=highlightNum or '1' end
+	if argVal=='' then 
+		return (args[argName] or args[alt] or (args[argName..'D']) or args[alt..'D'] or defVal) -- unnumbered args do not inherit from D or 1
+	else
+		return (args[argName..argVal]) or (args[alt..argVal]) or (args[argName..'D']) or (args[alt..'D']) or (args[argName..'1']) or (args[alt..'1']) or defVal
+	end
+end
+
+local function assignTradstyleShape(shapeResult,default,dotResult,args,nval)
+	local item,itemTab
+	local autoDotTag=''
+	local shapeWidth,shapeHeight=0,0
+	local argval=nval -- to catch the unnumbered shape series
+	if argval=='0' then argval='' end
+	if nval=='H' then shapeResult.H={} end
+	item=string.lower(multiCheck(args,'shape',argval,'image'))
+	if string.find(item,'n-',0,true)==1 or string.find(item,'l-',0,true)==1 then 
+		autoDotTag=string.sub(item,0,1) 
+		item=string.sub(item,3) 
+	end
+    if item == 'image' then 
+    	shapeResult[nval].shape = 'image:'
+    	shapeResult[nval].shapeFile =multiCheck(args,'mark',argval,'Red pog.svg')
+    	shapeWidth=-1
+    else   shapeResult[nval].shape = item 
+    end
+    item= multiCheck(args,'mark-size',argval,'14px')
+	local a,b,c= getsize(string.gsub(string.gsub(item,',','px')..'px','pxpx','px'))
+	if b==a and args['mark-dim'..argval] then 
+		b= b / tonumber(string.match(args['mark-dim'..argval],"[%.%-?%d]+"))
+	end
+	shapeHeight=b/2
+	item=tostring(a)..'px'..tostring(b)..'px'..tostring(c)..'px'
+    shapeResult[nval].shapeSize= item
+    itemTab=splitItem(multiCheck(args,'shape-color',argval,'hard red'),2)
+    shapeResult[nval].shapeColor=itemTab[1] or 'hardred'
+    item=itemCheck(itemTab[2],'%') -- jump through the various opacity hoops and add to color if needed
+    if not item then item=itemCheck(args['shape-opacity'..argval],'%') end
+    if item and item~='0%' and item~='100%' then shapeResult[nval].shapeColor=shapeResult[nval].shapeColor..item  end
+    shapeResult[nval].shapeAngle=itemCheck(multiCheck(args,'shape-angle',argval,'0'),'deg') or '0deg'
+--sort out the outline entry
+    itemTab=splitItem(multiCheck(args,'shape-outline',argval,'transparent,0,100,solid'),4)
+    shapeResult[nval].outlineColor=itemTab[1] or 'dark grey'
+    shapeResult[nval].outlineWidth=itemCheck(itemTab[2],'px') or '1px' 
+    if itemTab[3] and itemTab[3]~='100' and itemTab[3]~='0' then
+    	shapeResult[nval].outlineColor=shapeResult[nval].outlineColor..itemCheck(itemTab[3],'%')
+    end
+    shapeResult[nval].outlineStyle=itemTab[4] or 'solid'
+-- label size, background, outline
+    itemTab=splitItem( multiCheck(args,'label-size',argval,'12'),3)
+    shapeResult[nval].textSZ=itemCheck(itemTab[1],'px') or '12px' 
+    if itemTab[2]=='outline' then 
+    	shapeResult[nval].textBG=itemTab[3] or 'transparent'
+    	shapeResult[nval].textOL='1px' 
+    elseif itemTab[3]=='outline' then 
+    	shapeResult[nval].textBG=itemTab[2] or 'transparent'
+    	shapeResult[nval].textOL='1px' 
+    else shapeResult[nval].textOL='0px' 
+    	shapeResult[nval].textBG=itemTab[2] or 'transparent'
+    end
+    if getColor(shapeResult[nval].textBG)==CTB['hardgrey'] and shapeResult[nval].textBG~='hardgrey' then shapeResult[nval].textBG= 'transparent' end
+--label color etc
+    itemTab=splitItem(multiCheck(args,'label-color',argval, 'darkgrey','label-colour'),2)
+    shapeResult[nval].textCL=itemTab[1] or 'darkgrey'
+    if itemTab[2] and itemTab[2]~='0%' and itemTab[2]~='100%' then shapeResult[nval].textCL=shapeResult[nval].textCL..itemTab[2]  end
+    shapeResult[nval].textSP=itemCheck( multiCheck(args,'label-spacing',argval,'0'),'px') -- sets letter-spacing in px
+    shapeResult[nval].textLH=itemCheck( multiCheck(args,'label-height',argval,'120'),'%') -- sets line height, 120% default 
+    shapeResult[nval].textNG=itemCheck(multiCheck(args,'label-angle',argval,'0'),'deg')
+--sgd=dotTag attributes
+ 	shapeResult[nval].tagSize=tostring(shapeHeight*1.5)..'px'
+ 	local c1,c2=checkColors(shapeResult[nval].shapeColor)
+	shapeResult[nval].tagColor=c2
+	shapeResult[nval].tagSpacer='0px'
+	shapeResult[nval].tagAngle='0deg'
+-- sge extension line attributes 
+	local shapePos=splitItem(multiCheck(args,'label-pos',argval,'right'),6)
+	if shapePos[2]=='with-line' or shapePos[2]=='n-line' then 
+    	shapeResult[nval].textEW=(shapePos[3] or '1')..'px' -- width
+    	shapeResult[nval].textEC=(shapePos[4] or shapeResult[nval].shapeColor or 'darkgrey')
+	elseif shapePos[2]=='photo-panel' then 
+		shapeResult[nval].textEW='2px' -- width
+    	shapeResult[nval].textEC=shapeResult[nval].textCL
+    else
+    	shapeResult[nval].textEW='0px' -- width
+    	shapeResult[nval].textEC='grey'-- colour 
+    end
+    shapeResult[nval].textES='solid'
+    if argval=='H' then return dotResult end
+--Assign dot values
+	local dotItem={}
+	dotItem.group=nval
+	dotItem.code=nval
+	dotItem.posType=shapePos[2] or 'nil'
+	if (shapePos[2] or '') =='photo-panel' then 
+		dotItem.ppwidth= tonumber(string.match((shapePos[4] or '110'),"%d+"))
+		dotItem.ppheight= tonumber(string.match((shapePos[5] or '48'),"%d+") )
+		dotItem.photowidth=round(tonumber(string.match((shapePos[3] or '1.3'),"[%.%-?%d]+")) * dotItem.ppheight+1,0)
+		dotItem.photoImage=args['mark-image'..argval]
+		--debugmsg('photo-panel, '..shapePos[2]..', 3='..shapePos[3]..', 4='..shapePos[4]..', 5='..(shapePos[5] or '(48')..'photowidth='..tostring(dotItem.photowidth))
+	end
+	if (shapePos[2] or '') =='mark-line' then 
+		local x=tonumber(argval or '1')
+		dotItem.markDest=shapePos[6] or tostring(x-1)
+		dotItem.mlWidth= tonumber(string.match((shapePos[3] or '1'),"%d+"))
+		dotItem.mlStyle= shapePos[4] or 'solid'
+		dotItem.mlGap=tonumber(string.match((shapePos[5] or '0'),"[%d]+"))
+		shapeResult[nval].textEC=shapeResult[nval].outlineColor or 'darkgrey'
+	end
+	if args['mark-coord'..argval] then 
+		itemTab=splitItem(convertCoordsTrad (args['mark-coord'..argval]),2)
+		dotItem.lat=tonumber(string.match(itemTab[1],"[%.%-?%d]+")) or 0
+		dotItem.lon=tonumber(string.match(itemTab[2],"[%.%-?%d]+")) or 0
+	else
+		dotItem.lat=tonumber(string.match(args['mark-lat'..argval],"[%.%-?%d]+")) or 0
+		dotItem.lon=tonumber(string.match(args['mark-lon'..argval],"[%.%-?%d]+")) or 0		
+	end
+	if args['dateline'..argval] and (args['dateline'..argval]=='1' or args['dateline'..argval]=='-1') then
+		dotItem.lon=dotItem.lon+(tonumber(args['dateline'..argval] ) *360) 
+	end
+	maplist.lon=dotItem.lon
+	maplist.lat=dotItem.lat
+	dotItem.gridx, dotItem.gridy = maptogrid(maplist,1)
+	
+	local item=args['mark-title'..argval] or '' -- sort out the caption, wikilink and plaintext tooltip items from dotLink
+	if item=='none' then dotItem.param1='nomap nolist' item='' end
+	dotItem.dotLink=item
+	if item ~= '' then
+		item=stripdivs(item)
+		dotItem.title=delink({item})
+		local linkstart= string.find(item,'[[',1,true) -- use true to ensure a plain search (no pattern)
+		if linkstart then
+			dotItem.dlink=delink({string.sub(item,linkstart,string.find(item,']]',1,true)+1),wikilinks='target'})
+		else dotItem.dlink=''
+		end
+	else
+        dotItem.dlink=''
+        dotItem.title=''
+	end
+	if autoDotTag=='n' then item=nval 
+	elseif autoDotTag=='l' then item=string.char(64+tonumber(nval)) 
+	else item='' end
+	dotItem.dotTag = args['numbered'..argval] or item
+	if shapePos[2]=='n-line' and (args['label'..argval] or args['label'..argval]=='') then 
+		if dotItem.dlink =='' then
+			item=dotItem.dotTag..' '..args['label'..argval]
+		else 
+			item='[['..dotItem.dlink..'|'..dotItem.dotTag..']] '..args['label'..argval]
+		end
+	else item=(args['label'..argval] or '') end
+	if args['labela'..argval] then item = item..'^'..args['labela'..argval] end
+	if args['labelb'..argval] then item = item..'^'..args['labelb'..argval] end
+	local a='' for c in item:gmatch('.') do a=a..(c:gsub('%^','<br>') or c) end
+	dotItem.labelText = a -- convert hats to line breaks
+	if argval=='' then item = (args['label-offset-x']) or (args.ldx) or '0'
+	else item=args['label-offset-x'..argval] or args['ldx'..argval] or args['label-offset-xD'] or args.ldxD or args['label-offset-x1'] or args.ldx1 or '0'
+	end
+	dotItem.dx=tonumber(string.match(item,"[%.%-?%d]+"))
+	if argval=='' then item = (args['label-offset-y']) or (args.ldy) or '0'
+	else item=args['label-offset-y'..argval] or args['ldy'..argval] or args['label-offset-yD'] or args.ldyD or args['label-offset-y1'] or args.ldy1 or '0'
+	end
+	dotItem.dy=tonumber(string.match(item,"[%.%-?%d]+"))
+	dotItem.labelPos=shapePos[1]
+	if args['mark-image'..argval] then dotItem.imageName= args['mark-image'..argval] end
+	dotItem.info=args['mark-description'..argval] or ''
+	table.insert(dotResult,1,dotItem) -- add to start of list, so they are in reverese order for displaying
+	return dotResult
+end	
+	
+local function tradstyleParseShapes(args,dotTable,dotmax)
+	local sgNumbers,sgSortable={},{}
+	for argindex=1,dotmax do -- build a list of all the numbered coords or lat,lons that have been used
+		local x=tostring(argindex)
+		if args['mark-coord'..x] or (args['mark-lat'..x] and args['mark-lon'..x]) then 
+    		sgNumbers[x]=x  -- add it to the list
+		end
+	end
+	for indx,sgnum in pairs(sgNumbers) do table.insert(sgSortable,sgnum) end
+	table.sort(sgSortable,lessthan) -- put the list in a sortable form TODO this must be possible in a single list!
+	if args['mark-coord'] or (args['mark-lat'] and args['mark-lon']) then table.insert(sgSortable,'0') end -- add it to the end of the list
+	local default={} default.D={} 
+	local dotResult={}
+	for k,sgnum in pairs(sgSortable) do -- work through the sorted list, parsing each set of shapes in turn, from 1 upwards
+		shapeList[sgnum]={}
+		dotTable=assignTradstyleShape(shapeList,default,dotTable,args,sgnum)
+	end	
+	dotTable=assignTradstyleShape(shapeList,default,dotTable,args,'H') -- construct an extra highlight shapeitem
+	return dotTable
+end	
+
+local function checkfortooltip (title,dx,dy,dotlabel,dlink,nolabel)  -- returns tlink if available, and dlink, if needed and tshape=true if shape needed
+  local tshape,tlink = false,""
+  if dlink~='' and not nolabel then tlink=dlink end
+  if (tlink=="" or nolabel) and title~="" then tshape=true end -- tshape flags True if title is wanted for shape
+  if (not (dx==0 or dy==0) or dotlabel=='') and title~='' then tshape=true end -- add tooltip to shape if its number has moved
+  return tshape,tlink
+end 
+
+local function tshift(angle) -- adjustment to place text near the centre of a triangle, shifted to allow rotation of triangle shape
+  local x=tonumber(string.match(angle,"%-?%d+"))
+  if x<0 then x=360+x end -- set to a single degree direction, 0 to 360
+  if x>359 then return 0,0 end
+  -- shift the centre of the triangle based on rotation value
+  if x <=40 or x>=320 then return -0.17,0 -- triangle up= -shiftv
+  elseif x>=140 and x<=220 then return 0.17,0 --triangle down= +shiftv
+  elseif x >220 then return 0,-0.17 --triangle left= -shifth
+  elseif x >40 then return 0,0.22 --triangle right= +shifth
+  end
+  return 0,0
+end
+
+local function makeTriangle(result,row,shape,outline,tlink)
+  local w,h,r=getsize(shape.shapeSize)
+  if outline then
+    local p=tonumber(string.match(shape.outlineWidth,"[%.%d]+"))
+    w=w+p*2
+    h=h+p*2
+  end
+  table.insert(result,'<div ')
+  if tlink then 
+    table.insert(result,' title="'..row.title..'" ')
+  end        
+  table.insert(result,'style="display:inline-block; position: absolute')
+  if shape.shapeAngle ~= '0deg' then
+    table.insert(result,'; transform: rotate('..shape.shapeAngle..')')
+  end
+  local shiftv,shifth=0,0
+  shiftv,shifth=tshift(shape.shapeAngle)
+  table.insert(result,'; top: '..tostring(row.gridy-h/2+h*shiftv)..'px')
+  table.insert(result,'; left: '..tostring(row.gridx-w/2+w*shifth)..'px; width: 0; height: 0; outline-width: 0px')
+  table.insert(result,'; border-left: '..tostring(w/2)..'px solid transparent')
+  table.insert(result,'; border-right: '..tostring(w/2)..'px solid transparent')
+  if outline then -- fill with outline colour, to make a 'base layer' or shape colour
+    table.insert(result,'; border-bottom: '..tostring(h)..'px solid '..getColor(shape.outlineColor).. '">') 
+  else  
+    table.insert(result,'; border-bottom: '..tostring(h)..'px solid '..getColor(shape.shapeColor).. '">')
+  end
+  table.insert(result,'</div>')
+end
+
+local function makeSquare(result,row,shape,tshape)
+  local w,h,r=getsize(shape.shapeSize)
+  if shape.shape=='square' then h=w end -- squares are always square!. box can stretch
+  local div=mw.html.create ('div')
+  if tshape then -- Add tooltip if needed
+    div:attr('title',row.title)
+  end        
+  div:css('position', "absolute")
+  if shape.outlineWidth ~= "0px" then
+    div:css('outline', shape.outlineWidth.." "..shape.outlineStyle.." "..getColor(shape.outlineColor))
+  end
+  if shape.shapeAngle ~= "0deg" then
+   div:css('transform',"rotate("..shape.shapeAngle..")")
+  end
+  if r~=0 then div:css('border-radius',tostring(r).."px") end
+  if shape.shape=='panel' then 
+ 	div:css('top', tostring(row.gridy).."px")
+	div:css('left', tostring(row.gridx).."px")
+  else
+	div:css('top', tostring(row.gridy-h/2).."px")
+	div:css('left', tostring(row.gridx-w/2).."px")
+  end
+  div:css('width', tostring(w).."px")
+  div:css('height', tostring(h).."px")
+  div:css('background-color', getColor(shape.shapeColor) )
+  div:css('color', 'inherit')
+  table.insert(result,tostring(div))
+ end
+
+local function makeCircle(result,row,shape,tshape)
+  local w,h,r=getsize(shape.shapeSize) -- = width,height,rounding
+  if shape.shape=='circle' then h=w end -- circles are always round. ellipse can stretch
+  local div=mw.html.create ('div')
+  if tshape then -- Add tooltip if needed
+    div:attr('title',row.title)
+  end        
+  div:css('position', "absolute")
+  if shape.outlineWidth ~= "0px" then
+    div:css('outline', shape.outlineWidth.." "..shape.outlineStyle.." "..getColor(shape.outlineColor))
+  end
+  if shape.shapeAngle ~= "0deg" then
+    div:css('transform',"rotate("..shape.shapeAngle..")")
+  end
+  div
+	:css('top', tostring(row.gridy-h/2).."px")
+	:css('left', tostring(row.gridx-w/2).."px")
+	:css('width', tostring(w).."px")
+	:css('height', tostring(h).."px")
+	:css('border-radius', "50%")
+	:css('background-color', getColor(shape.shapeColor) )
+	:css('color', 'inherit')
+  table.insert(result,tostring(div))
+end
+
+local function makeRuleA(result,row,shape)
+  local w,h,r=getsize(shape.shapeSize) -- = width,height,rounding
+  local oWid=tonumber(string.match(shape.outlineWidth,"[%.%d]+"))
+  local lineV=0
+  if shape.shape=='rulea' then lineV=oWid*3+16 end
+  table.insert(result,"<div style=\"display:inline-block; position: absolute") -- create a square transparent container, which will rotate line and arrow together
+  table.insert(result,"; top:"..tostring(row.gridy - w/2).."px")
+  table.insert(result,"; left:"..tostring(row.gridx - w/2).."px")
+  table.insert(result,"; width:"..tostring(w).."px")
+  table.insert(result,"; height:"..tostring(w).."px; background:transparent; color:inherit;")
+  table.insert(result,"; transform: rotate( "..tostring(tonumber(string.match(shape.shapeAngle,"[%.%-?%d]+")) - 90).."deg);\">" )
+  table.insert(result,"<div style=\"display:inline-block; position: absolute") -- put the line (as a border-right) across the container
+  table.insert(result,"; top:"..tostring(lineV).."px")
+  table.insert(result,"; left:"..tostring((w - oWid )/2).."px; width: 0px")
+  table.insert(result,"; height: "..tostring(w -lineV).."px")
+  table.insert(result,"; border-right: "..shape.outlineWidth.." "..shape.outlineStyle.." "..getColor(shape.outlineColor))
+  table.insert(result,"; background:transparent; color:inherit;\"></div>")
+  if shape.shape=='rulea' then
+	table.insert(result,"<div style=\"display:inline-block; position: absolute; top: 0px") --and add arrow head
+	table.insert(result,"; left:"..tostring(w/2-( oWid/2)-oWid*0.55-2).."px; width: 0; height: 0; outline-width: 0px")
+	table.insert(result,"; border-left: "..tostring(oWid*1.1+2).."px solid transparent")
+	table.insert(result,"; border-right: "..tostring(oWid*1.1+2).."px solid transparent")
+	table.insert(result,"; border-bottom: "..tostring(oWid*3+16).."px solid "..getColor(shape.outlineColor).."\"></div>")
+  end
+  table.insert(result,"</div>")
+end
+
+local function makeCurveA(result,row,shape) -- draw a curve with Arrow -----
+	local w,h=getsize(shape.shapeSize) -- = width,height
+	local oWid=tonumber(string.match(shape.outlineWidth,"[%.%d]+"))
+	local Angle=tonumber(string.match(shape.shapeAngle,"[%.%d]+"))
+	table.insert(result,'<div style="position: absolute;')    --set up out div, which will allow the whole to rotate
+	table.insert(result,'top:'..tostring(row.gridy - (w + oWid*3+16)/2)..'px;')
+	table.insert(result,'left:'..tostring(row.gridx - ( w + oWid*3+16)/2)..'px; ')
+	table.insert(result,'width: '..tostring(w+oWid*3+16)..'px; ')
+	table.insert(result,'height: '..tostring(w+oWid*3+16)..'px; ') 
+	if shape.shape=='curvea' then
+		table.insert(result,'transform: rotate( '..tostring(Angle-120)..'deg);">')
+	else table.insert(result,'transform: rotate( '..tostring(Angle -62)..'deg);">')
+	end	
+	table.insert(result,'<div style="position: absolute;')   --set up div for the rounded corner of a rectangle
+	table.insert(result,'border-left: '..shape.outlineWidth..' '..shape.outlineStyle..' '..getColor(shape.outlineColor)..';')
+	if shape.shape=='curvea' then
+  		table.insert(result,'border-radius: 10000px 0 0 '..tostring(w)..'px;  top:0px; left:'..tostring(w*0.25)..'px;')
+	else
+		table.insert(result,'border-radius: '..tostring(w)..'px 0 0 10000px;')
+		table.insert(result,'top:'..tostring((oWid*3+16)/2+w*0.15)..'px; left:'..tostring(w*0.25)..'px;')
+	end -- and add a triangular arrow head
+	table.insert(result,'width: '..tostring(w)..'px; height: '..tostring(w)..'px;"></div><div style="position: absolute; ')
+	if shape.shape=='curvea' then
+		table.insert(result,'transform: rotate(180deg);  top:'..tostring(w-1)..'px; ')
+	else table.insert(result,'transform: rotate(0deg); top: '..tostring(0-( ( oWid*3+16)/2)+1+( w*0.15) )..'px;')
+	end -- reverse 
+	table.insert(result,'left:'..tostring(0-( oWid*0.6)-2+(w*0.25))..'px;')
+	table.insert(result,'width: 0; height: 0; outline-width: 0px; border-left: '..tostring(oWid*1.1+2)..'px solid transparent;')
+	table.insert(result,'border-right: '..tostring(oWid*1.1+2)..'px solid transparent;')
+	table.insert(result,'border-bottom: '..tostring(oWid*3+16)..'px solid '..getColor(shape.outlineColor)..';"></div></div>')
+end
+
+local function makeLineTo (result,x1,y1,x2,y2,oWid, oStyle, oCol,double)
+  table.insert(result,"<div style=\"display:inline-block; position: absolute;")  
+	-- draw a line between x1,y1 and x2,y2, px-coords where 0,0 is centre of frame
+	-- Maths calculations thanks to ES
+  table.insert(result,"left: "..tostring(x1+( (x2-x1)/2) - (math.sqrt( ( x2-x1)^2 + (y2-y1)^2 )/2)-1).."px;")
+  table.insert(result,"top: "..tostring(y1+( ( y2-y1 )/2) ).."px;")
+  table.insert(result,"width: "..tostring(math.sqrt( (x2-x1 )^2 + ( y2-y1 )^2) ).."px;")
+  table.insert(result,"height: "..tostring(double).."px;  background-color:transparent; color:inherit; ")
+  table.insert(result,"outline-width: 0; border-bottom: "..oWid.." "..oStyle.." "..getColor(oCol)..";" )
+  if double>1 then table.insert(result,"border-top: "..oWid.." "..oStyle.." "..getColor(oCol)..";" ) end
+  if x1==x2 then table.insert(result,"transform: rotate(90deg);")
+  else table.insert(result,"transform: rotate("..tostring(math.atan(( y2-y1)/( x2-x1 ) )*180/math.pi).."deg);\"></div>")
+  end
+end
+
+local function makeClipPath(result,row,shape,outline,tshape) --tshape is a flag to show if the tooltip (title=) is wanted
+  -- return the text css div code to position and draw a shape occupying a specified clippath
+  if not pathshape[shape.shape] then
+	debugmsg(mw.addWarning('shape'..row.code..' = '..shape.shape..'. The shape name is not defined'))
+    return
+  end
+  local w,h,r=getsize(shape.shapeSize)
+  if string.match(shape.shape,"circle") or string.match(shape.shape,"square") then h=w end -- use ellipse and box for stretched shapes
+  local shifth,shiftv = 0,0
+  if string.match(shape.shape,"triangle") then
+    shiftv,shifth =tshift(shape.shapeAngle)
+  end
+  if outline then
+    local p=tonumber(string.match(shape.outlineWidth,"[%.%d]+")) or 0
+    w=w+p*2
+    h=h+p*2
+  end
+  table.insert(result,"<div ")
+  if tshape then -- Add tooltip if needed
+    table.insert(result," title=\""..row.title.."\" ")
+  end        
+  table.insert(result,"style=\"display:inline-block; position: absolute; background-color:")
+  if outline then
+    table.insert(result,getColor(shape.outlineColor)) -- fill with outline colour, to make a 'base layer'
+  else
+     table.insert(result,getColor(shape.shapeColor))
+  end
+  table.insert(result,"; color:inherit; clip-path:path(nonzero, &#39;"..pathshape[shape.shape].."&#39;) ")
+  -- adds the required clippath data from the table of pathshape string literals
+  table.insert(result,"; top:"..tostring(row.gridy - 10 + h*shiftv).."px") 
+  table.insert(result,"; left:"..tostring(row.gridx - 10 + w*shifth).."px")
+  table.insert(result,"; width:20px") -- needs to be a path within a 20px20px box, and then rescales using size values to match other shape sizes
+  table.insert(result,"; height:20px; transform:scale("..tostring(w/16)..", "..tostring(h/16)..")")
+  if shape.shapeAngle ~= "0deg" then 
+    table.insert(result," rotate("..shape.shapeAngle..")")
+  end
+  table.insert(result,"\"></div>")
+end
+
+local function makeImage(result,row,shape)
+	local w,h,r=getsize(shape.shapeSize)
+	local image=shape.shapeFile
+	if not image or image=='' then image='Red pog.svg' end
+    local imagediv=mw.html.create ('div')
+	imagediv:css('position', "absolute")
+	if shape.shapeAngle ~= "0deg" then
+		imagediv:css('transform',"rotate("..shape.shapeAngle..")")
+	end
+	imagediv
+	:css('top', (row.gridy-1 + math.min(h/2-12,0) - h/2).."px") --File seems to adjust pos for small images
+	:css('left', (row.gridx-1-w/2).."px")
+	:css('background-color', "transparent" )
+	:css('color','inherit')
+	:wikitext('[[file:'..image..'|'..tostring(w+2)..'px|alt='..(row.title or '')..'|link=]]')
+  table.insert(result,tostring(imagediv))
+end
+
+local function makePhotoPanel(result,row,shape)
+	local h=row.ppheight
+	table.insert(result, '<div style="position: absolute; top: '..tostring(row.gridy+row.dy-h/2)..'px;' )
+	table.insert(result, 'left: '..tostring(row.gridx+row.dx - row.ppwidth/2)..'px;')
+	table.insert(result, 'width: '..tostring(row.ppwidth)..'px; height: '..tostring(h)..'px; border-radius: 2px; color:inherit;')
+	table.insert(result, 'background-color: #E8E8D6; outline: 2px solid '..getColor(shape.textCL)..'; box-shadow: 2px 2px 4px #33203335;"></div>')
+	if row.photoImage  and row.photowidth >0 then
+		table.insert(result, '<div style="position: absolute; top: '..tostring(row.gridy+row.dy-h/2)..'px;')
+		if row.labelPos=='left' or string.find(row.labelPos,'west') then
+			--debugmsg(row.labelText..', Align=right, ppwidth='..tostring(row.ppwidth)..', photowidth='..row.photowidth..', dx='..tostring(row.dx)..', dy='..tostring(row.dy))
+			table.insert(result, 'left: '..tostring(row.gridx+row.dx  - row.ppwidth/2)..'px;')
+			row.dx=row.dx+row.photowidth/2
+		else
+			--debugmsg(row.labelText..', Align=left, ppwidth='..tostring(row.ppwidth)..', photowidth='..row.photowidth..', dx='..tostring(row.dx)..', dy='..tostring(row.dy))
+			table.insert(result, 'left: '..tostring(row.gridx+row.dx + (row.ppwidth-row.photowidth) - row.ppwidth/2)..'px;')
+			row.dx=row.dx-row.photowidth/2
+		end
+		table.insert(result, 'background-color:transparent; color:inherit; border-radius: 2px;">')
+		table.insert(result,'[[File:'..row.photoImage..'|x'..tostring(h)..'px|File:'..row.photoImage..']]</div>')
+		row.labelPos='center'
+	end
+end
+
+local function makePanelText(result, row, shape)
+	local w,h,r=getsize(shape.shapeSize)
+	local ty=tonumber(string.match(shape.textSZ or '11',"%d+") )
+	table.insert(result,'<div style="position:absolute; line-height: 120%; font-size: '..shape.textSZ..'; color:'..getColor(shape.textCL)..';')
+	if row.labelPos == 'left' or string.find(row.labelPos,'west') then
+		table.insert(result,'top: '..tostring(row.dy+row.gridy+(ty/3))..'px;')
+		table.insert(result,'left: '..tostring(row.gridx+3)..'px; text-align: left; width:'..tostring(w)..'px;')
+	elseif row.labelPos == 'right' or string.find(row.labelPos,'east') then
+		table.insert(result,'top: '..tostring(row.gridy+(ty/3))..'px;')
+		table.insert(result,'left: '..tostring(row.gridx+w-3)..'px; text-align: right; width: max-content; transform: translateX(-100%);')
+	elseif row.labelPos == 'top' or row.labelPos== 'north' then
+		table.insert(result,'top: '..tostring(row.gridy+(ty/3))..'px;')
+		table.insert(result,'left: '..tostring(row.gridx+(w/2))..'px; text-align: center; width:max-content; transform: translateX(-50%);')
+	elseif row.labelPos == 'bottom' or row.labelPos=='south' then
+		local bry=(select(2, string.gsub(row.labelText,"<br>", ""))+1)*1.1
+		table.insert(result,'top: '..tostring(row.gridy+w-(ty*bry))..'px;')
+		table.insert(result,'left: '..tostring(row.gridx+(w/2))..'px; text-align: center; width:max-content; transform: translateX(-50%);')
+	else -- center or centre
+		local bry=(select(2, string.gsub(row.labelText,"<br>", ""))+1)*0.6
+		table.insert(result,'top: '..tostring(row.gridy+(h/2)-(ty*bry))..'px;')
+		table.insert(result,'left: '..tostring(row.gridx+(w/2))..'px; text-align: center; width:max-content; transform: translateX(-50%);')
+	end
+	if shape.textSP and shape.textSP ~='0px' then table.insert(result,"letter-spacing: "..shape.textSP..';') end
+	if shape.textLH and shape.textLH ~='120%' then table.insert(result,"line-height: "..shape.textLH..';') end
+	table.insert(result,"vertical-align: middle;\">"..row.labelText.."</div>")
+end
+
+local function makeTextItem(result, row, shape, align, tlink, textItem, dotItem)
+	local w,h,r=getsize(shape.shapeSize)
+	table.insert(result,"<div ")
+	if row.title ~= "" then table.insert(result," title=\""..row.title.."\" ") end
+	local ty,bry,linkoffset = 0,0,0
+	local compy=0
+	local lh=tonumber(string.match(shape.textLH or '120',"%d+"))/100
+	if dotItem==1 or (dotItem==2 and row.posType~='n-line') then	-- if there is a dotTag in the middle of the shape then use the tag settings
+		ty=tonumber(string.match(shape.tagSize,"%d+")) or 0
+		table.insert(result,"style=\"position:absolute; line-height: 120%; top: "..tostring(row.gridy-ty*0.62))
+		table.insert(result,"px; left: "..tostring(row.gridx).."px; width: fit-content; ")
+        table.insert(result,"text-align: center; color: "..getColor(shape.tagColor).."; background-color: transparent;")
+        local trf=""
+		if shape.tagAngle ~="0deg" then trf=" rotate("..shape.tagAngle..")" end
+        table.insert(result, "transform: translateX(-50%)"..trf.."; font-size: "..shape.tagSize..";")
+        if shape.tagSpacer~='0px' then table.insert(result, "letter-spacing:"..shape.tagSpacer..";") end
+    else -- or add tfx settings for left, right or center align, colors, backgrounds, border-outline
+    	table.insert(result,'style="position:absolute; ')
+    	if dotItem==2 then -- dotTag is out at x,y so 85%
+    		ty=tonumber(string.match(shape.tagSize or '0',"%d+"))
+    		table.insert(result,'font-size: '..shape.tagSize..'; padding:0px 2px;line-height: 85%; top: '..tostring(row.dy+row.gridy-ty*0.52))
+    	else -- it is labelText, so use textLH or 120%
+    		ty=tonumber(string.match(shape.textSZ or '11',"%d+"))
+			if row.labelPos=='northwest' or row.labelPos=='northeast' then compy=-ty
+			elseif row.labelPos=='southeast' or row.labelPos=='southwest' then compy=ty/2 end
+    		if row.labelPos and not (row.labelPos== 'auto' or row.labelPos=='') then
+    			bry=(select(2, string.gsub(row.labelText,"<br>", ""))*lh) -- is it a multiline text? expand by line-height /120%?
+    			if row.posType == 'with-line' then bry=0 end
+    			if row.labelPos=='bottom' or row.labelPos == 'south' then bry = 0 -- and shift by none, all or half
+    			elseif row.labelPos=='top' or row.labelPos == 'north' then 
+    				if shape.shape=='image:' then bry= 1 + math.min(w/2-10,0)-bry*ty
+    				else bry= -bry*ty+2
+    				end
+    			else bry=-bry*(ty/2 * lh)
+    			end
+    		end
+    		if row.posType == 'photo-panel' then bry=bry+3 end
+    		table.insert(result,'font-size: '..shape.textSZ..'; padding:0px 3px;line-height: '..shape.textLH..'; ')
+    		table.insert(result,'top: '..tostring(row.dy+row.gridy+compy+bry-ty*lh/2))
+    	end
+		table.insert(result,"px; left: "..tostring(row.dx+row.gridx).."px; color: "..getColor(shape.textCL).."; ")
+		table.insert(result,"width: max-content; ")
+    	local trf=""
+		if shape.textNG ~="0deg" then trf="rotate("..shape.textNG..")" end
+        if shape.textOL~="0px" then
+        	table.insert(result,"background-color: "..getColor(shape.textBG).."; ") 
+            table.insert(result,"border: "..shape.textOL.." solid "..getColor(shape.textCL).."; border-radius:6px;")
+        else table.insert(result,"background-color: transparent;")
+        end
+        if row.labelPos=="right" or string.find(row.labelPos,'east') then
+          table.insert(result,"text-align: left; ")
+          linkoffset=w
+          if shape.textNG ~="0px" then table.insert(result,"transform-origin: left; transform: rotate("..shape.textNG.."); ") end
+        elseif row.labelPos=="left" or string.find(row.labelPos,'west') then
+          if shape.textNG ~="0px" then table.insert(result,"transform-origin: right;") end
+          linkoffset=-w
+          table.insert(result,"text-align: right; transform: translateX(-100%) "..trf.."; ")
+        else
+          table.insert(result,"text-align: center; transform: translateX(-50%) "..trf.."; ")
+        end
+		table.insert(result,'font-weight: normal; line-height: '..shape.textLH..'; letter-spacing:'..shape.textSP..'; vertical-align: bottom;')
+	end
+	if string.find(shape.textAT or '','bold') then textItem='<b>'..textItem..'</b>' end
+	if string.find(shape.textAT or '','italic') then textItem='<i>'..textItem..'</i>' end
+	if shape.textOL=='0px' and shape.textBG~='transparent' and dotItem==0 then
+		table.insert(result,'\"><span style=\"background-color: '..getColor(shape.textBG)..'; color:inherit;\">'..textItem..'</span></div>')
+	else
+		table.insert(result,"\">"..textItem.."</div>")
+	end
+	if tlink~='' and not string.match(row.param1 or "","nolink") then 
+	  table.insert(result,makeLinkBox(row.gridx+row.dx+linkoffset, row.gridy+row.dy+bry, 16, row.dotTag..' '..row.title,tlink))
+	end
+end  
+
+
+local function getshapetable(row,shape) -- Construct CSS divs for a dot from shape and map data
+    local result={}
+    local w,h,r=getsize(shape.shapeSize)
+    local tshape,tlink=checkfortooltip(row.title,row.dx,row.dy,row.dotTag,row.dlink,string.match(row.param1 or "","nolink") )
+    local align=row.labelPos or ''
+    local offsetx,offsety=0,0
+    local ty=tonumber(string.match((shape.tagSize or 9),"%d+" ))
+    if row.labelText and row.labelText~='' then ty=tonumber(string.match((shape.textSZ or 11),"%d+" )) 
+    else align='center' end -- it is just for dotTag, so justify center
+-- identify align value and extend offsets
+	local widthzone,heightzone = w/2+4,h/2+4
+	local theta,r = math.deg( math.atan2(row.dy, row.dx)) , math.sqrt(row.dx^2 + row.dy^2)
+	if align=='auto' or align=='' then 
+		if (theta < -112 or theta > 112) and math.abs(row.dx)>=w/2 and math.abs(row.dy)<w/1.4 then align = "left" offsetx=1
+		elseif (theta > -68 and theta < 68) and math.abs(row.dx)>=w/2 and math.abs(row.dy)<w/1.4 then align = "right" offsetx=-1
+		elseif theta <0 then offsety=ty/2-1 -- bottom
+		else offsety=0-ty/2+1 -- top
+		end
+	elseif align=='left' or string.find(align,'west') then 
+	  row.dx=row.dx - w/2 widthzone=4  offsetx=-1
+	elseif align=='right' or string.find(align,'east') then 
+	  row.dx=row.dx + w/2 widthzone=4  offsetx=1 offsety=-ty/2 +1
+	elseif align=='top' or align=='north' then
+		if string.find(shape.shape,'curve') then
+			row.dy=row.dy-(h/2)-12 heightzone=4 offsety=ty/2-1
+		else
+			row.dy=row.dy - h-2 heightzone=4 offsety=ty/2-1
+		end
+	elseif align=='bottom' or align=='south' then 
+		if string.find(shape.shape,'curve') then
+			row.dy=row.dy+(h/2) heightzone=4 offsety=ty/2-1
+		else
+			row.dy=row.dy + h+2 heightzone=4 offsety=0-ty/2-1
+		end
+	end
+	if r > widthzone and shape.textEW ~= "0px" and not string.match(row.param1 or "","noline") then 
+		makeLineTo(result, row.gridx+1, row.gridy-1, row.gridx+row.dx+offsetx, row.gridy+row.dy+offsety, shape.textEW, shape.textES,shape.textEC,1)
+	end
+	if row.posType and row.posType=='mark-line' then
+		if row.gridx2 and row.gridy2 then
+			makeLineTo(result, row.gridx, row.gridy, row.gridx2, row.gridy2, tostring(row.mlWidth)..'px', row.mlStyle, getColor(shape.textEC),row.mlGap)
+			-- debugmsg('makeLineTo line drawn from '..row.code..' with width '..tostring(row.mlWidth)..'px '..row.mlStyle..' and color '..getColor(shape.textEC))
+		end
+	end
+    if w ~= 0 then
+      if shape.shape=='itriangle' then shape.shape='triangle' shape.shapeSize=tostring(w)..'px'..tostring(w/2)..'px' end
+      if shape.shape=="triangle" then
+        if shape.outlineWidth ~= "0px" then
+          makeTriangle(result,row,shape,true,false) -- larger triangle to give the outline, if required
+        end
+        makeTriangle(result,row,shape,false,tshape) -- smaller triangle to fit over the top
+      elseif shape.shape=="square" or shape.shape=="box" or shape.shape=='panel' then
+        makeSquare(result,row,shape,tshape)
+      elseif shape.shape=="circle" or shape.shape=="ellipse" then
+        makeCircle(result,row,shape,tshape)
+      elseif string.find(shape.shape,'image:')==1 then
+   		makeImage(result,row,shape)
+      elseif shape.shape=="rulea" or shape.shape=='rule' then
+        makeRuleA(result,row,shape)
+      elseif shape.shape=="curvea" or shape.shape=="curvec" then
+        makeCurveA(result,row,shape)
+      else -- use a pathshape clipPath
+        if shape.outlineWidth ~= "0px" then
+          makeClipPath(result,row,shape,true,false) -- larger path-shape to give the outline, if required
+        end
+        makeClipPath(result,row,shape,false,tshape)
+      end
+    end
+	if row.ppwidth and row.ppwidth>0 then makePhotoPanel(result,row,shape) end
+    if shape.shape=='panel' and row.labelText then makePanelText(result, row, shape)
+    else
+	    if row.dotTag and row.dotTag ~= "" then -- there is a dotTag
+	    	if (row.dx==0 and row.dy==0) and w>0 then  -- it is on the dot so if dotsize is not 0 any label is ignored
+	    		makeTextItem(result, row, shape, align, tlink, '<b>'..row.dotTag..'</b>', 1)
+	    	else 
+	    		if row.labelText and row.labelText~='' then -- tag and label both used
+	    			makeTextItem(result, row, shape, align, '', '<b>'..row.dotTag..'</b>', 1)
+	    			makeTextItem(result, row, shape, align, tlink, row.labelText, 0)
+	    		else
+	    			makeTextItem(result, row, shape, align, '', '<b>'..row.dotTag..'</b>', 1)
+	    			makeTextItem(result, row, shape, align, tlink, row.dotTag, 2) -- tag is ouside the dot
+	    		end
+	    	end
+	    else
+	    	if (row.labelText and row.labelText~='') then -- just the label. No tag
+	    		makeTextItem(result, row, shape, align, tlink, row.labelText, 0)
+	    	end
+	    end
+    end
+    if tlink and tlink~='' then
+		table.insert(result,makeLinkBox(row.gridx, row.gridy,w+3,row.dotTag..' '..row.title,tlink))
+	end
+    return table.concat(result)
+end
+
+local function getmapframecontent(args,use)
+	local result, comma= {}, ''
+	local propertyTable= {}
+	local color=splitItem(string.lower( args['map-data-color'] or 'dark orange'), 2)
+	if use == 'basemap' then 
+		table.insert(result, '[') 
+		propertyTable.stroke = "#000000"
+		propertyTable['stroke-width'] = tonumber(args['map-data-width'] or '6')
+		propertyTable['stroke-opacity'] = tonumber(color[2] or '15')/100
+	else
+		propertyTable.title = args['map-data-text'] or args['map-data'] or ''
+		propertyTable.stroke = getColor(color[1])
+		propertyTable['stroke-width'] = tonumber(args['map-data-width'] or '6')
+		propertyTable['stroke-opacity'] = tonumber(color[2] or '100')/100 
+	end
+	if args['map-data-inverse'] then 
+		local mapJson = mw.text.jsonEncode{
+			type = 'ExternalData',
+			service = 'geomask',
+			ids = args['map-data-inverse'],
+			properties =  {title = (args['map-data-text'] or ''), 
+				stroke = '#555555',
+				fill = '#555555', 
+				['fill-opacity'] = 0.1,
+				['stroke-width'] = 1,
+				['stroke-opacity'] = 0.5 }
+		}
+		table.insert(result, mapJson)
+		comma=', '
+    end
+    if args['map-data-heavy'] then
+		local mapJson = mw.text.jsonEncode{
+			type = 'ExternalData',
+			service = 'geoline',
+			ids = args['map-data-heavy'],
+			properties =  { title = args['map-data-heavy'],
+				stroke = propertyTable.stroke,
+				['stroke-width'] = 9,
+				['stroke-opacity'] = propertyTable['stroke-opacity'] or 0.25 }
+		}
+		table.insert(result, comma .. mapJson)
+		comma=', '
+    end
+    if args['map-data-light'] then
+		local mapJson = mw.text.jsonEncode{
+			type = 'ExternalData',
+			service = 'geoline',
+			ids = args['map-data-light'],
+			properties =  { title = args['map-data-light'],
+				stroke = propertyTable.stroke,
+				['stroke-width'] = 3,
+				['stroke-opacity'] = propertyTable['stroke-opacity'] or 0.25 }
+		}
+		table.insert(result, comma .. mapJson)
+		comma=', '
+    end
+    if args['map-data'] then
+    	propertyTable['stroke-opacity'] = propertyTable['stroke-opacity'] or 0.1 
+		local mapJson = mw.text.jsonEncode{
+			type = 'ExternalData',
+			service = 'geoline',
+			ids = args['map-data'],
+			properties = propertyTable
+		}
+		table.insert(result, comma .. mapJson)
+		comma=', '
+   	end
+    if args['map-wdqs'] then -- inserts a SPARQL wdqs query to find geopoints, geoshapes etc from wikidata
+        local mapSparql = mw.text.jsonEncode{
+            type = 'ExternalData',
+            service = args['map-wdqs-type'] or 'geopoint',
+            query = args['map-wdqs'],
+        }
+        table.insert(result, comma .. mapSparql)
+        -- debugmsg('mapSparql = ' .. mapSparql)
+    end
+    if args['map-raw'] then
+    	table.insert(result, comma .. args['map-raw'])
+    end
+	if use=='basemap' then table.insert(result,']') end	
+    return table.concat(result)
+end
+
+--eg | minilocator=filename,bottom right,132px153px, 38%,60%, 22px
+local function makeLocatorMap (args, result)
+	local miniFile,pos,itemlist,miniW,miniH, miniX,miniY,miniBox, miniBH
+	if args['mini-locator'] then
+		pos,miniFile=extractItem(args['mini-locator']) -- first item is filename, in quotes if it includes commas
+		itemlist=splitItem(pos,5) -- put items in a table filename removed, position,WpxHpx, x%y%,box
+		pos=itemlist[2] or 'right'
+		miniW,miniH=getsize(itemlist[3])
+		miniX=tonumber(string.match(itemlist[4] or '0','[%d]+'))*miniW/100
+		miniY=tonumber(string.match(itemlist[5] or '0','[%d]+'))*miniH/100
+		miniBox=tonumber(string.match(itemlist[6] or '0','[%d]+'))
+		miniBox=miniBox*miniW/100
+		miniBH=miniBox * maplist.height/maplist.width 
+	elseif args['mini-file'] then 
+		miniFile = args['mini-file']
+		pos=string.lower(args.minimap or 'right')
+		if pos=='file' then pos='right' end
+		miniW,miniH = tonumber(args['mini-width'] or 60), tonumber(args['mini-height'] or 60) -- find top left corner of locator
+		miniBox,miniBH=tonumber(args['minimap-boxwidth'] or '0'),0 -- firm up pos offsets for dot (with % or not) and boxsize if any, 
+		miniX, miniY=args['minipog-gx'],args['minipog-gy']
+		if not miniX then miniX=tonumber(args['minipog-x'] or '0') else miniX=tonumber(miniX)*tonumber(miniW)/100 end
+		if not miniY then miniY=tonumber(args['minipog-y'] or '0') else miniY=tonumber(miniY)*tonumber(miniH)/100 end
+		if args['minipog-gx'] then miniBox=miniBox*miniW/100 end
+		miniBH=miniBox * maplist.height/maplist.width 
+	else return end
+	local miniTop,miniLeft=0,1
+	if not string.find(pos,'top') then --only use top left, as link box is in top right or put bottom left or right
+		miniTop=maplist.height+2-miniH  
+		if string.find(pos,'right') then 
+			miniTop=miniTop-15              -- to avoid (c) line
+			miniLeft=maplist.width-1-miniW
+		end
+	end
+	table.insert(result,'<div style="position: absolute; outline-width: 1px; outline-style: solid; outline-color: white;')
+	table.insert(result,'top: '..tostring(miniTop)..'px; left:'..tostring(miniLeft)..'px; width:'..tostring(miniW)..'px;' )
+	table.insert(result,'background-color:transparent; color:inherit;">[[File:'..miniFile..'|'..tostring(miniW)..'px|File:'..miniFile..']]</div>')
+	if miniX and miniX>0 then
+		if args['minipog-y'] then miniY=miniY/1.04 end
+		if args['minipog-x'] then miniX=miniX/1.04 end
+		if miniBox<1 then
+			table.insert(result,'<div style="position: absolute; top: '..tostring(miniY+miniTop-3-6)..'px; left:'..tostring(miniX+miniLeft-3)..'px;')
+			table.insert(result, 'width: 6px; background-color:transparent; color:inherit;">[[File:Red pog.svg|6px|link=]]</div>')
+		else
+			table.insert(result,'<div style="position: absolute; top: '..tostring(miniY+miniTop-miniBH/2)..'px; left:'..tostring(miniX+miniLeft-miniBox/2)..'px;')
+			table.insert(result, 'width: '..tostring(miniBox)..'px; height:'..tostring(miniBH)..'px; outline:1px solid #AA1205; background-color:#AA120522; color:inherit;"></div>')
+		end
+	end
+end
+
+local function makeArcText(args,result,nval)
+	local items, itemlist='',{}
+	local arcText=''
+	if args['arc'..nval] then 
+		items=convertCoords (args['arc'..nval])
+		items,arcText=extractItem(items) -- first item is text, in quotes if it includes commas
+		itemlist=splitItem(items,9) -- put items in a table: text, lat,lon,size,color,angle,gap,radius,ellipse
+		if itemlist[4]=='' then itemlist[4]='12' end
+		itemlist[4]=string.match((itemlist[4] or '12'),"[%.%-?%d]+")
+		if itemlist[5]=='' then itemlist[5]='grey' end
+		itemlist[6]=string.match((itemlist[6] or '0'),"[%.%-?%d]+")
+		itemlist[7]=string.match((itemlist[7] or '0'),"[%.%-?%d]+")
+		itemlist[8]=string.match((itemlist[8] or '0'),"[%.%-?%d]+")
+	end
+	if args['arc-coord'..nval] then 
+		local itemTab=splitItem(convertCoordsTrad (args['arc-coord'..nval]),2)
+		maplist.lat=tonumber(string.match(itemTab[1],"[%.%-?%d]+"))
+		maplist.lon=tonumber(string.match(itemTab[2],"[%.%-?%d]+"))
+	else
+		maplist.lat=tonumber(string.match(args['arc-lat'..nval] or itemlist[2] or '0',"[%.%-?%d]+"))
+		maplist.lon=tonumber(string.match(args['arc-lon'..nval] or itemlist[3] or '0',"[%.%-?%d]+"))	
+	end
+	local arcX,arcY=maptogrid(maplist,6)
+	arcText = args['arc-text'..nval] or arcText
+	local fontSize =tonumber(args['arc-text-size'..nval] or itemlist[4] or '12')
+	local textColor=getColor(string.gsub(args['arc-text-color'..nval] or itemlist[5] or 'grey','[%s]+','') )
+	local arcAngle= tonumber((args['arc-angle'..nval]) or (itemlist[6]) or '45')-90
+	local arcRadius =tonumber(args['arc-radius'..nval] or itemlist[8] or '0.05')
+	local arcGap = tonumber(args['arc-gap'..nval] or itemlist[7] or '1')* ( ( math.sin(8-math.rad(arcRadius))^8 )+0.4 )*( ( fontSize+6 )/15 )
+	arcRadius=450*arcRadius*0.75
+	local ellipseFactor=tonumber(args['ellipse-factor'..nval] or itemlist[9] or '1') 
+	local arcRotate =arcAngle+90
+	if arcGap<0 then arcRotate=arcAngle-90 end
+	local latF=arcY - fontSize + (0-(math.sin(math.rad(arcAngle))) * arcRadius)
+	local lonF=arcX - fontSize +(0-(math.cos(math.rad(arcAngle))) * arcRadius)
+
+	local step=1
+	for codepoint in mw.ustring.gcodepoint( arcText ) do   -- block  step=1,#arcText do
+	  table.insert(result,'<div style="position: absolute;')
+	    local posY=tostring(round( (latF + (math.sin(math.rad(arcAngle+((step-1)*arcGap))) * arcRadius)) *ellipseFactor,2))..'px;'
+	    local posX=tostring(round( (lonF + (math.cos(math.rad(arcAngle+((step-1)*arcGap))) * arcRadius))/ellipseFactor,2))..'px;'
+	  table.insert(result,' top: '..posY..' left: '..posX..' transform: rotate( '..tostring(round(arcRotate +((step-1)*arcGap)),2)..'deg);')
+	  table.insert(result,'width:'..tostring(fontSize*2)..'px; text-align: center; background-color:transparent; color: '..textColor..';')
+	  table.insert(result,'vertical-align: baseline; font-size: '..tostring(fontSize)..'px;">'..mw.ustring.char(codepoint)..'</div>')
+	  step=step+1
+	end
+ end
+
+local function makeFullscreenItem (itemtitle,itemdescription,lat,lon,group,itemcolor)
+	local item={}
+    itemdescription=stripdivs(itemdescription or '')
+    local templon=lon
+    if lon > 180 then templon=lon-360 end --for hemisphere+ or -1 dots
+    if lon < -180 then templon=lon+360 end -- use 'real' coordinates for geohack label, while retaining shifted coords for plot
+    if itemcolor=='transparent' then itemcolor='white' end
+    itemcolor=getColor(itemcolor) -- ensure no opacity, which breaks maplink
+    if string.find(itemcolor,'#')==1 and #itemcolor>7 then itemcolor=string.sub(itemcolor,1,7) end
+    table.insert(item, '{ "type": "Feature",  "properties": {')
+    table.insert(item, ' "title": "'..itemtitle..'",')
+    table.insert(item, ' "description": "'..itemdescription)
+    table.insert(item, ' ([https://geohack.toolforge.org/geohack.php?params='..tostring(lat)..';'..tostring(templon))
+    table.insert(item, '_dim:2000 '..tostring(lat)..','..tostring(templon)..'])",')
+    table.insert(item, ' "marker-symbol": "-number-'..string.gsub(group,'%W','')..'", "marker-size": "medium", "marker-color": "'..itemcolor..'" },')
+    table.insert(item, ' "geometry": {"type": "Point", "coordinates": ['..tostring(lon)..','..tostring(lat)..'] } }')
+    return table.concat(item)
+end
+
+local function makeLegendBox(result,args)
+	local legend ={}
+	local line,count, maxWidth='',1,8
+	local item
+	line,item=extractItem(args.legendBox or '')
+	local a='' for c in item:gmatch('.') do a=a..(c:gsub('%^','<br>') or c) end
+	legend.Text = a -- convert hats to line breaks
+    line=splitItem(line,6) -- (text, size, poition,background color, text/outline color, param options)
+    legend.Size=line[2] or '150px80px1px'
+    legend.Pos=line[3] or '10px10px'
+    legend.Background=line[4] or 'beigeground'
+    legend.Color=line[5] or 'darkbrown'
+    legend.Param= line[6] or ''
+    local argnum,legendCount,titleHeight='1',1,0
+    if (legend.Text and legend.Text~='') then 
+	    titleHeight=15+(13.4*(select(2, string.gsub(legend.Text,"<br>", ""))))
+	end
+    local legendLine,legendGroup,legendY={},{},{}
+    while args['legendItem'..argnum] do -- assign legendLine, legendGroup, legendY for each dot
+    	line,legendLine[legendCount] = extractItem(args['legendItem'..argnum] or '')
+    	line=splitItem(line,3)
+    	legendGroup[legendCount]=line[2] or argnum 
+    	if shapeList[legendGroup[legendCount]] then
+    		maxWidth=math.max(tonumber(string.match(shapeList[legendGroup[legendCount]].shapeSize or '10','[%d]+')),maxWidth)
+    	else maxWidth=math.max(tonumber(string.match(shapeList['1'].shapeSize or '10','[%d]+')),maxWidth)
+    	end
+    	maxWidth=maxWidth+1
+    	if line[3] then	
+    		legendY[legendCount]=tonumber(string.match(line[3],'[%d]+'))
+    	else legendY[legendCount] = 3+maxWidth*(legendCount-1)+titleHeight
+		--	if (legend.Text and legend.Text~='') then legendY[legendCount]=legendY[legendCount]+15 end
+    	end
+		legendCount=legendCount+1
+		argnum=tostring(legendCount)
+    end
+	local w,h,r=getsize(legend.Size or '')
+	local x,y=getsize(legend.Pos or '')
+    local div=mw.html.create ('div')
+	div:css('position', 'absolute')
+    div:css('outline', '1px solid'..getColor(legend.Color))
+	if r~=0 then div:css('border-radius',tostring(r).."px")	end
+	div
+	:css('top', y.."px")
+	:css('left', x.."px")
+	:css('width', w.."px")
+	:css('height', h.."px")
+	:css('line-height','105%')
+	:css('background-color', getColor(legend.Background) )
+	:css('color','inherit')
+	if not string.find(legend.Param,'noshadow') then div:css('box-shadow', '2px 2px 4px #33203335') end
+	div:tag( 'div' )
+		:css('position', 'absolute')
+		:css('top','1px')
+		:css('left', (w/2).."px")
+		:css('width',(w-8)..'px')
+		:css('text-align', 'center')
+		:css('color', getColor(legend.Color))
+        :css('transform', 'translateX(-50%)')
+        :css('font-size','11px')
+		:wikitext(legend.Text)
+	:done()
+	for lct=1,legendCount-1 do
+		--local t=legendGroup[lct]
+		local shape=shapeList[legendGroup[lct]] or shapeList['1']
+		local row={}
+		row.gridx=3+maxWidth/2
+		row.gridy=(legendY[lct] or 0) + 5
+		if shape.shape=='image:' then row.gridy=row.gridy+6 end
+		row.dx=0 row.dy=0
+		local legendShape= getshapetable(row,shape)
+		div:wikitext(legendShape)
+		:tag( 'div' )
+			:css('position', 'absolute')
+			:css('top',(legendY[lct] or 0)..'px')
+			:css('left', (maxWidth+6)..'px')
+			:css('width', (w-maxWidth-6)..'px')
+			:css('text-align', 'left')
+			:css('line-height','103%')
+			:css('color', getColor(legend.Color))
+	        :css('font-size','10px')
+			:wikitext(legendLine[lct])
+		:done()
+	end
+	div:allDone()
+	table.insert(result,tostring(div))
+end
+ 
+
+function p._main ( args )
+	local result={}
+	local frame=mw.getCurrentFrame()
+	local dotTable={}
+	local magVal,scaleVal = args.magnify,''
+	local origH,origW=maplist.height,maplist.width
+	
+	if magVal then --set up the values needed to magnify the top-right portion of the map
+		magVal=tonumber(string.match(magVal or '0',"[%.%-?%d]+")) or 1
+		if magVal>1 and magVal <=2 then
+			maplist.height= round(maplist.height/magVal,0)
+			maplist.width=round(maplist.width/magVal,0)
+			scaleVal='transform: scale('..magVal..') translateY('..tostring((origH-maplist.height)/2)..'px);'
+		else magVal=1
+		end
+		--debugmsg('magVal='..magVal..', Magnify: H='..maplist.height..', ('..origH..'), W='..maplist.width..', ('..origW..'), scale='..scaleVal)
+		--debugmsg('top: '..tostring(((origW-maplist.width))/2)..'px;right: '..tostring(0-((origW-maplist.width))/2)..'px;  (alt top: '..tostring(((origH-maplist.height))/2)..'px;)')
+	end
+	-- set up the three nested div boxes (plus an extra if centered) to put the map plus title/caption area, in an appropriate frame on the page
+    if args.float=='center' or args.float=='centre' then table.insert(result,'<div class="center"><div class="thumb tnone">') 
+    elseif args.float=='left' then table.insert(result,'<div class="thumb tleft">') 
+    else table.insert(result,'<div class="thumb tright">') 
+    end	
+    table.insert(result,'<div class="thumbinner" style="position: relative; top: 0px; right: 0px; width: '..(args.width or "400")..'px;">')
+    if args.title then table.insert(result,'<div class="center" style="font-weight:bold">'..args.title..'</div>') end
+    if magVal and magVal >1 and magVal<=2 then	
+    	table.insert(result,'<div class="thumbinner noresize" style="display:block; position: relative; outline:0px; border:0px; padding:0px; background-color:transparent; color:inherit;')
+		table.insert(result,'top: 50%; right: '..tostring(0-((origW-maplist.width))/2)..'px; ')
+		table.insert(result,'height: '..origH..'px; width: '..maplist.width..'px; '..scaleVal..'">')
+	else
+		magVal=1
+	    table.insert(result,'<div class="thumbinner noresize" style="position: relative; outline:0px; border:0px; padding:0px;')
+	    table.insert(result,'top: 0px; right: 0px; ')
+		table.insert(result,'height: '..maplist.height..'px; width: '..maplist.width..'px ">')
+   end
+
+-- Create the basemap using mapframe
+	local mapframecontent=getmapframecontent(args,'basemap')
+	table.insert(result, frame:extensionTag{ name ='mapframe', content=mapframecontent, args={width=tostring(maplist.width), height=tostring(maplist.height), 
+		zoom=tostring(maplist.zoom), longitude=tostring(maplist.lonbase), latitude=tostring(maplist.latbase), mapstyle=maplist.mapstyle, frameless=true } } )
+
+--Add coverall box to block the unhelpful links from mapframe - which wouldn't include all the dots. Reinstate some links to osm and wikimedia
+	table.insert(result,'<div style="position: absolute;width:'..tostring(maplist.width)..'px; height:'..tostring(maplist.height)..'px;')
+	table.insert(result,'top:0px;left:0px;background-color:#FFFFFF00; color:inherit;"></div>')	
+--Add replacent hover-links for OpenStreetMap and maps terms and conditions
+	table.insert(result,'<div style="position: absolute; top: '..tostring(maplist.height-18)..'px; left: '..tostring(maplist.width-13)..'px; width: 12px; height: 12px">')
+	table.insert(result,'[[file:Transparent.svg|12px|link=https://www.openstreetmap.org/copyright|'..aboutOSM..']]</div>')
+	table.insert(result,'<div style="position: absolute; top: '..tostring(maplist.height-18)..'px; left: '..tostring(maplist.width-110)..'px;')
+	table.insert(result,'width: 12px; height: 12px background-color: transparent; color:inherit;">')
+	table.insert(result,'[[file:Transparent.svg|12px| link=https://foundation.wikimedia.org/wiki/Policy:Maps_Terms_of_Use|'..termsOfUse..']]</div>')
+
+-- Add scale-line
+	if not args.scalemark or args.scalemark~='0' then
+		local top=maplist.height-42
+		local left=maplist.width-61-(tonumber(args.scalemark or '1'))
+		local minipos=string.lower(args.minimap or '') -- scalemark gets pushed left if it would be behind the minimap
+		if minipos~='' and not(string.find(minipos,'left') or string.find(minipos,'top') ) then 
+			local offset=tonumber(args.scalemark or '1')-tonumber(args['mini-width'] or '60')
+			if offset<1 then left=maplist.width-61-tonumber(args['mini-width'] or '60') end
+		end
+		if maplist.width-left >216 then top=top+14 end -- shunt scaleline down if it is beyond the copyright stuff
+		local scalek,scalem=getScale(maplist.zoom, maplist.latbase, magVal)
+		local magReduce=''
+		  table.insert(result,"<div style=\"display:inline-block; position: absolute; background-color: #111111")
+		  table.insert(result,"; color:inherit; clip-path:path(nonzero, &#39;M0,8 l0,4 l20,0 l0,-4 l-0.3,0 l0,3.7 l-19.4,0 l0,-3.7 z&#39;) ")
+		  table.insert(result,"; width:20px") -- path is a 20px20px box, and then rescales 
+		  if magVal==1 then
+  		    table.insert(result,"; top:"..tostring(top-1).."px") 
+  		    table.insert(result,"; left:"..tostring(left+16).."px")
+			table.insert(result,"; height:20px; transform:scale("..tostring(2.5)..", "..tostring(1.5)..")")
+		  else -- shrink the scalemark to compensate for magnification
+  			table.insert(result,"; top:"..tostring(top-(magVal*0.28)).."px") 
+  			table.insert(result,"; left:"..tostring(left+(16*(magVal*1.15))).."px")
+		  	table.insert(result,"; height:20px; transform:scale("..tostring(2.5*(1/magVal))..", "..tostring(1.5*(1/magVal))..")")
+		  	magReduce= 'scale('..tostring(1/magVal)..')'
+		  end
+		  table.insert(result,"\"></div>")
+			
+		table.insert(result,'<div style="position: absolute; top: '..tostring(top)..'px; left: '..tostring(left+47)..'px; font-size: 9.5px; line-height: 126%; width: fit-content;')
+		table.insert(result,'color: #444433; background-color: transparent; text-align: right; transform: '..magReduce..' translateX(-100%);">'..scalek..'<br>'..scalem..'</div>')
+	end
+	
+--Set up the shapeList and dotList tables, to provide data to go on the map
+	local sgNumbers,sgSortable={},{} --s1,s2
+	sgNumbers["1"]="1"
+	if args.useFormatStyle and args.useFormatStyle=='shortstyle' then
+		shapeList=ParseShapeTypes (shapeList,args,"1")
+		for argindex,argv in pairs(args) do -- build a list of all the numbered sg's that have been used
+			if string.find(argindex,"sg[a-f,n%d]+") == 1 then -- only look through the sga,sgb, sgc,sgd,sge,sgf and sgn args
+	    		local x=string.match(argindex,"[%d]+") -- find its number
+	    		if x and not sgNumbers[x] then sgNumbers[x]=x end -- only add if not already found
+			end
+			if string.find(argindex,"sg[a-f]H") == 1 and highlightNum then highlightOption=true end
+		end
+		for indx,sgnum in pairs(sgNumbers) do table.insert(sgSortable,sgnum) end
+		table.sort(sgSortable,lessthan) -- put the list in a sortable form
+		for k,v in pairs(sgSortable) do -- work through the sorted list, parsing each set of sg's in turn, from 1 upwards
+			shapeList=ParseShapeTypes (shapeList,args,v)
+		end
+		if highlightOption==true then shapeList=ParseShapeTypes (shapeList,args,'H') end
+	end
+	local dotList,dotresult,dotItemTable,dotGroupList={},{},{},{}
+	if (not args.useFormatStyle) or args.useFormatStyle=='standardstyle' then
+		local dotmax=0
+		for indx in pairs(args) do
+			if string.match(indx,'mark%-coord[%d]+') or string.match(indx,'lat[%d]+') then
+				dotmax=math.max(dotmax, tonumber(string.match(indx,"[%d]+")))
+			end
+			if (indx=='shapeH') or (indx=='shape-colorH') or (indx=='shape-outlineH') or (indx=='label-colorH') then highlightOption=true end
+		end
+		dotItemTable=tradstyleParseShapes(args,dotItemTable,dotmax)
+		for argindex=1,dotmax do -- build a list of all the numbered coords or lat,lons that have been used
+			local x=tostring(argindex)
+			if args['mark-coord'..x] or (args['mark-lat'..x] and args['mark-lon'..x]) then 
+    			sgNumbers[x]=x  -- add it to the list
+			end
+		end
+	else
+		for indx in pairs(args) do 
+			if string.match(indx,'dot[%d]+') then table.insert(dotList,indx) end --add the index name for dot1, dot2 etc to dotList
+		end
+		table.sort(dotList,morethan)	
+		for indx,dotName in pairs(dotList) do
+			dotresult=ParseData(args,string.match(dotName,'[%d]+') ) -- using each dot number, assign the settings for each dot to a dotresult item line
+			table.insert(dotItemTable,dotresult) -- and store that item line within the dotItemTable
+		end
+	end
+	
+	for arcVal = 65,91 do -- check through args looking for any arcs
+		local arcLetter=string.char(arcVal) 
+		if args['arc-text'..arcLetter] or args['arc'..arcLetter] then
+			makeArcText(args,result,arcLetter)
+		end
+	end
+	
+	local dotdivs=''
+	local ddots=0
+	if dotItemTable[1] then
+		local ddots=(dotItemTable[1].lat or 0)+(dotItemTable[1].lon or 0)
+	end
+	local fgroup='F'..tostring(maplist.latbase+maplist.lonbase+ddots )
+	local FullscreenList={}
+	local addcomma=''
+	for i,dotitem in pairs(dotItemTable) do -- working throug each dot item, merge the dot and shape values into a full set of css text
+		local dotgroup= dotitem.group or "0"
+		
+		if dotitem.posType=='mark-line' and dotitem.markDest then --find destination xy values for any mark-lines
+			for n,v in pairs(dotItemTable) do
+				if v.code == dotitem.markDest then	dotitem.gridx2=v.gridx	dotitem.gridy2=v.gridy	break end
+			end
+		end
+    	local qtype=dotitem.group -- find which shape group each dot has been assigned
+    	--debugmsg('dotgroup='..qtype..', sg='..(sgNumbers[qtype] or 'nil')..' , shapeList='..shapeList[qtype].shape)
+    	if not sgNumbers[qtype] then qtype="0" end  --shapeList[dotitem.group] will give access to the shape values for that dot
+    	if highlightNum==dotitem.code and highlightOption==true and shapeList['H'] then
+    		table.insert(result, getshapetable(dotitem,shapeList['H']))
+    	else
+    		table.insert(result, getshapetable(dotitem,shapeList[qtype])) -- Add the actual css instructions for each dot
+    	end
+    	if shapeList[dotgroup] and not string.find((dotitem.param1 or ''),'nomap') then -- only add if not excluded with 'nomap' labelText
+    		local ftext=''
+    		if dotitem.dotTag~='' and not string.match(dotitem.labelText or '','[%d]') then ftext=stripdivs(dotitem.dotTag or '')..' <br>' end
+    		if (dotitem.labelText ~= ftext) and dotitem.dotLink =='' then ftext=ftext..' '..stripdivs(dotitem.labelText)..'<br>' end
+    		if (dotitem.dotLink) and (dotitem.dotLink ~='') then ftext=ftext..dotitem.dotLink..'<br>' end
+    		if dotitem.imageName then ftext=ftext..'[[File:'..dotitem.imageName..'|250px]]' end
+    		table.insert(FullscreenList,1, makeFullscreenItem (string.gsub(ftext,"[\n]+"," "), dotitem.info,dotitem.lat,dotitem.lon,fgroup,shapeList[dotgroup].shapeColor)..addcomma )
+    		addcomma=', '
+    	end
+    	-- makeFullscreenItem (itemtitle,itemdescription,lat,lon,group,itemcolor) 
+    	-- Always add to start of list, to reverse the sequence, and separate with commas except for first item, which is now at the end
+	end
+	if args.legendBox then makeLegendBox(result,args) end
+	if args.minimap or args['mini-locator'] then makeLocatorMap(args,result) end
+	
+-- add tag link and details for fullscreen version
+	addcomma=''
+	if (mapframecontent or '[]') ~= '[]' then addcomma=',' end 
+	mapframecontent=getmapframecontent(args,'fullscreen')
+	local contentstart='[ '..mapframecontent..addcomma..'{ "type": "FeatureCollection", "features": [ ' --extra features after first square bracket
+	local contentend=' ] } ]'
+	table.insert(result, '<div style="position: absolute;top: 9px;left: '..tostring(maplist.width-34)..'px">')
+	table.insert(result, '<div style="color: white; opacity:100; font-size: 19px; font-weight:normal; text-align: left;">')
+	table.insert(result, frame:extensionTag{ name ='maplink', content=contentstart..table.concat(FullscreenList)..contentend, args={zoom=tostring(maplist.zoom+1), class='no-icon', frameless='1', 
+		latitude=tostring(maplist.latbase), longitude=tostring(maplist.lonbase),      --add invisble 'en-spaces' for tooltip 
+		text='<div title="'..fullscreenlinktext..'">&nbsp;&nbsp;&nbsp;</div>'} } ) 
+	table.insert(result,'</div></div>')    --  end of maplink -----
+
+-- add closing div for main map
+	table.insert(result,'</div>')
+
+-- collate caption material to go in the outer div class
+	local autocaption=string.lower(args['auto-caption'] or 'no')
+	local autoOff=autocaption:match("(%w+)(.*)") -- select the first word in autocaption and see if it is a negativeAnswer)
+	if args.caption or not negativeAnswer[autoOff] then 
+		table.insert(result,'<div class="thumbcaption" style="text-align:left">')
+		if args.caption then table.insert(result,args.caption) end
+	end
+	local columns=tonumber(autoOff:match("[%d]+") or '1')
+	if columns>1 then columns=round(maplist.width/(columns*17), 0) end -- convert from em to px for historical reasons
+	--for k in pairs(dotList) do capchk=capchk..(args["dotlink"..k] or '') end
+	
+	local capchk=nil	
+	local captionList = {}
+	for key, value in pairs(dotItemTable) do
+	  -- only add an autocaption line if there is both a dotTag and a dotLink line available and it is not marked as nolist
+    	if value.dotTag and value.dotTag~='' and (not string.find(value.param1 or '','nolist')) and string.gsub(value.dotLink or '',"%s+","")~='' then  
+    		table.insert(captionList, {key = key, value = value}) 
+    		capchk=true
+    	end
+	end
+ 	if capchk and (not negativeAnswer[autoOff]) then  
+		table.sort(captionList, function (a,b) return lessthan(string.match(a.value.dotTag,'[%w]+'), string.match(b.value.dotTag,'[%w]+')) end)
+		local myDivision = string.gsub((args.toggletext or toggletext), "%s+", "")
+		if string.find(autocaption,'collaps') then
+			table.insert(result,'<hr><div class="mw-customtoggle-'..myDivision..'">'..(args.toggletext or toggletext)..'</div>')
+			if string.find(autocaption,'collapsed') then
+				table.insert(result,'<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-'..myDivision..'">') 
+			else
+				table.insert(result,'<div class="mw-collapsible" id="mw-customcollapsible-'..myDivision..'">') 
+			end
+		end
+		if string.find(autocaption, 'columns=') then
+			columns=string.match(autocaption,'[%d]+',string.find(autocaption, 'columns=') ) 
+		end
+		table.insert(result,'<div class="mw-collapsible-content" style="column-count:'..columns..'; column-rule:solid 1px;text-align:left;padding-top:5px">')
+
+		table.sort(dotList,lessthan)
+		local nval,ngrp='','0'
+		for k,v in pairs(captionList) do
+			nval=string.match(v.value.dotTag,'[%w]+') -- find the first alphanumeric item in the dotTag
+			ngrp=v.value.group or '0'
+			if v.value.dotLink and v.value.dotLink~='' and nval and nval~='' then
+				local c1,c2
+				if nval==args.highlight then
+					c1,c2=checkColors(shapeList['H'].shapeColor)
+				else
+					c1,c2=checkColors(shapeList[ngrp].shapeColor)
+				end
+				table.insert(result,'<div style="display:inline-block;line-height:110%;vertical-align:middle; padding:1px 4px;border-radius:8px;border: 0.5px solid black;') 
+				table.insert(result,'background-color:'..c1..';color:'..c2..';font-size:88%;font-weight:bold">'..nval..'</div> '..v.value.dotLink..'<br>')
+			end
+		end
+		table.insert(result,'</div>') -- end for caption-content div
+		if string.find(autocaption,'collaps') then table.insert(result,'</div>') end -- end for toggle frame
+ 	end		
+	if args.caption or not negativeAnswer[autoOff] then table.insert(result,'</div>') end -- end for whole caption frame
+	table.insert(result,'</div></div>') -- outer two frames
+	if args.float == 'center' or args.float=='centre' then table.insert(result,'</div>') end
+		
+	if args['show-new-format'] == 'hints' then -- provide a 'format hint panel' in the 'Preview Box'
+		local w="<small>Below are some template hints for  the 'sga' compressed version, "
+		w=w..'{{tl|OSM Location dots}}. It can use these, instead of the more verbose {{tl|OSM Location map}} parameter format. '
+	    w=w..'Data is divided between a "ShapeGroup" and the "Dots", so that a single shapeGroup can be used for multiple dots on the map. '
+	    previewMsg(w..'(nb. the "group" value can be the number or an assigned name of a shapeGroup)</small>')
+	
+		w='<small>{{tl|OSM Location dots}}: | dot(n)=group,lat,lon,dotTag | '
+		w=w..'dotlink=link/tooltip | dotlabel=label,position,dx,dy,param1,info | dotpic=filename  <br>'
+		w=w.."(nb. param1 options include 'nolink' 'nolist' 'nomap' 'hemisphere-1' 'hemisphere+1', 'noline' - quotes not required, separate with spaces).<br>"
+		w=w..'| sga = Shape,Sizepx,Color,Angledeg  |  sgb= OutlineWidth,Color,Style  |  sgc=TextSize,Color,Angle,bold italic <br>'
+		w=w..'| sgd=TagSizepx,Color,Spacer,Angledeg | sge=LineWidth,Color,Style |  sgf=TextSpacingpx,LineHeight%,Outlinepx,backgroundColor<br>'
+		w=w..'| sgn=Name (optional, to assign a meaningful name) | sgp=Parent (can be the name or number of the parent shapeGroup. '
+		previewMsg(w..'Each shapegroup will inherit values from a parent, stretching back to "sga1" and its default values.)</small>')
+		if #pmsg then
+			local dbg={}
+			for i,x in pairs(pmsg) do
+				table.insert(dbg,x..'<br>')
+			end
+			dbg=mw.addWarning(table.concat(dbg))
+			table.insert(result, dbg)
+		end
+	end
+
+	if args.coordtest then debugmsg(mw.text.nowiki(args.coordtest)) end
+
+
+	for i,x in pairs(msg) do
+		table.insert(result, x..'<br>')
+	end
+	return table.concat(result)
+end
+
+function p.main(frame)
+	local args = getArgs(frame)
+	local itemTab={}
+	maplist.width=tonumber(args.width) or 400
+	maplist.height=tonumber(args.height) or 300
+	if args.coord then 
+		itemTab=splitItem(convertCoordsTrad (args.coord),2)
+		maplist.latbase=itemTab[1]	
+		maplist.lonbase=itemTab[2]	
+	else
+		maplist.lonbase=tonumber(args.lon) or 5
+		maplist.latbase=tonumber(args.lat) or 0
+	end
+	maplist.zoom=tonumber(args.zoom) or 1
+	visibleLinks=args.showlinks
+	highlightNum=args.highlight
+	if args.nolabels=='1' then maplist.mapstyle='osm' else maplist.mapstyle='osm-intl' end
+	return p._main(args)
+end
+
+return p
