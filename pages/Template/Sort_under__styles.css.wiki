@@ -1,0 +1,195 @@
+/* {{pp-template}} */
+/**
+ * Reposition sort arrows under column header text in the same cell.
+ *
+ * Table classes:
+ * - sort-under (consensus right)
+ * - sort-under-right
+ * - sort-under-center
+ *
+ * Tested:
+ * - Windows 10: (all skins) Chrome, Firefox, Edge.
+ * - Android Galaxy S21 (MinervaNeue): Chrome, Firefox.
+ * - Wikipedia Android app.
+ * - Print: Not styled.
+ * - No JavaScript.
+ *
+ * Note:
+ * Can't align {{static row numbers}} column label after sorting when exactly
+ * one header row followed by any "sorttop" rows.
+ * See Phab:T355492 - "Move sorttop rows from thead to second tbody".
+ * Lint error:
+ * thead tr:first-child:has(+ tr.sorttop)::before {}
+ */
+@media screen {
+  /**
+   * Reclaim old space.
+   */
+  html.client-js .sort-under.sortable.wikitable th.headerSort,
+  html.client-js .sort-under-right.sortable.wikitable th.headerSort,
+  html.client-js .sort-under-center.sortable.wikitable th.headerSort {
+    padding-right: 0.4em;
+  }
+  html.client-js .sort-under.sortable:not(.wikitable) th.headerSort,
+  html.client-js .sort-under-right.sortable:not(.wikitable) th.headerSort,
+  html.client-js .sort-under-center.sortable:not(.wikitable) th.headerSort {
+    padding-right: 1px;
+  }
+  html.client-js body.skin-minerva .sort-under.sortable.wikitable th.headerSort,
+  html.client-js body.skin-minerva .sort-under-right.sortable.wikitable th.headerSort,
+  html.client-js body.skin-minerva .sort-under-center.sortable.wikitable th.headerSort {
+    padding-right: 0.2em;
+  }
+  html.client-js body.skin-timeless .sort-under.sortable.wikitable th.headerSort,
+  html.client-js body.skin-timeless .sort-under-right.sortable.wikitable th.headerSort,
+  html.client-js body.skin-timeless .sort-under-center.sortable.wikitable th.headerSort {
+    padding-right: 0.5em;
+  }
+
+  /**
+   * Reposition arrows.
+   */
+  html.client-js .sort-under-center.sortable th.headerSort {
+    background-position: center bottom 0.2em;
+  }
+  html.client-js .sort-under.sortable th.headerSort,
+  html.client-js .sort-under-right.sortable th.headerSort {
+    background-position: right bottom 0.2em;
+  }
+
+  /**
+   * Add new space.
+   */
+  html.client-js .sort-under.sortable th.headerSort,
+  html.client-js .sort-under.sortable th.unsortable,
+  html.client-js .sort-under-right.sortable th.headerSort,
+  html.client-js .sort-under-right.sortable th.unsortable,
+  html.client-js .sort-under-center.sortable th.headerSort,
+  html.client-js .sort-under-center.sortable th.unsortable {
+    padding-bottom: 1em;
+  }
+  html.client-js body.skin-timeless .sort-under.sortable.wikitable th.headerSort,
+  html.client-js body.skin-timeless .sort-under.sortable.wikitable th.unsortable,
+  html.client-js body.skin-timeless .sort-under-right.sortable.wikitable th.headerSort,
+  html.client-js body.skin-timeless .sort-under-right.sortable.wikitable th.unsortable,
+  html.client-js body.skin-timeless .sort-under-center.sortable.wikitable th.headerSort,
+  html.client-js body.skin-timeless .sort-under-center.sortable.wikitable th.unsortable {
+    padding-bottom: 1.2em;
+  }
+  html.client-js body.skin-timeless .sort-under.sortable:not(.wikitable) th.headerSort,
+  html.client-js body.skin-timeless .sort-under.sortable:not(.wikitable) th.unsortable,
+  html.client-js body.skin-timeless .sort-under-right.sortable:not(.wikitable) th.headerSort,
+  html.client-js body.skin-timeless .sort-under-right.sortable:not(.wikitable) th.unsortable,
+  html.client-js body.skin-timeless .sort-under-center.sortable:not(.wikitable) th.headerSort,
+  html.client-js body.skin-timeless .sort-under-center.sortable:not(.wikitable) th.unsortable,
+  html.client-js body.skin-minerva .sort-under.sortable:not(.wikitable) th.headerSort,
+  html.client-js body.skin-minerva .sort-under.sortable:not(.wikitable) th.unsortable,
+  html.client-js body.skin-minerva .sort-under-right.sortable:not(.wikitable) th.headerSort,
+  html.client-js body.skin-minerva .sort-under-right.sortable:not(.wikitable) th.unsortable,
+  html.client-js body.skin-minerva .sort-under-center.sortable:not(.wikitable) th.headerSort,
+  html.client-js body.skin-minerva .sort-under-center.sortable:not(.wikitable) th.unsortable {
+    padding-bottom: 0.8em;
+  }
+
+  /**
+   * Align {{static row numbers}} column header text.
+   */
+  html.client-js .static-row-numbers.sort-under.sortable thead tr:only-child::before,
+  html.client-js .static-row-numbers.sort-under-right.sortable thead tr:only-child::before,
+  html.client-js .static-row-numbers.sort-under-center.sortable thead tr:only-child::before {
+    padding-bottom: 0.9em;
+  }
+  html.client-js body.skin-timeless .static-row-numbers.sort-under.sortable thead tr:only-child::before,
+  html.client-js body.skin-timeless .static-row-numbers.sort-under-right.sortable thead tr:only-child::before,
+  html.client-js body.skin-timeless .static-row-numbers.sort-under-center.sortable thead tr:only-child::before,
+  html.client-js body.skin-minerva .static-row-numbers.sort-under.sortable thead tr:only-child::before,
+  html.client-js body.skin-minerva .static-row-numbers.sort-under-right.sortable thead tr:only-child::before,
+  html.client-js body.skin-minerva .static-row-numbers.sort-under-center.sortable thead tr:only-child::before {
+    padding-bottom: 0.8em;
+  }
+
+  /**
+   * Adjust {{vertical header}} space.
+   */
+  html.client-js .sort-under.sortable.wikitable th.ts-vertical-header.headerSort,
+  html.client-js .sort-under.sortable.wikitable th.ts-vertical-header.unsortable,
+  html.client-js .sort-under-right.sortable.wikitable th.ts-vertical-header.headerSort,
+  html.client-js .sort-under-right.sortable.wikitable th.ts-vertical-header.unsortable,
+  html.client-js .sort-under-center.sortable.wikitable th.ts-vertical-header.headerSort,
+  html.client-js .sort-under-center.sortable.wikitable th.ts-vertical-header.unsortable {
+    padding-top: 0.4em;
+  }
+  html.client-js .sort-under.sortable:not(.wikitable) th.ts-vertical-header.headerSort,
+  html.client-js .sort-under.sortable:not(.wikitable) th.ts-vertical-header.unsortable,
+  html.client-js .sort-under-right.sortable:not(.wikitable) th.ts-vertical-header.headerSort,
+  html.client-js .sort-under-right.sortable:not(.wikitable) th.ts-vertical-header.unsortable,
+  html.client-js .sort-under-center.sortable:not(.wikitable) th.ts-vertical-header.headerSort,
+  html.client-js .sort-under-center.sortable:not(.wikitable) th.ts-vertical-header.unsortable {
+    padding-top: 1px;
+  }
+  html.client-js .sort-under.sortable .ts-vertical-header > div,
+  html.client-js .sort-under-right.sortable .ts-vertical-header > div,
+  html.client-js .sort-under-center.sortable .ts-vertical-header > div {
+    padding-top: 4px;
+  }
+  html.client-js .sort-under.sortable:not(.wikitable) .ts-vertical-header > div,
+  html.client-js .sort-under-right.sortable:not(.wikitable) .ts-vertical-header > div,
+  html.client-js .sort-under-center.sortable:not(.wikitable) .ts-vertical-header > div {
+    padding-bottom: 4px;
+  }
+  html.client-js body.skin-minerva .sort-under.sortable.wikitable .ts-vertical-header > div,
+  html.client-js body.skin-minerva .sort-under-right.sortable.wikitable .ts-vertical-header > div,
+  html.client-js body.skin-minerva .sort-under-center.sortable.wikitable  .ts-vertical-header > div {
+    padding-top: 2px;
+  }
+  html.client-js body.skin-timeless .sort-under.sortable.wikitable .ts-vertical-header > div,
+  html.client-js body.skin-timeless .sort-under-right.sortable.wikitable .ts-vertical-header > div,
+  html.client-js body.skin-timeless .sort-under-center.sortable.wikitable .ts-vertical-header > div {
+    padding-top: 0;
+  }
+
+  /**
+   * Increase touch screen button spacing for fat-finger error on header link.
+   */
+  @media (pointer: coarse) {
+    /* Arrows. */
+    html.client-js .sort-under-center.sortable.wikitable th.headerSort {
+      background-position: center bottom 0.5em;
+    }
+    html.client-js .sort-under.sortable.wikitable th.headerSort,
+    html.client-js .sort-under-right.sortable.wikitable th.headerSort {
+      background-position: right bottom 0.5em;
+    }
+    /* Space. */
+    html.client-js .sort-under.sortable.wikitable th.headerSort,
+    html.client-js .sort-under.sortable.wikitable th.unsortable,
+    html.client-js .sort-under-right.sortable.wikitable th.headerSort,
+    html.client-js .sort-under-right.sortable.wikitable th.unsortable,
+    html.client-js .sort-under-center.sortable.wikitable th.headerSort,
+    html.client-js .sort-under-center.sortable.wikitable th.unsortable {
+      padding-bottom: 1.6em;
+    }
+    html.client-js body.skin-timeless .sort-under.sortable.wikitable th.headerSort,
+    html.client-js body.skin-timeless .sort-under.sortable.wikitable th.unsortable,
+    html.client-js body.skin-timeless .sort-under-right.sortable.wikitable th.headerSort,
+    html.client-js body.skin-timeless .sort-under-right.sortable.wikitable th.unsortable,
+    html.client-js body.skin-timeless .sort-under-center.sortable.wikitable th.headerSort,
+    html.client-js body.skin-timeless .sort-under-center.sortable.wikitable th.unsortable {
+      padding-bottom: 1.8em;
+    }
+    /* {{Static row numbers}}. */
+    html.client-js .static-row-numbers.sort-under.sortable.wikitable thead tr:only-child::before,
+    html.client-js .static-row-numbers.sort-under-right.sortable.wikitable thead tr:only-child::before,
+    html.client-js .static-row-numbers.sort-under-center.sortable.wikitable thead tr:only-child::before {
+      padding-bottom: 1.5em;
+    }
+    html.client-js body.skin-timeless .static-row-numbers.sort-under.sortable.wikitable thead tr:only-child::before,
+    html.client-js body.skin-timeless .static-row-numbers.sort-under-right.sortable.wikitable thead tr:only-child::before,
+    html.client-js body.skin-timeless .static-row-numbers.sort-under-center.sortable.wikitable thead tr:only-child::before,
+    html.client-js body.skin-minerva .static-row-numbers.sort-under.sortable.wikitable thead tr:only-child::before,
+    html.client-js body.skin-minerva .static-row-numbers.sort-under-right.sortable.wikitable thead tr:only-child::before,
+    html.client-js body.skin-minerva .static-row-numbers.sort-under-center.sortable.wikitable thead tr:only-child::before {
+      padding-bottom: 1.4em;
+    }
+  }
+}

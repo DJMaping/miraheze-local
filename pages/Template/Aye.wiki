@@ -1,0 +1,3 @@
+<onlyinclude>[[File:Green check.svg|13px|alt={{#if:{{{alt|}}}|{{{alt}}}|Green tick}}|link=]]<span style="display:none">Y</span></onlyinclude>
+
+{{documentation}}

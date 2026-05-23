@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Redirect hatnote|redirect|2}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

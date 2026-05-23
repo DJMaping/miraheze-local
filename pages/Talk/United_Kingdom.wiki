@@ -1,0 +1,158 @@
+{{Skip to talk}}
+{{Talk header}}
+{{FAQ|collapsed=yes}}
+{{British English|date=September 2010}}
+{{Article history
+|action1=PR
+|action1date=06:34, 3 May 2006
+|action1link=Wikipedia:Peer review/United Kingdom/archive1
+|action1result=reviewed
+|action1oldid=51316003
+
+|action2=GAN
+|action2date=22:20, 22 July 2006
+|action2link=Talk:United Kingdom/Archive 6#Good Article
+|action2result=listed
+|action2oldid=65278328
+
+|action3=FAC
+|action3date=15:46, 30 September 2006
+|action3link=Wikipedia:Featured article candidates/United Kingdom/archive1
+|action3result=not promoted
+|action3oldid=78670594
+
+|action4=FAC
+|action4date=00:11, 11 February 2007
+|action4link=Wikipedia:Featured article candidates/United Kingdom/archive2
+|action4result=not promoted
+|action4oldid=107189748
+
+|action5=GAR
+|action5link=Talk:United Kingdom/GA1
+|action5date=19:51, 3 October 2008 (UTC)
+|action5result=delisted
+|action5oldid=242810269
+
+|action6=GAN
+|action6link=Talk:United Kingdom/GA2
+|action6date=22 January 2010
+|action6result=not listed
+|action6oldid=339258206
+
+|action7=GAN
+|action7link=Talk:United Kingdom/GA3
+|action7date=6 March 2015
+|action7result=not listed
+|action7oldid=650163344
+
+|action8=GAN
+|action8link=Talk:United Kingdom/GA4
+|action8date=18:52, 24 September 2018 (UTC)
+|action8result=not listed
+|action8oldid=861034594
+
+|topic=geography
+|currentstatus=DGA
+}}
+{{WikiProject banner shell|class=B|collapsed=yes|vital=yes|1=
+{{WikiProject Countries}}
+{{WikiProject Europe|importance=Top}}
+{{WikiProject Guild of Copy Editors||user=Chaosdruid|date=17 May 2011}}
+{{WikiProject Politics of the United Kingdom| importance = Top}}
+{{WikiProject UK geography|importance=Top}}
+{{WikiProject United Kingdom|importance=Top}}
+}}
+{{Press|date=August 17, 2009 |url= http://www.telegraph.co.uk/technology/wikipedia/6043534/The-50-most-viewed-Wikipedia-articles-in-2009-and-2008.html |title=The 50 most-viewed Wikipedia articles in 2009 and 2008 |org=[[The Daily Telegraph]] }}
+{{section sizes}}
+{{Other banners|collapsed=yes|
+{{All time pageviews|133}}
+{{Annual report|[[Wikipedia:2007 Top 50 Report|2007]], [[Wikipedia:2008 Top 50 Report|2008]], [[Wikipedia:2009 Top 50 Report|2009]], [[Wikipedia:2010 Top 50 Report|2010]], [[Wikipedia:2011 Top 50 Report|2011]], [[Wikipedia:2012 Top 50 Report|2012]], [[Wikipedia:2013 Top 50 Report|2013]], [[Wikipedia:2014 Top 50 Report|2014]], [[Wikipedia:Top 25 Report/2016|2016]], [[Wikipedia:2021 Top 50 Report|2021]], and [[Wikipedia:2022 Top 50 Report|2022]]}}
+}}
+{{Talk:United Kingdom/archivebox}}
+{{User:MiszaBot/config
+|archiveheader = {{Automatic archive navigator}}
+|maxarchivesize = 150K
+|counter = 39
+|algo = old(60d)
+|archive = Talk:United Kingdom/Archive %(counter)d
+}}{{User:HBC Archive Indexerbot/OptIn
+|target=Talk:United Kingdom/Archive index
+|mask1=Talk:United Kingdom/Archive <#>
+|mask2=Talk:United_Kingdom/Country, Kingdom or State Archive <#>
+|mask3=Talk:United_Kingdom/Terminology archive<#>
+|mask4=Talk:United_Kingdom/Subdivision name archive<#>
+|leading_zeros=0
+|indexhere=yes}}
+
+== Extended-confirmed-protected edit request on 15 April 2025 ==
+
+{{edit extended-protected|United Kingdom|answered=yes}}
+Add a link to [[The Beatles]] at the beginning of their paragraph in the "Culture" section. Not something super important, but I think it should be there. [[User:684pika|Quantum684]] ([[User talk:684pika|My talk page]]) 13:48, 15 April 2025 (UTC)
+:{{not done}}:<!-- Template:EEp --> There is a link to The Beatles in the previous paragraph; see [[MOS:REPEATLINK]]. [[User:Day Creature|Day Creature]] ([[User talk:Day Creature|talk]]) 00:06, 16 April 2025 (UTC)
+
+== Two images of financial centres ==
+
+Do we really need two images of financial centres in the economy section? With London already being the principal financial centre in Europe, I think having the one image of it already gets the point across that the UK plays a leading role in finance, and the other image of Edinburgh should be replaced with something else. [[User:Maxeto0910|Maxeto0910]] ([[User talk:Maxeto0910|talk]]) 14:11, 29 April 2025 (UTC)
+
+:Agree [[User:TheHandofFear|TheHandofFear]] ([[User talk:TheHandofFear|talk]]) 19:27, 8 May 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 5 May 2025 ==
+
+{{edit extended-protected|United Kingdom|answered=yes}}
+ [[User:LewisWillo2025|LewisWillo2025]] ([[User talk:LewisWillo2025|talk]]) 00:19, 5 May 2025 (UTC)
+I want to edit the GDP of the UK in nominal, PPP, nominal per capita and PPP per capita please.
+:{{Not done}}&mdash;please state exactly what changes you would like to make in an "X to Y" format. [[User:TTWIDEE|TTWIDEE]] ([[User talk:TTWIDEE|talk]]) 07:28, 5 May 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 7 May 2025 ==
+
+{{Edit extended-protected|United Kingdom|answered=yes}}
+So firstly please update GDP of Britain
+
+Nominal GDP 2026 Estimate: 3459.00 USD Billion
+
+Nominal GDP per capita 2026 estimate: $48,417
+
+GDP PPP 2026 Estimate:  $53,805
+
+GDP PPP per capita 2026 estimate: 53,805 US
+
+Please accept these figures, I do not know how to use citations.
+You can check the figures by searching them up but I am not the kind of guy who annoys people
+
+Long alive the United Kingdom of Britain, Scotland, Wales and Northern Ireland [[User:C3B4ME6|C3B4ME6]] ([[User talk:C3B4ME6|talk]]) 17:15, 7 May 2025 (UTC)
+:{{not done}}:<!-- Template:EEp --> Pointless extrapolations. [[WP:Wikipedia is not a crystal ball|Wikipedia is not a crystal ball]]. <span style="border-radius:2px;padding:3px;background:#1E816F">[[User:Remsense|<span style="color:#fff">'''Remsense'''</span>]]<span style="color:#fff">&nbsp;‥&nbsp;</span>[[User talk:Remsense|<span lang="zh" style="color:#fff">'''论'''</span>]]</span> 17:17, 7 May 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 8 May 2025 ==
+
+{{edit extended-protected|United Kingdom|answered=yes}}
+Can somebody add a line about [[AUKUS]] and [[Five Eyes]] in the Foreign Relations chapter under Politics? I’d suggest after the line about relations with Canada, Australia and NZ. [[User:TheHandofFear|TheHandofFear]] ([[User talk:TheHandofFear|talk]]) 19:26, 8 May 2025 (UTC)
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done''': it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:EEp --> If you want something to be included in the article, please propose the exact text you want to add. [[User:Day Creature|Day Creature]] ([[User talk:Day Creature|talk]]) 15:56, 9 May 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 11 May 2025 ==
+
+{{Edit extended-protected|United Kingdom|answered=yes}}
+The anthem document name is still god save the queen lol [[Special:Contributions/210.195.23.73|210.195.23.73]] ([[User talk:210.195.23.73|talk]]) 06:59, 11 May 2025 (UTC)
+:{{not done}}:<!-- Template:EEp --> This doesn't matter at all. It's a filename. <span style="border-radius:2px;padding:3px;background:#1E816F">[[User:Remsense|<span style="color:#fff">'''Remsense'''</span>]]<span style="color:#fff">&nbsp;‥&nbsp;</span>[[User talk:Remsense|<span lang="zh" style="color:#fff">'''论'''</span>]]</span> 07:33, 11 May 2025 (UTC)
+
+== FA Cup Photo ==
+
+If anyone is at the FA Cup Final today, can you take a new good photo with no bias to one team or the other and upload to wikipedia commons? Then someone can look at updating it (if it's good enough). [[User:117PXL|117PXL]] ([[User talk:117PXL|talk]]) 11:25, 17 May 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 23 May 2025 ==
+
+{{edit extended-protected|United Kingdom|answered=yes}}
+In the demographics section under migration, it says this. Verbatim. 
+
+"The most common origins of those naturalised in 2024 were, Pakistani, Indian, Nigerian, Filipino, Bangladeshi, Italian, Turkish, Romanian, Iranian and Iranian"
+
+It should say: 
+
+The most common origins of those naturalised in 2024 were, Pakistani, Indian, Nigerian, Filipino, Bangladeshi, Italian, Turkish, Romanian, and Iranian [[Special:Contributions/148.88.245.170|148.88.245.170]] ([[User talk:148.88.245.170|talk]]) 09:17, 23 May 2025 (UTC)
+
+:Fixed. Thanks for the alert. [[User:HiLo48|HiLo48]] ([[User talk:HiLo48|talk]]) 09:56, 23 May 2025 (UTC)
+
+== Word correction ==
+
+On the section “Culture” and then “Literature” correct '''Scottush''' literature (Scottish) [[Special:Contributions/2.86.220.209|2.86.220.209]] ([[User talk:2.86.220.209|talk]]) 13:06, 14 June 2025 (UTC)
+
+:{{done}} thanks! '''[[User:ClaudineChionh|ClaudineChionh]]''' <small>([[Wikipedia:Editors' pronouns|''she/her'']] · [[User talk:ClaudineChionh|talk]] · [[Special:EmailUser/ClaudineChionh|email]] · [[m:User:ClaudineChionh|global]])</small> 13:08, 14 June 2025 (UTC)

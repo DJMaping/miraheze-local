@@ -1,0 +1,15 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Texas
+| flag alias = Flag of Texas.svg
+| link alias-army = Texas Army National Guard
+| link alias-air force = Texas Air National Guard
+| flag alias-naval = Flag of the United States.svg
+| link alias-naval = Texas State Guard Maritime Regiment
+| link alias-navy = Texas State Guard Maritime Regiment
+| variant = {{{variant|}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+<noinclude>
+| related1 = Republic of Texas
+</noinclude>
+}}

@@ -1,0 +1,733 @@
+-- Definitions for units known to val
+-- File format is two strings and a return statement with them in it:
+-- string in quotes [=[ ... builtin_units ... ]=].
+-- string in quotes [=[ ... builtin_units_long_scale ... ]=].
+-- First string, builtin_units, is short-scale, second string is long scale.
+
+-- Entry format:
+-- One record per line, starting in first column, having 2-4 fields.
+-- Field separator: two or more spaces
+-- Between first and second fields: two or more spaces
+-- Between all other fields: two or more spaces, or one or more tabs
+-- Entries without two spaces in them are ignored.
+
+-- There must be a blank line before the first entry and after the last.
+-- I.e. the first two and last two characters of the string must be newlines.
+
+-- Format of entry. Two record types:
+--
+-- One record type is a wikilink:
+-- Unit-code        [[ pagename | Symbol-accepts-HTML-only ]]
+-- Text-field separator is still two spaces.  Two spaces not allowed in wikilink.
+--
+-- The other record type is all fields:
+-- Unit-code        symbol-accepts-HTML-only        pagename#section-OK
+--
+-- Plus there is an optional field that goes at the end after two or more spaces.
+-- Whether it is a number or an equation or the letters SI,
+-- any of these three has the same function: a wikitable sorting "scale".
+-- It is for sorting, and it works for either record type.
+-- Difference is SI can't accept HTML. But SI correctly scales any SI prefix.
+-- (Optional fields ALIAS and NOSPACE and ANGLE are for advanced users.)
+
+-- "Invalid unit" error:
+-- Using SI requires that the symbol equal unit-code, so never allows HTML.
+-- Any difference between SI or symbol must be an SI prefix, such as k, M, or G.
+-- A space at the end of an entry is an error. No space at each EOL.
+
+local builtin_units = [=[
+
+== Test ==
+Foo  [[Hz|<samp>Foo</samp>]]
+Baz  [[Hertz|baz<sub>0</sub>]]
+Baz  [[Kelvins|baz<sub>0</sub>]]
+Bar  [[Foobar|bar<abbr title="super duper">0</abbr>]]
+quux  [[Foobar|<span title="super duper 2">bar0</span>]]
+
+== Unsorted units ==
+c0  [[Speed of light#Numerical value, notation, and units|''c''<sub>0</sub>]]
+lbf  [[Pound (force)|<span title="pound-force">lb<sub>F</sub></span>]]
+N.s  [[Newton-second|N&sdot;s]]
+J.K-1  [[Joule per kelvin|J&sdot;K<sup>−1</sup>]]
+C.mol-1  [[Faraday constant|C&sdot;mol<sup>−1</sup>]]
+C/mol  [[Faraday constant|C/mol]]
+C.kg-1  [[Roentgen (unit)|C&sdot;kg<sup>−1</sup>]]
+C/kg  [[Roentgen (unit)|C/kg]]
+F.m-1  [[vacuum permittivity|F&sdot;m<sup>−1</sup>]]
+F/m  [[vacuum permittivity|F/m]]
+e  [[Elementary charge|''e'']]
+kB  [[Kilobyte|kB]]  8e3
+KB  [[Kilobyte|KB]]  8e3
+MB  [[Megabyte|MB]]  8e6
+GB  [[Gigabyte|GB]]  8e9
+TB  [[Terabyte|TB]]  8e12
+lx  [[Lux (unit)|lx]]
+nat  [[nat (unit)|nat]]
+
+== Time and frequency ==
+byte/s  [[Data rate units|byte/s]]  8
+kB/s  [[Data rate units#Kilobyte per second|<span title="Kilobytes per second">kB/s</span>]]  8e3
+MB/s  [[Data rate units#Megabyte per second|<span title="Megabytes per second">MB/s</span>]]  8e6
+GB/s  [[Data rate units#Gigabyte per second|<span title="Gigabytes per second">GB/s</span>]]  8e9
+TB/s  [[Data rate units#Terabyte per second|<span title="Terabytes per second">TB/s</span>]]  8e12
+bit/s  [[Bit per second|bit/s]]  1
+bps  [[Bit per second|bit/s]]  1
+kbit/s  [[Kilobit per second|kbit/s]]  1e3
+Mbit/s  [[Megabit per second|Mbit/s]]  1e6
+Gbit/s  [[Gigabit per second|Gbit/s]]  1e9
+Tbit/s  [[Terabit per second|Tbit/s]]  1e12
+kT/s  [[Transfer (computing)|<span title="Kilotransfers per second">kT/s</span>]]  1e3
+MT/s  [[Transfer (computing)|<span title="Megatransfers per second">MT/s</span>]]  1e6
+GT/s  [[Transfer (computing)|<span title="Gigatransfers per second">GT/s</span>]]  1e9
+year  [[Year|year]]  31557600
+years  [[Year|years]]  31557600
+yr  [[Year#Symbols and abbreviations|yr]]  31557600
+y  [[Year|y]]  31557600
+a  [[Annum|a]]  31557600
+Ga  [[Gigaannum|Ga]]  31557600000000000
+Ma  [[Megaannum|Ma]]  31557600000000
+ka  [[Kiloannum|ka]]  31557600000
+kyr  [[kyr|kyr]]  31557600000
+kya  [[kyr|kya]]  31557600000
+myr  [[myr|myr]]  31557600000000
+mya  [[Mya (unit)|mya]]  31557600000000
+byr  [[Billion years|byr]]  31557600000000000
+bya  [[Billion years ago|bya]]  31557600000000000
+Gyr  [[billion years|Gyr]]  31557600000000000
+BP  [[Before present|BP]]
+uBP  [[Radiocarbon dating#Calibration|<sup>14</sup>C yr BP]]
+BC  [[Before Christ|BC]]  -1
+AD  [[Anno Domini|AD]]  1
+BCE  [[Before the Common Era|BCE]]  -1
+CE  [[Common Era|CE]]  1
+JD  [[Julian date|JD]]  1
+MJD  [[Modified Julian date|MJD]]  1
+
+s-1  [[Second|s<sup>−1</sup>]]
+s-2  [[Second|s<sup>−2</sup>]]
+s2  [[Second|s<sup>2</sup>]]
+
+s  [[Second|s]]  SI
+as  [[Attosecond|s]]  SI
+cs  [[Second|s]]  SI
+das  [[Second|s]]  SI
+ds  [[Second|s]]  SI
+Es  [[Second|s]]  SI
+fs  [[Femtosecond|s]]  SI
+Gs  [[Second|s]]  SI
+hs  [[Second|s]]  SI
+ks  [[Second|s]]  SI
+ms  [[Millisecond|s]]  SI
+µs  [[Microsecond|s]]  SI
+us  [[Microsecond|s]]  SI
+Ms  [[Second|s]]  SI
+ns  [[Nanosecond|s]]  SI
+ps  [[Picosecond|s]]  SI
+Ps  [[Second|s]]  SI
+Ts  [[Second|s]]  SI
+Ys  [[Second|s]]  SI
+ys  [[Yoctosecond|s]]  SI
+Zs  [[Second|s]]  SI
+zs  [[Zeptosecond|s]]  SI
+
+Hz  [[Hertz|Hz]]  SI
+aHz  [[Hertz|Hz]]  SI
+cHz  [[Hertz|Hz]]  SI
+daHz  [[Hertz|Hz]]  SI
+dHz  [[Hertz|Hz]]  SI
+EHz  [[Hertz|Hz]]  SI
+fHz  [[Hertz|Hz]]  SI
+hHz  [[Hertz|Hz]]  SI
+GHz  [[Gigahertz|Hz]]  SI
+kHz  [[Kilohertz|Hz]]  SI
+MHz  [[Megahertz|Hz]]  SI
+mHz  [[Hertz|Hz]]  SI
+uHz  [[Hertz|Hz]]  SI
+µHz  [[Hertz|Hz]]  SI
+nHz  [[Hertz|Hz]]  SI
+pHz  [[Hertz|Hz]]  SI
+PHz  [[Hertz|Hz]]  SI
+THz  [[Hertz|Hz]]  SI
+yHz  [[Hertz|Hz]]  SI
+YHz  [[Hertz|Hz]]  SI
+zHz  [[Hertz|Hz]]  SI
+ZHz  [[Hertz|Hz]]  SI
+
+ips  [[Inch per second|ips]]
+
+== Length, area, volume ==
+Å3   [[Ångström|Å<sup>3</sup>]]
+fb-1  [[Barn (unit)#Inverse femtobarn|fb<sup>−1</sup>]]
+m-1  [[Metre|m<sup>−1</sup>]]
+m-2  [[Square metre|m<sup>−2</sup>]]
+m-3  [[Cubic metre|m<sup>−3</sup>]]
+km2  [[Square kilometre|km<sup>2</sup>]]
+km3  [[Cubic kilometre|km<sup>3</sup>]]
+µm2  [[Square metre|µm<sup>2</sup>]]
+um2  [[Square metre|µm<sup>2</sup>]]
+am2  [[Square metre|am<sup>2</sup>]]
+cm2  [[Square centimetre|cm<sup>2</sup>]]
+dam2  [[Square metre|dam<sup>2</sup>]]
+dm2  [[Square metre|dm<sup>2</sup>]]
+Em2  [[Square metre|Em<sup>2</sup>]]
+fm2  [[Square metre|fm<sup>2</sup>]]
+Gm2  [[Square metre|Gm<sup>2</sup>]]
+hm2  [[Square metre|hm<sup>2</sup>]]
+mm2  [[Square metre|mm<sup>2</sup>]]
+Mm2  [[Square metre|Mm<sup>2</sup>]]
+nm2  [[Square metre|nm<sup>2</sup>]]
+pm2  [[Square metre|pm<sup>2</sup>]]
+Pm2  [[Square metre|Pm<sup>2</sup>]]
+Tm2  [[Square metre|Tm<sup>2</sup>]]
+ym2  [[Square metre|ym<sup>2</sup>]]
+Ym2  [[Square metre|Ym<sup>2</sup>]]
+zm2  [[Square metre|zm<sup>2</sup>]]
+Zm2  [[Square metre|Zm<sup>2</sup>]]
+gal  [[Gallon|gal]]
+Gal  [[Gal (unit)|Gal]]
+uGal  [[Gal (unit)|µGal]]
+µGal  [[Gal (unit)|µGal]]
+mGal  [[Gal (unit)|mGal]]
+
+b  [[Barn (unit)|b]]  SI
+ab  [[Barn (unit)|b]]  SI
+cb  [[Barn (unit)|b]]  SI
+dab  [[Barn (unit)|b]]  SI
+db  [[Barn (unit)|b]]  SI
+Eb  [[Barn (unit)|b]]  SI
+fb  [[Barn (unit)|b]]  SI
+Gb  [[Barn (unit)|b]]  SI
+hb  [[Barn (unit)|b]]  SI
+kb  [[Barn (unit)|b]]  SI
+mb  [[Barn (unit)|b]]  SI
+µb  [[Barn (unit)|b]]  SI
+ub  [[Barn (unit)|b]]  SI
+Mb  [[Barn (unit)|b]]  SI
+nb  [[Barn (unit)|b]]  SI
+pb  [[Barn (unit)|b]]  SI
+Pb  [[Barn (unit)|b]]  SI
+Tb  [[Barn (unit)|b]]  SI
+Yb  [[Barn (unit)|b]]  SI
+yb  [[Barn (unit)|b]]  SI
+Zb  [[Barn (unit)|b]]  SI
+zb  [[Barn (unit)|b]]  SI
+
+== Velocity and acceleration ==
+m.s-2  [[Metre per second squared|m&sdot;s<sup>−2</sup>]]
+m/s2  [[Metre per second squared|m/s<sup>2</sup>]]
+m.s-1  [[Metre per second|m&sdot;s<sup>−1</sup>]]
+m/s  [[Metre per second|m/s]]
+km.s-1  [[Metre per second|km&sdot;s<sup>−1</sup>]]
+km/s  [[Metre per second|km/s]]
+
+== Mass and energy ==
+lbm  [[Pound (mass)|<span title="pound-mass">lb<sub>m</sub></span>]]
+uJ  [[Joule|µJ]]
+J.s  [[Joule-second|J&sdot;s]]
+kWh  [[Kilowatt hour|kWh]]
+kW.h  [[Kilowatt hour|kW&sdot;h]]
+J/C  [[Volt|J/C]]
+J/kg  [[Joule|J/kg]]
+
+Da  [[Dalton (unit)|Da]]  SI
+EDa  [[Dalton (unit)|Da]]  SI
+PDa  [[Dalton (unit)|Da]]  SI
+TDa  [[Dalton (unit)|Da]]  SI
+GDa  [[Dalton (unit)|Da]]  SI
+MDa  [[Dalton (unit)|Da]]  SI
+kDa  [[Dalton (unit)|Da]]  SI
+mDa  [[Dalton (unit)|Da]]  SI
+uDa  [[Dalton (unit)|Da]]  SI
+μDa  [[Dalton (unit)|Da]]  SI
+nDa  [[Dalton (unit)|Da]]  SI
+pDa  [[Dalton (unit)|Da]]  SI
+fDa  [[Dalton (unit)|Da]]  SI
+aDa  [[Dalton (unit)|Da]]  SI
+
+g  [[Gram|g]]  SI
+ag  [[Attogram|g]]  SI
+cg  [[Centigram|g]]  SI
+dag  [[Gram|g]]  SI
+dg  [[Decigram|g]]  SI
+Eg  [[Exagram|g]]  SI
+fg  [[Femtogram|g]]  SI
+Gg  [[Gigagram|g]]  SI
+hg  [[Kilogram#SI multiples|g]]  SI
+kg  [[Kilogram|g]]  SI
+mcg  [[Microgram|g]]  SI
+Mg  [[Megagram|g]]  SI
+mg  [[Milligram|g]]  SI
+ug  [[Microgram|g]]  SI
+µg  [[Microgram|g]]  SI
+ng  [[Nanogram|g]]  SI
+Pg  [[Petagram|g]]  SI
+pg  [[Picogram|g]]  SI
+Tg  [[Tonne|g]]  SI
+yg  [[Yoctogram|g]]  SI
+Yg  [[Yottagram|g]]  SI
+zg  [[Zeptogram|g]]  SI
+Zg  [[Zettagram|g]]  SI
+
+== Pressure and density ==
+psi  [[Pounds per square inch|psi]]
+g.cm-3  [[Gram per cubic centimetre|g&sdot;cm<sup>−3</sup>]]
+g/cm3  [[Gram per cubic centimetre|g/cm<sup>3</sup>]]
+kg.m-3  [[Kilogram per cubic metre|kg&sdot;m<sup>−3</sup>]]
+kg/m3  [[Kilogram per cubic metre|kg/m<sup>3</sup>]]
+kg/cm3  [[Density#Formula and common units|kg/cm<sup>3</sup>]]
+g/L  [[Gram per litre|g/L]]
+g/l  [[Gram per litre|g/l]]
+mcg/dL  [[Gram per litre|µg/dL]]
+mcg/dl  [[Gram per litre|µg/dl]]
+mg/mL  [[Gram per litre|mg/mL]]
+mg/ml  [[Gram per litre|mg/ml]]
+ug/dL  [[Gram per litre|µg/dL]]
+ug/dl  [[Gram per litre|µg/dl]]
+μg/dL  [[Gram per litre|μg/dL]]
+μg/dl  [[Gram per litre|μg/dl]]
+mg.L-1  [[Gram per litre|<abbr title="milligrams per liter">mg/L</abbr>]]
+mg/L  [[Gram per litre|<abbr title="milligrams per liter">mg/L</abbr>]]
+mg.l-1  [[Gram per litre|<abbr title="milligrams per liter">mg/l</abbr>]]
+mg/l  [[Gram per litre|<abbr title="milligrams per liter">mg/l</abbr>]]
+
+== Fracture toughness ==
+MPa.m.5  [[Fracture toughness|MPa&sdot;m<sup>1/2</sup>]]
+kPa.m.5  [[Fracture toughness|kPa&sdot;m<sup>1/2</sup>]]
+Pa.m.5  [[Fracture toughness|Pa&sdot;m<sup>1/2</sup>]]
+
+== Temperature ==
+degC  °C  ALIAS
+degF  °F  ALIAS
+degR  °R  ALIAS
+
+K  [[Kelvin|K]]  SI
+YK  [[Yottakelvin|K]]  SI
+ZK  [[Zettakelvin|K]]  SI
+EK  [[Kelvin|K]]  SI
+PK  [[Petakelvin|K]]  SI
+TK  [[Terakelvin|K]]  SI
+GK  [[Gigakelvin|K]]  SI
+MK  [[Megakelvin|K]]  SI
+kK  [[Kilokelvin|K]]  SI
+hK  [[Hectokelvin|K]]  SI
+daK  [[Decakelvin|K]]  SI
+dK  [[Decikelvin|K]]  SI
+cK  [[Centikelvin|K]]  SI
+mK  [[Millikelvin|K]]  SI
+µK  [[Microkelvin|K]]  SI
+uK  [[Microkelvin|K]]  SI
+nK  [[Nanokelvin|K]]  SI
+pK  [[Picokelvin|K]]  SI
+fK  [[Femtokelvin|K]]  SI
+aK  [[Attokelvin|K]]  SI
+zK  [[Zeptokelvin|K]]  SI
+yK  [[Yoctokelvin|K]]  SI
+
+== Electromagnetism ==
+Wb  [[Weber (unit)|Wb]]
+N.A-2  [[Permeability (electromagnetism)|N&sdot;A<sup>−2</sup>]]
+H.m-1  [[Permeability (electromagnetism)|H&sdot;m<sup>−1</sup>]]
+V.m-1  [[Electric field|V&sdot;m<sup>−1</sup>]]
+V/m  [[Electric field|V/m]]
+
+C  [[Coulomb|C]]  SI
+YC  [[Coulomb|C]]  SI
+ZC  [[Coulomb|C]]  SI
+EC  [[Coulomb|C]]  SI
+PC  [[Coulomb|C]]  SI
+TC  [[Coulomb|C]]  SI
+GC  [[Coulomb|C]]  SI
+MC  [[Coulomb|C]]  SI
+kC  [[Coulomb|C]]  SI
+hC  [[Coulomb|C]]  SI
+daC  [[Coulomb|C]]  SI
+dC  [[Coulomb|C]]  SI
+cC  [[Coulomb|C]]  SI
+mC  [[Coulomb|C]]  SI
+µC  [[Coulomb|C]]  SI
+uC  [[Coulomb|C]]  SI
+nC  [[Coulomb|C]]  SI
+pC  [[Coulomb|C]]  SI
+fC  [[Coulomb|C]]  SI
+aC  [[Coulomb|C]]  SI
+zC  [[Coulomb|C]]  SI
+yC  [[Coulomb|C]]  SI
+
+F  [[Farad|F]]  SI
+YF  [[Farad|F]]  SI
+ZF  [[Farad|F]]  SI
+EF  [[Farad|F]]  SI
+PF  [[Farad|F]]  SI
+TF  [[Farad|F]]  SI
+GF  [[Farad|F]]  SI
+MF  [[Farad|F]]  SI
+kF  [[Farad|F]]  SI
+hF  [[Farad|F]]  SI
+daF  [[Farad|F]]  SI
+dF  [[Farad|F]]  SI
+cF  [[Farad|F]]  SI
+mF  [[Farad|F]]  SI
+µF  [[Farad|F]]  SI
+uF  [[Farad|F]]  SI
+nF  [[Farad|F]]  SI
+pF  [[Farad|F]]  SI
+fF  [[Farad|F]]  SI
+aF  [[Farad|F]]  SI
+zF  [[Farad|F]]  SI
+yF  [[Farad|F]]  SI
+
+H  [[Henry (unit)|H]]  SI
+YH  [[Henry (unit)|H]]  SI
+ZH  [[Henry (unit)|H]]  SI
+EH  [[Henry (unit)|H]]  SI
+PH  [[Henry (unit)|H]]  SI
+TH  [[Henry (unit)|H]]  SI
+GH  [[Henry (unit)|H]]  SI
+MH  [[Henry (unit)|H]]  SI
+kH  [[Henry (unit)|H]]  SI
+hH  [[Henry (unit)|H]]  SI
+daH  [[Henry (unit)|H]]  SI
+dH  [[Henry (unit)|H]]  SI
+cH  [[Henry (unit)|H]]  SI
+mH  [[Henry (unit)|H]]  SI
+µH  [[Henry (unit)|H]]  SI
+uH  [[Henry (unit)|H]]  SI
+nH  [[Henry (unit)|H]]  SI
+pH  [[Henry (unit)|H]]  SI
+fH  [[Henry (unit)|H]]  SI
+aH  [[Henry (unit)|H]]  SI
+zH  [[Henry (unit)|H]]  SI
+yH  [[Henry (unit)|H]]  SI
+
+A  [[Ampere|A]]  SI
+YA  [[Ampere|A]]  SI
+ZA  [[Ampere|A]]  SI
+EA  [[Ampere|A]]  SI
+PA  [[Ampere|A]]  SI
+TA  [[Ampere|A]]  SI
+GA  [[Ampere|A]]  SI
+MA  [[Ampere|A]]  SI
+kA  [[Ampere|A]]  SI
+hA  [[Ampere|A]]  SI
+daA  [[Ampere|A]]  SI
+dA  [[Ampere|A]]  SI
+cA  [[Ampere|A]]  SI
+mA  [[Ampere|A]]  SI
+µA  [[Ampere|A]]  SI
+uA  [[Ampere|A]]  SI
+nA  [[Ampere|A]]  SI
+pA  [[Ampere|A]]  SI
+fA  [[Ampere|A]]  SI
+aA  [[Ampere|A]]  SI
+zA  [[Ampere|A]]  SI
+yA  [[Ampere|A]]  SI
+
+V  [[Volt|V]]  SI
+YV  [[Volt|V]]  SI
+ZV  [[Volt|V]]  SI
+EV  [[Volt|V]]  SI
+PV  [[Volt|V]]  SI
+TV  [[Volt|V]]  SI
+GV  [[Volt|V]]  SI
+MV  [[Volt|V]]  SI
+kV  [[Volt|V]]  SI
+hV  [[Volt|V]]  SI
+daV  [[Volt|V]]  SI
+dV  [[Volt|V]]  SI
+cV  [[Volt|V]]  SI
+mV  [[Volt|V]]  SI
+µV  [[Volt|V]]  SI
+uV  [[Volt|V]]  SI
+nV  [[Volt|V]]  SI
+pV  [[Volt|V]]  SI
+fV  [[Volt|V]]  SI
+aV  [[Volt|V]]  SI
+zV  [[Volt|V]]  SI
+yV  [[Volt|V]]  SI
+
+VA  [[Volt-ampere|VA]]  SI
+YVA  [[Volt-ampere|VA]]  SI
+ZVA  [[Volt-ampere|VA]]  SI
+EVA  [[Volt-ampere|VA]]  SI
+PVA  [[Volt-ampere|VA]]  SI
+TVA  [[Volt-ampere|VA]]  SI
+GVA  [[Volt-ampere|VA]]  SI
+MVA  [[Volt-ampere|VA]]  SI
+kVA  [[Volt-ampere|VA]]  SI
+hVA  [[Volt-ampere|VA]]  SI
+daVA  [[Volt-ampere|VA]]  SI
+dVA  [[Volt-ampere|VA]]  SI
+cVA  [[Volt-ampere|VA]]  SI
+mVA  [[Volt-ampere|VA]]  SI
+µVA  [[Volt-ampere|VA]]  SI
+uVA  [[Volt-ampere|VA]]  SI
+nVA  [[Volt-ampere|VA]]  SI
+pVA  [[Volt-ampere|VA]]  SI
+fVA  [[Volt-ampere|VA]]  SI
+aVA  [[Volt-ampere|VA]]  SI
+zVA  [[Volt-ampere|VA]]  SI
+yVA  [[Volt-ampere|VA]]  SI
+
+Ω  [[Ohm|Ω]]  SI
+
+YΩ.m  [[Electrical resistivity and conductivity#Definition|YΩ&sdot;m]]  1e24
+ZΩ.m  [[Electrical resistivity and conductivity#Definition|ZΩ&sdot;m]]  1e21
+EΩ.m  [[Electrical resistivity and conductivity#Definition|EΩ&sdot;m]]  1e18
+PΩ.m  [[Electrical resistivity and conductivity#Definition|PΩ&sdot;m]]  1e15
+TΩ.m  [[Electrical resistivity and conductivity#Definition|TΩ&sdot;m]]  1e12
+GΩ.m  [[Electrical resistivity and conductivity#Definition|GΩ&sdot;m]]  1e9
+MΩ.m  [[Electrical resistivity and conductivity#Definition|MΩ&sdot;m]]  1e6
+kΩ.m  [[Electrical resistivity and conductivity#Definition|kΩ&sdot;m]]  1e3
+Ω.m  [[Electrical resistivity and conductivity#Definition|Ω&sdot;m]]    1
+mΩ.m  [[Electrical resistivity and conductivity#Definition|mΩ&sdot;m]]  1e-3
+µΩ.m  [[Electrical resistivity and conductivity#Definition|µΩ&sdot;m]]  1e-6
+uΩ.m  [[Electrical resistivity and conductivity#Definition|µΩ&sdot;m]]  1e-6
+nΩ.m  [[Electrical resistivity and conductivity#Definition|nΩ&sdot;m]]  1e-9
+pΩ.m  [[Electrical resistivity and conductivity#Definition|pΩ&sdot;m]]  1e-12
+fΩ.m  [[Electrical resistivity and conductivity#Definition|fΩ&sdot;m]]  1e-15
+aΩ.m  [[Electrical resistivity and conductivity#Definition|aΩ&sdot;m]]  1e-18
+zΩ.m  [[Electrical resistivity and conductivity#Definition|zΩ&sdot;m]]  1e-21
+yΩ.m  [[Electrical resistivity and conductivity#Definition|yΩ&sdot;m]]  1e-24
+
+R  [[Rayleigh (unit)|R]]  SI
+
+G  [[Gauss (unit)|G]]  SI
+aG  [[Attogauss|G]]  SI
+cG  [[Centigauss|G]]  SI
+daG  [[Decagauss|G]]  SI
+dG  [[Decigauss|G]]  SI
+EG  [[Exagauss|G]]  SI
+fG  [[Femtogauss|G]]  SI
+GG  [[Gigagauss|G]]  SI
+hG  [[Hectogauss|G]]  SI
+kG  [[Kilogauss|G]]  SI
+MG  [[Megagauss|G]]  SI
+mG  [[Milligauss|G]]  SI
+uG  [[Microgauss|G]]  SI
+µG  [[Microgauss|G]]  SI
+nG  [[Nanogauss|G]]  SI
+PG  [[Petagauss|G]]  SI
+pG  [[Picogauss|G]]  SI
+TG  [[Teragauss|G]]  SI
+yG  [[Yoctogauss|G]]  SI
+YG  [[Yottagauss|G]]  SI
+zG  [[Zeptogauss|G]]  SI
+ZG  [[Zettagauss|G]]  SI
+
+T  [[Tesla (unit)|T]]  SI
+aT  [[Attotesla|T]]  SI
+cT  [[Centitesla|T]]  SI
+daT  [[Decatesla|T]]  SI
+dT  [[Decitesla|T]]  SI
+ET  [[Exatesla|T]]  SI
+fT  [[Femtotesla|T]]  SI
+GT  [[Gigatesla|T]]  SI
+hT  [[Hectotesla|T]]  SI
+kT  [[Kilotesla|T]]  SI
+MT  [[Megatesla|T]]  SI
+mT  [[Millitesla|T]]  SI
+uT  [[Microtesla|T]]  SI
+µT  [[Microtesla|T]]  SI
+nT  [[Nanotesla|T]]  SI
+PT  [[Petatesla|T]]  SI
+pT  [[Picotesla|T]]  SI
+TT  [[Teratesla|T]]  SI
+yT  [[Yoctotesla|T]]  SI
+YT  [[Yottatesla|T]]  SI
+zT  [[Zeptotesla|T]]  SI
+ZT  [[Zettatesla|T]]  SI
+
+== Astrophysics ==
+au  [[Astronomical unit|au]]
+c  [[Speed of light|''c'']]
+ly  [[Light-year|ly]]
+Earth mass  [[Earth mass|''M''<sub>🜨</sub>]]
+Earth radius  [[Earth radius|''R''<sub>🜨</sub>]]
+M_Earth  [[Earth mass|''M''<sub>🜨</sub>]]
+R_Earth  [[Earth radius|''R''<sub>🜨</sub>]]
+M+  [[Earth mass|''M''<sub>🜨</sub>]]
+R+  [[Earth radius|''R''<sub>🜨</sub>]]
+Jupiter mass  [[Jupiter mass|''M''<sub>J</sub>]]
+Jupiter radius  [[Jupiter radius|''R''<sub>J</sub>]]
+Jy  [[Jansky|Jy]]
+M_Jupiter  [[Jupiter mass|''M''<sub>J</sub>]]
+R_Jupiter  [[Jupiter radius|''R''<sub>J</sub>]]
+Solar mass  [[Solar mass|''M''<sub>&#x2609;</sub>]]
+solar mass  [[Solar mass|''M''<sub>&#x2609;</sub>]]
+M_Solar  [[Solar mass|''M''<sub>&#x2609;</sub>]]
+M_solar  [[Solar mass|''M''<sub>&#x2609;</sub>]]
+R_Solar  [[Solar radius|''R''<sub>&#x2609;</sub>]]
+R_solar  [[Solar radius|''R''<sub>&#x2609;</sub>]]
+Solar radius  [[Solar radius|''R''<sub>&#x2609;</sub>]]
+solar radius  [[Solar radius|''R''<sub>&#x2609;</sub>]]
+Solar luminosity  [[Solar luminosity|''L''<sub>&#x2609;</sub>]]
+solar luminosity  [[Solar luminosity|''L''<sub>&#x2609;</sub>]]
+L_solar  [[Solar luminosity|''L''<sub>&#x2609;</sub>]]
+L_Solar  [[Solar luminosity|''L''<sub>&#x2609;</sub>]]
+Lo  [[Solar luminosity|''L''<sub>&#x2609;</sub>]]
+pc2  [[Parsec|pc<sup>2</sup>]]
+pc3  [[Parsec|pc<sup>3</sup>]]
+kpc2  [[Parsec#Parsecs and kiloparsecs|kpc<sup>2</sup>]]
+kpc3  [[Parsec#Parsecs and kiloparsecs|kpc<sup>3</sup>]]
+kpc  [[Parsec#Parsecs and kiloparsecs|kpc]]
+Mpc2  [[Parsec#Megaparsecs and gigaparsecs|Mpc<sup>2</sup>]]
+Mpc3  [[Parsec#Megaparsecs and gigaparsecs|Mpc<sup>3</sup>]]
+Mpc  [[Parsec#Megaparsecs and gigaparsecs|Mpc]]
+Gpc2  [[Parsec#Megaparsecs and gigaparsecs|Gpc<sup>2</sup>]]
+Gpc3  [[Parsec#Megaparsecs and gigaparsecs|Gpc<sup>3</sup>]]
+Gpc  [[Parsec#Megaparsecs and gigaparsecs|Gpc]]
+
+== Nuclear physics and chemistry ==
+cm-1  [[Wavenumber|cm<sup>−1</sup>]]
+u  [[Unified atomic mass unit|u]]
+osmol  [[Osmole (unit)|osmol]]
+Osm  [[Osmole (unit)|Osm]]
+M  [[Molarity|M]]
+TM  [[Molarity|M]]  SI
+GM  [[Molarity|M]]  SI
+MM  [[Molarity|M]]  SI
+kM  [[Molarity|M]]  SI
+hM  [[Molarity|M]]  SI
+daM  [[Molarity|M]]  SI
+dM  [[Molarity|M]]  SI
+cM  [[Molarity|M]]  SI
+mM  [[Molarity|M]]  SI
+uM  [[Molarity|M]]  1e-6
+nM  [[Molarity|M]]  SI
+pM  [[Molarity|M]]  SI
+kg.mol-1  [[Molar mass|kg&sdot;mol<sup>−1</sup>]]
+kg/mol  [[Molar mass|kg/mol]]
+g.mol-1  [[Molar mass|g&sdot;mol<sup>−1</sup>]]
+g/mol  [[Molar mass|g/mol]]
+eV/c2  [[Electronvolt#Mass|eV/''c''<sup>2</sup>]]
+keV/c2  [[Electronvolt#Mass|keV/''c''<sup>2</sup>]]
+MeV/c2  [[Electronvolt#Mass|MeV/''c''<sup>2</sup>]]
+GeV/c2  [[Electronvolt#Mass|GeV/''c''<sup>2</sup>]]
+TeV/c2  [[Electronvolt#Mass|TeV/''c''<sup>2</sup>]]
+eV  [[Electronvolt|eV]]
+meV  [[Electronvolt|meV]]
+keV  [[Electronvolt|keV]]
+MeV  [[Electronvolt|MeV]]
+GeV  [[Electronvolt|GeV]]
+TeV  [[Electronvolt|TeV]]
+mol-1  [[Avogadro constant|mol<sup>−1</sup>]]
+J.mol-1  [[Joule per mole|J&sdot;mol<sup>−1</sup>]]
+J/mol  [[Joule per mole|J/mol]]
+kJ.mol-1  [[Joule per mole|kJ&sdot;mol<sup>−1</sup>]]
+kJ/mol  [[Joule per mole|kJ/mol]]
+MJ.mol-1  [[Joule per mole|MJ&sdot;mol<sup>−1</sup>]]
+MJ/mol  [[Joule per mole|MJ/mol]]
+GJ.mol-1  [[Joule per mole|GJ&sdot;mol<sup>−1</sup>]]
+GJ/mol  [[Joule per mole|GJ/mol]]
+TJ.mol-1  [[Joule per mole|TJ&sdot;mol<sup>−1</sup>]]
+TJ/mol  [[Joule per mole|TJ/mol]]
+μB  [[Bohr magneton|''μ''<sub>B</sub>]]
+
+== Numbers and phrases ==
+pp  [[Page (paper)|pp]]
+ppb  [[Parts per billion|ppb]]  1e-9
+ppm  [[Parts per million|ppm]]  1e-6
+billiard  [[Orders of magnitude (numbers)#1015|billiard]]  1e15
+billion  [[1,000,000,000|billion]]  1e9
+billionth  [[1,000,000,000|billionth]]  1e-9
+billionths  [[1,000,000,000|billionths]]  1e-9
+decilliard  [[Orders of magnitude (numbers)#1063|decilliard]]  1e63
+decillion  [[Orders of magnitude (numbers)#1033|decillion]]  1e33
+decillionth  [[Orders of magnitude (numbers)#1033|decillionth]]  1e-33
+decillionths  [[Orders of magnitude (numbers)#1033|decillionths]]  1e-33
+milliard  [[1,000,000,000|milliard]]  1e9
+million  [[Million|million]]  1e6
+millionth  [[Million|millionth]]  1e-6
+millionths  [[Million|millionths]]  1e-6
+nonilliard  [[Orders of magnitude (numbers)#1057|nonilliard]]  1e57
+nonillion  [[Orders of magnitude (numbers)#1030|nonillion]]  1e30
+nonillionth  [[Orders of magnitude (numbers)#1030|nonillionth]]  1e-30
+nonillionths  [[Orders of magnitude (numbers)#1030|nonillionths]]  1e-30
+octilliard  [[Orders of magnitude (numbers)#1051|octilliard]]  1e51
+octillion  [[Orders of magnitude (numbers)#1027|octillion]]  1e27
+octillionth  [[Orders of magnitude (numbers)#1027|octillionth]]  1e-27
+octillionths  [[Orders of magnitude (numbers)#1027|octillionths]]  1e-27
+quadrilliard  [[Orders of magnitude (numbers)#1027|quadrilliard]]  1e27
+quadrillion  [[Orders of magnitude (numbers)#1015|quadrillion]]  1e15
+quadrillionth  [[Orders of magnitude (numbers)#1015|quadrillionth]]  1e-15
+quadrillionths  [[Orders of magnitude (numbers)#1015|quadrillionths]]  1e-15
+quintilliard  [[Orders of magnitude (numbers)#1033|quintilliard]]  1e33
+quintillion  [[Orders of magnitude (numbers)#1018|quintillion]]  1e18
+quintillionth  [[Orders of magnitude (numbers)#1018|quintillionth]]  1e-18
+quintillionths  [[Orders of magnitude (numbers)#1018|quintillionths]]  1e-18
+septilliard  [[Orders of magnitude (numbers)#1045|septilliard]]  1e45
+septillion  [[Orders of magnitude (numbers)#1024|septillion]]  1e24
+septillionth  [[Orders of magnitude (numbers)#1024|septillionth]]  1e-24
+septillionths  [[Orders of magnitude (numbers)#1024|septillionths]]  1e-24
+sextilliard  [[Orders of magnitude (numbers)#1039|sextilliard]]  1e39
+sextillion  [[Orders of magnitude (numbers)#1021|sextillion]]  1e21
+sextillionth  [[Orders of magnitude (numbers)#1021|sextillionth]]  1e-21
+sextillionths  [[Orders of magnitude (numbers)#1021|sextillionths]]  1e-21
+trilliard  [[Orders of magnitude (numbers)#1021|trilliard]]  1e21
+trillion  [[Orders of magnitude (numbers)#1012|trillion]]  1e12
+trillionth  [[Orders of magnitude (numbers)#1012|trillionth]]  1e-12
+trillionths  [[Orders of magnitude (numbers)#1012|trillionths]]  1e-12
+
+== Angles ==
+%                  %                                     Percent                                ANGLE   0.01
+percent            %                                     Percent                                ANGLE   0.01
+per cent           %                                     Percent                                ANGLE   0.01
+‰                  ‰                                     Per mil                                ANGLE   1e-3
+per mil            ‰                                     Per mil                                ANGLE   1e-3
+per mill           ‰                                     Per mil                                ANGLE   1e-3
+per mille          ‰                                     Per mil                                ANGLE   1e-3
+permil             ‰                                     Per mil                                ANGLE   1e-3
+permill            ‰                                     Per mil                                ANGLE   1e-3
+permille           ‰                                     Per mil                                ANGLE   1e-3
+°                  °                                     Degree (angle)                         ANGLE   pi/180
+deg                °                                     Degree (angle)                         ANGLE   pi/180
+degree             °                                     Degree (angle)                       NOSPACE   pi/180    -- for a degree symbol that does not repeat
+'                  ′                                     Minute of arc                          ANGLE   pi/10800
+′                  ′                                     Minute of arc                          ANGLE   pi/10800
+arcmin             ′                                     Minute of arc                          ANGLE   pi/10800
+arcminute          ′                                     Minute of arc                          ANGLE   pi/10800
+"                  ″                                     Second of arc                          ANGLE   pi/648000
+″                  ″                                     Second of arc                          ANGLE   pi/648000
+arcsec             ″                                     Second of arc                          ANGLE   pi/648000
+arcsecond          ″                                     Second of arc                          ANGLE   pi/648000
+mas  [[Milliarcsecond|mas]]  pi/648000000
+
+]=]
+
+-- If val has "|long scale=on" the following definitions are used
+-- (then, if not found here, the normal definitions are used).
+-- Unit code  [[Link|Symbol]]  Flags/Scale
+local builtin_units_long_scale = [=[
+
+== Long scale numbers and phrases ==
+billion  [[Orders of magnitude (numbers)#1012|billion]]  1e12
+billionth  [[Orders of magnitude (numbers)#1012|billionth]]  1e-12
+billionths  [[Orders of magnitude (numbers)#1012|billionths]]  1e-12
+decillion  [[Orders of magnitude (numbers)#1060|decillion]]  1e60
+decillionth  [[Orders of magnitude (numbers)#1060|decillionth]]  1e-60
+decillionths  [[Orders of magnitude (numbers)#1060|decillionths]]  1e-60
+nonillion  [[Orders of magnitude (numbers)#1054|nonillion]]  1e54
+nonillionth  [[Orders of magnitude (numbers)#1054|nonillionth]]  1e-54
+nonillionths  [[Orders of magnitude (numbers)#1054|nonillionths]]  1e-54
+octillion  [[Orders of magnitude (numbers)#1048|octillion]]  1e48
+octillionth  [[Orders of magnitude (numbers)#1048|octillionth]]  1e-48
+octillionths  [[Orders of magnitude (numbers)#1048|octillionths]]  1e-48
+quadrillion  [[Orders of magnitude (numbers)#1024|quadrillion]]  1e24
+quadrillionth  [[Orders of magnitude (numbers)#1024|quadrillionth]]  1e-24
+quadrillionths  [[Orders of magnitude (numbers)#1024|quadrillionths]]  1e-24
+quintillion  [[Orders of magnitude (numbers)#1030|quintillion]]  1e30
+quintillionth  [[Orders of magnitude (numbers)#1030|quintillionth]]  1e-30
+quintillionths  [[Orders of magnitude (numbers)#1030|quintillionths]]  1e-30
+septillion  [[Orders of magnitude (numbers)#1042|septillion]]  1e42
+septillionth  [[Orders of magnitude (numbers)#1042|septillionth]]  1e-42
+septillionths  [[Orders of magnitude (numbers)#1042|septillionths]]  1e-42
+sextillion  [[Orders of magnitude (numbers)#1036|sextillion]]  1e36
+sextillionth  [[Orders of magnitude (numbers)#1036|sextillionth]]  1e-36
+sextillionths  [[Orders of magnitude (numbers)#1036|sextillionths]]  1e-36
+trillion  [[Orders of magnitude (numbers)#1018|trillion]]  1e18
+trillionth  [[Orders of magnitude (numbers)#1018|trillionth]]  1e-18
+trillionths  [[Orders of magnitude (numbers)#1018|trillionths]]  1e-18
+
+]=]
+
+return { builtin_units = builtin_units, builtin_units_long_scale = builtin_units_long_scale }

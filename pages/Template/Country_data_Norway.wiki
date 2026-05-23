@@ -1,0 +1,43 @@
+{{safesubst<noinclude />: {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Norway
+| flag alias = Flag of Norway.svg
+| flag alias-old kingdom = Royal Standard of Norway.svg
+| flag alias-1814 = Flag of Norway (1814–1821).svg
+| flag alias-1818 = Swedish and Norwegian merchant flag 1818-1844.svg
+| flag alias-1844 = Norge-Unionsflagg-1844.svg
+| flag alias-state = Flag of Norway, state.svg
+| border-state =
+| flag alias-army = Flag of the Norwegian Army.svg
+| border-army =
+| link alias-army = Norwegian Army
+| flag alias-war = Flag of Norway, state.svg
+| link alias-war = Norwegian Armed Forces
+| border-war =
+| flag alias-naval = Naval Jack of Norway.svg
+| border-naval =
+| link alias-naval = Royal Norwegian Navy
+| flag alias-air force = Royal Norwegian Air Force Flag.svg
+| border-air force =
+| link alias-air force = Royal Norwegian Air Force
+| flag alias-navy = Flag of Norway, state.svg
+| border-navy =
+| link alias-navy = Royal Norwegian Navy
+| flag alias-coast guard = Norwegian Coast Guard Racing Stripe.svg
+| link alias-coast guard = Norwegian Coast Guard
+| border-coast guard =
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = old kingdom
+| var2 = 1814
+| var3 = 1818
+| var4 = 1844
+| var5 = state
+| var6 = war
+| redir1 = NOR
+| redir2 = Norge
+| related1 = Kalmar Union
+</noinclude>
+}}

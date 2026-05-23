@@ -1,0 +1,14 @@
+/* {{pp-template}} */
+.faqrow {
+	padding: 2px 0;
+	font-size: 95%;
+}
+.faqrow-title {
+	padding: 2px 35px 2px 2px;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+.faqrow-body {
+	margin: 2px 0 2px 15px;
+	padding: 2px;
+}

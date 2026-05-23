@@ -1,0 +1,15 @@
+{{Documentation subpage}}
+{{High-use}}
+
+==Usage==
+:Similar to {{tlf|Sandbox other}}:
+If the subpagename is <code>/testcases</code>, returns {{para|1}}, else {{para|2}}.
+
+==See also==
+{{Foo other see also}}
+{{Namespace and pagename-detecting templates}}
+
+<includeonly>{{sandbox other||
+[[Category:Pagename manipulation templates]]
+[[Category:If-then-else templates]]
+}}</includeonly>

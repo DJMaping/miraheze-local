@@ -1,0 +1,3 @@
+<onlyinclude>{{safesubst:<noinclude/>#ifeq:{{safesubst:<noinclude/>SUBPAGENAME}}|{{safesubst:<noinclude/>ROOTPAGENAME}}|{{{2|}}}|{{{1|}}}}}</onlyinclude><!--
+
+-->{{documentation}}

@@ -1,0 +1,92 @@
+/* {{pp|small=y}} */
+.ib-settlement {
+	border-collapse: collapse;
+	line-height: 1.2em;
+}
+
+@media (min-width: 640px) {
+	.ib-settlement {
+		width: 23em;
+	}
+}
+
+/* TODO split definitions to appropriate class names when live from HTML element */
+.ib-settlement td,
+.ib-settlement th {
+	border-top: 1px solid #a2a9b1;
+	padding: 0.4em 0.6em 0.4em 0.6em;
+}
+
+.ib-settlement .mergedtoprow .infobox-full-data,
+.ib-settlement .mergedtoprow .infobox-header,
+.ib-settlement .mergedtoprow .infobox-data,
+.ib-settlement .mergedtoprow .infobox-label,
+.ib-settlement .mergedtoprow .infobox-below {
+	border-top: 1px solid #a2a9b1;
+	padding: 0.4em 0.6em 0.2em 0.6em;
+}
+
+.ib-settlement .mergedrow .infobox-full-data,
+.ib-settlement .mergedrow .infobox-data,
+.ib-settlement .mergedrow .infobox-label {
+	border: 0;
+	padding: 0 0.6em 0.2em 0.6em;
+}
+
+.ib-settlement .mergedbottomrow .infobox-full-data,
+.ib-settlement .mergedbottomrow .infobox-data,
+.ib-settlement .mergedbottomrow .infobox-label {
+	border-top: 0;
+	border-bottom: 1px solid #a2a9b1;
+	padding: 0 0.6em 0.4em 0.6em;
+}
+
+.ib-settlement .maptable {
+	border: 0;
+	padding: 0;
+}
+
+.ib-settlement .infobox-header,
+.ib-settlement .infobox-below {
+	text-align: left;
+}
+
+.ib-settlement .infobox-above {
+	font-size: 125%;
+	line-height: 1.3em;
+}
+
+.ib-settlement .infobox-subheader {
+	background-color: #cddeff;
+	font-weight: bold;
+}
+
+.ib-settlement-native {
+	font-weight: normal;
+	padding-top: 0.2em;
+}
+
+.ib-settlement-other-name {
+	font-size: 78%;
+}
+
+.ib-settlement-official {
+	font-weight: bold;
+}
+
+.ib-settlement-caption {
+	padding: 0.3em 0 0 0;
+}
+
+.ib-settlement-caption-link {
+	padding: 0.2em 0;
+}
+
+.ib-settlement-nickname {
+	display: inline;
+}
+
+.ib-settlement-fn {
+	font-weight: normal;
+	display: inline;
+}

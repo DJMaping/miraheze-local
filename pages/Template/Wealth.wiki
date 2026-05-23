@@ -1,0 +1,146 @@
+{{Navbox
+|name = Wealth
+|title = High [[wealth]]
+|state = {{{state|autocollapse}}}
+|bodyclass = hlist
+
+|group1 = Concepts
+|list1 ={{Navbox|child
+   | evenodd = swap
+   | list1 =
+* [[Capital accumulation]]
+**[[Overaccumulation]]
+* [[Economic inequality]] 
+**[[Wealth distribution]]
+**[[Income distribution]]
+**[[Consumption distribution]]
+**[[History of economic inequality]]
+* [[International inequality]]
+* [[Elite]]
+* [[Oligarchy]]
+* [[Overclass]]
+* [[Plutocracy]]
+* [[Plutonomy]]
+* [[Broligarchy]]
+* [[Primitive accumulation of capital]]
+* [[Upper class]]
+**[[Nouveau riche|''Nouveau riche'' <wbr>(new money)]]
+**[[Old money|''Vieux riche'' <wbr>(old money)]]
+* [[Luxury goods]]
+**[[Veblen good]]s
+***[[Conspicuous consumption]]
+***[[Conspicuous leisure]]
+****[[Luxury beliefs]]
+
+   | group2 = People
+   | list2 =
+* [[Billionaire]]
+* [[Captain of industry]]
+* [[High-net-worth individual]]
+* [[Magnate]]
+**[[Business magnate|Business]]
+* [[Millionaire]]
+* [[Oligarchy|Oligarch]]
+**[[Business oligarch|Business]]
+**[[Russian oligarchs|Russian]]
+**[[Ukrainian oligarchs|Ukrainian]]
+* [[Robber baron (industrialist)|Robber baron]]
+
+   | group3 = [[Wealth]]
+   | list3 =
+* [[Wealth concentration|Concentration]]
+* [[Distribution of wealth|Distribution]]
+* [[Wealth effect|Effect]]
+* [[Geography and wealth|Geography]]
+* [[Inheritance]]
+** [[Dynastic wealth|Dynastic]]
+** [[Estate planning]]
+* [[Wealth management|Management]]
+* [[National wealth|National]]
+* [[Paper wealth|Paper]]
+* [[Wealth and religion|Religion]]
+* [[Wealth tax|Tax]]
+ }}
+
+|group2 = Lists
+|list2 ={{Navbox|child
+   | group1 = [[Lists of people by net worth|People]]
+   | list1 =
+* [[The World's Billionaires|''Forbes'' list of billionaires]]
+* [[List of centibillionaires]]
+* [[List of female billionaires|Female billionaires]]
+* [[List of royalty by net worth|Richest royals]]
+* [[List of richest Americans in history|Wealthiest Americans]]
+* [[List of wealthiest families|Wealthiest families]]
+
+   | group2 = Organizations
+   | list2 =
+* [[List of largest companies by revenue|Largest companies by revenue]]
+* [[List of largest corporate profits and losses|Largest corporate profits and losses]]
+* [[List of public corporations by market capitalization|Largest corporations by market capitalization]]
+* [[List of largest financial services companies by revenue|Largest financial services companies by revenue]]
+* [[List of largest manufacturing companies by revenue|Largest manufacturing companies by revenue]]
+* [[List of the largest software companies|Largest software companies by revenue]]
+* [[List of largest technology companies by revenue|Largest technology companies by revenue]]
+* [[List of wealthiest religious organizations|Religious organizations]]
+* [[List of wealthiest charitable foundations|Charities]]
+**[[List of philanthropists|Philanthropists]]
+* Universities
+**[[Lists of institutions of higher education by endowment size|Endowment size]]
+**[[List of universities by number of billionaire alumni|Number of billionaire alumni]]
+
+   | group3 = Other
+   | list3 =
+* [[List of cities by number of billionaires|Cities by number of billionaires]] 
+* [[List of countries by the number of billionaires|Countries by number of billionaires]]
+* [[List of countries by total wealth|Countries by total wealth]]
+* [[List of sovereign states by wealth inequality|Countries by wealth inequality]]
+* [[Wealth inequality in the United States]]
+* [[Income inequality in the United States]]
+* [[Lists of most expensive items by category |Most expensive items]]
+**[[:Category:Lists of most expensive things|by category]]
+* [[List of wealthiest animals|Wealthiest animals]]
+}}
+
+|group3 = Related
+|list3 ={{Navbox|child
+   | evenodd = swap
+   | list1 =
+* [[Diseases of affluence]]
+**[[Affluenza]]
+**[[Narcissism#Celebrity narcissism|Acquired situational narcissism]]
+* ''[[Argumentum ad crumenam]]''
+* [[Prosperity theology]]
+
+   | group2 = [[Philanthropy]]
+   | list2 =
+* [[The Gospel of Wealth|Gospel of Wealth]]
+* [[The Giving Pledge]]
+* [[Philanthrocapitalism]]
+* [[Venture philanthropy]]
+
+   | group3 = Sayings
+   | list3 =
+* [[The rich get richer and the poor get poorer]]
+* [[Socialism for the rich and capitalism for the poor]]
+* [[Too big to fail]]
+
+   | group4 = Media
+   | list4 =
+* ''[[Das Kapital]]''
+* [[Plutus (play)|''Plutus'']]
+**[[Plutus|Greek god of wealth]]
+* [[Superclass (book)|''Superclass'']]
+**[[The Superclass List|List]]
+* ''[[The Theory of the Leisure Class]]''
+* [[Wealth (film)|''Wealth'']]
+* ''[[The Wealth of Nations]]''
+}}
+
+| below = 
+*[[:Category:Wealth|Category]]
+**[[:Category:Wealth by country|by country]]
+
+}}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,19 @@
+<includeonly><!--
+-->{{#switch:<!--
+-->|{{{1|}}}|{{{2|}}} = {{Error|Two pages are needed to compare.}}<!--
+-->|#default = <!--
+    -->{{Plain link<!--
+    -->|url = {{fullurl:Special:ComparePages|<!--
+        -->{{#iferror:{{#expr:{{{1|}}} + 1}}<!--
+        -->|page1={{urlencode:{{{1}}}}}<!--
+        -->|rev1={{{1}}}<!--
+        -->}}&<!--
+        -->{{#iferror:{{#expr:{{{2|}}} + 1}}<!--
+        -->|page2={{urlencode:{{{2}}}}}<!--
+        -->|rev2={{{2}}}<!--
+        -->}}}}<!--
+    -->|name = {{{label|{{{3|compare {{{label1|{{{1}}}}}} to {{{label2|{{{2}}}}}}}}}}}}<!--
+    -->}}<!--
+-->}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

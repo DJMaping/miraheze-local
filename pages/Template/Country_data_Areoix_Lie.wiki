@@ -1,0 +1,18 @@
+{{safesubst<noinclude />: {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Areoix Lie
+| flag alias = Areoix Lie Flag.png
+| border-navy =
+| border-army=
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+</noinclude>
+}}
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

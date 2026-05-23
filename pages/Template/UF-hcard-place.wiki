@@ -1,0 +1,26 @@
+The HTML mark up produced by this template includes an [[HCard|hCard microformat]], which makes the place-name and location [[Parsing|parsable]] by computers, either acting automatically to catalogue article across Wikipedia, or via a browser tool operated by a person, to (for example) add the subject to an address book. For more information about the use of [[microformat]]s on Wikipedia, please see [[WP:UF|the microformat project]].
+
+If the place or venue has an "established", "founded", "opened" or similar date that is specific to the day, use {{tl|start date}} [[Wikipedia:WikiProject Microformats/dates|unless the date is before 1583 CE]]. If it has a URL, use {{tl|URL}}.
+
+hCard uses HTML classes including:
+{{flatlist |
+* adr
+* category
+* country-name
+* extended-address
+* fn
+* label
+* locality
+* nickname
+* note
+* org
+* street-address
+* url
+* vcard
+}}
+
+'''Please do not rename or remove these classes nor collapse nested elements which use them.'''<includeonly>{{sandbox other||[[Category:Templates generating hCards]]}}</includeonly><noinclude>
+
+[[Category:Templates generating hCards]]
+[[Category:Microformat (uF) message templates]]
+</noinclude>

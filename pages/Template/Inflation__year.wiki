@@ -1,0 +1,61 @@
+<includeonly>{{#switch:{{{index|{{{1|ERR}}}}}}
+<!-- *** When changing this, also update the reference in [[Template:Inflation/fn]] and the datasets for [[Template:Inflation]]! *** -->
+| AR = 2020
+| AT = 2018
+| AU = 2022
+| AU-road  = 2018
+| BD = 2024
+| BE = 2020
+| BR = 2020
+| CA = 2023
+| CH = 2021 
+| CL = 2024
+| CN = 2023
+| DE = 2021
+| DK = 2022
+| EG = 2018
+| ES = 2022
+| EU = 2023
+| FI = 2023
+| FR = 2022
+| GR = 2007
+| HK = 2020
+| ID = 2007
+| IL = 2021
+| IN = 2023
+| IR = 1398
+| IS = 2020
+| IT = 2020
+| JP = 2019
+| KRW = 2017
+| MX = 2007
+| NL = 2024
+| NO = 2017
+| NZ = 2024
+| PE = 2017
+| PH = 2021
+| PK = 2021
+| PL = 2021
+| PT = 2007
+| RU = 2023
+| SE = 2023
+| SG = 2022
+| TEST = 2012
+| TH = 2020
+| TR = 2024
+| TW = 2021
+| UK|GBP = 2023
+| UKGDP
+| UK-GDP
+| UK-CAP = 2023
+| US|USD = 2024
+| USGDP
+| US-GDP
+| US-CAP = 2024
+| VN = 2022
+| ZAR = 2018
+| ERR = <span class="error">Error: no index specified when using {{tl|Inflation/year}}.{{main other|[[Category:Pages with errors in inflation template]]}}</span>
+|#default  = <span class="error">Error: undefined index "{{{index|{{{1}}}}}}" when using {{tl|Inflation/year}}.{{main other|[[Category:Pages with errors in inflation template]]}}</span>
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

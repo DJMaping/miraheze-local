@@ -1,0 +1,22 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Tanzania
+| flag alias = Flag of Tanzania.svg
+| flag alias-1964 = Flag of Tanzania (WFB 2000).png 
+| flag alias-2004 = Flag of Tanzania (2004 World Factbook).gif
+| link alias-army = Tanzanian Army
+| link alias-naval = Tanzania Naval Command
+| link alias-navy = Tanzania Naval Command
+| size = {{{size|}}}
+| variant = {{{variant|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = 1964
+| var2 = 2004
+| redir1 = TZA
+| redir2 = TAN
+| redir3 = United Republic of Tanzania
+| related1 = Tanganyika
+| related2 = Zanzibar
+</noinclude>
+}}

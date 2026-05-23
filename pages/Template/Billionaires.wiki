@@ -1,0 +1,117 @@
+{{Navbox
+|name  = Billionaires
+|title = [[Billionaire]]s
+|state = {{{state|autocollapse}}}
+|listclass = hlist
+
+|group1 = By citizenship
+|list1  =
+* [[List of Argentines by net worth|Argentina]]
+* [[List of Austrians by net worth|Austria]]
+* [[List of Belgians by net worth|Belgium]]
+* [[List of Brazilians by net worth|Brazil]]
+* [[List of Canadians by net worth|Canada]]
+* [[List of Chileans by net worth|Chile]]
+* [[List of Chinese by net worth|China (PRC)]]
+* [[List of Colombian people by net worth|Colombia]]
+* [[List of Cypriot billionaires by net worth|Cyprus]]
+* [[List of Czechs by net worth|Czech Republic]]
+* [[List of Danes by net worth|Denmark]]
+* [[List of Egyptians by net worth|Egypt]]
+* [[List of French billionaires by net worth|France]]
+* [[List of Germans by net worth|Germany]]
+* [[List of Greeks by net worth|Greece]]
+* [[List of Hong Kong people by net worth|Hong Kong]]
+* [[List of Indians by net worth|India]]
+* [[List of Indonesians by net worth|Indonesia]]
+* [[List of Irish billionaires by net worth|Ireland]]
+* [[List of Israelis by net worth|Israel]]
+* [[List of Italians by net worth|Italy]]
+* [[List of Japanese by net worth|Japan]]
+* [[List of Kenyans by net worth|Kenya]]
+* [[List of Lebanese by net worth|Lebanon]]
+* [[List of Malaysians by net worth|Malaysia]]
+* [[List of Mexican billionaires by net worth|Mexico]]
+* [[List of Monegasque people by net worth|Monaco]]
+* [[List of Dutch by net worth|Netherlands]]
+* [[List of New Zealanders by net worth|New Zealand]]
+* [[List of Norwegians by net worth|Norway]]
+* [[List of Pakistanis by net worth|Pakistan]]
+* [[List of Peruvian billionaires by net worth|Peru]]
+* [[List of Poles by net worth|Poland]]
+* [[List of Portuguese by net worth|Portugal]]
+* [[List of Romanians by net worth|Romania]]
+* [[List of Russian billionaires|Russia]]
+* [[List of Saudis by net worth|Saudi Arabia]]
+* [[List of Singaporeans by net worth|Singapore]]
+* [[List of South Africans by net worth|South Africa]]
+* [[List of South Korean billionaires by net worth|South Korea]]
+* [[List of Spanish billionaires by net worth|Spain]]
+* [[List of Swedish billionaires by net worth|Sweden]]
+* [[List of Swiss people by net worth|Switzerland]]
+* [[List of Taiwanese people by net worth|Taiwan]]
+* [[List of Thais by net worth|Thailand]]
+* [[List of Turkish people by net worth|Turkey]]
+* [[List of Ukrainians by net worth|Ukraine]]
+* [[List of Emiratis by net worth|United Arab Emirates]]
+* [[List of British billionaires by net worth|United Kingdom]]
+* [[List of wealthiest Americans by net worth|United States]]
+* [[List of Vietnamese people by net worth|Vietnam]]
+
+|group2 = By region
+|list2  =
+* [[List of countries by number of billionaires|World]]
+* [[List of Arabs by net worth|Arab League]]
+* [[List of South Asian people by net worth|South Asia]]
+* [[List of Southeast Asian people by net worth|Southeast Asia]]
+* [[List of Africans by net worth|Africa]]
+* [[List of Europeans by net worth|Europe]]
+* [[List of Latin Americans by net worth|Latin America]]
+
+|group3 = ''[[Forbes]]'' lists
+|list3  =
+* [[The World's Billionaires]]
+** [[The World's Billionaires 2010|2010]]
+** [[The World's Billionaires 2011|2011]]
+** [[The World's Billionaires 2012|2012]]
+** [[The World's Billionaires 2013|2013]]
+** [[The World's Billionaires 2014|2014]]
+** [[The World's Billionaires 2015|2015]]
+** [[The World's Billionaires#2016|2016]]
+** [[The World's Billionaires#2017|2017]]
+** [[The World's Billionaires#2018|2018]]
+** [[The World's Billionaires#2019|2019]]
+** [[The World's Billionaires#2020|2020]]
+** [[The World's Billionaires#2021|2021]]
+** [[The World's Billionaires#2022|2022]]
+** [[The World's Billionaires#2023|2023]]
+** [[The World's Billionaires#2024|2024]]
+** [[The World's Billionaires#2025|2025]]
+* [[Forbes 400|''Forbes'' 400]]
+
+|group7 = Lists
+|list7  =
+* [[Black billionaires|Black]]
+* [[Bloomberg Billionaires Index]]
+* [[Financial Review Rich List|''Financial Review'' Rich List]] (Australia)
+* [[Sunday Times Rich List|''Sunday Times'' Rich List]] (UK)
+* [[Forbes Fictional 15|''Forbes'' Fictional 15]]
+* [[LGBT billionaires|LGBT]]
+* [[List of female billionaires|Women]]
+* [[List of billionaire spacetravellers|Spacetravellers]]
+* [[List of universities by number of billionaire alumni|By alumni]]
+
+|group8 = Other
+|list8  =
+* [[Billionaire space race]]
+
+}}<noinclude>
+{{collapsible option}}
+
+==See also==
+* {{tl|Lists of people by net worth}}
+* {{tl|Wealth}}
+[[Category:Business and finance navigational boxes]]
+[[Category:List templates by topic]]
+[[Category:People and person navigational boxes]]
+</noinclude>

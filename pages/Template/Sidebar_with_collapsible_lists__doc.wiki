@@ -1,0 +1,110 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{High-use| 64996 }}
+{{Template display|nomobile}}
+{{Lua|Module:Sidebar}}
+
+{{tl|Sidebar with collapsible lists}} is a version of {{tl|Sidebar}} which offers [[Help:Collapsing|collapsible]] lists in addition to Sidebar's ''content'' parameters.
+
+== Usage ==
+{{Generic template demo
+ |name={{PAGENAME}} |pretitle |title |image |above |heading1 |list1title |list1 |list2title |list2
+ |heading3={{{heading{{italics correction|''N''}}}}} |list3title={{{list{{italics correction|''N''}}title}}} |list3={{{list{{italics correction|''N''}}}}} |content4={{{content{{italics correction|''N''}}}}}
+ |below
+}}
+Parameters with infrequent use omitted.
+
+<syntaxhighlight lang="wikitext">
+{{Sidebar with collapsible lists
+| name     = {{subst:PAGENAME}}
+| pretitle = 
+| title    = 
+| image    = 
+| templatestyles = 
+| expanded = {{{expanded|}}}
+
+| heading1   = 
+| list1name  = 
+| list1title = 
+| list1      = 
+
+| heading2   = 
+| list2name  = 
+| list2title = 
+| list2      = 
+
+<!-- ...... -->
+
+| headingN =         <!-- Template:Sidebar's "headingN" and/or "contentN" parameters (where -->
+| contentN =         <!-- N is a number) may be used to include uncollapsible lists/content -->
+
+<!-- ...... -->
+
+| below = 
+
+}}
+</syntaxhighlight>
+
+== Parameters ==
+{{further|Template:Sidebar#Parameters}}
+This template takes all {{tl|sidebar}} parameters. In addition:
+; {{para|list<sub>n</sub>title}}
+: The displayed title of the collapsible list<sub>n</sub>.
+; {{para|list<sub>n</sub>}}
+: The contents of the collapsible list<sub>n</sub>.
+; {{para|list<sub>n</sub>class}}
+: A class can be added to target a specific list either with TemplateStyles or microformats. See {{Section link|Template:Sidebar#Classes}}.
+: In the context of TemplateStyles, specific list contents can be targeted like so: <code>.templateclass .listnclass .sidebar-list-title</code> for a specific list title and <code>.templateclass .listnclass .sidebar-list</code> for a specific list.
+; {{para|expanded}} {{nobold|and}} {{para|list<sub>n</sub>name}}
+: {{para|expanded}} is used to indicate which (if any) list named {{para|list<sub>n</sub>name}} is shown expanded when the template is first displayed; see {{tl|Collapsible lists option}}.
+; {{para|centered list titles}}
+: Set to anything (though {{para|centered list titles|y}} or {{para|centered list titles|yes}} are idiomatic) to make the sidebar list titles centered. This works around some not-great behavior in how centered text interacts with the collapsible toggle.
+
+{{Sidebar with collapsible lists |list1={{{list1}}} without {{{list1title}}} |navbar=off}}
+A {{para|list<sub>n</sub>}} without a {{para|list<sub>n</sub>title}} displays the default title ("List").
+
+== Handling long links ==
+{{further|Template:Sidebar#Handling long links}}
+
+See {{Section link|Template:Sidebar#Handling long links}}.
+
+== TemplateStyles ==
+The classes available for styling, besides those listed in {{Section link|Template:Sidebar#TemplateStyles}}, are:
+
+; <code>.sidebar-collapse</code>
+: The top-level {{tl|sidebar with collapsible lists}} class.
+; <code>.sidebar-list</code>
+: The class is a container when either {{para|list<sub>n</sub>title}} or {{para|list<sub>n</sub>}} is provided in {{tl|sidebar with collapsible lists}}.
+; <code>.sidebar-list-title</code>
+: The class associated with a {{para|list<sub>n</sub>title}}. Every list title will have this class. Use the {{para|centered list titles}} to center text instead of adding CSS here.
+; <code>.sidebar-list-content</code>
+: The class associated with a {{para|list<sub>n</sub>}}. Every list content will have this class.
+
+== Deprecated parameters ==
+{{further|Template:Sidebar#Deprecated parameters}}
+These parameters are deprecated for the same reason as the style parameters in {{t|Sidebar}} template.
+; ''listtitlestyle'' {{nobold|and}} ''liststyle''
+: These are the equivalent of, respectively, {{tl|Collapsible list}}'s ''titlestyle'' and ''liststyle'' parameters.
+; ''listframestyle''
+: Sets the framestyle (see {{tl|Collapsible list}}) for the lists.
+; ''listNframestyle''
+: Sets the framestyle for ''listN'', overriding ''listframestyle''.
+; ''listNtitlestyle''
+: Sets the titlestyle for ''listN'', overriding ''listtitlestyle'' above.
+; ''listNstyle''
+: Sets the liststyle for ''listN'', overriding ''liststyle'' above.
+
+== See also ==
+* {{diff|Template:Sidebar with collapsible lists|next|544062416|Last pre-Lua version}}
+* {{tl|Collapsible list}}
+* {{tl|Collapsible lists option}}
+* {{tl|Navbox with collapsible groups}}
+* {{tl|Sidebar}}
+* [[Wikipedia:UBLIST]], for help in using unbulleted lists in fields.
+
+<includeonly>{{#ifeq:{{PAGENAME}}|Sidebar with collapsible lists|
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Sidebar metatemplates]]
+[[Category:Collapse templates]]
+
+}}</includeonly>

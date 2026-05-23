@@ -1,0 +1,4 @@
+<templatestyles src="Percentage bar/styles.css"/><div class="percentage-bar" style="{{#if:{{{border-width|}}}{{{border-color|}}}|border: {{{border-width|1px}}} solid {{{border-color|#aaa}}};}} {{#if:{{{background-color|}}}|background-color: {{{background-color}}};color:inherit;}} {{#if:{{{width|}}}|width: {{digits|{{{width|100}}}}}{{#if:{{str endswith|{{{width}}}|%}}|%|px}};}}"><div class="percentage-bar-fill" style="{{#if:{{{c|{{{hex|{{{3|}}}}}}}}}|background-color:{{{c|#{{{hex|{{{3}}}}}}}}};color:inherit;}} {{#if:{{{1|}}}|width: {{#expr:floor({{#invoke:String|replace|source={{{1}}}|pattern=[a-zA-Z]+|plain=false}})}}%;}}"></div><div class="percentage-bar-text" style="{{#if:{{{weight|}}}|font-weight: {{{weight}}};}} {{#if:{{{align|}}}|text-align: {{{align}}};}} {{#if:{{{color|}}}|color: {{{color}}};}}">{{{2|{{formatnum:{{{1|50}}}}}%}}}</div></div><noinclude>
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>

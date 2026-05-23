@@ -1,0 +1,6 @@
+<div style="<!--
+ -->{{#if:{{{colwidth|}}}| column-width: {{{colwidth}}}; }}<!--
+ -->{{#if:{{{1|}}}| column-count: {{{1}}}; column-width: {{{colwidth|30em}}};}}<!--
+-->"><ol class="references" style="list-style-type:{{{liststyle|upper-alpha}}};"><noinclude></ol></div>
+{{Documentation}}<!-- Please add documentation and categories to the /doc subpage, interwikis to Wikidata, thank you -->
+</noinclude>

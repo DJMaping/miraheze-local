@@ -1,0 +1,7 @@
+<includeonly>{{#invoke:Footnotes|harvard_citation
+|bracket_year_left = (
+|bracket_year_right = )
+|template=harvp
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

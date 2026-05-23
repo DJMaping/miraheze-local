@@ -1,0 +1,7 @@
+#REDIRECT [[Template:High-use]]
+
+{{Rcat shell|
+{{R with Wikidata item}}
+{{R from merge}}
+{{R from template shortcut}}
+}}

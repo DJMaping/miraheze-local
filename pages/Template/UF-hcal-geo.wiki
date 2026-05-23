@@ -1,0 +1,31 @@
+The HTML markup produced by this template includes an [[hCalendar|hCalendar microformat]], which makes the event details [[parsing|parsable]] by computers, either acting automatically to catalogue article across Wikipedia, or via a browser tool operated by a person, to (for example) add the subject to a calendar or diary application. Within the hCalendar is a [[Geo (microformat)|Geo microformat]], which additionally makes the [[geographic coordinate system|coordinates]] (latitude & longitude) parsable, so that they can be, say, looked up on a map, or downloaded to a [[Global Positioning System|GPS]] unit. For more information about the use of [[microformat]]s on Wikipedia, please see [[Wikipedia:WikiProject Microformats|the microformat project]].
+
+Dates will only be included if you use {{tl|Start date}} or {{tl|End date}} (use the former for single dates, [[Wikipedia:WikiProject Microformats/dates|but do not use any of these if the date is before 1583 CE]]). {{tl|End date}} requires that a time be specified, but display of this time may be suppressed by adding {{para|nodate|yes}} to the end.
+
+To include a URL, use {{tl|URL}}.
+
+hCalendar uses HTML classes including:
+
+{{Flatlist|indent=1|
+*attendee
+*dtend
+*dtstart
+*location
+*summary
+*url
+*vevent
+}}
+
+Geo is produced by calling {{tl|coord}}, and uses HTML classes:
+
+{{Flatlist|indent=1|
+*geo
+*latitude
+*longitude
+}}
+
+'''Please do not rename or remove these classes nor collapse nested elements which use them.'''<br/>Also, when giving coordinates, please don't be [[wikipedia:WikiProject Geographical coordinates#Precision|overly precise]].
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|doc | |{{#ifeq:{{SUBPAGENAME}}|sandbox | |[[Category:Templates generating hCalendars and Geo|{{PAGENAME}}]]}} }}</includeonly><noinclude>
+
+[[Category:Microformat message templates]]
+</noinclude>

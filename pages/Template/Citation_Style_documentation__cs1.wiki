@@ -1,0 +1,72 @@
+{{Infobox
+|bodystyle   = 
+|name        = Citation Style documentation/cs1
+|title       = {{cs1}} templates 
+|titlestyle  = 
+|headerstyle = 
+|labelstyle  = width:50%; font-size:85%
+|label10  = {{tl|Cite arXiv}}
+|data10   = [[arXiv]] preprints
+|label20  = {{tl|Cite AV media}}
+|data20   = audio and visual media
+|label30  = {{tl|Cite AV media notes}}
+|data30   = AV media liner notes
+|label40  = {{tl|Cite bioRxiv}}
+|data40   = [[bioRxiv]] preprints
+|label50  = {{tl|Cite book}}
+|data50   = books and chapters
+|label60  = {{tl|Cite CiteSeerX}}
+|data60   = [[CiteSeerX]] papers
+|label70  = {{tl|Cite conference}}
+|data70   = conference papers
+|label75  = {{tl|Cite document}}
+|data75   = short, stand-alone, offline documents
+|label80  = {{tl|Cite encyclopedia}}
+|data80   = edited collections
+|label90  = {{tl|Cite episode}}
+|data90   = radio or TV episodes
+|label100 = {{tl|Cite interview}}
+|data100  = interviews
+|label110 = {{tl|Cite journal}}
+|data110  = academic journals
+|label120 = {{tl|Cite magazine}}
+|data120  = magazines, periodicals
+|label130 = {{tl|Cite mailing list}}
+|data130  = public mailing lists
+|label140 = {{tl|Cite map}}
+|data140  = maps
+|label145 = {{tl|Cite medRxiv}}
+|data145  = [[medRxiv]] preprints
+|label150 = {{tl|Cite news}}
+|data150  = news articles
+|label160 = {{tl|Cite newsgroup}}
+|data160  = online newsgroups
+|label170 = {{tl|Cite podcast}}
+|data170  = podcasts
+|label180 = {{tl|Cite press release}}
+|data180  = press releases
+|label190 = {{tl|Cite report}}
+|data190  = reports
+|label200 = {{tl|Cite serial}}
+|data200  = audio or video serials
+|label210 = {{tl|Cite sign}}
+|data210  = signs, plaques
+|label220 = {{tl|Cite speech}}
+|data220  = speeches
+|label230 = {{tl|Cite SSRN}}
+|data230  = [[Social Science Research Network|SSRN]] papers
+|label240 = {{tl|Cite tech report}}
+|data240  = technical reports
+|label250 = {{tl|Cite thesis}}
+|data250  = theses
+|label260 = {{tl|Cite web}}
+|data260  = web sources not covered by the above
+|label270 = See also
+|data270  = 
+{{nowrap|''[[:Category:Specific-source templates|Specific-source templates]]''}}<br />
+''[[:Category:Citation templates that wrap CS1 templates|Citation Style 1 wrapper templates]]''
+}}<noinclude>{{documentation|content=
+
+== See also ==
+* {{tl|Citation Style 1}}
+}}</noinclude>

@@ -1,0 +1,80 @@
+{{Module rating |beta }}
+{{high use}}
+{{lua|Module:Flagg|Module:Country alias|Module:Check for unknown parameters}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+Lua-native alternative to popular flag templates. Can be used to reduce [[WP:PEIS|post-expand include size]] of pages with lots of templates, since it avoids calling multilevel templates.
+
+== Usage ==
+====Generic flag templates====
+* {{tl|flag}} → &#123;&#123;[[Module:flag|#invoke:flag]]|&#125;&#125;
+* {{tl|flag country}} → {{ml|flag|country}}
+* {{tl|flag decoration}} (or {{tl|flagdeco}}) → {{ml|flag|decoration}} (or {{ml|flag|deco}})
+* {{tl|flag icon}} → {{ml|flag|icon}}
+* {{tl|flag link}} → {{ml|flag|link}}
+* {{tl|flag+link}} → {{ml|flag|+link}}
+
+====Sports flag templates====
+* {{tl|flag athlete}} → {{ml|flag|athlete}}
+* {{tl|flag medalist}} → {{ml|flag|medalist}}
+* {{tl|flag team}} → {{ml|flag|team}}
+* {{tl|flag IOC}} → {{ml|flag|IOC}}
+* {{tl|flag IOC 2}} → {{ml|flag|IOC 2}}
+* {{tl|flag IOC athlete}} → {{ml|flag|IOC athlete}}
+* {{tl|fb}} → {{ml|flag|fb}}
+* {{tl|fba}} → {{ml|flag|fba}}
+* {{tl|fb-rt}} → {{ml|flag|fb-rt}}
+* {{tl|fbicon}} → {{ml|flag|fbicon}}
+* {{tl|fbaicon}} → {{ml|flag|fbaicon}}
+* {{tl|ru}} → {{ml|flag|ru}}
+
+== Examples ==
+{| {{table}}
+! colspan=3| Template !! colspan=3| Module
+|-
+! Code !! Output !! [[WP:PEIS|PEIS]] !! Code !! Output !! [[WP:PEIS|PEIS]]
+|-
+| {{tlx|flag|CHN}} || {{flag|CHN}} || 443b || {{mlx|flag|<nowiki>|</nowiki>CHN}} || {{#invoke:flag||CHN}} || 128b
+|-
+| {{tlx|flag country|CHN}} || {{flag country|CHN}} || 577b || {{mlx|flag|country|CHN}} || {{#invoke:flag|country|CHN}} || 128b
+|-
+| {{tlx|flag decoration|CHN}}/{{tlx|flag deco|CHN}} || {{flag deco|CHN}} || 452b || {{mlx|flag|decoration|CHN}}/{{mlx|flag|deco|CHN}} || {{#invoke:flag|deco|CHN}} || 107b
+|-
+| {{tlx|flag icon|CHN}} || {{flag icon|CHN}} || 548b || {{mlx|flag|icon|CHN}} || {{#invoke:flag|icon|CHN}} || 117b
+|-
+| {{tlx|flag link|CHN|at the 2004 Summer Olympics}} || {{flag link|CHN|at the 2004 Summer Olympics}} || 497b || {{mlx|flag|link|CHN|at the 2004 Summer Olympics}} || {{#invoke:flag|link|CHN|at the 2004 Summer Olympics}} || 198b
+|-
+| {{tlx|flag+link|History of|CHN}} || {{flag+link|History of|CHN}} || 663b || {{mlx|flag|+link|History of|CHN}} || {{#invoke:flag|+link|History of|CHN}} || 139b
+|-
+| {{tlx|flag team|GBR}} || {{flag team|GBR}} || 804b || {{mlx|flag|team|GBR}} || {{#invoke:flag|team|GBR}} || 193b
+|-
+| {{tlx|flag athlete|[[Andy Murray]]|GBR}} || {{flag athlete|[[Andy Murray]]|GBR}} || 617b || {{mlx|flag|athlete|[[Andy Murray]]|GBR}} || {{#invoke:flag|athlete|[[Andy Murray]]|GBR}} || 210b
+|-
+| {{tlx|flag medalist|[[Andy Murray]]|GBR}} || {{flag medalist|[[Andy Murray]]|GBR}} || 469b || {{mlx|flag|medalist|[[Andy Murray]]|GBR}} || {{#invoke:flag|medalist|[[Andy Murray]]|GBR}} || 129b
+|-
+| {{tlx|flag IOC|CAN|1924 Winter|1}} || {{flag IOC|CAN|1924 Winter|1}} || 326b || {{mlx|flag|IOC|CAN|1924 Winter|1}} || {{#invoke:flag|IOC|CAN|1924 Winter|1}} || 163b
+|-
+| {{tlx|flag IOC 2|HKG|1954 Asian Games|1}} || {{flag IOC 2|HKG|1954 Asian Games|1}} || 368b || {{mlx|flag|IOC 2|HKG|1954 Asian Games|1}} || {{#invoke:flag|IOC 2|HKG|1954 Asian Games|1}} || 184b
+|-
+| {{tlx|flag IOC athlete|[[Mark Spitz]]|USA|1972 Summer }} || {{flag IOC athlete|[[Mark Spitz]]|USA|1972 Summer }} || 346b || {{mlx|flag|IOC athlete|[[Mark Spitz]]|USA|1972 Summer }} || {{#invoke:flag|IOC athlete|[[Mark Spitz]]|USA|1972 Summer }} || 178b
+|-
+| {{tlx|fb|CHN}} || {{fb|CHN}} || 560b || {{mlx|flag|fb|CHN}} || {{#invoke:flag|fb|CHN}} || 151b
+|-
+| {{tlx|fb-rt|CHN}} || {{fb-rt|CHN}} || 482b || {{mlx|flag|fb-rt|CHN}} || {{#invoke:flag|fb-rt|CHN}} || 151b
+|-
+| {{tlx|fbicon|CHN}} || {{fbicon|CHN}} || 444b || {{mlx|flag|fbicon|CHN}} || {{#invoke:flag|fbicon|CHN}} || 163b
+|-
+| {{tlx|fba|CHN}} || {{fba|CHN}} || 625b || {{mlx|flag|fba|CHN}} || {{#invoke:flag|fba|CHN}} || 149b
+|-
+| {{tlx|fbaicon|CHN}} || {{fbaicon|CHN}} || 500b || {{mlx|flag|fbaicon|CHN}} || {{#invoke:flag|fbaicon|CHN}} || 159b
+|-
+| {{tlx|ru|CHN}} || {{ru|CHN}} || 646b || {{mlx|flag|ru|CHN}} || {{#invoke:flag|ru|CHN}} || 210b
+|}
+
+== Caveats ==
+When used inside a template, parameters from that template are passed to the module. This can be useful in some situations, but can lead to conflicts (for example, if the parent template has a parameter {{para|country}} that is unrelated to the flag it is supposed to display). To prevent this behavior, add the {{para|frameonly}} parameter to the module call, e.g. {{mlx|1=flag|2=deco|3=CHN|4=frameonly=true}}.
+
+<includeonly>{{Sandbox other||
+[[Category:Flag template system]]
+}}</includeonly><noinclude>
+[[Category:Module documentation pages]]
+</noinclude>

@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Azerbaijan
+| flag alias = Flag of Azerbaijan.svg
+| flag alias-1918 = Flag of Azerbaijan 1918.svg
+| flag alias-1991 = Flag of Azerbaijan (1991–2013).svg
+| flag alias-naval = Naval Flag of Azerbaijan.svg
+| link alias-naval = Azerbaijani Navy
+| flag alias-army = Flag of Azerbaijani Land Forces.svg
+| link alias-army = Azerbaijani Land Forces
+| flag alias-air force = AzAF Flag of Azerbaijan.png
+| link alias-air force = Azerbaijani Air Force
+| flag alias-navy = Naval Flag of Azerbaijan.svg
+| link alias-navy = Azerbaijani Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1918
+| var2 = 1991
+| redir1 = AZE
+| related1 = Azerbaijan SSR
+</noinclude>
+}}

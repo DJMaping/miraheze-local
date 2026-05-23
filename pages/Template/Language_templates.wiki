@@ -1,0 +1,36 @@
+{{helpbox
+ | name       = Language templates
+ | class      = plainlist 
+ | title      = Language templates
+ 
+| group1     = Language names ([[ISO 639]])
+| list1     = 
+* {{tl|ISO 639 name}}
+
+| group2     = Interwiki links
+| list2     =
+* {{tl|Wikt-lang}}
+* [[Module:Wikt-lang]]
+* [[Module:Wikt-lang/data]]
+* {{tl|Interlanguage link}}
+* {{Tl|Interwiki link}}
+
+| group5     = Foreign-language text
+| list5     =
+* {{tl|Lang}}
+* {{tl|Langx}}
+* [[Module:Lang]]
+* {{tl|Langlink}}
+* {{tl|Transliteration}}
+* {{tl|Title language}}
+
+| group6     = Other
+| list6     = 
+* {{tl|IPA}}
+
+}}<noinclude>
+{{Documentation|content=
+[[WP:SIDEBAR|Sidebar]] listing language [[WP:templates|templates]].
+}}
+[[Category:Documentation see also templates]]
+</noinclude>

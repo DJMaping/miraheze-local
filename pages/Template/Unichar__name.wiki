@@ -1,0 +1,7 @@
+<span style="font-variant: small-caps; text-transform: lowercase; font-feature-settings: 'onum'">{{#ifeq:{{{name|}}}| none || {{#switch:{{{gc|}}} | Zl | Zp | Zs={{#ifeq:{{{nlink|}}} | <#salted#> |{{{na|}}}| {{#if: {{{nlink|}}} | [[{{{nlink|}}}{{!}}{{{na|}}}]] |[[{{#ifeq:{{{hval}}}|0020|space (punctuation)|{{lc:{{{na|}}}}}}}{{!}}{{{na|}}}]]  }}}} <!--A space cannot be the sole character in a page name --> | Cc | Cs | Cp | Cn = <!--no smallcaps name, but straight nlink if given-->{{#ifeq:{{{nlink|}}} | <#salted#> || {{#if: {{{nlink|}}} | [[{{{nlink|}}}]] | {{error|Error using {{tl|unichar}}: Pagename expected in "nlink{{=}}"| tag=span }}}}}}
+| #default={{#switch:{{{nlink|<#salted#>}}}
+ | <#salted#> =<!--no link-->{{{na|}}}
+ | =<!--wikilink to na-->[[{{#switch:{{{hval}}}|0023|002E|003C|003E|005B|005D|007B|007C|007D|200E|200F|202A|202B|202C|202D|202E={{lc:{{{na|}}}}}|003A=colon (punctuation)<!-- colon is a disambiguation page -->|005F=underscore<!-- Low line is a disambiguation page -->|#default=&#x{{{hval}}};}}{{!}}{{{na|}}}]]
+ | #default =<!--piped link-->[[{{{nlink|}}}{{!}}{{{na|}}}]]}}}}}}</span><!--
+
+--><noinclude>{{Documentation}}</noinclude>

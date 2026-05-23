@@ -1,0 +1,1 @@
+{{#invoke:For related page|forFoo|Timeline of %s|Timeline of %ss|Timeline of the %s|Timeline of %s history|what=a chronological guide}}<noinclude>{{documentation}}</noinclude>

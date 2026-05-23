@@ -1,0 +1,19 @@
+<includeonly><!--
+--><templatestyles src="Legend/styles.css" /><!--
+--><span class="legend nowrap"><!--
+  --><span class="legend-color mw-no-invert" style="<!--
+-->{{#if:{{{border|}}}|border: {{{border}}};|{{#if:{{{outline|}}}|border: 1px solid {{{outline}}};}}}}<!--
+-->{{#if:{{{1|}}}|{{greater color contrast ratio|{{{1}}}|white|black|css=y}}}}<!--
+-->{{#if:{{{textcolor|}}}|color:{{{textcolor}}};}}<!--
+-->{{#if:{{{size|}}}|font-size:{{{size}}};}}"><!--
+
+    -->{{#if:{{{text|}}}{{{alt|}}}
+         | <span class="legend-text" style="{{#if:{{{alt|}}}|color:{{{1|}}};}}font-family: monospace, monospace;">{{If empty|{{{alt|}}}|{{Encodefirst|{{{text|}}}}}|&nbsp;}}</span>|&nbsp;}}<!--
+  --></span><!--
+
+  -->&nbsp;{{{2|}}}<!--
+
+--></span><!--
+--></includeonly><noinclude>
+{{Documentation}}
+</noinclude>

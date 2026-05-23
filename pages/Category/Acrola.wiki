@@ -1,0 +1,92 @@
+'''Continue to [[Acrola]]'''
+<div style="border:1px solid #ccc;display:flex;margin:.5rem; justify-content:space-evenly">
+	<div style="border:1px solid #ccc;margin:.5rem;width:100%; justify-content:space-evenly">
+		<div>
+			<div class="center" style="width:auto; margin-left:auto; margin-right:auto;">{{Acrolan Map Labelled}}</div>
+
+==List of states and territories==
+{|class="sortable wikitable"
+|-
+| style="background:lightcyan; border:1px solid #aaa; width:2em;" | *
+| = Geoscheme disputed<ref>{{cite web|url=http://enclaiw.gov.hei/nation/geoscheme|title=Ayuma or Acrola? |publisher=National government of Heiso}}</ref>
+|}
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Acetoa}} || [[Acetoa]] || style="text-align:right;" | 388,005 || style="text-align:right;" | 11,203,256 || style="text-align:right;" | 29 || [[Yezhito]]
+|-
+| style="text-align:center;"| {{flagicon|Areoix Lie}} 
+| [[Areoix Lie]] || style="text-align:right;" | 5,854,217 || style="text-align:right;" | 579,087,437 || style="text-align:right;" | 99 || [[Vurahi]]
+|-
+| style="text-align:center;"| {{flagicon|Candenat}} || [[Candenat]] || style="text-align:right;" | 591,613 || style="text-align:right;" | 27,332,521 || style="text-align:right;" | 46 || [[Pavrette]]
+|-
+| style="text-align:center;"| {{flagicon|Deschon}} || [[Deschon]] || style="text-align:right;" | 765,347 || style="text-align:right;" | 30,642,963 || style="text-align:right;" | 40 || [[Obelinti]]
+|-
+| style="text-align:center;"| {{flagicon|Eldavpir}} || [[Eldavpir]] || style="text-align:right;" | 574,577 || style="text-align:right;" | 29,421,790 || style="text-align:right;" | 51 || [[Lunfrix]]
+|-
+| style="text-align:center;"| {{flagicon|Enina}} || [[Enina]] || style="text-align:right;" | 548 || style="text-align:right;" | 51,690 || style="text-align:right;" | 94 || [[Ementav]]
+|-
+| style="text-align:center;"| {{flagicon|Feio Lie}} || [[Feio Lie]] || style="text-align:right;" | 229,074 || style="text-align:right;" | 7,849,450 || style="text-align:right;" | 34 || [[Keliaro]]
+|-
+| style="text-align:center;"| {{flagicon|Fire Coast}} || [[Fire Coast]] || style="text-align:right;" | 99,744 || style="text-align:right;" | 7,181,169 || style="text-align:right;" | 72 || [[Kamoraya]]
+|- style="background:lightcyan;" 
+| style="text-align:center;"| {{flagicon|Heiso}} || [[Heiso]] || style="text-align:right;" | 334,534 || style="text-align:right;" | 20,605,956 || style="text-align:right;" | 62 || [[Mivlo]]
+|-
+| style="text-align:center;"| {{flagicon|Iquir}} || [[Iquir]] || style="text-align:right;" | 489,302 || style="text-align:right;" | 36,356,117 || style="text-align:right;" | 74 || [[Chavillar]]
+|-
+| style="text-align:center;"| {{flagicon|Jathua}} || [[Jathua]] || style="text-align:right;" | 1,067,614 || style="text-align:right;" | 13,153,004 || style="text-align:right;" | 12 || [[Nyvek]]
+|-
+| style="text-align:center;"| {{flagicon|Jau}} || [[Jau]] || style="text-align:right;" | 2,059,631 || style="text-align:right;" | 22,993,720 || style="text-align:right;" | 11 || [[Muntai]]
+|-
+| style="text-align:center;"| {{flagicon|Jshain}} || [[Jshain]] || style="text-align:right;" | 151,329 || style="text-align:right;" | 12,584,520 || style="text-align:right;" | 83 || [[Savyan]]
+|-
+| style="text-align:center;"| {{flagicon|Othya}} || [[Othya]] || style="text-align:right;" | 462,090 || style="text-align:right;" | 30,421,695 || style="text-align:right;" | 66 || [[Harlitak]]
+|-
+| style="text-align:center;"| {{flagicon|Pelines}} || [[Pelines]] || style="text-align:right;" | 745,025 || style="text-align:right;" | 88,057,485 || style="text-align:right;" | 118 || [[Dalyar]]
+|-
+| style="text-align:center;"| {{flagicon|Reerica}} || [[Reerica]] || style="text-align:right;" | 264,853 || style="text-align:right;" | 8,871,251 || style="text-align:right;" | 33 || [[Halumbaro]]
+|-
+| style="text-align:center;"| {{flagicon|Rijan bu}} || [[Rijan bu]] || style="text-align:right;" | 21,457 || style="text-align:right;" | 3,626,297 || style="text-align:right;" | 169 || [[Maphinde]]
+|-
+| style="text-align:center;"| {{flagicon|Rinew}} || [[Rinew]] || style="text-align:right;" | 10,661 || style="text-align:right;" | 233,966 || style="text-align:right;" | 22 || [[Hujbei]]
+|-
+| style="text-align:center;"| {{flagicon|Saa}} || [[Saa]] || style="text-align:right;" | 236,495 || style="text-align:right;" | 2,549,416 || style="text-align:right;" | 11 || [[Suvallor]]
+|-
+| style="text-align:center;"| {{flagicon|Sattle}} || [[Sattle]] || style="text-align:right;" | 232,273 || style="text-align:right;" | 9,388,939 || style="text-align:right;" | 40 || [[Espralit]]
+|-
+| style="text-align:center;"| {{flagicon|Taniduna}} || [[Taniduna]] || style="text-align:right;" | 1,746,881 || style="text-align:right;" | 45,062,542 || style="text-align:right;" | 26 || [[Zolittique]]
+|-
+| style="text-align:center;"| {{flagicon|Terressin}} || [[Terressin]] || style="text-align:right;" | 1,112,428 || style="text-align:right;" | 74,091,042 || style="text-align:right;" | 67 || [[Velloro]]
+|-
+| style="text-align:center;"| {{flagicon|Trevilla}} || [[Trevilla]] || style="text-align:right;" | 545 || style="text-align:right;" | 10,360 || style="text-align:right;" | 19 || [[City Tirnsch]]
+|-
+| style="text-align:center;"| {{flagicon|Umendel}} || [[Umendel]] || style="text-align:right;" | 338,878 || style="text-align:right;" | 7,437,017 || style="text-align:right;" | 22 || [[Vireptan]]
+|-
+| style="text-align:center;"| {{flagicon|Viussi}} || [[Viussi]] || style="text-align:right;" | 388,247 || style="text-align:right;" | 17,339,111 || style="text-align:right;" | 45 || [[Zambhori]]
+|-
+| style="text-align:center;"| {{flagicon|Yoprioq}} || [[Yoprioq]] || style="text-align:right;" | 158,373 || style="text-align:right;" | 5,131,190 || style="text-align:right;" | 32 || [[Tufariyan]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total<ref>with Heiso</ref>
+| style="text-align:right;"| 25
+| style="text-align:right;"| 18,323,741
+| style="text-align:right;"| 1,070,077,948
+| style="text-align:right;"| 59
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total<ref>without Heiso</ref>
+| style="text-align:right;"| 26
+| style="text-align:right;"| 17,989,207
+| style="text-align:right;"| 1,090,683,904
+| style="text-align:right;"| 60
+|}
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Continents]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

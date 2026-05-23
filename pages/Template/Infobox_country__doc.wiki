@@ -1,0 +1,152 @@
+{{documentation subpage}}
+{{dependencies|Template:Nowrap|Template:Lower}}
+This Infobox template is used to generate a righthand infobox in articles of 2 specific types: Country/territory or Geopolitical organisation.  The syntax (format) of parameters and examples are detailed within the show/hide collapsed sections below.
+
+;CSS: Please be aware that this template is stripped from styling. <br />If you don't have any styling yet, please copy [[MediaWiki:Common.css]] to your own wiki. <br />If you do have some styling codes already, but need specific help, please ask on the [[Miraheze Developers Wiki:Community portal|Community portal]], or on our Discord server.
+
+== Syntax ==
+<div style="font-size:110%;"><!--
+------------------------Country/territory use-------------------
+-->
+<pre>
+{{Infobox country
+|native_name                 = <!--Long-form name in native language-->
+|conventional_long_name      = <!--Conventional English long-form-->
+|common_name                 = <!--Common English name (used as wikilink)-->
+|image_flag                  = <!--* e.g. Flag of country.svg-->
+|alt_flag                    = <!--alt text for flag-->
+|image_coat                  = <!--* e.g. Coat of arms of country.svg-->
+|alt_coat                    = <!--alt text for coat of arms-->
+|symbol_type                 = <!--emblem/seal/... based on image_coat-->
+|national_motto              = <!--"[[motto]]"-->
+|national_anthem             = <!--''[[name of/link to anthem]]''-->
+|royal_anthem                = <!--''[[name of/link to anthem]]''-->
+|other_symbol_type           = <!--Another symbol, e.g. Hymn-->
+|other_symbol                = <!--another symbol text-->
+|image_map                   = <!--e.g. LocationCountry.svg-->
+|alt_map                     = <!--alt text for map-->
+|map_caption                 = <!--Caption to place below map-->
+|image_map2                  = <!--Another map, if required-->
+|alt_map2                    = <!--alt text for second map-->
+|map_caption2                = <!--Caption to place below second map-->
+|capital                     = 
+|latd=  | latm= | latNS = <!--capital's latitude degree/min/dir-->
+|longd= |longm= |longEW = <!--capital's longitude deg/min/dir-->
+|largest_city                = <!--Largest city or settlement: -->
+|largest_settlement          = <!--(if not a city)-->
+|largest_settlement_type     = <!--Type of settlement if largest settlement not a city-->
+|official_languages          = 
+|regional_languages          = <!--Officially recognized languages-->
+|languages_type              = <!--Other type of languages -->
+|languages                   = <!--Other languages list-->
+|ethnic_groups               = <!--List/breakdown of ethnic groups-->
+|ethnic_groups_year          = <!--Year of ethnic data (if provided)-->
+|demonym                     = 
+|government_type             = 
+|leader_title1               = 
+|leader_name1                = 
+|leader_title2               = 
+|leader_name2                = 
+...
+|leader_title6               = 
+|leader_name6                = 
+|sovereignty_type            = 
+|sovereignty_note            = 
+|established_event1          = 
+|established_date1           = 
+|established_event2          = 
+|established_date2           = 
+...
+|established_event9          = 
+|established_date9           = 
+|area_rank                   = 
+|area_magnitude              = 
+|area                        = <!-- major area size (in [[Template:convert]] either km2 or sqmi first) -->
+|area_km2                    = <!-- major area size (in square km) -->
+|area_sq_mi                  = <!-- area in square mi (requires area_km2) -->
+|percent_water               = 
+|area_label                  = <!-- label under "Area" (default: Total) -->
+|area_label2                 = <!-- label below area_label (optional) -->
+|area_dabodyalign            = <!-- text after area_label2 (optional) -->
+|population_estimate         = 
+|population_estimate_rank    = 
+|population_estimate_year    = 
+|population_census           = 
+|population_census_year      = 
+|population_density_km2      =
+|population_density_sq_mi    =
+|population_density_rank     =
+|GDP_PPP                     = 
+|GDP_PPP_rank                = 
+|GDP_PPP_year                = 
+|GDP_PPP_per_capita          = 
+|GDP_PPP_per_capita_rank     = 
+|GDP_nominal                 = 
+|GDP_nominal_rank            = 
+|GDP_nominal_year            = 
+|GDP_nominal_per_capita      = 
+|GDP_nominal_per_capita_rank = 
+|Gini                        =
+|Gini_rank                   =
+|Gini_year                   =
+|Gini_category               =
+|HDI                         =
+|HDI_rank                    =
+|HDI_year                    =
+|HDI_category                =
+|currency                    =
+|currency_code               =
+|time_zone                   =
+|utc_offset                  = <!-- +N, where N is number of hours-->
+|time_zone_DST               =
+|date_format                 = numeric dates (dd-mm-yyyy, yyyy.mm.dd, etc.) plus era (CE, AH, etc.)
+|DST_note                    =
+|utc_offset_DST              = <!-- +N, where N is number of hours-->
+|drives_on                   = vehicles drive on the left or right of the road
+|cctld                       =
+|calling_code                =
+|image_map3                  =
+|alt_map3                    =
+|footnotes                   = <!--for any generic non-numbered footnotes-->
+|footnote1                   =
+|footnote2                   =
+...
+|footnote7                   =
+}}
+</pre>
+;France specific parameters
+<pre>
+|metropole                   = 
+|metropole_area              = 
+|metropole_area_rank         = 
+|metropole_area_magnitude    = 
+|metropole_areami²           = 
+|metropole_population        = 
+|metropole_population_estimate_rank = 
+|foot                        = 
+|foot2                       = 
+|foot3                       = 
+|foot4                       = 
+|foot5                       = 
+</pre>
+;United Kingdom specific parameters
+<pre>
+|patron_saint                = 
+</pre>
+<!--(UK-specific parameters)-->
+;European Union specific parameters
+<pre>
+|accessionEUdate             = 
+</pre>
+<!--(EU-specific parameters)-->
+* <small>''If, on a particular page, the default widths provided for the flag and coat-of-arms/symbol images produce an unsatisfactory result, use ''flag_width'' (as % or px) to specify the width to be used for the flag image; the remaining width is then assigned to the coat-of-arms/symbol (if included).''</small>
+</div><!--font-size:110%-->
+
+
+<div style="clear:both;"></div>
+<!--
+-->
+<!--Categories-->
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>

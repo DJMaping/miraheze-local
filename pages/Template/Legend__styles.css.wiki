@@ -1,0 +1,20 @@
+/* {{pp-template}} */
+
+.legend {
+	page-break-inside: avoid;
+	break-inside: avoid-column;
+}
+
+.legend-color {
+	display: inline-block;
+	min-width: 1.25em;
+	height: 1.25em;
+	line-height: 1.25;
+	margin: 1px 0;
+	text-align: center;
+	border: 1px solid black;
+	background-color: transparent;
+	color: black;
+}
+
+.legend-text {/*empty for now, but part of the design!*/}

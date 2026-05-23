@@ -1,0 +1,32 @@
+==List of states and territories==
+'''Continue to [[East Mahea]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style=@text-align:center;@| {{flagicon|Sadain}} || [[Sadain]] || style=@text-align:right;@ | 111,241 || style=@text-align:right;@ | 18,288,844 || style=@text-align:right;@ | 164 || [[Sivona]]
+|-
+| style=@text-align:center;@| {{flagicon|Selaja}} || [[Selaja]] || style=@text-align:right;@ | 282,440 || style=@text-align:right;@ | 31,644,352 || style=@text-align:right;@ | 112 || [[Selja]]
+|-
+| style=@text-align:center;@| {{flagicon|Sunsokua}} || [[Sunsokua]] || style=@text-align:right;@ | 737,960 || style=@text-align:right;@ | 79,558,877 || style=@text-align:right;@ | 108 || [[Mikalu]]
+|-
+| style=@text-align:center;@| {{flagicon|Vayvele}} 
+| [[Vayvele]] || style=@text-align:right;@ | 577,124 || style=@text-align:right;@ | 74,436,761 || style=@text-align:right;@ | 129 || [[Kaisri]]
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 4
+| style="text-align:right;"| 1,708,765
+| style="text-align:right;"| 203,928,834
+| style="text-align:right;"| 119
+|}
+
+[[Category:All country data templates|Vayvele]]
+[[Category:Mahea]]
+[[Category:Mahean Regions]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Vayvele]]

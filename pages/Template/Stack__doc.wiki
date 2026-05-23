@@ -1,0 +1,20 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+{{High-use}}
+{{Uses TemplateStyles|Template:Stack/styles.css}}
+{{Lua|Module:Check for unknown parameters}}
+
+{{Stack documentation}}
+<templatedata>
+{
+	"params": {}
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+[[Category:Graphics templates]]
+[[Category:Positioning templates]]
+[[Category:Templates that add a tracking category|{{PAGENAME}}]]
+
+}}</includeonly>

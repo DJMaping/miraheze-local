@@ -1,0 +1,409 @@
+{{Documentation subpage}}
+{{about|the vertical navigation template|the horizontal template|Template:Navbox|the left sidebar of the interface|mw:Manual:Interface/Sidebar{{!}}the article in the Mediawiki Manual}}
+{{#ifeq:{{FULLPAGENAME}}|Template:Sidebar|{{High-risk| approximately 145000 }}{{Template display|nomobile}}}}
+{{Lua|Module:Sidebar}}
+
+This template is a [[wikt:metatemplate|metatemplate]] for the creation of sidebar templates, i.e. boxes that are [[Vertical direction|vertically]] aligned [[Wikipedia:Navigation template|navigation templates]]. Sidebars, like [[Wikipedia:Manual of Style/Infoboxes|infoboxes]], are usually positioned on the right-hand side of a page. 
+
+{{tl|Sidebar with collapsible lists}} is a version of {{tl|Sidebar}} that adds collapsibility to its sections, i.e. the means to show or hide sections by clicking links beside their headings.
+
+{{Navbox visibility}}
+
+Note that [[WP:LEADSIDEBAR]] discourages the placement of sidebars in the lead section of articles, though they may be included on a case-by-case basis.
+
+== Usage ==
+{{Parameter names example |name= |outertitle |topimage |pretitle |title |image |caption |above |heading1 |content1 |heading2 |content2 |heading3 |content3 |content4=''…… etc ……'' |below}}
+
+<syntaxhighlight lang="wikitext">
+{{Sidebar
+| name = {{subst:PAGENAME}}
+| class =            
+| wraplinks =        <!-- "true" otherwise (default:) omit -->
+| float =
+| templatestyles = 
+| child templatestyles = 
+| grandchild templatestyles = 
+
+| outertitleclass = 
+| outertitle = 
+
+| topimageclass = 
+| topimage = 
+| topcaption = 
+
+| pretitleclass = 
+| pretitle = 
+
+| titleclass = 
+| title = 
+
+| imageclass = 
+| image = 
+| caption = 
+
+| headingclass = 
+| contentclass = 
+
+| aboveclass = 
+| above = 
+
+| heading1 = 
+| heading1class = 
+| content1 = 
+| content1class = 
+
+| heading2 = 
+| heading2class = 
+| content2 = 
+| content2class = 
+
+| heading3 = 
+| heading3class = 
+| content3 = 
+| content3class = 
+
+<!-- (omitting infinite heading/content parameters) -->
+
+| belowclass = 
+| below = 
+| navbar = 
+
+}}
+</syntaxhighlight>
+
+== Parameters ==
+{{anchor|Other parameters}}
+No parameters are mandatory. If {{tl|navbar}} links are to function correctly (unless their appearance is suppressed; see the ''navbar'' parameter [[#Other parameters|below]]), the parameter ''name'' needs to be set (to [[Wikipedia:Page name|the name of]] the sidebar's page). (This does not apply if the [[Lua (programming language)|Lua module]] that produces {{tlf|Sidebar}}, [[Module:Sidebar]], is being used directly.)
+
+{| class="wikitable"
+|-
+! scope="col" | Parameter
+! scope="col" | Explanation
+|-
+| {{para|above}}
+| Same as the {{para|above}} offered by {{tl|Navbox}}.
+|-
+| {{para|name}}
+| The sidebar's name, i.e. the name following "Template:" in the title shown at the top of the sidebar's page. <br />Required if the {{small|{{smallcaps|V T E}}}} {{tl|navbar}} links at the bottom of the sidebar are to function correctly, unless their appearance is suppressed (see the ''navbar'' parameter [[#Other parameters|below]]) or {{tlf|Sidebar}} is not being used as a [[Wrapper function|wrapper]] for [[Module:Sidebar]]. When {{tlf|Sidebar}} is used as a wrapper, setting {{para|name|<nowiki>{{subst:PAGENAME}}</nowiki>}} is recommended.
+|-
+| {{para|float}}
+| Accepts the values <code>none</code> and <code>left</code>. The former aligns the box left without floating and the latter with floating behavior. The default float is right and does not need specifying. Prefer this parameter (and passing it to any using templates such as with {{tl|Helpbox}}) to specifying your own floats in TemplateStyles.
+|-
+| {{para|outertitle}}
+| Use to place a title for the sidebar immediately above the sidebar.
+|-
+| {{para|topimage}}
+|style="padding-left:0.5em;"| Use to place an image at the top of the sidebar, i.e. above {{para|title}} (if used). Full wiki syntax is expected (i.e. <code><nowiki>[[File:...]]</nowiki></code>). <br />To add a caption below the image, use {{para|topcaption}}. <br />Per [[WP:SIDEBAR]] this field should only be used to define a generic image for a sidebar, not to provide custom images for individual articles: sidebars are not displayed on mobile.
+|-
+| {{para|pretitle}}
+|style="padding-left:0.5em;"| Use to place a line such as "Part of the ''X'' series on" before the title.
+|-
+| {{para|title}}
+|style="padding-left:0.5em;"| Use to place a title for the sidebar at the top of the sidebar. (If {{para|topimage}} is used, it will appear immediately below it).
+|-
+| {{para|image}}
+|style="padding-left:0.5em;"| Use to place an image between the {{para|title}} (if used) and first section. As with {{para|topimage}}, full wiki syntax is expected (i.e. <code><nowiki>[[File:...]]</nowiki></code>). <br />To add a caption below the image, use {{para|caption}}.
+|-
+| {{para|heading<sub>n</sub>}}<br/>{{para|content<sub>n</sub>}}
+|style="padding-left:0.5em;"| The ''n''th heading{{\}}content. ''content<sub>n</sub>'' is required if ''heading<sub>n</sub>'' is also to appear.
+|-
+| {{para|templatestyles}}
+|style="padding-left:0.5em;"| See [[#TemplateStyles]].
+|-
+| id="Classes" |
+*{{nowrap|{{para|class}} or {{para|bodyclass}}}}
+*{{para|outertitleclass}}
+*{{para|topimageclass}}
+*{{para|pretitleclass}}
+*{{para|titleclass}}
+*{{para|imageclass}}
+*{{para|aboveclass}}
+*{{para|headingclass}}
+*{{para|contentclass}}
+*{{para|heading<sub>n</sub>class}}
+*{{para|content<sub>n</sub>class}}
+*{{para|belowclass}}
+|style="padding-left:0.5em;"|
+Classes can be used to make styles easier to target for [[#TemplateStyles|TemplateStyles]]. {{para|class}} must be used for this purpose for an entire sidebar (otherwise a page with multiple sidebars may take styles intended only for one sidebar). An example for a template named "Template:Example Sidebar" might have the class {{para|class|example-sidebar}}.
+
+{{para|heading<sub>n</sub>class}} and {{para|content<sub>n</sub>class}} can be used to target a specific heading or content group. This should be needed only rarely.
+
+These classes can also be used for [[WP:microformats|microformats]].
+
+Dot before a class-name can be omitted: {{para|class|foo}}.
+|-
+| {{para|below}}
+|style="padding-left:0.5em;"| Same as the {{para|below}} offered by {{tl|Navbox}}.<br />(Use, for example, to add one or more portal links to the bottom of the template (shown, by default, in bold).)
+|-
+| {{para|navbar}}
+|style="padding-left:0.5em;"| When {{para|name}} is specified, {{tl|navbar}} is shown at the bottom of the sidebar. Setting {{para|navbar|off}} or {{para|navbar|none}} will suppress the {{navbar|Sidebar/doc|mini=1}} links showing.
+|}
+
+=== TemplateStyles ===
+{{further|Wikipedia:TemplateStyles}}
+
+The TemplateStyles parameters {{para|templatestyles}}, {{para|child templatestyles}}, and {{para|grandchild templatestyles}} take the pagename of a [[WP:TemplateStyles|TemplateStyles]] page and turn it into a TemplateStyles tag. The TemplateStyles tag is a much more powerful way to add styling to a sidebar.
+
+Some rules of use:
+# Always add a template-specific class in {{para|class}} so that the styles added to one sidebar will not "leak" into another sidebar. For example, [[Template:DYK tools]] has {{para|class|dyk-tools}} and the [[Template:DYK tools/styles.css]] page targets <code>.dyk-tools</code> for all of its added styling.
+# Do not assume Template:Sidebar will continue to have a table structure (i.e., do not target <code>table</code> or any other table HTML in the TemplateStyles page). The table structure is soft-deprecated and will go away at some point in the future.
+
+These tags are loaded in this order: Core templatestyles ([[Module:Sidebar/styles.css]]), templatestyles, child, and then grandchild, which can be used to 'cascade' the styles.
+
+; {{para|templatestyles}}
+: This parameter is intended for a template or module calling {{tl|sidebar}} directly.
+; {{para|child templatestyles}}
+: This parameter is intended for a template or module which calls a sidebar with {{para|templatestyles}}.
+; {{para|grandchild templatestyles}}
+: This parameter is intended for a template or module which calls a sidebar with {{para|child templatestyles}}.
+
+The canonical list of classes output with each kind of element of a sidebar (i.e. output for all {{para|content<sub>n</sub>}}, or all cases of {{para|above}}) can be found in [[Module:Sidebar/configuration]] in the "class" table. The below is a non-authoritative but otherwise sufficient list for most generic styling:
+{{div col}}
+; <code>.sidebar</code>
+: The top-level sidebar class.
+; <code>.sidebar-outer-title</code>
+: The class associated with a {{para|outertitle}}.
+; <code>.sidebar-top-image</code>
+: The class associated with a {{para|topimage}}.
+; <code>.sidebar-top-caption</code>
+: The class associated with a {{para|topcaption}}.
+; <code>.sidebar-pretitle</code>
+; <code>.sidebar-pretitle-with-top-image</code>
+: The classes associated with a {{para|pretitle}}. Only one of these will be output per sidebar, depending on whether {{para|topimage}} is present.
+; <code>.sidebar-title</code>
+; <code>.sidebar-title-with-pretitle</code>
+: The classes associated with a {{para|title}}. Only one of these will be output per sidebar, depending on whether {{para|pretitle}} is present.
+; <code>.sidebar-image</code>
+: The class associated with a {{para|image}}.
+; <code>.sidebar-caption</code>
+: The class associated with a {{para|caption}}.
+; <code>.sidebar-above</code>
+: The class associated with a {{para|above}}.
+; <code>.sidebar-heading</code>
+: The class associated with a {{para|heading<sub>n</sub>}}. Every heading will have this class.
+; <code>.sidebar-content</code>
+; <code>.sidebar-content-with-subgroup</code>
+: The classes associated with {{para|content<sub>n</sub>}}. Every content group will have one of these classes, depending on whether the specific content has a subgroup.
+; <code>.sidebar-below</code>
+: The class associated with a {{para|below}}.
+; <code>.sidebar-navbar</code>
+: The class associated with a {{para|navbar}}.
+{{div col end}}
+
+==== Example TemplateStyles parameter use ====
+
+For an example of a sidebar which does not need to support children templates of its own (whether because it has no children or because it wants no children):
+
+<syntaxhighlight lang="wikitext">
+{{Sidebar
+| title                = Child Example
+| class                = sidebar-example
+| templatestyles = Template:Sidebar/example/styles.css
+}}
+</syntaxhighlight>
+
+For an example of a sidebar which does have its own children and an example of one of the children (grandchild templates have a similar use):
+
+<div style="display: flex">
+<syntaxhighlight lang="wikitext">
+{{Sidebar
+| title                = {{{title|Title Child Example}}}
+| class                = sidebar-example {{{class|}}}
+| templatestyles       = Template:Sidebar/example/styles.css
+| child templatestyles = {{{child templatestyles|}}}
+}}
+</syntaxhighlight>
+<syntaxhighlight lang="wikitext">
+{{Sidebar/child example
+| title                = Title Grandchild Example
+| class                = sidebar-child-example
+| child templatestyles = Template:Sidebar/child example/styles.css
+}}
+</syntaxhighlight>
+</div>
+
+== Handling long links ==
+
+{{tl|Normalwraplink}} may be used to handle individual links that should wrap within the sidebar or otherwise need to be made to wrap, in order to prevent the sidebar from becoming too wide. Use {{tlx|normalwraplink|{{var|longlinkname}}}}, where {{para||{{var|longlinkname}}}} is the long link without its square brackets.
+
+Use the {{para|wraplinks|true}} parameter to enable link wrapping (disabling {{codett|lang=css|nowraplinks}} CSS class) for the whole template.
+
+== Nesting ==
+
+One sidebar template can be nested (embedded) into another one by using the {{para|child}} parameter.  This feature can be used to create a modular sidebar, or to create more well-defined and logical sections.
+
+{{Sidebar
+| title = Top-level title
+| content1 =
+ {{Sidebar |child=yes
+  | title = First subsection
+  | heading1 = Heading 1.1
+  | content1 = Content 1.1
+ }}
+| content2 =
+ {{Sidebar |child=yes
+  | title = Second subsection
+  | heading1 = Heading 2.1
+  | content1 = Content 2.1
+ }}
+| below = "below" text
+}}
+<div style="position:relative;bottom:0.5em; overflow:auto;">
+<syntaxhighlight lang="wikitext">
+{{Sidebar
+| title = Top-level title
+| content1 =
+ {{Sidebar |child=yes
+  | title = First subsection
+  | heading1 = Heading 1.1
+  | content1 = Content 1.1
+ }}
+| content2 =
+ {{Sidebar |child=yes
+  | title = Second subsection
+  | heading1 = Heading 2.1
+  | content1 = Content 2.1
+ }}
+| below = "below" text
+}}
+</syntaxhighlight>
+</div>
+
+Note in the examples above that the child sidebar is placed in a {{code|content}} field, not a {{code|heading}} field. Notice also that the section subheadings do not appear in bold if this is not explicitly specified. To obtain bold section headings, move the titles to the {{code|heading}} field, using
+
+{{Sidebar
+| title = Top-level title
+| heading1 = First subsection
+| content1 = 
+ {{Sidebar |child=yes
+  | heading1 = Heading 1.1
+  | content1 = Content 1.1
+ }}
+| heading2 = Second subsection
+| content2 = 
+ {{Sidebar |child=yes
+  | heading1 = Heading 2.1
+  | content1 = Content 2.1
+ }}
+| below = "below" text
+}}
+<div style="position:relative;bottom:0.5em; overflow:auto;">
+<syntaxhighlight lang="wikitext">
+{{Sidebar
+| title = Top-level title
+| heading1 = First subsection
+| content1 = 
+ {{Sidebar |child=yes
+  | heading1 = Heading 1.1
+  | content1 = Content 1.1
+ }}
+| heading2 = Second subsection
+| content2 = 
+ {{Sidebar |child=yes
+  | heading1 = Heading 2.1
+  | content1 = Content 2.1
+ }}
+| below = "below" text
+}}
+</syntaxhighlight>
+</div>
+
+== Deprecated parameters ==
+The following parameters are deprecated in favor of [[#TemplateStyles|TemplateStyles]] and templates/modules using them are categorized into [[:Category:Sidebars with styles needing conversion]]. The category page has further conversion information.
+
+A specific real conversion example is [[Template:DYK tools]] where the [[Special:Diff/1002727584|styles were moved]] to [[Template:DYK tools/styles.css]].
+
+{| class="wikitable"
+|-
+! scope="col" | Parameter
+! scope="col" | Explanation
+! scope="col" | TemplateStyles replacement class
+|-
+| {{nowrap|{{para|style}} or {{para|bodystyle}}}}
+| Additional [[Help:Cascading Style Sheets|CSS]] for the whole sidebar.
+| Class assigned to the template in {{para|class}}
+|-
+| {{para|width}}
+| Width for the whole sidebar.
+| {{code|lang=css|width}} attribute in the class assigned to the template in {{para|class}}
+|-
+| {{para|basestyle}}
+| Additional CSS for a grabbag of parameters: {{para|pretitle}}, {{para|title}}, {{para|heading<sub>n</sub>}}, and {{para|listtitle<sub>n</sub>}} (for {{tl|sidebar with collapsible lists}}).
+| See related parameters for targeting pretitle, title, all headings, and all lists. Applies {{em|before}} the specific style parameter so must be placed above that parameter's declarations if any in the TemplateStyles sheet.
+|-
+|{{para|outertitlestyle}}
+|Additional CSS for {{Para|outertitle}}.
+| {{code|lang=css|.sidebar-outer-title}}
+|-
+|{{para|topimagestyle}}
+|Additional CSS for {{Para|topimage}}.
+| {{code|lang=css|.sidebar-top-image}}
+|-
+|{{para|topcaptionstyle}}
+|Additional CSS for {{Para|topcaption}}.
+| {{code|lang=css|.sidebar-topcaption}}
+|-
+|{{para|pretitlestyle}}
+|Additional CSS for {{Para|pretitle}}.
+| {{code|lang=css|.sidebar-pretitle}} or {{code|lang=css|.sidebar-pretitle-with-top-image}}
+|-
+|{{para|titlestyle}}
+|Additional CSS for {{Para|title}}.
+| {{code|lang=css|.sidebar-title}} or {{code|lang=css|.sidebar-title-with-pretitle}}
+|-
+|{{para|imagestyle}}
+|Additional CSS for {{Para|image}}.
+| {{code|lang=css|.sidebar-image}}
+|-
+|{{para|captionstyle}}
+|Additional CSS for {{Para|caption}}.
+| {{code|lang=css|.sidebar-caption}}
+|-
+|{{para|abovestyle}}
+|Additional CSS for {{Para|above}}.
+| {{code|lang=css|.sidebar-above}}
+|-
+| {{para|headingstyle}}
+| Additional CSS for section headings.
+| {{code|lang=css|.sidebar-heading}}
+|-
+| {{para|heading<sub>n</sub>style}}
+| Additional CSS for {{Para|heading<sub>n</sub>}}.
+| Class assigned to the heading in {{para|heading<sub>n</sub>class}}
+|-
+| {{para|contentstyle}}
+| Additional CSS for all section content.
+| {{code|lang=css|.sidebar-content}} and/or {{code|lang=css|.sidebar-content-with-subgroup}}
+|-
+| {{para|content<sub>n</sub>style}}
+| Additional CSS for {{Para|content<sub>n</sub>}}.
+| Class assigned to the content in {{para|content<sub>n</sub>class}}
+|-
+| {{para|belowstyle}}
+| Additional CSS for {{Para|below}}.
+| {{code|lang=css|.sidebar-below}}
+|-
+| {{para|navbarstyle}}
+| Additional CSS for the generated navbar.
+| {{code|lang=css|.sidebar-navbar}}
+|-
+| {{para|navbarfontstyle}}
+| Additional CSS passed to the navbar module to target the VTE (colors usually).
+| {{code|lang=css|.sidebar-navbar li, .sidebar-navbar a}}
+|}
+
+== Tracking category ==
+* {{clc|Pages using sidebar with the child parameter}}
+* {{clc|Sidebars with styles needing conversion}}
+
+== See also ==
+* [[Special:Permalink/609911857|Last pre-Lua version]]
+* {{tl|Sidebar with collapsible lists}}
+* {{tl|Infobox}}
+* {{tl|Side box}}
+* [[Wikipedia:UBLIST]], for help using unbulleted lists within content.
+
+<includeonly>{{Sandbox other||
+[[Category:Sidebar metatemplates| ]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>

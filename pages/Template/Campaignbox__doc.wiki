@@ -1,0 +1,77 @@
+{{#ifeq:{{{noheader|}}}|yes |
+ | {{Documentation subpage}}
+{{High-use}}
+{{Template display|nomobile}}
+{{lua|Module:Military navigation}}
+{{Template redirect|Campaign}}
+{{Navbox visibility}}
+
+== Usage ==
+}}
+{{#switch:{{ARTICLESPACE}}
+ | Wikipedia =
+
+====Campaignboxes====
+ | #default =
+
+===Campaignboxes===
+}}
+One common type of navigational template in articles concerning conflicts, wars and related topics is the '''campaignbox''' template, intended to provide context and convenient navigation among articles on the [[battles]] in a [[Military campaign|campaign]], [[Front (military)|front]], [[Theater (warfare)|theater]] or [[war]] (or, more rarely, among several campaigns or wars).
+<div style="float:right;width:26.7em;margin-bottom:1.0em;">
+{{Campaignbox Second Punic War}}
+{{Campaignbox Punic Wars}}
+</div>
+
+If the article includes an [[Help:Infobox|infobox]], the campaignbox/es are usually placed immediately after it (i.e. just below it). If available, as with infoboxes such as {{tl|Infobox military conflict}}, use the infobox's {{para|campaignbox}} parameter:
+<syntaxhighlight lang="wikitext">
+{{Infobox military conflict
+...
+}}
+{{Campaignbox XXXX}}
+</syntaxhighlight>
+or
+<syntaxhighlight lang="wikitext">
+{{Infobox military conflict
+...
+| campaignbox = {{campaignbox XXXX}}
+}}
+</syntaxhighlight>
+
+Articles may include multiple campaignboxes; typically, these are stacked under the infobox. The most common scenario occurs when two levels of campaignboxes are present&nbsp;– for example, an article about a battle can include both a campaignbox listing the battle itself and an "enclosing" campaignbox listing the campaign, theater or war during which the battle took place.  Similarly, an article about a war can include both a campaignbox listing the war (among a series of wars) and a campaignbox for the war itself, listing the battles that took place during it.
+
+=== Creating campaignboxes ===
+
+Existing campaignboxes may be viewed through the [[:Category:Campaignbox templates|Campaignbox template category]] to which campaignboxes are added automatically.  If a new campaignbox becomes necessary, it should be named ''Template:Campaignbox XXXX'' (where XXXX is the (shortened) name of the campaign) and should use {{tlf|Campaignbox}} thus:
+
+<syntaxhighlight lang="wikitext">
+{{Campaignbox
+| name = 
+| title = 
+| battles = 
+| notes = 
+}}
+</syntaxhighlight>
+
+==== Parameters ====
+{{#ifeq:{{BASEPAGENAME}}|Campaignbox||'''Note:''' These parameters are for {{tl|Campaignbox}}.<br /><br />}}
+; ''name''    : The name by which Wikipedia refers to the template, i.e. "Template:Campaignbox XXXX". This can be produced by using <code><nowiki>{{subst:PAGENAME}}</nowiki></code>.
+; ''title''   : The name of the campaign or war, which, if an article about the campaign or war exists, should link to it. Dates should not be indicated unless needed for clarity.  Note that long links may cause alignment problems; see [[WP:MILMOS#NAVPROBLEMS|the troubleshooting guide]] for more information.
+; ''battles'' : A chronological list of battles and operations in the campaign, linked as <code><nowiki>[[Battle of YYYY|YYYY]]</nowiki></code>. A convenient and accessible way to separate the items in the list is to add <code>| listclass = hlist</code> and then use the standard <kbd>*</kbd> (asterisk)-based [[Help:List|listing format]].
+; ''notes''   : (optional) Any explanatory notes needed to clarify the list. This option should be used sparingly.
+; (''raw_name'') : (optional; deprecated) This parameter overrides the use of the title in determining the template name and exists for the sake of backward compatibility. When creating a new campaignbox, both title and name should be specified as above and this parameter omitted.
+
+The following optional parameters are passed on to the templates {{tl|Military navigation}} or {{tl|Navbox}} used to create campaignboxes and so can affect their styling. See these two templates' documentation pages for further details.
+; ''state'' : To set whether the campaignbox appears fully visible or collapsed (to titlebar only) when it is first presented by a page.
+; ''bodyclass'' : CSS styling to affect the whole template.
+; ''listclass'' : CSS styling to affect the list of battles, operations, etc. (e.g. to affect {{para|battles}}).
+
+The use of special formatting (such as bolding or changes in font size) in the list of battles{{spaced ndash}}particularly to mark battles as "important"{{spaced ndash}}is generally discouraged; while there are a ''few'' cases where such approaches may be both helpful to the reader and sufficiently well-sourced that they do not constitute original research, they are usually both unnecessary and potentially confusing.  Similarly, dividing the list of battles into multiple blocks by inserting heading-like separations should be exceptional; if such a division is felt to be needed, a better solution may be to split the one campaignbox into two or more.<noinclude>
+
+[[Category:WikiProject Military history template instructions|Campaignbox]]
+</noinclude><includeonly>{{Sandbox other||
+[[Category:Campaignbox templates| ]]
+{{#ifeq:{{{noheader|}}}|yes | |
+[[Category:Navigational box wrapper templates]]
+[[Category:Military navigational boxes|Campaignbox]]
+[[Category:Templates that add a category]]
+}}}}</includeonly>

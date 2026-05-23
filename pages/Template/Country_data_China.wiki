@@ -1,0 +1,57 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = China
+| flag alias = Flag of the People's Republic of China.svg
+| flag alias-1862 = Flag of the Qing Dynasty (1862-1889).svg
+| border-1862 =
+| flag alias-1889 = Flag of the Qing Dynasty (1889-1912).svg
+| flag alias-Qing = Flag of the Qing Dynasty (1889-1912).svg
+| flag alias-1912 = Flag of China (1912–1928).svg
+| flag alias-1928 = Flag of the Republic of China.svg
+| flag alias-army-1949 = Flag of the People's Liberation Army.svg
+| flag alias-marines-1949 = Flag of the People's Liberation Army.svg
+| flag alias-navy-1949 = Flag of the People's Liberation Army.svg
+| flag alias-naval-1949 = Flag of the People's Liberation Army.svg
+| flag alias-air force-1949 = Flag of the People's Liberation Army.svg
+| flag alias-military = People's Liberation Army Flag of the People's Republic of China.svg
+| link alias-military = People's Liberation Army
+| flag alias-coast guard=People's Armed Police Flag.svg
+| link alias-coast guard=China Coast Guard
+| flag alias-army = Ground Force Flag of the People's Republic of China.svg
+| link alias-army = People's Liberation Army Ground Force
+| flag alias-marines=Naval ensign of China.svg
+| link alias-marines=People's Liberation Army Navy Marine Corps
+| flag alias-navy = Naval ensign of China.svg
+| link alias-navy = People's Liberation Army Navy
+| flag alias-naval = Naval ensign of China.svg
+| link alias-naval = People's Liberation Army Navy
+| flag alias-air force = Air Force Flag of the People's Republic of China.svg
+| link alias-air force = People's Liberation Army Air Force
+| flag alias-strategic force = Rocket Force Flag of the People's Republic of China.svg
+| link alias-strategic force = People's Liberation Army Rocket Force
+| flag alias-space force = Aerospace Flag of the People's Republic of China.svg
+| link alias-space force = People's Liberation Army Aerospace Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1862
+| var2 = 1889
+| var3 = 1912
+| var4 = 1928
+| var5 = army-1949
+| var6 = marines-1949
+| var7 = navy-1949
+| var8 = naval-1949
+| var9 = air force-1949  
+| redir1 = CHN
+| redir2 = People's Republic of China
+| redir3 = China, People's Republic of
+| redir4 = China (People's Republic of)
+| redir5 = PRC
+| related1 = Qing dynasty
+| related2 = Republic of China
+| related3 = Republic of China (1912–1949)
+</noinclude>
+}}

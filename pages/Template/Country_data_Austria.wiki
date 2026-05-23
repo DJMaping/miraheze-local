@@ -1,0 +1,45 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Austria
+| flag alias = Flag of Austria.svg
+| flag alias-empire = Flag of the Habsburg Monarchy.svg
+| flag alias-state = Flag of Austria (state).svg
+| flag alias-1230 = Flag of Austria (1230–1934).svg
+| flag alias-war  = Austria-Hungary-flag-1869-1914-naval-1786-1869-merchant.svg
+| flag alias-1934 = State flag of Austria (1934–1938).svg
+| flag alias-1938 = Flag of Germany (1935–1945).svg
+| flag alias-1945 = Flag of Austria (1230–1934).svg
+| flag alias-2000 = Flag of Austria (2000–2018).svg
+| flag alias-military = Flag of Austria (state).svg
+| link alias-military = Austrian Armed Forces
+| flag alias-army = Flag of Austria (state).svg
+| flag alias-air force = Flag of Austria (state).svg
+| link alias-army = Austrian Land Forces
+| flag alias-naval = Flag of Austria (state).svg
+| link alias-naval = Austrian Navy
+| link alias-air force = Austrian Air Force
+| flag alias-navy = Flag of Austria (state).svg
+| link alias-navy = Austrian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+| var2 = state
+| var3 = 1230
+| var4 = war
+| var5 = 1934
+| var6 = 1938
+| var7 = 1945
+| var8 = 2000
+| redir1 = AUT
+| redir2 = Archduchy of Austria
+| related1 = Austria-Hungary
+| related2 = Allied-occupied Austria 
+| related3 = Austria within Nazi Germany
+| related4 = First Austrian Republic
+| related5 = Republic of German-Austria
+| related6 = Federal State of Austria
+| related7 = Vienna
+</noinclude>
+}}

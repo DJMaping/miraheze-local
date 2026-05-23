@@ -1,0 +1,41 @@
+/* {{pp-template}} */
+.module-shortcutboxplain {
+	float: right;
+	margin: 0 0 0 1em;
+	border: 1px solid var(--border-color-base, #a2a9b1);
+	background-color: var(--background-color-base, #fff);
+	padding: 0.3em 0.6em 0.2em 0.6em;
+	text-align: center;
+	font-size: 85%;
+}
+
+.module-shortcutboxleft {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.module-shortcutlist {
+	display: inline-block;
+	border-bottom: 1px solid var(--border-color-base, #a2a9b1);
+	margin-bottom: 0.2em;
+}
+
+.module-shortcutboxplain ul {
+	font-weight: bold;
+}
+
+.module-shortcutanchordiv {
+	position: relative;
+	top: -3em;
+}
+
+li .module-shortcutanchordiv {
+	float: right; /* IE/Edge in list items */
+}
+
+.mbox-imageright .module-shortcutboxplain {
+	padding: 0.4em 1em;
+	line-height: 1.3;
+	margin: 0;
+	float: initial;
+}

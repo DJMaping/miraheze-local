@@ -1,0 +1,13 @@
+<includeonly>{{#invoke:Template wrapper|wrap|_template=navbox
+|titlestyle= background-color:#CEE0F2;color:black; {{{titlestyle|}}}
+|bodystyle= {{#switch:{{{style|}}}|wide=|#default= {{#ifeq:{{{border|}}}|child|margin: 0; float: right; clear: right; width: 25em; margin-bottom: 0.5em;|margin:0;float:right;clear:right;width:25.5em;margin-bottom:0.5em;margin-left:1em;}}}}
+|groupstyle= background-color:#eeeeee;color:black; {{{groupstyle|}}}
+|belowstyle= background-color:#eeeeee;color:black; {{{belowstyle|}}}
+|abovestyle= background-color:#eeeeee;color:black; {{{abovestyle|}}}
+|oddstyle= {{#if:{{{odd_color|}}}|background: {{{odd_color|}}};}}
+|evenstyle= {{#if:{{{even_color|}}}|background: {{{even_color|}}};}}
+|name={{#if:{{{name|}}}|{{{name|}}}|{{{raw_name|}}}}}
+|navbar={{#if:{{{raw_name|}}}{{{name|}}}||plain}}
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

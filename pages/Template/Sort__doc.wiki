@@ -1,0 +1,42 @@
+{{documentation subpage}}
+{{Ombox|type=content|text=Instead of this template, consider using the <code>data-sort-value</code> attribute, like so: <code><nowiki>| data-sort-value="Doe, John" | John Doe</nowiki></code>. Please see {{Section link|WP:SORT|Specifying a sort key for a cell}} for details.}}
+{{#ifeq:{{SUBPAGENAME}}|sandbox||{{High-use}}}}
+{{lua|Module:Sort}}
+
+This template is for manually adjusting sorting order in sortable tables by specified sortkeys.
+
+; Usage:
+: <code><nowiki>{{</nowiki>Sort | 1 = {{{sort value}}} | 2 = {{{displayed value}}} }}</code> → {{sort | 1 = {{{sort value}}} | 2 = {{{displayed value}}} }}
+
+The first parameter is the sortkey; the second parameter is the wikitext of what has to be displayed. By default, this is the sortkey with link brackets:
+: <code><nowiki>{{</nowiki>Sort | 1 = {{{displayed value}}} }}</code> → {{sort | 1 = {{{displayed value}}} }}
+A table using this template should use it in all rows.
+
+This template works by adding a hidden sort value, which replaces the value of the visible text for sorting purposes. The HTML output looks like: <code><nowiki><span data-sort-value="sortvalue">[[displayed value]]</span></nowiki></code>.
+
+=====Example=====
+<syntaxhighlight lang="wikitext">
+|{{Sort|Brothers Karamazov|[[The Brothers Karamazov]]}}
+</syntaxhighlight>
+
+→ <code><nowiki>|</nowiki>{{Sort|Brothers Karamazov|<nowiki>[[The Brothers Karamazov]]</nowiki>|demo=yes}}</code>
+
+;Sorting by numerical value, date, etc.
+:See [[Help:Sortable tables#Numerical sorting problems]] and [[meta:Help:Sorting#Sort modes]]
+
+;Equal rank
+:If you simply code as the second parameter an indicator that two items are equally ranked, e.g. "4=", the template interpreter will treat this as an additional parameter (i.e. parameter 4, which it will then not use). You must explicitly code this as parameter 2:
+
+<syntaxhighlight lang="wikitext">{{Sort|4|2=4=}}</syntaxhighlight>
+
+==See also==
+* {{tiw|Dsv}} – a shortcut for <code>data-sort-value="''foo''"</code>
+* {{tiw|Sortname}} — for using names in sortable tables (using "last name, first name" as default sort key)
+* {{tiw|Date table sorting}} — for using dates in sortable tables
+* {{tiw|Number table sorting}} — for using alphabetic sort mode for numbers in sortable tables
+* [[Help:Sortable tables]]
+* [[meta:Help:Sorting]]
+
+<includeonly>{{Sandbox other||
+[[Category:Sorting templates|{{PAGENAME}}]]
+}}</includeonly>

@@ -1,0 +1,172 @@
+{{#invoke:Navbox|navbox
+| name      = Lists of countries by population statistics
+| title     = [[Lists of sovereign states and dependent territories|Lists of countries]] by [[demographic statistics|population statistics]]
+| state     = {{{state<includeonly>|autocollapse</includeonly>}}}
+| bodyclass = hlist
+| listclass = wraplinks
+
+|group1 = [[World population|Global]]
+|list1  = 
+* [[List of countries and dependencies by population|Current population]]
+** [[List of countries by population (United Nations)|United Nations]]
+* [[Demographics of the world]]
+
+|group2 = [[List of continents and continental subregions by population|Continents/subregions]]
+|list2  = 
+*[[List of African countries by population|Africa]]
+*[[Demographics of Antarctica|Antarctica]]
+*[[List of Asian countries by population|Asia]]
+*[[List of European countries by population|Europe]]
+*[[List of North American countries by population|North America]]
+**[[List of Caribbean countries by population|Caribbean]]
+*[[List of Oceanian countries by population|Oceania]]
+*[[List of South American countries by population|South America]]
+
+|group3 = Intercontinental
+|list3  = 
+*[[List of countries in the Americas by population|Americas]]
+*[[List of Arab countries by population|Arab world]]
+*[[List of member states of the Commonwealth of Nations by population|Commonwealth of Nations]]
+*[[List of Eurasian countries by population|Eurasia]]
+*[[List of European Union member states by population|European Union]]
+*[[List of islands by population|Islands]]
+*[[List of Latin American countries by population|Latin America]]
+*[[List of Middle Eastern countries by population|Middle East]]
+
+|group4 = Cities/urban areas
+|list4  = 
+*[[List of largest cities|World cities]]
+*[[List of national capitals by population|National capitals]]
+*[[Megacity|Megacities]]
+*[[Megalopolis]]es
+
+|group5 = Past and future
+|list5  = 
+*[[List of countries by past and projected future population|Past and future population]]
+*[[Estimates of historical world population]]
+*[[Human population projections]]
+*[[List of states by population in 1 CE|1]]
+*[[List of countries by population in 1000|1000]]
+*[[List of countries by population in 1500|1500]]
+*[[List of countries by population in 1600|1600]]
+*[[List of countries by population in 1700|1700]]
+*[[List of countries by population in 1800|1800]]
+*[[List of countries by population in 1900|1900]]
+*[[List of countries by population in 1939|1939]]
+*[[List of countries by population in 1989|1989]]
+*[[List of countries by population in 2000|2000]]
+*[[List of countries by population in 2005|2005]]
+*[[List of countries by population in 2010|2010]]
+*[[List of countries by population in 2015|2015]]
+*[[List of population milestones by country|Population milestones]]
+
+|group6 = [[Population density]]
+|list6  = 
+*[[List of countries and dependencies by population density|Current density]]
+*[[Past and future population density by country|Past and future population density]]
+*[[List of countries by arable land density|Person-to-arable land ratio]]
+
+|group7 = Growth indicators
+|list7  = 
+*[[List of countries by population growth rate|Population growth rate]]
+*[[List of countries by natural increase|Natural increase]]
+*[[List of countries by net reproduction rate|Net reproduction rate]]
+*[[List of countries by number of births|Number of births]]
+*[[List of countries by number of deaths|Number of deaths]]
+*[[List of countries by birth rate|Birth rate]]
+*[[List of countries by mortality rate|Mortality rate]]
+*[[List of sovereign states and dependencies by total fertility rate|Fertility rate]]
+*[[List of countries by past fertility rate|Past fertility rate]]
+
+|group8 = [[Life expectancy]]
+|list8  = 
+*[[List of countries by life expectancy|World]]
+*[[List of African countries by life expectancy|Africa]]
+*[[List of Asian countries by life expectancy|Asia]]
+*[[List of European countries by life expectancy|Europe]]
+*[[List of North American countries by life expectancy|North America]]
+*[[List of Oceanian countries by life expectancy|Oceania]]
+*[[List of South American countries by life expectancy|South America]]
+*[[List of world regions by life expectancy|world regions]]
+*[[List of countries by past life expectancy|past life expectancy]]
+
+|group9 = Other [[demography|demographics]]
+|list9  = 
+*[[List of countries by mean age at childbearing|Age at childbearing]]
+*[[List of countries by age at first marriage|Age at first marriage]]
+*[[List of countries by age structure|Age structure]]
+*[[List of countries by dependency ratio|Dependency ratio]]
+*[[Divorce demography|Divorce rate]]
+*[[List of countries ranked by ethnic and cultural diversity level|Ethnic and cultural diversity level]]
+*[[List of countries by ethnic groups|Ethnic composition]]
+*[[List of sovereign states by immigrant and emigrant population|Immigrant population]]
+*[[Linguistic diversity index|Linguistic diversity]]
+*[[List of countries by median age|Median age]]
+*[[List of sovereign states by net migration rate|Net migration rate]]
+*[[List of countries by number of households|Number of households]]
+*[[List of religious populations|Religion]] / [[List of countries by irreligion|Irreligion]]
+*[[List of countries by sex ratio|Sex ratio]]
+*[[List of countries by urban population|Urban population]]
+*[[Urbanization by country|Urbanization]]
+
+|group10 = [[Health]]
+|list10  = 
+*[[List of countries by antidepressant consumption|Antidepressant consumption]]
+*[[Stockpiling antiviral medications for pandemic influenza|Antiviral medications for pandemic influenza]]
+*[[List of countries by HIV/AIDS adult prevalence rate|HIV/AIDS adult prevalence rate]]
+*[[List of countries by infant and under-five mortality rates|Infant and under-five mortality rates]]
+*[[List of countries by maternal mortality ratio|Maternal mortality rate]]
+*[[List of countries by obesity rate|Obesity rate]]
+*[[List of countries by percentage of population suffering from undernourishment|Percentage suffering from undernourishment]]
+*[[List of OECD health expenditure by country by type of financing|Health expenditure by country by type of financing]]
+*[[List of countries by suicide rate|Suicide rate]]
+*[[List of countries by total health expenditure per capita|Total health expenditure per capita]]
+*[[Health spending as percent of gross domestic product (GDP) by country|Health spending as % of GDP]]
+*[[List of countries by body mass index|Body mass index]] (BMI)
+
+|group11 = Education and innovation
+|list11  = 
+*[[Bloomberg Innovation Index]]
+*[[Education Index]]
+*[[Global Innovation Index]]
+*[[International Innovation Index]]
+*[[List of countries by literacy rate|Literacy rate]]
+*[[Programme for the International Assessment of Adult Competencies]]
+*[[Programme for International Student Assessment]] (PISA)
+*[[Progress in International Reading Literacy Study]] (PIRLS)
+*[[Trends in International Mathematics and Science Study]] (TIMSS)
+*[[List of countries by tertiary education attainment|Tertiary education attainment]]
+*[[World Intellectual Property Indicators]]
+
+|group12 = [[Demographic economics|Economic]]
+|list12  = 
+*[[List of countries by share of population with access to financial services|Access to financial services]]
+*[[List of development aid sovereign state donors|Development aid donors]]
+**[[List of sovereign states by Official Development Assistance received|Official Development Assistance received]]
+*[[List of countries by employment rate|Employment rate]]
+*[[List of countries by irrigated land area|Irrigated land area]]
+*[[Human Development Index]]
+**[[List of countries by Human Development Index|by country]]
+**[[List of countries by inequality-adjusted Human Development Index|inequality-adjusted]]
+**[[List of countries by planetary pressures–adjusted Human Development Index|planetary pressures–adjusted HDI]]
+*[[Human Poverty Index]]
+*[[List of countries by imports|Imports]]
+*[[List of countries by exports|Exports]]
+*[[List of countries by income inequality|Income inequality]]
+*[[List of countries by labour force|Labour force]]
+*[[List of countries by share of income of the richest one percent|Share of income of top 1%]] 
+*[[List of countries by number of millionaires|Number of millionaires (US dollars)]]
+*[[List of countries by number of billionaires|Number of billionaires (US dollars)]]
+*[[List of countries by percentage of population living in poverty|Percentage living in poverty]]
+*[[List of countries by public sector size|Public sector]]
+*[[List of countries by unemployment rate|Unemployment rate]]
+*[[List of countries by wealth inequality|Wealth inequality]]
+
+|below   = {{Country lists footer}}
+
+}}<noinclude>
+{{collapsible option}}
+{{check completeness of transclusions}}
+[[Category:Country list templates]]
+[[Category:Population templates]]
+</noinclude>

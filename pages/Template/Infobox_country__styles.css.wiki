@@ -1,0 +1,116 @@
+/* {{pp|small=y}} */
+.ib-country {
+	border-collapse: collapse;
+	line-height: 1.2em;
+}
+
+/* TODO split definitions to appropriate class names when live from HTML element */
+.ib-country td,
+.ib-country th {
+	border-top: 1px solid #a2a9b1;
+	padding: 0.4em 0.6em 0.4em 0.6em;
+}
+
+.ib-country .mergedtoprow .infobox-header,
+.ib-country .mergedtoprow .infobox-label,
+.ib-country .mergedtoprow .infobox-data,
+.ib-country .mergedtoprow .infobox-full-data,
+.ib-country .mergedtoprow .infobox-below {
+	border-top: 1px solid #a2a9b1;
+	padding: 0.4em 0.6em 0.2em 0.6em;
+}
+
+.ib-country .mergedrow .infobox-label,
+.ib-country .mergedrow .infobox-data,
+.ib-country .mergedrow .infobox-full-data {
+	border: 0;
+	padding: 0 0.6em 0.2em 0.6em;
+}
+
+.ib-country .mergedbottomrow .infobox-label,
+.ib-country .mergedbottomrow .infobox-data,
+.ib-country .mergedbottomrow .infobox-full-data {
+	border-top: 0;
+	border-bottom: 1px solid #a2a9b1;
+	padding: 0 0.6em 0.4em 0.6em;
+}
+
+.ib-country .infobox-header {
+	text-align: left;
+}
+
+.ib-country .infobox-above {
+	font-size: 125%;
+	line-height: 1.2;
+}
+
+.ib-country-names {
+	padding-top: 0.25em;
+	font-weight: normal;
+}
+
+.ib-country-name-style {
+	display: inline;
+}
+
+.ib-country .infobox-image {
+	padding: 0.5em 0;
+}
+
+.ib-country-anthem {
+	border-top: 1px solid #a2a9b1;
+	padding-top: 0.5em;
+	margin-top: 0.5em;
+}
+
+.ib-country-map-caption {
+	position: relative;
+	top: 0.3em;
+}
+
+.ib-country-largest,
+.ib-country-lang {
+	font-weight: normal;
+}
+
+.ib-country-ethnic,
+.ib-country-religion,
+.ib-country-sovereignty {
+	font-weight: normal;
+	display: inline;
+}
+
+.ib-country-fake-li {
+	text-indent: -0.9em;
+	margin-left: 1.2em;
+	font-weight: normal;
+}
+
+.ib-country-fake-li2 {
+	text-indent: 0.5em;
+	margin-left: 1em;
+	font-weight: normal;
+}
+
+.ib-country-website {
+	line-height: 11pt;
+}
+
+.ib-country-map-caption3 {
+	position: relative;
+	top: 0.3em;
+}
+
+.ib-country-fn {
+	text-align: left;
+	margin: 0 auto;
+}
+
+.ib-country-fn-alpha {
+	list-style-type: lower-alpha;
+	margin-left: 1em;
+}
+
+.ib-country-fn-num {
+	margin-left: 1em;
+}

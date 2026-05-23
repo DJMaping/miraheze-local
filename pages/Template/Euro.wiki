@@ -1,0 +1,11 @@
+<span style="white-space: nowrap">{{#ifeq:{{{link}}}|yes|[[Euro|€]]|€}}<!--
+-->{{formatnum:{{replace|{{{1|}}}|,|}}}}</span>{{#if:{{{showyear|}}}| {{#if:{{{year|{{{2|}}}}}}|&nbsp;in {{{year|{{{2|}}}}}}}}}}<!--
+-->{{#ifeq:{{{year|{{{2|0}}}}}}|0||{{#ifexpr:{{Inflation/EU/startyear}}<={{{year|{{{2|0}}}}}} and {{{year|{{{2|0}}}}}}<{{Inflation/year|EU}}
+ |&#32;({{#if:{{{about|}}}
+  |equivalent to about €{{formatnum:{{Inflation|EU|{{formatnum:{{{1|}}}|R}}|{{{year|{{{2}}}}}}|r={{{round|0}}}}}}}
+  |equivalent to €{{formatnum:{{Inflation|EU|{{formatnum:{{{1|}}}|R}}|{{{year|{{{2}}}}}}|r={{{round|{{#ifexpr:{{Inflation|EU|{{formatnum:{{{1|}}}|R}}|{{{year|{{{2}}}}}}}}>1000|0|2}}}}}}}}}
+ }} in {{Inflation/year|EU}})
+}}}}<noinclude>
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+{{documentation}}
+</noinclude>

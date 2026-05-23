@@ -1,0 +1,3 @@
+{{#invoke:flag||Afghanistan}}<noinclude>
+{{flag template documentation|Afghanistan|AFG|AFG|AFG}}
+</noinclude>

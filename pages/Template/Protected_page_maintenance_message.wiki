@@ -1,0 +1,16 @@
+{{#switch: {{{demo|{{PROTECTIONLEVEL:edit}}}}}
+   |sysop = {{if administrator|{{{1}}} or }}{{submit an edit request/link|type=full|display={{{2|making an edit request}}} }}
+   |extendedconfirmed = {{If extended confirmed|{{{1}}}|{{if administrator|{{{1}}} or }}{{submit an edit request/link|type=extended|display={{{2|making an edit request}}} }}}}
+   |autoconfirmed = {{If IP|{{submit an edit request/link|display={{{2|making an edit request}}} }}|{{{1}}} }}
+   | {{{1}}}
+}}<noinclude>
+{{documentation|content=
+{{High use|info=This template is used by {{tl|Expand section}} and {{tl|Missing information}}.}}
+This convenience template is used to allow for a switchable statement to be easily placed in the code of maintenance templates such as {{t|Expand section}} or {{tl|Missing information}}. If a page is protected, any user who cannot edit the page will be given a link to make an edit request rather than the default text.
+
+This template takes one mandatory input, an unnamed parameter that will be the unprotected/default text seen by editors. If there are <code>=</code>s in the parameter, use {{para|1}} to enter the text.
+
+A second optional input will give custom text to display for the users who cannot edit. Defaults to <code>making an edit request</code> if {{para|2}} is not given
+}}
+[[Category:Template namespace templates]]
+</noinclude>

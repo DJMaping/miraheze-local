@@ -1,0 +1,161 @@
+<includeonly>{{#if:{{{ref|}}}|<templatestyles src="Citation/styles.css"/><span class="citation" id="{{anchorencode:{{{ref}}}}}">}}<!-- 
+-->{{#if: {{{Cartoonist|{{{cartoonist|{{{creator|}}}}}}}}}|
+     {{{Cartoonist|{{{cartoonist|{{{creator}}}}}}}}}&nbsp;([[Script (comics)|w]],&nbsp;[[artist|a]])
+   }}<!--
+-->{{#if:{{{Writer|{{{writer|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|}}}}}}}}}|
+       ,&#32;
+     }}{{{Writer|{{{writer}}}}}}{{#if:{{{Cowriters|{{{cowriters|}}}}}}
+                                  |,&#32;{{{Cowriters|{{{cowriters|}}}}}}
+                                 }}&nbsp;([[Script (comics)|w]])
+   }}<!--
+-->{{#if:{{{Artist|{{{artist|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{Artist|{{{artist}}}}}}{{#if:{{{Coartists|{{{coartists|}}}}}}
+                                  |,&#32;{{{Coartists|{{{coartists}}}}}}
+                                 }}&nbsp;([[artist|a]])
+   }}<!--
+-->{{#if:{{{Penciller|{{{penciller|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|}}}}}}}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{Penciller|{{{penciller}}}}}}{{#if:{{{Copencillers|{{{copencillers|}}}}}}
+                                        |,&#32;{{{Copencillers|{{{copencillers}}}}}}
+                                      }}&nbsp;([[penciller|p]])
+   }}<!--
+-->{{#if:{{{Inker|{{{inker|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|{{{Penciller|{{{penciller|}}}}}}}}}}}}}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{Inker|{{{inker}}}}}}{{#if:{{{Coinkers|{{{coinkers|}}}}}}
+                                |,&#32;{{{Coinkers|{{{coinkers}}}}}}
+                              }}&nbsp;([[inker|i]])
+   }}<!--
+-->{{#if:{{{Colorist|{{{colorist|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|{{{Penciller|{{{penciller|{{{Inker|{{{inker|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{Colorist|{{{colorist}}}}}}&nbsp;([[colorist|col]])
+   }}<!--
+-->{{#if:{{{Letterer|{{{letterer|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|{{{Penciller|{{{penciller|{{{Inker|{{{inker|{{{Colorist|{{{colorist|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{Letterer|{{{letterer}}}}}}&nbsp;([[letterer|let]])
+   }}<!--
+-->{{#if:{{{Editor|{{{editor|}}}}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|{{{Penciller|{{{penciller|{{{Inker|{{{inker|{{{Colorist|{{{colorist|{{{Letterer|{{{letterer|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{Editor|{{{editor}}}}}}&nbsp;([[Editing|ed]])
+   }}<!--
+-->{{#if:{{{others|}}}|
+     {{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|{{{Penciller|{{{penciller|{{{Inker|{{{inker|{{{Colorist|{{{colorist|{{{Letterer|{{{letterer|{{{Editor|{{{editor|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|
+       ,&#32;
+     }}{{{others}}}
+   }}<!--
+-->{{#if:{{{Cartoonist|{{{cartoonist|{{{creator|{{{Writer|{{{writer|{{{Artist|{{{artist|{{{Penciller|{{{penciller|{{{Inker|{{{inker|{{{Colorist|{{{colorist|{{{Letterer|{{{letterer|{{{Editor|{{{editor|{{{others|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|
+     .&#32;
+   }}<!--
+-->{{#if:{{{Story|{{{story|}}}}}}|
+     {{#if:{{{url|}}}|
+       [{{#ifeq: {{{url-status}}}|live 
+           |{{{url}}} 
+           |{{if empty|{{{archive-url|}}}|{{{url|}}}
+             }}
+        }} "{{#invoke:String|replace|source={{{Story|{{{story}}}}}}|pattern="|replace=|count=2}}"]{{#if:{{{format|}}}|
+                                              &#32;({{{format}}})
+                                            }}|
+       "{{#invoke:String|replace|source={{{Story|{{{story}}}}}}|pattern="|replace=|count=2}}"{{#if:{{{format|}}}|
+                                  &#32;({{{format}}})
+                                }}
+     }}{{#if:{{{Title|{{{title|{{{Strip|{{{strip|}}}}}}}}}}}}
+         |&#32;''{{{Title|{{{title|{{{Strip|{{{strip}}}}}}}}}}}}''
+         |
+       }}|
+     {{#if:{{{url|}}}|
+       ''[{{#ifeq: {{{url-status}}}|live 
+           |{{{url}}} 
+           |{{if empty|{{{archive-url|}}}|{{{url|}}}
+             }}
+          }} {{{Title|{{{title|{{{Strip|{{{strip|{{Noitalic|Untitled}}}}}}}}}}}}}}]''{{#if:{{{format|}}}|
+                                                &#32;({{{format}}})
+                                              }}|
+       '' {{{Title|{{{title|{{{Strip|{{{strip|{{Noitalic|Untitled}}}}}}}}}}}}}}''{{#if:{{{format|}}}|
+                                    &#32;({{{format}}})
+                                  }}
+     }}
+   }}<!--
+-->{{#if:{{{Strip|{{{strip|}}}}}}|
+{{#if:
+ {{{Paper|{{{paper|{{{newspaper|}}}}}}}}}
+ |.&#32;''{{{Paper|{{{paper|{{{newspaper}}}}}}}}}''}}{{#if:
+ {{{Location|{{{location|}}}}}}
+ |&#32;({{{Location|{{{location}}}}}})}}<!--
+-->{{#if:{{{Date|{{{date|{{{year|}}}}}}}}}
+   |.&#32;{{#invoke:Auto date formatter|pub_date_format|{{{Date|{{{date|{{{year|}}}}}}}}}}}
+}}
+}}<!--
+-->{{#if:{{{Volume|{{{volume|}}}}}}
+     |,&#32;vol.&nbsp;{{{Volume|{{{volume}}}}}}
+   }}<!--
+-->{{#if:{{{Issue|{{{issue|}}}}}}|
+     ,&#32;no.&nbsp;{{#invoke:String|replace|source={{{Issue|{{{issue}}}}}}|pattern=#|replace=|count=1}}
+   }}<!--
+-->{{#if:{{{Strip|{{{strip|}}}}}}|<!--Strip=true. Else below: -->|<!--
+-->{{#if:{{{Page|{{{page|}}}}}}
+     |,&#32;p.&nbsp;{{{Page|{{{page}}}}}}
+     |{{#if:{{{Pages|{{{pages|{{{at|}}}}}}}}}
+        |{{#if:{{{at|}}}|,&#32;{{{at}}}|,&#32;pp.&nbsp;{{#invoke:String|replace|source={{{Pages|{{{pages}}}}}}|pattern=-|replace=&ndash;}}}}
+      }}
+   }}{{#if:{{{Panel|{{{panel|}}}}}}|/{{{Panel|{{{panel}}}}}}}}
+  }}<!--
+-->{{#if:{{{Strip|{{{strip|}}}}}}|
+{{#if:
+ {{{Supplement|{{{supplement|}}}}}}
+ |&#32;[{{{Supplement|{{{supplement}}}}}}]}}<!--
+-->{{#if:{{{Syndicate|{{{syndicate|{{{Publisher|{{{publisher|}}}}}}}}}}}}
+        |,&#32;{{{Syndicate|{{{syndicate|{{{Publisher|{{{publisher}}}}}}}}}}}}}}<!--
+-->{{#if:{{{Page|{{{page|}}}}}}
+     |,&#32;p.&nbsp;{{{Page|{{{page}}}}}}
+     |{{#if:{{{Pages|{{{pages|{{{at|}}}}}}}}}
+        |{{#if:{{{at|}}}|,&#32;{{{at}}}|,&#32;pp.&nbsp;{{#invoke:String|replace|{{{Pages|{{{pages}}}}}}|-|&ndash;}}}}
+      }}
+   }}{{#if:{{{Panel|{{{panel|}}}}}}|/{{{Panel|{{{panel}}}}}}}}
+|<!--not a strip-->
+<!--
+-->{{#if:{{{Date|{{{date|{{{year|}}}}}}}}}|&#32;({{#invoke:Auto date formatter|pub_date_format|{{{Date|{{{date|{{{year|}}}}}}}}}}})}}<!--
+-->{{#if:{{{Publisher|{{{publisher|{{{Syndicate|{{{syndicate|}}}}}}}}}}}}|
+     .&#32;{{#if:{{{Location|{{{location|}}}}}}|
+             {{{Location|{{{location}}}}}}:&#32;
+           }}{{{Publisher|{{{publisher|{{{Syndicate|{{{syndicate}}}}}}}}}}}}
+   }}
+  }}<!--
+-->{{#if:{{{ID|{{{id|}}}}}}|
+     ,&#32;{{{ID|{{{id}}}}}}
+   }}<!--
+-->{{#switch:{{{language|{{{Language|}}}}}}
+     |en
+     |En
+     |English = 
+     |{{#if:{{{language|{{{Language|}}}}}}|
+        ,&#32;{{in lang|{{{language|{{{Language|}}}}}}}}
+      }}
+   }}<!--
+--><!--
+-->{{#if:{{{url|}}}|{{#if:{{{archive-url|}}}|{{
+      #ifeq:{{{url-status}}}|live
+        |.&#32;[{{{archive-url|}}} Archived] from the original
+        |.&#32;Archived from [{{{url}}} the original]}}{{
+      #if:{{{archive-date|}}}|&#32;on {{#invoke:Auto date formatter|access_archive_format|{{{archive-date}}}}}
+      }}
+   }}<!--
+-->{{#if: {{{accessdate|{{{access-date|}}}}}}|
+      .&#32;Retrieved on {{#invoke:Auto date formatter|access_archive_format|{{{accessdate|{{{access-date|}}}}}}}}
+   }}}}.<!--
+-->{{#if:{{{quote|}}}|
+       &#32;&#34;{{{quote}}}&#34;}}{{#if:{{{ref|}}}|</span>}}<!--
+-->{{#if:{{{Title|{{{title|{{{Strip|{{{strip|{{{Story|{{{story|}}}}}}}}}}}}}}}}}}|
+       |{{Preview warning|{{t|cite comic}}: Either <code>{{{|title=}}}</code> or <code>{{{|strip=}}}</code> is required. Use <code>{{{|title=}}}</code> for the title of a comic book series or graphic novel; use <code>{{{|strip=}}}</code> for a comic strip. ([[Template:cite comic#Title|help]])
+        }}[[Category:Pages using cite comic with no title|{{PAGENAME}}]]
+   }}<!--
+-->{{#if:{{{Date|{{{date|{{{year|}}}}}}}}}|
+       |{{Preview warning|{{t|cite comic}}: <code>{{{|date=}}}</code> is required. Use the publication date, also known as the "cover date". ([[Template:cite comic#Date|help]])
+        }}[[Category:Pages using cite comic with no date|{{PAGENAME}}]]
+   }}</includeonly>{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using cite comic with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:cite comic]] with unknown parameter "_VALUE_"|ignoreblank=y| accessdate | access-date | archive-date | archive-url | artist | Artist | at | cartoonist | Cartoonist | coartists | Coartists | coinkers | Coinkers | colorist | Colorist | copencillers | Copencillers | cowriters | Cowriters | creator | date | Date | editor | Editor | format | id | ID | inker | Inker | issue | Issue | Language | language | letterer | Letterer | location | Location | newspaper | others | page | Page | pages | Pages | panel | Panel | paper | Paper | penciller | Penciller | publisher | Publisher | Quote | quote | ref | story | Story | strip | Strip | supplement | Supplement | syndicate | Syndicate | title | Title | url | url-status | volume | Volume | writer | Writer | year}}<noinclude>{{Documentation}}</noinclude>

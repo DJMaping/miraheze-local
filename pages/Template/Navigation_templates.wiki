@@ -1,0 +1,34 @@
+<templatestyles src="Module:Navbox/styles.css" />
+{| class="wikitable" style="margin-left: auto; margin-right: auto; text-align: center;"
+|+ Navigation templates comparison {{Navbar|Navigation templates|plain=1|brackets=y}}
+|-
+! Template
+! Collapsible
+! Image !! Groups !! Style (body) <br /> parameter/s
+|-
+| style="text-align: left;" | {{tl|Navbox}}
+| collapsible
+| Left/right of body || Yes || Yes
+|-
+| style="text-align: left;" | {{tl|Navbox with collapsible groups}}
+| collapsible
+| Left/right of body and/or in each list || Yes || Yes
+|-
+| style="text-align: left;" | {{tl|Navbox with columns}}
+| collapsible
+| Left/right of columns || No || Yes
+|}
+
+{| class="wikitable" style="margin-left: auto; margin-right: auto; text-align: center;"
+|+ Collapsible attributes
+|-
+! Type !! CSS classes !! JavaScript !! Collapses when !! Custom <br /> initial&nbsp;state !! Nesting
+|-
+| style="text-align:left;" | [[Help:Collapsing|Collapsible tables]]
+| mw-collapsible
+| | [[mw:Special:MyLanguage/ResourceLoader/Core modules#jquery.makeCollapsible|jQuery.makeCollapsible]]
+| 2 or more autocollapse on page || Yes || Yes
+|}<noinclude>
+[[Category:Navigational box metatemplates|Δ]]
+[[Category:Documentation shared content templates]]
+</noinclude>

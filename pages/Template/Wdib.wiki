@@ -1,0 +1,3 @@
+{{#invoke:WikidataIB|getValue}}<noinclude>
+{{documentation}}
+</noinclude>

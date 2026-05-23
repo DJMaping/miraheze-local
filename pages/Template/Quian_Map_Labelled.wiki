@@ -1,0 +1,30 @@
+{{Image label begin|image=Quian Map Labelled.png|width={{{width|1100}}}|font-size=95%|float={{{float|none}}}|link=}}
+{{Image label custom|x=600|y=190|scale=1|text=''[[:Category:North Quia|North Quia]]''}}
+{{Image label custom|x=850|y=270|scale=1|text=''[[:Category:East Quia|East<br>Quia]]''}}
+{{Image label custom|x=495|y=192|scale=1|text=''[[:Category:West Quia|West<br>Quia]]''}}
+{{Image label custom|x=680|y=390|scale=1|text=''[[:Category:South Quia|South Quia]]''}}
+{{Image label custom|x=195|y=560|scale=1|text=''[[:Category:Mahea|Mahea]]''}}
+
+{{Image label custom|x=680|y=420|scale=1|text=[[Lake Awlecoment|Lake<br>Awlecoment]]}}
+{{Image label custom|x=550|y=130|scale=1|text=[[Ankusano]]}}
+{{Image label custom|x=530|y=185|scale=1|text=[[Sursa]]}}
+{{Image label custom|x=650|y=150|scale=1|text=[[Landar]]}}
+{{Image label custom|x=495|y=260|scale=1|text=[[Stormelu]]}}
+{{Image label custom|x=910|y=290|scale=1|text=[[Fedaea]]}}
+
+{{Image label custom|x=550|y=155|scale=1|text=[[Isellara River]]}}
+{{Image label custom|x=630|y=345|scale=1|text=[[Valduris River]]}}
+{{Image label custom|x=850|y=340|scale=1|text=[[Ukliqui River]]}}
+{{Image label custom|x=760|y=215|scale=1|text=[[Kertesen Mountain range|Kertesen Mountains]]}}
+{{Image label custom|x=420|y=250|scale=1|text=[[Shorhi Peninsula|Shorhi<br>Peninsula]]}}
+{{Image label custom|x=210|y=260|scale=1|text=[[Asstia archipelago]]}}
+{{Image label custom|x=650|y=065|scale=1|text=[[Prwwnsa archipelago|Prwwnsa<br>archipelago]]}}
+
+{{Image label custom|x=765|y=460|scale=1|text=[[Ciniu]]}}
+{{Image label custom|x=600|y=213|scale=1|text=[[Inas]]}}
+{{Image label custom|x=720|y=275|scale=1|text=[[Alomara]]}}
+{{Image label custom|x=600|y=440|scale=1|text=[[Ikwuew]]}}
+{{Image label custom|x=530|y=350|scale=1|text=[[Ankran]]}}
+{{Image label custom|x=640|y=290|scale=1|text=[[Ghotchwe]]}}
+{{Image label custom|x=905|y=390|scale=1|text=[[Nkansie Peninsula]]}}
+{{Image label end}}</center>

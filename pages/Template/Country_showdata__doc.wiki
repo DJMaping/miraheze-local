@@ -1,0 +1,159 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Lua|Module:String}}
+
+This template is used for documenting country data meta-templates used by the [[:Category:Flag template system|flag template system]].  The output of this template can be seen by directly viewing any of the templates in [[:Category:Country data templates]].
+
+See [[Wikipedia:WikiProject Flag Template]] for the main documentation and discussion page for the flag template system.
+
+==Usage==
+This template is automatically invoked by the standard syntax of a country data template: 
+<syntaxhighlight lang="wikitext">
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Countryname
+| shortname alias = Shortcountryname  <!-- only necessary if Shortcountryname ≠ Countryname, otherwise omit -->
+| flag alias = Flag of Countryname.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}  <!-- only necessary if there is one or more flag alias-variant parameters, otherwise omit -->
+}}
+</syntaxhighlight>
+The first parameter to a country data template is usually the name of a ''formatting meta-template''. For example, [[Template:Flag]] uses [[Template:Flag/core]] to actually render the flag icon and wikilink. If the first parameter is missing, which is the case when a country data template is viewed directly, the template code fragment <code><nowiki>{{{1&lt;noinclude&gt;|country showdata&lt;/noinclude&gt;}}}</nowiki></code> ensures that ''this'' template will be used as the default first parameter. This technique ensures that country data templates are "self-documenting" if they use the standard syntax.
+
+==Additional parameters==
+Many country data templates require additional documentation beyond the standard mandatory <code>alias</code> and <code>flag alias</code> parameters. This template will automatically document standard optional parameters (such as <code>shortname alias</code>) if present<!-- the documentation is in the template code -->, and can document unique optional parameters (such as flag variants) if instructed to. This latter method uses documentation-specific parameters in the country data template to activate the additional output from this template. These documentation parameters are set off from the rest of the parameters in the country data template by a <code><nowiki>&lt;noinclude&gt;</nowiki></code> section:
+<syntaxhighlight lang="wikitext">
+<noinclude>
+| var1 = ...
+| redir1 = ...
+| related1 = ...
+</noinclude>
+</syntaxhighlight>
+
+===Hatnote===
+If a brief hatnote is needed, then it can be added to the top of the documentation page by including the {{para|hatnote}} parameter with any of the existing hatnote templates. Example:
+: {{para|hatnote|<nowiki>{{Hatnote|This template contains data that applies to the [[Republic of Ireland|sovereign state]]. For the island of [[Ireland]], see [[Template:Country data Ireland]].}}</nowiki>}}
+results in:
+{{Hatnote|This template contains data that applies to the [[Republic of Ireland|sovereign state]]. For the island of [[Ireland]], see [[Template:Country data Ireland]].}}
+
+See also {{tl|Country data Georgia (country)}} for another hatnote example.
+
+===Flag variants===
+Flag variants are added to a country data template by the inclusion of one or more <code>flag alias-''label''</code> parameters, where each <code>''label''</code> is a unique identifier that is subsequently used as an input parameter to <code><nowiki>{{flag|...}}</nowiki></code>, <code><nowiki>{{flag icon|...}}</nowiki></code>, etc. To document these flag variants, use the <code>var''N''</code> documentation parameters to identify each label.
+
+For example, [[Template:Country data Seychelles]] identifies three flag variants (in addition to the current flag) with the following code:
+<syntaxhighlight lang="wikitext">
+| flag alias-1976 = Flag of the Seychelles 1976.svg
+| flag alias-1977 = Flag of the Seychelles 1977.svg
+| flag alias-colonial = Government Ensign of the United Kingdom.svg
+</syntaxhighlight>
+These three variants are documented by the following code segment later in the template:
+<syntaxhighlight lang="wikitext">
+<noinclude>
+| var1 = 1976
+| var2 = 1977
+| var3 = colonial
+...
+</noinclude>
+</syntaxhighlight> 
+Up to forty flag variants can be documented by this method (using <code>var1</code> to <code>var40</code>).  If more are present, these can be listed on a separate documentation subpage as described below.
+
+Note that you do ''not'' have to use a <code>var''N''</code> parameter for the standard optional variant labels <code>naval</code>, <code>air force</code> and <code>army</code> (used for the country's naval, air force and army ensigns, respectively). If present, they will automatically be documented.
+
+===Redirect aliases===
+Many country data templates have ''alias'' names that can be used instead of the usual country name with all of the main flag templates. These are usually, but not exclusively, standard country code abbreviations such as those specified in [[ISO 3166-1 alpha-3]] or by the [[List of IOC country codes|IOC]] or [[List of FIFA country codes|FIFA]]. These are implemented as redirects, and are listed in [[:Category:Country data redirects]]. Template {{tl|R country data}} is used to populate that category.
+
+For example, [[Template:Country data DEU]] and [[Template:Country data GER]] both redirect to [[Template:Country data Germany]], because ''DEU'' is the ISO code and ''GER'' is the IOC and FIFA code for Germany. Therefore, <code><nowiki>{{flag icon|DEU}}</nowiki></code>, <code><nowiki>{{flag icon|GER}}</nowiki></code>, and <code><nowiki>{{flag icon|Germany}}</nowiki></code> all have the same result. These redirect aliases are documented by the following template code fragment:
+<syntaxhighlight lang="wikitext">
+<noinclude>
+...
+| redir1 = DEU
+| redir2 = GER
+...
+</noinclude>
+</syntaxhighlight>
+
+Up to five flag redirects can be documented by this method (using <code>redir1</code> to <code>redir5</code>).
+
+===Related templates===
+Several country data templates are used for alternative forms to the common country data template for the nation, usually but not exclusively for historic nations. Pointers to these alternative templates are useful additions to the template documentation so that editors can use the correct template for their specific purposes.
+
+For example, [[Template:Country data Serbia and Montenegro]] includes the following code to document three other related country data templates:
+<syntaxhighlight lang="wikitext">
+<noinclude>
+...
+| related1 = Serbia
+| related2 = Montenegro
+| related3 = FR Yugoslavia
+...
+</noinclude>
+</syntaxhighlight>
+<!-- (Does not work yet)
+Parameters may be passed to the related templates like this:
+<syntaxhighlight lang="wikitext">
+<noinclude>
+...
+| related1 = Central America
+| related1param = 1823
+...
+</noinclude>
+</syntaxhighlight>
+-->
+
+Up to six related flags can be documented by this method (using <code>related1</code> to <code>related6</code>).
+
+===Flag article link===
+This template shows a large flag image on the right of the documentation box, with a link to an article about the flag in the caption if it exists. The page that it evaluates is "Flag of {{param|alias}}", with the value of {{para|alias}} in the template code replacing {{param|alias}}. If there is an article about the flag even though "Flag of {{param|alias}}" does not exist, either create the latter as a redirect to the correct page or add the following parameter:
+<syntaxhighlight lang="wikitext">
+<noinclude>
+...
+| flag link = ''Article name''
+...
+</noinclude>
+</syntaxhighlight>
+
+This can also be used to override the automatic link if "Flag of {{param|alias}}" does exist but leads to the wrong article.
+
+===Additional documentation===
+{{hatnote|'''There is no need''' to "noinclude" template {{tl|Documentation}} in the main country data template.}}
+For situations where the automatic documentation method is not completely adequate, additional documentation can be displayed by <code>country showdata</code>. Simply create a documentation subpage (named as <code>Template:Country data Countryname/doc</code>) with the additional material, and it will be transcluded to a section called "Other information" at or near the end of the automatic documentation. This "extra" documentation page can usually be edited even if the country data template is edit-protected.
+
+For example:
+* [[Template:Country data Ireland/doc]] is used to explain why that template is distinct from [[Template:Country data Republic of Ireland]]
+* [[Template:Country data France/doc]] is used to document the list of country data templates available for each of the regions of France
+* [[Template:Country data United States/doc]] is used to document the full set of flag variants (for each number of stars), and to list all of the country data templates available for state and territory flags
+* [[Template:Country data Empire of Japan/doc]] sorts its template into individualized categories.
+
+===Categorization===
+This template automatically categorizes pages it is transcluded on in [[:Category:All country data templates]] and in the tracking categories in [[:Category:Country data tracking categories]]. Content categories, such as those [[:Category:Country data templates by country|by country]] or [[:Category:Country data templates by type of entity|by type/status]], should be added manually by putting them inside {{tag|includeonly}} tags on a template's documentation subpage. If a template does not have a documentation page yet, click on the "/doc" link at the bottom of the automatic documentation, add categories between the preloaded {{tag|includeonly|open}} tags and save the page.
+
+The default sort key used for the automatic categories is the part after <code>Template:Country data</code> in the page title. The parameter {{para|cat}} can be used to specify a custom ASCII sorting key for these categories. For example, [[Template:Country data Åland Islands]] and [[Template:Country data Republic of Ireland]] use this parameter to sort them under "A" and "I" respectively.
+
+Automatically added by this template:
+* {{clc|All country data templates}}
+* {{clc|Country data template sandboxes}}
+* {{clc|Country data templates with distinct default size}}
+* {{clc|Country data templates with distinct shortname}}
+* {{clc|Country data templates with distinct template name}}
+* {{clc|Country data templates with documentation subpage}}
+* {{clc|Country data templates without flag alias}}
+* {{clc|Uncategorized country data templates}}
+
+Manually added to templates or documentation pages:
+* {{clc|Country data templates of countries}}
+* {{clc|Subnational country data templates}}
+* {{clc|Country data templates of cities}}
+* {{clc|Country data templates of continents}}
+* {{clc|Country data templates of dependent territories}}
+* {{clc|Country data templates of geographical regions}}
+* {{clc|Country data templates of governments}}
+* {{clc|Country data templates of historical entities}}
+* {{clc|Country data templates of international organizations}}
+* {{clc|Country data templates of micronations}}
+
+<includeonly>{{Sandbox other|
+| <!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Flag template system| ]]
+[[Category:Data retrieval templates]]
+
+}}</includeonly>

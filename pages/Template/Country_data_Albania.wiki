@@ -1,0 +1,45 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Albania
+| flag alias = Flag of Albania.svg
+| flag alias-1914 = Flag of Albania (1914–1920).svg
+| flag alias-1914a= Regentaschapalbanievlag.gif
+| flag alias-1920 = Flag of Albania (1920–1926).svg
+| flag alias-1926 = Flag of Albania (1926–1928).svg
+| flag alias-1928 = Flag of Albania (1934–1939).svg
+| flag alias-1939 = Flag of Albania (1939–1943).svg
+| flag alias-1943 = Flag of Albania (1943–1944).svg
+| flag alias-1944 = Flag of Albania 1944.svg
+| flag alias-1946 = Flag of Albania (1946–1992).svg
+| flag alias-1992 = Flag of Albania (1992–2002).svg
+| flag alias-civil = Civil Ensign of Albania.svg
+| flag alias-naval = Naval Ensign of Albania.svg
+| link alias-naval = Albanian Naval Force
+| link alias-army = Albanian Land Force
+| flag alias-army=Albanian Land Forces insignia.svg
+| border-army=
+| flag alias-air force=Albanian Air Forces insignia.svg
+| link alias-air force=Albanian Air Force
+| border-air force=
+| flag alias-navy=Albanian Naval Forces insignia.svg
+| link alias-navy=Albanian Naval Force
+| border-navy=
+| link alias-military = Albanian Armed Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| var2 = 1914
+| var3 = 1914a
+| var4 = 1920
+| var5 = 1926
+| var6 = 1928
+| var7 = 1939
+| var8 = 1943
+| var9 = 1944
+| var10= 1946
+| var11= 1992
+| redir1 = ALB
+</noinclude>
+}}

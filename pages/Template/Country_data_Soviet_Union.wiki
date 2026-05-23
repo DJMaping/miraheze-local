@@ -1,0 +1,52 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Soviet Union
+| flag alias = Flag of the Soviet Union.svg
+| flag alias-1922 = Flag of the Soviet Union (1922–1923).svg
+| flag alias-1923 = Flag of the Soviet Union (1924).svg
+| flag alias-1924 = Flag of the Soviet Union (1924–1936).svg
+| flag alias-1936 = Flag of the Soviet Union (1936 – 1955).svg
+| flag alias-1955 = Flag of the Soviet Union.svg
+| flag alias-coast guard-1924 = USSR, Flag KGB 1924.svg
+| link alias-coast guard-1924 = Soviet Border Troops
+| flag alias-coast guard-1935 = USSR, Flag KGB 1935.svg
+| link alias-coast guard-1935 = Soviet Border Troops
+| flag alias-coast guard = USSR, Flag KGB 1950.svg
+| link alias-coast guard = Soviet Border Troops
+| flag alias-air force=Flag of the Soviet Air Force.svg
+| link alias-air force=Soviet Air Forces
+| flag alias-army = Flag of the Soviet Union.svg
+| link alias-army = Soviet Army
+| flag alias-naval = Naval Ensign of the Soviet Union (1950–1991).svg
+| flag alias-naval-1924 = Naval Ensign of the Soviet Union (1923–1935).svg
+| flag alias-naval-1935 = Naval Ensign of the Soviet Union 1935.svg
+| flag alias-VV MVD naval = USSR, Naval flag of ships by the Interior Force 1983.svg
+| link alias-naval = {{#switch:{{{variant|}}}|VV MVD naval=Soviet Internal Troops|Soviet Navy}}
+| flag alias-navy = Naval Ensign of the Soviet Union (1950–1991).svg
+| link alias-navy = Soviet Navy
+| flag alias-marines= Flag of the Soviet Union.svg
+| link alias-marines= Soviet Naval Infantry
+| flag alias-military= Flag of the Soviet Union.svg
+| link alias-military= Soviet Armed Forces
+| size = {{{size|}}}
+| name = {{#ifeq:{{{name|}}}|USSR|Soviet Union|{{{name|}}}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1922
+| var2 = 1923
+| var3 = 1924
+| var4 = 1936
+| var5 = 1955
+| var6 = naval-1924
+| var7 = naval-1935
+| var8 = coast guard-1924
+| var9 = coast guard-1935
+| var10 = VV MVD naval
+| redir1 = URS
+| redir2 = USSR
+| redir3 = SUN
+| redir4 = the Soviet Union
+| related1 = Commonwealth of Independent States
+</noinclude>
+}}

@@ -1,0 +1,3 @@
+<includeonly>{{safesubst:<noinclude/>#invoke:val|main}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

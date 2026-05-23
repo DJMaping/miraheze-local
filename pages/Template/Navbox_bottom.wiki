@@ -1,0 +1,2 @@
+<includeonly>{{#invoke:navbox top and bottom|bottom}}</includeonly><noinclude>
+{{documentation|Template:Navbox top/doc}}</noinclude>

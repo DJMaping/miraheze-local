@@ -1,0 +1,109 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||$B=
+{{Ombox
+ |type=notice
+|style={{#if:{{{margin|}}} | margin-left:{{{margin}}};margin-right:{{{margin}}}; }} {{#ifeq:{{lc:{{{hide|}}}}}|yes|display:none;|}} {{{style|}}}
+|image = {{#switch:{{lc:{{{1}}}}}
+  |defunct|draft|inactive = [[File:People icon dead.svg|45px]]
+  |#default = {{{image|[[File:People icon.svg|45px]]}}}
+  }}
+ |text={{#switch:{{lc:{{{1|}}}}}
+  |active|#default='''This is {{#switch:{{lc:{{{project-type}}}}}
+   |topic={{#if:{{{topic|}}}
+    |{{#if:{{{taskforce|}}}
+     |{{#if:{{#invoke:String|match|{{{topic}}}|^[Tt]he%s|nomatch=}}||the&#32;}}{{{topic}}} [[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+     |[[Wikipedia:WikiProject|WikiProject]] {{{topic}}}
+    }},''' a collaboration area for Wikipedians interested in improving coverage of {{#if:{{{topiclc|}}}|{{lc:{{{topic}}} }}|{{{topic}}} }}. New participants are welcome; please feel free to participate!
+    |a {{#if:{{{taskforce|}}}
+     |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+     |[[Wikipedia:WikiProject|WikiProject]]
+    }},''' an area for focused collaboration among Wikipedians. New participants are welcome; please feel free to participate!
+   }}
+   |process={{#if:{{{process|}}}
+    |{{#if:{{{taskforce|}}}
+     |the {{{process}}} [[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+     |[[Wikipedia:WikiProject|WikiProject]] {{{process}}}
+    }},''' an area for focused collaboration among Wikipedians. New participants are welcome; please feel free to participate!
+    |a {{#if:{{{taskforce|}}}
+     |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+     |[[Wikipedia:WikiProject|WikiProject]]
+    }}, a collaboration area and open group of editors''' dedicated to organi{{#if:{{{en-gb|}}}|s|z}}ing an internal process on Wikipedia. New participants are welcome; please feel free to participate!
+   }}
+   |#default=a {{#if:{{{taskforce|}}}
+    |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+    |[[Wikipedia:WikiProject|WikiProject]]
+   }},''' an area for focused collaboration among Wikipedians. New participants are welcome; please feel free to participate!
+  }}
+  |semi|semi-active = '''This {{#if:{{{taskforce|}}}
+    |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+    |[[Wikipedia:WikiProject|WikiProject]]
+   }} is believed to be semi-active'''.<br /><div style="font-size: 90%;">Although activity is slower than it once was, anyone is welcome to participate in the project.</div><div style="font-size: 85%;">Remove the {{para||Semi-active}} parameter from this template if activity resumes or if this tag was changed in error. If almost no activity occurs in this {{#if:{{{taskforce|}}}
+    |task force
+    |WikiProject
+   }}, consider replacing this tag with {{tlg|code=yes|WikiProject status|Inactive}}.</div>
+  |draft = '''This {{#if:{{{taskforce|}}}
+     |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+     |[[Wikipedia:WikiProject|WikiProject]]
+   }} is believed to be in a draft, or proposal state.''' <br /><div style="font-size: 90%;">Activity may not have progressed very far, or begun at all, yet. See [[WP:REVIVE|the WikiProject Guide]] for advice on reviving an inactive WikiProject, should this one remain incomplete or unlaunched for an extended period of time. Feel free to remove the {{para||Draft}} parameter from this template if activity starts up in earnest or if this tag was placed in error. If almost no activity occurs in this {{#if:{{{taskforce|}}}
+    |task force
+    |WikiProject
+   }}, or it remains incomplete, for several months, consider replacing this tag with {{tlg|code=yes|WikiProject status|Inactive}}.</div>
+  |inactive = '''This {{#if:{{{wp|}}}
+   |Wikipedia&#32;
+  }}{{#switch:{{lc:{{{type}}}}}
+   |game=game-related
+   |edu=education-related
+   |sports=sports-related
+   |geo=geographical
+   |band=music-related
+   |TV show=TV-related
+   |anime and manga=anime and manga-related
+  }} {{#if:{{{taskforce|}}}
+    |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+    |[[Wikipedia:WikiProject|WikiProject]]
+   }} is believed to be [[Wikipedia:WikiProject Council/Guide#Dealing with inactive WikiProjects|inactive]].''' <br /><div style="font-size:90%;"> Consider looking for [[Wikipedia:WikiProject Council/Directory|related projects]] for help or ask at the '''[[Wikipedia:Teahouse|Teahouse]]'''.<br />If you are not currently a project participant and wish to help you may still participate in the project{{#if:{{{parent|}}}
+   |&#32;or its parent project '''[[Wikipedia:WikiProject {{{parent}}}|WikiProject {{{parent}}}]]'''{{#if:{{{sister|}}}|&#32;and its sister project '''[[Wikipedia:WikiProject {{{sister}}}|WikiProject {{{sister}}}]]'''|}}
+  }}. This [[Template:WikiProject status |status should be changed]] if collaborative activity resumes.</div>
+  |defunct = '''This {{#if:{{{taskforce|}}}
+      |[[Wikipedia:WikiProject Council/Guide/Task forces|task force]]
+     |[[Wikipedia:WikiProject|WikiProject]]
+   }} is defunct.'''<br /> {{#if:{{{mergedto|}}}
+   |It has been '''{{{superceded|merged into or replaced by}}} [[Wikipedia:WikiProject {{{mergedto}}}|WikiProject {{{mergedto}}}]]'''.
+  }} Consider {{#if:{{{mergedto|}}}
+   |participating in that or&#32;
+  }}looking for [[Wikipedia:WikiProject Council/Directory|related projects]]  {{#if:{{{parent|}}}
+   |such as '''[[Wikipedia:WikiProject {{{parent}}}|WikiProject {{{parent}}}]]'''{{#if:{{{sister|}}}|&#32;and its sister project '''[[Wikipedia:WikiProject {{{sister}}}|WikiProject {{{sister}}}]]'''|}}&#32;
+  }}for help or ask at the '''[[Wikipedia:Teahouse|Teahouse]]'''.<br /> <div style="font-size:85%;"> If you feel this project may be worth reviving, [[Wikipedia talk:WikiProject Council|please discuss with related projects first.]] Feel free to change this tag if the parameters were changed in error.</div>
+ }}{{#if:{{{date|}}}
+  |&#32;''(Tag placed {{{date}}})''
+ }}{{#if:{{{note|}}}{{{reason|}}}
+  |<br />{{{note|{{{reason}}}}}}
+ }}
+----
+{{flatlist|style=font-size:85%; text-align:center;|1=
+* [[Wikipedia:WikiProject Council/Guide|Guide to WikiProjects]]
+* [[Wikipedia:WikiProject Council/Directory|Directory of WikiProjects]] <!--
+  --> {{#if:{{{portal|}}} |
+* [[Portal:{{{portal}}}]] <!--
+  --> }}{{#switch:{{lc:{{{1|}}}}}
+  |inactive=
+* [[Wikipedia:WikiProject Council/Guide#Dealing with inactive WikiProjects|Dealing with inactive WikiProjects]]
+    }}
+  }}
+ |imageright = {{#if:{{{sc1|{{{sc|}}}}}}
+  |{{Ombox/shortcut|{{{sc1|{{{sc|}}}}}}|{{{sc2|}}}|{{{sc3|}}}|{{{sc4|}}}|{{{sc5|}}}}}
+ }}
+}}{{#if: {{{taskforce|}}} | {{category handler|wikipedia={{#switch: {{lc:{{{1|}}}}} |inactive=[[Category:Inactive task forces|{{WikiProjectbasename}}]] |defunct=[[Category:Defunct task forces|{{WikiProjectbasename}}]]}} }} |
+{{category handler
+ |nocat={{{nocat|}}}
+ |wikipedia={{#switch:{{lc:{{{1|}}}}}
+  |active|#default = [[Category:Active WikiProjects|{{WikiProjectbasename}}]]
+  |semi|semi-active = [[Category:Semi-active WikiProjects|{{WikiProjectbasename}} ]]
+  |draft = [[Category:Draft WikiProjects|{{WikiProjectbasename}} ]]
+  |inactive = {{#ifeq: {{lc:false}}|false|[[Category:Inactive {{#ifeq:{{lc:{{{type}}}}}|game|game-related&nbsp;|}}{{#ifeq:{{lc:{{{type}}}}}|edu|education-related&nbsp;|}}{{#ifeq:{{lc:{{{type}}}}}|sports|sports-related&nbsp;|}}{{#ifeq:{{lc:{{{type}}}}}|geo|geographical&nbsp;|}}{{#ifeq:{{lc:{{{type}}}}}|TV show|TV-related&nbsp;|}}{{#ifeq:{{lc:{{{type}}}}}|anime and manga|anime and manga-related&nbsp;|}}{{#ifeq:{{lc:{{{type}}}}}|band|music-related&nbsp;|}}{{#if:|Wikipedia&nbsp;}}WikiProjects|{{WikiProjectbasename}}]]| <!-- Category suppressed --> }}
+  |defunct = [[Category:Defunct WikiProjects|{{WikiProjectbasename}}]]
+ }}
+}}
+}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>

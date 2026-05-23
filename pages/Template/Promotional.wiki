@@ -1,0 +1,15 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||date=__DATE__ |$B=
+{{Ambox
+| name = Promotional
+| type = content
+| class= ambox-Advert
+| issue= This {{{1|article}}} '''contains [[Wikipedia:What Wikipedia is not#Wikipedia is not a soapbox or means of promotion|{{#if:{{{2|{{{type|}}}}}}|{{{2|{{{type}}}}}}|promotional content}}]]'''.
+| fix  = Please help [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve it] by removing [[WP:Spam|promotional language]] and inappropriate [[Wikipedia:External links#Advertising and conflicts of interest|external links]], and by adding encyclopedic text written from a [[Wikipedia:Neutral point of view|neutral point of view]].{{pb}}See our '''[[Wikipedia:About you|advice if the article is about you]]''' and read our '''[[Wikipedia:Scam warning|scam warning]] in case someone asks for money''' to edit this article.
+| removalnotice = yes
+| cat  = Articles with a promotional tone
+| date = {{{date|}}}
+| all  = All articles with a promotional tone
+}}
+}}<noinclude>
+{{documentation}}
+</noinclude>

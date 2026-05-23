@@ -1,0 +1,15 @@
+<templatestyles src="Fraction/styles.css" /><!--
+--><span class="frac"><!--
+-->{{#if:{{{3|}}}<!-- if 3
+  -->|{{{1}}}<span class="sr-only">+</span><span class="num">{{{2}}}</span>&frasl;<span class="den">{{{3}}}</span><!-- then 1 2/3
+  -->|{{#if:{{{2|}}}<!-- elseif 2
+    -->|<span class="num">{{{1}}}</span>&frasl;<span class="den">{{{2}}}</span><!-- then 1/2
+    -->|{{#if:{{{1|}}}<!-- elseif 1
+      -->|<span class="num">1</span>&frasl;<span class="den">{{{1}}}</span><!-- then 1/1
+      -->|&frasl;<!-- else 0, a slash
+    -->}}<!-- endif 1
+  -->}}<!-- endif 2
+-->}}<!-- endif 3
+--></span><noinclude>
+{{documentation}}
+</noinclude>

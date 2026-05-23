@@ -1,0 +1,13 @@
+<includeonly>{{#if:{{{1|}}}
+	|<templatestyles src="Template:Template journal inline/styles.css" /><span class="tj-tape"><span class="tj-nc">&#124;</span>{{#invoke:MultiReplace|main
+		| plain = no
+		| 1 = {{{1|}}}
+		| 2 = ^([^:].-)%s*:%s*(.*)$
+		| 3 = <span class{{=}}"tj-an">%1</span><span class{{=}}"tj-nc">&#61;</span><span class{{=}}"tj-ac">%2</span>
+		| 4 = ^[^:]+$
+		| 5 = <span class{{=}}"tj-ac">%0</span>
+		| 6 = ^:%s*(.*)$
+		| 7 = <span class{{=}}"tj-nc">&#61;</span><span class{{=}}"tj-ac">%1</span>
+	}}</span>
+	|{{Error|Error: Missing parameter}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>

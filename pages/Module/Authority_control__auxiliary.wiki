@@ -1,0 +1,201 @@
+require('strict')
+local p = {}
+--[[======================================================]]
+--[[            Format validation functions               ]]
+--[[======================================================]]
+function p.botanistV(id)
+	return mw.ustring.match(id,"^[%u%l%d%. '-]+$")
+end
+
+-- NCDA: NOID Check Digit Algorithm; see [[wikipedia:Check digit#NCDA]]
+local ncda -- leave this as a local since NCDA is commonly used among ARK identifiers and could be useful for validating other identifiers later
+do -- initialize these constants only once but scope them in a block so local namespace doesn't get cluttered with these
+	local r29s = [[0123456789bcdfghjkmnpqrstvwxz]] -- radix 29 "betanumeric" digit string
+	local r29n = r29s:len()
+	local r29v2d, r29d2v = {}, {}
+	for i = 1, r29n do
+		local v, d = i-1, r29s:sub(i, i)
+		r29v2d[v], r29d2v[d] = d, v
+	end
+	function ncda(sid)
+		local n, sum = sid:len(), 0
+		for i = 1, n do
+			sum = sum + i * (r29d2v[sid:sub(i, i)] or 0)
+		end
+		return r29v2d[sum % r29n]
+	end
+end
+function p.validateBNF(id)
+	local FRBNF = id:sub(1, -2)
+	return FRBNF:match('^%d%d%d%d%d%d%d%d$') ~= nil and ncda('cb'..FRBNF) == id:sub(-1) and id
+end
+
+function p.validateIsni(id) --Validate ISNI (and ORCID) and returns it as a 16 characters string or returns false if it's invalid. See http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier
+	id = id:gsub( '[ %-]', '' ):upper()
+	if not id:match( '^%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d[%dX]$' ) then
+		return false
+	end
+	local total = 0
+	for i = 1, 15 do
+		local digit = id:byte( i ) - 48 --Get integer value
+		total = (total + digit) * 2
+	end
+	local remainder = total % 11
+	local result = (12 - remainder) % 11
+	local checkdigit
+	if result == 10 then
+		checkdigit = 'X'
+	else
+		checkdigit=tostring( result )
+	end
+	if checkdigit ~= string.char( id:byte( 16 ) ) then
+		return false
+	end
+	return id
+end
+
+function p.orcidV(id)
+	id = p.validateIsni(id)
+	if not id then
+		return false
+	end
+	return id:sub( 1, 4 )..'-'..id:sub( 5, 8 )..'-'..id:sub( 9, 12 )..'-'..id:sub( 13, 16 )
+end
+
+function p.tlsV(id)
+	id = id:gsub(' +', '_')
+	local idlen = mw.ustring.len(id)
+	if idlen < 4 or idlen > 90 then
+		return false
+	end
+	local regex = '^%u'..string.rep("[%w_',%.%-%(%)%*%/–&]", idlen - 1)..'$'
+	if not mw.ustring.match(id,regex ) then
+		return false
+	end
+	return id
+end
+
+--[[======================================================]]
+--[[                Custom link functions                 ]]
+--[[======================================================]]
+function p.ISILlink(id,label)
+	if not id:match('^%D%D?%D?%D?%-.+$') then
+		return false
+	end
+	for _, prefix in ipairs({'AT', 'AU', 'BE', 'CA', 'CH', 'DE', 'FI', 'FR', 'IT', 'KR', 'NZ', 'US', 'ZDB'}) do
+		if id:match('^'..prefix..'%-') then
+			return '[https://w3id.org/isil/'..id..' ' .. (label or 'ISIL') .. ']'
+		end
+	end
+	return '[[International Standard Identifier for Libraries and Related Organizations|ISIL]]: ' .. id
+end
+
+function p.uscgLink(id)
+	local id2 = id:match( '^[1-7]%-%d%d?%d?%d?%d?$' ) or id:match( '^[1-7]%-%d%d?%d?%d?%d?%.%d*[1-9]$' )
+	if id2 then
+		return '[https://www.navcen.uscg.gov/pdf/lightlists/LightList%20V'..mw.ustring.sub(id2,1,1)..'.pdf '..id2..']'
+	else
+		return false
+	end
+end
+
+function p.ccg(id)
+	id = id:match('^[NAIP]?[1-9]%d*$') or id:match('^[NAIP]?[1-9]%d*%.%d+$')
+	if not id then return false end
+	local link = 'https://www.notmar.gc.ca/'
+	local prefix = string.sub(id, 1, 1) -- get first character of id
+	local suffix = string.sub(id, 2) -- remove first character of id
+	local interval = require('Module:Interval')._main
+	local v
+	if prefix=='N' then
+		local int = interval({1, 7.5, 14.4, 100, 121, 173, 211, 235, 269.99, 326, 396, 450.1, 471.7, 499, n=suffix})
+		if int=='1-2' then v = 1
+		elseif int=='2-3' then v = 75
+		elseif int=='3-4' then v = 144
+		elseif int=='4-5' then v = 100
+		elseif int=='5-6' then v = 121
+		elseif int=='6-7' then v = 173
+		elseif int=='7-8' then v = 211
+		elseif int=='8-9' then v = 235
+		elseif int=='9-10' then v = 26999
+		elseif int=='10-11' then v = 326
+		elseif int=='11-12' then v = 396
+		elseif int=='12-13' then v = 4501
+		elseif int=='13-14' then v = 4717
+		elseif int=='14-15' then v = 499
+		end
+		link = link .. 'publications/list-lights/newfoundland/n' .. v .. '-en'
+	elseif prefix=='A' then
+		local int = interval({5, 114.5, 145, 163, 268, 271, 301.5, 327, 686.5, 704.85, 883.2, 942, 1085, 1169.1, 1584.5, 1773, 1823.55, 2190, 2369, 2389, n=suffix})
+		if int=='1-2' then v = 5
+		elseif int=='2-3' then v = 1145
+		elseif int=='3-4' then v = 145
+		elseif int=='4-5' then v = 162
+		elseif int=='5-6' then v = 268
+		elseif int=='6-7' then v = 271
+		elseif int=='7-8' then v = 3015
+		elseif int=='8-9' then v = 327
+		elseif int=='9-10' then v = 6865
+		elseif int=='10-11' then v = 7048
+		elseif int=='11-12' then v = 883
+		elseif int=='12-13' then v = 942
+		elseif int=='13-14' then v = 1085
+		elseif int=='14-15' then v = 11691
+		elseif int=='15-16' then v = 15845
+		elseif int=='16-17' then v = 1773
+		elseif int=='17-18' then v = 182355
+		elseif int=='18-19' then v = 2190
+		elseif int=='19-20' then v = 2369
+		elseif int=='20-21' then v = 2389
+		end
+		link = link .. 'publications/list-lights/atl/a' .. v .. '-en'
+	elseif prefix=='I' then
+		local int = interval({0.05, 401.1, 403.4, 551.06, 552, 624, 708, 731.2, 768, 814, 983, 1046, 1059.6, 1082, 1162, 1204.7, 1233.3, 1328, 1330, 1346.2, 1377.8, 1408, 1410, 1420, 1445, 1470, 1520, 1534, 1540.6, 1554, 1557.7, 1558.8, 1563.1, 1625.5, 1671.7, 1716.96, 2545, n=suffix})
+		if int=='1-2' then v = '01'
+		elseif int=='2-3' then v = 4011
+		elseif int=='3-4' then v = 4034
+		elseif int=='4-5' then v = 55106
+		elseif int=='5-6' then v = 552
+		elseif int=='6-7' then v = 624
+		elseif int=='7-8' then v = 708
+		elseif int=='8-9' then v = 7312
+		elseif int=='9-10' then v = 768
+		elseif int=='10-11' then v = 814
+		elseif int=='11-12' then v = 983
+		elseif int=='12-13' then v = 1046
+		elseif int=='13-14' then v = 10596
+		elseif int=='14-15' then v = 1082
+		elseif int=='15-16' then v = 1162
+		elseif int=='16-17' then v = 12047
+		elseif int=='17-18' then v = 12333
+		elseif int=='18-19' then v = 1328
+		elseif int=='19-20' then v = 1330
+		elseif int=='20-21' then v = 13462
+		elseif int=='21-22' then v = 13778
+		elseif int=='22-23' then v = 1408
+		elseif int=='23-24' then v = 1410
+		elseif int=='24-25' then v = 1420
+		elseif int=='25-26' then v = 1445
+		elseif int=='26-27' then v = 1470
+		elseif int=='27-28' then v = 1520
+		elseif int=='28-29' then v = 1534
+		elseif int=='29-30' then v = 15406
+		elseif int=='30-31' then v = 1554
+		elseif int=='31-32' then v = 15577
+		elseif int=='32-33' then v = 15588
+		elseif int=='33-34' then v = 1562
+		elseif int=='34-35' then v = 16255
+		elseif int=='35-36' then v = 16717
+		elseif int=='36-37' then v = 171696
+		elseif int=='37-38' then v = 2545
+		end
+		link = link .. 'publications/list-lights/inland-waters/i' .. v .. '-en'
+	elseif prefix=='P' then
+		link = link .. 'publications/list-lights/pac/p'
+	else
+		link = link .. 'list-lights'
+	end
+	return '[[CCG (identifier)|CCG]]: [' .. link .. ' ' .. id .. ']'
+end
+
+return p

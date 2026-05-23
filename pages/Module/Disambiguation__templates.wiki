@@ -1,0 +1,169 @@
+-- This page contains a table of all disambiguation templates and their
+-- redirects. Templates names are capitalized, and the Template: prefix is
+-- removed. Templates are grouped with the main template first, followed by
+-- its redirects.
+
+return {
+	["Disambiguation"] = true,
+	["Begriffsklärung"] = true,
+	["DAB"] = true,
+	["Dab"] = true,
+	["Dab page"] = true,
+	["Dabpage"] = true,
+	["Dbig"] = true,
+	["Dis"] = true,
+	["Disam"] = true,
+	["Disamb"] = true,
+	["Disambig"] = true,
+	["Disambig misspelling"] = true,
+	["Disambig-plants"] = true,
+	["Disambiguation page"] = true,
+	["Manual of Style disambiguation"] = true,
+	["Meta disambig"] = true,
+	["MOS disambiguation"] = true,
+	["MoS disambiguation"] = true,
+	["Portal disambig"] = true,
+	["Portal disambiguation"] = true,
+	["Project disambiguation"] = true,
+	["Shortcut disambig"] = true,
+	["Wikipedia disambiguation"] = true,
+	["WP disambig"] = true,
+	["WP-disambig"] = true,
+
+	["Airport disambiguation"] = true,
+	["Airport disambig"] = true,
+
+	["Biology disambiguation"] = true,
+
+	["Call sign disambiguation"] = true,
+	["Callsigndis"] = true,
+
+	["Caselaw disambiguation"] = true,
+	["Case law disambiguation"] = true,
+
+	["Chinese title disambiguation"] = true,
+	["Chinese title disambig"] = true,
+	["CJKVdab"] = true,
+	["Disambig-Chinese-char-title"] = true,
+
+	["Disambiguation cleanup"] = true,
+	["Cleanup disambig"] = true,
+	["Cleanup disambiguation"] = true,
+	["CleanupDisambig"] = true,
+	["Dab cleanup"] = true,
+	["Dab-cleanup"] = true,
+	["Dabclean"] = true,
+	["Disamb-cleanup"] = true,
+	["Disambcleanup"] = true,
+	["Disambig cleanup"] = true,
+	["Disambig-cleanup"] = true,
+	["Disambig-CU"] = true,
+	["Disambig-cu"] = true,
+	["Disambigcleanup"] = true,
+	["Disambiguate-cleanup"] = true,
+	["Disambiguation-cleanup"] = true,
+	["Geodis-cleanup"] = true,
+
+	["Disambiguation with potential"] = true,
+	["Disambiguation with possibilties"] = true,
+
+	["Genus disambiguation"] = true,
+	["Genus disambig"] = true,
+
+	["Hangul title disambiguation"] = true,
+
+	["Hospital disambiguation"] = true,
+	["Hospitaldis"] = true,
+
+	["Human name disambiguation"] = true,
+	["Bio-dab"] = true,
+	["Hndab"] = true,
+	["HNDIS"] = true,
+	["HnDis"] = true,
+	["Hndis"] = true,
+	["Hndisambig"] = true,
+	["Human name dab"] = true,
+	["Name list"] = true,
+	["Personal name"] = true,
+	["Personal name disambiguation"] = true,
+
+	["Human name disambiguation cleanup"] = true,
+	["Hndis-cleanup"] = true,
+	["Personal name disambiguation cleanup"] = true,
+
+	["Hurricane season disambiguation"] = true,
+
+	["Letter–number combination disambiguation"] = true,
+	["Letter-Number Combination Disambiguation"] = true,
+	["Letter-Number combination disambiguation"] = true,
+	["Letter-number combination disambiguation"] = true,
+	["Letter-NumberCombDisambig"] = true,
+	["Letter-NumberCombdisambig"] = true,
+	["Letter-NumberCombinationDisambiguation"] = true,
+	["LNCD"] = true,
+
+	["Mathematical disambiguation"] = true,
+	["Math dab"] = true,
+	["Math disambiguation"] = true,
+	["Math-dab"] = true,
+	["Mathdab"] = true,
+	["Mathematics disambiguation"] = true,
+	["Maths disambiguation"] = true,
+
+	["Military unit disambiguation"] = true,
+	["Mil-unit-dis"] = true,
+	["Mil-unit-disambig"] = true,
+
+	["Music disambiguation"] = true,
+	["Music disambig"] = true,
+
+	["Number disambiguation"] = true,
+	["Numberdis"] = true,
+	["Numdab"] = true,
+	["Numdisambig"] = true,
+
+	["Opus number disambiguation"] = true,
+
+	["Phonetics disambiguation"] = true,
+
+	["Place name disambiguation"] = true,
+	["DisambigG"] = true,
+	["DisambigGeo"] = true,
+	["Disambiggeo"] = true,
+	["Geo-dis"] = true,
+	["Geodab"] = true,
+	["Geodis"] = true,
+	["Geodisambig"] = true,
+	["Geographic disambiguation"] = true,
+	["Geographical disambiguation"] = true,
+	["Pnd"] = true,
+
+	["Road disambiguation"] = true,
+	["Roaddis"] = true,
+
+	["School disambiguation"] = true,
+	["School disambig"] = true,
+	["Schooldab"] = true,
+	["Schooldis"] = true,
+
+	["Species Latin name abbreviation disambiguation"] = true,
+
+	["Species Latin name disambiguation"] = true,
+	["LatinNameDisambig"] = true,
+	["Species disambiguation"] = true,
+	["SpeciesLatinNameDisambig"] = true,
+
+	["Station disambiguation"] = true,
+	["Station dab"] = true,
+
+	["Synagogue disambiguation"] = true,
+
+	["Taxonomy disambiguation"] = true,
+
+	["Template disambiguation"] = true,
+	["Template ambiguous"] = true,
+	["Template dab"] = true,
+	["Template disambig"] = true,
+
+	["WoO number disambiguation"] = true,
+}

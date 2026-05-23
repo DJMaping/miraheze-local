@@ -1,0 +1,36 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Egypt
+| flag alias = Flag of Egypt.svg
+| flag alias-Ottoman = Flag of Egypt (1793-1844).svg
+| flag alias-1882 = Flag of Egypt (1882-1922).svg
+| flag alias-1922 = Flag of Egypt (1922–1958).svg
+| flag alias-1952 = Flag of Egypt (1952-1958).svg
+| flag alias-1958 = Flag of the United Arab Republic.svg
+| flag alias-1972 = Flag of Egypt (1972-1984).svg
+| link alias-military = Egyptian Armed Forces
+| flag alias-army = Flag of the Army of Egypt.svg
+| link alias-army = Egyptian Army
+| flag alias-naval = Naval Ensign of Egypt.svg
+| link alias-naval = Egyptian Navy
+| flag alias-navy=Flag of the Egyptian Navy.svg
+| link alias-navy=Egyptian Navy
+| flag alias-air force = Air Force Ensign of Egypt.svg
+| link alias-air force = Egyptian Air Force
+| flag alias-air defence force = Flag of the Egyptian Air Defense Forces.svg
+| link alias-air defence force = Egyptian Air Defense Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = Ottoman
+| var2 = 1882
+| var3 = 1922
+| var4 = 1952
+| var5 = 1958
+| var6 = 1972
+| var7 = air defence force
+| redir1 = EGY
+| related1 = United Arab Republic
+</noinclude>
+}}

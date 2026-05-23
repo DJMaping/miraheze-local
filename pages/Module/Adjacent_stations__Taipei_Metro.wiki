@@ -1,0 +1,141 @@
+local x = "%1 station"
+local y = "%1 gondola station"
+
+local p = {
+	["system title"] = "[[Taipei Metro]]",
+	["system icon"] = "[[File:Taipei Metro Logo(Logo Only).svg|18px|link=Taipei Metro]]",
+	["station format"] = {
+		"%1 metro station",
+		
+		["Banqiao"] = x,
+		["Hongshulin"] = x,
+		["Nangang"] = x,
+		["Songshan"] = x,
+		["Taipei Zoo"] = x,
+		
+		["Maokong"] = y,
+		["Taipei Zoo South"] = y,
+		["Zhinan Temple"] = y,
+		
+		["CKS Memorial Hall"] = "Chiang Kai-shek Memorial Hall metro station",
+		["Nangang Exhib Center"] = "Taipei Nangang Exhibition Center metro station",
+		["Nangang Exhib. Center"] = "[[Taipei Nangang Exhibition Center metro station|Nangang Exhib Center]]",
+		["NT Industrial Park"] = "New Taipei Industrial Park metro station",
+		["NTIP"] = "New Taipei Industrial Park metro station", -- Please avoid this form
+		["Taipei Main Station"] = "%1",
+		["Taipei main station"] = "[[Taipei Main Station]]", -- Please avoid this form
+		["Zhongshan Jr High School"] = "Zhongshan Junior High School metro station"
+	},
+	["lines"] = {
+		["BR"] = {
+			["title"] = "[[Wenhu line]]",
+			["color"] = "c48c31",
+			["icon"] = "[[File:Taipei Metro Line BR.svg|18px|link=Wenhu line]]",
+			["left terminus"] = "Nangang Exhib. Center",
+			["right terminus"] = "Taipei Zoo"
+		},
+		["R"] = {
+			["title"] = "[[Tamsui–Xinyi line]]",
+			["color"] = "e3002c",
+			["icon"] = "[[File:Taipei Metro Line R.svg|18px|link=Tamsui–Xinyi line]]",
+			["left terminus"] = {"Tamsui", "Beitou"},
+			["right terminus"] = {"Xiangshan", "Daan"}
+		},
+		["G"] = {
+			["title"] = "[[Songshan–Xindian line]]",
+			["color"] = "008659",
+			["icon"] = "[[File:Taipei Metro Line G.svg|18px|link=Songshan–Xindian line]]",
+			["left terminus"] = {"Xindian", "Taipower Building"},
+			["right terminus"] = "Songshan"
+		},
+		["O"] = {
+			["title"] = "[[Zhonghe–Xinlu line]]",
+			["color"] = "f8b61c",
+			["icon"] = "[[File:Taipei Metro Line O.svg|18px|link=Zhonghe–Xinlu line]]",
+			["left terminus"] = {"Huilong", "Luzhou"},
+			["right terminus"] = "Nanshijiao"
+		},
+		["BL"] = {
+			["title"] = "[[Bannan line]]",
+			["color"] = "0070bd",
+			["icon"] = "[[File:Taipei Metro Line BL.svg|18px|link=Bannan line]]",
+			["left terminus"] = {"Dingpu", "Far Eastern Hospital"},
+			["right terminus"] = {"Nangang Exhib. Center", "Kunyang"}
+		},
+		["M"] = {
+			["title"] = "[[Maokong Gondola]]",
+			["color"] = "77bc1f",
+			["icon"] = "[[File:Maokong Gondola Logo(Logo Only).svg|18px|link=Maokong Gondola]]",
+			["left terminus"] = "Taipei Zoo",
+			["right terminus"] = "Maokong"
+		},
+		["Xinbeitou"] = {
+			["title"] = "[[Xinbeitou branch line]]",
+			["color"] = "fd92a3",
+			["icon"] = "[[File:Taipei Metro Line Xinbeitou Branch.svg|18px|link=Xinbeitou branch line]]",
+			["left terminus"] = "Xinbeitou",
+			["right terminus"] = "Beitou"			
+		},
+		["Xiaobitan"] = {
+			["title"] = "[[Xiaobitan branch line]]",
+			["color"] = "cfdb00",
+			["icon"] = "[[File:Taipei Metro Line Xiaobitan Branch.svg|18px|link=Xiaobitan branch line]]",
+			["left terminus"] = "Xiaobitan",
+			["right terminus"] = "Qizhang"
+		},
+	
+		-- Future lines
+		["LG"] = {
+			["title"] = "[[Wanda–Zhonghe–Shulin line]]",
+			["color"] = "a1d884",
+			["icon"] = "[[File:Taipei Metro Line LG.svg|18px|link=Wanda–Zhonghe–Shulin line]]",
+			["left terminus"] = "Chiang Kai-Shek Memorial Hall",
+			["right terminus"] = "Juguang"
+		},
+		["SB"] = {
+			["title"] = "[[Minsheng–Xizhi line]]",
+			["color"] = "25aae1",
+			["icon"] = "[[File:Taipei Metro Line SB.svg|18px|link=Minsheng–Xizhi line]]",
+			["left terminus"] = "Dadaocheng",
+			["right terminus"] = "Xizhi"
+		}
+	},
+	["aliases"] = {
+		["wenhu"] = "BR",
+		["tamsui–xinyi"] = "R",
+		["xinbeitou"] = "Xinbeitou",
+		["songshan–xindian"] = "G",
+		["xiaobitan"] = "Xiaobitan",
+		["zhonghe–xinlu"] = "O",
+		["bannan"] = "BL",
+		["maokong"] = "M",
+		["maokong gondola"] = "M",
+		["wanda–shulin"] = "LG",
+		["minsheng–xizhi"] = "SB",
+		["1"] = "BR",
+		["2"] = "R",
+		["3"] = "G",
+		["4"] = "O",
+		["5"] = "BL",
+		["7"] = "LG",
+		["8"] = "SB",
+		["br"] = "BR",
+		["r"] = "R",
+		["g"] = "G",
+		["o"] = "O",
+		["bl"] = "BL",
+		["lg"] = "LG",
+		["sb"] = "SB",
+		["brown"] = "BR",
+		["red"] = "R",
+		["green"] = "G",
+		["orange"] = "O",
+		["blue"] = "BL",
+		["lightgreen"] = "LG",
+		["skyblue"] = "SB",
+		["light green"] = "LG",
+		["sky blue"] = "SB",
+	}
+}
+
+return p

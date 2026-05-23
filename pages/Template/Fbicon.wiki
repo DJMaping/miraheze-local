@@ -1,0 +1,7 @@
+{{country data {{{1}}}
+| flag icon/nt
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| altlink = national football team
+| altvar = football
+}}<noinclude>{{documentation}}</noinclude>

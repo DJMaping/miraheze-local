@@ -1,0 +1,4 @@
+<includeonly>{{cite web |url=https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland/mid2024/mye24tablesuk.xlsx |title=Mid-Year Population Estimates, United Kingdom, June 2024 |website=[[Office for National Statistics]] |date=26 September 2025 |access-date=26 September 2025}}</includeonly><noinclude>
+{{Documentation|Template:UK subdivision population/doc}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>

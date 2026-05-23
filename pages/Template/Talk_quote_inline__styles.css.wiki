@@ -1,0 +1,26 @@
+/* {{pp-template}} */
+
+@media screen {
+    html.skin-theme-clientpref-night .inline-quote-talk {
+		color: #00B785;
+	}
+}
+
+@media screen and ( prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .inline-quote-talk {
+		color: #00B785;
+	}
+}
+
+.inline-quote-talk {
+	font-family: Georgia, 'DejaVu Serif', serif;
+	color: #008560;
+	quotes: none;
+}
+.inline-quote-talk-italic {
+	font-family: inherit;
+	font-style: italic;
+}
+.inline-quote-talk-marks {
+	quotes: '"' '"';
+}

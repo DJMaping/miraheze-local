@@ -1,0 +1,3 @@
+<templatestyles src = "Column/styles.css" />{{#if:{{{1|}}}|<div class="columns-start columns-{{{num|2}}} {{{class|}}}" {{#if:{{{bgcolor|}}}{{{width|}}}|style="{{#if:{{{bgcolor|}}}|background-color: {{{bgcolor}}};}} {{#if:{{{width|}}}|width: {{{width}}}}}"}}><div class="column">
+{{#invoke:separated entries|main|separator=&#10;</div><div class="column">&#10;}}</div><div style="clear: both"></div></div>|<noinclude><div></noinclude></div><div class="column">}}<noinclude></div>
+{{Documentation|content={{Template:Columns-start/doc}}}}</noinclude>

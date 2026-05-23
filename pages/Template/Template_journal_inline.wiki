@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{1|}}}
+	|<templatestyles src="Template:Template journal inline/styles.css" /><span class="tj-tape"><span class="tj-nc">&#123;&#123;</span><span class="tj-tn">[[Template:{{#if:x|{{{1}}}}}|{{#if:x|{{{1}}}}}]]</span>{{#invoke:params|sequential|cutting|1|0|squeezing|trimming_values|setting|hi|<wbr /><span class{{=}}"tj-nc">&#124;</span>|mapping_by_replacing|^[^:]+$|<span class{{=}}"tj-ac">%0</span>|1|mapping_by_replacing|^([^:].-)%s*:%s*(.*)$|<span class{{=}}"tj-an">%1</span><span class{{=}}"tj-nc">&#61;</span><span class{{=}}"tj-ac">%2</span>|1|mapping_by_replacing|^:%s*(.*)$|<span class{{=}}"tj-nc">&#61;</span><span class{{=}}"tj-ac">%1</span>|1|list_values}}<span class{{=}}"tj-nc">&#125;&#125;</span></span>
+	|{{Error|Error: Missing template name}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>

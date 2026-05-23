@@ -1,0 +1,19 @@
+{{Documentation subpage}}
+{{High risk}}
+{{cascade-protected template}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{lua|Module:SDcat}}
+This template is merely a wrapper for [[Module:SDcat]], which adds tracking categories to articles depending on whether their [[WP:short description|short description]] matches the associated description field on Wikidata. Complete documentation is available at [[Module:SDcat]].
+
+== Usage ==
+
+<code><nowiki>{{SDcat |sd={{{shortdescription|}}} }}</nowiki></code>
+
+=== For testing ===
+
+<code><nowiki>{{SDcat |sd=short description |qid=Wikidata entity ID |lp=link prefix (usually ":") }}</nowiki></code>
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Short description templates]]
+}}</includeonly>

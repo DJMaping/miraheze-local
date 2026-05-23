@@ -1,0 +1,38 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Mexico
+| flag alias = Flag of Mexico.svg
+| flag alias-1821a = Flag of the Three Guarantees.svg
+| flag alias-1821 = Bandera del Primer Imperio Mexicano.svg
+| flag alias-1823 = Flag of Mexico (1823-1864, 1867-1893).svg
+| flag alias-1864 = Imperial Standard of Mexico (1864-1867).svg
+| flag alias-1867 = Flag of Mexico (1823-1864, 1867-1893).svg
+| flag alias-1893 = Flag of Mexico (1893-1916).svg
+| flag alias-1916 = Flag of Mexico (1916–1934).svg
+| flag alias-1934 = Flag of Mexico (1934-1968).svg
+| flag alias-air force = Flag of the Mexican Air Force.svg
+| flag alias-army = Flag of the Mexican Army.svg
+| link alias-army = Mexican Army
+| link alias-air force = Mexican Air Force
+| link alias-naval = Mexican Navy
+| flag alias-coast guard = Flag of the Mexican Maritime Search and Rescue.png
+| link alias-coast guard = Mexican Maritime Search and Rescue
+| flag alias-navy = Naval jack of Mexico.svg
+| link alias-navy = Mexican Navy
+| flag alias-marines = Estandarte Infantería de Marina de México.svg
+| link alias-marines = Mexican Naval Infantry Corps
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1821a
+| var2 = 1821
+| var3 = 1823
+| var4 = 1864
+| var5 = 1867
+| var6 = 1893
+| var7 = 1916
+| var8 = 1934
+| redir1 = MEX
+</noinclude>
+}}

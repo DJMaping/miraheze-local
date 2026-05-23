@@ -1,0 +1,132 @@
+local ScribuntoUnit = require('Module:ScribuntoUnit')
+local p = ScribuntoUnit:new()
+local libName = 'TNT'
+
+-- Helper to run all tests using sandbox version of the library from the debug console. To run against main lib, use  =p.run()
+function p.runSandbox()
+	local frame = mw.getCurrentFrame():newChild{title='testcases', args={module=libName .. '/sandbox', displayMode='log'}}
+	return p.run(frame)
+end
+
+-- Allow test runner to use both the main library and the sandbox of the library with the same testcases
+function p:module()
+	return self.frame and self.frame.args.module or libName
+end
+
+function p:invokeLib(wikicode)
+	return '{{#invoke:' .. p:module() .. '|' .. wikicode .. '}}'
+end
+
+--[[
+       Library-specific tests
+]]
+
+function p:test_msg()
+	-- dataset resolution
+	self:assertResultEquals('text message', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text'), 'msg01')
+	self:assertResultEquals('text message', p:invokeLib('msg|I18n/Module:TNT/testcases|text'), 'msg02')
+	self:assertResultEquals('text message', p:invokeLib('msg| I18n/Module:TNT/testcases.tab |text'), 'msg03')
+	self:assertResultEquals('text message', p:invokeLib('msg| I18n/Module:TNT/testcases |text'), 'msg04')
+
+	-- spacing
+	self:assertResultEquals('text message', p:invokeLib(' msg | I18n/Module:TNT/testcases.tab | text '), 'msg11')
+	self:assertResultEquals('text message', p:invokeLib(' \n msg \n | \n I18n/Module:TNT/testcases.tab \n | \n text \n '), 'msg12')
+	self:assertResultEquals('текст', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text|lang=ru'), 'msg13')
+	self:assertResultEquals('text message', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text|lang=fr'), 'msg14')
+
+	-- 1 parameter
+	self:assertResultEquals('text message a', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_1|a'), 'msg21')
+	self:assertResultEquals('text message a', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_1| a '), 'msg22')
+	self:assertResultEquals('text message a', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_1| \na \n '), 'msg23')
+	self:assertResultEquals('текст абв', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_1|абв|lang=ru'), 'msg24')
+
+	-- multiple parameters
+	self:assertResultEquals('text message a and b', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_2|a|b'), 'msg31')
+	self:assertResultEquals('text message a and b', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_2| a | b '), 'msg32')
+	self:assertResultEquals('text message a and b', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_2| \na \n | \nb \n '), 'msg33')
+	self:assertResultEquals('текст абв и где', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_2|абв|где|lang=ru'), 'msg34')
+
+	-- parameters as part of wiki text
+	self:assertResultEquals('text message [[a|b]]', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_link|a|b'), 'msg41')
+	self:assertResultEquals('text message [[a|b]]', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_link| a | b '), 'msg42')
+	self:assertResultEquals('текст [[абв|где]]', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_link|абв|где|lang=ru'), 'msg43')
+
+	-- fallbacks
+	self:assertResultEquals('текст', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_no_en'), 'msg51')
+	self:assertResultEquals('текст', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_no_en|lang=ru'), 'msg52')
+	self:assertResultEquals('текст', p:invokeLib('msg|I18n/Module:TNT/testcases.tab|text_no_en|lang=fr'), 'msg53')
+end
+
+function p:test_msg_format()
+	local tnt = require('Module:' .. p:module())
+	self:assertEquals('text message', tnt.format('I18n/Module:TNT/testcases', 'text'), 'format01')
+	self:assertEquals('text message a', tnt.format('I18n/Module:TNT/testcases', 'text_1', 'a'), 'format02')
+	self:assertEquals('text message foo and bar', tnt.format('I18n/Module:TNT/testcases', 'text_2', 'foo', 'bar'), 'format03')
+	self:assertEquals('text message foo and bar', tnt.format('I18n/Module:TNT/testcases', 'text_2', {'foo', 'bar'}), 'format04')
+
+	self:assertThrows(function() tnt.format() end, "bad argument #1 to 'format' (string expected, got nil)", 'format11')
+	self:assertThrows(function() tnt.format('Module:TNT/testcases') end, "bad argument #2 to 'format' (string expected, got nil)", 'format12')
+	self:assertThrows(function() tnt.format('_bad_name_', 'foo') end, 'Dataset [[c:Data:_bad_name_.tab]] is not valid', 'format13')
+	self:assertThrows(function() tnt.format('I18n/Module:TNT/testcases', '_bad_msg') end, 'Message “_bad_msg” does not exist in dataset [[c:Data:I18n/Module:TNT/testcases]]', 'format14')
+end
+
+function p:test_msg_format_in_language()
+	local tnt = require('Module:' .. p:module())
+	self:assertEquals('text message', tnt.formatInLanguage('en', 'I18n/Module:TNT/testcases', 'text'), 'formatInLanguage01')
+	self:assertEquals('text message a', tnt.formatInLanguage('en', 'I18n/Module:TNT/testcases', 'text_1', 'a'), 'formatInLanguage02')
+	self:assertEquals('text message foo and bar', tnt.formatInLanguage('en', 'I18n/Module:TNT/testcases', 'text_2', 'foo', 'bar'), 'formatInLanguage03')
+	self:assertEquals('text message foo and bar', tnt.formatInLanguage('en', 'I18n/Module:TNT/testcases', 'text_2', {'foo', 'bar'}), 'formatInLanguage04')
+	self:assertEquals('текст абв', tnt.formatInLanguage('ru', 'I18n/Module:TNT/testcases', 'text_1', 'абв'), 'formatInLanguage03')
+
+	self:assertThrows(function() tnt.formatInLanguage() end, "bad argument #1 to 'formatInLanguage' (string expected, got nil)", 'formatInLanguage11')
+	self:assertThrows(function() tnt.formatInLanguage('en') end, "bad argument #2 to 'formatInLanguage' (string expected, got nil)", 'formatInLanguage12')
+	self:assertThrows(function() tnt.formatInLanguage('en', 'Module:TNT/testcases') end, "bad argument #3 to 'formatInLanguage' (string expected, got nil)", 'formatInLanguage12')
+	self:assertThrows(function() tnt.formatInLanguage('en', '_bad_name_', 'foo') end, 'Dataset [[c:Data:_bad_name_.tab]] is not valid', 'formatInLanguage13')
+	self:assertThrows(function() tnt.formatInLanguage('en', 'I18n/Module:TNT/testcases', '_bad_msg') end, 'Message “_bad_msg” does not exist in dataset [[c:Data:I18n/Module:TNT/testcases]]', 'formatInLanguage14')
+end
+
+function p:assertResultError(errorText, text, message)
+	local actual = self.frame:preprocess(text)
+	self:assertStringContains('<strong class="error"><span class="scribunto-error mw-scribunto-error-', actual, true, message)
+	self:assertStringContains(errorText .. '.</span></strong>', actual, true, message)
+end
+
+function p:test_msg_errors()
+	-- The error messages might change if https://commons.wikimedia.org/wiki/Data:I18n/Module:TNT.tab changes for English
+	self:assertResultError('First parameter must be the name of the Commons dataset', p:invokeLib('msg'), 'msgerr01')
+	self:assertResultError('First parameter must be the name of the Commons dataset', p:invokeLib('msg|lang=pl'), 'msgerr02')
+	self:assertResultError('Dataset [[c:Data:_bad_name_.tab]] is not valid', p:invokeLib('msg|_bad_name_'), 'msgerr03')
+	self:assertResultError('Message “_bad_msg_” does not exist in dataset [[c:Data:I18n/Module:TNT]]', p:invokeLib('msg|I18n/Module:TNT|_bad_msg_'), 'msgerr04')
+end
+
+function p:test_link()
+	self:assertResultEquals('c:Data:abc.tab', p:invokeLib('link|abc.tab'), 'link01')
+	self:assertResultEquals('c:Data:abc.tab', p:invokeLib(' link | abc.tab '), 'link02')
+	self:assertResultEquals('c:Data:abc.tab', p:invokeLib(' link |\n abc.tab\n '), 'link03')
+end
+
+function p:test_doc()
+	local tnt = require('Module:' .. p:module())
+	self:assertEquals(
+			'{"paramOrder":["1","2"],"description":"DO NOT EDIT OR TRANSLATE unless you are changing unit tests","params":{"1":{"suggested":false,"type":"string","required":true,"label":"en_label_1","example":"en_example_1","description":"en_desc_1"},"2":{"suggested":true,"type":"string","required":false,"label":"fr_label_2","example":"pl_example_2","description":"en_desc_2"}}}',
+			tnt.getTemplateData('Templatedata/Module:TNT/testcases templatedata 1'),
+			'doc01')
+	self:assertEquals(
+			'{"paramOrder":["param1","param2"],"description":"DO NOT EDIT OR TRANSLATE unless you are changing unit tests","params":{"param1":{"suggested":false,"type":"string","required":true,"label":"en_label_1","example":"en_example_1","description":"en_desc_1"},"param2":{"suggested":true,"type":"string","required":false,"label":"fr_label_2","example":"pl_example_2","description":"en_desc_2"}}}',
+			tnt.getTemplateData('Templatedata/Module:TNT/testcases templatedata 2'),
+			'doc02')
+	self:assertEquals(
+			'{"paramOrder":["param1","param2","param3"],"description":"DO NOT EDIT OR TRANSLATE unless you are changing unit tests","params":{"param2":{"type":"string","description":"en_desc_2","label":"en_label_2"},"param1":{"description":"en_desc_1","type":"string","default":"default1","label":"en_label_1"},"param3":{"type":"string","default":"default3","label":"en_label_2"}}}',
+			tnt.getTemplateData('Templatedata/Module:TNT/testcases templatedata 3'),
+			'doc03')
+end
+
+function p:test_doc_json_syntax()
+	local tnt = require('Module:' .. p:module())
+	self:assertDoesNotThrow(function ()
+		local result = tnt.getTemplateData('Templatedata/Module:TNT/testcases templatedata 4')
+		mw.text.jsonDecode(result)
+	end)
+end
+
+return p

@@ -1,0 +1,1 @@
+{{safesubst<noinclude/>:#ifexpr:{{safesubst<noinclude/>:#invoke:ParameterCount|main|pattern1=^[%d]+$}}>0|{{safesubst<noinclude/>:#invoke:ParameterCount|main|pattern1=^[%d]+$}}|{{{base|0}}}}}<noinclude>{{documentation}}</noinclude>

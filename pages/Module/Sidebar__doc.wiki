@@ -1,0 +1,14 @@
+{{High-risk|155000+}}
+{{module rating|protected}}
+{{Lua|Module:Sidebar/configuration|Module:Navbar|Module:Arguments}}
+{{Uses TemplateStyles|Module:Sidebar/styles.css|Template:Plainlist/styles.css|Template:Hlist/styles.css}}
+
+This module implements the templates {{tl|sidebar}} and {{tl|sidebar with collapsible lists}}. See the individual template pages for documentation.
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Sidebar metatemplates| ]]
+[[Category:Modules that add a tracking category]]
+[[Category:Modules that check for strip markers]]
+[[Category:Box modules]]
+}}</includeonly>

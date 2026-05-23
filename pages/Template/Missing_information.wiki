@@ -1,0 +1,15 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Missing information}} begin-->{{Ambox
+| name  = Missing information
+| subst = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| type  = content
+| image = [[File:Wiki letter w.svg|44px]]
+| issue = This {{#if:{{{2|}}}|{{{1}}}|article}} '''is missing information''' about {{{2|{{{about|{{{on|{{{reason|{{{1<includeonly>|{{error|Error: you must specify what information is missing.}}</includeonly>}}}}}}}}}}}}}}}.
+| fix   = Please expand the {{#if:{{{2|}}}|{{{1}}}|article}} {{Protected page maintenance message|to include this information|by making an edit request}}. Further details may exist on the [[{{TALKPAGENAME}}#{{#if:{{{talksection|}}}|{{anchorencode:{{{talksection}}}}}}}|talk page]].
+| date  = {{{date|}}}
+| small = {{{small|}}}
+| cat   = {{#if:{{{nocat|}}}||Articles to be expanded}}
+}}<!--{{Missing information}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>

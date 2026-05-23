@@ -1,0 +1,136 @@
+{{#invoke:navbox|navbox
+| name = Wikipedia templates
+| state = {{{state<includeonly>|{{{1|autocollapse}}}</includeonly>}}}
+| bodyclass = hlist
+| title = [[Wikipedia:Template index|Wikipedia templates]]
+
+| group10 = Main namespace
+| list10 =
+* [[Wikipedia:Template index/General|General]]
+* [[Wikipedia:Template index/Cleanup|Cleanup]]
+** [[Wikipedia:Template index/Cleanup/Verifiability and sources|Verifiability and sources]]
+* [[Wikipedia:Template index/Disputes|Disputes]]
+* [[Wikipedia:Hatnote|Hatnotes]]
+* [[Wikipedia:List of infoboxes|Infoboxes]]
+* [[Wikipedia:Template index/Links|Links]]
+** [[:Category:External link templates|External link templates]]
+** [[Wikipedia:Inline templates linking country articles|Linking country articles]]
+* [[Wikipedia:Template index/Lists|Lists]]
+* [[Wikipedia:Template index/Main page and alternatives|Main page]]
+* [[Wikipedia:Template index/Section|Section]]
+* [[Wikipedia:Template index/Sources of articles|Sources of articles]]
+** [[Wikipedia:Template index/Sources of articles/Citation quick reference|Quick reference]]
+* [[Wikipedia:Template index/Standard boxes|Standard boxes]]
+* [[Wikipedia:WikiProject Stub sorting/Stub types|Stub types]]
+* [[Wikipedia:Template index/Translation|Translation]]
+
+| group20 = Other namespaces
+| list20 =
+* [[Wikipedia:Template index/Compact tables of contents|Compact TOC]]
+* [[Wikipedia:Template index/Category namespace|Category]]
+* [[Wikipedia:Template index/File namespace|File]]
+* [[Wikipedia:Template index/Talk namespace|Talk]]
+* [[Wikipedia:Template index/Template namespace|Template]]
+* [[Wikipedia:Template index/User namespace|User]]
+** [[Wikipedia:Userboxes|Userboxes]]
+* [[Wikipedia:Template index/User talk namespace|User talk]]
+* [[Wikipedia:Template index/Wikipedia namespace|Wikipedia]]
+** [[Wikipedia:Template index/WikiProject banners|WikiProject banners]]
+
+| group30 = All namespaces
+| list30 =
+* [[Wikipedia:Template index/Deletion|Deletion]] 
+** [[Wikipedia:Template index/Speedy deletion|Speedy]]
+* [[Wikipedia:Template index/Format|Formatting]]
+* [[Wikipedia:Template index/Maintenance|Maintenance]]
+* [[Wikipedia:Template index/Merging|Merging]]
+* [[Wikipedia:Template index/Moving|Moving]]
+** [[Wikipedia:Template index/Moving/Requested|Requested]]
+* [[Wikipedia:Navigation template|Navigation]]
+* [[Wikipedia:Template index/Redirect pages|Redirect pages]]
+** [[:Template:R template index|Functional index]]
+** [[Wikipedia:Template index/Redirect language codes|Language codes]]
+* [[Wikipedia:Template index/Splitting|Splitting]]
+* [[Wikipedia:Template index/Sister projects|Wikimedia sister projects]]
+
+| group40 = Navboxes<br/>with templates
+| list40 =
+* [[Template:Templates for archiving|Archiving]]
+* [[Template:Afd see also documentation|Articles for deletion]]
+* [[Template:Birth, death and age templates|Birth, death and age]]
+* [[Template:Button templates|Button]]
+* [[Template:Other category-header templates|Category header]]
+* [[Template:Citation and verifiability article maintenance templates|Citation and verifiability]]
+* [[Template:Citation Style 1|Citation Style 1]]
+* [[Template:DRV see also documentation|Deletion review]]
+* [[Template:Editnotice templates|Editnotice]]
+* [[Template:Hatnote templates|Hatnotes]]
+* [[Template:Help desk templates navbox|Help desk]]
+* [[Template:Inline cleanup tags|Inline cleanup]]
+* [[Template:Introduction cleanup templates|Introduction cleanup]]
+* [[Template:IPA templates|IPA]]
+* [[Template:Math templates|Math]]
+* [[Template:Notice and warning templates|Notice and warnings]]
+* [[Template:Organization infoboxes|Organization infoboxes]]
+* [[Template:Pam see also documentation|Proposed article mergers]]
+* [[Template:Protection templates|Protection]]
+* [[Template:Quotation templates|Quotation]]
+* [[Template:R template index|Redirects]]
+* [[Template:Search templates|Search]]
+* [[Template:Semantic markup templates|Semantics]]
+* [[Template:Speedy deletion navbox|Speedy deletion]]
+** [[Template:Speedy deletion notices|Notices]]
+* [[Template:String-handling templates|String-handling]]
+* [[Template:Sup and sub-related templates|Sup and sub-related]]
+* [[Template:Top icon templates|Top icon]]
+* [[Template:Transwiki maintenance|Transwiki maintenance]]
+* [[Template:Unicode templates|Unicode]]
+* [[Template:User talk pages|User talk pages]]
+* [[Template:User noticeboard notices|User noticeboard notices]]
+* [[Template:WikiProject Userboxes navbox|Userboxes]]
+** [[Template:User rights templates|User rights]]
+* [[Template:Userspace linking templates|Userspace linking]]
+* [[Template:Userspace disclaimers|Userspace disclaimers]]
+* [[Template:Wikibreak templates|Wikibreak]]
+* [[Template:WikiLove see also|WikiLove]]
+| group50 = Inline images
+| list50 =
+*[[Template:Icon|Wikipedia icons]]
+*[[Wikipedia:List of discussion templates|Discussion icons]]
+*[[Template:Done/See also|Comment icons]]
+*[[Template:Emoji|Emoji]]
+
+| group55= Help pages
+| list55 =
+* [[Wikipedia:Template documentation|Template documentation]]
+* [[Wikipedia:Template index/Examples|Examples of templates]]
+* [[Help:Maintenance template removal|Maintenance template removal]]
+* [[Wikipedia:Requested templates|Requested templates]]
+* [[Help:Template|Template help]]
+** [[Help:A quick guide to templates|Quick guide]]
+* [[Wikipedia:Favorite templates|Favorite templates]]
+* [[Wikipedia:Template namespace|Template namespace]]
+
+| group60= Related topics
+| list60 =
+* [[Wikipedia:WikiProject Templates|WikiProject Templates]]
+* [[Wikipedia:Template index|Index]]
+** [[:Category:Wikipedia templates|Category]]
+
+
+| group70 = Search
+| list70 =
+<inputbox>
+id=style-wide-searchbox
+type=fulltext
+width = 25
+namespaces=Template**
+searchbuttonlabel=Search templates
+break=no
+placeholder= e.g. Infoboxes
+</inputbox>
+
+| belowstyle = font-weight:bold;
+| below =
+* {{#invoke:Icon|main|CAT}}  [[:Category:Wikipedia templates|Category]]
+}}<noinclude>{{documentation}}</noinclude>

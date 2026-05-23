@@ -1,0 +1,5 @@
+/* {{pp-template}} */
+/* Styling for Template:Noitalic */
+.noitalic {
+	font-style: normal;
+}

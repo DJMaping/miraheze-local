@@ -1,0 +1,252 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{High-use| 27900 }}
+{{Mbox|type=content|text=Please check that you do actually need this template before using it. Default date sorting does not work for spelled-out month–year or year–month combos and dates before the year 100, but it works in most other circumstances. For more information, see {{Section link|Help:Sortable tables|Date sorting problems}}.}}
+{{COinS safe|n}}
+{{template shortcut|dts}}
+{{lua|Module:Date table sorting}}
+
+'''Date table sorting''' is used to correctly sort and display dates in a sortable table (see [[Help:Sortable tables]]).
+
+==What it solves==
+Dates in their customary formats, if simply treated as alphanumeric text strings, sort in nonsensical ways:
+*1 September 1998 sorts alphanumerically before 5 March 1967, because ''1'' is less than ''5'';
+*February 5, 1922 sorts alphanumerically before January 3, 1922, because ''F'' comes before ''J''.
+Use of the YYYY-MM-DD format would solve this problem, but with minor exceptions that format is not used in articles (see [[WP:DATEFORMAT]]).
+
+This template automatically attaches a "hidden key" to dates, causing them to sort correctly while still being displayed in one of the customary display formats such as ''February 5, 1922,'' or ''5 Feb 1922''.
+
+==Parameters==
+===Dates===
+{|class=wikitable
+|-
+|+The year, month and day can either be entered separately or as a single date.
+|-
+! style="width: 50%;" |{{tlf|{{BASEPAGENAME}}|''year''|''month''|''day''|''BC''}}
+! style="width: 50%;" |{{tlf|{{BASEPAGENAME}}|''date''}}
+|- style="vertical-align:top;"
+|
+* 1st parameter – Year (optional if month is given)
+** Positive numbers (1 to 999,999,999,999) represent years AD or BC (dependant on the fourth parameter).
+** Negative numbers (−1 to −999,999,999,999) represent years BC (without the fourth parameter).
+** Year numbers must not contain commas or other formatting.
+* 2nd parameter – Month (optional if the day is not given either)
+** Full month name – e.g. February
+** Abbreviated month name – e.g. Feb
+** Month number – (either zero-padded or not) e.g. 2 or 02
+* 3rd parameter – Day (optional)
+** Day number – (either zero-padded or not) e.g. 7 or 07
+* 4th parameter – (optional)
+** May be BC, AD, BCE or CE
+** Used with a positive year number
+|
+* 1st parameter – the full date
+** By default YYYY-MM-DD format becomes month-day-year format and DD-MM-YYYY format becomes day-month-year while other formats remain in the order they are input.
+** Abbreviated months are accepted and are abbreviated in the output.
+** Capitalisation and comma mistakes are corrected.
+** A single number is interpreted as a year, otherwise the date is parsed by the module. The following formats are accepted:
+*** YYYY-MM-DD
+*** DD-MM-YYYY
+*** DD Month YYYY
+*** Month DD, YYYY
+*** YYYY-MM
+*** DD Month
+*** Month DD
+*** Month YYYY
+*** YYYY
+*** Month
+** Day and month numbers may be 1 or 2 digits, and year numbers may only be 3 or 4 digits. If you need to input a number less than 1000, use leading zeroes (e.g. "0700").
+** BC years can only be parsed if the date is only the year number.
+** If you need to include the day or month for BC years or years greater than 9999, you must use separate parameters for year, month and day.
+|}
+
+
+{| class="wikitable sortable"
+|+ Examples
+!input style
+!input code
+!hidden sort key
+!visible output
+{{{{BASEPAGENAME}}/testcases/row|span=5|a={{tlf|{{BASEPAGENAME}}|''year''}}|1893}}
+{{{{BASEPAGENAME}}/testcases/row|-89}}
+{{{{BASEPAGENAME}}/testcases/row|-10000}}
+{{{{BASEPAGENAME}}/testcases/row|-1}}
+{{{{BASEPAGENAME}}/testcases/row| 1}} (Note that year 0 does not exist and gives error message)
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''month''}}|Oct}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''month year''}}|February 1767}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''day month year''}}|12 Aug 1987}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''month day, year''}}|July 1, 1867}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''day month''}}|25 October}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''month day''}}|Jan 1}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''YYYY-MM-DD''}}|2014-12-09}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}|''DD-MM-YYYY''}}|15-05-2019}}
+{{{{BASEPAGENAME}}/testcases/row|span=3|a={{tlf|{{BASEPAGENAME}}|''year''|''month''}}|1990|10}}
+{{{{BASEPAGENAME}}/testcases/row|1980|Dec}}
+{{{{BASEPAGENAME}}/testcases/row|1970|August}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a={{tlf|{{BASEPAGENAME}}|''year''|''month''|''day''}}|2024|Jun|12}}
+{{{{BASEPAGENAME}}/testcases/row|-204|11|22}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a={{tlf|{{BASEPAGENAME}}|''year''|''month''|''day''|''era''}}|44|3|15|BC}}
+{{{{BASEPAGENAME}}/testcases/row|94|Oct|17|AD}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}||''month''}}||May}}
+{{{{BASEPAGENAME}}/testcases/row|a={{tlf|{{BASEPAGENAME}}||''month''|''day''}}||Sep|12}}
+|}
+
+===Formatting===
+Using a format in the {{para|format}} parameter, such as <code>dmy</code>, produces a format that depends on, but is not necessarily equal to the format of the supplied date. The {{para|format}} parameter can take nine values.
+
+{|class="wikitable sortable"
+|+ Examples
+|-
+!value
+!function
+!input code
+!hidden sort key
+!visible output
+{{{{BASEPAGENAME}}/testcases/row|span=3|a=&nbsp;|b=format depends on the input|26 Jan 1788}}
+{{{{BASEPAGENAME}}/testcases/row|March 12, 1557}}
+{{{{BASEPAGENAME}}/testcases/row|1975-02-13}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a=<code>dmy</code>|b=displays the date in day-month-year format|Sep 13, 1888|format=dmy}}
+{{{{BASEPAGENAME}}/testcases/row|1983-01-03|format=dmy}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a=<code>dm</code>|b=displays only the day and month in day-month format|Feb 26, 1788|format=dm}}
+{{{{BASEPAGENAME}}/testcases/row|2020-10-15|format=dm}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a=<code>mdy</code>|b=displays the date in month-day-year format|August 31, 1901|format=mdy}}
+{{{{BASEPAGENAME}}/testcases/row|2006-11-08|format=mdy}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a=<code>md</code>|b=displays only the day and month in month-day format|26 Jun 1988|format=md}}
+{{{{BASEPAGENAME}}/testcases/row|2002-02-27|format=md}}
+{{{{BASEPAGENAME}}/testcases/row|a=<code>my</code>|b=displays only the month and year in month-year format|16 November 1488|format=my}}
+{{{{BASEPAGENAME}}/testcases/row|a=<code>d</code>|b=displays only the day|6 July 1666|format=d}}
+{{{{BASEPAGENAME}}/testcases/row|a=<code>m</code>|b=displays only the month|1980-02-12|format=m}}
+{{{{BASEPAGENAME}}/testcases/row|a=<code>y</code>|b=displays only the year|-26|Jan|18|format=y}}
+{{{{BASEPAGENAME}}/testcases/row|a=<code>hide</code>|b=hides the date|15 October 1800|format=hide}}
+|}
+
+===Abbreviation===
+There are two ways of abbreviating the month name.
+# Directly input an abbreviated month name.
+# Use the {{para|abbr|on}} parameter. It can be placed before or after the date in the template. This allows one to abbreviate the month later if the table becomes too wide. It is easy to use find-and-replace in a text editor, or the wikitext editor, to replace <code><nowiki>{{Date table sorting|</nowiki></code> with <code><nowiki>{{Date table sorting|abbr=on|</nowiki></code>
+
+{|class="wikitable sortable"
+|+ Examples
+|-
+!abbreviation method
+!input code
+!hidden sort key
+!visible output
+{{{{BASEPAGENAME}}/testcases/row|span=4|a=none|2000-01-01}}
+{{{{BASEPAGENAME}}/testcases/row|2000|1|1}}
+{{{{BASEPAGENAME}}/testcases/row|1 January 2000}}
+{{{{BASEPAGENAME}}/testcases/row|2000|January|1}}
+{{{{BASEPAGENAME}}/testcases/row|span=2|a=abbreviated input|1 Jan 2000}}
+{{{{BASEPAGENAME}}/testcases/row|2000|Jan|1}}
+{{{{BASEPAGENAME}}/testcases/row|span=4|a=<code>abbr{{=}}on</code>|1 January 2000|abbr=on}}
+{{{{BASEPAGENAME}}/testcases/row|2000|January|1|abbr=on}}
+{{{{BASEPAGENAME}}/testcases/row|2000-01-01|abbr=on}}
+{{{{BASEPAGENAME}}/testcases/row|2000|1|1|abbr=on}}
+|}
+
+===Additional sort key===
+In case two dates in a table are identical they may be ordered using the <code>addkey</code> parameter.
+
+{|class="wikitable sortable"
+|+ Examples
+|-
+!input code
+!hidden sort key
+!visible output
+{{{{BASEPAGENAME}}/testcases/row|2010-10-10|addkey=3}}
+{{{{BASEPAGENAME}}/testcases/row|2010-10-09}}
+{{{{BASEPAGENAME}}/testcases/row|2010-10-10|addkey=1}}
+{{{{BASEPAGENAME}}/testcases/row|2010-10-10}}
+{{{{BASEPAGENAME}}/testcases/row|2010-10-10|addkey=4}}
+{{{{BASEPAGENAME}}/testcases/row|2010-10-11}}
+{{{{BASEPAGENAME}}/testcases/row|2010-10-10|addkey=2}}
+|}
+
+===Wrapping===
+Wrapping of the date can help narrow a column and table. To allow wrapping use the {{para|nowrap|off}} parameter. For further narrowing use the {{para|abbr|on}} parameter as described elsewhere. Both of these parameters help with wide tables, narrow screens, cell phones, etc..
+
+==TemplateData==
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Full date or year",
+			"description": "Full date if second to fourth parameters are not specfied, otherwise year. Full date can be either in \"YYYY-MM-DD\", \"DD-MM-YYYY\", \"DD Month YYYY\", \"Month DD, YYYY\", \"YYYY-MM\", \"DD Month\", \"Month DD\", \"Month YYYY\" or \"Month\" format. Year is either a positive number or a negative number. If fourth parameter is not specified negative numbers are interpreted as years of BC era. Parameter is optional if the second parameter is specified.",
+			"example": "\"1893\", \"-89\", \"-10000\", \"Oct\", \"February 1767\", \"12 Aug 1987\", \"July 1, 1867\", \"25 October\", \"Jan 1\", \"2014-12-09\"",
+			"required": true,
+			"type": "string"
+		},
+		"2": {
+			"label": "Month",
+			"description": "Full or abbreviated month name or alternatively, a month number which can be zero-padded. Parameter is optional if the third parameter is not specified.",
+			"example": "February, Feb, 2 or 02",
+			"type": "string"
+		},
+		"3": {
+			"label": "Day",
+			"description": "Day, optionally zero-padded",
+			"example": "7 or 07",
+			"type": "number"
+		},
+		"4": {
+			"label": "Era",
+			"description": "BC, AD, BCE or CE. Takes effect only if the first parameter is a positive number.",
+			"type": "string"
+		},
+		"format": {
+			"label": "Format",
+			"description": "Controls the output format. Can be \"dmy\", \"dm\", \"mdy\", \"md\", \"my\", \"d\", \"m\", \"y\" or \"hide\".",
+			"type": "string"
+		},
+		"abbr": {
+			"label": "Abbreviation",
+			"description": "Abbreviates the month name",
+			"example": "on",
+			"type": "string",
+			"default": "off"
+		},
+		"addkey": {
+			"label": "Additional sort key",
+			"description": "Adds another sort key to resolve conflicts between rows with the same date",
+			"example": "3",
+			"type": "number"
+		},
+		"nowrap": {
+			"label": "Wrapping",
+			"description": "To allow wrapping use the ''nowrap=off'' parameter.",
+			"example": "off",
+			"type": "boolean",
+			"default": "on"
+		}
+	},
+	"description": "Date table sorting is used to correctly sort and display dates in a sortable table."
+}
+</templatedata>
+
+==Notes==
+===Sorting for incomplete dates===
+;Whole months or years: A whole year or month (and year) is sorted according to its first day.
+;Missing years: If the year is not specified, the date will be sorted as if the year were the current year.
+;Blank dates: For no date input at all, the maximum possible sort key is used, so the entry will sort last.
+
+===Error handling===
+Errors are tracked in [[:Category:Date table sorting templates with errors]].
+
+===Calendar choice===
+The template is not capable of distinguishing Julian and Gregorian calendar dates. Also, it is not capable of taking a date in one calendar as input and outputting a date in the other calendar. Thus, to ensure proper sorting, editors must either use one calendar for all dates, or pick a specific changeover date (for example, deciding that 4 October 1582 is Julian and all later dates are Gregorian); this would be done on an article-by article basis. Editors are also responsible for explaining to the reader whether the visible dates are Julian or Gregorian, if there is any possibility of confusion.
+
+===Linking===
+The template formerly linked dates automatically, with {{para|link|off}} used to suppress linking. In accordance with current guidelines, [[WP:DATELINK|linking of dates]] is no longer supported and instances of {{para|link|off}} should be removed.
+
+==See also==
+* {{tl|sort}}, sorting by a specified key (also good for complicated numbers, e.g. scientific notation)
+* {{tl|sortname}}, full name sorting (using "last name, first name" as default sort key)
+* {{tl|tts}}, for sorting times in result tables of athletic events (only needed in certain cases - see template documentation)
+* {{tl|Number table sorting}}, for numbers
+* {{tl|Year in date-sorted table}}, to sort years in a column with {{para|data-sort-type|date}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Sorting templates|{{BASEPAGENAME}}]]
+[[Category:Date mathematics templates]]
+}}</includeonly>

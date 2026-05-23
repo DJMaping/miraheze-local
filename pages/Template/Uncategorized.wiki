@@ -1,0 +1,19 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||date=__DATE__ |$B={{Namespace detect showall
+| 1 = 
+| 2 = {{#ifeq:{{FULLPAGENAME}}|Main Page||{{Mbox
+ | name      = Uncategorized
+ | type      = style
+ | class     = ambox-uncategorized
+ | image     = [[File:Wiki letter w.svg|50x40px]]
+ | small     = {{{small|}}}
+ | demospace = {{{demospace|}}}
+ | text      = This {{Pagetype|subjectspace=yes}} '''has not been added to any {{Main other|content}} [[Wikipedia:Categorization|categories]]'''. Please help out by [[Wikipedia:Categorization FAQ#How do I add an article to a category?|adding categories]] to it so that it can be listed with similar {{#ifeq: {{Pagetype|subjectspace=yes}} | category | categorie | {{Pagetype|subjectspace=yes}} }}s<includeonly>{{Main other|{{yesno|{{{stub|no}}}|yes=, in addition to a stub category|no={{Stub other|, in addition to a stub category}}}}}}</includeonly>. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
+ | smalltext = This {{Pagetype|subjectspace=yes}} has not been added to any [[Wikipedia:Categorization|categories]].
+}}<includeonly>{{Subpage other||{{DMCFACT|Uncategorized|from|{{{date|}}}|All uncategorized pages|Uncategorized pages}}}}</includeonly>}}
+| user  = 1
+| draft  = 1
+| user talk = 1
+| draft talk  = 1
+| other = 2
+}}}}<noinclude>
+{{Documentation}}<!-- Add categories and interwikis to the /doc subpage, thanks! --></noinclude>

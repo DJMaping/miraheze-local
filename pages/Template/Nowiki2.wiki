@@ -1,0 +1,10 @@
+{{#if: {{{tag|}}}
+| {{#if: {{{style|}}}
+  | <{{{tag}}} style="{{{style}}}">
+  | <{{{tag}}}>
+  }}
+}}{{#invoke:Lua call | call | mw.text.nowiki |\{{{1|}}}<!-- -->}}{{#if: {{{tag|}}}
+| </{{{tag}}}>
+}}<noinclude>
+{{Documentation}}
+</noinclude>

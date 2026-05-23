@@ -1,0 +1,14 @@
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{used in system}}
+{{cascade-protected template|page=module}}
+Helper module to get protection data about a blacklisted page entry.
+
+== Usage ==
+{{mlx|Title blacklist|main|action{{=}}edit|pagename{{=}}Example}} -> "templateeditor", "autoconfirmed", or the empty string. 
+
+{{mlx|Title blacklist|main|action{{=}}edit|pagename{{=}}Example|templateeditor{{=}}Example1|autoconfirmed{{=}}Example2}} -> "Example1", "Example2", or the empty string. 
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+
+}}</includeonly>

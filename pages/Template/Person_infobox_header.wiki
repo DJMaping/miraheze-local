@@ -1,0 +1,10 @@
+{{ombox|type=content|text=The design and content of [[:Category:People and person infobox templates|biographical infoboxes]] must comply with Wikipedia’s [[Wikipedia:Verifiability|verifiability policy]], as well as the [[Wikipedia:Manual of Style/Infoboxes|infobox]] and [[Wikipedia:Manual of Style/Biography|biographical style guidelines]].
+
+All content displayed by this template must adhere to the '''[[Wikipedia:Biographies of living persons|biographies of living persons policy]]''' when applicable. [[Wikipedia:Citing sources|Unsourced or poorly sourced]], [[Wikipedia:Contentious|contentious]] material '''must be removed''', especially if it is potentially [[Wikipedia:Libel|libelous]].}}
+<noinclude>
+{{documentation
+|content=
+{{no documentation}}
+[[Category:People and person infobox templates]]
+}}
+</noinclude>

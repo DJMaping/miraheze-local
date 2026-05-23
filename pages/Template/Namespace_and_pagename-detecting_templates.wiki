@@ -1,0 +1,99 @@
+{{Navbox
+| name = Namespace and pagename-detecting templates
+| state = {{{state|{{{1|<noinclude>expanded</noinclude>}}}}}}
+| bodyclass=hlist
+| title = Namespace and pagename-detecting templates
+
+| group1 = [[Wikipedia:Namespace|Namespace]]
+| list1 =
+ {{Navbox |child
+  |groupstyle=font-weight:normal;
+
+  | group1 = Particular
+  | list1 =
+* {{tlbare|Main other}}
+* {{tlbare|Talk other}}
+* {{tlbare|Category other}}
+* {{tlbare|Draft other}}
+* {{tlbare|File other}}
+** {{tlbare|Is Commons}}
+* {{tlbare|Help other}}
+* {{tlbare|Module other}}
+* {{tlbare|Portal other}}
+* {{tlbare|Template other}}
+* {{tlbare|User other}}
+* {{tlbare|Project other}}
+* {{tlbare|Single namespace}}
+* {{tlbare|If talkspace of}}
+  | group2 = More generic
+  | list2 =
+* {{tlbare|Namespace detect}}
+* {{tlbare|Namespace detect showall}}
+* {{tlbare|Main talk other}}
+** {{tlbare|Main talk other flex}}
+* {{tlbare|Talkspace detect}}
+ }}
+
+| group2 = [[Wikipedia:Page name|Pagename]]
+| list2 = {{navbox|subgroup
+  | groupstyle = line-height:1.2em; font-weight:normal; background:transparent; color:inherit;
+  | liststyle = line-height:1.2em
+   | group1  = {{tlbare|When on basepage}}
+   | list1   = Detects and acts according to whether it is on a basepage ''or'' on any subpage (that is, a <code>../..</code> subpage).
+   | group2  = {{tlbare|When pagename is}}
+   | list2   = For pattern matching on the pagename.
+   | group3  = [[Module:Page]]
+   | list3   = Can take apart and put together pagenames in several ways.
+   | group4  = {{tlbare|If temporary account}}
+   | list4   = Page identifies a temporary account
+   | group5  = {{tlbare|IP-talk}}
+   | list5   = Returns IP-user talkpage, registered-user talkpage or non-user talkpage.
+   | group6  = {{tlbare|IP-user other}}
+   | list6   = For detecting IP-user pages.
+   | group7  = {{tlbare|Subpage other}}
+   | list7   = Pagename has an after-slash part (not in mainspace)
+   | group8  = {{tlbare|Sandbox other}}
+   | list8   = Page is subpage /sandbox (template space)
+   | group9  = {{tlbare|Testcases other}}
+   | list9   = Page is subpage /testcases (template space)
+   | group10 = {{tlbare|Rootpage other}}
+   | list10  = Page is rootpage (vs. /subpage) (template space)
+
+ }}
+
+| group3 = Others
+| list3 = {{navbox|subgroup
+  | groupstyle = line-height:1.2em; font-weight:normal; background:transparent; color:inherit;
+  | liststyle = line-height:1.2em
+   | group1 = {{tlbare|Stub other}}
+   | list1 = Detects whether it is on a page with a stub template or not. 
+   | group2 = {{tlbare|Redirect other}}
+   | list2 = Detects whether it is on a redirect or not.
+   | group3 = {{tlbare|If preview}}
+   | list3 = Detects whether page is viewed as a preview or not. 
+   | group4 = {{tlbare|If IP}}
+   | list4 = Displays different content to IP users and logged-in users.
+   | group5 = {{tlbare|If autoconfirmed}}
+   | list5 = Displays different content to autoconfirmed and non-autoconfirmed users.
+   | group6 = {{tlbare|If extended confirmed}}
+   | list6 = Displays different content to extended confirmed and non-extended confirmed users.
+   | group7 = {{tlbare|If administrator}}
+   | list7 = Displays content only to admins.
+   | group8 = {{tlbare|If mobile}}
+   | list8 = Displays different content to mobile users and desktop users.
+   | group9 = {{tlbare|If dark}}
+   | list9 = Displays different content to dark mode users and light mode users.
+   | group10 = {{tlbare|Noscript}}
+   | list10 = Detects whether page is viewed with a JavaScript-capable client or not. 
+
+ }}
+
+| below =
+* [[Wikipedia:Namespace]]
+* [[Wikipedia:Page name]]
+* [[mw:Help:Magic words|Magic words]]
+* [[mw:Help:Extension:ParserFunctions|ParserFunctions]]
+
+}}<noinclude>
+{{documentation}}
+</noinclude>

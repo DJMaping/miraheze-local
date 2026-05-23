@@ -1,0 +1,10 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||$B=<templatestyles src="Sfrac/styles.css" /><span class="sfrac">&NoBreak;{{#if:{{{3|}}}|{{{1}}}<span class="sr-only">+</span>}}<!--
+ --><span class="tion" {{#if:{{{font-size|}}}|style="font-size:{{{font-size}}}"}}><!--
+  --><span class="num">{{#if:{{{3|}}}|{{{2}}}|{{#if:{{{2|}}}|{{{1}}}|1}}}}</span><!--
+  --><span class="sr-only">/</span><!--
+  --><span class="den">{{{3|{{{2|{{{1|1}}}}}}}}}</span><!--
+ --></span><!--
+-->&NoBreak;</span>}}<noinclude>
+{{documentation}}
+<!-- Add categories to /doc subpage, not here. -->
+</noinclude>

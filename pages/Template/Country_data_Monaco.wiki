@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Monaco
+| flag alias = Flag of Monaco.svg
+| flag alias-state = Flag of Monaco (state).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = state
+| redir1 = MCO
+| redir2 = MON
+</noinclude>
+}}

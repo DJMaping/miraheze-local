@@ -1,0 +1,76 @@
+/* {{pp|small=y}} */
+/*
+ * This TemplateStyles sheet deliberately does NOT include the full set of
+ * infobox styles. We are still working to migrate all of the manual
+ * infoboxes. See [[MediaWiki talk:Common.css/to do#Infobox]]
+ * DO NOT ADD THEM HERE
+ */
+/*
+ * not strictly certain these styles are necessary since the modules now
+ * exclusively output infobox-subbox or infobox, not both
+ * just replicating the module faithfully
+ */
+.infobox-subbox {
+	padding: 0;
+	border: none;
+	margin: -3px;
+	width: auto;
+	min-width: 100%;
+	font-size: 100%;
+	clear: none;
+	float: none;
+	background-color: transparent;
+    color:inherit;
+}
+
+.infobox-3cols-child {
+	margin: -3px;
+}
+
+.infobox .navbar {
+	font-size: 100%;
+}
+
+/* Dark theme: [[William_Wragg]], [[Coral_Castle]] */
+
+@media screen {
+    html.skin-theme-clientpref-night .infobox-full-data:not(.notheme) > div:not(.notheme)[style] {
+	    background: #1f1f23 !important;
+	      /* switch with var( --color-base ) when supported. */
+	      color: #f8f9fa;
+	}
+}
+
+
+@media screen and ( prefers-color-scheme: dark) {
+    html.skin-theme-clientpref-os .infobox-full-data:not(.notheme) > div:not(.notheme)[style] {
+      background: #1f1f23 !important;
+      /* switch with var( --color-base ) when supported. */
+      color: #f8f9fa;
+    }
+}
+
+
+/* Since infobox is a table, many infobox templates take advantage of this to
+ * add columns and rows to the infobox itself rather than as part of a new table
+ * inside them. This class should be discouraged and removed on the long term,
+ * but allows us to at least identify these tables going forward
+ * Currently in use on: [[Module:Infobox3cols]]
+ * Fixes issue described in [[phab:F55300125]] on Vector 2022.
+*/
+@media (min-width: 640px) {
+  body.skin--responsive .infobox-table {
+    display: table !important;
+  }
+  body.skin--responsive .infobox-table > caption {
+    display: table-caption !important;
+  }
+  body.skin--responsive .infobox-table > tbody {
+    display: table-row-group;
+  }
+  body.skin--responsive .infobox-table th,
+  body.skin--responsive .infobox-table td {
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+}

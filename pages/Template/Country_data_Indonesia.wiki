@@ -1,0 +1,26 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Indonesia
+| flag alias = Flag of Indonesia.svg
+| link alias-naval = Indonesian Navy
+| flag alias-naval = Flag of Indonesia.svg
+| link alias-navy = Indonesian Navy
+| flag alias-navy = Flag of the Indonesian Navy.svg
+| link alias-marines= Indonesian Marine Corps
+| flag alias-marines = Flag of the Indonesian Marine Corps.png
+| link alias-air force = Indonesian Air Force
+| flag alias-air force = Flag of the Indonesian Air Force.svg
+| link alias-army = Indonesian Army
+| flag alias-army = Flag of the Indonesian Army.svg
+| flag alias-military = Flag of the Indonesian National Armed Forces.svg
+| link alias-military = Indonesian National Armed Forces
+| flag alias-sanctionedFB = Indonesia coat of arms with name.svg 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = sanctionedFB
+| redir1 = IDN
+| redir2 = INA
+</noinclude>
+}}

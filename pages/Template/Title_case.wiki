@@ -1,0 +1,3 @@
+{{{{{|safesubst:}}}#if:{{{1|}}}|{{{{{|safesubst:}}}#invoke:string2|title|{{{1|}}}}}}}<noinclude>
+{{documentation}}
+</noinclude>

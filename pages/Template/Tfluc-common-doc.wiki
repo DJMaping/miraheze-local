@@ -1,0 +1,30 @@
+==Icons to show fluctuation==
+{{Navbar|Template:Tfluc-common-doc|plain=1|style=float:right;}}
+<noinclude>'''This templatedata is intended to be generic and apply to all the templates mentioned.'''</noinclude>
+{{FormatTemplateData|JSON=
+{
+	"params": {
+		"1": {
+			"label": "Tooltip text",
+			"description": "Changes the text displayed on hover.",
+			"example": "−5%",
+			"type": "string",
+			"default": "Defaults to something appropriate to the chosen template, such as \"Increase\"."
+		},
+		"size": {
+			"description": "Changes the size of the icon. Use when adjacent to small/large text.",
+			"type": "unknown",
+			"default": "11px"
+		}
+	},
+	"description": "This is one of a series of templates to display an increase or decrease arrow icon. {{Increase}}&nbsp;{{[[Template:Increase|Increase]]}} = {{[[Template:IncreasePositive|IncreasePositive]]}} = {{[[Template:Up|Up]]}} = {{[[Template:Gain|Gain]]}} = {{[[Template:Profit|Profit]]}} is a green up arrow. \n{{Down}}&nbsp;{{[[Template:Decrease|Decrease]]}} = {{[[Template:DecreaseNegative|DecreaseNegative]]}} = {{[[Template:Down|Down]]}} = {{[[Template:Loss|Loss]]}} is a red down arrow. \n{{Steady}}&nbsp;{{[[Template:Steady|Steady]]}} = {{[[Template:Nochange|Nochange]]}} = {{[[Template:Same|Same]]}} is a flat line for no change. Examples of situations where the use of {{Increase}}&nbsp;{{[[Template:Increase|Increase]]}} is appropriate include: <ol><li>The quantity involved is an entity's [[ranking|rank]] according to a property where minimizing the quantity is desirable (e.g., a country's [[HDI]] rank), is always non-negative by definition and shows an encouraging improvement (e.g., an improvement in a country’s HDI rank).</li><li>The quantity involved should be maximized (e.g., global [[literacy|literacy rate]], annual [[revenue]] for a business, [[log probability]] for a [[likelihood function]] in [[maximum likelihood estimation]]), can take values from either the set of [[sign (mathematics)|non-negative reals]] or the set of [[sign (mathematics)|non-positive reals]] (but not both), and implies a favorable progression (e.g., an increased literacy rate, an increased revenue, a higher log probability).</li><li>The quantity involved should be maximized (e.g., annual [[Profit (accounting)|income]] for a business), may be positive, negative or zero in general, is currently a positive number (e.g., a profit, i.e., a positive annual income, justifying the green color) and informs a constructive shift (e.g., a profit which follows either a loss or a lower profit, justifying the up arrow).</li></ol> Examples of situations where the use of {{Down}}&nbsp;{{[[Template:Decrease|Decrease]]}} is appropriate include: <ol><li>The quantity involved is an entity's rank according to a property where minimizing the quantity is desirable (e.g., a country's HDI rank), is always non-negative by definition and shows an undesirable shift (e.g., a worsening in a country’s HDI rank).</li><li>The quantity involved should be maximized (e.g., global literacy rate, annual revenue or income for a business, log probability for a likelihood function in maximum likelihood estimation) and implies an unwanted deterioration (e.g., a reduction in literacy rate, a fall in revenue, a decrease in income—resulting from a reduced profit or an increased loss or a loss following a profit, a reduction in log probability).</li><li>The quantity involved should be minimized (e.g., a country's [[Net-zero_emissions#Country_examples|net carbon emission]]), may be positive, negative or zero in general, is currently a positive number (e.g., a net positive emission which is undesirable, justifying the red color) and informs a promising enhancement (e.g., a reduction in net carbon emission, justifying the down arrow).</li></ol>Use {{IncreaseNegative}} {{[[Template:IncreaseNegative|IncreaseNegative]]}} or {{DecreasePositive}} {{[[Template:DecreasePositive|DecreasePositive]]}} to flip the color. Examples of situations where the use of {{IncreaseNegative}} {{[[Template:IncreaseNegative|IncreaseNegative]]}} is appropriate include:<ol><li>The quantity involved should be minimized (e.g., [[Traffic collision|road accidents]], a country's net carbon emission), is ''not'' an entity's rank according to a property where minimizing the quantity is desirable, and shows an unfortunate worsening (e.g., a rise in road accidents, a rise in a country's net carbon emission).</li><li>The quantity involved should be maximized (e.g., annual income for a business), may be positive, negative or zero in general, is currently a negative number (e.g., a loss, i.e., a negative income, justifying the red color) and implies an encouraging improvement (e.g., a reduction in loss, i.e., a rise in income, justifying the up arrow).</li></ol> Examples of situations where the use of {{DecreasePositive}} {{[[Template:DecreasePositive|DecreasePositive]]}} is appropriate include:<ol><li>The quantity involved should be minimized (e.g., road accidents), is ''not'' an entity's rank according to a property where minimizing the quantity is desirable, can take values from either the set of non-negative reals or the set of non-positive reals (but not both), and communicates a favorable progression (e.g., a reduction in road accidents).</li><li>The quantity involved should be minimized (e.g., a country's net carbon emission), may be positive, negative or zero in general, is currently a negative number (e.g., a net negative emission, justifying the green color) and informs a desired enhancement (e.g., a reduction in net carbon emission, justifying the down arrow).</li></ol>Where using neither color is preferred, use {{IncreaseNeutral}} {{[[Template:IncreaseNeutral|IncreaseNeutral]]}} and {{DecreaseNeutral}} {{[[Template:DecreaseNeutral|DecreaseNeutral]]}}.<br/><br/>To automatically display the appropriate symbol along with a value, use {{[[Template:Fluctuation formatter|Fluctuation formatter]]}}.",
+	"format": "inline"
+}
+}}
+
+==See also==
+* [[Template:Fluctuation formatter]]
+<noinclude>
+[[Category:Documentation shared content templates]]
+
+</noinclude>

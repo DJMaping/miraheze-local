@@ -1,0 +1,138 @@
+<noinclude>{{pp|small=yes}}
+</noinclude>{{used in system}}
+{{Module rating|protected}}
+{{cascade-protected template|page=module}}
+This module provides a consistent interface for processing boolean or boolean-style string input. While Lua allows the <code>true</code> and <code>false</code> boolean values, wikicode templates can only express boolean values through strings such as "yes", "no", etc. This module processes these kinds of strings and turns them into boolean input for Lua to process. It also returns <code>nil</code> values as <code>nil</code>, to allow for distinctions between <code>nil</code> and <code>false</code>. The module also accepts other Lua structures as input, i.e. booleans, numbers, tables, and functions. If it is passed input that it does not recognise as boolean or <code>nil</code>, it is possible to specify a default value to return.
+
+== Syntax ==
+
+<syntaxhighlight lang="lua">yesno(value, default)</syntaxhighlight>
+
+<code>value</code> is the value to be tested. Boolean input or boolean-style input (see below) always evaluates to either <code>true</code> or <code>false</code>, and <code>nil</code> always evaluates to <code>nil</code>. Other values evaluate to <code>default</code>.
+
+== Usage ==
+
+First, load the module. Note that it can only be loaded from other Lua modules, not from normal wiki pages. For normal wiki pages you can use {{tl|yesno}} instead.
+
+<syntaxhighlight lang="lua">
+local yesno = require('Module:Yesno')
+</syntaxhighlight>
+
+Some input values always return <code>true</code>, and some always return <code>false</code>. <code>nil</code> values always return <code>nil</code>.
+
+<syntaxhighlight lang="lua">
+-- These always return true:
+yesno('yes')
+yesno('y')
+yesno('true')
+yesno('t')
+yesno('on')
+yesno('1')
+yesno(1)
+yesno(true)
+
+-- These always return false:
+yesno('no')
+yesno('n')
+yesno('false')
+yesno('f')
+yesno('off')
+yesno('0')
+yesno(0)
+yesno(false)
+
+-- A nil value always returns nil:
+yesno(nil)
+yesno()
+</syntaxhighlight>
+
+String values are converted to lower case before they are matched:
+
+<syntaxhighlight lang="lua">
+-- These always return true:
+yesno('Yes')
+yesno('YES')
+yesno('yEs')
+yesno('Y')
+yesno('tRuE')
+
+-- These always return false:
+yesno('No')
+yesno('NO')
+yesno('nO')
+yesno('N')
+yesno('fALsE')
+</syntaxhighlight>
+
+===Undefined input ('foo')===
+You can specify a default value if yesno receives input other than that listed above. If you don't supply a default, the module will return <code>nil</code> for these inputs.
+
+<syntaxhighlight lang="lua">
+-- These return nil:
+yesno(nil)
+yesno('foo')
+yesno({})
+yesno(5)
+yesno('')
+yesno(function() return 'This is a function.' end)
+yesno(nil, true)
+yesno(nil, 'bar')
+
+-- These return true:
+yesno('foo', true)
+yesno({}, true)
+yesno(5, true)
+yesno('', true)
+yesno(function() return 'This is a function.' end, true)
+
+-- These return "bar":
+yesno('foo', 'bar')
+yesno({}, 'bar')
+yesno(5, 'bar')
+yesno('', 'bar')
+yesno(function() return 'This is a function.' end, 'bar')
+</syntaxhighlight>
+
+Although the empty string usually evaluates to false in wikitext, it evaluates to true in Lua. This module prefers the Lua behaviour over the wikitext behaviour. If treating the empty string as false is important for your module, you will need to convert empty strings to a value that evaluates to false before passing them to this module. In the case of arguments received from wikitext, this can be done by using [[Module:Arguments]].
+
+===Handling nil results===
+By definition:
+<syntaxhighlight lang="lua">
+yesno(nil)         -- Returns nil.
+yesno('foo')       -- Returns nil.
+yesno(nil, true)   -- Returns nil.
+yesno(nil, false)  -- Returns nil.
+yesno('foo', true) -- Returns true.
+</syntaxhighlight>
+
+To get the binary <syntaxhighlight lang="lua" inline>true/false</syntaxhighlight>-only values, use code like:
+<syntaxhighlight lang="lua">
+myvariable = yesno(value or false) -- When value is nil, result is false.
+myvariable = yesno(value or true)  -- When value is nil, result is true. (XXX: when value is false, result is true...)
+myvariable = yesno('foo') or false  -- Unknown string returns nil, result is false.
+myvariable = yesno('foo', true) or false  -- Default value (here: true) applies, result is true.
+</syntaxhighlight>
+
+Better suggestions:
+<syntaxhighlight lang="lua">
+local myvariable = yesno(value)
+if myvariable == nil then -- value is nil or an unrecognized string
+    myvariable = true
+end
+
+-- more efficient when value is nil, but more verbose
+-- (note the default result has to be written twice)
+local myvariable
+if value == nil then
+    myvariable = true
+else
+    myvariable = yesno(value, true)
+end
+</syntaxhighlight><!--
+
+--><includeonly>{{sandbox other||
+[[Category:Lua metamodules]]
+}}</includeonly>
+<noinclude>
+[[Category:Module documentation pages]]
+</noinclude>

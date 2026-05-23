@@ -1,0 +1,174 @@
+local mts = "%1 station (San Diego Trolley)"
+local tc = "%1 Transit Center"
+local sd = "%1 station (San Diego)"
+
+local p = {
+	["lang"] = "en-US",
+	["system title"] = "[[San Diego Trolley]]",
+	["name format"] = "font-family: Helvetica, Arial, sans-serif; font-size: 150%; padding: 5px; background-color: black; color: white; font-weight: bolder; font-style: bold;",
+	["header background color"] = "e02a27",
+	["header text color"] = "ffffff",
+	["system color"] = "e02a27",
+	["station format"] = {
+		"%1 station",
+		["8th Street"] = mts,
+		["12th & Imperial"] = tc,
+		["24th Street"] = mts,
+		["47th Street"] = mts,
+		["Balboa Avenue"] = tc,
+		["Beyer Blvd."] = "Beyer Boulevard station",
+		["City College"] = sd,
+		["Civic Center"] = mts,
+		["Convention Center"] = mts,
+		["Courthouse"] = mts,
+		["El Cajon"] = tc,
+		["Euclid Avenue"] = mts,
+		["Fashion Valley"] = tc,
+		["Fifth Avenue"] = sd,
+		["Grossmont"] = tc,
+		["Harborside"] = mts,
+		["Iris Avenue"] = tc,
+		["La Mesa Blvd."] = "La Mesa Boulevard station",
+		["Lemon Grove Depot"] = "%1",
+		["Massachusetts Avenue"] = mts,
+		["Middletown"] = mts,
+		["Old Town"] = tc,
+		["Palomar Street"] = tc,
+		["SDSU"] = tc,
+		["San Ysidro"] = tc,
+		["Santa Fe Depot"] = "Santa Fe Depot (San Diego)",
+		["Spring Street"] = mts,
+		["Stadium"] = sd,
+		["Qualcomm Stadium"] = "Stadium station (San Diego)",
+		["UTC"] = tc,
+		["VA Medical Center"] = sd,
+		["Washington Street"] = mts
+	},
+	["lines"] = {
+		["Blue"] = {
+			["title"] = "[[Blue Line (San Diego Trolley)|Blue Line]]",
+			["color"] = "005cb9",
+			["icon"] = "[[File:Logo Blue Line (San Diego Trolley).svg|16px]]",
+			["left terminus"] = "UTC",
+			["right terminus"] = "San Ysidro",
+			["types"] = {
+				["2005-2012"] = {
+					["left terminus"] = "Old Town",
+					["right terminus"] = "San Ysidro",
+				},
+				["1997-2005"] = {
+					["left terminus"] = "San Ysidro",
+					["right terminus"] = "Mission San Diego",
+				},
+			},
+		},
+		["Green"] = {
+			["title"] = "[[Green Line (San Diego Trolley)|Green Line]]",
+			["color"] = "04aa4f",
+			["icon"] = "[[File:Logo Green Line (San Diego Trolley).svg|16px]]",
+			["left terminus"] = "12th & Imperial",
+			["right terminus"] = "El Cajon",
+			["types"] = {
+				["2005-2012"] = {
+					["color"] = "01AB52",
+					["background color"] = "transparent",
+					["left terminus"] = "Old Town",
+					["right terminus"] = "Santee",
+				},
+				["2012-2024"] = {
+					["color"] = "01AB52",
+					["background color"] = "transparent",
+					["left terminus"] = "12th & Imperial",
+					["right terminus"] = "Santee",
+				},
+			},
+		},
+		["Orange"] = {
+			["title"] = "[[Orange Line (San Diego Trolley)|Orange Line]]",
+			["color"] = "f6821e",
+			["icon"] = "[[File:Logo Orange Line (San Diego Trolley).svg|16px]]",
+			["left terminus"] = "Courthouse",
+			["right terminus"] = "El Cajon",
+			["types"] = {
+				["late-night"] = {
+					["title"] = "Late nights only",
+					["left terminus"] = "America Plaza",
+					["right terminus"] = "El Cajon",
+				},
+				["1995-2005"] = {
+					["color"] = "F7831F",
+					["background color"] = "transparent",
+					["left terminus"] = "12th & Imperial",
+					["right terminus"] = "Santee",
+				},
+				["2005-2012"] = {
+					["color"] = "F7831F",
+					["background color"] = "transparent",
+					["left terminus"] = "12th & Imperial",
+					["right terminus"] = "Gillespie Field",
+				},
+				["2012-2018"] = { --use 2012-2017 or 2017-2018 instead--
+					["color"] = "F7831F",
+					["background color"] = "transparent",
+					["left terminus"] = {"Santa Fe Depot", "America Plaza"},
+					["right terminus"] = "El Cajon",
+				},
+				["2012-2017"] = {
+					["color"] = "F7831F",
+					["background color"] = "transparent",
+					["left terminus"] = "Santa Fe Depot",
+					["right terminus"] = "El Cajon",
+				},
+				["2017-2018"] = {
+					["color"] = "F7831F",
+					["background color"] = "transparent",
+					["left terminus"] = "America Plaza",
+					["right terminus"] = "El Cajon",
+				},
+				["2018-2024"] = { 
+					["color"] = "F7831F",
+					["background color"] = "transparent",
+					["left terminus"] = "Courthouse",
+					["right terminus"] = "Arnele Avenue",
+				},
+			},
+		},
+		["Copper"] = {
+			["title"] = "[[Copper Line (San Diego Trolley)|Copper Line]]",
+			["color"] = "b06433",
+			["icon"] = "[[File:Logo Copper Line (San Diego Trolley).svg|16px]]",
+			["left terminus"] = "El Cajon",
+			["right terminus"] = "Santee",
+		},
+		["Silver"] = {
+			["title"] = "[[Silver Line (San Diego Trolley)|Silver Line]]",
+			["color"] = "949599",
+			["icon"] = "[[File:Logo Silver Line (San Diego Trolley).svg|16px]]",
+			["circular"] = true,
+			["left terminus"] = "One-way operation",
+			["right terminus"] = "Next clockwise",
+		},
+		["Special Event"] = {
+			["title"] = "[[Special Event Line (San Diego Trolley)|Special Event Line]]",
+			["color"] = "f63319",
+			["icon"] = "[[File:Logo Special Event Line (San Diego Trolley).svg|16px]]",
+			["left terminus"] = "12th & Imperial",
+			["right terminus"] = "Balboa Avenue",
+			["types"] = {
+				["pre-2012"] = {
+					["color"] = "D2232A",
+					["background color"] = "transparent",
+					["icon"] = "[[File:San Diego Trolley Special Event Line.svg|16px]]",
+					["left terminus"] = "12th & Imperial",
+					["right terminus"] = "Qualcomm Stadium",
+				},
+			},
+		},
+		["Purple"] = {
+			["title"] = "[[Purple Line (San Diego Trolley)|Purple Line]]",
+			["color"] = "d3b6e9",
+		},
+	},
+}
+
+return p

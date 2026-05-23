@@ -1,0 +1,2 @@
+{{Respond|info|{{ucfirst:{{{1|Note:}}}}}|alt=information}}<!--template:A note--><noinclude>
+{{documentation}}</noinclude>

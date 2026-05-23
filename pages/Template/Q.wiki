@@ -1,0 +1,8 @@
+#REDIRECT [[Template:Wikidata entity link]]
+
+{{Redirect category shell|
+{{R from move}}
+{{R mentioned in hatnote}}
+{{R from template shortcut}}
+}}
+[[Category:Wikidata templates]]

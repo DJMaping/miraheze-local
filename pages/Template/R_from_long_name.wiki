@@ -1,0 +1,11 @@
+<noinclude>{{This is a redirect/rcat}}
+</noinclude>{{Redirect template
+  |id=R from long name
+  |name=From a longer title
+  |from=a title that is a complete, more complete or longer version of the topic's name{{#if:{{{of|{{{for|{{{1|}}}}}}}}}|<nowiki />; the short version is: "{{{of|{{{for|{{{1}}}}}}}}}"}}
+  |info=It leads to the title in accordance with the naming conventions for [[WP:COMMONNAME|common names]] and can help writing and searches. However, do not replace these redirected links with a [[WP:piped link|piped link]] unless the page is updated for another reason.
+  |all category=Redirects from long names
+}}<noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}}
+</noinclude>

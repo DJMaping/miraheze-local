@@ -1,0 +1,122 @@
+<includeonly>{{Table alignment}}
+{| class="wikitable sortable defaultright col1left"
+|+ Population of the Easuhura by province
+|-
+! Rowspan=2 | Province
+! Colspan=2 | Land area
+! Colspan=2 | Population
+! Rowspan=2 | Density<br/>(/km<sup>2</sup>)
+|-
+! (km<sup>2</sup>)
+! (%)
+! People
+! (%)
+|-
+| Tanbai
+<!-- Tanbai area -->
+| 1,164
+<!-- Tanbai area percentage -->
+| 1.15%
+<!-- Tanbai population -->
+| 9,360,000
+<!-- Tanbai population percentage -->
+| 34.01%
+<!-- Tanbai density -->
+| 8,041
+|-
+| Elenin 
+<!-- Elenin area  -->
+| 19,422
+<!-- Elenin area percentage -->
+| 19.27%
+<!-- Elenin population -->
+| 2,955,841
+<!-- Elenin population percentage -->
+| 10.74%
+<!-- Elenin density -->
+| 152
+|-
+| Delare 
+<!-- Delare area -->
+| 24,910
+<!-- Delare area percentage -->
+| 24.71%
+<!-- Delare population -->
+| 3,865,000
+<!-- Delare population percentage -->
+| 14.04%
+<!-- Delare density -->
+| 155
+|-
+| Telmani
+<!-- Telmani area -->
+| 5,734
+<!-- Telmani area percentage -->
+| 5.69%
+<!-- Telmani population -->
+| 1,884,503
+<!-- Telmani population percentage -->
+| 6.85%
+<!-- Telmani density -->
+| 329
+|-
+| Phourabi 
+<!-- Phourabi area -->
+| 12,337
+<!-- Phourabi area percentage -->
+| 12.24%
+<!-- Phourabi population -->
+| 2,246,688
+<!-- Phourabi population percentage -->
+| 8.16%
+<!-- Phourabi density -->
+| 182
+|-
+| Sulavar 
+<!-- Sulavar area -->
+| 13,035
+<!-- Sulavar area percentage -->
+| 12.93%
+<!-- Sulavar population -->
+| 1,569,902
+<!-- Sulavar population percentage -->
+| 5.70%
+<!-- Sulavar density -->
+| 120
+|-
+| Zhobali
+<!-- Zhobali area -->
+| 8,938
+<!-- Zhobali area percentage -->
+| 8.87%
+<!-- Zhobali population -->
+| 3,710,572
+<!-- Zhobali population percentage -->
+| 13.48%
+<!-- Zhobali density -->
+| 415
+|-
+| Faroqen 
+<!-- Faroqen area -->
+| 15,265
+<!-- Faroqen area percentage -->
+| 15.14%
+<!-- Faroqen population -->
+| 1,928,238
+<!-- Faroqen population percentage -->
+| 7.01%
+<!-- Faroqen density -->
+| 126
+|-
+! style="" | Kingdom
+<!-- Kingdom area -->
+! 100,806
+<!-- Kingdom area percentage -->
+! style="text-align:right;" | 100%
+<!-- Kingdom population -->
+! style="text-align:right;" | 27,520,744
+<!-- Kingdom population percentage -->
+! style="text-align:right;" | 100%
+<!-- Kingdom density -->
+! style="text-align:right;" | 273
+|}

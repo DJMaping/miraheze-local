@@ -1,0 +1,8 @@
+{{#invoke:OSM Location map|main|useFormatStyle={{{useFormatStyle|standardstyle}}} <noinclude>
+|label1=Annotated maps of anywhere in the world
+|mark-coord1={{coord|0|0}}|mark-size1=10|label-pos1=top</noinclude> }}
+{{Main other|[[Category:Articles containing OSM location maps]]}}<noinclude>
+{{documentation}}
+[[Category:OSM Location map templates]]
+[[Category:Pages with disabled graphs]]
+</noinclude>

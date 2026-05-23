@@ -1,0 +1,97 @@
+'''Continue to [[Ayuma]]'''
+{{Ayuman Map Labelled}}
+
+==List of states and territories==
+{|class="sortable wikitable"
+|-
+| style="background:lightcyan; border:1px solid #aaa; width:2em;" | *
+| = Geoscheme disputed<ref>{{cite web|url=http://enclaiw.gov.hei/nation/geoscheme|title=Ayuma or Acrola? |publisher=National government of Heiso}}</ref>
+|}
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Acrana}} || [[Acrana]] || style="text-align:right;" | 131,864 || style="text-align:right;" | 14,469,041 || style="text-align:right;" | 110 || [[Samaru]]
+|-
+| style="text-align:center;"| {{flagicon|Danocia}} || [[Danocia]] || style="text-align:right;" | 749,885 || style="text-align:right;" | 2,020,940 || style="text-align:right;" | 3 || [[Tazmirak]]
+|-
+| style="text-align:center;"| {{flagicon|Darewa}} || [[Darewa]] || style="text-align:right;" | 681,553 || style="text-align:right;" | 19,678,480 || style="text-align:right;" | 29 || [[Shamarin]]
+|-
+| style="text-align:center;"| {{flagicon|Ealdorii}} || [[Ealdorii]] || style="text-align:right;" | 1,563,780 || style="text-align:right;" | 137,992,639 || style="text-align:right;" | 88 || [[Shurqan]]
+|-
+| style="text-align:center;"| {{flagicon|Easuhura}} || [[Easuhura]] || style="text-align:right;" | 109,571 || style="text-align:right;" | 29,913,650 || style="text-align:right;" | 273 || [[Tanbai]]
+|-
+| style="text-align:center;"| {{flagicon|Eldjo}} || [[Eldjo]] || style="text-align:right;" | 130,920 || style="text-align:right;" | 5,393,380 || style="text-align:right;" | 41 || [[Shorakim]]
+|-
+| style="text-align:center;"| {{flagicon|Emara}} || [[Emara]] || style="text-align:right;" | 428,786 || style="text-align:right;" | 90,861,040 || style="text-align:right;" | 212 || [[Rivostan]]
+|-
+| style="text-align:center;"| {{flagicon|Estijan}} || [[Estijan]] || style="text-align:right;" | 7,271,341 || style="text-align:right;" | 260,844,816 || style="text-align:right;" | 36 || [[Shabiran]]
+|-
+| style="text-align:center;"| {{flagicon|Fermori}} || [[Fermori]] || style="text-align:right;" | 214,401 || style="text-align:right;" | 12,299,328 || style="text-align:right;" | 57 || [[Khalviro]]
+|- style="background:lightcyan;" 
+| style="text-align:center;"| {{flagicon|Heiso}} || [[Heiso]] || style="text-align:right;" | 334,534 || style="text-align:right;" | 20,605,956 || style="text-align:right;" | 62 || [[Mivlo]]
+|-
+| style="text-align:center;"| {{flagicon|Hkuqo}} || [[Hkuqo]] || style="text-align:right;" | 370,702 || style="text-align:right;" | 22,833,760 || style="text-align:right;" | 62 || [[Tanshiva]]
+|-
+| style="text-align:center;"| {{flagicon|Ikzen}} || [[Ikzen]] || style="text-align:right;" | 2,015,144 || style="text-align:right;" | 3,103,322 || style="text-align:right;" | 2 || [[Velotha]]
+|-
+| style="text-align:center;"| {{flagicon|Ilicuhe}} || [[Ilicuhe]] || style="text-align:right;" | 27,541 || style="text-align:right;" | 3,254,988 || style="text-align:right;" | 118 || [[Sakhen]]
+|-
+| style="text-align:center;"| {{flagicon|Koruch}} || [[Koruch]] || style="text-align:right;" | 426,461 || style="text-align:right;" | 820,937 || style="text-align:right;" | 2 || [[Basturah]]
+|-
+| style="text-align:center;"| {{flagicon|Lycroa}} 
+| [[Lycroa]] || style="text-align:right;" | 494,588 || style="text-align:right;" | 81,313,729 || style="text-align:right;" | 164 || [[Jungui]]
+|-
+| style="text-align:center;"| {{flagicon|Lydroa}} || [[Lydroa]] || style="text-align:right;" | 268,177 || style="text-align:right;" | 18,995,781 || style="text-align:right;" | 71 || [[Zarfan]]
+|-
+| style="text-align:center;"| {{flagicon|Merela Sta}} || [[Merela Sta]] || style="text-align:right;" | 169,966 || style="text-align:right;" | 23,361,657 || style="text-align:right;" | 137 || [[Talung]]
+|-
+| style="text-align:center;"| {{flagicon|New Kizura}} || [[New Kizura]] || style="text-align:right;" | 345,623 || style="text-align:right;" | 133,065 || style="text-align:right;" | 0 || [[New Kizura (city)]]
+|-
+| style="text-align:center;"| {{flagicon|Niul Spijan}} || [[Niul Spijan]] || style="text-align:right;" | 18,110 || style="text-align:right;" | 220,218 || style="text-align:right;" | 12 || [[Chludu Ura]]
+|-
+| style="text-align:center;"| {{flagicon|Palina}} || [[Palina]] || style="text-align:right;" | 43,383 || style="text-align:right;" | 3,123,402 || style="text-align:right;" | 72 || [[Lahzhao]]
+|-
+| style="text-align:center;"| {{flagicon|Praesyu}} 
+| [[Praesyu]] || style="text-align:right;" | 506,753 || style="text-align:right;" | 39,227,750 || style="text-align:right;" | 77 || [[Brimasha]]
+|-
+| style="text-align:center;"| {{flagicon|Siana}} || [[Siana]] || style="text-align:right;" | 303,188 || style="text-align:right;" | 39,335,005 || style="text-align:right;" | 130 || [[Wadika]]
+|-
+| style="text-align:center;"| {{flagicon|Tonder}} || [[Tonder]] || style="text-align:right;" | 21,990 || style="text-align:right;" | 143,925 || style="text-align:right;" | 7 || [[Tonder (city)]]
+|-
+| style="text-align:center;"| {{flagicon|Ukhdari}} || [[Ukhdari]] || style="text-align:right;" | 783,607 || style="text-align:right;" | 85,678,806 || style="text-align:right;" | 109 || [[Faramozan]]
+|-
+| style="text-align:center;"| {{flagicon|Urbiqu}} || [[Urbiqu]] || style="text-align:right;" | 1,242,986 || style="text-align:right;" | 1,914,198 || style="text-align:right;" | 2 || [[Alshira]]
+|-
+| style="text-align:center;"| {{flagicon|Uularin}} || [[Uularin]] || style="text-align:right;" | 119,193 || style="text-align:right;" | 5,001,934 || style="text-align:right;" | 42 || [[Zahlim]]
+|-
+| style="text-align:center;"| {{flagicon|Verusa}} || [[Verusa]] || style="text-align:right;" | 730,606 || style="text-align:right;" | 69,480,631 || style="text-align:right;" | 95 || [[Huifarn]]
+|-
+| style="text-align:center;"| {{flagicon|Yaxuto}} || [[Yaxuto]] || style="text-align:right;" | 178,349 || style="text-align:right;" | 18,401,158 || style="text-align:right;" | 103 || [[Khorin]]
+|-
+| style="text-align:center;"| {{flagicon|Zenashan}} || [[Zenashan]] || style="text-align:right;" | 53,031 || style="text-align:right;" | 9,819,273 || style="text-align:right;" | 185 || [[Zirafu]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total<ref>with Heiso</ref>
+| style="text-align:right;"| 29
+| style="text-align:right;"| 19,736,033
+| style="text-align:right;"| 1,020,242,809
+| style="text-align:right;"| 52
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total<ref>without Heiso</ref>
+| style="text-align:right;"| 28
+| style="text-align:right;"| 19,401,499
+| style="text-align:right;"| 999,636,853
+| style="text-align:right;"| 52
+|}
+
+[[Category:All country data templates|Praesyu]]
+[[Category:Continents]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Praesyu]]

@@ -1,0 +1,194 @@
+require('strict')
+local getArgs = require('Module:Arguments').getArgs
+local p = {}
+
+local log2 = 0.693147181
+local ppm = 1000/0.3  -- pixels per meter, from 0.3 mm / pixel from https://wiki.openstreetmap.org/wiki/Zoom_levels
+
+-- To convert to OSM zoom level, we need to know meters per pixel at zoom level 9
+-- On the equator, it's 305.748 meters/pixel according to https://wiki.openstreetmap.org/wiki/Zoom_levels
+-- This quantity depends on the latitude (which we usually don't have easy access to)
+-- Instead, we'll be correct at 38 degrees N, given en-WP bias towards NA and Europe
+-- 38N was chosen because:
+--   * It's the furthest north where scale=100000 maps to zoom=12
+--   * One hemisphere (20000km) maps to zoom=1
+local mppl9Equator = 305.748
+
+-- Convert from Geohack's scale to OSM style zoom levels as used by <maplink>
+local function geohackScaleToMapZoom(scale,latitude)
+	scale = tonumber(scale)
+	if not scale or scale <= 0 then return end
+    latitude = latitude or 38
+    local mppl9 = mppl9Equator*math.cos(math.rad(latitude))
+	return math.log(mppl9*ppm/scale)/log2 + 9
+end
+
+-- compute the viewport size (on screen) in meters, assuming ppm pixels per  meter on screen
+local function computeViewport(args)
+	local viewport_cm = tonumber(args.viewport_cm)
+	local viewport_px = tonumber(args.viewport_px)
+	return viewport_cm and viewport_cm / 100 or viewport_px and viewport_px / ppm
+	       or tonumber(args.default_viewport) or 0.1
+end
+
+-- convert from geohack dim (knowing the viewpoint size on screen) to geohack scale
+local function geohackDimToScale(dim, args)
+	dim = tonumber(dim)
+	args = args or {}
+	if not dim or dim <= 0 then return end
+	local units = args.units
+	if units and string.lower(units) == 'km' then
+		dim = dim*1000
+	end
+	return dim / computeViewport(args)
+end
+
+-- inverse of above function, returning dim in km
+local function geohackScaleToDim(scale, args)
+	scale = tonumber(scale)
+	args = args or {}
+	if not scale or scale <= 0 then return end
+	return scale * computeViewport(args) * 1e-3
+end
+
+local oddShape = 2.09 --- length/sqrt(area) of Boston (to choose an example)
+
+-- Convert from Geohack's types to Geohack dim
+local function geohackTypeToDim(args)
+	local t = args.type
+    if not t then return end
+	local typeDim = mw.loadData('Module:Infobox_dim/data')
+	local dim = typeDim[t]
+	local population = tonumber(args.population)
+	if t == 'city' and population and population > 0 then
+		-- assume city is a circle with density of 1000/square kilometer
+		-- compute diameter, in meters. Then multiply by oddShape to account for weird shapes
+		dim = 35.68e-3*math.sqrt(population)*oddShape
+		-- don't zoom in too far
+		if dim < 5 then
+			dim = 5
+		end
+	end
+	return dim		
+end
+
+-- Convert from dimension of object to Geohack dim
+local function computeDim(length,width,area)
+	if length and width then
+		return math.max(length,width)
+	end
+	if length then return length end
+	if width then return width end
+	if area then return oddShape*math.sqrt(area) end
+end
+
+-- compute geohack dim from unit arguments (e.g., length_mi)
+local function convertDim(args)
+	local length = args.length_mi and 1.60934*args.length_mi or args.length_km
+	local width = args.width_mi and 1.60934*args.width_mi or args.width_km
+	local area = args.area_acre and 0.00404686*args.area_acre or 
+		args.area_ha and 0.01*args.area_ha or 
+		args.area_mi2 and 2.58999*args.area_mi2 or args.area_km2
+	local dim = computeDim(length, width, area)
+	return dim
+end
+
+local function computeScale(args)
+	if args.scale then return args.scale end
+	local dim, units, scale
+	if args.dim then
+		dim, units = mw.ustring.match(args.dim,"^([-%d%.]+)%s*(%D*)")
+		args.units = units
+		args.default_viewport = 0.1  -- default geohack viewpoirt
+		scale = geohackDimToScale(dim, args)
+	end
+	if not scale then
+		dim = convertDim(args) or geohackTypeToDim(args)
+		args.units = 'km'
+		args.default_viewport = 0.2 --- when object dimensions or type is specified, assume 20cm viewport
+		scale = dim and geohackDimToScale(dim, args)
+	end
+	if not scale then return end
+	scale = math.floor(scale+0.5)
+	-- keep scale within sane bounds (OSM zoom levels 1-17)
+	if scale < 1600 then
+		scale = 1600
+	end
+	if scale > 200e6 then
+		scale = 200e6
+	end
+	return scale
+end
+
+-- Argument checking
+local positiveNumericArgs = {viewport_cm=true,viewport_px=true,length_mi=true,length_km=true,
+                             width_mi=true,width_km=true,area_mi2=true,area_km2=true,
+                             area_acre=true,area_ha=true,scale=true,population=true}
+
+local function cleanArgs(args)
+    local clean = {}
+    if type(args) == 'table' then
+        for k, v in pairs(args) do
+            if positiveNumericArgs[k] then
+                v = v and mw.ustring.gsub(v,",","") -- clean out any commas
+                v = tonumber(v)                     -- ensure argument is numeric
+                if v and v <= 0 then                -- if non-positive, ignore value
+                    v = nil
+                end
+            end
+            clean[k] = v
+         end
+    end
+    return clean
+end
+
+-- Module entry points
+function p._dim(args)
+    args = cleanArgs(args)
+	if args.dim then return args.dim end
+	-- compute scale for geohack
+	local scale = args.scale
+	local dim
+	if not scale then
+		args.default_viewport = 0.2 -- when specifying a object dimension or type, assume output spans 20cm
+		dim = convertDim(args) or geohackTypeToDim(args)
+		args.units = 'km'
+		scale = dim and geohackDimToScale(dim, args)
+	end
+	-- reset back to 10cm viewport for correct geohack dim output
+	args.viewport_cm = 10
+	dim = scale and geohackScaleToDim(scale, args)
+	return dim and tostring(math.floor(dim+0.5))..'km'
+end
+
+function p._scale(args)
+    args = cleanArgs(args)
+    return computeScale(args)
+end
+
+function p._zoom(args)
+    args = cleanArgs(args)
+	args.viewport_px = args.viewport_px or 200 --- viewport for Kartographer is 200px high
+	local scale = computeScale(args)
+	if scale then
+        local latitude = tonumber(args.latitude)
+        latitude = latitude and (latitude > 70 and 70 or latitude < -70 and -70 or latitude)
+		local zoom = geohackScaleToMapZoom(scale,latitude)
+		return zoom and math.floor(zoom)
+	end
+end		
+
+-- Template entry points
+function p.dim(frame)
+	return p._dim(getArgs(frame)) or ''
+end
+
+function p.scale(frame)
+	return p._scale(getArgs(frame)) or ''
+end
+
+function p.zoom(frame)
+	return p._zoom(getArgs(frame)) or ''
+end
+
+return p

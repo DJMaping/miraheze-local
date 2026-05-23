@@ -1,0 +1,46 @@
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+{{High-use}}
+
+== Usage ==
+{{Warning|'''Links in prose should never be manually colored.''' ([[MOS:LINKCOLOR]])}}
+{{Warning|'''When using this template, make sure you only use it on a colored background to avoid issues with dark mode. [[mw:Recommendations_for_night_mode_compatibility_on_Wikimedia_wikis#Use_CSS_variables_or_CSS_design_tokens_with_fallback_for_background_and_text_where_possible|More information about how to ensure dark mode compatibility]].''' ([[MOS:LINKCOLOR]])}}
+
+This template takes three parameters: the color of the link, the article being linked to, and optional text to display as a [[WP:piped link|piped link]].
+
+{{tlc|colored link|2=purple|3=Page name to link|4=Alternative text}} → {{colored link|purple|Page name to link|Alternative text}}
+
+Use <code>noinvert = yes</code> to preserve the link color in [[WP:dark mode|dark mode]]:
+
+{{tlc|colored link|2=purple|3=Page name to link|4=Alternative text|5=noinvert=yes}} → {{colored link|purple|Page name to link|Alternative text|noinvert=yes}}
+
+== See also ==
+* {{Tl|Aqua}} → {{Aqua|Main page}}
+* {{Tl|Black}} → {{Black|Main page}}
+* {{Tl|Blue}} → {{Blue|Main page}}
+* {{Tl|Brown}} → {{Brown|Main page}}
+* {{Tl|Cyan}} → {{Cyan|Main page}}
+* {{Tl|Fuchsia}} → {{Fuchsia|Main page}}
+* {{Tl|Gold (color)}} → {{Gold (color)|Main page}}
+* {{Tl|Gray}} → {{Gray|Main page}}
+* {{Tl|Green}} → {{Green|Main page}}
+* {{Tl|Lime}} → {{Lime|Main page}}
+* {{Tl|Link blue}} → {{Link blue|Main page}}
+* {{Tl|Magenta}} → {{Magenta|Main page}}
+* {{Tl|Maroon}} → {{Maroon|Main page}}
+* {{Tl|Navy (color)}} → {{Navy (color)|Main page}}
+* {{Tl|Olive}} → {{Olive|Main page}}
+* {{Tl|Orange}} → {{Orange|Main page}}
+* {{Tl|Pink}} → {{Pink|Main page}}
+* {{Tl|Purple}} → {{Purple|Main page}}
+* {{Tl|Red}} → {{Red|Main page}}
+* {{Tl|Teal}} → {{Teal|Main page}}
+* {{Tl|White}} → {{White|Main page}}
+* {{Tl|Yellow}} → {{Yellow|Main page}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go here, and interwikis go in Wikidata -->
+[[Category:Text color templates]]
+[[Category:Internal link templates]]
+
+}}</includeonly>

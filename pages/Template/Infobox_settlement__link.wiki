@@ -1,0 +1,15 @@
+{{#if:{{{link|}}}<!--
+ -->|[[{{{link}}}|{{{type}}}]]<!--
+ -->|{{#ifexist:{{{type}}} of {{PAGENAME}}<!--
+    -->|[[{{{type}}} of {{PAGENAME}}|{{{type|}}}]]<!--
+    -->|{{#if:{{{name|}}}<!--
+      -->|{{#ifexist:{{{type}}} of {{{name}}}<!--
+        -->|[[{{{type}}} of {{{name}}}|{{{type|}}}]]<!--
+        -->|{{{type}}}<!--
+       -->}}<!--
+      -->|{{{type}}}<!--
+    -->}}<!--
+  -->}}<!--
+-->}}<noinclude>
+{{documentation}}
+</noinclude>

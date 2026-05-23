@@ -1,0 +1,49 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = South Korea
+| flag alias = Flag of South Korea.svg
+| flag alias-1945 = Flag of South Korea (1945–1948).svg
+| flag alias-1948 = Flag of South Korea (1948–1949).svg
+| flag alias-1949 = Flag of South Korea (1949–1984).svg
+| flag alias-1984 = Flag of South Korea (1984–1997).svg
+| flag alias-1997 = Flag of South Korea (1997–2011).svg
+| flag alias-army = Flag of the Republic of Korea Army.svg
+| flag alias-air force = Flag of the Republic of Korea Air Force.svg
+| link alias-army = Republic of Korea Army
+| flag alias-naval = Flag of the Republic of Korea Navy.svg
+| link alias-naval = Republic of Korea Navy
+| link alias-air force = Republic of Korea Air Force
+| flag alias-marines = Flag of the Republic of Korea Marine Corps.svg
+| link alias-marines = Republic of Korea Marine Corps
+| link alias-navy = Republic of Korea Navy
+| flag alias-navy = Flag of the Republic of Korea Navy.svg
+| flag alias-military = Flag of the Republic of Korea Armed Forces.svg
+| link alias-military = Republic of Korea Armed Forces
+| flag alias-coast guard = Flag of the Korean Coast Guard.svg
+| link alias-coast guard = Korea Coast Guard
+| size = {{{size|}}}
+| name = {{#ifeq:{{{name|}}}|Republic of Korea|South Korea|{{{name|}}}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1945
+| var2 = 1948
+| var3 = 1949
+| var4 = 1984
+| var5 = 1997
+| redir1 = KOR
+| redir2 = Republic of Korea
+| redir3 = Korea, South
+| related1 = First Republic of Korea
+| related2 = Second Republic of Korea
+| related3 = Supreme Council for National Reconstruction
+| related4 = Third Republic of Korea
+| related5 = Fourth Republic of Korea
+| related6 = Fifth Republic of Korea
+| related7 = Korean Empire
+| related8 = North Korea
+| related9 = Joseon
+| related10 = Korea
+| related11 = Korea under Japanese rule
+</noinclude>
+}}

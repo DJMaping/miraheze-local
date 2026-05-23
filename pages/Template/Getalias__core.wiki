@@ -1,0 +1,4 @@
+{{{{{{name|}}} alias-{{{variant}}}|{{{{{{name|}}} alias|{{{alias}}}}}}}}}<noinclude>
+{{Documentation|content=This template is used internally by [[Template:getalias]]. It is not intended to be transcluded directly.}}
+[[Category:Flag template system cores]]
+</noinclude>

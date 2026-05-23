@@ -1,0 +1,5 @@
+<templatestyles src="Glossary/styles.css" />
+<dl class="glossary {{{class|}}}" {{#if:{{{style|}}}|style="{{{style}}}"|}} {{#if:{{{id|}}}|id="{{{id}}}"|}}><noinclude>{{glossary end}}
+<!--Categories and interwikis go on the /doc page.-->
+{{Documentation}}
+</noinclude>

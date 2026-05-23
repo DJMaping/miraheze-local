@@ -1,0 +1,307 @@
+
+local function pipedLink(name, display) return '[[:'..name..'|'..display..']]' end
+
+local function isEmpty(value) return value == nil or value == '' end
+
+local function notEmpty(value) return not isEmpty(value) end
+
+-- Unescape functionality grabbed from https://stackoverflow.com/a/14899740/1832568
+local function unescape(str)
+	str = string.gsub(str, '&#(%d+);', string.char)
+	str = string.gsub(str, '&#x(%d+);', function(d) return string.char(tonumber(d, 16)) end)
+	return str
+end
+
+local function hashDelimitedList(list_string) return mw.text.gsplit(unescape(list_string), '%s*#%s*') end
+
+local function alarmingMessage(message)
+	return '<span style="color:#d33">[[Module:Annotated link]] '..message..'.</span>'..
+		'[[Category:Pages displaying alarming messages about Module:Annotated link]]'
+end
+
+local function optionallyVisibleCategory(class, category)
+	return '<span style="display:none" class="'..class..'">'..category..
+		'</span>[[Category:'..category..' via Module:Annotated link]]'
+end
+
+local function handleFirstLetterCase(short_description, case)
+	return mw.ustring.gsub(short_description, '^([^%d])', function(first_char)
+		if case == 'upper' then
+			return mw.ustring.upper(first_char)
+		end
+		return mw.ustring.lower(first_char) end
+	)
+end
+
+local mLang = require('Module:Lang')
+local function langify(args)
+	local lang = args.lang
+	local text = args.text
+	if isEmpty(lang) or lang == 'en' then
+		return text
+	end
+	return mLang._lang {
+		lang,
+		text,
+		italic = args.italic,
+		nocat = args.nocat,
+		size = args.size,
+		cat = args.cat,
+		rtl = args.rtl
+	}
+end
+
+local function formatResult(result, dash, description, prefix_parentheses)
+	if notEmpty(description) then
+		if prefix_parentheses then
+			local startIdx = description:find("%(")
+			if startIdx then
+				 local beforeParens = description:sub(1, startIdx - 2)
+				 local insideParens = description:sub(startIdx, -1)
+				 return result..' '..insideParens..dash..' '..beforeParens
+			end
+		end
+		return result..dash..' '..description
+	end
+	return result
+end
+
+local function annotatedLink(args)
+	local name = args.name
+	if isEmpty(name) then
+		return alarmingMessage('requires a page name (including namespace)')
+	end
+	
+	-- In order to handle an attempt to annotate a template link
+	-- already formatted with the likes of {{tl|<template name>}};
+	-- unescape name to make sense of braces in lua patern matching.
+	name = unescape(name)
+	
+	if name:match('^{%b{}}$') then
+		-- The possibility to extract useful data exists here: e.g. {{tl*|Template}}.
+		return alarmingMessage(
+			'requires only a page name (including namespace) without markup. '..
+			'If an attempt is being made to annotate a link to a template, '..
+			'provide only the template name with namespace e.g. "Template:Example"')
+	end
+	
+	-- If a literal link was provided as name;
+	-- extract the content and apply it to name and display as appropriate.
+	local wikilink = mw.ustring.match(name, '^%[%[%s*:*%s*(.-)%s*%]%]$')
+	if wikilink then
+		local link_name, link_display = unpack(mw.text.split(wikilink, '%s*|%s*'))
+		if link_name then
+			name = link_name
+		end
+		if link_display and isEmpty(args.display) then
+			args.display = link_display
+		end
+	end
+	
+	-- Prepare to concatenate.
+	local result
+	
+	local is_template = name:match('^Template:(.+)$')
+	local template_link = args.template_link
+	if is_template and template_link ~= 'no' then
+		result = '{{'..pipedLink(name, is_template)..'}}'
+		if template_link == 'code' then
+			result = '<code>'..result..'</code>'
+		end
+	else
+		local display = args.display
+		if isEmpty(display) then
+			display = name
+		end
+		result = langify({
+			lang = args.link_lang,
+			text = pipedLink(name, display),
+			italic = args.link_lang_italic,
+			nocat = args.link_lang_nocat,
+			size = args.link_lang_size,
+			cat = args.link_lang_cat,
+			rtl = args.link_lang_rtl
+		})
+		
+		if notEmpty(args.quote) then
+			result = '"'..result..'"'
+		end
+		
+		local abbr = args.abbr
+		if notEmpty(abbr) then
+			result = result..' (<abbr'
+			local abbr_title = args.abbr_title
+			if notEmpty(abbr_title) then
+				result = result..' title="'..abbr_title..'"'
+			end
+			result = result..'>'..abbr..'</abbr>)'
+		end
+	end
+	
+	if isEmpty(result) then
+		return alarmingMessage('could not create a link for "'..name..'"')
+	end
+	
+	local aka = args.aka
+	if notEmpty(aka) then
+		result = result..', also known as '..langify({
+			lang = args.aka_lang,
+			text = aka,
+			italic = args.aka_lang_italic,
+			nocat = args.aka_lang_nocat,
+			size = args.aka_lang_size,
+			cat = args.aka_lang_cat,
+			rtl = args.aka_lang_rtl
+		})
+	end
+	
+	local wedge = args.wedge
+	if notEmpty(wedge) then
+		result = result..', '..langify({
+			lang = args.wedge_lang,
+			text = wedge,
+			italic = args.wedge_lang_italic,
+			nocat = args.wedge_lang_nocat,
+			size = args.wedge_lang_size,
+			cat = args.wedge_lang_cat,
+			rtl = args.wedge_lang_rtl
+		})
+	end
+	
+	-- Exclude wikidata fallback for any specified list of link titles,
+	-- unless explicity instructed that it's okay.
+	local not_wikidata_for_links_starting_with = args.not_wikidata_for_links_starting_with
+	if isEmpty(args.wikidata) and notEmpty(not_wikidata_for_links_starting_with) then
+		for only_explicit in hashDelimitedList(not_wikidata_for_links_starting_with) do
+			if name:match('^'..only_explicit) then
+				args.only = 'explicit'
+				break
+			end
+		end
+	end
+	
+	-- Get the short description from Module:GetShortDescription.
+	local short_description = require('Module:GetShortDescription').main({
+		none_is_valid = args.none_is_valid,
+		none_is_nil = args.none_is_nil,
+		lang_italic = args.desc_lang_italic,
+		lang_nocat = args.desc_lang_nocat,
+		lang_size = args.desc_lang_size,
+		lang_cat = args.desc_lang_cat,
+		lang_rtl = args.desc_lang_rtl,
+		lang_no = args.desc_lang_no,
+		prefer = args.prefer,
+		only = args.only,
+		name = name
+	})
+	
+	local dash = args.dash
+	if isEmpty(dash) then
+		dash = '&nbsp;–'
+	end
+
+	local fallback = args.fallback
+
+	if isEmpty(short_description) or short_description.redlink then
+		return formatResult(result, dash, fallback, args.prefix_parentheses)
+	end
+	
+	if short_description.alarm then
+		return short_description.alarm
+	end
+	
+	local maintenance = ''
+	
+	if short_description.redirected then
+		maintenance = optionallyVisibleCategory(
+			'category-annotation-with-redirected-description',
+			'Pages displaying short descriptions of redirect targets')
+	end
+	
+	local fellback
+	
+	if short_description.wikidata then
+	--	if short_description.fellback then
+	--		fellback = true
+	--		maintenance = maintenance..optionallyVisibleCategory(
+	--			'category-wikidata-fallback-annotation',
+	--			'Pages displaying wikidata descriptions as a fallback')
+	--	end
+	--	short_description = short_description.wikidata
+		-- Filter against likely rubbish wikidata descriptions.
+	--	local not_wikidata_descriptions_including = args.not_wikidata_descriptions_including
+	--	if notEmpty(not_wikidata_descriptions_including) then
+			-- Case insentive matching.
+	--		local lower_case_short_description = short_description:lower()
+	--		for exclusion in hashDelimitedList(not_wikidata_descriptions_including:lower()) do
+	--			if lower_case_short_description:match(exclusion) then
+					short_description = ''
+	--				break
+	--			end
+	--		end
+	--	end
+		if isEmpty(short_description) then
+			return formatResult(result, dash, fallback, args.prefix_parentheses)
+		end
+	else
+		short_description = short_description.explicit
+	end
+	
+	local lower_case_name = name:lower()
+	
+	if notEmpty(short_description) and not short_description:match(' ') then
+		-- Filter against likely rubbish single word descriptions.
+		local lower_case_short_description = short_description:lower()
+		local not_single_word = args.not_single_word
+		if notEmpty(not_single_word) then
+			-- Case insentive matching.
+			for single_word in hashDelimitedList(not_single_word:lower()) do
+				if single_word == lower_case_short_description then
+					short_description = ''
+					break
+				end
+			end
+		end
+		if isEmpty(short_description) or lower_case_name:match(lower_case_short_description) then
+			return formatResult(result, dash, fallback, args.prefix_parentheses)
+		end
+		if isEmpty(args.space_cat) then
+			maintenance = maintenance..optionallyVisibleCategory(
+				'category-spaceless-annotation',
+				'Pages displaying short descriptions with no spaces')
+		end
+	end
+	
+	if lower_case_name == short_description:lower() then
+		if fellback then
+			return formatResult(result, dash, fallback, args.prefix_parentheses)
+		end
+		maintenance = maintenance..optionallyVisibleCategory(
+			'category-annotation-matches-name',
+			'Pages displaying short descriptions matching their page name')
+	end
+	
+-- Short descriptions on en Wikipedia should be formatted with an uppercase first letter, but
+-- the typical application of this module will require the first character to be lowercase, but
+-- some descriptions may start with proper names and should start with an uppercase letter even if used in an annotaion.
+-- By default; this module will not affect the first letter case of descriptions retrieved by Module:GetShortDescription, but
+-- the first letter case may be transformed explicitly if required.
+	local desc_first_letter_case = args.desc_first_letter_case
+	if desc_first_letter_case == 'upper' or desc_first_letter_case == 'lower' then
+		short_description = handleFirstLetterCase(short_description, desc_first_letter_case)
+	end
+	
+	return formatResult(result, dash, (short_description or fallback)..maintenance, args.prefix_parentheses)
+end
+
+local p = {}
+
+function p.main(frame)
+	local args = require('Module:Arguments' ).getArgs(frame)
+	if isEmpty(args) then
+		return alarmingMessage('could not getArgs') -- This really would be alarming.
+	end
+	return annotatedLink(args)
+end
+
+return p

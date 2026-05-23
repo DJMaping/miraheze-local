@@ -1,0 +1,9 @@
+<noinclude>{{pp-template|small=yes}}</noinclude>{{#if:{{{free|}}}
+ |{{{free}}}{{#if:{{isnumeric|{{{free}}}}}|&nbsp;{{error|units?}}[[Category:Articles requiring unit attention]]}}
+ |{{#if:{{{met|}}}
+  |{{convert|{{{met}}}|{{{met_unit|km}}}|abbr=on}}
+  |{{#if:{{{imp|}}}
+   |{{convert|{{{imp}}}|{{{imp_unit|miles}}}|abbr=on}}
+  }}
+ }}
+}}

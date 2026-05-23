@@ -1,0 +1,14 @@
+<div>[{{view|Template:Edit templates|edit}}] Compare different edit templates:</div>
+* {{tl|Ed}} — plain-style edit link surrounded by <nowiki><small></nowiki> tags, specifically for templates only
+* {{tl|Ed right}} — plain-style edit link surrounded by <nowiki><small></nowiki> tags and {{underline|aligned to right of page}}, specifically for templates only
+* {{tl|Edit}} — plain-style edit link, applicable to all Wikipedia namespaces
+* {{tl|Edit section}} — edit link surrounded by <nowiki><div></nowiki> tags by default which can specify which section to edit on a page, applicable to all Wikipedia namespaces
+* {{tl|Vedit}} — plain-style edit link which edit with the [[Wikipedia:VisualEditor]], applicable to all Wikipedia namespaces
+
+Templates with view, talk and edit links: 
+* {{tl|Navbar}} — navigation bar with configurable caption and view·talk·edit links, specifically for templates only
+* {{tl|View}} — navbar-style view·talk·edit links, specifically for templates only
+* {{tl|VTE}} & {{tl|V}} — navbar-style V·T·E links (i.e. view·talk·edit links in short forms), specifically for templates only<noinclude>
+{{Documentation}}
+<!-- Please add categories to the /doc subpage, and interwikis at Wikidata (see Wikipedia:Wikidata) -->
+</noinclude>

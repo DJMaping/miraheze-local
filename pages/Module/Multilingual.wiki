@@ -1,0 +1,1689 @@
+local Multilingual = { suite   = "Multilingual",
+                       serial  = "2020-12-10",
+                       item    = 47541920,
+                       globals = { ISO15924 = 71584769,
+                                   WLink    = 19363224 }
+                     }
+--[=[
+Utilities for multilingual texts and ISO 639 (BCP47) issues etc.
+* fair()
+* fallback()
+* findCode()
+* fix()
+* format()
+* getBase()
+* getLang()
+* getName()
+* i18n()
+* int()
+* isLang()
+* isLangWiki()
+* isMinusculable()
+* isRTL()
+* message()
+* sitelink()
+* tabData()
+* userLang()
+* userLangCode()
+* wikibase()
+* failsafe()
+loadData: Multilingual/config Multilingual/names
+]=]
+local Failsafe   = Multilingual
+local GlobalMod  = Multilingual
+local GlobalData = Multilingual
+local User       = { sniffer = "showpreview" }
+Multilingual.globals.Multilingual = Multilingual.item
+
+
+
+Multilingual.exotic = { simple = true,
+                        no     = true }
+Multilingual.prefer = { cs = true,
+                        de = true,
+                        en = true,
+                        es = true,
+                        fr = true,
+                        it = true,
+                        nl = true,
+                        pt = true,
+                        ru = true,
+                        sv = true }
+
+
+
+local foreignModule = function ( access, advanced, append, alt, alert )
+    -- Fetch global module
+    -- Precondition:
+    --     access    -- string, with name of base module
+    --     advanced  -- true, for require(); else mw.loadData()
+    --     append    -- string, with subpage part, if any; or false
+    --     alt       -- number, of wikidata item of root; or false
+    --     alert     -- true, for throwing error on data problem
+    -- Postcondition:
+    --     Returns whatever, probably table
+    -- 2020-01-01
+    local storage = access
+    local finer = function ()
+                      if append then
+                          storage = string.format( "%s/%s",
+                                                   storage,
+                                                   append )
+                      end
+                  end
+    local fun, lucky, r, suited
+    if advanced then
+        fun = require
+    else
+        fun = mw.loadData
+    end
+    GlobalMod.globalModules = GlobalMod.globalModules or { }
+    suited = GlobalMod.globalModules[ access ]
+    if not suited then
+        finer()
+        lucky, r = pcall( fun,  "Module:" .. storage )
+    end
+    if not lucky then
+        if not suited  and
+           type( alt ) == "number"  and
+           alt > 0 then
+            suited = string.format( "Q%d", alt )
+            suited = mw.wikibase.getSitelink( suited )
+            GlobalMod.globalModules[ access ] = suited or true
+        end
+        if type( suited ) == "string" then
+            storage = suited
+            finer()
+            lucky, r = pcall( fun, storage )
+        end
+        if not lucky and alert then
+            error( "Missing or invalid page: " .. storage )
+        end
+    end
+    return r
+end -- foreignModule()
+
+
+
+local fetchData = function ( access )
+    -- Retrieve translated keyword from commons:Data:****.tab
+    -- Precondition:
+    --     access  -- string, with page identification on Commons
+    --     Returns table, with data, or string, with error message
+    -- 2019-12-05
+    local storage = access
+    local r
+    if type( storage ) == "string" then
+        local s
+        storage = mw.text.trim( storage )
+        s = storage:lower()
+        if s:sub( 1, 2 ) == "c:" then
+            storage = mw.text.trim( storage:sub( 3 ) )
+            s       = storage:lower()
+        elseif s:sub( 1, 8 ) == "commons:" then
+            storage = mw.text.trim( storage:sub( 9 ) )
+            s       = storage:lower()
+        end
+        if s:sub( 1, 5 ) == "data:" then
+            storage = mw.text.trim( storage:sub( 6 ) )
+            s       = storage:lower()
+        end
+        if s == ""  or  s == ".tab" then
+            storage = false
+        elseif s:sub( -4 ) == ".tab" then
+            storage = storage:sub( 1, -5 ) .. ".tab"
+        else
+            storage = storage .. ".tab"
+        end
+    end
+    if type( storage ) == "string" then
+        local data
+        if type( GlobalData.TabDATA ) ~= "table" then
+            GlobalData.TabDATA = { }
+        end
+        data = GlobalData.TabDATA[ storage ]
+        if data then
+            r = data
+        else
+            local lucky
+            lucky, data = pcall( mw.ext.data.get, storage, "_" )
+            if type( data ) == "table" then
+                data = data.data
+                if type( data ) == "table" then
+                    GlobalData.TabDATA[ storage ] = data
+                else
+                    r = string.format( "%s [[%s%s]]",
+                                       "INVALID Data:*.tab",
+                                       "commons:Data:",
+                                       storage )
+                end
+            else
+                r = "BAD PAGE Data:*.tab &#8211; commons:" .. storage
+            end
+            if r then
+                GlobalData.TabDATA[ storage ] = r
+                data = false
+            else
+                r = data
+            end
+        end
+    else
+        r = "BAD PAGE commons:Data:*.tab"
+    end
+    return r
+end -- fetchData()
+
+
+
+local favorites = function ()
+    -- Provide fallback codes
+    -- Postcondition:
+    --     Returns table with sequence of preferred languages
+    --     * ahead elements
+    --     * user (not yet accessible)
+    --     * page content language (not yet accessible)
+    --     * page name subpage
+    --     * project
+    --     * en
+    local r = Multilingual.polyglott
+    if not r then
+        local self = mw.language.getContentLanguage():getCode():lower()
+        local sub  = mw.title.getCurrentTitle().subpageText
+        local f    = function ( add )
+                         local s = add
+                         for i = 1, #r do
+                             if r[ i ] == s then
+                                 s = false
+                                 break -- for i
+                             end
+                         end -- for i
+                         if s then
+                             table.insert( r, s )
+                         end
+                     end
+        r = { }
+        if sub:find( "/", 2, true ) then
+            sub = sub:match( "/(%l%l%l?)$" )
+            if sub then
+                table.insert( r, sub )
+            end
+        elseif sub:find( "^%l%l%l?%-?%a?%a?%a?%a?$" )  and
+               mw.language.isSupportedLanguage( sub ) then
+            table.insert( r, sub )
+        end
+        f( self )
+        f( "en" )
+        Multilingual.polyglott = r
+    end
+    return r
+end -- favorites()
+
+
+
+local feasible = function ( ask, accept )
+    -- Is ask to be supported by application?
+    -- Precondition:
+    --     ask     -- lowercase code
+    --     accept  -- sequence table, with offered lowercase codes
+    -- Postcondition:
+    --     nil, or true
+    local r
+    for i = 1, #accept do
+        if accept[ i ] == ask then
+            r = true
+            break -- for i
+        end
+    end -- for i
+    return r
+end -- feasible()
+
+
+
+local fetch = function ( access, append )
+    -- Attach config or library module
+    -- Precondition:
+    --     access  -- module title
+    --     append  -- string, with subpage part of this; or false
+    -- Postcondition:
+    --     Returns:  table, with library, or false
+    local got, sign
+    if append then
+        sign = string.format( "%s/%s", access, append )
+    else
+        sign = access
+    end
+    if type( Multilingual.ext ) ~= "table" then
+        Multilingual.ext = { }
+    end
+    got = Multilingual.ext[ sign ]
+    if not got  and  got ~= false then
+        local global = Multilingual.globals[ access ]
+        local lib    = ( not append  or  append == "config" )
+        got = foreignModule( access, lib, append, global )
+        if type( got ) == "table" then
+            if lib then
+                local startup = got[ access ]
+                if type( startup ) == "function" then
+                    got = startup()
+                end
+            end
+        else
+            got = false
+        end
+        Multilingual.ext[ sign ] = got
+    end
+    return got
+end -- fetch()
+
+
+
+local fetchISO639 = function ( access )
+    -- Retrieve table from commons:Data:ISO639/***.tab
+    -- Precondition:
+    --     access  -- string, with subpage identification
+    -- Postcondition:
+    --     Returns table, with data, even empty
+    local r
+    if type( Multilingual.iso639 ) ~= "table" then
+        Multilingual.iso639 = { }
+    end
+    r = Multilingual.iso639[ access ]
+    if type( r ) == "nil" then
+        local raw = fetchData( "ISO639/" .. access )
+        if type( raw ) == "table" then
+            local t
+            r = { }
+            for i = 1, #raw do
+                t = raw[ i ]
+                if type( t ) == "table"  and
+                   type( t[ 1 ] ) == "string"  and
+                   type( t[ 2 ] ) == "string" then
+                    r[ t[ 1 ] ] =  t[ 2 ]
+                else
+                    break -- for i
+                end
+            end -- for i
+        else
+            r = false
+        end
+        Multilingual.iso639[ access ] = r
+    end
+    return r or { }
+end -- fetchISO639()
+
+
+
+local fill = function ( access, alien, frame )
+    -- Expand language name template
+    -- Precondition:
+    --     access  -- string, with language code
+    --     alien   -- language code for which to be generated
+    --     frame   -- frame, if available
+    -- Postcondition:
+    --     Returns string
+    local template = Multilingual.tmplLang
+    local r
+    if type( template ) ~= "table" then
+        local cnf = fetch( "Multilingual", "config" )
+        if cnf then
+            template = cnf.tmplLang
+        end
+    end
+    if type( template ) == "table" then
+        local source = template.title
+        local f, lucky, s
+        Multilingual.tmplLang = template
+        if type( source ) ~= "string"  and
+           type( template.namePat ) == "string"  and
+           template.namePat:find( "%s", 1, true ) then
+            source = string.format( template.namePat, access )
+        end
+        if type( source ) == "string" then
+            if not Multilingual.frame then
+                if frame then
+                    Multilingual.frame = frame
+                else
+                    Multilingual.frame = mw.getCurrentFrame()
+                end
+            end
+            f = function ( a )
+                    return Multilingual.frame:expandTemplate{ title = a }
+                end
+            lucky, s = pcall( f, source )
+            if lucky then
+                r = s
+            end
+        end
+    end
+    return r
+end -- fill()
+
+
+
+local find = function ( ask, alien )
+    -- Derive language code from name
+    -- Precondition:
+    --     ask    -- language name, downcased
+    --     alien  -- language code of ask
+    -- Postcondition:
+    --     nil, or string
+    local codes = mw.language.fetchLanguageNames( alien, "all" )
+    local r
+    for k, v in pairs( codes ) do
+        if mw.ustring.lower( v ) == ask then
+            r = k
+            break -- for k, v
+        end
+    end -- for k, v
+    if not r then
+        r = Multilingual.fair( ask )
+    end
+    return r
+end -- find()
+
+
+
+local fold = function ( frame )
+    -- Merge template and #invoke arglist
+    -- Precondition:
+    --     frame   -- template frame
+    -- Postcondition:
+    --     table, with combined arglist
+    local r = { }
+    local f = function ( apply )
+                  if type( apply ) == "table"  and
+                     type( apply.args ) == "table" then
+                      for k, v in pairs( apply.args ) do
+                          v = mw.text.trim( v )
+                          if v ~= "" then
+                              r[ tostring( k ) ] = v
+                          end
+                      end -- for k, v
+                  end
+              end -- f()
+    f( frame:getParent() )
+    f( frame )
+    return r
+end -- fold()
+
+
+
+User.favorize = function ( accept, frame )
+    -- Guess user language
+    -- Precondition:
+    --     accept  -- sequence table, with offered ISO 639 etc. codes
+    --     frame   -- frame, if available
+    -- Postcondition:
+    --     Returns string with best code, or nil
+    if not ( User.self or User.langs ) then
+        if not User.trials then
+            User.tell = mw.message.new( User.sniffer )
+            if User.tell:exists() then
+                User.trials = { }
+                if not Multilingual.frame then
+                    if frame then
+                        Multilingual.frame = frame
+                    else
+                        Multilingual.frame = mw.getCurrentFrame()
+                    end
+                end
+                User.sin = Multilingual.frame:callParserFunction( "int",
+                                                           User.sniffer )
+            else
+                User.langs = true
+            end
+        end
+        if User.sin then
+            local order  = { }
+            local post   = { }
+            local three  = { }
+            local unfold = { }
+            local s, sin
+            for i = 1, #accept do
+                s = accept[ i ]
+                if not User.trials[ s ] then
+                    if #s > 2 then
+                        if s:find( "-", 3, true ) then
+                            table.insert( unfold, s )
+                        else
+                            table.insert( three, s )
+                        end
+                    else
+                        if Multilingual.prefer[ s ] then
+                            table.insert( order, s )
+                        else
+                            table.insert( post, s )
+                        end
+                    end
+                end
+            end -- for i
+            for i = 1, #post do
+                table.insert( order, post[ i ] )
+            end -- for i
+            for i = 1, #three do
+                table.insert( order, three[ i ] )
+            end -- for i
+            for i = 1, #unfold do
+                table.insert( order, unfold[ i ] )
+            end -- for i
+            for i = 1, #order do
+                s = order[ i ]
+                sin = User.tell:inLanguage( s ):plain()
+                if sin == User.sin then
+                    User.self = s
+                    break -- for i
+                else
+                    User.trials[ s ] = true
+                end
+            end -- for i
+        end
+    end
+    return User.self
+end -- User.favorize()
+
+
+
+Multilingual.fair = function ( ask )
+    -- Format language specification according to RFC 5646 etc.
+    -- Precondition:
+    --     ask  -- string or table, as created by .getLang()
+    -- Postcondition:
+    --     Returns string, or false
+    local s = type( ask )
+    local q, r
+    if s == "table" then
+        q = ask
+    elseif s == "string" then
+        q = Multilingual.getLang( ask )
+    end
+    if q  and
+       q.legal  and
+       mw.language.isKnownLanguageTag( q.base ) then
+        r = q.base
+        if q.n > 1 then
+            local order = { "extlang",
+                            "script",
+                            "region",
+                            "other",
+                            "extension" }
+            for i = 1, #order do
+                s = q[ order[ i ] ]
+                if s then
+                    r =  string.format( "%s-%s", r, s )
+                end
+            end -- for i
+        end
+    end
+    return r or false
+end -- Multilingual.fair()
+
+
+
+Multilingual.fallback = function ( able, another )
+    -- Is another language suitable as replacement?
+    -- Precondition:
+    --     able     -- language version specifier to be supported
+    --     another  -- language specifier of a possible replacement,
+    --                 or not to retrieve a fallback table
+    -- Postcondition:
+    --     Returns boolean, or table with fallback codes
+    local r
+    if type( able ) == "string"  and  #able > 0 then
+        if type( another ) == "string"  and  #another > 0 then
+            if able == another then
+                r = true
+            else
+                local s = Multilingual.getBase( able )
+                if s == another then
+                    r = true
+                else
+                    local others = mw.language.getFallbacksFor( s )
+                    r = feasible( another, others )
+                end
+            end
+        else
+            local s = Multilingual.getBase( able )
+            if s then
+                r = mw.language.getFallbacksFor( s )
+                if r[ 1 ] == "en" then
+                    local d = fetchISO639( "fallback" )
+                    if type( d ) == "table"  and
+                       type( d[ s ] ) == "string" then
+                        r = mw.text.split( d[ s ], "|" )
+                        table.insert( r, "en" )
+                    end
+                end
+            end
+        end
+    end
+    return r or false
+end -- Multilingual.fallback()
+
+
+
+Multilingual.findCode = function ( ask )
+    -- Retrieve code of local (current project or English) language name
+    -- Precondition:
+    --     ask  -- string, with presumable language name
+    --             A code itself will be identified, too.
+    -- Postcondition:
+    --     Returns string, or false
+    local seek = mw.text.trim( ask )
+    local r = false
+    if #seek > 1 then
+        if seek:find( "[", 1, true ) then
+            local wlink = fetch( "WLink" )
+            if wlink  and
+               type( wlink.getPlain ) == "function" then
+                seek = wlink.getPlain( seek )
+            end
+        end
+        seek = mw.ustring.lower( seek )
+        if Multilingual.isLang( seek ) then
+            r = Multilingual.fair( seek )
+        else
+            local collection = favorites()
+            for i = 1, #collection do
+                r = find( seek, collection[ i ] )
+                if r then
+                    break -- for i
+                end
+            end -- for i
+        end
+    end
+    return r
+end -- Multilingual.findCode()
+
+
+
+Multilingual.fix = function ( attempt )
+    -- Fix frequently mistaken language code
+    -- Precondition:
+    --     attempt  -- string, with presumable language code
+    -- Postcondition:
+    --     Returns string with correction, or false if no problem known
+    local r = fetchISO639( "correction" )[ attempt:lower() ]
+    return r or false
+end -- Multilingual.fix()
+
+
+
+Multilingual.format = function ( apply, alien, alter, active, alert,
+                                 frame, assembly, adjacent, ahead )
+    -- Format one or more languages
+    -- Precondition:
+    --     apply     -- string with language list or item
+    --     alien     -- language of the answer
+    --                  -- nil, false, "*": native
+    --                  -- "!": current project
+    --                  -- "#": code, downcased, space separated
+    --                  -- "-": code, mixcase, space separated
+    --                  -- any valid code
+    --     alter     -- capitalize, if "c"; downcase all, if "d"
+    --                  capitalize first item only, if "f"
+    --                  downcase every first word only, if "m"
+    --     active    -- link items, if true
+    --     alert     -- string with category title in case of error
+    --     frame     -- if available
+    --     assembly  -- string with split pattern, if list expected
+    --     adjacent  -- string with list separator, else assembly
+    --     ahead     -- string to prepend first element, if any
+    -- Postcondition:
+    --     Returns string, or false if apply empty
+    local r = false
+    if apply then
+        local slang
+        if assembly then
+            local bucket = mw.text.split( apply, assembly )
+            local shift = alter
+            local separator
+            if adjacent then
+                separator = adjacent
+            elseif alien == "#"  or  alien == "-" then
+                separator = " "
+            else
+                separator = assembly
+            end
+            for k, v in pairs( bucket ) do
+                slang = Multilingual.format( v, alien, shift, active,
+                                             alert )
+                if slang then
+                    if r then
+                        r = string.format( "%s%s%s",
+                                           r, separator, slang )
+                    else
+                        r = slang
+                        if shift == "f" then
+                            shift = "d"
+                        end
+                    end
+                end
+            end -- for k, v
+            if r and ahead then
+                r = ahead .. r
+            end
+        else
+            local single = mw.text.trim( apply )
+            if single == "" then
+                r = false
+            else
+                local lapsus, slot
+                slang = Multilingual.findCode( single )
+                if slang then
+                    if alien == "-" then
+                        r = slang
+                    elseif alien == "#" then
+                        r = slang:lower()
+                    else
+                        r = Multilingual.getName( slang, alien )
+                        if active then
+                            slot = fill( slang, false, frame )
+                            if slot then
+                                local wlink = fetch( "WLink" )
+                                if wlink  and
+                                   type( wlink.getTarget )
+                                                       == "function" then
+                                    slot = wlink.getTarget( slot )
+                                end
+                            else
+                                lapsus = alert
+                            end
+                        end
+                    end
+                else
+                    r = single
+                    if active then
+                        local title = mw.title.makeTitle( 0, single )
+                        if title.exists then
+                            slot = single
+                        end
+                    end
+                    lapsus = alert
+                end
+                if not r then
+                    r = single
+                elseif alter == "c" or alter == "f" then
+                    r = mw.ustring.upper( mw.ustring.sub( r, 1, 1 ) )
+                        .. mw.ustring.sub( r, 2 )
+                elseif alter == "d" then
+                    if Multilingual.isMinusculable( slang, r ) then
+                        r = mw.ustring.lower( r )
+                    end
+                elseif alter == "m" then
+                    if Multilingual.isMinusculable( slang, r ) then
+                        r = mw.ustring.lower( mw.ustring.sub( r, 1, 1 ) )
+                            .. mw.ustring.sub( r, 2 )
+                    end
+                end
+                if slot then
+                    if r == slot then
+                        r = string.format( "[[%s]]", r )
+                    else
+                        r = string.format( "[[%s|%s]]", slot, r )
+                    end
+                end
+                if lapsus and alert then
+                    r = string.format( "%s[[Category:%s]]", r, alert )
+                end
+            end
+        end
+    end
+    return r
+end -- Multilingual.format()
+
+
+
+Multilingual.getBase = function ( ask )
+    -- Retrieve base language from possibly combined ISO language code
+    -- Precondition:
+    --     ask  -- language code
+    -- Postcondition:
+    --     Returns string, or false
+    local r
+    if ask then
+        local slang = ask:match( "^%s*(%a%a%a?)-?%a*%s*$" )
+        if slang then
+            r = slang:lower()
+        else
+            r = false
+        end
+    else
+        r = false
+    end
+    return r
+end -- Multilingual.getBase()
+
+
+
+Multilingual.getLang = function ( ask )
+    -- Retrieve components of a RFC 5646 language code
+    -- Precondition:
+    --     ask  -- language code with subtags
+    -- Postcondition:
+    --     Returns table with formatted subtags
+    --             .base
+    --             .region
+    --             .script
+    --             .suggest
+    --             .year
+    --             .extension
+    --             .other
+    --             .n
+    local tags = mw.text.split( ask, "-" )
+    local s    = tags[ 1 ]
+    local r
+    if s:match( "^%a%a%a?$" ) then
+        r = { base  = s:lower(),
+              legal = true,
+              n     = #tags }
+        for i = 2, r.n do
+            s = tags[ i ]
+            if #s == 2 then
+                if r.region  or  not s:match( "%a%a" ) then
+                    r.legal = false
+                else
+                    r.region = s:upper()
+                end
+            elseif #s == 4 then
+                if s:match( "%a%a%a%a" ) then
+                    r.legal = ( not r.script )
+                    r.script = s:sub( 1, 1 ):upper() ..
+                               s:sub( 2 ):lower()
+                elseif s:match( "20%d%d" )  or
+                       s:match( "1%d%d%d" ) then
+                    r.legal = ( not r.year )
+                    r.year = s
+                else
+                    r.legal = false
+                end
+            elseif #s == 3 then
+                if r.extlang  or  not s:match( "%a%a%a" ) then
+                    r.legal = false
+                else
+                    r.extlang = s:lower()
+                end
+            elseif #s == 1 then
+                s = s:lower()
+                if s:match( "[tux]" ) then
+                    r.extension = s
+                    for k = i + 1, r.n do
+                        s = tags[ k ]
+                        if s:match( "^%w+$" ) then
+                            r.extension = string.format( "%s-%s",
+                                                         r.extension, s )
+                        else
+                            r.legal = false
+                        end
+                    end -- for k
+                else
+                    r.legal = false
+                end
+                break -- for i
+            else
+                r.legal = ( not r.other )  and
+                          s:match( "%a%a%a" )
+                r.other = s:lower()
+            end
+            if not r.legal then
+                break -- for i
+            end
+        end -- for i
+        if r.legal then
+            r.suggest = Multilingual.fix( r.base )
+            if r.suggest then
+                r.legal = false
+            end
+        end
+    else
+        r = { legal = false }
+    end
+    if not r.legal then
+        local cnf = fetch( "Multilingual", "config" )
+        if cnf  and  type( cnf.scream ) == "string" then
+            r.scream = cnf.scream
+        end
+    end
+    return r
+end -- Multilingual.getLang()
+
+
+
+Multilingual.getName = function ( ask, alien )
+    -- Which name is assigned to this language code?
+    -- Precondition:
+    --     ask    -- language code
+    --     alien  -- language of the answer
+    --               -- nil, false, "*": native
+    --               -- "!": current project
+    --               -- any valid code
+    -- Postcondition:
+    --     Returns string, or false
+    local r
+    if ask then
+        local slang   = alien
+        local tLang
+        if slang then
+            if slang == "*" then
+                slang = Multilingual.fair( ask )
+            elseif slang == "!" then
+                slang = favorites()[ 1 ]
+            else
+                slang = Multilingual.fair( slang )
+            end
+        else
+            slang = Multilingual.fair( ask )
+        end
+        if not slang then
+            slang = ask or "?????"
+        end
+        slang = slang:lower()
+        tLang = fetch( "Multilingual", "names" )
+        if tLang then
+            tLang = tLang[ slang ]
+            if tLang then
+                r = tLang[ ask ]
+            end
+        end
+        if not r then
+            if not Multilingual.ext.tMW then
+                Multilingual.ext.tMW = { }
+            end
+            tLang = Multilingual.ext.tMW[ slang ]
+            if tLang == nil then
+                tLang = mw.language.fetchLanguageNames( slang )
+                if tLang then
+                    Multilingual.ext.tMW[ slang ] = tLang
+                else
+                    Multilingual.ext.tMW[ slang ] = false
+                end
+            end
+            if tLang then
+                r = tLang[ ask ]
+            end
+        end
+        if not r then
+            r = mw.language.fetchLanguageName( ask:lower(), slang )
+            if r == "" then
+                r = false
+            end
+        end
+    else
+        r = false
+    end
+    return r
+end -- Multilingual.getName()
+
+
+
+Multilingual.i18n = function ( available, alt, frame )
+    -- Select translatable message
+    -- Precondition:
+    --     available  -- table, with mapping language code ./. text
+    --     alt        -- string|nil|false, with fallback text
+    --     frame      -- frame, if available
+    --     Returns
+    --         1. string|nil|false, with selected message
+    --         2. string|nil|false, with language code
+    local r1, r2
+    if type( available ) == "table" then
+        local codes = { }
+        local trsl  = { }
+        local slang
+        for k, v in pairs( available ) do
+            if type( k ) == "string"  and
+               type( v ) == "string" then
+                slang = mw.text.trim( k:lower() )
+                table.insert( codes, slang )
+                trsl[ slang ] = v
+            end
+        end -- for k, v
+        slang = Multilingual.userLang( codes, frame )
+        if slang  and  trsl[ slang ] then
+            r1 = mw.text.trim( trsl[ slang ] )
+            if r1 == "" then
+                r1 = false
+            else
+                r2 = slang
+            end
+        end
+    end
+    if not r1  and  type( alt ) == "string" then
+        r1 = mw.text.trim( alt )
+        if r1 == "" then
+            r1 = false
+        end
+    end
+    return r1, r2
+end -- Multilingual.i18n()
+
+
+
+Multilingual.int = function ( access, alien, apply )
+    -- Translated system message
+    -- Precondition:
+    --     access  -- message ID
+    --     alien   -- language code
+    --     apply   -- nil, or sequence table with parameters $1, $2, ...
+    -- Postcondition:
+    --     Returns string, or false
+    local o = mw.message.new( access )
+    local r
+    if o:exists() then
+        if type( alien ) == "string" then
+            o:inLanguage( alien:lower() )
+        end
+        if type( apply ) == "table" then
+            o:params( apply )
+        end
+        r = o:plain()
+    end
+    return r or false
+end -- Multilingual.int()
+
+
+
+Multilingual.isLang = function ( ask, additional )
+    -- Could this be an ISO language code?
+    -- Precondition:
+    --     ask         -- language code
+    --     additional  -- true, if Wiki codes like "simple" permitted
+    -- Postcondition:
+    --     Returns boolean
+    local r, s
+    if additional then
+        s = ask
+    else
+        s = Multilingual.getBase( ask )
+    end
+    if s then
+        r = mw.language.isKnownLanguageTag( s )
+        if r then
+            r = not Multilingual.fix( s )
+        elseif additional then
+            r = Multilingual.exotic[ s ] or false
+        end
+    else
+        r = false
+    end
+    return r
+end -- Multilingual.isLang()
+
+
+
+Multilingual.isLangWiki = function ( ask )
+    -- Could this be a Wiki language version?
+    -- Precondition:
+    --     ask  -- language version specifier
+    -- Postcondition:
+    --     Returns boolean
+    local r
+    local s = Multilingual.getBase( ask )
+    if s then
+        r = mw.language.isSupportedLanguage( s )  or
+            Multilingual.exotic[ ask ]
+    else
+        r = false
+    end
+    return r
+end -- Multilingual.isLangWiki()
+
+
+
+Multilingual.isMinusculable = function ( ask, assigned )
+    -- Could this language name become downcased?
+    -- Precondition:
+    --     ask       -- language code, or nil
+    --     assigned  -- language name, or nil
+    -- Postcondition:
+    --     Returns boolean
+    local r = true
+    if ask then
+        local cnf = fetch( "Multilingual", "config" )
+        if cnf then
+            local s = string.format( " %s ", ask:lower() )
+            if type( cnf.stopMinusculization ) == "string"
+               and  cnf.stopMinusculization:find( s, 1, true ) then
+                r = false
+            end
+            if r  and  assigned
+               and  type( cnf.seekMinusculization ) == "string"
+               and  cnf.seekMinusculization:find( s, 1, true )
+               and  type( cnf.scanMinusculization ) == "string" then
+                local scan = assigned:gsub( "[%(%)]", " " ) .. " "
+                if not scan:find( cnf.scanMinusculization ) then
+                    r = false
+                end
+            end
+        end
+    end
+    return r
+end -- Multilingual.isMinusculable()
+
+
+
+Multilingual.isRTL = function ( ask )
+    -- Check whether language is written right-to-left
+    -- Precondition:
+    --     ask  -- string, with language (or script) code
+    -- Returns true, if right-to-left
+    local r
+    Multilingual.rtl = Multilingual.rtl or { }
+    r = Multilingual.rtl[ ask ]
+    if type( r ) ~= "boolean" then
+        local bib = fetch( "ISO15924" )
+        if type( bib ) == "table"  and
+           type( bib.isRTL ) == "function" then
+            r = bib.isRTL( ask )
+        else
+            r = mw.language.new( ask ):isRTL()
+        end
+        Multilingual.rtl[ ask ] = r
+    end
+    return r
+end -- Multilingual.isRTL()
+
+
+
+Multilingual.message = function ( arglist, frame )
+    -- Show text in best match of user language like system message
+    -- Precondition:
+    --     arglist  -- template arguments
+    --     frame    -- frame, if available
+    -- Postcondition:
+    --     Returns string with appropriate text
+    local r
+    if type( arglist ) == "table" then
+        local t = { }
+        local m, p, save
+        for k, v in pairs( arglist ) do
+            if type( k ) == "string"  and
+               type( v ) == "string" then
+                v = mw.text.trim( v )
+                if v ~= "" then
+                    if k:match( "^%l%l" ) then
+                        t[ k ] = v
+                    elseif k:match( "^%$%d$" )  and  k ~= "$0" then
+                        p = p or { }
+                        k = tonumber( k:match( "^%$(%d)$" ) )
+                        p[ k ] = v
+                        if not m  or  k > m then
+                            m = k
+                        end
+                    end
+                end
+            end
+        end -- for k, v
+        if type( arglist[ "-" ] ) == "string" then
+            save = arglist[ arglist[ "-" ] ]
+        end
+        r = Multilingual.i18n( t, save, frame )
+        if p  and  r  and  r:find( "$", 1, true ) then
+            t = { }
+            for i = 1, m do
+                t[ i ] = p[ i ]  or  ""
+            end -- for i
+            r = mw.message.newRawMessage( r, t ):plain()
+        end
+    end
+    return r  or  ""
+end -- Multilingual.message()
+
+
+
+Multilingual.sitelink = function ( all, frame )
+    -- Make link at local or other site with optimal linktext translation
+    -- Precondition:
+    --     all    -- string or table or number, item ID or entity
+    --     frame  -- frame, if available
+    -- Postcondition:
+    --     Returns string with any helpful internal link, or plain text
+    local s = type( all )
+    local object, r
+    if s == "table" then
+        object = all
+    elseif s == "string" then
+        object = mw.wikibase.getEntity( all )
+    elseif s == "number" then
+        object = mw.wikibase.getEntity( string.format( "Q%d", all ) )
+    end
+    if type( object ) == "table" then
+        local collection = object.sitelinks
+        local entry
+        s = false
+        if type( collection ) == "table" then
+            Multilingual.site = Multilingual.site  or
+                                mw.wikibase.getGlobalSiteId()
+            entry = collection[ Multilingual.site ]
+            if entry then
+                s = ":" .. entry.title
+            elseif collection.enwiki then
+                s = "w:en:" .. collection.enwiki.title
+            end
+        end
+        r = Multilingual.wikibase( object, "labels", frame )
+        if s then
+            if s == ":" .. r then
+                r = string.format( "[[%s]]", s )
+            else
+                r = string.format( "[[%s|%s]]", s, r )
+            end
+        end
+    end
+    return r  or  ""
+end -- Multilingual.sitelink()
+
+
+
+Multilingual.tabData = function ( access, at, alt, frame )
+    -- Retrieve translated keyword from commons:Data:****.tab
+    -- Precondition:
+    --     access  -- string, with page identification on Commons
+    --     at      -- string, with keyword
+    --     alt     -- string|nil|false, with fallback text
+    --     frame   -- frame, if available
+    --     Returns
+    --         1. string|nil|false, with selected message
+    --         2. language code, or "error"
+    local data = fetchData( access )
+    local r1, r2
+    if  type( data ) == "table" then
+        if type( at ) == "string" then
+            local seek = mw.text.trim( at )
+            if seek == "" then
+                r1 = "EMPTY Multilingual.tabData key"
+            else
+                local e, poly
+                for i = 1, #data do
+                    e = data[ i ]
+                    if type( e ) == "table" then
+                        if e[ 1 ] == seek then
+                            if type( e[ 2 ] ) == "table" then
+                                poly = e[ 2 ]
+                            else
+                                r1 = "INVALID Multilingual.tabData bad #"
+                                                         .. tostring( i )
+                            end
+                            break   -- for i
+                        end
+                    else
+                        break   -- for i
+                    end
+                end   -- for i
+                if poly then
+                    data = poly
+                else
+                    r1 = "UNKNOWN Multilingual.tabData key: " .. seek
+                end
+            end
+        else
+            r1 = "INVALID Multilingual.tabData key"
+        end
+    else
+        r1 = data
+    end
+    if r1 then
+        r2 = "error"
+    elseif data then
+        r1, r2 = Multilingual.i18n( data, alt, frame )
+        r2 = r2 or "error"
+    end
+    return r1, r2
+end -- Multilingual.tabData()
+
+
+
+Multilingual.userLang = function ( accept, frame )
+    -- Try to support user language by application
+    -- Precondition:
+    --     accept  -- string or table
+    --                space separated list of available ISO 639 codes
+    --                Default: project language, or English
+    --     frame   -- frame, if available
+    -- Postcondition:
+    --     Returns string with appropriate code
+    local s = type( accept )
+    local codes, r, slang
+    if s == "string" then
+        codes = mw.text.split( accept:lower(), "%s+" )
+    elseif s == "table" then
+        codes = { }
+        for i = 1, #accept do
+            s = accept[ i ]
+            if type( s ) == "string"  and
+               s ~= "" then
+                table.insert( codes, s:lower() )
+            end
+        end -- for i
+    end
+    slang = User.favorize( codes, frame )
+    if slang then
+        if feasible( slang, codes ) then
+            r = slang
+        elseif slang:find( "-", 1, true ) then
+            slang = Multilingual.getBase( slang )
+            if feasible( slang, codes ) then
+                r = slang
+            end
+        end
+        if not r then
+            local others = mw.language.getFallbacksFor( slang )
+            for i = 1, #others do
+                slang = others[ i ]
+                if feasible( slang, codes ) then
+                    r = slang
+                    break -- for i
+                end
+            end -- for i
+        end
+    end
+    if not r then
+        local back = favorites()
+        for i = 1, #back do
+            slang = back[ i ]
+            if feasible( slang, codes ) then
+                r = slang
+                break -- for i
+            end
+        end -- for i
+        if not r  and  codes[ 1 ] then
+            r = codes[ 1 ]
+        end
+    end
+    return r  or  favorites()[ 1 ]
+end -- Multilingual.userLang()
+
+
+
+Multilingual.userLangCode = function ()
+    -- Guess a user language code
+    -- Postcondition:
+    --     Returns code of current best guess
+    return User.self  or  favorites()[ 1 ]
+end -- Multilingual.userLangCode()
+
+
+
+Multilingual.wikibase = function ( all, about, attempt, frame )
+    -- Optimal translation of wikibase component
+    -- Precondition:
+    --     all      -- string or table, object ID or entity
+    --     about    -- boolean, true "descriptions" or false "labels"
+    --     attempt  -- string or not, code of preferred language
+    --     frame    -- frame, if available
+    -- Postcondition:
+    --     Returns
+    --         1. string, with selected message
+    --         2. string, with language code, or not
+    local s = type( all )
+    local object, r, r2
+    if s == "table" then
+        object = all
+    elseif s == "string" then
+        object = mw.wikibase.getEntity( all )
+    end
+    if type( object ) == "table" then
+        if about  and  about ~= "labels" then
+            s = "descriptions"
+        else
+            s = "labels"
+        end
+        object = object[ s ]
+        if type( object ) == "table" then
+            if object[ attempt ] then
+                r  = object[ attempt ].value
+                r2 = attempt
+            else
+                local poly
+                for k, v in pairs( object ) do
+                    poly = poly or { }
+                    poly[ k ] = v.value
+                end -- for k, v
+                if poly then
+                    r, r2 = Multilingual.i18n( poly, nil, frame )
+                end
+            end
+        end
+    end
+    return r  or  "",   r2
+end -- Multilingual.wikibase()
+
+
+
+Failsafe.failsafe = function ( atleast )
+    -- Retrieve versioning and check for compliance
+    -- Precondition:
+    --     atleast  -- string, with required version
+    --                         or wikidata|item|~|@ or false
+    -- Postcondition:
+    --     Returns  string  -- with queried version/item, also if problem
+    --              false   -- if appropriate
+    -- 2020-08-17
+    local since = atleast
+    local last    = ( since == "~" )
+    local linked  = ( since == "@" )
+    local link    = ( since == "item" )
+    local r
+    if last  or  link  or  linked  or  since == "wikidata" then
+        local item = Failsafe.item
+        since = false
+        if type( item ) == "number"  and  item > 0 then
+            local suited = string.format( "Q%d", item )
+            if link then
+                r = suited
+            else
+                local entity = mw.wikibase.getEntity( suited )
+                if type( entity ) == "table" then
+                    local seek = Failsafe.serialProperty or "P348"
+                    local vsn  = entity:formatPropertyValues( seek )
+                    if type( vsn ) == "table"  and
+                       type( vsn.value ) == "string"  and
+                       vsn.value ~= "" then
+                        if last  and  vsn.value == Failsafe.serial then
+                            r = false
+                        elseif linked then
+                            if mw.title.getCurrentTitle().prefixedText
+                               ==  mw.wikibase.getSitelink( suited ) then
+                                r = false
+                            else
+                                r = suited
+                            end
+                        else
+                            r = vsn.value
+                        end
+                    end
+                end
+            end
+        end
+    end
+    if type( r ) == "nil" then
+        if not since  or  since <= Failsafe.serial then
+            r = Failsafe.serial
+        else
+            r = false
+        end
+    end
+    return r
+end -- Failsafe.failsafe()
+
+
+
+-- Export
+local p = { }
+
+
+
+p.fair = function ( frame )
+    -- Format language code
+    --     1  -- language code
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    return Multilingual.fair( s )  or  ""
+end -- p.fair
+
+
+
+p.fallback = function ( frame )
+    -- Is another language suitable as replacement?
+    --     1  -- language version specifier to be supported
+    --     2  -- language specifier of a possible replacement
+    local s1 = mw.text.trim( frame.args[ 1 ]  or  "" )
+    local s2 = mw.text.trim( frame.args[ 2 ]  or  "" )
+    local r  = Multilingual.fallback( s1, s2 )
+    if type( r ) == "table" then
+        r = r[ 1 ]
+    else
+        r = r  and  "1"   or   ""
+    end
+    return r
+end -- p.fallback
+
+
+
+p.findCode = function ( frame )
+    -- Retrieve language code from language name
+    --     1  -- name in current project language
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    return Multilingual.findCode( s )  or  ""
+end -- p.findCode
+
+
+
+p.fix = function ( frame )
+    local r = frame.args[ 1 ]
+    if r then
+        r = Multilingual.fix( mw.text.trim( r ) )
+    end
+    return r or ""
+end -- p.fix
+
+
+
+p.format = function ( frame )
+    -- Format one or more languages
+    --     1          -- language list or item
+    --     slang      -- language of the answer, if not native
+    --                   * -- native
+    --                   ! -- current project
+    --                   any valid code
+    --     shift      -- capitalize, if "c"; downcase, if "d"
+    --                   capitalize first item only, if "f"
+    --     link       -- 1 -- link items
+    --     scream     -- category title in case of error
+    --     split      -- split pattern, if list expected
+    --     separator  -- list separator, else split
+    --     start      -- prepend first element, if any
+    local r
+    local link
+    if frame.args.link == "1" then
+        link = true
+    end
+    r = Multilingual.format( frame.args[ 1 ],
+                             frame.args.slang,
+                             frame.args.shift,
+                             link,
+                             frame.args.scream,
+                             frame,
+                             frame.args.split,
+                             frame.args.separator,
+                             frame.args.start )
+    return r or ""
+end -- p.format
+
+
+
+p.getBase = function ( frame )
+    -- Retrieve base language from possibly combined ISO language code
+    --     1  -- code
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    return Multilingual.getBase( s )  or  ""
+end -- p.getBase
+
+
+
+p.getName = function ( frame )
+    -- Retrieve language name from ISO language code
+    --     1  -- code
+    --     2  -- language to be used for the answer, if not native
+    --           ! -- current project
+    --           * -- native
+    --           any valid code
+    local s     = mw.text.trim( frame.args[ 1 ]  or  "" )
+    local slang = frame.args[ 2 ]
+    local r
+    Multilingual.frame = frame
+    if slang then
+        slang = mw.text.trim( slang )
+    end
+    r = Multilingual.getName( s, slang )
+    return r or ""
+end -- p.getName
+
+
+
+p.int = function ( frame )
+    -- Translated system message
+    --     1             -- message ID
+    --     lang          -- language code
+    --     $1, $2, ...   -- parameters
+    local sysMsg = frame.args[ 1 ]
+    local r
+    if sysMsg then
+        sysMsg = mw.text.trim( sysMsg )
+        if sysMsg ~= "" then
+            local n     = 0
+            local slang = frame.args.lang
+            local i, params, s
+            if slang == "" then
+                slang = false
+            end
+            for k, v in pairs( frame.args ) do
+                if type( k ) == "string" then
+                    s = k:match( "^%$(%d+)$" )
+                    if s then
+                        i = tonumber( s )
+                        if i > n then
+                            n = i
+                        end
+                    end
+                end
+            end -- for k, v
+            if n > 0 then
+                local s
+                params = { }
+                for i = 1, n do
+                    s = frame.args[ "$" .. tostring( i ) ]  or  ""
+                    table.insert( params, s )
+                end -- for i
+            end
+            r = Multilingual.int( sysMsg, slang, params )
+        end
+    end
+    return r or ""
+end -- p.int
+
+
+
+p.isLang = function ( frame )
+    -- Could this be an ISO language code?
+    --     1  -- code
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    local lucky, r = pcall( Multilingual.isLang, s )
+    return r and "1" or ""
+end -- p.isLang
+
+
+
+p.isLangWiki = function ( frame )
+    -- Could this be a Wiki language version?
+    --     1  -- code
+    -- Returns non-empty, if possibly language version
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    local lucky, r = pcall( Multilingual.isLangWiki, s )
+    return r and "1" or ""
+end -- p.isLangWiki
+
+
+
+p.isRTL = function ( frame )
+    -- Check whether language is written right-to-left
+    --     1  -- string, with language code
+    -- Returns non-empty, if right-to-left
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    return Multilingual.isRTL( s ) and "1" or ""
+end -- p.isRTL()
+
+
+
+p.message = function ( frame )
+    -- Translation of text element
+    return Multilingual.message( fold( frame ), frame )
+end -- p.message
+
+
+
+p.sitelink = function ( frame )
+    -- Make link at local or other site with optimal linktext translation
+    --     1  -- item ID
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    local r
+    if s:match( "^%d+$") then
+        r = tonumber( s )
+    elseif s:match( "^Q%d+$") then
+        r = s
+    end
+    if r then
+        r = Multilingual.sitelink( r, frame )
+    end
+    return r or s
+end -- p.sitelink
+
+
+
+p.tabData = function ( frame )
+    -- Retrieve best message text from Commons Data
+    --     1    -- page identification on Commons
+    --     2    -- keyword
+    --     alt  -- fallback text
+    local suite = frame.args[ 1 ]
+    local seek  = frame.args[ 2 ]
+    local salt  = frame.args.alt
+    local r     = Multilingual.tabData( suite, seek, salt, frame )
+    return r
+end -- p.tabData
+
+
+
+p.userLang = function ( frame )
+    -- Which language does the current user prefer?
+    --     1  -- space separated list of available ISO 639 codes
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    return Multilingual.userLang( s, frame )
+end -- p.userLang
+
+
+
+p.wikibase = function ( frame )
+    -- Optimal translation of wikibase component
+    --     1  -- object ID
+    --     2  -- 1 for "descriptions", 0 for "labels".
+    --           or either "descriptions" or "labels"
+    local r
+    local s = mw.text.trim( frame.args[ 1 ]  or  "" )
+    if s ~= "" then
+        local s2    = mw.text.trim( frame.args[ 2 ]  or  "0" )
+        local slang = mw.text.trim( frame.args.lang  or  "" )
+        local large = ( s2 ~= ""  and  s2 ~= "0" )
+        if slang == "" then
+            slang = false
+        end
+        r = Multilingual.wikibase( s, large, slang, frame )
+    end
+    return r or ""
+end -- p.wikibase
+
+
+
+p.failsafe = function ( frame )
+    -- Versioning interface
+    local s = type( frame )
+    local since
+    if s == "table" then
+        since = frame.args[ 1 ]
+    elseif s == "string" then
+        since = frame
+    end
+    if since then
+        since = mw.text.trim( since )
+        if since == "" then
+            since = false
+        end
+    end
+    return Failsafe.failsafe( since )  or  ""
+end -- p.failsafe()
+
+
+
+p.Multilingual = function ()
+    return Multilingual
+end -- p.Multilingual
+
+return p

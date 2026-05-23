@@ -1,0 +1,333 @@
+{{#invoke:navbox|navbox
+| name       = R template index
+| title      = [[Wikipedia:Template index/Redirect pages#List of redirects by function|Rcat functional index]]
+| bodyclass  = hlist
+| state      = {{{state<includeonly>|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|off|collapsed}}</includeonly>}}}
+| groupstyle = text-align:center;
+
+| group1 = [[Wikipedia:Template index/Redirect pages#Grammar, punctuation and spelling|Grammar,<br />punctuation,<br />and spelling]]
+| list1  = {{#invoke:navbox|navbox|child
+  | listclass = hlist
+  | evenodd   = swap
+
+  | group1 = Abbreviation
+  | list1  =
+* {{tl|R to acronym}}
+* {{tl|R from acronym}}
+* {{tl|R to initialism}}
+* {{tl|R from initialism}}
+* {{tl|R from numeronym}}
+* {{tl|R from Bluebook abbreviation}}
+* {{tl|R from ISO 4 abbreviation}}
+* {{tl|R from MathSciNet abbreviation}}
+* {{tl|R from NLM abbreviation}}
+
+  | group2 = Capitalisation
+  | list2  =
+* {{tl|R from CamelCase}}
+* {{tl|R from other capitalisation}}
+* {{tl|R from miscapitalisation}}
+
+  | group3 = Grammar &<br/>punctuation
+  | list3  =
+* {{tl|R from modification}}
+* {{tl|R from plural}}
+* {{tl|R to plural}}
+
+  | group4 = Parts of speech
+  | list4  =
+* {{tl|R from adjective}}
+* {{tl|R from adverb}}
+* {{tl|R from common noun}}
+* {{tl|R from gerund}}
+* {{tl|R from proper noun}}
+* {{tl|R from verb}}
+
+  | group5 = Spelling
+  | list5  =
+* {{tl|R from alternative spelling}}
+* {{tl|R from alternative hyphenation}}
+* {{tl|R from alternative punctuation}}
+* {{tl|R from alternative spacing}}
+* {{tl|R from alternative transliteration}}
+* {{tl|R from American English}}
+* {{tl|R from ASCII-only}}
+* {{tl|R to ASCII-only}}
+* {{tl|R from British English}}
+* {{tl|R from diacritic}}
+* {{tl|R to diacritic}}
+* {{tl|R from incorrect hyphenation}}
+* {{tl|R from ligature}}
+* {{tl|R to ligature}}
+* {{tl|R from misspelling}}
+* {{tl|R from stylization}}
+
+}}
+
+| group2 = [[Wikipedia:Template index/Redirect pages#Alternative names|Alternative<br />names]]
+| list2  = {{#invoke:navbox|navbox|child
+  | listclass = hlist
+  | evenodd   = swap
+
+  | group1 = General
+  | list1  =
+* {{tl|R from alternative language}}
+** [[Wikipedia:Template index/Redirect language codes|language codes]]
+* {{tl|R from alternative name}}
+* {{tl|R from ambiguous sort name}} <!-- Exists at {{R from sort name/ambiguous}} -->
+* {{tl|R from antonym}}
+* {{tl|R from colloquial name}}
+* {{tl|R country data}}
+* {{tl|R from former name}}
+* {{tl|R from incomplete name}}
+* {{tl|R from incorrect name}}
+* {{tl|R from less specific name}}
+* {{tl|R from long name}}
+* {{tl|R from more specific name}}
+* {{tl|R from non-neutral name}}
+* {{tl|R to numerals}}
+* {{tl|R from numerals}}
+* {{tl|R to Roman numerals}}
+* {{tl|R from Roman numerals}}
+* {{tl|R from portmanteau}}
+* {{tl|R from short name}}
+* {{tl|R from sort name}}
+* {{tl|R from synonym}}
+
+  | group2 = People
+  | list2  =
+* {{tl|R from birth name}}
+* {{tl|R from given name}}
+* {{tl|R to joint biography}}
+* {{tl|R from married name}}
+* {{tl|R from name with title}}
+* {{tl|R from person}}
+* {{tl|R from personal name}}
+* {{tl|R from Eastern name}}
+* {{tl|R from pseudonym}}
+* {{tl|R from surname}}
+
+  | group3 = Technical
+  | list3  =
+* {{tl|R from CAS Registry Number}}
+* {{tl|R from court case}}
+* {{tl|R from drug trade name}}
+* {{tl|R from E number}}
+* {{tl|R from EC number}}
+* {{tl|R from filename}}
+* {{tl|R from file extension}}
+* {{tl|R from identifier}}
+* {{tl|R from Java package name}}
+* {{tl|R from chemical formula}}
+* {{tl|R from gene symbol}} 
+* {{tl|R from technical name}} 
+* {{tl|R to technical name}}
+* {{tl|R from radio frequency}}
+
+  | group4 = Organisms
+  | list4  =
+* {{tl|R to scientific name}}
+* {{tl|R from scientific name}} 
+* {{tl|R from alternative scientific name}}
+* {{tl|R from scientific abbreviation}}
+* {{tl|R to monotypic taxon}}
+* {{tl|R from monotypic taxon}}
+* {{tl|R taxon with possibilities}}
+* {{tl|R from species to genus}}
+
+  | group5 = Geography
+  | list5  = 
+* {{tl|R from name and country}}
+* {{tl|R from more specific geographic name}}
+* {{tl|R from postal code}}
+
+}}
+
+| group3 = Navigation<br/>aids
+| list3  = {{#invoke:navbox|navbox|child
+  | listclass = hlist
+
+  | group1 = [[Wikipedia:Template index/Redirect pages#Miscellaneous|Navigation]]
+  | list1  = 
+* {{tl|R to anchor}}
+* {{tl|R avoided double redirect}}
+* {{tl|R from category navigation}}
+* {{tl|R from file metadata link}}
+* {{tl|R to list entry}}
+* {{tl|R mentioned in hatnote}} 
+* {{tl|R to section}}
+* {{tl|R from shortcut}}
+
+  | group2 = [[Wikipedia:Template index/Redirect pages#Disambiguation|Disambiguation]]
+  | list2  = 
+* {{tl|R from ambiguous term}}
+* {{tl|R to disambiguation page}}
+* {{tl|R from incomplete disambiguation}}
+* {{tl|R from incorrect disambiguation}}
+* {{tl|R from other disambiguation}}
+* {{tl|R from predictable disambiguation}}
+* {{tl|R from unnecessary disambiguation}}
+
+  | group3 = [[Wikipedia:Template index/Redirect pages#Merges, duplicates and moves|Merge, duplicate & move]]
+  | list3  = 
+* {{tl|R from draft namespace}}
+* {{tl|R from duplicated article}}
+* {{tl|R with history}}
+* {{tl|R from merge}}
+* {{tl|R from move}}
+* {{tl|R with old history}}
+
+  | group4 = [[Wikipedia:Template index/Redirect pages#To namespaces|To namespaces]]
+  | list4  = 
+* {{tl|R from remote talk page}}
+* {{tl|R to category namespace}}
+* {{tl|R to draft namespace}}
+* {{tl|R to help namespace}}
+* {{tl|R to main namespace}}
+* {{tl|R to portal namespace}}
+* {{tl|R to project namespace}}
+* {{tl|R to talk page}}
+* {{tl|R to template namespace}}
+* {{tl|R to user namespace}}
+
+}}
+
+| group4 = Media
+| list4  = {{#invoke:navbox|navbox|child
+| listclass = hlist
+
+  | group1 = General
+  | list1  = {{#invoke:navbox|navbox|child
+  | listclass = hlist
+    | group1 = 
+    | list1  =
+* {{tl|R from book}}
+* {{tl|R from film}}
+* {{tl|R from upcoming film}}
+* {{tl|R from journal}}
+* {{tl|R from meme}}
+* {{tl|R from radio program}}
+* {{tl|R from subreddit}}
+* {{tl|R from work}}
+* {{tl|R from creator}}
+* {{tl|R from radio frequency}}
+* {{tl|R from broadcast translator}}
+    | group2 = Music
+    | list2 =
+* {{tl|R from album}}
+* {{tl|R from lyric}}
+* {{tl|R from song}}
+* {{tl|R from cover song}}
+* {{tl|R from band name}}
+    | group3 = Television
+    | list3 = 
+* {{tl|R from television episode}}
+* {{tl|R from television program}}
+}}
+
+  | group2 = [[Wikipedia:Template index/Redirect pages#Miscellaneous|Fiction]]
+  | list2  = 
+* {{tl|R from fictional character}}
+* {{tl|R from fictional element}}
+* {{tl|R from fictional location}}
+
+   | group3 = Comics
+   | list3  = 
+* {{tl|R comics with possibilities}}
+* {{tl|R comics from alternative name}}
+* {{tl|R comics to list entry}}
+* {{tl|R comics from merge}}
+* {{tl|R comics naming convention}}
+* {{tl|R comics from related word}}
+* {{tl|R comics to section}}
+
+}}
+
+| group5 = Miscellaneous
+| list5 = {{#invoke:navbox|navbox|child
+  | listclass = hlist
+
+  | group1 = [[Wikipedia:Template index/Redirect pages#Miscellaneous|Related<br/>information]]
+  | list1  =
+* {{tl|R to article without mention}}
+* {{tl|R to decade}}
+* {{tl|R to century}}
+* {{tl|R to millennium}}
+* {{tl|R from city and state}}
+* {{tl|R from URL}}
+* {{tl|R from domain name}}
+** {{tl|R from second-level domain}}
+** {{tl|R from top-level domain}}
+* {{tl|R from gendered term}}
+* {{tl|R from legislation}}
+* {{tl|R from list topic}}
+* {{tl|R from member}}
+* {{tl|R from phrase}}
+* {{tl|R from quotation}}
+* {{tl|R to related topic}}
+* {{tl|R from related word}}
+* {{tl|R from relative}}
+** {{tl|R from spouse}}
+* {{tl|R from school}}
+* {{tl|R from slogan}}
+* {{tl|R from subsidiary}}
+* {{tl|R from subtopic}}
+* {{tl|R to subtopic}}
+* {{tl|R from gap in series}}
+* {{tl|R from team}}
+* {{tl|R from Unicode character}}
+* {{tl|R from Unicode code}}
+* {{tl|R from emoji}}
+
+  | group2 = {{c|Redirects with possibilities|With possibilities}}
+  | list2  =
+* {{tl|R with possibilities}}
+** {{cat|Template redirects with possibilities}}
+* {{tl|R category with possibilities}}
+
+  | group3 = [[International Organization for Standardization|ISO codes]]
+  | list3  =
+* {{tl|R from ISO 4 abbreviation}}
+* {{tl|R from ISO 639 code}}
+* {{tl|R from ISO 3166 code}}
+* {{tl|R from ISO 4217 code}}
+* {{tl|R from ISO 15924 code}}
+
+  | group4 = [[Wikipedia:Template index/Redirect pages#Printworthy vs. unprintworthy|Printworthiness]]
+  | list4  =
+* [[Wikipedia:Printability|Printability]]
+* {{tl|R printworthy}}
+* {{tl|R unprintworthy}}
+** e.g. {{tlf|R with possibilities}} is printworthy by default; {{tlf|R from misspelling}} is unprintworthy by default; some have no default
+
+  | group5 = Protection
+  | list5  =
+* {{tl|R protected}}
+* {{tl|R from high-use template}}
+
+  | group6 = Tools
+  | list6  =
+* {{cat|Miscellaneous redirects}}
+* [[Wikipedia:Protection policy|Protection policy]]
+* {{tl|R from template-generated category}}
+* {{tl|Redirect category shell}}
+* {{tl|Talk page of redirect}}
+
+  | group7 = Wikidata
+  | list7  =
+* {{tl|R with Wikidata item}}
+* {{tl|Soft redirect with Wikidata item}}
+
+}}
+
+| belowstyle = font-weight:bold;
+| below      =
+* {{#invoke:Icon|main|RED}} [[Wikipedia:Template index/Redirect pages#Alphanumeric listing|Complete alphanumeric index]]
+** for the full list of rcat templates
+* {{#invoke:Icon|main|Category}} [[:Category:Redirect templates|Category]]
+* {{#invoke:Icon|main|WIKIPROJECT}} [[Wikipedia:WikiProject Redirect|WikiProject Redirect]]
+* {{#invoke:Icon|main|wikipedia}} [[Wikipedia:Categorizing redirects|Categorizing redirects]]
+
+}}<noinclude>
+{{documentation}}
+</noinclude>

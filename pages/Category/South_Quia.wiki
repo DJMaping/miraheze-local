@@ -1,0 +1,31 @@
+==List of states and territories==
+'''Continue to [[South Quia]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Desaki}} || [[Desaki]] || style="text-align:right;" | 2,445,136 || style="text-align:right;" | 29,182,698 || style="text-align:right;" | 12 || [[Olmurra]]
+|-
+| style="text-align:center;"| {{flagicon|Far Lands}} || [[Far Lands]] || style="text-align:right;" | 1,836,884 || style="text-align:right;" | 1,441,954 || style="text-align:right;" | 1 || [[Ueente]]
+|-
+| style="text-align:center;"| {{flagicon|Iareva}} || [[Iareva]] || style="text-align:right;" | 4,156,962 || style="text-align:right;" | 8,002,152 || style="text-align:right;" | 2 || [[Droskaneth]]
+|-
+| style="text-align:center;"| {{flagicon|Mesjan Hyaa}} || [[Mesjan Hyaa]] || style="text-align:right;" | 2,660,845 || style="text-align:right;" | 2,048,851 || style="text-align:right;" | 1 || [[Ythrenak]]
+|-
+| style="text-align:center;"| {{flagicon|United Mihili}} || [[United Mihili]] || style="text-align:right;" | 2,808,911 || style="text-align:right;" | 33,524,353 || style="text-align:right;" | 12 || [[Talashi]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 13,908,738
+| style="text-align:right;"| 74,200,008
+| style="text-align:right;"| 5
+|}
+
+[[Category:Quia]]
+[[Category:Quian Regions]]

@@ -1,0 +1,4 @@
+#REDIRECT [[Template:Template link with subst]]
+{{Redirect category shell|
+{{R from template shortcut}}
+}}

@@ -1,0 +1,59 @@
+{{Documentation subpage}}
+{{lua|Module:Switcher}}
+{{High-use}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+This template is used to create a switchable image with caption, for use in infoboxes. It does not work in most forms of editing previews but it works with the "Show preview" button in the source editor in the desktop version.
+
+Switcher uses [[MediaWiki:Gadget-switcher.js]] which is documented at [[User:Jackmcbarn/switcher]]. It is enabled by default at "Show radio buttons to switch between views of certain content, such as some maps" at [[Special:Preferences#mw-prefsection-gadgets]]. Your browser must allow JavaScript. Apart from {{tl|Switcher}}, the only current use of the gadget may be [[Template:Location map#User selection of multiple maps]].
+
+== Parameters ==
+Odd numbered parameters provide the image in wikitext; even numbered parameters provide the captions. Up to 20 images are supported.
+
+== Example ==
+<syntaxhighlight lang="wikitext">
+{{Switcher
+| [[File:Example.png|300px]]
+| An example
+| [[File:Example image not to be used in article namespace.jpg|300px]]
+| A different example
+}}
+</syntaxhighlight>
+Output:
+{{Switcher
+| [[File:Example.png|300px]]
+| An example
+| [[File:Example image not to be used in article namespace.jpg|300px]]
+| A different example
+}}
+
+==TemplateData==
+<templatedata>
+{
+	"params": {
+		"1": {
+			"description": "Image 1 wikitext",
+			"example": "[[File:Example.png|300px]]",
+			"type": "unbalanced-wikitext"
+		},
+		"2": {
+			"description": "Image 1 caption",
+			"example": "This is just an example.",
+			"type": "string"
+		},
+		"3": {
+			"description": "See {{{1}}} (recursive)",
+			"type": "unbalanced-wikitext"
+		},
+		"4": {
+			"description": "See {{{2}}} (recursive)",
+			"type": "string"
+		}
+	},
+	"description": "Creates a switchable image with caption for use in infoboxes"
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line -->
+[[Category:Image formatting and function templates]]
+}}</includeonly>

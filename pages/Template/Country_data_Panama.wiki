@@ -1,0 +1,12 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Panama
+| flag alias = Flag of Panama.svg
+| link alias-naval = {{#switch:{{{variant|}}}|1958|1958=Panamanian National Guard|1984|1984=Panamanian Defense Forces|#default=Panamanian Public Forces}}
+| link alias-navy = {{#switch:{{{variant|}}}|1958|1958=Panamanian National Guard|1984|1984=Panamanian Defense Forces|#default=Panamanian Public Forces}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| redir1 = PAN
+</noinclude>
+}}

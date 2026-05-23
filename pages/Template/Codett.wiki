@@ -1,0 +1,1 @@
+<includeonly>{{code|{{{code|{{{1}}}}}}|lang={{{lang|{{{2|text}}}}}}|class=tpl-codett {{{class|}}}|id={{{id|}}}|style="border:none; padding: 0px 0px; color:var(--color-base, #202122); background:transparent; {{{style|}}}"}}</includeonly><noinclude>{{documentation}}</noinclude>

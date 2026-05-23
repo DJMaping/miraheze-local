@@ -1,0 +1,7 @@
+-- This module implements {{Navbox with collapsible groups}}
+
+local Navbox = require('Module:Navbox')
+return {
+	_navbox = function (frame) return Navbox._withCollapsibleGroups(frame) end,
+	navbox = function (frame) return Navbox['with collapsible groups'](frame) end
+}

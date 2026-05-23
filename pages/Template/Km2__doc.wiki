@@ -1,0 +1,51 @@
+{{Documentation subpage}}
+
+This template shows square kilometres only.
+
+Conversion to square miles via {{tlx|cvt}} or {{tlx|convert}} is strongly suggested by [[WP:UNITS]]. Eg:
+* <code><nowiki>{{cvt|100|km2|0}}</nowiki></code> → {{cvt|100|km2|0}}
+* <code><nowiki>{{cvt|100|km2|round=5}}</nowiki></code> → {{cvt|100|km2|round=5}}
+
+== Usage ==
+{{tlxi|km2|number}}
+
+Example:
+* {{tld|km2}} → {{km2}}
+* {{tld|km2|123.45}} → {{km2|123.45}}
+* {{tld|km2|123.45 million}} → {{km2|123.45 million}}
+* {{tld|km2|123.45|3=link=yes}} → {{km2|123.45|link=yes}}
+
+==Template data==
+{{template data header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Area",
+			"description": "Area in square kilometres",
+			"type": "number",
+			"required": false
+		},
+		"link": {
+			"label": "Link?",
+			"description": "Link square kilometre to article",
+			"example": "yes",
+			"type": "boolean",
+			"suggested": false,
+			"required": false
+		}
+	},
+	"description": "This template shows square kilometres only.",
+	"format": "inline",
+	"paramOrder": [
+		"1",
+		"link"
+	]
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+{{DEFAULTSORT:km2}}
+[[Category:Unit indicator templates]]
+
+}}</includeonly>

@@ -1,0 +1,7 @@
+<templatestyles src="Pre/styles.css"/><pre<includeonly></includeonly> class="pre {{#ifeq:{{{border|}}}|no|pre-borderless}}" {{#if:{{{space|}}}{{{width|}}}{{{style|}}}|style="{{#if:{{{space|}}}|white-space: {{{space}}};}} {{#if:{{{width|}}}|width: {{{width}}};}} {{{style|}}}"}}>{{{1|<noinclude>Sample text</noinclude>}}}</<noinclude/>pre>{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using pre with unknown parameters|_VALUE_{{PAGENAME}}]]|preview=Page using [[Template:Pre]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | border | space | style | width }}<noinclude>
+{{Documentation}}
+<!--
+   PLEASE ADD CATEGORIES AND INTERWIKIS
+   TO THE /doc SUBPAGE, THANKS
+-->
+</noinclude>

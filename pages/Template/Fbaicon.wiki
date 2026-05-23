@@ -1,0 +1,7 @@
+{{country data {{{1|}}}
+| Fbaicon/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| altlink = {{{old|}}}
+| altvar = football
+}}<noinclude>{{documentation}}</noinclude>

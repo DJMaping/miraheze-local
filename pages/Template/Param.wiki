@@ -1,0 +1,7 @@
+{{SAFESUBST:<noinclude />#ifeq:{{SAFESUBST:<noinclude />Yesno|{{{nested|no}}}}}|yes||<{{{tag|code}}}>}}&#123;&#123;&#123;{{{1<noinclude>|foo</noinclude>}}}{{SAFESUBST:<noinclude />#ifeq:{{{2}}}|{{{2|}}} |&#124;}}{{{2|}}}&#125;&#125;&#125;{{SAFESUBST:<noinclude />#ifeq:{{SAFESUBST:<noinclude />Yesno|{{{nested|no}}}}}|yes||</{{{tag|code}}}>}}<noinclude>
+{{Documentation}}
+<!--
+   PLEASE ADD CATEGORIES AND INTERWIKIS
+   TO THE /doc SUBPAGE, THANKS
+-->
+</noinclude>

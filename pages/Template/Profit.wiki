@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Increase]]
+{{pp-template|small=yes}}
+
+<!--Categories-->
+[[Category:Finance templates|Profit]]<!--Please retain despite this page being a redirect; "Profit" makes more sense in a financial context. Thank you.-->

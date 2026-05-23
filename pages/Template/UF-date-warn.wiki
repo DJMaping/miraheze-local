@@ -1,0 +1,8 @@
+This template has no provision to deal with a date in a non-Gregorian calendar. Also, [[ISO 8601]] requires mutual agreement among those exchanging information before using years outside the range 1583–9999 CE. Therefore, use of this template for non-Gregorian dates or dates outside that range constitutes a ''false'' claim of conformance to the ISO 8601 standard. 
+
+Any editor encountering such usage should change the date to plain text with no template; or if not confident in doing so, raise the matter on this template's talk page.<noinclude>
+
+{{Documentation |content={{Microformat message templates}}}}
+
+[[Category:Microformat message templates]]
+</noinclude>

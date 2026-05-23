@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Country alias|flagIOC}}</includeonly><noinclude>{{documentation|Template:FlagIOC2/doc}}</noinclude>

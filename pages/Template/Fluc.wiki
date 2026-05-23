@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Fluctuation formatter]]
+
+{{rcat shell|1=
+{{r from shortcut}}
+}}

@@ -1,0 +1,31 @@
+<span class="example" style="font-family: Georgia, serif;">[[Special:Preferences|{{int:mypreferences}}]]{{#switch: {{lc:{{{1|}}}}}
+|0
+|user profile=&nbsp;→ [[Special:Preferences#mw-prefsection-personal|{{int:prefs-personal}}]]
+|1
+|appearance=&nbsp;→ [[Special:Preferences#mw-prefsection-rendering|{{int:prefs-rendering}}]]
+|2
+|date and time=&nbsp;→ [[Special:Preferences#mw-prefsection-datetime|Date and time]]
+|3
+|editing=&nbsp;→ [[Special:Preferences#mw-prefsection-editing|{{int:prefs-editing}}]]
+|4
+|recent changes=&nbsp;→ [[Special:Preferences#mw-prefsection-rc|{{int:prefs-rc}}]]
+|5
+|watchlist=&nbsp;→ [[Special:Preferences#mw-prefsection-watchlist|{{int:prefs-watchlist}}]]
+|6
+|search=&nbsp;→ [[Special:Preferences#mw-prefsection-searchoptions|{{int:prefs-searchoptions}}]]
+|8
+|pending changes=&nbsp;→ [[Special:Preferences#mw-prefsection-flaggedrevs|Pending changes]]
+|9
+|gadgets=&nbsp;→ [[Special:Preferences#mw-prefsection-gadgets|{{int:prefs-gadgets}}]]
+|10
+|notifications=&nbsp;→ [[Special:Preferences#mw-prefsection-echo|{{int:prefs-echo}}]]
+|11
+|beta|beta features=&nbsp;→ [[Special:Preferences#mw-prefsection-betafeatures|{{int:prefs-betafeatures}}]]
+|7
+|12
+|misc=&nbsp;→ [[Special:Preferences#mw-prefsection-misc|Misc]]
+|banners=&nbsp;→ [[Special:Preferences#mw-prefsection-centralnotice-banners|{{int:prefs-centralnotice-banners}}]]
+
+}}{{#if:{{{2|}}}|&nbsp;→ {{Preferences/section|{{{1}}}|{{{2}}}}}|}}{{#if:{{{3|}}}|&nbsp;= {{{3}}}|{{#if:{{{uncheck|}}}|&nbsp;→ {{nowrap|{{MediaWiki checkbox|no}} {{wrap|{{{uncheck}}}}}}}|{{#if:{{{check|}}}|&nbsp;→ {{nowrap|{{MediaWiki checkbox}} {{wrap|{{{check}}}}}}}|}}}}}}</span><noinclude>
+{{documentation}}
+</noinclude>

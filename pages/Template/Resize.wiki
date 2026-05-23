@@ -1,0 +1,7 @@
+{{safesubst<noinclude />:#if:{{{2|}}}
+|<{{safesubst<noinclude />:#ifeq:{{{div|}}}|yes|div|span}} style="font-size:{{{1|}}};">{{{2|}}}</{{safesubst<noinclude />:#ifeq:{{{div|}}}|yes|div|span}}>
+|<{{safesubst<noinclude />:#ifeq:{{{div|}}}|yes|div|span}} style="font-size:{{{size|90}}}%;">{{{1}}}</{{safesubst<noinclude />:#ifeq:{{{div|}}}|yes|div|span}}>
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->
+</noinclude>

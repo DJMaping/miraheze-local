@@ -1,0 +1,4 @@
+<dfn {{#if:{{{id|}}}|id="{{{id}}}"}} {{#if:{{{title|}}}|title="{{{title}}}"}} {{#if:{{{2|}}}{{{class|}}}{{{title|}}}|class="{{#if:{{{2|}}}{{{title|}}}|explain}} {{#if:{{{class|}}}|{{{class}}}}}"}} {{#if:{{{style|}}}|style="{{{style}}}"}}>{{#if:{{{2|}}}|<span title="{{{2}}}">{{{1}}}</span>|{{{1}}}}}</dfn><noinclude>
+<!--Categories and interwikis go in the /doc subpage.-->
+{{Documentation}}
+</noinclude>

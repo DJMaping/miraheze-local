@@ -1,0 +1,46 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = North Korea
+| flag alias = Flag of North Korea.svg
+| flag alias-1948 = Flag of North Korea (1948–1992).svg
+| flag alias-naval = Naval Ensign of North Korea.svg
+| link alias-naval = Korean People's Navy
+| flag alias-army = Flag of the Korean People's Army Ground Force (2023-).svg
+| link alias-army = Korean People's Army Ground Force
+| flag alias-navy = Flag of the Korean People's Army Navy (Obverse).svg
+| link alias-navy = Korean People's Navy 
+| flag alias-military = Flag of the General Staff of the Korean People's Army (Normal).svg
+| link alias-military = Korean People's Army
+| flag alias-air force = Flag of the Korean People's Army Air and Anti-Air Force (Obverse).svg
+| link alias-air force = Korean People's Army Air Force
+| flag alias-strategic force = Flag of the Korean People's Army Strategic Force.svg
+| link alias-strategic force = Korean People's Army Strategic Force
+| flag alias-special forces = Flag of the Korean People's Army Special Operation Force.svg
+| link alias-special forces = Korean People's Army Special Operation Force
+| flag alias-special bureau = Flag of the Missile General Bureau (North Korea).svg
+| link alias-special bureau = Missile General Bureau
+| size = {{{size|}}}
+| name = {{#ifeq:{{{name|}}}|Democratic People's Republic of Korea|North Korea|{{{name|}}}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1948
+| var2 = strategic force
+| var3 = special forces
+| var4 = special bureau
+| redir1 = PRK
+| redir2 = Democratic People's Republic of Korea
+| redir3 = Korea, North
+| related1 = First Republic of Korea
+| related2 = Second Republic of Korea
+| related3 = Supreme Council for National Reconstruction
+| related4 = Third Republic of Korea
+| related5 = Fourth Republic of Korea
+| related6 = Fifth Republic of Korea
+| related7 = Korean Empire
+| related8 = Korea
+| related9 = Joseon
+| related10 = South Korea
+| related11 = Korea under Japanese rule
+</noinclude>
+}}

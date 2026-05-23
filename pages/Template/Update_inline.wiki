@@ -1,0 +1,12 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Update-inline}} begin-->{{Fix
+| subst = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| link  = Wikipedia:Manual of Style/Dates and numbers#Chronological items
+| text  = needs update{{#if:{{{?|}}}|?}}
+| title = {{{reason|This information {{#if:{{{?|}}}|may be|is}} in need of an update.}}}
+| date  = {{{date|}}}
+| nocat = {{{nocat|false}}}
+}}{{DMCA|{{#if:{{{?|}}}|Articles containing potentially dated statements|Wikipedia articles in need of updating}}|from|{{{date|}}}|{{#if:{{{?|}}}|All articles containing potentially dated statements|All Wikipedia articles in need of updating}} }}<!--{{Update-small}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>

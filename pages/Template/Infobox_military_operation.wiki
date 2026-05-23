@@ -1,0 +1,106 @@
+{{infobox
+| child     = {{if empty|{{{child|}}}|{{{embed|}}}}}
+
+|bodyclass = vevent
+|bodystyle = {{WPMILHIST Infobox style|main_box_raw}}
+|abovestyle = {{WPMILHIST Infobox style|header_raw}}
+|aboveclass = summary
+| headerstyle = {{WPMILHIST Infobox style|header_raw}}
+|above = {{if empty|{{{title|}}}|{{{name|}}}|{{PAGENAMEBASE}}}}
+|subheaderstyle = {{WPMILHIST Infobox style|sub_header_raw}}
+|subheader = {{br separated entries|{{{subtitle|}}}|{{#if:{{{partof|}}}{{{conflict|}}}|Part of {{if empty|{{{conflict|}}}|{{{partof|}}}}} }}}}
+|labelstyle = padding-right: 1em;
+|imagestyle = {{WPMILHIST Infobox style|image_box_raw}}
+|image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|upright={{if empty|{{{image_upright|}}}|1.2}}|alt={{{alt|}}}}}
+|caption = {{{caption|}}}
+
+| label1 = {{#if:{{{scope|}}}|Operational scope|Type}}
+| data1 = {{if empty|{{{scope|}}}|{{{type|}}}}}
+
+| label2 = Location{{#if:{{{location2|}}}|s}}
+| data2 = {{br separated entries
+ |1 = {{#if:{{{location|}}}{{{place|}}}|<div style="display:inline;" class="location">{{if empty|{{{location|}}}|{{{place|}}}}}</div>}}
+ |2 = {{{coordinates|}}}
+ |3 = {{#if:{{{location2|}}}|<div style="display:inline;" class="location">{{{location2|}}}</div>}}
+ |4 = {{#if:{{{location2|}}}|{{{coordinates2|}}}}}
+ |5 = {{#if:{{{location3|}}}|<div style="display:inline;" class="location">{{{location3|}}}</div>}}
+ |6 = {{#if:{{{location3|}}}|{{{coordinates3|}}}}}
+ |7 = {{#if:{{{location4|}}}|<div style="display:inline;" class="location">{{{location4|}}}</div>}}
+ |8 = {{#if:{{{location4|}}}|{{{coordinates4|}}}}}
+ |9 = {{#if:{{{location5|}}}|<div style="display:inline;" class="location">{{{location5|}}}</div>}}
+ |10= {{#if:{{{location5|}}}|{{{coordinates5|}}}}}
+ |11= {{#if:{{{location6|}}}|<div style="display:inline;" class="location">{{{location6|}}}</div>}}
+ |12= {{#if:{{{location6|}}}|{{{coordinates6|}}}}}
+ |13= {{#if:{{{location7|}}}|<div style="display:inline;" class="location">{{{location7|}}}</div>}}
+ |14= {{#if:{{{location7|}}}|{{{coordinates7|}}}}}
+ |15= {{#if:{{{location8|}}}|<div style="display:inline;" class="location">{{{location8|}}}</div>}}
+ |16= {{#if:{{{location8|}}}|{{{coordinates8|}}}}}
+ |17= {{#if:{{{location9|}}}|<div style="display:inline;" class="location">{{{location9|}}}</div>}}
+ |18= {{#if:{{{location9|}}}|{{{coordinates9|}}}}}
+ |19= {{#if:{{{location10|}}}|<div style="display:inline;" class="location">{{{location10|}}}</div>}}
+ |20= {{#if:{{{location10|}}}|{{{coordinates10|}}}}}
+}}
+
+| label3 = Planned
+| data3 = {{{planned|}}}
+
+| label4 = Planned&nbsp;by
+| data4 = {{{planned_by|}}}
+
+| label5 = Commanded&nbsp;by
+| data5 = {{{commanded_by|}}}
+
+| label6 = {{#if:{{{target|}}}|Target|Objective}}
+| data6 = {{if empty|{{{target|}}}|{{{objective|}}}}}
+
+| label7 = Date
+| data7 = {{br separated entries
+ |1 = {{if empty|{{{executed|}}}|{{{date|}}}}}
+ |2 = {{{time|}}} 
+ |3 = {{#if:{{{time-begin|}}}|{{{time-begin}}} &ndash; {{{time-end|}}}}} 
+ }} {{#if:{{{timezone|}}}|({{{timezone}}})}} 
+
+| label8 = Executed&nbsp;by
+| data8 = {{if empty|{{{instigator|}}}|{{{executed_by|}}}}}
+
+| label9 = Outcome
+| data9 = {{{outcome|}}}
+
+| label10 = Casualties
+| data10 = {{if empty|{{{casualties|}}}|{{br separated entries
+ |1 = {{#if:{{{fatalities|}}}|{{{fatalities|}}} killed}}
+ |2 = {{#if:{{{injuries|}}}|{{{injuries|}}} injured}}
+ }} }}
+
+| header27 = {{#if:{{{map_type|}}}|<nowiki />}}
+| data28 = {{#if:{{{map_type|}}}|
+{{#if:{{{coordinates2|}}}|
+{{Location map many|{{{map_type}}}|coordinates1={{if empty|{{{map_coord|}}} | {{{coordinates|}}} }}|width={{if empty|{{{map_size|}}}|220}}|float=center|border=infobox|label1={{{map_label|}}}|caption={{{map_caption|Location within {{#invoke:Location map|data|{{{map_type}}}|name}} }}}
+|coordinates2={{{coordinates2|}}}|label2={{{map_label2|}}}
+{{#if:{{{coordinates3|}}}|{{!}}coordinates3={{{coordinates3|}}}{{!}}label3={{{map_label3|}}} }}
+{{#if:{{{coordinates4|}}}|{{!}}coordinates4={{{coordinates4|}}}{{!}}label4={{{map_label4|}}} }}
+{{#if:{{{coordinates5|}}}|{{!}}coordinates5={{{coordinates5|}}}{{!}}label5={{{map_label5|}}} }}
+{{#if:{{{coordinates6|}}}|{{!}}coordinates6={{{coordinates6|}}}{{!}}label6={{{map_label6|}}} }}
+{{#if:{{{coordinates7|}}}|{{!}}coordinates7={{{coordinates7|}}}{{!}}label7={{{map_label7|}}} }}
+{{#if:{{{coordinates8|}}}|{{!}}coordinates8={{{coordinates8|}}}{{!}}label8={{{map_label8|}}} }}
+{{#if:{{{coordinates9|}}}|{{!}}coordinates9={{{coordinates9|}}}{{!}}label9={{{map_label9|}}} }}
+{{#if:{{{coordinates10|}}}|{{!}}coordinates10={{{coordinates10|}}}{{!}}label10={{{map_label10|}}} }}
+}}
+|{{Location map|{{{map_type}}}|coordinates={{if empty|{{{map_coord|}}} | {{{coordinates|}}} }}|width={{if empty|{{{map_size|}}}|220}}|float=center|border=infobox|label={{{map_label|}}}|caption={{{map_caption|Location within {{#invoke:Location map|data|{{{map_type}}}|name}} }}} }}
+}}
+}}
+
+}}{{{campaignbox|}}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox military operation with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox military operation]] with unknown parameter "_VALUE_"|ignoreblank=y| alt | campaignbox | caption | casualties | child | commanded_by | conflict | coordinates | date | embed | executed | executed_by | fatalities | image | image_size | image_upright | injuries | instigator | location | map_caption | map_coord | map_label | map_size | map_type | name | objective | outcome | partof | planned | planned_by | scope | subtitle | target | time | time-begin | time-end | timezone | title | type | coordinates2 | coordinates3 | coordinates4 | coordinates5 | coordinates6 | coordinates7 | coordinates8 | coordinates9 | coordinates10 | map_label2 | map_label3 | map_label4 | map_label5 | map_label6 | map_label7 | map_label8 | map_label9 | map_label10 | location2 | location3 | location4 | location5 | location6 | location7 | location8 | location9 | location10 }}{{#invoke:Check for conflicting parameters|check
+| template = [[Template:Infobox military operation]]
+| cat = {{main other|Category:Pages using infobox military operation with conflicting parameters}}
+| child; embed 
+| conflict; partof 
+| scope; type 
+| location; place 
+| target; objective 
+| executed; date 
+| instigator; executed_by 
+| map_coord; coordinates 
+}}<noinclude>
+{{template doc}}
+</noinclude>

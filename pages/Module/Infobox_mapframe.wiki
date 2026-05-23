@@ -1,0 +1,500 @@
+local mf = require('Module:Mapframe')
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+local infoboxImage = require('Module:InfoboxImage').InfoboxImage
+
+-- Defaults
+local DEFAULT_FRAME_WIDTH = "270"
+local DEFAULT_FRAME_HEIGHT = "200"
+local DEFAULT_ZOOM = 10
+local DEFAULT_GEOMASK_STROKE_WIDTH = "1"
+local DEFAULT_GEOMASK_STROKE_COLOR = "#777777"
+local DEFAULT_GEOMASK_FILL = "#888888"
+local DEFAULT_GEOMASK_FILL_OPACITY = "0.25"
+local DEFAULT_SHAPE_STROKE_WIDTH = "2"
+local DEFAULT_SHAPE_STROKE_COLOR = "#FF0000"
+local DEFAULT_SHAPE_FILL = "#606060"
+local DEFAULT_SHAPE_FILL_OPACITY = "0.1"
+local DEFAULT_LINE_STROKE_WIDTH = "5"
+local DEFAULT_LINE_STROKE_COLOR = "#FF0000"
+local DEFAULT_MARKER_COLOR = "#5E74F3"
+
+local util = {}
+
+function util.noop(info)
+	local DEFAULT_NOOP_OUTPUT = ""
+
+	-- uncomment this when debugging
+	-- DEFAULT_NOOP_OUTPUT = "debug: mapframe no-op: " .. info
+	-- mw.log(DEFAULT_NOOP_OUTPUT)
+
+	return DEFAULT_NOOP_OUTPUT
+end
+
+-- Trim whitespace from args, and remove empty args
+function util.trimArgs(argsTable)
+	local cleanArgs = {}
+	for key, val in pairs(argsTable) do
+		if type(val) == 'string' then
+			val = val:match('^%s*(.-)%s*$')
+			if val ~= '' then
+				cleanArgs[key] = val
+			end
+		else
+			cleanArgs[key] = val
+		end
+	end
+	return cleanArgs
+end
+
+function util.getBestStatement(item_id, property_id)
+	if not(item_id) or not(mw.wikibase.isValidEntityId(item_id)) or not(mw.wikibase.entityExists(item_id)) then
+		return false
+	end
+	local statements = mw.wikibase.getBestStatements(item_id, property_id)
+	if not statements or #statements == 0 then
+		return false
+	end
+	local hasNoValue = ( statements[1].mainsnak and statements[1].mainsnak.snaktype == 'novalue' )
+	if hasNoValue then
+		return false
+	end
+	return statements[1]
+end
+
+function util.hasWikidataProperty(item_id, property_id)
+	return util.getBestStatement(item_id, property_id) and true or false
+end
+
+function util.getStatementValue(statement)
+	return statement and statement.mainsnak and statement.mainsnak.datavalue and statement.mainsnak.datavalue.value or nil
+end
+
+function util.relatedEntity(item_id, property_id)
+	local value = util.getStatementValue( util.getBestStatement(item_id, property_id) )
+	return value and value.id or false
+end
+
+function util.idType(id)
+	if not id then 
+		return nil
+	elseif mw.ustring.match(id, "[Pp]%d+") then
+		return "property"
+	elseif mw.ustring.match(id, "[Qq]%d+") then
+		return "item"
+	else
+		return nil
+	end
+end
+
+function util.shouldAutoRun(frame)
+	-- Check if should be running
+	local pargs = frame.getParent(frame).args
+	local explicitlyOn = yesno(mw.text.trim(pargs.mapframe or "")) -- true of false or nil
+	if pargs.coordinates == "&#123;&#123;&#123;coordinates&#125;&#125;&#125;" then explicitlyOn = false end
+	local onByDefault = (explicitlyOn == nil) and yesno(mw.text.trim(frame.args.onByDefault or ""), false) -- true or false
+	return explicitlyOn or onByDefault
+end
+
+function util.argsFromAuto(frame)
+	-- Get args from the frame (invoke call) and the parent (template call).
+	-- Frame arguments are default values which are overridden by parent values
+	-- when both are present
+	local args = getArgs(frame, {parentFirst = true})
+
+	-- Discard args not prefixed with "mapframe-", remove that prefix from those that remain
+	local fixedArgs = {}
+	for name, val in pairs(args) do
+		local fixedName = string.match(name, "^mapframe%-(.+)$" )
+		if fixedName then
+			fixedArgs[fixedName] = val
+		-- allow coord, coordinates, etc to be unprefixed
+		elseif name == "coordinates" or name == "coord" or name == "coordinate" and not fixedArgs.coord then
+			fixedArgs.coord = val
+		-- allow id, qid to be unprefixed, map to id (if not already present)
+		elseif name == "id" or name == "qid" and not fixedArgs.id then
+			fixedArgs.id = val
+        -- allow captionstyle to be unprefixed, for compatibility with [[Module:Infobox]]
+        elseif name == "captionstyle" and not fixedArgs.captionstyle then
+            fixedArgs.captionstyle = val
+		end
+	end
+	return fixedArgs
+end
+
+
+function util.parseCustomWikitext(customWikitext)
+	-- infoboxImage will format an image if given wikitext containing an
+	-- image, or else pass through the wikitext unmodified
+	return infoboxImage({
+		args = {
+			image = customWikitext
+		}
+	})
+end
+
+function util.trackAndWarn(trackingCat, warning)
+    local title = mw.title.getCurrentTitle()
+    local results = title and title.namespace == 0 and trackingCat and '[[Category:'..trackingCat..']]' or ''
+    if warning then
+        local warn = require('Module:If preview')._warning
+        results = results..warn({warning})
+    end
+    return results
+end
+
+
+function util.ternary(flag, other)
+    other = other or 'other'
+    flag = flag == 'none' and 'no' or flag
+    local yesNoOut = yesno(flag,other)
+    local yes = (yesNoOut == true)
+    local no = (yesNoOut == false)
+    return yes, no
+end
+
+local p = {}
+
+
+p._caption = function(args)
+	if args.caption then
+		return args.caption
+	elseif args.switcher then 
+		return util.noop("no caption or switcher")
+	end
+	local maskItem
+	local maskType = util.idType(args.geomask)
+	if maskType == 'item' then
+		maskItem = args.geomask
+	elseif maskType == "property" then
+		maskItem = util.relatedEntity(args.id or mw.wikibase.getEntityIdForCurrentPage(), args.geomask)
+	end
+	local maskItemLabel = maskItem and mw.wikibase.getLabel( maskItem )
+	return maskItemLabel and "Location in "..maskItemLabel
+		or util.noop("missing maskItemLabel with type " .. (maskType or "nil") .. " and item " .. (maskItem or "nil"))
+end
+
+
+--A list of types for objects that are too small to allow Kartographer to take over zoom
+local tinyType = {
+    landmark=true,
+    railwaystation=true,
+    edu=true,
+    pass=true,
+    camera=true
+}                 
+
+p._main = function(_config)
+    -- accumulate tracking cats
+    local tracking = ''
+	-- `config` is the args passed to this module
+	local config = util.trimArgs(_config)
+	
+    -- allow alias for config.coord
+    config.coord = config.coord or config.coordinates
+
+	-- Require wikidata item, or specified coords
+	local wikidataId = config.id or mw.wikibase.getEntityIdForCurrentPage()
+	if not(wikidataId) and not(config.coord) then
+		return false, util.trackAndWarn('Pages using infobox mapframe with missing coordinates')
+	end
+
+	-- Require coords (specified or from wikidata), so that map will be centred somewhere
+	-- (P625 = coordinate location)
+    local wdCoordinates = util.getStatementValue(util.getBestStatement(wikidataId, 'P625'))
+    if not (config.coord or wdCoordinates) then
+		return false, util.trackAndWarn('Pages using infobox mapframe with missing coordinates')
+	end
+
+	-- `args` is the arguments which will be passed to the mapframe module
+	local args = {}
+
+	-- Some defaults/overrides for infobox presentation
+	args.display = "inline"
+	args.frame = "yes"
+	args.plain = "yes"
+	args["frame-width"]  = config["frame-width"] or config.width or DEFAULT_FRAME_WIDTH
+	args["frame-height"] = config["frame-height"] or config.height or DEFAULT_FRAME_HEIGHT
+	args["frame-align"]  = "center"
+
+	args["frame-coord"] = config["frame-coordinates"] or config["frame-coord"]
+	-- Note: config["coordinates"] or config["coord"] should not be used for the alignment of the frame;
+	-- see talk page ( https://en.wikipedia.org/wiki/Special:Diff/876492931 )
+
+	-- deprecated lat and long parameters
+	args["frame-lat"]    = config["frame-lat"] or config["frame-latitude"]
+	args["frame-long"]   = config["frame-long"] or config["frame-longitude"]
+
+    -- if zoom isn't specified from config, first check wikidata
+    local zoom = config.zoom or util.getStatementValue(util.getBestStatement(wikidataId, 'P6592'))
+    if not zoom then
+	    -- Calculate zoom from length or area (converted to km or km2)
+	    -- Zoom so that length or area is completely included in mapframe
+	    local getZoom = require('Module:Infobox dim')._zoom
+	    zoom = getZoom({length_km=config.length_km, length_mi=config.length_mi,
+                        width_km=config.width_km, width_mi=config.width_mi,
+		                area_km2=config.area_km2, area_mi2=config.area_mi2,
+                        area_ha=config.area_ha, area_acre=config.area_acre,
+                        type=config.type, population=config.population,
+		                viewport_px=math.min(args["frame-width"],args["frame-height"]),
+                        latitude=wdCoordinates and wdCoordinates.latitude})
+    end
+    args.zoom = zoom or DEFAULT_ZOOM
+
+	-- Use OSM relation ID if available; otherwise use geoshape if that is available
+	-- (geoshape is required for defunct entities, which are outside OSM's scope)
+	local hasOsmRelationId = util.hasWikidataProperty(wikidataId, 'P402') -- P402 is OSM relation ID
+	local hasGeoshape = util.hasWikidataProperty(wikidataId, 'P3896') -- P3896 is geoshape
+	local wikidataProvidesGeo = hasOsmRelationId or hasGeoshape
+
+    -- determine marker argument value, determine whether to show marker
+    local forcePoint, suppressPoint = util.ternary(config.point)
+    local forceMarker, suppressMarker = util.ternary(config.marker,true)
+
+    forcePoint = forcePoint or forceMarker
+    suppressPoint = suppressPoint or suppressMarker
+
+    local showMarker = not suppressPoint and (forcePoint or not wikidataProvidesGeo or config.coord)
+    
+    -- wikidata = "yes" turns on both shape and line
+    -- wikidata = "no" turns off both shape and line
+    -- otherwise show both if wikidata provides geo
+    local forceWikidata, suppressWikidata = util.ternary(config.wikidata)
+    local showShape = not suppressWikidata and (forceWikidata or wikidataProvidesGeo or not config.coord)
+    local showLine = showShape
+
+    -- determine shape parameter value, determine whether to show or suppress shape
+    -- also determine whether to invert shape
+    local forceShape, suppressShape = util.ternary(config.shape)
+    showShape = wikidataId and not suppressShape and (forceShape or showShape)
+	local shapeType = config.shape == 'inverse' and 'shape-inverse' or 'shape'
+
+    -- determine line parameter value, determine whether to show or suppress line
+    local forceLine, suppressLine = util.ternary(config.line)
+    showLine = wikidataId and not suppressLine and (forceLine or showLine)
+
+    local maskItem
+	-- Switcher
+	if config.switcher == "zooms" then
+		-- switching between zoom levels
+		local maxZoom = math.max(tonumber(args.zoom), 3) -- what zoom would have otherwise been (if 3 or more, otherwise 3)
+		local minZoom = 1 -- completely zoomed out
+		local midZoom = math.floor((maxZoom + minZoom)/2) -- midway between maxn and min
+		args.switch = "zoomed in, zoomed midway, zoomed out"
+		args.zoom = string.format("SWITCH:%d,%d,%d", maxZoom, midZoom, minZoom)
+	elseif config.switcher == "auto" then
+		-- switching between P276 and P131 areas with recursive lookup, e.g. item's city,
+		-- that city's state, and that state's country
+		args.zoom = nil -- let kartographer determine the zoom
+		local maskLabels = {}
+		local maskItems = {}
+		local maskItemId = util.relatedEntity(wikidataId, "P276") or  util.relatedEntity(wikidataId, "P131") 
+		local maskLabel = mw.wikibase.getLabel(maskItemId)
+		while maskItemId and maskLabel and mw.text.trim(maskLabel) ~= "" do
+			table.insert(maskLabels, maskLabel)
+			table.insert(maskItems, maskItemId)
+			maskItemId = maskItemId and util.relatedEntity(maskItemId, "P131")
+			maskLabel = maskItemId and mw.wikibase.getLabel(maskItemId)
+		end
+		if #maskLabels > 1 then
+			args.switch = table.concat(maskLabels, "###")
+			maskItem = "SWITCH:" .. table.concat(maskItems, ",")
+		elseif #maskLabels == 1 then
+			maskItem = maskItemId[1]
+		end
+	elseif config.switcher == "geomasks" and config.geomask then
+		-- switching between items in geomask parameter
+		args.zoom = nil -- let kartographer determine the zoom
+		local separator = (mw.ustring.find(config.geomask, "###", 0, true ) and "###") or
+			(mw.ustring.find(config.geomask, ";", 0, true ) and ";") or ","
+		local pattern = "%s*"..separator.."%s*"
+		local maskItems = mw.text.split(mw.ustring.gsub(config.geomask, "SWITCH:", ""), pattern)
+		local maskLabels = {}
+		if #maskItems > 1 then
+			for i, item in ipairs(maskItems) do
+				table.insert(maskLabels, mw.wikibase.getLabel(item))
+			end
+			args.switch = table.concat(maskLabels, "###")
+			maskItem = "SWITCH:" .. table.concat(maskItems, ",")
+		end
+	end
+	
+	-- resolve geomask item id (if not using geomask switcher)
+	if not maskItem then --  
+		local maskType = util.idType(config.geomask)
+		if maskType == 'item' then
+			maskItem = config.geomask
+		elseif maskType == "property" then
+			maskItem = util.relatedEntity(wikidataId, config.geomask)
+		end
+	end
+
+    -- if asking for shape or line from Wikidata
+    -- and if Wikidata actually has shape/line data (wikidataProvidesGeo=true)
+    -- and if no geomask
+    -- and if zoom not explicitly set
+    -- and if the object size inferred from its type is not too small
+    -- then let Kartographer "take over" zoom
+    if (showLine or showShape) and wikidataProvidesGeo and not maskItem
+       and not config.zoom and not (config.type and tinyType[config.type]) then
+	    args.zoom = nil
+    end	
+
+    if not maskItem and not showShape and not showLine and not showMarker then
+        return false, util.trackAndWarn('Pages using infobox mapframe with no geometry','No geometry specified for mapframe')
+    end
+	
+	-- Keep track of arg numbering
+	local argNumber = ''
+	local function incrementArgNumber()
+		if argNumber == '' then
+			argNumber = 2
+		else
+			argNumber = argNumber + 1
+		end
+	end
+	
+	-- Geomask
+	if maskItem then
+		args["type"..argNumber] = "shape-inverse"
+		args["id"..argNumber] = maskItem
+		args["stroke-width"..argNumber] = config["geomask-stroke-width"] or DEFAULT_GEOMASK_STROKE_WIDTH
+		args["stroke-color"..argNumber] = config["geomask-stroke-color"] or config["geomask-stroke-colour"] or DEFAULT_GEOMASK_STROKE_COLOR
+		args["fill"..argNumber] = config["geomask-fill"] or DEFAULT_GEOMASK_FILL
+		args["fill-opacity"..argNumber] = config["geomask-fill-opacity"] or DEFAULT_SHAPE_FILL_OPACITY
+		-- Let kartographer determine zoom and position, unless it is explicitly set in config
+		if not config.zoom and not config.switcher then
+			args.zoom = nil
+			args["frame-coord"] = nil
+			args["frame-lat"] = nil
+			args["frame-long"] = nil 	
+			local maskArea = util.getStatementValue( util.getBestStatement(maskItem, 'P2046') )
+		end
+		incrementArgNumber()
+		-- Hack to fix phab:T255932
+		if not args.zoom then
+			args["type"..argNumber] = "line"
+			args["id"..argNumber] = maskItem
+			args["stroke-width"..argNumber] = 0
+			incrementArgNumber()
+		end
+	end
+	
+	-- Shape (or shape-inverse)
+	if showShape then
+		args["type"..argNumber] = shapeType
+		if hasGeoshape and not hasOsmRelationId then
+			args["from"..argNumber] = string.sub( util.getStatementValue( util.getBestStatement(wikidataId, 'P3896') ), 6)
+		elseif config.id then 
+			args["id"..argNumber] = config.id
+		end
+		args["stroke-width"..argNumber] = config["shape-stroke-width"] or config["stroke-width"] or DEFAULT_SHAPE_STROKE_WIDTH
+		args["stroke-color"..argNumber] = config["shape-stroke-color"] or config["shape-stroke-colour"] or config["stroke-color"] or config["stroke-colour"] or DEFAULT_SHAPE_STROKE_COLOR
+		args["fill"..argNumber] = config["shape-fill"] or DEFAULT_SHAPE_FILL
+		args["fill-opacity"..argNumber] = config["shape-fill-opacity"] or DEFAULT_SHAPE_FILL_OPACITY
+		incrementArgNumber()
+	end
+	
+	-- Line
+	if showLine then
+		args["type"..argNumber] = "line"
+		if hasGeoshape and not hasOsmRelationId then
+			args["from"..argNumber] = string.sub( util.getStatementValue( util.getBestStatement(wikidataId, 'P3896') ), 6)
+		elseif config.id then 
+			args["id"..argNumber] = config.id
+		end
+		args["stroke-width"..argNumber] = config["line-stroke-width"] or config["stroke-width"] or DEFAULT_LINE_STROKE_WIDTH
+		args["stroke-color"..argNumber] = config["line-stroke-color"] or config["line-stroke-colour"] or config["stroke-color"] or config["stroke-colour"] or DEFAULT_LINE_STROKE_COLOR
+		incrementArgNumber()
+	end
+
+	-- Point marker
+	if showMarker then
+		args["type"..argNumber] = "point"
+		if config.id then args["id"..argNumber] = config.id end
+		if config.coord then args["coord"..argNumber] = config.coord end
+		if config.marker then args["marker"..argNumber] = config.marker end
+		args["marker-color"..argNumber] = config["marker-color"] or config["marker-colour"] or DEFAULT_MARKER_COLOR
+		incrementArgNumber()
+	end
+
+    -- if Wikidata doesn't link to OSM and the map has no mask or point,
+    -- then center the map on the coordinates either from the infobox or from wikidata
+    if not maskItem and not showMarker and not wikidataProvidesGeo then
+        if config.coord then
+            args["frame-coord"] = args["frame-coord"] or config.coord
+        else
+            args["frame-lat"] = args["frame-lat"] or wdCoordinates.latitude
+            args["frame-long"] = args["frame-long"] or wdCoordinates.longitude
+        end
+        tracking = tracking..util.trackAndWarn('Pages using infobox mapframe with forced centering')
+    end
+
+    -- protect against nil frame arguments
+    args["frame-coord"] = args["frame-coord"] or ""
+    args["frame-lat"] = args["frame-lat"] or ""
+    args["frame-long"] = args["frame-long"] or ""
+
+	local mapframe = args.switch and mf.multi(args) or mf._main(args)
+	tracking = tracking..((showLine or showShape) and not wikidataProvidesGeo 
+                          and util.trackAndWarn('Pages using infobox mapframe without shape links in Wikidata')
+                          or '')
+	return true, mapframe.. tracking
+end
+
+-- Entry points
+
+p.main = function(frame)
+	local parent = frame.getParent(frame)
+	local parentArgs = parent.args
+	local _, mapframe = p._main(parentArgs)
+	return frame:preprocess(mapframe)
+end
+
+p.auto = function(frame)
+	if not util.shouldAutoRun(frame) then
+		return util.noop("auto should not autorun")
+	end
+	local args = util.argsFromAuto(frame)
+	if args.custom then
+		return frame:preprocess(util.parseCustomWikitext(args.custom))
+	end
+	local _, mapframe = p._main(args)
+	return frame:preprocess(mapframe)
+end
+
+p.autocaption = function(frame)
+	if not util.shouldAutoRun(frame) then
+		return util.noop("autocaption should not autorun")
+	end
+	local args = util.argsFromAuto(frame)
+    local caption = p._caption(args)
+    return caption
+end
+
+p.autoWithCaption = function(frame)
+	if not util.shouldAutoRun(frame) then
+		return util.noop("autoWithCaption should not autorun")
+	end
+	local args = util.argsFromAuto(frame)
+    local wikitext
+    local caption
+    local ok
+    if args.custom then
+        ok = true
+        wikitext = util.parseCustomWikitext(args.custom)
+    else
+        ok, wikitext = p._main(args)
+    end
+    if not ok then return wikitext end
+    wikitext = frame:preprocess(wikitext)
+    caption = p._caption(args)
+    local data = mw.html.create():wikitext(wikitext)
+    data:tag('div')
+	    :addClass('infobox-caption')
+		:cssText(args.captionstyle)
+		:wikitext(caption)
+    return tostring(data)
+end
+    
+return p

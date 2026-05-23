@@ -1,0 +1,12 @@
+local CountryData = require('Module:CountryData')
+local pages = {'Afghanistan', 'Angola', 'Bahrain', 'Democratic_Republic_of_the_Congo', 'East_Germany', 'Fiji', 'Honduras', 'Jordan', 'Kuwait', 'Mali', 'Taiwan', 'Tanzania'}
+local p = {
+    data = {}
+}
+local frame = mw.getCurrentFrame()
+
+for _,v in ipairs(pages) do
+    p.data[v] = CountryData.gettable(frame, v, {})
+end
+
+return p

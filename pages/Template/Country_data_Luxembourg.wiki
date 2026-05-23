@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Luxembourg
+| flag alias = Flag of Luxembourg.svg
+| flag alias-civil = Civil Ensign of Luxembourg.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = LUX
+| var1 = civil
+</noinclude>
+}}

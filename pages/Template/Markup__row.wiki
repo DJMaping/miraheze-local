@@ -1,0 +1,17 @@
+<noinclude>{|</noinclude><includeonly>{{#if:{{{c1|value}}}|&#32;
+{{!-}}
+{{!}} style="{{#if:{{{padding|}}}|padding:{{{padding}}};}} {{{col1style|}}}"{{!}} <!--
+ --><div class="markup-wrapper">{{#switch:{{{tag|}}}
+    |none = {{{c1|[markup]}}}<!-- mark up -->
+    |syntaxhighlight = {{#tag:syntaxhighlight |{{{c1|[markup]}}}<!-- mark up -->|lang="wikitext"|inline=1|style="{{{c1style|}}}"|class="markup-markup"}}
+    ||pre = {{#tag:pre |{{{c1|[markup]}}}<!-- mark up -->|style="{{{c1style|}}}"|class="markup-markup"}}
+    |#default = {{#tag:{{{tag}}} |{{{c1|[markup]}}}<!-- mark up -->|style="{{{c1style|}}}"}}
+    }}</div>
+{{!}}style{{=}}"{{#if:{{{padding|}}}|padding:{{{padding}}};}} {{{col2style|}}}"{{!}} <!--
+ --><div class="markup-wrapper" style="{{{c2style|}}}"><!-- renders as -->
+{{{c2|[''rendering'']}}}
+</div>
+}}</includeonly><noinclude>
+|}
+{{Documentation}}
+</noinclude>

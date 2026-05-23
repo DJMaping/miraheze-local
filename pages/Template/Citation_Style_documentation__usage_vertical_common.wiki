@@ -1,0 +1,7 @@
+{| class="wikitable"  style="width: 30em"
+|+ Most-commonly-used parameters in vertical format
+|- style="vertical-align:top;"
+|<noinclude>
+|}
+{{doc|content=  This template is used in documentation for [[Help:Citation Style 1|Citation Style 1]] templates to show parameters in a vertical format.}}
+</noinclude>

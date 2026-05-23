@@ -1,0 +1,159 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{Cascade-protected template}}
+{{High-use}}
+{{Template shortcut|plist|PL}}
+{{Uses TemplateStyles|Template:Plainlist/styles.css}}
+This template provides a [[Web Content Accessibility Guidelines|WCAG]]/ISO-standards-compliant accessible alternative to <code><nowiki><br /></nowiki></code> separated lists, per [[WP:UBLIST]] and [[WP:PLIST]]
+
+== Usage ==
+{{tl|plainlist}} starts a plain (i.e. unbulleted) list, such as:
+
+{{plainlist|
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+}}
+
+It uses proper HTML list markup, which is more standards-compliant and more accessible than separating list items with {{tag|br|s}}. Detailed reasons for using this template can be found at [[WP:UBLIST]].
+
+This template can be used with or without {{tl|endplainlist}}. It is an alternative to {{tl|unbulleted list}}, which performs the same function in a more concise but less wiki-style manner. Note that {{tl|unbulleted list}} will work inside image captions, whereas {{tl|plainlist}} does not.
+
+== Examples ==
+{{Markup
+|<syntaxhighlight lang="wikitext">
+{{plainlist|
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+}}
+</syntaxhighlight>
+|
+{{plainlist|
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+}}
+}}
+
+=== Alternative syntax ===
+{{Markup
+|<syntaxhighlight lang="wikitext">
+{{plainlist}}
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+{{endplainlist}}
+</syntaxhighlight>
+|
+{{plainlist}}
+* [[cat]]
+* [[dog]]
+* [[horse]]
+* [[cow]]
+* [[sheep]]
+* [[pig]]
+{{endplainlist}}
+}}
+
+== Parameters ==
+{{Format TemplateData|JSON= {
+	"params": {
+		"1": {
+			"label": "List content",
+			"description": "If supplied, the list, as a normal bulleted list. (Every line should start with an asterisk. No blank lines between lines.) See template page for how this works otherwise.",
+			"type": "content",
+			"suggested": true
+		},
+		"class": {
+			"label": "CSS classes",
+			"description": "Adds a CSS class to the containing div.",
+			"type": "string",
+			"default": "The class \"plainlist\" is always applied."
+		},
+		"style": {
+			"label": "Custom CSS",
+			"description": "Adds CSS style options. Complex styles should not be used in articles (per [[WP:Deviations]]) but may be acceptable on user, project, and talk pages.",
+		    "type": "string",
+            "example": "border:solid 1px silver; background:lightyellow"
+		},
+		"indent": {
+			"label": "Indent level",
+            "description": "Indents the list by a number of standard indents (one indent being 1.6 em), particularly handy for inclusion in an indented discussion thread.",
+			"type": "number",
+            "example": "2"
+		}
+	},
+	"description": "This template provides a [[Web Content Accessibility Guidelines|WCAG]]/ISO standards–compliant accessible alternative to <code class=\"nowrap\">&lt;[[HTML element#br|br]]&#32;&#47;&gt;</code>-separated lists, per [[WP:UBLIST]] and [[WP:PLIST]]. It uses proper HTML list markup, which is more standards-compliant and more accessible than separating list items with <code class=\"nowrap\">&lt;br&#32;&#47;&gt;</code>. Detailed reasons for using this template can be found at [[WP:UBLIST]]."
+} }}
+
+=== Controlling line-breaking ===
+Template {{tlx|nbsp}} may be used with {{tlx|wbr}} and {{tlx|nowrap}} to control line-breaking in bulletless lists, to prevent wrapped long entries from being confused with multiple entries. See {{slink|Template:Wbr/doc#Controlling line-breaking in infoboxes}} for details.
+
+== Technical details ==
+{{tl|Plainlist}} works by constructing a [[span and div|div]] with the [[Cascading Style Sheets|CSS]] class "plainlist" which has the styles listed in [[Template:Plainlist/styles.css]].
+
+{| class="wikitable"
+! Wikitext
+! Expanded template
+! HTML
+|- style="vertical-align:top;"
+| class="nowrap" | <pre>
+{{Plainlist|
+* Example 1
+* Example 2
+* Example 3
+}}
+</pre>
+| class="nowrap" | {{nowiki2|tag=pre|
+{{Plainlist|
+* Example 1
+* Example 2
+* Example 3
+}}
+}}
+| <syntaxhighlight lang="html">
+<div class="plainlist">
+<ul>
+<li>Example 1</li>
+<li>Example 2</li>
+<li>Example 3</li>
+</ul>
+</div>
+</syntaxhighlight>
+|}
+
+== Redirects ==
+* {{Template link|Bulletless list}}
+* {{Template link|Plain list}}
+* {{tl|Startplainlist}}
+
+== Tracking category ==
+* {{clc|Pages using plainlist with unknown parameters}}
+
+== See also ==
+* {{tl|unbulleted list}} – essentially the same but uses <code><nowiki>| ... | ... | ...</nowiki></code> instead of <code><nowiki>|* ... * ... * ...</nowiki></code>
+* {{tl|flatlist}} and {{tl|hlist}} (replacements for comma- or dash-separated lists)
+* {{tl|bulleted list}}
+* {{tl|indented plainlist}}
+* {{tl|ordered list}}
+* {{section link|Template:Infobox person#Inline lists}} for more information on creating lists within the Infobox family of templates, with examples in the following {{section link|Template:Infobox person#Examples|nopage=y}} 
+{{navbox lists}}
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:List formatting and function templates|Plainlist]]
+[[Category:Semantic markup templates]]
+[[Category:Typing-aid templates|Plainlist]]
+}}</includeonly>

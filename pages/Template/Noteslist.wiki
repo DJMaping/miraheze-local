@@ -1,0 +1,6 @@
+#Redirect [[Template:Notelist]]
+
+{{Rcat shell|
+{{R from modification}}
+{{R from template shortcut}}
+}}

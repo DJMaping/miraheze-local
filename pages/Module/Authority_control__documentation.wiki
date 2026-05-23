@@ -1,0 +1,198 @@
+require('strict')
+local p = {}
+local frame = mw.getCurrentFrame()
+local config_file = frame.args.config and frame.args.config~='' and ('/' .. frame.args.config) or ''
+local config = mw.loadData('Module:Authority control/config' .. config_file)
+local sandbox-- = '/' .. config.i18n.sandbox
+local title = mw.title.getCurrentTitle()
+local namespace = title.namespace
+local testcases = title.subpageText == config.i18n.testcases
+local makelink = require(config.i18n.ACmodule .. (sandbox or '')).makelink
+local lang = mw.getContentLanguage()
+
+local function needsAttention(sortkey)
+	return '[[' .. config.i18n.category .. ':' .. config.i18n.attentioncat .. '|' .. sortkey .. title.text .. ']]'
+end
+
+local function addCat(cat, sortkey)
+	if cat and cat ~= '' and (namespace == 0 or namespace == 14 or testcases) then
+		local category, redlinkcat = '', ''
+		if testcases == false and mw.title.new(cat, 14).exists == false then
+			redlinkcat = needsAttention('N')
+		end
+		category = '[[' .. config.i18n.category .. ':' .. cat
+		if sortkey then
+			category = category .. '|' .. sortkey .. title.text
+		end
+		category = category .. ']]' .. redlinkcat
+		return category
+	else
+		return ''
+	end
+end
+
+local getstatement = function(id, propid, qualid)
+	local statement = mw.wikibase.getBestStatements('P' .. id, 'P' .. propid)
+	local value
+	if statement and statement[1] and statement[1].mainsnak.datavalue and statement[1].mainsnak.datavalue.value.id then
+		value = statement[1].mainsnak.datavalue.value.id
+		local qual
+		if qualid and statement[1].qualifiers['P' .. qualid][1].datavalue.value then
+			qual = statement[1].qualifiers['P' .. qualid][1].datavalue.value
+		end
+		return value, qual
+	end
+end
+local getname = function(property)
+	local name
+	for _, propnameqid in ipairs(config.property_items) do
+		name = getstatement(property, propnameqid)
+		if name then break end
+	end
+	if name then
+		return frame:expandTemplate{
+			title = 'Wikidata fallback link',
+			args = {name}
+		}
+	else
+		return ''
+	end
+end
+
+-- Creates a human-readable standalone wikitable version of conf, and tracking categories with page counts, for use in the documentation
+function p.docConfTable()
+	local doc = ''
+	local row = function(conf)
+		local example_qid = getstatement(conf.property, 1855)
+		local example = example_qid and frame:expandTemplate{
+			title = 'Flatlist',
+			args = {tostring(
+				mw.html.create('ul')
+				:node(makelink(conf, example_qid))
+			)}
+		} or ''
+		local col1 = mw.html.create('th'):attr('data-sort-value', conf.property)
+		if conf.remark then
+			col1:attr('rowspan','2')
+		end
+		col1:wikitext(frame:expandTemplate{title = 'Wikidata property link', args = {conf.property}})
+		local row = mw.html.create('tr')
+			:node(col1)
+			:tag('td'):wikitext(getname(conf.property)):done()
+			:tag('td'):css('text-align', 'center'):wikitext(config.sections[conf.section].name):done()
+			:tag('td'):wikitext(example):allDone()
+		local remark
+		if conf.remark then
+			remark = mw.html.create('tr'):addClass('expand-child')
+				:tag('td'):attr('colspan', '3')
+					:tag('span'):css('font-weight', 'bold'):wikitext('ℹ️ '):done()
+					:wikitext(frame:preprocess{text = conf.remark})
+				:allDone()
+		end
+		return row, remark
+	end
+	local header_row = mw.html.create('tr')
+		:tag('th'):attr('data-sort-type', 'number'):wikitext(config.i18n.WDproperty):done()
+		:tag('th'):wikitext(lang:ucfirst(config.i18n.identifier)):done()
+		:tag('th'):wikitext(config.i18n.Section):done()
+		:tag('th'):wikitext(config.i18n.Appears_as):done()
+	local doc = mw.html.create('table'):addClass('wikitable sortable'):node(header_row)
+	for _, conf in pairs(config.config) do
+		local row, remark = row(conf)
+		doc:node(row):node(remark)
+	end
+	return tostring(doc)
+end
+
+function p.whitelisttable()
+	local header = mw.html.create('tr')
+		:tag('th'):wikitext(config.i18n.Code):done()
+		:tag('th'):wikitext(config.i18n.Topic):done()
+		:tag('th'):wikitext(lang:ucfirst(config.i18n.identifiers)):done()
+	local Table = mw.html.create('table')
+		:addClass('wikitable'):addClass('sortable')
+		:node(header)
+	for code, wlist in pairs(config.whitelists) do
+		local plist = {}
+		for _, property in pairs(wlist.properties) do
+			table.insert(plist, frame:expandTemplate{title='Wikidata property link', args={'P' .. property}})
+		end
+		local row = mw.html.create('tr')
+			:tag('th'):wikitext(code):done()
+			:tag('td'):wikitext('[[' .. mw.wikibase.getSitelink('Q' .. wlist.topic) .. ']]'):done()
+			:tag('td'):wikitext(table.concat(plist,', ')):done()
+		Table:node(row)
+	end
+	return tostring(Table)
+end
+
+function p.sectiontable()
+	local header = mw.html.create('tr')
+		:tag('th'):wikitext(config.i18n.Section):done()
+		:tag('th'):wikitext(config.i18n.Description):done()
+		:tag('th'):wikitext(lang:ucfirst(config.i18n.identifiers)):done()
+	local Table = mw.html.create('table')
+		:addClass('wikitable'):addClass('sortable')
+		:node(header)
+	local plist = {}
+	for n, _ in ipairs(config.sections) do
+		plist[n] = {}
+	end
+	for _, id in pairs(config.config) do
+		table.insert(plist[id.section], frame:expandTemplate{
+			title=config.i18n.linktemplate,
+			args={'P' .. id.property}
+		})
+	end
+	for number, section in ipairs(config.sections) do
+		local row = mw.html.create('tr')
+			:tag('th'):wikitext(number):done()
+			:tag('td'):wikitext(section.name):done()
+			:tag('td'):wikitext(table.concat(plist[number],', ')):done()
+		Table:node(row)
+	end
+	return tostring(Table)
+end
+
+function p.idproposal()
+	local property = frame.args.property or ''
+	local out = '<ul><li>Wikidata property: ' .. frame:expandTemplate{title='Wikidata property link', args={'P' .. property}} .. '</li>'
+	out = out .. '<li>Section: '
+	local section = frame.args.section or ''
+	if section~='' then
+		out = out .. config.sections[section].name .. ' (' .. section .. ')'
+	else
+		out = out .. 'Not specified'
+	end
+	out = out .. '</li><li>Link: '
+	local link = frame.args.link or ''
+	if link=='' then
+		link = mw.wikibase.getBestStatements('P' .. property, 'P1630') or ''
+		link = link[1].mainsnak.datavalue.value
+	end	
+	if link~='' then
+		out = out .. '<code>' .. link .. '</code>'
+	else
+		out = out .. 'Not specified'
+	end
+	out = out .. '</li><li>Label: '
+	local label = frame.args.label or ''
+	if label~='' then
+		out = out .. label
+	else
+		out = out .. 'Not specified'
+	end
+	out = out .. '</li><li>Example: '
+	local example = mw.wikibase.getBestStatements('P'..property,'P1855') or ''
+	if example then
+		example = example[1].qualifiers['P'..property][1].datavalue.value
+		example = frame:expandTemplate{title = 'Hlist', args = {makelink({[1]='', link=link, label=label}, example)}}
+		out = out .. example
+	else
+		out = out .. 'Not available'
+	end
+	out = out .. '</li></ul>'
+	return out
+end
+
+return p

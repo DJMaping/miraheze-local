@@ -1,0 +1,149 @@
+--------------------------------------------------------------------------------
+--                  Module:Pagetype configuration data                        --
+-- This page holds localisation and configuration data for Module:Pagetype.   --
+--------------------------------------------------------------------------------
+
+local cfg = {} -- Don't edit this line.
+
+--------------------------------------------------------------------------------
+--                        Start configuration data                            --
+--------------------------------------------------------------------------------
+
+-- This table holds the default page types for each namespace. Keys to this
+-- table should be integers that can be used as keys to mw.site.namespaces.
+cfg.pagetypes = {
+	[0]    = 'article', -- Main namespace
+	[2]    = 'user page',
+	[4]    = 'project page',
+	[6]    = 'file',
+	[8]    = 'interface page', -- MediaWiki namespace
+	[10]   = 'template',
+	[12]   = 'help page',
+	[14]   = 'category',
+	[100]  = 'portal',
+	[118]  = 'draft',
+	[710]  = 'Timed Text page',
+	[828]  = 'module',
+	[2300] = 'gadget',
+	[2302] = 'gadget definition',
+	[-1]   = 'special page',
+	[-2]   = 'file', -- Media namespace
+}
+
+-- This table holds the namespaces to be looked up from cfg.pagetypes by
+-- default.
+cfg.defaultNamespaces = {
+	[0] = true,   -- main
+	[6] = true,   -- file
+	[10] = true,  -- template
+	[14] = true,  -- category
+	[828] = true, -- module
+}
+
+-- This table holds the namespaces to be looked up from cfg.pagetypes if
+-- cfg.defaultnsExtended is set.
+cfg.extendedNamespaces = {
+	[0] = true,   -- main
+	[2] = true,   -- user
+	[4] = true,   -- project
+	[6] = true,   -- file
+	[8] = true,   -- mediawiki
+	[10] = true,  -- template
+	[12] = true,  -- help
+	[14] = true,  -- category
+	[100] = true, -- portal
+	[118] = true, -- draft
+	[828] = true, -- module
+}
+
+-- This table holds custom aliases for each namespace.
+cfg.customNamespaceAliases = {
+	[0] = {'main'},
+}
+
+-- The parameter name to set which default namespace values to be looked up from
+-- cfg.pagetypes.
+cfg.defaultns = 'defaultns'
+
+-- The value of cfg.defaultns to set all namespaces, including talk.
+cfg.defaultnsAll = 'all'
+
+-- The value of cfg.defaultns to set the namespaces listed in
+-- cfg.extendedNamespaces
+cfg.defaultnsExtended = 'extended'
+
+-- The value of cfg.defaultns to set no default namespaces.
+cfg.defaultnsNone = 'none'
+
+-- The parameter name to use for talk pages.
+cfg.talk = 'talk'
+
+-- The default value for talk pages.
+cfg.talkDefault = 'talk page'
+
+-- The parameter name to use for disambiguation pages page.
+cfg.dab = 'dab'
+
+-- The parameter name to use for non-existent pages.
+cfg.ne = 'nonexistent'
+cfg.neDefault = 'page'
+
+cfg.softRedirect = 'soft_redirect'
+cfg.softRedirectDefault = 'redirect'
+
+cfg.sia = 'sia'
+cfg.siaDefault = 'article'
+
+cfg.rfd = 'redirect'
+cfg.rfdDefault = 'redirect'
+
+-- This table holds the different possible aliases for disambiguation-class
+-- pages. These should be lower-case.
+cfg.dabAliases = {
+	['disambiguation'] = true,
+	['disambig'] = true,
+	['disamb'] = true,
+	['dab'] = true,
+}
+
+-- The default value for disambiguation pages.
+cfg.dabDefault = 'page'
+
+-- The parameter name to use for N/A-class page.
+cfg.na = 'na'
+
+-- This table holds the different possible aliases for N/A-class pages. These
+-- should be lower-case.
+cfg.naAliases = {
+	['na'] = true,
+	['n/a'] = true,
+}
+
+-- The default value for N/A-class pages.
+cfg.naDefault = 'page'
+
+-- The parameter name to use for redirects.
+cfg.redirect = 'redirect'
+
+-- The default value to use for redirects.
+cfg.redirectDefault = 'redirect'
+
+-- The parameter name for undefined namespaces.
+cfg.other = 'other'
+
+-- The value used if the module detects an undefined namespace.
+cfg.otherDefault = 'page'
+
+-- The usual suffix denoting a plural.
+cfg.plural = 's'
+
+-- This table holds plurals not formed by a simple suffix.
+cfg.irregularPlurals = {
+	["category"] = "categories"
+}
+
+--------------------------------------------------------------------------------
+--                        End configuration data                              --
+--------------------------------------------------------------------------------
+
+return cfg -- Don't edit this line

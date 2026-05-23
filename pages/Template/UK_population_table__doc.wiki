@@ -1,0 +1,14 @@
+{{Documentation subpage}}
+This template uses the following templates to automatically create a population table for the [[United Kingdom]] broken down by nation:
+*<nowiki>{{UK subdivision area}}</nowiki>
+*<nowiki>{{UK subdivision population}}</nowiki>
+*<nowiki>{{UK subdivision density}}</nowiki>
+*<nowiki>{{UK subdivision statistics year}}</nowiki>
+*<nowiki>{{UK subdivision statistics citation}}</nowiki>
+
+The table can be called by inserting <nowiki>{{UK population table}}</nowiki>
+
+{{UK population table}}
+
+===References===
+{{reflist}}

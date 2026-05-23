@@ -1,0 +1,136 @@
+require ('strict');
+
+local lang_obj = mw.language.getContentLanguage();								-- needed for the function to reformat dates
+
+local global_df = mw.loadData ('Module:Citation/CS1/Configuration').global_df;	-- fetch global date format specified by {{use xxx dates}} template
+local base_format = global_df and global_df:match ('^(%a%a%a)');				-- get {{use xxx dates}} base date format: 'dmy' or 'mdy'
+local date_style = global_df and global_df:match ('^%a%a%a%-(.+)');				-- get |cs1-dates= style modifiers
+
+
+--[[--------------------------< F O R M A T T E R >------------------------------------------------------------
+
+local function to format <date> according to <format> (dmy or mdy) and <style> (long, short, year initial) as
+specified by the |cs1-dates= parameter of the {{use xxx dates}} template.
+
+valid |cs1-dates= format character strings are:
+	l, ll, all	– default; long-form publication and access- / archive-dates; 'all' when |cs1-dates= omitted or empty
+	ls			– long-form publication dates; abbreviated access- / archive-dates
+	ly			– long-form publication dates; year-initial numeric access- / archive-dates (ymd)
+	s, ss		– abbreviated publication and access- / archive-dates
+	sy			– abbreviated publication dates; year-initial numeric access- / archive-dates (ymd)
+	y, yy		– year-initial numeric publication, access- and archive-dates (ymd); overrides base format
+
+note: 'all' is added by get_date_format() in Module:Citation/CS1/Configuration when |cs1-dates= is omitted or empty;
+cs1|2 and this module then assume long-form date style for all dates
+
+]]
+
+local function formatter (date, format, style)
+--[[
+First check for year-only in the date field.
+Next check for a year and month only.
+In either case, just return the date as provided.
+]]
+	if date:match('^%d%d%d%d$') then                                            -- YYYY
+		return date  
+	end
+	
+	if date:match('^%a+%s+%d%d%d%d$') or                                        -- "Month YYYY"
+	   date:match('^%d%d%d%d%-%d%d$') then                                      -- "YYYY-MM"
+		return date  
+	end
+
+	local format_strings_t = {													-- map <style> to formatDate() format strings (same as #time parser function)
+		['dmy'] = {
+			['l'] = 'j F Y',													-- long month name
+			['s'] = 'j M Y',													-- abbreviated month name
+			['y'] = 'Y-m-d'														-- year initial numeric; overrides <format> (dmy/mdy)
+			},
+		['mdy'] = {
+			['l'] = 'F j, Y',													-- long month name
+			['s'] = 'M j, Y',													-- abbreviated month name
+			['y'] = 'Y-m-d'														-- year initial numeric; overrides <format> (dmy/mdy)
+			}
+		}
+
+	local good, new_date = pcall (lang_obj.formatDate, lang_obj, format_strings_t[format][style], date);	-- attempt to reformat; on success, <good> is boolean true
+	return (good and new_date) or date;											-- returns <new_date> when <good> is boolean true; <date> else
+end
+
+
+--[[--------------------------< _ P U B _ D A T E _ F O R M A T >----------------------------------------------
+
+Module entry point
+
+For publication dates |date=, |publication-date=, etc
+
+]]
+
+local function _pub_date_format (date)
+	if not global_df then
+		return date;															-- when article does not have {{use xxx dates}}, abandon
+	end
+
+	local styles_t = {all = 'l', ll = 'l', l = 'l', ls = 'l', ly = 'l', s = 's', ss = 's', sy = 's', yy = 'y', y = 'y'};	-- map known styles for publication dates
+	return formatter (date, base_format, styles_t[date_style] or 'l');			-- not a known style default to 'l' (long form)
+end
+
+
+--[[--------------------------< P U B _ D A T E _ F O R M A T >------------------------------------------------
+
+#invoke entry point
+
+For publication dates |date=, |publication-date=, etc
+
+	{{#invoke:auto date formatter|pub_date_format|16 March 2025}}
+
+]]
+
+local function pub_date_format (frame)
+	return _pub_date_format (frame.args[1]);									-- <args[1]> is date to be formatted
+end
+
+
+--[[--------------------------< _ A C C E S S _ A R C H I V E _ F O R M A T >----------------------------------
+
+module entry point
+
+For access and archive dates |access-date=, |accessdate=, archive-date=, archivedate=
+
+]]
+
+local function _access_archive_format (date)
+	if not global_df then
+		return date;															-- when article does not have {{use xxx dates}}, abandon
+	end
+
+	local styles_t = {all = 'l', ll = 'l', l = 'l', ls = 's', ly = 'y', s = 's', ss = 's', sy = 'y', yy = 'y', y = 'y'};	-- map known styles for access/archive dates
+	return formatter (date, base_format, styles_t[date_style] or 'l');			-- not a known style default to 'l' (long form)
+end
+
+
+--[[--------------------------< A C C E S S _ A R C H I V E _ F O R M A T >------------------------------------
+
+#invoke entry point
+
+For access and archive dates |access-date=, |accessdate=, archive-date=, archivedate=
+
+	{{#invoke:auto date formatter|access_archive_format|16 March 2025}}
+
+]]
+
+local function access_archive_format (frame)
+	return _access_archive_format (frame.args[1]);								-- <args[1]> is date to be formatted
+end
+
+
+--[[--------------------------< E X P O R T S >----------------------------------------------------------------
+]]
+
+return {
+	pub_date_format = pub_date_format,											-- #invoke entry points
+	access_archive_format = access_archive_format,
+
+	_pub_date_format = _pub_date_format,										-- module entry points
+	_access_archive_format = _access_archive_format,
+	}

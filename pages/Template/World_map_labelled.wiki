@@ -1,0 +1,9 @@
+{{Image label begin|image=Simple_Andah_map.png|width={{{width|1100}}}|float={{{float|none}}}|link=}}
+{{Image label custom|x=-400|y=-260|scale=-1|text=[[:Category:New Ayre|New Ayre]]}}
+{{Image label custom|x=-860|y=-360|scale=-1|text=[[:Category:Mahea|Mahea]]}}
+{{Image label custom|x=-750|y=-150|scale=-1|text=[[:Category:Ayuma|Ayuma]]}}
+{{Image label custom|x=-810|y=-245|scale=-1|text=[[:Category:Acrola|Acrola]]}}
+{{Image label custom|x=-425|y=-100|scale=-1|text=[[:Category:Atirha|Atirha]]}}
+{{Image label custom|x=-185|y=-400|scale=-1|size=12|text=[[:Category:Quia|Quia]]}}
+{{Image label custom|x=-733|y=-375|scale=-1|size=12|text=[[:Category:Massir|Massir]]}}
+{{Image label end}}</center>

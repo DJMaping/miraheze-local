@@ -1,0 +1,2 @@
+-- [[commons:Data:Unicode data/names/000.tab]]
+return require("Module:Unicode data/datasets").dataset("Unicode data/names/000.tab")

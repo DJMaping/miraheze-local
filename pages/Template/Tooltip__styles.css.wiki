@@ -1,0 +1,5 @@
+/* {{pp-template}} */
+.tooltip-dotted {
+	border-bottom: 1px dotted;
+	cursor: help;
+}

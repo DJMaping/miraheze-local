@@ -1,0 +1,10 @@
+/* {{pp-template}} */
+/* This snippet just undoes the default "padding-left: 1.6em;" imposed by
+   div.hatnote, when Template:Crossreference is used in block (div) mode.
+   Ignore the dumb CSS editor's "Element (div.crossreference) is overqualified"
+   warning.  It is wrong.  We do not want to apply any CSS intended for block
+   mode when it is not in block mode. While it's unlikely our "padding-left: 0;"
+   does anything wrong in inline (span) mode, we can't guarantee it forever.  */
+div.crossreference {
+    padding-left: 0;
+}

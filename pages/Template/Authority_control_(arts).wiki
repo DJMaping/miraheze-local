@@ -1,0 +1,3 @@
+{{#invoke:Authority control | authorityControl | show=arts }}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,4 @@
+{{<includeonly>safesubst:</includeonly>ifsubst|1=|2=<templatestyles src="Var serif/styles.css" />}}<var class="var-serif {{#if:{{{class|}}}|{{{class}}}}}" {{#if:{{{id|}}}|id="{{{id}}}"}} {{#if:{{{style|}}}|style="{{{style}}}"}} {{#if:{{{lang|}}}|lang="{{{lang}}}"}} {{#if:{{{title|}}}|title="{{{title}}}"}}>{{{1}}}</var><noinclude>
+<!--Categories and interwikis go near the bottom of the /doc page.-->
+{{Documentation}}
+</noinclude>

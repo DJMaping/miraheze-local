@@ -1,0 +1,198 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Template redirect|Infobox Continent}}
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+
+===Usage===
+<syntaxhighlight lang="wikitext">
+{{Infobox continent
+|title          = 
+|image          = 
+|imagecaption   = 
+|photo          = 
+|photocaption   = 
+|area           = 
+|population     = 
+|density        = 
+|GDP_PPP        = 
+|GDP_nominal    = 
+|GDP_per_capita = 
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = 
+|countries      = 
+|list_countries = 
+|dependencies   = 
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = 
+|time           = <!-- time zones -->
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = <!-- for Antarctica use |settlements = -->
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+</syntaxhighlight>
+
+===Example===
+{{Infobox continent
+|title               = North America
+|image               = [[File:Location North America.svg|220px]]
+|area                = {{convert|24,709,000|km2|sqmi|abbr=on}}
+|population          = 528,720,588 (2008, [[List of continents by population|4th]])
+|density             = {{convert|21.4|/km2|/sqmi|abbr=on}}
+|GDP_PPP             = $20.9 trillion (2013)
+|GDP_nominal         = $20.3 trillion (2013) 
+|demonym             = North American
+|countries           = 23 countries
+|list_countries      = List of North American countries
+|dependencies        = [[List of North American countries#Dependent territories|22 dependencies]]
+|languages           = [[Languages of North America|List of languages]]
+|time                = [[UTC−10]] to [[UTC+0]]
+|internet            = [[Country code top-level domain#List of ccTLDs|North American TLD]]
+|cities              = [[List of the largest urban agglomerations in North America|List of urban areas]]
+|m49                 = <code>021</code> – Northern America<br /><code>003</code> – [[North America]]<br /><code>019</code> – [[Americas]]<br /><code>001</code> – [[World]]
+}}
+
+<syntaxhighlight lang="wikitext" style="overflow: auto;">
+{{Infobox continent
+|title               = North America
+|image               = [[File:Location North America.svg|220px]]
+|area                = {{convert|24,709,000|km2|sqmi|abbr=on}}
+|population          = 528,720,588 (2008, [[List of continents by population|4th]])
+|density             = {{convert|21.4|/km2|/sqmi|abbr=on}}
+|GDP_PPP             = $20.9 trillion (2013)
+|GDP_nominal         = $20.3 trillion (2013) 
+|demonym             = North American
+|countries           = 23 countries
+|list_countries      = List of North American countries
+|dependencies        = [[List of North American countries#Dependent territories|22 dependencies]]
+|languages           = [[Languages of North America|List of languages]]
+|time                = [[UTC−10]] to [[UTC+0]]
+|internet            = [[Country code top-level domain#List of ccTLDs|North American TLD]]
+|cities              = [[List of the largest urban agglomerations in North America|List of urban areas]]
+|m49                 = <code>021</code> – Northern America<br /><code>003</code> – [[North America]]<br /><code>019</code> – [[Americas]]<br /><code>001</code> – [[World]]
+}}
+</syntaxhighlight>
+{{Clear}}
+
+====Collapsible list====
+
+{{Infobox continent
+|dependencies = 
+ {{Collapsible list
+   | title = &ensp;
+   | list_style  = text-align:left;
+   | 1 = Testing 1 | 2 = Testing 2 | 3 = Testing 3 | 4 = Testing 4 | 5 = Testing 5
+ }}
+}}
+
+<syntaxhighlight lang="wikitext" style="overflow: auto;">
+{{Infobox continent
+|unrecognized = 
+ {{Collapsible list
+   | title = &amp;ensp;
+   | list_style  = text-align:left;
+   | 1 = Testing 1 | 2 = Testing 2 | 3 = Testing 3 | 4 = Testing 4 | 5 = Testing 5
+ }}
+}}
+</syntaxhighlight>
+{{Clear}}
+
+===Parameters===
+All template parameters are optional.
+
+; title: name of the article
+; image: visual interpretation of the borders of a continent on a file
+; photo: real-life photograph of a continent
+; area: amount of space inside of the continent
+; population: number of people who inhabit the continent
+; density: measurement of population on the continent per unit area
+; GDP (PPP): measurement of the total purchasing power parity GDP of all the countries in the continent
+; GDP (nominal): measurement of the total nominal GDP of all the countries in the continent 
+; ethnic_groups: List/breakdown of ethnic groups within the country/territory
+; religions: List/breakdown of religions within the country/territory
+; demonym: a name for a resident of a locality which is derived from the name of that particular locality (e.g. North American, Asian)
+; countries: number of recognized countries on a continent
+; list_countries: the title of the list of countries for that continent (e.g. [[List of North American countries]])
+; dependencies: a continent's dependencies; if this is not outlined on that continent's countries list, use the <nowiki>{{collapsible list}}</nowiki> template as shown [[Template:Infobox continent/doc#Collapsible list|here]]
+; unrecognized: a continent's unrecognized republics and territories; if this is not outlined on that continent's countries list, use the <nowiki>{{collapsible list}}</nowiki> template as shown [[Template:Infobox continent/doc#Collapsible list|here]]
+; languages: a continent's languages; if there is no list form, use the <nowiki>{{collapsible list}}</nowiki> template as shown [[Template:Infobox continent/doc#Collapsible list|here]]
+; time: a continent's time zones (e.g. [[UTC−10]] to [[UTC+0]])
+; internet: the top-level domains for a country; link to [[Country code top-level domain#List of ccTLDs]]
+; calling_code: e.g. +1, [[+531]], [[+44]], etc
+; cities: the most notable and highly populated cities on a continent (e.g. [[List of the largest urban agglomerations in North America]])
+; m49: the UN M.49 code and parent codes (e.g. <code>021</code> – Northern America)
+; footnotes: footnotes
+
+===Template data===
+{{TemplateData header}}
+
+<templatedata>
+{
+	"params": {
+		"title": {
+			"description": "The name of the article"
+		},
+		"image": {
+			"description": "An image of the continent"
+		},
+		"area": {
+			"description": "The total area of the continent"
+		},
+		"population": {
+			"description": "The total population of the continent"
+		},
+		"density": {
+			"description": "The population density of the continent"
+		},
+		"GDP_PPP": {
+			"description": "The measurement of the total purchasing power parity GDP of all the countries in the continent"
+		},
+		"GDP_nominal": {
+			"description": "The measurement of the total nominal GDP of all the countries in the continent"
+		},
+		"demonym": {
+			"description": "A name for a resident of a locality which is derived from the name of that particular locality"
+		},
+		"countries": {
+			"description": "The total number of recognized countries on a continent"
+		},
+		"list_countries": {
+			"description": "A title used to describe the list of countries for that continent, if it exists"
+		},
+		"dependencies": {
+			"description": "A continent's dependencies, if any exists"
+		},
+		"unrecognized": {
+			"description": "A continent's unrecognized republics and territories, if any exists"
+		},
+		"languages": {
+			"description": "The different languages spoken on the continent"
+		},
+		"time": {
+			"description": "A continent's time zones"
+		},
+		"internet": {
+			"description": "The top level domains for the continent"
+		},
+		"cities": {
+			"description": "The most notable and highly populated cities on a continent. Use the alias \"settlements\" for continents without cities (e.g. Antarctica).",
+			"aliases": [
+				"settlements"
+			]
+		},
+		"footnotes": {}
+	},
+	"description": "A template used to describe a continent"
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+
+<!-------------------------------------------------------------------
+       Categories below here, please; interwikis to Wikidata.
+ -------------------------------------------------------------------->
+[[Category:Place infobox templates|Continent]]
+}}</includeonly>

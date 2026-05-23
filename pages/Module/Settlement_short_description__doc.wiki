@@ -1,0 +1,12 @@
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High-use|demo=Module:{{ROOTPAGENAME}}}}
+{{Lua|Module:Arguments|Module:Plain text|Module:TableTools}}
+
+== Usage ==
+Used in [[Template:Infobox settlement]] to generate [[Wikipedia:Short description|short descriptions]].
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Modules that create a short description]]
+
+}}</includeonly>

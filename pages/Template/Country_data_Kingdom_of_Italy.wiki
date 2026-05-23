@@ -1,0 +1,25 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Kingdom of Italy
+| shortname alias = Italy
+| flag alias = Flag of Italy (1861-1946) crowned.svg
+| flag alias-civil = Flag of Italy (1861-1946).svg
+| flag alias-naval= Flag of Italy (1861-1946) crowned.svg
+| link alias-naval = Regia Marina
+| link alias-air force = Regia Aeronautica
+| flag alias-army = Flag of Italy (1860).svg
+| link alias-army = Royal Italian Army
+| flag alias-navy= Flag of Italy (1861-1946) crowned.svg
+| link alias-navy = Regia Marina
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| related1 = Italy
+| related2 = Napoleonic Italy
+| related3 = Fascist Italy
+| related4 = Italian Social Republic
+| related5 = House of Savoy
+| cat = Italy kingdom
+</noinclude>
+}}

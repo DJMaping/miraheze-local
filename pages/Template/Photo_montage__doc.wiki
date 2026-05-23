@@ -1,0 +1,254 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Warning|1={{large|Before making a gallery, please read over the '''[[WP:IG|image use policy for galleries]]'''. Generally, a gallery '''should not be added''' so long as there is space for images to be effectively presented adjacent to text.}}
+}}
+{{High-use}}
+{{Lua|Module:Photo montage}}
+
+== Usage ==
+This template is for grouping several images in an infobox, with the possibility of aligning up to 7 rows with up to 7 columns.  This template is not intended to be used outside of an infobox or sidebar.  For floating image arrays outside of an infobox, please consider using {{tl|multiple image}} with the {{para|perrow}} option.  For galleries of images, please consider using the [[Help:Gallery tag|gallery tag]].  If {{tl|multiple image}} will not work for your application, and you need to float the photo montage to the left or right, you can embed it in an {{tl|image frame}} (see the examples below).
+<syntaxhighlight lang="wikitext" style="overflow:auto">{{Photo montage
+| photo1a = 
+| photo1b = 
+| photo1c = 
+| photo1d = 
+| photo1e = 
+| photo2a =  
+| photo2b =
+| photo2c =
+| photo2d =
+| photo2e =
+| photo3a = 
+| photo3b =
+| photo3c =
+| photo3d =
+| photo3e =
+| photo4a = 
+| photo4b = 
+| photo4c =
+| photo4d =
+| photo4e =
+| photo5a = 
+| photo5b = 
+| photo5c =
+| photo5d =
+| photo5e = 
+| photo6a = 
+| photo6b = 
+| photo6c =
+| photo6d =
+| photo6e =
+| photo7a = 
+| photo7b = 
+| photo7c =
+| photo7d =
+| photo7e =
+| size = <!-- Number indicating width of the montage (default: 200) -->
+| spacing = <!-- Number indicating width of spacing between the images (default: 1) -->
+| color = <!-- Color of spacing between the images (default: black) -->
+| border = <!-- Number indicating width of border surrounding the montage (default: 1) -->
+| color_border = <!-- Color of border surrounding the montage (default: black) -->
+| text = <!-- Text displayed below montage but within border, wrapped to montage width -->
+| text_background = <!-- Color of background behind text (default: #F8F8FF) -->
+| foot_montage = <!-- Footer displayed under montage beneath border, not wrapped -->
+}}</syntaxhighlight>
+=== With alternative text ===
+<syntaxhighlight lang="wikitext" style="overflow:auto">{{Photo montage
+| photo1a = 
+| alt1a = 
+| photo1b = 
+| alt1b = 
+| photo1c = 
+| alt1c = 
+| photo1d = 
+| alt1d = 
+| photo1e = 
+| alt1e = 
+| photo2a =  
+| alt2a =  
+| photo2b =
+| alt2b =
+| photo2c =
+| alt2c =
+| photo2d =
+| alt2d =
+| photo2e =
+| alt2e =
+| photo3a = 
+| alt3a = 
+| photo3b =
+| alt3b =
+| photo3c =
+| alt3c =
+| photo3d =
+| alt3d =
+| photo3e =
+| alt3e =
+| photo4a = 
+| alt4a = 
+| photo4b = 
+| alt4b = 
+| photo4c =
+| alt4c =
+| photo4d =
+| alt4d =
+| photo4e =
+| alt4e =
+| photo5a = 
+| alt5a = 
+| photo5b = 
+| alt5b = 
+| photo5c =
+| alt5c =
+| photo5d =
+| alt5d =
+| photo5e = 
+| alt5e = 
+| photo6a = 
+| alt6a = 
+| photo6b = 
+| alt6b = 
+| photo6c =
+| alt6c =
+| photo6d =
+| alt6d =
+| photo6e =
+| alt6e =
+| photo7a = 
+| alt7a = 
+| photo7b = 
+| alt7b = 
+| photo7c =
+| alt7c =
+| photo7d =
+| alt7d =
+| photo7e =
+| alt7e =
+| size = <!-- Number indicating width of the montage (default: 200) -->
+| spacing = <!-- Number indicating width of spacing between the images (default: 1) -->
+| color = <!-- Color of spacing between the images (default: black) -->
+| border = <!-- Number indicating width of border surrounding the montage (default: 1) -->
+| color_border = <!-- Color of border surrounding the montage (default: black) -->
+| text = <!-- Text displayed below montage but within border, wrapped to montage width -->
+| text_background = <!-- Color of background behind text (default: #F8F8FF) -->
+| foot_montage = <!-- Footer displayed under montage beneath border, not wrapped -->
+}}</syntaxhighlight>
+
+== Examples ==
+
+=== Example 1: images only ===
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{image frame|content={{Photo montage
+| photo1a = Sevilla Plaza de España 19-03-2011 13-36-19.jpg
+| photo2a = Torredelorotyteatrolamaestranza.JPG
+| photo2b = Sevila10.JPG
+| photo3a = Alcaz archiv sev.jpg
+| photo3b = Real Alcazares Sevilla Spain.JPG
+| photo4a = Pont Triana.jpg
+}}}}
+</syntaxhighlight>
+{{image frame|content={{Photo montage
+| photo1a = Sevilla Plaza de España 19-03-2011 13-36-19.jpg
+| photo2a = Torredelorotyteatrolamaestranza.JPG
+| photo2b = Sevila10.JPG
+| photo3a = Alcaz archiv sev.jpg
+| photo3b = Real Alcazares Sevilla Spain.JPG
+| photo4a = Pont Triana.jpg
+}}}}
+This text was entered below the template.
+{{clear}}
+
+=== Example 2: optional parameters ===
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{image frame|content={{Photo montage
+| photo1a = Trujillo Perú PZ.jpg{{!}}Freedom Monument, in Main Square of Trujillo city
+| photo2a = Húsares.jpg{{!}}"Húsares de Junín" avenue
+| photo2b = Huanchaco.jpg{{!}}"Caballitos de totora" in Huanchaco
+| photo3a = Chan chan wall1.jpg{{!}}Chan Chan, capital of Kingdom Chimu
+| photo3b = IndependenciaPlazaDeTrujillo.jpg{{!}}"El Libertador" Hotel in Main Square of the city
+| photo4a = Huaca del Sol - Août 2007.jpg{{!}}Huaca del Sol, Political capital of Mochicas
+| photo5a = Vista de Huanchaco, Perú.JPG{{!}} Huanchaco beach
+| photo5b = Huaca de la Luna jt02.jpg{{!}}Huaca de La Luna, religious  capital of Mochicas
+| photo5c = US Navy 070812-N-8704K-272 Alvako Coello and Lupita Carrion perform a dance during a closing ceremony for the Military Sealift Command (MSC) hospital ship USNS Comfort (T-AH 20).jpg{{!}}Children dancing "Marinera"
+| size = 300
+| spacing = 3
+| color = #FFFFFF
+| border = 3
+| color_border = red
+| text = ''text'': [[Trujillo, Peru|Trujillo city]], From Top left to right: [[Freedom Monument (Trujillo)|The Freedom Monument]], Husares Avenue, [[Caballitos de totora]], Wall in [[Chan Chan]], El Libertador Hotel, [[Huaca del sol|Huaca or Temple of the Sun]], [[Huanchaco]], [[Huaca de la luna|Painted wall in "Temple of the Moon"]], [[Marinera|Marinera dancers]].
+| text_background = #FFDEAD
+}}
+| width = 312
+| caption = [[Trujillo, Peru|Trujillo city]], From Top left to right: [[Freedom Monument (Trujillo)|The Freedom Monument]], Husares Avenue, [[Caballitos de totora]], Wall in [[Chan Chan]], El Libertador Hotel, [[Huaca del sol|Huaca or Temple of the Sun]], [[Huanchaco]], [[Huaca de la luna|Painted wall in "Temple of the Moon"]], [[Marinera|Marinera dancers]].
+}}
+</syntaxhighlight>
+{{image frame|content={{Photo montage
+| photo1a = Trujillo Perú PZ.jpg{{!}}Freedom Monument, in Main Square of Trujillo city
+| photo2a = Húsares.jpg{{!}}"Húsares de Junín" avenue
+| photo2b = Huanchaco.jpg{{!}}"Caballitos de totora" in Huanchaco
+| photo3a = Chan chan wall1.jpg{{!}}Chan Chan, capital of Kingdom Chimu
+| photo3b = IndependenciaPlazaDeTrujillo.jpg{{!}}"El Libertador" Hotel in Main Square of the city
+| photo4a = Huaca del Sol - Août 2007.jpg{{!}}Huaca del Sol, Political capital of Mochicas
+| photo5a = Vista de Huanchaco, Perú.JPG{{!}} Huanchaco beach
+| photo5b = Huaca de la Luna jt02.jpg{{!}}Huaca de La Luna, religious  capital of Mochicas
+| photo5c = US Navy 070812-N-8704K-272 Alvako Coello and Lupita Carrion perform a dance during a closing ceremony for the Military Sealift Command (MSC) hospital ship USNS Comfort (T-AH 20).jpg{{!}}Children dancing "Marinera"
+| size = 300
+| spacing = 3
+| color = #FFFFFF
+| border = 3
+| color_border = red
+| text = ''text'': [[Trujillo, Peru|Trujillo city]], From Top left to right: [[Freedom Monument (Trujillo)|The Freedom Monument]], Husares Avenue, [[Caballitos de totora]], Wall in [[Chan Chan]], El Libertador Hotel, [[Huaca del sol|Huaca or Temple of the Sun]], [[Huanchaco]], [[Huaca de la luna|Painted wall in "Temple of the Moon"]], [[Marinera|Marinera dancers]].
+| text_background = #FFDEAD
+}}
+| width = 312
+| caption = [[Trujillo, Peru|Trujillo city]], From Top left to right: [[Freedom Monument (Trujillo)|The Freedom Monument]], Husares Avenue, [[Caballitos de totora]], Wall in [[Chan Chan]], El Libertador Hotel, [[Huaca del sol|Huaca or Temple of the Sun]], [[Huanchaco]], [[Huaca de la luna|Painted wall in "Temple of the Moon"]], [[Marinera|Marinera dancers]].
+}}
+This text was entered below the template.
+{{clear}}
+
+=== Example 3: transparent background ===
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{sidebar|image={{Photo montage
+| photo2a = PNG transparency demonstration 1.png{{!}}Four transparent dice
+| photo2b = White Stars 3.svg{{!}}Three white stars with black outlines
+| photo3a = White Stars 2.svg{{!}}Two white stars with black outlines
+| photo3b = Beakerblue.svg{{!}}A beaker full of a blue liquid
+| size = 350
+| spacing = 8
+| color = transparent
+| border = 0
+| text = Sample images with transparent parts
+| text_background = transparent
+}}}}
+</syntaxhighlight>
+{{sidebar|image={{Photo montage
+| photo2a = PNG transparency demonstration 1.png{{!}}Four transparent dice
+| photo2b = White Stars 3.svg{{!}}Three white stars with black outlines
+| photo3a = White Stars 2.svg{{!}}Two white stars with black outlines
+| photo3b = Beakerblue.svg{{!}}A beaker full of a blue liquid
+| size = 350
+| spacing = 8
+| color = transparent
+| border = 0
+| text = Sample images with transparent parts
+| text_background = transparent
+}}}}
+This text was entered below the template.
+{{clear}}
+
+== Tracking Categories ==
+* {{clc|Pages using photo montage with one or fewer images}}
+* {{clc|Pages using photo montage without center alignment}}
+
+== See also ==
+* {{tl|Image array}}
+* {{tl|Multiple image}}
+* {{tl|Image frame}}
+* [[Wikipedia:Collage tips]]
+
+<includeonly>{{basepage subpage|
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Graphics templates]]
+[[Category:Image formatting and function templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>

@@ -1,0 +1,30 @@
+==List of states and territories==
+'''Continue to [[Central Ayuma]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Acrana}} || [[Acrana]] || style="text-align:right;" | 131,864 || style="text-align:right;" | 14,469,041 || style="text-align:right;" | 110 || [[Samaru]]
+|-
+| style="text-align:center;"| {{flagicon|Ealdorii}} || [[Ealdorii]] || style="text-align:right;" | 1,563,780 || style="text-align:right;" | 137,992,639 || style="text-align:right;" | 88 || [[Shurqan]]
+|-
+| style="text-align:center;"| {{flagicon|Hkuqo}} || [[Hkuqo]] || style="text-align:right;" | 370,702 || style="text-align:right;" | 22,833,760 || style="text-align:right;" | 62 || [[Tanshiva]]
+|-
+| style="text-align:center;"| {{flagicon|Ukhdari}} || [[Ukhdari]] || style="text-align:right;" | 783,607 || style="text-align:right;" | 85,678,806 || style="text-align:right;" | 109 || [[Faramozan]]
+|-
+| style="text-align:center;"| {{flagicon|Zenashan}} || [[Zenashan]] || style="text-align:right;" | 53,031 || style="text-align:right;" | 9,819,273 || style="text-align:right;" | 185 || [[Zirafu]]
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 2,902,984
+| style="text-align:right;"| 270,793,000
+| style="text-align:right;"| 93
+|}
+
+[[Category:Ayuma]]
+[[Category:Ayuman Regions]]

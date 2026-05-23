@@ -1,0 +1,7 @@
+{{High-risk| approximately 844000 }}
+{{module rating|protected}}
+{{Lua|Module:Yesno|Module:Arguments}}
+
+This module implements {{tl|italic title}} and {{tl|italic dab}}. Please see the template pages for documentation.<noinclude>
+[[Category:Module documentation pages]]
+</noinclude>

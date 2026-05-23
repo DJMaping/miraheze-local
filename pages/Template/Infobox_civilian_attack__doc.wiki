@@ -1,0 +1,755 @@
+{{documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High-use}}
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:WikidataIB|Module:Check for unknown parameters}}
+
+== Usage ==
+{{Parameter names example|title|native_name|partof|image|image_size|image_upright|alt|caption|map|map_size|map_alt|map_caption|mapframe = yes|location|coordinates|date|time|time-begin|time-end|timezone|target|type|weapon|weapons|fatalities|injuries|victims|victim|perps|perp|perpetrators|perpetrator|numparts|numpart|dfens|dfen|motive|website|notes}}
+<syntaxhighlight lang="wikitext">
+{{Infobox civilian attack
+| title         = 
+| partof        = 
+| image         = 
+| image_size    = 
+| image_upright = 
+| alt           = 
+| caption       = 
+| map           = 
+| map_size      = 
+| map_alt       = 
+| map_caption   = 
+| mapframe      = <!-- see below for more parameters -->
+| location      = 
+| target        = 
+| coordinates   = 
+| date          = <!-- {{start date|YYYY|MM|DD}}-<br />{{end date|YYYY|MM|DD}} -->
+| time          = 
+| timezone      = 
+| type          = <!-- Type of attack or most serious crime. See description of field. -->
+| fatalities    = <!-- Number of people dead. --> 
+| injuries      = <!-- Number of people injured -->
+| victims       = <!-- or | victim = --> <!-- Number of victims in total. -->
+| perpetrators  = <!-- or | perpetrator = --> <!-- alias: | perps = or | perp = --> <!-- GROUP or NUMBER of perpetrators, not names of people. See [[WP:SUSPECT]]. --> 
+| assailants    = <!-- or | assailant = --> <!-- Read and apply [[WP:BLPCRIME]] before naming people. -->
+| weapons       = <!-- Use sparingly. -->
+| numparts      = <!-- or | numpart = -->
+| dfens         = <!-- or | dfen = -->
+| motive        = 
+| inquiry       = 
+| coroner       = 
+| accused       = <!-- NUMBER of perpetrators charged. Should only use if someone has been charged with a crime. A [[WP:SUSPECT]] should NOT being named. ([[WP:BLPCRIME]]) -->
+| convicted     = <!-- Read [[WP:BLPCRIME]] before using. --> 
+| verdict       = 
+| convictions   = 
+| charges       = 
+| litigation    = 
+| judge         = 
+| website       = <!-- {{URL|example.com}} -->
+| module        =
+| notes         =
+}}
+</syntaxhighlight>
+
+== Example ==
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox civilian attack
+| title = 1993 World Trade Center bombing
+| image = WTC 1993 ATF Commons.jpg
+| caption = Underground damage after the bombing
+| location = [[World Trade Center (1973–2001)|World Trade Center]], New York City, United States
+| coordinates = {{coord|40.711452|N|74.011919|W|region:US-NY_type:event|display=title,inline}}
+| target = [[World Trade Center (1973–2001)|World Trade Center]]
+| date = February 26, 1993
+| time = 12:17:37 p.m.
+| timezone = [[UTC−05:00]]
+| type = [[Car bomb|Truck bombing]], [[mass murder]]
+| fatalities = 6
+| injuries = 1,042
+| perp = [[al-Qaeda]]
+| assailants = [[Ramzi Yousef]], [[Eyad Ismoil]], and co-conspirators
+| motive = [[Islamic fundamentalism]], [[American foreign policy]], [[Israel–United States military relations#Military aid and procurement|U.S. support for Israel]]
+}}
+</syntaxhighlight>
+
+For all fields, no wikilinks are automatically incorporated into the infobox. Therefore, if you want anything to be linked to something else, they must be added when including the template.
+
+== Required fields ==
+* '''title''' – A title for the attack; most likely this will match the article title, but you can change it to something slightly different if the title is a little over-descriptive
+* '''location''' – The physical place, perhaps a specific airplane or building (multiple targets are allowed, of course), including the city, where the attack occurred; including the country is preferred for cities; including the province or state is discouraged unless necessary or well-known:
+:* '''Major, international cities:''' Tokyo is okay, but Tokyo, Japan is preferred unless it compromises stylistic appearance
+:* '''Major cities in well-known provinces:''' [[Toronto]], [[Ontario]], [[Canada]] is unnecessarily specific; [[Toronto]], Ontario or [[Toronto]], Canada is preferred (although Toronto is okay)
+:* '''Cities with relative international anonymity:''' [[Beslan]] is not good due to the city's relative anonymity; [[Beslan]], Russia is preferred; [[Beslan]], [[North Ossetia-Alania]] is discouraged; [[Beslan]], [[North Ossetia-Alania]], Russia is unnecessarily specific
+:* '''Cities with common names:''' [[Portland, Oregon|Portland]] is not good; [[Portland, Oregon|Portland]], U.S. is not good either. [[Portland, Oregon]] (well-known state) or [[Portland, Oregon]], U.S. is preferred; these two forms cannot be mistaken for [[Portland, Maine]] or any other city sharing the name Portland
+:  Will be fetched from Wikidata ({{Wikidata entity link|P276}}, if available) if not locally set
+* '''date''' – The date of the attack; use {{tl|start date}} to allow for users' date preferences to go into effect and include the date in the hCalendar microformat (see below; use {{tl|end date}} for multi-day events). Will be fetched from Wikidata ({{Wikidata entity link|P585}}, if available) if not locally set
+
+== Optional fields ==
+* '''native_name''' – the native name of the event, if different
+* '''native_name_lang''' – [[List of ISO 639-1 codes|ISO 639-1]] code for the native name e.g. 'fr' for French.  For an event with more than one native name, use {{tlx|lang|XX|...}} for each name with {{tl|plainlist}} or {{tl|unbulleted list}} separating the names.
+* '''partof''' – a violent campaign containing the civilian attack event described in the article.
+* '''image''' – An image associated with the event; do not precede the image name with ''Image:'' or ''File:''. Will be fetched from Wikidata ({{Wikidata entity link|P18}}, if available) if not locally set
+* '''image_size''' – Size of main image in pixels ('''Do not include "px"'''). Default 250. Example format — image_size = 150. For most cases, '''image_upright''' should be used instead, per [[WP:IMGSIZE]].
+* '''image_upright''' – Scales the image thumbnail from its default size by the given factor. Values less than 1 scale the image down (0.9 = 90%) and values greater than 1 scale the image up (1.15 = 115%).
+* '''alt''' – Alt text for the image, for visually impaired readers. See [[WP:ALT]]. This should be specified if '''image''' is specified.
+* '''caption''' – A caption for the image. Will be fetched from Wikidata ({{Wikidata entity link|P2096}}, if available) if not locally set
+* '''map''' – A {{tlg|location map}} or map image
+* '''map_caption''' – A caption for the map
+* '''mapframe''' – An {{tl|infobox mapframe}}, see [[#Mapframe maps]] for more information
+* '''target''' – The target and/or purpose of the attack
+* '''coordinates''' – geographical coordinates. Use {{tlg|coord}} with ''|display=inline,title''.  Will be fetched from Wikidata ({{Wikidata entity link|P625}}, if available) if not locally set
+* '''time''' – The time of the attack, or of multiple attacks if they all occurred at the same time (do not use this along with '''time-begin''' and '''time-end''')
+* '''time-begin''' and '''time-end''' – The start and end times, respectively, if a series of attacks (do not use this along with '''time''')
+* '''timezone''' – The timezone of the location of the attack(s); UTC+X, UTC−X, or UTC (i.e. offset from [[UTC]]) preferred
+* '''type''' – The type of attack (e.g. [[suicide bombing]], [[mass shooting]], etc.)
+* '''weapons''' – Weapons used in attacks (this field should not be over-used)
+* '''fatalities''' – Number of people killed during attack(s); optionally, you can split this into different types of people (e.g. ''121 passengers, 21 crew'' or ''3 soldiers, 1 civilian'')
+* '''injuries''' – Number of people injured (excludes those killed) during attack(s)
+* '''victims''' – i.e. hostages, etc. (use '''victim''' in case of a single person)
+* '''perpetrators''' – The groups that bring about or carries out a harmful, illegal, or immoral act (use '''perpetrator''' in case of a single group). Aliases: '''perp''' and '''perps'''. (Per [[WP:BLPCRIME]], '''accused''' should usually be used if there is no conviction.)
+* '''assailants''' – Those responsible for physically attacking others (use '''assailant''' in case of a single person).
+* '''numparts''' – Number of participants in the attack on the part of the perps (use '''numpart''' in case of a single person)
+* '''dfens''' – Those who defended or repelled the attack, or were responsible for the immediate aftermath (use '''defen''' in case of a single person)
+* '''motive''' – The motive, the reason why the attack was carried out
+* '''website''' – Official websites (e.g. inquests/ inquiries) only. Use {{tl|URL}}.
+* '''module''' – See [[#Embedding other templates|Embedding other templates]]
+* '''inquiry''' - May be an [[inquest]] or other official inquiry
+* '''coroner''' - The coroner appointed to determine the official causes of death
+* '''accused''' – Number of perpetrators charged. Do '''not''' list names of people, per [[WP:BLPCRIME]]. 
+* '''convicted''' – Number of perpetrators convicted
+* '''verdict''' – Guilty, not guilty, or similar
+* '''convictions''' – Crimes perpetrators were convicted of
+* '''charges''' – Charges that were filed
+* '''litigation''' – Civil action that resulted from the attack, if any
+* '''judge''' –
+
+=== Mapframe maps ===
+{{Infobox mapframe/doc/parameters
+  | onByDefault = no
+  | mapframe-frame-width = 250
+  | mapframe-zoom = 6
+}}
+
+== Coordinates ==
+{{UF-coord}}
+
+== Embedding other templates ==
+The <code>module=</code> parameter can be used for embedding other templates into this infobox (see [[Wikipedia:Infobox modules]]):
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Infobox civilian attack
+| name = 
+...
+| module = {{Infobox ABC
+ | embed = yes <!-- or 'child=yes' or 'subbox=yes' -->
+ ...
+ }}
+}}
+</syntaxhighlight>
+
+== TemplateData ==
+{{Collapse top|[[Wikipedia:TemplateData|TemplateData]]}}
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Infobox for an attack on civilians",
+	"format": "block",
+	"params": {
+		"title": {
+			"label": "Title",
+			"description": "The title of the attack. Most likely the same as article title, but can be different if necessary.",
+			"type": "line"
+		},
+		"partof": {
+			"label": "Part of",
+			"description": "A violent campaign containing the civilian attack event described in the article",
+			"type": "string"
+		},
+		"image": {
+			"label": "Image",
+			"description": "An image associated with the event; do not precede the image name with Image: or File:. Will be fetched from Wikidata (image (P18), if available) if not locally set.",
+			"type": "wiki-file-name"
+		},
+		"image_size": {
+			"label": "Image size",
+			"description": "Size of main image in pixels (do not include \\\"px\\\"). For most cases, image_upright should be used instead, per WP:IMGSIZE.",
+			"example": "150",
+			"type": "number",
+			"default": "250"
+		},
+		"image_upright": {
+			"label": "Image upright",
+			"description": "Scales the image thumbnail from its default size by the given factor. Values less than 1 scale the image down (0.9 = 90%) and values greater than 1 scale the image up (1.15 = 115%).",
+			"type": "number"
+		},
+		"alt": {
+			"label": "Alt",
+			"description": "Alt text for the image, for visually impaired readers. See WP:ALT. This should be specified if image is specified.",
+			"type": "string"
+		},
+		"caption": {
+			"label": "Caption",
+			"description": "A caption for the image. Will be fetched from Wikidata (media legend (P2096), if available) if not locally set.",
+			"type": "string"
+		},
+		"map": {
+			"label": "Map",
+			"description": "A {{location map}} or map image",
+			"type": "string"
+		},
+		"map_size": {
+			"description": "Size of map in pixels (do not include \\\"px\\\"). For most cases, map_upright should be used instead, per WP:IMGSIZE.",
+			"example": "150",
+			"type": "number",
+			"default": "250",
+			"autovalue": "",
+			"label": "Map size"
+		},
+		"map_upright": {
+			"label": "Map upright",
+			"description": "Scales the map thumbnail from its default size by the given factor. Values less than 1 scale the map down (0.9 = 90%) and values greater than 1 scale the map up (1.15 = 115%).",
+			"type": "number"
+		},
+		"map_alt": {
+			"label": "Map alt",
+			"description": "Alt text for the map, for visually impaired readers. See WP:ALT. This should be specified if map is specified.",
+			"type": "string"
+		},
+		"map_caption": {
+			"label": "Map caption",
+			"description": "A caption for the map",
+			"type": "string"
+		},
+		"subheader": {
+			"label": "Subheader",
+			"description": "Additional title field that fits below {{{title}}} but before images",
+			"type": "string"
+		},
+		"native_name": {
+			"label": "Native name",
+			"description": "The native name of the event, if different",
+			"type": "string"
+		},
+		"native_name_lang": {
+			"label": "Native name language",
+			"description": "ISO 639-2 code for the native name, e.g. 'fr' for French. For an event with more than one native name, use {{lang|XX|...}} for each name, with {{plainlist}} or {{unbulleted list}} separating the names.",
+			"type": "string"
+		},
+		"suppressfields": {
+			"label": "Suppress fields",
+			"description": "Suppress fields",
+			"type": "string"
+		},
+		"fetchwikidata": {
+			"label": "Fetch wiki data",
+			"description": "Fetch wiki data",
+			"type": "string"
+		},
+		"onlysourced": {
+			"label": "Only sourced",
+			"description": "Only sourced",
+			"type": "string"
+		},
+		"location": {
+			"label": "Location",
+			"description": "The physical place, perhaps a specific aircraft or building (multiple targets are allowed, of course), including the city, where the attack occurred; including the country is preferred for cities; including the province or state is discouraged unless necessary or well-known.",
+			"type": "string",
+			"required": true
+		},
+		"coordinates": {
+			"label": "Coordinates",
+			"description": "Geographical coordinates. Use {{coord}} with |display=inline,title. Will be fetched from Wikidata (coordinate location (P625), if available) if not locally set.",
+			"type": "string"
+		},
+		"date": {
+			"label": "Date",
+			"description": "The date of the attack; use {{start date}} to allow for users' date preferences to go into effect and include the date in the hCalendar microformat (see below; use {{end date}} for multi-day events). Will be fetched from Wikidata (point in time (P585), if available) if not locally set.",
+			"type": "line",
+			"required": true
+		},
+		"time": {
+			"label": "Time",
+			"description": "The time of the attack or multiple attacks if they all occurred at the same time (do not use this along with time-begin and time-end).",
+			"type": "string"
+		},
+		"time-begin": {
+			"label": "Time begin",
+			"description": "The start time, if a series of attacks (do not use this along with time).",
+			"type": "string"
+		},
+		"time-end": {
+			"label": "Time end",
+			"description": "The end time, if a series of attacks (do not use this along with time).",
+			"type": "string"
+		},
+		"timezone": {
+			"label": "Timezone",
+			"description": "The timezone of the location of the attack(s); UTC+X, UTC−X or UTC (i.e., offset from UTC) preferred.",
+			"type": "string"
+		},
+		"target": {
+			"label": "Target",
+			"description": "The target and/or purpose of the attack",
+			"type": "string"
+		},
+		"type": {
+			"label": "Type of attack",
+			"description": "The type of attack (e.g., suicide bombing, mass shooting, etc.)",
+			"type": "string"
+		},
+		"weapon": {
+			"label": "Weapon",
+			"description": "Weapon used in the attack(s) if singular (this field should not be overused). Use \\\"weapons\\\" for multiple.",
+			"type": "string"
+		},
+		"weapons": {
+			"label": "Weapons",
+			"description": "Weapons used in the attack(s) if multiple (this field should not be overused). Use \\\"weapon\\\" for singular.",
+			"type": "string"
+		},
+		"fatalities": {
+			"label": "Fatalities",
+			"description": "Number of people killed during the attack(s); optionally, you can split this into different types of people (e.g., 121 passengers, 21 crew or 3 soldiers, 1 civilian)",
+			"type": "string"
+		},
+		"injuries": {
+			"label": "Injuries",
+			"description": "Number of people injured (excludes those killed) during the attack(s)",
+			"type": "string"
+		},
+		"victims": {
+			"label": "Victims",
+			"description": "I.e. hostages, etc. (use victim in case of a single person)",
+			"type": "string"
+		},
+		"victim": {
+			"label": "Victim",
+			"description": "I.e. hostage, etc. (use victims in case of multiple people)",
+			"type": "string"
+		},
+		"perpetrators": {
+			"aliases": [
+				"perps"
+			],
+			"label": "Perpetrators",
+			"description": "The persons or groups that brought about the attack (use perpetrator in case of a single person or group).",
+			"type": "string"
+		},
+		"perpetrator": {
+			"aliases": [
+				"perp"
+			],
+			"label": "Perpetrator",
+			"description": "The person or a single group that brought about the attack (use perpetrators in case of multiple people or groups).",
+			"type": "string"
+		},
+		"assailants": {
+			"label": "Assailants",
+			"description": "Those responsible for physically attacking others (use assailant in case of a single person).",
+			"type": "string"
+		},
+		"assailant": {
+			"label": "Assailant",
+			"description": "The person responsible for physically attacking others (use assailants in case of multiple people).",
+			"type": "string"
+		},
+		"numparts": {
+			"label": "Number of participants",
+			"description": "Number of participants in the attack on the part of the perps (use numpart in case of a single person).",
+			"type": "string"
+		},
+		"numpart": {
+			"label": "Number of participants (singular)",
+			"description": "Number of participants in the attack on the part of the perps (use numparts in case of multiple people).",
+			"type": "string"
+		},
+		"dfens": {
+			"label": "Defenders",
+			"description": "Those who defended or repelled the attack or were responsible for the immediate aftermath (use defen in case of a single person).",
+			"type": "string"
+		},
+		"dfen": {
+			"label": "Defender",
+			"description": "Someone who defended or repelled the attack or was responsible for the immediate aftermath (use dfens in case of multiple people)",
+			"type": "string"
+		},
+		"motive": {
+			"label": "Motive",
+			"description": "The motive; the reason why the attack was carried out",
+			"type": "string"
+		},
+		"inquiries": {
+			"label": "Inquiries",
+			"description": "May be an inquest or other official inquiry (use \\\"inquiry\\\" for singular inquiry)",
+			"type": "string"
+		},
+		"inquiry": {
+			"label": "Inquiry",
+			"description": "May be an inquest or other official inquiry (use \\\"inquiries\\\" for multiple inquiries)",
+			"type": "string"
+		},
+		"coroners": {
+			"label": "Coroners",
+			"description": "Where coronial, the coroners appointed (use \\\"coroner\\\" for a singular person)",
+			"type": "string"
+		},
+		"coroner": {
+			"label": "Coroners",
+			"description": "Where coronial, the coroner appointed (use \\\"coroners\\\" for multiple people)",
+			"type": "string"
+		},
+		"accused": {
+			"label": "Accused",
+			"description": "Number of perpetrators charged.",
+			"type": "string"
+		},
+		"convicted": {
+			"label": "Convicted",
+			"description": "Number of perpetrators convicted",
+			"type": "string"
+		},
+		"verdict": {
+			"label": "Verdict",
+			"description": "Guilty, not guilty, or similar",
+			"type": "string"
+		},
+		"convictions": {
+			"label": "Convictions",
+			"description": "Crimes perpetrators were convicted of",
+			"type": "string"
+		},
+		"charges": {
+			"label": "Charges",
+			"description": "Charges that were filed",
+			"type": "string"
+		},
+		"litigation": {
+			"label": "Litigation",
+			"description": "Civil action that resulted from the attack, if any",
+			"type": "string"
+		},
+		"judge": {
+			"label": "Judge",
+			"description": "Judge presiding over the trial",
+			"type": "string"
+		},
+		"website": {
+			"label": "Website",
+			"description": "Official websites (e.g. inquests/ inquiries, trials, commemoration or memorials) only.",
+			"type": "url"
+		},
+		"module": {
+			"label": "Module",
+			"description": "Used for embedding other templates into this infobox"
+		},
+		"notes": {
+			"label": "Notes",
+			"description": "Additional notes on the attack",
+			"type": "string"
+		},
+		"mapframe": {
+			"label": "Show mapframe map",
+			"description": "Specify yes or no to show or hide the map, overriding the default",
+			"example": "yes",
+			"type": "string",
+			"default": "if coordinates are available, yes, except if the map parameter is present",
+			"suggested": true
+		},
+		"mapframe-caption": {
+			"label": "Mapframe caption",
+			"description": "Caption for the map. If mapframe-geomask is set, then the default is \"Location in <<geomask's label>>\"",
+			"type": "string"
+		},
+		"mapframe-custom": {
+			"label": "Custom mapframe",
+			"description": "Use a custom map instead of the automatic mapframe. Specify either a {{maplink}} template, or another template that generates a mapframe map, or an image name. If used, other mapframe parameters will be ignored.",
+			"type": "wiki-template-name"
+		},
+		"mapframe-id": {
+			"aliases": [
+				"id",
+				"qid"
+			],
+			"label": "Mapframe Wikidata item",
+			"description": "Id (Q-number) of Wikidata item to use.",
+			"type": "string",
+			"default": "(item for current page)"
+		},
+		"mapframe-coordinates": {
+			"aliases": [
+				"mapframe-coord",
+				"coordinates",
+				"coord"
+			],
+			"label": "Mapframe coordinates ",
+			"description": "Coordinates to use, instead of any on Wikidata. Use the {{Coord}} template.",
+			"example": "{{Coord|12.34|N|56.78|E}}",
+			"type": "wiki-template-name",
+			"default": "(coordinates from Wikidata)"
+		},
+		"mapframe-wikidata": {
+			"label": "Mapframe shapes from Wikidata",
+			"description": "et to yes to show shape/line features from the wikidata item, if any, when coordinates are specified by parameter",
+			"example": "yes",
+			"type": "string"
+		},
+		"mapframe-shape": {
+			"label": "Mapframe shape feature",
+			"description": "Override display of mapframe shape feature. Turn off by setting to \"none\". Use an inverse shape (geomask) instead of a regular shape by setting to \"inverse\"",
+			"type": "string"
+		},
+		"mapframe-point": {
+			"label": "Mapframe point feature",
+			"description": "Override display of mapframe point feature. Turn off display of point feature by setting to \"none\". Force point marker to be displayed by setting to \"on\"",
+			"type": "string"
+		},
+		"mapframe-geomask": {
+			"label": "Mapframe geomask",
+			"description": "Wikidata item to use as a geomask (everything outside the boundary is shaded darker). Can either be a specific Wikidata item (Q-number), or a property that specifies the item to use (e.g. P17 for country, or P131 for located in the administrative territorial entity)",
+			"example": "Q100",
+			"type": "wiki-page-name"
+		},
+		"mapframe-switcher": {
+			"label": "Mapframe switcher",
+			"description": "Set to \"auto\" or \"geomasks\" or \"zooms\" to enable Template:Switcher-style switching between multiple mapframes. IF SET TO auto – switch geomasks found in location (P276) and located in the administrative territorial entity (P131) statements on the page's Wikidata item, searching recursively. E.g. an item's city, that city's state, and that state's country. IF SET TO geomasks – switch between the geomasks specified as a comma-separated list of Wikidata items (Q-numbers) in the mapframe-geomask parameter. IF SET TO zooms – switch between \"zoomed in\"/\"zoomed midway\"/\"zoomed out\", where \"zoomed in\" is the default zoom (with a minimum of 3), \"zoomed out\" is 1, and \"zoomed midway\" is the average.",
+			"type": "string"
+		},
+		"mapframe-frame-width": {
+			"aliases": [
+				"mapframe-width"
+			],
+			"label": "Mapframe width",
+			"description": "Frame width in pixels",
+			"type": "number",
+			"default": "270"
+		},
+		"mapframe-frame-height": {
+			"aliases": [
+				"mapframe-height"
+			],
+			"label": "Mapframe height",
+			"description": "Frame height in pixels",
+			"type": "number",
+			"default": "200"
+		},
+		"mapframe-shape-fill": {
+			"label": "Mapframe shape fill",
+			"description": "Color used to fill shape features",
+			"type": "string",
+			"default": "#606060"
+		},
+		"mapframe-shape-fill-opacity": {
+			"label": "Mapframe shape fill opacity",
+			"description": "Opacity level of shape fill, a number between 0 and 1",
+			"type": "number",
+			"default": "0.5"
+		},
+		"mapframe-stroke-color": {
+			"aliases": [
+				"mapframe-stroke-colour"
+			],
+			"label": "Mapframe stroke color",
+			"description": "Color of line features, and outlines of shape features",
+			"type": "string",
+			"default": "#ff0000"
+		},
+		"mapframe-stroke-width": {
+			"label": "Mapframe stroke width",
+			"description": "Width of line features, and outlines of shape features",
+			"type": "number",
+			"default": "5"
+		},
+		"mapframe-marker": {
+			"label": "Mapframe marker",
+			"description": "Marker symbol to use for coordinates; see [[mw:Help:Extension:Kartographer/Icons]] for options",
+			"example": "museum",
+			"type": "string"
+		},
+		"mapframe-marker-color": {
+			"aliases": [
+				"mapframe-marker-colour"
+			],
+			"label": "Mapframe marker color",
+			"description": "Background color for the marker",
+			"type": "string",
+			"default": "#5E74F3"
+		},
+		"mapframe-geomask-stroke-color": {
+			"aliases": [
+				"mapframe-geomask-stroke-colour"
+			],
+			"label": "Mapframe geomask stroke color",
+			"description": "Color of outline of geomask shape",
+			"type": "string",
+			"default": "#555555"
+		},
+		"mapframe-geomask-stroke-width": {
+			"label": "Mapframe geomask stroke width",
+			"description": "Width of outline of geomask shape",
+			"type": "number",
+			"default": "2"
+		},
+		"mapframe-geomask-fill": {
+			"label": "Mapframe geomask fill",
+			"description": "Color used to fill outside geomask features",
+			"type": "string",
+			"default": "#606060"
+		},
+		"mapframe-geomask-fill-opacity": {
+			"label": "Mapframe geomask fill opacity",
+			"description": "Opacity level of fill outside geomask features, a number between 0 and 1",
+			"type": "number",
+			"default": "0.5"
+		},
+		"mapframe-zoom": {
+			"label": "Mapframe zoom",
+			"description": "Set the zoom level, from \"1\" to \"18\", to used if the zoom level cannot be determined automatically from object length or area",
+			"example": "12",
+			"type": "number",
+			"default": "10"
+		},
+		"mapframe-length_km": {
+			"label": "Mapframe length (km)",
+			"description": "Object length in kilometres, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-length_mi": {
+			"label": "Mapframe length (mi)",
+			"description": "Object length in miles, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-area_km2": {
+			"label": "Mapframe area (km^2)",
+			"description": "Object arean square kilometres, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-area_mi2": {
+			"label": "Mapframe area (mi^2)",
+			"description": "Object area in square miles, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-frame-coordinates": {
+			"aliases": [
+				"mapframe-frame-coord"
+			],
+			"label": "Mapframe frame coordinates",
+			"description": "Alternate latitude and longitude coordinates for initial placement of map, using {{coord}}",
+			"example": "{{Coord|12.35|N|56.71|E}}",
+			"type": "wiki-template-name"
+		},
+		"mapframe-line": {},
+		"mapframe-type": {
+			"label": "Mapframe type",
+			"description": "Type of the object rendered in the mapframe, like with {{coord}}.",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"title",
+		"location",
+		"date",
+		"partof",
+		"image",
+		"image_size",
+		"image_upright",
+		"alt",
+		"caption",
+		"map",
+		"map_size",
+		"map_upright",
+		"map_alt",
+		"map_caption",
+		"mapframe",
+		"subheader",
+		"native_name",
+		"native_name_lang",
+		"suppressfields",
+		"fetchwikidata",
+		"onlysourced",
+		"coordinates",
+		"time",
+		"time-begin",
+		"time-end",
+		"timezone",
+		"target",
+		"type",
+		"weapon",
+		"weapons",
+		"fatalities",
+		"injuries",
+		"victims",
+		"victim",
+		"perpetrators",
+		"perpetrator",
+		"assailants",
+		"assailant",
+		"numparts",
+		"numpart",
+		"dfens",
+		"dfen",
+		"motive",
+		"inquiries",
+		"inquiry",
+		"coroners",
+		"coroner",
+		"accused",
+		"convicted",
+		"verdict",
+		"convictions",
+		"charges",
+		"litigation",
+		"judge",
+		"website",
+		"module",
+		"notes",
+		"mapframe-caption",
+		"mapframe-custom",
+		"mapframe-id",
+		"mapframe-coordinates",
+		"mapframe-wikidata",
+		"mapframe-point",
+		"mapframe-shape",
+		"mapframe-frame-width",
+		"mapframe-frame-height",
+		"mapframe-shape-fill",
+		"mapframe-shape-fill-opacity",
+		"mapframe-stroke-color",
+		"mapframe-stroke-width",
+		"mapframe-marker",
+		"mapframe-marker-color",
+		"mapframe-geomask",
+		"mapframe-geomask-stroke-color",
+		"mapframe-geomask-stroke-width",
+		"mapframe-geomask-fill",
+		"mapframe-geomask-fill-opacity",
+		"mapframe-zoom",
+		"mapframe-length_km",
+		"mapframe-length_mi",
+		"mapframe-area_km2",
+		"mapframe-area_mi2",
+		"mapframe-frame-coordinates",
+		"mapframe-switcher",
+        "mapframe-line",
+		"mapframe-type"
+	]
+}</templatedata>
+{{Collapse bottom}}
+
+== Microformats ==
+{{UF-hcal-geo}}
+
+== Tracking category ==
+* {{clc|Pages using infobox civilian attack with unknown parameters}}
+
+== See also ==
+* {{tl|Infobox event}}
+* {{tl|Infobox civil conflict}}
+* {{tl|Infobox military conflict}}
+
+<includeonly>{{Sandbox other||
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Law infobox templates|Civilian attack]]
+[[Category:Events infobox templates|Civilian attack]]
+[[Category:Infobox templates with module parameter|Civilian attack]]
+[[Category:Templates with coordinates fields|Civilian attack]]
+[[Category:Templates that add a tracking category|{{PAGENAME}}]]
+
+}}</includeonly>

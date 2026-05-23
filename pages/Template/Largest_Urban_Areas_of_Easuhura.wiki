@@ -1,0 +1,18 @@
+{{Largest cities
+| name = Largest Urban Areas of Easuhura
+| country      = Easuhura
+| list_by_pop  = List of urban areas in Easuhura
+| class        = {{{class|}}}
+| div_name     = 
+| div_link     = List of urban areas in Easuhura{{!}}Urban area
+| city_1 = Tanbai | div_1 = Greater Tanbai Urban Area{{!}}Greater Tanbai      | pop_1 = 9,360,000
+| city_2 = Chayek | div_2 = Greater Chayek Urban Area{{!}}Greater Chayek      | pop_2 = 2,771,000
+| city_3 = Phalanij | div_3 = Phalanij Urban Area{{!}}Phalanij                | pop_3 = 1,568,000 
+| city_4 = Khessli | div_4 =Khessli Urban Area{{!}}Greater Khessli            | pop_4 = 1,256,000 
+| city_5 = Paviri | div_5 = Greater Paviri                                    | pop_5 = 1,161,000
+| city_6 = Boklan | div_6 = Boklan Urban Area{{!}}Boklan                      | pop_6 = 1,128,000
+| city_7 = Bokayek | div_7 = Bokayek                                          | pop_7 = 1,041,000 
+| city_8 = Sokhan | div_8 = Sokhan  Urban Area{{!}}Greater Sokhan             | pop_8 = 783,900
+| city_9 = Phaabai | div_9 = Greater Phaabai                                  | pop_9 = 692,200
+| city_10 = Ravanit | div_10 = Ravanit Urban Area{{!}}Ravanit                 | pop_10 = 532,670
+}}

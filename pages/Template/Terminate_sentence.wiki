@@ -1,0 +1,1 @@
+{{{1}}}{{#if:{{#invoke:text|sentenceTerminated|{{{1|}}}}}||{{{2|.}}}}}<noinclude>{{documentation}}</noinclude>

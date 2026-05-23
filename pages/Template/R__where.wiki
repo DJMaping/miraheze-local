@@ -1,0 +1,3 @@
+<!-- Only for internal use: |plural=pages |singular=page |location=in-source-location |spacing=character -->{{#if:{{{plural|}}}|{{{plural|}}}{{#if:{{{singular|}}}|,{{{spacing|}}}[{{{singular|}}}]}}|{{{singular|}}}}}{{#if:{{{location|}}}|{{#if:{{{plural|}}}{{{singular|}}}|,{{{spacing|}}}}}{{{location|}}}}}<noinclude>
+{{documentation}}
+</noinclude>

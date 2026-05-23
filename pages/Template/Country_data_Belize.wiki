@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Belize
+| flag alias = Flag of Belize.svg
+| flag alias-1981 = Flag of Belize (1981–2019).svg
+| flag alias-army = Infobox Flag of the Belize Defence Force.svg
+| link alias-army = Belize Defence Force
+| flag alias-coast guard = Infobox Flag of the Belize Coast Guard.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1981
+| redir1 = BLZ
+| redir2 = BIZ
+| related1 = British Honduras
+</noinclude>
+}}

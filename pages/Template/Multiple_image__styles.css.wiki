@@ -1,0 +1,85 @@
+/* {{pp-template}} */
+/* this is a block */
+.multiimageinner {
+	display: flex;
+	flex-direction: column;
+}
+
+.trow {
+	display: flex;
+	flex-direction: row;
+	clear: left;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* this is a cell */
+.tsingle {
+	margin: 1px;
+	float: left;
+}
+
+.theader {
+	clear: both;
+	font-weight: bold;
+	text-align: center;
+	align-self: center;
+	background-color: transparent;
+	width: 100%;
+}
+
+.thumbcaption {
+	background-color: transparent;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+@media all and ( max-width: 720px ) {
+	.thumbinner {
+		/* not !important usage can be removed when these are no longer inline styles
+		inside Template:Multiple image and media query using min-width is introduced */
+		width: 100% !important;
+		box-sizing: border-box;
+		max-width: none !important;
+		align-items: center;
+	}
+	.trow {
+		justify-content: center;
+	}
+	.tsingle {
+		/* not !important usage can be removed when these are no longer inline styles
+		inside Template:Multiple image and media query using min-width is introduced */
+	    float: none !important;
+	    max-width: 100% !important;
+	    box-sizing: border-box;
+	    text-align: center;
+	}
+	.tsingle .thumbcaption {
+		text-align: left;
+	}
+	.trow > .thumbcaption {
+		text-align: center;
+	}
+}
+
+@media screen {
+	html.skin-theme-clientpref-night .multiimageinner span:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent) img {
+		background-color: white;
+	}
+}
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .multiimageinner span:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent) img {
+		background-color: white;
+	}
+}

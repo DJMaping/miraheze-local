@@ -1,0 +1,285 @@
+{{Navbox
+| name = Inline cleanup tags
+| state = {{{state|autocollapse}}}
+| bodyclass = hlist
+| title = Inline cleanup tags
+| evenodd = off
+| group1 = Attribution
+| list1 =
+* {{tl|According to whom}}
+* {{tl|Among whom}}
+* {{tl|Attribution needed}}
+* {{tl|By what}}
+* {{tl|By whom}}
+* {{tl|For whom}}
+* {{tl|From whom?}}
+* {{tl|Like whom?}}
+* {{tl|To whom?}}
+* {{tl|Who}}
+* {{tl|Whose}}
+* {{tl|With whom}}
+
+| group2 = Clarity
+| list2 =
+* {{tl|Ambiguous}}
+* {{tl|Circular definition}}
+* {{tl|Clarify}}
+* {{tl|Clarify span}}
+* {{tl|Clarify timeframe}}
+* {{tl|Context inline}}
+* {{tl|Expand acronym}}
+* {{tl|Incomprehensible inline}}
+* {{tl|Incomprehensible span}}
+* {{tl|Key needed}}
+* {{tl|Non sequitur}}
+* {{tl|Sentence fragment}}
+* {{tl|Sic?}}
+* {{tl|Which calendar}}
+* {{tl|Which lang}}
+
+| group3 = Miscellaneous
+| list3 =
+* {{tl|Chinese script needed inline}}
+* {{tl|Chinese script needed inline span}}
+* {{tl|Cleanup inline}}
+* {{tl|Copyright violation}}
+* {{tl|Copyvio link}}
+* {{tl|Data missing}}
+* {{tl|Disambiguation needed}}
+* {{tl|External links inline}}
+* {{tl|Improve caption}}
+* {{tl|Japanese script needed inline}}
+* {{tl|MisleadingNameLink}}
+* {{tl|Needs IPA}}
+* {{tl|Not English inline}}
+* {{tl|Not in body}}
+* {{tl|Original research inline}}
+* {{tl|Original research span}}
+* {{tl|Pronunciation needed}}
+* {{tl|Qualify evidence}}
+* {{tl|Romanization needed}}
+* {{tl|Script needed inline}} 
+* {{tl|Spam link}}
+* {{tl|Synthesis inline}}
+* {{tl|Synthesis span}}
+* {{tl|Typo help inline}}
+* {{tl|Under discussion inline}}
+* {{tl|Verify spelling}}
+* {{tl|Whose translation}}
+
+| group4 = Neutrality
+| list4 =
+* {{tl|Buzzword inline}}
+* {{tl|Compared to?}}
+* {{tl|Contentious label inline}}
+* {{tl|Editorializing}}
+* {{tl|Fact or opinion}}
+* {{tl|Opinion}}
+* {{tl|Peacock inline}}
+* {{tl|POV statement}}
+* {{tl|Promotion inline}}
+* {{tl|Unbalanced opinion}}
+* {{tl|Weasel inline}}
+
+| group5 = Precision
+| list5 =
+ {{Navbox |child
+ | evenodd = off
+ | list1 =
+* {{tl|By how much}}
+* {{tl|Definition}}
+* {{tl|Definition span}}
+* {{tl|Definition needed}}
+* {{tl|Example needed}}
+* {{tl|Example needed span}}
+* {{tl|Explain}}
+* {{tl|Explain-wrap}}
+* {{tl|From where}}
+* {{tl|How}}
+* {{tl|How often}}
+* {{tl|Misquoted}}
+* {{tl|More detail needed}}
+* {{tl|Of what}}
+* {{tl|Quantify}}
+* {{tl|Specify}}
+* {{tl|Vague}}
+* {{tl|When}}
+* {{tl|Where}}
+* {{tl|Where-geo}}
+* {{tl|Which}}
+* {{tl|Who else}}
+* {{tl|Why}}
+* {{tl|Year needed}}
+
+ | group2 = Excessive
+ | list2 =
+* {{tl|Duplication span}}
+* {{tl|Globalize inline}}
+* {{tl|Importance example}}
+* {{tl|Importance inline}}
+* {{tl|Infobox clutter}}
+* {{tl|List entry too long}}
+* {{tl|Long quote}}
+* {{tl|Off topic paragraph}}
+* {{tl|Off topic sentence}}
+* {{tl|Overly detailed inline}}
+* {{tl|Over-explained}}
+* {{tl|Relevance inline}}
+* {{tl|Undue weight inline}}
+ }}
+
+| group6 = Time-sensitivity
+| list6 =
+* {{tl|Anachronism inline}}
+* {{tl|As of?}}
+* {{tl|Clarify timeframe}}
+* {{tl|Current event inline}}
+* {{tl|Is this date calibrated?}}
+* {{tl|Outdated statistic}}
+* {{tl|Until when}}
+* {{tl|Update after}}
+* {{tl|Update inline}}
+* {{tl|Update span}}
+
+| group7 = Verifiability
+| list7 =
+ {{Navbox|child
+ | evenodd = off
+ | groupstyle = white-space: normal;
+ | group1 = Dubious
+ | list1 =
+* {{tl|Contradictory inline}}
+* {{tl|Discuss}}
+* {{tl|Disputed inline}}
+* {{tl|Dubious}}
+* {{tl|Dubious span}}
+* {{tl|Inconsistent}}
+* {{tl|Needs independent confirmation}}
+* {{tl|Speculation inline}}
+
+ | group2 = [[WP:Bare URLs|Bare URLs]]
+ | list2 =
+* {{tl|Bare URL inline}}
+* {{tl|Bare URL AV media}}
+* {{tl|Bare URL DOC}}
+* {{tl|Bare URL image}}
+* {{tl|Bare URL non-HTML}}
+* {{tl|Bare URL PDF}}
+* {{tl|Bare URL plain text}}
+* {{tl|Bare URL spreadsheet}}
+
+ | group3 = Incomplete or broken citation
+ | list3 =
+* {{tl|Author incomplete}}
+* {{tl|Author missing}}
+* {{tl|Broken footnote}}
+* {{tl|Date missing}}
+* {{tl|Dead link}}
+* {{tl|Dead YouTube link}}
+* {{tl|Deep link needed}}
+* {{tl|Edition needed}}
+* {{tl|Episode needed}}
+* {{tl|Full citation needed}}
+* {{tl|Incomplete short citation}}
+* {{tl|ISBN missing}}
+* {{tl|Missing long citation}}
+* {{tl|Moved resource}}
+* {{tl|Page needed}}
+* {{tl|Pages needed}}
+* {{tl|Permanent dead link}}
+* {{tl|Place missing}}
+* {{tl|Publisher missing}}
+* {{tl|Season needed}}
+* {{tl|Time needed}}
+* {{tl|Title incomplete}}
+* {{tl|Title missing}}
+* {{tl|Unused source}}
+* {{tl|Volume needed}}
+* {{tl|Year missing}}
+
+ | group4 = Missing or problematic reference
+ | list4 =
+* {{tl|Additional citation needed}}
+* {{tl|AI-generated inline}}
+* {{tl|AI-generated source?}}
+* {{tl|AI-retrieved source}}
+* {{tl|Better source needed}}
+* {{tl|Better source needed example}}
+* {{tl|Check quotation}}
+* {{tl|Chronology citation needed}}
+* {{tl|Circular reference}}
+* {{tl|Circular reporting}}
+* {{tl|Citation needed}}
+* {{tl|Citation needed span}}
+* {{tl|Citation needed paragraph}}
+* {{tl|Citation not found}}
+* {{tl|Close paraphrasing inline}}
+* {{tl|COI source}}
+* {{tl|Deprecated inline}}
+* {{tl|Excessive citations inline}}
+* {{tl|Failed verification}}
+* {{tl|Failed verification span}}
+* {{tl|Image reference needed}}
+* {{tl|Independent source inline}}
+* {{tl|Irrelevant citation}}
+* {{tl|Marketing material}}
+* {{tl|Medical citation needed}}
+* {{tl|Medical citation needed span}}
+* {{tl|Misplaced footnote}}
+* {{tl|Nonspecific}}
+* {{tl|Not verified in body}}
+* {{tl|Not verified in body span}}
+* {{tl|Obsolete source}}
+* {{tl|Page range too broad}}
+* {{tl|Primary source inline}}
+* {{tl|Promotional source}}
+* {{tl|Quote without source}}
+* {{tl|Request quotation}}
+* {{tl|Request quotation span}}
+* {{tl|Retracted}}
+* {{tl|Scientific citation needed}}
+* {{tl|Self-published inline}}
+* {{tl|Self-published source}}
+* {{tl|Shallow reference inline}}
+* {{tl|Tertiary source inline}}
+* {{tl|Text-source inline}}
+* {{tl|Independent source inline}}
+* {{tl|Unreliable source?}}
+* {{tl|Unreliable fringe source}}
+* {{tl|Unreliable medical source}}
+* {{tl|Unreliable scientific source}}
+* {{tl|User-generated inline}}
+* {{tl|User-generated source}}
+* {{tl|Verify quote}}
+* {{tl|Verify source}}
+* {{tl|Whose quote}}
+ }}
+
+| group8 = Wording
+| list8 =
+* {{tl|Buzzword inline}}
+* {{tl|Colloquialism}}
+* {{tl|Copy edit inline}}
+* {{tl|Idiom}}
+* {{tl|Neologism inline}}
+* {{tl|Technical inline}}
+* {{tl|Tone inline}}
+
+| group9 = General advice
+| list9 =
+* [[Wikipedia:Citing sources|Citing sources]]
+* [[Wikipedia:Reliable sources|Reliable sources]]
+* [[Help:Maintenance template removal |Maintenance template removal]]
+* [[Wikipedia:Citation needed|Citation needed]]
+* [[Help:Find sources|Find sources]]
+* [[Wikipedia:Combining sources|Combining sources]]
+* [[Help:Overview of referencing styles|Referencing styles]]
+
+| belowstyle = font-weight:bold;
+| below =
+* {{icon|Category}} {{Category link without namespace|Inline cleanup templates}}
+* {{icon link|WikiProject|Wikipedia:WikiProject Inline Templates|WikiProject Inline Templates}}
+
+}}<noinclude>
+{{documentation}}
+</noinclude>

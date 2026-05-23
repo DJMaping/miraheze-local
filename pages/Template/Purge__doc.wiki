@@ -1,0 +1,77 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{used in system}}
+{{lua|Module:Purge}}
+
+{{tlx|Purge}} produces a link that will [[WP:Purge|purge the page's cache]] and rebuild it from the wikitext.
+
+==Purpose==
+For efficiency in service, [[MediaWiki]] [[Cache (computing)|cache]]s pages. Depending on the exact sequence of actions editors follow, one may view an out-of-date version of a given page. This happens most often on heavily-edited pages and on pages which contain an instance of [[Wikipedia:Transclusion costs and benefits|transclusion]]. 
+
+{{tlx|Purge}} adds to any page a link that, when clicked, not only reloads the page, but [[Help:Purge|clears the server cache]], forcing the page to be completely rendered "from scratch". This is not a one-time solution; generally, editing a page is itself sufficient to purge cache. Rather, it is a measure taken in anticipation of the frequent need to purge.
+
+==Examples==
+{| class="wikitable"
+|-
+! Code
+! Yields
+! Result
+|-
+| {{tlx|Purge}}
+| {{Purge}}
+| Creates a purge link for the page it is used on.
+|-
+| {{tlx|Purge|Purge this page's server cache.}}
+| {{Purge|Purge this page's server cache.}}
+| Creates a purge link for the page it is used on, but with the text "Purge this page's server cache."
+|-
+| {{tlx|Purge|page{{=}}Main Page}}
+| {{Purge|page=Main Page}}
+| Creates a purge link for [[Main Page]].
+|-
+| {{tlx|Purge|Purge this page's server cache.|page{{=}}Main Page}}
+| {{Purge|Purge this page's server cache.|page=Main Page}}
+| Creates a purge link for [[Main Page]], but with the text "Purge this page's server cache."
+|-
+| {{tlx|Purge|anchor{{=}}TemplateData}}
+| {{Purge|anchor=TemplateData}}
+| Creates a purge link for the page it is used on, which points to the "TemplateData" section.
+|}
+
+When you are linking to a section, purging that page will cause you to lose the section link.
+
+==TemplateData==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "A template that produces a link that will clear the cache and rebuild page from the wikitext",
+	"params": {
+		"1": {
+			"label": "Label",
+			"description": "The label of the purge link",
+			"type": "string",
+			"default": "Purge",
+			"required": false
+		},
+		"page": {
+			"label": "Page",
+			"description": "The page to purge",
+			"type": "string/wiki-page-name",
+			"required": false
+		},
+		"anchor": {
+			"label": "Anchor",
+			"description": "An anchor to jump to after the page is purged",
+			"type": "line",
+			"required": false
+		}
+	}
+}
+</templatedata>
+
+{{Purge Pages}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Internal link templates]]
+}}</includeonly>

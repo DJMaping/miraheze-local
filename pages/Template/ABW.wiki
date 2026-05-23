@@ -1,0 +1,3 @@
+{{#invoke:flag||Aruba}}<noinclude>
+{{flag template documentation|Aruba|ABW|ARU|ARU}}
+</noinclude>

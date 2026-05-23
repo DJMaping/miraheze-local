@@ -1,0 +1,3 @@
+<noinclude>{{for|the suicide sidebar formerly named Template:Suicide until 2014|Template:Suicide sidebar}}</noinclude>&nbsp;[[<!---(link:)-->{{{1|Suicide}}}<!---->|<!--(label:)-->{{#ifeq:{{{alt|}}}|yes |({{abbr|Suicide|[[Suicide]]}}) |<span style="font-family:'Times New Roman','Old English Text MT',serif">{{#ifeq:{{{bold|}}}|no |‡‡|'''‡‡'''}}</span>}}<!---->]]<noinclude>
+{{Documentation}}
+</noinclude>

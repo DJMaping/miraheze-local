@@ -1,0 +1,139 @@
+{{Documentation subpage}}
+{{lua|Module:Portal navigation}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+The '''portal navigation''' template is a meta-template for creating consistent, responsive navigation headers for portals.
+
+It is meant to be reasonably customizable, allowing different portals to "brand" themselves as they see fit, while maintaining consistent functionality so that different teams do not need to re-invent the wheel.
+== Usage ==
+=== Basic ===
+<syntaxhighlight lang="wikitext">
+{{Portal navigation
+| portalname =
+| wrc =
+| themecolor =
+| tab1 =
+| tab2 =
+| tab3 =
+| active =
+}}
+</syntaxhighlight>
+
+* '''portalname''' – The name of the portal. Accepts any and all wikitext, so feel free to add links, images, what have you.
+* '''wrc''' – Is this portal part of the Wikimedia Resource Center? If you specify <code>yes</code>, <code>true</code>, or <code>1</code>, ''WRC badge'' will be added atop your navigation header. Otherwise, nothing will happen.
+* '''themecolor''' – the primary color, used for the background color of the header bar and the color used to highlight the active tab. Must be a three- or six-digit hexadecimal code such as <code>#abcdef</code> or <code>#999</code>.
+** Note that you don't need to specify the text color. Black or white is automatically chosen based on whichever gets more contrast. 
+* '''tab''N''''' – wikitext for each tab. Accepts wikitext; remember, it won't create your link for you. Each tab is numbered, e.g. <code>tab1</code>, <code>tab2</code>, etc. You can have as many or as few tabs as you would like.
+* '''active''' – which tab is the active tab. Use the number of the tab, and that number tab will be highlighted. If you are creating a template using this template, it is recommended you set <code>active = {{{active|}}}</code> so that the other template can then define the value. 
+
+<syntaxhighlight lang="wikitext">
+{{Portal navigation
+| portalname = Portal!
+| wrc = no
+| themecolor = #abcdef
+| tab1 = [[Home]]
+| tab2 = [[News]]
+| tab3 = [[Babel]]
+| active = 2
+}}
+</syntaxhighlight>
+
+{{Portal navigation
+| portalname = Portal!
+| wrc = no
+| themecolor = #abcdef
+| tab1 = [[Home]]
+| tab2 = [[News]]
+| tab3 = [[Babel]]
+| active = 2
+}}
+
+=== Subtabs ===
+It is possible under each tab to have subtabs. These are represented as listed links. Note that the '''active''' parameter only applies to whichever ''main'' tab is active. Subtabs do not indicate active state, other than being bolded text instead of a plain link.
+
+Subtabs are defined like this: '''subtab''N''-''X''''', where ''N'' is the number tab, and ''X'' is the number subtab.
+
+'''Note''' that subtab navigation is not shown unless the applicable tab is active. In other words, if you are on tab 2, the subnavigation for tab 1 will be invisible.
+
+<syntaxhighlight lang="wikitext">
+{{Portal navigation
+| portalname = Portal!
+| wrc = no
+| themecolor = #abcdef
+| tab1 = [[Home]]
+| subtab1-1 = [[About]]
+| tab2 = [[News]]
+| subtab2-1 = [[News]]
+| subtab2-2  = [[Newsletter]]
+| subtab2-3 = [[Reports]]
+| tab3 = [[Babel]]
+| active = 2
+}}
+</syntaxhighlight>
+
+{{Portal navigation
+| portalname = Portal!
+| wrc = no
+| themecolor = #abcdef
+| tab1 = [[Home]]
+| subtab1-1 = [[About]]
+| tab2 = [[News]]
+| subtab2-1 = [[News]]
+| subtab2-2  = [[Newsletter]]
+| subtab2-3 = [[Reports]]
+| tab3 = [[Babel]]
+| active = 2
+}}
+
+=== Tab icons ===
+You can specify icons through '''icon1''', '''icon2''', etc. Be sure to use full image syntax; i.e., not just the name of the image.
+
+<syntaxhighlight lang="wikitext">
+{{Portal navigation
+| portalname = Portal!
+| wrc = no
+| icon1 = [[File:Home free icon.svg|x25px|link=]]
+| tab1 = [[Home]]
+| active = 1
+}}
+</syntaxhighlight>
+
+{{Portal navigation
+| portalname = Portal!
+| wrc = no
+| icon1 = [[File:Home free icon.svg|x25px|link=]]
+| tab1 = [[Home]]
+| active = 1
+}}
+
+=== Custom header styles ===
+You can specify custom CSS styles using the '''headerstyle''' parameter. Accepts CSS-type style parameters, separated by semicolons.
+
+<syntaxhighlight lang="wikitext">
+{{Portal navigation
+| portalname=This is an abomination
+| themecolor=#ff0000
+| headerstyle = font-family:'Comic Sans MS', monotype; color: turquoise;
+| tab1 = [[Home]]
+| tab2 = [[About]]
+| tab3 = [[News]]
+| active = 1
+}}
+</syntaxhighlight>
+
+{{Portal navigation
+| portalname=This is an abomination
+| themecolor=#ff0000
+| headerstyle = font-family:'Comic Sans MS', monotype; color: turquoise;
+| tab1 = [[Home]]
+| tab2 = [[About]]
+| tab3 = [[News]]
+| active = 1
+}}
+
+(Please do not abuse this feature.)
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Header templates]]
+[[Category:Portal namespace templates]]
+}}</includeonly>

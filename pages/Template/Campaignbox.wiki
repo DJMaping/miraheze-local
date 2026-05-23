@@ -1,0 +1,12 @@
+<includeonly>{{#invoke:Military navigation|main
+|name = {{safesubst:#if:{{{raw_name|}}} |{{{raw_name|}}} |{{safesubst:#if:{{{title|}}} |{{{name|}}} |}} }}
+|state = {{{state|}}}
+|border = {{{border|}}}
+|title = <span style="line-height:1.6em">{{safesubst:#if:{{{title|}}}|{{{title}}}|{{{name}}}}}</span>
+|bodyclass = {{{bodyclass|}}}
+|listclass = {{{listclass|}}}
+|list1 = {{{battles|}}}
+|below = {{{notes|}}}
+}}{{#ifeq:{{NAMESPACE}}|Template|[[Category:Campaignbox templates]]}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

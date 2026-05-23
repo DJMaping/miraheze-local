@@ -1,0 +1,4 @@
+For [[Geographic coordinate system|coordinates]], use {{tl|coord}} with ''display=inline{{#ifeq:{{{title|}}}|no||,title}}''.  Please do not be [[Wikipedia:WikiProject Geographical coordinates#Precision|overly precise]].<noinclude>
+
+[[Category:Microformat message templates]]
+</noinclude>

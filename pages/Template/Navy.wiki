@@ -1,0 +1,9 @@
+{{country data {{{1}}} 
+| navy/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}} 
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage -->
+</noinclude>

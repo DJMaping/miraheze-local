@@ -1,0 +1,4 @@
+{{<includeonly>safesubst:</includeonly>#invoke:anchor|main}}<noinclude>
+{{Documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>

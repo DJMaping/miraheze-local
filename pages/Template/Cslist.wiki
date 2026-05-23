@@ -1,0 +1,3 @@
+<templatestyles src="Cslist/styles.css" />{{#invoke:Cslist |makelist}}<noinclude>
+{{documentation}}<!-- Please place categories and language links on the /doc page, not here! -->
+</noinclude>

@@ -1,0 +1,6 @@
+<includeonly>{{safesubst<noinclude/>:#iferror:{{#expr:{{{2|0}}}}} |
+  {{main other|[[Category:Pages with bad rounding precision]]}}{{hid|Bad rounding here}}<!--
+  -->{{safesubst<noinclude/>:#invoke:Math|precision_format| {{{1}}} | 1-{{order of magnitude|{{{1}}}}} }}|
+  {{safesubst<noinclude/>:#invoke:Math|precision_format| {{{1}}} | {{{2|0}}}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,7 @@
+{{ombox
+| type = style
+| image = [[File:Ambox warning yellow.svg|40x40px|link=|alt=]]
+| text = Due to a server limit of '''500''' "[[Help:Template limits#Expensive parser function calls|expensive parser function]]" calls <small>(e.g. [[mw:Help:Extension:ParserFunctions##ifexist|#ifexist:]], [[mw:Help:Magic words#Technical metadata|PAGESIZE:]], and [[mw:Help:Magic words#Statistics|PAGESINCATEGORY:]])</small>, this {{#ifeq: Module | {{NAMESPACE}} | module | template}} will only work properly if the page using it has not already exceeded the limit. When the limit is exceeded, the page using this template or module is categorised in [[:Category:Pages with too many expensive parser function calls]]. <small>(''[[Template:Expensive|further information]]'')</small>
+}}<noinclude>{{Documentation}}
+<!-- Categories to the /doc subpage; interwikis to Wikidata; thanks! -->
+</noinclude>

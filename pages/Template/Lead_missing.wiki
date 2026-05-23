@@ -1,0 +1,19 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Lead missing}} begin-->{{Ambox
+| name  = Lead missing
+| type  = content
+| image = [[File:Wiki letter w.svg|40px|alt=icon]]
+| class = ambox-lead_missing
+| subst = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| issue = This article '''has no [[Wikipedia:Manual of Style/Lead section|lead section]]'''.
+| fix   = Please [{{fullurl:{{FULLPAGENAME}}|action=edit}} add one] in your own words.
+| date  = {{{date|}}}
+| cat   = Wikipedia introduction cleanup
+| all   = All pages needing cleanup
+| all2  = Pages missing lead section
+| cat3  = Articles covered by WikiProject Wikify
+| all3  = All articles covered by WikiProject Wikify
+}}<!--{{Lead missing}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>

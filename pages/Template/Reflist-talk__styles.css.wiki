@@ -1,0 +1,11 @@
+/* {{pp|small=y}} */
+.reflist-talk {
+	margin: auto 0;
+	border: 1px dashed var( --border-color-base, #a2a9b1 );
+	padding: 4px;
+	padding-left: 1em;
+}
+
+.reflist-talk-title {
+	font-weight: bold;
+}

@@ -1,0 +1,623 @@
+{{Documentation subpage}}
+{{High-use}}
+{{lua|Module:Piechart}}
+{{Uses TemplateStyles|Template:Pie chart/styles.css}}
+
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+This template draws [[pie chart]]s with [[HTML]], [[CSS]], and a [[Wikipedia:Lua|Lua module]]. It can accept data formatted as:
+* Enumerated values: <syntaxhighlight lang="wikitext" inline>|value1=123 |value2=456</syntaxhighlight> (classic) or
+* A simple [[Array (data type)|array]]: <syntaxhighlight lang="javascript" inline>|1=[{"value":123, "value":456}]</syntaxhighlight> (easy to re-order)
+
+
+__TOC__
+
+== Usage ==
+This template offers several different ways to draw pie charts. It can accept data as enumerated parameters (like many templates do). It can also accept data as an array. When placing the pie chart, the template can "float" it to either side of the body text (how image thumbnails are positioned). It can also place the chart as body content (how most tables are positioned).
+
+===Thumb (floating) ===
+By default, the template generates charts as floating thumbnails.
+
+====Enumerated parameters====
+
+{{Pie chart
+| radius = 100
+| caption = Default colors
+| label1  = {{#invoke:Piechart|color|1}}  | value1 = 7.7
+| label2  = {{#invoke:Piechart|color|2}}  | value2 = 7.7
+| label3  = {{#invoke:Piechart|color|3}}  | value3 = 7.7
+| label4  = {{#invoke:Piechart|color|4}}  | value4 = 7.7
+| label5  = {{#invoke:Piechart|color|5}}  | value5 = 7.7
+| label6  = {{#invoke:Piechart|color|6}}  | value6 = 7.7
+| label7  = {{#invoke:Piechart|color|7}}  | value7 = 7.7
+| label8  = {{#invoke:Piechart|color|8}}  | value8 = 7.7
+| label9  = {{#invoke:Piechart|color|9}}  | value9 = 7.7
+| label10 = {{#invoke:Piechart|color|10}} | value10 = 7.7
+| label11 = {{#invoke:Piechart|color|11}} | value11 = 7.7
+| label12 = {{#invoke:Piechart|color|12}} | value12 = 7.7
+| other-label = other: {{#invoke:Piechart|color|-1}}
+| other   = y
+}}
+The labels, values, and colors of slices may be specified. All the parameters for six slices are included in the example below. To add more slices, copy the code for an existing line and change the digit at the end of each parameter's name. Order the values by size, from largest to smallest. This will order the chart's slices in a clockwise direction, with the largest slice at 12 o'clock.
+
+<syntaxhighlight lang="wikitext">
+{{Pie chart
+| thumb  = 
+| radius = 
+| caption= 
+| footer = 
+
+| label1 = | value1 = | color1 = 
+| label2 = | value2 = | color2 = 
+| label3 = | value3 = | color3 = 
+| label4 = | value4 = | color4 = 
+| label5 = | value5 = | color5 = 
+
+| other  = 
+| other-color = 
+| other-label =
+}}
+</syntaxhighlight>
+
+====Enumerated values====
+* {{para|other}}: If any value is given (even "0" or "no"), an "Other" item will appear in the legend, corresponding to the final slice that makes the values add up to 100.<ref>If the total of all values is greater than 100%, no final slice will be added, and "other" will not be added to the legend even if it is specified, as it would not correspond to any aspect of the visible chart.</ref>
+* {{para|other-color}}: Specify a color to override the default white for the "Other" slice.<ref>[[Web colors]] can be specified by name or hex value.</ref>
+* {{para|other-label}}: Give a name to override the default text from "Other" to any string.
+* {{para|label''N''}}:  This string of text appears in the legend entry for each slice. Omitting it will cause a legend to be automatically generated.
+* {{para|value''N''}}: This should be the percentage that the slice represents or an actual value. Use {{para|autoscale|true}} to automatically scale values to a percentage of the total. Values that add up to more than 100 will be scaled down automatically.
+* {{para|color''N''}}: Each slice can have a [[Web colors|CSS color code or name]]. If omitted, the default color palette will be used. The default color palette is designed with [[accessibility]] and printing in mind.
+
+Even though you could use as many values and labels as you want, at some point values will be too small to be readable. Values less then 1% don't make much sense. You could change the radius, but ultimately you should just use a wikitable instead. Pie chart should typically only have 2-10 values and the "Other" value.
+
+====Common parameters====
+* {{para|thumb}}: By default the chart is floated to the <code>right</code> of the body content, as with image files. To make the chart appear on the left side specify {{para|thumb|left}}. To place the chart as body content (similar to how tables are placed by default), specify {{para|thumb|none}}.
+* {{para|radius}} You can specify a desired radius in pixels. Do not include a "px" suffix. The chart defaults to {{para|radius|100}}.
+* {{para|caption}}: The caption is a string of wikitext displayed above the legend.
+* {{para|footer}}: The footer is a string of wikitext displayed below the legend.
+* {{anchor|param--autoscale}} {{para|autoscale|true}}:<ref name="trueish">Instead of <code>true</code>, you can use <code>yes</code>, <code>on</code>, or <code>1</code>.</ref> This means that the sum of values will be automatically scaled to 100%. So for values: 5, 15, the slices will be "5 (25%)" and "15 (75%)". If the total is over 100, this defaults to true.
+* {{para|legend|true}}:<ref name="trueish"/> A legend will be added. Defaults to true if thumb is used.
+* {{para|direction}}: When the chart is positioned as body content, this parameter changes the placement of the legend. Possible values are:
+** <code>row</code>: the order is a list, chart (default for thumb=none);
+** <code>row-reverse</code>: the reverse order, i.e., chart, list;
+** <code>column</code>: column arrangement (vertical);
+** <code>column-reverse</code>: column arrangement, reversed (chart on top; default for thumb=right/left).
+* {{para|width}}: In most cases, you probably don't want to use this. It changes the width of the box. Normally, the box will be automatically scaled (for thumb=right or thumb=left, to pie radius; for thumb=none, to full available width).
+
+====Array of values====
+The template can also accept a [[JSON]] array of data, labels, and colors in the first unnamed parameter or {{para|1}}. An array is more strict in how the data must be formatted, but offers extra flexibility because you can easily rearrange the rows. This can simplify charts where the values will be frequently updated. It also simplifies the process of syncing charts across multiple articles or wikis.
+
+* {{para|1|[]}}: This parameter holds an array of all values for a chart. Each value can have a label and color.
+** just value: <syntaxhighlight lang="json" inline>{"value": 1},</syntaxhighlight>
+** value and a label: <syntaxhighlight lang="json" inline>{"label": "drinks", "value": 1},</syntaxhighlight>
+** with custom color: <syntaxhighlight lang="json" inline>{"label": "drinks", "value": 1, "color":"#ccf"}</syntaxhighlight>,
+* To specify other:
+** you just add braces to the end of the array of values <code>{}</code> (this will mean the value is to be calculated automatically);
+** you can add a label <syntaxhighlight lang="json" inline>{"label": "other citizens"}</syntaxhighlight>;
+** you can add a custom color <syntaxhighlight lang="json" inline>{"label": "other citizens", "color": "silver"}</syntaxhighlight>.
+
+In the example below, the same lines of text are used to create charts arranged from most to least and from least to most. Only the order has changed:
+
+{|
+|-
+!scope=col style=text-align:left|Most to least
+!scope=col style=text-align:right|Least to most
+|-
+|{{Pie chart
+|[
+ {"label": "sweets", "value": 5, "color":"darkred"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"},
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+]
+| autoscale = true
+| legend = true
+| thumb  = left
+| radius = 100
+| caption= Large to small<ref>References should work fine in captions</ref>
+| footer = 
+}}
+|{{Pie chart
+|[
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"},
+ {"label": "sweets", "value": 5, "color":"darkred"},
+]
+| autoscale = true
+| legend = true
+| thumb  = right
+| radius = 100
+| caption= Small to large<ref>References should work fine in captions</ref>
+| footer = 
+}}
+|-
+|<syntaxhighlight lang="wikitext">
+{{Pie chart
+|[
+ {"label": "sweets", "value": 5, "color":"darkred"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"},
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+]
+| autoscale = true
+| legend = true
+| thumb  = left
+| radius = 100
+| caption= Large to small<ref>References should work fine in captions</ref>
+| footer = 
+}}
+</syntaxhighlight>
+|<syntaxhighlight lang="wikitext">
+{{Pie chart
+|[
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"},
+ {"label": "sweets", "value": 5, "color":"darkred"},
+]
+| autoscale = true
+| legend = true
+| thumb  = right
+| radius = 100
+| caption= Small to large<ref>References should work fine in captions</ref>
+| footer = 
+}}
+</syntaxhighlight>
+|-
+|}
+
+===Body content===
+Pie charts can also be positioned as body content. This is how most table are positioned in articles.
+
+==== Minimal ====
+The smallest possible definition of a graph that makes sense is below.
+<div style="display:flex; align-items: flex-start; gap: 1em">
+{{Pie chart| [ {"value":25},  {} ] |thumb=none}}
+<syntaxhighlight lang="wikitext">
+{{Pie chart| [ {"value":25},  {} ] |thumb=none}}
+</syntaxhighlight>
+</div>
+
+==== Labels with formatted value ====
+
+You can add labels to values as shown below.
+<div style="display:flex; align-items: flex-start; gap: 1em">
+{{Pie chart
+| [ 
+ {"value":25, "label": "town"},
+ {"label": "city"},
+]
+|thumb=none
+|legend=true
+}}
+<syntaxhighlight lang="wikitext">
+{{Pie chart
+| [ 
+ {"value":25, "label": "town"},
+ {"label": "city"},
+]
+|thumb=none
+|legend=true
+}}
+</syntaxhighlight>
+</div>
+Note that a formatted value is added to each label.
+
+See how the value adapts when large values are auto-scaled:
+<div style="display:flex; align-items: flex-start; gap: 1em">
+{{Pie chart
+| [ 
+ {"value":2500, "label": "town"},
+ {"value":7500, "label": "city"},
+]
+|thumb=none
+|legend=true
+|autoscale=true
+}}
+<syntaxhighlight lang="wikitext">
+{{Pie chart
+| [ 
+ {"value":2500, "label": "town"},
+ {"value":7500, "label": "city"},
+]
+|thumb=none
+|legend=true
+|autoscale=true
+}}
+</syntaxhighlight>
+</div>
+
+==== Labels and advanced formatting templates ====
+As shown above, a typical label: "Abc" will result in:
+* "Abc: 23%" — when values are percentages (and sum up to 100)
+* "Abc: 123,456,789 (23%)" — when values are auto-scaled
+
+====Label format====
+One can use <code>labelformat</code> option for formatting labels of all items. In most cases, the default format is the best choice as it automatically adapts to different contexts and makes chart more uniform.
+
+{| class="wikitable"
+! Name !! Example usage !! Example render !! Notes
+|-
+| $label || "$label - $value" || "Abc - 123" || In most case you will want to use $label with other variables.
+|-
+| $value || "$label - $value" || "Abc - 123" || "123" is just a value, but thousand separators will be added for larger numbers.
+|-
+| $percent || "($percent) $label" || "(10.5%) Abc" || Using $percent makes most sense when autoscale is on.
+|-
+| $percent with $value || "($percent) $label: $value mln" || "(10.5%) Abc: 123 mln" || Using $value explicitly allows you to easily add units (like "mln").
+|-
+| $auto  || "$label: $auto" || "Abc: 123 (10.5%)" || This specific format is actually default.
+|}
+
+====Label format examples====
+Example of '''adding units in format''' (note <code>$value</code> in label and <code>autoscale=true</code>):
+<div style="display:flex; align-items: flex-start; gap: 1em; flex-wrap: wrap">
+<syntaxhighlight lang="wikitext">{{Pie chart
+|1= [
+	{"value":600, "label": "Flour"},
+	{"value":300, "label": "Milk"},
+	{"value":120, "label": "Butter"},
+	{"value":100, "label": "Egg powder"},
+	{"value":80, "label": "Sugar"},
+]
+|labelformat=$label $value g
+|thumb=none
+|legend=true
+|autoscale=true
+}}
+</syntaxhighlight>
+{{Pie chart
+|1= [
+	{"value":600, "label": "Flour"},
+	{"value":300, "label": "Milk"},
+	{"value":120, "label": "Butter"},
+	{"value":100, "label": "Egg powder"},
+	{"value":80, "label": "Sugar"},
+]
+|labelformat=$label $value g
+|thumb=none
+|legend=true
+|autoscale=true
+}}
+</div>
+
+Example of '''showing precision of data''':
+<div style="display:flex; align-items: flex-start; gap: 1em; flex-wrap: wrap">
+<syntaxhighlight lang="wikitext">
+{{Pie chart
+|1= [
+	{"value":500, "label": "Cappuccino"},
+	{"value":420, "label": "Latte"},
+	{"value":280, "label": "Espresso"},
+	{"value":160, "label": "Tea"},
+	{"value":90, "label": "Pastries"},
+]
+|labelformat=($percent) $label: $value ± 5
+|thumb=none
+|legend=true
+|autoscale=true
+}}
+</syntaxhighlight>
+{{Pie chart
+|1= [
+	{"value":500, "label": "Cappuccino"},
+	{"value":420, "label": "Latte"},
+	{"value":280, "label": "Espresso"},
+	{"value":160, "label": "Tea"},
+	{"value":90, "label": "Pastries"},
+]
+|labelformat=($percent) $label: $value ± 5
+|thumb=none
+|legend=true
+|autoscale=true
+}}
+</div>
+
+====Legend position====
+When drawing the chart as body content, the legend is positioned to the left of the chart by default. You can change the display position using the {{para|direction}} parameter. Possible values include:
+{| class="wikitable" style="padding=3em;"
+|+ Using "direction" to position the legend
+!scope=col|Direction
+!scope=col|Example
+|-
+! scope=row style=text-align:left|{{para|direction|row}} (default){{pb}}The legend is to the left of the chart.
+|{{Pie chart|direction=row |[
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+ {"label": "sweets", "value": 5, "color":"darkred"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"}
+]
+|thumb=none
+|meta={"autoscale":true, "legend":true}
+}}
+|-
+! scope=row style=text-align:left|{{para|direction|row-reverse}} (reverse order){{pb}}The legend is to right of the chart.
+|{{Pie chart|direction=row-reverse |[
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+ {"label": "sweets", "value": 5, "color":"darkred"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"}
+]
+|thumb=none
+|meta={"autoscale":true, "legend":true}
+}}
+|-
+! scope=row style=text-align:left|{{para|direction|column}} (vertical){{pb}}The legend is above the chart.
+|{{Pie chart|direction=column| [
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+ {"label": "sweets", "value": 5, "color":"darkred"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"}
+]
+|thumb=none
+|meta={"autoscale":true, "legend":true}
+}}
+|-
+! scope=row style=text-align:left|{{para|direction|column-reverse}} (vertical, reversed){{pb}}The legend is below the chart.
+||{{Pie chart|direction=column-reverse| [
+ {"label": "cookies", "value": 2, "color":"goldenrod"},
+ {"label": "drinks", "value": 1, "color":"#ccf"},
+ {"label": "sweets", "value": 5, "color":"darkred"},
+ {"label": "sandwiches", "value": 3, "color":"wheat"}
+]
+|thumb=none
+|meta={"autoscale":true, "legend":true}
+}}
+|-
+|}
+
+== More examples ==
+The following code generates the pie chart shown at right. Note that the default chart size and colors are used.
+{{Pie chart
+|value1 = 1
+|value2 = 2
+|value3 = 3
+|value4 = 4
+|value5 = 5
+|value6 = 6
+|autoscale = true
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Pie chart
+|value1 = 1
+|value2 = 2
+|value3 = 3
+|value4 = 4
+|value5 = 5
+|value6 = 6
+|autoscale = true
+}}
+</syntaxhighlight>
+
+Here's a more real-world example with custom colors.
+{{Pie chart
+| caption= [[Religion in the Czech Republic]] in 2001.
+| label1 = [[Atheist]]s and [[agnostic]]s
+| value1 = 59
+| color1 = darkgreen
+| label2 = [[Catholic]]s
+| value2 = 26.8
+| color2 = brown
+| label3 = [[Protestant]]s
+| value3 = 2.5
+| color3 = #08f
+| other  = yes
+| other-color = silver
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Pie chart
+| caption= [[Religion in the Czech Republic]] in 2001.
+| label1 = [[Atheist]]s and [[agnostic]]s
+| value1 = 59
+| color1 = darkgreen
+| label2 = [[Catholic]]s
+| value2 = 26.8
+| color2 = brown
+| label3 = [[Protestant]]s
+| value3 = 2.5
+| color3 = #08f
+| other  = yes
+| other-color = silver
+}}
+</syntaxhighlight>
+
+== Limitations ==
+* Some browsers might have problems with [[Spatial anti-aliasing|anti-aliasing]] borders properly, so the lines might be a bit jagged.
+* Due to how the graphing is implemented, it is not possible to save a copy of the chart using the browser's "Save Image" function (however, a [[screenshot]] can be taken).
+* The default color palette is limited to 12 colors. It will loop, but a [[Help:Table|wikitable]] is more readable than a pie chart with too many slices.
+
+== Warnings and errors ==
+Some warnings are shown in the preview when the data supplied is invalid or suspicious.
+;Script warning&colon; pie chart&colon; Σ (value) = <span title="example sum of values">102%</span> <span title="(first value ... last value)">(0.12 ... 45.6)</span>
+:The sum of the supplied values is a bit greater than 100%, which probably means some of them are invalid (the sum is close to 100%, but not close enough). The first and last values are there to help you locate the invalid chart.
+: Two possible ways to deal with this problem:
+:# Double-check the data provided — there might be significant rounding errors (or a typo). Check with the source of the data or re-calculate.
+:# If you are using raw quantities you might want to let the template calculate proper percentages, add <syntaxhighlight lang="wikitext" inline>|autoscale=true</syntaxhighlight> to the template (see also: [[Template:Pie chart#param--autoscale]]).
+;Script warning&colon; pie chart&colon; Value too small ↆ 0.0001% (label of this small value)
+:One of the values is extremely small — too small to be drawn. Consider combining such small values into an "other" category or grouping your data differently.
+;Script warning&colon; pie chart&colon; Unknown variable (wrong format of your label)&colon; $valve
+:Indicates that an unknown variable was used in the label format. This might indicate a typo — for example, you may have meant to write <code>$value</code> but typed <code>$valve</code> instead. See also: [[Template:Pie chart#Label format]].
+
+==Notes==
+<references />
+
+== TemplateData ==
+{{template data header}}
+<templatedata>{
+	"params": {
+		"1": {
+			"suggested": true,
+			"label": "Chart items",
+			"description": "Array of chart items, each being a set of properties for a slice: value, label, and color. For most items, only \"value\" is required (for the last item, even value can be omitted). Colors can be omitted and will be assigned automatically. Instead of this parameter, you can also use \"value1\", \"label1\", \"color1\"...",
+			"example": "{\"label\": \"sweets\", \"value\": 5, \"color\": \"darkred\"}",
+			"type": "string"
+		},
+		"labelformat": {
+			"suggested": true,
+			"description": "Format of values in JSON mode. $auto is resolved differently when auto-scaling is on.",
+			"type": "line",
+			"suggestedvalues": [
+				"$label: $auto",
+				"$percent [$value]: $label"
+			],
+			"default": "$label: $auto"
+		},
+		"thumb": {
+			"suggested": true,
+			"description": "Specifies whether the chart is floated to the left or right, similar to an image.",
+			"type": "line",
+			"suggestedvalues": [
+				"right",
+				"left",
+				"none"
+			],
+			"default": "right"
+		},
+		"radius": {
+			"description": "Specifies the radius of the pie chart in pixels. If omitted, the default is 100.",
+			"type": "number"
+		},
+		"width": {
+			"description": "Specifies the box size in pixels. Remove this parameter to allow the size to adjust automatically (based on labels and graph size).",
+			"type": "number"
+		},
+		"autoscale": {
+			"suggested": true,
+			"description": "If set to true, the sum of values will be automatically scaled to 100%. Autoscale is always enabled when the sum of values exceeds 100.",
+			"type": "line",
+			"suggestedvalues": [
+				"true",
+				"false"
+			],
+			"default": "false"
+		},
+		"legend": {
+			"suggested": true,
+			"description": "If set to true, a legend will be added. Defaults to true if the thumb parameter is used.",
+			"type": "line",
+			"suggestedvalues": [
+				"true",
+				"false"
+			],
+			"default": "true"
+		},
+		"direction": {
+			"description": "Determines the placement of the legend. The chart and legend can be arranged in a column or a row.",
+			"type": "line",
+			"suggestedvalues": [
+				"row",
+				"row-reverse",
+				"column",
+				"column-reverse"
+			],
+			"default": "column-reverse"
+		},
+		"caption": {
+			"description": "Specifies the chart's caption, which appears before the legend. Only use this parameter if the legend is enabled. The caption can contain references.",
+			"type": "line"
+		},
+		"footer": {
+			"description": "Specifies the chart's footer, which appears after the legend. Only use this parameter if the legend is enabled.",
+			"type": "line"
+		},
+		"value1": {
+			"description": "Value for the first item (used instead of the chart items array)."
+		},
+		"label1": {
+			"description": "Label for the first item (used instead of the chart items array)."
+		},
+		"color1": {
+			"description": "Color for the first item/slice (used instead of the chart items array)."
+		},
+		"value2": {},
+		"value3": {},
+		"value4": {},
+		"value5": {},
+		"value6": {},
+		"value7": {},
+		"value8": {},
+		"value9": {},
+		"value10": {},
+		"label2": {},
+		"label3": {},
+		"label4": {},
+		"label5": {},
+		"label6": {},
+		"label7": {},
+		"label8": {},
+		"label9": {},
+		"label10": {},
+		"color2": {},
+		"color3": {},
+		"color4": {},
+		"color5": {},
+		"color6": {},
+		"color7": {},
+		"color8": {},
+		"color9": {},
+		"color10": {},
+		"other-label": {},
+		"other-color": {},
+		"other": {}
+	},
+	"description": "Template to create pie charts (proportionally divided circles). Note that values are approximate and may be automatically scaled to 100%.",
+	"format": "block",
+	"paramOrder": [
+		"1",
+		"labelformat",
+		"thumb",
+		"legend",
+		"direction",
+		"autoscale",
+		"caption",
+		"footer",
+		"radius",
+		"width",
+		"value1",
+		"label1",
+		"color1",
+		"value2",
+		"label2",
+		"color2",
+		"value3",
+		"label3",
+		"color3",
+		"value4",
+		"label4",
+		"color4",
+		"value5",
+		"label5",
+		"color5",
+		"value6",
+		"label6",
+		"color6",
+		"value7",
+		"label7",
+		"color7",
+		"value8",
+		"label8",
+		"color8",
+		"value9",
+		"label9",
+		"color9",
+		"value10",
+		"label10",
+		"color10",
+		"other-label",
+		"other-color",
+		"other"
+	]
+}</templatedata>
+
+== See also ==
+* {{tl|Brick chart}}
+* {{tl|Composition bar}}
+* [[Module:Chart]]
+
+{{Graph, chart and plot templates}}
+
+<includeonly>{{Sandbox other|
+| <!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Chart, diagram and graph formatting and function templates]]
+
+}}</includeonly>

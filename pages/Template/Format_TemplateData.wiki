@@ -1,0 +1,4 @@
+<includeonly>{{#ifeq:{{yesno-yes|{{{header}}}}}|yes|{{TemplateData header}}
+}}{{#invoke:Format TemplateData| f |classNoNumTOC=nonumtoc |cssParams=border:#B3B7FF 1px solid;|docpageCreate=%s/doc |docpageDetect=/doc$ |msgDescMiss=Missing description |cat=Templates with TemplateData errors}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

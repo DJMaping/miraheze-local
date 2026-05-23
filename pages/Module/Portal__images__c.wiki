@@ -1,0 +1,155 @@
+--[==[ This is the "C" list of portal image names. It contains a list of portal images for use with [[Module:Portal]]
+-- for portal names that start with the letter "C". For aliases to existing portal names, and for portal names that
+-- start with other letters, please use the appropriate page from the following list:
+ 
+-- [[Module:Portal/images/a]]       - for portal names beginning with "A".
+-- [[Module:Portal/images/b]]       - for portal names beginning with "B".
+-- [[Module:Portal/images/d]]       - for portal names beginning with "D".
+-- [[Module:Portal/images/e]]       - for portal names beginning with "E".
+-- [[Module:Portal/images/f]]       - for portal names beginning with "F".
+-- [[Module:Portal/images/g]]       - for portal names beginning with "G".
+-- [[Module:Portal/images/h]]       - for portal names beginning with "H".
+-- [[Module:Portal/images/i]]       - for portal names beginning with "I".
+-- [[Module:Portal/images/j]]       - for portal names beginning with "J".
+-- [[Module:Portal/images/k]]       - for portal names beginning with "K".
+-- [[Module:Portal/images/l]]       - for portal names beginning with "L".
+-- [[Module:Portal/images/m]]       - for portal names beginning with "M".
+-- [[Module:Portal/images/n]]       - for portal names beginning with "N".
+-- [[Module:Portal/images/o]]       - for portal names beginning with "O".
+-- [[Module:Portal/images/p]]       - for portal names beginning with "P".
+-- [[Module:Portal/images/q]]       - for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]       - for portal names beginning with "R".
+-- [[Module:Portal/images/s]]       - for portal names beginning with "S".
+-- [[Module:Portal/images/t]]       - for portal names beginning with "T".
+-- [[Module:Portal/images/u]]       - for portal names beginning with "U".
+-- [[Module:Portal/images/v]]       - for portal names beginning with "V".
+-- [[Module:Portal/images/w]]       - for portal names beginning with "W".
+-- [[Module:Portal/images/x]]       - for portal names beginning with "X".
+-- [[Module:Portal/images/y]]       - for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]       - for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]   - for portal names beginning with any other letters. This includes numbers,
+--                                    letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]] - for adding aliases for existing portal names. Use this page for variations
+--                                    in spelling and diacritics, etc., no matter what letter the portal begins with.
+ 
+-- When adding entries, please use alphabetical order. The format of the images table entries is as follows:
+--          ["portal name"] = "image.svg",
+-- The portal name should be the name of your portal, in lower case. For example, the portal name for 
+-- "Portal:United Kingdom" would be "united kingdom". The image name should be capitalised normally, and the "File:"
+-- namespace prefix should be
+-- omitted.
+]==]
+local ambox_globe = "Ambox globe.svg"
+local hour=tonumber(os.date("%k"))
+if hour >= 22 or hour < 6 then
+	ambox_globe = "Ambox globe Asia Australia.svg"
+else
+	if hour >= 14 and hour < 22 then
+		ambox_globe = "Ambox globe Americas.svg"
+	end
+end
+
+return {
+	["california"] = "Flag of California.svg|border|link=|alt=flag",
+	["california delta"] = "California SD-03 (2011).svg|alt=map",
+	["california roads"] = "California 1.svg|link=|alt=sign",
+	["california state university"] = "Flag of California.svg|border|link=|alt=flag",
+	["cambodia"] = "Flag of Cambodia.svg|border|link=|alt=flag",
+	["cameroon"] = "Flag of Cameroon.svg|border|link=|alt=flag",
+	["canada"] = "Maple Leaf (from roundel).svg|alt=flag",
+	["canadian communities"] = "Map Canada political-geo.png|link=|alt=",
+	["canadian football"] = "Canadian football.png|alt=icon",
+	["canadian law"] = "Supreme Court of Canada.jpg|link=|alt=",
+	["canadian territories"] = "Northern Canada.svg|alt=icon",
+	["canary islands"] = "Flag of the Canary Islands.svg|border|link=|alt=flag",
+	["cannabis"] = "Cannabis leaf.svg|alt=icon",
+	["cape cod and the islands"] = "Nobska Lighthouse 1.jpg|alt=icon",
+	["cape verde"] = "Flag of Cape Verde.svg|border|link=|alt=flag",
+	["capital district"] = "Empire State Plaza symbol 2.svg|link=|alt=|class=skin-invert-image",
+	["capitalism"] = "Capitalismlogo.svg|alt=icon",
+	["caribbean"] = "Relief Map of Caribbean.png|alt=map",
+	["caribbean community"] = "Flag of CARICOM.svg|border|link=|alt=flag",
+	["cars"] = "Sportcar sergio luiz ara 01.svg|link=|alt=",
+	["cartoon network"] = "Cartoon Network.svg|border|link=|alt=",
+	["cartoon"] = "Mad scientist.svg|alt=icon",
+	["catalan-speaking countries"] = "Siñal d'Aragón.svg|border|alt=icon",
+	["categories"] = "Gnome-fs-directory yellow.svg|alt=icon",
+	["catholic church"] = "046CupolaSPietro.jpg|border|alt=icon",
+	["cats"] = "Cat03.jpg|alt=icon",
+	["cayman islands"] = "Flag of the Cayman Islands.svg|border|link=|alt=flag",
+	["celts"] = "Triple-Spiral-4turns green transparent.svg|link=|alt=icon",
+	["central african republic"] = "Flag of the Central African Republic.svg|border|link=|alt=flag",
+	["central america"] = "Age of Consent - Central America.svg|alt=icon",
+	["central asia"] = "Central Asian Games participating countries.PNG|alt=icon",
+	["cetaceans"] = "Sperm whale fluke.jpg|link=|alt=",
+	["chad"] = "Flag of Chad.svg|border|link=|alt=flag",
+	["chandigarh"] = "Gandhi Bhawan at Punjab University.jpg|alt=icon",
+	["channel islands"] = "Flag of Sark.svg|border|link=|alt=flag",
+	["chemistry"] = "Papapishu-Lab-icon-6.svg|link=|alt=",
+	["chennai"] = "Chennai High Court 1200x800.jpg|alt=icon",
+	["cheshire"] = "Cheshire Flag.svg|border|alt=icon",
+	["chess"] = "Chess.svg|alt=icon",
+	["chhattisgarh"] = "India Chhattisgarh locator map.svg|border|alt=map",
+	["chicago"] = "Flag of Chicago, Illinois.svg|link=|alt=",
+	["children's literature"] = "Tom Sawyer 1876 frontispiece.jpg|link=|alt=",
+	["chile"] = "Flag of Chile.svg|border|link=|alt=flag",
+	["china"] = "Flag of the People's Republic of China.svg|border|link=|alt=flag",
+	["christianity"] = "P christianity.svg|alt=icon",
+	["christianity in india"] = "India with cross.svg|alt=icon",
+	["christmas"] = "Xmas tree.svg|link=|alt=",
+	["christmas island"] = "Flag of Christmas Island.svg|link=|alt=flag",
+	["civilizations"] = "Lascar Avenue of the Dead and the Pyramid of the Sun in the background (4566574277).jpg|border|alt=icon",
+	["civil rights movement"] = "Logo SNCC.svg|link=WP:ACRM|alt=",
+	["cities"] = "Ciudad.svg|alt=icon",
+	["clans of scotland"] = "Scottish clan map.png|link=|alt=map",
+	["classical music"] = "Audio a.svg|link=|alt=|class=skin-invert-image",
+	["classical tamil"] = "Word_Tamil.svg|link=|alt=word|class=skin-invert-image",
+	["climate change"] = "Climate change icon.png|link=|alt=icon",
+	["climbing"] = "Pictograms-nps-land-technical_rock_climbing.svg|link=|alt=icon|class=skin-invert-image",
+	["clothing"] = "Emojione 1F458.svg|alt=icon",
+	["cocos (keeling) islands"] = "Flag of Australia.svg|border|link=|alt=flag",
+	["coffee"] = "Emblem-relax.svg|alt=icon",
+	["college basketball"] = "Basketball.png|link=|alt=",
+	["college football"] = "NCAAFootball transparent.png|alt=icon",
+	["colombia"] = "Flag of Colombia.svg|border|link=|alt=flag",
+	["colorado"] = "Flag of Colorado.svg|border|link=|alt=flag",
+	["comedy"] = "SMirC-laugh.svg|alt=icon",
+	["comics"] = "Wikipetan-manga.png|alt=icon",
+	["communism"] = "Symbol-hammer-and-sickle.svg|link=|alt=",
+	["community"] = "P globe blue.png|alt=icon",
+	["comoros"] = "Flag of the Comoros.svg|border|link=|alt=flag",
+	["companies"] = "Industry5.svg|link=|alt=|class=skin-invert-image",
+	["computer programming"] = "Octicons-terminal.svg|alt=icon|class=skin-invert-image",
+	["computer science"] = "Internet map 1024.jpg|alt=icon",
+	["connecticut"] = "Flag of Connecticut.svg|border|link=|alt=flag",
+	["conservatism"] = "DodgerBlue flag waving.svg|link=|alt=",
+	["constructed languages"] = "Design conlang.png|alt=icon",
+	["contents"] = "Wikipedia's W.svg|link=|alt=|class=skin-invert-image",
+	["contents/indexes"] = "Pointing-right.svg|link=|alt=icon|class=skin-invert-image",
+	["contents/lists"] = "Liste.svg|alt=icon|class=skin-invert-image",
+	["contents/outlines"] = "Pointing-left.svg|link=|alt=icon|class=skin-invert-image",
+	["cooking"] = "One chef's hat.png|alt=icon|class=skin-invert-image",
+	["cook islands"] = "Flag of the Cook Islands.svg|border|link=|alt=flag",
+	["cornwall"] = "Flag of Cornwall.svg|border|link=|alt=flag",
+	["cosmology"] = "Ilc 9yr moll4096.png|link=|alt=",
+	["costa rica"] = "Flag of Costa Rica.svg|border|link=|alt=flag",
+	["côte d'ivoire"] = "Flag of Côte d'Ivoire.svg|border|link=|alt=flag",
+	["countries"] = "P countries-vector.svg|alt=icon",
+	["county kilkenny"] = "County Kilkenny arms.svg|alt=coat of arms",
+	["covid-19"] = "SARS-CoV-2 (Wikimedia colors).svg|alt=virus icon",
+	["cretaceous"] = "Shantungosaurus-v4.jpg|alt=",
+	["cricket"] = "Cricketball.png|link=|alt=",
+	["criminal justice"] = "Scale of justice 2.svg|link=|alt=",
+	["croatia"] = "Flag of Croatia.svg|border|link=|alt=flag",
+	["crustaceans"] = "Charybdis japonica.jpg|alt=icon",
+	["cuba"] = "Flag of Cuba.svg|border|link=|alt=flag",
+	["culture"] = "Taos Pueblo 1992.jpg|alt=icon",
+	["cumbria"] = "Herdwick sheep crop.jpg|alt=icon",
+	["curaçao"] = "Flag of Curaçao.svg|border|link=|alt=flag",
+	["cue sports"] = "Eight Ball Rack 2005 SeanMcClean.jpg|alt=icon",
+	["current events"] = ambox_globe .. "|link=|alt=",
+	["current events/turkey"] = "Wikinews-logo.png|alt=icon",
+	["cycling"] = "Cycling (road) pictogram.svg|link=|alt=icon|class=skin-invert-image",
+	["cyprus"] = "Flag of Cyprus.svg|border|link=|alt=flag",
+	["czech republic"] = "Flag of the Czech Republic.svg|border|link=|alt=flag",
+}

@@ -1,0 +1,28 @@
+The [[Help:HTML in wikitext|HTML mark-up]] produced by this template includes {{#if:{{{type|}}} |{{{type}}} |an [[{{{format}}} microformat]]}} that makes {{{data}}} readily [[Parsing|parsable]] by computer programs. This aids tasks such as the cataloguing of articles and maintenance of databases. For more information about the use of microformats on Wikipedia, please visit [[Wikipedia:WikiProject Microformats|the Microformat WikiProject]].<!--
+
+-->{{#if:{{{subtemplates<includeonly>|</includeonly>}}}
+    | <div style="margin-top:0.5em;margin-bottom:0.65em;">
+; {{large|Subtemplates}}
+{{{subtemplates}}}
+
+'''''Please do not remove instances of these subtemplates.'''''
+</div>}}<!--
+
+-->{{#if:{{{subsection1|}}}
+    | <div style="margin-top:0.5em;margin-bottom:0.65em;"><!--(newline in case subsection begins with heading:)-->
+{{{subsection1}}}
+</div>}}<!--
+
+-->{{#if:{{{1<includeonly>|</includeonly>}}} <!--(i.e. if at least one unnamed parameter supplied:)-->
+    | <div style="margin-top:0.5em;margin-bottom:0.65em;">
+; {{large|Classes used}}
+The [[HTML attribute|HTML class]]es of this microformat include:
+: {{hlist
+   |item_style=font-size:110%;{{{itemstyle|}}}
+   |{{{1}}} |{{{2<includeonly>|</includeonly>}}} |{{{3|<noinclude>{{nobold|……}}</noinclude>}}}
+   |{{{4|}}} |{{{5|}}} |{{{6|}}} |{{{7|}}} |{{{8|}}} |{{{9|}}} |{{{10|}}} |{{{11|}}} |{{{12|}}} |{{{13|}}} |{{{14|}}} |{{{15|}}} |{{{16|}}} |{{{17|}}} |{{{18|}}} |{{{19|}}} |{{{20|}}}
+  }}  </div>
+{{longitem|style=line-height:1.3em|'''''Please do not rename or remove these classes{{#if:{{{nocollapse<includeonly>|</includeonly>}}} |<br/>nor collapse nested elements which use them}}.'''''}}<!--
+-->}}<!--(end #if:[1])--><noinclude>
+{{documentation}}
+</noinclude>

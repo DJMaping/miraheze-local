@@ -1,0 +1,95 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]) -->
+{{High-use}}
+{{Template shortcut|Italic|Italics}}
+{{lua|Module:Italic title}}
+
+'''Template:Italic title''' italicizes page titles. Article titles cannot contain wiki formatting, such as <code><nowiki>''</nowiki></code>, so article titles cannot be italicized in the normal way. This template has the following effects:
+
+* Titles with no [[parentheses]] <code>()</code> are fully italicized:
+** {{Nowrap|<code>Foo</code>}} &rarr; {{Nowrap|'''''Foo'''''}}
+** {{Nowrap|<code>Talk:Foo</code>}} &rarr; {{Nowrap|'''Talk:''Foo'''''}}
+* Titles which contain parentheses are italicized before the first opening parenthesis:
+** {{Nowrap|<code>Foo (bar)</code>}} &rarr; {{Nowrap|'''''Foo'' (bar)'''}}
+** {{Nowrap|<code>Talk:Foo (bar)</code>}} &rarr; {{Nowrap|'''Talk:''Foo'' (bar)'''}}
+* Italicization can be forced on parenthesized text with the {{para|all|yes}} parameter.
+
+This template should only be used in articles that meet the criteria for italic titles given in the [[Wikipedia:Article titles#Italics and other formatting|Article titles]] policy.
+
+Meta templates which use this template should place {{Tl|Auto italic title}} in their documentation.
+
+==Location on page==
+If the page has a {{t|Short description}} template, this template should go immediately underneath it, normally as the second item on the page. If there is no {{t|Short description}} template, add this template at the very top of the page, above everything else. There ought to be no blank line after {{tlg|Italic title|nolink=1}} because that will cause an extra blank line in the page's rendered appearance.
+
+== Usage ==
+=== Basic usage ===
+{{tlx|Italic title|code=on}}
+
+=== All parameters ===
+{{tlx|Italic title|noerror|string{{=}}text in title|all{{=}}yes|code=on}}
+
+=== Wrapper ===
+Most calls to this template are of the form {{tlp|italic title|2=string=[[foo|<foo>]]|code=on}}. The wrapper template {{tl|ititle}} provides a shorthand for this case:
+
+{{tlp|ititle|[[foo|<foo>]]|code=on}}
+
+== Parameters ==
+* {{para|1}}: if this is set to {{para|1|noerror}}, error messages are suppressed. See [[#Errors]] for more details.
+* {{para|all}}: if this is set to {{para|all|yes}}, text in parentheses is italicized.
+* {{para|string}}: instead of italicizing the whole title, italicize only some specific text. For example, using {{para|string|Ally McBeal}} on the page {{nowrap|"List of Ally McBeal episodes"}} would result in {{nowrap|"List of ''Ally McBeal'' episodes"}}.
+
+<code><nowiki>{{</nowiki>[[Wikipedia:Page name#Changing the displayed title|DISPLAYTITLE]]:Desired Title<nowiki>}}</nowiki></code> can be used instead in cases not covered by the parameters, e.g. two substrings with italics, or italics combined with lowercase first character.
+
+== Errors ==
+Sometimes you may see red error messages like this at the top of the page:
+
+<span class="error"><nowiki>Warning: Display title "<i>Article title (disambiguation)</i>" overrides earlier display title "<i>Article title</i> (disambiguation)".</nowiki></span>
+
+This usually means that there is another instance of {{tl|Italic title}} on the page, usually added by one of the infoboxes. Certain infoboxes, for example {{tl|Infobox album}}, add {{tl|Italic title}} by default. Check the template documentation for any infobox used on the page; it may have instructions about how to deal with italic titles. You may be able to adjust the italics from the infobox instead of using {{tl|Italic title}} at the top of the article. Or if that does not work, you may be able to disable the infobox's italics code altogether.
+
+If you are still having problems, try putting {{tl|Italic title}} after the infobox. You can suppress the error message by using the code <code><nowiki>{{Italic title|noerror}}</nowiki></code>.
+
+Technical details: this template uses the [[Wikipedia:Magic words#Behavior switches|DISPLAYTITLE magic word]] to italicize the title. Error messages can be produced by any two templates which use this magic word, and are not limited to this template. If you are unsure why you are getting a particular error message, you can ask about it at [[Wikipedia:Village pump (technical)]].
+
+== Tracking categories ==
+If the {{para|string}} parameter is used but that string is not found in the title, the page is added to [[:Category:Pages using italic title with no matching string]].
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"description": "A template to italicize article titles",
+	"params": {
+		"1": {
+			"label": "Error options",
+			"description": "If set to \"noerror\", suppresses error messages. Using this is a last-ditch fix - see the template documentation for other options.",
+			"type": "string"
+		},
+		"all": {
+			"label": "All",
+			"description": "If set to \"yes\", italicization is forced on parenthesized text.",
+			"type": "string",
+			"required": false
+		},
+		"string": {
+			"label": "String",
+			"description": "Specify a string in the title to italicize, rather than italicizing the entire title.",
+			"type": "string",
+			"required": false
+		}
+	}
+}
+</templatedata>
+
+==See also==
+* [[WP:ITALICTITLE]]
+* {{Tlx|Italic title prefixed}}
+* {{Tlx|Italics correction}}
+* {{Tlx|Title language}}
+{{Correct title examples}}
+
+{{When on basepage
+|<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Correct title templates]]
+[[Category:Lua-based templates]]
+}}

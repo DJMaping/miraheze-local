@@ -1,0 +1,78 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Russia
+| flag alias = Flag of Russia.svg
+| flag alias-1668 = Flag of Russia (1668).svg
+| flag alias-1696 = Flag of Russia.svg
+| flag alias-1858 = Romanov Flag.svg
+| flag alias-1918a = Flag of Russia (1918).svg
+| flag alias-1918 = Flag of Russia (1918–1920).svg
+| flag alias-1925 = Flag of the Russian SFSR (1920-1937).svg
+| flag alias-1937 = Flag of the Russian SFSR (1937-1954).svg
+| flag alias-1954 = Flag of the Russian SFSR.svg
+| flag alias-1991 = Flag of Russia (1991–1993).svg
+<!-- MILITARY -->
+| flag alias-military = Banner of the Armed Forces of the Russian Federation (obverse).svg
+| link alias-military = Russian Armed Forces
+| flag alias-army = Flag of the Russian ground forces.svg
+| link alias-army = Russian Ground Forces
+| flag alias-naval = Naval Jack of Russia.svg
+| link alias-naval = {{#switch:{{{variant|}}}|VV MVD naval-1992=Russian Internal Troops|VV MVD naval=Russian Internal Troops|NGF naval-2016=National Guard Naval Service Corps{{!}}Russian National Guard|NGF naval=National Guard Naval Service Corps{{!}}Russian National Guard|Russian Navy}}
+| flag alias-VV MVD naval-1992 = Russia, Naval flag of ships and vessels of the Interior Force 1992.svg
+| flag alias-VV MVD naval = Russia, Naval flag of ships and vessels of the Interior Force 2000.svg
+| flag alias-NGF naval-2016 = Russia, Naval flag of ships and vessels of the Interior Force 2000.svg
+| flag alias-NGF naval = Russia, Flag of ships and vessels of the National Guard.svg
+| flag alias-navy = Naval Ensign of Russia.svg
+| link alias-navy = Russian Navy
+| flag alias-navy-1992 = Naval ensign of Russia (1992).svg
+| flag alias-air force = Flag of the Air Force of the Russian Federation.svg
+| link alias-air force = {{#switch:{{{variant|}}}|aerospace forces=Russian Aerospace Forces|Russian Air Force}}
+| flag alias-aerospace forces = Flag of the Russian Aerospace Forces.svg
+| flag alias-space force = Russian military space troops flag.svg
+| link alias-space force = Russian Space Forces
+| flag alias-marines = Флаг Морской пехоты ВМФ России (2021).jpg
+| link alias-marines = Russian Naval Infantry
+| flag alias-coast guard = Russia, Flag of border service 2008.svg
+| link alias-coast guard = Russian Coast Guard
+| flag alias-coast guard-1993 = Russia. Flag of ships of Border Guard Force 1993.svg
+| link alias-coast guard-1993 = Russian Coast Guard
+| flag alias-strategic force = Flag of the Strategic Missile Forces.svg
+| link alias-strategic force = Strategic Rocket Forces
+<!-- SPORTS -->
+| flag alias-roc-olympics = Russian Olympic Committee flag.png
+| flag alias-nbfr-badminton = Nbfr logo.png
+| flag alias-rwf-wrestling = RWF logo.svg
+| flag alias-tennis = Rtf tennis flag vector.svg
+| flag alias-auto = Russian Automobile Federation flag.svg
+| link alias-auto = Russian Automobile Federation
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1668
+| var2 = 1696
+| var3 = 1858
+| var4 = 1918a
+| var5 = 1918
+| var6 = 1925
+| var7 = 1937
+| var8 = 1954
+| var9 = 1991
+<!-- SPORTS -->
+| var10 = roc-olympics
+| var11 = nbfr-badminton
+| var12 = rwf-wrestling
+| var13 = tennis
+| var14 = auto
+<!-- MILITARY -->
+| var15 = navy-1992
+| var16 = VV MVD naval-1992
+| var17 = VV MVD naval
+| var18 = NGF naval
+| var19 = coast guard-1993
+| var20 = aerospace forces
+
+| redir1 = RUS
+| redir2 = Russian Federation
+</noinclude>
+}}

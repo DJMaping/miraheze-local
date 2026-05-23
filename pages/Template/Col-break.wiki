@@ -1,0 +1,5 @@
+<noinclude/>
+| class="col-break {{{class|}}}"<!-- see [[Template:Col-begin/styles.css]] --> {{#if:{{{width|}}}{{{align|}}}{{{gap|}}}{{{valign|}}}{{{style|}}}|style="{{#if:{{{width|}}}|width: {{{width}}};}}{{#if:{{{align|}}}|text-align: {{{align}}};}} {{#if: {{{gap|}}}|padding-left: {{{gap}}};}}{{#if:{{{valign|}}}|vertical-align: {{{valign}}};}}{{#if:{{{style|}}}|{{{style}}}}}"}} | <noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

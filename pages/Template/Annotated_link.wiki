@@ -1,0 +1,60 @@
+<includeonly>{{ {{{|safesubst:}}}#invoke:Annotated link | main
+
+| wikidata = {{{ wikidata |}}}
+| not_wikidata_for_links_starting_with = List of # Index of # Glossary of # Outline of # Timeline of # History of
+| not_wikidata_descriptions_including  = wikimedia # mediawiki # wikipedia # list # index # glossary # outline # overview
+
+| space_cat       = {{{ space_cat | {{{ space-cat |}}} }}}
+| not_single_word = organization # organisation # term
+
+| none_is_valid = yes
+| none_is_nil   = yes
+
+| name    = {{{ 1 | {{{ name | {{{ title |}}} }}} }}}
+| display = {{{ 2 | {{{ display | {{{ disp |}}} }}} }}}
+| dash    = {{{ 3 | {{{ dash | {{{ comma |}}} }}} }}}
+
+| template_link = {{{ template_link | {{{ template-link | {{{ tl |}}} }}} }}}
+
+| link_lang        = {{{ link_lang | {{{ link-lang | {{{ ll |}}} }}} }}}
+| link_lang_italic = {{{ link_lang_italic | {{{ link-lang-italic | {{{ lli |}}} }}} }}}
+| link_lang_nocat  = {{{ link_lang_nocat | {{{ link-lang-nocat | {{{ llnc |}}} }}} }}}
+| link_lang_size   = {{{ link_lang_size | {{{ link-lang-size | {{{ lls |}}} }}} }}}
+| link_lang_cat    = {{{ link_lang_cat | {{{ link-lang-cat | {{{ llc |}}} }}} }}}
+| link_lang_rtl    = {{{ link_lang_rtl | {{{ link-lang-rtl | {{{ llr |}}} }}} }}}
+
+| quote = {{{ quote | {{{ quote_link | {{{ quote-link | {{{ ql |}}} }}} }}} }}}
+
+| abbr       = {{{ abbr | {{{ abbreviation |}}} }}}
+| abbr_title = {{{ abbr_title | {{{ abbr-title | {{{ abbreviation_title | {{{ abbreviation-title | {{{ at |}}} }}} }}} }}} }}}
+
+| aka             = {{{ aka |}}}
+| aka_lang        = {{{ aka_lang | {{{ aka-lang | {{{ al |}}} }}} }}}
+| aka_lang_italic = {{{ aka_lang_italic | {{{ aka-lang-italic | {{{ ali |}}} }}} }}}
+| aka_lang_nocat  = {{{ aka_lang_nocat | {{{ aka-lang-nocat | {{{ alnc |}}} }}} }}}
+| aka_lang_size   = {{{ aka_lang_size | {{{ aka-lang-size | {{{ als |}}} }}} }}}
+| aka_lang_cat    = {{{ aka_lang_cat | {{{ aka-lang-cat | {{{ alc |}}} }}} }}}
+| aka_lang_rtl    = {{{ aka_lang_rtl | {{{ aka-lang-rtl | {{{ alr |}}} }}} }}}
+
+| wedge             = {{{ wedge | {{{ insert | {{{ extra |}}} }}} }}}
+| wedge_lang        = {{{ wedge_lang | {{{ wedge-lang | {{{ insert_lang | {{{ insert-lang | {{{ extra_lang | {{{ extra-lang | {{{ wl |}}} }}} }}} }}} }}} }}} }}}
+| wedge_lang_italic = {{{ wedge_lang_italic | {{{ wedge-lang-italic | {{{ insert_lang_italic | {{{ insert-lang-italic | {{{ extra_lang_italic | {{{ extra-lang-italic | {{{ wli |}}} }}} }}} }}} }}} }}} }}}
+| wedge_lang_nocat  = {{{ wedge_lang_nocat | {{{ wedge-lang_nocat | {{{ insert_lang_nocat | {{{ insert-lang-nocat | {{{ extra_lang_nocat | {{{ extra-lang-nocat | {{{ wlnc |}}} }}} }}} }}} }}} }}} }}}
+| wedge_lang_size   = {{{ wedge_lang_size | {{{ wedge-lang-size | {{{ insert_lang_size | {{{ insert-lang-size | {{{ extra_lang_size | {{{ extra-lang-size | {{{ wls |}}} }}} }}} }}} }}} }}} }}}
+| wedge_lang_cat    = {{{ wedge_lang_cat | {{{ wedge-lang-cat | {{{ insert_lang_cat | {{{ insert-lang-cat | {{{ extra_lang_cat | {{{ extra-lang-cat | {{{ wlc |}}} }}} }}} }}} }}} }}} }}}
+| wedge_lang_rtl    = {{{ wedge_lang_rtl | {{{ wedge-lang-rtl | {{{ insert_lang_rtl | {{{ insert-lang-rtl | {{{ extra_lang_rtl | {{{ extra-lang-rtl | {{{ wlr |}}} }}} }}} }}} }}} }}} }}}
+
+| desc_first_letter_case = {{{ desc_first_letter_case | {{{ desc-first-letter-case | {{{ desc_case | {{{ desc-case | {{{ case | {{{ dflc |}}} }}} }}} }}} }}} }}}
+
+| only     = {{{ only |}}}
+| prefer   = {{{ prefer |}}}
+| fallback = {{{ fallback |}}}
+
+| desc_lang_italic = {{{ desc_lang_italic | {{{ desc-lang-italic | {{{ dli |}}} }}} }}}
+| desc_lang_nocat  = {{{ desc_lang_nocat | {{{ desc-lang-nocat | {{{ dlnc |}}} }}} }}}
+| desc_lang_size   = {{{ desc_lang_size | {{{ desc-lang-size | {{{ dls |}}} }}} }}}
+| desc_lang_cat    = {{{ desc_lang_cat | {{{ desc-lang-cat | {{{ dlc |}}} }}} }}}
+| desc_lang_rtl    = {{{ desc_lang_rtl | {{{ desc-lang-rtl | {{{ dlr |}}} }}} }}}
+| desc_lang_no     = {{{ desc_lang_no | {{{ desc-lang-no | {{{ dlno |}}} }}} }}}
+
+}}</includeonly><noinclude>{{documentation}}</noinclude>

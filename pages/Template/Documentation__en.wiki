@@ -1,0 +1,31 @@
+<noinclude>
+<languages/>
+</noinclude><includeonly>{{#invoke:documentation|main|_content={{ {{#invoke:documentation|contentTitle}}}}}}</includeonly><noinclude>
+{{documentation|content=
+
+{{Lua|Module:Documentation}}
+This template automatically displays a documentation box like the one you are seeing now, of which the content is sometimes transcluded from another page.
+It is intended for pages which are [[Special:MyLanguage/Help:Transclusion|transcluded]] in other pages, i.e. templates, whether in the template namespace or not.
+
+== Usage ==
+
+=== Customising display ===
+
+Overrides exist to customise the output in special cases:
+* <nowiki>{{</nowiki>documentation{{!}}'''heading'''=<nowiki>}}</nowiki> - change the text of the "documentation" heading. If this is set to blank, the entire heading line (including the first [edit] link) will also disappear.
+
+== Rationale ==
+This template allows any page to use any documentation page, and makes it possible to protect templates while allowing anyone to edit the template's documentation and categories.
+It also reduces server resources by circumventing a [[w:Wikipedia:Template limits|technical limitation of templates]] (see a [[:en:Special:Diff/69888944|developer's explanation]]).
+
+== See also ==
+* [[w:Template:Documentation subpage]]
+* {{tim|Documentation}}
+* [[w:Wikipedia:Template documentation]]
+
+}}
+[[Category:Formatting templates{{#translation:}}|Template documentation]]
+[[Category:Template documentation{{#translation:}}| ]]
+</noinclude><includeonly>{{#if:{{{content|}}}|
+[[Category:Template documentation pages{{#translation:}}]]
+}}</includeonly>

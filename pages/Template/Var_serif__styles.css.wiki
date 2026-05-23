@@ -1,0 +1,5 @@
+.var-serif {
+	font-family: "Nimbus Roman No9 L", "Times New Roman", Times, serif;
+	font-size: 118%;
+	line-height: 1;
+}

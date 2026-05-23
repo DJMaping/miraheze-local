@@ -1,0 +1,3 @@
+{{#invoke:flag||Belgium}}<noinclude>
+{{flag template documentation|Belgium|BEL|BEL|BEL}}
+</noinclude>

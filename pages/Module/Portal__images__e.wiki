@@ -1,0 +1,86 @@
+--[==[ This is the "E" list of portal image names. It contains a list of portal images for use with [[Module:Portal]]
+-- for portal names that start with the letter "E". For aliases to existing portal names, and for portal names that
+-- start with other letters, please use the appropriate page from the following list:
+ 
+-- [[Module:Portal/images/a]]       - for portal names beginning with "A".
+-- [[Module:Portal/images/b]]       - for portal names beginning with "B".
+-- [[Module:Portal/images/c]]       - for portal names beginning with "C".
+-- [[Module:Portal/images/d]]       - for portal names beginning with "D".
+-- [[Module:Portal/images/f]]       - for portal names beginning with "F".
+-- [[Module:Portal/images/g]]       - for portal names beginning with "G".
+-- [[Module:Portal/images/h]]       - for portal names beginning with "H".
+-- [[Module:Portal/images/i]]       - for portal names beginning with "I".
+-- [[Module:Portal/images/j]]       - for portal names beginning with "J".
+-- [[Module:Portal/images/k]]       - for portal names beginning with "K".
+-- [[Module:Portal/images/l]]       - for portal names beginning with "L".
+-- [[Module:Portal/images/m]]       - for portal names beginning with "M".
+-- [[Module:Portal/images/n]]       - for portal names beginning with "N".
+-- [[Module:Portal/images/o]]       - for portal names beginning with "O".
+-- [[Module:Portal/images/p]]       - for portal names beginning with "P".
+-- [[Module:Portal/images/q]]       - for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]       - for portal names beginning with "R".
+-- [[Module:Portal/images/s]]       - for portal names beginning with "S".
+-- [[Module:Portal/images/t]]       - for portal names beginning with "T".
+-- [[Module:Portal/images/u]]       - for portal names beginning with "U".
+-- [[Module:Portal/images/v]]       - for portal names beginning with "V".
+-- [[Module:Portal/images/w]]       - for portal names beginning with "W".
+-- [[Module:Portal/images/x]]       - for portal names beginning with "X".
+-- [[Module:Portal/images/y]]       - for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]       - for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]   - for portal names beginning with any other letters. This includes numbers,
+--                                    letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]] - for adding aliases for existing portal names. Use this page for variations
+--                                    in spelling and diacritics, etc., no matter what letter the portal begins with.
+ 
+-- When adding entries, please use alphabetical order. The format of the images table entries is as follows:
+--          ["portal name"] = "image.svg",
+-- The portal name should be the name of your portal, in lower case. For example, the portal name for 
+-- "Portal:United Kingdom" would be "united kingdom". The image name should be capitalised normally, and the "File:"
+-- namespace prefix should be omitted.
+]==]
+
+return {
+	["earth sciences"] = "The Earth seen from Apollo 17 with transparent background.png|link=|alt=",
+	["earthquakes"] = "Good Friday Earthquake at Turnagain Arm.jpg|link=|alt=image",
+	["east asia"] = "East Asia Cutout Projection.png|border|alt=map",
+	["east germany"] = "Flag of East Germany.svg|border|link=|alt=flag",
+	["east sussex"] = "Arms of the East Sussex County Council.svg|alt=icon",
+	["east timor"] = "Flag of East Timor.svg|border|link=|alt=flag",
+	["eastern europe"] = "Eastern Europe (Robinson projection).png|border|alt=map",
+	["ecology"] = "Earth Day Flag.png|border|link=|alt=icon",
+	["ecuador"] = "Flag of Ecuador.svg|border|link=|alt=flag",
+	["ed, edd n eddy"] = "Ed, Edd n Eddy logo.png|link=|alt=",
+	["edinburgh"] = "Flag of Edinburgh.svg|alt=flag",
+	["education"] = "Diploma icon.png|alt=icon|class=skin-invert-image",
+	["education in india"] = "Nalanda University India ruins.jpg|alt=photo",
+	["egypt"] = "Flag of Egypt.svg|border|link=|alt=flag",
+	["eifel"] = "Noun hills Vectorstall.svg|alt=icon|class=skin-invert-image",
+	["el salvador"] = "Flag of El Salvador.svg|border|link=|alt=flag",
+	["electoral districts in canada"] = "Canpoligeoicon.png|link=|alt=",
+	["electrical engineering"] = "Angular lightningbolt.svg|link=|alt=icon",
+	["electronics"] = "Nuvola apps ksim.png|alt=icon",
+	["energy"] = "Crystal energy.svg|alt=icon",
+	["engineering"] = "Nuvola apps kcmsystem.svg|alt=icon",
+	["england"] = "Flag of England.svg|border|link=|alt=flag",
+	["english football"] = "Soccerball England.svg|link=|alt=",
+	["english language"] = "Shakespeare2.jpg|link=|alt=painting",
+	["english law"] = "Scale of justice 2 new.jpeg|alt=icon|class=skin-invert-image",
+	["entomology"] = "Orapia rayneri.svg|alt=image",
+	["environment"] = "Aegopodium podagraria1 ies.jpg|alt=icon",
+	["equatorial guinea"] = "Flag of Equatorial Guinea.svg|border|link=|alt=flag",
+	["eritrea"] = "Flag of Eritrea.svg|border|link=|alt=flag",
+	["erotica and pornography"] = "Pornproject logo.svg|alt=icon",
+	["estonia"] = "Flag of Estonia.svg|border|link=|alt=flag",
+	["eswatini"] = "Flag of Eswatini.svg|border|link=|alt=flag",
+	["ethiopia"] = "Flag of Ethiopia.svg|border|link=|alt=flag",
+	["eurasia"] = "Eurasia (orthographic projection).svg|alt=map",
+	["europe"] = "Europe (orthographic projection).svg|link=|alt=map",
+	["european military history"] = "Cartography of Europe (blue).svg|alt=map",
+	["european union"] = "Flag of Europe.svg|border|link=|alt=flag",
+	["eurovision song contest"] = "Eurovision Heart (2026–).svg|link=|alt=icon",
+	["evangelical christianity"] = "ChristianitySymbolWhite.PNG|alt=icon",
+	["evangelion"] = "Tree of life kircher plain.png|link=|alt=",
+	["evolutionary biology"] = "Tree of life.svg|alt=icon",
+	["extinct and endangered species"] = "ExtinctDodoBird.jpeg|link=|alt=",
+	["extraterrestrial"] = "Galaxy blue.jpg|alt=photo",
+}

@@ -1,0 +1,20 @@
+<includeonly>{{#if: {{{1|{{{id|}}}}}}
+| {{#if: {{{2|{{{title|{{{name|}}}}}}}}}
+  | {{#invoke:Template wrapper|wrap|_template=cite encyclopedia
+      |_exclude=type,id,links
+      |_alias-map=2:entry,3:access-date,4:date,title:entry,name:entry,entrydate:date,entry-date:date
+      |entry-url={{GNIS URL|{{{1|{{{id|}}}}}}|type={{{type|}}}}}
+      |encyclopedia={{#ifeq:{{{links|}}}|off
+        | Geographic Names Information System
+        | [[Geographic Names Information System]]}}
+      |publisher={{#ifeq:{{{links|}}}|off
+        | United States Geological Survey
+        | [[United States Geological Survey]], [[United States Department of the Interior]]}}
+    }}
+  | {{Citation error|no {{para|name}} specified|cite gnis|nocat={{main other||true}}}}
+  }}
+| {{Citation error|no {{para|id}} specified|cite gnis|nocat={{main other||true}}}}
+}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->
+</noinclude>

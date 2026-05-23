@@ -1,0 +1,27 @@
+class="wikitable {{{{{|safesubst:}}}#switch:{{{1|}}}
+| show|hidable|collapsible|mw-collapsible = mw-collapsible
+| auto|autocollapse = mw-collapsible autocollapse
+| hide|collapse|collapsed|mw-collapsed = mw-collapsible mw-collapsed
+| sort|sortable = sortable
+| outer|outercollapse = outercollapse
+| inner|innercollapse = innercollapse
+| 
+}} {{{{{|safesubst:}}}#switch:{{{2|}}}
+| show|hidable|collapsible|mw-collapsible = mw-collapsible
+| auto|autocollapse = mw-collapsible autocollapse
+| hide|collapse|collapsed|mw-collapsed = mw-collapsible mw-collapsed
+| sort|sortable = sortable
+| outer|outercollapse = outercollapse
+| inner|innercollapse = innercollapse
+| 
+}} {{{{{|safesubst:}}}#switch:{{{3|}}}
+| show|hidable|collapsible|mw-collapsible = mw-collapsible
+| auto|autocollapse = collapsible autocollapse
+| hide|collapse|collapsed|mw-collapsed = mw-collapsible mw-collapsed
+| sort|sortable = sortable
+| outer|outercollapse = outercollapse
+| inner|innercollapse = innercollapse
+| 
+}} {{{class|}}}"<noinclude>
+{{documentation}}
+</noinclude>

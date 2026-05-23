@@ -1,0 +1,414 @@
+{{WikiProject status|sc1=WP:WPFT|sc2=WP:FTP}}
+This WikiProject is responsible for the template system used to create flag icons, with or without associated wikilinks.  This project is '''only''' concerned with the '''implementation''' of these templates.
+*''See'' [[Wikipedia:WikiProject Heraldry and vexillology]] ''for issues regarding the flag images themselves.''
+*''See'' [[Wikipedia:Manual of Style (flags)]] ''for guidelines about flag icon usage.''
+
+==Main templates==
+===[[Template:Flag icon]]===
+Produces a small image of the named flag.  The image has a link to the article about the country associated with the flag.
+:'''Example:''' <code><nowiki>{{flag icon|Japan}}</nowiki></code> → {{flag icon|Japan}}
+:'''Example:''' <code><nowiki>{{flag icon|JPN}}</nowiki></code> → {{flag icon|JPN}}
+
+===[[Template:Flag]]===
+Produces a small image of the named flag, plus a wikilink to the associated article.  The icon image does not have a link (unlike <code>flag icon</code>) so that [[screen reader]]s do not render the name twice.
+:'''Example:''' <code><nowiki>{{flag|United Kingdom}}</nowiki></code> → {{flag|United Kingdom}}
+{{Notice|Note that also means this wikicode sequence: <code><nowiki>{{flag icon|</nowiki><var>name</var><nowiki>}} [[</nowiki><var>name</var>]]</code> can be (and should be) replaced by the simpler: <code><nowiki>{{flag|</nowiki><var>name</var><nowiki>}}</nowiki></code>.}}
+
+===[[Template:Flagu]]===
+Similar to <code>flag</code>, but the associated country name is unlinked.  This template should be used in articles with [[WP:OVERLINK]] concerns (e.g. when the same flag is used many times in a single table).
+:'''Example:''' <code><nowiki>{{flagu|United States}}</nowiki></code> → {{flagu|United States}}
+
+===[[Template:Flag country]]===
+Similar to <code>flag</code>, but always uses the preferred display text for the wikilinked article.  Useful when the input parameter can be a country code, or is a long-form country name because it links to a different article, such as for a historical country.
+:<table><tr><td>'''Examples:'''</td><td><code><nowiki>{{flag country|Kingdom of Italy}}</nowiki></code> → {{flag country|Kingdom of Italy}}</td></tr><tr><td></td><td><code><nowiki>{{flag country|BRA}}</nowiki></code> → {{flag country|BRA}} </td></tr><tr><td></td></tr></table>
+
+Compare with <code>flag</code>, which always uses the first parameter as display name (unless when overridden with <code>[[#name|name]]</code>):
+*<code><nowiki>{{flag|Kingdom of Italy}}</nowiki></code> → {{flag|Kingdom of Italy}}
+*<code><nowiki>{{flag|BRA}}</nowiki></code> → {{flag|BRA}}
+
+===[[Template:Flag decoration]]===
+Displays a flag of the named parameter in "icon" size, currently 23×15 pixels plus a one pixel border. This template is very similar to [[Template:Flag icon]], except the image is not linked to an article, i.e. it is "purely decorative" per [[World Wide Web Consortium]] (W3C) [[Web Content Accessibility Guidelines]] (WCAG). This template can be used when the article text immediately adjacent to the icon provides the associated link for the flag.
+
+;Comparison example:
+*{{tlx|flag icon|United Nations}} → {{flag icon|United Nations}}
+*{{tlx|flag decoration|United Nations}} → {{flag decoration|United Nations}}
+
+;Usage examples:
+*<code><nowiki>{{flag decoration|US}} [[List of presidents of the United States]]</nowiki></code> → {{flag decoration|US}} [[List of presidents of the United States]]
+*<code><nowiki>{{flag decoration|France}} [[French First Republic]]</nowiki></code> → {{flag decoration|France}} [[French First Republic]]
+
+==="Shortcut" flag templates===
+Many countries also have individual flag templates, named using standard three letter country codes so as to offer "shortcut" alternatives to the standard templates.  This is a mixed blessing; some country codes (like "USA") are widely known and the corresponding shortcut templates (i.e. <code><nowiki>{{USA}}</nowiki></code>) offer convenience, but some country codes are relatively obscure, so wiki markup would likely be clearer if the country names were spelled out in full.  Also, the shortcut templates do not offer the ability to use historical flag variants (described below), and are therefore less flexible.
+:'''Example:''' <code><nowiki>{{BEL}}</nowiki></code> → {{BEL}} ''(equivalent to <code><nowiki>{{flag|Belgium}}</nowiki></code>)''
+See [[Wikipedia:Inline templates linking country articles]] for a complete list.
+
+===List===
+Besides the ones mentioned above, many other flag templates exist. This (probably incomplete) list excludes the military (see [[#Military flag templates]]) and sports templates (see [[#National sport team flag templates]]). See each template's documentation for more details.
+
+{| class="wikitable"
+!Template!!Description!!Example
+|-
+|{{tl|flag}}||Unlinked icon with country link||{{#invoke:DemoTemplate|flag|Monaco}}
+|-
+|{{tl|flagbig}}||Large flag icon; name and icon separated by line break||{{#invoke:DemoTemplate|flagbig|Monaco}}
+|-
+|{{tl|flagc}}||Icon links to file description page (for attribution)||{{#invoke:DemoTemplate|flagc|Monaco}}
+|-
+|{{tl|flag country}}||Displays default country name instead of first parameter||{{#invoke:DemoTemplate|flag country|MON}}
+|-
+|{{tl|flag decoration}}||Unlinked flag icon only||{{#invoke:DemoTemplate|flag decoration|Monaco}}
+|-
+|{{tl|flag icon}}||Icon only, linked to country page||{{#invoke:DemoTemplate|flag icon|Monaco}}
+|-
+|{{tl|flagg}}||The most general flag template; many different output formats are possible depending on first parameter||{{#invoke:DemoTemplate|flagg|isb|Monaco}}
+|-
+|{{tl|flag link}}||Changes the link to one with text after the country name||{{#invoke:DemoTemplate|flag link|Monaco|in the Eurovision Song Contest}}
+|-
+|{{tl|flag+link}}||Changes the link to one with text before the country name, with existence check||{{#invoke:DemoTemplate|flag+link|History of|Monaco}}
+|-
+|{{tl|flaglist}}||Aligns country names correctly in vertical lists||{{#invoke:DemoTemplate|flaglist|Monaco}}
+|-
+|{{tl|flagof}}||Links to the article on the country's flag||{{#invoke:DemoTemplate|flagof|Monaco}}
+|-
+|{{tl|flagright}}||Icon after name||{{#invoke:DemoTemplate|flagright|Monaco}}
+|-
+|{{tl|flagu}}||Unlinked country name||{{#invoke:DemoTemplate|flagu|Monaco}}
+|-
+|{{unbulleted list|{{tl|getalias}}|{{tl|getalias2}}|[[Module:CountryData]]}}||Extracts one or more data field values from a template||{{#invoke:DemoTemplate|getalias|Monaco|flag}}
+|}
+
+The following templates do not technically use the flag template system, but are used similarly:
+{| class="wikitable"
+!Template!!Description!!Example
+|-
+|{{tl|flagicon image}}||Formats a flag with specified filename similarly to {{tl|flag decoration}} (for use if no data template exists).||{{#invoke:DemoTemplate|flagicon image|Lozenge flag of Monaco.svg}}
+|-
+|{{tl|noflag}}||Returns the first parameter with whitespace to its left, if one entry in a vertical list doesn't/shouldn't have an icon||{{#invoke:DemoTemplate|noflag|[[Monaco]]}}
+|}
+
+==Flag names==
+The first (positional) parameter for these templates specifies the country (or other entity) to be used for the flag image.  These actually identify ''additional'' templates that individually store information specific to that country.  For example, the image name and main article name used by <code><nowiki>{{flag|Norway}}</nowiki></code> (to produce {{flag|Norway}}) is stored in [[Template:Country data Norway]].  The complete set of these "country data" templates is found in [[:Category:Country data templates]].
+
+Note that there are country data templates for many entities that are not considered ''countries'', such as international organizations or sub-national entities.  The use of "country" in these template names is only because the original implementation of the flag template system was built upon [[Template:Country]] – a better name might have been "flag data", but it is likely too late for that change now.
+
+Some examples of non-country flag templates are:
+*<code><nowiki>{{flag|United Nations}}</nowiki></code> → {{flag|United Nations}}
+*<code><nowiki>{{flag|European Union}}</nowiki></code> → {{flag|European Union}}
+*<code><nowiki>{{flag|Catalonia}}</nowiki></code> → {{flag|Catalonia}}
+*<code><nowiki>{{flag|Bern}}</nowiki></code> → {{flag|Bern}}
+
+
+Many country data templates also exist for historical nations, and these can be used to produce the historical flags with wikilinks to the appropriate articles.  Some examples are:
+*<code><nowiki>{{flag|Austria-Hungary}}</nowiki></code> → {{flag|Austria-Hungary}}
+*<code><nowiki>{{flag|German Empire}}</nowiki></code> → {{flag|German Empire}}
+*<code><nowiki>{{flag|Soviet Union}}</nowiki></code> → {{flag|Soviet Union}}
+*<code><nowiki>{{flag|Yugoslavia}}</nowiki></code> → {{flag|Yugoslavia}}
+
+==Alias names==
+For added convenience, many flags can be identified by an ''alias name'', typically a three-letter country code.  For example, instead of <code><nowiki>{{flag icon|France}}</nowiki></code>, you could simply use <code><nowiki>{{flag icon|FRA}}</nowiki></code> to produce {{flag icon|FRA}}.
+
+Alias names are available for almost every nation listed in [[ISO 3166-1 alpha-3]], the [[list of IOC country codes]], and the [[list of FIFA country codes]].  For example, <code><nowiki>{{flag icon|DEU}}</nowiki></code> (ISO) and <code><nowiki>{{flag icon|GER}}</nowiki></code> (IOC and FIFA) both produce {{flag icon|DEU}}.  A small handful of other well-known abbreviations are also available (such as <code>UK</code>, <code>EU</code>, and <code>USSR</code>).
+
+Alias names are implemented as redirects in the template namespace.  For example, [[Template:Country data VEN]] is a redirect to [[Template:Country data Venezuela]].  The complete set of these redirects is listed in [[:Category:Country data redirects]], and the available alias redirect(s) for a given country data template (if any) are also documented on that template's page.
+
+{{ombox|image=[[Image:Dialog-warning.svg|40px]]|text=Please do not create redirect aliases with uncommon abbreviations, especially for countries or regions that do not have standard country codes.  Wikicode is much easier to read if the full name is used.  Even some of the standard country codes are not widely known!}}
+
+When using country code aliases, template <code>flag</code> will display this value for the wikilink's display text.  For example:
+*<code><nowiki>{{flag|USA}}</nowiki></code> → {{flag|USA}}
+*<code><nowiki>{{flag|UK}}</nowiki></code> → {{flag|UK}}
+*<code><nowiki>{{flag|CHN}}</nowiki></code> → {{flag|CHN}}
+
+Note that in each case, the target wikilink points to the correct article name (i.e. [[United States]], [[United Kingdom]], and [[People's Republic of China]], respectively) but the display text matches the input parameter to template <code>flag</code>.  This may be the desired effect, such as in column headings of a large table, but if the full name is wanted, then use [[Template:Flag country]] instead:
+
+*<code><nowiki>{{flag country|USA}}</nowiki></code> → {{flag country|USA}}
+*<code><nowiki>{{flag country|UK}}</nowiki></code> → {{flag country|UK}}
+*<code><nowiki>{{flag country|CHN}}</nowiki></code> → {{flag country|CHN}}
+
+Alias names have a second purpose, which is to provide alternative display text for target wikilinks.  For example, the main article linked by [[Template:Country data East Germany]] is [[East Germany]], but [[Template:Country data German Democratic Republic]] is a redirect alias.  Therefore, you can use <code><nowiki>{{flag|German Democratic Republic}}</nowiki></code> for {{flag|German Democratic Republic}}.  Again, note that the target article name for the generated wikilink is still [[East Germany]].
+
+==Flag variants==
+Many countries have had different flag variations at various periods in their history.  The flag template system can accommodate this by storing multiple flag variants inside country data templates.  A specific flag variant is selected by specifying an additional parameter to any of the standard flag templates.  This parameter is usually given as the second positional parameter to the template, but may also be given as the <code>variant</code> named parameter.
+
+'''Examples'''
+*<code><nowiki>{{flag|Germany|empire}}</nowiki></code> → {{flag|Germany|empire}}
+*<code><nowiki>{{flag|Germany|variant=empire}}</nowiki></code> → {{flag|Germany|variant=empire}}
+*<code><nowiki>{{flag country|Bangladesh|1971}}</nowiki></code> → {{flag country|Bangladesh|1971}}
+*<code><nowiki>{{flag icon|Bangladesh|1971}}</nowiki></code> → {{flag icon|Bangladesh|1971}}
+*<code><nowiki>{{flag country|CAN|1921}}</nowiki></code> → {{flag country|CAN|1921}}
+*<code><nowiki>{{flag icon|CAN|1921}}</nowiki></code> → {{flag icon|CAN|1921}}
+
+The set of available flag variants (if any) for a specific country data template are documented on the country data template page itself.  Each variant is identified by a short text label, such as <code>empire</code> or <code>1921</code> in the examples above.  Usually, the label identifies the year in which the flag was introduced, but this is not a mandatory style convention.
+
+{{ombox|image=[[Image:Dialog-warning.svg|40px|link=|alt=Warning]]
+|text=Do not change the name of an existing flag variant label unless you are absolutely certain it is not in use.  These labels are not like article names, where redirects are created when an article is renamed.  Changing a flag variant label will instantly break any current usage of that label.
+}}
+
+==Other common parameters==
+===Size===
+The default size for all flag icons created by these templates is 23x15px, with a one pixel border. That is, the icon will be no more than 23 pixels wide, and no more than 15 pixels tall. These dimensions were carefully chosen to generate the best results when flag icons are used in a bulleted list with the default browser text size. [[:Category:Country data templates with distinct default size|Some countries]] (mostly those with square or near-square flags) have different default sizes.
+
+In certain situations, it might be desirable to use a larger (or smaller) size, and this is enabled with the <code>size</code> named parameter, available with all standard templates.
+
+;Examples:
+*<code><nowiki>{{flag|MON|size=100px}}</nowiki></code> → {{flag|MON|size=100px}}
+*<code><nowiki>
+{{flag icon|BGD|size=40px}}</nowiki></code> → {{flag icon|BGD|size=40px}}
+*<code><nowiki>{{small|{{flag|Belgium|size=15px}}}}</nowiki></code> → {{small|{{flag|Belgium|size=15px}}}}
+
+===Name===
+The display text of the target wikilink is usually automatically generated, but can always be over-ridden with the <code>name</code> parameter.
+
+;Examples:
+*<code><nowiki>{{flag|South Korea|name=Korea}}</nowiki></code> → {{flag|South Korea|name=Korea}} ''(this name is used in several sports)''
+*<code><nowiki>{{flag|ROC|name=China}}</nowiki></code> → {{flag|ROC|name=China}} ''(China from 1912 to 1949)''
+
+
+{{Notice|Note that if the <code>name</code> parameter is used, then the <code>flag country</code> and <code>flag</code> templates are functionally identical.  Use template <code>flag</code> for shorter wikicode.}}
+
+==Military flag templates==
+===[[Template:Navy]]===
+Displays the naval ensign of the named country (identified as the <code>naval</code> variant in the corresponding country data template) plus a wikilink to the main article for the country's navy.  Note that the naval ensign for many countries is the same as the national flag.  Also note that the [[WP:SHIPS]] and [[WP:MILHIST]] conventions are to use naval ensigns, not naval jacks when identifying ships with flag icons.
+
+'''Examples'''
+*<code><nowiki>{{navy|UK}}</nowiki></code> → {{navy|UK}}
+*<code><nowiki>{{navy|US}}</nowiki></code> → {{navy|US}}
+
+===[[Template:Naval]]===
+Displays the navy's flag of the named country (identified as the <code>navy</code> variant in the corresponding country data template) plus a wikilink to the main article for the country's navy.  Note that this is the navy flag, which differs from the naval ensign, which for many countries is the same as the national flag. If the navy does not have a flag, the jack is used instead. Also note that the [[WP:SHIPS]] and [[WP:MILHIST]] conventions are to use naval ensigns, not navy flags when identifying ships with flag icons.
+
+'''Examples'''
+*<code><nowiki>{{naval|Mexico}}</nowiki></code> → {{naval|Mexico}}
+*<code><nowiki>{{naval|US}}</nowiki></code> → {{naval|US}}
+
+===[[Template:Coast guard]]===
+Displays a country's coast guard flag (the <code>coast guard</code> variant), or alternatively their [[racing stripe]], and a wikilink to the country's coast guard.
+
+'''Examples'''
+*<code><nowiki>{{coast guard|UK}}</nowiki></code> → {{coast guard|UK}}
+*<code><nowiki>{{coast guard|CAN}}</nowiki></code> → {{coast guard|CAN}}
+*<code><nowiki>{{coast guard|FRA}}</nowiki></code> → {{coast guard|FRA}}
+
+===[[Template:Army]]===
+Displays a country's army or war flag (the <code>army</code> variant) and a wikilink to the country's army.
+
+'''Examples'''
+*<code><nowiki>{{army|UK}}</nowiki></code> → {{army|UK}}
+*<code><nowiki>{{army|US}}</nowiki></code> → {{army|US}}
+*<code><nowiki>{{army|BAN}}</nowiki></code> → {{army|BAN}}
+
+===[[Template:Air force]]===
+Displays a country's air force flag (the <code>air force</code> variant) and a wikilink to the country's air force.
+
+'''Examples'''
+*<code><nowiki>{{air force|UK}}</nowiki></code> → {{air force|UK}}
+*<code><nowiki>{{air force|US}}</nowiki></code> → {{air force|US}}
+
+==National sport team flag templates==
+One of the most common instances of flag icon usage on Wikipedia is for national sport teams.  Several sets of sport-specific templates have been developed to also use this flag template system and some have variant forms (see individual templates' documentation):
+* [[Template:bandy]] for [[bandy]]
+* [[Template:bb]] for [[baseball]]
+* [[Template:bd]] for [[badminton]]
+* [[Template:bk]] for [[basketball]]
+* [[Template:cr]] for [[cricket]]
+* [[Template:davis]] and [[Template:fed]] for [[tennis]] ([[Davis Cup]] and [[Fed Cup]])
+* [[Template:fb]] for [[association football]] (soccer)
+* [[Template:fh]] for [[field hockey]]
+* [[Template:hb]] for [[handball]]
+* [[Template:ih]] for [[ice hockey]]
+* [[Template:iih]] for [[inline hockey]]
+* [[Template:kd]] for [[kabaddi]]
+* [[Template:korf]] for [[korfball]]
+* [[Template:nb]] for [[netball]]
+* [[Template:rl]] for [[rugby league]]
+* [[Template:ru]] for [[rugby union]]
+* [[Template:ru7]] for [[rugby sevens]]
+* [[Template:sb]] for [[softball]]
+* [[Template:speedway]] for [[motorcycle speedway]]
+* [[Template:squ]] for [[squash (sport)|squash]]
+* [[Template:svb]] for [[sitting volleyball]]
+* [[Template:vb]] for [[volleyball]]
+* [[Template:wp]] for [[water polo]]
+
+These templates have intentionally been given terse names because they tend to be used many, many times on individual pages for match results. They completely supersede a set of previously used national team-specific templates.  For example, <code><nowiki>{{fb|ITA}}</nowiki></code> replaced <code><nowiki>{{ITAf}}</nowiki></code>, <code><nowiki>{{ru|NZL}}</nowiki></code> replaced <code><nowiki>{{NZLru}}</nowiki></code>
+<code><nowiki>{{cr|BGD}}</nowiki></code> replaced <code><nowiki>{{BCB}}</nowiki></code>, etc.
+
+There are often several template variations available for a given sport:
+*with a "w" suffix, links to women's national team articles instead
+*with a "-rt" suffix, renders the flag icon to the right of the nation's name instead of to the left.  This formatting style is often used in match results
+*with a -big" suffix, renders the flag icon in larger size and the team name underneath the flag.  This formatting style is often used in tables of tournament results.
+
+For example, for football, the following templates are used:
+{| class="wikitable"
+!Team !! Standard !! Right flag !! Big flag
+|-
+|Men's national teams ||align=center| {{tl|fb}} ||align=center| {{tl|fb-rt}} ||align=center| {{tl|fb-big}}
+|-
+|| Examples || {{fb|Spain}} ||align=right| {{fb-rt|Netherlands}} ||align=center| {{fb-big|Germany}}
+|-
+|Women's national teams ||align=center| {{tl|fbw}} ||align=center| {{tl|fbw-rt}} ||align=center| {{tl|fbw-big}}
+|-
+||Examples || {{fbw|Spain}} ||align=right| {{fbw-rt|Netherlands}} ||align=center| {{fbw-big|Germany}}
+|}
+
+==User preference to disable display of flag icons==
+Users that do not like flag icons can disable them with a preference setting. A [[Cascading Style Sheets|CSS]] class is used within the internal formatting template, and the class setting can be changed from a user's [[WP:CSS|personal CSS file]] ([[Special:MyPage/skin.css|skin-specific]], [[Special:MyPage/common.css|cross-skin]], or [[m:Special:MyPage/global.css|global]]).
+
+Flag icon image rendering is disabled by:
+
+ .flagicon { display: none; }
+
+==Implementation==
+Three types of templates are used by the flag template system, each with a different function:
+#User-transcluded templates
+#Country data templates (internal)
+#Formatting templates (internal)
+
+For example, <code><nowiki>{{flag|Spain}}</nowiki></code>, uses:
+#[[Template:Flag]], to accept input parameters, such as the country name (mandatory) and the optional flag variant, size, and wikilink display name.
+#[[Template:Country data Spain]], to supply the image name and article name
+#[[Template:Flag/core]], to actually render the image icon and wikilink
+
+This system architecture means that:
+*all country-specific data is contained within individual country data templates, improving maintainability
+*the formatting wikicode is centralized in a very small number of templates, ensuring consistency
+
+===How it works===
+There are three steps in each flag template invocation.
+In the previous example of <code><nowiki>{{flag|Spain}}</nowiki></code>, the templates expand as follows:
+
+First, <code>Template:Flag</code> expands to invoke <code>Template:Country data Spain</code>, and ensure that all user-specified parameters are set.  The first parameter to the country data template is actually the ''name of the formatting template''.  This is the mechanism by which the same country data template can be used with multiple different formatting templates.  Therefore, the first step of expansion results in:
+<pre>
+{{country data Spain | flag/core | variant = | size = | name = Spain}}
+</pre>
+If the <code>variant</code> (or second positional parameter), the <code>size</code>, and/or <code>name</code> parameters were specified in the user invocation, these would be set to the desired value.  For example, <code><nowiki>{{flag|Spain|1939|name=España}}</nowiki></code> would expand to:
+<pre>
+{{country data Spain | flag/core | variant = 1939 | size = | name = España}}
+</pre>
+
+Next, the country data template expands to invoke the formatting template, plus add all the country-specific parameters.  Going back to the simpler example of <code><nowiki>{{flag|Spain}}</nowiki></code>, the second expansion results in:
+<pre>
+{{flag/core | alias = Spain | flag alias = Flag of Spain.svg | name = Spain}}
+</pre>
+
+Lastly, the formatting template is expanded to produce:
+<pre>
+<span class="flagicon">[[File:Flag of Spain.svg|23x15px|border |alt=|link=]]&amp;nbsp;</span>[[Spain]]
+</pre>
+
+===Basic country data template structure===
+The structure of all country data templates follows a standard pattern, which is extended to include additional parameters only when necessary.
+The empty boilerplate for all country data templates is as follows:
+<pre>
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias =
+| flag alias =
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
+</pre>
+There are two essential values that must be specified:
+#The <code>alias</code> value identifies the name of the main article associated with the flag.
+#The <code>flag alias</code> value identifies the image name of the default flag.
+The invocation of <code>country showdata</code> on the first line is used to automatically generate the template documentation, as described below.
+The <code><nowiki>size = {{{size|}}}</nowiki></code> and <code><nowiki>name = {{{name|}}}</nowiki></code> statements ensure that any user-specified size and/or name values are passed through from the ''outer'' template (<code>flag</code>, <code>flag icon</code>, etc.) to the ''inner'' formatting template.  Omission of these lines from the country data template would cause the size and name functionality to be disabled.
+
+===Adding flag variants===
+Additional flag variants are specified by individual <code>flag alias</code> statements.  The unique label for the variant is the suffix of the parameter name, as <code>flag alias-''label''</code> (don't forget the hyphen).  For example, [[Template:Country data Mexico]] has several flag variants, one of which is specified by:
+<pre>
+| flag alias-1934 = Flag of Mexico (1934-1968).png
+</pre>
+Therefore, when <code><nowiki>{{flag|Mexico|1934}}</nowiki></code> is transcluded, [[:Image:Flag of Mexico (1934-1968).png]] is rendered.  The selection of the flag variant is coded in the formatting templates.
+
+Country data templates with at least one flag variant (in addition to the default) '''must''' also have the following line:
+<pre>
+| variant = {{{variant|}}}
+</pre>
+Similar to the <code>size</code> and <code>name</code> parameters as described above, this statement is required to pass the variant value (e.g. <code>1934</code>) from the ''outer'' flag template to the ''inner'' formatting template.  Omission of this line will cause the flag variant selection to fail.
+
+===Disabling image border===
+If some flags are non-standard in shape and a 1px border is undesirable (for example for [[Template:Country data Nepal|Nepal]]), then the border for the main flag may be defeated by adding the parameter
+<pre>
+|border =
+</pre>
+
+To remove the border for certain variant flags only, use the pattern {{para|border-''variant''|}}, replacing <code>''variant''</code> with the respective variant label. For example:
+<pre>
+|border-1976 = 
+|border-colonial =
+</pre>
+
+Nothing should be added after the equal sign(s). See [[Template:Country data Poland]] for examples of this usage.
+
+Due to the coding of the flag templates, disabling the border for the main flag also automatically disables it for all flag variants. If the main flag should not have a border but any of the variants should, the respective {{para|border-''variant''}} parameters must be explicitly set to "border" to re-enable the 1px border:
+<pre>
+|border-1976 = border
+</pre>
+
+===Changing the wikilink display text===
+The best results are obtained when the template name matches the article wikilink (as specified by the <code>alias</code> value).  For example, [[Template:Country data Russia]] contains <code>alias = Russia</code>, which results in a target wikilink to [[Russia]].
+
+However, there are instances where the main article name contains a disambiguation string. For example, [[Template:Country data Georgia]] contains <code>alias = Georgia (country)</code>. Therefore, <code><nowiki>{{flag|Georgia}}</nowiki></code> results in {{flag|Georgia}}. Note that the wikilink is [[Georgia (country)]], but the display string is "Georgia", as expected.
+
+In these instances, an additional statement is needed to support [[Template:Flag country]] properly. The <code>shortname alias</code> parameter should be set to the desired text string, such as <code>shortname alias = Georgia</code>. In effect, the resultant wikilink will be generated as <code><nowiki>[[</nowiki>''alias''|''shortname alias'']]</code>, or <code><nowiki>[[Georgia (country)|Georgia]]</nowiki></code> in this specific example.
+
+===Changing the page being linked to===
+The templates {{tl|flaglink}} and {{tl|flag+link}} append and prepend text to the link target, respectively. For example, to link to the education system in a table comparing different countries' educational outcomes, use
+<pre>{{flag+link|Education in|Finland}}</pre>
+Which results in {{flag+link|Education in|Finland}}.
+
+For link targets that do not start or end with the country name, use the {{tl|flagdeco}} template (which returns an unlinked flag icon without text) followed by a standard wikilink:
+<pre>{{flagdeco|Finland}} [[Example page|Finland]]</pre>
+Which would look like this: {{flagdeco|Finland}} [[Example page|Finland]].
+
+===National sport team template parameters===
+Any country data template that will be used with a national team template must include an additional "pass-through" parameter:
+<pre>
+| altlink = {{{altlink|}}}
+</pre>
+This parameter is used to form the suffix of the associated wikilink.  For example, [[Template:cr]] appends "national cricket team" to the country name (<code>alias</code> value), and this process is enabled by the <code>altlink</code> parameter.
+
+In most cases, the flag and display name for national teams corresponds to the same flag and display name normally used for the nation.  However, in some instances these can be over-ridden by additional parameters within the country data template.  The default wikilink can also be changed in cases where the common naming convention is not used.
+
+Some examples:
+* [[South Korea]] is referred to as "Korea Republic" by [[FIFA]].  Therefore, [[Template:Country data South Korea]] includes <code>name alias-football</code> so that <code><nowiki>{{fb|South Korea}}</nowiki></code> produces {{fb|South Korea}}
+* In many sports, all-Ireland teams compete with athletes from both the [[Republic of Ireland]] and [[Northern Ireland]], and often under unique flags for each sport.  [[Template:Country data Ireland]] includes unique flags for several sports teams, such as <code><nowiki>flag alias-field hockey = Flag of Ireland hockey team.svg</nowiki></code>, so that <code><nowiki>{{fh|Ireland}}</nowiki></code> produces {{fh|Ireland}}
+* The New Zealand netball team is described at the [[Silver Ferns]] article, so to avoid the redirect at [[New Zealand national netball team]], [[Template:Country data New Zealand]] contains <code>link alias-netball = Silver Ferns</code> so that <code><nowiki>{{nb|New Zealand}}</nowiki></code> produces {{nb|New Zealand}}
+
+In each of these examples, the over-ride parameter (<code>name alias-football</code>, <code>flag alias-field hockey</code>, or <code>link alias-netball</code>) is identified by a unique per-sport variable that is passed from the appropriate sport team template.  For example, [[Template:fb]] includes <code>altvar = football</code>.  Therefore, any country data template that utilizes one or more team sport over-ride parameters must also include:
+<pre>
+| altvar = {{{altvar|}}}
+</pre>
+
+===Template documentation===
+Country data templates "self-document" themselves through [[Template:Country showdata]].  Recall that the first line of each country data template is an invocation to a formatting template, defaulting to <code>country showdata</code> if that parameter is missing:
+<pre>
+</pre>
+For simple country data templates, nothing further needs to be done to document them.  If any flag variants, redirect aliases, etc. are used with the template, they are documented by adding parameters specifically for use by <code>country showdata</code>. These extra parameters are enclosed in a <code><nowiki><noinclude>....</noinclude></nowiki></code> section as they should not be present for any other invocation of the country data template.
+
+See [[Template:Country showdata/doc]] for more information about how to document country data templates.
+
+==Alternatives to avoid Wikipedia's [[WP:PEIS|Post-expand include size]] limit==
+Pages with many flag icons may come close to or exceed Wikipedia's [[WP:PEIS|post-expand include size]] limit.  In these cases consider using modules or module-wrapper templates instead:[
+* [[Module:Flagg]] is a [[Wikipedia:Lua|Scribunto module]] that reads existing country data templates and can produce a wide variety of outputs to replicate most existing flag templates. It can be invoked directly or used via {{tl|Flagg}} (although the latter doubles the post-expand include size). See the documentation at [[:Template:Flagg/doc]] for usage.
+* [[Module:Flag]] is a wrapper for [[Module:Flagg]] that provides shortcuts to replace several common flag templates:
+{{#lsth:Module:Flag/doc|Examples}}
+
+==See also==
+* {{tl|Coat of arms}} for coats of arms in infoboxes and lists
+* {{tl|flag IOC}} for a similar template used exclusively for Olympic Games related articles, and uses a different internal mechanism than for these templates.
+* {{tl|Shipboxflag}} for display of flags in ship infoboxes
+* [[Wikipedia:Manual of Style (flags)]], the guideline about use of such flag icons in articles
+* [[ISO_3166-1_alpha-3#Current_codes|List of Country Codes for flag icons]]
+
+==Internal project templates==
+* {{tl|WikiProject Flag Template}}&nbsp;– banner for talk pages of template and flag-related project pages
+
+==Archives==
+* [[/Archive1]]&nbsp;– Archive of project when testing of flag template was completed. June 23, 2005
+* [http://en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Flag_Template&oldid=99256455 Revision as of 8 January 2007]&nbsp;– description of the previous version of the flag template system
+* [http://en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Flag_Template&oldid=164777309 Revision as of 3 November 2007]&nbsp;– before this page was completely rewritten
+[[Category:WikiProject Heraldry and vexillology|Flag Template]]
+[[Category:WikiProject Templates|Flag Template]]
+[[Category:WikiProject Flag Template]]
+
+[[th:วิกิพีเดีย:แม่แบบธง]]

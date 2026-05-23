@@ -1,0 +1,3 @@
+#REDIRECT [[Template:Dummy reference]]
+
+{{Redirect category shell|{{R from short name}}}}

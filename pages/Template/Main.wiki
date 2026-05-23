@@ -1,0 +1,4 @@
+<includeonly>{{#invoke:Labelled list hatnote|labelledList|Main article|Main articles|Main page|Main pages}}</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>

@@ -1,0 +1,23 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Oman
+| flag alias = Flag of Oman.svg
+| flag alias-1970 = Old Flag of Oman.svg
+| link alias-military = Sultan of Oman's Armed Forces
+| flag alias-naval = Naval Ensign of Oman.svg
+| link alias-naval = Royal Navy of Oman
+| flag alias-air force=Air Force Ensign of Oman.svg
+| link alias-air force=Royal Air Force of Oman
+| flag alias-army = Royal Army of Oman Flag.svg
+| link alias-army = Royal Army of Oman
+| flag alias-navy = Naval Ensign of Oman.svg
+| link alias-navy = Royal Navy of Oman
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1970
+| redir1 = OMN
+| redir2 = OMA
+</noinclude>
+}}

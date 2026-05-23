@@ -1,0 +1,36 @@
+-- This implements {{navbox top}} and {{navbox bottom}}
+local p = {}
+
+local function build_navbox(parentArgs, list)
+	local args = {}
+    for argName, value in pairs(parentArgs) do
+        if value ~= '' then
+            if type(argName) == 'string' then
+                args[argName] = value
+            end
+        end
+    end
+    args['bodystyle'] = 'display:table;' .. (args['bodystyle'] or '')
+    args['list1padding'] = '0'
+    args['list1style'] = 'border-width:0;'
+    args['list1'] = list
+    -- Note Navbox.navbox() has a kludge to order the parent frame's args
+    -- into a specific order. For now, this is omitted from this module.
+
+	local Navbox = require('Module:Navbox')
+    return Navbox._navbox(args)
+end
+
+function p.top(frame)
+	local args = frame:getParent().args
+	local parts = mw.text.split(build_navbox(args, '<ADD LIST HERE>'), '<ADD LIST HERE>')
+	return parts[1]
+end
+
+function p.bottom(frame)
+	local args = frame:getParent().args
+	local parts = mw.text.split(build_navbox(args, '<ADD LIST HERE>'), '<ADD LIST HERE>')
+	return parts[2]
+end
+
+return p

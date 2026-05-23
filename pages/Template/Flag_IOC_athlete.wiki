@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Country alias|flagXYZ|name=|type=athlete-O}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

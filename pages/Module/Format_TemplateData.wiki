@@ -1,0 +1,2170 @@
+local TemplateData = {
+  item = 46997995,
+  serial = "2025-02-07",
+  suite = "TemplateData"
+}
+
+local Failsafe = TemplateData
+
+local Config = {
+  -- Multiple option names mapped into unique internal fields.
+  basicCnf = {
+    catProblem = "strange",
+    classMultiColumns = "selMultClm",
+    classNoNumTOC = "suppressTOCnum",
+    classTable = "classTable",
+    cssParWrap = "cssTabWrap",
+    cssParams = "cssTable",
+    docpageCreate = "suffix",
+    docpageDetect = "subpage",
+    helpAliases = "supportAliases",
+    helpBoolean = "support4boolean",
+    helpContent = "support4content",
+    helpDate = "support4date",
+    helpDefault = "support4default",
+    helpFile = "support4wiki-file-name",
+    helpFormat = "supportFormat",
+    helpLine = "support4line",
+    helpNumber = "support4number",
+    helpPage = "support4wiki-page-name",
+    helpString = "support4string",
+    helpTemplate = "support4wiki-template-name",
+    helpURL = "support4url",
+    helpUser = "support4wiki-user-name",
+    msgDescMiss = "solo",
+    tStylesMultiColumns = "stylesMultClm",
+    tStylesTOCnum = "stylesTOCnum"
+  },
+  classTable = { "wikitable" },  -- Classes for params table
+  cssTable = false,              -- Styles for params table
+  cssTabWrap = false,            -- Styles for params table wrapper
+  debug = false,
+  debugmultilang = "#c0c0c0",
+  jsonDebug = "json-code-lint",  -- Class for jsonDebug tool
+  loudly = false,                -- Show exported element, etc.
+  solo = false,                  -- Complaint on missing description
+  strange = false,               -- Title of maintenance category
+  subpage = false,               -- Pattern to identify subpage
+  suffix = false,                -- Subpage creation scheme
+  suppressTOCnum = false         -- Class for TOC number suppression
+}
+local Data = {
+  div = false,      -- <div class="mw-templatedata-doc-wrap">
+  got = false,      -- table, initial templatedata object
+  heirs = false,    -- table, params that are inherited
+  jump = false,     -- source position at end of "params"
+  less = false,     -- main description missing
+  lasting = false,  -- old syntax encountered
+  lazy = false,     -- doc mode; do not generate effective <templatedata>
+  leading = false,  -- show TOC
+  -- low = false,   -- 1= mode
+  order = false,    -- parameter sequence
+  params = false,   -- table, exported parameters
+  scream = false,   -- error messages
+  sibling = false,  -- TOC juxtaposed
+  slang = nil,      -- project/user language code
+  slim = false,     -- JSON reduced to plain
+  source = false,   -- JSON input
+  strip = false,    -- <templatedata> evaluation
+  tag = false,      -- table, exported root element
+  title = false,    -- page
+  tree = false      -- table, rewritten templatedata object
+}
+local Permit = {
+  builder = {
+    after = "block",
+    align = "block",
+    block = "block",
+    compressed = "block",
+    dense = "block",
+    grouped = "inline",
+    half = "inline",
+    indent = "block",
+    inline = "inline",
+    last = "block",
+    lead = "block",
+    newlines = "*",
+    spaced = "inline"
+  },
+  colors = {
+    bg = "var(--background-color-base, #fff)",
+    deprecated = "#ffcbcb",
+    fg = "var(--color-base, #000)",
+    optional = "#eaecf0",
+    required = "#eaf3ff",
+    suggested = "#fff",
+    tableheadbg = "var(--background-color-progressive-subtle, #b3b7ff)"
+  },
+  params = {
+    aliases = "table",
+    autovalue = "string",
+    default = "string table I18N nowiki",
+    deprecated = "boolean string I18N",
+    description = "string table I18N",
+    example = "string table I18N nowiki",
+    inherits = "string",
+    label = "string table I18N",
+    required = "boolean",
+    style = "string table",
+    suggested = "boolean",
+    suggestedvalues = "string table number boolean",
+    type = "string"
+  },
+  root = {
+    description = "string table I18N",
+    format = "string",
+    maps = "table",
+    paramOrder = "table",
+    params = "table",
+    sets = "table"
+  },
+  search = "[{,]%%s*(['\"])%s%%1%%s*:%%s*%%{",
+  types = {
+    boolean = true,
+    content = true,
+    date = true,
+    line = true,
+    number = true,
+    string = true,
+    unknown = true,
+    url = true,
+    ["string/line"] = "line",
+    ["string/wiki-page-name"] = "wiki-page-name",
+    ["string/wiki-user-name"] = "wiki-user-name",
+    ["unbalanced-wikitext"] = true,
+    ["wiki-file-name"] = true,
+    ["wiki-page-name"] = true,
+    ["wiki-template-name"] = true,
+    ["wiki-user-name"] = true
+  }
+}
+
+local function Fault(alert)
+  -- Memorize error message.
+  -- Parameter:
+  --     alert  -- string, error message
+  if Data.scream then
+    Data.scream = string.format("%s *** %s", Data.scream, alert)
+  else
+    Data.scream = alert
+  end
+end -- Fault()
+
+local function Fetch(ask, allow)
+  -- Fetch module.
+  -- Parameter:
+  --     ask    -- string, with name
+  --                       "/global"
+  --                       "JSONutil"
+  --                       "Multilingual"
+  --                       "Text"
+  --                       "WLink"
+  --     allow  -- true: no error if unavailable
+  -- Returns table of module
+  -- Error: Module not available
+  local sign = ask
+  local r, stem
+  if sign:sub(1, 1) == "/" then
+    sign = TemplateData.frame:getTitle() .. sign
+  else
+    stem = sign
+    sign = "Module:" .. stem
+  end
+  if TemplateData.extern then
+    r = TemplateData.extern[sign]
+  else
+    TemplateData.extern = {}
+  end
+  if not r then
+    local lucky, g = pcall(require, sign)
+    if type(g) == "table" then
+      if stem and type(g[stem]) == "function" then
+        r = g[stem]()
+      else
+        r = g
+      end
+      TemplateData.extern[sign] = r
+    elseif not allow then
+      error(string.format("Fetch(%s) %s", sign, g), 0)
+    end
+  end
+  return r
+end -- Fetch()
+
+local function Foreign()
+  -- Guess human language, returns slang or not.
+  if type(Data.slang) == "nil" then
+    local Multilingual = Fetch("Multilingual", true)
+    if Multilingual and type(Multilingual.userLangCode) == "function" then
+      Data.slang = Multilingual.userLangCode()
+    else
+      Data.slang = mw.language.getContentLanguage():getCode():lower()
+    end
+  end
+  if Data.slang and mw.ustring.codepoint(Data.slang, 1, 1) > 122 then
+    Data.slang = false
+  end
+  return Data.slang
+end -- Foreign()
+
+local function facet(ask, at)
+  -- Find physical position of parameter definition in JSON.
+  -- Parameter:
+  --     ask  -- string, parameter name
+  --     at   -- number, physical position within definition
+  -- Returns number or nil.
+  local seek = string.format(Permit.search, ask:gsub("%%", "%%%%"):gsub("([%-.()+*?^$%[%]])", "%%%1"))
+  local i, k, r, slice, source
+  if not Data.jump then
+    Data.jump = Data.source:find("params", 2)
+    if Data.jump then
+      Data.jump = Data.jump + 7
+    else
+      Data.jump = 1
+    end
+  end
+  i, k = Data.source:find(seek, at + Data.jump)
+  while i and not r do
+    source = Data.source:sub(k + 1)
+    slice = source:match('^%s*"([^"]+)"s*:')
+    if not slice then
+      slice = source:match("^%s*'([^']+)'%s*:")
+    end
+    if (slice and Permit.params[slice]) or source:match("^%s*%}") then
+      r = k
+    else
+      i, k = Data.source:find(seek, k)
+    end
+  end -- while i
+  return r
+end -- facet()
+
+local function facilities(apply)
+  -- Retrieve details of suggestedvalues.
+  -- Parameter:
+  --     apply  -- table, with plain or enhanced values
+  --               .suggestedvalues  -- table|string|number, or more
+  -- Returns
+  --     1  -- table, with suggestedvalues
+  --     2  -- table, with CSS map, or not
+  --     3  -- string, with class, or not
+  --     4  -- string, with templatestyles, or not
+  local elements = apply.suggestedvalues
+  local s = type(elements)
+  local r1, r2, r3, r4
+  if s == "table" then
+    local values = elements.values
+    if type(values) == "table" then
+      r1 = values
+      if type(elements.scroll) == "string" then
+        r2 = r2 or {}
+        r2.height = apply.scroll
+        r2.overflow = "auto"
+      end
+      if type(elements.minwidth) == "string" then
+        local s = type(elements.maxcolumns)
+        r2 = r2 or {}
+        r2["column-width"] = elements.minwidth
+        if s == "string" or s == "number" then
+          s = tostring(elements.maxcolumns)
+          r2["column-count"] = s
+        end
+        if type(Config.selMultClm) == "string" then
+          r3 = Config.selMultClm
+        end
+        if type(Config.stylesMultClm) == "string" then
+          local src = Config.stylesMultClm .. "/styles.css"
+          r4 = TemplateData.frame:extensionTag("templatestyles", nil, { src = src })
+        end
+      end
+    elseif elements and elements ~= "" then
+      r1 = elements
+    end
+  elseif s == "string" then
+    s = mw.text.trim(about)
+    if s ~= "" then
+      r1 = {}
+      table.insert(r1, { code = s })
+    end
+  elseif s == "number" then
+    r1 = {}
+    table.insert(r1, { code = tostring(elements) })
+  end
+  return r1, r2, r3, r4
+end -- facilities()
+
+local function factory(adapt)
+  -- Retrieve localized text from system message.
+  -- Parameter:
+  --     adapt  -- string, message ID after "templatedata-"
+  -- Returns string, with localized text
+  local o = mw.message.new("templatedata-" .. adapt)
+  if Foreign() then
+    o:inLanguage(Data.slang)
+  end
+  return o:plain()
+end -- factory()
+
+local function faculty(adjust)
+  -- Test template argument for Boolean.
+  --     adjust  -- string or nil
+  -- Returns boolean.
+  local s = type(adjust)
+  local r
+  if s == "string" then
+    r = mw.text.trim(adjust)
+    r = (r ~= "" and r ~= "0")
+  elseif s == "boolean" then
+    r = adjust
+  else
+    r = false
+  end
+  return r
+end -- faculty()
+
+local function failures()
+  -- Retrieve error collection and category, returns string.
+  local r
+  if Data.scream then
+    local e = mw.html.create("span"):addClass("error"):wikitext(Data.scream)
+    r = tostring(e)
+    mw.addWarning("'''TemplateData'''<br />" .. Data.scream)
+    if Config.strange then
+      r = string.format("%s[[category:%s]]", r, Config.strange)
+    end
+  else
+    r = ""
+  end
+  return r
+end -- failures()
+
+local function fair(adjust)
+  -- Reduce text to one line of plain text, or noexport wikitext blocks.
+  --     adjust  -- string
+  -- Returns string with adjusted text.
+  local f = function(a)
+    return a:gsub("%s*\n%s*", " "):gsub("%s%s+", " ")
+  end
+  local tags = {
+    {
+      start = "<noexport>",
+      stop = "</noexport>",
+    },
+    {
+      start = "<exportonly>",
+      stop = "</exportonly>",
+      l = false,
+    },
+  }
+  local r = adjust
+  local i, j, k, s, tag
+  for m = 1, 2 do
+    tag = tags[m]
+    if r:find(tag.start, 1, true) then
+      s = r
+      r = ""
+      i = 1
+      tag.l = true
+      j, k = s:find(tag.start, i, true)
+      while j do
+        if j > 1 then
+          r = r .. f(s:sub(i, j - 1))
+        end
+        i = k + 1
+        j, k = s:find(tag.stop, i, true)
+        if j then
+          if m == 1 then
+            r = r .. s:sub(i, j - 1)
+          end
+          i = k + 1
+          j, k = s:find(tag.start, i, true)
+        else
+          Fault("missing " .. tag.stop)
+        end
+      end -- while j
+      r = r .. s:sub(i)
+    elseif m == 1 then
+      r = f(r)
+    end
+  end -- for m
+  if tags[2].l then
+    r = r:gsub("<exportonly>.*</exportonly>", "")
+  end
+  return r
+end -- fair()
+
+local function fancy(advance, alert)
+  -- Present JSON source.
+  -- Parameter:
+  --     advance  -- true, for nice
+  --     alert    -- true, for visible
+  -- Returns string.
+  local r
+  if Data.source then
+    local support = Config.jsonDebug
+    local css
+    if advance then
+      css = {
+        height = "6em",
+        resize = "vertical",
+      }
+      r = {
+        [1] = "syntaxhighlight",
+        [2] = Data.source,
+        lang = "json",
+        style = table.concat(css, ";"),
+      }
+      if alert then
+        r.class(support)
+      end
+      r = TemplateData.frame:callParserFunction("#tag", r)
+    else
+      css = {
+        ["font-size"] = "0.77em",
+        ["line-height"] = "1.35",
+      }
+      if alert then
+        css.resize = "vertical"
+      else
+        css.display = "none"
+      end
+      r = mw.html.create("pre"):addClass(support):css(css):wikitext(mw.text.encode(Data.source))
+      r = tostring(r)
+    end
+    r = "\n" .. r
+  else
+    r = ""
+  end
+  return r
+end -- fancy()
+
+local function faraway(alternatives)
+  -- Retrieve best language version from multilingual text.
+  -- Parameter:
+  --     alternatives  -- table, to be evaluated
+  -- Returns
+  --     1  -- string, with best match
+  --     2  -- table of other versions, if any
+  local n = 0
+  local variants = {}
+  local r1, r2
+  for k, v in pairs(alternatives) do
+    if type(v) == "string" then
+      v = mw.text.trim(v)
+      if v ~= "" and type(k) == "string" then
+        k = k:lower()
+        variants[k] = v
+        n = n + 1
+      end
+    end
+  end -- for k, v
+  if n > 0 then
+    local Multilingual = Fetch("Multilingual", true)
+    if Multilingual and type(Multilingual.i18n) == "function" then
+      local show, slang = Multilingual.i18n(variants)
+      if show then
+        r1 = show
+        variants[slang] = nil
+        r2 = variants
+      end
+    end
+    if not r1 then
+      Foreign()
+      for k, v in pairs(variants) do
+        if n == 1 then
+          r1 = v
+        elseif Data.slang == k then
+          variants[k] = nil
+          r1 = v
+          r2 = variants
+        end
+      end -- for k, v
+    end
+    if r2 and Multilingual then
+      for k, v in pairs(r2) do
+        if v and not Multilingual.isLang(k, true) then
+          Fault(string.format("%s <code>lang=%s</code>", "Invalid", k))
+        end
+      end -- for k, v
+    end
+  end
+  return r1, r2
+end -- faraway()
+
+local function fashioned(about, asked, assign)
+  -- Create description head.
+  -- Parameter:
+  --     about   -- table, supposed to contain description
+  --     asked   -- true, if mandatory description
+  --     assign  -- <block>, if to be equipped
+  -- Returns <block> with head, or nil.
+  local para = assign or mw.html.create("div")
+  local plus, r
+  if about and about.description then
+    if type(about.description) == "string" then
+      para:wikitext(about.description)
+    else
+      para:wikitext(about.description[1])
+      plus = mw.html.create("ul")
+      plus:css("text-align", "left")
+      for k, v in pairs(about.description[2]) do
+        plus:node(
+          mw.html
+            .create("li")
+            :node(mw.html.create("code"):wikitext(k))
+            :node(mw.html.create("br"))
+            :wikitext(fair(v))
+        )
+      end -- for k, v
+      if Config.loudly then
+        plus = mw.html
+          .create("div")
+          :css("background-color", Config.debugmultilang)
+          :css("color", "inherit")
+          :node(plus)
+      else
+        plus:addClass("templatedata-maintain"):css("display", "none")
+      end
+    end
+  elseif Config.solo and asked then
+    para:addClass("error"):wikitext(Config.solo)
+    Data.less = true
+  else
+    para = false
+  end
+  if para then
+    if plus then
+      r = mw.html.create("div"):node(para):node(plus)
+    else
+      r = para
+    end
+  end
+  return r
+end -- fashioned()
+
+local function fatten(access)
+  -- Create table row for subheadline.
+  -- Parameter:
+  --     access  -- string, with name
+  -- Returns <tr>.
+  local param = Data.tree.params[access]
+  local sub, sort = access:match("(=+)%s*(%S.*)$")
+  local headline = mw.html.create(string.format("h%d", #sub))
+  local r = mw.html.create("tr")
+  local td = mw.html.create("td"):attr("colspan", "5"):attr("data-sort-value", "!" .. sort)
+  local s
+  if param.style then
+    s = type(param.style)
+    if s == "table" then
+      td:css(param.style)
+    elseif s == "string" then
+      td:cssText(param.style)
+    end
+  end
+  s = fashioned(param, false, headline)
+  if s then
+    headline = s
+  else
+    headline:wikitext(sort)
+  end
+  td:node(headline)
+  r:node(td)
+  return r
+end -- fatten()
+
+local function fathers()
+  -- Merge parameters with inherited values.
+  local n = 0
+  local p = Data.params
+  local t = Data.tree.params
+  local p2, t2
+  for k, v in pairs(Data.heirs) do
+    n = n + 1
+  end -- for k, v
+  for i = 1, n do
+    if Data.heirs then
+      for k, v in pairs(Data.heirs) do
+        if v and not Data.heirs[v] then
+          n = n - 1
+          t[k].inherits = nil
+          Data.heirs[k] = nil
+          p2 = {}
+          t2 = {}
+          if p[v] then
+            for k2, v2 in pairs(p[v]) do
+              p2[k2] = v2
+            end -- for k2, v2
+            if p[k] then
+              for k2, v2 in pairs(p[k]) do
+                if type(v2) ~= "nil" then
+                  p2[k2] = v2
+                end
+              end -- for k2, v2
+            end
+            p[k] = p2
+            for k2, v2 in pairs(t[v]) do
+              t2[k2] = v2
+            end -- for k2, v2
+            for k2, v2 in pairs(t[k]) do
+              if type(v2) ~= "nil" then
+                t2[k2] = v2
+              end
+            end -- for k2, v2
+            t[k] = t2
+          else
+            Fault("No params[] inherits " .. v)
+          end
+        end
+      end -- for k, v
+    end
+  end -- i = 1, n
+  if n > 0 then
+    local s
+    for k, v in pairs(Data.heirs) do
+      if v then
+        if s then
+          s = string.format("%s &#124; %s", s, k)
+        else
+          s = "Circular inherits: " .. k
+        end
+      end
+    end -- for k, v
+    Fault(s)
+  end
+end -- fathers()
+
+local function favorize()
+  -- Local customization issues.
+  local boole = { ["font-size"] = "1.25em" }
+  local l, cx = pcall(mw.loadData, TemplateData.frame:getTitle() .. "/config")
+  local scripting, style
+  TemplateData.ltr = not mw.language.getContentLanguage():isRTL()
+  if TemplateData.ltr then
+    scripting = "left"
+  else
+    scripting = "right"
+  end
+  boole["margin-" .. scripting] = "3em"
+  Permit.boole = {
+    [false] = {
+      css = boole,
+      lead = true,
+      show = "&#x2610;",
+    },
+    [true] = {
+      css = boole,
+      lead = true,
+      show = "&#x2611;",
+    },
+  }
+  Permit.css = {}
+  for k, v in pairs(Permit.colors) do
+    if k == "tableheadbg" then
+      k = "tablehead"
+    end
+    if k == "fg" then
+      style = "color"
+    else
+      style = "background-color"
+    end
+    Permit.css[k] = {}
+    Permit.css[k][style] = v
+  end -- for k, v
+  if type(cx) == "table" then
+    local c, s
+    if type(cx.permit) == "table" then
+      if type(cx.permit.boole) == "table" then
+        if type(cx.permit.boole[true]) == "table" then
+          Permit.boole[false] = cx.permit.boole[false]
+        end
+        if type(cx.permit.boole[true]) == "table" then
+          Permit.boole[true] = cx.permit.boole[true]
+        end
+      end
+      if type(cx.permit.css) == "table" then
+        for k, v in pairs(cx.permit.css) do
+          if type(v) == "table" then
+            Permit.css[k] = v
+          end
+        end -- for k, v
+      end
+    end
+    for k, v in pairs(Config.basicCnf) do
+      s = type(cx[k])
+      if s == "string" or s == "table" then
+        Config[v] = cx[k]
+      end
+    end -- for k, v
+  end
+  if type(Config.subpage) ~= "string" or type(Config.suffix) ~= "string" then
+    local got = mw.message.new("templatedata-doc-subpage")
+    local suffix
+    if got:isDisabled() then
+      suffix = "doc"
+    else
+      suffix = got:plain()
+    end
+    if type(Config.subpage) ~= "string" then
+      Config.subpage = string.format("/%s$", suffix)
+    end
+    if type(Config.suffix) ~= "string" then
+      Config.suffix = string.format("%%s/%s", suffix)
+    end
+  end
+end -- favorize()
+
+local function feasible(all, at, about)
+  -- Deal with suggestedvalues within parameter.
+  -- Parameter:
+  --     all    -- parameter details
+  --               .default
+  --               .type
+  --     at     -- string, with parameter name
+  --     about  -- suggestedvalues  -- table,
+  --                                   value and possibly description
+  --                                   table may have elements:
+  --                                   .code    -- mandatory
+  --                                   .label   -- table|string
+  --                                   .support -- table|string
+  --                                   .icon    -- string
+  --                                   .class   -- table|string
+  --                                   .css     -- table
+  --                                   .style   -- string
+  --                                   .less    -- true: suppress code
+  -- Returns
+  --     1: mw.html object <ul>
+  --     2: sequence table with values, or nil
+  local h = {}
+  local e, r1, r2, s, v
+  if #about > 0 then
+    for i = 1, #about do
+      e = about[i]
+      s = type(e)
+      if s == "table" then
+        if type(e.code) == "string" then
+          s = mw.text.trim(e.code)
+          if s == "" then
+            e = nil
+          else
+            e.code = s
+          end
+        else
+          e = nil
+          s = string.format("params.%s.%s[%d] %s", at, "suggestedvalues", i, "MISSING 'code:'")
+        end
+      elseif s == "string" then
+        s = mw.text.trim(e)
+        if s == "" then
+          e = nil
+          s = string.format("params.%s.%s[%d] EMPTY", at, "suggestedvalues", i)
+          Fault(s)
+        else
+          e = { code = s }
+        end
+      elseif s == "number" then
+        e = { code = tostring(e) }
+      else
+        s = string.format("params.%s.%s[%d] INVALID", at, "suggestedvalues", i)
+        Fault(s)
+        e = false
+      end
+      if e then
+        v = v or {}
+        table.insert(v, e)
+        if h[e.code] then
+          s = string.format("params.%s.%s REPEATED %s", at, "suggestedvalues", e.code)
+          Fault(s)
+        else
+          h[e.code] = true
+        end
+      end
+    end -- for i
+  else
+    Fault(string.format("params.%s.suggestedvalues %s", at, "NOT AN ARRAY"))
+  end
+  if v then
+    local code, d, k, less, story, swift, t, u
+    r1 = mw.html.create("ul")
+    r2 = {}
+    for i = 1, #v do
+      u = mw.html.create("li")
+      e = v[i]
+      table.insert(r2, e.code)
+      story = false
+      less = (e.less == true)
+      if not less then
+        swift = e.code
+        if e.support then
+          local scream, support
+          s = type(e.support)
+          if s == "string" then
+            support = e.support
+          elseif s == "table" then
+            support = faraway(e.support)
+          else
+            scream = "INVALID"
+          end
+          if support then
+            s = mw.text.trim(support)
+            if s == "" then
+              scream = "EMPTY"
+            elseif s:find("[%[%]|%<%>]") then
+              scream = "BAD PAGE"
+            else
+              support = s
+            end
+          end
+          if scream then
+            s = string.format("params.%s.%s[%d].support %s", at, "suggestedvalues", i, scream)
+            Fault(s)
+          else
+            swift = string.format("[[:%s|%s]]", support, swift)
+          end
+        end
+        if all.type:sub(1, 5) == "wiki-" and swift == e.code then
+          local rooms = {
+            file = 6,
+            temp = 10,
+            user = 2,
+          }
+          local ns = rooms[all.type:sub(6, 9)] or 0
+          t = mw.title.makeTitle(ns, swift)
+          if t and t.exists then
+            swift = string.format("[[:%s|%s]]", t.prefixedText, swift)
+          end
+        end
+        if e.code == all.default then
+          k = 800
+        else
+          k = 300
+        end
+        code =
+          mw.html.create("code"):css("font-weight", tostring(k)):css("white-space", "nowrap"):wikitext(swift)
+        u:node(code)
+      end
+      if e.class then
+        s = type(e.class)
+        if s == "string" then
+          u:addClass(e.class)
+        elseif s == "table" then
+          for k, s in pairs(e.class) do
+            u:addClass(s)
+          end -- for k, s
+        else
+          s = string.format("params.%s.%s[%d].class INVALID", at, "suggestedvalues", i)
+          Fault(s)
+        end
+      end
+      if e.css then
+        if type(e.css) == "table" then
+          u:css(e.css)
+        else
+          s = string.format("params.%s.%s[%d].css INVALID", at, "suggestedvalues", i)
+          Fault(s)
+        end
+      end
+      if e.style then
+        if type(e.style) == "string" then
+          u:cssText(e.style)
+        else
+          s = string.format("params.%s.%s[%d].style INVALID", at, "suggestedvalues", i)
+          Fault(s)
+        end
+      end
+      if all.type == "wiki-file-name" and not e.icon then
+        e.icon = e.code
+      end
+      if e.label then
+        s = type(e.label)
+        if s == "string" then
+          s = mw.text.trim(e.label)
+          if s == "" then
+            s = string.format("params.%s.%s[%d].label %s", at, "suggestedvalues", i, "EMPTY")
+            Fault(s)
+          else
+            story = s
+          end
+        elseif s == "table" then
+          story = faraway(e.label)
+        else
+          s = string.format("params.%s.%s[%d].label INVALID", at, "suggestedvalues", i)
+          Fault(s)
+        end
+      end
+      s = false
+      if type(e.icon) == "string" then
+        t = mw.title.makeTitle(6, e.icon)
+        if t and t.file.exists then
+          local g = mw.html.create("span")
+          s = string.format("[[%s|16px]]", t.prefixedText)
+          g:attr("role", "presentation"):wikitext(s)
+          s = tostring(g)
+        end
+      end
+      if not s and not less and e.label then
+        s = mw.ustring.char(0x2013)
+      end
+      if s then
+        d = mw.html.create("span"):wikitext(s)
+        if TemplateData.ltr then
+          if not less then
+            d:css("margin-left", "0.5em")
+          end
+          if story then
+            d:css("margin-right", "0.5em")
+          end
+        else
+          if not less then
+            d:css("margin-right", "0.5em")
+          end
+          if story then
+            d:css("margin-left", "0.5em")
+          end
+        end
+        u:node(d)
+      end
+      if story then
+        u:wikitext(story)
+      end
+      r1:newline():node(u)
+    end -- for i
+  end
+  if not r1 and v ~= false then
+    Fault(string.format("params.%s.suggestedvalues INVALID", at))
+    r1 = mw.html.create("code"):addClass("error"):wikitext("INVALID")
+  end
+  return r1, r2
+end -- feasible()
+
+local function feat()
+  -- Check and store parameter sequence.
+  if Data.source then
+    local i = 0
+    local s
+    for k, v in pairs(Data.tree.params) do
+      if i == 0 then
+        Data.order = {}
+        i = 1
+        s = k
+      else
+        i = 2
+        break -- for k, v
+      end
+    end -- for k, v
+    if i > 1 then
+      local pointers = {}
+      local points = {}
+      local given = {}
+      for k, v in pairs(Data.tree.params) do
+        i = facet(k, 1)
+        if type(v) == "table" then
+          if type(v.label) == "string" then
+            s = mw.text.trim(v.label)
+            if s == "" then
+              s = k
+            end
+          else
+            s = k
+          end
+          if given[s] then
+            if given[s] == 1 then
+              local scream = "Parameter label '%s' detected multiple times"
+              Fault(string.format(scream, s))
+              given[s] = 2
+            end
+          else
+            given[s] = 1
+          end
+        end
+        if i then
+          table.insert(points, i)
+          pointers[i] = k
+          i = facet(k, i)
+          if i then
+            s = "Parameter '%s' detected twice"
+            Fault(string.format(s, k))
+          end
+        else
+          s = "Parameter '%s' not detected"
+          Fault(string.format(s, k))
+        end
+      end -- for k, v
+      table.sort(points)
+      for i = 1, #points do
+        table.insert(Data.order, pointers[points[i]])
+      end -- i = 1, #points
+    elseif s then
+      table.insert(Data.order, s)
+    end
+  end
+end -- feat()
+
+local function feature(access)
+  -- Create table row for parameter, check and display violations.
+  -- Parameter:
+  --     access  -- string, with name
+  -- Returns <tr>.
+  local mode, s, status
+  local fine = function(a)
+    s = mw.text.trim(a)
+    return a == s and a ~= "" and not a:find("%|=\n") and not a:find("%s%s")
+  end
+  local begin = mw.html.create("td")
+  local code = mw.html.create("code")
+  local desc = mw.html.create("td")
+  local eager = mw.html.create("td")
+  local legal = true
+  local param = Data.tree.params[access]
+  local ranking = { "required", "suggested", "optional", "deprecated" }
+  local r = mw.html.create("tr")
+  local styles = "mw-templatedata-doc-param-"
+  local sort, typed
+
+  for k, v in pairs(param) do
+    if v == "" then
+      param[k] = false
+    end
+  end -- for k, v
+
+  -- label
+  sort = param.label or access
+  if sort:match("^%d+$") then
+    begin:attr("data-sort-value", string.format("%05d", tonumber(sort)))
+  end
+  begin:css("font-weight", "700"):wikitext(sort)
+
+  -- name and aliases
+  code:css("font-size", "0.92em"):css("white-space", "nowrap"):wikitext(access)
+  if not fine(access) then
+    code:addClass("error")
+    Fault(string.format("Bad ID params.<code>%s</code>", access))
+    legal = false
+    begin:attr("data-sort-value", " " .. sort)
+  end
+  code = mw.html.create("td"):addClass(styles .. "name"):node(code)
+  if access:match("^%d+$") then
+    code:attr("data-sort-value", string.format("%05d", tonumber(access)))
+  end
+  if type(param.aliases) == "table" then
+    local lapsus, syn
+    for k, v in pairs(param.aliases) do
+      code:tag("br")
+      if type(v) == "string" then
+        if not fine(v) then
+          lapsus = true
+          code:node(mw.html.create("span"):addClass("error"):css("font-style", "italic"):wikitext("string"))
+            :wikitext(s)
+        else
+          if Config.supportAliases then
+            s = string.format("[[%s|%s]]", Config.supportAliases, mw.text.nowiki(s))
+          end
+          syn = mw.html.create("span"):addClass(styles .. "alias"):css("white-space", "nowrap"):wikitext(s)
+          code:node(syn)
+        end
+      else
+        lapsus = true
+        code:node(mw.html.create("code"):addClass("error"):wikitext(type(v)))
+      end
+    end -- for k, v
+    if lapsus then
+      s = string.format("params.<code>%s</code>.aliases", access)
+      Fault(factory("invalid-value"):gsub("$1", s))
+      legal = false
+    end
+  end
+
+  -- description etc.
+  s = fashioned(param)
+  if s then
+    desc:node(s)
+  end
+  if param.style then
+    s = type(param.style)
+    if s == "table" then
+      desc:css(param.style)
+    elseif s == "string" then
+      desc:cssText(param.style)
+    end
+  end
+  if param.suggestedvalues or param.default or param.example or param.autovalue then
+    local details = {
+      "suggestedvalues",
+      "default",
+      "example",
+      "autovalue",
+    }
+    local dl = mw.html.create("dl")
+    local dd, section, show
+    for i = 1, #details do
+      s = details[i]
+      show = param[s]
+      if show then
+        dd = mw.html.create("dd")
+        section = factory("doc-param-" .. s)
+        if s == "default" and Config.support4default then
+          section = string.format("[[%s|%s]]", Config.support4default, mw.text.nowiki(section))
+        end
+        if param.type == "boolean" and (show == "0" or show == "1") then
+          local boole = Permit.boole[(show == "1")]
+          if boole.lead == true then
+            dd:node(mw.html.create("code"):wikitext(show)):wikitext(" ")
+          end
+          if type(boole.show) == "string" then
+            local v = mw.html.create("span"):attr("aria-hidden", "true"):wikitext(boole.show)
+            if boole.css then
+              v:css(boole.css)
+            end
+            dd:node(v)
+          end
+          if type(boole.suffix) == "string" then
+            dd:wikitext(boole.suffix)
+          end
+          if boole.lead == false then
+            dd:wikitext(" "):node(mw.html.create("code"):wikitext(show))
+          end
+        elseif s == "suggestedvalues" then
+          local v, css, class, ts = facilities(param)
+          if v then
+            local ul
+            ul, v = feasible(param, access, v)
+            if v then
+              dd:newline():node(ul)
+              if css then
+                dd:css(css)
+                if class then
+                  dd:addClass(class)
+                end
+                if ts then
+                  dd:newline()
+                  dd:node(ts)
+                end
+              end
+              Data.params[access].suggestedvalues = v
+            end
+          end
+        else
+          dd:wikitext(show)
+        end
+        dl:node(mw.html.create("dt"):wikitext(section)):node(dd)
+      end
+    end -- i = 1, #details
+    desc:node(dl)
+  end
+
+  -- type
+  if type(param.type) == "string" then
+    param.type = mw.text.trim(param.type)
+    if param.type == "" then
+      param.type = false
+    end
+  end
+  if param.type then
+    s = Permit.types[param.type]
+    typed = mw.html.create("td"):addClass(styles .. "type")
+    if s then
+      if s == "string" then
+        Data.params[access].type = s
+        typed:wikitext(factory("doc-param-type-" .. s)):tag("br")
+        typed:node(mw.html.create("span"):addClass("error"):wikitext(param.type))
+        Data.lasting = true
+      else
+        local support = Config["support4" .. param.type]
+        s = factory("doc-param-type-" .. param.type)
+        if support then
+          s = string.format("[[%s|%s]]", support, s)
+        end
+        typed:wikitext(s)
+      end
+    else
+      Data.params[access].type = "unknown"
+      typed:addClass("error"):wikitext("INVALID")
+      s = string.format("params.<code>%s</code>.type", access)
+      Fault(factory("invalid-value"):gsub("$1", s))
+      legal = false
+    end
+  else
+    typed = mw.html.create("td"):wikitext(factory("doc-param-type-unknown"))
+    Data.params[access].type = "unknown"
+    if param.default then
+      Data.params[access].default = nil
+      Fault("Default value requires <code>type</code>")
+      legal = false
+    end
+  end
+  typed:addClass("navigation-not-searchable")
+  -- status
+  if param.required then
+    mode = 1
+    if param.autovalue then
+      Fault(string.format("autovalued <code>%s</code> required", access))
+      legal = false
+    end
+    if param.default then
+      Fault(string.format("Defaulted <code>%s</code> required", access))
+      legal = false
+    end
+    if param.deprecated then
+      Fault(string.format("Required deprecated <code>%s</code>", access))
+      legal = false
+    end
+  elseif param.deprecated then
+    mode = 4
+  elseif param.suggested then
+    mode = 2
+  else
+    mode = 3
+  end
+  status = ranking[mode]
+  ranking = factory("doc-param-status-" .. status)
+  if mode == 1 or mode == 4 then
+    ranking = mw.html.create("span"):css("font-weight", "700"):wikitext(ranking)
+    if type(param.deprecated) == "string" then
+      ranking:tag("br")
+      ranking:wikitext(param.deprecated)
+    end
+    if param.suggested and mode == 4 then
+      s = string.format("Suggesting deprecated <code>%s</code>", access)
+      Fault(s)
+      legal = false
+    end
+  end
+  eager
+    :attr("data-sort-value", tostring(mode))
+    :node(ranking)
+    :addClass(string.format("%sstatus-%s %s", styles, status, "navigation-not-searchable"))
+
+  -- <tr>
+  r:attr("id", "templatedata:" .. mw.uri.anchorEncode(access))
+    :css(Permit.css[status])
+    :addClass(styles .. status)
+    :node(begin)
+    :node(code)
+    :node(desc)
+    :node(typed)
+    :node(eager)
+    :newline()
+  if not legal then
+    r:css("border", "3px solid #f00")
+  end
+  return r
+end -- feature()
+
+local function features()
+  -- Create <table> for parameters.
+  -- Returns <table>, or nil.
+  local r
+  if Data.tree and Data.tree.params then
+    local tbl = mw.html.create("table")
+    local tr = mw.html.create("tr")
+    feat()
+    if Data.order and #Data.order > 1 then
+      tbl:addClass("sortable")
+    end
+    if type(Config.classTable) == "table" then
+      for k, v in pairs(Config.classTable) do
+        tbl:addClass(v)
+      end -- for k, v
+    end
+    if type(Config.cssTable) == "table" then
+      tbl:css(Config.cssTable)
+    end
+    tr:addClass("navigation-not-searchable")
+      :node(
+        mw.html.create("th"):attr("colspan", "2"):css(Permit.css.tablehead):wikitext(factory("doc-param-name"))
+      )
+      :node(mw.html.create("th"):css(Permit.css.tablehead):wikitext(factory("doc-param-desc")))
+      :node(mw.html.create("th"):css(Permit.css.tablehead):wikitext(factory("doc-param-type")))
+      :node(mw.html.create("th"):css(Permit.css.tablehead):wikitext(factory("doc-param-status")))
+    tbl
+      :newline()
+      --         :node( mw.html.create( "thead" )
+      :node(tr)
+      --              )
+      :newline()
+    if Data.order then
+      local leave, s
+      for i = 1, #Data.order do
+        s = Data.order[i]
+        if s:sub(1, 1) == "=" then
+          leave = true
+          tbl:node(fatten(s))
+          Data.order[i] = false
+        elseif s:match("[=|]") then
+          Fault(string.format("Bad param <code>%s</code>", s))
+        else
+          tbl:node(feature(s))
+        end
+      end -- for i = 1, #Data.order
+      if leave then
+        for i = #Data.order, 1, -1 do
+          if not Data.order[i] then
+            table.remove(Data.order, i)
+          end
+        end -- for i = #Data.order, 1, -1
+      end
+      Data.tag.paramOrder = Data.order
+    end
+    if Config.cssTabWrap or Data.scroll then
+      r = mw.html.create("div")
+      if type(Config.cssTabWrap) == "table" then
+        r:css(Config.cssTabWrap)
+      elseif type(Config.cssTabWrap) == "string" then
+        -- deprecated
+        r:cssText(Config.cssTabWrap)
+      end
+      if Data.scroll then
+        r:css("height", Data.scroll):css("overflow", "auto")
+      end
+      r:node(tbl)
+    else
+      r = tbl
+    end
+  end
+  return r
+end -- features()
+
+local function fellow(any, assigned, at)
+  -- Check sets[] parameter and issue error message, if necessary.
+  -- Parameter:
+  --     any       -- should be number
+  --     assigned  -- parameter name
+  --     at        -- number, of set
+  local s
+  if type(any) ~= "number" then
+    s = "<code>sets[%d].params[%s]</code>??"
+    Fault(string.format(s, at, mw.text.nowiki(tostring(any))))
+  elseif type(assigned) == "string" then
+    if not Data.got.params[assigned] then
+      s = "<code>sets[%d].params %s</code> is undefined"
+      Fault(string.format(s, at, assigned))
+    end
+  else
+    s = "<code>sets[%d].params[%d] = %s</code>??"
+    Fault(string.format(s, k, type(assigned)))
+  end
+end -- fellow()
+
+local function fellows()
+  -- Check sets[] and issue error message, if necessary.
+  local s
+  if type(Data.got.sets) == "table" then
+    if type(Data.got.params) == "table" then
+      for k, v in pairs(Data.got.sets) do
+        if type(k) == "number" then
+          if type(v) == "table" then
+            for ek, ev in pairs(v) do
+              if ek == "label" then
+                s = type(ev)
+                if s ~= "string" and s ~= "table" then
+                  s = "<code>sets[%d].label</code>??"
+                  Fault(string.format(s, k))
+                end
+              elseif ek == "params" and type(ev) == "table" then
+                for pk, pv in pairs(ev) do
+                  fellow(pk, pv, k)
+                end -- for pk, pv
+              else
+                ek = mw.text.nowiki(tostring(ek))
+                s = "<code>sets[%d][%s]</code>??"
+                Fault(string.format(s, k, ek))
+              end
+            end -- for ek, ev
+          else
+            k = mw.text.nowiki(tostring(k))
+            v = mw.text.nowiki(tostring(v))
+            s = string.format("<code>sets[%s][%s]</code>??", k, v)
+            Fault(s)
+          end
+        else
+          k = mw.text.nowiki(tostring(k))
+          s = string.format("<code>sets[%s]</code> ?????", k)
+          Fault(s)
+        end
+      end -- for k, v
+    else
+      s = "<code>params</code> required for <code>sets</code>"
+      Fault(s)
+    end
+  else
+    s = "<code>sets</code> needs to be of <code>object</code> type"
+    Fault(s)
+  end
+end -- fellows()
+
+local function finalize(advance)
+  -- Wrap presentation into frame.
+  -- Parameter:
+  --     advance  -- true, for nice
+  -- Returns string.
+  local r, lapsus
+  if Data.div then
+    r = tostring(Data.div)
+  elseif Data.strip then
+    r = Data.strip
+  else
+    lapsus = true
+    r = ""
+  end
+  r = r .. failures()
+  if Data.source then
+    local live = (advance or lapsus)
+    if not live then
+      live = TemplateData.frame:preprocess("{{REVISIONID}}")
+      live = (live == "")
+    end
+    if live then
+      r = r .. fancy(advance, lapsus)
+    end
+  end
+  return r
+end -- finalize()
+
+local function find()
+  -- Find JSON data within page source (title).
+  -- Returns string, or nil.
+  local s = Data.title:getContent()
+  local i, j = s:find("<templatedata>", 1, true)
+  local r
+  if i then
+    local k = s:find("</templatedata>", j, true)
+    if k then
+      r = mw.text.trim(s:sub(j + 1, k - 1))
+    end
+  end
+  return r
+end -- find()
+
+local function flat(adjust)
+  -- Remove formatting from text string for VisualEditor.
+  -- Parameter:
+  --     arglist  -- string, to be stripped, or nil
+  -- Returns string, or nil.
+  local r
+  if adjust then
+    r = adjust:gsub("\n", " ")
+    if r:find("<noexport>", 1, true) then
+      r = r:gsub("<noexport>.*</noexport>", "")
+    end
+    if r:find("<exportonly>", 1, true) then
+      r = r:gsub("</?exportonly>", "")
+    end
+    if r:find("''", 1, true) then
+      r = r:gsub("'''", ""):gsub("''", "")
+    end
+    if r:find("<", 1, true) then
+      local Text = Fetch("Text")
+      r = r:gsub("<br */?>", "\r\n"):gsub("<sup>2</sup>", "&sup2;"):gsub("<sup>3</sup>", "&sup3;")
+      r = Text.getPlain(r)
+    end
+    if r:find("[", 1, true) then
+      local WLink = Fetch("WLink")
+      if WLink.isBracketedURL(r) then
+        r = r:gsub("%[([hf]tt?ps?://%S+) [^%]]+%]", "%1")
+      end
+      r = WLink.getPlain(r)
+    end
+    if r:find("&", 1, true) then
+      r = mw.text.decode(r)
+      if r:find("&shy;", 1, true) then
+        r = r:gsub("&shy;", "")
+      end
+    end
+  end
+  return r
+end -- flat()
+
+local function flush()
+  -- JSON encode narrowed input; obey unnamed (numerical) parameters.
+  -- Returns <templatedata> JSON string.
+  local r
+  if Data.tag then
+    r = mw.text.jsonEncode(Data.tag):gsub("%}$", ",")
+  else
+    r = "{"
+  end
+  r = r .. '\n"params":{'
+  if Data.order then
+    local sep = ""
+    local s
+    for i = 1, #Data.order do
+      s = Data.order[i]
+      r = string.format("%s%s\n%s:%s", r, sep, mw.text.jsonEncode(s), mw.text.jsonEncode(Data.params[s]))
+      sep = ",\n"
+    end -- for i = 1, #Data.order
+  end
+  r = r .. "\n}\n}"
+  return r
+end -- flush()
+
+local function focus(access)
+  -- Check components; focus multilingual description, build trees.
+  -- Parameter:
+  --     access  -- string, name of parameter, nil for root
+  local f = function(a, at)
+    local r
+    if at then
+      r = string.format("<code>params.%s</code>", at)
+    else
+      r = "''root''"
+    end
+    if a then
+      r = string.format("%s<code>.%s</code>", r, a)
+    end
+    return r
+  end
+  local parent
+  if access then
+    parent = Data.got.params[access]
+  else
+    parent = Data.got
+  end
+  if type(parent) == "table" then
+    local elem, permit, s, scope, slot, tag, target
+    if access then
+      permit = Permit.params
+      if type(access) == "number" then
+        slot = tostring(access)
+      else
+        slot = access
+      end
+    else
+      permit = Permit.root
+    end
+    for k, v in pairs(parent) do
+      scope = permit[k]
+      if scope then
+        s = type(v)
+        if s == "string" and k ~= "format" then
+          v = mw.text.trim(v)
+        end
+        if scope:find(s, 1, true) then
+          if scope:find("I18N", 1, true) then
+            if s == "string" then
+              elem = fair(v)
+            elseif s == "table" then
+              local translated
+              v, translated = faraway(v)
+              if v then
+                if translated and k == "description" then
+                  elem = {
+                    [1] = fair(v),
+                    [2] = translated,
+                  }
+                else
+                  elem = fair(v)
+                end
+              else
+                elem = false
+              end
+            end
+            if type(v) == "string" then
+              if k == "deprecated" then
+                if v == "1" then
+                  v = true
+                elseif v == "0" then
+                  v = false
+                end
+                elem = v
+              elseif scope:find("nowiki", 1, true) then
+                elem = mw.text.nowiki(v)
+                elem = elem:gsub("&#13;" .. string.char(10), "<br>")
+                v = v:gsub(string.char(13), "")
+              else
+                v = flat(v)
+              end
+            elseif s == "boolean" then
+              if scope:find("boolean", 1, true) then
+                elem = v
+              else
+                s = "Type <code>boolean</code> bad for " .. f(k, slot)
+                Fault(s)
+              end
+            end
+          else
+            if k == "params" and not access then
+              v = nil
+              elem = nil
+            elseif k == "format" and not access then
+              elem = mw.text.decode(v)
+              v = nil
+            elseif k == "inherits" then
+              elem = v
+              if not Data.heirs then
+                Data.heirs = {}
+              end
+              Data.heirs[slot] = v
+              v = nil
+            elseif k == "style" then
+              elem = v
+              v = nil
+            elseif s == "string" then
+              v = mw.text.nowiki(v)
+              elem = v
+            else
+              elem = v
+            end
+          end
+          if type(elem) ~= "nil" then
+            if not target then
+              if access then
+                if not Data.tree.params then
+                  Data.tree.params = {}
+                end
+                Data.tree.params[slot] = {}
+                target = Data.tree.params[slot]
+              else
+                Data.tree = {}
+                target = Data.tree
+              end
+            end
+            target[k] = elem
+            elem = false
+          end
+          if type(v) ~= "nil" then
+            if not tag then
+              if access then
+                if type(v) == "string" and v.sub(1, 1) == "=" then
+                  v = nil
+                else
+                  if not Data.params then
+                    Data.params = {}
+                  end
+                  Data.params[slot] = {}
+                  tag = Data.params[slot]
+                end
+              else
+                Data.tag = {}
+                tag = Data.tag
+              end
+            end
+            if type(v) ~= "nil" and k ~= "suggestedvalues" then
+              tag[k] = v
+            end
+          end
+        else
+          s = string.format("Type <code>%s</code> bad for %s", scope, f(k, slot))
+          Fault(s)
+        end
+      else
+        Fault("Unknown component " .. f(k, slot))
+      end
+    end -- for k, v
+    if not access and Data.got.sets then
+      fellows()
+    end
+  else
+    Fault(f() .. " needs to be of <code>object</code> type")
+  end
+end -- focus()
+
+local function format()
+  -- Build formatted element.
+  -- Returns <inline>.
+  local source = Data.tree.format:lower()
+  local r, s
+  if source == "inline" or source == "block" then
+    r = mw.html.create("i"):wikitext(source)
+  else
+    local code
+    if source:find("|", 1, true) then
+      local scan = "^[\n ]*%{%{[\n _]*|[\n _]*=[\n _]*%}%}[\n ]*$"
+      if source:match(scan) then
+        code = source:gsub("\n", "N")
+      else
+        s = mw.text.nowiki(source):gsub("\n", "&#92;n")
+        s = tostring(mw.html.create("code"):wikitext(s))
+        Fault("Invalid format " .. s)
+        source = false
+      end
+    else
+      local words = mw.text.split(source, "%s+")
+      local show, start, support, unknown
+      for i = 1, #words do
+        s = words[i]
+        if i == 1 then
+          start = s
+        end
+        support = Permit.builder[s]
+        if support == start or support == "*" then
+          Permit.builder[s] = true
+        elseif s:match("^[1-9]%d?") and Permit.builder.align then
+          Permit.builder.align = tonumber(s)
+        else
+          if unknown then
+            unknown = string.format("%s %s", unknown, s)
+          else
+            unknown = s
+          end
+        end
+      end -- i = 1, #words
+      if unknown then
+        s = tostring(mw.html.create("code"):css("white-space", "nowrap"):wikitext(s))
+        Fault("Unknown/misplaced format keyword " .. s)
+        source = false
+        start = false
+      end
+      if start == "inline" then
+        if Permit.builder.half == true then
+          show = "inline half"
+          code = "{{_ |_=_}}"
+        elseif Permit.builder.grouped == true then
+          show = "inline grouped"
+          code = "{{_ | _=_}}"
+        elseif Permit.builder.spaced == true then
+          show = "inline spaced"
+          code = "{{_ | _ = _ }}"
+        end
+        if Permit.builder.newlines == true then
+          show = show or "inline"
+          code = code or "{{_|_=_}}"
+          show = show .. " newlines"
+          code = string.format("N%sN", code)
+        end
+      elseif start == "block" then
+        local space = ""   -- amid "|" and name
+        local spaced = " " -- preceding "="
+        local spacer = " " -- following "="
+        local suffix = "N" -- closing "}}" on new line
+        show = "block"
+        if Permit.builder.indent == true then
+          start = " "
+          show = "block indent"
+        else
+          start = ""
+        end
+        if Permit.builder.compressed == true then
+          spaced = ""
+          spacer = ""
+          show = show .. " compressed"
+          if Permit.builder.last == true then
+            show = show .. " last"
+          else
+            suffix = ""
+          end
+        else
+          if Permit.builder.lead == true then
+            show = show .. " lead"
+            space = " "
+          end
+          if type(Permit.builder.align) ~= "string" then
+            local n
+            s = " align"
+            if Permit.builder.align == true then
+              n = 0
+              if type(Data.got) == "table" and type(Data.got.params) == "table" then
+                for k, v in pairs(Data.got.params) do
+                  if type(v) == "table" and not v.deprecated and type(k) == "string" then
+                    k = mw.ustring.len(k)
+                    if k > n then
+                      n = k
+                    end
+                  end
+                end -- for k, v
+              end
+            else
+              n = Permit.builder.align
+              if type(n) == "number" and n > 1 then
+                s = string.format("%s %d", s, n)
+              else
+                n = 0 -- How come?
+              end
+            end
+            if n > 1 then
+              spaced = string.rep("_", n - 1) .. " "
+            end
+            show = show .. s
+          elseif Permit.builder.after == true then
+            spaced = ""
+            show = show .. " after"
+          elseif Permit.builder.dense == true then
+            spaced = ""
+            spacer = ""
+            show = show .. " dense"
+          end
+          if Permit.builder.last == true then
+            suffix = spacer
+            show = show .. " last"
+          end
+        end
+        code = string.format("N{{_N%s|%s_%s=%s_%s}}N", start, space, spaced, spacer, suffix)
+        if show == "block" then
+          show = "block newlines"
+        end
+      end
+      if show then
+        r = mw.html.create("span"):wikitext(show)
+      end
+    end
+    if code then
+      source = code:gsub("N", "\n")
+      code = mw.text.nowiki(code):gsub("N", "&#92;n")
+      code = mw.html.create("code"):css("margin-left", "1em"):css("margin-right", "1em"):wikitext(code)
+      if r then
+        r = mw.html.create("span"):node(r):node(code)
+      else
+        r = code
+      end
+    end
+  end
+  if source and Data.tag then
+    Data.tag.format = source
+  end
+  return r
+end -- format()
+
+local function formatter()
+  -- Build presented documentation.
+  -- Returns <div>.
+  local r = mw.html.create("div")
+  local x = fashioned(Data.tree, true, r)
+  local s
+  if x then
+    r = x
+  end
+  if Data.leading then
+    local toc = mw.html.create("div")
+    local shift
+    if Config.suppressTOCnum then
+      toc:addClass(Config.suppressTOCnum)
+      if type(Config.stylesTOCnum) == "string" then
+        local src = Config.stylesTOCnum .. "/styles.css"
+        s = TemplateData.frame:extensionTag("templatestyles", nil, { src = src })
+        r:newline():node(s)
+      end
+    end
+    toc:addClass("navigation-not-searchable"):css("margin-top", "0.5em"):wikitext("__TOC__")
+    if Data.sibling then
+      local block = mw.html.create("div")
+      if TemplateData.ltr then
+        shift = "right"
+      else
+        shift = "left"
+      end
+      block:css("float", shift):wikitext(Data.sibling)
+      r:newline():node(block):newline()
+    end
+    r:newline():node(toc):newline()
+    if shift then
+      r:node(mw.html.create("div"):css("clear", shift)):newline()
+    end
+  end
+  s = features()
+  if s then
+    if Data.leading then
+      r:node(mw.html.create("h" .. Config.nested):wikitext(factory("doc-params"))):newline()
+    end
+    r:node(s)
+  end
+  if Data.shared then
+    local global = mw.html.create("div"):attr("id", "templatedata-global")
+    local shift
+    if TemplateData.ltr then
+      shift = "right"
+    else
+      shift = "left"
+    end
+    global:css("float", shift):wikitext(string.format("[[%s|%s]]", Data.shared, "Global"))
+    r:newline():node(global)
+  end
+  if Data.tree and Data.tree.format then
+    local e = format()
+    if e then
+      local show = "Format"
+      if Config.supportFormat then
+        show = string.format("[[%s|%s]]", Config.supportFormat, show)
+      end
+      r:node(mw.html.create("p"):addClass("navigation-not-searchable"):wikitext(show .. ": "):node(e))
+    end
+  end
+  return r
+end -- formatter()
+
+local function free()
+  -- Remove JSON comment lines.
+  if Data.source:find("//", 1, true) then
+    Data.source:gsub("([{,\"'])(%s*\n%s*//.*\n%s*)([{},\"'])", "%1%3")
+  end
+end -- free()
+
+local function full()
+  -- Build survey table from JSON data, append invisible <templatedata>.
+  Data.div = mw.html.create("div"):addClass("mw-templatedata-doc-wrap")
+  if Permit.css.bg then
+    Data.div:css(Permit.css.bg)
+  end
+  if Permit.css.fg then
+    Data.div:css(Permit.css.fg)
+  end
+  focus()
+  if Data.tag then
+    if type(Data.got.params) == "table" then
+      for k, v in pairs(Data.got.params) do
+        focus(k)
+      end -- for k, v
+      if Data.heirs then
+        fathers()
+      end
+    end
+  end
+  Data.div:node(formatter())
+  if not Data.lazy then
+    Data.slim = flush()
+    if TemplateData.frame then
+      local div = mw.html.create("div")
+      local tdata = {
+        [1] = "templatedata",
+        [2] = Data.slim,
+      }
+      Data.strip = TemplateData.frame:callParserFunction("#tag", tdata)
+      div:wikitext(Data.strip)
+      if Config.loudly then
+        Data.div:node(mw.html.create("hr"):css({ height = "7ex" }))
+      else
+        div:css("display", "none")
+      end
+      Data.div:node(div)
+    end
+  end
+  if Data.lasting then
+    Fault("deprecated type syntax")
+  end
+  if Data.less then
+    Fault(Config.solo)
+  end
+end -- full()
+
+local function furnish(adapt, arglist)
+  -- Analyze transclusion.
+  -- Parameter:
+  --     adapt    -- table, #invoke parameters
+  --     arglist  -- table, template parameters
+  -- Returns string.
+  local source
+  favorize()
+  -- deprecated:
+  for k, v in pairs(Config.basicCnf) do
+    if adapt[k] and adapt[k] ~= "" then
+      Config[v] = adapt[k]
+    end
+  end -- for k, v
+  if arglist.heading and arglist.heading:match("^[3-6]$") then
+    Config.nested = arglist.heading
+  else
+    Config.nested = "2"
+  end
+  Config.loudly = faculty(arglist.debug or adapt.debug)
+  Data.lazy = faculty(arglist.lazy) and not Config.loudly
+  Data.leading = faculty(arglist.TOC)
+  if Data.leading and arglist.TOCsibling then
+    Data.sibling = mw.text.trim(arglist.TOCsibling)
+  end
+  if arglist.lang then
+    Data.slang = arglist.lang:lower()
+  elseif adapt.lang then
+    Data.slang = adapt.lang:lower()
+  end
+  if arglist.JSON then
+    source = arglist.JSON
+  elseif arglist.Global then
+    source = TemplateData.getGlobalJSON(arglist.Global, arglist.Local)
+  elseif arglist[1] then
+    local s = mw.text.trim(arglist[1])
+    local start = s:sub(1, 1)
+    if start == "<" then
+      Data.strip = s
+    elseif start == "{" then
+      source = s
+    elseif mw.ustring.sub(s, 1, 8) == mw.ustring.char(127, 39, 34, 96, 85, 78, 73, 81) then
+      Data.strip = s
+    end
+  end
+  if type(arglist.vertical) == "string" and arglist.vertical:match("^%d*%.?%d+[emprx]+$") then
+    Data.scroll = arglist.vertical
+  end
+  if not source then
+    Data.title = mw.title.getCurrentTitle()
+    source = find()
+    if not source and not Data.title.text:match(Config.subpage) then
+      local s = string.format(Config.suffix, Data.title.prefixedText)
+      Data.title = mw.title.new(s)
+      if Data.title.exists then
+        source = find()
+      end
+    end
+  end
+  if not Data.lazy then
+    if not Data.title then
+      Data.title = mw.title.getCurrentTitle()
+    end
+    Data.lazy = Data.title.text:match(Config.subpage)
+  end
+  if type(source) == "string" then
+    TemplateData.getPlainJSON(source)
+  end
+  return finalize(faculty(arglist.source))
+end -- furnish()
+
+Failsafe.failsafe = function(atleast)
+  -- Retrieve versioning and check for compliance.
+  -- Precondition:
+  --     atleast  -- string, with required version
+  --                         or wikidata|item|~|@ or false
+  -- Postcondition:
+  --     Returns  string  -- with queried version/item, also if problem
+  --              false   -- if appropriate
+  -- 2024-03-01
+  local since = atleast
+  local last = (since == "~")
+  local linked = (since == "@")
+  local link = (since == "item")
+  local r
+  if last or link or linked or since == "wikidata" then
+    local item = Failsafe.item
+    since = false
+    if type(item) == "number" and item > 0 then
+      local suited = string.format("Q%d", item)
+      if link then
+        r = suited
+      else
+        local entity = mw.wikibase.getEntity(suited)
+        if type(entity) == "table" then
+          local seek = Failsafe.serialProperty or "P348"
+          local vsn = entity:formatPropertyValues(seek)
+          if type(vsn) == "table" and type(vsn.value) == "string" and vsn.value ~= "" then
+            if last and vsn.value == Failsafe.serial then
+              r = false
+            elseif linked then
+              if mw.title.getCurrentTitle().prefixedText == mw.wikibase.getSitelink(suited) then
+                r = false
+              else
+                r = suited
+              end
+            else
+              r = vsn.value
+            end
+          end
+        end
+      end
+    elseif link then
+      r = false
+    end
+  end
+  if type(r) == "nil" then
+    if not since or since <= Failsafe.serial then
+      r = Failsafe.serial
+    else
+      r = false
+    end
+  end
+  return r
+end -- Failsafe.failsafe()
+
+TemplateData.getGlobalJSON = function(access, adapt)
+  -- Retrieve TemplateData from a global repository (JSON).
+  -- Parameter:
+  --     access  -- string, with page specifier (on WikiMedia Commons)
+  --     adapt   -- JSON string or table with local overrides
+  -- Returns true, if succeeded.
+  local plugin = Fetch("/global")
+  local r
+  if type(plugin) == "table" and type(plugin.fetch) == "function" then
+    local s, got = plugin.fetch(access, adapt)
+    if got then
+      Data.got = got
+      Data.order = got.paramOrder
+      Data.shared = s
+      r = true
+      full()
+    else
+      Fault(s)
+    end
+  end
+  return r
+end -- TemplateData.getGlobalJSON()
+
+TemplateData.getPlainJSON = function(adapt)
+  -- Reduce enhanced JSON data to plain text localized JSON.
+  -- Parameter:
+  --     adapt  -- string, with enhanced JSON
+  -- Returns string, or not.
+  if type(adapt) == "string" then
+    local JSONutil = Fetch("JSONutil", true)
+    Data.source = adapt
+    free()
+    if JSONutil then
+      local Multilingual = Fetch("Multilingual", true)
+      local f
+      if Multilingual then
+        f = Multilingual.i18n
+      end
+      Data.got = JSONutil.fetch(Data.source, true, f)
+    else
+      local lucky
+      lucky, Data.got = pcall(mw.text.jsonDecode, Data.source)
+    end
+    if type(Data.got) == "table" then
+      full()
+    elseif not Data.strip then
+      local scream = type(Data.got)
+      if scream == "string" then
+        scream = Data.got
+      else
+        scream = "Data.got: " .. scream
+      end
+      Fault("fatal JSON error: " .. scream)
+    end
+  end
+  return Data.slim
+end -- TemplateData.getPlainJSON()
+
+TemplateData.test = function(adapt, arglist)
+  TemplateData.frame = mw.getCurrentFrame()
+  return furnish(adapt, arglist)
+end -- TemplateData.test()
+
+-- Export.
+local p = {}
+
+p.f = function(frame)
+  -- Template call.
+  local lucky, r
+  TemplateData.frame = frame
+  lucky, r = pcall(furnish, frame.args, frame:getParent().args)
+  if not lucky then
+    Fault("INTERNAL: " .. r)
+    r = failures()
+  end
+  return r
+end -- p.f
+
+p.failsafe = function(frame)
+  -- Versioning interface.
+  local s = type(frame)
+  local since
+  if s == "table" then
+    since = frame.args[1]
+  elseif s == "string" then
+    since = frame
+  end
+  if since then
+    since = mw.text.trim(since)
+    if since == "" then
+      since = false
+    end
+  end
+  return Failsafe.failsafe(since) or ""
+end -- p.failsafe
+
+p.TemplateData = function()
+  -- Module interface.
+  return TemplateData
+end
+
+setmetatable(p, {
+  __call = function(func, ...)
+    setmetatable(p, nil)
+    return Failsafe
+  end,
+})
+
+return p

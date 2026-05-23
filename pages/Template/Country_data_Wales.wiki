@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Wales
+| flag alias = Flag of Wales (1959–present).svg
+| flag alias-1807 = Flag of Wales (1807–1953).svg
+| flag alias-1953 = Flag of Wales (1953–1959).svg
+| flag alias-1959 = Flag of Wales (1959).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = 1807
+| var2 = 1953
+| var3 = 1959
+| redir1 = WAL
+| redir2 = Cymru
+</noinclude>
+}}

@@ -1,0 +1,10 @@
+{{Main other||[[File:X mark.svg|11px|link=|alt=]]&nbsp;'''No'''}}<noinclude>{{documentation|content=
+{{Warning|{{tl|No mark}} should not be used in [[WP:WIAA|articles]] per [[MOS:ICONDECORATION]].}}
+==Usage==
+:<code>{{tld|No mark}}</code>
+
+==See also==
+{{done/See also}}
+
+[[Category:Image with comment templates]]
+}}</noinclude>

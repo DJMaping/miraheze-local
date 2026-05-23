@@ -1,0 +1,15 @@
+/* {{pp-template}} */
+.glossary dt {
+    margin-top: 0.4em;
+}
+
+.glossary dt + dt {
+    margin-top: -0.2em;
+}
+
+/* the inline styles that were defined in {gbq}/{gquote};
+   simply use {quote} within {defn}, will work like {gbq} */
+.glossary .templatequote {
+    margin-top: 0;
+    margin-bottom: -0.5em;
+}

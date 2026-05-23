@@ -1,0 +1,139 @@
+{{Documentation subpage}}
+{{High-use}}
+
+This template is used to display a small flag icon next to a wikilinked country name.  It is related to the {{template link|flag icon}}, {{template link|flag country}} and {{template link|flagu}} templates, but offers more options in terms of the text string displayed.
+
+See [[Wikipedia:WikiProject Flag Template]] for the main documentation/discussion page for the flag templates system.
+
+==Usage==
+'''<nowiki>{{flag|</nowiki>'''''country identifier'''''&#124;'''''optional variant'''''&#124;'''name=''alternative text string'''''&#124;'''size=''maximum width and/or height of the flag image'''''<nowiki>}}</nowiki>'''
+
+* ''country identifier'' is the common name of the country (e.g. "United States"), a common alias (e.g. "US"), or a standard country code such as those listed at [[ISO 3166-1 alpha-3]]
+* ''variant'' is an optional second parameter that can be used to display a flag variation, such as a historical flag. The list of variants for each country is documented on the appropriate template page, such as [[:Template:Country data Germany]]
+* ''alternative text string'', this optional value, specified by the '''name''' parameter, is used to display alternative text
+* ''size'', this optional value is specified by the '''size''' parameter, and is used to specify the maximum width and/or height of the flag image. This parameter is specified using standard [[Wikipedia:Extended image syntax|image syntax]].
+
+See <span class="plainlinks">[https://en.wikipedia.org/w/index.php?title=Special%3APrefixindex&from=Country+data&namespace=10 the prefix index]</span> for the templates latently called by this one.
+
+==Examples==
+{| class="wikitable"
+! Wiki markup !! Displays !! Notes
+|-
+| <code><nowiki>{{flag|United States}}</nowiki></code> || {{nowrap| {{flag|United States}}}} || rowspan=3 | Note that all instances link to [[United States]].
+|-
+| <code><nowiki>{{flag|US}}</nowiki></code> || {{flag|US}}
+|-
+| <code><nowiki>{{flag|USA}}</nowiki></code> || {{flag|USA}}
+|-
+| <code><nowiki>{{flag|Germany}}</nowiki></code> || {{flag|Germany}} || rowspan=3 | All three instances link to [[Germany]].<br />In addition to the ISO country codes, those used by [[FIFA]], [[IOC]], etc. are also supported.
+|-
+| <code><nowiki>{{flag|DEU}}</nowiki></code> || {{flag|DEU}}
+|-
+| <code><nowiki>{{flag|GER}}</nowiki></code> || {{flag|GER}}
+|-
+| <code><nowiki>{{flag|Germany|empire}}</nowiki></code> || {{flag|Germany|empire}} || rowspan=2 | Flag variations can be used with either country names or country codes.
+|-
+| <code><nowiki>{{flag|DEU|empire}}</nowiki></code> || {{flag|DEU|empire}}
+|-
+| <code><nowiki>{{flag|CAN|name=Canadian}}</nowiki></code> || {{flag|CAN|name=Canadian}} || The name parameter can be used to change the display string but keep the link to the correct article.
+|-
+| <code><nowiki>{{flag|Canada|1957|name=Canadian}}</nowiki></code> || {{flag|Canada|1957|name=Canadian}} || The name parameter can also be used when flag variants are specified.
+|-
+| <code><nowiki>{{flag|Texas}}</nowiki></code> || {{flag|Texas}} || rowspan=3 | Flags are also available for several sub-national and multi-national entities such as US states, Canadian provinces, and the [[European Union]].<br />A complete list can be found at [[:Category:Country data templates]].
+|-
+| <code><nowiki>{{flag|British Columbia|name=BC}}</nowiki></code> || {{flag|British Columbia|name=BC}}
+|-
+| <code><nowiki>{{flag|EU}}</nowiki></code> || {{flag|EU}}
+|-
+| <code><nowiki>{{flag|Switzerland|size=14px}}</nowiki></code> || {{flag|Switzerland|size=14px}} || rowspan=2 | The size parameter can be used to control the image dimensions.<br />23×15px is the default size for most countries ([[:Category:Country data templates with distinct default size|some entities]] have a different default size).
+|-
+| <code><nowiki>{{flag|Switzerland|size=28px}}</nowiki></code> || {{flag|Switzerland|size=28px}}
+|-
+| <code><nowiki>{{flag|Nepal}}</nowiki></code> || {{flag|Nepal}} || Some flags are [[List of non-quadrilateral flags|non-quadrilateral]].
+|}
+
+==Alternatives to avoid Wikipedia's [[WP:PEIS|Post-expand include size]] limit==
+Pages with many flags may come close to or exceed Wikipedia's [[WP:PEIS|Post-expand include size]] limit.  In these cases consider using modules or module-wrapper templates instead:
+* For many countries, using the country code as the template name will act as a wrapper for [[Module:Flagg]]: For example, <code><nowiki>{{flag|''USA''}}</nowiki></code> can be replaced with <code><nowiki>{{USA}}</nowiki></code>, which has an include size that is about 15% smaller.
+* {{module link|flag|{{!}}}} is a wrapper for [[Module:Flagg]] that can further reduce sizes when invoked directly. For basic use, <code><nowiki>{{flag|</nowiki>''country''<nowiki>}}</nowiki></code> can be replaced with <code><nowiki>{{#invoke:flag||</nowiki>''country''<nowiki>}}</nowiki></code> which has an include size that is about half.
+
+
+==TemplateData==
+{{TemplateData header}}
+<TemplateData>
+{
+	"description": "This template displays a small flag icon next to a wikilinked country name",
+	"params": {
+		"1": {
+			"label": "Country identifier",
+			"description": "Common name of the country (e.g. 'United States'), a common alias (e.g. 'US'), or a standard country code",
+			"type": "string",
+			"required": true
+		},
+		"2": {
+			"label": "Variant",
+			"description": "Identifies a flag variant to be used instead of the standard flag, e.g. 1815",
+			"type": "string",
+			"required": false,
+			"aliases": [
+				"variant"
+			]
+		},
+		"name": {
+			"label": "Alternative text",
+			"description": "Display alternative text instead of the standard country name",
+			"type": "string",
+			"required": false
+		},
+		"size": {
+			"label": "Maximum dimension",
+			"description": "The maximum width or height, specified via standard 'extended image syntax' (e.g. x30px)",
+			"type": "string",
+			"required": false
+		}
+	},
+	"format": "inline"
+}
+</TemplateData>
+
+See: [[Wikipedia:Extended image syntax]].
+
+==See also==
+{| class="wikitable"
+! Template !! Description !! Example
+|-
+| style="white-space:nowrap" | {{template link|Coat of arms}} || displays coat of arms image || {{Coat of arms|Canada}}
+|-
+| {{template link|Flag country}} || always expands the link text to the full country name || {{Flag country|Germany}}
+|-
+| {{template link|Flagu}} || does not link the country name || {{Flagu|Germany}}
+|-
+| {{template link|Flag icon}} || displays the flag only, linked to the country name || {{Flag icon|Germany}}
+|-
+| {{template link|Flag decoration}} || displays an unlinked flag icon only || {{Flag decoration|Germany}}
+|-
+| {{template link|Flagc}} || links the flag image to its description page || {{Flagc|Germany}}
+|-
+| {{template link|Flaglist}} || aligns country names correctly in vertical lists (see that template's documentation) || {{Flaglist|Germany}}
+|-
+| {{template link|Flag team}} || adds country code in parentheses after linked country name  || {{Flag team|GER}}
+|-
+| {{template link|Flag athlete}} || displays the flag and another name, followed country name or code || style="white-space:nowrap" | {{Flag athlete|[[Dirk Nowitzki]]|GER}}
+|-
+| {{template link|Flag medalist}} || displays the flag and a name, above linked country name and code || {{Flag medalist|[[Dirk Nowitzki]]|GER}}
+|}
+See [[Wikipedia:WikiProject Flag Template#List]] for a longer list of flag templates.
+
+===Multi-sport templates===
+{{flag templates}}
+
+===See also===
+Module-based versions which can be used to reduce the [[WP:PEIS|post-expand include size]] on pages that are near or exceed the limit.
+* [[Template:Flagg]] a version which implements [[Module:Flagg]]
+* [[Module:Flag]] also works with [[Module:Flagg]]
+
+
+<includeonly>{{Sandbox other||
+[[Category:Flag template system]]
+
+}}</includeonly>

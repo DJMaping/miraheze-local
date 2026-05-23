@@ -1,0 +1,20 @@
+{{ safesubst:<noinclude/>#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{POV}} begin-->{{Ambox
+| name  = POV
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| small = {{{small|}}}
+| type  = content
+| class = ambox-POV
+| style = {{{style|}}}
+| image = [[File:Unbalanced scales.svg|50x40px|class=skin-invert|link=|alt=]]
+| issue = The '''[[Wikipedia:Neutral point of view|neutrality]] of this {{#if: {{{lead|}}} | [[Wikipedia:Lead section|article's introduction]] | {{{what|article}}} }} is [[Wikipedia:NPOV dispute|disputed]]'''.
+| talk  = {{{talk|#}}}
+| fix   = Please do not remove this message until [[Template:POV#When to remove|conditions to do so are met]].
+| removalnotice = yes
+| date  = {{{date|}}}
+| cat   = Wikipedia neutral point of view disputes
+| all   = All Wikipedia neutral point of view disputes
+}}<!--{{POV}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>

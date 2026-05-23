@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Estonia
+| flag alias = Flag of Estonia.svg
+| flag alias-naval = Naval Jack of Estonia.svg
+| link alias-naval = Estonian Navy
+| flag alias-army=Flag of Estonian Land Forces.svg
+| link alias-army=Estonian Land Forces
+| flag alias-air force =Flag of the Estonia Air Force.png
+| link alias-air force = Estonian Air Force
+| flag alias-navy = Naval Ensign of Estonia.svg
+| link alias-navy = Estonian Navy
+| border-naval =
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = EST
+| related1 = Estonian SSR
+</noinclude>
+}}

@@ -1,0 +1,82 @@
+{{Documentation subpage}}
+{{tsh|Colorbox|Colourbox|Colour box|Color square|Legend3}}
+{{For-text|the templates that display text in a colored box|{{tl|Divbox}} or [[Template:Mbox templates see also]]}}
+{{Uses TemplateStyles|Template:Legend/styles.css}}
+{{High-use}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+
+==Usage==
+{{Format TemplateData|JSON=
+{
+	"params": {
+		"1": {
+			"label": "Color",
+			"description": "Background color of the box.",
+			"example": "Green",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"2": {
+			"label": "Text",
+			"description": "Adds text inside the box; box is otherwise an empty square.",
+			"example": "Hello, world!",
+			"type": "string",
+			"suggested": true
+		},
+		"3": {
+			"label": "Text color",
+			"description": "Sets the color of the text inside the box.",
+			"example": "Yellow",
+            "type": "string",
+			"suggested": true,
+            "default": "Either black or white; whichever has greater contrast."
+		},
+		"border": {
+            "label": "Border color",
+			"description": "Sets the color of the border around the box.",
+			"example": "#FF0",
+            "type": "string",
+            "default": "black"
+		}
+	},
+	"description": "<noexport><code>&#123;&#123;color box&#124;''color''&#124;''text''&#124;''text color''&#125;&#125;</code><br></noexport>Adds a rectangular color box. <ul><li>Colors are most commonly specified as either a color keyword or as the [[Web colors#Hex triplet|hexadecimal triplet]] representing an RGB combination.  See the article [[web colors]] for details.</li><li>If specified, the text is centered within the box.</li></ul>",
+	"format": "inline"	
+} }}
+
+{| class="wikitable"
+|+ '''Examples'''
+|-
+! Visual effect !! Markup
+|-
+| {{color box|Green}} || <code><nowiki>{{color box|Green}}</nowiki></code>
+|-
+| {{color box|Yellow|Default color for this text}} || <code><nowiki>{{color box|Yellow|Default color for this text}}</nowiki></code>
+|-
+| {{color box|Blue|Default color for this text}} || <code><nowiki>{{color box|Blue|Default color for this text}}</nowiki></code>
+|-
+| {{color box|SteelBlue|'''Using X11 color names'''|Gold}} || <code><nowiki>{{color box|SteelBlue|'''</nowiki>Using [[X11 color names]]<nowiki>'''|Gold}}</nowiki></code>
+|-
+| {{color box|#012345|''Using RGB hex triplets''|#FEDCBA}} || <code><nowiki>{{color box|#012345|''</nowiki>Using [[Web colors#Hex triplet|RGB hex triplet]]<nowiki>''|#FEDCBA}}</nowiki></code>
+|-
+| {{color box|Yellow|Red|#f00|border=#f00}} || <code><nowiki>{{color box|Yellow|Red|#f00|border=#f00}}</nowiki></code>
+|-
+| {{color box|white|bordercolor like wikitable|border=#A2A9B1}} || <code><nowiki>{{color box|white|bordercolor like wikitable|border=#A2A9B1}} </nowiki></code>
+|}
+
+== Variants ==
+{{Color box templates}}
+
+== Supporting template ==
+* {{tl|Greater color contrast ratio}}
+
+== See also ==
+* {{tl|Infobox color}}, an infobox for the detailed description of a color.
+* {{tl|Legend}}
+
+<includeonly>{{Sandbox other|
+| <!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Color templates]]
+[[Category:Box templates]]
+
+}}</includeonly>

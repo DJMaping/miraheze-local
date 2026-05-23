@@ -1,0 +1,21 @@
+This template also returns the date, hidden by CSS, in the [[ISO 8601]] format needed by one or more of the following [[microformat]]s:
+
+*[[hAtom]] (<code>class="updated"</code>)
+*[[hAudio]] (<code>class="published"</code>)
+*[[hCalendar]] (<code>class="dtstart"</code>)
+*[[hCard]] (<code>class="bday"</code>) 
+
+usually, but not always, within infobox or similar templates, or tables.
+
+Its use in hCard is for organizations, venues and similar; use {{tl|Birth date}} or {{tl|Birth date and age}} for people.
+
+Similarly, {{tl|End date}} returns the date as [[hCalendar]]'s (<code>class="dtend"</code>).
+
+See [[WP:UF|the microformats project]] for further details.
+
+=== Limitation ===
+{{UF-date-warn}}<noinclude>
+
+
+[[Category:Microformat message templates]]
+</noinclude>

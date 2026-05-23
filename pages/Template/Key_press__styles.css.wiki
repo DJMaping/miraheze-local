@@ -1,0 +1,12 @@
+/* {{pp-template}} */
+.keyboard-key {
+	border: 1px solid #aaa;
+	border-radius: 0.2em;
+	box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.1);
+	background-color: var(--background-color-neutral-subtle, #f8f9fa);
+	background-image: linear-gradient(to bottom, var(--background-color-neutral, #eaecf0), var(--background-color-neutral-subtle, #f8f9fa), var(--background-color-neutral, #eaecf0));
+	color: var(--color-base, #202122);
+	padding: 0.1em 0.3em;
+	font-family: inherit;
+	font-size: 0.85em;
+}

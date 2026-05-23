@@ -1,0 +1,48 @@
+{{Sidebar
+|name = U.S. city population tables
+|title = Population tables<br />of U.S. cities
+|image = [[File:View of Empire State Building from Rockefeller Center New York City dllu (cropped).jpg|frameless|border|alt=New York City skyline|upright=1.2]]
+|caption = The skyline of [[New York City]], the most populous city in the [[United States]]
+|headingstyle = background:lavender;
+|heading1 = [[List of United States cities by population|Cities]]
+|content1 = 
+{{resize|110%|[[List of United States cities by population|Population]]}}{{hlist
+ | [[List of United States cities by area|Area]]
+ | [[List of United States cities by population density|Density]]
+ | [[Lists of United States cities with large ethnic minority populations|Ethnic identity]]
+ | [[List of United States cities by foreign-born population|Foreign-born]]
+ | [[List of United States metropolitan areas by per capita income|Income]]
+ | [[List of United States cities by Spanish-speaking population|Spanish speakers]]
+ | [[List of capitals in the United States|Capitals]]
+ | [[List of most populous cities in the United States by decade|By decade]] 
+ | [[List of largest cities of U.S. states and territories by population|By state]]
+ | [[List of largest cities of U.S. states and territories by historical population|By decade/state]]
+}}
+|heading2 = [[List of United States urban areas|Urban areas]]
+|content2 = 
+Populous cities and metropolitan areas
+|heading3 = [[Statistical area (United States)|Metropolitan areas]]
+|content3 = 
+ {{unbulleted list
+  | [[Combined statistical area|184 combined statistical areas]]
+  | [[List of core-based statistical areas|935 core-based statistical areas]]
+  | [[List of metropolitan statistical areas|393 metropolitan statistical areas]]
+  | [[List of micropolitan statistical areas|542 micropolitan statistical areas]]
+ }}
+|heading4 = [[Megaregions of the United States|Megaregions]]
+|content4 = 
+|belowstyle = background:lavender;line-height:1.3em;font-weight:normal; border-top:2px #fafafa solid;
+|below = 
+ {{unbulleted list
+  | '''Related population lists'''
+  | [[List of North American metropolitan areas by population|North American metro areas]]
+  | [[List of cities proper by population|World cities]]
+  | [[List of U.S. states and territories by population|States and territories]]
+
+ }} 
+}}<noinclude>
+
+[[Category:Population templates]]
+[[Category:United States city templates]]
+[[Category:United States sidebar templates]]
+</noinclude>

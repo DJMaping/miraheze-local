@@ -1,0 +1,32 @@
+{{high use}}
+{{Lua|Module:Yesno|Module:List|Module:TableTools|Module:Message box}}
+This module implements the {{tl|lua}} template.
+
+== Usage from wikitext ==
+
+This module cannot be used directly from wikitext. It can only be used through the {{tl|lua}} template. Please see the template page for documentation.
+
+== Usage from Lua modules ==
+
+To use this module from other Lua modules, first load the module.
+
+<syntaxhighlight lang="lua">
+local mLuaBanner = require('Module:Lua banner')
+</syntaxhighlight>
+
+You can then generate a side box using the _main function.
+
+<syntaxhighlight lang="lua">
+mLuaBanner._main(args)
+</syntaxhighlight>
+
+The <var>args</var> variable should be a table containing the arguments to pass to the module. To see the different arguments that can be specified and how they affect the module output, please refer to the {{tl|lua}} template documentation.
+
+== Tracking category ==
+* {{clc|Lua templates with errors}}
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+<!-- Categories go here and interwikis go in Wikidata. -->
+[[Category:Modules that add a tracking category]]
+
+}}</includeonly>

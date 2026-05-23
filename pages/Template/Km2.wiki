@@ -1,0 +1,7 @@
+{{#if: {{{1|}}} |
+{{{1|}}}{{#ifeq: {{{link|no}}}<!-- "link" option not provided defaults to "no" -->
+  | yes | [[Square kilometre|{{ns|1}}km<sup>2</sup>]]
+  |<!--any other value-->{{ns|1}}km<sup>2</sup>}}
+| km<sup>2</sup>}}<noinclude>
+{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>

@@ -1,0 +1,4 @@
+<includeonly><code>[<nowiki/>[{{{1}}}{{#if:{{{2|}}}|{{!}}{{{2}}}}}]<nowiki/>]{{{3|}}}</code></includeonly><!--
+--><noinclude>
+{{documentation}}
+</noinclude>

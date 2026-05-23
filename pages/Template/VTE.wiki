@@ -1,0 +1,3 @@
+{{#invoke:Navbar|navbar|mini = 1|template = {{{template|{{{1|}}}}}}}}<noinclude>
+{{Documentation}}
+</noinclude>

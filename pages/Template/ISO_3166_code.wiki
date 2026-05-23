@@ -1,0 +1,3 @@
+{{safesubst<noinclude/>:#invoke:ISO 3166|code|{{{1}}}|{{{2|}}}}}<noinclude>
+{{Documentation|content={{ISO 3166 conversion template doc}}}}
+</noinclude>

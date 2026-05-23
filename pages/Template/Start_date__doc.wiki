@@ -1,0 +1,141 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{High-use}}
+{{COinS safe|n}}
+{{Lua|Module:Check for unknown parameters|Module:Date time}}
+
+{{tlb|Start date}} returns the date (or date and time) that an event or entity started or was created, in a standard format. It also includes a hidden (by CSS) duplicate, machine-readable date (or date and time) in the ISO date format, for use inside templates or table rows that emit [[microformat]]s. {{strong|It should be used only once in each such template}} and {{strong|never used outside such templates}}. The hidden date degrades gracefully when CSS is not available.
+
+== When not to use this template ==
+Do not use this template for:
+* Dates that are uncertain, e.g., "before 4 April 1933", "around 18 November 1939", "19??".
+* Date ranges, e.g. "c. 1690–1712"
+* Dates outside the range given under "[[#Limitation|Limitation]]", below.
+* Other, secondary dates
+* Outside [[microformat]]-emitting templates or table rows; if in doubt, see the parent template's documentation
+* More than one date 
+* Dates displayed using AM/PM format; this template only outputs 24-hour times
+* Dates that are not calendar dates, e.g. "12th century" or "present" or "TBA"
+
+In the above situations, omit the template entirely, using untemplated text.
+
+== Usage ==
+* {{tlx|Start date|{{var|YYYY}}}} (year only)
+* {{tlx|Start date|{{var|YYYY}}|{{var|MM}}}} (month and year)
+* {{tlx|Start date|{{var|YYYY}}|{{var|MM}}|{{var|DD}}}} (year, month, and day)
+* {{tlx|Start date|{{var|YYYY}}|{{var|MM}}|{{var|DD}}|{{var|HH}}|{{var|MM}}|{{var|SS}}|{{var|Time zone}}}} (date, time, and time zone)
+
+== Parameters ==
+* The unnamed parameters, in order, represent the year (four digits; required parameter), month (one or two digits), day (one or two digits), hour in 24-hour time (one or two digits), minutes (one or two digits), seconds (one or two digits), and the time zone (see below). 
+* When specifying time of day, {{var|MM}} (minutes), {{var|SS}} (seconds), and the time zone are optional
+* {{var|Time zone}} may be a numerical value, or <code>Z</code> for [[Coordinated Universal Time|UTC]] (see examples)
+* {{para|df|yes}}, an optional parameter, when set to {{para|df|yes}} or {{para|df|y}} displays the day before the month (e.g. "7 November 2004" instead of the default "November 7, 2004"). The order of parameters does not change (it remains YMD). This is primarily used in articles using DMY format for dates.
+
+=== Examples ===
+* {{tlx|Start date|1993|_show_result=yes}}
+* {{tlx|Start date|1993|02|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|30|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|7{{=}}+01:00|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|7{{=}}−07:00|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|30|23|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|30|23|Z|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|30|23|+01:00|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|30|23|−07:00|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|df{{=}}y|_show_result=yes}}
+* {{tlx|Start date|1993|02|24|08|30|df{{=}}yes|_show_result=yes}}
+
+== Notes ==
+Place any additional non-numeric text outside of the template:
+* c. {{tlx|Start date|1900}} → c. {{start date|1900}}
+* {{tlx|Start date|1993|02|24}}, no later than 15:00 UTC → {{Start date|1993|02|24}}, no later than 15:00 UTC
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Date that an event or entity started or was created",
+	"params": {
+		"1": {
+			"label": "YYYY",
+			"description": "Start year",
+			"type": "number",
+			"required": true
+		},
+		"2": {
+			"label": "MM",
+			"description": "Start month",
+			"type": "number",
+			"suggested": true
+		},
+		"3": {
+			"label": "DD",
+			"description": "Start day of month",
+			"type": "number",
+			"suggested": true
+		},
+		"4": {
+			"label": "HH",
+			"description": "Start hours",
+			"type": "number"
+		},
+		"5": {
+			"label": "MM",
+			"description": "Start minutes",
+			"type": "number",
+			"default": "0"
+		},
+		"6": {
+			"label": "SS",
+			"description": "Start seconds",
+			"inherits": "5"
+		},
+		"7": {
+			"label": "TZ",
+			"description": "Time zone offset, \"+02:00\", \"-06:00\" or \"Z\" for UTC",
+			"type": "line"
+		},
+		"df": {
+			"label": "Day first",
+			"description": "Set to 'yes' to show the day before the month name",
+			"type": "line",
+			"suggestedvalues": [
+				"yes",
+				"y"
+			]
+		}
+	}
+}
+</templatedata>
+
+== Use in microformats ==
+{{UF-date-part}}
+
+=== Examples with hidden output ===
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{Start date|2016|12|31}}</nowiki>}}
+
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{Start date|2016|12|31|08|30|23|+01:00}}</nowiki>}}
+
+== Tracking categories ==
+* {{clc|Pages using start date with unknown parameters}}
+* {{clc|Pages using Module:Date time with invalid values}}
+
+== See also ==
+* {{tlg|Start date text}}, an alternative to this template
+* {{tlg|Film date}}, a similar template for use with {{tl|Infobox film}}
+* {{tlg|Start date and age}}
+* {{tlg|Start and end dates}}
+* {{tlg|End date}}
+* {{tlg|End date text}}
+* {{tlg|Trim date}}
+* [[Wikipedia:WikiProject Microformats|WikiProject Microformats]]
+
+{{Birth, death and age templates|dates}}
+
+<includeonly>{{Sandbox other|
+| <!-- ADD CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Date mathematics templates]]
+[[Category:Templates generating hAtom]]
+[[Category:Templates generating hCalendars]]
+[[Category:Templates generating hCards]]
+}}</includeonly>

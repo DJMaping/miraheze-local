@@ -1,0 +1,50 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Peru
+| flag alias = Flag of Peru.svg
+| flag alias-spain = Flag of Cross of Burgundy.svg
+| flag alias-1820 = Flag of Tacna Regiment (1820 proposal).svg
+| flag alias-1821 = Flag of Peru (1821-1822).svg
+| flag alias-1822 = Flag of Peru (1822).svg
+| flag alias-1822a = Flag of Peru (1822–1825).svg
+| flag alias-1825 = Flag of Peru (1825–1884).svg
+| flag alias-confederation = Flag of the Peru-Bolivian Confederation.svg
+| flag alias-north = Flag of Peru (1825–1884).svg
+| link alias-north = North Peru
+| flag alias-south = Flag of South Peru.svg
+| link alias-south = South Peru
+| flag alias-1884 = Flag of Peru (1884–1950).svg
+| flag alias-state = Flag of Peru (state).svg
+| flag alias-football = Flag of Peru.svg
+| flag alias-army = Flag of the Peruvian Army.svg
+| link alias-army = Peruvian Army
+| flag alias-naval= Flag of the Peruvian Navy.svg
+| link alias-naval = Peruvian Navy
+| flag alias-air force= Flag of the Peruvian Air Force.svg
+| link alias-air force = Peruvian Air Force
+| flag alias-military=Flag of Peru (war).svg
+| link alias-military=Peruvian Armed Forces
+| flag alias-marines = Flag of the Peruvian Navy.svg
+| link alias-marines = Peruvian Naval Infantry
+| flag alias-navy = Flag of Peru (state).svg
+| link alias-navy = Peruvian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altvar = {{{altvar|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = spain
+| var2 = 1820
+| var3 = 1821
+| var4 = 1822
+| var5 = 1822a
+| var6 = 1825
+| var7 = confederation
+| var8 = north
+| var9 = south
+| var10 = 1884
+| var11 = state
+| var12 = football
+| redir1 = PER
+</noinclude>
+}}

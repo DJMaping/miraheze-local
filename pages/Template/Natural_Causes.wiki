@@ -1,0 +1,5 @@
+&nbsp;[[<!---(link:)-->{{{1|Manner of death#Natural causes of death}}}<!--
+       -->|{{tooltip|1=<!--(label:)-->{{#ifeq:{{{alt|}}}|yes |(Natural causes) |{{#ifeq:{{{bold|}}}|no |# |'''#'''}}}}|2=Natural causes}}<!--
+      -->]]<noinclude>
+{{Documentation}}
+</noinclude>

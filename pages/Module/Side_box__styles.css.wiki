@@ -1,0 +1,68 @@
+/* {{pp|small=y}} */
+.side-box {
+	margin: 4px 0;
+	box-sizing: border-box;
+	border: 1px solid #aaa;
+	font-size: 88%;
+	line-height: 1.25em;
+	background-color: var(--background-color-interactive-subtle, #f8f9fa);color:inherit;
+    display: flow-root;
+}
+/* embedded side boxes need larger font */
+.infobox .side-box {
+	font-size: 100%;
+}
+
+.side-box-abovebelow,
+.side-box-text {
+	padding: 0.25em 0.9em;
+}
+
+.side-box-image {
+	/* @noflip */
+	padding: 2px 0 2px 0.9em;
+	text-align: center;
+}
+
+.side-box-imageright {
+	/* @noflip */
+	padding: 2px 0.9em 2px 0;
+	text-align: center;
+}
+
+/* roughly the skin's sidebar + size of side box */
+@media (min-width: 500px) {
+	.side-box-flex {
+		display: flex;
+		align-items: center;
+	}
+	
+	.side-box-text {
+		flex: 1;
+		min-width: 0;
+	}
+}
+
+@media (min-width: 640px) {
+	.side-box {
+		width: 238px;
+	}
+	
+	.side-box-right {
+		/* @noflip */
+		clear: right;
+		/* @noflip */
+		float: right;
+		/* @noflip */
+		margin-left: 1em;
+	}
+	
+	/* derives from mbox classes, which do not float left in mbox-small-left
+	 * so far as I can tell, that was a deliberate decision, since only .ambox
+	 * supports mbox-left
+	 */
+	.side-box-left {
+		/* @noflip */
+		margin-right: 1em;
+	}
+}

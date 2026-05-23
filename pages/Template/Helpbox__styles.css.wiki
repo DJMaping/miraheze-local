@@ -1,0 +1,55 @@
+/* {{pp|small=y}} */
+.help-box {
+	background: #f5faff;
+    color:inherit;
+	line-height: 1.6em;
+}
+
+.help-box .sidebar-title {
+	background: #cee0f2;
+    color:inherit;
+	font-size: 130%;
+	padding-left: 0.4em;
+	padding-right: 0.4em; /* gap before first heading/content */
+	margin-bottom: 6px;
+}
+
+.help-box .sidebar-heading {
+	background: #cee0f2;
+    color:inherit;
+	padding: 0.1em 0.7em 0.15em;
+}
+
+.help-box .sidebar-content,
+/* conservatively target subgroups since we're working with a metatemplate */
+.help-box .sidebar-content-with-subgroup {
+	padding-top: 0.15em;
+}
+
+@media all and (min-width: 640px) {
+	.help-box {
+		width: auto;
+		max-width: 22em;
+	}
+}
+
+html.skin-theme-clientpref-night .help-box {
+	background: #0d1a27;
+    color:inherit;
+}
+html.skin-theme-clientpref-night .help-box .sidebar-title,
+html.skin-theme-clientpref-night .help-box .sidebar-heading {
+	background: #082849;
+    color:inherit;
+}
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .help-box {
+		background-color: #0d1a27;
+	    color:inherit;
+}
+	html.skin-theme-clientpref-os .help-box .sidebar-title,
+	html.skin-theme-clientpref-os .help-box .sidebar-heading {
+		background: #082849;
+	    color:inherit;
+}
+}

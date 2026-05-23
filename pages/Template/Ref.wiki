@@ -1,0 +1,4 @@
+<sup class="plainlinks nourlexpansion citation" {{#ifeq:{{{noid}}}|noid||id="ref_{{{1}}}"}}>{{#if:{{{2|}}}|[[#endnote_{{{1}}}|{{{2}}}]]|[{{fullurl:{{FULLPAGENAME}}}}#endnote_{{anchorencode:{{{1|}}}}}]}}</sup><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+</noinclude>

@@ -1,0 +1,13 @@
+/* {{pp-template|small=yes}} */
+.plainlist ol,
+.plainlist ul {
+	line-height: inherit;
+	list-style: none;
+	margin: 0;
+	padding: 0; /* Reset Minerva default */
+}
+
+.plainlist ol li,
+.plainlist ul li {
+	margin-bottom: 0;
+}

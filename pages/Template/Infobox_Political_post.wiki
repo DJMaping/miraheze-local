@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Infobox official post]]
+
+{{rcatsh|
+{{r move}}
+}}

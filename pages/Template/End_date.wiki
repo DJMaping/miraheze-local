@@ -1,0 +1,4 @@
+<includeonly>{{#invoke:Date time|generate_date|template=end date}}<!-- Tracking categories
+-->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using end date with unknown parameters|_VALUE_]]}}|preview=Page using [[Template:End date]] with unknown parameter "_VALUE_"|showblankpositional=1| 1 | 2 | 3 | 4 | 5 | 6 | 7 | df }}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

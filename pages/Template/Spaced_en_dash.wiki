@@ -1,0 +1,5 @@
+&nbsp;&ndash;&#32;<noinclude>
+
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>

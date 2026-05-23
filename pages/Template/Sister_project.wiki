@@ -1,0 +1,36 @@
+{{Side box
+| templatestyles = Sister project/styles.css
+| metadata=no
+| position = {{{position|}}}
+| image    = 
+  {{#switch: {{{image|}}}
+  | none =    <!-- "image=none", do nothing -->
+  |      =    <!-- No image fed, select an image -->
+    [[File:{{#switch: {{lc: {{{project|}}} }}
+    | commons|c              = Commons-logo.svg
+    | meta|metawiki|m        = Wikimedia Community Logo.svg
+    | wikibooks|wbk|wb|b     = Wikibooks-logo-en-noslogan.svg
+    | wikidata|data          = Wikidata-logo.svg
+    | wikiquote|quote|wqt|q  = Wikiquote-logo.svg
+    | wikipedia|wp|w|iw      = Wikipedia-logo-v2.svg
+    | wikisource|source|ws|s = Wikisource-logo.svg
+    | wiktionary|wikt|wkt|wdy|d = Wiktionary-logo-en-v2.svg
+    | wikinews|news|wnw|n    = Wikinews-logo.svg
+    | wikispecies|species    = Wikispecies-logo.svg
+    | wikiversity|wvy|v      = Wikiversity logo 2017.svg
+    | wikivoyage|voyage|voy  = Wikivoyage-Logo-v3-icon.svg
+    | mediawiki|mw           = MediaWiki-2020-icon.svg
+    | outreachwiki|outreach  = Wikimedia Outreach.png
+    | incubator              = Incubator-notext.svg
+    | wikifunctions = Wikifunctions-logo.svg
+    | #default               = Wikimedia-logo.svg
+    }}|40x40px|alt=logo|class=noviewer]]
+  | #default = {{{image|}}}
+  }}
+| textclass  = {{{textclass|plainlist}}}
+| textstyle  = {{{textstyle|}}}
+| text       = {{{text}}}
+| below      = {{{below|}}}
+| imageright = {{{imageright|}}}
+| class      = plainlinks sistersitebox
+}}<noinclude>{{Documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>

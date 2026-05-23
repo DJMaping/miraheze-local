@@ -1,0 +1,133 @@
+--[==[ This is the "A" list of portal image names. It contains a list of portal images for use with [[Module:Portal]]
+-- for portal names that start with the letter "A". For aliases to existing portal names, and for portal names that
+-- start with other letters, please use the appropriate page from the following list:
+
+-- [[Module:Portal/images/b]]       - for portal names beginning with "B".
+-- [[Module:Portal/images/c]]       - for portal names beginning with "C".
+-- [[Module:Portal/images/d]]       - for portal names beginning with "D".
+-- [[Module:Portal/images/e]]       - for portal names beginning with "E".
+-- [[Module:Portal/images/f]]       - for portal names beginning with "F".
+-- [[Module:Portal/images/g]]       - for portal names beginning with "G".
+-- [[Module:Portal/images/h]]       - for portal names beginning with "H".
+-- [[Module:Portal/images/i]]       - for portal names beginning with "I".
+-- [[Module:Portal/images/j]]       - for portal names beginning with "J".
+-- [[Module:Portal/images/k]]       - for portal names beginning with "K".
+-- [[Module:Portal/images/l]]       - for portal names beginning with "L".
+-- [[Module:Portal/images/m]]       - for portal names beginning with "M".
+-- [[Module:Portal/images/n]]       - for portal names beginning with "N".
+-- [[Module:Portal/images/o]]       - for portal names beginning with "O".
+-- [[Module:Portal/images/p]]       - for portal names beginning with "P".
+-- [[Module:Portal/images/q]]       - for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]       - for portal names beginning with "R".
+-- [[Module:Portal/images/s]]       - for portal names beginning with "S".
+-- [[Module:Portal/images/t]]       - for portal names beginning with "T".
+-- [[Module:Portal/images/u]]       - for portal names beginning with "U".
+-- [[Module:Portal/images/v]]       - for portal names beginning with "V".
+-- [[Module:Portal/images/w]]       - for portal names beginning with "W".
+-- [[Module:Portal/images/x]]       - for portal names beginning with "X".
+-- [[Module:Portal/images/y]]       - for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]       - for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]   - for portal names beginning with any other letters. This includes numbers,
+--                                    letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]] - for adding aliases for existing portal names. Use this page for variations
+--                                    in spelling and diacritics, etc., no matter what letter the portal begins with.
+
+-- When adding entries, please use alphabetical order. The format of the images table entries is as follows:
+--          ["portal name"] = "image.svg",
+-- The portal name should be the name of your portal, in lower case. For example, the portal name for 
+-- "Portal:United Kingdom" would be "united kingdom". The image name should be capitalised normally, and the "File:"
+-- namespace prefix should be
+-- omitted.
+]==]
+
+return {
+	["abkhazia"] = "Flag of Abkhazia.svg|border|link=|alt=flag",
+	["abu dhabi"] = "Flag of Abu Dhabi.svg|border|link=|alt=flag",
+	["aerospace biography"] = "Armstrong-Spencom01.jpg|link=|alt=photo",
+	["afghanistan"] = "Flag of the Taliban.svg|border|link=|alt=flag",
+	["africa"] = "Africa (orthographic projection).svg|alt=map",
+	["african cinema"] = "Africa-map-TAN.svg|alt=map",
+	["african diaspora"] = "Moromi.png|alt=map",
+	["agriculture"] = "Noto Emoji Oreo 1f33e.svg|alt=grain",
+	["agropedia"] = "Farmer plowing in Fahrenwalde, Mecklenburg-Vorpommern, Germany.jpg|alt=icon",
+	["ajman"] = "Flag of Ajman.svg|link=|alt=flag",
+	["alabama"] = "Flag of Alabama.svg|border|link=|alt=flag",
+	["alaska"] = "Flag of Alaska.svg|border|link=|alt=flag",
+	["albania"] = "Flag of Albania.svg|border|link=|alt=flag",
+	["albemarle county"] = "Monticello 2010-10-29.jpg|alt=photo",
+	["alberta"] = "Flag of Alberta.svg|border|link=|alt=flag",
+	["algae"] = "Algae Graphic.svg|link=|alt=icon",
+	["algeria"] = "Flag of Algeria.svg|border|link=|alt=flag",
+	["alpine rhine"] = "Geobox Mountain Range.svg|link=|alt=icon|class=skin-invert-image",
+	["alps"] = "Palü en Diavolezza.jpg|alt=icon",
+    ["amateur radio"] = "Amateur radio compact icon.png|link=|alt=icon",
+	["american animation"] = "Animation disc US.svg|alt=icon",
+	["american cinema"] = "Cinema of the United States.svg|alt=icon",
+	["american civil war"] = "United states confederate flag hybrid.svg|border|link=|alt=",
+	["american football"] = "American football.svg|link=|alt=icon",
+	["american football league"] = "AFL Trophy alt.png|alt=trophy",
+	["american music"] = "Musical Notes USA.svg|link=|alt=icon",
+	["american old west"] = "Frederic Remington Dismounted Moving Led Horses.jpg|link=|alt=painting",
+	["american open wheel racing"] = "JuanMontoya2015Indy500.JPG|alt=photo",
+	["american revolutionary war"] = "Washington Crossing the Delaware by Emanuel Leutze, MMA-NYC, 1851.jpg|border|link=|alt=",
+	["american samoa"] = "Flag of American Samoa.svg|border|link=|alt=flag",
+	["american television"] = "USA flag on television.svg|alt=icon",
+	["americas"] = "Americas (orthographic projection).svg|alt=map",
+	["amiga"] = "Boingball.png|link=|alt=",
+	["amphibians"] = "Frog (2546) - The Noun Project.svg|link=|alt=|class=skin-invert-image",
+	["amusement parks"] = "Roller Coaster Icon.svg|link=|alt=",
+	["anarchism"] = "BlackFlagSymbol.svg|border|alt=flag|class=skin-invert-image",
+	["andes"] = "Ausangate-hillside-MT.jpg|alt=",
+	["andorra la vella"] = "Flag of Andorra la Vella.svg|alt=flag",
+	["anatomy"] = "Anatomy posture and body mechanics 08.web.jpg|alt=icon",
+	["ancient egypt"] = "Pyramidi aavikolla.png|link=|alt=",
+	["ancient greece"] = "Parthenon from west.jpg|link=|alt=",
+	["ancient japan"] = "Shiki no Fuji, Ōmuro fukin by Takahashi Shōtei.jpg|link=|alt=",
+	["ancient near east"] = "Babylonlion.JPG|link=|alt=",
+	["ancient rome"] = "SPQRomani.svg|link=|alt=",
+	["andaman and nicobar islands"] = "India Andaman and Nicobar Islands locator map.svg|border|alt=map",
+	["andhra pradesh"] = "Archbridgegodavari.JPG|alt=icon",
+	["andorra"] = "Flag of Andorra.svg|border|link=|alt=flag",
+	["anglo-saxon england"] = "Peterborough Chronicle cropped.jpg|link=|alt=",
+	["angola"] = "Flag of Angola.svg|border|link=|alt=flag",
+	["anguilla"] = "Flag of Anguilla.svg|border|link=|alt=flag",
+	["animals"] = "Caribou from Wagon Trails.jpg|alt=icon",
+	["animation"] = "Animation disc.svg|alt=icon|class=skin-invert-image",
+	["anime and manga"] = "Wikipe-tan face.svg|alt=icon",
+	["antarctica"] = "Antarctica (orthographic projection).svg|alt=map",
+	["antigua and barbuda"] = "Flag of Antigua and Barbuda.svg|border|link=|alt=flag",
+	["appalachia"] = "Appalachian region of United States.png|border|link=|alt=map",
+	["applied science"] = "Metallurgy stub icon.svg|link=|alt=icon",
+	["arab world"] = "Flag of the Arab League.svg|border|link=|alt=flag",
+	["arabic language"] = "Arabic-dad-letter.svg|alt=icon",
+	["archaeology"] = "Stonehenge Closeup.jpg|link=|alt=",
+	["architecture"] = "P parthenon.svg|alt=icon",
+	["arctic"] = "Arctic (orthographic projection).svg|alt=map",
+	["argentina"] = "Flag of Argentina.svg|border|link=|alt=flag",
+	["arithmetic"] = "Arithmetic symbols.svg|link=|alt=",
+	["arizona"] = "Flag of Arizona.svg|border|link=|alt=flag",
+	["arkansas"] = "Flag of Arkansas.svg|border|link=|alt=flag",
+	["armenia"] = "Flag of Armenia.svg|border|link=|alt=flag",
+	["arunachal pradesh"] = "India Arunachal Pradesh locator map.svg|alt=map",
+	["art"] = "Ballerina-icon.jpg|alt=icon",
+	["arthropods"] = "Cercophonius squama.jpg|alt=icon",
+	["artsakh"] = "Flag of Artsakh.svg|border|link=|alt=flag",
+	["aruba"] = "Flag of Aruba.svg|border|link=|alt=flag",
+	["asia"] = "Asia (orthographic projection).svg|alt=icon",
+	["assam"] = "Seal of Assam.png|link=|alt=",
+	["association football"] = "Soccer ball.svg|alt=icon|class=skin-invert-image",
+	["assyrians"] = "Flag of Assyria.svg|border|link=|alt=flag",
+	["astronomy"] = "Crab Nebula.jpg|link=|alt=",
+	["athletics"] = "Athletics pictogram.svg|link=|alt=|class=skin-invert-image",
+	["atlanta"] = "Atlflag.svg|link=|alt=flag",
+	["atlas"] = "World map green.png|alt=icon",
+	["australia"] = "Flag of Australia.svg|border|link=|alt=flag",
+	["australian capital territory"] = "Flag of Australia.svg|border|link=|alt=flag",
+	["australian roads"] = "Australia road sign W5-29.svg|alt=icon",
+	["australian rules football"] = "Sherrin-transparent.png|link=|alt=",
+	["austria"] = "Flag of Austria.svg|border|link=|alt=flag",
+	["austria-hungary"] = "Wappen Österreich-Ungarn 1916 (Klein).png|link=|alt=",
+	["aviation"] = "Aviacionavion.png|link=|alt=",
+	["azad kashmir"] = "Flag of Azad Kashmir.svg|border|link=|alt=flag",
+	["azerbaijan"] = "Flag of Azerbaijan.svg|border|link=|alt=flag",
+}

@@ -1,0 +1,42 @@
+<includeonly><div style="display:inline-block;vertical-align:middle;font-family:{{{font|Lucida Console, monospace}}};{{#ifexpr:{{#if:{{{1|}}}|1|0}} or {{#if:{{{2|}}}|1|0}}
+	|background:{{#if:{{{2|}}}
+	|{{#ifeq:{{{1}}}|{{{2}}}|{{{1}}}|{{#if:{{{1|}}}
+	|linear-gradient(to top right,{{{1|#eaecf0}}} {{#if:{{{no-diagonal|}}}
+	|48.5%,{{{2|#eaecf0}}} 51.5%|49.5%,#aaa 49.5%,#aaa 50.5%,{{{2|#eaecf0}}} 50.5%}})
+	|{{{2}}}}}}}|{{{1}}}}};|}}line-height:1;{{#if:{{{far-border|}}}
+	|{{#ifeq:{{{far-border|}}}|{{{border|}}}|border:{{{border-width|0.0625em}}} solid {{{border|#000}}};|border-top:{{{border-width|0.0625em}}} solid {{{border|{{{1|#000}}}}}};border-left:{{{border-width|0.0625em}}} solid {{{border|{{{1|#000}}}}}};border-right:{{{border-width|0.0625em}}} solid {{{far-border|#000}}};border-bottom:{{{border-width|0.0625em}}} solid {{{far-border|#000}}};}}|{{#if:{{{border2|}}}
+	|{{#ifeq:{{{border2}}}|{{{border|}}}|border:{{{border-width|0.0625em}}} solid {{{border|#000}}};|border-top:{{{border-width|0.0625em}}} solid {{{border2|#000}}};border-left:{{{border-width|0.0625em}}} solid {{{border|{{{1|#000}}}}}};border-right:{{{border-width|0.0625em}}} solid {{{border2|#000}}};border-bottom:{{{border-width|0.0625em}}} solid {{{border|{{{1|#000}}}}}};}}|{{#if:{{{border|}}}
+	|border:{{{border-width|0.0625em}}} solid {{{border}}};|{{#ifeq:{{{1|}}}|{{{2}}}|border:{{{border-width|0.0625em}}} solid {{{1|#000}}};|{{#if:{{{1|}}}
+	|{{#if:{{{2|}}}|border-top:{{{border-width|0.0625em}}} solid {{{2}}};border-left:{{{border-width|0.0625em}}} solid {{{1|}}};border-right:{{{border-width|0.0625em}}} solid {{{2}}};border-bottom:{{{border-width|0.0625em}}} solid {{{1}}}|border:{{{border-width|0.0625em}}} solid {{{1}}}}}|border:{{{border-width|0.0625em}}} solid #000}};}}}}}}}}font-size:{{{font-size|1em}}};">{{#ifexpr:{{#ifeq:{{{3|}}}|{{{4|}}}|1|0}} and {{#if:{{{3|}}}|1|0}}
+	|{{#ifeq:{{{5|}}}|{{{6|}}}|{{#if:{{{corner|}}}
+	|<div style="line-height:{{#switch:{{#invoke:String|len|s={{{3}}}}}
+		|3 = 0.95
+		|4 = 1
+		|#default = 0.7}};margin:-0.125em 0.125em 0em 0em;text-align:left;"><span style="font-size:{{#ifeq:{{#invoke:String|len|s={{{3}}}}}|4|0.85|0.75}}em;margin:0em;padding:0.0625em 0.0625em 0em 0.1875em;text-align:left;color:{{#if:{{{corner-color|}}}
+	|{{{corner-color}}}|{{greater color contrast ratio|{{{corner-background|{{{border|{{greater color contrast ratio|{{{1|{{{2|#fff}}}}}}|#000|#fff}}}}}}}}|#000|#fff}}}};background-color:{{#if:{{{corner-background|{{{border|}}}}}}|{{{corner-background|{{{border|}}}}}}|{{greater color contrast ratio|{{{corner-color|{{{1|{{{2|#fff}}}}}}}}}|#000|#fff}}}};">{{{corner}}}</span></div>|<div style="line-height:{{#if:{{{maximize|}}}
+	|0.45|{{#switch:{{#invoke:String|len|s={{{3}}}}}
+		|3 = 0.75
+		|4 = 0.8
+		|#default = 0.65}}}};font-size:{{#if:{{{maximize|}}}|0.58|1}}em;margin-right:0em;">&nbsp;&nbsp;&nbsp;</div>}}<div style="text-align:center;line-height:0.85;margin:{{#if:{{{maximize|}}}|-0.125em 0.125em -0.125em 0.125em|-0.0625em 0.125em -0.1875em 0.125em}};color:{{#if:{{{5|}}}
+	|{{{5}}}|{{greater color contrast ratio|{{{1|}}}|#000|#fff}}}};{{#switch:{{#invoke:String|len|s={{{3}}}}}
+		|3 = {{#ifeq:{{{font-size|}}}|0.61em|font-size:0.95em;|font-size:0.85em;}}
+		|4 = {{#ifeq:{{{font-size|}}}|0.61em|font-size:0.75em;|font-size:0.6em;}}
+		|#default = }}">{{{3|&nbsp;&nbsp;&nbsp;}}}</div>{{#if:{{{far-corner|}}}
+	|<div style="line-height:{{#switch:{{str len|{{{3}}}}}
+		|3 = 0.95
+		|4 = 1
+		|#default = 0.7}};margin:0em 0em 0em 0.0625em;text-align:right;"><span style="margin:0em -0.0625em 0em 0em;">&nbsp;&nbsp;</span><span style="font-size:0.75em;margin:0em;padding:0em 0.0625em 0em 0.125em;text-align:right;color:{{#if:{{{far-corner-color|}}}
+	|{{{far-corner-color}}}|{{greater color contrast ratio|{{{far-corner-background|{{{far-border|}}}|{{{border|}}}|{{{2|}}}|{{{1|}}}|#fff}}}|#000|#fff}}}};background-color:{{#if:{{{far-corner-background|{{{far-border|{{{border|}}}}}}|}}}|{{{far-corner-background|{{{far-border|{{{border|}}}}}}|}}}|{{greater color contrast ratio|{{{far-corner-color|{{{2|}}}|{{{1|}}}|#fff}}}|#000|#fff}}}};">{{{far-corner}}}</span></div>|<div style="line-height:{{#if:{{{maximize|}}}
+	|0.45|{{#switch:{{#invoke:String|len|s={{{3}}}}}
+		|3 = 0.75
+		|4 = 0.8
+		|#default = 0.7}}}};font-size:{{#if:{{{maximize|}}}|0.58|1}}em;margin-left:0.125em;">&nbsp;&nbsp;&nbsp;</div>}}
+	|<div style="margin-right:0.125em;text-align:right;color:{{#if:{{{6|}}}|{{{6}}}|{{#if:{{{2|}}}|{{greater color contrast ratio|{{{2}}}|#000|#fff}}|#000}}}};">{{#if:{{{4|}}}|&nbsp;&nbsp;{{{4}}}|&nbsp;&nbsp;&nbsp;}}</div><div style="float:left;margin-left:0.125em;text-align:left;color:{{#if:{{{5|}}}
+	|{{{5}}}|{{#if:{{{1|}}}|{{greater color contrast ratio|{{{1}}}|#000|#fff}}|#000}}}};">{{{3|&nbsp;&nbsp;&nbsp;}}}</div>}}
+
+	|{{#if:{{{corner|}}}
+	|<div style="margin-left:0em;margin-top:0em;text-align:left;"><span style="color:{{#if:{{{corner-color|}}}
+	|{{{corner-color}}}|{{greater color contrast ratio|{{{corner-background|{{{border|{{greater color contrast ratio|{{{1|{{{2|#fff}}}}}}|#000|#fff}}}}}}}}|#000|#fff}}}};text-align:left;margin-left:0em;padding:0.0625em 0.0625em 0em 0.125em;margin-top:0em;background-color:{{#if:{{{corner-background|{{{border|}}}}}}|{{{corner-background|{{{border|}}}}}}|{{greater color contrast ratio|{{{corner-color|{{{1|{{{2|#fff}}}}}}}}}|#000|#fff}}}};">{{{corner}}}</span><span style="margin-left:0.3em;margin-right:0.125em;text-align:right;color:{{#if:{{{6|}}}|{{{6}}}|{{#if:{{{2|}}}|{{greater color contrast ratio|{{{2}}}|#000|#fff}}|#000}}}};">{{#if:{{{4|}}}|{{{4}}}|&nbsp;}}</span></div><div style="float:left;margin-left:0.125em;text-align:left;color:{{#if:{{{5|}}}|{{{5}}}|{{#if:{{{1|}}}|{{greater color contrast ratio|{{{1}}}|#000|#fff}}|#000}}}};">{{#if:{{{3|}}}|{{{3}}}|&nbsp;&nbsp;&nbsp;}}</div>
+	|<div style="line-height:{{#if:{{{maximize|}}}|0.55|0.98}};font-size:{{#if:{{{maximize|}}}|1|0.99}}em;margin-right:{{#if:{{{maximize|}}}|0.3125|0.125}}em;text-align:right;color:{{#if:{{{6|}}}|{{{6}}}|{{#if:{{{2|}}}|{{greater color contrast ratio|{{{2|}}}|#000|#fff}}|#000}}}};">{{#if:{{{4|}}}|&nbsp;&nbsp;{{{4}}}|{{#if:{{{maximize|}}}|&nbsp;|&nbsp;&nbsp;&nbsp;}}}}</div><div style="line-height:{{#if:{{{maximize|}}}|0.55|0.99}};font-size:{{#if:{{{maximize|}}}|1|0.98}}em;float:left;margin-left:{{#if:{{{maximize|}}}|0.3125|0.125}}em;text-align:left;color:{{#if:{{{5|}}}|{{{5}}}|{{#if:{{{1|}}}|{{greater color contrast ratio|{{{1}}}|#000|#fff}}|#000}}}};">{{#if:{{{3|}}}|{{{3}}}|{{#if:{{{maximize|}}}|&nbsp;|&nbsp;&nbsp;&nbsp;}}}}</div>}}}}</div></includeonly><noinclude>
+{{documentation}}
+</noinclude>

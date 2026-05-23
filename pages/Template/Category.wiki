@@ -1,0 +1,3 @@
+#REDIRECT [[Template:Category link]]
+
+{{Redirect category shell|{{R from long name}}}}

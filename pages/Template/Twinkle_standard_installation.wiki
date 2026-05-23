@@ -1,0 +1,5 @@
+{{Mbox
+| image = [[File:Twinkle logo.svg|50x40px|alt=Logo of Twinkle|link=]]
+| text = Any [[Template:Twinkle standard installation#"Breaking changes"|breaking changes]] to this template, including moving it or nominating it for deletion, {{strong|must be communicated in advance}} to [[Wikipedia:Twinkle|Twinkle]]'s users and maintainers at [[Wikipedia talk:Twinkle]]. The standard installation of Twinkle relies on this template. Thank you.{{#if:{{{1|}}}|<br>
+{{{1}}}}}}}<includeonly>{{#if:{{{nocat|}}}||{{#ifeq:{{PAGENAME}}|{{BASEPAGENAME}}|[[Category:Templates used by Twinkle|{{PAGENAME}}]]}}}}</includeonly><noinclude>
+{{Documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>

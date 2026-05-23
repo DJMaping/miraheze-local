@@ -1,0 +1,50 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{lua|Module:For related page}}
+
+This template creates a wiki-link which points readers to the corresponding [[Wikipedia:Timeline|timeline article]].
+
+== Usage ==
+
+Basic usage:
+
+{{in5}}{{tlx|{{BASEPAGENAME}}}}
+
+This will create an indented and italicized cross-reference like the following:
+
+{{in5}}''For a chronological guide, see [[Timeline of the Manhattan Project]].''
+
+The template should automatically detect the correct title of the timeline article, as long as it has been named in one of the more common patterns for such articles (check the link to be sure it worked). If the template doesn't detect the correct name automatically, then add it in manually like this:
+
+{{in5}}{{tlx|{{BASEPAGENAME}}|{{var|Title of timeline article}}}}
+
+Don't [[WP:Link|wikilink]] the parameter; the template will do this for you.
+
+Additional timelines can be added, e.g.
+
+{{in5}}{{tlx|{{BASEPAGENAME}}|{{var|Title of timeline article 1}}|{{var|Title of timeline article 2}}|{{var|...}}}}
+
+Which will create something like:
+
+{{{{BASEPAGENAME}}|Timeline of World War II (1939)|Timeline of World War II (1940)|Timeline of World War II (1941)|Timeline of World War II (1942)|Timeline of World War II (1943)|Timeline of World War II (1944)|Timeline of World War II (1945)}}
+
+=== Placement ===
+The use of this  template in a [[WP:Hatnote|hatnote]] at the top of an article should be avoided (per [[WP:RELATED]]) unless the article and the related timeline article have [[WP:Disambiguation|ambiguous]] titles. The template can be used at the top or below a narrative section, or below a list in some other format.
+
+== See also ==
+* {{tl|For outline}} – similar pointer to [[WP:Outline]] article on the topic
+* {{tl|Main}} – pointer to the main article on a topic
+* {{tl|Further}}
+* {{tl|Main list}} – pointer to the main [[WP:Stand-alone list|{{em|list}} article]] on a topic (usually one for which there are multiple hierarchical or subtopical lists)
+
+{{Hatnote templates}}
+
+== Wikidata ==
+{{lua|Module:For related page}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Disambiguation and redirection templates]]
+[[Category:Cross-reference templates]]
+[[Category:Hatnote templates for lists]]
+}}</includeonly>

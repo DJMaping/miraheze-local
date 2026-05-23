@@ -1,0 +1,3 @@
+<includeonly><templatestyles src="Module:Historical populations/styles.css"/>{{#invoke:Historical populations|poptable}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

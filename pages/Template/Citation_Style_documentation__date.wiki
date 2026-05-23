@@ -1,0 +1,23 @@
+{{redirect|Wikipedia:Undated|undated signatures|Template:Undated}}
+
+* <b id="csdoc_date">date</b>: Date of referenced source. Can be full date (day, month, and year) or partial date (month and year, season and year, or year). Use same format as other publication dates in the citations.{{r|date|group=date}} Do not wikilink. Displays after the authors and is enclosed in parentheses. If there is no author, then displays after the website and publisher. {{#if:{{{aliases|}}}|Aliases: {{{aliases}}}.}} {{crossref|For acceptable date formats, see {{section link|Help:Citation Style 1|Dates}}.}}
+:[[Help:Shortened footnotes|Shortened footnotes]] target full citations using the year specified in this parameter. A lowercase letter may be suffixed to the year to disambiguate {{tlx|sfn}} links to multiple works by the same author in the same year,{{sup|[[Template:Sfn#More_than_one_work_in_a_year|[more]]]}} unless the date is formatted as YYYY-MM-DD. In the latter case, '''year''' or '''ref''' is required to disambiguate the link targets.
+:For approximate year, precede with "<code>c. </code>", like this: {{para|date|c. 1900}}.
+{{anchor|Undated}}
+:For no date, or "undated", use {{para|date|n.d.}}
+:The date of a Web page, PDF, etc. with no visible date can sometimes be established by searching the page source or document code for a <code>created</code> or <code>updated</code> date; a comment for editors such as <code><nowiki>date=2021-12-25<!--date from page source-->|orig-date=Original date 2011-01-01</nowiki></code> can be added.
+
+{{Citation Style documentation/auto-date-format}}
+* <b id="csdoc_year">year</b>: Year of publication. The more flexible {{para|date}} parameter also handles a year by itself. Do not use in combination with the <code class="tpl-para" style="word-break:break-word;  ">|date=</code> parameter, unless <em     >both</em> of the following conditions are met:
+*# [[Help:Shortened footnotes|Shortened footnotes]] target multiple citations with same last name and year of publication. (This situation necessitates a <code>[[Wikipedia:Citation templates and reference anchors|CITEREF]]</code> [[Template:Sfn#More than one work in a year|disambiguator]], usually a lowercase letter suffixed to the year.)
+*# The <code class="tpl-para" style="word-break:break-word;  ">|date=</code> format is YYYY-MM-DD. (This format prevents the addition of a disambiguating letter to the year.){{#if:{{{limited_param_list|}}}||
+* <!-- TBD: legacy csdoc_origyear anchor to be removed at a later stage -->{{anchor|csdoc_origyear}}<b id="csdoc_origdate">orig-date</b>: Original publication date or year; displays in square brackets after the '''date''' (or '''year'''). For clarity, please supply specifics. For example: {{para|orig-date|First published 1859}} or {{para|orig-date|Composed 1904}}. As {{para|orig-date}} does not support automatic date formatting, use the same date format as defined by {{para|df}} (or, if it exists in the article, by {{para|cs1-dates}} of a {{tlx|use dmy dates}} or {{tlx|use mdy dates}} template), or as used in the {{para|date}} parameter. Alias: '''orig-year'''}}
+* <b id="csdoc_df">df</b>: date format; sets rendered dates to the specified format; does not support date ranges or seasonal dates; overrides the automatic date formatting described above. Accepts one value which may be one of these:
+*:<code>dmy</code> – set publication dates to day month year format; access- and archive-dates are not modified;
+*:<code>mdy</code> – as above for month day, year format
+*:<code>ymd</code> – as above for year initial numeric format YYYY-MM-DD
+*:<code>dmy-all</code> – set publication, access-, and archive-dates to day month year format;
+*:<code>mdy-all</code> – as above for month day, year format
+*:<code>ymd-all</code> – as above for year initial numeric format YYYY-MM-DD
+
+{{reflist|group=date|refs=<ref name=date>Publication dates in references within an article should all have the same format. This may be a different format from that used for archive and access dates. {{crossref|See [[MOS:DATEUNIFY]].}}</ref>}}

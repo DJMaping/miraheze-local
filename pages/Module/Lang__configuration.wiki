@@ -1,0 +1,338 @@
+--[[--------------------------< T E M P L A T E S _ T >--------------------------------------------------------
+]]
+
+local templates_t = {
+	lang = 'Lang',
+	langx = 'Langx',
+	langxx = 'Lang-xx',
+	transliteration = 'Transliteration',
+	}
+
+
+--[[--------------------------< K N O W N _ P A R A M S >------------------------------------------------------
+
+lists of all parameters known to {{lang}}, {{langx}}, {{lang-xx}} templates.
+
+Exception: |fn= is known to {{lang}} but is not a 'lang' template;  that parameter causes the module to call the
+specified lang(), lang_xx_inherit(), or lang_xx_italic() function.  These separate functions set |fn= to nill
+and then do the known-param checking on the other template parameters
+
+]]
+
+local known_params_t = {
+	['common_params_all_t'] = {													-- these parameters common to {{lang}}, {{langx}}, and {{lang-xx}}
+		['code'] = true,
+		['text'] = true,
+		['rtl'] = true,
+		['italic'] = true,
+		['italics'] = true,
+		['i'] = true,
+		['size'] = true,
+		['proto'] = true,
+		['nocat'] = true,
+		['cat'] = true,
+
+		['template'] = true,													-- supplied by external templates to provide template name for error messaging ({{nihongo}}, etc)
+		},
+	
+	['params_lang_t'] = {														-- unique to {{lang}}
+		[1] = true,																-- alias of |code=
+		[2] = true,																-- alias of |text=
+		},
+
+	['params_x_t'] = {															-- common to {{langx}} and {{lang-xx}}
+		['translit'] = true,
+		['translit-std'] = true,
+		['translit-script'] = true,
+		['translation'] = true,
+		['lit='] = true,
+		['label'] = true,
+		['link'] = true,
+		['links'] = true,
+		['lit'] = true,
+		['engvar'] = true,
+		},
+
+	['params_langx_t'] = {														-- unique to {{langx}}
+		[1] = true,																-- alias of |code=
+		[2] = true,																-- alias of |text=
+		[3] = true,																-- alias of |translit=
+		[4] = true,																-- alias of |translation=
+		},
+
+	['params_lang_xx_t'] = {													-- unique to {{lang-xx}}
+		[1] = true,																-- alias of |text=
+		[2] = true,																-- alias of |translit=
+		[3] = true,																-- alias of |translation=
+		['script'] = true,														-- these needed to override default params in {{lang-??}} templates
+		['region'] = true,
+		['variant'] = true,
+		},
+	}
+
+
+--[[--------------------------< E N G _ V A R >----------------------------------------------------------------
+
+Used at en.wiki so that spelling of 'romanized' (US, default) can be changed to 'romanised' to match the envar
+specified by a {{Use xxx English}}.  Not likely useful outside of en.wiki
+
+This is accomplished by setting |engvar=gb; can, should be omitted in articles that use American English; no
+need for the clutter.
+
+]]
+
+local engvar_sel_t = {															-- select either UK English or US English
+	['au'] = 'gb_t',															-- these match IANA region codes (except in lower case)
+	['ca'] = 'us_t',
+	['gb'] = 'gb_t',
+	['ie'] = 'gb_t',
+	['in'] = 'gb_t',
+	['nz'] = 'gb_t',
+	['us'] = 'us_t',															-- default engvar
+	['za'] = 'gb_t'
+	};
+
+local engvar_t = {
+	['gb_t'] = {
+		['romanisz_lc'] = 'romanisation',										-- lower case
+		['romanisz_uc'] = 'Romanisation',										-- upper case; unused can be deleted
+		['romanisz_pt'] = 'romanised',											-- past tense
+		},
+	['us_t'] = {																-- default engvar
+		['romanisz_lc'] = 'romanization',										-- lower case
+		['romanisz_uc'] = 'Romanization',										-- upper case; unused can be deleted
+		['romanisz_pt'] = 'romanized',											-- past tense
+		}
+	}
+
+local default_engvar = 'us_t';
+
+
+--[[
+=============================<< M E S S A G I N G   T A B L E S >>=============================================
+
+these tables are for internationalization.  Messages or fragments thereof are mostly grouped by function name.
+Some messages are shared by functions other than the function table that lists the message or fragment.
+
+]]
+
+
+--[[--------------------------< K E Y W O R D S _ T >----------------------------------------------------------
+]]
+
+local keywords_t = {
+	['affirmative'] = 'yes',
+	['negative'] = 'no',
+	['unset'] = 'unset',
+	['invert'] = 'invert',
+	['default'] = 'default',
+	}
+
+
+--[[--------------------------< M I S C _ T E X T _ T >--------------------------------------------------------
+
+
+
+]]
+
+local misc_text_t = {
+	['error'] = 'Error',														-- make_error_msg(), tag_from_name()
+	['language'] = 'language',													-- make_translit(), lang_xx(), name_from_tag()
+	['help'] = 'help',
+	}
+
+
+--[[--------------------------< M A K E _ E R R O R _ M S G _ T >----------------------------------------------
+]]
+
+local make_error_msg_t = {
+	['xlit_err_cat'] = 'Transliteration template errors',
+	['lang_err_cat'] = 'Lang and lang-xx template errors',
+	['undefined'] = 'undefined',
+	}
+	
+
+--[[--------------------------< V A L I D A T E _ I T A L I C _ T >--------------------------------------------
+]]
+
+local parameter_validate_t = {
+	['invalid_param'] = 'invalid parameter: &#124;$1=',							-- $1 is parameter name
+	}
+
+
+--[[--------------------------< V A L I D A T E _ I T A L I C _ T >--------------------------------------------
+]]
+
+local validate_italic_t = {
+	['multi_italic'] = 'only one of &#124;italic=, &#124;italics=, or &#124;i= can be specified',
+	}
+	
+
+--[[--------------------------< V A L I D A T E _ T E X T _ T >------------------------------------------------
+]]
+
+local validate_text_t = {
+	['no_text'] = 'no text',
+	['malformed_markup'] = 'text has malformed markup',
+	['italic_markup'] = 'text has italic markup',
+	}
+
+
+--[[--------------------------< T E X T _ S C R I P T _ M A T C H _ T E S T _ T >------------------------------
+]]
+
+local text_script_match_test_t = {
+	['latn_txt_mismatch'] = 'Latn text/non-Latn script subtag mismatch',
+	['latn_scr_mismatch'] = 'Non-latn text (pos $1: $2)/Latn script subtag mismatch',	-- $1 identifies offending character's position; $2 is the character
+	}
+
+
+--[[--------------------------< L A N G _ T >------------------------------------------------------------------
+]]
+
+local lang_t = {
+	['conflict_n_param'] = 'conflicting: {{{$1}}} and &#124;$2=',				-- $1 is positional param number, $2 is named param; shared with _lang_xx()
+	['conflict_n_param_types'] = {
+		['code'] = 'code',
+		['text'] = 'text',
+		['translit'] = 'translit',
+		},
+	['invalid_proto'] = 'invalid &#124;proto=: $1',								-- _lang_xx also emits this message
+	}
+	
+	
+--[[--------------------------< L A N G _ X X _ T >------------------------------------------------------------
+]]
+
+local lang_xx_t	= {
+	['conflict_n_lit'] = 'conflicting: {{{$1}}} and &#124;lit= or &#124;translation=',	-- $1 is positional parameter; can be either 3 ({{lang-??}}) or 4 ({{langx}})
+	['conflict_lit'] = 'conflicting: &#124;lit= and &#124;translation=',
+	['conflict_link'] = 'conflicting: &#124;links= and &#124;link=',
+	['invalid_xlit_std'] = 'invalid translit-std',
+	['romanization'] = 'Romanization of',
+	['translit_nonlatn'] = 'transliteration text not Latin script (pos $1: $2)',	-- _xlit() also emits this message; $1 identifies offending character's position; $2 is the character
+	['xlit_of_latn'] = 'transliteration of latn script',
+	}
+
+
+--[[--------------------------< T A G _ F R O M _ N A M E _ T >------------------------------------------------
+]]
+
+local tag_from_name_t = {
+	['lang_not_found'] = 'language: $1 not found',								-- $1 is language name parameter value
+	['missing_lang_name'] = 'missing language name',
+	}
+
+
+--[[--------------------------< T R A N S L _ T >--------------------------------------------------------------
+]]
+
+local transl_t = {
+	['unrecog_xlit_std'] = 'unrecognized transliteration standard: $1',			-- $1 is |translit_std- parameter value
+	['no_text'] = 'no text',
+	['missing_lang_scr'] = 'missing language / script code',
+	['unrecog_lang_scr'] = 'unrecognized language / script code: $1',			-- $1 is the language/script code
+	}
+
+
+--[[--------------------------< G E T _ I E T F _ P A R T S _ T >----------------------------------------------
+]]
+
+local get_ietf_parts_t = {
+	['maint_promo_cat'] = 'Lang and lang-xx code promoted to ISO 639-1|$1',		-- $1 is ISO 639-2/3 subtag
+	['maint_promo_msg'] = 'code: $1 promoted to code: $2',						-- $1 is ISO 639-2/3 subtag, $2 is synonymous ISO 639-1 subtag
+
+	['missing_lang_tag'] = 'missing language tag',								-- also used in _langx()
+	['redundant_scr'] = 'redundant script tag',
+	['redundant_reg'] = 'redundant region tag',
+	['redundant_var'] = 'redundant variant tag',
+	['unrecog_tag'] = 'unrecognized language tag: $1',							-- $1 is the whole language tag
+	['unrecog_code'] = 'unrecognized language code: $1',						-- $1 is code
+	['unrecog_reg_code'] = 'unrecognized region: $1 for code: $2',				-- $1 is region, $2 is code
+	['unrecog_scr_code'] = 'unrecognized script: $1 for code: $2',				-- $1 is script, $2 is code
+	['script_code'] = 'script: $1 not supported for code: $2',					-- $1 is script, $2 is code
+	['unrecog_var'] = 'unrecognized variant: $1',								-- $1 is variant
+	['unrecog_var_code'] = 'unrecognized variant: $1 for code: $2',				-- $1 is variant, $2 is code
+	['unrecog_var_code_scr'] = 'unrecognized variant: $1 for code-script pair: $2-$3',	-- $1 is variant, $2 is code, $3 is script
+	['unrecog_var_code_reg'] = 'unrecognized variant: $1 for code-region pair: $2-$3',	-- $1 is variant, $2 is code, $3 is region
+	['unrecog_pri'] = 'unrecognized private tag: $1',							-- $1 is private tag
+	}
+
+
+--[[--------------------------< L A N G U A G E _ N A M E _ G E T _ T >----------------------------------------
+]]
+
+local language_name_get_t = {
+	['deprecated_cat'] = 'Lang and lang-xx using deprecated ISO 639 codes|$1',	-- $1 is deprecated ISO 639 subtag
+	['deprecated_msg'] = 'code: $1 is deprecated',								-- $1 is deprecated ISO 639 subtag
+	}
+
+
+--[[--------------------------< H T M L _ T I T L E _ T E X T _ T >--------------------------------------------
+]]
+
+local make_text_html_t = {
+	['zxx'] = 'text',															-- for zxx no linguistic content
+	['collective'] = 'collective text',											-- for collective languages
+	['individual'] = 'language text',											-- for individual languages
+	}
+
+
+--[[--------------------------< T R A N S L A T I O N _ M A K E _ T >------------------------------------------
+]]
+
+local translation_make_t = {
+	['lit_xlation'] = 'Literal translation',									-- article title fragment and HTML title attribute
+	['lit_abbr'] = 'lit.',
+	}
+
+
+--[[--------------------------< M A K E _ C A T E G O R Y _ T >------------------------------------------------
+]]
+
+local make_category_t = {
+	['collective_cat'] = 'Category:Articles with text in',						-- for collective languages
+	['cat_prefix'] = 'Category:Articles containing',							-- prefix for explicitly cited and individual languages
+	['explicit_cat'] = 'explicitly cited',										-- for explicitly citing this wiki's language
+	['cat_postfix'] = 'language text',											-- postfix for individual languages
+	}
+	
+
+--[[--------------------------< M A K E _ T R A N S L I T _ T >------------------------------------------------
+]]
+
+local make_translit_t = {
+	['script'] = 'script',
+	['transliteration'] = 'transliteration',
+	}
+
+
+--[[--------------------------< E X P O R T S >----------------------------------------------------------------
+]]
+
+return {
+	known_params_t = known_params_t,
+	templates_t = templates_t,
+
+	default_engvar = default_engvar,											-- engvar support not likely useful outside of en.wiki
+	engvar_t = engvar_t,
+	engvar_sel_t = engvar_sel_t,
+
+	get_ietf_parts_t = get_ietf_parts_t,										-- messaging tables
+	keywords_t = keywords_t,
+	lang_t = lang_t,
+	lang_xx_t = lang_xx_t,
+	language_name_get_t = language_name_get_t,
+	make_category_t = make_category_t,
+	make_error_msg_t = make_error_msg_t,
+	make_text_html_t = make_text_html_t,
+	make_translit_t = make_translit_t,
+	misc_text_t = misc_text_t,
+	parameter_validate_t = parameter_validate_t,
+	tag_from_name_t = tag_from_name_t,
+	text_script_match_test_t = text_script_match_test_t,
+	transl_t = transl_t,
+	translation_make_t = translation_make_t,
+	validate_italic_t = validate_italic_t,
+	validate_text_t = validate_text_t,
+	}

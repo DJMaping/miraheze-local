@@ -1,0 +1,15 @@
+{{ safesubst:<noinclude/>#invoke:Unsubst||date=__DATE__ |$B=
+{{Fix
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| link  = Wikipedia:Accuracy dispute#Disputed statement
+| text  = dubious
+| post-text = &ndash; [[{{TALKPAGENAME}}#{{{1|{{{talk|Dubious}}}}}}|discuss]]
+| title = {{delink|{{{reason|The material near this tag is possibly inaccurate or nonfactual.}}}}}
+| date  = {{{date|}}}
+| cat   = [[Category:All accuracy disputes]]
+| cat-date = Category:Articles with disputed statements
+}}
+}}<noinclude>
+{{Documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>

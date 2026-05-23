@@ -1,0 +1,35 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{Uses TemplateStyles|Template:Percentage bar/styles.css}}
+== Usage ==
+
+;Normal usage
+* {{tld|Percentage bar|0}} → {{Percentage bar|0}}
+* {{tld|Percentage bar|50}} → {{Percentage bar|50}}
+* {{tld|Percentage bar|100}} → {{Percentage bar|100}}
+* {{tld|Percentage bar|50.5}} → {{Percentage bar|50.5}}
+
+;With label
+* {{tld|Percentage bar|50|label}} → {{Percentage bar|50|label}}
+* {{tld|Percentage bar|50{{!}}}} → {{Percentage bar|50|}}
+
+;With color
+* {{tld|Percentage bar|50{{!}}|FF0000}} → {{Percentage bar|50||FF0000}}
+* {{tld|Percentage bar|50|hex{{=}}FF0000}} → {{Percentage bar|50|hex=FF0000}}
+* {{tld|Percentage bar|50|c{{=}}red}} → {{Percentage bar|50|c=red}}
+* {{tld|Percentage bar|50||hex{{=}}FF0000}} → {{Percentage bar|50||hex=FF0000}}
+* {{tld|Percentage bar|50||c{{=}}red}} → {{Percentage bar|50||c=red}}
+
+; With width
+* {{tld|Percentage bar|50|width{{=}}200}} → {{Percentage bar|50|width=200}}
+* {{tld|Percentage bar|50|width{{=}}25%}} → {{Percentage bar|50|width=25%}}
+* {{tld|Percentage bar|50|width{{=}}55%}} → {{Percentage bar|50|width=55%}}
+* {{tld|Percentage bar|50|width{{=}}75%}} → {{Percentage bar|50|width=75%}}
+* {{tld|Percentage bar|50|width{{=}}100%}} → {{Percentage bar|50|width=100%}}
+* {{tld|Percentage bar|50.5|width{{=}}100%}} → {{Percentage bar|50.5|width=100%}}
+
+{{Progress templates|general=yes}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+}}</includeonly>

@@ -1,0 +1,8 @@
+{{ safesubst:<noinclude/>#if: {{ safesubst:<noinclude/>Ns has subpages | {{ safesubst:<noinclude/>#if:{{{1|}}}|{{ safesubst:<noinclude/>NAMESPACE:{{{1}}}}}|{{ safesubst:<noinclude/>NAMESPACE}}}} }} 
+  | {{ safesubst:<noinclude/>#titleparts:{{ safesubst:<noinclude/>#if:{{{1|}}}|{{{1}}}|{{ safesubst:<noinclude/>FULLPAGENAME}}}}|1}}
+  | {{ safesubst:<noinclude/>#if:{{{1|}}}|{{{1}}}|{{ safesubst:<noinclude/>FULLPAGENAME}}}}
+}}<noinclude>
+
+{{documentation}}
+
+</noinclude>

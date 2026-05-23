@@ -1,0 +1,16 @@
+{{#ifeq:{{{1|<#salted#>}}} | <#salted#> 
+| <#salted#>
+| {{#switch:{{lc:{{padleft:|4|{{{1|0}}}}}}}
+    |0x0x
+    |u+0x = <#salted#>
+}}
+{{padleft:{{uc:{{#switch:{{lc:{{padleft:|2|{{{1|0}}}}}}}
+     | u+
+     | 0x = {{Str right|{{{1}}}|2}}
+     |{{{1}}}
+     }}}}|4|0
+   }}
+}}<noinclude>
+
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,624 @@
+{{Documentation subpage}}
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High-use|1242}}<!-- as of February 10, 2019 -->
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+
+{{Infobox civil conflict
+|title= 2011 Wisconsin protests
+|partof= [[2011 United States public employee protests]]
+|image= Gov Walker Protests1 JR.jpg
+|caption= Thousands gather inside Madison Wisconsin's Capitol rotunda to protest Governor Walker's proposed bill.
+|alt=Overhead view of hundreds of people wearing red for the teachers' unions, protesting against Walker's bill.
+|date= {{Start date|2011|2|14}} – {{End date|2011|6|16}}
+|place=[[Madison, Wisconsin|Madison]], Wisconsin, U.S.
+|coordinates= 
+|status= Active protests ended by late June 2011; several pending lawsuits
+|causes= Opposition to certain provisions in legislation (Budget Repair Bill) proposed by Governor Scott Walker to limit public employee collective bargaining and address a state budget shortfall.
+|concessions= none; Budget Repair Bill passed; 2 Republican State Senators recalled from office (8/9/2011); 2 Democratic State Senators win recall elections on 8/16/11; Failed [[2012 Wisconsin gubernatorial recall election|recall attempt]] of Governor Scott Walker.
+|methods= [[Protest]]s, [[sit-in]]s, [[demonstration (people)|demonstrations]], [[recall election]]s, quorum-busting
+|side1=
+Political organizations:
+* [[Democratic Party of Wisconsin]]
+* [[Organizing for America]]
+
+Unions:
+* [[Service Employees International Union|SEIU]]
+* [[Industrial Workers of the World|IWW]]
+* [[Wisconsin Education Association Council|WEAC]] ([[National Education Association|NEA]] affiliate)
+|side2=
+* [[Republican Party of Wisconsin]]
+* Anti-tax activists, many affiliated with the [[Tea Party movement]]
+|leadfigures1= ''Non-centralized leadership''
+
+'''Wisconsin Democratic Legislature figures''':
+* Senate Minority Leader [[Mark F. Miller|Mark Miller]]
+* Assembly Minority Leader [[Peter W. Barca|Peter Barca]]
+
+'''Wisconsin Senate 14''':
+* [[Tim Carpenter]]
+* [[Spencer Coggs]]
+* [[Timothy Cullen (Wisconsin politician)|Tim Cullen]]
+* [[Jon Erpenbach]]
+* [[Dave Hansen (politician)|Dave Hansen]]
+* [[Jim Holperin]]
+* [[Robert Jauch]]
+* [[Chris Larson]]
+* [[Julie Lassa]]
+* [[Mark Miller (Wisconsin politician)|Mark Miller]]
+* [[Fred Risser]]
+* [[Lena Taylor]]
+* [[Kathleen Vinehout]]
+* [[Robert Wirch]]
+
+|leadfigures2= [[Scott Walker (politician)|Governor Scott Walker]]
+
+'''Wisconsin Republican Legislature figures''':
+* Senate Majority Leader [[Scott L. Fitzgerald|Scott Fitzgerald]]
+* President of the Senate [[Michael Ellis (American politician)|Michael Ellis]]
+* Assembly Speaker [[Jeff Fitzgerald]]
+* Assembly Majority Leader [[Scott Suder]]
+|casualties1= {{unbulleted list
+ | '''Deaths''': 0
+ | '''Injuries''': 0
+ | '''Arrests''': 10+
+ }}
+|casualties2=
+|casualties_label= Arrests, etc.
+|howmany1 = '''Protesters:''' 100,000+
+|howmany2= 100+ Wisconsin police and national guardsmen<br/>'''Counter protesters:'''<br />Several thousand}}
+
+A civil conflict infobox may be used to summarize information about a particular civil conflict (for example, protest, strike, clash with police) in a standard manner.  This template is designed for non-military conflicts, so please do not use on the entry of military conflict.
+
+== Usage ==
+The infobox should be added using the {{tl|Infobox civil conflict}} template, as shown below:
+
+<syntaxhighlight lang="wikitext">
+{{Infobox civil conflict
+| title            = 
+| subtitle         = 
+| partof           = 
+| image            = 
+| caption          = 
+| date             = 
+| place            = 
+| coordinates      = 
+| causes           = 
+| goals            = 
+| methods          = 
+| status           = 
+| result           = 
+| side1            = 
+| side2            = 
+| side3            = 
+| leadfigures1     = 
+| leadfigures2     = 
+| leadfigures3     = 
+| howmany1         = 
+| howmany2         = 
+| howmany3         = 
+| casualties1      = 
+| casualties2      = 
+| casualties3      = 
+| fatalities       =
+| injuries         =
+| arrests          =
+| damage           =
+| buildings        =
+| detentions       =
+| charged          =
+| fined            =
+| effect           =
+| effect_label     =
+| casualties_label = 
+| notes            = 
+| sidebox          = 
+}}
+</syntaxhighlight>
+
+All parameters are optional parameters, the general please fill out conflict, date, place, result. Can also follow the different nature of the conflict, to adopt the parameters.
+
+* '''title''' – the name of the conflict being described (e.g. "2011 Wisconsin budget protest").
+* '''subtitle''' – alternative name of the conflict being described (e.g. "2011 budget repair bill protests in Wisconsin").
+* '''partof''' – ''optional'' – the larger conflict containing the event described in the article.  For protests, it could be larger encompassing movement.
+* '''image''' – ''optional'' – an image for the infobox.  The image must be given in the form <nowiki>[[File:Example.jpg|300px|alt=Example alt text]]</nowiki>; in particular, the ''thumb'' attribute must '''not''' be selected.
+* '''caption''' – ''optional'' – the text to be placed below the image.  
+* '''date''' – ''optional'' – the date of the conflict described.  Convention is to give the actual date for the civil conflict.
+* '''time''' – The time of the civil conflict, or of multiple civil conflict if they all occurred at the same time (do not use this along with '''time-begin''' and '''time-end''')
+* '''time-begin''' and '''time-end''' – The start and end times, respectively, if a series of civil conflict (do not use this along with '''time''')
+* '''timezone''' – The timezone of the location of the civil conflict(s); UTC+X, UTC−X, or UTC (i.e. offset from [[UTC]]) preferred
+* '''place''' – the location of the conflict.  For conflicts covering a wide area, a general description (e.g. "France", or "Europe", or "Worldwide") may be used.
+* '''coordinates''' &ndash; ''optional'' &ndash; the location of the structure, given as a coordinate pair by using {{tl|coord}} with ''display=inline,title''.
+* '''map_type''' &ndash; ''optional'' &ndash; the base map to be used for the location map, e.g. "Scotland"; see {{tl|location map}} for more details.
+* '''map_size''' &ndash; ''optional'' &ndash; width of the location map in pixels (px), e.g. "150"; defaults to: "220".  
+* '''map_caption''' &ndash; ''optional'' &ndash; caption displayed below the location map; defaults to "Location within {{{map_type}}}", e.g. "Location within Scotland".
+* '''map_label''' &ndash; ''optional'' &ndash; the label placed next to the marker on the location map.
+* '''goals''' – ''optional'' – goal for the conflict.  For instance, [[Regime change]], [[human rights]], [[democracy]].
+* '''methods''' &ndash; ''optional'' methods used in the civil dispute.  Many terms can be used.  For instance, [[Protest march]], [[Picketing (protest)|Picketing]], [[Street protesters]], [[Petitions]], [[Sit-in]], [[Riot]], [[Hunger strike]], [[Suicide]], [[Bombing]], [[Strike action|Strike]], [[Walkout]], [[Lockout (industry)|Lockout]], [[Boycott]], or [[Book burning]].  See: [[Protest#Forms of protest]].
+* '''status''' – ''optional'' – for ongoing conflicts, the current status of the conflict.  This should not be used if a final '''result''' (below) is provided.
+* '''result''' – ''optional'' – The choice of term should reflect what the sources say. In cases where the standard terms do not accurately describe the outcome, a link to the section of the article where the result is discussed in detail (such as "See the 'Aftermath' section") should be used instead of introducing non-standard terms like "marginal" or contradictory statements. It is better to omit this parameter altogether than to engage in [[WP:NOR|speculation]] about which side won or by how much. The value of '''result''' will not display if '''status''' contains a value.
+* '''side1'''/'''side2'''/'''side3''' – ''optional'' – the parties participating in the conflict.  When there is a large number of participants, it may be better to list only the three or four major groups on each side of the conflict, and to describe the rest in the body of the article.  The '''side3''' field may be used if a conflict has three distinct "sides", and should be left blank on other articles.  Sides should be listed in order of importance to the conflict, be it in terms of political clout, or a recognized chain of command.  If differing metrics can support alternative lists, then ordering is left to the editors of the particular article.
+** '''side1a'''/'''side2a'''/'''side3a''' – ''optional'' – in cases where the parties significantly changed over the course of the conflict, these subsidiary fields may be used to provide additional rows for the '''side''N''''' fields (above).
+** '''side1b'''/'''side2b'''/'''side3b''' – ''optional'' – additional row, as above.
+** '''side1c'''/'''side2c'''/'''side3c''' – ''optional'' – additional row, as above. 
+** '''side1d'''/'''side2d'''/'''side3d''' – ''optional'' – additional row, as above.
+* '''leadfigures1'''/'''leadfigures2'''/'''leadfigures3''' – ''optional'' – the primary leaders (ie the key or significant leaders) of the sides involved. To avoid bloating the infobox, this should be limited to a maximum of about seven for any side.  The '''leadfigures3''' field can only be used if the '''side3''' field is set.  
+* '''units1'''/'''units2'''/'''units3''' – ''optional'' – the people or groups involved.  If a large number of distinct groups are present, it may be better to reference the body of the article than to include the entire list in this field.  The '''units3''' field can only be used if the '''side3''' field is set.
+* '''howmany1'''/'''howmany2''' – ''optional'' – the numerical size of the people involved.
+* '''howmany3''' – ''optional'' – if '''side3''' is set, this is a third size field identical to the two above; if it is '''''not''''' set, this is an alternate combined field for use where only the total participation in a conflict is known.
+* '''casualties1'''/'''casualties2''' – ''optional'' – casualties suffered, including dead, wounded, missing, and arrested.
+* '''casualties3''' – ''optional'' – if '''side3''' is set, this is a third casualty field identical to the two above; if it is '''''not''''' set, this is an alternate combined field for use where only the total casualties of a conflict are known, or where civilian casualties cannot be directly attributed to either side.
+* '''fatalities'''– ''optional'' – the numerical size of the dead.
+* '''injuries'''  – ''optional'' – the numerical size of the injured.
+* '''arrests'''   – ''optional'' – the numerical size of the arrested.
+* '''damage'''    – ''optional'' – the numerical size of the damage.
+* '''buildings'''    – ''optional'' – the numerical size of the buildings destroyed.
+* '''detentions'''– ''optional'' – the numerical size of the detained.
+* '''charged'''– ''optional'' – the name of the Criminal charge.
+* '''fined'''– ''optional'' – the numerical size of the fine penalty.
+* '''effect'''– ''optional'' – the effect
+* '''effect_label'''– ''optional'' – the name of the effect
+* '''casualties_label''' - ''optional'' - Renames the section label of the casualties field.  The default label is ''Casualties''.
+* '''notes''' – ''optional'' – optional field for further notes; this should only be used in exceptional circumstances.
+* '''sidebox''' – ''optional'' – optional field for appending a [[Template:Side box]] to the bottom of the infobox, which allows both boxes to float as a single element (useful if there are subsequent left floating images, which would otherwise not be able to float above the side box); the template must be specified in the format <nowiki>{{Side box XYZ}}</nowiki>.
+
+===Mapframe maps===
+To include a mapframe map, use the following parameters:
+{{Infobox mapframe/doc/parameters}}
+
+==Campaignboxes==
+{{Main|Template:Civil conflict sidebar}}
+===Basic usage===
+<div style="float:right;width:26.7em;margin-bottom:1.0em;">
+{{Campaignbox 2018–19 Arab protests}}
+</div>
+<syntaxhighlight lang="wikitext">
+{{civil conflict sidebar
+| name = {{subst:PAGENAME}}
+| above      =
+| state = {{{state|}}}
+| listclass = hlist
+| events =
+*
+*
+}}</syntaxhighlight>
+==Additional parameters ==
+<syntaxhighlight lang="wikitext">
+| bodyclass =
+| belowclass =
+| notes =
+</syntaxhighlight>
+
+== Tracking category ==
+* {{clc|Pages using infobox civil conflict with unknown parameters}}
+
+== TemplateData ==
+{{TemplateData header}}
+<TemplateData>
+{
+	"description": "A civil conflict infobox may be used to summarize information about a particular civil conflict (for example, protest, clash with police, etc) in a standard manner. This template is designed for non-military conflicts, so please do not use on the entry of military conflict.",
+	"format": "block",
+	"params": {
+		"title": {
+			"label": "Title",
+			"description": "The name of the conflict being described",
+			"type": "string",
+			"required": false,
+			"example": "2011 Wisconsin budget protest"
+		},
+		"subtitle": {
+			"label": "Subtitle",
+			"description": "Alternative name of the conflict being described",
+			"type": "string",
+			"required": false,
+			"example": "2011 budget repair bill protests in Wisconsin"
+		},
+		"latitude": {
+			"label": "latitude",
+			"type": "number",
+			"required": false
+		},
+		"longitude": {
+			"label": "longitude",
+			"type": "number",
+			"required": false
+		},
+		"concessions": {
+			"label": "concessions",
+			"type": "line",
+			"required": false
+		},
+		"partof": {
+			"label": "Part of",
+			"description": "The larger conflict containing the event described in the article. For protests, it could be larger encompassing movement.",
+			"type": "string"
+		},
+		"image": {
+			"label": "Image",
+			"description": "The image to use for the infobox.",
+			"type": "wiki-file-name",
+			"required": false,
+			"suggested": true
+		},
+		"image_alt": {
+			"aliases": [
+				"alt"
+			],
+			"label": "Image alternative text",
+			"description": "Alternative text for the image. See MOS:ALT for guidance",
+			"type": "string",
+			"suggested": true
+		},
+		"caption": {
+			"label": "Image caption",
+			"description": "The text to be placed below the image",
+			"type": "line",
+			"required": false
+		},
+		"date": {
+			"label": "Date",
+			"description": "The date of the conflict described. Convention is to give the actual date for the civil conflict.",
+			"type": "date",
+			"required": false,
+			"example": "{{Start date|2022|2|15}}",
+			"suggested": true
+		},
+		"time": {
+			"label": "Time started",
+			"description": "The time of the civil conflict, or of multiple civil conflict if they all occurred at the same time. Do not use this along with time-begin and time-end.",
+			"type": "line",
+			"required": false
+		},
+		"time-begin": {
+			"label": "Time begin",
+			"description": "The start time, if a series of civil conflict. Do not use this along with time.",
+			"type": "line",
+			"required": false
+		},
+		"time-end": {
+			"label": "Time end",
+			"description": "The end time, if a series of civil conflict. Do not use this along with time.",
+			"type": "line",
+			"required": false
+		},
+		"timezone": {
+			"label": "Timezone",
+			"description": "The timezone of the location of the civil conflict(s).",
+			"type": "string",
+			"required": false,
+			"example": "UTC+6"
+		},
+		"place": {
+			"label": "Place or location",
+			"type": "line",
+			"required": true,
+			"description": "The location of the conflict. For conflicts covering a wide area, a general description (e.g. \"France\", or \"Europe\", or \"Worldwide\") may be used.",
+			"example": "Worldwide"
+		},
+		"coordinates": {
+			"label": "Coordinates",
+			"type": "wiki-template-name",
+			"required": false,
+			"description": "The location of the structure, given as a coordinate pair by using {{coord}} with display=inline,title.",
+			"example": "{{coord|12|W|-55|S|display=inline,title}}",
+			"suggested": true
+		},
+		"causes": {
+			"label": "causes",
+			"type": "content",
+			"required": false
+		},
+		"goals": {
+			"label": "goals",
+			"type": "content",
+			"required": false
+		},
+		"methods": {
+			"label": "methods",
+			"type": "content",
+			"required": false
+		},
+		"status": {
+			"label": "status",
+			"type": "content",
+			"required": false
+		},
+		"result": {
+			"label": "result",
+			"type": "content",
+			"required": false
+		},
+		"side1": {
+			"label": "side1",
+			"type": "content",
+			"required": false
+		},
+		"side2": {
+			"label": "side2",
+			"type": "content",
+			"required": false
+		},
+		"side3": {
+			"label": "side3",
+			"type": "content",
+			"required": false
+		},
+		"side1a": {
+			"label": "side1a",
+			"type": "content",
+			"required": false
+		},
+		"side2a": {
+			"label": "side2a",
+			"type": "content",
+			"required": false
+		},
+		"side3a": {
+			"label": "side3a",
+			"type": "content",
+			"required": false
+		},
+		"side1b": {
+			"label": "side1b",
+			"type": "content",
+			"required": false
+		},
+		"side2b": {
+			"label": "side2b",
+			"type": "content",
+			"required": false
+		},
+		"side3b": {
+			"label": "side3b",
+			"type": "content",
+			"required": false
+		},
+		"side1c": {
+			"label": "side1c",
+			"type": "content",
+			"required": false
+		},
+		"side2c": {
+			"label": "side2c",
+			"type": "content",
+			"required": false
+		},
+		"side3c": {
+			"label": "side3c",
+			"type": "content",
+			"required": false
+		},
+		"side1d": {
+			"label": "side1d",
+			"type": "content",
+			"required": false
+		},
+		"side2d": {
+			"label": "side2d",
+			"type": "content",
+			"required": false
+		},
+		"side3d": {
+			"label": "side3d",
+			"type": "content",
+			"required": false
+		},
+		"leadfigures1": {
+			"label": "leadfigures1",
+			"type": "content",
+			"required": false
+		},
+		"leadfigures2": {
+			"label": "leadfigures2",
+			"type": "content",
+			"required": false
+		},
+		"leadfigures3": {
+			"label": "leadfigures3",
+			"type": "content",
+			"required": false
+		},
+		"units1": {
+			"label": "units1",
+			"type": "content",
+			"required": false
+		},
+		"units2": {
+			"label": "units2",
+			"type": "content",
+			"required": false
+		},
+		"units3": {
+			"label": "units3",
+			"type": "content",
+			"required": false
+		},
+		"howmany1": {
+			"label": "howmany1",
+			"type": "number",
+			"required": false
+		},
+		"howmany2": {
+			"label": "howmany2",
+			"type": "number",
+			"required": false
+		},
+		"howmany3": {
+			"label": "howmany3",
+			"type": "number",
+			"required": false
+		},
+		"casualties1": {
+			"label": "casualties1",
+			"type": "number",
+			"required": false
+		},
+		"casualties2": {
+			"label": "casualties2",
+			"type": "number",
+			"required": false
+		},
+		"casualties3": {
+			"label": "casualties3",
+			"type": "number",
+			"required": false
+		},
+		"injuries": {
+			"label": "injuries",
+			"type": "number",
+			"required": false
+		},
+		"fatalities": {
+			"label": "fatalities",
+			"type": "number",
+			"required": false
+		},
+		"arrests": {
+			"label": "arrests",
+			"type": "number",
+			"required": false
+		},
+		"damage": {
+			"label": "damage",
+			"type": "line",
+			"required": false
+		},
+		"detentions": {
+			"label": "detentions",
+			"type": "number",
+			"required": false
+		},
+		"charged": {
+			"label": "charged",
+			"type": "number",
+			"required": false
+		},
+		"fined": {
+			"label": "fined",
+			"type": "number",
+			"required": false
+		},
+		"effect": {
+			"label": "effect",
+			"type": "string",
+			"required": false
+		},
+		"effect_label": {
+			"label": "effect_label",
+			"type": "string",
+			"required": false
+		},
+		"casualties_label": {
+			"label": "casualties_label",
+			"type": "string",
+			"required": false
+		},
+		"notes": {
+			"label": "notes",
+			"type": "string",
+			"required": false
+		},
+		"map_type": {
+			"label": "map_type",
+			"type": "string",
+			"required": false
+		},
+		"map_size": {
+			"label": "map_size",
+			"type": "string",
+			"required": false
+		},
+		"map_label": {
+			"label": "map_label",
+			"type": "string",
+			"required": false
+		},
+		"map_caption": {
+			"label": "map_caption",
+			"type": "string",
+			"required": false
+		},
+		"state": {}
+	},
+	"paramOrder": [
+		"title",
+		"subtitle",
+		"partof",
+		"image",
+		"image_alt",
+		"caption",
+		"date",
+		"time",
+		"time-begin",
+		"time-end",
+		"timezone",
+		"place",
+		"coordinates",
+		"latitude",
+		"longitude",
+		"concessions",
+		"causes",
+		"goals",
+		"methods",
+		"status",
+		"result",
+		"side1",
+		"side2",
+		"side3",
+		"side1a",
+		"side2a",
+		"side3a",
+		"side1b",
+		"side2b",
+		"side3b",
+		"side1c",
+		"side2c",
+		"side3c",
+		"side1d",
+		"side2d",
+		"side3d",
+		"leadfigures1",
+		"leadfigures2",
+		"leadfigures3",
+		"units1",
+		"units2",
+		"units3",
+		"howmany1",
+		"howmany2",
+		"howmany3",
+		"casualties1",
+		"casualties2",
+		"casualties3",
+		"injuries",
+		"fatalities",
+		"arrests",
+		"damage",
+		"detentions",
+		"charged",
+		"fined",
+		"effect",
+		"effect_label",
+		"casualties_label",
+		"notes",
+		"map_type",
+		"map_size",
+		"map_label",
+		"map_caption",
+		"state"
+	]
+}
+</templatedata>
+
+== See also ==
+* {{Tlg|Infobox military conflict}} for an infobox better suited for military conflicts.
+* {{Tlg|Infobox civilian attack}} for an infobox to be used for particular violent attacks in a civilian context (such as terrorist attacks, murders, etc.). 
+<!--  Start of hidden references section -->
+<noinclude>{{Hidden|References
+|{{Template reference list}}}}</noinclude>
+
+<includeonly>{{Sandbox other||
+<!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Events infobox templates|Civil conflict]]
+[[Category:Civil infobox templates]]
+[[Category:Embeddable templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>

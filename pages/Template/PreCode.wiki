@@ -1,0 +1,4 @@
+<code style="white-space:pre;{{{style|}}}">{{{1|text}}}</code><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

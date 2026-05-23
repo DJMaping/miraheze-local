@@ -1,0 +1,19 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Jordan
+| flag alias = Flag of Jordan.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+| flag alias-army = Royal Jordanian Army Flag.svg
+| link alias-army = Royal Jordanian Army
+| flag alias-air force = Air Force Ensign of Jordan.svg
+| link alias-air force = Royal Jordanian Air Force
+| flag alias-naval = Naval Ensign of Jordan.svg
+| link alias-naval = Royal Jordanian Navy
+| flag alias-navy = Naval Ensign of Jordan.svg
+| link alias-navy = Royal Jordanian Navy
+<noinclude>
+| redir1 = JOR
+</noinclude>
+}}

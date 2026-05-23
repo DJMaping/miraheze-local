@@ -1,0 +1,6 @@
+<templatestyles src="Talk quote inline/styles.css" />{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{FormattingError|Template:Tq is only for quoting in talk and project pages. Do not use it in actual articles.}}|<!--
+--><q {{#if: {{{title|}}} | title="{{{title}}}"}} class="inline-quote-talk {{#if: {{{i|{{{italic|}}}}}} | inline-quote-talk-italic}} {{#if: {{{q|{{{quotes|}}}}}}|inline-quote-talk-marks}}">{{Encodefirst|{{trim|{{{1|<includeonly>{{error|Error: No text given for quotation (or equals sign used in the actual argument to an unnamed parameter)}}[[Category:Pages incorrectly using the talk quote inline template]]</includeonly><noinclude>Example text</noinclude>}}}}}}}</q><!--
+-->}}{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using talk quote inline with unknown parameters|_VALUE_{{PAGENAME}}]]|preview=Page using [[Template:Talk quote inline]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | i | italic | q | quotes | title }}<noinclude>
+{{Documentation}}
+
+</noinclude>

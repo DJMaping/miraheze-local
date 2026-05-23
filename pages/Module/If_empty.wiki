@@ -1,0 +1,14 @@
+local p = {}
+
+function p.main(frame)
+	local args = require('Module:Arguments').getArgs(frame, {wrappers = 'Template:If empty', removeBlanks = false})
+
+	for k,v in ipairs(args) do
+		if v ~= '' then
+			return v
+		end
+	end
+
+end
+
+return p

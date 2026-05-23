@@ -1,0 +1,2 @@
+<includeonly>{{safesubst:#invoke:Lorem ipsum|oneParagraph}}</includeonly><noinclude>{{Documentation}}
+</noinclude>

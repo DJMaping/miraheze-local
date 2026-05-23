@@ -1,0 +1,221 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{High-use| 635585 }}
+{{Template shortcuts|ubl|ubt|ublist|unbullet}}
+{{stack|{{Lua|Module:List}}|{{Uses TemplateStyles|Template:Plainlist/styles.css}}}}
+This template creates [[WP:UBLIST|unbulleted lists]]. Each item in the list may have [[CSS]] styles added to it individually, by appending a numbered parameter.
+
+== Usage ==
+
+'''Basic usage'''
+{{pre|<nowiki>{{</nowiki>unbulleted list<nowiki>|</nowiki>''first item''<nowiki>|</nowiki>''second item''<nowiki>|</nowiki>''third item''<nowiki>|</nowiki>...<nowiki>}}</nowiki>}}
+
+'''All parameters'''
+{{pre|
+<nowiki>{{</nowiki>unbulleted list
+<nowiki>|</nowiki>''first item''<nowiki>|</nowiki>''second item''<nowiki>|</nowiki>''third item''<nowiki>|</nowiki>...
+<nowiki>|class     = </nowiki>''class''
+<nowiki>|style     = </nowiki>''style''
+<nowiki>|list_style  = </nowiki>''style for ul tag''
+<nowiki>|item_style  = </nowiki>''style for all li tags''
+<nowiki>|item1_style = </nowiki>''style for first li tag''<nowiki> |item2_style = </nowiki>''style for second li tag''<nowiki> |</nowiki>...
+<nowiki>}}</nowiki>
+}}
+
+=== Parameters ===
+
+* Positional parameters (<code>1</code>, <code>2</code>, <code>3</code>...) – these are the list items. If no list items are present, the module will output nothing.
+* <code>class</code> – a custom class for the {{tag|div}} tags surrounding the list, e.g. <code>plainlinks</code>.
+* <code>style</code> – a custom CSS style for the {{tag|div}} tags surrounding the list, e.g. <code>font-size: 90%;</code>.
+* <code>list_style</code> – a custom CSS style for the {{tag|ul}} tags around the list. The format is the same as for the {{para|style}} parameter.
+* <code>item_style</code> – a custom CSS style for all of the list items (the {{tag|li}} tags). The format is the same as for the {{para|style}} parameter.
+* <code>item1_style</code>, <code>item2_style</code>, <code>item3_style</code>... – custom CSS styles for each of the list items. The format is the same as for the {{para|style}} parameter.
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "List item 1",
+			"type": "line",
+			"required": true,
+			"description": "First item in the list"
+		},
+		"2": {
+			"label": "List item 2",
+			"type": "line",
+			"description": "Second item in the list"
+		},
+		"3": {
+			"label": "List item 3",
+			"type": "line",
+			"description": "Third item in the list"
+		},
+		"4": {
+			"label": "List item 4",
+			"type": "line",
+			"description": "Fourth item in the list"
+		},
+		"5": {
+			"label": "List item 5",
+			"type": "line",
+			"description": "Fifth item in the list"
+		},
+		"6": {
+			"label": "List item 6",
+			"type": "line",
+			"description": "Sixth item in the list"
+		},
+		"7": {
+			"label": "List item 7",
+			"type": "line",
+			"description": "Seventh item in the list"
+		},
+		"8": {
+			"label": "List item 8",
+			"type": "line",
+			"description": "Eighth item in the list"
+		},
+		"9": {
+			"label": "List item 9",
+			"type": "line",
+			"description": "Ninth item in the list"
+		},
+		"class": {
+			"description": "A custom class for the <div>...</div> tags surrounding the list",
+			"example": "plainlinks"
+		},
+		"style": {
+			"description": "A custom CSS style for the <div>...</div> tags surrounding the list",
+			"example": "font-size: 90%;"
+		},
+		"list_style": {
+			"description": "A custom CSS style for the <ul>...</ul> tags around the list",
+			"label": "List style"
+		},
+		"item_style": {
+			"description": "A custom CSS style for all of the list items (the <li>...</li> tags)",
+			"label": "Item style"
+		},
+		"item1_style": {
+			"label": "Item 1 style",
+			"description": "Custom CSS style for list item 1"
+		},
+		"item2_style": {
+			"label": "Item 2 style",
+			"description": "Custom CSS style for list item 2"
+		},
+		"item3_style": {
+			"label": "Item 3 style",
+			"description": "Custom CSS style for list item 3"
+		},
+		"item4_style": {
+			"label": "Item 4 style",
+			"description": "Custom CSS style for list item 4"
+		},
+		"item5_style": {
+			"label": "Item 5 style",
+			"description": "Custom CSS style for list item 5"
+		},
+		"item6_style": {
+			"label": "Item 6 style",
+			"description": "Custom CSS style for list item 6"
+		},
+		"item7_style": {
+			"label": "Item 7 style",
+			"description": "Custom CSS style for list item 7"
+		},
+		"item8_style": {
+			"label": "Item 8 style",
+			"description": "Custom CSS style for list item 8"
+		},
+		"item9_style": {
+			"label": "Item 9 style",
+			"description": "Custom CSS style for list item 9"
+		}
+	},
+	"paramOrder": [
+		"class",
+		"style",
+		"list_style",
+		"item_style",
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"item1_style",
+		"item2_style",
+		"item3_style",
+		"item4_style",
+		"item5_style",
+		"item6_style",
+		"item7_style",
+		"item8_style",
+		"item9_style"
+	],
+	"description": "Creates a list of items separated by line breaks but not bullets (•)"
+}
+</templatedata>
+
+=== Example ===
+{| class="wikitable"
+! style="width: 80%;" | Code !! Result
+|-
+| <code><nowiki>{{Unbulleted list|entry1|entry2|entry3|entry4|entry5</nowiki>{{wbr}}<nowiki>|entry6|entry7|entry8|entry9}}</nowiki></code>
+| {{Unbulleted list|entry1|entry2|entry3|entry4|entry5|entry6|entry7|entry8|entry9}}
+|-
+| <code><nowiki>{{Unbulleted list|Winner|Runner-up|Third place|item_style=color:blue;}}</nowiki></code>
+| {{Unbulleted list|Winner|Runner-up|Third place|item_style=color:blue;}}
+|-
+| <code><nowiki>{{Unbulleted list|Winner|Runner-up|Third place|item1_style=background-color:yellow;|item2_style=background-color:silver;}}</nowiki></code>
+| {{Unbulleted list|Winner|Runner-up|Third place|item1_style=background-color:yellow;|item2_style=background-color:silver;}}
+|}
+
+=== Controlling line-breaking ===
+Template {{tlx|nbsp}} may be used with {{tlx|wbr}} and {{tlx|nowrap}} to control line-breaking in bulletless lists, to prevent wrapped long entries from being confused with multiple entries. See [[Template:Wbr/doc#Controlling line-breaking in infoboxes]] for details.
+
+Wrapping this entire template with {{tlx|nowrap}} causes syntax errors. Use {{para|class|nowrap}} instead.
+
+==Technical details==
+{{tl|Unbulleted list}} works by constructing a [[span and div|div]] with the [[Cascading Style Sheets|CSS]] class "plainlist" which has the styles in [[Template:Plainlist/styles.css]].
+
+{| class="wikitable"
+! Wikitext
+! HTML
+|- style="vertical-align:top;"
+| class="nowrap | <pre>
+{{Unbulleted list
+| Example 1
+| Example 2
+| Example 3
+}}
+</pre>
+| class="nowrap | <syntaxhighlight lang="html">
+<div class="plainlist">
+<ul>
+<li>Example 1</li>
+<li>Example 2</li>
+<li>Example 3</li>
+</ul>
+</div>
+</syntaxhighlight>
+|}
+
+== See also ==
+* {{tl|plainlist}} – essentially the same but uses <code><nowiki>|* ... * ... * ...</nowiki></code> instead of <code><nowiki>| ... | ... | ...</nowiki></code>
+* {{tl|unbulleted list citebundle}} — for unbulleted lists inside <code><nowiki><ref></nowiki></code> HTML tags
+* {{tl|flatlist}} and {{tl|hlist}} (replacements for comma- or dash-separated lists)
+* {{tl|bulleted list}}
+* {{tl|ordered list}}
+
+{{Navbox lists}}
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:List formatting and function templates]]
+[[Category:Semantic markup templates]]
+
+}}</includeonly>

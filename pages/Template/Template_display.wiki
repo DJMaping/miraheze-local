@@ -1,0 +1,14 @@
+<includeonly>{{#invoke:Message box|ombox|type=notice
+|image={{#switch:{{{1}}}|adaptive=[[File:Different devices simple.svg|65x65px|link=|alt=]]|nomobile=[[File:Handheld devices no.svg|55px|link=|alt=]]|nodesktop=[[File:Desktop devices no.svg|55px|link=|alt=]]}}
+|text={{#switch:{{{1}}}
+ | adaptive = This template is [[Adaptive web design|responsive]] and <strong>displays differently in mobile and desktop view</strong>. Read the documentation for an explanation of the differences and why they exist.
+ | nomobile = This template does ''not'' display in the mobile view of Wikipedia; it is <strong>desktop only</strong>. See [[Template:Navbox visibility]] for a brief explanation.
+ | nomobile720 = This template does ''not'' display in the mobile view of Wikipedia when the window is less than 720 pixels wide. Read the documentation for an explanation.
+ | nodesktop = This template does ''not'' display in the desktop view of Wikipedia; it is <strong>mobile only</strong>. Read the documentation for an explanation.
+ | nomobilesidebar = This template does ''not'' display in the mobile view of Wikipedia; it is <strong>desktop only</strong>. Read the [[Template:Sidebar/doc|parent documentation]] for an explanation.
+ | badmobile = This template contains coding that is not compatible with [[Help:Mobile access|mobile versions of Wikipedia]], causing display and [[Wikipedia:Manual of Style/Accessibility|accessibility problems]]. Read the documentation for an explanation.
+ | vector2022 = This template does not work properly in the [[Wikipedia:Vector 2022|Vector 2022]] skin. Read the documentation for an explanation.
+ | #default = {{{1}}}
+}}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

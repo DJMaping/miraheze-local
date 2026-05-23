@@ -1,0 +1,85 @@
+-- determine whether we're being called from a sandbox
+local isSandbox = mw.getCurrentFrame():getTitle():find('sandbox', 1, true)
+local sandbox = isSandbox and '/sandbox' or ''
+
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+local portalModule = require('Module:Portal'..sandbox)
+local getImageName = portalModule._image
+local checkPortals = portalModule._checkPortals
+local processPortalArgs = portalModule._processPortalArgs
+
+local p = {}
+
+-- Function to format error message and tracking category
+-- Arguments:
+--   errMsg: string, or nil/false if no error
+--   trackingCat: string for tracking category (or empty string)
+local function formatError(errMsg, trackingCat)
+	local result = trackingCat or ''
+	if errMsg then
+		local errTag = mw.html.create('span')
+		errTag:addClass("error")
+		errTag:css("font-size",'100%')
+		errTag:wikitext("Error: "..errMsg)
+		result = tostring(errTag)..result
+	end
+	return result
+end
+
+local function image(portal, args)
+	local size = args.size == "small" and "21x19px" or
+                 args.size == "tiny" and "17x15px" or
+                 "32x28px"
+	return string.format('[[File:%s|%s]]',getImageName(portal,true), size)
+end
+
+local function link(portal, args)
+	local displayName = ""
+	if not (args.text == "" or args.text == nil) then
+		displayName = args.text
+	elseif args.short then
+		displayName = portal
+	else
+		displayName = portal .. "&#32;portal"
+	end
+	return string.format('[[Portal:%s|%s]]',portal,displayName)
+end
+
+function p._main(portals, args)
+	
+	-- Normalize all arguments
+	if args.redlinks == 'include' then args.redlinks = true end
+	for key, default in pairs({tracking=true,redlinks=false,short=false}) do
+		if args[key] == nil then args[key] = default end
+		args[key] = yesno(args[key], default)
+	end
+	
+	local trackingCat = ''
+	local errMsg = nil
+	
+	-- Check for existing categories, drop if not. 
+	-- Possible generate tracking category & error message if needed
+	args.minPortals = args.minPortals or 1
+	args.maxPortals = args.maxPortals or 1
+	portals, trackingCat, errMsg = checkPortals(portals,args)
+	-- use more specific tracking cat for inline portal
+	trackingCat = mw.ustring.gsub(trackingCat,"Portal templates","Portal-inline template")
+	-- either too many/few portals, or no portals left after filtering, then return
+	if errMsg or #portals == 0 then
+		return formatError(errMsg, trackingCat)
+	end
+	fstring = '<span class="nowrap">%s </span>%s%s'
+	if yesno(args.nowrap or '') then
+		fstring = '<span class="nowrap">%s %s%s</span>'
+	end
+	return mw.ustring.format(fstring,image(portals[1],args),link(portals[1],args),(trackingCat or ''))
+end
+
+function p.main(frame)
+	local origArgs = getArgs(frame)
+	local portals, args = processPortalArgs(origArgs)
+	return p._main(portals, args)
+end
+
+return p

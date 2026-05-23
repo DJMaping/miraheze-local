@@ -1,0 +1,50 @@
+/* {{pp-template|small=yes}} */
+.col-begin {
+	border-collapse: collapse;
+	padding: 0;
+	color: inherit; /* dark mode friendly if color is set */
+	width: 100%;
+	border: 0;
+	margin: 0;
+}
+
+.col-begin-small {
+	font-size: 90%;
+}
+
+.col-break {
+	vertical-align: top;
+	text-align: left;
+}
+
+.col-break-2 {
+	width: 50%;
+}
+
+.col-break-3 {
+	width: 33.3%;
+}
+
+.col-break-4 {
+	width: 25%;
+}
+
+.col-break-5 {
+	width: 20%;
+}
+
+@media (max-width: 720px) {
+	/* override potentially set width */
+	/* wonder if table cells can display: flex with wrapping */
+	.col-begin,
+	.col-begin > tbody,
+	.col-begin > tbody > tr,
+	.col-begin > tbody > tr > td {
+		display: block !important;
+		width: 100% !important; 
+	}
+	
+	.col-break {
+		padding-left: 0 !important;
+	}
+}

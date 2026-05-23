@@ -1,0 +1,36 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+
+==Usage==
+This is a subtemplate of {{tl|Infobox settlement}}.  It is not intended to be used directly.  It is called by the following subtemplates.
+*{{tl|Infobox settlement/areadisp}}
+*{{tl|Infobox settlement/densdisp}}
+*{{tl|Infobox settlement/lengthdisp}}
+It displays a quantity in terms of metric units and imperial/US customary units.  The metric units are first with the imperial/US customary units in brackets as determined by {{tl|Infobox settlement/pref}}.
+
+It takes the following parameters.
+*<code><nowiki>{{{metv}}}</nowiki></code> (required) — the numerical value of the metric value
+*<code><nowiki>{{{impv}}}</nowiki></code> (required) — the numerical value of the imperial/US value
+*<code><nowiki>{{{metu}}}</nowiki></code> (optional: defaults to "m") — the symbol/abbreviation of the metric unit (or inverse unit)
+*<code><nowiki>{{{impu}}}</nowiki></code> (optional: defaults to "ft") — the symbol/abbreviation of the imperial/US unit (or inverse unit)
+*<code><nowiki>{{{s}}}</nowiki></code> (optional: defaults to a non-breaking space) — the separator between numeral and (inverse) unit: set to "/" for inverse units
+
+== See also ==
+;Similar subtemplates of {{tlf|Infobox settlement}}
+*{{tl|Infobox settlement/metric/mag}}
+*{{tl|Infobox settlement/impus}}
+*{{tl|Infobox settlement/impus/mag}}
+*{{tl|Infobox settlement/dunam}}
+*{{tl|Infobox settlement/dunam/mag}}
+
+;Other subtemplates of {{tlf|Infobox settlement}}
+*{{tl|Infobox settlement/link}}
+
+;Cleaner
+*{{tl|Infobox settlement cleaner}}
+<includeonly>{{Sandbox other||
+<!-- Categories go here -->
+[[Category:Place infobox subtemplates]]
+
+}}</includeonly>

@@ -1,0 +1,187 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High-use}}
+{{Template display|nomobile}}
+{{Lua|Module:Authority control}}
+{{Uses Wikidata|section=Wikidata}}
+{{Authority control/related}}
+
+{{TOC right}}
+== Description ==
+{{details|Authority control|Wikipedia:Authority control}}
+This template links Wikipedia articles to various library (and other) catalogue systems, for biographies and other topics.
+
+This template draws its values from [[Wikidata]]. A pencil icon [[File:OOjs UI icon edit-ltr-progressive.svg|frameless|text-top|10px]] gives convenient access to the "Identifiers" section of the corresponding Wikidata item.
+
+=== Empty instances ===
+If there is no information in Wikidata for the specific subject, an empty instance of this template will be ''dormant'', meaning it will be invisible on the rendered page. Thus, using this template on a page with no authority information is harmless. An empty instance of this template stays dormant in an article, until values are added to Wikidata, when it will then display them.
+
+=== Validation ===
+The template attempts to validate digits for all values and shows an error if the check fails.
+<!--Wherever possible, the template also generates a link to [[WorldCat Identities]], using VIAF or LCCN values, or manually via {{para|WORLDCATID}}.-->
+
+=== Position ===
+{{See also|Wikipedia:Manual of Style/Layout#Standard appendices and footers{{!}}Wikipedia:Manual of Style/Layout}}
+As a metadata template, the Authority control template should be placed on a new line, after the [[Wikipedia:External links|external links]] section and [[Wikipedia:Navigation templates|navigation templates]], immediately before the categories.
+
+==Usage==
+:{{tlx|Authority control}}
+As a general guideline:
+# Insert the empty version
+# Click "[[Help:Show preview|Show preview]]" to see which sources are automatically pulled from Wikidata
+# If you know of more sources, add those sources to the article's [[WP:Wikidata#Access from Wikipedia|Wikidata item]], so that other language versions of Wikipedia will automatically benefit.
+
+=== Suppression of identifiers ===
+Identifiers can be selectively suppressed via the {{para|suppress}} parameter. For example {{Q|P434}} can be suppressed by typing:
+:{{tlx|Authority control |suppress{{=}}P434}}
+
+=== Specifying the Wikidata item ===
+If a page is not connected to a Wikidata item (for example, a page in draft space, user space or project space), you can specify the appropriate item to draw data from, by using the {{para|qid}} parameter.
+:{{tlx|Authority control|qid{{=}}Q49605590}}
+
+To find the correct item, you can [[wikidata:Special:Search|search the database]]. If there is not yet an existing item, you can [[wikidata:Special:NewItem|create a new item]].
+
+As soon as the page is connected to a Wikidata item, this parameter will be ignored so you can remove it from the template.
+
+=== Additional Wikidata items ===
+In some cases, you might need to specify additional items to draw data from. For example,
+* [[Bonnie and Clyde]] also draws data from {{Q|Q2319886}} and {{Q|Q3320282}}
+* [[North Rona]] also draws data from {{Q|Q28831543}}
+
+To specify additional items, you can use the {{para|additional}} parameter. For example:
+{{tlx|Authority control | additional {{=}} Q2319886, Q3320282}}
+
+To automatically add additional links from related items, use {{para|additional|auto}}. This is useful for married couples, musical groups, etc.
+
+=== Whitelists ===
+A number of [[whitelist]]s are configured, which allow only a limited selection of identifiers to be displayed. These can be used with the {{para|show}} parameter. For example, including {{para|show|arts}} will only show identifiers which have identified as particularly relevant to the arts.
+
+Multiple whitelists may be used. For example:
+{{tlx|Authority control|show{{=}}arts,SV}} adds identifiers from the arts and Sweden whitelists.
+
+{{para|country}} can be used as an alias for {{para|show}}. 
+
+{{collapse|{{#invoke:Authority control/documentation|whitelisttable}}|List of whitelists}}
+
+==Examples==
+;[[Victor Hugo]]
+:{{tlx|Authority control |qid{{=}}Q535}}
+{{Authority control |qid=Q535}}
+
+;[[Alexander Graham Bell]]
+:{{tlx|Authority control |qid{{=}}Q34286}}
+{{Authority control |qid=Q34286}}
+
+;[[Harry Forbes Witherby]]
+:{{tlx|Authority control |qid{{=}}Q352545}}
+{{Authority control |qid=Q352545}}
+
+;[[Carl Larsson]]
+:{{tlx|Authority control (arts) |country{{=}}SV |qid{{=}}Q187310}}
+{{Authority control (arts) |country=SV |qid=Q187310}}
+
+== Rendering ==
+The template is split into a number of sections, including "International", "National", "Academics", "Artists" etc. The template usually displays as a navbox with a header:
+{{Authority control |qid=Q921242}}
+
+If all identifiers are in the same section, {{para|state}} is ignored, and the template displays on one line.
+
+If you use additional qids to draw data from additional wikidata items, then a new section will be added for each. In this case, the identifiers will not be separated further:
+{{Authority control |qid=Q219937|additional=Q2319886,Q3320282}}
+
+{{collapsible option}}
+{{Anchor|Wikidata|Tracking categories}}
+
+=== Microformat ===
+The template wraps each UID value with the [[HTML]] markup: <code><nowiki><span class="uid">...</span></nowiki></code>, which enables the first-found value to be included in an [[hCard]] [[microformat]].
+
+== List of identifiers ==
+{{#ifexpr:{{PAGESINCAT:Articles with faulty authority control information|Pages}}|{{error|Warning: {{plural|{{PAGESINCAT:Articles with faulty authority control information|Pages}}|article has|articles have}} faulty authority control information}}, see [[:Category:Articles with faulty authority control information]].}}
+
+The template gets its information from the following properties on [[Wikidata]]:
+{{#invoke:Authority control/documentation{{#ifeq:{{SUBPAGENAME}}|sandbox|/sandbox}}|docConfTable|config={{#ifeq:{{SUBPAGENAME}}|sandbox|sandbox}}}}
+
+== Additional tracking categories ==
+This template may add the following categories:
+* {{Category link with count|Pages with authority control identifiers needing attention|pages}} – category to track errors
+** {{Category link with count|Pages using authority control with unknown parameters}} – identifiers should be migrated to Wikidata
+** {{Category link with count|Articles with faulty authority control information}} – faulty identifiers to fix
+
+=== Error reports ===
+{{Template parameter usage}}
+
+==See also==
+* [[Wikipedia:Authority control]] – editor information
+* [[Help:Authority control]] – reader help
+* [[Template:Taxonbar]] – authority control style template for taxonomic databases 
+* [[Template:Sports links]] – authority control style template for sports articles
+* [[User:UBX/Authority control]] –  for self-identifying as an AC user
+* [[:Commons:Template:Authority control]] – template on Commons
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"description": "A template to link Wikipedia articles to various library catalogue systems",
+	"params": {
+		"state": {
+			"description": "Initial state of the template",
+			"type": "string",
+			"suggestedvalues": [
+				"autocollapse",
+				"expanded",
+				"collapsed"
+			],
+			"default": "autocollapse"
+		},
+		"qid": {
+			"label": "qid",
+			"description": "Wikidata QID number for an article not yet connected to a Wikidata item. Once the article is connected to a Wikidata item, then this parameter will be ignored.",
+			"example": "Q49605590",
+			"type": "string"
+		},
+		"suppress": {
+			"description": "Comma-separated list of identifers to suppress from the template, in the form of the Wikidata property ID (e.g. P227),",
+			"example": "P227, P1986",
+			"type": "string"
+		},
+		"additional": {
+			"description": "Comma-seprated list of additional Wikidata QIDs of items to display data for. Each should be related and covered by the article. Use \"auto\" to automatically include members of a couple, band, etc.",
+			"type": "string",
+			"example": "Q28831543",
+			"suggestedvalues": [
+				"auto"
+			]
+		},
+		"show": {
+			"aliases": [
+				"country"
+			],
+			"label": "whitelist",
+			"example": "ES",
+			"type": "string",
+			"suggestedvalues": [
+				"arts"
+			],
+			"description": "Whitelist (e.g. arts) or country code (e.g. ES) or property (e.g. P214) to show. If not specified, then every supported identifier will be displayed."
+		}
+	},
+	"format": "\n{{_|_=_}}\n",
+	"paramOrder": [
+		"show",
+		"suppress",
+		"qid",
+		"additional",
+		"state"
+	]
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Wikipedia authority control templates]]
+[[Category:Templates using data from Wikidata]]
+[[Category:Templates that add a tracking category]]
+[[Category:External link templates using Wikidata]]
+
+}}</includeonly>

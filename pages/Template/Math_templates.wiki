@@ -1,0 +1,173 @@
+<!-- This template uses British English. -->
+{{Navbox with collapsible groups
+| name = Math templates
+| state = {{{state|expanded}}}
+| bodyclass = hlist
+| title = Math templates
+| liststyle = font-size:110%;<!--(as some templates' descriptions include links)-->
+| selected = {{{selected|{{{expanded|{{{1|}}}}}}}}}
+
+<!-------------- Functions / Numeral systems -------------->
+| abbr1 = FN
+| group1 =
+*Functions
+*Numeral systems
+| state1 = <noinclude>expanded</noinclude>
+| list1 =
+ {{Navbox |child
+  | group1 = Functions
+  | list1 =
+*{{tlbare|elementary arithmetic}}
+*{{tlbare|precision}}
+*{{tlbare|val}}&nbsp;(value formatting)
+*{{tlbare|percentage}}
+  | group2 = Numeral systems
+  | list2 =
+*{{ml|BaseConvert|''X''to''Y''}}
+*{{tlbare|binary}}
+*{{tlbare|decimal2Base}}
+*{{tlbare|hex2dec}}
+*{{tlbare|hexadecimal}}
+*{{tlbare|octal}}
+*{{tlbare|quaternary}}
+*{{tlbare|rn}}
+*{{tlbare|roman}}
+*{{tlbare|ternary}}
+*{{tlbare|vigesimal}}
+ }}
+
+<!---------------------- Conversions ---------------------->
+| abbr2 = conversions
+| group2 = Conversions
+| state2 = <noinclude>expanded</noinclude>
+| list2 =
+ {{Aligned table
+  |style=margin:0 auto 0;text-align:left;
+  | {{Aligned table
+     |style=padding-right:2.5em;
+     |col1style=text-align:right;white-space:nowrap;padding-right:1.0em;
+     |col2style=font-size:90%;<!--(see liststyle above)--> vertical-align:middle;line-height:1.3em;font-style:italic;
+     | {{tlbare|convert}}       | many units (see: [[Template:Convert/list_of_units |list]])
+     | {{tlbare|cvt}}           | abbreviated {{tl|convert}}
+     | {{tlbare|convinfobox}}   | {{tl|convert}} for infoboxes
+     | {{tlbare|bbl to t}}      | barrels of oil to tonnes
+     | {{tlbare|long ton}}      | long hundredweights, quarters and pounds to kilograms;<br/>long tons and hundredweights to pounds and metric tons
+     | {{tlbare|miles-chains}}  | miles and chains to kilometres linking "chains"
+   }}
+  | {{Aligned table
+     |col1style=text-align:right;white-space:nowrap;padding-right:1.0em;
+     |col2style=font-size:90%;<!--(as above)--> vertical-align:middle;line-height:1.3em;font-style:italic;
+     | {{tlbare|decdeg}}          | degrees, minutes, and seconds to [[decimal degrees]]
+     | {{tlbare|deg2DMS|deg2dms}} | decimal degrees to degrees, minutes, and seconds
+     | {{tlbare|deg2HMS|deg2hms}} | decimal degrees to [[hour angle]] (in hours, minutes, and seconds)
+     | {{tlbare|HMS2Deg|hms2deg}} | [[hour angle]] (in hours, minutes, and seconds) to decimal degrees
+     | {{tlbare|inflation}}       | calculate inflation of Consumer Price Index-related prices
+     | {{tlbare|pop density}}     | population density in an area
+     | {{tlbare|track gauge}}     | railway track gauges
+    }}
+ }}
+
+<!----------------------- Notation & formatting ------------------------>
+| group3 = Notation and {{Category link|Mathematical formatting templates|formatting}}
+| abbr3 = notation
+| state3 = <noinclude>expanded</noinclude>
+| list3 =
+{{Aligned table
+  |style=margin:0 auto 0;text-align:left;
+  |cols=4
+  |col1style=text-align:right;white-space:nowrap;padding-right:1.0em;
+  |col2style=font-size:90%;<!--(as above)--> vertical-align:top;line-height:1.3em;font-style:italic;padding-right:2.5em;
+  |col3style=text-align:right;white-space:nowrap;padding-right:1.0em;
+  |col4style=font-size:90%;<!--(as above)--> vertical-align:top;line-height:1.3em;font-style:italic;
+  |row1style=border-bottom:1px solid #777;
+  |row4style=border-bottom:1px solid #777;
+  |row7style=border-bottom:1px solid #777;
+  |row10style=border-bottom:1px solid #777;
+  <!-- This is a bit awkward to sort. Basically within a group of size 8 we go in the order of 1|1|5|5|2|2|6|6|3|3|7|7|4|4|8|8 -->
+  <!-- Group 1. The essential texhtml -->
+  | {{tlbare|bigmath}} | bigger font to match {{noitalic|[[TeX]]}} {{noitalic|<samp><nowiki>\</nowiki>displaystyle</samp>}} (standalone formulas only)
+  | {{tlbare|math}}    | short text-based formulas
+  <!-- Group 2. Other inline typographical -->
+  | {{tlbare|mathcal}} | [mathematical] calligraphic font; alternative to {{noitalic|[[LaTeX]]}}  {{noitalic|<samp><nowiki>\</nowiki>mathcal{...}</samp>}}
+  | {{tlbare|tombstone}} | symbol indicating the [[Tombstone (typography)|end of a proof]]
+  <!-- Row -->
+  | {{tlbare|mvar}}    | individual italicized maths variables in normal text
+  | {{tlbare|val}}     | measurement values, uncertainties and units
+  <!-- Row -->
+  | 
+*{{tlbare|overline}}
+*{{tlbare|underline}} | a line set above/below a sequence of characters
+  | {{tlbare|vec}}     | various overarrows, underarrows, etc.<!--pointing left, right or both ways-->
+  <!-- Row --
+  | {{tlbare|overarc}} | an arc set above a sequence of characters
+  | &nbsp; | &nbsp;
+  |row5style=border-bottom:1px solid #333;
+  <!-- Group 3. The deliminators -->
+  | {{tlbare|abs}}     | absolute values (paired vertical lines)
+  | 
+*{{tlbare|langle}}
+*{{tlbare|rangle}}
+*{{tlbare|Angle bracket|angbr}} | [[Bracket#Angular brackets|angular bracket]]s
+  <!-- Row -->
+  | 
+*{{tlbare|bra-ket}}
+*{{tlbare|braket}}
+*{{tlbare|bra}}
+*{{tlbare|ket}} | [[bra–ket notation]]
+  | 
+*{{tlbare|ldelim}}
+*{{tlbare|rdelim}} | multiline delimiters (2–5 lines inclusive) 
+  <!-- Row -->
+  | {{tlbare|ceil}}, {{tlbare|floor}}  | calculations [[:mw:Help:Extension:ParserFunctions##expr|:mw:Help:#expr]]; formatting indicators {{noitalic|1={{ceil|3.14}}<!-- -->}}, {{noitalic|1={{floor|3.14}}<!-- -->}} (no calculation performed)
+  | {{tlbare|pars}}    | parentheses that can be resized {{noitalic|1={{math|{{pars|s=150|{{large|∑}}<!-- -->}}<!-- -->}}<!-- -->}}
+  <!-- Group 4. The taller-than-one-line (composites, etc) -->
+  <!-- Row -->
+  | {{tlbare|fraction}}    | slant fractions {{frac|3|5}}  (not for maths/science articles; use ''standing'' or upright fractions {{noitalic|{{tlx|sfrac}}<!-- -->}} instead)
+  | {{tlbare|sfrac}}   | "standing" or upright fractions {{sfrac|3|5}} (use in maths/science articles instead of{{noitalic|{{tlx|fraction}}<!-- -->}})
+  <!-- Row -->
+  | {{tlbare|intmath}} | [[integral symbol]]s
+  | 
+*{{tlbare|sub}}
+*{{tlbare|sup}}
+*{{tlbare|su}} | subscripts and superscripts
+  <!-- Row -->
+  | 
+*{{tlbare|overset}}
+*{{tlbare|underset}} | arbitrary characters/diacritics set above/below one another
+  | &nbsp; | &nbsp;
+  |row13style=border-bottom:1px solid #333;
+  <!-- Group 5. For interfacing with <math>, not the texhtml stuff -->
+| {{tlbare|tmath}}
+  | Wrap {{noitalic|[[TeX]]}} in {{noitalic|<nowiki><math></nowiki>}} tags
+
+}}
+<!---------------- Boxes / Tags / Notices ----------------->
+| abbr4 = BTN
+| group4 =
+*Boxes
+*Tags
+*Notices
+| state4 = <noinclude>expanded</noinclude>
+| list4 =
+ {{Navbox with columns |child
+  |colstyle=text-align:center;
+  | col1header = Boxes
+  | col1 =
+*{{tlbare|arithmetic operations}}
+*{{tlbare|calculus}}
+*{{tlbare|Infobox mathematical function}}
+*{{tlbare|functions}}
+  | col2header = Tags
+  | col2 =
+*{{tlbare|metricate}}
+*{{tlbare|undue precision}}
+*{{tlbare|units attention}}
+ }}
+
+| below =
+*{{icon|Category}} {{c|Mathematics templates|Category}}
+*[[:Module:Math]]
+
+}}<noinclude>
+{{Documentation}}
+</noinclude>

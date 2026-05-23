@@ -1,0 +1,7 @@
+{{#invoke:flag|deco|{{{2}}}|variant={{{variant|}}}|size={{{size|}}}}}&nbsp;{{#ifexist: {{{1}}} {{getalias|{{{2}}}}}
+  |[[{{{1}}} {{getalias|{{{2}}}}}|{{{name|{{getalias|{{{2}}}|shortname}}}}}]]
+  |{{#ifexist:{{{1}}} {{iso2country|{{ISO 3166 code|{{{2}}}}}|article=yes|mode=unique}}
+     |[[{{{1}}} {{iso2country|{{ISO 3166 code|{{{2}}}}}|article=yes|mode=unique}}|{{{name|{{getalias|{{{2}}}|shortname}}}}}]]
+     |[[{{getalias|{{{2}}}}}|{{{name|{{getalias|{{{2}}}|shortname}}}}}]]
+   }}
+}}<noinclude>{{documentation}}</noinclude>

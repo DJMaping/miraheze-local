@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Apostrophe]]
+
+{{Redirect category shell|
+{{R from move}}
+}}

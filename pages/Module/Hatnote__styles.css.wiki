@@ -1,0 +1,28 @@
+/* {{pp|small=y}} */
+.hatnote {
+	font-style: italic;
+}
+
+/* Limit structure CSS to divs because of [[Module:Hatnote inline]] */
+div.hatnote {
+	/* @noflip */
+	padding-left: 1.6em;
+	margin-bottom: 0.5em;
+}
+
+.hatnote i {
+	font-style: normal;
+}
+
+/* The templatestyles causes an 'empty' span between hatnotes */
+.hatnote + span.mw-empty-elt + .hatnote,
+/* remove this selector when Parsoid is the only parser, see also [[phab:T200206]] */
+.hatnote + link + .hatnote {
+	margin-top: -0.5em;
+}
+
+@media print {
+	body.ns-0 .hatnote {
+		display: none !important;
+	}
+}

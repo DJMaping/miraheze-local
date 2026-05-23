@@ -1,0 +1,35 @@
+<includeonly>{{
+#if: {{{3| }}} 
+| <!-- If there is a 3rd parameter, don't round off -->
+    {{significant figures | 
+        {{{1|0}}} | 
+        {{#if: {{{2| }}} | 
+            {{{2}}} | 
+            {{significant figures | {{{1|0}}} }} 
+        }}
+    }} ({{significant figures | 
+        {{#expr: {{{1|0}}} * 0.386102 }} | 
+        {{#if: {{{2| }}} | 
+            {{{2}}} | 
+            {{significant figures | {{{1|0}}} }} 
+        }}
+    }}) 
+| <!-- No or blank 3rd parameter, round off -->
+    {{significant figures | 
+        {{round | {{{1|0}}} }} | 
+        {{#if: {{{2| }}} | 
+            {{{2}}} | 
+            {{significant figures | {{round | {{{1|0}}} }} }} 
+        }}
+    }} ({{significant figures | 
+        {{round | {{#expr: {{{1|0}}} * 0.386102 }} }} | 
+        {{#if: {{{2| }}} | 
+            {{{2}}} | {{min |
+                {{significant figures | {{round | {{{1|0}}} }} }} |
+                {{significant figures | {{round | {{#expr: {{{1|0}}} * 0.386102 }} }} }} 
+            }}
+        }}
+    }}) 
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

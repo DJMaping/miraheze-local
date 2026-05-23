@@ -1,0 +1,365 @@
+{{#switch:{{NAMESPACE}}:{{ROOTPAGENAME}}
+|Template:Note=
+{{Distinguish|Template:A note|Template:NoteTag|Template:Memo{{!}}Template:Memo <small>(Template:NoteBox)</small>|Template:Notice}}
+}}
+{{Documentation subpage}}
+{{High-use}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{ombox|type=delete|image=[[File:Stop hand.svg|40px|alt=icon]]|text='''This is {{plain link|url=https://en.wikipedia.org/w/index.php?title=Wikipedia:Footnote3&diff=41876751&oldid=41331534|name=no longer}} the recommended method of citing sources.''' If a note list separate from the list of references is desired, {{tl|refn}}, {{tl|efn}} and {{tl|NoteTag}} may be used.<br /> For information on how to place and format citations, see [[Wikipedia:Citing sources]].<br /> An explanation on how to create 'numbered footnotes' is at [[Help:Footnotes]].}}
+{{Uses TemplateStyles|Template:Citation/styles.css}}
+
+This documentation is for the {{tl|ref}}, {{tl|note}}, {{tl|ref label}} and {{tl|note label}} templates. The ''note'' templates place notes into an article, and the ''ref'' templates place labeled references to the notes, with the labels normally hyperlinks for navigating from a ref to a corresponding note and back from the note to the ref. The ''label'' pair of templates are similar to the pair without the ''label'' name, but with more features.
+
+The links and backlinks are identified internally by combining the specified parameters. The templates accept a number of unnamed parameters identified by their position. It also accepts a named parameter (named ''noid'') which is deprecated since its introduction.
+
+The first parameter of {{tl|ref}} is a label that has to be used for the parameter of the corresponding {{tl|note}}. The label is used to form the fragment identifier for the footnote link and back link. The second parameter of {{tlf|ref}} is the footnote reference marker, shown as a superscript. The easiest choice is to make these two the same, but this is not a requirement. If the second parameter is not supplied, the marker is a superscripted external link of the form [''n''].
+
+==Syntax==
+The following illustrates the general syntax of each template:
+* {{tlp|code=on|ref|''id''|''label''|noid{{=}}noid}}
+* {{tlp|code=on|note|''id''|''label''|''text''}}
+* {{tlp|code=on|ref label|''id''|''label''|''backlink''|noid{{=}}noid}}
+* {{tlp|code=on|note label|''id''|''label''|''backlink''|''text''}}
+
+Description of each parameter is as follows:
+
+===''id''===
+Identifier for a note and its back link (mandatory). This is the only mandatory parameter for a {{tld|ref}} and {{tld|note}} couple, which can be used to add simple footnotes.
+
+'''Important note:''' Every pair of {{tld|ref}} and {{tld|note}}, as well as every pair of {{tld|ref label}} and {{tld|note label}}, should have unique identifiers. This applies even if multiple references pointing to the same footnote are desired. ('''Correct method of implementing this feature – using the ''label'' parameter – is illustrated further below.''') Duplicate identifiers generate invalid code, to which web browsers react differently. Some browsers report errors, while others may randomly keep one ''id'' and discard others silently. In all cases, however, navigation between some footnote marks and their body texts does not work as desired. See [[Help:Markup validation]].
+
+{| class=wikitable
+|+ Example of ''id''
+!Code
+!Result
+|-
+|<syntaxhighlight lang="wikitext">
+Text that requires a footnote.{{ref|a}}
+
+==Notes==
+:1.{{note|a}}Body of the footnote.
+</syntaxhighlight>
+|Text that requires a footnote.{{ref|a}}
+
+{{Fake heading|Notes}}
+:1.{{note|a}}Body of the footnote.
+|}
+
+===''label''===
+Label text displayed where these templates are inserted (mandatory for {{tld|ref label}} and {{tld|note label}}). The following explains template specific behavior:
+*In {{tld|ref}}, {{tld|ref label}} and {{tld|note label}}, the label appears in [[superscript]]; in {{tld|note}}, the label appears as standard-sized baseline bold text.
+*In {{tld|ref}}, {{tld|ref label}} and {{tld|note}}, the label is also hyperlinked and helps navigating back and forth between the inline footnote marker (in the prose) and its body text. {{tld|note label}}, however, does not attach a hyperlink to the label but disregards this parameter when the ''backlink'' parameter (explained later) is present.
+*In {{tld|ref label}}, the label is always enclosed in brackets.
+
+{| class=wikitable
+|+ Example of ''label''
+!Code
+!Result
+|-
+|<syntaxhighlight lang="wikitext">
+Text alpha.{{ref|Alpha|α}} Text beta.{{ref label|Beta|β}}
+
+==Notes==
+:{{note|Alpha|α}} Information on alpha
+:{{note label|Beta|β}} Information on beta
+</syntaxhighlight>
+|
+Text alpha.{{ref|Alpha|α}} Text beta.{{ref label|Beta|β}}
+
+{{Fake heading|Notes}}
+:{{note|Alpha|α}} Information on alpha
+:{{note label|Beta|β}} Information on beta
+|}
+
+This parameter is optional in {{tld|ref}} and {{tld|note}}, therefore:
+*{{tld|ref}} displays a unique number in square brackets if this parameter is omitted. (See example above.)
+*{{tld|note}} appends this label to a back-linked [[caret]] (^), so if omitted, only a caret is displayed. (See example above.)
+
+There is no mandate to include this parameter in both ref and note portion at the same time. In fact, there may be the need to do the opposite. This example shows how to use {{tld|ref}} and {{tld|note}} to link multiple footnote markers of the same appearance to the same footnote.
+{| class=wikitable style="width:100%;"
+|+ Example of ''label'': Many to one connection
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+... The reunification project started in 1959 and concluded in 1961. The outcome of the project was instrumental in the company's success.{{ref|Lewinsky1|A}} ...
+
+... The consolidation efforts in 1992 had a huge impact on the company's success.{{ref|Lewinsky2|A}} ...
+
+... The final development stage set the cornerstone for company's future activities.{{ref|LewinskyFinal|A}}...
+
+==Notes==
+:A.{{note|Lewinsky1}}{{note|Lewinsky2}}{{note|LewinskyFinal}}See Brown, Lewinsky and Hart, 2009.
+</syntaxhighlight>
+|... The reunification project started in 1959 and concluded in 1961. The outcome of the project was instrumental in the company's success.{{ref|Lewinsky1|A}} ...
+
+... The consolidation efforts in 1992 had a huge impact on the company's success.{{ref|Lewinsky2|A}} ...
+
+... The final development stage set the cornerstone for company's future activities.{{ref|LewinskyFinal|A}}...
+
+{{Fake heading|Notes}}
+:A.{{note|Lewinsky1}}{{note|Lewinsky2}}{{note|LewinskyFinal}}See Brown, Lewinsky and Hart, 2009.
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+... The reunification project started in 1959 and concluded in 1961. The outcome of the project was instrumental in the company's success.{{ref label|Brown1|B}} ...
+
+... The consolidation efforts in 1992 had a huge impact on the company's success.{{ref label|Brown2|B}} ...
+
+... The final development stage set the cornerstone for company's future activities.{{ref label|BrownLast|B}}...
+
+==Notes==
+:B.{{note label|Brown1|^}}{{note label|Brown2|^}}{{note label|BrownLast|^}}See Brown, Lewinsky and Hart, 2009.
+</syntaxhighlight>
+|... The reunification project started in 1959 and concluded in 1961. The outcome of the project was instrumental in the company's success.{{ref label|Brown1|B}} ...
+
+... The consolidation efforts in 1992 had a huge impact on the company's success.{{ref label|Brown2|B}} ...
+
+... The final development stage set the cornerstone for company's future activities.{{ref label|BrownLast|B}}..
+
+{{Fake heading|Notes}}
+:B.{{note label|Brown1|^}}{{note label|Brown2|^}}{{note label|BrownLast|^}}See Brown, Lewinsky and Hart, 2009.
+|}
+
+===''backlink''===
+As explained above, {{tld|note label}} does not generate a back link from ''label'' parameter. A unique parameter of {{tld|ref label}} – {{tld|note label}}, ''backlink'' is a complementary parameter that is part ''id'' and part ''label'':
+*"Complementary parameter" means a {{tld|ref label}} – {{tld|note label}} pair may either forgo this parameter or must both have it.
+*"Part ''id''" means in a {{tld|ref label}} – {{tld|note label}} pair, both ends must have the same ''backlink'' value. In addition, in any {{tld|ref label}} – {{tld|note label}} pair, the combination of ''id'' and ''backlink'' must be unique.
+*"Part ''label''" means in {{tld|note label}}, this parameter completely overrides ''label'' parameter.
+A {{tld|ref label}} with a ''backlink'' cannot connect to a {{tld|note}}. Likewise, a {{tld|note label}} with a ''backlink'' cannot connect to a {{tld|ref}}.
+
+Example:
+{| class=wikitable
+|+ Example of ''backlink''
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+Some text.{{ref label|id5|5|1}}
+
+Some other text.{{ref label|id5|5|2}}
+
+-----
+...
+:5.{{note label|id5||1}}{{note label|id5||2}} Some important comment!
+</syntaxhighlight>
+|
+Some text.{{ref label|id5|5|1}}
+
+Some other text.{{ref label|id5|5|2}}
+
+-----
+
+...
+:5.{{note label|id5||1}}{{note label|id5||2}} Some important comment!
+|}
+
+This parameter (''backlink'') also accepts the special value "none" (without quotation marks), which causes a caret to appear where {{tld|note label}} is placed.
+{| class=wikitable
+|+ Example of ''backlink'' set to "none"
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+Body text.{{ref label|id4|Label 4|none}}
+
+:{{note label|id4||none}}Footnote text
+</syntaxhighlight>
+|
+Body text.{{ref label|id4|Label 4|none}}
+
+:{{note label|id4||none}}Footnote text
+|}
+
+===''text''===
+In all previous examples, the body text of a piece of footnote was inserted outside {{tld|note}} or {{tld|note label}} template. However, it is possible to insert the body text inside the template, in place of ''text'' parameter. Everything put inside ''text'' parameter glows when the user clicks on the footnote mark. In the example below, try clicking on <sup>S</sup> and <sup>T</sup> and see the difference.
+
+{| class=wikitable style="width:100%;"
+|+ Example of ''text''
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+Some text.{{ref|noteS|S}}
+
+Some other text.{{ref|noteT|T}}
+
+==Notes==
+:S.{{note|noteS}}Some footnote text
+:T.{{note|noteT||Some other footnote text}}
+</syntaxhighlight>
+|Some text.{{ref|noteS|S}}
+
+Some other text.{{ref|noteT|T}}
+
+{{Fake heading|notes}}
+:S.{{note|noteS}}Some footnote text
+:T.{{note|noteT||Some other footnote text}}
+|}
+
+Since the footnote body text starts without a delimiter after this string, there is a caveat: If the footnote body text starts with a lowercase letter, the first word may be attached to the back link. (For more info, see [[Help:Wikilinks]].)
+{| class=wikitable
+|+ Example of ''backlink'' bug
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+:{{ref label|id ref2a|Label 2a|Back}}
+:{{ref label|id ref2b|Label 2b|Back}}
+
+:{{note label|id ref2a|Label 2a|Back|Capitalized footnote}}
+:{{note label|id ref2b|Label 2b|Back|lower case footnote}}
+</syntaxhighlight>
+|
+:{{ref label|id ref2a|Label 2a|Back}}
+:{{ref label|id ref2b|Label 2b|Back}}
+
+:{{note label|id ref2a|Label 2a|Back|Capitalized footnote}}
+:{{note label|id ref2b|Label 2b|Back|lower case footnote}}
+|}
+
+===noid=noid===
+'''Deprecated parameter''' – Suppresses back linking from note component to ref. In case of {{tld|note}}, an active hyperlink still appears, although it is broken.
+
+This parameter was originally meant to alleviate the problem of connecting many ref tags with the same ID to one note tag with that ID. However, it only replaces one form of broken code with another. Consider using {{tld|note label}} instead, which does not generate any back link unless configured to do so. There must always be one and only one note template for every ref template with the same ''id''.
+
+==Additional examples==
+{| class=wikitable
+|+ Additional examples
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+Article text{{ref label|reference_name_A|a|1}} more text{{ref label|reference_name_G|g|}} more text{{ref label|reference_name_B|b|2}} more text{{ref label|reference_name_C|c|3}} more text{{ref label|reference name_D|d|4}} more text{{ref label|reference name_E|e|none}} more text{{ref label|reference name_F|f|}} more text.{{ref label|reference_name_H|h|8}}
+*
+* intervening text
+*
+* {{note label|reference_name_A|a|1}}Text of note for ref a.
+* {{note label|reference_name_B|b|2}}Text of note for ref b.
+* {{note label|reference_name_C|c|3|ABCDE}}Text of note for ref c.
+* {{note label|reference_name_D|d|4|FGHIJ}}Text of note for ref d.
+* {{note label|reference_name_E|e|none}}Text of note for ref e.
+* {{note label|reference_name_F|f}}Text of note for ref f.
+* {{note label|reference_name_G|g||{{note label|reference_name_H|h|8|Text of note for refs g and h (with extended highlighting).}}}}
+</syntaxhighlight >
+|
+Article text{{ref label|reference_name_A|a|1}} more text{{ref label|reference_name_G|g|}} more text{{ref label|reference_name_B|b|2}} more text{{ref label|reference_name_C|c|3}} more text{{ref label|reference name_D|d|4}} more text{{ref label|reference name_E|e|none}} more text{{ref label|reference name_F|f|}} more text.{{ref label|reference_name_H|h|8}}
+*
+*intervening text
+*
+*{{note label|reference_name_A|a|1}}Text of note for ref a.
+*{{note label|reference_name_B|b|2}}Text of note for ref b.
+*{{note label|reference_name_C|c|3|ABCDE}}Text of note for ref c.
+*{{note label|reference_name_D|d|4|FGHIJ}}Text of note for ref d.
+*{{note label|reference_name_E|e|none}}Text of note for ref e.
+*{{note label|reference_name_F|f}}Text of note for ref f.
+*{{note label|reference_name_G|g||{{note label|reference_name_H|h|8|Text of note for refs g and h (with extended highlighting).}}}}
+|}
+
+===Unique ID issue===
+As explained earlier, the ''id'' parameter for every {{tld|ref}} – {{tld|note}} pair should be unique. The following example shows what happens when two refs use the same ''id''. Try navigating from bulleted text to footnotes and back.
+{| class=wikitable
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">
+Article text{{ref|reference_name_A|a}} more text{{ref|reference_name_B|b}} more text{{ref|reference_name_C|c}}.
+* Bulleted text{{ref|reference_name_B|b}}
+* Bulleted text{{ref|reference_name_C|c}}.
+*
+* intervening text
+*
+* {{note|reference_name_A|a}}Text for note a.
+* {{note|reference_name_B|b}}Text for note b.
+* {{note|reference_name_C|c|Text for note c (with extended highlighting).}}
+</syntaxhighlight>
+|
+Article text{{ref|reference_name_A|a}} more text{{ref|reference_name_B|b}} more text.{{ref|reference_name_C|c}}
+*Bulleted text{{ref|reference_name_B|b}}
+*Bulleted text{{ref|reference_name_C|c}}.
+*
+*intervening text
+*
+*{{note|reference_name_A|a}}Text for note a.
+*{{note|reference_name_B|b}}Text for note b.
+*{{note|reference_name_C|c|Text for note c (with extended highlighting).}}
+|}
+
+===Table footnotes===
+One common application for ref and note templates is in placing footnotes below tables, as in the following example taken from the [[Kent#Economy]] article [section]:
+
+{| class="wikitable" style="text-align:right;"
+|-
+! Year || Regional GVA{{ref label|rounding|A|↑}} ||COLSPAN=2| Agriculture ||COLSPAN=2| Industry{{ref label|energy|B|↑}} ||COLSPAN=2| Services{{ref label|financial|C|↑}}
+|-
+|COLSPAN=8 | County of Kent (excluding Medway)
+|-
+| 1995 || '''12,369''' || 379 || 3.1% || 3,886 || 31.4% || 8,104 || 65.5%
+|-
+| 2000 || '''15,259''' || 259 || 1.7% || 4,601 || 30.2% || 10,399 || 68.1%
+|-
+| 2003 || '''18,126''' || 287 || 1.6% || 5,057 || 27.9% || 12,783 || 70.5%
+|-
+|COLSPAN=8 | Medway
+|-
+| 1995 || '''1,823''' || 21 || 3.1% || 560 || 31.4% || 1,243 || 68.2%
+|-
+| 2000 || '''2,348''' || 8 || 1.7% || 745 || 30.2% || 1,595 || 67.9%
+|-
+| 2003 || '''2,671''' || 10 || 1.6% || 802 || 27.9% || 1,859 || 69.6%
+|}
+<ol type="A">
+<li>{{note label|rounding|A|↑|Components may not sum to totals due to rounding}}</li>
+<li>{{note label|energy|B|↑|Includes energy and construction}}</li>
+<li>{{note label|financial|C|↑|Includes financial intermediation services indirectly measured}}</li>
+</ol>
+
+==Alternative referencing style==
+The [[mw:Reference Tooltips|Reference Tooltips]] gadget does not work with these templates. Using ref/note tags is not the only way to create [[Help:Footnotes|footnotes]]. [[mw:Extension:Cite/Cite.php|Cite.php]] (with which Reference Tooltips does work) is currently the preferred method of creating footnotes, especially when the number of footnotes increases and the size of the article (or the area in which footnotes are used) grows. [[User:Cyde/Ref converter|Ref converter]] can convert ref/note tags to the newer Cite.php style.
+
+The following examples compares two method and also shows how they can be combined:
+
+{| class=wikitable
+|+ Additional examples
+! style="width:50%;" | Code
+! style="width:50%;" | Result
+|-
+|<syntaxhighlight lang="wikitext" style="white-space:pre-wrap; word-wrap:break-word;">Yammer yammer yammer.<ref name=smith2000>Smith wrote the definitive book on yammering.{{ref|Smith2000|Smith 2000}}</ref> Yammer yammer yammer.<ref name=smith2000/>
+...
+
+==References==
+{{reflist}}
+...
+
+==Bibliography==
+*{{note|Smith2000}} Smith (2000). "A book about yammering".
+</syntaxhighlight>
+|
+Yammer yammer yammer.<ref name=smith2000>Smith wrote the definitive book on yammering.{{ref|Smith2000|Smith 2000}}</ref> Yammer yammer yammer.<ref name=smith2000/>
+
+...
+
+{{fake heading|References}}
+{{reflist}}
+
+...
+
+{{fake heading|Bibliography}}
+*{{note|Smith2000}} Smith (2000). "A book about yammering".
+|}
+
+Also see examples and explanation in [[Wikipedia:Footnote3]].
+
+==See also==
+* [[Wikipedia:Footnote3]], an essay on this method of creating footnotes
+* [[Help:Footnotes]]
+* [[Wikipedia:Template messages/Sources of articles]]
+* [[:Category:Citation templates]], including those not part of the ref–note label system
+* {{template|Rp}}
+* [[Template:Ref/examples]]
+
+{{Wikipedia referencing}}<includeonly>
+{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Footnote3 templates]]
+[[Category:Inline templates]]
+}}</includeonly>

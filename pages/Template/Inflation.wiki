@@ -1,0 +1,122 @@
+<includeonly>{{<!--
+1: if a mandatory field is unspecified, return error, else next test
+-->#ifexpr:
+    {{#if:{{{value|{{{2|}}}}}}|0|1}}
+    or {{#if:{{{start_year|{{{3|}}}}}}|0|1}}
+   |<span class="error">Error when using {{tl|Inflation}}:<!--
+ --> {{Separated entries|separator=,&#32;|conjunction=&#32;and&#32;
+     |{{#if:{{{index|{{{1|}}}}}}||{{para|index}} (parameter 1)}}
+     |{{#if:{{{value|{{{2|}}}}}}||{{para|value}} (parameter 2)}}
+     |{{#if:{{{start_year|{{{3|}}}}}}||{{para|start_year}} (parameter 3)}}
+     }} must be specified.</span><!--
+ -->{{#if:{{{nocat|}}}||{{main other|[[Category:Pages with errors in inflation template]]}}}}<!--
+
+-->|{{<!--
+2: if index code is unrecognized, return error, else next test
+ -->#ifexpr:
+     not(
+      {{#ifexist:Template:Inflation/{{{index|{{{1}}}}}}|1|0}}
+      and {{Isnumeric|{{Inflation/year|{{{index|{{{1}}}}}}}}|boolean=true}}
+     )
+    |<span class="error">Error when using {{tl|Inflation}}:<!--
+  --> {{para|index|'''{{{index|{{{1}}}}}}'''}} (parameter 1) not a recognized index.</span><!--
+  -->{{#if:{{{nocat|}}}||{{main other|[[Category:Pages with errors in inflation template]]}}}}<!--
+
+ -->|{{<!--
+3: if a numeric parameter contain invalid data, return error, else next test
+  -->#ifexpr:
+      not(
+       {{Isnumeric|{{{value|{{{2}}}}}}|boolean=true}}
+       and {{Isnumeric|{{{start_year|{{{3}}}}}}|boolean=true}}
+       and {{#if: {{{end_year|{{{4|}}}}}} | {{Isnumeric|{{{end_year|{{{4}}}}}}|boolean=true}} | 1 }}
+       and {{#if: {{{r|}}} | {{Isnumeric|{{{r}}}|boolean=true}} | 1 }}
+      )
+     |<span class="error">Error when using {{tl|Inflation}}:<!--
+   --> [[NaN]], check parameters for non-numeric data:<!--
+   --> {{Separated entries|separator=,&#32;|conjunction=&#32;and&#32;
+       |{{Ifnumber|{{formatnum:{{{value|{{{2}}}}}}|R}}||{{para|value|'''{{{value|{{{2}}}}}}'''}} (parameter 2)}}
+       |{{Ifnumber|{{formatnum:{{{start_year|{{{3}}}}}}|R}}||{{para|start_year|'''{{{start_year|{{{3}}}}}}'''}} (parameter 3)}}
+       |{{#if: {{{end_year|{{{4|}}}}}} | {{Ifnumber|{{formatnum:{{{end_year|{{{4}}}}}}|R}}||{{para|end_year|'''{{{end_year|{{{4}}}}}}'''}} (parameter 4)}} }}
+       |{{#if: {{{r|}}} | {{Ifnumber|{{formatnum:{{{r}}}|R}}||{{para|r|'''{{{r}}}'''}}}} }}
+       }}.</span><!--
+   -->{{#if:{{{nocat|}}}||{{main other|[[Category:Pages with errors in inflation template]]}}}}<!--
+
+  -->|{{<!--
+4: if a parameter is out of calculable bounds, return error, else proceed
+   -->#ifexpr:
+       not(
+        ( {{{start_year|{{{3}}}}}} >= {{Inflation/{{{index|{{{1}}}}}}/startyear}} )
+        and(
+         ( {{{start_year|{{{3}}}}}} <= {{{end_year|{{{4|{{Inflation/year|{{{index|{{{1}}}}}}}}}}}}}} )
+         or ( {{{start_year|{{{3}}}}}} = {{{end_year|{{{4|{{CURRENTYEAR}}}}}}}} )
+        )
+        and ( {{{end_year|{{{4|{{Inflation/year|{{{index|{{{1}}}}}}}}}}}}}} <= {{Inflation/year|{{{index|{{{1}}}}}}}} )
+       )
+      |<span class="error">Error when using {{tl|Inflation}}:<!--
+    --> {{Separated entries|separator=,&#32;|conjunction=&#32;and&#32;
+        |{{<!-- 4a: [parameter 3/start_year] too low -->
+         #ifexpr: {{{start_year|{{{3}}}}}} < {{Inflation/{{{index|{{{1}}}}}}/startyear}}
+         |{{para|start_year|'''{{{start_year|{{{3}}}}}}'''}} (parameter 3)<!--
+       --> is lower than the earliest available year ('''{{Inflation/{{{index|{{{1}}}}}}/startyear}}''')<!--
+       --> in index "'''{{{index|{{{1}}}}}}'''"<!--
+      -->}}
+        |{{<!-- 4b: [parameter 3/start_year] greater than [parameter 4/end_year]
+                ...and not equal to {{CURRENTYEAR}} if [parameter 4/end_year] is unspecified -->
+         #ifexpr:
+          ( {{{start_year|{{{3}}}}}} > {{{end_year|{{{4|{{Inflation/year|{{{index|{{{1}}}}}}}}}}}}}} )
+          and ( {{{start_year|{{{3}}}}}} != {{{end_year|{{{4|{{CURRENTYEAR}}}}}}}} )
+         |{{para|start_year|'''{{{start_year|{{{3}}}}}}'''}} (parameter 3)<!--
+       --> is greater than<!--
+       --> {{<!--
+        -->#if:{{{end_year|{{{4|}}}}}}<!--
+        -->|{{para|end_year|'''{{{end_year|{{{4}}}}}}'''}} (parameter 4)<!--
+        -->|the latest available year ('''{{Inflation/year|{{{index|{{{1}}}}}}}}''')<!--
+         --> in index "'''{{{index|{{{1}}}}}}'''"<!--
+        -->}}<!--
+      -->}}
+        |{{<!-- 4c: [parameter 4/end_year] greater than [parameter 1/index] highest year -->
+         #ifexpr: {{{end_year|{{{4|{{Inflation/year|{{{index|{{{1}}}}}}}}}}}}}} > {{Inflation/year|{{{index|{{{1}}}}}}}}
+         |{{para|end_year|'''{{{end_year|{{{4}}}}}}'''}} (parameter 4)<!--
+       --> is greater than the latest available year ('''{{Inflation/year|{{{index|{{{1}}}}}}}}''')<!--
+       --> in index "'''{{{index|{{{1}}}}}}'''"<!--
+      -->}}<!--
+     -->}}.</span><!--
+    -->{{#if:{{{nocat|}}}||{{main other|[[Category:Pages with errors in inflation template]]}}}}<!--
+
+   -->|<!--
+begin template proper
+-->{{#ifeq:{{{orig|}}}|yes|{{{cursign|$}}}{{{2}}} (}}{{#ifeq:{{{fmt|raw}}}|eq|equivalent to {{{cursign|$}}}}}<!--
+-->{{formatnum:
+    {{
+    #iferror:
+     {{#invoke:Math|round|1={{
+     #expr:
+      {{formatnum:{{{value|{{{2}}}}}}|R}}
+      {{#ifeq:{{{start_year|{{{3}}}}}}|{{CURRENTYEAR}}
+        | * 1
+        | {{Inflation/{{{index|{{{1}}}}}}|{{{start_year|{{{3}}}}}}|{{{end_year|{{{4|{{Inflation/year|{{{index|{{{1}}}}}}}}}}}}}}}}
+        }}
+      round {{{r|0}}}
+     }}|2={{{r|0}}}}}
+    |<span class="error">Error when using {{tl|Inflation}}:<!--
+  --> [[NaN]]/calculation error, please notify [[Template talk:Inflation]].</span><!--
+  -->{{main other|[[Category:Pages with errors in inflation template]]}}<!--
+     this error indicates template bug, always categorize
+ -->}}<!--
+ -->|{{#ifeq:{{{fmt|raw}}}|raw|R|}}<!--
+ -->}}<!--
+-->{{#ifeq:{{{fmt|raw}}}|eq|&#32;in<!--
+ --> {{<!--
+  -->#ifeq:{{{start_year|{{{3}}}}}}|{{CURRENTYEAR}}<!--
+  -->|{{CURRENTYEAR}}<!--
+  -->|{{{end_year|{{{4|{{Inflation/year|{{{index|{{{1}}}}}}}}}}}}}}<!--
+  -->}}<!--
+-->}}<!--
+end template proper
+
+   -->}}<!-- 4
+  -->}}<!-- 3
+ -->}}<!-- 2
+-->}}<!-- 1 -->{{#ifeq:{{{orig|}}}|yes|)}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

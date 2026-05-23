@@ -1,0 +1,33 @@
+==List of states and territories==
+'''Continue to [[Middle Acrola]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Eldavpir}} || [[Eldavpir]] || style="text-align:right;" | 574,577 || style="text-align:right;" | 29,421,790 || style="text-align:right;" | 51 || [[Lunfrix]]
+|-
+| style="text-align:center;"| {{flagicon|Iquir}} || [[Iquir]] || style="text-align:right;" | 489,302 || style="text-align:right;" | 36,356,117 || style="text-align:right;" | 74 || [[Chavillar]]
+|-
+| style="text-align:center;"| {{flagicon|Reerica}} || [[Reerica]] || style="text-align:right;" | 264,853 || style="text-align:right;" | 8,871,251 || style="text-align:right;" | 33 || [[Halumbaro]]
+|-
+| style="text-align:center;"| {{flagicon|Saa}} || [[Saa]] || style="text-align:right;" | 236,495 || style="text-align:right;" | 2,549,416 || style="text-align:right;" | 11 || [[Suvallor]]
+|-
+| style="text-align:center;"| {{flagicon|Sattle}} || [[Sattle]] || style="text-align:right;" | 232,273 || style="text-align:right;" | 9,388,939 || style="text-align:right;" | 40 || [[Espralit]]
+|-
+| style="text-align:center;"| {{flagicon|Umendel}} || [[Umendel]] || style="text-align:right;" | 338,878 || style="text-align:right;" | 7,437,017 || style="text-align:right;" | 22 || [[Vireptan]]
+|-
+| style="text-align:center;"| {{flagicon|Viussi}} || [[Viussi]] || style="text-align:right;" | 388,247 || style="text-align:right;" | 17,339,111 || style="text-align:right;" | 45 || [[Zambhori]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 2,524,625
+| style="text-align:right;"| 111,363,641
+| style="text-align:right;"| 44
+|}
+
+[[Category:Acrola]]
+[[Category:Acrolan Regions]]

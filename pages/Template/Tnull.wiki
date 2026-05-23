@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Template link null]]
+
+{{Redirect category shell|
+{{R from move}}
+}}

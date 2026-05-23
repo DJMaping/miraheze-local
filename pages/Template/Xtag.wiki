@@ -1,0 +1,49 @@
+<code class="nowrap">{{#switch:{{{2|pair}}}
+ |c|close  = <!--nothing-->
+ |s|single
+ |o|open
+ |p|pair   = &lt;{{#switch:{{{1|}}}
+ |categorytree=[[mw:Extension:CategoryTree|categorytree]]
+ |charinsert=[[mw:Extension:CharInsert|charinsert]]
+ |ce=[[Help:Displaying a formula#Chemistry|ce]]
+ |chem=[[Help:Displaying a formula#Chemistry|chem]]
+ |gallery=[[Help:Gallery tag|gallery]]
+ |graph=[[Help:Graph|graph]]
+ |hiero=[[mw:Extension:WikiHiero|hiero]]
+ |includeonly=[[Help:Template#Noinclude, includeonly, and onlyinclude|includeonly]]
+ |indicator=[[mw:Help:Page status indicators|indicator]]
+ |imagemap=[[mw:Extension:ImageMap|imagemap]]
+ |inputbox=[[mw:Extension:InputBox|inputbox]]
+ |mapframe=[[mw:Extension:Kartographer|mapframe]]
+ |maplink=[[mw:Extension:Kartographer#<maplink>|maplink]]
+ |math=[[mw:Extension:Math|math]]
+ |math chem=[[Help:Displaying a formula#Chemistry|math chem]]
+ |noinclude=[[Help:Template#Noinclude, includeonly, and onlyinclude|noinclude]]
+ |nowiki=[[Help:Wikitext#Nowiki|nowiki]]
+ |onlyinclude=[[Help:Template#Noinclude, includeonly, and onlyinclude|onlyinclude]]
+ |poem=[[mw:Extension:Poem|poem]]
+ |pre=[[Help:Wikitext#Pre|pre]]
+ |ref=[[mw:Extension:Cite/Cite.php|ref]]
+ |references=[[mw:Extension:Cite/Cite.php|references]]
+ |score=[[Help:Score|score]]
+ |section=[[mw:Extension:Labeled Section Transclusion|section]]
+ |source=[[mw:Extension:SyntaxHighlight|source]]
+ |syntaxhighlight=[[mw:Extension:SyntaxHighlight|syntaxhighlight]]
+ |templatedata=[[Wikipedia:TemplateData/Tutorial|templatedata]]
+ |templatestyles=[[mw:Extension:TemplateStyles|templatestyles]]
+ |timeline=[[mw:Extension:EasyTimeline|timeline]]
+ |#default={{{1|}}}[[Category:Pages using xtag template with unsupported tag name]]
+}}{{#if:{{{params|}}}|&#32;{{{params}}}}}
+}}{{#switch:{{{2|open}}}
+ |c|close  = {{{content|}}}
+ |s|single =  &#32;/&gt;
+ |o|open   = &gt;{{{content|}}}
+ |p|pair   = &gt;{{{content|...}}}
+}}{{#switch:{{{2|open}}}
+ |s|single
+ |o|open   = <!--nothing-->
+ |c|close
+ |p|pair   = &lt;/{{{1|tag}}}&gt;
+}}</code><noinclude>
+{{documentation}}
+</noinclude>

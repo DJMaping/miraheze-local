@@ -1,0 +1,36 @@
+/* {{pp-template}} */
+.cot-header-mainspace {
+	background:#F0F2F5;
+	color:inherit;
+}
+
+.cot-header-other {
+	background:#CCFFCC;
+	color:inherit;
+}
+
+
+@media screen {
+	html.skin-theme-clientpref-night .cot-header-mainspace {
+		background:#14181F;
+		color:inherit;
+	}
+
+	html.skin-theme-clientpref-night .cot-header-other {
+		background:#003500;
+		color:inherit;
+	}
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os .cot-header-mainspace {
+		background:#14181F;
+		color:inherit;
+	}
+
+	html.skin-theme-clientpref-os .cot-header-other {
+		background:#003500;
+		color:inherit;
+	}
+}

@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Notice]]
+
+{{Redirect category shell|
+{{R from alternative name}}
+{{R from template shortcut}}
+}}

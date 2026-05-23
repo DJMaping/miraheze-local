@@ -1,0 +1,12 @@
+{{main other|{{error|Template:Nutshell should not be used in articles. Please remove it from this page.|tag=div}}|{{mbox
+| class = nutshell
+| image = [[File:Walnut.png|30px|link=|alt=]]
+| text = '''{{{title|This page}}} in a nutshell:''' {{#if:{{{2|}}}
+  | {{unordered list|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}}}
+  | {{{1}}}
+  }}
+| imageright = {{#if:{{{shortcut|{{{shortcut1|}}}}}} | {{Ombox/shortcut|{{{shortcut|{{{shortcut1|}}}}}}|{{{shortcut2|}}}|{{{shortcut3|}}}|{{{shortcut4|}}}|{{{shortcut5|}}} }} }}
+}}}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata.  -->
+</noinclude>

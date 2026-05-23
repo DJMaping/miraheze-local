@@ -1,0 +1,60 @@
+{{safesubst<noinclude />:#switch:    <noinclude><!-- Use the parameter --></noinclude>
+  {{safesubst<noinclude />:#switch:    <noinclude><!-- Find out which parameter to use --></noinclude>
+    {{lc:    <noinclude><!--Lower case the result--></noinclude>
+      <noinclude><!--If no or empty "demospace" parameter then detect namespace--></noinclude>
+      {{safesubst<noinclude />:#if:{{{demospace|}}}
+      | {{{demospace}}}
+      | {{safesubst<noinclude />:#if:{{{page|}}}
+        | <noinclude><!--Detect the namespace in the "page" parameter--></noinclude>
+          {{safesubst<noinclude />:#ifeq:{{NAMESPACE:{{{page}}} }}|{{TALKSPACE:{{{page}}} }}
+          | talk
+          | {{SUBJECTSPACE:{{{page}}} }}
+          }}
+        | <noinclude><!--No "demospace" or "page" parameters, so detect actual namespace--></noinclude>
+          {{safesubst<noinclude />:#ifeq:{{NAMESPACE}}|{{TALKSPACE}}
+          | talk
+          | {{SUBJECTSPACE}}
+          }}
+        }}
+      }}
+    }}
+  <noinclude><!-- Only one of the lines below will be executed --></noinclude>
+  <noinclude><!-- Respecting empty parameters on purpose --></noinclude>
+  | showall   = showall   <noinclude><!-- "demospace=showall" --></noinclude>
+  | main         <noinclude><!--"demospace=main" or {{SUBJECTSPACE}}={{ns:0}}=""--></noinclude>
+  |           = {{{main| {{{other|}}} }}}
+  | talk      = {{{talk| {{{other|}}} }}}
+  | user      = {{{user| {{{other|}}} }}}
+  | wikipedia = {{{wikipedia| {{{other|}}} }}}
+  | file
+  | image     = {{{file| {{{image| {{{other|}}} }}} }}}
+  | mediawiki = {{{mediawiki| {{{other|}}} }}}
+  | template  = {{{template| {{{other|}}} }}}
+  | help      = {{{help| {{{other|}}} }}}
+  | category  = {{{category| {{{other|}}} }}}
+  | portal    = {{{portal| {{{other|}}} }}}
+  | draft     = {{{draft| {{{other|}}} }}}
+  | other
+  | #default  = {{{other|}}} <noinclude><!--"demospace=other" or a new namespace--></noinclude>
+  }}
+
+| 1 = {{{1|}}}
+| 2 = {{{2|}}}
+| 3 = {{{3|}}}
+| 4 = {{{4|}}}
+| 5 = {{{5|}}}
+| 6 = {{{6|}}}
+| 7 = {{{7|}}}
+| 8 = {{{8|}}}
+| 9 = {{{9|}}}
+| 10 = {{{10|}}}
+| 11 = {{{11|}}}
+| 12 = {{{12|}}}
+| 13 = {{{13|}}}
+
+| showall = {{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}{{{6|}}}{{{7|}}}{{{8|}}}{{{9|}}}{{{10|}}}{{{11|}}}{{{12|}}}{{{13|}}}
+}}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>

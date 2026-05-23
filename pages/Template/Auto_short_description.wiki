@@ -1,0 +1,10 @@
+{{Ombox
+| type      = notice
+| text      = This template {{#if:{{{sometimes|}}}|sometimes{{sp}}}}adds an automatically generated '''[[Wikipedia:Short description|short description]]'''{{#if:{{{category|}}}|{{sp}}({{{category}}})|}}{{#if:{{{indirect|}}}|{{sp}}via an embedded template}}{{#if:{{{conditions|}}}|{{space}}{{{conditions}}}}}. If the automatic short description is not optimal, override it by adding {{tl|Short description}} at the top of the article.
+}}<includeonly>{{Category handler
+|nocat={{{nocat|}}}
+|template={{Subpage other|<!-- do not categorise -->|[[Category:Templates that generate short descriptions{{#if:{{{category|}}}|{{sp}}for {{{category}}}|}}]]}}
+}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>

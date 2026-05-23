@@ -1,0 +1,2 @@
+{{#Invoke:String|replace|{{PAGENAME}}|WikiProject ||1}}<noinclude>
+{{documentation}}</noinclude>

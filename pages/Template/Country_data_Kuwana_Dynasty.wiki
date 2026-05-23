@@ -1,0 +1,18 @@
+{{safesubst<noinclude />: {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Kuwana Dynasty
+| flag alias = Kuwana Dynasty Flag.png
+| border-navy =
+| border-army=
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+</noinclude>
+}}
+
+[[Category:All country data templates|Kuwana Dynasty]]
+[[Category:Country data templates with distinct template name|Kuwana Dynasty]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Kuwana Dynasty]]

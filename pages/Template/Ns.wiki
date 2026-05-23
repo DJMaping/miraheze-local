@@ -1,0 +1,3 @@
+{{padleft:|{{#expr: {{{1|3}}}*6 }}|&#160;}}<noinclude>
+{{documentation}}
+</noinclude>

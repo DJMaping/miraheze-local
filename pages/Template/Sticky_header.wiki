@@ -1,0 +1,4 @@
+<includeonly><templatestyles src="template:sticky header/styles.css"/></includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage and add interwikis to Wikidata -->
+</noinclude>

@@ -1,0 +1,40 @@
+/* {{pp-template}} */
+/* make an inline list with either comma or semicolon separators */
+ul.cslist, ul.sslist, ul.andlist, ul.andlistoxford {
+	margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+}
+
+ul.cslist-embedded {
+    display: inline;
+}
+
+.cslist li, .sslist li, .andlist li, .andlistoxford li {
+    margin: 0;
+    padding: 0 0.25em 0 0;
+    display: inline-block;
+}
+
+.cslist li:after, .andlistoxford li:after {
+    content: ", ";
+}
+
+.sslist li:after {
+    content: "; ";
+}
+
+.cslist li:last-child:after,
+.sslist li:last-child:after,
+.andlist li:last-child:after, .andlistoxford li:last-child:after {
+    content: none;
+}
+
+.andlist li:nth-last-child(2):after {
+	content: " and ";
+}
+
+.andlistoxford li:nth-last-child(2):after {
+	content: ", and ";
+}

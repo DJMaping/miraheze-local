@@ -1,0 +1,5 @@
+#REDIRECT [[Template:also known as]]
+
+{{Redirect category shell|
+{{R from template shortcut}}
+}}

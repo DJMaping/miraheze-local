@@ -1,0 +1,16 @@
+* {{#switch:{{{title_title}}}
+| booktitle = <b id="csdoc_book-title">book-title</b>
+| #default = <b id="csdoc_chapter">chapter</b>}}: The chapter heading of the source. May be wikilinked or may use '''chapter-url''', but not both. {{#switch:{{BASEPAGENAME}}
+|Cite journal
+|Cite web
+|Cite news
+|Cite press release
+|Cite conference
+|Cite podcast = Not displayed even if set
+|#default = Displays in quotes}}. If '''script-chapter''' is defined, use '''chapter''' to hold a [[WP:ROMAN|Romanization]] (if available) of the title in '''script-chapter'''
+** <b id="csdoc_script-chapter">script-chapter</b>: Chapter heading for languages that do not use a Latin-based script (Arabic, Chinese, Cyrillic, Greek, Hebrew, Japanese, Korean, etc); follows [[WP:ROMAN|Romanization]] defined in '''chapter''' (if present). Must be prefixed with one of the [[Help:Citation_Style_1#{{pipe}}script-&lt;param>{{=}} language codes|supported language codes]] to help browsers properly display the script:
+**:<code><nowiki>... |chapter=Tōkyō tawā |script-chapter=ja:東京タワー |trans-chapter=Tokyo Tower ...</nowiki></code>
+** <b id="csdoc_trans-chapter">trans-chapter</b>: English translation of the chapter heading, if the source cited is in a foreign language. Displays in square brackets after the '''{{#switch:{{{title_title}}}
+| booktitle = book-title
+| #default = chapter}}''' field; if '''chapter-url''' is defined, then '''trans-chapter''' is included in the link. Use of the '''language''' parameter is recommended.
+* <b id="csdoc_contribution">contribution</b>: A separately-authored part of '''author'''{{'}}s book. May be wikilinked or may use '''contribution-url''', but not both. Values of <code>Afterword</code>, <code>Foreword</code>, <code>Introduction</code>, or <code>Preface</code> will display unquoted; any other value will display in quotation marks. The author of the contribution is given in '''contributor'''.

@@ -1,0 +1,35 @@
+<templatestyles src="Infobox settlement/columns/styles.css"/>
+<div class="ib-settlement-cols">
+<div class="ib-settlement-cols-row">{{#if:{{{0|}}}
+ |<!-- if 0
+-->{{#if:{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}
+  |<!-- if 0 and (1 or 2 or 3 or 4 or 5)
+--><div class="ib-settlement-cols-cellt">
+{{#if:{{{1|}}}|<div>{{{1}}}</div>}}
+{{#if:{{{2|}}}|<div>{{{2}}}</div>}}
+{{#if:{{{3|}}}|<div>{{{3}}}</div>}}
+{{#if:{{{4|}}}|<div>{{{4}}}</div>}}
+{{#if:{{{5|}}}|<div>{{{5}}}</div>}}
+</div>
+}}<div class="ib-settlement-cols-cellt">{{{0}}}</div>
+|<!-- if not 0
+-->{{#ifexpr:({{#if:{{{1|}}}|1|0}}+{{#if:{{{2|}}}|1|0}}+{{#if:{{{3|}}}|1|0}}+{{#if:{{{4|}}}|1|0}}) > 2
+ |<!-- if more than two images
+-->{{#if:{{{1|}}}
+|<div class="ib-settlement-cols-cell">{{{1}}}</div>{{#if:{{{2|}}}||</div></div><div class="ib-settlement-cols"><!-- TODO: The "3" element case currently produces two div-tables, which is non-optimal, but someone else should figure out how to fix it; 4 and 2 cases output as one "table". --><div class="ib-settlement-cols-row">}}
+}}{{#if:{{{2|}}}
+|<div class="ib-settlement-cols-cell">{{{2}}}</div>{{#if:{{{1|}}}||</div></div><div class="ib-settlement-cols"><div class="ib-settlement-cols-row">}}
+}}</div><div class="ib-settlement-cols-row">{{#if:{{{3|}}}
+|{{#if:{{{4|}}}||</div></div><div class="ib-settlement-cols"><div class="ib-settlement-cols-row">}}<div class="ib-settlement-cols-cell">{{{3}}}</div>
+}}{{#if:{{{4|}}}
+|{{#if:{{{3|}}}||</div></div><div class="ib-settlement-cols"><div class="ib-settlement-cols-row">}}<div class="ib-settlement-cols-cell">{{{4}}}</div>
+}}
+ |<!-- if two or fewer images
+-->{{#if:{{{1|}}}|<div class="ib-settlement-cols-cell">{{{1}}}</div>}}<!--
+-->{{#if:{{{2|}}}|<div class="ib-settlement-cols-cell">{{{2}}}</div>}}<!--
+-->{{#if:{{{3|}}}|<div class="ib-settlement-cols-cell">{{{3}}}</div>}}<!--
+-->{{#if:{{{4|}}}|<div class="ib-settlement-cols-cell">{{{4}}}</div>}}
+  }}
+}}</div></div><noinclude>
+{{documentation}}
+</noinclude>

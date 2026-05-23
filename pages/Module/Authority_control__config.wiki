@@ -1,0 +1,1042 @@
+require('strict')
+local p = {}
+p.auxiliary = 'Module:Authority control/auxiliary'
+p.i18n = {
+	aclink = '[[Help:Authority control|Authority control databases]]',
+	ACmodule = 'Module:Authority control',
+	attentioncat = 'Pages with authority control identifiers needing attention',
+	All_articles = 'All articles',
+	allfaultycat = 'Articles with faulty authority control information',
+	Appears_as = 'Appears as', -- used on documentation table to show example
+	Articles = 'Articles',
+	autocollapse = 'autocollapse', -- Navbox state parameter
+	cat = 'Articles with %s identifiers',
+	category = 'Category',
+	Code = 'Code',
+	collapsed = 'collapsed', -- Navbox state parameter
+	Description = 'Description',
+	errortemplate = 'Error', -- e.g. [[Template:Error]],
+	expanded = 'expanded', -- Navbox state parameter
+	faultcat = 'Articles with faulty authority control information',
+	Faults = 'Faults',
+	faulty = 'faulty',
+	identifier = 'identifier',
+	identifiers = 'identifiers',
+	idnotvalid = 'The %s identifier %s is not valid.',
+	linktemplate = 'Wikidata property link', -- refers to [[Template:Wikidata property link]]
+	maincat = 'Articles with authority control information',
+	name = 'Authority control',
+	navbox = 'Module:Navbox',
+	pages = 'pages',
+	pageswithparams = 'Pages using authority control with unknown parameters', -- name of category for tracking uses with parameters
+	previewwarning = 'page using [[Template:Authority control]] with unexpected local parameter "_VALUE_". All identifiers should be stored on Wikidata.', -- preview message when local parameters are used
+	sandbox = 'sandbox',
+	Section = 'Section',
+	suppressedcat = 'Articles with suppressed authority control identifiers',
+	testcases = 'testcases',
+	Topic = 'Topic',
+	Totals = 'Totals',
+	Tracking_category = 'Tracking category',
+	warningicon = '345-409 Ambox warning centered.svg', -- icon used for faulty ids
+	WDproperty = 'Wikidata property',
+}
+p.config = {{
+	property = 213,
+	section = 1,
+	label = 'ISNI',
+	valid = 'validateIsni',
+	link = 'https://isni.org/isni/$1',
+	remark = 'ISNI is a method for uniquely identifying the public identities of contributors to media content such as books, TV programmes, and newspaper articles. Please take care not to confuse ISNI and ORCID identifiers.'
+}, {
+	property = 214,
+	section = 1,
+	label = 'VIAF',
+	patterns = {'[1-9]%d%d?%d?%d?%d?%d?%d?%d?', '[1-9]%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d?%d?%d?'},
+	link = 'https://viaf.org/viaf/$1',
+	remark = 'International authority data from the Online Computer Library Center (OCLC)'
+}, {
+	property = 227,
+	section = 1,
+	patterns = {'1[0123]?%d%d%d%d%d%d%d[0-9X]', '[47]%d%d%d%d%d%d%-%d', '[1-9]%d?%d?%d?%d?%d?%d?%d?%-[0-9X]', '3%d%d%d%d%d%d%d[0-9X]'},
+	link = 'https://d-nb.info/gnd/$1',
+	label = 'GND',
+	remark = 'Authority data on people, corporations and subjects from the [[Integrated Authority File]]'
+}, {
+	property = 244,
+	section = 2,
+	pattern = '%l%l?%d%d%d%d%d%d%d%d%d?%d?',
+	link = 'https://id.loc.gov/authorities/$1',
+	label = 'United States',
+	remark = 'See [[Wikipedia:Authority control#LCCN]] for formatting instructions'
+}, {
+	property = 245,
+	section = 5,
+	pattern = '500%d%d%d%d%d%d',
+	link = 'https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=$1',
+	label = 'ULAN',
+	remark = 'ULAN is an online database using a controlled vocabulary currently containing around 293,000 names and other information about artists. Names in ULAN may include given names, pseudonyms, variant spellings, names in multiple languages, and names that have changed over time (e.g., married names).'
+}, {
+	property = 268,
+	section = 2,
+	valid = 'validateBNF',
+	link = 'https://catalogue.bnf.fr/ark:/12148/cb$1',
+	label = 'France',
+	remark = 'Authority data of people listed in the general catalogue of the National Library of France'
+}, {
+	property = 268,
+	section = 2,
+	valid = 'validateBNF',
+	link = 'https://data.bnf.fr/ark:/12148/cb$1',
+	label = 'BnF data'
+}, {
+	property = 269,
+	section = 7,
+	label = 'IdRef',
+	pattern = '%d%d%d%d%d%d%d%d[%dxX]',
+	link = 'https://www.idref.fr/$1',
+	remark = 'Authority data of people listed in the general catalogue of the University Documentation System of France. Also available from [http://www.sudoc.abes.fr/xslt//DB=2.1/SET=2/TTL=1/LNG=EN/ English-speaking catalog] (search author, click one book, click author name, take PPN= value of the URL)'
+}, {
+	property = 271,
+	section = 4,
+	pattern = 'D[AB]%d%d%d%d%d%d%d[%dX]',
+	link = 'https://ci.nii.ac.jp/author/$1?l=en',
+	label = 'CiNii',
+	remark = 'CiNii is a bibliographic database service for material in Japanese academic libraries. It is maintained by the [[National Institute of Informatics]].'
+}, {
+	property = 347,
+	section = 7,
+	pattern = ''..string.rep('[%-0-9A-Za-z]', 11)..'',
+	link = 'https://www.pop.culture.gouv.fr/notice/joconde/$1',
+	label = 'Joconde',
+}, {
+	property = 349,
+	section = 2,
+	link = 'https://id.ndl.go.jp/auth/ndlna/$1',
+	patterns = {'a1%d?%d%d%d%d%d%d%d%d', 's?%d?%d%d%d%d%d%d%d%d'},
+	label = 'Japan',
+	remark = 'Authority data listed in the catalog of the national library of Japan. Search also available via [http://viaf.org/ VIAF].'
+}, {
+	property = 350,
+	section = 7,
+	pattern = '[1-9]%d?%d?%d?%d?%d?',
+	link = 'https://rkd.nl/nl/explore/images/$1',
+	label = 'RKD ID',
+}, {
+	property = 380,
+	section = 3,
+	link = 'https://www.pop.culture.gouv.fr/notice/merimee/$1',
+	label = 'Mérimée',
+	patterns = {'[PEI]A%d[0-9AB]%d%d%d%d%d%d','ACR%d%d%d%d%d%d%d', 'MI%d%d%dB?', 'JAR%d%d%d%d%d%d%d', 'SPR%d%d%d%d%d%d%d'}
+}, {
+	property = 396,
+	section = 2,
+	pattern = '%u%u[%u0-3]V%d%d%d%d%d%d',
+	link = 'https://opac.sbn.it/nome/$1',
+	label = 'Italy',
+	remark = 'Central Institute for the Union Catalogue (ICCU: {{lang|it|Istituto Centrale per il Catalogo Unico}}) is an Italian government agency created to build a single catalog of all the libraries in the nation. It manages National Library Service ({{lang|it|Servizio bibliotecario nazionale}}).'
+}, {
+	property = 428,
+	section = 4,
+	valid = 'botanistV',
+	link = 'https://www.ipni.org/ipni/advAuthorSearch.do?find_abbreviation=$1',
+	label = 'International Plant Names Index',
+	remark = 'Author citation (botany): standard form (official abbreviation) of a personal name for use in an author citation (only for names of algae, fungi and plants). Links to page at [[International Plant Names Index]] (IPNI).'
+}, {
+	property = 434,
+	section = 5,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/artist/$1',
+	label = 'MusicBrainz',
+	remark = 'MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.'
+}, {
+	property = 435,
+	section = 7,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/work/$1',
+	label = 'MusicBrainz work',
+}, {
+	property = 436,
+	section = 7,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/release-group/$1',
+	label = 'MusicBrainz release group',
+}, {
+	property = 454,
+	section = 3,
+	pattern = '[12]0%d%d%d%d%d%d',
+	label = 'Structurae',
+	link = 'https://structurae.net/structures/$1',
+}, {
+	property = 496,
+	section = 4,
+	label = 'ORCID',
+	valid = 'orcidV',
+	link = 'https://orcid.org/$1',
+	remark = 'Authority data on researchers, academics, etc. The ID range is a subset of the [[ISNI]] range. For free text links (for example when mentioning a person on page which is not about them), it is also possible to use {{tl|ORCID}}. Authors—including Wikipedia editors—may obtain an ORCID by signing up at [https://orcid.org/register orcid.org/register]. Please take care not to confuse ORCID and ISNI identifiers.'
+}, {
+	property = 549,
+	section = 4,
+	pattern = '%d%d?%d?%d?%d?%d?',
+	link = 'https://www.mathgenealogy.org/id.php?id=$1',
+	label = 'Mathematics Genealogy Project',
+	remark = 'Mathematics Genealogy Project is a web-based database for the academic genealogy of mathematicians.'
+}, {
+	property = 648,
+	section = 7,
+	link = 'https://openlibrary.org/works/$1?mode=all',
+	label = 'Open Library',
+}, {
+	property = 650,
+	section = 5,
+	pattern = '[1-9]%d?%d?%d?%d?%d?',
+	link = 'https://rkd.nl/en/explore/artists/$1',
+	label = 'RKD Artists',
+	remark = 'RKDartists is an online database using a controlled vocabulary currently containing around 200,000+ names and other information about artists. Names in RKDartists may include given names, pseudonyms, variant spellings, names in multiple languages, and names that have changed over time (e.g., married names).'
+}, {
+	property = 651,
+	section = 6,
+	patterns = {'%d%d%d%d%d%d%d%d', '0?%d%d%d%d%d%d%d', '0?0?%d%d%d%d%d%d'},
+	link = 'http://www.biografischportaal.nl/en/persoon/$1',
+	label = 'Netherlands',
+	remark = 'Dutch project with material for 40,000 digitized biographies, including former colonies of the Netherlands.'
+}, {
+	property = 691,
+	section = 2,
+	pattern = '[a-z][a-z][a-z]?[a-z]?%d%d%d?%d?%d?%d?%d?%d?%d?%d?%d?%d?%d?%d?',
+	link = 'https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=$1&CON_LNG=ENG',
+	label = 'Czech Republic',
+	remark = 'National Library of the Czech Republic ({{lang|cs|Národní knihovna České republiky}}) is the central library of the Czech Republic.'
+}, {
+	property = 716,
+	section = 7,
+	patterns = { '[1-3]%d%d%d%d%d%d%d?', '54%d%d%d%d%d%d' },
+	link = 'https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=$1',
+	label = 'JPL SBDB',
+}, {
+	property = 781,
+	section = 5,
+	pattern = '%d%d%d%d%d%d%d%d?%d?',
+	link = 'http://www.sikart.ch/KuenstlerInnen.aspx?id=$1&lng=en',
+	label = 'SIKART',
+	remark = 'SIKART is a biographical dictionary and a database on visual art in Switzerland and Liechtenstein. It is published online by the Swiss Institute for Art Research (SIAR).'
+}, {
+	property = 791,
+	section = 6,
+	customlink = 'ISILlink',
+	remark = 'Libraries, museums and archives, decentralized national databases.'
+}, {
+	property = 864,
+	section = 4,
+	pattern = '%d%d%d%d%d%d%d%d%d%d%d',
+	link = 'https://dl.acm.org/profile/$1',
+	label = 'Association for Computing Machinery',
+}, {
+	property = 865,
+	section = 6,
+	link = 'https://bmlo.de/$1',
+	label = 'BMLO',
+	pattern = '[a-z][0-9][0-9][0-9][0-9]'
+}, {
+	property = 886,
+	section = 7,
+	pattern = '%d+',
+	link = 'http://www.e-lir.ch/e-LIR___Lexicon.$1.450.0.html',
+	label = 'Lexicon Istoric Retic',
+	remark = '{{lang|rm|Lexicon Istoric Retic}} (LIR) is a two volume version with a selection of articles published in Romansh.'
+}, {
+	property = 902,
+	section = 7,
+	pattern = '%d%d%d%d%d%d',
+	label = 'Historical Dictionary of Switzerland',
+	link = 'https://hls-dhs-dss.ch/fr/articles/$1',
+	remark = 'Historical Dictionary of Switzerland is an encyclopedia on the history of Switzerland.'
+}, {
+	property = 947,
+	section = 2,
+	pattern = '%d%d?%d?%d?%d?%d?%d?%d?%d?',
+	link = 'http://aleph.rsl.ru/F?func=find-b&find_code=SYS&adjacent=Y&local_base=RSL11&request=$1&CON_LNG=ENG',
+	label = 'Russia',
+	remark = 'Russian State Library ({{lang|ru|Российская государственная библиотека}}) is the national library of Russia.'
+}, {
+	property = 950,
+	section = 2,
+	patterns = {'[XF][XF]%d%d%d%d%d?%d?%d?', 'a%d%d%d%d%d?%d?%d?', 'bi[mcsv][aoei]%d%d%d%d%d%d%d%d%d%d', 'Mi[sm][eoa]%d%d%d%d%d%d%d%d%d%d'},
+	link = 'https://datos.bne.es/resource/$1',
+	label = 'Spain',
+	remark = "National Library of Spain (BNE: ''Biblioteca Nacional de España'') is a major public library, the largest in Spain."
+}, {
+	property = 966,
+	section = 7,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	label = 'MusicBrainz label',
+	link = 'https://musicbrainz.org/label/$1',
+}, {
+	property = 982,
+	section = 3,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/area/$1',
+	label = 'MusicBrainz area',
+}, {
+	property = 1003,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d%d',
+	link = 'http://aleph.bibnat.ro:8991/F/?func=direct&local_base=NLR10&doc_number=$1',
+	label = 'Romania',
+}, {
+	property = 1004,
+	section = 3,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/place/$1',
+	label = 'MusicBrainz place',
+}, {
+	property = 1005,
+	section = 2,
+	pattern = '[1-9]%d*',
+	link = 'http://id.bnportugal.gov.pt/aut/catbnp/$1',
+	label = 'Portugal',
+}, {
+	property = 1006,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d[%dX]',
+	link = 'http://data.bibliotheken.nl/id/thes/p$1',
+	label = 'Netherlands',
+}, {
+	property = 1015,
+	section = 2,
+	patterns = {'[1-9]%d?%d?%d?%d?%d?%d?%d?%d?', '[1-9]%d%d%d%d%d%d%d%d%d%d%d%d'},
+	link = 'https://authority.bibsys.no/authority/rest/authorities/html/$1',
+	label = 'Norway',
+	remark = 'BIBSYS is a supplier of library and information systems for all Norwegian university Libraries, the National Library of Norway, college libraries, and a number of research libraries and institutions.'
+}, {
+	property = 1045,
+	section = 6,
+	link = 'https://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/$1',
+	label = 'Sycomore',
+	pattern = '[1-9]%d?%d?%d?%d?'
+}, {
+	property = 1048,
+	section = 2,
+	pattern = '%d+',
+	link = 'http://aleweb.ncl.edu.tw/F/?func=accref&acc_sequence=$1&CON_LNG=ENG',
+	label = 'Taiwan',
+	remark = 'National Central Library is the national library of Taiwan, Republic of China.'
+}, {
+	property = 1053,
+	section = 4,
+	patterns = {'[A-Z][A-Z]?[A-Z]?%-%d%d%d%d%-19%d%d', '[A-Z][A-Z]?[A-Z]?%-%d%d%d%d%-20%d%d'},
+	link = 'https://www.researcherid.com/rid/$1',
+	label = 'ResearcherID',
+	remark = 'An identifying system for scientific authors. The system was introduced in January 2008 by [[Thomson Reuters]]. The combined use of the [[digital object identifier]] with the ResearcherID allows for a unique association of authors and scientific articles.'
+}, {
+	property = 1146,
+	section = 6,
+	pattern = '%d+',
+	link = 'https://www.iaaf.org/athletes/_/$1',
+	label = 'World Athletics',
+	remark = 'The IAAF athlete database lists information about [[sport of athletics]] competitors.'
+}, {
+	property = 1153,
+	section = 4,
+	pattern = '[1-9]%d%d%d%d%d%d%d%d%d%d?',
+	link = 'https://www.scopus.com/authid/detail.uri?authorId=$1',
+	label = 'Scopus',
+	remark = 'SciVerse Scopus is a bibliographic database containing abstracts and citations for academic journal articles. It covers nearly 19,500 titles from over 5,000 international publishers, of which 16,500 are peer-reviewed journals in the scientific, technical, medical, and social sciences (including arts and humanities).'
+}, {
+	property = 1157,
+	section = 6,
+	pattern = '[A-Z]00[01]%d%d%d',
+	link = 'http://bioguide.congress.gov/scripts/biodisplay.pl?index=$1',
+	label = 'US Congress',
+	remark = 'Biographical Directory of the United States Congress is a biographical dictionary of all present and former members of the United States Congress and its predecessor, the Continental Congress. Also included are Delegates from territories and the District of Columbia and Resident Commissioners from the Philippines and Puerto Rico.'
+}, {
+	property = 1186,
+	section = 6,
+	label = 'MEP directory', 
+	link = 'https://www.europarl.europa.eu/meps/en/$1',
+    pattern = '[1-9]%d?%d?%d?%d?%d?',
+}, {
+	property = 1225,
+	section = 7,
+	pattern = '[1-9]%d?%d?%d?%d?%d?%d?%d?%d?',
+	link = 'https://catalog.archives.gov/id/$1',
+	label = 'NARA',
+	remark = 'National Archives and Records Administration (NARA) is an independent agency of the United States government charged with preserving and documenting government and historical records.'
+}, {
+	property = 1248,
+	section = 5,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'http://kulturnav.org/$1',
+	label = 'KulturNav',
+	remark = 'KulturNav is a Norwegian cloud-based software service, allowing users to create, manage and distribute name authorities and terminology, focusing on the needs of museums and other cultural heritage institutions. The software is developed by KulturIT ANS and the development project is funded by the [[Arts Council Norway]].'
+}, {
+	property = 1315,
+	section = 6,
+	label = 'Trove',
+	pattern = '[1-9]%d%d%d%d%d%d?%d?',
+	link = 'https://trove.nla.gov.au/people/$1',
+}, {
+	property = 1323,
+	section = 7,
+	pattern = 'A%d%d%.%d%.%d%d%.%d%d%d[FM]?',
+	link = 'http://tools.wmflabs.org/wikidata-externalid-url/?p=1323&url_prefix=https:%2F%2Fwww.unifr.ch%2Fifaa%2FPublic%2FEntryPage%2FTA98%20Tree%2FEntity%20TA98%20EN%2F&url_suffix=%20Entity%20TA98%20EN.htm&id=$1',
+	label = 'Terminologia Anatomica',
+}, {
+	property = 1330,
+	section = 7,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/instrument/$1',
+	label = 'MusicBrainz instrument',
+}, {
+	property = 1362,
+	section = 7,
+	valid = 'tlsV',
+	link = 'http://tls.theaterwissenschaft.ch/wiki/$1',
+	label = 'Theaterlexikon',
+	remark = '{{lang|de|Theaterlexikon der Schweiz}} (TLS) is an encyclopedia about theatre in Switzerland. It was developed by the Institute of Theatre Studies of the [[University of Berne]].'
+}, {
+	property = 1368,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d%d',
+	link = 'https://kopkatalogs.lv/F?func=direct&local_base=lnc10&doc_number=$1&P_CON_LNG=ENG',
+	label = 'Latvia',
+}, {
+	property = 1375,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d%d',
+	link = 'http://katalog.nsk.hr/F/?func=direct&doc_number=$1&local_base=nsk10',
+	label = 'Croatia',
+}, {
+	property = 1407,
+	section = 7,
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x',
+	link = 'https://musicbrainz.org/series/$1',
+	label = 'MusicBrainz series',
+}, {
+	property = 1556,
+	section = 4,
+	patterns = {'%l[%l%-]*','%l[%l%-]*%.%l[%l%-]*','%l[%l%-]*.%d*','%l[%l%-]*%.%l[%l%-]*%.%d*'},
+	link = 'https://zbmath.org/authors/?q=ai:$1',
+	label = 'zbMATH',
+}, {
+	property = 1584,
+	section = 3,
+	label = 'Pleiades',
+	link = 'https://pleiades.stoa.org/places/$1',
+	pattern = '[1-9]%d*',
+	remark = "Pleiades is a joint project of the Institute for the Study of the Ancient World at [[New York University]] and the Ancient World Mapping Center at the [[University of North Carolina]] at Chapel Hill."
+}, {
+	property = 1707,
+	section = 5,
+	pattern = '[a-z%-]+%d*',
+	link = 'https://www.daao.org.au/bio/$1',
+	label = 'Australian Artists',
+}, {
+	property = 1736,
+	section = 5,
+	pattern = '%d+',
+	link = 'https://www.imj.org.il/artcenter/newsite/en/?artist=$1',
+	label = 'ICIA (Israel)',
+}, {
+	property = 1886,
+	section = 3,
+	link = 'https://volcano.si.edu/volcano.cfm?vn=$1',
+	label = 'Global Volcanism Program',
+	pattern = '%d%d%d%d%d%d'
+}, {
+	property = 1890,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d%d',
+	link = 'http://www.bncatalogo.cl/F?func=direct&local_base=red10&doc_number=$1',
+	label = 'Chile',
+}, {
+	property = 1907,
+	section = 6,
+	patterns = {'[a-z][-a-z]+-[1-3]%d%d?%d?%d?', '[a-z][-a-z]+-[1-9]%d?%d?%d?'},
+	link = 'http://adb.anu.edu.au/biography/$1',
+	label = 'Australia',
+}, {
+	property = 1908,
+	section = 6,
+	pattern = '[1-9]%d*',
+	link = 'https://www.cwgc.org/find-war-dead/casualty/$1/',
+	label = 'Commonwealth War Graves Commission',
+}, {
+	property = 1960,
+	section = 4,
+	pattern = '[%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u][%-_%d%l%u]',
+	link = 'https://scholar.google.com/citations?user=$1',
+	label = 'Google Scholar',
+}, {
+	property = 1986,
+	section = 6,
+	link = 'https://www.treccani.it/enciclopedia/$1_(Dizionario-Biografico)',
+	label = 'Italian People',
+}, {
+	property = 2041,
+	section = 5,
+	pattern = '%d+',
+	link = 'https://www.ngv.vic.gov.au/explore/collection/artist/$1/',
+	label = 'Victoria',
+}, {
+	property = 2163, 
+	section = 1,
+	pattern = '[1-9]%d?%d?%d?%d?%d?%d?%d?',
+	link = 'https://id.worldcat.org/fast/$1',
+	label = 'FAST',
+}, {
+	property = 2174,
+	section = 5,
+	link = 'https://www.moma.org/artists/$1',
+	label = 'Museum of Modern Art',
+	pattern = '%d+'
+}, {
+	property = 2268,
+	section = 5,
+	link = 'https://www.musee-orsay.fr/en/ressources/repertoire-artistes-personnalites/$1',
+	label = 'Musée d\'Orsay',
+	pattern = '[1-9]%d?%d?%d?%d?%d?'
+}, {
+	property = 2349,
+	section = 5,
+	pattern = '[1-9]%d*',
+	link = 'http://www.uni-stuttgart.de/hi/gnt/dsi2/index.php?table_name=dsi&function=details&where_field=id&where_value=$1',
+	label = 'Scientific illustrators',
+}, {
+	property = 2418,
+	section = 6,
+	pattern = '10%d%d%d%d%d',
+	label = 'Structurae',
+	link = 'https://structurae.net/persons/$1',
+}, {
+	property = 2456,
+	section = 4,
+	patterns = {'%d%d%d?%/%d+-?[%d]*[%a]*-?[%d]*', '[%a]+%/[%w]*-?[%d]*'},
+	link = 'https://dblp.org/pid/$1',
+	label = 'DBLP',
+}, {
+	property = 2484,
+	section = 3,
+	link = 'https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=$1',
+	label = 'NCES',
+	pattern = '%d+'
+}, {
+	property = 2558,
+	section = 6,
+	pattern = '[1-9]%d?%d?%d?%d?',
+	link = 'https://autores.uy/autor/$1',
+	label = 'Uruguay',
+	remark = "autores.uy is an author's database, that focus on [[Uruguay]]an authors. It was created and maintained by the Uruguayan chapter of Creative Commons. It also provides access to digitized works of the authors in public domain."
+}, {
+	property = 2750,
+	section = 5,
+	pattern = '[1-9]%d*',
+	link = 'https://pic.nypl.org/constituents/$1',
+	label = 'Photographers\' Identities',
+	remark = "PIC is a photographer's database. It is maintained by the New York Public Library."
+}, {
+	property = 2980,
+	section = 3,
+	pattern = '[A-Z][A-Z][A-Z]%d%d%d%d?[A-Z]?',
+	link = 'http://wlol.arlhs.com/lighthouse/$1.html',
+	label = 'ARLHS',
+}, {
+	property = 3223, 
+	section = 3,
+	pattern = '[1-9]%d*',
+	label = 'OLL',
+	link = 'http://listoflights.org/leuchtfeuer/detail?id=$1.aspx'
+}, {
+	property = 3233,
+	section = 4,
+	link = 'https://philpeople.org/profiles/$1',
+	label = 'PhilPeople',
+	patterns = {'[a-z%-]+', '[a-z%-]+%-%d'}
+}, {
+	property = 3326,
+	section = 3,
+	link = 'https://www.worldwaterfalldatabase.com/index.php/waterfall/$1',
+	label = 'World Waterfall',
+	pattern = '%d+'
+}, {
+	property = 3348,
+	section = 2,
+	pattern = '[1-9]%d*',
+	link = 'https://catalogue.nlg.gr/cgi-bin/koha/opac-authoritiesdetail.pl?authid=$1',
+	label = 'Greece',
+}, {
+	property = 3372,
+	section = 5,
+	link = 'https://www.aucklandartgallery.com/explore-art-and-ideas/artist/$1/',
+	label = 'Auckland',
+	pattern = '%d+',
+}, {
+	property = 3407,
+	section = 3,
+	link = 'http://klosterdatenbank.germania-sacra.de/gsn/$1',
+	label = 'Klosterdatenbank',
+	pattern = '[1-9]%d?%d?%d?%d?'
+}, {
+	property = 3430,
+	section = 7,
+	pattern = '%d*[A-Za-z][0-9A-Za-z]*',
+	link = 'https://snaccooperative.org/ark:/99166/$1',
+	label = 'SNAC',
+}, {
+	property = 3544,
+	section = 7,
+	pattern = '%d+',
+	link = 'https://collections.tepapa.govt.nz/agent/$1',
+	label = 'Te Papa (New Zealand)'
+}, {
+	property = 3562,
+	patterns = {'[A-Q]%d%d%d%d', '[A-Q]%d%d%d%d%.%d+'},
+	section = 3,
+	prefix = '[[Admiralty (identifier)|Admiralty]]'
+}, {
+	property = 3563,
+	section = 3,
+	pattern = '11[0-6]%-%d+%.?%d*',
+	link = 'https://wikidata-externalid-url.toolforge.org/?url=https%3A%2F%2Fmsi.nga.mil%2FqueryResults%3Fpublications%2Fngalol%2Flights-buoys%3Fvolume%3D%251%26featureNumber%3D%252%26includeRemovals%3Dfalse%26output%3Dhtml&exp=(%5Cd%7B3%7D)-(.*)&id=$1',
+	label = 'NGA',
+}, {
+	property = 3601,
+	section = 3,
+	pattern = '%d%d%d%d%d%d%d%d%d%d',
+	link = 'https://www.marinetraffic.com/en/ais/details/lights/$1',
+	label = 'MarineTraffic',
+}, {
+	property = 3723,
+	section = 3,
+	prefix = '[[USCG (identifier)|USCG]]',
+	customlink = 'uscgLink'
+}, {
+	property = 3788,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d%d',
+	link = 'https://catalogo.bn.gov.ar/F/?func=direct&local_base=BNA10&doc_number=$1',
+	label = 'Argentina',
+}, {
+	property = 3829,
+	section = 4,
+	pattern = '%d+',
+	link = 'https://publons.com/author/$1/',
+	label = 'Publons'
+}, {
+	property = 3863,
+	section = 3,
+	pattern = '[1-9]%d*',
+	link = 'http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx',
+	label = 'Italy',
+}, {
+	property = 3920,
+	section = 3,
+	customlink = 'ccg',
+	remark = 'Identifier from one of 4 volumes of List of Lights, Buoys and Fog Signals issued by the Canadian Coast Guard.'
+}, {
+	property = 3993, 
+	section = 3,
+	pattern = '[1-9]%d*',
+	prefix = 'Iceland'
+}, {
+	property = 4038, 
+	section = 3,
+	pattern = '[1-9]%d*[A-Za-z]?',
+	prefix = 'Denmark',
+}, {
+	property = 4055, 
+	section = 3,
+	pattern = '%d+',
+	prefix = 'Norway',
+}, {
+	property = 4114,
+	section = 5,
+	link = 'https://www.adk.de/de/akademie/mitglieder/?we_objectID=$1',
+	label = 'ADK',
+	patterns = {'4999[6-9]', '5[0-4]%d%d%d', '55[0-6]%d%d', '5570%d', '5571[0-8]', '6[0-7]%d%d%d'}
+}, {
+	property = 4143, 
+	section = 3,
+	pattern = '%d+',
+	prefix = 'Finland',
+}, {
+	property = 4186,
+	section = 6,
+	patterns = {'[A-Z][A-Z][A-Z]%d%d%d%d[a-z]', '[A-Z][A-Z]%d%d%d%d%d[a-z]'},
+	link = 'http://www.womenaustralia.info/biogs/$1.htm',
+	label = 'Australian Women\'s Register',
+}, {
+	property = 4423, 
+	section = 3,
+	patterns = {'[1-9]%d*', '[1-9]%d*.%d+'},
+	prefix = 'Portugal',
+}, {
+	property = 4457,
+	section = 5,
+	link = 'https://adp.library.ucsb.edu/names/$1',
+	label = 'Discography of American Historical Recordings',
+	pattern = '%d+'
+}, {
+	property = 4534,
+	section = 6,
+	label = 'EUTA',
+	link = 'http://www.theatre-architecture.eu/db.html?personId=$1',
+	pattern = '[1-9]%d?%d?%d?%d?%d?%d?'
+}, {
+	property = 4535,
+	section = 3,
+	label = 'EUTA theatre',
+	link = 'http://www.theatre-architecture.eu/db/?theatreId=$1',
+	pattern = '[1-9]%d*'
+}, {
+	property = 4581,
+	section = 5,
+	label = 'Städel',
+	link = 'https://sammlung.staedelmuseum.de/en/person/$1',
+	pattern = '%C+'
+}, {
+	property = 4613,
+	section = 7,
+	pattern = '%d%d?%d?%d?%d?%d?',
+	link = 'http://esu.com.ua/search_articles.php?id=$1',
+	label = 'Encyclopedia of Modern Ukraine',
+}, {
+	property = 4955,
+	section = 4,
+	pattern = '[1-9]%d%d%d%d%d?%d?',
+	link = 'https://mathscinet.ams.org/mathscinet/MRAuthorID/$1',
+	label = 'MathSciNet',
+}, {
+	property = 5034,
+	section = 2,
+	link = 'https://lod.nl.go.kr/resource/$1',
+	label = 'Korea',
+	patterns = {'%u%u%u%d%d%d%d%a?%d%d%d%d%d?%d?', 'CNTS%-%d%d%d%d%d%d%d%d%d%d%d'}
+}, {
+	property = 5226,
+	section = 5,
+	link = 'http://brahms.ircam.fr/$1',
+	label = 'BRAHMS',
+	pattern = '[a-z%-\\]+',
+	remark = 'Identifier of an artist in the B.R.A.H.M.S. (Base Relationnelle d\'Articles Hypertextes sur la Musique du 20e Siècle database), by the IRCAM'
+}, {
+	property = 5288,
+	section = 3,
+	label = 'StadiumDB',
+	link = 'http://stadiumdb.com/stadiums/$1',
+	pattern = '%l%l%l/[_%w]+'
+}, {
+	property = 5302,
+	section = 7,
+	link = 'https://brahms.ircam.fr/works/work/$1/',
+	label = 'BRAHMS',
+	pattern = '[1-9]%d*',
+	remark = "Identifier for a musical work in the B.R.A.H.M.S. (Base Relationnelle d\'Articles Hypertextes sur la Musique du 20e Siècle database) database, by the IRCAM"
+}, {
+	property = 5321,
+	section = 5,
+	link = 'https://www.museodelprado.es/en/the-collection/artist/wd/$1',
+	label = 'Prado',
+	pattern = '%x%x%x%x%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%-%x%x%x%x%x%x%x%x%x%x%x%x'
+}, {
+	property = 5368,
+	section = 5,
+	label = 'National Gallery of Canada',
+	link = 'https://www.gallery.ca/collection/artist/$1',
+	pattern = '%C+'
+}, {
+	property = 5463,
+	section = 4,
+	label = 'Academia Europaea',
+	link = 'https://www.ae-info.org/ae/Member/$1',
+}, {
+	property = 5504,
+	section = 7,
+	label = 'RISM',
+	patterns = {'people/%d+', 'institutions/%d+', 'sources/%d+'},
+	link = 'https://rism.online/$1',
+}, {
+	property = 5587,
+	section = 2,
+	pattern = '%w+',
+	link = 'https://libris.kb.se/$1',
+	label = 'Sweden'
+}, {
+	property = 906,
+	section = 2,
+	pattern = '[1-9]%d%d%d%d%d?',
+	link = 'https://libris.kb.se/auth/$1',
+	label = 'Sweden',
+	remark = 'Authority data from the [[National Library of Sweden]]',
+	suppressedbyproperty = {5587}
+}, {
+	property = 5736,
+	section = 7,
+	pattern = '[A-Z0-9][A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?[A-Z0-9/ ()-]?',
+	link = 'https://www.minorplanetcenter.net/db_search/show_object?object_id=$1',
+	label = 'MPC',
+}, {
+	property = 5818,
+	section = 3,
+	link = 'https://www.bgci.org/garden.php?id=$1',
+	label = 'BGCI garden',
+	pattern = '%d+'
+}, {
+	property = 6213,
+	section = 6,
+	pattern = '[a-zA-Z%d][a-zA-Z%d][a-zA-Z%d][a-zA-Z%d][a-zA-Z%d][a-zA-Z%d][a-zA-Z%d][a-zA-Z%d]',
+	link = 'https://id.parliament.uk/$1',
+	label = 'UK Parliament',
+	remark = 'UK parliament member data'
+}, {
+	property = 6734,
+	section = 6,
+	pattern = '[1-9]%d*',
+	link = 'https://archaeologydataservice.ac.uk/library/browse/personDetails.xhtml?personId=$1',
+	label = 'Archaeology Data Service',
+}, {
+	property = 6792,
+	section = 5,
+	pattern = '[1-9]%d*',
+	link = 'https://findnzartists.org.nz/artist/$1/',
+	label = 'New Zealand Artists',
+}, {
+	property = 6804,
+	section = 5,
+	pattern = '[1-9]%d*',
+	link = 'https://www.agsa.sa.gov.au/collection-publications/collection/creators/_/$1/',
+	label = 'South Australia',
+}, {
+	property = 6829,
+	section = 6,
+	pattern = '0[01]%d%d%d%d%.?[A-D]?',
+	link = 'https://doi.org/10.3318/dib.$1.v1',
+	label = 'Ireland',
+}, {
+	property = 7293,
+	section = 2,
+	pattern = '981%d%d%d%d%d%d%d%d05606*',
+	link = 'https://dbn.bn.org.pl/descriptor-details/$1',
+	label = 'Poland',
+}, {
+	property = 1695,
+	section = 2,
+	pattern  = 'a%d%d%d%d%d%d%d%d%d%d%d%d%d',
+	link = 'https://dbn.bn.org.pl/descriptor-details/$1',
+	label = 'Poland',
+	suppressedbyproperty = {7293}
+}, {
+	property = 7303,
+	section = 5,
+	pattern = '%w[%w-]+%/%d+',
+	link = 'https://www.grammy.com/artists/$1',
+	label = 'Grammy Awards',
+}, {
+	property = 7314,
+	section = 7,
+	pattern = '[%d%l/-]+',
+	link = 'https://islamansiklopedisi.org.tr/$1',
+	label = 'İslâm Ansiklopedisi',
+}, {
+	property = 7400,
+	section = 6,
+	link = 'https://www.librarything.com/author/$1',
+	label = 'LibraryThing'
+}, {
+	property = 7902,
+	section = 6,
+	pattern = '1[0-9]%d%d%d%d%d%d%d?[0-9X]',
+	link = 'https://www.deutsche-biographie.de/$1.html?language=en',
+	label = 'Deutsche Biographie',
+}, {
+	property = 8034,
+	section = 2,
+	pattern = '49[0-9]%/[1-9][0-9]?[0-9]?[0-9]?[0-9]?[0-9]?',
+	link = 'https://wikidata-externalid-url.toolforge.org/?p=8034&url_prefix=https://opac.vatlib.it/auth/detail/&id=$1',
+	label = 'Vatican',
+	remark = 'Vatican Library document data'
+}, {
+	property = 8189,
+	section = 2,
+	pattern = '9870[0-1]%d%d%d%d%d%d%d%d05171',
+	link = 'https://www.nli.org.il/en/authorities/$1',
+	label = 'Israel',
+}, {
+	property = 8381,
+	section = 5,
+	link = 'https://www.emmys.com/bios/$1',
+	label = 'Emmy Awards'
+}, {
+	property = 8671,
+	section = 7,
+	label = 'Deutsche Bahn',
+	link = 'https://iris.noncd.db.de/wbt/js/index.html?bhf=$1&zeilen=50&seclang=en',
+	remark = 'Deutsche Bahn station code, identifier for train stations and other operating points used by Deutsche Bahn',
+	pattern = '[ABCDEFHIJKLMNOPQRSTUVWXYZ][A-Z0-9%s][A-Z0-9%s]?[A-Z0-9%s]?[A-Z0-9%s]?'
+}, {
+	property = 8980,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d%d',
+	link = 'https://urn.fi/URN:NBN:fi:au:finaf:$1',
+	label = 'Finland',
+}, {
+	property = 9070,
+	section = 7,
+	pattern = '[A-Z]\\[A-Z]\\%w+',
+	link = 'http://www.encyclopediaofukraine.com/display.asp?linkpath=pages\\$1',
+	label = 'Internet Encyclopedia of Ukraine',
+}, {
+	property = 9692,
+	section = 5,
+	link = 'https://www.lexm.uni-hamburg.de/object/lexm_lexmperson_$1',
+	label = 'LexM',
+	remark = 'Identifier for a musician in the Lexikon verfolgter Musiker und Musikerinnen der NS-Zeit',
+	pattern = '%d%d%d%d%d%d%d%d'
+}, {
+	property = 9725,
+	section = 3,
+	label = 'EBIDAT',
+	link = 'https://www.ebidat.de/cgi-bin/ebidat.pl?id=$1',
+	remark = 'Identifier for an entry in the castles inventory database EBIDAT',
+	pattern = '[1-9]%d?%d?%d?%d?'
+}, {
+	property = 9984,
+	section = 2,
+	pattern = '981[0-1]%d%d%d%d%d%d%d%d%d06706',
+	link = 'https://cantic.bnc.cat/registre/$1',
+	label = 'Catalonia',
+}, {
+	property = 10020,
+	section = 6,
+	pattern = '[0-9A-Z]+',
+	link = 'https://handbook.aph.gov.au/Parliamentarian/$1',
+	label = 'Australian Parliament',
+}, {
+	property = 10299,
+	section = 4,
+	link = 'https://www.leopoldina.org/mitgliederverzeichnis/mitglieder/member/Member/show/$1/',
+	label = 'Leopoldina',
+	pattern = '[%-a-z]+%d?'
+}, {
+	property = 10608,
+	section = 5,
+	link = 'https://www.performing-arts.eu/discovery/$1',
+	label = 'FID',
+	remark = 'FID performing arts',
+}, {
+	property = 10832,
+	section = 1,
+	link = 'https://id.oclc.org/worldcat/entity/$1',
+	label = 'WorldCat',
+	patterns = {'%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w%w', '[QP][1-9]%d*'},
+	remark = 'WorldCat Entities for persons and works, by [[OCLC]]',
+}, {
+	property = 11152,
+	section = 6,
+	pattern = '[1-9]%d*',
+	link = 'https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/$1',
+	label = 'Léonore'
+}, {
+	property = 11249,
+	section = 2,
+	pattern = '%d%d%d%d%d%d%d%d',
+	link = 'https://opac.kbr.be/LIBRARY/doc/AUTHORITY/$1',
+	label = 'Belgium',
+}, {
+	property = 11646,
+	section = 6,
+	label = 'Deutsche Synchronkartei',
+	link = 'https://www.synchronkartei.de/person/$1',
+	remark = 'Online database of voice actors in film and television productions',
+	pattern = string.rep('[0-9a-zA-Z_-]',9)
+}, {
+	property = 11729,
+	section = 7,
+	label = 'Kulturenvanteri monument',
+	link = 'https://kulturenvanteri.com/yer/?p=$1',
+	pattern = '%d+'
+}, {
+	property = 12204,
+	section = 7,
+	label = 'ELMCIP',
+	link = 'https://elmcip.net/node/$1',
+	remark = 'Identifier for an entry in the Electronic Literature as a Model of Creativity and Innovation in Practice (ELNCIP) Knowledge Base',
+	pattern = '[1-9]%d*'
+}, {
+	property = 12362,
+	section = 6,
+	pattern = '[a-z]+[a-z%-]*%d?',
+	link = 'https://parliament.vic.gov.au/members/$1',
+	label = 'Victorian Parliament',
+}, {
+	property = 12754,
+	section = 7,
+	pattern = '000%d%d%d%d%d%d%d',
+	link = 'https://id.bildindex.de/thing/$1',
+	label = 'Bildindex',
+}, {
+	property = 13049,
+	section = 6,
+	patterns = {'1[0123]?%d%d%d%d%d%d%d[0-9X]', '[47]%d%d%d%d%d%d%-%d', '[1-9]%d?%d?%d?%d?%d?%d?%d?%-[0-9X]', '3%d%d%d%d%d%d%d[0-9X]'},
+	link = 'https://www.deutsche-digitale-bibliothek.de/person/gnd/$1',
+	label = 'DDB',
+	remark = 'Deutsche Digitale Bibliothek', 
+}, {
+	property = 13591,
+	section = 7,
+	link = 'https://lux.collections.yale.edu/view/$1',
+	label = 'Yale LUX',
+	remark = 'Yale Cultural Heritage IT Collaboration',
+}}
+p.sections = {
+	[1] = {name = 'International', hidelabelwhenalone = true},
+	[2] = {name = 'National'},
+	[3] = {name = 'Geographic'},
+	[4] = {name = 'Academics'},
+	[5] = {name = 'Artists'},
+	[6] = {name = 'People'},
+	[7] = {name = 'Other', hidelabelwhenalone = true}
+}
+p.whitelists = {
+	arts = {
+		topic = 2018526,
+		properties = {268, 214, 3372, 6804, 1907, 4186, 12754, 1908, 1707, 6829, 2349, 6792, 227, 1960, 347, 1248, 244, 1225, 2041, 2750, 650, 350, 781, 3430, 3544, 1315, 245, 1986, 7902, 651, 791, 7303, 2174, 4581, 5321, 5368, 2268}
+	},
+	lighthouse = {
+		topic = 39715,
+		properties = {3563, 4055, 3223, 4423, 3723, 3993, 3562, 2980, 4038, 3920, 4143, 3863, 3601}
+	},
+	ch = {
+		topic = 39,
+		properties = {902, 886, 781, 1362},
+	},
+	cz = {topic = 213, properties = {691}},
+	cl = {topic = 298, properties = {1890}},
+	es = {topic = 29, properties = {950, 9984}},
+	gr = {topic = 41, properties = {3348}},
+	hr = {topic = 224, properties = {1375}},
+	il = {topic = 801, properties = {8189, 1736}},
+	it = {topic = 38, properties = {396, 3863, 1986, 8034}},
+	ja = {topic = 17, properties = {349, 271}},
+	kr = {topic = 884, properties = {5034}},
+	lv = {topic = 211, properties = {1368}},
+	nl = {topic = 55, properties = {651, 1006, 650, 350}},
+	pl = {topic = 36, properties = {1695, 7293}},
+	ro = {topic = 218, properties = {1003}},
+	ru = {topic = 159, properties = {947}},
+	sv = {topic = 34, properties = {906, 5587}},
+	tr = {topic = 43, properties = {7314}},
+	tw = {topic = 865, properties = {1048}},
+	uy = {topic = 77, properties = {2558}}
+}
+p.property_items = {-- look at these properties to find relevant item to property
+	1629, -- P1629: Wikidata item of this property
+	10726,-- P10726: class of non-item property value
+	9073, -- P9073: applicable 'stated in' value
+	2378  -- P2378: issued by
+}
+p.auto_additional = {-- defines properties to check when additional=auto
+	527,  -- P527: has part(s)
+	150,  -- P150: contains the administrative territorial entity
+	355,  -- P355: has subsidiary
+}
+return p

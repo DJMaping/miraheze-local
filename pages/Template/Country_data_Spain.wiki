@@ -1,0 +1,57 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Spain
+| flag alias = Flag of Spain.svg
+| flag alias-1506 = Flag of Cross of Burgundy.svg
+| flag alias-1701 = Bandera de España 1701-1748.svg
+| flag alias-1748 = Bandera de España 1748-1785.svg
+| flag alias-1760 = Bandera de España 1760-1785.svg
+| flag alias-1785 = Flag of Spain (1785–1873, 1875–1931).svg
+| flag alias-1873 = Flag of the First Spanish Republic.svg
+| flag alias-1874 = Flag of Spain (1785–1873, 1875–1931).svg
+| flag alias-1931 = Flag of Spain (1931–1939).svg
+| flag alias-civil-1931 = Flag of the Second Spanish Republic (plain).svg
+| flag alias-1936 = Flag of the Bando Nacional (1936–1938).svg
+| flag alias-1938 = Flag of Spain (1938–1945).svg
+| flag alias-1945 = Flag of Spain (1945–1977).svg
+| flag alias-1977 = Flag of Spain (1977–1981).svg
+| flag alias-civil = Flag of Spain (civil).svg
+| flag alias-civil-1785 = BandMercante1785.svg
+| flag alias-navy = Flag of Spain.svg
+| link alias-navy = Spanish Navy
+| flag alias-marines = Flag of Spain.svg
+| link alias-marines = Spanish Marine Infantry
+| flag alias-army = Flag of Spain.svg
+| link alias-army = Spanish Army
+| flag alias-naval = Naval Jack of Spain.svg
+| link alias-naval = Spanish Navy
+| flag alias-air force = Flag of Spain.svg
+| link alias-air force = Spanish Air and Space Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1506
+| var2 = 1701
+| var3 = 1748
+| var4 = 1760
+| var5 = 1785
+| var6 = 1873
+| var7 = 1874
+| var8 = 1931
+| var9 = civil-1931
+| var10 = 1936
+| var11 = 1938
+| var12 = 1945
+| var13 = 1977
+| var14 = civil
+| var15 = civil-1785
+| redir1 = ESP
+| redir2 = SPA
+| related1 = Spanish Empire
+| related2 = Kingdom of Spain
+| related3 = Spanish Republic
+| related4 = Spanish State
+| related5 = Francoist Spain
+</noinclude>
+}}

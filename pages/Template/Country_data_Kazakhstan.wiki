@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Kazakhstan
+| flag alias = Flag of Kazakhstan.svg
+| flag alias-1991 = Flag of the Kazakh SSR.svg
+| flag alias-1992 = Flag of Kazakhstan (1992).svg 
+| flag alias-naval = Naval Ensign of Kazakhstan.svg
+| link alias-naval = Kazakh Naval Forces
+| flag alias-air force = Ensign of Kazakhstan Air Force.svg
+| link alias-air force = Kazakh Air Defense Forces
+| flag alias-army = Kazakhstan Armed Forces Flag.svg
+| link alias-army = Kazakh Ground Forces
+| flag alias-navy = Naval Ensign of Kazakhstan.svg
+| link alias-navy = Kazakh Naval Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+| var1 = 1991
+| var2 = 1992
+<noinclude>
+| redir1 = KAZ
+| related1 = Kazakh SSR
+</noinclude>
+}}

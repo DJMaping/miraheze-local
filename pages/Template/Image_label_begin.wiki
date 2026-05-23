@@ -1,0 +1,20 @@
+<div role="img" class="{{#switch:{{{float|}}}|left=floatleft|right=floatright}} noresize" <!-- noresize disables the img from being limited to the width of the viewport size (as on mobile) -->
+     style="width: {{#if:{{{thumb|}}}|{{#expr:{{#if:{{{width|}}}|{{{width}}}|400}}+16}}|{{#if:{{{border2|}}}|{{#expr:{{#if:{{{width|}}}|{{{width}}}|400}}+2}}|{{#if:{{{width|}}}|{{{width}}}|400}}}}}}px; {{#switch:{{{float|}}}|center|centre=margin-left:auto; margin-right:auto;}}
+            {{#if:{{{margin|}}}|margin: {{{margin}}};}}
+            {{#if:{{{padding|}}}|padding: {{{padding}}};}}
+            {{#if:{{{border|}}}|border: {{{border}}};}}
+            {{#if:{{{font-size|}}}|font-size: {{{font-size}}};}}
+            line-height: 1;
+            text-align: {{{text-align|center}}};
+            background-color: {{{svg-background-color|{{{background-color|#ffffff}}}}}};
+            color:inherit;
+            position: relative;
+            {{#if:{{{overflow-x|}}}|max-width: 100%; <!-- deals with large images on mobile overflowing -->
+            overflow-x: {{{overflow-x|auto}}};}}"><!--
+ -->{{#if:{{{fullimage|}}}
+    |{{{fullimage}}}
+    |[[File:{{{image|Bad Title Example.png}}}{{#if:{{{border2|}}}|{{!}}border}}{{#if:{{{thumb|}}}|{{!}}thumb{{!}}none}}|{{Str number/trim|{{#if:{{{width|}}}|{{{width}}}|400}}}}px{{#ifeq:{{{link|File:}}}|File:||{{!}}link={{{link|}}}}}|alt={{{alt|}}}|{{{caption|}}}]]
+    }}<noinclude>
+</div>
+{{documentation}}
+</noinclude>

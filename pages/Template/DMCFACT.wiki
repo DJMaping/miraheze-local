@@ -1,0 +1,7 @@
+#REDIRECT [[Template:Dated maintenance category (files, articles, categories, and templates)]]
+
+{{Redirect category shell|
+{{R from move}}
+{{R from modification}}
+{{R from template shortcut}}
+}}

@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Lorem ipsum]]
+
+{{Redirect category shell|
+{{R from template shortcut}}
+}}

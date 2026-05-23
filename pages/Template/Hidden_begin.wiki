@@ -1,0 +1,7 @@
+<includeonly><templatestyles src="Template:Hidden begin/styles.css"/><div class="hidden-begin mw-collapsible {{#ifeq:{{{showhide|{{{toggle}}}}}}|left|mw-collapsible-leftside-toggle}} {{#if:{{{expanded|}}}||mw-collapsed}} {{{class|}}}" style="{{#if:{{{width|}}}|width:{{{width}}};}} {{#if:{{{border|}}}|border:{{{border}}};}} {{#if:{{{bgcolor|}}}|background-color:{{{bgcolor}}};color:inherit;}} {{{style|}}}"><!--
+--><div class="hidden-title skin-nightmode-reset-color" style="{{#if:{{{ta1|}}}|text-align:{{{ta1}}};}} {{#if:{{{titlebgcolor|}}}|background-color:{{{titlebgcolor}}};color:inherit;}} {{{titlestyle|}}}">{{{title|{{{header|}}}}}}</div><!--
+--><div class="hidden-content mw-collapsible-content" style="{{#if:{{{ta2|}}}|text-align:{{{ta2}}};}} {{#if:{{{contentbgcolor|}}}|background-color:{{{contentbgcolor}}};color:inherit;}} {{{contentstyle|{{{bodystyle|}}}}}}"><!--
+Content added after the template
+--></includeonly><noinclude>
+{{Documentation}}
+</noinclude>

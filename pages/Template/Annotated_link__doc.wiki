@@ -1,0 +1,404 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Lua|Module:Annotated link}}
+{{Template shortcut|anl|anli}}
+
+== Usage ==
+Typically to be used in lists to provide an annotated link using the [[Wikipedia:Short description|short description]] for the linked page. For example: in ''[[MOS:SEEALSO|See also]]'' sections "editors should provide a brief annotation when a link's relevance is not immediately apparent, when the meaning of the term may not be generally known, or when the term is ambiguous".
+
+By default, the short description of the linked page will be derived from the {{tlx|short description}} template responsible for setting the short description for that page. If a template is not transcluded in the page, the description will be blank. This behavior can be manipulated and other formatting options allow for the presentation of useful annotations even without a short description, which may still become available and therefore displayed at a later date.
+
+Information in article titles should generally [[WP:SDDUPLICATE|not be repeated]] in the short description. Therefore, the display text of annotated links should usually retain any [[WP:NCDAB|parenthetical disambiguation]].
+
+===Limitations===
+Some pages are assigned short descriptions by automatic methods; [[:Category:Templates that generate short descriptions|templates that generate short descriptions]] include [[WP:INFOBOX|infoboxes]] that use the data provided to its parameters to create a suitable short description, which may overrule other short descriptions that exist for or on the page. [[Module:GetShortDescription|The module responsible for fetching the description]] is currently not able to detect or determine this type of dynamically created short description. 
+
+This template should not be used for annotating links on disambiguation pages. The relevant discussion is at {{section link|Wikipedia talk:Disambiguation/Archive 50|Use of annotated links}} and concludes:
+*They contain formatting that is not in line with the long-established formatting for disambiguation entries at [[MOS:DAB]].
+*The text of the descriptions is frequently not optimal for disambiguation pages, as it may be neither distinguishing nor succinct.
+*They would remove control of the text from the disambiguation page itself, and allow disambiguation pages to be modified without appearing in the edit history of the page itself, or in notifications relating to the page. (This reason is not fixable, and is sufficient reason not to use the template or any modification thereof.)
+
+=== Basic ===
+The most basic usage is:
+:'''Markup:''' <code><nowiki>{{Annotated link|Wikipedia}}</nowiki></code>
+:'''Result:''' {{Annotated link|Wikipedia}}
+The text shown for the link may be [[WP:PIPE|piped]] if desired or required (such as for adding [[MOS:ITALICS|italics]] to the [[MOS:NAMESANDTITLES|names of works]]):
+:'''Markup:''' <code><nowiki>{{Annotated link|Wikipedia:Policies and guidelines|Policies and guidelines}}</nowiki></code>
+:'''Result:''' {{Annotated link|Wikipedia:Policies and guidelines|Policies and guidelines}}
+
+:'''Markup:''' <code><nowiki>{{Annotated link|Mona Lisa|''Mona Lisa''}}</nowiki></code>
+:'''Result:''' {{Annotated link|Mona Lisa|''Mona Lisa''}}
+Foreign language formatting options are available for the link text; see [[#Foreign language text|below]].
+
+If the [[MOS:LISTFORMAT|list format]] is unsuitable for [[MOS:DASH|dash]] separation of the link from the description, it may be replaced with something suitable:
+:'''Markup:''' <code><nowiki>{{Annotated link|Wikipedia:Policies and guidelines|Policies and guidelines|,}}</nowiki></code>
+:'''Result:''' {{Annotated link|Wikipedia:Policies and guidelines|Policies and guidelines|, }}
+The examples above use unnamed parameters 1–3. The parameters can also be named or explicitly numbered:
+:'''Markup:''' <code><nowiki>{{Annotated link|name=Wikipedia:Policies and guidelines|display=Policies and guidelines|dash=,}}</nowiki></code>
+:'''Markup:''' <code><nowiki>{{Annotated link|1=Wikipedia:Policies and guidelines|2=Policies and guidelines|3=,}}</nowiki></code>
+There are many possible configurations beyond this; as described below, and most parameters have aliases.
+
+=== Extended ===
+There are many [[#Parameters|available parameters]], broken down into the following sections:
+
+==== Template links ====
+Links to templates will be automatically formatted as would be expected by {{tl|template link}}:
+:'''Markup:''' <code><nowiki>{{Annotated link|Template:Annotated link}}</nowiki></code>
+:'''Result:''' {{Annotated link|Template:Annotated link}}
+Formatting as would be expected by {{tlx|template link expanded}} may be applied by adding {{para|template_link|code}}:
+:'''Markup:''' <code><nowiki>{{Annotated link | Template:Annotated link | template_link=code }}</nowiki></code>
+:'''Result:''' {{Annotated link | Template:Annotated link | template_link=code }}
+If this formatting is determined to be inappropriate for the circumstance; use {{para|template_link|no}} to disable it:
+:'''Markup:''' <code><nowiki>{{Annotated link | Template:Annotated link | template_link=no }}</nowiki></code>
+:'''Result:''' {{Annotated link | Template:Annotated link | template_link=no }}
+If the template link formatting is disabled; use the second parameter, {{para|2}} or {{para|display}} to affect the text display:
+:'''Markup:''' <code><nowiki>{{Annotated link | Template:Annotated link | Annotated link | template_link=no }}</nowiki></code>
+:'''Result:''' {{Annotated link | Template:Annotated link | Annotated link | template_link=no }}
+
+==== Quoting link titles ====
+Some [[MOS:NAT|titles of works]], such as [[MOS:POPMUSIC|song titles]], should be double quoted; this formatting may be applied using {{para|quote|yes}}:
+:'''Markup:''' <code><nowiki>{{Annotated link | The Partisan | quote=yes }}</nowiki></code>
+:'''Result:''' {{Annotated link | The Partisan |quote=yes }}
+
+==== Additional abbreviation ====
+A parenthesized abbreviation may be added following the link using {{para|abbr}} if desired:
+:'''Markup:''' <code><nowiki>{{Annotated link | London Academy of Music and Dramatic Art | abbr=LAMDA }}</nowiki></code>
+:'''Result:''' {{Annotated link | London Academy of Music and Dramatic Art | abbr=LAMDA }}
+A title for the abbreviation may be provided with {{para|abbr_title}} if suitable:
+:'''Markup:''' <code><nowiki>{{Annotated link | London Academy of Music and Dramatic Art | abbr=LAMDA | abbr_title=London Academy of Music and Dramatic Art }}</nowiki></code>
+:'''Result:''' {{Annotated link | London Academy of Music and Dramatic Art | abbr=LAMDA | abbr_title=London Academy of Music and Dramatic Art }}
+
+==== Additional alternative name ====
+An alternative name for the linked entity may be added following the link (and abbreviation if also added) using {{para|aka}} if desired; the alternative name will be prepended with ", also known as":
+:'''Markup:''' <code><nowiki>{{Annotated link | Royal National Theatre | aka=the National Theatre of Great Britain }}</nowiki></code>
+:'''Result:''' {{Annotated link | Royal National Theatre | aka=the National Theatre of Great Britain }}
+Foreign language formatting options are available for this parameter; see [[#Foreign language text|below]].
+
+==== Additional information ====
+Even more information may be wedged in between the previously stated information and that of the potentially following description; use {{para|wedge}} to add it is desired:
+:'''Markup:''' <code><nowiki>{{Annotated link | Grape | wedge=can be used to make wine }}</nowiki></code>
+:'''Result:''' {{Annotated link | Grape | wedge=can be used to make wine }}
+Foreign language formatting options are available for this parameter; see [[#Foreign language text|below]].
+
+==== Foreign language text ====
+Foreign language text should be formatted in accordance with [[MOS:OTHERLANG]]; this template provides all the necessary options to control the formatting. The module invoked by this template, uses [[Module:Lang]] (the module powering {{tlx|lang}}) to do the formatting, and all the options are fully described on their documentation pages.
+
+If the link text is of a foreign language (editor discretion determines if this is appropriate); control the formatting with: {{para|link_lang|<language code>}}, {{para|link_lang_italic}}, {{para|link_lang_nocat}}, {{para|link_lang_size}}, {{para|link_lang_cat}} and {{para|link_lang_rtl}}
+
+If the {{para|aka}} text is of a foreign language (again; editor discretion); control the formatting with: {{para|aka_lang|<language code>}}, {{para|aka_lang_italic}}, {{para|aka_lang_nocat}}, {{para|aka_lang_size}}, {{para|aka_lang_cat}}, {{para|aka_lang_rtl}}
+
+If the {{para|wedge}} text is of a foreign language (again; editor discretion); control the formatting with: {{para|wedge_lang|<language code>}}, {{para|wedge_lang_italic}}, {{para|wedge_lang_nocat}}, {{para|wedge_lang_size}}, {{para|wedge_lang_cat}}, {{para|wedge_lang_rtl}}
+
+This template invokes [[Module:Annotated link]], which in turn uses [[Module:GetShortDescription]] to (as the name suggests) get the short description. 
+
+==== Controlling the fallback for a short description ====
+{{further|Module:GetShortDescription/doc}}
+
+If a {{para|fallback}} value is provided, and no description is found by the expressed route, the appended description will be the stated fallback value.
+:'''Markup:''' <code><nowiki>{{Annotated link | Example | only=explicit | fallback=a fallback description }}</nowiki></code>
+:'''Result:''' {{Annotated link | Example | only=explicit | fallback=a fallback description }}
+
+==== Controlling the case of the first character of a short description ====
+Short descriptions on the English Wikipedia [[WP:SDFORMAT|should be formatted]] with an uppercase first letter. By default, the short descriptions retrieved by this template are displayed as they are typed in the page from which they are extracted, but this may be overridden if required using {{para|desc_first_letter_case|upper}} or {{para|desc_first_letter_case|lower}}.
+
+== Parameters ==
+{{TemplateData header}}
+{{Collapse top|Table of all template parameters, aliases, expected and required values|bg=#bde4ff}}
+<templatedata>
+{
+	"description": "a link created and annotated using a short description and other optional additions",
+	"params": {
+		"1": {
+			"label": "Page name (including namespace)",
+			"description": "Title of the page to be linked and annotated",
+			"type": "wiki-page-name",
+			"required": true,
+			"aliases": [ "name", "title" ]
+		},
+		"2": {
+			"label": "Link display text",
+			"description": "The text to be displayed in the link",
+			"type": "line",
+			"default": "name",
+			"aliases": [ "display", "disp" ]
+		},
+		"3": {
+			"label": "Separator",
+			"description": "Replace the dash with something else",
+			"type": "line",
+			"example": ",",
+			"default": "–",
+			"aliases": [ "dash", "comma" ]
+		},
+		"template_link": {
+			"label": "Template link formatting",
+			"description": "Disable special formatting of links to pages in the Template namespace",
+			"type" : "line",
+			"suggestedvalues": [ "no", "code" ],
+			"aliases": [ "template-link", "tl" ]
+		},
+		"quote": {
+			"label": "Quote links",
+			"description": "Double quotation of the link",
+			"type": "line",
+			"suggestedvalues": [ "yes" ],
+			"aliases": [ "quote_link", "quote-link", "ql" ]
+		},
+		"abbr": {
+			"label": "Abbreviation",
+			"description": "Abbreviation to be displayed in parentheses after the link",
+			"type": "line",
+			"aliases": [ "abbreviation" ]
+		},
+		"abbr_title": {
+			"label": "Abbreviation title",
+			"description": "Provide a title for an abbreviation",
+			"type" : "line",
+			"aliases": [ "abbr-title", "abbreviation_title", "abbreviation-title", "at" ]
+		},
+		"aka": {
+			"label": "Also known as",
+			"description": "Alternative names to display after the link (and abbreviation if provided)",
+			"type": "line"
+		},
+		"wedge": {
+			"label": "Additional information",
+			"description": "Additional information to display after the link (and abbr and aka if provided)",
+			"type": "line",
+			"aliases": [ "insert", "extra" ]
+		},
+		"desc_first_letter_case": {
+			"label": "Description first letter case",
+			"description": "Control to case of the first letter of a short description",
+			"type" : "line",
+			"suggestedvalues": [ "upper", "lower" ],
+			"default": "lower",
+			"aliases": [ "desc-first-letter-case", "desc_case", "desc-case", "case" ]
+		},
+		"space_cat": {
+			"label": "Categorisation of spaceless descriptions",
+			"description": "Disable categorisation of pages displaying descriptions containing no space characters",
+			"type" : "line",
+			"suggestedvalues": [ "no" ],
+			"aliases": [ "space-cat" ]
+		},
+		"only": {
+			"label": "Limit description search",
+			"description": "Dictate the only source for a short description",
+			"type" : "line",
+			"suggestedvalues": [ "explicit", "wikidata" ]
+		},
+		"prefer": {
+			"label": "Description preference",
+			"description": "Suggest a prefered source for a short description",
+			"type" : "line",
+			"suggestedvalues": [ "explicit", "wikidata" ],
+			"default": "explicit"
+		},
+		"fallback": {
+			"label": "Description fallback",
+			"description": "Provide a fallback description in the event no other is available",
+			"type" : "line"
+		},
+		"link_lang": {
+			"label": "Link text foreign language code",
+			"description": "Provide a language code for foreign language link text",
+			"type" : "line",
+			"example": "ja",
+			"aliases": [ "link-lang", "ll" ]
+		},
+		"link_lang_italic": {
+			"label": "Link text foreign language italics",
+			"description": "Control the italic presentation of foreign language link text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "no", "unset", "invert", "default" ],
+			"aliases": [ "link-lang-italic", "lli" ]
+		},
+		"link_lang_nocat": {
+			"label": "Link text foreign language categorisation",
+			"description": "Dictate the categorisation of foreign language link text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "y", "true", "t", "on", "1" ],
+			"aliases": [ "link-lang-nocat", "llnc" ]
+		},
+		"link_lang_cat": {
+			"label": "Link text foreign language categorisation",
+			"description": "Dictate the categorisation of foreign language link text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "n", "false", "f", "off", "0" ],
+			"aliases": [ "link-lang-cat", "llc" ]
+		},
+		"link_lang_size": {
+			"label": "Link text foreign language size",
+			"description": "Control the size presentation of foreign language link text",
+			"type" : "line",
+			"example": "1.5em",
+			"aliases": [ "link-lang-size", "lls" ]
+		},
+		"link_lang_rtl": {
+			"label": "Link text foreign language rtl",
+			"description": "Control the rtl presentation of foreign language link text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "yes" ],
+			"default": "no",
+			"aliases": [ "link-lang-rtl", "llr" ]
+		},
+		"aka_lang": {
+			"label": "Aka text foreign language code",
+			"description": "Provide a language code for foreign language aka text",
+			"type" : "line",
+			"example": "ja",
+			"aliases": [ "aka-lang", "al" ]
+		},
+		"aka_lang_italic": {
+			"label": "Aka text foreign language italics",
+			"description": "Control the italic presentation of foreign language aka text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "no", "unset", "invert", "default" ],
+			"aliases": [ "aka-lang-italic", "ali" ]
+		},
+		"aka_lang_nocat": {
+			"label": "Aka text foreign language categorisation",
+			"description": "Dictate the categorisation of foreign language aka text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "y", "true", "t", "on", "1" ],
+			"aliases": [ "aka-lang-nocat", "alnc" ]
+		},
+		"aka_lang_cat": {
+			"label": "Aka text foreign language categorisation",
+			"description": "Dictate the categorisation of foreign language aka text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "n", "false", "f", "off", "0" ],
+			"aliases": [ "aka-lang-cat", "alc" ]
+		},
+		"aka_lang_size": {
+			"label": "Aka text foreign language size",
+			"description": "Control the size presentation of foreign language aka text",
+			"type" : "line",
+			"example": "1.5em",
+			"aliases": [ "aka-lang-size", "als" ]
+		},
+		"aka_lang_rtl": {
+			"label": "Aka text foreign language rtl",
+			"description": "Control the rtl presentation of foreign language aka text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "yes" ],
+			"default": "no",
+			"aliases": [ "aka-lang-rtl", "alr" ]
+		},
+		"wedge_lang": {
+			"label": "Additional information foreign language code",
+			"description": "Provide a language code for foreign language wedge text",
+			"type" : "line",
+			"example": "ja",
+			"aliases": [ "wedge-lang", "insert_lang", "insert-lang", "extra_lang", "extra-lang", "wl" ]
+		},
+		"wedge_lang_italic": {
+			"label": "Additional information foreign language italics",
+			"description": "Control the italic presentation of foreign language wedge text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "no", "unset", "invert", "default" ],
+			"aliases": [ "wedge-lang-italic", "insert_lang_italic", "insert-lang-italic", "extra_lang_italic", "extra-lang-italic", "wli" ]
+		},
+		"wedge_lang_nocat": {
+			"label": "Additional information foreign language categorisation",
+			"description": "Dictate the categorisation of foreign language wedge text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "y", "true", "t", "on", "1" ],
+			"aliases": [ "wedge-lang-nocat", "insert_lang_nocat", "insert-lang-nocat", "extra_lang_nocat", "extra-lang-nocat", "wlnc" ]
+		},
+		"wedge_lang_cat": {
+			"label": "Additional information foreign language categorisation",
+			"description": "Dictate the categorisation of foreign language wedge text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "n", "false", "f", "off", "0" ],
+			"aliases": [ "wedge-lang-cat", "insert_lang_cat", "insert-lang-cat", "extra_lang_cat", "extra-lang-cat", "wlc" ]
+		},
+		"wedge_lang_size": {
+			"label": "Additional information foreign language size",
+			"description": "Control the size presentation of foreign language wedge text",
+			"type" : "line",
+			"example": "1.5em",
+			"aliases": [ "wedge-lang-size", "insert_lang_size", "insert-lang-size", "extra_lang_size", "extra-lang-size", "wls" ]
+		},
+		"wedge_lang_rtl": {
+			"label": "Additional information foreign language rtl",
+			"description": "Control the rtl presentation of foreign language wedge text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "yes" ],
+			"default": "no",
+			"aliases": [ "wedge-lang-rtl", "insert_lang_rtl", "insert-lang-rtl", "extra_lang_rtl", "extra-lang-rtl", "wlr" ]
+		},
+		"desc_lang_no": {
+			"label": "Foreign language description formatting",
+			"description": "Dictate if foreign language description text should be formatted",
+			"type" : "line",
+			"suggestedvalues": [ "yes" ],
+			"aliases": [ "desc-lang-no", "dlno" ]
+		},
+		"desc_lang_italic": {
+			"label": "Foreign language description italics",
+			"description": "Control the italic presentation of foreign language description text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "no", "unset", "invert", "default" ],
+			"aliases": [ "desc-lang-italic", "dli" ]
+		},
+		"desc_lang_nocat": {
+			"label": "Foreign language description categorisation",
+			"description": "Dictate the categorisation of foreign language description text",
+			"type" : "line",
+			"suggestedvalues": [ "yes", "y", "true", "t", "on", "1" ],
+			"aliases": [ "desc-lang-nocat", "dlnc" ]
+		},
+		"desc_lang_cat": {
+			"label": "Foreign language description categorisation",
+			"description": "Dictate the categorisation of foreign language description text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "n", "false", "f", "off", "0" ],
+			"aliases": [ "desc-lang-cat", "dlc" ]
+		},
+		"desc_lang_size": {
+			"label": "Foreign language description size",
+			"description": "Control the size presentation of foreign language description text",
+			"type" : "line",
+			"example": "1.5em",
+			"aliases": [ "desc-lang-size", "dls" ]
+		},
+		"desc_lang_rtl": {
+			"label": "Foreign language description rtl",
+			"description": "Control the rtl presentation of foreign language description text",
+			"type" : "line",
+			"suggestedvalues": [ "no", "yes" ],
+			"default": "no",
+			"aliases": [ "desc-lang-rtl", "dlr" ]
+		}
+	}
+}
+</templatedata>
+{{Collapse bottom}}
+
+== Preview warnings and maintenance categories ==
+[[Module:GetShortDescription]] may create warnings about detected issues with {{tlc|short description}} configurations, that show above the preview content during editing. These warnings are not about the page being edited, but about the pages for which the annotated links are being created. If any preview warnings are shown; please consider visiting the indicated pages to analyse and possibly fix the issues.
+
+It may also show ''alarming messages'' (they're red but not necessarily errors) about its function. If it is not clear how to fix the problem indicated; don't continue trying to annotate the link with this template as the messages will be visible to all readers of Wikipedia. If any alarming messages are displayed on saved pages as a result of issues, the page showing those messages will be added to the maintenance [[:Category:Pages displaying alarming messages about Module:GetShortDescription]].
+
+[[Module:Annotated link]] may also show alarming messages about its function and in much the same way will add pages to [[:Category:Pages displaying alarming messages about Module:Annotated link]].
+
+Several other maintenance categories exist for potential issues with the annotations:
+* [[:Category:Pages displaying short descriptions with no spaces via Module:Annotated link]] will be populated by pages where the module has been invoked to provide annotations that include a description with no spaces. If a page in this category is analysed by an interested editor, and it is determined that the description is appropriate for use; add {{para|space_cat|no}} to the {{tlc|annotated link}} to disable the categorisation. If the description is not appropriate; the interested editor can either try to fix it at the source, use {{para|only}} to potentially select another description, or remove the use of this template and create a custom annotation for the link manually.
+* [[:Category:Pages displaying short descriptions matching their page name via Module:Annotated link]] will be populated by pages where the module has been invoked to provide annotations contain descriptions that have (case insensitive) equality with the name of the linked page i.e. "Wikipedia article" with a short description of "wikipedia article".  Please consider reviewing the instances.
+
+[https://petscan.wmflabs.org/ A handy tool for finding category intersections] is available.
+
+== See also ==
+* {{tlx|AnnotatedListOfLinks}} – wraps {{tlb|nolink=y|Annotated link}} around multiple links at once
+* {{tlx|Annotated biography link}} – a version of this template designed for biography lists
+* {{tlx|laal}} – displays an article's pagelinks alongside its short description
+* [[Wikipedia:Short description]] – general information about short descriptions
+* [[WP:HOWTOSD]] – detailed guidance on writing short descriptions
+
+<includeonly>{{Sandbox other||
+[[Category:Documentation assistance templates]]
+[[Category:Link templates]]
+[[Category:Short description templates]]
+}}</includeonly>

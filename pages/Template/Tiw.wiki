@@ -1,0 +1,4 @@
+<span class="plainlinks">{{#if:{{{2|}}}
+ | [[:{{#if:{{{1|}}}|{{{1}}}:|}}Template:{{{2}}}]]&nbsp;{{smaller|([[:{{#if:{{{1|}}}|{{{1}}}:|}}Special:Whatlinkshere/Template:{{{2}}}|backlinks]] [{{fullurl:{{{1}}}:Template:{{{2}}}|action=edit}} edit])}}
+ | [[Template:{{{1|{{PAGENAME}}}}}]]&nbsp;{{smaller|([[Special:Whatlinkshere/Template:{{{1|{{PAGENAME}}}}}|backlinks]] [{{fullurl:w:Template:{{{1|{{PAGENAME}}}}}|action=edit}} edit])}}
+}}</span><noinclude>{{Documentation}}</noinclude>

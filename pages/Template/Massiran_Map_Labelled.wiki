@@ -1,0 +1,31 @@
+{{Image label begin|image=Massir Map Labelled.png|width={{{width|1100}}}|font-size=95%|float={{{float|none}}}|link=}}
+{{Image label custom|x=550|y=170|scale=1|text=''[[:Category:North Massir|North<br>Massir]]''}}
+{{Image label custom|x=430|y=320|scale=1|text=''[[:Category:West Massir|West Massir]]''}}
+{{Image label custom|x=570|y=420|scale=1|text=''[[:Category:South Massir|South<br>Massir]]''}}
+{{Image label custom|x=810|y=350|scale=1|text=''[[:Category:Mahea|Mahea]]''}}
+{{Image label custom|x=770|y=090|scale=1|text=''[[:Category:Acrola|Acrola]]''}}
+{{Image label custom|x=080|y=230|scale=1|text=''[[:Category:New Ayre|New Ayre]]''}}
+{{Image label custom|x=980|y=410|scale=1|text=''[[:Category:Quia|Quia]]''}}
+{{Image label custom|x=570|y=015|scale=1|text=''[[:Category:Ayuma|Ayuma]]''}}
+
+{{Image label custom|x=530|y=210|scale=1|text=[[Hingan Savanna]]}}
+{{Image label custom|x=550|y=110|scale=1|text=[[Zhalrn Mountains|Zhalrn<br>Mountains]]}}
+{{Image label custom|x=390|y=080|scale=1|text=[[Passonin Island Chain|Passonin Island<br>Chain]]}}
+{{Image label custom|x=580|y=240|scale=1|text=[[Koaissa Desert|Koaissa<br>Desert]]}}
+{{Image label custom|x=565|y=355|scale=1|text=[[Koaissa Desert|Koaissa<br>Desert]]}}
+{{Image label custom|x=580|y=500|scale=1|text=[[Adunnar]]}}
+{{Image label custom|x=535|y=460|scale=1|text=[[Kashmyar Steppe]]}}
+{{Image label custom|x=545|y=290|scale=1|text=[[The Mare]]}}
+{{Image label custom|x=510|y=530|scale=1|text=[[Calepp Mouantains|Calepp<br>Mouantains]]}}
+{{Image label custom|x=500|y=170|scale=1|text=[[Siishchi]]}}
+
+{{Image label custom|x=440|y=350|scale=1|text=[[Aeses River basin|Aeses<br>River<br>basin]]}}
+{{Image label custom|x=400|y=290|scale=1|text=[[Sediao]]}}
+{{Image label custom|x=340|y=340|scale=1|text=[[Manu Peninsula|Manu<br>Peninsula]]}}
+{{Image label custom|x=280|y=310|scale=1|text=[[Ayre Archipelago|Ayre<br>Archipelago]]}}
+{{Image label custom|x=490|y=345|scale=1|text=[[Chuanyi]]}}
+{{Image label custom|x=400|y=470|scale=1|text=[[Kozhika Mountains]]}}
+{{Image label custom|x=400|y=440|scale=1|text=[[Hiemuekan Desert]]}}
+{{Image label custom|x=490|y=260|scale=1|text=[[Sare]]}}
+
+{{Image label end}}</center>

@@ -1,0 +1,10 @@
+#REDIRECT [[Template:Documentation]]
+
+{{Redirect category shell|
+{{R from merge}}
+{{R from alternative name}}
+{{R from alternative name}}
+{{R from template shortcut}}
+}}
+[[Category:Documentation templates]]
+[[Category:Wikipedia formatting templates]]

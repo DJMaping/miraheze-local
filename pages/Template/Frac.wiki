@@ -1,0 +1,7 @@
+#REDIRECT [[Template:Fraction]]
+
+{{Rcat shell|
+{{R from move}}
+{{R from modification}}
+{{R from template shortcut}}
+}}

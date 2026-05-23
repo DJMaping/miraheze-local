@@ -1,0 +1,7 @@
+{{#switch:{{#expr: floor(({{#time:G}} + 2) / 8) mod 3 }}
+|0={{{asia-australia|Ambox globe Asia Australia.svg}}}
+|1={{{europe-africa|Ambox globe.svg}}}
+|2={{{americas|Ambox globe Americas.svg}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>

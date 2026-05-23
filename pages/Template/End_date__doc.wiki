@@ -1,0 +1,124 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{High-use}}
+{{COinS safe|n}}
+{{Lua|Module:Check for unknown parameters|Module:Date time}}
+
+{{tlb|End date}} returns the date (or date and time) that an event or entity ended, in a standard format. It also includes a hidden (by CSS) duplicate, machine-readable date (or date and time) in the ISO date format, for use inside templates or table rows that emit [[microformat]]s.
+
+== Usage ==
+* {{tlx|End date|{{var|YYYY}}}} (year only)
+* {{tlx|End date|{{var|YYYY}}|{{var|MM}}}} (month and year)
+* {{tlx|End date|{{var|YYYY}}|{{var|MM}}|{{var|DD}}}} (year, month, and day)
+* {{tlx|End date|{{var|YYYY}}|{{var|MM}}|{{var|DD}}|{{var|HH}}|{{var|MM}}|{{var|SS}}|{{var|Time zone}}}} (date, time, and time zone)
+
+== Parameters ==
+* The unnamed parameters, in order, represent the year (four digits), month (one or two digits), day (one or two digits), hour in 24-hour time (one or two digits), minutes (one or two digits), seconds (one or two digits), and the time zone (see below). 
+* When specifying time of day, {{var|MM}} (minutes), {{var|SS}} (seconds), and the time zone are optional
+* {{var|Time zone}} may be a numerical value, or <code>Z</code> for [[Coordinated Universal Time|UTC]] (see examples)
+* {{para|df|yes}}, an optional parameter, can be set to display the day before the month (e.g. "7 November 2004" instead of the default "November 7, 2004"). The order of parameters does not change (it remains YMD). This is primarily used in articles using DMY format for dates.
+
+== Examples ==
+* {{tlx|End date|1993|_show_result=yes}}
+* {{tlx|End date|1993|02|_show_result=yes}}
+* {{tlx|End date|1993|02|24|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|30|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|7{{=}}+01:00|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|7{{=}}−07:00|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|30|23|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|30|23|Z|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|30|23|+01:00|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|30|23|−07:00|_show_result=yes}}
+* {{tlx|End date|1993|02|24|df{{=}}y|_show_result=yes}}
+* {{tlx|End date|1993|02|24|08|30|df{{=}}yes|_show_result=yes}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Date that an event or entity ended or was dissolved",
+	"params": {
+		"1": {
+			"label": "YYYY",
+			"description": "End year",
+			"type": "number",
+			"required": true
+		},
+		"2": {
+			"label": "MM",
+			"description": "End month",
+			"type": "number",
+			"suggested": true
+		},
+		"3": {
+			"label": "DD",
+			"description": "End day of month",
+			"type": "number",
+			"suggested": true
+		},
+		"4": {
+			"label": "HH",
+			"description": "End hours",
+			"type": "number"
+		},
+		"5": {
+			"label": "MM",
+			"description": "End minutes",
+			"type": "number",
+			"default": "0"
+		},
+		"6": {
+			"label": "SS",
+			"description": "End seconds",
+			"inherits": "5"
+		},
+		"7": {
+			"label": "TZ",
+			"description": "Time zone offset, \"+02:00\", \"-06:00\" or \"Z\" for UTC",
+			"type": "line"
+		},
+		"df": {
+			"label": "Day first",
+			"description": "Set to 'yes' to show the day before the month name",
+			"type": "line",
+			"suggestedvalues": [
+				"yes",
+				"y"
+			]
+		}
+	}
+}
+</templatedata>
+
+== Use in microformats ==
+
+The template returns the date as [[hCalendar]]'s (<code>class="dtend"</code>). For example:
+
+<syntaxhighlight lang="html"><span class="dtend">1993-02-24T08:30</span></syntaxhighlight>
+
+Disable CSS or view source to see the hidden ISO-formatted output.
+
+Note: due to the requirement exclusive <code>dtend</code> in [[hCalendar]], and the accessibility problems that presents when a date is rendered (as seen without CSS) as <code>28 March 1999 (1999-03-29)</code> or even <code>28 February 1999 (1999-03-01)</code> or <code>31 December 1999 (2000-01-01)</code>, the template should {{strong|not}} be used for whole-day dates and should have a time of 24:00:00 or 23:59:59.
+
+See [[WP:UF|the microformats project]] for further details.
+
+=== Example, including hidden machine-readable text ===
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{End date|2016|12|31}}</nowiki>}}
+
+== Tracking categories ==
+* {{clc|Pages using end date with unknown parameters}}
+* {{clc|Pages using Module:Date time with invalid values}}
+
+== See also ==
+* {{tl|Start date}}
+* {{tl|Start and end dates}}
+* {{tl|Trim date}}
+
+{{Birth, death and age templates|dates}}
+
+<includeonly>{{Sandbox other||
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Date mathematics templates|{{PAGENAME}}]] 	
+[[Category:Templates generating hCalendars|{{PAGENAME}}]]
+
+}}</includeonly>

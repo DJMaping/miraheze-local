@@ -1,0 +1,45 @@
+==List of states and territories==
+'''Continue to [[North New Ayre]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Aplasia}} || [[Aplasia]] || style="text-align:right;" | 36,234 || style="text-align:right;" | 376,609 || style="text-align:right;" | 10 || [[Yondhu]]
+|-
+| style="text-align:center;"| {{flagicon|Astye}} || [[Astye]] || style="text-align:right;" | 529,951 || style="text-align:right;" | 44,277,194 || style="text-align:right;" | 84 || [[Kavirro]]
+|-
+| style="text-align:center;"| {{flagicon|Crila Republic}} || [[Crila Republic]] || style="text-align:right;" | 2,106 || style="text-align:right;" | 945,980 || style="text-align:right;" | 449 || [[Risavo]]
+|-
+| style="text-align:center;"| {{flagicon|Elja and Munusia}} || [[Elja and Munusia]] || style="text-align:right;" | 11,432 || style="text-align:right;" | 495,291 || style="text-align:right;" | 43 || [[Su Hitan]] / [[Mishigi]]
+|-
+| style="text-align:center;"| {{flagicon|Maalle}} || [[Maalle]] || style="text-align:right;" | 1,461,132 || style="text-align:right;" | 22,501,433 || style="text-align:right;" | 15 || [[Rudeka]]
+|-
+| style="text-align:center;"| {{flagicon|Niretui and Anulan}} || [[Niretui and Anulan]] || style="text-align:right;" | 1,428 || style="text-align:right;" | 189,681 || style="text-align:right;" | 133 || [[Tarneshi]]
+|-
+| style="text-align:center;"| {{flagicon|Ohtina}} || [[Ohtina]] || style="text-align:right;" | 654,175 || style="text-align:right;" | 33,245,174 || style="text-align:right;" | 51 || [[Su Sariko]]
+|-
+| style="text-align:center;"| {{flagicon|Prstreula}} || [[Prstreula]] || style="text-align:right;" | 300,940 || style="text-align:right;" | 6,835,852 || style="text-align:right;" | 23 || [[Kavani]]
+|-
+| style="text-align:center;"| {{flagicon|Rethern}} || [[Rethern]] || style="text-align:right;" | 1,344 || style="text-align:right;" | 82,798 || style="text-align:right;" | 62 || [[Xxvii]]
+|-
+| style="text-align:center;"| {{flagicon|Tvecoca}} || [[Tvecoca]] || style="text-align:right;" | 129 || style="text-align:right;" | 5,165 || style="text-align:right;" | 40 || [[Lurvani]]
+|-
+| style="text-align:center;"| {{flagicon|Veelmit}} || [[Veelmit]] || style="text-align:right;" | 179,350 || style="text-align:right;" | 828,597 || style="text-align:right;" | 5 || [[Anohan]]
+|-
+| style="text-align:center;"| {{flagicon|Walporein}} || [[Walporein]] || style="text-align:right;" | 3,310 || style="text-align:right;" | 730,203 || style="text-align:right;" | 221 || [[Sokira]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 12
+| style="text-align:right;"| 3,181,531
+| style="text-align:right;"| 110,513,977
+| style="text-align:right;"| 35
+|}
+
+[[Category:New Ayre]]
+[[Category:New Ayrean Regions]]

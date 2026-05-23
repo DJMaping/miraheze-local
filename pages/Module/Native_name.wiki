@@ -1,0 +1,317 @@
+require('strict');
+
+local getArgs = require ('Module:Arguments').getArgs;
+local lang_module = require ('Module:Lang');
+local yes_no = require('Module:Yesno')
+
+local defined_values = {
+	italic = {['no']='no', ['off']='no'},										-- values accepted by |italic= and |italics=; {{lang}} expects 'no' so 'off' must be translated
+	paren = {['no']=true, ['off']=true, ['omit']=true},							-- values accepted by |paren=
+	}
+
+local messages_t = {													
+	tag_required = 'an IETF language tag as parameter {{{1}}} is required',		-- for {{native name}}
+	name_required = 'a name as parameter {{{2}}} is required',
+																
+	tag_required_idx = 'an IETF language tag in |tag%s= is required',			-- for {{native name}} when called from {{native name list}}
+	name_required_idx = 'a name in |name%s= is required',
+
+	empty_list = 'list is empty',												-- for {{native name list}}
+	positional = 'positional parameters not supported',
+
+	br_list = '&lt;br /> lists not allowed',									-- for {{native name checker}}
+	list_markup = 'list markup expected for multiple names',
+	malformed_param = 'parameter value is malformed',
+	}
+
+local help_links_t = {
+	['native name'] = '[[Template:Native name|help]]',
+	['native name checker'] = '[[Template:Native name checker|help]]',
+	['native name list'] = '[[Template:Native name list|help]]',
+	}
+
+local error_cats_t = {
+	['native name'] = '[[Category:Native name template errors]]',
+	['native name checker'] = '[[Category:Native name checker template errors]]',
+	['native name list'] = '[[Category:Native name list template errors]]',
+	}
+
+
+--[[--------------------------< E R R O R _ M S G >------------------------------------------------------------
+
+returns a formatted error message
+
+]]
+
+local function error_msg (msg, template, index)
+	local cat = ((0 == mw.title.getCurrentTitle().namespace) and error_cats_t[template]) or '';
+	if index then
+		local message = string.format (msg, index);
+		return string.format ('<span style="color:#d33">Error {{%s}}: %s (%s)</span>%s', template, message, help_links_t[template], cat)
+	end
+	return string.format ('<span style="color:#d33">Error {{%s}}: %s (%s)</span>%s', template, msg, help_links_t[template], cat)
+end
+
+
+--[=[-------------------------< _ N A T I V E _ N A M E >------------------------------------------------------
+
+implements {{native name}}; entry point from a module
+
+<args_t> is a table of parameter name/value pairs.  Parameters that are supported are:
+	args_t[1] - IETF language tag (required)
+	args_t[2] - the native name (required)
+	args_t.italic - accepts string values 'no' or 'off'; {{lang}} expects 'no' so 'off' must be translated
+	args_t.italics - alias of |italic=
+	args_t.paren - accepts 'omit', 'off', or 'no'
+	args_t.icon - alias of paren
+	args_t.parensize - 
+	args_t.fontsize - deprecated alias of |parensize=
+	args_t.nolink - any value inhibits wikilinking of language name
+	
+	args_t.suppress_empty_list_error - when set to 'yes', suppresses an 'empty' error message; mostly for use within another template
+
+this function calls these functions in Module:lang:
+	_is_ietf_tag
+	_lang
+	_name_from_tag
+
+TODO:
+	add support for romanization and transliteration?
+	add support for postfix so that 'mis' can render something like this:
+		{{native|name|mis|Chotilapacquen|parent=omit|postfix=&#32;([[Coahuiltecan languages|Coahuiltecan]])}}
+			Chotilapacquen (Coahuiltecan)
+
+]=]
+
+local function _native_name (args_t)
+	local template = (args_t.template and args_t.template) or 'native name';	-- for error messaging; use 'native name list' when called from native_name_list(), etc
+
+	if not (args_t[1] or args_t[2]) and yes_no (args_t.suppress_empty_list_error) then
+		return '';																-- if empty list error is suppressed, return empty string
+	elseif not args_t[1] then
+		return error_msg ((args_t.index and messages_t.tag_required_idx) or messages_t.tag_required, template, args_t.index)
+	elseif not args_t[2] then
+		return error_msg ((args_t.index and messages_t.name_required_idx) or messages_t.name_required, template, args_t.index)
+	end
+
+	args_t.italic = args_t.italics or args_t.italic;							-- plural form first in {{native name}} but singular form for {{lang}}
+	args_t.italic = defined_values.italic[args_t.italic] or nil;				-- translate assigned value
+	args_t.italics = nil;														-- so unset as unneeded
+
+	args_t.paren = args_t.paren or args_t.icon;
+	args_t.icon = nil;															-- unset as unneeded
+
+	args_t.parensize = args_t.parensize or args_t.fontsize or '100%';
+	args_t.fontsize = nil;														-- unset as unneeded
+
+	if not lang_module._is_ietf_tag (args_t[1]) then
+		args_t[1] = lang_module._tag_from_name ({args_t[1]});
+		if args_t[1]:find ('Error') then
+			return error_msg ((args_t.index and messages_t.tag_required_idx) or messages_t.tag_required, template, args_t.index)
+		end
+	end
+
+	local out_t = {};
+
+	table.insert (out_t, lang_module._lang ({args_t[1], args_t[2], ['italic']=args_t.italic, ['template']=template}));
+	if not defined_values.paren[args_t.paren] then
+		table.insert (out_t, '&nbsp;');
+
+		table.insert (out_t, table.concat ({
+			'<span class="languageicon" style="font-size:',
+			args_t.parensize,
+			'; font-weight:normal">'}));
+
+		if args_t.nolink then
+			table.insert (out_t, table.concat ({'(', lang_module._name_from_tag ({args_t[1], ['template']=template}), ')'}));
+		else
+			if lang_module._is_ietf_tag (args_t[1]) then
+				table.insert (out_t, table.concat ({'(', lang_module._name_from_tag ({args_t[1], ['link'] ='yes', ['template']=template}), ')'}));
+			else
+				table.insert (out_t, '(language?)');							-- TODO: any reason to keep this?
+			end
+		end
+
+		table.insert (out_t, '</span>');
+	end
+
+	return table.concat (out_t);
+end
+
+
+--[[--------------------------< N A T I V E _ N A M E >--------------------------------------------------------
+
+implements {{native name}}; entry point from the template
+
+{{#invoke:native name|native_name|<tag>|<name>|italic=|paren=|parensize=|nolink=}}
+
+]]
+
+local function native_name (frame)
+	return _native_name (getArgs (frame));
+end
+
+
+--[[--------------------------> _ N A T I V E _ N A M E _ L I S T >--------------------------------------------
+
+implements {{native name}}; entry point from a module
+
+<args_t> is a table of parameter name/value pairs.  Supports enumerated forms of the {{native name}} parameters:
+	args_t.tagn - IETF language tag (|tag1= required)
+	args_t.namen - the native name (|name1= required)
+	args_t.italicn - accepts string values 'no' or 'off'
+	args_t.italicsn - alias of |italicn=
+	args_t.parenn - accepts 'omit', 'off', or 'no'
+	args_t.iconn - alias of paren
+	args_t.parensizen - 
+	args_t.fontsizen - deprecated alias of |parensizen=
+	args_t.nolinkn - any value inhibits wikilinking of language name
+
+also supports:
+	args_t.postfixn - wikitext to be appended to list item n (references other appropriate text)
+	args_t.suppress_empty_list_error - when set to 'yes', suppresses an 'empty list' error message; mostly for use within another template
+	
+]]
+
+local function _native_name_list (args_t)
+	if args_t[1] then
+		return error_msg (messages_t.positional, 'native name list')
+	end
+
+	local unsorted_enumerators_t = {}											-- unsorted  k/v table of tagn and namen enumerators where k is the enumerator and v is always true
+
+	for param, _ in pairs (args_t) do											-- loop through all parameters
+		local enumerator = mw.ustring.match (param, "^tag(%d+)$")				-- is this a |tagn= parameter?  extract enumerator if present
+		if enumerator then														-- if there is an enumerator
+			unsorted_enumerators_t[tonumber(enumerator)] = true					-- add enumerator to the table
+		else
+			local name_match = mw.ustring.match (param, "^name(%d+)$")			-- is this a |tagn= parameter?  extract enumerator if present
+			if name_match then													-- if there is an enumerator
+				unsorted_enumerators_t[tonumber (name_match)] = true			-- add enumerator to the table
+			end
+		end
+	end
+
+	local enumerators_t = {}													-- will hold a sorted sequence of enumerators
+	for n, _ in pairs (unsorted_enumerators_t) do								-- loop through the k/v table of enumerators
+		table.insert (enumerators_t, n)											-- add the enumerator to the sequence
+	end
+	table.sort (enumerators_t)													-- and ascending sort
+
+	local list_t = {};															-- list of formatted native names goes here
+
+	for _, n in ipairs (enumerators_t) do										-- loop through the sorted enumerators
+		table.insert (list_t, table.concat ({
+			_native_name ({														-- go render the native name
+				args_t['tag'..n],
+				args_t['name'..n],
+				['italic'] = args_t['italic'..n],
+				['italics'] = args_t['italics'..n],
+				['paren'] = args_t['paren'..n],
+				['icon'] = args_t['icon'..n],
+				['parensize'] = args_t['parensize'..n],
+				['fontsize'] = args_t['fontsize'..n],
+				['nolink'] = args_t['nolink'..n],
+				['template'] = 'native name list',								-- for error messaging
+				['index'] = n,													-- for error messaging
+			}),
+			args_t['postfix'..n] or '',
+		}));
+	end
+	
+	if 0 == #list_t then
+		return (yes_no (args_t.suppress_empty_list_error) and '') or			-- return empty string when error suppressed
+			error_msg (messages_t.empty_list, 'native name list');				-- otherwise error
+	elseif 1 == #list_t then
+		return list_t[1];														-- return the very short list; TODO: add error?
+	else
+		return require ('Module:List').unbulleted (list_t);						-- use unbulleted list from module
+	end
+end
+
+
+--[[--------------------------< N A T I V E _ N A M E _ L I S T >----------------------------------------------
+
+implements {{native name list}}; entry point from the template
+
+{{#invoke:native name list|native_name_list|tag1=<tag>|name1=<name>|italic1=|paren1=|parensize1=|nolink1=}}
+
+]]
+
+local function native_name_list (frame)
+	return _native_name_list (getArgs (frame));
+end
+
+
+--[[--------------------------< _ N A T I V E _ N A M E _ C H E C K E R >--------------------------------------
+
+entry point from a module
+
+implements {{native name checker}}
+
+for use inside infoboxen:
+	|dataxx = {{native name checker|{{{native_name|}}}}}
+
+inspects rendered content of {{{native_name}}}:
+	expects: at least one lang="<valid IETF tag>" html attribute; tag must begin with 2 or three letters followed
+			by a hyphen or double quote character: lang="zh-Hant" or lang="nav" or lang="oj"
+	emits error message when 2 or more lang="<valid IETF tag>" html attribute but list markup <li> tag not found
+	emits error message if any form of '<br />' tag is found per MOS:NOBREAK
+
+returns:
+	nothing when |native_name= is omitted or empty
+	assigned value when no error
+	error message on error
+
+]]
+
+local function _native_name_checker (args_t)
+	local value = args_t[1];
+	
+	if not value then															-- if |native_name= is omitted or empty
+		return;																	-- return nothing
+	end
+	
+	local _, count = value:gsub ('lang="%a%a%a?[%-"]%a*', '%1');
+	if 0 == count then
+		return table.concat ({value, error_msg (messages_t.malformed_param, 'native name checker')}, ' ');	-- no {{lang}} or {{native_name}} template
+	end
+	if 1 < count then
+		if not value:find ('<div class="plainlist *" *>') or not value:find ('</div>$') then	-- must be wrapped in 'plainlist' div
+			return table.concat ({value, error_msg (messages_t.list_markup, 'native name checker')}, ' ');
+		end
+	end
+	
+	if value:find ('< */? *[Bb][Rr] */? *>') then								-- look for something that vaguely resembles a <br /> tag
+		return table.concat ({value, error_msg (messages_t.br_list, 'native name checker')}, ' ');
+	end
+
+	return value;																-- no failed tests, return the value as is
+end
+
+
+--[[--------------------------< N A T I V E _ N A M E _ C H E C K E R >--------------------------------------
+
+entry point from a module
+
+implements {{native name checker}}
+
+]]
+
+local function native_name_checker (frame)
+	return _native_name_checker (getArgs (frame));
+end
+
+
+--[[--------------------------< E X P O R T S >----------------------------------------------------------------
+]]
+
+return {
+	native_name = native_name,													-- template interface
+	native_name_list = native_name_list,
+	native_name_checker = native_name_checker,
+	
+	_native_name = _native_name,												-- other module interface
+	_native_name_list = _native_name_list,
+	_native_name_checker = _native_name_checker,
+	}

@@ -1,0 +1,16 @@
+{{Redirect template
+  |id=R template-protected
+  |name=[[:Category:Wikipedia template-protected redirects|Template-protected]]
+  |from=a page that is template-protected from editing for any of several possible reasons. Only administrators and template editors may edit this page
+  |info=** '''Please do not replace these redirected links''' with links directly to the target page unless expressly advised to do so below or elsewhere on this page, or if the change is supported by a policy or guideline.
+  |template category=<!--for automatic namespace detection-->
+}}<includeonly>{{#ifeq:{{{nocat|}}}|true||{{#ifeq:{{FULLPAGENAME}}|Template:R template-protected||{{#ifeq: {{SUBPAGENAME}}|sandbox||{{#switch: {{PROTECTIONLEVEL:move}}
+   |templateeditor=[[Category:Wikipedia template-protected redirects]]
+   |sysop=[[Category:Wikipedia move-protected pages]]
+ }}{{#switch: {{PROTECTIONLEVEL:edit}}
+   |templateeditor=[[Category:Wikipedia template-protected redirects]]
+   |sysop|autoconfirmed|extendedconfirmed|#default=[[Category:Wikipedia pages with incorrect protection templates]]
+}}}}}}}}</includeonly><noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{documentation}}
+</noinclude>

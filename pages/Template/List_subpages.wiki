@@ -1,0 +1,18 @@
+<div style="border:1px solid #CCC; padding:0px 8px;">
+{{{caption
+  |{{#ifeq:{{{2|{{NAMESPACE}}}}}:{{{1|{{PAGENAME}}}}}|{{FULLPAGENAME}}
+     |In this {{lcfirst:{{NAMESPACE}}}}space
+     |Pages with the prefix '{{{1|{{PAGENAME}}}}}' in the '{{if empty|{{{2|}}}|{{SUBJECTSPACE}}}}' and '{{#if:{{{2|}}}|{{{2}}} talk|{{TALKSPACE}}}}' namespaces
+   }}:
+}}}<!--
+-->{{#ifeq:{{YesNo-No|{{{no subject namespace|}}}}}|no|<div style="margin-bottom:-1px; padding:0.1em; border-bottom:1px solid #CCC; font-size:0.9em;">
+{{{2|{{SUBJECTSPACE}}}}}:{{#ifexist:{{{2|{{SUBJECTSPACE}}}}}:{{{1|{{PAGENAME}}}}}
+  |<table><tr><td>[[{{{2|{{SUBJECTSPACE}}}}}:{{{1|{{PAGENAME}}}}}|{{{1|{{PAGENAME}}}}}]]</td></tr></table>
+}}{{Special:Prefixindex/{{{2|{{SUBJECTSPACE}}}}}:{{{1|{{PAGENAME}}}}}/}}
+</div>|}}
+{{#ifeq:{{YesNo-No|{{{no talk namespace|}}}}}|no|<div style="padding:2px; font-size:0.9em;">{{#if:{{{2|}}}|{{{2}}} talk|{{TALKSPACE}}}}:{{#ifexist:{{#if:{{{2|}}}|{{{2}}} talk|{{TALKSPACE}}}}:{{{1|{{PAGENAME}}}}}
+  |<table><tr><td>[[{{#if:{{{2|}}}|{{{2}}} talk|{{TALKSPACE}}}}:{{{1|{{PAGENAME}}}}}|{{{1|{{PAGENAME}}}}}]]</td></tr></table>
+}}{{Special:Prefixindex/{{#if:{{{2|}}}|{{{2}}} talk|{{TALKSPACE}}}}:{{{1|{{PAGENAME}}}}}/}}
+</div>|}}</div><noinclude>
+{{Documentation}}
+</noinclude>

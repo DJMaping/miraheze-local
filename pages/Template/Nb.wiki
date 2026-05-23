@@ -1,0 +1,8 @@
+{{country data {{{1}}}
+| flag link/core
+| variant = {{{variant|{{{2|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = national netball team
+| altvar = netball
+}}<noinclude>{{documentation}}</noinclude>

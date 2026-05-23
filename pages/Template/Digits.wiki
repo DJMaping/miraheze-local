@@ -1,0 +1,3 @@
+{{#invoke:String|replace|source={{{1|}}}|pattern=%D|replace=|plain=false}}<noinclude>
+{{Documentation}}
+</noinclude>

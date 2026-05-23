@@ -1,0 +1,32 @@
+require('strict')
+return setmetatable({}, {
+	__index = function(t, k)
+		local what = mw.ustring[k]
+		if type(what) ~= "function" then
+			return what
+		end
+		return function(frame)
+			local fargs = frame.args
+			local fargsused = { tag = true }
+			local args = {}
+			local str_i = 1
+			while fargs['s' .. str_i] do
+				fargsused['s' .. str_i] = true
+				args[str_i] = fargs['s' .. str_i]
+				str_i = str_i + 1
+			end
+			for i, v in ipairs(fargs) do
+				fargsused[i] = true
+				args[i + str_i - 1] = tonumber(v) or v:gsub("^\\", "", 1)
+			end
+			if not fargs.tag then
+				return (what(unpack(args)))		-- Outside parens truncate to first result avoiding tail call
+			end
+			local tagargs = {}
+			for x, y in pairs(fargs) do
+				if not fargsused[x] then tagargs[x] = y end
+			end
+			return frame:extensionTag{name = fargs.tag, content = what(unpack(args)), args = tagargs}
+		end
+	end
+})

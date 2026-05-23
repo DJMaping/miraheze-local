@@ -1,0 +1,15 @@
+<div style="
+  padding: 1%;
+  background: #faf3eb;
+  color: black;
+  border: 1px solid #ffc200;
+  border-radius: 5px;
+" class="how-to-export">
+'''How to add this template to your wiki'''
+# Go to Special:Import on your wiki (for example, if your wiki was meta.miraheze.org, you would go to meta.miraheze.org/wiki/Special:Import)
+# Scroll until you see "<code>{{int:importinterwiki}}</code>"
+# In "<code>{{int:import-interwiki-sourcewiki}}</code>", press the dropdown box, and select "dev"
+# In "<code>{{int:import-interwiki-sourcepage}}</code>", write "<code>{{FULLPAGENAME}}</code>"
+# Leave the other settings as they are and press "<code>{{int:import-interwiki-submit}}</code>"
+{{#if:{{{commoncss|}}}|# Copy-paste the content of [[MediaWiki:Common.css]] into the MediaWiki:Common.css page of your own wiki (for example, if your wiki was meta.miraheze.org, you would go to meta.miraheze.org/wiki/MediaWiki:Common.css)|
+}}</div><noinclude>{{Documentation|noexportinstructions=yes}}</noinclude>

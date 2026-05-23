@@ -1,0 +1,4 @@
+<includeonly><nowiki/><!--This nowiki helps to prevent whitespace at the top of articles ([[phab:T369520]]). This template is empty, produces no output.-->{{#invoke:Italic title|main}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage and interwikis to Wikidata. -->
+</noinclude>

@@ -1,0 +1,3 @@
+<templatestyles src="Template:Param value/styles.css"/><span class="tpl-pval__wrapper"><code class="tpl-pval__code" style="{{#if:{{{border|{{{b|}}}}}}|border:{{{border|{{{b|}}}}}};}} {{#if:{{{bg-color|}}}|background-color: {{{bg-color}}}; color: {{Greater color contrast ratio|{{{bg-color}}}}};}} {{#if:{{{bg|}}}|color: {{Greater color contrast ratio|{{{bg}}}}};}} {{#ifexpr:{{str len|{{{1|}}}}} > 25|white-space: wrap;|}} {{{style|}}}">{{replace|{{replace|{{replace|{{replace|{{replace|<includeonly>⊗ϑ{{{1|}}}⊗ϑ</includeonly><noinclude>value</noinclude>| |{{{space|{{{sp|&nbsp;}}}}}}}}|#|&#35;}}|*|&#42;}}|:|&#58;}}|⊗ϑ|}}</code></span><noinclude>
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,34 @@
+{{Image label begin|image=Mahean Map Labelled.png|width={{{width|1100}}}|font-size=95%|float={{{float|none}}}|link=}}
+{{Image label custom|x=540|y=200|scale=1|text=''[[:Category:North Mahea|North<br>Mahea]]''}}
+{{Image label custom|x=260|y=250|scale=1|text=''[[:Category:West Mahea|West<br>Mahea]]''}}
+{{Image label custom|x=520|y=470|scale=1|text=''[[:Category:South Mahea|South<br>Mahea]]''}}
+{{Image label custom|x=770|y=380|scale=1|text=''[[:Category:East Mahea|East<br>Mahea]]''}}
+
+{{Image label custom|x=120|y=429|scale=1|text=''[[:Category:Massir|Massir]]''}}
+{{Image label custom|x=280|y=50|scale=1|text=''[[:Category:Acrola|Acrola]]''}}
+{{Image label custom|x=950|y=185|scale=1|text=''[[:Category:Quia|Quia]]''}}
+
+{{Image label custom|x=780|y=350|scale=1|text=[[Hijita]]}}
+{{Image label custom|x=290|y=215|scale=1|text=[[Que Desert]]}}
+{{Image label custom|x=520|y=430|scale=1|text=[[Wanin Desert]]}}
+{{Image label custom|x=650|y=530|scale=1|text=[[Ierria Peninsula]]}}
+{{Image label custom|x=590|y=280|scale=1|text=[[Risvor River]]}}
+{{Image label custom|x=400|y=310|scale=1|text=[[Anol River]]}}
+{{Image label custom|x=555|y=110|scale=1|text=[[Undoson]]}}
+{{Image label custom|x=505|y=340|scale=1|text=[[The Kasive]]}}
+{{Image label custom|x=420|y=470|scale=1|text=[[Otemvi]]}}
+{{Image label custom|x=530|y=510|scale=1|text=[[Knac Steppe]]}}
+{{Image label custom|x=400|y=185|scale=1|text=[[Serenr Steppe]]}}
+{{Image label custom|x=250|y=330|scale=1|text=[[Tsukun]]}}
+{{Image label custom|x=430|y=260|scale=1|text=[[Kaysir]]}}
+{{Image label custom|x=275|y=100|scale=1|text=[[Okaren Mountains]]}}
+{{Image label custom|x=530|y=550|scale=1|text=[[Wasan Mountains]]}}
+{{Image label custom|x=310|y=290|scale=1|text=[[Liaax Highlands]]}} 
+{{Image label custom|x=755|y=240|scale=1|text=[[Tamosa]]}} 
+{{Image label custom|x=650|y=390|scale=1|text=[[Galcan Peninsula|Galcan<br>Peninsula]]}} 
+{{Image label custom|x=550|y=250|scale=1|text=[[Amoray]]}} 
+{{Image label custom|x=220|y=185|scale=1|text=[[Sliect]]}} 
+
+{{Image label custom|x=220|y=350|scale=1|text=[[Tiesa canal territory|Tiesa]]}}
+
+{{Image label end}}</center>

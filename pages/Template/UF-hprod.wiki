@@ -1,0 +1,13 @@
+{{Microformat message
+| format = hProduct
+| data = a product's details
+| subsection1 = If the product has a URL, use {{tl|URL}} to include it.
+|brand |category |description |fn |hproduct |identifier |listing |photo |price |review |type |url |value
+| nocollapse = on
+}}<includeonly>{{#ifeq:{{SUBPAGENAME}}|doc | |{{#ifeq:{{SUBPAGENAME}}|sandbox | |[[Category:Templates generating hProduct|{{PAGENAME}}]]}} }}</includeonly><noinclude>
+
+{{Documentation |content={{Microformat message templates}}}}
+
+[[Category:Microformat (uF) message templates]]
+[[Category:Templates generating hProduct| ]]
+</noinclude>

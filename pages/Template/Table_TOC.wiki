@@ -1,0 +1,55 @@
+{{TOC top|title={{{title|}}}|align={{{align|}}}|clear={{{clear|}}}|primary={{{primary|false}}}}}{{#if:{{{start|}}}{{{stop|}}}{{{by|}}} |{{for loop||call = Table TOC/core |start={{{start|1}}} |stop={{{stop|{{CURRENTYEAR}}}}} |by={{{by|1}}} |pv=1 |pc2n=2 |pc2v={{{prefix|}}}}}|<!--
+-->{{Table TOC/core|{{{1|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{2|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{3|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{4|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{5|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{6|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{7|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{8|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{9|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{10|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{11|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{12|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{13|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{14|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{15|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{16|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{17|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{18|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{19|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{20|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{21|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{22|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{23|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{24|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{25|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{26|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{27|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{28|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{29|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{30|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{31|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{32|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{33|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{34|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{35|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{36|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{37|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{38|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{39|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{40|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{41|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{42|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{43|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{44|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{45|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{46|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{47|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{48|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{49|}}}|{{{prefix|}}}}}<!--
+-->{{Table TOC/core|{{{50|}}}|{{{prefix|}}}}}}}
+{{TOC bottom}}<noinclude>
+{{Documentation}}
+[[Category:Wikipedia table of contents templates]]
+</noinclude>

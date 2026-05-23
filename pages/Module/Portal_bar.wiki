@@ -1,0 +1,90 @@
+-- This module implements {{portal bar}}.
+
+require('strict')
+
+-- determine whether we're being called from a sandbox
+local isSandbox = mw.getCurrentFrame():getTitle():find('sandbox', 1, true)
+local sandbox = isSandbox and '/sandbox' or ''
+
+local portalModule = require('Module:Portal'..sandbox)
+local getImageName = portalModule._image
+local checkPortals = portalModule._checkPortals
+local processPortalArgs = portalModule._processPortalArgs
+local yesno = require( 'Module:Yesno' )
+local getArgs = require('Module:Arguments').getArgs
+local p = {}
+
+local function sandboxVersion(s)
+	return isSandbox and s.."-sand" or s
+end
+
+-- Builds the portal bar used by {{portal bar}}.
+function p._main( portals, args )
+	
+	-- check for sensible args
+	args = type(args) == "table" and args or {}
+	
+	-- Normalize arguments
+	for key, default in pairs({border=true,redlinks=false,tracking=true}) do
+		if args[key] == nil then args[key] = default end
+		args[key] = yesno(args[key], default)
+	end
+
+	local nav = mw.html.create( 'div' )
+		:addClass(sandboxVersion('portal-bar'))
+		:addClass( 'noprint metadata noviewer' )
+		:attr( 'role', 'navigation' )
+		:attr( 'aria-label' , 'Portals' )
+		:addClass(sandboxVersion(args.border and 'portal-bar-bordered' or 'portal-bar-unbordered'))
+	
+	local trackingCat = ''
+	-- Allow any number of portals
+	args.minPortals = 0
+	args.maxPortals = -1
+	-- Check to see whether there are redlinks, filter out unless args.redlink is true
+	portals, trackingCat = checkPortals(portals, args)
+	nav:wikitext(trackingCat)
+	if #portals == 0 then
+		return trackingCat
+	end
+
+	local related = yesno(args.related)
+	if related then
+		nav:addClass(sandboxVersion('portal-bar-related'))
+	else
+		local header = nav:tag('span')
+		header:addClass(sandboxVersion('portal-bar-header'))
+		header:wikitext('[[Wikipedia:Contents/Portals|Portal]]')
+		if #portals > 1 then
+			header:wikitext('s')
+		end
+		header:wikitext(':')
+	end
+	local container = nav:tag('ul')
+	container:addClass(sandboxVersion('portal-bar-content'))
+	if related then
+		container:addClass(sandboxVersion('portal-bar-content-related'))
+	end
+	local size = related and '28x24px' or '21x19px'
+	for _, portal in ipairs( portals ) do
+		container
+			:tag( 'li' )
+			:addClass(sandboxVersion('portal-bar-item'))
+			:wikitext( string.format('<span class="nowrap">[[File:%s|%s]] </span>[[Portal:%s|%s]]',
+					getImageName(portal,true), size, portal, portal))
+	end
+	
+	local styleFile = 'Module:Portal bar'..sandbox..'/styles.css'
+	return mw.getCurrentFrame():extensionTag{
+		name = 'templatestyles', args = { src = styleFile }
+	} .. tostring( nav ) 
+end
+
+-- Processes external arguments and sends them to the other functions.
+function p.main( frame )
+	local origArgs = getArgs(frame)
+	local portals, args = processPortalArgs(origArgs)
+	return p._main( portals, args )
+end
+
+return p

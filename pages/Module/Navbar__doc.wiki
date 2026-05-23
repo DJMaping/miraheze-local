@@ -1,0 +1,5 @@
+{{used in system}}
+{{module rating|protected}}
+{{Lua|Module:Navbar/configuration|Module:Arguments|Module:TableTools}}
+{{Uses TemplateStyles|Module:Navbar/styles.css|Template:Hlist/styles.css}}
+This is a [[WP:Lua|Lua]] implementation of {{tl|Navbar}}. It is used in [[Module:Navbox]].

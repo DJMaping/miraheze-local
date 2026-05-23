@@ -1,0 +1,11 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Uses TemplateStyles|Template:Stack/styles.css}}
+{{Stack documentation}}
+
+<includeonly>{{Sandbox other|
+| <!-- Categories below this line, please: -->
+[[Category:Graphics templates]]
+[[Category:Positioning templates]]
+
+}}</includeonly>

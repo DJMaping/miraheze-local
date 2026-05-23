@@ -1,0 +1,31 @@
+{{Sister project
+| image    = [[File:Wikidata-logo-with-magnifying-glass-icon.svg|40px|link=Wikipedia:Wikidata]]
+| position = {{{position|}}}
+| text     = This {{template other
+  | template
+  | {{module other
+    | module
+    | {{category other
+      | category
+      | page <!-- not template, module, or category -->
+      }}
+    }}
+  }} [[:Category:{{{cat|Wikidata tracking categories}}}|tracks]] {{#if:{{{section|}}}
+  | one or more [[Wikidata]] properties; see {{Section link||{{{section}}}}} for details.
+  | the [[Wikidata]] propert{{#if:{{{2|}}}|ies:|y:}} {{#invoke:Uses Wikidata|usesProperty}}
+  }}
+}}<includeonly>{{#switch:{{SUBPAGENAME}}
+  |sandbox |testcases |doc= <!--no category-->
+  |#default = {{template other
+    | [[Category:Templates tracking Wikidata]]
+    | {{module other
+      | [[Category:Modules tracking Wikidata]]
+      | {{category other
+        | <!-- if used in a category, don't automatically add parent category -->
+        | <!-- not template, module, or category -->
+        }}
+      }}
+    }} 
+  }}</includeonly><noinclude>
+{{Documentation}}<!-- Add categories and interwikis to the /doc sub-page -->
+</noinclude>

@@ -1,0 +1,178 @@
+<onlyinclude><kbd class="keyboard-key nowrap" style="border: 0.1em solid #AAA; border-radius:0.2em; box-shadow: 0.1em 0.2em 0.2em #DDD; background-color: #F9F9F9; background-image: linear-gradient(to bottom, #EEE, #F9F9F9, #EEE); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">{{#switch:{{lc:{{{1}}}}}
+| shift lock          = [[Shift Lock|⇪ {{{2|{{{1}}}}}}]]
+| second level lock | 2nd level lock | l2 lock
+| level 2 lock        = ⇫ {{{2|{{{1}}}}}}
+| capitals lock
+| caps lock           = [[Caps Lock|⇬ {{{2|{{{1}}}}}}]]
+| numeric lock        = ⇭ {{{2|{{{1}}}}}}
+| num | num lock      = {{{2|{{{1}}}}}} ⇩
+| third level lock | 3rd level lock | l3 lock
+| level 3 lock        = ⇯ {{{2|{{{1}}}}}}
+| generalized lock | generalised lock
+| lock | general lock = ⇩ {{{2|{{{1}}}}}}
+| group lock          = ⇰ {{{2|{{{1}}}}}}
+| scrolling
+| scrolling lock      = ⇳ {{{2|{{{1}}}}}}
+| scroll | scroll lock = {{{2|{{{1}}}}}} ⇩
+| pause               = ⎉ {{{2|{{{1}}}}}}
+| break               = ⎊ {{{2|{{{1}}}}}}
+<!--
+sleep ☾, hibernate, power ⌽, suspend
+| sysrq | sysreq
+| system request      = {{{2|{{{1}}}}}}
+-->
+<!-- level and group switching, modifiers -->
+| second level | 2nd level
+| level 2 select | level 2 selector 
+| level 2 | shift         = [[Shift key|⇧ {{{2|{{{1}}}}}}]]
+| alternate graphic | alt graph | alt graphic | alt grill 
+| alt car | alt char | right alt | ralt
+| alt group | alternate group | altgroup
+| altgr | alt gr
+| third level | 3rd level
+| level 3 select | level 3 selector
+| level 3                 = [[AltGr key|⇮ {{{2|{{{1}}}}}}]]
+| group select | group selector
+| group                   = ⇨ {{{2|{{{1}}}}}}
+<!-- Enter and Return -->
+| enter                   = [[Enter key|⌅ {{{2|{{{1}}}}}}]]
+| return                  = [[Enter key|{{#switch:{{{3|}}}|thin|narrow=↵|thick|hollow=⏎|bend||#default=↩}} {{{2|{{{1}}}}}}]]
+| submit | send           = ⎆ {{{2|{{{1}}}}}}
+<!-- Option and Alt -->
+| opt | option            = [[Option key|⌥ {{{2|{{{1}}}}}}]]
+| alternate | left alt | lalt
+| alt                     = [[Alt key|⎇ {{{2|{{{1}}}}}}]]
+<!-- Pre-IBM keys -->
+| greek               = [[Space-cadet keyboard|{{{2|{{{1}}}}}}]]
+| top                 = [[Space-cadet keyboard|{{{2|{{{1}}}}}}]]
+| front               = [[Space-cadet keyboard|{{{2|{{{1}}}}}}]]
+| super               = [[Super key (keyboard button)|❖ {{{2|{{{1}}}}}}]]
+| hyper               = [[Space-cadet keyboard|✦ {{{2|{{{1}}}}}}]]
+| repeat              = [[Space-cadet keyboard|{{{2|{{{1}}}}}}]]
+| code                = [[MSX|⌃ {{{2|{{{1}}}}}}]]
+| graph               = [[MSX|⎇ {{{2|{{{1}}}}}}]]
+| meta                = [[Meta key|◆ {{{2|{{{1}}}}}}]]
+<!-- Laptop keys -->
+| function | fn           = [[Fn key|{{{2|{{{1}}}}}}]]
+<!-- deleting and erasing -->
+| backwards erase | erase
+| backspace               = [[Backspace|{{#if:{{{3|}}}|⟵|⌫}} {{{2|{{{1}}}}}}]]
+| del | delete            = [[Delete|⌦ {{{2|{{{1}}}}}}]]
+| ins | insert            = {{#if:{{{3|}}}|⎀|⌤}} {{{2|{{{1}}}}}} <!-- ! -->
+| clear input             = ⌧ {{{2|Clear}}} <!-- ! -->
+<!-- Escape -->
+| esc | escape            = [[Escape key|⎋ {{{2|{{{1}}}}}}]]
+<!-- Control (symbol either ISO ⎈ or Apple ⌃)  -->
+| ctrl | control | helm   = [[Control key|{{#if:{{{3|}}}|⎈|⌃}} {{{2|{{{1}}}}}}]]
+<!-- Vendor keys, Command (⊞ resembles the Windows logo) -->
+| os | vendor
+| cmd | command           = [[Command key|⌘ {{{2|{{{1}}}}}}]]
+| windows | win           = [[Windows key|{{#if:{{{3|}}}|⊞|⌘}} {{{2|{{{1}}}}}}]]
+| apple                   = [[Command key|⌘ {{{2|}}}]]
+<!--▤-->
+| menu                    = [[Menu key|≣ {{{2|{{{1}}}}}}]]
+<!-- Compose -->
+| cmp | compose           = [[Compose key|⎄ {{{2|{{{1}}}}}}]]
+<!-- arrow cursor movement -->
+| /\                      = ⇡ {{{2|Up}}}
+| up | up arrow | move up = [[Arrow keys|{{#if:{{{3|}}}|🔼|↑}} {{{2|{{{1}}}}}}]]
+| \/                      = ⇣ {{{2|Down}}}
+| down | down arrow | move down = [[Arrow keys|{{#if:{{{3|}}}|🔽|↓}} {{{2|{{{1}}}}}}]]
+| <-                      = ⇠ {{{2|Left}}}
+| left | left arrow | move left = [[Arrow keys|{{#if:{{{3|}}}|◀|←}} {{{2|{{{1}}}}}}]]
+| ->                      = ⇢ {{{2|Right}}}
+| right | right arrow | move right = [[Arrow keys|{{#if:{{{3|}}}|▶|→}} {{{2|{{{1}}}}}}]]
+| north west | north-west | nw | <\
+| top-left | top left         = ↖
+| south east | south-east | se | \>
+| bottom-right | bottom right = ↘
+| north east | north-east | ne | />
+| top-right | top right       = ↗
+| south west | south-west | sw | </
+| bottom-left | bottom left   = ↙
+<!-- tab -->
+| tabulator | htab | horizontal tab | horizontal tabulator
+| tab                     = [[Tab key|{{{2|{{{1}}}}}} ↹]]
+| right tab               = [[Tab key|{{{2|Tab}}} ⇥]] <!-- ! -->
+| shift tab | left tab    = [[Tab key|⇤ {{{2|Tab}}}]] <!-- ! -->
+| vertical tab | vertical tabulator = ↨ {{{2|{{{1}}}}}}
+<!--Home/End-->
+| pos1 | start
+| home                 = [[Home key|{{#if:{{{3|}}}|↖|⇱}} {{{2|{{{1}}}}}}]]
+| end                  = [[End key|{{#if:{{{3|}}}|↘|⇲}} {{{2|{{{1}}}}}}]]
+| line start           = ⇤ {{{2|{{{1}}}}}}
+| line end             = ⇥ {{{2|{{{1}}}}}}
+| page start | top     = ⤒ {{{2|{{{1}}}}}}
+| page end | bottom    = ⤓ {{{2|{{{1}}}}}}
+<!-- paged media -->
+| page up | pgup | pg up   = [[Page Up and Page Down keys|⇞ {{{2|{{{1}}}}}}]]
+| page down
+| pgdn | pgdown | pg down  = [[Page Up and Page Down keys|⇟ {{{2|{{{1}}}}}}]]
+| left page | prev page | prev. page    = ⎗ {{{2|{{{1}}}}}}
+| previous page            = ⎗ {{{2|{{{1}}}}}}
+| right page | next page   = ⎘ {{{2|{{{1}}}}}}
+<!-- screen, note “clear input” ⌧ -->
+| prtscr | prt scr | prtsc | prt sc
+| print, print screen      = ⎙ {{{2|{{{1}}}}}}
+| clrscr | clr scr | cls | clr sc
+| clear | clear screen     = ⎚ {{{2|{{{1}}}}}}
+<!-- multimedia control; possible inconsistencies -->
+| play | playback | start playback
+| scroll right                 = ▶ {{{2|{{{1}}}}}}
+| play reverse | reverse
+| scroll left                  = ◀ {{{2|{{{1}}}}}}
+| play/pause | play pause      = ⏯ {{{2|{{{1}}}}}}
+| pause | pause playback       = ‖ {{{2|{{{1}}}}}}
+| stop                         = {{#if:{{{3|}}}|◼|■}} {{{2|{{{1}}}}}}
+| eject                        = ⏏ {{{2|{{{1}}}}}}
+| record                       = {{#if:{{{3|}}}|🔴|●}} {{{2|{{{1}}}}}}
+| fwd | forward                = ⏭ {{{2|{{{1}}}}}}
+| skip | skip forward          = ⏭ {{{2|{{{1}}}}}}
+| skip back | skip backward    = ⏮ {{{2|{{{1}}}}}}
+| backward | backwards
+| rewind                       = ⏪ {{{2|{{{1}}}}}}
+| ffad | fast forward          = ⏩ {{{2|{{{1}}}}}}
+| downward | downwards         = ⏬ {{{2|{{{1}}}}}}
+| skip down | scroll down      = 🔽 {{{2|{{{1}}}}}}
+| upward | upwards             = ⏫ {{{2|{{{1}}}}}}
+| skip up | scroll up          = 🔼 {{{2|{{{1}}}}}}
+| random | randomize | rnd | rand = 🔀 {{{2|{{{1}}}}}}
+| repeat | rpt                 = 🔁 {{{2|{{{1}}}}}}
+| repeat once | rpt1           = 🔂 {{{2|{{{1}}}}}}
+| reload | refresh             = 🔄 {{{2|{{{1}}}}}}
+| reception                    = 📶 {{{2|{{{1}}}}}}
+| mute                         = 🔇 {{{2|{{{1}}}}}}
+| volume down | quieter        = 🔉 {{{2|{{{1}}}}}}
+| volume up | louder           = 🔊 {{{2|{{{1}}}}}}
+| home | house                 = ⌂ {{{2|{{{1}}}}}}
+
+<!-- telephones and other telematic devices, also numpad -->
+| initiator | phone star       = ✲ {{{2|{{{1}}}}}}
+| terminator | phone hash      = ⌗ {{{2|{{{1}}}}}}
+| times | multiply | num star  = × {{{2|{{{1}}}}}}
+| divide | num slash           = ÷ {{{2|{{{1}}}}}}
+<!-- spaces →
+| space | sp | space bar       = ␣ {{{2|{{{1}}}}}}
+| nbsp | non-breaking space    = ⍽ {{{2|{{{1}}}}}}
+
+<!-- problematic characters -->
+| asterisk | star
+| *      = <nowiki>*</nowiki>
+| hash | hash sign | pound | pound sign
+| #      = [[Number sign|#]]
+| colon
+| :      = [[Colon (punctuation)|:]]
+| pipe symbol | vertical bar
+| pipe   = [[Pipe symbol|{{!}}]]
+| semicolon = <nowiki>;</nowiki>
+| equals = <nowiki>=</nowiki>
+<!-- PlayStation -->
+| ex       = ×
+| circle   = ○
+| square   = □
+| triangle = △
+<!-- default -->
+| #default            = {{{1}}}
+}}</kbd></onlyinclude><noinclude>
+{{Documentation}}<!-- Add categories and interwikis links to the /doc subpage, not here! -->
+</noinclude>

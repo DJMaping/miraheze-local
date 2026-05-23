@@ -1,0 +1,24 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Lua|Module:If preview}}
+
+'''Template:Preview warning''' emits a warning in preview. Modules should instead use the module interface <code>_warning()</code> in [[Module:If preview]].
+
+== Usage ==
+<code><nowiki>{{Preview warning|Warning text in preview}}</nowiki></code>
+
+<code><nowiki>{{Preview warning|1=Warning text in preview}}</nowiki></code>
+
+It will be prefaced by "Preview warning:" in bold. The template will emit an always-visible warning if no warning text is supplied.
+
+=== Parameters ===
+; {{Para|1}}
+: The warning text you want to provide.
+
+== See also ==
+* {{Tl|If preview}}
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:If-then-else templates]]
+[[Category:Notice and warning templates]]
+}}</includeonly>

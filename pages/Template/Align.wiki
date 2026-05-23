@@ -1,0 +1,8 @@
+{{safesubst<noinclude/>:#switch: {{safesubst<noinclude/>:lc:{{{1|center}}}}}
+|left = <div style="float: left;{{safesubst<noinclude/>:#if: {{{style|}}} | {{{style}}};}}">{{{2}}}</div>
+|right = <div style="float: right;{{safesubst<noinclude/>:#if: {{{style|}}} | {{{style}}};}}">{{{2}}}</div>
+|center = {{safesubst<noinclude/>:center|{{{2}}}|style={{{style|}}} }}
+|#default = Error in [[Template:Align]]: the alignment setting "{{{1}}}" is invalid.
+}}<noinclude>
+{{documentation}}
+</noinclude>

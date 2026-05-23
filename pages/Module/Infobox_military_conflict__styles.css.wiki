@@ -1,0 +1,12 @@
+/* {{pp-template}} */
+@media all and (min-width:720px) {
+	.desktop-float-right {
+		box-sizing: border-box;
+		float: right;
+		clear: right;
+	}
+}
+
+.infobox.vevent .status > p:first-child {
+	margin: 0;
+}

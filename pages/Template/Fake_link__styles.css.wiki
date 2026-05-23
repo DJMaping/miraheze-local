@@ -1,0 +1,8 @@
+/* {{pp-template}} */
+.fakelinks {
+	color: var(--color-progressive, #0645ad);
+	cursor: default;
+}
+.fakelinks:hover {
+	color: var(--color-progressive--hover, #0645ad);
+}

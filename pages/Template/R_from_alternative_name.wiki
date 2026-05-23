@@ -1,0 +1,12 @@
+<noinclude>{{This is a redirect/rcat}}
+</noinclude>{{Redirect template
+  |id=R from alternative name
+  |name=From an alternative name
+  |from=a title that is another name or identity such as an alter ego, a nickname, or a synonym of the target, or of a name associated with the target{{#if:{{{1|{{{of|}}}}}}|&#32;(in this case, the more common name is: ''{{{1|{{{of}}}}}}'')}}
+  |info=** This redirect leads to the title in accordance with the naming conventions for [[WP:common names|common names]] to aid searches and writing.  It is [[WP:NOTBROKEN|not necessary]] to replace these redirected links with a [[WP:piped link|piped link]].
+** If this redirect is an incorrect name for the target, then {{tl|R from incorrect name}} should be used instead.
+  |all category=Redirects from alternative names
+}}<noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}}
+</noinclude>

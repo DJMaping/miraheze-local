@@ -1,0 +1,28 @@
+{{subst only}}
+{{Documentation subpage}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+{{See also|Help:Wikitext#Nowiki}}
+
+Used to insert {{tag|nowiki}} tag (or, if no <code><nowiki>{{{1}}}</nowiki></code> parameter content is given, a self-closing {{tag|nowiki|s}} tag) in a substituted template.  The resulting tag will be processed '''as a real tag''' by further substitutions and transclusions, so this should '''not''' be used for documentation.  Rather, it is used by [[Help:Metatemplating|metatemplates]] to generate nowiki tags.
+
+== Usage ==
+
+ <nowiki>{{</nowiki>&lt;includeonly&gt;subst:&lt;/includeonly&gt;{{TEMPLATENAME}}&#124;'''<nowiki>{{{1}}}</nowiki>'''<nowiki>}}</nowiki>
+
+If the template call is already within an includeonly block, the includeonly tags should be omitted.  Substitution is required, but must only be used during inclusion; otherwise, the template will be substituted with includeonly tags immediately, and the desired effect will be lost.
+
+== Nowiki templates and modules ==
+''Templates and modules that implement <code><no<!-- -->wiki>TEXT</no<!-- -->wiki></code>''
+* {{tl|nowiki}} - usage: <code><nowiki>{{nowiki | TEXT }}</nowiki></code>
+* {{tl|nowiki2}} - usage: <code><nowiki>{{nowiki2 | TEXT | tag = TAG | style = STYLE }}</nowiki></code>
+* [[Module:String2]] nowiki(TEXT) - usage: <code><nowiki>{{#invoke:String2 | nowiki | TEXT }}</nowiki></code>
+
+{{Navbox wikitext-handling templates}}<!--
+{{{{sibling|Metatemplate doc}}|links}}
+-->
+<includeonly>{{sandbox other||
+<!-- Categories and interwikis go here: -->
+{{{{sibling|Metatemplate doc}}|categories}}
+[[Category:Wikicode string manipulation templates]]
+
+}}</includeonly>

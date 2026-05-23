@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = England
+| flag alias = Flag of England.svg
+| flag alias-naval = English White Ensign 1620.svg
+| link alias-naval = Royal Navy
+| flag alias-navy = English White Ensign 1620.svg
+| link alias-navy = Royal Navy
+| link alias-cricket = England {{{mw|}}} {{{age|}}} cricket team
+| {{#ifeq:{{{altlink}}}|A national rugby union team|link alias-rugby union|empty}} = England Saxons
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| redir1 = ENG
+</noinclude>
+}}

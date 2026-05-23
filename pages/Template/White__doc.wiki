@@ -1,0 +1,32 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+
+== Usage ==
+My {{tlx|white|color}} text. Produces:
+
+My {{white|color}} text.
+
+== Template data ==
+{{TemplateDataHeader}}
+<TemplateData>
+{
+        "description": "This template changes the color of any supplied text to white",
+        "params": {
+                "1": {
+                        "label": "Text",
+                        "description": "The text that should be colored white.",
+                        "type": "string",
+                        "required": true
+                }
+        }
+}
+</TemplateData>
+
+== See also ==
+{{Text color templates see also}}
+
+<includeonly>{{Sandbox other||<!--
+++++ PLEASE ADD CATEGORIES BELOW THIS LINE, INSIDE INCLUDEONLY TAGS, THANK YOU. -->
+[[Category:Text color templates]]
+}}</includeonly>

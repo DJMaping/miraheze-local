@@ -1,0 +1,50 @@
+/* {{pp-template}} */
+/* Don't split header abbreviations when numbers and screen width are narrow. */
+.abbr-header {
+	white-space: nowrap;
+}
+
+/* Match colors to infobox. */
+.caption-purple {
+	border: 1px #a2a9b1 solid;
+	border-bottom: none;
+	background-color: lavender;
+}
+
+/* Not on dark mode. */
+@media screen {
+    html.skin-theme-clientpref-night .caption-purple { 
+    	background:inherit !important;
+    }
+}
+@media screen and (prefers-color-scheme: dark) {
+	/* automatic mode */
+   html.skin-theme-clientpref-os .caption-purple { 
+    	background:inherit !important;
+    }
+}
+
+/* Table contents styled below. Top border in .caption-purple. */
+.table-pale {
+	border: 1px #a2a9b1 solid;
+	border-top: none;
+	background-color: var(--background-color-neutral-subtle, #f8f9fa);
+	padding:5px;
+}
+
+/*  
+	Mobile handles tables differently. 
+	Caption is within not above the table's box. 
+	These have to cancel out inline CSS rules.
+*/
+@media screen and (max-width:640px) {
+ .table-pale {
+ 	border-top: 1px #a2a9b1 solid !important;
+ 	float:none !important;
+ 	margin:auto !important;
+ }
+ .caption-purple {
+ 	border:none;
+ 	display:block;
+ }
+}

@@ -1,0 +1,38 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Nepal
+| flag alias = Flag of Nepal.svg
+| flag alias-old = Flag of Nepal (1775–1962).svg
+| flag alias-1768 = Flag of Nepal (19th century).svg
+| flag alias-1856 = Flag of Nepal (1856-c.1930).svg
+| flag alias-1930 = Flag of Nepal (1743–1962).svg
+| flag alias-army = Flag of Nepal Army.jpg
+| link alias-army = Nepali Army
+| link alias-air force = Nepalese Army Air Service
+| link alias-military = Nepalese Armed Forces
+| border =
+| size = {{{size|}}}
+| size flag alias = 24x20px
+| size flag alias-old = 24x20px
+| size flag alias-1930 = 24x20px
+| size flag alias-1768 = 24px
+| size flag alias-1856 = 24x20px
+| sizebig flag alias = x27px
+| sizebig flag alias-old = x27px
+| sizebig flag alias-1930 = x27px
+| sizebig flag alias-1768 = x30px
+| sizebig flag alias-1856 = x27px
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = old
+| var2 = 1768
+| var3 = 1856
+| var4 = 1930
+| redir1 = NPL
+| redir2 = NEP
+| redir3 = Federal Democratic Republic of Nepal
+</noinclude>
+}}<noinclude>
+<!-- INTERWIKIS GO TO WIKIDATA, THANK YOU! -->
+</noinclude>

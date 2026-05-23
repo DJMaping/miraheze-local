@@ -1,0 +1,81 @@
+<includeonly>{{Table alignment}}
+{| class="wikitable sortable defaultright col1left"
+|+ Population of the United Kingdom by country ({{UK subdivision statistics year}})<ref>{{UK subdivision statistics citation}}</ref>
+|-
+! Rowspan=2 | Country
+! Colspan=2 | Land area
+! Colspan=2 | Population
+! Rowspan=2 | Density<br/>(/km<sup>2</sup>)
+|-
+! (km<sup>2</sup>)
+! (%)
+! People
+! (%)
+|-
+| England
+<!-- England area -->
+| {{UK subdivision area|GSS=E92000001}}
+<!-- England area percentage -->
+| {{Percentage |{{UK subdivision area|GSS=E92000001|RND=2}} |{{UK subdivision area|GSS=K02000001|RND=2}} }}
+<!-- England population -->
+| {{UK subdivision population|GSS=E92000001}}
+<!-- England population percentage -->
+| {{Percentage |{{UK subdivision population|GSS=E92000001}} |{{UK subdivision population|GSS=K02000001}}
+ }}
+<!-- England density -->
+| {{UK subdivision density|GSS=E92000001}}
+|-
+| Scotland
+<!-- Scotland area -->
+| {{UK subdivision area|GSS=S92000003}}
+<!-- Scotland area percentage -->
+| {{Percentage |{{UK subdivision area|GSS=S92000003|RND=2}} |{{UK subdivision area|GSS=K02000001|RND=2}} }}
+<!-- Scotland population -->
+| {{UK subdivision population|GSS=S92000003}}
+<!-- Scotland population percentage -->
+| {{Percentage |{{UK subdivision population|GSS=S92000003}} |{{UK subdivision population|GSS=K02000001}}
+ }}
+<!-- Scotland density -->
+| {{UK subdivision density|GSS=S92000003}}
+|-
+| Wales
+<!-- Wales area -->
+| {{UK subdivision area|GSS=W92000004}}
+<!-- Wales area percentage -->
+| {{Percentage |{{UK subdivision area|GSS=W92000004|RND=2}} |{{UK subdivision area|GSS=K02000001|RND=2}} }}
+<!-- Wales population -->
+| {{UK subdivision population|GSS=W92000004}}
+<!-- Wales population percentage -->
+| {{Percentage |{{UK subdivision population|GSS=W92000004}} |{{UK subdivision population|GSS=K02000001}}
+ }}
+<!-- Wales density -->
+| {{UK subdivision density|GSS=W92000004}}
+|-
+| Northern Ireland
+<!-- Northern Ireland area -->
+| {{UK subdivision area|GSS=N92000002}}
+<!-- Northern Ireland area percentage -->
+| {{Percentage |{{UK subdivision area|GSS=N92000002|RND=2}} |{{UK subdivision area|GSS=K02000001|RND=2}} }}
+<!-- Northern Ireland population -->
+| {{UK subdivision population|GSS=N92000002}}
+<!-- Northern Ireland population percentage -->
+| {{Percentage |{{UK subdivision population|GSS=N92000002}} |{{UK subdivision population|GSS=K02000001}}
+ }}
+<!-- Northern Ireland density -->
+| {{UK subdivision density|GSS=N92000002}}
+|-
+! style="" | United Kingdom
+<!-- UK area -->
+! style="text-align:right;" | {{UK subdivision area|GSS=K02000001}}
+<!-- UK area percentage -->
+! style="text-align:right;" | 100%
+<!-- UK population -->
+! style="text-align:right;" | {{UK subdivision population|GSS=K02000001}}
+<!-- UK population percentage -->
+! style="text-align:right;" | 100%
+<!-- UK density -->
+! style="text-align:right;" | {{UK subdivision density|GSS=K02000001}}
+|}</includeonly><noinclude>
+{{Documentation|Template:UK population table/doc}}
+[[Category:United Kingdom subdivision templates]]
+</noinclude>

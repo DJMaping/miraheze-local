@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bangladesh
+| flag alias = Flag of Bangladesh.svg
+| flag alias-1971 = Flag of Bangladesh (1971).svg
+| flag alias-naval = Naval Ensign of Bangladesh.svg
+| flag alias-civil = Civil Ensign of Bangladesh.svg
+| flag alias-coast guard=Ensign of the Bangladesh Coast Guard.svg
+| flag alias-army = Flag of the Bangladesh Army.svg
+| flag alias-air force = Air Force Ensign of Bangladesh.svg
+| flag alias-navy = Naval Ensign of Bangladesh.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1971
+| var2 = civil
+| redir1 = BGD
+| redir2 = BAN
+</noinclude>
+}}

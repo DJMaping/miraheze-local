@@ -1,0 +1,112 @@
+-- This module contains configuration data for [[Module:Submit an edit request]].
+
+return {
+
+--------------------------------------------------------------------------------
+-- Messages
+--------------------------------------------------------------------------------
+
+-- The default display value for edit requests.
+['default-display-value'] = 'Submit an edit request',
+
+-- The template that stores the edit request preload text
+['preload-template'] = 'Template:Submit an edit request/preload',
+
+-- The section heading that is generated when a user clicks on an edit request
+-- link. $1 is the protection level text, e.g. "Semi-protected" or
+-- "Template-protected". $2 is the current date, in the format specified by the
+-- "preload-title-date-format" message.
+['preload-title-text'] = '$1 edit request on $2',
+
+-- The date format for the automatically-generated section heading. The format
+-- must be valid input for the #time parser function.
+['preload-title-date-format'] = 'j F Y',
+
+-- What do do with the generated section header if another header with the same section already exists
+-- $1 is the original section header. $2 is an automatically generated number, starting at 2 and increasing
+-- by one until a unique header is found.
+['preload-title-dedup-suffix'] = '$1 ($2)',
+
+-- The names of pages (and their subpages) that make up the content of the main page for this wiki
+['main-page-content'] = {
+	['Wikipedia:Today\'s featured article'] = true,
+	['Template:In the news'] = true,
+	['Template:Did you know'] = true,
+	['Wikipedia:Selected anniversaries'] = true,
+	['Template:POTD protected'] = true,
+	['Wikipedia:Today\'s featured list'] = true
+},
+
+-- The page used to request changes to things on the Main Page.
+['main-page-request-page'] = 'Wikipedia:Main Page/Errors',
+
+-- The page used to request edits to protected talk pages.
+['protected-talk-page-request-page'] = 'Wikipedia:Requests for page protection/Edit',
+
+-- The names of the templates to be used as wrappers for the "link" and "button"
+-- functions. These are passed as arguments to the "wrappers" option of
+-- [[Module:Arguments]].
+['link-wrapper-template'] = 'Template:Submit an edit request/link',
+['button-wrapper-template'] = 'Template:Submit an edit request',
+
+--------------------------------------------------------------------------------
+-- Protection level config
+--------------------------------------------------------------------------------
+
+protectionLevels = {
+
+--[[
+-- These settings are for the different protection levels which the module can
+-- output edit request links for.
+--
+-- editintro:
+-- The template to use as the edit intro users see when they click on an edit
+-- request link.
+--
+-- request-template:
+-- The name of the edit request template for that protection level. Do not
+-- include the "Template:" text.
+--
+-- protectionlevel:
+-- The name of the protection level, used for formatting the automatically-
+-- generated section headings.
+--]]
+
+-- Semi-protection
+semi = {
+	editintro = 'Template:Edit semi-protected/editintro',
+	requestTemplate = 'edit semi-protected',
+	levelText = 'Semi-protected',
+},
+
+-- Extended-confirmed-protection
+extended = {
+	editintro = 'Template:Edit extended-protected/editintro',
+	requestTemplate = 'edit extended-protected',
+	levelText = 'Extended-confirmed-protected',
+},
+
+-- Template-protection
+template = {
+	editintro = 'Template:Edit template-protected/editintro',
+	requestTemplate = 'edit template-protected',
+	levelText = 'Template-protected',
+},
+
+-- Full protection
+full = {
+	editintro = 'Template:Edit fully-protected/editintro',
+	requestTemplate = 'edit fully-protected',
+	levelText = 'Protected',
+},
+
+-- Interface-protection
+interface = {
+	editintro = 'Template:Edit interface-protected/editintro',
+	requestTemplate = 'edit interface-protected',
+	levelText = 'Interface-protected',
+},
+
+}
+
+}

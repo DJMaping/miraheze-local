@@ -1,0 +1,26 @@
+{{safesubst:<noinclude/>#switch:
+  <!--If no or empty "page" parameter then detect
+      basepage/subpage/subsubpage-->
+  {{safesubst:<noinclude/>#if:{{{page|}}}
+  | {{safesubst:<noinclude/>#if:{{safesubst:<noinclude/>#titleparts:{{{page}}}|0|3}}
+    | subsubpage    <noinclude><!-- Subsubpage or lower --></noinclude>
+    | {{safesubst:<noinclude/>#if:{{safesubst:<noinclude/>#titleparts:{{{page}}}|0|2}}
+      | subpage
+      | basepage
+      }}
+    }}
+  | {{safesubst:<noinclude/>#if:{{safesubst:<noinclude/>#titleparts:{{safesubst:<noinclude/>FULLPAGENAME}}|0|3}}
+    | subsubpage    <noinclude><!-- Subsubpage or lower --></noinclude>
+    | {{safesubst:<noinclude/>#if:{{safesubst:<noinclude/>#titleparts:{{safesubst:<noinclude/>FULLPAGENAME}}|0|2}}
+      | subpage
+      | basepage
+      }}
+    }}
+  }}
+
+| basepage   = {{{1|}}}
+| subpage    = {{{2|}}}
+| subsubpage = {{{3| {{{2|}}} }}}   <noinclude><!-- Respecting empty parameter on purpose --></noinclude>
+}}<noinclude><!-- End switch -->
+{{Documentation}}
+</noinclude>

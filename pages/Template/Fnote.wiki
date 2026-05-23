@@ -1,0 +1,3 @@
+[[Help:Footnotes|{{#ifeq:{{{lc}}}|{{{lc|}}}|footnotes|Footnotes}}]]<noinclude>
+{{Documentation}}
+</noinclude>

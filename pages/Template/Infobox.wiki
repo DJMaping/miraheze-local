@@ -1,0 +1,13 @@
+{{#invoke:Infobox|infobox}}<includeonly>{{template other|{{#ifeq:{{PAGENAME}}|Infobox||{{#ifeq:{{str left|{{SUBPAGENAME}}|7}}|Infobox|[[Category:Infobox templates|{{remove first word|{{SUBPAGENAME}}}}]]}}}}|}}</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go in the /doc subpage, and interwikis go in Wikidata. -->
+</noinclude>
+
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

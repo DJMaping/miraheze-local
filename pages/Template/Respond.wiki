@@ -1,0 +1,31 @@
+<includeonly><span class="nowrap">[[File:{{{{{|safesubst:}}}#switch:{{{1|{{{icon|}}}}}}
+|blackcheck = Black check.svg{{!}}class=skin-invert
+|bluebrokenplus = Symbol unsupport2 vote.svg
+|bluecheck2 = Cornflower blue check.svg
+|bluecheck = Artículo bueno-blue.svg
+|blueclock = Pictogram voting wait blue.svg
+|blueplus = Symbol support2 vote.svg
+|deferred = Symbol deferred.svg
+|greencheck2 = Yes check.svg
+|greencheck = Symbol confirmed.svg
+|greenclock = Pictogram voting wait green.svg
+|greenplus = Symbol support vote.svg
+|greybrokenplus = Symbol unsupport vote.svg
+|greyexclamation = Pictogram voting comment.svg
+|info=Symbol information vote.svg
+|minus = Symbol declined.svg
+|neutral = Symbol neutral vote.svg
+|orangeclock = Pictogram voting wait orange.svg
+|orangeexclamation = Ambox important.svg
+|redexclamation = Ambox important red.svg
+|pinkclock = Pictogram voting wait pink.svg
+|question2 = Symbol question.svg
+|question = Pictogram voting question.svg
+|wait = Symbol_wait.svg
+|xmark2 = X mark.svg
+|xmark = Symbol unrelated.svg
+|yellowcheck = Yellow check.svg
+|yellowclock = Pictogram voting wait.svg
+|{{{1|{{{icon|Pictogram voting question.svg}}}}}}}}|{{{size|18px}}}|alt={{{alt|}}}]] <b>{{{2|{{{text|Response}}}}}}</b></span></includeonly><noinclude>
+{{Documentation}}
+</noinclude>

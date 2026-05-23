@@ -1,0 +1,8 @@
+{{#switch:{{{label|}}}
+ |=[https://bambots.brucemyers.com/TemplateParam.php?wiki=enwiki&template={{Urlencode:{{#if:{{{1|}}}|{{ROOTPAGENAME:{{{1|}}}}}|{{ROOTPAGENAME}}}}}} {{#ifeq:{{yesno-no|{{{lc}}}}}|no|S|s}}ee a monthly parameter usage report] for {{#if:{{{1|}}}|[[Template:{{ROOTPAGENAME:{{{1|}}}}}]]|this template}} in articles{{#ifeq:{{yesno-no|{{{based}}}}}|yes|&#32;based on {{#if:{{{1|}}}|its|this}} TemplateData}}.
+ |None|none=[https://bambots.brucemyers.com/TemplateParam.php?wiki=enwiki&template={{Urlencode:{{#if:{{{1|}}}|{{ROOTPAGENAME:{{{1|}}}}}|{{ROOTPAGENAME}}}}}} {{#ifeq:{{yesno-no|{{{lc}}}}}|no|P|p}}arameter usage report]{{#ifeq:{{yesno-no|{{{based}}}}}|yes|&#32;based on {{#if:{{{1|}}}|its|this}} TemplateData}}
+ |for|For=[https://bambots.brucemyers.com/TemplateParam.php?wiki=enwiki&template={{Urlencode:{{#if:{{{1|}}}|{{ROOTPAGENAME:{{{1|}}}}}|{{ROOTPAGENAME}}}}}} {{#ifeq:{{yesno-no|{{{lc}}}}}|no|P|p}}arameter usage report] for {{#if:{{{1|}}}|[[Template:{{ROOTPAGENAME:{{{1|}}}}}]]|[[Template:{{ROOTPAGENAME}}]]}}{{#ifeq:{{yesno-no|{{{based}}}}}|yes|&#32;based on {{#if:{{{1|}}}|its|this}} TemplateData}}.
+ |#default=[https://bambots.brucemyers.com/TemplateParam.php?wiki=enwiki&template={{Urlencode:{{#if:{{{1|}}}|{{ROOTPAGENAME:{{{1|}}}}}|{{ROOTPAGENAME}}}}}} {{{label|}}}]{{#ifeq:{{yesno-no|{{{based}}}}}|yes|&#32;based on {{#if:{{{1|}}}|its|this}} TemplateData}}
+}}<noinclude>
+{{documentation}}
+</noinclude>

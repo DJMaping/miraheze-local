@@ -1,0 +1,95 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{csdoc|lua}}
+For [[MOS:CONSISTENT|consistency]] within articles, this template sets certain parameters for all [[WP:CS1|CS1]] and [[WP:CS2|CS2]] [[Wikipedia:Citing sources|reference citation]] templates on a page.<ref name="covered-templates" /> [[Module:Citation/CS1]] generates widely-used [[Wikipedia:Citation templates|citation templates]] like {{tl|cite book}}, {{tl|cite journal}}, and {{tl|cite web}}. This Module checks the article for {{tl|CS1 config}}.  When found, Module:Citation/CS1 extracts the settings parameters and their assigned values and applies those settings to all CS1 and CS2 templates in the article.<ref>The CS1 config template produces no output of its own.</ref> This provides stylistic consistency in the rendered output without editing every template in the article. For example, instead of adding {{para|mode|cs1}} to each {{tl|Citation}} template on a page using mostly CS1 templates, <code><nowiki>{{CS1 config|mode=cs1}}</nowiki></code> can be added once to the article and will have the same effect.
+
+==Usage==
+Determine which of the available settings are desired and place this template in the article.  For editor convenience, this template should be placed adjacent to {{tlx|use dmy dates}} or {{tlx|use mdy dates}} (if present, see [[MOS:ORDER]] for further details).
+
+As an example, if you want all cs1|2 templates in the article to render as if they were {{tld|citation}} templates (cs2) and to have all namelists in these templates include an ampersand between the last two names in each list, you might write:
+:<code><nowiki>{{cs1 config |name-list-style=amp |mode=cs2}}</nowiki></code>
+
+==Settings parameters==
+{{tld|CS1 config}} supports these settings parameters:
+
+{| class="wikitable"
+|+ Supported settings parameters
+|-
+! Parameters !! Acceptable values
+|-
+| {{para|display-authors}} || rowspan="5" | numeric values only
+|-
+| {{para|display-contributors}}
+|-
+| {{para|display-editors}}
+|-
+| {{para|display-interviewers}}
+|-
+| {{para|display-translators}}
+|-
+| {{para|mode}} || <code>cs1</code>, <code>cs2</code>
+|-
+| {{para|name-list-style}} || <code>amp</code>, <code>ampersand</code>, <code>and</code>, <code>&</code>, <code>serial</code>, <code>vanc</code>
+|}
+
+== Mode==
+The commonly-used citation templates on Wikipedia have two style modes.<ref name="covered-templates">This covers all templates that directly invoke [[Module:Citation/CS1]], including the CS1 templates {{tl|cite web}}, {{tl|cite news}}, {{tl|cite book}}, {{tl|cite journal}}, {{tl|cite magazine}}, and so on. It includes the general purpose CS2 template {{tl|Citation}}. It also includes templates are wrappers for these templates like {{tl|cite CE1913}}, {{tl|cite Google Maps}}, {{tl|cite tweet}}, or {{tl|cite ADB}}. There are some templates with "cite xxx" names, like {{tl|cite patent}}, that are technically unrelated, do not invoke Module:Citation/CS1, and will be unaffected by any parameters of {{tl|cs1 config}}.</ref> These modes change how the citation is punctuated when it's rendered. Use {{para|mode|cs1}} to choose [[Help:Citation Style 1|Citation Style 1]]. CS1 primarily uses a [[full stop]] to separate elements. Use {{para|mode|cs2}} to choose [[Help:Citation Style 2|Citation Style 2]]. CS2 primarily uses the comma as a separator.
+
+=== CS1 ===
+{{para|mode|cs1}}
+
+* {{xt|{{cite book |mode=cs1 |last=Bloggs |first=Joe |author-link=Joe Bloggs |date=1974 |title=Book of Bloggs}}}}
+* Full stops, also known as periods, separate the individual elements of the rendered citation. 
+* A full stop comes at the end of the rendered citation.
+
+=== CS2 ===
+{{para|mode|cs2}}
+
+* {{xt|{{cite book |mode=cs2 |last=Bloggs |first=Joe |author-link=Joe Bloggs |date=1974 |title=Book of Bloggs}}}}
+* Commas separate the individual elements of the rendered citation. 
+* No terminal punctuation comes at the end of the rendered citation.
+
+If a template [[Module:Template wrapper/doc|wraps]] another citation template and sets its mode, then it should use [[Module:Citation mode]] to obey {{para|mode}}. See {{tl|cite gnis2}} for an example.
+
+== Name list style ==
+Use {{para|name-list-style}} to change how the list of authors is formatted.
+
+=== Ampersand ===
+{{para|name-list-style|amp}}, {{para|name-list-style|ampersand}}, or {{para|name-list-style|&}}
+
+* {{xt|{{cite book |name-list-style=amp |last1=Bloggs |first1=Joe |author-link1=Joe Bloggs |last2=Smith |first2=John |last3=Smythe |first3=Jim |title=1000 Acres |date=1990}}}}
+* Inserts an ampersand ({{xt|&}}) between the last two names in a name list when there are multiple authors.
+
+=== Conjunction "and" ===
+{{para|name-list-style|and}} or {{para|name-list-style|serial}}
+
+* {{xt|{{cite book |name-list-style=and |last1=Bloggs |first1=Joe |author-link1=Joe Bloggs |last2=Smith |first2=John |last3=Smythe |first3=Jim |title=1000 Acres |date=1990}}}}
+* Inserts the conjunction "{{xt|and}}" between the last two names of a name list when there are multiple authors.
+
+=== Vancouver style ===
+{{para|name-list-style|vanc}}
+
+* {{xt|{{cite book |name-list-style=vanc |last1=Bloggs |first1=Joe |author-link1=Joe Bloggs |last2=Smith |first2=John |last3=Smythe |first3=Jim |title=1000 Acres |date=1990}}}}
+* Abbreviates first names as done in the [[Vancouver system|Vancouver style]].
+* Uses neither an ampersand nor the conjunction "and".
+* Only applies when using the separate {{para|first}} type parameters for first names.
+* Vancouver style [[Help:CS1_errors#vancouver|restricts author or editor names to the Latin alphabet]].
+
+==Caveats==
+None of the {{para|display-authors}}, {{para|display-contributors}}, {{para|display-editors}}, {{para|display-interviewers}}, and {{para|display-translators}} will accept the <code>etal</code> keyword.  Were they to do so, 'et al.' would be attached to every name list that correctly has only one name.  For example, we do not want 'Darwin, Charles; et al.' for ''[[On the Origin of Species]]'' because there are no other authors whose names have been omitted.
+
+When {{tld|CS1 config}} has a setting parameter that matches a setting parameter in a cs1|2 template (regardless of the assigned values), Module:Citation/CS1 will add a {{color|#3a3|CS1 maint: overridden setting}} message and [[:Category:CS1 maint: overridden setting|category]]. CS1 templates which set a default {{para|mode}} in the Template [[WP:namespace|namespace]] should do so with [[Module:Citation mode]] so that the default may be overridden by {{tl|CS1 config}} without producing this error.
+
+This template is ignored when used in the Template namespace.
+
+==Error handling==
+For technical reasons, errors occurring in this template ({{para|display-authors|etal}} for example) cannot be annotated.  When such errors occur, Module:Citation/CS1 ignores the malformed setting.
+
+== Notes ==
+<references/>
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Templates with no visible output]]
+}}</includeonly>

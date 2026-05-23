@@ -1,0 +1,6 @@
+<templatestyles src="Stack/styles.css"/><div class="stack mw-stack {{#switch:{{{float|right}}}|left=stack-{{#switch:{{{margin|}}}|1|true|y|yes=margin-}}{{#switch:{{{clear|}}}|left|true=clear-}}left|right=stack-{{#switch:{{{margin|}}}|1|true|y|yes=margin-}}{{#switch:{{{clear|}}}|right|true=clear-}}right}}"><!--
+--><div {{#if:{{{cellspacing|}}}|style="margin: {{{cellspacing}}}px"}}><!--
+-->{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using stack with unknown parameters|_VALUE_{{PAGENAME}}]]|preview=Page using [[Template:Stack begin]] with unknown parameter "_VALUE_"|ignoreblank=y| cellspacing | clear | float | margin }}<noinclude>
+{{stack end}}
+{{documentation}}
+</noinclude>

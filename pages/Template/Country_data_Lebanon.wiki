@@ -1,0 +1,31 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Lebanon
+| flag alias = Flag of Lebanon.svg
+| flag alias-air force = Flag of the Lebanese Air Force.svg
+| link alias-air force = Lebanese Air Force
+| flag alias-army = Flag of the Lebanese Armed Forces (Front).svg
+| link alias-army = Lebanese Ground Forces
+| flag alias-navy = Drapeau de Forces Navales Libanaises.jpg
+| link alias-navy = Lebanese Navy
+| flag alias-naval = Naval Jack of Lebanon.svg
+| link alias-naval = Lebanese Navy
+| flag alias-1918 = Flag of Lebanon (1918-1920).svg
+| flag alias-1920 = Flag of Lebanon (1920-1943).svg
+| flag alias-1920a = Flag of the French Mandate of Syria (1920).svg
+| flag alias-1920b = Lebanese French flag.svg
+| flag alias-1943 = Flag of Lebanon (1943-1990).svg 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = 1918
+| var2 = 1920
+| var3 = 1920a
+| var4 = 1920b
+| var5 = 1943
+| redir1 = LBN
+| redir2 = LIB
+| related1 = Greater Lebanon
+</noinclude>
+}}

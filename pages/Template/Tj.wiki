@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Template journal]]
+
+{{Redirect category shell|
+{{R from move}}
+}}

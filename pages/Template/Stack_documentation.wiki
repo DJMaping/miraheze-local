@@ -1,0 +1,240 @@
+<noinclude>
+{{ombox |text=This template serves as the shared documentation for {{tl|Stack}}, {{tl|Stack begin}}, and {{tl|Stack end}}.}}
+</noinclude>
+This template can be used to stack images and other floating content such as infobox templates without causing problems with spacing and floating. Enter a string of images/templates as the first parameter to have them stack without generating floating errors or spacing errors. You can stack many objects from the top of a section and not force further subsections to space out.
+
+{{TOClimit|3}}
+
+== Usage ==
+
+At its simplest:
+<syntaxhighlight lang="wikitext">
+{{stack|<objects>}}
+</syntaxhighlight>
+
+Alternatively, using {{tld|stack begin}} and {{tld|stack end}}:
+<syntaxhighlight lang="wikitext">
+{{stack begin}}
+<objects>
+{{stack end}}
+</syntaxhighlight>
+
+The <code><object></code> may simply be a string of wikicode for many images/templates.
+
+===Optional parameters===
+<syntaxhighlight lang="wikitext">
+{{stack| <object(s)> | float=left or right | clear=true or false | margin=true or false}}
+</syntaxhighlight>
+or
+<syntaxhighlight lang="wikitext">
+{{stack begin | float=left or right | clear=true or false | margin=true or false}}
+</syntaxhighlight>
+where
+*float= ''left'' or ''right'' (default is '''right''')
+*: This option can be used to float the stack to the left or right of the page
+*clear= ''true'' or ''false'' (default is '''false''')
+*: This option can be used to force the stack to the far left or right (e.g., near an infobox).
+*margin= ''true'' or ''false'' (default is '''false''')
+*: This option can be used to add a 1em margin to the left (for float right) or right (for float left).
+
+You can also explicitly list multiple arguments:
+<syntaxhighlight lang="wikitext">
+{{stack| float=left or right | clear=true or false | margin=true or false
+|1=<object(s)>
+|2=<object(s)>, etc. up to 9 parameters in the current version
+}}
+</syntaxhighlight>
+* This multiple argument version does include extra vertical whitespace between each (set of) <code><object(s)></code>.
+
+== Examples ==
+<!--
+
+-->To illustrate the utility of the stack templates, consider the following situation.  We would like to have two right floating images at the top of the first section of our article (here, the ''Lipsum'' section), and one left floating image at the top of the second section (here, the ''Lorem'' section).  To achieve this layout, without using a stack template, we could try the following code:<!--
+
+--><syntaxhighlight lang="wikitext">
+=====''Lipsum''=====
+[[File:Simple shapes example.png|thumb|right|Example 1a]]
+[[File:Simple shapes example.png|thumb|right|Example 1b]]
+... text ...
+
+=====''Lorem''=====
+[[File:Simple shapes example.png|thumb|left|Example 1c]]
+... text ...
+
+=====''Ipsum''=====
+... text ...
+</syntaxhighlight><!--
+
+-->The result of this is shown in the ''[[#Without stack|without stack]]'' section below.  Notice how the left floating image (Example 1c) is prevented from floating above the last right floating image (Example 1b).  You may need to resize the width of your browser to fully appreciate the issue.  To fix this problem, we can stack the two right floating images together, using the following code:<!--
+
+--><syntaxhighlight lang="wikitext">
+=====''Lipsum''=====
+{{stack |[[File:Simple shapes example.png|thumb|right|Example 2a]] [[File:Simple shapes example.png|thumb|right|Example 2b]]}}
+... text ...
+
+=====''Lorem''=====
+[[File:Simple shapes example.png|thumb|left|Example 2c]]
+... text ...
+
+=====''Ipsum''=====
+... text ...
+</syntaxhighlight><!--
+
+-->The result of this is shown in the ''[[#With stack|with stack]]'' section below.  Notice how by adding this stack template, the left floating image (Example 2c) can now float higher and is not blocked from floating higher than the top of the last right floating image (Example 2b).
+{{clear}}
+
+{{anchor|Without stack}}
+====Without {{tlf|stack}}====
+=====''Lipsum''=====
+[[File:Simple shapes example.png|thumb|right|Example 1a]]
+[[File:Simple shapes example.png|thumb|right|Example 1b]]
+{{Str left|{{Lorem ipsum span}}|124}}
+
+=====''Lorem''=====
+[[File:Simple shapes example.png|thumb|left|Example 1c]]
+{{lipsum}}
+
+=====''Ipsum''=====
+{{lipsum}}
+
+{{lipsum}}
+{{clear}}
+
+{{anchor|With stack}}
+====With {{tlf|stack}}====
+----
+=====''Lipsum''=====
+{{stack|[[File:Simple shapes example.png|thumb|right|Example 2a]] [[File:Simple shapes example.png|thumb|right|Example 2b]]}}
+{{Str left|{{Lorem ipsum span}}|124}}
+
+=====''Lorem''=====
+[[File:Simple shapes example.png|thumb|left |Example 2c]]
+{{lipsum}}
+
+=====''Ipsum''=====
+{{lipsum}}
+
+{{lipsum}}
+{{clear}}
+
+====With {{tlf|stack begin}} and {{tlf|stack end}}====
+=====''Lipsum'' with second table wider=====
+{{stack begin}}
+{| class="wikitable"
+! Sample table 1 
+|-
+| Example 1a 
+|-
+| Example 1b 
+|-
+|}
+{| class="wikitable"
+! Sample wider table 2 
+|-
+|Example 2a 
+|-
+|Example 2b 
+|-
+|}
+{{stack end}}
+{{lipsum}}
+
+=====''Lorem''=====
+{| style="background:whitesmoke;"
+! Sample table 3 
+|-
+| Example 3a 
+|-
+|}
+{{lipsum}}
+
+=====''Ipsum''=====
+{{lipsum}}
+
+{{lipsum}}
+{{clear}}
+
+=====''Lipsum'' with first table wider=====
+{{stack begin}}
+{| class="wikitable"
+! Sample wider table 1 
+|-
+| Example 1a 
+|-
+| Example 1b 
+|-
+|}
+{| class="wikitable"
+! Sample table 2 
+|-
+| Example 2a 
+|-
+| Example 2b 
+|-
+|}
+{{stack end}}
+{{lipsum}}
+
+=====''Lorem''=====
+{| style="background:whitesmoke;"
+! Sample table 3 
+|-
+| Example 3a 
+|-
+|}
+{{lipsum}}
+
+=====''Ipsum''=====
+{{lipsum}}
+
+{{lipsum}}
+{{clear}}
+
+===More examples===
+{{tlf|Stack}} can also be used to float one or more images across a page.
+{{stack |[[File:Simple shapes example.png|80px]]}}
+{{stack |[[File:Simple shapes example.png|120px]]}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{stack|[[File:Simple shapes example.png|80px]]}}
+{{stack|[[File:Simple shapes example.png|120px]]}}
+</syntaxhighlight>
+It might take some experience to learn how the box area floats, in combination with various images or [[WP:Wikitables|wikitables]] on a page. {{tlf|Stack}}'s operation is very quick, as it uses an [[HTML]] &lt;table> to achieve its effects.
+
+===Floating portal boxes===
+{{tlf|Stack}} can be used to float a portal box beside an infobox (or other right-aligned item) when other methods might not work as anticipated.
+{{infobox
+|label1=Infobox
+|data1=line 1 <br />line 2 <br />line 3 <br />line 4 <br />line 5 <br />line 6 <br />line 7 <br />line 8 <br />line 9
+}}
+[[File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg|thumb|right|60px|Test image]]
+{| class="wikitable"
+|style="width:33.0em<!--(was 420px)-->;"|
+This is a wikitable serving as a typical left-aligned table. The overlap on left-aligned tables had been a frequent problem when other boxes nearby were set to "float:right". So this is a test of how well a floating portal-box would avoid overlapping onto a left-side table.
+|}
+{{stack |{{portal|Animals}}{{portal|Cats}}}}
+
+The example here uses {{tld|stack}} to float two portal boxes (Animals, Cats) as follows:
+{{clear}}<syntaxhighlight lang="wikitext">
+{{stack |{{portal|Animals}}{{portal|Cats}} }}
+</syntaxhighlight>
+The two portal-boxes are stacked and floated together by both being listed as {{tld|stack}}'s (first) parameter. Because the infobox and image were also stacked together, {{tld|stack}} moved the two portal-boxes alongside the infobox despite being after the image.
+
+Normally, a portal-box would be stuck below the Mona Lisa image, causing this entire text section to format further below, and causing a large text-gap of empty whitespace to appear near the infobox. There is no limit to the number of portalboxes (or Commonscat boxes) which can be listed within a {{tld|stack}} call, such as in a stub or an article with many stacked images near the bottom. Using {{tld|stack}} is extremely efficient, due to being a short template which uses builtin tag &lt;table> to float the boxes.
+
+== Stack template family ==
+* {{tl|Stack}}
+* {{tl|Stack begin}}
+* {{tl|Stack end}}
+
+== Tracking category ==
+* {{clc|Pages using stack with unknown parameters}}
+== See also ==
+* {{Tl|Gallery}}, providing both vertical and horizontal layouts for multiple images; the images will be rearranged (flow) according to the other elements on the page and the width of the browser window.
+* {{Tl|Multiple image}}, providing both vertical and horizontal layouts for multiple images.
+* {{Tl|Superimpose}}, which places one image over another.
+* {{Tl|Superimpose2}}, which can place up to fifty image layers over one another.
+* [[Wikipedia:Extended image syntax#The many-floating-objects problem]]
+
+<noinclude>
+[[Category:Documentation shared content templates]]
+</noinclude>

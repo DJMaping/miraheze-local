@@ -1,0 +1,72 @@
+{{#if:{{{status_text|}}} |{{{status_text}}} |{{#switch:{{ucfirst:{{{status|}}}}}
+    |Empire=<!--Empire-->
+    |Nomadic empire|Nomadic Empire=[[Nomadic empire]]
+    |Ancient Chinese state |Ancient Chinese State=[[Ancient Chinese state]]
+    |Federation |Federal=<!--Federation-->
+    |Confederation=<!--Confederation-->
+    |State union |State Union |Union=<!--State union-->
+    |Special |Special territory=<!--Special territory-->
+    |Unrecognized state |Unrecognised state |Unrecognized State |Unrecognised State
+    |Unrecognized |Unrecognised=[[List of states with limited recognition|Unrecognized state]]
+    |City-state |City-State |City state |City State
+    |City={{#if:{{{empire|}}}
+              | {{#switch:{{{empire|}}} |Holy Roman Empire |HRE=[[Free Imperial City]] of the [[Holy Roman Empire]] {{#if:{{{year_end|}}}|{{#ifexpr:{{{year_end}}}>1806|<br/>(until 1806)}}|}} |#default=City-state {{#if:{{{empire|}}}|of [[{{{empire}}}]]|}} }}
+              |<!--City-state-->
+             }}
+    |Commonwealth realm |Commonwealth Realm=[[Commonwealth Realm]]
+    |League of Nations Mandate |League of Nations
+    |Mandate={{#if:{{{empire|}}}
+                 | [[League of Nations mandate|Mandate]] of&nbsp;{{#switch:{{{empire}}} |United Kingdom |UK=the [[United Kingdom]] |#default={{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}} }}
+                 | [[League of Nations mandate]]
+                }}
+    |United Nations Trust Territory| UN Trust Territory
+    |Trust Territory=[[United Nations Trust Territories|Trust Territory]]<!--
+                          -->{{#if:{{{empire|}}} |&nbsp;of&nbsp;{{#switch:{{{empire}}} |United Kingdom |UK=the [[United Kingdom]] |United States |US |USA=the [[United States]] |#default={{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}} }} }}
+    |Protectorate=Protectorate of&nbsp;<!--
+                     -->{{#if:{{{empire|}}}
+                         |{{#switch:{{{empire}}} 
+                            |United Kingdom |UK=the [[United Kingdom]] 
+                            |United States |US |USA=the [[United States]] |#default={{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}} 
+                            }}
+                         |whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+                        }}
+    |Client |Client state |Client State |Puppet |Puppet-state
+    |Puppet state={{#if:{{{empire|}}}
+                      | {{#switch:{{{empire}}} |First French Empire |France=[[French client republic|Client]] of the [[First French Empire]] |#default=[[Puppet state]] of {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}} }}
+                      | Puppet state ''of whom?'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+                     }}
+    |Vassal={{#switch:{{{empire|}}} |Holy Roman Empire |HRE=[[States of the Holy Roman Empire|State]] of the [[Holy Roman Empire]] {{#if:{{{year_end|}}}|{{#ifexpr:{{{year_end}}}>1806|(until 1806)}}|}} |#default=Vassal{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;''of whom?'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}} }}
+    |Fief={{#switch:{{{empire|}}} |#default=Fief{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;''of whom?'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}} }}
+    |Abbey={{#switch:{{{empire|}}} |Holy Roman Empire |HRE=[[Imperial Abbey]] of the [[Holy Roman Empire]] {{Main other|[[Category:Imperial abbeys|{{{common_name}}}]]}} |#default=Abbey{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;''of whom?'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}} }}
+    |Satellite state |Satellite State
+    |Satellite= Satellite state of the [[Soviet Union]]
+    |Colony={{#switch:{{ucfirst:{{{empire}}}}}
+             |United Kingdom |UK |British Empire |Britain=[[Territorial evolution of the British Empire|British colony]]
+             |England=[[English overseas possessions|English colony]]
+             |France |First French Empire| French Empire=[[French colonial empire|French colony]]
+             |NL |Netherlands |The Netherlands=[[Dutch Empire|Dutch colony]]
+             |Belgium=[[Belgian colonial empire|Belgian colony]]
+             |Spain |Spanish Empire=[[Spanish Empire|Spanish colony]]
+             |Portugal=[[Portuguese Empire|Portuguese colony]]
+             |Germany |German Empire=[[German colonial empire|German colony]]
+             |Italy=[[Italian Empire|Italian colony]]
+             |Sweden=[[Swedish overseas colonies|Swedish colony]]
+             |Denmark=[[Danish colonial empire|Danish colony]]
+             |Norway=[[Norwegian Empire|Norwegian colony]]
+             |Russia=[[Russian Empire|Russian colony]]
+             |Japan=[[Empire of Japan|Japanese colony]]
+             |#default=Colony ({{#if:{{{empire|}}} |{{{empire}}}) |''of whom?'') {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}} }}
+            }}
+    |Provisional Government |Provisional government
+    |Provisional=[[Provisional government]]
+    |Exiled Government |Exiled government
+    |Exile={{#if:{{{year_exile_start|}}}
+            | [[Government in exile|In exile]] {{#if:{{{year_exile_end|}}} |({{{year_exile_start}}}{{spaced ndash}}{{{year_exile_end}}}) |since {{{year_exile_start}}} }}
+            | [[Government in exile]]
+           }}
+    |#default={{{status}}}
+   }} 
+}}<noinclude>
+{{documentation|content=
+This subtemplate is used to simplify the code of {{tl|infobox country}}.  It should not be used directly.
+}}</noinclude>

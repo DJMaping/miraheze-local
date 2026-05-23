@@ -1,0 +1,43 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Argentina
+| flag alias = Flag of Argentina.svg
+| flag alias-alt  = Flag of Argentina (civil).svg
+| flag alias-1812 = Flag of Belgrano (1812).svg
+| flag alias-1816 = Flag of Argentina (civil).svg
+| flag alias-1818 = Flag of Argentina.svg
+| flag alias-1819 = Flag of Argentina (1818).svg
+| flag alias-1820 = Flag of Argentina.svg
+| flag alias-1829 = Flag of Liga Federal.svg
+| flag alias-1835 = Flag of Argentina (1840).svg
+| flag alias-1850 = Flag of the Argentine Confederation.svg
+| flag alias-1861 = Flag of Argentina (1818–1819, 1820–1829, 1861–2010).svg
+| link alias-naval = {{#ifeq:{{{variant|}}}|coast guard|Argentine Naval Prefecture|Argentine Navy}}
+| link alias-coast guard = Argentine Naval Prefecture
+| flag alias-marines = Naval Jack of Argentina.svg
+| link alias-marines = Argentine Naval Infantry Command
+| link alias-air force = Argentine Air Force
+| flag alias-army = Flag of Argentina (3-2).svg
+| link alias-army = Argentine Army
+| flag alias-navy = Flag of Argentina.svg
+| link alias-navy = Argentine Navy
+| {{#ifeq:{{{altlink}}}|A national rugby union team|link alias-rugby union|empty}} = Argentina XV national rugby union team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = alt
+| var2 = 1812
+| var3 = 1816
+| var4 = 1818
+| var5 = 1819
+| var6 = 1820
+| var7 = 1829
+| var8 = 1835
+| var9 = 1850
+| var10 = 1861
+| redir1 = ARG
+| related1 = Argentine Confederation
+</noinclude>
+}}

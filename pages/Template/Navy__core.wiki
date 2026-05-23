@@ -1,0 +1,6 @@
+<span class="flagicon">[[File:{{{flag alias-navy-{{{variant}}}|{{{flag alias-{{{variant}}}|{{{flag alias-navy|{{{flag alias}}}}}}}}}}}}|{{#if:{{{size|}}}|{{{size}}}|{{{size flag alias-navy-{{{variant}}}|{{#if:{{{flag alias-navy-{{{variant}}}|}}}|23x20px|{{{size flag alias-{{{variant}}}|{{#if:{{{variant|}}}|23x20px|{{{size flag alias-navy|{{#if:{{{flag alias-navy|}}}|23x20px|{{{size flag alias|23x20px}}}}}}}}}}}}}}}}}}}}|{{{border-navy-{{{variant}}}|{{{border-{{{variant}}}|{{{border-navy|{{{border|border}}}}}}}}}}}} |alt=|link=]]&nbsp;</span>{{#if: {{{name|}}}
+ |[[{{{link alias-navy|{{{shortname alias|{{{alias}}}}}} Navy}}}|{{{name}}}]]
+ |[[{{{link alias-navy|{{{shortname alias|{{{alias}}}}}} Navy}}}]]
+}}<noinclude>
+{{Documentation}}
+</noinclude>

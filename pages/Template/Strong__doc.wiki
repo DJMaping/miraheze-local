@@ -1,0 +1,60 @@
+{{Documentation subpage}}
+{{used in system}}
+<!-- PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE -->
+
+This template marks text as {{strong|important, serious, or urgent}} using the HTML {{tag|strong|o|link=yes}} tag. It usually renders in bold, but there is additional significance explained in {{slink||Purpose}}.
+
+== Purpose ==
+{{tlx|strong}} makes it faster and easier to apply the {{tag|strong|link=yes}} [[HTML element]] to text, which indicates {{strong|importance, seriousness, or urgency}}. More importantly, this template indicates to human editors and [[Wikipedia:Bots|Wikipedia bot]]s they should not use <code><nowiki>'''...'''</nowiki></code> or {{tag|b}} typographic boldfacing to replace the intentional and [[Semantic Web|semantically meaningful]] {{tag|strong|open}}.  The {{tag|strong|o}} element is usually rendered visually in a bold (heavy) typeface by default on graphical browsers, but can be parsed and acted upon in customizable ways with [[Style sheet (web development)|style sheets]], [[Application software|apps]], and text-to-speech [[screen reader]]s. It is [[semantic markup]], i.e. markup that conveys meaning or context, not just visual appearance.
+
+[[MOS:BOLD|Simple boldfacing]] (<code><nowiki>'''</nowiki></code> or {{tag|b|o}}) is purely typographic and is semantically meaningless. It is most often used for [[MOS:BOLDTITLE|article names in body text]], but has [[MOS:BOLD#OTHER|a few other uses]].  The average reader and average editor may be unaware of this distinction as it is unimportant most of the time, but editors who understand it can use this template as a baseline insurance against accidental replacement by bots and human editors, as well as to add [[web accessibility]].
+
+== Usage ==
+
+:{{tlnull|strong|<var>important text</var>}}
+
+or, if the important text contains an equals sign:
+:{{tlnull|strong|'''1{{=}}'''<var>important text</var>}}
+
+These both render as:
+:{{strong|important text}}
+
+It is safest to always use the {{para|1}} syntax.
+
+===Optional parameters===
+Advanced HTML values can be passed through the template to the HTML code:
+* {{para|role}} takes a WAI-ARIA role; adds <code>role="<var>rolename</var>"</code> to the HTML code
+* {{para|class}} takes a class name (or multiple class names, separated by spaces); adds <code>class="<var>classname[s]</var>"</code> to the HTML code
+* {{para|style}} takes inline CSS input; adds <code>style="<var>CSS directive[s]</var>"</code> to the HTML code
+* {{para|id}} takes a valid, unique HTML id (must begin with an alphabetic letter); adds <code>id="<var>name</var>"</code> to the HTML code
+* {{para|title}} takes text and displays it as a pop-up "tooltip" when the cursor hovers over the {{tnull|strong}} span. This text cannot be marked up in any way.
+
+===Use cases===
+{{more|Wikipedia:WikiProject Usability/Scannability}}
+This template is made to mark important words or phrases in a text, in a way that is (unlike simply boldfacing it) [[Semantic markup|semantically meaningful markup]]. With this technique, the important text strongly stands out from the rest in most if not all visual browsers and some text-to-speech screen readers (which usually ignore purely typographic boldfacing), and can also be parsed by user agents and other software as definitively indicating importance, not just some typographic boldface effect for appearance's sake. It should therefore only be used very sparingly in articles to highlight the most important words or phrases in the entire article (and, rarely in encyclopedic writing, to represent relative importance). Use of this template has a strong effect on {{Linktext|scannability}}, drawing the eye from elsewhere on the page to words marked up with the template.
+
+Typical uses on Wikipedia:
+# In the [[MOS:BOLDTITLE|lead section of an article, the article's title]] can be marked with {{tnull|strong}}. Example: "The {{strong|soma}} is the bulbous end of a neuron." {{As of|July 2022}}, however, there is no consensus either for or against this use, and the style guidelines at [[MOS:BOLDTITLE]] and [[MOS:BOLDSYN]] recommend regular bolding.<ref>The use of this template has been briefly discussed [[Wikipedia talk:Manual of Style/Lead section/Archive 20#Shouldn't we use semantic markup in the lead?|in 2018]] and [[Template talk:Strong#Use in lead sections of articles|in 2022]].</ref>
+# After the lead, it {{em|can}} be used to highlight crucial terms of importance only slightly secondary to that of the article title and its synonyms. For example, the article on a viral infection might use {{tnull|strong}} to highlight the names of two identified strains of the disease in a "Varieties" section, as an aid to scannability. If such crucial terms are redirected terms, the style guideline at [[MOS:BOLDREDIRECT]] recommends formatting boldface as in the article title.
+# In unusual cases (most often direct quotations) it is used to represent contextually important text, if the passage were spoken rather than written (e.g., because it indicates shouting).
+# Outside articles, it {{em|can}} be used (but {{as of|July 2021|lc=y}} isn't yet common) in polls, XfD processes, RfX votes, and similar comments and debates where users indicate that they approve of or disagree with a view or proposal. Example: "{{strong|Support}}, because of this and that reasons [...]" or "{{strong|Oppose}}, because of this and that reasons [...]". However, please note the use of [[Wikipedia:Voting templates|templates in voting]] is generally discouraged.
+
+== When this template should not be used ==
+
+Because {{tnull|strong}} is strictly for semantic (meaningful) importance, it should not be used for layout, typography conventions and such. In these different cases, bold <code><nowiki>'''...'''</nowiki></code> (which resolves to {{tag|b}} in the browser or other user agent) should be used instead.  It also should not be used when the text to which it is applied is boldfaced for some other reason (e.g., it is part of a heading); in such cases use {{tlx|em}} instead.  Avoid using {{tnull|strong}} in non-quoted sentences that end in an exclamation point. And it is usually excessive to use it on terms that are Wikilinked, since the link markup acts to indicate importance itself.
+
+==See also==
+* {{tlx|strongbad}} – same but {{strongbad|red}}
+* {{tlx|stronggood}} – same but {{stronggood|green}}
+* {{tlx|em}} – for {{em|italic}} rather than bold semantic emphasis
+
+== Notes ==
+{{Reflist}}
+
+{{Semantic markup templates|show}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Semantic markup templates]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+}}</includeonly>

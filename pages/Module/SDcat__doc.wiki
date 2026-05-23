@@ -1,0 +1,39 @@
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High risk}}
+{{cascade-protected template|page=module}}
+Module to check whether local short description matches that on Wikidata
+
+setCat has the qid of a Wikidata entity passed as |qid=
+(it defaults to the associated qid of the current article if omitted)
+and the local short description passed as |sd=
+It returns a category if there is an associated Wikidata entity.
+
+It returns one of the following tracking categories, as appropriate:
+* Category:Short description matches Wikidata (case-insensitive)
+* Category:Short description is different from Wikidata
+* Category:Short description with empty Wikidata description
+For testing purposes, a link prefix |lp= may be set to ":" to make the categories visible.
+
+== Usage ==
+; From within a template
+: <code><nowiki>{{SDcat |sd={{{shortdescription|}}} }}</nowiki></code>
+: or
+: <code><nowiki>{{#invoke:SDcat |setCat |sd={{{shortdescription|}}} }}</nowiki></code>
+[[Template:SDcat]] is a wrapper for this module.
+
+; From another module
+: <code>sdcat = require("Module:SDcat")._setCat</code>
+: <code>local tracking_cat = sdcat(shortdesc, itemID)</code>
+
+=== For testing ===
+<code><nowiki>{{#invoke:SDcat |setCat |qid={{get QID|Douglas Adams}}|sd=English author and humorist (1952–2001) |lp=":"}}</nowiki></code>
+
+A few examples of tests are at [[Module talk:SDcat]]
+
+<includeonly>{{Sandbox other||
+[[Category:Short description related modules]]
+}}</includeonly>
+
+<noinclude>
+[[Category:Module documentation pages]]
+</noinclude>

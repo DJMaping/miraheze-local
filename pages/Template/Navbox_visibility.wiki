@@ -1,0 +1,3 @@
+Templates using the classes <code>class=navbox</code> ({{Template link|navbox}}) or <code>class=nomobile</code> ({{Template link|sidebar}}) are not displayed in article space on the [https://en.wikipedia.org/?useformat=mobile mobile web site] of English Wikipedia. Mobile page views accounted for 60% to 70% of all page views from 2020 through 2025. Briefly, these templates are not included in articles because 1) they are not well designed for mobile, and 2) they significantly increase page sizes&mdash;bad for mobile downloads&mdash;in a way that is not useful for the mobile use case. You can review/watch [[phab:T124168]] for further discussion.<noinclude>
+{{documentation}}
+</noinclude>

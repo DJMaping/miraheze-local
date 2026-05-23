@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Socialist Federal Republic of Yugoslavia
+| shortname alias = Yugoslavia
+| flag alias = Flag of Yugoslavia (1946-1992).svg
+| flag alias-shs = Flag of the State of Slovenes, Croats and Serbs.svg
+| flag alias-army = Yugoslavia Infantry flag.svg
+| flag alias-naval = Naval Ensign of Yugoslavia (1949–1993).svg
+| flag alias-navy = Naval Ensign of Yugoslavia (1949–1993).svg
+| link alias-military = Yugoslav People's Army
+| link alias-army = Yugoslav Ground Forces
+| link alias-naval = Yugoslav Navy
+| link alias-air force = Yugoslav Air Force
+| link alias-navy = Yugoslav Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = shs
+| redir1 = YUG
+| redir2 = SFR Yugoslavia
+| redir3 = Socialist Federal Republic of Yugoslavia
+| related1 = Kingdom of Yugoslavia<!-- 1929–1941/1945 -->
+| related2 = Democratic Federal Yugoslavia<!-- 1941–1945 -->
+| related3 = Federal People's Republic of Yugoslavia<!-- 1945–1963 -->
+| related4 = Federal Republic of Yugoslavia<!-- 1992–2003 -->
+</noinclude>
+}}

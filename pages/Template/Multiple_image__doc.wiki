@@ -1,0 +1,829 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE -->
+{{High-use|demo={{ROOTPAGENAME}}}}
+{{tsh|mim}}
+{{Warning|1=Before making a gallery, please read over the '''[[WP:IG|image use policy for galleries]]'''. Generally, a gallery '''should not be added''' so long as there is space for images to be effectively presented adjacent to text.
+}}
+{{Lua|Module:Multiple image|Module:Check for unknown parameters}}
+{{Uses TemplateStyles|Template:Multiple image/styles.css}}
+
+This template creates a box containing between two and ten images, arranged either vertically or horizontally and with captions for the entire box or per image.
+
+With the appropriate choice of parameters, the template can automatically resize images to a given total width with each image having the same height.
+
+'''Be aware''' that this template does ''not'' respect users' default image size preferences. [[Wikipedia:Image use policy]] states that {{tq|'''except with very good reason, do not use''' <code>px</code> [...] '''which forces a fixed image width.'''}} [[MOS:IMGSIZE]] states that a fixed width in pixels may only be specified, {{tq|where absolutely necessary.}}{{efn|The <nowiki>|upright=</nowiki> parameter can only be used to relatively-size an image when using the <nowiki>|thumb=</nowiki> parameter, and this template needs to format images without thumbs, so it has no easy way to access the Wikimedia relative-sizing machinery.}}
+
+If image size parameters are omitted, this template sets all images at 200px wide, regardless of whether the reader has set a preference for some other default image width. This causes multiple images to look out of scale to the other images in an article.
+
+==Syntax and parameters==
+Provide {{para|height[n]}} and {{para|total_width}} parameters to obtain automatic resizing.
+Note the different meanings of the {{para|width[n]}} parameters with vs. without automatic resizing.
+Please also note the option to set a {{para|total_width}} parameter at the beginning of the {{tlf|multiple image}} template.
+;Automatic resizing of all images to the same height and to a given total width
+:<syntaxhighlight lang="wikitext">
+{{Multiple image|total_width = 600
+<!-- Layout parameters -->
+| align             = <!-- right (default), left, center, none --> 
+| direction         = <!-- horizontal (default), vertical -->
+| background color  = <!-- box background as a 'hex triplet' web color prefixed by # e.g. #33CC00 -->
+| width             = <!-- displayed width of each image in pixels (an integer, omit "px" suffix); overrides "width[n]"s below -->
+| caption_align     = <!-- left (default), center, right --> 
+| image_style       = <!-- border:1; (default) -->
+| image_gap         = <!-- 1 (default)-->
+
+<!-- Header -->
+| header_background = <!-- header background as a 'hex triplet' web color prefixed by # e.g. #33CC00 -->
+| header_align      = <!-- center (default), left, right -->
+| header            = <!-- header text -->
+
+<!--image 1-->
+| image1            = <!-- filename only, i.e. without "File:" or "Image:" prefix -->
+| width1            = <!-- displayed width of image; overridden by "width" above -->
+| class1            = <!-- CSS class. Darkmode theme options: skin-invert-image / bg-transparent -->
+| alt1              = 
+| link1             = 
+| thumbtime1        =
+| caption1          = 
+<!--image 2-->
+| image2            = <!-- filename only, i.e. without "File:" or "Image:" prefix -->
+| width2            = <!-- displayed width of image; overridden by "width" above -->
+| class2            = <!-- CSS class. Darkmode theme options: skin-invert-image / bg-transparent -->
+| alt2              = 
+| link2             = 
+| thumbtime2        =
+| caption2          = 
+<!-- and so on -->
+
+<!-- Footer -->
+| footer_background = <!-- footer background as a 'hex triplet' web color prefixed by # e.g. #33CC00 -->
+| footer_align      = <!-- left (default), center, right -->
+| footer            = <!-- footer text -->
+}}
+</syntaxhighlight>
+
+;No automatic resizing of all images to the same height
+:<syntaxhighlight lang="wikitext">
+{{multiple image
+<!-- Layout parameters -->
+ | align             = <!-- right (default), left, center, none --> 
+ | direction         = <!-- horizontal (default), vertical -->
+ | background color  = <!-- box background -->
+ | total_width       = <!-- total width of all the displayed images in pixels (an integer, omit "px" suffix) -->
+ | caption_align     = <!-- left (default), center, right --> 
+
+<!-- Header -->
+ | header_background = 
+ | header_align      = <!-- center (default), left, right -->
+ | header            = 
+
+<!--image 1-->
+ | image1            = <!-- filename only, i.e. without "File:" or "Image:" prefix -->
+ | class1            = <!-- CSS class. Darkmode theme options: skin-invert-image / bg-transparent -->
+ | alt1              = 
+ | link1             = 
+ | thumbtime1        =
+ | caption1          = 
+<!--image 2-->
+ | image2            = <!-- filename only, i.e. without "File:" or "Image:" prefix -->
+ | class2            = <!-- CSS class. Darkmode theme options: skin-invert-image / bg-transparent -->
+ | alt2              = 
+ | link2             = 
+ | thumbtime2        =
+ | caption2          = 
+<!-- and so on -->
+
+<!-- Footer -->
+ | footer_background = 
+ | footer_align      = <!-- left (default), center, right -->
+ | footer            = 
+}}
+</syntaxhighlight>
+
+{| class=wikitable
+! Parameter !! Description
+|-
+| align          || right ''(default)'', left, center
+|-
+| direction      || horizontal ''(default)'', vertical
+|-
+| background color || To set [[List of colors|the background color]] of the box in which the images appear. 
+|-
+| header_background || 
+|-
+| header_align   || center ''(default)'', left, right
+|-
+| header         || 
+|-
+| width          || Use to set the same width for each image (i.e. overrides any {{mono|width[n]}} below). Do not include if different image widths intended, including if images are to be resized to a fixed total width.
+|-
+| total_width    || Use to scale the images to the same height and this total width. Do not use both {{mono|total_width}} and {{mono|width}}.
+|-
+| image''[n]''   || (where ''[n]'' = 1 to 10)&nbsp; Filename of [n]th image.
+|-
+| width''[n]''   || ''(as above)''&nbsp; Two meanings: (1) The width (in pixels, integer, omit "px") of [n]th image. Overridden by {{mono|width}} (if set). (2) The full width of the original [n]th image if {{mono|total_width}} is given in order to resize all images to the same height and a given total width.
+|-
+| height''[n]''   || ''(as above)''&nbsp; The full height of the original [n]th image if {{mono|total_width}} is given in order to resize all images to the same height and a given total width. Ignored otherwise.
+|-
+| class''[n]''   || ''(as above)''&nbsp; CSS class for the image. Useful for [[Wikipedia:Dark mode|darkmode theme]] options: skin-invert-image or bg-transparent
+|-
+| alt''[n]''     || ''(as above)''&nbsp; [[WP:ALT|Alt description]] for [n]th image.
+|-
+| link''[n]''    || ''(as above)''&nbsp; The page linked to the [n]th image (i.e. the page that is loaded when the image is clicked).
+* If this parameter is omitted altogether, the image will link to its [[image description page]] as usual (<u>this is by far the most common usage case</u>).
+* If this parameter is present but left empty (i.e. {{mono|<nowiki>...|link1= |...</nowiki>}}), the image will not link to anything – this should be the case only for purely decorative images per [[WP:ALT]].
+* '''Important:''' If the image is under a [[free license]] (such as the [[GNU Free Documentation License|GDFL]] or a free [[Creative Commons license|CC license]]), the terms of such license require the license, or a link to it, to be reproduced with the image. The image '''must''', therefore, link to its image description page, which can be achieved simply by omitting the link[n] parameter from the template as mentioned. Public domain and (theoretically) non-free use images are not subject to this restriction.
+|-
+| thumbtime''[n]'' || ''(as above)''&nbsp; When using video files, sets the time within the video that is used for the initial display. This is either a number of seconds or hours:minutes:seconds; see [[:commons:Commons:Video#Setting a video thumbnail image]].
+|-
+| caption''[n]'' || ''(as above)''&nbsp; Caption for the [n]th image.
+|-
+| caption_align  || left ''(default)'', center, right
+|-
+| footer_background || 
+|-
+| footer_align   || left ''(default)'', center, right
+|-
+| footer         || Caption that spans the entire box, as opposed to individual images. Avoid "left" and "right" if possible, since mobile devices may [[#Using direction|display the images vertically]].
+|}
+
+==Examples==
+
+{{demo|reverse=1|<nowiki>{{multiple image
+ | width = 60
+ | image1 = Yellow card.svg
+ | class1 = bg-transparent
+ | alt1 = Yellow cartouche
+ | image2 = Red card.svg
+ | class2 = bg-transparent
+ | alt2 = Red cartouche
+ | footer = Players are cautioned with a yellow card and sent off with a red card.
+}}</nowiki>}}
+{{clear}}
+{{demo|reverse=1|<nowiki>{{multiple image
+ | align = left
+ | direction = vertical
+ | width = 200
+ | header = [[Portable Network Graphics|PNG]] transparency demonstration
+ | image1 = PNG transparency demonstration 1.png
+ | alt1 = Colored dice with transparent background
+ | class1 = bg-transparent
+ | caption1 = A PNG image with an 8-bit transparency layer...
+ | image2 = PNG transparency demonstration 2.png
+ | alt2 = Colored dice with checkered background
+ | caption2 = ...here overlaying a checkered background.
+}}</nowiki>}}
+{{clear}}
+{{demo|reverse=1|<nowiki>{{multiple image
+ | width = 60
+ | image1=Ribbon numeral 2.png | alt1=2
+ | image2=Ribbon numeral 3.png | alt2=3
+ | image3=Ribbon numeral 4.png | alt3=4
+ | footer = When a user has many of one type of [[WP:BARN|barnstar]], they can represent them with [[WP:RIBBON|ribbons]] and these numerals to indicate the count.
+}}</nowiki>}}
+{{clear}}
+
+===With ''background color''===
+{{demo|<nowiki>{{multiple image
+ | align = left
+ | background color = #BBDD99
+ | width = 160
+ | image1 = Adoxa_moschatellina_210406.jpg
+ | alt1 = Green herb with a few tiny yellow-white flowers
+ | image2 = Adoxa_moschatellina_210406a.jpg
+ | alt2 = Three small white and yellow flowers before green-leaf background
+ | image3 = adoxa_moschatellina_blatt.jpeg
+ | alt3 = Leaves of a plant, in groups of three each with three lobes
+ | footer_background = #33CC00
+ | footer_align = center
+ | footer = ''[[Adoxa]]'' (''Adoxa moschatellina'')
+}}</nowiki>}}
+{{clear}}
+
+If the images have a clear background, this will by default be changed to white. To make the background color of the images match, set them with {{para|image_style|background-color:}}. You might want to also remove the border. 
+
+{{demo|<nowiki>{{multiple image 
+| align = center 
+| width = 64 
+| background color = black 
+| image_style=background-color:black; border:none;
+| image1 = Aries symbol (planetary color).svg|link1=Aries (astrology)
+| image2 = Taurus symbol (planetary color).svg|link2=Taurus (astrology)
+| image3 = Gemini symbol (planetary color).svg|link3=Gemini (astrology)
+| image4 = Leo symbol (planetary color).svg|link4=Leo (astrology)
+}}</nowiki>}}
+{{clear}}
+
+===With links (''link[n]'')===
+{{demo|reverse=1|<nowiki>{{multiple image
+ | align = left
+
+ | image1 = Mule (PSF).png
+ | width1 = 143
+ | alt1 = A mule
+ | link1 = Mule
+ | caption1 = A mule
+
+ | image2 = Donkey 1 arp 750px.jpg
+ | width2 = 150
+ | alt2 = A donkey
+ | link2 = 
+ | caption2  = A donkey
+
+ | image3 = Rainbow_trout.png
+ | width3 = 91
+ | alt3 = A trout
+ | caption3  = A fish
+
+ | footer = The image of the mule links to [[Mule]]; the image of the donkey does not link anywhere; the image of the trout links to a [[Image description page|standard image description page]].
+}}</nowiki>}}
+{{clear}}
+
+===Using ''direction''===
+By default, the images the template presents are displayed horizontally, as a row (see left; equivalent to setting {{para|direction|horizontal}}). To display them vertically, i.e. as a column, set {{para|direction|vertical}} (see right).
+{{multiple image
+ |align=left |direction=horizontal |header=(horizontal) |width=60
+ |image1=Ribbon numeral 2.png |image2=Ribbon numeral 3.png |image3=Ribbon numeral 4.png
+}}
+{{multiple image
+ |align=right |direction=vertical |header=(vertical) |width=60
+ |image1=Ribbon numeral 2.png |image2=Ribbon numeral 3.png |image3=Ribbon numeral 4.png
+}}
+{{clear}}
+On mobile devices some images may always be displayed vertically if the total width is larger than around 320.
+
+===To match image heights===
+{{hatnote|Note: The following is unnecessary if all the images presented by the template have the same [[Aspect ratio (image)|aspect ratio]]; if so, simply set {{mono|width}} accordingly.}}
+* Decide on a total width for all the images, say {{pval|320px}}
+* Set the total width using {{para|total_width}}
+
+{{demo|reverse=1|<nowiki>{{multiple image
+ | align = right
+ | total_width = 320
+
+ | image1 = Donkey 1 arp 750px.jpg
+ | alt1 = A donkey
+ | caption1 = Rectangular image of a donkey, originally 536 pixels high.
+
+ | image2 = Rainbow_trout.png
+ | alt2 = A trout
+ | caption2 = Square image of a trout, originally 300 pixels high.
+
+ | footer = Both images have been rendered with the same height, and a total width of 320px
+}}</nowiki>}}
+{{clear}}
+
+'''Using the {{para|width[n]}} and {{para|height[n]}} parameters.'''
+
+{{demo|reverse=1|<nowiki>{{multiple image
+ | align = right
+ | total_width = 480
+
+ | image1 = Rainbow_trout.png
+ | caption1 = Square image of a trout, originally 300 x 300 pixels.
+
+ | image2 = Rainbow_trout.png
+ | width2 = 900
+ | height2 = 900
+ | caption2 = <code>width2</code> x <code>height2</code> = 900 x 900.
+ 
+ | image3 = Rainbow_trout.png
+ | width3 = 100
+ | height3 = 200
+ | caption3 = <code>width3</code> x <code>height3</code> = 100 x 200.
+ 
+ | image4 = Rainbow_trout.png
+ | width4 = 200
+ | height4 = 100
+ | caption4 = <code>width4</code> x <code>height4</code> = 200 x 100.
+ 
+ | footer = All images have been rendered with the same height except for image3, which is 100/200 = 1/2 the height of the other images. Image4 is 200/100 = 2 times the height of image1, so only its top half is visible. Total width set to 480px.
+}}</nowiki>}}
+{{clear}}
+The aspect ratio of each image is automatically retrieved from the File metadata.  You can override the native width and height values by
+* Examining the individual image pages to obtain the full resolution. For example:
+** [[:File:Donkey 1 arp 750px.jpg]] shows "Donkey_1_arp_750px.jpg (750 × 536 pixels, file size: 125 KB, MIME type: image/jpeg)"
+** [[:File:Rainbow trout.png]] shows "Rainbow_trout.png (300 × 300 pixels, file size: 158 KB, MIME type: image/png)"
+* Specify the full width and height for each image, of the form:
+** {{para|width1}} {{para|height1}}  {{para|width2}} {{para|height2}}
+
+=== Multiple rows ===
+To create an array of images, with multiple rows, use {{para|perrow}}.  The value passed to {{para|perrow}} may be a single number, or a list of numbers delimited by <code>/</code>.  This feature may also be combined with {{para|total_width}} for multiple rows of images with the same total width.
+{{demo|reverse=1|<nowiki>{{multiple image|perrow = 2|total_width=300
+| image1 = Kern_Theodolit_DKM2-A.jpg
+| image2 = Total-Robotic-Station.jpg
+| image3 = DumpyLevel.jpg
+| image4 = GPS_Survey_Equipment_at_Weir_Dyke_Bridge_-_geograph.org.uk_-_336908.jpg
+| footer = Surveying Equipment. Clockwise from upper left: Optical Theodolite, Robotic total station, [[Real-time kinematic|RTK]] GPS Base station, Optical level.
+}}</nowiki>}}
+{{clear}}
+
+=== Removing the image border ===
+The border around the images can be removed using {{para|image_style|border:none}}.
+{{demo|reverse=1|<nowiki>{{multiple image
+ | align = right
+ | total_width = 320
+ | image_style = border:none;
+
+ | image1 = Donkey 1 arp 750px.jpg
+ | alt1 = A donkey
+ | caption1 = Image of a donkey
+
+ | image2 = Rainbow_trout.png
+ | alt2 = A trout
+ | caption2 = Image of a trout
+}}</nowiki>}}
+{{clear}}
+
+=== Increasing the gap between images ===
+The gap between the images can be increased using {{para|image_gap|N}}, where N is the number of pixels (must be non-negative).
+{{demo|reverse=1|<nowiki>{{multiple image
+ | align = right
+ | total_width = 320
+ | image_gap = 20
+
+ | image1 = Donkey 1 arp 750px.jpg
+ | alt1 = A donkey
+ | caption1 = Image of a donkey
+
+ | image2 = Rainbow_trout.png
+ | alt2 = A trout
+ | caption2 = Image of a trout
+}}</nowiki>}}
+{{clear}}
+
+=== Directly invoking module ===
+On large pages, multiple uses of this template can contribute to the page exceeding the maximum [[WP:PEIS|post-expand include size]] limit. To reduce the include size, [[Module:Multiple image]] can be invoked directly as follows (note the extra <code>|</code> character after the module name):
+
+{{demo|reverse=1|<nowiki>{{#invoke:multiple image|
+ | width = 60
+ | image1 = OOjs UI icon wikiTemplate.svg
+ | class1 = skin-invert-image
+ | image2 = Cib-lua (CoreUI Icons v1.0.0).svg
+ | class2 = skin-invert-image
+}}</nowiki>}}
+{{clear}}
+
+==TemplateData==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "This template creates a box with two to ten images arranged vertically or horizontally with captions for the entire box and each image.",
+	"format": "{{_\n| _________________ = _\n}}\n",
+	"params": {
+		"align": {
+			"type": "string",
+			"label": "Alignment",
+			"default": "right",
+			"description": "Sets text-wrapping around image box, where \"none\" places the box on the left edge with no text-wrapping, \"center\" places the box at center with no text-wrapping and \"left\" and \"right\" refer to position of box on screen with text-wrapping.",
+			"example": "left/right/center/none",
+			"suggestedvalues": [
+				"left",
+				"center",
+				"right",
+				"none"
+			]
+		},
+		"direction": {
+			"default": "horizontal",
+			"type": "string",
+			"label": "Direction",
+			"description": "Direction in which to tile the images.",
+			"example": "horizontal/vertical",
+			"suggested": true,
+			"suggestedvalues": [
+				"horizontal",
+				"vertical"
+			]
+		},
+		"total_width": {
+			"type": "number",
+			"label": "Frame width",
+			"description": "Use to scale the images to the same height and this total width. Do not use both total_width and width. Integer width in pixels; no \"px\" suffix",
+			"example": "400",
+			"suggested": true
+		},
+		"perrow": {
+			"type": "string",
+			"label": "Row layout",
+			"description": "Create an array of images, with multiple rows. The value passed to may be a single number or a list of numbers with each row delimited by /. Can be combined with total_width for automatic sizing of images.",
+			"example": "1 / 2 / 1"
+		},
+		"width": {
+			"type": "number",
+			"label": "Image width",
+			"description": "Width overrides Width 1, Width 2, Width 3, etc. If you want the images to be different sizes, do not provide the width parameter. Integer width in pixels; no \"px\" suffix",
+			"example": "200"
+		},
+		"background color": {
+			"type": "string",
+			"label": "Background color",
+			"description": "Defines the background color between the border of the box and the images. Changing the background can be bad for accessibility, avoid when possible.",
+			"example": "#EEFFGG or red"
+		},
+		"caption_align": {
+			"default": "left",
+			"type": "string",
+			"label": "Caption alignment",
+			"example": "left/right/center",
+			"suggestedvalues": [
+				"left",
+				"center",
+				"right"
+			]
+		},
+		"image1": {
+			"description": "Image 1 is name of first image. Similarly for Image 2, etc. File name only; no \"File:\" or \"Image:\" prefix.",
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"suggested": true,
+			"required": true,
+			"label": "Image 1"
+		},
+		"class1": {
+			"description": "CSS class for the image. Mainly used for darkmode theme options",
+			"type": "string",
+			"suggested": false,
+			"required": false,
+			"label": "Class 1",
+			"suggestedvalues": [
+				"skin-invert-image",
+				"bg-transparent"
+			]
+		},
+		"width1": {
+			"description": "Width 1 is width of first image. Similarly for Width 2, etc.",
+			"type": "number",
+			"label": "Width 1"
+		},
+		"alt1": {
+			"type": "line",
+			"description": "The [[alt text]] of first image (see [[WP:ALT]]). Similarly for Alt text 2, etc.",
+			"label": "Alt text 1",
+			"suggested": true
+		},
+		"caption1": {
+			"type": "content",
+			"description": "Caption 1 is caption of first image. Similarly for Caption 2, etc.",
+			"suggested": true,
+			"label": "Caption 1"
+		},
+		"link1": {
+			"type": "wiki-page-name",
+			"description": "Where the first page links to. Similarly for Link 2, etc. If not specified, image links to the image description page as usual. If specified to the empty value, the image does not link anywhere; this should be used for purely decorative images as per [[WP:ALT]]. Important: If the image is under a free license like the GFDL or a CC license, you must not use this parameter as the terms of those licenses require the license, or a link to it, to be reproduced with the image. The image must, therefore, link to its image page. Public domain and (theoretically) non-free use images are not subject to this restriction.",
+			"label": "Link 1"
+		},
+		"thumbtime1": {
+			"type": "string",
+			"description": "If image1 is an Ogg Theora file, sets the time within the video that is used for the initial display. Either a number of seconds or hours:minutes:seconds. Similarly for Thumb time 2, etc.",
+			"label": "Thumbtime 1"
+		},
+		"image2": {
+			"example": "example.jpg",
+			"suggested": true,
+			"label": "Image 2",
+			"type": "wiki-file-name"
+		},
+		"class2": {
+			"type": "string",
+			"label": "Class 2"
+		},
+		"width2": {
+			"type": "number",
+			"label": "Width 2"
+		},
+		"alt2": {
+			"label": "Alt text 2",
+			"type": "line",
+			"suggested": true
+		},
+		"caption2": {
+			"type": "content",
+			"suggested": true,
+			"label": "Caption 2"
+		},
+		"link2": {
+			"type": "wiki-page-name",
+			"label": "Link 2"
+		},
+		"thumbtime2": {
+			"type": "string",
+			"label": "Thumbtime 2"
+		},
+		"image3": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 3"
+		},
+		"class3": {
+			"type": "string",
+			"label": "Class 3"
+		},
+		"width3": {
+			"type": "number",
+			"label": "Width 3"
+		},
+		"alt3": {
+			"type": "line",
+			"label": "Alt text 3"
+		},
+		"caption3": {
+			"label": "Caption 3",
+			"type": "content"
+		},
+		"link3": {
+			"label": "Link 3",
+			"type": "wiki-page-name"
+		},
+		"thumbtime3": {
+			"type": "string",
+			"label": "Thumbtime 3"
+		},
+		"image4": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 4"
+		},
+		"class4": {
+			"type": "string",
+			"label": "Class 4"
+		},
+		"width4": {
+			"type": "number",
+			"label": "Width 4"
+		},
+		"alt4": {
+			"type": "line",
+			"label": "Alt text 4"
+		},
+		"caption4": {
+			"label": "Caption 4",
+			"type": "content"
+		},
+		"link4": {
+			"label": "Link 4",
+			"type": "wiki-page-name"
+		},
+		"thumbtime4": {
+			"type": "string",
+			"label": "Thumbtime 4"
+		},
+		"image5": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 5"
+		},
+		"class5": {
+			"type": "string",
+			"label": "Class 5"
+		},
+		"width5": {
+			"type": "number",
+			"label": "Width 5"
+		},
+		"alt5": {
+			"type": "line",
+			"label": "Alt text 5"
+		},
+		"caption5": {
+			"label": "Caption 5",
+			"type": "content"
+		},
+		"link5": {
+			"label": "Link 5",
+			"type": "wiki-page-name"
+		},
+		"thumbtime5": {
+			"type": "string",
+			"label": "Thumbtime 5"
+		},
+		"image6": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 6"
+		},
+		"class6": {
+			"type": "string",
+			"label": "Class 6"
+		},
+		"width6": {
+			"type": "number",
+			"label": "Width 6"
+		},
+		"alt6": {
+			"type": "line",
+			"label": "Alt text 6"
+		},
+		"caption6": {
+			"label": "Caption 6",
+			"type": "content"
+		},
+		"link6": {
+			"label": "Link 6",
+			"type": "wiki-page-name"
+		},
+		"thumbtime6": {
+			"type": "string",
+			"label": "Thumbtime 6"
+		},
+		"image7": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 7"
+		},
+		"class7": {
+			"type": "string",
+			"label": "Class 7"
+		},
+		"width7": {
+			"type": "number",
+			"label": "Width 7"
+		},
+		"alt7": {
+			"type": "line",
+			"label": "Alt text 7"
+		},
+		"caption7": {
+			"label": "Caption 7",
+			"type": "content"
+		},
+		"link7": {
+			"label": "Link 7",
+			"type": "wiki-page-name"
+		},
+		"thumbtime7": {
+			"type": "string",
+			"label": "Thumbtime 7"
+		},
+		"image8": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 8"
+		},
+		"class8": {
+			"type": "string",
+			"label": "Class 8"
+		},
+		"width8": {
+			"type": "number",
+			"label": "Width 8"
+		},
+		"alt8": {
+			"type": "line",
+			"label": "Alt text 8"
+		},
+		"caption8": {
+			"label": "Caption 8",
+			"type": "content"
+		},
+		"link8": {
+			"label": "Link 8",
+			"type": "wiki-page-name"
+		},
+		"thumbtime8": {
+			"type": "string",
+			"label": "Thumbtime 8"
+		},
+		"image9": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 9"
+		},
+		"class9": {
+			"type": "string",
+			"label": "Class 9"
+		},
+		"width9": {
+			"type": "number",
+			"label": "Width 9"
+		},
+		"alt9": {
+			"type": "line",
+			"label": "Alt text 9"
+		},
+		"caption9": {
+			"label": "Caption 9",
+			"type": "content"
+		},
+		"link9": {
+			"label": "Link 9",
+			"type": "wiki-page-name"
+		},
+		"thumbtime9": {
+			"type": "string",
+			"label": "Thumbtime 9"
+		},
+		"image10": {
+			"type": "wiki-file-name",
+			"example": "example.jpg",
+			"label": "Image 10"
+		},
+		"class10": {
+			"type": "string",
+			"label": "Class 10"
+		},
+		"width10": {
+			"type": "number",
+			"label": "Width 10"
+		},
+		"alt10": {
+			"type": "line",
+			"label": "Alt text 10"
+		},
+		"caption10": {
+			"label": "Caption 10",
+			"type": "content"
+		},
+		"link10": {
+			"label": "Link 10",
+			"type": "wiki-page-name"
+		},
+		"thumbtime10": {
+			"type": "string",
+			"label": "Thumbtime 10"
+		},
+		"image_gap": {
+			"type": "number",
+			"label": "Image gap",
+			"description": "Override the distance between adjacent images. Integer width in pixels; no \"px\" suffix",
+			"example": "20",
+			"default": "1"
+		},
+		"image_style": {
+			"type": "string",
+			"label": "Image style",
+			"description": "Override the default styling of the image frame."
+		},
+		"header": {
+			"type": "content",
+			"label": "Header",
+			"description": "A header text to place above the entire frame."
+		},
+		"header_background": {
+			"type": "string",
+			"label": "Header background",
+			"description": "Defines the background color of the header field. Changing the background can be bad for accessibility, avoid when possible",
+			"example": "#EEFFGG or red"
+		},
+		"header_align": {
+			"default": "center",
+			"type": "string",
+			"label": "Header alignment",
+			"example": "left/right/center"
+		},
+		"footer": {
+			"type": "content",
+			"label": "Footer",
+			"description": "Caption that spans the entire box, as opposed to individual images. Avoid \"left\" and \"right\" if possible, since mobile devices may display the images vertically."
+		},
+		"footer_background": {
+			"type": "string",
+			"label": "Footer background",
+			"description": "Defines the background color of the footer field. Changing the background can be bad for accessibility, avoid when possible",
+			"example": "#EEFFGG or red"
+		},
+		"footer_align": {
+			"default": "left",
+			"type": "string",
+			"label": "Footer alignment",
+			"example": "left/right/center",
+			"suggestedvalues": [
+				"left",
+				"center",
+				"right"
+			]
+		},
+		"border": {
+			"label": "Show or hide border",
+			"description": "Use value \"infobox\" to hide the border when using the template within an infobox.",
+			"suggestedvalues": [
+				"infobox"
+			]
+		}
+	}
+}</templatedata>
+
+==Tracking categories==
+* {{clc|Category:Pages using multiple image with unknown parameters}}
+* {{clc|Pages using multiple image with auto scaled images}}
+* {{clc|Pages using multiple image with manual scaled images}}
+
+== Other wikis ==
+In order to use this template on other wikis, next to the required module and stylesheet, this template also depends on [[:mediawikiwiki:Manual:$wgUseLegacyMediaStyles|$wgUseLegacyMediaStyles]]. This setting of MediaWiki provides the stylesheets for the older thumbnail styles that MediaWiki used to use up to MediaWiki 1.40.
+
+==See also==
+* {{tl|Gallery}}
+* {{tl|Image array}}
+* {{tl|Image frame}}
+* {{tl|Photomontage}}
+* {{tl|Stack}}
+* [[Wikipedia:Collage tips]]
+
+==Notes==
+{{notelist}}
+
+<includeonly>{{Sandbox other|
+| <!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Graphics templates]]
+[[Category:Image formatting and function templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>

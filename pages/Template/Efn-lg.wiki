@@ -1,0 +1,3 @@
+<includeonly>{{efn|name={{{name|}}}|group=lower-greek|reference={{{1|{{{reference|{{{content|{{{text|}}}}}}}}}}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

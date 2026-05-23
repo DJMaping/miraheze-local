@@ -1,0 +1,5 @@
+#REDIRECT [[Template:Paragraph break]]
+
+{{Redirect category shell|
+{{R from template shortcut}}
+}}

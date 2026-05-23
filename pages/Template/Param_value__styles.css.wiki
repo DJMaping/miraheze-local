@@ -1,0 +1,7 @@
+/* {{pp-template}} */
+.tpl-pval__code {
+	border: thin solid var(--border-color-base, #a2a9b1);
+	background-color: var(--color-inverted, #fff);
+	color: inherit;
+	white-space: nowrap;
+}

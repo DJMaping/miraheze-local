@@ -1,0 +1,753 @@
+<noinclude>
+{{pp|small=yes}}
+</noinclude>
+{{Documentation subpage}}
+{{High-use|16,100}}
+{{Lua|Module:Infobox military conflict}}
+A military conflict infobox (sometimes referred to as a warbox) may be used to summarize information about a particular military conflict (a battle, campaign, war, or group of related wars) in a standard manner.
+
+Information summarized in an infobox should follow the general guidance for writing a [[Wikipedia:Manual of Style/Lead section|lead section]]. It should not "make claims" or present material not covered by the article. As with a lead section, there is some discretion in citing information in an infobox. The same guidance should be applied to an infobox as given for [[Wikipedia:Manual of Style/Lead section#Citations|citations in a lead section]]. Information in an infobox must conform with [[Wikipedia:Verifiability|verifiability]], [[Wikipedia:Neutral point of view|point-of-view]] and other policies.
+
+Information in the infobox should not be "controversial". Refer the reader to an appropriate section in the article or leave the parameter blank rather than make an unsubstantiated or doubtful claim.
+
+__TOC__
+==Usage==
+{{parameter names example|  action | alt | caption | casualties1 | casualties2 | casualties3 | combatant1 | combatant2 | combatant3 | commander1 | commander2 | commander3 | combatants_header | conflict | coordinates | date | image | image_size | image_upright | notes | params | partof | place | result | status | strength1 | strength2 | strength3 | territory | units1 | units2 | units3 | width | milstrength1 | milstrength2 | milstrength3 | polstrength1 | polstrength2 | polstrength3 | combatants_header | units_header | strengths_header | polstrengths_header | milstrengths_header | casualties_header }}
+
+The infobox should be added using the {{tl|infobox military conflict}} template, as shown below:
+<syntaxhighlight lang="wikitext">
+{{Infobox military conflict
+| conflict    = 
+| width       = 
+| partof      = 
+| image       = 
+| image_size  =
+| image_upright =
+| alt         =
+| caption     = 
+| date        = 
+| place       = 
+| coordinates = <!--Use the {{coord}} template -->
+| map_type    = 
+| map_relief  = 
+| map_size    = 
+| map_marksize = 
+| map_caption = 
+| map_label   = 
+| mapframe = <!-- See [[#Mapframe maps]] for more information -->
+| territory   = 
+| result      = 
+| status      = 
+| combatants_header = 
+| combatant1  = 
+| combatant2  = 
+| combatant3  = 
+| commander1  = 
+| commander2  = 
+| commander3  = 
+| units1      = 
+| units2      = 
+| units3      = 
+| strength1   = 
+| strength2   = 
+| strength3   = 
+| casualties1 = 
+| casualties2 = 
+| casualties3 = 
+| notes       = 
+| campaignbox = 
+}}
+</syntaxhighlight>
+
+'''Note''': All subjective or qualitative judgements and numerical quantities or statistics must be cited to a reliable source (see [[WP:MILMOS#CITE]]). Parameters should not be filled in a way that causes an empty field to be displayed; however, it may be unavoidable to display an empty column for one side in the conflict if corresponding information is only available for the other side in the conflict. Avoid the redundant use of question marks, ''N/A'' or ''unknown'' when particular information is not known (see [[MOS:INFOBOXUNKNOWN]]). If a numerical figure is known to be zero, use the term ''none''.
+
+===Parameters===
+* '''conflict''' – the name of the conflict being described (e.g. "Battle of Lützen" or "World War I").
+* '''width''' – ''optional'' – the width of the infobox, e.g. "400px"; defaults to: "315px".
+* '''partof''' – ''optional'' – the larger conflict containing the event described in the article. For battles or campaigns, this should be the war during which the event takes place; for particularly large wars, this may include a theatre (e.g. "the Eastern Front of World War II"). For wars, the parameter may be used to link to a larger group of wars (e.g. the [[Italian War of 1521–26]] to the [[Italian Wars]]). It may be necessary to insert "the" before the name of the war for proper grammar.
+* '''image''' – ''optional'' – an image for the warbox. Given in the form <code>Example.jpg</code>
+* '''image_size''' – ''optional'' – a size for the image
+* '''image_upright'''  – ''optional'' – a scaling factor for the image to enlarge or reduce it
+
+* '''alt''' – ''optional'' – [[Wikipedia:Manual of Style/Accessibility/Alternative text for images|Alternative text for image]] that is accessible to [[screen reader]]s to help the [[visually impaired]]
+
+* '''caption''' – ''optional'' – the text to be placed below the image.
+* '''date''' – ''optional'' – the date of the conflict described. Convention is to give the actual date for battles and the years for wars, but this does not always apply.
+* '''place''' – the location of the conflict. For conflicts covering a wide area, a general description (e.g. "France", or "Europe", or "Worldwide") may be used.
+* '''coordinates''' &ndash; ''optional'' &ndash; the location of the structure, given as a coordinate pair by using {{tl|coord}} with ''display=inline,title''. Used to display the geographic location of the conflict and the location on a map added with the <code>map_type</code> parameter.
+* '''map_type''' &ndash; ''optional'' &ndash; the base map to be used for the location map, e.g. "Scotland"; see {{tl|location map}} for more details.
+* '''map_relief''' &ndash; ''optional'' &ndash; "yes" if the location map is a relief map; see {{tl|location map}} for more details.
+* '''map_size''' &ndash; ''optional'' &ndash; width of the location map in pixels (px), e.g. "150"; defaults to: "220".
+* '''map_mark''' &ndash; ''optional'' &ndash; the name of a file to use as the location map marker, e.g. Green_pog.svg; defaults to: "Red_pog.svg".
+* '''map_marksize''' &ndash; ''optional'' &ndash; width of the location map marker in pixels (px), e.g. "10"; defaults to: "8".
+* '''map_caption''' &ndash; ''optional'' &ndash; caption displayed below the location map; defaults to "Location within {{{map_type}}}", e.g. "Location within Scotland".
+* '''map_label''' &ndash; ''optional'' &ndash; the label placed next to the marker on the location map.
+* '''mapframe''' &ndash; ''optional'' &ndash; Show a {{tl|Infobox mapframe}}. See [[#Mapframe maps]] for more information.
+* '''territory''' – ''optional'' – any changes in territorial control as a result of the conflict; this should not be used for overly lengthy descriptions of the peace settlement.
+* '''action''' – ''optional'' – In case of Coup d'État, short description of ''modus operandi'', e.g. "...marched over the city...", "...dissolving the Congress of the Republic...", "...take the government hostage ...", "...put the country under military control ...", etc.
+*{{anchor|result}} '''result''' – ''optional'' – this parameter may use one of two standard terms: "X victory" or "Inconclusive". The term used is for the "immediate" outcome of the "subject" conflict and should reflect what the sources say. In cases where the standard terms do not accurately describe the outcome, a link or note should be made to the section of the article where the result is discussed in detail (such as "See the {{blue|Aftermath}} section"). Such a note can also be used in conjunction with the standard terms but should not be used to conceal an ambiguity in the "immediate" result. Do not introduce non-standard terms like "decisive", "marginal" or "tactical", or contradictory statements like "decisive tactical victory but strategic defeat". Omit this parameter altogether rather than engage in [[WP:NOR|speculation]] about which side won or by how much.
+* '''status''' – ''optional'' – for ongoing conflicts, the current status of the conflict. This should not be used if a final result (above) is provided.
+* '''combatants_header''' – ''optional'' – sets the header text for the combatants section. Default is "Belligerents". In case of Coup d'État, use "Government-Insurgents".
+* '''combatant1'''/'''combatant2'''/'''combatant3''' – ''optional'' – the parties participating in the conflict. This is most commonly the countries whose forces took part in the conflict; however, larger groups (such as alliances or international organizations) or smaller ones (such as particular units, formations, or groups) may be indicated if doing so improves reader understanding. When there is a large number of participants, it may be better to list only the three or four major groups on each side of the conflict, and to describe the rest in the body of the article. The '''combatant3''' field may be used if a conflict has three distinct "sides", and should be left blank on other articles. Combatants should be listed in order of importance to the conflict, be it in terms of military contribution, political clout, or a recognized chain of command. If differing metrics can support alternative lists, then ordering is left to the editors of the particular article. The practice of writing in a "Supported by" subheading is deprecated (see [[Template talk:Infobox military conflict/Archive 3#RfC on "supported by" being used with the belligerent parameter|discussion]]).
+** '''combatant1a'''/'''combatant2a'''/'''combatant3a''' – ''optional'' – in cases where the parties significantly changed over the course of the conflict, these subsidiary fields may be used to provide additional rows for the '''combatant''N''''' fields (above).
+** '''combatant1b'''/'''combatant2b'''/'''combatant3b''' – ''optional'' – additional row, as above.
+** '''combatant1c'''/'''combatant2c'''/'''combatant3c''' – ''optional'' – additional row, as above.
+** '''combatant1d'''/'''combatant2d'''/'''combatant3d''' – ''optional'' – additional row, as above.
+** '''combatant1e'''/'''combatant2e'''/'''combatant3e''' – ''optional'' – additional row, as above.
+* '''commander1'''/'''commander2'''/'''commander3''' – ''optional'' – the commanders of the military forces involved. For battles, this should include military commanders (and other officers as necessary). For wars, only prominent or notable leaders should be listed, with an upper limit of about seven per combatant column recommended. Ranks and position titles should be omitted. The {{tl|KIA}} and {{tl|POW}} templates may be included immediately after the names of commanders who were killed in action or surrendered and were taken prisoner, respectively. The '''commander3''' field can only be used if the '''combatant3''' field is set.
+** '''commander1a'''/'''commander2a'''/'''commander3a''' – ''optional'' – in cases where the commanders significantly changed over the course of the conflict, these subsidiary fields may be used to provide additional rows for the '''commander''N''''' fields (above).
+** '''commander1b'''/'''commander2b'''/'''commander3b''' – ''optional'' – additional row, as above.
+** '''commander1c'''/'''commander2c'''/'''commander3c''' – ''optional'' – additional row, as above.
+** '''commander1d'''/'''commander2d'''/'''commander3d''' – ''optional'' – additional row, as above.
+** '''commander1e'''/'''commander2e'''/'''commander3e''' – ''optional'' – additional row, as above.
+* '''units1'''/'''units2'''/'''units3''' – ''optional'' – the units or formations involved. If a large number of distinct formations is present, it may be better to reference an order of battle in the body of the article than to include the entire list in this field. The '''units3''' field can only be used if the '''combatant3''' field is set.
+* '''strength1'''/'''strength2''' – ''optional'' – the numerical strength of the units involved.
+:* '''polstrength1'''/'''polstrength2''' – ''optional'' – In case of Coup d'Etat, political organizations that supported the government (1) respective the insurgents (2).
+:* '''milstrength1'''/'''milstrength2''' – ''optional'' – In case of Coup d'Etat, military units that supported the government (1) respective the insurgents (2).
+* '''strength3''' – ''optional'' – if '''combatant3''' is set, this is a third strength field identical to the two above; if it is '''''not''''' set, this is an alternate combined field for use where only the total participation in a conflict is known.
+* '''casualties1'''/'''casualties2''' – ''optional'' – [[Casualty (person)|casualties suffered]] (including: dead, wounded, missing, captured and civilian deaths) and equipment losses. Note that this section of the infobox is headed "Casualties and losses". Terms such as "dead" (or "killed"), "wounded", or "captured" should be used in place of abbreviations such as "KIA" or "POW". Where equipment losses are reported, this should be confined to major or significant types of equipment broadly categorized such as: tanks, guns (artillery pieces), aircraft, destroyers etc.
+* '''casualties3''' – ''optional'' – if '''combatant3''' is set, this is a third casualty field identical to the two above; if it is '''''not''''' set, this is an alternate combined field for use where only the total casualties of a conflict are known, or where civilian casualties cannot be directly attributed to either side.
+* '''notes''' – ''optional'' – optional field for further notes; this should only be used in exceptional circumstances.
+* '''campaignbox''' – ''optional'' – optional field for appending a [[WP:CAMPAIGN|campaignbox template]] to the bottom of the infobox, which allows both boxes to float as a single element (useful if there are subsequent left floating images, which would otherwise not be able to float above the campaign box); the template must be specified in the format <nowiki>{{Campaignbox XYZ}}</nowiki>.<noinclude>
+[[Category:WikiProject Military history template instructions|Military conflict infobox]]
+</noinclude>
+See also: {{tl|Campaignbox/doc}}
+
+==Mapframe maps==
+{{Infobox mapframe/doc/parameters
+}}
+
+==Example==
+{{demo|reverse=1|<nowiki>
+{{Infobox military conflict
+| conflict    = Battle of Lützen
+| partof      = the [[Thirty Years' War]]
+| image       = Battle of Lutzen.jpg
+| alt         = Battle of Lutzen by Carl Whalbom depicting King Gustavus Aolphus falling from a horse mortally wounded in a melee
+| image_size   = 300
+| caption     = The '' '''Battle of Lützen''' '' by [[Carl Wahlbom]] shows the death of King [[Gustavus Adolphus]] on 16 November 1632.
+| date        = 6 November ([[Old Style and New Style dates|O.S.]]) or 16 November ([[Old Style and New Style dates|N.S.]]), 1632
+| place       = Near [[Lützen]], southwest of [[Leipzig]]<br />(present-day [[Germany]])
+| coordinates = {{coord|51|15|N|12|08|E|region:DE_type:city}}
+| result      = Protestant victory <br />(see {{blue|Aftermath}} section)
+| combatant1  = {{flag icon|Sweden|1562}} [[Swedish Empire|Sweden]]<br />[[Protestant Union]]
+| combatant2  = {{flag|Holy Roman Empire}}<br/>{{flagicon image|Catholic League (Germany).svg}} [[Catholic League (German)|Catholic League]]
+| commander1  = {{flag icon|Sweden|1562}} [[Gustavus Adolphus]]{{KIA}}<br/>{{flag icon|Sweden|1562}} [[Dodo zu Innhausen und Knyphausen|Dodo von Knyphausen]]<br/>{{flag icon|Electorate of Saxony}} [[Bernhard of Saxe-Weimar]]<br/>{{flag icon|Sweden|1562}} [[Robert Munro, 18th Baron of Foulis]]
+| commander2  = {{flag icon|Holy Roman Empire}} [[Albrecht von Wallenstein]]<br/>{{flag icon|Holy Roman Empire}} [[Heinrich Holk]]<br/>{{flag icon|Holy Roman Empire}} [[Gottfried zu Pappenheim|Count Gottfried zu Pappenheim]]{{DOW}}
+| strength1   = 12,800 infantry<br />6,200 cavalry<br />60 guns
+| strength2   = 10,000 infantry<br />7,000 cavalry, plus 3,000 infantry and 2,000 cavalry on arrival<br />24 guns
+| casualties1 = 3,400 dead and 1,600 wounded or missing
+| casualties2 = Probably about the same as Swedish casualties{{fakeref|1}}
+}}
+</nowiki>}}
+
+==Microformat==
+{{UF-hcal-geo}}
+
+== Tracking category ==
+* {{clc|Category:Pages using infobox military conflict with unknown parameters}}
+
+== TemplateData ==
+{{TemplateData header}}
+{{collapse top|title=TemplateData}}
+<templatedata>
+{
+	"description": "Summarize information about a particular military conflict (a battle, campaign, war, or group of related wars).",
+	"format": "{{_\n| _________________ = _\n}}\n",
+	"params": {
+		"conflict": {
+			"label": "Conflict",
+			"description": "The name of the conflict being described.",
+			"type": "line",
+			"required": true
+		},
+		"width": {
+			"label": "Width",
+			"description": "Width of the infobox.",
+			"type": "string",
+			"default": "315px",
+			"required": false
+		},
+		"partof": {
+			"label": "Part of",
+			"description": "The larger conflict containing the event described in the article.",
+			"type": "wiki-page-name",
+			"required": false
+		},
+		"image": {
+			"label": "Image",
+			"description": "An image for the warbox given in the form Example.jpg.",
+			"type": "wiki-file-name",
+			"required": false
+		},
+		"image_size": {
+			"label": "Image size",
+			"description": "The size of the image",
+			"type": "string",
+			"required": false
+		},
+		"image_upright": {
+			"label": "Image upright",
+			"description": "A scaling factor for the image",
+			"type": "string",
+			"required": false
+		},
+		"alt": {
+			"label": "Alt",
+			"description": "Alternative textual description of the image",
+			"type": "string",
+			"required": false
+		},
+		"caption": {
+			"label": "Caption",
+			"description": "The text to be placed below the image.",
+			"type": "string",
+			"required": false
+		},
+		"date": {
+			"label": "Date",
+			"description": "The date of the conflict described. Convention is to give the actual date for battles and the years for wars, but this does not always apply.",
+			"type": "string",
+			"required": false
+		},
+		"place": {
+			"label": "Place",
+			"description": "The location of the conflict.",
+			"type": "string",
+			"required": true
+		},
+		"coordinates": {
+			"label": "Coordinates",
+			"description": "The location of the structure, given as a coordinate pair by using {{coord}} with display=inline,title.",
+			"type": "string",
+			"required": false
+		},
+		"map_type": {
+			"label": "Map Type",
+			"description": "The base map to be used for the location map, e.g. \"Scotland\"; see {{location map}} for more details.",
+			"type": "string",
+			"required": false
+		},
+		"map_relief": {
+			"label": "Map Relief",
+			"description": "\"yes\" if the location map is a relief map.",
+			"type": "string",
+			"required": false
+		},
+		"map_size": {
+			"label": "Map Size",
+			"description": "Width of the location map in pixels (px).",
+			"type": "number",
+			"default": "220",
+			"required": false
+		},
+		"map_mark": {
+			"label": "Map Marker",
+			"description": "File to use as the location map marker.",
+			"type": "string",
+			"default": "red_pog.svg",
+			"required": false
+		},
+		"map_marksize": {
+			"label": "Map Marker Size",
+			"description": "Width of the location map marker in pixels (px).",
+			"type": "number",
+			"default": "8",
+			"required": false
+		},
+		"map_caption": {
+			"label": "Map Caption",
+			"description": "Caption displayed below the location map.",
+			"type": "string",
+			"default": "Location within {{{map_type}}}",
+			"required": false
+		},
+		"map_label": {
+			"label": "Map Label",
+			"description": "The label placed next to the marker on the location map.",
+			"type": "line",
+			"required": false
+		},
+		"territory": {
+			"label": "Territory",
+			"description": "Any changes in territorial control as a result of the conflict; this should not be used for overly lengthy descriptions of the peace settlement.",
+			"type": "string",
+			"required": false
+		},
+		"result": {
+			"label": "Result",
+			"description": "This parameter may use one of two standard terms: \"X victory\" or \"Inconclusive\". The term used is for the \"immediate\" outcome of the \"subject\" conflict and should reflect what the sources say. In cases where the standard terms do not accurately describe the outcome, a link or note should be made to the section of the article where the result is discussed in detail (such as \"See the Aftermath section\"). Such a note can also be used in conjunction with the standard terms but should not be used to conceal an ambiguity in the \"immediate\" result. Do not introduce non-standard terms like \"decisive\", \"marginal\" or \"tactical\", or contradictory statements like \"decisive tactical victory but strategic defeat\". Omit this parameter altogether rather than engage in speculation about which side won or by how much.",
+			"type": "string",
+			"required": false
+		},
+		"status": {
+			"label": "Status",
+			"description": "For ongoing conflicts, the current status of the conflict.",
+			"type": "line",
+			"required": false
+		},
+		"combatants_header": {},
+		"combatant1": {
+			"label": "Combatant 1",
+			"description": "A party participating in the conflict.",
+			"type": "string",
+			"required": false
+		},
+		"combatant2": {
+			"label": "Combatant 2",
+			"description": "A party participating in the conflict.",
+			"type": "string",
+			"required": false
+		},
+		"combatant3": {
+			"label": "Combatant 3",
+			"description": "A party participating in the conflict. (only if the conflict has three distinct \"sides\")",
+			"type": "string",
+			"required": false
+		},
+		"combatant1a": {
+			"label": "Combatant 1a",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 1 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant2a": {
+			"label": "Combatant 2a",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 2 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant3a": {
+			"label": "Combatant 3a",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 3 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant1b": {
+			"label": "Combatant 1b",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 1 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant2b": {
+			"label": "Combatant 2b",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 2 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant3b": {
+			"label": "Combatant 3b",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 3 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant1c": {
+			"label": "Combatant 1c",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 1 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant2c": {
+			"label": "Combatant 2c",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 2 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant3c": {
+			"label": "Combatant 3c",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 3 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant1d": {
+			"label": "Combatant 1d",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 1 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant2d": {
+			"label": "Combatant 2d",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 2 field.",
+			"type": "string",
+			"required": false
+		},
+		"combatant3d": {
+			"label": "Combatant 3d",
+			"description": "In cases where the parties significantly changed over the course of the conflict, this field may be used to provide additional rows for the Combatant 3 field.",
+			"type": "string",
+			"required": false
+		},
+		"commander1": {
+			"label": "Commander of Combatant 1",
+			"description": "The commanders of the military forces of Combatant (1) involved.",
+			"type": "string",
+			"required": false
+		},
+		"commander2": {
+			"label": "Commander of Combatant 2",
+			"description": "The commanders of the military forces of Combatant 2 involved.",
+			"type": "string",
+			"required": false
+		},
+		"commander3": {
+			"label": "Commander of Combatant 3",
+			"description": "The commanders of the military forces of Combatant 3 involved.",
+			"type": "string",
+			"required": false
+		},
+		"units1": {
+			"label": "Units of Combatant 1",
+			"description": "The units or formations of Combatant 1 involved. If a large number of distinct formations is present, it may be better to reference an order of battle in the body of the article than to include the entire list in this field.",
+			"type": "string",
+			"required": false
+		},
+		"units2": {
+			"label": "Units of Combatant 2",
+			"description": "The units or formations of Combatant 2 involved. If a large number of distinct formations is present, it may be better to reference an order of battle in the body of the article than to include the entire list in this field.",
+			"type": "string",
+			"required": false
+		},
+		"units3": {
+			"label": "Units of Combatant 3",
+			"description": "The units or formations of Combatant 3 involved. If a large number of distinct formations is present, it may be better to reference an order of battle in the body of the article than to include the entire list in this field.",
+			"type": "string",
+			"required": false
+		},
+		"strength1": {
+			"label": "Strength of Combatant 1",
+			"description": "The numerical strength of Combatant 1.",
+			"type": "string",
+			"required": false
+		},
+		"strength2": {
+			"label": "Strength of Combatant 2",
+			"description": "The numerical strength of Combatant 2.",
+			"type": "string",
+			"required": false
+		},
+		"strength3": {
+			"label": "Strength of Combatant 3",
+			"description": "If Combatant 3 is set, this field is for the numerical strength of Combatant 3. If Combatant 3 is not set, this is an alternate combined field for use where only the total participation in a conflict is known.",
+			"type": "string",
+			"required": false
+		},
+		"casualties1": {
+			"label": "Casualties of Combatant 1",
+			"description": "Casualties suffered by Combatant 1 (including: dead, wounded, missing, captured and civilian deaths) and equipment losses. Terms such as \"dead\" (or \"killed\"), \"wounded\", or \"captured\" should be used in place of abbreviations such as \"KIA\" or \"POW\". Where equipment losses are reported, this should be confined to major or significant types of equipment broadly categorized such as: tanks, guns (artillery pieces), aircraft, destroyers etc.",
+			"type": "string",
+			"required": false
+		},
+		"casualties2": {
+			"label": "Casualties of Combatant 2",
+			"description": "Casualties suffered by Combatant 2 (including: dead, wounded, missing, captured and civilian deaths) and equipment losses. Terms such as \"dead\" (or \"killed\"), \"wounded\", or \"captured\" should be used in place of abbreviations such as \"KIA\" or \"POW\". Where equipment losses are reported, this should be confined to major or significant types of equipment broadly categorized such as: tanks, guns (artillery pieces), aircraft, destroyers etc.",
+			"type": "string",
+			"required": false
+		},
+		"casualties3": {
+			"label": "Casualties of Combatant 3",
+			"description": "If Combatant 3 is set, this field is for the casualties suffered by Combatant 3, (including: dead, wounded, missing, captured and civilian deaths) and equipment losses. Terms such as \"dead\" (or \"killed\"), \"wounded\", or \"captured\" should be used in place of abbreviations such as \"KIA\" or \"POW\". Where equipment losses are reported, this should be confined to major or significant types of equipment broadly categorized such as: tanks, guns (artillery pieces), aircraft, destroyers etc. If combatant3 is not set, this is an alternate combined field for use where only the total casualties of a conflict are known, or where civilian casualties cannot be directly attributed to either side.",
+			"type": "string",
+			"required": false
+		},
+		"notes": {
+			"label": "Notes",
+			"description": "Optional field for further notes; this should only be used in exceptional circumstances.",
+			"type": "string",
+			"required": false
+		},
+		"campaignbox": {
+			"label": "Campaignbox",
+			"description": "Optional field for appending a campaignbox template to the bottom of the infobox, which allows both boxes to float as a single element (useful if there are subsequent left floating images, which would otherwise not be able to float above the campaign box); the template must be specified in the format {{Campaignbox XYZ}}.",
+			"type": "string",
+			"required": false
+		},
+		"mapframe": {
+			"label": "Show mapframe map",
+			"description": "Specify yes or no to show or hide the map, overriding the default",
+			"example": "yes",
+			"type": "string",
+			"default": "no",
+			"suggested": true
+		},
+		"mapframe-caption": {
+			"label": "Mapframe caption",
+			"description": "Caption for the map. If mapframe-geomask is set, then the default is \"Location in <<geomask's label>>\"",
+			"type": "string"
+		},
+		"mapframe-custom": {
+			"label": "Custom mapframe",
+			"description": "Use a custom map instead of the automatic mapframe. Specify either a {{maplink}} template, or another template that generates a mapframe map, or an image name. If used, other mapframe parameters will be ignored.",
+			"type": "wiki-template-name"
+		},
+		"mapframe-id": {
+			"aliases": [
+				"id",
+				"qid"
+			],
+			"label": "Mapframe Wikidata item",
+			"description": "Id (Q-number) of Wikidata item to use.",
+			"type": "string",
+			"default": "(item for current page)"
+		},
+		"mapframe-coordinates": {
+			"aliases": [
+				"mapframe-coord",
+				"coordinates",
+				"coord"
+			],
+			"label": "Mapframe coordinates ",
+			"description": "Coordinates to use, instead of any on Wikidata. Use the {{Coord}} template.",
+			"example": "{{Coord|12.34|N|56.78|E}}",
+			"type": "wiki-template-name",
+			"default": "(coordinates from Wikidata)"
+		},
+		"mapframe-wikidata": {
+			"label": "Mapframe shapes from Wikidata",
+			"description": "et to yes to show shape/line features from the wikidata item, if any, when coordinates are specified by parameter",
+			"example": "yes",
+			"type": "string"
+		},
+		"mapframe-shape": {
+			"label": "Mapframe shape feature",
+			"description": "Override display of mapframe shape feature. Turn off by setting to \"none\". Use an inverse shape (geomask) instead of a regular shape by setting to \"inverse\"",
+			"type": "string"
+		},
+		"mapframe-point": {
+			"label": "Mapframe point feature",
+			"description": "Override display of mapframe point feature. Turn off display of point feature by setting to \"none\". Force point marker to be displayed by setting to \"on\"",
+			"type": "string"
+		},
+		"mapframe-geomask": {
+			"label": "Mapframe geomask",
+			"description": "Wikidata item to use as a geomask (everything outside the boundary is shaded darker). Can either be a specific Wikidata item (Q-number), or a property that specifies the item to use (e.g. P17 for country, or P131 for located in the administrative territorial entity)",
+			"example": "Q100",
+			"type": "wiki-page-name"
+		},
+		"mapframe-switcher": {
+			"label": "Mapframe switcher",
+			"description": "Set to \"auto\" or \"geomasks\" or \"zooms\" to enable Template:Switcher-style switching between multiple mapframes. IF SET TO auto – switch geomasks found in location (P276) and located in the administrative territorial entity (P131) statements on the page's Wikidata item, searching recursively. E.g. an item's city, that city's state, and that state's country. IF SET TO geomasks – switch between the geomasks specified as a comma-separated list of Wikidata items (Q-numbers) in the mapframe-geomask parameter. IF SET TO zooms – switch between \"zoomed in\"/\"zoomed midway\"/\"zoomed out\", where \"zoomed in\" is the default zoom (with a minimum of 3), \"zoomed out\" is 1, and \"zoomed midway\" is the average.",
+			"type": "string"
+		},
+		"mapframe-frame-width": {
+			"aliases": [
+				"mapframe-width"
+			],
+			"label": "Mapframe width",
+			"description": "Frame width in pixels",
+			"type": "number",
+			"default": "270"
+		},
+		"mapframe-frame-height": {
+			"aliases": [
+				"mapframe-height"
+			],
+			"label": "Mapframe height",
+			"description": "Frame height in pixels",
+			"type": "number",
+			"default": "200"
+		},
+		"mapframe-shape-fill": {
+			"label": "Mapframe shape fill",
+			"description": "Color used to fill shape features",
+			"type": "string",
+			"default": "#606060"
+		},
+		"mapframe-shape-fill-opacity": {
+			"label": "Mapframe shape fill opacity",
+			"description": "Opacity level of shape fill, a number between 0 and 1",
+			"type": "number",
+			"default": "0.1"
+		},
+		"mapframe-stroke-color": {
+			"aliases": [
+				"mapframe-stroke-colour"
+			],
+			"label": "Mapframe stroke color",
+			"description": "Color of line features, and outlines of shape features",
+			"type": "string",
+			"default": "#ff0000"
+		},
+		"mapframe-stroke-width": {
+			"label": "Mapframe stroke width",
+			"description": "Width of line features, and outlines of shape features",
+			"type": "number",
+			"default": "2"
+		},
+		"mapframe-marker": {
+			"label": "Mapframe marker",
+			"description": "Marker symbol to use for coordinates; see [[mw:Help:Extension:Kartographer/Icons]] for options",
+			"example": "museum",
+			"type": "string"
+		},
+		"mapframe-marker-color": {
+			"aliases": [
+				"mapframe-marker-colour"
+			],
+			"label": "Mapframe marker color",
+			"description": "Background color for the marker",
+			"type": "string",
+			"default": "#5E74F3"
+		},
+		"mapframe-geomask-stroke-color": {
+			"aliases": [
+				"mapframe-geomask-stroke-colour"
+			],
+			"label": "Mapframe geomask stroke color",
+			"description": "Color of outline of geomask shape",
+			"type": "string",
+			"default": "#555555"
+		},
+		"mapframe-geomask-stroke-width": {
+			"label": "Mapframe geomask stroke width",
+			"description": "Width of outline of geomask shape",
+			"type": "number",
+			"default": "1"
+		},
+		"mapframe-geomask-fill": {
+			"label": "Mapframe geomask fill",
+			"description": "Color used to fill outside geomask features",
+			"type": "string",
+			"default": "#606060"
+		},
+		"mapframe-geomask-fill-opacity": {
+			"label": "Mapframe geomask fill opacity",
+			"description": "Opacity level of fill outside geomask features, a number between 0 and 1",
+			"type": "number",
+			"default": "0.25"
+		},
+		"mapframe-zoom": {
+			"label": "Mapframe zoom",
+			"description": "Set the zoom level, from \"1\" to \"18\", to used if the zoom level cannot be determined automatically from object length or area. NB: default may also be set by Kartographer automatically based on the features rendered.",
+			"example": "12",
+			"type": "number",
+			"default": "10"
+		},
+		"mapframe-length_km": {
+			"label": "Mapframe length (km)",
+			"description": "Object length in kilometres, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-length_mi": {
+			"label": "Mapframe length (mi)",
+			"description": "Object length in miles, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-area_km2": {
+			"label": "Mapframe area (km^2)",
+			"description": "Object arean square kilometres, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-area_mi2": {
+			"label": "Mapframe area (mi^2)",
+			"description": "Object area in square miles, for automatically determining zoom level. ONLY use ONE of the available parameters for length or area",
+			"type": "number"
+		},
+		"mapframe-frame-coordinates": {
+			"aliases": [
+				"mapframe-frame-coord"
+			],
+			"label": "Mapframe frame coordinates",
+			"description": "Alternate latitude and longitude coordinates for initial placement of map, using {{coord}}",
+			"example": "{{Coord|12.35|N|56.71|E}}",
+			"type": "wiki-template-name"
+		},
+		"mapframe-line": {
+			"label": "Mapframe line feature",
+			"description": "Turn off display of line feature by setting to none. Force display of line by setting to on.",
+			"type": "string"
+		},
+		"mapframe-type": {
+			"label": "Mapframe type",
+			"description": "Type of the object rendered in the mapframe, like with {{coord}}.",
+			"type": "string"
+		},
+		"mapframe-line-stroke-color": {
+			"aliases": [
+				"mapframe-line-stroke-colour"
+			],
+			"label": "Mapframe line stroke color",
+			"description": "Color of line features",
+			"type": "string",
+			"default": "#ff0000"
+		},
+		"mapframe-line-stroke-width": {
+			"label": "Mapframe line stroke width",
+			"description": "Width of line features",
+			"type": "number",
+			"default": "5"
+		},
+		"mapframe-shape-stroke-color": {
+			"aliases": [
+				"mapframe-shape-stroke-colour"
+			],
+			"label": "Mapframe shape stroke color",
+			"description": "Color of outlines of shape features",
+			"type": "string",
+			"default": "#ff0000"
+		},
+		"mapframe-shape-stroke-width": {
+			"label": "Mapframe shape stroke width",
+			"description": "Width of outlines of shape features",
+			"type": "number",
+			"default": "2"
+		},
+		"units4": {},
+		"units5": {},
+		"units6": {},
+		"casualties4": {},
+		"casualties5": {},
+		"casualties6": {},
+		"commander4": {},
+		"commander5": {},
+		"commander6": {},
+		"strength4": {},
+		"strength5": {},
+		"strength6": {},
+		"combatant4": {},
+		"combatant4a": {},
+		"combatant4b": {},
+		"combatant4c": {},
+		"combatant4d": {},
+		"combatant5": {},
+		"combatant5a": {},
+		"combatant5b": {},
+		"combatant5c": {},
+		"combatant5d": {},
+		"combatant6": {},
+		"combatant6a": {},
+		"combatant6b": {},
+		"combatant6c": {},
+		"combatant6d": {},
+		"polstrength1": {},
+		"polstrength2": {},
+		"polstrength3": {},
+		"polstrength4": {},
+		"polstrength5": {},
+		"polstrength6": {},
+		"milstrength1": {},
+		"milstrength2": {},
+		"milstrength3": {},
+		"milstrength4": {},
+		"milstrength5": {},
+		"milstrength6": {},
+		"units_header": {},
+		"strengths_header": {},
+		"polstrengths_header": {},
+		"milstrengths_header": {},
+		"casualties_header": {},
+		"action": {},
+		"map_alt": {}
+	}
+}</templatedata>
+{{Collapse bottom}}
+
+==See also==
+*{{tl|Infobox military operation}}
+*{{tl|Infobox civil conflict}}
+*{{tl|Infobox civilian attack}}
+*[[Wikipedia:Infobox too large]]
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:War and conflict infobox templates| ]]
+[[Category:Templates based on the Infobox Lua module]]
+}}</includeonly>

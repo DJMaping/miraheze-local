@@ -1,0 +1,9 @@
+<includeonly>{{#invoke:Footnotes|harvard_citation
+|bracket_year_left = (
+|bracket_year_right = {{#if:{{{p|}}}{{{page|}}}{{{pp|}}}{{{pages|}}}{{{loc|}}}{{{at|}}}||)}}
+|bracket_right = {{#if:{{{p|}}}{{{page|}}}{{{pp|}}}{{{pages|}}}{{{loc|}}}{{{at|}}}|)}}
+|template=harvtxt
+}}</includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

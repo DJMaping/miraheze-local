@@ -1,0 +1,29 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Colombia
+| flag alias = Flag of Colombia.svg
+| flag alias-1861 = Flag of Colombia (WFB 2013).gif
+| flag alias-2004 = Flag of Colombia (2004 World Factbook).gif
+| flag alias-civil = Civil Ensign of Colombia.svg
+| flag alias-naval = Naval Ensign of Colombia.svg
+| link alias-naval = Colombian National Navy
+| flag alias-army = Flag of the Colombian Army.svg
+| link alias-army = Colombian National Army
+| flag alias-air force = Flag of the Colombian Air Force.svg
+| link alias-air force = Colombian Aerospace Force
+| flag alias-marines=Flag of the Colombian Naval Infantry.svg
+| link alias-marines=Colombian Naval Infantry
+| link alias-navy = Colombian National Navy 
+| flag alias-navy = Flag of the Colombian Navy.svg
+| flag alias-military = Military flag of Colombia.svg
+| link alias-military = Military Forces of Colombia 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1861
+| var2 = 2004
+| var3 = civil
+| redir1 = COL
+</noinclude>
+}}

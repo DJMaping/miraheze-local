@@ -1,0 +1,6 @@
+#REDIRECT [[Template:Increase]]
+
+{{Redirect category shell|
+{{R from nickname}}
+{{R from template shortcut}}
+}}

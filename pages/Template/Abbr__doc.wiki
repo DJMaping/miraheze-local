@@ -1,0 +1,205 @@
+{{Documentation subpage}} 
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{hatnote|For inline cleanup templates requesting definitions or explanations, see {{tl|Definition}} and {{tl|Explain}}.}}
+{{Cascade-protected template}}
+{{COinS safe|n}}
+{{Template display|nomobile}}
+{{High-use}}
+{{Bot use warning|bots=[[User:AAlertBot]]}}
+{{#ifeq:{{ROOTPAGENAME}}|Tooltip|{{Uses TemplateStyles|Template:Tooltip/styles.css}}}}
+
+Wikipedia uses two separate templates to generate tooltips. The {{tl|abbr}} template is used to write an abbreviation (including an acronym or initialism) with its expanded meaning. It is a wrapper for the [[HTML]] [[HTML element#General phrase elements|element]] {{tag|abbr}}.  The {{tl|tooltip}} template uses the {{tag|span}} element to provide generic notes.
+
+'''Only use {{tnull|abbr}} or {{tag|abbr|o}} to mark up abbreviations (including acronyms and initialisms).''' Using it to generate tooltips elsewhere is a misuse of the underlying HTML and causes [[WP:Accessibility|accessibility]] problems. For general-purpose tooltips, use {{tlx|tooltip}} instead.
+
+Readers on '''mobile devices''' typically do not have a mouse to hover with, and so generally cannot see tooltip contents. As of 2023, more English Wikipedia page views occur on mobile than on desktop browsers.[https://stats.wikimedia.org/#/en.wikipedia.org/reading/total-page-views/normal|bar|2-year|access~desktop*mobile-app*mobile-web|monthly]
+
+== Usage ==
+
+{{tlc|{{BASEPAGENAME}}|text to display inline in the article|pop-up tip}}
+
+== Parameters ==
+
+Two unnamed (positional) parameters (required) and three named parameters (optional):
+
+* {{para|1}} – the term to be explained; displays as text. [[Wiki markup]] is allowed but works more consistently when wrapping the template, see below for linking examples.
+* {{para|2}} – the tooltip/pop-up ('''no wiki or HTML markup allowed'''). The popup is created by an HTML <code>title=</code> attribute, so it cannot contain HTML (or markup that resolves to HTML when rendered). This includes simple things like <code><nowiki>''italics''</nowiki></code>.
+* {{para|class}}  – one or more CSS classes (space-separated if more than one)
+* {{para|id}}  – an HTML ID must be unique on the entire page.
+* {{para|style}}  –  CSS to apply to the displayed text (no effect on tooltip/popup). Any style values with embedded blanks must be single-quoted, e.g. {{para|style|font-family: 'Times New Roman', serif;}}
+
+== Examples ==
+
+{{markup
+|<nowiki>{{abbr|LSD|Louisiana School for the Deaf}}
+</nowiki>
+|{{abbr|LSD|Louisiana School for the Deaf}}
+}}
+
+When hovering over the text "{{abbr|LSD|Louisiana School for the Deaf}}", something like <span class="titlehint" style="border: 1px solid black; background-color: #FFFFFF; margin-right: 2px; padding: 1px 2px; font-size: smaller; box-shadow: 2px 2px 3px #A0A0A0;">Louisiana School for the Deaf</span> will appear as a tooltip in desktop browsers. Mobile devices may display a dotted line or other visual indicator of abbreviation, but ''will not'' provide the tooltip. No screen readers for the visually impaired will read the expansion by default; some provide an optional setting to read the expansion aloud.
+
+=== Abbr examples ===
+{{markup
+| title=Accessible when used in addition to inline expansion
+|<nowiki>High school students staying overnight on the Louisiana School for the Deaf (LSD) campus can phone their parents using an American Sign Language (ASL) interpreter. Although fluent in {{abbr|ASL|American Sign Language}}, most students at {{abbr|LSD|Louisiana School for the Deaf}} prefer texting their parents directly.
+</nowiki>
+|High school students staying overnight on the Louisiana School for the Deaf (LSD) campus can phone their parents using an American Sign Language (ASL) interpreter. Although fluent in {{abbr|ASL|American Sign Language}}, most students at {{abbr|LSD|Louisiana School for the Deaf}} prefer texting their parents directly.
+}}
+
+In the above example, each abbreviation is first expanded in the body text within parentheses. The template provides an ''additional'' way for some users to access the meaning later in the text. See [[MOS:ABBR]] for more information.
+
+{{markup
+| title=Less accessible when used in place of inline expansion
+|<nowiki>High school students staying overnight on the {{abbr|LSD|Louisiana School for the Deaf}} campus can phone their parents using an {{abbr|ASL|American Sign Language}} interpreter. Although fluent in {{abbr|ASL|American Sign Language}}, most students at {{abbr|LSD|Louisiana School for the Deaf}} prefer texting their parents directly.
+</nowiki>
+|High school students staying overnight on the {{abbr|LSD|Louisiana School for the Deaf}} campus can phone their parents using an {{abbr|ASL|American Sign Language}} interpreter. Although fluent in {{abbr|ASL|American Sign Language}}, most students at {{abbr|LSD|Louisiana School for the Deaf}} prefer texting their parents directly.
+}}
+
+In the above example, all abbreviations are expanded via the template. This is discouraged because it is the ''only'' way for users to access the meaning. Users reading on a mobile device, reading a printout, or listening to a screen reader will likely not have access to the full meaning.
+
+{{markup
+| title=Least accessible when <span style="color:red;">misused</span> to create tooltip notes
+|<nowiki>High school students staying overnight on the {{abbr|LSD|Louisiana School for the Deaf}} campus can phone their parents using an {{abbr|ASL|American Sign Language}} {{abbr|interpreter|Although fluent in ASL, most students at LSD prefer texting their parents directly.}}.
+</nowiki>
+|High school students staying overnight on the {{abbr|LSD|Louisiana School for the Deaf}} campus can phone their parents using an {{abbr|ASL|American Sign Language}} {{abbr|interpreter|Although fluent in ASL, most students at LSD prefer texting their parents directly.}}.
+}}
+
+In the above example, all abbreviations are expanded via the template, and an entire sentence is embedded via the template. It is the ''only'' way for users to access the meaning. A user reading on a mobile device, reading a printout, or listening to a screen reader will likely not have access to the full meaning of the abbreviation and will have no clear indication that the embedded footnote exists.
+
+===Tooltip example===
+{{markup
+|<nowiki>[[WP:COI|{{tooltip|conflict of interest|in the specific sense employed in Wikipedia policy}}]]</nowiki>
+|[[WP:COI|{{tooltip|conflict of interest|in the specific sense employed in Wikipedia policy}}]]
+}}
+
+Tooltips should not be used within the body text of an article if possible (see [[MOS:NOTOOLTIPS]]). Generic tooltip notes are not a substitute for [[Help:Footnotes|footnotes]] and are intended to be used for navigational and other secondary features where space is limited. See [[Template:Glossary link]] or [[Template:Cite book/doc#Usage]] for practical examples.
+
+== Linking ==
+{{Notice|Preferably use {{tl|Abbrlink}} instead.}}
+To wiki-link the abbreviation being marked up by this template, wrap the template in the link, or the tooltip will not appear in some browsers. 
+
+{|class="wikitable"
+!Compatibility
+!Markup
+!Renders as
+|-
+!{{yes|Compatible}}
+|{{code|<nowiki>[[Knockout#Technical knockout|{{abbr|TKO|technical knockout}}]]</nowiki>}}
+|[[Knockout#Technical knockout|{{abbr|TKO|technical knockout}}]]
+|-
+!{{no|Less compatible}}
+|{{code|<nowiki>{{abbr|[[Knockout#Technical knockout|TKO]]|technical knockout}}</nowiki>}}
+|{{abbr|[[Knockout#Technical knockout|TKO]]|technical knockout}}
+|}
+
+== Accessibility and validity ==
+
+The {{Tl|Abbr}} template is intended {{em|only}} for use with abbreviations (including acronyms and initialisms).
+
+The [[Web Content Accessibility Guidelines]] contain guidelines for using the {{tag|abbr|o}} element generated by this template; see section [http://www.w3.org/TR/WCAG20-TECHS/H28.html H28: Providing definitions for abbreviations by using the abbr and acronym elements]. HTML specifications (both those of the [[W3C]] and [[WHATWG]]) strictly define the {{tag|abbr|o}} element as reserved for markup of abbreviations.  Abusing it for mouse-over tooltips breaks our [[Semantic HTML|semantic markup]] and makes our content {{em|invalid HTML}} (it will falsely pass a basic [[Validator|automated validator]] test because such a tool can't tell that the logical application of the data to the structure isn't correct, only that tags are nested properly).
+
+== Redirects ==
+
+The following template names will [[Wikipedia:Redirect|redirect]] to {{tl|Abbr}}:
+* {{tl|Abbrv}}
+* {{tl|Define}}
+
+{{tl|Tooltip}} is a separate template sharing the same documentation.
+
+==Maintenance categories==
+*{{clc|Pages using tooltip with unknown parameters}}
+
+== Template data ==
+{{TemplateData header}}<!--
+
+This documentation is shared by Template:abbr and Template:tooltip. TemplateData for both is below.
+
+-->
+{{#switch: {{PAGENAME}} 
+| Abbr = <TemplateData>
+{
+        "description": "An abbreviation or acronym with a tooltip displayed on mouse-over.",
+        "params": {
+                "1": {
+                        "label": "Term",
+                        "description": "Shows as text",
+                        "type": "string/line",
+                        "required": true
+                },
+                "2": {
+                        "label": "Meaning",
+                        "description": "Shows as a mouse-over tooltip; do not use markup",
+                        "type": "string",
+                        "required": true
+                },
+                "style": {
+                        "label": "CSS",
+                        "description": "applies the specified CSS directives to the content of parameter 1",
+                        "type": "string",
+                        "required": false
+                },
+                "class": {
+                        "label": "Class",
+                        "description": "Adds a one or more CSS classes",
+                        "type": "string",
+                        "required": false
+                },
+                "id": {
+                        "label": "ID",
+                        "description": "Adds an HTML id (must be unique in the page)",
+                        "type": "string",
+                        "required": false
+                }
+        }
+}
+</TemplateData>
+| Tooltip = <TemplateData>
+{
+        "description": "Generic tooltip displayed on mouse-over.",
+        "params": {
+                "1": {
+                        "label": "Term",
+                        "description": "Shows as text",
+                        "type": "string/line",
+                        "required": true
+                },
+                "2": {
+                        "label": "Tooltip",
+                        "description": "Shows as a mouse-over tooltip; do not use markup",
+                        "type": "string",
+                        "required": true
+                },
+                "style": {
+                        "label": "CSS",
+                        "description": "applies the specified CSS directives to the content of parameter 1",
+                        "type": "string",
+                        "required": false
+                },
+                "class": {
+                        "label": "Class",
+                        "description": "Adds a one or more CSS classes",
+                        "type": "string",
+                        "required": false
+                },
+                "id": {
+                        "label": "ID",
+                        "description": "Adds an HTML id (must be unique in the page)",
+                        "type": "string",
+                        "required": false
+                }
+        }
+}
+</TemplateData>
+}}
+
+== See also ==
+* {{tl|Abbrlink}}, a variant of this template that includes automatic wikilinking of the term (abbreviation).
+* {{tl|dfn}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Abbreviation templates| ]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+[[Category:Semantic markup templates]]
+
+}}</includeonly>

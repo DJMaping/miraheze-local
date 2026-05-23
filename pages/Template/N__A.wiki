@@ -1,0 +1,5 @@
+<noinclude>{| class="wikitable"
+|-
+   | </noinclude><onlyinclude>data-sort-value="{{{sort|}}}" style="background: var(--background-color-interactive, #ececec); color: var(--color-base, inherit); vertical-align: middle; text-align: {{{align|center}}}; {{{style|}}}" class="table-na" <!--
+-->| {{{1|—}}}</onlyinclude><noinclude>
+|}{{documentation}}</noinclude>

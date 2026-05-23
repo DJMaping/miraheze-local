@@ -1,0 +1,5 @@
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{FormattingError|[[:{{safesubst:<noinclude/>#invoke:TEMPLATENAME|main}}]] is only for examples of style and formatting. Do not use it in actual articles.}}|<span class="example deprecated-content example-bad monospaced example-mono" style="font-family: monospace, monospace; color: var(--color-content-removed, #8B0000);" {{#if:{{{title|}}}|title="{{{title}}}"}}>{{{1|Example text}}}</span>}}<!--"monospace, monospace" needed per Wikipedia:Typography#The_monospace_'bug'--><noinclude>
+{{Documentation|Template:Xt/doc}}
+<!--This category has to be done on a per-template basis, not in the shared docs, since it only apply to four templates in the family.-->
+[[Category:Programming typing-aid templates]]
+</noinclude>

@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Shortcut|main|template=yes|redirect=yes}}</includeonly><noinclude>{{Documentation}}</noinclude>

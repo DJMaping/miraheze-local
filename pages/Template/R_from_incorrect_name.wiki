@@ -1,0 +1,13 @@
+<noinclude>{{This is a redirect/rcat}}
+</noinclude>{{Redirect template
+  |id=R from incorrect name
+  |name=From an incorrect name
+  |from=an incorrect name that serves readers as a good search term
+  |info=The correct name is {{#if:{{{1|}}}|{{Big|'''{{{1}}}'''}}|given by the target of the redirect}}.
+** ''Pages that use this link should be updated to link directly to the target'' without the use of a [[WP:piped link|piped link]] that hides the correct details.
+  |all category={{#ifeq:{{{demo}}}|yes||Redirects from incorrect names}}
+  |printworthy={{#ifeq:{{{2}}}|printworthy|yes|no}}
+}}<noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,10 @@
+<templatestyles src="Tracked/styles.css" /><div role="note" class="tracked plainlinks {{#if:{{{1|}}}|mw-trackedTemplate}}">Tracked in [[phabricator:|Phabricator]]<br />{{#if:{{{1|}}}|<span class="tracked-url">[[phabricator:{{ #ifeq: {{padleft: | 1 | {{ uc: {{{1}}} }} }} | T | {{ uc: {{{1}}} }} | T{{ #expr: {{{1}}} + 2000 }} }}|<span class="trakfab-{{ #ifeq: {{padleft: | 1 | {{ uc: {{{1}}} }} }} | T | {{ uc: {{{1}}} }} | T{{ #expr: {{{1}}} + 2000 }} }}"> Task {{ #ifeq: {{padleft: | 1 | {{ uc: {{{1}}} }} }} | T | {{ uc: {{{1}}} }} | T{{ #expr: {{{1}}} + 2000 }} }}</span>]]</span>}}<br>{{#switch:{{lc:{{{2|}}}}}
+  |resolved|fixed=<span class="tracked-closure tracked-resolved">Resolved</span>
+  |invalid=<span class="tracked-closure">Invalid</span>
+  |duplicate=<span class="tracked-closure">Duplicate</span>
+  |declined|wontfix=<span class="tracked-closure">Declined</span>
+  |stalled|later=<span class="tracked-closure">Stalled</span>
+  |open=<span class="tracked-closure">Open</span>
+}}</div><noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,15 @@
+{| role="presentation" <!-- Template:Collapse --> class="mw-collapsible mw-archivedtalk {{#switch:{{lc:{{{expand|no}}}}}|uncollapse|uncollapsed|expand|expanded|yes|y=mw-uncollapsed|#default=mw-collapsed}} {{{class|}}}" style="{{{{{|safesubst:}}}#ifeq:{{NAMESPACEE}}|{{ns:0}}|display: none;}}{{#if:{{{bg1|}}}|background-color: {{{bg1}}};color:inherit;}} text-align: left; border: {{{border|1px}}} solid {{{b-color|var(--border-color-subtle, #c8ccd1)}}}; {{{{{|safesubst:}}}#switch:{{{float|}}}
+| left = margin:0.2em 0.5em 0.2em 0; width:{{{{{|safesubst:}}}#if:{{{width|}}}|{{{width}}}|auto}}; float: left; clear: {{{clear|left}}}
+| right = margin:0.2em 0 0.2em 0.5em; width:{{{{{|safesubst:}}}#if:{{{width|}}}|{{{width}}}|auto}}; float: right; clear: {{{clear|right}}}
+| none = margin:0.2em 0; width:{{{{{|safesubst:}}}#if:{{{width|}}}|{{{width}}}|auto}}; clear: {{{clear|none}}}
+| center | centre = margin:0.2em auto; width:{{{{{|safesubst:}}}#if:{{{width|}}}|{{{width}}}|auto}}; clear: {{{clear|both}}}
+| #default = margin: 0.2em auto auto; width:{{{{{|safesubst:}}}#if:{{{width|}}}|{{{width}}}|100%}}; clear: {{{clear|both}}}
+}}; padding: 1px;"
+|-
+! style="background-color: {{{background|{{{bg|var(--background-color-interactive, #eaecf0)}}}}}};color:inherit; font-size:87%; padding:0.2em 0.3em; text-align: {{{{{|safesubst:}}}#if:{{{left|}}}|left|{{{{{|safesubst:}}}#if:{{{center|}}}|center|left}}}}; {{{{{|safesubst:}}}#if:{{{fc|}}}|color: {{{fc}}};|}}" | <div style="display: inline; font-size: 115%; color: {{{fc|{{{{{|safesubst:}}}#if:{{{bg|}}}|#202122|var(--color-base, #202122)}}}}};">{{{2|{{{title|{{{reason|{{{header|{{{heading|{{{result|Extended content}}}}}}}}}}}}}}}}}}</div>
+|-
+| style="border: solid {{{border2|1px var(--border-color-subtle, #c8ccd1)}}}; padding: {{{padding|8px}}}; background-color: {{{bg2|var(--background-color-base, #fff)}}}; color: {{{fc2|{{{{{|safesubst:}}}#if:{{{bg2|}}}|&#35;202122|var(--color-base, #202122)}}}}};" |
+<div>{{{content|{{{text|{{{1<noinclude>|{{lorem ipsum|3}}</noinclude>}}}}}}}}}</div>
+|}{{{{{|safesubst:}}}#ifeq:{{NAMESPACEE}}|{{ns:0}}|<span class="error noprint">[[Template:collapse]] is not available for use in articles (see [[MOS:COLLAPSE]]).</span>}}<noinclude>
+{{Documentation}}
+</noinclude>

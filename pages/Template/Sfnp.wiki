@@ -1,0 +1,7 @@
+<includeonly>{{#invoke:Footnotes|sfn
+|bracket_year_left = (
+|bracket_year_right = )
+|template=sfnp
+}}</includeonly>{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using sfn with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Sfnp]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | 2 | 3 | 4 | 5 | ignore-err | at | loc | p | page | pages | postscript | pp | ps | ref | Ref | group}}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,131 @@
+/* {{pp|small=y}} */
+.navbox {
+	box-sizing: border-box;
+	border: 1px solid #a2a9b1;
+	width: 100%;
+	clear: both;
+	font-size: 88%;
+	text-align: center;
+	padding: 1px;
+	margin: 1em auto 0; /* Prevent preceding content from clinging to navboxes */
+}
+
+.navbox .navbox {
+	margin-top: 0; /* No top margin for nested navboxes */
+}
+
+.navbox + .navbox-styles + .navbox,
+/* category positions are wrapped in an "empty" span in Parsoid [[phab:T378906]] */ 
+.navbox + span.mw-empty-elt + .navbox-styles + .navbox {
+	margin-top: -1px; /* Single pixel border between adjacent navboxes */
+}
+
+.navbox-inner,
+.navbox-subgroup {
+	width: 100%;
+}
+
+.navbox-group,
+.navbox-title,
+.navbox-abovebelow {
+	padding: 0.25em 1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.navbox-group {
+	white-space: nowrap;
+	/* @noflip */
+	text-align: right;
+}
+
+.navbox,
+.navbox-subgroup {
+	background-color: #fdfdfd;
+    color:inherit;
+}
+
+.navbox-list {
+	line-height: 1.5em;
+	border-color: #fdfdfd; /* Must match background color */
+}
+
+.navbox-list-with-group {
+	text-align: left;
+	border-left-width: 2px;
+	border-left-style: solid;
+}
+
+/* cell spacing for navbox cells */
+/* Borders above 2nd, 3rd, etc. rows */
+/* TODO: figure out how to replace tr as structure;
+ * with div structure it should be just a matter of first-child */
+tr + tr > .navbox-abovebelow,
+tr + tr > .navbox-group,
+tr + tr > .navbox-image,
+tr + tr > .navbox-list {
+	border-top: 2px solid #fdfdfd; /* Must match background color */
+}
+
+.navbox-title {
+	background-color: #ccf; /* Level 1 color */
+    color:inherit;
+}
+
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+	background-color: #ddf; /* Level 2 color */
+    color:inherit;
+}
+
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+	background-color: #e6e6ff; /* Level 3 color */
+    color:inherit;
+}
+
+.navbox-even {
+	background-color: #f7f7f7;
+    color:inherit;
+}
+
+.navbox-odd {
+	background-color: transparent;
+    color:inherit;
+}
+
+/* TODO: figure out how to remove reliance on td as structure */
+.navbox .hlist td dl,
+.navbox .hlist td ol,
+.navbox .hlist td ul,
+.navbox td.hlist dl,
+.navbox td.hlist ol,
+.navbox td.hlist ul {
+	padding: 0.125em 0;
+}
+
+.navbox .navbar {
+	display: block;
+	font-size: 100%;
+}
+
+.navbox-title .navbar {
+	/* @noflip */
+	float: left;
+	/* @noflip */
+	text-align: left;
+	/* @noflip */
+	margin-right: 0.5em;
+}
+
+/** T367463 */
+body.skin--responsive .navbox-image img {
+	max-width: none !important;
+}
+
+@media print {
+	body.ns-0 .navbox {
+		display: none !important;
+	}
+}

@@ -1,0 +1,3 @@
+{{#ifeq:{{SUBPAGENAME}}|testcases|{{{1|}}}|{{{2|}}}}}<noinclude>
+{{documentation}}
+</noinclude>

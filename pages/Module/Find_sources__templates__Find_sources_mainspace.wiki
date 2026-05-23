@@ -1,0 +1,29 @@
+return {
+	blurb = "''Find sources:''&nbsp;$1&nbsp;–&nbsp;$2",
+	introLink = {
+		code = 'google'
+	},
+	links = {
+		{
+			code = 'google news',
+			display = 'news'
+		},
+		{
+			code = 'google newspapers',
+			display = 'newspapers'
+		},
+		{
+			code = 'google books',
+			display = 'books'
+		},
+		{
+			code = 'google scholar',
+			display = 'scholar'
+		},
+		{
+			code = 'jstor',
+			display = 'JSTOR'
+		}
+	},
+	isUsedInMainspace = true
+}

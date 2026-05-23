@@ -1,0 +1,19 @@
+-- This page contains a table of all RfD templates and their
+-- redirects. Templates names are capitalized, and the Template: prefix is
+-- removed. Templates are grouped with the main template first, followed by
+-- its redirects.
+
+return {
+	-- Template forms (these should be substituted so we should rarely see these)
+	["Redirect for discussion"] = true,
+		["RFD"] = true,
+		["RfD"] = true,
+		["Rfd1"] = true,
+		["Rfd-t"] = true,
+		["Rfd"] = true,
+		["Rfd-NPF"] = true,
+		["Rfd-NPF/core"] = true,
+	-- Module forms
+	["#invoke:RfD"] = true,
+	["<includeonly>safesubst:</includeonly>#invoke:RfD"] = true, -- The form made by substituting RfD
+}

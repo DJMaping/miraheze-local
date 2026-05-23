@@ -1,0 +1,16 @@
+{{Redirect template
+  |id=R semi-protected
+  |name=[[:Category:Wikipedia semi-protected redirects|Semi-protected]]
+  |from=a title that is semi-protected from editing for any of several possible reasons
+  |info=** '''Please do not replace these redirected links''' with links directly to the target page unless expressly advised to do so below or elsewhere on this page, or if the change is supported by a policy or guideline.
+  |all category=<!--for automatic namespace detection-->
+}}<includeonly>{{#ifeq:{{{nocat|}}}|true||{{#ifeq:{{FULLPAGENAME}}|Template:R semi-protected||{{#ifeq: {{SUBPAGENAME}}|sandbox||{{#switch: {{PROTECTIONLEVEL:move}}
+   |extendedconfirmed=[[Category:Wikipedia extended-confirmed-protected redirects]]
+   |templateeditor=[[Category:Wikipedia template-protected redirects]]
+   |sysop=[[Category:Wikipedia fully protected redirects]]
+ }}{{#switch: {{PROTECTIONLEVEL:edit}}
+   |autoconfirmed=[[Category:Wikipedia semi-protected redirects]]
+   |extendedconfirmed|templateeditor|sysop|#default=[[Category:Wikipedia pages with incorrect protection templates]]
+}}}}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

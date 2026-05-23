@@ -1,0 +1,14 @@
+<includeonly>{{#if:{{{1|}}}
+	|<templatestyles src="Template:Template journal/styles.css" /><div class="tj-box">&#123;&#123;<span class="tj-tn">{{Simple link|1=:Template:{{{1}}}|2={{{1}}}}}</span>{{#invoke:params|
+		sequential|
+		cutting|1|0|
+		squeezing|
+		trimming_values|
+		setting|hi/f|<br />	&#124; |<br />|
+		mapping_by_replacing|^[^:]+$|<span class{{=}}"tj-ac">%0</span>|1|
+		mapping_by_replacing|^([^:].-)%s*:%s*(.*)$|<span class{{=}}"tj-an">%1</span> &#61; <span class{{=}}"tj-ac">%2</span>|1|
+		mapping_by_replacing|^:%s*(.*)$|&#61; <span class{{=}}"tj-ac">%1</span>|1|
+		list_values
+	}}&#125;&#125;</div>
+	|{{Error|Error: Missing template name}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>

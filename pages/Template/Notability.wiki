@@ -1,0 +1,120 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Notability}} begin-->{{Ambox
+| name  = Notability
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| type  = content
+| class = ambox-Notability
+| removalnotice = yes
+| issue = The topic of this {{#ifeq:{{NAMESPACE}}|Draft|draft|article}} {{strong|may not meet Wikipedia's {{#switch: {{lc:{{#invoke:String|replace|{{{1}}}|s$|||false}}}}<!--strip trailing "s"-->
+   | astro               
+   | astronomical object = [[Wikipedia:Notability (astronomical objects)|notability guideline for astronomical objects]]
+   | notability (people)
+   | bio
+   | biography
+   | biographie<noinclude><!--trailing "s" on input is stripped, this line matches "biographies"--></noinclude>          = [[Wikipedia:Notability (people)|notability guideline for biographies]]
+   | prof
+   | notability (academics)
+   | academic            = [[Wikipedia:Notability (academics)|notability guideline for academics]]
+   | notability (books)
+   | book                = [[Wikipedia:Notability (books)|notability guideline for books]]
+   | notability (events)
+   | event               = [[Wikipedia:Notability (events)|notability guideline for events]]
+   | notability (films)
+   | movie
+   | film                = [[Wikipedia:Notability (films)|notability guideline for films]]
+   | notability (television)
+   | television
+   | TV
+   | tv                  = [[Wikipedia:Notability|notability guideline for television]]
+   | notability (companies and corporations)
+   | corp
+   | companie<noinclude><!--trailing "s" on input is stripped, this line matches "companies"--></noinclude>
+   | company             = [[Wikipedia:Notability (organizations and companies)|notability guidelines for companies and organizations]]
+   | institution
+   | org
+   | organisation
+   | organization        = [[Wikipedia:Notability (organizations and companies)|notability guidelines for companies and organizations]]
+   | product             = [[Wikipedia:Notability (organizations and companies)#Products and services|notability guidelines for products and services]]
+   | notability (fiction)
+   | fict
+   | fiction             = [[Wikipedia:Notability|general notability guideline]]
+   | list                = [[Wikipedia:Notability#Stand-alone lists|notability guideline for stand-alone lists]]
+   | geo
+   | geographic
+   | geography
+   | building
+   | place               = [[Wikipedia:Notability (geographic features)|notability guideline for geographic features]]
+   | notability (music)
+   | music               = [[Wikipedia:Notability (music)|notability guideline for music]]
+   | neo
+   | avoid neologism
+   | neologism           = [[Wikipedia:Avoid neologisms|notability guideline for neologisms]]
+   | sport               = [[Wikipedia:Notability (sports)|notability guideline for sports and athletics]]
+   | notability (numbers)
+   | number              = [[Wikipedia:Notability (numbers)|notability guideline for numbers]]
+   | notability (web)
+   | web                 = [[Wikipedia:Notability (web)|notability guideline for web content]]
+   | specie<noinclude><!--trailing "s" on input is stripped, this line matches "species"--></noinclude>              = [[Wikipedia:Notability (species)|notability guideline for species]]
+   | notability
+   | #default            = [[Wikipedia:Notability|general notability guideline]]
+   }}}}.
+
+| fix   = Please help to demonstrate the notability of the topic by citing [[Wikipedia:Reliable sources|reliable secondary sources]] that are [[Wikipedia:Independent sources|independent]] of the topic and provide significant coverage of it beyond a mere trivial mention. {{#ifeq:{{NAMESPACE}}|Draft|Notability should be established ''before'' publishing this draft or submitting it via the [[WP:AfC|articles for creation]] process.|If notability cannot be shown, the article is likely to be [[Wikipedia:Merging|merged]], [[Wikipedia:Redirect|redirected]], or [[Wikipedia:Deletion policy|deleted]].}}{{#if:{{{find2|{{{unquoted|}}}}}}| <br /><small>{{find sources mainspace|{{#if:{{{find|}}}|{{{find}}}|.}}|{{{find2|{{{unquoted|}}}}}}}}</small> |{{#if:{{{find|}}}|{{#ifeq: {{{find|}}} |none ||<br /><small>{{find sources mainspace|{{{find}}} }}</small>}}|<br /><small>{{find sources mainspace}}</small>}} }}
+
+| date  = {{{date|}}}
+| cat   = Articles with topics of unclear notability
+| all   = All articles with topics of unclear notability
+| all2  = {{#switch: {{lc:{{#invoke:String|replace|{{{1}}}|s$|||false}}}}<!--strip trailing "s"-->
+   | astro               
+   | astronomical object = Astronomical object articles with topics of unclear notability
+   | notability (people)
+   | bio
+   | biography
+   | biographie<noinclude><!--trailing "s" on input is stripped, this line matches "biographies"--></noinclude>          = Biography articles with topics of unclear notability
+   | prof
+   | notability (academics)
+   | academic            = Academics articles with topics of unclear notability
+   | notability (books)
+   | book                = Book articles with topics of unclear notability
+   | notability (events)
+   | event               = Event articles with topics of unclear notability
+   | notability (films)
+   | movie
+   | film                = Film articles with topics of unclear notability
+   | notability (television)
+   | television
+   | TV
+   | tv                  = Television articles with topics of unclear notability
+   | notability (companies and corporations)
+   | corp
+   | companie<noinclude><!--trailing "s" on input is stripped, this line matches "companies"--></noinclude>
+   | company             = Company articles with topics of unclear notability
+   | institution
+   | org
+   | organisation
+   | organization        = Organization articles with topics of unclear notability
+   | product             = Products articles with topics of unclear notability
+   | notability (fiction)
+   | fict
+   | fiction             = Fiction articles with topics of unclear notability
+   | list                = Lists with topics of unclear notability
+   | geo
+   | geographic
+   | geography
+   | place               = Geography articles with topics of unclear notability
+   | notability (music)
+   | music               = Music articles with topics of unclear notability
+   | neo
+   | avoid neologism
+   | neologism           = Neologisms articles with topics of unclear notability
+   | sport               = Sport articles with topics of unclear notability
+   | notability (numbers)
+   | number              = Number articles with topics of unclear notability
+   | notability (web)
+   | web                 = Web articles with topics of unclear notability
+   | specie<noinclude><!--trailing "s" on input is stripped, this line matches "species"--></noinclude>              = Species articles with topics of unclear notability
+   }}
+}}<!--{{Notability}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Angola
+| flag alias = Flag of Angola.svg
+| link alias-naval = Angolan Navy
+| link alias-army = Angolan Army
+| link alias-navy = Angolan Navy
+| link alias-military = Angolan Armed Forces
+| link alias-air force = National Air Force of Angola
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| redir1 = AGO
+| redir2 = ANG
+</noinclude>
+}}

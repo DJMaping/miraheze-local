@@ -1,0 +1,11 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{high-use|21563}}
+{{Tfluc-common-doc}}
+
+<includeonly>{{Sandbox other||
+
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Direction-related icon templates]]
+
+}}</includeonly>

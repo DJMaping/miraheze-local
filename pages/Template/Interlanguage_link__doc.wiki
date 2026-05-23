@@ -1,0 +1,450 @@
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[WP:Wikidata]]) -->
+{{Template shortcut|ill}}
+{{Hatnote|For guidance, see {{§l|Help:Interlanguage links|Inline links}}.}}
+{{redirect|Template:Ill|text=You may be looking for [[Template:Illinois]]}}
+{{Documentation subpage}}
+{{Bot use warning|bots=[[Wikipedia:Bots/Requests for approval/Cewbot|cewbot]]}}
+{{COinS safe|n}}
+{{expensive}}
+{{Language templates}}
+
+This template may be used to add links to foreign-language Wikipedias for articles where English Wikipedia does not yet have one. The intent is to provide readers with options to research further into topics not yet covered by English Wikipedia. The intent is ''not'' to catalogue every foreign-language article; while there is no general consensus when this template should be used, or what languages should be linked when an article missing in English is present in several other language Wikipedias, more than 2 or 3 links are rarely needed.
+
+This template adds additional links to one or more foreign-language Wikipedias to the end of a [[WP:RED|red link]] in order to both provide readers additional information provided by those languages and give editors additional resources when starting a new article on the topic. If and when an article on the red-linked topic is created, this template will only show the normal blue link to the page (i.e. the foreign-language links will be removed); the template can then be replaced by the [[H:WIKILINK|standard wikilink]], either manually or by [[Wikipedia:Bots/Requests for approval/Cewbot|a bot account]].
+
+Alternatively, the template provides a link to [[WP:WD|WikiData]].{{efn|See the {{para|qid}} parameter. This functionality previously existed as its own separate template, {{tl|Interlanguage link Wikidata}}.}}
+
+This template should not be used when an article on a topic already exists, {{em|except}} when the link is a [[WP:redirect|redirect]] pointing to an article that [[:Category:Redirects with possibilities|potentially could be changed]] into its own article. See {{slink||Limitations and known issues}} for other restrictions and caveats.
+
+==Usage==
+:''Note: all examples on this page will use {{tnull|ill}}, the main [[Wikipedia:Shortcut|template shortcut]] for this template''
+
+{{t|ill}} takes at a minimum two parameters (the "Basic syntax") for linking to a single foreign language, but it can be expanded to include multiple languages (see {{section link|List_of_Wikipedias#Wikipedia_editions}} for the full list of codes). Formatting of the link (e.g. bold, italics, quotes) and display options (e.g. [[WP:PIPE|piping links]]) are described in the {{slink||Parameters}} and {{slink||Examples}} sections below.
+
+;Basic syntax (one language, same title):
+:{{tlc|ill|''English article title'' |''language code''}}
+
+When only a single foreign language link is required and the title at the target language is the same as in English, all that is required in the template is the name of the article and the language code. For example, the German rapper Estikay does not have an article on the English Wikipedia but there is one on the German Wikipedia; to indicate that we would use {{tlc|ill|Estikay|de|_show_result=yes}}.
+
+;Basic syntax (one language, different title)
+:{{tlc|ill|''English article title''|''language code''|''title in foreign language''}}
+
+When only a single foreign language link is required, but the title at the target language is {{em|not}} the same as in English, the title of the foreign language article needs to be included. This often occurs an article title contains a word that would normally be translated, for example {{tlc|ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|_show_result=yes}}.
+
+;Two (or more) languages, same title
+:<code><nowiki>{{</nowiki>ill|''English article title''|''language 1 code''||''language 2 code''||''language 3 code''||...}}</code>
+
+If there are two or more languages using the same title as the proposed English redlink, the foreign language names are not required. <code><nowiki>{{ill|Margarita Cueto|ca||es||pt}}</nowiki></code> → {{ill|Margarita Cueto|ca||es||pt}}
+
+Note: Redirects appear as blue links while foreign-language links are still shown. For example, {{-r|casa}} is a redirect and thus <code><nowiki>{{ill|casa|es||it||ro}}</nowiki></code> → {{ill|casa|es||it||ro}}.
+
+;Two (or more) languages, different title
+:{{tlc|ill|''English article title''|''language 1 code''|''Title in language 1''|''language 2 code''|''Title in language 2''|...}}
+If there are two or more languages, but with a different title as the proposed English redlink, the foreign language names are required {{tlc|ill|Ropsha Palace|de|Ropscha-Palast|fr|Palais de Ropcha|ru|Ропшинский дворец|_show_result=yes}}
+
+=== Alternatives ===
+Please see [[Help:Interlanguage links#Inline links]] for several ways you can add interlanguage links, of which this template is only one method, albeit the recommended one.
+
+For use at the top of a section in the role where a {{t|Further}} link might normally be used, the template {{t|Further ill}} is available with similar functionality to this template for linking foreign Wikipedia articles.
+
+==Parameters==
+Parameters for this template come in four groups:
+* A: one parameter (always required) to specify the page title of the (as yet) non-existent article in English; this normally appears as a [[WP:Red link|red link]]
+* B: parameters specifying the foreign Wikipedia page(s), either by [[meta:Table of Wikimedia projects|Wikipedia language code]] and pagename (these come in pairs), or by a [[Wikidata item|wikidata id]] (a single id may link many foreign Wikipedia pages)
+* C: optional link text, for altering what text is used for the link
+* D: optional stylistic parameters, for modifying how the link (or links) appear on the page
+
+'''group A''' – a '''page title''' of a proposed new article for English Wikipedia; should comply with [[WP:Article title]] policy.
+* {{para|1}} – the proposed page title. This must be a [[WP:RED|red link]] or a [[Template:R with possibilities|redirect with possibilities]]. (If it isn't, do not use this template.) '''Required.'''
+{{anchor|paired positional parameters}}
+'''group B''' – specification of corresponding foreign Wikipedia page(s); up to 16 pairs of ''lang-code + page-title'', or else a single [[Wikidata item|wikidata id]]. Either qid *or* positional param {{para|2}} '''must''' be specified.
+* '''Paired positional params''' {{para|2}} and {{para|3}}, through {{para|32}} and {{para|33}}; the second item of each pair may be empty if the foreign pagename is the same as the param 1:
+** <code>2</code> and <code>3</code> – the [[m:Template:List of language names ordered by code|language code]] and page to link to article(s) on [[List of Wikipedias|foreign Wikipedia]](s). '''Required''' unless {{para|qid}} is used.
+** <code>4</code> and <code>5</code> – a second lang-code and page to link to on a foreign wikipedia. Optional. If 5 is missing, it takes the value of param 1.
+** <code>6</code> and <code>7</code> – a third lang-code/page pair, to link a foreign Wikipedia article. Optional. If 7 is missing, it takes the value of param 1.
+**: and so on, up through:
+** <code>32</code> and <code>33</code> – last lang-code + page pair, to link one foreign Wikipedia article. Optional. If 33 is missing, it takes the value of param 1
+* or '''Wikidata id''' – use of this parameter overrides any positional parameters:
+** {{anchor|qid}} {{para|qid}} – the [[Wikipedia:Wikidata#Access from Wikipedia|Wikidata item identifier]] corresponding to existing article(s) on other Wikipedias. The qid param replaces all of the paired parameters listed above in this group. See [[Wikipedia:Finding a Wikidata ID]] for help in locating a qid from an existing Wikipedia article that is linked from Wikidata. Alternatively, you can search for a qid directly at Wikidata by using the search box at the top of any Wikidata page and searching for a likely label, like [https://www.wikidata.org/w/index.php?search=Basil+of+Luni&language=en&title=Special%3ASearch&ns0=1 this ''Basil of Luni'' search]. The qid should appear in the search results.
+
+'''group C''' – '''altering link text''' changing the text of the link (named param, optional):
+* {{para|lt|...}} – turns the red English link into a [[WP:PIPE|piped link]] using the given text; ('lt' stands for "link text". There is no long form, i.e. you cannot use {{para|link text}}).
+
+'''group D''' – '''stylistic parameters''' for formatting the output (all named params, and all optional):
+* {{para|italics|yes}} – italicizes the display text (but not the language links) (Alias: <code>italic</code>)
+* {{para|quote|yes}} – embed the linked param 1 article name in double quotes (language links remain outside) (Alias: <code>quotes</code>)
+* {{para|nobold|yes}} – force language links to be [[font weight|normal weight]], even if the template is embedded in a line of bolded text
+* {{para|valign|...}} – values: {{pval|sub}} (below the baseline), {{pval|sup}} (above the baseline), or {{pval|ib}} (none). (Alias: <code>v</code>)
+* {{para|preserve|yes}} – force language links to display even if param 1 points to an existing article (Alias: <code>display</code>)
+* {{anchor|short}}{{para|short|yes}} – when {{para|qid}} is in use, shorten the link from '[{{blue|wikidata}}]' to just '[{{blue|wd}}]'. (Alias: <code>s</code>)
+
+==Examples==
+===Altering link text===
+To create a [[WP:piped link|piped link]] (text displayed that is different from the title of the page to which the text links), use the {{para|lt}} parameter (for '''l'''ink '''t'''ext). This is mainly useful if [[WP:disambiguation|disambiguation]] is necessary, but can be used for any reason where a piped link would make sense.
+*{{tlc|ill|David Cannon McConnel|lt{{=}}David|qid{{=}}Q21536696}} (used in the phrase "David and Mary McConnel" in [[Bulimba House]])
+*{{tlc|ill|Capture of Berlin (1813)|lt{{=}}1813 Capture of Berlin|ru|Атака Берлина отрядами Чернышёва и Теттенборна (1813)|_show_result=yes}}
+*{{tlc|ill|Takashi Onishi (scientist)|lt{{=}}Takashi Onishi|ja|大西隆|_show_result=yes}} ([[Takashi Onishi]] is a football player)
+*{{tlc|ill|Yuri Smirnov (physicist)|lt{{=}}Yuri Smirnov|ru|Смирнов, Юрий Николаевич (физик)|_show_result=yes}} ([[Yuri Smirnov]] is a disambiguation page)
+*{{tlc|ill|Grünbein (Argentine town)|es|Grünbein|lt{{=}}Grünbein|_show_result=yes}}
+
+In the last example above, a disambiguator is added because {{-r|Grünbein}} is a redirect, and while (like {{-r|casa}}) this will still show the language codes as {{ill|Grünbein|es}}, the redirect points to [[Durs Grünbein]] which is entirely unrelated to the Argentine town. [[MOS:CIRCULAR|Circular redirects]] are another redirect case where it may make more sense to artificially create a redlink until such time as the redirect can be converted into an article, though this is not required; see {{slink||Circular redirects}} below for more information and an example.
+
+===Stylistic parameters===
+{| class="wikitable"
+!Parameter !! Code !! Output !! Remarks
+|-
+|italics || {{tlc|ill|Un papillon sur l'épaule|fr|italic{{=}}y}} || {{ill|Un papillon sur l'épaule|fr|italic=y}} || Target shows as a bluelink but is a redirect so will still display language links
+|-
+|quote || {{tlc|ill|Maman ne le sait pas|fr|quote{{=}}y}} || {{ill|Maman ne le sait pas|fr|quote=y}} || If both this and {{para|italics}} are used, the quotes will not be italicised
+|-
+|nobold || <code><nowiki>'''{{ill|Ropsha Palace|de|Ropscha-Palast|fr|Palais de Ropcha|nobold=y}}'''</nowiki></code> || '''{{ill|Ropsha Palace|de|Ropscha-Palast|fr|Palais de Ropcha|nobold=y}}''' || Appears as '''{{ill|Ropsha Palace|de|Ropscha-Palast|fr|Palais de Ropcha}}''' if {{para|nobold}} is not used
+|-
+|valign 
+|{{tlc|ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|valign{{=}}sub}}<br>{{tlc|ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|valign{{=}}sup}}<br>{{tlc|ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|valign{{=}}ib}}
+| {{ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|valign=sub}}<br>{{ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|valign=sup}}<br>{{ill|Hooglede town hall|nl|Gemeentehuis van Hooglede|valign=ib}}
+| {{para|valign|sup}} is discouraged as it may be confused with a [[Help:Footnotes|footnote]].<br>{{para|valign|ib}} is for use in infoboxes to avoid the link being too small
+|-
+|preserve || {{tlc|ill|Joke|fr|Blague|hu|Vicc|de|Witz|display{{=}}1}} || {{ill|Joke|fr|Blague|hu|Vicc|de|Witz|display=1}} || Since [[Joke]] exists, this would normally appear as {{ill|Joke|fr|Blague|hu|Vicc|de|Witz}}
+|-
+|qid/short || {{tlc|ill|Basil of Luni|qid{{=}}Q3635819}}<br>{{tlc|ill|Basil of Luni|qid{{=}}Q3635819|short{{=}}yes}} || {{ill|Basil of Luni|qid=Q3635819}}<br>{{ill|Basil of Luni|qid=Q3635819|short=yes}} || Per [[Wikipedia_talk:Manual_of_Style/Archive_204#New_RFC_on_linking_to_Wikidata|this 2018 RFC]], '''do not''' place WikiData links in the main body of articles.
+|}
+
+==WikiData==
+{{main|Wikipedia:WikiData}}
+
+This template can either supply one or more links to foreign-language articles '''or''' a single WikiData link (using the {{para|qid}} parameter detailed above).
+
+; When and where to supply a WikiData link?
+Add a WikiData link to a concept where no quality article could be found in any language, but normally only through InfoBoxes or similar templates. WikiData links are also useful for red link lists in user or project space, and for identification purposes and to establish the initial connection to an already established piece of infrastructure elsewhere. 
+
+; When and where not to supply a WikiData link?
+When several foreign-language articles about a subject exists, the general reader is much better served by you hand-picking a few quality articles, than by a WikiData link. Remember, this template is not intended to supplant the existing interlanguage link functionality ([[WP:ILLSIDEBAR]]): most readers are much more at ease with the idea to visit a foreign-language article and then using the language sidebar or drop-down to find every language covering a subject, than to navigate the WikiData user interface.
+
+==Limitations and known issues==
+=== Automated removal ===
+You can remove the template when a red link turns blue, and it is no longer needed. However, there is no need to remember to do so, because [[:User:Cewbot|Cewbot]] does this automatically for you, replacing the template with a plain wikilink.
+
+A possible downside of removing the template is loss of linkage to foreign articles in case the English Wikipedia article is later deleted. In that case, the blue wikilink will become a [[WP:REDLINK|red link]], where an {{t|ill}} template would re-emerge with visually apparent blue link(s) to foreign article(s).
+
+{{Respond|orangeexclamation|Please be aware}} [[:User:Cewbot|Cewbot]] '''removes''' this template when it detects the target article has been created on English Wikipedia, converting {{tl|ill}} links to regular (blue) links.{{efn|name=preserve|Use {{para|preserve}} or its alias {{para|display}} to show the language links even if the English Wikipedia page exists. Using either parameter also eliminates the expensive parser function call. {{U|Cewbot}} will NOT convert this template into a regular link if either parameter is set. Cewbot will also not convert this template into a regular link if the English Wikipedia page exists but is a redirect back to the same page where the template appears; i.e. [[#Circular redirects]].}}
+
+=== Circular redirects ===
+If the topic you are trying to provide interlanguage links for already exists on English Wikipedia as a redirect, '''and this redirect points back to the article you are trying to edit''', this template might [[WP:ASTONISH|astonish]] readers; they expect a blue link to lead to an English-language article, but all they get is the same page reloaded. Attempts have been made for the {{tl|Interlanguage link}} template to automatically detect this, but currently none are functional. {{slink|Help:Interlanguage links#Inline links}} has other linking options, but if this template is to be used, the best option is to artificially create a red link using a reasonable disambiguator. 
+
+For example, {{-r|Helen Reef}} points to [[Hatohobei]], so instead of using {{ill|Helen Reef|be|Хелен|fr|Helen Reef|nl|Helen Reef}} on the Hatohobei page it may be better to use {{ill|Helen Reef (atoll)|lt=Helen Reef|be|Хелен|fr|Helen Reef|nl|Helen Reef}}, where the editor has made up a new red link target: [[Helen Reef (atoll)]] - this phrasing should tell other editors what subject the link is intended to cover if and when created. Please use these two versions of the Hatohobei article to compare: [[Special:PermaLink/1339802168#Islands|version with a circular redirect]] ({{cross}} avoid) and [[Special:PermaLink/1339990136#Islands|version with an artificial red link]] ({{tick}} better). Do note that if an article about the atoll is written, either the artificial red link will need to be created as a redirect or the [[Hatohobei]] article will need to be edited to convert the {{tlc|ill}} call into a regular wikilink.
+
+In other words, there is no perfect solution; if the circular redirect is avoided, manual editing will be necessary if and when that redirect is expanded into a proper article, regardless of whether this template or another method is used.
+
+Interlanguage links that are circular redirects are not converted by [[:User:Cewbot|Cewbot]] into regular links.
+
+=== Expensive parser call ===
+{{Main|Help:Template limits#Expensive parser function calls}}
+
+Avoid filling an article with dozens or hundreds of instances of this template. See {{slink||Alternatives}} for alternative ways to display interlanguage links that avoids articles that mostly consist of {{tl|ill}} links.
+
+=== In other Wikipedias ===
+The Manual of Style in Spanish Wikipedia, and perhaps others, deprecates interlanguage links in live articles, and therefore the local version of this template ([[:es:Plantilla:ill]]) is disabled for main (article) space. It still works for discussion pages, for example.
+
+=== Interactions with other templates ===
+In the [[Wikipedia:main namespace|main namespace]], when using this template with the <code>{{t|lang}}</code> template, use <code>|cat=no</code> or <code>|nocat=yes</code> to remove the hidden category that <code><nowiki>{{lang}}</nowiki></code> creates.
+:{{cross}} <code><nowiki>{{ill|Machsor Lipsiae|de|lt={{lang|he-LA|Machsor Lipsiae}}}}</nowiki></code>
+:{{tick}} <code><nowiki>{{ill|Machsor Lipsiae|de|lt={{lang|he-LA|Machsor Lipsiae|cat=no}}}}</nowiki></code>
+:{{tick}} <code><nowiki>{{ill|Machsor Lipsiae|de|lt={{lang|he-LA|Machsor Lipsiae|nocat=yes}}}}</nowiki></code>
+
+This template '''should not be used in [[WP:Citation templates|citation templates]]''' such as [[Help:Citation Style 1|Citation Style 1]] and [[Help:Citation Style 2|Citation Style 2]], because it includes markup that will pollute the [[COinS]] metadata they produce; see [[Wikipedia:COinS]].
+
+=== Non-existent foreign article ===
+On Wikipedia, links to nonexistent pages {{em|normally}} show as [[WP:REDLINK|red links]]. However, this functionality only works within the Wikipedia site you're viewing. There is no way for this template, or any code on Wikipedia, to check [[mw:Help:Extension:ParserFunctions##ifexist|whether an article on another language's Wikipedia exists]]. Links to all foreign-language articles, including nonexistent foreign-language articles, show as blue links when constructed. For example, both <code><nowiki>[[:fr:Maman ne le sait pas|Maman ne le sait pas]]</nowiki></code> → [[:fr:Maman ne le sait pas|Maman ne le sait pas]] (exists) and <code><nowiki>[[:fr:no such article|no such article]]</nowiki></code> → [[:fr:no such article|no such article]] (does not exist) display in the same blue color. 
+
+In other words, editors should take care to ensure the language codes they use actually correspond to an existing article; {{tlc|ill|no such article|fr|_show_result=yes}} does no one any good.
+
+==TemplateData==
+{{collapse top|[[Wikipedia:TemplateData|TemplateData]] documentation used by [[Wikipedia:VisualEditor|VisualEditor]] and other tools}}
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Article name",
+			"description": "Name of the English Wikipedia page, or suggested name if the page does not exist",
+			"type": "wiki-page-name",
+			"required": true,
+			"suggested": true
+		},
+		"2": {
+			"label": "1st language code",
+			"description": "Language code for the 1st page in another language (Note: the 1st language code is required, unless param 'qid' is present)",
+			"type": "line",
+			"suggested": true
+		},
+		"3": {
+			"label": "1st page",
+			"description": "Title of the page in the 1st other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title",
+			"suggested": true
+		},
+		"4": {
+			"label": "2nd language code",
+			"description": "Language code for the 2nd page in another language",
+			"type": "line"
+		},
+		"5": {
+			"label": "2nd page",
+			"description": "Title of the page in the 2nd other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"6": {
+			"label": "3rd language code",
+			"description": "Language code for the 3rd page in another language",
+			"type": "line"
+		},
+		"7": {
+			"label": "3rd page",
+			"description": "Title of the page in the 3rd other language, if not the same as the English Wikipedia page",
+			"default": "English Wikipedia article title",
+			"type": "line"
+		},
+		"8": {
+			"label": "4th language code",
+			"description": "Language code for the 4th page in another language",
+			"type": "line"
+		},
+		"9": {
+			"label": "4th page",
+			"description": "Title of the page in the 4th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"10": {
+			"label": "5th language code",
+			"description": "Language code for the 5th page in another language",
+			"type": "line"
+		},
+		"11": {
+			"label": "5th page",
+			"description": "Title of the page in the 5th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"12": {
+			"label": "6th language code",
+			"description": "Language code for the 6th page in another language",
+			"type": "line"
+		},
+		"13": {
+			"label": "6th page",
+			"description": "Title of the page in the 6th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"14": {
+			"label": "7th language code",
+			"description": "Language code for the 7th page in another language",
+			"type": "line"
+		},
+		"15": {
+			"label": "7th page",
+			"description": "Title of the page in the 7th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"16": {
+			"label": "8th language code",
+			"description": "Language code for the 8th page in another language",
+			"type": "line"
+		},
+		"17": {
+			"label": "8th page",
+			"description": "Title of the page in the 8th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"18": {
+			"label": "9th language code",
+			"description": "Language code for the 9th page in another language",
+			"type": "line"
+		},
+		"19": {
+			"label": "9th page",
+			"description": "Title of the page in the 9th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"20": {
+			"label": "10th language code",
+			"description": "Language code for the 10th page in another language",
+			"type": "line"
+		},
+		"21": {
+			"label": "10th page",
+			"description": "Title of the page in the 10th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"22": {
+			"label": "11th language code",
+			"description": "Language code for the 11th page in another language",
+			"type": "line"
+		},
+		"23": {
+			"label": "11th page",
+			"description": "Title of the page in the 11th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"24": {
+			"label": "12th language code",
+			"description": "Language code for the 12th page in another language",
+			"type": "line"
+		},
+		"25": {
+			"label": "12th page",
+			"description": "Title of the page in the 12th other language, if not the same as the English Wikipedia page",
+			"type": "line",
+			"default": "English Wikipedia article title"
+		},
+		"lt": {
+			"label": "Link text",
+			"description": "Text displayed for the link to the English Wikipedia article, if not the same as the article title. NOTE: this parameter begins with an lowercase \"L\", not an uppercase \"i\".",
+			"type": "line",
+			"default": "English Wikipedia article title",
+			"suggested": true
+		},
+		"qid": {
+			"label": "Wikidata item",
+			"description": "Wikidata item of the article. Replaces links to pages in other languages. (Note: either the 'qid', or the 1st language code is required; pick one, but not both.)",
+			"type": "line"
+		},
+		"short": {
+			"label": "Short Wikidata link text",
+			"description": "If anything is set for this, Wikidata item link is displayed as 'd'",
+			"aliases": [
+				"s"
+			],
+			"type": "string"
+		},
+		"nobold": {
+			"label": "No bold (or italic)",
+			"description": "Entering any value will force links to other-language pages, Wikidata and the interlanguage links to force non-bold and non-italic text. ",
+			"type": "line",
+			"example": "yes"
+		},
+		"preserve": {
+			"label": "Preserve",
+			"description": "If anything is set for this, forces links to pages in other languages and projects to always display even if the English Wikipedia article exists",
+			"aliases": [
+				"display"
+			],
+			"type": "string"
+		},
+		"italic": {
+			"label": "Italicize",
+			"description": "If anything is set for this, puts italicization markup around the text to be linked, without including the inter-language links within the italics",
+			"aliases": [
+				"italics"
+			],
+			"type": "string"
+		},
+		"vertical-align": {
+			"label": "Vertical alignment",
+			"description": "Alters the position of language links from baseline, to superscript ('sup') or subscript ('sub') position. It can also prevent the font size of the language links from being reduced when used in infoboxes, by entering 'ib'.",
+			"aliases": [
+				"valign",
+				"v"
+			],
+			"type": "line",
+			"default": "baseline",
+			"suggestedvalues": [
+				"sup",
+				"sub",
+				"ib"
+			]
+		},
+		"quote": {
+			"label": "Quote",
+			"description": "If anything is set for this, puts double quotation marks around the text to be linked. The quotation marks won't be linked, and the inter-language links will be outside the quotation marks.",
+			"aliases": [
+				"quotes"
+			],
+			"type": "string",
+			"suggestedvalues": [
+				"yes"
+			]
+		}
+	},
+	"description": "Link to other Wikipedias or Wikidata if an article in the English Wikipedia doesn't exist.",
+	"paramOrder": [
+		"1",
+		"lt",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17",
+		"18",
+		"19",
+		"20",
+		"21",
+		"22",
+		"23",
+		"24",
+		"25",
+		"qid",
+		"short",
+		"preserve",
+		"nobold",
+		"italic",
+		"vertical-align",
+		"quote"
+	]
+}
+</templatedata>
+{{collapse bottom}}
+
+==Tracking categories==
+* {{clc|Interlanguage link template existing link}}
+* {{clc|Interlanguage link template forcing interwiki links}}
+* {{clc|Interlanguage link template to be checked}}
+* {{clc|Pages calling interlanguage link with many languages}}
+* {{clc|Pages using interlanguage link with no language parameter}}
+* {{clc|Pages using interlanguage link with unknown parameters}}
+
+==Merged here==
+After [[WP:Templates for discussion/Log/2015 March 8#Template:Interlanguage link multi|a merge discussion]], five other templates were merged into this template, and thus this template contains all of their features.
+
+*'''{{tl|Interlanguage link}}'''
+*{{tl|Interlanguage link forced}}
+*{{tl|Interlanguage link multi}}
+*{{tl|Interlanguage link Wikidata}}
+*{{tl|Link-interwiki}}
+*{{tl|Red Wikidata link}}
+
+==See also==
+*{{§l|Help:Interlanguage links|Inline links}} for general inline linking to other language Wikipedias
+*{{tl|Wikidata fallback link}} which provides some functionality similar to {{para|qid}} in this template
+*{{tl|Further ill}}, a mashup of {{tl|Further}} and {{tl|ill}} for section header links
+*{{Tl|Interwiki link}}, for use in discussions and documentation
+*[[User:Cobaltcigs/IllWill]] – a tool that assists in finding interlanguage links
+
+==Notes==
+{{noteslist}}
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Internal link templates]]
+[[Category:Interwiki link templates]]
+[[Category:Wikipedia multilingual support templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>

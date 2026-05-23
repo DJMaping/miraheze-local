@@ -1,0 +1,2 @@
+<templatestyles src="Template:List redirects/styles.css" />{{#invoke:String|replace|source={{Special:WhatLinksHere/{{{1|{{PAGENAME}}}}}|hidetrans=1|hidelinks=1}}|pattern=(redirect page)|replace=&nbsp;}}<noinclude>
+{{Documentation}}</noinclude>

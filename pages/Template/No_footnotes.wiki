@@ -1,0 +1,17 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||date=__DATE__ |$B=
+{{Ambox
+| name  = No footnotes
+| type  = style
+| class = ambox-No_footnotes
+| style = {{{style|}}}
+| image = [[File:text document with red question mark.svg|50x40px|alt=|link=]]
+| issue = This {{#ifeq:{{yesno-no|{{{BLP|{{{blp|}}}}}}}}|yes|{{#if:{{{1|}}}|'''{{{1}}} [[Wikipedia:Biographies of living persons|about a living person]]'''|'''[[Wikipedia:Biographies of living persons|biography of a living person]]'''}}|{{{1|article}}}}} includes a [[Wikipedia:Citing sources|list of references]], [[Wikipedia:Further reading|related reading]], or [[Wikipedia:External links|external links]], '''but its sources remain unclear because it lacks [[Wikipedia:Citing sources#Inline citations|inline citations]]'''.
+| fix   = {{#ifeq:{{yesno-no|{{{BLP|{{{blp|}}}}}}}}|yes|Contentious material about living persons that is unsourced or poorly sourced {{strong|{{em|must be removed immediately}}}}, especially if potentially [[Wikipedia:Libel|libelous]] or harmful.}} Please help [[{{SITENAME}}:WikiProject Fact and Reference Check|improve]] this {{{1|article}}} by [[Wikipedia:When to cite|introducing]] more precise citations.
+| removalnotice = yes
+| date  = {{{date|}}}
+| cat   = Articles lacking in-text citations
+| all   = All articles lacking in-text citations
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using no footnotes with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:No footnotes]] with unknown parameter "_VALUE_"|ignoreblank=y|  | 1 | blp | BLP | date | style}}}}<noinclude>
+{{Documentation}}
+<!-- Please add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+</noinclude>

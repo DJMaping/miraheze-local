@@ -1,0 +1,6 @@
+#REDIRECT [[Template:High-use]]
+
+{{Redirect category shell|
+{{R avoided double redirect|1=Template:High-risk}}
+{{R from alternative hyphenation|'''{{-r|Template:High-risk}}'''}}{{R from template shortcut}}
+}}

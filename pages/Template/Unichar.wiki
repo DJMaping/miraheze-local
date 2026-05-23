@@ -1,0 +1,28 @@
+<includeonly>{{unichar/main
+| hval  ={{unichar/hexformat|{{{1|<#salted#>}}} }}
+| hvalinput ={{{1|}}}<!--to use in errormessage-->
+| na    = {{#if:{{{alias|}}} |  {{#invoke:Unicode alias|alias|{{unichar/hexformat|{{{1|}}}}}}} | {{#invoke:Unicode data|lookup|name|{{unichar/hexformat|{{{1|}}}}}}}}}
+| ulink ={{{ulink|<#salted#>}}}
+| nlink ={{{nlink|<#salted#>}}}
+| image ={{{image|}}}
+| cwith ={{#if:{{{cwith|}}} | {{{cwith}}} | {{#if:{{{cwith}}} || ◌ }} }}
+| suffix={{{suffix|}}}
+| size  ={{#if:{{{image|}}} | {{#if:{{#invoke:String|endswith|1={{lc:{{{size|}}}}}|2=px}}|{{{size}}}|10px}} | {{{size|{{#if:{{{cwith}}}|125%|150%}}}}} }}
+| use   ={{lc:{{{use|unicode}}}}}
+| use2  ={{{use2|}}}
+| dval  ={{hex2dec|{{unichar/hexformat|{{{1|<#salted#>}}} }}|no}}
+| html  ={{#ifeq:{{{html|+}}}|{{{html|-}}}|yes|no}}
+| note  ={{{note|}}}
+| gc    ={{#if:{{{1|}}} |{{unichar/gc|{{hex2dec|{{unichar/hexformat|{{{1|0}}}}}|no}}|hval={{unichar/hexformat|{{{1|<#salted#>}}} }} }} | <#not a Unicode code point#> }}
+| name  ={{{name|}}}
+}}<!--
+
+-->{{#invoke:Check for unknown parameters|check
+|unknown=[[Category: Pages using Unichar with unknown parameters|_VALUE_]]
+|preview=[[Template:Unichar]] unknown parameter "_VALUE_"
+|showblankpositional=1
+|1 |hval |2 |alias |name |na |ulink |image |cwith |suffix |size |use |use2 |nlink |html |gc |note }}</includeonly><!--
+
+--><noinclude>
+{{Documentation}}
+</noinclude>

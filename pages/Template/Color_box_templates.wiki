@@ -1,0 +1,49 @@
+{|class="wikitable"
+|+ Color box templates {{VTE|1=Color box templates}}
+! scope="col" | Template
+! scope="col" | Description
+! scope="col" | Example
+|-
+! scope="row" | {{tl|Color box}}
+| Color box size with black borders and text color. Standard size.
+| {{Color box|orange}} or {{Color box|orange|ORANGE|white}}
+|-
+! scope="row" | {{tl|Color box striped}}
+| Striped color box. Standard size.
+| {{Color box striped|orange}}
+|-
+! scope="row" | {{tl|RouteBox}}
+| Borderless color box with text color and [[wikilink]]s.
+| {{RouteBox|ORANGE|Orange (colour|orange|white}}
+|-
+! scope="row" | {{tl|Colorbull}}
+| Colored bullet with [[wikilink]]s.
+| {{colorbull|orange}}
+|-
+! scope="row" | {{tl|Legend inline}}
+| Color box size with black borders. Standard size.
+| {{Legend inline|orange}}
+|-
+! scope="row" | {{tl|Color sample}}
+| Color box size with black borders. Smaller size.
+| {{Color sample|orange}}
+|-
+! scope="row" | {{tl|Swatch inline}}
+|
+| {{Swatch inline|orange|orange}}
+|-
+! scope="row" | {{tl|Background color}}
+|
+| {{Background color|orange|orange}}
+|-
+! scope="row" | {{tl|Rail color box}}
+| A version with more display options. Part of [[Module:Adjacent stations]]
+| {{Rail color box|Taipei Metro|O|ldot}}, {{Rail color box|San Diego Trolley|Orange|xroute}}
+|-
+! scope="row" | {{tl|Diagonal split color box}}
+| Color box split diagonally. Standard size.
+| {{Diagonal split color box|LightGray|Orange|font-size=0.6em}}
+|}<noinclude>
+[[Category:Color templates]]
+[[Category:Box templates]]
+</noinclude>

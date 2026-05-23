@@ -1,0 +1,102 @@
+{| class="wikitable"
+|+ Title changing or correcting templates + magic word {{Navbar|Correct title examples|plain=1|brackets=y}}
+|-
+! scope="col" style="width: 20%;" | Wiki markup <br /><span style="font-weight: normal; font-size: 90%;">[[Help:Transclusion|Transclusion]] from template:</span>
+! scope="col" style="width: 40%;" | Involves
+! scope="col" style="width: 20%;" | Correct name
+! scope="col" style="width: 20%;" | Actual article name
+|-
+! scope="row" | {{tlp|Italic title}}
+| Title in italics
+| ''To Kill a Mockingbird''
+| [[To Kill a Mockingbird]]
+|-
+! scope="row" | {{tlp|Italic title|all{{=}}yes}}
+| Complete title in italics, including parentheses
+| ''Randall and Hopkirk (Deceased)''
+| [[Randall and Hopkirk (Deceased)]]
+|-
+! scope="row" | {{tlp|Italic title|string{{=}}Ally McBeal}}
+| Phrase of {{para|string}} in italics
+| List of ''Ally McBeal'' episodes
+| [[List of Ally McBeal episodes]]
+|-
+! scope="row" | {{tlp|Italic title|all{{=}}yes|string{{=}}Fringe}}
+| Phrase of {{para|string}} in italics; also looks in parentheses
+| Peter (''Fringe'' episode)
+| [[Peter (Fringe episode)]]
+|-
+! scope="row" | {{tlp|Italic disambiguation}}
+| Disambiguation in italics
+| The End (''Lost'')
+| [[The End (Lost)]]
+|-
+! scope="row" | {{tlp|Lowercase title}}
+| Lowercase first character
+| eBay
+| [[EBay]]
+|-
+! scope="row" | {{tlp|Lowercase title|italic{{=}}yes}}
+| Lowercase first character and place title in italics, not including disambiguation
+| ''iCarly'' (soundtrack)
+| [[ICarly (soundtrack)]]
+|-
+! scope="row" | {{tlp|Lowercase title|italic{{=}}yes|force{{=}}yes}}
+| Lowercase first character and place title in italics, including disambiguation
+| 
+| 
+|-
+! scope="row" | {{tlp|Lowercase title|dab{{=}}yes}}
+| Lowercase first character and place disambiguation in italics
+| iSpy (''Modern Family'')
+| [[ISpy (Modern Family)]]
+|-
+! scope="row" | {{tlp|Italic title prefixed|17}}
+| Italicize after the number characters at the beginning of the title
+| German battleship ''Bismarck''
+| [[German battleship Bismarck]]
+|-
+! scope="row" | {{tlp|Verbatim title}}
+| Add quotes around the title
+| <q>You can't have your cake and eat it</q> (proverb)
+| You can't have your cake and eat it (proverb)
+|-
+! scope="row" | {{tlp|Italic verbatim title}}
+| Add quotes around the title and italicize it
+| <q><i>Carpe diem</i></q> (proverb)
+| Carpe diem (proverb)
+|-
+! scope="row" style="background-color: rgba(128, 128, 128, 0.5);" | [[Help:Magic words|Magic word]]
+! scope="row" colspan="3" style="background-color: rgba(128, 128, 128, 0.5);" | 
+|-
+! scope="row" | {{[[mw:DISPLAYTITLE|DISPLAYTITLE:_NSAKEY]]}}
+| Various
+| _NSAKEY
+| [[NSAKEY]]
+|-
+! scope="row" style="background-color: rgba(128, 128, 128, 0.5);" | Title corrections
+! scope="row" colspan="3" style="background-color: rgba(128, 128, 128, 0.5);" | 
+|-
+! scope="row" | {{tlp|Correct title|reason{{=}}bracket}} 
+| [[bracket|< > [ ] { }]]
+|  Benzo[''a'']pyrene
+| [[Benzo(a)pyrene]]
+|-
+! scope="row" | {{tlp|Correct title|reason{{=}}#}} 
+| [[Number sign|#]]
+| Pilot #5 || [[Pilot No. 5]]
+|-
+! scope="row" | {{tlp|Correct title|reason{{=}}:}} 
+| [[colon (punctuation)|:]]
+| DK: King of Swing
+| [[DK King of Swing]]
+|-
+! scope="row" | {{tlp|Correct title|reason{{=}}.}} 
+| [[Full stop|.]]
+| .
+| [[Period (Kesha album)|Period]]
+|}<noinclude>
+{{Documentation|content=
+[[Category:Correct title templates|Examples]]
+}}
+</noinclude>

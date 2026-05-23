@@ -1,0 +1,71 @@
+{{Short description|For use on the subpage itself}}
+{{tsh|doc sub}}
+{{Documentation subpage}}
+{{Distinguish|Template:Documentation}}
+This template displays a message that the current page is a documentation subpage.
+
+== Usage ==
+: {{Template link expanded|Documentation subpage}}
+: or
+: {{Template link expanded|Documentation subpage |&#91;&#91;{{var|Page where the documentation is [[Help:Transclusion|transcluded]]}}&#93;&#93;}}
+
+===Userbox documentation===
+To set this template to use "userbox" and "userbox page" rather than "{{lc:{{ns:Template}}}}" and "{{lc:{{ns:Template}}}} page" or "{{lc:{{ns:User}}}} template" and "{{lc:{{ns:User}}}} template page", use:
+: {{Template link expanded|Userbox documentation subpage}}
+: or
+: {{Template link expanded|Userbox documentation subpage |&#91;&#91;{{var|userbox page}}&#93;&#93;}}
+
+===Text customization===
+The parameters {{para|text1}} and {{para|text2}} can be used to set the text of, respectively, the template's first and second lines. If ''text1'' is set but not ''text2'', both lines' text will derive from ''text1'':
+{{Hidden begin |showhide=left |title=With ''text1'' and ''text2''}}
+<code><nowiki>{{Documentation subpage |text1='''''text1 appears here''''' |text2='''''text2 appears here'''''}}</nowiki></code>
+{{Documentation subpage |[''page''] |text1='''''text1 appears here''''' |text2='''''text2 appears here''''' |override={{lc:{{SUBPAGENAME}}<!-- Hack to allow example to appear, even when viewed from [[Template:Documentation subpage]] -->}}}}
+{{Hidden end}}
+{{Hidden begin |showhide=left |title=With ''text2'' only}}
+<code><nowiki>{{Documentation subpage |text2='''''text2 appears here'''''}}</nowiki></code>
+{{Documentation subpage |[''page''] |text2='''''text2 appears here''''' |override={{lc:{{SUBPAGENAME}}<!-- Hack to allow example to appear, even when viewed from [[Template:Documentation subpage]] -->}}}}
+{{Hidden end}}
+{{Hidden begin |showhide=left |title=With ''text1'' only}}
+<code><nowiki>{{Documentation subpage |text1='''''text1 appears here'''''}}</nowiki></code>
+{{Documentation subpage |[''page''] |text1='''''text1 appears here''''' |override={{lc:{{SUBPAGENAME}}<!-- Hack to allow example to appear, even when viewed from [[Template:Documentation subpage]] -->}}}}
+{{Hidden end}}
+
+===Other parameters===
+Parameter {{para|nocat|true}} will [[WP:NOCAT|prevent this template from generating any categories]].
+
+== Display ==
+This template should normally be placed at the top of /doc pages. It changes output depending on where it is viewed:
+* On a /doc page, it displays a box explaining template documentation and links to the template page.
+** As a workaround if the documentation page's name doesn't end with '/doc', use {{para|override}} to specify the doc subpage's name. For example, if the documentation were at "Template:Example/Documentation", use {{para|override|documentation}} (must be lower-case to work)
+* On other pages&nbsp;– i.e. pages transcluding the /doc page&nbsp;– the template will not show. The template page itself (which contains <code>{{Template link|Documentation}}</code>) will automatically note that the documentation is [[Help:Transclusion|transcluded]] from a subpage.
+
+== Module documentation ==
+This template is automatically shown on /doc subpages in the [[Wikipedia:Namespace|module namespace]]. This is done automatically via [[MediaWiki:Scribunto-doc-page-header]]. This [[MediaWiki talk:Scribunto-doc-page-header#Category:Module documentation pages|fails to add the doc page]] to [[:Category:Module documentation pages]] so some module doc pages transclude the template manually or add the category directly to fix this.
+
+== Automatic categorization ==
+In addition to the banner, the template adds pages to categories named after the subject namespace, but only for documentation pages in namespaces with the subpage feature:
+
+* {{cl|Template documentation pages}}
+* {{cl|Module documentation pages}}
+* {{cl|User documentation pages}}
+* {{cl|Wikipedia documentation pages}} – used for documentation pages, which aren't in Template, Module, or User namespace (e.g. [[Wikipedia:Wikipedia Signpost/Templates/Status/doc]] and [[MediaWiki talk:Watchlist-messages/doc]])
+
+It defaults the [[m:Help:Categories#Sort order|sort key]] to the page name without namespace: Template:Foo, for example, would be sorted as "Foo", i.e. under "F".
+
+== See also ==
+<includeonly>{{#switch:{{FULLPAGENAME}}
+|Template:Userbox documentation subpage=
+*{{Template link|Userbox/categories}}
+*{{Template link|Userbox/citydoc}}}}</includeonly>
+*{{Template link|Documentation/see also}}
+*{{Template link|Documentation subpage}}
+*{{Template link|Userspace disclaimers}}
+*{{Template link|Userbox documentation subpage}}
+
+<includeonly>{{Sandbox other||<!-- Make sure only the template page is categorised. No subpages, and not after transclusion. This /doc page is reused, btw.
+ -->{{#switch:{{FULLPAGENAME}}
+|Template:Documentation subpage         = [[Category:Documentation templates| ]]
+|Template:Userbox documentation subpage = [[Category:Documentation templates| ]][[Category:Userboxes|Δ]]
+}}
+[[Category:Documentation header templates]]
+}}</includeonly>

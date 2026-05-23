@@ -1,0 +1,78 @@
+--[==[ This is the "H" list of portal image names. It contains a list of portal images for use with [[Module:Portal]]
+-- for portal names that start with the letter "H". For aliases to existing portal names, and for portal names that
+-- start with other letters, please use the appropriate page from the following list:
+ 
+-- [[Module:Portal/images/a]]       - for portal names beginning with "A".
+-- [[Module:Portal/images/b]]       - for portal names beginning with "B".
+-- [[Module:Portal/images/c]]       - for portal names beginning with "C".
+-- [[Module:Portal/images/d]]       - for portal names beginning with "D".
+-- [[Module:Portal/images/e]]       - for portal names beginning with "E".
+-- [[Module:Portal/images/f]]       - for portal names beginning with "F".
+-- [[Module:Portal/images/g]]       - for portal names beginning with "G".
+-- [[Module:Portal/images/i]]       - for portal names beginning with "I".
+-- [[Module:Portal/images/j]]       - for portal names beginning with "J".
+-- [[Module:Portal/images/k]]       - for portal names beginning with "K".
+-- [[Module:Portal/images/l]]       - for portal names beginning with "L".
+-- [[Module:Portal/images/m]]       - for portal names beginning with "M".
+-- [[Module:Portal/images/n]]       - for portal names beginning with "N".
+-- [[Module:Portal/images/o]]       - for portal names beginning with "O".
+-- [[Module:Portal/images/p]]       - for portal names beginning with "P".
+-- [[Module:Portal/images/q]]       - for portal names beginning with "Q".
+-- [[Module:Portal/images/r]]       - for portal names beginning with "R".
+-- [[Module:Portal/images/s]]       - for portal names beginning with "S".
+-- [[Module:Portal/images/t]]       - for portal names beginning with "T".
+-- [[Module:Portal/images/u]]       - for portal names beginning with "U".
+-- [[Module:Portal/images/v]]       - for portal names beginning with "V".
+-- [[Module:Portal/images/w]]       - for portal names beginning with "W".
+-- [[Module:Portal/images/x]]       - for portal names beginning with "X".
+-- [[Module:Portal/images/y]]       - for portal names beginning with "Y".
+-- [[Module:Portal/images/z]]       - for portal names beginning with "Z".
+-- [[Module:Portal/images/other]]   - for portal names beginning with any other letters. This includes numbers,
+--                                    letters with diacritics, and letters in non-Latin alphabets.
+-- [[Module:Portal/images/aliases]] - for adding aliases for existing portal names. Use this page for variations
+--                                    in spelling and diacritics, etc., no matter what letter the portal begins with.
+ 
+-- When adding entries, please use alphabetical order. The format of the images table entries is as follows:
+--          ["portal name"] = "image.svg",
+-- The portal name should be the name of your portal, in lower case. For example, the portal name for 
+-- "Portal:United Kingdom" would be "united kingdom". The image name should be capitalised normally, and the "File:"
+-- namespace prefix should be omitted.
+]==]
+ 
+return {
+	["haiti"] = "Flag of Haiti.svg|border|link=|alt=flag",
+	["hamburg"] = "Flag of Hamburg.svg|border|link=|alt=flag",
+	["hampshire"] = "EnglandHampshire.svg|link=|alt=",
+	["haryana"] = "YamunaRiver.jpg|alt=icon",
+	["harz"] = "DennertFirTree.svg|alt=icon",
+	["hawaii"] = "Flag of Hawaii.svg|border|link=|alt=flag",
+	["help"] = "Wikipedia help.png|alt=icon",
+	["heraldry"] = "Azure, a bend Or.svg|alt=icon",
+	["heraldry and vexillology"] = "En-wikipedia arms 9.svg|alt=icon",
+	["hertfordshire"] = "Hertsflag.jpg|link=|alt=",
+	["himachal pradesh"] = "Kinnaur Kailash.jpg|link=|alt=",
+	["hillary clinton"] = "Hillary Rodham Clinton.jpg|link=|alt=",
+	["hindi cinema"] = "Indiafilm.svg|alt=icon",
+	["hinduism"] = "Aum Om red.svg|link=|alt=",
+	["hindustani"] = "Hindustani.svg|link=|alt=script|class=skin-invert-image",
+	["hip hop"] = "Loudspeaker-crystal-theme.svg|alt=icon",
+	["hisar"] = "Fort of Firoz Shah Tughlaq at Hisar.jpg|link=|alt=photo",
+	["hispanic and latino americans"] = "Flag of the Hispanicity.svg|alt=icon",
+	["history"] = "P history.svg|link=|alt=|class=skin-invert-image",
+	["history of science"] = "Newton's reflecting telescope.jpg|link=|alt=image",
+	["history of the latter day saint movement"] = "Joseph Smith receiving golden plates.jpg|border|link=|alt=",
+	["hitchhiker's guide to the galaxy"] = "Answer to Life.png|alt=icon",
+	["holidays"] = "Calendar icon.svg|alt=icon",
+	["holy roman empire"] = "Reichskrone.jpg|link=|alt=image",
+	["honduras"] = "Flag of Honduras.svg|border|link=|alt=flag",
+	["hong kong"] = "Flag of Hong Kong.svg|border|link=|alt=flag",
+	["horses"] = "Finnhorse stallion.jpg|alt=icon",
+	["hotels"] = "Map Icon - Hotel.png|alt=icon",
+	["housing"] = "Big single-family home 2.jpg|link=|alt=",
+	["hudson valley"] = "Hudson river from bear mountain bridge.jpg|alt=icon",
+	["human–computer interaction"] = "Mouse icon vector.png|link=|alt=icon|class=skin-invert-image",
+	["human rights"] = "HumanRightsLogo.svg|link=|alt=",
+	["human sexuality"] = "Bisexuality symbol (bold, color).svg|alt=icon",
+	["hungary"] = "Flag of Hungary.svg|border|link=|alt=flag",
+	["hyderabad"] = "Charminar Hyderabad 1.jpg|alt=icon",
+}

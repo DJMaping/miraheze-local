@@ -1,0 +1,3 @@
+{{#invoke:Detect singular|main}}<noinclude>
+{{documentation}}
+</noinclude>

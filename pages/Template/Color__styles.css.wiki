@@ -1,0 +1,21 @@
+/* {{pp-template}} */
+/* [[phab:T360683]]: This stylesheet removes the function of this template in
+ * dark mode
+ */
+
+@media screen {
+    html.skin-theme-clientpref-night div:not(.notheme) > .tmp-color,
+	html.skin-theme-clientpref-night p > .tmp-color,
+	html.skin-theme-clientpref-night table:not(.notheme) .tmp-color {
+	   color: inherit !important;
+	}
+}
+
+@media screen and ( prefers-color-scheme: dark) {
+    /* automatic mode */
+    html.skin-theme-clientpref-os div:not(.notheme) > .tmp-color,
+    html.skin-theme-clientpref-os p > .tmp-color,
+    html.skin-theme-clientpref-os table:not(.notheme) .tmp-color {
+      color: inherit !important;
+    }
+}

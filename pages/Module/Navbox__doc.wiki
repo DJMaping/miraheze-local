@@ -1,0 +1,32 @@
+{{high use}}
+{{module rating|protected}}
+{{Lua|Module:Navbox/configuration|Module:Navbar|Module:Color contrast|Module:Arguments|Module:TableTools}}
+{{Uses TemplateStyles|Module:Navbox/styles.css|Template:Plainlist/styles.css|Template:Hlist/styles.css}}
+{{Lua sidebar}}
+
+This module implements the {{tl|Navbox}} template.
+
+== Usage ==
+{{mlx|{{ROOTPAGENAME}}|navbox}}
+
+Please see the [[Template:Navbox|template page]] for usage instructions.
+
+== Tracking/maintenance categories ==
+* {{clc|Navbox orphans}}
+* {{clc|Navigational boxes without horizontal lists}}
+* {{clc|Navboxes using background colours}}
+* {{clc|Potentially illegible navboxes}}
+* {{clc|Navboxes using borders}}
+
+== See also ==
+* {{tl|Navbox with collapsible groups}}
+* [[Module:Navbox with collapsible groups]]
+* {{tl|Navbox with columns}}
+* [[Module:Navbox with columns]]
+
+<includeonly>{{sandbox other||
+[[Category:Modules that add a tracking category]]
+[[Category:Modules that check for strip markers]]
+[[Category:Box modules]]
+[[Category:Navigational box metatemplates]]
+}}</includeonly>

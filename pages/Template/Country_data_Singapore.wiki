@@ -1,0 +1,34 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Singapore
+| flag alias = Flag of Singapore.svg
+| flag alias-state = State Marine Ensign of Singapore.svg
+| flag alias-colonial = Flag of Singapore in the Straits Settlements.svg
+| flag alias-colonial-1946 = Flag of Singapore (1946–1952).svg
+| flag alias-colonial-1952 = Flag of Singapore (1952–1959).svg
+| flag alias-civil = Civil Ensign of Singapore.svg
+| flag alias-military = SAFinfoboxflag.png
+| link alias-military = Singapore Armed Forces
+| flag alias-army = SingaporeArmyinfoboxflag.png
+| link alias-army = Singapore Army
+| flag alias-naval = Naval Ensign of Singapore.svg
+| link alias-naval = Republic of Singapore Navy
+| flag alias-air force = RSAFinfoboxflag.png
+| link alias-air force = Republic of Singapore Air Force
+| flag alias-navy = Naval Ensign of Singapore.svg
+| link alias-navy = Republic of Singapore Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = state
+| var2 = colonial
+| var3 = colonial-1946
+| var4 = colonial-1952
+| var5 = civil
+| redir1 = SGP
+| redir2 = SIN
+| related1 = British Singapore
+| related2 = Colony of Singapore
+</noinclude>
+}}

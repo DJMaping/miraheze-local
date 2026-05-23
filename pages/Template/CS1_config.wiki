@@ -1,0 +1,1 @@
+<nowiki/><!--This nowiki helps to prevent whitespace at the top of articles ([[phab:T369520]]). This template is empty, produces no output.  Wikitext instances of this template in article name-space are read by [[Module:Citation/CS1]] to establish article-wide cs1|2 citation styling. --><noinclude>{{documentation}}</noinclude>

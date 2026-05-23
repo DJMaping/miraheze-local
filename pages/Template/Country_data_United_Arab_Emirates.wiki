@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = United Arab Emirates
+| flag alias = Flag of the United Arab Emirates.svg
+| flag alias-civil = Civil Ensign of the United Arab Emirates.svg
+| link alias-naval = United Arab Emirates Navy
+| flag alias-air force = Flag of the United Arab Emirates Air Force.svg
+| link alias-air force = United Arab Emirates Air Force
+| flag alias-army = Flag of the UAE Army.svg
+| link alias-army = United Arab Emirates Army
+| flag alias-military = Flag of the UAE Armed Forces.svg
+| link alias-military = United Arab Emirates Armed Forces
+| flag alias-navy = Flag of the United Arab Emirates Navy.png
+| link alias-navy = United Arab Emirates Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| redir1 = ARE
+| redir2 = UAE
+| related1 = Trucial States
+</noinclude>
+}}

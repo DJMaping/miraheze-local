@@ -1,0 +1,19 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{AI-generated}} begin-->{{Ambox
+| name  = AI-generated
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| small = {{{small|}}}
+| type  = content
+| image = [[File:OOjs UI icon robot.svg|40px|class=skin-invert|alt=icon]]
+| class = ambox-ai-generated
+| issue = {{#if:{{{partial|}}}|Parts of this|This}} {{#if:{{{section|}}}|section|{{{1|article}}}}} '''{{yesno|{{{certain|}}}|no=may incorporate|yes=incorporates}} text from a [[WP:LLM|large language model]]'''.
+| fix   =  {{#if:{{{plural|}}}|They|It}} may include [[Hallucination (artificial intelligence)|hallucinated]] information, [[WP:COPYVIO|copyright violations]], claims not [[WP:V|verified]] in cited sources, [[Wikipedia:OR|original research]], or [[WP:Fictitious references|fictitious references]]. Any such material should be [{{fullurl:{{FULLPAGENAME}}|action=edit}} removed]. {{#if:{{{reason|}}}|The reason given is: '''{{{reason}}}'''}}
+| removalnotice = yes
+| cat   = Articles containing suspected AI-generated texts
+| date  = {{{date|}}} 
+| all   = 
+}}<!--{{AI-generated}} end-->
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+</noinclude>

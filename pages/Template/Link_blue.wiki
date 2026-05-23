@@ -1,0 +1,4 @@
+<templatestyles src="template:link blue/styles.css"/>{{main other|1= |2=<span class{{=}}"color-link-blue">{{{1}}}</span>}}<noinclude>
+
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+{{Documentation}}</noinclude>

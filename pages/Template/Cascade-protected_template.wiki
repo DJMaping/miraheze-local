@@ -1,0 +1,8 @@
+{{mbox
+    | type = protection
+    | image = [[File:Cascade-protection-shackle.svg|40x40px|link=|alt=]]
+    | text = This {{{page|template}}} can only be edited by [[Wikipedia:Administrators|administrators]] because it is [[Help:Transclusion|transcluded]] onto one or more [[Wikipedia:Protection policy#Cascading protection|cascade-protected]] pages.
+}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->
+</noinclude>

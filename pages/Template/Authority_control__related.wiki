@@ -1,0 +1,40 @@
+{{Sidebar
+| templatestyles = Template:Lua sidebar/styles.css
+| title = Wikipedia authority control
+| aboveclass = hlist
+| contentclass = hlist
+| belowclass = hlist
+
+| content1 =
+; [[Wikipedia:Authority control|Project page]]
+: [[Template talk:Authority control|discussion]]
+: [[Help:Authority control|help]]
+
+; [[Template:Authority control|Template]]
+: [[Special:PrefixIndex/Template:Authority control/|subpages]]
+: [[Template:Authority control/sandbox|sandbox]]
+: [[Template:Authority control/testcases|testcases]]
+: [[Template:Authority control/doc|doc]]
+
+; [[Module:Authority control|Module]]
+: [[Special:PrefixIndex/Module:Authority control/|subpages]]
+: [[Module:Authority control/sandbox|sandbox]]
+: [[Module talk:Authority control/testcases|testcases]]
+: [[Module:Authority control/doc|doc]]
+
+; [[Module:Authority control/config|Config]]
+: [[Module:Authority control/config/staging|staging]]
+: [[Module:Authority control/config/sandbox|sandbox]]
+: [[Module:Authority control/config/doc|doc]]
+
+; [[Module:Authority control/auxiliary|Auxiliary]]
+: [[Module:Authority control/auxiliary/sandbox|sandbox]]
+
+; [[Module:Authority control/documentation|Doc module]]
+: [[Module:Authority control/documentation/sandbox|sandbox]]
+
+; [[:Category:Wikipedia authority control|Category]]
+: [[:Category:Pages with authority control identifiers needing attention|attention]]
+
+| name = {{#invoke:TEMPLATENAME|main}}
+}}

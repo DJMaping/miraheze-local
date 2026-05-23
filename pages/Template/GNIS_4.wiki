@@ -1,0 +1,3 @@
+[{{GNIS URL|{{if empty|{{{1|}}}|{{{id|}}}}}|type={{{type|}}}}} {{if empty|{{{1|}}}{{{id|}}}}}]<noinclude>
+{{Documentation}}
+</noinclude>

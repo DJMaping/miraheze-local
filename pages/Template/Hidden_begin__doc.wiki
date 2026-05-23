@@ -1,0 +1,234 @@
+{{Documentation subpage}}
+{{Uses TemplateStyles|Template:Hidden begin/styles.css}}
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{hatnote|This documentation is shared by {{tl|Hidden begin}} and {{tl|Hidden end}}.}}
+{{Collapse Templates}}
+{{used in system}}
+
+Do not use this template to hide content in articles. This violates the [[WP:Manual of Style#Scrolling lists and collapsible content|WP:Manual of Style § Scrolling lists and collapsible content]] and [[WP:Accessibility]] guidelines. This template is intended for use in pages in [[Wikipedia:Namespaces|namespaces]] other than the article namespace. 
+
+'''Note''': This template does not hide anything for mobile users ([[phab:T111565]]).
+
+==Syntax==
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin
+| showhide       = <!--"left", otherwise omit-->
+| expanded       = <!--"true", "on", yes", etc, otherwise omit-->
+| class          = 
+| width          = 
+| border         = 
+| bgcolor        = <!--background color for both the title and content-->
+| style          = 
+| ta1            = 
+| titlebgcolor   = <!--background color for the title-->
+| titlestyle     = 
+| title          = 
+| ta2            = 
+| contentbgcolor = <!--background color for the content-->
+| contentstyle   = 
+}}
+<!----[content to be hidden placed here]---->
+{{Hidden end}}
+</syntaxhighlight>
+
+===Template data===
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"showhide": {
+			"aliases": [
+				"toggle"
+			],
+			"label": "Show / Hide",
+			"description": "Set to \"left\" (without speechmarks) to switch the [show/hide] link's position from the righthand end of the titlebar (default) to the left.",
+			"type": "string",
+			"suggestedvalues": [
+				"left"
+			]
+		},
+		"expanded": {
+			"label": "Expanded",
+			"description": "Set to any value (\"true\", \"yes\", etc.) to switch the hidden section's initial state from collapsed (hidden) to expanded (visible).",
+			"type": "string",
+			"suggestedvalues": [
+				"yes",
+				"true"
+			]
+		},
+		"class": {
+			"label": "Class",
+			"description": "Add additional class attributes affecting the entire template.",
+			"type": "string"
+		},
+		"width": {
+			"label": "Width",
+			"description": "Specify a width for the template.",
+			"example": "width=20%",
+			"type": "string",
+			"default": "100%"
+		},
+		"border": {
+			"label": "Border",
+			"description": "Add a border to the template",
+			"example": "1px solid black",
+			"type": "string"
+		},
+		"bgcolor": {
+			"label": "Background color",
+			"description": "Specify the background color for the template.",
+			"example": "#CCF",
+			"type": "string"
+		},
+		"style": {
+			"label": "Style",
+			"description": "Add additional style attributes affecting the entire template.",
+			"example": "font-size:110%;",
+			"type": "string"
+		},
+		"ta1": {
+			"label": "Title text align",
+			"description": "Specify the text-align property for the title.",
+			"example": "center",
+			"type": "string",
+			"suggestedvalues": [
+				"center",
+				"right",
+				"left"
+			],
+			"default": "left"
+		},
+		"titlebgcolor": {
+			"label": "Title background color",
+			"description": "Specify the background color for the title.",
+			"example": "#CCF",
+			"type": "string"
+		},
+		"titlestyle": {
+			"label": "Title style",
+			"description": "Add additional style attributes affecting the title.",
+			"example": "font-size:110%;",
+			"type": "string"
+		},
+		"title": {
+			"aliases": [
+				"header"
+			],
+			"label": "Title",
+			"description": "Text shown in titlebar.",
+			"type": "string"
+		},
+		"ta2": {
+			"label": "Content text align",
+			"description": "Specify the text-align property for the content.",
+			"example": "center",
+			"type": "string",
+			"suggestedvalues": [
+				"center",
+				"right",
+				"left"
+			],
+			"default": "left"
+		},
+		"contentbgcolor": {
+			"label": "Content background color",
+			"description": "Specify the background color for the content .",
+			"example": "#CCF",
+			"type": "string"
+		},
+		"contentstyle": {
+			"aliases": [
+				"bodystyle"
+			],
+			"label": "Content style",
+			"description": "Add additional style attributes affecting the content.",
+			"example": "font-size:110%;",
+			"type": "string"
+		}
+	},
+	"description": "This template creates a dynamic navigation box which is initially collapsed by default.",
+	"format": "inline"
+}
+</templatedata>
+
+==Examples==
+The following are examples with commonly used parameters
+===Example 1===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin|title=Example title}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+</syntaxhighlight>
+{{Hidden begin|title=Example title}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+
+===Example 2===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin|title=Example title|width=50%|border=1px solid black}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+</syntaxhighlight>
+{{Hidden begin|title=Example title|width=50%|border=1px solid black}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+
+===Example 3===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin|title=Example title|bgcolor=pink|titlebgcolor=#CCF|contentbgcolor=skyblue}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+</syntaxhighlight>
+{{Hidden begin|title=Example title|bgcolor=pink|titlebgcolor=#CCF|contentbgcolor=skyblue}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+
+===Example 4===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin|title=Example title|titlebgcolor=pink|ta1=center|ta2=right}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+</syntaxhighlight>
+{{Hidden begin|title=Example title|titlebgcolor=pink|ta1=center|ta2=right}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+
+===Example 5===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin|title=Example title|titlebgcolor=#98FB98|showhide=left}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+</syntaxhighlight>
+{{Hidden begin|title=Example title|titlebgcolor=#98FB98|showhide=left}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+
+===Example 6===
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Hidden begin|title=Example title|titlebgcolor=#FFEBCD|expanded=yes}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+</syntaxhighlight>
+{{Hidden begin|title=Example title|titlebgcolor=#FFEBCD|expanded=yes}}
+* Example text 1
+* Example text 2
+{{Hidden end}}
+
+==See also==
+* {{tl|Hidden}}
+
+<includeonly>{{basepage subpage
+| <!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Collapse templates]]
+}}</includeonly>

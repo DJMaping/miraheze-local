@@ -1,0 +1,106 @@
+-- This page contains a table of all soft redirect templates and their
+-- redirects. Templates names are capitalized, and the Template: prefix is
+-- removed. Templates are grouped with the main template first, followed by
+-- its redirects.
+
+return {
+	["R from category navigation"] = true,
+	["Redirect from category navigation"] = true,
+
+	["Category redirect"] = true,
+	["Cat move"] = true,
+	["Cat red"] = true,
+	["Cat redir"] = true,
+	["Cat redirect"] = true,
+	["Category move"] = true,
+	["Category Redirect"] = true,
+	["Categoryredirect"] = true,
+	["Catr"] = true,
+	["Catred"] = true,
+	["Catredir"] = true,
+	["Catredirect"] = true,
+
+	["R from template-generated category"] = true,
+	["Redirect from template-generated category"] = true,
+
+	["Portal soft redirect"] = true,
+	["Portal Redirect"] = true,
+	["Portal redirect"] = true,
+	["Portal Soft Redirect"] = true,
+	["Portalredirect"] = true,
+	["Portalsoftredirect"] = true,
+	["PortRed"] = true,
+	["Portred"] = true,
+	["Portsoftred"] = true,
+	["PSR"] = true,
+	["Psr"] = true,
+	["Soft portal redirect"] = true,
+	["Soft redirect portal"] = true,
+	["SPR"] = true,
+	["Spr"] = true,
+	["SRP"] = true,
+	["Srp"] = true,
+
+	["Salted redirect"] = true,
+
+	["Soft redirect"] = true,
+	["Interwiki redirect"] = true,
+	["Plain soft redirect"] = true,
+	["Soft"] = true,
+	["Soft link"] = true,
+	["Soft redir"] = true,
+	["Soft Redirect"] = true,
+	["Softr"] = true,
+	["Softredir"] = true,
+	["SoftRedirect"] = true,
+	["Softredirect"] = true,
+
+	["Userrename"] = true,
+
+	["Wikibooks redirect"] = true,
+	["WBOOK"] = true,
+	["Wbook"] = true,
+	["Wikibook redirect"] = true,
+	["Wikibooks Redirect"] = true,
+	["WikibooksRedirect"] = true,
+	["Wikibooksredirect"] = true,
+
+	["Wikimedia Commons redirect"] = true,
+	["COMM"] = true,
+	["Comm"] = true,
+	["Commons Redirect"] = true,
+	["Commons redirect"] = true,
+	["CommonsRedirect"] = true,
+	["Commonsredirect"] = true,
+	["Wikimedia commons redirect"] = true,
+
+	["Wikiquote redirect"] = true,
+	["Wq"] = true,
+
+	["Wikisource redirect"] = true,
+
+	["Wikispecies redirect"] = true,
+	["Wikispecies Redirect"] = true,
+	["WikispeciesRedirect"] = true,
+	["Wikispeciesredirect"] = true,
+	["WSPEC"] = true,
+	["Wspec"] = true,
+
+	["Wikivoyage redirect"] = true,
+
+	["Wiktionary redirect"] = true,
+	["Moved to Wiktionary"] = true,
+	["RedirecttoWiktionary"] = true,
+	["Wi"] = true,
+	["Wikt red"] = true,
+	["Wikt redirect"] = true,
+	["Wiktionary Redirect"] = true,
+	["Wiktionary-redirect"] = true,
+	["WiktionaryRedirect"] = true,
+	["Wiktionaryredirect"] = true,
+	["Wiktr"] = true,
+	["Wiktred"] = true,
+	["Wiktredir"] = true,
+	["Wtr"] = true,
+	["Wtsr"] = true,
+}

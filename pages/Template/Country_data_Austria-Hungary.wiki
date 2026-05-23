@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Austria-Hungary
+| flag alias = Flag of Austria-Hungary (1867–1918).svg
+| flag alias-cisleithania = Flag of Austria-Hungary (1867–1918).svg
+| flag alias-transleithania = Civil Ensign of Hungary.svg
+| flag alias-merchant navy = Civil ensign of Austria Hungary.png
+| flag alias-civil = Civil ensign of Austria Hungary.png
+| flag alias-naval = Archduchy of Austria flag.svg
+| link alias-naval = Austro-Hungarian Navy
+| flag alias-navy = Archduchy of Austria flag.svg
+| link alias-navy = Austro-Hungarian Navy
+| flag alias-army = Austrian Imperial Standard - Infantry pattern mix early 19th century.svg
+| link alias-army = Austro-Hungarian Army
+| link alias-military = Austro-Hungarian Armed Forces
+| link alias-air force = Austro-Hungarian Aviation Troops
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = cisleithania
+| var2 = transleithania
+| var3 = merchant navy
+| var4 = civil
+| redir1 = Austro-Hungary
+</noinclude>
+}}
