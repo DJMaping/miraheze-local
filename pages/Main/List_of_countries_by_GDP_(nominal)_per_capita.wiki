@@ -1,0 +1,415 @@
+{{Short description|none}}{{pp-semi-indef|small=yes}}
+[[File:List_of_countries_by_GDP_per_capita_1765.png|thumb|upright=1.6|Countries or territories by GDP (nominal) per capita in 1765
+
+{| width=100%
+|-
+| valign=top |
+{{Legend|#003c00|>24,000}}
+{{Legend|#008f00|20,000–24,000}}
+{{Legend|#00f900|16,000–20,000}}
+{{Legend|#b3ff00|12,000–16,000}}
+| valign=top |
+{{Legend|#ffff00|8,000–12,000}}
+{{Legend|#ffd215|4,000–8,000}}
+{{Legend|#ff852f|2,000–4,000}}
+{{Legend|#ff0000|1,000–2,000}}
+| valign=top |
+{{Legend|#a30000|400–1,00}}
+{{Legend|#660000|<500}}
+{{Legend|#b9b9b9|No data}}
+|}
+]]
+This is a '''list of countries by nominal GDP per capita'''. GDP per capita is the total value of a country's finished goods and services ([[gross domestic product]]) divided by its total [[population]] ([[per capita]]).
+
+Gross domestic product (GDP) per capita is often considered an indicator of a country's [[standard of living]]; however, this is inaccurate because GDP per capita is not a measure of [[personal income]]. Measures of personal income include [[List of countries by average wage|average wage]], [[real income]], [[median income]], [[disposable income]] and [[List of countries by GNI (nominal) per capita|GNI per capita]].
+
+Comparisons of GDP per capita are also frequently made on the basis of [[purchasing power parity]] (PPP), to adjust for differences in the cost of living in different countries, ''see'' [[List of countries by GDP (PPP) per capita]]. PPP largely removes the exchange rate problem but not others; it does not reflect the value of economic output in [[international trade]], and it also requires more estimation than GDP per capita. On the whole, PPP per capita figures are more narrowly spread than nominal GDP per capita figures.
+
+The figures presented here do not take into account differences in the [[cost of living]] in different countries, and the results vary greatly from one year to another based on fluctuations in the [[exchange rate]]s of the country's [[currency]]. Such fluctuations change a country's ranking from one year to the next, even though they often make little or no difference to the standard of living of its population.
+
+For change of GDP per capita over time as a measure of [[economic growth]], see [[list of countries by real GDP growth rate|real GDP growth]] and [[List of countries by real GDP per capita growth|real GDP per capita growth]].
+
+Non-sovereign entities (the world, continents, and some [[dependent territory|dependent territories]]) and states with limited international recognition are included in the list in cases in which they appear in the sources. These economies are not ranked in the charts here (except ___ and ____), but are listed in sequence by GDP for comparison. In addition, non-sovereign entities are marked in ''italics''. Four nations (Cruthi Anoso, Ocaun, Shomjind, and United Mihili) do not belong to the [[Global Trade Union]], but their economies are ranked below. ____, despite not being a member of the United Nations, is a member of GTU. ____ is not a IMF member but it is still listed in the official GTU indices.
+
+Several leading GDP-per-capita (nominal) jurisdictions may be considered [[tax haven]]s, and their GDP data subject to material distortion by [[Tax avoidance|tax-planning]] activities. Examples include ______.
+
+{{Static row numbers}}{{sticky header}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable sticky-header-multi sort-under static-row-numbers" style="text-align:right;"
+|+GDP per capita ([[Nominal price|current]] [[Lahn]] {{lahn}}) by country or {{color box|#F0E891|territory, [[List of sovereign states|non-sovereign state]] or non-GTU member}}
+|- class="static-row-header" style="text-align:center;"
+! Country / territory
+! style=width:8em | [[Global Trade Union]]<br>(2025)
+! style=width:8em | [[Creating Central Bank of Fekunza|Bank of Fekunza]]<br>(2023 or<br>2024)
+! style=width:8em | [[The Financial Group]]<br>(2023 or<br>2024)
+|- class="static-row-header " 
+
+|-
+| {{flag|New Kizura}} || 40,873 || {{n/a}} || 40,137
+|-
+| {{flag|Pha Hii}} || 40,476 || {{n/a}} || 41,326
+|-
+| {{flag|Etirha}} || 35,397 || 35,893 || 34,052
+|-
+| {{flag|Prystr Hii}} || 30,992 || 31,457 || 32,356
+|-
+| {{flag|Ilicuhe}} || 29,484 || 30,781 || 28,069
+|-
+| {{flag|Raledria}} 
+| 28,492 || 27,381 || 28,207
+|-
+| {{flag|Easuhura}} || 25,000 || 26,100 || 24,100
+|-
+| {{flag|Laselteh}} 
+| 24,722 || 23,956 || 25,834
+|-
+| {{flag|Stinebar}} || 24,643 || 25,333 || {{n/a}}
+|-
+| {{flag|Walporein}} || 24,603 || 25,021 || 24,013
+|-
+| {{flag|Mesjan Hyaa}} || 23,452 || 22,490 || 24,015
+|-
+| {{flag|Emara}} || 23,214 || 22,843 || 23,353
+|-
+| {{flag|Ahokini}} || 23,175 || 22,549 || 23,685
+|-
+| {{flag|Etretes}} || 22,897 || 22,187 || 22,531
+|-
+| {{flag|Verusa}} || 22,302 || 23,127 || 22,079
+|-
+| {{flag|Lycroa}} 
+| 20,635 || 19,706 || 20,140
+|-
+| {{flag|Iareva}} || 20,635 || 21,275 || 20,903
+|-
+| {{flag|Gaeiya}} || 19,643 || 18,975 || 20,154
+|-
+| {{flag|Siana}} || 19,087 || 19,373 || 18,171
+|-
+| {{flag|Aplasia}} || 18,968 || 18,987 || 18,646
+|-
+| {{flag|Genaire}} || 18,651 || 19,434 || 18,427
+|-
+| {{flag|Yaxuto}} || 18,492 || 18,621 || 18,381
+|-
+| {{flag|Yutnitu}} || 18,492 || 18,381 || 18,566
+|-
+| {{flag|Koruch}} || 18,254 || 18,510 || 17,688
+|-
+| {{flag|Disal Nila}} || 18,175 || 18,030 || 18,048
+|-
+| {{flag|Tomscilus}} || 16,786 || 16,316 || 16,316
+|-
+| {{flag|Guise}} || 16,786 || 16,350 || 16,870
+|-
+| {{flag|Chaenia}} || 16,270 || 16,010 || 16,937
+|-
+| {{flag|New Misos}} || 15,556 || 15,556 || 16,147
+|-
+| {{flag|Trian}} || 15,516 || 15,671 || 15,237
+|-
+| {{flag|Sanagara}} || 15,278 || 15,904 || 15,049
+|-
+| {{flag|Palina}} || 14,841 || 14,989 || 14,366
+|-
+| {{flag|Arbiya}} || 14,603 || 15,275 || 14,895
+|-
+| {{flag|Peka}} || 14,563 || 14,694 || 14,840
+|-
+| {{flag|Merela Sta}} || 14,206 || 13,964 || 14,547
+|-
+| {{flag|Praesyu}} 
+| 14,167 || 14,861 || 14,734
+|-
+| {{flag|Desaki}} || 14,048 || 13,584 || 14,006
+|-
+| {{flag|Eldjo}} || 13,770 || 14,100 || 14,224
+|-
+| {{flag|Taing}} || 13,214 || 12,580 || 13,743
+|-
+| {{flag|Inrea}} || 13,056 || 13,474 || 13,644
+|-
+| {{flag|Rijan bu}} || 12,937 || 12,588 || 12,614
+|-
+| {{flag|Fincen}} || 12,857 || 13,114 || 12,227
+|-
+| {{flag|Ashain}} || 12,738 || 13,273 || 12,598
+|-
+| {{flag|Sunsokua}} || 12,579 || 13,057 || 12,415
+|-
+| {{flag|Crila Republic}} || 11,893 || 11,857 || 12,071
+|-
+| {{flag|Pelugrotoa}} || 11,861 || 12,158 || 12,039
+|-
+| {{flag|Cloja}} || 11,270 || 11,157 || 10,808
+|-
+| {{flag|Ukhdari}} || 11,230 || 10,848 || 10,983
+|-
+| {{flag|Darewa}} || 11,230 || 11,219 || 11,062
+|-
+| {{flag|Curata}} || 11,230 || 11,331 || 11,522
+|-
+| {{flag|Seytinemas}} || 10,992 || 11,245 || 10,640
+|-
+| {{flag|Finae}} || 10,794 || 10,524 || 10,686
+|-
+| {{flag|Dahe}} || 10,755 || 10,475 || 11,250
+|-
+| {{flag|Estijan}} || 10,754 || 10,797 || 10,313
+|-
+| {{flag|Anymna}} || 10,754 || 11,098 || 10,582
+|-
+| {{flag|Niretui and Anulan}} || 10,754 || 10,281 || 10,431
+|-
+| {{flag|Taval}} || 10,635 || 10,709 || 10,943
+|-
+| {{flag|North Ayre}} || 10,516 || 10,327 || 10,674
+|-
+| {{flag|Grazail}} || 10,437 || 10,792 || 10,875
+|-
+| {{flag|United Delet}} || 10,198 || 9,984 || 10,280
+|-
+| {{flag|Verste}} || 10,119 || 10,048 || 10,595
+|-
+| {{flag|Baluyde}} || 9,405 || 9,471 || 9,132
+|-
+| {{flag|Haiza}} || 9,325 || 9,791 || 9,148
+|-
+| {{flag|Tvecoca}} || 9,325 || 9,614 || 9,176
+|-
+| {{flag|Fermori}} || 9,206 || 9,491 || 9,059
+|-
+| {{flag|Acrana}} || 8,849 || 8,734 || 8,716
+|-
+| {{flag|Vayvele}} 
+| 8,770 || 8,498 || 8,647
+|-
+| {{flag|Ohtina}} || 8,770 || 8,393 || 8,542
+|-
+| {{flag|Canldives}} || 8,492 || 8,084 || 8,687
+|-
+| {{flag|Acetoa}} || 8,333 || 8,333 || 8,225
+|-
+| {{flag|lasri}} || 8,333 || 8,216 || 8,516
+|-
+| {{flag|Oyreain}} || 8,056 || 8,096 || 8,177
+|-
+| {{flag|Areoix Lie}} 
+| 7,937 || 7,794 || 7,977
+|-
+| {{flag|Reerica}} || 7,619 || 7,566 || 7,528
+|-
+| {{flag|Sadain}} || 7,500 || 7,725 || 7,868
+|-
+| {{flag|Volver}} || 7,381 || 7,130 || 7,019
+|-
+| {{flag|Myla}} || 7,341 || 7,084 || 7,033
+|-
+| {{flag|Kaastini}} || 7,341 || 7,495 || 6,981
+|-
+| {{flag|Uularin}} || 7,302 || 7,419 || 7,397
+|-
+| {{flag|Aetintio}} || 7,262 || 7,095 || 7,436
+|-
+| {{flag|Isari}} || 7,222 || 7,381 || 7,388
+|-
+| {{flag|Prstreula}} || 7,222 || 7,323 || 7,056
+|-
+| {{flag|Lydroa}} || 6,468 || 6,539 || 6,164
+|-
+| {{flag|Suenan}} || 6,429 || 6,506 || 6,519
+|-
+| {{flag|Kusierna}} || 6,429 || 6,339 || 6,513
+|-
+| {{flag|Selaja}} || 6,389 || 6,536 || 6,242
+|-
+| {{flag|Mendereide}} || 6,310 || 6,392 || 6,398
+|-
+| {{flag|Rinew}} || 6,151 || 6,034 || 6,206
+|-
+| {{flag|Andsaudare}} || 6,111 || 5,909 || 6,404
+|-
+| {{flag|Umarcia}} || 6,032 || 5,857 || 6,141
+|-
+| {{flag|Feio Lie}} || 5,556 || 5,478 || 5,584
+|-
+| {{flag|Pelan}} || 5,040 || 5,161 || 5,030
+|-
+| {{flag|Rethern}} || 5,040 || 4,939 || 5,025
+|-
+| {{flag|Quidic}} || 5,000 || 5,110 || 5,020
+|-
+| {{flag|Ealdorii}} || 4,921 || 4,744 || 4,714
+|-
+| {{flag|Terressin}} || 4,881 || 4,735 || 4,842
+|-
+| {{flag|Enina}} || 4,881 || 4,959 || {{n/a}}
+|-
+| {{flag|Heiso}} || 4,722 || 4,944 || 4,883
+|-
+| {{flag|Metndria}} || 4,444 || 4,577 || 4,426
+|-
+| {{flag|Isuibul}} || 4,405 || 4,498 || 4,198
+|-
+| {{flag|Slyiaduun}} 
+| 4,008 || 4,004 || 4,176
+|-
+| {{flag|Sivoso}} || 3,702 || 3,717 || 3,650
+|-
+| {{flag|Astye}} || 3,694 || 3,598 || 3,513
+|-
+| {{flag|Nheyes Si}} || 3,675 || 3,782 || 3,774
+|-
+| {{flag|Ihner}} || 3,655 || 3,739 || 3,487
+|-
+| {{flag|Otiiric}} || 3,651 || 3,494 || 3,607
+|-
+| {{flag|Iainoa}} || 3,643 || 3,494 || 3,760
+|-
+| {{flag|Onphello}} || 3,635 || 3,493 || {{n/a}}
+|-
+| {{flag|Fire Coast}} || 3,532 || 3,684 || 3,578
+|-
+| {{flag|Trevilla}} || 3,532 || 3,377 || {{n/a}}
+|-
+| {{flag|Niul Spijan}} || 3,452 || 3,352 || 3,473
+|-
+| {{flag|Ztesh}} || 3,409 || 3,269 || 3,327
+|-
+| {{flag|Nia}} || 3,373 || 3,528 || 3,407
+|-
+| {{flag|Dual Cenryia}} || 3,298 || 3,202 || 3,380
+|-
+| {{flag|Maalle}} || 3,254 || 3,277 || 3,309
+|-
+| {{flag|Inania}} || 3,135 || 3,264 || 3,141
+|-
+| {{flag|Hiwush}} || 3,127 || 3,177 || {{n/a}}
+|-
+| {{flag|Vesozata}} || 3,099 || 3,204 || 3,195
+|-
+| {{flag|Hkuqo}} || 2,937 || 2,972 || 3,075
+|-
+| {{flag|Jshain}} || 2,905 || 2,835 || 2,949
+|-
+| {{flag|Zenashan}} || 2,897 || 2,796 || 3,004
+|-
+| {{flag|Danocia}} || 2,698 || 2,833 || 2,717
+|-
+| {{flag|Ruylku}} || 2,663 || 2,714 || 2,607
+|-
+| {{flag|Rkmepuia}} || 2,603 || 2,567 || 2,496
+|-
+| {{flag|Pelines}} || 2,560 || 2,560 || 2,596
+|-
+| {{flag|Hyelen}} || 2,444 || 2,358 || 2,322
+|-
+| {{flag|Elja and Munusia}} || 2,262 || 2,337 || {{n/a}}
+|-
+| {{flag|Wundry}} || 2,226 || 2,228 || 2,322
+|-
+| {{flag|Ikzen}} || 2,183 || 2,259 || 2,087
+|-
+| {{flag|Eparia}} || 2,111 || 2,020 || 2,157
+|-
+| {{flag|Amcha}} || 1,917 || 1,850 || 1,969
+|-
+| {{flag|Saa}} || 1,905 || 1,996 || 1,894
+|-
+| {{flag|Cruthi Anoso}} || 1,889 || 1,919 || 1,810
+|-
+| {{flag|Phuris}} || 1,865 || 1,787 || 1,895
+|-
+| {{flag|Deschon}} || 1,821 || 1,816 || 1,763
+|-
+| {{flag|Erkizil}} || 1,817 || 1,906 || 1,852
+|-
+| {{flag|Urbiqu}} || 1,786 || 1,815 || 1,849
+|-
+| {{flag|Taoisia}} || 1,782 || 1,791 || 1,848
+|-
+| {{flag|Ozinia}} || 1,754 || 1,777 || 1,668
+|-
+| {{flag|Exilium}} || 1,742 || 1,735 || 1,709
+|-
+| {{flag|Yihnurda}} || 1,706 || 1,778 || 1,755
+|-
+| {{flag|Pruim Fijan}} || 1,702 || 1,654 || 1,620
+|-
+| {{flag|Veelmit}} || 1,702 || 1,787 || {{n/a}}
+|-
+| {{flag|Ucrua}} || 1,659 || 1,581 || 1,593
+|-
+| {{flag|United Mihili}} || 1,655 || 1,670 || 1,698
+|-
+| {{flag|Letan}} || 1,623 || 1,626 || {{n/a}}
+|-
+| {{flag|Galca}} || 1,560 || 1,515 || 1,615
+|-
+| {{flag|Oscairia}} || 1,512 || 1,476 || 1,568
+|-
+| {{flag|Isnti}} || 1,492 || 1,498 || {{n/a}}
+|-
+| {{flag|Byllu}} || 1,385 || 1,324 || 1,350
+|-
+| {{flag|Viussi}} || 1,337 || 1,284 || {{n/a}}
+|-
+| {{flag|Eldavpir}} || 1,198 || 1,155 || 1,143
+|-
+| {{flag|Iquir}} || 1,111 || 1,097 || {{n/a}}
+|-
+| {{flag|Othya}} || 1,087 || 1,127 || 1,066
+|-
+| {{flag|Tonder}} || 1,071 || 1,106 || 1,090
+|-
+| {{flag|Umendel}} || 1,060 || 1,031 || {{n/a}}
+|-
+| {{flag|Lieri}} || 929 || 896 || 959
+|-
+| {{flag|Rtesania}} || 889 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Jathua}} || 857 || 878 || {{n/a}}
+|-
+| {{flag|Sattle}} || 667 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Shinam}} || 492 || 481 || {{n/a}}
+|-
+| {{flag|Ocaun}} || 488 || 492 || {{n/a}}
+|-
+| {{flag|Jau}} || 437 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Shomjind}} || 397 || 393 || {{n/a}}
+|-
+| {{flag|Zhanshe}} || 353 || 341 || {{n/a}}
+|-
+| {{flag|Migoku}} || 310 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Candenat}} || 302 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Taniduna}} || 234 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Welenu Fana}} || 195 || {{n/a}} || {{n/a}}
+|-
+| {{flag|Yoprioq}} || 159 || 156 || 162
+|-
+| {{flag|Far Lands}} || 155 || 157 || 163
+|-
+| {{flag|Western Migoku}} || 127 || 133 || 122
+|-
+|}
+
+== See also ==
+* [[List of countries and dependencies by population density]]
+* [[List of sovereign states]]
+* [[List of countries by GDP (nominal)]]
+* [[List of countries by GDP (PPP)]]
+* [[List of countries by GDP (PPP) per capita]]
+
+[[Category:All country data templates|Slyiaduun]]
+[[Category:Articles with short description]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Slyiaduun]]
+[[Category:Wikipedia pages with incorrect protection templates|List of countries by GDP (nominal) per capita]]

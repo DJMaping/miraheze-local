@@ -1,0 +1,112 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Rinew
+| native_name            = ''__''  - Emaran
+| image_flag             = Rinew Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = RY-new
+| national_anthem        = /ˈraɪ.njuː/
+| image_map              = Rinew Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Rinew(green)
+| capital                = [[Hujbei]]
+| largest_city           = [[Hujbei]]
+| official_languages     = Emaran
+| ethnic_groups          = 97% [[Rinewan Creoles]] (94% of [[Acrola|Acrolan]] and [[Emara|Emaran]] origins and 3% of [[Mahea|Mahean]] origins) 3% others
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.rin/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Rinew]] }}</ref>
+| religion_ref           = <ref>{{cite web|url=https://www.gov.rin/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Rinew]] }}</ref>
+| demonym                = Rinewan
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Rinew
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Emaran colony]]
+| established_date1      = 1624 AFA
+| established_event2     = Independence
+| established_date2      = 1728 AFA
+| area_rank              = 152nd
+| area_km2               = 10,661
+| area_sq_mi             = 4,116
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.71
+| population_estimate    = {{increaseNeutral}}233,966<ref name="POP RIN">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.rin/List_of_countries_and_dependencies_by_population/Rinew|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 160th
+| population_estimate_year = 1765
+| population_density_km2 = 21.9
+| population_density_rank = 128th
+| GDP_PPP                = {{increase}} {{lahn}}3.784 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/rin/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 154th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}16,177
+| GDP_PPP_per_capita_rank = 70th
+| GDP_nominal            = {{increase}} {{lahn}}1.439 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/rin/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 154th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}6,151
+| GDP_nominal_per_capita_rank = 88th
+| HDI_year               = 1765
+| HDI                    = 0.703
+| HDI_change             = increase
+| HDI_rank               = 116th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Rinewan Islatan]] (_) (RIS)
+| time_zone              = SET +7 (Standard Rinewan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .rin
+| calling_code           = +129
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.rin/ The Federal Republic of Rinew's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Rinew] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/rinew/ Rinew]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

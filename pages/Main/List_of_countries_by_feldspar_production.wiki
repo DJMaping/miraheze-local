@@ -1,0 +1,135 @@
+{{Short description|none}}
+
+This is a '''list of countries by [[wikipedia:feldspar|feldspar]] production''' based on [[GTU Geological Survey]] data.<ref name=":0">{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/}}</ref>
+
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col2right"
+|+Feldspar production by country (1765)<ref name=":0" />
+|- bgcolor="#ececec"
+! Country !! Production<br>(metric tonnes)
+|-
+|'''World'''
+|'''38,156,851'''
+|-
+|{{flag|Ukhdari}} || 15,781,540 
+|-
+|{{flag|Dahe}} || 4,300,000 
+|-
+|{{flag|Trian}} || 3,200,000 
+|-
+|{{flag|Pelugrotoa}} || 2,400,000 
+|-
+|{{flag|Ealdorii}} || 2,200,000 
+|-
+|{{flag|Quidic}} || 1,953,918 
+|-
+|{{flag|Vayvele}} 
+| 851,046 
+|-
+|{{flag|Praesyu}} 
+| 716,535 
+|-
+|{{flag|Areoix Lie}} 
+| 587,289 
+|-
+|{{flag|Erkizil}} || 550,000 
+|-
+|{{flag|Verusa}} || 540,614 
+|-
+|{{flag|Siana}} || 493,000 
+|-
+|{{flag|Raledria}} 
+| 590,000 
+|-
+|{{flag|Lycroa}} 
+| 450,000 
+|-
+|{{flag|New Misos}} || 377,649 
+|-
+|{{flag|United Delet}} || 354,001 
+|-
+|{{flag|Verste}} || 322,242 
+|-
+|{{flag|Estijan}} || 300,000 
+|-
+|{{flag|Seytinemas}} || 250,000 
+|-
+|{{flag|Merela Sta}} || 217,766 
+|-
+|{{flag|Sunsokua}} || 216,394 
+|-
+|{{flag|Emara}} || 205,330 
+|-
+|{{flag|Vesozata}} || 170,000 
+|-
+|{{flag|Ohtina}} || 164,783 
+|-
+|{{flag|Terressin}} || 106,000 
+|-
+|{{flag|Ashain}} || 100,000 
+|-
+|{{flag|Finae}} || 100,000 
+|-
+|{{flag|Haiza}} || 75,382 
+|-
+|{{flag|Gaeiya}} || 63,034 
+|-
+|{{flag|Exilium}} || 60,000 
+|-
+|{{flag|Inania}} || 46,000 
+|-
+|{{flag|Pelines}} || 44,000 
+|-
+|{{flag|Fincen}} || 40,000 
+|-
+|{{flag|Etirha}} || 40,000 
+|-
+|{{flag|Sivoso}} || 37,482 
+|-
+|{{flag|Easuhura}} || 35,000 
+|-
+|{{flag|Astye}} || 30,000 
+|-
+|{{flag|Ztesh}} || 26,000 
+|-
+|{{flag|Disal Nila}} || 24,358 
+|-
+|{{flag|Anymna}} || 22,000 
+|-
+|{{flag|New Kizura}} || 20,000 
+|-
+|{{flag|Acrana}} || 20,000 
+|-
+|{{flag|Fermori}} || 20,000 
+|-
+|{{flag|Ocaun}} || 15,000 
+|-
+|{{flag|Oyreain}} || 11,000 
+|-
+|{{flag|Chaenia}} || 10,300 
+|-
+|{{flag|Migoku}} || 6,000 
+|-
+|{{flag|Palina}} || 5,900 
+|-
+|{{flag|Dual Cenryia}} || 5,000 
+|-
+|{{flag|Sattle}} || 1,388 
+|-
+|{{flag|Iquir}} || 600 
+|-
+|{{flag|Isnti}} || 300 
+|-
+|}
+
+==References==
+{{Reflist}}
+
+[[Category:All country data templates|Lycroa]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Lycroa]]

@@ -1,0 +1,45 @@
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Platinum production by country<ref>{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ }}</ref>
+! Country !! Production (kg)
+!Year
+|-
+|'''{{noflag}}World'''||'''170,000'''
+|'''1764'''
+|-
+|{{flag|Maalle}} || 120,000 || 1764  
+|-
+|{{flag|Etirha}} || 19,000 || 1764  
+|-
+|{{flag|Dahe}} || 18,000 || 1764  
+|-
+|{{flag|Estijan}} || 5,200 || 1764  
+|-
+|{{flag|Nia}} || 2,800 || 1762  
+|-
+|{{flag|Raledria}} 
+| 2,000 || 1762  
+|-
+|{{flag|Aplasia}} || 1,243 || 1762  
+|-
+|{{flag|Siana}} || 501 || 1762  
+|-
+|{{flag|Veelmit}} || 100 || 1762  
+|-
+|{{flag|Areoix Lie}} 
+| 30 || 1762  
+|-
+|{{flag|Pelugrotoa}} || 10 || 1762  
+|-
+|{{flag|Zhanshe}} || 5 || 1762  
+|-
+|}
+
+==References==
+{{Reflist|30em}}
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

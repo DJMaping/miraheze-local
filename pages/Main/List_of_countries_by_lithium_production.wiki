@@ -1,0 +1,83 @@
+This is a '''list of countries by [[wikiepdia:lithium|lithium]] mine production''' from 1762.<ref name=":0">{{cite web |title=Global lithium mine production top countries 1762|url=https://www.statistaandah.com/statistics/268789/countries-with-the-largest-production-output-of-lithium/ |website=Statista Andah |language=en}}</ref>
+
+== Current data ==
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+List of countries by lithium production in 1762 (tonnes)<ref name=":0" /><ref>{{Cite web |title=World mineral statistics data |url=https://www.dgs.ac.dah/mineraldahe/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |website=MineralsDahe |language=en-GB}}</ref>
+!Country
+!Production
+!Reserves
+!Resources
+|-
+|'''{{Noflag}}World'''
+|'''240,000'''
+|'''30,000,000'''
+|'''115,000,000'''
+|-
+|{{flag|Haiza}} || 88,000 || 7,000,000 || 8,900,000  
+|-
+|{{flag|Areoix Lie}} 
+| 49,000 || 9,300,000 || 11,000,000  
+|-
+|{{flag|Andsaudare}} || 41,000 || 3,000,000 || 6,800,000  
+|-
+|{{flag|Pelugrotoa}} || 22,000 || 480,000 || 860,000  
+|-
+|{{flag|Dahe}} || 18,000 || 4,000,000 || 23,000,000  
+|-
+|{{flag|Etirha}} || 10,000 || 390,000 || 1,300,000  
+|-
+|{{flag|Welenu Fana}} || 4,300 || 1,200,000 || 5,700,000  
+|-
+|{{flag|Ihner}} || 2,700 || 14,000 || 230,000  
+|-
+|{{flag|New Misos}} || 2,440 || 1,800,000 || 19,000,000  
+|-
+|{{flag|Zhanshe}} || 733 || – || 23,000,000  
+|-
+|{{flag|Acrana}} || 380 || 60,000 || 270,000  
+|-
+|{{flag|Pelines}} || 132 || – || –  
+|-
+|{{Noflag}}''Other countries''
+| – || 2,800,000 || –  
+|-
+|{{flag|Emara}} || – || – || 4,000,000  
+|-
+|{{flag|Candenat}} || – || – || 3,000,000  
+|-
+|{{flag|Terressin}} || – || – || 1,700,000  
+|-
+|{{flag|Sivoso}} || – || – || 1,300,000  
+|-
+|{{flag|Jau}} || – || – || 1,200,000  
+|-
+|{{flag|Eldjo}} || – || – || 1,200,000  
+|-
+|{{flag|United Mihili}} || – || – || 1,000,000  
+|-
+|{{flag|Estijan}} || – || – || 1,000,000  
+|-
+|{{flag|Ealdorii}} || – || – || 320,000  
+|-
+|{{flag|Veelmit}} || – || – || 200,000  
+|-
+|{{flag|Lydroa}} || – || – || 60,000  
+|-
+|{{flag|Feio Lie}} || – || – || 55,000  
+|-
+|{{flag|Peka}} || – || – || 45,000  
+|-
+|}
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist|30em}}
+[[category:statistics]]
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

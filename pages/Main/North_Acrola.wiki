@@ -1,0 +1,96 @@
+{{Infobox continent
+|title          = North Acrola
+|image          = North Acrola Globe.png
+|imagecaption   = Location of North Acrola
+|area           = {{convert|9,977,889|km2|sqmi|abbr=on}}<ref name="heiso">{{cite web|url=http://enclaiw.gov.hei/nation/geoscheme|title=Ayuma or Acrola? |publisher=National government of Heiso}}</ref>
+|population     = 715,830,862 (1765)
+|density        = {{convert|71.74|/km2|/sqmi|abbr=on}}<ref name="heiso" />
+|GDP_PPP        = {{lahn}}12.511 trillion<ref name="heiso" />
+|GDP_nominal    = {{lahn}}5.201 trillion<ref name="heiso" />
+|GDP_per_capita = {{lahn}}7,267<ref name="heiso" />
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = North Acrolan
+|countries      = 6<ref name="heiso" />
+|list_countries = 
+|dependencies   = 11
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Arten Language|Arten]] 
+* [[Terressin Language|Terressin]] 
+* [[Feian Language|Feian]]
+* [[Heisan Language|Heisan]] 
+}}
+|time           = UTC +3 to +4<ref name="heiso" />
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Canelu]]
+*[[Tahuato]]
+*[[Velloro]]
+*[[Zirohu]]
+*[[Vurahi]]
+*[[Nakahiki]]
+*[[Xalavi]]
+*[[Mahana]]
+*[[Nikahatu]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''North Acrola''' is a sub-continent located in the northern hemisphere. It is bordered the [[Middle Acrola]] and [[South Acrola]] to the south. [[Central Ayuma]] to the west, [[North Acrola]] to the north, and the [[Hinsakian Ocean|Great Hinsakian Ocean]] to the east. The continent covers around {{convert|9,977,889|km2|sqmi|abbr=on}} of land, making it the 3rd largest sub-continent in the world, with a total of about 715,830,862 as of 1765, making it also the 2nd largest sub-continent by population.
+
+==List of Nations==
+{|class="sortable wikitable"
+|-
+| style="background:lightcyan; border:1px solid #aaa; width:2em;" | *
+| = Geoscheme disputed<ref name="heiso" />
+|}
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Acetoa}} || [[Acetoa]] || style="text-align:right;" | 388,005 || style="text-align:right;" | 11,203,256 || style="text-align:right;" | 29 || [[Yezhito]]
+|-
+| style="text-align:center;"| {{flagicon|Areoix Lie}} 
+| [[Areoix Lie]] || style="text-align:right;" | 5,854,217 || style="text-align:right;" | 579,087,437 || style="text-align:right;" | 99 || [[Vurahi]]
+|-
+| style="text-align:center;"| {{flagicon|Feio Lie}} || [[Feio Lie]] || style="text-align:right;" | 229,074 || style="text-align:right;" | 7,849,450 || style="text-align:right;" | 34 || [[Keliaro]]
+|- style="background:lightcyan;" 
+| style="text-align:center;"| {{flagicon|Heiso}} || [[Heiso]] || style="text-align:right;" | 334,534 || style="text-align:right;" | 20,605,956 || style="text-align:right;" | 62 || [[Mivlo]]
+|-
+| style="text-align:center;"| {{flagicon|Jau}} || [[Jau]] || style="text-align:right;" | 2,059,631 || style="text-align:right;" | 22,993,720 || style="text-align:right;" | 11 || [[Muntai]]
+|-
+| style="text-align:center;"| {{flagicon|Terressin}} || [[Terressin]] || style="text-align:right;" | 1,112,428 || style="text-align:right;" | 74,091,042 || style="text-align:right;" | 67 || [[Velloro]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 6
+| style="text-align:right;"| 9,977,889
+| style="text-align:right;"| 715,830,861
+| style="text-align:right;"| 72
+|}
+==References==
+{{reflist}}
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]
+[[Category:Wikipedia metatemplates|Infobox]]

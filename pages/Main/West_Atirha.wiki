@@ -1,0 +1,81 @@
+{{Infobox continent
+|title          = West Atirha
+|image          = West Atirha Globe.png
+|imagecaption   = Location of West Atirha
+|area           = {{convert|3,207,421|km2|sqmi|abbr=on}}
+|population     = 104,089,667 (1765)
+|density        = {{convert|32.45|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}1.894 trillion
+|GDP_nominal    = {{lahn}}1.238 trillion
+|GDP_per_capita = {{lahn}}11,901
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = West Atirhan
+|countries      = 8
+|list_countries = 
+|dependencies   = 3
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Alqiran Language|Alqiran]] 
+* [[Emaran Language|Emaran]] 
+* [[Lastnu Language|Lastnu]] 
+}}
+|time           = UTC -10 to -6
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[City of Dauris]]
+* [[Albira]]
+* [[Darnet]]
+* [[Lirika]]
+* [[Lunava]]
+* [[Minafi]]
+* [[Solima]]
+* [[Tamira]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''West Atirha''' is a sub-continent located in the northern hemisphere. It is bordered the [[Ipfehr Bay]] and [[Northern Eanif Ocean]] to the south, [[Srandan Ocean]] to the northwest, and the [[Central Atirha]] to the east. The continent covers around {{convert|3,207,421|km2|sqmi|abbr=on}} of land, making it the 17th largest sub-continent in the world, with a total of about 104,089,667 as of 1765, making it also the 21st largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Aetintio}} || [[Aetintio]] || style="text-align:right;" | 25,529 || style="text-align:right;" | 1,405,387 || style="text-align:right;" | 55 || [[Elora]]
+|-
+| style="text-align:center;"| {{flagicon|Genaire}} || [[Genaire]] || style="text-align:right;" | 1,783,768 || style="text-align:right;" | 15,795,087 || style="text-align:right;" | 9 || [[Lishka]]
+|-
+| style="text-align:center;"| {{flagicon|lasri}} || [[lasri]] || style="text-align:right;" | 41,453 || style="text-align:right;" | 2,170,550 || style="text-align:right;" | 52 || [[Rukara]]
+|-
+| style="text-align:center;"| {{flagicon|Metndria}} || [[Metndria]] || style="text-align:right;" | 18,341 || style="text-align:right;" | 635,532 || style="text-align:right;" | 35 || [[Hidoro]]
+|-
+| style="text-align:center;"| {{flagicon|New Misos}} || [[New Misos]] || style="text-align:right;" | 1,170,921 || style="text-align:right;" | 53,637,198 || style="text-align:right;" | 46 || [[Lunava]]
+|-
+| style="text-align:center;"| {{flagicon|Phuris}} || [[Phuris]] || style="text-align:right;" | 126,688 || style="text-align:right;" | 27,120,468 || style="text-align:right;" | 214 || [[City of Dauris]]
+|-
+| style="text-align:center;"| {{flagicon|Slyiaduun}} 
+| [[Slyiaduun]] || style="text-align:right;" | 34,106 || style="text-align:right;" | 2,166,683 || style="text-align:right;" | 64 || [[Liaojin]]
+|-
+| style="text-align:center;"| {{flagicon|Tomscilus}} || [[Tomscilus]] || style="text-align:right;" | 6,615 || style="text-align:right;" | 1,158,763 || style="text-align:right;" | 175 || [[Ternyu]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 8
+| style="text-align:right;"| 3,207,421
+| style="text-align:right;"| 104,089,668
+| style="text-align:right;"| 32
+|}
+==References==
+{{reflist}}
+[[Category:Geoscheme]]

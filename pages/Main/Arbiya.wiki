@@ -1,0 +1,126 @@
+{{Infobox country
+| conventional_long_name = Republic of Arbiya
+| native_name            = ''__''  - Lycroan
+| image_flag             = Arbiya Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = AR-bee-yah
+| national_anthem        = /ˈɑːr.bi.jə/
+| image_map              = Arbiya Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Arbiya(green)
+| capital                = [[Karevu]]
+| largest_city           = [[Karevu]]
+| official_languages     = Lycroan
+| regional_languages     = Emaran
+| demonym                = Arbiyan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Arbiya
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Raledria]]
+| established            = 
+| established_event1     = Dominion status
+| established_date1      = 1615 AFA
+| established_event2     = Independence
+| established_date2      = 1732 AFA
+| established_event3     = 
+| established_date3      = 
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 60th
+| area_km2               = 551,835
+| area_sq_mi             = 213,065
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.50
+| population_estimate    = {{decreaseNeutral}}6,585,000<ref name="POP ARB">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.arb/List_of_countries_and_dependencies_by_population/Arbiya |website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 110th
+| population_estimate_year = 1765
+| population_census      = {{decreaseNeutral}}6,588,000<ref>{{cite web|url=https://www.arbiya.gov/1765/caX3a/ARBIYA_population_CENSUS.PDF |title=Population Census– 1762 |publisher=[[Census Popuation Arbiya]] }}</ref>
+| population_census_year = 1762
+| population_density_km2 = 11.9
+| population_density_rank = 142nd
+| GDP_PPP                = {{increase}} {{lahn}}155 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/arb/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 74th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}23,657
+| GDP_PPP_per_capita_rank = 23rd
+| GDP_nominal            = {{increase}} {{lahn}}96 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/arb/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 63rd
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}14,603
+| GDP_nominal_per_capita_rank = 33rd
+| HDI_year               = 1765
+| HDI                    = 0.862
+| HDI_change             = increase
+| HDI_rank               = 46th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Rassew]] (_) (RSS)
+| time_zone              = SRB -6 (Standard Arbiya Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .arb
+| calling_code           = +29
+}}
+
+'''Arbiya''', officially the '''Republic of Arbiya''', is a sovereign landlocked country located in the northern hemisphere. It is a [[wikipedia:Unitary_parliamentary_republic|unitary parliamentary republic]] bordered by [[Raledria]] to the south, from which it shares a deep-seated and complex historical lineage, [[Gaeiya]] to the west and [[Genaire]] to the north. It spans an area of 551,835 square kilometres (213,065 sq mi), and it is the [[List of countries and dependencies by area|60th largest nation by land area]]. It has a population of approximately [[List of countries and dependencies by population|6.5 million]]. Its capital and largest metropolitan centre is [[Karevu]], which serves as the nation’s primary hub for commerce, culture, and governance. Arbiya is a linguistically distinct nation, with [[Lycroan language|Lycroan]] serving as the official language, while [[Emaran language|Emaran]] holds significant status as a recognised regional language, with most residents able to speak both fluently.
+
+The human history of Arbiya began in the wake of the [[discovery of Atirha]] in 1240. While the south saw [[Taval|Tavalan]] and [[Ayuma|Ayuman]] colonisation, the northern territories were settled by [[Lycroa|Lycroan]] and [[Emara|Emaran]] traders starting in 1391. Originally part of the wider colonial fabric that fueled the early [[wikipedia:Plantation_economy|plantation economies]] through forced labour, the sector shifted during the [[Seniaaii Revolution]] in Ayuma. As the Crown’s grip weakened, the [[colonial Declaration of Independence]] in 1549 saw the former colonies split between [[Gaeiya]] and [[Raledria]]. In the [[Great Atirhan War]] in 1612, [[Goieqa Arbiya]] led a rebellion against Geaya, avoiding total annexation by allying itself to Raledria and, concerning its foreign diplomacy to its neighbour, eventually being formalised as a [[Raledrian Dominion]] in 1622 AFA.
+
+Originally settled by [[Lycroa|Lycroan traders]], the nation had a population boom by the early-16th century in the [[Arbiyan Gold Rush]], which triggered a massive wave of immigration and rapid urban expansion. This demographic boom was followed by an era of intense [[wikipedia:Industrialisation|industrialisation]]; leveraging some of the world’s largest [[wikipedia:Iron|iron deposits]], Arbiya became the primary metallurgical engine for Raledria’s own [[wikipedia:Industrial_Revolution|industrial revolution]]. This immense mineral wealth provided the economic leverage necessary for Arbiya to stay independent. While Raledria rose to global hegemony following the [[Red War]] and the subsequent [[Cold War]] against the [[Estijan Huan]], and [[Dahe]]. It leveraged its "Dominion" status to develop a distinct national identity separate from its southern neighbour. In 1732, after decades of rising tensions, Arbiya achieved full [[independence]]. It still maintains its so-called "[[Special Relationship]]" with Raledria, often being called siblings.
+
+Arbiya is classified as a [[wikipedia:Developing_country|highly developed nation]]. While its population density remains low at [[List of countries and dependencies by population density|11.9 people per square kilometre]], its urban centres are clustered in the south. The nation ranks [[List of countries by GDP (PPP) per capita|23rd in GDP (PPP) per capita]], reflecting a high standard of living and a strong social safety net. Arbiya is a "left-hand drive" jurisdiction and utilises the [[Rassew]] (RSS) as its national currency. As a [[wikipedia:Unitary_parliamentary_republic|unitary parliamentary republic]], it is governed by a High Minister and a Low Minister, a unique dual-executive system that ensures regional representation within the central government.
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://arbiya.gov/ The Republic of Arbiya official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir--13017877 Country profile – Dahe] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/dahe/ Dahe]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages using the JsonConfig extension]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

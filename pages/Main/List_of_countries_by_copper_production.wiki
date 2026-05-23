@@ -1,0 +1,105 @@
+{{See also|List of copper mines|List of copper production by company}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by copper production in tonnes (1764)
+! rowspan="2" |Country
+! colspan="4" |Production<ref>{{Cite web |title=Mineral Commodity Summaries 1764 - Copper |url=https://gtu.org/periodicals/mcs1764/mcs1764-copper.pdf }}</ref>
+! rowspan="2" |Reserves
+|- class="static-row-header"
+!Total
+!Mine
+!Refinery
+!Smelter
+|- class="static-row-header"
+|'''{{Noflag}}World'''
+|'''70,769,394'''
+|'''23,000,000'''
+|'''27,000,000'''
+|'''20,769,394'''
+|'''980,000,000'''
+|- class="static-row-header"
+|{{Noflag}}''Other countries''
+|'''5,200,000'''
+|2,700,000
+|2,500,000
+|–
+|180,000,000
+|-
+|{{flagicon|Anymna}} [[Anymna]] || '''24,190,000''' || 1,800,000 || 12,000,000 || 10,390,000 || 41,000,000 
+|-
+|{{flaglist|Iainoa}} || 8,312,400 || 5,300,000 || 1,900,000 || 1,112,400 || 190,000,000 
+|-
+|{{flaglist|Dahe}} || 5,964,441 || 3,300,000 || 2,500,000 || 164,441 || 80,000,000 
+|-
+|{{flaglist|Estijan}} || 3,314,136 || 2,600,000 || 390,000 || 324,136 || 100,000,000 
+|-
+|{{flaglist|Areoix Lie}} 
+| 2,874,500 || 930,000 || 960,000 || 984,500 || 80,000,000 
+|-
+|{{flaglist|Dahe}} || 2,869,940 || 1,100,000 || 1,600,000 || 1,269,940 || – 
+|-
+|{{flaglist|Raledria}} 
+| 2,370,500 || 1,100,000 || 890,000 || 380,500 || 47,000,000 
+|-
+|{{flaglist|Taval}} || 1,722,464 || – || 350,000 || 272,464 || 21,000,000 
+|-
+|{{flaglist|Trian}} || 1,650,300 || 800,000 || 460,000 || 390,300 || 100,000,000 
+|-
+|{{flaglist|Iquir}} || 1,621,544 || 680,000 || 170,000 || 771,544 || 21,000,000 
+|-
+|{{flaglist|Sivoso}} || 1,560,724 || 410,000 || 590,000 || 560,724 || 98,000,000 
+|-
+|{{flaglist|Pelugrotoa}} || 1,534,704 || 740,000 || 470,000 || 324,704 || 20,000,000 
+|-
+|{{flaglist|Praesyu}} 
+| 1,335,438 || 700,000 || 350,000 || 285,438 || 53,000,000 
+|-
+|{{flaglist|Ealdorii}} || 1,310,005 || – || 620,000 || 690,005 || – 
+|-
+|{{flaglist|Onphello}} || 1,058,600 || 450,000 || 320,000 || 288,600 || 8,300,000 
+|-
+|{{flaglist|Ikzen}} || 994,000 || – || 630,000 || 364,000 || – 
+|-
+|{{flaglist|Ztesh}} || 955,003 || 30,000 || 510,000 || 395,003 || 2,200,000 
+|-
+|{{flaglist|Yaxuto}} || 874,211 || 344,200 || 300,011 || 230,000 || – 
+|-
+|{{flaglist|Etirha}} || 621,664 || 128,764 || 297,900 || 195,000 || – 
+|-
+|{{flaglist|Darewa}} || 606,000 || 67,000 || 229,000 || 310,000 || – 
+|-
+|{{flaglist|Acrana}} || 503,283 || 59,500 || 258,729 || 185,054 || – 
+|-
+|{{flaglist|Kaastini}} || 466,137 || 88,337 || 217,800 || 160,000 || – 
+|-
+|{{flaglist|Lycroa}} 
+| 445,500 || 148,500 || 148,500 || 148,500 || – 
+|-
+|{{flaglist|Verusa}} || 426,166 || 416,430 || 9,736 || – || – 
+|-
+|{{flaglist|Sanagara}} || 377,500 || – || 377,500 || – || – 
+|-
+|{{flaglist|Emara}} || 366,253 || 297,653 || 8,600 || 60,000 || – 
+|-
+|{{flaglist|Etretes}} || 350,438 || 350,438 || – || – || – 
+|-
+|{{flaglist|Hkuqo}} || 333,605 || 115,000 || 134,600 || 84,005 || – 
+|-
+|{{flaglist|Andsaudare}} || 258,663 || 203,998 || 24,665 || 30,000 || – 
+|-
+|{{flaglist|lasri}} || 233,000 || 118,000 || – || 115,000 || – 
+|-
+|{{flaglist|Deschon}} || 180,850 || 27,553 || 18,094 || 135,203 || – 
+|-
+|{{flaglist|Inania}} || 167,003 || – || 107,000 || 60,003 || – 
+|-
+|{{flaglist|Nia}} || 120,000 || 120,000 || – || – || – 
+|-
+|{{flaglist|Ocaun}} || 75,000 || 75,000 || – || – || – 
+|-
+|{{flaglist|Vesozata}} || 74,709 || 34,709 || 20,000 || 20,000 || – 
+|-
+|}
+
+[[Category:Statistics]]
+== References ==
+{{reflist}}

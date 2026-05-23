@@ -1,0 +1,3 @@
+[[:Category:{{{1}}}|{{{2}}}]]{{#if:{{Yesno|1={{{count|no}}}}}|&nbsp;<small style="{{#ifexpr:{{{page_count}}}>={{{backlog}}}|font-weight: bold; color: #DD0000;}}">(&thinsp;{{formatnum:{{{page_count}}}}}&thinsp;)</small>}}<noinclude>
+{{Documentation|Template:Category link/doc}}
+</noinclude>

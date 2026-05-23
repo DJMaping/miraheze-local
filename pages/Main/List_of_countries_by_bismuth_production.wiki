@@ -1,0 +1,45 @@
+The reported abundance of bismuth in the Earth's crust varies significantly by source from 180ppb (similar to that of silver) to 8ppb (twice as common as gold). The most important [[Wikipedia:ore|ore]]s of bismuth are [[Wikipedia:bismuthinite|bismuthinite]] and [[Wikipedia:bismite|bismite]]. [[wikipedia:Native element mineral|Native]] bismuth is known from Raledria, Dahe, and Isnti.
+
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" {{right}}
+|+World bismuth production<ref>{{Cite web |title=Mineral Commodity Summaries 1764 - Bismuth |url=https://gtu.org/periodicals/mcs1764/mcs1764-bismuth.pdf}}</ref><ref>{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/}}</ref>
+!Country!!Production<br>(metric tonnes)
+!Year
+|-
+|{{Noflag}}'''World'''||'''9,000'''||'''1764'''
+|-
+|{{flag|Dahe}} 
+| 7,000 || 1764  
+|-
+|{{flag|Ukhdari}} || 1,938 || 1764  
+|-
+|{{flag|Isnti}} || 1,100 || 1764  
+|-
+|{{flag|Raledria}} 
+| 1,000 || 1764  
+|-
+|{{flag|Ashain}} || 500 || 1764  
+|-
+|{{flag|Feio Lie}} || 251 || 1764  
+|-
+|{{flag|Jau}} || 180 || 1764  
+|-
+|{{flag|Mendereide}} || 70 || 1764  
+|-
+|{{flag|Verusa}} || 50 || 1764  
+|-
+|{{flag|Estijan}} || 45 || 1764  
+|-
+|{{flag|Zenashan}} || 4 || 1764  
+|-
+|}
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:All country data templates|Raledria]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

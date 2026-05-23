@@ -1,0 +1,87 @@
+{{Infobox continent
+|title          = North New Ayre
+|image          = North New Ayre Globe.png
+|imagecaption   = Location of North New Ayre
+|area           = {{convert|4,444,248|km2|sqmi|abbr=on}}
+|population     = 204,346,477 (1765)
+|density        = {{convert|45.98|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}3.467 trillion
+|GDP_nominal    = {{lahn}}1.558 trillion
+|GDP_per_capita = {{lahn}}7,625
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = North New Ayren
+|countries      = 13
+|list_countries = 
+|dependencies   = 5
+|unrecognized   = 
+|languages      = Most common:
+{{flatlist|
+* [[List of languages in New Ayre]]
+}}
+|time           = UTC -7 to -3
+|internet       = 
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Heslian]]
+* [[Kavirro]]
+* [[Lumeka]]
+* [[Mantraal]]
+* [[Narvila]]
+* [[Roviri]]
+* [[Rudeka]]
+* [[Su Sariko]]
+}}
+|m49            = 
+|footnotes      = 
+}}
+
+'''North New Ayre''' is a sub-continent located in the northern hemisphere. It is bordered the [[South New Ayre]] to the south, the [[Northern Eanif Ocean]] to the west, the [[Sahare Gulf]] and [[Uscea Sea]] to the north, and the [[Rianian Ocean]] to the east. The continent covers around {{convert|4,444,248|km2|sqmi|abbr=on}} of land, making it the 14th largest sub-continent in the world, with a total of about 204,346,477 as of 1765, making it also the 12th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Aplasia}} || [[Aplasia]] || style="text-align:right;" | 36,234 || style="text-align:right;" | 376,609 || style="text-align:right;" | 10 || [[Yondhu]]
+|-
+| style="text-align:center;"| {{flagicon|Astye}} || [[Astye]] || style="text-align:right;" | 529,951 || style="text-align:right;" | 44,277,194 || style="text-align:right;" | 84 || [[Kavirro]]
+|-
+| style="text-align:center;"| {{flagicon|Crila Republic}} || [[Crila Republic]] || style="text-align:right;" | 2,106 || style="text-align:right;" | 945,980 || style="text-align:right;" | 449 || [[Risavo]]
+|-
+| style="text-align:center;"| {{flagicon|Elja and Munusia}} || [[Elja and Munusia]] || style="text-align:right;" | 11,432 || style="text-align:right;" | 495,291 || style="text-align:right;" | 43 || [[Su Hitan]] / [[Mishigi]]
+|-
+| style="text-align:center;"| {{flagicon|Maalle}} || [[Maalle]] || style="text-align:right;" | 1,461,132 || style="text-align:right;" | 22,501,433 || style="text-align:right;" | 15 || [[Rudeka]]
+|-
+| style="text-align:center;"| {{flagicon|Niretui and Anulan}} || [[Niretui and Anulan]] || style="text-align:right;" | 1,428 || style="text-align:right;" | 189,681 || style="text-align:right;" | 133 || [[Tarneshi]]
+|-
+| style="text-align:center;"| {{flagicon|Ohtina}} || [[Ohtina]] || style="text-align:right;" | 654,175 || style="text-align:right;" | 33,245,174 || style="text-align:right;" | 51 || [[Su Sariko]]
+|-
+| style="text-align:center;"| {{flagicon|Prstreula}} || [[Prstreula]] || style="text-align:right;" | 300,940 || style="text-align:right;" | 6,835,852 || style="text-align:right;" | 23 || [[Kavani]]
+|-
+| style="text-align:center;"| {{flagicon|Rethern}} || [[Rethern]] || style="text-align:right;" | 1,344 || style="text-align:right;" | 82,798 || style="text-align:right;" | 62 || [[Xxvii]]
+|-
+| style="text-align:center;"| {{flagicon|Tvecoca}} || [[Tvecoca]] || style="text-align:right;" | 129 || style="text-align:right;" | 5,165 || style="text-align:right;" | 40 || [[Lurvani]]
+|-
+| style="text-align:center;"| {{flagicon|Veelmit}} || [[Veelmit]] || style="text-align:right;" | 179,350 || style="text-align:right;" | 828,597 || style="text-align:right;" | 5 || [[Anohan]]
+|-
+| style="text-align:center;"| {{flagicon|Walporein}} || [[Walporein]] || style="text-align:right;" | 3,310 || style="text-align:right;" | 730,203 || style="text-align:right;" | 221 || [[Sokira]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 12
+| style="text-align:right;"| 3,181,531
+| style="text-align:right;"| 110,513,977
+| style="text-align:right;"| 35
+|}
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]

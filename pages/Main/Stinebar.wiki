@@ -1,0 +1,116 @@
+{{Infobox country
+| conventional_long_name = Republic of Stinebar
+| native_name            = ''__''  - Easuhuran
+| image_flag             = Stinebar Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = STYNE-bar
+| national_anthem        = /ˈstaɪn.bɑːr/
+| image_map              = Stinebar Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Stinebar (green)
+| capital                = [[Laphaai]]
+| largest_city           = [[Laphaai]]
+| official_languages     = [[Easuhura|Easuhuran]]
+| regional_languages     = [[Dahe|Dahen]]
+| demonym                = Stinebarian
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Stinebar
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Easuhura]]
+| established            = 
+| established_event1     = [[Easuhuran Colony]]
+| established_date1      = 1453 AFA
+| established_event2     = Independence
+| established_date2      = 1722 AFA
+| established_event3     = 
+| established_date3      = 
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 162nd
+| area_km2               = 2,001
+| area_sq_mi             = 773
+| population_estimate    = {{increaseNeutral}}345,037<ref name="POP STI">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.sti/List_of_countries_and_dependencies_by_population/Stinebar|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+
+| population_estimate_rank = 157th
+| population_estimate_year = 1765
+| population_density_km2 = 172.4
+| population_density_rank = 19th
+| GDP_PPP                = {{increase}} {{lahn}}10.118 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sti/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 147th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}29,325
+| GDP_PPP_per_capita_rank = 11th
+| GDP_nominal            = {{increase}} {{lahn}}8.502 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sti/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 134th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}24,643
+| GDP_nominal_per_capita_rank = 9th
+| HDI_year               = 1765
+| HDI                    = 0.899
+| HDI_change             = increase
+| HDI_rank               = 30th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Stinebarian Oran]] (_) (STO)
+| time_zone              = SET -1 (Standard Stinebarian Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .sti
+| calling_code           = +511
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.sti/ The Republic of Stinebar's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Stinebar] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/stinebar/ Stinebar]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

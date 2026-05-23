@@ -1,0 +1,4 @@
+<!-- Subst of {{Tl2}} follows --><code><nowiki>{{</nowiki>[[:{{ safesubst:<noinclude/>#if: {{{sister|}}} | {{{sister}}}: }}{{ safesubst:<noinclude/>#if: {{{lang|}}} | {{{lang}}}: }}{{ safesubst:<noinclude/>ns:Template }}:{{{1}}}|{{{1}}}]]{{ safesubst:<noinclude/>#if: {{{2|}}} | &#124;{{{2}}} }}{{ safesubst:<noinclude/>#if: {{{3|}}} | &#124;{{{3}}} }}{{ safesubst:<noinclude/>#if: {{{4|}}} | &#124;{{{4}}} }}{{ safesubst:<noinclude/>#if: {{{5|}}} | &#124;{{{5}}} }}{{ safesubst:<noinclude/>#if: {{{6|}}} | &#124;{{{6}}} }}{{ safesubst:<noinclude/>#if: {{{7|}}} | &#124;{{{7}}} }}{{ safesubst:<noinclude/>#if: {{{8|}}} | &#124;{{{8}}} }}{{ safesubst:<noinclude/>#if: {{{9|}}} | &#124;{{{9}}} }}<nowiki>}}</nowiki></code><!-- Subst of {{Tl2}} ends --><noinclude>
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+{{documentation}}
+</noinclude>

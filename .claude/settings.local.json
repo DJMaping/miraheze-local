@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "PowerShell",
+      "Edit",
+      "Write",
+      "WebFetch",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe --version)",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\pip.exe install requests python-dotenv)"
+    ]
+  }
+}

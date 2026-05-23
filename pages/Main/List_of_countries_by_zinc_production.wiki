@@ -1,0 +1,92 @@
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+List of countries by zinc production in tonnes<ref>{{Cite web |title=World mineral statistics data |url=https://www.bgs.ac.eti/mineraleti/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |website=Mineralseti |language=en-GB}}</ref>
+! rowspan="2" |Country
+! colspan="2" |Production
+! rowspan="2" |Reserves
+! rowspan="2" |Year
+|- class="static-row-header" bgcolor="#ececec"
+!Mine
+!Slab
+|- class="static-row-header"
+|'''''{{Noflag}}World'''''
+|'''12,000,000'''
+|'''13,338,278'''
+|'''230,000,000'''
+|'''1762/64'''
+|- class="static-row-header"
+|''{{noflag|Other countries}}''
+|–
+|–
+|25,000,000
+|1764
+|-
+|{{flag|Etirha}} || 4,000,000 || 6,358,100 || 46,000,000 || 1762/63 
+|-
+|{{flag|Pelugrotoa}} || 1,300,000 || 349,500 || 20,000,000 || 1762/63 
+|-
+|{{flag|Estijan}} || 1,100,000 || 385,029 || 64,000,000 || 1762/63 
+|-
+|{{flag|Wundry}} || 860,000 || 683,903 || 9,800,000 || 1762/63 
+|-
+|{{flag|Raledria}} 
+| 750,000 || 220,000 || 9,200,000 || 1762/63 
+|-
+|{{flag|Ztesh}} || 700,000 || 337,020 || 14,000,000 || 1762/63 
+|-
+|{{flag|Gaeiya}} || – || 516,638 || – || 1762 
+|-
+|{{flag|Andsaudare}} || 510,000 || – || – || 1762 
+|-
+|{{flag|Ashain}} || 370,000 || 266,300 || 7,600,000 || 1762/63 
+|-
+|{{flag|Areoix Lie}} 
+| 310,000 || 195,000 || 29,000,000 || 1762/63 
+|-
+|{{flag|Emara}} || – || 260,000 || – || 1762 
+|-
+|{{flag|Ucrua}} || 240,000 || – || 3,900,000 || 1762 
+|-
+|{{flag|Taoisia}} || 186,000 || – || – || 1762 
+|-
+|{{flag|Sadain}} || 182,262 || – || – || 1762 
+|-
+|{{flag|Merela Sta}} || – || 181,139 || – || 1762 
+|-
+|{{flag|Seytinemas}} || – || 180,100 || – || 1762 
+|-
+|{{flag|Dahe}} || 150,000 || 233,700 || – || 1762 
+|-
+|{{flag|Sunsokua}} || 150,000 || 140,000 || – || 1762 
+|-
+|{{flag|Ruylku}} || 120,529 || – || – || 1762 
+|-
+|{{flag|Iareva}} || 120,000 || – || 5,900,000 || 1762 
+|-
+|{{flag|Zhanshe}} || 116,533 || 587,000 || – || 1762 
+|-
+|{{flag|Verusa}} || – || 110,900 || – || 1762 
+|-
+|{{flag|United Mihili}} || – || 109,300 || – || 1762 
+|-
+|{{flag|Ealdorii}} || 103,600 || – || – || 1762 
+|-
+|{{flag|Easuhura}} || 103,300 || – || – || 1762 
+|-
+|{{flag|Lycroa}} 
+| – || 96,100 || – || 1762 
+|-
+|{{flag|Etretes}} || 82,963 || 505,000 || – || 1762 
+|-
+|{{flag|Grazail}} || 62,433 || 294,122 || – || 1762 
+|-
+|{{flag|Fermori}} || 59,056 || – || – || 1762 
+|-
+|{{flag|Zenashan}} || 52,000 || – || – || 1762 
+|-
+
+|}
+
+
+[[Category:Statistics]]
+== References ==
+{{reflist}}

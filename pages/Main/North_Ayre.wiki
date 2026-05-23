@@ -1,0 +1,120 @@
+{{Infobox country
+| conventional_long_name = Soai Republic of North Ayre
+| native_name            = ''__''  - Ayrean
+| image_flag             = North Ayre Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = NORTH EYE-er
+| national_anthem        = /nɔːrθ ˈaɪ.ər/
+| image_map              = North Ayre Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of North Ayre(green)
+| capital                = [[Kokema]]
+| largest_city           = [[Kokema]]
+| official_languages     = Ayrean
+| religion               = 86.5% [[Kallimethra]]<br>9.2% [[wikipedia:Irreligion|Irreligion]]<br>4.3% [[Religion in North Ayre|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ayr/1765/caX3a/CENSUS.PDF|title=Population by religious community – 1763 |publisher=[[Census North Ayre]] }}</ref>
+| demonym                = Ayrean
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of North Ayre
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Kingdom of Avitan]]
+| established_date1      = 672 AFA
+| established_event2     = [[Kingdom of Senajo]]
+| established_date2      = 1061 AFA
+| established_event3     = [[Arentisa Kingdim]]
+| established_date3      = 1264 AFA
+| established_event4     = [[Tavalan Colony]]
+| established_date4      = 1353 AFA
+| established_event5     = [[Easuhuran colony]]
+| established_date5      = 1452 AFA
+| established_event6     = Independence
+| established_date6      = 1714 AFA
+| area_rank              = 136th
+| area_km2               = 57,100
+| area_sq_mi             = 22,046
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 2.11
+| population_estimate    = {{increaseNeutral}}10,967,000<ref name="POP AYR">{{Cite web |title=World Population Prospects|url=https://www.WorldDataUnion.acr/List_of_countries_and_dependencies_by_population/North_Ayre|website=Population Division – World Data Union}} Retrieved 1765.</ref>
+| population_estimate_rank = 92nd
+| population_estimate_year = 1765
+| population_density_km2 = 192.1
+| population_density_rank = 13th
+| GDP_PPP                = {{increase}} {{lahn}}209.498 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ayr/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]]}} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 61st
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}19,102
+| GDP_PPP_per_capita_rank = 52nd
+| GDP_nominal            = {{increase}} {{lahn}}115.332 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ayr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 59th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}10,516
+| GDP_nominal_per_capita_rank = 58th
+| HDI_year               = 1765
+| HDI                    = 0.758
+| HDI_change             = increase
+| HDI_rank               = 87th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Ayrean Oran]] (_) (AOR)
+| time_zone              = SAY -2 (Standard Ayrean Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .ayr
+| calling_code           = +58
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ayr/ The Soai Republic of North Ayre's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – North Ayre] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/north_ayre/ North Ayre]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:CS1 errors]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

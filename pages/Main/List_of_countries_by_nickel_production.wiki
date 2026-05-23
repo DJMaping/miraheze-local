@@ -1,0 +1,90 @@
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by nickel production in tonnes<ref>{{Cite web |title=Mineral Commodity Summaries 1765 - Nickel |url=https://gtu.org/periodicals/mcs1765/mcs1765-nickel.pdf}}</ref>
+! rowspan="2" |Country
+! colspan="2" |Production
+! rowspan="2" |Reserves
+! rowspan="2" |Year
+|- class="static-row-header"
+!Mine
+!Smelter /<br>refinery
+|- class="sorttop static-row-header"
+|'''{{noflag}} World'''
+|'''3,700,000'''
+|'''3,200,000'''
+|'''130,000,000'''
+|'''1764'''
+|-
+|{{flagicon|Taval}} [[Taval]]  || 2,200,000 || 1,105,090 || 55,000,000 || 1762/64
+|-
+|{{flagicon|North Ayre}} [[North Ayre]] || 330,000 || – || 4,800,000 || 1762/64
+|-
+|{{flagicon|Nia}} [[Nia]] || 210,000 || 143,000 || 8,300,000 || 1762
+|-
+|{{flagicon|Gaeiya}} [[Gaeiya]] || 190,000 || 143,266 || 2,200,000 || 1762/64
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || – || 150,000 || – || 1762/64
+|-
+|{{flagicon|Estijan}} [[Estijan]] || – || 147,600 || – || 1762/64
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 120,000 || 700,000 || 4,400,000 || 1762
+|-
+|{{flagicon|Fire Coast}} [[Fire Coast]] || 110,000 || 96,500 || 24,000,000 || 1762
+|-
+|{{flagicon|Easuhura}} [[Saremeh|Saremeh (Easuhura)]] || 110,000 || 66,220 || 7,100,000 || 1762/64
+|-
+|{{flagicon|Laselteh}} [[Laselteh]] || 77,000 || 63,400 || 16,000,000 || 1762/64
+|-
+|{{flagicon|Maalle}} [[Maalle]] || 48,200 || 18,000 || – || 1762
+|-
+|{{flagicon|Astye}} [[Astye]] || 46,400 || 41,816 || – || 1762
+|-
+|{{flagicon|New Kizura}} [[New Kizura]] || 44,921 || 91,466 || – || 1762
+|-
+|{{flagicon|Sanagara}} [[Sanagara]] || – || 43,500 || – || 1762
+|-
+|{{flagicon|Phuris}} [[Phuris]] || 42,800 || 13,700 || – || 1762
+|-
+|{{flagicon|Ashain}} [[Ashain]] || 35,737 || 35,737 || – || 1762
+|-
+|{{flagicon|Isari}} [[Isari]] || 34,302 || – || – || 1762
+|-
+|{{flagicon|Chaenia}} [[Chaenia]] || – || 33,384 || – || 1762
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || 29,223 || 27,610 || – || 1762
+|-
+|{{flagicon|Haiza}} [[Haiza]] || 29,033 || 40,000 || – || 1762
+|-
+|{{flagicon|Mendereide}} [[Mendereide]] || 24,500 || – || – || 1762
+|-
+|{{flagicon|Jshain}} [[Jshain]] || 14,535 || – || – || 1762
+|-
+|{{flagicon|Pelines}} [[Pelines]] || 13,753 || – || – || 1762
+|-
+|{{flagicon|Lieri}} [[Lieri]] || 10,000 || 10,000 || – || 1762
+|-
+|{{flagicon|Yaxuto}} [[Yaxuto]] || – || 8,400 || – || 1762
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| 8,000 || – || 310,000 || 1762
+|-
+|{{flagicon|Ztesh}} [[Ztesh]] || – || 7,400 || – || 1762
+|-
+|{{flagicon|Oscairia}} [[Oscairia]] || 4,059 || – || – || 1762
+|-
+|{{flagicon|Trian}} [[Trian]] || 1,700 || 1,400 || – || 1762
+|-
+|{{flagicon|Isnti}} [[Isnti]] || 1,574 || – || – || 1762
+|-
+|}
+
+
+
+== References ==
+{{reflist}}
+
+[[Category:All country data templates|Raledria]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

@@ -1,0 +1,123 @@
+{{Infobox country
+| conventional_long_name = Republic of Taing
+| native_name            = ''__''  - Taingesez
+| image_flag             = Taing Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = TAYNG
+| national_anthem        = /teɪŋ/
+| image_map              = Taing Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Taing (green)
+| capital                = [[Kanrido]]
+| largest_city           = [[Kanrido]]
+| official_languages     = Taingesez
+| regional_languages     = [[Dual Cenryia|Cenryi]]<br>[[Byllu|Kiesian]]
+| ethnic_groups          = 83.3% Taingesez<br>6.2% [[Dual Cenryia|Cenryi]]<br>5.9% [[Byllu|Kiesian]]<br>4.1% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.tai/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Taing]] }}</ref>
+| religion               = 73.8% [[Thessovai]]<br>17.9% [[Passanu]]<br>5.0% [[Imarel]]<br>3.3% [[Religion in Taing|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.tai/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Taing]] }}</ref>
+| demonym                = Taingesez
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Taing
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Dual Cenryia Colony]]
+| established_date1      = 1620 AFA
+| established_event2     = [[Emaran Colony]]
+| established_date2      = 1636 AFA
+| established_event3     = Independence 
+| established_date3      = 1701 AFA
+| established_event4     = Second republic
+| established_date4      = 1722 AFA
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 112nd
+| area_km2               = 193,698
+| area_sq_mi             = 74,787
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}2,162,000<ref name="POP TAI">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.tai/List_of_countries_and_dependencies_by_population/Taing|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 135th
+| population_estimate_year = 1765
+| population_density_km2 = 11.2
+| population_density_rank = 144th
+| GDP_PPP                = {{increase}} {{lahn}}44.011 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 114th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,351
+| GDP_PPP_per_capita_rank = 43rd
+| GDP_nominal            = {{increase}} {{lahn}}28.578 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 106th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}13,214
+| GDP_nominal_per_capita_rank = 39th
+| HDI_year               = 1765
+| HDI                    = 0.843
+| HDI_change             = increase
+| HDI_rank               = 52nd
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Taingesez Eccea]] (_) (TEC)
+| time_zone              = STT +4.5 (Standard Taingesez Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .tai
+| calling_code           = +916
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.tai/ The Republic of Taing's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Taing] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/taing/ Taing]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

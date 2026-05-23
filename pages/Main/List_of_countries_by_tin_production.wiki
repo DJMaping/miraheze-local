@@ -1,0 +1,83 @@
+<big><big>'''*'''</big></big> indicates '''"Natural resources of COUNTRY or TERRITORY"''' links. {{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+List of countries by tin production in tonnes<ref>{{Cite web |title=Mineral Commodity Summaries 1762 - Tin |url=https://gtu.org/periodicals/mcs1762/mcs1762-tin.pdf }}</ref>
+|- style="text-align: center;"
+! rowspan="2" |Country
+! colspan="2" |Production
+! rowspan="2" |Reserves
+! rowspan="2" |Year
+|- class="static-row-header" style="text-align:center;"
+!Mine
+!Smelter
+|- class="static-row-header " style="font-weight:bold;"
+| {{left}} {{noflag|World}} 
+|300,000
+|389,000
+|4,200,000
+|1762/64
+|- class="static-row-header "
+|{{Noflag}}''Other countries''
+|1,800
+|–
+|310,000
+|1764
+|-
+|{{flagicon|Estijan}} [[Estijan]] || 69,000 || 200,500 || 1,000,000 || 1762/64
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 50,000 || 74,000 || – || 1762/65
+|-
+|{{flagicon|Inania}} [[Inania]] || 34,000 || – || 700,000 || 1762/66
+|-
+|{{flagicon|Anymna}} [[Anymna]] || 31,000 || – || 130,000 || 1762
+|-
+|{{flagicon|Astye}} [[Astye]] || 29,000 || 17,200 || 420,000 || 1762
+|-
+|{{flagicon|Taval}} [[Taval]] || 25,000 || – || 120,000 || 1762
+|-
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 21,000 || 14,834 || 400,000 || 1762/64
+|-
+|{{flagicon|United Delet}} [[United Delet]] || 9,900 || 106 || 620,000 || 1762
+|-
+|{{flagicon|Emara}} [[Emara]] || – || 8,200 || – || 1762/64
+|-
+|{{flagicon|Reerica}} [[Reerica]] || 7,000 || – || – || 1762/64
+|-
+|{{flagicon|Othya}} [[Othya]] || 6,700 || 5,500 || 23,000 || 1762
+|-
+|{{flagicon|Verusa}} [[Verusa]] || – || 4,275 || – || 1762
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| – || 4,200 || – || 1762/64
+|-
+|{{flagicon|Otiiric}} [[Otiiric]] || 3,600 || 643 || – || 1762
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || 3,000 || 19,385 || – || 1762
+|-
+|{{flagicon|Heiso}} [[Heiso]] || 3,000 || 2,500 || 460,000 || 1762/64
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || 3,000 || 26,630 || – || 1762/64
+|-
+|{{flagicon|Sattle}} [[Sattle]] || 1,500 || – || – || 1762
+|-
+|{{flagicon|Pruim Fijan}} [[Pruim Fijan]] || 522 || – || – || 1762
+|-
+|{{flagicon|Ozinia}} [[Ozinia]] || 404 || – || – || 1762
+|-
+|{{flagicon|Onphello}} [[Onphello]] || 314 || – || – || 1762
+|-
+|{{flagicon|Etirha}} [[Etirha]] || 99 || – || – || 1762
+|-
+|{{flagicon|Myla}} [[Myla]] || 84 || 9526 || – || 1762
+|-
+|{{flagicon|Trian}} [[Trian]] || 60 || – || – || 1762
+|-
+|{{flagicon|Kaastini}} [[Kaastini]] || 46 || – || – || 1762
+|-
+|{{flagicon|Pelan}} [[Pelan]] || 28 || – || – || 1762
+|-
+|}
+
+
+[[Category:Statistics]]
+== References ==
+{{reflist}}

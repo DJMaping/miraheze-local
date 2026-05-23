@@ -1,0 +1,62 @@
+{{Infobox continent
+|title          = Acrola
+|image          = Acrola Map.png
+|imagecaption   = Location of Acrola
+|area           = {{convert|17,989,207|km2|sqmi|abbr=on}}
+|population     = 1,070,070,000 (1765)
+|density        = {{convert|59.48|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}14.211 trillion
+|GDP_nominal    = {{lahn}}5.745 trillion
+|GDP_per_capita = {{lahn}}5,369
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Acrolan
+|countries      = 25
+|list_countries = 
+|dependencies   = 3
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Arten Language|Arten]]
+* [[Emaran Language|Emaran]]
+* [[Iquirian Language|Iquirian]]
+* [[Lastnu Language|Lastnu]]
+* [[Munagu Language|Munagu]]
+* [[Taldi Language|Taldi]]
+* [[Terressin Language|Terressin]]
+}}
+|time           = UTC +2 to +7
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Chavillar]]
+*[[Dalyar]]
+*[[Kaipaki]]
+*[[Mireli]]
+*[[Nakahiki]]
+*[[Nikahatu]]
+*[[Velloro]]
+*[[Vurahi]]
+*[[Xalavi]]
+*[[Zirohu]]
+*[[Zolittique]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Acrola''' is a continent located in the northern and southern hemisphere. It is bordered by the [[Ayuma]] to the north, the [[Diairesi Sea]] to the west, [[Hinsakian Ocean]] to the east, and [[Mahea]] to the south. The continent covers around {{convert|17,989,207|km2|sqmi|abbr=on}} of land, making it the 3rd largest continent in the world, with a total of about 1,070,070,000 as of 1765, making it also the 4th largest continent by population behind, [[Mahea]], [[Massir]] and [[Quia]].
+
+[[Category:Acrola]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,92 @@
+{{Infobox continent
+|title          = South New Ayre
+|image          = South New Ayre Globe.png
+|imagecaption   = Location of West Mahea
+|area           = {{convert|5,041,777|km2|sqmi|abbr=on}}
+|population     = 71,712,573 (1765)
+|density        = {{convert|14.22|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}853.70 trillion
+|GDP_nominal    = {{lahn}}375.36 trillion
+|GDP_per_capita = {{lahn}}5,234
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = South New Ayren
+|countries      = 10
+|list_countries = 
+|dependencies   = 2
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Alqiran Language|Alqiran]] 
+* [[Iainoan Language|Iainoan]] 
+}}
+|time           = UTC -6 to -1
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Tovani]]
+*[[Damsiri]]
+*[[Evue]]
+*[[Hirvani]]
+*[[Kovasi]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''South New Ayre''' is a sub-continent located in the southern and noethern hemisphere. It is bordered the [[Sea of Miali]] and [[Southern Eanif Ocean]] to the south. [[Northern Eanif Ocean]] to the west, [[North New Ayre]] to the north, and the [[Rianian Sea]] to the east. The continent covers around {{convert|6,304,494|km2|sqmi|abbr=on}} of land, making it the 12th largest sub-continent in the world, with a total of about 165,545,073 as of 1765, making it also the 16th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Andsaudare}} || [[Andsaudare]] || style="text-align:right;" | 2,043,164 || style="text-align:right;" | 3,146,473 || style="text-align:right;" | 2 || [[Ravalor]]
+|-
+| style="text-align:center;"| {{flagicon|Hiwush}} || [[Hiwush]] || style="text-align:right;" | 3,881 || style="text-align:right;" | 239,092 || style="text-align:right;" | 62 || [[Egatsute]]
+|-
+| style="text-align:center;"| {{flagicon|Iainoa}} || [[Iainoa]] || style="text-align:right;" | 326,950 || style="text-align:right;" | 15,105,090 || style="text-align:right;" | 46 || [[Evue]]
+|-
+| style="text-align:center;"| {{flagicon|Isari}} || [[Isari]] || style="text-align:right;" | 193,050 || style="text-align:right;" | 12,783,095 || style="text-align:right;" | 66 || [[Damsiri]]
+|-
+| style="text-align:center;"| {{flagicon|Isuibul}} || [[Isuibul]] || style="text-align:right;" | 2,562 || style="text-align:right;" | 37,482 || style="text-align:right;" | 15 || [[Karundal]]
+|-
+| style="text-align:center;"| {{flagicon|Mendereide}} || [[Mendereide]] || style="text-align:right;" | 344,798 || style="text-align:right;" | 11,019,227 || style="text-align:right;" | 32 || [[Tovani]]
+|-
+| style="text-align:center;"| {{flagicon|Nia}} || [[Nia]] || style="text-align:right;" | 1,693,814 || style="text-align:right;" | 16,302,960 || style="text-align:right;" | 10 || [[Tovani]]
+|-
+| style="text-align:center;"| {{flagicon|Rkmepuia}} || [[Rkmepuia]] || style="text-align:right;" | 4,782 || style="text-align:right;" | 324,028 || style="text-align:right;" | 68 || [[Somari]]
+|-
+| style="text-align:center;"| {{flagicon|Umarcia}} || [[Umarcia]] || style="text-align:right;" | 426,225 || style="text-align:right;" | 12,307,247 || style="text-align:right;" | 29 || [[Hirvani]]
+|-
+| style="text-align:center;"| {{flagicon|United Delet}} || [[United Delet]] || style="text-align:right;" | 1,262,717 || style="text-align:right;" | 93,832,500 || style="text-align:right;" | 74 || [[Mantraal]]
+|-
+| style="text-align:center;"| {{flagicon|Yutnitu}} || [[Yutnitu]] || style="text-align:right;" | 2,551 || style="text-align:right;" | 447,879 || style="text-align:right;" | 176 || [[Teroc]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 11
+| style="text-align:right;"| 6,304,494
+| style="text-align:right;"| 165,545,073
+| style="text-align:right;"| 26
+|}
+
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

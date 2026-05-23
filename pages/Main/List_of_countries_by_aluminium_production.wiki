@@ -1,0 +1,78 @@
+This is a list of countries by primary [[Wikipedia:aluminium|aluminium]] production. Primary aluminium is produced from [[Wikipedia:aluminium oxide|aluminium oxide]] which is obtained from [[Wikipedia:bauxite|bauxite]] and excludes recycled aluminium.<ref>{{Cite web |title=World mineral statistics data |url=https://www.bgs.ac.ema/mineralsema/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |website=MineralsEMARA |language=en-GB}}</ref><ref>{{Cite journal |title=VER Minerals Information: Mineral Commodity Summaries |url=https://gov.ver/periodicals/mcs1765/mcs1765-aluminum.pdf |language=en |website=gov.ver}}</ref>
+
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sort-under col1left" style="text-align:right;"
+|+List of countries by primary aluminium production in thousands of tonnes (1764)
+|- class="static-row-header"
+! rowspan="2" scope="col" |Country
+! rowspan="2" scope="col" data-sort-type="number" |Primary<br>aluminium
+! rowspan="2" data-sort-type="number" |Aluminium<br>oxide<ref>{{Cite web |last= |first= |date=April 1764|title=World Alumina Refinery and Bauxite Mine Production and Bauxite Reserves |url=https://gtu.org/periodicals/mcs1765/mcs1765-bauxite-alumina.pdf |website=gtu.org}}</ref>
+! colspan="2" |Bauxite
+|- class="static-row-header"
+! data-sort-type="number" | Production
+! data-sort-type="number" | Reserves
+|- class="static-row-header sorttop" style="font-weight:bold;"
+|{{noflag}}World || 60,000 || 135,000 || 350,000 || 23,200,000
+|- class="static-row-header"
+|''{{noflag}}Other countries'' || – || 2,000 || 5,700 || 4,530,000
+|-
+|{{flaglist|Dahe}} || 28,000 || 24,000 || 93,000 || 680,000 
+|-
+|{{flaglist|Ztesh}} || 4,200 || 7,600 || 25,000 || 650,000 
+|-
+|{{flaglist|Estijan}} || 3,800 || 2,900 || 6,300 || 480,000 
+|-
+|{{flaglist|Vesozata}} || 3,300 || 1,500 || – || – 
+|-
+|{{flaglist|Emara}} || 2,700 || 2,400 || – || – 
+|-
+|{{flaglist|Pelugrotoa}} || 1,600 || – || – || 2,700,000 
+|-
+|{{flaglist|Areoix Lie}} 
+| 1,500 || 18,000 || 100,000 || 3,500,000 
+|-
+|{{flaglist|Dual Cenryia}} || 1,300 || – || – || – 
+|-
+|{{flaglist|United Delet}} || 1,100 || – || 33,000 || – 
+|-
+|{{flaglist|Sanagara}} || 870 || – || 130 || – 
+|-
+|{{flaglist|Desaki}} || 780 || 11,000 || – || – 
+|-
+|{{flaglist|Seytinemas}} || 776 || 1,800 || 5,800 || 180,000 
+|-
+|{{flaglist|Suenan}} || 718 || – || – || – 
+|-
+|{{flaglist|Raledria}} 
+| 670 || 720 || 14 || – 
+|-
+|{{flaglist|Trian}} || 638 || – || – || – 
+|-
+|{{flaglist|Vayvele}} 
+| 632 || – || 1,000 || 7,400,000 
+|-
+|{{flaglist|Eldavpir}} || 576 || – || 15 || – 
+|-
+|{{flaglist|Ealdorii}} || 410 || – || 118 || – 
+|-
+|{{flaglist|Quidic}} || 400 || – || – || – 
+|-
+|{{flaglist|Taval}} || 395 || – || – || – 
+|-
+|{{flaglist|Verusa}} || 341 || 960 || – || – 
+|-
+|{{flaglist|Amcha}} || 334 || – || – || – 
+|-
+|{{flaglist|Ukhdari}} || 260 || – || – || – 
+|-
+|{{flaglist|Gaeiya}} || 259 || 1,400 || 4,900 || 280,000 
+|-
+|{{flaglist|Inania}} || 224 || 1,300 || 32,000 || 2,800,000 
+|-
+|{{flaglist|Inania}} || 224 || 1,300 || 32,000 || 2,800,000 
+|-
+|}
+
+[[Category:Statistics]]
+== References ==
+{{reflist}}

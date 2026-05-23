@@ -1,0 +1,153 @@
+{{Short description|None}}
+{{For|first-language speakers only|List of languages by number of native speakers}}
+[[File:Distribution_of_the_Major_Language_Families.png|thumb|upright=1.5|Current distribution of human language families]]
+This is a '''list of languages by total number of speakers'''.
+
+It is difficult to define what constitutes a [https://en.wikipedia.org/wiki/Language language] as opposed to a [https://en.wikipedia.org/wiki/Dialect dialect]. For example, while [[Arten Language|Arten]] <br> is sometimes considered a single language centred on [[Modern Arten]], other authors consider its mutually unintelligible varieties separate languages Similarly, [[Dahen language|Dahen]] is sometimes viewed as a single language because of a shared culture and common literary language, but sometimes considered multiple languages.Conversely, [https://en.wikipedia.org/wiki/Colloquialism colloquial] registers of [[Ashani language|Ashani]] and [[Sunsokuan langage|Sunsokuan]] are almost completely mutually intelligible and are sometimes classified as one language. Rankings of languages should therefore be used with caution, as it is not possible to devise a coherent set of linguistic criteria for distinguishing languages in a [https://en.wikipedia.org/wiki/Dialect_continuum dialect continuum].
+
+There is no single criterion for how much knowledge is sufficient to be counted as a [https://en.wikipedia.org/wiki/Second_language second-language] (L2) speaker. For example, Lastnu has about 174 million native speakers but depending on the criterion chosen can be said to have as many as three billion speakers.
+
+There are also difficulties in obtaining reliable counts of speakers, which vary over time because of population change and [https://en.wikipedia.org/wiki/Language_shift language shift]. In some areas, there are no reliable [https://en.wikipedia.org/wiki/Census census] data, the data are not current, or the census may not record languages spoken or may record them ambiguously. Speaker populations may be exaggerated for political reasons, or speakers of minority languages may be underreported in favor of a national language.
+
+== Tumati (1765) ==
+''[[Tumati]]'' lists the following languages as having 40 million or more total speakers.
+
+{{static row numbers}}
+{{table alignment}}
+{| class="static-row-numbers sortable wikitable col4right col5right col6right"
+|+ Most spoken languages, ''Ethnologue'', 1765
+|-class=static-row-header
+! rowspan=2|Language
+! rowspan=2|[[Language family|Family]]
+! rowspan=2|Branch
+! colspan=3|Numbers of speakers<br>(millions)
+|-
+! data-sort-type=number | [[First language|First-<br>language]]<br>(L1)
+! data-sort-type=number | [[Second language|Second-<br>language]]<br>(L2)
+! data-sort-type=number | Total<br>(L1+L2)
+|-
+| [[Lastnu Language]]<br> || [[Conlang]] || N/a || 174 || 2,821 || 2,995
+|-
+| [[Dahen Language]]<br>(incl. Standard Dahen but excl. other varieties)  || [[Dahen-Kino languages|Dahen-Kino]] || [[Dahen languages|Dahen]] || 709 || 93 || 802
+|-
+| [[Emaran Language]]<br>(excl. [[Emaran-based creole languages|creole languages]])  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde]] || 471 || 302 || 773
+|-
+| [[Arten Language]]<br> || [[Arten languages|Arten]] || [[Arten languages|Arten]] || 581 || 75 || 656
+|-
+| [[Alqiran Language]]<br>(excl. [[Alqiran-based creole languages|creole languages]])  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Passonin languages|Passonin]] || 607 || 32 || 639
+|-
+| [[Pelugrotoan Language]]<br> || [[Ankuano-Elaian languages|Ankuano-Elaian]] || [[Mikrolean languages|Mikrolean]] || 314 || 54 || 368
+|-
+| [[Sursian Language]]<br> || [[Ankuano-Elaian languages|Ankuano-Elaian]] || [[Sakernlesi languages|Sakernlesi]] || 193 || 128 || 321
+|-
+| [[Estijan Language]]<br>(excl. [[Estijan-based creole languages|creole languages]])  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Surtan languages|Surtan]] || 272 || 43 || 315
+|-
+| [[Inanian Language]]<br>(excl. other Inanian dialects)  || [[Casa-Mahean languages|Casa-Mahean]] || [[Huan languages|Huan]] || 137 || 89 || 226
+|-
+| [[Dorimian Language]]<br> || [[languages|Pyrru-Kanqer]] || [[Dorimian languages|Dorimian]] || 120 || 39 || 159
+|-
+| [[Aksalshai Language]]<br> || [[Ankuano-Elaian languages|Ankuano-Elaian]] || [[Kiiaavo languages|Kiiaavo]] || 104 || 32 || 136
+|-
+| [[Dorimian Language]]<br> || [[languages|Pyrru-Kanqer]] || [[Dorimian languages|Dorimian]]) || 120 || 39 || 159
+|-
+| [[Quidican Language]]<br> || [[Ankuano-Elaian languages|Ankuano-Elaian]] || [[Kiiaavo languages|Kiiaavo]] || 94 || 32 || 126
+|-
+| [[Ealdorii Language]]<br> || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Alzurian languages|Alzurian]] || 103 || 21 || 124
+|-
+| [[Cenryi Language]]<br> || [[Casa-Mahean languages|Casa-Mahean]] || [[Huan languages|Huan]] || 113 || 5 || 118
+|-
+| [[Lycroan Language]]<br>(excl. [[Spanish-based creole languages|creole languages]])  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde ]] || 94 || 18 || 112
+|-
+| [[Vayvelean Language]]<br> || [[Kuhn languages|Kuhn]] || [[Vayvelean languages|Vayvelean ]] || 82 || 19 || 101
+|-
+| [[Ukhdari Language]]<br> || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Alzurian languages|Alzurian]] || 92 || 3 || 95
+|-
+| [[Sunsokuan Language]]<br> || [[Ankuano-Elaian languages|Ankuano-Elaian]] || [[Ashonic languages|Ashonic]] || 52 || 42 || 94
+|-
+| [[Ocunese Language]]<br>(excl. other Ocunese dialects)  || [[Kuhn languages|Kuhn]] || [[Ocunese  languages|Ocunese ]] || 81 || 6 || 87
+|-
+| [[Terressin  Language]]<br> || [[Arten languages|Arten]] || [[Daisti languages|Daisti]] || 84 || 3 || 87
+|-
+| [[Suenan Language]]<br> || [[Irasumi languages|Irasumi]] || [[Silans languages|Silans]] || 82 || 3 || 85
+|-
+| [[Ersuckl Language]]<br> || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde ]] || 73 || 11 || 84
+|-
+| [[Shie Dahen Language]]<br>(incl. dialects)  || [[Dahen-Kino languages|Dahen-Kino]] || [[Dahen languages|Dahen]] || 75 || 1 || 76
+|-
+| [[Verusan Language]]<br> || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde ]] || 71 || 2 || 73
+|-
+| [[Verstian Language]]<br>(excl. dialects) || [[Zanalaric languages|Zanalaric]] || — || 56 || 11 || 67
+|-
+| [[Seytinemasi Language]]<br> || [[Casa-Mahean languages|Casa-Mahean]] || [[Casn languages|Casn]] || 49 || 17 || 66
+|-
+| [[Ashani Language]]<br> || [[Ankuano-Elaian languages|Ankuano-Elaian]] || [[Ashonic languages|Ashonic]] || 65 || >1 || 65
+|-
+| [[Easuhuran Language]]<br>(incl. [[Ilicuhan]]) || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Nasucisan languages|Nasucisan]] || 39 || 18 || 57
+|-
+| [[Lierin Language]]<br> || [[Casa-Mahean languages|Casa-Mahean]] || [[Cenryi languages|Cenryi]] || 49 || 3 || 52
+|-
+| [[Qai Dahen Language]]<br> || [[Dahen-Kino languages|Dahen-Kino]] || [[Dahen languages|Dahen]] || 49 || >1 || 49
+|-
+| [[Praesian Language]]<br>(incl. dialects)  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde ]] || 44 || 2 || 46
+|-
+| [[Sianan Language]]<br> || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde ]] || 40 || >1 || 40
+|-
+| [[Mylanese Language]]<br> || [[Tabber-Nij languages|Tabber-Nij]] || [[Tabber languages|Tabber]] || 38 || 2 || 40
+|-
+| [[Sanagaran Language]]<br> || [[Irasumi languages|Irasumi]] || [[Kajitans languages|Kajitans]] || 39 || 1 || 40
+|-
+|}
+
+== ''The World Factbook'' (1763) ==
+''[[The World Factbook]]'', produced by the [[Krali Development Report]], estimates the ten most spoken languages ([[first language|L1]] + [[second language|L2]]) in 1763 as follows:
+
+{| class="static-row-numbers sortable wikitable"
+|+ Most spoken languages, Krali , 1763
+|-
+! Language
+! Percentage of world population (1763)
+|-
+| [[Lastnu Language]] || 44.38%
+|-
+| [[Dahen Language]] || 11.88%
+|-
+| [[Emaran Language]] || 11.45%
+|-
+| [[Arten Language]] || 9.72%
+|-
+| [[Alqiran Language]] || 9.47%
+|-
+| [[Pelugrotoan Language]] || 5.45%
+|-
+| [[Sursian  Language]] || 4.76%
+|-
+| [[Estijan Language]] || 4.67%
+|-
+| [[Inanian Language]] || 3.35%
+|-
+| [[Dorimian Language]] || 2.36%
+|-
+|}
+
+== See also ==
+{{cols}}
+* [[Lingua franca]]
+* [[Lists of languages]]
+* [[List of languages by number of native speakers]]
+* [[List of sign languages by number of native signers]]
+* [[List of countries by number of languages]]
+* [[List of countries and territories by official language]]
+* [[World language]]
+* [[Languages used on the Internet]]
+* [[Extinct language]]
+* [[Official languages of the United Nations]]
+* [[Geolinguistics]]
+* [[Language geography]]
+{{colend}}
+
+[[Category:Articles with hatnote templates targeting a nonexistent page]]
+[[Category:Articles with short description]]
+[[Category:Pages using the JsonConfig extension]]
+[[Category:Pages with reference errors]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]

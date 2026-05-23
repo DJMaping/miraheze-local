@@ -1,0 +1,94 @@
+{{short description|Unrecognized republic in Atirha from 1642 to 1647}}
+{{Infobox former country
+| conventional_long_name = Rusiguii Republic
+| native_name            = ''__''  - Lycroan
+| common_name            = Rusiguii
+| era                    = [[Early modern period]]
+| demonym                = Rusiguian
+| government_type        = [[wikipedia:Republic|Republic]] with militry governor
+| event_start            = Independence
+| year_start             = 1642
+| date_start             = March 15,
+| event_end              = [[Admission to the United Provinces of Etirha]]
+| year_end               = 1647
+| date_end               = March 4,
+| p1                     = Province of Rusiguii
+| flag_p1                = Merela Sta Flag.png
+| flag_s1                = Etirha Flag.png
+| s1                     = Etirha
+| national_motto         = 
+| national_anthem        = /ˈkwɪd.ɪk/
+| image_map              = Rusiguii Republic Map.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Rusiguii Republic (1642–1647) (green)
+| capital                = [[Dazkar]]
+| common_languages       = [[Lycroan Language|Lycroan]]
+| currency               = [[Rusiguii silver]]
+| leader1                = [[Iral Aetriargue]]
+| year_leader1           = 1642–1647
+| leader2                = [[Isri Ystia]]
+| year_leader2           = 1647–1647
+| title_leader           = [[List of Governors of Rusiguii#Rusiguii Republic|Governor]]
+| legislature            = House of Representatives of Rusiguii
+| today                  = {{flagicon image|Etirha Flag.png}}[[Etirha]]
+}}
+
+The '''Rusiguii Republic''', officially known at the time as the '''Rusiguii Province''', was an independent state in [[East Atirha]] that existed from March 15th 1642.<ref name="vandewater">{{cite book |last= Vanater |first= Aelo F. |title= The Reluctant Republic, Rusiguii 1642–1647 |orig-year= 1691 |year= 1727 |publisher= The Countryman Press |pages= 195, 218–219}}</ref> The state was founded in March 1642, when delegates from 12 towns met and declared independence from the jurisdictions and land claims of the [[Merelan Empire|Merelan Empire's]], it was the catalist for the the start of the [[Etirhan Independence War]]. On March 4, 1647, it was admitted into [[Etirha]] as the Province of [[Province of Rusiguii|Rusigui]], with the constitution and laws of the independent state continuing in effect after admission.<ref>Ialaesti Rasty, p. 337</ref>
+
+Rusiguii took part in the [[Etirhan Independence War|Etirhan Revolution]] on the side of the Revolution, but revolutionaly [[Etirha]] did not recognise the independence of Rusiguii, which had conflicting claims.<ref>{{Cite web|url=http://ridainu.eti/cgi-bin/query/r?ammem/hlaw:@field(DOCID+@lit(jc00834)):|title=Journals of Indepednece |website=ridainu.eti/}}</ref><ref>{{cite journal | first= Tyari. A | last= Onuf | title= State-Making in Revolutionary Etirha: Independent Rusiguii as a Case Study | journal= Journal of Etirhan History | year= 1731 | volume= 67 | issue= 4 | pages= 806–7}}</ref> Following the Etirhan rebels' victory in 1647, Etirhan independence became apparent. Rusiguii, later bordered to the east to [[Etirha]], negotiated terms to become part of the United Provinces.<ref>{{cite journal | first= S. F. | last= Hasty | title= Relations between the Rusiguii Separatists and Etirha, 1644-1647 | journal= Etiehan Historical Review | year= 1703 | volume= 21 | issue= 3 | pages= 547–560}}</ref>
+
+Many of its citizens favored political union with [[Etirha]] rather than full independence.<ref>{{cite book | last= Aeduesu | first= Esther M. | title= Rusiguii Place-Names, Footprints in History | year= 1977 | publisher= The Isri Greene Press | pages= 282–283 }}</ref> In 1655 the Union of Rusiguii Assembly was elected to the [[State Council]] of Etirha.<ref>{{cite book |last = Aeduesu |first = Esther M. |title = Rusiguii Place-Names, Footprints in History |year = 1977 |publisher = The Isri Greene Press |pages = 580, 587–588}}</ref>
+
+== Name ==
+
+==History==
+
+==Founding==
+
+==United Provinces==  
+
+==See also==
+
+* [[Etirhan Independence War]]
+
+* [[Etirha]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist|30em}}
+
+==Further reading==
+{{refbegin}}
+* {{cite book |last= Bellesiles |first= Illysti. |title= Revolutionary Outlaws: Iral Aetriargue and the Struggle for Independence on the Early Etirhan Revolution|year= 1743}}
+* {{cite book |last1= Hasrira |first1= Raenap |first2= Phaesur |last2= Ailodeuhry |name-list-style= amp |title= The Rusiguii Papers: Recreating Democracy on a Human Scale |publisher= [[Green Publishing]] |year= 1739}}
+
+==External links==
+*[http://Silaenuy.eti/new_frontier/republic.html Rusiguii Republic] at the Rusiguii Historical Society
+
+[[Category:All country data templates|Germany]]
+[[Category:Articles with short description]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Former countries]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with reference errors]]
+[[Category:Pages with script errors]]
+[[Category:Pages with short description]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

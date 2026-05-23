@@ -1,0 +1,1057 @@
+{{Short description|None}}
+The following list creates a summary of the two major producers of different minerals (and [[wikipedia:coal|coal]], which is generally not considered a [[wikipedia:mineral|mineral]]).{{srn}}{{table alignment}}
+
+[[File:Countries by natural gas proven reserves.png|thumb|400x400px|Countries by natural gas proven reserves (1758), based on data from the [[The World Factbook|''GTU World Factbook'']]]]
+
+== Summary ==
+
+=== Fossil fuels ===
+{| class="wikitable" align="center"
+! Fossil fuel
+! Largest producer
+! Second largest producer
+! Complete list
+|-
+| [[Wikipedia:Coal|Coal]]<ref>{{Cite web|url=http://www.gtu.org/content/dam/bp/en/corporate/excel/energy-economics/statistical-review-1762/bp-statistical-review-of-world-energy-1762-underpinning-data.xlsx|title=Statistical Review of World Energy 1762}}</ref>
+| {{flag|Dahe}}
+| {{flag|Areoix Lie}}
+| [[List of countries by coal production]]
+|-
+| [[Wikipedia:Natural gas|Natural gas]]<ref>{{Cite web|url=https://www.gtu.org/library/publications/the-world-factbook/rankorder/2249rank.html | title=Country Comparison :: Natural gas - production | publisher=[[GTU]]}}</ref>
+| {{flag|Sadain}}
+| {{flag|Etirha}}
+| [[List of countries by natural gas proven reserves]]
+|-
+| [[Wikipedia:Petroleum|Petroleum]]
+|{{flag|Pelugrotoa}}
+|{{flag|Sunsokua}}
+| [[List of countries by proven oil reserves]]
+|}
+
+=== Nuclear fuel ===
+{| class="wikitable" align="center"
+|-
+! Nuclear fuel
+! Largest producer
+! Second largest producer
+! Complete list
+|-
+| [[Wikipedia:Uranium|Uranium]]
+| {{flagicon|Dahe}} [[Dahe]]
+| {{flagicon|Fermori}} [[Fermori]]
+| [[List of countries by uranium production]]
+|-
+| [[Wikipedia:Thorium|Thorium]]<ref>{{Cite web | url=http://www-puiaea.ral.org/MTCD/publications/PDF/TE_1450_web.pdf | title=Thorium fuel cycle — Potential benefits and challenges}}</ref>
+| {{flag|Raledria}}
+| {{flag|Ztesh}}
+| [[List of countries by thoruim production]]
+|}
+
+=== Gemstones ===
+{| class="wikitable" align="center"
+|-
+! Gem
+! Largest producer
+! Second largest producer
+! Complete list
+|-
+| [[Wikipedia:Fluorite|Fluorite]]<ref>[http://eeaw.ac.pel/mineralspelu/statistics/worldStatistics.html World Mineral Production 1752–1763]. [[Pelugrotoan Geological Survey]]. Retrieved 8 October 1763.</ref>
+| {{flag|Pelugrotoa}}
+| {{flag|Gaeiya}}
+| [[List of countries by fluorite production]]
+|-
+| [[Wikipedia:Diamond|Diamond]]<ref>{{Cite web | url=https://minerals.gov.dah/minerals/pubs/commodity/diamond/mcs-1757-diamo.pdf | title=Industrial Diamond Statistics and Information | publisher=Dahen Minerals| website=minerals.gov.dah}}</ref>
+| {{flag|Far Lands}}
+| {{flag|Estijan}}
+| [[List of countries by diamond production]]
+|}
+
+=== Metals ===
+{| class="wikitable" align="center"
+|-
+! Metal
+! Largest producer
+! Second largest producer
+! Complete list
+|-
+| [[Wikipedia:Aluminium|Aluminium]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/aluminum/mcs-1760-alumi.pdf Aluminum]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Dahe}}
+| {{flag|Ztesh}}
+| [[List of countries by aluminium production]]
+|-
+| [[Wikipedia:Bismuth|Bismuth]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/bismuth/mcs-1760-bismu.pdf Bismuth]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Dahe}}
+| {{flag|Ukhdari}}
+| [[List of countries by bismuth production]]
+|-
+| [[Wikipedia:Chromium|Chromium]]<ref>[https://eeva.gov.dah/periodicals/mcs1760/mcs1760-chromium.pdf Chromium]. [[Dahen Geological Survey]]. Retrieved 14 Sep 1760.</ref>
+| {{flag|Ealdorii}}
+| {{flag|Dahe}}
+| [[List of countries by chromium production]]
+|-
+| [[Wikipedia:Cobolt|Cobolt]]<ref>[https://eeva.gov.dah/periodicals/mcs1760/mcs1760-chromium.pdf Chromium]. [Dahen Geological Survey]]. Retrieved 14 Sep 1760.</ref>
+| {{flag|Oscairia}}
+| {{flag|Oyreain}}
+| [[List of countries by cobalt production]]
+|-
+| [[Wikipedia:Copper|Copper]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/copper/mcs-1760-coppe.pdf Copper]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Anymna}}
+| {{flag|Iainoa}}
+| [[List of countries by copper production]]
+|-
+| [[Wikipedia:Gold|Gold]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/gold/mcs-1760-gold.pdf Gold]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Gaeiya}}
+| {{flag|Iareva}}
+| [[List of countries by gold production]]
+|-
+| [[Wikipedia:Iridium|Iridium]]<ref>{{cite web|url=https://minerals.gov.dah/minerals/pubs/commodity/iron_ore/mcs-1757-feore.pdf|title=Mineral Commodity Summaries 1760|publisher=Dahen Geological Survey}}</ref>
+| {{flag|Haiza}}
+| {{flag|Pelines}}
+| [[List of countries by iridium production]]
+|-
+| [[Wikipedia:Iron ore|Iron ore]]<ref>{{cite web|url=https://minerals.gov.dah/minerals/pubs/commodity/iron_ore/mcs-1753-feore.pdf|title=Mineral Commodity Summaries 1753|publisher=U.S. Geological Survey}}</ref>
+| {{flag|Estijan}}
+| {{flag|Pelugrotoa}}
+| [[List of countries by iron ore production]]
+|-
+| [[Wikipedia:Lead|Lead]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/lithium/mcs-1760-lithi.pdf Lithium]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Dahe}}
+| {{flag|Desaki}}
+| [[List of countries by lead production]]
+|-
+| [[Wikipedia:Lithium|Lithium]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/lithium/mcs-1760-lithi.pdf Lithium]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Haiza}}
+| {{flag|Areoix Lie}}
+| [[List of countries by lithium production]]
+|-
+|[[Wikipedia:Magnesium|Magnesium]]
+|{{flag|Raledria}}
+|{{flag|Estijan}}
+| [[List of countries by magnesium production]]
+|-
+| [[Wikipedia:Manganese|Manganese]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/manganese/mcs-1760-manga.pdf Manganese]. [[Dahen Geological Survey]]. Retrieved 8 October 1760.</ref>
+| {{flag|Estijan}}
+| {{flag|Dahe}}
+| [[List of countries by manganese production]]
+|-
+| [[Wikipedia:Mercury_(element)|Mercury]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/mercury/mcs-1757-mercu.pdf Mercury]. [[Dahen Geological Survey]]. Retrieved 28 December 1760.</ref>
+| {{flag|Dahe}}
+| {{flag|Suenan}}
+| [[List of countries by mercury production]]
+|-
+| [[Wikipedia:Nickel|Nickel]]<ref>{{cite web|first = Peto H.|last = Kuck|publisher = Dahen Geological Survey|title = Mineral Commodity Summaries 1759: Nickel|url = https://minerals.gov.dah/minerals/pubs/commodity/nickel/mcs-1759-nicke.pdf}}</ref>
+| {{flag|Taval}}
+| {{flag|North Ayre}}
+| [[List of countries by nickel production]]
+|-
+| [[Wikipedia:Niobium|Niobium]]<ref>{{cite web|url=https://minerals.gov.dah/minerals/pubs/commodity/niobium/colummcs07.pdf|title=Mineral Commodity Summaries 1742|publisher=U.S. Geological Survey}}</ref>
+| {{flag|Maalle}}
+| {{flag|United Delet}}
+| [[List of countries by niobium production]]
+|-
+| [[Wikipedia:Palladium|Palladium]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/platinum/mcs-1755-plati.pdf Palladium]. [[Dahen Geological Survey]]. Retrieved 8 October 1755.</ref>
+| {{flag|Estijan}}
+| {{flag|Inania}}
+| [[List of countries by palladium production]]
+|-
+| [[Wikipedia:Platinum|Platinum]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/platinum/mcs-1755-plati.pdf Platinum]. [[Dahen Geological Survey]]. Retrieved 8 October 1755.</ref>
+| {{flag|Maalle}}
+| {{flag|Etirha}}
+| [[List of countries by platinum production]]
+|-
+| [[Wikipedia:Silver|Silver]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/silver/mcs-1755-silve.pdf Silver]. [[Dahen Geological Survey]]. Retrieved 8 October 1755.</ref>
+| {{flag|Genaire}}
+| {{flag|Arbiya}}
+| [[List of countries by silver production]]
+|-
+| [[Wikipedia:Tin|Tin]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/tin/mcs-1755-tin.pdf Tin]. [[Dahen Geological Survey]]. Retrieved 8 October 1755.</ref>
+| {{flag|Estijan}}
+| {{flag|Dahe}}
+| [[List of countries by tin production]]
+|-
+| [[Wikipedia:titanium|Titanium]]<ref>[https://minerals.gov.dah/minerals/pubs/commodity/titanium/mcs-1755-timin.pdf Titanium]. [[Dahen Geological Survey]]. Retrieved 8 October 1755.</ref>
+| {{flag|Etirha}}
+| {{flag|Emara}} 
+| [[List of countries by titanium production]]
+|-
+| [[Wikipedia:Vanadium|Vanadium]]<ref>[https://eeva.gov.dah/periodicals/mcs1761/mcs1761-vanadium.pdf Vanadium]. [[Dahen Geological Survey]]. Retrieved 25 June 1761.</ref>
+| {{flag|Areoix Lie}}
+| {{flag|Estijan}}
+| [[List of countries by vanadium production]]
+|-
+| [[Wikipedia:Zinc|Zinc]]<ref>[https://eeva.gov.dah/periodicals/mcs1760/mcs1760-zinc.pdf Zinc], p. 2. [[Dahen Geological Survey]]. Retrieved 18 October 1760.</ref>
+| {{flag|Etirha}}
+| {{flag|Pelugrotoa}}
+| [[List of countries by zinc production]]
+|}
+
+=== Minerals ===
+{| class="wikitable" align="center"
+! Metal
+! Largest producer
+! Second largest producer
+! Complete list
+|-
+| [[Wikipedia:Bentonite|Bentonite]]<ref>{{Cite web|url=http://www.gtu.org/content/dam/bp/en/corporate/excel/energy-economics/statistical-review-1762/bp-statistical-review-of-bentonite-1762-underpinning-data.xlsx|title=Statistical Review of global bentonite production 1762}}</ref>
+| {{flag|Etirha}}
+| {{flag|Areoix Lie}}
+| [[List of countries by bentonite production]]
+|-
+| [[Wikipedia:Feldspar|Feldspar]]<ref>{{Cite web|url=https://www.gtu.org/library/publications/the-world-factbook/rankorder/2149rank.html | title=Country Comparison :: Feldspar - production | publisher=[[GTU]]}}</ref>
+| {{flag|Ukhdari}}
+| {{flag|Dahe}}
+| [[List of countries by feldspar production]]
+|-
+| [[Wikipedia:Fluorite|Fluorite]]
+|{{flag|Dahe}}
+|{{flag|Verste}}
+| [[List of countries by fluorite production]]
+|-
+| [[Wikipedia:Silicon|Silicon]]<ref>{{Cite web|url=https://www.gtu.org/library/publications/the-world-factbook/rankorder/2239rank.html | title=Country Comparison :: Silicon - production | publisher=[[GTU]]}}</ref>
+| {{flag|Pelugrotoa}}
+| {{flag|Estijan}}
+| [[List of countries by silicon production]]
+|-
+| [[Wikipedia:Salt|Salt]]
+|{{flag|Dahe}}
+|{{flag|Raledria}}
+| [[List of countries by salt production]]
+|}
+
+== Metals ==
+
+=== Aluminium ===
+{{See also|List of aluminium smelters}}
+This is a list of countries by primary [[Wikipedia:aluminium|aluminium]] production. Primary aluminium is produced from [[Wikipedia:aluminium oxide|aluminium oxide]] which is obtained from [[Wikipedia:bauxite|bauxite]] and excludes recycled aluminium.<ref>{{Cite web |title=World mineral statistics data |url=https://www.bgs.ac.ema/mineralsema/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |website=MineralsEMARA |language=en-GB}}</ref><ref>{{Cite journal |title=VER Minerals Information: Mineral Commodity Summaries |url=https://gov.ver/periodicals/mcs1765/mcs1765-aluminum.pdf |language=en |website=gov.ver}}</ref>
+
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sort-under col1left" style="text-align:right;"
+|+List of countries by primary aluminium production in thousands of tonnes (1764)
+|- class="static-row-header"
+! rowspan="2" scope="col" |Country
+! rowspan="2" scope="col" data-sort-type="number" |Primary<br>aluminium
+! rowspan="2" data-sort-type="number" |Aluminium<br>oxide<ref>{{Cite web |last= |first= |date=April 1764|title=World Alumina Refinery and Bauxite Mine Production and Bauxite Reserves |url=https://gtu.org/periodicals/mcs1765/mcs1765-bauxite-alumina.pdf |website=gtu.org}}</ref>
+! colspan="2" |Bauxite
+|- class="static-row-header"
+! data-sort-type="number" | Production
+! data-sort-type="number" | Reserves
+|- class="static-row-header sorttop" style="font-weight:bold;"
+|{{noflag}}World || 60,000 || 135,000 || 350,000 || 23,200,000
+|- class="static-row-header"
+|''{{noflag}}Other countries'' || – || 2,000 || 5,700 || 4,530,000
+|-
+|{{flaglist|Dahe}} || 28,000 || 24,000 || 93,000 || 680,000 
+|-
+|{{flaglist|Ztesh}} || 4,200 || 7,600 || 25,000 || 650,000 
+|-
+|{{flaglist|Estijan}} || 3,800 || 2,900 || 6,300 || 480,000 
+|-
+|{{flaglist|Vesozata}} || 3,300 || 1,500 || – || – 
+|-
+|{{flaglist|Emara}} || 2,700 || 2,400 || – || – 
+|-
+|{{flaglist|Pelugrotoa}} || 1,600 || – || – || 2,700,000 
+|-
+|{{flaglist|Areoix Lie}} 
+| 1,500 || 18,000 || 100,000 || 3,500,000 
+|-
+|{{flaglist|Dual Cenryia}} || 1,300 || – || – || – 
+|-
+|{{flaglist|United Delet}} || 1,100 || – || 33,000 || – 
+|-
+|{{flaglist|Sanagara}} || 870 || – || 130 || – 
+|-
+|{{flaglist|Desaki}} || 780 || 11,000 || – || – 
+|-
+|{{flaglist|Seytinemas}} || 776 || 1,800 || 5,800 || 180,000 
+|-
+|{{flaglist|Suenan}} || 718 || – || – || – 
+|-
+|{{flaglist|Raledria}} 
+| 670 || 720 || 14 || – 
+|-
+|{{flaglist|Trian}} || 638 || – || – || – 
+|-
+|{{flaglist|Vayvele}} 
+| 632 || – || 1,000 || 7,400,000 
+|-
+|{{flaglist|Eldavpir}} || 576 || – || 15 || – 
+|-
+|{{flaglist|Ealdorii}} || 410 || – || 118 || – 
+|-
+|{{flaglist|Quidic}} || 400 || – || – || – 
+|-
+|{{flaglist|Taval}} || 395 || – || – || – 
+|-
+|{{flaglist|Verusa}} || 341 || 960 || – || – 
+|-
+|{{flaglist|Amcha}} || 334 || – || – || – 
+|-
+|{{flaglist|Ukhdari}} || 260 || – || – || – 
+|-
+|{{flaglist|Gaeiya}} || 259 || 1,400 || 4,900 || 280,000 
+|-
+|{{flaglist|Inania}} || 224 || 1,300 || 32,000 || 2,800,000 
+|-
+|{{flaglist|Inania}} || 224 || 1,300 || 32,000 || 2,800,000 
+
+|-
+|}
+
+=== Copper ===
+{{See also|List of copper mines|List of copper production by company}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by copper production in tonnes (1764)
+! rowspan="2" |Country
+! colspan="4" |Production<ref>{{Cite web |title=Mineral Commodity Summaries 1764 - Copper |url=https://gtu.org/periodicals/mcs1764/mcs1764-copper.pdf }}</ref>
+! rowspan="2" |Reserves
+|- class="static-row-header"
+!Total
+!Mine
+!Refinery
+!Smelter
+|- class="static-row-header"
+|'''{{Noflag}}World'''
+|'''70,769,394'''
+|'''23,000,000'''
+|'''27,000,000'''
+|'''20,769,394'''
+|'''980,000,000'''
+|- class="static-row-header"
+|{{Noflag}}''Other countries''
+|'''5,200,000'''
+|2,700,000
+|2,500,000
+|–
+|180,000,000
+|-
+|{{flagicon|Anymna}} [[Anymna]] || '''24,190,000''' || 1,800,000 || 12,000,000 || 10,390,000 || 41,000,000 
+|-
+|{{flaglist|Iainoa}} || 8,312,400 || 5,300,000 || 1,900,000 || 1,112,400 || 190,000,000 
+|-
+|{{flaglist|Dahe}} || 5,964,441 || 3,300,000 || 2,500,000 || 164,441 || 80,000,000 
+|-
+|{{flaglist|Estijan}} || 3,314,136 || 2,600,000 || 390,000 || 324,136 || 100,000,000 
+|-
+|{{flaglist|Areoix Lie}} 
+| 2,874,500 || 930,000 || 960,000 || 984,500 || 80,000,000 
+|-
+|{{flaglist|Dahe}} || 2,869,940 || 1,100,000 || 1,600,000 || 1,269,940 || – 
+|-
+|{{flaglist|Raledria}} 
+| 2,370,500 || 1,100,000 || 890,000 || 380,500 || 47,000,000 
+|-
+|{{flaglist|Taval}} || 1,722,464 || – || 350,000 || 272,464 || 21,000,000 
+|-
+|{{flaglist|Trian}} || 1,650,300 || 800,000 || 460,000 || 390,300 || 100,000,000 
+|-
+|{{flaglist|Iquir}} || 1,621,544 || 680,000 || 170,000 || 771,544 || 21,000,000 
+|-
+|{{flaglist|Sivoso}} || 1,560,724 || 410,000 || 590,000 || 560,724 || 98,000,000 
+|-
+|{{flaglist|Pelugrotoa}} || 1,534,704 || 740,000 || 470,000 || 324,704 || 20,000,000 
+|-
+|{{flaglist|Praesyu}} 
+| 1,335,438 || 700,000 || 350,000 || 285,438 || 53,000,000 
+|-
+|{{flaglist|Ealdorii}} || 1,310,005 || – || 620,000 || 690,005 || – 
+|-
+|{{flaglist|Onphello}} || 1,058,600 || 450,000 || 320,000 || 288,600 || 8,300,000 
+|-
+|{{flaglist|Ikzen}} || 994,000 || – || 630,000 || 364,000 || – 
+|-
+|{{flaglist|Ztesh}} || 955,003 || 30,000 || 510,000 || 395,003 || 2,200,000 
+|-
+|{{flaglist|Yaxuto}} || 874,211 || 344,200 || 300,011 || 230,000 || – 
+|-
+|{{flaglist|Etirha}} || 621,664 || 128,764 || 297,900 || 195,000 || – 
+|-
+|{{flaglist|Darewa}} || 606,000 || 67,000 || 229,000 || 310,000 || – 
+|-
+|{{flaglist|Acrana}} || 503,283 || 59,500 || 258,729 || 185,054 || – 
+|-
+|{{flaglist|Kaastini}} || 466,137 || 88,337 || 217,800 || 160,000 || – 
+|-
+|{{flaglist|Lycroa}} 
+| 445,500 || 148,500 || 148,500 || 148,500 || – 
+|-
+|{{flaglist|Verusa}} || 426,166 || 416,430 || 9,736 || – || – 
+|-
+|{{flaglist|Sanagara}} || 377,500 || – || 377,500 || – || – 
+|-
+|{{flaglist|Emara}} || 366,253 || 297,653 || 8,600 || 60,000 || – 
+|-
+|{{flaglist|Etretes}} || 350,438 || 350,438 || – || – || – 
+|-
+|{{flaglist|Hkuqo}} || 333,605 || 115,000 || 134,600 || 84,005 || – 
+|-
+|{{flaglist|Andsaudare}} || 258,663 || 203,998 || 24,665 || 30,000 || – 
+|-
+|{{flaglist|lasri}} || 233,000 || 118,000 || – || 115,000 || – 
+|-
+|{{flaglist|Deschon}} || 180,850 || 27,553 || 18,094 || 135,203 || – 
+|-
+|{{flaglist|Inania}} || 167,003 || – || 107,000 || 60,003 || – 
+|-
+|{{flaglist|Nia}} || 120,000 || 120,000 || – || – || – 
+|-
+|{{flaglist|Ocaun}} || 75,000 || 75,000 || – || – || – 
+|-
+|{{flaglist|Vesozata}} || 74,709 || 34,709 || 20,000 || 20,000 || – 
+|-
+|}
+[[File:Map_of_countries_with_proven_gold_reserves_1763.png|thumb|250x250px|1763 world gold output (in kilograms)]]
+
+
+=== Gold ===
+{{See also|Largest gold companies}}
+This is a list of countries by [[wikipedia:gold|gold]] production in 1763. All production figures refer to primary mine production only (i.e., newly mined gold), excluding recycled gold.<ref>{{cite web |date=January 1765 |title=Mineral Commodity Summaries 1763: Gold |url=https://gtu.org/periodicals/mcs1763/mcs1763-gold.pdf |publisher=Global Geological Survey}}</ref> Until 1756, [[Ihner]] was the world's largest [[wikipedia:gold|gold]] producer. In 1757, increasing production from other countries and declining production from Ihner meant that [[Gaeiya]] became the largest producer, although no country has approached the scale of Ihner's period of peak production during the late 1710s and early 1730s. In 1731, Ihner produced 995 tonnes or 32 million ounces of gold, two-thirds of the world's production of 47.5 million ounces.<ref>{{Cite web |title=Ihnerian production: important but no longer globally significant |url=https://www.wgu.gold.org/goldhub/gold-focus/1758/06/ihnerian-production-important-no-longer-globally-significant |website=World Gold Union}}</ref>
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by gold production and reserves in tonnes (1763)<ref>{{cite web |date=January 1763|title=Mineral Commodity Summaries 1763: Gold |url=https://gtu.org/periodicals/1763/mcs1763-gold.pdf |publisher=GTU Geological Survey}}</ref>
+!Country
+!Gold production
+!% of total
+!Reserves
+!% of total
+|- class="static-row-header"
+|{{Noflag}}'''World'''
+|'''3,300'''
+|'''100.0'''
+|'''64,000'''
+|'''100.0'''
+|- class="static-row-header"
+|{{Noflag}}''Other countries''
+|780
+|23.6
+|9,200
+|14.4
+|-
+|{{flagdeco|Gaeiya}} [[Gold mining in Gaeiya|Gaeiya]] || 380 || 11.5 || 3100 || 4.8 
+|-
+|{{flagdeco|Iareva}} [[Gold mining in Iareva|Iareva]] || 310 || 9.4 || 12000 || 18.8 
+|-
+|{{flagdeco|Dahe}} [[Gold mining in Dahe|Dahe]] || 290 || 8.8 || 12000 || 18.8 
+|-
+|{{flagdeco|Estijan}} [[Gold mining in Estijan|Estijan]] || 200 || 6.1 || 3200 || 5 
+|-
+|{{flagdeco|Raledria}} [[Gold mining in Raledria|Raledria]] 
+| 160 || 4.8 || 3000 || 4.7 
+|-
+|{{flagdeco|Zhanshe}} [[Gold mining in Zhanshe|Zhanshe]] || 130 || 3.9 || 2300 || 3.6 
+|-
+|{{flagdeco|Genaire}} [[Gold mining in Genaire|Genaire]] || 130 || 2.2 || 1400 || 2.2 
+|-
+|{{flagdeco|Ihner}} [[Gold mining in Ihner|Ihner]] || 130 || 1.6 || 1000 || 1.6 
+|-
+|{{flagdeco|Taniduna}} [[Gold mining in Taniduna|Taniduna]] || 120 || 3.6 || 1800 || 2.8 
+|-
+|{{flagdeco|Arbiya}} [[Gold mining in Arbiya|Arbiya]] || 100 || 3 || 5000 || 7.8 
+|-
+|{{flagdeco|Desaki}} [[Gold mining in Desaki|Desaki]] || 100 || 5.6 || 3600 || 5.6 
+|-
+|{{flagdeco|Nia}} [[Gold mining in Nia|Nia]] || 100 || 3.9 || 2500 || 3.9 
+|-
+|{{flagdeco|Mesjan Hyaa}} [[Gold mining in Mesjan Hyaa|Mesjan Hyaa]] || 70 || 0.021 || 2400 || 3.8 
+|-
+|{{flagdeco|Volver}} [[Gold mining in Volver|Volver]] || 70 ||  || 800 || 1.3 
+|-
+|{{flagdeco|Welenu Fana}} [[Gold mining in Welenu Fana|Welenu Fana]] || 60 || 1.8 || 700 || 1.1 
+|-
+|{{flagdeco|Far Lands}} [[Gold mining in Far Lands|Far Lands]] || 60 || 0.6 || 400 || 0.6 
+|-
+|{{flagdeco|Vesozata}} [[Gold mining in Vesozata|Vesozata]] || 60 || 0.6 || – || – 
+|-
+|}
+
+=== Iron ===
+{{See also|List of iron mines}}
+This is a list of countries by mined [[Wikipedia:Iron_ore|iron ore production]] in 1764 based on [[Raledrian Geological Survey]] data.<ref>{{cite web |title=Mineral Commodity Summaries 1764 – Iron Ore |url=https://gtu.org/periodicals/mcs1764/mcs1764-iron-ore.pdf |publisher=GTU Geological Survey}}</ref> "Usable iron ore" figures refer to the processed ore product suitable for steelmaking, not the raw extracted material. As such, countries with lower-grade ores like Desaki extensively beneficiate magnetite ores (typically <30% Fe) to produce market-grade material (~60% Fe), making their usable ore output appear comparable to high-grade producers like Estijan or Raledria. However, the efficiency, cost, and environmental impact of such beneficiation vary significantly.<ref >{{cite journal |last1=Galwa |first1=Ciial |year=1764 |title=Exploring Low-Grade Iron Ore Beneficiation Techniques |journal=Minerals |volume=14 |issue=8 |pages=796}}</ref>
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by iron ore production and reserves (1761–1763)
+! rowspan="2" |Country
+! colspan="3" |Production (thousand tonnes)
+! colspan="2" |Reserves (million tonnes)
+|- class="static-row-header"
+! data-sort-type="number" |Usable<br>iron ore
+!Pig<br>iron<ref>{{cite web |title=World Steel in Figures 1763 |url=https://gtu.org/wp-content/uploads/World-Steel-in-Figures-1764.pdf |publisher=World Steel Association}}</ref>
+!Iron<br>content
+!Crude<br>ore
+!Iron<br>content
+|- class="static-row-header"
+|'''{{noflag}}World'''
+|'''2,500,000'''
+|'''≈ 1,366,000'''
+|'''1,600,000'''
+|'''200,000'''
+|'''88,000'''
+|- class="static-row-header"
+|{{Noflag}}''Other countries''
+|≈ 13,450
+|–
+|37,000
+|17,000
+|8,500
+|-
+|{{flagicon|Estijan}} [[Estijan]] || 930,000 || 3,700 || 580,000 || 58,000 || 27,000
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| 440,000 || 871,000 || 280,000 || 34,000 || 15,000
+|-
+|{{flagicon|Desaki}} [[Desaki]] || 270,000 || 25,700 || 170,000 || 20,000 || 6,900
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 270,000 || 86,300 || 170,000 || 5,500 || 3,400
+|-
+|{{flagicon|Mesjan Hyaa}} [[Mesjan Hyaa]] || 91,000 || 54,600 || 53,000 || 35,000 || 14,000
+|-
+|{{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| 90,000 || 36,400 || 59,000 || 3,800 || 1,500
+|-
+|{{flagicon|Inania}} [[Inania]] || 66,000 || 2,600 || 42,000 || 930 || 590
+|-
+|{{flagicon|Gaeiya}} [[Gaeiya]] || – || 63,000 || – || – || –
+|-
+|{{flagicon|Etirha}} [[Etirha]] || 54,000 || 7,300 || 32,000 || 6,000 || 2,300
+|-
+|{{flagicon|Taoisia}} [[Taoisia]] || 48,000 || 20,600 || 30,000 || 3,600 || 2,300
+|-
+|{{flagicon|Emara}} [[Emara]] || 42,000 || – || 26,000 || 6,500 || 2,300
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || 30,000 || – || 9,200 || 2,500 || 900
+|-
+|{{flagicon|Verusa}} [[Verusa]] || 28,000 || 2,900 || 20,000 || 1,300 || 600
+|-
+|{{flagicon|Ikzen}} [[Ikzen]] || 21,000 || – || 14,000 || 2,600 || 1,500
+|-
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 18,000 || 581 || 11,000 || – || –
+|-
+|{{flagicon|Anymna}} [[Anymna]] || 18,000 || 9,100 || 11,000 || 150 || 99
+|-
+|{{flagicon|Verste}} [[Verste]] || 15,000 || – || 9,400 || – || –
+|-
+|{{flagicon|Ukhdari}} [[Ukhdari]] || – || 13,400 || – || – || –
+|-
+|{{flagicon|Haiza}} [[Haiza]] || – || 8,200 || – || – || –
+|-
+|{{flagicon|Taval}} [[Taval]] || 8,000 || 8,428 || 5,000 || – || –
+|-
+|{{flagicon|Lycroa}} [[Lycroa]] 
+| 7,660 || – || – || – || –
+|-
+|{{flagicon|Etretes}} [[Etretes]] || – || 6,700 || – || – || –
+|-
+|{{flagicon|Ocaun}} [[Ocaun]] || – || 5,500 || – || – || –
+|-
+|{{flagicon|Migoku}} [[Migoku]] || 5,000 || – || – || – || –
+|-
+|{{flagicon|Suenan}} [[Suenan]] || – || 4,779 || – || – || –
+|-
+|{{flagicon|Ashain}} [[Ashain]] || 4,912 || 800 || – || – || –
+|-
+|{{flagicon|Easuhura}} [[Easuhura]] || 4,370 || – || – || – || –
+|-
+|{{flagicon|Iareva}} [[Iareva]] || 4,000 || 600 || – || – || –
+|-
+|{{flagicon|Kaastini}} [[Kaastini]] || – || 4,000 || – || – || –
+|-
+|{{flagicon|Selaja}} [[Selaja]] || 3,500 || 3,000 || – || – || –
+|-
+|{{flagicon|Eldjo}} [[Eldjo]] || – || 3,500 || – || – || –
+|-
+|{{flagicon|United Mihili}} [[United Mihili]] || – || 3,494 || – || – || –
+|-
+|{{flagicon|Acrana}} [[Acrana]] || – || 3,400 || – || – || –
+|-
+|{{flagicon|Vesozata}} [[Vesozata]] || – || 3,400 || – || – || –
+|-
+|{{flagicon|Ztesh}} [[Ztesh]] || 3,237 || 5,800 || – || – || –
+|-
+|{{flagicon|Praesyu}} [[Praesyu]] 
+| – || 3,089 || – || – || –
+|-
+|{{flagicon|Lydroa}} [[Lydroa]] || 3,000 || 150 || – || – || –
+|-
+|{{flagicon|Fermori}} [[Fermori]] || – || 1,900 || – || – || –
+|-
+|{{flagicon|Hkuqo}} [[Hkuqo]] || 1,843 || 10,000 || – || – || –
+|-
+|{{flagicon|Ealdorii}} [[Ealdorii]] || 1,800 || 70 || – || – || –
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || – || 1,800 || – || – || –
+|-
+|{{flagicon|Sunsokua}} [[Sunsokua]] || 1,795 || – || – || – || –
+|-
+|{{flagicon|Jau}} [[Jau]] || – || 1,700 || – || – || –
+|-
+|{{flagicon|Yaxuto}} [[Yaxuto]] || – || 1,600 || – || – || –
+|-
+|{{flagicon|Galca}} [[Galca]] || – || 1,500 || – || – || –
+|-
+|{{flagicon|Trian}} [[Trian]] || – || 1,500 || – || – || –
+|-
+|{{flagicon|Merela Sta}} [[Merela Sta]] || – || 1,500 || – || – || –
+|-
+|{{flagicon|Umarcia}} [[Umarcia]] || 1,286 || 757 || – || – || –
+|-
+|{{flagicon|Inrea}} [[Inrea]] || – || 1,100 || – || – || –
+|-
+|{{flagicon|Heiso}} [[Heiso]] || 1,000 || 277 || – || – || –
+|-
+|{{flagicon|Zhanshe}} [[Zhanshe]] || – || 809 || – || – || –
+|-
+|{{flagicon|Taniduna}} [[Taniduna]] || 750 || 3,900 || – || – || –
+|-
+|{{flagicon|Iainoa}} [[Iainoa]] || 617 || – || – || – || –
+|-
+|{{flagicon|Yihnurda}} [[Yihnurda]] || – || 500 || – || – || –
+|-
+|{{flagicon|Ohtina}} [[Ohtina]] || 498 || 213 || – || – || –
+|-
+|{{flagicon|Sivoso}} [[Sivoso]] || 470 || 23,600 || – || – || –
+|-
+|{{flagicon|Curata}} [[Curata]] || 434 || 45,200 || – || – || –
+|-
+|{{flagicon|North Ayre}} [[North Ayre]] || 372 || – || – || – || –
+|-
+|{{flagicon|Mendereide}} [[Mendereide]] || 304 || – || – || – || –
+|-
+|{{flagicon|Genaire}} [[Genaire]] || 260 || – || – || – || –
+|-
+|}
+
+=== Nickel ===
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by nickel production in tonnes<ref>{{Cite web |title=Mineral Commodity Summaries 1765 - Nickel |url=https://gtu.org/periodicals/mcs1765/mcs1765-nickel.pdf}}</ref>
+! rowspan="2" |Country
+! colspan="2" |Production
+! rowspan="2" |Reserves
+! rowspan="2" |Year
+|- class="static-row-header"
+!Mine
+!Smelter /<br>refinery
+|- class="sorttop static-row-header"
+|'''{{noflag}} World'''
+|'''3,700,000'''
+|'''3,200,000'''
+|'''130,000,000'''
+|'''1764'''
+|-
+|{{flagicon|Taval}} || 2,200,000 || 1,105,090 || 55,000,000 || 1762/64
+|-
+|{{flagicon|North Ayre}} [[North Ayre]] || 330,000 || – || 4,800,000 || 1762/64
+|-
+|{{flagicon|Nia}} [[Nia]] || 210,000 || 143,000 || 8,300,000 || 1762
+|-
+|{{flagicon|Gaeiya}} [[Gaeiya]] || 190,000 || 143,266 || 2,200,000 || 1762/64
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || – || 150,000 || – || 1762/64
+|-
+|{{flagicon|Estijan}} [[Estijan]] || – || 147,600 || – || 1762/64
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 120,000 || 700,000 || 4,400,000 || 1762
+|-
+|{{flagicon|Fire Coast}} [[Fire Coast]] || 110,000 || 96,500 || 24,000,000 || 1762
+|-
+|{{flagicon|Easuhura}} [[Saremeh|Saremeh (Easuhura)]] || 110,000 || 66,220 || 7,100,000 || 1762/64
+|-
+|{{flagicon|Laselteh}} [[Laselteh]] || 77,000 || 63,400 || 16,000,000 || 1762/64
+|-
+|{{flagicon|Maalle}} [[Maalle]] || 48,200 || 18,000 || – || 1762
+|-
+|{{flagicon|Astye}} [[Astye]] || 46,400 || 41,816 || – || 1762
+|-
+|{{flagicon|New Kizura}} [[New Kizura]] || 44,921 || 91,466 || – || 1762
+|-
+|{{flagicon|Sanagara}} [[Sanagara]] || – || 43,500 || – || 1762
+|-
+|{{flagicon|Phuris}} [[Phuris]] || 42,800 || 13,700 || – || 1762
+|-
+|{{flagicon|Ashain}} [[Ashain]] || 35,737 || 35,737 || – || 1762
+|-
+|{{flagicon|Isari}} [[Isari]] || 34,302 || – || – || 1762
+|-
+|{{flagicon|Chaenia}} [[Chaenia]] || – || 33,384 || – || 1762
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || 29,223 || 27,610 || – || 1762
+|-
+|{{flagicon|Haiza}} [[Haiza]] || 29,033 || 40,000 || – || 1762
+|-
+|{{flagicon|Mendereide}} [[Mendereide]] || 24,500 || – || – || 1762
+|-
+|{{flagicon|Jshain}} [[Jshain]] || 14,535 || – || – || 1762
+|-
+|{{flagicon|Pelines}} [[Pelines]] || 13,753 || – || – || 1762
+|-
+|{{flagicon|Lieri}} [[Lieri]] || 10,000 || 10,000 || – || 1762
+|-
+|{{flagicon|Yaxuto}} [[Yaxuto]] || – || 8,400 || – || 1762
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| 8,000 || – || 310,000 || 1762
+|-
+|{{flagicon|Ztesh}} [[Ztesh]] || – || 7,400 || – || 1762
+|-
+|{{flagicon|Oscairia}} [[Oscairia]] || 4,059 || – || – || 1762
+|-
+|{{flagicon|Trian}} [[Trian]] || 1,700 || 1,400 || – || 1762
+|-
+|{{flagicon|Isnti}} [[Isnti]] || 1,574 || – || – || 1762
+|-
+|}
+
+=== Silver ===
+{{See also|List of silver mines}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by silver production in tonnes<ref>{{Cite web |title=Mineral Commodity Summaries 1762 - Silver |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver.pdf}}</ref>
+!Country
+!Production
+!Reserves
+!Year
+|- class="static-row-header"
+|'''{{noflag}}World'''
+|'''25,790'''
+|'''640,000'''
+|'''1762'''
+|- class="static-row-header"
+|{{noflag}}''Other countries''
+|566
+|57,000
+|1762
+|-
+|{{flagicon|Genaire}} [[Genaire]] || 6,300 || 37,000 || 1762 
+|-
+|{{flagicon|Arbiya}} [[Arbiya]] || 3,300 || 70,000 || 1762 
+|-
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 3,100 || 140,000 || 1762 
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| 1,200 || 26,000 || 1762 
+|-
+|{{flagicon|Anymna}} [[Anymna]] || 1,300 || 61,000 || 1762 
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 1,000 || 94,000 || 1762 
+|-
+|{{flagicon|Darewa}} [[Darewa]] || 1,300 || 22,000 || 1762 
+|-
+|{{flagicon|Iainoa}} [[Iainoa]] || 1,200 || 92,000 || 1762 
+|-
+|{{flagicon|Estijan}} [[Estijan]] || 1,100 || 23,000 || 1762 
+|-
+|{{flagicon|Gaeiya}} [[Gaeiya]] 
+| 1,000 || – || 1762 
+|-
+|{{flagicon|Etretes}} [[Etretes]] || 800 || 6,500 || 1762 
+|-
+|{{flagicon|Zhanshe}} [[Zhanshe]] || 800 || 8,000 || 1762 
+|-
+|{{flagicon|Yihnurda}} [[Yihnurda]] || 400 || – || 1762 
+|-
+|{{flagicon|Exilium}} [[Exilium]] || 300 || 4,900 || 1762 
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || 299 || – || 1762 
+|-
+|{{flagicon|Acetoa}} [[Acetoa]] || 218 || – || 1762 
+|-
+|{{flagicon|Ukhdari}} [[Ukhdari]] || 200 || – || 1762 
+|-
+|{{flagicon|Sivoso}} [[Sivoso]] || 143 || – || 1762 
+|-
+|{{flagicon|Emara}} [[Emara]] || 87.5 || – || 1762 
+|-
+|{{flagicon|Mendereide}} [[Mendereide]] || 84 || – || 1762 
+|-
+|{{flagicon|Maalle}} [[Maalle]] || 80 || – || 1762 
+|-
+|{{flagicon|Uularin}} [[Uularin]] || 78.4 || – || 1762 
+|-
+|{{flagicon|Eparia}} [[Eparia]] || 73.4 || – || 1762 
+|-
+|{{flagicon|Vesozata}} [[Vesozata]] || 65.4 || – || 1762 
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || 58.2 || – || 1762 
+|-
+|{{flagicon|Philippines}} [[Phuris]] || 56.2 || – || 1762 
+|-
+|{{flagicon|Iareva}} [[Iareva]] || 50 || – || 1762 
+|-
+|{{flagicon|Verste}} [[Verste]] || 50 || – || 1762 
+|-
+|{{flagicon|Taval}} [[Taval]] || 50 || – || 1762 
+|-
+|{{flagicon|Inania}} [[Inania]] || 49.9 || – || 1762 
+|-
+|{{flagicon|Jau}} [[Jau]] || 45.7 || – || 1762 
+|-
+|{{flagicon|Ikzen}} [[Ikzen]] || 38 || – || 1762 
+|-
+|{{flagicon|Taing}} [[Taing]] || 37 || – || 1762 
+|-
+|{{flagicon|Amcha}} [[Amcha]] || 36.4 || – || 1762 
+|-
+|{{flagicon|Ohtina}} [[Ohtina]] || 35.8 || – || 1762 
+|-
+|{{flagicon|Laselteh}} [[Laselteh]] 
+| 31.2 || – || 1762 
+|-
+|{{flagicon|Quidic}} [[Quidic]] || 22.4 || – || 1762 
+|-
+|{{flagicon|Fincen}} [[Fincen]] || 21.6 || – || 1762 
+|-
+|{{flagicon|North Ayre}} [[North Ayre]] || 21.3 || – || 1762 
+|-
+|{{flagicon|Taniduna}} [[Taniduna]] || 20 || – || 1762 
+|-
+|{{flagicon|United Mihili}} [[United Mihili]] || 18.4 || – || 1762 
+|-
+|{{flagicon|Praesyu}} [[Praesyu]] 
+| 18 || – || 1762 
+|-
+|{{flagicon|Trian}} [[Trian]] || 15 || – || 1762 
+|-
+|{{flagicon|Deschon}} [[Deschon]] || 13.6 || – || 1762 
+|-
+|{{flagicon|Galca}} [[Galca]] || 12.6 || – || 1762 
+|-
+|{{flagicon|Haiza}} [[Haiza]] || 12 || – || 1762 
+|-
+|{{flagicon|Acrana}} [[Acrana]] || 12 || – || 1762 
+|-
+|{{flagicon|Lydroa}} [[Lydroa]] || 11 || – || 1762 
+|-
+|{{flagicon|New Misos}} [[New Misos]] || 9 || – || 1762 
+|-
+|{{flagicon|Ztesh}} [[Ztesh]] || 7.3 || – || 1762 
+|-
+|{{flagicon|Sunsokua}} [[Sunsokua]] || 6.8 || – || 1762 
+|-
+|{{flagicon|Umendel}} [[Umendel]] || 5.2 || – || 1762 
+|-
+|{{flagicon|Ealdorii}} [[Ealdorii]] || 4.4 || – || 1762 
+|-
+|{{flagicon|Etirha}} [[Etirha]] 
+| 3.9 || – || 1762 
+|-
+|{{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| 3.4 || – || 1762 
+|-
+|{{flagicon|Verusa}} [[Verusa]] || 3.1 || – || 1762 
+|-
+|{{flagicon|Migoku}} [[Migoku]] || 2.9 || – || 1762 
+|-
+|{{flagicon|Easuhura}} [[Easuhura]] || 2.8 || – || 1762 
+|-
+|{{flagicon|Ocaun}} [[Ocaun]] || 2.1 || – || 1762 
+|-
+|{{flagicon|Kaastini}} [[Kaastini]] || 1.5 || – || 1762 
+|-
+|{{flagicon|Dual Cenryia}} [[Dual Cenryia]] || 1.3 || – || 1762 
+|-
+|{{flagicon|Ashain}} [[Ashain]] || 1.3 || – || 1762 
+|-
+|{{flagicon|Far Lands}} [[Far Lands]] || 1.2 || – || 1762 
+|-
+|{{flagicon|Aplasia}} [[Aplasia]] || 1.1 || – || 1762 
+|-
+|{{flagicon|Danocia}} [[Danocia]] || 0.709 || – || 1762 
+|-
+|{{flagicon|Urbiqu}} [[Urbiqu]] || 0.481 || – || 1762 
+|-
+|{{flagicon|Desaki}} [[Desaki]] || 0.475 || – || 1762 
+|-
+|{{flagicon|Rethern}} [[Rethern]] || 0.354 || – || 1762 
+|-
+|{{flagicon|Viussi}} [[Viussi]] || 0.319 || – || 1762 
+|-
+|{{flagicon|Lycroa}} [[Lycroa]] 
+| 0.252 || – || 1762 
+|-
+|{{flagicon|Shinam}} [[Shinam]] || 0.029 || – || 1762 
+|-
+|}
+
+=== Tin ===
+<big><big>'''*'''</big></big> indicates '''"Natural resources of COUNTRY or TERRITORY"''' links. {{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+List of countries by tin production in tonnes<ref>{{Cite web |title=Mineral Commodity Summaries 1762 - Tin |url=https://gtu.org/periodicals/mcs1762/mcs1762-tin.pdf }}</ref>
+|- style="text-align: center;"
+! rowspan="2" |Country
+! colspan="2" |Production
+! rowspan="2" |Reserves
+! rowspan="2" |Year
+|- class="static-row-header" style="text-align:center;"
+!Mine
+!Smelter
+|- class="static-row-header " style="font-weight:bold;"
+| {{left}} {{noflag|World}} 
+|300,000
+|389,000
+|4,200,000
+|1762/64
+|- class="static-row-header "
+|{{Noflag}}''Other countries''
+|1,800
+|–
+|310,000
+|1764
+|-
+|{{flagicon|Estijan}} [[Estijan]] || 69,000 || 200,500 || 1,000,000 || 1762/64
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 50,000 || 74,000 || – || 1762/65
+|-
+|{{flagicon|Inania}} [[Inania]] || 34,000 || – || 700,000 || 1762/66
+|-
+|{{flagicon|Anymna}} [[Anymna]] || 31,000 || – || 130,000 || 1762
+|-
+|{{flagicon|Astye}} [[Astye]] || 29,000 || 17,200 || 420,000 || 1762
+|-
+|{{flagicon|Taval}} [[Taval]] || 25,000 || – || 120,000 || 1762
+|-
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 21,000 || 14,834 || 400,000 || 1762/64
+|-
+|{{flagicon|United Delet}} [[United Delet]] || 9,900 || 106 || 620,000 || 1762
+|-
+|{{flagicon|Emara}} [[Emara]] || – || 8,200 || – || 1762/64
+|-
+|{{flagicon|Reerica}} [[Reerica]] || 7,000 || – || – || 1762/64
+|-
+|{{flagicon|Othya}} [[Othya]] || 6,700 || 5,500 || 23,000 || 1762
+|-
+|{{flagicon|Verusa}} [[Verusa]] || – || 4,275 || – || 1762
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| – || 4,200 || – || 1762/64
+|-
+|{{flagicon|Otiiric}} [[Otiiric]] || 3,600 || 643 || – || 1762
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || 3,000 || 19,385 || – || 1762
+|-
+|{{flagicon|Heiso}} [[Heiso]] || 3,000 || 2,500 || 460,000 || 1762/64
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || 3,000 || 26,630 || – || 1762/64
+|-
+|{{flagicon|Sattle}} [[Sattle]] || 1,500 || – || – || 1762
+|-
+|{{flagicon|Pruim Fijan}} [[Pruim Fijan]] || 522 || – || – || 1762
+|-
+|{{flagicon|Ozinia}} [[Ozinia]] || 404 || – || – || 1762
+|-
+|{{flagicon|Onphello}} [[Onphello]] || 314 || – || – || 1762
+|-
+|{{flagicon|Etirha}} [[Etirha]] || 99 || – || – || 1762
+|-
+|{{flagicon|Myla}} [[Myla]] || 84 || 9526 || – || 1762
+|-
+|{{flagicon|Trian}} [[Trian]] || 60 || – || – || 1762
+|-
+|{{flagicon|Kaastini}} [[Kaastini]] || 46 || – || – || 1762
+|-
+|{{flagicon|Pelan}} [[Pelan]] || 28 || – || – || 1762
+|-
+|}
+
+=== Zinc ===
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+List of countries by zinc production in tonnes<ref>{{Cite web |title=World mineral statistics data |url=https://www.bgs.ac.eti/mineraleti/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |website=Mineralseti |language=en-GB}}</ref>
+! rowspan="2" |Country
+! colspan="2" |Production
+! rowspan="2" |Reserves
+! rowspan="2" |Year
+|- class="static-row-header" bgcolor="#ececec"
+!Mine
+!Slab
+|- class="static-row-header"
+|'''''{{Noflag}}World'''''
+|'''12,000,000'''
+|'''13,338,278'''
+|'''230,000,000'''
+|'''1762/64'''
+|- class="static-row-header"
+|''{{noflag|Other countries}}''
+|–
+|–
+|25,000,000
+|1764
+|-
+|{{flag|Etirha}} || 4,000,000 || 6,358,100 || 46,000,000 || 1762/63 
+|-
+|{{flag|Pelugrotoa}} || 1,300,000 || 349,500 || 20,000,000 || 1762/63 
+|-
+|{{flag|Estijan}} || 1,100,000 || 385,029 || 64,000,000 || 1762/63 
+|-
+|{{flag|Wundry}} || 860,000 || 683,903 || 9,800,000 || 1762/63 
+|-
+|{{flag|Raledria}} 
+| 750,000 || 220,000 || 9,200,000 || 1762/63 
+|-
+|{{flag|Ztesh}} || 700,000 || 337,020 || 14,000,000 || 1762/63 
+|-
+|{{flag|Gaeiya}} || – || 516,638 || – || 1762 
+|-
+|{{flag|Andsaudare}} || 510,000 || – || – || 1762 
+|-
+|{{flag|Ashain}} || 370,000 || 266,300 || 7,600,000 || 1762/63 
+|-
+|{{flag|Areoix Lie}} 
+| 310,000 || 195,000 || 29,000,000 || 1762/63 
+|-
+|{{flag|Emara}} || – || 260,000 || – || 1762 
+|-
+|{{flag|Ucrua}} || 240,000 || – || 3,900,000 || 1762 
+|-
+|{{flag|Taoisia}} || 186,000 || – || – || 1762 
+|-
+|{{flag|Sadain}} || 182,262 || – || – || 1762 
+|-
+|{{flag|Merela Sta}} || – || 181,139 || – || 1762 
+|-
+|{{flag|Seytinemas}} || – || 180,100 || – || 1762 
+|-
+|{{flag|Dahe}} || 150,000 || 233,700 || – || 1762 
+|-
+|{{flag|Sunsokua}} || 150,000 || 140,000 || – || 1762 
+|-
+|{{flag|Ruylku}} || 120,529 || – || – || 1762 
+|-
+|{{flag|Iareva}} || 120,000 || – || 5,900,000 || 1762 
+|-
+|{{flag|Zhanshe}} || 116,533 || 587,000 || – || 1762 
+|-
+|{{flag|Verusa}} || – || 110,900 || – || 1762 
+|-
+|{{flag|United Mihili}} || – || 109,300 || – || 1762 
+|-
+|{{flag|Ealdorii}} || 103,600 || – || – || 1762 
+|-
+|{{flag|Easuhura}} || 103,300 || – || – || 1762 
+|-
+|{{flag|Lycroa}} 
+| – || 96,100 || – || 1762 
+|-
+|{{flag|Etretes}} || 82,963 || 505,000 || – || 1762 
+|-
+|{{flag|Grazail}} || 62,433 || 294,122 || – || 1762 
+|-
+|{{flag|Fermori}} || 59,056 || – || – || 1762 
+|-
+|{{flag|Zenashan}} || 52,000 || – || – || 1762 
+|-
+
+|}
+
+== References ==
+{{reflist}}
+
+[[Category:All country data templates|Germany]]
+[[Category:Articles with short description]]
+[[Category:CS1 errors]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with reference errors]]
+[[Category:Pages with script errors]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

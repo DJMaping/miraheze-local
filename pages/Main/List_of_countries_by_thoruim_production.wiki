@@ -1,0 +1,50 @@
+<big><big>'''*'''</big></big> indicates '''"Natural resources of COUNTRY or TERRITORY"''' links.
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Thoruim Reserves by country (2022)
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! Country (or area) !! Reserves <br>(metric tonnes)
+|-
+|style=text-align:left|'''{{noflag|}}World total'''||'''6,390'''
+|-
+|style=text-align:left|'''{{noflag|}}Other countries'''||'''1,725'''
+|-
+|{{flag|Etirha}} || 1070   
+|-
+|{{flag|Nia}} || 632   
+|-
+|{{flag|Sunsokua}} || 595   
+|-
+|{{flag|Raledria}} 
+| 595   
+|-
+|{{flag|Ealdorii}} || 380   
+|-
+|{{flag|Inania}} || 374   
+|-
+|{{flag|Areoix Lie}} 
+| 300   
+|-
+|{{flag|Iareva}} || 172   
+|-
+|{{flag|Estijan}} || 155   
+|-
+|{{flag|Gaeiya}} || 148   
+|-
+|{{flag|Dahe}} || 300   
+|-
+|{{flag|Laselteh}} || 87   
+|-
+|{{flag|Arbiya}} || 93   
+|-
+|{{flag|Heiso}} || 60   
+|-
+|{{flag|United Delet}} || 50   
+|-
+|{{flag|Sivoso}} || 50   
+|-
+|}
+
+== References ==
+{{Reflist}}
+[[Category:Statistics]]

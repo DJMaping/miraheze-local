@@ -1,0 +1,52 @@
+{| class="wikitable sortable collapsible"
+|+'''World's largest mining countries of lead, 1761'''
+! Country !! data-sort-type="number"|Output<br />(thousand<br /> tons)
+|-
+| {{flag|Dahe}} || align="right"|2,400
+|-
+| {{flag|Desaki}} || align="right"|500
+|-
+| {{flag|Raledria}} 
+| align="right"|335
+|-
+| {{flag|Anymna}} || align="right"|310
+|-
+| {{flag|Verste}} || align="right"|250
+|-
+| {{flag|Estijan}} || align="right"|225
+|-
+| {{flag|Quidic}} || align="right"|135
+|-
+| {{flag|Andsaudare}} || align="right"|80
+|-
+| {{flag|Fermori}} || align="right"|76
+|-
+| {{flag|Ukhdari}} || align="right"|75
+|-
+| {{flag|Etirha}} || align="right"|41
+|-
+| {{flag|Ikzen}} || align="right"|41
+|-
+| {{flag|Darewa}} || align="right"|40
+|-
+| {{flag|Haiza}} || align="right"|40
+|-
+| {{flag|Iquir}} || align="right"|35
+|-
+| {{flag|Ocaun}} || align="right"|33
+|-
+| {{flag|Mesjan Hyaa }} || align="right"|33
+|-
+| Other countries || align="right"|170
+|}
+
+==References==
+{{reflist|30em}}
+
+[[Category:All country data templates|Raledria]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Harv and Sfn no-target errors]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

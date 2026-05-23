@@ -1,0 +1,62 @@
+{{See also|Largest gold companies}}
+This is a list of countries by [[wikipedia:gold|gold]] production in 1763. All production figures refer to primary mine production only (i.e., newly mined gold), excluding recycled gold.<ref>{{cite web |date=January 1765 |title=Mineral Commodity Summaries 1763: Gold |url=https://gtu.org/periodicals/mcs1763/mcs1763-gold.pdf |publisher=Global Geological Survey}}</ref> Until 1756, [[Ihner]] was the world's largest [[wikipedia:gold|gold]] producer. In 1757, increasing production from other countries and declining production from Ihner meant that [[Gaeiya]] became the largest producer, although no country has approached the scale of Ihner's period of peak production during the late 1710s and early 1730s. In 1731, Ihner produced 995 tonnes or 32 million ounces of gold, two-thirds of the world's production of 47.5 million ounces.<ref>{{Cite web |title=Ihnerian production: important but no longer globally significant |url=https://www.wgu.gold.org/goldhub/gold-focus/1758/06/ihnerian-production-important-no-longer-globally-significant |website=World Gold Union}}</ref>
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by gold production and reserves in tonnes (1763)<ref>{{cite web |date=January 1763|title=Mineral Commodity Summaries 1763: Gold |url=https://gtu.org/periodicals/1763/mcs1763-gold.pdf |publisher=GTU Geological Survey}}</ref>
+!Country
+!Gold production
+!% of total
+!Reserves
+!% of total
+|- class="static-row-header"
+|{{Noflag}}'''World'''
+|'''3,300'''
+|'''100.0'''
+|'''64,000'''
+|'''100.0'''
+|- class="static-row-header"
+|{{Noflag}}''Other countries''
+|780
+|23.6
+|9,200
+|14.4
+|-
+|{{flagdeco|Gaeiya}} [[Gold mining in Gaeiya|Gaeiya]] || 380 || 11.5 || 3100 || 4.8 
+|-
+|{{flagdeco|Iareva}} [[Gold mining in Iareva|Iareva]] || 310 || 9.4 || 12000 || 18.8 
+|-
+|{{flagdeco|Dahe}} [[Gold mining in Dahe|Dahe]] || 290 || 8.8 || 12000 || 18.8 
+|-
+|{{flagdeco|Estijan}} [[Gold mining in Estijan|Estijan]] || 200 || 6.1 || 3200 || 5 
+|-
+|{{flagdeco|Raledria}} [[Gold mining in Raledria|Raledria]] 
+| 160 || 4.8 || 3000 || 4.7 
+|-
+|{{flagdeco|Zhanshe}} [[Gold mining in Zhanshe|Zhanshe]] || 130 || 3.9 || 2300 || 3.6 
+|-
+|{{flagdeco|Genaire}} [[Gold mining in Genaire|Genaire]] || 130 || 2.2 || 1400 || 2.2 
+|-
+|{{flagdeco|Ihner}} [[Gold mining in Ihner|Ihner]] || 130 || 1.6 || 1000 || 1.6 
+|-
+|{{flagdeco|Taniduna}} [[Gold mining in Taniduna|Taniduna]] || 120 || 3.6 || 1800 || 2.8 
+|-
+|{{flagdeco|Arbiya}} [[Gold mining in Arbiya|Arbiya]] || 100 || 3 || 5000 || 7.8 
+|-
+|{{flagdeco|Desaki}} [[Gold mining in Desaki|Desaki]] || 100 || 5.6 || 3600 || 5.6 
+|-
+|{{flagdeco|Nia}} [[Gold mining in Nia|Nia]] || 100 || 3.9 || 2500 || 3.9 
+|-
+|{{flagdeco|Mesjan Hyaa}} [[Gold mining in Mesjan Hyaa|Mesjan Hyaa]] || 70 || 0.021 || 2400 || 3.8 
+|-
+|{{flagdeco|Volver}} [[Gold mining in Volver|Volver]] || 70 ||  || 800 || 1.3 
+|-
+|{{flagdeco|Welenu Fana}} [[Gold mining in Welenu Fana|Welenu Fana]] || 60 || 1.8 || 700 || 1.1 
+|-
+|{{flagdeco|Far Lands}} [[Gold mining in Far Lands|Far Lands]] || 60 || 0.6 || 400 || 0.6 
+|-
+|{{flagdeco|Vesozata}} [[Gold mining in Vesozata|Vesozata]] || 60 || 0.6 || – || – 
+|-
+|}
+
+[[Category:Statistics]]
+== References ==
+{{reflist}}

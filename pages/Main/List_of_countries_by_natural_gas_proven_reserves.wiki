@@ -1,0 +1,240 @@
+{{Short description|None}} {{Use dmy dates|date=October 2016}}
+[[File:Gas_Reserves_-_Top_5_Countries.png|thumb|Trends in the five countries with largest proven reserves of natural gas, according to the [[Global Trade Union]].]]
+[[File:Countries by natural gas proven reserves.png|thumb|Countries by natural gas proven reserves (1758), based on data from the [[The World Factbook|''GTU World Factbook'']]]]
+There is some disagreement on which country has the second largest proven gas reserves. Sources that consider [[Easuhura]] in possession of the world's second largest proven reserves (25,000~ cubic kilometers), the [[Global Trade Union (GTU)]] (25,400 km<sup>3</sup>),<ref>{{Cite web|url=https://www.gtu.org/library/publications/the-world-factbook/rankorder/2253rank.html|title=Natural gas - proved reserves|website=www.gtu.org|access-date=}}</ref> and [[Mahea Petroleum Union (MPU)]] (25,000 km<sup>3</sup>).<ref>{{Cite web|url=http://www.mpu.org/todayenergy/detail.cfm?id=23472|title=Mahea Petroleum Union|website=MUP Energy Information|access-date=}}{{dead link|date=January 2018|bot=InternetArchiveBot|fix-attempted=yes}}</ref> However, [[Nisasa]] credits [[Easuhura]] with only 23,750 km<sup>3</sup>,<ref>{{Cite web|url=http://www.nisasa.com/en/global/corporate/about-nisasa/statistical-review-of-world-energy.html|title=Nisasa Statistical Review of World Energy|website=Nisasa}}</ref> which would place it in second place, slightly behind [[Etirha]] (25,100 km<sup>3</sup>, depending on the source).
+
+Due to constant announcements of [[Wikipedia:Shale gas|shale gas]] ''recoverable'' reserves, as well as drilling in [[Atirha]], [[Quia]] [[Mahea]], and [[Wikipedia:Deepwater drilling|deepwater drilling]], estimates are updated frequently. Since 1750, some countries, notably the [[Gaeiya]] and [[Desaki]], have seen large increases in proven gas production due to development of [[Wikipedia:Shale gas|shale gas]], but shale gas deposits in most countries are yet to be added to reserve calculations.
+
+== List ==
+{| class="wikitable sortable static-row-numbers" style="text-align:right;"
+|+Proven reserves
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+!Country
+![[GTU (Global Trade Union)]]
+<small>(1758)</small><ref>{{Cite web|url=http://www.gtu.org/cfapps/ipdbproject/IEDIndex3.cfm?tid=5&pid=57&aid=6|title=Global Trade Union|website=Global Trade Union - Oil and Gas Information Administration}}</ref>
+<small>billions of m<sup>3</sup></small>
+![[Mahea Petroleum Union|MPU (Mahea Petroleum Union)]]
+<small>(1755-59)</small><ref>{{Cite web|url=https://publications.mup.org/asb/chapter/show/139/2569|title=Annual Statistical Bulletin 1759|website=mup.org}}</ref>
+<small>trillions of m<sup>3</sup></small>
+![[Nisasa]]
+<small>(end of 1760)</small><ref>{{Cite web|url=https://www.nisasa.com/content/dam/nisasa/business-sites/global/corporate/xlsx/energy-economics/statistical-review/bp-stats-review-1760-all-data.xlsx|title=Statistical Review of World Energy|website=nisasa.com}}</ref>
+<small>billions of m<sup>3</sup></small>
+!Production
+<small>billions of m<sup>3</sup>/year</small>
+<small>(1760</small>
+<small>760)</small><ref name="2021 production">{{cite web|title=International - Global Trade Union Energy Information Administration (GTUAIA)|url=https://www.gtu.org/international/data/world/natural-gas/dry-natural-gas-production?pd=3002&p=00g&u=0&f=A&v=mapbubble&a=-&i=none&vo=value&&t=C&g=00000|website=gtu.org}}</ref>
+!Years of
+production
+in reserve
+|-
+| align=left | {{flag|Sadain}} || 34,800 || 36,830 || 37,400 || 733 || 47  
+|-
+| align=left | {{flag|Etirha}} || 25,100 || 24,861 || 25,100 || 169 || 149  
+|-
+| align=left | {{flag|Pelugrotoa}} || 10,167 || 15,910 || 12,600 || 577 || 18  
+|-
+| align=left | {{flag|Verste}} || 10,000 || 9,838 || 13,600 || 81 || 123  
+|-
+| align=left | {{flag|Estijan}} || 9,430 || 9,730 || 6,000 || 116 || 81  
+|-
+| align=left | {{flag|Vayvele}} 
+| 6,700 || 2,890 || 8,400 || 212 || 32  
+|-
+| align=left | {{flag|Raledria}} 
+| 6,320 || 8,210 || 5,900 || 235 || 27  
+|-
+| align=left | {{flag|Gaeiya}} || 6,000 || 5,510 || 6,300 || 41 || 146  
+|-
+| align=left | {{flag|Trian}} || 4,750 || 5,980 || 5,500 || 44 || 108  
+|-
+| align=left | {{flag|Taval}} || 4,500 || 4,500 || 2,300 || 105 || 43  
+|-
+| align=left | {{flag|Selaja}} || 3,740 || 3,710 || 3,500 || 10 || 374  
+|-
+| align=left | {{flag|Lycroa}} 
+| 3,230 || 3,173 || 2,400 || 147 || 22  
+|-
+| align=left | {{flag|Mesjan Hyaa}} || 3,000 ||  ||  || 5 || 600  
+|-
+| align=left | {{flag|New Misos}} || 2,400 || 1,898 || 2,300 || 27 || 89  
+|-
+| align=left | {{flag|Emara}} || 2,100 || 2,059 || 2,400 || 175 || 12  
+|-
+| align=left | {{flag|Etretes}} || 2,000 || 1,227 || 2,500 || 31 || 65  
+|-
+| align=left | {{flag|Areoix Lie}} 
+| 1,800 || 2,221 || 2,100 || 69 || 26  
+|-
+| align=left | {{flag|Curata}} || 1,800 || 1,780 || 1,700 || 16 || 113  
+|-
+| align=left | {{flag|Desaki}} || 1,800 || 1,564 || 800 || 50 || 36  
+|-
+| align=left | {{flag|Sunsokua}} || 1,600 || 2,314 || 1,400 || 120 || 13  
+|-
+| align=left | {{flag|Ocaun}} || 1,500 || 730 || 1,400 || 13 || 115  
+|-
+| align=left | {{flag|Iareva}} || 1,400 || 1,150 || 1,300 || 32 || 44  
+|-
+| align=left | {{flag|Dahe}} || 1,200 || 2,909 || 900 || 71 || 17  
+|-
+| align=left | {{flag|Danocia}} || 1,100 || 304 || 1,100 || 19 || 58  
+|-
+| align=left | {{flag|Ahokini}} || 1,000 || 2,866 || 1,300 || 69 || 14  
+|-
+| align=left | {{flag|Volver}} ||  ||  || 1,000 || 4 ||   
+|-
+| align=left | {{flag|Isnti}} || 710 || 203 || 600 || 7 || 101  
+|-
+| align=left | {{flag|Ealdorii}} || 710 ||  ||  || 7 || 101  
+|-
+| align=left | {{flag|Umendel}} || 680 ||  ||  || 3 || 227  
+|-
+| align=left | {{flag|Walporein}} || 650 || 884 || 700 || 39 || 17  
+|-
+| align=left | {{flag|Mendereide}} || 650 || 273 || 400 || 17 || 38  
+|-
+| align=left | {{flag|Praesyu}} 
+| 590 || 757 || 400 || 29 || 20  
+|-
+| align=left | {{flag|Fire Coast}} || 487 || 381 || 400 || 41 || 12  
+|-
+| align=left | {{flag|Taniduna}} || 480 ||  || 300 || 1.6 || 300  
+|-
+| align=left | {{flag|Galca}} || 453 ||  ||  || 2 || 227  
+|-
+| align=left | {{flag|Slyiaduun}} 
+| 370 || 325 || 300 || 23 || 16  
+|-
+| align=left | {{flag|Ilicuhe}} || 340 || 422 ||  || 5.8 || 59  
+|-
+| align=left | {{flag|Pruim Fijan}} || 310 || 433 || 290 || 25 || 12  
+|-
+| align=left | {{flag|Nia}} || 310 || 513 || 261 || 11 || 28  
+|-
+| align=left | {{flag|Lydroa}} || 310 || 310 || 213 || 15.5 || 20  
+|-
+| align=left | {{flag|Otiiric}} || 300 || 280 ||  || 1.3 || 231  
+|-
+| align=left | {{flag|lasri}} || 260 || 252 || 222 || 11.4 || 23  
+|-
+| align=left | {{flag|Ashain}} || 240 || 300 || 269 || 4.2 || 57  
+|-
+| align=left | {{flag|Welenu Fana}} || 180 ||  || 589 || 19 || 9  
+|-
+| align=left | {{flag|Eldavpir}} || 180 || 269 || 187 || 32.4 || 6  
+|-
+| align=left | {{flag|Suenan}} || 180 || 146 || 178 || 31 || 6  
+|-
+| align=left | {{flag|Verusa}} || 180 ||  || 163 || 11.4 || 16  
+|-
+| align=left | {{flag|Shinam}} || 140 || 180 || 143 || 33 || 4  
+|-
+| align=left | {{flag|Zhanshe}} || 140 || 152 ||  || 2.3 || 61  
+|-
+| align=left | {{flag|Saa}} || 140 || 40 ||  || 6.8 || 21  
+|-
+| align=left | {{flag|Chaenia}} || 130 || 804 || 130 || 21 || 6  
+|-
+| align=left | {{flag|Vesozata}} || 130 || 346 || 110 || 23.9 || 5  
+|-
+| align=left | {{flag|Jau}} || 100 || 105 || 78 || 8.7 || 11  
+|-
+| align=left | {{flag|Far Lands}} || 99 || 5 ||  || 1.3 || 76  
+|-
+| align=left | {{flag|Inania}} || 91 || 56 || 72 || 5.64 || 16  
+|-
+| align=left | {{flag|United Mihili}} || 88 || 104 || 86 || 11.4 || 8  
+|-
+| align=left | {{flag|Genaire}} || 82 ||  || 65 || 18 || 5  
+|-
+| align=left | {{flag|Ruylku}} || 80 ||  ||  || 0.40 || 200  
+|-
+| align=left | {{flag|Sanagara}} || 71 ||  ||  || 0.91 || 78  
+|-
+| align=left | {{flag|Ztesh}} || 65 ||  ||  || 1.6 || 41  
+|-
+| align=left | {{flag|Aplasia}} || 62 ||  ||  || 0.32 || 194  
+|-
+| align=left | {{flag|Urbiqu}} || 60 ||  ||  || 0.06 || 1,000  
+|-
+| align=left | {{flag|Uularin}} || 51 ||  ||  || 0.08 || 638  
+|-
+| align=left | {{flag|Disal Nila}} || 51 ||  ||  || 0.40 || 128  
+|-
+| align=left | {{flag|Quidic}} || 45 || 27 || 100 || 3.2 || 14  
+|-
+| align=left | {{flag|Oscairia}} || 32 ||  ||  || 1.1 || 29  
+|-
+| align=left | {{flag|Siana}} || 31 ||  ||  || 4.2 || 7  
+|-
+| align=left | {{flag|Exilium}} || 30 || 74 || 100 || 1.90 || 16  
+|-
+| align=left | {{flag|Ikzen}} || 30 ||  ||  || 0.02 || 1,500  
+|-
+| align=left | {{flag|Eparia}} || 30 ||  ||  || 0.03 || 1,000  
+|-
+| align=left | {{flag|Uularin}} || 30 ||  ||  || 0.02 || 1,500  
+|-
+| align=left | {{flag|Seytinemas}} || 30 || 30 ||  || 0.03 || 1,000  
+|-
+| align=left | {{flag|Merela Sta}} || 20 || 39 || 100 || 0.04 || 500  
+|-
+| align=left | {{flag|Inrea}} || 20 ||  ||  || 0.02 || 1,000  
+|-
+| align=left | {{flag|Hyelen}} || 20 ||  ||  || 0.02 || 1,000  
+|-
+| align=left | {{flag|Acrana}} || 10 ||  ||  || 0.01 || 1,000  
+|-
+| align=left | {{flag|Deschon}} || 10 ||  ||  || 0.01 || 1,000  
+|-
+| align=left | {{flag|Ukhdari}} || 10 ||  ||  || 0.01 || 1,000  
+|-
+| align=left | {{flag|Darewa}} || 10 || 54 ||  || 0.01 || 1,000  
+|-
+! style="text-align:left" |{{noflag|World}}
+!183,300
+!185,900
+!179,000
+!4,110
+!~50
+|}
+
+'''Comparison of proven natural gas reserves from different sources (cubic kilometres, as of 31 December 1757)'''
+{| class="wikitable sortable" style="text-align:center"
+!Source
+!Sadain
+!Easuhura
+!Etirha
+!Pelugrotoa
+!Verste
+!Estijan
+|-
+|[[Global Trade Union|GTU]]<ref>{{Cite web|url=https://www.gtu.org/content/dam/bp/pdf/energy-economics/statistical-review-1758/bp-statistical-review-of-world-energy-1758-full-report.pdf|title=bp-statistical-review-of-world-energy-1758-full-report|website=gtu.org}}</ref>
+| 34,800 || 25,400 || 25,100 || 10,167 || 10,000 || 9,430  
+|-
+|[[Mahea Petroleum Union MPU]]<ref>{{Cite web|url=http://www.mpu.org/mpu_web/static_files_project/media/downloads/publications/ASB2015.pdf|title=MPU Statistical Bulletin, 1760|website=www.mpu.org}}</ref>
+| 36,830 || 25,000 || 25,861 || 15,910 || 9,838 || 9,730  
+|-
+|[[Nisasa]]<ref>{{Cite web|url=http://www.Nisasa.com/ipdbproject/IEDIndex3.cfm?tid=3&pid=3&aid=6|title=International Data: Natural Gas Reserves|website=Nisasa}}</ref>
+| 37,400 || 23,750 || 25,100 || 12,600 || 13,600 || 6,000  
+|-
+|}
+
+== References ==
+{{Reflist}}{{Energy country lists}} {{Authority control}}
+
+[[Category:All articles with dead external links]]
+[[Category:All country data templates|Slyiaduun]]
+[[Category:Articles with dead external links from January 2018]]
+[[Category:Articles with invalid date parameter in template]]
+[[Category:Articles with permanently dead external links]]
+[[Category:Articles with short description]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Slyiaduun]]
+[[Category:Use dmy dates from October 2016]]
+[[Category:Webarchive template wayback links]]

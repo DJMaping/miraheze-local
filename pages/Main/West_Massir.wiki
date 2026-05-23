@@ -1,0 +1,102 @@
+{{Infobox continent
+|title          = West Massir
+|image          = West Massir Globe.png
+|imagecaption   = Location of West Massir
+|area           = {{convert|5,767,689|km2|sqmi|abbr=on}}
+|population     = 1,035,587,381 (1765)
+|density        = {{convert|179.55|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}20.818 trillion
+|GDP_nominal    = {{lahn}}11.090 trillion
+|GDP_per_capita = {{lahn}}10,710
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = West Massiran
+|countries      = 10
+|list_countries = 
+|dependencies   = 12
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Ayrean Language|Ayrean]]
+* [[Dahen Language|Dahen]]
+* [[Easuhuran Language|Easuhuran]]
+* [[Emaran Language|Emaran]]
+* [[Kaastini Language|Kaastini]]
+* [[Lastnu Language|Lastnu]]
+* [[Sanagaran Language|Sanagaran]]
+* [[Suenan Language|Suenan]]
+}}
+|time           = UTC -2 to +1
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Bhaliloi]]
+* [[Fekhalai]]
+* [[Fekunza]]
+* [[Harkanto]]
+* [[Koyaya]]
+* [[Shinlotha]]
+* [[Vukwazi]]
+* [[Xuqilin]]
+* [[Zhangola]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''West Massir''' is a sub-continent located in the southern hemisphere. It is bordered the [[Southern Eanif Ocean]] to the west and south, the [[Ksisahi Sea]] and [[North Massir]] to the north, and [[South Massir]] to the east. The continent covers around {{convert|5,767,689|km2|sqmi|abbr=on}} of land, making it the 10th largest sub-continent in the world, with a total of about 1,035,587,381 as of 1765, making it also the largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Cloja}} || [[Cloja]] || style="text-align:right;" | 1,325 || style="text-align:right;" | 47,933 || style="text-align:right;" | 36 || [[Kezapi]]
+|-
+| style="text-align:center;"| {{flagicon|Dahe}} || [[Dahe]] || style="text-align:right;" | 4,429,149 || style="text-align:right;" | 890,601,322 || style="text-align:right;" | 201 || [[Fekunza]]
+|-
+| style="text-align:center;"| {{flagicon|Kaastini}} || [[Kaastini]] || style="text-align:right;" | 664,569 || style="text-align:right;" | 4,348,275 || style="text-align:right;" | 7 || [[Suharimti]]
+|-
+| style="text-align:center;"| {{flagicon|North Ayre}} || [[North Ayre]] || style="text-align:right;" | 57,100 || style="text-align:right;" | 10,967,500 || style="text-align:right;" | 192 || [[Kokema]]
+|-
+| style="text-align:center;"| {{flagicon|Oyreain}} || [[Oyreain]] || style="text-align:right;" | 209,781 || style="text-align:right;" | 31,491,757 || style="text-align:right;" | 150 || [[Yetembo]]
+|-
+| style="text-align:center;"| {{flagicon|Pha Hii}} || [[Pha Hii]] || style="text-align:right;" | 614 || style="text-align:right;" | 2,646,840 || style="text-align:right;" | 4311 || [[Pha Hii(City)|Pha Hii]]
+|-
+| style="text-align:center;"| {{flagicon|Prystr Hii}} || [[Prystr Hii]] || style="text-align:right;" | 609 || style="text-align:right;" | 1,640,804 || style="text-align:right;" | 2694 || [[Prystr Hii (City)|Prystr Hii]]
+|-
+| style="text-align:center;"| {{flagicon|Sanagara}} || [[Sanagara]] || style="text-align:right;" | 113,626 || style="text-align:right;" | 38,792,291 || style="text-align:right;" | 341 || [[Koyaya]]
+|-
+| style="text-align:center;"| {{flagicon|Stinebar}} || [[Stinebar]] || style="text-align:right;" | 2,001 || style="text-align:right;" | 345,037 || style="text-align:right;" | 172 || [[Laphaai]]
+|-
+| style="text-align:center;"| {{flagicon|Suenan}} || [[Suenan]] || style="text-align:right;" | 288,915 || style="text-align:right;" | 54,705,622 || style="text-align:right;" | 189 || [[Daspuru]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 10
+| style="text-align:right;"| 5,767,689
+| style="text-align:right;"| 1,035,587,381
+| style="text-align:right;"| 180
+|}
+
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]
