@@ -50,8 +50,8 @@
 | established_event4     = Establishment of the [[Republic of Dahe]]
 | established_date4      = 1700 AFA
 | area_rank              = 4th
-| area_km2               = 1,710,000
-| area_sq_mi             = 4.429,000
+| area_km2               = 4,429,149
+| area_sq_mi             = 1,710,123
 | area_footnote          = <!--Optional footnote for area-->
 | percent_water          = 0.53
 | population_estimate    = {{increaseNeutral}}891,320,000<ref name="POP DAH">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.dah/List_of_countries_and_dependencies_by_population/Dahe  |website=Population Division – World Data Union }} Retrieved 1765.</ref>
