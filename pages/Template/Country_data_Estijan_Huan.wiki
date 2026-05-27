@@ -10,7 +10,8 @@
 <noinclude>
 | var1 = empire
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Estijan Huan]]
 [[Category:Flag icons missing country data templates]]
@@ -18,3 +19,4 @@
 [[Category:Pages with script errors]]
 [[Category:Templates using TemplateData]]
 [[Category:Uncategorized country data templates|Estijan Huan]]
+</noinclude>

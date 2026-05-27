@@ -61,10 +61,12 @@
 | related5 = East Germany
 | related6 = West Germany
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Germany]]
 [[Category:Country data templates of Germany| ]]
 [[Category:Country data templates of countries|Germany]]
 [[Category:Country data templates with documentation subpage|Germany]]
 [[Category:Templates using TemplateData]]
+</noinclude>

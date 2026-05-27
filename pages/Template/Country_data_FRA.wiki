@@ -1,7 +1,0 @@
-#Redirect [[Template:Country data France]]
-
-{{Rcat shell|
-{{R from modification}}
-{{R from template shortcut}}
-}}
-[[category:country data redirects|FRA]]

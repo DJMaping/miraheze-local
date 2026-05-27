@@ -200,7 +200,7 @@ This list includes entries that are not limited to those in the _____ standard, 
 |-
 | {{nts|93}} || {{flag|Prstreula}} || {{km2 mi2|300940}} || {{km2 mi2|297931}} || {{km2 mi2|3009}} || 1
 |-
-|  || {{flagicon|Etirha}} [[Moaneill]] (Etirha) || {{km2 mi2|298000}} ||  ||  || 
+|  || {{flagicon|Moaneill}} [[Moaneill]] ([[Etirha]]) || {{km2 mi2|298000}} ||  ||  || 
 |-
 | {{nts|94}} || {{flag|Suenan}} || {{km2 mi2|288915}} || {{km2 mi2|288915}} || {{km2 mi2|0}} || 0
 |-
@@ -314,7 +314,7 @@ This list includes entries that are not limited to those in the _____ standard, 
 |-
 | {{nts|149}} || {{flag|Niul Spijan}} || {{km2 mi2|18110}} || {{km2 mi2|17929}} || {{km2 mi2|181}} || 1
 |-
-|  || {{flagicon|Chaenia}} [[Mirran]] (Chaenia) || {{km2 mi2|16139}} ||  ||  || 
+|  || {{flagicon|Chaenia}} [[Mirran]] ([[Chaenia]]) || {{km2 mi2|16139}} ||  ||  || 
 |-
 | {{nts|150}} || {{flag|Baluyde}} || {{km2 mi2|15195}} || {{km2 mi2|14251}} || {{km2 mi2|944}} || 6.21
 |-
@@ -324,7 +324,7 @@ This list includes entries that are not limited to those in the _____ standard, 
 |-
 | {{nts|153}} || {{flag|Guise}} || {{km2 mi2|8590}} || {{km2 mi2|8504}} || {{km2 mi2|86}} || 1
 |-
-|  || {{flagicon|Easuhura}} [[Saremeh]] (Easuhura) || {{km2 mi2|6891}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Saremeh]] ([[Easuhura]]) || {{km2 mi2|6891}} ||  ||  || 
 |-
 | {{nts|154}} || {{flag|Tomscilus}} || {{km2 mi2|6615}} || {{km2 mi2|6380}} || {{km2 mi2|235}} || 3.55
 |-
@@ -332,131 +332,131 @@ This list includes entries that are not limited to those in the _____ standard, 
 |-
 | {{nts|156}} || {{flag|Rkmepuia}} || {{km2 mi2|4782}} || {{km2 mi2|4637}} || {{km2 mi2|145}} || 3.04
 |-
-|  || {{flagicon|Estijan}} [[Icgenige]] (Estijan) || {{km2 mi2|3972}} ||  ||  || 
+|  || {{flagicon|Estijan}} [[Icgenige]] ([[Estijan]]) || {{km2 mi2|3972}} ||  ||  || 
 |-
 | {{nts|157}} || {{flag|Hiwush}} || {{km2 mi2|3881}} || {{km2 mi2|3847}} || {{km2 mi2|34}} || 0.87
 |-
-|  || {{flagicon|Ashain}} [[Titai Islands]] (Ashain) || {{km2 mi2|3591}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Titai Islands]] ([[Ashain]]) || {{km2 mi2|3591}} ||  ||  || 
 |-
 | {{nts|158}} || {{flag|Walporein}} || {{km2 mi2|3310}} || {{km2 mi2|3278}} || {{km2 mi2|32}} || 0.96
 |-
-|  || {{flagicon|Ashain}} [[Amebra]] (Ashain) || {{km2 mi2|3133}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Amebra]] ([[Ashain]]) || {{km2 mi2|3133}} ||  ||  || 
 |-
 | {{nts|159}} || {{flag|Isuibul}} || {{km2 mi2|2562}} || {{km2 mi2|2424}} || {{km2 mi2|138}} || 5.39
 |-
 | {{nts|160}} || {{flag|Yutnitu}} || {{km2 mi2|2551}} || {{km2 mi2|2446}} || {{km2 mi2|105}} || 4.13
 |-
-|  || {{flagicon|Emara}} [[Nimarik]] (Emara) || {{km2 mi2|2135}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Nimarik]] ([[Emara]]) || {{km2 mi2|2135}} ||  ||  || 
 |-
 | {{nts|161}} || {{flag|Crila Republic}} || {{km2 mi2|2106}} || {{km2 mi2|1931}} || {{km2 mi2|175}} || 8.33
 |-
 | {{nts|162}} || {{flag|Stinebar}} || {{km2 mi2|2001}} || {{km2 mi2|2001}} || {{km2 mi2|0}} || 0
 |-
-|  || {{flagicon|Areoix Lie}} [[Amox]] (Areoix Lie) || {{km2 mi2|1938}} ||  ||  || 
+|  || {{flagicon|Areoix Lie}} [[Amox]] ([[Areoix Lie]]) || {{km2 mi2|1938}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Tiesa Canal territory]] (Emara) || {{km2 mi2|1784}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Tiesa Canal territory]] ([[Emara]]) || {{km2 mi2|1784}} ||  ||  || 
 |-
 | {{nts|163}} || {{flag|Letan}} || {{km2 mi2|1646}} || {{km2 mi2|1548}} || {{km2 mi2|98}} || 5.93
 |-
-|  || {{flagicon|Emara}} [[Hgebe]] (Emara) || {{km2 mi2|1623}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Hgebe]] ([[Emara]]) || {{km2 mi2|1623}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Slandsi Ofcen]] (Ashain) || {{km2 mi2|1579}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Slandsi Ofcen]] ([[Ashain]]) || {{km2 mi2|1579}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Leini]] (Ashain) || {{km2 mi2|1526}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Leini]] ([[Ashain]]) || {{km2 mi2|1526}} ||  ||  || 
 |-
 | {{nts|164}} || {{flag|Niretui and Anulan}} || {{km2 mi2|1428}} || {{km2 mi2|1322}} || {{km2 mi2|106}} || 7.39
 |-
-|  || {{flagicon|Easuhura}} [[Haitum]] (Easuhura) || {{km2 mi2|1428}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Haitum]] ([[Easuhura]]) || {{km2 mi2|1428}} ||  ||  || 
 |-
-|  || {{flagicon|Easuhura}} [[Dazi Islands]] (Easuhura) || {{km2 mi2|1419}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Dazi Islands]] ([[Easuhura]]) || {{km2 mi2|1419}} ||  ||  || 
 |-
-|  || {{flagicon|Estijan}} [[Innitralturks]] (Estijan) || {{km2 mi2|1353}} ||  ||  || 
+|  || {{flagicon|Estijan}} [[Innitralturks]] ([[Estijan]]) || {{km2 mi2|1353}} ||  ||  || 
 |-
 | {{nts|165}} || {{flag|Rethern}} || {{km2 mi2|1344}} || {{km2 mi2|1334}} || {{km2 mi2|10}} || 0.72
 |-
 | {{nts|166}} || {{flag|Cloja}} || {{km2 mi2|1325}} || {{km2 mi2|1268}} || {{km2 mi2|57}} || 4.32
 |-
-|  || {{flagicon|Easuhura}} [[Dalvahir]] (Easuhura) || {{km2 mi2|1315}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Dalvahir]] ([[Easuhura]]) || {{km2 mi2|1315}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Nikele]] (Ashain) || {{km2 mi2|1086}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Nikele]] ([[Ashain]]) || {{km2 mi2|1086}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Ravhadi]] (Ashain) || {{km2 mi2|1082}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Ravhadi]] ([[Ashain]]) || {{km2 mi2|1082}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Mehradin]] (Emara) || {{km2 mi2|961}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Mehradin]] ([[Emara]]) || {{km2 mi2|961}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Easmem]] (Emara) || {{km2 mi2|775}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Easmem]] ([[Emara]]) || {{km2 mi2|775}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Lyters]] (Emara) || {{km2 mi2|756}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Lyters]] ([[Emara]]) || {{km2 mi2|756}} ||  ||  || 
 |-
-|  || {{flagicon|Areoix Lie}} [[Khozanid]] (Areoix Lie) || {{km2 mi2|755}} ||  ||  || 
+|  || {{flagicon|Areoix Lie}} [[Khozanid]] ([[Areoix Lie]]) || {{km2 mi2|755}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Viaguiru]] (Ashain) || {{km2 mi2|713}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Viaguiru]] ([[Ashain]]) || {{km2 mi2|713}} ||  ||  || 
 |-
 | {{nts|167}} || {{flag|Pha Hii}} || {{km2 mi2|614}} || {{km2 mi2|610}} || {{km2 mi2|4}} || 0.69
 |-
-|  || {{flagicon|Estijan}} [[Triosu]] (Estijan) || {{km2 mi2|613}} ||  ||  || 
+|  || {{flagicon|Estijan}} [[Triosu]] ([[Estijan]]) || {{km2 mi2|613}} ||  ||  || 
 |-
 | {{nts|168}} || {{flag|Prystr Hii}} || {{km2 mi2|609}} || {{km2 mi2|609}} || {{km2 mi2|0}} || 0
 |-
-|  || {{flagicon|Areoix Lie}} [[Myath (Areoix Lie)]] (Areoix Lie) || {{km2 mi2|603}} ||  ||  || 
+|  || {{flagicon|Areoix Lie}} [[Myath (Areoix Lie)]] ([[Areoix Lie]]) || {{km2 mi2|603}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Myath (Emara)]] (Emara) || {{km2 mi2|570}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Myath (Emara)]] ([[Emara]]) || {{km2 mi2|570}} ||  ||  || 
 |-
 | {{nts|169}} || {{flag|Enina}} || {{km2 mi2|548}} || {{km2 mi2|513}} || {{km2 mi2|35}} || 6.32
 |-
 | {{nts|170}} || {{flag|Trevilla}} || {{km2 mi2|545}} || {{km2 mi2|540}} || {{km2 mi2|5}} || 1
 |-
-|  || {{flagicon|Emara}} [[Slonela]] (Emara) || {{km2 mi2|500}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Slonela]] ([[Emara]]) || {{km2 mi2|500}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Moma]] (Emara) || {{km2 mi2|455}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Moma]] ([[Emara]]) || {{km2 mi2|455}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Eldas Isle]] (Emara) || {{km2 mi2|453}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Eldas Isle]] ([[Emara]]) || {{km2 mi2|453}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Pal Islands]] (Ashain) || {{km2 mi2|427}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Pal Islands]] ([[Ashain]]) || {{km2 mi2|427}} ||  ||  || 
 |-
-|  || {{flagicon|Easuhura}} [[Tansirah]] (Easuhura) || {{km2 mi2|420}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Tansirah]] ([[Easuhura]]) || {{km2 mi2|420}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Weimrino]] (Emara) || {{km2 mi2|392}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Weimrino]] ([[Emara]]) || {{km2 mi2|392}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Velamir]] (Emara) || {{km2 mi2|380}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Velamir]] ([[Emara]]) || {{km2 mi2|380}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Naguiingcu]] (Ashain) || {{km2 mi2|375}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Naguiingcu]] ([[Ashain]]) || {{km2 mi2|375}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Lklandco]] (Ashain) || {{km2 mi2|310}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Lklandco]] ([[Ashain]]) || {{km2 mi2|310}} ||  ||  || 
 |-
-|  || {{flagicon|Easuhura}} [[Junasta]] (Easuhura) || {{km2 mi2|302}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Junasta]] ([[Easuhura]]) || {{km2 mi2|302}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Tuca]] (Emara) || {{km2 mi2|269}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Tuca]] ([[Emara]]) || {{km2 mi2|269}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Apu]] (Emara) || {{km2 mi2|237}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Apu]] ([[Emara]]) || {{km2 mi2|237}} ||  ||  || 
 |-
 | {{nts|171}} || {{flag|Cruthi Anoso}} || {{km2 mi2|230}} || {{km2 mi2|223}} || {{km2 mi2|7}} || 3.21
 |-
-|  || {{flagicon|Ashain}} [[Southern Tensti]] (Ashain) || {{km2 mi2|228}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Southern Tensti]] ([[Ashain]]) || {{km2 mi2|228}} ||  ||  || 
 |-
-|  || {{flagicon|Easuhura}} [[Zavhadi]] (Easuhura) || {{km2 mi2|187}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Zavhadi]] ([[Easuhura]]) || {{km2 mi2|187}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Gerchrestcroa]] (Emara) || {{km2 mi2|171}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Gerchrestcroa]] ([[Emara]]) || {{km2 mi2|171}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Glaudural]] (Emara) || {{km2 mi2|150}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Glaudural]] ([[Emara]]) || {{km2 mi2|150}} ||  ||  || 
 |-
-|  || {{flagicon|Merela Sta}} [[Greedo]] (Merela Sta) || {{km2 mi2|142}} ||  ||  || 
+|  || {{flagicon|Merela Sta}} [[Greedo]] ([[Merela Sta]]) || {{km2 mi2|142}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Kahhn]] (Emara) || {{km2 mi2|134}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Kahhn]] ([[Emara]]) || {{km2 mi2|134}} ||  ||  || 
 |-
 | {{nts|172}} || {{flag|Tvecoca}} || {{km2 mi2|129}} || {{km2 mi2|129}} || {{km2 mi2|0}} || 0
 |-
-|  || {{flagicon|Easuhura}} [[Tativa]] (Easuhura) || {{km2 mi2|127}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Tativa]] ([[Easuhura]]) || {{km2 mi2|127}} ||  ||  || 
 |-
-|  || {{flagicon|Easuhura}} [[Bermo]] (Easuhura) || {{km2 mi2|101}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Bermo]] ([[Easuhura]]) || {{km2 mi2|101}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Macos]] (Ashain) || {{km2 mi2|99}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Macos]] ([[Ashain]]) || {{km2 mi2|99}} ||  ||  || 
 |-
-|  || {{flagicon|Ashain}} [[Rayeriko]] (Ashain) || {{km2 mi2|99}} ||  ||  || 
+|  || {{flagicon|Ashain}} [[Rayeriko]] ([[Ashain]]) || {{km2 mi2|99}} ||  ||  || 
 |-
-|  || {{flagicon|Emara}} [[Acrdona]] (Emara) || {{km2 mi2|96}} ||  ||  || 
+|  || {{flagicon|Emara}} [[Acrdona]] ([[Emara]]) || {{km2 mi2|96}} ||  ||  || 
 |-
-|  || {{flagicon|Easuhura}} [[Domlnd]] (Easuhura) || {{km2 mi2|38}} ||  ||  || 
+|  || {{flagicon|Easuhura}} [[Domlnd]] ([[Easuhura]]) || {{km2 mi2|38}} ||  ||  || 
 |}
 
 == See also ==

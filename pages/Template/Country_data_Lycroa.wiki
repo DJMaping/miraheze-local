@@ -10,9 +10,11 @@
 <noinclude>
 | var1 = empire
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Lycroa]]
 [[Category:Pages with broken file links]]
 [[Category:Templates using TemplateData]]
 [[Category:Uncategorized country data templates|Lycroa]]
+</noinclude>

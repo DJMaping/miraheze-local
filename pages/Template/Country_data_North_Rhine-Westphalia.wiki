@@ -1,9 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = North Rhine-Westphalia
-| flag alias = Flag of North Rhine-Westphalia.svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = Nordrhein-Westfalen
-| redir2 = DE-NW
-</noinclude>}}

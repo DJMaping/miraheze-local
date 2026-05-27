@@ -10,9 +10,11 @@
 <noinclude>
 | var1 = empire
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Pages with broken file links]]
 [[Category:Templates using TemplateData]]
 [[Category:Uncategorized country data templates|Slyiaduun]]
+</noinclude>
