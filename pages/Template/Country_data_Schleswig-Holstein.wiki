@@ -1,8 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Schleswig-Holstein
-| flag alias = Flag of Schleswig-Holstein.svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = DE-SH
-</noinclude>}}

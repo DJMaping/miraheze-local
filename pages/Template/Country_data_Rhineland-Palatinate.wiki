@@ -1,9 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Rhineland-Palatinate
-| flag alias = Flag of Rhineland-Palatinate.svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = Rheinland-Pfalz
-| redir2 = DE-RP
-</noinclude>}}

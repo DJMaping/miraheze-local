@@ -1,9 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Saxony-Anhalt
-| flag alias = Flag of Saxony-Anhalt (state).svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = Sachsen-Anhalt
-| redir2 = DE-ST
-</noinclude>}}

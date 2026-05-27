@@ -10,10 +10,12 @@
 <noinclude>
 | var1 = empire
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Raledria]]
 [[Category:Flag icons missing country data templates]]
 [[Category:Pages with broken file links]]
 [[Category:Templates using TemplateData]]
 [[Category:Uncategorized country data templates|Raledria]]
+</noinclude>

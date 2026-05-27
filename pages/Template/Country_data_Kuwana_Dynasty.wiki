@@ -10,9 +10,11 @@
 <noinclude>
 | var1 = empire
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Kuwana Dynasty]]
 [[Category:Country data templates with distinct template name|Kuwana Dynasty]]
 [[Category:Templates using TemplateData]]
 [[Category:Uncategorized country data templates|Kuwana Dynasty]]
+</noinclude>

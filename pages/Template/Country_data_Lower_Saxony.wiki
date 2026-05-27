@@ -1,9 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Lower Saxony
-| flag alias = Flag of Lower Saxony.svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = Niedersachsen
-| redir2 = DE-NI
-</noinclude>}}

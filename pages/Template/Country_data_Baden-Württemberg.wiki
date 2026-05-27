@@ -1,8 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Baden-Württemberg
-| flag alias = Flag of Baden-Württemberg.svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = DE-BW
-</noinclude>}}

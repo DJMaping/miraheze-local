@@ -3,4 +3,6 @@
 {{Rcat shell|
 {{R from template shortcut}}
 }}
+<noinclude>
 [[Category:Country data redirects|USA]]
+</noinclude>

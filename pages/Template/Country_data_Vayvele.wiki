@@ -10,8 +10,10 @@
 <noinclude>
 | var1 = empire
 </noinclude>
-}}
+}}<noinclude>
+
 
 [[Category:All country data templates|Vayvele]]
 [[Category:Templates using TemplateData]]
 [[Category:Uncategorized country data templates|Vayvele]]
+</noinclude>

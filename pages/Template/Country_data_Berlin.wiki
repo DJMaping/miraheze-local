@@ -1,8 +1,0 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Berlin
-| flag alias = Flag of Berlin.svg
-| size = {{{size|}}}
-| name = {{{name|}}}
-<noinclude>
-| redir1 = DE-BE
-</noinclude>}}
