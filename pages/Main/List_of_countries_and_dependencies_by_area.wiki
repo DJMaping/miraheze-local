@@ -12,351 +12,451 @@ This list includes entries that are not limited to those in the _____ standard, 
 == Countries and dependencies by area ==
 {{sticky header}}{{table alignment}}
 {| class="wikitable sortable sticky-header col2left" {{left}}
-!  !! style=width:9.7em data-sort-type="number" | Total in km2 (mi2) !! style=width:9.7em data-sort-type="number" | Land in km2 (mi2) !! style=width:9.7em data-sort-type="number" | Water in km2 (mi2) !! style=width:5em data-sort-type="number" | % water !! style=width:18em | Country / dependency
+!  !! style=width:18em | Country / dependency !! style=width:9.7em data-sort-type="number" | Total in km2 (mi2) !! style=width:9.7em data-sort-type="number" | Land in km2 (mi2) !! style=width:9.7em data-sort-type="number" | Water in km2 (mi2) !! style=width:5em data-sort-type="number" | % water
 |-
-| {{nts|1}}   || {{km2 mi2|7271341}} || {{km2 mi2|6666365}} || {{km2 mi2|604976}} || 8.32 (including swamps) || {{flag|Estijan}}
+| {{nts|1}} || {{flag|Estijan}} || {{km2 mi2|7271341}} || {{km2 mi2|6666365}} || {{km2 mi2|604976}} || 8.32 (including swamps)
 |-
-| {{nts|2}}   || {{km2 mi2|5854217}} || {{km2 mi2|5584338}} || {{km2 mi2|269879}} || 4.61 || {{flag|Areoix Lie}}
+| {{nts|2}} || {{flag|Areoix Lie}} || {{km2 mi2|5854217}} || {{km2 mi2|5584338}} || {{km2 mi2|269879}} || 4.61
 |-
-| {{nts|3}}   || {{km2 mi2|5310404}} || {{km2 mi2|5310404}} || {{km2 mi2|0}} || 0 || {{flag|Zhanshe}}
+| {{nts|3}} || {{flag|Zhanshe}} || {{km2 mi2|5310404}} || {{km2 mi2|5310404}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|4}}   || {{km2 mi2|4429149}} || {{km2 mi2|4405675}} || {{km2 mi2|23474}} || 0.53 || {{flag|Dahe}}
+| {{nts|4}} || {{flag|Dahe}} || {{km2 mi2|4429149}} || {{km2 mi2|4405675}} || {{km2 mi2|23474}} || 0.53
 |-
-| {{nts|5}}   || {{km2 mi2|4156962}} || {{km2 mi2|3857245}} || {{km2 mi2|299717}} || 7.21 || {{flag|Iareva}}
+| {{nts|5}} || {{flag|Iareva}} || {{km2 mi2|4156962}} || {{km2 mi2|3857245}} || {{km2 mi2|299717}} || 7.21
 |-
-| {{nts|6}}   || {{km2 mi2|3518174}} || {{km2 mi2|3510786}} || {{km2 mi2|7388}} || 0.21 || {{flag|Gaeiya}}
+| {{nts|6}} || {{flag|Gaeiya}} || {{km2 mi2|3518174}} || {{km2 mi2|3510786}} || {{km2 mi2|7388}} || 0.21
 |-
-| {{nts|7}}   || {{km2 mi2|2964408}} || {{km2 mi2|2848203}} || {{km2 mi2|116205}} || 3.92 || {{flag|Inania}}
+| {{nts|7}} || {{flag|Inania}} || {{km2 mi2|2964408}} || {{km2 mi2|2848203}} || {{km2 mi2|116205}} || 3.92
 |-
-| {{nts|8}}   || {{km2 mi2|2808911}} || {{km2 mi2|2808911}} || {{km2 mi2|0}} || 0 || {{flag|United Mihili}}
+| {{nts|8}} || {{flag|United Mihili}} || {{km2 mi2|2808911}} || {{km2 mi2|2808911}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|9}}   || {{km2 mi2|2660845}} || {{km2 mi2|2653395}} || {{km2 mi2|7450}} || 0.28 || {{flag|Mesjan Hyaa}}
+| {{nts|9}} || {{flag|Mesjan Hyaa}} || {{km2 mi2|2660845}} || {{km2 mi2|2653395}} || {{km2 mi2|7450}} || 0.28
 |-
-| {{nts|10}}  || {{km2 mi2|2581890}} || {{km2 mi2|2525605}} || {{km2 mi2|56285}} || 2.18 || {{flag|Pelugrotoa}}
+| {{nts|10}} || {{flag|Pelugrotoa}} || {{km2 mi2|2581890}} || {{km2 mi2|2525605}} || {{km2 mi2|56285}} || 2.18
 |-
-| {{nts|11}}  || {{km2 mi2|2530444}} || {{km2 mi2|2486920}} || {{km2 mi2|43524}} || 1.72 || {{flag|Vesozata}}
+| {{nts|11}} || {{flag|Vesozata}} || {{km2 mi2|2530444}} || {{km2 mi2|2486920}} || {{km2 mi2|43524}} || 1.72
 |-
-| {{nts|12}}  || {{km2 mi2|2524560}} || {{km2 mi2|2509665}} || {{km2 mi2|14895}} || 0.59 || {{flag|Etretes}}
+| {{nts|12}} || {{flag|Etretes}} || {{km2 mi2|2524560}} || {{km2 mi2|2509665}} || {{km2 mi2|14895}} || 0.59
 |-
-| {{nts|13}}  || {{km2 mi2|2445136}} || {{km2 mi2|2342196}} || {{km2 mi2|102940}} || 4.21 || {{flag|Desaki}}
+| {{nts|13}} || {{flag|Desaki}} || {{km2 mi2|2445136}} || {{km2 mi2|2342196}} || {{km2 mi2|102940}} || 4.21
 |-
-| {{nts|14}}  || {{km2 mi2|2355916}} || {{km2 mi2|2285003}} || {{km2 mi2|70913}} || 3.01 || {{flag|Raledria}}
+| {{nts|14}} || {{flag|Raledria}} || {{km2 mi2|2355916}} || {{km2 mi2|2285003}} || {{km2 mi2|70913}} || 3.01
 |-
-| {{nts|15}}  || {{km2 mi2|2059631}} || {{km2 mi2|2039035}} || {{km2 mi2|20596}} || 1 || {{flag|Jau}}
+| {{nts|15}} || {{flag|Jau}} || {{km2 mi2|2059631}} || {{km2 mi2|2039035}} || {{km2 mi2|20596}} || 1
 |-
-| {{nts|16}}  || {{km2 mi2|2043164}} || {{km2 mi2|2022732}} || {{km2 mi2|20432}} || 1 || {{flag|Andsaudare}}
+| {{nts|16}} || {{flag|Andsaudare}} || {{km2 mi2|2043164}} || {{km2 mi2|2022732}} || {{km2 mi2|20432}} || 1
 |-
-| {{nts|17}}  || {{km2 mi2|2015144}} || {{km2 mi2|2015144}} || {{km2 mi2|0}} || 0 || {{flag|Ikzen}}
+| {{nts|17}} || {{flag|Ikzen}} || {{km2 mi2|2015144}} || {{km2 mi2|2015144}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|18}}  || {{km2 mi2|1886209}} || {{km2 mi2|1886209}} || {{km2 mi2|0}} || 0 || {{flag|Yihnurda}}
+| {{nts|18}} || {{flag|Yihnurda}} || {{km2 mi2|1886209}} || {{km2 mi2|1886209}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|19}}  || {{km2 mi2|1864826}} || {{km2 mi2|1775501}} || {{km2 mi2|89325}} || 4.79 || {{flag|Etirha}}
+| {{nts|19}} || {{flag|Etirha}} || {{km2 mi2|1864826}} || {{km2 mi2|1775501}} || {{km2 mi2|89325}} || 4.79
 |-
-| {{nts|20}}  || {{km2 mi2|1836884}} || {{km2 mi2|1798309}} || {{km2 mi2|38575}} || 2.1 || {{flag|Far Lands}}
+| {{nts|20}} || {{flag|Far Lands}} || {{km2 mi2|1836884}} || {{km2 mi2|1798309}} || {{km2 mi2|38575}} || 2.1
 |-
-| {{nts|21}}  || {{km2 mi2|1783768}} || {{km2 mi2|1738995}} || {{km2 mi2|44773}} || 2.51 || {{flag|Genaire}}
+| {{nts|21}} || {{flag|Genaire}} || {{km2 mi2|1783768}} || {{km2 mi2|1738995}} || {{km2 mi2|44773}} || 2.51
 |-
-| {{nts|22}}  || {{km2 mi2|1746881}} || {{km2 mi2|1729412}} || {{km2 mi2|17469}} || 1 || {{flag|Taniduna}}
+| {{nts|22}} || {{flag|Taniduna}} || {{km2 mi2|1746881}} || {{km2 mi2|1729412}} || {{km2 mi2|17469}} || 1
 |-
-| {{nts|23}}  || {{km2 mi2|1693814}} || {{km2 mi2|1651977}} || {{km2 mi2|41837}} || 2.47 || {{flag|Nia}}
+| {{nts|23}} || {{flag|Nia}} || {{km2 mi2|1693814}} || {{km2 mi2|1651977}} || {{km2 mi2|41837}} || 2.47
 |-
-| {{nts|24}}  || {{km2 mi2|1682296}} || {{km2 mi2|1649996}} || {{km2 mi2|32300}} || 1.92 || {{flag|Ztesh}}
+| {{nts|24}} || {{flag|Ztesh}} || {{km2 mi2|1682296}} || {{km2 mi2|1649996}} || {{km2 mi2|32300}} || 1.92
 |-
-| {{nts|25}}  || {{km2 mi2|1599030}} || {{km2 mi2|1586398}} || {{km2 mi2|12632}} || 0.79 || {{flag|Laselteh}}
+| {{nts|25}} || {{flag|Laselteh}} || {{km2 mi2|1599030}} || {{km2 mi2|1586398}} || {{km2 mi2|12632}} || 0.79
 |-
-| {{nts|26}}  || {{km2 mi2|1563780}} || {{km2 mi2|1527657}} || {{km2 mi2|36123}} || 2.31 || {{flag|Ealdorii}}
+| {{nts|26}} || {{flag|Ealdorii}} || {{km2 mi2|1563780}} || {{km2 mi2|1527657}} || {{km2 mi2|36123}} || 2.31
 |-
-| {{nts|27}}  || {{km2 mi2|1542246}} || {{km2 mi2|1542246}} || {{km2 mi2|0}} || 0 || {{flag|Volver}}
+| {{nts|27}} || {{flag|Volver}} || {{km2 mi2|1542246}} || {{km2 mi2|1542246}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|28}}  || {{km2 mi2|1461132}} || {{km2 mi2|1430448}} || {{km2 mi2|30684}} || 2.1 || {{flag|Maalle}}
+| {{nts|28}} || {{flag|Maalle}} || {{km2 mi2|1461132}} || {{km2 mi2|1430448}} || {{km2 mi2|30684}} || 2.1
 |-
-| {{nts|29}}  || {{km2 mi2|1399717}} || {{km2 mi2|1385720}} || {{km2 mi2|13997}} || 1 || {{flag|Ocaun}}
+| {{nts|29}} || {{flag|Ocaun}} || {{km2 mi2|1399717}} || {{km2 mi2|1385720}} || {{km2 mi2|13997}} || 1
 |-
-| {{nts|30}}  || {{km2 mi2|1328657}} || {{km2 mi2|1328657}} || {{km2 mi2|0}} || 0 || {{flag|Sivoso}}
+| {{nts|30}} || {{flag|Sivoso}} || {{km2 mi2|1328657}} || {{km2 mi2|1328657}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|31}}  || {{km2 mi2|1262717}} || {{km2 mi2|1231528}} || {{km2 mi2|31189}} || 2.47 || {{flag|United Delet}}
+| {{nts|31}} || {{flag|United Delet}} || {{km2 mi2|1262717}} || {{km2 mi2|1231528}} || {{km2 mi2|31189}} || 2.47
 |-
-| {{nts|32}}  || {{km2 mi2|1242986}} || {{km2 mi2|1242986}} || {{km2 mi2|0}} || 0 || {{flag|Urbiqu}}
+| {{nts|32}} || {{flag|Urbiqu}} || {{km2 mi2|1242986}} || {{km2 mi2|1242986}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|33}}  || {{km2 mi2|1193527}} || {{km2 mi2|1161063}} || {{km2 mi2|32464}} || 2.72 || {{flag|Verste}}
+| {{nts|33}} || {{flag|Verste}} || {{km2 mi2|1193527}} || {{km2 mi2|1161063}} || {{km2 mi2|32464}} || 2.72
 |-
-| {{nts|34}}  || {{km2 mi2|1170921}} || {{km2 mi2|1114366}} || {{km2 mi2|56555}} || 4.83 || {{flag|New Misos}}
+| {{nts|34}} || {{flag|New Misos}} || {{km2 mi2|1170921}} || {{km2 mi2|1114366}} || {{km2 mi2|56555}} || 4.83
 |-
-| {{nts|35}}  || {{km2 mi2|1112428}} || {{km2 mi2|1109313}} || {{km2 mi2|3115}} || 0.28 || {{flag|Terressin}}
+| {{nts|35}} || {{flag|Terressin}} || {{km2 mi2|1112428}} || {{km2 mi2|1109313}} || {{km2 mi2|3115}} || 0.28
 |-
-| {{nts|36}}  || {{km2 mi2|1067614}} || {{km2 mi2|1067614}} || {{km2 mi2|0}} || 0 || {{flag|Jathua}}
+| {{nts|36}} || {{flag|Jathua}} || {{km2 mi2|1067614}} || {{km2 mi2|1067614}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|37}}  || {{km2 mi2|1028181}} || {{km2 mi2|985717}} || {{km2 mi2|42464}} || 4.13 || {{flag|Dual Cenryia}}
+| {{nts|37}} || {{flag|Dual Cenryia}} || {{km2 mi2|1028181}} || {{km2 mi2|985717}} || {{km2 mi2|42464}} || 4.13
 |-
-| {{nts|38}}  || {{km2 mi2|1011994}} || {{km2 mi2|1009869}} || {{km2 mi2|2125}} || 0.21 || {{flag|Migoku}}
+| {{nts|38}} || {{flag|Migoku}} || {{km2 mi2|1011994}} || {{km2 mi2|1009869}} || {{km2 mi2|2125}} || 0.21
 |-
-| {{nts|39}}  || {{km2 mi2|992110}} || {{km2 mi2|985364}} || {{km2 mi2|6746}} || 0.68 || {{flag|Kusierna}}
+| {{nts|39}} || {{flag|Kusierna}} || {{km2 mi2|992110}} || {{km2 mi2|985364}} || {{km2 mi2|6746}} || 0.68
 |-
-| {{nts|40}}  || {{km2 mi2|942386}} || {{km2 mi2|934187}} || {{km2 mi2|8199}} || 0.87 || {{flag|Taoisia}}
+| {{nts|40}} || {{flag|Taoisia}} || {{km2 mi2|942386}} || {{km2 mi2|934187}} || {{km2 mi2|8199}} || 0.87
 |-
-| {{nts|41}}  || {{km2 mi2|877397}} || {{km2 mi2|850022}} || {{km2 mi2|27375}} || 3.12 || {{flag|Seytinemas}}
+| {{nts|41}} || {{flag|Seytinemas}} || {{km2 mi2|877397}} || {{km2 mi2|850022}} || {{km2 mi2|27375}} || 3.12
 |-
-| {{nts|42}}  || {{km2 mi2|783607}} || {{km2 mi2|758453}} || {{km2 mi2|25154}} || 3.21 || {{flag|Ukhdari}}
+| {{nts|42}} || {{flag|Ukhdari}} || {{km2 mi2|783607}} || {{km2 mi2|758453}} || {{km2 mi2|25154}} || 3.21
 |-
-| {{nts|43}}  || {{km2 mi2|774542}} || {{km2 mi2|771986}} || {{km2 mi2|2556}} || 0.33 || {{flag|Welenu Fana}}
+| {{nts|43}} || {{flag|Welenu Fana}} || {{km2 mi2|774542}} || {{km2 mi2|771986}} || {{km2 mi2|2556}} || 0.33
 |-
-| {{nts|44}}  || {{km2 mi2|765347}} || {{km2 mi2|759837}} || {{km2 mi2|5510}} || 0.72 || {{flag|Deschon}}
+| {{nts|44}} || {{flag|Deschon}} || {{km2 mi2|765347}} || {{km2 mi2|759837}} || {{km2 mi2|5510}} || 0.72
 |-
-| {{nts|45}}  || {{km2 mi2|749885}} || {{km2 mi2|694394}} || {{km2 mi2|55491}} || 7.4 || {{flag|Danocia}}
+| {{nts|45}} || {{flag|Danocia}} || {{km2 mi2|749885}} || {{km2 mi2|694394}} || {{km2 mi2|55491}} || 7.4
 |-
-| {{nts|46}}  || {{km2 mi2|745025}} || {{km2 mi2|694587}} || {{km2 mi2|50438}} || 6.77 || {{flag|Pelines}}
+| {{nts|46}} || {{flag|Pelines}} || {{km2 mi2|745025}} || {{km2 mi2|694587}} || {{km2 mi2|50438}} || 6.77
 |-
-| {{nts|47}}  || {{km2 mi2|739599}} || {{km2 mi2|739229}} || {{km2 mi2|370}} || 0.05 || {{flag|Haiza}}
+| {{nts|47}} || {{flag|Haiza}} || {{km2 mi2|739599}} || {{km2 mi2|739229}} || {{km2 mi2|370}} || 0.05
 |-
-| {{nts|48}}  || {{km2 mi2|737960}} || {{km2 mi2|701579}} || {{km2 mi2|36381}} || 4.93 || {{flag|Sunsokua}}
+| {{nts|48}} || {{flag|Sunsokua}} || {{km2 mi2|737960}} || {{km2 mi2|701579}} || {{km2 mi2|36381}} || 4.93
 |-
-| {{nts|49}}  || {{km2 mi2|730606}} || {{km2 mi2|722350}} || {{km2 mi2|8256}} || 1.13 || {{flag|Verusa}}
+| {{nts|49}} || {{flag|Verusa}} || {{km2 mi2|730606}} || {{km2 mi2|722350}} || {{km2 mi2|8256}} || 1.13
 |-
-| {{nts|50}}  || {{km2 mi2|681553}} || {{km2 mi2|678077}} || {{km2 mi2|3476}} || 0.51 || {{flag|Darewa}}
+| {{nts|50}} || {{flag|Darewa}} || {{km2 mi2|681553}} || {{km2 mi2|678077}} || {{km2 mi2|3476}} || 0.51
 |-
-| {{nts|51}}  || {{km2 mi2|664569}} || {{km2 mi2|664569}} || {{km2 mi2|0}} || 0 || {{flag|Kaastini}}
+| {{nts|51}} || {{flag|Kaastini}} || {{km2 mi2|664569}} || {{km2 mi2|664569}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|52}}  || {{km2 mi2|663041}} || {{km2 mi2|656941}} || {{km2 mi2|6100}} || 0.92 || {{flag|Quidic}}
+| {{nts|52}} || {{flag|Quidic}} || {{km2 mi2|663041}} || {{km2 mi2|656941}} || {{km2 mi2|6100}} || 0.92
 |-
-| {{nts|53}}  || {{km2 mi2|654175}} || {{km2 mi2|650839}} || {{km2 mi2|3336}} || 0.51 || {{flag|Ohtina}}
+| {{nts|53}} || {{flag|Ohtina}} || {{km2 mi2|654175}} || {{km2 mi2|650839}} || {{km2 mi2|3336}} || 0.51
 |-
-| {{nts|54}}  || {{km2 mi2|619575}} || {{km2 mi2|619575}} || {{km2 mi2|0}} || 0 || {{flag|Ucrua}}
+| {{nts|54}} || {{flag|Ucrua}} || {{km2 mi2|619575}} || {{km2 mi2|619575}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|55}}  || {{km2 mi2|591613}} || {{km2 mi2|589956}} || {{km2 mi2|1657}} || 0.28 || {{flag|Candenat}}
+| {{nts|55}} || {{flag|Candenat}} || {{km2 mi2|591613}} || {{km2 mi2|589956}} || {{km2 mi2|1657}} || 0.28
 |-
-| {{nts|56}}  || {{km2 mi2|588468}} || {{km2 mi2|588468}} || {{km2 mi2|0}} || 0 || {{flag|Lieri}}
+| {{nts|56}} || {{flag|Lieri}} || {{km2 mi2|588468}} || {{km2 mi2|588468}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|57}}  || {{km2 mi2|577124}} || {{km2 mi2|546421}} || {{km2 mi2|30703}} || 5.32 || {{flag|Vayvele}}
+| {{nts|57}} || {{flag|Vayvele}} || {{km2 mi2|577124}} || {{km2 mi2|546421}} || {{km2 mi2|30703}} || 5.32
 |-
-| {{nts|58}}  || {{km2 mi2|574577}} || {{km2 mi2|556708}} || {{km2 mi2|17869}} || 3.11 || {{flag|Eldavpir}}
+| {{nts|58}} || {{flag|Eldavpir}} || {{km2 mi2|574577}} || {{km2 mi2|556708}} || {{km2 mi2|17869}} || 3.11
 |-
-| {{nts|59}}  || {{km2 mi2|563506}} || {{km2 mi2|563506}} || {{km2 mi2|0}} || 0 || {{flag|Byllu}}
+| {{nts|59}} || {{flag|Byllu}} || {{km2 mi2|563506}} || {{km2 mi2|563506}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|60}}  || {{km2 mi2|551835}} || {{km2 mi2|549076}} || {{km2 mi2|2759}} || 0.5 || {{flag|Arbiya}}
+| {{nts|60}} || {{flag|Arbiya}} || {{km2 mi2|551835}} || {{km2 mi2|549076}} || {{km2 mi2|2759}} || 0.5
 |-
-| {{nts|61}}  || {{km2 mi2|541922}} || {{km2 mi2|541922}} || {{km2 mi2|0}} || 0 || {{flag|Ihner}}
+| {{nts|61}} || {{flag|Ihner}} || {{km2 mi2|541922}} || {{km2 mi2|541922}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|62}}  || {{km2 mi2|529951}} || {{km2 mi2|519935}} || {{km2 mi2|10016}} || 1.89 || {{flag|Astye}}
+| {{nts|62}} || {{flag|Astye}} || {{km2 mi2|529951}} || {{km2 mi2|519935}} || {{km2 mi2|10016}} || 1.89
 |-
-| {{nts|63}}  || {{km2 mi2|522616}} || {{km2 mi2|518958}} || {{km2 mi2|3658}} || 0.7 || {{flag|Erkizil}}
+| {{nts|63}} || {{flag|Erkizil}} || {{km2 mi2|522616}} || {{km2 mi2|518958}} || {{km2 mi2|3658}} || 0.7
 |-
-| {{nts|64}}  || {{km2 mi2|509719}} || {{km2 mi2|491573}} || {{km2 mi2|18146}} || 3.56 || {{flag|Wundry}}
+| {{nts|64}} || {{flag|Wundry}} || {{km2 mi2|509719}} || {{km2 mi2|491573}} || {{km2 mi2|18146}} || 3.56
 |-
-| {{nts|65}}  || {{km2 mi2|506753}} || {{km2 mi2|501027}} || {{km2 mi2|5726}} || 1.13 || {{flag|Praesyu}}
+| {{nts|65}} || {{flag|Praesyu}} || {{km2 mi2|506753}} || {{km2 mi2|501027}} || {{km2 mi2|5726}} || 1.13
 |-
-| {{nts|66}}  || {{km2 mi2|500370}} || {{km2 mi2|487460}} || {{km2 mi2|12910}} || 2.58 || {{flag|Anymna}}
+| {{nts|66}} || {{flag|Anymna}} || {{km2 mi2|500370}} || {{km2 mi2|487460}} || {{km2 mi2|12910}} || 2.58
 |-
-| {{nts|67}}  || {{km2 mi2|497086}} || {{km2 mi2|491916}} || {{km2 mi2|5170}} || 1.04 || {{flag|Oscairia}}
+| {{nts|67}} || {{flag|Oscairia}} || {{km2 mi2|497086}} || {{km2 mi2|491916}} || {{km2 mi2|5170}} || 1.04
 |-
-| {{nts|68}}  || {{km2 mi2|494588}} || {{km2 mi2|489593}} || {{km2 mi2|4995}} || 1.01 || {{flag|Lycroa}}
+| {{nts|68}} || {{flag|Lycroa}} || {{km2 mi2|494588}} || {{km2 mi2|489593}} || {{km2 mi2|4995}} || 1.01
 |-
-| {{nts|69}}  || {{km2 mi2|494101}} || {{km2 mi2|494101}} || {{km2 mi2|0}} || 0 || {{flag|Shinam}}
+| {{nts|69}} || {{flag|Shinam}} || {{km2 mi2|494101}} || {{km2 mi2|494101}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|70}}  || {{km2 mi2|489302}} || {{km2 mi2|489302}} || {{km2 mi2|0}} || 0 || {{flag|Iquir}}
+| {{nts|70}} || {{flag|Iquir}} || {{km2 mi2|489302}} || {{km2 mi2|489302}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|71}}  || {{km2 mi2|462090}} || {{km2 mi2|459086}} || {{km2 mi2|3004}} || 0.65 || {{flag|Othya}}
+| {{nts|71}} || {{flag|Othya}} || {{km2 mi2|462090}} || {{km2 mi2|459086}} || {{km2 mi2|3004}} || 0.65
 |-
-| {{nts|72}}  || {{km2 mi2|452426}} || {{km2 mi2|445730}} || {{km2 mi2|6696}} || 1.48 || {{flag|Exilium}}
+| {{nts|72}} || {{flag|Exilium}} || {{km2 mi2|452426}} || {{km2 mi2|445730}} || {{km2 mi2|6696}} || 1.48
 |-
-| {{nts|73}}  || {{km2 mi2|440878}} || {{km2 mi2|423596}} || {{km2 mi2|17282}} || 3.92 || {{flag|Finae}}
+| {{nts|73}} || {{flag|Finae}} || {{km2 mi2|440878}} || {{km2 mi2|423596}} || {{km2 mi2|17282}} || 3.92
 |-
-| {{nts|74}}  || {{km2 mi2|431272}} || {{km2 mi2|429590}} || {{km2 mi2|1682}} || 0.39 || {{flag|Myla}}
+| {{nts|74}} || {{flag|Myla}} || {{km2 mi2|431272}} || {{km2 mi2|429590}} || {{km2 mi2|1682}} || 0.39
 |-
-| {{nts|75}}  || {{km2 mi2|428786}} || {{km2 mi2|425098}} || {{km2 mi2|3688}} || 0.86 || {{flag|Emara}}
+| {{nts|75}} || {{flag|Emara}} || {{km2 mi2|428786}} || {{km2 mi2|425098}} || {{km2 mi2|3688}} || 0.86
 |-
-| {{nts|76}}  || {{km2 mi2|426461}} || {{km2 mi2|401769}} || {{km2 mi2|24692}} || 5.79 || {{flag|Koruch}}
+| {{nts|76}} || {{flag|Koruch}} || {{km2 mi2|426461}} || {{km2 mi2|401769}} || {{km2 mi2|24692}} || 5.79
 |-
-| {{nts|77}}  || {{km2 mi2|426225}} || {{km2 mi2|421963}} || {{km2 mi2|4262}} || 1 || {{flag|Umarcia}}
+| {{nts|77}} || {{flag|Umarcia}} || {{km2 mi2|426225}} || {{km2 mi2|421963}} || {{km2 mi2|4262}} || 1
 |-
-| {{nts|78}}  || {{km2 mi2|422225}} || {{km2 mi2|414625}} || {{km2 mi2|7600}} || 1.8 || {{flag|Ashain}}
+| {{nts|78}} || {{flag|Ashain}} || {{km2 mi2|422225}} || {{km2 mi2|414625}} || {{km2 mi2|7600}} || 1.8
 |-
-| {{nts|79}}  || {{km2 mi2|409984}} || {{km2 mi2|394364}} || {{km2 mi2|15620}} || 3.81 || {{flag|Inrea}}
+| {{nts|79}} || {{flag|Inrea}} || {{km2 mi2|409984}} || {{km2 mi2|394364}} || {{km2 mi2|15620}} || 3.81
 |-
-| {{nts|80}}  || {{km2 mi2|404675}} || {{km2 mi2|395448}} || {{km2 mi2|9227}} || 2.28 || {{flag|Ruylku}}
+| {{nts|80}} || {{flag|Ruylku}} || {{km2 mi2|404675}} || {{km2 mi2|395448}} || {{km2 mi2|9227}} || 2.28
 |-
-| {{nts|81}}  || {{km2 mi2|388247}} || {{km2 mi2|388247}} || {{km2 mi2|0}} || 0 || {{flag|Viussi}}
+| {{nts|81}} || {{flag|Viussi}} || {{km2 mi2|388247}} || {{km2 mi2|388247}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|82}}  || {{km2 mi2|388005}} || {{km2 mi2|386337}} || {{km2 mi2|1668}} || 0.43 || {{flag|Acetoa}}
+| {{nts|82}} || {{flag|Acetoa}} || {{km2 mi2|388005}} || {{km2 mi2|386337}} || {{km2 mi2|1668}} || 0.43
 |-
-| {{nts|83}}  || {{km2 mi2|382656}} || {{km2 mi2|368039}} || {{km2 mi2|14617}} || 3.82 || {{flag|Trian}}
+| {{nts|83}} || {{flag|Trian}} || {{km2 mi2|382656}} || {{km2 mi2|368039}} || {{km2 mi2|14617}} || 3.82
 |-
-| {{nts|84}}  || {{km2 mi2|370702}} || {{km2 mi2|356356}} || {{km2 mi2|14346}} || 3.87 || {{flag|Hkuqo}}
+| {{nts|84}} || {{flag|Hkuqo}} || {{km2 mi2|370702}} || {{km2 mi2|356356}} || {{km2 mi2|14346}} || 3.87
 |-
-| {{nts|85}}  || {{km2 mi2|363049}} || {{km2 mi2|344025}} || {{km2 mi2|19024}} || 5.24 || {{flag|Amcha}}
+| {{nts|85}} || {{flag|Amcha}} || {{km2 mi2|363049}} || {{km2 mi2|344025}} || {{km2 mi2|19024}} || 5.24
 |-
-| {{nts|86}}  || {{km2 mi2|345623}} || {{km2 mi2|327374}} || {{km2 mi2|18249}} || 5.28 || {{flag|New Kizura}}
+| {{nts|86}} || {{flag|New Kizura}} || {{km2 mi2|345623}} || {{km2 mi2|327374}} || {{km2 mi2|18249}} || 5.28
 |-
-| {{nts|87}}  || {{km2 mi2|345341}} || {{km2 mi2|323515}} || {{km2 mi2|21826}} || 6.32 || {{flag|Taval}}
+| {{nts|87}} || {{flag|Taval}} || {{km2 mi2|345341}} || {{km2 mi2|323515}} || {{km2 mi2|21826}} || 6.32
 |-
-| {{nts|88}}  || {{km2 mi2|344798}} || {{km2 mi2|339247}} || {{km2 mi2|5551}} || 1.61 || {{flag|Mendereide}}
+| {{nts|88}} || {{flag|Mendereide}} || {{km2 mi2|344798}} || {{km2 mi2|339247}} || {{km2 mi2|5551}} || 1.61
 |-
-| {{nts|89}}  || {{km2 mi2|338878}} || {{km2 mi2|335489}} || {{km2 mi2|3389}} || 1 || {{flag|Umendel}}
+| {{nts|89}} || {{flag|Umendel}} || {{km2 mi2|338878}} || {{km2 mi2|335489}} || {{km2 mi2|3389}} || 1
 |-
-| {{nts|90}}  || {{km2 mi2|334534}} || {{km2 mi2|331055}} || {{km2 mi2|3479}} || 1.04 || {{flag|Heiso}}
+| {{nts|90}} || {{flag|Heiso}} || {{km2 mi2|334534}} || {{km2 mi2|331055}} || {{km2 mi2|3479}} || 1.04
 |-
-| {{nts|91}}  || {{km2 mi2|326950}} || {{km2 mi2|325184}} || {{km2 mi2|1766}} || 0.54 || {{flag|Iainoa}}
+| {{nts|91}} || {{flag|Iainoa}} || {{km2 mi2|326950}} || {{km2 mi2|325184}} || {{km2 mi2|1766}} || 0.54
 |-
-| {{nts|92}}  || {{km2 mi2|303188}} || {{km2 mi2|299762}} || {{km2 mi2|3426}} || 1.13 || {{flag|Siana}}
+| {{nts|92}} || {{flag|Siana}} || {{km2 mi2|303188}} || {{km2 mi2|299762}} || {{km2 mi2|3426}} || 1.13
 |-
-| {{nts|93}}  || {{km2 mi2|300940}} || {{km2 mi2|297931}} || {{km2 mi2|3009}} || 1 || {{flag|Prstreula}}
+| {{nts|93}} || {{flag|Prstreula}} || {{km2 mi2|300940}} || {{km2 mi2|297931}} || {{km2 mi2|3009}} || 1
 |-
-| {{nts|94}}  || {{km2 mi2|288915}} || {{km2 mi2|288915}} || {{km2 mi2|0}} || 0 || {{flag|Suenan}}
+|  || {{flagicon|Etirha}} [[Moaneill]] (Etirha) || {{km2 mi2|298000}} ||  ||  || 
 |-
-| {{nts|95}}  || {{km2 mi2|282440}} || {{km2 mi2|278712}} || {{km2 mi2|3728}} || 1.32 || {{flag|Selaja}}
+| {{nts|94}} || {{flag|Suenan}} || {{km2 mi2|288915}} || {{km2 mi2|288915}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|96}}  || {{km2 mi2|268177}} || {{km2 mi2|266353}} || {{km2 mi2|1824}} || 0.68 || {{flag|Lydroa}}
+| {{nts|95}} || {{flag|Selaja}} || {{km2 mi2|282440}} || {{km2 mi2|278712}} || {{km2 mi2|3728}} || 1.32
 |-
-| {{nts|97}}  || {{km2 mi2|266831}} || {{km2 mi2|264163}} || {{km2 mi2|2668}} || 1 || {{flag|Nheyes Si}}
+| {{nts|96}} || {{flag|Lydroa}} || {{km2 mi2|268177}} || {{km2 mi2|266353}} || {{km2 mi2|1824}} || 0.68
 |-
-| {{nts|98}}  || {{km2 mi2|264853}} || {{km2 mi2|262204}} || {{km2 mi2|2649}} || 1 || {{flag|Reerica}}
+| {{nts|97}} || {{flag|Nheyes Si}} || {{km2 mi2|266831}} || {{km2 mi2|264163}} || {{km2 mi2|2668}} || 1
 |-
-| {{nts|99}}  || {{km2 mi2|255572}} || {{km2 mi2|253936}} || {{km2 mi2|1636}} || 0.64 || {{flag|Onphello}}
+| {{nts|98}} || {{flag|Reerica}} || {{km2 mi2|264853}} || {{km2 mi2|262204}} || {{km2 mi2|2649}} || 1
 |-
-| {{nts|100}} || {{km2 mi2|250357}} || {{km2 mi2|243522}} || {{km2 mi2|6835}} || 2.73 || {{flag|Isnti}}
+| {{nts|99}} || {{flag|Onphello}} || {{km2 mi2|255572}} || {{km2 mi2|253936}} || {{km2 mi2|1636}} || 0.64
 |-
-| {{nts|101}} || {{km2 mi2|241076}} || {{km2 mi2|234109}} || {{km2 mi2|6967}} || 2.89 || {{flag|Galca}}
+| {{nts|100}} || {{flag|Isnti}} || {{km2 mi2|250357}} || {{km2 mi2|243522}} || {{km2 mi2|6835}} || 2.73
 |-
-| {{nts|102}} || {{km2 mi2|236495}} || {{km2 mi2|230701}} || {{km2 mi2|5794}} || 2.45 || {{flag|Saa}}
+| {{nts|101}} || {{flag|Galca}} || {{km2 mi2|241076}} || {{km2 mi2|234109}} || {{km2 mi2|6967}} || 2.89
 |-
-| {{nts|103}} || {{km2 mi2|232273}} || {{km2 mi2|232273}} || {{km2 mi2|0}} || 0 || {{flag|Sattle}}
+| {{nts|102}} || {{flag|Saa}} || {{km2 mi2|236495}} || {{km2 mi2|230701}} || {{km2 mi2|5794}} || 2.45
 |-
-| {{nts|104}} || {{km2 mi2|229074}} || {{km2 mi2|227264}} || {{km2 mi2|1810}} || 0.79 || {{flag|Feio Lie}}
+| {{nts|103}} || {{flag|Sattle}} || {{km2 mi2|232273}} || {{km2 mi2|232273}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|105}} || {{km2 mi2|214401}} || {{km2 mi2|207969}} || {{km2 mi2|6432}} || 3 || {{flag|Fermori}}
+| {{nts|104}} || {{flag|Feio Lie}} || {{km2 mi2|229074}} || {{km2 mi2|227264}} || {{km2 mi2|1810}} || 0.79
 |-
-| {{nts|106}} || {{km2 mi2|214130}} || {{km2 mi2|211989}} || {{km2 mi2|2141}} || 1 || {{flag|Rtesania}}
+| {{nts|105}} || {{flag|Fermori}} || {{km2 mi2|214401}} || {{km2 mi2|207969}} || {{km2 mi2|6432}} || 3
 |-
-| {{nts|107}} || {{km2 mi2|212955}} || {{km2 mi2|212465}} || {{km2 mi2|490}} || 0.23 || {{flag|Western Migoku}}
+| {{nts|106}} || {{flag|Rtesania}} || {{km2 mi2|214130}} || {{km2 mi2|211989}} || {{km2 mi2|2141}} || 1
 |-
-| {{nts|108}} || {{km2 mi2|209781}} || {{km2 mi2|199628}} || {{km2 mi2|10153}} || 4.84 || {{flag|Oyreain}}
+| {{nts|107}} || {{flag|Western Migoku}} || {{km2 mi2|212955}} || {{km2 mi2|212465}} || {{km2 mi2|490}} || 0.23
 |-
-| {{nts|109}} || {{km2 mi2|202209}} || {{km2 mi2|194990}} || {{km2 mi2|7219}} || 3.57 || {{flag|Grazail}}
+| {{nts|108}} || {{flag|Oyreain}} || {{km2 mi2|209781}} || {{km2 mi2|199628}} || {{km2 mi2|10153}} || 4.84
 |-
-| {{nts|110}} || {{km2 mi2|200464}} || {{km2 mi2|197417}} || {{km2 mi2|3047}} || 1.52 || {{flag|Otiiric}}
+| {{nts|109}} || {{flag|Grazail}} || {{km2 mi2|202209}} || {{km2 mi2|194990}} || {{km2 mi2|7219}} || 3.57
 |-
-| {{nts|111}} || {{km2 mi2|197284}} || {{km2 mi2|195311}} || {{km2 mi2|1973}} || 1 || {{flag|Ozinia}}
+| {{nts|110}} || {{flag|Otiiric}} || {{km2 mi2|200464}} || {{km2 mi2|197417}} || {{km2 mi2|3047}} || 1.52
 |-
-| {{nts|112}} || {{km2 mi2|193698}} || {{km2 mi2|191761}} || {{km2 mi2|1937}} || 1 || {{flag|Taing}}
+| {{nts|111}} || {{flag|Ozinia}} || {{km2 mi2|197284}} || {{km2 mi2|195311}} || {{km2 mi2|1973}} || 1
 |-
-| {{nts|113}} || {{km2 mi2|193050}} || {{km2 mi2|185212}} || {{km2 mi2|7838}} || 4.06 || {{flag|Isari}}
+| {{nts|112}} || {{flag|Taing}} || {{km2 mi2|193698}} || {{km2 mi2|191761}} || {{km2 mi2|1937}} || 1
 |-
-| {{nts|114}} || {{km2 mi2|179350}} || {{km2 mi2|177556}} || {{km2 mi2|1794}} || 1 || {{flag|Veelmit}}
+| {{nts|113}} || {{flag|Isari}} || {{km2 mi2|193050}} || {{km2 mi2|185212}} || {{km2 mi2|7838}} || 4.06
 |-
-| {{nts|115}} || {{km2 mi2|178349}} || {{km2 mi2|173427}} || {{km2 mi2|4922}} || 2.76 || {{flag|Yaxuto}}
+| {{nts|114}} || {{flag|Veelmit}} || {{km2 mi2|179350}} || {{km2 mi2|177556}} || {{km2 mi2|1794}} || 1
 |-
-| {{nts|116}} || {{km2 mi2|169966}} || {{km2 mi2|163490}} || {{km2 mi2|6476}} || 3.81 || {{flag|Merela Sta}}
+| {{nts|115}} || {{flag|Yaxuto}} || {{km2 mi2|178349}} || {{km2 mi2|173427}} || {{km2 mi2|4922}} || 2.76
 |-
-| {{nts|117}} || {{km2 mi2|168631}} || {{km2 mi2|160334}} || {{km2 mi2|8297}} || 4.92 || {{flag|Ahokini}}
+| {{nts|116}} || {{flag|Merela Sta}} || {{km2 mi2|169966}} || {{km2 mi2|163490}} || {{km2 mi2|6476}} || 3.81
 |-
-| {{nts|118}} || {{km2 mi2|168040}} || {{km2 mi2|163503}} || {{km2 mi2|4537}} || 2.7 || {{flag|Disal Nila}}
+| {{nts|117}} || {{flag|Ahokini}} || {{km2 mi2|168631}} || {{km2 mi2|160334}} || {{km2 mi2|8297}} || 4.92
 |-
-| {{nts|119}} || {{km2 mi2|158373}} || {{km2 mi2|158373}} || {{km2 mi2|0}} || 0 || {{flag|Yoprioq}}
+| {{nts|118}} || {{flag|Disal Nila}} || {{km2 mi2|168040}} || {{km2 mi2|163503}} || {{km2 mi2|4537}} || 2.7
 |-
-| {{nts|120}} || {{km2 mi2|154449}} || {{km2 mi2|152905}} || {{km2 mi2|1544}} || 1 || {{flag|Hyelen}}
+| {{nts|119}} || {{flag|Yoprioq}} || {{km2 mi2|158373}} || {{km2 mi2|158373}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|121}} || {{km2 mi2|151329}} || {{km2 mi2|146940}} || {{km2 mi2|4389}} || 2.9 || {{flag|Jshain}}
+| {{nts|120}} || {{flag|Hyelen}} || {{km2 mi2|154449}} || {{km2 mi2|152905}} || {{km2 mi2|1544}} || 1
 |-
-| {{nts|122}} || {{km2 mi2|143234}} || {{km2 mi2|138665}} || {{km2 mi2|4569}} || 3.19 || {{flag|Pruim Fijan}}
+| {{nts|121}} || {{flag|Jshain}} || {{km2 mi2|151329}} || {{km2 mi2|146940}} || {{km2 mi2|4389}} || 2.9
 |-
-| {{nts|123}} || {{km2 mi2|131875}} || {{km2 mi2|127932}} || {{km2 mi2|3943}} || 2.99 || {{flag|Fincen}}
+| {{nts|122}} || {{flag|Pruim Fijan}} || {{km2 mi2|143234}} || {{km2 mi2|138665}} || {{km2 mi2|4569}} || 3.19
 |-
-| {{nts|124}} || {{km2 mi2|131864}} || {{km2 mi2|129530}} || {{km2 mi2|2334}} || 1.77 || {{flag|Acrana}}
+| {{nts|123}} || {{flag|Fincen}} || {{km2 mi2|131875}} || {{km2 mi2|127932}} || {{km2 mi2|3943}} || 2.99
 |-
-| {{nts|125}} || {{km2 mi2|130920}} || {{km2 mi2|125173}} || {{km2 mi2|5747}} || 4.39 || {{flag|Eldjo}}
+| {{nts|124}} || {{flag|Acrana}} || {{km2 mi2|131864}} || {{km2 mi2|129530}} || {{km2 mi2|2334}} || 1.77
 |-
-| {{nts|126}} || {{km2 mi2|126688}} || {{km2 mi2|120569}} || {{km2 mi2|6119}} || 4.83 || {{flag|Phuris}}
+| {{nts|125}} || {{flag|Eldjo}} || {{km2 mi2|130920}} || {{km2 mi2|125173}} || {{km2 mi2|5747}} || 4.39
 |-
-| {{nts|127}} || {{km2 mi2|125915}} || {{km2 mi2|125915}} || {{km2 mi2|0}} || 0 || {{flag|Eparia}}
+| {{nts|126}} || {{flag|Phuris}} || {{km2 mi2|126688}} || {{km2 mi2|120569}} || {{km2 mi2|6119}} || 4.83
 |-
-| {{nts|128}} || {{km2 mi2|119193}} || {{km2 mi2|119193}} || {{km2 mi2|0}} || 0 || {{flag|Uularin}}
+| {{nts|127}} || {{flag|Eparia}} || {{km2 mi2|125915}} || {{km2 mi2|125915}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|129}} || {{km2 mi2|113626}} || {{km2 mi2|109342}} || {{km2 mi2|4284}} || 3.77 || {{flag|Sanagara}}
+| {{nts|128}} || {{flag|Uularin}} || {{km2 mi2|119193}} || {{km2 mi2|119193}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|130}} || {{km2 mi2|111241}} || {{km2 mi2|109461}} || {{km2 mi2|1780}} || 1.6 || {{flag|Sadain}}
+| {{nts|129}} || {{flag|Sanagara}} || {{km2 mi2|113626}} || {{km2 mi2|109342}} || {{km2 mi2|4284}} || 3.77
 |-
-| {{nts|131}} || {{km2 mi2|109571}} || {{km2 mi2|105922}} || {{km2 mi2|3649}} || 3.33 || {{flag|Easuhura}}
+| {{nts|130}} || {{flag|Sadain}} || {{km2 mi2|111241}} || {{km2 mi2|109461}} || {{km2 mi2|1780}} || 1.6
 |-
-| {{nts|132}} || {{km2 mi2|99744}} || {{km2 mi2|98457}} || {{km2 mi2|1287}} || 1.29 || {{flag|Fire Coast}}
+| {{nts|131}} || {{flag|Easuhura}} || {{km2 mi2|109571}} || {{km2 mi2|105922}} || {{km2 mi2|3649}} || 3.33
 |-
-| {{nts|133}} || {{km2 mi2|94754}} || {{km2 mi2|92186}} || {{km2 mi2|2568}} || 2.71 || {{flag|Curata}}
+| {{nts|132}} || {{flag|Fire Coast}} || {{km2 mi2|99744}} || {{km2 mi2|98457}} || {{km2 mi2|1287}} || 1.29
 |-
-| {{nts|134}} || {{km2 mi2|84476}} || {{km2 mi2|82626}} || {{km2 mi2|1850}} || 2.19 || {{flag|Chaenia}}
+| {{nts|133}} || {{flag|Curata}} || {{km2 mi2|94754}} || {{km2 mi2|92186}} || {{km2 mi2|2568}} || 2.71
 |-
-| {{nts|135}} || {{km2 mi2|80042}} || {{km2 mi2|78417}} || {{km2 mi2|1625}} || 2.03 || {{flag|Pelan}}
+| {{nts|134}} || {{flag|Chaenia}} || {{km2 mi2|84476}} || {{km2 mi2|82626}} || {{km2 mi2|1850}} || 2.19
 |-
-| {{nts|136}} || {{km2 mi2|57100}} || {{km2 mi2|55895}} || {{km2 mi2|1205}} || 2.11 || {{flag|North Ayre}}
+| {{nts|135}} || {{flag|Pelan}} || {{km2 mi2|80042}} || {{km2 mi2|78417}} || {{km2 mi2|1625}} || 2.03
 |-
-| {{nts|137}} || {{km2 mi2|53031}} || {{km2 mi2|50623}} || {{km2 mi2|2408}} || 4.54 || {{flag|Zenashan}}
+| {{nts|136}} || {{flag|North Ayre}} || {{km2 mi2|57100}} || {{km2 mi2|55895}} || {{km2 mi2|1205}} || 2.11
 |-
-| {{nts|138}} || {{km2 mi2|43383}} || {{km2 mi2|43383}} || {{km2 mi2|0}} || 0 || {{flag|Palina}}
+| {{nts|137}} || {{flag|Zenashan}} || {{km2 mi2|53031}} || {{km2 mi2|50623}} || {{km2 mi2|2408}} || 4.54
 |-
-| {{nts|139}} || {{km2 mi2|42776}} || {{km2 mi2|41407}} || {{km2 mi2|1369}} || 3.2 || {{flag|Shomjind}}
+| {{nts|138}} || {{flag|Palina}} || {{km2 mi2|43383}} || {{km2 mi2|43383}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|140}} || {{km2 mi2|41453}} || {{km2 mi2|40089}} || {{km2 mi2|1364}} || 3.29 || {{flag|lasri}}
+| {{nts|139}} || {{flag|Shomjind}} || {{km2 mi2|42776}} || {{km2 mi2|41407}} || {{km2 mi2|1369}} || 3.2
 |-
-| {{nts|141}} || {{km2 mi2|36234}} || {{km2 mi2|34792}} || {{km2 mi2|1442}} || 3.98 || {{flag|Aplasia}}
+| {{nts|140}} || {{flag|lasri}} || {{km2 mi2|41453}} || {{km2 mi2|40089}} || {{km2 mi2|1364}} || 3.29
 |-
-| {{nts|142}} || {{km2 mi2|34109}} || {{km2 mi2|34109}} || {{km2 mi2|0}} || 0 || {{flag|Peka}}
+| {{nts|141}} || {{flag|Aplasia}} || {{km2 mi2|36234}} || {{km2 mi2|34792}} || {{km2 mi2|1442}} || 3.98
 |-
-| {{nts|143}} || {{km2 mi2|34106}} || {{km2 mi2|33765}} || {{km2 mi2|341}} || 1 || {{flag|Slyiaduun}}
+| {{nts|142}} || {{flag|Peka}} || {{km2 mi2|34109}} || {{km2 mi2|34109}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|144}} || {{km2 mi2|27541}} || {{km2 mi2|27266}} || {{km2 mi2|275}} || 1 || {{flag|Ilicuhe}}
+| {{nts|143}} || {{flag|Slyiaduun}} || {{km2 mi2|34106}} || {{km2 mi2|33765}} || {{km2 mi2|341}} || 1
 |-
-| {{nts|145}} || {{km2 mi2|25529}} || {{km2 mi2|24426}} || {{km2 mi2|1103}} || 4.32 || {{flag|Aetintio}}
+| {{nts|144}} || {{flag|Ilicuhe}} || {{km2 mi2|27541}} || {{km2 mi2|27266}} || {{km2 mi2|275}} || 1
 |-
-| {{nts|146}} || {{km2 mi2|21990}} || {{km2 mi2|21770}} || {{km2 mi2|220}} || 1 || {{flag|Tonder}}
+| {{nts|145}} || {{flag|Aetintio}} || {{km2 mi2|25529}} || {{km2 mi2|24426}} || {{km2 mi2|1103}} || 4.32
 |-
-| {{nts|147}} || {{km2 mi2|21457}} || {{km2 mi2|20380}} || {{km2 mi2|1077}} || 5.02 || {{flag|Rijan bu}}
+| {{nts|146}} || {{flag|Tonder}} || {{km2 mi2|21990}} || {{km2 mi2|21770}} || {{km2 mi2|220}} || 1
 |-
-| {{nts|148}} || {{km2 mi2|18341}} || {{km2 mi2|18242}} || {{km2 mi2|99}} || 0.54 || {{flag|Metndria}}
+| {{nts|147}} || {{flag|Rijan bu}} || {{km2 mi2|21457}} || {{km2 mi2|20380}} || {{km2 mi2|1077}} || 5.02
 |-
-| {{nts|149}} || {{km2 mi2|18110}} || {{km2 mi2|17929}} || {{km2 mi2|181}} || 1 || {{flag|Niul Spijan}}
+| {{nts|148}} || {{flag|Metndria}} || {{km2 mi2|18341}} || {{km2 mi2|18242}} || {{km2 mi2|99}} || 0.54
 |-
-| {{nts|150}} || {{km2 mi2|15195}} || {{km2 mi2|14251}} || {{km2 mi2|944}} || 6.21 || {{flag|Baluyde}}
+| {{nts|149}} || {{flag|Niul Spijan}} || {{km2 mi2|18110}} || {{km2 mi2|17929}} || {{km2 mi2|181}} || 1
 |-
-| {{nts|151}} || {{km2 mi2|11432}} || {{km2 mi2|11182}} || {{km2 mi2|250}} || 2.19 || {{flag|Elja and Munusia}}
+|  || {{flagicon|Chaenia}} [[Mirran]] (Chaenia) || {{km2 mi2|16139}} ||  ||  || 
 |-
-| {{nts|152}} || {{km2 mi2|10661}} || {{km2 mi2|10479}} || {{km2 mi2|182}} || 1.71 || {{flag|Rinew}}
+| {{nts|150}} || {{flag|Baluyde}} || {{km2 mi2|15195}} || {{km2 mi2|14251}} || {{km2 mi2|944}} || 6.21
 |-
-| {{nts|153}} || {{km2 mi2|8590}} || {{km2 mi2|8504}} || {{km2 mi2|86}} || 1 || {{flag|Guise}}
+| {{nts|151}} || {{flag|Elja and Munusia}} || {{km2 mi2|11432}} || {{km2 mi2|11182}} || {{km2 mi2|250}} || 2.19
 |-
-| {{nts|154}} || {{km2 mi2|6615}} || {{km2 mi2|6380}} || {{km2 mi2|235}} || 3.55 || {{flag|Tomscilus}}
+| {{nts|152}} || {{flag|Rinew}} || {{km2 mi2|10661}} || {{km2 mi2|10479}} || {{km2 mi2|182}} || 1.71
 |-
-| {{nts|155}} || {{km2 mi2|5418}} || {{km2 mi2|5364}} || {{km2 mi2|54}} || 1 || {{flag|Canldives}}
+| {{nts|153}} || {{flag|Guise}} || {{km2 mi2|8590}} || {{km2 mi2|8504}} || {{km2 mi2|86}} || 1
 |-
-| {{nts|156}} || {{km2 mi2|4782}} || {{km2 mi2|4637}} || {{km2 mi2|145}} || 3.04 || {{flag|Rkmepuia}}
+|  || {{flagicon|Easuhura}} [[Saremeh]] (Easuhura) || {{km2 mi2|6891}} ||  ||  || 
 |-
-| {{nts|157}} || {{km2 mi2|3881}} || {{km2 mi2|3847}} || {{km2 mi2|34}} || 0.87 || {{flag|Hiwush}}
+| {{nts|154}} || {{flag|Tomscilus}} || {{km2 mi2|6615}} || {{km2 mi2|6380}} || {{km2 mi2|235}} || 3.55
 |-
-| {{nts|158}} || {{km2 mi2|3310}} || {{km2 mi2|3278}} || {{km2 mi2|32}} || 0.96 || {{flag|Walporein}}
+| {{nts|155}} || {{flag|Canldives}} || {{km2 mi2|5418}} || {{km2 mi2|5364}} || {{km2 mi2|54}} || 1
 |-
-| {{nts|159}} || {{km2 mi2|2562}} || {{km2 mi2|2424}} || {{km2 mi2|138}} || 5.39 || {{flag|Isuibul}}
+| {{nts|156}} || {{flag|Rkmepuia}} || {{km2 mi2|4782}} || {{km2 mi2|4637}} || {{km2 mi2|145}} || 3.04
 |-
-| {{nts|160}} || {{km2 mi2|2551}} || {{km2 mi2|2446}} || {{km2 mi2|105}} || 4.13 || {{flag|Yutnitu}}
+|  || {{flagicon|Estijan}} [[Icgenige]] (Estijan) || {{km2 mi2|3972}} ||  ||  || 
 |-
-| {{nts|161}} || {{km2 mi2|2106}} || {{km2 mi2|1931}} || {{km2 mi2|175}} || 8.33 || {{flag|Crila Republic}}
+| {{nts|157}} || {{flag|Hiwush}} || {{km2 mi2|3881}} || {{km2 mi2|3847}} || {{km2 mi2|34}} || 0.87
 |-
-| {{nts|162}} || {{km2 mi2|2001}} || {{km2 mi2|2001}} || {{km2 mi2|0}} || 0 || {{flag|Stinebar}}
+|  || {{flagicon|Ashain}} [[Titai Islands]] (Ashain) || {{km2 mi2|3591}} ||  ||  || 
 |-
-| {{nts|163}} || {{km2 mi2|1646}} || {{km2 mi2|1548}} || {{km2 mi2|98}} || 5.93 || {{flag|Letan}}
+| {{nts|158}} || {{flag|Walporein}} || {{km2 mi2|3310}} || {{km2 mi2|3278}} || {{km2 mi2|32}} || 0.96
 |-
-| {{nts|164}} || {{km2 mi2|1428}} || {{km2 mi2|1322}} || {{km2 mi2|106}} || 7.39 || {{flag|Niretui and Anulan}}
+|  || {{flagicon|Ashain}} [[Amebra]] (Ashain) || {{km2 mi2|3133}} ||  ||  || 
 |-
-| {{nts|165}} || {{km2 mi2|1344}} || {{km2 mi2|1334}} || {{km2 mi2|10}} || 0.72 || {{flag|Rethern}}
+| {{nts|159}} || {{flag|Isuibul}} || {{km2 mi2|2562}} || {{km2 mi2|2424}} || {{km2 mi2|138}} || 5.39
 |-
-| {{nts|166}} || {{km2 mi2|1325}} || {{km2 mi2|1268}} || {{km2 mi2|57}} || 4.32 || {{flag|Cloja}}
+| {{nts|160}} || {{flag|Yutnitu}} || {{km2 mi2|2551}} || {{km2 mi2|2446}} || {{km2 mi2|105}} || 4.13
 |-
-| {{nts|167}} || {{km2 mi2|614}} || {{km2 mi2|610}} || {{km2 mi2|4}} || 0.69 || {{flag|Pha Hii}}
+|  || {{flagicon|Emara}} [[Nimarik]] (Emara) || {{km2 mi2|2135}} ||  ||  || 
 |-
-| {{nts|168}} || {{km2 mi2|609}} || {{km2 mi2|609}} || {{km2 mi2|0}} || 0 || {{flag|Prystr Hii}}
+| {{nts|161}} || {{flag|Crila Republic}} || {{km2 mi2|2106}} || {{km2 mi2|1931}} || {{km2 mi2|175}} || 8.33
 |-
-| {{nts|169}} || {{km2 mi2|548}} || {{km2 mi2|513}} || {{km2 mi2|35}} || 6.32 || {{flag|Enina}}
+| {{nts|162}} || {{flag|Stinebar}} || {{km2 mi2|2001}} || {{km2 mi2|2001}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|170}} || {{km2 mi2|545}} || {{km2 mi2|540}} || {{km2 mi2|5}} || 1 || {{flag|Trevilla}}
+|  || {{flagicon|Areoix Lie}} [[Amox]] (Areoix Lie) || {{km2 mi2|1938}} ||  ||  || 
 |-
-| {{nts|171}} || {{km2 mi2|230}} || {{km2 mi2|223}} || {{km2 mi2|7}} || 3.21 || {{flag|Cruthi Anoso}}
+|  || {{flagicon|Emara}} [[Tiesa Canal territory]] (Emara) || {{km2 mi2|1784}} ||  ||  || 
 |-
-| {{nts|172}} || {{km2 mi2|129}} || {{km2 mi2|129}} || {{km2 mi2|0}} || 0 || {{flag|Tvecoca}}
+| {{nts|163}} || {{flag|Letan}} || {{km2 mi2|1646}} || {{km2 mi2|1548}} || {{km2 mi2|98}} || 5.93
+|-
+|  || {{flagicon|Emara}} [[Hgebe]] (Emara) || {{km2 mi2|1623}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Slandsi Ofcen]] (Ashain) || {{km2 mi2|1579}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Leini]] (Ashain) || {{km2 mi2|1526}} ||  ||  || 
+|-
+| {{nts|164}} || {{flag|Niretui and Anulan}} || {{km2 mi2|1428}} || {{km2 mi2|1322}} || {{km2 mi2|106}} || 7.39
+|-
+|  || {{flagicon|Easuhura}} [[Haitum]] (Easuhura) || {{km2 mi2|1428}} ||  ||  || 
+|-
+|  || {{flagicon|Easuhura}} [[Dazi Islands]] (Easuhura) || {{km2 mi2|1419}} ||  ||  || 
+|-
+|  || {{flagicon|Estijan}} [[Innitralturks]] (Estijan) || {{km2 mi2|1353}} ||  ||  || 
+|-
+| {{nts|165}} || {{flag|Rethern}} || {{km2 mi2|1344}} || {{km2 mi2|1334}} || {{km2 mi2|10}} || 0.72
+|-
+| {{nts|166}} || {{flag|Cloja}} || {{km2 mi2|1325}} || {{km2 mi2|1268}} || {{km2 mi2|57}} || 4.32
+|-
+|  || {{flagicon|Easuhura}} [[Dalvahir]] (Easuhura) || {{km2 mi2|1315}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Nikele]] (Ashain) || {{km2 mi2|1086}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Ravhadi]] (Ashain) || {{km2 mi2|1082}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Mehradin]] (Emara) || {{km2 mi2|961}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Easmem]] (Emara) || {{km2 mi2|775}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Lyters]] (Emara) || {{km2 mi2|756}} ||  ||  || 
+|-
+|  || {{flagicon|Areoix Lie}} [[Khozanid]] (Areoix Lie) || {{km2 mi2|755}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Viaguiru]] (Ashain) || {{km2 mi2|713}} ||  ||  || 
+|-
+| {{nts|167}} || {{flag|Pha Hii}} || {{km2 mi2|614}} || {{km2 mi2|610}} || {{km2 mi2|4}} || 0.69
+|-
+|  || {{flagicon|Estijan}} [[Triosu]] (Estijan) || {{km2 mi2|613}} ||  ||  || 
+|-
+| {{nts|168}} || {{flag|Prystr Hii}} || {{km2 mi2|609}} || {{km2 mi2|609}} || {{km2 mi2|0}} || 0
+|-
+|  || {{flagicon|Areoix Lie}} [[Myath (Areoix Lie)]] (Areoix Lie) || {{km2 mi2|603}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Myath (Emara)]] (Emara) || {{km2 mi2|570}} ||  ||  || 
+|-
+| {{nts|169}} || {{flag|Enina}} || {{km2 mi2|548}} || {{km2 mi2|513}} || {{km2 mi2|35}} || 6.32
+|-
+| {{nts|170}} || {{flag|Trevilla}} || {{km2 mi2|545}} || {{km2 mi2|540}} || {{km2 mi2|5}} || 1
+|-
+|  || {{flagicon|Emara}} [[Slonela]] (Emara) || {{km2 mi2|500}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Moma]] (Emara) || {{km2 mi2|455}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Eldas Isle]] (Emara) || {{km2 mi2|453}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Pal Islands]] (Ashain) || {{km2 mi2|427}} ||  ||  || 
+|-
+|  || {{flagicon|Easuhura}} [[Tansirah]] (Easuhura) || {{km2 mi2|420}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Weimrino]] (Emara) || {{km2 mi2|392}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Velamir]] (Emara) || {{km2 mi2|380}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Naguiingcu]] (Ashain) || {{km2 mi2|375}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Lklandco]] (Ashain) || {{km2 mi2|310}} ||  ||  || 
+|-
+|  || {{flagicon|Easuhura}} [[Junasta]] (Easuhura) || {{km2 mi2|302}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Tuca]] (Emara) || {{km2 mi2|269}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Apu]] (Emara) || {{km2 mi2|237}} ||  ||  || 
+|-
+| {{nts|171}} || {{flag|Cruthi Anoso}} || {{km2 mi2|230}} || {{km2 mi2|223}} || {{km2 mi2|7}} || 3.21
+|-
+|  || {{flagicon|Ashain}} [[Southern Tensti]] (Ashain) || {{km2 mi2|228}} ||  ||  || 
+|-
+|  || {{flagicon|Easuhura}} [[Zavhadi]] (Easuhura) || {{km2 mi2|187}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Gerchrestcroa]] (Emara) || {{km2 mi2|171}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Glaudural]] (Emara) || {{km2 mi2|150}} ||  ||  || 
+|-
+|  || {{flagicon|Merela Sta}} [[Greedo]] (Merela Sta) || {{km2 mi2|142}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Kahhn]] (Emara) || {{km2 mi2|134}} ||  ||  || 
+|-
+| {{nts|172}} || {{flag|Tvecoca}} || {{km2 mi2|129}} || {{km2 mi2|129}} || {{km2 mi2|0}} || 0
+|-
+|  || {{flagicon|Easuhura}} [[Tativa]] (Easuhura) || {{km2 mi2|127}} ||  ||  || 
+|-
+|  || {{flagicon|Easuhura}} [[Bermo]] (Easuhura) || {{km2 mi2|101}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Macos]] (Ashain) || {{km2 mi2|99}} ||  ||  || 
+|-
+|  || {{flagicon|Ashain}} [[Rayeriko]] (Ashain) || {{km2 mi2|99}} ||  ||  || 
+|-
+|  || {{flagicon|Emara}} [[Acrdona]] (Emara) || {{km2 mi2|96}} ||  ||  || 
+|-
+|  || {{flagicon|Easuhura}} [[Domlnd]] (Easuhura) || {{km2 mi2|38}} ||  ||  || 
 |}
 
 == See also ==
