@@ -1,0 +1,4 @@
+<includeonly>{{#invoke:Article stub box|main}}</includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage and interwikis to Wikidata. -->
+</noinclude>

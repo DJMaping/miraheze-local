@@ -1,0 +1,11 @@
+{{documentation subpage}}
+<!-- Intentionally blank: interlanguage links for [[Template:Stub]] are now held at [[d:Special:ItemByTitle/enwiki/Template:Stub]]. -->
+===TemplateData===
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Standard template used for sorting articles into stubs.",
+	"params": {},
+	"format": "inline"
+}
+</templatedata>

@@ -1,0 +1,11 @@
+{{asbox
+| image     = 
+| pix       = 
+| subject   = 
+| article   = article
+| qualifier = 
+| category  = Stubs
+| tempsort  = no
+| lowercase = y
+| name      = Template:Stub
+}}

@@ -1,0 +1,31 @@
+/* {{pp-template}} */
+/* Article stub message box styles */
+.asbox {
+	position: relative;
+    overflow:hidden;
+}
+.asbox table {
+	background: transparent;
+}
+.asbox p {
+	margin: 0;
+}
+.asbox p + p {
+	margin-top: 0.25em;
+}
+.asbox-body {
+	font-style: italic;
+}
+.asbox-note {
+	font-size: smaller;
+}
+.asbox .navbar {
+	position: absolute;
+	top: -0.75em;
+	right: 1em;
+	display: none;
+}
+:not(p):not(.asbox) + style + .asbox,
+:not(p):not(.asbox) + link + .asbox {
+	margin-top: 3em;
+}

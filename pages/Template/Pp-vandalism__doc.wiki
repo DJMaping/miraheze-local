@@ -1,0 +1,51 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Twinkle standard installation}}
+{{User:MusikBot II/Config notice}}
+{{Lua|Module:Protection banner}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+
+==Usage==
+{{in category|Wikipedia pages protected against vandalism|Wikipedia pages with incorrect protection templates|and=or}}
+
+This template will automatically detect the edit protection level of a page and adjust its appearance and categorization accordingly (showing full or semi-protection, temporary or indefinite, etc.). This template will not be visible on pages that are not protected. Please note that only [[Wikipedia:Administrators|administrators]] can protect pages.
+
+* Use {{tlx|{{lc:{{PAGENAME}}}}}} for the normal template
+* Use {{tlx|{{lc:{{PAGENAME}}}}|small&#61;yes}} for just an icon at the top
+
+==TemplateData==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"small": {
+			"label": {
+				"en": "Small",
+				"gu": "નાનું"
+			},
+			"description": {
+				"en": "Just show an icon at the top.",
+				"gu": "મથાળે નાનું આઇકોન બતાવો"
+			},
+			"type": "boolean",
+			"example": {
+				"en": "yes",
+				"gu": "હા"
+			}
+		}
+	},
+	"description": {
+		"en": "This template will automatically detect the edit protection level of a page and adjust its appearance and categorization accordingly (showing full or semi-protection, temporary or indefinite, etc.). This template will not be visible on pages that are not protected.",
+		"gu": "આ ઢાંચો આપમેળે પાનાં માટેનું  ફેરફાર સંરક્ષણ સ્તર શોધી લેશે અને તે પ્રમાણે તેનું અંકન કરશે. (પુરું, અડધું કે કામચલાઉ કે કાયમી સંરક્ષણ વગેરે) આ ઢાંચો સંરક્ષણ રહિતના પાનાં પર આ ઢાંચો દેખાશે નહીં.  "
+	},
+	"format": "inline"
+}
+</templatedata>
+
+==See also==
+{{protection templates}}
+
+<includeonly>{{Sandbox other||
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, INSIDE INCLUDEONLY TAGS, THANK YOU. -->
+[[Category:Top icon protection templates|{{PAGENAME}}]]
+}}</includeonly>
