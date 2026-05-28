@@ -5,15 +5,21 @@
 |-
 ! colspan="2" style="text-align:center;" | Tournament details
 |-
-| Edition || ''see [[FLLA World Cup]]''
+| Edition || 13th
 |-
-| Host continent(s) || [[Atirha]], [[Ayuma]], [[New Ayre]], [[Mahea]], [[Quia]], [[Massir]], [[Acrola]]
+| Host country || {{Flagicon|Raledria}} [[Raledria]]
 |-
-| Dates || 1764
+| Dates || 11 June – 11 July 1764
 |-
 | Teams || 32 (from 7 confederations)
 |-
+| Venues || 8 (in 8 host cities)
+|-
 | Matches played || 64
+|-
+| Goals scored || 218 (3.41 per match)
+|-
+| Attendance || 3,427,150 (53,549 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -27,291 +33,605 @@
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
-| Top scorer || {{Flagicon|Emara}} [[Emara]] (17 goals)
+| Top scorer || {{Flagicon|Emara}} Theo Ravenscar ([[Emara]]) (9 goals)
+|-
+| Best player || {{Flagicon|Easuhura}} Sahel Mavari ([[Easuhura]])
+|-
+| Best young player || {{Flagicon|Verusa}} Anders Vellholm ([[Verusa]])
+|-
+| Best goalkeeper || {{Flagicon|Easuhura}} Niran Yokima ([[Easuhura]])
+|-
+| Fair play award || {{Flagicon|Seytinemas}} [[Seytinemas]]
+|-
+| Previous: || ''[[1760 FLLA World Cup|1760]]''
+|-
+| Next: || ''[[1768 FLLA World Cup|1768]]''
 |}
 
-The '''1764 [[FLLA]] World Cup''' was the 1764 edition of the [[FLLA World Cup]], the quadrennial international [[wikipedia:association football|association football]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. The tournament was contested by 32 nations drawn from seven continental confederations.
+The '''1764 [[FLLA]] World Cup''' was the 13th edition of the [[FLLA World Cup]], the quadrennial international [[wikipedia:association football|association football]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Raledria]] from 11 June to 11 July 1764, after the country had been awarded hosting rights by the [[FLLA]] Council on 12 March 1758. It was the second occasion on which Raledria had hosted the tournament, following the [[1716 FLLA World Cup|1716 edition]], and the first FLLA World Cup held in [[Atirha]] since [[1748 FLLA World Cup|1748]]. Thirty-two nations qualified for the final tournament, drawn from the seven continental confederations of the [[FLLA]], and contested 64 matches across eight host cities.
 
-[[Easuhura]] won the tournament, defeating [[Emara]] 2–1 in the [[#Final|final]] to claim its first World Cup title. [[Verusa]] finished third after defeating [[Seytinemas]] 3–2 in the third-place playoff. [[Emara]] finished as the tournament's leading goalscorer with 17 goals, winning the [[wikipedia:Golden Boot|Golden Boot]].
+[[Easuhura]] won the tournament, defeating [[Emara]] 2–1 in the [[#Final|final]] to claim their first World Cup title. [[Easuhura]] progressed through the competition without losing a match, drawing all three of their group-stage fixtures before winning each of their four knockout-stage ties. They became the second [[AFLA]] nation to lift the trophy in succession, following [[Lycroa]] in 1760, and the eighth different nation to win the FLLA World Cup. [[Verusa]] finished third after a 3–2 victory over [[Seytinemas]] in the third-place playoff. The hosts, [[Raledria]], were eliminated in the quarter-finals by the eventual champions following a 1–0 defeat in [[Tirna]].
 
-==Qualification==
+A total of 218 goals were scored in 64 matches at an average of 3.41 per match, the highest goal-per-match average at any FLLA World Cup since the [[1736 FLLA World Cup|1736 edition]]. [[Emara]] finished as the tournament's leading goalscoring nation with 17 goals, and Emaran forward Theo Ravenscar was awarded the [[wikipedia:Golden Boot|Golden Boot]] with 9 personal strikes. The Best Player award (the FLLA Golden Ball) was given to Easuhuran midfielder Sahel Mavari, who started in all seven of his country's matches. None of the eight group winners were eliminated at the round of sixteen, and the [[FLLA]] reported no major upsets during the tournament.
 
-A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
+==Host selection==
+{{Main|1764 FLLA World Cup bids}}
 
-=== [[NFLA]] (Atirha) ===
-4 slots — North America format: first-round groups followed by a final octagonal round-robin.
+[[Raledria]] was confirmed as the host of the 1764 FLLA World Cup by the [[FLLA]] Council on 12 March 1758, ending a bidding process that had opened twenty-three months earlier. The Raledrian Football Association's bid, formally submitted in October 1755, prevailed over rival proposals from [[Disal Nila]] and a joint [[Genaire]]–[[Arbiya]] proposal; a fourth bid from [[Etirha]] had been withdrawn at the longlist stage in February 1757 on grounds related to projected infrastructure costs.<ref>{{cite web|url=https://www.flla.org/news/1758/host-selection-raledria|title=Raledria confirmed as 1764 hosts|publisher=[[FLLA]]|date=12 March 1758}}</ref>
 
-Qualified teams:
+Under the confederation rotation policy adopted by the [[FLLA]] in 1742, the right to host the tournament passes between continental confederations in turn. The 1764 edition was assigned to the [[NFLA]], which had last staged the tournament in 1748. Raledria's selection made the country the third nation to host the FLLA World Cup more than once, after [[Emara]] (1720, 1740) and [[Sanagara]] (1728, 1752); it had previously hosted in 1716, the first edition of the tournament under the modern format.<ref>{{cite web|url=https://www.flla.org/history/multiple-hosts|title=Multiple-time hosts of the FLLA World Cup|publisher=[[FLLA]]|access-date=1764}}</ref>
+
+In its bid, the Raledrian Football Association proposed a programme of stadium construction and renovation across eight cities, three of which had not previously hosted senior international association football. The total infrastructure budget pledged by the [[Raledria|Raledrian]] national government and participating municipalities was {{lahn}}3.4&nbsp;billion ([[Raledrian Kasare|RKA]]), of which {{lahn}}1.1&nbsp;billion was directed towards public-transport upgrades in the host cities. A separate operational budget of {{lahn}}640&nbsp;million was allocated to security, broadcasting infrastructure and the volunteer programme.
+
+==Participating teams and officials==
+
+===Qualification===
+{{Main|1764 FLLA World Cup qualification}}
+
+A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. [[Raledria]] qualified as of right under FLLA hosting regulations and additionally took part in the [[NFLA]] qualifying tournament in a non-binding capacity, finishing first in the final round-robin. The reigning champions [[Lycroa]], winners of the [[1760 FLLA World Cup]], qualified through the [[AFLA]] qualifiers; defending champions were not automatically reseeded after a rules amendment passed by the FLLA Congress in 1761.
+
+The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
+
+==== [[NFLA]] (Atirha) — 4 berths ====
+First-round groups followed by a final octagonal round-robin. Qualified teams:
 * {{Flagicon|Raledria}} [[Raledria]]
 * {{Flagicon|Grazail}} [[Grazail]]
 * {{Flagicon|Gaeiya}} [[Gaeiya]]
 * {{Flagicon|Genaire}} [[Genaire]]
 
-=== [[AFLA]] (Ayuma) ===
-5 slots — Europe format: five group-stage groups, group winners qualify directly.
-
-Qualified teams:
+==== [[AFLA]] (Ayuma) — 5 berths ====
+Five group-stage groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Emara}} [[Emara]]
 * {{Flagicon|Lycroa}} [[Lycroa]]
 * {{Flagicon|Verusa}} [[Verusa]]
 * {{Flagicon|Easuhura}} [[Easuhura]]
 * {{Flagicon|Siana}} [[Siana]]
 
-=== [[NAFLA]] (New Ayre) ===
-4 slots — South America format: a single 23-team double round-robin league.
-
-Qualified teams:
+==== [[NAFLA]] (New Ayre) — 4 berths ====
+A single 23-team double round-robin league. Qualified teams:
 * {{Flagicon|Astye}} [[Astye]]
 * {{Flagicon|Mendereide}} [[Mendereide]]
 * {{Flagicon|Iainoa}} [[Iainoa]]
 * {{Flagicon|Isari}} [[Isari]]
 
-=== [[EFLA]] (Mahea) ===
-5 slots — Europe format: five group-stage groups, group winners qualify directly.
-
-Qualified teams:
+==== [[EFLA]] (Mahea) — 5 berths ====
+Five group-stage groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Seytinemas}} [[Seytinemas]]
 * {{Flagicon|Trian}} [[Trian]]
 * {{Flagicon|Isnti}} [[Isnti]]
 * {{Flagicon|Exilium}} [[Exilium]]
 * {{Flagicon|Chaenia}} [[Chaenia]]
 
-=== [[QFLA]] (Quia) ===
-4 slots — Asia format: first-round groups followed by a two-group final round.
-
-Qualified teams:
+==== [[QFLA]] (Quia) — 4 berths ====
+First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Finae}} [[Finae]]
 * {{Flagicon|Anymna}} [[Anymna]]
 * {{Flagicon|Wundry}} [[Wundry]]
 * {{Flagicon|Erkizil}} [[Erkizil]]
 
-=== [[MFLA]] (Massir) ===
-5 slots — Asia format: first-round groups followed by a two-group final round.
-
-Qualified teams:
+==== [[MFLA]] (Massir) — 5 berths ====
+First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Sanagara}} [[Sanagara]]
 * {{Flagicon|Haiza}} [[Haiza]]
 * {{Flagicon|Taval}} [[Taval]]
 * {{Flagicon|Vesozata}} [[Vesozata]]
 * {{Flagicon|Dahe}} [[Dahe]]
 
-=== [[CFLA]] (Acrola) ===
-5 slots — Africa format: first-round groups followed by single-leg knockout playoffs.
-
-Qualified teams:
+==== [[CFLA]] (Acrola) — 5 berths ====
+First-round groups followed by single-leg knockout playoffs. Qualified teams:
 * {{Flagicon|Terressin}} [[Terressin]]
 * {{Flagicon|Pelines}} [[Pelines]]
 * {{Flagicon|Acetoa}} [[Acetoa]]
 * {{Flagicon|Viussi}} [[Viussi]]
 * {{Flagicon|Jshain}} [[Jshain]]
 
+===Final draw===
+{{Main|1764 FLLA World Cup seeding}}
+
+The final draw for the group stage was held at the Tirna National Convention Centre on 6 December 1763, six months before the opening match. The 32 qualified teams were divided into four pots of eight on the basis of their pre-tournament [[FLLA]] rankings, with the eight highest-ranked sides — [[Raledria]] (as hosts), [[Emara]], [[Lycroa]], [[Verusa]], [[Easuhura]], [[Sanagara]], [[Siana]] and [[Astye]] — placed in the seeded pot. The three remaining pots were arranged on geographical lines so as to maximise the continental diversity of each group; under the procedure approved by the FLLA Organising Committee in October 1763, no group was permitted to contain more than two teams from the same continental confederation, with the exception of the [[AFLA]] and the [[CFLA]], whose larger allocations made strict separation arithmetically impossible.<ref>{{cite web|url=https://www.flla.org/1764/final-draw|title=Procedures for the 1764 FLLA World Cup final draw|publisher=[[FLLA]]|date=15 October 1763}}</ref>
+
+The draw was conducted by FLLA general secretary Henrik Vasshala and presented by Raledrian broadcaster Sela Marran, with retired internationals from each of the seven confederations — among them [[Easuhura|Easuhuran]] forward Bera Tomis, [[Emara|Emaran]] defender Quintus Hales and [[Sanagara|Sanagaran]] goalkeeper Manojh Bhalla — drawing the team names. The ceremony was televised by 47 broadcasters across more than 180 countries and was preceded by a half-hour cultural programme highlighting the [[Tirna]] arts scene.
+
+The seeded pot produced two groups containing both a previous World Cup finalist and a defending semi-finalist: Group B (Raledria, [[Isnti]], [[Anymna]], [[Dahe]]) and Group E (Emara, [[Pelines]], [[Acetoa]], [[Jshain]]). The draw also produced what the football press came to describe as the tournament's "group of death", Group F, in which Siana, [[Terressin]], [[Erkizil]] and Astye were drawn together. Only one of the four — Siana — advanced to the round of sixteen.
+
+{|class="wikitable" style="text-align:center;"
+|-
+! width="12%" | Group A
+! width="12%" | Group B
+! width="12%" | Group C
+! width="12%" | Group D
+! width="12%" | Group E
+! width="12%" | Group F
+! width="12%" | Group G
+! width="12%" | Group H
+|-
+| {{Flagicon|Verusa}} [[Verusa]]
+| ''{{Flagicon|Raledria}} [[Raledria]]''
+| {{Flagicon|Easuhura}} [[Easuhura]]
+| {{Flagicon|Lycroa}} [[Lycroa]]
+| {{Flagicon|Emara}} [[Emara]]
+| {{Flagicon|Siana}} [[Siana]]
+| {{Flagicon|Sanagara}} [[Sanagara]]
+| {{Flagicon|Seytinemas}} [[Seytinemas]]
+|-
+| {{Flagicon|Taval}} [[Taval]]
+| {{Flagicon|Isnti}} [[Isnti]]
+| {{Flagicon|Finae}} [[Finae]]
+| {{Flagicon|Chaenia}} [[Chaenia]]
+| {{Flagicon|Jshain}} [[Jshain]]
+| {{Flagicon|Terressin}} [[Terressin]]
+| {{Flagicon|Genaire}} [[Genaire]]
+| {{Flagicon|Vesozata}} [[Vesozata]]
+|-
+| {{Flagicon|Wundry}} [[Wundry]]
+| {{Flagicon|Anymna}} [[Anymna]]
+| {{Flagicon|Viussi}} [[Viussi]]
+| {{Flagicon|Trian}} [[Trian]]
+| {{Flagicon|Pelines}} [[Pelines]]
+| {{Flagicon|Erkizil}} [[Erkizil]]
+| {{Flagicon|Mendereide}} [[Mendereide]]
+| {{Flagicon|Exilium}} [[Exilium]]
+|-
+| {{Flagicon|Iainoa}} [[Iainoa]]
+| {{Flagicon|Dahe}} [[Dahe]]
+| {{Flagicon|Haiza}} [[Haiza]]
+| {{Flagicon|Grazail}} [[Grazail]]
+| {{Flagicon|Acetoa}} [[Acetoa]]
+| {{Flagicon|Isari}} [[Isari]]
+| {{Flagicon|Gaeiya}} [[Gaeiya]]
+| {{Flagicon|Astye}} [[Astye]]
+|}
+''Hosts are shown in italics.''
+
+===Officials===
+{{Main|1764 FLLA World Cup officials}}
+
+The FLLA Referees Committee appointed 22 refereeing trios — each consisting of one referee and two assistants from the same national association — and four support pairs, drawn between them from 39 nations. The selections were announced in three tranches between November 1763 and February 1764, following an extended assessment programme in which prospective officials had been observed at the [[1763 FLLA Continental Champions Cup]] and at senior friendlies organised in [[Tirna]] and [[Rovik]].<ref>{{cite web|url=https://www.flla.org/1764/officials-announced|title=Match officials confirmed for the 1764 FLLA World Cup|publisher=[[FLLA]]|date=4 February 1764}}</ref>
+
+The opening match was refereed by Hema Naroussou of [[Pelines]], the first official from the [[CFLA]] to take charge of a World Cup opening fixture. The final was officiated by Vinka Krmstedt of [[Trian]], the second Trianese referee to officiate at a FLLA World Cup final, after Lorek Sanchak in 1748. Both semi-finals were taken by [[NFLA]] officials: Tomas Wells of [[Genaire]] for the first semi-final and Carlos Riveda of [[Gaeiya]] for the second.
+
+==Squads==
+{{Main|1764 FLLA World Cup squads}}
+
+In line with the regulations introduced at the [[1760 FLLA World Cup]], each of the 32 participating squads consisted of 23 players, three of whom had to be goalkeepers. Each participating national association was required to confirm its final 23-player squad with the FLLA no later than 10 days before the opening match; late replacements were permitted in the event of serious injury at any time up to 24 hours before a team's first fixture. A total of 736 players were registered for the tournament, of whom 96 were goalkeepers.
+
+The oldest player at the tournament was [[Mendereide|Mendereidean]] defender Vendel Brogran, who was 38 years and 41 days old at the start of the competition; the youngest was [[Verusa|Verusan]] forward Anders Vellholm (19 years and 78 days), who would go on to win the [[#Awards|Best Young Player]] award. The mean age of registered players across the tournament was 26.8 years, with [[Easuhura]]'s squad — which had a mean age of 25.1 — the youngest of the 32. Three players left their squads before the end of the competition through injury, including [[Sanagara|Sanagaran]] central defender Praja Sundra, whose tournament ended in the [[#Group G|Group G]] match against [[Gaeiya]] on 13 June.
+
+==Venues==
+{{Main|1764 FLLA World Cup venues}}
+
+Eight stadiums in eight host cities were used in the final tournament, with all venues located in [[Raledria]]. Five of the eight venues had been built specifically for the tournament or substantially redeveloped during the bidding period; the remaining three — the Tirna National Stadium, Estadio Rovik and the Zunle Olympic Arena — were existing premier-league venues that received targeted upgrades to seating, floodlighting and media facilities.
+
+The opening match was held at the 86,420-seat Tirna National Stadium in the capital, which also staged the final on 11 July; with eight matches in total it was the most-used venue of the tournament. The two semi-finals were divided between Estadio Rovik, the largest club ground in [[Raledria]] and home to first-division side Rovik FC, and the Zunle Olympic Arena in the former federal capital. The third-place playoff was held at Itarda Park, while each of the four smallest venues — the Senarli Coliseum, Vendrok Memorial Stadium, Mospira City Stadium and Halnaze Field — staged six fixtures each, including one round-of-sixteen tie. None of the eight stadiums had a capacity below the FLLA minimum of 40,000 seats for World Cup use.
+
+Three of the venues sit in cities that had not previously hosted senior international association football: Itarda, Vendrok and Halnaze. The newest of the new-build stadiums, the Vendrok Memorial Stadium, was inaugurated on 14 March 1764, three months before the tournament's opening match; concerns over its readiness prompted the FLLA Organising Committee in February 1764 to defer the venue's first scheduled fixture by one match-day. The completed stadium was named in memory of the 224 victims of the [[Vendrok mine disaster|1761 Vendrok colliery disaster]].
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Stadiums of the 1764 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Tirna]] || align="left" | Tirna National Stadium || 86,420 || align="left" | Opening match; final
+|-
+| align="left" | [[Rovik]] || align="left" | Estadio Rovik || 73,200 || align="left" | Semi-final
+|-
+| align="left" | [[Zunle]] || align="left" | Zunle Olympic Arena || 64,900 || align="left" | Semi-final
+|-
+| align="left" | Itarda || align="left" | Itarda Park || 61,500 || align="left" | Third-place playoff
+|-
+| align="left" | Senarli || align="left" | Senarli Coliseum || 52,800 || align="left" | Group stage; round of 16
+|-
+| align="left" | Vendrok || align="left" | Vendrok Memorial Stadium || 51,200 || align="left" | Group stage; round of 16
+|-
+| align="left" | Mospira || align="left" | Mospira City Stadium || 47,500 || align="left" | Group stage; round of 16
+|-
+| align="left" | Halnaze || align="left" | Halnaze Field || 45,100 || align="left" | Group stage; round of 16
+|}
+
+===Team base camps===
+
+Each of the 32 participating squads selected a base camp in Raledria from a shortlist of 84 candidate sites circulated by the host association in November 1763. Most teams opted for camps in or around the larger eastern and central host cities, with twelve squads basing themselves within a one-hour radius of [[Tirna]] and a further nine in the Rovik metropolitan area. The most westerly base camp, used by the [[Quia|Quian]] qualifier [[Wundry]], was in the resort town of Carion-Mira at the edge of the [[Carion]] nature preserve, an arrangement that drew comment for the four-hour internal flights required to reach the team's group-stage venues.
+
+==Innovations==
+
+The 1764 FLLA World Cup was the first edition of the tournament at which the goal-line decision system — a network of optical sensors developed by the Raledrian engineering firm Tirneza Systems and trialled at the [[1763 FLLA Continental Champions Cup]] — was used in every match. The system was relied upon for two on-field decisions, both in the group stage: in [[#Group A|Group A]], confirming the equalising goal scored by [[Wundry]] against [[Verusa]], and in [[#Group G|Group G]], ruling out a [[Mendereide|Mendereidean]] effort that had crossed the byline before being struck back into play.
+
+A second technological innovation introduced for the 1764 tournament was the use of solvent-evaporating ground spray to mark the position of a defensive wall during direct free kicks, following successful trials at the [[1763 FLLA Continental Champions Cup]]. The spray, marketed under the Raledrian brand Vekal-Line, was used for the first time in a World Cup match in [[#Group B|Group B]] on 11 June 1764 and became routine across the remainder of the tournament. A third change — a permitted fourth substitution in any match that entered [[wikipedia:Extra time|extra time]] — was approved by the FLLA Council on 4 December 1763 and used 11 times during the knockout stage.
+
+==Format==
+
+The 32 qualified teams were divided into eight groups of four for the group stage, drawn at the [[#Final draw|final draw]] on 6 December 1763. Each group operated on a single round-robin basis, with each team playing three matches; teams were awarded three points for a win, one for a draw and none for a defeat. The top two teams from each group advanced to the [[#Knockout stage|knockout stage]] while the bottom two were eliminated. Tiebreakers between teams level on points were applied in the following order: overall goal difference, overall goals scored, head-to-head record, fair-play points, and, if necessary, a drawing of lots by the FLLA Organising Committee.
+
+In the knockout stage, fixtures were single-elimination ties played over 90 minutes; ties level at the end of normal time were extended by a single 30-minute period of [[wikipedia:Extra time|extra time]] of two 15-minute halves, with a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]] used to decide ties that remained level after extra time. Both the semi-final losers contested a [[#Third place playoff|third-place playoff]] on 10 July 1764.
+
+==Opening ceremony==
+
+The opening ceremony of the 1764 FLLA World Cup was held at the Tirna National Stadium on 11 June 1764, eighty minutes before the kick-off of the opening match between [[Raledria]] and [[Dahe]]. Directed by Raledrian stage producer Mirek Tolan and choreographed by Lena Vasshala, the ceremony lasted 28 minutes and featured 1,200 dancers, 240 musicians and a flyover by the Raledrian Air Force aerobatic display team. The performance opened with a representation of the seven continental confederations of the [[FLLA]] — each portrayed in costume and movement evoking the geography of its host continent — before transitioning to a sequence inspired by the [[Discovery of Atirha|early exploration of Atirha]]. The Raledrian-born vocalist Iyana Krish, joined by the Tirna Philharmonic, performed the tournament's official theme song "Lights Over Tirna" as the closing item of the ceremony.
+
+Attending dignitaries included the Raledrian High Minister, the President of the FLLA Council, the heads of state of [[Emara]], [[Dahe]] and [[Sanagara]], and 84 ambassadors and senior diplomatic representatives. The ceremony was watched by an estimated worldwide television audience of 870 million.
+
 ==Group stage==
 
-The 32 qualified teams were drawn into eight groups of four. The top two teams from each group advanced to the [[#Knockout stage|knockout stage]].
+The 32 qualified teams were drawn into eight groups of four. Each group operated on a single round-robin basis, with each team playing three matches; the top two finishers in each group advanced to the [[#Knockout stage|knockout stage]] while the bottom two were eliminated. Group rankings were settled first on points (three for a win, one for a draw), then on goal difference and goals scored.
+
+The group stage produced two perfect records: [[Siana]] in Group F and [[Sanagara]] in Group G both took maximum points from their three matches. The highest-scoring contest of the round was a 6–5 victory for [[Taval]] over [[Wundry]] in Group A, while Group C was the most evenly matched group of the tournament, with all three of [[Easuhura]]'s fixtures ending level. Two teams — [[Iainoa]] in Group A and [[Astye]] in Group H — were eliminated without registering a point.
+
+All times listed are Western Raledria Time ([[wikipedia:UTC−07:00|WRT]], [[wikipedia:UTC|UTC]]−7).
 
 ===Group A===
 {| class="wikitable" style="text-align: center;"
-|+ Group A
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 7
-|-
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Taval}} '''[[Taval]]''' || 3 || 2 || 0 || 1 || 10 || 9 || +1 || 6
 |-
-| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 3 || 1 || 1 || 1 || 8 || 8 || 0 || 4
+| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 3 || 1 || 1 || 1 || 8 || 8 || 0 || 4 ||
 |-
-| 4 || align="left" | {{Flagicon|Iainoa}} [[Iainoa]] || 3 || 0 || 0 || 3 || 3 || 7 || −4 || 0
+| 4 || align="left" | {{Flagicon|Iainoa}} [[Iainoa]] || 3 || 0 || 0 || 3 || 3 || 7 || −4 || 0 ||
 |}
-Results:
-* {{Flagicon|Verusa}} Verusa 2–1 Taval {{Flagicon|Taval}}
-* {{Flagicon|Verusa}} Verusa 1–1 Wundry {{Flagicon|Wundry}}
-* {{Flagicon|Verusa}} Verusa 2–0 Iainoa {{Flagicon|Iainoa}}
-* {{Flagicon|Taval}} Taval 6–5 Wundry {{Flagicon|Wundry}}
-* {{Flagicon|Taval}} Taval 3–2 Iainoa {{Flagicon|Iainoa}}
-* {{Flagicon|Wundry}} Wundry 2–1 Iainoa {{Flagicon|Iainoa}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 11 June 1764 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|Taval}} Taval || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 12 June 1764 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–1 || {{Flagicon|Iainoa}} Iainoa || align="left" | Halnaze Field, Halnaze
+|-
+| align="left" | 16 June 1764 || align="right" | '''Taval''' {{Flagicon|Taval}} || 6–5 || {{Flagicon|Wundry}} Wundry || align="left" | Mospira City Stadium, Mospira
+|-
+| align="left" | 17 June 1764 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–0 || {{Flagicon|Iainoa}} Iainoa || align="left" | Senarli Coliseum, Senarli
+|-
+| align="left" | 22 June 1764 || align="right" | Verusa {{Flagicon|Verusa}} || 1–1 || {{Flagicon|Wundry}} Wundry || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 22 June 1764 || align="right" | '''Taval''' {{Flagicon|Taval}} || 3–2 || {{Flagicon|Iainoa}} Iainoa || align="left" | Mospira City Stadium, Mospira
+|}
 
 ===Group B===
 {| class="wikitable" style="text-align: center;"
-|+ Group B
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 8 || 4 || +4 || 7
-|-
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' ''(H)'' || 3 || 2 || 1 || 0 || 8 || 4 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Isnti}} '''[[Isnti]]''' || 3 || 1 || 1 || 1 || 7 || 7 || 0 || 4
 |-
-| 3 || align="left" | {{Flagicon|Anymna}} [[Anymna]] || 3 || 1 || 0 || 2 || 5 || 6 || −1 || 3
+| 3 || align="left" | {{Flagicon|Anymna}} [[Anymna]] || 3 || 1 || 0 || 2 || 5 || 6 || −1 || 3 ||
 |-
-| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 1 || 0 || 2 || 3 || 6 || −3 || 3
+| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 1 || 0 || 2 || 3 || 6 || −3 || 3 ||
 |}
-Results:
-* {{Flagicon|Raledria}} Raledria 3–0 Dahe {{Flagicon|Dahe}}
-* {{Flagicon|Raledria}} Raledria 2–1 Anymna {{Flagicon|Anymna}}
-* {{Flagicon|Raledria}} Raledria 3–3 Isnti {{Flagicon|Isnti}}
-* {{Flagicon|Dahe}} Dahe 1–2 Anymna {{Flagicon|Anymna}}
-* {{Flagicon|Dahe}} Dahe 2–1 Isnti {{Flagicon|Isnti}}
-* {{Flagicon|Anymna}} Anymna 2–3 Isnti {{Flagicon|Isnti}}
+''(H) Host.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 11 June 1764 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 3–0 || {{Flagicon|Dahe}} Dahe || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 13 June 1764 || align="right" | Anymna {{Flagicon|Anymna}} || 2–3 || {{Flagicon|Isnti}} '''Isnti''' || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 16 June 1764 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Anymna}} Anymna || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 18 June 1764 || align="right" | '''Dahe''' {{Flagicon|Dahe}} || 2–1 || {{Flagicon|Isnti}} Isnti || align="left" | Vendrok Memorial Stadium, Vendrok
+|-
+| align="left" | 21 June 1764 || align="right" | Raledria {{Flagicon|Raledria}} || 3–3 || {{Flagicon|Isnti}} Isnti || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 21 June 1764 || align="right" | Dahe {{Flagicon|Dahe}} || 1–2 || {{Flagicon|Anymna}} '''Anymna''' || align="left" | Vendrok Memorial Stadium, Vendrok
+|}
 
 ===Group C===
 {| class="wikitable" style="text-align: center;"
-|+ Group C
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Finae}} '''[[Finae]]''' || 3 || 2 || 1 || 0 || 9 || 6 || +3 || 7
-|-
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Finae}} '''[[Finae]]''' || 3 || 2 || 1 || 0 || 9 || 6 || +3 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 0 || 3 || 0 || 5 || 5 || 0 || 3
 |-
-| 3 || align="left" | {{Flagicon|Viussi}} [[Viussi]] || 3 || 0 || 2 || 1 || 4 || 5 || −1 || 2
+| 3 || align="left" | {{Flagicon|Viussi}} [[Viussi]] || 3 || 0 || 2 || 1 || 4 || 5 || −1 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || 3 || 0 || 2 || 1 || 3 || 5 || −2 || 2
+| 4 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || 3 || 0 || 2 || 1 || 3 || 5 || −2 || 2 ||
 |}
-Results:
-* {{Flagicon|Easuhura}} Easuhura 4–4 Finae {{Flagicon|Finae}}
-* {{Flagicon|Easuhura}} Easuhura 0–0 Haiza {{Flagicon|Haiza}}
-* {{Flagicon|Easuhura}} Easuhura 1–1 Viussi {{Flagicon|Viussi}}
-* {{Flagicon|Finae}} Finae 3–1 Haiza {{Flagicon|Haiza}}
-* {{Flagicon|Finae}} Finae 2–1 Viussi {{Flagicon|Viussi}}
-* {{Flagicon|Haiza}} Haiza 2–2 Viussi {{Flagicon|Viussi}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 13 June 1764 || align="right" | Easuhura {{Flagicon|Easuhura}} || 4–4 || {{Flagicon|Finae}} Finae || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 14 June 1764 || align="right" | Haiza {{Flagicon|Haiza}} || 2–2 || {{Flagicon|Viussi}} Viussi || align="left" | Halnaze Field, Halnaze
+|-
+| align="left" | 18 June 1764 || align="right" | '''Finae''' {{Flagicon|Finae}} || 3–1 || {{Flagicon|Haiza}} Haiza || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 19 June 1764 || align="right" | Easuhura {{Flagicon|Easuhura}} || 0–0 || {{Flagicon|Haiza}} Haiza || align="left" | Mospira City Stadium, Mospira
+|-
+| align="left" | 23 June 1764 || align="right" | '''Finae''' {{Flagicon|Finae}} || 2–1 || {{Flagicon|Viussi}} Viussi || align="left" | Senarli Coliseum, Senarli
+|-
+| align="left" | 23 June 1764 || align="right" | Easuhura {{Flagicon|Easuhura}} || 1–1 || {{Flagicon|Viussi}} Viussi || align="left" | Vendrok Memorial Stadium, Vendrok
+|}
 
 ===Group D===
 {| class="wikitable" style="text-align: center;"
-|+ Group D
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 7 || 3 || +4 || 7
-|-
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 7 || 3 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Chaenia}} '''[[Chaenia]]''' || 3 || 2 || 0 || 1 || 7 || 6 || +1 || 6
 |-
-| 3 || align="left" | {{Flagicon|Trian}} [[Trian]] || 3 || 1 || 0 || 2 || 5 || 5 || 0 || 3
+| 3 || align="left" | {{Flagicon|Trian}} [[Trian]] || 3 || 1 || 0 || 2 || 5 || 5 || 0 || 3 ||
 |-
-| 4 || align="left" | {{Flagicon|Grazail}} [[Grazail]] || 3 || 0 || 1 || 2 || 5 || 10 || −5 || 1
+| 4 || align="left" | {{Flagicon|Grazail}} [[Grazail]] || 3 || 0 || 1 || 2 || 5 || 10 || −5 || 1 ||
 |}
-Results:
-* {{Flagicon|Lycroa}} Lycroa 2–1 Trian {{Flagicon|Trian}}
-* {{Flagicon|Lycroa}} Lycroa 3–0 Chaenia {{Flagicon|Chaenia}}
-* {{Flagicon|Lycroa}} Lycroa 2–2 Grazail {{Flagicon|Grazail}}
-* {{Flagicon|Trian}} Trian 1–2 Chaenia {{Flagicon|Chaenia}}
-* {{Flagicon|Trian}} Trian 3–1 Grazail {{Flagicon|Grazail}}
-* {{Flagicon|Chaenia}} Chaenia 5–2 Grazail {{Flagicon|Grazail}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 14 June 1764 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Trian}} Trian || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 14 June 1764 || align="right" | '''Chaenia''' {{Flagicon|Chaenia}} || 5–2 || {{Flagicon|Grazail}} Grazail || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 19 June 1764 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–0 || {{Flagicon|Chaenia}} Chaenia || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 19 June 1764 || align="right" | '''Trian''' {{Flagicon|Trian}} || 3–1 || {{Flagicon|Grazail}} Grazail || align="left" | Halnaze Field, Halnaze
+|-
+| align="left" | 24 June 1764 || align="right" | Lycroa {{Flagicon|Lycroa}} || 2–2 || {{Flagicon|Grazail}} Grazail || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 24 June 1764 || align="right" | Trian {{Flagicon|Trian}} || 1–2 || {{Flagicon|Chaenia}} '''Chaenia''' || align="left" | Senarli Coliseum, Senarli
+|}
 
 ===Group E===
 {| class="wikitable" style="text-align: center;"
-|+ Group E
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 9 || 5 || +4 || 7
-|-
+|+ Group E standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 9 || 5 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Jshain}} '''[[Jshain]]''' || 3 || 1 || 2 || 0 || 5 || 4 || +1 || 5
 |-
-| 3 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || 3 || 0 || 2 || 1 || 5 || 6 || −1 || 2
+| 3 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || 3 || 0 || 2 || 1 || 5 || 6 || −1 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || 3 || 0 || 1 || 2 || 6 || 10 || −4 || 1
+| 4 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || 3 || 0 || 1 || 2 || 6 || 10 || −4 || 1 ||
 |}
-Results:
-* {{Flagicon|Emara}} Emara 4–3 Pelines {{Flagicon|Pelines}}
-* {{Flagicon|Emara}} Emara 4–1 Acetoa {{Flagicon|Acetoa}}
-* {{Flagicon|Emara}} Emara 1–1 Jshain {{Flagicon|Jshain}}
-* {{Flagicon|Pelines}} Pelines 2–2 Acetoa {{Flagicon|Acetoa}}
-* {{Flagicon|Pelines}} Pelines 0–0 Jshain {{Flagicon|Jshain}}
-* {{Flagicon|Acetoa}} Acetoa 3–4 Jshain {{Flagicon|Jshain}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group E matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 12 June 1764 || align="right" | '''Emara''' {{Flagicon|Emara}} || 4–3 || {{Flagicon|Pelines}} Pelines || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 13 June 1764 || align="right" | Acetoa {{Flagicon|Acetoa}} || 3–4 || {{Flagicon|Jshain}} '''Jshain''' || align="left" | Mospira City Stadium, Mospira
+|-
+| align="left" | 17 June 1764 || align="right" | Pelines {{Flagicon|Pelines}} || 2–2 || {{Flagicon|Acetoa}} Acetoa || align="left" | Senarli Coliseum, Senarli
+|-
+| align="left" | 18 June 1764 || align="right" | Emara {{Flagicon|Emara}} || 1–1 || {{Flagicon|Jshain}} Jshain || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 24 June 1764 || align="right" | '''Emara''' {{Flagicon|Emara}} || 4–1 || {{Flagicon|Acetoa}} Acetoa || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 24 June 1764 || align="right" | Pelines {{Flagicon|Pelines}} || 0–0 || {{Flagicon|Jshain}} Jshain || align="left" | Mospira City Stadium, Mospira
+|}
 
 ===Group F===
 {| class="wikitable" style="text-align: center;"
-|+ Group F
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 3 || 0 || 0 || 6 || 1 || +5 || 9
-|-
+|+ Group F standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 3 || 0 || 0 || 6 || 1 || +5 || 9 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Terressin}} '''[[Terressin]]''' || 3 || 2 || 0 || 1 || 4 || 5 || −1 || 6
 |-
-| 3 || align="left" | {{Flagicon|Erkizil}} [[Erkizil]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1
+| 3 || align="left" | {{Flagicon|Erkizil}} [[Erkizil]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Isari}} [[Isari]] || 3 || 0 || 1 || 2 || 0 || 2 || −2 || 1
+| 4 || align="left" | {{Flagicon|Isari}} [[Isari]] || 3 || 0 || 1 || 2 || 0 || 2 || −2 || 1 ||
 |}
-Results:
-* {{Flagicon|Siana}} Siana 4–1 Terressin {{Flagicon|Terressin}}
-* {{Flagicon|Siana}} Siana 1–0 Erkizil {{Flagicon|Erkizil}}
-* {{Flagicon|Siana}} Siana 1–0 Isari {{Flagicon|Isari}}
-* {{Flagicon|Terressin}} Terressin 2–1 Erkizil {{Flagicon|Erkizil}}
-* {{Flagicon|Terressin}} Terressin 1–0 Isari {{Flagicon|Isari}}
-* {{Flagicon|Erkizil}} Erkizil 0–0 Isari {{Flagicon|Isari}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group F matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 12 June 1764 || align="right" | '''Siana''' {{Flagicon|Siana}} || 4–1 || {{Flagicon|Terressin}} Terressin || align="left" | Vendrok Memorial Stadium, Vendrok
+|-
+| align="left" | 14 June 1764 || align="right" | Erkizil {{Flagicon|Erkizil}} || 0–0 || {{Flagicon|Isari}} Isari || align="left" | Mospira City Stadium, Mospira
+|-
+| align="left" | 18 June 1764 || align="right" | '''Terressin''' {{Flagicon|Terressin}} || 2–1 || {{Flagicon|Erkizil}} Erkizil || align="left" | Halnaze Field, Halnaze
+|-
+| align="left" | 19 June 1764 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–0 || {{Flagicon|Isari}} Isari || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 25 June 1764 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–0 || {{Flagicon|Erkizil}} Erkizil || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 25 June 1764 || align="right" | '''Terressin''' {{Flagicon|Terressin}} || 1–0 || {{Flagicon|Isari}} Isari || align="left" | Halnaze Field, Halnaze
+|}
 
 ===Group G===
 {| class="wikitable" style="text-align: center;"
-|+ Group G
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Sanagara}} '''[[Sanagara]]''' || 3 || 3 || 0 || 0 || 11 || 8 || +3 || 9
-|-
+|+ Group G standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Sanagara}} '''[[Sanagara]]''' || 3 || 3 || 0 || 0 || 11 || 8 || +3 || 9 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Genaire}} '''[[Genaire]]''' || 3 || 1 || 1 || 1 || 5 || 3 || +2 || 4
 |-
-| 3 || align="left" | {{Flagicon|Mendereide}} [[Mendereide]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2
+| 3 || align="left" | {{Flagicon|Mendereide}} [[Mendereide]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Gaeiya}} [[Gaeiya]] || 3 || 0 || 1 || 2 || 4 || 8 || −4 || 1
+| 4 || align="left" | {{Flagicon|Gaeiya}} [[Gaeiya]] || 3 || 0 || 1 || 2 || 4 || 8 || −4 || 1 ||
 |}
-Results:
-* {{Flagicon|Sanagara}} Sanagara 3–2 Genaire {{Flagicon|Genaire}}
-* {{Flagicon|Sanagara}} Sanagara 5–4 Gaeiya {{Flagicon|Gaeiya}}
-* {{Flagicon|Sanagara}} Sanagara 3–2 Mendereide {{Flagicon|Mendereide}}
-* {{Flagicon|Genaire}} Genaire 3–0 Gaeiya {{Flagicon|Gaeiya}}
-* {{Flagicon|Genaire}} Genaire 0–0 Mendereide {{Flagicon|Mendereide}}
-* {{Flagicon|Gaeiya}} Gaeiya 0–0 Mendereide {{Flagicon|Mendereide}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group G matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 13 June 1764 || align="right" | '''Sanagara''' {{Flagicon|Sanagara}} || 5–4 || {{Flagicon|Gaeiya}} Gaeiya || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 15 June 1764 || align="right" | Genaire {{Flagicon|Genaire}} || 0–0 || {{Flagicon|Mendereide}} Mendereide || align="left" | Senarli Coliseum, Senarli
+|-
+| align="left" | 17 June 1764 || align="right" | '''Sanagara''' {{Flagicon|Sanagara}} || 3–2 || {{Flagicon|Mendereide}} Mendereide || align="left" | Vendrok Memorial Stadium, Vendrok
+|-
+| align="left" | 18 June 1764 || align="right" | '''Genaire''' {{Flagicon|Genaire}} || 3–0 || {{Flagicon|Gaeiya}} Gaeiya || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 25 June 1764 || align="right" | '''Sanagara''' {{Flagicon|Sanagara}} || 3–2 || {{Flagicon|Genaire}} Genaire || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 25 June 1764 || align="right" | Gaeiya {{Flagicon|Gaeiya}} || 0–0 || {{Flagicon|Mendereide}} Mendereide || align="left" | Vendrok Memorial Stadium, Vendrok
+|}
 
 ===Group H===
 {| class="wikitable" style="text-align: center;"
-|+ Group H
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
-|-
-| 1 || align="left" | {{Flagicon|Seytinemas}} '''[[Seytinemas]]''' || 3 || 2 || 1 || 0 || 8 || 6 || +2 || 7
-|-
+|+ Group H standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Seytinemas}} '''[[Seytinemas]]''' || 3 || 2 || 1 || 0 || 8 || 6 || +2 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Vesozata}} '''[[Vesozata]]''' || 3 || 2 || 0 || 1 || 4 || 1 || +3 || 6
 |-
-| 3 || align="left" | {{Flagicon|Exilium}} [[Exilium]] || 3 || 1 || 1 || 1 || 5 || 6 || −1 || 4
+| 3 || align="left" | {{Flagicon|Exilium}} [[Exilium]] || 3 || 1 || 1 || 1 || 5 || 6 || −1 || 4 ||
 |-
-| 4 || align="left" | {{Flagicon|Astye}} [[Astye]] || 3 || 0 || 0 || 3 || 2 || 6 || −4 || 0
+| 4 || align="left" | {{Flagicon|Astye}} [[Astye]] || 3 || 0 || 0 || 3 || 2 || 6 || −4 || 0 ||
 |}
-Results:
-* {{Flagicon|Seytinemas}} Seytinemas 1–0 Vesozata {{Flagicon|Vesozata}}
-* {{Flagicon|Seytinemas}} Seytinemas 3–2 Astye {{Flagicon|Astye}}
-* {{Flagicon|Seytinemas}} Seytinemas 4–4 Exilium {{Flagicon|Exilium}}
-* {{Flagicon|Vesozata}} Vesozata 2–0 Astye {{Flagicon|Astye}}
-* {{Flagicon|Vesozata}} Vesozata 2–0 Exilium {{Flagicon|Exilium}}
-* {{Flagicon|Astye}} Astye 0–1 Exilium {{Flagicon|Exilium}}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group H matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 14 June 1764 || align="right" | '''Seytinemas''' {{Flagicon|Seytinemas}} || 1–0 || {{Flagicon|Vesozata}} Vesozata || align="left" | Senarli Coliseum, Senarli
+|-
+| align="left" | 15 June 1764 || align="right" | Astye {{Flagicon|Astye}} || 0–1 || {{Flagicon|Exilium}} '''Exilium''' || align="left" | Mospira City Stadium, Mospira
+|-
+| align="left" | 19 June 1764 || align="right" | '''Seytinemas''' {{Flagicon|Seytinemas}} || 3–2 || {{Flagicon|Astye}} Astye || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 20 June 1764 || align="right" | '''Vesozata''' {{Flagicon|Vesozata}} || 2–0 || {{Flagicon|Exilium}} Exilium || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 26 June 1764 || align="right" | Seytinemas {{Flagicon|Seytinemas}} || 4–4 || {{Flagicon|Exilium}} Exilium || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 26 June 1764 || align="right" | '''Vesozata''' {{Flagicon|Vesozata}} || 2–0 || {{Flagicon|Astye}} Astye || align="left" | Estadio Rovik, Rovik
+|}
 
 ==Knockout stage==
 
+The knockout stage involved the sixteen teams that advanced from the group stage. Matches still level after 90 minutes were extended by a 30-minute period of [[wikipedia:Extra time|extra time]]; if scores remained tied after extra time, the tie was decided by [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]]. Two of the eight round-of-sixteen ties and one of the four quarter-finals required additional time.
+
+===Bracket===
+{| style="text-align: center; font-size: 90%; border-collapse: collapse;" cellpadding="6" border="1"
+|-
+! style="width:220px; background:#f0f0f0;" | Round of 16<br><small>28 June – 1 July</small>
+! style="width:220px; background:#f0f0f0;" | Quarter-finals<br><small>4 – 5 July</small>
+! style="width:220px; background:#f0f0f0;" | Semi-finals<br><small>8 – 9 July</small>
+! style="width:220px; background:#f0f0f0;" | Final<br><small>11 July</small>
+|-
+| <small>28 June – Rovik</small><br>{{Flagicon|Verusa}} '''Verusa''' — 2<br>{{Flagicon|Isnti}} Isnti — 1
+| rowspan="2" valign="middle" | <small>4 July – Tirna</small><br>{{Flagicon|Verusa}} '''Verusa''' (p) — 1 (6)<br>{{Flagicon|Finae}} Finae — 1 (5)
+| rowspan="4" valign="middle" | <small>8 July – Rovik</small><br>{{Flagicon|Verusa}} Verusa — 0<br>{{Flagicon|Emara}} '''Emara''' — 2
+| rowspan="8" valign="middle" style="background:#fffbe6;" | <small>11 July – Tirna</small><br>{{Flagicon|Emara}} Emara — 1<br>{{Flagicon|Easuhura}} '''Easuhura''' — 2
+|-
+| <small>28 June – Halnaze</small><br>{{Flagicon|Finae}} '''Finae''' (a.e.t.) — 2<br>{{Flagicon|Chaenia}} Chaenia — 1
+|-
+| <small>29 June – Itarda</small><br>{{Flagicon|Emara}} '''Emara''' — 3<br>{{Flagicon|Terressin}} Terressin — 2
+| rowspan="2" valign="middle" | <small>5 July – Zunle</small><br>{{Flagicon|Emara}} '''Emara''' — 2<br>{{Flagicon|Sanagara}} Sanagara — 1
+|-
+| <small>29 June – Vendrok</small><br>{{Flagicon|Sanagara}} '''Sanagara''' — 4<br>{{Flagicon|Vesozata}} Vesozata — 0
+|-
+| <small>30 June – Mospira</small><br>{{Flagicon|Raledria}} '''Raledria''' — 2<br>{{Flagicon|Taval}} Taval — 1
+| rowspan="2" valign="middle" | <small>4 July – Rovik</small><br>{{Flagicon|Raledria}} Raledria — 0<br>{{Flagicon|Easuhura}} '''Easuhura''' — 1
+| rowspan="4" valign="middle" | <small>9 July – Zunle</small><br>{{Flagicon|Easuhura}} '''Easuhura''' — 2<br>{{Flagicon|Seytinemas}} Seytinemas — 1
+|-
+| <small>30 June – Senarli</small><br>{{Flagicon|Lycroa}} Lycroa — 0<br>{{Flagicon|Easuhura}} '''Easuhura''' — 3
+|-
+| <small>1 July – Zunle</small><br>{{Flagicon|Siana}} '''Siana''' (p) — 2 (5)<br>{{Flagicon|Jshain}} Jshain — 2 (4)
+| rowspan="2" valign="middle" | <small>5 July – Itarda</small><br>{{Flagicon|Siana}} Siana — 0<br>{{Flagicon|Seytinemas}} '''Seytinemas''' — 2
+|-
+| <small>1 July – Tirna</small><br>{{Flagicon|Seytinemas}} '''Seytinemas''' — 1<br>{{Flagicon|Genaire}} Genaire — 0
+|}
+
+''Third-place playoff (10 July – Itarda):'' {{Flagicon|Verusa}} '''Verusa''' 3–2 [[Seytinemas]] {{Flagicon|Seytinemas}}.
+
 ===Round of 16===
-* {{Flagicon|Verusa}} '''Verusa''' 2–1 Isnti {{Flagicon|Isnti}}
-* {{Flagicon|Finae}} '''Finae''' 2–1 ([[wikipedia:Extra time|a.e.t.]]) Chaenia {{Flagicon|Chaenia}}
-* {{Flagicon|Emara}} '''Emara''' 3–2 Terressin {{Flagicon|Terressin}}
-* {{Flagicon|Sanagara}} '''Sanagara''' 4–0 Vesozata {{Flagicon|Vesozata}}
-* {{Flagicon|Raledria}} '''Raledria''' 2–1 Taval {{Flagicon|Taval}}
-* {{Flagicon|Lycroa}} Lycroa 0–3 '''Easuhura''' {{Flagicon|Easuhura}}
-* {{Flagicon|Siana}} '''Siana''' 2–2 (5–4 [[wikipedia:Penalty shoot-out (association football)|pen.]]) Jshain {{Flagicon|Jshain}}
-* {{Flagicon|Seytinemas}} '''Seytinemas''' 1–0 Genaire {{Flagicon|Genaire}}
+
+The eight group winners were drawn against the eight group runners-up, with each match-up pairing teams from different groups. Two of the eight ties required additional time. [[Finae]] eliminated [[Chaenia]] 2–1 in extra time, while [[Siana]] and [[Jshain]] drew 2–2 over 120 minutes before [[Siana]] won the resulting shoot-out 5–4. The most one-sided result of the round was [[Easuhura]]'s 3–0 victory over [[Lycroa]], who had topped Group D.
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Round of 16 results
+! Date !! Match !! Venue
+|-
+| align="left" | 28 June 1764 || {{Flagicon|Verusa}} '''Verusa''' 2–1 [[Isnti]] {{Flagicon|Isnti}} || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 28 June 1764 || {{Flagicon|Finae}} '''Finae''' 2–1 (a.e.t.) [[Chaenia]] {{Flagicon|Chaenia}} || align="left" | Halnaze Field, Halnaze
+|-
+| align="left" | 29 June 1764 || {{Flagicon|Emara}} '''Emara''' 3–2 [[Terressin]] {{Flagicon|Terressin}} || align="left" | Itarda Park, Itarda
+|-
+| align="left" | 29 June 1764 || {{Flagicon|Sanagara}} '''Sanagara''' 4–0 [[Vesozata]] {{Flagicon|Vesozata}} || align="left" | Vendrok Memorial Stadium, Vendrok
+|-
+| align="left" | 30 June 1764 || {{Flagicon|Raledria}} '''Raledria''' 2–1 [[Taval]] {{Flagicon|Taval}} || align="left" | Mospira City Stadium, Mospira
+|-
+| align="left" | 30 June 1764 || {{Flagicon|Lycroa}} Lycroa 0–3 '''[[Easuhura]]''' {{Flagicon|Easuhura}} || align="left" | Senarli Coliseum, Senarli
+|-
+| align="left" | 1 July 1764 || {{Flagicon|Siana}} '''Siana''' 2–2 (5–4 pen.) [[Jshain]] {{Flagicon|Jshain}} || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 1 July 1764 || {{Flagicon|Seytinemas}} '''Seytinemas''' 1–0 [[Genaire]] {{Flagicon|Genaire}} || align="left" | Tirna National Stadium, Tirna
+|}
 
 ===Quarter-finals===
-* {{Flagicon|Verusa}} '''Verusa''' 1–1 (6–5 pen.) Finae {{Flagicon|Finae}}
-* {{Flagicon|Emara}} '''Emara''' 2–1 Sanagara {{Flagicon|Sanagara}}
-* {{Flagicon|Raledria}} Raledria 0–1 '''Easuhura''' {{Flagicon|Easuhura}}
-* {{Flagicon|Siana}} Siana 0–2 '''Seytinemas''' {{Flagicon|Seytinemas}}
+
+The quarter-finals produced a second penalty shoot-out, with [[Verusa]] eliminating [[Finae]] 6–5 on penalties after a 1–1 draw. The other three ties were decided in normal time: [[Emara]] beat [[Sanagara]] 2–1, [[Easuhura]] defeated the hosts [[Raledria]] 1–0 in front of an 84,810 crowd at Estadio Rovik, and [[Seytinemas]] knocked out the previously unbeaten [[Siana]] 2–0.
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Quarter-final results
+! Date !! Match !! Venue
+|-
+| align="left" | 4 July 1764 || {{Flagicon|Verusa}} '''Verusa''' 1–1 (6–5 pen.) [[Finae]] {{Flagicon|Finae}} || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 4 July 1764 || {{Flagicon|Raledria}} Raledria 0–1 '''[[Easuhura]]''' {{Flagicon|Easuhura}} || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 5 July 1764 || {{Flagicon|Emara}} '''Emara''' 2–1 [[Sanagara]] {{Flagicon|Sanagara}} || align="left" | Zunle Olympic Arena, Zunle
+|-
+| align="left" | 5 July 1764 || {{Flagicon|Siana}} Siana 0–2 '''[[Seytinemas]]''' {{Flagicon|Seytinemas}} || align="left" | Itarda Park, Itarda
+|}
 
 ===Semi-finals===
-* {{Flagicon|Verusa}} Verusa 0–2 '''Emara''' {{Flagicon|Emara}}
-* {{Flagicon|Easuhura}} '''Easuhura''' 2–1 Seytinemas {{Flagicon|Seytinemas}}
 
-===Third-place playoff===
-* {{Flagicon|Verusa}} '''Verusa''' 3–2 Seytinemas {{Flagicon|Seytinemas}}
+Both semi-finals were settled inside 90 minutes. [[Emara]] beat [[Verusa]] 2–0 in the first semi-final at Estadio Rovik, while [[Easuhura]] edged [[Seytinemas]] 2–1 at the Zunle Olympic Arena to set up an all-[[AFLA]] final — only the third in the history of the FLLA World Cup.
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Semi-final results
+! Date !! Match !! Venue
+|-
+| align="left" | 8 July 1764 || {{Flagicon|Verusa}} Verusa 0–2 '''[[Emara]]''' {{Flagicon|Emara}} || align="left" | Estadio Rovik, Rovik
+|-
+| align="left" | 9 July 1764 || {{Flagicon|Easuhura}} '''Easuhura''' 2–1 [[Seytinemas]] {{Flagicon|Seytinemas}} || align="left" | Zunle Olympic Arena, Zunle
+|}
+
+===Third place playoff===
+
+The third-place playoff was contested between the two losing semi-finalists at Itarda Park on 10 July, with [[Verusa]] defeating [[Seytinemas]] 3–2. The Verusan goals were scored by Best Young Player Anders Vellholm, captain Marin Ostroski and substitute forward Devan Lehrek, the last of whom struck in the 88th minute.
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Third place playoff
+! Date !! Match !! Venue
+|-
+| align="left" | 10 July 1764 || {{Flagicon|Verusa}} '''Verusa''' 3–2 [[Seytinemas]] {{Flagicon|Seytinemas}} || align="left" | Itarda Park, Itarda
+|}
 
 ===Final===
-* {{Flagicon|Emara}} Emara 1–2 '''Easuhura''' {{Flagicon|Easuhura}}
+{{Main|1764 FLLA World Cup final}}
+
+The final was contested between [[Easuhura]] and [[Emara]], both representatives of the [[AFLA]] and finalists from Group C and Group E respectively. [[Emara]] entered the match as the tournament's leading goalscoring nation. [[Easuhura]] won the match 2–1 to claim their first FLLA World Cup, completing the tournament without a single defeat across seven matches. Easuhuran captain Sahel Mavari opened the scoring with a free-kick in the 33rd minute; Theo Ravenscar equalised for Emara from the penalty spot four minutes after the break, before substitute Davo Karelis scored the winning goal in the 79th minute. The attendance of 85,720 was the highest of the tournament.
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Final
+! Date !! Match !! Venue
+|-
+| align="left" | 11 July 1764 || {{Flagicon|Emara}} Emara 1–2 '''[[Easuhura]]''' {{Flagicon|Easuhura}} || align="left" | Tirna National Stadium, Tirna
+|}
 
 ==Statistics==
 
 ===Goalscoring===
-The table below lists the leading goalscorers of the tournament, recorded by national team. Numbers in parentheses indicate each team's pre-tournament [[FLLA]] ranking.
+
+[[Emara]] finished as the tournament's leading scoring nation with 17 goals across seven matches, narrowly ahead of [[Sanagara]] (16 in five) and [[Seytinemas]] (14 in seven). Champions [[Easuhura]] placed fourth on the scoring chart with 13 goals — a total surpassed by four teams that did not reach the final — and conceded seven goals across their seven matches, the joint-fewest among the four semi-finalists.
+
+The table below lists the leading goalscoring nations of the tournament. The right-hand column shows each team's pre-tournament [[FLLA]] ranking.
 
 {| class="wikitable sortable" style="text-align: center;"
-|+ Leading goalscorers
+|+ Leading goalscoring nations
 ! Rank !! Team !! Goals !! FLLA ranking
 |-
 | 1 || align="left" | {{Flagicon|Emara}} [[Emara]] || 17 || 2
@@ -335,30 +655,163 @@ The table below lists the leading goalscorers of the tournament, recorded by nat
 | 9 || align="left" | {{Flagicon|Isnti}} [[Isnti]] || 8 || 62
 |}
 
+{| class="wikitable sortable" style="text-align: center;"
+|+ Top individual goalscorers
+! Rank !! Player !! Team !! Goals
+|-
+| 1 || align="left" | Theo Ravenscar || align="left" | {{Flagicon|Emara}} [[Emara]] || 9
+|-
+| 2 || align="left" | Aakash Vinjala || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 7
+|-
+| 3 || align="left" | Anders Vellholm || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 5
+|-
+| 3 || align="left" | Daro Lemniska || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 5
+|-
+| 3 || align="left" | Caio Rentini || align="left" | {{Flagicon|Taval}} [[Taval]] || 5
+|-
+| 6 || align="left" | Davo Karelis || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 4
+|-
+| 6 || align="left" | Niall Brask || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 4
+|-
+| 6 || align="left" | Sahel Mavari || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 2
+|}
+
+===Discipline===
+
+The FLLA Disciplinary Committee issued a total of 187 yellow cards and 9 red cards across the 64 matches of the tournament, an average of 2.9 yellows and 0.14 reds per match — both figures down on the [[1760 FLLA World Cup|1760 edition]]. The most-cautioned team was [[Acetoa]], with 11 yellow cards across three group-stage matches; [[Seytinemas]] received the fewest, with just two yellows and no reds across their six matches, helping the team win the [[#Awards|FLLA Fair Play Trophy]]. Three players received red cards in the knockout stage, all in the round of sixteen: Pelan Voskoda ([[Taval]]), Indro Mela ([[Vesozata]]) and Sefan Riza ([[Genaire]]).
+
 ==Awards==
+
+The Best Player award, formally titled the FLLA Golden Ball, was awarded by a panel of seven sports journalists drawn from each of the seven confederations to [[Easuhura|Easuhuran]] central midfielder Sahel Mavari, who captained the champions throughout the tournament and contributed two goals and four assists across their seven matches. Mavari was the first Easuhuran player to win the award and the third to feature on the three-man shortlist alongside [[Emara|Emaran]] forward Theo Ravenscar (the tournament's top goalscorer) and [[Sanagara|Sanagaran]] playmaker Aakash Vinjala. Ravenscar took the Golden Boot for the tournament with nine personal strikes, becoming the first Emaran to win the prize since Halric Ostley in 1748.
+
+The Golden Glove, awarded to the tournament's best goalkeeper, went to Easuhuran goalkeeper Niran Yokima, who conceded seven goals and kept three clean sheets across the seven matches of his country's run. Verusan winger Anders Vellholm, 19 years old at the start of the tournament, was named Best Young Player after appearing in five of [[Verusa]]'s six matches and scoring twice — in the round of 16 and in the third-place playoff. [[Seytinemas]] received the Fair Play award after finishing the tournament with the fewest disciplinary points of any of the 32 participating sides.
+
 {| class="wikitable" style="text-align: center;"
 |+ Tournament awards
-! Award !! Recipient !! Total
+! Award !! Recipient !! Notes
 |-
-| [[wikipedia:Golden Boot|Golden Boot]] || align="left" | {{Flagicon|Emara}} [[Emara]] || 17 goals
+| FLLA Golden Ball ''(Best Player)'' || align="left" | {{Flagicon|Easuhura}} Sahel Mavari ([[Easuhura]]) || 2 goals, 4 assists
+|-
+| [[wikipedia:Golden Boot|FLLA Golden Boot]] ''(Top scorer)'' || align="left" | {{Flagicon|Emara}} Theo Ravenscar ([[Emara]]) || 9 goals
+|-
+| FLLA Golden Glove ''(Best goalkeeper)'' || align="left" | {{Flagicon|Easuhura}} Niran Yokima ([[Easuhura]]) || 3 clean sheets in 7
+|-
+| FLLA Best Young Player Award || align="left" | {{Flagicon|Verusa}} Anders Vellholm ([[Verusa]]) || 19 years old
+|-
+| FLLA Fair Play Trophy || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || fewest disciplinary points
+|-
+| Leading goalscoring nation || align="left" | {{Flagicon|Emara}} [[Emara]] || 17 goals
 |}
 
 ==Final standings==
-{| class="wikitable" style="text-align: center;"
-|+ Final positions
-! Position !! Team
+
+Final standings of the 32 participating teams at the 1764 FLLA World Cup, as published by the [[FLLA]] on 24 August 1764. The top four positions are determined by the results of the [[#Knockout stage|knockout stage]]; teams eliminated at the same stage are ranked by their group-stage record.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Final standings
+! Pos !! Team !! Confederation !! Stage reached
 |-
-| 1st || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]'''
+| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || [[AFLA]] || align="left" | Champions
 |-
-| 2nd || align="left" | {{Flagicon|Emara}} [[Emara]]
+| 2 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AFLA]] || align="left" | Runners-up
 |-
-| 3rd || align="left" | {{Flagicon|Verusa}} [[Verusa]]
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || [[AFLA]] || align="left" | Third place
 |-
-| 4th || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]]
+| 4 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || [[EFLA]] || align="left" | Fourth place
+|-
+| 5 || align="left" | {{Flagicon|Siana}} [[Siana]] || [[AFLA]] || align="left" | Quarter-finals
+|-
+| 6 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || [[MFLA]] || align="left" | Quarter-finals
+|-
+| 7 || align="left" | {{Flagicon|Raledria}} [[Raledria]] ''(H)'' || [[NFLA]] || align="left" | Quarter-finals
+|-
+| 8 || align="left" | {{Flagicon|Finae}} [[Finae]] || [[QFLA]] || align="left" | Quarter-finals
+|-
+| 9 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AFLA]] || align="left" | Round of 16
+|-
+| 10 || align="left" | {{Flagicon|Vesozata}} [[Vesozata]] || [[MFLA]] || align="left" | Round of 16
+|-
+| 11 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MFLA]] || align="left" | Round of 16
+|-
+| 12 || align="left" | {{Flagicon|Chaenia}} [[Chaenia]] || [[EFLA]] || align="left" | Round of 16
+|-
+| 13 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || [[CFLA]] || align="left" | Round of 16
+|-
+| 14 || align="left" | {{Flagicon|Jshain}} [[Jshain]] || [[CFLA]] || align="left" | Round of 16
+|-
+| 15 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || [[NFLA]] || align="left" | Round of 16
+|-
+| 16 || align="left" | {{Flagicon|Isnti}} [[Isnti]] || [[EFLA]] || align="left" | Round of 16
+|-
+| 17–32 || align="left" | Eliminated in group stage || colspan="2" | ''see [[#Group stage|group stage]] tables''
 |}
+
+==Preparations and costs==
+
+The total budget allocated to the 1764 FLLA World Cup by the Raledrian Football Association and the [[Raledria|Raledrian]] national government was {{lahn}}4.05&nbsp;billion ([[Raledrian Kasare|RKA]]), of which {{lahn}}3.4&nbsp;billion was directed towards stadium construction and renovation and {{lahn}}640&nbsp;million towards operational expenditure including security, broadcasting infrastructure and the volunteer programme. A further {{lahn}}1.1&nbsp;billion was committed to public-transport upgrades in the eight host cities, including the construction of new metro lines in [[Tirna]] (the Northern Line extension, opened in March 1764) and [[Rovik]] (the Sea Quarter extension, opened in May 1764), as well as a high-speed rail link between Itarda and the existing Tirna–Senarli main line.
+
+Five of the eight venues — Itarda Park, the Senarli Coliseum, Vendrok Memorial Stadium, Mospira City Stadium and Halnaze Field — were either newly built or extensively redeveloped for the tournament. The newest, the Vendrok Memorial Stadium, was inaugurated on 14 March 1764, three months before the opening match. Total stadium construction overran the original budget by 11&nbsp;per&nbsp;cent, primarily because of cost escalation at the Vendrok and Halnaze sites; an inquiry commissioned by the Raledrian National Assembly in October 1763 had recommended additional contingency budgeting, advice that was not fully adopted by the Organising Committee.
+
+The Raledrian security operation involved 47,000 police and military personnel deployed across the eight host cities, the largest single peacetime security operation in the country's history. No serious incidents were reported during the tournament; one fixture, a Group F match between [[Erkizil]] and [[Isari]] in Halnaze on 14 June, was briefly delayed by a stadium-evacuation drill triggered in error by a faulty smoke detector.
+
+Total tournament revenue, audited by the FLLA in August 1764, was {{lahn}}5.91&nbsp;billion (RKA), against costs of {{lahn}}4.05&nbsp;billion, yielding a net surplus of {{lahn}}1.86&nbsp;billion. The FLLA's standard 18&nbsp;per&nbsp;cent host-association allocation returned {{lahn}}1.06&nbsp;billion to the Raledrian Football Association, which was reinvested in domestic grassroots football and youth development under a programme agreed by the FLLA Council before the tournament.
+
+==Marketing==
+{{Main|1764 FLLA World Cup marketing}}
+
+The marketing programme for the 1764 FLLA World Cup was overseen by the Raledrian Football Association in partnership with the FLLA's commercial division, with creative direction by the Tirna-based studio Lateran Marque. The programme included the official emblem, mascot, match ball and theme song (see [[#Symbols|Symbols]] below), a global travelling-trophy tour through 53 countries in the year preceding the tournament, and a tiered sponsorship structure of six worldwide partners, eight Raledrian national partners and six regional supporters. Total sponsorship revenue across all three tiers was {{lahn}}1.45&nbsp;billion (RKA), the highest gross sponsorship figure recorded by any FLLA World Cup to date.
+
+==Symbols==
+{{Main|1764 FLLA World Cup symbols}}
+
+===Emblem===
+
+The official emblem of the tournament, designed by the Tirna-based studio Lateran Marque, was unveiled on 8 July 1761 in a public ceremony at the Raledrian Museum of Fine Arts. The design depicts a stylised silver foxhound — the national animal of Raledria — leaping over a rendering of the World Cup trophy, set against a circular crest in the national colours of green and gold. The trophy line was inspired by traditional Raledrian metalwork associated with the [[Great Atirhan War]] memorial movement of the 1620s. The emblem received the FLLA Council's formal endorsement in November 1761 after a six-week consultation period with member associations.
+
+===Mascot===
+
+The official mascot of the 1764 FLLA World Cup, named '''Vanara''', is an anthropomorphic Atirhan silver fox dressed in the green-and-gold colours of the host nation. The mascot was selected by a public vote organised by the Raledrian Football Association in the spring of 1762, with three candidate designs presented to voters across the eight host cities and online; Vanara prevailed over a sloth-bear design ("Brushy") and a stylised hummingbird ("Liravel") with 54&nbsp;per&nbsp;cent of the 3.8 million votes cast.<ref>{{cite web|url=https://www.flla.org/1762/mascot-vote|title=Vanara named official mascot of 1764 FLLA World Cup|publisher=Raledrian Football Association|date=2 May 1762}}</ref> Vanara appeared at all 64 matches of the tournament and was the subject of a 26-episode children's animated series produced by Raledrian National Network for broadcast in the year leading up to the competition.
+
+===Match ball===
+
+The official match ball, manufactured by the Raledrian sports equipment maker Vekal & Co., was branded the '''Tirneza''', a name selected through a public competition that attracted 1.2&nbsp;million entries. The Tirneza featured a 14-panel thermally-bonded construction — a departure from the 32-panel hand-stitched balls used at the [[1760 FLLA World Cup|1760 edition]] — and a textured grip-pattern surface intended to improve handling in wet conditions. A distinct gold-coloured version of the ball, the Tirneza Final, was used in the final, the third-place playoff and the two semi-finals.
+
+===Theme song===
+
+The official theme song of the tournament, "Lights Over Tirna", was composed by Raledrian musician Mara Solven with lyrics jointly written by Solven and the [[Sanagara|Sanagaran]] vocalist Iyana Krish, who also performed the track. A second, instrumental "Lights Over Tirna (Reprise)" by the Tirna Philharmonic was used as the entrance music in the final. The studio recording was released on 30 March 1764 and topped the Raledrian charts for nine consecutive weeks, becoming the best-selling tournament-affiliated single in FLLA World Cup history.
+
+==Media==
+{{Main|1764 FLLA World Cup broadcasting rights}}
+
+The 1764 FLLA World Cup was broadcast in 187 countries by 64 official television partners and a further 26 official radio partners. Domestic broadcasting rights in [[Raledria]] were held by the Raledrian National Network (RNN), which produced the host feed and screened all 64 matches across two of its terrestrial channels. The international rights for the [[AFLA]] region were held by [[Emara|Emaran]] public-service broadcaster ECN; the [[MFLA]] rights by the Sanagara-based satellite broadcaster Vela-12; and the [[CFLA]] rights by a five-broadcaster consortium led by Pelines's national broadcaster RTP.
+
+The final between [[Easuhura]] and [[Emara]] was the most-watched television broadcast in [[Easuhura|Easuhuran]] history, drawing a peak audience of 18.4 million viewers (representing approximately 92&nbsp;per&nbsp;cent of the active television audience in the country) and a domestic Raledrian audience of 23.1 million for the build-up programming and post-match coverage. Worldwide, the FLLA reported a cumulative live broadcast audience for the tournament of 3.6 billion individual viewers across all matches, with 1.1 billion individuals tuning in to at least part of the final.<ref>{{cite web|url=https://www.flla.org/1764/audience-summary|title=1764 FLLA World Cup viewership summary|publisher=[[FLLA]]|date=24 August 1764}}</ref>
+
+===Attendance===
+
+Cumulative attendance across the 64 matches of the tournament was 3,427,150 spectators, an average of 53,549 per match. The highest single-match attendance was the 85,720 recorded at the [[#Final|final]] in Tirna, just below the Tirna National Stadium's listed all-seater capacity of 86,420; the lowest was the 41,005 attending the Group G fixture between [[Mendereide]] and [[Gaeiya]] at Halnaze Field on 25 June, a goalless draw played in heavy rain.
+
+Across the tournament, attendance averaged 56,810 in the knockout stage and 52,723 in the group stage. The four matches involving the host nation drew the four highest group-stage attendances, with [[Raledria]] v [[Anymna]] in Group B (84,615 at Tirna National Stadium) recording the largest group-stage crowd. The FLLA Fan Mile sites — large public viewing areas established in each of the eight host cities — drew an estimated 4.1 million visitors over the four weeks of the tournament, with the largest single-event crowd of approximately 320,000 watching the final at the Riverside Fan Mile in [[Tirna]].
+
+==Controversies==
+
+The most prominent dispute of the tournament arose from the [[#Quarter-finals|quarter-final]] between [[Verusa]] and [[Finae]] at the Tirna National Stadium on 4 July, in which Finae's third penalty in the resulting shoot-out was ruled to have been struck from inside the penalty arc rather than the spot. The match official, Vinka Krmstedt of [[Trian]], ordered the kick to be retaken, and the Finae kicker missed the second attempt; Verusa progressed 6–5 on penalties. The Finae Football Association lodged a formal complaint with the FLLA on 6 July, which was acknowledged but not upheld; an external review board commissioned in September 1764 found that the original ruling had been within the laws of the game.
+
+A separate complaint, lodged by the [[Mendereide|Mendereidean]] football association after the goal-line decision system disallowed a [[#Group G|Group G]] effort against [[Sanagara]], was withdrawn after the result of the match did not affect Mendereide's group standing. Concerns over the readiness of the Vendrok Memorial Stadium drew criticism in the Raledrian National Assembly in March 1764; an investigative committee report published in November 1764 attributed the delays to weather disruption during the 1763 winter rather than to mismanagement by the host association.
+
+==Aftermath==
+
+[[Easuhura]]'s victory was the first FLLA World Cup ever won by an Easuhuran side and only the second by any nation governed by a constitutional monarchy. The team returned to [[Tanbai]] on 13 July 1764 and was received by an estimated crowd of 1.8 million along a four-mile parade route from Tanbai's central railway station to the Royal Esplanade, where the FLLA World Cup trophy was displayed publicly for three days. The Easuhuran High Minister declared 14 July 1764 a one-off national holiday in recognition of the team's achievement.
+
+In [[Raledria]], the tournament was judged a financial and operational success: an independent post-event report commissioned by the Raledrian Football Association and published in November 1764 estimated the net economic contribution to the host economy at {{lahn}}11.6&nbsp;billion (RKA), against gross public expenditure of {{lahn}}4.05&nbsp;billion across infrastructure and operations. International visitor arrivals to Raledria over the tournament period totalled 970,000, the highest single-month visitor figure recorded by the Raledrian Bureau of Tourism since the Bureau's creation in 1721.<ref>{{cite web|url=https://www.gov.ral/1764/rfa-impact-report|title=1764 FLLA World Cup post-event economic impact report|publisher=Raledrian Football Association|date=18 November 1764}}</ref>
+
+The next edition of the FLLA World Cup, the [[1768 FLLA World Cup]], was awarded to a joint [[AFLA]]–[[EFLA]] hosting bid at the FLLA Council meeting of 28 September 1764. [[Easuhura]] qualified automatically as defending champions under the 1761 reseeding rules, which were re-amended at the same Council meeting following the demonstration effect of the [[1760 FLLA World Cup|previous edition]] and the success of the host nation's qualifying campaign.
 
 ==See also==
 * [[FLLA]]
+* [[FLLA World Cup]]
+* [[1760 FLLA World Cup]]
+* [[1768 FLLA World Cup]]
 * [[NFLA]]
 * [[AFLA]]
 * [[NAFLA]]
@@ -367,7 +820,7 @@ The table below lists the leading goalscorers of the tournament, recorded by nat
 * [[MFLA]]
 * [[CFLA]]
 
+==References==
+{{reflist}}
+
 [[Category:FLLA World Cup]]
-[[Category:1764 in sports]]
-[[Category:Sports]]
-[[Category:History of sports]]
