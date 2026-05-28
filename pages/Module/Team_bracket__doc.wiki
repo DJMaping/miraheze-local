@@ -1,0 +1,345 @@
+{{#switch:{{NAMESPACE}}
+| Module = 
+{{high-use|| Wikipedia talk:High-risk templates}}
+{{Module rating |release}}
+
+This module implements a generic visual representation of the bracket of a [[single-elimination tournament]] with any number of rounds. For common usage, use the {{tl|64TeamBracket}}, {{tl|32TeamBracket}}, {{tl|16TeamBracket}}, {{tl|8TeamBracket}}, {{tl|4TeamBracket}}, {{tl|2TeamBracket}} templates.
+| #default = 
+__NOEDITSECTION__
+{{lua|Module:Team bracket}}
+This template implements a generic visual representation of the bracket of a [[single-elimination tournament]] with {{#ifeq:{{{rounds|}}}|1|one round|{{{rounds|any number of}}} rounds}}.
+}}
+== Usage ==
+{{#switch:{{NAMESPACE}}
+| Module = 
+<pre style="overflow:auto">
+{{#invoke: Team bracket | main
+| rounds      =
+| RD1-group1  =
+
+| RD1         =
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1  =
+ ...
+}}
+</pre>
+| #default = {{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| RD1 =
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1  =
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+Per [[MOS:ACCESS#Font size]] and [[MOS:SMALLFONT]], "avoid using smaller font sizes in elements that already use a smaller font size, such as infoboxes, navboxes and reference sections".  Since this template's text is already reduced to 90% of the normal size, use of the {{tl|Small}} template or {{tag|small}} tags within this template produces a font size that is 77% of the page default, well below the 85% minimum specified in the linked guidelines.
+}}
+=== Parameters ===
+{| class="wikitable"
+|-
+! Parameter !! Description
+|-
+{{#switch:{{NAMESPACE}}
+| Module = 
+{{!}} <code>rounds</code> {{!!}} number of rounds.  Use <code>1</code> for a 2 team bracket, <code>2</code> for a 4 team bracket, <code>3</code> for an 8 team bracket, ...
+| #default = 
+}}
+|-
+| <code>maxround</code> || maximum round to display.  This parameter should be omitted unless it is less than the default value set by <code>rounds</code>.
+|-
+| <code>seed-width</code> || the width of the cells for seeds. Plain numbers are assumed to be in px units (e.g., <code>25</code> or 25px <code>2em</code> for 2em or <code>auto</code> for automatic width sizing)
+|-
+| <code>team-width</code> || the width of the cells for team names. Plain numbers are assumed to be in px units (e.g., <code>200</code> for 200px or <code>15em</code> for 15em or <code>auto</code> for automatic width sizing)
+|-
+| <code>score-width</code> || the width of the cells for scores. Plain numbers are assumed to be in px units (e.g., <code>25</code> or 25px <code>2em</code> for 2em or <code>auto</code> for automatic width sizing)
+|-
+| <code>compact</code> || set to <code>yes</code> for compact bracket and to disable groups.
+|-
+| <code>seeds</code> || set to <code>no</code> to omit seed cells, and <code>yes</code> to always show seed cells
+|-
+| <code>sets</code> or <code>legs</code> || the number of sets/legs in each round of matches (delimit with / for different numbers of sets or legs per round)
+|-
+| <code>nowrap</code> || set to <code>yes</code> to prevent lines from wrapping 
+|-
+| <code>byes</code> || set to <code>1</code>, <code>2</code>, ... to specify the maximum round number with byes
+|-
+| <code>boldwinner</code> || set to <code>high</code> to automatically bold the seed/team/scores for the team with the highest score, and <code>low</code> for the lowest score
+|-
+| <code>hideomittedscores</code> || set to <code>1</code> to hide all omitted score cells.  To only omit score cells from the second set or leg onwards, use <code>2</code>
+|-
+| <code>sepwidth</code> || set to <code>1</code> or <code>2</code> to override the default separator width
+|-
+| <code>headings</code> || set to <code>no</code> to omit the column headings
+|-
+| <code>RD<sub>n</sub></code> || The name of round ''n''.  Defaults are "Round of ''m''", ..., "Quarterfinals", "Semifinals", and "Finals", where ''m'' is the number of teams in the round.
+|-
+| <code>RD<sub>n</sub>-group<sub>m</sub></code> || The name of group ''m'' in round ''n''. For each round, every set of four teams is classified as a group.
+|-
+| <code>RD<sub>n</sub>-seed<sub>m</sub></code> || The seed of team ''m'' in round ''n''. For round 1, this value defaults to the conventional seed allocation for tournaments. If omitted, the cell is hidden. To hide seeds for round 1, the value must be explicitly set to be empty. ''m'' is the zero-padded position.
+|-
+| <code>RD<sub>n</sub>-team<sub>m</sub></code> || The name of team ''m'' in round ''n''.
+|-
+| <code>RD<sub>n</sub>-score<sub>m</sub></code> || The score of team ''m'' in round ''n''.
+|-
+| <code>RD<sub>n</sub>-score<sub>m</sub>-<sub>s</sub></code> || The score of team ''m'' in round ''n'' and set ''s'' (or leg for multileg matches).  Alternatively, the last score in the round can be specified using the <code>-agg</code> suffix.
+|-
+| <code>RD1-omit</code> || Selectively omit teams from the first round.  For example, use <code>1 / 2 / 5 / 6</code> to omit team1, team2, team5, and team6 from the first round.
+|-
+| <code>RD-shade</code> || Background color for the <code>RD<sub>n</sub></code> headings
+|-
+| <code>RD<sub>n</sub>-shade<sub>m</sub>-<sub>s</sub></code> || Background coloring for team ''m'' in round ''n'' and set ''s'' (or leg for multileg matches).
+|-
+| <code>RD<sub>n</sub>-RD<sub>n+1</sub>-path</code> || Set to <code>0</code> to omit the path between round ''n'' and round ''n+1''.
+|-
+| <code>float</code> || Float the bracket to the <code>left</code> or <code>right</code> or <code>center</code> or <code>centre</code> of the page.
+|-
+| <code>clear</code> || Set to <code>no</code> to prevent "clearing" the left/right side of the page before floating to the left/right.  This parameter is only valid with {{para|float|left}} or {{para|float|right}}. 
+|-
+| <code>aggregate</code> || Set to <code>sets</code> or <code>legs</code> to sum the sets/legs won and append to the end of the scores.  Set to <code>score</code> to sum the scores from each set/leg and append to the end of the scores.  Set to <code>y</code> or <code>yes</code> to enable the <code>-agg</code> suffix, but without any auto computation. Only works when there are two or more legs/sets in the round.  Any automatically computed value can be overridden by setting the value manually with the <code>-agg</code> suffix for the score.
+|}
+
+==Alternatives to avoid Wikipedia's [[WP:PEIS|Post-expand include size]] limit==
+Pages with many brackets or large brackets, especially those containing flag icons, may come close to or exceed Wikipedia's [[WP:PEIS|Post-expand include size]] limit.  In these cases consider using modules directly instead:
+* {{#invoke:Bracket|doc}}
+* In most cases, flag templates can be replaced with {{ml|flag}}, e.g. {{tlx|flag|CAN}}→{{mlx|flag|{{!}}CAN}} or {{tlx|flag athlete|CAN}}→{{mlx|flag|athlete|CAN}}.
+
+== Examples ==
+
+=== No seeds ===
+{{#switch:{{NAMESPACE}}
+| Module = 
+<pre style="overflow: auto;">
+{{#invoke: Team bracket | main
+| rounds    = 2
+| seeds     = no
+}}
+</pre>
+
+{{#invoke: Team bracket | main
+| rounds    = 2
+| seeds     = no
+}}
+|#default =
+{{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| seeds = no
+| RD1 =
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1  =
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+{{{{#if:{{{limitexamples|}}}|void|{{BASEPAGENAME}}}}|seeds=no}}
+}}
+=== Compact ===
+{{#switch:{{NAMESPACE}}
+| Module = 
+<pre style="overflow: auto;">
+{{#invoke: Team bracket | main
+| rounds    = 2
+| compact   = yes
+}}
+</pre>
+
+{{#invoke: Team bracket | main
+| rounds    = 2
+| compact   = yes
+}}
+|#default =
+{{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| compact = yes
+| RD1 =
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1  =
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+{{{{#if:{{{limitexamples|}}}|void|{{BASEPAGENAME}}}}|compact=yes}}
+}}
+=== Third place ===
+{{#switch:{{NAMESPACE}}
+| Module = 
+<pre style="overflow: auto;">
+{{#invoke: Team bracket | main
+| rounds    = 2
+| seeds     = no
+| RD2b      = Third place
+}}
+</pre>
+
+{{#invoke: Team bracket | main
+| rounds    = 2
+| seeds     = no
+| RD2b      = Third place
+}}
+|#default =
+{{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| RD1 =
+| RD</nowiki>{{{rounds|1}}}<nowiki>b = Third place
+
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1  =
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+{{{{#if:{{{limitexamples|}}}|void|{{BASEPAGENAME}}}}|RD{{{rounds|1}}}b = Third place}}
+}}
+{{#switch:{{{rounds|}}}|1=
+|#default = 
+{{#switch:{{NAMESPACE}}
+| Module = 
+=== Groups ===
+<pre style="overflow: auto;">
+{{#invoke: Team bracket | main
+| autoseeds  = y
+| rounds     = 3
+| RD1-group1 = Pacific
+| RD1-group2 = Mountain
+| RD2-group1 = West
+}}
+</pre>
+
+{{#invoke: Team bracket | main
+| autoseeds  = y
+| rounds     = 3
+| RD1-group1 = Pacific
+| RD1-group2 = Mountain
+| RD2-group1 = West
+}}
+|#default =
+=== Groups ===
+{{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| RD1 =
+| RD1-group1  = Pacific
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1  =
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+{{{{#if:{{{limitexamples|}}}|void|{{BASEPAGENAME}}}}|RD1-group1=Pacific}}
+}}
+}}
+=== Sets ===
+{{#switch:{{NAMESPACE}}
+| Module = 
+<pre style="overflow: auto;">
+{{#invoke: Team bracket | main
+| autoseeds  = y
+| rounds     = 3
+| sets       = 3 / 5 / 5
+}}
+</pre>
+
+{{#invoke: Team bracket | main
+| autoseeds  = y
+| rounds     = 3
+| sets       = 3 / 5 / 5
+}}
+| #default = 
+{{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| sets = </nowiki>{{#switch:{{{rounds|}}}|1=3|#default=3/5}}<nowiki>
+| RD1 =
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1-1=
+| RD1-score1-2=
+| RD1-score1-3=
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+{{{{#if:{{{limitexamples|}}}|void|{{BASEPAGENAME}}}}|sets={{#switch:{{{rounds|}}}|1=3|#default=3/5}}}}
+}}
+=== Aggregate ===
+{{#switch:{{NAMESPACE}}
+| Module = 
+<pre style="overflow: auto;">
+{{#invoke: Team bracket | main
+| autoseeds  = y
+| rounds     = 3
+| legs       = 2
+| aggregate  = y
+}}
+</pre>
+
+{{#invoke: Team bracket | main
+| autoseeds  = y
+| rounds     = 3
+| legs       = 2
+| aggregate  = y
+}}
+| #default = 
+{{#tag:syntaxhighlight|
+{{((}}{{BASEPAGENAME}}<nowiki>
+| legs = 2
+| aggregate = y
+| RD1 =
+
+| RD1-seed1   =
+| RD1-team1   =
+| RD1-score1-1=
+| RD1-score1-2=
+| RD1-score1-agg=
+ ...</nowiki>
+{{))}}|lang="wikitext"}}
+{{{{#if:{{{limitexamples|}}}|void|{{BASEPAGENAME}}}}|legs=2|aggregate=y}}
+}}
+{{#switch:{{NAMESPACE}}
+| Module = 
+=== Bold winner with byes and hide omitted scores ===
+<pre style="overflow:auto">
+{{#invoke: Team bracket | main
+|rounds=3|byes=1|legs=3/5/5|sepwidth=1|boldwinner=high|hideomittedscores = 1
+
+|RD1-seed3=4|RD1-team3=[[BC Vienna|Hallmann Vienna]]|RD1-score3-1=80|RD1-score3-2=66|RD1-score3-3=64
+|RD1-seed4=5|RD1-team4=[[WBC Wels|WBC Raiffeisen Wels]]|RD1-score4-1=64|RD1-score4-2=81|RD1-score4-3=69
+
+|RD1-seed7=3|RD1-team7=[[Kapfenberg Bulls|ece Bulls Kapfenberg]]|RD1-score7-1=97|RD1-score7-2=95
+|RD1-seed8=6|RD1-team8=[[Arkadia Traiskirchen Lions]]|RD1-score8-1=80|RD1-score8-2=82
+<!--SF-->
+|RD2-seed1=1|RD2-team1=[[Oberwart Gunners|Redwell Gunners Oberwart]]|RD2-score1-1=75|RD2-score1-2=89|RD2-score1-3=57|RD2-score1-4=79|RD2-score1-5=77
+|RD2-seed2=5|RD2-team2=[[WBC Wels|WBC Raiffeisen Wels]]|RD2-score2-1=84|RD2-score2-2=83|RD2-score2-3=63|RD2-score2-4=62|RD2-score2-5=67
+
+|RD2-seed3=2|RD2-team3=[[Swans Gmunden]]|RD2-score3-1=73|RD2-score3-2=79|RD2-score3-3=68|RD2-score3-4=59
+|RD2-seed4=3|RD2-team4=[[Kapfenberg Bulls|ece Bulls Kapfenberg]]|RD2-score4-1=92|RD2-score4-2=65|RD2-score4-3=81|RD2-score4-4=61
+<!--F-->
+|RD3-seed1=1|RD3-team1=[[Oberwart Gunners|Redwell Gunners Oberwart]]|RD3-score1-1=61|RD3-score1-2=56|RD3-score1-3=55|RD3-score1-4=72|RD3-score1-5=64
+|RD3-seed2=3|RD3-team2=[[Kapfenberg Bulls|ece Bulls Kapfenberg]]|RD3-score2-1=57|RD3-score2-2=66|RD3-score2-3=56|RD3-score2-4=73|RD3-score2-5=73
+}}
+</pre>
+{{#invoke: Team bracket | main
+|rounds=3|byes=1|legs=3/5/5|sepwidth=1|boldwinner=high|hideomittedscores = 1
+
+|RD1-seed3=4|RD1-team3=[[BC Vienna|Hallmann Vienna]]|RD1-score3-1=80|RD1-score3-2=66|RD1-score3-3=64
+|RD1-seed4=5|RD1-team4=[[WBC Wels|WBC Raiffeisen Wels]]|RD1-score4-1=64|RD1-score4-2=81|RD1-score4-3=69
+
+|RD1-seed7=3|RD1-team7=[[Kapfenberg Bulls|ece Bulls Kapfenberg]]|RD1-score7-1=97|RD1-score7-2=95
+|RD1-seed8=6|RD1-team8=[[Arkadia Traiskirchen Lions]]|RD1-score8-1=80|RD1-score8-2=82
+<!--SF-->
+|RD2-seed1=1|RD2-team1=[[Oberwart Gunners|Redwell Gunners Oberwart]]|RD2-score1-1=75|RD2-score1-2=89|RD2-score1-3=57|RD2-score1-4=79|RD2-score1-5=77
+|RD2-seed2=5|RD2-team2=[[WBC Wels|WBC Raiffeisen Wels]]|RD2-score2-1=84|RD2-score2-2=83|RD2-score2-3=63|RD2-score2-4=62|RD2-score2-5=67
+
+|RD2-seed3=2|RD2-team3=[[Swans Gmunden]]|RD2-score3-1=73|RD2-score3-2=79|RD2-score3-3=68|RD2-score3-4=59
+|RD2-seed4=3|RD2-team4=[[Kapfenberg Bulls|ece Bulls Kapfenberg]]|RD2-score4-1=92|RD2-score4-2=65|RD2-score4-3=81|RD2-score4-4=61
+<!--F-->
+|RD3-seed1=1|RD3-team1=[[Oberwart Gunners|Redwell Gunners Oberwart]]|RD3-score1-1=61|RD3-score1-2=56|RD3-score1-3=55|RD3-score1-4=72|RD3-score1-5=64
+|RD3-seed2=3|RD3-team2=[[Kapfenberg Bulls|ece Bulls Kapfenberg]]|RD3-score2-1=57|RD3-score2-2=66|RD3-score2-3=56|RD3-score2-4=73|RD3-score2-5=73
+}}
+|#default=
+{{{examples|}}}
+}}
+
+== See also ==
+{{#switch:{{NAMESPACE}}
+| Module = 
+* [[Module:RoundN]]
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+<!-- Categories go here, and interwikis go in Wikidata -->
+[[Category:Sports modules]]
+
+}}</includeonly>
+| #default = 
+{{{see also|* {{tl|Team bracket}}}}}
+}}

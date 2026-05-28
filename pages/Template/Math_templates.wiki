@@ -96,7 +96,8 @@
   <!-- Row -->
   | 
 *{{tlbare|overline}}
-*{{tlbare|underline}} | a line set above/below a sequence of characters
+*{{tlbare|underline}}
+*{{tlbare|overunderline}}| a line set above/below a sequence of characters
   | {{tlbare|vec}}     | various overarrows, underarrows, etc.<!--pointing left, right or both ways-->
   <!-- Row --
   | {{tlbare|overarc}} | an arc set above a sequence of characters
@@ -126,6 +127,7 @@
   | {{tlbare|sfrac}}   | "standing" or upright fractions {{sfrac|3|5}} (use in maths/science articles instead of{{noitalic|{{tlx|fraction}}<!-- -->}})
   <!-- Row -->
   | {{tlbare|intmath}} | [[integral symbol]]s
+  |{{tlbare|sum-int}} | an integral superimposed over a capital sigma
   | 
 *{{tlbare|sub}}
 *{{tlbare|sup}}

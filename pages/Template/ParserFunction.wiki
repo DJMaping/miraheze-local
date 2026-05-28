@@ -1,0 +1,31 @@
+<includeonly>{{ #if: {{{_code|}}} | <code> }}{{((}}{{
+  #switch: {{lc: {{{1|if}}} }}
+  | expr | if | ifeq | iferror | ifexpr
+  | ifexist | rel2abs | switch | time | titleparts
+    = [[mw:Help:Extension:ParserFunctions#.23{{lc:{{{1|if}}}}}|#{{{1|if}}}]]
+  | lc | uc | lcfirst | ucfirst | urlencode
+  | anchorencode | ns
+    = [[mw:Help:Magic words#{{lc:{{{1}}}}}|{{{1}}}]]
+  | language | bcp47 | dir | interwikilink | interlanguagelink
+  | special | speciale | tag
+    = [[mw:Help:Magic words#{{lc:{{{1}}}}}|#{{{1}}}]]
+  | localurl | localurle
+    = [[mw:Help:Magic words#localurl|{{{1}}}]]
+  | fullurl | fullurle
+    = [[mw:Help:Magic words#fullurl|{{{1}}}]]
+  | canonicalurl | canonicalurle
+    = [[mw:Help:Magic words#canonicalurl|{{{1}}}]]
+  | pagesincategory
+  | pagesincat
+    = [[mw:Help:Magic words#PAGESINCATEGORY|{{{1}}}]]
+  | section | section-x | section-h | lst | lstx | lsth
+    = [[Help:Labeled section transclusion|#{{{1}}}]]
+  | #default
+    = [[Help:Magic words#{{{1}}}|{{{1}}}]]
+}}{{ #if: {{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}} | {{colon}}{{{2|}}} }}<!--
+-->{{ #if: {{{3|}}}{{{4|}}}{{{5|}}} | {{!}}{{{3|}}} }}<!--
+-->{{ #if: {{{4|}}}{{{5|}}} | {{!}}{{{4|}}} }}<!--
+-->{{ #if: {{{5|}}} | {{!}}{{{5}}} }}<!--
+-->{{))}}{{ #if: {{{_code|}}} | </code> }}</includeonly><noinclude>
+{{documentation}}
+</noinclude>

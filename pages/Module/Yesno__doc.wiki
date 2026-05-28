@@ -128,8 +128,19 @@ if value == nil then
 else
     myvariable = yesno(value, true)
 end
-</syntaxhighlight><!--
 
+-- Terse coding when the default is false:
+myvariable = yesno(value or false, false)
+-- if value is nil, yesno() is called with false instead; result is false.
+-- If value is 'foo', yesno() is called with 'foo'; 'foo' makes no sense, so the default (false) is returned.
+-- if value is 'yes' or 'no', yesno() is called with 'yes' or 'no'; result is true or false.
+
+-- Terse coding when the default is true:
+myvariable = yesno(value or true, true)
+-- if value is nil, yesno() is called with true instead; result is true.
+-- If value is 'foo', yesno() is called with 'foo'; 'foo' makes no sense, so the default (true) is returned.
+-- if value is 'yes' or 'no', yesno() is called with 'yes' or 'no'; result is true or false.
+</syntaxhighlight><!--
 --><includeonly>{{sandbox other||
 [[Category:Lua metamodules]]
 }}</includeonly>

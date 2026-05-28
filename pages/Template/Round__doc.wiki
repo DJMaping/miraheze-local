@@ -1,0 +1,78 @@
+{{Documentation subpage}}{{template shortcut|rnd}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE. -->
+{{high-use|263614}}
+{{lua|Module:Math}}
+
+==Usage==
+This template rounds parameter 1 by parameter 2 decimal places (goes the other way for negative rounding) and includes trailing zeros.
+* {{tlc|{{BASEPAGENAME}}|54.376|2|_show_result=yes}}
+* {{tlc|{{BASEPAGENAME}}|54.376|-1|_show_result=yes}}
+* {{tlc|{{BASEPAGENAME}}|68.4273E12|-10|_show_result=yes}}
+For example, rounding by 1 gives 1 decimal digit, rounding by&nbsp;0 gives integers, or rounding by&nbsp;-2 gives the amount in hundreds. [[Scientific notation]] is displayed for numbers greater than or equal to 1{{e|9}}, or less than 1{{e|−4}}.
+
+===Examples===
+*{{tlc|{{BASEPAGENAME}}|2.0004|3|_show_result=yes}}
+** {{Pf|expr:2.0004 round 3}} → {{#expr:2.0004 round 3}}
+*{{tlc|{{BASEPAGENAME}}|0.000020004|7|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|0|8|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|154268|-3|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|154568|-3|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|1200004|-1|_show_result=yes}}
+**whereas {{pf|expr:1200004round-1}} → {{#expr:1200004round-1}}, even though  {{pf|expr:1300004round-1}} → {{#expr:1300004round-1}} (see [[m:Help:Format produced by expr]]) 
+*{{tlc|{{BASEPAGENAME}}|1300004|-1|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|4.1e6|9|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|4.1e6|10|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|1542689271|-7|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|1542689271|2|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|7e9|-9|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|-123|1|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|-1200007|-2|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|-1234567899|-7|_show_result=yes}}
+As with #expr, the total number of significant digits is not more than 14:
+*{{tlc|{{BASEPAGENAME}}|1234567890.123456789|10|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|123456789.0123456789|10|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|.0001234567890123456789|20|_show_result=yes}}
+
+;The second parameter, precision, should be an integer. Non-integer may give unexpected result.
+*{{tlc|{{BASEPAGENAME}}|1.234567|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|1.234567|2|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|1.234567|2.3|_show_result=yes}}
+*{{tlc|{{BASEPAGENAME}}|1.234567|2.7|_show_result=yes}}
+
+;Non-numeric input will result in an error message.
+*{{tlc|{{BASEPAGENAME}}|invalid|_show_result=yes}}
+
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>{
+	"description": "Rounds (parameter 1) by (parameter 2) decimal places, and formats. Scientific notation is used for numbers greater than 1×10^9, or less than 1×10^−4.",
+	"params": {
+		"1": {
+			"label": "number",
+			"description": "The number to be rounded",
+			"type": "number",
+			"required": true
+		},
+		"2": {
+			"label": "decimal places",
+			"description": "The number of decimal places, if negative the number is rounded so the last (parameter 2) digits are zero",
+			"type": "number",
+			"suggested": true
+		}
+	}
+}</templatedata>
+
+==Maintenance categories==
+*{{clc|Pages with bad rounding precision}}
+
+==See also==
+*{{tl|Rounded calculation}}
+*{{tl|Significant figures}}
+*{{tl|Roundup}}
+*{{tl|Rounddown}}
+
+<includeonly>{{basepage subpage|<!--
+++++ PLEASE ADD CATEGORIES BELOW THIS LINE, THANK YOU. -->
+[[Category:Mathematical function templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>

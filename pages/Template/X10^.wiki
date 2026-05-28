@@ -1,0 +1,16 @@
+{{#if:{{{1|}}}
+|<span style="margin:0 .15em 0 .25em">×</span>10<sup><!--
+-->{{#ifeq:{{{2|}}}|text
+  |{{{1}}}
+  |{{#ifeq:{{valid|number={{{1}}}}}|false
+    |{{{1}}}
+    |{{#ifeq:{{{2|}}}|plus
+      |&#43;{{Val|{{{1}}}}}
+      |{{Val|{{{1}}}}}
+    }}
+  }}
+}}</sup>
+|{{Main other|[[Category:Articles using x10^ with no parameters]]}}
+}}<noinclude>
+{{documentation}}
+</noinclude>

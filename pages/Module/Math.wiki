@@ -139,7 +139,6 @@ Usage:
 function wrap.precision(args)
 	local input_string = (args[1] or args.x or '0');
 	local trap_fraction = args.check_fraction;
-	local input_number;
 
 	if not yesno then
 		yesno = require('Module:Yesno')
@@ -157,11 +156,11 @@ function wrap.precision(args)
 		end
 	end
 
-	input_number, input_string = p._cleanNumber(input_string);
-	if input_string == nil then
+	local _, clean_string = p._cleanNumber(input_string);
+	if clean_string == nil then
 		return err('precision input appears non-numeric')
 	else
-		return p._precision(input_string)
+		return p._precision(clean_string)
 	end
 end
 
@@ -169,30 +168,27 @@ function p._precision(x)
 	if type(x) == 'number' then
 		x = tostring(x)
 	end
-	x = string.upper(x)
 
-	local decimal = x:find('%.')
-	local exponent_pos = x:find('E')
 	local result = 0;
 
-	if exponent_pos ~= nil then
-		local exponent = string.sub(x, exponent_pos + 1)
-		x = string.sub(x, 1, exponent_pos - 1)
-		result = result - tonumber(exponent)
+	--subtract exponent
+	local _, _, coefficient, exponent = x:find("^(.*)[eE](.*)$")
+	if coefficient then
+		result = result - (tonumber(exponent) or 0)
+		x = coefficient
 	end
 
-	if decimal ~= nil then
-		result = result + string.len(x) - decimal
+	--add decimal places
+	local i, j = x:find('%..*$')
+	if i then
+		result = result + (j - i)
 		return result
 	end
 
-	local pos = string.len(x);
-	while x:byte(pos) == string.byte('0') do
-		pos = pos - 1
-		result = result - 1
-		if pos <= 0 then
-			return 0
-		end
+	--subtract trailing zeroes
+	i, j = x:find('[^0]0+$')
+	if i then
+		result = result - (j - i)
 	end
 
 	return result
@@ -295,7 +291,7 @@ function wrap.sum(args)
 end
 
 function p._sum(...)
-	local sums, count = fold((function(a, b) return a + b end), ...)
+	local sums = fold((function(a, b) return a + b end), ...)
 	if not sums then
 		return 0
 	else
@@ -423,7 +419,7 @@ function p._gcd(...)
 		end
 		return oldr
 	end
-	local result, count = fold(findGcd, ...)
+	local result = fold(findGcd, ...)
 	return result
 end
 
@@ -456,6 +452,7 @@ function p._precision_format(value_string, precision)
 		return err('invalid input when rounding')
 	end
 
+	local abs_value = math.abs(value)
 	local current_precision = p._precision(value)
 	local order = p._order(value)
 
@@ -470,29 +467,25 @@ function p._precision_format(value_string, precision)
 	-- If rounding off, truncate extra digits
 	if precision < current_precision then
 		value = p._round(value, precision)
+		abs_value = math.abs(value)
 		current_precision = p._precision(value)
 	end
 
-	local formatted_num = lang:formatNum(math.abs(value))
-	local sign
-
-	-- Use proper unary minus sign rather than ASCII default
-	if value < 0 then
-		sign = '−'
-	else
-		sign = ''
-	end
+	local formatted_num = lang:formatNum(abs_value)
 
 	-- Handle cases requiring scientific notation
-	if string.find(formatted_num, 'E', 1, true) ~= nil or math.abs(order) >= 9 then
-		value = value * math.pow(10, -order)
+	if math.abs(order) >= 9 or string.find(formatted_num, 'E', 1, true) then
+		value = value * (10 ^ (-order))
+		abs_value = math.abs(value)
 		current_precision = current_precision + order
 		precision = precision + order
-		formatted_num = lang:formatNum(math.abs(value))
+		formatted_num = lang:formatNum(abs_value)
 	else
 		order = 0;
 	end
-	formatted_num = sign .. formatted_num
+	
+	-- Use proper unary minus sign rather than ASCII default
+	formatted_num = ((value < 0) and '−' or '') .. formatted_num
 
 	-- Pad with zeros, if needed
 	if current_precision < precision then
@@ -636,7 +629,7 @@ Wrapper function that does basic argument processing. This ensures that all func
 frame or the parent frame, and it also trims whitespace for all arguments and removes blank arguments.
 ]]
 
-local mt = { __index = function(t, k)
+local mt = { __index = function(_, k)
 	return function(frame)
 		if not getArgs then
 			getArgs = require('Module:Arguments').getArgs

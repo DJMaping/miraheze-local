@@ -1,0 +1,217 @@
+{{for|''formatting'' mathematical expressions, LATEX-style|Template:Math}}
+{{High-risk|1,607,000+}}
+{{module rating|protected}}
+{{Lua|Module:Arguments|Module:Yesno}}
+This module provides a number of mathematical functions. These functions can be used from #invoke or from other Lua modules.
+
+== Use from other Lua modules ==
+To use the module from normal wiki pages, no special preparation is needed. If you are using the module from another Lua module, first you need to load it, like this:
+
+<syntaxhighlight lang="lua">
+local mm = require('Module:Math')
+</syntaxhighlight>
+
+(The <code>mm</code> variable stands for '''M'''odule '''M'''ath; you can choose something more descriptive if you prefer.)
+
+Most functions in the module have a version for Lua and a version for #invoke. It is possible to use the #invoke functions from other Lua modules, but using the Lua functions has the advantage that you do not need to access a Lua [[mw:Extension:Scribunto/Lua reference manual#Frame object|frame object]]. Lua functions are preceded by <code>_</code>, whereas #invoke functions are not.
+
+== random ==
+{{see also|Module:Random}}
+
+ &#123;{#invoke:math|random}}
+ &#123;{#invoke:math|random|''max_value''}}
+ &#123;{#invoke:math|random|''min_value''|''max_value''}}
+
+<syntaxhighlight lang="lua">
+mm._random()
+mm._random(max_value)
+mm._random(min_value, max_value)
+</syntaxhighlight>
+
+Generates a random number.
+
+* If no arguments are specified, the number produced is greater than or equal to 0 and less than 1.
+* If one argument is provided, the number produced is an integer between 1 and that argument. The argument must be a positive integer.
+* If two arguments are provided, the number produced is an integer between the first and second arguments. Both arguments must be integers, but can be negative.
+
+This function will not work properly for numbers less than &minus;2<sup>32</sup> and greater than 2<sup>32</sup> &minus; 1. If you need to use numbers outside of this range, it is recommended that you use [[Module:Random]].
+
+== order ==
+
+ &#123;{#invoke:math|order|''n''}}
+
+<syntaxhighlight lang="lua">
+mm._order(n)
+</syntaxhighlight>
+
+Determines the [[order of magnitude]] of a number.
+
+== precision ==
+
+ &#123;{#invoke:math|precision|''n''}}
+ &#123;{#invoke:math|precision|x=''n''}}
+
+<syntaxhighlight lang="lua">
+mm._precision(number_string)
+</syntaxhighlight>
+
+Detemines the precision of a number. For example, for "4" it will return "0", for "4.567" it will return "3", and for "100" it will return "-2".
+
+The function attempts to parse the string representation of the number, and detects whether the number uses [[Scientific notation#E notation|E notation]]. For this reason, when called from Lua, very large numbers or very precise numbers should be directly input as strings to get accurate results. If they are input as numbers, the Lua interpreter will change them to E notation and this function will return the precision of the E notation rather than that of the original number. This is not a problem when the number is called from #invoke, as all input from #invoke is in string format.
+
+== max ==
+
+ &#123;{#invoke:math|max|''v1''|''v2''|''v3''|...}}
+
+<syntaxhighlight lang="lua">
+mm._max(v1, v2, v3, ...)
+</syntaxhighlight>
+
+Returns the maximum value from the values specified. Values that cannot be converted to numbers are ignored.
+
+== median  ==
+
+ &#123;{#invoke:math|median|''v1''|''v2''|''v3''|...}}
+
+<syntaxhighlight lang="lua">
+mm._median(v1, v2, v3, ...)
+</syntaxhighlight>
+
+Returns the [[median]]  value from the values specified. Values that cannot be converted to numbers are ignored.
+
+== min ==
+
+ &#123;{#invoke:math|min|''v1''|''v2''|''v3''|...}}
+
+<syntaxhighlight lang="lua">
+mm._min(v1, v2, v3, ...)
+</syntaxhighlight>
+
+Returns the minimum value from the values specified. Values that cannot be converted to numbers are ignored.
+
+== sum  ==
+
+ &#123;{#invoke:math|sum|''v1''|''v2''|''v3''|...}}
+
+<syntaxhighlight lang="lua">
+mm._sum(v1, v2, v3, ...)
+</syntaxhighlight>
+
+Returns the sum of the values specified. Values that cannot be converted to numbers are ignored.
+
+== average ==
+
+ &#123;{#invoke:math|average|''v1''|''v2''|''v3''|...}}
+
+<syntaxhighlight lang="lua">
+mm._average(v1, v2, v3, ...)
+</syntaxhighlight>
+
+Returns the average of the values specified. (More precisely, the value returned is the [[Mean#Arithmetic mean (AM)|arithmetic mean]].) Values that cannot be converted to numbers are ignored.
+
+== round ==
+
+ &#123;{#invoke:math|round|''value''|''precision''}}
+ &#123;{#invoke:math|round|value=''value''|precision=''precision''}}
+
+<syntaxhighlight lang="lua">
+mm._round(value, precision)
+</syntaxhighlight>
+
+[[Rounding|Rounds]] a number to the specified precision as a power of ten (default is <code>0</code>, meaning to the nearest whole number). 
+
+This is done with the following formula: <math>\frac{\lfloor \text{value} \cdot 10^\text{precision} + 0.5\rfloor}{10^\text{precision}}</math>
+
+Note: As of October 2019, there is a bug in the display of some rounded numbers. When trying to round a number that rounds to "n.0", like "1.02", to the nearest tenth of a digit (i.e. {{para|r|1}}), this function should display "1.0", but it unexpectedly displays "1". Use the {{para|precision_format}} parameter instead.
+
+== log10 ==
+
+ &#123;{#invoke:math | log10 | ''x''}}
+
+<syntaxhighlight lang="lua">
+mm._log10(x)
+</syntaxhighlight>
+
+Returns <code>log<sub>10</sub>(''x'')</code>, the [[logarithm]] of ''x'' using base 10.
+
+== mod ==
+
+ &#123;{#invoke:math|mod|''x''|''y''}}
+
+<syntaxhighlight lang="lua">
+mm._mod(x, y)
+</syntaxhighlight>
+
+Gets <code>''x''</code> [[Modulo operation|modulo]] <code>''y''</code>, or the remainder after <code>''x''</code> has been divided by <code>''y''</code>. This is accurate for integers up to 2<sup>53</sup>; for larger integers Lua's modulo operator may return an erroneous value. This function deals with this problem by returning <code>0</code> if the modulo given by Lua's modulo operator is less than 0 or greater than <code>''y''</code>.
+
+== gcd ==
+
+ &#123;{#invoke:math|gcd|''v1''|''v2''|...}}
+
+<syntaxhighlight lang="lua">
+mm._gcd(v1, v2, ...)
+</syntaxhighlight>
+
+Finds the [[greatest common divisor]] of the values specified. Values that cannot be converted to numbers are ignored.
+
+== precision_format ==
+
+ &#123;{#invoke:math|precision_format|''value_string''|''precision''}}
+
+<syntaxhighlight lang="lua">
+mm._precision_format(value_string, precision)
+</syntaxhighlight>
+
+Rounds a number to the specified precision and formats according to rules originally used for {{tl|Rnd}}.  Output is a string.
+
+Parameter <var>precision</var> should be an integer number of digits after the decimal point. Negative values are permitted. Non-integers give unexpected results. Positive values greater than the input precision add zero-padding, negative values greater than the input order can consume all digits.
+
+Formatting 8,765.567 with {{tlc|#invoke:Math|precision_format|8765.567|<var>precision</var>}} gives:
+{|class="wikitable"
+|+
+!<code><var>precision</var></code>!!Result
+|-
+|style="text-align:right"|2||{{#invoke:Math|precision_format|8765.567|2}}
+|-
+|style="text-align:right"| -2||{{#invoke:Math|precision_format|8765.567|-2}}
+|-
+|style="text-align:right"|6||{{#invoke:Math|precision_format|8765.567|6}}
+|-
+|style="text-align:right"| -6||{{#invoke:Math|precision_format|8765.567|-6}}
+|-
+|style="text-align:right"|2.5||{{#invoke:Math|precision_format|8765.567|2.5}}
+|-
+|style="text-align:right"| -2.5||{{#invoke:Math|precision_format|8765.567|-2.5}}
+|}
+
+== divide ==
+
+ &#123;{#invoke:Math|divide|''x''|''y''|''round=''|''precision=''}}
+
+<syntaxhighlight lang="lua">
+mm._divide(x, y, round, precision)
+</syntaxhighlight>
+
+Divide x by y.
+
+* If y if not a number, it is returned.
+* Otherwise, if x is not a number, it is returned.
+* If round is true ("yes" for #invoke), the result has no decimals
+* Precision indicates how many digits of precision the result should have
+
+If any of the arguments contain HTML tags, they are returned unchanged, allowing any errors in calculating the arguments to the division function to be propagated to the calling template.  
+
+== cleanNumber ==
+
+<syntaxhighlight lang="lua">
+local number, number_string = mm._cleanNumber(number_string)
+</syntaxhighlight>
+
+A helper function that can be called from other Lua modules, but not from #invoke. This takes a string or a number value as input, and if the value can be converted to a number either directly or via the <code><nowiki>{{#expr}}</nowiki></code> [[:mw:Help:Extension:ParserFunctions##expr|parser function]], cleanNumber returns the number and the number string. If the value cannot be converted to a number, cleanNumber returns <syntaxhighlight lang="lua" inline>nil, nil</syntaxhighlight>. A second parameter can be set to <syntaxhighlight lang="lua" inline>true</syntaxhighlight> to also run <code>number_string</code> through the <code><nowiki>{{formatnum:|R}}</nowiki></code> [[Help:Magic_words#Formatting|magic word]].
+
+<syntaxhighlight lang="lua">
+local number, number_string = mm._cleanNumber(number_string, true)
+</syntaxhighlight>
+
+==See also==
+{{Math templates}}

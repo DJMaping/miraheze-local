@@ -1,0 +1,5 @@
+#REDIRECT [[Template:ParserFunction]]
+
+{{Redirect category shell|
+{{R from move}}
+}}
