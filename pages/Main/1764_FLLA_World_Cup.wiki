@@ -64,18 +64,18 @@ In its bid, the Raledrian Arraby Association proposed a programme of stadium con
 ===Qualification===
 {{Main|1764 FLLA World Cup qualification}}
 [[File:1764_FLLA_World_cup_qualification.png|thumb|upright=1.8|{{col-2}}{{legend|#0000ff|Qualified}} {{legend|#ffcc00|Did not qualify}}{{col-2}}{{legend|black|Did not enter}} {{legend|#e0e0e0|Not a FIFA member}}{{col-end}}]]
-A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. [[Raledria]] qualified as of right under FLLA hosting regulations and additionally took part in the [[NFLA]] qualifying tournament in a non-binding capacity, finishing first in the final round-robin. The reigning champions [[Verusa]], winners of the [[1760 FLLA World Cup]], qualified through the [[AFLA]] qualifiers.
+A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. [[Raledria]] qualified as of right under FLLA hosting regulations and additionally took part in the [[ATFVL]] qualifying tournament in a non-binding capacity, finishing first in the final round-robin. The reigning champions [[Verusa]], winners of the [[1760 FLLA World Cup]], qualified through the [[AYFVL]] qualifiers.
 
 The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
 
-==== [[NFLA]] (Atirha) — 4 berths ====
+==== [[ATFVL]] (Atirha) — 4 berths ====
 First-round groups followed by a final octagonal round-robin. Qualified teams:
 * {{Flagicon|Raledria}} [[Raledria]]
 * {{Flagicon|Grazail}} [[Grazail]]
 * {{Flagicon|Gaeiya}} [[Gaeiya]]
 * {{Flagicon|Genaire}} [[Genaire]]
 
-==== [[AFLA]] (Ayuma) — 5 berths ====
+==== [[AYFVL]] (Ayuma) — 5 berths ====
 Five group-stage groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Emara}} [[Emara]]
 * {{Flagicon|Lycroa}} [[Lycroa]]
@@ -83,14 +83,14 @@ Five group-stage groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Easuhura}} [[Easuhura]]
 * {{Flagicon|Siana}} [[Siana]]
 
-==== [[NAFLA]] (New Ayre) — 4 berths ====
+==== [[NAFVL]] (New Ayre) — 4 berths ====
 A single 23-team double round-robin league. Qualified teams:
 * {{Flagicon|Astye}} [[Astye]]
 * {{Flagicon|Mendereide}} [[Mendereide]]
 * {{Flagicon|Iainoa}} [[Iainoa]]
 * {{Flagicon|Isari}} [[Isari]]
 
-==== [[EFLA]] (Mahea) — 5 berths ====
+==== [[MAFVL]] (Mahea) — 5 berths ====
 Five group-stage groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Seytinemas}} [[Seytinemas]]
 * {{Flagicon|Trian}} [[Trian]]
@@ -98,14 +98,14 @@ Five group-stage groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Exilium}} [[Exilium]]
 * {{Flagicon|Chaenia}} [[Chaenia]]
 
-==== [[QFLA]] (Quia) — 4 berths ====
+==== [[QUFVL]] (Quia) — 4 berths ====
 First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Finae}} [[Finae]]
 * {{Flagicon|Anymna}} [[Anymna]]
 * {{Flagicon|Wundry}} [[Wundry]]
 * {{Flagicon|Erkizil}} [[Erkizil]]
 
-==== [[MFLA]] (Massir) — 5 berths ====
+==== [[MSFVL]] (Massir) — 5 berths ====
 First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Sanagara}} [[Sanagara]]
 * {{Flagicon|Haiza}} [[Haiza]]
@@ -113,7 +113,7 @@ First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Vesozata}} [[Vesozata]]
 * {{Flagicon|Dahe}} [[Dahe]]
 
-==== [[CFLA]] (Acrola) — 5 berths ====
+==== [[ACFVL]] (Acrola) — 5 berths ====
 First-round groups followed by single-leg knockout playoffs. Qualified teams:
 * {{Flagicon|Terressin}} [[Terressin]]
 * {{Flagicon|Pelines}} [[Pelines]]
@@ -182,7 +182,7 @@ The draw was conducted by FLLA general secretary Henrik Vasshala and presented b
 
 The FLLA Referees Committee appointed 22 refereeing trios - each consisting of one referee and two assistants from the same national association - and four support pairs, drawn between them from 39 nations. The selections were announced in three tranches between November 1763 and February 1764, following an extended assessment programme in which prospective officials had been observed at the [[1763 FLLA Continental Champions Cup]] and at senior friendlies organised in [[Tirna]] and [[Rovik]].<ref>{{cite web|url=https://www.flla.org/1764/officials-announced|title=Match officials confirmed for the 1764 FLLA World Cup|publisher=[[FLLA]]|date=4 February 1764}}</ref>
 
-The opening match was refereed by Hema Naroussou of [[Pelines]], the first official from the [[CFLA]] to take charge of a World Cup opening fixture. The final was officiated by Kenji Tanaka of [[Myla]], the first [[QFLA]]-affiliated referee to officiate a FLLA World Cup final since Hashan Tegir in 1736. The two semi-finals were taken by Carlos Mendez of [[Estijan]] ([[AFLA]]) for the first semi-final and Erik Halvorsen of [[Dual Cenryia]] ([[EFLA]]) for the second. The 22 selected referees were drawn from 17 nations and represented all seven [[FLLA]] confederations; selections were weighted by the FLLA Referees Committee against each association's standing in the international officiating rankings, which in turn closely tracks national footballing participation and population.
+The opening match was refereed by Hema Naroussou of [[Pelines]], the first official from the [[ACFVL]] to take charge of a World Cup opening fixture. The final was officiated by Kenji Tanaka of [[Myla]], the first [[QUFVL]]-affiliated referee to officiate a FLLA World Cup final since Hashan Tegir in 1736. The two semi-finals were taken by Carlos Mendez of [[Estijan]] ([[AYFVL]]) for the first semi-final and Erik Halvorsen of [[Dual Cenryia]] ([[MAFVL]]) for the second. The 22 selected referees were drawn from 17 nations and represented all seven [[FLLA]] confederations; selections were weighted by the FLLA Referees Committee against each association's standing in the international officiating rankings, which in turn closely tracks national footballing participation and population.
 
 ==Squads==
 {{Main|1764 FLLA World Cup squads}}
@@ -707,7 +707,7 @@ The quarter-finals produced a second penalty shoot-out, with [[Verusa]] eliminat
 
 ===Semi-finals===
 
-Both semi-finals were settled inside 90 minutes. [[Emara]] beat [[Verusa]] 2–0 in the first semi-final at Estadio Rovik, while [[Easuhura]] edged [[Seytinemas]] 2–1 at the Zunle Olympic Arena to set up an all-[[AFLA]] final.
+Both semi-finals were settled inside 90 minutes. [[Emara]] beat [[Verusa]] 2–0 in the first semi-final at Estadio Rovik, while [[Easuhura]] edged [[Seytinemas]] 2–1 at the Zunle Olympic Arena to set up an all-[[AYFVL]] final.
 
 {{Football box
 | date = {{Start date|1764|7|8|df=y}}
@@ -755,7 +755,7 @@ The third-place playoff was contested between the two losing semi-finalists at T
 ===Final===
 {{Main|1764 FLLA World Cup final}}
 
-The final was contested between [[Easuhura]] and [[Emara]], both representatives of the [[AFLA]] and finalists from Group C and Group E respectively. [[Emara]] entered the match as the tournament's leading goalscoring nation. [[Easuhura]] won the match 2–1 to claim their first FLLA World Cup, completing the tournament without a single defeat across seven matches. Easuhuran captain Sahel Mavari opened the scoring with a free-kick in the 33rd minute; Theio Ravar equalised for Emara from the penalty spot four minutes after the break, before substitute Davo Karelis scored the winning goal in the 79th minute. The attendance of 85,720 was the highest of the tournament.
+The final was contested between [[Easuhura]] and [[Emara]], both representatives of the [[AYFVL]] and finalists from Group C and Group E respectively. [[Emara]] entered the match as the tournament's leading goalscoring nation. [[Easuhura]] won the match 2–1 to claim their first FLLA World Cup, completing the tournament without a single defeat across seven matches. Easuhuran captain Sahel Mavari opened the scoring with a free-kick in the 33rd minute; Theio Ravar equalised for Emara from the penalty spot four minutes after the break, before substitute Davo Karelis scored the winning goal in the 79th minute. The attendance of 85,720 was the highest of the tournament.
 
 {{Football box
 | date = {{Start date|1764|7|11|df=y}}
@@ -865,37 +865,37 @@ Final standings of the 32 participating teams at the 1764 FLLA World Cup, as pub
 |+ Final standings
 ! Pos !! Team !! Confederation !! Stage reached
 |-
-| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || [[AFLA]] || align="left" | Champions
+| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || [[AYFVL]] || align="left" | Champions
 |-
-| 2 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AFLA]] || align="left" | Runners-up
+| 2 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AYFVL]] || align="left" | Runners-up
 |-
-| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || [[AFLA]] || align="left" | Third place
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || [[AYFVL]] || align="left" | Third place
 |-
-| 4 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || [[EFLA]] || align="left" | Fourth place
+| 4 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || [[MAFVL]] || align="left" | Fourth place
 |-
-| 5 || align="left" | {{Flagicon|Siana}} [[Siana]] || [[AFLA]] || align="left" | Quarter-finals
+| 5 || align="left" | {{Flagicon|Siana}} [[Siana]] || [[AYFVL]] || align="left" | Quarter-finals
 |-
-| 6 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || [[MFLA]] || align="left" | Quarter-finals
+| 6 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || [[MSFVL]] || align="left" | Quarter-finals
 |-
-| 7 || align="left" | {{Flagicon|Raledria}} [[Raledria]] ''(H)'' || [[NFLA]] || align="left" | Quarter-finals
+| 7 || align="left" | {{Flagicon|Raledria}} [[Raledria]] ''(H)'' || [[ATFVL]] || align="left" | Quarter-finals
 |-
-| 8 || align="left" | {{Flagicon|Finae}} [[Finae]] || [[QFLA]] || align="left" | Quarter-finals
+| 8 || align="left" | {{Flagicon|Finae}} [[Finae]] || [[QUFVL]] || align="left" | Quarter-finals
 |-
-| 9 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AFLA]] || align="left" | Round of 16
+| 9 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AYFVL]] || align="left" | Round of 16
 |-
-| 10 || align="left" | {{Flagicon|Vesozata}} [[Vesozata]] || [[MFLA]] || align="left" | Round of 16
+| 10 || align="left" | {{Flagicon|Vesozata}} [[Vesozata]] || [[MSFVL]] || align="left" | Round of 16
 |-
-| 11 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MFLA]] || align="left" | Round of 16
+| 11 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MSFVL]] || align="left" | Round of 16
 |-
-| 12 || align="left" | {{Flagicon|Chaenia}} [[Chaenia]] || [[EFLA]] || align="left" | Round of 16
+| 12 || align="left" | {{Flagicon|Chaenia}} [[Chaenia]] || [[MAFVL]] || align="left" | Round of 16
 |-
-| 13 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || [[CFLA]] || align="left" | Round of 16
+| 13 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || [[ACFVL]] || align="left" | Round of 16
 |-
-| 14 || align="left" | {{Flagicon|Jshain}} [[Jshain]] || [[CFLA]] || align="left" | Round of 16
+| 14 || align="left" | {{Flagicon|Jshain}} [[Jshain]] || [[ACFVL]] || align="left" | Round of 16
 |-
-| 15 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || [[NFLA]] || align="left" | Round of 16
+| 15 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || [[ATFVL]] || align="left" | Round of 16
 |-
-| 16 || align="left" | {{Flagicon|Isnti}} [[Isnti]] || [[EFLA]] || align="left" | Round of 16
+| 16 || align="left" | {{Flagicon|Isnti}} [[Isnti]] || [[MAFVL]] || align="left" | Round of 16
 |-
 | 17–32 || align="left" | Eliminated in group stage || colspan="2" | ''see [[#Group stage|group stage]] tables''
 |}
@@ -937,7 +937,7 @@ The official theme song of the tournament, "Over Tirna", was composed by Raledri
 ==Media==
 {{Main|1764 FLLA World Cup broadcasting rights}}
 
-The 1764 FLLA World Cup was broadcast in 187 countries by 64 official television partners and a further 26 official radio partners. Domestic broadcasting rights in [[Raledria]] were held by the Raledrian National Network (RNN), which produced the host feed and screened all 64 matches across two of its terrestrial channels. The international rights for the [[AFLA]] region were held by [[Emara|Emaran]] public-service broadcaster ECN; the [[MFLA]] rights by the Dahen-based satellite broadcaster Vela-12; and the [[CFLA]] rights by a five-broadcaster consortium led by Estijans national broadcaster ETP.
+The 1764 FLLA World Cup was broadcast in 187 countries by 64 official television partners and a further 26 official radio partners. Domestic broadcasting rights in [[Raledria]] were held by the Raledrian National Network (RNN), which produced the host feed and screened all 64 matches across two of its terrestrial channels. The international rights for the [[AYFVL]] region were held by [[Emara|Emaran]] public-service broadcaster ECN; the [[MSFVL]] rights by the Dahen-based satellite broadcaster Vela-12; and the [[ACFVL]] rights by a five-broadcaster consortium led by Estijans national broadcaster ETP.
 
 The final between [[Easuhura]] and [[Emara]] was the most-watched television broadcast in [[Easuhura|Easuhuran]] history, drawing a peak audience of 18.4 million viewers (representing approximately 92&nbsp;per&nbsp;cent of the active television audience in the country) and a domestic Raledrian audience of 23.1 million for the build-up programming and post-match coverage. Worldwide, the FLLA reported a cumulative live broadcast audience for the tournament of 3.9 billion individual viewers across all matches, with 1.8 billion individuals tuning in to at least part of the final.<ref>{{cite web|url=https://www.flla.org/1764/audience-summary|title=1764 FLLA World Cup viewership summary|publisher=[[FLLA]]|date=24 August 1764}}</ref>
 
@@ -968,13 +968,13 @@ The next edition of the FLLA World Cup, the [[1768 FLLA World Cup]], was awarded
 * [[FLLA World Cup]]
 * [[1760 FLLA World Cup]]
 * [[1768 FLLA World Cup]]
-* [[NFLA]]
-* [[AFLA]]
-* [[NAFLA]]
-* [[EFLA]]
-* [[QFLA]]
-* [[MFLA]]
-* [[CFLA]]
+* [[ATFVL]]
+* [[AYFVL]]
+* [[NAFVL]]
+* [[MAFVL]]
+* [[QUFVL]]
+* [[MSFVL]]
+* [[ACFVL]]
 
 ==References==
 {{reflist}}
