@@ -191,7 +191,7 @@ The seeded pot produced two groups containing both a previous World Cup finalist
 
 The FLLA Referees Committee appointed 22 refereeing trios — each consisting of one referee and two assistants from the same national association — and four support pairs, drawn between them from 39 nations. The selections were announced in three tranches between November 1763 and February 1764, following an extended assessment programme in which prospective officials had been observed at the [[1763 FLLA Continental Champions Cup]] and at senior friendlies organised in [[Tirna]] and [[Rovik]].<ref>{{cite web|url=https://www.flla.org/1764/officials-announced|title=Match officials confirmed for the 1764 FLLA World Cup|publisher=[[FLLA]]|date=4 February 1764}}</ref>
 
-The opening match was refereed by Hema Naroussou of [[Pelines]], the first official from the [[CFLA]] to take charge of a World Cup opening fixture. The final was officiated by Vinka Krmstedt of [[Trian]], the second Trianese referee to officiate at a FLLA World Cup final, after Lorek Sanchak in 1748. Both semi-finals were taken by [[NFLA]] officials: Tomas Wells of [[Genaire]] for the first semi-final and Carlos Riveda of [[Gaeiya]] for the second.
+The opening match was refereed by Hema Naroussou of [[Pelines]], the first official from the [[CFLA]] to take charge of a World Cup opening fixture. The final was officiated by Kenji Tanaka of [[Myla]], the first [[QFLA]]-affiliated referee to officiate a FLLA World Cup final since Hashan Tegir in 1736. The two semi-finals were taken by Carlos Mendez of [[Estijan]] ([[AFLA]]) for the first semi-final and Erik Halvorsen of [[Dual Cenryia]] ([[EFLA]]) for the second. The 22 selected referees were drawn from 16 nations and represented all seven [[FLLA]] confederations; selections were weighted by the FLLA Referees Committee against each association's standing in the international officiating rankings, which in turn closely tracks national footballing participation and population.
 
 ==Squads==
 {{Main|1764 FLLA World Cup squads}}
@@ -558,8 +558,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 = Pavnik {{Goal|67}}
 |stadium = Estadio Rovik, [[Rovik]]
 |attendance = 68,900
-|referee = Andre Volkov ([[Genaire]])
+|referee = Daichi Mori ([[Sunsokua]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|6|28|df=y}}
 |time = 21:00 WRT
@@ -570,8 +571,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 = Mavidis {{Goal|78}}
 |stadium = Komiros Field, [[Komiros]]
 |attendance = 42,310
-|referee = Markel Bray ([[Lycroa]])
+|referee = Aakash Sharma ([[Dahe]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|6|29|df=y}}
 |time = 17:00 WRT
@@ -582,8 +584,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 = Demane {{Goal|19}}<br/>Kifu {{Goal|88}}
 |stadium = Tavik Park, [[Tavik]]
 |attendance = 59,400
-|referee = Yusuf Akrim ([[Pelines]])
+|referee = Andrei Volkov ([[Raledria]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|6|29|df=y}}
 |time = 21:00 WRT
@@ -594,8 +597,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 =
 |stadium = Birska Memorial Stadium, [[Birska]]
 |attendance = 47,750
-|referee = Roko Eldjuk ([[Lycroa]])
+|referee = Renat Petr ([[Pelugrotoa]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|6|30|df=y}}
 |time = 17:00 WRT
@@ -606,8 +610,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 = Rentini {{Goal|45+2}}
 |stadium = Fryokar City Stadium, [[Fryokar]]
 |attendance = 46,810
-|referee = Ali Faridi ([[Sanagara]])
+|referee = Rajesh Khanna ([[United Mihili]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|6|30|df=y}}
 |time = 21:00 WRT
@@ -618,8 +623,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 = Karelis {{Goal|23}}<br/>Mavari {{Goal|56}}<br/>Yaru {{Goal|84}}
 |stadium = Pekrin-Vavlen Coliseum, [[Pekrin-Vavlen]]
 |attendance = 50,140
-|referee = Bodo Krafsen ([[Trian]])
+|referee = Diego Hernández ([[Astye]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|7|1|df=y}}
 |time = 17:00 WRT
@@ -633,8 +639,9 @@ The eight group winners were drawn against the eight group runners-up, with each
 |penalties2 = {{Pengoal}} Walu<br/>{{Pengoal}} Komito<br/>{{Pengoal}} Naila<br/>{{Penmiss}} Bona<br/>{{Pengoal}} Tilek
 |stadium = Zunle Olympic Arena, [[Zunle]]
 |attendance = 60,400
-|referee = Marek Janso ([[Genaire]])
+|referee = Kwame Obeng ([[Viussi]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|7|1|df=y}}
 |time = 21:00 WRT
@@ -645,7 +652,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 |goals2 =
 |stadium = Tirna National Stadium, [[Tirna]]
 |attendance = 79,300
-|referee = Kasoaki Tonga ([[Pelines]])
+|referee = Marcus Aldrich ([[Areoix Lie]])
 }}
 
 ===Quarter-finals===
@@ -665,8 +672,9 @@ The quarter-finals produced a second penalty shoot-out, with [[Verusa]] eliminat
 |penalties2 = {{Pengoal}} Bhadra<br/>{{Pengoal}} Lemar<br/>{{Pengoal}} Hai<br/>{{Pengoal}} Singvi<br/>{{Pengoal}} Korba<br/>{{Penmiss}} Tuluk
 |stadium = Tirna National Stadium, [[Tirna]]
 |attendance = 81,200
-|referee = Han Beronas ([[Easuhura]])
+|referee = Tomáš Novák ([[Ocaun]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|7|4|df=y}}
 |time = 21:00 WRT
@@ -677,8 +685,9 @@ The quarter-finals produced a second penalty shoot-out, with [[Verusa]] eliminat
 |goals2 = Karelis {{Goal|67}}
 |stadium = Estadio Rovik, [[Rovik]]
 |attendance = 72,800
-|referee = Yuri Tolen ([[Gaeiya]])
+|referee = Hiroshi Yamada ([[Ztesh]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|7|5|df=y}}
 |time = 17:00 WRT
@@ -689,8 +698,9 @@ The quarter-finals produced a second penalty shoot-out, with [[Verusa]] eliminat
 |goals2 = Lemniska {{Goal|23}}<br/>Borek {{Goal|78}}
 |stadium = Tavik Park, [[Tavik]]
 |attendance = 58,900
-|referee = Bashar Eldai ([[Vesozata]])
+|referee = Aelfric Holloway ([[Ealdorii]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|7|5|df=y}}
 |time = 21:00 WRT
@@ -701,7 +711,7 @@ The quarter-finals produced a second penalty shoot-out, with [[Verusa]] eliminat
 |goals2 = Vinjala {{Goal|32}}
 |stadium = Zunle Olympic Arena, [[Zunle]]
 |attendance = 62,800
-|referee = Vito Manoska ([[Chaenia]])
+|referee = Min-Jun Park ([[Ashain]])
 }}
 
 ===Semi-finals===
@@ -718,8 +728,9 @@ Both semi-finals were settled inside 90 minutes. [[Emara]] beat [[Verusa]] 2–0
 |goals2 = Ravenscar {{Goal|41}}<br/>Brunsbeck {{Goal|79}}
 |stadium = Estadio Rovik, [[Rovik]]
 |attendance = 72,600
-|referee = Tomas Wells ([[Genaire]])
+|referee = Carlos Mendez ([[Estijan]])
 }}
+----
 {{Football box
 |date = {{Start date|1764|7|9|df=y}}
 |time = 20:00 WRT
@@ -730,7 +741,7 @@ Both semi-finals were settled inside 90 minutes. [[Emara]] beat [[Verusa]] 2–0
 |goals2 = Lemniska {{Goal|56}}
 |stadium = Zunle Olympic Arena, [[Zunle]]
 |attendance = 63,800
-|referee = Carlos Riveda ([[Gaeiya]])
+|referee = Erik Halvorsen ([[Dual Cenryia]])
 }}
 
 ===Third place playoff===
@@ -747,7 +758,7 @@ The third-place playoff was contested between the two losing semi-finalists at T
 |goals2 = Lemniska {{Goal|33}}<br/>Borek {{Goal|69}}
 |stadium = Tavik Park, [[Tavik]]
 |attendance = 56,800
-|referee = Anu Vepra ([[Terressin]])
+|referee = Sanjay Patel ([[Oyreain]])
 }}
 
 ===Final===
@@ -765,7 +776,7 @@ The final was contested between [[Easuhura]] and [[Emara]], both representatives
 |goals2 = Mavari {{Goal|33}}<br/>Karelis {{Goal|79}}
 |stadium = Tirna National Stadium, [[Tirna]]
 |attendance = 85,720
-|referee = Vinka Krmstedt ([[Trian]])
+|referee = Kenji Tanaka ([[Myla]])
 }}
 
 ==Statistics==
