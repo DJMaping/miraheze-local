@@ -50,7 +50,7 @@
 |footnotes      = 
 }}
 
-'''Massir''' is a continent located in the southern hemisphere. It is bordered by the [[Vihsanna Ocean]] to the north, the [[Diairesi Dea]], [[Krta Sea]], [[Ubrana Sea]] and [[Trayd Sea]] to the east, [[Hinsakian Ocean]] to the south, and the [[Southern Eanif Ocean]], [[Sheilia Bay]] and [[Sea of Miali]] to the south. The continent covers around {{convert|17,731,160|km2|sqmi|abbr=on}} of land, making it the 4th largest continent in the world, with a total of about 1,389,670,000 as of 1765, making it also the 1st largest continent by population.
+'''Massir''' is a continent located in the southern hemisphere. It is bordered by the [[Vihsanna Ocean]] to the north, the [[Diairesi Dea]], [[Kera Sea]], [[Ubrana Sea]] and [[Trayd Cren Sea]] to the east, [[Hinsakian Ocean]] to the south, and the [[Southern Eanif Ocean]], [[Sheilia Bay]] and [[Sea of Miali]] to the south. The continent covers around {{convert|17,731,160|km2|sqmi|abbr=on}} of land, making it the 4th largest continent in the world, with a total of about 1,389,670,000 as of 1765, making it also the 1st largest continent by population.
 
 [[Category:Infobox templates| ]]
 [[Category:Lua-based templates]]
