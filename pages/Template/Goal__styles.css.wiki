@@ -1,0 +1,4 @@
+/* {{pp|small=y}} */
+.fb-goal > span {
+	
+}

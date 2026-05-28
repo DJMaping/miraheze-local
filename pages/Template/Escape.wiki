@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Escape|main}}</includeonly><noinclude>
+{{doc}}
+</noinclude>

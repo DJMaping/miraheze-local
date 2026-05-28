@@ -1,9 +1,9 @@
 {{SAFESUBST:<noinclude />#invoke:Unsubst||date=__DATE__ |$B={{Ombox
 | type  = content
-| name  = Improve documentation
+| name = Improve documentation
 | class = ambox-Refimprove
-| image = [[File:Edit-copy green with red question mark.svg|50x40px|link=|alt=Edit-copy green with red question mark]]
-| text  = This {{#switch:{{NAMESPACE}}|{{ns:828}}=module|#default=template}}'s [[Wikipedia:Template documentation|documentation]] '''is missing, inadequate, or does not accurately describe its functionality or the [[Help:Template#Parameters|parameters]] in its code'''. {{#if:{{{reason|}}}|''(Reason: {{{reason}}})''|}} Please help [{{fullurl:{{FULLPAGENAME}}{{#ifexpr:{{#ifexist:{{FULLPAGENAME}}/doc|1|0}} or {{yesno|1={{{linkdocsub|no}}}|yes=1|no=0}}|/doc}}|action=edit}} add, expand, or improve it]. {{#if:{{{talk|{{{1|}}}}}} |See [[{{TALKPAGENAME}}|talk page]] for details.|}} {{#if:{{{date|{{{2|}}}}}} |{{small|''({{{date}}})''}}}}
-}}<includeonly>{{#switch:{{SUBPAGENAME}}|doc|sandbox|testcases=|#default={{Dated maintenance category|||Templates with missing or incorrect documentation}}}}</includeonly>}}<noinclude>
+| image = [[File:Edit-copy green with red question mark.svg|50x40px|link=|alt=]]
+| text  = This {{#switch:{{NAMESPACE}}|{{ns:828}}=module|#default=template}}'s '''[[Wikipedia:Template documentation|documentation]] is missing, inadequate''', or does not accurately describe its functionality or the [[Help:Template#Parameters|parameters]] in its code. {{#if:{{{reason|}}}|''(Reason: {{{reason}}})''|}} Please help [{{fullurl:{{FULLPAGENAME}}{{#ifexpr:{{#ifexist:{{FULLPAGENAME}}/doc|1|0}} or {{yesno|1={{{linkdocsub|no}}}|yes=1|no=0}}|/doc}}|action=edit}} add, expand, or improve it]. {{#if:{{{talk|{{{1|}}}}}} |See [[{{TALKPAGENAME}}|talk page]] for details.|}} {{#if:{{{date|{{{2|}}}}}} |{{small|''({{{date}}})''}}}}
+}}<includeonly>{{#switch:{{SUBPAGENAME}}|doc|sandbox|testcases=|#default=[[Category:Templates with missing or incorrect documentation|{{#if:{{{date|}}}|{{#time:Y n|{{{date|}}}}}|{{BASEPAGENAME}}}}]]}}}}</includeonly><noinclude>
 {{Documentation}}
 </noinclude>

@@ -1,0 +1,37 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Italy
+| flag alias = Flag of Italy.svg
+| flag alias-1861 = Flag of Italy (1861–1946).svg
+| flag alias-1943 = War flag of the Italian Social Republic.svg
+| flag alias-2003 = Flag of Italy (2003–2006).svg
+| flag alias-civil = Civil Ensign of Italy.svg
+| flag alias-state = State ensign of Italy.svg
+| flag alias-war = War flag of Italy.svg
+| flag alias-naval = Naval jack of Italy.svg
+| flag alias-navy-1947 = Naval Ensign of Italy (1947-2013).svg
+| link alias-naval = Italian Navy
+| link alias-air force = Italian Air Force
+| link alias-army = Italian Army
+| flag alias-navy = Naval ensign of Italy.svg
+| link alias-navy = Italian Navy
+| link alias-roller hockey = Italy {{{mw}}} national roller hockey team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = 1861
+| var2 = 1943
+| var4 = 2003
+| var5 = civil
+| var6 = state
+| var7 = war
+| var8 = navy-1947
+| redir1 = ITA
+| related1 = Kingdom of Italy
+| related2 = Fascist Italy
+| related3 = Italian Social Republic
+| related4 = Napoleonic Italy
+</noinclude>
+}}

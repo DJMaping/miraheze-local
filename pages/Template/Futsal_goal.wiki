@@ -1,0 +1,20 @@
+<templatestyles src="Goal/styles.css"/><span class="fb-goal">[[File:Soccerball shade.svg|13px|{{#switch: {{{3|}}} |o.g.|og=Own goal | #default=Goal}}|link=|alt=]]<!--
+-->{{#if: {{#if:{{{1|}}}|{{{1|}}}|{{{3|}}}}}|&#32;<span>{{#if: {{{1|}}}|{{{1}}}&#39;{{#if: {{{2|}}}|{{{2}}}&#34;}}}}{{#if: {{{3|}}}|{{#if:{{{1|}}}|&nbsp;}}{{#switch: {{{3|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{3}}})}}}}</span>}}<!--
+-->{{#if: {{{4<includeonly>|</includeonly>}}}|, <span>{{{4}}}&#39;{{#if: {{{5|}}}|{{{5}}}&#34;}}{{#if: {{{6|}}}|&nbsp;{{#switch: {{{6|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{6}}})}}}}</span>}}<!--
+-->{{#if: {{{7<includeonly>|</includeonly>}}}|, <span>{{{7}}}&#39;{{#if: {{{8|}}}|{{{8}}}&#34;}}{{#if: {{{9|}}}|&nbsp;{{#switch: {{{9|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{9}}})}}}}</span>}}<!--
+-->{{#if: {{{10<includeonly>|</includeonly>}}}|, <span>{{{10}}}&#39;{{#if: {{{11|}}}|{{{11}}}&#34;}}{{#if: {{{12|}}}|&nbsp;{{#switch: {{{12|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{12}}})}}}}</span>}}<!--
+-->{{#if: {{{13<includeonly>|</includeonly>}}}|, <span>{{{13}}}&#39;{{#if: {{{14|}}}|{{{14}}}&#34;}}{{#if: {{{15|}}}|&nbsp;{{#switch: {{{15|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{15}}})}}}}</span>}}<!--
+-->{{#if: {{{16<includeonly>|</includeonly>}}}|, <span>{{{16}}}&#39;{{#if: {{{17|}}}|{{{17}}}&#34;}}{{#if: {{{18|}}}|&nbsp;{{#switch: {{{18|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{18}}})}}}}</span>}}<!--
+-->{{#if: {{{19<includeonly>|</includeonly>}}}|, <span>{{{19}}}&#39;{{#if: {{{20|}}}|{{{20}}}&#34;}}{{#if: {{{21|}}}|&nbsp;{{#switch: {{{21|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{21}}})}}}}</span>}}<!--
+-->{{#if: {{{22<includeonly>|</includeonly>}}}|, <span>{{{22}}}&#39;{{#if: {{{23|}}}|{{{23}}}&#34;}}{{#if: {{{24|}}}|&nbsp;{{#switch: {{{24|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{24}}})}}}}</span>}}<!--
+-->{{#if: {{{25<includeonly>|</includeonly>}}}|, <span>{{{25}}}&#39;{{#if: {{{26|}}}|{{{26}}}&#34;}}{{#if: {{{27|}}}|&nbsp;{{#switch: {{{27|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{27}}})}}}}</span>}}<!--
+-->{{#if: {{{28<includeonly>|</includeonly>}}}|, <span>{{{28}}}&#39;{{#if: {{{29|}}}|{{{29}}}&#34;}}{{#if: {{{30|}}}|&nbsp;{{#switch: {{{30|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|p =([[Futsal#Penalty|pen.]]) |2pen.|2p=([[Futsal#Second mark|2pen.]]) | #default = ({{{30}}})}}}}</span>}}<!--
+--></span>{{#if:{{#invoke:ustring|match|\{{{1|}}}¬¬{{{4|}}}¬¬{{{7|}}}¬¬{{{10|}}}¬¬{{{13|}}}¬¬{{{16|}}}¬¬{{{19|}}}¬¬{{{22|}}}¬¬{{{25|}}}¬¬{{{28|}}}¬¬|'%s*¬¬}}|{{main other|[[Category:Association football templates needing maintenance]]|{{category other||{{red|&nbsp;'''Single Quote Error!'''}}}}}}}}<!--
+-->{{#if:{{#invoke:ustring|match|\{{{2|}}}¬¬{{{5|}}}¬¬{{{8|}}}¬¬{{{11|}}}¬¬{{{14|}}}¬¬{{{17|}}}¬¬{{{20|}}}¬¬{{{23|}}}¬¬{{{26|}}}¬¬{{{29|}}}¬¬|"%s*¬¬}}|{{main other|[[Category:Association football templates needing maintenance]]|{{category other||{{red|&nbsp;'''Double Quote Error!'''}}}}}}}}<noinclude>
+
+{{documentation}}
+
+
+<!-- Categories and interwikis go on /doc -->
+
+</noinclude>

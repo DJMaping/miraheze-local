@@ -1,0 +1,260 @@
+{{Documentation subpage}}
+{{Bot use warning|bot=[[User:cewbot]]}}
+{{High-use| 18910 }}
+{{Lua|Module:Football box}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+
+== Usage ==
+
+All attributes are optional.
+
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Football box
+|id           =
+|date         = <!-- {{Start date|YYYY|MM|DD|df=y}} -->
+|time         =
+|event        =
+|round        =
+|team1        =
+|score1       =
+|team2        =
+|score2       =
+|scorenote    = 
+|aet          =
+|report       =
+|goals1       =
+|goals2       =
+|stadium      =
+|location     =
+|attendance   =
+|referee      =
+|potm         =
+|penalties1   =
+|penaltyscore =
+|penalties2   =
+|size         = <!-- changes the width; use a percentage; include "%" after the percentage; default is "100%" -->
+|bg           = <!-- changes the background color; use a hex color code; include "#" before the hex color code; default is "transparent" -->
+}}
+</syntaxhighlight>
+
+== Example ==
+<syntaxhighlight lang="wikitext" style="overflow:auto">
+{{Football box
+|id           = Italy v France
+|date         = {{Start date|2006|07|09|df=y}}
+|time         = 20:00 [[Central European Summer Time|CEST]]
+|event        = [[2006 FIFA World Cup]]
+|round        = [[2006 FIFA World Cup Final|Final]]
+|team1        = {{fb-rt|ITA}}
+|score1       = 1
+|team2        = {{fb|FRA}}
+|score2       = 1
+|aet          = yes
+|report       = https://www.fifa.com/worldcup/matches/round=97410600/match=97410064/index.html
+|goals1       = [[Marco Materazzi|Materazzi]] {{goal|19}}
+|goals2       = [[Zinedine Zidane|Zidane]] {{goal|7|pen.}}
+|stadium      = [[Olympiastadion (Berlin)|Olympiastadion]]
+|location     = [[Berlin]]
+|attendance   = 69,000
+|referee      = [[Horacio Elizondo]] ([[Argentine Football Association|Argentina]])
+|penaltyscore = 5–3
+|penalties1   = 
+* [[Andrea Pirlo|Pirlo]] {{pengoal}}
+* [[Marco Materazzi|Materazzi]] {{pengoal}}
+* [[Daniele De Rossi|De Rossi]] {{pengoal}}
+* [[Alessandro Del Piero|Del Piero]] {{pengoal}}
+* [[Fabio Grosso|Grosso]] {{pengoal}}
+|penalties2   = 
+* {{pengoal}} [[Sylvain Wiltord|Wiltord]]
+* {{penmiss}} [[David Trezeguet|Trezeguet]]
+* {{pengoal}} [[Éric Abidal|Abidal]]
+* {{pengoal}} [[Willy Sagnol|Sagnol]]
+}}
+</syntaxhighlight>
+
+produces:
+
+{{Football box
+|id           = Italy v France
+|date         = {{Start date|2006|07|09|df=y}}
+|time         = 20:00 [[Central European Summer Time|CEST]]
+|event        = [[2006 FIFA World Cup]]
+|round        = [[2006 FIFA World Cup Final|Final]]
+|team1        = {{fb-rt|ITA}}
+|score1       = 1
+|team2        = {{fb|FRA}}
+|score2       = 1
+|aet          = yes
+|report       = https://www.fifa.com/worldcup/matches/round=97410600/match=97410064/index.html
+|goals1       = [[Marco Materazzi|Materazzi]] {{goal|19}}
+|goals2       = [[Zinedine Zidane|Zidane]] {{goal|7|pen.}}
+|stadium      = [[Olympiastadion (Berlin)|Olympiastadion]]
+|location     = [[Berlin]]
+|attendance   = 69,000
+|referee      = [[Horacio Elizondo]] ([[Argentine Football Association|Argentina]])
+|penaltyscore = 5–3
+|penalties1   = 
+* [[Andrea Pirlo|Pirlo]] {{pengoal}}
+* [[Marco Materazzi|Materazzi]] {{pengoal}}
+* [[Daniele De Rossi|De Rossi]] {{pengoal}}
+* [[Alessandro Del Piero|Del Piero]] {{pengoal}}
+* [[Fabio Grosso|Grosso]] {{pengoal}}
+|penalties2   = 
+* {{pengoal}} [[Sylvain Wiltord|Wiltord]]
+* {{penmiss}} [[David Trezeguet|Trezeguet]]
+* {{pengoal}} [[Éric Abidal|Abidal]]
+* {{pengoal}} [[Willy Sagnol|Sagnol]]
+}}
+
+==See also==
+{{Football match report templates}}
+==Tracking category==
+* {{clc|Pages using football box with unknown parameters}}
+'''All tracking'''
+{{plainlist|{{:Special:PrefixIndex/Category:Pages using football box}}}}
+
+==Microdata==
+This template outputs structured data, in microdata format, as a [http://schema.org/SportsEvent schema.org SportsEvent]. To verify the data, you can use [https://search.google.com/structured-data/testing-tool Google's structured data testing tool] on pages that transclude this template.
+
+==TemplateData==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "This template displays the summary of a football (soccer) match. The summary include date and time, stadium, competing teams, goal scorers and the minute of goal, a link to the official match report and attendance of the stadium. It also includes whether or not the match went to extra-time or penalty-shoots and displays respective results.",
+	"params": {
+		"date": {
+			"description": "The date on which the match took place or will be taking place",
+			"example": "{{Start date|2006|07|09|df=y}}",
+			"type": "date",
+			"required": true
+		},
+		"event": {
+			"description": "The name of the competition of the match",
+			"example": "2006 FIFA World Cup",
+			"type": "string",
+			"required": true
+		},
+		"team1": {
+			"description": "The team that is or is treated as a home team",
+			"example": "Italy",
+			"type": "string",
+			"required": true
+		},
+		"team2": {
+			"description": "The team that is or is treated as the away team",
+			"example": "France",
+			"type": "string",
+			"required": true
+		},
+		"time": {
+			"description": "The time at which match starts and the time zone is mentioned beside the timings",
+			"example": "20:00 [[Central European Summer Time|CEST]] ([[UTC+02:00]])",
+			"type": "number",
+			"required": true
+		},
+		"round": {
+			"description": "This shows at which level is the match being played",
+			"example": "Final",
+			"type": "string",
+			"required": true
+		},
+		"score1": {
+			"description": "The final score of the home team",
+			"example": "1",
+			"default": "0",
+			"type": "number",
+			"required": true
+		},
+		"score2": {
+			"description": "The final score of the away team",
+			"example": "1",
+			"default": "0",
+			"type": "number",
+			"required": true
+		},
+		"score": {
+			"description": "The final score i.e. outcome of the match; fallback for score1 and score2",
+			"example": "1-1",
+			"type": "string",
+			"deprecated": true
+		},
+		"scorenote": {
+			"description": "An optional note clarifying the final score",
+			"example": "Decided by a coin flip",
+			"type": "string"
+		},
+		"goals1": {
+			"description": "Goals scored by the home team, including name of the scorer and minute of the goal",
+			"example": "Materazzi 19'",
+			"required": true,
+			"type": "string"
+		},
+		"report": {
+			"description": "Links to the official report page of the match",
+			"example": "https://www.fifa.com/worldcup/matches/round=97410600/match=97410064/index.html",
+			"type": "url",
+			"required": true
+		},
+		"goals2": {
+			"description": "Goals scored by the away team, including name of the scorer and the minute of goal",
+			"example": "Zidane 7 (pen.)'",
+			"required": true,
+			"type": "string"
+		},
+		"penaltyscore": {
+			"description": "The final score after penalty shoot-out",
+			"example": "5-3",
+			"type": "number",
+			"suggested": true
+		},
+		"penalties1": {
+			"description": "Penalties scored by the home team, including name of penalty-taker and whether or not it was scored",
+			"example": "Pirlo {{pengoal}}",
+			"type": "string",
+			"suggested": true
+		},
+		"penalties2": {
+			"description": "Penalties scored by the away team, including name of penalty-taker and whether or not it was scored.",
+			"example": "Trezeguet {{penmiss}}",
+			"type": "string",
+			"suggested": true
+		},
+		"stadium": {
+			"description": "The stadium in which the match took place",
+			"example": "Olympiastadion",
+			"type": "string",
+			"required": true
+		},
+		"location": {
+			"description": "The address or location of the stadium",
+			"example": "Berlin",
+			"type": "string",
+			"suggested": true
+		},
+		"attendance": {
+			"description": "The number of people in the stadium of the match",
+			"example": "69,000",
+			"type": "number",
+			"required": true
+		},
+		"referee": {
+			"description": "The official referee of the match and their country in braces",
+			"example": "Horacio Elizondo (Argentina)",
+			"type": "string",
+			"required": true
+		},
+		"aet": {
+			"description": "Included when match is decided in extra-time or penalty-shoot",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"format": "block"
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Sports match box templates|Football]]
+[[Category:Association football templates]]
+}}</includeonly>
