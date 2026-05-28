@@ -1,0 +1,373 @@
+{{Short description|1764 edition of the FLLA World Cup}}
+
+{| class="infobox" style="width: 22em; font-size: 88%;"
+|+ '''1764 FLLA World Cup'''
+|-
+! colspan="2" style="text-align:center;" | Tournament details
+|-
+| Edition || ''see [[FLLA World Cup]]''
+|-
+| Host continent(s) || [[Atirha]], [[Ayuma]], [[New Ayre]], [[Mahea]], [[Quia]], [[Massir]], [[Acrola]]
+|-
+| Dates || 1764
+|-
+| Teams || 32 (from 7 confederations)
+|-
+| Matches played || 64
+|-
+! colspan="2" style="text-align:center;" | Final positions
+|-
+| Champion || {{Flagicon|Easuhura}} '''[[Easuhura]]''' ''(1st title)''
+|-
+| Runner-up || {{Flagicon|Emara}} [[Emara]]
+|-
+| Third place || {{Flagicon|Verusa}} [[Verusa]]
+|-
+| Fourth place || {{Flagicon|Seytinemas}} [[Seytinemas]]
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Emara}} [[Emara]] (17 goals)
+|}
+
+The '''1764 [[FLLA]] World Cup''' was the 1764 edition of the [[FLLA World Cup]], the quadrennial international [[wikipedia:association football|association football]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. The tournament was contested by 32 nations drawn from seven continental confederations.
+
+[[Easuhura]] won the tournament, defeating [[Emara]] 2–1 in the [[#Final|final]] to claim its first World Cup title. [[Verusa]] finished third after defeating [[Seytinemas]] 3–2 in the third-place playoff. [[Emara]] finished as the tournament's leading goalscorer with 17 goals, winning the [[wikipedia:Golden Boot|Golden Boot]].
+
+==Qualification==
+
+A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
+
+=== [[NFLA]] (Atirha) ===
+4 slots — North America format: first-round groups followed by a final octagonal round-robin.
+
+Qualified teams:
+* {{Flagicon|Raledria}} [[Raledria]]
+* {{Flagicon|Grazail}} [[Grazail]]
+* {{Flagicon|Gaeiya}} [[Gaeiya]]
+* {{Flagicon|Genaire}} [[Genaire]]
+
+=== [[AFLA]] (Ayuma) ===
+5 slots — Europe format: five group-stage groups, group winners qualify directly.
+
+Qualified teams:
+* {{Flagicon|Emara}} [[Emara]]
+* {{Flagicon|Lycroa}} [[Lycroa]]
+* {{Flagicon|Verusa}} [[Verusa]]
+* {{Flagicon|Easuhura}} [[Easuhura]]
+* {{Flagicon|Siana}} [[Siana]]
+
+=== [[NAFLA]] (New Ayre) ===
+4 slots — South America format: a single 23-team double round-robin league.
+
+Qualified teams:
+* {{Flagicon|Astye}} [[Astye]]
+* {{Flagicon|Mendereide}} [[Mendereide]]
+* {{Flagicon|Iainoa}} [[Iainoa]]
+* {{Flagicon|Isari}} [[Isari]]
+
+=== [[EFLA]] (Mahea) ===
+5 slots — Europe format: five group-stage groups, group winners qualify directly.
+
+Qualified teams:
+* {{Flagicon|Seytinemas}} [[Seytinemas]]
+* {{Flagicon|Trian}} [[Trian]]
+* {{Flagicon|Isnti}} [[Isnti]]
+* {{Flagicon|Exilium}} [[Exilium]]
+* {{Flagicon|Chaenia}} [[Chaenia]]
+
+=== [[QFLA]] (Quia) ===
+4 slots — Asia format: first-round groups followed by a two-group final round.
+
+Qualified teams:
+* {{Flagicon|Finae}} [[Finae]]
+* {{Flagicon|Anymna}} [[Anymna]]
+* {{Flagicon|Wundry}} [[Wundry]]
+* {{Flagicon|Erkizil}} [[Erkizil]]
+
+=== [[MFLA]] (Massir) ===
+5 slots — Asia format: first-round groups followed by a two-group final round.
+
+Qualified teams:
+* {{Flagicon|Sanagara}} [[Sanagara]]
+* {{Flagicon|Haiza}} [[Haiza]]
+* {{Flagicon|Taval}} [[Taval]]
+* {{Flagicon|Vesozata}} [[Vesozata]]
+* {{Flagicon|Dahe}} [[Dahe]]
+
+=== [[CFLA]] (Acrola) ===
+5 slots — Africa format: first-round groups followed by single-leg knockout playoffs.
+
+Qualified teams:
+* {{Flagicon|Terressin}} [[Terressin]]
+* {{Flagicon|Pelines}} [[Pelines]]
+* {{Flagicon|Acetoa}} [[Acetoa]]
+* {{Flagicon|Viussi}} [[Viussi]]
+* {{Flagicon|Jshain}} [[Jshain]]
+
+==Group stage==
+
+The 32 qualified teams were drawn into eight groups of four. The top two teams from each group advanced to the [[#Knockout stage|knockout stage]].
+
+===Group A===
+{| class="wikitable" style="text-align: center;"
+|+ Group A
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 7
+|-
+| 2 || align="left" | {{Flagicon|Taval}} '''[[Taval]]''' || 3 || 2 || 0 || 1 || 10 || 9 || +1 || 6
+|-
+| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 3 || 1 || 1 || 1 || 8 || 8 || 0 || 4
+|-
+| 4 || align="left" | {{Flagicon|Iainoa}} [[Iainoa]] || 3 || 0 || 0 || 3 || 3 || 7 || −4 || 0
+|}
+Results:
+* {{Flagicon|Verusa}} Verusa 2–1 Taval {{Flagicon|Taval}}
+* {{Flagicon|Verusa}} Verusa 1–1 Wundry {{Flagicon|Wundry}}
+* {{Flagicon|Verusa}} Verusa 2–0 Iainoa {{Flagicon|Iainoa}}
+* {{Flagicon|Taval}} Taval 6–5 Wundry {{Flagicon|Wundry}}
+* {{Flagicon|Taval}} Taval 3–2 Iainoa {{Flagicon|Iainoa}}
+* {{Flagicon|Wundry}} Wundry 2–1 Iainoa {{Flagicon|Iainoa}}
+
+===Group B===
+{| class="wikitable" style="text-align: center;"
+|+ Group B
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 8 || 4 || +4 || 7
+|-
+| 2 || align="left" | {{Flagicon|Isnti}} '''[[Isnti]]''' || 3 || 1 || 1 || 1 || 7 || 7 || 0 || 4
+|-
+| 3 || align="left" | {{Flagicon|Anymna}} [[Anymna]] || 3 || 1 || 0 || 2 || 5 || 6 || −1 || 3
+|-
+| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 1 || 0 || 2 || 3 || 6 || −3 || 3
+|}
+Results:
+* {{Flagicon|Raledria}} Raledria 3–0 Dahe {{Flagicon|Dahe}}
+* {{Flagicon|Raledria}} Raledria 2–1 Anymna {{Flagicon|Anymna}}
+* {{Flagicon|Raledria}} Raledria 3–3 Isnti {{Flagicon|Isnti}}
+* {{Flagicon|Dahe}} Dahe 1–2 Anymna {{Flagicon|Anymna}}
+* {{Flagicon|Dahe}} Dahe 2–1 Isnti {{Flagicon|Isnti}}
+* {{Flagicon|Anymna}} Anymna 2–3 Isnti {{Flagicon|Isnti}}
+
+===Group C===
+{| class="wikitable" style="text-align: center;"
+|+ Group C
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Finae}} '''[[Finae]]''' || 3 || 2 || 1 || 0 || 9 || 6 || +3 || 7
+|-
+| 2 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 0 || 3 || 0 || 5 || 5 || 0 || 3
+|-
+| 3 || align="left" | {{Flagicon|Viussi}} [[Viussi]] || 3 || 0 || 2 || 1 || 4 || 5 || −1 || 2
+|-
+| 4 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || 3 || 0 || 2 || 1 || 3 || 5 || −2 || 2
+|}
+Results:
+* {{Flagicon|Easuhura}} Easuhura 4–4 Finae {{Flagicon|Finae}}
+* {{Flagicon|Easuhura}} Easuhura 0–0 Haiza {{Flagicon|Haiza}}
+* {{Flagicon|Easuhura}} Easuhura 1–1 Viussi {{Flagicon|Viussi}}
+* {{Flagicon|Finae}} Finae 3–1 Haiza {{Flagicon|Haiza}}
+* {{Flagicon|Finae}} Finae 2–1 Viussi {{Flagicon|Viussi}}
+* {{Flagicon|Haiza}} Haiza 2–2 Viussi {{Flagicon|Viussi}}
+
+===Group D===
+{| class="wikitable" style="text-align: center;"
+|+ Group D
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 7 || 3 || +4 || 7
+|-
+| 2 || align="left" | {{Flagicon|Chaenia}} '''[[Chaenia]]''' || 3 || 2 || 0 || 1 || 7 || 6 || +1 || 6
+|-
+| 3 || align="left" | {{Flagicon|Trian}} [[Trian]] || 3 || 1 || 0 || 2 || 5 || 5 || 0 || 3
+|-
+| 4 || align="left" | {{Flagicon|Grazail}} [[Grazail]] || 3 || 0 || 1 || 2 || 5 || 10 || −5 || 1
+|}
+Results:
+* {{Flagicon|Lycroa}} Lycroa 2–1 Trian {{Flagicon|Trian}}
+* {{Flagicon|Lycroa}} Lycroa 3–0 Chaenia {{Flagicon|Chaenia}}
+* {{Flagicon|Lycroa}} Lycroa 2–2 Grazail {{Flagicon|Grazail}}
+* {{Flagicon|Trian}} Trian 1–2 Chaenia {{Flagicon|Chaenia}}
+* {{Flagicon|Trian}} Trian 3–1 Grazail {{Flagicon|Grazail}}
+* {{Flagicon|Chaenia}} Chaenia 5–2 Grazail {{Flagicon|Grazail}}
+
+===Group E===
+{| class="wikitable" style="text-align: center;"
+|+ Group E
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 9 || 5 || +4 || 7
+|-
+| 2 || align="left" | {{Flagicon|Jshain}} '''[[Jshain]]''' || 3 || 1 || 2 || 0 || 5 || 4 || +1 || 5
+|-
+| 3 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || 3 || 0 || 2 || 1 || 5 || 6 || −1 || 2
+|-
+| 4 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || 3 || 0 || 1 || 2 || 6 || 10 || −4 || 1
+|}
+Results:
+* {{Flagicon|Emara}} Emara 4–3 Pelines {{Flagicon|Pelines}}
+* {{Flagicon|Emara}} Emara 4–1 Acetoa {{Flagicon|Acetoa}}
+* {{Flagicon|Emara}} Emara 1–1 Jshain {{Flagicon|Jshain}}
+* {{Flagicon|Pelines}} Pelines 2–2 Acetoa {{Flagicon|Acetoa}}
+* {{Flagicon|Pelines}} Pelines 0–0 Jshain {{Flagicon|Jshain}}
+* {{Flagicon|Acetoa}} Acetoa 3–4 Jshain {{Flagicon|Jshain}}
+
+===Group F===
+{| class="wikitable" style="text-align: center;"
+|+ Group F
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 3 || 0 || 0 || 6 || 1 || +5 || 9
+|-
+| 2 || align="left" | {{Flagicon|Terressin}} '''[[Terressin]]''' || 3 || 2 || 0 || 1 || 4 || 5 || −1 || 6
+|-
+| 3 || align="left" | {{Flagicon|Erkizil}} [[Erkizil]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1
+|-
+| 4 || align="left" | {{Flagicon|Isari}} [[Isari]] || 3 || 0 || 1 || 2 || 0 || 2 || −2 || 1
+|}
+Results:
+* {{Flagicon|Siana}} Siana 4–1 Terressin {{Flagicon|Terressin}}
+* {{Flagicon|Siana}} Siana 1–0 Erkizil {{Flagicon|Erkizil}}
+* {{Flagicon|Siana}} Siana 1–0 Isari {{Flagicon|Isari}}
+* {{Flagicon|Terressin}} Terressin 2–1 Erkizil {{Flagicon|Erkizil}}
+* {{Flagicon|Terressin}} Terressin 1–0 Isari {{Flagicon|Isari}}
+* {{Flagicon|Erkizil}} Erkizil 0–0 Isari {{Flagicon|Isari}}
+
+===Group G===
+{| class="wikitable" style="text-align: center;"
+|+ Group G
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Sanagara}} '''[[Sanagara]]''' || 3 || 3 || 0 || 0 || 11 || 8 || +3 || 9
+|-
+| 2 || align="left" | {{Flagicon|Genaire}} '''[[Genaire]]''' || 3 || 1 || 1 || 1 || 5 || 3 || +2 || 4
+|-
+| 3 || align="left" | {{Flagicon|Mendereide}} [[Mendereide]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2
+|-
+| 4 || align="left" | {{Flagicon|Gaeiya}} [[Gaeiya]] || 3 || 0 || 1 || 2 || 4 || 8 || −4 || 1
+|}
+Results:
+* {{Flagicon|Sanagara}} Sanagara 3–2 Genaire {{Flagicon|Genaire}}
+* {{Flagicon|Sanagara}} Sanagara 5–4 Gaeiya {{Flagicon|Gaeiya}}
+* {{Flagicon|Sanagara}} Sanagara 3–2 Mendereide {{Flagicon|Mendereide}}
+* {{Flagicon|Genaire}} Genaire 3–0 Gaeiya {{Flagicon|Gaeiya}}
+* {{Flagicon|Genaire}} Genaire 0–0 Mendereide {{Flagicon|Mendereide}}
+* {{Flagicon|Gaeiya}} Gaeiya 0–0 Mendereide {{Flagicon|Mendereide}}
+
+===Group H===
+{| class="wikitable" style="text-align: center;"
+|+ Group H
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Seytinemas}} '''[[Seytinemas]]''' || 3 || 2 || 1 || 0 || 8 || 6 || +2 || 7
+|-
+| 2 || align="left" | {{Flagicon|Vesozata}} '''[[Vesozata]]''' || 3 || 2 || 0 || 1 || 4 || 1 || +3 || 6
+|-
+| 3 || align="left" | {{Flagicon|Exilium}} [[Exilium]] || 3 || 1 || 1 || 1 || 5 || 6 || −1 || 4
+|-
+| 4 || align="left" | {{Flagicon|Astye}} [[Astye]] || 3 || 0 || 0 || 3 || 2 || 6 || −4 || 0
+|}
+Results:
+* {{Flagicon|Seytinemas}} Seytinemas 1–0 Vesozata {{Flagicon|Vesozata}}
+* {{Flagicon|Seytinemas}} Seytinemas 3–2 Astye {{Flagicon|Astye}}
+* {{Flagicon|Seytinemas}} Seytinemas 4–4 Exilium {{Flagicon|Exilium}}
+* {{Flagicon|Vesozata}} Vesozata 2–0 Astye {{Flagicon|Astye}}
+* {{Flagicon|Vesozata}} Vesozata 2–0 Exilium {{Flagicon|Exilium}}
+* {{Flagicon|Astye}} Astye 0–1 Exilium {{Flagicon|Exilium}}
+
+==Knockout stage==
+
+===Round of 16===
+* {{Flagicon|Verusa}} '''Verusa''' 2–1 Isnti {{Flagicon|Isnti}}
+* {{Flagicon|Finae}} '''Finae''' 2–1 ([[wikipedia:Extra time|a.e.t.]]) Chaenia {{Flagicon|Chaenia}}
+* {{Flagicon|Emara}} '''Emara''' 3–2 Terressin {{Flagicon|Terressin}}
+* {{Flagicon|Sanagara}} '''Sanagara''' 4–0 Vesozata {{Flagicon|Vesozata}}
+* {{Flagicon|Raledria}} '''Raledria''' 2–1 Taval {{Flagicon|Taval}}
+* {{Flagicon|Lycroa}} Lycroa 0–3 '''Easuhura''' {{Flagicon|Easuhura}}
+* {{Flagicon|Siana}} '''Siana''' 2–2 (5–4 [[wikipedia:Penalty shoot-out (association football)|pen.]]) Jshain {{Flagicon|Jshain}}
+* {{Flagicon|Seytinemas}} '''Seytinemas''' 1–0 Genaire {{Flagicon|Genaire}}
+
+===Quarter-finals===
+* {{Flagicon|Verusa}} '''Verusa''' 1–1 (6–5 pen.) Finae {{Flagicon|Finae}}
+* {{Flagicon|Emara}} '''Emara''' 2–1 Sanagara {{Flagicon|Sanagara}}
+* {{Flagicon|Raledria}} Raledria 0–1 '''Easuhura''' {{Flagicon|Easuhura}}
+* {{Flagicon|Siana}} Siana 0–2 '''Seytinemas''' {{Flagicon|Seytinemas}}
+
+===Semi-finals===
+* {{Flagicon|Verusa}} Verusa 0–2 '''Emara''' {{Flagicon|Emara}}
+* {{Flagicon|Easuhura}} '''Easuhura''' 2–1 Seytinemas {{Flagicon|Seytinemas}}
+
+===Third-place playoff===
+* {{Flagicon|Verusa}} '''Verusa''' 3–2 Seytinemas {{Flagicon|Seytinemas}}
+
+===Final===
+* {{Flagicon|Emara}} Emara 1–2 '''Easuhura''' {{Flagicon|Easuhura}}
+
+==Statistics==
+
+===Goalscoring===
+The table below lists the leading goalscorers of the tournament, recorded by national team. Numbers in parentheses indicate each team's pre-tournament [[FLLA]] ranking.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Leading goalscorers
+! Rank !! Team !! Goals !! FLLA ranking
+|-
+| 1 || align="left" | {{Flagicon|Emara}} [[Emara]] || 17 || 2
+|-
+| 2 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 16 || 13
+|-
+| 3 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 14 || 8
+|-
+| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 13 || 5
+|-
+| 5 || align="left" | {{Flagicon|Finae}} [[Finae]] || 12 || 22
+|-
+| 6 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 11 || 4
+|-
+| 6 || align="left" | {{Flagicon|Taval}} [[Taval]] || 11 || 16
+|-
+| 8 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 10 || 1
+|-
+| 9 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 8 || 33
+|-
+| 9 || align="left" | {{Flagicon|Isnti}} [[Isnti]] || 8 || 62
+|}
+
+==Awards==
+{| class="wikitable" style="text-align: center;"
+|+ Tournament awards
+! Award !! Recipient !! Total
+|-
+| [[wikipedia:Golden Boot|Golden Boot]] || align="left" | {{Flagicon|Emara}} [[Emara]] || 17 goals
+|}
+
+==Final standings==
+{| class="wikitable" style="text-align: center;"
+|+ Final positions
+! Position !! Team
+|-
+| 1st || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]'''
+|-
+| 2nd || align="left" | {{Flagicon|Emara}} [[Emara]]
+|-
+| 3rd || align="left" | {{Flagicon|Verusa}} [[Verusa]]
+|-
+| 4th || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]]
+|}
+
+==See also==
+* [[FLLA]]
+* [[NFLA]]
+* [[AFLA]]
+* [[NAFLA]]
+* [[EFLA]]
+* [[QFLA]]
+* [[MFLA]]
+* [[CFLA]]
+
+[[Category:FLLA World Cup]]
+[[Category:1764 in sports]]
+[[Category:Sports]]
+[[Category:History of sports]]
