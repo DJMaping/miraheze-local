@@ -1,0 +1,165 @@
+{{Documentation subpage}}
+{{high-use}}
+{{Uses TemplateStyles|Template:Goal/styles.css}}
+<!-- Categories go at the bottom of this page. -->
+
+== Usage ==
+Displays a goal icon. Two optional parameters are available to display more details about the goal. Multiple goals can be indicated by repeating these parameters. A maximum of ten goals are supported this way; if you need more, call the template multiple times.
+
+<code><nowiki>{{goal|min1|note1|min2|note2|min3|note3...}}</nowiki></code>
+
+*'''min''' – Shows at what time the goal was scored. The template automatically inserts an apostrophe to represent "minutes".
+*'''note''' – Adds a note for the goal. The following notes will automatically be wikilinked: [[Own goal|o.g.]], [[Penalty kick (association football)|pen.]], and [[Penalty kick (association football)|p]].
+
+Leave the note parameter blank if you don't need it, but don't forget its pipe character if another goal comes after it.
+
+===Examples===
+* <code><nowiki>{{goal}}</nowiki> → </code>{{goal}}
+* <code><nowiki>{{goal|67}}</nowiki> → </code>{{goal|67}}
+* <code><nowiki>{{goal||o.g.}}</nowiki> → </code>{{goal||o.g.}}
+* <code><nowiki>{{goal|44|o.g.}}</nowiki> → </code>{{goal|44|o.g.}}
+* <code><nowiki>{{goal|5||20||90+2|pen.}}</nowiki> → </code>{{goal|5||20||90+2|pen.}}
+* <code><nowiki>{{goal|14||54|p|72||87}}</nowiki> → </code>{{goal|14||54|p|72||87}}
+
+===Note===
+Displaying only a note, without the time, is only supported for the first goal.
+
+== See also ==
+{{Football match report templates}}
+
+== TemplateData ==
+{{FormatTemplateData|JSON=
+{
+	"description": "Signifies that a goal has been scored by showing picture of a small football",
+	"params": {
+		"1": {
+			"label": "minutes 1",
+			"description": "Time the first goal was scored",
+			"example": "15, 90+2",
+			"type": "string",
+			"suggested": true
+		},
+		"2": {
+			"label": "note 1",
+			"description": "Note for first goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string",
+			"suggested": true
+		},
+		"3": {
+			"label": "minutes 2",
+			"description": "Time the second goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"4": {
+			"label": "note 2",
+			"description": "Note for second goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"5": {
+			"label": "minutes 3",
+			"description": "Time the third goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"6": {
+			"label": "note 3",
+			"description": "Note for third goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"7": {
+			"label": "minutes 4",
+			"description": "Time the fourth goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"8": {
+			"label": "note 4",
+			"description": "Note for fourth goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"9": {
+			"label": "minutes 5",
+			"description": "Time the fifth goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"10": {
+			"label": "note 5",
+			"description": "Note for fifth goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"11": {
+			"label": "minutes 6",
+			"description": "Time the sixth goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"12": {
+			"label": "note 6",
+			"description": "Note for sixth goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"13": {
+			"label": "minutes 7",
+			"description": "Time the seventh goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"14": {
+			"label": "note 7",
+			"description": "Note for seventh goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"15": {
+			"label": "minutes 8",
+			"description": "Time the eighth goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"16": {
+			"label": "note 8",
+			"description": "Note for eighth goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"17": {
+			"label": "minutes 9",
+			"description": "Time the ninth goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"18": {
+			"label": "note 9",
+			"description": "Note for ninth goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		},
+		"19": {
+			"label": "minutes 10",
+			"description": "Time the tenth goal was scored",
+			"example": "15, 90+2",
+			"type": "string"
+		},
+		"20": {
+			"label": "note 10",
+			"description": "Note for tenth goal. The following notes will automatically be wikilinked: o.g., pen., and p",
+			"example": "o.g., pen., p",
+			"type": "string"
+		}
+	},
+	"format": "inline"
+}
+}}
+<includeonly>{{Sandbox other||
+<!-- Categories go here: -->
+[[Category:Association football formatting and function templates]]
+
+}}</includeonly>

@@ -1,0 +1,4 @@
+[[Image:Soccerball shade gold.svg|13px|Golden goal|link=|alt=gold-colored soccer ball]]<noinclude>
+</noinclude>{{safesubst<noinclude />:#if: {{safesubst<noinclude />:#if:{{{1|}}}|{{{1|}}}|{{{2|}}}}}|&#32;<span>{{safesubst<noinclude />:#if: {{{1|}}}|{{{1}}}&#39;}}{{safesubst<noinclude />:#if: {{{2|}}}|{{safesubst<noinclude />:#if:{{{1|}}}|&nbsp;}}{{safesubst<noinclude />:#switch: {{{2|}}} |o.g.|og =([[Own goal#Association football|o.g.]]) |pen.|pen|p.|p|pk =([[Penalty kick (association football)|pen.]]) | #default = ({{{2}}})}}}}</span>}}{{main other|{{#if:{{#invoke:string|endswith|1={{{1}}}|2='}}|[[Category:Association football templates needing maintenance]]}}}}<noinclude>
+{{documentation}}
+</noinclude>

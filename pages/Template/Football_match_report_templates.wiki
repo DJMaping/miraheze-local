@@ -1,0 +1,14 @@
+* {{Goal}} {{tl|Goal}} {{Futsal goal}} {{tl|Futsal goal}}
+* {{Yellow card}} {{tl|Yellow card}} {{Sent off}} {{tl|Sent off}} {{Sent off|1}} {{tlp|Sent off|2=1}} {{Sent off|2}} {{tlp|Sent off|2=2}}
+* {{subon}} {{tl|subon}} {{suboff}} {{tl|suboff}}
+* {{pengoal}} {{tl|pengoal}} {{penmiss}} {{tl|penmiss}}
+* {{golden goal}} {{tl|golden goal}} {{silver goal}} {{tl|silver goal}}
+
+==Tracking categories==
+*{{clc|Association football templates needing maintenance}}: for templates using an apostrophe at the end of a minute value or a double apostrophe at the end of a second value (remove the apostrophe or double apostrophe to fix the error)<noinclude>
+{{doc|content=
+This is a shared documentation template that is used in the documentation for the templates listed above. It takes no parameters. 
+[[Category:Association football templates]]
+[[Category:Documentation shared content templates]]
+}}
+</noinclude>

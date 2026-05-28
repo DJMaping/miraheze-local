@@ -1,0 +1,13 @@
+<includeonly><div style="overflow:hidden;width:0;height:0;margin:-1ex;float:right">
+{{=}}{{=}}{{#invoke:ustring|rep|{{=}}|{{{depth|1}}}}}{{{2|{{{1}}}}}}{{#invoke:ustring|rep|{{=}}|{{{depth|1}}}}}{{=}}{{=}}
+</div>{{{1}}}</includeonly><noinclude>
+__TOC__
+==Example==
+{| style="border-collapse:collapse"
+|This template allows {{TOC tab|words or desired phrases}} to be {{TOC tab|linked in the table of contents}} {{TOC tab| without a new section}} but must be enclosed in a table to avoid creating line breaks.
+|}
+However, as shown in the preceding line, it is easy to make a table look like a normal paragraph. {{tl|TOC tab}} is an alias.
+{| style='border-collapse:collapse'
+|With the <code>{{TOC tab|depth|depth=2}}</code> parameter, you can set this to {{TOC tab|deeper|depth=3}} {{TOC tab|and deeper|depth=4}} subhead levels.
+|}
+{{documentation}}</noinclude>
