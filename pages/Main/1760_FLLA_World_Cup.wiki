@@ -64,18 +64,18 @@ In its bid, the Ukhdari Arraby Association proposed a programme of stadium const
 ===Qualification===
 {{Main|1760 FLLA World Cup qualification}}
 
-A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. [[Ukhdari]] qualified as of right under FLLA hosting regulations and additionally took part in the [[AFLA]] qualifying tournament in a non-binding capacity, finishing first in qualifying group B. The reigning champions [[Quidic]], winners of the [[1756 FLLA World Cup]], qualified through the [[QFLA]] qualifiers.
+A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. [[Ukhdari]] qualified as of right under FLLA hosting regulations and additionally took part in the [[AYFVL]] qualifying tournament in a non-binding capacity, finishing first in qualifying group B. The reigning champions [[Quidic]], winners of the [[1756 FLLA World Cup]], qualified through the [[QUFVL]] qualifiers.
 
 The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
 
-==== [[NFLA]] (Atirha) 4 berths ====
+==== [[ATFVL]] (Atirha) 4 berths ====
 First-round groups followed by a final octagonal round-robin. Qualified teams:
 * {{Flagicon|Raledria}} [[Raledria]]
 * {{Flagicon|Etirha}} [[Etirha]]
 * {{Flagicon|Laselteh}} [[Laselteh]]
 * {{Flagicon|New Misos}} [[New Misos]]
 
-==== [[AFLA]] (Ayuma) 5 berths ====
+==== [[AYFVL]] (Ayuma) 5 berths ====
 Five qualifying groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Emara}} [[Emara]]
 * {{Flagicon|Ukhdari}} [[Ukhdari]]
@@ -83,14 +83,14 @@ Five qualifying groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Easuhura}} [[Easuhura]]
 * {{Flagicon|Merela Sta}} [[Merela Sta]]
 
-==== [[NAFLA]] (New Ayre) 4 berths ====
+==== [[NAFVL]] (New Ayre) 4 berths ====
 A single 23-team double round-robin league. Qualified teams:
 * {{Flagicon|United Delet}} [[United Delet]]
 * {{Flagicon|Iainoa}} [[Iainoa]]
 * {{Flagicon|Walporein}} [[Walporein]]
 * {{Flagicon|Mendereide}} [[Mendereide]]
 
-==== [[EFLA]] (Mahea) 5 berths ====
+==== [[MAFVL]] (Mahea) 5 berths ====
 Five qualifying groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Sivoso}} [[Sivoso]]
 * {{Flagicon|Trian}} [[Trian]]
@@ -98,14 +98,14 @@ Five qualifying groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Exilium}} [[Exilium]]
 * {{Flagicon|Chaenia}} [[Chaenia]]
 
-==== [[QFLA]] (Quia) 4 berths ====
+==== [[QUFVL]] (Quia) 4 berths ====
 First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Quidic}} [[Quidic]]
 * {{Flagicon|Finae}} [[Finae]]
 * {{Flagicon|Myla}} [[Myla]]
 * {{Flagicon|Ztesh}} [[Ztesh]]
 
-==== [[MFLA]] (Massir) 5 berths ====
+==== [[MSFVL]] (Massir) 5 berths ====
 First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Haiza}} [[Haiza]]
 * {{Flagicon|Ucrua}} [[Ucrua]]
@@ -113,7 +113,7 @@ First-round groups followed by a two-group final round. Qualified teams:
 * {{Flagicon|Etretes}} [[Etretes]]
 * {{Flagicon|Vesozata}} [[Vesozata]]
 
-==== [[CFLA]] (Acrola) 5 berths ====
+==== [[ACFVL]] (Acrola) 5 berths ====
 First-round groups followed by single-leg knockout playoffs. Qualified teams:
 * {{Flagicon|Terressin}} [[Terressin]]
 * {{Flagicon|Pelines}} [[Pelines]]
@@ -182,7 +182,7 @@ The draw was conducted by FLLA general secretary Yorvan Lestrika and presented b
 
 The FLLA Referees Committee appointed 22 refereeing trios, each consisting of one referee and two assistants from the same national association, and four support pairs drawn from 18 nations between them. The selections were announced in two tranches between September 1759 and January 1760, following an assessment programme at the [[1759 FLLA Continental Champions Cup]] and at senior friendlies organised in [[Faramozan]] and [[Veshgadar]].<ref>{{cite web|url=https://www.flla.org/1760/officials-announced|title=Match officials confirmed for the 1760 FLLA World Cup|publisher=[[FLLA]]|date=20 January 1760}}</ref>
 
-The opening match was refereed by Itsuki Kayama of [[Ztesh]], a [[QFLA]]-affiliated official, the first time a [[QFLA]] referee had taken charge of a World Cup opening fixture. The final was officiated by Brennan Quill of [[New Misos]], a [[NFLA]]-affiliated official. The two semi-finals were taken by Lassan Vetren of [[Walporein]] ([[NAFLA]]) for the first semi-final and Ekho Marsuun of [[Pelugrotoa]] ([[EFLA]]) for the second. The 22 selected referees were drawn from 18 nations and represented all seven [[FLLA]] confederations.
+The opening match was refereed by Itsuki Kayama of [[Ztesh]], a [[QUFVL]]-affiliated official, the first time a [[QUFVL]] referee had taken charge of a World Cup opening fixture. The final was officiated by Brennan Quill of [[New Misos]], a [[ATFVL]]-affiliated official. The two semi-finals were taken by Lassan Vetren of [[Walporein]] ([[NAFVL]]) for the first semi-final and Ekho Marsuun of [[Pelugrotoa]] ([[MAFVL]]) for the second. The 22 selected referees were drawn from 18 nations and represented all seven [[FLLA]] confederations.
 
 ==Squads==
 {{Main|1760 FLLA World Cup squads}}
@@ -856,37 +856,37 @@ Final standings of the 32 participating teams at the 1760 FLLA World Cup, as pub
 |+ Final standings
 ! Pos !! Team !! Confederation !! Stage reached
 |-
-| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || [[AFLA]] || align="left" | Champions
+| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || [[AYFVL]] || align="left" | Champions
 |-
-| 2 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || [[NFLA]] || align="left" | Runners-up
+| 2 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || [[ATFVL]] || align="left" | Runners-up
 |-
-| 3 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFLA]] || align="left" | Third place
+| 3 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFVL]] || align="left" | Third place
 |-
-| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || [[AFLA]] || align="left" | Fourth place
+| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || [[AYFVL]] || align="left" | Fourth place
 |-
-| 5 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MFLA]] || align="left" | Quarter-finals
+| 5 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MSFVL]] || align="left" | Quarter-finals
 |-
-| 6 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || [[CFLA]] || align="left" | Quarter-finals
+| 6 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || [[ACFVL]] || align="left" | Quarter-finals
 |-
-| 7 || align="left" | {{Flagicon|Sivoso}} [[Sivoso]] || [[EFLA]] || align="left" | Quarter-finals
+| 7 || align="left" | {{Flagicon|Sivoso}} [[Sivoso]] || [[MAFVL]] || align="left" | Quarter-finals
 |-
-| 8 || align="left" | {{Flagicon|Myla}} [[Myla]] || [[QFLA]] || align="left" | Quarter-finals
+| 8 || align="left" | {{Flagicon|Myla}} [[Myla]] || [[QUFVL]] || align="left" | Quarter-finals
 |-
-| 9 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || [[MFLA]] || align="left" | Round of 16
+| 9 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || [[MSFVL]] || align="left" | Round of 16
 |-
-| 10 || align="left" | {{Flagicon|Ukhdari}} [[Ukhdari]] ''(H)'' || [[AFLA]] || align="left" | Round of 16
+| 10 || align="left" | {{Flagicon|Ukhdari}} [[Ukhdari]] ''(H)'' || [[AYFVL]] || align="left" | Round of 16
 |-
-| 11 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || [[NFLA]] || align="left" | Round of 16
+| 11 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || [[ATFVL]] || align="left" | Round of 16
 |-
-| 12 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || [[AFLA]] || align="left" | Round of 16
+| 12 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || [[AYFVL]] || align="left" | Round of 16
 |-
-| 13 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AFLA]] || align="left" | Round of 16
+| 13 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AYFVL]] || align="left" | Round of 16
 |-
-| 14 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || [[CFLA]] || align="left" | Round of 16
+| 14 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || [[ACFVL]] || align="left" | Round of 16
 |-
-| 15 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || [[CFLA]] || align="left" | Round of 16
+| 15 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || [[ACFVL]] || align="left" | Round of 16
 |-
-| 16 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || [[NFLA]] || align="left" | Round of 16
+| 16 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || [[ATFVL]] || align="left" | Round of 16
 |-
 | 17–32 || align="left" | Eliminated in group stage || colspan="2" | ''see [[#Group stage|group stage]] tables''
 |}
@@ -928,7 +928,7 @@ The official theme song of the tournament, "One Field, One Game", was composed b
 ==Media==
 {{Main|1760 FLLA World Cup broadcasting rights}}
 
-The 1760 FLLA World Cup was broadcast in 166 countries by 51 official television partners and a further 22 official radio partners. Domestic broadcasting rights in [[Ukhdari]] were held by the Ukhdari National Broadcaster (UNB), which produced the host feed and screened all 64 matches across two of its terrestrial channels. The international rights for the [[AFLA]] region were held by [[Emara|Emaran]] public-service broadcaster ECN; the [[NFLA]] rights by the [[Raledria|Raledrian]] National Network (RNN); and the [[CFLA]] rights by a five-broadcaster consortium led by Estijans national broadcaster ETP.
+The 1760 FLLA World Cup was broadcast in 166 countries by 51 official television partners and a further 22 official radio partners. Domestic broadcasting rights in [[Ukhdari]] were held by the Ukhdari National Broadcaster (UNB), which produced the host feed and screened all 64 matches across two of its terrestrial channels. The international rights for the [[AYFVL]] region were held by [[Emara|Emaran]] public-service broadcaster ECN; the [[ATFVL]] rights by the [[Raledria|Raledrian]] National Network (RNN); and the [[ACFVL]] rights by a five-broadcaster consortium led by Estijans national broadcaster ETP.
 
 The final between [[Verusa]] and [[Raledria]] was the most-watched television broadcast in [[Verusa|Verusan]] history at the time, drawing a peak audience of 17.2 million viewers (representing approximately 88&nbsp;per&nbsp;cent of the active television audience in the country). Worldwide, the FLLA reported a cumulative live broadcast audience for the tournament of 3.1 billion individual viewers across all matches, with 1.5 billion individuals tuning in to at least part of the final.<ref>{{cite web|url=https://www.flla.org/1760/audience-summary|title=1760 FLLA World Cup viewership summary|publisher=[[FLLA]]|date=18 August 1760}}</ref>
 
@@ -950,20 +950,20 @@ A separate complaint, lodged by the [[Etirha|Etirhan]] Arraby Association after 
 
 In [[Ukhdari]], the tournament was judged a financial and operational success: an independent post-event report commissioned by the Ukhdari Arraby Association and published in October 1760 estimated the net economic contribution to the host economy at {{lahn}}5.1&nbsp;billion, against gross public expenditure of {{lahn}}1.98&nbsp;billion across infrastructure and operations. International visitor arrivals to Ukhdari over the tournament period totalled 820,000, the highest single-month visitor figure recorded by the Ukhdari Bureau of Tourism since the Bureau's creation in 1731.<ref>{{cite web|url=https://www.gov.ukh/1760/uaa-impact-report|title=1760 FLLA World Cup post-event economic impact report|publisher=Ukhdari Arraby Association|date=14 October 1760}}</ref>
 
-The next edition of the FLLA World Cup, the [[1764 FLLA World Cup]], was awarded to [[Raledria]] at the FLLA Council meeting of 12 March 1758, during the planning stage of the 1760 tournament. Verusa retained an automatic place at the 1764 finals under the reseeding rules adopted by the FLLA Council in 1761, which extended the long-standing host-qualifies exemption to the most recent champions; the 1761 reseeding rules were themselves influenced by the demonstration effect of Verusa's 1760 campaign, in which the eventual champions had qualified through a competitive AFLA group stage rather than as seeded entrants.
+The next edition of the FLLA World Cup, the [[1764 FLLA World Cup]], was awarded to [[Raledria]] at the FLLA Council meeting of 12 March 1758, during the planning stage of the 1760 tournament. Verusa retained an automatic place at the 1764 finals under the reseeding rules adopted by the FLLA Council in 1761, which extended the long-standing host-qualifies exemption to the most recent champions; the 1761 reseeding rules were themselves influenced by the demonstration effect of Verusa's 1760 campaign, in which the eventual champions had qualified through a competitive AYFVL group stage rather than as seeded entrants.
 
 ==See also==
 * [[FLLA]]
 * [[FLLA World Cup]]
 * [[1756 FLLA World Cup]]
 * [[1764 FLLA World Cup]]
-* [[NFLA]]
-* [[AFLA]]
-* [[NAFLA]]
-* [[EFLA]]
-* [[QFLA]]
-* [[MFLA]]
-* [[CFLA]]
+* [[ATFVL]]
+* [[AYFVL]]
+* [[NAFVL]]
+* [[MAFVL]]
+* [[QUFVL]]
+* [[MSFVL]]
+* [[ACFVL]]
 
 ==References==
 {{reflist}}
