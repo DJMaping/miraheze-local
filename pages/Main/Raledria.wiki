@@ -61,7 +61,7 @@
 | HDI_change             = increase
 | HDI_rank               = 12th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
-| currency               = [[Raledrian Kasare]] (_) (RKA)
+| currency               = [[Raledrian Kasare]] ({{Raledrian Kasare}}) (RKA)
 | time_zone              = WRT -7 (Western Raledria Time), ERT -7 (Eastern Raledria Time),
 | date_format            = dd/mm/yyyy
 | drives_on              = right

@@ -1,0 +1,56 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+This template is used to generate a linked abbreviation for sporting events (esp. football) with special ending conditions. Its most common use is to produce "(a.e.t.)", meaning "after extra time", indicating that the score shown is after the completion of overtime play. By default, the indicator has a piped link to [[Overtime (sports)#Association football|Extra time (association football)]].
+
+{{tlc|aet}} is an alias of {{tlc|after extra time}}.
+
+== Usage ==
+Other displays and links are available using this template, through the addition of one of the parameters shown below.
+
+{| class="wikitable"
+|+ Parameters for Template:After extra time with resulting display and links
+!scope="col"| Parameter
+!scope="col"| Code
+!scope="col"| Generated text
+!scope="col"| Link target
+|-
+!scope="row"| ''none''
+| {{tlc|after extra time}}
+| {{after extra time}}
+| [[Extra time (association football)]]
+|-
+!scope="row"| ''none''
+| {{tlc|aet}}
+| {{aet}}
+| [[Extra time (association football)]]
+|-
+!scope="row"| g
+| {{tlc|aet|g{{=}}yes}}
+| {{aet|g=yes}}
+| [[Golden goal (association football)]]
+|-
+!scope="row"| sd
+| {{tlc|aet|sd{{=}}yes}}
+| {{aet|sd=yes}}
+| [[Sudden death (association football)]]
+|-
+!scope="row"| s
+| {{tlc|aet|s{{=}}yes}}
+| {{aet|s=yes}}
+| [[Silver goal]]
+|-
+!scope="row"| re
+| {{tlc|aet|re{{=}}yes}}
+| {{aet|re=yes}}
+| [[Replay (association football)]], [[Extra time (association football)]]
+|-
+!scope="row"| a
+| {{tlc|aet|a{{=}}yes}}
+| {{aet|a=yes}}
+| [[Extra time (association football)]]; [[Away goals rule]]
+|}
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Association football templates]]
+}}</includeonly>

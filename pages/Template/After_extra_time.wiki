@@ -1,0 +1,2 @@
+({{#if:{{{g|}}}|[[Golden goal (association football)|g.g.]]|{{#if:{{{sd|}}}|[[Sudden death (association football)|a.s.d.e.t.]]|{{#if:{{{s|}}}|[[Silver goal|s.g.]]|{{#if:{{{re|}}}|[[Replay (association football)|replay]],&nbsp;}}[[Extra time (association football)|a.e.t.]]{{#if:{{{a|}}}|{{;}} [[Away goals rule|a]]}}}}}}}})<noinclude>
+{{documentation}}</noinclude>

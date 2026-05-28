@@ -1,0 +1,4 @@
+{{col-break|class=col-break-2|align={{{align|}}}|valign={{{valign|}}}}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

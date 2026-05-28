@@ -1,0 +1,427 @@
+{{#switch:{{lc:{{BASEPAGENAME}}}}
+| col-2 = The [[Template:Col-2]] sets column width for each of two columns, with align=left, valign=top. The align or valign can be changed: <nowiki>{{col-2 |align=right|valign=center}}</nowiki>.
+| col-3 = The [[Template:Col-3]] sets column width for each of three columns, with align=left, valign=top. The align or valign can be changed: <nowiki>{{col-3|align=right|valign=center}}</nowiki>.
+| col-4 = The [[Template:Col-4]] sets column width for each of four columns.
+| col-5 = The [[Template:Col-5]] sets column width for each of five columns.
+| col-6 = The [[Template:Col-6]] sets column width for each of six columns, with align=left, valign=top. The width, align or valign can be changed: <nowiki>{{col-6 |width=20%|align=right|valign=center}}</nowiki>.
+| col-start=The [[Template:Col-start]] begins a wikitable (same as <nowiki>{{col-begin}}</nowiki>).
+}}
+The {{tl|col-begin}}, {{tl|col-break}} and {{tl|col-end}} templates control columns of text on a page:
+* <nowiki>{{col-begin}}</nowiki>: starts a table (followed by <nowiki>{{col-break}}</nowiki> for 1st column)
+* <nowiki>{{col-break}}</nowiki>: triggers the start of each column
+* <nowiki>{{col-end}}</nowiki>: ends the multi-column table.
+The widths of columns can be specified by using various additional codes. See below for examples.
+
+== Usage ==
+{{tlc|col-begin|width{{=}}70%}}: start table with specific width.<br />
+{{tlc|col-break|width{{=}}66%}}: start column-1 as 66% wide.<br />
+''This is text in column-1.''<br />
+{{tlc|col-break|width{{=}}33%}}: start column-2 as 33% wide.<br />
+''This is text in column-2.''<br />
+{{tlc|col-end}}
+
+The table will have two columns, with column 1 twice (2×) the width of column 2.
+
+A border of 2px (1px width on each side) corresponds to a 5%. Therefore, with a 2px border, the width needs to be 95% for the table to fit within the screen. Since it's possible that some tables might not have a border, correction on the individual page could be made after substitution. Another way to create a two column table is like this:
+
+{|
+|
+<syntaxhighlight lang="wikitext">
+{{col-begin|width=95%}}
+|-
+| 
+Left column
+|
+Right column
+|}
+</syntaxhighlight>
+|}
+
+{{col-begin}}
+{{col-break}}
+ {{tl|Col-begin}}
+ {{tl|Col-2}}
+ Column 1 here
+ {{tl|Col-2}}
+ Column 2 here
+ {{tl|Col-end}}
+{{col-break|gap=2em}}
+ {{tl|Col-begin}}
+ {{tl|Col-3}}
+ Column 1 here
+ {{tl|Col-3}}
+ Column 2 here
+ {{tl|Col-3}}
+ Column 3 here
+ {{tl|Col-end}}
+{{col-break|gap=2em}}
+and so on, up to {{tl|Col-5}}
+{{col-end}}
+
+{{col-begin}}
+{{col-break}}
+ &#123;{[[Template:Col-begin|Col-begin]]}}
+ {{tl|Col-break}}
+ Column 1 here
+ {{tl|Col-break}}
+ Column 2 here
+ {{tl|Col-break}}
+ Column 3 here
+ {{tl|Col-break}}
+ Column 4 here
+ {{tl|Col-break}}
+ Column 5 here
+ {{tl|Col-break}}
+ Column 6 here
+ {{tl|Col-end}}
+{{col-end}}
+
+==Examples==
+Here are some example codes that you can use to make columns of text in your Wikipedia article. You can change the width of your columns by changing the code words that go between the text of your columns. Good luck!
+
+{{hidden begin|toggle=left|title=Example 1, using col-break}}
+<syntaxhighlight lang="wikitext">
+{{col-begin}}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+</syntaxhighlight>
+
+gives:
+{{col-begin}}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+{{hidden end}}
+
+{{hidden begin|toggle=left|title=Example 2, using col-2}}
+<syntaxhighlight lang="wikitext">
+{{col-begin}}
+{{col-2}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-2}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+</syntaxhighlight>
+
+gives:
+{{col-begin}}
+{{col-2}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-2}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+{{hidden end}}
+
+{{hidden begin|toggle=left|title=Example 3, use col-break with specified widths}}
+<syntaxhighlight lang="wikitext">
+{{col-begin}}
+{{col-break|width=80%}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break|width=20%}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+</syntaxhighlight>
+
+gives:
+{{col-begin}}
+{{col-break|width=80%}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break|width=20%}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+{{hidden end}}
+
+{{hidden begin|toggle=left|title=Example 4, use col-break with auto outer width}}
+<syntaxhighlight lang="wikitext">
+{{col-begin|width=auto}}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break|gap=2em}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+</syntaxhighlight>
+
+{{col-begin|width=auto}}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break|gap=2em}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-end}}
+{{hidden end}}
+
+{{hidden begin|toggle=left|title=Example 5, Lots of columns, using col-break}}
+<syntaxhighlight lang="wikitext">
+{{col-begin}}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Revenue by product
+|-
+! Widgets
+| $25,000
+|-
+! Foos
+| $65,500
+|-
+! Bars
+| $28,000
+|}
+{{col-end}}
+</syntaxhighlight>
+
+gives:
+{{col-begin}}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Production by year
+|-
+! 1980
+| 50,000
+|-
+! 1990
+| 75,000
+|-
+! 2000
+| 90,000
+|}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Profit by year
+|-
+! 1980
+| $6,000
+|-
+! 1990
+| $7,500
+|-
+! 2000
+| $8,200
+|}
+{{col-break}}
+{| class="wikitable" style="width:18em"
+|+ Revenue by product
+|-
+! Widgets
+| $25,000
+|-
+! Foos
+| $65,500
+|-
+! Bars
+| $28,000
+|}
+{{col-end}}
+{{hidden end}}
+
+== See also ==
+*[[Help:Columns]]
+{{Column-generating template families}}<noinclude>
+[[Category:Multi-column templates| ]]
+[[Category:Documentation shared content templates]]
+</noinclude>
