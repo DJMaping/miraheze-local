@@ -1,0 +1,7 @@
+#REDIRECT [[Template:Article stub box]]
+
+{{Redirect category shell|
+{{R from move}}
+{{R from modification}}
+{{R from template shortcut}}
+}}

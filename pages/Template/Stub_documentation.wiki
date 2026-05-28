@@ -1,0 +1,28 @@
+{{#ifeq:{{FULLPAGENAME}}|Template:Stub documentation||{{#ifeq:{{#invoke:High-use|num|x}}|many||{{High-use}}}}}}
+This is a '''stub template'''. A brief explanation of these templates follows; for full details, please consult [[Wikipedia:Stub]]. 
+
+=== What is a stub? ===
+A stub is an article containing only a few sentences of text which is too short to provide encyclopedic coverage of a subject.
+
+=== How is a stub identified? ===
+* If possible, try to find the most appropriate stub template for the article. A full list can be found at [[Wikipedia:WikiProject Stub sorting/List of stubs]].
+* More than one stub template may be used, if necessary, though no more than four should be used on any article.
+* Place a stub template ''[[Wikipedia:Manual of Style/Layout#Order of article elements|at the very end]]'' of the article, after the "External links" section, any navigation templates, and the category tags. As usual, templates are added by including their name inside double braces, e.g. <code><nowiki>{{</nowiki>{{#ifeq:{{BASEPAGENAME}}|Stub documentation|Stub|{{BASEPAGENAME}}}}}}</code>.
+
+=== Further information ===
+
+Further information can be found at:
+* [[Wikipedia:Stub]]
+* [[Wikipedia:WikiProject Stub sorting]]
+
+New stub templates and categories (collectively "stub types") should not be created without prior proposal at [[Wikipedia:WikiProject Stub sorting/Proposals]]. This allows for the proper coordination of all stub types across Wikipedia, and for the checking of any new stub type for possible problems prior to its creation.
+
+=== See also ===
+* [[Template:Empty section]] – To flag a section as completely empty
+* [[Template:Expand section]] – To flag sections selectively as incomplete
+* [[Template:Data missing]] – To flag missing information or other data
+* [[Wikipedia:Content assessment]]<!--
+
+--><noinclude>
+{{documentation}}
+</noinclude>
