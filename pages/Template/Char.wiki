@@ -1,0 +1,1 @@
+<span class="nounderlines" style="border: 1px solid var(--border-color-muted,#ddd); color: var(--color-base,#202122); background-color: var( --background-color-neutral-subtle, #fdfdfd); padding: 1px 1px;">{{{1}}}</span><noinclude>{{documentation}}</noinclude>

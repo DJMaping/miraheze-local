@@ -1,0 +1,70 @@
+=== Column-generating template families ===
+'''The templates listed here are not interchangeable'''. For example, using {{tl|col-float}} with {{tl|col-end}} instead of {{tl|col-float-end}} would leave a {{tag|div|link=yes}} open, potentially harming any subsequent formatting.
+<section begin="table" />
+{| class="wikitable" style="line-height:1.4em"
+|+ Column templates
+|- style="vertical-align:middle;"
+! scope="col" | Type
+! scope="col" | Family
+! scope="col" | {{longitem|Handles wiki<br/> table code?{{sup|{{dagger}}}}}}
+! scope="col" | Responsive/<br/>mobile suited
+! scope="col" | Start template
+! scope="col" | Column divider
+! scope="col" | End template
+|-
+| rowspan="2" | Float
+| "col-float"
+| {{yes}}
+| {{yes}}
+| {{tl|col-float}}
+| {{tl|col-float-break}}
+| {{tl|col-float-end}}
+|-
+| "columns-start"
+| {{yes}}
+| {{yes}}
+| {{tl|columns-start}}
+| {{tl|column}}
+| {{tl|columns-end}}
+|-
+| rowspan="2" | Columns
+| "div col"
+| {{yes}}
+| {{yes}}
+| {{tl|div col}}
+| instead use {{tl|no col break}}
+| {{tl|div col end}}
+|-
+| "columns-list"
+| {{no}}
+| {{yes}}
+| {{tl|columns-list}} (wraps div col) 
+| –
+| –
+|-
+| Flexbox
+| "flex columns"
+| {{no}}
+| {{yes}}
+| {{tl|flex columns}}
+| –
+| –
+|-
+| Table
+| "col"
+| {{yes}}
+| {{no}}
+| {{tl|col-begin}}, <br/>{{tl|col-begin-fixed}} or<br/>{{tl|col-begin-small}}
+| {{tl|col-break}} or<br/>{{tl|col-2}} .. {{tl|col-5}}
+| {{tl|col-end}}
+|}
+{{sup|{{dagger}}}} Can the template handle the basic [[Help:Wiki markup|wiki markup]] <code><nowiki>{|  |  ||  |-  |}</nowiki></code> [[Help:Tables|used to create tables]]? If not, special templates that produce these elements (such as {{tl|(!}}, {{tl|!}}, {{tl|!!}}, {{tl|!-}}, {{tl|!)}}) or [[HTML element|HTML tags]] ({{tag|table}}, {{tag|tr}}, etc.) need to be used instead.<section end="table" /><noinclude>
+{{Documentation
+ | content =
+Used by column template documentation pages to provide links to other column-related templates.
+
+[[Category:Multi-column templates| ]]
+[[Category:Related-topic templates]]
+
+}}
+</noinclude>

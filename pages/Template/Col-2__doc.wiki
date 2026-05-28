@@ -1,0 +1,33 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{High-use}}
+{{Col-begin template}}
+
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>
+{
+    "description": "Starts a column in a two-column table begun by {{col-begin}}.",
+    "params": {
+        "align": {
+            "label": "align",
+            "description": "Horizontal alignment of content.",
+            "type": "string",
+            "default": "left",
+            "required": false
+        },
+        "valign": {
+            "label": "valign",
+            "description": "Vertical alignment of content.",
+            "type": "string",
+            "default": "top",
+            "required": false
+        }
+    }
+}
+</templatedata><includeonly>{{Sandbox other||
+
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Multi-column templates]]
+
+}}</includeonly>
