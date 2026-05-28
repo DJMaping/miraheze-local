@@ -1,0 +1,1610 @@
+local p = {}
+
+local yesno = require('Module:yesno')
+
+local notblank = function(v) return (v or '') ~= '' end
+local rmzero = function(k) return mw.ustring.gsub(k, "0(%d)$", "%1") end
+
+p['_Bracket'] = function (frame, template, subs, args)
+	-- figure out parameters from template name
+	local consols = string.find(template, "-Consols")
+	local pagePlayoff = string.find(template, "-PagePlayoff")
+	local stepladder = string.find(template, "-Stepladder")
+	if (consols or pagePlayoff or stepladder) then args.build = true end
+	
+	args.rounds = args.rounds or mw.ustring.match(template, "^(%d*)Round")
+	if not args.rounds then
+		local teams = tonumber(mw.ustring.match(template, "^(%d*)Team"))
+		if teams and teams > 1 then -- log2(teams) is the number of rounds
+			args.rounds = math.ceil( math.log(teams)/math.log(2) )
+			if consols then
+				args.rounds = (args.rounds * 2) - 1
+			elseif (pagePlayoff or stepladder) then
+				args.rounds = args.rounds + 1
+			end
+		end
+	end
+	
+	local tennis = mw.ustring.match(template, "-Tennis(%d*)")
+	local squash = mw.ustring.match(template, "-Squash(%d*)") 
+	if tennis or squash then
+		args.sets = args.sets or tennis or squash
+		args.seeds = args.seeds or 'yes'
+		args.nowrap = args.nowrap or 'yes'
+	end
+	
+	if string.find(template, "-Compact") then
+		args.compact = args.compact or 'yes'
+	end
+	
+	-- remove leading zeros from defaults
+	for k, v in pairs(args) do
+		if k ~= rmzero(k) then
+			args[rmzero(k)] = v
+			args[k] = nil
+		end
+	end
+	
+	-- overwrite defaults with frame args and alternative args
+	for k, v in pairs(frame.args) do
+		local leadingzero = mw.ustring.gsub(k, "([^0])(%d)$", "%10%2")
+		-- remove leading 0
+		k = rmzero(k)
+		-- do substitutes
+		if notblank(subs[k] or subs[leadingzero]) then
+			-- strip leading 0s from substitutes
+			k = rmzero(subs[k] or subs[leadingzero])
+		end
+		args[k] = v
+	end
+	
+	-- process parameters for '-Info' templates
+	local info = string.find(template, "-Info")
+	if info then
+		for i = 1,5 do
+			local rd = 'RD' .. i
+			if notblank(args[rd .. '-date']) then
+				args[rd] = (args[rd] or '') .. '<br />' .. args[rd .. '-date']
+			end
+		end
+		args.build = true
+	end
+	
+	-- return template
+	local newFrame = frame:newChild{title = ("Template:" .. template), args = args}
+	if args.build then
+		return require('Module:Build bracket').main(newFrame) ..
+			require('Module:Team bracket tracking').tracking(newFrame)
+	end
+	return require('Module:Team bracket').main(newFrame)
+end
+
+p['2TeamBracket'] = function (frame)
+	return p._Bracket(frame, '2TeamBracket', {}, {autoseeds = "y"})
+end
+
+p['2TeamBracket-Info'] = function (frame)
+	return p._Bracket(frame, '2TeamBracket-Info', {
+		['RD1-name'] = 'RD1',
+		['RD1T1-loc'] = 'RD1-text1',
+		['RD2'] = 'RD1b',
+	}, {
+		['col1-headers'] = '1,6',
+		['col1-matches'] = '3,8',
+		['RD1'] = 'Final',
+		['RD1b'] = 'Third place',
+		['RD1b-hide'] = 'y'
+	})
+end
+
+p['3TeamBracket-PagePlayoff'] = function (frame)
+	return p._Bracket(frame, '3TeamBracket-PagePlayoff', {
+	}, {
+		['col1-matches'] = '3',
+		['col2-matches'] = '5',
+		['col3-matches'] = '3',
+		
+		['col1-col2-paths'] = '3-3,3-5:red',
+		['col2-col3-paths'] = '(3,5)-3',
+		
+		['RD1'] = '[[Page playoff]]',
+		['RD2'] = 'Semifinal',
+	})
+end
+
+p['4TeamBracket'] = function (frame)
+	return p._Bracket(frame, '4TeamBracket', {
+		group1 = "RD1-group1"
+	}, {
+		autoseeds = "y",
+		['RD1-group1'] = ""
+	})
+end
+
+p['4TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '4TeamBracket-Consols', {
+		['RD1T1-loc'] = "RD1-text1",
+		['RD2T1-loc'] = "RD2-text1",
+		['RD2T2-loc'] = "RD2-text2",
+		['RD3T1-loc'] = "RD3-text1",
+	}, {
+		autocol = "y",
+		['col1-matches'] = "4.5",
+		['col2-matches'] = "3,6",
+		['col3-matches'] = "4.5",
+		['col1-col2-paths'] = "4.5-3:red, 4.5-6:red",
+		['col2-col3-paths'] = "(3,6)-4.5",
+		
+		['RD1'] = "Third place",
+		['RD1-shade'] = "#FFFFFF",
+
+		['RD1-altname'] = "consolation",
+		['RD2-altname'] = "SF",
+		['RD3-altname'] = "final",
+		['text-altname'] = "details",
+
+		['RD2-team1'] = "&nbsp",
+	})
+end
+
+p['4TeamBracket-PagePlayoff'] = function (frame)
+	local RD1b = notblank(frame.args.RD1b)
+	return p._Bracket(frame, '4TeamBracket-PagePlayoff', {
+	}, {
+		['RD3b-hide'] = 'y',
+		
+		['col1-headers'] = '1,' .. (RD1b and '6' or ''),
+		['col2-headers'] = '1',
+		['col3-headers'] = '1,6',
+		
+		['col1-matches'] = '3,' .. (RD1b and '8' or '7'),
+		['col2-matches'] = '5',
+		['col3-matches'] = '3,8',
+		
+		['col1-col2-paths'] = string.format('3-3, 3-5:red,%s-5', (RD1b and 8 or 7)),
+		['col2-col3-paths'] = '(3,5)-3',
+		
+		['RD1'] = 'Semifinals',
+		['RD2'] = 'Preliminary final',
+		['RD3b'] = 'Third place',
+	})
+end
+
+p['4TeamBracket-Stepladder'] = function (frame)
+	return p._Bracket(frame, '4TeamBracket-Stepladder', {
+	}, {
+		['col1-matches'] = '5',
+		['col2-matches'] = '4',
+		['col3-matches'] = '3',
+		
+		['col1-col2-paths'] = '5-4',
+		['col2-col3-paths'] = '4-3',
+		
+		['RD1'] = 'First round',
+		['RD2'] = 'Second round',
+
+		['RD1-seed1'] = '3',
+		['RD1-seed2'] = '4',
+		['RD2-seed1'] = '2',
+		['RD3-seed1'] = '1',
+	})
+end
+
+p['4TeamBracket-Tennis3'] = function (frame)
+	return p._Bracket(frame, '4TeamBracket-Tennis3', {}, {
+		seeds = '',
+		RD2 = "Final",
+		['team-width'] = 125
+	})
+end
+
+p['4TeamBracket-Tennis5'] = function (frame)
+	return p._Bracket(frame, '4TeamBracket-Tennis5', {}, {
+		seeds = '',
+		RD1 = "Quarterfinals",
+		RD2 = "Semifinals",
+		['team-width'] = 125,
+		['RD1-seed1'] = '',
+		['RD1-seed2'] = '',
+		['RD1-seed3'] = '',
+		['RD1-seed4'] = '',
+	})
+end
+
+p['4TeamBracket-Tennis35'] = function (frame)
+	return p._Bracket(frame, '4TeamBracket-Tennis35', {}, {
+		sets = "3/5",
+		RD1 = "Semifinals",
+		RD2 = "Final",
+		['RD1-seed1'] = '',
+		['RD1-seed2'] = '',
+		['RD1-seed3'] = '',
+		['RD1-seed4'] = '',
+	})
+end
+
+p['4TeamBracket-Info'] = function (frame)
+	local qual = yesno(frame.args.qualifiers or '')
+	local losernext = yesno(frame.args.losernext or '')
+	local page = yesno(frame.args.page or '')
+	local C1C2PN = '3-4.5' .. ((losernext or page) and ':red' or '')
+	C1C2PN = C1C2PN .. ',6-4.5' .. (losernext and ':red' or '')
+	
+	return p._Bracket(frame, '4TeamBracket-Info', {
+		['RD1T1-loc'] = 'RD1-text1',
+		['RD1T2-loc'] = 'RD1-text2',
+		['RD2T1-loc'] = 'RD2-text1',
+		['RD1-name'] = 'RD1',
+		['RD2-name'] = 'RD2',
+	}, {
+		['col2-teams-per-match'] = qual and '1' or nil,
+		['RD2-legs'] = qual and '0' or nil,
+		['col1-headers'] = '1',
+		['col2-headers'] = '1,7.5',
+		['col1-matches'] = '3,6',
+		['col2-matches'] = qual and '3.5,6.5' or '4.5,9.5',
+		['col1-col2-paths'] = C1C2PN,
+		RD1 = 'Semifinals',
+		RD2 = qual and 'Qualified' or 'Final',
+		RD2b = 'Third place',
+		['RD2b-hide'] = 'y',
+	})
+end
+
+p['5TeamBracket'] = function (frame)
+	return p._Bracket(frame, '5TeamBracket', {
+		group1 = "RD1-group1",
+		group2 = "RD1-group2",
+	}, {
+		byes = "1",
+		['RD1-omit'] = "1/2",
+		['RD1-seed1'] = "4",
+		['RD1-team1'] = "&nbsp;",
+		['RD1-seed2'] = "5",
+		['RD1-team2'] = "&nbsp;",
+		['RD2-seed1'] = "1",
+		['RD2-seed3'] = "2",
+		['RD2-seed4'] = "3",
+	})
+end
+
+p['5TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '5TeamBracket-Consols', {
+	}, {
+		['col1-headers'] = "1,9",
+		['col2-headers'] = "1",
+		['col3-headers'] = "1",
+		['col4-headers'] = "1",
+		['col5-headers'] = "1,9",
+
+		['col1-matches'] = "6,11",
+		['col2-matches'] = "9",
+		['col3-matches'] = "6",
+		['col4-matches'] = "3,9",
+		['col5-matches'] = "6,11",
+
+		['col1-col2-paths'] = "6-(3,9)",
+		['col2-col3-paths'] = "3-3, 9-(6,9)",
+		['col3-col4-paths'] = "3-3, 9-9, 6-" .. (
+			(tonumber(frame.args.style) == 2) and "9" or "3"
+		),
+		['col4-col5-paths'] = "(3,9)-6",
+
+		['RD1'] = "Third place",
+		['RD2'] = "Consolation semifinals",
+
+		['RD1b-hide'] = "y",
+		['RD5b-hide'] = "y",
+
+		['RD1-shade'] = "#FFFFFF",
+		['RD2-shade'] = "#FFFFFF",
+		['RD1b-shade'] = "#FFFFFF",
+
+		['RD1-altname'] = "fifth",
+		['RD2-altname'] = "consolation",
+		['RD3-altname'] = "QF",
+		['RD4-altname'] = "SF",
+		['RD5-altname'] = "final",
+		['text-altname'] = "details",
+	})
+end
+
+p['5TeamBracket-Stepladder'] = function (frame)
+	return p._Bracket(frame, '5TeamBracket-Stepladder', {
+	}, {
+		['col1-matches'] = '6',
+		['col2-matches'] = '5',
+		['col3-matches'] = '4',
+		['col4-matches'] = '3',
+		
+		['col1-col2-paths'] = '6-5',
+		['col2-col3-paths'] = '5-4',
+		['col3-col4-paths'] = '4-3',
+		
+		['RD1'] = 'First round',
+		['RD2'] = 'Second round',
+		['RD3'] = 'Semifinal',
+		
+		['RD1-seed1'] = '4',
+		['RD1-seed2'] = '5',
+		['RD2-seed1'] = '3',
+		['RD3-seed1'] = '2',
+		['RD4-seed1'] = '1',
+	})
+end
+
+p['6TeamBracket'] = function (frame)
+	local stepdown = yesno(frame.args.stepdown)
+	return p._Bracket(frame, '6TeamBracket', {
+		group1 = "RD1-group1",
+		group2 = "RD1-group2",
+		group3 = "RD2-group1",
+	}, {
+		compact = "y",
+		seeds = "y",
+		byes = '',
+		['RD1-omit'] = stepdown and "3/4/7/8" or "1/2/5/6",
+		['RD1-group1'] = "",
+		['RD1-group2'] = "",
+		['RD2-group1'] = "",
+		['RD1-seed1'] = 4,
+		['RD1-seed2'] = 5,
+		['RD1-seed3'] = 3,
+		['RD1-seed4'] = 6,
+		['RD2-seed1'] = stepdown and '' or 1,
+		['RD2-seed2'] = stepdown and 1 or '',
+		['RD2-seed3'] = stepdown and '' or 2,
+		['RD2-seed4'] = stepdown and 2 or '',
+	})
+end
+
+p['6TeamBracket-PagePlayoff'] = function (frame)
+	return p._Bracket(frame, '6TeamBracket-PagePlayoff', {
+	}, {
+		['col1-matches'] = '3,7',
+		['col2-matches'] = '5',
+		['col3-matches'] = '3,7',
+		['col4-matches'] = '5',
+		
+		['col1-col2-paths'] = '3-5,7-5:red,7-7',
+		['col2-col3-paths'] = '7-7, 5-3',
+		['col3-col4-paths'] = '(3,7)-5',
+		
+		['RD1'] = 'Seeding/Play-in qualifier',
+		['RD2'] = 'Play-in game',
+		
+		['RD1-seed1'] = '5',
+		['RD1-seed2'] = '6',
+		['RD1-seed3'] = '3',
+		['RD1-seed4'] = '4',
+		['RD3-seed1'] = '1',
+		['RD3-seed3'] = '2',
+	})
+end
+
+p['7TeamBracket'] = function (frame)
+	return p._Bracket(frame, '7TeamBracket', {
+		group1 = "RD1-group1",
+		group2 = "RD1-group2",
+		group3 = "RD2-group1",
+	}, {
+		['RD1-omit'] = "1/2",
+		byes = 1,
+		['RD1-group1'] = "",
+		['RD1-group2'] = "",
+		['RD2-group1'] = "",
+		['RD1-seed1'] = 4,
+		['RD1-seed2'] = 5,
+		['RD1-seed3'] = 2,
+		['RD1-seed4'] = 7,
+		['RD1-seed5'] = 3,
+		['RD1-seed6'] = 6,
+		['RD2-seed1'] = 1,
+		['RD1-team1'] = '&nbsp;',
+		['RD1-team2'] = '&nbsp;',
+		['RD1-team3'] = '&nbsp;',
+		['RD1-team4'] = '&nbsp;',
+		['RD1-team5'] = '&nbsp;',
+		['RD1-team6'] = '&nbsp;',
+
+	})
+end
+
+p['7TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '7TeamBracket-Consols', {
+	}, {
+		['col1-headers'] = "1,9",
+		['col2-headers'] = "1",
+		['col3-headers'] = "1",
+		['col4-headers'] = "1",
+		['col5-headers'] = "1,9",
+
+		['col1-matches'] = "6,11",
+		['col2-matches'] = "8.5",
+		['col3-matches'] = "4,7,10",
+		['col4-matches'] = "3,8.5",
+		['col5-matches'] = "6,11",
+
+		['col1-col2-paths'] = "6-(4,8.5)",
+		['col2-col3-paths'] = "4-4,8.5-(7,10)",
+		['col3-col4-paths'] = "4-3, (7,10)-8.5",
+		['col4-col5-paths'] = "(3,8.5)-6",
+
+		['RD1b-hide'] = "y",
+		['RD5b-hide'] = "y",
+
+		['RD1'] = "Fifth place",
+		['RD2'] = "Consolation semifinals",
+		['RD1b'] = "Seventh place",
+		['RD5b'] = "Third place",
+
+		['RD1-shade'] = "#FFFFFF",
+		['RD2-shade'] = "#FFFFFF",
+		['RD1b-shade'] = "#FFFFFF",
+
+		['RD1-altname'] = "fifth",
+		['RD2-altname'] = "consolation",
+		['RD3-altname'] = "QF",
+		['RD4-altname'] = "SF",
+		['RD5-altname'] = "final",
+		['RD1b-altname'] = "seventh",
+		['RD5b-altname'] = "third",
+		['text-altname'] = "details",
+
+	})
+end
+
+p['7TeamBracket-StepladderToSF'] = function (frame)
+	local shift1, shift2, shift3, shift4 = "", "", "", ""
+	local matches2 = "4,8"
+	local paths12, paths23 = "5-4", "4-3, 8-7"
+	local RD3b = (
+		notblank(frame.args.RD3b) or
+		notblank(frame.args['RD3b-team1']) or
+		notblank(frame.args['RD3b-team5'])
+	)
+	
+	if tonumber(frame.args.style) == 2 then
+		shift1, shift2, shift3, shift4 = "1", "-1", "1", "1"
+		paths12 = "5-8"
+	elseif tonumber(frame.args.style) == 3 then
+		shift1, shift2, shift3, shift4 = "-2", "0", "2", "2"
+	elseif tonumber(frame.args.style) == 4 then
+		shift1, shift2, shift3, shift4 = "5", "1", "1", "1"
+		matches2 = "2,8"
+		paths12, paths23 = "5-8", "2-3, 8-7"
+	elseif tonumber(frame.args.style) == 5 then
+		shift1, shift2, shift3, shift4 = "-1", "-1", "1", "1"
+		matches2 = "4,10"
+		paths23 = "4-3, 10-7"
+	elseif tonumber(frame.args.style) == 6 then
+		shift1, shift2, shift3, shift4 = "-2", "0", "2", "2"
+		matches2 = "4,10"
+		paths23 = "4-3, 10-7"
+	end
+	
+	return p._Bracket(frame, '7TeamBracket-StepladderToSF', {
+	}, {
+		['RD1-shift'] = shift1,
+		['RD2-shift'] = shift2,
+		['RD3-shift'] = shift3,
+		['RD4-shift'] = shift4,
+		
+		['RD3b-hide'] = 'y',
+		['RD4b-hide'] = 'y',
+
+		['col1-headers'] = '1',
+		['col2-headers'] = '1',
+		['col3-headers'] = '1,10',
+		['col4-headers'] = RD3b and '1,10' or '1,8',
+
+		['col1-matches'] = '5',
+		['col2-matches'] = matches2,
+		['col3-matches'] = '3,7,12',
+		['col4-matches'] = RD3b and '5,12' or '5,10',
+
+		['col1-col2-paths'] = paths12,
+		['col2-col3-paths'] = paths23,
+		['col3-col4-paths'] = '(3,7)-5',
+		
+		['RD1'] = 'Wild card',
+		['RD3b'] = 'Fifth place',
+		['RD4b'] = 'Third place',
+	})
+end
+
+p['8TeamBracket'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket', {
+		group1 = 'RD1-group1',
+		group2 = 'RD1-group2',
+		group3 = 'RD2-group1',
+	}, {
+		['RD1-seed1'] = 1,
+		['RD1-seed2'] = 8,
+		['RD1-seed3'] = 4,
+		['RD1-seed4'] = 5,
+		['RD1-seed5'] = 2,
+		['RD1-seed6'] = 7,
+		['RD1-seed7'] = 3,
+		['RD1-seed8'] = 6,
+	})
+end
+
+p['8TeamBracket-2Leg'] = function (frame)
+	local scorewidth = 25
+	-- replicate {{ifempty}}
+	for _,v in ipairs({'score-width', 'game-score-width', 'leg-width'}) do
+		if notblank(frame.args[v]) then
+			scorewidth = frame.args[v]
+			break
+		end
+	end
+	return p._Bracket(frame, '8TeamBracket-2Leg', {
+		group1 = 'RD1-group1',
+		group2 = 'RD1-group2',
+		group3 = 'RD2-group1',
+	}, {
+		sets = 2,
+		aggregate = 'y',
+		autoseeds = 'y',
+
+		['score-width'] = scorewidth,
+		seeds = notblank(frame.args.noseeds) and 'n' or nil,
+	})
+end
+
+p['8TeamBracket-Byes'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Byes', {
+		group1 = "RD1-group1",
+		group2 = "RD1-group2",
+		group3 = "RD2-group1",
+		Consol = "RD3b"
+	}, {
+		seeds = 'yes',
+		byes = 1,
+		['team-width'] = '11em',
+		['score-width'] = '2em',
+		['RD1-group1'] = '',
+		['RD1-group2'] = '',
+		['RD2-group1'] = '',
+		RD3b = frame.args['RD3-team3'] and "Third place" or ""
+	})
+end
+p['3RoundBracket-Byes'] = p['8TeamBracket-Byes']
+
+p['8TeamBracket-Compact-Byes'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Compact-Byes', {
+	}, {
+		nowrap = 'y',
+		byes = 1,
+		['seed-width'] = 5,
+		['team-width'] = '125',
+		['score-width'] = '15',
+	})
+end
+
+p['8TeamBracket-Compact-NoSeeds-Byes'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Compact-NoSeeds-Byes', {
+	}, {
+		byes = 2,
+		['team-width'] = '125',
+		['score-width'] = '25',
+		RD1 = 'Quarterfinals',
+		RD2 = 'Semifinals',
+		RD3 = 'Final',
+	})
+end
+
+p['8TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Consols', {
+	}, {
+		['col1-headers'] = "1,13",
+		['col2-headers'] = "1",
+		['col3-headers'] = "1",
+		['col4-headers'] = "1",
+		['col5-headers'] = "1,13",
+
+		['col1-matches'] = "9,15",
+		['col2-matches'] = "5,13",
+		['col3-matches'] = "3,7,11,15",
+		['col4-matches'] = "5,13",
+		['col5-matches'] = "9,15",
+
+		['col1-col2-paths'] = "9-(5,13)",
+		['col2-col3-paths'] = "5-(3,7), 13-(11,15)",
+		['col3-col4-paths'] = "(3,7)-5, (11,15)-13",
+		['col4-col5-paths'] = "(5,13)-9",
+
+		['RD1b-hide'] = "y",
+		['RD5b-hide'] = "y",
+
+		['RD1'] = "Fifth place",
+		['RD2'] = "Consolation semifinals",
+		['RD1b'] = "Seventh place",
+		['RD5b'] = "Third place",
+
+		['RD1-shade'] = "#FFFFFF",
+		['RD2-shade'] = "#FFFFFF",
+		['RD1b-shade'] = "#FFFFFF",
+
+		['RD1-altname'] = "fifth",
+		['RD2-altname'] = "consolation",
+		['RD3-altname'] = "QF",
+		['RD4-altname'] = "SF",
+		['RD5-altname'] = "final",
+		['RD1b-altname'] = "seventh",
+		['RD5b-altname'] = "third",
+		['text-altname'] = "details",
+	})
+end
+
+p['8TeamBracket-PagePlayoff'] = function (frame)
+	local cross12 = notblank(frame.args['RD1-RD2-cross'])
+	local cross23 = notblank(frame.args['RD2-RD3-cross'])
+	local path12 = cross12 and {13, 5} or {5, 13}
+	local path23 = cross23 and {13, 5} or {5, 13}
+	return p._Bracket(frame, '8TeamBracket-PagePlayoff', {
+	}, {
+		['col-spacing'] = (cross12 or cross23) and '12' or '',
+		['shift'] = notblank(frame.args['RD1-text1']) and '1' or '',
+		
+		['col1-matches'] = '3,7,11,15',
+		['col2-matches'] = '5,13',
+		['col3-matches'] = '7,11',
+		['col4-matches'] = '9',
+		
+		['col1-col2-paths'] = string.format('7-%s,11-%s,3-3,3-5:#FF3333,15-15,15-13:#FF3333',path12[1], path12[2]),
+		['col2-col3-paths'] = string.format('(3,%s)-7, (%s,15)-11', path23[1], path23[2]),
+		['col3-col4-paths'] = '(7,11)-9',
+		['col1-col2-cross'] = cross12 and '9' or '',
+		['col2-col3-cross'] = cross23 and '9' or '',
+		
+		['RD1'] = 'Qualifying and elimination finals',
+		['RD2'] = 'Semi-finals',
+		['RD3'] = 'Preliminary finals',
+		['RD4'] = 'Grand final',
+		
+		['RD1-seed1'] = '1',
+		['RD1-seed2'] = '4',
+		['RD1-seed3'] = '5',
+		['RD1-seed4'] = '8',
+		['RD1-seed5'] = '6',
+		['RD1-seed6'] = '7',
+		['RD1-seed7'] = '2',
+		['RD1-seed8'] = '3',
+	})
+end
+
+p['8TeamBracket-Stepladder'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Stepladder', {
+	}, {
+		['RD4b-hide'] = 'y',
+		['RD4b'] = 'Third place',
+		
+		['col1-headers'] = '1',
+		['col2-headers'] = '1',
+		['col3-headers'] = '1',
+		['col4-headers'] = '1,8',
+		
+		['col1-matches'] = '5,9',
+		['col2-matches'] = '4,8',
+		['col3-matches'] = '3,7',
+		['col4-matches'] = '5,10',
+		
+		['col1-col2-paths'] = '5-4, 9-8',
+		['col2-col3-paths'] = '4-3, 8-7',
+		['col3-col4-paths'] = '(3,7)-5',
+		
+		['RD1'] = 'First round',
+		['RD2'] = 'Second round',
+		['RD3'] = 'Semifinals',
+		['RD4'] = 'Final',
+		
+		['RD1-seed1'] = '5',
+		['RD1-seed2'] = '8',
+		['RD1-seed3'] = '6',
+		['RD1-seed4'] = '7',
+		['RD2-seed1'] = '4',
+		['RD2-seed3'] = '3',
+		['RD3-seed1'] = '1',
+		['RD3-seed3'] = '2',
+	})
+end
+p['8TeamBracket-Double-Stepladder'] = p['8TeamBracket-Stepladder']
+
+p['8TeamBracket-Tennis3'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Tennis3', {}, {
+		RD1 = 'Quarterfinals',
+		RD2 = 'Semifinals',
+		RD3 = 'Finals',
+		['team-width'] = 140,
+		['RD1-seed1'] = 1,
+		['RD1-seed2'] = 8,
+		['RD1-seed3'] = 4,
+		['RD1-seed4'] = 5,
+		['RD1-seed5'] = 3,
+		['RD1-seed6'] = 6,
+		['RD1-seed7'] = 2,
+		['RD1-seed8'] = 7,
+	})
+end
+
+p['8TeamBracket-Tennis5'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket-Tennis5', {}, {
+		RD1 = 'Quarterfinals',
+		RD2 = 'Semifinals',
+		RD3 = 'Final',
+	})
+end
+
+p['8TeamBracket-Info'] = function (frame)
+	local RD2b = notblank(frame.arg['RD2b'])
+		or notblank(frame.arg['RD2b-team1'])
+		or notblank(frame.arg['RD2-team5'])
+	
+	return p._Bracket(frame, '8TeamBracket-Info', {
+		['RD1-name'] = 'RD1',
+		['RD2-name'] = 'RD2',
+		['RD3-name'] = 'RD3',
+
+		['RD1-text1'] = 'RD1-text1',
+		['RD1-info1'] = 'RD1-text1',
+		['RD1T1-loc'] = 'RD1-text1',
+		['RD1-text2'] = 'RD1-text2',
+		['RD1-info2'] = 'RD1-text2',
+		['RD1T2-loc'] = 'RD1-text2',
+		['RD1-text3'] = 'RD1-text3',
+		['RD1-info3'] = 'RD1-text3',
+		['RD1T3-loc'] = 'RD1-text3',
+		['RD1-text4'] = 'RD1-text4',
+		['RD1-info4'] = 'RD1-text4',
+		['RD1T4-loc'] = 'RD1-text4',
+		['RD2-text1'] = 'RD2-text1',
+		['RD2-info1'] = 'RD2-text1',
+		['RD2T1-loc'] = 'RD2-text1',
+		['RD2-text2'] = 'RD2-text2',
+		['RD2-info2'] = 'RD2-text2',
+		['RD2T2-loc'] = 'RD2-text2',
+		['RD3-text1'] = 'RD3-text1',
+		['RD3-info1'] = 'RD3-text1',
+		['RD3T1-loc'] = 'RD3-text1',
+	}, {
+		['RD2b-hide'] = 'y',
+		['RD3b-hide'] = 'y',
+		
+		['col1-headers'] = '1',
+		['col2-headers'] = '1' .. (RD2b and ',13.5' or ''),
+		['col3-headers'] = '1,' .. (RD2b and '13.5' or '10.5'),
+		
+		['col1-matches'] = '3,6,9,12',
+		['col2-matches'] = '4.5,10.5' .. (RD2b and ',15.5' or ''),
+		['col3-matches'] = '7.5,' .. (RD2b and '15.5' or '12.5'),
+
+		['col1-col2-paths'] = '(3,6)-4.5,(9,12)-10.5',
+		['col2-col3-paths'] = '(4.5,10.5)-7.5',
+		
+		RD1 = 'Quarterfinals',
+		RD2 = 'Semifinals',
+		RD3 = 'Final',
+		RD3b = 'Third place',
+	})
+end
+p['8TeamBracket-info'] = p['8TeamBracket-Info']
+
+p['10TeamBracket'] = function (frame)
+	return p._Bracket(frame, '10TeamBracket', {
+		['group1']		= "RD2-group1",
+		['group2']		= "RD2-group2",
+	}, {
+		['compact']		= "y",
+		['seeds']		= "y",
+		['RD1-omit']	= "1/2/5/6/7/8/9/10/13/14/15/16",
+		
+		['RD1']			= "First round",
+		['RD2']			= "Quarterfinals",
+		['RD3']			= "Semifinals",
+		['RD4']			= "Finals",
+		
+		['RD1-seed1']	= "8",
+		['RD1-seed2']	= "9",
+		['RD1-seed3']	= "7",
+		['RD1-seed4']	= "10",
+		['RD2-seed1']	= "1",
+		['RD2-seed3']	= "4",
+		['RD2-seed4']	= "5",
+		['RD2-seed5']	= "2",
+		['RD2-seed7']	= "3",
+		['RD2-seed8']	= "6"
+	})
+end
+
+p['12TeamBracket'] = function (frame)
+	return p._Bracket(frame, '8TeamBracket', {
+		['subgroup1'] = "RD1-group1",
+		['subgroup2'] = "RD1-group2",
+		['subgroup3'] = "RD1-group3",
+		['subgroup4'] = "RD1-group4",
+		
+		['group1'] = "RD2-group1",
+		['group2'] = "RD2-group2",
+		['group3'] = "RD3-group1",
+	}, {
+		['RD1-omit'] = "1/2/5/6/9/10/13/14",
+		
+		['compact'] = "y",
+				
+		['RD1'] = "First round",
+		['RD2'] = "Quarter-finals",
+		['RD3'] = "Semi-finals",
+		['RD4'] = "Final",
+		
+		['RD1-seed1'] = "8",
+		['RD1-seed2'] = "9",
+		['RD1-seed3'] = "5",
+		['RD1-seed4'] = "12",
+		['RD1-seed5'] = "7",
+		['RD1-seed6'] = "10",
+		['RD1-seed7'] = "6",
+		['RD1-seed8'] = "11",
+		['RD2-seed1'] = "1",
+		['RD2-seed3'] = "4",
+		['RD2-seed5'] = "2",
+		['RD2-seed7'] = "3",
+	})
+end
+
+p['12TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '12TeamBracket-Consols', {
+	}, {
+		['rounds'] = "6",
+
+		['col1-headers'] = "1,12.5",
+		['col2-headers'] = "1",
+		['col3-headers'] = "1",
+		['col4-headers'] = "1",
+		['col5-headers'] = "1,16.5",
+		['col6-headers'] = "1,12,16.5,23",
+
+		['col1-matches'] = "8.5,14.5",
+		['col2-matches'] = "5.5,11.5",
+		['col3-matches'] = "4,7,10,13",
+		['col4-matches'] = "3,6,9,12",
+		['col5-matches'] = "4.5,10.5,18.5,21.5",
+		['col6-matches'] = "7.5,14,20,25",
+
+		['col1-col2-paths'] = "8.5-(5.5,11.5)",
+		['col2-col3-paths'] = "5.5-(4,7), 11.5-(10,13)",
+		['col3-col4-paths'] = "4-3,7-6,10-9,13-12",
+		['col4-col5-paths'] = "(3,6)-4.5, (9,12)-10.5",
+		['col5-col6-paths'] = "(4.5,10.5)-7.5,(18.5,21.5)-20",
+
+		['RD1b-hide'] = "y",
+		['RD5b-hide'] = "y",
+		['RD6b-hide'] = "y", ['RD6c-hide'] = "y", ['RD6d-hide'] = "y",
+
+		['RD1'] = "Ninth place",
+		['RD2'] = "Consolation semifinals",
+		['RD3'] = "First round",
+		['RD1b'] = "Eleventh place",
+		['RD5b'] = "5th–8th classification",
+		['RD6b'] = "Third place", ['RD6c'] = "Fifth place", ['RD6d'] = "Seventh place",
+
+		['RD1-shade'] = "#FFFFFF",
+		['RD2-shade'] = "#FFFFFF",
+		['RD1b-shade'] = "#FFFFFF", ['RD1c-shade'] = "#FFFFFF", ['RD1d-shade'] = "#FFFFFF",
+		['RD2b-shade'] = "#FFFFFF",
+
+		['RD1-altname'] = "9thplace",
+		['RD2-altname'] = "9to12SF",
+		['RD3-altname'] = "9to16QF",
+		['RD4-altname'] = "Ro16",
+		['RD5-altname'] = "QF",
+		['RD6-altname'] = "SF",
+		['RD7-altname'] = "final",
+		['RD1b-altname'] = "11thplace", ['RD1c-altname'] = "13thplace", ['RD1d-altname'] = "15thplace",
+		['RD2b-altname'] = "13to16SF",
+		['RD6b-altname'] = "5to8SF",
+		['RD7b-altname'] = "3rdplace", ['RD7c-altname'] = "5thplace", ['RD7d-altname'] = "7thplace",
+
+		['text-altname'] = "details",
+	})
+end
+
+p['14TeamBracket'] = function (frame)
+	return p._Bracket(frame, '14TeamBracket', {
+		['subgroup1'] = "RD1-group1",
+		['subgroup2'] = "RD1-group2",
+		['subgroup3'] = "RD1-group3",
+		['subgroup4'] = "RD1-group4",
+		
+		['group1'] = "RD2-group1",
+		['group2'] = "RD2-group2",
+		['group3'] = "RD3-group1",
+	}, {
+		['RD1-omit'] = "1/2/9/10",
+		
+		['RD1'] = "First round",
+		['RD2'] = "Quarterfinals",
+		['RD3'] = "Semifinals",
+		['RD4'] = "Final",
+
+		['RD1-team1'] = "&nbsp;",
+		['RD1-team2'] = "&nbsp;",
+		['RD1-team3'] = "&nbsp;",
+		['RD1-team4'] = "&nbsp;",
+		['RD1-team5'] = "&nbsp;",
+		['RD1-team6'] = "&nbsp;",
+		['RD1-team7'] = "&nbsp;",
+		['RD1-team8'] = "&nbsp;",
+		['RD1-team9'] = "&nbsp;",
+		['RD1-team10'] = "&nbsp;",
+		['RD1-team11'] = "&nbsp;",
+		['RD1-team12'] = "&nbsp;",
+
+		['RD1-group1'] = "",
+		['RD1-group2'] = "",
+		['RD1-group3'] = "",
+		['RD1-group4'] = "",
+		['RD2-group1'] = "",
+		['RD2-group2'] = "",
+		['RD3-group1'] = "",
+		['RD1-seed1'] = "8",
+		['RD1-seed2'] = "9",
+		['RD1-seed3'] = "4",
+		['RD1-seed4'] = "13",
+		['RD1-seed5'] = "5",
+		['RD1-seed6'] = "12",
+		['RD1-seed7'] = "7",
+		['RD1-seed8'] = "10",
+		['RD1-seed9'] = "3",
+		['RD1-seed10'] = "14",
+		['RD1-seed11'] = "6",
+		['RD1-seed12'] = "11",
+		['RD2-seed1'] = "1",
+		['RD2-seed5'] = "2",
+	})
+end
+
+p['14TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '14TeamBracket-Consols', {
+	}, {
+		['rounds'] = "5",
+
+		['col1-headers'] = "1",
+		['col2-headers'] = "1",
+		['col3-headers'] = "1,18.5",
+		['col4-headers'] = "1,18.5",
+		['col5-headers'] = "1",
+
+		['col1-matches'] = "5,9,13,17",
+		['col2-matches'] = "4,8,12,16",
+		['col3-matches'] = "6,14,20",
+		['col4-matches'] = "5,13,20",
+		['col5-matches'] = "9",
+
+		['col1-col2-paths'] = "5-4,9-8,13-12,17-16",
+		['col2-col3-paths'] = "(4,8)-6,(12,16)-14",
+		['col3-col4-paths'] = "6-5,14-13",
+		['col4-col5-paths'] = "(5,13)-9",
+	})
+end
+
+p['14TeamBracket-Stepladder'] = function (frame)
+	return p._Bracket(frame, '14TeamBracket-Stepladder', {
+	}, {
+		['rounds'] = '7',
+		
+		['col1-matches'] = '8,15',
+		['col2-matches'] = '7,14',
+		['col3-matches'] = '6,13',
+		['col4-matches'] = '5,12',
+		['col5-matches'] = '4,11',
+		['col6-matches'] = '3,10',
+		['col7-matches'] = '7',
+		
+		['col1-col2-paths'] = '8-7,15-14',
+		['col2-col3-paths'] = '7-6,14-13',
+		['col3-col4-paths'] = '6-5,13-12',
+		['col4-col5-paths'] = '5-4,12-11',
+		['col5-col6-paths'] = '4-3,11-10',
+		['col6-col7-paths'] = '(3,10)-7',
+		
+		['RD1-seed01'] = '12',
+		['RD1-seed02'] = '13',
+		['RD1-seed03'] = '11',
+		['RD1-seed04'] = '14',
+		
+		['RD2-seed01'] = '9',
+		['RD2-seed03'] = '10',
+		
+		['RD3-seed01'] = '8',
+		['RD3-seed03'] = '7',
+		
+		['RD4-seed01'] = '5',
+		['RD4-seed03'] = '6',
+		
+		['RD5-seed01'] = '4',
+		['RD5-seed03'] = '3',
+		
+		['RD6-seed01'] = '1',
+		['RD6-seed03'] = '2',
+	})
+end
+
+p['16TeamBracket'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket', {
+		subgroup1 = 'RD1-group1',
+		subgroup2 = 'RD1-group2',
+		subgroup3 = 'RD1-group3',
+		subgroup4 = 'RD1-group4',
+		
+		group1 = 'RD2-group1',
+		group2 = 'RD2-group2',
+		group3 = 'RD3-group1',
+	}, {
+		['RD1-seed1'] = 1,
+		['RD1-seed2'] = 16,
+		['RD1-seed3'] = 8,
+		['RD1-seed4'] = 9,
+		['RD1-seed5'] = 5,
+		['RD1-seed6'] = 12,
+		['RD1-seed7'] = 4,
+		['RD1-seed8'] = 13,
+		['RD1-seed9'] = 6,
+		['RD1-seed10'] = 11,
+		['RD1-seed11'] = 3,
+		['RD1-seed12'] = 14,
+		['RD1-seed13'] = 7,
+		['RD1-seed14'] = 10,
+		['RD1-seed15'] = 2,
+		['RD1-seed16'] = 15,
+		RD1 = 'First round',
+		RD2 = 'Quarter-finals',
+		RD3 = 'Semi-finals',
+		RD4 = 'Final',
+	})
+end
+
+p['16TeamBracket-Byes'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Byes', {
+		group1 = "RD1-group1",
+		group2 = "RD2-group2",
+	}, {
+		seeds = 'yes',
+		byes = 1,
+		RD1 = 'First round',
+		RD2 = 'Second round',
+		RD3 = 'Semifinals',
+		RD4 = 'Finals',
+		['team-width'] = '11em',
+		['score-width'] = '2em',
+		['RD1-group1'] = '',
+		['RD2-group2'] = '',
+	})
+end
+p['4RoundBracket-Byes'] = p['16TeamBracket-Byes']
+
+p['16TeamBracket-Consols'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Consols', {
+	}, {
+		['RD1b-hide'] = "y", ['RD1c-hide'] = "y", ['RD1d-hide'] = "y",
+		['RD2b-hide'] = "y",
+		['RD6b-hide'] = "y",
+		['RD7b-hide'] = "y", ['RD7c-hide'] = "y", ['RD7d-hide'] = "y",
+
+		['col1-headers'] = "1,16.5,22.5,29",
+		['col2-headers'] = "1,22.5",
+		['col3-headers'] = "1",
+		['col4-headers'] = "1",
+		['col5-headers'] = "1",
+		['col6-headers'] = "1,22.5",
+		['col7-headers'] = "1,16.5,22.5,29",
+
+		['col1-matches'] = "13.5,18.5,26,31",
+		['col2-matches'] = "7.5,19.5,24.5,27.5",
+		['col3-matches'] = "4.5,10.5,16.5,22.5",
+		['col4-matches'] = "3,6,9,12,15,18,21,24",
+		['col5-matches'] = "4.5,10.5,16.5,22.5",
+		['col6-matches'] = "7.5,19.5,24.5,27.5",
+		['col7-matches'] = "13.5,18.5,26,31",
+
+		['col1-col2-paths'] = "13.5-(7.5,19.5),26-(24.5,27.5)",
+		['col2-col3-paths'] = "7.5-(4.5,10.5), 19.5-(16.5,22.5)",
+		['col3-col4-paths'] = "4.5-(3,6), 10.5-(9,12), 16.5-(15,18), 22.5-(21,24)",
+		['col4-col5-paths'] = "(3,6)-4.5, (9,12)-10.5, (15,18)-16.5, (21,24)-22.5",
+		['col5-col6-paths'] = "(4.5,10.5)-7.5, (16.5,22.5)-19.5",
+		['col6-col7-paths'] = "(7.5,19.5)-13.5,(24.5,27.5)-26",
+
+		['RD1'] = "Ninth place",
+		['RD2'] = "Consolation semifinals",
+		['RD3'] = "Consolation quarterfinals",
+		['RD4'] = "Round of 16",
+		['RD1b'] = "Eleventh place",
+		['RD1c'] = "Thirteenth place",
+		['RD1d'] = "Fifteenth place",
+		['RD2b'] = "13th–16th classification",
+		['RD6b'] = "5th–8th classification",
+		['RD7b'] = "Third place",
+		['RD7c'] = "Fifth place",
+		['RD7d'] = "Seventh place",
+
+		['RD1-shade'] = "#FFFFFF",
+		['RD2-shade'] = "#FFFFFF",
+		['RD3-shade'] = "#FFFFFF",
+		['RD1b-shade'] = "#FFFFFF",
+		['RD1c-shade'] = "#FFFFFF",
+		['RD1d-shade'] = "#FFFFFF",
+		['RD2b-shade'] = "#FFFFFF",
+
+		['RD1-altname'] = "9thplace",
+		['RD2-altname'] = "9to12SF",
+		['RD3-altname'] = "9to16QF",
+		['RD4-altname'] = "Ro16",
+		['RD5-altname'] = "QF",
+		['RD6-altname'] = "SF",
+		['RD7-altname'] = "final",
+		['RD1b-altname'] = "11thplace",
+		['RD1c-altname'] = "13thplace",
+		['RD1d-altname'] = "15thplace",
+		['RD2b-altname'] = "13to16SF",
+		['RD6b-altname'] = "5to8SF",
+		['RD7b-altname'] = "3rdplace",
+		['RD7c-altname'] = "5thplace",
+		['RD7d-altname'] = "7thplace",
+
+		['text-altname'] = "details",
+	})
+end
+
+p['16TeamBracket-Tennis3'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Tennis3', {}, {
+		['team-width'] = 140,
+		['score-width'] = 25,
+		RD1 = 'First round',
+		RD2 = 'Quarterfinals',
+		RD3 = 'Semifinals',
+		RD4 = 'Final',
+	})
+end
+
+p['16TeamBracket-Tennis3-Byes'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Tennis3-Byes', {}, {
+		byes = 1,
+		['team-width'] = 125,
+		['score-width'] = 25,
+		RD1 = 'First round',
+		RD2 = 'Quarterfinals',
+		RD3 = 'Semifinals',
+		RD4 = 'Finals',
+	})
+end
+
+p['16TeamBracket-Compact-NoSeeds-Byes'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Compact-NoSeeds-Byes', {
+	}, {
+		byes = 3,
+		RD1 = 'Round of 16',
+		RD2 = 'Quarterfinals',
+		RD3 = 'Semifinals',
+		RD4 = 'Final',
+		['team-width'] = 125,
+		['score-width'] = 25
+	})
+end
+
+p['16TeamBracket-Compact-Tennis3'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Compact-Tennis3', {}, {
+		RD1 = '1st round',
+		RD2 = '2nd round',
+	})
+end
+
+p['16TeamBracket-Compact-Tennis3-Byes'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Compact-Tennis3-Byes', {}, {
+		byes = 2,
+		['seed-width'] = 25,
+		['team-width'] = 150,
+		RD1 = '1st round',
+		RD2 = '2nd round',
+		RD3 = 'Semifinals',
+		RD4 = 'Final',
+	})
+end
+p['4RoundBracket-Compact-Tennis3-Byes'] = p['16TeamBracket-Compact-Tennis3-Byes']
+
+p['16TeamBracket-Compact-Archery'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Compact-Archery', {}, {
+		nowrap = 'yes',
+		sets = 6,
+		seeds = 'yes',
+		['team-width'] = 150,
+		['score-width'] = 12,
+		RD1 = '1st round',
+		RD2 = '2nd round',
+		RD3 = 'Semifinals',
+		RD4 = 'Finals',
+	})
+end
+
+p['16TeamBracket-Tennis5'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Tennis5', {}, {
+		RD1 = 'First round',
+		RD2 = 'Quarterfinals',
+		RD3 = 'Semifinals',
+		RD4 = 'Final',
+		['seed-width'] = 25,
+		['team-width'] = 150,
+		['score-width'] = 12,
+	})
+end
+
+p['16TeamBracket-Compact-Tennis5'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Compact-Tennis5', {}, {
+		RD1 = 'First round',
+		RD2 = 'Second round',
+		RD3 = 'Third round',
+		RD4 = 'Fourth round',
+	})
+end
+
+p['16TeamBracket-Compact-Tennis5-Byes'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Compact-Tennis5-Byes', {}, {
+		byes = 1,
+		RD1 = 'First round',
+		RD2 = 'Second round',
+		RD3 = 'Semifinals',
+		RD4 = 'Final',
+	})
+end
+p['4RoundBracket-Compact-Tennis5-Byes'] = p['16TeamBracket-Compact-Tennis5-Byes']
+
+p['16TeamBracket-Info'] = function (frame)
+	return p._Bracket(frame, '16TeamBracket-Info', {
+		['RD1T1-loc'] = 'RD1-text1',
+		['RD1T2-loc'] = 'RD1-text2',
+		['RD1T3-loc'] = 'RD1-text3',
+		['RD1T4-loc'] = 'RD1-text4',
+		['RD1T5-loc'] = 'RD1-text5',
+		['RD1T6-loc'] = 'RD1-text6',
+		['RD1T7-loc'] = 'RD1-text7',
+		['RD1T8-loc'] = 'RD1-text8',
+		['RD2T1-loc'] = 'RD2-text1',
+		['RD2T2-loc'] = 'RD2-text2',
+		['RD2T3-loc'] = 'RD2-text3',
+		['RD2T4-loc'] = 'RD2-text4',
+		['RD3T1-loc'] = 'RD3-text1',
+		['RD3T2-loc'] = 'RD3-text2',
+		['RD4T1-loc'] = 'RD4-text1',
+		['RD1-name'] = 'RD1',
+		['RD2-name'] = 'RD2',
+		['RD3-name'] = 'RD3',
+		['RD4-name'] = 'RD4',
+	}, {
+		['col1-headers'] = '1',
+		['col2-headers'] = '1',
+		['col3-headers'] = '1',
+		['col4-headers'] = '1,20.5',
+
+		['col1-matches'] = '3,6,9,12,15,18,21,24',
+		['col2-matches'] = '4.5,10.5,16.5,22.5',
+		['col3-matches'] = '7.5,19.5',
+		['col4-matches'] = '13.5,22.5',
+
+		['col1-col2-paths'] = '(3,6)-4.5,(9,12)-10.5,(15,18)-16.5,(21,24)-22.5',
+		['col2-col3-paths'] = '(4.5,10.5)-7.5,(16.5,22.5)-19.5',
+		['col3-col4-paths'] = '(7.5,19.5)-13.5',
+
+		['RD1'] = 'First round',
+		['RD2'] = 'Quarterfinals',
+		['RD3'] = 'Semifinals',
+		['RD4'] = 'Final',
+		['RD4b'] = 'Third place',
+
+		['RD4b-hide'] = 'y',
+	})
+end
+
+p['18TeamBracket'] = function (frame)
+	return p._Bracket(frame, '18TeamBracket', {
+	}, {
+		compact = 'yes',
+		['RD1-omit'] = '1/2/5/6/7/8/9/10/11/12/13/14/15/16/17/18/21/22/23/24/25/26/27/28/29/30/31/32',
+		RD1        = 'First round',
+		RD2        = 'Second round',
+		RD3        = 'Quarterfinals',
+		RD4        = 'Semifinals',
+		RD5        = 'Finals',
+		
+		['RD1-seed1'] = 16,
+		['RD1-seed2'] = 17,
+		['RD1-seed3'] = 15,
+		['RD1-seed4'] = 18,
+		
+		['RD2-seed01'] = 1,
+		['RD2-seed02'] = '',
+		['RD2-seed03'] = 8,
+		['RD2-seed04'] = 9,
+		['RD2-seed05'] = 4,
+		['RD2-seed06'] = 13,
+		['RD2-seed07'] = 5,
+		['RD2-seed08'] = 12,
+		['RD2-seed09'] = 2,
+		['RD2-seed10'] = '',
+		['RD2-seed11'] = 7,
+		['RD2-seed12'] = 10,
+		['RD2-seed13'] = 3,
+		['RD2-seed14'] = 14,
+		['RD2-seed15'] = 6,
+		['RD2-seed16'] = 11,
+	})
+end
+
+p['24TeamBracket'] = function (frame)
+	local groups = {"RD1-group1","RD1-group2","RD1-group3","RD1-group4","RD1-group5","RD1-group6","RD1-group7","RD1-group8","RD2-group1","RD2-group2","RD2-group3","RD2-group4","RD3-group1","RD3-group2","RD4-group1"}
+	local compact = "yes"
+	for _, v in ipairs(groups) do
+		if notblank(frame[v]) then
+			compact = ""
+			break
+		end
+	end
+	return p._Bracket(frame, '24TeamBracket', {
+	}, {
+		['RD1=omit'] = '1/2/5/6/9/10/13/14/17/18/21/22/25/26/29/30',
+		byes = '1',
+		compact = compact,
+		RD1 = 'First Round',
+		RD2 = 'Round of 16',
+		['RD1-team1']  = '&nbsp;',
+		['RD1-team2']  = '&nbsp;',
+		['RD1-team3']  = '&nbsp;',
+		['RD1-team4']  = '&nbsp;',
+		['RD1-team5']  = '&nbsp;',
+		['RD1-team6']  = '&nbsp;',
+		['RD1-team7']  = '&nbsp;',
+		['RD1-team8']  = '&nbsp;',
+		['RD1-team9']  = '&nbsp;',
+		['RD1-team10'] = '&nbsp;',
+		['RD1-team11'] = '&nbsp;',
+		['RD1-team12'] = '&nbsp;',
+		['RD1-team13'] = '&nbsp;',
+		['RD1-team14'] = '&nbsp;',
+		['RD1-team15'] = '&nbsp;',
+		['RD1-team16'] = '&nbsp;',
+	})
+end
+p['24TeamBracket-Byes2'] = p['24TeamBracket']
+p['24TeamBracket-NoSeeds'] = p['24TeamBracket']
+
+p['24TeamBracket-Info'] = function (frame)
+	local above = notblank(frame.args.above)
+	return p._Bracket(frame, '24TeamBracket-Info', {
+	}, {
+		shift = above and '1' or '',
+		['col1-matches'] = above and '2,5,8,11,14,17,20,23' or '4,7,10,13,16,19,22,25',
+		['col2-matches'] = '3,6,9,12,15,18,21,24',
+		['col3-matches'] = '4.5,10.5,16.5,22.5',
+		['col4-matches'] = '7.5,19.5',
+		['col5-matches'] = '13.5',
+
+		['col1-col2-paths'] = above and '2-3,5-6,8-9,11-12,14-15,17-18,20-21,23-24' or '4-3,7-6,10-9,13-12,16-15,19-18,22-21,25-24',
+		['col2-col3-paths'] = '(3,6)-4.5,(9,12)-10.5,(15,18)-16.5,(21,24)-22.5',
+		['col3-col4-paths'] = '(4.5,10.5)-7.5,(16.5,22.5)-19.5',
+		['col4-col5-paths'] = '(7.5,19.5)-13.5',
+
+		['RD1'] = 'First round',
+		['RD2'] = 'Second round',
+	})
+end
+p['24TeamBracket-Byes'] = p['24TeamBracket-Info']
+
+p['32TeamBracket'] = function (frame)
+	return p._Bracket(frame, '32TeamBracket', {
+		subgroup1 = 'RD1-group1',
+		subgroup2 = 'RD1-group2',
+		subgroup3 = 'RD1-group3',
+		subgroup4 = 'RD1-group4',
+		subgroup5 = 'RD1-group5',
+		subgroup6 = 'RD1-group6',
+		subgroup7 = 'RD1-group7',
+		subgroup8 = 'RD1-group8',
+		group1 = 'RD2-group1',
+		group2 = 'RD2-group2',
+		group3 = 'RD3-group3',
+		group4 = 'RD2-group4',
+		half1 = 'RD3-group1',
+		half2 = 'RD3-group2',
+		group5 = 'RD4-group1',
+	}, {
+		autoseeds = 'y',
+		RD1 = "1st Round",
+		RD2 = "2nd Round",
+	})
+end
+
+p['32TeamBracket-Byes'] = function (frame)
+	return p._Bracket(frame, '32TeamBracket-Byes', {}, {
+		byes = 1,
+		seeds = 'y',
+		RD1 = "First Round",
+		RD2 = "Second Round",
+		RD3 = "Quarter Finals",
+		RD4 = "Semi Finals",
+		RD5 = "Final",
+		['seed-width'] = '2em',
+		['team-width'] = '11em',
+		['score-width'] = '2em',
+	})
+end
+
+p['32TeamBracket-Compact-NoSeeds-Byes'] = function (frame)
+	return p._Bracket(frame, '32TeamBracket-Compact-NoSeeds-Byes', {}, {
+		byes = 4,
+		RD1 = "Round of 32",
+		RD2 = "Round of 16",
+		RD3 = "Quarterfinals",
+		RD4 = "Semifinals",
+		RD5 = "Final",
+		['team-width'] = 125,
+		['score-width'] = 25,
+	})
+end
+
+p['32TeamBracket-Compact-Squash5'] = function (frame)
+	return p._Bracket(frame, '32TeamBracket-Compact-Squash5', {}, {
+		['compact-final'] = 'yes',
+		['team-width'] = 190,
+		['score-width'] = 12,
+		['seed-width'] = 10,
+		RD1 = "1st round",
+		RD2 = "2nd round",
+		RD3 = "3rd round",
+		RD4 = "4th round",
+		RD5 = "5th round",
+	})
+end
+
+p['32TeamBracket-Compact-Tennis3'] = function (frame)
+	return p._Bracket(frame, '32TeamBracket-Compact-Tennis3', {}, {
+		seeds = '',
+		['compact-final'] = 'yes',
+		['team-width'] = 'auto',
+		['score-width'] = 12,
+		RD1 = "1st round",
+		RD2 = "2nd round",
+		RD3 = "Quarterfinals",
+		RD4 = "Semifinals",
+		RD5 = "Finals",
+	})
+end
+
+p['32TeamBracket-Tennis3'] = function (frame)
+	return p._Bracket(frame, '32TeamBracket-Tennis3', {}, {
+		compact = 'yes',
+		RD1 = "First Round",
+		RD2 = "Second Round",
+		RD3 = "Quarterfinals",
+		RD4 = "Semifinals",
+		RD5 = "Final",
+	})
+end
+
+p['32TeamBracket-Info'] = function (frame)
+	local compact = notblank(frame.args.compact)
+	
+	return p._Bracket(frame, '32TeamBracket-Info', {
+		['RD1-name'] = 'RD1',
+		['RD2-name'] = 'RD2',
+		['RD3-name'] = 'RD3',
+		['RD4-name'] = 'RD4',
+		['RD5-name'] = 'RD5',
+
+		['RD1T1-loc'] = 'RD1-text1',
+		['RD2T1-loc'] = 'RD2-text1',
+		['RD2T2-loc'] = 'RD2-text2',
+		['RD2T3-loc'] = 'RD2-text3',
+		['RD2T4-loc'] = 'RD2-text4',
+		['RD2T5-loc'] = 'RD2-text5',
+		['RD2T6-loc'] = 'RD2-text6',
+		['RD2T7-loc'] = 'RD2-text7',
+		['RD2T8-loc'] = 'RD2-text8',
+		['RD3T1-loc'] = 'RD3-text1',
+		['RD3T2-loc'] = 'RD3-text2',
+		['RD3T3-loc'] = 'RD3-text3',
+		['RD3T4-loc'] = 'RD3-text4',
+		['RD4T1-loc'] = 'RD4-text1',
+		['RD4T2-loc'] = 'RD4-text2',
+		['RD5T1-loc'] = 'RD5-text1',
+	}, {
+		['col1-matches'] = compact and '3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33' or '3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48',
+		['col2-matches'] = compact and '4,8,12,16,20,24,28,32' or '4.5,10.5,16.5,22.5,28.5,34.5,40.5,46.5',
+		['col3-matches'] = compact and '6,14,22,30' or '7.5,19.5,31.5,43.5',
+		['col4-matches'] = compact and '10,26' or '13.5,37.5',
+		['col5-matches'] = compact and '18' or '25.5',
+		
+		['col1-col2-paths'] = compact and '(3,5)-4,(7,9)-8,(11,13)-12,(15,17)-16,(19,21)-20,(23,25)-24,(27,29)-28,(31,33)-32' or
+			'(3,6)-4.5,(9,12)-10.5,(15,18)-16.5,(21,24)-22.5,(27,30)-28.5,(33,36)-34.5,(39,42)-40.5,(45,48)-46.5',
+		['col2-col3-paths'] = compact and '(4,8)-6,(12,16)-14,(20,24)-22,(28,32)-30' or
+			'(4.5,10.5)-7.5,(16.5,22.5)-19.5,(28.5,34.5)-31.5,(40.5,46.5)-43.5',
+		['col3-col4-paths'] = compact and '(6,14)-10,(22,30)-26' or '(7.5,19.5)-13.5,(31.5,43.5)-37.5',
+		['col4-col5-paths'] = compact and '(10,26)-18' or '(13.5,37.5)-25.5',
+
+		['RD1'] = 'First round',
+		['RD2'] = 'Second round',
+		['RD3'] = 'Quarterfinals',
+		['RD4'] = 'Semifinals',
+		['RD5'] = 'Final',
+	})
+end
+
+p['64TeamBracket'] = function (frame)
+	return p._Bracket(frame, '64TeamBracket', {
+		subgroup1 = 'RD1-group1',
+		subgroup2 = 'RD1-group2',
+		subgroup3 = 'RD1-group3',
+		subgroup4 = 'RD1-group4',
+		subgroup5 = 'RD1-group5',
+		subgroup6 = 'RD1-group6',
+		subgroup7 = 'RD1-group7',
+		subgroup8 = 'RD1-group8',
+		subgroup9 = 'RD1-group9',
+		subgroup10 = 'RD1-group10',
+		subgroup11 = 'RD1-group11',
+		subgroup12 = 'RD1-group12',
+		subgroup13 = 'RD1-group13',
+		subgroup14 = 'RD1-group14',
+		subgroup15 = 'RD1-group15',
+		subgroup16 = 'RD1-group16',
+		group1 = 'RD2-group1',
+		group2 = 'RD2-group2',
+		group3 = 'RD3-group3',
+		group4 = 'RD2-group4',
+		group5 = 'RD2-group5',
+		group6 = 'RD3-group6',
+		group7 = 'RD2-group7',
+		group8 = 'RD2-group8',
+		quarter1 = 'RD3-group1',
+		quarter2 = 'RD3-group2',
+		quarter3 = 'RD3-group3',
+		quarter4 = 'RD3-group4',
+		half1 = 'RD4-group1',
+		half2 = 'RD4-group2',
+		group9 = 'RD5-group1',
+	}, {
+		autoseeds = 'y',
+		RD1 = "1st Round",
+		RD2 = "2nd Round",
+		RD3 = "3rd Round",
+	})
+end
+
+p['list'] = function (frame)
+	local funcs={}
+
+	for k,_ in pairs(p) do
+		if string.match(k, "^%d+Team") then
+			table.insert(funcs, k)
+		end
+	end
+	table.sort(funcs, function (a,b)
+		local na, nb = tonumber(string.match(a, "^%d+")), tonumber(string.match(b, "^%d+"))
+		return na == nb and string.match(a, "^%d*(.*)$") < string.match(b, "^%d*(.*)$") or na < nb
+	end)
+	
+	return frame.preprocess(frame,
+		"\n* {{tl|"..table.concat(funcs, "}}\n* {{tl|").."}}")
+end
+
+p['doc'] = function (frame)
+	local pagename = mw.title.getCurrentTitle().rootText
+	if type(p[pagename]) == "function" then
+		return frame.preprocess(frame, "{{tlx|"..pagename.."}} can be " ..
+			"replaced with {{mlx|bracket|"..pagename.."}}.")
+	end
+	return frame.preprocess(frame, "In most cases, the name of the bracket " ..
+		"template can be used as the function name for {{ml|Bracket}}, e.g. " ..
+		"{{tlx|16TeamBracket-Compact-Tennis3}}→" ..
+		"{{mlx|bracket|16TeamBracket-Compact-Tennis3}}.")
+end
+
+return p

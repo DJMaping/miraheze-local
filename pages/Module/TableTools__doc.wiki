@@ -1,0 +1,224 @@
+{{used in system}}
+{{module rating|p}}
+{{cascade-protected template|page=module}}
+{{lua|Module:Exponential search|noprotcat=yes}}
+This module includes a number of functions for dealing with Lua tables. It is a meta-module, meant to be called from other Lua modules, and should not be called directly from #invoke.
+
+== Loading the module ==
+
+To use any of the functions, first you must load the module.
+
+<syntaxhighlight lang="lua">
+local TableTools = require('Module:TableTools')
+</syntaxhighlight>
+
+== Functions ==
+=== affixNums ===
+
+<syntaxhighlight lang="lua">
+TableTools.affixNums(t, prefix, suffix)
+</syntaxhighlight>
+
+Takes a table <code>''t''</code> and returns an array containing the numbers of keys with the optional prefix <code>''prefix''</code> and the optional suffix <code>''suffix''</code>. For example, for the table {{code|code={a1 = 'foo', a3 = 'bar', a6 = 'baz'}|lang=lua}} and the prefix <code>'a'</code>, <code>affixNums</code> will return {{code|code={1, 3, 6}|lang=lua}}. All characters in <code>''prefix''</code> and <code>''suffix''</code> are interpreted literally.
+
+See {{mfl|params|call_for_each_group}} and {{mfl|params|grouping_by_calling}} for doing something similar from a wiki template.
+
+=== compressSparseArray ===
+
+<syntaxhighlight lang="lua">
+TableTools.compressSparseArray(t)
+</syntaxhighlight>
+
+Takes an array <code>''t''</code> with one or more nil values, and removes the nil values while preserving the order, so that the array can be safely traversed with <code>ipairs</code>. Any keys that are not positive integers are removed. For example, for the table {{code|code={1, nil, foo = 'bar', 3, 2}|lang=lua}}, <code>compressSparseArray</code> will return {{code|code={1, 3, 2}|lang=lua}}.
+
+See {{mfl|params|squeezing}} for doing something similar from a wiki template.
+
+=== deepCopy ===
+
+<syntaxhighlight lang="lua">
+TableTools.deepCopy(orig, noMetatable, alreadySeen)
+</syntaxhighlight>
+
+Creates a copy of the table <code>''orig''</code>. As with <code>mw.clone</code>, all values that are not functions are duplicated and the identity of tables is preserved. If <code>''noMetatable''</code> is <code>true</code>, then the metatable (if any) is not copied. Can copy tables loaded with <code>mw.loadData</code>.
+
+Similar to <code>mw.clone</code>, but <code>mw.clone</code> cannot copy tables loaded with <code>mw.loadData</code> and does not allow metatables <em>not</em> to be copied.
+
+=== extend ===
+
+<syntaxhighlight lang="lua">
+TableTools.extend(arr1, arr2)
+</syntaxhighlight>
+
+Extends the first array in place by appending all elements from the second array.
+
+=== inArray ===
+
+<syntaxhighlight lang="lua">TableTools.inArray(array, searchElement)
+TableTools.inArray(array, searchElement, fromIndex)</syntaxhighlight>
+
+Returns <code>true</code> if <code>''searchElement''</code> is a member of the array <code>''array''</code>, and <code>false</code> otherwise. Equivalent to the javascript [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes Array.prototype.includes()] function, except fromIndex is 1-indexed instead of zero-indexed.
+
+==== fromIndex ====
+<code>fromIndex</code> is the optional 1-based index at which to start searching. If <code>fromIndex</code> is not present, all values in the array will be searched and the array will be treated as a table/[[associative array]] (it will be iterated over using <syntaxhighlight lang="lua" inline>pairs()</syntaxhighlight>).
+
+If <code>fromIndex</code> is present and an integer, the array is assumed to be a conventional array/sequence/list (indexed with consecutive integer keys starting at <code>1</code>, and interated over using <syntaxhighlight lang="lua" inline>ipairs()</syntaxhighlight>). Only the values whose index is <code>fromIndex</code> or higher will be searched.
+
+In the following examples, <code>#array</code> represents the length of the integer-keyed portion of the array.
+
+* If <code>fromIndex < 0</code> it will count back from the end of the array, e.g. a value of <code>-1</code> will only search the last integer-keyed element in the array. If <code>fromIndex <= (-1 * #array)</code>, the entire integer-keyed portion of the array will be searched.
+* If <code>fromIndex = 0</code> it will be treated as a <code>1</code> and the entire integer-keyed portion of the array will be searched.
+* If <code>fromIndex > #array</code>, the array is not searched and <code>false</code> is returned.
+
+=== invert ===
+
+<syntaxhighlight lang="lua">
+TableTools.invert(arr)
+</syntaxhighlight>
+
+Transposes the keys and values in an array. For example, {{code|invert{ "a", "b", "c" }|lua}} yields {{code|code={ a=1, b=2, c=3 }|lang=lua}}.
+
+=== isArray ===
+
+<syntaxhighlight lang="lua">
+TableTools.isArray(value)
+</syntaxhighlight>
+
+Returns <code>true</code> if <code>''value''</code> is a table and all keys are consecutive integers starting at 1.
+
+=== isArrayLike ===
+
+<syntaxhighlight lang="lua">
+TableTools.isArrayLike(value)
+</syntaxhighlight>
+
+Returns <code>true</code> if <code>''value''</code> is iterable and all keys are consecutive integers starting at 1.
+
+=== isNan ===
+
+<syntaxhighlight lang="lua">
+TableTools.isNan(value)
+</syntaxhighlight>
+
+Returns <code>true</code> if <code>''value''</code> is a [[NaN]] value, and <code>false</code> if not. Although it doesn't operate on tables, it is included here as it is useful for determining whether a value can be a valid table key. (Lua will generate an error if a NaN value is used as a table key.)
+
+=== isPositiveInteger ===
+
+<syntaxhighlight lang="lua">
+TableTools.isPositiveInteger(value)
+</syntaxhighlight>
+
+Returns <code>true</code> if <code>''value''</code> is a positive integer, and <code>false</code> if not. Although it doesn't operate on tables, it is included here as it is useful for determining whether a given table key is in the array part or the hash part of a table.
+
+=== keysToList ===
+
+<syntaxhighlight lang="lua">
+TableTools.keysToList(t, keySort, checked)
+</syntaxhighlight>
+
+Returns a list of the keys in a table, sorted using either a default comparison function or a custom <code>''keySort''</code> function, which follows the same rules as the <code>comp</code> function supplied to <code>[[mw:Extension:Scribunto/Lua reference manual#table.sort|table.sort]]</code>. If <code>''keySort''</code> is <code>false</code>, no sorting is done. Set <code>''checked''</code> to <code>true</code> to skip the internal type checking.
+
+=== length ===
+
+<syntaxhighlight lang="lua">
+TableTools.length(t, prefix)
+</syntaxhighlight>
+
+Finds the length of an array or of a quasi-array with keys with an optional <code>''prefix''</code> such as "data1", "data2", etc. It uses an [[exponential search]] algorithm to find the length, so as to use as few table lookups as possible.
+
+This algorithm is useful for arrays that use metatables (e.g. [[mw:Extension:Scribunto/Lua reference manual#frame.args|frame.args]]) and for quasi-arrays. For normal arrays, just use the [[mw:Extension:Scribunto/Lua reference manual#Length operator|# operator]], as it is implemented in [[C (programming language)|C]] and will be quicker.
+
+=== listToSet ===
+
+<syntaxhighlight lang="lua">
+TableTools.listToSet(arr)
+</syntaxhighlight>
+
+Creates a set from the array part of the table <code>''arr''</code>. Indexing the set by any of the values of the array returns <code>true</code>. For example, {{code|listToSet{ "a", "b", "c" }|lua}} yields {{code|code={ a=true, b=true, c=true }|lang=lua}}.
+
+=== merge ===
+
+<syntaxhighlight lang="lua">
+TableTools.merge(...)
+</syntaxhighlight>
+
+Given the arrays, returns an array containing the elements of each input array in sequence.
+
+=== numData ===
+
+<syntaxhighlight lang="lua">
+TableTools.numData(t, compress)
+</syntaxhighlight>
+
+Given a table with keys like <code>"foo1"</code>, <code>"bar1"</code>, <code>"foo2"</code>, and <code>"baz2"</code>, returns a table of subtables in the format {{code|code={ [1] = {foo = 'text', bar = 'text'}, [2] = {foo = 'text', baz = 'text'} }|lang=lua}}. Keys that don't end with an integer are stored in a subtable named <code>"other"</code>. The compress option compresses the table so that it can be iterated over with <code>ipairs</code>.
+
+=== numKeys ===
+
+<syntaxhighlight lang="lua">
+TableTools.numKeys(t)
+</syntaxhighlight>
+
+Takes a table <code>''t''</code> and returns an array containing the numbers of any positive integer keys that have non-nil values, sorted in numerical order. For example, for the table {{code|code={'foo', nil, 'bar', 'baz', a = 'b'}|lang=lua}}, <code>numKeys</code> will return {{code|code={1, 3, 4}|lang=lua}}.
+
+=== removeDuplicates ===
+
+<syntaxhighlight lang="lua">
+TableTools.removeDuplicates(t)
+</syntaxhighlight>
+
+Removes duplicate values from an array. This function is only designed to work with standard arrays: keys that are not positive integers are ignored, as are all values after the first <code>nil</code> value. (For arrays containing <code>nil</code> values, you can use <code>[[#compressSparseArray|compressSparseArray]]</code> first.) The function tries to preserve the order of the array: the earliest non-unique value is kept, and all subsequent duplicate values are removed. For example, for the table {{code|code={5, 4, 4, 3, 4, 2, 2, 1}|lang=lua}} <code>removeDuplicates</code> will return {{code|code={5, 4, 3, 2, 1}|lang=lua}}.
+
+=== shallowClone ===
+
+<syntaxhighlight lang="lua">
+TableTools.shallowClone(t)
+</syntaxhighlight>
+
+Returns a clone of a table. The value returned is a new table, but all subtables and functions are shared. Metamethods are respected, but the returned table will have no metatable of its own. If you want to make a new table with no shared subtables and with metatables transferred, you can use <code>[[mw:Extension:Scribunto/Lua reference manual#mw.clone|mw.clone]]</code> instead. If you want to make a new table with no shared subtables and without metatables transferred, use <code>[[#deepCopy|deepCopy]]</code> with the <code>noMetatable</code> option.
+
+=== size ===
+
+<syntaxhighlight lang="lua">
+TableTools.size(t)
+</syntaxhighlight>
+
+Finds the size of a key/value pair table ([[associative array]]). For example, for {{code|code={foo = 'foo', bar = 'bar'}|lang=lua}}, <code>size</code> will return <code>2</code>. The function will also work on arrays, but for arrays it is more efficient to use the <code>#</code> operator. Note that to find the size, this function uses the <code>[[mw:Extension:Scribunto/Lua reference manual#pairs|pairs]]</code> function to iterate through all of the keys.
+
+=== sortedPairs ===
+
+<syntaxhighlight lang="lua">
+TableTools.sortedPairs(t, keySort)
+</syntaxhighlight>
+
+Iterates through a table, with the keys sorted using the <code>keysToList</code> function. If there are only numerical keys, <code>sparseIpairs</code> is probably more efficient.
+
+=== sparseConcat ===
+
+<syntaxhighlight lang="lua">
+TableTools.sparseConcat(t, sep, i, j)
+</syntaxhighlight>
+
+Concatenates all values in the table that are indexed by a positive integer, in order. For example, {{code|sparseConcat{ "a", nil, "c", "d" }|lua}} yields {{code|"acd"|lua}} and {{code|sparseConcat{ nil, "b", "c", "d" }|lua}} yields {{code|"bcd"|lua}}.
+
+=== sparseIpairs ===
+
+<syntaxhighlight lang="lua">
+TableTools.sparseIpairs(t)
+</syntaxhighlight>
+
+This is an iterator function for traversing a sparse array <code>''t''</code>. It is similar to <code>[[mw:Extension:Scribunto/Lua reference manual#ipairs|ipairs]]</code>, but will continue to iterate until the highest numerical key, whereas <code>ipairs</code> may stop after the first <code>nil</code> value. Any keys that are not positive integers are ignored.
+
+Usually <code>sparseIpairs</code> is used in a generic <code>for</code> loop.
+
+<syntaxhighlight lang="lua">
+for i, v in TableTools.sparseIpairs(t) do
+   -- code block
+end
+</syntaxhighlight>
+
+Note that <code>sparseIpairs</code> uses the <code>[[mw:Extension:Scribunto/Lua reference manual#pairs|pairs]]</code> function in its implementation. Although some table keys appear to be ignored, all table keys are accessed when it is run.
+
+== See also ==
+* {{ml|params|}}
+<includeonly>{{Sandbox other||
+[[Category:Lua metamodules|TableTools]]
+}}</includeonly>

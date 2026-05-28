@@ -9,19 +9,18 @@
 	vertical-align: -0.5em;
 	font-size: 85%;
 	text-align: center;
+	margin-left: .1em;
+	margin-right: .1em;	
 }
 
 .sfrac .num {
 	display: block;
-	line-height: 1em;
-	margin: 0.0em 0.1em;
 	border-bottom: 1px solid;
 }
 
 .sfrac .den {
 	display: block;
-	line-height: 1em;
-	margin: 0.1em 0.1em;
+	line-height: 1.5em;
 }
 
 /* [[Template:Screen reader-only]] is canonical implementation onwiki */

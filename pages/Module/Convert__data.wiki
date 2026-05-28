@@ -334,6 +334,7 @@ local all_units = {
     },
     ["ft2"] = {
 	target   = "sqft",
+	symbol   = "ft<sup>2</sup>",
     },
     ["in2"] = {
 	target   = "sqin",
@@ -344,6 +345,7 @@ local all_units = {
     },
     ["mi2"] = {
 	target   = "sqmi",
+	symbol   = "mi<sup>2</sup>",
     },
     ["million acre"] = {
 	target   = "e6acre",
@@ -380,6 +382,7 @@ local all_units = {
     },
     ["yd2"] = {
 	target   = "sqyd",
+	symbol   = "yd<sup>2</sup>",
     },
     ["m2/ha"] = {
 	name1    = "square metre per hectare",
@@ -432,7 +435,7 @@ local all_units = {
 	name1    = "elementary charge",
 	symbol   = "''e''",
 	utype    = "charge",
-	scale    = 1.602176487e-19,
+	scale    = 1.602176634e-19,
 	default  = "coulomb",
     },
     ["g-mol"] = {
@@ -1039,18 +1042,12 @@ local all_units = {
 	default  = "μJ",
     },
     ["eV"] = {
-	name1    = "electronvolt",
-	symbol   = "eV",
+	_name1   = "electronvolt",
+	_symbol  = "eV",
 	utype    = "energy",
-	scale    = 1.602176487e-19,
+	scale    = 1.602176634e-19,
+	prefixes = 1,
 	default  = "aJ",
-    },
-    ["feV"] = {
-	name1    = "femtoelectronvolt",
-	symbol   = "feV",
-	utype    = "energy",
-	scale    = 1.602176487e-34,
-	default  = "yJ",
 	link     = "Electronvolt",
     },
     ["foe"] = {
@@ -1095,14 +1092,6 @@ local all_units = {
 	utype    = "energy",
 	scale    = 0.0421401100938048,
 	default  = "J",
-    },
-    ["GeV"] = {
-	name1    = "gigaelectronvolt",
-	symbol   = "GeV",
-	utype    = "energy",
-	scale    = 1.602176487e-10,
-	default  = "nJ",
-	link     = "Electronvolt",
     },
     ["gTNT"] = {
 	name2    = "grams of TNT",
@@ -1274,14 +1263,6 @@ local all_units = {
 	default  = "mJ",
 	link     = "Erg",
     },
-    ["keV"] = {
-	name1    = "kiloelectronvolt",
-	symbol   = "keV",
-	utype    = "energy",
-	scale    = 1.602176487e-16,
-	default  = "fJ",
-	link     = "Electronvolt",
-    },
     ["kgTNT"] = {
 	name2    = "kilograms of TNT",
 	symbol   = "kilogram of TNT",
@@ -1427,22 +1408,6 @@ local all_units = {
 	default  = "μJ",
 	link     = "Erg",
     },
-    ["MeV"] = {
-	name1    = "megaelectronvolt",
-	symbol   = "MeV",
-	utype    = "energy",
-	scale    = 1.602176487e-13,
-	default  = "pJ",
-	link     = "Electronvolt",
-    },
-    ["meV"] = {
-	name1    = "millielectronvolt",
-	symbol   = "meV",
-	utype    = "energy",
-	scale    = 1.602176487e-22,
-	default  = "zJ",
-	link     = "Electronvolt",
-    },
     ["MMBtu"] = {
 	name1    = "million British thermal units",
 	name2    = "million British thermal units",
@@ -1538,30 +1503,6 @@ local all_units = {
 	default  = "J",
 	link     = "Kilowatt-hour",
     },
-    ["neV"] = {
-	name1    = "nanoelectronvolt",
-	symbol   = "neV",
-	utype    = "energy",
-	scale    = 1.602176487e-28,
-	default  = "yJ",
-	link     = "Electronvolt",
-    },
-    ["PeV"] = {
-	name1    = "petaelectronvolt",
-	symbol   = "PeV",
-	utype    = "energy",
-	scale    = 0.0001602176487,
-	default  = "mJ",
-	link     = "Electronvolt",
-    },
-    ["peV"] = {
-	name1    = "picoelectronvolt",
-	symbol   = "peV",
-	utype    = "energy",
-	scale    = 1.602176487e-31,
-	default  = "yJ",
-	link     = "Electronvolt",
-    },
     ["PSh"] = {
 	name1    = "Pferdestärkenstunde",
 	symbol   = "PSh",
@@ -1610,14 +1551,6 @@ local all_units = {
 	scale    = 4184000000,
 	default  = "GJ",
 	link     = "TNT equivalent",
-    },
-    ["TeV"] = {
-	name1    = "teraelectronvolt",
-	symbol   = "TeV",
-	utype    = "energy",
-	scale    = 1.602176487e-7,
-	default  = "μJ",
-	link     = "Electronvolt",
     },
     ["th"] = {
 	name1    = "thermie",
@@ -1740,14 +1673,6 @@ local all_units = {
 	scale    = 1e-13,
 	default  = "nJ",
 	link     = "Erg",
-    },
-    ["μeV"] = {
-	name1    = "microelectronvolt",
-	symbol   = "μeV",
-	utype    = "energy",
-	scale    = 1.602176487e-25,
-	default  = "yJ",
-	link     = "Electronvolt",
     },
     ["μW.h"] = {
 	name1    = "microwatt-hour",
@@ -1875,9 +1800,6 @@ local all_units = {
     ["uerg"] = {
 	target   = "μerg",
     },
-    ["ueV"] = {
-	target   = "μeV",
-    },
     ["uW-h"] = {
 	target   = "μW.h",
     },
@@ -1894,9 +1816,11 @@ local all_units = {
 	_name1   = "electronvolt",
 	_symbol  = "eV",
 	utype    = "energy per chemical amount",
-	scale    = 96485.329522144166,
+	scale    = 96485.332123310014,
 	prefixes = 1,
 	default  = "kcal/mol",
+	defkey   = "eVpar",
+	linkey   = "eVpar",
 	link     = "Electronvolt",
     },
     ["kcal/mol"] = {
@@ -3894,6 +3818,15 @@ local all_units = {
 	default  = "g",
 	link     = "Carat (mass)",
     },
+    ["Da"] = {
+	_name1   = "dalton",
+	_symbol  = "Da",
+	utype    = "mass",
+	scale    = 1.66053906892e-27,
+	prefixes = 1,
+	default  = "kg",
+	link     = "Dalton (unit)",
+    },
     ["drachm"] = {
 	name1_us = "dram",
 	symbol   = "drachm",
@@ -5558,10 +5491,12 @@ local all_units = {
 	name1    = "kiloelectronvolt",
 	symbol   = "keV",
 	utype    = "temperature",
-	scale    = 11.604505e6,
+	scale    = 11604518.121550081,
 	offset   = 0,
 	iscomplex= true,
 	default  = "MK",
+	defkey   = "keVT",
+	linkey   = "keVT",
 	link     = "Electronvolt",
     },
     ["R"] = {
@@ -6403,6 +6338,22 @@ local all_units = {
 	scale    = 1,
 	default  = "cuft",
     },
+    ["tmcft"] = {
+	name2    = "tmcft",
+	symbol   = "tmcft",
+	utype    = "volume",
+	scale    = 28316846.592,
+	default  = "km3",
+    },
+    ["Tmcft"] = {
+	name1    = "thousand million cubic feet",
+	name2    = "thousand million cubic feet",
+	symbol   = "tmcft",
+	utype    = "volume",
+	scale    = 28316846.592,
+	default  = "km3",
+	link     = "Tmcft",
+    },
     ["Toilbbl"] = {
 	name1    = "trillion barrels",
 	name2    = "trillion barrels",
@@ -6667,6 +6618,7 @@ local all_units = {
     },
     ["ft3"] = {
 	target   = "cuft",
+	symbol   = "ft<sup>3</sup>",
     },
     ["gal"] = {
 	target   = "USgal",
@@ -6727,6 +6679,7 @@ local all_units = {
     },
     ["mi3"] = {
 	target   = "cumi",
+	symbol   = "mi<sup>3</sup>",
     },
     ["m³"] = {
 	target   = "m3",
@@ -6882,6 +6835,7 @@ local all_units = {
     },
     ["yd3"] = {
 	target   = "cuyd",
+	symbol   = "yd<sup>3</sup>",
     },
     ["cuft/sqmi"] = {
 	per      = { "cuft", "sqmi" },
@@ -7150,16 +7104,27 @@ local default_exceptions = {
 	["e3BTU"] = "MJ",
 	["e6BTU"] = "GJ",
 	["EJ"] = "kWh",
+	["eV"] = "aJ",
+	["feV"] = "yJ",
 	["fJ"] = "keV",
+	["GeV"] = "nJ",
 	["GJ"] = "kWh",
+	["keV"] = "fJ",
+	["MeV"] = "pJ",
+	["meV"] = "zJ",
 	["MJ"] = "kWh",
+	["neV"] = "yJ",
+	["PeV"] = "mJ",
+	["peV"] = "yJ",
 	["PJ"] = "kWh",
 	["pJ"] = "MeV",
+	["TeV"] = "μJ",
 	["TJ"] = "kWh",
 	["YJ"] = "kWh",
 	["yJ"] = "μeV",
 	["ZJ"] = "kWh",
 	["zJ"] = "meV",
+	["μeV"] = "yJ",
 	["e12cuft/a"] = "v * 2.8316846592 < 100 ! e9 ! e12 ! m3/a",
 	["e12cuft/d"] = "v * 2.8316846592 < 100 ! e9 ! e12 ! m3/d",
 	["e12m3/a"] = "Tcuft/a",

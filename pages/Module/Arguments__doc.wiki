@@ -3,7 +3,7 @@
 {{cascade-protected template|page=module}}
 
 This module provides easy processing of arguments passed from <code>#invoke</code>. It is a meta-module, meant for use by other modules, and should not be called from <code>#invoke</code> directly (for a module directly invocable by templates you might want to have a look at {{ml|params|}}). Its features include:
-* Easy trimming of arguments and removal of blank arguments.
+* Easy [[Trimming (computer programming)|trimming]] of arguments and removal of blank arguments.
 * Arguments can be passed by both the current frame and by the parent frame at the same time. (More details below.)
 * Arguments can be passed in directly from another Lua module or from the debug console.
 * Most features can be customized.

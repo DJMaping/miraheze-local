@@ -1,0 +1,12 @@
+{{documentation subpage}}
+{{Module:Team bracket/doc|rounds=4|see also=
+* {{tl|2TeamBracket}}
+* {{tl|4TeamBracket}}
+* {{tl|8TeamBracket}}
+* {{tl|32TeamBracket}}
+* {{tl|Round16}}
+}}
+<includeonly>{{basepage subpage|
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:16-Team bracket templates]]
+}}</includeonly>

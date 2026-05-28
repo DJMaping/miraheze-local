@@ -414,8 +414,6 @@ local function speed_of_sound(altitude)
 	-- mach_table[a + 4] = s where
 	--   a = (altitude / 5000) rounded to nearest integer (-3 to 80)
 	--   s = speed of sound (mph) at that altitude
-	-- LATER: Should calculate result from an interpolation between the next
-	-- lower and higher altitudes in table, rather than rounding to nearest.
 	-- From: http://www.aerospaceweb.org/question/atmosphere/q0112.shtml
 	local mach_table = {                                                       -- a =
 		799.5, 787.0, 774.2, 761.207051,                                       -- -3 to  0
@@ -428,18 +426,23 @@ local function speed_of_sound(altitude)
 		614.4, 615.3, 616.7, 619.8, 623.4, 629.7, 635.0, 641.1, 650.6, 660.0,  -- 61 to 70
 		672.5, 674.3, 676.1, 677.9, 679.7, 681.5, 683.3, 685.1, 686.8, 688.6,  -- 71 to 80
 	}
-	altitude = altitude or 0
-	local a = (altitude < 0) and -altitude or altitude
-	a = floor(a / 5000 + 0.5)
-	if altitude < 0 then
-		a = -a
+	local function lerp(t, v0, v1)
+		return t * v1 + (1 - t) * v0
 	end
-	if a < -3 then
-		a = -3
-	elseif a > 80 then
-		a = 80
+	altitude = (altitude or 0) / 5000
+	if altitude < -3 then
+		altitude = -3
+	elseif altitude > 80 then
+		altitude = 80
 	end
-	return mach_table[a + 4] * 0.44704  -- mph converted to m/s
+	local mach_mph
+	local a = math.floor(altitude)
+	if a == altitude then
+		mach_mph = mach_table[a + 4]
+	else
+		mach_mph = lerp(altitude - a, mach_table[a + 4], mach_table[a + 5])
+	end
+	return mach_mph * 0.44704  -- mph converted to m/s
 end
 -- END: Code required only for built-in units.
 ------------------------------------------------------------------------
@@ -731,6 +734,9 @@ local function lookup(parms, unitcode, what, utable, fails, depth)
 			local success, result = lookup(parms, target, what, utable, fails, depth)
 			if not success then return false, result end
 			override_from(result, t, { 'customary', 'default', 'link', 'symbol', 'symlink', 'usename' })
+			if t.default then
+				result.defkey = unitcode  -- so default_exceptions uses the alias code, not the target symbol
+			end
 			local multiplier = t.multiplier
 			if multiplier then
 				result.multiplier = tostring(multiplier)

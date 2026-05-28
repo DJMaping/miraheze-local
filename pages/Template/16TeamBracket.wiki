@@ -1,0 +1,31 @@
+{{#invoke:Team bracket|main
+| rounds     = 4
+| RD1        = {{{RD1|First round}}}
+| RD2        = {{{RD2|Quarter-finals}}}
+| RD3        = {{{RD3|Semi-finals}}}
+| RD4        = {{{RD4|Final}}}
+| RD1-group1 = {{{subgroup1|{{{RD1-group1|}}}}}}
+| RD1-group2 = {{{subgroup2|{{{RD1-group2|}}}}}}
+| RD1-group3 = {{{subgroup3|{{{RD1-group3|}}}}}}
+| RD1-group4 = {{{subgroup4|{{{RD1-group4|}}}}}}
+| RD2-group1 = {{{group1|{{{RD2-group1|}}}}}}
+| RD2-group2 = {{{group2|{{{RD2-group2|}}}}}}
+| RD3-group1 = {{{group3|{{{RD3-group1|}}}}}}
+| RD1-seed01 = {{{RD1-seed1|{{{RD1-seed01|1}}}}}}
+| RD1-seed02 = {{{RD1-seed2|{{{RD1-seed02|16}}}}}}
+| RD1-seed03 = {{{RD1-seed3|{{{RD1-seed03|8}}}}}}
+| RD1-seed04 = {{{RD1-seed4|{{{RD1-seed04|9}}}}}}
+| RD1-seed05 = {{{RD1-seed5|{{{RD1-seed05|5}}}}}}
+| RD1-seed06 = {{{RD1-seed6|{{{RD1-seed06|12}}}}}}
+| RD1-seed07 = {{{RD1-seed7|{{{RD1-seed07|4}}}}}}
+| RD1-seed08 = {{{RD1-seed8|{{{RD1-seed08|13}}}}}}
+| RD1-seed09 = {{{RD1-seed9|{{{RD1-seed09|6}}}}}}
+| RD1-seed10 = {{{RD1-seed10|11}}}
+| RD1-seed11 = {{{RD1-seed11|3}}}
+| RD1-seed12 = {{{RD1-seed12|14}}}
+| RD1-seed13 = {{{RD1-seed13|7}}}
+| RD1-seed14 = {{{RD1-seed14|10}}}
+| RD1-seed15 = {{{RD1-seed15|2}}}
+| RD1-seed16 = {{{RD1-seed16|15}}}
+}}<noinclude>
+{{documentation}}</noinclude>
