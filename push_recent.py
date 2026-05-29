@@ -73,18 +73,28 @@ def main() -> int:
     # still gets picked up on the next run.
     start_ts = time.time()
 
+    # Windows has a ~32K command-line limit, so batch the files. Each path is
+    # usually well under 200 chars, so 50 per batch leaves plenty of headroom.
     files_arg = [str(fp) for fp, _, _ in candidates]
-    cmd = [sys.executable, "push.py", *files_arg]
-    print(f"\n--- Running push.py ---")
-    result = subprocess.run(cmd)
+    BATCH_SIZE = 50
+    batches = [files_arg[i:i + BATCH_SIZE] for i in range(0, len(files_arg), BATCH_SIZE)]
 
-    if result.returncode == 0:
+    print(f"\n--- Running push.py ({len(batches)} batch(es) of up to {BATCH_SIZE}) ---")
+    failed_batches = 0
+    for i, batch in enumerate(batches, 1):
+        print(f"\n[batch {i}/{len(batches)}: {len(batch)} files]")
+        result = subprocess.run([sys.executable, "push.py", *batch])
+        if result.returncode != 0:
+            failed_batches += 1
+            print(f"  batch {i} exited with code {result.returncode}")
+
+    if failed_batches == 0:
         save_last_push(start_ts)
         print(f"\nDone. Last push timestamp updated to {fmt(start_ts)}.")
+        return 0
     else:
-        print(f"\npush.py exited with code {result.returncode}. Timestamp NOT updated.")
-
-    return result.returncode
+        print(f"\n{failed_batches}/{len(batches)} batch(es) failed. Timestamp NOT updated.")
+        return 1
 
 
 if __name__ == "__main__":
