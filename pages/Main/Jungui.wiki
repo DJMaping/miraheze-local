@@ -15,13 +15,15 @@
 | leader_title       = Mayor of Jungui
 | leader_name        =
 | unit_pref          = Metric
-| population_as_of   = 1765
+| population_total   = 9,990,000
+| population_as_of   = 1764
+| population_demonym = Junguian
 | timezone1          = SET +0 (Lycroan Standard Time)
 | blank_name_sec1    = KTDI
 | blank_info_sec1    =
 }}
 
-'''Jungui''' is the [https://en.wikipedia.org/wiki/Capital capital] and largest city of [[Lycroa]], the most successful nation in [[FLLA World Cup]] history with five titles and the eighth-largest national economy by nominal [[List of countries by GDP (nominal)|GDP]] in the world. The city is the political, financial and cultural centre of [[Lycroa]] and the seat of the federal government of the [[Lycroa|Federal Republic of Lycroa]]. [[Liambra]] serves as the country's principal financial centre.
+'''Jungui''' is the [https://en.wikipedia.org/wiki/Capital capital] and largest city of [[Lycroa]], the most successful nation in [[FLLA World Cup]] history with five titles and the eighth-largest national economy by nominal [[List of countries by GDP (nominal)|GDP]] in the world. The city had a population of 9,990,000 at the [[Lycroa|Lycroan]] 1764 census, ranking it the [[List of cities and dependencies by population|thirty-fourth-largest city in the world]] by population. Jungui is the political, financial and cultural centre of [[Lycroa]] and the seat of the federal government of the [[Lycroa|Federal Republic of Lycroa]]; [[Liambra]] serves as the country's principal financial centre.
 
 ==History==
 

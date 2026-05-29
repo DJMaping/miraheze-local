@@ -15,13 +15,15 @@
 | leader_title       = Mayor of Thavrin
 | leader_name        =
 | unit_pref          = Metric
-| population_as_of   = 1765
+| population_total   = 14,838,000
+| population_as_of   = 1764
+| population_demonym = Thavrinian
 | timezone1          =
 | blank_name_sec1    = KTDI
 | blank_info_sec1    =
 }}
 
-'''Thavrin''' is the [https://en.wikipedia.org/wiki/Capital capital] of [[Pelugrotoa]], a major economy of [[Mahea]] and the fourth-largest national economy by nominal [[List of countries by GDP (nominal)|GDP]] in the world. The city is the political, financial and cultural centre of [[Pelugrotoa]]. Thavrin will host the [[1772 FLLA World Cup]], the first FLLA World Cup to be held in [[Pelugrotoa]] under the FLLA's confederation rotation framework.
+'''Thavrin''' is the [https://en.wikipedia.org/wiki/Capital capital] of [[Pelugrotoa]], a major economy of [[Mahea]] and the fourth-largest national economy by nominal [[List of countries by GDP (nominal)|GDP]] in the world. The city had a population of 14,838,000 at the [[Pelugrotoa|Pelugrotoan]] 1764 census, ranking it the [[List of cities and dependencies by population|sixteenth-largest city in the world]] by population. Thavrin will host the [[1772 FLLA World Cup]], the first FLLA World Cup to be held in [[Pelugrotoa]] under the FLLA's confederation rotation framework.
 
 ==History==
 
