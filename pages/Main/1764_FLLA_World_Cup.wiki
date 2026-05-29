@@ -50,7 +50,7 @@ The '''1764 [[FLLA]] World Cup''' was the 24th edition of the [[FLLA World Cup]]
 
 [[Easuhura]] won the tournament, defeating [[Emara]] 2–1 in the [[#Final|final]] to claim their first World Cup title. [[Easuhura]] progressed through the competition without losing a match, drawing all three of their group-stage fixtures before winning each of their four knockout-stage ties. They became the eleventh different nation to win the FLLA World Cup. [[Verusa]] finished third after a 3–2 victory over [[Seytinemas]] in the third-place playoff. The hosts, [[Raledria]], were eliminated in the quarter-finals by the eventual champions following a 1–0 defeat at Estadio Rovik, a game often called "[[The Miracle of Rovik]]".
 
-A total of 218 goals were scored in 64 matches at an average of 3.41 per match, the highest goal-per-match average at any FLLA World Cup since the [[1736 FLLA World Cup|1736 edition]]. [[Emara]] finished as the tournament's leading goalscoring nation with 17 goals, and Emaran forward [[Theio Ravar]] was awarded the [[wikipedia:Golden Boot|Golden Boot]] with 9 personal strikes. The Best Player award (the FLLA Golden Ball) was given to Easuhuran midfielder Sahel Mavari, who started in all seven of his country's matches. None of the eight group winners were eliminated at the round of sixteen.
+A total of 218 goals were scored in 64 matches at an average of 3.41 per match, the highest goal-per-match average at any FLLA World Cup since the [[1736 FLLA World Cup|1736 edition]]. [[Emara]] finished as the tournament's leading goalscoring nation with 17 goals, and Emaran forward [[Theio Ravar]] was awarded the FLLA Marskval with 9 personal strikes. The Best Player award (the FLLA Golden Ball) was given to Easuhuran midfielder Sahel Mavari, who started in all seven of his country's matches. None of the eight group winners were eliminated at the round of sixteen.
 
 ==Host selection==
 {{Main|1764 FLLA World Cup bids}}
@@ -830,9 +830,9 @@ The FLLA Disciplinary Committee issued a total of 187 yellow cards and 9 red car
 
 ==Awards==
 
-The Best Player award, formally titled the FLLA Golden Ball, was awarded by a panel of seven sports journalists drawn from each of the seven confederations to [[Easuhura|Easuhuran]] central midfielder Sahel Mavari, who captained the champions throughout the tournament and contributed three goals and four assists across their seven matches. Mavari was the first Easuhuran player to win the award and the third to feature on the three-man shortlist alongside [[Emara|Emaran]] forward Theio Ravar (the tournament's top goalscorer) and [[Sanagara|Sanagaran]] playmaker Aakash Vinjala. Ravar took the Golden Boot for the tournament with nine personal strikes, becoming the first Emaran to win the prize since Halric Ostley in 1748.
+The Best Player award, formally titled the FLLA Golden Ball, was awarded by a panel of seven sports journalists drawn from each of the seven confederations to [[Easuhura|Easuhuran]] central midfielder Sahel Mavari, who captained the champions throughout the tournament and contributed three goals and four assists across their seven matches. Mavari was the first Easuhuran player to win the award and the third to feature on the three-man shortlist alongside [[Emara|Emaran]] forward Theio Ravar (the tournament's top goalscorer) and [[Sanagara|Sanagaran]] playmaker Aakash Vinjala. Ravar took the Marskval for the tournament with nine personal strikes, becoming the first Emaran to win the prize since Halric Ostley in 1748.
 
-The Golden Glove, awarded to the tournament's best goalkeeper, went to Easuhuran goalkeeper Niran Yokima, who conceded seven goals and kept three clean sheets across the seven matches of his country's run. Verusan winger Anders Vellholm, 19 years old at the start of the tournament, was named Best Young Player after appearing in six of [[Verusa]]'s seven matches and scoring three times - in the round of 16, the quarter-final and the third-place playoff. [[Seytinemas]] received the Fair Play award after finishing the tournament with the fewest disciplinary points of any of the 32 participating sides.
+The Bastion, awarded to the tournament's best goalkeeper, went to Easuhuran goalkeeper Niran Yokima, who conceded seven goals and kept three clean sheets across the seven matches of his country's run. Verusan winger Anders Vellholm, 19 years old at the start of the tournament, was named Best Young Player after appearing in six of [[Verusa]]'s seven matches and scoring three times - in the round of 16, the quarter-final and the third-place playoff. [[Seytinemas]] received the Fair Play award after finishing the tournament with the fewest disciplinary points of any of the 32 participating sides.
 
 {| class="wikitable" style="text-align: center;"
 |+ Tournament awards
@@ -840,9 +840,9 @@ The Golden Glove, awarded to the tournament's best goalkeeper, went to Easuhuran
 |-
 | FLLA Golden Ball ''(Best Player)'' || align="left" | {{Flagicon|Easuhura}} Sahel Mavari ([[Easuhura]]) || 3 goals, 4 assists
 |-
-| [[wikipedia:Golden Boot|FLLA Golden Boot]] ''(Top scorer)'' || align="left" | {{Flagicon|Emara}} Theio Ravar ([[Emara]]) || 9 goals
+| FLLA Marskval ''(Top scorer)'' || align="left" | {{Flagicon|Emara}} Theio Ravar ([[Emara]]) || 9 goals
 |-
-| FLLA Golden Glove ''(Best goalkeeper)'' || align="left" | {{Flagicon|Easuhura}} Niran Yokima ([[Easuhura]]) || 3 clean sheets in 7
+| FLLA Bastion ''(Best goalkeeper)'' || align="left" | {{Flagicon|Easuhura}} Niran Yokima ([[Easuhura]]) || 3 clean sheets in 7
 |-
 | FLLA Best Young Player Award || align="left" | {{Flagicon|Verusa}} Anders Vellholm ([[Verusa]]) || 19 years old
 |-
@@ -929,6 +929,10 @@ The official mascot of the 1764 FLLA World Cup, named '''Vanara''', is an anthro
 ===Match ball===
 
 The official match ball, manufactured by the Raledrian sports equipment maker Vekal & Co., was branded the '''Tirneza''', a name selected through a public competition that attracted 1.2&nbsp;million entries. The Tirneza featured a 14-panel thermally-bonded construction — a departure from the 32-panel hand-stitched balls used at the [[1760 FLLA World Cup|1760 edition]] - and a textured grip-pattern surface intended to improve handling in wet conditions. A distinct gold-coloured version of the ball, the Tirneza Final, was used in the final, the third-place playoff and the two semi-finals.
+
+===Permanent trophy===
+
+The permanent trophy of the 1764 FLLA World Cup, presented to the winners alongside the rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] at the closing ceremony of the [[#Final|final]], was the '''Aldarra''', a 52-centimetre cast-silver sculpture commissioned by the Raledrian Arraby Association from the Tirna-based studio Lateran Marque, the same studio responsible for the [[#Emblem|tournament emblem]]. The work takes its name from the historic Raledrian word ''aldarra'' (literally "lasting") and depicts a stylised silver syaral, the national animal of Raledria, leaping over a representation of the World Cup itself, echoing the [[#Emblem|emblem]] in three dimensions. Cast in two sections at the studio's Tirna foundry in March 1764 and hand-finished over a six-week polishing period, the Aldarra was unveiled at the Raledrian Museum of Fine Arts on 14 April 1764, six weeks before the opening match. Following [[Easuhura]]'s [[#Final|2–1 win]] over [[Emara]], the trophy was transferred to permanent retention by the [[Easuhura|Easuhuran]] federation and is displayed at the Easuhuran Federal Museum.<ref>{{cite web|url=https://www.flla.org/1764/permanent-trophy|title=The Aldarra unveiled as 1764 FLLA World Cup permanent trophy|publisher=[[FLLA]]|date=14 April 1764}}</ref>
 
 ===Theme song===
 

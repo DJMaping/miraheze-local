@@ -68,11 +68,44 @@ In 1742, two years after the format expansion, the FLLA Council adopted a formal
 
 The [[1748 FLLA World Cup|1748 edition]] in [[New Misos]] (the second by an [[Atirha]]-hosted side) was won by the hosts and is widely described in FLLA literature as the "Greatest World Cup in History" on the strength of its goal-per-match average and the technical quality of the final. The [[1752 FLLA World Cup|1752 edition]] in [[United Delet]], the [[1756 FLLA World Cup|1756 tournament]] (the first held in [[Quia]], jointly hosted by [[Erkizil]], [[Quidic]], [[Wundry]] and [[Ztesh]]), the [[1760 FLLA World Cup|1760 edition]] in [[Ukhdari]] and the [[1764 FLLA World Cup|1764 tournament]] in [[Raledria]] have followed the rotation in turn. The [[1768 FLLA World Cup|1768 edition]] was awarded to [[Sanagara]] at the FLLA Council meeting of 28 September 1764, returning the tournament to [[Massir]] for the first time since 1732.
 
-==Trophy==
+==Trophies==
 
-The current FLLA World Cup Trophy, presented to the winners of every edition since [[1740 FLLA World Cup|1740]], is a 38-centimetre silver-and-gold sculpture depicting two stylised figures supporting a representation of the globe of [[Andah]]. The trophy was designed by [[Lycroa|Lycroan]] sculptor Mariosa Calvelli following an international competition organised by the FLLA in 1738; the original is held at the [[FLLA]] headquarters in [[Tirna]] and the winning nation receives a gold-plated replica for permanent retention. The original was previously transferred to the winner of each edition until 1740, when the present custodial arrangement was adopted to safeguard the work.
+Since the [[1740 FLLA World Cup|1740 edition]], the FLLA World Cup has been contested under a '''two-trophy system''' that is unique in the senior international game. The system pairs a single rotating trophy, held in trust by the [[FLLA]] between tournaments, with a bespoke permanent trophy that is newly commissioned for every edition and retained in perpetuity by the winning nation. The two trophies are presented together at the closing ceremony of every final, and both are recognised by FLLA Council resolution 1739/4 as official emblems of the competition.
 
-The pre-1740 trophy, an older and substantially smaller piece styled the '''Ayuma Cup''', was used at the first eighteen editions of the tournament. The Ayuma Cup is now displayed at the Museum of Arraby in [[Huifarn]].
+===The Andah Cup===
+
+The '''Andah Cup''', the rotating trophy of the FLLA World Cup, has been presented to the winners of every edition since [[1740 FLLA World Cup|1740]]. It is a 38-centimetre silver-and-gold sculpture depicting two stylised figures supporting a representation of the globe of [[Andah]], designed by [[Lycroa|Lycroan]] sculptor Mariosa Calvelli following an international competition organised by the FLLA in 1738. The cup is held at the [[FLLA]] headquarters in [[Tirna]] between editions; the winning nation lifts it at the closing ceremony of the final, retains it through the year of celebration that follows, and returns it to the FLLA in the spring before the next edition for security checks and re-presentation at the next final. The cup has been returned without dispute at every transition since 1740.
+
+===Permanent trophies===
+
+In parallel with the Andah Cup, the host federation of each edition commissions a '''permanent trophy''' from an artist or studio drawn from the host nation. The permanent trophy is presented to the winning nation alongside the Andah Cup at the closing ceremony of the final and is retained by the winning nation in perpetuity, with no requirement to return or transfer the work between editions. Each permanent trophy is given its own unique name by the host federation at the time of commission, and each is independently displayed in a national museum, federation headquarters or other institution chosen by the winning association after the tournament.
+
+The table below lists the permanent trophies presented at each edition since the establishment of the two-trophy system in 1740.
+
+{| class="wikitable" style="text-align: center;"
+|+ Permanent trophies of the FLLA World Cup
+! Edition !! Name !! Commissioned by !! Held by
+|-
+| [[1740 FLLA World Cup|1740]] || '''The Vulna''' || align="left" | Seytinemasi Arraby Federation || align="left" | {{Flagicon|New Misos}} [[New Misos]] (held at the Lunava Federal Museum)
+|-
+| [[1744 FLLA World Cup|1744]] || '''The Caltarra''' || align="left" | Lycroan Arraby Federation || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] (held at the Huifarn National Museum)
+|-
+| [[1748 FLLA World Cup|1748]] || '''The Marsen''' || align="left" | Misoan Arraby Federation || align="left" | {{Flagicon|New Misos}} [[New Misos]] (held at the Lunava Federal Museum)
+|-
+| [[1752 FLLA World Cup|1752]] || '''The Vairana''' || align="left" | United Delet Arraby Federation || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] (held at the Brimasha Federal Gallery)
+|-
+| [[1756 FLLA World Cup|1756]] || '''The Eserni''' || align="left" | [[QUFVL]] joint commission || align="left" | {{Flagicon|Quidic}} [[Quidic]] (held at the Talvani Museum of Sport)
+|-
+| [[1760 FLLA World Cup|1760]] || '''The Ardashun''' || align="left" | Ukhdari Arraby Association || align="left" | {{Flagicon|Verusa}} [[Verusa]] (held at the Verusan National Museum)
+|-
+| [[1764 FLLA World Cup|1764]] || '''The Aldarra''' || align="left" | Raledrian Arraby Association || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] (held at the Easuhuran Federal Museum)
+|-
+| [[1768 FLLA World Cup|1768]] || ''to be commissioned'' || align="left" | Sanagaran Arraby Federation || align="left" | ''not yet contested''
+|}
+
+===The Ayuma Cup===
+
+The pre-1740 trophy, an older and substantially smaller piece styled the '''Ayuma Cup''', was used at the first seventeen editions of the tournament. The Ayuma Cup was presented to the winners of each edition as a single permanent transfer under the older one-trophy arrangement then in force; the cup was returned to the FLLA in 1738 by then-holders [[Emara]], who had won the [[1728 FLLA World Cup|1728 edition]], in advance of the introduction of the two-trophy system at the [[1740 FLLA World Cup|1740 edition]]. The Ayuma Cup is now displayed at the Museum of Arraby in [[Huifarn]].
 
 ==Format==
 
@@ -242,8 +275,8 @@ The hosts of the [[1664 FLLA World Cup|1664]], [[1688 FLLA World Cup|1688]], [[1
 The FLLA presents six awards at the conclusion of each finals tournament:
 
 * The '''FLLA Golden Ball''', awarded by a panel of sports journalists to the best player of the tournament. The current holder is [[Easuhura|Easuhuran]] central midfielder Sahel Mavari, who received the award at the [[1764 FLLA World Cup|1764 edition]].
-* The '''FLLA Golden Boot''', awarded to the tournament's top goalscorer; current holder Theio Ravar of [[Emara]] won the prize at the [[1764 FLLA World Cup|1764 edition]] with nine personal strikes.
-* The '''FLLA Golden Glove''', awarded to the best goalkeeper of the tournament; current holder Niran Yokima of [[Easuhura]] received the award at the [[1764 FLLA World Cup|1764 edition]].
+* The '''FLLA Marskval''', awarded to the tournament's top goalscorer; current holder Theio Ravar of [[Emara]] won the prize at the [[1764 FLLA World Cup|1764 edition]] with nine personal strikes.
+* The '''FLLA Bastion''', awarded to the best goalkeeper of the tournament; current holder Niran Yokima of [[Easuhura]] received the award at the [[1764 FLLA World Cup|1764 edition]].
 * The '''FLLA Best Young Player Award''', awarded to the leading performer aged 21 or under at the start of the tournament; current holder Anders Vellholm of [[Verusa]], 19 at the [[1764 FLLA World Cup|1764 edition]], received the award.
 * The '''FLLA Fair Play Trophy''', awarded to the team finishing the tournament with the fewest disciplinary points; current holders are [[Seytinemas]].
 * The '''Leading Goalscoring Nation''' award, presented to the side that scored the most goals across all of its matches at the tournament; current holders are [[Emara]] with 17 goals at the [[1764 FLLA World Cup|1764 edition]].
