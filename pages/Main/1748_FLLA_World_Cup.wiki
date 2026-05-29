@@ -621,7 +621,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 | team1 = [[Sanagara]] {{Flagicon|Sanagara}}
 | score = 2–1
 | team2 = {{Flagicon|Etirha}} [[Etirha]]
-| goals1 = Kavari {{Goal|29}}<br/>Veshani {{Goal|74}}
+| goals1 = Kavari {{Goal|29}}<br/>Rashvel {{Goal|74}}
 | goals2 = Salaman {{Goal|61}}
 | stadium = Maladne Coastal Arena, [[Maladne]]
 | attendance = 56,800
@@ -669,7 +669,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 
 ===Quarter-finals===
 
-The four quarter-finals produced four ties decided in normal time, three of them by a one-goal margin. The hosts [[New Misos]] beat [[Raledria]] 2–1 at the Lunava National Stadium, advancing through a 79th-minute winner by captain Adari Lonven that drew sustained acclaim from the 80,800 crowd. [[Finae]] beat [[Dual Cenryia]] 2–1 at the Pomalti Sports Park through goals from Mun-Hyun Daek and Resko Velam, the latter heading in a Holvar Jensen cross in the 82nd minute. [[Sanagara]] beat [[Dahe]] 2–1 at the Trevirka Stadium, with Ranjit Kavari converting a tightly contested decisive penalty in the 86th minute after a Sanjay Olreth foul on the Sanagaran winger Aakash Veshani; the result extended Kavari's individual tally for the tournament to four goals. [[Seytinemas]] beat [[Quidic]] 2–1 at the Lirlka Federal Arena, with Telkor Andovi scoring twice across the second half to overturn an early Daron Veshani opener.
+The four quarter-finals produced four ties decided in normal time, all four of them by a one-goal margin. The hosts [[New Misos]] beat [[Raledria]] 2–1 at the Lunava National Stadium, advancing through a 79th-minute winner by captain Adari Lonven that drew sustained acclaim from the 80,800 crowd. [[Finae]] beat [[Dual Cenryia]] 2–1 at the Pomalti Sports Park through goals from Mun-Hyun Daek and Resko Velam, the latter heading in a Holvar Jensen cross in the 82nd minute. [[Sanagara]] beat [[Dahe]] 2–1 at the Trevirka Stadium, with Ranjit Kavari converting a tightly contested decisive penalty in the 86th minute after the Sanagaran winger Aakash Rashvel was brought down inside the [[Dahe|Dahean]] penalty area; the result extended Kavari's individual tally for the tournament to four goals. [[Seytinemas]] beat [[Quidic]] 2–1 at the Lirlka Federal Arena, with Marishen Olstre and Telkor Andovi scoring in the second half to overturn an early Daron Veshani opener.
 
 {{Football box
 | date = {{Start date|1748|6|28|df=y}}
@@ -716,7 +716,7 @@ The four quarter-finals produced four ties decided in normal time, three of them
 | team1 = [[Seytinemas]] {{Flagicon|Seytinemas}}
 | score = 2–1
 | team2 = {{Flagicon|Quidic}} [[Quidic]]
-| goals1 = Andovi {{Goal|58|74}}
+| goals1 = Olstre {{Goal|58}}<br/>Andovi {{Goal|74}}
 | goals2 = Veshani {{Goal|24}}
 | stadium = Lirlka Federal Arena, [[Lirlka]]
 | attendance = 74,100
@@ -725,7 +725,7 @@ The four quarter-finals produced four ties decided in normal time, three of them
 
 ===Semi-finals===
 
-The first semi-final at the Vesari Olympic Stadium was decided across 90 minutes by a three-goal margin: the hosts [[New Misos]] beat [[Finae]] 3–1 through a Setrul Karavi opener inside ten minutes, a Velari Mantor strike from a tight angle in the 38th minute and a late Adari Lonven goal in the 76th minute, with Holvar Jensen pulling one back for Finae in stoppage time. The result gave [[New Misos]] their second FLLA World Cup final appearance in three editions, following the 1740 triumph in [[Seytinemas]] against [[Lycroa]]. The second semi-final at the Otraqi Memorial Stadium was settled inside 90 minutes by a single goal: [[Seytinemas]] beat [[Sanagara]] 4–3 in a fixture remembered for its sustained end-to-end character, with Telkor Andovi converting a 70th-minute through-ball from Marishen Olstre to seal the result after Sanagaran forwards Ranjit Kavari and Aakash Veshani had twice equalised in the second half. The result eliminated [[Sanagara]] one round before the final and gave [[Seytinemas]] their first FLLA World Cup final appearance in the competition's history.
+The first semi-final at the Vesari Olympic Stadium was decided across 90 minutes by a three-goal margin: the hosts [[New Misos]] beat [[Finae]] 3–1 through a Setrul Karavi opener inside ten minutes, a Velari Mantor strike from a tight angle in the 38th minute and a late Adari Lonven goal in the 76th minute, with Holvar Jensen pulling one back for Finae in stoppage time. The result gave [[New Misos]] their second FLLA World Cup final appearance in three editions, following the 1740 triumph in [[Seytinemas]] against [[Lycroa]]. The second semi-final at the Otraqi Memorial Stadium was settled inside 90 minutes by a single goal: [[Seytinemas]] beat [[Sanagara]] 4–3 in a fixture remembered for its sustained end-to-end character, with Telkor Andovi converting a 70th-minute through-ball from Marishen Olstre to seal the result after Sanagaran forwards Ranjit Kavari and Aakash Rashvel had twice brought the score level over the course of the match. The result eliminated [[Sanagara]] one round before the final and gave [[Seytinemas]] their first FLLA World Cup final appearance in the competition's history.
 
 {{Football box
 | date = {{Start date|1748|7|2|df=y}}
@@ -747,7 +747,7 @@ The first semi-final at the Vesari Olympic Stadium was decided across 90 minutes
 | score = 4–3
 | team2 = {{Flagicon|Sanagara}} [[Sanagara]]
 | goals1 = Olstre {{Goal|11}}<br/>Trakor {{Goal|29}}<br/>Andovi {{Goal|46|70}}
-| goals2 = Kavari {{Goal|21|54}}<br/>Veshani {{Goal|64}}
+| goals2 = Kavari {{Goal|21|54}}<br/>Rashvel {{Goal|64}}
 | stadium = Otraqi Memorial Stadium, [[Otraqi]]
 | attendance = 64,200
 | referee = Mahari Pradesh ([[Dahe]])
@@ -810,17 +810,17 @@ The table below lists the leading goalscoring nations of the tournament. The rig
 |-
 | 3 || align="left" | {{Flagicon|Finae}} [[Finae]] || 16 || 22
 |-
-| 5 || align="left" | {{Flagicon|Inania}} [[Inania]] || 9 || 32
-|-
 | 5 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || 9 || 40
 |-
 | 5 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 9 || 9
 |-
-| 8 || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || 8 || 27
+| 7 || align="left" | {{Flagicon|Inania}} [[Inania]] || 8 || 32
 |-
-| 8 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || 8 || 48
+| 7 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || 8 || 48
 |-
-| 8 || align="left" | {{Flagicon|Emara}} [[Emara]] || 8 || 2
+| 7 || align="left" | {{Flagicon|Emara}} [[Emara]] || 8 || 2
+|-
+| 10 || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || 7 || 27
 |}
 
 {| class="wikitable sortable" style="text-align: center;"
@@ -845,7 +845,7 @@ The table below lists the leading goalscoring nations of the tournament. The rig
 |-
 | 9 || align="left" | Marishen Olstre || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 3
 |-
-| 9 || align="left" | Aakash Veshani || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 3
+| 9 || align="left" | Aakash Rashvel || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 3
 |}
 
 ===Discipline===
