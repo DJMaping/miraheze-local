@@ -323,16 +323,16 @@ WORLD CUP GROUP STAGE
 
   Group C
     Team                P  W  D  L   GF  GA  GD  Pts
-  * Ukhdari              3  2  1  0    5   1   +4    7
+  * New Misos            3  2  1  0    5   1   +4    7
   * Etretes              3  0  3  0    5   5    0    3
-    New Misos            3  0  2  1    3   4   -1    2
+    Ukhdari              3  0  2  1    3   4   -1    2
     Wundry               3  0  2  1    1   4   -3    2
     Matches:
-                 New Misos 0-1 Ukhdari
-                 New Misos 3-3 Etretes
-                 New Misos 0-0 Wundry
-                   Ukhdari 1-1 Etretes
-                   Ukhdari 3-0 Wundry
+                   Ukhdari 0-1 New Misos
+                   Ukhdari 3-3 Etretes
+                   Ukhdari 0-0 Wundry
+                 New Misos 1-1 Etretes
+                 New Misos 3-0 Wundry
                    Etretes 1-1 Wundry
 
   Group D
