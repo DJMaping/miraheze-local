@@ -1,0 +1,205 @@
+{{Infobox international football competition
+| name = 1752 FLLA World Cup qualification
+| image =
+| caption =
+| dates = March 1749 – November 1751
+| num_teams = 178 (entered)
+| associations = 7 confederations
+| matches = 824
+| goals = 2,194
+| top_scorer =
+| prevseason = ''[[1748 FLLA World Cup qualification|1748]]''
+| nextseason = ''[[1756 FLLA World Cup qualification|1756]]''
+}}
+
+The '''1752 [[FLLA]] World Cup qualification''' process determined the 31 nations that joined the host [[United Delet]] at the [[1752 FLLA World Cup]] final tournament. A total of 178 national associations entered the qualifying competition, the largest entry to that point in the competition's history, surpassing the 171 entries recorded at the [[1748 FLLA World Cup qualification|1748 qualifying competition]]. Each of the seven continental confederations of the [[FLLA]] administered its own qualifying tournament under guidance issued by the FLLA Organising Committee in March 1749, with the format of each tournament reflecting the size of the confederation's membership and its allocation of finals berths.
+
+==Confederation allocations==
+
+The allocation of the 32 finals berths across the seven confederations and the host association was confirmed by the FLLA Council on 28 February 1749, six months before the opening qualifying matches. The host [[United Delet]] received its berth as of right under the FLLA hosting regulations and additionally took part in the [[NAFVL]] qualifying tournament in a non-binding capacity. The remaining 31 berths were divided as follows:
+
+{| class="wikitable" style="text-align: center;"
+|+ Berths by confederation
+! Confederation !! Region !! Berths !! Entries !! Berths&nbsp;awarded&nbsp;to
+|-
+| [[AYFVL]] || align="left" | Ayuma || 6 || 38 || align="left" | Praesyu, Verusa, Emara, Easuhura, Ukhdari, Merela Sta
+|-
+| [[NAFVL]] || align="left" | New Ayre || 6 || 23 || align="left" | United Delet (H), Iainoa, Walporein, Mendereide, Andsaudare, Astye
+|-
+| [[ATFVL]] || align="left" | Atirha || 5 || 28 || align="left" | New Misos, Raledria, Etirha, Laselteh, Guise
+|-
+| [[QUFVL]] || align="left" | Quia || 5 || 24 || align="left" | Erkizil, Quidic, Wundry, Ztesh, Myla
+|-
+| [[MAFVL]] || align="left" | Mahea || 4 || 25 || align="left" | Sivoso, Trian, Exilium, Chaenia
+|-
+| [[MSFVL]] || align="left" | Massir || 3 || 22 || align="left" | Haiza, Ucrua, Taval
+|-
+| [[ACFVL]] || align="left" | Acrola || 3 || 18 || align="left" | Terressin, Pelines, Acetoa
+|-
+| ''Host'' || align="left" | [[United Delet]] || 1 || — || align="left" | ''as of right''
+|-
+! Total !! !! 32 !! 178 !!
+|}
+
+==Qualifying tournaments==
+
+===AYFVL (Ayuma)===
+
+The [[AYFVL]] qualifying tournament was contested by 38 national associations under a six-group format. Each group consisted of six or seven teams playing a double round-robin programme between September 1749 and October 1751; the six group winners qualified directly for the final tournament, with no playoff round. The runners-up of each group did not advance, leaving the AYFVL the only confederation at the 1752 cycle to operate qualification on a single-tier basis. The six qualified teams were the highest-ranked AYFVL nations at the close of the qualifying period.
+
+{| class="wikitable" style="text-align: center;"
+|+ AYFVL qualified teams
+! Group !! Winner !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 12 || 10 || 2 || 0 || 28 || 4 || 32
+|-
+| 2 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 12 || 9 || 2 || 1 || 26 || 6 || 29
+|-
+| 3 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 12 || 8 || 3 || 1 || 22 || 7 || 27
+|-
+| 4 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 10 || 7 || 2 || 1 || 19 || 5 || 23
+|-
+| 5 || align="left" | {{Flagicon|Ukhdari}} '''[[Ukhdari]]''' || 12 || 7 || 4 || 1 || 21 || 9 || 25
+|-
+| 6 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 10 || 6 || 3 || 1 || 16 || 7 || 21
+|}
+
+===NAFVL (New Ayre)===
+
+The [[NAFVL]] qualifying tournament was contested by 23 national associations as a single double round-robin league. The host [[United Delet]] was exempt from binding fixtures from the third round onwards, having qualified as of right; the federation nonetheless participated in the first two rounds of fixtures to fulfil pre-tournament friendly arrangements. The six qualified teams were the host association and the top five other finishers in the final qualifying table; the seventh-placed [[Yutnitu]] and eighth-placed [[Veelmit]] missed direct qualification by goal difference.
+
+{| class="wikitable" style="text-align: center;"
+|+ NAFVL final qualifying table (top eight)
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | ''{{Flagicon|United Delet}} [[United Delet]]'' ''(H)'' || 4 || 3 || 1 || 0 || 9 || 2 || —
+|-
+| 2 || align="left" | {{Flagicon|Iainoa}} '''[[Iainoa]]''' || 22 || 16 || 4 || 2 || 41 || 12 || 52
+|-
+| 3 || align="left" | {{Flagicon|Walporein}} '''[[Walporein]]''' || 22 || 14 || 5 || 3 || 36 || 14 || 47
+|-
+| 4 || align="left" | {{Flagicon|Mendereide}} '''[[Mendereide]]''' || 22 || 13 || 4 || 5 || 32 || 18 || 43
+|-
+| 5 || align="left" | {{Flagicon|Andsaudare}} '''[[Andsaudare]]''' || 22 || 12 || 5 || 5 || 30 || 19 || 41
+|-
+| 6 || align="left" | {{Flagicon|Astye}} '''[[Astye]]''' || 22 || 11 || 6 || 5 || 26 || 17 || 39
+|-
+| 7 || align="left" | {{Flagicon|Yutnitu}} [[Yutnitu]] || 22 || 11 || 6 || 5 || 24 || 17 || 39
+|-
+| 8 || align="left" | {{Flagicon|Veelmit}} [[Veelmit]] || 22 || 10 || 7 || 5 || 25 || 20 || 37
+|}
+''Host record shown for the first two rounds only; United Delet were exempt from binding fixtures thereafter.''
+
+===ATFVL (Atirha)===
+
+The [[ATFVL]] qualifying tournament was contested by 28 national associations across two rounds. The first round consisted of four groups of seven teams playing a single round-robin programme between October 1749 and March 1751; the top two teams from each group, comprising eight teams in total, advanced to a final octagonal round-robin played between April and November 1751. The top five teams from the final octagonal qualified for the final tournament. The defending champions [[New Misos]], winners of the [[1748 FLLA World Cup]], qualified on merit through this route.
+
+{| class="wikitable" style="text-align: center;"
+|+ ATFVL final octagonal table
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|New Misos}} '''[[New Misos]]''' || 14 || 10 || 3 || 1 || 26 || 6 || 33
+|-
+| 2 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 14 || 9 || 3 || 2 || 22 || 8 || 30
+|-
+| 3 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' || 14 || 7 || 4 || 3 || 17 || 11 || 25
+|-
+| 4 || align="left" | {{Flagicon|Laselteh}} '''[[Laselteh]]''' || 14 || 6 || 4 || 4 || 14 || 12 || 22
+|-
+| 5 || align="left" | {{Flagicon|Guise}} '''[[Guise]]''' || 14 || 5 || 5 || 4 || 13 || 13 || 20
+|-
+| 6 || align="left" | {{Flagicon|Aetintio}} [[Aetintio]] || 14 || 4 || 4 || 6 || 11 || 16 || 16
+|-
+| 7 || align="left" | {{Flagicon|Curata}} [[Curata]] || 14 || 3 || 4 || 7 || 9 || 18 || 13
+|-
+| 8 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || 14 || 1 || 3 || 10 || 5 || 23 || 6
+|}
+
+===QUFVL (Quia)===
+
+The [[QUFVL]] qualifying tournament was contested by 24 national associations across two rounds. The first round consisted of two groups of twelve teams playing a single round-robin programme between September 1749 and August 1751; the top six teams from each group, comprising twelve teams in total, advanced to a final dodecagonal round-robin played between September and November 1751. The top five teams from the final round qualified for the final tournament. The qualifying tournament was the largest contested by the [[QUFVL]] at the time and the longest in calendar terms, spanning twenty-six months from the opening to the closing fixtures.
+
+{| class="wikitable" style="text-align: center;"
+|+ QUFVL final qualifying round (top six)
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Erkizil}} '''[[Erkizil]]''' || 11 || 8 || 2 || 1 || 21 || 6 || 26
+|-
+| 2 || align="left" | {{Flagicon|Quidic}} '''[[Quidic]]''' || 11 || 7 || 3 || 1 || 18 || 7 || 24
+|-
+| 3 || align="left" | {{Flagicon|Wundry}} '''[[Wundry]]''' || 11 || 6 || 4 || 1 || 17 || 9 || 22
+|-
+| 4 || align="left" | {{Flagicon|Ztesh}} '''[[Ztesh]]''' || 11 || 6 || 2 || 3 || 14 || 10 || 20
+|-
+| 5 || align="left" | {{Flagicon|Myla}} '''[[Myla]]''' || 11 || 5 || 3 || 3 || 13 || 11 || 18
+|-
+| 6 || align="left" | {{Flagicon|United Mihili}} [[United Mihili]] || 11 || 4 || 3 || 4 || 11 || 12 || 15
+|}
+
+===MAFVL (Mahea)===
+
+The [[MAFVL]] qualifying tournament was contested by 25 national associations under a four-group format. Each group consisted of six or seven teams playing a double round-robin programme between October 1749 and August 1751; the four group winners qualified directly for the final tournament, with no playoff round. The runners-up of each group did not advance.
+
+{| class="wikitable" style="text-align: center;"
+|+ MAFVL qualified teams
+! Group !! Winner !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Sivoso}} '''[[Sivoso]]''' || 12 || 9 || 2 || 1 || 22 || 8 || 29
+|-
+| 2 || align="left" | {{Flagicon|Trian}} '''[[Trian]]''' || 10 || 8 || 1 || 1 || 18 || 5 || 25
+|-
+| 3 || align="left" | {{Flagicon|Exilium}} '''[[Exilium]]''' || 12 || 8 || 2 || 2 || 21 || 9 || 26
+|-
+| 4 || align="left" | {{Flagicon|Chaenia}} '''[[Chaenia]]''' || 10 || 7 || 2 || 1 || 16 || 6 || 23
+|}
+
+===MSFVL (Massir)===
+
+The [[MSFVL]] qualifying tournament was contested by 22 national associations across two rounds. The first round consisted of three groups of seven or eight teams playing a single round-robin programme between September 1749 and October 1750; the top two teams from each group, comprising six teams in total, advanced to a final hexagonal round-robin played between January and November 1751. The top three teams qualified directly for the final tournament.
+
+{| class="wikitable" style="text-align: center;"
+|+ MSFVL final qualifying round
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Haiza}} '''[[Haiza]]''' || 10 || 7 || 2 || 1 || 18 || 6 || 23
+|-
+| 2 || align="left" | {{Flagicon|Ucrua}} '''[[Ucrua]]''' || 10 || 6 || 3 || 1 || 15 || 7 || 21
+|-
+| 3 || align="left" | {{Flagicon|Taval}} '''[[Taval]]''' || 10 || 5 || 3 || 2 || 13 || 9 || 18
+|-
+| 4 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 10 || 4 || 3 || 3 || 11 || 11 || 15
+|-
+| 5 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 10 || 2 || 3 || 5 || 8 || 14 || 9
+|-
+| 6 || align="left" | {{Flagicon|Eteretes}} [[Eteretes]] || 10 || 1 || 2 || 7 || 5 || 23 || 5
+|}
+
+===ACFVL (Acrola)===
+
+The [[ACFVL]] qualifying tournament was contested by 18 national associations under a two-round format. The first round consisted of three groups of six teams playing a single round-robin programme between September 1749 and June 1751; the top two teams from each group, comprising six teams in total, advanced to a single-leg knockout playoff round played in October 1751. The three winners of the playoff round qualified directly for the final tournament.
+
+{| class="wikitable" style="text-align: center;"
+|+ ACFVL single-leg playoff round
+! Date !! Winner !! Score !! Loser
+|-
+| align="left" | 14 October 1751 || align="left" | {{Flagicon|Terressin}} '''[[Terressin]]''' || 2–0 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+|-
+| align="left" | 14 October 1751 || align="left" | {{Flagicon|Pelines}} '''[[Pelines]]''' || 1–0 || align="left" | {{Flagicon|Candenat}} [[Candenat]]
+|-
+| align="left" | 15 October 1751 || align="left" | {{Flagicon|Acetoa}} '''[[Acetoa]]''' || 3–2 || align="left" | {{Flagicon|Reerica}} [[Reerica]]
+|}
+
+==Summary==
+
+A total of 824 matches were contested across the seven qualifying tournaments between September 1749 and November 1751, in which 2,194 goals were scored at an aggregate average of 2.66 per match. The leading individual goalscorer of the qualifying competition was [[Verusa|Verusan]] forward Tovan Brunscar, who scored 14 goals in his country's twelve [[AYFVL]] qualifying fixtures and went on to take the [[wikipedia:Golden Boot|FLLA Golden Boot]] at the [[1752 FLLA World Cup|final tournament]] itself.
+
+==See also==
+* [[1752 FLLA World Cup]]
+* [[1748 FLLA World Cup qualification]]
+* [[1756 FLLA World Cup qualification]]
+* [[FLLA World Cup qualification]]
+
+==References==
+{{reflist}}
+
+[[Category:FLLA World Cup qualification]]
