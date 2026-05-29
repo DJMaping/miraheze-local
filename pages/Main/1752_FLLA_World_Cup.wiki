@@ -17,7 +17,7 @@
 |-
 | Matches played || 64
 |-
-| Goals scored || 132 (2.06 per match)
+| Goals scored || 118 (1.84 per match)
 |-
 | Attendance || 2,948,000 (46,063 per match)
 |-
@@ -54,7 +54,7 @@ The '''1752 [[FLLA]] World Cup''' was the 21st edition of the [[FLLA World Cup]]
 
 The 1752 edition returned the FLLA World Cup to [[New Ayre]] for the first time since the [[1708 FLLA World Cup|1708 tournament]], hosted again by [[United Delet]]. The competition is remembered for the tactical sophistication of the leading sides and for one of the most tightly contested finals in the tournament's history: [[Praesyu]] and [[Verusa]] played to a 1–1 draw across normal time and extra time before Praesyu prevailed 5–4 in the resulting penalty shoot-out to claim their second FLLA World Cup title. The hosts [[United Delet]] reached the semi-finals in front of home crowds before losing 2–1 to [[Verusa]] after extra time at the Vairana Arena, recovering to take third place by beating the defending champions [[New Misos]] 2–1 at the Solekhan Memorial Stadium.
 
-A total of 132 goals were scored in 64 matches at an average of 2.06 per match, the lowest goal-per-match average recorded at any FLLA World Cup since the [[1720 FLLA World Cup|1720 edition]]. The leading individual goalscorer was [[Verusa|Verusan]] forward Tovan Brunscar with 8 personal strikes, the highest individual tally at any FLLA World Cup since the [[1736 FLLA World Cup|1736 edition]]; Brunscar received the [[wikipedia:Golden Boot|FLLA Golden Boot]] despite finishing on the losing side in the final. The FLLA Golden Ball, awarded to the tournament's best player, was given to [[Praesyu|Praesyuan]] central midfielder and captain Velim Khastane.
+A total of 118 goals were scored in 64 matches at an average of 1.84 per match, the lowest goal-per-match average recorded at any FLLA World Cup since the [[1720 FLLA World Cup|1720 edition]]. The leading individual goalscorer was [[Verusa|Verusan]] forward Tovan Brunscar with 8 personal strikes, the highest individual tally at any FLLA World Cup since the [[1736 FLLA World Cup|1736 edition]]; Brunscar received the [[wikipedia:Golden Boot|FLLA Golden Boot]] despite finishing on the losing side in the final. The FLLA Golden Ball, awarded to the tournament's best player, was given to [[Praesyu|Praesyuan]] central midfielder and captain Velim Khastane.
 
 ==Host selection==
 {{Main|1752 FLLA World Cup bids}}
@@ -520,7 +520,7 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 
 ==Knockout stage==
 
-The knockout stage involved the sixteen teams that advanced from the group stage. Matches still level after 90 minutes were extended by a 30-minute period of [[wikipedia:Extra time|extra time]]; if scores remained tied after extra time, the tie was decided by [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]]. Three of the eight round-of-sixteen ties and two of the four quarter-finals required additional time, and three ties in total were decided on penalties, including the [[#Final|final]] itself. The cumulative goal total of 27 across the sixteen knockout matches was the lowest at any FLLA World Cup since the [[1720 FLLA World Cup|1720 edition]] and was widely cited at the time as evidence of the tactical caution that came to define the tournament.
+The knockout stage involved the sixteen teams that advanced from the group stage. Matches still level after 90 minutes were extended by a 30-minute period of [[wikipedia:Extra time|extra time]]; if scores remained tied after extra time, the tie was decided by [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]]. Three of the eight round-of-sixteen ties and two of the four quarter-finals required additional time, and three ties in total were decided on penalties, including the [[#Final|final]] itself. The cumulative goal total of 35 across the sixteen knockout matches was the lowest at any FLLA World Cup since the [[1720 FLLA World Cup|1720 edition]] and was widely cited at the time as evidence of the tactical caution that came to define the tournament.
 
 ===Bracket===
 {{Round16|widescore=yes
@@ -802,23 +802,23 @@ The table below lists the leading goalscoring nations of the tournament. The rig
 |+ Leading goalscoring nations
 ! Rank !! Team !! Goals !! FLLA ranking
 |-
-| 1 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 11 || 3
+| 1 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 11 || 2
 |-
-| 2 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 10 || H
+| 1 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 11 || H
 |-
-| 3 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 9 || 2
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 10 || 3
 |-
 | 4 || align="left" | {{Flagicon|Erkizil}} [[Erkizil]] || 8 || 7
 |-
 | 5 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || 7 || 1
 |-
-| 6 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 6 || 8
+| 5 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 7 || 6
 |-
-| 7 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 5 || 6
+| 7 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 6 || 8
 |-
-| 7 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 5 || 4
+| 8 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 5 || 4
 |-
-| 9 || align="left" | {{Flagicon|Ukhdari}} [[Ukhdari]] || 5 || 11
+| 8 || align="left" | {{Flagicon|Ukhdari}} [[Ukhdari]] || 5 || 11
 |-
 | 10 || align="left" | {{Flagicon|Andsaudare}} [[Andsaudare]] || 4 || 14
 |}
