@@ -50,7 +50,7 @@ The '''1756 [[FLLA]] World Cup''' was the 22nd edition of the [[FLLA World Cup]]
 
 [[Quidic]] won the tournament, defeating [[New Misos]] 1–0 in the [[#Final|final]] to claim their first FLLA World Cup title. Quidic progressed through the competition without losing a match in normal time, topping Group D before defeating [[Verusa]], holders [[Praesyu|Praesyu's]] conquerors and (after extra time) the hosts [[Wundry]] in the semi-final. [[Wundry]] finished third following a 3–1 win over [[Raledria]] in the third-place playoff at the Takhna Federal Stadium. The hosts [[Ztesh]] reached the quarter-finals before losing to fellow co-hosts [[Wundry]] at the Eserni Arena; [[Erkizil]] were eliminated in the round of sixteen by eventual finalists [[New Misos]] after a 2–1 defeat at the Tiraqsi Olympic Stadium.
 
-A total of 147 goals were scored in 64 matches at an average of 2.30 per match, the lowest scoring rate at any FLLA World Cup since 1736. Quidic finished as the tournament's leading goalscoring nation with 12 goals, and Quidican forward Daron Veshani was awarded the [[wikipedia:Golden Boot|Golden Boot]] with 5 personal strikes, the lowest winning total in the competition's history. The Best Player award (the FLLA Golden Ball) was given to Quidican central midfielder Marlen Tavri, who captained the champions throughout the tournament. The competition was also notable for the introduction of the four-nation co-hosting format, which had no precedent in FLLA World Cup history.
+A total of 147 goals were scored in 64 matches at an average of 2.30 per match. Quidic finished as the tournament's leading goalscoring nation with 12 goals, and Quidican forward Daron Veshani was awarded the [[wikipedia:Golden Boot|Golden Boot]] with 5 personal strikes, the lowest winning total in the competition's history. The Best Player award (the FLLA Golden Ball) was given to Quidican central midfielder Marlen Tavri, who captained the champions throughout the tournament. The competition was also notable for the introduction of the four-nation co-hosting format, which had no precedent in FLLA World Cup history.
 
 ==Host selection==
 {{Main|1756 FLLA World Cup bids}}
@@ -74,7 +74,7 @@ First-round groups followed by a final octagonal round-robin. Qualified teams:
 * {{Flagicon|Raledria}} [[Raledria]]
 * {{Flagicon|Etirha}} [[Etirha]]
 * {{Flagicon|Laselteh}} [[Laselteh]]
-* {{Flagicon|Verkhalia}} [[Verkhalia]]
+* {{Flagicon|Guise}} [[Guise]]
 
 ==== [[AYFVL]] (Ayuma) 5 berths ====
 Five qualifying groups; group winners qualify directly. Qualified teams:
@@ -168,7 +168,7 @@ The draw was conducted by FLLA general secretary Yorvan Lestrika and presented b
 |-
 | {{Flagicon|Iainoa}} [[Iainoa]]
 | {{Flagicon|Acetoa}} [[Acetoa]]
-| {{Flagicon|Verkhalia}} [[Verkhalia]]
+| {{Flagicon|Guise}} [[Guise]]
 | {{Flagicon|Anymna}} [[Anymna]]
 | {{Flagicon|Haiza}} [[Haiza]]
 | {{Flagicon|Ucrua}} [[Ucrua]]
@@ -251,7 +251,7 @@ Attending dignitaries included the heads of state and government of all four hos
 
 The 32 qualified teams were drawn into eight groups of four. Each group operated on a single round-robin basis, with each team playing three matches; the top two finishers in each group advanced to the [[#Knockout stage|knockout stage]] while the bottom two were eliminated. Group rankings were settled first on points (three for a win, one for a draw), then on goal difference and goals scored.
 
-The group stage produced one perfect record: [[Quidic]] in Group D took maximum points from their three matches without conceding a goal, becoming the first host nation to win every group fixture without conceding since the [[1736 FLLA World Cup|1736 edition]]. The highest-scoring contest of the round was the 4–2 victory for [[Ztesh]] over [[Pelines]] in the opening match of the tournament. Several seeded sides were pushed to the final matchday; defending champions [[Praesyu]] were eliminated at the group stage after finishing third in Group D, a result that the FLLA later identified as the tournament's biggest pre-tournament-ranking upset.
+The group stage produced one perfect record: [[Quidic]] in Group D took maximum points from their three matches without conceding a goal, the only side at the tournament to come through the group phase with both a perfect points record and a clean sheet. The highest-scoring contest of the round was the 4–2 victory for [[Ztesh]] over [[Pelines]] in the opening match of the tournament. Several seeded sides were pushed to the final matchday; defending champions [[Praesyu]] were eliminated at the group stage after finishing third in Group D, a result that the FLLA later identified as the tournament's biggest pre-tournament-ranking upset.
 
 All times listed are Central Quia Time ([[wikipedia:UTC+02:00|CQT]], [[wikipedia:UTC|UTC]]+2).
 
@@ -330,7 +330,7 @@ All times listed are Central Quia Time ([[wikipedia:UTC+02:00|CQT]], [[wikipedia
 |-
 | 3 || align="left" | {{Flagicon|Trian}} [[Trian]] || 3 || 0 || 2 || 1 || 2 || 4 || −2 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Verkhalia}} [[Verkhalia]] || 3 || 0 || 1 || 2 || 1 || 5 || −4 || 1 ||
+| 4 || align="left" | {{Flagicon|Guise}} [[Guise]] || 3 || 0 || 1 || 2 || 1 || 5 || −4 || 1 ||
 |}
 ''(H) Host.''
 
@@ -338,17 +338,17 @@ All times listed are Central Quia Time ([[wikipedia:UTC+02:00|CQT]], [[wikipedia
 |+ Group C matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 10 June 1756 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Verkhalia}} Verkhalia || align="left" | Eserni Arena, Eserni
+| align="left" | 10 June 1756 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Guise}} Guise || align="left" | Eserni Arena, Eserni
 |-
 | align="left" | 11 June 1756 || align="right" | Emara {{Flagicon|Emara}} || 1–1 || {{Flagicon|Trian}} Trian || align="left" | Teveme Central Stadium, Teveme
 |-
 | align="left" | 15 June 1756 || align="right" | Wundry {{Flagicon|Wundry}} || 1–1 || {{Flagicon|Emara}} Emara || align="left" | Eserni Arena, Eserni
 |-
-| align="left" | 16 June 1756 || align="right" | Verkhalia {{Flagicon|Verkhalia}} || 0–0 || {{Flagicon|Trian}} Trian || align="left" | Reeveta Sports Park, Reeveta
+| align="left" | 16 June 1756 || align="right" | Guise {{Flagicon|Guise}} || 0–0 || {{Flagicon|Trian}} Trian || align="left" | Reeveta Sports Park, Reeveta
 |-
 | align="left" | 20 June 1756 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Trian}} Trian || align="left" | Teveme Central Stadium, Teveme
 |-
-| align="left" | 20 June 1756 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Verkhalia}} Verkhalia || align="left" | Reeveta Sports Park, Reeveta
+| align="left" | 20 June 1756 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Guise}} Guise || align="left" | Reeveta Sports Park, Reeveta
 |}
 
 ===Group D===
@@ -858,7 +858,7 @@ The FLLA Disciplinary Committee issued a total of 214 yellow cards and 14 red ca
 
 ==Awards==
 
-The Best Player award, formally titled the FLLA Golden Ball, was awarded by a panel of seven sports journalists drawn from each of the seven confederations to [[Quidic|Quidican]] central midfielder Marlen Tavri, who captained the champions throughout the tournament and contributed two goals and seven assists across their seven matches. Tavri was the first Quidican player to win the award, and the first player from any [[QUFVL]] member nation since the introduction of the award in 1718. Daron Veshani took the Golden Boot with five personal strikes, the lowest winning total at any FLLA World Cup since the award was introduced in 1736; the FLLA Awards Committee noted in its final report that Veshani's tally reflected the unusually low overall scoring rate of the tournament rather than any deficiency in the individual performance.
+The Best Player award, formally titled the FLLA Golden Ball, was awarded by a panel of seven sports journalists drawn from each of the seven confederations to [[Quidic|Quidican]] central midfielder Marlen Tavri, who captained the champions throughout the tournament and contributed two goals and seven assists across their seven matches. Tavri was the first Quidican player to win the award, and the first player from any [[QUFVL]] member nation since the introduction of the award in 1718. Daron Veshani took the Golden Boot with five personal strikes; the FLLA Awards Committee noted in its final report that Veshani's tally reflected the unusually low overall scoring rate of the tournament rather than any deficiency in the individual performance.
 
 The Golden Glove, awarded to the tournament's best goalkeeper, went to Quidican goalkeeper Resko Vahman, who conceded only three goals and kept four clean sheets across his country's seven matches, including consecutive shut-outs against [[Easuhura]], [[New Misos]] (in the replayed quarter-final) and [[Wundry]] in the semi-final. Quidican forward Talin Kestor, 20 years old at the start of the tournament, was named Best Young Player after appearing in six of [[Quidic]]'s seven matches and scoring one goal, the late opener at the replayed quarter-final against [[New Misos]]. [[Easuhura]] received the Fair Play award after finishing the tournament with the fewest disciplinary points of any of the sixteen knockout-stage participants.
 
