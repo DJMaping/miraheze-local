@@ -48,16 +48,16 @@
 
 The '''1756 [[FLLA]] World Cup''' was the 22nd edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held jointly by [[Erkizil]], [[Quidic]], [[Wundry]] and [[Ztesh]] from 9 June to 9 July 1756, and was the first FLLA World Cup ever staged in [[Quia]]. The four host associations had been awarded the tournament by the [[FLLA]] Council on 7 March 1751 in support of a unified bid coordinated by the [[QUFVL]]. Thirty-two nations qualified for the final tournament, drawn from the seven continental confederations of the [[FLLA]], and contested 64 matches across twelve host venues.
 
-[[Quidic]] won the tournament, defeating [[New Misos]] 1–0 in the [[#Final|final]] to claim their first FLLA World Cup title. Quidic progressed through the competition without losing a match in normal time, topping Group D ahead of defending champions [[Praesyu]] before defeating [[Emara]], [[Verusa]] (in a replayed quarter-final) and (after extra time) the hosts [[Wundry]] in the semi-final. [[Wundry]] finished third following a 3–1 win over [[Raledria]] in the third-place playoff at the Takhna Federal Stadium. The hosts [[Ztesh]] reached the quarter-finals before losing to fellow co-hosts [[Wundry]] at the Nakos National Stadium; [[Erkizil]] were eliminated in the round of sixteen by [[Verusa]] after a 2–1 defeat at the Tiraqsi Olympic Stadium.
+[[Quidic]] won the tournament, defeating [[New Misos]] 1–0 in the [[#Final|final]] to claim their first and only FLLA World Cup title. Quidic progressed through the competition without losing a match in normal time, topping Group D ahead of defending champions [[Praesyu]] before defeating [[Emara]], [[Verusa]] (in a replayed quarter-final) and (after extra time) the hosts [[Wundry]] in the semi-final. [[Wundry]] finished third following a 3–1 win over [[Raledria]] in the third-place playoff at the Takhna Federal Stadium. The hosts [[Ztesh]] reached the quarter-finals before losing to fellow co-hosts [[Wundry]] at the Nakos National Stadium; [[Erkizil]] were eliminated in the round of sixteen by [[Verusa]] after a 2–1 defeat at the Tiraqsi Olympic Stadium.
 
 A total of 147 goals were scored in 64 matches at an average of 2.30 per match. Quidic finished as the tournament's leading goalscoring nation with 12 goals, and Quidican forward Daron Veshani was awarded the [[wikipedia:Golden Boot|Golden Boot]] with 5 personal strikes. The Best Player award (the FLLA Golden Ball) was given to Quidican central midfielder Marlen Tavri, who captained the champions throughout the tournament. The competition was also notable for the introduction of the four-nation co-hosting format, which had no precedent in FLLA World Cup history.
 
 ==Host selection==
 {{Main|1756 FLLA World Cup bids}}
 
-The four-nation [[QUFVL]] bid was confirmed as host of the 1756 FLLA World Cup by the [[FLLA]] Council on 7 March 1751, ending a bidding process that had opened twenty-eight months earlier. The collective bid, formally submitted in November 1750 under the umbrella of the [[QUFVL]] secretariat, prevailed over rival proposals from [[Praesyu]], [[Lycroa]] and a joint [[Trian]]–[[Sivoso]] bid; an earlier bid from [[Iainoa]] had been withdrawn at the longlist stage in February 1750 after a domestic political crisis interrupted the country's federal infrastructure programme.<ref>{{cite web|url=https://www.flla.org/news/1751/host-selection-qufvl|title=QUFVL four-nation bid confirmed as 1756 hosts|publisher=[[FLLA]]|date=7 March 1751}}</ref>
+The four-nation [[QUFVL]] bid was confirmed as host of the 1756 FLLA World Cup by the [[FLLA]] Council on 7 March 1751, ending a bidding process that had opened twenty-eight months earlier. The collective bid, formally submitted in November 1750 under the umbrella of the [[QUFVL]] secretariat, prevailed over rival proposals from [[Praesyu]], [[Raledria]] and a joint [[Trian]]–[[Seytinemas|Seytinemasi]] bid; an earlier bid from [[Iainoa]] had been withdrawn at the longlist stage in February 1750 after a domestic political crisis interrupted the country's federal infrastructure programme.<ref>{{cite web|url=https://www.flla.org/news/1751/host-selection-qufvl|title=QUFVL four-nation bid confirmed as 1756 hosts|publisher=[[FLLA]]|date=7 March 1751}}</ref>
 
-The four [[Quia]]n associations had each submitted independent bids in the spring of 1749 before withdrawing them in favour of a single coordinated submission under the [[QUFVL]] banner at the urging of the FLLA Council, which had cautioned against the prospect of a competitive bid from outside [[Ayuma]] being split between rival Quian proposals. The unified bid was the first joint submission of its kind in the competition's history and the first to propose distribution of matches across more than two national territories. The total infrastructure budget pledged by the four host governments and the participating municipalities was {{lahn}}1.42&nbsp;billion, of which {{lahn}}410&nbsp;million was directed towards transport upgrades, principally cross-border rail capacity between [[Nakos]], [[Talvani]] and [[Eserni]]. A separate operational budget of {{lahn}}260&nbsp;million was allocated to security, broadcasting infrastructure and the volunteer programme across the four host nations.
+The [[Quian Union]] had submitted a joint bids in the spring of 1749 before withdrawing them in favour of a smaller submission under the [[QUFVL]] banner at the urging of the FLLA Council, which had cautioned against the prospect of a competitive bid from outside [[Ayuma]] being too spreadout between Quian nations. The unified bid was the first joint submission of its kind in the competition's history and the first to propose distribution of matches across more than two national territories. The total infrastructure budget pledged by the four host governments and the participating municipalities was {{lahn}}1.42&nbsp;billion, of which {{lahn}}410&nbsp;million was directed towards transport upgrades, principally cross-border rail capacity between [[Nakos]], [[Talvani]] and [[Eserni]]. A separate operational budget of {{lahn}}260&nbsp;million was allocated to security, broadcasting infrastructure and the volunteer programme across the four host nations.
 
 ==Participating teams and officials==
 
@@ -568,7 +568,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 | score = 1–0
 | team2 = {{Flagicon|Taval}} [[Taval]]
 | goals1 = Mereth {{Goal|22}}
-| goals2 =
+| goals2 = 
 | stadium = Eserni Arena, [[Eserni]]
 | attendance = 73,500
 | referee = Min-Jun Park ([[Ashain]])
@@ -594,7 +594,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 | score = 2–0
 | team2 = {{Flagicon|Emara}} [[Emara]]
 | goals1 = Veshani {{Goal|29}}<br/>Tavri {{Goal|81}}
-| goals2 =
+| goals2 = 
 | stadium = Estadio Talvani, [[Talvani]]
 | attendance = 82,650
 | referee = Tomáš Novák ([[Ocaun]])
@@ -607,7 +607,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 | score = 1–0 {{Aet}}
 | team2 = {{Flagicon|Myla}} [[Myla]]
 | goals1 = Marvik {{Goal|96}}
-| goals2 =
+| goals2 = 
 | stadium = Mihkose Sports Complex, [[Mihkose]]
 | attendance = 63,100
 | referee = Erik Halvorsen ([[Dual Cenryia]])
@@ -636,7 +636,7 @@ The eight group winners were drawn against the eight group runners-up, with each
 | score = 1–0 {{Aet}}
 | team2 = {{Flagicon|Easuhura}} [[Easuhura]]
 | goals1 = Brask {{Goal|104}}
-| goals2 =
+| goals2 = 
 | stadium = Erosan Field, [[Erosan]]
 | attendance = 50,400
 | referee = Sanjay Patel ([[Oyreain]])
@@ -678,8 +678,8 @@ The four quarter-finals produced two ties decided in normal time and two requiri
 | team1 = [[Verusa]] {{Flagicon|Verusa}}
 | score = 0–0 {{Aet}} ''(voided)''
 | team2 = {{Flagicon|Quidic}} [[Quidic]]
-| goals1 =
-| goals2 =
+| goals1 = 
+| goals2 = 
 | penalties1 = Brunscar {{Pengoal}}<br/>Markenrick {{Pengoal}}<br/>Lehrek {{Pengoal}}<br/>Kasspar {{Pengoal}}<br/>Olreth {{Pengoal}}
 | penaltyscore = 5–4 ''(voided)''
 | penalties2 = Veshani {{Pengoal}}<br/>Tavri {{Pengoal}}<br/>Mihar {{Pengoal}}<br/>{{Penmiss}} Kestor<br/>Karro {{Pengoal}}
@@ -694,7 +694,7 @@ The four quarter-finals produced two ties decided in normal time and two requiri
 | team1 = [[Verusa]] {{Flagicon|Verusa}}
 | score = 0–2
 | team2 = {{Flagicon|Quidic}} [[Quidic]]
-| goals1 =
+| goals1 = 
 | goals2 = Veshani {{Goal|24}}<br/>Kestor {{Goal|71}}
 | stadium = Estadio Talvani, [[Talvani]]
 | attendance = 81,900
@@ -708,7 +708,7 @@ The four quarter-finals produced two ties decided in normal time and two requiri
 | score = 1–0
 | team2 = {{Flagicon|Ukhdari}} [[Ukhdari]]
 | goals1 = Galenas {{Goal|56}}
-| goals2 =
+| goals2 = 
 | stadium = Mihkose Sports Complex, [[Mihkose]]
 | attendance = 63,800
 | referee = Brennan Quill ([[New Misos]] support pair)
@@ -739,7 +739,7 @@ The first semi-final at the Eserni Arena required extra time; the hosts [[Wundry
 | team1 = [[Wundry]] {{Flagicon|Wundry}}
 | score = 0–1 {{Aet}}
 | team2 = {{Flagicon|Quidic}} [[Quidic]]
-| goals1 =
+| goals1 = 
 | goals2 = Veshani {{Goal|98}}
 | stadium = Eserni Arena, [[Eserni]]
 | attendance = 74,600
@@ -753,7 +753,7 @@ The first semi-final at the Eserni Arena required extra time; the hosts [[Wundry
 | score = 1–0
 | team2 = {{Flagicon|Raledria}} [[Raledria]]
 | goals1 = Galenas {{Goal|67}}
-| goals2 =
+| goals2 = 
 | stadium = Nakos National Stadium, [[Nakos]]
 | attendance = 88,100
 | referee = Renat Petr ([[Pelugrotoa]])
@@ -788,7 +788,7 @@ The final was contested between [[Quidic]] and [[New Misos]], the Group D and Gr
 | score = 1–0
 | team2 = {{Flagicon|New Misos}} [[New Misos]]
 | goals1 = Veshani {{Goal|71}}
-| goals2 =
+| goals2 = 
 | stadium = Estadio Talvani, [[Talvani]]
 | attendance = 83,200
 | referee = Lassan Vetren ([[Walporein]])
@@ -981,7 +981,7 @@ A second incident, the dismissal of New Misos midfielder Ander Marvik in the 95t
 
 [[Quidic]]'s victory was the first FLLA World Cup ever won by a Quidican side. The result was widely celebrated in Quidic, where the team's homecoming parade through central [[Talvani]] on 11 July 1756 drew an estimated crowd of 4.6 million along an eight-kilometre route from the Quidican federal palace to the Estadio Talvani. As reigning champions, Quidic qualified automatically for the [[1760 FLLA World Cup|subsequent 1760 edition]] under the FLLA's defending-champion exemption then in force; Quidic were drawn into Group D at the 1760 tournament and were eliminated in the group stage, finishing fourth in the group behind [[Ukhdari]], [[Taval]] and [[Chaenia]].
 
-Across the four host nations, the tournament was judged an organisational success. An independent post-event report jointly commissioned by the four host associations and published in November 1756 estimated the net economic contribution to the four host economies at {{lahn}}4.2&nbsp;billion, against gross public expenditure of {{lahn}}1.68&nbsp;billion across infrastructure and operations. International visitor arrivals across the four host countries over the tournament period totalled 1,060,000, the highest cumulative tournament-period visitor figure recorded in [[Quia]] up to that date. The cross-border travel and policing arrangements introduced for the tournament were retained on an extended basis after the closing ceremony and formed the procedural foundation for the later [[QUFVL]] free-movement protocol of 1763.<ref>{{cite web|url=https://www.qufvl.org/1756/joint-impact-report|title=1756 FLLA World Cup joint post-event economic impact report|publisher=[[QUFVL]]|date=18 November 1756}}</ref>
+Across the four host nations, the tournament was judged an organisational success. An independent post-event report jointly commissioned by the four host associations and published in November 1756 estimated the net economic contribution to the four host economies at {{lahn}}4.2&nbsp;billion, against gross public expenditure of {{lahn}}1.68&nbsp;billion across infrastructure and operations. International visitor arrivals across the four host countries over the tournament period totalled 1,060,000, the highest cumulative tournament-period visitor figure recorded in the [[Quian Union]] up to that date. The cross-border travel and policing arrangements introduced for the tournament were retained on an extended basis after the closing ceremony and formed the procedural foundation for the later [[Quian Union]] free-movement protocol of 1763.<ref>{{cite web|url=https://www.qufvl.org/1756/joint-impact-report|title=1756 FLLA World Cup joint post-event economic impact report|publisher=[[QUFVL]]|date=18 November 1756}}</ref>
 
 The next edition of the FLLA World Cup, the [[1760 FLLA World Cup]], was awarded to [[Ukhdari]] at the FLLA Council meeting of 4 February 1754, before the start of the 1756 tournament. The four-nation hosting model introduced at the 1756 edition was retained as a procedural option for future bids; the substitution-record innovation introduced at the 1756 tournament was retained at the 1760 edition and refined into the written-slip protocol used from that competition onwards.
 
