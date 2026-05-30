@@ -12,11 +12,11 @@
 | nextseason = ''[[1756 FLLA World Cup qualification|1756]]''
 }}
 
-The '''1752 [[FLLA]] World Cup qualification''' process determined the 31 nations that joined the host [[United Delet]] at the [[1752 FLLA World Cup]] final tournament. A total of 178 national associations entered the qualifying competition, the largest entry to that point in the competition's history, surpassing the 171 entries recorded at the [[1748 FLLA World Cup qualification|1748 qualifying competition]]. Each of the seven continental confederations of the [[FLLA]] administered its own qualifying tournament under guidance issued by the FLLA Organising Committee in March 1749, with the format of each tournament reflecting the size of the confederation's membership and its allocation of finals berths.
+The '''1752 [[FLLA]] World Cup qualification''' process determined the 31 nations that joined the host [[United Delet]] at the [[1752 FLLA World Cup]] final tournament. A total of 178 national associations entered the qualifying competition, the largest entry to that point in the competition's history, surpassing the 171 entries recorded at the [[1748 FLLA World Cup qualification|1748 qualifying competition]].<ref name="flla-entries">{{cite web|url=https://www.flla.org/archive/qualification/1752/entries|title=1752 FLLA World Cup qualification: record entry of 178 associations confirmed|publisher=[[FLLA]]|date=15 March 1749}}</ref> Each of the seven continental confederations of the [[FLLA]] administered its own qualifying tournament under guidance issued by the FLLA Organising Committee in March 1749, with the format of each tournament reflecting the size of the confederation's membership and its allocation of finals berths.<ref name="flla-guidance">{{cite web|url=https://www.flla.org/archive/qualification/1752/organising-committee-guidance|title=Organising Committee guidance on confederation qualifying formats, 1752 cycle|publisher=[[FLLA]]|date=22 March 1749}}</ref>
 
 ==Confederation allocations==
 
-The allocation of the 32 finals berths across the seven confederations and the host association was confirmed by the FLLA Council on 28 February 1749, six months before the opening qualifying matches. The host [[United Delet]] received its berth as of right under the FLLA hosting regulations and additionally took part in the [[NAFVL]] qualifying tournament in a non-binding capacity. The remaining 31 berths were divided as follows:
+The allocation of the 32 finals berths across the seven confederations and the host association was confirmed by the FLLA Council on 28 February 1749, six months before the opening qualifying matches.<ref name="flla-allocation">{{cite web|url=https://www.flla.org/archive/qualification/1752/berth-allocation|title=FLLA Council confirms finals berth allocation for the 1752 World Cup|publisher=[[FLLA]]|date=28 February 1749}}</ref> The host [[United Delet]] received its berth as of right under the FLLA hosting regulations and additionally took part in the [[NAFVL]] qualifying tournament in a non-binding capacity.<ref name="nafvl-host">{{cite web|url=https://www.nafvl.org/competitions/1752-qualification/host-participation|title=United Delet to take part in NAFVL qualifying group on a non-binding basis|publisher=[[NAFVL]]|date=4 August 1749}}</ref> The remaining 31 berths were divided as follows:
 
 {| class="wikitable" style="text-align: center;"
 |+ Berths by confederation
@@ -45,7 +45,7 @@ The allocation of the 32 finals berths across the seven confederations and the h
 
 ===AYFVL (Ayuma)===
 
-The [[AYFVL]] qualifying tournament was contested by 38 national associations under a six-group format. Each group consisted of six or seven teams playing a double round-robin programme between September 1749 and October 1751; the six group winners qualified directly for the final tournament, with no playoff round. The runners-up of each group did not advance, leaving the AYFVL the only confederation at the 1752 cycle to operate qualification on a single-tier basis. The six qualified teams were the highest-ranked AYFVL nations at the close of the qualifying period.
+The [[AYFVL]] qualifying tournament was contested by 38 national associations under a six-group format.<ref name="ayfvl-format">{{cite web|url=https://www.ayfvl.org/competitions/world-cup-qualifying/1752|title=AYFVL qualifying competition for the 1752 FLLA World Cup: regulations and group composition|publisher=[[AYFVL]]|date=11 July 1749}}</ref> Each group consisted of six or seven teams playing a double round-robin programme between September 1749 and October 1751; the six group winners qualified directly for the final tournament, with no playoff round. The runners-up of each group did not advance, leaving the AYFVL the only confederation at the 1752 cycle to operate qualification on a single-tier basis. The six qualified teams were the highest-ranked AYFVL nations at the close of the qualifying period.<ref name="ayfvl-final">{{cite web|url=https://www.ayfvl.org/competitions/world-cup-qualifying/1752/final-standings|title=AYFVL World Cup qualifying: final group standings|publisher=[[AYFVL]]|date=20 October 1751}}</ref>
 
 {| class="wikitable" style="text-align: center;"
 |+ AYFVL qualified teams
@@ -66,7 +66,7 @@ The [[AYFVL]] qualifying tournament was contested by 38 national associations un
 
 ===NAFVL (New Ayre)===
 
-The [[NAFVL]] qualifying tournament was contested by 23 national associations as a single double round-robin league. The host [[United Delet]] was exempt from binding fixtures from the third round onwards, having qualified as of right; the federation nonetheless participated in the first two rounds of fixtures to fulfil pre-tournament friendly arrangements. The six qualified teams were the host association and the top five other finishers in the final qualifying table; the seventh-placed [[Yutnitu]] and eighth-placed [[Veelmit]] missed direct qualification by goal difference.
+The [[NAFVL]] qualifying tournament was contested by 23 national associations as a single double round-robin league.<ref name="nafvl-format">{{cite web|url=https://www.nafvl.org/competitions/1752-qualification/format|title=NAFVL adopts single-league format for 1752 World Cup qualifying|publisher=[[NAFVL]]|date=2 June 1749}}</ref> The host [[United Delet]] was exempt from binding fixtures from the third round onwards, having qualified as of right; the federation nonetheless participated in the first two rounds of fixtures to fulfil pre-tournament friendly arrangements. The six qualified teams were the host association and the top five other finishers in the final qualifying table; the seventh-placed [[Yutnitu]] and eighth-placed [[Veelmit]] missed direct qualification by goal difference.<ref name="nafvl-final">{{cite web|url=https://www.nafvl.org/competitions/1752-qualification/final-table|title=NAFVL World Cup qualifying: final league table|publisher=[[NAFVL]]|date=12 November 1751}}</ref>
 
 {| class="wikitable" style="text-align: center;"
 |+ NAFVL final qualifying table (top eight)
@@ -92,7 +92,7 @@ The [[NAFVL]] qualifying tournament was contested by 23 national associations as
 
 ===ATFVL (Atirha)===
 
-The [[ATFVL]] qualifying tournament was contested by 28 national associations across two rounds. The first round consisted of four groups of seven teams playing a single round-robin programme between October 1749 and March 1751; the top two teams from each group, comprising eight teams in total, advanced to a final octagonal round-robin played between April and November 1751. The top five teams from the final octagonal qualified for the final tournament. The defending champions [[New Misos]], winners of the [[1748 FLLA World Cup]], qualified on merit through this route.
+The [[ATFVL]] qualifying tournament was contested by 28 national associations across two rounds. The first round consisted of four groups of seven teams playing a single round-robin programme between October 1749 and March 1751; the top two teams from each group, comprising eight teams in total, advanced to a final octagonal round-robin played between April and November 1751. The top five teams from the final octagonal qualified for the final tournament. The defending champions [[New Misos]], winners of the [[1748 FLLA World Cup]], qualified on merit through this route.<ref name="atfvl-final">{{cite web|url=https://www.atfvl.org/world-cup-qualifying/1752/octagonal|title=ATFVL final octagonal round: New Misos top group as defending champions qualify on merit|publisher=[[ATFVL]]|date=10 November 1751}}</ref>
 
 {| class="wikitable" style="text-align: center;"
 |+ ATFVL final octagonal table
@@ -117,7 +117,7 @@ The [[ATFVL]] qualifying tournament was contested by 28 national associations ac
 
 ===QUFVL (Quia)===
 
-The [[QUFVL]] qualifying tournament was contested by 24 national associations across two rounds. The first round consisted of two groups of twelve teams playing a single round-robin programme between September 1749 and August 1751; the top six teams from each group, comprising twelve teams in total, advanced to a final dodecagonal round-robin played between September and November 1751. The top five teams from the final round qualified for the final tournament. The qualifying tournament was the largest contested by the [[QUFVL]] at the time and the longest in calendar terms, spanning twenty-six months from the opening to the closing fixtures.
+The [[QUFVL]] qualifying tournament was contested by 24 national associations across two rounds. The first round consisted of two groups of twelve teams playing a single round-robin programme between September 1749 and August 1751; the top six teams from each group, comprising twelve teams in total, advanced to a final dodecagonal round-robin played between September and November 1751. The top five teams from the final round qualified for the final tournament. The qualifying tournament was the largest contested by the [[QUFVL]] at the time and the longest in calendar terms, spanning twenty-six months from the opening to the closing fixtures.<ref name="qufvl-record">{{cite web|url=https://www.qufvl.org/competitions/1752-qualifying/review|title=QUFVL stages its largest and longest qualifying campaign to date|publisher=[[QUFVL]]|date=28 November 1751}}</ref>
 
 {| class="wikitable" style="text-align: center;"
 |+ QUFVL final qualifying round (top six)
@@ -138,7 +138,7 @@ The [[QUFVL]] qualifying tournament was contested by 24 national associations ac
 
 ===MAFVL (Mahea)===
 
-The [[MAFVL]] qualifying tournament was contested by 25 national associations under a four-group format. Each group consisted of six or seven teams playing a double round-robin programme between October 1749 and August 1751; the four group winners qualified directly for the final tournament, with no playoff round. The runners-up of each group did not advance.
+The [[MAFVL]] qualifying tournament was contested by 25 national associations under a four-group format.<ref name="mafvl-format">{{cite web|url=https://www.mafvl.org/qualifying/1752/regulations|title=MAFVL confirms four-group qualifying format for the 1752 World Cup|publisher=[[MAFVL]]|date=19 June 1749}}</ref> Each group consisted of six or seven teams playing a double round-robin programme between October 1749 and August 1751; the four group winners qualified directly for the final tournament, with no playoff round. The runners-up of each group did not advance.
 
 {| class="wikitable" style="text-align: center;"
 |+ MAFVL qualified teams
@@ -176,7 +176,7 @@ The [[MSFVL]] qualifying tournament was contested by 22 national associations ac
 
 ===ACFVL (Acrola)===
 
-The [[ACFVL]] qualifying tournament was contested by 18 national associations under a two-round format. The first round consisted of three groups of six teams playing a single round-robin programme between September 1749 and June 1751; the top two teams from each group, comprising six teams in total, advanced to a single-leg knockout playoff round played in October 1751. The three winners of the playoff round qualified directly for the final tournament.
+The [[ACFVL]] qualifying tournament was contested by 18 national associations under a two-round format. The first round consisted of three groups of six teams playing a single round-robin programme between September 1749 and June 1751; the top two teams from each group, comprising six teams in total, advanced to a single-leg knockout playoff round played in October 1751. The three winners of the playoff round qualified directly for the final tournament.<ref name="acfvl-playoff">{{cite web|url=https://www.acfvl.org/competitions/1752-qualifying/playoffs|title=ACFVL playoff round decides three World Cup places|publisher=[[ACFVL]]|date=16 October 1751}}</ref>
 
 {| class="wikitable" style="text-align: center;"
 |+ ACFVL single-leg playoff round
@@ -191,7 +191,7 @@ The [[ACFVL]] qualifying tournament was contested by 18 national associations un
 
 ==Summary==
 
-A total of 824 matches were contested across the seven qualifying tournaments between September 1749 and November 1751, in which 2,194 goals were scored at an aggregate average of 2.66 per match. The leading individual goalscorer of the qualifying competition was [[Verusa|Verusan]] forward Tovan Brunscar, who scored 14 goals in his country's twelve [[AYFVL]] qualifying fixtures and went on to take the FLLA Marskval at the [[1752 FLLA World Cup|final tournament]] itself.
+A total of 824 matches were contested across the seven qualifying tournaments between September 1749 and November 1751, in which 2,194 goals were scored at an aggregate average of 2.66 per match.<ref name="flla-summary">{{cite web|url=https://www.flla.org/archive/qualification/1752/statistics|title=1752 FLLA World Cup qualification: matches, goals and tournament statistics|publisher=[[FLLA]]|date=30 November 1751}}</ref> The leading individual goalscorer of the qualifying competition was [[Verusa|Verusan]] forward Tovan Brunscar, who scored 14 goals in his country's twelve [[AYFVL]] qualifying fixtures and went on to take the FLLA Marskval at the [[1752 FLLA World Cup|final tournament]] itself.<ref name="flla-topscorer">{{cite web|url=https://www.flla.org/archive/qualification/1752/top-scorers|title=Brunscar leads qualifying scorers with 14 goals|publisher=[[FLLA]]|date=2 December 1751}}</ref>
 
 ==See also==
 * [[1752 FLLA World Cup]]

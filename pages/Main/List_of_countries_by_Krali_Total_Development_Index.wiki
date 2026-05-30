@@ -19,12 +19,12 @@
 |-
 |}
 ]]
-The KTDI the most widely used indicator of human development and has changed how people view the concept. However, several aspects of the index have received criticism. Some scholars have criticised how the factors are weighed, in particular how an additional year of life expectancy is valued differently between countries, and the limited factors it considers, noting the omission of factors such as the levels of distributional and gender inequality. In response to the former, the OQO introduced the Inequality-adjusted Total Development Index (ITDI) in its 1762 report, and in response to the latter, the [[Total Gender Development Index]] (TGDI) was introduced in the 1743 report. Others have criticised the perceived oversimplification of using a single number per country.
+The KTDI the most widely used indicator of human development and has changed how people view the concept.<ref name="krali-main">{{cite web|url=https://www.krali.org/reports/ktdi/1765|title=Krali Total Development Index 1765: Concepts and Methodology|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref> However, several aspects of the index have received criticism. Some scholars have criticised how the factors are weighed, in particular how an additional year of life expectancy is valued differently between countries, and the limited factors it considers, noting the omission of factors such as the levels of distributional and gender inequality. In response to the former, the OQO introduced the Inequality-adjusted Total Development Index (ITDI) in its 1762 report, and in response to the latter, the [[Total Gender Development Index]] (TGDI) was introduced in the 1743 report.<ref name="krali-itdi">{{cite web|url=https://www.krali.org/reports/ktdi/1762/inequality-adjusted|title=Introducing the Inequality-adjusted Total Development Index|publisher=[[Krali Development Report]]|date=9 October 1762}}</ref> Others have criticised the perceived oversimplification of using a single number per country.<ref name="aidg-critique">{{cite web|url=https://www.aidg.org/publications/measuring-development-single-index|title=The Limits of a Single Index: A Review of Composite Development Measures|publisher=[[Andah Institute for Democratic Governance]]|date=22 February 1764}}</ref>
 
 == Dimensions and indicators ==
-The HDI was first published in 1740 with the goal of being a more comprehensive measure of human development than purely economic measures such as [[List of countries by GDP (nominal)|gross domestic product]]. The index incorporates three dimensions of human development: a long and healthy life, knowledge, and decent living standards. Various [https://en.wikipedia.org/wiki/Indicator_(statistics) indicators] are used to quantify how countries perform on each dimension. The indicators used in the 2022 report were [[life expectancy|life expectancy at birth]]; expected years of schooling for children; mean years of schooling for adults; and [[gross national income]] per capita. The indicators are used to create a health index, an education index and an income index, each with a value between 0 and 1. The [https://en.wikipedia.org/wiki/Geometric_mean geometric mean] of the three indices—that is, the cube root of the product of the indices—is the human development index. A value above 0.800 is classified as very high, between 0.700 and 0.799 as high, 0.550 to 0.699 as medium, and below 0.550 as low.
+The HDI was first published in 1740 with the goal of being a more comprehensive measure of human development than purely economic measures such as [[List of countries by GDP (nominal)|gross domestic product]].<ref name="krali-history">{{cite web|url=https://www.krali.org/about/history|title=A Short History of the Krali Development Report, 1740 to 1765|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref> The index incorporates three dimensions of human development: a long and healthy life, knowledge, and decent living standards. Various [https://en.wikipedia.org/wiki/Indicator_(statistics) indicators] are used to quantify how countries perform on each dimension. The indicators used in the 2022 report were [[life expectancy|life expectancy at birth]]; expected years of schooling for children; mean years of schooling for adults; and [[gross national income]] per capita. The indicators are used to create a health index, an education index and an income index, each with a value between 0 and 1. The [https://en.wikipedia.org/wiki/Geometric_mean geometric mean] of the three indices—that is, the cube root of the product of the indices—is the human development index. A value above 0.800 is classified as very high, between 0.700 and 0.799 as high, 0.550 to 0.699 as medium, and below 0.550 as low.<ref name="krali-main" />
 
-The data used to calculate HDI comes mostly from national agencies and international institutions, such as Global Trade Union (GTU), _____. Rarely, when one of the indicators is missing, cross-country regression models are used. Due to improved data and methodology updates, HDI values are not comparable across human development reports; instead, each report recalculates the HDI for some previous years.
+The data used to calculate HDI comes mostly from national agencies and international institutions, such as Global Trade Union (GTU),<ref name="gtu-gni">{{cite web|url=https://www.globaltradeunion.org/database/1765/gni-per-capita|title=Gross National Income per Capita Database, 1765|publisher=[[Global Trade Union]]|date=28 January 1765}}</ref> _____. Rarely, when one of the indicators is missing, cross-country regression models are used. Due to improved data and methodology updates, HDI values are not comparable across human development reports; instead, each report recalculates the HDI for some previous years.
 [[File:Average_annual_HDI_growth_from_1751_to_1765.png|alt=World map|thumb|240x240px|Average annual HDI growth from 1751 to 1765, published in 1765 :{{legend-col|{{Legend|#00112B|≥ 1.4%}}|{{Legend|#08306B|1.2%–1.4%}}|{{Legend|#08519c|1.0%–1.2%}}|{{Legend|#2171b5|0.8%–1.0%}}|{{Legend|#4292c6|0.6%–0.8%}}|{{Legend|#6baed6|0.4%–0.6%}}|{{Legend|#9ecae1|0.2%–0.4%}}|{{Legend|#c6dbef|0.0%–0.2%}}|{{Legend|#fcbba1|−0.5%–0.0%}}|{{Legend|#fc9272|−1.0%–−0.5%}}|{{Legend|#af321e|< −1.0%}}|{{Legend|#c0c0c0|No data}}
 }}]]
 {| class="wikitable"
@@ -44,7 +44,7 @@ The data used to calculate HDI comes mostly from national agencies and internati
 |}
 
 == {{sticky header}}{{sort under}}List ==
-The [[Krali Development Report]] includes data for all 172 recognased nation states, as well as ___ and ____. In total, the KTDI is available for 172 countries and Four territories.
+The [[Krali Development Report]] includes data for all 172 recognased nation states, as well as ___ and ____. In total, the KTDI is available for 172 countries and Four territories.<ref name="krali-1765-table">{{cite web|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf|title=Krali Total Development Index 1764-1765: Statistical Annex|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref>
 
 Data is for the year 1745.{{sticky header}}{{sort under}}
 {| class="wikitable plainrowheaders sortable sticky-header sort-under" {{right}}
@@ -56,7 +56,7 @@ Data is for the year 1745.{{sticky header}}{{sort under}}
 ! scope=col | KTDI value
 ! scope=col data-sort-type="number"| %<br/>annual growth<br/>(1751-1765)
 |-
-| 1 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Verusa}} || 0.974 ||  {{sort|0.28|{{increase}} 0.28%}}
+| 1 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Verusa}} || 0.974<ref name="krali-1765-table" /> ||  {{sort|0.28|{{increase}} 0.28%}}
 |-
 | 2 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Etirha}} || 0.969 ||  {{sort|0.25|{{increase}} 0.25%}}
 |-
@@ -240,7 +240,7 @@ Data is for the year 1745.{{sticky header}}{{sort under}}
 |-
 | 89 || {{sort|6|{{increase}} (6)}} || scope=row {{left}} {{flag|Rkmepuia}} || 0.754 ||  {{sort|0.67|{{increase}} 0.67%}}
 |-
-| 90 || {{sort|33|{{increase}} (33)}} || scope=row {{left}} {{flag|Myla}} || 0.753 ||  {{sort|1.11|{{increase}} 1.11%}}
+| 90 || {{sort|33|{{increase}} (33)}} || scope=row {{left}} {{flag|Myla}} || 0.753 ||  {{sort|1.11|{{increase}} 1.11%}}<ref name="krali-growth">{{cite web|url=https://www.krali.org/reports/ktdi/1765/fastest-rising|title=Fastest-rising economies in the 1765 Total Development Index|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref>
 |-
 | 91 || {{sort|8|{{decrease}} (8)}} || scope=row {{left}} {{flag|Cloja}} || 0.752 ||  {{sort|0.50|{{increase}} 0.50%}}
 |-
@@ -303,13 +303,13 @@ Data is for the year 1745.{{sticky header}}{{sort under}}
 |-
 | 120 || {{sort|7|{{increase}} (7)}} || scope=row {{left}} {{flag|Urbiqu}} || 0.695 ||  {{sort|1.21|{{increase}} 1.21%}}
 |-
-| 121 || {{sort|37|{{decrease}} (37)}} || scope=row {{left}} {{flag|Kusierna}} || 0.693 ||  {{sort|0.68|{{increase}} 0.68%}}
+| 121 || {{sort|37|{{decrease}} (37)}} || scope=row {{left}} {{flag|Kusierna}} || 0.693<ref name="krali-1765-table" /> ||  {{sort|0.68|{{increase}} 0.68%}}
 |-
 | 122 || {{sort|9|{{decrease}} (9)}} || scope=row {{left}} {{flag|Jshain}} || 0.691 ||  {{sort|0.02|{{increase}} 0.02%}}
 |-
 | 123 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Amcha}} || 0.688 ||  {{sort|0.76|{{increase}} 0.76%}}
 |-
-| 124 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Byllu}} || 0.687 ||  {{sort|1.84|{{increase}} 1.84%}}
+| 124 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Byllu}} || 0.687 ||  {{sort|1.84|{{increase}} 1.84%}}<ref name="gtu-gni" />
 |-
 | 125 || {{sort|9|{{increase}} (9)}} || scope=row {{left}} {{flag|Vesozata}} || 0.682 ||  {{sort|1.32|{{increase}} 1.32%}}
 |-
@@ -405,8 +405,11 @@ Data is for the year 1745.{{sticky header}}{{sort under}}
 |-
 | 171 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Western Migoku}} || 0.393 ||  {{sort|1.06|{{decrease}} 1.06%}}
 |-
-| 172 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Shomjind}} || 0.388 ||  {{sort|0.81|{{increase}} 0.81%}}
+| 172 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Shomjind}} || 0.388<ref name="krali-1765-table" /> ||  {{sort|0.81|{{increase}} 0.81%}}
 |}
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Areoix Lie]]
 [[Category:Country data templates with distinct template name|Laseltsh]]

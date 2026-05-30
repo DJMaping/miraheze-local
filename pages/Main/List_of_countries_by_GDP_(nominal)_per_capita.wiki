@@ -19,7 +19,7 @@
 {{Legend|#b9b9b9|No data}}
 |}
 ]]
-This is a '''list of countries by nominal GDP per capita'''. GDP per capita is the total value of a country's finished goods and services ([[gross domestic product]]) divided by its total [[population]] ([[per capita]]).
+This is a '''list of countries by nominal GDP per capita'''. GDP per capita is the total value of a country's finished goods and services ([[gross domestic product]]) divided by its total [[population]] ([[per capita]]).<ref name="GTU-method">{{Cite web |url=https://www.globaltradeunion.org/database/gdp-per-capita/1765/methodology |title=GDP per Capita Database: Concepts and Methodology, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 
 Gross domestic product (GDP) per capita is often considered an indicator of a country's [[standard of living]]; however, this is inaccurate because GDP per capita is not a measure of [[personal income]]. Measures of personal income include [[List of countries by average wage|average wage]], [[real income]], [[median income]], [[disposable income]] and [[List of countries by GNI (nominal) per capita|GNI per capita]].
 
@@ -29,7 +29,7 @@ The figures presented here do not take into account differences in the [[cost of
 
 For change of GDP per capita over time as a measure of [[economic growth]], see [[list of countries by real GDP growth rate|real GDP growth]] and [[List of countries by real GDP per capita growth|real GDP per capita growth]].
 
-Non-sovereign entities (the world, continents, and some [[dependent territory|dependent territories]]) and states with limited international recognition are included in the list in cases in which they appear in the sources. These economies are not ranked in the charts here (except ___ and ____), but are listed in sequence by GDP for comparison. In addition, non-sovereign entities are marked in ''italics''. Four nations (Cruthi Anoso, Ocaun, Shomjind, and United Mihili) do not belong to the [[Global Trade Union]], but their economies are ranked below. ____, despite not being a member of the United Nations, is a member of GTU. ____ is not a IMF member but it is still listed in the official GTU indices.
+Non-sovereign entities (the world, continents, and some [[dependent territory|dependent territories]]) and states with limited international recognition are included in the list in cases in which they appear in the sources. These economies are not ranked in the charts here (except ___ and ____), but are listed in sequence by GDP for comparison. In addition, non-sovereign entities are marked in ''italics''. Four nations (Cruthi Anoso, Ocaun, Shomjind, and United Mihili) do not belong to the [[Global Trade Union]], but their economies are ranked below.<ref name="GTU-members">{{Cite web |url=https://www.globaltradeunion.org/about/membership/1765 |title=Member States and Reporting Economies, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> ____, despite not being a member of the United Nations, is a member of GTU. ____ is not a IMF member but it is still listed in the official GTU indices.
 
 Several leading GDP-per-capita (nominal) jurisdictions may be considered [[tax haven]]s, and their GDP data subject to material distortion by [[Tax avoidance|tax-planning]] activities. Examples include ______.
 
@@ -38,15 +38,15 @@ Several leading GDP-per-capita (nominal) jurisdictions may be considered [[tax h
 |+GDP per capita ([[Nominal price|current]] [[Lahn]] {{lahn}}) by country or {{color box|#F0E891|territory, [[List of sovereign states|non-sovereign state]] or non-GTU member}}
 |- class="static-row-header" style="text-align:center;"
 ! Country / territory
-! style=width:8em | [[Global Trade Union]]<br>(2025)
-! style=width:8em | [[Creating Central Bank of Fekunza|Bank of Fekunza]]<br>(2023 or<br>2024)
-! style=width:8em | [[The Financial Group]]<br>(2023 or<br>2024)
+! style=width:8em | [[Global Trade Union]]<br>(2025)<ref name="GTU-pc">{{Cite web |url=https://www.globaltradeunion.org/database/gdp-per-capita/1765/nominal |title=Global Trade Union Forecast Database: Nominal GDP per Capita, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+! style=width:8em | [[Creating Central Bank of Fekunza|Bank of Fekunza]]<br>(2023 or<br>2024)<ref name="BoF-pc">{{Cite web |url=https://www.centralbankfekunza.lh/statistics/gdp-per-capita/1764 |title=National Accounts Statistics: GDP per Capita Estimates, 1764 |publisher=[[Creating Central Bank of Fekunza|Central Bank of Fekunza]] |date=1764 }} Retrieved 1765.</ref>
+! style=width:8em | [[The Financial Group]]<br>(2023 or<br>2024)<ref name="TFG-pc">{{Cite web |url=https://www.thefinancialgroup.org/research/gdp-per-capita/1764 |title=World Output Review: Nominal GDP per Capita, 1764 |publisher=[[The Financial Group]] |date=1764 }} Retrieved 1765.</ref>
 |- class="static-row-header " 
 
 |-
-| {{flag|New Kizura}} || 40,873 || {{n/a}} || 40,137
+| {{flag|New Kizura}} || 40,873<ref name="GTU-pc" /> || {{n/a}} || 40,137
 |-
-| {{flag|Pha Hii}} || 40,476 || {{n/a}} || 41,326
+| {{flag|Pha Hii}} || 40,476<ref name="GTU-pc" /> || {{n/a}} || 41,326
 |-
 | {{flag|Etirha}} || 35,397 || 35,893 || 34,052
 |-
@@ -76,8 +76,8 @@ Several leading GDP-per-capita (nominal) jurisdictions may be considered [[tax h
 |-
 | {{flag|Verusa}} || 22,302 || 23,127 || 22,079
 |-
-| {{flag|Lycroa}} 
-| 20,635 || 19,706 || 20,140
+| {{flag|Lycroa}}
+| 20,635<ref name="GTU-pc" /> || 19,706 || 20,140
 |-
 | {{flag|Iareva}} || 20,635 || 21,275 || 20,903
 |-
@@ -393,7 +393,7 @@ Several leading GDP-per-capita (nominal) jurisdictions may be considered [[tax h
 |-
 | {{flag|Far Lands}} || 155 || 157 || 163
 |-
-| {{flag|Western Migoku}} || 127 || 133 || 122
+| {{flag|Western Migoku}} || 127<ref name="GTU-pc" /> || 133 || 122
 |-
 |}
 
@@ -403,6 +403,9 @@ Several leading GDP-per-capita (nominal) jurisdictions may be considered [[tax h
 * [[List of countries by GDP (nominal)]]
 * [[List of countries by GDP (PPP)]]
 * [[List of countries by GDP (PPP) per capita]]
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Articles with short description]]

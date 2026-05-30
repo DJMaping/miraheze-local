@@ -13,10 +13,10 @@ This is a list of countries by mined [[Wikipedia:Iron_ore|iron ore production]] 
 !Iron<br>content
 |- class="static-row-header"
 |'''{{noflag}}World'''
-|'''2,500,000'''
+|'''2,500,000'''<ref name="gtugs-iron">{{cite web |title=Mineral Commodity Summaries 1764 – Iron Ore: World Production and Reserves |url=https://gtu.org/periodicals/mcs1764/mcs1764-iron-ore-world.pdf |publisher=[[GTU Geological Survey]] |date=15 January 1764}}</ref>
 |'''≈ 1,366,000'''
 |'''1,600,000'''
-|'''200,000'''
+|'''200,000'''<ref name="gtu-reserves">{{cite web |title=Global Iron Ore Reserves and Trade Outlook 1763 |url=https://www.globaltradeunion.org/database/1882 |publisher=[[Global Trade Union]] |date=3 December 1763}}</ref>
 |'''88,000'''
 |- class="static-row-header"
 |{{Noflag}}''Other countries''
@@ -26,16 +26,16 @@ This is a list of countries by mined [[Wikipedia:Iron_ore|iron ore production]] 
 |17,000
 |8,500
 |-
-|{{flagicon|Estijan}} [[Estijan]] || 930,000 || 3,700 || 580,000 || 58,000 || 27,000
+|{{flagicon|Estijan}} [[Estijan]] || 930,000<ref name="gtugs-iron" /> || 3,700 || 580,000 || 58,000<ref name="gtu-reserves" /> || 27,000
 |-
-|{{flagicon|Raledria}} [[Raledria]] 
-| 440,000 || 871,000 || 280,000 || 34,000 || 15,000
+|{{flagicon|Raledria}} [[Raledria]]
+| 440,000 || 871,000<ref>{{cite web |title=World Steel in Figures 1764: Crude Steel and Pig Iron Output by Country |url=https://gtu.org/periodicals/mcs1764/mcs1764-pig-iron.pdf |publisher=[[GTU Geological Survey]] |date=22 February 1764}}</ref> || 280,000 || 34,000 || 15,000
 |-
 |{{flagicon|Desaki}} [[Desaki]] || 270,000 || 25,700 || 170,000 || 20,000 || 6,900
 |-
 |{{flagicon|Dahe}} [[Dahe]] || 270,000 || 86,300 || 170,000 || 5,500 || 3,400
 |-
-|{{flagicon|Mesjan Hyaa}} [[Mesjan Hyaa]] || 91,000 || 54,600 || 53,000 || 35,000 || 14,000
+|{{flagicon|Mesjan Hyaa}} [[Mesjan Hyaa]] || 91,000 || 54,600 || 53,000 || 35,000<ref>{{cite web |title=Crude Iron Ore Reserve Estimates 1763, by Country |url=https://www.globaltradeunion.org/database/1903 |publisher=[[Global Trade Union]] |date=3 December 1763}}</ref> || 14,000
 |-
 |{{flagicon|Areoix Lie}} [[Areoix Lie]] 
 | 90,000 || 36,400 || 59,000 || 3,800 || 1,500
@@ -153,6 +153,7 @@ This is a list of countries by mined [[Wikipedia:Iron_ore|iron ore production]] 
 |}
 
 
-[[Category:Statistics]]
 == References ==
 {{reflist}}
+
+[[Category:Statistics]]

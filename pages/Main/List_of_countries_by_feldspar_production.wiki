@@ -1,6 +1,6 @@
 {{Short description|none}}
 
-This is a '''list of countries by [[wikipedia:feldspar|feldspar]] production''' based on [[GTU Geological Survey]] data.<ref name=":0">{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/}}</ref>
+This is a '''list of countries by [[wikipedia:feldspar|feldspar]] production''' based on [[GTU Geological Survey]] data.<ref name=":0">{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |publisher=[[GTU Geological Survey]]}}</ref> Production figures are compiled annually by the GTU Geological Survey from national returns and reported in metric tonnes.<ref name="mcs1765">{{cite web |date=February 1765 |title=Mineral Commodity Summaries 1765: Feldspar |url=https://gtu.org/periodicals/mcs1765/mcs1765-feldspar.pdf |publisher=[[GTU Geological Survey]]}}</ref>
 
 {{srn}}{{table alignment}}
 {| class="wikitable sortable static-row-numbers col2right"
@@ -9,11 +9,11 @@ This is a '''list of countries by [[wikipedia:feldspar|feldspar]] production''' 
 ! Country !! Production<br>(metric tonnes)
 |-
 |'''World'''
-|'''38,156,851'''
+|'''38,156,851'''<ref name="mcs1765" />
 |-
-|{{flag|Ukhdari}} || 15,781,540 
+|{{flag|Ukhdari}} || 15,781,540 <ref>{{cite web |date=February 1765 |title=Feldspar: Ukhdari mine production, 1765 |url=https://gtu.org/periodicals/mcs1765/mcs1765-feldspar-ukhdari.pdf |publisher=[[GTU Geological Survey]]}}</ref>
 |-
-|{{flag|Dahe}} || 4,300,000 
+|{{flag|Dahe}} || 4,300,000 <ref>{{cite web |date=February 1765 |title=Feldspar: Dahe mine production, 1765 |url=https://gtu.org/periodicals/mcs1765/mcs1765-feldspar-dahe.pdf |publisher=[[GTU Geological Survey]]}}</ref>
 |-
 |{{flag|Trian}} || 3,200,000 
 |-
@@ -21,7 +21,7 @@ This is a '''list of countries by [[wikipedia:feldspar|feldspar]] production''' 
 |-
 |{{flag|Ealdorii}} || 2,200,000 
 |-
-|{{flag|Quidic}} || 1,953,918 
+|{{flag|Quidic}} || 1,953,918 <ref>{{cite web |date=15 March 1765 |title=World mineral statistics: feldspar by country |url=https://www.gtu.org/minerals/statistics/feldspar/1765 |publisher=[[GTU Geological Survey]]}}</ref>
 |-
 |{{flag|Vayvele}} 
 | 851,046 

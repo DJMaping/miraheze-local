@@ -23,7 +23,7 @@
 {{legend|#240011|0.000–0.099}}
 {{Col-end}}|upright=2]]
 
-
+The '''Global Democracy Index''' is an annual assessment of the state of democracy across the nations of Andah, compiled and published by the [[Andah Institute for Democratic Governance]].<ref name="aidg-method">{{cite web|url=https://www.democracygovernance.org/index/1765/methodology|title=Global Democracy Index 1765: Methodology and definitions|publisher=Andah Institute for Democratic Governance|date=14 February 1765}}</ref> The index scores each country on a scale of 0 to 10 across five categories, electoral process and pluralism, functioning of government, political participation, political culture, and civil liberties, and on the basis of the overall score classifies each as a full democracy, a flawed democracy, a hybrid regime, or an authoritarian regime.<ref name="aidg-method" /> The 1765 edition covered 172 countries.<ref>{{cite web|url=https://www.democracygovernance.org/index/1765/report|title=Global Democracy Index 1765: Annual report|publisher=Andah Institute for Democratic Governance|date=14 February 1765}}</ref>
 
 {{Table TOC|Full democracies|Flawed democracies|Hybrid regimes|Authoritarian regimes}}
 {{sticky header}}{{table alignment}}
@@ -45,7 +45,7 @@
 |- class="sortbottom" id="Full democracies"
 ! colspan="11" | Full democracies
 |-
-| 1 || {{steady}} 0 || style="text-align:left;" | {{flag|Fermori}} || Full democracy || style="background:#0c3091;" | {{white|'''9.77'''}} || {{steady}} 0 || 10 || 9.64 || 10 || 10|| 9.41
+| 1 || {{steady}} 0 || style="text-align:left;" | {{flag|Fermori}} || Full democracy || style="background:#0c3091;" | {{white|'''9.77'''}}<ref name="aidg-rankings">{{cite web|url=https://www.democracygovernance.org/index/1765/rankings|title=Global Democracy Index 1765: Full country rankings|publisher=Andah Institute for Democratic Governance|date=14 February 1765}}</ref> || {{steady}} 0 || 10 || 9.64 || 10 || 10|| 9.41
 |-
 | 2 || {{steady}} 0 || style="text-align:left;" | {{flag|Kaastini}} || Full democracy || style="background:#0c3091;" | {{white|'''9.76'''}} || {{steady}} 0 || 10 || 9.29 || 10 || 8.75|| 10
 |-
@@ -122,7 +122,7 @@
 |- class="sortbottom" id="Flawed democracies"
 ! colspan="11" | Flawed democracies
 |-
-| 37 || {{decrease}} 2 || style="text-align:left;" | {{flag|Palina}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.95'''}} || {{decrease}} 0.07 || 10 || 7.14 || 6.67 || 5.63|| 8.53
+| 37 || {{decrease}} 2 || style="text-align:left;" | {{flag|Palina}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.95'''}}<ref name="aidg-rankings" /> || {{decrease}} 0.07 || 10 || 7.14 || 6.67 || 5.63|| 8.53
 |-
 | 38 || {{decrease}} 3 || style="text-align:left;" | {{flag|Darewa}} || Flawed democracy || style="background:#6bd2df;" | {{white|'''7.88'''}} || {{decrease}} 0.11 || 9.17 || 6.64 || 6.67 || 6.88|| 8.53
 |-
@@ -254,7 +254,7 @@
 |-
 | 99 || {{increase}} 1 || style="text-align:left;" | {{flag|Elja and Munusia}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.34'''}} || {{steady}} 0 || 6.08 || 3.93 || 5 || 1.88|| 5.88
 |-
-| 100 || {{decrease}} 25 || style="text-align:left;" | {{flag|North Ayre}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.33'''}} || {{decrease}} 1.43 || 3.42 || 3.57 || 3.89 || 6.88|| 4.71
+| 100 || {{decrease}} 25 || style="text-align:left;" | {{flag|North Ayre}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.33'''}} || {{decrease}} 1.43<ref>{{cite web|url=https://www.democracygovernance.org/index/1765/north-ayre|title=North Ayre records sharpest single-year decline in 1765 index|publisher=Andah Institute for Democratic Governance|date=14 February 1765}}</ref> || 3.42 || 3.57 || 3.89 || 6.88|| 4.71
 |-
 | 101 || {{decrease}} 3 || style="text-align:left;" | {{flag|Pelines}} || Hybrid regime || style="background:#f9f8bb;" | {{white|'''5.31'''}} || {{decrease}} 0.24 || 4.42 || 4.29 || 3.89 || 5.63|| 4.12
 |-
@@ -403,9 +403,12 @@
 |-
 | 171 || {{steady}} 0 || style="text-align:left;" | {{flag|Shomjind}} || Authoritarian regime || style="background:#240012;" | {{white|'''0.67'''}} || {{decrease}} 0.12 || 0 || 0 || 0 || 1.25|| 0
 |-
-| 172 || {{steady}} 0 || style="text-align:left;" | {{flag|Ocaun}} || Authoritarian regime || style="background:#240013;" | {{white|'''0.61'''}} || {{increase}} 0.06 || 0 || 0.52 || 0 || 0|| 0
+| 172 || {{steady}} 0 || style="text-align:left;" | {{flag|Ocaun}} || Authoritarian regime || style="background:#240013;" | {{white|'''0.61'''}}<ref>{{cite web|url=https://www.democracygovernance.org/index/1765/ocaun|title=Ocaun remains lowest-ranked nation in the 1765 Global Democracy Index|publisher=Andah Institute for Democratic Governance|date=14 February 1765}}</ref> || {{increase}} 0.06 || 0 || 0.52 || 0 || 0|| 0
 |-
 |}
+
+==References==
+{{reflist}}
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Country data templates with distinct template name|Laseltsh]]

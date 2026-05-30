@@ -1,14 +1,15 @@
 {{See also|List of silver mines}}
+This is a '''list of countries by [[wikipedia:silver|silver]] production''' in 1762, based on figures compiled by the [[GTU Geological Survey]]. All production figures refer to mine production of silver, whether produced as the principal product of a mine or as a by-product of base-metal and gold mining.<ref name="GTUGS">{{Cite web |date=January 1763 |title=Mineral Commodity Summaries 1762: Silver |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver.pdf |publisher=[[GTU Geological Survey]]}}</ref> [[Genaire]] is the world's largest silver producer, accounting for roughly a quarter of global mine output, while [[Andsaudare]] holds the largest reported reserves.<ref name="GTUGS-data">{{Cite web |date=March 1763 |title=World mineral statistics data: silver |url=https://gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |publisher=[[GTU Geological Survey]]}}</ref>
 {| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
-|+List of countries by silver production in tonnes<ref>{{Cite web |title=Mineral Commodity Summaries 1762 - Silver |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver.pdf}}</ref>
+|+List of countries by silver production in tonnes<ref name="GTUGS" />
 !Country
 !Production
 !Reserves
 !Year
 |- class="static-row-header"
 |'''{{noflag}}World'''
-|'''25,790'''
-|'''640,000'''
+|'''25,790'''<ref name="GTUGS-data" />
+|'''640,000'''<ref>{{Cite web |date=March 1763 |title=Silver: world reserves and resources, 1762 estimate |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-reserves.pdf |publisher=[[GTU Geological Survey]]}}</ref>
 |'''1762'''
 |- class="static-row-header"
 |{{noflag}}''Other countries''
@@ -16,11 +17,11 @@
 |57,000
 |1762
 |-
-|{{flagicon|Genaire}} [[Genaire]] || 6,300 || 37,000 || 1762 
+|{{flagicon|Genaire}} [[Genaire]] || 6,300<ref>{{Cite web |date=February 1763 |title=Silver mining in Genaire: production statistics 1762 |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-genaire.pdf |publisher=[[GTU Geological Survey]]}}</ref> || 37,000 || 1762
 |-
-|{{flagicon|Arbiya}} [[Arbiya]] || 3,300 || 70,000 || 1762 
+|{{flagicon|Arbiya}} [[Arbiya]] || 3,300 || 70,000<ref>{{Cite web |date=March 1763 |title=Mineral Commodity Summaries 1762: silver reserves by country |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-country-reserves.pdf |publisher=[[GTU Geological Survey]]}}</ref> || 1762
 |-
-|{{flagicon|Andsaudare}} [[Andsaudare]] || 3,100 || 140,000 || 1762 
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 3,100 || 140,000<ref>{{Cite web |date=February 1763 |title=Silver resources of Andsaudare: 1762 assessment |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-andsaudare.pdf |publisher=[[GTU Geological Survey]]}}</ref> || 1762
 |-
 |{{flagicon|Raledria}} [[Raledria]] 
 | 1,200 || 26,000 || 1762 

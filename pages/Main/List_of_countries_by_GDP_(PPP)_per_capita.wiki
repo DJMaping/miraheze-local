@@ -27,17 +27,17 @@ yap here
 
 {{Static row numbers}}{{sticky header}}{{sort under}}{{table alignment}}
 {| class="wikitable sortable sticky-header-multi sort-under static-row-numbers" style="text-align:right;"
-|+GDP per capita ([[PPP price|current]] [[Lahn]] {{lahn}}) by country or {{color box|#F0E891|territory, [[List of sovereign states|non-sovereign state]] or non-GTU member}}
+|+GDP per capita ([[PPP price|current]] [[Lahn]] {{lahn}}) by country or {{color box|#F0E891|territory, [[List of sovereign states|non-sovereign state]] or non-GTU member}}<ref name="GTU-method">{{cite web|url=https://www.globaltradeunion.org/database/gdp-ppp-per-capita/methodology/1765|title=GDP per capita based on purchasing-power-parity: concepts and methodology|publisher=[[Global Trade Union]]|date=14 January 1765}}</ref>
 |- class="static-row-header" style="text-align:center;"
 ! Country / territory
-! style=width:8em | [[Global Trade Union]]<br>(2025)
-! style=width:8em | [[Creating Central Bank of Fekunza|Bank of Fekunza]]<br>(2023 or<br>2024)
-! style=width:8em | [[The Financial Group]]<br>(2023 or<br>2024)
+! style=width:8em | [[Global Trade Union]]<br>(2025)<ref name="GTU-db">{{cite web|url=https://www.globaltradeunion.org/database/gdp-ppp-per-capita/1765|title=GDP per capita, current Lahn PPP, World Economic Outlook database, 1765 edition|publisher=[[Global Trade Union]]|date=22 April 1765}}</ref>
+! style=width:8em | [[Creating Central Bank of Fekunza|Bank of Fekunza]]<br>(2023 or<br>2024)<ref name="BoF">{{cite web|url=https://www.bankoffekunza.fk/research/comparative-output/gdp-ppp-per-capita-1764|title=Comparative Output Tables: GDP per capita on a purchasing-power-parity basis|publisher=[[Creating Central Bank of Fekunza|Bank of Fekunza]]|date=9 December 1764}}</ref>
+! style=width:8em | [[The Financial Group]]<br>(2023 or<br>2024)<ref name="TFG">{{cite web|url=https://www.thefinancialgroup.com/data/world-prosperity/ppp-per-capita-1764|title=World Prosperity Index: GDP per capita (PPP) estimates, 1764 survey|publisher=[[The Financial Group]]|date=3 November 1764}}</ref>
 |- class="static-row-header " 
 |-
-| {{flag|Aplasia}} || 39,454 || 38,981 || 40,835
+| {{flag|Aplasia}} || 39,454<ref name="GTU-aplasia">{{cite web|url=https://www.globaltradeunion.org/database/aplasia/gdp-ppp-per-capita/1765|title=Aplasia: GDP per capita, current Lahn PPP, 1765|publisher=[[Global Trade Union]]|date=22 April 1765}}</ref> || 38,981 || 40,835
 |-
-| {{flag|New Kizura}} || 32,780 || 33,895 || 31,764
+| {{flag|New Kizura}} || 32,780<ref name="GTU-db" /> || 33,895 || 31,764
 |-
 | {{flag|Pha Hii}} || 31,369 || 30,804 || 30,898
 |-
@@ -71,8 +71,8 @@ yap here
 |-
 | {{flag|Verusa}} || 26,889 || 26,835 || 25,706
 |-
-| {{flag|Lycroa}} 
-| 26,181 || 26,731 || 25,369
+| {{flag|Lycroa}}
+| 26,181<ref name="GTU-lycroa">{{cite web|url=https://www.globaltradeunion.org/database/lycroa/gdp-ppp-per-capita/1765|title=Lycroa: GDP per capita, current Lahn PPP, 1765|publisher=[[Global Trade Union]]|date=22 April 1765}}</ref> || 26,731 || 25,369
 |-
 | {{flag|Cloja}} || 25,470 || 24,375 || 26,132
 |-
@@ -384,7 +384,7 @@ yap here
 |-
 | {{flag|Zhanshe}} || 505 || 487 || 498
 |-
-| {{flag|Far Lands}} || 379 || 385 || 392
+| {{flag|Far Lands}} || 379<ref name="GTU-farlands">{{cite web|url=https://www.globaltradeunion.org/database/far-lands/gdp-ppp-per-capita/1765|title=Far Lands: GDP per capita, current Lahn PPP, 1765|publisher=[[Global Trade Union]]|date=22 April 1765}}</ref> || 385 || 392
 |-
 |}
 
@@ -394,6 +394,9 @@ yap here
 * [[List of countries by GDP (PPP)]]
 * [[List of countries by GDP (nominal)]]
 * [[List of countries by GDP (nominal) per capita]]
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Articles with short description]]

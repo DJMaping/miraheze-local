@@ -5,12 +5,12 @@ This is a '''list of languages by total number of speakers'''.
 
 It is difficult to define what constitutes a [https://en.wikipedia.org/wiki/Language language] as opposed to a [https://en.wikipedia.org/wiki/Dialect dialect]. For example, while [[Arten Language|Arten]] <br> is sometimes considered a single language centred on [[Modern Arten]], other authors consider its mutually unintelligible varieties separate languages Similarly, [[Dahen language|Dahen]] is sometimes viewed as a single language because of a shared culture and common literary language, but sometimes considered multiple languages.Conversely, [https://en.wikipedia.org/wiki/Colloquialism colloquial] registers of [[Ashani language|Ashani]] and [[Sunsokuan langage|Sunsokuan]] are almost completely mutually intelligible and are sometimes classified as one language. Rankings of languages should therefore be used with caution, as it is not possible to devise a coherent set of linguistic criteria for distinguishing languages in a [https://en.wikipedia.org/wiki/Dialect_continuum dialect continuum].
 
-There is no single criterion for how much knowledge is sufficient to be counted as a [https://en.wikipedia.org/wiki/Second_language second-language] (L2) speaker. For example, Lastnu has about 174 million native speakers but depending on the criterion chosen can be said to have as many as three billion speakers.
+There is no single criterion for how much knowledge is sufficient to be counted as a [https://en.wikipedia.org/wiki/Second_language second-language] (L2) speaker.<ref name="ALS-methodology">{{cite web|url=https://www.andahlinguisticsurvey.org/reports/1765/methodology|title=Counting speakers: methodology and definitions|publisher=Andah Linguistic Survey|date=14 February 1765}}</ref> For example, Lastnu has about 174 million native speakers but depending on the criterion chosen can be said to have as many as three billion speakers.<ref name="ALS-lastnu">{{cite web|url=https://www.andahlinguisticsurvey.org/reports/1765/lastnu|title=The global reach of Lastnu: first- and second-language estimates|publisher=Andah Linguistic Survey|date=3 March 1765}}</ref>
 
-There are also difficulties in obtaining reliable counts of speakers, which vary over time because of population change and [https://en.wikipedia.org/wiki/Language_shift language shift]. In some areas, there are no reliable [https://en.wikipedia.org/wiki/Census census] data, the data are not current, or the census may not record languages spoken or may record them ambiguously. Speaker populations may be exaggerated for political reasons, or speakers of minority languages may be underreported in favor of a national language.
+There are also difficulties in obtaining reliable counts of speakers, which vary over time because of population change and [https://en.wikipedia.org/wiki/Language_shift language shift]. In some areas, there are no reliable [https://en.wikipedia.org/wiki/Census census] data, the data are not current, or the census may not record languages spoken or may record them ambiguously. Speaker populations may be exaggerated for political reasons, or speakers of minority languages may be underreported in favor of a national language.<ref name="ALS-census">{{cite web|url=https://www.andahlinguisticsurvey.org/reports/1765/data-reliability|title=Data reliability and the limits of census-based language counts|publisher=Andah Linguistic Survey|date=22 January 1765}}</ref>
 
 == Tumati (1765) ==
-''[[Tumati]]'' lists the following languages as having 40 million or more total speakers.
+''[[Tumati]]'' lists the following languages as having 40 million or more total speakers. Speaker totals for the 1765 edition were compiled and standardised by the Andah Linguistic Survey.<ref name="ALS-1765">{{cite web|url=https://www.andahlinguisticsurvey.org/reports/1765/most-spoken|title=Most spoken languages by total speakers, 1765 edition|publisher=Andah Linguistic Survey|date=1 April 1765}}</ref>
 
 {{static row numbers}}
 {{table alignment}}
@@ -26,11 +26,11 @@ There are also difficulties in obtaining reliable counts of speakers, which vary
 ! data-sort-type=number | [[Second language|Second-<br>language]]<br>(L2)
 ! data-sort-type=number | Total<br>(L1+L2)
 |-
-| [[Lastnu Language]]<br> || [[Conlang]] || N/a || 174 || 2,821 || 2,995
+| [[Lastnu Language]]<br> || [[Conlang]] || N/a || 174 || 2,821 || 2,995<ref name="ALS-1765" />
 |-
-| [[Dahen Language]]<br>(incl. Standard Dahen but excl. other varieties)  || [[Dahen-Kino languages|Dahen-Kino]] || [[Dahen languages|Dahen]] || 709 || 93 || 802
+| [[Dahen Language]]<br>(incl. Standard Dahen but excl. other varieties)  || [[Dahen-Kino languages|Dahen-Kino]] || [[Dahen languages|Dahen]] || 709 || 93 || 802<ref name="ALS-dahen">{{cite web|url=https://www.andahlinguisticsurvey.org/reports/1765/dahen|title=First-language speakers of Standard Dahen, 1765|publisher=Andah Linguistic Survey|date=11 March 1765}}</ref>
 |-
-| [[Emaran Language]]<br>(excl. [[Emaran-based creole languages|creole languages]])  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde]] || 471 || 302 || 773
+| [[Emaran Language]]<br>(excl. [[Emaran-based creole languages|creole languages]])  || [[Alzuria-Ayuman languages|Alzuria-Ayuman]] || [[Saetnde languages|Saetnde]] || 471 || 302 || 773<ref name="ALS-emaran">{{cite web|url=https://www.andahlinguisticsurvey.org/reports/1765/emaran|title=Emaran as a second language: regional uptake, 1765|publisher=Andah Linguistic Survey|date=18 March 1765}}</ref>
 |-
 | [[Arten Language]]<br> || [[Arten languages|Arten]] || [[Arten languages|Arten]] || 581 || 75 || 656
 |-
@@ -99,7 +99,7 @@ There are also difficulties in obtaining reliable counts of speakers, which vary
 |}
 
 == ''The World Factbook'' (1763) ==
-''[[The World Factbook]]'', produced by the [[Krali Development Report]], estimates the ten most spoken languages ([[first language|L1]] + [[second language|L2]]) in 1763 as follows:
+''[[The World Factbook]]'', produced by the [[Krali Development Report]], estimates the ten most spoken languages ([[first language|L1]] + [[second language|L2]]) in 1763 as follows:<ref name="Krali-1763">{{cite web|url=https://krali.org/world-factbook/1763/languages|title=Languages: the world's most spoken tongues, 1763|publisher=[[Krali Development Report]]|date=9 December 1763}}</ref>
 
 {| class="static-row-numbers sortable wikitable"
 |+ Most spoken languages, Krali , 1763
@@ -107,7 +107,7 @@ There are also difficulties in obtaining reliable counts of speakers, which vary
 ! Language
 ! Percentage of world population (1763)
 |-
-| [[Lastnu Language]] || 44.38%
+| [[Lastnu Language]] || 44.38%<ref name="Krali-1763" />
 |-
 | [[Dahen Language]] || 11.88%
 |-
@@ -144,6 +144,9 @@ There are also difficulties in obtaining reliable counts of speakers, which vary
 * [[Geolinguistics]]
 * [[Language geography]]
 {{colend}}
+
+== References ==
+{{reflist}}
 
 [[Category:Articles with hatnote templates targeting a nonexistent page]]
 [[Category:Articles with short description]]

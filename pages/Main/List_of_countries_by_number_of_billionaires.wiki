@@ -13,7 +13,7 @@
 {{legend|#000000|<small>>150</small>}}
 {{col-end}}|500x500px]]
 
-This is a '''list of countries by their number of billionaire residents''', based on annual assessments of the [[Net worth#Individuals|net worth]] in {{lahn}}[[Lahn]] of wealthy individuals worldwide.
+This is a '''list of countries by their number of billionaire residents''', based on annual assessments of the [[Net worth#Individuals|net worth]] in {{lahn}}[[Lahn]] of wealthy individuals worldwide.<ref name="GTU-method">{{cite web|url=https://www.globaltradeunion.org/database/wealth-report/methodology/1765|title=Global Wealth Report: counting billionaires by country of residence, concepts and methodology|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=11 January 1765}}</ref> The annual tally is compiled by the [[Global Trade Union]] as part of its Global Wealth Report, which records the country of residence of every individual whose assessed net worth exceeds one billion {{lahn}}[[Lahn]].<ref name="GTU-overview">{{cite web|url=https://www.globaltradeunion.org/database/wealth-report/1765|title=Global Wealth Report 1765: billionaire census by country of residence|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=22 April 1765}}</ref>
 
 == ''Forbes'' ==
 
@@ -21,7 +21,7 @@ This is a '''list of countries by their number of billionaire residents''', base
 
 {{sticky header}}
 {| class="wikitable sortable sticky-header"
-|+Per [[Krali]] (1765)
+|+Per [[Krali]] (1765)<ref name="GTU-overview" />
 ! rowspan="2" | Rank
 ! rowspan="2" | Country/Territory
 ! colspan="2" | Billionaires
@@ -30,12 +30,12 @@ This is a '''list of countries by their number of billionaire residents''', base
 !1765
 !1764
 |-
-| 1 || {{flag| Dahe}}|| align="center" | 420 || align="center" | 413 || align="center" | +7
+| 1 || {{flag| Dahe}}|| align="center" | 420<ref name="GTU-dahe">{{cite web|url=https://www.globaltradeunion.org/database/wealth-report/1765/dahe|title=Global Wealth Report 1765: billionaire residents of Dahe|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=22 April 1765}}</ref> || align="center" | 413 || align="center" | +7
 |-
 | 2 || {{flag| Raledria}}
-| align="center" | 392 || align="center" | 386 || align="center" | +6
+| align="center" | 392<ref name="GTU-raledria">{{cite web|url=https://www.globaltradeunion.org/database/wealth-report/1765/raledria|title=Global Wealth Report 1765: billionaire residents of Raledria|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=22 April 1765}}</ref> || align="center" | 386 || align="center" | +6
 |-
-| 3 || {{flag| Ztesh}}|| align="center" | 99 || align="center" | 96 || align="center" | +3
+| 3 || {{flag| Ztesh}}|| align="center" | 99<ref name="GTU-ztesh">{{cite web|url=https://www.globaltradeunion.org/database/wealth-report/1765/ztesh|title=Global Wealth Report 1765: billionaire residents of Ztesh|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=22 April 1765}}</ref> || align="center" | 96 || align="center" | +3
 |-
 | 4 || {{flag| Areoix Lie}}
 | align="center" | 87 || align="center" | 82 || align="center" | +5
@@ -46,7 +46,7 @@ This is a '''list of countries by their number of billionaire residents''', base
 |-
 | 7 || {{flag| Etirha}}|| align="center" | 55 || align="center" | 52 || align="center" | +3
 |-
-| 8 || {{flag| Verusa}}|| align="center" | 44 || align="center" | 48 || align="center" | -4
+| 8 || {{flag| Verusa}}|| align="center" | 44 || align="center" | 48 || align="center" | -4<ref name="GTU-changes">{{cite web|url=https://www.globaltradeunion.org/database/wealth-report/1765/year-on-year-changes|title=Global Wealth Report 1765: notable year-on-year changes in billionaire counts|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=22 April 1765}}</ref>
 |-
 | 9 || {{flag| Estijan}}|| align="center" | 35 || align="center" | 33 || align="center" | +2
 |-
@@ -91,7 +91,7 @@ This is a '''list of countries by their number of billionaire residents''', base
 | 27 || {{flag| Vayvele}}
 | align="center" | 6 || align="center" | 6 || align="center" | 0
 |-
-| 27 || {{flag| United Mihili}}|| align="center" | 6 || align="center" | 1 || align="center" | +5
+| 27 || {{flag| United Mihili}}|| align="center" | 6 || align="center" | 1 || align="center" | +5<ref name="GTU-changes" />
 |-
 | 27 || {{flag| Myla}}|| align="center" | 6 || align="center" | 6 || align="center" | 0
 |-
@@ -171,6 +171,9 @@ This is a '''list of countries by their number of billionaire residents''', base
 * ''[[The World's Billionaires]]''
 * [[Millionaire]]
 * [[List of wealthiest families]]
+
+== References ==
+{{reflist}}
 {{DEFAULTSORT:Billionaires}}
 
 [[Category:All country data templates|Germany]]

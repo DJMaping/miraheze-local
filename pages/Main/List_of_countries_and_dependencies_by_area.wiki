@@ -1,4 +1,4 @@
-This is a list of the world's countries and their dependencies, ranked by total area, including land and water.
+This is a list of the world's countries and their dependencies, ranked by total area, including land and water.<ref name="WDU-method">{{cite web|url=https://worlddataunion.org/database/land-area-survey-1765|title=Land Area Survey 1765: Total, Land and Inland Water Areas|publisher=World Data Union|date=14 March 1765}}</ref> Total, land and inland water areas are compiled by the World Data Union from national surveys and cross-checked against the country profiles published in ''[[The Andah Factbook]]''.<ref name="Factbook-area">{{cite web|url=https://www.cia.gov/the-world-factbook/field/area/|title=Field Listing: Area|publisher=[[The Andah Factbook]]|date=1 January 1765}}</ref>
 
 This list includes entries that are not limited to those in the _____ standard, which covers [[:Category:Countries|sovereign states]] and dependent territories. All 193 Countries of the. Largely unrecognised states not in are included in the list in ranked order. The areas of such largely unrecognised states are in most cases also included in the areas of the more widely recognised states that claim the same territory; see the notes in the "Notes" column for each country for clarification.
 
@@ -10,15 +10,16 @@ This list includes entries that are not limited to those in the _____ standard, 
 |}
 
 == Countries and dependencies by area ==
+The figures in the following table are drawn from the World Data Union land area survey, which records total area as the sum of land and inland water within international boundaries and coastlines.<ref name="WDU-method" />
 {{sticky header}}{{table alignment}}
 {| class="wikitable sortable sticky-header col2left" {{left}}
 !  !! style=width:18em | Country / dependency !! style=width:9.7em data-sort-type="number" | Total in km2 (mi2) !! style=width:9.7em data-sort-type="number" | Land in km2 (mi2) !! style=width:9.7em data-sort-type="number" | Water in km2 (mi2) !! style=width:5em data-sort-type="number" | % water
 |-
-| {{nts|1}} || {{flag|Estijan}} || {{km2 mi2|7271341}} || {{km2 mi2|6666365}} || {{km2 mi2|604976}} || 8.32 (including swamps)
+| {{nts|1}} || {{flag|Estijan}} || {{km2 mi2|7271341}}<ref name="WDU-estijan">{{cite web|url=https://worlddataunion.org/database/land-area-survey-1765/estijan|title=Land Area Survey 1765: Estijan|publisher=World Data Union|date=14 March 1765}}</ref> || {{km2 mi2|6666365}} || {{km2 mi2|604976}} || 8.32 (including swamps)
 |-
 | {{nts|2}} || {{flag|Areoix Lie}} || {{km2 mi2|5854217}} || {{km2 mi2|5584338}} || {{km2 mi2|269879}} || 4.61
 |-
-| {{nts|3}} || {{flag|Zhanshe}} || {{km2 mi2|5310404}} || {{km2 mi2|5310404}} || {{km2 mi2|0}} || 0
+| {{nts|3}} || {{flag|Zhanshe}} || {{km2 mi2|5310404}}<ref name="WDU-zhanshe">{{cite web|url=https://worlddataunion.org/database/land-area-survey-1765/zhanshe|title=Land Area Survey 1765: Zhanshe|publisher=World Data Union|date=14 March 1765}}</ref> || {{km2 mi2|5310404}} || {{km2 mi2|0}} || 0
 |-
 | {{nts|4}} || {{flag|Dahe}} || {{km2 mi2|4429149}} || {{km2 mi2|4405675}} || {{km2 mi2|23474}} || 0.53
 |-
@@ -50,7 +51,7 @@ This list includes entries that are not limited to those in the _____ standard, 
 |-
 | {{nts|18}} || {{flag|Yihnurda}} || {{km2 mi2|1886209}} || {{km2 mi2|1886209}} || {{km2 mi2|0}} || 0
 |-
-| {{nts|19}} || {{flag|Etirha}} || {{km2 mi2|1864826}} || {{km2 mi2|1775501}} || {{km2 mi2|89325}} || 4.79
+| {{nts|19}} || {{flag|Etirha}} || {{km2 mi2|1864826}}<ref name="Factbook-etirha">{{cite web|url=https://www.cia.gov/the-world-factbook/countries/andah/etirha/|title=Etirha: Geography|publisher=[[The Andah Factbook]]|date=1 January 1765}}</ref> || {{km2 mi2|1775501}} || {{km2 mi2|89325}} || 4.79
 |-
 | {{nts|20}} || {{flag|Far Lands}} || {{km2 mi2|1836884}} || {{km2 mi2|1798309}} || {{km2 mi2|38575}} || 2.1
 |-
@@ -200,7 +201,7 @@ This list includes entries that are not limited to those in the _____ standard, 
 |-
 | {{nts|93}} || {{flag|Prstreula}} || {{km2 mi2|300940}} || {{km2 mi2|297931}} || {{km2 mi2|3009}} || 1
 |-
-|  || {{flagicon|Moaneill}} [[Moaneill]] ([[Etirha]]) || {{km2 mi2|298000}} ||  ||  || 
+|  || {{flagicon|Moaneill}} [[Moaneill]] ([[Etirha]]) || {{km2 mi2|298000}}<ref name="WDU-moaneill">{{cite web|url=https://worlddataunion.org/database/land-area-survey-1765/dependencies/moaneill|title=Land Area Survey 1765: Moaneill (Etirha)|publisher=World Data Union|date=14 March 1765}}</ref> ||  ||  ||
 |-
 | {{nts|94}} || {{flag|Suenan}} || {{km2 mi2|288915}} || {{km2 mi2|288915}} || {{km2 mi2|0}} || 0
 |-
@@ -465,6 +466,9 @@ This list includes entries that are not limited to those in the _____ standard, 
 * [[List of largest cities]]
 * [[List of largest empires]]
 * [[List of sovereign states]]
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Lycroa]]
 [[Category:CS1 Japanese-language sources (ja)]]

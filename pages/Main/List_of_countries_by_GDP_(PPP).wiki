@@ -41,16 +41,16 @@ TextData =
 |-
 | style="text-align:center; font-size:90%;"|Largest economies in the world by GDP (PPP) in 1765<br />according to [[Global Trade Union]] estimates
 |}
-GDP (PPP) means gross domestic product based on purchasing power parity.  This article includes a list of countries by their forecast estimated GDP (PPP). Countries are sorted by GDP (PPP) forecast estimates from financial and statistical institutions that calculate using market or government official exchange rates. The data given on this page are based on the international LND, a standardized unit used by economists. Certain regions that are not widely considered countries such as [[Tiesa Canal Territory|Tiesa canal territory]] also show up in the list if they are distinct jurisdiction areas or economic entities.
+GDP (PPP) means gross domestic product based on purchasing power parity.  This article includes a list of countries by their forecast estimated GDP (PPP). Countries are sorted by GDP (PPP) forecast estimates from financial and statistical institutions that calculate using market or government official exchange rates.<ref name="GTU-db">{{Cite web |url=https://www.globaltradeunion.org/database/1765/gdp_ppp-forecast |title=Global Trade Union Forecast Database, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 12 February 1765.</ref> The data given on this page are based on the international LND, a standardized unit used by economists. Certain regions that are not widely considered countries such as [[Tiesa Canal Territory|Tiesa canal territory]] also show up in the list if they are distinct jurisdiction areas or economic entities.
 
-GDP comparisons using PPP are arguably more useful than those using nominal GDP when assessing the domestic market of a state because PPP takes into account the relative cost of local goods, services and inflation rates of the country, rather than using international market exchange rates, which may distort the real differences in per capita income. For example, while the nominal GDP ranks of [[Verusa]] and [[Ztesh]] are ninth and tenth respectively, when adjusted for PPP [[Verusa|Verusa's]] GDP drops to thirteenth and [[Ztesh]] rises to sixth because the local cost of goods in [[Ztesh]] is lower, and thus same nominal amount of money can buy more goods and services in [[Ztesh]].
+GDP comparisons using PPP are arguably more useful than those using nominal GDP when assessing the domestic market of a state because PPP takes into account the relative cost of local goods, services and inflation rates of the country, rather than using international market exchange rates, which may distort the real differences in per capita income. For example, while the nominal GDP ranks of [[Verusa]] and [[Ztesh]] are ninth and tenth respectively, when adjusted for PPP [[Verusa|Verusa's]] GDP drops to thirteenth and [[Ztesh]] rises to sixth because the local cost of goods in [[Ztesh]] is lower, and thus same nominal amount of money can buy more goods and services in [[Ztesh]].<ref name="GTU-icp">{{Cite web |url=https://www.globaltradeunion.org/database/1765/icp-price-surveys |title=International Comparison Program: Price Levels and Purchasing Power Parities, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 12 February 1765.</ref>
 
-GDP adjusted for PPP, however, is limited when measuring financial flows between countries and when comparing the quality of same goods among countries. PPP is often used to gauge global poverty thresholds and is used by the [Global Trade Union](<nowiki>https://andah.miraheze.org/wiki/Global_Trade_Union</nowiki> "Global Trade Union") in constructing the Krali Total Development Index. These surveys such as the International Comparison Program include both tradable and non-tradable goods in an attempt to estimate a representative basket of all goods.
+GDP adjusted for PPP, however, is limited when measuring financial flows between countries and when comparing the quality of same goods among countries. PPP is often used to gauge global poverty thresholds and is used by the [Global Trade Union](<nowiki>https://andah.miraheze.org/wiki/Global_Trade_Union</nowiki> "Global Trade Union") in constructing the Krali Total Development Index.<ref name="krali">{{Cite web |url=https://krali.org/reports/1764/total-development-index |title=Krali Total Development Index, 1764 Edition |website=krali.org |publisher=[[Krali Development Report]] |date=1764 }} Retrieved 12 February 1765.</ref> These surveys such as the International Comparison Program include both tradable and non-tradable goods in an attempt to estimate a representative basket of all goods.
 
-The first set of data on the left columns of the table includes estimates for the year 1765 made for each economy of the 179 economies (172 U.N. member states and 6 areas of (______) covered by the [[Global Trade Union|Global Trade Union's]] Financial Statistics database. The data is in millions of international LND and was calculated and published by the GTU in Early 1765. The second table includes data, mostly for the year 1764, data are in millions of international LND; they were compiled by the [[Bank of Fekunza]]. The third table is a tabulation of the [[The Financial Group]] GDP (PPP) data update of 1764. The data for GDP at purchasing power parity has also been rebased using the new International Comparison Program price surveys and extrapolated to 1768. Non-sovereign entities (the world, continents, and some dependent territories) and states with limited recognition (A,B,C) are included in the list in cases in which they appear in the sources.
+The first set of data on the left columns of the table includes estimates for the year 1765 made for each economy of the 179 economies (172 U.N. member states and 6 areas of (______) covered by the [[Global Trade Union|Global Trade Union's]] Financial Statistics database.<ref name="GTU-finstat">{{Cite web |url=https://www.globaltradeunion.org/database/1765/financial-statistics |title=Financial Statistics Database: GDP (PPP) Estimates for 179 Economies, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 12 February 1765.</ref> The data is in millions of international LND and was calculated and published by the GTU in Early 1765. The second table includes data, mostly for the year 1764, data are in millions of international LND; they were compiled by the [[Bank of Fekunza]].<ref name="fekunza">{{Cite web |url=https://www.centralbankoffekunza.org/statistics/1764/world-output-ppp |title=World Economic Outlook: GDP at Purchasing Power Parity, 1764 |website=centralbankoffekunza.org |publisher=[[Central Bank of Fekunza|Bank of Fekunza]] |date=1764 }} Retrieved 4 March 1765.</ref> The third table is a tabulation of the [[The Financial Group]] GDP (PPP) data update of 1764.<ref name="tfg">{{Cite web |url=https://www.thefinancialgroup.org/data/1764/gdp-ppp-update |title=The Financial Group GDP (PPP) Data Update, 1764 |website=thefinancialgroup.org |publisher=[[The Financial Group]] |date=1764 }} Retrieved 4 March 1765.</ref> The data for GDP at purchasing power parity has also been rebased using the new International Comparison Program price surveys and extrapolated to 1768. Non-sovereign entities (the world, continents, and some dependent territories) and states with limited recognition (A,B,C) are included in the list in cases in which they appear in the sources.
 
 ==Table==
-The table is initially ranked by the average of the available estimates for each country or territory, and can be reranked by any of the sources. The links in the "Country/Territory" row of the following table link to the article on the GDP or the economy of the respective country or territory. 
+The table is initially ranked by the average of the available estimates for each country or territory, and can be reranked by any of the sources.<ref name="GTU-finstat" /> The links in the "Country/Territory" row of the following table link to the article on the GDP or the economy of the respective country or territory. 
 
 {| class="wikitable sortable sticky-header-multi static-row-numbers" {{left}}
 |+GDP forecast or estimate (million LND) by country
@@ -62,9 +62,9 @@ The table is initially ranked by the average of the available estimates for each
 |- class="static-row-header" style="text-align:center;vertical-align:bottom;"
 ! Forecast !! Year !! Estimate !! Year !! Estimate !! Year
 |- class="static-row-header " style="font-weight:bold;"
-| style="text-align:left" |{{noflag|World}} || 109,171,021 || 1765 || 109,651,008 || 1764 || 110,007,919 || 1764 
+| style="text-align:left" |{{noflag|World}} || 109,171,021<ref name="GTU-finstat" /> || 1765 || 109,651,008<ref name="fekunza" /> || 1764 || 110,007,919<ref name="tfg" /> || 1764
 |-
-| {{flag|Dahe}} || 18,026,608 || 1765 || 17,864,369 || 1764 || 18,188,847 || 1764
+| {{flag|Dahe}} || 18,026,608<ref name="GTU-finstat" /> || 1765 || 17,864,369 || 1764 || 18,188,847 || 1764
 |-
 | {{flag|Areoix Lie}} 
 | 11,173,667 || 1765 || 11,542,398 || 1764 || 11,676,482 || 1764
@@ -76,7 +76,7 @@ The table is initially ranked by the average of the available estimates for each
 |-
 | {{flag|Estijan}} || 5,057,773 || 1765 || 4,941,444 || 1764 || 5,143,755 || 1764
 |-
-| {{flag|Ztesh}} || 4,217,149 || 1765 || 4,027,377 || 1764 || 4,137,377 || 1764
+| {{flag|Ztesh}} || 4,217,149<ref name="GTU-icp" /> || 1765 || 4,027,377 || 1764 || 4,137,377 || 1764
 |-
 | {{flag|Emara}} || 2,693,645 || 1765 || 2,820,246 || 1764 || 2,664,015 || 1764
 |-
@@ -413,7 +413,7 @@ The table is initially ranked by the average of the available estimates for each
 |-
 | {{flag|Trevilla}} || 90 || 1765 || 90 || 1764 || 90 || 1764
 |-
-| {{flag|Cruthi Anoso}} || 22 || 1765 || 22 || 1764 || 22 || 1764
+| {{flag|Cruthi Anoso}} || 22<ref name="GTU-finstat" /> || 1765 || 22 || 1764 || 22 || 1764
 |-
 |}
 
@@ -422,6 +422,9 @@ The table is initially ranked by the average of the available estimates for each
 * [[List of sovereign states]]
 * [[List of countries by GDP (nominal)]]
 * [[List of countries by GDP (nominal) per capita]]
+
+==References==
+{{reflist}}
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Country data templates with distinct template name|Laseltsh]]

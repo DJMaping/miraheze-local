@@ -1,18 +1,18 @@
 {{short description|Ranking of the competitiveness of financial centres}}
 [[File:Global_Financial_Centres_Index_Logo.jpg|thumb|right|200px|Logo]]
-The ''' Global Financial Centres Index''' ('''GFCI''') ranks the competitiveness of [[financial centre]]s based on over 29,000 assessments from an online questionnaire and over 100 indices from organisations such as the [[World Bank]], the [[Organisation for Economic Co-operation and Development]] (OECD), and the [[Economist Intelligence Unit]].It was first published in March 1757. It has been jointly published twice per year by the [[London]]-based think tank [[Z/Yen]] and the [[China Development Institute]] since 1759. It is widely quoted as a top source for ranking financial centres.
+The ''' Global Financial Centres Index''' ('''GFCI''') ranks the competitiveness of [[financial centre]]s based on over 29,000 assessments from an online questionnaire and over 100 indices from organisations such as the [[World Bank]], the [[Organisation for Economic Co-operation and Development]] (OECD), and the [[Economist Intelligence Unit]].It was first published in March 1757.<ref name="GTU-history">{{cite web|url=https://www.globaltradeunion.org/database/gfci/history|title=The Global Financial Centres Index: methodology and publication history|publisher=[[Global Trade Union]]|date=12 March 1757}}</ref> It has been jointly published twice per year by the [[London]]-based think tank [[Z/Yen]] and the [[China Development Institute]] since 1759.<ref name="GTU-method">{{cite web|url=https://www.globaltradeunion.org/database/gfci/methodology|title=GFCI methodology: instrumental factors and assessment model|publisher=[[Global Trade Union]]|date=4 September 1765}}</ref> It is widely quoted as a top source for ranking financial centres.<ref name="GTU-overview">{{cite web|url=https://www.globaltradeunion.org/database/gfci|title=Global Financial Centres Index, overview|publisher=[[Global Trade Union]]|date=2 May 1765}}</ref>
 
 ==GFCI 38 (1765)==
 {| class="wikitable"  style="text-align:center; margin:1em;"
-|+ Top 20 centres in GFCI 38 (September 1765)
+|+ Top 20 centres in GFCI 38 (September 1765)<ref name="GFCI38">{{cite web|url=https://www.globaltradeunion.org/database/gfci/38|title=Global Financial Centres Index 38|publisher=[[Global Trade Union]]|date=24 September 1765}}</ref>
 |-
 ! Rank !! Centre !! Rating !! Change in rank !! Change in rating
 |-
 |-
-| 1 || align=left| {{flagicon|Raledria}} [[Tirna]] 
-| 766 || {{Steady}}  || {{Increase}} 
+| 1 || align=left| {{flagicon|Raledria}} [[Tirna]]
+| 766<ref name="GFCI38" /> || {{Steady}}  || {{Increase}}
 |-
-| 2 || align=left| {{flagicon|Pha Hii}}/{{flagicon|Dahe}} [[Pha Hii]] || 765 || {{Steady}}  || {{Increase}} 
+| 2 || align=left| {{flagicon|Pha Hii}}/{{flagicon|Dahe}} [[Pha Hii]] || 765<ref name="GFCI38" /> || {{Steady}}  || {{Increase}}
 |-
 | 3 || align=left| {{flagicon|Emara}} [[Rivostan]] || 764 || {{Steady}}  || {{Increase}} 
 |-
@@ -42,8 +42,8 @@ The ''' Global Financial Centres Index''' ('''GFCI''') ranks the competitiveness
 |-
 | 14 || align=left| {{flagicon|Prystr Hii}}/{{flagicon|Dahe}} [[Prystr Hii]] || 745 || {{Increase}} 1 || {{Increase}} 
 |-
-| 15 || align=left| {{flagicon|Raledria}} [[Birska]] 
-| 744 || {{Increase}} 7 || {{Increase}} 
+| 15 || align=left| {{flagicon|Raledria}} [[Birska]]
+| 744 || {{Increase}} 7<ref name="GTU-movers">{{cite web|url=https://www.globaltradeunion.org/database/gfci/38/movers|title=GFCI 38: notable rank movements|publisher=[[Global Trade Union]]|date=24 September 1765}}</ref> || {{Increase}}
 |-
 | 16 || align=left| {{flagicon|Verusa}} [[Huifarn]] || 743 || {{Increase}} 5 || {{Increase}} 
 |-
@@ -53,16 +53,16 @@ The ''' Global Financial Centres Index''' ('''GFCI''') ranks the competitiveness
 |-
 | 19 || align=left| {{flagicon|Ilicuhe}} [[Sakhen]] || 740 || {{decrease}} 3 || {{Increase}} 
 |-
-| 20 || align=left| {{flagicon|Areoix Lie}} [[Zirohu]] 
-| 739 || {{decrease}} 6 || {{Increase}} 
+| 20 || align=left| {{flagicon|Areoix Lie}} [[Zirohu]]
+| 739 || {{decrease}} 6<ref name="GTU-movers" /> || {{Increase}}
 |-
 |}
 
 == Financial centre profiles (GFCI 1764) ==
-The report ranks international financial centres into the following matrix:
+The report ranks international financial centres into the following matrix, grouping each centre by its connectivity, diversity and specialisation.<ref name="GTU-profiles">{{cite web|url=https://www.globaltradeunion.org/database/gfci/profiles|title=Financial centre profiles: the GFCI assessment matrix|publisher=[[Global Trade Union]]|date=24 September 1765}}</ref>
 
 {| class="wikitable sortable"  style="width:100%; margin-left:0.5em; margin-bottom:0.5em;"
-|+ Financial Centre Profiles (GFCI 36, 1765)
+|+ Financial Centre Profiles (GFCI 36, 1765)<ref name="GTU-profiles" />
 |-
 ! Level
 ! Broad and deep<br />''Global leaders'' 
@@ -222,6 +222,9 @@ The report ranks international financial centres into the following matrix:
 {{flagicon|IMN}} [[Isle of Man]]<br />
 {{flagicon|KUW}} [[Kuwait City]]
 |}
+
+==References==
+{{reflist}}
 
 [[Category:All country data templates|Germany]]
 [[Category:Articles with short description]]

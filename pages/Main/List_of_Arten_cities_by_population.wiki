@@ -1,4 +1,4 @@
-This is a list of the most populous [https://en.wikipedia.org/wiki/Municipal_corporation municipal corporations] of the [[Areoix Lie]]. As defined by the [[Areoix Lie Census Bureau]], an incorporated place includes [https://en.wikipedia.org/wiki/City cities], [https://en.wikipedia.org/wiki/Town towns], [https://en.wikipedia.org/wiki/Village villages], and [https://en.wikipedia.org/wiki/Municipality municipalities]. A few exceptional census-designated places (CDPs) are also included in the Census Bureau's listing of incorporated places. This list refers only to the population of individual municipalities within their [https://en.wikipedia.org/wiki/City_limits defined limits]; the populations of other municipalities considered [https://en.wikipedia.org/wiki/Suburb suburbs] of a central city are listed separately, and unincorporated areas within [https://en.wikipedia.org/wiki/Urban_area urban agglomerations] are included. 
+This is a list of the most populous [https://en.wikipedia.org/wiki/Municipal_corporation municipal corporations] of the [[Areoix Lie]]. As defined by the [[Areoix Lie Census Bureau]], an incorporated place includes [https://en.wikipedia.org/wiki/City cities], [https://en.wikipedia.org/wiki/Town towns], [https://en.wikipedia.org/wiki/Village villages], and [https://en.wikipedia.org/wiki/Municipality municipalities].<ref name="alcb-method">{{cite web|url=https://www.areoixliecensus.gov/methodology/incorporated-places|title=Defining Incorporated Places and Census-Designated Places|publisher=[[Areoix Lie Census Bureau]]|date=18 March 1764}}</ref> A few exceptional census-designated places (CDPs) are also included in the Census Bureau's listing of incorporated places. This list refers only to the population of individual municipalities within their [https://en.wikipedia.org/wiki/City_limits defined limits]; the populations of other municipalities considered [https://en.wikipedia.org/wiki/Suburb suburbs] of a central city are listed separately, and unincorporated areas within [https://en.wikipedia.org/wiki/Urban_area urban agglomerations] are included.<ref name="alcb-1764">{{cite web|url=https://www.areoixliecensus.gov/database/1764-population-by-municipality|title=1764 Census of the Areoix Lie: Resident Population by Municipality|publisher=[[Areoix Lie Census Bureau]]|date=2 February 1765}}</ref> Population counts for the intercensal comparison are drawn from the 1754 and 1764 enumerations, with global cross-checks provided by the World Data Union Population Division.<ref name="wdu">{{cite web|url=https://worlddataunion.org/prospects/1765/areoix-lie|title=World Population Prospects 1765: Areoix Lie|publisher=World Data Union}}</ref>
 {| class="wikitable sortable"
 |+
 ! rowspan="2" |Municipality
@@ -19,7 +19,7 @@ This is a list of the most populous [https://en.wikipedia.org/wiki/Municipal_cor
 |[[Virauza]]
 |21,581,000
 |20,519,894
-| +1061106
+| +1061106<ref name="alcb-1764" />
 |2,461 
 |950 
 |8769
@@ -28,7 +28,7 @@ This is a list of the most populous [https://en.wikipedia.org/wiki/Municipal_cor
 |-
 |'''[[Zirohu]]'''
 |[[Asnaria]]
-|32,514,000
+|32,514,000<ref name="alcb-largest">{{cite web|url=https://www.areoixliecensus.gov/releases/1764/largest-municipalities|title=Zirohu Confirmed as Most Populous Municipality in the 1764 Census|publisher=[[Areoix Lie Census Bureau]]|date=11 February 1765}}</ref>
 |31,034,000
 | +1480000
 |2,732
@@ -39,7 +39,7 @@ This is a list of the most populous [https://en.wikipedia.org/wiki/Municipal_cor
 |-
 |[[Nakahiki]]
 |
-|13,482,000
+|13,482,000<ref name="wdu" />
 |
 |
 |
@@ -290,3 +290,6 @@ This is a list of the most populous [https://en.wikipedia.org/wiki/Municipal_cor
 |
 |
 |}
+
+==References==
+{{reflist}}

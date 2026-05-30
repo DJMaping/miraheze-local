@@ -1,5 +1,5 @@
 {{Short description|None}}
-This is a '''list of countries by salt production'''. The six leading [[wikipedia:salt|salt]] producers in the world, [[Dahe]], the [[Raledria]], [[Ztesh]], [[Areoix Lie]], [[Pelugrotoa]], and [[Ealdorii]], account for more than half of the worldwide production. The first table includes data by the [[Global Trade Union|GTU]]  for countries with available statistics.
+This is a '''list of countries by salt production'''. The six leading [[wikipedia:salt|salt]] producers in the world, [[Dahe]], the [[Raledria]], [[Ztesh]], [[Areoix Lie]], [[Pelugrotoa]], and [[Ealdorii]], account for more than half of the worldwide production.<ref name="gtugs-survey">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/salt/1764|title=Salt: World Production by Country, 1764|publisher=[[GTU Geological Survey]]|date=14 March 1765}}</ref> The first table includes data by the [[Global Trade Union|GTU]]  for countries with available statistics.<ref name="gtu-trade">{{cite web|url=https://www.globaltradeunion.org/database/salt-1764|title=Salt Production Statistics, 1764|publisher=[[Global Trade Union]]|date=2 April 1765}}</ref>
 
 ==Lists==
 Click on one of the small triangles in the headings to re-order the list according to that category.
@@ -16,14 +16,14 @@ Click on one of the small triangles in the headings to re-order the list accordi
 ! Country/Region !! Production 
 |-
 |{{Noflag}}'''World'''
-|281,111,172
+|281,111,172<ref name="gtugs-world">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/salt/world-total-1764|title=World salt production, total estimate 1764|publisher=[[GTU Geological Survey]]|date=14 March 1765}}</ref>
 |-
-|{{flag|Dahe}} || 53,598,800  
+|{{flag|Dahe}} || 53,598,800<ref name="gtugs-survey" />
 |-
-|{{flag|Raledria}} 
-| 42,000,000  
+|{{flag|Raledria}}
+| 42,000,000<ref name="gtu-trade" />
 |-
-|{{flag|Ztesh}} || 25,930,434  
+|{{flag|Ztesh}} || 25,930,434<ref name="gtugs-zt">{{cite web|url=https://www.gtugeologicalsurvey.org/country/ztesh/salt-1764|title=Ztesh: salt and evaporite output, 1764|publisher=[[GTU Geological Survey]]|date=21 March 1765}}</ref>
 |-
 |{{flag|Areoix Lie}} 
 | 16,077,534  
@@ -230,6 +230,6 @@ Click on one of the small triangles in the headings to re-order the list accordi
 |{{flag|Volver}} || 188  
 |-
 |}
-= References ==
-<references />
+==References==
+{{reflist}}
 [[Category:Statistics]]

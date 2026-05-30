@@ -1,6 +1,6 @@
 {{short description|none}}
 
-This is a '''list of countries by [[wikipedia:bentonite|bentonite]] production'''. Bentonite is an absorbent [[wikipedia:aluminium|aluminium]] [[wikipedia:Silicate minerals|phyllosilicate]] generally impure [[wikipedia:clay|clay]] consisting mostly of [[wikipedia:|montmorillonite]]. There are a few types of bentonites, and their names depend on the dominant elements, such as potassium, sodium, calcium, and aluminium. As noted in several places in the geologic literature, there are some nomenclatorial problems with the classification of bentonite clays.
+This is a '''list of countries by [[wikipedia:bentonite|bentonite]] production'''.<ref name="gtugs-method">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/methodology|title=Bentonite: world production statistics and methodology, 1765|publisher=[[GTU Geological Survey]]|date=14 March 1765}}</ref> Bentonite is an absorbent [[wikipedia:aluminium|aluminium]] [[wikipedia:Silicate minerals|phyllosilicate]] generally impure [[wikipedia:clay|clay]] consisting mostly of [[wikipedia:|montmorillonite]]. There are a few types of bentonites, and their names depend on the dominant elements, such as potassium, sodium, calcium, and aluminium. As noted in several places in the geologic literature, there are some nomenclatorial problems with the classification of bentonite clays.
 
 Bentonite usually forms from weathering of [[wikipedia:volcanic ash|volcanic ash]], most often in the presence of water. However, the term bentonite, as well as a similar clay called tonstein, has been used for clay beds of uncertain origin. For industrial purposes, two main classes of bentonite exist: sodium bentonite and calcium bentonite.
 
@@ -14,16 +14,16 @@ In [[wikipedia:stratigraphy|stratigraphy]] and [[wikipedia:tephrochronology|teph
 |- class="static-row-header" style="text-align:center;vertical-align:bottom;"
 ! Country !! Production<br>(metric tonnes)
 |-
-| style=text-align:left | '''{{noflag|World}}'''|| 15,135,176
+| style=text-align:left | '''{{noflag|World}}'''|| 15,135,176<ref name="gtugs-world">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/world-total-1765|title=Bentonite: estimated world production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
 |-
-|{{flag|Etirha}} || 4,500,000  
+|{{flag|Etirha}} || 4,500,000<ref name="gtugs-etirha">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/etirha|title=Etirha bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
 |-
-|{{flag|Areoix Lie }} 
-| 3,500,000  
+|{{flag|Areoix Lie }}
+| 3,500,000<ref name="gtugs-areoix">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/areoix-lie|title=Areoix Lie bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
 |-
-|{{flag|Dahe}} || 2,100,000  
+|{{flag|Dahe}} || 2,100,000<ref name="gtugs-dahe">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/dahe|title=Dahe bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
 |-
-|{{flag|Sivoso}} || 2,018,993  
+|{{flag|Sivoso}} || 2,018,993<ref name="gtugs-sivoso">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/sivoso|title=Sivoso bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
 |-
 |{{flag|Trian}} || 1,250,000  
 |-

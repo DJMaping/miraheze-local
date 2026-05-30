@@ -2,7 +2,7 @@
 
 This is a '''list of countries and dependencies ranked by population density''', sorted by habitants per [[square kilometre]] or [[square mile]]. The list includes [[sovereign state]]s and self-governing [[dependent territory|dependent territories]]. The list also includes [[list of states with limited recognition|unrecognized]] but de facto independent countries. The figures in the table are based on areas including internal bodies of water such as bays, lakes, reservoirs and rivers. The list does include [[list of states with limited recognition|states with limited recognition]].
 
-Unless otherwise noted, areas and populations are sourced from the [[World Data Union]] World Population Prospects, which uses the latest censuses and official figures, as well as figures from the [[Food and Agriculture List]], an agency of the WDU.<Data is current as of 2025.>
+Unless otherwise noted, areas and populations are sourced from the [[World Data Union]] World Population Prospects, which uses the latest censuses and official figures, as well as figures from the [[Food and Agriculture List]], an agency of the WDU.<ref name="WDU-WPP">{{cite web|url=https://worlddataunion.org/population/prospects/1765|title=World Population Prospects 1765: Methodology and Data Sources|publisher=World Data Union (Population Division)|date=11 March 1765}}</ref> Population densities are derived by dividing each entry's total population by its land area, with areas including internal bodies of water such as bays, lakes, reservoirs and rivers.<ref name="WDU-method">{{cite web|url=https://worlddataunion.org/population/density-methodology|title=Estimating Population Density: Notes on Area and Inland Waters|publisher=World Data Union (Population Division)|date=23 January 1765}}</ref> National figures are reconciled against the latest returns published by the respective [[Census Lycroa|national census]] bodies. Data is current as of 1765.
 
 
 {{mw-datatable}}{{sort under}}{{static row numbers}}{{sticky header}}{{table alignment}}
@@ -18,11 +18,11 @@ Unless otherwise noted, areas and populations are sourced from the [[World Data 
 ! {{km2}}
 ! {{mi2}}
 |- class=static-row-numbers-norank
-| {{noflag|'''World'''}} || {{convert|55|sqmi|km2|disp=table|sortable=on}} || 8,231,613,070 || {{convert|148940000|km2|disp=table|sortable=on}} 
+| {{noflag|'''World'''}} || {{convert|55|sqmi|km2|disp=table|sortable=on}} || 8,231,613,070<ref name="WDU-world">{{cite web|url=https://worlddataunion.org/population/prospects/1765/world-total|title=World Population Prospects 1765: Total World Population and Density|publisher=World Data Union (Population Division)|date=11 March 1765}}</ref> || {{convert|148940000|km2|disp=table|sortable=on}}
 |-
-| {{flag|Pha Hii}} || {{convert|4,311|sqmi|km2|disp=table|sortable=on}} || 2,646,840 || {{convert|614|km2|disp=table|sortable=on}}  
+| {{flag|Pha Hii}} || {{convert|4,311|sqmi|km2|disp=table|sortable=on}} || 2,646,840<ref name="WDU-phahii">{{cite web|url=https://worlddataunion.org/population/prospects/1765/pha-hii|title=World Population Prospects 1765: Pha Hii, the most densely populated territory|publisher=World Data Union (Population Division)|date=11 March 1765}}</ref> || {{convert|614|km2|disp=table|sortable=on}}
 |-
-| {{flag|Prystr Hii}} || {{convert|2,694|sqmi|km2|disp=table|sortable=on}} || 1,640,804 || {{convert|609|km2|disp=table|sortable=on}}  
+| {{flag|Prystr Hii}} || {{convert|2,694|sqmi|km2|disp=table|sortable=on}} || 1,640,804<ref name="WDU-prystrhii">{{cite web|url=https://worlddataunion.org/population/prospects/1765/prystr-hii|title=World Population Prospects 1765: Prystr Hii|publisher=World Data Union (Population Division)|date=11 March 1765}}</ref> || {{convert|609|km2|disp=table|sortable=on}}
 |-
 | {{flag|Crila Republic}} || {{convert|449|sqmi|km2|disp=table|sortable=on}} || 945,980 || {{convert|2106|km2|disp=table|sortable=on}} 
 |- 
@@ -32,7 +32,7 @@ Unless otherwise noted, areas and populations are sourced from the [[World Data 
 |- 
 | {{flag|Easuhura}} || {{convert|273|sqmi|km2|disp=table|sortable=on}} || 29,913,650 || {{convert|109571|km2|disp=table|sortable=on}} 
 |- 
-| {{flag|Ztesh}} || {{convert|253|sqmi|km2|disp=table|sortable=on}} || 425,141,434 || {{convert|1682296|km2|disp=table|sortable=on}} 
+| {{flag|Ztesh}} || {{convert|253|sqmi|km2|disp=table|sortable=on}} || 425,141,434<ref name="Census-Ztesh">{{cite web|url=https://www.gov.zts/census/1763/national-returns|title=National Census 1763: Resident Population and Land Area|publisher=[[Census Ztesh]]|date=2 September 1764}}</ref> || {{convert|1682296|km2|disp=table|sortable=on}}
 |- 
 | {{flag|Walporein}} || {{convert|221|sqmi|km2|disp=table|sortable=on}} || 730,203 || {{convert|3310|km2|disp=table|sortable=on}} 
 |- 
@@ -42,7 +42,7 @@ Unless otherwise noted, areas and populations are sourced from the [[World Data 
 |- 
 | {{flag|Emara}} || {{convert|212|sqmi|km2|disp=table|sortable=on}} || 90,861,040 || {{convert|428786|km2|disp=table|sortable=on}} 
 |- 
-| {{flag|Dahe}} || {{convert|201|sqmi|km2|disp=table|sortable=on}} || 890,601,322 || {{convert|4429149|km2|disp=table|sortable=on}} 
+| {{flag|Dahe}} || {{convert|201|sqmi|km2|disp=table|sortable=on}} || 890,601,322<ref name="Census-Dahe">{{cite web|url=https://www.gov.dah/census/1763/population-and-area|title=National Census 1763: Population and Territorial Area|publisher=[[Census Dahe]]|date=15 November 1764}}</ref> || {{convert|4429149|km2|disp=table|sortable=on}}
 |- 
 | {{flag|North Ayre}} || {{convert|192|sqmi|km2|disp=table|sortable=on}} || 10,967,500 || {{convert|57100|km2|disp=table|sortable=on}} 
 |- 
@@ -379,6 +379,9 @@ Unless otherwise noted, areas and populations are sourced from the [[World Data 
 * [[List of countries and dependencies by population]]
 * [[List of sovereign states]]
 * [[List of metropolitan areas by population density]]
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Laseltsh]]
 [[Category:Country data templates with distinct template name|Laseltsh]]

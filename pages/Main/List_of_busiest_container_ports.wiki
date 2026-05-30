@@ -11,7 +11,7 @@
 
 This article lists the world's busiest [https://en.wikipedia.org/wiki/Containerization Containerization] [https://en.wikipedia.org/wiki/Port ports] (ports with [https://en.wikipedia.org/wiki/Container_port container terminals] that specialize in handling goods transported in [https://en.wikipedia.org/wiki/Intermodal_container shipping containers]). The table lists volume in thousands of TEU per year.  
 
-The latest ranking reflected the figures for the year 1764, as published in the Loywa List Top 100 and World Shipping Council (1764 figures), unless otherwise indicated.
+The latest ranking reflected the figures for the year 1764, as published in the Loywa List Top 100 and World Shipping Council (1764 figures), unless otherwise indicated.<ref name="GTU-throughput">{{cite web|url=https://www.globaltradeunion.org/database/maritime/container-throughput/1764|title=World Container Throughput Database, 1764|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=18 March 1765}}</ref><ref name="ASC-method">{{cite web|url=https://www.andahshippingcouncil.org/reports/loywa-list-top-100/1764|title=Loywa List Top 100: Methodology and Annual Rankings, 1764|publisher=Andah Shipping Council|date=5 February 1765}}</ref>
 
 == World's busiest container port -  Top 10 ==
 {| class="wikitable sortable" width="85%"
@@ -23,12 +23,12 @@ The latest ranking reflected the figures for the year 1764, as published in the 
 !Location
 !1764
 |-
-| align=left | 1 || align=left | [[Havok]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Risvor River Delta]] || 32,528
+| align=left | 1 || align=left | [[Havok]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Risvor River Delta]] || 32,528<ref name="GTU-havok">{{cite web|url=https://www.globaltradeunion.org/database/maritime/ports/havok/1764|title=Port of Havok: Annual Container Traffic, 1764|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=18 March 1765}}</ref>
 |-
-| align=left | 2 || align=left | [[Fekhalai]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Keisashi Sea]] || 31,649
+| align=left | 2 || align=left | [[Fekhalai]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Keisashi Sea]] || 31,649<ref name="GTU-fekhalai">{{cite web|url=https://www.globaltradeunion.org/database/maritime/ports/fekhalai/1764|title=Port of Fekhalai: Annual Container Traffic, 1764|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=18 March 1765}}</ref>
 |-
 | align=left | 3 || align=left | [[Tirna-Rovik]] || align=left | {{flagicon|Raledria}} [[Raledria]] 
-| align=left | Central Atirha || align=left | [[Dsnanjo Delta]] || 23,118
+| align=left | Central Atirha || align=left | [[Dsnanjo Delta]] || 23,118<ref name="ASC-tirna">{{cite web|url=https://www.andahshippingcouncil.org/ports/tirna-rovik/throughput/1764|title=Tirna-Rovik Container Terminal: Throughput Statistics, 1764|publisher=Andah Shipping Council|date=5 February 1765}}</ref>
 |-
 | align=left | 4 || align=left | [[Zhulenga]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Sheilia Sea]] || 22,960
 |-
@@ -44,10 +44,10 @@ The latest ranking reflected the figures for the year 1764, as published in the 
 |-
 | align=left | 10 || align=left | [[Drevok]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Gulf of Delic]] || 12,298
 |-
-| colspan="24" align="left" | Havok and Fekhalaicrossed the 30 millionth TEUs mark in 1762 and 1753 respectively.
+| colspan="24" align="left" | Havok and Fekhalaicrossed the 30 millionth TEUs mark in 1762 and 1753 respectively.<ref name="GTU-record">{{cite web|url=https://www.globaltradeunion.org/database/maritime/milestones/30m-teu|title=Container Port Milestones: Crossing the 30 Million TEU Threshold|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=12 January 1765}}</ref><ref name="ASC-method" />
 == World's busiest container port : 11-52 ==
 |-
-| align=left | 11 || align=left | [[Koyaya]] || align=left | {{flagicon|Sanagara}} [[Sanagara]] || align=left | West Massir || align=left | [[Sanagara Strait]] || 11,866
+| align=left | 11 || align=left | [[Koyaya]] || align=left | {{flagicon|Sanagara}} [[Sanagara]] || align=left | West Massir || align=left | [[Sanagara Strait]] || 11,866<ref name="GTU-throughput" />
 |-
 | align=left | 12 || align=left | [[Mahana]] || align=left | {{flagicon|Areoix Lie}} [[Areoix Lie]] 
 | align=left | North Acrola || align=left | [[Red River Delta]] || 10,001
@@ -167,6 +167,9 @@ The latest ranking reflected the figures for the year 1764, as published in the 
 *[[List of busiest ports in Mahea]]
 *[[List of busiest ports in Ayuma]]
 *[[List of countries by container port traffic]]
+
+==References==
+{{reflist}}
 
 [[Category:All country data templates|Vayvele]]
 [[Category:Articles with short description]]

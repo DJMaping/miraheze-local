@@ -65,15 +65,15 @@ TextData =
 |}
 ]]
 
-[https://en.wikipedia.org/wiki/Gross_domestic_product Gross domestic product] (GDP) is the [https://en.wikipedia.org/wiki/Market_value market value] of all final goods and services from a nation in a given year. Countries are sorted by nominal GDP estimates from financial and statistical institutions, which are calculated at market or government official [https://en.wikipedia.org/wiki/Exchange_rate exchange rates]. Nominal GDP does not take into account differences in the [https://en.wikipedia.org/wiki/Cost_of_living cost of living] in different countries, and the results can vary greatly from one year to another based on fluctuations in the exchange rates of the country's [https://en.wikipedia.org/wiki/Currency currency]. Such fluctuations may change a country's ranking from one year to the next, even though they often make little or no difference in the standard of living of its population.
+[https://en.wikipedia.org/wiki/Gross_domestic_product Gross domestic product] (GDP) is the [https://en.wikipedia.org/wiki/Market_value market value] of all final goods and services from a nation in a given year. Countries are sorted by nominal GDP estimates from financial and statistical institutions, which are calculated at market or government official [https://en.wikipedia.org/wiki/Exchange_rate exchange rates].<ref name="gtu-method">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/methodology |title=Economic Outlook 1765: Nominal GDP Methodology and Conversion Rates |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> Nominal GDP does not take into account differences in the [https://en.wikipedia.org/wiki/Cost_of_living cost of living] in different countries, and the results can vary greatly from one year to another based on fluctuations in the exchange rates of the country's [https://en.wikipedia.org/wiki/Currency currency]. Such fluctuations may change a country's ranking from one year to the next, even though they often make little or no difference in the standard of living of its population.
 Comparisons of national wealth are also frequently made based on purchasing power parity (PPP), to adjust for differences in the cost of living in different countries. Other metrics, [[List of countries by GDP (nominal) per capita|nominal GDP per capita]] and a corresponding [[List of countries by GDP (PPP) per capita|GDP (PPP) per capita]], are used for comparing national [https://en.wikipedia.org/wiki/Standard_of_living standard of living]. On the whole, PPP per capita figures are less spread than nominal GDP per capita figures.
 
-The [[List of countries by past and projected GDP (nominal)|rankings of national economies over time]] have changed considerably; the [[Economy of the Raledria|economy of Raledria]]  surpassed the [[Economy of the Emran Empire|Emaran Empires's output]] around which in turn had surpassed the [[economy of the Dahe]] in aggregate output decades earlier. Since [[Dahe]]'s transition to a socialist market economy through controlled privatisation and deregulation, the country has seen its ranking increase from 12th in 1700, to fourth in 1760; [[Pelugrotoa]]'s economic growth accelerated during this period and its share of global nominal GDP surged from 2% in 1700 to 15% in 1765 The first list includes estimates compiled by the [[Global Trade Union|Global Trade Union's]] Economic Outlook, the second list shows the [[Central Bank of Fekunza|Central Bank of Fekunza's]] data, and the third list includes data compiled by the [[The Financial Group]]. The definitive data for the past year and estimates for the current year are published twice a year in ____ and _____ . Non-sovereign entities (the world, continents, and some [[dependent territory|dependent territories]]) and states with limited international recognition (such as ______ and ________) are included in the list where they appear in the sources.<!-- These are marked in ''italics''.-->
+The [[List of countries by past and projected GDP (nominal)|rankings of national economies over time]] have changed considerably; the [[Economy of the Raledria|economy of Raledria]]  surpassed the [[Economy of the Emran Empire|Emaran Empires's output]] around which in turn had surpassed the [[economy of the Dahe]] in aggregate output decades earlier. Since [[Dahe]]'s transition to a socialist market economy through controlled privatisation and deregulation, the country has seen its ranking increase from 12th in 1700, to fourth in 1760;<ref name="gtu-dahe">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/dahe-historical-ranking |title=Economic Outlook 1765: Dahe Historical GDP Ranking, 1700-1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> [[Pelugrotoa]]'s economic growth accelerated during this period and its share of global nominal GDP surged from 2% in 1700 to 15% in 1765<ref name="gtu-pelu">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/pelugrotoa-share-world-gdp |title=Economic Outlook 1765: Pelugrotoa Share of World Nominal GDP |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> The first list includes estimates compiled by the [[Global Trade Union|Global Trade Union's]] Economic Outlook, the second list shows the [[Central Bank of Fekunza|Central Bank of Fekunza's]] data, and the third list includes data compiled by the [[The Financial Group]].<ref name="cbf">{{Cite web |url=https://www.centralbankfekunza.gov.fk/statistics/world-gdp-estimates/1764 |title=World GDP Estimates, 1764 |website=centralbankfekunza.gov.fk |publisher=[[Central Bank of Fekunza]] |date=1764 }} Retrieved 1765.</ref><ref name="tfg">{{Cite web |url=https://www.thefinancialgroup.com/research/global-gdp-tables/1764 |title=Global GDP Tables, 1764 |website=thefinancialgroup.com |publisher=[[The Financial Group]] |date=1764 }} Retrieved 1765.</ref> The definitive data for the past year and estimates for the current year are published twice a year in ____ and _____ . Non-sovereign entities (the world, continents, and some [[dependent territory|dependent territories]]) and states with limited international recognition (such as ______ and ________) are included in the list where they appear in the sources.<!-- These are marked in ''italics''.-->
 
 ==Table==
 ''The table initially ranks each [[Global Trade Union|GTU's]] member including {{color box|#ECECEC|[[List of sovereign states|sovereign states]] not part of the GTU, [[Lists of non-sovereign nations|non-sovereign nations]] and territories, and [[List of states with limited recognition|countries with limited recognition]]}}''
 
-The links in the "Country/Territory" row of the following table link to the article on the GDP or the economy of the respective country or territory.
+The links in the "Country/Territory" row of the following table link to the article on the GDP or the economy of the respective country or territory. All figures are stated in millions of {{lahn}} at current market exchange rates, as compiled by the [[Global Trade Union]] Economic Outlook (forecast for 1765) alongside the [[Central Bank of Fekunza]] and [[The Financial Group]] estimates for 1764.<ref name="gtu-table">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/world-gdp-table |title=Economic Outlook 1765: World GDP (Nominal) Table |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 {{Static row numbers}}
 
 {| class="wikitable sortable sticky-header-multi static-row-numbers" {{left}}
@@ -86,12 +86,12 @@ The links in the "Country/Territory" row of the following table link to the arti
 |- class="static-row-header" style="text-align:center;vertical-align:bottom;"
 ! Forecast !! Year !! Estimate !! Year !! Estimate !! Year
 |- class="static-row-header " style="font-weight:bold;"
-| style="text-align:left" |{{noflag|World}} || 62,761,330 || 1765 || 63,062,378 || 1764 || 60,438,374 || 1764 
+| style="text-align:left" |{{noflag|World}} || 62,761,330<ref name="gtu-world">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/aggregate-world-output |title=Economic Outlook 1765: Aggregate World Output |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> || 1765 || 63,062,378 || 1764 || 60,438,374 || 1764
 |-
-| {{flag|Dahe}} || 9,578,388 || 1765 || 10,016,795 || 1764 || 8,998,114 || 1764
+| {{flag|Dahe}} || 9,578,388<ref name="gtu-dahe-gdp">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/dahe |title=Economic Outlook 1765: Dahe |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> || 1765 || 10,016,795 || 1764 || 8,998,114 || 1764
 |-
-| {{flag|Raledria}} 
-| 8,579,395 || 1765 || 8,343,735 || 1764 || 8,144,798 || 1764
+| {{flag|Raledria}}
+| 8,579,395<ref name="gtu-raledria">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/raledria |title=Economic Outlook 1765: Raledria |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> || 1765 || 8,343,735 || 1764 || 8,144,798 || 1764
 |-
 | {{flag|Areoix Lie}} 
 | 4,595,932 || 1765 || 4,489,514 || 1764 || 4,465,802 || 1764
@@ -437,7 +437,7 @@ The links in the "Country/Territory" row of the following table link to the arti
 |-
 | {{flag|Trevilla}} || 36 || 1765 || 35 || 1764 || 34 || 1764
 |-
-| {{flag|Cruthi Anoso}} || 7 || 1765 || 7 || 1764 || 7 || 1764
+| {{flag|Cruthi Anoso}} || 7<ref name="gtu-cruthi">{{Cite web |url=https://www.globaltradeunion.org/database/economic-outlook/1765/cruthi-anoso |title=Economic Outlook 1765: Cruthi Anoso |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref> || 1765 || 7 || 1764 || 7 || 1764
 |-
 |}
 
@@ -447,6 +447,9 @@ The links in the "Country/Territory" row of the following table link to the arti
 * [[List of countries by GDP (PPP)]]
 * [[List of countries by GDP (PPP) per capita]]
 * [[List of countries by GDP (nominal) per capita]]
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Country data templates with distinct template name|Laseltsh]]

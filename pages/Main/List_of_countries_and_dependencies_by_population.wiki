@@ -1,15 +1,15 @@
 [[File:List_of_countries_by_Population_1765.png|thumb|upright=2|Map of countries by population - 1765]]
 
-This is a '''list of countries and dependencies by population'''. It includes [https://en.wikipedia.org/wiki/Sovereign_state sovereign states], inhabited dependent territories and, in some cases, constituent countries of sovereign states. For instance, [[Dahe]] is considered a single entity, while the constituent countries of the [[Emara]] are considered separately. In addition, this list includes certain [[list of states with limited recognition|states with limited recognition]]. Also given in a percentage is each country's [https://en.wikipedia.org/wiki/Population population] compared with the world population, which the [[World Data Union]] estimated at 6,750 Billion as of 2025.
+This is a '''list of countries and dependencies by population'''. It includes [https://en.wikipedia.org/wiki/Sovereign_state sovereign states], inhabited dependent territories and, in some cases, constituent countries of sovereign states. For instance, [[Dahe]] is considered a single entity, while the constituent countries of the [[Emara]] are considered separately. In addition, this list includes certain [[list of states with limited recognition|states with limited recognition]]. Also given in a percentage is each country's [https://en.wikipedia.org/wiki/Population population] compared with the world population, which the [[World Data Union]] estimated at 6,750 Billion as of 2025.<ref name="WDU-WPP">{{cite web|url=https://worlddataunion.org/population/world-population-prospects-1765|title=World Population Prospects 1765: Summary Tables|publisher=World Data Union|date=14 February 1765}}</ref>
 
 == Method ==
-Figures used in this chart are based on the most up-to-date estimates or population projection by the [https://en.wikipedia.org/wiki/Census national census authority,] where available, and are usually rounded off.
+Figures used in this chart are based on the most up-to-date estimates or population projection by the [https://en.wikipedia.org/wiki/Census national census authority,] where available, and are usually rounded off.<ref name="WDU-method">{{cite web|url=https://worlddataunion.org/population/methodology-1765|title=World Population Prospects 1765: Methodology of the Population Estimates and Projections|publisher=World Data Union|date=14 February 1765}}</ref>
 
-Where updated national data are not available, figures are based on the estimates or projections for 1765 by the Population Division of the [[World Data Union]].
+Where updated national data are not available, figures are based on the estimates or projections for 1765 by the Population Division of the [[World Data Union]].<ref name="WDU-WPP" />
 
 Because the compiled figures are not collected at the same time in every country, or at the same level of accuracy, the resulting numerical comparisons may create misleading conclusions. Furthermore, the addition of figures from all countries may not equal the world total.
 
-Areas that form integral parts of [https://en.wikipedia.org/wiki/Sovereign_state sovereign state], such as the overseas territories of [[Emara]], are counted as part of the sovereign states concerned. Not included are other entities that are not sovereign states, such as the [[Quian Union]], and independent territories that do not have permanent populations, such as the ____.
+Areas that form integral parts of [https://en.wikipedia.org/wiki/Sovereign_state sovereign state], such as the overseas territories of [[Emara]], are counted as part of the sovereign states concerned.<ref name="WDU-territories">{{cite web|url=https://worlddataunion.org/population/dependencies-and-territories-1765|title=World Population Prospects 1765: Treatment of Dependent and Overseas Territories|publisher=World Data Union|date=3 March 1765}}</ref> Not included are other entities that are not sovereign states, such as the [[Quian Union]], and independent territories that do not have permanent populations, such as the ____.
 
 == Sovereign states and dependencies by population ==
 
@@ -28,15 +28,15 @@ Note: A numbered rank is assigned to the 172 Nations of the world, Dependent ter
 
 |- class=static-row-numbers-norank
 | '''{{noflag|World}}'''
-| 6,750,000,000|| {{center|100%}} || 1765
+| 6,750,000,000<ref name="WDU-WPP" />|| {{center|100%}} || 1765
 | WDU projection
 
 |-
 | {{flag|Dahe}}
-| {{n+p|890600000|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+| {{n+p|890600000|{{worldpop}}|sigfig=2|disp=table}}<ref>{{cite web|url=https://worlddataunion.org/population/profiles/dahe-1765|title=World Population Prospects 1765: Dahe, the world's most populous country|publisher=World Data Union|date=14 February 1765}}</ref> || 1765 || Population Estimate
 |-
 | {{flag|Areoix Lie}}
-| {{n+p|579087437|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+| {{n+p|579087437|{{worldpop}}|sigfig=2|disp=table}}<ref>{{cite web|url=https://census.areoixlie.gov/1763/results|title=1763 Census of Population and Housing: Final Results|publisher=[[Census Areoix Lie]]|date=30 September 1763}}</ref> || 1763 || 1763 Census Data
 |-
 | {{flag|Ztesh}}
 | {{n+p|425141434|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
@@ -75,7 +75,7 @@ Note: A numbered rank is assigned to the 172 Nations of the world, Dependent ter
 | {{n+p|90945636|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
 |-
 | {{flag|Emara}}
-| {{n+p|90861040|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+| {{n+p|90861040|{{worldpop}}|sigfig=2|disp=table}}<ref name="WDU-territories" /> || 1765 || Population Estimate
 |-
 | {{flag|Ocaun}}
 | {{n+p|88913943|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Official projection
@@ -546,7 +546,7 @@ Note: A numbered rank is assigned to the 172 Nations of the world, Dependent ter
 | {{n+p|5165|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
 |-
 | {{flag|Cruthi Anoso}}
-| {{n+p|3984|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 WDU Estimate
+| {{n+p|3984|{{worldpop}}|sigfig=2|disp=table}}<ref>{{cite web|url=https://worlddataunion.org/population/profiles/cruthi-anoso-1763|title=World Population Prospects 1763: Cruthi Anoso, the least populous listed territory|publisher=World Data Union|date=11 November 1763}}</ref> || 1763 || 1763 WDU Estimate
 |}
 
 == See also ==
@@ -554,6 +554,9 @@ Note: A numbered rank is assigned to the 172 Nations of the world, Dependent ter
 * [[List of countries and dependencies by area]]
 * [[List of countries and dependencies by population density]]
 * [[List of countries by population growth rate]]
+
+== References ==
+{{reflist}}
 
 [[Category:All country data templates|Slyiaduun]]
 [[Category:Country data templates with distinct template name|Laseltsh]]

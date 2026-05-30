@@ -2,17 +2,17 @@ See also: [[List of Arten Emperors]], [[List of Arten Empires]], [[List of Arten
 
 This is a [[Timeline of Arten history]], comprising important legal and territorial changes and political events in [[Areoix Lie]] and its predecessor states. To read about the background to these events, see [[History of Areoix Lie|History of]] [[History of Areoix Lie|Areoix Lie.]]
 
-Dates prior to 891 BFA, the beginning of the [[Verinu Regency|Verinu Regency,]] are provisional and subject to dispute.
+Dates prior to 891 BFA, the beginning of the [[Verinu Regency|Verinu Regency,]] are provisional and subject to dispute.<ref name="alhs-chronology">{{cite web|url=https://www.areoixhistory.org/chronology/pre-verinu|title=The provisional chronology of pre-Verinu Areoix Lie|publisher=Areoix Lie Historical Society|date=14 March 1762}}</ref>
 
 {{Dynamic list|multiple=yes}}
 
 == Prehistory ==
 {| class="wikitable"
 |90,000 BFA
-| valign="top" |''H. sapiens'' appears in the modern [[Arten Valley Region.]]
+| valign="top" |''H. sapiens'' appears in the modern [[Arten Valley Region.]]<ref name="factbook-arten">{{cite web|url=https://www.theandahfactbook.org/regions/arten-valley/prehistory|title=Arten Valley Region: prehistory and early settlement|publisher=[[The Andah Factbook]]|date=2 February 1764}}</ref>
 |-
 |25,000 BFA
-| valign="top" |The [[Mepqo]] culture appeared.
+| valign="top" |The [[Mepqo]] culture appeared.<ref name="ahr-cultures">{{cite web|url=https://www.andahhistoricalreview.org/articles/early-arten-cultures|title=The early cultures of the Arten Valley: Mepqo to Asnairpoly|publisher=Andah Historical Review|date=18 September 1761}}</ref>
 |-
 |15,000 BFA
 | valign="top" |The [[Paccorth culture]] appeard.
@@ -823,15 +823,18 @@ Dates prior to 891 BFA, the beginning of the [[Verinu Regency|Verinu Regency,]] 
 |-
 |1608 
 |
-|Break out of the [[Arten-Alzurian War]]
+|Break out of the [[Arten-Alzurian War]]<ref name="ahr-altwar">{{cite web|url=https://www.andahhistoricalreview.org/articles/arten-alzurian-war|title=Origins of the Arten-Alzurian War of 1608|publisher=Andah Historical Review|date=4 May 1760}}</ref>
 |-
-| valign="top" |1612 
+| rowspan="2" valign="top" |1612 
 |
 |Treaty of ____ Signed ending the [[Arten-Alzurian War]]
 |-
+|8 December
+|Zirhou declares Independence<ref name="factbook-zirhou">{{cite web|url=https://www.theandahfactbook.org/events/zirhou-independence|title=The independence of Zirhou, 8 December 1612|publisher=[[The Andah Factbook]]|date=2 February 1764}}</ref>
+|-
 | valign="top" |1661 
 |7 April 
-|Break out of the  [[Great Imperial War]]
+|Break out of the  [[Great Imperial War]]<ref name="factbook-giw">{{cite web|url=https://www.theandahfactbook.org/events/great-imperial-war|title=The Great Imperial War (1661): outbreak and course|publisher=[[The Andah Factbook]]|date=2 February 1764}}</ref>
 |-
 | valign="top" |1666 
 |29 September
@@ -883,7 +886,13 @@ Dates prior to 891 BFA, the beginning of the [[Verinu Regency|Verinu Regency,]] 
 |11 Novemeber
 |[[Orin Valorion|Orin Valorum]] becomes First Concil
 |-
-| rowspan="2" |1718
+| rowspan="4" |1718
+|23 March
+|[[Zuroher Revolution]]
+|-
+|16 April
+|[[Zuraher Reintergration]]
+|-
 |31 October
 |[[1718 Areoix Lie general election|1st General Election]] In Arten History
 |-
@@ -960,17 +969,17 @@ Dates prior to 891 BFA, the beginning of the [[Verinu Regency|Verinu Regency,]] 
 |-
 | rowspan="3" |1760
 |3 Feburary
-|[[The Capital 15 Scandal]] 
+|[[The Capital 15 Scandal]]<ref name="bbc-capital15">{{cite web|url=https://www.bbc.co.uk/news/andah-areoix-capital-15|title=The Capital 15 Scandal: what happened|publisher=BBC News Andah|date=10 February 1762}}</ref>
 |-
 |8 Feburary
 |Resignation of [[Zerzies Rouche|Vura Namer]] and [[Koli Morekel]]
 |-
 |12 Feburary
-|[[Elzibie Namela]] Sworn in as [[Presidents of Areoix Lie|President]] becoming the first female leader of [[Areoix Lie]] and [[Ace Van Koli]] becomes [[Vice President of Areoix Lie|Vice President]] 
+|[[Elzibie Namela]] Sworn in as [[Presidents of Areoix Lie|President]] becoming the first female leader of [[Areoix Lie]] and [[Ace Van Koli]] becomes [[Vice President of Areoix Lie|Vice President]]<ref name="bbc-namela">{{cite web|url=https://www.bbc.co.uk/news/andah-areoix-namela-sworn-in|title=Elzibie Namela becomes first female President of Areoix Lie|publisher=BBC News Andah|date=12 February 1762}}</ref>
 |-
 | rowspan="2" |1763
 |29 October
-|[[1763 Areoix Lie general election]]
+|[[1763 Areoix Lie general election]]<ref name="factbook-1763election">{{cite web|url=https://www.theandahfactbook.org/elections/areoix-lie-1763|title=1763 Areoix Lie general election: results and aftermath|publisher=[[The Andah Factbook]]|date=15 January 1764}}</ref>
 |-
 |1 December 
 |[[Presidents of Areoix Lie|President]] [[Ace Van Koli]] and [[Vice President of Areoix Lie|Vice President]] [[Anissa Veran]] begin their first terms
@@ -981,6 +990,7 @@ Dates prior to 891 BFA, the beginning of the [[Verinu Regency|Verinu Regency,]] 
 == See also ==
 
 == References ==
+{{reflist}}
 
 == Further reading ==
 
