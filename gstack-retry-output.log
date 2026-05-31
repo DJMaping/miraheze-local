@@ -1,0 +1,208 @@
+=== test 1: does Chromium already launch? ===
+CHROMIUM_FAIL:browserType.launch: Executable doesn't exist at C:\Users\danny\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+=== Chromium not launchable yet; retrying install ===
+Failed to install browsers
+Error: 
+╔═════════════════════════════════════════════════════════════════════════════╗
+║ An active lockfile is found at:                                             ║
+║                                                                             ║
+║   C:\Users\danny\AppData\Local\ms-playwright\__dirlock                      ║
+║                                                                             ║
+║ Either:                                                                     ║
+║ - wait a few minutes if other Playwright is installing browsers in parallel ║
+║ - remove lock manually with:                                                ║
+║                                                                             ║
+║     rm -R C:\Users\danny\AppData\Local\ms-playwright\__dirlock              ║
+║                                                                             ║
+║ <3 Playwright Team                                                          ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+Failed to install browsers
+Error: 
+╔═════════════════════════════════════════════════════════════════════════════╗
+║ An active lockfile is found at:                                             ║
+║                                                                             ║
+║   C:\Users\danny\AppData\Local\ms-playwright\__dirlock                      ║
+║                                                                             ║
+║ Either:                                                                     ║
+║ - wait a few minutes if other Playwright is installing browsers in parallel ║
+║ - remove lock manually with:                                                ║
+║                                                                             ║
+║     rm -R C:\Users\danny\AppData\Local\ms-playwright\__dirlock              ║
+║                                                                             ║
+║ <3 Playwright Team                                                          ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+npm notice
+npm notice New minor version of npm available! 11.13.0 -> 11.16.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0
+npm notice To update run: npm install -g npm@11.16.0
+npm notice
+Failed to install browsers
+Error: 
+╔═════════════════════════════════════════════════════════════════════════════╗
+║ An active lockfile is found at:                                             ║
+║                                                                             ║
+║   C:\Users\danny\AppData\Local\ms-playwright\__dirlock                      ║
+║                                                                             ║
+║ Either:                                                                     ║
+║ - wait a few minutes if other Playwright is installing browsers in parallel ║
+║ - remove lock manually with:                                                ║
+║                                                                             ║
+║     rm -R C:\Users\danny\AppData\Local\ms-playwright\__dirlock              ║
+║                                                                             ║
+║ <3 Playwright Team                                                          ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+=== test 2: launch after reinstall ===
+CHROMIUM_FAIL:browserType.launch: Executable doesn't exist at C:\Users\danny\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+STILL_FAILING
+=== re-running ./setup --no-prefix to finalize linking ===
+Generating .agents/ skill docs...
+bun install v1.3.14 (0d9b296a)
+
+Checked 228 installs across 272 packages (no changes) [48.00ms]
+$ bun run scripts/gen-skill-docs.ts --host codex
+GENERATED: .agents\skills\gstack\SKILL.md
+GENERATED: .agents\skills\gstack-autoplan\SKILL.md
+GENERATED: .agents\skills\gstack-benchmark\SKILL.md
+GENERATED: .agents\skills\gstack-benchmark-models\SKILL.md
+GENERATED: .agents\skills\gstack-browse\SKILL.md
+GENERATED: .agents\skills\gstack-canary\SKILL.md
+GENERATED: .agents\skills\gstack-careful\SKILL.md
+GENERATED: .agents\skills\gstack-claude\SKILL.md
+GENERATED: .agents\skills\gstack-context-restore\SKILL.md
+GENERATED: .agents\skills\gstack-context-save\SKILL.md
+GENERATED: .agents\skills\gstack-cso\SKILL.md
+GENERATED: .agents\skills\gstack-design-consultation\SKILL.md
+GENERATED: .agents\skills\gstack-design-html\SKILL.md
+GENERATED: .agents\skills\gstack-design-review\SKILL.md
+GENERATED: .agents\skills\gstack-design-shotgun\SKILL.md
+GENERATED: .agents\skills\gstack-devex-review\SKILL.md
+GENERATED: .agents\skills\gstack-document-generate\SKILL.md
+GENERATED: .agents\skills\gstack-document-release\SKILL.md
+GENERATED: .agents\skills\gstack-freeze\SKILL.md
+GENERATED: .agents\skills\gstack-upgrade\SKILL.md
+GENERATED: .agents\skills\gstack-guard\SKILL.md
+GENERATED: .agents\skills\gstack-health\SKILL.md
+GENERATED: .agents\skills\gstack-investigate\SKILL.md
+GENERATED: .agents\skills\gstack-ios-clean\SKILL.md
+GENERATED: .agents\skills\gstack-ios-design-review\SKILL.md
+GENERATED: .agents\skills\gstack-ios-fix\SKILL.md
+GENERATED: .agents\skills\gstack-ios-qa\SKILL.md
+GENERATED: .agents\skills\gstack-ios-sync\SKILL.md
+GENERATED: .agents\skills\gstack-land-and-deploy\SKILL.md
+GENERATED: .agents\skills\gstack-landing-report\SKILL.md
+GENERATED: .agents\skills\gstack-learn\SKILL.md
+GENERATED: .agents\skills\gstack-make-pdf\SKILL.md
+GENERATED: .agents\skills\gstack-office-hours\SKILL.md
+GENERATED: .agents\skills\gstack-open-gstack-browser\SKILL.md
+GENERATED: .agents\skills\gstack-pair-agent\SKILL.md
+GENERATED: .agents\skills\gstack-plan-ceo-review\SKILL.md
+GENERATED: .agents\skills\gstack-plan-design-review\SKILL.md
+GENERATED: .agents\skills\gstack-plan-devex-review\SKILL.md
+GENERATED: .agents\skills\gstack-plan-eng-review\SKILL.md
+GENERATED: .agents\skills\gstack-plan-tune\SKILL.md
+GENERATED: .agents\skills\gstack-qa\SKILL.md
+GENERATED: .agents\skills\gstack-qa-only\SKILL.md
+GENERATED: .agents\skills\gstack-retro\SKILL.md
+GENERATED: .agents\skills\gstack-review\SKILL.md
+GENERATED: .agents\skills\gstack-scrape\SKILL.md
+GENERATED: .agents\skills\gstack-setup-browser-cookies\SKILL.md
+GENERATED: .agents\skills\gstack-setup-deploy\SKILL.md
+GENERATED: .agents\skills\gstack-setup-gbrain\SKILL.md
+GENERATED: .agents\skills\gstack-ship\SKILL.md
+GENERATED: .agents\skills\gstack-skillify\SKILL.md
+GENERATED: .agents\skills\gstack-spec\SKILL.md
+GENERATED: .agents\skills\gstack-sync-gbrain\SKILL.md
+GENERATED: .agents\skills\gstack-unfreeze\SKILL.md
+
+Token Budget (codex host)
+════════════════════════════════════════════════════════════
+  .agents\skills\gstack-ship\SKILL.md  2736 lines  ~ 36384 tokens
+  .agents\skills\gstack-spec\SKILL.md  2144 lines  ~ 25748 tokens
+  .agents\skills\gstack-plan-ceo-review\SKILL.md  2091 lines  ~ 31769 tokens
+  .agents\skills\gstack-plan-devex-review\SKILL.md  2036 lines  ~ 25620 tokens
+  .agents\skills\gstack-office-hours\SKILL.md  1993 lines  ~ 27174 tokens
+  .agents\skills\gstack-plan-design-review\SKILL.md  1875 lines  ~ 26030 tokens
+  .agents\skills\gstack-land-and-deploy\SKILL.md  1850 lines  ~ 22679 tokens
+  .agents\skills\gstack-design-review\SKILL.md  1817 lines  ~ 22561 tokens
+  .agents\skills\gstack-autoplan\SKILL.md  1774 lines  ~ 22326 tokens
+  .agents\skills\gstack-setup-gbrain\SKILL.md  1765 lines  ~ 20158 tokens
+  .agents\skills\gstack-retro\SKILL.md  1698 lines  ~ 20120 tokens
+  .agents\skills\gstack-plan-eng-review\SKILL.md  1673 lines  ~ 24697 tokens
+  .agents\skills\gstack-qa\SKILL.md  1585 lines  ~ 18134 tokens
+  .agents\skills\gstack-design-consultation\SKILL.md  1440 lines  ~ 18466 tokens
+  .agents\skills\gstack-design-html\SKILL.md  1440 lines  ~ 16652 tokens
+  .agents\skills\gstack-cso\SKILL.md  1414 lines  ~ 19022 tokens
+  .agents\skills\gstack-review\SKILL.md  1398 lines  ~ 18559 tokens
+  .agents\skills\gstack-plan-tune\SKILL.md  1340 lines  ~ 15686 tokens
+  .agents\skills\gstack-design-shotgun\SKILL.md  1285 lines  ~ 15567 tokens
+  .agents\skills\gstack-document-release\SKILL.md  1227 lines  ~ 14570 tokens
+  .agents\skills\gstack-devex-review\SKILL.md  1224 lines  ~ 16086 tokens
+  .agents\skills\gstack-document-generate\SKILL.md  1165 lines  ~ 13244 tokens
+  .agents\skills\gstack-skillify\SKILL.md  1164 lines  ~ 13412 tokens
+  .agents\skills\gstack-qa-only\SKILL.md  1160 lines  ~ 13828 tokens
+  .agents\skills\gstack-claude\SKILL.md  1086 lines  ~ 12002 tokens
+  .agents\skills\gstack-sync-gbrain\SKILL.md  1059 lines  ~ 13078 tokens
+  .agents\skills\gstack-health\SKILL.md  1006 lines  ~ 12021 tokens
+  .agents\skills\gstack-pair-agent\SKILL.md  1005 lines  ~ 11786 tokens
+  .agents\skills\gstack-canary\SKILL.md   984 lines  ~ 11761 tokens
+  .agents\skills\gstack\SKILL.md   973 lines  ~ 12030 tokens
+  .agents\skills\gstack-context-save\SKILL.md   959 lines  ~ 11281 tokens
+  .agents\skills\gstack-open-gstack-browser\SKILL.md   950 lines  ~ 11580 tokens
+  .agents\skills\gstack-investigate\SKILL.md   942 lines  ~ 12062 tokens
+  .agents\skills\gstack-browse\SKILL.md   921 lines  ~ 11890 tokens
+  .agents\skills\gstack-ios-qa\SKILL.md   920 lines  ~ 11757 tokens
+  .agents\skills\gstack-setup-deploy\SKILL.md   911 lines  ~ 11016 tokens
+  .agents\skills\gstack-learn\SKILL.md   883 lines  ~ 10451 tokens
+  .agents\skills\gstack-scrape\SKILL.md   882 lines  ~ 10955 tokens
+  .agents\skills\gstack-landing-report\SKILL.md   870 lines  ~ 10791 tokens
+  .agents\skills\gstack-context-restore\SKILL.md   840 lines  ~ 10372 tokens
+  .agents\skills\gstack-ios-design-review\SKILL.md   808 lines  ~ 10457 tokens
+  .agents\skills\gstack-ios-clean\SKILL.md   806 lines  ~ 10305 tokens
+  .agents\skills\gstack-ios-fix\SKILL.md   802 lines  ~ 10235 tokens
+  .agents\skills\gstack-ios-sync\SKILL.md   796 lines  ~ 10222 tokens
+  .agents\skills\gstack-benchmark\SKILL.md   736 lines  ~  8052 tokens
+  .agents\skills\gstack-make-pdf\SKILL.md   660 lines  ~  7332 tokens
+  .agents\skills\gstack-benchmark-models\SKILL.md   612 lines  ~  7185 tokens
+  .agents\skills\gstack-setup-browser-cookies\SKILL.md   587 lines  ~  6517 tokens
+  .agents\skills\gstack-upgrade\SKILL.md   270 lines  ~  2637 tokens
+  .agents\skills\gstack-freeze\SKILL.md    69 lines  ~   744 tokens
+  .agents\skills\gstack-guard\SKILL.md    64 lines  ~   759 tokens
+  .agents\skills\gstack-careful\SKILL.md    51 lines  ~   643 tokens
+  .agents\skills\gstack-unfreeze\SKILL.md    38 lines  ~   333 tokens
+────────────────────────────────────────────────────────────
+  TOTAL                          60784 lines  ~758746 tokens
+
+[gen-llms-txt] gstack/llms.txt: 54 skills, 76 browse commands
+Installing Playwright Chromium...
+Failed to install browsers
+Error: 
+╔═════════════════════════════════════════════════════════════════════════════╗
+║ An active lockfile is found at:                                             ║
+║                                                                             ║
+║   C:\Users\danny\AppData\Local\ms-playwright\__dirlock                      ║
+║                                                                             ║
+║ Either:                                                                     ║
+║ - wait a few minutes if other Playwright is installing browsers in parallel ║
+║ - remove lock manually with:                                                ║
+║                                                                             ║
+║     rm -R C:\Users\danny\AppData\Local\ms-playwright\__dirlock              ║
+║                                                                             ║
+║ <3 Playwright Team                                                          ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+=== FINAL SETUP EXIT=1 ===
