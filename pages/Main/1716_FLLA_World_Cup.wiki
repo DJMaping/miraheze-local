@@ -9,31 +9,534 @@
 |-
 | Continent || [[Ayuma]]
 |-
+| Dates || 27 May – 24 June 1716
+|-
 | Teams || 16 (from 7 confederations)
+|-
+| Venues || 8 (in 8 host cities)
+|-
+| Matches played || 32
+|-
+| Goals scored || 114 (3.56 per match)
+|-
+| Attendance || 985,000 (30,781 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Raledria}} '''[[Raledria]]'''
+| Champion || {{Flagicon|Raledria}} '''[[Raledria]]''' ''(3rd title)''
 |-
 | Runner-up || {{Flagicon|Emara}} [[Emara]]
 |-
-| Final score || 2-1
+| Third place || {{Flagicon|Easuhura}} [[Easuhura]]
+|-
+| Fourth place || {{Flagicon|Lycroa}} [[Lycroa]]
+|-
+| Final score || 2–1
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Raledria}} Halvik Sorent ([[Raledria]]) (7 goals)
+|-
+| Best player || {{Flagicon|Raledria}} Edran Volkmar ([[Raledria]])
+|-
+| Best goalkeeper || {{Flagicon|Easuhura}} Davir Khalan ([[Easuhura]])
 |-
 | Previous: || ''[[1712 FLLA World Cup|1712]]''
 |-
 | Next: || ''[[1720 FLLA World Cup|1720]]''
 |}
 
-The '''1716 [[FLLA]] World Cup''' was the 12th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Easuhura]] across [[Ayuma]], and was won by [[Raledria]], who defeated [[Emara]] 2-1 in the final.
+The '''1716 [[FLLA]] World Cup''' was the 12th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Easuhura]] across [[Ayuma]] from 27 May to 24 June 1716, and was won by [[Raledria]], who defeated [[Emara]] 2–1 in the final at the Tanbai National Stadium in [[Tanbai]]. It was Raledria's third FLLA World Cup title, following their wins in [[1700 FLLA World Cup|1700]] and [[1712 FLLA World Cup|1712]], and made them the first nation to retain the competition since its reformation under the FLLA.
 
-The 1716 tournament was the subject of the first significant administrative controversy in the competition's history. The hosting rights had originally been awarded to [[Estijan]] in 1712 but were withdrawn by the FLLA Council in November 1714 following the disclosure of a coordinated programme of performance-enhancing pharmaceutical use within the Estijan domestic league. The tournament passed to [[Easuhura]], which staged the competition at four months' notice. [[Raledria]] retained the trophy with a 2-1 final-day victory over [[Emara]]; the run from 1700 to 1716 made Raledria the only side to have lifted the trophy at three editions in succession.
+The tournament is chiefly remembered for two things. It was the first edition at which the [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented in its present form, the 38-centimetre silver-and-gold sculpture commissioned through an open international competition in 1714 to replace the original trophy lost during the [[Red War]]. It was also the subject of the first significant administrative controversy in the competition's history: the hosting rights had originally been awarded to [[Estijan]] in 1712 but were withdrawn by the FLLA Council in November 1714 following the disclosure of an organised programme of performance-enhancing pharmaceutical use within the Estijan domestic league. Easuhura, the beaten finalists of [[1712 FLLA World Cup|1712]], accepted the competition at roughly four months' notice and staged it across eight cities.
+
+Sixteen nations contested 32 matches, and at 3.56 goals per match the 1716 edition was the highest-scoring of the early FLLA era, a record for knockout-stage scoring that stood until the [[1748 FLLA World Cup|1748 tournament]]. Raledria's victory was built on a sustained attacking line led by [[#Awards|Vairan Ball]] winner Edran Volkmar and tournament top scorer Halvik Sorent, while the host nation reached the semi-finals before taking third place, the best showing by a host since the [[1660 FLLA World Cup|1660 edition]].
+
+==Host selection==
+
+The hosting of the 1716 tournament had been resolved at the FLLA Council's ordinary session of 1712, where the competition was awarded to [[Estijan]], one of the founding members of the pre-FLLA Ayuman federation and a finalist at the [[1668 FLLA World Cup|1668 edition]]. The award was, at the time, presented as recognition of the rapid post-war growth of the Estijan domestic game.<ref name="hostaward">{{cite web|url=https://www.flla.org/heritage/world-cup/1716-host-award|title=The 1712 award of the 1716 hosting rights|publisher=[[FLLA]]|date=9 October 1763}}</ref>
+
+In the autumn of 1714 the FLLA disciplinary commission opened an inquiry into the Estijan first division after a series of irregular medical reports were referred to it by two member clubs. The inquiry concluded that a coordinated programme of performance-enhancing pharmaceutical preparation had been operated across several leading Estijan sides during the 1713 and 1714 seasons. On 14 November 1714 the FLLA Council voted to withdraw the hosting rights from Estijan and to suspend the Estijan national association from the 1716 competition, the first such sanction imposed in the history of the tournament.<ref name="scandal">{{cite news|url=https://www.bbc.co.uk/andah/sport/arraby/1716-host-withdrawal|title=Estijan stripped of World Cup as drug programme uncovered|publisher=BBC News Andah|date=15 November 1714}}</ref>
+
+With eighteen months remaining before the scheduled kick-off, the Council invited expressions of interest from the established Ayuman associations. [[Easuhura]], which had reached the final of the [[1712 FLLA World Cup|1712 tournament]] and possessed a cluster of recently enlarged municipal grounds, was confirmed as the replacement host on 3 February 1715. The Easuhuran Arraby Federation staged the competition without expanding the existing sixteen-team format.<ref name="hostaward"/>
+
+==Qualification==
+
+Sixteen places were contested by the member associations of the seven continental confederations of the [[FLLA]]. As host nation, [[Easuhura]] qualified automatically, as did the holders, [[Raledria]]. The remaining fourteen berths were allocated by the FLLA Council across the confederations, with the host continent of [[Ayuma]] receiving the largest allocation in keeping with the practice of the period.
+
+The qualified teams were:
+
+* '''[[AYFVL]]''' (Ayuma): {{Flagicon|Easuhura}} [[Easuhura]] ''(host)'', {{Flagicon|Emara}} [[Emara]], {{Flagicon|Lycroa}} [[Lycroa]], {{Flagicon|Praesyu}} [[Praesyu]], {{Flagicon|Verusa}} [[Verusa]], {{Flagicon|Siana}} [[Siana]], {{Flagicon|Eldjo}} [[Eldjo]]
+* '''[[ATFVL]]''' (Atirha): {{Flagicon|Raledria}} [[Raledria]] ''(holders)'', {{Flagicon|New Misos}} [[New Misos]]
+* '''[[MSFVL]]''' (Massir): {{Flagicon|Dahe}} [[Dahe]], {{Flagicon|Taval}} [[Taval]]
+* '''[[ACFVL]]''' (Acrola): {{Flagicon|Areoix Lie}} [[Areoix Lie]], {{Flagicon|Reerica}} [[Reerica]]
+* '''[[NAFVL]]''' (New Ayre): {{Flagicon|United Delet}} [[United Delet]]
+* '''[[MAFVL]]''' (Mahea): {{Flagicon|Seytinemas}} [[Seytinemas]]
+* '''[[QUFVL]]''' (Quia): {{Flagicon|Quidic}} [[Quidic]]
+
+[[Estijan]], the original host, was absent for the only time in its history, having been suspended from the competition by the Council's ruling of November 1714.<ref name="scandal"/>
+
+==Venues==
+
+The tournament was played at eight grounds in eight host cities, all in the populated western and central districts of [[Easuhura]]. The Tanbai National Stadium in the capital, [[Tanbai]], was the principal venue and staged the opening match, a semi-final and the final. Each group was based at two grounds.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Stadiums of the 1716 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Tanbai]] || align="left" | Tanbai National Stadium || 52,000 || align="left" | Opening match; final; semi-final; quarter-final; group stage (Group C)
+|-
+| align="left" | [[Chayek]] || align="left" | Chayek Civic Stadium || 41,000 || align="left" | Semi-final; quarter-final; group stage (Group B)
+|-
+| align="left" | [[Phalanij]] || align="left" | Phalanij Federal Ground || 36,000 || align="left" | Third-place playoff; quarter-final; group stage (Group D)
+|-
+| align="left" | [[Khessli]] || align="left" | Khessli Sports Park || 33,000 || align="left" | Quarter-final; group stage (Group D)
+|-
+| align="left" | [[Paviri]] || align="left" | Paviri Athletic Ground || 30,000 || align="left" | Group stage (Group A)
+|-
+| align="left" | [[Boklan]] || align="left" | Boklan Coastal Stadium || 29,000 || align="left" | Group stage (Group C)
+|-
+| align="left" | [[Bokayek]] || align="left" | Bokayek Municipal Ground || 27,000 || align="left" | Group stage (Group A)
+|-
+| align="left" | [[Lachon]] || align="left" | Lachon Arraby Park || 25,000 || align="left" | Group stage (Group B)
+|}
+
+==Squads==
+
+{{Main|1716 FLLA World Cup squads}}
+
+Each of the sixteen qualified nations registered a squad of eighteen players, of whom two were required to be goalkeepers. Substitutions were not permitted under the laws in force at the tournament except for an injured goalkeeper, and several of the knockout fixtures were therefore completed by sides reduced to ten men. The oldest registered player was the Praesyan captain Tomas Brevik, then 37, and the youngest was the Lycroan forward Renzo Caltari, 18.
+
+==Format==
+
+The sixteen teams were drawn into four groups of four. Each group was played as a single round-robin, with two points awarded for a win and one for a draw. The top two teams in each group advanced to the quarter-finals, after which the competition continued on a single-elimination basis through the semi-finals to the final, with a play-off to decide third place. Where teams finished level on points, places were determined first by goal difference and then by goals scored; no group placing required a play-off in 1716.
+
+Knockout matches level after 90 minutes were extended by a 30-minute period of extra time. Of the eight knockout fixtures, two were settled in extra time and the remainder in regulation play; no match required the replay that the laws of the period still allowed.
+
+==Draw==
+
+The draw was conducted in [[Tanbai]] on 14 March 1716. The host, [[Easuhura]], and the holders, [[Raledria]], were seeded and placed at the head of separate groups, as were [[Emara]] and [[Lycroa]] on the basis of their records at the previous two editions.
+
+{| class="wikitable" style="text-align:center;"
+|-
+! width="25%" | Group A
+! width="25%" | Group B
+! width="25%" | Group C
+! width="25%" | Group D
+|-
+| {{Flagicon|Raledria}} [[Raledria]]
+| {{Flagicon|Emara}} [[Emara]]
+| ''{{Flagicon|Easuhura}} [[Easuhura]]''
+| {{Flagicon|Lycroa}} [[Lycroa]]
+|-
+| {{Flagicon|Praesyu}} [[Praesyu]]
+| {{Flagicon|Verusa}} [[Verusa]]
+| {{Flagicon|United Delet}} [[United Delet]]
+| {{Flagicon|Taval}} [[Taval]]
+|-
+| {{Flagicon|Quidic}} [[Quidic]]
+| {{Flagicon|Seytinemas}} [[Seytinemas]]
+| {{Flagicon|Dahe}} [[Dahe]]
+| {{Flagicon|Siana}} [[Siana]]
+|-
+| {{Flagicon|Reerica}} [[Reerica]]
+| {{Flagicon|New Misos}} [[New Misos]]
+| {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+| {{Flagicon|Eldjo}} [[Eldjo]]
+|}
+''Host is shown in italics.''
+
+==Group stage==
+
+All times are local. The top two teams of each group, shown in green, advanced to the knockout stage.
+
+===Group A===
+
+{| class="wikitable" style="text-align: center;"
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 3 || 0 || 0 || 7 || 2 || +5 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 1 || 1 || 1 || 6 || 5 || +1 || 3 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|-
+| 3 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 1 || 1 || 1 || 5 || 5 || 0 || 3 ||
+|-
+| 4 || align="left" | {{Flagicon|Reerica}} [[Reerica]] || 3 || 0 || 0 || 3 || 2 || 8 || −6 || 0 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 28 May 1716 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 3–0 || {{Flagicon|Reerica}} Reerica || align="left" | Paviri Athletic Ground, [[Paviri]]
+|-
+| align="left" | 28 May 1716 || align="right" | Praesyu {{Flagicon|Praesyu}} || 2–2 || {{Flagicon|Quidic}} Quidic || align="left" | Bokayek Municipal Ground, [[Bokayek]]
+|-
+| align="left" | 2 June 1716 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Quidic}} Quidic || align="left" | Paviri Athletic Ground, [[Paviri]]
+|-
+| align="left" | 2 June 1716 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–1 || {{Flagicon|Reerica}} Reerica || align="left" | Bokayek Municipal Ground, [[Bokayek]]
+|-
+| align="left" | 7 June 1716 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Praesyu}} Praesyu || align="left" | Paviri Athletic Ground, [[Paviri]]
+|-
+| align="left" | 7 June 1716 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 2–1 || {{Flagicon|Reerica}} Reerica || align="left" | Bokayek Municipal Ground, [[Bokayek]]
+|}
+
+===Group B===
+
+{| class="wikitable" style="text-align: center;"
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 8 || 4 || +4 || 5 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 2 || 1 || 0 || 6 || 4 || +2 || 5 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|-
+| 3 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 3 || 1 || 0 || 2 || 5 || 7 || −2 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || 3 || 0 || 0 || 3 || 4 || 8 || −4 || 0 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 28 May 1716 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–1 || {{Flagicon|New Misos}} New Misos || align="left" | Chayek Civic Stadium, [[Chayek]]
+|-
+| align="left" | 28 May 1716 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Lachon Arraby Park, [[Lachon]]
+|-
+| align="left" | 2 June 1716 || align="right" | Emara {{Flagicon|Emara}} || 2–2 || {{Flagicon|Verusa}} Verusa || align="left" | Chayek Civic Stadium, [[Chayek]]
+|-
+| align="left" | 2 June 1716 || align="right" | '''Seytinemas''' {{Flagicon|Seytinemas}} || 3–2 || {{Flagicon|New Misos}} New Misos || align="left" | Lachon Arraby Park, [[Lachon]]
+|-
+| align="left" | 7 June 1716 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–1 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Chayek Civic Stadium, [[Chayek]]
+|-
+| align="left" | 7 June 1716 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|New Misos}} New Misos || align="left" | Lachon Arraby Park, [[Lachon]]
+|}
+
+===Group C===
+
+{| class="wikitable" style="text-align: center;"
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|United Delet}} '''[[United Delet]]''' || 3 || 2 || 1 || 0 || 5 || 3 || +2 || 5 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|-
+| 3 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 1 || 0 || 2 || 5 || 6 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 0 || 3 || 3 || 7 || −4 || 0 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 27 May 1716 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–0 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Tanbai National Stadium, [[Tanbai]]
+|-
+| align="left" | 27 May 1716 || align="right" | '''United Delet''' {{Flagicon|United Delet}} || 2–1 || {{Flagicon|Dahe}} Dahe || align="left" | Boklan Coastal Stadium, [[Boklan]]
+|-
+| align="left" | 1 June 1716 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–1 || {{Flagicon|Dahe}} Dahe || align="left" | Tanbai National Stadium, [[Tanbai]]
+|-
+| align="left" | 1 June 1716 || align="right" | '''United Delet''' {{Flagicon|United Delet}} || 2–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Boklan Coastal Stadium, [[Boklan]]
+|-
+| align="left" | 6 June 1716 || align="right" | Easuhura {{Flagicon|Easuhura}} || 1–1 || {{Flagicon|United Delet}} United Delet || align="left" | Tanbai National Stadium, [[Tanbai]]
+|-
+| align="left" | 6 June 1716 || align="right" | '''Dahe''' {{Flagicon|Dahe}} || 3–2 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Boklan Coastal Stadium, [[Boklan]]
+|}
+
+===Group D===
+
+{| class="wikitable" style="text-align: center;"
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 3 || 0 || 0 || 7 || 3 || +4 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Taval}} '''[[Taval]]''' || 3 || 1 || 1 || 1 || 5 || 5 || 0 || 3 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+|-
+| 3 || align="left" | {{Flagicon|Siana}} [[Siana]] || 3 || 1 || 0 || 2 || 4 || 5 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 3 || 0 || 1 || 2 || 4 || 7 || −3 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 29 May 1716 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Phalanij Federal Ground, [[Phalanij]]
+|-
+| align="left" | 29 May 1716 || align="right" | '''Taval''' {{Flagicon|Taval}} || 2–1 || {{Flagicon|Siana}} Siana || align="left" | Khessli Sports Park, [[Khessli]]
+|-
+| align="left" | 3 June 1716 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Siana}} Siana || align="left" | Phalanij Federal Ground, [[Phalanij]]
+|-
+| align="left" | 3 June 1716 || align="right" | Taval {{Flagicon|Taval}} || 2–2 || {{Flagicon|Eldjo}} Eldjo || align="left" | Khessli Sports Park, [[Khessli]]
+|-
+| align="left" | 8 June 1716 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Taval}} Taval || align="left" | Phalanij Federal Ground, [[Phalanij]]
+|-
+| align="left" | 8 June 1716 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Khessli Sports Park, [[Khessli]]
+|}
+
+==Knockout stage==
+
+The knockout stage comprised the eight teams that advanced from the group stage. The four group winners were drawn against the four group runners-up, with each pairing bringing together teams from different groups. The matches were the highest-scoring of any FLLA World Cup knockout round to that date, a distinction that survived until the [[1748 FLLA World Cup|1748 edition]].<ref name="knockoutscoring">{{cite web|url=https://www.flla.org/archive/knockout-scoring-records|title=Knockout-stage scoring records, 1656–1764|publisher=[[FLLA]]|date=12 August 1748}}</ref>
+
+===Bracket===
+
+{{#invoke:RoundN|main|columns=3|widescore=yes
+|RD1=[[#Quarter-finals|Quarter-finals]]
+|RD2=[[#Semi-finals|Semi-finals]]
+|RD3=[[#Final|Final]]
+|Consol=[[#Third place playoff|Third-place playoff]]
+<!--Date-Place/Team 1/Score 1/Team 2/Score 2 -->
+<!-- quarter-finals -->
+|14 June – [[Tanbai]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''3'''|{{Flagicon|Verusa}} [[Verusa]]|2
+|14 June – [[Chayek]]|'''{{Flagicon|Emara}} [[Emara]]'''|'''3'''|{{Flagicon|Praesyu}} [[Praesyu]]|1
+|15 June – [[Phalanij]]|'''{{Flagicon|Easuhura}} [[Easuhura]]''' (a.e.t.)|'''2'''|{{Flagicon|Taval}} [[Taval]]|1
+|15 June – [[Khessli]]|'''{{Flagicon|Lycroa}} [[Lycroa]]'''|'''3'''|{{Flagicon|United Delet}} [[United Delet]]|2
+<!-- semi-finals -->
+|19 June – [[Tanbai]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''2'''|{{Flagicon|Easuhura}} [[Easuhura]]|1
+|19 June – [[Chayek]]|'''{{Flagicon|Emara}} [[Emara]]''' (a.e.t.)|'''3'''|{{Flagicon|Lycroa}} [[Lycroa]]|2
+<!-- final -->
+|24 June – [[Tanbai]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''2'''|{{Flagicon|Emara}} [[Emara]]|1
+<!-- match for third place -->
+|22 June – [[Phalanij]]|'''{{Flagicon|Easuhura}} [[Easuhura]]'''|'''3'''|{{Flagicon|Lycroa}} [[Lycroa]]|2
+}}
+
+===Quarter-finals===
+
+The holders, [[Raledria]], opened the round with a 3–2 win over [[Verusa]] in which Halvik Sorent scored twice, while [[Emara]] eased past [[Praesyu]] at [[Chayek]]. The host nation needed extra time to overcome [[Taval]], the winning goal coming from Arsen Phalavi nine minutes from the end of the additional period, and [[Lycroa]] survived a late rally by [[United Delet]] to win 3–2.
+
+{{Football box
+| date = {{Start date|1716|6|14|df=y}}
+| time = 16:00
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 3–2
+| team2 = {{Flagicon|Verusa}} [[Verusa]]
+| goals1 = Sorent {{Goal|18|63}}<br/>Korven {{Goal|40}}
+| goals2 = Aldhus {{Goal|55}}<br/>Vesmar {{Goal|77}}
+| stadium = Tanbai National Stadium, [[Tanbai]]
+| attendance = 49,800
+| referee = Maron Davek ([[Quidic]])
+}}
+----
+{{Football box
+| date = {{Start date|1716|6|14|df=y}}
+| time = 16:00
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 3–1
+| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
+| goals1 = Velkhan {{Goal|24|70}}<br/>Shaiku {{Goal|52}}
+| goals2 = Brevik {{Goal|81}}
+| stadium = Chayek Civic Stadium, [[Chayek]]
+| attendance = 38,400
+| referee = Tahir Sokhan ([[Easuhura]])
+}}
+----
+{{Football box
+| date = {{Start date|1716|6|15|df=y}}
+| time = 16:00
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 2–1 {{Aet}}
+| team2 = {{Flagicon|Taval}} [[Taval]]
+| goals1 = Bokan {{Goal|36}}<br/>Phalavi {{Goal|111}}
+| goals2 = Eskar {{Goal|58}}
+| stadium = Phalanij Federal Ground, [[Phalanij]]
+| attendance = 35,200
+| referee = Halsten Brun ([[Verusa]])
+}}
+----
+{{Football box
+| date = {{Start date|1716|6|15|df=y}}
+| time = 16:00
+| team1 = [[Lycroa]] {{Flagicon|Lycroa}}
+| score = 3–2
+| team2 = {{Flagicon|United Delet}} [[United Delet]]
+| goals1 = Velsani {{Goal|29|74}}<br/>Trezzini {{Goal|48}}
+| goals2 = Maalen {{Goal|61}}<br/>Doren {{Goal|88}}
+| stadium = Khessli Sports Park, [[Khessli]]
+| attendance = 31,900
+| referee = Inder Sandar ([[Dahe]])
+}}
+----
+
+===Semi-finals===
+
+In the first semi-final [[Raledria]] defeated the host nation 2–1 before a capacity crowd in [[Tanbai]], Edran Volkmar scoring the decisive goal early in the second half. The second semi-final, between [[Emara]] and [[Lycroa]] at [[Chayek]], went to extra time at 2–2 before Tomir Velkhan completed his hat-trick to send Emara through.
+
+{{Football box
+| date = {{Start date|1716|6|19|df=y}}
+| time = 17:00
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 2–1
+| team2 = {{Flagicon|Easuhura}} [[Easuhura]]
+| goals1 = Sorent {{Goal|22}}<br/>Volkmar {{Goal|53}}
+| goals2 = Phalavi {{Goal|68}}
+| stadium = Tanbai National Stadium, [[Tanbai]]
+| attendance = 51,600
+| referee = Inder Sandar ([[Dahe]])
+}}
+----
+{{Football box
+| date = {{Start date|1716|6|19|df=y}}
+| time = 17:00
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 3–2 {{Aet}}
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Velkhan {{Goal|14|59|104}}
+| goals2 = Velsani {{Goal|33}}<br/>Caltari {{Goal|72}}
+| stadium = Chayek Civic Stadium, [[Chayek]]
+| attendance = 40,300
+| referee = Maron Davek ([[Quidic]])
+}}
+----
+
+===Third place playoff===
+
+The host nation took third place, recovering from a goal down to beat [[Lycroa]] 3–2 at [[Phalanij]]. It was the best finish by a host since [[Lycroa]] won the [[1660 FLLA World Cup|1660 edition]] on home soil, and the result was widely credited with cementing the standing of the Easuhuran game after the country's late assumption of the hosting.<ref name="hostlegacy">{{cite news|url=https://www.bbc.co.uk/andah/sport/arraby/easuhura-1716-legacy|title=How 1716 made Easuhura an Arraby nation|publisher=BBC News Andah|date=23 June 1716}}</ref>
+
+{{Football box
+| date = {{Start date|1716|6|22|df=y}}
+| time = 17:00
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 3–2
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Bokan {{Goal|31}}<br/>Phalavi {{Goal|57}}<br/>Sokhan {{Goal|79}}
+| goals2 = Velsani {{Goal|12}}<br/>Trezzini {{Goal|65}}
+| stadium = Phalanij Federal Ground, [[Phalanij]]
+| attendance = 34,800
+| referee = Joren Maalen ([[United Delet]])
+}}
+----
+
+===Final===
+
+{{Main|1716 FLLA World Cup final}}
+
+The final was contested at the Tanbai National Stadium on 24 June 1716 before 52,000 spectators, the largest crowd recorded at the tournament. [[Raledria]] took the lead through Halvik Sorent in the first half and doubled it early in the second through captain Edran Volkmar; [[Emara]] replied through Tomir Velkhan with a quarter of an hour remaining but could not find an equaliser. The victory gave Raledria their third title and made them the first nation to retain the FLLA World Cup. The new [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented to Volkmar by the president of the FLLA at the close of the match, the first time the trophy was awarded.<ref name="finalreport">{{cite web|url=https://www.flla.org/competitions/world-cup/1716/final|title=1716 FLLA World Cup final: Raledria 2–1 Emara|publisher=[[FLLA]]|date=24 June 1716}}</ref>
+
+{{Football box
+| date = {{Start date|1716|6|24|df=y}}
+| time = 16:00
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 2–1
+| team2 = {{Flagicon|Emara}} [[Emara]]
+| goals1 = Sorent {{Goal|27}}<br/>Volkmar {{Goal|52}}
+| goals2 = Velkhan {{Goal|75}}
+| stadium = Tanbai National Stadium, [[Tanbai]]
+| attendance = 52,000
+| referee = Inder Sandar ([[Dahe]])
+}}
+
+==Statistics==
+
+===Goalscorers===
+
+A total of 114 goals were scored across the 32 matches, an average of 3.56 per match. Halvik Sorent of [[Raledria]] finished as the tournament's leading scorer with seven goals and was awarded the [[#Awards|Marskval]].<ref name="flla1716awards">{{cite web|url=https://www.flla.org/competitions/world-cup/1716/awards|title=1716 FLLA World Cup individual and team awards|publisher=[[FLLA]]|date=25 June 1716}}</ref>
+
+;7 goals
+* {{Flagicon|Raledria}} Halvik Sorent ([[Raledria]])
+;6 goals
+* {{Flagicon|Emara}} Tomir Velkhan ([[Emara]])
+;5 goals
+* {{Flagicon|Lycroa}} Marco Velsani ([[Lycroa]])
+* {{Flagicon|Easuhura}} Arsen Phalavi ([[Easuhura]])
+;4 goals
+* {{Flagicon|Verusa}} Wilhelm Aldhus ([[Verusa]])
+* {{Flagicon|Praesyu}} Galen Praes ([[Praesyu]])
+
+===Discipline===
+
+The disciplinary record of the tournament was regarded as good for the period. No player was sent off in the group stage, and the only dismissal of the competition came in the third-place playoff, when a Lycroan defender was ordered off for a second cautionable offence. The relatively open character of the matches was attributed at the time to the prohibition on outfield substitution, which discouraged heavily defensive selections.<ref name="hostlegacy"/>
+
+==Awards==
+
+Three individual honours were presented at the close of the tournament. These are recognised by the FLLA as early instances of the awards that have been presented in their present form since the [[1744 FLLA World Cup|1744 edition]].
+
+{| class="wikitable" style="text-align: center;"
+|+ 1716 FLLA World Cup awards
+! Award !! Recipient !! Notes
+|-
+| [[#Awards|FLLA Vairan Ball]] || align="left" | {{Flagicon|Raledria}} Edran Volkmar ([[Raledria]]) || best player of the tournament; captain and final scorer
+|-
+| [[#Awards|FLLA Marskval]] || align="left" | {{Flagicon|Raledria}} Halvik Sorent ([[Raledria]]) || top scorer (7 goals)
+|-
+| [[#Awards|FLLA Bastion]] || align="left" | {{Flagicon|Easuhura}} Davir Khalan ([[Easuhura]]) || best goalkeeper; conceded six goals in six matches
+|}
+
+==Final standings==
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Final standings
+! Pos !! Team !! Confederation !! Stage reached
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || [[ATFVL]] || align="left" | Champions
+|-
+| 2 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AYFVL]] || align="left" | Runners-up
+|-
+| 3 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || [[AYFVL]] || align="left" | Third place
+|-
+| 4 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AYFVL]] || align="left" | Fourth place
+|-
+| 5 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 6 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 7 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MSFVL]] || align="left" | Quarter-finals
+|-
+| 8 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFVL]] || align="left" | Quarter-finals
+|-
+| 9 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || [[QUFVL]] || align="left" | Group stage
+|-
+| 10 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || [[MSFVL]] || align="left" | Group stage
+|-
+| 11 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || [[MAFVL]] || align="left" | Group stage
+|-
+| 12 || align="left" | {{Flagicon|Siana}} [[Siana]] || [[AYFVL]] || align="left" | Group stage
+|-
+| 13 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || [[AYFVL]] || align="left" | Group stage
+|-
+| 14 || align="left" | {{Flagicon|Reerica}} [[Reerica]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 15 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 16 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || [[ATFVL]] || align="left" | Group stage
+|}
+
+==Symbols==
+
+===Trophies===
+
+The 1716 tournament was the first at which the current '''[[FLLA World Cup#The Andah Cup|Andah Cup]]''' was presented. The 38-centimetre silver-and-gold sculpture, depicting two stylised figures supporting a representation of the globe of [[Andah]], was the work of the [[Lycroa|Lycroan]] sculptor Mariosa Calvelli, whose design had been chosen from an open international competition opened by the FLLA in 1714 to replace the original Andah Cup lost during the [[Red War]]. The cup was held at the FLLA headquarters in [[Tirna]] until the closing ceremony, at which it was presented to the Raledrian captain Edran Volkmar.<ref name="trophy">{{cite web|url=https://www.flla.org/heritage/world-cup/andah-cup|title=The Andah Cup: history of the FLLA World Cup trophy|publisher=[[FLLA]]|date=1 March 1763}}</ref>
+
+In keeping with the tradition begun at the [[1700 FLLA World Cup|1700 edition]], the host federation also commissioned a permanent trophy. '''The Estren''', the work of an Easuhuran goldsmith for the Easuhuran Arraby Federation, was awarded to Raledria alongside the Andah Cup and is held in perpetuity at the Tirna National Museum.<ref name="trophy"/>
+
+===Match ball===
+
+The matches were played with a hand-stitched eighteen-panel leather ball produced in [[Tanbai]] and known as the ''Estrel''. It was the first match ball commissioned specifically for an FLLA World Cup rather than supplied by the host clubs.
+
+==Aftermath==
+
+Raledria's victory confirmed the side, drawn largely from the clubs of the [[Tirna]] region, as the dominant force of the early FLLA era; with titles in 1700, 1712 and 1716 they were the most successful nation of the competition's first six decades. The retention of the trophy was not matched again until the [[1736 FLLA World Cup|1736 edition]].
+
+For [[Easuhura]] the tournament was a lasting success. Having taken on the hosting at short notice, the federation delivered a profitable and well-attended competition and reached the semi-finals, and the 1716 edition is generally regarded as the foundation of the modern Easuhuran game; the country would go on to host again at the [[1764 FLLA World Cup|1764 edition]].<ref name="hostlegacy"/>
+
+[[Estijan]] served a single-edition suspension and was readmitted to qualification for the [[1720 FLLA World Cup|1720 tournament]], though the episode left a lasting mark on the country's standing in the Ayuman game. The affair prompted the FLLA to establish its first standing medical and disciplinary regulations, which were adopted by the Council in 1717. The 1716 competition, staged sixteen years after the resumption of the World Cup following the cancelled editions of [[Red War|1688, 1692 and 1696]], is often taken to mark the point at which the post-war FLLA era reached its full strength.<ref name="knockoutscoring"/>
 
 ==See also==
 * [[FLLA World Cup]]
 * [[1712 FLLA World Cup]]
 * [[1720 FLLA World Cup]]
+* [[FLLA]]
+* [[AYFVL]]
+* [[Easuhura]]
+* [[Raledria]]
 
 ==References==
 {{reflist}}
 
 [[Category:FLLA World Cup]]
+[[Category:International Arraby competitions]]
+[[Category:1716 in Arraby]]
+[[Category:Sports competitions in Easuhura]]

@@ -9,31 +9,609 @@
 |-
 | Continent || [[Ayuma]]
 |-
+| Dates || 25 May – 16 June 1728
+|-
 | Teams || 16 (from 7 confederations)
+|-
+| Venues || 8 (in 8 host cities)
+|-
+| Matches played || 32
+|-
+| Goals scored || 88 (2.75 per match)
+|-
+| Attendance || 1,138,000 (35,563 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Emara}} '''[[Emara]]'''
+| Champion || {{Flagicon|Emara}} '''[[Emara]]''' ''(3rd title)''
 |-
 | Runner-up || {{Flagicon|Taval}} [[Taval]]
 |-
-| Final score || 1-0
+| Third place || {{Flagicon|Verusa}} [[Verusa]]
+|-
+| Fourth place || {{Flagicon|Raledria}} [[Raledria]]
+|-
+| Final score || 1–0
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Emara}} Andrik Vossarin ([[Emara]]) (6 goals)
+|-
+| Best player || {{Flagicon|Emara}} Mirek Tavold ([[Emara]])
 |-
 | Previous: || ''[[1724 FLLA World Cup|1724]]''
 |-
 | Next: || ''[[1732 FLLA World Cup|1732]]''
 |}
 
-The '''1728 [[FLLA]] World Cup''' was the 15th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Emara]] across [[Ayuma]], and was won by [[Emara]], who defeated [[Taval]] 1-0 in the final.
+The '''1728 [[FLLA]] World Cup''' was the 15th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Emara]] across [[Ayuma]] from 25 May to 16 June 1728, and was won by the hosts [[Emara]], who defeated [[Taval]] 1–0 in the final at the Rivostan National Stadium in [[Rivostan]] to claim their third FLLA World Cup title. Sixteen nations qualified for the final tournament, drawn from the seven continental confederations of the [[FLLA]], and contested 32 matches across eight host venues in eight host cities.
 
-The 1728 edition reverted to the sixteen-team field used at every tournament before [[1724 FLLA World Cup|1724]], the 24-team format having been rolled back by the FLLA Council on cost grounds in March 1726. Hosted by [[Emara]], the tournament was won by the hosts for the second time, with [[Taval]] taken to a 1-0 defeat in the final at the principal venue in Emara's federal capital. The Emaran side conceded only twice across six fixtures and remain the only host nation to have lifted the trophy without trailing in any match of the tournament.
+The 1728 edition reverted to the sixteen-team field used at every tournament before the [[1724 FLLA World Cup|1724 edition]] in [[Areoix Lie]], the 24-team format introduced at that tournament having been rolled back by the FLLA Council on cost grounds in March 1726. The reduced field was reinstated at twenty-four teams for the [[1732 FLLA World Cup|1732 edition]] in [[Dahe]] four years later. Hosting rights were awarded to [[Emara]], the tournament returning to [[Ayuma]] for the fifth time in eight completed editions and to [[Emara]] specifically for the second time following the [[1704 FLLA World Cup|1704 edition]]. The competition fell a decade before the [[Lycroan reunification|Lycroan reunification of 1738]], in a period in which the Ayuman game was dominated by [[Emara]], [[Lycroa]] and [[Praesyu]].
+
+[[Emara]] won the tournament for the third time, all three of their titles having been won on home soil at the [[1672 FLLA World Cup|1672]], [[1704 FLLA World Cup|1704]] and 1728 editions. The Emaran side conceded only twice across six fixtures and remain the only host nation to have lifted the trophy without trailing in any match of the tournament. The runners-up [[Taval]], the [[MAFVL]] qualifier, reached the final from the round of the last eight by eliminating the [[1732 FLLA World Cup|1732]] finalists-to-be [[Lycroa]] and the [[ATFVL]] qualifier [[Raledria]] in turn; the run to the final remains the only occasion on which [[Taval]] have contested an FLLA World Cup final, and the best result by a [[MAFVL]] side at the tournament until the [[1740 FLLA World Cup|1740 edition]] in [[Seytinemas]].
+
+==Host selection==
+
+The bid from [[Emara]] was confirmed as host of the 1728 FLLA World Cup by the [[FLLA]] Council at a meeting held at the FLLA headquarters in [[Tirna]] on 14 March 1726. No formal confederation rotation policy was then in force; under the informal arrangement that had governed the choice of host since the [[1700 FLLA World Cup|1700 edition]], the FLLA Council exercised an open discretion subject only to the convention that successive cycles should not be staged on the same continent unless no suitable bid was available from another confederation. The award to [[Emara]] returned the tournament to [[Ayuma]] following the [[1724 FLLA World Cup|1724 edition]] in [[Areoix Lie]] ([[Acrola]]), the first held outside [[Ayuma]], [[Atirha]] and [[New Ayre]].<ref name="flla-host-1726">{{cite web|url=https://www.flla.org/1726/host-selection-emara|title=Emara confirmed as 1728 FLLA World Cup hosts|publisher=[[FLLA]]|date=14 March 1726}}</ref>
+
+The [[Emara|Emaran]] proposal, submitted under the umbrella of the Emaran Arraby Federation in November 1725, was the only complete bid before the FLLA Council at the close of the bidding window. An expression of interest from [[Praesyu]] was withdrawn in February 1726 in favour of a future cycle, and a preliminary approach from [[Raledria]] did not proceed to a formal submission. The selection was widely understood at the time as a recognition of the strength of the [[Emara|Emaran]] domestic game and of the readiness of the existing stadium network in the federal capital [[Rivostan]] and the larger provincial cities, which required only limited new construction to meet the FLLA's hosting requirements.<ref name="flla-host-1726" />
+
+At the same meeting the FLLA Council confirmed the reduction of the finals field from the twenty-four teams of the [[1724 FLLA World Cup|1724 edition]] back to sixteen, a decision taken principally on the grounds of the cost of the expanded 1724 tournament and the logistical strain it had placed on the host association. The reduction was framed by the Council as a temporary measure pending a review of the finances of the expanded format; the twenty-four-team field was duly reinstated for the [[1732 FLLA World Cup|1732 edition]] in [[Dahe]].<ref name="flla-format-1726">{{cite web|url=https://www.flla.org/1726/format-reduction|title=FLLA Council resolution 1726/1 on the reduction of the finals field to sixteen teams|publisher=[[FLLA]]|date=14 March 1726}}</ref>
+
+The total infrastructure budget pledged by the [[Emara|Emaran]] federal government and the Emaran Arraby Federation was {{lahn}}124&nbsp;million, of which {{lahn}}58&nbsp;million was directed towards stadium construction and renovation across the eight host cities, {{lahn}}44&nbsp;million towards transport upgrades, and {{lahn}}22&nbsp;million towards operational expenditure including security, the official radio programme and the volunteer scheme.<ref>{{cite web|url=https://www.earf.ema/1726/budget-statement|title=Budget statement of the Emaran Arraby Federation for the 1728 FLLA World Cup|publisher=Emaran Arraby Federation|date=2 May 1726}}</ref>
+
+==Format==
+
+The 16 qualified teams were divided into four groups of four for the first round, drawn at the [[#Final draw|final draw]] on 3 December 1727. Each group operated on a single round-robin basis, with each team playing three matches; teams were awarded three points for a win and one for a draw. The top two teams from each of the four groups advanced to the [[#Knockout stage|knockout stage]], an eight-team single-elimination round of quarter-finals, semi-finals and a final; the bottom two teams in each group were eliminated.
+
+In the knockout stage, fixtures were single-elimination ties played over 90 minutes; ties level at the end of normal time were extended by a single 30-minute period of [[wikipedia:Extra time|extra time]] of two 15-minute halves. The [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]] had not yet been adopted by the FLLA; a tie still level at the end of extra time would, under the rules then in force, have been decided by the drawing of lots, the procedure that had been in continuous operation since the inaugural [[1656 FLLA World Cup|1656 edition]] and that had famously settled the goalless [[1680 FLLA World Cup|1680 final]] between [[Lycroa]] and [[Eldjo]]. No tie at the 1728 tournament required recourse to the drawing of lots, all eight knockout fixtures being settled in normal or extra time. The penalty shoot-out was introduced under FLLA Council resolution 1729/7 in advance of the [[1732 FLLA World Cup|1732 edition]] and used for the first time at that tournament.<ref name="flla-tiebreak">{{cite web|url=https://www.flla.org/heritage/laws/tie-breaking-history|title=Tie-breaking procedures at the FLLA World Cup, 1656 to 1732|publisher=[[FLLA]]|date=18 January 1740}}</ref> The two semi-final losers contested a [[#Third place playoff|third-place playoff]] on the day before the final.
+
+==Participating teams==
+
+===Qualification===
+
+A total of 16 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. The host association [[Emara]] qualified as of right under FLLA hosting regulations and did not occupy an [[AYFVL]] place. The reduced sixteen-team field tightened the allocations relative to the expanded [[1724 FLLA World Cup|1724 edition]]: the FLLA Council confirmed five places to the [[AYFVL]] (including the host berth), three to the [[ATFVL]], two to the [[MAFVL]], two to the [[MSFVL]], two to the [[QUFVL]], one to the [[NAFVL]] and one to the [[ACFVL]].<ref>{{cite web|url=https://www.flla.org/1726/berth-allocation-1728|title=Continental berth allocation for the 1728 FLLA World Cup|publisher=[[FLLA]]|date=22 October 1726}}</ref> The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
+
+The most prominent absentee from the finals was [[Estijan]], beaten finalists of the [[1656 FLLA World Cup|1656]] and [[1668 FLLA World Cup|1668 editions]], who failed to qualify from the [[AYFVL]] competition for the first time since the introduction of the World Cup name in 1700.
+
+==== [[AYFVL]] (Ayuma) 5 berths ====
+Five qualifying groups; group winners qualify directly. The host association [[Emara]] qualified as of right. Qualified teams:
+* {{Flagicon|Emara}} [[Emara]] ''(host)''
+* {{Flagicon|Lycroa}} [[Lycroa]]
+* {{Flagicon|Verusa}} [[Verusa]]
+* {{Flagicon|Praesyu}} [[Praesyu]]
+* {{Flagicon|Darewa}} [[Darewa]]
+
+==== [[ATFVL]] (Atirha) 3 berths ====
+Four first-round groups followed by a final hexagonal round-robin. Qualified teams:
+* {{Flagicon|Raledria}} [[Raledria]]
+* {{Flagicon|New Misos}} [[New Misos]]
+* {{Flagicon|Genaire}} [[Genaire]]
+
+==== [[MAFVL]] (Mahea) 2 berths ====
+Two qualifying groups playing a single round-robin; group winners qualify directly. Qualified teams:
+* {{Flagicon|Taval}} [[Taval]]
+* {{Flagicon|Chaenia}} [[Chaenia]]
+
+==== [[MSFVL]] (Massir) 2 berths ====
+Three first-round groups followed by a final round-robin group. Qualified teams:
+* {{Flagicon|Dahe}} [[Dahe]]
+* {{Flagicon|Sanagara}} [[Sanagara]]
+
+==== [[QUFVL]] (Quia) 2 berths ====
+Four first-round groups followed by a single qualifying round-robin group. Qualified teams:
+* {{Flagicon|Finae}} [[Finae]]
+* {{Flagicon|Wundry}} [[Wundry]]
+
+==== [[NAFVL]] (New Ayre) 1 berth ====
+A single league-format competition of all member nations. Qualified team:
+* {{Flagicon|United Delet}} [[United Delet]]
+
+==== [[ACFVL]] (Acrola) 1 berth ====
+Three first-round groups followed by single-leg knockout playoffs. Qualified team:
+* {{Flagicon|Terressin}} [[Terressin]]
+
+===Final draw===
+
+The final draw for the first round was held at the Rivostan Exchange Hall on 3 December 1727, almost six months before the opening match. The 16 qualified teams were divided into four pots of four on the basis of pre-tournament [[FLLA]] standing, with the host [[Emara]] and the three highest-ranked sides ([[Lycroa]], [[Raledria]] and [[Verusa]]) placed in the seeded pot and assigned to the four group positions A1, B1, C1 and D1. The remaining three pots were arranged on geographical lines so as to maximise the continental diversity of each group.<ref>{{cite web|url=https://www.flla.org/1727/draw-procedures|title=Procedures for the 1728 FLLA World Cup final draw|publisher=[[FLLA]]|date=14 October 1727}}</ref>
+
+{|class="wikitable" style="text-align:center;"
+|-
+! width="22%" | Group A
+! width="22%" | Group B
+! width="22%" | Group C
+! width="22%" | Group D
+|-
+| ''{{Flagicon|Emara}} [[Emara]]''
+| {{Flagicon|Lycroa}} [[Lycroa]]
+| {{Flagicon|Raledria}} [[Raledria]]
+| {{Flagicon|Verusa}} [[Verusa]]
+|-
+| {{Flagicon|Genaire}} [[Genaire]]
+| {{Flagicon|New Misos}} [[New Misos]]
+| {{Flagicon|Darewa}} [[Darewa]]
+| {{Flagicon|Praesyu}} [[Praesyu]]
+|-
+| {{Flagicon|Finae}} [[Finae]]
+| {{Flagicon|Wundry}} [[Wundry]]
+| {{Flagicon|Taval}} [[Taval]]
+| {{Flagicon|Sanagara}} [[Sanagara]]
+|-
+| {{Flagicon|Terressin}} [[Terressin]]
+| {{Flagicon|Chaenia}} [[Chaenia]]
+| {{Flagicon|Dahe}} [[Dahe]]
+| {{Flagicon|United Delet}} [[United Delet]]
+|}
+''Host is shown in italics.''
+
+===Officials===
+
+The FLLA Referees Committee appointed 12 refereeing trios, each consisting of one referee and two assistants from the same national association, drawn from a pool of nine nations and representing all seven [[FLLA]] confederations. The selections were announced in February 1728 following an assessment programme at senior friendlies. Under the host-association exclusion rules then in force, no [[AYFVL]] referee was eligible to take charge of any match involving the hosts [[Emara]].<ref>{{cite web|url=https://www.flla.org/1728/officials-announced|title=Match officials confirmed for the 1728 FLLA World Cup|publisher=[[FLLA]]|date=20 February 1728}}</ref>
+
+The opening match was refereed by Aldous Verrick of [[Raledria]] ([[ATFVL]]). The final was officiated by Cesar Olvani of [[Praesyu]] ([[AYFVL]]), the [[Praesyu|Praesyuan]] official taking charge of an FLLA World Cup final for the only time in his career.
+
+==Squads==
+
+Each participating squad consisted of 20 players, two of whom were required to be goalkeepers, under the squad allocation then in force; the 22-player squad limit familiar from the modern competition was not adopted until the FLLA Council resolution of 1730 and was first used at the [[1732 FLLA World Cup|1732 edition]]. A total of 320 players were registered for the 1728 tournament. Each participating national association was required to confirm its final squad with the FLLA no later than seven days before the opening match.<ref>{{cite web|url=https://www.earf.ema/1728/squad-rules|title=Squad regulations for the 1728 FLLA World Cup|publisher=Emaran Arraby Federation|date=12 May 1728}}</ref>
+
+The hosts [[Emara]] were captained by central midfielder Mirek Tavold, then 29 years old, and were managed by Valdek Soren, in his second tournament as the Emaran head coach following the [[1724 FLLA World Cup|1724 edition]]. The runners-up [[Taval]] were captained by forward Vaitu Marenga and managed by Teiru Hanalo, the first [[MAFVL]] coach to lead a side to an FLLA World Cup final.
+
+==Venues==
+
+Eight stadiums in eight host cities were used in the final tournament, all located in [[Emara]]. Two of the eight venues were newly built or substantially redeveloped for the tournament; the remaining six were existing top-flight venues that received targeted upgrades to seating. The opening match was held at the Rivostan National Stadium in the federal capital [[Rivostan]], the largest and most prestigious stadium in the host country, which also staged one quarter-final, one semi-final and the final. The second semi-final was held at the Khalzhun Olympic Ground in [[Khalzhun]], the host country's second city, and the third-place playoff at the Shaikuv Central Stadium in [[Shaikuv]].
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Stadiums of the 1728 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Rivostan]] || align="left" | Rivostan National Stadium || 65,000 || align="left" | Opening match; final; semi-final; quarter-final; first round
+|-
+| align="left" | [[Khalzhun]] || align="left" | Khalzhun Olympic Ground || 48,000 || align="left" | Semi-final; quarter-final; first round
+|-
+| align="left" | [[Shaikuv]] || align="left" | Shaikuv Central Stadium || 42,000 || align="left" | Third-place playoff; quarter-final; first round
+|-
+| align="left" | [[Yilovka]] || align="left" | Yilovka Sports Park || 38,000 || align="left" | Quarter-final; first round
+|-
+| align="left" | [[Borzhai]] || align="left" | Borzhai Stadium || 36,000 || align="left" | First round
+|-
+| align="left" | [[Tirzovik]] || align="left" | Tirzovik Arena || 34,000 || align="left" | First round
+|-
+| align="left" | [[Chishanov]] || align="left" | Chishanov Municipal Ground || 32,000 || align="left" | First round
+|-
+| align="left" | [[Baxian]] || align="left" | Baxian Stadium || 30,000 || align="left" | First round
+|}
+
+The '''Rivostan National Stadium''', in the federal capital [[Rivostan]], was the largest venue at the tournament and the principal final venue. The 65,000-seat ground, redeveloped between 1726 and 1728 from the older Rivostan City Ground, hosted the [[#Final|final]], the first [[#Semi-finals|semi-final]], one [[#Quarter-finals|quarter-final]] and three first-round fixtures including the opening match between the hosts [[Emara]] and [[Genaire]] on 25 May. The '''Khalzhun Olympic Ground''' in [[Khalzhun]], a 48,000-seat venue, was the second-largest stadium at the tournament and hosted the second [[#Semi-finals|semi-final]], one [[#Quarter-finals|quarter-final]] and three first-round fixtures. The remaining six venues each staged three first-round fixtures, with the [[Shaikuv]], [[Yilovka]] grounds additionally hosting a quarter-final apiece and the [[Shaikuv]] ground the third-place playoff.
+
+==Opening ceremony==
+
+The opening ceremony of the 1728 FLLA World Cup was held at the Rivostan National Stadium on 25 May 1728, before the kick-off of the opening match between the hosts [[Emara]] and [[Genaire]]. Directed by the [[Emara|Emaran]] stage producer Lessa Vorin, the ceremony lasted some twenty-five minutes and featured several hundred performers in a display drawing on the [[Emaran Renaissance|Renaissance]] and republican traditions of the host nation, with a closing sequence representing the seven continental confederations of the [[FLLA]] arrayed around the centre circle. Attending dignitaries included the head of state of [[Emara]], the President of the FLLA Council and the heads of the participating federations. The ceremony was carried live by the host radio service and relayed to a number of neighbouring countries, the broadcast forming part of the partial transcontinental radio relay that the [[1728 FLLA World Cup|1728 edition]] pioneered and that was extended to cover every fixture at the [[1732 FLLA World Cup|1732 edition]] four years later.<ref name="flla-radio-1728">{{cite web|url=https://www.flla.org/1728/broadcast-record|title=Broadcast record of the 1728 FLLA World Cup|publisher=[[FLLA]]|date=20 July 1728}}</ref>
+
+==First round==
+
+The 16 qualified teams were drawn into four groups of four. Each group operated on a single round-robin basis, with each team playing three matches; the top two finishers in each group advanced to the [[#Knockout stage|knockout stage]]. Group rankings were settled first on points (three for a win, one for a draw), then on goal difference and goals scored. The first round produced 68 goals across 24 matches at an average of 2.83 per match.
+
+All times listed are Standard Emaran Time ([[wikipedia:UTC|UTC]]+0).
+
+===Group A===
+{| class="wikitable" style="text-align: center;"
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' ''(H)'' || 3 || 3 || 0 || 0 || 7 || 1 || +6 || 9 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Genaire}} '''[[Genaire]]''' || 3 || 1 || 1 || 1 || 4 || 5 || −1 || 4
+|-
+| 3 || align="left" | {{Flagicon|Finae}} [[Finae]] || 3 || 1 || 0 || 2 || 3 || 5 || −2 || 3 ||
+|-
+| 4 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
+|}
+''(H) Host.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 25 May 1728 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–1 || {{Flagicon|Genaire}} Genaire || align="left" | Rivostan National Stadium, Rivostan
+|-
+| align="left" | 25 May 1728 || align="right" | '''Finae''' {{Flagicon|Finae}} || 2–1 || {{Flagicon|Terressin}} Terressin || align="left" | Khalzhun Olympic Ground, Khalzhun
+|-
+| align="left" | 29 May 1728 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Finae}} Finae || align="left" | Rivostan National Stadium, Rivostan
+|-
+| align="left" | 29 May 1728 || align="right" | Genaire {{Flagicon|Genaire}} || 1–1 || {{Flagicon|Terressin}} Terressin || align="left" | Khalzhun Olympic Ground, Khalzhun
+|-
+| align="left" | 1 June 1728 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Terressin}} Terressin || align="left" | Rivostan National Stadium, Rivostan
+|-
+| align="left" | 1 June 1728 || align="right" | '''Genaire''' {{Flagicon|Genaire}} || 2–1 || {{Flagicon|Finae}} Finae || align="left" | Khalzhun Olympic Ground, Khalzhun
+|}
+
+===Group B===
+{| class="wikitable" style="text-align: center;"
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|New Misos}} '''[[New Misos]]''' || 3 || 2 || 1 || 0 || 5 || 3 || +2 || 7
+|-
+| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 3 || 0 || 1 || 2 || 4 || 7 || −3 || 1 ||
+|-
+| 4 || align="left" | {{Flagicon|Chaenia}} [[Chaenia]] || 3 || 0 || 1 || 2 || 3 || 6 || −3 || 1 ||
+|}
+''Lycroa and New Misos finished level on points; Lycroa placed first on goal difference. Wundry and Chaenia finished level on points and goal difference; Wundry placed third on goals scored.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 26 May 1728 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Wundry}} Wundry || align="left" | Shaikuv Central Stadium, Shaikuv
+|-
+| align="left" | 26 May 1728 || align="right" | '''New Misos''' {{Flagicon|New Misos}} || 2–1 || {{Flagicon|Chaenia}} Chaenia || align="left" | Yilovka Sports Park, Yilovka
+|-
+| align="left" | 29 May 1728 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|New Misos}} New Misos || align="left" | Shaikuv Central Stadium, Shaikuv
+|-
+| align="left" | 29 May 1728 || align="right" | Wundry {{Flagicon|Wundry}} || 2–2 || {{Flagicon|Chaenia}} Chaenia || align="left" | Yilovka Sports Park, Yilovka
+|-
+| align="left" | 1 June 1728 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–0 || {{Flagicon|Chaenia}} Chaenia || align="left" | Shaikuv Central Stadium, Shaikuv
+|-
+| align="left" | 1 June 1728 || align="right" | '''New Misos''' {{Flagicon|New Misos}} || 2–1 || {{Flagicon|Wundry}} Wundry || align="left" | Yilovka Sports Park, Yilovka
+|}
+
+===Group C===
+{| class="wikitable" style="text-align: center;"
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Taval}} '''[[Taval]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 7
+|-
+| 3 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 4 || 6 || −2 || 1 ||
+|-
+| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 0 || 1 || 2 || 2 || 7 || −5 || 1 ||
+|}
+''Raledria and Taval finished level on points; Raledria placed first on goal difference.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 26 May 1728 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Darewa}} Darewa || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 26 May 1728 || align="right" | '''Taval''' {{Flagicon|Taval}} || 2–0 || {{Flagicon|Dahe}} Dahe || align="left" | Tirzovik Arena, Tirzovik
+|-
+| align="left" | 30 May 1728 || align="right" | Raledria {{Flagicon|Raledria}} || 1–1 || {{Flagicon|Taval}} Taval || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 30 May 1728 || align="right" | Darewa {{Flagicon|Darewa}} || 2–2 || {{Flagicon|Dahe}} Dahe || align="left" | Tirzovik Arena, Tirzovik
+|-
+| align="left" | 2 June 1728 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 3–0 || {{Flagicon|Dahe}} Dahe || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 2 June 1728 || align="right" | '''Taval''' {{Flagicon|Taval}} || 2–1 || {{Flagicon|Darewa}} Darewa || align="left" | Tirzovik Arena, Tirzovik
+|}
+
+===Group D===
+{| class="wikitable" style="text-align: center;"
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 6 || 3 || +3 || 7
+|-
+| 3 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 3 || 0 || 1 || 2 || 3 || 5 || −2 || 1 ||
+|-
+| 4 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 3 || 0 || 1 || 2 || 2 || 7 || −5 || 1 ||
+|}
+''Verusa and Praesyu finished level on points; Verusa placed first on goal difference.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 27 May 1728 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|Sanagara}} Sanagara || align="left" | Chishanov Municipal Ground, Chishanov
+|-
+| align="left" | 27 May 1728 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–1 || {{Flagicon|United Delet}} United Delet || align="left" | Baxian Stadium, Baxian
+|-
+| align="left" | 30 May 1728 || align="right" | Verusa {{Flagicon|Verusa}} || 1–1 || {{Flagicon|Praesyu}} Praesyu || align="left" | Chishanov Municipal Ground, Chishanov
+|-
+| align="left" | 30 May 1728 || align="right" | Sanagara {{Flagicon|Sanagara}} || 1–1 || {{Flagicon|United Delet}} United Delet || align="left" | Baxian Stadium, Baxian
+|-
+| align="left" | 2 June 1728 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 3–0 || {{Flagicon|United Delet}} United Delet || align="left" | Chishanov Municipal Ground, Chishanov
+|-
+| align="left" | 2 June 1728 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Sanagara}} Sanagara || align="left" | Baxian Stadium, Baxian
+|}
+
+==Knockout stage==
+
+The knockout stage involved the eight teams that advanced from the first round: the four group winners and the four group runners-up. Matches still level after 90 minutes were extended by a 30-minute period of [[wikipedia:Extra time|extra time]]; no provision for a penalty shoot-out was yet in force, a tie level after extra time being subject to the drawing of lots.<ref name="flla-tiebreak" /> One of the four quarter-finals, the tie between [[Taval]] and [[Lycroa]] at the Yilovka Sports Park, required extra time; the remaining seven knockout fixtures were settled inside 90 minutes. The cumulative goal total of 20 across the eight knockout matches at 2.50 per match was a slight reduction on the open scoring of the first round.
+
+===Bracket===
+{{#invoke:RoundN|main|columns=3|widescore=yes|3rdplace=yes
+|RD1=Quarter-finals
+|RD2=Semi-finals
+|RD3=Final
+|Consol=Third-place playoff
+<!-- quarter-finals -->
+|8 June – [[Rivostan]]|'''{{Flagicon|Emara}} [[Emara]]'''|'''2'''|{{Flagicon|Praesyu}} [[Praesyu]]|0
+|8 June – [[Khalzhun]]|'''{{Flagicon|Verusa}} [[Verusa]]'''|'''2'''|{{Flagicon|Genaire}} [[Genaire]]|1
+|9 June – [[Shaikuv]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''3'''|{{Flagicon|New Misos}} [[New Misos]]|1
+|9 June – [[Yilovka]]|'''{{Flagicon|Taval}} [[Taval]]''' (a.e.t.)|'''2'''|{{Flagicon|Lycroa}} [[Lycroa]]|1
+<!-- semi-finals -->
+|12 June – [[Rivostan]]|'''{{Flagicon|Emara}} [[Emara]]'''|'''2'''|{{Flagicon|Verusa}} [[Verusa]]|1
+|12 June – [[Khalzhun]]|{{Flagicon|Raledria}} [[Raledria]]|0|'''{{Flagicon|Taval}} [[Taval]]'''|'''1'''
+<!-- final -->
+|16 June – [[Rivostan]]|'''{{Flagicon|Emara}} [[Emara]]'''|'''1'''|{{Flagicon|Taval}} [[Taval]]|0
+<!-- third place playoff -->
+|15 June – [[Shaikuv]]|'''{{Flagicon|Verusa}} [[Verusa]]'''|'''2'''|{{Flagicon|Raledria}} [[Raledria]]|1
+}}
+
+===Quarter-finals===
+
+The four quarter-finals produced three results decided inside 90 minutes and one in extra time. The hosts [[Emara]] beat [[Praesyu]] 2–0 at the Rivostan National Stadium, forward Andrik Vossarin opening the scoring in the 27th minute and forward Halric Venn adding a second after the interval. [[Verusa]] beat [[Genaire]] 2–1 at the Khalzhun Olympic Ground, both [[Verusa|Verusan]] goals scored by forward Reiner Valsk. [[Raledria]] beat [[New Misos]] 3–1 at the Shaikuv Central Stadium in an [[ATFVL]] derby, forward Aurelio Mestri scoring twice. The tie of the round was the last quarter-final at the Yilovka Sports Park, in which the [[MAFVL]] qualifier [[Taval]] eliminated the seeded [[Lycroa]] 2–1 after extra time, forward Iremu Sahale equalising in normal time and scoring the decisive goal in the 104th minute. The result was the first defeat of a seeded side by an unseeded one in the knockout stage of an FLLA World Cup since the [[1716 FLLA World Cup|1716 edition]].
+
+{{Football box
+| date = {{Start date|1728|6|8|df=y}}
+| time = 17:00 SET
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 2–0
+| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
+| goals1 = Vossarin {{Goal|27}}<br/>Venn {{Goal|63}}
+| goals2 =
+| stadium = Rivostan National Stadium, [[Rivostan]]
+| attendance = 61,500
+| referee = Aldous Verrick ([[Raledria]])
+}}
+----
+{{Football box
+| date = {{Start date|1728|6|8|df=y}}
+| time = 17:00 SET
+| team1 = [[Verusa]] {{Flagicon|Verusa}}
+| score = 2–1
+| team2 = {{Flagicon|Genaire}} [[Genaire]]
+| goals1 = Valsk {{Goal|18|55}}
+| goals2 = Ferrar {{Goal|71}}
+| stadium = Khalzhun Olympic Ground, [[Khalzhun]]
+| attendance = 44,800
+| referee = Min-Hai Kuro ([[Wundry]])
+}}
+----
+{{Football box
+| date = {{Start date|1728|6|9|df=y}}
+| time = 17:00 SET
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 3–1
+| team2 = {{Flagicon|New Misos}} [[New Misos]]
+| goals1 = Mestri {{Goal|22|68}}<br/>Voltani {{Goal|44}}
+| goals2 = Tornas {{Goal|80}}
+| stadium = Shaikuv Central Stadium, [[Shaikuv]]
+| attendance = 40,200
+| referee = Halric Esden ([[Verusa]] support pair, excluded from Emara matches)
+}}
+----
+{{Football box
+| date = {{Start date|1728|6|9|df=y}}
+| time = 17:00 SET
+| team1 = [[Taval]] {{Flagicon|Taval}}
+| score = 2–1 {{Aet}}
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Sahale {{Goal|39|104}}
+| goals2 = Daleski {{Goal|61}}
+| stadium = Yilovka Sports Park, [[Yilovka]]
+| attendance = 37,600
+| referee = Bavik Anseri ([[United Delet]])
+}}
+
+===Semi-finals===
+
+The first semi-final at the Rivostan National Stadium was contested between the hosts [[Emara]] and [[Verusa]]. [[Emara]] led 2–0 by the 49th minute through a fourth-minute opener from forward Andrik Vossarin and a second from captain Mirek Tavold; [[Verusa]] pulled a goal back through forward Reiner Valsk in the 78th minute but could not find an equaliser, and the hosts held on for a 2–1 win to reach their first FLLA World Cup final since the [[1716 FLLA World Cup|1716 edition]] in [[Easuhura]]. The result preserved the [[Emara|Emaran]] record of never having trailed in any match of the tournament.
+
+The second semi-final at the Khalzhun Olympic Ground was the continuation of [[Taval]]'s run, in which the [[MAFVL]] side beat [[Raledria]] 1–0, a single goal from forward Iremu Sahale in the 58th minute settling the tie. The win carried [[Taval]] to the only FLLA World Cup final in their history and made them the first [[MAFVL]] side to reach the final of the competition.
+
+{{Football box
+| date = {{Start date|1728|6|12|df=y}}
+| time = 17:00 SET
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 2–1
+| team2 = {{Flagicon|Verusa}} [[Verusa]]
+| goals1 = Vossarin {{Goal|4}}<br/>Tavold {{Goal|49}}
+| goals2 = Valsk {{Goal|78}}
+| stadium = Rivostan National Stadium, [[Rivostan]]
+| attendance = 62,000
+| referee = Aldous Verrick ([[Raledria]])
+}}
+----
+{{Football box
+| date = {{Start date|1728|6|12|df=y}}
+| time = 17:00 SET
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 0–1
+| team2 = {{Flagicon|Taval}} [[Taval]]
+| goals1 =
+| goals2 = Sahale {{Goal|58}}
+| stadium = Khalzhun Olympic Ground, [[Khalzhun]]
+| attendance = 45,100
+| referee = Cesar Olvani ([[Praesyu]])
+}}
+
+===Third place playoff===
+
+The third-place playoff was contested between the two losing semi-finalists at the Shaikuv Central Stadium on 15 June. [[Verusa]] beat [[Raledria]] 2–1, forward Reiner Valsk scoring his fourth goal of the tournament and forward Otto Brunn adding a second; [[Raledria]] replied through Aurelio Mestri but could not force an equaliser. The result gave the [[1724 FLLA World Cup|1724 champions]] [[Verusa]] a second consecutive top-three finish.
+
+{{Football box
+| date = {{Start date|1728|6|15|df=y}}
+| time = 17:00 SET
+| team1 = [[Verusa]] {{Flagicon|Verusa}}
+| score = 2–1
+| team2 = {{Flagicon|Raledria}} [[Raledria]]
+| goals1 = Valsk {{Goal|33}}<br/>Brunn {{Goal|70}}
+| goals2 = Mestri {{Goal|81}}
+| stadium = Shaikuv Central Stadium, [[Shaikuv]]
+| attendance = 38,400
+| referee = Min-Hai Kuro ([[Wundry]])
+}}
+
+===Final===
+
+The final was contested between the hosts [[Emara]] and [[Taval]] on 16 June 1728 at the Rivostan National Stadium in [[Rivostan]] in front of an attendance of 62,000, the largest crowd at any match of the tournament. [[Emara]] reached the final having scored eleven goals across their five previous fixtures and conceded only one; [[Taval]] had reached the final on the strength of a defensive record of just three goals conceded across five matches and the goalscoring of forward Iremu Sahale.
+
+The match was a tight, low-scoring affair in keeping with the cautious orientation of the knockout stage. The only goal came in the 73rd minute, when [[Emara|Emaran]] forward Andrik Vossarin met a cross from captain Mirek Tavold at the near post and finished past the [[Taval|Tavalese]] goalkeeper for his sixth goal of the tournament, settling his position as the leading individual scorer of the competition. [[Taval]] pressed for an equaliser in the closing stages but were unable to break down the [[Emara|Emaran]] defence, which kept its fourth clean sheet of the tournament. The 1–0 victory gave [[Emara]] their third FLLA World Cup title and confirmed them as the only host nation to have lifted the trophy without trailing in any match of the tournament.<ref name="flla-final-1728">{{cite web|url=https://www.flla.org/1728/final-report|title=Match report: 1728 FLLA World Cup final, Emara 1–0 Taval|publisher=[[FLLA]]|date=17 June 1728}}</ref>
+
+{{Football box
+| date = {{Start date|1728|6|16|df=y}}
+| time = 18:00 SET
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 1–0
+| team2 = {{Flagicon|Taval}} [[Taval]]
+| goals1 = Vossarin {{Goal|73}}
+| goals2 =
+| stadium = Rivostan National Stadium, [[Rivostan]]
+| attendance = 62,000
+| referee = Cesar Olvani ([[Praesyu]])
+}}
+
+==Statistics==
+
+===Goalscoring===
+
+[[Emara]] finished as the tournament's leading goalscoring nation with 12 goals across six matches, ahead of [[Verusa]] (11 in six) and [[Raledria]] (10 in six). The overall goal-per-match average of 2.75 across 32 matches was a modest figure by the standards of the period, reflecting the more cautious knockout stage that followed an open first round. The leading individual scorer of the tournament was [[Emara|Emaran]] forward Andrik Vossarin with six goals, ahead of [[Taval|Tavalese]] forward Iremu Sahale with five.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Leading goalscoring nations
+! Rank !! Team !! Goals !! Matches
+|-
+| 1 || align="left" | {{Flagicon|Emara}} [[Emara]] ''(H)'' || 12 || 6
+|-
+| 2 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 11 || 6
+|-
+| 3 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 10 || 6
+|-
+| 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 8 || 6
+|-
+| 5 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 7 || 4
+|-
+| 5 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 6 || 4
+|}
+
+===Top individual scorers===
+
+The tournament produced no formal individual goalscorer's award; the modern top-scorer prize, the [[FLLA Marskval]], was not adopted in its current form until the [[1744 FLLA World Cup|1744 edition]]. The FLLA's Goalscoring Secretariat published a leading-scorer table at the conclusion of the competition, headed by [[Emara|Emaran]] forward Andrik Vossarin with six goals.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Top individual goalscorers
+! Rank !! Player !! Team !! Goals
+|-
+| 1 || align="left" | Andrik Vossarin || align="left" | {{Flagicon|Emara}} [[Emara]] || 6
+|-
+| 2 || align="left" | Iremu Sahale || align="left" | {{Flagicon|Taval}} [[Taval]] || 5
+|-
+| 3 || align="left" | Reiner Valsk || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 4
+|-
+| 3 || align="left" | Aurelio Mestri || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 4
+|-
+| 5 || align="left" | Mirek Tavold || align="left" | {{Flagicon|Emara}} [[Emara]] || 3
+|-
+| 5 || align="left" | Vaitu Marenga || align="left" | {{Flagicon|Taval}} [[Taval]] || 3
+|-
+| 5 || align="left" | Tomir Daleski || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 3
+|}
+
+===Discipline===
+
+The FLLA Disciplinary Committee issued a total of 71 yellow cards and 3 red cards across the 32 matches of the tournament. The three dismissals all occurred in the first round; no player was sent off in the knockout stage. The most-cautioned side was [[Wundry]], with seven yellow cards across their three first-round matches.<ref>{{cite web|url=https://www.flla.org/discipline/1728-summary|title=FLLA Disciplinary Committee report on the 1728 FLLA World Cup|publisher=[[FLLA]]|date=10 August 1728}}</ref>
+
+==Awards==
+
+The 1728 FLLA World Cup did not formally present any of the individual prizes now associated with the competition. The best-player award (the [[FLLA Vairan Ball]]), the top-scorer award (the [[FLLA Marskval]]) and the best-goalkeeper award (the [[FLLA Bastion]]) were all adopted in their present form only at the [[1744 FLLA World Cup|1744 edition]]. The FLLA's heritage archive nonetheless records, retrospectively, the leading performers of the 1728 tournament as the holders of the three awards: the Vairan Ball is credited to [[Emara|Emaran]] captain and central midfielder Mirek Tavold, whose creative play and assist for the winning goal of the [[#Final|final]] were singled out by contemporary observers; the Marskval to [[Emara|Emaran]] forward Andrik Vossarin, the tournament's leading scorer with six goals including the winning goal of the final; and the Bastion to the [[Emara|Emaran]] goalkeeper Velhardt Ostrau, whose side conceded only two goals across the six matches of the tournament.<ref>{{cite web|url=https://www.flla.org/heritage/awards/pre-1744-recognition|title=Retrospective recognition of pre-1744 tournament honours|publisher=[[FLLA]]|date=22 February 1745}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ 1728 tournament honours (recognised retrospectively)
+! Award !! Recipient !! Notes
+|-
+| [[FLLA Vairan Ball]] (best player) || align="left" | {{Flagicon|Emara}} Mirek Tavold ([[Emara]]) || captain; central midfielder
+|-
+| [[FLLA Marskval]] (top scorer) || align="left" | {{Flagicon|Emara}} Andrik Vossarin ([[Emara]]) || 6 goals
+|-
+| [[FLLA Bastion]] (best goalkeeper) || align="left" | {{Flagicon|Emara}} Velhardt Ostrau ([[Emara]]) || 2 goals conceded in 6 matches
+|-
+| Leading goalscoring nation || align="left" | {{Flagicon|Emara}} [[Emara]] || 12 goals
+|}
+
+==Final standings==
+
+Final standings of the 16 participating teams at the 1728 FLLA World Cup, as recorded in the FLLA heritage archive. The top four positions are determined by the results of the [[#Knockout stage|knockout stage]]; teams eliminated at the same stage are ranked by their record across the tournament as a whole.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Final standings
+! Pos !! Team !! Confederation !! Stage reached
+|-
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' ''(H)'' || [[AYFVL]] || align="left" | Champions
+|-
+| 2 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MAFVL]] || align="left" | Runners-up
+|-
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || [[AYFVL]] || align="left" | Third place
+|-
+| 4 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || [[ATFVL]] || align="left" | Fourth place
+|-
+| 5 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 6 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 7 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || [[ATFVL]] || align="left" | Quarter-finals
+|-
+| 8 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || [[ATFVL]] || align="left" | Quarter-finals
+|-
+| 9 || align="left" | {{Flagicon|Finae}} [[Finae]] || [[QUFVL]] || align="left" | First round
+|-
+| 10 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || [[AYFVL]] || align="left" | First round
+|-
+| 11 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || [[MSFVL]] || align="left" | First round
+|-
+| 12 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || [[QUFVL]] || align="left" | First round
+|-
+| 13 || align="left" | {{Flagicon|Chaenia}} [[Chaenia]] || [[MAFVL]] || align="left" | First round
+|-
+| 14 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || [[ACFVL]] || align="left" | First round
+|-
+| 15 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || [[MSFVL]] || align="left" | First round
+|-
+| 16 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFVL]] || align="left" | First round
+|}
+
+==Trophy==
+
+The 1728 FLLA World Cup was contested under the two-trophy system that had been in operation since the [[1716 FLLA World Cup|1716 edition]], pairing the rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] with a bespoke permanent trophy commissioned by the host federation. The current Andah Cup, a 38-centimetre silver-and-gold sculpture in use as the competition's rotating trophy since 1716, was presented to the [[Emara|Emaran]] champions at the closing ceremony of the [[#Final|final]] and held by them through the year of celebration that followed before its return to the FLLA in the spring of 1732.<ref>{{cite web|url=https://www.flla.org/heritage/trophies/andah-cup|title=The Andah Cup: design and history|publisher=[[FLLA]]|date=21 June 1763}}</ref>
+
+The permanent trophy of the 1728 edition, '''The Holcombe''', was commissioned by the Emaran Arraby Federation from a [[Emara|Emaran]] sculptor in advance of the tournament and was presented to the [[Emara|Emaran]] champions alongside the Andah Cup. As the permanent trophy of the edition it was retained by [[Emara]] in perpetuity and is displayed at the Emaran National Museum in [[Rivostan]]; it was the second permanent trophy won by [[Emara]] following the Wulfen of the [[1704 FLLA World Cup|1704 edition]].<ref>{{cite web|url=https://www.flla.org/heritage/trophies/permanent-trophy-register|title=Register of FLLA World Cup permanent trophies|publisher=[[FLLA]]|date=2 July 1764}}</ref>
+
+==Media and attendance==
+
+The 1728 FLLA World Cup was the first edition of the competition at which a partial transcontinental radio relay was used, enabling live commentary of a number of fixtures, including the [[#Final|final]], to be carried beyond the host nation to neighbouring countries by a consortium of broadcasters coordinated by the host radio service. The arrangement was a forerunner of the full single-relay coverage introduced at the [[1732 FLLA World Cup|1732 edition]] in [[Dahe]], at which every fixture of the tournament was carried.<ref name="flla-radio-1728" />
+
+Cumulative attendance across the 32 matches of the tournament was 1,138,000 spectators, an average of 35,563 per match. The highest single-match attendance was the 62,000 recorded at both the [[#Final|final]] and the first [[#Semi-finals|semi-final]] at the Rivostan National Stadium; the figure remained below the all-time single-match record until the [[1732 FLLA World Cup|1732 final]] in [[Fekunza]] drew a crowd of 74,800 four years later.
+
+==Aftermath==
+
+[[Emara]]'s victory was their third FLLA World Cup title, all three of which had been won on home soil, and confirmed the [[Emara|Emaran]] side as one of the strongest of the period alongside [[Lycroa]] and [[Raledria]]. As reigning champions, [[Emara]] qualified for the [[1732 FLLA World Cup|subsequent 1732 edition]] in [[Dahe]] through the [[AYFVL]] qualifying competition on merit, no formal defending-champion exemption then being in force; they would reach the final of that tournament before losing to [[Lycroa]] in the competition's first penalty shoot-out.
+
+The runners-up [[Taval]] did not build on their run to the final, and the 1728 tournament remains the only FLLA World Cup at which a [[MAFVL]] side has reached the final. The result is regularly cited in [[MAFVL]] football histories as the high point of the confederation's representation at the competition, a standing not seriously challenged until the [[Mahea|Mahean]] hosting of the [[1740 FLLA World Cup|1740 edition]] in [[Seytinemas]].
+
+The reduced sixteen-team field of the 1728 tournament was reversed at the [[1732 FLLA World Cup|1732 edition]], the FLLA Council reinstating the twenty-four-team format introduced at the [[1724 FLLA World Cup|1724 edition]] after a review of the finances of the expanded tournament. The next edition of the FLLA World Cup, the [[1732 FLLA World Cup]], was awarded to [[Dahe]] at the FLLA Council meeting of 18 March 1730, the first occasion on which an FLLA World Cup was awarded to a host in [[Massir]].<ref>{{cite web|url=https://www.flla.org/news/1730/host-selection-dahe|title=Dahe confirmed as 1732 FLLA World Cup hosts|publisher=[[FLLA]]|date=18 March 1730}}</ref>
 
 ==See also==
+* [[FLLA]]
 * [[FLLA World Cup]]
 * [[1724 FLLA World Cup]]
 * [[1732 FLLA World Cup]]
+* [[AYFVL]]
+* [[ATFVL]]
+* [[NAFVL]]
+* [[MAFVL]]
+* [[QUFVL]]
+* [[MSFVL]]
+* [[ACFVL]]
 
 ==References==
 {{reflist}}
 
 [[Category:FLLA World Cup]]
+[[Category:International Arraby competitions]]

@@ -1,0 +1,170 @@
+{{Infobox international football competition
+| name = 1704 FLLA World Cup qualification
+| image =
+| caption =
+| dates = July 1701 – April 1704
+| num_teams = 48 (entered)
+| associations = 7 confederations
+| matches = 196
+| goals = 612
+| top_scorer = {{Flagicon|Lycroa}} Davlan Kresimar (9 goals)
+| prevseason = ''[[1700 FLLA World Cup qualification|1700]]''
+| nextseason = ''[[1708 FLLA World Cup qualification|1708]]''
+}}
+
+The '''1704 [[FLLA]] World Cup qualification''' process determined the fifteen nations that joined the hosts [[Emara]] at the [[1704 FLLA World Cup]] final tournament. A total of 48 national associations entered the qualifying competition, an increase on the 41 that had contested the [[1700 FLLA World Cup qualification|1700 qualifying competition]] and the largest entry recorded to that date.<ref name="entries">{{cite web|url=https://www.flla.org/heritage/qualification/1704/entries|title=1704 FLLA World Cup qualification: 48 associations enter|publisher=[[FLLA]]|date=14 August 1701}}</ref> Each of the seven continental confederations of the [[FLLA]] administered its own qualifying tournament under guidance issued by the FLLA Council in June 1701, the format of each reflecting the size of the confederation's membership and its allocation of finals berths. It was the first qualifying competition organised under the FLLA's full seven-confederation structure, the [[ACFVL]] having been the last body admitted, in 1702.<ref name="guidance">{{cite web|url=https://www.flla.org/heritage/qualification/1704/guidance|title=FLLA guidance on confederation qualifying formats, 1704 cycle|publisher=[[FLLA]]|date=20 June 1701}}</ref>
+
+==Confederation allocations==
+
+The allocation of the sixteen finals berths was confirmed by the FLLA Council in June 1701. The hosts [[Emara]] received their berth as of right and took part in the [[AYFVL]] qualifying tournament on a non-binding basis. The remaining fifteen berths were divided as follows, much the largest share going to the [[AYFVL]] as the oldest and most numerous confederation.<ref name="allocation">{{cite web|url=https://www.flla.org/heritage/qualification/1704/allocation|title=FLLA Council confirms berth allocation for the 1704 World Cup|publisher=[[FLLA]]|date=22 June 1701}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ Berths by confederation
+! Confederation !! Region !! Berths !! Entries !! Berths&nbsp;awarded&nbsp;to
+|-
+| [[AYFVL]] || align="left" | Ayuma || 8 || 16 || align="left" | Lycroa, Eldjo, Estijan, Easuhura, Praesyu, Verusa, Siana, Alzuria
+|-
+| [[ATFVL]] || align="left" | Atirha || 2 || 8 || align="left" | Raledria, Etirha
+|-
+| [[NAFVL]] || align="left" | New Ayre || 1 || 6 || align="left" | United Delet
+|-
+| [[MAFVL]] || align="left" | Mahea || 1 || 5 || align="left" | Seytinemas
+|-
+| [[QUFVL]] || align="left" | Quia || 1 || 5 || align="left" | Quidic
+|-
+| [[MSFVL]] || align="left" | Massir || 1 || 4 || align="left" | Dahe
+|-
+| [[ACFVL]] || align="left" | Acrola || 1 || 4 || align="left" | Areoix Lie
+|-
+| ''Host'' || align="left" | [[Emara]] || 1 || – || align="left" | ''as of right''
+|-
+! Total !! !! 16 !! 48 !!
+|}
+
+==Qualifying tournaments==
+
+===AYFVL (Ayuma)===
+
+The [[AYFVL]] qualifying tournament was contested by sixteen national associations, including the hosts [[Emara]] on a non-binding basis. The teams were drawn into four groups of four playing a single round-robin programme between September 1701 and October 1703; the top two teams in each group qualified for the final tournament, the largest allocation of any confederation. Emara's results were recorded but did not count towards the qualifying places, the hosts having already qualified as of right.<ref name="ayfvl">{{cite web|url=https://www.ayfvl.org/competitions/world-cup-qualifying/1704|title=AYFVL qualifying competition for the 1704 FLLA World Cup|publisher=[[AYFVL]]|date=18 October 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ AYFVL qualified teams
+! Group !! Qualified !! !! Eliminated (notable)
+|-
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''', {{Flagicon|Verusa}} '''[[Verusa]]''' || &nbsp; || align="left" | {{Flagicon|Ukhdari}} [[Ukhdari]], {{Flagicon|Tonder}} Tonder
+|-
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''', {{Flagicon|Praesyu}} '''[[Praesyu]]''' || &nbsp; || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]], Palina
+|-
+| 3 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''', {{Flagicon|Easuhura}} '''[[Easuhura]]''' || &nbsp; || align="left" | {{Flagicon|Emara}} ''[[Emara]] (H, non-binding)'', Darewa
+|-
+| 4 || align="left" | {{Flagicon|Alzuria}} '''[[Alzuria]]''', {{Flagicon|Eldjo}} '''[[Eldjo]]''' || &nbsp; || align="left" | Yaxuto, Zenashan
+|}
+
+===ATFVL (Atirha)===
+
+The [[ATFVL]] qualifying tournament was contested by eight national associations in a single double round-robin league played between August 1701 and November 1703. The top two teams qualified. The reigning World Cup holders [[Raledria]], winners of the [[1700 FLLA World Cup]], qualified at the head of the table, with [[Etirha]] taking the second berth on goal average from [[New Misos]].<ref name="atfvl">{{cite web|url=https://www.atfvl.org/world-cup-qualifying/1704/table|title=ATFVL qualifying league: Raledria and Etirha advance|publisher=[[ATFVL]]|date=12 November 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ ATFVL final qualifying table (top four)
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 14 || 11 || 2 || 1 || 34 || 9 || 24
+|-
+| 2 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' || 14 || 8 || 3 || 3 || 24 || 14 || 19
+|-
+| 3 || align="left" | {{Flagicon|New Misos}} [[New Misos]] || 14 || 8 || 3 || 3 || 22 || 13 || 19
+|-
+| 4 || align="left" | {{Flagicon|Laselteh}} Laselteh || 14 || 6 || 4 || 4 || 19 || 16 || 16
+|}
+
+===NAFVL (New Ayre)===
+
+The [[NAFVL]] qualifying tournament was contested by six national associations in a single double round-robin league between September 1701 and August 1703; the winners qualified. [[United Delet]], who would host and win the following [[1708 FLLA World Cup|1708 edition]], finished top of the table to take the confederation's single berth.<ref name="nafvl">{{cite web|url=https://www.nafvl.org/competitions/1704-qualification/table|title=NAFVL qualifying league: United Delet qualify|publisher=[[NAFVL]]|date=30 August 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ NAFVL final qualifying table (top three)
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|United Delet}} '''[[United Delet]]''' || 10 || 8 || 1 || 1 || 25 || 7 || 17
+|-
+| 2 || align="left" | {{Flagicon|Iainoa}} Iainoa || 10 || 6 || 2 || 2 || 18 || 10 || 14
+|-
+| 3 || align="left" | {{Flagicon|Walporein}} Walporein || 10 || 5 || 2 || 3 || 16 || 12 || 12
+|}
+
+===MAFVL (Mahea)===
+
+The [[MAFVL]] qualifying tournament was contested by five national associations in a single round-robin league between October 1701 and September 1703; the winners qualified. [[Seytinemas]], who would host the [[1740 FLLA World Cup|1740 tournament]] decades later, finished top to take the confederation's first World Cup berth.<ref name="mafvl">{{cite web|url=https://www.mafvl.org/qualifying/1704/table|title=MAFVL qualifying league: Seytinemas qualify|publisher=[[MAFVL]]|date=14 September 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ MAFVL final qualifying table (top three)
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Seytinemas}} '''[[Seytinemas]]''' || 8 || 6 || 1 || 1 || 19 || 6 || 13
+|-
+| 2 || align="left" | {{Flagicon|Sivoso}} Sivoso || 8 || 5 || 1 || 2 || 15 || 9 || 11
+|-
+| 3 || align="left" | {{Flagicon|Trian}} Trian || 8 || 4 || 1 || 3 || 13 || 11 || 9
+|}
+
+===QUFVL (Quia)===
+
+The [[QUFVL]] qualifying tournament was contested by five national associations in a single round-robin league between September 1701 and August 1703; the winners qualified. [[Quidic]], who would go on to win the [[1756 FLLA World Cup|1756 tournament]], headed the table ahead of [[Erkizil]].<ref name="qufvl">{{cite web|url=https://www.qufvl.org/competitions/1704-qualifying/table|title=QUFVL qualifying league: Quidic qualify|publisher=[[QUFVL]]|date=22 August 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ QUFVL final qualifying table (top three)
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Quidic}} '''[[Quidic]]''' || 8 || 6 || 2 || 0 || 17 || 5 || 14
+|-
+| 2 || align="left" | {{Flagicon|Erkizil}} [[Erkizil]] || 8 || 5 || 1 || 2 || 16 || 9 || 11
+|-
+| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 8 || 4 || 1 || 3 || 12 || 11 || 9
+|}
+
+===MSFVL (Massir)===
+
+The [[MSFVL]] qualifying tournament was contested by four national associations in a single double round-robin league between October 1701 and October 1703; the winners qualified. [[Dahe]], who would host the [[1732 FLLA World Cup|1732 tournament]], took the confederation's single berth.<ref name="msfvl">{{cite web|url=https://www.msfvl.org/qualifying/1704/table|title=MSFVL qualifying league: Dahe qualify|publisher=[[MSFVL]]|date=18 October 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ MSFVL final qualifying table
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Dahe}} '''[[Dahe]]''' || 6 || 4 || 1 || 1 || 13 || 6 || 9
+|-
+| 2 || align="left" | {{Flagicon|Haiza}} Haiza || 6 || 3 || 1 || 2 || 11 || 8 || 7
+|-
+| 3 || align="left" | {{Flagicon|Taval}} [[Taval]] || 6 || 2 || 1 || 3 || 8 || 10 || 5
+|}
+
+===ACFVL (Acrola)===
+
+The [[ACFVL]], admitted to the [[FLLA]] only in 1702, contested its first World Cup qualifying tournament with four national associations in a single round-robin league between November 1702 and December 1703; the winners qualified. [[Areoix Lie]], who would later host the [[1724 FLLA World Cup|1724 tournament]], became the first Acrolan side to qualify for a World Cup.<ref name="acfvl">{{cite web|url=https://www.acfvl.org/competitions/1704-qualifying/table|title=ACFVL qualifying league: Areoix Lie qualify in the confederation's first campaign|publisher=[[ACFVL]]|date=20 December 1703}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ ACFVL final qualifying table
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Areoix Lie}} '''[[Areoix Lie]]''' || 6 || 5 || 0 || 1 || 14 || 5 || 10
+|-
+| 2 || align="left" | {{Flagicon|Terressin}} Terressin || 6 || 3 || 1 || 2 || 10 || 8 || 7
+|-
+| 3 || align="left" | {{Flagicon|Pelines}} Pelines || 6 || 2 || 1 || 3 || 7 || 11 || 5
+|}
+
+==Summary==
+
+A total of 196 matches were contested across the seven qualifying tournaments between July 1701 and April 1704, in which 612 goals were scored at an aggregate average of 3.12 per match.<ref name="summary">{{cite web|url=https://www.flla.org/heritage/qualification/1704/statistics|title=1704 FLLA World Cup qualification: matches, goals and statistics|publisher=[[FLLA]]|date=15 April 1704}}</ref> The leading individual goalscorer of the qualifying competition was the [[Lycroa|Lycroan]] forward Davlan Kresimar, who scored nine goals in the [[AYFVL]] tournament and added five more at the [[1704 FLLA World Cup|final tournament]]. The [[ACFVL]] competition was the first qualifying tournament staged by that confederation, completing the participation of all seven FLLA confederations in a World Cup qualifying cycle for the first time.
+
+==See also==
+* [[1704 FLLA World Cup]]
+* [[1704 FLLA World Cup squads]]
+* [[1700 FLLA World Cup qualification]]
+* [[1708 FLLA World Cup qualification]]
+* [[FLLA World Cup qualification]]
+
+==References==
+{{reflist}}
+
+[[Category:FLLA World Cup qualification]]
+[[Category:1704 FLLA World Cup| ]]

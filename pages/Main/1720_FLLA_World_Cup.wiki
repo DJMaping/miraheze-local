@@ -9,24 +9,472 @@
 |-
 | Continent || [[Atirha]]
 |-
+| Dates || 4 – 26 June 1720
+|-
 | Teams || 16 (from 7 confederations)
+|-
+| Venues || 5 (in 5 host cities)
+|-
+| Matches played || 32
+|-
+| Goals scored || 82 (2.56 per match)
+|-
+| Attendance || 838,400 (26,200 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Praesyu}} '''[[Praesyu]]'''
+| Champion || {{Flagicon|Praesyu}} '''[[Praesyu]]''' ''(1st title)''
 |-
 | Runner-up || {{Flagicon|Lycroa}} [[Lycroa]]
 |-
-| Final score || 4-0
+| Third place || {{Flagicon|Etirha}} [[Etirha]]
+|-
+| Fourth place || {{Flagicon|Raledria}} [[Raledria]]
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Praesyu}} Idris Calwen ([[Praesyu]]) (7 goals)
+|-
+| Best player || {{Flagicon|Praesyu}} Anrik Vossel ([[Praesyu]])
+|-
+| Best goalkeeper || {{Flagicon|Praesyu}} Toman Reyas ([[Praesyu]])
 |-
 | Previous: || ''[[1716 FLLA World Cup|1716]]''
 |-
 | Next: || ''[[1724 FLLA World Cup|1724]]''
 |}
 
-The '''1720 [[FLLA]] World Cup''' was the 13th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Etirha]] across [[Atirha]], and was won by [[Praesyu]], who defeated [[Lycroa]] 4-0 in the final.
+The '''1720 [[FLLA]] World Cup''' was the 13th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Etirha]] from 4 to 26 June 1720, the second edition of the competition to be staged in [[Atirha]] after the [[1700 FLLA World Cup|1700 tournament]] in [[Raledria]], and the first to be hosted by [[Etirha]].<ref name="flla-overview">{{cite web|url=https://www.flla.org/history/worldcup/1720/overview|title=1720 FLLA World Cup: tournament record|publisher=[[FLLA]]|date=1 July 1720}}</ref> Sixteen nations, drawn from the seven continental confederations of the [[FLLA]], contested 32 matches across five host cities.
 
-Held in [[Etirha]] and won by [[Praesyu]] with a 4-0 final-day victory over [[Lycroa]], the 1720 tournament is best remembered for the dominance of the Praesyan attacking line and for the trophy's first lifting by a side that had qualified through the [[AYFVL]] but who had also gone unbeaten across the entire competition. The 4-0 result remains the largest winning margin recorded in any FLLA World Cup final since the [[1660 FLLA World Cup|1660 edition]].
+[[Praesyu]] won the tournament, defeating [[Lycroa]] 4–0 in the [[#Final|final]] at the Grand Provinces Ground in [[Etirha|Albiran]] to claim their first World Cup title. Praesyu progressed through the competition without losing a match, their attacking line widely regarded as the outstanding feature of the tournament. The 4–0 result remains the largest winning margin recorded in any FLLA World Cup final since the [[1660 FLLA World Cup|1660 edition]].<ref name="flla-final">{{cite web|url=https://www.flla.org/history/worldcup/1720/final|title=Praesyu crowned 1720 FLLA World Cup champions|publisher=[[FLLA]]|date=27 June 1720}}</ref>
+
+The 1720 edition was the first World Cup held a full generation after the [[Red War]], which had forced the cancellation of three consecutive tournaments and the destruction of the original [[Andah Cup]]. It brought together former adversaries of that conflict in peacetime competition, and was contested while several participating nations, most notably runners-up [[Lycroa]], remained territorially divided in its aftermath. A total of 82 goals were scored in 32 matches at an average of 2.56 per match. Praesyan forward Idris Calwen was awarded the FLLA Marskval as the tournament's leading goalscorer with seven strikes, while his compatriot, the playmaker Anrik Vossel, took the FLLA Vairan Ball as the best player.<ref name="flla-awards">{{cite web|url=https://www.flla.org/history/worldcup/1720/awards|title=1720 FLLA World Cup individual awards|publisher=[[FLLA]]|date=26 June 1720}}</ref>
+
+==Host selection==
+
+[[Etirha]] was confirmed as the host of the 1720 FLLA World Cup by the [[FLLA]] Council in the spring of 1717. The decision continued the policy of geographical rotation that the FLLA had adopted on its reconstitution in 1700, under which the tournament had already travelled beyond [[Ayuma]] to [[Raledria]] in [[1700 FLLA World Cup|1700]] and to [[United Delet]] in [[1708 FLLA World Cup|1708]]; the award returned the competition to [[Atirha]] for the first time since that inaugural rebranded edition, and recognised the rapid growth of organised Arraby in the continent in the decades after the [[Red War]]. The bid of the Etirhan Arraby Federation prevailed over a rival proposal from neighbouring [[Raledria]], whose own bid was understood to have been deferred in the expectation that it would host a later edition.<ref name="eaf-host">{{cite web|url=https://www.flla.org/history/worldcup/1720/host-selection|title=Etirha awarded the 1720 FLLA World Cup|publisher=[[FLLA]]|date=14 May 1717}}</ref>
+
+The award was politically significant. Etirha, a federal republic that had united its constituent provinces at [[Etirha|Albiran]] in 1617 and secured its independence in 1650, had emerged from the [[Red War]] among the victorious nations, and the staging of the tournament was presented by the Etirhan Arraby Federation as a demonstration of the young republic's standing in the post-war order. The Federation committed {{lahn}}480,000 to the preparation and renovation of the five host grounds, a sum met partly by the participating municipalities and partly by a public subscription opened in Albiran in 1718.<ref name="eaf-host" />
+
+==Format==
+
+The sixteen qualified teams were divided into four groups of four for the group stage. Each group operated on a single round-robin basis, with each team playing three matches; teams were awarded three points for a win, one for a draw and none for a defeat. The top two teams from each group advanced to the [[#Knockout stage|knockout stage]], while the bottom two were eliminated. Teams level on points were separated first on goal difference, then on goals scored, and finally, if still level, by a drawing of lots conducted by the Etirhan organising committee.
+
+In the knockout stage, fixtures were single-elimination ties; a tie still level at the end of normal time was extended by a period of extra time, with the tie replayed should it remain undecided. The two losing semi-finalists contested a [[#Third place play-off|third-place play-off]]. In accordance with the laws of the period, no substitutions were permitted, and only the eleven players who began a match could take part in it. Both the rotating [[Andah Cup]], reintroduced four years earlier, and a bespoke permanent trophy were to be presented to the winners at the closing ceremony of the [[#Final|final]] (see [[#Trophies|Trophies]]).
+
+==Qualification==
+
+A total of sixteen places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format and the allocation of finals berths reflecting the size and strength of its membership; [[Ayuma]], whose [[AYFVL]] remained the most strongly represented confederation in the years after the [[Red War]], received the largest allocation. [[Etirha]] qualified as of right under FLLA hosting regulations.<ref name="flla-qual">{{cite web|url=https://www.flla.org/history/worldcup/1720/qualification|title=1720 FLLA World Cup qualification: confederation allocations|publisher=[[FLLA]]|date=20 March 1720}}</ref>
+
+The sixteen qualified teams, grouped by confederation, were as follows:
+
+==== [[AYFVL]] (Ayuma) – 5 berths ====
+* {{Flagicon|Praesyu}} [[Praesyu]]
+* {{Flagicon|Lycroa}} [[Lycroa]]
+* {{Flagicon|Emara}} [[Emara]]
+* {{Flagicon|Verusa}} [[Verusa]]
+* {{Flagicon|Easuhura}} [[Easuhura]]
+
+==== [[ATFVL]] (Atirha) – 2 berths ====
+* {{Flagicon|Etirha}} [[Etirha]] ''(hosts)''
+* {{Flagicon|Raledria}} [[Raledria]]
+
+==== [[MSFVL]] (Massir) – 2 berths ====
+* {{Flagicon|Dahe}} [[Dahe]]
+* {{Flagicon|Taval}} [[Taval]]
+
+==== [[MAFVL]] (Mahea) – 2 berths ====
+* {{Flagicon|Pelugrotoa}} [[Pelugrotoa]]
+* {{Flagicon|Seytinemas}} [[Seytinemas]]
+
+==== [[ACFVL]] (Acrola) – 2 berths ====
+* {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+* {{Flagicon|Sattle}} [[Sattle]]
+
+==== [[QUFVL]] (Quia) – 2 berths ====
+* {{Flagicon|Quidic}} [[Quidic]]
+* {{Flagicon|Finae}} [[Finae]]
+
+==== [[NAFVL]] (New Ayre) – 1 berth ====
+* {{Flagicon|United Delet}} [[United Delet]]
+
+==Venues==
+
+Five stadiums in five host cities were used in the final tournament, all of them in [[Etirha]]. By the standards of later editions the grounds were modest: the largest, the Grand Provinces Ground in the federal capital of [[Etirha|Albiran]], held some 45,000 spectators on a combination of covered stands and earth embankments, while the smallest, Talvasha Common, held around 22,000. Several of the venues had been laid out or enlarged specifically for the tournament, and most relied on temporary timber terracing that was removed once the competition had ended.<ref name="eaf-venues">{{cite web|url=https://www.flla.org/history/worldcup/1720/venues|title=Host grounds of the 1720 FLLA World Cup|publisher=Etirhan Arraby Federation|date=1 June 1720}}</ref>
+
+The Grand Provinces Ground in Albiran staged the opening match, the first semi-final and the final. The host group was based at the Tarkhuna Federal Ground, which also held a quarter-final and the second semi-final. The third-place play-off was contested at Talvasha Common, the most northerly of the venues.
+
+{| class="wikitable" style="text-align: center;"
+|+ Stadiums of the 1720 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Etirha|Albiran]] || align="left" | Grand Provinces Ground || 45,000 || align="left" | Opening match; Group A; semi-final; final
+|-
+| align="left" | Tarkhuna || align="left" | Tarkhuna Federal Ground || 32,000 || align="left" | Group C; quarter-final; semi-final
+|-
+| align="left" | Korvash || align="left" | Korvash Arraby Park || 30,000 || align="left" | Group B; quarter-final
+|-
+| align="left" | Mikhorin || align="left" | Mikhorin Embankment || 24,000 || align="left" | Group D; quarter-final
+|-
+| align="left" | Talvasha || align="left" | Talvasha Common || 22,000 || align="left" | Quarter-final; third-place play-off
+|}
+
+==Match officials==
+
+The FLLA Referees Committee appointed referees for the tournament from associations whose national teams had not qualified, so that no match was officiated by a national of either competing side. The officials were drawn from all seven confederations and travelled to Etirha by sea in the weeks before the opening match.<ref name="flla-officials">{{cite web|url=https://www.flla.org/history/worldcup/1720/officials|title=Match officials of the 1720 FLLA World Cup|publisher=[[FLLA]]|date=2 June 1720}}</ref>
+
+The opening match was refereed by Veiko Sandgren of [[Siana]], and the final by Joris Veltkamp of [[Genaire]], the first official from the [[ATFVL]] to take charge of a World Cup final. The two semi-finals were officiated by Marek Lindahl of [[Astye]] and Halvar Tomis of [[Wundry]].
+
+==Squads==
+
+Each of the sixteen participating associations registered a squad of fifteen players. As no substitutions were permitted under the laws of the period, only the eleven players named for a given match could appear in it, and the remaining squad members served as cover against injury and suspension between fixtures. The tournament was an amateur or semi-professional affair for almost all of the competing nations, with the great majority of players combining their Arraby with other employment; several members of the Etirhan and Praesyan squads travelled to the host cities only in the days before their opening matches.<ref name="flla-overview" />
+
+==Group stage==
+
+The sixteen qualified teams were drawn into four groups of four. Each group operated on a single round-robin basis, with each team playing three matches; the top two finishers in each group advanced to the [[#Knockout stage|knockout stage]] while the bottom two were eliminated. The host group, Group C, was the most closely contested of the four, with [[Etirha]] and [[Emara]] finishing level on points and separated only by goal difference, while [[Praesyu]] took maximum points from Group A.
+
+===Group A===
+{| class="wikitable" style="text-align: center;"
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 3 || 0 || 0 || 7 || 1 || +6 || 9 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 1 || 1 || 1 || 4 || 4 || 0 || 4
+|-
+| 3 || align="left" | {{Flagicon|Finae}} [[Finae]] || 3 || 0 || 2 || 1 || 3 || 6 || −3 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 3 || 0 || 1 || 2 || 3 || 6 || −3 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 5 June 1720 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–0 || {{Flagicon|Finae}} Finae || align="left" | Grand Provinces Ground, Albiran
+|-
+| align="left" | 5 June 1720 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|Taval}} Taval || align="left" | Grand Provinces Ground, Albiran
+|-
+| align="left" | 9 June 1720 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Grand Provinces Ground, Albiran
+|-
+| align="left" | 9 June 1720 || align="right" | Verusa {{Flagicon|Verusa}} || 1–1 || {{Flagicon|Finae}} Finae || align="left" | Grand Provinces Ground, Albiran
+|-
+| align="left" | 13 June 1720 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Verusa}} Verusa || align="left" | Grand Provinces Ground, Albiran
+|-
+| align="left" | 13 June 1720 || align="right" | Taval {{Flagicon|Taval}} || 2–2 || {{Flagicon|Finae}} Finae || align="left" | Grand Provinces Ground, Albiran
+|}
+
+===Group B===
+{| class="wikitable" style="text-align: center;"
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 7
+|-
+| 3 || align="left" | {{Flagicon|Sattle}} [[Sattle]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
+|-
+| 4 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 6 June 1720 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–0 || {{Flagicon|Sattle}} Sattle || align="left" | Korvash Arraby Park, Korvash
+|-
+| align="left" | 6 June 1720 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 1–0 || {{Flagicon|United Delet}} United Delet || align="left" | Korvash Arraby Park, Korvash
+|-
+| align="left" | 10 June 1720 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Korvash Arraby Park, Korvash
+|-
+| align="left" | 10 June 1720 || align="right" | Sattle {{Flagicon|Sattle}} || 1–1 || {{Flagicon|United Delet}} United Delet || align="left" | Korvash Arraby Park, Korvash
+|-
+| align="left" | 14 June 1720 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|United Delet}} United Delet || align="left" | Korvash Arraby Park, Korvash
+|-
+| align="left" | 14 June 1720 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–1 || {{Flagicon|Sattle}} Sattle || align="left" | Korvash Arraby Park, Korvash
+|}
+
+===Group C===
+{| class="wikitable" style="text-align: center;"
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' ''(H)'' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 7
+|-
+| 3 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 1 || 2 || 4 || 6 || −2 || 1 ||
+|-
+| 4 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
+|}
+''(H) Host.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 4 June 1720 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–0 || {{Flagicon|Quidic}} Quidic || align="left" | Grand Provinces Ground, Albiran
+|-
+| align="left" | 5 June 1720 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Tarkhuna Federal Ground, Tarkhuna
+|-
+| align="left" | 8 June 1720 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Tarkhuna Federal Ground, Tarkhuna
+|-
+| align="left" | 8 June 1720 || align="right" | '''Emara''' {{Flagicon|Emara}} || 1–0 || {{Flagicon|Quidic}} Quidic || align="left" | Tarkhuna Federal Ground, Tarkhuna
+|-
+| align="left" | 12 June 1720 || align="right" | Etirha {{Flagicon|Etirha}} || 1–1 || {{Flagicon|Emara}} Emara || align="left" | Tarkhuna Federal Ground, Tarkhuna
+|-
+| align="left" | 12 June 1720 || align="right" | Areoix Lie {{Flagicon|Areoix Lie}} || 2–2 || {{Flagicon|Quidic}} Quidic || align="left" | Tarkhuna Federal Ground, Tarkhuna
+|}
+
+===Group D===
+{| class="wikitable" style="text-align: center;"
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Dahe}} '''[[Dahe]]''' || 3 || 1 || 2 || 0 || 4 || 3 || +1 || 5
+|-
+| 3 || align="left" | {{Flagicon|Pelugrotoa}} [[Pelugrotoa]] || 3 || 1 || 0 || 2 || 2 || 3 || −1 || 3 ||
+|-
+| 4 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 3 || 0 || 1 || 2 || 4 || 6 || −2 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 6 June 1720 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Mikhorin Embankment, Mikhorin
+|-
+| align="left" | 7 June 1720 || align="right" | '''Dahe''' {{Flagicon|Dahe}} || 1–0 || {{Flagicon|Pelugrotoa}} Pelugrotoa || align="left" | Mikhorin Embankment, Mikhorin
+|-
+| align="left" | 10 June 1720 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 1–0 || {{Flagicon|Pelugrotoa}} Pelugrotoa || align="left" | Mikhorin Embankment, Mikhorin
+|-
+| align="left" | 11 June 1720 || align="right" | Dahe {{Flagicon|Dahe}} || 2–2 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Mikhorin Embankment, Mikhorin
+|-
+| align="left" | 14 June 1720 || align="right" | Raledria {{Flagicon|Raledria}} || 1–1 || {{Flagicon|Dahe}} Dahe || align="left" | Mikhorin Embankment, Mikhorin
+|-
+| align="left" | 14 June 1720 || align="right" | '''Pelugrotoa''' {{Flagicon|Pelugrotoa}} || 2–1 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Mikhorin Embankment, Mikhorin
+|}
+
+==Knockout stage==
+
+The knockout stage involved the eight teams that advanced from the group stage. Matches still level after 90 minutes were extended by a period of extra time. The quarter-final between [[Raledria]] and [[Emara]] was the only tie of the round to require additional time, Raledria prevailing 2–1 after a goalless extra period.
+
+===Bracket===
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Knockout stage bracket
+! Quarter-finals !! Semi-finals !! Final
+|-
+| align="left" | {{Flagicon|Praesyu}} '''Praesyu''' 3–1 {{Flagicon|Easuhura}} Easuhura || rowspan="2" align="left" | {{Flagicon|Praesyu}} '''Praesyu''' 2–0 {{Flagicon|Etirha}} Etirha || rowspan="4" align="left" | {{Flagicon|Praesyu}} '''Praesyu''' 4–0 {{Flagicon|Lycroa}} Lycroa
+|-
+| align="left" | {{Flagicon|Etirha}} '''Etirha''' 2–1 {{Flagicon|Dahe}} Dahe
+|-
+| align="left" | {{Flagicon|Lycroa}} '''Lycroa''' 2–0 {{Flagicon|Verusa}} Verusa || rowspan="2" align="left" | {{Flagicon|Lycroa}} '''Lycroa''' 1–0 {{Flagicon|Raledria}} Raledria
+|-
+| align="left" | {{Flagicon|Raledria}} '''Raledria''' 2–1 {{Flagicon|Emara}} Emara ''(a.e.t.)''
+|}
+''Third-place play-off: {{Flagicon|Etirha}} '''Etirha''' 2–1 {{Flagicon|Raledria}} Raledria.''
+
+===Quarter-finals===
+
+The four quarter-finals were played on 18 June. [[Praesyu]] continued their unbeaten run with a 3–1 win over [[Easuhura]], while the hosts [[Etirha]] overcame [[Dahe]] 2–1 before a capacity crowd at the Tarkhuna Federal Ground. [[Lycroa]] defeated [[Verusa]] 2–0, and [[Raledria]] needed extra time to see off [[Emara]] 2–1.
+
+{{Football box
+| date = {{Start date|1720|6|18|df=y}}
+| team1 = [[Praesyu]] {{Flagicon|Praesyu}}
+| score = 3–1
+| team2 = {{Flagicon|Easuhura}} [[Easuhura]]
+| goals1 = Calwen {{Goal|14|62}}<br/>Vossel {{Goal|55}}
+| goals2 = Harlan {{Goal|78}}
+| stadium = Grand Provinces Ground, [[Etirha|Albiran]]
+| attendance = 41,200
+| referee = Veiko Sandgren ([[Siana]])
+}}
+----
+{{Football box
+| date = {{Start date|1720|6|18|df=y}}
+| team1 = [[Etirha]] {{Flagicon|Etirha}}
+| score = 2–1
+| team2 = {{Flagicon|Dahe}} [[Dahe]]
+| goals1 = Mirkeln {{Goal|31}}<br/>Tarkhel {{Goal|70}}
+| goals2 = Pharo {{Goal|58}}
+| stadium = Tarkhuna Federal Ground, Tarkhuna
+| attendance = 30,800
+| referee = Halvar Tomis ([[Wundry]])
+}}
+----
+{{Football box
+| date = {{Start date|1720|6|18|df=y}}
+| team1 = [[Lycroa]] {{Flagicon|Lycroa}}
+| score = 2–0
+| team2 = {{Flagicon|Verusa}} [[Verusa]]
+| goals1 = Marlo {{Goal|22}}<br/>Venn {{Goal|66}}
+| goals2 =
+| stadium = Korvash Arraby Park, Korvash
+| attendance = 28,500
+| referee = Marek Lindahl ([[Astye]])
+}}
+----
+{{Football box
+| date = {{Start date|1720|6|18|df=y}}
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 2–1 {{Aet}}
+| team2 = {{Flagicon|Emara}} [[Emara]]
+| goals1 = Volok {{Goal|44}}<br/>Rast {{Goal|73}}
+| goals2 = Hale {{Goal|61}}
+| stadium = Talvasha Common, Talvasha
+| attendance = 20,600
+| referee = Joris Veltkamp ([[Genaire]])
+}}
+
+===Semi-finals===
+
+Both semi-finals were played on 22 June and settled inside 90 minutes. [[Praesyu]] ended the host nation's run with a 2–0 win over [[Etirha]] at the Grand Provinces Ground, the goals coming from Idris Calwen and Anrik Vossel. In the second semi-final at Tarkhuna, [[Lycroa]] defeated [[Raledria]] 1–0 through an early strike by Estien Marlo to reach the final.
+
+{{Football box
+| date = {{Start date|1720|6|22|df=y}}
+| team1 = [[Praesyu]] {{Flagicon|Praesyu}}
+| score = 2–0
+| team2 = {{Flagicon|Etirha}} [[Etirha]]
+| goals1 = Calwen {{Goal|37}}<br/>Vossel {{Goal|71}}
+| goals2 =
+| stadium = Grand Provinces Ground, [[Etirha|Albiran]]
+| attendance = 43,500
+| referee = Marek Lindahl ([[Astye]])
+}}
+----
+{{Football box
+| date = {{Start date|1720|6|22|df=y}}
+| team1 = [[Lycroa]] {{Flagicon|Lycroa}}
+| score = 1–0
+| team2 = {{Flagicon|Raledria}} [[Raledria]]
+| goals1 = Marlo {{Goal|9}}
+| goals2 =
+| stadium = Tarkhuna Federal Ground, Tarkhuna
+| attendance = 31,400
+| referee = Halvar Tomis ([[Wundry]])
+}}
+
+===Third place play-off===
+
+The third-place play-off was contested between the two losing semi-finalists at Talvasha Common on 25 June, with the hosts [[Etirha]] defeating [[Raledria]] 2–1 to take third place in the first World Cup held in their own country. The Etirhan goals were scored by Davor Mirkeln and Sava Tarkhel.
+
+{{Football box
+| date = {{Start date|1720|6|25|df=y}}
+| team1 = [[Etirha]] {{Flagicon|Etirha}}
+| score = 2–1
+| team2 = {{Flagicon|Raledria}} [[Raledria]]
+| goals1 = Mirkeln {{Goal|28}}<br/>Tarkhel {{Goal|74}}
+| goals2 = Volok {{Goal|52}}
+| stadium = Talvasha Common, Talvasha
+| attendance = 19,800
+| referee = Halvar Tomis ([[Wundry]])
+}}
+
+===Final===
+
+The final was contested between [[Praesyu]] and [[Lycroa]], both representatives of the [[AYFVL]], at the Grand Provinces Ground in [[Etirha|Albiran]] on 26 June 1720. [[Praesyu]] won the match 4–0 to claim their first FLLA World Cup, completing the tournament without conceding more than a single goal in any of their six matches. Idris Calwen scored twice to confirm his place as the tournament's leading goalscorer; Anrik Vossel and Rensa Yoval added the others. The margin of victory was the largest in a World Cup final since the [[1660 FLLA World Cup|1660 edition]], and Lycroa, who had reached the final despite competing as a territorially divided nation in the years before the [[Lycroan reunification|reunification of 1738]], were unable to respond.<ref name="flla-final" />
+
+{{Football box
+| date = {{Start date|1720|6|26|df=y}}
+| team1 = [[Praesyu]] {{Flagicon|Praesyu}}
+| score = 4–0
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Calwen {{Goal|19|68}}<br/>Vossel {{Goal|41}}<br/>Yoval {{Goal|83}}
+| goals2 =
+| stadium = Grand Provinces Ground, [[Etirha|Albiran]]
+| attendance = 44,000
+| referee = Joris Veltkamp ([[Genaire]])
+}}
+
+==Statistics==
+
+===Goalscorers===
+
+A total of 82 goals were scored by 16 teams over the 32 matches of the tournament, at an average of 2.56 per match. [[Praesyu]] finished as the leading goalscoring nation with 16 goals across their six matches, ahead of the hosts [[Etirha]] and the runners-up [[Lycroa]], who scored nine apiece. Praesyan forward Idris Calwen was the tournament's leading individual scorer with seven goals and was awarded the FLLA Marskval.<ref name="flla-awards" />
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Top individual goalscorers
+! Rank !! Player !! Team !! Goals
+|-
+| 1 || align="left" | Idris Calwen || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 7
+|-
+| 2 || align="left" | Estien Marlo || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 5
+|-
+| 3 || align="left" | Davor Mirkeln || align="left" | {{Flagicon|Etirha}} [[Etirha]] || 4
+|-
+| 3 || align="left" | Anrik Vossel || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 4
+|-
+| 5 || align="left" | Andrei Volok || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 3
+|-
+| 5 || align="left" | Sava Tarkhel || align="left" | {{Flagicon|Etirha}} [[Etirha]] || 3
+|}
+
+==Awards==
+
+The Best Player award, formally titled the FLLA Vairan Ball, was awarded to [[Praesyu|Praesyan]] playmaker Anrik Vossel, who scored in each round of the knockout stage and was widely regarded as the creative heart of the unbeaten champions. The Marskval, presented to the tournament's leading goalscorer, went to his compatriot, the forward Idris Calwen, with seven goals. The Bastion, awarded to the best goalkeeper, was given to the Praesyan goalkeeper Toman Reyas, who conceded only two goals across his country's six matches and kept four clean sheets.<ref name="flla-awards" />
+
+{| class="wikitable" style="text-align: center;"
+|+ Tournament awards
+! Award !! Recipient !! Notes
+|-
+| FLLA Vairan Ball ''(Best Player)'' || align="left" | {{Flagicon|Praesyu}} Anrik Vossel ([[Praesyu]]) || scored in every knockout round
+|-
+| FLLA Marskval ''(Top scorer)'' || align="left" | {{Flagicon|Praesyu}} Idris Calwen ([[Praesyu]]) || 7 goals
+|-
+| FLLA Bastion ''(Best goalkeeper)'' || align="left" | {{Flagicon|Praesyu}} Toman Reyas ([[Praesyu]]) || 2 conceded in 6; 4 clean sheets
+|-
+| Leading goalscoring nation || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 16 goals
+|}
+
+==Trophies==
+
+Two trophies were presented to the champions at the closing ceremony of the [[#Final|final]]. The first was the rotating [[Andah Cup]], the silver-and-gold sculpture commissioned by the FLLA in 1714 and first awarded at the [[1716 FLLA World Cup|1716 edition]]; 1720 was only the second occasion on which it was presented. [[Praesyu]] held the cup until the spring of 1724, when it was returned to the FLLA ahead of the [[1724 FLLA World Cup|next edition]].
+
+The second was the permanent trophy of the 1720 tournament, the '''Mendara''', commissioned by the Etirhan Arraby Federation from an Etirhan sculptor and presented to the winners for retention in perpetuity. The practice of awarding a bespoke permanent trophy at each edition, alongside the rotating cup, had begun at the [[1700 FLLA World Cup|1700 edition]] in the years when the original Andah Cup had been lost, and was retained after the new cup was introduced in 1716. Following Praesyu's victory the Mendara passed into the permanent keeping of the Praesyan federation and is displayed at the Brimasha Federal Gallery.<ref name="flla-final" />
+
+==Final standings==
+
+Final standings of the sixteen participating teams. The top four positions are determined by the results of the [[#Knockout stage|knockout stage]]; teams eliminated at the same stage are ranked by their group-stage record.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Final standings
+! Pos !! Team !! Confederation !! Stage reached
+|-
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || [[AYFVL]] || align="left" | Champions
+|-
+| 2 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AYFVL]] || align="left" | Runners-up
+|-
+| 3 || align="left" | {{Flagicon|Etirha}} [[Etirha]] ''(H)'' || [[ATFVL]] || align="left" | Third place
+|-
+| 4 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || [[ATFVL]] || align="left" | Fourth place
+|-
+| 5 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 6 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 7 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || [[MSFVL]] || align="left" | Quarter-finals
+|-
+| 8 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 9 || align="left" | {{Flagicon|Pelugrotoa}} [[Pelugrotoa]] || [[MAFVL]] || align="left" | Group stage
+|-
+| 10 || align="left" | {{Flagicon|Finae}} [[Finae]] || [[QUFVL]] || align="left" | Group stage
+|-
+| 11 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 12 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || [[MAFVL]] || align="left" | Group stage
+|-
+| 13 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MSFVL]] || align="left" | Group stage
+|-
+| 14 || align="left" | {{Flagicon|Sattle}} [[Sattle]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 15 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFVL]] || align="left" | Group stage
+|-
+| 16 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || [[QUFVL]] || align="left" | Group stage
+|}
 
 ==See also==
 * [[FLLA World Cup]]

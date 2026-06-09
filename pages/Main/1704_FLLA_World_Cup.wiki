@@ -1,6 +1,6 @@
 {{Short description|1704 edition of the FLLA World Cup}}
 
-{| class="infobox" style="width: 22em; font-size: 88%;"
+{| class="infobox" style="width: 23em; font-size: 88%;"
 |+ '''1704 FLLA World Cup'''
 |-
 ! colspan="2" style="text-align:center;" | Tournament details
@@ -9,31 +9,253 @@
 |-
 | Continent || [[Ayuma]]
 |-
+| Dates || 17 June – 4 July
+|-
 | Teams || 16 (from 7 confederations)
+|-
+| Venue(s) || 6 (in 6 host cities)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Emara}} '''[[Emara]]'''
+| Champion || {{Flagicon|Emara}} '''[[Emara]]''' ''(2nd title)''
 |-
 | Runner-up || {{Flagicon|Siana}} [[Siana]]
 |-
-| Final score || 3-2
+| Third place || {{Flagicon|Lycroa}} [[Lycroa]]
+|-
+| Fourth place || {{Flagicon|Easuhura}} [[Easuhura]]
+|-
+| Final score || 3–2
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Matches played || 32
+|-
+| Goals scored || 92 (2.88 per match)
+|-
+| Attendance || 618,000 (19,313 per match)
+|-
+| Top scorer || {{Flagicon|Emara}} Mirek Tovasch (7 goals)
+|-
+! colspan="2" style="text-align:center;" | &nbsp;
 |-
 | Previous: || ''[[1700 FLLA World Cup|1700]]''
 |-
 | Next: || ''[[1708 FLLA World Cup|1708]]''
 |}
 
-The '''1704 [[FLLA]] World Cup''' was the 9th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Emara]] across [[Ayuma]], and was won by [[Emara]], who defeated [[Siana]] 3-2 in the final.
+The '''1704 [[FLLA]] World Cup''' was the 9th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Emara]], in [[Ayuma]], between 17 June and 4 July 1704, and was won by the hosts [[Emara]], who defeated [[Siana]] 3–2 in the final at the Rivostan National Ground.<ref name="flla1704final">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/final|title=The 1704 FLLA World Cup final: Emara 3–2 Siana|publisher=[[FLLA]]|date=4 July 1704}}</ref> It was Emara's second senior title, following its victory at the [[1672 FLLA World Cup|1672 continental edition]], and the first major tournament the country had hosted since the conclusion of the [[Red War]].
 
-The 1704 edition returned the tournament to [[Ayuma]] after the [[1700 FLLA World Cup|inaugural World Cup]] in [[Atirha]]. [[Emara]] hosted and won on home soil, defeating [[Siana]] 3-2 in the final. The competition is remembered for the technical quality of its closing stages and for the Emaran side's defence of an early lead, an achievement frequently revisited in subsequent FLLA literature as the establishment of the modern Emaran Arraby tradition.
+The 1704 edition returned the tournament to [[Ayuma]] after the [[1700 FLLA World Cup|inaugural World Cup]] in [[Atirha]], and was the second to be contested under the FLLA World Cup name. Sixteen teams drawn from all seven continental confederations took part, the same number as in 1700, playing a first-round group stage followed by a knockout round. As at every edition between [[1700 FLLA World Cup|1700]] and [[1712 FLLA World Cup|1712]], no rotating cup was awarded; the original Andah Cup had been destroyed during the [[Red War]] and the present [[FLLA World Cup#The Andah Cup|Andah Cup]] would not be introduced until [[1716 FLLA World Cup|1716]]. The sole senior award was a bespoke permanent trophy, '''[[FLLA World Cup#Permanent trophies|the Wulfen]]''', commissioned by the Emaran Arraby Federation.<ref name="fllatrophy">{{cite web|url=https://www.flla.org/heritage/trophies/permanent-trophy-register|title=Register of FLLA World Cup permanent trophies|publisher=[[FLLA]]|date=2 July 1764}}</ref>
+
+The tournament was staged barely nine years after the end of the [[Red War]], during which much of Emara had been placed under foreign occupation, and was widely regarded at home as a demonstration of the country's recovery under the short-lived [[Sixth Emaran Republic]]. Emara's defence of an early lead in the final, conceding twice to neighbouring [[Siana]] before holding on to win, is frequently revisited in subsequent FLLA literature as the founding episode of the modern Emaran Arraby tradition.<ref name="factbookrevival">{{cite web|url=https://www.bbc.co.uk/news/andah-ayuma-history-1704wc|title=The 1704 World Cup and the post-war revival of Emaran sport|publisher=[[BBC News Andah]]|date=2 June 1763}}</ref>
+
+==Host selection==
+
+The right to host the 1704 tournament was awarded to the Emaran Arraby Federation by the [[FLLA]] Council at its congress in [[Tirna]] in September 1701, the first hosting decision taken after the rebranding of the competition as the FLLA World Cup.<ref name="hostaward">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/host-award|title=Emara awarded the 1704 FLLA World Cup|publisher=[[FLLA]]|date=21 September 1701}}</ref> Emara was the only nation to submit a complete bid by the closing date; a preliminary expression of interest from [[Praesyu]] was withdrawn before the congress on financial grounds, and the [[1712 FLLA World Cup|1712 edition]] was subsequently staged there instead.
+
+The award was understood at the time as a deliberate gesture of post-war reconstruction. Emara had been among the principal victors of the [[Red War]] but had spent most of the conflict under occupation, and the [[Sixth Emaran Republic]], established at the liberation, presented the hosting of an international tournament as evidence of national recovery. The Federation undertook to refurbish six existing grounds rather than build new stadiums, a decision dictated by the limited funds available and consistent with the modest scale of the competition at the time.<ref name="hostaward" />
+
+==Format==
+
+Sixteen teams contested the final tournament. They were divided into four groups of four, each team playing the other three sides in its group once. Two points were awarded for a win and one for a draw; the top two teams in each group advanced to the knockout stage, and the bottom two were eliminated. Where teams finished level on points, places were decided by goal average and then by goals scored, with a drawing of lots as the final resort, no group position having required one.<ref name="format">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/regulations|title=Competition regulations for the 1704 FLLA World Cup|publisher=[[FLLA]]|date=3 January 1704}}</ref>
+
+The eight qualifiers entered a single-elimination knockout round of quarter-finals, semi-finals and a final, with a third-place match contested by the two beaten semi-finalists on the day before the final. Knockout ties level after 90 minutes were extended by 30 minutes of extra time; the regulations provided for a replay two days later should a tie remain level after extra time, a provision that was not invoked at any stage of the tournament.
+
+No rotating trophy was at stake. Following the destruction of the original Andah Cup in the [[Red War]], the [[1700 FLLA World Cup|1700 edition]] had introduced the practice of commissioning a bespoke permanent trophy for each tournament, to be retained in perpetuity by the winners; the 1704 trophy was the Wulfen ([[#Trophy|see below]]). The rotating-cup tradition was not resumed until the introduction of the present Andah Cup in 1716.<ref name="fllatrophy" />
+
+==Qualification==
+
+{{Main|1704 FLLA World Cup qualification}}
+
+Forty-eight national associations entered the qualifying competition, which was administered separately by each of the seven confederations between the summer of 1701 and the spring of 1704.<ref name="qualentries">{{cite web|url=https://www.flla.org/heritage/qualification/1704/entries|title=1704 FLLA World Cup qualification: confederation entries|publisher=[[FLLA]]|date=14 August 1701}}</ref> The hosts [[Emara]] qualified automatically and were allocated to the [[AYFVL]] tournament on a non-binding basis. The fifteen remaining berths were distributed across the confederations broadly in proportion to the size of their membership, with the [[AYFVL]], much the largest confederation, receiving eight places, the [[ATFVL]] two, and the [[NAFVL]], [[MAFVL]], [[QUFVL]], [[MSFVL]] and [[ACFVL]] one each.
+
+The qualified teams were the hosts together with [[Lycroa]], [[Eldjo]], [[Estijan]], [[Easuhura]], [[Praesyu]], [[Verusa]], [[Siana]] and [[Alzuria]] from the [[AYFVL]]; [[Raledria]], the reigning World Cup holders, and [[Etirha]] from the [[ATFVL]]; [[United Delet]] from the [[NAFVL]]; [[Seytinemas]] from the [[MAFVL]]; [[Quidic]] from the [[QUFVL]]; [[Dahe]] from the [[MSFVL]]; and [[Areoix Lie]] from the [[ACFVL]]. The intercontinental qualifiers travelled to Emara by sea, the [[Areoix Lie|Areoix Lie]] party undertaking a voyage of some five weeks, the longest journey made by any participating side.<ref name="travel">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/travel|title=Getting to Emara: the journeys of the 1704 participants|publisher=[[FLLA]]|date=19 May 1704}}</ref>
+
+==Venues==
+
+Six grounds in six cities were used. The Rivostan National Ground in the capital, the largest available venue, staged the opening match and the final. The matches were divided so that no city hosted more than six fixtures, and travel between venues was arranged by rail.<ref name="venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/venues|title=The venues of the 1704 FLLA World Cup|publisher=[[FLLA]]|date=1 June 1704}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ Venues of the 1704 FLLA World Cup
+! City !! Stadium !! Capacity !! Matches
+|-
+| align="left" | [[Rivostan]] || align="left" | Rivostan National Ground || 42,000 || 6 (incl. opening match and final)
+|-
+| align="left" | [[Khalzhun]] || align="left" | Khalzhun City Stadium || 30,000 || 6
+|-
+| align="left" | [[Shaikuv]] || align="left" | Shaikuv Arraby Park || 25,000 || 5
+|-
+| align="left" | [[Yilovka]] || align="left" | Yilovka Municipal Ground || 22,000 || 5
+|-
+| align="left" | [[Borzhai]] || align="left" | Borzhai Stadium || 18,000 || 5
+|-
+| align="left" | [[Tirzovik]] || align="left" | Tirzovik Park || 15,000 || 5
+|}
+
+==Match officials==
+
+The tournament was controlled by thirteen referees, drawn from neutral associations and appointed by the FLLA Refereeing Committee. The final was refereed by Yann Verel of [[Raledria]], whose country had been eliminated in the quarter-finals; the third-place match was controlled by Osvar Tehlund of [[United Delet]]. The 1704 edition predated the radio communication first used at the [[1708 FLLA World Cup|1708 tournament]], and officials relied on flag signals from two touchline assistants, a system formalised in the FLLA's 1702 laws of the game.<ref name="officials">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/officials|title=Match officials at the 1704 FLLA World Cup|publisher=[[FLLA]]|date=10 June 1704}}</ref>
+
+==Squads==
+
+{{Main|1704 FLLA World Cup squads}}
+
+Each of the sixteen participating associations registered a squad of eighteen players, the maximum permitted under the 1704 regulations; substitutions were not allowed during matches, so the additional players served only as cover for injury or illness before each fixture.<ref name="squads">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/squads|title=Registered squads for the 1704 FLLA World Cup|publisher=[[FLLA]]|date=12 June 1704}}</ref> The hosts were captained by their goalkeeper, Veniel Stanev, and managed by Aleksei Vahko, a former Rivostan club coach appointed after the [[1700 FLLA World Cup|1700 tournament]]. The full lists are given in the separate squads article.
+
+==Group stage==
+
+The group stage was played between 17 and 26 June 1704. The hosts opened the tournament against [[Dahe]] at the Rivostan National Ground, winning 4–0 before a crowd of 38,000.<ref name="groupstage">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/group-stage|title=Group stage results, 1704 FLLA World Cup|publisher=[[FLLA]]|date=27 June 1704}}</ref> The reigning World Cup holders [[Raledria]] and the [[1660 FLLA World Cup|1660]] and [[1680 FLLA World Cup|1680]] champions [[Lycroa]] both advanced from Group B, while the [[1684 FLLA World Cup|1684 champions]] [[Alzuria]], appearing at their first tournament since the [[Red War]], were eliminated in Group C without a win.
+
+===Group A===
+
+{| class="wikitable" style="text-align: center;"
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' (H) || 3 || 3 || 0 || 0 || 9 || 1 || 6
+|-
+| 2 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' || 3 || 2 || 0 || 1 || 5 || 4 || 4
+|-
+| 3 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 0 || 1 || 2 || 2 || 6 || 1
+|-
+| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 0 || 1 || 2 || 1 || 7 || 1
+|}
+
+''Emara 4–0 Dahe · Etirha 2–1 Quidic · Emara 2–1 Etirha · Quidic 1–1 Dahe · Emara 3–0 Quidic · Etirha 2–0 Dahe''
+
+===Group B===
+
+{| class="wikitable" style="text-align: center;"
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || 5
+|-
+| 2 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 6 || 2 || 5
+|-
+| 3 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 3 || 1 || 0 || 2 || 2 || 5 || 2
+|-
+| 4 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 0 || 3 || 3 || 8 || 0
+|}
+
+''Lycroa 3–1 Areoix Lie · Raledria 2–0 Seytinemas · Lycroa 1–1 Raledria · Seytinemas 2–1 Areoix Lie · Lycroa 2–0 Seytinemas · Raledria 3–1 Areoix Lie''
+
+===Group C===
+
+{| class="wikitable" style="text-align: center;"
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 2 || 1 || 0 || 6 || 3 || 5
+|-
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 4 || 2 || 5
+|-
+| 3 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 3 || 0 || 1 || 2 || 3 || 6 || 1
+|-
+| 4 || align="left" | {{Flagicon|Alzuria}} [[Alzuria]] || 3 || 0 || 1 || 2 || 4 || 6 || 1
+|}
+
+''Easuhura 2–1 Alzuria · Estijan 1–0 United Delet · Easuhura 1–1 Estijan · United Delet 2–2 Alzuria · Easuhura 3–1 United Delet · Estijan 2–1 Alzuria''
+
+===Group D===
+
+{| class="wikitable" style="text-align: center;"
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|-
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 6 || 2 || 5
+|-
+| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 4 || 2 || 5
+|-
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 1 || 0 || 2 || 3 || 5 || 2
+|-
+| 4 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 3 || 0 || 0 || 3 || 2 || 6 || 0
+|}
+
+''Siana 2–0 Eldjo · Praesyu 1–0 Verusa · Siana 1–1 Praesyu · Verusa 2–1 Eldjo · Siana 3–1 Verusa · Praesyu 2–1 Eldjo''
+
+==Knockout stage==
+
+The knockout stage was played between 29 June and 4 July 1704. Group winners were paired with the runners-up of another group in the quarter-finals.<ref name="knockout">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/knockout|title=Knockout stage results, 1704 FLLA World Cup|publisher=[[FLLA]]|date=4 July 1704}}</ref>
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Knockout bracket
+! colspan="2" | Quarter-finals !! colspan="2" | Semi-finals !! colspan="2" | Final
+|-
+| align="left" | {{Flagicon|Emara}} '''Emara''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || rowspan="4" | &nbsp; || rowspan="4" | &nbsp;
+|-
+| align="left" | {{Flagicon|Raledria}} Raledria || 1
+|-
+| align="left" | {{Flagicon|Easuhura}} Easuhura || 1 || align="left" | {{Flagicon|Emara}} '''Emara''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp;
+|-
+| align="left" | {{Flagicon|Praesyu}} Praesyu || 0 || align="left" | {{Flagicon|Easuhura}} Easuhura || 1
+|-
+| align="left" | {{Flagicon|Lycroa}} '''Lycroa''' || 3 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || align="left" | {{Flagicon|Emara}} '''Emara''' || 3
+|-
+| align="left" | {{Flagicon|Etirha}} Etirha || 0 || || || align="left" | {{Flagicon|Siana}} Siana || 2
+|-
+| align="left" | {{Flagicon|Siana}} '''Siana''' || 2 || align="left" | {{Flagicon|Siana}} '''Siana''' || 2 || colspan="2" rowspan="2" | &nbsp;
+|-
+| align="left" | {{Flagicon|Estijan}} Estijan || 1 || align="left" | {{Flagicon|Lycroa}} Lycroa || 1
+|}
+
+===Quarter-finals===
+
+* '''Emara 2–1 Raledria''' (29 June, Rivostan). The hosts eliminated the reigning World Cup holders before a capacity crowd, Mirek Tovasch scoring both Emaran goals.
+* '''Easuhura 2–0 Praesyu''' (29 June, Khalzhun).
+* '''Lycroa 3–0 Etirha''' (30 June, Shaikuv), the most emphatic result of the round.
+* '''Siana 2–1 Estijan''' (30 June, Yilovka).
+
+===Semi-finals===
+
+* '''Emara 2–1 Easuhura''' (1 July, Rivostan). Emara recovered from conceding first to reach a home final.
+* '''Siana 2–1 Lycroa''' (2 July, Khalzhun). Siana's victory over the five-time finalists [[Lycroa]] was the principal upset of the tournament and carried the West Ayuman side to their first World Cup final.
+
+===Third-place match===
+
+* '''Lycroa 3–1 Easuhura''' (3 July, Shaikuv). Lycroa took third place with a comfortable win over the [[1660 FLLA World Cup|1660 hosts]].
+
+==Final==
+
+The final was played on 4 July 1704 at the Rivostan National Ground before an announced crowd of 41,000, the largest attendance recorded at any match to that date in [[Ayuma]] and second only to the [[1700 FLLA World Cup|1700 final]] across the competition as a whole.<ref name="flla1704final" /> Emara, the hosts, met neighbouring [[Siana]], who had borders with Emara to their south and whose only previous final, at the [[1684 FLLA World Cup|1684 edition]], had ended in defeat to [[Alzuria]].
+
+Emara took an early two-goal lead through Mirek Tovasch and the midfielder Daron Kresch within the opening half-hour. Siana, urged forward by their captain Arun Phakra, recovered to level the match early in the second half with goals from Sael Wadiri and Onuk Saryah, the equaliser arriving with twenty minutes remaining. The decisive goal came eight minutes from time, when Tovasch turned in a low cross from the Emaran right to complete his personal tally for the tournament and restore the hosts' lead at 3–2. Emara held the advantage to the final whistle to claim their second senior title and their first as World Cup hosts.<ref name="flla1704final" />
+
+The Wulfen was presented to the Emaran captain Veniel Stanev by the president of the Emaran Arraby Federation at the closing ceremony. The match is recorded in FLLA literature as the establishment of Emara as a leading Arraby nation of the period; the country would go on to reach a further five finals over the following sixty years, winning again as hosts at the [[1728 FLLA World Cup|1728 edition]].<ref name="factbookrevival" />
+
+==Statistics==
+
+===Goalscorers===
+
+Ninety-two goals were scored across the 32 matches of the tournament, an average of 2.88 per match.<ref name="stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/statistics|title=Goalscorers and statistics, 1704 FLLA World Cup|publisher=[[FLLA]]|date=5 July 1704}}</ref> The leading goalscorer was the Emaran forward Mirek Tovasch, who scored seven goals, the last of them the winner in the final. The leading scorers were:
+
+* 7 goals: Mirek Tovasch ([[Emara]])
+* 5 goals: Davlan Kresimar ([[Lycroa]])
+* 4 goals: Onuk Saryah ([[Siana]]), Teodan Vels ([[Easuhura]])
+* 3 goals: Daron Kresch ([[Emara]]), Halvad Renn ([[Raledria]]), Sael Wadiri ([[Siana]])
+
+===Discipline===
+
+No player was sent off during the tournament, and the FLLA's match reports record a total of 41 cautions across the 32 matches. The disciplinary record was later cited by the FLLA as evidence of the orderly conduct of the competition in the immediate post-war years.<ref name="stats" />
+
+==Trophy==
+
+The 1704 tournament was contested for '''the Wulfen''', a bespoke permanent trophy commissioned by the Emaran Arraby Federation from a Rivostan studio and awarded to the winners in perpetuity.<ref name="fllatrophy" /> It was the second of the permanent trophies introduced after the [[Red War]], following the Solana of the [[1700 FLLA World Cup|1700 edition]], and was the only senior award of the tournament, no rotating cup being in use between the destruction of the original Andah Cup in 1688 and the introduction of the present Andah Cup in 1716. The Wulfen was retained by Emara and is held at the Emaran National Museum in [[Rivostan]].
+
+==Legacy==
+
+Coming barely nine years after the [[Red War]], the tournament was treated in Emara as a national event of significance beyond sport, and the hosts' victory was widely interpreted as a symbol of recovery under the [[Sixth Emaran Republic]]. The six refurbished grounds remained in use as the principal venues of Emaran domestic Arraby for a generation, and the Emaran Arraby Federation dated the rapid growth of the club game in the country from the period that followed.<ref name="factbookrevival" />
+
+The 1704 edition was the last World Cup held before the spread of radio coverage, introduced at the [[1708 FLLA World Cup|1708 tournament]] in [[United Delet]]; contemporary reporting reached the rest of [[Andah]] chiefly by telegraph and the printed press, and the final was relayed to crowds gathered outside newspaper offices in several Ayuman capitals. For [[Siana]], the tournament was a second runners-up finish, after [[1684 FLLA World Cup|1684]]; the West Ayuman side would not reach another final, and remains among the nations to have contested a World Cup final without winning the competition.
 
 ==See also==
+
 * [[FLLA World Cup]]
 * [[1700 FLLA World Cup]]
 * [[1708 FLLA World Cup]]
+* [[1704 FLLA World Cup qualification]]
+* [[1704 FLLA World Cup squads]]
 
 ==References==
 {{reflist}}
 
 [[Category:FLLA World Cup]]
+[[Category:1704 FLLA World Cup| ]]
+[[Category:International Arraby competitions hosted by Emara]]

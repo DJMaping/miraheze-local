@@ -9,29 +9,672 @@
 |-
 | Continent || [[Ayuma]]
 |-
+| Dates || 28 May – 16 June 1712
+|-
 | Teams || 16 (from 7 confederations)
+|-
+| Venues || 6 (in 4 host cities)
+|-
+| Matches played || 32
+|-
+| Goals scored || 109 (3.41 per match)
+|-
+| Attendance || 712,000 (22,250 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Raledria}} '''[[Raledria]]'''
+| Champion || {{Flagicon|Raledria}} '''[[Raledria]]''' ''(2nd title)''
 |-
 | Runner-up || {{Flagicon|Easuhura}} [[Easuhura]]
 |-
-| Final score || 4-2
+| Third place || {{Flagicon|Praesyu}} [[Praesyu]]
+|-
+| Fourth place || {{Flagicon|Emara}} [[Emara]]
+|-
+| Final score || 4–2
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Raledria}} Veylan Marrik ([[Raledria]]) (7 goals)
+|-
+| Best player || {{Flagicon|Raledria}} Toman Vaskar ([[Raledria]])
 |-
 | Previous: || ''[[1708 FLLA World Cup|1708]]''
 |-
 | Next: || ''[[1716 FLLA World Cup|1716]]''
 |}
 
-The '''1712 [[FLLA]] World Cup''' was the 11th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Praesyu]] across [[Ayuma]], and was won by [[Raledria]], who defeated [[Easuhura]] 4-2 in the final.
+The '''1712 [[FLLA]] World Cup''' was the 11th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Praesyu]] across [[Ayuma]] from 28 May to 16 June 1712, and was won by [[Raledria]], who defeated [[Easuhura]] 4–2 in the [[#Final|final]] at the Estadio Brimasha in [[Praesyu|Brimasha]] to claim their second FLLA World Cup title. Sixteen nations qualified for the final tournament, drawn from the seven continental confederations of the [[FLLA]], and contested 32 matches across six host venues in four host cities.
 
-Hosted by [[Praesyu]], the 1712 edition was won by [[Raledria]] who defeated [[Easuhura]] 4-2 in the final to claim their second FLLA World Cup title. The tournament featured an open, attacking style of play and produced a per-match goal average not surpassed at any subsequent edition until the [[1748 FLLA World Cup|1748 tournament]]. The Praesyan organising committee staged the final at the country's largest venue in the federal capital.
+Hosted by [[Praesyu]] under the auspices of the Praesyuan Arraby Federation, the 1712 edition was the fourth FLLA World Cup staged since the competition's reformation and renaming under the newly constituted [[FLLA]] in 1700, and the fourth contested for a bespoke permanent trophy alone. No rotating cup was in circulation in 1712: the original Andah Cup had been destroyed at [[Alzuria]] in 1688 during the early phase of the [[Red War]], and the modern rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] was not introduced until the [[1716 FLLA World Cup|1716 edition]]. The champions [[Raledria]] were accordingly presented with '''the Brimasha''', the permanent trophy commissioned for the edition by the Praesyuan Arraby Federation, which the Raledrian Arraby Association has retained in perpetuity at the Tirna National Museum.
+
+The tournament is remembered as one of the most attacking editions in the competition's history. A total of 109 goals were scored across the 32 matches at an average of 3.41 per match, a figure not surpassed at any subsequent edition until the [[1748 FLLA World Cup|1748 tournament]] and frequently cited in early FLLA literature as the high-water mark of the open, forward-oriented football that characterised the first decades of the competition. The leading goalscoring nation of the tournament was the eventual champions [[Raledria]], with 19 goals across their six matches; the leading individual scorer was [[Raledria|Raledrian]] forward Veylan Marrik with seven goals, including a hat-trick in the [[#Final|final]].
+
+The hosts [[Praesyu]] reached the [[#Semi-finals|semi-finals]] and, after a narrow extra-time defeat to the eventual runners-up [[Easuhura]], took third place on home soil with a 3–2 win over [[Emara]] in the [[#Third place playoff|third-place playoff]]. For [[Raledria]] the title was their second in the competition's history, following their victory as hosts at the inaugural [[1700 FLLA World Cup|1700 edition]], and the first of back-to-back successes that the Raledrian side would complete by retaining the trophy at the [[1716 FLLA World Cup|1716 edition]].
+
+==Host selection==
+{{Main|1712 FLLA World Cup bids}}
+
+The bid from [[Praesyu]] was confirmed as host of the 1712 FLLA World Cup by the [[FLLA]] Council on 19 February 1710, ending a bidding process opened by the FLLA Secretariat in the autumn of 1709. No formal confederation-rotation policy was then in force; under the informal arrangement that had governed the choice of host since the [[1700 FLLA World Cup|1700 edition]], the FLLA Council exercised an open discretion subject only to the convention that successive cycles should not be staged on the same continent unless no suitable bid was available from another confederation. The selection of [[Praesyu]] returned the tournament to [[Ayuma]] following the [[1708 FLLA World Cup|1708 edition]] in [[United Delet]], which had been the first FLLA World Cup ever staged in [[New Ayre]].<ref>{{cite web|url=https://www.flla.org/news/1710/host-selection-praesyu|title=Praesyu confirmed as 1712 FLLA World Cup hosts|publisher=[[FLLA]]|date=19 February 1710}}</ref>
+
+Two other associations declared an interest during the bidding window: [[Emara]], which had not hosted since the older pre-reform competition, and [[Siana]]. The [[Emara|Emaran]] bid was withdrawn on 4 January 1710 after the Emaran Arraby Federation concluded that its principal stadiums would not be ready in time for a May 1712 opening; the [[Siana|Sianan]] bid was withdrawn on cost grounds on 1 February 1710. The Praesyuan bid, submitted under the umbrella of the Praesyuan Arraby Federation on 12 November 1709, was therefore the only candidate before the FLLA Council at its meeting of 19 February 1710.
+
+The total infrastructure budget pledged by the [[Praesyu|Praesyuan]] federal government and the participating municipalities was {{lahn}}38&nbsp;million, of which {{lahn}}16&nbsp;million was directed towards stadium construction and renovation across the four host cities, {{lahn}}14&nbsp;million towards transport upgrades (principally the [[Praesyu|Brimasha]]–[[Praesyu|Zaraqon]] interior rail corridor) and {{lahn}}8&nbsp;million towards operational expenditure including security and the volunteer programme.<ref>{{cite web|url=https://www.paf.pr/1710/budget-statement|title=Federal budget statement of the Praesyuan Arraby Federation for the 1712 FLLA World Cup|publisher=Praesyuan Arraby Federation|date=4 March 1710}}</ref> The Praesyuan plan was the most compact host programme since the [[1700 FLLA World Cup|1700 edition]], concentrating the tournament on the federal capital of [[Praesyu|Brimasha]] and three regional centres within a single day's rail travel of one another.
+
+==Participating teams==
+
+===Qualification===
+{{Main|1712 FLLA World Cup qualification}}
+
+A total of 16 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. The host association [[Praesyu]] qualified as of right under FLLA hosting regulations and did not participate in any [[AYFVL]] qualifying group. The defending champions [[United Delet]], winners of the [[1708 FLLA World Cup]], qualified through the [[NAFVL]] qualifying competition on merit, no formal champion's exemption then being in force.
+
+The 1712 qualification programme allocated six places to the host confederation [[AYFVL]] (including the host berth), two to the [[ATFVL]], two to the [[NAFVL]], two to the [[QUFVL]], two to the [[MSFVL]], one to the [[MAFVL]] and one to the [[ACFVL]].<ref>{{cite web|url=https://www.flla.org/1710/berth-allocation-1712|title=Continental berth allocation for the 1712 FLLA World Cup|publisher=[[FLLA]]|date=12 September 1710}}</ref><ref>{{cite web|url=https://www.flla.org/1712/qualification-summary|title=1712 FLLA World Cup qualification: summary by confederation|publisher=[[FLLA]]|date=2 May 1712}}</ref> The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
+
+==== [[AYFVL]] (Ayuma) 6 berths ====
+Six qualifying groups; group winners qualified directly. The host association [[Praesyu]] qualified as of right and did not contest qualifying. Qualified teams:
+* {{Flagicon|Praesyu}} [[Praesyu]] ''(host)''
+* {{Flagicon|Easuhura}} [[Easuhura]]
+* {{Flagicon|Emara}} [[Emara]]
+* {{Flagicon|Siana}} [[Siana]]
+* {{Flagicon|Lycroa}} [[Lycroa]]
+* {{Flagicon|Eldjo}} [[Eldjo]]
+
+==== [[ATFVL]] (Atirha) 2 berths ====
+Two first-round groups of five followed by a final round-robin. Qualified teams:
+* {{Flagicon|Raledria}} [[Raledria]]
+* {{Flagicon|Etirha}} [[Etirha]]
+
+==== [[NAFVL]] (New Ayre) 2 berths ====
+A single double round-robin league. Qualified teams:
+* {{Flagicon|United Delet}} [[United Delet]] ''(defending champions)''
+* {{Flagicon|Ohtina}} [[Ohtina]]
+
+==== [[QUFVL]] (Quia) 2 berths ====
+Two first-round groups followed by a final qualifying round-robin. Qualified teams:
+* {{Flagicon|Quidic}} [[Quidic]]
+* {{Flagicon|Wundry}} [[Wundry]]
+
+==== [[MSFVL]] (Massir) 2 berths ====
+Two first-round groups followed by a final round-robin. Qualified teams:
+* {{Flagicon|Taval}} [[Taval]]
+* {{Flagicon|Dahe}} [[Dahe]]
+
+==== [[MAFVL]] (Mahea) 1 berth ====
+Two qualifying groups playing a single round-robin; the group winners met in a two-leg playoff. Qualified team:
+* {{Flagicon|Otiiric}} [[Otiiric]]
+
+==== [[ACFVL]] (Acrola) 1 berth ====
+Two first-round groups followed by single-leg knockout playoffs. Qualified team:
+* {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+
+===Final draw===
+{{Main|1712 FLLA World Cup seeding}}
+
+The final draw for the group stage was held at the Federal Assembly Hall in [[Praesyu|Brimasha]] on 3 December 1711, six months before the opening match. The 16 qualified teams were divided into four pots of four on the basis of pre-tournament [[FLLA]] standing, with the host [[Praesyu]] and the three highest-ranked sides ([[Raledria]], [[Easuhura]] and [[United Delet]]) placed in the seeded pot and each drawn into a different group. The remaining three pots were arranged on broadly geographical lines so as to keep teams from the same confederation apart wherever possible; under the procedure adopted by the FLLA Council in September 1711, no group was permitted to contain more than two sides from any one confederation other than the host [[AYFVL]].<ref>{{cite web|url=https://www.flla.org/1711/draw-procedures|title=Procedures for the 1712 FLLA World Cup final draw|publisher=[[FLLA]]|date=4 October 1711}}</ref>
+
+The draw was conducted by FLLA general secretary Halvor Esren and presented by the [[Praesyu|Praesyuan]] broadcaster Velina Trask, with retired internationals from each of the seven confederations drawing the team names. The ceremony was relayed by short-range radio across the host nation, building on the broadcasting arrangements first trialled at the [[1708 FLLA World Cup|1708 edition]].<ref>{{cite web|url=https://www.flla.org/1711/draw-ceremony|title=Official record of the 1712 FLLA World Cup final draw|publisher=[[FLLA]]|date=4 December 1711}}</ref>
+
+{|class="wikitable" style="text-align:center;"
+|-
+! width="25%" | Group A
+! width="25%" | Group B
+! width="25%" | Group C
+! width="25%" | Group D
+|-
+| ''{{Flagicon|Praesyu}} [[Praesyu]]''
+| {{Flagicon|Raledria}} [[Raledria]]
+| {{Flagicon|Easuhura}} [[Easuhura]]
+| {{Flagicon|United Delet}} [[United Delet]]
+|-
+| {{Flagicon|Dahe}} [[Dahe]]
+| {{Flagicon|Eldjo}} [[Eldjo]]
+| {{Flagicon|Emara}} [[Emara]]
+| {{Flagicon|Lycroa}} [[Lycroa]]
+|-
+| {{Flagicon|Wundry}} [[Wundry]]
+| {{Flagicon|Ohtina}} [[Ohtina]]
+| {{Flagicon|Quidic}} [[Quidic]]
+| {{Flagicon|Siana}} [[Siana]]
+|-
+| {{Flagicon|Otiiric}} [[Otiiric]]
+| {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+| {{Flagicon|Taval}} [[Taval]]
+| {{Flagicon|Etirha}} [[Etirha]]
+|}
+''Host is shown in italics.''
+
+===Officials===
+{{Main|1712 FLLA World Cup officials}}
+
+The FLLA Referees Committee appointed 12 refereeing pairs, each consisting of one referee and one assistant, supplemented by a small pool of reserve officials. The selections were announced between October 1711 and March 1712. The 12 selected referees were drawn from 11 nations and represented all seven [[FLLA]] confederations, although no [[AYFVL]] referee was eligible to take charge of any match involving an Ayuman side under the host-association exclusion rules then in force.<ref>{{cite web|url=https://www.flla.org/1712/officials-announced|title=Match officials confirmed for the 1712 FLLA World Cup|publisher=[[FLLA]]|date=4 March 1712}}</ref>
+
+The opening match was refereed by Corvin Aldas of [[United Delet]] ([[NAFVL]]). The [[#Final|final]] was officiated by Maron Detsk of [[Quidic]] ([[QUFVL]]), the first Quidican referee to take charge of an FLLA World Cup final. The two semi-finals were taken by Edvar Holm of [[Areoix Lie]] ([[ACFVL]]) and Tovan Lik of [[Otiiric]] ([[MAFVL]]).
+
+==Squads==
+{{Main|1712 FLLA World Cup squads}}
+
+Each participating squad consisted of 18 players, two of whom were required to be goalkeepers, under the squad allocation in force since the [[1704 FLLA World Cup|1704 edition]]. Each participating national association was required to confirm its final 18-player squad with the FLLA no later than seven days before the opening match; late replacements were permitted in the event of serious injury up to 24 hours before a team's first fixture. A total of 288 players were registered for the tournament, of whom 32 were goalkeepers.
+
+The leading [[Raledria|Raledrian]] forward, Veylan Marrik, was 24 years old at the start of the competition and was making his first appearance at an FLLA World Cup; he was captained on the field by central midfielder Toman Vaskar, then 28 years old and in his second tournament after the [[1708 FLLA World Cup|1708 edition]]. The [[Raledria|Raledrian]] head coach, Edran Voss, had assembled a squad noted for the pace of its forward line and the composure of goalkeeper Marek Solven, who would concede only six goals across the six matches of the Raledrian campaign. The hosts [[Praesyu]] were captained by central defender Senn Drevali and built their attacking play around the forward Ravik Tolmesh, who finished as the tournament's joint-fourth-highest scorer.<ref>{{cite web|url=https://www.paf.pr/1712/squad-list|title=Praesyuan squad list and biographies for the 1712 FLLA World Cup|publisher=Praesyuan Arraby Federation|date=20 May 1712}}</ref>
+
+==Venues==
+{{Main|1712 FLLA World Cup venues}}
+
+Six stadiums in four host cities were used in the final tournament, all located in [[Praesyu]]. The largest and most prestigious was the Estadio Brimasha in the federal capital of [[Praesyu|Brimasha]], which staged the opening match, one semi-final and the [[#Final|final]]. The compact, four-city venue plan was the smallest single-host stadium programme since the [[1700 FLLA World Cup|1700 edition]] and concentrated the tournament within a single interior rail corridor between [[Praesyu|Brimasha]] and [[Praesyu|Zaraqon]].
+
+The opening match was held at the Estadio Brimasha on 28 May 1712. The two semi-finals were divided between the Estadio Brimasha and the Estadio Zaraqon in [[Praesyu|Zaraqon]]. The [[#Third place playoff|third-place playoff]] was held at the Estadio Khamora in [[Praesyu|Khamora]].
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Stadiums of the 1712 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Praesyu|Brimasha]] || align="left" | Estadio Brimasha || 45,000 || align="left" | Opening match; final; semi-final; quarter-final; group stage (Group A)
+|-
+| align="left" | [[Praesyu|Brimasha]] || align="left" | Estadio Meveran || 22,000 || align="left" | Group stage (Group A)
+|-
+| align="left" | [[Praesyu|Zaraqon]] || align="left" | Estadio Zaraqon || 38,000 || align="left" | Semi-final; quarter-final; group stage (Group B)
+|-
+| align="left" | [[Praesyu|Nashmir]] || align="left" | Estadio Nashmir || 30,000 || align="left" | Quarter-final; group stage (Group C)
+|-
+| align="left" | [[Praesyu|Khamora]] || align="left" | Estadio Khamora || 24,000 || align="left" | Third-place playoff; group stage (Group C)
+|-
+| align="left" | [[Praesyu|Drashir]] || align="left" | Estadio Drashir || 28,000 || align="left" | Quarter-final; group stage (Group D)
+|}
+
+===Venue profiles===
+
+The '''Estadio Brimasha''', in the federal capital of [[Praesyu|Brimasha]], was the largest venue at the tournament and the principal final venue. The 45,000-seat ground, redeveloped during the bidding period from the older Brimasha Civic Ground on the eastern bank of the city, hosted the opening match between the hosts [[Praesyu]] and [[Otiiric]] on 28 May, one [[#Quarter-finals|quarter-final]], the first of the two [[#Semi-finals|semi-finals]] between [[Praesyu]] and [[Easuhura]] on 12 June, and the [[#Final|final]] on 16 June. It was the largest single venue used at an FLLA World Cup since the [[1700 FLLA World Cup|1700 edition]].<ref>{{cite web|url=https://www.paf.pr/venues/estadio-brimasha|title=Estadio Brimasha: history, design and redevelopment|publisher=Praesyuan Arraby Federation|date=4 March 1712}}</ref>
+
+The '''Estadio Zaraqon''' in [[Praesyu|Zaraqon]], a 38,000-seat venue and the regular home of the [[Praesyu]] national side for fixtures in the north of the country, hosted the second of the two [[#Semi-finals|semi-finals]] between [[Raledria]] and [[Emara]] on 12 June, one [[#Quarter-finals|quarter-final]], and the three [[#Group B|Group B]] fixtures involving [[Raledria]]. The '''Estadio Nashmir''' in [[Praesyu|Nashmir]] (30,000) and the '''Estadio Drashir''' in [[Praesyu|Drashir]] (28,000) each staged one quarter-final and a share of the group stage; the '''Estadio Khamora''' in [[Praesyu|Khamora]] (24,000) staged the [[#Third place playoff|third-place playoff]] alongside a share of the [[#Group C|Group C]] programme, and the smaller '''Estadio Meveran''' (22,000), in the suburbs of [[Praesyu|Brimasha]], was used for [[#Group A|Group A]] fixtures only.
+
+==Format==
+
+The 16 qualified teams were divided into four groups of four for the group stage, drawn at the [[#Final draw|final draw]] on 3 December 1711. Each group operated on a single round-robin basis, with each team playing three matches; teams were awarded two points for a win and one for a draw under the two-point system then in force. The top two teams from each of the four groups advanced to the [[#Knockout stage|knockout stage]]; the bottom two in each group were eliminated.
+
+In the knockout stage, fixtures were single-elimination ties played over 90 minutes; ties level at the end of normal time were extended by a single 30-minute period of [[wikipedia:Extra time|extra time]] of two 15-minute halves, with a replay or, where no replay date was available, a [[wikipedia:Penalty shoot-out (association football)|drawing of lots]] used as a last resort. In the event, two of the seven knockout ties were decided in extra time and none required a replay. Both semi-final losers contested a [[#Third place playoff|third-place playoff]] on 15 June 1712.
+
+The 16-team, four-group format with a straight eight-team knockout round was the standard arrangement of the competition throughout the early FLLA era, retained at every edition from the [[1700 FLLA World Cup|1700 edition]] until the temporary expansion to 24 teams at the [[1724 FLLA World Cup|1724 tournament]].<ref>{{cite web|url=https://www.flla.org/1711/format-regulations|title=Format and tiebreaker regulations for the 1712 FLLA World Cup|publisher=[[FLLA]]|date=12 November 1711}}</ref>
+
+No rotating trophy was in circulation at the 1712 edition. The original Andah Cup had been destroyed at [[Alzuria]] in 1688 during the [[Red War]], and the modern rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] was not commissioned until 1714 and not first awarded until the [[1716 FLLA World Cup|1716 edition]]. As at the [[1700 FLLA World Cup|1700]], [[1704 FLLA World Cup|1704]] and [[1708 FLLA World Cup|1708]] editions, the champions were therefore presented with a single bespoke permanent trophy, the Brimasha, commissioned for the edition by the host federation (see [[#Trophy|Trophy]] below).
+
+==Innovations==
+
+The 1712 FLLA World Cup was the first edition at which every fixture was relayed by short-range radio to a designated public listening point in each host city, extending the experimental coverage first introduced at the [[1708 FLLA World Cup|1708 edition]]. It was also the first edition at which the FLLA issued a standardised printed match programme for every fixture, prepared centrally by the Praesyuan Arraby Federation, and the first at which the host federation operated a free local-network travel scheme for ticket holders on the day of each match. The travel scheme was retained on a permanent matchday basis by the [[Praesyu|Brimasha]] municipal authority after the closing ceremony.<ref>{{cite web|url=https://www.flla.org/1712/innovations|title=Presentational innovations adopted for the 1712 FLLA World Cup|publisher=[[FLLA]]|date=20 May 1712}}</ref>
+
+==Opening ceremony==
+
+The opening ceremony of the 1712 FLLA World Cup was held at the Estadio Brimasha on 28 May 1712, an hour before the kick-off of the opening match between the hosts [[Praesyu]] and [[Otiiric]]. The ceremony lasted 22 minutes and featured a massed entrance representing each of the seven continental confederations of the [[FLLA]], a procession of regional banners from the four host cities, and the unveiling of the Brimasha trophy to the public for the first time. Attending dignitaries included the head of state of [[Praesyu]], the President of the FLLA Council, and 28 ambassadors and senior diplomatic representatives. The ceremony was relayed by short-range radio to public listening points in all four host cities.<ref>{{cite web|url=https://www.prs.pr/1712/opening-ceremony|title=Opening ceremony of the 1712 FLLA World Cup: production notes and broadcast record|publisher=Praesyuan Radio Service|date=28 May 1712}}</ref>
+
+==Group stage==
+
+The 16 qualified teams were drawn into four groups of four. Each group operated on a single round-robin basis, with each team playing three matches; the top two finishers in each group advanced to the [[#Knockout stage|knockout stage]]. Group rankings were settled first on points (two for a win, one for a draw), then on goal average and goals scored.
+
+The group stage produced one perfect record, [[Raledria]] taking maximum points from their three [[#Group B|Group B]] matches with the largest positive group-stage goal difference of the round at plus seven. The host nation [[Praesyu]] topped a competitive [[#Group A|Group A]] ahead of [[Dahe]]. The most open group was [[#Group C|Group C]], in which [[Easuhura]] and [[Emara]] advanced ahead of [[Quidic]] and [[Taval]] in a group that produced 23 goals across its six matches, the highest of any group at the tournament. The biggest single-match upset of the group stage was the 2–1 victory for [[Etirha]] over the defending champions [[United Delet]] in [[#Group D|Group D]], a result that confirmed the [[1708 FLLA World Cup|1708]] champions' elimination at the group stage.<ref>{{cite web|url=https://www.flla.org/1712/group-stage-summary|title=1712 FLLA World Cup group stage: results summary|publisher=[[FLLA]]|date=5 June 1712}}</ref>
+
+All times listed are Standard Praesyuan Time ([[wikipedia:UTC|UTC]]+0).
+
+===Group A===
+{| class="wikitable" style="text-align: center;"
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' ''(H)'' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Dahe}} '''[[Dahe]]''' || 3 || 1 || 2 || 0 || 6 || 4 || +2 || 4
+|-
+| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 3 || 1 || 1 || 1 || 4 || 5 || −1 || 3 ||
+|-
+| 4 || align="left" | {{Flagicon|Otiiric}} [[Otiiric]] || 3 || 0 || 0 || 3 || 3 || 8 || −5 || 0 ||
+|}
+''(H) Host.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 28 May 1712 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–1 || {{Flagicon|Otiiric}} Otiiric || align="left" | Estadio Brimasha, Brimasha
+|-
+| align="left" | 28 May 1712 || align="right" | Dahe {{Flagicon|Dahe}} || 2–2 || {{Flagicon|Wundry}} Wundry || align="left" | Estadio Meveran, Brimasha
+|-
+| align="left" | 31 May 1712 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–0 || {{Flagicon|Wundry}} Wundry || align="left" | Estadio Brimasha, Brimasha
+|-
+| align="left" | 31 May 1712 || align="right" | '''Dahe''' {{Flagicon|Dahe}} || 3–1 || {{Flagicon|Otiiric}} Otiiric || align="left" | Estadio Meveran, Brimasha
+|-
+| align="left" | 3 June 1712 || align="right" | Praesyu {{Flagicon|Praesyu}} || 1–1 || {{Flagicon|Dahe}} Dahe || align="left" | Estadio Brimasha, Brimasha
+|-
+| align="left" | 3 June 1712 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–1 || {{Flagicon|Otiiric}} Otiiric || align="left" | Estadio Meveran, Brimasha
+|}
+
+===Group B===
+{| class="wikitable" style="text-align: center;"
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 3 || 0 || 0 || 9 || 2 || +7 || 6 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 1 || 1 || 1 || 5 || 5 || 0 || 3
+|-
+| 3 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 2 || 1 || 4 || 7 || −3 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || 3 || 0 || 1 || 2 || 2 || 6 || −4 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 28 May 1712 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 4–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Estadio Zaraqon, Zaraqon
+|-
+| align="left" | 28 May 1712 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 2–1 || {{Flagicon|Ohtina}} Ohtina || align="left" | Estadio Zaraqon, Zaraqon
+|-
+| align="left" | 31 May 1712 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 3–0 || {{Flagicon|Ohtina}} Ohtina || align="left" | Estadio Zaraqon, Zaraqon
+|-
+| align="left" | 31 May 1712 || align="right" | Eldjo {{Flagicon|Eldjo}} || 2–2 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Estadio Zaraqon, Zaraqon
+|-
+| align="left" | 3 June 1712 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Estadio Zaraqon, Zaraqon
+|-
+| align="left" | 3 June 1712 || align="right" | Ohtina {{Flagicon|Ohtina}} || 1–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Estadio Zaraqon, Zaraqon
+|}
+
+===Group C===
+{| class="wikitable" style="text-align: center;"
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 2 || 1 || 0 || 7 || 4 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 0 || 1 || 6 || 5 || +1 || 4
+|-
+| 3 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 0 || 2 || 1 || 5 || 6 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 3 || 0 || 1 || 2 || 5 || 8 || −3 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 29 May 1712 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 3–1 || {{Flagicon|Taval}} Taval || align="left" | Estadio Nashmir, Nashmir
+|-
+| align="left" | 29 May 1712 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Quidic}} Quidic || align="left" | Estadio Khamora, Khamora
+|-
+| align="left" | 1 June 1712 || align="right" | Easuhura {{Flagicon|Easuhura}} || 2–2 || {{Flagicon|Quidic}} Quidic || align="left" | Estadio Nashmir, Nashmir
+|-
+| align="left" | 1 June 1712 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–2 || {{Flagicon|Taval}} Taval || align="left" | Estadio Khamora, Khamora
+|-
+| align="left" | 4 June 1712 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–1 || {{Flagicon|Emara}} Emara || align="left" | Estadio Nashmir, Nashmir
+|-
+| align="left" | 4 June 1712 || align="right" | Quidic {{Flagicon|Quidic}} || 2–2 || {{Flagicon|Taval}} Taval || align="left" | Estadio Khamora, Khamora
+|}
+
+===Group D===
+{| class="wikitable" style="text-align: center;"
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 3 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 1 || 2 || 0 || 4 || 3 || +1 || 4
+|-
+| 3 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || 3 || 1 || 0 || 2 || 3 || 4 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 3 || 0 || 1 || 2 || 4 || 7 || −3 || 1 ||
+|}
+''Defending champions [[United Delet]] were eliminated at the group stage.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 29 May 1712 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|United Delet}} United Delet || align="left" | Estadio Drashir, Drashir
+|-
+| align="left" | 29 May 1712 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–0 || {{Flagicon|Etirha}} Etirha || align="left" | Estadio Drashir, Drashir
+|-
+| align="left" | 1 June 1712 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Etirha}} Etirha || align="left" | Estadio Drashir, Drashir
+|-
+| align="left" | 1 June 1712 || align="right" | Siana {{Flagicon|Siana}} || 2–2 || {{Flagicon|United Delet}} United Delet || align="left" | Estadio Drashir, Drashir
+|-
+| align="left" | 4 June 1712 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|Siana}} Siana || align="left" | Estadio Drashir, Drashir
+|-
+| align="left" | 4 June 1712 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–1 || {{Flagicon|United Delet}} United Delet || align="left" | Estadio Drashir, Drashir
+|}
+
+===Notable upsets===
+
+The most significant upset of the 1712 group stage was the elimination of the defending champions [[United Delet]], who finished bottom of [[#Group D|Group D]] with a single point from three matches. The [[1708 FLLA World Cup|1708]] champions, who had lifted the Esrenva on home soil in [[New Ayre]] four years earlier, drew their opening fixture with [[Siana]] and lost to both [[Lycroa]] and [[Etirha]]; the 2–1 defeat to [[Etirha]] on 4 June confirmed their early exit and made them the first defending champions to be eliminated at the group stage of an FLLA World Cup. The result was widely attributed in the [[New Ayre|New Ayren]] press to the long intercontinental journey and to the absence through injury of several of the side's [[1708 FLLA World Cup|1708]] mainstays.<ref>{{cite web|url=https://www.flla.org/1712/group-d-summary|title=Defending champions United Delet eliminated in Group D|publisher=[[FLLA]]|date=4 June 1712}}</ref>
+
+==Knockout stage==
+
+The knockout stage involved the eight teams that advanced from the group stage. The four group winners were paired with the four group runners-up in the quarter-finals, with group winners and runners-up from the same group kept apart. Matches still level after 90 minutes were extended by a 30-minute period of [[wikipedia:Extra time|extra time]]; two of the seven knockout ties, the [[#Quarter-finals|quarter-final]] between [[Lycroa]] and [[Emara]] and the first [[#Semi-finals|semi-final]] between [[Praesyu]] and [[Easuhura]], were decided in extra time. The cumulative goal total of 30 across the seven knockout matches continued the attacking character of the tournament as a whole.<ref>{{cite web|url=https://www.flla.org/1712/knockout-summary|title=1712 FLLA World Cup knockout stage: results summary|publisher=[[FLLA]]|date=16 June 1712}}</ref>
+
+===Bracket===
+{{Round8|widescore=yes
+|RD1=[[#Quarter-finals|Quarter-finals]]
+|RD2=[[#Semi-finals|Semi-finals]]
+|RD3=[[#Final|Final]]
+|Consol=[[#Third place playoff|Third-place playoff]]
+<!-- quarter-finals -->
+|8 June – [[Praesyu|Brimasha]]|'''{{Flagicon|Praesyu}} [[Praesyu]]'''|'''2'''|{{Flagicon|Eldjo}} [[Eldjo]]|0
+|8 June – [[Praesyu|Nashmir]]|'''{{Flagicon|Easuhura}} [[Easuhura]]'''|'''2'''|{{Flagicon|Siana}} [[Siana]]|1
+|9 June – [[Praesyu|Zaraqon]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''3'''|{{Flagicon|Dahe}} [[Dahe]]|1
+|9 June – [[Praesyu|Drashir]]|'''{{Flagicon|Emara}} [[Emara]]''' (a.e.t.)|'''2'''|{{Flagicon|Lycroa}} [[Lycroa]]|1
+<!-- semi-finals -->
+|12 June – [[Praesyu|Brimasha]]|'''{{Flagicon|Easuhura}} [[Easuhura]]''' (a.e.t.)|'''2'''|{{Flagicon|Praesyu}} [[Praesyu]]|1
+|12 June – [[Praesyu|Zaraqon]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''3'''|{{Flagicon|Emara}} [[Emara]]|1
+<!-- final -->
+|16 June – [[Praesyu|Brimasha]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''4'''|{{Flagicon|Easuhura}} [[Easuhura]]|2
+<!-- third place -->
+|15 June – [[Praesyu|Khamora]]|'''{{Flagicon|Praesyu}} [[Praesyu]]'''|'''3'''|{{Flagicon|Emara}} [[Emara]]|2
+}}
+
+===Quarter-finals===
+
+The four quarter-finals produced three ties decided in normal time and one in extra time. The hosts [[Praesyu]] beat [[Eldjo]] 2–0 at the Estadio Brimasha through goals from forward Ravik Tolmesh and winger Daro Velsar. [[Easuhura]] beat [[Siana]] 2–1 at the Estadio Nashmir, both their goals coming from forward Halvik Yantra. [[Raledria]] beat [[Dahe]] 3–1 at the Estadio Zaraqon, with Veylan Marrik scoring twice. The only tie to require extra time was [[Emara]]'s 2–1 win over the [[#Group D|Group D]] winners [[Lycroa]] at the Estadio Drashir, settled by a 104th-minute strike from forward Cael Mordane after Lycroa had equalised on the hour.
+
+{{Football box
+| date = {{Start date|1712|6|8|df=y}}
+| time = 17:00 PST
+| team1 = [[Praesyu]] {{Flagicon|Praesyu}}
+| score = 2–0
+| team2 = {{Flagicon|Eldjo}} [[Eldjo]]
+| goals1 = Tolmesh {{Goal|27}}<br/>Velsar {{Goal|64}}
+| goals2 =
+| stadium = Estadio Brimasha, [[Praesyu|Brimasha]]
+| attendance = 44,000
+| referee = Corvin Aldas ([[United Delet]])
+}}
+----
+{{Football box
+| date = {{Start date|1712|6|8|df=y}}
+| time = 17:00 PST
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 2–1
+| team2 = {{Flagicon|Siana}} [[Siana]]
+| goals1 = Yantra {{Goal|18|55}}
+| goals2 = Korvis {{Goal|72}}
+| stadium = Estadio Nashmir, [[Praesyu|Nashmir]]
+| attendance = 28,600
+| referee = Tovan Lik ([[Otiiric]])
+}}
+----
+{{Football box
+| date = {{Start date|1712|6|9|df=y}}
+| time = 17:00 PST
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 3–1
+| team2 = {{Flagicon|Dahe}} [[Dahe]]
+| goals1 = Marrik {{Goal|9|61}}<br/>Kessil {{Goal|44}}
+| goals2 = Soldan {{Goal|70}}
+| stadium = Estadio Zaraqon, [[Praesyu|Zaraqon]]
+| attendance = 36,400
+| referee = Maron Detsk ([[Quidic]])
+}}
+----
+{{Football box
+| date = {{Start date|1712|6|9|df=y}}
+| time = 17:00 PST
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 2–1 {{Aet}}
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Mordane {{Goal|51|104}}
+| goals2 = Velarn {{Goal|66}}
+| stadium = Estadio Drashir, [[Praesyu|Drashir]]
+| attendance = 27,100
+| referee = Edvar Holm ([[Areoix Lie]])
+}}
+
+===Semi-finals===
+
+The first semi-final at the Estadio Brimasha was the match of the tournament for the home support. The hosts [[Praesyu]] led [[Easuhura]] through a 58th-minute strike from forward Ravik Tolmesh, only for [[Easuhura]] to equalise through Halvik Yantra in the 39th minute and force extra time; the tie was settled in the 112th minute by [[Easuhura]] captain Aldermin Sarro, whose low finish from the edge of the area eliminated the hosts and sent [[Easuhura]] to their first FLLA World Cup final. The result was the closest a host nation had come to an FLLA World Cup final without reaching it to that date.
+
+The second semi-final at the Estadio Zaraqon was a more comfortable affair for [[Raledria]], who beat the [[#Group C|Group C]] runners-up [[Emara]] 3–1 through two goals from Veylan Marrik and a third from captain Toman Vaskar. The win gave [[Raledria]] their second FLLA World Cup final appearance, following their victory as hosts at the inaugural [[1700 FLLA World Cup|1700 edition]].
+
+{{Football box
+| date = {{Start date|1712|6|12|df=y}}
+| time = 17:00 PST
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 2–1 {{Aet}}
+| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
+| goals1 = Yantra {{Goal|39}}<br/>Sarro {{Goal|112}}
+| goals2 = Tolmesh {{Goal|58}}
+| stadium = Estadio Brimasha, [[Praesyu|Brimasha]]
+| attendance = 45,000
+| referee = Edvar Holm ([[Areoix Lie]])
+}}
+----
+{{Football box
+| date = {{Start date|1712|6|12|df=y}}
+| time = 17:00 PST
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 3–1
+| team2 = {{Flagicon|Emara}} [[Emara]]
+| goals1 = Marrik {{Goal|22|70}}<br/>Vaskar {{Goal|81}}
+| goals2 = Mordane {{Goal|49}}
+| stadium = Estadio Zaraqon, [[Praesyu|Zaraqon]]
+| attendance = 37,800
+| referee = Tovan Lik ([[Otiiric]])
+}}
+
+===Third place playoff===
+
+The third-place playoff was contested between the two losing semi-finalists at the Estadio Khamora on 15 June. The hosts [[Praesyu]] beat [[Emara]] 3–2 to take third place on home soil, recovering from 1–1 at half time with two second-half goals from forward Ravik Tolmesh, who finished the match with a brace and the playoff with a personal tally that made him the tournament's joint-fourth-highest scorer. [[Emara|Emaran]] forward Cael Mordane scored his fifth goal of the tournament in the 33rd minute and a late consolation from Velin Caldis in the 88th minute was not enough to deny the hosts the bronze medal.
+
+{{Football box
+| date = {{Start date|1712|6|15|df=y}}
+| time = 16:00 PST
+| team1 = [[Praesyu]] {{Flagicon|Praesyu}}
+| score = 3–2
+| team2 = {{Flagicon|Emara}} [[Emara]]
+| goals1 = Tolmesh {{Goal|12|74}}<br/>Drevali {{Goal|55}}
+| goals2 = Mordane {{Goal|33}}<br/>Caldis {{Goal|88}}
+| stadium = Estadio Khamora, [[Praesyu|Khamora]]
+| attendance = 23,200
+| referee = Corvin Aldas ([[United Delet]])
+}}
+
+===Final===
+{{Main|1712 FLLA World Cup final}}
+
+The final was contested between the [[#Group B|Group B]] winners [[Raledria]] and the [[#Group C|Group C]] winners [[Easuhura]] on 16 June 1712 at the Estadio Brimasha in [[Praesyu|Brimasha]] in front of a capacity attendance of 45,000. [[Raledria]] entered the match having scored sixteen goals across their six previous fixtures; [[Easuhura]] had reached the final having eliminated the hosts [[Praesyu]] in the semi-finals.
+
+The match was open from the outset. [[Raledria]] took an early lead through Veylan Marrik in the 14th minute, the forward finishing a low cross from right-winger Daro Kessil at the near post. [[Easuhura]] equalised in the 22nd minute through Halvik Yantra, who turned in a loose ball after a corner. Marrik restored the [[Raledria|Raledrian]] lead in the 39th minute with a header from a Toman Vaskar free kick, and the sides went in at half time with [[Raledria]] leading 2–1.
+
+The second half saw [[Easuhura]] level again through captain Aldermin Sarro in the 59th minute, his angled drive beating Raledrian goalkeeper Marek Solven, before Marrik completed his hat-trick in the 68th minute with a close-range finish from a Kessil cutback. Kessil himself added a fourth in the 77th minute, finishing a [[Raledria|Raledrian]] counter-attack to put the result beyond doubt. The final score of 4–2 gave [[Raledria]] their second FLLA World Cup title and Marrik the seventh goal of his tournament, securing the leading-scorer citation. The Brimasha trophy was presented to [[Raledria]] captain Toman Vaskar at the closing ceremony by the President of the FLLA Council.<ref name="flla-final-report">{{cite web|url=https://www.flla.org/1712/final-report|title=Match report: 1712 FLLA World Cup final, Raledria 4–2 Easuhura|publisher=[[FLLA]]|date=16 June 1712}}</ref><ref>{{cite web|url=https://www.rnb.ral/sport/1712/final|title=Raledria win second world title in Brimasha|publisher=Raledrian National Broadcaster|date=16 June 1712}}</ref>
+
+{{Football box
+| date = {{Start date|1712|6|16|df=y}}
+| time = 17:00 PST
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 4–2
+| team2 = {{Flagicon|Easuhura}} [[Easuhura]]
+| goals1 = Marrik {{Goal|14|39|68}}<br/>Kessil {{Goal|77}}
+| goals2 = Yantra {{Goal|22}}<br/>Sarro {{Goal|59}}
+| stadium = Estadio Brimasha, [[Praesyu|Brimasha]]
+| attendance = 45,000
+| referee = Maron Detsk ([[Quidic]])
+}}
+
+==Statistics==
+
+===Goalscoring===
+
+[[Raledria]] finished as the tournament's leading goalscoring nation with 19 goals across six matches, ahead of [[Easuhura]] (13 in six), [[Praesyu]] (12 in six) and [[Emara]] (11 in six). The overall goal-per-match average of 3.41 across 32 matches was the highest recorded at any FLLA World Cup to that date and was not surpassed at any subsequent edition until the [[1748 FLLA World Cup|1748 tournament]]. The figure was cited in early FLLA literature as the high-water mark of the attacking football that characterised the first decades of the competition, before the more defensive tactical orientation that the FLLA's own [[1736 FLLA World Cup|1736]] review would later identify.<ref>{{cite web|url=https://www.flla.org/1712/scoring-review|title=Report of the FLLA Secretariat on goalscoring at the 1712 FLLA World Cup|publisher=[[FLLA]]|date=4 August 1712}}</ref>
+
+The table below lists the leading goalscoring nations of the tournament.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Leading goalscoring nations
+! Rank !! Team !! Goals !! Matches
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 19 || 6
+|-
+| 2 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 13 || 6
+|-
+| 3 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] ''(H)'' || 12 || 6
+|-
+| 4 || align="left" | {{Flagicon|Emara}} [[Emara]] || 11 || 6
+|-
+| 5 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 7 || 4
+|-
+| 6 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 7 || 4
+|-
+| 7 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 5 || 4
+|-
+| 8 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 5 || 3
+|}
+
+===Top individual scorers===
+
+The tournament produced no formal individual goalscorer's award; the competition's modern top-scorer prize, the [[FLLA Marskval]], was not adopted in its present form until the [[1744 FLLA World Cup|1744 edition]]. At the 1712 tournament the FLLA's Goalscoring Secretariat published a leading-scorer table at the conclusion of the competition without a formal trophy or presentation. The 1712 leading scorer was [[Raledria|Raledrian]] forward Veylan Marrik with seven goals, including a hat-trick in the [[#Final|final]].
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Top individual goalscorers
+! Rank !! Player !! Team !! Goals
+|-
+| 1 || align="left" | Veylan Marrik || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 7
+|-
+| 2 || align="left" | Halvik Yantra || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 5
+|-
+| 2 || align="left" | Cael Mordane || align="left" | {{Flagicon|Emara}} [[Emara]] || 5
+|-
+| 4 || align="left" | Ravik Tolmesh || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 4
+|-
+| 4 || align="left" | Daro Kessil || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 4
+|-
+| 6 || align="left" | Aldermin Sarro || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 3
+|-
+| 6 || align="left" | Toman Vaskar || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 3
+|-
+| 6 || align="left" | Senn Drevali || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3
+|}
+
+===Discipline===
+
+The FLLA Disciplinary Committee issued a total of 58 cautions and 3 dismissals across the 32 matches of the tournament, an average of 1.81 cautions per match. The most-cautioned team was [[Taval]], with seven cautions across their three group-stage matches; the champions [[Raledria]] received the fewest among the sides reaching the knockout stage, with four cautions and no dismissals across their six matches. The three dismissals were all issued in the group stage and none in the knockout rounds.<ref>{{cite web|url=https://www.flla.org/discipline/1712-summary|title=FLLA Disciplinary Committee report on the 1712 FLLA World Cup|publisher=[[FLLA]]|date=2 August 1712}}</ref>
+
+==Awards==
+
+The 1712 FLLA World Cup did not formally award any of the individual prizes that are now associated with the modern competition. The current best-player award (the [[FLLA Vairan Ball]]), top-scorer award (the [[FLLA Marskval]]) and best-goalkeeper award (the [[FLLA Bastion]]) were all adopted in their present form only at later editions, the Marskval and Bastion at the [[1744 FLLA World Cup|1744 edition]] and the formal best-player award subsequently. At the 1712 tournament a panel of seven sports journalists drawn from each of the seven confederations published an unofficial best-player citation, the FLLA's Goalscoring Secretariat published an unofficial leading-scorer citation, and a separate panel published an unofficial best-goalkeeper citation, but none was accompanied by a formal trophy or a presentation at the closing ceremony.
+
+The unofficial best-player citation was awarded to [[Raledria|Raledrian]] captain and central midfielder Toman Vaskar, who anchored the [[Raledria|Raledrian]] side across all six matches of their run to the title and scored in both the [[#Semi-finals|semi-final]] and the build-up to the [[#Final|final]]. The unofficial leading-scorer citation went to [[Raledria|Raledrian]] forward Veylan Marrik with seven goals, and the unofficial best-goalkeeper citation to [[Raledria|Raledrian]] goalkeeper Marek Solven, who conceded six goals across the six matches of the campaign. All three citations were retrospectively recognised by the FLLA in 1745 as predecessors of the modern [[FLLA Vairan Ball]], [[FLLA Marskval]] and [[FLLA Bastion]] awards, but none of the holders is listed among the formal winners of those prizes.<ref>{{cite web|url=https://www.flla.org/1745/awards-historical-recognition|title=Historical recognition of pre-1744 best-player, leading-scorer and best-goalkeeper citations|publisher=[[FLLA]]|date=22 February 1745}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ 1712 tournament citations (unofficial)
+! Citation !! Recipient !! Notes
+|-
+| Best-player citation (precursor to the [[FLLA Vairan Ball]]) || align="left" | {{Flagicon|Raledria}} Toman Vaskar ([[Raledria]]) || captain; central midfielder
+|-
+| Leading-scorer citation (precursor to the [[FLLA Marskval]]) || align="left" | {{Flagicon|Raledria}} Veylan Marrik ([[Raledria]]) || 7 goals
+|-
+| Best-goalkeeper citation (precursor to the [[FLLA Bastion]]) || align="left" | {{Flagicon|Raledria}} Marek Solven ([[Raledria]]) || 6 goals conceded in 7 matches
+|-
+| Leading goalscoring nation || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 19 goals
+|}
+
+==Final standings==
+
+Final standings of the 16 participating teams at the 1712 FLLA World Cup, as published by the [[FLLA]] on 14 July 1712.<ref>{{cite web|url=https://www.flla.org/1712/final-standings|title=Final standings of the 1712 FLLA World Cup|publisher=[[FLLA]]|date=14 July 1712}}</ref> The top four positions are determined by the results of the [[#Knockout stage|knockout stage]]; teams eliminated at the same stage are ranked by their record across the tournament as a whole.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Final standings
+! Pos !! Team !! Confederation !! Stage reached
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || [[ATFVL]] || align="left" | Champions
+|-
+| 2 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || [[AYFVL]] || align="left" | Runners-up
+|-
+| 3 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] ''(H)'' || [[AYFVL]] || align="left" | Third place
+|-
+| 4 || align="left" | {{Flagicon|Emara}} [[Emara]] || [[AYFVL]] || align="left" | Fourth place
+|-
+| 5 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || [[MSFVL]] || align="left" | Quarter-finals
+|-
+| 6 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 7 || align="left" | {{Flagicon|Siana}} [[Siana]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 8 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 9 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || [[QUFVL]] || align="left" | Group stage
+|-
+| 10 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || [[ATFVL]] || align="left" | Group stage
+|-
+| 11 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || [[QUFVL]] || align="left" | Group stage
+|-
+| 12 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 13 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MSFVL]] || align="left" | Group stage
+|-
+| 14 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFVL]] || align="left" | Group stage
+|-
+| 15 || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || [[NAFVL]] || align="left" | Group stage
+|-
+| 16 || align="left" | {{Flagicon|Otiiric}} [[Otiiric]] || [[MAFVL]] || align="left" | Group stage
+|}
+
+==Preparations and costs==
+
+The total budget allocated to the 1712 FLLA World Cup by the Praesyuan Arraby Federation and the federal government of [[Praesyu]] was {{lahn}}38&nbsp;million. Of this, {{lahn}}16&nbsp;million was directed towards stadium construction and renovation across the six venues, {{lahn}}14&nbsp;million towards transport upgrades (principally the [[Praesyu|Brimasha]]–[[Praesyu|Zaraqon]] interior rail corridor) and {{lahn}}8&nbsp;million towards operational expenditure including security and the volunteer programme. Per-venue capital costs averaged {{lahn}}2.7&nbsp;million across the six stadiums, a figure reflective of the limited new-build component of the compact Praesyuan plan, which redeveloped existing grounds rather than constructing new venues.
+
+The combined security operation involved 4,200 federal and municipal personnel deployed across the four host cities. No serious incidents were reported during the competition. Total tournament revenue, audited by the FLLA in August 1712, was {{lahn}}61&nbsp;million, against costs of {{lahn}}38&nbsp;million, yielding a net surplus of {{lahn}}23&nbsp;million. The FLLA's standard host-association allocation returned {{lahn}}9&nbsp;million to the Praesyuan Arraby Federation under the single-host allocation formula then in force.<ref>{{cite web|url=https://www.flla.org/audit/1712-final-accounts|title=Audited final accounts of the 1712 FLLA World Cup|publisher=[[FLLA]]|date=22 August 1712}}</ref>
+
+==Marketing==
+{{Main|1712 FLLA World Cup marketing}}
+
+The marketing programme for the 1712 FLLA World Cup was overseen by the Praesyuan Arraby Federation. The programme was modest by the standards of later editions and centred on the official emblem, the printed match programme and a domestic poster campaign across the four host cities. A tiered arrangement of host-nation supporters provided commercial backing, with total sponsorship revenue across all tiers of {{lahn}}11&nbsp;million, then a record gross sponsorship figure for the competition.<ref>{{cite web|url=https://www.flla.org/commercial/1712-sponsorship|title=1712 FLLA World Cup commercial and sponsorship summary|publisher=[[FLLA]]|date=10 September 1712}}</ref>
+
+==Symbols==
+{{Main|1712 FLLA World Cup symbols}}
+
+===Emblem===
+
+The official emblem of the tournament depicted a stylised silhouette of the Brimasha trophy framed by a four-pointed device representing the four host cities, rendered in the deep red and silver of the host nation [[Praesyu]]. The design was unveiled at the Federal Assembly Hall in [[Praesyu|Brimasha]] on 4 May 1711 and was reproduced on the cover of the printed match programme for every fixture.<ref>{{cite web|url=https://www.flla.org/1711/emblem-endorsement|title=FLLA Council endorses official emblem of the 1712 FLLA World Cup|publisher=[[FLLA]]|date=22 September 1711}}</ref>
+
+===Match ball===
+
+The official match ball of the tournament, manufactured in [[Praesyu|Brimasha]], was a hand-stitched leather ball in the conventional 18-panel construction of the period, branded the '''Brimasha''' after the host capital and the edition's permanent trophy. No distinct final-match ball was used.<ref>{{cite web|url=https://www.paf.pr/1712/match-ball|title=The Brimasha: official match ball of the 1712 FLLA World Cup|publisher=Praesyuan Arraby Federation|date=10 February 1712}}</ref>
+
+===Trophy===
+
+The 1712 FLLA World Cup was contested for a single bespoke permanent trophy, '''the Brimasha''', commissioned for the edition by the Praesyuan Arraby Federation from a host-nation sculptor and named after the federal capital. The award of a bespoke permanent trophy, kept by the winning nation in perpetuity, was the established arrangement of the early FLLA era: the tradition had begun at the [[1700 FLLA World Cup|1700 edition]] as a substitute for the rotating Andah Cup, which had been destroyed at [[Alzuria]] in 1688 during the [[Red War]], and the Brimasha was the fourth such permanent trophy in the sequence, following the Solana (1700), the Wulfen (1704) and the Esrenva (1708).
+
+No rotating cup was awarded in 1712. The modern rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] was commissioned by the FLLA only in 1714, following an international design competition, and first presented at the [[1716 FLLA World Cup|1716 edition]]; from 1716 onwards both the rotating Andah Cup and a newly commissioned permanent trophy were awarded at each edition. The Brimasha was presented to [[Raledria]] captain Toman Vaskar at the closing ceremony of the [[#Final|final]] on 16 June 1712 and has been retained by the Raledrian Arraby Association in perpetuity; it is displayed at the Tirna National Museum in [[Tirna]].<ref>{{cite web|url=https://www.flla.org/heritage/trophies/the-brimasha|title=The Brimasha: history and current display|publisher=[[FLLA]]|date=4 January 1713}}</ref>
+
+==Media==
+{{Main|1712 FLLA World Cup broadcasting}}
+
+The 1712 FLLA World Cup was the first edition at which every fixture was relayed by short-range radio to a designated public listening point in each host city, extending the experimental coverage first introduced at the [[1708 FLLA World Cup|1708 edition]]. Domestic radio coverage in [[Praesyu]] was provided by the Praesyuan Radio Service (PRS), which produced the host feed; a small number of fixtures, including the [[#Final|final]], were relayed beyond the host nation by partner stations in neighbouring [[Ayuma|Ayuman]] countries. Live commentary was not yet provided for every fixture, and the FLLA published no cumulative audience figure for the tournament.<ref>{{cite web|url=https://www.flla.org/1712/broadcast-record|title=Broadcast record of the 1712 FLLA World Cup|publisher=[[FLLA]]|date=18 August 1712}}</ref>
+
+===Attendance===
+
+Cumulative attendance across the 32 matches of the tournament was 712,000 spectators, an average of 22,250 per match. The highest single-match attendance was the 45,000 recorded at the [[#Final|final]] between [[Raledria]] and [[Easuhura]] at the Estadio Brimasha in [[Praesyu|Brimasha]], filling the venue to its listed capacity, equalled by the first [[#Semi-finals|semi-final]] at the same venue. The lowest was the 14,800 attending the [[#Group C|Group C]] fixture between [[Quidic]] and [[Taval]] at the Estadio Khamora on 4 June. Attendance averaged 33,500 in the knockout stage and 18,400 in the group stage.
+
+==Controversies==
+
+The principal dispute of the tournament arose from the [[#Quarter-finals|quarter-final]] between [[Emara]] and [[Lycroa]] at the Estadio Drashir on 9 June, which [[Emara]] won 2–1 after extra time. The [[Lycroa|Lycroan]] Arraby Federation lodged a written protest on 10 June contending that the [[Emara|Emaran]] winner, scored by forward Cael Mordane in the 104th minute, had been preceded by a foul on [[Lycroa|Lycroan]] goalkeeper Velden Orsa that the match referee had not seen. The FLLA Refereeing Committee dismissed the protest on 11 June, citing the finality of on-field decisions under the laws of the game then in force, and [[Emara]] advanced to the semi-finals.<ref>{{cite web|url=https://www.flla.org/referees/1712/lycroa-decision|title=FLLA Refereeing Committee decision on the Lycroan protest of 10 June 1712|publisher=[[FLLA]]|date=11 June 1712}}</ref>
+
+A second, administrative dispute arose from the early elimination of the defending champions [[United Delet]], whose federation contended in a submission to the FLLA Secretariat that the scheduling of all three of their [[#Group D|Group D]] fixtures within seven days had disadvantaged a side that had travelled from [[New Ayre]]. The submission did not seek to alter any result and was noted by the Secretariat without action; the question of travel and recovery time for intercontinental sides was, however, among the considerations cited in the gradual lengthening of the group-stage schedule at later editions.<ref>{{cite web|url=https://www.flla.org/1712/schedule-note|title=FLLA Secretariat note on group-stage scheduling at the 1712 FLLA World Cup|publisher=[[FLLA]]|date=20 June 1712}}</ref>
+
+==Aftermath==
+
+[[Raledria]]'s victory was their second FLLA World Cup title, following their win as hosts at the inaugural [[1700 FLLA World Cup|1700 edition]]. The result was celebrated across [[Raledria]], where the team's homecoming reception at the [[Tirna]] central square drew an estimated crowd of 600,000, then the second-largest single-day public gathering recorded in [[Tirna]] after the [[1700 FLLA World Cup|1700]] homecoming. The 1712 title was the second of three that [[Raledria]] would win across the 1700 to 1716 window, the Raledrian side going on to retain the trophy at the [[1716 FLLA World Cup|1716 edition]] in [[Easuhura]] for back-to-back championships and to establish themselves as the dominant nation of the early FLLA era.<ref>{{cite web|url=https://www.rnb.ral/news/1712/homecoming-reception|title=Raledrian homecoming reception draws 600,000 to Tirna|publisher=Raledrian National Broadcaster|date=18 June 1712}}</ref>
+
+For the hosts [[Praesyu]], third place on home soil was the country's best finish at an FLLA World Cup to that date and established the federation as a credible host and competitor; [[Praesyu]] would go on to win the [[1720 FLLA World Cup|1720 edition]] in [[Etirha]] eight years later, lifting the Mendara with a 4–0 win over [[Lycroa]] in the final. The runners-up [[Easuhura]], appearing in their first FLLA World Cup final, would reach two further finals across the following decades, losing again in [[1724 FLLA World Cup|1724]] and [[1744 FLLA World Cup|1744]] before finally winning the competition at the [[1764 FLLA World Cup|1764 edition]].
+
+The next edition of the FLLA World Cup, the [[1716 FLLA World Cup]], was originally awarded to [[Estijan]] but was reassigned to [[Easuhura]] in November 1714 following a domestic pharmaceutical scandal in the [[Estijan|Estijani]] league; it was staged in [[Easuhura]] at four months' notice and saw [[Raledria]] retain the trophy with a 2–1 win over [[Emara]] in the final, and the first presentation of the new rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] alongside the bespoke permanent trophy.<ref>{{cite web|url=https://www.flla.org/1714/1716-host-confirmation|title=Easuhura confirmed as 1716 FLLA World Cup hosts following reassignment from Estijan|publisher=[[FLLA]]|date=18 November 1714}}</ref>
 
 ==See also==
+* [[FLLA]]
 * [[FLLA World Cup]]
 * [[1708 FLLA World Cup]]
 * [[1716 FLLA World Cup]]
+* [[ATFVL]]
+* [[AYFVL]]
+* [[NAFVL]]
+* [[MAFVL]]
+* [[QUFVL]]
+* [[MSFVL]]
+* [[ACFVL]]
 
 ==References==
 {{reflist}}

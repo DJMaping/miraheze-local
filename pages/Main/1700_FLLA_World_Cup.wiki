@@ -9,31 +9,506 @@
 |-
 | Continent || [[Atirha]]
 |-
+| Dates || 5 June – 4 July 1700
+|-
 | Teams || 16 (from 7 confederations)
+|-
+| Venues || 6 (in 6 host cities)
+|-
+| Matches played || 32
+|-
+| Goals scored || 79 (2.47 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Raledria}} '''[[Raledria]]'''
+| Champion || {{Flagicon|Raledria}} '''[[Raledria]]''' ''(1st title)''
 |-
 | Runner-up || {{Flagicon|United Delet}} [[United Delet]]
 |-
-| Final score || 3-1
+| Third place || {{Flagicon|Lycroa}} [[Lycroa]]
+|-
+| Fourth place || {{Flagicon|Siana}} [[Siana]]
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Raledria}} Velmir Drasko ([[Raledria]]) (6 goals)
 |-
 | Previous: || ''[[1684 FLLA World Cup|1684]]''
 |-
 | Next: || ''[[1704 FLLA World Cup|1704]]''
 |}
 
-The '''1700 [[FLLA]] World Cup''' was the 8th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Raledria]] across [[Atirha]], and was won by [[Raledria]], who defeated [[United Delet]] 3-1 in the final.
+The '''1700 [[FLLA]] World Cup''' was the 8th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Raledria]], across [[Atirha]], from 5 June to 4 July 1700, and was won by the hosts, [[Raledria]], who defeated [[United Delet]] 3–1 in the [[#Final|final]] at the Tirna National Stadium to claim their first title.<ref name="flla-overview">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/overview|title=The 1700 FLLA World Cup: tournament overview|publisher=[[FLLA]]|date=9 July 1763}}</ref>
 
-The 1700 edition is widely regarded as a watershed in the competition's history. Held in [[Atirha]] for the first time, it was the first tournament contested under the new title '''FLLA World Cup''', a renaming formally adopted by the [[FLLA]] Council on 14 February 1699 to reflect the participation of teams from all then-existing continental confederations. The tournament resumed the competition after the longest hiatus in its history, three consecutive editions ([[1688 FLLA World Cup|1688]], [[1692 FLLA World Cup|1692]] and [[1696 FLLA World Cup|1696]]) having been cancelled because of the [[Red War]]. The final at the Tirna National Stadium drew an estimated crowd of 38,000, the largest single-match attendance recorded at any international fixture to that date.
+The 1700 edition is widely regarded as a watershed in the history of the competition. Held in [[Atirha]] for the first time, it was the first tournament contested under the new title '''FLLA World Cup''', a renaming formally adopted by the [[FLLA]] Council on 14 February 1699 to reflect the participation of teams affiliated to all then-existing continental confederations.<ref name="flla-rebrand">{{cite web|url=https://www.flla.org/heritage/history/world-cup-rebranding-1699|title=The rebranding of the competition as the FLLA World Cup|publisher=[[FLLA]]|date=12 February 1764}}</ref> It resumed the competition after the longest hiatus in its history, three consecutive editions ([[1688 FLLA World Cup|1688]], [[1692 FLLA World Cup|1692]] and [[1696 FLLA World Cup|1696]]) having been cancelled because of the [[Red War]] (1688 to 1695) and the subsequent reconstruction.
+
+Because the original [[FLLA World Cup#The Andah Cup|Andah Cup]] had been destroyed in [[Alzuria]] in 1688 and a replacement rotating trophy was not introduced until the [[1716 FLLA World Cup|1716 edition]], the 1700 tournament had no rotating cup. In its place the host federation, the Raledrian Arraby Association, commissioned a bespoke permanent trophy, '''[[FLLA World Cup#Permanent trophies|the Solana]]''', which was presented to Raledria as the sole senior award of the competition. The arrangement established the FLLA World Cup's [[FLLA World Cup#Permanent trophies|permanent-trophy tradition]], which was retained alongside the new Andah Cup from 1716 and has continued without interruption since.<ref name="flla-solana">{{cite web|url=https://www.flla.org/heritage/trophies/permanent-trophy-register|title=Register of FLLA World Cup permanent trophies: the Solana (1700)|publisher=[[FLLA]]|date=2 July 1764}}</ref> The final at the Tirna National Stadium drew an estimated crowd of 38,000, the largest single-match attendance recorded at any international fixture to that date.<ref name="flla-final-report">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/final|title=The 1700 FLLA World Cup final: Raledria 3–1 United Delet|publisher=[[FLLA]]|date=9 July 1763}}</ref>
+
+==Host selection==
+
+The 1700 tournament was the first to be organised by the [[FLLA]] following its reconstitution in 1683 and the disruption of the [[Red War]]. The competition scheduled for [[1688 FLLA World Cup|1688]] had been awarded to [[Raledria]] at a Federation Congress in 1685, but was abandoned after the outbreak of war on 22 May 1688; the planned host city was overrun in the early phase of the conflict, and the original Andah Cup, awaiting transfer to the new champions, was lost in the ensuing fire.<ref name="flla-redwar">{{cite web|url=https://www.flla.org/heritage/history/red-war-cancellations|title=The Red War and the cancelled editions of 1688, 1692 and 1696|publisher=[[FLLA]]|date=30 May 1763}}</ref>
+
+With the cessation of hostilities and the Council's resolution to re-establish the competition under a new framework, the hosting rights for the relaunched tournament were awarded to [[Raledria]] at a Council meeting on 3 April 1697, in part as a restoration of the edition lost in 1688. The Raledrian Arraby Association undertook to stage the finals across six cities and to commission a permanent trophy for the champions in the absence of a rotating cup. The choice of an [[Atirha|Atirhan]] host, the first outside [[Ayuma]] in the competition's history, was presented by the Council as a deliberate expression of the tournament's newly declared worldwide character.<ref name="flla-rebrand" />
+
+==Format==
+
+The 16 qualified teams were divided into four groups of four for the group stage. Each group operated on a single round-robin basis, with each team playing the other three sides in its group; two points were awarded for a win and one for a draw, in line with the scoring system then in use. The top two teams in each group advanced to the [[#Knockout stage|knockout stage]], while the bottom two were eliminated. Where teams finished level on points, places were determined first by goal difference and then by goals scored.
+
+The knockout stage consisted of single-elimination ties played over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet adopted by the [[FLLA]]. No replay proved necessary in 1700. The two losing semi-finalists contested a [[#Third place playoff|third-place playoff]] on the day before the final.
+
+==Participating teams==
+
+Sixteen teams took part in the 1700 finals, drawn from the seven continental confederations of the [[FLLA]]. The edition was the first at which sides affiliated to all seven confederations were represented, four of them, the [[MAFVL]], [[QUFVL]], [[MSFVL]] and [[ACFVL]], having been admitted to the [[FLLA]] only in the preceding fifteen years and several of which fielded debutant national teams. As host nation, [[Raledria]] qualified automatically; the remaining fifteen places were allocated across the confederations on the basis of membership, with the [[AYFVL]], the oldest and largest body, receiving the greatest share.<ref name="flla-qual">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/qualification|title=1700 FLLA World Cup: confederation allocations and qualified teams|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+
+The qualified teams were:
+
+==== [[ATFVL]] (Atirha) ====
+* {{Flagicon|Raledria}} [[Raledria]] ''(hosts)''
+* {{Flagicon|Etirha}} [[Etirha]]
+* {{Flagicon|Genaire}} [[Genaire]]
+
+==== [[AYFVL]] (Ayuma) ====
+* {{Flagicon|Emara}} [[Emara]]
+* {{Flagicon|Lycroa}} [[Lycroa]]
+* {{Flagicon|Praesyu}} [[Praesyu]]
+* {{Flagicon|Estijan}} [[Estijan]]
+* {{Flagicon|Eldjo}} [[Eldjo]]
+* {{Flagicon|Siana}} [[Siana]]
+
+==== [[NAFVL]] (New Ayre) ====
+* {{Flagicon|United Delet}} [[United Delet]]
+* {{Flagicon|Astye}} [[Astye]]
+
+==== [[MAFVL]] (Mahea) ====
+* {{Flagicon|Taval}} [[Taval]]
+
+==== [[QUFVL]] (Quia) ====
+* {{Flagicon|Quidic}} [[Quidic]]
+
+==== [[MSFVL]] (Massir) ====
+* {{Flagicon|Dahe}} [[Dahe]]
+
+==== [[ACFVL]] (Acrola) ====
+* {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+* {{Flagicon|Terressin}} [[Terressin]]
+
+==Venues==
+
+Six stadiums in six host cities, all in [[Raledria]], were used in the final tournament. The principal venue was the Tirna National Stadium in the capital, [[Tirna]], which staged the opening match and the final and was the only ground with a capacity above 30,000. The two semi-finals were divided between the Rovik Municipal Ground in [[Rovik]] and the Zunle Arena in [[Zunle]], with the [[#Third place playoff|third-place playoff]] held at Tavik Park in [[Tavik]]. The remaining group-stage fixtures were shared between these grounds and the two smallest venues, at [[Pekrin-Vavlen]] and [[Birska]].<ref name="flla-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/venues|title=Host stadiums of the 1700 FLLA World Cup|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Stadiums of the 1700 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Tirna]] || align="left" | Tirna National Stadium || 40,000 || align="left" | Opening match; final
+|-
+| align="left" | [[Rovik]] || align="left" | Rovik Municipal Ground || 24,000 || align="left" | Semi-final
+|-
+| align="left" | [[Zunle]] || align="left" | Zunle Arena || 22,000 || align="left" | Semi-final
+|-
+| align="left" | [[Tavik]] || align="left" | Tavik Park || 18,000 || align="left" | Third-place playoff
+|-
+| align="left" | [[Pekrin-Vavlen]] || align="left" | Pekrin-Vavlen Ground || 16,000 || align="left" | Group stage
+|-
+| align="left" | [[Birska]] || align="left" | Birska Field || 15,000 || align="left" | Group stage
+|}
+
+==Squads==
+
+Each participating national association registered a squad of eighteen players, two of whom were required to be goalkeepers; the smaller squads of the period reflected the limited substitution rules then in force, under which a single replacement was permitted only for an injured goalkeeper. A total of 288 players were registered for the tournament. The regulations governing late replacement for injury were administered by the FLLA Organising Committee, which sat in [[Tirna]] for the duration of the finals.<ref name="flla-squads">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/squads|title=1700 FLLA World Cup: registered squads|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+
+==Match officials==
+
+The FLLA Referees Committee appointed twelve referees and a panel of linesmen drawn from the member associations not represented in the latter stages of the competition. The opening match was refereed by Halbrek Tosvan of [[Emara]], and the final by Mariusz Velden of [[Praesyu]], the senior official of the tournament. The small officiating pool of the period meant that several referees took charge of fixtures involving teams from their own continent, though never from their own association.<ref name="flla-officials">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/officials|title=Match officials of the 1700 FLLA World Cup|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+
+==Group stage==
+
+The four groups were each contested as a single round-robin. The top two teams in each group advanced to the knockout stage; points were awarded on the two-points-for-a-win system in use at the time, with goal difference and then goals scored used to separate teams level on points.
+
+All dates are given in the local time of the host cities.
+
+===Group A===
+{| class="wikitable" style="text-align: center;"
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' ''(H)'' || 3 || 3 || 0 || 0 || 5 || 1 || +4 || 6 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 1 || 1 || 1 || 4 || 4 || 0 || 3
+|-
+| 3 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 1 || 1 || 1 || 2 || 2 || 0 || 3 ||
+|-
+| 4 || align="left" | {{Flagicon|Astye}} [[Astye]] || 3 || 0 || 0 || 3 || 1 || 5 || −4 || 0 ||
+|}
+''(H) Host.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 5 June 1700 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–0 || {{Flagicon|Astye}} Astye || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 6 June 1700 || align="right" | Estijan {{Flagicon|Estijan}} || 1–1 || {{Flagicon|Quidic}} Quidic || align="left" | Pekrin-Vavlen Ground, Pekrin-Vavlen
+|-
+| align="left" | 9 June 1700 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 1–0 || {{Flagicon|Quidic}} Quidic || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 10 June 1700 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–1 || {{Flagicon|Astye}} Astye || align="left" | Birska Field, Birska
+|-
+| align="left" | 13 June 1700 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Estijan}} Estijan || align="left" | Tirna National Stadium, Tirna
+|-
+| align="left" | 13 June 1700 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 1–0 || {{Flagicon|Astye}} Astye || align="left" | Pekrin-Vavlen Ground, Pekrin-Vavlen
+|}
+
+===Group B===
+{| class="wikitable" style="text-align: center;"
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 3 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|United Delet}} '''[[United Delet]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 5
+|-
+| 3 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || 3 || 0 || 1 || 2 || 4 || 6 || −2 || 1 ||
+|-
+| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 0 || 1 || 2 || 3 || 6 || −3 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 6 June 1700 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Dahe}} Dahe || align="left" | Rovik Municipal Ground, Rovik
+|-
+| align="left" | 7 June 1700 || align="right" | '''United Delet''' {{Flagicon|United Delet}} || 2–1 || {{Flagicon|Genaire}} Genaire || align="left" | Zunle Arena, Zunle
+|-
+| align="left" | 10 June 1700 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Genaire}} Genaire || align="left" | Rovik Municipal Ground, Rovik
+|-
+| align="left" | 11 June 1700 || align="right" | '''United Delet''' {{Flagicon|United Delet}} || 1–0 || {{Flagicon|Dahe}} Dahe || align="left" | Zunle Arena, Zunle
+|-
+| align="left" | 14 June 1700 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|United Delet}} United Delet || align="left" | Rovik Municipal Ground, Rovik
+|-
+| align="left" | 14 June 1700 || align="right" | Genaire {{Flagicon|Genaire}} || 2–2 || {{Flagicon|Dahe}} Dahe || align="left" | Zunle Arena, Zunle
+|}
+
+===Group C===
+{| class="wikitable" style="text-align: center;"
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 5
+|-
+| 3 || align="left" | {{Flagicon|Taval}} [[Taval]] || 3 || 1 || 0 || 2 || 3 || 5 || −2 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || 3 || 0 || 0 || 3 || 2 || 6 || −4 || 0 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 7 June 1700 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Terressin}} Terressin || align="left" | Tavik Park, Tavik
+|-
+| align="left" | 8 June 1700 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 1–0 || {{Flagicon|Taval}} Taval || align="left" | Birska Field, Birska
+|-
+| align="left" | 11 June 1700 || align="right" | Emara {{Flagicon|Emara}} || 1–1 || {{Flagicon|Praesyu}} Praesyu || align="left" | Tavik Park, Tavik
+|-
+| align="left" | 12 June 1700 || align="right" | '''Taval''' {{Flagicon|Taval}} || 2–1 || {{Flagicon|Terressin}} Terressin || align="left" | Birska Field, Birska
+|-
+| align="left" | 15 June 1700 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–1 || {{Flagicon|Taval}} Taval || align="left" | Tavik Park, Tavik
+|-
+| align="left" | 15 June 1700 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Terressin}} Terressin || align="left" | Birska Field, Birska
+|}
+
+===Group D===
+{| class="wikitable" style="text-align: center;"
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 1 || 2 || 0 || 4 || 3 || +1 || 4
+|-
+| 3 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || 3 || 1 || 0 || 2 || 2 || 3 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 1 || 2 || 4 || 6 || −2 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 8 June 1700 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Zunle Arena, Zunle
+|-
+| align="left" | 9 June 1700 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 1–0 || {{Flagicon|Etirha}} Etirha || align="left" | Rovik Municipal Ground, Rovik
+|-
+| align="left" | 12 June 1700 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–0 || {{Flagicon|Etirha}} Etirha || align="left" | Zunle Arena, Zunle
+|-
+| align="left" | 13 June 1700 || align="right" | Eldjo {{Flagicon|Eldjo}} || 2–2 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Rovik Municipal Ground, Rovik
+|-
+| align="left" | 16 June 1700 || align="right" | Siana {{Flagicon|Siana}} || 1–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Zunle Arena, Zunle
+|-
+| align="left" | 16 June 1700 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Rovik Municipal Ground, Rovik
+|}
+
+==Knockout stage==
+
+The knockout stage involved the eight teams that advanced from the group stage, with each group winner drawn against a runner-up from another group. Ties level after 90 minutes were extended by a single period of [[wikipedia:Extra time|extra time]]; one of the four quarter-finals and one of the two semi-finals were decided in the additional period. No tie required a replay.
+
+===Bracket===
+{| style="border-collapse:collapse; text-align:center; font-size:90%;" cellpadding="4"
+|-
+! style="width:11em;" | Quarter-finals
+! style="width:1.5em;" |
+! style="width:11em;" | Semi-finals
+! style="width:1.5em;" |
+! style="width:11em;" | Final
+|-
+| align="right" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 2
+| rowspan="2" |
+|
+|
+|
+|-
+| align="right" | {{Flagicon|Eldjo}} [[Eldjo]] || 0
+|
+|
+|
+|
+|-
+|
+|
+| align="right" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 2
+| rowspan="2" |
+|
+|-
+|
+|
+| align="right" | {{Flagicon|Siana}} [[Siana]] || 1
+|
+|
+|-
+| align="right" | {{Flagicon|Siana}} '''[[Siana]]''' (a.e.t.) || 1
+| rowspan="2" |
+|
+|
+|
+|-
+| align="right" | {{Flagicon|Estijan}} [[Estijan]] || 0
+|
+|
+|
+| align="right" | {{Flagicon|Raledria}} '''[[Raledria]]''' || '''3'''
+|-
+|
+|
+|
+|
+| align="right" | {{Flagicon|United Delet}} [[United Delet]] || 1
+|-
+| align="right" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 2
+| rowspan="2" |
+|
+|
+|
+|-
+| align="right" | {{Flagicon|Praesyu}} [[Praesyu]] || 1
+|
+|
+|
+|
+|-
+|
+|
+| align="right" | {{Flagicon|Lycroa}} [[Lycroa]] || 0
+| rowspan="2" |
+|
+|-
+|
+|
+| align="right" | {{Flagicon|United Delet}} '''[[United Delet]]''' (a.e.t.) || 1
+|
+|
+|-
+| align="right" | {{Flagicon|Emara}} [[Emara]] || 1
+| rowspan="2" |
+|
+|
+|
+|-
+| align="right" | {{Flagicon|United Delet}} '''[[United Delet]]''' || 2
+|
+|
+|
+|
+|}
+
+''Third-place playoff: {{Flagicon|Lycroa}} '''[[Lycroa]]''' 3–1 {{Flagicon|Siana}} [[Siana]].''
+
+===Quarter-finals===
+
+{{Football box
+| date = {{Start date|1700|6|23|df=y}}
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 2–0
+| team2 = {{Flagicon|Eldjo}} [[Eldjo]]
+| goals1 = Drasko {{Goal|31}}<br/>Ravkin {{Goal|77}}
+| goals2 =
+| stadium = Tirna National Stadium, [[Tirna]]
+| attendance = 35,000
+| referee = Halbrek Tosvan ([[Emara]])
+}}
+----
+{{Football box
+| date = {{Start date|1700|6|23|df=y}}
+| team1 = [[Siana]] {{Flagicon|Siana}}
+| score = 1–0 {{Aet}}
+| team2 = {{Flagicon|Estijan}} [[Estijan]]
+| goals1 = Valente {{Goal|104}}
+| goals2 =
+| stadium = Zunle Arena, [[Zunle]]
+| attendance = 19,500
+| referee = Mariusz Velden ([[Praesyu]])
+}}
+----
+{{Football box
+| date = {{Start date|1700|6|24|df=y}}
+| team1 = [[Lycroa]] {{Flagicon|Lycroa}}
+| score = 2–1
+| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
+| goals1 = Marwen {{Goal|18}}<br/>Calveit {{Goal|59}}
+| goals2 = Hales {{Goal|72}}
+| stadium = Rovik Municipal Ground, [[Rovik]]
+| attendance = 23,400
+| referee = Tomas Brakka ([[Genaire]])
+}}
+----
+{{Football box
+| date = {{Start date|1700|6|24|df=y}}
+| team1 = [[Emara]] {{Flagicon|Emara}}
+| score = 1–2
+| team2 = {{Flagicon|United Delet}} '''[[United Delet]]'''
+| goals1 = Ostley {{Goal|39}}
+| goals2 = Brenmar {{Goal|44}}<br/>Voskeld {{Goal|81}}
+| stadium = Tavik Park, [[Tavik]]
+| attendance = 17,800
+| referee = Sandor Vey ([[Etirha]])
+}}
+
+===Semi-finals===
+
+{{Football box
+| date = {{Start date|1700|6|28|df=y}}
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 2–1
+| team2 = {{Flagicon|Siana}} [[Siana]]
+| goals1 = Drasko {{Goal|22|68}}
+| goals2 = Valente {{Goal|54}}
+| stadium = Tirna National Stadium, [[Tirna]]
+| attendance = 37,200
+| referee = Mariusz Velden ([[Praesyu]])
+}}
+----
+{{Football box
+| date = {{Start date|1700|6|28|df=y}}
+| team1 = [[Lycroa]] {{Flagicon|Lycroa}}
+| score = 0–1 {{Aet}}
+| team2 = {{Flagicon|United Delet}} '''[[United Delet]]'''
+| goals1 =
+| goals2 = Brenmar {{Goal|97}}
+| stadium = Rovik Municipal Ground, [[Rovik]]
+| attendance = 23,800
+| referee = Halbrek Tosvan ([[Emara]])
+}}
+
+===Third place playoff===
+
+{{Football box
+| date = {{Start date|1700|7|3|df=y}}
+| team1 = [[Lycroa]] {{Flagicon|Lycroa}}
+| score = 3–1
+| team2 = {{Flagicon|Siana}} [[Siana]]
+| goals1 = Marwen {{Goal|14|66}}<br/>Calveit {{Goal|39}}
+| goals2 = Valente {{Goal|71}}
+| stadium = Tavik Park, [[Tavik]]
+| attendance = 16,400
+| referee = Sandor Vey ([[Etirha]])
+}}
+
+===Final===
+
+The final was held at the Tirna National Stadium on 4 July 1700 before an estimated crowd of 38,000, a record for an international fixture at the time. [[Raledria]] took the lead through Velmir Drasko, the tournament's leading scorer, before [[United Delet]] equalised early in the second half through Edrik Brenmar. Two further goals from Anosh Ravkin and Drasko secured a 3–1 victory and Raledria's first title, won on home soil. The Solana, the bespoke permanent trophy commissioned by the Raledrian Arraby Association, was presented to the Raledrian captain at the close of the match.<ref name="flla-final-report" />
+
+{{Football box
+| date = {{Start date|1700|7|4|df=y}}
+| team1 = '''[[Raledria]]''' {{Flagicon|Raledria}}
+| score = 3–1
+| team2 = {{Flagicon|United Delet}} [[United Delet]]
+| goals1 = Drasko {{Goal|27|83}}<br/>Ravkin {{Goal|71}}
+| goals2 = Brenmar {{Goal|52}}
+| stadium = Tirna National Stadium, [[Tirna]]
+| attendance = 38,000
+| referee = Mariusz Velden ([[Praesyu]])
+}}
+
+==Statistics==
+
+===Goalscorers===
+
+A total of 79 goals were scored in 32 matches, an average of 2.47 per match. The leading scorer was the Raledrian forward Velmir Drasko, who scored six goals across the tournament, including two in the final. No formal individual awards were presented at the 1700 edition: the [[FLLA]]'s tournament prizes for the leading player, top scorer and best goalkeeper, the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]], were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the FLLA's heritage records.<ref name="flla-statkit">{{cite web|url=https://www.flla.org/heritage/world-cup/1700/statistics|title=1700 FLLA World Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+
+'''6 goals'''
+* {{Flagicon|Raledria}} Velmir Drasko ([[Raledria]])
+
+'''3 goals'''
+* {{Flagicon|United Delet}} Edrik Brenmar ([[United Delet]])
+* {{Flagicon|Lycroa}} Aldric Marwen ([[Lycroa]])
+* {{Flagicon|Siana}} Renzo Valente ([[Siana]])
+
+'''2 goals'''
+* {{Flagicon|Raledria}} Anosh Ravkin ([[Raledria]])
+* {{Flagicon|Lycroa}} Sten Calveit ([[Lycroa]])
+* {{Flagicon|Emara}} Quintus Ostley ([[Emara]])
+
+===Final ranking===
+
+In keeping with the practice of the period, the [[FLLA]] published a final ranking only for the four sides that reached the semi-finals.<ref name="flla-statkit" />
+
+{| class="wikitable" style="text-align: center;"
+|+ Final ranking of the semi-finalists
+! Pos !! Team !! Confederation
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || align="left" | [[ATFVL]]
+|-
+| 2 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || align="left" | [[NAFVL]]
+|-
+| 3 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || align="left" | [[AYFVL]]
+|-
+| 4 || align="left" | {{Flagicon|Siana}} [[Siana]] || align="left" | [[AYFVL]]
+|}
+
+==Trophy and significance==
+
+The 1700 edition holds a distinctive place in the history of the [[FLLA World Cup]]. As the first tournament staged under the World Cup name, the first held in [[Atirha]] and the first to follow the [[Red War]], it marked the relaunch of the competition under the reconstituted [[FLLA]] and the formal recognition of its worldwide character.<ref name="flla-rebrand" />
+
+It also established the competition's enduring [[FLLA World Cup#Permanent trophies|permanent-trophy tradition]]. With the original Andah Cup destroyed in 1688 and no rotating trophy yet available, the Raledrian Arraby Association commissioned a bespoke permanent trophy, '''the Solana''', as the sole senior award of the tournament. The Solana was presented to [[Raledria]] in perpetuity and is held at the Tirna National Museum. The practice of commissioning a unique permanent trophy for each edition proved popular among champion associations and was retained alongside the new Andah Cup when the rotating cup was reintroduced at the [[1716 FLLA World Cup|1716 edition]], producing the two-trophy system that has characterised the competition ever since.<ref name="flla-solana" />
+
+The victory was the first of [[Raledria]]'s four FLLA World Cup titles and the start of a sustained period of Raledrian success, the country reaching the final of each of the following four editions and winning three of them. For [[United Delet]], the runners-up finish anticipated their own triumph as hosts at the [[1708 FLLA World Cup|1708 edition]], the first FLLA World Cup held in [[New Ayre]].<ref name="flla-overview" />
 
 ==See also==
+
 * [[FLLA World Cup]]
+* [[FLLA]]
 * [[1684 FLLA World Cup]]
 * [[1704 FLLA World Cup]]
+* [[Red War]]
+* [[ATFVL]]
+* [[AYFVL]]
+* [[NAFVL]]
 
 ==References==
 {{reflist}}
 
 [[Category:FLLA World Cup]]
+[[Category:International Arraby competitions]]
