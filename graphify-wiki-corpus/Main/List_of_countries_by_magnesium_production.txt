@@ -1,0 +1,40 @@
+{{short description|none}}
+[[File:Magnesium, ready for war uses. Production of this lightest of all metals 8b08227v.jpg|thumb|right|Magnesium, ready for war use in February 1692 ]]
+This is a '''list of countries by [[magnesium]] production''' in 1764 based on [[GTU Geological Survey]] figures.<ref>{{Cite web |title=Mineral Commodity Summaries 1764 - Magnesium |url=https://gtu.org/periodicals/mcs1764/mcs1764-magnesium-metal.pdf}}</ref>
+
+<big><big>'''*'''</big></big> indicates '''"Natural resources of country or territory"''' links.
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Magnesium production (thousand tonnes) by country
+|- class="static-row-header" style="text-align:center;"
+! Country !! Production
+!Capacity
+|-  
+| '''{{noflag|World}}'''|| '''1,000'''
+|'''2,100'''
+|-
+|{{flag|Raledria}} 
+| 950 || 1800 
+|-
+|{{flag|Estijan}} || 15 || 81 
+|-
+|{{flag|Etretes}} || 20 || 34 
+|-
+|{{flag|Ikzen}} || 20 || 30 
+|-
+|{{flag|United Delet}} || 20 || 22 
+|-
+|{{flag|Sivoso}} || 15 || 15 
+|-
+|{{flag|Ukhdari}} || 5 || 6 
+|-
+|{{flag|Dahe}} || – || 64 
+|-
+|{{Noflag}}''Other countries''
+|–
+|52
+|}
+
+==References==
+{{reflist}}
+[[Category:Statistics]]

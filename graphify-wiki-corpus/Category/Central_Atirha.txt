@@ -1,0 +1,37 @@
+==List of states and territories==
+'''Continue to [[Central Atirha]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Arbiya}} || [[Arbiya]] || style="text-align:right;" | 551,835 || style="text-align:right;" | 6,585,930 || style="text-align:right;" | 12 || [[Kraevu]]
+|-
+| style="text-align:center;"| {{flagicon|Curata}} || [[Curata]] || style="text-align:right;" | 94,754 || style="text-align:right;" | 4,523,613 || style="text-align:right;" | 48 || [[Hulong]]
+|-
+| style="text-align:center;"| {{flagicon|Fincen}} || [[Fincen]] || style="text-align:right;" | 131,875 || style="text-align:right;" | 4,620,320 || style="text-align:right;" | 35 || [[Tiyomi]]
+|-
+| style="text-align:center;"| {{flagicon|Gaeiya}} || [[Gaeiya]] || style="text-align:right;" | 3,518,174 || style="text-align:right;" | 9,533,900 || style="text-align:right;" | 3 || [[Tsyanka]]
+|-
+| style="text-align:center;"| {{flagicon|Raledria}} 
+| [[Raledria]] || style="text-align:right;" | 2,355,916 || style="text-align:right;" | 301,115,278 || style="text-align:right;" | 128 || [[Tirna]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 6,652,554
+| style="text-align:right;"| 326,379,041
+| style="text-align:right;"| 49
+|}
+
+[[Category:All country data templates|Raledria]]
+[[Category:Atirha]]
+[[Category:Atirhan Regions]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

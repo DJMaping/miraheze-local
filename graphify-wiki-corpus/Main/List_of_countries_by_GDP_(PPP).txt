@@ -1,0 +1,436 @@
+{| border="0" cellpadding="2" cellspacing="0" style="float:right;"
+|-
+|<timeline>
+ImageSize = width:auto height:260 barincrement:50
+PlotArea = left:50 bottom:15 top:10 right:20
+AlignBars = justify
+TimeAxis = orientation:vertical
+DateFormat = x.y
+Period = from:0.0 till:20
+ScaleMajor = unit:day start:0.0 increment:2
+PlotData =
+ color:blue width:34
+ bar:Dahe from:start till:18.02
+ 
+ bar:Areoix-Lie from:start till:11.17
+ bar:Raledria from:start till:8.57
+ bar:Pelugrotoa from:start till:7.46
+ bar:Estijan from:start till:5.05
+ bar:Ztesh from:start till:4.21
+ bar:Emara from:start till:2.69
+ bar:Etirha from:start till:2.19
+ bar:Inania from:start till:2.13
+ bar:Lycroa  from:start till:2.18
+
+ 
+PlotData =
+ bar:Dahe at:18.02 fontsize:S text: 18.02 shift:(-9,0)
+ 
+ bar:Areoix-Lie at:11.17 fontsize:S text: 11.17 shift:(-12,0)
+ bar:Raledria at:8.57 fontsize:S text: 8.57 shift:(-9,0)
+ bar:Pelugrotoa at:7.46 fontsize:S text: 7.46 shift:(-9,0)
+ bar:Estijan at:5.05 fontsize:S text: 5.05 shift:(-9,0)
+ bar:Ztesh at:4.21 fontsize:S text: 4.21 shift:(-9,0)
+ bar:Emara at:2.69 fontsize:S text: 2.69 shift:(-9,0)
+ bar:Etirha at:2.13 fontsize:S text: 2.13 shift:(-9,0)
+ bar:Inania at:2.13 fontsize:S text: 2.13 shift:(-9,0)
+ bar:Lycroa at:2.18 fontsize:S text: 2.18 shift:(-9,0)
+TextData =
+ pos:(0,0) text:LND Tn
+</timeline>
+|-
+| style="text-align:center; font-size:90%;"|Largest economies in the world by GDP (PPP) in 1765<br />according to [[Global Trade Union]] estimates
+|}
+GDP (PPP) means gross domestic product based on purchasing power parity.  This article includes a list of countries by their forecast estimated GDP (PPP). Countries are sorted by GDP (PPP) forecast estimates from financial and statistical institutions that calculate using market or government official exchange rates.<ref name="GTU-db">{{Cite web |url=https://www.globaltradeunion.org/database/1765/gdp_ppp-forecast |title=Global Trade Union Forecast Database, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 12 February 1765.</ref> The data given on this page are based on the international LND, a standardized unit used by economists. Certain regions that are not widely considered countries such as [[Tiesa Canal Territory|Tiesa canal territory]] also show up in the list if they are distinct jurisdiction areas or economic entities.
+
+GDP comparisons using PPP are arguably more useful than those using nominal GDP when assessing the domestic market of a state because PPP takes into account the relative cost of local goods, services and inflation rates of the country, rather than using international market exchange rates, which may distort the real differences in per capita income. For example, while the nominal GDP ranks of [[Verusa]] and [[Ztesh]] are ninth and tenth respectively, when adjusted for PPP [[Verusa|Verusa's]] GDP drops to thirteenth and [[Ztesh]] rises to sixth because the local cost of goods in [[Ztesh]] is lower, and thus same nominal amount of money can buy more goods and services in [[Ztesh]].<ref name="GTU-icp">{{Cite web |url=https://www.globaltradeunion.org/database/1765/icp-price-surveys |title=International Comparison Program: Price Levels and Purchasing Power Parities, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 12 February 1765.</ref>
+
+GDP adjusted for PPP, however, is limited when measuring financial flows between countries and when comparing the quality of same goods among countries. PPP is often used to gauge global poverty thresholds and is used by the [Global Trade Union](<nowiki>https://andah.miraheze.org/wiki/Global_Trade_Union</nowiki> "Global Trade Union") in constructing the Krali Total Development Index.<ref name="krali">{{Cite web |url=https://krali.org/reports/1764/total-development-index |title=Krali Total Development Index, 1764 Edition |website=krali.org |publisher=[[Krali Development Report]] |date=1764 }} Retrieved 12 February 1765.</ref> These surveys such as the International Comparison Program include both tradable and non-tradable goods in an attempt to estimate a representative basket of all goods.
+
+The first set of data on the left columns of the table includes estimates for the year 1765 made for each economy of the 179 economies (172 U.N. member states and 6 areas of (______) covered by the [[Global Trade Union|Global Trade Union's]] Financial Statistics database.<ref name="GTU-finstat">{{Cite web |url=https://www.globaltradeunion.org/database/1765/financial-statistics |title=Financial Statistics Database: GDP (PPP) Estimates for 179 Economies, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 12 February 1765.</ref> The data is in millions of international LND and was calculated and published by the GTU in Early 1765. The second table includes data, mostly for the year 1764, data are in millions of international LND; they were compiled by the [[Bank of Fekunza]].<ref name="fekunza">{{Cite web |url=https://www.centralbankoffekunza.org/statistics/1764/world-output-ppp |title=World Economic Outlook: GDP at Purchasing Power Parity, 1764 |website=centralbankoffekunza.org |publisher=[[Central Bank of Fekunza|Bank of Fekunza]] |date=1764 }} Retrieved 4 March 1765.</ref> The third table is a tabulation of the [[The Financial Group]] GDP (PPP) data update of 1764.<ref name="tfg">{{Cite web |url=https://www.thefinancialgroup.org/data/1764/gdp-ppp-update |title=The Financial Group GDP (PPP) Data Update, 1764 |website=thefinancialgroup.org |publisher=[[The Financial Group]] |date=1764 }} Retrieved 4 March 1765.</ref> The data for GDP at purchasing power parity has also been rebased using the new International Comparison Program price surveys and extrapolated to 1768. Non-sovereign entities (the world, continents, and some dependent territories) and states with limited recognition (A,B,C) are included in the list in cases in which they appear in the sources.
+
+==Table==
+The table is initially ranked by the average of the available estimates for each country or territory, and can be reranked by any of the sources.<ref name="GTU-finstat" /> The links in the "Country/Territory" row of the following table link to the article on the GDP or the economy of the respective country or territory. 
+
+{| class="wikitable sortable sticky-header-multi static-row-numbers" {{left}}
+|+GDP forecast or estimate (million LND) by country
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! rowspan="2" | Country/Territory
+! colspan="2" | [[Global Trade Union]]
+! colspan="2" | [[Central Bank of Fekunza|Bank of Fekunza]]
+! colspan="2" | [[The Financial Group]]
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! Forecast !! Year !! Estimate !! Year !! Estimate !! Year
+|- class="static-row-header " style="font-weight:bold;"
+| style="text-align:left" |{{noflag|World}} || 109,171,021<ref name="GTU-finstat" /> || 1765 || 109,651,008<ref name="fekunza" /> || 1764 || 110,007,919<ref name="tfg" /> || 1764
+|-
+| {{flag|Dahe}} || 18,026,608<ref name="GTU-finstat" /> || 1765 || 17,864,369 || 1764 || 18,188,847 || 1764
+|-
+| {{flag|Areoix Lie}} 
+| 11,173,667 || 1765 || 11,542,398 || 1764 || 11,676,482 || 1764
+|-
+| {{flag|Raledria}}
+| 8,579,395 || 1765 || 8,974,047 || 1764 || 8,442,125 || 1764
+|-
+| {{flag|Pelugrotoa}} || 7,460,784 || 1765 || 7,341,411 || 1764 || 7,341,411 || 1764
+|-
+| {{flag|Estijan}} || 5,057,773 || 1765 || 4,941,444 || 1764 || 5,143,755 || 1764
+|-
+| {{flag|Ztesh}} || 4,217,149<ref name="GTU-icp" /> || 1765 || 4,027,377 || 1764 || 4,137,377 || 1764
+|-
+| {{flag|Emara}} || 2,693,645 || 1765 || 2,820,246 || 1764 || 2,664,015 || 1764
+|-
+| {{flag|Etirha}} || 2,191,039 || 1765 || 2,208,567 || 1764 || 2,280,872 || 1764
+|-
+| {{flag|Inania}} || 2,135,036 || 1765 || 2,188,412 || 1764 || 2,192,682 || 1764
+|-
+| {{flag|Lycroa}} 
+| 2,128,913 || 1765 || 2,139,558 || 1764 || 2,128,913 || 1764
+|-
+| {{flag|United Delet}} || 2,121,538 || 1765 || 2,153,361 || 1764 || 2,153,361 || 1764
+|-
+| {{flag|Quidic}} || 1,950,830 || 1765 || 1,993,748 || 1764 || 2,038,617 || 1764
+|-
+| {{flag|Verusa}} || 1,868,233 || 1765 || 1,851,419 || 1764 || 1,929,885 || 1764
+|-
+| {{flag|Ukhdari}} || 1,768,701 || 1765 || 1,735,096 || 1764 || 1,827,068 || 1764
+|-
+| {{flag|Ealdorii}} || 1,548,145 || 1765 || 1,596,137 || 1764 || 1,535,760 || 1764
+|-
+| {{flag|Seytinemas}} || 1,479,094 || 1765 || 1,487,969 || 1764 || 1,492,406 || 1764
+|-
+| {{flag|Sunsokua}} || 1,401,120 || 1765 || 1,468,374 || 1764 || 1,380,103 || 1764
+|-
+| {{flag|New Misos}} || 1,209,939 || 1765 || 1,212,359 || 1764 || 1,218,409 || 1764
+|-
+| {{flag|Ashain}} || 1,165,921 || 1765 || 1,151,930 || 1764 || 1,197,401 || 1764
+|-
+| {{flag|Wundry}} || 1,113,293 || 1765 || 1,105,500 || 1764 || 1,067,648 || 1764
+|-
+| {{flag|Vayvele}}
+| 1,077,117 || 1765 || 1,032,955 || 1764 || 1,063,114 || 1764
+|-
+| {{flag|Vesozata}} || 1,060,319 || 1765 || 1,007,303 || 1764 || 1,073,043 || 1764
+|-
+| {{flag|Taval}} || 1,012,999 || 1765 || 1,061,623 || 1764 || 1,056,558 || 1764
+|-
+| {{flag|Dual Cenryia}} || 1,005,624 || 1765 || 975,455 || 1764 || 1,009,646 || 1764
+|-
+| {{flag|Verste}} || 996,030 || 1765 || 1,025,911 || 1764 || 984,078 || 1764
+|-
+| {{flag|Sanagara}} || 977,889 || 1765 || 954,420 || 1764 || 944,641 || 1764
+|-
+| {{flag|Easuhura}} || 904,887 || 1765 || 860,548 || 1764 || 894,028 || 1764
+|-
+| {{flag|Siana}} || 865,815 || 1765 || 894,387 || 1764 || 851,096 || 1764
+|-
+| {{flag|Suenan}} || 808,861 || 1765 || 797,537 || 1764 || 837,980 || 1764
+|-
+| {{flag|Praesyu}}
+| 792,459 || 1765 || 786,912 || 1764 || 756,798 || 1764
+|-
+| {{flag|Terressin}} || 759,433 || 1765 || 772,343 || 1764 || 739,688 || 1764
+|-
+| {{flag|Pelines}} || 732,501 || 1765 || 739,826 || 1764 || 719,316 || 1764
+|-
+| {{flag|Myla}} || 724,141 || 1765 || 715,451 || 1764 || 759,624 || 1764
+|-
+| {{flag|Trian}} || 677,014 || 1765 || 701,387 || 1764 || 683,107 || 1764
+|-
+| {{flag|Ahokini}} || 633,618 || 1765 || 620,946 || 1764 || 656,428 || 1764
+|-
+| {{flag|Finae}} || 626,063 || 1765 || 612,916 || 1764 || 639,210 || 1764
+|-
+| {{flag|Erkizil}} || 586,779 || 1765 || 567,415 || 1764 || 580,911 || 1764
+|-
+| {{flag|Ohtina}} || 577,278 || 1765 || 602,678 || 1764 || 577,278 || 1764
+|-
+| {{flag|Oyreain}} || 575,861 || 1765 || 579,316 || 1764 || 583,347 || 1764
+|-
+| {{flag|Desaki}} || 545,230 || 1765 || 559,951 || 1764 || 567,584 || 1764
+|-
+| {{flag|Merela Sta}} || 481,449 || 1765 || 493,004 || 1764 || 466,524 || 1764
+|-
+| {{flag|Etretes}} || 460,047 || 1765 || 440,265 || 1764 || 478,449 || 1764
+|-
+| {{flag|Anymna}} || 445,794 || 1765 || 452,481 || 1764 || 464,963 || 1764
+|-
+| {{flag|Yaxuto}} || 432,566 || 1765 || 443,813 || 1764 || 427,375 || 1764
+|-
+| {{flag|Genaire}} || 430,102 || 1765 || 410,317 || 1764 || 427,091 || 1764
+|-
+| {{flag|Selaja}} || 426,583 || 1765 || 443,220 || 1764 || 445,779 || 1764
+|-
+| {{flag|Darewa}} || 406,626 || 1765 || 404,186 || 1764 || 400,933 || 1764
+|-
+| {{flag|Astye}} || 400,770 || 1765 || 398,766 || 1764 || 416,801 || 1764
+|-
+| {{flag|Otiiric}} || 302,188 || 1765 || 303,699 || 1764 || 303,397 || 1764
+|-
+| {{flag|Isnti}} || 293,781 || 1765 || 287,024 || 1764 || 292,018 || 1764
+|-
+| {{flag|Lydroa}} || 289,972 || 1765 || 278,953 || 1764 || 282,723 || 1764
+|-
+| {{flag|Chaenia}} || 289,951 || 1765 || 288,501 || 1764 || 301,259 || 1764
+|-
+| {{flag|Sadain}} || 289,420 || 1765 || 303,602 || 1764 || 284,789 || 1764
+|-
+| {{flag|Ocaun}} || 273,844 || 1765 || 269,462 || 1764 || 268,915 || 1764
+|-
+| {{flag|Haiza}} || 269,505 || 1765 || 277,860 || 1764 || 272,200 || 1764
+|-
+| {{flag|Heiso}} || 256,887 || 1765 || 268,447 || 1764 || 261,254 || 1764
+|-
+| {{flag|Hkuqo}} || 244,738 || 1765 || 238,130 || 1764 || 234,948 || 1764
+|-
+| {{flag|United Mihili}} || 232,994 || 1765 || 239,518 || 1764 || 239,984 || 1764
+|-
+| {{flag|Iareva}} || 231,173 || 1765 || 230,248 || 1764 || 225,856 || 1764
+|-
+| {{flag|Volver}} || 226,631 || 1765 || 218,246 || 1764 || 230,030 || 1764
+|-
+| {{flag|North Ayre}} || 209,498 || 1765 || 219,973 || 1764 || 210,964 || 1764
+|-
+| {{flag|Acrana}} || 208,704 || 1765 || 217,678 || 1764 || 210,374 || 1764
+|-
+| {{flag|Gaeiya}} || 202,254 || 1765 || 204,883 || 1764 || 203,872 || 1764
+|-
+| {{flag|Sivoso}} || 201,957 || 1765 || 198,928 || 1764 || 196,302 || 1764
+|-
+| {{flag|Maalle}} || 197,691 || 1765 || 192,551 || 1764 || 196,900 || 1764
+|-
+| {{flag|Deschon}} || 194,790 || 1765 || 197,517 || 1764 || 200,049 || 1764
+|-
+| {{flag|Isari}} || 190,184 || 1765 || 189,613 || 1764 || 195,699 || 1764
+|-
+| {{flag|Laselteh}}
+| 183,882 || 1765 || 184,801 || 1764 || 179,653 || 1764
+|-
+| {{flag|Fermori}} || 180,038 || 1765 || 178,238 || 1764 || 176,797 || 1764
+|-
+| {{flag|Acetoa}} || 175,393 || 1765 || 180,129 || 1764 || 174,867 || 1764
+|-
+| {{flag|Ucrua}} || 163,804 || 1765 || 170,848 || 1764 || 161,183 || 1764
+|-
+| {{flag|Umarcia}} || 158,861 || 1765 || 161,720 || 1764 || 160,767 || 1764
+|-
+| {{flag|Kusierna}} || 157,293 || 1765 || 162,012 || 1764 || 155,405 || 1764
+|-
+| {{flag|Arbiya}} || 155,804 || 1765 || 149,572 || 1764 || 155,492 || 1764
+|-
+| {{flag|Iainoa}} || 152,971 || 1765 || 160,314 || 1764 || 149,300 || 1764
+|-
+| {{flag|Phuris}} || 150,228 || 1765 || 154,885 || 1764 || 152,331 || 1764
+|-
+| {{flag|Mendereide}} || 147,395 || 1765 || 149,753 || 1764 || 152,996 || 1764
+|-
+| {{flag|Nia}} || 146,823 || 1765 || 148,585 || 1764 || 146,676 || 1764
+|-
+| {{flag|Disal Nila}} || 144,656 || 1765 || 148,706 || 1764 || 149,285 || 1764
+|-
+| {{flag|Iquir}} || 140,173 || 1765 || 142,276 || 1764 || 139,192 || 1764
+|-
+| {{flag|Eldavpir}} || 130,812 || 1765 || 130,289 || 1764 || 131,204 || 1764
+|-
+| {{flag|Nheyes Si}} || 127,127 || 1765 || 122,042 || 1764 || 131,576 || 1764
+|-
+| {{flag|Othya}} || 127,017 || 1765 || 123,206 || 1764 || 129,176 || 1764
+|-
+| {{flag|Exilium}} || 126,285 || 1765 || 121,234 || 1764 || 129,316 || 1764
+|-
+| {{flag|Eldjo}} || 123,281 || 1765 || 122,295 || 1764 || 122,171 || 1764
+|-
+| {{flag|Oscairia}} || 115,755 || 1765 || 114,134 || 1764 || 115,292 || 1764
+|-
+| {{flag|Feio Lie}} || 112,508 || 1765 || 107,445 || 1764 || 107,220 || 1764
+|-
+| {{flag|Lieri}} || 110,763 || 1765 || 105,889 || 1764 || 113,200 || 1764
+|-
+| {{flag|Reerica}} || 106,948 || 1765 || 107,376 || 1764 || 106,520 || 1764
+|-
+| {{flag|Pelan}} || 104,030 || 1765 || 104,550 || 1764 || 106,007 || 1764
+|-
+| {{flag|Prstreula}} || 102,195 || 1765 || 100,662 || 1764 || 101,480 || 1764
+|-
+| {{flag|Jshain}} || 101,257 || 1765 || 105,409 || 1764 || 105,712 || 1764
+|-
+| {{flag|Onphello}} || 100,430 || 1765 || 96,714 || 1764 || 101,736 || 1764
+|-
+| {{flag|Ruylku}} || 92,988 || 1765 || 94,104 || 1764 || 94,569 || 1764
+|-
+| {{flag|Curata}} || 88,393 || 1765 || 91,929 || 1764 || 92,282 || 1764
+|-
+| {{flag|Fire Coast}} || 84,455 || 1765 || 82,006 || 1764 || 81,330 || 1764
+|-
+| {{flag|Pha Hii}} || 83,028 || 1765 || 86,515 || 1764 || 82,530 || 1764
+|-
+| {{flag|Uularin}} || 82,174 || 1765 || 81,024 || 1764 || 81,927 || 1764
+|-
+| {{flag|Ilicuhe}} || 82,150 || 1765 || 83,793 || 1764 || 84,697 || 1764
+|-
+| {{flag|Viussi}} || 79,069 || 1765 || 77,725 || 1764 || 75,511 || 1764
+|-
+| {{flag|Kaastini}} || 76,612 || 1765 || 74,850 || 1764 || 76,842 || 1764
+|-
+| {{flag|Fincen}} || 76,037 || 1765 || 73,680 || 1764 || 76,721 || 1764
+|-
+| {{flag|Galca}} || 75,125 || 1765 || 77,003 || 1764 || 77,153 || 1764
+|-
+| {{flag|Zenashan}} || 73,387 || 1765 || 74,194 || 1764 || 73,240 || 1764
+|-
+| {{flag|Rijan bu}} || 68,514 || 1765 || 71,118 || 1764 || 66,596 || 1764
+|-
+| {{flag|Palina}} || 64,168 || 1765 || 63,526 || 1764 || 63,013 || 1764
+|-
+| {{flag|Mesjan Hyaa}} || 61,985 || 1765 || 61,365 || 1764 || 63,163 || 1764
+|-
+| {{flag|Taoisia}} || 60,923 || 1765 || 62,385 || 1764 || 60,192 || 1764
+|-
+| {{flag|Shinam}} || 56,122 || 1765 || 54,045 || 1764 || 55,224 || 1764
+|-
+| {{flag|Ihner}} || 55,570 || 1765 || 55,125 || 1764 || 56,181 || 1764
+|-
+| {{flag|Grazail}} || 53,453 || 1765 || 53,025 || 1764 || 52,437 || 1764
+|-
+| {{flag|Prystr Hii}} || 48,817 || 1765 || 51,111 || 1764 || 49,891 || 1764
+|-
+| {{flag|Yihnurda}} || 47,136 || 1765 || 45,863 || 1764 || 47,230 || 1764
+|-
+| {{flag|Taing}} || 44,011 || 1765 || 45,243 || 1764 || 45,683 || 1764
+|-
+| {{flag|Jathua}} || 43,066 || 1765 || 45,219 || 1764 || 44,100 || 1764
+|-
+| {{flag|Andsaudare}} || 40,956 || 1765 || 40,546 || 1764 || 41,243 || 1764
+|-
+| {{flag|Ozinia}} || 40,593 || 1765 || 41,161 || 1764 || 39,944 || 1764
+|-
+| {{flag|Taniduna}} || 39,774 || 1765 || 41,166 || 1764 || 38,899 || 1764
+|-
+| {{flag|Byllu}} || 35,691 || 1765 || 36,298 || 1764 || 34,870 || 1764
+|-
+| {{flag|Candenat}} || 34,291 || 1765 || 33,982 || 1764 || 33,022 || 1764
+|-
+| {{flag|Jau}} || 33,222 || 1765 || 33,288 || 1764 || 31,627 || 1764
+|-
+| {{flag|Umendel}} || 32,227 || 1765 || 31,582 || 1764 || 30,906 || 1764
+|-
+| {{flag|Inrea}} || 31,343 || 1765 || 30,246 || 1764 || 30,685 || 1764
+|-
+| {{flag|lasri}} || 30,387 || 1765 || 31,663 || 1764 || 28,898 || 1764
+|-
+| {{flag|Baluyde}} || 29,129 || 1765 || 29,828 || 1764 || 30,556 || 1764
+|-
+| {{flag|Rtesania}} || 27,841 || 1765 || 28,175 || 1764 || 29,177 || 1764
+|-
+| {{flag|Peka}} || 26,508 || 1765 || 25,236 || 1764 || 26,694 || 1764
+|-
+| {{flag|Tomscilus}} || 25,480 || 1765 || 24,410 || 1764 || 24,970 || 1764
+|-
+| {{flag|Eparia}} || 24,920 || 1765 || 24,272 || 1764 || 23,824 || 1764
+|-
+| {{flag|Walporein}} || 21,917 || 1765 || 22,662 || 1764 || 20,975 || 1764
+|-
+| {{flag|Aetintio}} || 20,819 || 1765 || 20,215 || 1764 || 20,861 || 1764
+|-
+| {{flag|Slyiaduun}}
+| 20,754 || 1765 || 21,439 || 1764 || 20,194 || 1764
+|-
+| {{flag|Ikzen}} || 19,845 || 1765 || 19,448 || 1764 || 20,361 || 1764
+|-
+| {{flag|Crila Republic}} || 19,238 || 1765 || 19,584 || 1764 || 20,181 || 1764
+|-
+| {{flag|Sattle}} || 18,214 || 1765 || 19,106 || 1764 || 18,305 || 1764
+|-
+| {{flag|Pruim Fijan}} || 17,399 || 1765 || 17,921 || 1764 || 16,668 || 1764
+|-
+| {{flag|Welenu Fana}} || 16,248 || 1765 || 16,118 || 1764 || 15,858 || 1764
+|-
+| {{flag|Saa}} || 16,073 || 1765 || 15,269 || 1764 || 16,089 || 1764
+|-
+| {{flag|Guise}} || 15,809 || 1765 || 15,888 || 1764 || 16,078 || 1764
+|-
+| {{flag|Aplasia}} || 14,858 || 1765 || 14,605 || 1764 || 14,383 || 1764
+|-
+| {{flag|Danocia}} || 13,796 || 1765 || 13,713 || 1764 || 13,837 || 1764
+|-
+| {{flag|Koruch}} || 13,786 || 1765 || 13,883 || 1764 || 13,745 || 1764
+|-
+| {{flag|Canldives}} || 12,891 || 1765 || 13,420 || 1764 || 12,324 || 1764
+|-
+| {{flag|Yutnitu}} || 12,257 || 1765 || 12,122 || 1764 || 12,404 || 1764
+|-
+| {{flag|Migoku}} || 11,766 || 1765 || 12,225 || 1764 || 12,248 || 1764
+|-
+| {{flag|Hyelen}} || 11,381 || 1765 || 11,335 || 1764 || 11,153 || 1764
+|-
+| {{flag|Stinebar}} || 10,118 || 1765 || 10,462 || 1764 || 10,017 || 1764
+|-
+| {{flag|Amcha}} || 9,902 || 1765 || 9,793 || 1764 || 10,070 || 1764
+|-
+| {{flag|Urbiqu}} || 9,502 || 1765 || 9,882 || 1764 || 9,397 || 1764
+|-
+| {{flag|Metndria}} || 6,553 || 1765 || 6,461 || 1764 || 6,756 || 1764
+|-
+| {{flag|New Kizura}} || 4,361 || 1765 || 4,557 || 1764 || 4,187 || 1764
+|-
+| {{flag|Veelmit}} || 3,893 || 1765 || 4,021 || 1764 || 3,780 || 1764
+|-
+| {{flag|Niretui and Anulan}} || 3,875 || 1765 || 3,712 || 1764 || 3,980 || 1764
+|-
+| {{flag|Rinew}} || 3,784 || 1765 || 3,837 || 1764 || 3,803 || 1764
+|-
+| {{flag|Zhanshe}} || 3,714 || 1765 || 3,792 || 1764 || 3,773 || 1764
+|-
+| {{flag|Yoprioq}} || 3,559 || 1765 || 3,509 || 1764 || 3,491 || 1764
+|-
+| {{flag|Elja and Munusia}} || 3,080 || 1765 || 3,185 || 1764 || 3,003 || 1764
+|-
+| {{flag|Shomjind}} || 2,794 || 1765 || 2,696 || 1764 || 2,710 || 1764
+|-
+| {{flag|Niul Spijan}} || 2,584 || 1765 || 2,483 || 1764 || 2,597 || 1764
+|-
+| {{flag|Rkmepuia}} || 2,075 || 1765 || 2,050 || 1764 || 2,085 || 1764
+|-
+| {{flag|Hiwush}} || 1,749 || 1765 || 1,718 || 1764 || 1,765 || 1764
+|-
+| {{flag|Western Migoku}} || 1,627 || 1765 || 1,660 || 1764 || 1,684 || 1764
+|-
+| {{flag|Cloja}} || 1,220 || 1765 || 1,202 || 1764 || 1,210 || 1764
+|-
+| {{flag|Rethern}} || 905 || 1765 || 865 || 1764 || 910 || 1764
+|-
+| {{flag|Enina}} || 600 || 1765 || 575 || 1764 || 606 || 1764
+|-
+| {{flag|Far Lands}} || 546 || 1765 || 524 || 1764 || 550 || 1764
+|-
+| {{flag|Tonder}} || 456 || 1765 || 442 || 1764 || 477 || 1764
+|-
+| {{flag|Isuibul}} || 425 || 1765 || 414 || 1764 || 425 || 1764
+|-
+| {{flag|Letan}} || 328 || 1765 || 337 || 1764 || 332 || 1764
+|-
+| {{flag|Tvecoca}} || 94 || 1765 || 94 || 1764 || 94 || 1764
+|-
+| {{flag|Trevilla}} || 90 || 1765 || 90 || 1764 || 90 || 1764
+|-
+| {{flag|Cruthi Anoso}} || 22<ref name="GTU-finstat" /> || 1765 || 22 || 1764 || 22 || 1764
+|-
+|}
+
+== See also ==
+* [[List of countries and dependencies by population density]]
+* [[List of sovereign states]]
+* [[List of countries by GDP (nominal)]]
+* [[List of countries by GDP (nominal) per capita]]
+
+==References==
+{{reflist}}
+
+[[Category:All country data templates|Slyiaduun]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages using the EasyTimeline extension]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Slyiaduun]]

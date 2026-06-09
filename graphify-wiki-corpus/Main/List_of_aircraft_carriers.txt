@@ -1,0 +1,91 @@
+{{Short description|None}}
+{{dynamic list}}
+[[File:Countries who are currently, or have in the past, operated aircraft carriers.png|thumb|300x300px|Countries who are currently, or have in the past, operated aircraft carriers]]
+
+This '''list of aircraft carriers''' contains [[wikipedia:aircraft carrier|aircraft carrier]]s listed alphabetically by name. An aircraft carrier is a warship with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft, that serves as a seagoing airbase.
+
+Included in this list are ships which meet the above definition and had an official name (''italicized'') or designation (non-italicized), regardless of whether they were or were not ordered, laid down, completed, or commissioned.
+
+Not included in this list are the following:
+
+* [[wikipedia:Aircraft cruiser|Aircraft cruiser]]s, also known as aviation cruisers, cruiser-carriers, flight deck cruisers, and hybrid battleship-carriers, which combine the characteristics of aircraft carriers and surface warfare ships, because they primarily operated helicopters or floatplanes and did not act as a floating airbase.
+* [[wikipedia:Amphibious assault ship|Amphibious assault ship]]s, also known as commando carriers, assault carriers, helicopter carriers, landing helicopter assault ships, landing helicopter docks, landing platform docks, and landing platform helicopters. Although they have flight decks and look like aircraft carriers, they primarily operate helicopters and do not act as a floating airbase.
+* [[wikipedia:Landing craft carrier|Landing craft carrier]]s, which are modified amphibious landing ships with limited aircraft carrier capabilities.
+* [[wikipedia:Drone carrier|Drone carrier]]s
+* [[wikipedia:CAM ship|Catapult aircraft merchantmen]], merchant ships which carried cargo and an aircraft catapult (no flight deck).
+* [[wikipedia:Escort carrier|Escort carrier]]s, usually converted merchant ships.
+* [[wikipedia:Merchant aircraft carrier|Merchant aircraft carrier]]s, cargo-carrying merchant ships with a full flight deck.
+* [[wikipedia:Seaplane tender|Seaplane tender]]s and seaplane carriers, because they could not land aircraft.
+* [[wikipedia:Submarine aircraft carrier|Submarine aircraft carrier]]s, because they had no flight deck and could not land their aircraft.
+
+"In commission" denotes the period that the ship was officially in commission with the given name for the given country as an aircraft carrier as defined above.
+
+==Numbers of aircraft carriers by country==
+''The table below does not include [[wikipedia:Submarine aircraft carrier|submarine aircraft carrier]]s, [[wikipedia:Seaplane tender|seaplane tender]]s, [[wikipedia:Escort carrier|escort carrier]]s, [[wikipedia:Merchant aircraft carrier|merchant aircraft carrier]]s, [[wikipedia:Helicopter carrier|helicopter carrier]]s, or [[wikipedia:Amphibious assault ship|amphibious assault ship]]s. It includes ships under construction, but not ships that never got past the planning stage.''
+{| class="wikitable sortable" style="text-align: center;"
+|+Number of fleet aircraft carriers by operating nation
+|-
+! Country
+! In service
+! Inactive
+! Decommissioned
+! Under<br>construction
+! Never<br>completed
+! Total
+|-
+| align="left" |{{Flagicon|Raledria}} [[Raledria]] || 12
+| 0 || 0 || 1 || 0 ||'''13'''
+|-
+| align="left" |{{Flagicon|Dahe}} [[Dahe]] || 9
+| 0 || 0 || 2 || 0 ||'''11'''
+|-
+| align="left" |{{Flagicon|Emara}} [[Emara]] || 4
+| 0 || 0 || 2 || 0 ||'''6'''
+|-
+| align="left" |{{Flagicon|Estijan}} [[Estijan]] || 2
+| 0 || 0 || 0 || 0 ||'''2'''
+|-
+| align="left" |{{Flagicon|Etirha}} [[Etirha]] || 2
+| 0 || 0 || 0 || 0 ||'''2'''
+|-
+| align="left" |{{Flagicon|Pelugrotoa}} [[Pelugrotoa]] || 2
+| 0 || 0 || 4 || 0 ||'''6'''
+|-
+| align="left" |{{Flagicon|Verste}} [[Verste]] || 2
+| 0 || 0 || 0 || 0 ||'''2'''
+|-
+| align="left" |{{Flagicon|Ztesh}} [[Ztesh]] || 2
+| 0 || 0 || 0 || 0 ||'''2'''
+|-
+| align="left" |{{Flagicon|Areoix Lie}} [[Areoix Lie]] || 1
+| 0 || 0 || 3 || 0 ||'''4'''
+|-
+| align="left" |{{Flagicon|Ashain}} [[Ashain]] || 1
+| 0 || 0 || 0 || 0 ||'''1'''
+|-
+| align="left" |{{Flagicon|Easuhura}} [[Easuhura]] || 1
+| 0 || 0 || 1 || 0 ||'''2'''
+|-
+| align="left" |{{Flagicon|Seytinemas}} [[Seytinemas]] || 1
+| 0 || 0 || 0 || 0 ||'''1'''
+|-
+| align="left" |{{Flagicon|Sunsokua}} [[Sunsokua]] || 1
+| 0 || 0 || 1 || 0 ||'''2'''
+|-
+| align="left" |{{Flagicon|Taval}} [[Taval]] || 1
+| 0 || 0 || 0 || 0 ||'''1'''
+|-
+| align="left" |{{Flagicon|United Delet}} [[United Delet]] || 1
+| 0 || 0 || 0 || 0 ||'''1'''
+|-
+| align="left" |'''Total'''||'''42'''
+|'''0'''||'''0'''||'''14'''||'''0'''||'''56'''
+|}
+
+== See also ==
+* [[List of countries and dependencies by area]]
+* [[List of states with nuclear weapons]]
+
+[[Category:Lists]]
+[[Category:Aircraft carriers]]
+[[Category:Lists of ships]]

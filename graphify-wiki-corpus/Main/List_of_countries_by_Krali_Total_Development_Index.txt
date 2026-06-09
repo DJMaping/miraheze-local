@@ -1,0 +1,420 @@
+[[File:Krali_Total_Development_Index_1765.png|upright=1.2|alt=World map|thumb|World map of countries or territories by [https://en.wikipedia.org/wiki/Human_Development_Index Krali Total Development Index] scores in increments of 0.050 (based on 1764 data, published in 1765):
+{| width=100%
+| style="vertical-align:top;" |
+{{Legend|#001a00|≥ 0.950}}
+{{Legend|#003c00|0.900–0.950}}
+{{Legend|#007f00|0.850–0.899}}
+{{Legend|#00c400|0.800–0.849}}
+{{Legend|#00f900|0.750–0.799}}
+{{Legend|#d3ff00|0.700–0.749}}
+{{Legend|#ffee00|0.650–0.699}}
+| style="vertical-align:top;" |
+{{Legend|#ffd215|0.600–0.649}}
+{{Legend|#ffa83c|0.550–0.599}}
+{{Legend|#ff852f|0.500–0.549}}
+{{Legend|#ff5b00|0.450–0.499}}
+{{Legend|#ff0000|0.400–0.449}}
+{{Legend|#a70000|≤ 0.399}}
+{{Legend|#c0c0c0|Data unavailable}}
+|-
+|}
+]]
+The KTDI the most widely used indicator of human development and has changed how people view the concept.<ref name="krali-main">{{cite web|url=https://www.krali.org/reports/ktdi/1765|title=Krali Total Development Index 1765: Concepts and Methodology|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref> However, several aspects of the index have received criticism. Some scholars have criticised how the factors are weighed, in particular how an additional year of life expectancy is valued differently between countries, and the limited factors it considers, noting the omission of factors such as the levels of distributional and gender inequality. In response to the former, the OQO introduced the Inequality-adjusted Total Development Index (ITDI) in its 1762 report, and in response to the latter, the [[Total Gender Development Index]] (TGDI) was introduced in the 1743 report.<ref name="krali-itdi">{{cite web|url=https://www.krali.org/reports/ktdi/1762/inequality-adjusted|title=Introducing the Inequality-adjusted Total Development Index|publisher=[[Krali Development Report]]|date=9 October 1762}}</ref> Others have criticised the perceived oversimplification of using a single number per country.<ref name="aidg-critique">{{cite web|url=https://www.aidg.org/publications/measuring-development-single-index|title=The Limits of a Single Index: A Review of Composite Development Measures|publisher=[[Andah Institute for Democratic Governance]]|date=22 February 1764}}</ref>
+
+== Dimensions and indicators ==
+The HDI was first published in 1740 with the goal of being a more comprehensive measure of human development than purely economic measures such as [[List of countries by GDP (nominal)|gross domestic product]].<ref name="krali-history">{{cite web|url=https://www.krali.org/about/history|title=A Short History of the Krali Development Report, 1740 to 1765|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref> The index incorporates three dimensions of human development: a long and healthy life, knowledge, and decent living standards. Various [https://en.wikipedia.org/wiki/Indicator_(statistics) indicators] are used to quantify how countries perform on each dimension. The indicators used in the 2022 report were [[life expectancy|life expectancy at birth]]; expected years of schooling for children; mean years of schooling for adults; and [[gross national income]] per capita. The indicators are used to create a health index, an education index and an income index, each with a value between 0 and 1. The [https://en.wikipedia.org/wiki/Geometric_mean geometric mean] of the three indices—that is, the cube root of the product of the indices—is the human development index. A value above 0.800 is classified as very high, between 0.700 and 0.799 as high, 0.550 to 0.699 as medium, and below 0.550 as low.<ref name="krali-main" />
+
+The data used to calculate HDI comes mostly from national agencies and international institutions, such as Global Trade Union (GTU),<ref name="gtu-gni">{{cite web|url=https://www.globaltradeunion.org/database/1765/gni-per-capita|title=Gross National Income per Capita Database, 1765|publisher=[[Global Trade Union]]|date=28 January 1765}}</ref> _____. Rarely, when one of the indicators is missing, cross-country regression models are used. Due to improved data and methodology updates, HDI values are not comparable across human development reports; instead, each report recalculates the HDI for some previous years.
+[[File:Average_annual_HDI_growth_from_1751_to_1765.png|alt=World map|thumb|240x240px|Average annual HDI growth from 1751 to 1765, published in 1765 :{{legend-col|{{Legend|#00112B|≥ 1.4%}}|{{Legend|#08306B|1.2%–1.4%}}|{{Legend|#08519c|1.0%–1.2%}}|{{Legend|#2171b5|0.8%–1.0%}}|{{Legend|#4292c6|0.6%–0.8%}}|{{Legend|#6baed6|0.4%–0.6%}}|{{Legend|#9ecae1|0.2%–0.4%}}|{{Legend|#c6dbef|0.0%–0.2%}}|{{Legend|#fcbba1|−0.5%–0.0%}}|{{Legend|#fc9272|−1.0%–−0.5%}}|{{Legend|#af321e|< −1.0%}}|{{Legend|#c0c0c0|No data}}
+}}]]
+{| class="wikitable"
+|+HDI dimensions and indicators
+! scope=col | Dimensions
+! scope=col | Indicators
+! scope=col | Dimension index 
+|-
+! scope=row | Long and healthy life
+| Life expectancy at birth || Life expectancy index 
+|-
+! scope=row | Knowledge
+| Expected years of schooling<br>Mean years of schooling || Education index
+|-
+! scope=row | A decent standard of living
+| GNI per capita (PPP LND) || GNI index
+|}
+
+== {{sticky header}}{{sort under}}List ==
+The [[Krali Development Report]] includes data for all 172 recognased nation states, as well as ___ and ____. In total, the KTDI is available for 172 countries and Four territories.<ref name="krali-1765-table">{{cite web|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf|title=Krali Total Development Index 1764-1765: Statistical Annex|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref>
+
+Data is for the year 1745.{{sticky header}}{{sort under}}
+{| class="wikitable plainrowheaders sortable sticky-header sort-under" {{right}}
+|+Krali Total Development Index by country
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! scope=col | Rank
+! scope=col data-sort-type="number"|Change<br>since<br>1755
+! scope=col style="width:17em;"| Country or territory
+! scope=col | KTDI value
+! scope=col data-sort-type="number"| %<br/>annual growth<br/>(1751-1765)
+|-
+| 1 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Verusa}} || 0.974<ref name="krali-1765-table" /> ||  {{sort|0.28|{{increase}} 0.28%}}
+|-
+| 2 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Etirha}} || 0.969 ||  {{sort|0.25|{{increase}} 0.25%}}
+|-
+| 3 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Pha Hii}} || 0.963 ||  {{sort|0.24|{{increase}} 0.24%}}
+|-
+| 4 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Siana}} || 0.960 ||  {{sort|0.35|{{increase}} 0.35%}}
+|-
+| 5 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Ilicuhe}} || 0.958 ||  {{sort|0.19|{{increase}} 0.19%}}
+|-
+| 6 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Disal Nila}} || 0.955 ||  {{sort|0.38|{{increase}} 0.38%}}
+|-
+| 7 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|New Kizura}} || 0.952 ||  {{sort|0.20|{{increase}} 0.20%}}
+|-
+| 8 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Guise}} || 0.950 ||  {{sort|0.26|{{increase}} 0.26%}}
+|-
+| 9 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Easuhura}} || 0.947 ||  {{sort|0.38|{{increase}} 0.38%}}
+|-
+| rowspan="2" | 10 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Emara}} || rowspan="2" | 0.945 ||  {{sort|0.26|{{increase}} 0.26%}}
+|-
+| {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Gaeiya}} ||  {{sort|0.38|{{increase}} 0.38%}}
+|-
+| 12 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Raledria}} 
+| 0.942 ||  {{sort|0.27|{{increase}} 0.27%}}
+|-
+| rowspan="2" | 13 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Lycroa}} 
+| rowspan="2" | 0.939 || {{sort|0.25|{{increase}} 0.25%}}
+|-
+| {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Fincen}} ||  {{sort|0.24|{{increase}} 0.24%}}
+|-
+| 15 || {{sort|27|{{increase}} (27)}} || scope=row {{left}} {{flag|Koruch}} || 0.930 ||  {{sort|0.64|{{increase}} 0.64%}}
+|-
+| 16 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Merela Sta}} || 0.929 ||  {{sort|0.22|{{increase}} 0.22%}}
+|-
+| 17 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Desaki}} || 0.924 ||  {{sort|0.23|{{increase}} 0.23%}}
+|-
+| 18 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Chaenia}} || 0.921 ||  {{sort|0.33|{{increase}} 0.33%}}
+|-
+| 19 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Sunsokua}} || 0.918 ||  {{sort|1.04|{{increase}} 1.04%}}
+|-
+| 20 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Tomscilus}} || 0.914 ||  {{sort|0.36|{{increase}} 0.36%}}
+|-
+| rowspan="2" | 21 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Prystr Hii}} || rowspan="2" | 0.913 ||  {{sort|0.33|{{increase}} 0.33%}}
+|-
+| {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Sanagara}} ||  {{sort|0.21|{{increase}} 0.21%}}
+|-
+| 23 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Praesyu}} 
+| 0.911 ||  {{sort|0.16|{{increase}} 0.16%}}
+|-
+| 24 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Laselteh}} 
+| 0.908 ||  {{sort|0.50|{{increase}} 0.50%}}
+|-
+| 25 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Peka}} || 0.907 ||  {{sort|0.14|{{decrease}} 0.14%}}
+|-
+| 26 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Ashain}} || 0.903 ||  {{sort|0.28|{{increase}} 0.28%}}
+|-
+| 27 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Yaxuto}} || 0.902 ||  {{sort|0.26|{{increase}} 0.26%}}
+|-
+| 28 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Grazail}} || 0.901 ||  {{sort|0.40|{{increase}} 0.40%}}
+|-
+| 29 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Verste}} || 0.900 ||  {{sort|0.22|{{increase}} 0.22%}}
+|-
+| 30 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Stinebar}} || 0.899 ||  {{sort|0.30|{{increase}} 0.30%}}
+|-
+| rowspan="2" | 31 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Dahe}} || rowspan="2" | 0.895 ||  {{sort|0.32|{{increase}} 0.32%}}
+|-
+| {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Fermori}} ||  {{sort|0.20|{{increase}} 0.20%}}
+|-
+| rowspan="2" | 33 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Walporein}} || rowspan="2" | 0.892 ||  {{sort|0.45|{{increase}} 0.45%}}
+|-
+| {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|United Delet}} ||  {{sort|0.18|{{increase}} 0.18%}}
+|-
+| 35 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Acrana}} || 0.890 ||  {{sort|0.35|{{increase}} 0.35%}}
+|-
+| 36 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Vayvele}} 
+| 0.887 ||  {{sort|0.33|{{increase}} 0.33%}}
+|-
+| 37 || {{sort|9|{{increase}} (9)}} || scope=row {{left}} {{flag|Mesjan Hyaa}} || 0.885 ||  {{sort|0.70|{{increase}} 0.70%}}
+|-
+| 38 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|lasri}} || 0.883 ||  {{sort|0.80|{{increase}} 0.80%}}
+|-
+| rowspan="2" | 39 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Ahokini}} || rowspan="2" | 0.880 ||  {{sort|0.32|{{increase}} 0.32%}}
+|-
+| {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Sadain}} ||  {{sort|0.42|{{increase}} 0.42%}}
+|-
+| 41 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Iareva}} || 0.876 ||  {{sort|0.53|{{increase}} 0.53%}}
+|-
+| 42 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Genaire}} || 0.874 ||  {{sort|0.51|{{increase}} 0.51%}}
+|-
+| 43 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Yutnitu}} || 0.871 ||  {{sort|0.45|{{increase}} 0.45%}}
+|-
+| 44 || {{sort|6|{{decrease}} (6)}} || scope=row {{left}} {{flag|New Misos}} || 0.868 ||  {{sort|0.14|{{increase}} 0.14%}}
+|-
+| 45 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Palina}} || 0.865 ||  {{sort|0.47|{{increase}} 0.47%}}
+|-
+| 46 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Arbiya}} || 0.862 ||  {{sort|0.22|{{increase}} 0.22%}}
+|-
+| 47 || {{sort|7|{{decrease}} (7)}} || scope=row {{left}} {{flag|Eldjo}} || 0.860 ||  {{sort|0.15|{{increase}} 0.15%}}
+|-
+| 48 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Crila Republic}} || 0.858 ||  {{sort|0.38|{{increase}} 0.38%}}
+|-
+| 49 || {{sort|13|{{increase}} (13)}} || scope=row {{left}} {{flag|Curata}} || 0.856 ||  {{sort|0.47|{{increase}} 0.47%}}
+|-
+| 50 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Taval}} || 0.852 ||  {{sort|0.22|{{increase}} 0.22%}}
+|-
+| 51 || {{sort|7|{{increase}} (7)}} || scope=row {{left}} {{flag|Trian}} || 0.847 ||  {{sort|1.10|{{increase}} 1.10%}}
+|-
+| 52 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Taing}} || 0.843 ||  {{sort|0.36|{{increase}} 0.36%}}
+|-
+| 53 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Inrea}} || 0.841 ||  {{sort|0.18|{{increase}} 0.18%}}
+|-
+| 54 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Pelugrotoa}} || 0.839 ||  {{sort|0.30|{{increase}} 0.30%}}
+|-
+| 55 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Darewa}} || 0.836 ||  {{sort|0.09|{{increase}} 0.09%}}
+|-
+| 56 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Ukhdari}} || 0.834 ||  {{sort|0.14|{{increase}} 0.14%}}
+|-
+| 57 || {{sort|6|{{increase}} (6)}} || scope=row {{left}} {{flag|Seytinemas}} || 0.832 ||  {{sort|0.54|{{increase}} 0.54%}}
+|-
+| 58 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Finae}} || 0.829 ||  {{sort|0.49|{{increase}} 0.49%}}
+|-
+| 59 || {{sort|6|{{increase}} (6)}} || scope=row {{left}} {{flag|Niretui and Anulan}} || 0.827 ||  {{sort|0.47|{{increase}} 0.47%}}
+|-
+| 60 || {{sort|12|{{decrease}} (12)}} || scope=row {{left}} {{flag|Estijan}} || 0.825 ||  {{sort|0.13|{{increase}} 0.13%}}
+|-
+| 61 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Tvecoca}} || 0.822 ||  {{sort|0.38|{{increase}} 0.38%}}
+|-
+| 62 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Ohtina}} || 0.820 ||  {{sort|0.39|{{increase}} 0.39%}}
+|-
+| 63 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Canldives}} || 0.818 ||  {{sort|0.39|{{increase}} 0.39%}}
+|-
+| 64 || {{sort|12|{{decrease}} (12)}} || scope=row {{left}} {{flag|Aetintio}} || 0.815 ||  {{sort|0.25|{{increase}} 0.25%}}
+|-
+| 65 || {{sort|10|{{decrease}} (10)}} || scope=row {{left}} {{flag|Isari}} || 0.812 ||  {{sort|0.12|{{increase}} 0.12%}}
+|-
+| 66 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Prstreula}} || 0.810 ||  {{sort|0.21|{{increase}} 0.21%}}
+|-
+| 67 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Selaja}} || 0.807 ||  {{sort|0.41|{{increase}} 0.41%}}
+|-
+| 68 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Mendereide}} || 0.805 ||  {{sort|0.21|{{increase}} 0.21%}}
+|-
+| 69 || {{sort|9|{{increase}} (9)}} || scope=row {{left}} {{flag|Andsaudare}} || 0.803 ||  {{sort|0.18|{{increase}} 0.18%}}
+|-
+| 70 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Umarcia}} || 0.801 ||  {{sort|0.52|{{increase}} 0.52%}}
+|-
+| 71 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Rethern}} || 0.800 ||  {{sort|0.25|{{increase}} 0.25%}}
+|-
+| 72 || {{sort|10|{{decrease}} (10)}} || scope=row {{left}} {{flag|Anymna}} || 0.790 ||  {{sort|0.30|{{increase}} 0.30%}}
+|-
+| 73 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Volver}} || 0.787 ||  {{sort|0.44|{{increase}} 0.44%}}
+|-
+| 74 || {{sort|7|{{increase}} (7)}} || scope=row {{left}} {{flag|Iainoa}} || 0.785 ||  {{sort|0.68|{{increase}} 0.68%}}
+|-
+| 75 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Ealdorii}} || 0.780 ||  {{sort|0.26|{{increase}} 0.26%}}
+|-
+| 76 || {{sort|11|{{increase}} (11)}} || scope=row {{left}} {{flag|Acetoa}} || 0.779 ||  {{sort|0.17|{{increase}} 0.17%}}
+|-
+| 77 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Hiwush}} || 0.777 ||  {{sort|0.65|{{increase}} 0.65%}}
+|-
+| 78 || {{sort|16|{{increase}} (16)}} || scope=row {{left}} {{flag|Rijan bu}} || 0.776 ||  {{sort|1.02|{{increase}} 1.02%}}
+|-
+| 79 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Metndria}} || 0.774 ||  {{sort|0.42|{{increase}} 0.42%}}
+|-
+| 80 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Uularin}} || 0.773 ||  {{sort|0.15|{{increase}} 0.15%}}
+|-
+| 81 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Inania}} || 0.769 ||  {{sort|0.30|{{increase}} 0.30%}}
+|-
+| 82 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Suenan}} || 0.768 ||  {{sort|0.37|{{increase}} 0.37%}}
+|-
+| 83 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Oyreain}} || 0.765 ||  {{sort|0.29|{{increase}} 0.29%}}
+|-
+| 84 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Aplasia}} || 0.763 ||  {{sort|0.43|{{increase}} 0.43%}}
+|-
+| 85 || {{sort|17|{{decrease}} (17)}} || scope=row {{left}} {{flag|Slyiaduun}} 
+| 0.762 ||  {{sort|0.23|{{increase}} 0.23%}}
+|-
+| 86 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Enina}} || 0.759 ||  {{sort|0.53|{{increase}} 0.53%}}
+|-
+| 87 || {{sort|10|{{decrease}} (10)}} || scope=row {{left}} {{flag|North Ayre}} || 0.758 ||  {{sort|0.35|{{increase}} 0.35%}}
+|-
+| 88 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Lydroa}} || 0.756 ||  {{sort|0.32|{{increase}} 0.32%}}
+|-
+| 89 || {{sort|6|{{increase}} (6)}} || scope=row {{left}} {{flag|Rkmepuia}} || 0.754 ||  {{sort|0.67|{{increase}} 0.67%}}
+|-
+| 90 || {{sort|33|{{increase}} (33)}} || scope=row {{left}} {{flag|Myla}} || 0.753 ||  {{sort|1.11|{{increase}} 1.11%}}<ref name="krali-growth">{{cite web|url=https://www.krali.org/reports/ktdi/1765/fastest-rising|title=Fastest-rising economies in the 1765 Total Development Index|publisher=[[Krali Development Report]]|date=14 March 1765}}</ref>
+|-
+| 91 || {{sort|8|{{decrease}} (8)}} || scope=row {{left}} {{flag|Cloja}} || 0.752 ||  {{sort|0.50|{{increase}} 0.50%}}
+|-
+| 92 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Astye}} || 0.751 ||  {{sort|0.35|{{increase}} 0.35%}}
+|-
+| 93 || {{sort|10|{{increase}} (10)}} || scope=row {{left}} {{flag|Haiza}} || 0.749 ||  {{sort|0.81|{{increase}} 0.81%}}
+|-
+| 94 || {{sort|16|{{increase}} (16)}} || scope=row {{left}} {{flag|Trevilla}} || 0.747 ||  {{sort|0.60|{{increase}} 0.60%}}
+|-
+| 95 || {{sort|8|{{increase}} (8)}} || scope=row {{left}} {{flag|Sivoso}} || 0.745 ||  {{sort|0.52|{{increase}} 0.52%}}
+|-
+| 96 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Kaastini}} || 0.744 ||  {{sort|0.27|{{increase}} 0.27%}}
+|-
+| 97 || {{sort|16|{{decrease}} (16)}} || scope=row {{left}} {{flag|Danocia}} || 0.741 ||  {{sort|0.16|{{increase}} 0.16%}}
+|-
+| 98 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Dual Cenryia}} || 0.738 ||  {{sort|0.06|{{increase}} 0.06%}}
+|-
+| 99 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Phuris}} || 0.736 ||  {{sort|0.36|{{increase}} 0.36%}}
+|-
+| 100 || {{sort|15|{{increase}} (15)}} || scope=row {{left}} {{flag|Nheyes Si}} || 0.735 ||  {{sort|0.73|{{increase}} 0.73%}}
+|-
+| 101 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Quidic}} || 0.734 ||  {{sort|0.10|{{increase}} 0.10%}}
+|-
+| 102 || {{sort|12|{{decrease}} (12)}} || scope=row {{left}} {{flag|Etretes}} || 0.731 ||  {{sort|0.29|{{increase}} 0.29%}}
+|-
+| 103 || {{sort|11|{{decrease}} (11)}} || scope=row {{left}} {{flag|Zenashan}} || 0.729 ||  {{sort|0.07|{{decrease}} 0.07%}}
+|-
+| 104 || {{sort|11|{{decrease}} (11)}} || scope=row {{left}} {{flag|Reerica}} || 0.728 ||  {{sort|0.48|{{increase}} 0.48%}}
+|-
+| 105 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Isuibul}} || 0.722 ||  {{sort|0.22|{{increase}} 0.22%}}
+|-
+| 106 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Letan}} || 0.720 ||  {{sort|0.50|{{increase}} 0.50%}}
+|-
+| rowspan="2" | 107 || {{sort|7|{{increase}} (7)}} || scope=row {{left}} {{flag|Feio Lie}} || rowspan="2" | 0.717 ||  {{sort|0.62|{{increase}} 0.62%}}
+|-
+| {{sort|8|{{increase}} (8)}} || scope=row {{left}} {{flag|Isnti}} ||  {{sort|0.45|{{increase}} 0.45%}}
+|-
+| 109 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Hkuqo}} || 0.715 ||  {{sort|0.46|{{increase}} 0.46%}}
+|-
+| 110 || {{sort|11|{{increase}} (11)}} || scope=row {{left}} {{flag|Areoix Lie}} 
+| 0.712 ||  {{sort|0.75|{{increase}} 0.75%}}
+|-
+| 111 || {{sort|9|{{increase}} (9)}} || scope=row {{left}} {{flag|Nia}} || 0.710 ||  {{sort|0.69|{{increase}} 0.69%}}
+|-
+| 112 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Heiso}} || 0.709 ||  {{sort|0.35|{{increase}} 0.35%}}
+|-
+| 113 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Hyelen}} || 0.708 ||  {{sort|0.56|{{increase}} 0.56%}}
+|-
+| 114 || {{sort|6|{{decrease}} (6)}} || scope=row {{left}} {{flag|Baluyde}} || 0.705 ||  {{sort|0.07|{{increase}} 0.07%}}
+|-
+| 115 || {{sort|9|{{decrease}} (9)}} || scope=row {{left}} {{flag|Maalle}} || 0.704 ||  {{sort|0.23|{{increase}} 0.23%}}
+|-
+| 116 || {{sort|14|{{decrease}} (14)}} || scope=row {{left}} {{flag|Rinew}} || 0.703 ||  {{sort|0.31|{{increase}} 0.31%}}
+|-
+| 117 || {{sort|6|{{decrease}} (6)}} || scope=row {{left}} {{flag|Onphello}} || 0.701 ||  {{sort|0.06|{{increase}} 0.06%}}
+|-
+| 118 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Veelmit}} || 0.699 ||  {{sort|0.49|{{decrease}} 0.49%}}
+|-
+| 119 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Elja and Munusia}} || 0.698 ||  {{sort|0.45|{{increase}} 0.45%}}
+|-
+| 120 || {{sort|7|{{increase}} (7)}} || scope=row {{left}} {{flag|Urbiqu}} || 0.695 ||  {{sort|1.21|{{increase}} 1.21%}}
+|-
+| 121 || {{sort|37|{{decrease}} (37)}} || scope=row {{left}} {{flag|Kusierna}} || 0.693<ref name="krali-1765-table" /> ||  {{sort|0.68|{{increase}} 0.68%}}
+|-
+| 122 || {{sort|9|{{decrease}} (9)}} || scope=row {{left}} {{flag|Jshain}} || 0.691 ||  {{sort|0.02|{{increase}} 0.02%}}
+|-
+| 123 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Amcha}} || 0.688 ||  {{sort|0.76|{{increase}} 0.76%}}
+|-
+| 124 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Byllu}} || 0.687 ||  {{sort|1.84|{{increase}} 1.84%}}<ref name="gtu-gni" />
+|-
+| 125 || {{sort|9|{{increase}} (9)}} || scope=row {{left}} {{flag|Vesozata}} || 0.682 ||  {{sort|1.32|{{increase}} 1.32%}}
+|-
+| 126 || {{sort|16|{{increase}} (16)}} || scope=row {{left}} {{flag|Otiiric}} || 0.675 ||  {{sort|1.70|{{increase}} 1.70%}}
+|-
+| 127 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Exilium}} || 0.673 ||  {{sort|0.57|{{increase}} 0.57%}}
+|-
+| 128 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Eparia}} || 0.670 ||  {{sort|0.61|{{increase}} 0.61%}}
+|-
+| 129 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Pelan}} || 0.668 ||  {{sort|0.39|{{increase}} 0.39%}}
+|-
+| 130 || {{sort|9|{{increase}} (9)}} || scope=row {{left}} {{flag|Ozinia}} || 0.666 ||  {{sort|1.54|{{increase}} 1.54%}}
+|-
+| 131 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Ikzen}} || 0.664 ||  {{sort|0.99|{{increase}} 0.99%}}
+|-
+| 132 || {{sort|7|{{decrease}} (7)}} || scope=row {{left}} {{flag|Tonder}} || 0.662 ||  {{sort|0.21|{{increase}} 0.21%}}
+|-
+| 133 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Ztesh}} || 0.660 ||  {{sort|0.54|{{increase}} 0.54%}}
+|-
+| 134 || {{sort|21|{{decrease}} (21)}} || scope=row {{left}} {{flag|Cruthi Anoso}} || 0.659 ||  {{sort|0.33|{{increase}} 0.33%}}
+|-
+| 135 || {{sort|7|{{decrease}} (7)}} || scope=row {{left}} {{flag|Ruylku}} || 0.657 ||  {{sort|0.15|{{increase}} 0.15%}}
+|-
+| 136 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Terressin}} || 0.655 ||  {{sort|0.36|{{increase}} 0.36%}}
+|-
+| 137 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Galca}} || 0.652 ||  {{sort|0.21|{{increase}} 0.21%}}
+|-
+| 138 || {{sort|6|{{decrease}} (6)}} || scope=row {{left}} {{flag|United Mihili}} || 0.646 ||  {{sort|0.17|{{increase}} 0.17%}}
+|-
+| 139 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Taoisia}} || 0.643 ||  {{sort|0.38|{{increase}} 0.38%}}
+|-
+| 140 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Pelines}} || 0.637 ||  {{sort|0.61|{{decrease}} 0.61%}}
+|-
+| 141 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Pruim Fijan}} || 0.634 ||  {{sort|0.86|{{increase}} 0.86%}}
+|-
+| 142 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Rtesania}} || 0.628 ||  {{sort|1.01|{{increase}} 1.01%}}
+|-
+| 143 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Ihner}} || 0.624 ||  {{sort|0.44|{{increase}} 0.44%}}
+|-
+| 144 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Yihnurda}} || 0.618 ||  {{sort|0.82|{{increase}} 0.82%}}
+|-
+| 145 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Ucrua}} || 0.610 ||  {{sort|0.85|{{increase}} 0.85%}}
+|-
+| 146 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Lieri}} || 0.602 ||  {{sort|0.50|{{decrease}} 0.50%}}
+|-
+| 147 || {{sort|4|{{decrease}} (4)}} || scope=row {{left}} {{flag|Erkizil}} || 0.601 ||  {{sort|0.90|{{increase}} 0.90%}}
+|-
+| 148 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Jau}} || 0.595 ||  {{sort|1.14|{{increase}} 1.14%}}
+|-
+| 149 || {{sort|6|{{decrease}} (6)}} || scope=row {{left}} {{flag|Saa}} || 0.589 ||  {{sort|0.13|{{increase}} 0.13%}}
+|-
+| 150 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Fire Coast}} || 0.576 ||  {{sort|1.54|{{increase}} 1.54%}}
+|-
+| 151 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Viussi}} || 0.572 ||  {{sort|0.85|{{increase}} 0.85%}}
+|-
+| 152 || {{sort|2|{{increase}} (2)}} || scope=row {{left}} {{flag|Oscairia}} || 0.568 ||  {{sort|0.94|{{increase}} 0.94%}}
+|-
+| 153 || {{sort|1|{{decrease}} (1)}} || scope=row {{left}} {{flag|Niul Spijan}} || 0.562 ||  {{sort|1.12|{{increase}} 1.12%}}
+|-
+| 154 || {{sort|0|{{steady}} (0)}} || scope=row {{left}} {{flag|Iquir}} || 0.560 ||  {{sort|0.63|{{increase}} 0.63%}}
+|-
+| 155 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Deschon}} || 0.553 ||  {{sort|1.10|{{increase}} 1.10%}}
+|-
+| 156 || {{sort|7|{{decrease}} (7)}} || scope=row {{left}} {{flag|Shinam}} || 0.543 ||  {{sort|0.13|{{increase}} 0.13%}}
+|-
+| 157 || {{sort|10|{{increase}} (10)}} || scope=row {{left}} {{flag|Wundry}} || 0.534 ||  {{sort|1.07|{{decrease}} 1.07%}}
+|-
+| 158 || {{sort|3|{{increase}} (3)}} || scope=row {{left}} {{flag|Zhanshe}} || 0.528 ||  {{sort|0.80|{{increase}} 0.80%}}
+|-
+| 159 || {{sort|5|{{increase}} (5)}} || scope=row {{left}} {{flag|Eldavpir}} || 0.512 ||  {{sort|1.02|{{increase}} 1.02%}}
+|-
+| 160 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Taniduna}} || 0.505 ||  {{sort|1.12|{{increase}} 1.12%}}
+|-
+| 161 || {{sort|4|{{increase}} (4)}} || scope=row {{left}} {{flag|Migoku}} || 0.499 ||  {{sort|1.29|{{decrease}} 1.29%}}
+|-
+| 162 || {{sort|3|{{decrease}} (3)}} || scope=row {{left}} {{flag|Jathua}} || 0.492 ||  {{sort|1.42|{{increase}} 1.42%}}
+|-
+| 163 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Othya}} || 0.487 ||  {{sort|0.51|{{increase}} 0.51%}}
+|-
+| 164 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Sattle}} || 0.474 ||  {{sort|0.97|{{increase}} 0.97%}}
+|-
+| 165 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Far Lands}} || 0.463 ||  {{sort|0.64|{{increase}} 0.64%}}
+|-
+| 166 || {{sort|9|{{decrease}} (9)}} || scope=row {{left}} {{flag|Umendel}} || 0.456 ||  {{sort|1.74|{{increase}} 1.74%}}
+|-
+| 167 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Yoprioq}} || 0.445 ||  {{sort|0.86|{{increase}} 0.86%}}
+|-
+| 168 || {{sort|5|{{decrease}} (5)}} || scope=row {{left}} {{flag|Candenat}} || 0.427 ||  {{sort|0.71|{{increase}} 0.71%}}
+|-
+| 169 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Welenu Fana}} || 0.414 ||  {{sort|0.80|{{increase}} 0.80%}}
+|-
+| 170 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Ocaun}} || 0.396 ||  {{sort|0.82|{{increase}} 0.82%}}
+|-
+| 171 || {{sort|1|{{increase}} (1)}} || scope=row {{left}} {{flag|Western Migoku}} || 0.393 ||  {{sort|1.06|{{decrease}} 1.06%}}
+|-
+| 172 || {{sort|2|{{decrease}} (2)}} || scope=row {{left}} {{flag|Shomjind}} || 0.388<ref name="krali-1765-table" /> ||  {{sort|0.81|{{increase}} 0.81%}}
+|}
+
+== References ==
+{{reflist}}
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

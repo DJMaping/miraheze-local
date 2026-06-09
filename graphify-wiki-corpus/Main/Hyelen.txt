@@ -1,0 +1,119 @@
+{{Infobox country
+| conventional_long_name = Republic of Hyelen
+| native_name            = ''__''  - Hyelenian
+| image_flag             = Hyelen Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = HY-eh-len
+| national_anthem        = /ˈhaɪ.ɛ.lən/
+| image_map              = Hyelen Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Hyelen(green)
+| capital                = [[PrajuleD]]
+| largest_city           = [[PrajuleD]]
+| official_languages     = Hyelenian
+| demonym                = Hyelenian
+| government_type        = Unitary semi-presidential republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Hyelen
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independce 
+| sovereignty_note       = from [[Mesjan Hyaa]]
+| area_rank              = 120th
+| area_km2               = 154,449
+| area_sq_mi             = 59,633
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}1,724,000<ref name="POP HYE">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.hye/List_of_countries_and_dependencies_by_population/hyelen|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 140th
+| population_estimate_year = 1765
+| population_density_km2 = 11.2
+| population_density_rank = 146th
+| GDP_PPP                = {{increase}} {{lahn}}11.381 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/hye/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 146th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}6,600
+| GDP_PPP_per_capita_rank = 128th
+| GDP_nominal            = {{increase}} {{lahn}}4.215 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/hye/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 147th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}2,444
+| GDP_nominal_per_capita_rank = 126th
+| HDI_year               = 1765
+| HDI                    = 0.708
+| HDI_change             = decrease
+| HDI_rank               = 113th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Hyelenian Rdlisti]] (_) (RDL)
+| time_zone              = SET -8 (Standard Hyelenian Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .hye
+| calling_code           = +733
+}}
+The '''Hyelen''' formaly known as the '''Republic of Hyelen''' is a [[Wikipedia:Unitary parliamentary republic|unitary semi-presidential]] republic located in [[South Quia]], bordered by [[Mesjan Hyaa]] to the south-southwest, [[Nheyes Si]] ti to the north, and the [[Southern Eanif Ocean]] to the East. Covering an area of 154,449 km² (59,633 sq mi), it ranks as the [[List of countries and dependencies by area|120th]] largest country in the world. The capital and largest city is [[PrajuleD]]. The official language is Hyelenian.
+
+Hyelen gained [[Hyelen Independence|independence]] from [[Mesjan Hyaa]] in 1758 after a [[1753 Hyelen referendum on independence|referendum on independence]] was successful in 1753, with 63% voting in favor of having an independent state. The election was the product of a compromise following a [[Hyelenian insurgency| decade-long insurgency]] against Hyian forces. Hyelen is governed through a bicameral legislature known as the [[Union of Hyelen]], consisting of the [[Hyelenian Lainar of the People|Lainar of the People]] (upper house) and the [[Hyelenian National Assembly|National Assembly]] (lower house). The head of government is the [[High Minister of Hyelen|High Minister]].
+
+As of 1765, Hyelen has a population of approximately 1,724,000, ranking [[List of countries and dependencies by population|140th]] globally. The country's economy, measured by [[Wikipedia:Purchasing power parity|purchasing power parity]], stands at {{Lahn}}11.381 billion, placing it [[List of countries by GDP (PPP)|146th]] worldwide, with a per capita GDP (PPP) of  {{Lahn}}6,600. Hyelen has a [[List of countries by Krali Total Development Index|Krali Total Development Index of 0.708]], classified as medium/low level of development, ranking 113th globally.
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+Cities in [[Hyelen]] (population figures not yet available):
+* [[DrolbaK]]
+* [[KhandowG]]
+* [[LunthelP]]
+* [[MavagaT]]
+* [[PrajuleD]]
+* [[VhezaR]]
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.hye/ The Republic of Hyelen's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-wuia-13017877 Country profile – Hyelen] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/hyelen/ Hyelen]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

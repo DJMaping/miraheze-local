@@ -1,0 +1,981 @@
+{{Short description|1736 edition of the FLLA World Cup}}
+
+{| class="infobox" style="width: 22em; font-size: 88%;"
+|+ '''1736 FLLA World Cup'''
+|-
+! colspan="2" style="text-align:center;" | Tournament details
+|-
+| Host country || {{Flagicon|Verusa}} [[Verusa]]
+|-
+| Continent || [[Ayuma]]
+|-
+| Dates || 30 May – 28 June 1736
+|-
+| Teams || 24 (from 7 confederations)
+|-
+| Venues || 12 (in 9 host cities)
+|-
+| Matches played || 52
+|-
+| Goals scored || 140 (2.69 per match)
+|-
+| Attendance || 2,082,000 (40,038 per match)
+|-
+! colspan="2" style="text-align:center;" | Final positions
+|-
+| Champion || {{Flagicon|Raledria}} '''[[Raledria]]''' ''(4th title)''
+|-
+| Runner-up || {{Flagicon|Verusa}} [[Verusa]]
+|-
+| Third place || {{Flagicon|Easuhura}} [[Easuhura]]
+|-
+| Fourth place || {{Flagicon|Etirha}} [[Etirha]]
+|-
+| Final score || 3–1
+|-
+! colspan="2" style="text-align:center;" | Tournament statistics
+|-
+| Top scorer || {{Flagicon|Raledria}} Aurelian Sundas ([[Raledria]]) (6 goals)
+|-
+| Best player || {{Flagicon|Raledria}} Marek Vetrai ([[Raledria]])
+|-
+| Previous: || ''[[1732 FLLA World Cup|1732]]''
+|-
+| Next: || ''[[1740 FLLA World Cup|1740]]''
+|}
+
+The '''1736 [[FLLA]] World Cup''' was the 17th edition of the [[FLLA World Cup]], the quadrennial international [[Arraby]] tournament contested by the senior men's national teams of the member associations of the [[FLLA]]. It was held in [[Verusa]] across [[Ayuma]] from 30 May to 28 June 1736, and was won by [[Raledria]], who defeated the hosts [[Verusa]] 3–1 in the final at the Estadio Vulime in [[Huifarn]] to claim their fourth FLLA World Cup title and equal, at the time, the all-tournament record for most titles. Twenty-four nations qualified for the final tournament, drawn from the seven continental confederations of the [[FLLA]], and contested 52 matches across twelve host venues in nine host cities.
+
+The 1736 edition was the seventeenth and last FLLA World Cup contested under the original 24-team format introduced at the [[1724 FLLA World Cup|1724 edition]] and reinstated at the [[1732 FLLA World Cup|1732 tournament]]. It was also the last edition contested under the one-trophy [[FLLA World Cup#The Ayuma Cup|Ayuma Cup]] arrangement that had been in continuous operation since the inaugural [[1656 FLLA World Cup|1656 edition]]; the FLLA Council's 1737 resolutions, taken in the immediate aftermath of the Verusan tournament, replaced the one-trophy arrangement with the present rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] from the [[1740 FLLA World Cup|1740 edition]] onwards, and expanded the finals tournament to the present figure of thirty-two teams. No formal confederation rotation policy was yet in force at the 1736 edition; the FLLA Council's selection of [[Verusa]] as host returned the competition to [[Ayuma]] after the [[1732 FLLA World Cup|1732 edition]] in [[Dahe]] under an informal alternation between Ayuman and non-Ayuman cycles.
+
+The tournament is remembered above all for the [[#Final|final]] at the Estadio Vulime, in which the floodlights of the principal venue failed in the 53rd minute and suspended play for thirty-six minutes while host engineers restored power, the longest in-match stoppage in the history of any FLLA World Cup final. When the lights were restored the visiting champions [[Raledria]] pushed on against the hosts to seal a 3–1 win, and [[Verusa]] became the first nation in the competition's history to reach an FLLA World Cup final on home soil without lifting the trophy.<ref name="flla-final-report">{{cite web|url=https://www.flla.org/1736/final-report|title=Match report: 1736 FLLA World Cup final, Verusa 1–3 Raledria|publisher=[[FLLA]]|date=29 June 1736}}</ref>
+
+It was also one of the most defensively played editions in the competition's history. A total of 140 goals were scored in 52 matches at an average of 2.69 per match, then the lowest goal-per-match average recorded at any FLLA World Cup since the [[1720 FLLA World Cup|1720 edition]], a figure later cited in the FLLA's [[#Aftermath|1737 review]] as one of the principal drivers of the FLLA Council's decision to expand the field to thirty-two teams from the [[1740 FLLA World Cup|1740 edition]] onwards. The leading goalscoring nation of the tournament was the eventual champions [[Raledria]], with 15 goals across their seven matches; the leading individual scorer of the tournament was [[Raledria|Raledrian]] forward Aurelian Sundas with six personal strikes, and the best-player citation went to [[Raledria|Raledrian]] captain Marek Vetrai.
+
+==Host selection==
+{{Main|1736 FLLA World Cup bids}}
+
+The bid from [[Verusa]] was confirmed as host of the 1736 FLLA World Cup by the [[FLLA]] Council on 4 March 1734, ending a single-round bidding process opened by the FLLA Secretariat in November 1733. No formal confederation-rotation policy was then in force; under the informal arrangement that had governed the choice of host since the [[1700 FLLA World Cup|1700 edition]], the FLLA Council exercised an open discretion subject only to the convention that successive cycles should not be staged on the same continent unless no suitable bid was available from another confederation. The selection of [[Verusa]] returned the tournament to [[Ayuma]] for the first time since the [[1728 FLLA World Cup|1728 edition]] in [[Emara]], following the [[1732 FLLA World Cup|1732 tournament]] in [[Dahe]] which had been the first FLLA World Cup ever held in [[Massir]].<ref>{{cite web|url=https://www.flla.org/news/1734/host-selection-verusa|title=Verusa confirmed as 1736 FLLA World Cup hosts|publisher=[[FLLA]]|date=4 March 1734}}</ref>
+
+Two other associations declared an interest during the bidding window opened in November 1733: [[Easuhura]], which had hosted the [[1716 FLLA World Cup|1716 tournament]] at four months' notice following the reassignment from [[Estijan]], and [[Yaxuto]], which had not previously bid for the competition. The [[Easuhura|Easuhuran]] bid was formally withdrawn on 18 January 1734 after the Easuhuran Arraby Federation determined that domestic stadium-renovation work then underway in [[Easuhura]] would not be completed in time for a May 1736 opening match; the [[Yaxuto|Yaxutan]] bid was withdrawn on 22 February 1734 on cost grounds. The Verusan bid, formally submitted on 1 December 1733 under the umbrella of the Verusan Arraby Federation, was therefore the only candidate before the FLLA Council at its meeting of 4 March 1734.
+
+The total infrastructure budget pledged by the [[Verusa|Verusan]] federal government and the participating municipalities was {{lahn}}420&nbsp;million, of which {{lahn}}110&nbsp;million was directed towards stadium construction and renovation across the nine host cities, {{lahn}}170&nbsp;million towards transport upgrades (principally the [[Huifarn]]–[[Beckel]] interior rail corridor and the [[Drenhuz]]–[[Valkirseh]] coastal trunk road), and {{lahn}}140&nbsp;million towards operational expenditure including security, broadcasting infrastructure and the volunteer programme.<ref>{{cite web|url=https://www.varf.ve/1734/budget-statement|title=Federal budget statement of the Verusan Arraby Federation for the 1736 FLLA World Cup|publisher=Verusan Arraby Federation|date=18 March 1734}}</ref> The selection of [[Verusa]] was the first occasion on which the FLLA Secretariat received fewer than three competing bids since the [[1708 FLLA World Cup|1708 edition]] and was cited in the FLLA's [[#Aftermath|1737 review]] as one of several procedural arguments in favour of the formal rotation policy subsequently adopted in 1742.
+
+==Participating teams==
+
+===Qualification===
+{{Main|1736 FLLA World Cup qualification}}
+
+A total of 24 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. The host association [[Verusa]] qualified as of right under FLLA hosting regulations and did not participate in any [[AYFVL]] qualifying group; no formal host-association exemption from binding qualifying fixtures was yet in force, and the eight binding [[AYFVL]] places at the tournament were therefore competed for by the non-host members of the confederation. The defending champions [[Lycroa]], winners of the [[1732 FLLA World Cup]], qualified through the [[AYFVL]] qualifying competition on merit, the only occasion on which a defending FLLA World Cup champion has done so in the absence of a formal champion's exemption.
+
+The 1736 qualification programme retained the berth allocation in force since the [[1732 FLLA World Cup|1732 edition]]: two places to the [[ATFVL]], eight places to the [[AYFVL]] (including the host berth), two to the [[NAFVL]], two to the [[MAFVL]], three to the [[QUFVL]], four to the [[MSFVL]] and three to the [[ACFVL]].<ref>{{cite web|url=https://www.flla.org/1733/berth-allocation-1736|title=Continental berth allocation for the 1736 FLLA World Cup|publisher=[[FLLA]]|date=12 September 1733}}</ref><ref>{{cite web|url=https://www.flla.org/1736/qualification-summary|title=1736 FLLA World Cup qualification: summary by confederation|publisher=[[FLLA]]|date=4 May 1736}}</ref> The qualifying tournaments are summarised below; full results are recorded on the individual confederation pages.
+
+==== [[ATFVL]] (Atirha) 2 berths ====
+Four first-round groups of five followed by a final octagonal round-robin. Qualified teams:
+* {{Flagicon|Etirha}} [[Etirha]]
+* {{Flagicon|Raledria}} [[Raledria]]
+
+==== [[AYFVL]] (Ayuma) 8 berths ====
+Eight qualifying groups; group winners qualify directly. The host association [[Verusa]] qualified as of right and did not contest qualifying. Qualified teams:
+* {{Flagicon|Verusa}} [[Verusa]] ''(host)''
+* {{Flagicon|Merela Sta}} [[Merela Sta]]
+* {{Flagicon|Lycroa}} [[Lycroa]] ''(defending champions)''
+* {{Flagicon|Easuhura}} [[Easuhura]]
+* {{Flagicon|Siana}} [[Siana]]
+* {{Flagicon|Praesyu}} [[Praesyu]]
+* {{Flagicon|Ilicuhe}} [[Ilicuhe]]
+* {{Flagicon|Ealdorii}} [[Ealdorii]]
+
+==== [[NAFVL]] (New Ayre) 2 berths ====
+A single 23-team double round-robin league. Qualified teams:
+* {{Flagicon|United Delet}} [[United Delet]]
+* {{Flagicon|Ohtina}} [[Ohtina]]
+
+==== [[MAFVL]] (Mahea) 2 berths ====
+Two qualifying groups of twelve teams playing a single round-robin; group winners qualify directly. Qualified teams:
+* {{Flagicon|Otiiric}} [[Otiiric]]
+* {{Flagicon|Sivoso}} [[Sivoso]]
+
+==== [[QUFVL]] (Quia) 3 berths ====
+Four first-round groups followed by two qualifying-round-robin groups. Qualified teams:
+* {{Flagicon|Quidic}} [[Quidic]]
+* {{Flagicon|Anymna}} [[Anymna]]
+* {{Flagicon|Wundry}} [[Wundry]]
+
+==== [[MSFVL]] (Massir) 4 berths ====
+Four first-round groups followed by two final round-robin groups. Qualified teams:
+* {{Flagicon|Taval}} [[Taval]]
+* {{Flagicon|Oyreain}} [[Oyreain]]
+* {{Flagicon|Dahe}} [[Dahe]]
+* {{Flagicon|North Ayre}} [[North Ayre]]
+
+==== [[ACFVL]] (Acrola) 3 berths ====
+Three first-round groups followed by single-leg knockout playoffs. Qualified teams:
+* {{Flagicon|Pelines}} [[Pelines]]
+* {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+* {{Flagicon|Deschon}} [[Deschon]]
+
+===Final draw===
+{{Main|1736 FLLA World Cup seeding}}
+
+The final draw for the group stage was held at the Verusan National Auditorium in [[Huifarn]] on 7 December 1735, six months before the opening match. The 24 qualified teams were divided into four pots of six on the basis of pre-tournament [[FLLA]] rankings, with the host [[Verusa]] and the five highest-ranked sides ([[Raledria]], [[Lycroa]], [[Easuhura]], [[United Delet]] and [[Quidic]]) placed in the seeded pot. The remaining three pots were arranged on geographical lines so as to maximise the continental diversity of each group; under the procedure adopted by the FLLA Council in September 1735, no group was permitted to contain more than two sides from any one confederation other than the host [[AYFVL]].<ref>{{cite web|url=https://www.flla.org/1735/draw-procedures|title=Procedures for the 1736 FLLA World Cup final draw|publisher=[[FLLA]]|date=4 October 1735}}</ref>
+
+The draw was conducted by FLLA general secretary Eberhardt Onstrau and presented by [[Verusa|Verusan]] broadcaster Heline Tassrein, with retired internationals from each of the seven confederations drawing the team names. The ceremony was carried live on Verusan public radio and was relayed by 18 broadcasters across more than 60 countries.<ref>{{cite web|url=https://www.flla.org/1735/draw-ceremony|title=Official record of the 1736 FLLA World Cup final draw|publisher=[[FLLA]]|date=8 December 1735}}</ref>
+
+{|class="wikitable" style="text-align:center;"
+|-
+! width="16%" | Group A
+! width="16%" | Group B
+! width="16%" | Group C
+! width="16%" | Group D
+! width="16%" | Group E
+! width="16%" | Group F
+|-
+| ''{{Flagicon|Verusa}} [[Verusa]]''
+| {{Flagicon|United Delet}} [[United Delet]]
+| {{Flagicon|Easuhura}} [[Easuhura]]
+| {{Flagicon|Raledria}} [[Raledria]]
+| {{Flagicon|Lycroa}} [[Lycroa]]
+| {{Flagicon|Quidic}} [[Quidic]]
+|-
+| {{Flagicon|Etirha}} [[Etirha]]
+| {{Flagicon|Siana}} [[Siana]]
+| {{Flagicon|Taval}} [[Taval]]
+| {{Flagicon|Ealdorii}} [[Ealdorii]]
+| {{Flagicon|Wundry}} [[Wundry]]
+| {{Flagicon|Praesyu}} [[Praesyu]]
+|-
+| {{Flagicon|Anymna}} [[Anymna]]
+| {{Flagicon|Deschon}} [[Deschon]]
+| {{Flagicon|Ohtina}} [[Ohtina]]
+| {{Flagicon|Otiiric}} [[Otiiric]]
+| {{Flagicon|Dahe}} [[Dahe]]
+| {{Flagicon|Merela Sta}} [[Merela Sta]]
+|-
+| {{Flagicon|Ilicuhe}} [[Ilicuhe]]
+| {{Flagicon|Oyreain}} [[Oyreain]]
+| {{Flagicon|Sivoso}} [[Sivoso]]
+| {{Flagicon|Pelines}} [[Pelines]]
+| {{Flagicon|Areoix Lie}} [[Areoix Lie]]
+| {{Flagicon|North Ayre}} [[North Ayre]]
+|}
+''Host is shown in italics.''
+
+===Officials===
+{{Main|1736 FLLA World Cup officials}}
+
+The FLLA Referees Committee appointed 18 refereeing trios, each consisting of one referee and two assistants from the same national association, and three support pairs drawn from a combined pool of 12 nations. The selections were announced between October 1735 and February 1736, following an assessment programme at the [[1735 FLLA Continental Champions Cup]] and at senior friendlies organised across the nine host cities. The 18 selected referees were drawn from 14 nations and represented all seven [[FLLA]] confederations, although no [[AYFVL]] referee was eligible to take charge of any match involving an Ayuman side under the host-association exclusion rules then in force.<ref>{{cite web|url=https://www.flla.org/1736/officials-announced|title=Match officials confirmed for the 1736 FLLA World Cup|publisher=[[FLLA]]|date=18 February 1736}}</ref><ref>{{cite web|url=https://www.flla.org/referees/1736-host-exclusion|title=Host-association exclusion rules for referees at the 1736 FLLA World Cup|publisher=[[FLLA]]|date=4 February 1736}}</ref>
+
+The opening match was refereed by Marin Vassalo of [[Ohtina]] ([[NAFVL]]), appointed to the fixture in his third tournament as an international referee. The final was officiated by Edrick Yulin of [[Otiiric]] ([[MAFVL]]), the first Otiirican referee to take charge of an FLLA World Cup final and at thirty-eight years of age the youngest official to do so since the [[1720 FLLA World Cup|1720 edition]]. The two semi-finals were taken by Nuri Olark of [[Wundry]] ([[QUFVL]]) for the first semi-final at the Estadio Pyesion and Lecho Korbel of [[Dual Cenryia]] ([[MAFVL]] support pair) for the second semi-final at the Estadio Beckel.
+
+==Squads==
+{{Main|1736 FLLA World Cup squads}}
+
+Each participating squad consisted of 22 players, two of whom were required to be goalkeepers, under the squad allocation in force since the [[1732 FLLA World Cup|1732 edition]]. Each participating national association was required to confirm its final 22-player squad with the FLLA no later than seven days before the opening match; late replacements were permitted in the event of serious injury at any time up to 24 hours before a team's first fixture. A total of 528 players were registered for the tournament, of whom 48 were goalkeepers.
+
+The oldest player at the tournament was [[Siana|Sianan]] central defender Halmir Ostreth, who was 35 years and 207 days old at the start of the competition and was making his fourth and last appearance at an FLLA World Cup. The youngest registered player was [[Wundry|Wundric]] winger Petren Toranki at 19 years and 41 days; Toranki would go on to score five of [[Wundry]]'s ten tournament goals, including both [[Wundry|Wundric]] goals in the [[#Notable upsets|group-stage upset]] of [[Lycroa]] on 5 June. The mean age of registered players across the tournament was 26.4 years. The [[Lycroa|Lycroan]] central midfielder Cario Velarzo, then 28 years old, was making his second appearance at an FLLA World Cup after the [[1732 FLLA World Cup|1732 edition]] in [[Dahe]]; Velarzo would go on to appear at two further FLLA World Cups, set the all-tournament repeat-appearance record at the [[1744 FLLA World Cup|1744 edition]], and lift the trophy as captain of the [[Lycroa|Lycroan]] champions of 1744.
+
+The leading [[Raledria|Raledrian]] forward, Aurelian Sundas, was making his second appearance at an FLLA World Cup after the [[1732 FLLA World Cup|1732 edition]] and was captained on the field by central midfielder Marek Vetrai, then 27 years old and in his third tournament. The [[Raledria|Raledrian]] head coach, Tovric Calderan, had assumed the position in the spring of 1735 after [[Raledria]]'s elimination in the second round of qualifying at the [[1732 FLLA World Cup|1732 cycle]] and assembled a squad notable for the technical experience of its midfield core and the pace of its forward line. The hosts [[Verusa]] were captained by central defender Friedrik Lannvert, then 30 years old and at his third FLLA World Cup, and were managed by Adrian Hochstein, in his second tournament as the Verusan head coach.<ref>{{cite web|url=https://www.varf.ve/1736/squad-list|title=Verusan squad list and biographies for the 1736 FLLA World Cup|publisher=Verusan Arraby Federation|date=22 May 1736}}</ref>
+
+==Venues==
+{{Main|1736 FLLA World Cup venues}}
+
+Twelve stadiums in nine host cities were used in the final tournament, all located in [[Verusa]]. Three of the twelve venues had been built specifically for the tournament or substantially redeveloped during the bidding period; the remaining nine were existing top-flight venues that received targeted upgrades to seating and broadcasting facilities under FLLA Council resolution 1734/8. The twelve-venue programme was the largest single-host stadium plan in the competition's history at the time, exceeded only by the [[1752 FLLA World Cup|1752 ten-venue programme]] under the larger 32-team format introduced at the [[1740 FLLA World Cup|1740 edition]].
+
+The opening match was held at the Estadio Vulime in [[Huifarn]], the largest and most prestigious stadium in the host country, which also staged one quarter-final on 21 June and the final on 28 June. The two semi-finals were divided between the Estadio Pyesion in [[Huifarn]] and the Estadio Beckel in [[Beckel]]. The third-place playoff was held at the Estadio Drenhuz in [[Drenhuz]].
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Stadiums of the 1736 FLLA World Cup
+! City !! Stadium !! Capacity !! Role
+|-
+| align="left" | [[Huifarn]] || align="left" | Estadio Vulime || 80,000 || align="left" | Opening match; final; quarter-final; round of 16; group stage
+|-
+| align="left" | [[Huifarn]] || align="left" | Estadio Pyesion || 55,000 || align="left" | Semi-final; round of 16; group stage
+|-
+| align="left" | [[Huifarn]] || align="left" | Estadio Mitre || 42,000 || align="left" | Round of 16; group stage
+|-
+| align="left" | [[Beckel]] || align="left" | Estadio Beckel || 62,000 || align="left" | Semi-final; quarter-final; round of 16; group stage
+|-
+| align="left" | [[Beckel]] || align="left" | Estadio Suebi || 38,000 || align="left" | Group stage
+|-
+| align="left" | [[Drenhuz]] || align="left" | Estadio Drenhuz || 52,000 || align="left" | Third-place playoff; quarter-final; round of 16; group stage
+|-
+| align="left" | [[Foulang]] || align="left" | Estadio Foulang || 45,000 || align="left" | Round of 16; group stage
+|-
+| align="left" | [[Valkirseh]] || align="left" | Estadio Valkirseh || 48,000 || align="left" | Quarter-final; round of 16; group stage
+|-
+| align="left" | [[Murenbau]] || align="left" | Estadio Murenbau || 42,000 || align="left" | Round of 16; group stage
+|-
+| align="left" | [[Walfrei]] || align="left" | Estadio Walfrei || 40,000 || align="left" | Group stage
+|-
+| align="left" | [[Gulshen]] || align="left" | Estadio Gulshen || 38,000 || align="left" | Group stage
+|-
+| align="left" | [[Jentori]] || align="left" | Estadio Jentori || 38,000 || align="left" | Group stage
+|}
+
+===Venue profiles===
+
+The '''Estadio Vulime''', in [[Huifarn]], was the largest venue at the tournament and the principal final venue. The stadium, designed by the architectural studio Mokshlein und Partner and inaugurated by the head of state of [[Verusa]] on 4 March 1736, was constructed on the site of the older Huifarn Civic Ground (closed 1733) on the northern bank of the [[Huifarn]] river and named after the [[Verusa#History|Vulime Empire]], the early-medieval Verusan polity from which the modern federal republic traces its constitutional descent.<ref>{{cite web|url=https://www.varf.ve/venues/estadio-vulime|title=Estadio Vulime: history, design and inauguration|publisher=Verusan Arraby Federation|date=4 March 1736}}</ref> The 80,000-seat ground hosted the [[#Final|final]], one of the four [[#Quarter-finals|quarter-finals]] on 21 June, one [[#Round of 16|round-of-sixteen]] tie (between the hosts [[Verusa]] and [[Dahe]]), and three group-stage fixtures including the opening match between [[Verusa]] and [[Etirha]] on 30 May. Its principal feature was the failure of the floodlighting system during the [[#Final|final]] on 28 June, which suspended play for thirty-six minutes and remains the longest in-match stoppage in FLLA World Cup final history.
+
+The '''Estadio Pyesion''' in [[Huifarn]] was the second-largest venue at the tournament with a redeveloped capacity of 55,000 and the principal northern Huifarn venue, named after the medieval [[Verusa#History|Pyesion]] which had occupied the eastern provinces of present-day Verusa during the twelfth century. The ground, originally opened in 1689 as the home stadium of the Verusan domestic-league club Huifarn-Nord and extensively redeveloped between 1734 and 1736, hosted the first of the two [[#Semi-finals|semi-finals]] between [[Verusa]] and [[Easuhura]] on 25 June, one [[#Round of 16|round-of-sixteen]] tie, and three further group-stage fixtures.
+
+The '''Estadio Beckel''' in [[Beckel]], a 62,000-seat stadium opened in 1727 and the regular home venue of the [[Verusa]] national side for matches in the northern half of the country, hosted the second of the two [[#Semi-finals|semi-finals]] between [[Raledria]] and [[Etirha]] on 25 June, one [[#Quarter-finals|quarter-final]] on 22 June, one [[#Round of 16|round-of-sixteen]] tie, and three group-stage fixtures. The '''Estadio Drenhuz''' in [[Drenhuz]], a 52,000-seat venue opened in 1716 and modestly upgraded for the tournament under the FLLA Council resolution of 1734, hosted the [[#Third place playoff|third-place playoff]] between [[Easuhura]] and [[Etirha]] on 27 June, alongside one [[#Quarter-finals|quarter-final]], one [[#Round of 16|round-of-sixteen]] tie, and three group-stage fixtures.
+
+The '''Estadio Valkirseh''' in [[Valkirseh]], a 48,000-seat venue opened in February 1736 specifically for the tournament, hosted one [[#Quarter-finals|quarter-final]], one [[#Round of 16|round-of-sixteen]] tie, and three group-stage fixtures. The '''Estadio Foulang''' in [[Foulang]], a 45,000-seat venue purpose-built for the tournament and inaugurated on 18 March 1736, staged one [[#Round of 16|round-of-sixteen]] tie and three group-stage fixtures. The remaining six venues, the Estadio Mitre, Estadio Suebi, Estadio Murenbau, Estadio Walfrei, Estadio Gulshen and Estadio Jentori, between them staged two [[#Round of 16|round-of-sixteen]] ties and twenty-two group-stage fixtures.
+
+===Team base camps===
+
+Each of the 24 participating squads selected a base camp from a shortlist of 32 candidate sites circulated by the Verusan Arraby Federation in September 1735. Most teams opted for camps in or around the larger host cities, with four squads basing themselves within a one-hour radius of [[Huifarn]] and three each near [[Beckel]] and [[Drenhuz]]. The remaining fourteen were divided between the smaller host cities and the inland highland corridor between [[Murenbau]] and [[Gulshen]], which became known during the tournament as the "Mokshlein belt" after the federal architectural studio that had overseen the regional camp-conversion programme.
+
+==Format==
+
+The 24 qualified teams were divided into six groups of four for the group stage, drawn at the [[#Final draw|final draw]] on 7 December 1735. Each group operated on a single round-robin basis, with each team playing three matches; teams were awarded three points for a win, one for a draw and none for a defeat. The top two teams from each of the six groups advanced directly to the [[#Knockout stage|knockout stage]], joined by the four best third-placed teams ranked across the six groups by total points, then goal difference, then goals scored, then goals scored against, and finally a drawing of lots by the FLLA Organising Committee. The bottom team in each group was eliminated.
+
+In the knockout stage, fixtures were single-elimination ties played over 90 minutes; ties level at the end of normal time were extended by a single 30-minute period of [[wikipedia:Extra time|extra time]] of two 15-minute halves, with a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]] used to decide ties that remained level after extra time. Both semi-final losers contested a [[#Third place playoff|third-place playoff]] on 27 June 1736.
+
+The 24-team field and six-group format, with four best third-placed teams advancing to a sixteen-team knockout round, were inherited unchanged from the [[1732 FLLA World Cup|1732 edition]] in [[Dahe]] and the [[1724 FLLA World Cup|1724 edition]] in [[Areoix Lie]]; the [[1728 FLLA World Cup|1728 edition]] in [[Emara]] had reverted on cost grounds to the older sixteen-team format. The 1736 tournament was the third and last FLLA World Cup contested under the 24-team format, which was superseded by the 32-team format introduced at the [[1740 FLLA World Cup|1740 edition]] in [[Seytinemas]].<ref>{{cite web|url=https://www.flla.org/1735/format-regulations|title=Format and tiebreaker regulations for the 1736 FLLA World Cup|publisher=[[FLLA]]|date=12 November 1735}}</ref>
+
+==Innovations==
+
+The 1736 FLLA World Cup is widely cited in subsequent FLLA literature less for the procedural innovations introduced at the tournament itself than for the role the edition played as the principal evidentiary basis for the [[#Aftermath|1737 reforms]] adopted by the FLLA Council in the months immediately following the closing ceremony. The unusually low goal-per-match average of the tournament, the 36-minute floodlight stoppage in the [[#Final|final]], and the unsatisfactory three-way tie at the head of [[#Group F|Group F]], all separately referenced in the FLLA's 1737 review, contributed to two principal reforms adopted by the FLLA Council in 1737: the expansion of the finals field to 32 teams from the [[1740 FLLA World Cup|1740 edition]] onwards, and the introduction of the [[FLLA World Cup#The Andah Cup|two-trophy system]] from the same edition. Two later FLLA reforms, the formal adoption of the four-pot seeded draw and the establishment of the standing FLLA Tactical Review Committee, were adopted under FLLA Council resolutions 1743/4 and 1743/9 respectively in advance of the [[1744 FLLA World Cup|1744 edition]] and were widely understood to draw on the same body of evidence first compiled in the FLLA Secretariat's 1737 review.<ref>{{cite web|url=https://www.flla.org/1737/reform-summary|title=Summary of the 1737 FLLA Council reforms and their evidentiary basis|publisher=[[FLLA]]|date=14 December 1737}}</ref>
+
+Two presentational innovations were introduced at the tournament itself. The 1736 edition was the first FLLA World Cup at which the colour scheme of the participating teams' jerseys was centrally co-ordinated by the FLLA Marketing Directorate to ensure visual separation across all 52 fixtures, and the first at which a standardised electronic timing system was used at every venue to record match times to the nearest second. Both arrangements were retained without amendment at every subsequent FLLA World Cup.<ref>{{cite web|url=https://www.flla.org/1736/innovations|title=Presentational innovations adopted for the 1736 FLLA World Cup|publisher=[[FLLA]]|date=22 May 1736}}</ref>
+
+==Opening ceremony==
+
+The opening ceremony of the 1736 FLLA World Cup was held at the Estadio Vulime on 30 May 1736, sixty minutes before the kick-off of the opening match between the hosts [[Verusa]] and [[Etirha]]. Directed by [[Verusa|Verusan]] stage producer Reinhart Vergonai and choreographed by Eline Brashein, the ceremony lasted 28 minutes and featured 720 dancers, 140 musicians and a massed entrance representing each of the seven continental confederations of the [[FLLA]]. The performance opened with a sequence depicting the early-medieval [[Verusa#History|Vulime Empire]] and the subsequent United Verusan Realm of 835, before transitioning through the foundation of the [[Verusa#History|Pyesion]] in the twelfth century, the unification of [[Verusa]] in 1629 and the establishment of the [[Verusa#History|Federal Republic]] in 1702. The [[Verusa|Verusan]] vocalist Karin Brashein, joined by the Huifarn Choral Society, performed the tournament's official theme song "Über den Strom" ("Across the River") as the closing item of the ceremony, the river in question being the [[Huifarn]] river on whose northern bank the Estadio Vulime had been built.
+
+Attending dignitaries included the head of state of [[Verusa]], the President of the FLLA Council, the heads of state of [[Easuhura]] and [[Etirha]], and 41 ambassadors and senior diplomatic representatives. The ceremony was broadcast live on radio by 18 partner broadcasters across 33 countries; a transcontinental relay arranged in coordination with the broadcasting consortium that had carried the [[1732 FLLA World Cup|1732 final]] enabled the opening ceremony to be heard in real time across most of [[Atirha]], [[Ayuma]], [[Mahea]] and the western half of [[Massir]].<ref>{{cite web|url=https://www.vrb.ve/1736/opening-ceremony|title=Opening ceremony of the 1736 FLLA World Cup: production notes and broadcast record|publisher=Verusan Radio Broadcasting|date=30 May 1736}}</ref>
+
+==Group stage==
+
+The 24 qualified teams were drawn into six groups of four. Each group operated on a single round-robin basis, with each team playing three matches; the top two finishers in each group advanced directly to the [[#Knockout stage|knockout stage]], joined by the four best of the six third-placed sides ranked across the groups. Group rankings were settled first on points (three for a win, one for a draw), then on goal difference and goals scored.
+
+The group stage produced two perfect records: [[Taval]] in Group C and [[Raledria]] in Group D each took maximum points from their three matches, with [[Raledria]] finishing on the largest positive group-stage goal difference of the round at plus seven. The host nation [[Verusa]] topped a tightly contested Group A in which all three advancing sides finished level on five points, with separation on the head-to-head and goal-difference tiebreakers. [[Group F|Group F]] produced the only three-way tie on six points in the tournament, the [[QUFVL]] qualifier [[Quidic]] advancing as group winners with [[Praesyu]] as runners-up and [[Merela Sta]] eliminated as third-placed side only by the head-to-head record and the goal-difference tiebreaker. The biggest single-match upset of the group stage, and of the tournament as a whole, was the 3–2 victory for [[Wundry]] over the defending champions [[Lycroa]] at the Estadio Murenbau on 5 June; recorded across a pre-tournament FLLA-ranking gap of 160 points, the result was described in the FLLA's 1737 review as the most significant upset by ranking margin in the FLLA World Cup since the [[1716 FLLA World Cup|1716 edition]].<ref>{{cite web|url=https://www.flla.org/1736/group-stage-summary|title=1736 FLLA World Cup group stage: results summary|publisher=[[FLLA]]|date=12 June 1736}}</ref>
+
+All times listed are Standard Verusan Time ([[wikipedia:UTC|UTC]]+0).
+
+===Group A===
+{| class="wikitable" style="text-align: center;"
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' ''(H)'' || 3 || 1 || 2 || 0 || 2 || 1 || +1 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' || 3 || 1 || 2 || 0 || 2 || 1 || +1 || 5
+|- style="background:#ffffcc;"
+| 3 || align="left" | {{Flagicon|Anymna}} '''[[Anymna]]''' || 3 || 1 || 2 || 0 || 1 || 0 || +1 || 5 || Advance as third-placed team
+|-
+| 4 || align="left" | {{Flagicon|Ilicuhe}} [[Ilicuhe]] || 3 || 0 || 0 || 3 || 2 || 5 || −3 || 0 ||
+|}
+''(H) Host. All three advancing teams finished level on five points; separation by head-to-head record and goal difference.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 30 May 1736 || align="right" | Verusa {{Flagicon|Verusa}} || 0–0 || {{Flagicon|Etirha}} Etirha || align="left" | Estadio Vulime, Huifarn
+|-
+| align="left" | 31 May 1736 || align="right" | '''Anymna''' {{Flagicon|Anymna}} || 1–0 || {{Flagicon|Ilicuhe}} Ilicuhe || align="left" | Estadio Mitre, Huifarn
+|-
+| align="left" | 3 June 1736 || align="right" | Verusa {{Flagicon|Verusa}} || 0–0 || {{Flagicon|Anymna}} Anymna || align="left" | Estadio Vulime, Huifarn
+|-
+| align="left" | 4 June 1736 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–1 || {{Flagicon|Ilicuhe}} Ilicuhe || align="left" | Estadio Pyesion, Huifarn
+|-
+| align="left" | 8 June 1736 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|Ilicuhe}} Ilicuhe || align="left" | Estadio Vulime, Huifarn
+|-
+| align="left" | 9 June 1736 || align="right" | Etirha {{Flagicon|Etirha}} || 0–0 || {{Flagicon|Anymna}} Anymna || align="left" | Estadio Mitre, Huifarn
+|}
+
+===Group B===
+{| class="wikitable" style="text-align: center;"
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|United Delet}} '''[[United Delet]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 1 || 2 || 0 || 3 || 2 || +1 || 5
+|-
+| 3 || align="left" | {{Flagicon|Deschon}} [[Deschon]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Oyreain}} [[Oyreain]] || 3 || 0 || 1 || 2 || 2 || 4 || −2 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 30 May 1736 || align="right" | United Delet {{Flagicon|United Delet}} || 0–0 || {{Flagicon|Siana}} Siana || align="left" | Estadio Beckel, Beckel
+|-
+| align="left" | 31 May 1736 || align="right" | Oyreain {{Flagicon|Oyreain}} || 0–0 || {{Flagicon|Deschon}} Deschon || align="left" | Estadio Suebi, Beckel
+|-
+| align="left" | 3 June 1736 || align="right" | '''United Delet''' {{Flagicon|United Delet}} || 2–1 || {{Flagicon|Oyreain}} Oyreain || align="left" | Estadio Beckel, Beckel
+|-
+| align="left" | 4 June 1736 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–1 || {{Flagicon|Deschon}} Deschon || align="left" | Estadio Drenhuz, Drenhuz
+|-
+| align="left" | 8 June 1736 || align="right" | '''United Delet''' {{Flagicon|United Delet}} || 2–1 || {{Flagicon|Deschon}} Deschon || align="left" | Estadio Beckel, Beckel
+|-
+| align="left" | 9 June 1736 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–1 || {{Flagicon|Oyreain}} Oyreain || align="left" | Estadio Suebi, Beckel
+|}
+
+===Group C===
+{| class="wikitable" style="text-align: center;"
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Taval}} '''[[Taval]]''' || 3 || 3 || 0 || 0 || 7 || 4 || +3 || 9 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 1 || 1 || 1 || 6 || 6 || 0 || 4
+|- style="background:#ffffcc;"
+| 3 || align="left" | {{Flagicon|Ohtina}} '''[[Ohtina]]''' || 3 || 1 || 1 || 1 || 3 || 3 || 0 || 4 || Advance as third-placed team
+|-
+| 4 || align="left" | {{Flagicon|Sivoso}} [[Sivoso]] || 3 || 0 || 0 || 3 || 5 || 8 || −3 || 0 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 31 May 1736 || align="right" | Easuhura {{Flagicon|Easuhura}} || 2–3 || {{Flagicon|Taval}} '''Taval''' || align="left" | Estadio Valkirseh, Valkirseh
+|-
+| align="left" | 1 June 1736 || align="right" | '''Ohtina''' {{Flagicon|Ohtina}} || 2–1 || {{Flagicon|Sivoso}} Sivoso || align="left" | Estadio Gulshen, Gulshen
+|-
+| align="left" | 4 June 1736 || align="right" | Easuhura {{Flagicon|Easuhura}} || 1–1 || {{Flagicon|Ohtina}} Ohtina || align="left" | Estadio Valkirseh, Valkirseh
+|-
+| align="left" | 5 June 1736 || align="right" | '''Taval''' {{Flagicon|Taval}} || 3–2 || {{Flagicon|Sivoso}} Sivoso || align="left" | Estadio Gulshen, Gulshen
+|-
+| align="left" | 9 June 1736 || align="right" | '''Taval''' {{Flagicon|Taval}} || 1–0 || {{Flagicon|Ohtina}} Ohtina || align="left" | Estadio Valkirseh, Valkirseh
+|-
+| align="left" | 10 June 1736 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 3–2 || {{Flagicon|Sivoso}} Sivoso || align="left" | Estadio Gulshen, Gulshen
+|}
+
+===Group D===
+{| class="wikitable" style="text-align: center;"
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 3 || 0 || 0 || 8 || 1 || +7 || 9 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Ealdorii}} '''[[Ealdorii]]''' || 3 || 1 || 1 || 1 || 1 || 1 || 0 || 4
+|-
+| 3 || align="left" | {{Flagicon|Otiiric}} [[Otiiric]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
+|-
+| 4 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || 3 || 0 || 1 || 2 || 1 || 7 || −6 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 1 June 1736 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 1–0 || {{Flagicon|Ealdorii}} Ealdorii || align="left" | Estadio Walfrei, Walfrei
+|-
+| align="left" | 2 June 1736 || align="right" | Pelines {{Flagicon|Pelines}} || 1–1 || {{Flagicon|Otiiric}} Otiiric || align="left" | Estadio Jentori, Jentori
+|-
+| align="left" | 5 June 1736 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 5–0 || {{Flagicon|Pelines}} Pelines || align="left" | Estadio Walfrei, Walfrei
+|-
+| align="left" | 6 June 1736 || align="right" | '''Ealdorii''' {{Flagicon|Ealdorii}} || 1–0 || {{Flagicon|Pelines}} Pelines || align="left" | Estadio Jentori, Jentori
+|-
+| align="left" | 10 June 1736 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Otiiric}} Otiiric || align="left" | Estadio Walfrei, Walfrei
+|-
+| align="left" | 11 June 1736 || align="right" | Ealdorii {{Flagicon|Ealdorii}} || 0–0 || {{Flagicon|Otiiric}} Otiiric || align="left" | Estadio Jentori, Jentori
+|}
+
+===Group E===
+{| class="wikitable" style="text-align: center;"
+|+ Group E standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Wundry}} '''[[Wundry]]''' || 3 || 2 || 0 || 1 || 8 || 7 || +1 || 6 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 0 || 1 || 7 || 6 || +1 || 6
+|- style="background:#ffffcc;"
+| 3 || align="left" | {{Flagicon|Dahe}} '''[[Dahe]]''' || 3 || 1 || 1 || 1 || 7 || 7 || 0 || 4 || Advance as third-placed team
+|-
+| 4 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 1 || 2 || 3 || 5 || −2 || 1 ||
+|}
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group E matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 1 June 1736 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 4–3 || {{Flagicon|Dahe}} Dahe || align="left" | Estadio Murenbau, Murenbau
+|-
+| align="left" | 2 June 1736 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 3–2 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Estadio Drenhuz, Drenhuz
+|-
+| align="left" | 5 June 1736 || align="right" | Lycroa {{Flagicon|Lycroa}} || 2–3 || {{Flagicon|Wundry}} '''Wundry''' || align="left" | Estadio Murenbau, Murenbau
+|-
+| align="left" | 6 June 1736 || align="right" | Dahe {{Flagicon|Dahe}} || 1–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Estadio Drenhuz, Drenhuz
+|-
+| align="left" | 10 June 1736 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 1–0 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Estadio Murenbau, Murenbau
+|-
+| align="left" | 11 June 1736 || align="right" | '''Dahe''' {{Flagicon|Dahe}} || 3–2 || {{Flagicon|Wundry}} Wundry || align="left" | Estadio Drenhuz, Drenhuz
+|}
+
+===Group F===
+{| class="wikitable" style="text-align: center;"
+|+ Group F standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Quidic}} '''[[Quidic]]''' || 3 || 2 || 0 || 1 || 7 || 6 || +1 || 6 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 0 || 1 || 5 || 4 || +1 || 6
+|- style="background:#ffffcc;"
+| 3 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 2 || 0 || 1 || 5 || 4 || +1 || 6 || Advance as third-placed team
+|-
+| 4 || align="left" | {{Flagicon|North Ayre}} [[North Ayre]] || 3 || 0 || 0 || 3 || 3 || 6 || −3 || 0 ||
+|}
+''All three advancing teams finished level on six points and one goal difference; separation by head-to-head record.''
+
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group F matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 31 May 1736 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 4–3 || {{Flagicon|Praesyu}} Praesyu || align="left" | Estadio Foulang, Foulang
+|-
+| align="left" | 1 June 1736 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 3–2 || {{Flagicon|North Ayre}} North Ayre || align="left" | Estadio Gulshen, Gulshen
+|-
+| align="left" | 4 June 1736 || align="right" | Quidic {{Flagicon|Quidic}} || 1–2 || {{Flagicon|Merela Sta}} '''Merela Sta''' || align="left" | Estadio Foulang, Foulang
+|-
+| align="left" | 5 June 1736 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 1–0 || {{Flagicon|North Ayre}} North Ayre || align="left" | Estadio Jentori, Jentori
+|-
+| align="left" | 9 June 1736 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 1–0 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Estadio Foulang, Foulang
+|-
+| align="left" | 10 June 1736 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 2–1 || {{Flagicon|North Ayre}} North Ayre || align="left" | Estadio Jentori, Jentori
+|}
+
+===Ranking of third-placed teams===
+
+The four best of the six third-placed sides were ranked across all groups by points, goal difference and goals scored, and joined the twelve group winners and runners-up in the round of sixteen. The four sides advancing were [[Merela Sta]] (Group F), [[Anymna]] (Group A), [[Dahe]] (Group E) and [[Ohtina]] (Group C); the remaining two third-placed sides, [[Deschon]] (Group B) and [[Otiiric]] (Group D), were eliminated.
+
+{| class="wikitable" style="text-align: center;"
+|+ Ranking of third-placed teams
+! Pos !! Group !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ffffcc;"
+| 1 || F || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || 3 || 2 || 0 || 1 || 5 || 4 || +1 || 6 || rowspan="4" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ffffcc;"
+| 2 || A || align="left" | {{Flagicon|Anymna}} [[Anymna]] || 3 || 1 || 2 || 0 || 1 || 0 || +1 || 5
+|- style="background:#ffffcc;"
+| 3 || E || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 1 || 1 || 1 || 7 || 7 || 0 || 4
+|- style="background:#ffffcc;"
+| 4 || C || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || 3 || 1 || 1 || 1 || 3 || 3 || 0 || 4
+|-
+| 5 || B || align="left" | {{Flagicon|Deschon}} [[Deschon]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 || rowspan="2" | Eliminated
+|-
+| 6 || D || align="left" | {{Flagicon|Otiiric}} [[Otiiric]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2
+|}
+
+===Notable upsets===
+
+The 1736 group stage produced one shock result of lasting significance: the 3–2 victory for the [[QUFVL]] qualifier [[Wundry]] over the defending champions [[Lycroa]] at the Estadio Murenbau on 5 June, recorded across a pre-tournament FLLA-ranking gap of 160 points. Two goals from the 19-year-old [[Wundry|Wundric]] winger Petren Toranki, both inside the opening half-hour, gave [[Wundry]] a 2–0 lead which the defending champions reduced through a 41st-minute strike from Cario Velarzo and a 73rd-minute equaliser from forward Galari Mestrei; Toranki's third strike, an 81st-minute counter-attack finish from a deflected [[Lycroa|Lycroan]] free kick, settled the result. The defeat was the first time [[Lycroa]] had lost an FLLA World Cup group-stage fixture since the [[1720 FLLA World Cup|1720 edition]] and was described in the FLLA's 1737 review as the most significant upset by ranking margin in the FLLA World Cup since the [[1716 FLLA World Cup|1716 reassignment]] of hosting rights.
+
+==Knockout stage==
+
+The knockout stage involved the sixteen teams that advanced from the group stage. Matches still level after 90 minutes were extended by a 30-minute period of [[wikipedia:Extra time|extra time]]; if scores remained tied after extra time, the tie was decided by [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]]. Two of the eight round-of-sixteen ties required additional time or a penalty shoot-out, two of the four quarter-finals required additional time, one of the two semi-finals was decided on penalties, and the [[#Third place playoff|third-place playoff]] was itself decided on penalties; the [[#Final|final]] was decided in normal time despite the 36-minute floodlight stoppage in the 53rd minute. The cumulative goal total of 28 across the sixteen knockout matches reflected the defensive character of the tournament as a whole.<ref>{{cite web|url=https://www.flla.org/1736/knockout-summary|title=1736 FLLA World Cup knockout stage: results summary|publisher=[[FLLA]]|date=29 June 1736}}</ref>
+
+===Bracket===
+{{Round16|widescore=yes
+|RD1=[[#Round of 16|Round of 16]]
+|RD2=[[#Quarter-finals|Quarter-finals]]
+|RD3=[[#Semi-finals|Semi-finals]]
+|RD4=[[#Final|Final]]
+|Consol=[[#Third place playoff|Third-place playoff]]
+<!--Date-Place/Team 1/Score 1/Team 2/Score 2 -->
+<!-- round of 16 -->
+|14 June – [[Huifarn]]|'''{{Flagicon|Verusa}} [[Verusa]]'''|'''2'''|{{Flagicon|Dahe}} [[Dahe]]|1
+|14 June – [[Beckel]]|'''{{Flagicon|Siana}} [[Siana]]'''|'''2'''|{{Flagicon|Praesyu}} [[Praesyu]]|0
+|15 June – [[Huifarn]]|'''{{Flagicon|Ohtina}} [[Ohtina]]'''|'''2'''|{{Flagicon|United Delet}} [[United Delet]]|1
+|15 June – [[Huifarn]]|'''{{Flagicon|Easuhura}} [[Easuhura]]'''|'''3'''|{{Flagicon|Lycroa}} [[Lycroa]]|0
+|16 June – [[Drenhuz]]|'''{{Flagicon|Anymna}} [[Anymna]]'''|'''3'''|{{Flagicon|Taval}} [[Taval]]|2
+|16 June – [[Valkirseh]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''1'''|{{Flagicon|Merela Sta}} [[Merela Sta]]|0
+|17 June – [[Foulang]]|'''{{Flagicon|Etirha}} [[Etirha]]'''|'''4'''|{{Flagicon|Wundry}} [[Wundry]]|2
+|17 June – [[Murenbau]]|'''{{Flagicon|Ealdorii}} [[Ealdorii]]''' (p)|'''1 (4)'''|{{Flagicon|Quidic}} [[Quidic]]|1 (3)
+<!-- quarter-finals -->
+|21 June – [[Huifarn]]|'''{{Flagicon|Verusa}} [[Verusa]]''' (a.e.t.)|'''2'''|{{Flagicon|Siana}} [[Siana]]|1
+|21 June – [[Drenhuz]]|'''{{Flagicon|Easuhura}} [[Easuhura]]'''|'''3'''|{{Flagicon|Ohtina}} [[Ohtina]]|2
+|22 June – [[Valkirseh]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''2'''|{{Flagicon|Anymna}} [[Anymna]]|1
+|22 June – [[Beckel]]|'''{{Flagicon|Etirha}} [[Etirha]]''' (a.e.t.)|'''1'''|{{Flagicon|Ealdorii}} [[Ealdorii]]|0
+<!-- semi-finals -->
+|25 June – [[Huifarn]]|'''{{Flagicon|Verusa}} [[Verusa]]''' (p)|'''0 (4)'''|{{Flagicon|Easuhura}} [[Easuhura]]|0 (3)
+|25 June – [[Beckel]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''1'''|{{Flagicon|Etirha}} [[Etirha]]|0
+<!-- final -->
+|28 June – [[Huifarn]]|'''{{Flagicon|Raledria}} [[Raledria]]'''|'''3'''|{{Flagicon|Verusa}} [[Verusa]]|1
+<!-- match for third place -->
+|27 June – [[Drenhuz]]|'''{{Flagicon|Easuhura}} [[Easuhura]]''' (p)|'''1 (5)'''|{{Flagicon|Etirha}} [[Etirha]]|1 (4)
+}}
+
+===Round of 16===
+
+The six group winners and six group runners-up were joined by the four highest-ranked third-placed sides at the round of 16; under the procedure approved by the FLLA Organising Committee in advance of the draw, no group winner was paired with a runner-up or third-placed side from its own group, and seeded match-ups attempted to maintain a balance of confederations across the bracket. One of the eight ties required additional time, a second was decided on penalties after extra time, and four further ties were settled by margins of a single goal. The highest-scoring fixture of the round was [[Etirha]] 4–2 [[Wundry]] at the Estadio Foulang, in which the [[Etirha|Etirhan]] captain Ronnur Kelva scored two goals to settle a contest that the [[Wundry|Wundric]] winger Petren Toranki had levelled at 2–2 with twenty minutes to play.
+
+{{Football box
+| date = {{Start date|1736|6|14|df=y}}
+| time = 17:00 SVT
+| team1 = [[Verusa]] {{Flagicon|Verusa}}
+| score = 2–1
+| team2 = {{Flagicon|Dahe}} [[Dahe]]
+| goals1 = Lannvert {{Goal|29}}<br/>Mokshlein {{Goal|71}}
+| goals2 = Soldan {{Goal|54}}
+| stadium = Estadio Vulime, [[Huifarn]]
+| attendance = 78,400
+| referee = Marin Vassalo ([[Ohtina]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|14|df=y}}
+| time = 21:00 SVT
+| team1 = [[Siana]] {{Flagicon|Siana}}
+| score = 2–0
+| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
+| goals1 = Halver {{Goal|33|68}}
+| goals2 =
+| stadium = Estadio Beckel, [[Beckel]]
+| attendance = 58,200
+| referee = Daichi Mori ([[Sunsokua]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|15|df=y}}
+| time = 17:00 SVT
+| team1 = [[Ohtina]] {{Flagicon|Ohtina}}
+| score = 2–1
+| team2 = {{Flagicon|United Delet}} [[United Delet]]
+| goals1 = Ranov {{Goal|22}}<br/>Pelan {{Goal|59}}
+| goals2 = Brunscar {{Goal|74}}
+| stadium = Estadio Pyesion, [[Huifarn]]
+| attendance = 52,800
+| referee = Liwen Tahnari ([[Inania]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|15|df=y}}
+| time = 21:00 SVT
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 3–0
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Erith {{Goal|14}}<br/>Yaxri {{Goal|41|66}}
+| goals2 =
+| stadium = Estadio Mitre, [[Huifarn]]
+| attendance = 41,500
+| referee = Vekram Olansi ([[Acetoa]] support pair)
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|16|df=y}}
+| time = 17:00 SVT
+| team1 = [[Anymna]] {{Flagicon|Anymna}}
+| score = 3–2
+| team2 = {{Flagicon|Taval}} [[Taval]]
+| goals1 = Olstai {{Goal|18|82}}<br/>Hresan {{Goal|54}}
+| goals2 = Marhan {{Goal|36}}<br/>Soldai {{Goal|71}}
+| stadium = Estadio Drenhuz, [[Drenhuz]]
+| attendance = 49,800
+| referee = Tomáš Novák ([[Otiiric]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|16|df=y}}
+| time = 21:00 SVT
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 1–0
+| team2 = {{Flagicon|Merela Sta}} [[Merela Sta]]
+| goals1 = Sundas {{Goal|44}}
+| goals2 =
+| stadium = Estadio Valkirseh, [[Valkirseh]]
+| attendance = 46,300
+| referee = Min-Jun Kao ([[Ashain]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|17|df=y}}
+| time = 17:00 SVT
+| team1 = [[Etirha]] {{Flagicon|Etirha}}
+| score = 4–2
+| team2 = {{Flagicon|Wundry}} [[Wundry]]
+| goals1 = Kelva {{Goal|12|73}}<br/>Brask {{Goal|34}}<br/>Halver {{Goal|81}}
+| goals2 = Toranki {{Goal|29|62}}
+| stadium = Estadio Foulang, [[Foulang]]
+| attendance = 43,200
+| referee = Kwame Obeng ([[Viussi]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|17|df=y}}
+| time = 21:00 SVT
+| team1 = [[Ealdorii]] {{Flagicon|Ealdorii}}
+| score = 1–1 {{Aet}}
+| team2 = {{Flagicon|Quidic}} [[Quidic]]
+| goals1 = Hkulan {{Goal|62}}
+| goals2 = Veshani {{Goal|31}}
+| penalties1 = Hkulan {{Pengoal}}<br/>Vornsai {{Pengoal}}<br/>{{Penmiss}} Olarn<br/>Brimar {{Pengoal}}<br/>Tarvil {{Pengoal}}
+| penaltyscore = 4–3
+| penalties2 = Veshani {{Pengoal}}<br/>Lieth {{Pengoal}}<br/>Karnen {{Pengoal}}<br/>{{Penmiss}} Ardrein<br/>{{Penmiss}} Vekiri
+| stadium = Estadio Murenbau, [[Murenbau]]
+| attendance = 40,100
+| referee = Aakash Sharma ([[Dahe]] support pair)
+}}
+
+===Quarter-finals===
+
+The four quarter-finals produced two ties decided in normal time and two in extra time. The hosts [[Verusa]] beat [[Siana]] 2–1 at the Estadio Vulime through a 109th-minute winner by central defender Friedrik Lannvert that gave [[Verusa]] a place in the semi-finals. [[Easuhura]] beat [[Ohtina]] 3–2 at the Estadio Drenhuz in the tournament's joint-highest-scoring knockout fixture, with [[Easuhura|Easuhuran]] forward Aldermin Yaxri scoring twice. [[Raledria]] beat [[Anymna]] 2–1 at the Estadio Valkirseh, the only quarter-final of the round to be decided inside 90 minutes by a single goal; [[Raledria|Raledrian]] forward Aurelian Sundas scored his fourth and fifth tournament goals across the match. [[Etirha]] beat [[Ealdorii]] 1–0 at the Estadio Beckel through a single goal by Niall Brask in the 113th minute of extra time, with [[Ealdorii]] reduced to ten men after the 89th-minute dismissal of central midfielder Vornsai for a second bookable offence.
+
+{{Football box
+| date = {{Start date|1736|6|21|df=y}}
+| time = 17:00 SVT
+| team1 = [[Verusa]] {{Flagicon|Verusa}}
+| score = 2–1 {{Aet}}
+| team2 = {{Flagicon|Siana}} [[Siana]]
+| goals1 = Mokshlein {{Goal|41}}<br/>Lannvert {{Goal|109}}
+| goals2 = Halver {{Goal|66}}
+| stadium = Estadio Vulime, [[Huifarn]]
+| attendance = 79,800
+| referee = Sanjar Petrok ([[Wundry]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|21|df=y}}
+| time = 21:00 SVT
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 3–2
+| team2 = {{Flagicon|Ohtina}} [[Ohtina]]
+| goals1 = Yaxri {{Goal|22|78}}<br/>Erith {{Goal|54}}
+| goals2 = Ranov {{Goal|36}}<br/>Pelan {{Goal|81}}
+| stadium = Estadio Drenhuz, [[Drenhuz]]
+| attendance = 51,300
+| referee = Daichi Mori ([[Sunsokua]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|22|df=y}}
+| time = 17:00 SVT
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 2–1
+| team2 = {{Flagicon|Anymna}} [[Anymna]]
+| goals1 = Sundas {{Goal|31|67}}
+| goals2 = Hresan {{Goal|52}}
+| stadium = Estadio Valkirseh, [[Valkirseh]]
+| attendance = 47,200
+| referee = Liwen Tahnari ([[Inania]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|22|df=y}}
+| time = 21:00 SVT
+| team1 = [[Etirha]] {{Flagicon|Etirha}}
+| score = 1–0 {{Aet}}
+| team2 = {{Flagicon|Ealdorii}} [[Ealdorii]]
+| goals1 = Brask {{Goal|113}}
+| goals2 =
+| stadium = Estadio Beckel, [[Beckel]]
+| attendance = 60,400
+| referee = Tomáš Novák ([[Otiiric]])
+}}
+
+===Semi-finals===
+
+The first semi-final at the Estadio Pyesion produced one of the longest goalless ties in the knockout history of the competition: the hosts [[Verusa]] and [[Easuhura]] played out a 0–0 draw across normal time and extra time, with both sides defending in compact mid-block shapes and producing only four combined shots on target across 120 minutes of play. The tie was decided by a penalty shoot-out, in which [[Verusa]] prevailed 4–3 after [[Easuhura|Easuhuran]] right-back Aldermin Yaxri saw his fifth kick saved low to the right by Verusan goalkeeper Reinmar Brashen. The win gave [[Verusa]] their first FLLA World Cup final appearance since the [[1724 FLLA World Cup|1724 edition]] in [[Areoix Lie]], at which the [[Verusa|Verusan]] champions had defeated [[Easuhura]] 3–1 in the final to claim the first of their two FLLA World Cup titles.
+
+The second semi-final at the Estadio Beckel was decided inside 90 minutes by a single goal: [[Raledria]] beat [[Etirha]] 1–0 through a 58th-minute strike from forward Aurelian Sundas, his sixth and final goal of the tournament, after a low through-ball from captain Marek Vetrai. The result eliminated [[Etirha]], who had topped the [[ATFVL]] qualifying octagonal alongside [[Raledria]], one round before the final and gave [[Raledria]] their first FLLA World Cup final appearance since the [[1716 FLLA World Cup|1716 edition]] in [[Easuhura]].
+
+{{Football box
+| date = {{Start date|1736|6|25|df=y}}
+| time = 17:00 SVT
+| team1 = [[Verusa]] {{Flagicon|Verusa}}
+| score = 0–0 {{Aet}}
+| team2 = {{Flagicon|Easuhura}} [[Easuhura]]
+| goals1 =
+| goals2 =
+| penalties1 = Hochstein {{Pengoal}}<br/>Lannvert {{Pengoal}}<br/>Vergonai {{Pengoal}}<br/>{{Penmiss}} Mokshlein<br/>Brashen {{Pengoal}}
+| penaltyscore = 4–3
+| penalties2 = Erith {{Pengoal}}<br/>Galuran {{Pengoal}}<br/>Yaxri {{Pengoal}}<br/>{{Penmiss}} Olen<br/>{{Penmiss}} Halmir
+| stadium = Estadio Pyesion, [[Huifarn]]
+| attendance = 54,300
+| referee = Nuri Olark ([[Wundry]])
+}}
+----
+{{Football box
+| date = {{Start date|1736|6|25|df=y}}
+| time = 21:00 SVT
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 1–0
+| team2 = {{Flagicon|Etirha}} [[Etirha]]
+| goals1 = Sundas {{Goal|58}}
+| goals2 =
+| stadium = Estadio Beckel, [[Beckel]]
+| attendance = 61,200
+| referee = Lecho Korbel ([[Dual Cenryia]])
+}}
+
+===Third place playoff===
+
+The third-place playoff was contested between the two losing semi-finalists at the Estadio Drenhuz on 27 June. [[Easuhura]] beat [[Etirha]] 5–4 on penalties after a 1–1 draw across normal and extra time, with [[Easuhura|Easuhuran]] forward Aldermin Yaxri scoring his fifth goal of the tournament after 23 minutes and [[Etirha|Etirhan]] forward Niall Brask equalising in the 71st minute. Brask struck the [[Etirha|Etirhan]] post with the fifth kick of the shoot-out, by which point [[Easuhura]] held a 5–4 advantage; the result gave [[Easuhura]] their highest finish at an FLLA World Cup since the [[1712 FLLA World Cup|1712 edition]] at which they had been runners-up to [[Raledria]].
+
+{{Football box
+| date = {{Start date|1736|6|27|df=y}}
+| time = 19:00 SVT
+| team1 = [[Easuhura]] {{Flagicon|Easuhura}}
+| score = 1–1 {{Aet}}
+| team2 = {{Flagicon|Etirha}} [[Etirha]]
+| goals1 = Yaxri {{Goal|23}}
+| goals2 = Brask {{Goal|71}}
+| penalties1 = Yaxri {{Pengoal}}<br/>Erith {{Pengoal}}<br/>Galuran {{Pengoal}}<br/>Halmir {{Pengoal}}<br/>Olen {{Pengoal}}
+| penaltyscore = 5–4
+| penalties2 = Kelva {{Pengoal}}<br/>Halver {{Pengoal}}<br/>Karne {{Pengoal}}<br/>Vellaroth {{Pengoal}}<br/>{{Penmiss}} Brask
+| stadium = Estadio Drenhuz, [[Drenhuz]]
+| attendance = 50,800
+| referee = Erik Halvorsen ([[Dual Cenryia]])
+}}
+
+===Final===
+{{Main|1736 FLLA World Cup final}}
+
+The final was contested between the hosts [[Verusa]] and the Group D winners [[Raledria]] on 28 June 1736 at the Estadio Vulime in [[Huifarn]] in front of an attendance of 80,000, the highest single-match attendance at any FLLA World Cup match to that date. [[Verusa]] entered the match having scored six goals across their six previous fixtures and conceded only two; [[Raledria]] had reached the final having scored fourteen goals across the same number of matches, including [[Raledria|Raledrian]] forward Aurelian Sundas's six personal strikes across the seven matches of the campaign.
+
+The opening period was cautious. [[Raledria]] took an early lead through Aurelian Sundas in the 8th minute, the forward picking up a low cross from right-winger Daro Karreva at the near post and finishing under [[Verusa|Verusan]] goalkeeper Reinmar Brashen for his seventh goal of the tournament. [[Verusa]] equalised in the 31st minute through a header from central defender and captain Friedrik Lannvert from a corner taken by left-back Werner Mokshlein, his second goal of the tournament. The remainder of the first half produced only two further shots on target between the sides, with the half-time score 1–1.
+
+The second half opened in fading natural light, with kick-off at 20:00 Standard Verusan Time pushing the final period of normal time into the gathering Huifarn dusk. In the 53rd minute, with the score at 1–1 and the visitors enjoying a marginal territorial advantage in the [[Verusa|Verusan]] half, the floodlighting system at the Estadio Vulime failed without warning, plunging the playing surface into near-total darkness and forcing the match referee Edrick Yulin to suspend play immediately. The cause, later attributed to a fault in the secondary transformer that fed the southern bank of the venue's six floodlight pylons, took the [[Huifarn]] city engineering corps thirty-six minutes to remedy. During the stoppage the players of both sides were instructed to return to their dressing rooms; the [[Raledria|Raledrian]] head coach Tovric Calderan subsequently described the suspension as "the strangest interval of football I have ever known", while the [[Verusa|Verusan]] head coach Adrian Hochstein declined to be drawn on the question of whether the stoppage had broken his side's rhythm.<ref name="flla-final-report" /> When play resumed at 21:24 Standard Verusan Time the visitors pressed the advantage immediately. [[Raledria]] retook the lead in the 64th minute through a low driven finish from Aurelian Sundas at the end of a counter-attack, the forward beating Brashen at the near post for his eighth goal of the tournament; the third goal followed in the 79th minute through a long-range strike from captain Marek Vetrai that sealed the result. The hosts were unable to fashion a response in the remaining minutes; the final score of 3–1 gave [[Raledria]] their fourth FLLA World Cup title, equalling at the time the all-tournament record held jointly by [[Lycroa]].<ref name="flla-final-report" /><ref>{{cite web|url=https://www.vrb.ve/sport/1736/final|title=Raledria win fourth world title under restored Huifarn floodlights|publisher=Verusan Radio Broadcasting|date=28 June 1736}}</ref>
+
+[[Verusa]] became the first nation in the history of the FLLA World Cup to reach a final on home soil without lifting the trophy, a distinction the Verusan Arraby Federation referred to in its post-event review of August 1736 as the "shadow of Huifarn" and which has been retained by [[Verusa]] alone for every subsequent edition: of the seven editions held since 1736 in which the host nation has reached the final, [[Verusa]] remains the only host losing finalist. The 36-minute floodlight stoppage remains the longest in-match suspension of play in the history of any FLLA World Cup final and was cited in the FLLA Tactical Review Committee's first report at the [[1744 FLLA World Cup|1744 edition]] as the principal precedent for the standardised stadium-readiness inspection regime that the Committee proposed and the FLLA Council subsequently adopted in 1745.
+
+{{Football box
+| date = {{Start date|1736|6|28|df=y}}
+| time = 20:00 SVT
+| team1 = [[Raledria]] {{Flagicon|Raledria}}
+| score = 3–1
+| team2 = {{Flagicon|Verusa}} [[Verusa]]
+| goals1 = Sundas {{Goal|8|64}}<br/>Vetrai {{Goal|79}}
+| goals2 = Lannvert {{Goal|31}}
+| stadium = Estadio Vulime, [[Huifarn]]
+| attendance = 80,000
+| referee = Edrick Yulin ([[Otiiric]])
+}}
+
+''Note: play was suspended for thirty-six minutes from the 53rd minute following the failure of the venue floodlighting system.''
+
+==Statistics==
+
+===Goalscoring===
+
+[[Raledria]] finished as the tournament's leading goalscoring nation with 15 goals across seven matches, ahead of [[Easuhura]] (13 in seven), [[Wundry]] (10 in four) and [[Taval]] (9 in four). The overall goal-per-match average of 2.69 across 52 matches was, at the time, the lowest at any FLLA World Cup since the [[1720 FLLA World Cup|1720 edition]] and was cited prominently in the FLLA Secretariat's 1737 review as evidence of the increasingly defensive tactical orientation of the leading sides. The 1737 review's findings led directly to the FLLA Council's decision in April 1737 to expand the finals tournament to thirty-two teams from the [[1740 FLLA World Cup|1740 edition]] onwards, with the explicit policy objective of broadening the technical diversity of the field.<ref>{{cite web|url=https://www.flla.org/1737/secretariat-review|title=Report of the FLLA Secretariat on the 1736 FLLA World Cup|publisher=[[FLLA]]|date=14 April 1737}}</ref>
+
+The table below lists the ten leading goalscoring nations of the tournament.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Leading goalscoring nations
+! Rank !! Team !! Goals !! Matches !! FLLA ranking
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 15 || 7 || 1
+|-
+| 2 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 13 || 7 || 5
+|-
+| 3 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 10 || 4 || 33
+|-
+| 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 9 || 4 || 16
+|-
+| 5 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || 8 || 6 || 10
+|-
+| 5 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 8 || 4 || 14
+|-
+| 5 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 8 || 4 || 9
+|-
+| 8 || align="left" | {{Flagicon|Verusa}} [[Verusa]] ''(H)'' || 7 || 7 || 4
+|-
+| 8 || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || 7 || 5 || 27
+|-
+| 8 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 7 || 4 || 3
+|}
+
+===Top individual scorers===
+
+The tournament produced no formal individual goalscorer's award. The competition's modern top-scorer prize, the [[FLLA Marskval]], was not adopted in its current form until the [[1744 FLLA World Cup|1744 edition]]; at the 1736 tournament the FLLA's Goalscoring Secretariat published a leading-scorer table at the conclusion of the competition without a formal trophy or presentation. The 1736 leading scorer was [[Raledria|Raledrian]] forward Aurelian Sundas with six personal strikes across his country's seven matches, including the opening goal and the second goal of the [[#Final|final]] itself.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Top individual goalscorers
+! Rank !! Player !! Team !! Goals
+|-
+| 1 || align="left" | Aurelian Sundas || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 6
+|-
+| 2 || align="left" | Aldermin Yaxri || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 5
+|-
+| 2 || align="left" | Petren Toranki || align="left" | {{Flagicon|Wundry}} [[Wundry]] || 5
+|-
+| 4 || align="left" | Niall Brask || align="left" | {{Flagicon|Etirha}} [[Etirha]] || 4
+|-
+| 4 || align="left" | Maharan Soldai || align="left" | {{Flagicon|Taval}} [[Taval]] || 4
+|-
+| 6 || align="left" | Galuran Erith || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 3
+|-
+| 6 || align="left" | Daron Veshani || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3
+|-
+| 6 || align="left" | Tovan Ranov || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || 3
+|-
+| 6 || align="left" | Marek Vetrai || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 3
+|-
+| 6 || align="left" | Friedrik Lannvert || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3
+|}
+
+===Discipline===
+
+The FLLA Disciplinary Committee issued a total of 141 yellow cards and 7 red cards across the 52 matches of the tournament, an average of 2.71 yellows and 0.13 reds per match. The most-cautioned team was [[Wundry]], with 12 yellow cards and 1 red across their four matches; [[Otiiric]] received the fewest among the participating teams, with one yellow and no reds across their three group-stage matches. Two players received red cards in the knockout stage: [[Ealdorii|Ealdorian]] central midfielder Vornsai in the 89th minute of the [[#Quarter-finals|quarter-final]] against [[Etirha]] at the Estadio Beckel for a second bookable offence, and [[Sivoso|Sivosan]] central defender Aral Mochia in the 78th minute of the Group C fixture against [[Easuhura]] at the Estadio Gulshen for serious foul play.<ref>{{cite web|url=https://www.flla.org/discipline/1736-summary|title=FLLA Disciplinary Committee report on the 1736 FLLA World Cup|publisher=[[FLLA]]|date=10 August 1736}}</ref>
+
+==Awards==
+
+The 1736 FLLA World Cup did not formally award any of the individual prizes that are now associated with the modern competition. The current top-scorer award (the [[FLLA Marskval]]) and best-goalkeeper award (the [[FLLA Bastion]]) were both adopted in their present form only at the [[1744 FLLA World Cup|1744 edition]]; the Best Young Player Award was introduced at the [[1752 FLLA World Cup|1752 edition]]; and the FLLA Fair Play Trophy was introduced at the [[1756 FLLA World Cup|1756 edition]]. The FLLA's Goalscoring Secretariat published an unofficial leading-scorer table at the conclusion of the 1736 tournament, and a small panel of seven sports journalists drawn from each of the seven confederations published an unofficial best-player citation, but neither was accompanied by a formal trophy or a presentation at the closing ceremony.
+
+The unofficial best-player citation, published on 5 July 1736 by a panel led by the [[Lycroa|Lycroan]] sports journalist Olari Cetraz, was awarded to [[Raledria|Raledrian]] captain and central midfielder Marek Vetrai, who anchored the [[Raledria|Raledrian]] midfield across all seven matches of his country's run to the title and scored the third [[Raledria|Raledrian]] goal of the [[#Final|final]]. The unofficial leading-scorer citation, published the same day by the FLLA Goalscoring Secretariat, was awarded to [[Raledria|Raledrian]] forward Aurelian Sundas with six personal strikes. Both citations were retrospectively recognised by the FLLA in 1745 as the predecessors of the modern [[FLLA Vairan Ball]] and [[FLLA Marskval]] awards but neither holder is listed among the formal winners of either prize.<ref>{{cite web|url=https://www.flla.org/1745/awards-historical-recognition|title=Historical recognition of pre-1744 best-player and leading-scorer citations|publisher=[[FLLA]]|date=22 February 1745}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ 1736 tournament citations (unofficial)
+! Citation !! Recipient !! Notes
+|-
+| Best-player citation (precursor to the [[FLLA Vairan Ball]]) || align="left" | {{Flagicon|Raledria}} Marek Vetrai ([[Raledria]]) || captain; central midfielder
+|-
+| Leading-scorer citation (precursor to the [[FLLA Marskval]]) || align="left" | {{Flagicon|Raledria}} Aurelian Sundas ([[Raledria]]) || 6 goals
+|-
+| Leading goalscoring nation || align="left" | {{Flagicon|Raledria}} [[Raledria]] || 15 goals
+|}
+
+==Final standings==
+
+Final standings of the 24 participating teams at the 1736 FLLA World Cup, as published by the [[FLLA]] on 28 July 1736.<ref>{{cite web|url=https://www.flla.org/1736/final-standings|title=Final standings of the 1736 FLLA World Cup|publisher=[[FLLA]]|date=28 July 1736}}</ref> The top four positions are determined by the results of the [[#Knockout stage|knockout stage]]; teams eliminated at the same stage are ranked by their record across the tournament as a whole.
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Final standings
+! Pos !! Team !! Confederation !! Stage reached
+|-
+| 1 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || [[ATFVL]] || align="left" | Champions
+|-
+| 2 || align="left" | {{Flagicon|Verusa}} [[Verusa]] ''(H)'' || [[AYFVL]] || align="left" | Runners-up
+|-
+| 3 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || [[AYFVL]] || align="left" | Third place
+|-
+| 4 || align="left" | {{Flagicon|Etirha}} [[Etirha]] || [[ATFVL]] || align="left" | Fourth place
+|-
+| 5 || align="left" | {{Flagicon|Siana}} [[Siana]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 6 || align="left" | {{Flagicon|Anymna}} [[Anymna]] || [[QUFVL]] || align="left" | Quarter-finals
+|-
+| 7 || align="left" | {{Flagicon|Ohtina}} [[Ohtina]] || [[NAFVL]] || align="left" | Quarter-finals
+|-
+| 8 || align="left" | {{Flagicon|Ealdorii}} [[Ealdorii]] || [[AYFVL]] || align="left" | Quarter-finals
+|-
+| 9 || align="left" | {{Flagicon|Taval}} [[Taval]] || [[MSFVL]] || align="left" | Round of 16
+|-
+| 10 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || [[NAFVL]] || align="left" | Round of 16
+|-
+| 11 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || [[QUFVL]] || align="left" | Round of 16
+|-
+| 12 || align="left" | {{Flagicon|Wundry}} [[Wundry]] || [[QUFVL]] || align="left" | Round of 16
+|-
+| 13 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || [[AYFVL]] || align="left" | Round of 16
+|-
+| 14 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || [[AYFVL]] || align="left" | Round of 16
+|-
+| 15 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || [[MSFVL]] || align="left" | Round of 16
+|-
+| 16 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || [[AYFVL]] || align="left" | Round of 16
+|-
+| 17 || align="left" | {{Flagicon|Deschon}} [[Deschon]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 18 || align="left" | {{Flagicon|Otiiric}} [[Otiiric]] || [[MAFVL]] || align="left" | Group stage
+|-
+| 19 || align="left" | {{Flagicon|Oyreain}} [[Oyreain]] || [[MSFVL]] || align="left" | Group stage
+|-
+| 20 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || [[ACFVL]] || align="left" | Group stage
+|-
+| 21 || align="left" | {{Flagicon|Ilicuhe}} [[Ilicuhe]] || [[AYFVL]] || align="left" | Group stage
+|-
+| 22 || align="left" | {{Flagicon|Sivoso}} [[Sivoso]] || [[MAFVL]] || align="left" | Group stage
+|-
+| 23 || align="left" | {{Flagicon|North Ayre}} [[North Ayre]] || [[MSFVL]] || align="left" | Group stage
+|-
+| 24 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || [[ACFVL]] || align="left" | Group stage
+|}
+
+==Preparations and costs==
+
+The total budget allocated to the 1736 FLLA World Cup by the Verusan Arraby Federation and the federal government of [[Verusa]] was {{lahn}}420&nbsp;million. Of this, {{lahn}}110&nbsp;million was directed towards stadium construction and renovation across the twelve venues, {{lahn}}170&nbsp;million towards transport upgrades (principally the [[Huifarn]]–[[Beckel]] interior rail corridor and the [[Drenhuz]]–[[Valkirseh]] coastal trunk road), and {{lahn}}140&nbsp;million towards operational expenditure including security, broadcasting infrastructure and the volunteer programme. Per-venue capital costs averaged {{lahn}}9.2&nbsp;million across the twelve stadiums, the lowest figure recorded at any FLLA World Cup since the [[1716 FLLA World Cup|1716 edition]] and reflective of the limited new-build component of the Verusan stadium plan.
+
+Three of the twelve venues, the Estadio Vulime, the Estadio Valkirseh and the Estadio Foulang, were newly built for the tournament; the remaining nine were existing top-flight venues that received targeted upgrades to seating and broadcasting facilities. The newest, Estadio Vulime, was inaugurated on 4 March 1736, less than three months before the opening match; cost escalation during the final stages of construction added {{lahn}}14&nbsp;million to the projected budget for the venue, absorbed in full by the federal government under a guarantee provision agreed with the Verusan Arraby Federation at the bid stage.
+
+The combined security operation involved 12,000 police and federal personnel deployed across the nine host cities. No serious incidents were reported during the competition, though the [[#Final|final]] saw the most extensive single-venue deployment in the competition's history at the time, with 1,800 officers stationed at and around the Estadio Vulime on 28 June and a partial evacuation of the upper southern stand effected during the floodlight stoppage as a precaution against crowd disturbance. A dedicated public-transport extension programme, providing free local-network travel to ticket holders for the day of each match, was introduced for the duration of the tournament and was retained by the [[Huifarn]] municipal authority as a permanent matchday provision following the closing ceremony.
+
+Total tournament revenue, audited by the FLLA in August 1736, was {{lahn}}710&nbsp;million, against costs of {{lahn}}420&nbsp;million, yielding a net surplus of {{lahn}}290&nbsp;million. The FLLA's standard 15&nbsp;per&nbsp;cent host-association allocation (subsequently raised to 18&nbsp;per&nbsp;cent under the 1744 reforms) returned {{lahn}}106&nbsp;million to the Verusan Arraby Federation, which was retained in full by the federation under the single-host allocation formula then in force.<ref>{{cite web|url=https://www.flla.org/audit/1736-final-accounts|title=Audited final accounts of the 1736 FLLA World Cup|publisher=[[FLLA]]|date=22 August 1736}}</ref>
+
+==Marketing==
+{{Main|1736 FLLA World Cup marketing}}
+
+The marketing programme for the 1736 FLLA World Cup was overseen by the Verusan Arraby Federation in partnership with the FLLA's commercial division, with creative direction by the [[Huifarn]]-based studio Vergonai und Lannvert. The programme included the official emblem, mascot, match ball and theme song (see [[#Symbols|Symbols]] below), a domestic travelling-trophy tour that visited 14 cities across [[Verusa]] in the year preceding the tournament, and a tiered sponsorship structure of three worldwide partners, six host-nation partners and three regional supporters. Total sponsorship revenue across all three tiers was {{lahn}}210&nbsp;million, then the highest gross sponsorship figure recorded by any FLLA World Cup and a figure surpassed at the next edition only by the [[1744 FLLA World Cup|1744 cycle]]'s {{lahn}}340&nbsp;million.<ref>{{cite web|url=https://www.flla.org/commercial/1736-sponsorship|title=1736 FLLA World Cup commercial and sponsorship summary|publisher=[[FLLA]]|date=10 September 1736}}</ref>
+
+==Symbols==
+{{Main|1736 FLLA World Cup symbols}}
+
+===Emblem===
+
+The official emblem of the tournament, designed by the [[Huifarn]]-based studio Vergonai und Lannvert, was unveiled on 18 May 1735 in a public ceremony at the Verusan National Auditorium in [[Huifarn]]. The design depicts a stylised silhouette of the [[FLLA World Cup#The Ayuma Cup|Ayuma Cup]] rising from a representation of the [[Huifarn]] river, framed by a chevron-and-saltire device drawn from the heraldry of the early-medieval [[Verusa#History|Vulime Empire]]. The radial-band motif of the design was carried across into the printed programme of every fixture and was reused in adapted form on the cover of the FLLA Secretariat's 1737 review. The emblem received the FLLA Council's formal endorsement in September 1735 after a three-week consultation period with the seven confederations.<ref>{{cite web|url=https://www.flla.org/1735/emblem-endorsement|title=FLLA Council endorses official emblem of the 1736 FLLA World Cup|publisher=[[FLLA]]|date=22 September 1735}}</ref>
+
+===Mascot===
+
+The official mascot of the 1736 FLLA World Cup, named '''Vularn''', is an anthropomorphic Verusan red deer ([[wikipedia:Red deer|Cervus elaphus]]) dressed in the red-and-grey panel jersey representing the national colours of [[Verusa]]. The mascot was selected by a domestic public vote organised by the Verusan Arraby Federation in the summer of 1735, with three candidate designs presented to voters across the host nation and in print; Vularn prevailed over a stylised mountain ibex ("Suebran") and an anthropomorphic eagle ("Pyesar") with 52&nbsp;per&nbsp;cent of the 1.4 million votes cast.<ref>{{cite web|url=https://www.varf.ve/1735/mascot-vote|title=Vularn named official mascot of 1736 FLLA World Cup|publisher=Verusan Arraby Federation|date=12 August 1735}}</ref>
+
+===Match ball===
+
+The official match ball, manufactured by the [[Beckel]]-based sports-equipment maker Lannvert Sport, was branded the '''Strom''' (literally "stream", a reference to the [[Huifarn]] river adjacent to the principal venue). The Strom featured a 32-panel hand-stitched construction in a red-and-grey livery, the second FLLA World Cup match ball to use the 32-panel hand-stitched construction that would become standard from 1744 onwards. A distinct silver-coloured version of the ball, the Strom Silber, was used in the [[#Final|final]], the [[#Third place playoff|third-place playoff]] and the two [[#Semi-finals|semi-finals]].<ref>{{cite web|url=https://www.lannvertsport.ve/products/strom-1736|title=Strom and Strom Silber: official match balls of the 1736 FLLA World Cup|publisher=Lannvert Sport|date=10 February 1736}}</ref>
+
+===Trophy===
+
+The 1736 FLLA World Cup was the seventeenth and last edition contested under the one-trophy [[FLLA World Cup#The Ayuma Cup|Ayuma Cup]] arrangement, which had been in continuous operation since the inaugural [[1656 FLLA World Cup|1656 edition]]. The Ayuma Cup, a 24-centimetre gilded silver sculpture depicting a stylised laurelled figure holding a single sphere aloft, was presented to the winners of each completed edition under the older one-trophy arrangement as a permanent transfer, with the holding nation retaining the cup until the conclusion of the next tournament. [[Raledria]] received the Ayuma Cup at the closing ceremony of the [[#Final|final]] on 28 June 1736 and retained the trophy until 1738, when it was returned to the FLLA Secretariat ahead of the introduction of the new two-trophy system at the [[1740 FLLA World Cup|1740 edition]].
+
+Under the two-trophy system adopted by FLLA Council resolution 1739/4 in advance of the [[1740 FLLA World Cup|1740 edition]], the Ayuma Cup was decommissioned as the active trophy of the competition and the new rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] was commissioned in its place; the Ayuma Cup itself was retained by the FLLA in its original form and is now displayed at the Museum of Arraby in [[Huifarn]], the city in which the trophy had been raised by the [[Raledria|Raledrian]] champions at the closing ceremony of the 1736 final. The Ayuma Cup's permanent display at the Museum of Arraby in [[Huifarn]] makes it the only historic trophy of the competition to be held in the city in which it was last lifted.<ref>{{cite web|url=https://www.flla.org/heritage/ayuma-cup|title=The Ayuma Cup: history and current display|publisher=[[FLLA]]|date=4 January 1740}}</ref>
+
+===Theme song===
+
+The official theme song of the tournament, "Über den Strom" ("Across the River"), was composed by [[Verusa|Verusan]] composer Heinrich Walfreim with lyrics jointly written by Walfreim and the vocalist Karin Brashein, who also performed the track. The studio recording was released on 14 March 1736 and topped the [[Verusa|Verusan]] domestic charts across the months of April and May 1736; it was the first sports-themed track to lead the [[Verusa|Verusan]] charts in the recording era.<ref>{{cite web|url=https://www.varf.ve/charts/1736-may|title=Verusan domestic chart summary, May 1736|publisher=Verusan Recording Industry Association|date=4 June 1736}}</ref>
+
+==Media==
+{{Main|1736 FLLA World Cup broadcasting rights}}
+
+The 1736 FLLA World Cup was broadcast in 48 countries by 18 official radio partners. Domestic broadcasting rights in [[Verusa]] were held by Verusan Radio Broadcasting (VRB), which produced the host radio feed and broadcast all 52 matches across its terrestrial radio network. The international rights for the [[AYFVL]] region were held by the [[Easuhura|Easuhuran]] public-service broadcaster ENB; the [[ATFVL]] rights by the Raledrian National Broadcaster (RNB); and the [[QUFVL]] rights by a three-broadcaster consortium led by the Quidican National Network (QNN).
+
+The 1736 edition was the first FLLA World Cup at which a live radio commentary was provided for every fixture of the tournament; the transcontinental radio relay arrangement first used at the [[1732 FLLA World Cup|1732 edition]] was extended in 1736 to cover all 52 matches. The FLLA reported a cumulative live broadcast audience for the tournament of 220 million individual listeners across all matches, with 95 million individuals tuning in to at least part of the [[#Final|final]] (a figure that was widely understood, though never confirmed by the FLLA, to have been swelled by the 36-minute floodlight stoppage during which idle listeners remained tuned in pending the resumption of play).<ref>{{cite web|url=https://www.flla.org/1736/audience-summary|title=1736 FLLA World Cup viewership summary|publisher=[[FLLA]]|date=18 August 1736}}</ref>
+
+===Attendance===
+
+Cumulative attendance across the 52 matches of the tournament was 2,082,000 spectators, an average of 40,038 per match. The highest single-match attendance was the 80,000 recorded at the [[#Final|final]] between [[Verusa]] and [[Raledria]] at the Estadio Vulime in [[Huifarn]], filling the venue's listed all-seater capacity; the lowest was the 31,400 attending the Group F fixture between [[Praesyu]] and [[North Ayre]] at the Estadio Jentori on 5 June.
+
+Across the tournament, attendance averaged 49,100 in the knockout stage and 36,800 in the group stage. The three highest single-match attendances of the tournament were all recorded at the Estadio Vulime, with the [[#Final|final]], the quarter-final between [[Verusa]] and [[Siana]] on 21 June, and the round-of-16 fixture between [[Verusa]] and [[Dahe]] on 14 June all drawing crowds in excess of 78,000.
+
+==Controversies==
+
+The most prominent dispute of the tournament arose from the [[#Final|final]] on 28 June and the subsequent FLLA Disciplinary Committee investigation into the failure of the Estadio Vulime floodlighting system. The Verusan Arraby Federation lodged no protest of any kind in relation to the result, and the [[Raledria|Raledrian]] Arraby Association expressly declined to do so when invited by the FLLA Secretariat on the morning of 29 June; an internal Federation review of the venue's engineering systems published on 14 August 1736, however, found that the secondary transformer feeding the southern bank of pylons had been operating at a load 28&nbsp;per&nbsp;cent above its rated specification at the moment of failure, and recommended a series of operational changes to FLLA venue-approval procedures that were partially adopted in the FLLA Council's [[#Aftermath|1737 reforms]] and fully formalised under the Tactical Review Committee recommendations of 1745.<ref>{{cite web|url=https://www.varf.ve/1736/floodlight-review|title=Internal review of the Estadio Vulime floodlight failure|publisher=Verusan Arraby Federation|date=14 August 1736}}</ref>
+
+A second dispute, of an administrative character, arose from the round-of-16 fixture between [[Ealdorii]] and [[Quidic]] at the Estadio Murenbau on 17 June, which went to penalty kicks after a 1–1 draw across normal and extra time. The shoot-out was extended to a fifth kick on each side, by which point [[Ealdorii]] held a 4–3 advantage; the [[Quidic|Quidican]] Arraby Federation contended in a written submission to the FLLA on 19 June that the fourth [[Ealdorii|Ealdorian]] kick, scored by central midfielder Brimar in the eighth minute of the shoot-out, had been improperly retaken after an alleged step-back violation by [[Quidic|Quidican]] goalkeeper Olen Ardrein that the Federation contended was not a feature of the laws of the game then in force. The FLLA Refereeing Committee accepted the submission in principle on 26 June and issued a published clarification of the relevant provision of the laws on 5 July 1736, but declined to revisit the result of the match. The same provision was clarified again, in materially identical terms, by the FLLA Refereeing Committee at the [[1744 FLLA World Cup|1744 edition]] following a similar dispute in the quarter-final between [[Sanagara]] and [[Quidic]] at the Estadio Dacorca.<ref>{{cite web|url=https://www.flla.org/referees/1736/ardrein-clarification|title=Clarification of laws on penalty-kick step-back violations|publisher=[[FLLA]]|date=5 July 1736}}</ref>
+
+A third dispute, arising from the Group F fixture between [[Praesyu]] and [[Merela Sta]] at the Estadio Foulang on 9 June and the three-way tie on six points and one goal difference that the result helped produce in the group, was lodged by the [[Merela Sta|Merela Stan]] Arraby Federation on 11 June. The Federation contended that the group's tiebreaker procedure, which separated [[Praesyu]] and [[Merela Sta]] by head-to-head record, did not properly account for the [[Praesyu|Praesyuan]] forward Velkari's 41st-minute goal having been scored from an allegedly offside position; the FLLA Refereeing Committee dismissed the protest on 12 June, citing the finality of on-field decisions under the laws of the game then in force, and [[Merela Sta]] advanced as the highest-ranked third-placed side and lost 1–0 to the eventual champions [[Raledria]] in the round of 16.<ref>{{cite web|url=https://www.flla.org/referees/1736/merela-sta-decision|title=FLLA Refereeing Committee decision on Merela Stan protest of 11 June 1736|publisher=[[FLLA]]|date=12 June 1736}}</ref>
+
+==Aftermath==
+
+[[Raledria]]'s victory was their fourth FLLA World Cup title, equalling at the time the all-tournament record then held jointly by [[Lycroa]] and themselves; the record passed to [[Lycroa]] alone with the [[Lycroa|Lycroan]] champions' fifth title at the [[1744 FLLA World Cup|1744 edition]] eight years later. The 1736 result was widely celebrated across [[Raledria]], where the team's homecoming reception at the [[Tirna]] central square on 1 July 1736 drew an estimated crowd of 1.4 million, the largest single-day public gathering in [[Tirna]] recorded under the modern republic and a figure surpassed only by the [[Raledria|Raledrian]] homecoming reception of [[1700 FLLA World Cup|1700]] when the [[Raledria|Raledrian]] champions had lifted the trophy on home soil at the inaugural FLLA World Cup tournament.<ref>{{cite web|url=https://www.rnb.ral/news/1736/homecoming-reception|title=Raledrian homecoming reception draws 1.4 million to Tirna|publisher=Raledrian National Broadcaster|date=1 July 1736}}</ref>
+
+Across the host nation, the tournament was judged a substantial organisational success notwithstanding the floodlight failure in the [[#Final|final]]. An independent post-event report commissioned by the Verusan federal government and published in October 1736 estimated the net economic contribution to the host economy at {{lahn}}1.1&nbsp;billion, against gross public expenditure of {{lahn}}420&nbsp;million across infrastructure and operations.<ref>{{cite web|url=https://www.gov.ver/1736/wc-economic-impact|title=Independent post-event economic impact report on the 1736 FLLA World Cup|publisher=Federal Government of Verusa|date=22 October 1736}}</ref> International visitor arrivals across [[Verusa]] over the tournament period totalled 340,000, the highest cumulative tournament-period visitor figure recorded in [[Ayuma]] up to that date. The matchday public-transport provision introduced for the tournament was retained on a permanent basis after the closing ceremony by the municipal authorities of [[Huifarn]], [[Beckel]] and [[Drenhuz]].
+
+The 1736 tournament's most enduring legacy, however, was the pair of structural reforms adopted by the FLLA Council in the months following the closing ceremony, collectively known in subsequent FLLA literature as the '''1737 reforms'''. The first reform, adopted by the Council under resolution 1737/3 on 14 April 1737, expanded the finals tournament to thirty-two teams from the [[1740 FLLA World Cup|1740 edition]] onwards, with the explicit policy objective of broadening the technical diversity of the field after the unusually low goal-per-match average of the 1736 edition.<ref>{{cite web|url=https://www.flla.org/1737/expansion-resolution|title=FLLA Council resolution 1737/3 on the expansion of the finals tournament to thirty-two teams|publisher=[[FLLA]]|date=14 April 1737}}</ref> The second reform, adopted by the Council under resolution 1739/4 in advance of the [[1740 FLLA World Cup|1740 edition]] but framed in subsequent FLLA literature as the second of the 1737 reforms because of the preparatory work undertaken in the autumn of 1737, replaced the one-trophy Ayuma Cup arrangement with the new two-trophy system pairing the rotating [[FLLA World Cup#The Andah Cup|Andah Cup]] with a bespoke permanent trophy newly commissioned for each edition; the rotating trophy itself was designed by the [[Lycroa|Lycroan]] sculptor Mariosa Calvelli following an international competition held in 1738 and presented for the first time at the [[1740 FLLA World Cup|1740 edition]] in [[Seytinemas]].<ref>{{cite web|url=https://www.flla.org/1739/two-trophy-resolution|title=FLLA Council resolution 1739/4 on the introduction of the two-trophy system|publisher=[[FLLA]]|date=8 November 1739}}</ref> Two later FLLA reforms, the formal adoption of the four-pot seeded draw and the establishment of the standing FLLA Tactical Review Committee, were adopted under FLLA Council resolutions 1743/4 and 1743/9 in advance of the [[1744 FLLA World Cup|1744 edition]] and have been characterised in FLLA literature as the third and fourth stages of the legislative response to the 1736 tournament.<ref>{{cite web|url=https://www.flla.org/1737/council-reforms-summary|title=Summary of the 1737 FLLA Council reforms|publisher=[[FLLA]]|date=14 December 1737}}</ref>
+
+The next edition of the FLLA World Cup, the [[1740 FLLA World Cup]], was awarded to a single-nation bid from [[Seytinemas]] at the FLLA Council meeting of 28 March 1737, returning the tournament to [[Mahea]] for the first time in the competition's history.<ref>{{cite web|url=https://www.flla.org/1737/1740-host-confirmation|title=Seytinemas confirmed as 1740 FLLA World Cup hosts|publisher=[[FLLA]]|date=28 March 1737}}</ref> [[New Misos]] would win the 1740 tournament under the new 32-team format, defeating [[Lycroa]] 2–1 in the final at the Vulna Olympic Stadium and lifting the new [[FLLA World Cup#The Andah Cup|Andah Cup]] in the first deployment of the two-trophy system that the 1737 reforms had introduced.
+
+==See also==
+* [[FLLA]]
+* [[FLLA World Cup]]
+* [[1732 FLLA World Cup]]
+* [[1740 FLLA World Cup]]
+* [[ATFVL]]
+* [[AYFVL]]
+* [[NAFVL]]
+* [[MAFVL]]
+* [[QUFVL]]
+* [[MSFVL]]
+* [[ACFVL]]
+
+==References==
+{{reflist}}
+
+[[Category:FLLA World Cup]]

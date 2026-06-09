@@ -1,0 +1,85 @@
+{{Infobox continent
+|title          = South Massir
+|image          = South Massir Globe.png
+|imagecaption   = Location of South Massir
+|area           = {{convert|6,173,029|km2|sqmi|abbr=on}}
+|population     = 156,362,340 (1765)
+|density        = {{convert|25.33|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}1.702 trillion
+|GDP_nominal    = {{lahn}}934.255 billion
+|GDP_per_capita = {{lahn}}5,975
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = South Massiran
+|countries      = 4
+|list_countries = 
+|dependencies   = 3
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Kusiernian Language|Kusiernian]]
+* [[Trian Language|Trian]]
+* [[Vesozatan Language|Vesozatan]]
+}}
+|time           = UTC +1 to +3
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Todorac]]
+*[[Mikavasi]]
+*[[Tarimav]]
+*[[Korvani]]
+*[[Shatiruk]]
+*[[Muvkora]]
+*[[Mararo]]
+*[[Dilambo]]
+*[[Zavakara]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''South Massir''' is a sub-continent located in the southern hemisphere. It is bordered the [[Bay of Rimi]] and [[Haanian Ocean]] to the south, [[North Massir]] and [[West Mahea]] to the north, [[West Massir]] to the west and the [[Ubrana Sea]] and [[Trayd Cren Sea]] to the east. The continent covers around {{convert|6,173,029|km2|sqmi|abbr=on}} of land, making it the 7th largest sub-continent in the world, with a total of about 156,362,340 as of 1765, making it also the 16th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Eparia}} || [[Eparia]] || style="text-align:right;" | 125,915 || style="text-align:right;" | 4,070,555 || style="text-align:right;" | 32 || [[Tarimav]]
+|-
+| style="text-align:center;"| {{flagicon|Etretes}} || [[Etretes]] || style="text-align:right;" | 2,524,560 || style="text-align:right;" | 21,374,692 || style="text-align:right;" | 8 || [[Zajkovi]]
+|-
+| style="text-align:center;"| {{flagicon|Kusierna}} || [[Kusierna]] || style="text-align:right;" | 992,110 || style="text-align:right;" | 9,164,021 || style="text-align:right;" | 9 || [[Mikavasi]]
+|-
+| style="text-align:center;"| {{flagicon|Vesozata}} || [[Vesozata]] || style="text-align:right;" | 2,530,444 || style="text-align:right;" | 121,753,072 || style="text-align:right;" | 48 || [[Korvani]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 4
+| style="text-align:right;"| 6,173,029
+| style="text-align:right;"| 156,362,340
+| style="text-align:right;"| 25
+|}
+
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

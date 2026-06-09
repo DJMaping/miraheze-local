@@ -1,0 +1,45 @@
+==List of states and territories==
+'''Continue to [[North Massir]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Canldives}} || [[Canldives]] || style="text-align:right;" | 5,418 || style="text-align:right;" | 759,043 || style="text-align:right;" | 140 || [[Maranthulo]]
+|-
+| style="text-align:center;"| {{flagicon|Haiza}} || [[Haiza]] || style="text-align:right;" | 739,599 || style="text-align:right;" | 17,079,116 || style="text-align:right;" | 23 || [[Chavira]]
+|-
+| style="text-align:center;"| {{flagicon|Ihner}} || [[Ihner]] || style="text-align:right;" | 541,922 || style="text-align:right;" | 6,257,140 || style="text-align:right;" | 12 || [[Talmeera]]
+|-
+| style="text-align:center;"| {{flagicon|Migoku}} || [[Migoku]] || style="text-align:right;" | 1,011,994 || style="text-align:right;" | 6,231,859 || style="text-align:right;" | 6 || [[Trisande]]
+|-
+| style="text-align:center;"| {{flagicon|Oscairia}} || [[Oscairia]] || style="text-align:right;" | 497,086 || style="text-align:right;" | 22,386,666 || style="text-align:right;" | 45 || [[Morzelka]]
+|-
+| style="text-align:center;"| {{flagicon|Pruim Fijan}} || [[Pruim Fijan]] || style="text-align:right;" | 143,234 || style="text-align:right;" | 3,307,617 || style="text-align:right;" | 23 || [[Senkowari]]
+|-
+| style="text-align:center;"| {{flagicon|Ruylku}} || [[Ruylku]] || style="text-align:right;" | 404,675 || style="text-align:right;" | 11,838,201 || style="text-align:right;" | 29 || [[Kelvizu]]
+|-
+| style="text-align:center;"| {{flagicon|Shinam}} || [[Shinam]] || style="text-align:right;" | 494,101 || style="text-align:right;" | 31,948,027 || style="text-align:right;" | 65 || [[Mirzulek]]
+|-
+| style="text-align:center;"| {{flagicon|Taval}} || [[Taval]] || style="text-align:right;" | 345,341 || style="text-align:right;" | 44,529,546 || style="text-align:right;" | 129 || [[Suraspa]]
+|-
+| style="text-align:center;"| {{flagicon|Ucrua}} || [[Ucrua]] || style="text-align:right;" | 619,575 || style="text-align:right;" | 30,764,253 || style="text-align:right;" | 50 || [[Frevinta]]
+|-
+| style="text-align:center;"| {{flagicon|Welenu Fana}} || [[Welenu Fana]] || style="text-align:right;" | 774,542 || style="text-align:right;" | 19,674,606 || style="text-align:right;" | 25 || [[Skalvira]]
+|-
+| style="text-align:center;"| {{flagicon|Western Migoku}} || [[Western Migoku]] || style="text-align:right;" | 212,955 || style="text-align:right;" | 2,950,683 || style="text-align:right;" | 14 || [[Jemlosta]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 12
+| style="text-align:right;"| 5,790,442
+| style="text-align:right;"| 197,726,757
+| style="text-align:right;"| 34
+|}
+
+[[Category:Massir]]
+[[Category:Massiran Regions]]

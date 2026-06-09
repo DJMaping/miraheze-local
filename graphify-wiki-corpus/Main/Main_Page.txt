@@ -1,0 +1,128 @@
+__NOTOC____NOEDITSECTION__<!--        BANNER ACROSS TOP OF PAGE        -->
+<div style="width:100%; background:#fcfcfc; margin:1.2em 0 3px 0; border: solid #eeeeee; border-width: 1px 1px 0.2em; box-shadow: 0 1px 2px 1px rgba(0,0,0,0.02); padding:0.25em; ; text-align:center; justify-content:space-evenly">
+
+[[File:Andah_Encyclopedia_title.png|center|800x800px]]
+
+<div style="top:+0.3em">
+
+This is a worldbuilding project and a community centred around the fictional world of '''''Andah''' or as it's known on earth '''Janus'''.''
+
+If you would like to join or take a deeper dive into the project, please join the Discord - [https://discord.gg/277SzBGFG2 Andah Worldbuilding Institute].
+
+Not sure where to start? Visit a [https://andah.miraheze.org/wiki/special:random random page], or press Shift+Alt+X.
+</div>
+
+
+
+<hr>
+<div style="font-size:110%; display:flex; justify-content:space-evenly; align-items: baseline; flex-wrap:wrap;">
+<div style="margin: 4px;">[[Andah:About|About]]</div>
+<div style="margin: 4px;">[[:Category:Countries|Countries]]</div>
+<div style="margin: 4px;">[[:Category:Geography|Geography]]</div>
+<div style="margin: 4px;">[[:Category:Organisations|Organisations]]</div>
+<div style="margin: 4px;">[[:Category:Technology|Technology]]</div>
+<div style="margin: 4px;">[[:Category:Culture|Culture]]</div>
+<div style="margin: 4px;">[[:Category:Conflicts|Conflicts]]</div>
+<div style="margin: 4px;">[[:Category:Languages|Languages]]</div>
+<div style="margin: 4px;">[[:Category:Religions|Religions]]</div>
+<div style="margin: 4px;">[[:Category:Maps|Maps]]</div>
+<div style="margin: 4px;">[[:Category:Statistics|Statistics]]</div>
+<div style="margin: 4px;">[[:Category:History|History]]</div>
+<div><b>[[:Special:AllPages|All Pages]]</b>
+::
+</div>
+</div>
+</div>
+<br>
+<inputbox>
+type=search
+width=75
+buttonlabel=Search
+bgcolor=FFFF
+break=yes
+</inputbox>
+
+== Andah/Janus ==
+<div style="width:100%; ; text-align:center; justify-content:space-evenly">
+'''''[[Andah]]''', ''is a planet located in the solar system. It hosts seven continents, four of which make up the [[supercontinent]].
+
+This is a world-building project, a project to create an in-depth fictional world, from economics, culture, linguistics and history. The project began in mid-2024, while the wiki officially launched on 22nd June 2025. Currently, there are over [[Special:Statistics|{{NUMBEROFARTICLES}}]] articles, but there's an ambitious plan to expand this to over 1,000.
+
+[[File:1765_Atlas.png|center|1848x1741px]]
+
+<br>
+<!-- First Row start -->
+<div style="align-items:stretch;display:flex">
+	<!-- Article Box -->
+	<div style="border:1px solid #ccc;margin:.5rem;width:49%">
+		<div>
+			<div style="background:#04517c;color:#fff;text-align:center">'''Featured Article'''</div>
+			<div style="padding:1rem">[[Etirhan Independence War]]</div>
+		</div>
+	</div>
+   <!-- Nation Box -->
+	<div style="border:1px solid #ccc;margin:.5rem;width:49%">
+		<div>
+			<div style="background:#04517c;color:#fff;text-align:center">'''Featured Country'''</div>
+			<div style="padding:1rem">[[Rusiguii Republic]]</div>
+		</div>
+	</div>
+</div>
+<!-- First Row end -->
+<!-- Second Row start -->
+<div style="align-items:stretch;display:flex">
+	<!-- News Box -->
+	<div style="border:1px solid #ccc;margin:.5rem;width:49%">
+		<div>
+			<div style="background:#04517c;color:#fff;text-align:center">'''Recent News'''</div>
+			<div style="padding:1rem">[[Winter Sports]]</div>
+		</div>
+	</div>
+   <!-- History Box -->
+	<div style="border:1px solid #ccc;margin:.5rem;width:49%">
+		<div>
+			<div style="background:#04517c;color:#fff;text-align:center">'''This Month in History'''</div>
+			<div style="padding:1rem">[[Dahen economic miracle]]</div>
+		</div>
+	</div>
+</div>
+<!-- Second Row end -->
+<!-- Third Row start -->
+<div style="align-items:stretch;display:flex">
+   <!-- Nation Box -->
+	<div style="border:1px solid #ccc;margin:.5rem;width:98%">
+		<div>
+			<div style="background:#04517c;color:#fff;text-align:center">'''Important Links'''</div>
+			<div style="padding:1rem">[https://www.reddit.com/r/Andah/ Reddit]   [https://www.deviantart.com/djmapping/ Deviantart]  [https://www.youtube.com/channel/UCtqz9tLRgNh59FP9gDc59Uw Youtube]  [https://www.youtube.com/watch?v=qeW5BDfvC0k History of Andah - Every Year]
+          </div>
+		</div>
+	</div>
+</div>
+
+<br>
+<hr>
+<br>
+
+This version of the Encyclopedia is written in the Earth language of English, mostly directly translated from [[Lastnu]]<center>
+
+<div style="border:none; margin:0; padding:0em;">
+'''10,000+ articles''': <span class="plainlinks">[https://fr.andah.miraheze.org/wiki/Main_Page Français] - [https://zh.andah.miraheze.org/wiki/Main_Page 日本語] - [https://la.andah.miraheze.org/wiki/Main_Page Lastnu] - [https://da.andah.miraheze.org/wiki/Main_Page Dahen]</span>
+
+'''5,000+ articles''': <span class="plainlinks">[https://ru.andah.miraheze.org/wiki/Main_Page Русский] - [https://de.andah.miraheze.org/wiki/Main_Page Deutsch] - [https://es.andah.miraheze.org/wiki/Main_Page Español] - [https://ar.andah.miraheze.org/wiki/Main_Page Arten] - [https://al.andah.miraheze.org/wiki/Main_Page Alqiran] - [https://em.andah.miraheze.org/wiki/Main_Page Emaran]</span>
+
+'''1,000+ articles''': <span class="plainlinks">[https://it.andah.miraheze.org/wiki/Main_Page Italiano] - [https://pl.andah.miraheze.org/wiki/Main_Page Polski] - [https://pt.andah.miraheze.org/wiki/Main_Page Português] - [https://ja.andah.miraheze.org/wiki/Main_Page 語版] - [https://fa.andah.miraheze.org/wiki/Main_Page ویکی‌پدیای فارسی] - [https://ko.andah.miraheze.org/wiki/Main_Page 한국어 위키백과] - [https://su.andah.miraheze.org/wiki/Main_Page Sursian] - [https://pe.andah.miraheze.org/wiki/Main_Page Pelugrotoan] - [https://es.andah.miraheze.org/wiki/Main_Page Estijan] - [https://ly.andah.miraheze.org/wiki/Main_Page Lycroan] - [https://ea.andah.miraheze.org/wiki/Main_Page Ealdorii]</span>
+
+
+
+<hr>
+<div style="margin-bottom:1.0em;"></div>
+<div style="width:100%; text-align:left;">{{Talk}}</div>
+<div style="margin-bottom:1.0em;"></div>
+<hr>
+
+
+
+
+<!-- Third Row end -->
+<!-- Footer start -->
+<!-- Footer end -->

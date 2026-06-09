@@ -1,0 +1,17 @@
+{{Sidebar
+| style = 
+| name = Portal information sidebar
+| pretitle = 
+| title = Wikipedia Portals
+| image = [[File:Portal.svg|35px|alt=icon]]
+| width = 200px
+| headingstyle = 
+| contentstyle = 
+| above = 
+| heading1 = 
+– [[Wikipedia:Portal|About Portals]]<br>{{paragraph break}}
+– [[Wikipedia:Contents/Portals|List of Portals]]<br>{{paragraph break}}
+– [[Wikipedia:WikiProject Portals|WikiProject Portals]]
+}}<noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,31 @@
+==List of states and territories==
+'''Continue to [[West Ayuma]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Darewa}} || [[Darewa]] || style="text-align:right;" | 681,553 || style="text-align:right;" | 19,678,480 || style="text-align:right;" | 29 || [[Shamarin]]
+|-
+| style="text-align:center;"| {{flagicon|Merela Sta}} || [[Merela Sta]] || style="text-align:right;" | 169,966 || style="text-align:right;" | 23,361,657 || style="text-align:right;" | 137 || [[Talung]]
+|-
+| style="text-align:center;"| {{flagicon|Palina}} || [[Palina]] || style="text-align:right;" | 43,383 || style="text-align:right;" | 3,123,402 || style="text-align:right;" | 72 || [[Lahzhao]]
+|-
+| style="text-align:center;"| {{flagicon|Siana}} || [[Siana]] || style="text-align:right;" | 303,188 || style="text-align:right;" | 39,335,005 || style="text-align:right;" | 130 || [[Wadika]]
+|-
+| style="text-align:center;"| {{flagicon|Verusa}} || [[Verusa]] || style="text-align:right;" | 730,606 || style="text-align:right;" | 69,480,631 || style="text-align:right;" | 95 || [[Huifarn]]
+|-
+| style="text-align:center;"| {{flagicon|Yaxuto}} || [[Yaxuto]] || style="text-align:right;" | 178,349 || style="text-align:right;" | 18,401,158 || style="text-align:right;" | 103 || [[Khorin]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 6
+| style="text-align:right;"| 2,107,045
+| style="text-align:right;"| 173,380,333
+| style="text-align:right;"| 82
+|}
+
+[[Category:Ayuma]]
+[[Category:Ayuman Regions]]

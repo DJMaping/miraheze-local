@@ -1,0 +1,142 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Ukhdari
+| native_name            = ''__''  - Ukhdari
+| image_flag             = Ukhdari Flag.png
+| image_coat             = Ukhdari coat of arms.png
+| symbol_type            = 
+| national_motto         = OOKH-dah-ree
+| national_anthem        = /ˈʊk.dɑː.ri/
+| image_map              = Ukhdari Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Ukhdari (green)
+| capital                = [[Faramozan]]
+| largest_city           = [[Veshgadar]]
+| official_languages     = Ukhdari
+| regional_languages     = Arten<br>Aiisarans<br>Ealdorii<br>Kaalsite
+| ethnic_groups          = 82.4% Ukhdari<br>8.2% [[Ealdorii]]<br>5.2% Kaalsite<br>1.2% Aiisarans<br>1.1% [[Areoix Lie|Arten]]<br>1.9% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.ukh/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Acrana]] }}</ref>
+| religion               = 84.8% [[Kelhari]]<br>7.3% [[Tzinalli]]<br>2.1% [[wikipedia:Irreligion|Irreligion]]<br>5.8% [[Religion in Ukhdari|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ukh/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Acrana]] }}</ref>
+| demonym                = Ukhdari
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Ukhdari 
+| upper_house            = Home of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Alzrian Union]]
+| established            = 
+| established_event1     = Arten Occupation
+| established_date1      = 1695 AFA
+| established_event2     = Protectorate
+| established_date2      = 1700 AFA
+| established_event3     = Independence
+| established_date3      = 1725
+| area_rank              = 42nd
+| area_km2               = 783,607
+| area_sq_mi             = 302,552
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 3.21
+| population_estimate    = {{increaseNeutral}}85,678,000<ref name="POP UKH">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.ukh/List_of_countries_and_dependencies_by_population/Ukhdari|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 18st
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}83,820,000<ref>{{cite web|url=https://www.gov.ukh/1765/caX3a/UKHDARI_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Ukhdari]] }}</ref>
+| population_census_year = 1763
+| population_density_km2 = 109.3
+| population_density_sq_mi = 42.2
+| population_density_rank = 41st
+| GDP_PPP                = {{increase}} {{lahn}}1.768 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ukh/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+
+| GDP_PPP_rank           = 14th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,643
+| GDP_PPP_per_capita_rank = 36th
+| GDP_nominal            = {{increase}} {{lahn}}962 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ukh/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 12st
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}11,230
+| GDP_nominal_per_capita_rank = 48th
+| HDI_year               = 1765
+| HDI                    = 0.834
+| HDI_change             = increase
+| HDI_rank               = 55th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Ukhdari Anasu]] (_) (UAN)
+| time_zone              = SUT +1 (Standard Ukhdari Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .ukh
+| calling_code           = +17
+}}
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Ukhdari]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/ukhdari|title=World Population Prospects 1765: Ukhdari|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Veshgadar]] || 5,770,000
+|-
+| 2 || [[Borshavi]] || 4,291,000
+|-
+| 3 || [[Dy]] || 1,846,000
+|-
+| 4 || [[Ezrum]] || 1,330,000
+|-
+| 5 || [[Hunzavir]] || 1,209,000
+|-
+| 6 || [[Hanzubek]] || 1,137,000
+|-
+| 7 || [[Faramozan]] || 1,029,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ukh/ The Federal Republic of Ukhdari's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Ukhdari] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/ukhdari/ Ukhdari]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

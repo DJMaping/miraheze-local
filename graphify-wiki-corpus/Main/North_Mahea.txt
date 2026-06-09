@@ -1,0 +1,86 @@
+{{Infobox continent
+|title          = North Mahea
+|image          = North Mahea Globe.png
+|imagecaption   = Location of North Mahea
+|area           = {{convert|6,546,180|km2|sqmi|abbr=on}}
+|population     = 638,348,513 (1765)
+|density        = {{convert|97.51|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}9.775 trillion
+|GDP_nominal    = {{lahn}}4.919 trillion
+|GDP_per_capita = {{lahn}}7,707
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = North Mahean
+|countries      = 5
+|list_countries = 
+|dependencies   = 0
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Inanian Language|Inanian]] 
+* [[Lierin Language|Lierin]] 
+* [[Ozinian Language|Ozinian]]
+* [[Pelugrotoan Language|Pelugrotoan]] 
+}}
+|time           = UTC +4 to +5
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Nabruik]]
+*[[Fashti]]
+*[[Fashti]]
+*[[Varnan]]
+*[[Yolan]]
+*[[Havok]]
+*[[Thavrin]]
+*[[Veshtak]]
+*[[Zilvak]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''North Mahea''' is a sub-continent located in the southern hemisphere. It is bordered the [[South Mahea]] to the south. [[West Mahea]] to the west, the [[South Acrola]] to the north, and the [[Hinsakian Ocean|Great Hinsakian Ocean]] and [[Adrad Sea]] to the east. The continent covers around {{convert|6,546,180|km2|sqmi|abbr=on}} of land, making it the 6th largest sub-continent in the world, with a total of about 638,348,513 as of 1765, making it also the 3rd largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Inania}} || [[Inania]] || style="text-align:right;" | 2,964,408 || style="text-align:right;" | 236,475,569 || style="text-align:right;" | 80 || [[Fashti]]
+|-
+| style="text-align:center;"| {{flagicon|Lieri}} || [[Lieri]] || style="text-align:right;" | 588,468 || style="text-align:right;" | 36,478,307 || style="text-align:right;" | 62 || [[Nabruik]]
+|-
+| style="text-align:center;"| {{flagicon|Ozinia}} || [[Ozinia]] || style="text-align:right;" | 197,284 || style="text-align:right;" | 7,898,975 || style="text-align:right;" | 40 || [[Nuswi]]
+|-
+| style="text-align:center;"| {{flagicon|Pelugrotoa}} || [[Pelugrotoa]] || style="text-align:right;" | 2,581,890 || style="text-align:right;" | 347,520,587 || style="text-align:right;" | 135 || [[Thavrin]]
+|-
+| style="text-align:center;"| {{flagicon|Rtesania}} || [[Rtesania]] || style="text-align:right;" | 214,130 || style="text-align:right;" | 9,975,075 || style="text-align:right;" | 47 || [[Bardin]]
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 6,546,180
+| style="text-align:right;"| 638,348,513
+| style="text-align:right;"| 98
+|}
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

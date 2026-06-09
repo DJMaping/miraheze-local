@@ -1,0 +1,42 @@
+{{Short description|International reserve currency; official currency of Dahe}}
+
+{| class="infobox" style="width: 22em; font-size: 88%;"
+|+ '''Lahn'''
+|-
+! colspan="2" style="text-align:center;" | Currency details
+|-
+| Symbol || {{lahn}}
+|-
+| ISO code || LND
+|-
+| Issuer || [[Central Bank of Fekunza]] ([[Dahe]])
+|-
+| Reserve status || Global reserve currency (one of two)
+|-
+| Sole legal tender || {{Flagicon|Dahe}} [[Dahe]]
+|}
+
+The '''lahn''' (symbol: {{lahn}}; [[wikipedia:ISO 4217|ISO code]] '''LND''') is the official currency of [[Dahe]] and one of the two principal '''globally backed reserve currencies''' of [[Andah]], paired with the [[Raledrian Kasare]] of [[Raledria]]. It is issued by the [[Central Bank of Fekunza]] and is used as the standard unit of account by the [[Global Trade Union]] in the publication of nominal [[List of countries by GDP (nominal)|GDP]] and [[List of countries by GDP (PPP)|GDP (PPP)]] tables.
+
+The lahn is the unit in which the [[FLLA]] reports tournament revenue, sponsorship and host-nation budgets, including the budgets and final accounts of every [[FLLA World Cup]] from the [[1740 FLLA World Cup|1740 edition]] onwards, and is the unit of account for the [[Global Trade Union]]'s Economic Outlook database.
+
+==History==
+
+==Reserve status==
+
+The lahn is one of two currencies recognised by the [[Global Trade Union]] as a primary global reserve, the other being the [[Raledrian Kasare]] of [[Raledria]]. The two reserve currencies between them account for the substantial majority of central-bank foreign-exchange holdings reported to the [[Global Trade Union]] by member states.
+
+==Exchange rate==
+
+==See also==
+* [[Raledrian Kasare]]
+* [[Central Bank of Fekunza]]
+* [[Global Trade Union]]
+* [[Economy of Dahe]]
+
+==References==
+{{reflist}}
+
+[[Category:Currencies]]
+[[Category:Reserve currencies]]
+[[Category:Economy of Dahe]]

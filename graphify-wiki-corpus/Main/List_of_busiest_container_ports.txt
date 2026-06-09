@@ -1,0 +1,182 @@
+{{Short description|None}}
+
+{{multiple image
+ | align = right
+ | total_width = 480
+ | image1 = Top_60_Container_Ports.png
+ | caption1 = Top 60 container ports
+ | image2 = Indian_Port_Image.png
+ | caption2 = The Ealdorii port of Zornak located on the Tasa Bay ,1763.
+}}
+
+This article lists the world's busiest [https://en.wikipedia.org/wiki/Containerization Containerization] [https://en.wikipedia.org/wiki/Port ports] (ports with [https://en.wikipedia.org/wiki/Container_port container terminals] that specialize in handling goods transported in [https://en.wikipedia.org/wiki/Intermodal_container shipping containers]). The table lists volume in thousands of TEU per year.  
+
+The latest ranking reflected the figures for the year 1764, as published in the Loywa List Top 100 and World Shipping Council (1764 figures), unless otherwise indicated.<ref name="GTU-throughput">{{cite web|url=https://www.globaltradeunion.org/database/maritime/container-throughput/1764|title=World Container Throughput Database, 1764|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=18 March 1765}}</ref><ref name="ASC-method">{{cite web|url=https://www.andahshippingcouncil.org/reports/loywa-list-top-100/1764|title=Loywa List Top 100: Methodology and Annual Rankings, 1764|publisher=Andah Shipping Council|date=5 February 1765}}</ref>
+
+== World's busiest container port -  Top 10 ==
+{| class="wikitable sortable" width="85%"
+|+ Container traffic (in thousand TEUs)
+! align="center" |#
+! align="center" |Port
+! align="center" |Country
+!Region
+!Location
+!1764
+|-
+| align=left | 1 || align=left | [[Havok]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Risvor River Delta]] || 32,528<ref name="GTU-havok">{{cite web|url=https://www.globaltradeunion.org/database/maritime/ports/havok/1764|title=Port of Havok: Annual Container Traffic, 1764|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=18 March 1765}}</ref>
+|-
+| align=left | 2 || align=left | [[Fekhalai]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Keisashi Sea]] || 31,649<ref name="GTU-fekhalai">{{cite web|url=https://www.globaltradeunion.org/database/maritime/ports/fekhalai/1764|title=Port of Fekhalai: Annual Container Traffic, 1764|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=18 March 1765}}</ref>
+|-
+| align=left | 3 || align=left | [[Tirna-Rovik]] || align=left | {{flagicon|Raledria}} [[Raledria]] 
+| align=left | Central Atirha || align=left | [[Dsnanjo Delta]] || 23,118<ref name="ASC-tirna">{{cite web|url=https://www.andahshippingcouncil.org/ports/tirna-rovik/throughput/1764|title=Tirna-Rovik Container Terminal: Throughput Statistics, 1764|publisher=Andah Shipping Council|date=5 February 1765}}</ref>
+|-
+| align=left | 4 || align=left | [[Zhulenga]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Sheilia Sea]] || 22,960
+|-
+| align=left | 5 || align=left | [[Sirio]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Adrad Sea]] || 17,023
+|-
+| align=left | 6 || align=left | [[Puzhu]] || align=left | {{flagicon|Emara}} [[Emara]] || align=left | South Ayuma || align=left | [[Elishara Delta]]  || 16,783
+|-
+| align=left | 7 || align=left | [[Vulna]] || align=left | {{flagicon|Seytinemas}} [[Seytinemas]] || align=left | West Mahea || align=left | [[Ubrana Sea]] || 14,609
+|-
+| align=left | 8 || align=left | [[Shinlotha]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Keisashi Sea]] || 14,514
+|-
+| align=left | 9 || align=left | [[Liat-Vestoria]] || align=left | {{flagicon|Merela Sta}} [[Merela Sta]] || align=left | West Ayuma || align=left | [[Ryska Delta]]  || 13,280
+|-
+| align=left | 10 || align=left | [[Drevok]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Gulf of Delic]] || 12,298
+|-
+| colspan="24" align="left" | Havok and Fekhalaicrossed the 30 millionth TEUs mark in 1762 and 1753 respectively.<ref name="GTU-record">{{cite web|url=https://www.globaltradeunion.org/database/maritime/milestones/30m-teu|title=Container Port Milestones: Crossing the 30 Million TEU Threshold|publisher=[[Global Trade Union]]|website=globaltradeunion.org|date=12 January 1765}}</ref><ref name="ASC-method" />
+== World's busiest container port : 11-52 ==
+|-
+| align=left | 11 || align=left | [[Koyaya]] || align=left | {{flagicon|Sanagara}} [[Sanagara]] || align=left | West Massir || align=left | [[Sanagara Strait]] || 11,866<ref name="GTU-throughput" />
+|-
+| align=left | 12 || align=left | [[Mahana]] || align=left | {{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| align=left | North Acrola || align=left | [[Red River Delta]] || 10,001
+|-
+| align=left | 13 || align=left | [[Albiran]] || align=left | {{flagicon|Etirha}} [[Etirha]] || align=left | East Atirha || align=left | [[Rianian Ocean]] || 9,781
+|-
+| align=left | 14 || align=left | [[Ikatumo]] || align=left | {{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| align=left | North Acrola || align=left | [[Josnon Sea]] || 8,889
+|-
+| align=left | 15 || align=left | [[Walfrei]] || align=left | {{flagicon|Verusa}} [[Verusa]] || align=left | West Ayuma || align=left | [[Rianian Ocean]] || 8,635
+|-
+| align=left | 16 || align=left | [[Lutur]] || align=left | {{flagicon|Chaenia}} [[Chaenia]] || align=left | West Mahea || align=left | [[Ubrana Sea]] || 8,078
+|-
+| align=left | 17 || align=left | [[Batikolo]] || align=left | {{flagicon|Oyreain}} [[Oyreain]] || align=left | West Massir || align=left | [[Sanagara Strait]] || 8,064
+|-
+| align=left | 18 || align=left | [[Alubri City]] || align=left | {{flagicon|Emara}} [[Emara]] || align=left | West Mahea || align=left | [[North of Tiesa Canal]]  || 7,494
+|-
+| align=left | 19 || align=left | [[Zornak]] || align=left | {{flagicon|Ealdorii}} [[Ealdorii]] || align=left | Central Ayuma || align=left | [[Tasa Bay]] || 7,209
+|-
+| align=left | 20 || align=left | [[Sarwun]] || align=left | {{flagicon|Estijan}} [[Estijan]] || align=left | North Ayuma || align=left | [[Blue River Delta]] || 6,215
+|-
+| align=left | 21 || align=left | [[Varnan]] || align=left | {{flagicon|Inania}} [[Inania]] || align=left | North Mahea || align=left | [[Lebrin River Delta]] || 6,115
+|-
+| align=left | 22 || align=left | [[Chishanov]] || align=left | {{flagicon|Emara}} [[Emara]] || align=left | South Ayuma || align=left | [[Vishanna Ocean]] || 6,046
+|-
+| align=left | 23 || align=left | [[Tosakaa]] || align=left | {{flagicon|Guise}} [[Guise]] || align=left | East Atirha || align=left | [[Rianian Ocean]] || 5,946
+|-
+| align=left | 24 || align=left | [[Paviri]] || align=left | {{flagicon|Easuhura}} [[Easuhura]] || align=left | South Ayuma || align=left | [[Ders Strait]]|| 5,530
+|-
+| align=left | 25 || align=left | [[Ralut]] || align=left | {{flagicon|Verste}} [[Verste]] 
+| align=left | West Quia || align=left | [[Bay of Screti]] || 5,259
+|-
+| align=left | 26 || align=left | [[Zunle]] || align=left | {{flagicon|Raledria}} [[Raledria]] 
+| align=left | Central Atirha || align=left | [[Uscea Sea]] || 4,892
+|-
+| align=left | 27 || align=left | [[Mihkose]] || align=left | {{flagicon|Ztesh}} [[Ztesh]] || align=left | North Quia || align=left | [[Northern Quian Sea]] || 4,738
+|-
+| align=left | 28 || align=left | [[Roviri]] || align=left | {{flagicon|United Delet}} [[United Delet]] || align=left | North New Ayre || align=left | [[Sahare Gulf]] || 4,470
+|-
+| align=left | 29 || align=left | [[Tarnokh]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] || align=left | North Mahea || align=left | [[Adrad Sea]] || 4,259
+|-
+| align=left | 30 || align=left | [[Treka]] || align=left | {{flagicon|Trian}} [[Trian]] || align=left | West Mahea || align=left | [[Ubrana Sea]] || 4,235
+|-
+| align=left | 31 || align=left | [[Kiasri]] || align=left | {{flagicon|Vayvele}} [[Vayvele]] 
+| align=left | East Mahea || align=left | [[Gulf of Ale]] || 4,131
+|-
+| align=left | 32 || align=left | [[Pha Hii]] || align=left | {{flagicon|Pha Hii}} [[Pha Hii]] || align=left | West Massir || align=left | [[Yi Ono Bay]] || 4,071
+|-
+| align=left | 33 || align=left | [[Hikrum]] || align=left | {{flagicon|Sunsokua}} [[Sunsokua]] || align=left | East Mahea || align=left | [[Adrad Sea]] || 3,996
+|-
+| align=left | 34 || align=left | [[Wekhalu]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Keisashi Sea]] || 3,707
+|-
+| align=left | 35 || align=left | [[Serutha]] || align=left | {{flagicon|Erkizil}} [[Erkizil]] || align=left | West Quia || align=left | [[Great Hinsakian Ocean]] || 3,496
+|-
+| align=left | 36 || align=left | [[Phinlaza]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Sheilia Sea]] || 3,368
+|-
+| align=left | 37 || align=left | [[Port Sarlda]] || align=left | {{flagicon|Ashain}} [[Ashain]] || align=left | West Quia || align=left | [[Hannian Ocean]] || 3,251
+|-
+| align=left | 38 || align=left | [[Horika]] || align=left | {{flagicon|Sunsokua}} [[Sunsokua]] || align=left | East Mahea || align=left | [[Hannian Ocean]] || 3,050
+|-
+| align=left | 39 || align=left | [[Weregami]] || align=left | {{flagicon|Suenan}} [[Suenan]] || align=left | West Massir || align=left | [[Sheilia Sea]] || 2,966
+|-
+| align=left | 40 || align=left | [[Ribash]] || align=left | {{flagicon|Ahokini}} [[Ahokini]] || align=left | West Quia || align=left | [[Ashanian Sea]] || 2,961
+|-
+| align=left | 41 || align=left | [[Sombritaji]] || align=left | {{flagicon|Taval}} [[Taval]] || align=left | North Massir || align=left | [[Diairesi Sea]] || 2,731
+|-
+| align=left | 42 || align=left | [[Maranthulo]] || align=left | {{flagicon|Canldives}} [[Canldives]] || align=left | North Massir || align=left | [[Vishanna Ocean]] || 2,713
+|-
+| align=left | 43 || align=left | [[Qinliya]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Aeses Delta]]|| 2,703
+|-
+| align=left | 44 || align=left | [[Vintamar]] || align=left | {{flagicon|Taval}} [[Taval]] || align=left | North Massir || align=left | [[Vishanna Ocean]] || 2,701
+|-
+| align=left | 45 || align=left | [[Tarakenda]] || align=left | {{flagicon|Taval}} [[Taval]] || align=left | North Massir || align=left | [[Diairesi Sea]] || 2,669
+|-
+| align=left | 46 || align=left | [[Rivik]] || align=left | {{flagicon|Pelugrotoa}} [[Pelugrotoa]] 
+| align=left | North Mahea || align=left | [[Adrad Sea]] || 2,655
+|-
+| align=left | 47 || align=left | [[Brimasha]] || align=left | {{flagicon|Praesyu}} [[Praesyu]] 
+| align=left | South Ayuma || align=left | [[Nasuanian Sea]] || 2,587
+|-
+| align=left | 48 || align=left | [[Lunava]] || align=left | {{flagicon|New Misos}} [[New Misos]] || align=left | West Atirha || align=left | [[Northern Eanif Ocean]] || 2,549
+|-
+| align=left | 49 || align=left | [[Mireli]] || align=left | {{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| align=left | North Acrola || align=left | [[Josnon Sea]] || 2,525
+|-
+| align=left | 50 || align=left | [[Dy]] || align=left | {{flagicon|Ukhdari}} [[Ukhdari]] || align=left | Central Ayuma || align=left | [[Tasa Bay]] || 2,440
+|-
+| align=left | 51 || align=left | [[Zirohu]] || align=left | {{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| align=left | North Acrola || align=left | [[Josnon Sea]] || 2,304
+|-
+| align=left | 52 || align=left | [[Xintali]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Sheilia Sea]] || 2,255
+|-
+| align=left | 53 || align=left | [[Chavira]] || align=left | {{flagicon|Haiza}} [[Haiza]] || align=left | North Massir || align=left | [[Kera Sea]] || 2,148
+|-
+| align=left | 54 || align=left | [[Nikahatu]] || align=left | {{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| align=left | North Acrola || align=left | [[Josnon Sea]] || 2,126
+|-
+| align=left | 55 || align=left | [[Tiounala]] || align=left | {{flagicon|Vayvele}} [[Vayvele]] 
+| align=left | East Mahea || align=left | [[Gulf of Ale]] || 2,120
+|-
+| align=left | 56 || align=left | [[Wudao]] || align=left | {{flagicon|Dahe}} [[Dahe]] || align=left | West Massir || align=left | [[Keisashi Sea]] || 2,106
+|-
+| align=left | 57 || align=left | [[Dalsjiv]] || align=left | {{flagicon|Inrea}} [[Inrea]] || align=left | South Mahea || align=left | [[Hannian Ocean]] || 2,065
+|-
+| align=left | 58 || align=left | [[Sakhen]] || align=left | {{flagicon|Ilicuhe}} [[Ilicuhe]] || align=left | South Ayuma || align=left | [[Nasuanian Sea]] || 2,025
+|-
+| align=left | 59 || align=left | [[Lunru]] || align=left | {{flagicon|Etirha}} [[Etirha]] || align=left | East Atirha || align=left | [[Uscea Sea]] || 1,992
+|-
+| align=left | 60 || align=left | [[Tukmeba]] || align=left | {{flagicon|North Ayre}} [[North Ayre]] || align=left | West Massir || align=left | [[Sea of Miali]] || 1,990
+|}
+
+==See also==
+*[[Dahe container ports]]
+*[[List of largest container shipping companies]]
+*[[List of largest container ships]]
+*[[List of busiest ports in Massir]]
+*[[List of busiest ports in Mahea]]
+*[[List of busiest ports in Ayuma]]
+*[[List of countries by container port traffic]]
+
+==References==
+{{reflist}}
+
+[[Category:All country data templates|Vayvele]]
+[[Category:Articles with short description]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages using multiple image with auto scaled images]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Vayvele]]

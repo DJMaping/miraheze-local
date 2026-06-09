@@ -1,0 +1,123 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Niul Spijan
+| native_name            = ''__''  - Estijan
+| image_flag             = Niul Spijan Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = NEE-ul SPEE-jahn
+| national_anthem        = /ˈniː.ʌl ˈspiː.dʒɑːn/
+| image_map              = Niul Spijan Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Niul Spijan(green)
+| capital                = [[Chludu Ura]]
+| largest_city           = [[Chludu Ura]]
+| official_languages     = Estijan
+| demonym                = Spijani
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Niul Spijan
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 
+| established_event1     = [[Establishment of Niul Spijan]]
+| established_date1      = 1605 AFA
+| established_event2     = [[Dominion of Niul Spijan]]
+| established_date2      = 1630 AFA
+| established_event3     = Republic established
+| established_date3      = 1740 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 149th
+| area_km2               = 18,110
+| area_sq_mi             = 6,992
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}220,218<ref name="POP NIU">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.niu/List_of_countries_and_dependencies_by_population/Niul Spijan|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 161st
+| population_estimate_year = 1765
+| population_density_km2 = 12.16
+| population_density_rank = 138th
+| GDP_PPP                = {{increase}} {{lahn}}2.584 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/niu/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 159th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}11,738
+| GDP_PPP_per_capita_rank = 96th
+| GDP_nominal            = {{increase}} {{lahn}}760.275 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/niu/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 160th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,452
+| GDP_nominal_per_capita_rank = 111st
+| HDI_year               = 1765
+| HDI                    = 0.562
+| HDI_change             = increase
+| HDI_rank               = 153rd
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Estijan Zundetra]] (_) (EZD)
+| time_zone              = SET +3 (Standard Spijani Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .niu
+| calling_code           = +34
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+Cities in [[Niul Spijan]] (population figures not yet available):
+* [[Cheludu Ura]]
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.niu/ The Republic of Niul Spijan's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Niul Spijan] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/niul_spijan/ Niul Spijan]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:CS1 errors]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

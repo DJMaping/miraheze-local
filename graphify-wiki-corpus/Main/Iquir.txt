@@ -1,0 +1,129 @@
+{{Infobox country
+| conventional_long_name = Republic of Iquir
+| native_name            = ''__''  - Iquirian
+| image_flag             = Iquir Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = EE-kwir
+| national_anthem        = /iːˈkwɪr/
+| image_map              = Iquir Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Iquir(green)
+| capital                = [[Chavillar]]
+| largest_city           = [[Chavillar]]
+| official_languages     = Iquirian
+| ethnic_groups          = 45.7% Iquirian<br>18.5% [[Welum]]<br>12.8% [[Eshi]]<br>7.1% [[Hadao]]<br>6.4% [[Terressin]]<br>9.5% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.iqu/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Iquir]] }}</ref>
+| demonym                = Iquirian
+| government_type        = Unitary semi-presidential republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Iquir
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 
+| established_event1     = [[Zeriush Kingdom]]
+| established_date1      = 1391 AFA
+| established_event2     = [[Iquir independence war]]
+| established_date2      = 1675 AFA
+| established_event3     = [[Second republic]]
+| established_date3      = 1722 AFA
+| established_event4     = [[Third republic]]
+| established_date4      = 1726 AFA
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 70th
+| area_km2               = 489,302
+| area_sq_mi             = 188,920
+| area_footnote          = <!--Optional footnote for area-->
+| population_estimate    = {{increaseNeutral}}36,356,000<ref name="POP IQU">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.iqu/List_of_countries_and_dependencies_by_population/Iquir|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 38th
+| population_estimate_year = 1765
+| population_density_km2 = 74.3
+| population_density_rank = 59th
+| GDP_PPP                = {{increase}} {{lahn}}140.173 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/iqu/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 80th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,856
+| GDP_PPP_per_capita_rank = 155th
+| GDP_nominal            = {{increase}} {{lahn}}40.395 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/iqu/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 95th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}1,111
+| GDP_nominal_per_capita_rank = 153rd
+| HDI_year               = 1765
+| HDI                    = 0.560
+| HDI_change             = increase
+| HDI_rank               = 154th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Qekinin]] (_) (QEK)
+| time_zone              = SIQ +3 (Standard Iquirian Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .iqu
+| calling_code           = +910
+}}
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Iquir]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/iquir|title=World Population Prospects 1765: Iquir|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Chavillar]] || 6,430,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.iqu/ The Republic of Iquir's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Iquir] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/iquir/ Iquir]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

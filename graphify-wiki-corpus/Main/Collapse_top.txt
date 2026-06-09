@@ -1,0 +1,14 @@
+{{ safesubst:<noinclude/>ifsubst||<templatestyles src="Template:Collapse_top/styles.css"/>}}
+<div style="margin-left:{{{indent|0}}}"><!-- NOTE: width renders incorrectly if added to main STYLE section -->
+{| role="presentation" <!-- Template:Collapse top --> class="mw-collapsible mw-archivedtalk {{<includeonly>safesubst:</includeonly>#if:{{{expand|{{{collapse|}}}}}}||mw-collapsed}} {{{class|}}}" style="color:inherit; background: {{{bg1|transparent}}}; text-align: left; border: {{{border|1px}}} solid {{{b-color|Silver}}}; margin: 0.2em auto auto; width:{{<includeonly>safesubst:</includeonly>#if:{{{width|}}}|{{{width}}}|100%}}; clear: {{{clear|both}}}; padding: 1px;"
+|-
+! class="{{main other|cot-header-mainspace|cot-header-other}}" style="{{<includeonly>safesubst:</includeonly>#if:{{{bg|}}}|background:{{{bg}}}|{{ safesubst:<noinclude/>ifsubst|{{main other|background:#F0F2F5|background:#CCFFCC}}|}}}}; font-size:87%; padding:0.2em 0.3em; text-align:{{<includeonly>safesubst:</includeonly>#if:{{{left|}}}|left|{{<includeonly>safesubst:</includeonly>#if:{{{align|}}}|left|center}}}}; {{<includeonly>safesubst:</includeonly>#if:{{{fc|}}}|color: {{{fc}}};|{{<includeonly>safesubst:</includeonly>#if:{{{bg|}}}|color:#202122|{{ safesubst:<noinclude/>ifsubst|color:black;|}}}}}}" | <div style="font-size:115%;{{<includeonly>safesubst:</includeonly>#if:{{{left|}}}||margin:0 4em}}">{{{1|{{{title|{{{reason|{{{header|{{{heading|{{{result|Extended content}}}}}}}}}}}}}}}}}}</div>   
+{{<includeonly>safesubst:</includeonly>#if:{{{warning|{{{2|}}}}}}
+|{{<includeonly>safesubst:</includeonly>!}}-
+{{<includeonly>safesubst:</includeonly>!}} style="text-align:center; font-style:italic;" {{<includeonly>safesubst:</includeonly>!}} {{{2|The following is a closed discussion. {{strongbad|Please do not modify it.}} }}} }}
+|-
+| style="color:inherit; border: solid {{{border2|1px Silver}}}; padding: {{{padding|0.6em}}}; background: {{{bg2|var(--background-color-base, #fff)}}};" {{<includeonly>safesubst:</includeonly>!}}<noinclude>
+{{lorem ipsum|3}}
+{{Collapse bottom}}
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,129 @@
+{{Infobox country
+| conventional_long_name = Republic of Prstreula
+| native_name            = ''__''  - Alqiran
+| image_flag             = Prstreula Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = PRA-stree-oo-lah
+| national_anthem        = /ˈprɑː.striː.uː.lɑː/
+| image_map              = Prstreula Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Prstreula (green)
+| capital                = [[Kavani]]
+| largest_city           = [[Kavani]]
+| official_languages     = Alqiran
+| religion               = 88.6% [[Kallimethra]]<br>4.5% [[wikipedia:Irreligion|Irreligion]]<br>6.9% [[Religion in Prstreula|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.prs/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Prstreula]] }}</ref>
+| demonym                = Prstreulan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Prstreula
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Kocis]]
+| established            = 
+| established_event1     = [[Kocis colony]]
+| established_date1      = 1347 AFA
+| established_event2     = Independence 
+| established_date2      = 1585 AFA
+| established_event3     = Recognised 
+| established_date3      = 1589 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 93rd
+| area_km2               = 300,940
+| area_sq_mi             = 116,194
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}6,835,000<ref name="POP PRS">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.prs/List_of_countries_and_dependencies_by_population/Prstreula|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 109th
+| population_estimate_year = 1765
+| population_density_km2 = 22.715
+| population_density_rank = 126th
+| GDP_PPP                = {{increase}} {{lahn}}102.195 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/prs/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 91st
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}14,950
+| GDP_PPP_per_capita_rank = 77th
+| GDP_nominal            = {{increase}} {{lahn}}49.370 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/prs/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 87th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}7,222
+| GDP_nominal_per_capita_rank = 82nd
+| HDI_year               = 1765
+| HDI                    = 0.810
+| HDI_change             = increase
+| HDI_rank               = 66th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Prstreulan Nie]] (_) (YAC)
+| time_zone              = SET -7 (Standard PrstreulanTime)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .prs
+| calling_code           = +69
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Prstreula]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/prstreula|title=World Population Prospects 1765: Prstreula|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Kavani]] || 1,349,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.prs/ The Republic of Prstreula's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Prstreula] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/prstreula/ Prstreula]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

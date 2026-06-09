@@ -1,0 +1,132 @@
+{{Infobox country
+| conventional_long_name = Republic of Lydroa
+| native_name            = ''__''  - Lydroan
+| image_flag             = Lydroa Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = LID-roh-ah
+| national_anthem        = /ˈlɪd.roʊ.ɑː/
+| image_map              = Lydroa Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Lydroa(green)
+| capital                = [[Zarfan]]
+| largest_city           = [[Zarfan]]
+| official_languages     = Lydroan
+| ethnic_groups          = 81.7% Lydroan<br>11.3% Iapima<br>3.7% Verusan<br>3.3% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.lyd/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Lydroa]] }}</ref>
+| religion               = 41.5% Kelhari<br>35.7% [[wikipedia:Irreligion|Irreligion]]<br>20.8% Kallimethra<br>2% [[Religion in Lydroa|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.lyd/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Lydroa]] }}</ref>
+| demonym                = Lydroan
+| government_type        = Unitary presidential republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Lydroa
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Estijan Huan]]
+| established            = 
+| established_event1     = Independence
+| established_date1      = 1740 AFA
+| established_event2     = [[Global Trade Union|GTU]] membership
+| established_date2      = 1742 AFA
+| established_event3     = Current constitution
+| established_date3      = 1753 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 96th
+| area_km2               = 268,177
+| area_sq_mi             = 103,544
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.68
+| population_estimate    = {{increaseNeutral}}18,995,781<ref name="POP LYD">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.lyd/List_of_countries_and_dependencies_by_population/Lydroa|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 69th
+| population_estimate_year = 1765
+| population_density_km2 = 70.8
+| population_density_rank = 64th
+| GDP_PPP                = {{increase}} {{lahn}}289.972 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/lyd/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 51st
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}15,265
+| GDP_PPP_per_capita_rank = 76th
+| GDP_nominal            = {{increase}} {{lahn}}122.869 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/lyd/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 58th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}6,468
+| GDP_nominal_per_capita_rank = 83rd
+| HDI_year               = 1765
+| HDI                    = 0.756
+| HDI_change             = increase
+| HDI_rank               = 88th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Fameran]] (_) (FAM)
+| time_zone              = SYD +1 (Standard Lydroan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .lyd
+| calling_code           = +36
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Lydroa]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/lydroa|title=World Population Prospects 1765: Lydroa|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Zarfan]] || 1,738,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.lyd/ The Republic of Lydroa's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Lydroa] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/lydroa/ Lydroa]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,157 @@
+{
+  "C:\\Users\\danny\\Documents\\miraheze-local\\.claude\\settings.local.json": {
+    "mtime": 1780262055.1185584,
+    "ast_hash": "116af3be9b50d8159b9e6116fb7ef635",
+    "semantic_hash": "116af3be9b50d8159b9e6116fb7ef635"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\.last_push.json": {
+    "mtime": 1780263958.364297,
+    "ast_hash": "8fd1ae86e88936cc7f635fda755e1152",
+    "semantic_hash": "8fd1ae86e88936cc7f635fda755e1152"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\_create_new.py": {
+    "mtime": 1780085292.7672358,
+    "ast_hash": "74cdcbe2703c7e4f5ba267be861cfbda",
+    "semantic_hash": "74cdcbe2703c7e4f5ba267be861cfbda"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\_publish_new.py": {
+    "mtime": 1779967560.4710586,
+    "ast_hash": "4580ad5d0991b816f8ca1a092ef57d71",
+    "semantic_hash": "4580ad5d0991b816f8ca1a092ef57d71"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\generate_cities.py": {
+    "mtime": 1780261935.3675444,
+    "ast_hash": "4eccef6504249824d7a93da66706a790",
+    "semantic_hash": "4eccef6504249824d7a93da66706a790"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\gstack-retry-setup.sh": {
+    "mtime": 1780249038.729943,
+    "ast_hash": "edec603b9358492c690797ce9968f827",
+    "semantic_hash": "edec603b9358492c690797ce9968f827"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\gstack-run-setup.sh": {
+    "mtime": 1780249038.729943,
+    "ast_hash": "6f97c68c9365b03190bc6d1a642821a3",
+    "semantic_hash": "6f97c68c9365b03190bc6d1a642821a3"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\pull.py": {
+    "mtime": 1779560025.7122438,
+    "ast_hash": "c28c13dd877c3bf91107291667ed5d08",
+    "semantic_hash": "c28c13dd877c3bf91107291667ed5d08"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\push.py": {
+    "mtime": 1779557501.3986075,
+    "ast_hash": "6af3973e55ed1a3acac719e026ef4e88",
+    "semantic_hash": "6af3973e55ed1a3acac719e026ef4e88"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\push_recent.py": {
+    "mtime": 1780063671.5616622,
+    "ast_hash": "5679fd3d6044345784cbec333379fbcb",
+    "semantic_hash": "5679fd3d6044345784cbec333379fbcb"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\to_obsidian.py": {
+    "mtime": 1780245178.9450998,
+    "ast_hash": "a7d954ce62320c885e6621efddfe2347",
+    "semantic_hash": "a7d954ce62320c885e6621efddfe2347"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\README.md": {
+    "mtime": 1779557502.5135665,
+    "ast_hash": "602bbdd20359b2d636d4ce51e6e513ad",
+    "semantic_hash": "602bbdd20359b2d636d4ce51e6e513ad"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1700-world-cup.txt": {
+    "mtime": 1780053701.5454986,
+    "ast_hash": "f77d65e27ef46ad1faac0fff8b6b0c87",
+    "semantic_hash": "f77d65e27ef46ad1faac0fff8b6b0c87"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1704-world-cup.txt": {
+    "mtime": 1780052769.7718167,
+    "ast_hash": "612f9fcb1c22cc665b13c71df30775de",
+    "semantic_hash": "612f9fcb1c22cc665b13c71df30775de"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1708-world-cup.txt": {
+    "mtime": 1780053011.095375,
+    "ast_hash": "922f36d44d2c2bdbdc444cb07255cbfd",
+    "semantic_hash": "922f36d44d2c2bdbdc444cb07255cbfd"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1712-world-cup.txt": {
+    "mtime": 1780053926.053813,
+    "ast_hash": "50f9904b8e8479e7cd54b5aa1b025886",
+    "semantic_hash": "50f9904b8e8479e7cd54b5aa1b025886"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1716-world-cup.txt": {
+    "mtime": 1780053914.5899065,
+    "ast_hash": "7925c5171d51526e7d2560c058c27d3f",
+    "semantic_hash": "7925c5171d51526e7d2560c058c27d3f"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1720-world-cup.txt": {
+    "mtime": 1780053894.8297148,
+    "ast_hash": "f060aee6c5ea08ed4aa701c13460686e",
+    "semantic_hash": "f060aee6c5ea08ed4aa701c13460686e"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1724-world-cup.txt": {
+    "mtime": 1780049464.6448822,
+    "ast_hash": "b4de122f33bb67a2814119b012ed31e5",
+    "semantic_hash": "b4de122f33bb67a2814119b012ed31e5"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1728-world-cup.txt": {
+    "mtime": 1780053868.5485218,
+    "ast_hash": "3bbd02a7b71d89af7a40dca37b72850a",
+    "semantic_hash": "3bbd02a7b71d89af7a40dca37b72850a"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1732-world-cup.txt": {
+    "mtime": 1780048441.0183225,
+    "ast_hash": "14792b32c11c09b518878b18da0e27bf",
+    "semantic_hash": "14792b32c11c09b518878b18da0e27bf"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1736-world-cup.txt": {
+    "mtime": 1780047018.1654806,
+    "ast_hash": "545282e4e28a8feb523c4cc0b3e662b3",
+    "semantic_hash": "545282e4e28a8feb523c4cc0b3e662b3"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1740-world-cup.txt": {
+    "mtime": 1780046579.4223692,
+    "ast_hash": "3f451d1a91d0df93baacc603363c19e1",
+    "semantic_hash": "3f451d1a91d0df93baacc603363c19e1"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1744-world-cup.txt": {
+    "mtime": 1780045851.6043577,
+    "ast_hash": "f6af047d0c1858b74f642813a486119d",
+    "semantic_hash": "f6af047d0c1858b74f642813a486119d"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1748-world-cup.txt": {
+    "mtime": 1780045279.5696938,
+    "ast_hash": "a5e073a277a7cd8dd34a1c1d1947e2d6",
+    "semantic_hash": "a5e073a277a7cd8dd34a1c1d1947e2d6"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1752-world-cup.txt": {
+    "mtime": 1780045080.5917146,
+    "ast_hash": "eb8fa4b8c4d051a0d350a12a71325b27",
+    "semantic_hash": "eb8fa4b8c4d051a0d350a12a71325b27"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1756-world-cup.txt": {
+    "mtime": 1780043414.2582998,
+    "ast_hash": "fbd09b7496310dd18ccc14af47fe1f56",
+    "semantic_hash": "fbd09b7496310dd18ccc14af47fe1f56"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1760-world-cup.txt": {
+    "mtime": 1780000978.9674165,
+    "ast_hash": "0b43eb3e9710bc52c7c713ed8187492c",
+    "semantic_hash": "0b43eb3e9710bc52c7c713ed8187492c"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\Simulation results\\1764-world-cup.txt": {
+    "mtime": 1780055085.567109,
+    "ast_hash": "168a912c5262f21924a2f712d8799b9f",
+    "semantic_hash": "168a912c5262f21924a2f712d8799b9f"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\data\\simulation-result.txt": {
+    "mtime": 1779964672.117763,
+    "ast_hash": "42e73248c03c61b3f4d51aaa819c96fe",
+    "semantic_hash": "42e73248c03c61b3f4d51aaa819c96fe"
+  },
+  "C:\\Users\\danny\\Documents\\miraheze-local\\skyscrapers_dump.txt": {
+    "mtime": 1779577521.4989774,
+    "ast_hash": "7b2a3f186294549fcffa28446fcfc78a",
+    "semantic_hash": "7b2a3f186294549fcffa28446fcfc78a"
+  }
+}

@@ -1,0 +1,128 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Rijan bu
+| native_name            = ''__''  - Emaran
+| image_flag             = Rijan bu Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = REE-jahn boo
+| national_anthem        = /ˈriː.dʒɑːn buː/
+| image_map              = Rijan bu Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Rijan bu(green)
+| capital                = [[Maphinde]]
+| largest_city           = [[Maphinde]]
+| official_languages     = [[Emara|Emaran]]
+| religion               = 68.6% [[wikipedia:Irreligion|Irreligion]]<br>23.2% [[Imarel]]<br>8.2% [[Religion in Rijan bu|Others]]<br>1.5% N/a
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.rij/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Rijan bu]] }}</ref>
+| demonym                = Buan
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Rijan bu
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Waisan Port]]
+| established_date1      = 1607 AFA
+| established_event2     = Independence
+| established_date2      = 1713 AFA
+| established_event3     = 
+| established_date3      = 
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 147th
+| area_km2               = 21,457
+| area_sq_mi             = 8,285
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 5.02
+| population_estimate    = {{increaseNeutral}}3,626,297<ref name="POP RIJ">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.rij/List_of_countries_and_dependencies_by_population/Rijan bu|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 121st
+| population_estimate_year = 1765
+| population_density_km2 = 169.0
+| population_density_rank = 21st
+| GDP_PPP                = {{increase}} {{lahn}}68.514 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/rij/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 105th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}18,894
+| GDP_PPP_per_capita_rank = 54th
+| GDP_nominal            = {{increase}} {{lahn}}46.911 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/rij/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 89th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}12,937
+| GDP_nominal_per_capita_rank = 41st
+| HDI_year               = 1765
+| HDI                    = 0.776
+| HDI_change             = increase
+| HDI_rank               = 78th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Buan Mejit]] (_) (BMJ)
+| time_zone              = SET +4 (Standard Buan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .rij
+| calling_code           = +944
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+Cities in [[Rijan bu]] (population figures not yet available):
+* [[Agbanilo]]
+* [[Maphinde]]
+* [[Sukutem]]
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.rij/ The Federal Republic of Rijan bu's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Rijan bu] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/rijan_bu/ Rijan bu]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:CS1 errors]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,146 @@
+{{Infobox country
+| conventional_long_name = Kingdom of Inania
+| native_name            = ''__''  - Inanian
+| image_flag             = Inania Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = ih-NAH-nee-uh
+| national_anthem        = /ɪˈnɑː.ni.ə/
+| image_map              = Inanian Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Inania (green)
+| capital                = [[Fashti]]
+| largest_city           = [[Fashti]]
+| official_languages     = Inanian
+| regional_languages     = 
+| ethnic_groups          = 78.3% Inanian<br>10.3% Tyrnotean<br>3.1% [[Lieri|Lierin]]<br>2.2% [[Deschon]]<br>5.0% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.ina/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Inania]] }}</ref>
+| religion               = 94.5% Thessovai<br>3.9% [[wikipedia:Irreligion|None]]<br>1.6% [[Religion in Inania|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ina/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Inania]] }}</ref>
+| demonym                = Inanian
+| government_type        = Unitary parliamentary constitutional monarchy
+| leader_title1          = King
+| leader_name1           = N/a
+| leader_title2          = High Minister
+| leader_name2           = N/a
+| legislature            = White Square
+| lower_house            = National Congress
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 
+| established_event1     = Inana Kingdom
+| established_date1      = 831 AFA
+| established_event2     = Inanian Empire
+| established_date2      = 1146 AFA
+| established_event3     = National Congress
+| established_date3      = 1703 AFA
+| area_rank              = 7th
+| area_km2               = 2,964,408
+| area_sq_mi             = 1,144,564
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 3.92
+| population_estimate    = {{increaseNeutral}}236,475,000<ref name="POP INA">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.ina/List_of_countries_and_dependencies_by_population/Inania|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 25st
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}234,330,000<ref>{{cite web|url=https://www.gov.ina/1765/caX3a/INANIA_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Inania]] }}</ref>
+| population_census_year = 1764
+| population_density_km2 = 79.8
+| population_density_sq_mi = 30.8
+| population_density_rank = 56th
+| GDP_PPP                = {{increase}} {{lahn}}2.135 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ina/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 9th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}9,029
+| GDP_PPP_per_capita_rank = 112th
+| GDP_nominal            = {{increase}} {{lahn}}741 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ina/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 19th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,135
+| GDP_nominal_per_capita_rank = 116th
+| HDI_year               = 1765
+| HDI                    = 0.769
+| HDI_change             = increase
+| HDI_rank               = 80th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Inanian Oran]] (_) (IOR)
+| time_zone              = UTC +4 to +5
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .ina
+| calling_code           = +902
+}}
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Inania]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/inania|title=World Population Prospects 1765: Inania|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Fashti]] || 18,819,000 || 11 || [[Kastra]] || 1,359,000
+|-
+| 2 || [[Varnan]] || 9,010,000 || 12 || [[Liroska]] || 1,358,000
+|-
+| 3 || [[Yolan]] || 3,880,000 || 13 || [[Zavrik]] || 1,241,000
+|-
+| 4 || [[Hondir]] || 2,822,000 || 14 || [[Yrelth]] || 1,214,000
+|-
+| 5 || [[Kirvok]] || 2,149,000 || 15 || [[Zinthi]] || 1,168,000
+|-
+| 6 || [[Swandor]] || 1,996,000 || 16 || [[Syntar]] || 1,137,000
+|-
+| 7 || [[Lokren]] || 1,959,000 || 17 || [[Taylan]] || 1,092,000
+|-
+| 8 || [[Jiloth]] || 1,822,000 || 18 || [[Vekti]] || 1,002,000
+|-
+| 9 || [[Junik]] || 1,481,000 ||  || || 
+|-
+| 10 || [[Zanir]] || 1,381,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ina/ The Kingdom of Inania's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Inania] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/inania/ Inania]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

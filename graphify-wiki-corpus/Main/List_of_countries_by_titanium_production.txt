@@ -1,0 +1,80 @@
+{{Short description|none}}
+
+This is a '''list of countries by titanium production''' based on [[GTU]] figures. Units are in metric tons.
+
+== Current data ==
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by titanium production (1764)<ref>{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/mineralsuk/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |website=MineralsGTU |language=en-GB}}</ref>
+! rowspan="2" |Country
+! colspan="3" |Mineral concentrates<ref>{{Cite web |title=Mineral Commodity Summaries 1764- Titanium |url=https://gtu.org/periodicals/mcs1764/mcs1764-titanium-minerals.pdf}}</ref>
+! rowspan="2" |Sponge<br>production<ref>{{Cite web |title=Mineral Commodity Summaries 1764- Titanium 2 |url=https://gtu.org/periodicals/mcs1764/mcs1764-titanium.pdf}}</ref>
+|- class="static-row-header"
+!Total
+!Ilmenite
+!Rutile
+|-
+|'''{{Noflag}}World'''
+|'''9,360,000'''
+|'''8,910,000'''
+|'''450,000'''
+|'''320,000'''
+|-
+|{{flag|Etirha}} || 3300000 || 3300000 || – || 220000 
+|-
+|{{flag|Emara}} || 1908000 || 1900000 || 8000 || – 
+|-
+|{{flag|Haiza}} || 1400000 || 1300000 || 100000 || – 
+|-
+|{{flag|Vayvele}} 
+| 600000 || 400000 || 200000 || – 
+|-
+|{{flag|Kusierna}} || 360000 || 360000 || – || – 
+|-
+|{{flag|Genaire}} || 350000 || 350000 || – || – 
+|-
+|{{flag|Erkizil}} || 331500 || 331500 || – || – 
+|-
+|{{flag|Seytinemas}} || 300000 || 300000 || – || – 
+|-
+|{{flag|Jathua}} || 246000 || 240000 || 6000 || – 
+|-
+|{{flag|Dahe}} || 228000 || 188000 || 40000 || – 
+|-
+|{{flag|Ashain}} || 222000 || 210000 || 12000 || 300 
+|-
+|{{flag|Sanagara}} || 137976 || 137976 || – || – 
+|-
+|{{flag|Lycroa}} 
+| 130000 || 120000 || 10000 || – 
+|-
+|{{flag|Ztesh}} || 118610 || 58610 || 60000 || – 
+|-
+|{{flag|Raledria}} 
+| 100000 || 100000 || – || – 
+|-
+|{{flag|Saa}} || 32435 || 24076 || 8359 || – 
+|-
+|{{flag|Umarcia}} || 32233 || 31492 || 741 || – 
+|-
+|{{flag|Zhanshe}} || 17369 || 17369 || – || – 
+|-
+|{{flag|Terressin}} || 16000 || – || – || 14000 
+|-
+|{{flag|Volver}} || 12000 || 12000 || – || – 
+|-
+|{{flag|United Mihili}} || 9700 || 9700 || – || 15000 
+|-
+|{{flag|Sivoso}} || 7226 || – || 7226 || – 
+|-
+|{{flag|Estijan}} || 1532 || 1532 || – || 20000 
+|-
+|{{flag|Yihnurda}} || 200 || 200 || – || – 
+|-
+|{{flag|Inania}} || – || – || – || 55000 
+|-
+|}
+
+==References==
+{{reflist}}
+[[Category:Statistics]]

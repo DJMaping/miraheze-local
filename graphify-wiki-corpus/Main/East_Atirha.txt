@@ -1,0 +1,80 @@
+{{Infobox continent
+|title          = East Atirha
+|image          = East Atirha Globe.png
+|imagecaption   = Location of East Atirha
+|area           = {{convert|3,956,846|km2|sqmi|abbr=on}}
+|population     = 107,817,357 (1765)
+|density        = {{convert|27.25|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}2.719 trillion
+|GDP_nominal    = {{lahn}}3.076 trillion
+|GDP_per_capita = {{lahn}}28,534
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = East Atirhan
+|countries      = 7
+|list_countries = 
+|dependencies   = 2
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Easuhuran Language|Easuhuran]] 
+* [[Ersuckl Language|Ersuckl]] 
+* [[Lastnu Language|Lastnu]]
+* [[Estijan Language|Estijan]] 
+* [[Emaran Language|Emaran]] 
+* [[Fravala Language|Fravala]] 
+* [[Lycroan Language|Lycroan]] 
+}}
+|time           = UTC -4 to -3
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Roviri]]
+*[[Dariya]]
+*[[Naliti]]
+*[[Albiran]]
+*[[Lunru]]
+*[[Kavlira]]
+*[[Shinori]]
+*[[Turkhian]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''East Atirha''' is a sub-continent located in the northern hemisphere. It is bordered the [[Uscea Sea]] and [[Rianian Sea]] to the south. [[Central Atirha]] to the west, [[Srandan Ocean]] to the north, and the [[Rianian Ocean]] to the east. The continent covers around {{convert|3,956,846|km2|sqmi|abbr=on}} of land, making it the 15th largest sub-continent in the world, with a total of about 107,817,357 as of 1765, making it also the 20th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Disal Nila}} || [[Disal Nila]] || style="text-align:right;" | 168,040 || style="text-align:right;" | 7,438,559 || style="text-align:right;" | 44 || [[Naliti]]
+|-
+| style="text-align:center;"| {{flagicon|Etirha}} || [[Etirha]] || style="text-align:right;" | 1,864,826 || style="text-align:right;" | 74,667,447 || style="text-align:right;" | 40 || [[Albiran]]
+|-
+| style="text-align:center;"| {{flagicon|Grazail}} || [[Grazail]] || style="text-align:right;" | 202,209 || style="text-align:right;" | 3,347,590 || style="text-align:right;" | 17 || [[Mushira]]
+|-
+| style="text-align:center;"| {{flagicon|Guise}} || [[Guise]] || style="text-align:right;" | 8,590 || style="text-align:right;" | 833,491 || style="text-align:right;" | 97 || [[Tosakaa]]
+|-
+| style="text-align:center;"| {{flagicon|Laselteh}} || [[Laselteh]] || style="text-align:right;" | 1,599,030 || style="text-align:right;" | 6,524,522 || style="text-align:right;" | 4 || [[Dariya]]
+|-
+| style="text-align:center;"| {{flagicon|Peka}} || [[Peka]] || style="text-align:right;" | 34,109 || style="text-align:right;" | 1,300,163 || style="text-align:right;" | 38 || [[Kerefa]]
+|-
+| style="text-align:center;"| {{flagicon|Pelan}} || [[Pelan]] || style="text-align:right;" | 80,042 || style="text-align:right;" | 13,705,584 || style="text-align:right;" | 171 || [[Taoqu]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 3,956,846
+| style="text-align:right;"| 107,817,356
+| style="text-align:right;"| 27
+|}
+==References==
+{{reflist}}
+[[Category:Geoscheme]]

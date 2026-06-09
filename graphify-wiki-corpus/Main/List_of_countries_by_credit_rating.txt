@@ -1,0 +1,533 @@
+{{Short description|None}} This article contains a list of countries by [[credit rating]], showing long-term foreign currency credit ratings for [[government bond]]s as reported by the two major credit rating agencies: [[Nutawa Group]], and [[The Financial Group]].<ref name="sru-overview">{{cite web|url=https://www.sovereignratingsunion.org/methodology/sovereign-ratings-overview|title=Sovereign Ratings: Definitions, Scales and Outlooks|publisher=Sovereign Ratings Union|date=12 January 1764}}</ref> The list also includes all [[administrative divisions]] not issuing sovereign bonds, but it excludes regions, provinces and municipalities issuing [[sub-sovereign bonds]].<ref name="sru-coverage">{{cite web|url=https://www.sovereignratingsunion.org/database/coverage-and-perimeter|title=Coverage and Rating Perimeter for Sovereign Issuers|publisher=Sovereign Ratings Union|date=3 February 1764}}</ref>
+
+==Nutawa Group==
+[[File:Nutawa Group Foreign Credit Ratings 1764.png|thumb|410x410px|Map of Nutawa's sovereign long-term foreign credit ratings as of 1764.
+<br />'''Legend:'''<br />{{legend inline|#006600|R0.0}} {{legend inline|#009900|R0.01}} {{legend inline|#00cc00|R0.02}} {{legend inline|#99ff33|R0.03}}  <br /> {{legend inline|#e0ff00|C0.04}} {{legend inline|#ffffcc|C0.05}} {{legend inline|#ffff66|C0.06}} {{legend inline|#ffcc66|C0.07}}<br /> {{legend inline|#ff9933|P0.08}} {{legend inline|#ff6600|P0.09}} <br />{{legend inline|#ff3333|S0.10}} {{legend inline|#af0000|S0.11}}]]
+<!-- key for sorting, S&P: D, Negative=010;    D, Stable=011;    D, Positive=012;
+                           C, Negative=020;    C, Stable=021;    C, Positive=022;
+                           CC, Negative=030;   CC, Stable=031;   CC, Positive=032;
+                           S1.1, Negative=040; CCC−, Stable=041; S1.1, Positive=042;
+                           CCC, Negative=050;  CCC, Stable=051;  CCC, Positive=052;
+                           S1.0, Negative=060; S1.0, Stable=061; S1.0, Positive=062;
+                           B−, Negative=070;   B−, Stable=071;   B−, Positive=072;
+                           P.09, Negative=080;   P.09, Stable=081;   P.09, Positive=082;
+                           P.08, Negative=090;   P.08, Stable=091;   P.08, Positive=092;
+                           BB−, Negative=100;  BB−, Stable=101;  BB−, Positive=102;
+                           C0.07, Negative=110;   C0.07, Stable=111;   C0.07, Positive=112;
+                           BB+, Negative=120;  BB+, Stable=121;  BB+, Positive=122;
+                           BBB−, Negative=130; BBB−, Stable=131; BBB−, Positive=132;
+                           C0.06, Negative=140;  C0.06, Stable=141;  C0.06, Positive=142;
+                           C0.05, Negative=150; C0.05, Stable=151; C0.05, Positive=152;
+                           C0.04, Negative=160;   C0.04, Stable=161;   C0.04, Positive=162;
+                           A, Negative=170;    A, Stable=171;    A, Positive=172;
+                           R0.03, Negative=180;   R0.03, Stable=181;   R0.03, Positive=182;
+                           AA−, Negative=190;  AA−, Stable=191;  AA−, Positive=192;
+                           R0.02, Negative=200;   R0.02, Stable=201;   R0.02, Positive=202;
+                           R0.01, Negative=210;  R0.01, Stable=211;  R0.01, Positive=212;
+                           R0.0, Negative=220;  R0.0, Stable=221;  R0.0, Positive=222; -->For Nutawa, a bond is considered [[investment grade]] if its credit rating is C0.5 or higher. Bonds rated C0.6 and below are considered to be [[speculative grade]], sometimes also referred to as "junk" bonds.<ref name="sru-nutawa-scale">{{cite web|url=https://www.sovereignratingsunion.org/agencies/nutawa-group/rating-scale|title=Nutawa Group Long-Term Sovereign Rating Scale|publisher=Sovereign Ratings Union|date=20 January 1764}}</ref> An S rating indicates that the country has selectively defaulted on some outstanding obligations.<ref name="sru-default">{{cite web|url=https://www.sovereignratingsunion.org/methodology/selective-default|title=Selective Default and Distressed Exchanges in Sovereign Ratings|publisher=Sovereign Ratings Union|date=28 March 1764}}</ref>
+
+{{static row numbers}}
+{{Table alignment}} 
+{| class="wikitable sortable static-row-numbers static-row-header-text col1left col3right" style="text-align:center;"
+|-
+! data-sort-type=text | Country/Territory
+! data-sort-type=number | Rating
+! data-sort-type=text | Outlook
+! Date
+|-
+| {{flag|Acetoa}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1764
+|-
+| {{flag|Acrana}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Aetintio}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ahokini}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Anymna}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Aplasia}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Arbiya}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Areoix Lie}} 
+| data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ashain}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Astye}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Chaenia}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}}<ref name="sru-chaenia-1764">{{cite web|url=https://www.sovereignratingsunion.org/ratings/nutawa-group/chaenia-outlook|title=Nutawa Group revises Chaenia outlook to negative at R0.3|publisher=Sovereign Ratings Union|date=2 March 1764}}</ref> || 1764
+|-
+| {{flag|Curata}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1764
+|-
+| {{flag|Dahe}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}}<ref name="sru-dahe-1764">{{cite web|url=https://www.sovereignratingsunion.org/ratings/nutawa-group/dahe|title=Nutawa Group affirms Dahe at R0.0, outlook stable|publisher=Sovereign Ratings Union|date=9 April 1764}}</ref> || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Darewa}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Desaki}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1764
+|-
+| {{flag|Deschon}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Disal Nila}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Dual Cenryia}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ealdorii}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Easuhura}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Eldjo}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Emara}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Eparia}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Erkizil}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Estijan}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Etirha}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | &Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Etretes}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Exilium}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Feio Lie}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Fermori}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Finae}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Fincen}} || data-sort-value= | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Fire Coast}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1764
+|-
+| {{flag|Galca}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Gaeiya}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Genaire}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Grazail}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Guise}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Haiza}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Heiso}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Hkuqo}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Iainoa}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Iareva}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Ihner}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Ilicuhe}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Inania}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Inrea}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Iquir}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Isari}} || data-sort-value=40 | {{Percentagebar|100|c=#af0000;|S1.1|color=black|width=50}}<ref name="sru-isari-1764">{{cite web|url=https://www.sovereignratingsunion.org/ratings/nutawa-group/isari|title=Nutawa Group holds Isari at S1.1 following continued payment arrears|publisher=Sovereign Ratings Union|date=17 May 1764}}</ref> || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Isnti}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Jshain}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Kaastini}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Koruch}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Kusierna}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Laselteh}} 
+| data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|lasri}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Lieri}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Lycroa}} 
+| data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Lydroa}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Maalle}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Mendereide}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Merela Sta}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Mesjan Hyaa}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Myla}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|New Kizura}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|New Misos}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Nheyes Si}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Nia}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|North Ayre}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ohtina}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Onphello}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Otiiric}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Oyreain}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Palina}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Peka}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Pelines}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Pelugrotoa}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Pha Hii}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Phuris}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Praesyu}} 
+| data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Prstreula}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Prystr Hii}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Quidic}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Raledria}} 
+| data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Reerica}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Rijan bu}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ruylku}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Sadain}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Sanagara}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Selaja}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Seytinemas}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Siana}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Sivoso}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Stinebar}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Suenan}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Sunsokua}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Taoisia}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Taval}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Terressin}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Tomscilus}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Trian}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ucrua}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ukhdari}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Umarcia}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|United Delet}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|United Mihili}} || data-sort-value=40 | {{Percentagebar|100|c=#af0000;|S1.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Uularin}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Vayvele}} 
+| data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Verste}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Verusa}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Vesozata}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1764
+|-
+| {{flag|Volver}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Wundry}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Yaxuto}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+| {{flag|Ztesh}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1764
+|-
+|}
+
+==The Financial Group==
+<!-- key for sorting, Fitch: NR, Negative=010;   NR, Stable=011;    NR, Positive=012;
+                             D, Negative=020;    D, Stable=021;     D, Positive=022;
+                             RD=26
+                             C, Negative=030;    C, Stable=031;     C, Positive=032;
+                             CC, Negative=040;   CC, Stable=041;    CC, Positive=042;
+                             CCC, Negative=050;  CCC, Stable=051;   CCC, Positive=052;
+                             B−, Negative=060;   B−, Stable=061;    B−, Positive=062;
+                             B, Negative=070;    B, Stable=071;     B, Positive=072;
+                             B+, Negative=080;   B+, Stable=081;    B+, Positive=082;
+                             BB−, Negative=090;  BB−, Stable=091;   BB−, Positive=092;
+                             BB, Negative=100;   BB, Stable=101;    BB, Positive=102;
+                             BB+, Negative=110;  BB+, Stable=111;   BB+, Positive=112;
+                             BBB−, Negative=120; BBB−, Stable=121;  BBB−, Positive=122;
+                             BBB, Negative=130;  BBB, Stable=131;   BBB, Positive=132;
+                             BBB+, Negative=140; BBB+, Stable=141;  BBB+, Positive=142;
+                             A−, Negative=150;   A−, Stable=151;    A−, Positive=152;
+                             A, Negative=160;    A, Stable=161;     A, Positive=162;
+                             A+, Negative=170;   A+, Stable=171;    A+, Positive=172;
+                             AA−, Negative=180;  AA−, Stable=181;   AA−, Positive=182;
+                             AA, Negative=190;   AA, Stable=191;    AA, Positive=192;
+                             AA+, Negative=200;  AA+, Stable=201;   AA+, Positive=202;
+                             AAA, Negative=210;  AAA, Stable=211;   AAA, Positive=212; -->
+[[File:The_Financial_Group_Foreign_Credit_Ratings_1763.png|thumb|410x410px|Map of The Financial Group's sovereign long-term foreign credit ratings.<br/>'''Legend:'''<br />{{legend inline|#006600|R0.0}} {{legend inline|#009900|R0.01}} {{legend inline|#00cc00|R0.02}} {{legend inline|#99ff33|R0.03}}  <br /> {{legend inline|#e0ff00|C0.04}} {{legend inline|#ffffcc|C0.05}} {{legend inline|#ffff66|C0.06}} {{legend inline|#ffcc66|C0.07}}<br /> {{legend inline|#ff9933|P0.08}} {{legend inline|#ff6600|P0.09}} <br />{{legend inline|#ff3333|S0.10}} {{legend inline|#af0000|S0.11}}]]
+
+
+For The Financial Group, a bond is considered [[investment grade]] if its credit rating is C0.6 or higher. Bonds rated C0.7 and below are considered to be [[speculative grade]], sometimes also referred to as "junk" bonds.<ref name="sru-tfg-scale">{{cite web|url=https://www.sovereignratingsunion.org/agencies/the-financial-group/rating-scale|title=The Financial Group Sovereign Rating Scale and Definitions|publisher=Sovereign Ratings Union|date=14 February 1763}}</ref> The Financial Group Ratings typically does not assign outlooks to sovereign ratings below C or modifiers. P indicates 'Substantial Credit Risk' where 'default is a real possibility'. P indicates 'Very High Levels of Credit Risk' where 'default of some kind appears probable'.<ref name="sru-tfg-risk">{{cite web|url=https://www.sovereignratingsunion.org/methodology/the-financial-group/risk-categories|title=The Financial Group: Credit Risk Categories for Speculative-Grade Sovereigns|publisher=Sovereign Ratings Union|date=21 February 1763}}</ref>
+
+{{static row numbers}}
+{{Table alignment}} 
+{| class="wikitable sortable static-row-numbers static-row-header-text col1left col3right" style="text-align:center;"
+|-
+! data-sort-type=text | Country/Territory
+! data-sort-type=number | Rating
+! data-sort-type=text | Outlook
+! Date
+|-
+| {{flag|Acetoa}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Acrana}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ahokini}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Anymna}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Arbiya}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Areoix Lie}} 
+| data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ashain}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Astye}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Chaenia}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Curata}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Dahe}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Darewa}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Desaki}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Deschon}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Disal Nila}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Dual Cenryia}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ealdorii}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Easuhura}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Eldjo}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Emara}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Eparia}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Erkizil}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Estijan}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Etirha}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Etretes}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Exilium}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Fermori}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Finae}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Fincen}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Fire Coast}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Galca}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Gaeiya}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Genaire}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Grazail}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Haiza}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Heiso}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Hkuqo}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Iainoa}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Iareva}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ilicuhe}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Inania}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Iquir}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Isari}} || data-sort-value=40 | {{Percentagebar|100|c=#af0000;|S1.1|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}}<ref name="sru-isari-tfg-1763">{{cite web|url=https://www.sovereignratingsunion.org/ratings/the-financial-group/isari-outlook|title=The Financial Group revises Isari outlook to positive at S1.1|publisher=Sovereign Ratings Union|date=5 December 1763}}</ref> || 1763
+|-
+| {{flag|Isnti}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Kaastini}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Kusierna}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Laselteh}} 
+| data-sort-value=220 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Lieri}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Lycroa}} 
+| data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Lydroa}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Maalle}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Mendereide}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Merela Sta}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Myla}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|New Misos}} || data-sort-value=140 | {{Percentagebar|100|c=#ff3333;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Nia}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|North Ayre}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ocaun}} || data-sort-value=40 | {{Percentagebar|100|c=#af0000;|S1.1|color=black|width=50}}<ref name="sru-ocaun-1763">{{cite web|url=https://www.sovereignratingsunion.org/ratings/the-financial-group/ocaun|title=The Financial Group rates Ocaun at S1.1 amid restructuring talks|publisher=Sovereign Ratings Union|date=11 November 1763}}</ref> || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ohtina}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Onphello}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Otiiric}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Oyreain}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Palina}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Pelines}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Pelugrotoa}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Pha Hii}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Phuris}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Praesyu}} 
+| data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Prystr Hii}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Quidic}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Raledria}} 
+| data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Reerica}} || data-sort-value=60 | {{Percentagebar|100|c=#ff3333;|S1.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ruylku}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Sadain}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Sanagara}} || data-sort-value=210 | {{Percentagebar|100|c=#009900;|R0.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Selaja}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Seytinemas}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Siana}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Sivoso}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Stinebar}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Suenan}} || data-sort-value=200 | {{Percentagebar|100|c=#00cc00;|R0.2|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Sunsokua}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Taoisia}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Taval}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Terressin}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Tomscilus}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Negative&nbsp;{{Decrease}} || 1763
+|-
+| {{flag|Trian}} || data-sort-value=150 | {{Percentagebar|100|c=#ffffcc;|C0.5|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Ucrua}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ukhdari}} || data-sort-value=140 | {{Percentagebar|100|c=#ffff66;|C0.6|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Umarcia}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|United Delet}} || data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|United Mihili}} || data-sort-value=40 | {{Percentagebar|100|c=#af0000;|S1.1|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Vayvele}} 
+| data-sort-value=160 | {{Percentagebar|100|c=#e0ff00;|C0.4|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Verste}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Verusa}} || data-sort-value=220 | {{Percentagebar|100|c=#006600;|R0.0|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Vesozata}} || data-sort-value=80 | {{Percentagebar|100|c=#ff6600;|P0.9|color=black|width=50}} || data-sort-value=2 | Positive&nbsp;{{Increase}} || 1763
+|-
+| {{flag|Volver}} || data-sort-value=90 | {{Percentagebar|100|c=#ff9933;|P0.8|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Wundry}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Yaxuto}} || data-sort-value=180 | {{Percentagebar|100|c=#99ff33;|R0.3|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+| {{flag|Ztesh}} || data-sort-value=110 | {{Percentagebar|100|c=#ffcc66;|C0.7|color=black|width=50}} || data-sort-value=2 | Stable&nbsp;{{Steady}} || 1763
+|-
+|}
+
+==References==
+{{reflist}}
+
+[[Category:All Wikipedia articles in need of updating]]
+[[Category:All country data templates|Vayvele]]
+[[Category:Articles with invalid date parameter in template]]
+[[Category:Articles with short description]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Vayvele]]

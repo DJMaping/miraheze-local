@@ -1,0 +1,130 @@
+{{Infobox country
+| conventional_long_name = Republic of Uularin
+| native_name            = ''__''  - Uularini
+| image_flag             = Uularin Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = OO-lah-rin
+| national_anthem        = /ˈɜːr.bɪ.kjuː/
+| image_map              = Uularin Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Uularin (green)
+| capital                = [[Zahlim]]
+| largest_city           = [[Zahlim]]
+| official_languages     = Uularini
+| ethnic_groups          = 91.0% Uularini<br>4.3% [[Verusa|Verusan]]<br>2.8% [[Fermori|Fermorian]]<br>1.9% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.tai/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Taing]] }}</ref>
+| religion               = 65.8% [[Kallimethra]]<br>24.1% [[wikipedia:Irreligion|Irreligion]]<br>5.4% [[Kelhari]]<br>4.7% [[Religion in Uularin|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.tai/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Taing]] }}</ref>
+| demonym                = Uularini
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Uularin
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Huan]]
+| established            = 
+| established_event1     = [[Heira Kingdom]]
+| established_date1      = 558 AFA
+| established_event2     = [[Verusa]] State
+| established_date2      = 1629 AFA
+| established_event3     = [[Treaty of Fraud]]
+| established_date3      = 1667 AFA
+| established_event4     = [[Uularin Rebellion]]
+| established_date4      = 1675 AFA
+| established_event5     = [[Collapse of the Huan]]
+| established_date5      = 1740 AFA
+| established_event6     = Recognition
+| established_date6      = 1741 AFA
+| area_rank              = 128th
+| area_km2               = 119,193
+| area_sq_mi             = 46,021
+| population_estimate    = {{increaseNeutral}}5,001,000<ref name="POP TAI">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.tai/List_of_countries_and_dependencies_by_population/Taing|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 116th
+| population_estimate_year = 1765
+| population_density_km2 = 41.9
+| population_density_rank = 100th
+| GDP_PPP                = {{increase}} {{lahn}}82.17 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 98th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}16,429
+| GDP_PPP_per_capita_rank = 69th
+| GDP_nominal            = {{increase}} {{lahn}}36.52<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 98th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}7,302
+| GDP_nominal_per_capita_rank = 79th
+| HDI_year               = 1765
+| HDI                    = 0.773
+| HDI_change             = increase
+| HDI_rank               = 80th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Yanden]] (_) (YAN)
+| time_zone              = SUU +1 (Standard Uularini Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .uul
+| calling_code           = +37
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Uularin]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/uularin|title=World Population Prospects 1765: Uularin|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Zahlim]] || 1,537,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.tai/ The Republic of Taing's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Taing] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/taing/ Taing]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,67 @@
+'''Continue to [[New Ayre]]'''
+{{New Ayren Map Labelled}}
+
+==List of states and territories==
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Andsaudare}} || [[Andsaudare]] || style="text-align:right;" | 2,043,164 || style="text-align:right;" | 3,146,473 || style="text-align:right;" | 2 || [[Ravalor]]
+|-
+| style="text-align:center;"| {{flagicon|Aplasia}} || [[Aplasia]] || style="text-align:right;" | 36,234 || style="text-align:right;" | 376,609 || style="text-align:right;" | 10 || [[Yondhu]]
+|-
+| style="text-align:center;"| {{flagicon|Astye}} || [[Astye]] || style="text-align:right;" | 529,951 || style="text-align:right;" | 44,277,194 || style="text-align:right;" | 84 || [[Kavirro]]
+|-
+| style="text-align:center;"| {{flagicon|Crila Republic}} || [[Crila Republic]] || style="text-align:right;" | 2,106 || style="text-align:right;" | 945,980 || style="text-align:right;" | 449 || [[Risavo]]
+|-
+| style="text-align:center;"| {{flagicon|Elja and Munusia}} || [[Elja and Munusia]] || style="text-align:right;" | 11,432 || style="text-align:right;" | 495,291 || style="text-align:right;" | 43 || [[Su Hitan / Mishigi]]
+|-
+| style="text-align:center;"| {{flagicon|Hiwush}} || [[Hiwush]] || style="text-align:right;" | 3,881 || style="text-align:right;" | 239,092 || style="text-align:right;" | 62 || [[Egatsute]]
+|-
+| style="text-align:center;"| {{flagicon|Iainoa}} || [[Iainoa]] || style="text-align:right;" | 326,950 || style="text-align:right;" | 15,105,090 || style="text-align:right;" | 46 || [[Evue]]
+|-
+| style="text-align:center;"| {{flagicon|Isari}} || [[Isari]] || style="text-align:right;" | 193,050 || style="text-align:right;" | 12,783,095 || style="text-align:right;" | 66 || [[Damsiri]]
+|-
+| style="text-align:center;"| {{flagicon|Isuibul}} || [[Isuibul]] || style="text-align:right;" | 2,562 || style="text-align:right;" | 37,482 || style="text-align:right;" | 15 || [[Karundal]]
+|-
+| style="text-align:center;"| {{flagicon|Maalle}} || [[Maalle]] || style="text-align:right;" | 1,461,132 || style="text-align:right;" | 22,501,433 || style="text-align:right;" | 15 || [[Rudeka]]
+|-
+| style="text-align:center;"| {{flagicon|Mendereide}} || [[Mendereide]] || style="text-align:right;" | 344,798 || style="text-align:right;" | 11,019,227 || style="text-align:right;" | 32 || [[Tovani]]
+|-
+| style="text-align:center;"| {{flagicon|Nia}} || [[Nia]] || style="text-align:right;" | 1,693,814 || style="text-align:right;" | 16,302,960 || style="text-align:right;" | 10 || [[Tovani]]
+|-
+| style="text-align:center;"| {{flagicon|Niretui and Anulan}} || [[Niretui and Anulan]] || style="text-align:right;" | 1,428 || style="text-align:right;" | 189,681 || style="text-align:right;" | 133 || [[Tarneshi]]
+|-
+| style="text-align:center;"| {{flagicon|Ohtina}} || [[Ohtina]] || style="text-align:right;" | 654,175 || style="text-align:right;" | 33,245,174 || style="text-align:right;" | 51 || [[Su Sariko]]
+|-
+| style="text-align:center;"| {{flagicon|Prstreula}} || [[Prstreula]] || style="text-align:right;" | 300,940 || style="text-align:right;" | 6,835,852 || style="text-align:right;" | 23 || [[Kavani]]
+|-
+| style="text-align:center;"| {{flagicon|Rethern}} || [[Rethern]] || style="text-align:right;" | 1,344 || style="text-align:right;" | 82,798 || style="text-align:right;" | 62 || [[Xxvii]]
+|-
+| style="text-align:center;"| {{flagicon|Rkmepuia}} || [[Rkmepuia]] || style="text-align:right;" | 4,782 || style="text-align:right;" | 324,028 || style="text-align:right;" | 68 || [[Somari]]
+|-
+| style="text-align:center;"| {{flagicon|Tvecoca}} || [[Tvecoca]] || style="text-align:right;" | 129 || style="text-align:right;" | 5,165 || style="text-align:right;" | 40 || [[Lurvani]]
+|-
+| style="text-align:center;"| {{flagicon|Umarcia}} || [[Umarcia]] || style="text-align:right;" | 426,225 || style="text-align:right;" | 12,307,247 || style="text-align:right;" | 29 || [[Hirvani]]
+|-
+| style="text-align:center;"| {{flagicon|United Delet}} || [[United Delet]] || style="text-align:right;" | 1,262,717 || style="text-align:right;" | 93,832,500 || style="text-align:right;" | 74 || [[Mantraal]]
+|-
+| style="text-align:center;"| {{flagicon|Veelmit}} || [[Veelmit]] || style="text-align:right;" | 179,350 || style="text-align:right;" | 828,597 || style="text-align:right;" | 5 || [[Anohan]]
+|-
+| style="text-align:center;"| {{flagicon|Walporein}} || [[Walporein]] || style="text-align:right;" | 3,310 || style="text-align:right;" | 730,203 || style="text-align:right;" | 221 || [[Sokira]]
+|-
+| style="text-align:center;"| {{flagicon|Yutnitu}} || [[Yutnitu]] || style="text-align:right;" | 2,551 || style="text-align:right;" | 447,879 || style="text-align:right;" | 176 || [[Teroc]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 23
+| style="text-align:right;"| 9,486,025
+| style="text-align:right;"| 276,059,050
+| style="text-align:right;"| 29
+|}
+
+[[Category:Continents]]

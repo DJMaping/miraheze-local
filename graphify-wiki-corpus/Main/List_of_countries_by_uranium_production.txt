@@ -1,0 +1,105 @@
+{{Short description|none}}
+This contains '''list of countries by [[wikipedia:uranium|uranium]] production'''.It measures uranium production by tonnes mined.
+
+{| class="wikitable sortable"
+!Rank
+!Country/Region
+!Uranium production (2022) (tonnes U)<ref>{{Cite web |title=World Uranium Mining - World Nuclear Association |url=https://www.world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production.aspx |access-date=2024-12-08 |website=www.world-nuclear.org}}</ref>
+!Percentage of World Production (2022)
+|-
+!
+!World
+|49,355
+|100.00%
+|-
+|1
+|{{flagicon|Dahe}} [[Dahe]]
+|21,227
+|43.01%
+|-
+|2
+|{{flagicon|Fermori}} [[Fermori]]
+|7,351
+|14.89%
+|-
+|3
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]]
+|5,613
+|11.37%
+|-
+|4
+|{{flagicon|Ashain}} [[Ashain]]
+|4,553
+|9.22%
+|-
+|5
+|{{flagicon|Kusierna}} [[Kusierna]]
+|3,300 (est.)
+|6.69%
+|-
+|6
+|{{flagicon|Estijan}} [[Estijan]]
+|2,508
+|5.08%
+|-
+|7
+|{{flagicon|Emara}} [[Emara]]
+|2,020
+|4.09%
+|-
+|8
+|{{flagicon|Raledria}} [[Raledria]]
+|1,700 (est.)
+|3.44%
+|-
+|9
+|{{flagicon|Ztesh}} [[Ztesh]]
+|600 (est.)
+|1.22%
+|-
+|10
+|{{flagicon|Haiza}} [[Haiza]]
+|200 (est.)
+|0.40%
+|-
+|11
+|{{flagicon|Etirha}} [[Etirha]]
+|100
+|0.20%
+|-
+|12
+|{{flagicon|Ocaun}} [[Ocaun]]
+|75
+|0.15%
+|-
+|13
+|{{flagicon|United Mihili}} [[United Mihili]]
+|45 (est.)
+|0.09%
+|-
+|14
+|{{flagicon|Pelines}} [[Pelines]]
+|43
+|0.09%
+|-
+|15
+|{{Flagicon|Verusa}} [[Verusa]]
+|20 (est.)
+|0.04%
+|-
+|}
+
+== See also ==
+
+*[[List of states with nuclear weapons]]
+
+==References==
+<references />
+
+[[Category:All country data templates|Raledria]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

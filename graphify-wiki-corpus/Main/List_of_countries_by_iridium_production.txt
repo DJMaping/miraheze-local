@@ -1,0 +1,24 @@
+Worldwide production of iridium was about {{convert|7300|kg}} in 2018. The price is high and varies (see table). Illustrative factors that affect the price include oversupply of Ir crucibles and changes in [[wikipedia:LED|LED]] technology.
+
+{{mw-datatable}}{{static row numbers}}
+{| class="wikitable sortable mw-datatable static-row-numbers" style=text-align:right;
+|+Leading iridium-producing countries (kg)<ref>{{Cite web|last=|first=|date=|title=Mineral Yearbook 1760 tables-only release|url=https://www.gtu.org/centers/national-minerals-information-center/platinum-group-metals-statistics-and-information|website=GTU}}</ref>
+|- 
+! Country !!  1759 !! 1760 !! 1761 !! 1762 !! 1763
+|- class="static-row-header " style="font-weight:bold;" class=sorttop
+| {{left}} {{noflag|World}} || 7,720 || 7,180 || 7,540 || 7,910 || 8,170
+|-
+|{{flag|Haiza}} || 6,624 || 6,057 || 6,357 || 6,464 || 6,786
+|-
+|{{flag|Pelines}} || 598 || 619 || 586 || 845 || 836
+|-
+|{{flag|Genaire}} || 300 || 200 || 400 || 300 || 300
+|-
+|{{flag|Estijan}} || 200 || 300 || 200 || 300 || 250
+|}
+
+
+== References ==
+{{reflist}}
+
+[[Category:Statistics]]

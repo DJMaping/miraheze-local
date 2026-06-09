@@ -1,0 +1,10 @@
+<templatestyles src="Template:Blockquote/styles.css" /><!--
+--><blockquote class="templatequote {{{class|}}}" {{#if:{{{style|}}}|style="{{{style}}}"}}>{{{text|{{{content|{{{quotetext|{{{quote|{{{1|<includeonly>{{error|Error: No text given for quotation (or equals sign used in the actual argument to an unnamed parameter)}}{{main other|[[Category:Pages incorrectly using the quote template]]}}</includeonly><noinclude>{{lorem ipsum}}</noinclude>}}}}}}}}}}}}}}}{{#if:{{{multiline|}}}|<nowiki /><!-- See talk page in 2025 for why this newline needs to be here -->
+</blockquote>|</blockquote>}}{{#if:{{{sign|}}}{{{cite|}}}{{{author|}}}{{{by|}}}{{{personquoted|}}}{{{source|}}}{{{ts|}}}{{{title|}}}{{{publication|}}}{{{quotesource|}}}{{{char|}}}{{{character|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}|
+<div class="templatequotecite"><p style="display: inline; padding-left: 2.3em;">—&#8202;{{#if:{{{char|{{{character|{{{5|}}}}}}}}}|{{{char|{{{character|{{{5|}}}}}}}}}, in&#32;}}{{Comma separated entries
+ | {{if empty|{{{sign|}}}|{{{cite|}}}|{{{author|}}}|{{{by|}}}|{{{personquoted|}}}|{{{2|}}}}}
+ | {{if empty|{{{title|}}}|{{{publication|}}}|{{{ts|}}}|{{{quotesource|}}}|{{{3|}}}}}
+ | {{if empty|{{{source|}}}|{{{4|}}}}}
+ }}</p></div>}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using Blockquote template with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Blockquote]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | 2 | 3 | 4 | 5 | author | by | char | character | cite | class | content | multiline | personquoted | publication | quote | quotesource | quotetext | sign | source | style | text | title | ts }}<noinclude>
+{{documentation}}<!--Add categories to the /doc subpage, not here! -->
+</noinclude>

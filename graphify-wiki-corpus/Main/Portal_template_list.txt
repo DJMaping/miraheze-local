@@ -1,0 +1,65 @@
+{{navbar|Portal template list|style=float:right}}
+'''Portal content templates'''
+* To display "selected content" on the portal main page
+** {{tl|Transclude list item excerpts as random slideshow}}—transcludes excerpts from [[WP:RECOG|recognized content lists]], which are populated by a bot.
+** {{tl|Transclude random subpage}}—transcludes random portal subpage.
+** {{tl|Random portal component}}—transcludes random portal subpage.
+** {{tl|Random subpage}}—transcludes random portal subpages.
+** {{tl|Portal pictures}}—transcludes a slideshow of pictures, utilizing a single-page gallery.
+* To organize "selected content" on subpages
+** {{tl|Numbered subpages}}—outputs an automatic index, transcluding numbered subpages.
+** {{tl|Portal subpage}}—outputs a box linking to and transcluding a single subpage.
+** {{tl|Portal subpage inline}}—outputs an unordered list item linking to and transcluding a single subpage.
+
+'''Main portal page formatting templates'''
+{{Div col|colwidth=20em}}
+* {{tl|Box-header}}
+* {{tl|Box-header-plain}}
+* {{tl|Box-header-round}}
+* {{tl|Box-header-square}}
+* {{tl|Box-header-watch}}
+* {{tl|Box-footer}}
+{{Div col end}}
+
+'''Templates that configure links'''
+{{Div col|colwidth=20em}}
+* {{tl|Portal}} 
+* {{tl|Portal bar}}
+* {{tl|Portal-inline}}
+* {{tl|Pbox}}
+* {{tl|Portals}}
+* {{tl|Portals browsebar}}
+* {{tl|Related portals}}
+* {{tl|Wikimedia for portals}}
+{{Div col end}}
+
+'''Selected page templates, used on subpages of older portals'''
+{{Div col|colwidth=20em}}
+* {{tl|Selected article}}
+* {{tl|Selected biography}}
+* {{tl|Selected business}}
+* {{tl|Selected DYK}}
+* {{tl|Selected ingredient}}
+* {{tl|Selected location}}
+* {{tl|Selected picture}}
+* {{tl|Selected product}}
+* {{tl|Selected publication}}
+* {{tl|Selected quote}}
+* {{tl|Selected recipe}}
+* {{tl|Selected X}}
+{{Div col end}}
+''' Wikiproject templates'''
+{{Div col|colwidth=20em}}
+*{{tl|Portal and project}}
+*{{tl|WPbox}}
+*{{tl|NBbox}}
+{{Div col end}}
+
+'''Related templates'''
+
+* {{tl|Project template list}}
+
+{{Portal templates navbox}}<noinclude>
+[[Category:Wikipedia Portal templates| ]]
+[[Category:Documentation see also templates]]
+</noinclude>

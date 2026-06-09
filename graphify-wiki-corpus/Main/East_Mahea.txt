@@ -1,0 +1,87 @@
+{{Infobox continent
+|title          = East Mahea
+|image          = East Mahea Globe.png
+|imagecaption   = Location of East Mahea
+|area           = {{convert|1,708,765|km2|sqmi|abbr=on}}
+|population     = 203,928,833 (1765)
+|density        = {{convert|119.34|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}3.194 trillion
+|GDP_nominal    = {{lahn}}1.992 trillion
+|GDP_per_capita = {{lahn}}9,773
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = East Mahean
+|countries      = 4
+|list_countries = 
+|dependencies   = 2
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Sadainite Language|Sadainite]]
+* [[Selajan Language|Selajan]]
+* [[Sunsokuan Language|Sunsokuan]]
+* [[Vayvelean Language|Vayvelean]]
+}}
+|time           = UTC +6
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Bodrul]]
+* [[Hikrun]]
+* [[Jalenek]]
+* [[Kaisri]]
+* [[Katanir]]
+* [[Mikalu]]
+* [[Selja]]
+* [[Shiruna]]
+* [[Takolo]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''East Mahea''' synonymous with '''[[Hijita]]''' is a sub-continent located in the southern hemisphere. It is bordered the [[Haanian Ocean]]  to the south and east, the [[Adrad Sea]], [[Praosia Sea]] and [[Gulf of Ale]] to the west, and the [[Hinsakian Ocean|Great Hinsakian Ocean]] to the north. The continent covers around {{convert|1,708,765|km2|sqmi|abbr=on}} of land, making it the 23rd largest sub-continent in the world, with a total of about 203,928,833 as of 1765, making it also the 13th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style=@text-align:center;@| {{flagicon|Sadain}} || [[Sadain]] || style=@text-align:right;@ | 111,241 || style=@text-align:right;@ | 18,288,844 || style=@text-align:right;@ | 164 || [[Sivona]]
+|-
+| style=@text-align:center;@| {{flagicon|Selaja}} || [[Selaja]] || style=@text-align:right;@ | 282,440 || style=@text-align:right;@ | 31,644,352 || style=@text-align:right;@ | 112 || [[Selja]]
+|-
+| style=@text-align:center;@| {{flagicon|Sunsokua}} || [[Sunsokua]] || style=@text-align:right;@ | 737,960 || style=@text-align:right;@ | 79,558,877 || style=@text-align:right;@ | 108 || [[Mikalu]]
+|-
+| style=@text-align:center;@| {{flagicon|Vayvele}} 
+| [[Vayvele]] || style=@text-align:right;@ | 577,124 || style=@text-align:right;@ | 74,436,761 || style=@text-align:right;@ | 129 || [[Kaisri]]
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 4
+| style="text-align:right;"| 1,708,765
+| style="text-align:right;"| 203,928,834
+| style="text-align:right;"| 119
+|}
+==References==
+{{reflist}}
+
+[[Category:All country data templates|Vayvele]]
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Vayvele]]
+[[Category:Wikipedia metatemplates|Infobox]]

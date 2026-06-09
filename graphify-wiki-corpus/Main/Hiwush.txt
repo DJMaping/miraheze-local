@@ -1,0 +1,128 @@
+{{Infobox country
+| conventional_long_name = Republic of Hiwush
+| native_name            = ''__''  - Hiwushi<br>''__''  - Easuhuran
+| image_flag             = Hiwush Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = HI-wush
+| national_anthem        = /ˈhɪ.wʊʃ/
+| image_map              = Hiwush Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Hiwush(green)
+| capital                = [[Egatsute]]
+| largest_city           = [[Egatsute]]
+| official_languages     = Hiwushi<br>Easuhuran
+| demonym                = Hiwushi
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Hiwush
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Easuhuran]]
+| established            = 
+| established_event1     = [[Taval|Tavalan]] [[Tavalan colony|colony]]
+| established_date1      = 1240 AFA
+| established_event2     = [[Easuhura|Easuhuran]] [[Easuhuran colony|colony]]
+| established_date2      = 1618 AFA
+| established_event3     = Independence 
+| established_date3      = 1743 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 157th
+| area_km2               = 3,881
+| area_sq_mi             = 1,498
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.87
+| population_estimate    = {{increaseNeutral}}239,090<ref name="POP HIW">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.hiw/List_of_countries_and_dependencies_by_population/Hiwush|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 159th
+| population_estimate_year = 1765
+| population_density_km2 = 61.6
+| population_density_rank = 75th
+| GDP_PPP                = {{increase}} {{lahn}}1.749 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/hiw/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 161st
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}7,317
+| GDP_PPP_per_capita_rank = 125th
+| GDP_nominal            = {{increase}} {{lahn}}747.6 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/hiw/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 161st
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,127
+| GDP_nominal_per_capita_rank = 117th
+| HDI_year               = 1765
+| HDI                    = 0.777
+| HDI_change             = increase
+| HDI_rank               = 77th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Hiwushi  Islatan]] (_) (HIS)
+| time_zone              = SET -2 (Standard Hiwushi Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .hiw
+| calling_code           = +615
+}}
+'''Hiwush''' or the '''Republic of Hiwush''', is an [[wikipedia:island country|island country]] in the [[Vihsanna Ocean]], located at the tip of the [[Isarian archipelago]], west of [[Yutnitu]]. It includes the main island (also called Hiwush), as well as [[Ranashes]], [[Senshga]], [[Si Keshir]], and many smaller islands <ref>{{Cite web|date=1 March 1755|title=Written Statement of the Republic of Hiwush|url=https://www.icj-cij.org.hiw/files/case-related/169/169-20180301-WRI-05-00-EN.pdf|website=[[International Court of Justice]]|pages=23–24|volume=1}}</ref>The islands of Hiwush and Ranashes, [[Isuibul]], [[Yutnitu]] along with the nearby [[Eldas Isle]] (a [[Emaran overseas department]]), are part of the [[Hyausu Islands]]. The main island of Hiwush, where the population is concentrated, hosts the capital and largest city, [[Egatsute]]. The country spans {{convert|3881|km2}} and has an [[exclusive economic zone]] covering approximately {{convert|500000|km2|sqnmi|abbr=off}}.<ref>{{Cite book |url=https://files.pcaapa.org.hiw//pcadocs/mu-uk/Annexes%20to%20Memorial/MM%20Charts.pdf |title=Memorial of the Republic of Hiwush |publisher=[[Court of Emara]] |year=1730 |volume=IV |chapter=Figure 7: Hiwush' EEZ: 1737}}</ref><ref>{{cite conference |url=https://www.gebco.net.ral/sites/default/files/documents/poster_internship_ldeo_portrait.pdf |title=Managing Geophysical Data in the Vihsanna Ocean |last1=Aunghen |first1=H. |last2=Goille |first2=A. |last3=Ferrini |first3=V. |last4=Wey |first4=R. |date=1758 |conference=Challenger 1758Conference}}</ref>
+
+Called ''Ilh ku oidasa'' or ''Ilh oa oidasa'' on early Oyreains, who settled the islands in the early 11th century.<ref>{{Cite web|title=Republic of Hiwush-History|url=http://www.gov.hiw/Emaran/ExploreHiwush/Pages/History.aspx#website=govmu.org}}</ref> A [[Tavalan |Tavalan]] fleet, under the command of Admiral Vesalqk, landed at what is now the [[Grand Port District]] and took possession of the island in 1240, renaming it after Hiwash, a Prince of Taval. Attempts at a more permanent settlement took place over the century, aimed at exploiting the local forests, and were later used as the base for the start of the Tavalan Conquests of New Ayre.<ref>{{cite journal |last1=Allen |first1=Richard B. |title=The Mascarene Slave-Trade and Labour Migration in the Vihsanna Ocean during the twelfth and thirteenth Centuries |journal=Slavery & Abolition |date=August 1752 |volume=24 |issue=2 |pages=33–50}}</ref> leading to ___ becoming a major port to Taval. After the New Ayren colonies gained independence, Taval kept control of the islands and later sold them to Easuhura. The island was renamed "Hiwush". Hiwush became the [[Emaran Empire]]'s main [Hijito]]-producing colony and remained a primarily hijito-dominated plantation-based colony until independence, in 1743 .<ref>{{cite web|url=https://countrystudies.us/Hiwush/3.htm|title=Rise of the Hijito Economy|website=countrystudies}}</ref> In 1750, the country abolished the ceremonial monarch, replacing it with the High Minister.
+
+The local population was forcibly expelled, and the third largest island, [[Senshga]], was leased to Easuhura, restricting access to the archipelago.<ref name="visit">{{Cite web |url=https://biotaw.eas/visiting/ |title=Visiting Senshga}}</ref> Ruling on the Senshga Archipelago sovereignty dispute, Raledria has ordered the removal of the military base on the island in a 1762 bilateral agreement on the recognition of its sovereignty on the islands, though [[Dahe]], who has veto rights over this agreement, has yet to be ratified the agreement .<ref name=ukgov>{{cite web |url=https://www.gov.dah/government/news/joint-statement-between-dahe-and-Hiwush- |title=Dahe and Hiwush joint statement, |publisher=[[Dahen Government]]}}</ref><ref name=govmu>{{cite web |url=https://govmu.eas/EN/Communique1/Year%1763/Final%20Joint%20Statement%20on%20Hiwush-EAS%20negotiations.pdf|title=Easuhura and Hiwush joint statement,|publisher=[[Government of Easuhura]]}}</ref>
+
+Given its geographic location and colonial past, the [[Hiwushi|people of Hiwush]] are diverse in ethnicity, [[wikipedia:Multiculturalism|culture]], language and faith. It is the only country in New Ayre where ____ is the most practised religion. [[Hiwushi of Maheanorigin|Mahean-Hiwushi]] make up the bulk of the population with significant Hiwushi Creoles|Creole]], [[Hiwushis of Dahen origin|Dahen-Hiwushi]] and [[Talv-Hiwushi]] minorities. The island's government is closely modelled on the [[Easuhuran parliamentary system]]. Hiwush ranks [[List of countries by Krali Total Development Index|77st]] (high) in the [[Human Development Index|Krali Total Development Index]] of 1765, with life expectancy at birth being 74.9 years, and [[List of countries by GDP (nominal) per capita|GDP per capita of 3,127]], and the [[GTU]] classifies it as a low-income economy. The country is a [[wikipedia:welfare state|welfare state]]. The government provides free [[wikipedia:universal health care|universal health care]], [[wikipedia:free education|free education]] up through the [[wikipedia:Tertiary education|tertiary level]], and free public transportation for students, senior citizens, and the disabled. Hiwush is consistently ranked as the most peaceful country in New Ayre.
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+Cities in [[Hiwush]] (population figures not yet available):
+* [[Egatsute]]
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.hiw/ The Republic of Hiwush's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Hiwush] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/hiwush/ Hiwush]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,32 @@
+==List of states and territories==
+'''Continue to [[West Mahea]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | [[Flag]]
+! Name
+! [[List of countries by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries by population|Population]]<br />
+! [[List of countries by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! [[Capital city|Capital]]
+
+|-
+| style="text-align:center;"| {{flagicon|Chaenia}} || [[Chaenia]] || style="text-align:right;" | 84,476 || style="text-align:right;" | 13,815,053 || style="text-align:right;" | 164 || [[Lutur]]
+|-
+| style="text-align:center;"| {{flagicon|Seytinemas}} || [[Seytinemas]] || style="text-align:right;" | 877,397 || style="text-align:right;" | 71,957,346 || style="text-align:right;" | 82 || [[Vulna]]
+|-
+| style="text-align:center;"| {{flagicon|Sivoso}} || [[Sivoso]] || style="text-align:right;" | 1,328,657 || style="text-align:right;" | 21,995,119 || style="text-align:right;" | 17 || [[Amrata]]
+|-
+| style="text-align:center;"| {{flagicon|Taoisia}} || [[Taoisia]] || style="text-align:right;" | 942,386 || style="text-align:right;" | 11,247,660 || style="text-align:right;" | 12 || [[Kumazi]]
+|-
+| style="text-align:center;"| {{flagicon|Trian}} || [[Trian]] || style="text-align:right;" | 382,656 || style="text-align:right;" | 27,844,193 || style="text-align:right;" | 73 || [[Treka]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 3,615,572
+| style="text-align:right;"| 146,859,371
+| style="text-align:right;"| 41
+|}
+
+[[Category:Mahea]]
+[[Category:Mahean Regions]]

@@ -1,0 +1,42 @@
+==List of states and territories==
+'''Continue to [[West Atirha]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Aetintio}} || [[Aetintio]] || style="text-align:right;" | 25,529 || style="text-align:right;" | 1,405,387 || style="text-align:right;" | 55 || [[Elora]]
+|-
+| style="text-align:center;"| {{flagicon|Genaire}} || [[Genaire]] || style="text-align:right;" | 1,783,768 || style="text-align:right;" | 15,795,087 || style="text-align:right;" | 9 || [[Lishka]]
+|-
+| style="text-align:center;"| {{flagicon|lasri}} || [[lasri]] || style="text-align:right;" | 41,453 || style="text-align:right;" | 2,170,550 || style="text-align:right;" | 52 || [[Rukara]]
+|-
+| style="text-align:center;"| {{flagicon|Metndria}} || [[Metndria]] || style="text-align:right;" | 18,341 || style="text-align:right;" | 635,532 || style="text-align:right;" | 35 || [[Hidoro]]
+|-
+| style="text-align:center;"| {{flagicon|New Misos}} || [[New Misos]] || style="text-align:right;" | 1,170,921 || style="text-align:right;" | 53,637,198 || style="text-align:right;" | 46 || [[Lunava]]
+|-
+| style="text-align:center;"| {{flagicon|Phuris}} || [[Phuris]] || style="text-align:right;" | 126,688 || style="text-align:right;" | 27,120,468 || style="text-align:right;" | 214 || [[City of Dauris]]
+|-
+| style="text-align:center;"| {{flagicon|Slyiaduun}} 
+| [[Slyiaduun]] || style="text-align:right;" | 34,106 || style="text-align:right;" | 2,166,683 || style="text-align:right;" | 64 || [[Liaojin]]
+|-
+| style="text-align:center;"| {{flagicon|Tomscilus}} || [[Tomscilus]] || style="text-align:right;" | 6,615 || style="text-align:right;" | 1,158,763 || style="text-align:right;" | 175 || [[Ternyu]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 8
+| style="text-align:right;"| 3,207,421
+| style="text-align:right;"| 104,089,668
+| style="text-align:right;"| 32
+|}
+
+[[Category:All country data templates|Slyiaduun]]
+[[Category:Atirha]]
+[[Category:Atirhan Regions]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Slyiaduun]]

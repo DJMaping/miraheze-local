@@ -1,0 +1,52 @@
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+Chromium production by country in thousands of tonnes (1764)<ref>{{Cite web |title=Mineral Commodity Summaries 2025 - Chromium |url=https://gtu.org/periodicals/mcs1764/mcs1764-chromium.pdf}}</ref>
+!Country
+!Production
+!Reserves
+|-
+|'''''{{Noflag}}World'''''
+|'''47,000'''
+|'''1,200,000'''
+|-
+|{{Flag|Ealdorii}}
+|21,000
+|200,000
+|-
+|{{Flag|Dahe}}
+|8,000
+|27,000
+|-
+|{{Flag|Urbiqu}}
+|6,500
+|320,000
+|-
+|{{Flag|Wundry}}
+|4,100
+|79,000
+|-
+|''{{Noflag}}Other countries''
+|2,900
+|–
+|-
+|{{Flag|Arbiya}}
+|1,900
+|8,300
+|-
+|{{Flag|Nia}}
+|1,400
+|6,600
+|-
+|{{Flag|Zhanshe}}
+|1,100
+|540,000
+|-
+|{{Flag|Raledria}}
+|–
+|630
+|}
+
+
+== References ==
+{{reflist}}
+[[Category:Statistics]]

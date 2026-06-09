@@ -1,0 +1,41 @@
+==List of states and territories==
+'''Continue to [[West Massir]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Cloja}} || [[Cloja]] || style="text-align:right;" | 1,325 || style="text-align:right;" | 47,933 || style="text-align:right;" | 36 || [[Kezapi]]
+|-
+| style="text-align:center;"| {{flagicon|Dahe}} || [[Dahe]] || style="text-align:right;" | 4,429,149 || style="text-align:right;" | 890,601,322 || style="text-align:right;" | 201 || [[Fekunza]]
+|-
+| style="text-align:center;"| {{flagicon|Kaastini}} || [[Kaastini]] || style="text-align:right;" | 664,569 || style="text-align:right;" | 4,348,275 || style="text-align:right;" | 7 || [[Suharimti]]
+|-
+| style="text-align:center;"| {{flagicon|North Ayre}} || [[North Ayre]] || style="text-align:right;" | 57,100 || style="text-align:right;" | 10,967,500 || style="text-align:right;" | 192 || [[Kokema]]
+|-
+| style="text-align:center;"| {{flagicon|Oyreain}} || [[Oyreain]] || style="text-align:right;" | 209,781 || style="text-align:right;" | 31,491,757 || style="text-align:right;" | 150 || [[Yetembo]]
+|-
+| style="text-align:center;"| {{flagicon|Pha Hii}} || [[Pha Hii]] || style="text-align:right;" | 614 || style="text-align:right;" | 2,646,840 || style="text-align:right;" | 4311 || [[Pha Hii(City)|Pha Hii]]
+|-
+| style="text-align:center;"| {{flagicon|Prystr Hii}} || [[Prystr Hii]] || style="text-align:right;" | 609 || style="text-align:right;" | 1,640,804 || style="text-align:right;" | 2694 || [[Prystr Hii (City)|Prystr Hii]]
+|-
+| style="text-align:center;"| {{flagicon|Sanagara}} || [[Sanagara]] || style="text-align:right;" | 113,626 || style="text-align:right;" | 38,792,291 || style="text-align:right;" | 341 || [[Koyaya]]
+|-
+| style="text-align:center;"| {{flagicon|Stinebar}} || [[Stinebar]] || style="text-align:right;" | 2,001 || style="text-align:right;" | 345,037 || style="text-align:right;" | 172 || [[Laphaai]]
+|-
+| style="text-align:center;"| {{flagicon|Suenan}} || [[Suenan]] || style="text-align:right;" | 288,915 || style="text-align:right;" | 54,705,622 || style="text-align:right;" | 189 || [[Daspuru]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 10
+| style="text-align:right;"| 5,767,689
+| style="text-align:right;"| 1,035,587,381
+| style="text-align:right;"| 180
+|}
+
+[[Category:Massir]]
+[[Category:Massiran Regions]]

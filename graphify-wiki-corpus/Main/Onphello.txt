@@ -1,0 +1,137 @@
+{{Infobox country
+| conventional_long_name = Republic of Onphello
+| native_name            = ''__''  - Onphellan
+| image_flag             = Onphello Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = on-FEL-oh
+| national_anthem        = /ˌɒnˈfɛl.oʊ/
+| image_map              = Onphello Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Onphello (green)
+| capital                = [[Khazor]]
+| largest_city           = [[Khazor]]
+| official_languages     = Onphellan
+| ethnic_groups          = 85.2% Onphellan<br>6.5% [[Ayuma|Anymnan]]<br>4.5% [[Finae|Finaean]]<br>3.8% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.onp/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Onphello]] }}</ref>
+| religion               = 87.2% [[Kallimethra]]<br>6.3% [[Imarel]]<br>3.2% [[wikipedia:Irreligion|Irreligion]]<br>2.6% [[Srivandha]]<br>0.7% [[Religion in Onphello|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.onp/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Onphello]] }}</ref>
+| demonym                = Onphellan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Onphellan
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Carraam peoples]]
+| established_date1      = 600 BFA
+| established_event2     = [[Shrita Kingdom]]
+| established_date2      = 529 AFA
+| established_event3     = [[Saphtheas Empire]]
+| established_date3      = 880 AFA
+| established_event4     = [[Esmana Empire]]
+| established_date4      = 941 AFA
+| established_event5     = [[Onphello Kingdom]]
+| established_date5      = 1067 AFA
+| established_event6     = [[Emaran Colony]]
+| established_date6      = 1633 AFA
+| established_event7     = Independence
+| established_date7      = 1695 AGA
+| area_rank              = 99th
+| area_km2               = 255,572
+| area_sq_mi             = 98,677
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.64
+| population_estimate    = {{increaseNeutral}}10,233,000<ref name="POP ONP">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.onp/List_of_countries_and_dependencies_by_population/Onphello|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 93rd
+| population_estimate_year = 1765
+| population_density_km2 = 40.0
+| population_density_rank = 103rd
+| GDP_PPP                = {{increase}} {{lahn}}100.430 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/onp/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 93rd
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}9,814
+| GDP_PPP_per_capita_rank = 108th
+| GDP_nominal            = {{increase}} {{lahn}}37.196 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/onp/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 96th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,635
+| GDP_nominal_per_capita_rank = 108th
+| HDI_year               = 1765
+| HDI                    = 0.701
+| HDI_change             = increase
+| HDI_rank               = 117th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Onphellan Islatan]] (_) (OIS)
+| time_zone              = SOT -9 (Standard Onphellan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .onp
+| calling_code           = +79
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+Cities in [[Onphello]] (population figures not yet available):
+* [[Balzhin]]
+* [[Khazor]]
+* [[Marzu]]
+* [[Neskhon]]
+* [[Orlun]]
+* [[Shibdek]]
+* [[Tegshuur]]
+* [[Ulkenii]]
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.onp/ The Republic of Onphello's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Onphello] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/onphello/ Onphello]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

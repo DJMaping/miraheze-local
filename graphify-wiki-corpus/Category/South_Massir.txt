@@ -1,0 +1,29 @@
+==List of states and territories==
+'''Continue to [[South Massir]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Eparia}} || [[Eparia]] || style="text-align:right;" | 125,915 || style="text-align:right;" | 4,070,555 || style="text-align:right;" | 32 || [[Tarimav]]
+|-
+| style="text-align:center;"| {{flagicon|Etretes}} || [[Etretes]] || style="text-align:right;" | 2,524,560 || style="text-align:right;" | 21,374,692 || style="text-align:right;" | 8 || [[Zajkovi]]
+|-
+| style="text-align:center;"| {{flagicon|Kusierna}} || [[Kusierna]] || style="text-align:right;" | 992,110 || style="text-align:right;" | 9,164,021 || style="text-align:right;" | 9 || [[Mikavasi]]
+|-
+| style="text-align:center;"| {{flagicon|Vesozata}} || [[Vesozata]] || style="text-align:right;" | 2,530,444 || style="text-align:right;" | 121,753,072 || style="text-align:right;" | 48 || [[Korvani]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 4
+| style="text-align:right;"| 6,173,029
+| style="text-align:right;"| 156,362,340
+| style="text-align:right;"| 25
+|}
+
+[[Category:Massir]]
+[[Category:Massiran Regions]]

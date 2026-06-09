@@ -1,0 +1,136 @@
+{{Infobox country
+| conventional_long_name = Great Yaxutan Republic
+| native_name            = ''__''  - Yaxutan
+| image_flag             = Yaxuto Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = YAH-ksu-toh
+| national_anthem        = /ˈjɑːk.su.toʊ/
+| image_map              = Yaxuto Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Yaxuto (green)
+| capital                = [[Khorin]]
+| largest_city           = [[Khorin]]
+| official_languages     = Yaxutan
+| regional_languages     = 
+| ethnic_groups          = 91.8% Yaxutan<br>3.2% [[Verusa|Verusan]]<br>2.1% Other<br>0.9% N/a
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.yax/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Yaxuto]] }}</ref>
+| religion               = 77.2% [[Kallimethra]]<br>19.8% [[wikipedia:Irreligion|Irreligion]]<br>3.0% [[Religion in YaxutoYaxuto|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.yax/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Yaxuto]] }}</ref>
+| demonym                = Yaxutan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Yaxuto
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Formation
+| sovereignty_note       = 
+| established            = 
+| established_event1     = Unification
+| established_date1      = 1607 AFA
+| established_event2     = Republic
+| established_date2      = 1695 AFA
+| established_event3     = Current republic
+| established_date3      = 1733 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 115th
+| area_km2               = 178,349
+| area_sq_mi             = 68,861
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 2.76
+| population_estimate    = {{decreaseNeutral}}18,401,000<ref name="POP YAX">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.yax/List_of_countries_and_dependencies_by_population/Yaxuto|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}18,334,000<ref>{{cite web|url=https://www.gov.yax/1765/caX3a/YAXUTO_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Yaxuto]] }}</ref>
+| population_census_year = 1760
+| population_density_km2 = 103.2
+| population_density_rank = 45th
+| GDP_PPP                = {{increase}} {{lahn}}432 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/yax/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 44th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}23,508
+| GDP_PPP_per_capita_rank = 24th
+| GDP_nominal            = {{increase}} {{lahn}}340 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/yax/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 35th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}18,492
+| GDP_nominal_per_capita_rank = 22nd
+| HDI_year               = 1765
+| HDI                    = 0.902
+| HDI_change             = increase
+| HDI_rank               = 27nd
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Ilessande]] (_) (ILE)
+| time_zone              = SYT +0 (Standard Yaxuto Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .yax
+| calling_code           = +15
+}}
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Yaxuto]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/yaxuto|title=World Population Prospects 1765: Yaxuto|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Khorin]] || 3,511,000
+|-
+| 2 || [[Zhangkao]] || 1,486,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.yax/ The Great Yaxutan Republic's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Yaxuto] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/yaxuto/ Yaxuto]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

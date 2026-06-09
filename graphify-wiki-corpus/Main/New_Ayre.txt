@@ -1,0 +1,46 @@
+{{Infobox continent
+|title          = New Ayre
+|image          = New Ayre Map.png
+|imagecaption   = Location of New Ayre
+|area           = {{convert|9,486,025|km2|sqmi|abbr=on}}
+|population     = 276,059,050 (1765)
+|density        = {{convert|29.10|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}4.321 trillion
+|GDP_nominal    = {{lahn}}1.951 trillion
+|GDP_per_capita = {{lahn}}7,069
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = New Ayrean
+|countries      = 23
+|list_countries = 
+|dependencies   = 3
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[List of languages in New Ayre]]
+}}
+|time           = UTC -2 to -7
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[List of cities in New Ayre]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''New Ayre''' is a continent located in the northern and southern hemispheres. It is bordered by the [[Northern Eanif Ocean]] and the [[Sahare Gulf]] to the north, the [[Rianian Ocean]] to the east, [[Northern Eanif Ocean]] to the west, and the [[Southern Eanif Ocean]] to the south. The continent covers around {{convert|9,486,025|km2|sqmi|abbr=on}} of land, making it the 7th largest continent in the world, with a total of about 276,059,000 as of 1765, making it also the 7th largest continent by population behind [Massir]], [[Mahea]], [[Quia]], [[Acrola]], [[Ayuma]] and [[Atirha]].
+
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:New Ayre]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

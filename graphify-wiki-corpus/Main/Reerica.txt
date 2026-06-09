@@ -1,0 +1,129 @@
+{{Infobox country
+| conventional_long_name = Republic of Reerica
+| native_name            = ''__''  - Emaran
+| image_flag             = Reerica Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = REE-rih-kah
+| national_anthem        = /ˈriː.rɪ.kɑː/
+| image_map              = Reerica Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Reerica(green)
+| capital                = [[Halumbaro]]
+| largest_city           = [[Halumbaro]]
+| official_languages     = Emaran
+| religion               = 80.5% [[Kallimethra]]<br>18.0% [[Religion in Reerica|Others]]<br>1.5% N/a
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.ree/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Reerica]] }}</ref>
+| demonym                = Reerican
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Reerica
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Reerica founded]]
+| established_date1      = 1608 AFA
+| established_event2     = Independence
+| established_date2      = 1713 AFA
+| established_event3     = 
+| established_date3      = 
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 98th
+| area_km2               = 264,853
+| area_sq_mi             = 102,260
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}8,871,000<ref name="POP REE">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.ree/List_of_countries_and_dependencies_by_population/Reerica|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 100th
+| population_estimate_year = 1765
+| population_density_km2 = 33.5
+| population_density_rank = 114th
+| GDP_PPP                = {{increase}} {{lahn}}106.948 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ree/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 89th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}12,056
+| GDP_PPP_per_capita_rank = 94th
+| GDP_nominal            = {{increase}} {{lahn}}67.590 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ree/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 74th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}7,619
+| GDP_nominal_per_capita_rank = 74th
+| HDI_year               = 1765
+| HDI                    = 0.728
+| HDI_change             = increase
+| HDI_rank               = 104th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Palama]] (_) (YAC)
+| time_zone              = SRE +4 (Standard Reerican Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .ree
+| calling_code           = +945
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Reerica]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/reerica|title=World Population Prospects 1765: Reerica|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Halumbaro]] || 1,568,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.ree/ The Republic of Reerica's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Reerica] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/reerica/ Reerica]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

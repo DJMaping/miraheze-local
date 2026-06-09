@@ -1,0 +1,40 @@
+==List of states and territories==
+'''Continue to [[South Ayuma]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Easuhura}} || [[Easuhura]] || style="text-align:right;" | 109,571 || style="text-align:right;" | 29,913,650 || style="text-align:right;" | 273 || [[Tanbai]]
+|-
+| style="text-align:center;"| {{flagicon|Eldjo}} || [[Eldjo]] || style="text-align:right;" | 130,920 || style="text-align:right;" | 5,393,380 || style="text-align:right;" | 41 || [[Shorakim]]
+|-
+| style="text-align:center;"| {{flagicon|Emara}} || [[Emara]] || style="text-align:right;" | 428,786 || style="text-align:right;" | 90,861,040 || style="text-align:right;" | 212 || [[Rivostan]]
+|-
+| style="text-align:center;"| {{flagicon|Ilicuhe}} || [[Ilicuhe]] || style="text-align:right;" | 27,541 || style="text-align:right;" | 3,254,988 || style="text-align:right;" | 118 || [[Sakhen]]
+|-
+| style="text-align:center;"| {{flagicon|Lycroa}} 
+| [[Lycroa]] || style="text-align:right;" | 494,588 || style="text-align:right;" | 81,313,729 || style="text-align:right;" | 164 || [[Jungui]]
+|-
+| style="text-align:center;"| {{flagicon|Praesyu}} 
+| [[Praesyu]] || style="text-align:right;" | 506,753 || style="text-align:right;" | 39,227,750 || style="text-align:right;" | 77 || [[Brimasha]]
+|-
+| style="text-align:center;"| {{flagicon|Tonder}} || [[Tonder]] || style="text-align:right;" | 21,990 || style="text-align:right;" | 143,925 || style="text-align:right;" | 7 || [[Tonder (City)|Tonder]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 1,720,149
+| style="text-align:right;"| 250,108,462
+| style="text-align:right;"| 145
+|}
+
+[[Category:All country data templates|Praesyu]]
+[[Category:Ayuma]]
+[[Category:Ayuman Regions]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Praesyu]]

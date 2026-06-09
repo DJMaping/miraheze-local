@@ -1,0 +1,72 @@
+'''Continue to [[Mahea]]'''
+{{Mahean Map Labelled}}
+
+==List of states and territories==
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Amcha}} || [[Amcha]] || style="text-align:right;" | 363,049 || style="text-align:right;" | 2,236,563 || style="text-align:right;" | 6 || [[Harnuk]]
+|-
+| style="text-align:center;"| {{flagicon|Byllu}} || [[Byllu]] || style="text-align:right;" | 563,506 || style="text-align:right;" | 9,106,539 || style="text-align:right;" | 16 || [[Dundryan]]
+|-
+| style="text-align:center;"| {{flagicon|Chaenia}} || [[Chaenia]] || style="text-align:right;" | 84,476 || style="text-align:right;" | 13,815,053 || style="text-align:right;" | 164 || [[Lutur]]
+|-
+| style="text-align:center;"| {{flagicon|Cruthi Anoso}} || [[Cruthi Anoso]] || style="text-align:right;" | 230 || style="text-align:right;" | 3,984 || style="text-align:right;" | 17 || [[Lunarev]]
+|-
+| style="text-align:center;"| {{flagicon|Dual Cenryia}} || [[Dual Cenryia]] || style="text-align:right;" | 1,028,181 || style="text-align:right;" | 95,001,457 || style="text-align:right;" | 92 || [[Vrandig]]
+|-
+| style="text-align:center;"| {{flagicon|Exilium}} || [[Exilium]] || style="text-align:right;" | 452,426 || style="text-align:right;" | 25,083,674 || style="text-align:right;" | 55 || [[Dulvasra]]
+|-
+| style="text-align:center;"| {{flagicon|Galca}} || [[Galca]] || style="text-align:right;" | 241,076 || style="text-align:right;" | 16,057,397 || style="text-align:right;" | 67 || [[Dherkiv]]
+|-
+| style="text-align:center;"| {{flagicon|Inania}} || [[Inania]] || style="text-align:right;" | 2,964,408 || style="text-align:right;" | 236,475,569 || style="text-align:right;" | 80 || [[Fashti]]
+|-
+| style="text-align:center;"| {{flagicon|Inrea}} || [[Inrea]] || style="text-align:right;" | 409,984 || style="text-align:right;" | 2,051,970 || style="text-align:right;" | 5 || [[Dalsjiv]]
+|-
+| style="text-align:center;"| {{flagicon|Isnti}} || [[Isnti]] || style="text-align:right;" | 250,357 || style="text-align:right;" | 35,956,798 || style="text-align:right;" | 144 || [[Mahsira]]
+|-
+| style="text-align:center;"| {{flagicon|Lieri}} || [[Lieri]] || style="text-align:right;" | 588,468 || style="text-align:right;" | 36,478,307 || style="text-align:right;" | 62 || [[Nabruik]]
+|-
+| style="text-align:center;"| {{flagicon|Ocaun}} || [[Ocaun]] || style="text-align:right;" | 1,399,717 || style="text-align:right;" | 88,913,943 || style="text-align:right;" | 64 || [[Kejira]]
+|-
+| style="text-align:center;"| {{flagicon|Otiiric}} || [[Otiiric]] || style="text-align:right;" | 200,464 || style="text-align:right;" | 21,611,863 || style="text-align:right;" | 108 || [[Fyntek]]
+|-
+| style="text-align:center;"| {{flagicon|Ozinia}} || [[Ozinia]] || style="text-align:right;" | 197,284 || style="text-align:right;" | 7,898,975 || style="text-align:right;" | 40 || [[Nuswi]]
+|-
+| style="text-align:center;"| {{flagicon|Pelugrotoa}} || [[Pelugrotoa]] || style="text-align:right;" | 2,581,890 || style="text-align:right;" | 347,520,587 || style="text-align:right;" | 135 || [[Thavrin]]
+|-
+| style="text-align:center;"| {{flagicon|Rtesania}} || [[Rtesania]] || style="text-align:right;" | 214,130 || style="text-align:right;" | 9,975,075 || style="text-align:right;" | 47 || [[Bardin]]
+|-
+| style="text-align:center;"| {{flagicon|Sadain}} || [[Sadain]] || style="text-align:right;" | 111,241 || style="text-align:right;" | 18,288,844 || style="text-align:right;" | 164 || [[Sivona]]
+|-
+| style="text-align:center;"| {{flagicon|Selaja}} || [[Selaja]] || style="text-align:right;" | 282,440 || style="text-align:right;" | 31,644,352 || style="text-align:right;" | 112 || [[Selja]]
+|-
+| style="text-align:center;"| {{flagicon|Seytinemas}} || [[Seytinemas]] || style="text-align:right;" | 877,397 || style="text-align:right;" | 71,957,346 || style="text-align:right;" | 82 || [[Vulna]]
+|-
+| style="text-align:center;"| {{flagicon|Sivoso}} || [[Sivoso]] || style="text-align:right;" | 1,328,657 || style="text-align:right;" | 21,995,119 || style="text-align:right;" | 17 || [[Amrata]]
+|-
+| style="text-align:center;"| {{flagicon|Sunsokua}} || [[Sunsokua]] || style="text-align:right;" | 737,960 || style="text-align:right;" | 79,558,877 || style="text-align:right;" | 108 || [[Mikalu]]
+|-
+| style="text-align:center;"| {{flagicon|Taing}} || [[Taing]] || style="text-align:right;" | 193,698 || style="text-align:right;" | 2,162,677 || style="text-align:right;" | 11 || [[Kanrido]]
+|-
+| style="text-align:center;"| {{flagicon|Taoisia}} || [[Taoisia]] || style="text-align:right;" | 942,386 || style="text-align:right;" | 11,247,660 || style="text-align:right;" | 12 || [[Kumazi]]
+|-
+| style="text-align:center;"| {{flagicon|Trian}} || [[Trian]] || style="text-align:right;" | 382,656 || style="text-align:right;" | 27,844,193 || style="text-align:right;" | 73 || [[Treka]]
+|-
+| style="text-align:center;"| {{flagicon|Vayvele}} 
+| [[Vayvele]] || style="text-align:right;" | 577,124 || style="text-align:right;" | 74,436,761 || style="text-align:right;" | 129 || [[Kaisri]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 25
+| style="text-align:right;"| 16,973,205
+| style="text-align:right;"| 1,287,323,583
+| style="text-align:right;"| 76
+|}
+
+[[Category:Continents]]

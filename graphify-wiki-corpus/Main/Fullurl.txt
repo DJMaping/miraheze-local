@@ -1,0 +1,4 @@
+{{#if:{{{protocol|https}}}|{{{protocol|https:}}}}}{{fullurl:{{{1|{{FULLPAGENAMEE}}}}}|{{#if:{{{action|}}}|action={{{action}}}}}}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage and interwikis in Wikidata, not here! -->
+</noinclude>

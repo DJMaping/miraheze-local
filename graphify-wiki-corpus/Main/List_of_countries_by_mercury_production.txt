@@ -1,0 +1,37 @@
+In 1764, [[Areoix Lie]] was the top producer of mercury, providing 88% of the world's output (2200 out of 2500 tonnes), followed by [[Jau]] (178 t), [[Anymna]] (50 t) and [[Estijan]](32 t).
+
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Mercury production by country in 1764 (tonnes)
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! Country !! Production
+|- class="static-row-header " style="font-weight:bold;"
+| {{left}} World || 1,200
+|-
+|{{flag|Dahe}}
+| 1000  
+|-
+|{{flag|Suenan}} || 100  
+|-
+|{{flag|Anymna}} || 30  
+|-
+|{{flag|Estijan}} || 30  
+|-
+|{{flag|Pelugrotoa}} || 20  
+|-
+|{{flag|Raledria}} 
+| 15  
+|-
+|{{flag|Emara}} || 10  
+|-
+|{{flag|Ikzen}} || 6  
+|-
+|{{flag|Ealdorii}} || 2  
+|-
+|}
+
+[[Category:All country data templates|Raledria]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Raledria]]

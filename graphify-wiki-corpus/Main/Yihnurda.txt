@@ -1,0 +1,135 @@
+{{Infobox country
+| conventional_long_name = Federal Republic of Yihnurda
+| native_name            = ''__''  - Yihnurdan
+| image_flag             = Yihnurda Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = YIH-nur-gah
+| national_anthem        = /ˈjɪn.ɜːr.gɑː/
+| image_map              = Yihnurda Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Yihnurda(green)
+| capital                = [[Parloth]]
+| largest_city           = [[Parloth]]
+| official_languages     = Yihnurdan
+| regional_languages     = [[Verste|Verstian]]<br>[[Ztesh|Zteshi]]
+| ethnic_groups          = 65.3% Yihnurdan<br>28.6% [[Ztesh|Sursian]]<br>3.1% [[Verste|Verstian]]<br>6.1% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.yih/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Yihnurda]] }}</ref>
+| demonym                = Yihnurdan
+| government_type        = Federal parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Yihnurda
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Llacit Kingdom]]
+| established_date1      = 360 AFA
+| established_event2     = [[Nujlo Kingdom]]
+| established_date2      = 554 AFA
+| established_event3     = [[Enapaa Kingdom]]
+| established_date3      = 765 AFA
+| established_event4     = [[Foraquniwara]]
+| established_date4      = 1237 AFA
+| established_event5     = [[Scephror]]
+| established_date5      = 1346 AFA
+| established_event6     = [[Glauldural Kingdom]]
+| established_date6      = 1416
+| established_event7     = [[Yihnurda Kingdom]]
+| established_date7      = 1621 AFA
+| established_event8     = [[Emaran Colony]]
+| established_date8      = 1634 AFA
+| established_event9     = Independence
+| established_date9      = 1695 AGA
+| area_rank              = 18th
+| area_km2               = 1,886,209
+| area_sq_mi             = 728,269
+| population_estimate    = {{increaseNeutral}}8,714,000<ref name="POP YIH">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.yih/List_of_countries_and_dependencies_by_population/Yihnurda|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 101st
+| population_estimate_year = 1765
+| population_density_km2 = 4.62
+| population_density_rank = 159th
+| GDP_PPP                = {{increase}} {{lahn}}47.136 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/yih/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 113th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}5,409
+| GDP_PPP_per_capita_rank = 139th
+| GDP_nominal            = {{increase}} {{lahn}}14.866 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/yih/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 122nd
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}1,706
+| GDP_nominal_per_capita_rank = 141st
+| HDI_year               = 1765
+| HDI                    = 0.618
+| HDI_change             = increase
+| HDI_rank               = 144th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Poeve]] (_) (POE)
+| time_zone              = SYT-12, +12 (Standard Yihnurdan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .yih
+| calling_code           = +799
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+Cities in [[Yihnurda]] (population figures not yet available):
+* [[Khoru]]
+* [[Lusha]]
+* [[Mavoni]]
+* [[Parloth]]
+* [[Shenga]]
+* [[Taviro]]
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.yih/ The Federal Republic of Yihnurda's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Yihnurda] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/yihnurda/ Yihnurda]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

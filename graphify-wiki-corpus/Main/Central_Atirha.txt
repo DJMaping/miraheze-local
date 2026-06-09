@@ -1,0 +1,74 @@
+{{Infobox continent
+|title          = Central Atirha
+|image          = Central Atirha Globe.png
+|imagecaption   = Location of Central Atirha
+|area           = {{convert|6,652,554|km2|sqmi|abbr=on}}
+|population     = 326,379,040 (1765)
+|density        = {{convert|49.06|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}9.101 trillion
+|GDP_nominal    = {{lahn}}8.973 trillion
+|GDP_per_capita = {{lahn}}27,493
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Central Atirhan
+|countries      = 5
+|list_countries = 
+|dependencies   = 1
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Emaran Language|Emaran]] 
+* [[Lycroan Language|Lycroan]] 
+}}
+|time           = UTC -7 to -5
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Birska]]
+* [[Hulong]]
+* [[Pekrin-Vavlen]]
+* [[Tavik]]
+* [[Tirna]]
+* [[Tirna-Rovik]]
+* [[Tiyomi]]
+* [[Zunle]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Central Atirha''' is a sub-continent located in the northern hemisphere. It is bordered the [[Uscea Sea]] to the south, [[West Atirha]] to the west, the [[Srandan Ocean]] to the north, and the [[East Atirha]] to the east. The continent covers around {{convert|6,652,554|km2|sqmi|abbr=on}} of land, making it the 5th largest sub-continent in the world, with a total of about 326,379,040 as of 1765, making it also the 6th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Arbiya}} || [[Arbiya]] || style="text-align:right;" | 551,835 || style="text-align:right;" | 6,585,930 || style="text-align:right;" | 12 || [[Kraevu]]
+|-
+| style="text-align:center;"| {{flagicon|Curata}} || [[Curata]] || style="text-align:right;" | 94,754 || style="text-align:right;" | 4,523,613 || style="text-align:right;" | 48 || [[Hulong]]
+|-
+| style="text-align:center;"| {{flagicon|Fincen}} || [[Fincen]] || style="text-align:right;" | 131,875 || style="text-align:right;" | 4,620,320 || style="text-align:right;" | 35 || [[Tiyomi]]
+|-
+| style="text-align:center;"| {{flagicon|Gaeiya}} || [[Gaeiya]] || style="text-align:right;" | 3,518,174 || style="text-align:right;" | 9,533,900 || style="text-align:right;" | 3 || [[Tsyanka]]
+|-
+| style="text-align:center;"| {{flagicon|Raledria}} 
+| [[Raledria]] || style="text-align:right;" | 2,355,916 || style="text-align:right;" | 301,115,278 || style="text-align:right;" | 128 || [[Tirna]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 5
+| style="text-align:right;"| 6,652,554
+| style="text-align:right;"| 326,379,041
+| style="text-align:right;"| 49
+|}
+==References==
+{{reflist}}
+[[Category:Geoscheme]]

@@ -1,0 +1,159 @@
+{{See also|List of iron mines}}
+This is a list of countries by mined [[Wikipedia:Iron_ore|iron ore production]] in 1764 based on [[Raledrian Geological Survey]] data.<ref>{{cite web |title=Mineral Commodity Summaries 1764 – Iron Ore |url=https://gtu.org/periodicals/mcs1764/mcs1764-iron-ore.pdf |publisher=GTU Geological Survey}}</ref> "Usable iron ore" figures refer to the processed ore product suitable for steelmaking, not the raw extracted material. As such, countries with lower-grade ores like Desaki extensively beneficiate magnetite ores (typically <30% Fe) to produce market-grade material (~60% Fe), making their usable ore output appear comparable to high-grade producers like Estijan or Raledria. However, the efficiency, cost, and environmental impact of such beneficiation vary significantly.<ref >{{cite journal |last1=Galwa |first1=Ciial |year=1764 |title=Exploring Low-Grade Iron Ore Beneficiation Techniques |journal=Minerals |volume=14 |issue=8 |pages=796}}</ref>
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by iron ore production and reserves (1761–1763)
+! rowspan="2" |Country
+! colspan="3" |Production (thousand tonnes)
+! colspan="2" |Reserves (million tonnes)
+|- class="static-row-header"
+! data-sort-type="number" |Usable<br>iron ore
+!Pig<br>iron<ref>{{cite web |title=World Steel in Figures 1763 |url=https://gtu.org/wp-content/uploads/World-Steel-in-Figures-1764.pdf |publisher=World Steel Association}}</ref>
+!Iron<br>content
+!Crude<br>ore
+!Iron<br>content
+|- class="static-row-header"
+|'''{{noflag}}World'''
+|'''2,500,000'''<ref name="gtugs-iron">{{cite web |title=Mineral Commodity Summaries 1764 – Iron Ore: World Production and Reserves |url=https://gtu.org/periodicals/mcs1764/mcs1764-iron-ore-world.pdf |publisher=[[GTU Geological Survey]] |date=15 January 1764}}</ref>
+|'''≈ 1,366,000'''
+|'''1,600,000'''
+|'''200,000'''<ref name="gtu-reserves">{{cite web |title=Global Iron Ore Reserves and Trade Outlook 1763 |url=https://www.globaltradeunion.org/database/1882 |publisher=[[Global Trade Union]] |date=3 December 1763}}</ref>
+|'''88,000'''
+|- class="static-row-header"
+|{{Noflag}}''Other countries''
+|≈ 13,450
+|–
+|37,000
+|17,000
+|8,500
+|-
+|{{flagicon|Estijan}} [[Estijan]] || 930,000<ref name="gtugs-iron" /> || 3,700 || 580,000 || 58,000<ref name="gtu-reserves" /> || 27,000
+|-
+|{{flagicon|Raledria}} [[Raledria]]
+| 440,000 || 871,000<ref>{{cite web |title=World Steel in Figures 1764: Crude Steel and Pig Iron Output by Country |url=https://gtu.org/periodicals/mcs1764/mcs1764-pig-iron.pdf |publisher=[[GTU Geological Survey]] |date=22 February 1764}}</ref> || 280,000 || 34,000 || 15,000
+|-
+|{{flagicon|Desaki}} [[Desaki]] || 270,000 || 25,700 || 170,000 || 20,000 || 6,900
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 270,000 || 86,300 || 170,000 || 5,500 || 3,400
+|-
+|{{flagicon|Mesjan Hyaa}} [[Mesjan Hyaa]] || 91,000 || 54,600 || 53,000 || 35,000<ref>{{cite web |title=Crude Iron Ore Reserve Estimates 1763, by Country |url=https://www.globaltradeunion.org/database/1903 |publisher=[[Global Trade Union]] |date=3 December 1763}}</ref> || 14,000
+|-
+|{{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| 90,000 || 36,400 || 59,000 || 3,800 || 1,500
+|-
+|{{flagicon|Inania}} [[Inania]] || 66,000 || 2,600 || 42,000 || 930 || 590
+|-
+|{{flagicon|Gaeiya}} [[Gaeiya]] || – || 63,000 || – || – || –
+|-
+|{{flagicon|Etirha}} [[Etirha]] || 54,000 || 7,300 || 32,000 || 6,000 || 2,300
+|-
+|{{flagicon|Taoisia}} [[Taoisia]] || 48,000 || 20,600 || 30,000 || 3,600 || 2,300
+|-
+|{{flagicon|Emara}} [[Emara]] || 42,000 || – || 26,000 || 6,500 || 2,300
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || 30,000 || – || 9,200 || 2,500 || 900
+|-
+|{{flagicon|Verusa}} [[Verusa]] || 28,000 || 2,900 || 20,000 || 1,300 || 600
+|-
+|{{flagicon|Ikzen}} [[Ikzen]] || 21,000 || – || 14,000 || 2,600 || 1,500
+|-
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 18,000 || 581 || 11,000 || – || –
+|-
+|{{flagicon|Anymna}} [[Anymna]] || 18,000 || 9,100 || 11,000 || 150 || 99
+|-
+|{{flagicon|Verste}} [[Verste]] || 15,000 || – || 9,400 || – || –
+|-
+|{{flagicon|Ukhdari}} [[Ukhdari]] || – || 13,400 || – || – || –
+|-
+|{{flagicon|Haiza}} [[Haiza]] || – || 8,200 || – || – || –
+|-
+|{{flagicon|Taval}} [[Taval]] || 8,000 || 8,428 || 5,000 || – || –
+|-
+|{{flagicon|Lycroa}} [[Lycroa]] 
+| 7,660 || – || – || – || –
+|-
+|{{flagicon|Etretes}} [[Etretes]] || – || 6,700 || – || – || –
+|-
+|{{flagicon|Ocaun}} [[Ocaun]] || – || 5,500 || – || – || –
+|-
+|{{flagicon|Migoku}} [[Migoku]] || 5,000 || – || – || – || –
+|-
+|{{flagicon|Suenan}} [[Suenan]] || – || 4,779 || – || – || –
+|-
+|{{flagicon|Ashain}} [[Ashain]] || 4,912 || 800 || – || – || –
+|-
+|{{flagicon|Easuhura}} [[Easuhura]] || 4,370 || – || – || – || –
+|-
+|{{flagicon|Iareva}} [[Iareva]] || 4,000 || 600 || – || – || –
+|-
+|{{flagicon|Kaastini}} [[Kaastini]] || – || 4,000 || – || – || –
+|-
+|{{flagicon|Selaja}} [[Selaja]] || 3,500 || 3,000 || – || – || –
+|-
+|{{flagicon|Eldjo}} [[Eldjo]] || – || 3,500 || – || – || –
+|-
+|{{flagicon|United Mihili}} [[United Mihili]] || – || 3,494 || – || – || –
+|-
+|{{flagicon|Acrana}} [[Acrana]] || – || 3,400 || – || – || –
+|-
+|{{flagicon|Vesozata}} [[Vesozata]] || – || 3,400 || – || – || –
+|-
+|{{flagicon|Ztesh}} [[Ztesh]] || 3,237 || 5,800 || – || – || –
+|-
+|{{flagicon|Praesyu}} [[Praesyu]] 
+| – || 3,089 || – || – || –
+|-
+|{{flagicon|Lydroa}} [[Lydroa]] || 3,000 || 150 || – || – || –
+|-
+|{{flagicon|Fermori}} [[Fermori]] || – || 1,900 || – || – || –
+|-
+|{{flagicon|Hkuqo}} [[Hkuqo]] || 1,843 || 10,000 || – || – || –
+|-
+|{{flagicon|Ealdorii}} [[Ealdorii]] || 1,800 || 70 || – || – || –
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || – || 1,800 || – || – || –
+|-
+|{{flagicon|Sunsokua}} [[Sunsokua]] || 1,795 || – || – || – || –
+|-
+|{{flagicon|Jau}} [[Jau]] || – || 1,700 || – || – || –
+|-
+|{{flagicon|Yaxuto}} [[Yaxuto]] || – || 1,600 || – || – || –
+|-
+|{{flagicon|Galca}} [[Galca]] || – || 1,500 || – || – || –
+|-
+|{{flagicon|Trian}} [[Trian]] || – || 1,500 || – || – || –
+|-
+|{{flagicon|Merela Sta}} [[Merela Sta]] || – || 1,500 || – || – || –
+|-
+|{{flagicon|Umarcia}} [[Umarcia]] || 1,286 || 757 || – || – || –
+|-
+|{{flagicon|Inrea}} [[Inrea]] || – || 1,100 || – || – || –
+|-
+|{{flagicon|Heiso}} [[Heiso]] || 1,000 || 277 || – || – || –
+|-
+|{{flagicon|Zhanshe}} [[Zhanshe]] || – || 809 || – || – || –
+|-
+|{{flagicon|Taniduna}} [[Taniduna]] || 750 || 3,900 || – || – || –
+|-
+|{{flagicon|Iainoa}} [[Iainoa]] || 617 || – || – || – || –
+|-
+|{{flagicon|Yihnurda}} [[Yihnurda]] || – || 500 || – || – || –
+|-
+|{{flagicon|Ohtina}} [[Ohtina]] || 498 || 213 || – || – || –
+|-
+|{{flagicon|Sivoso}} [[Sivoso]] || 470 || 23,600 || – || – || –
+|-
+|{{flagicon|Curata}} [[Curata]] || 434 || 45,200 || – || – || –
+|-
+|{{flagicon|North Ayre}} [[North Ayre]] || 372 || – || – || – || –
+|-
+|{{flagicon|Mendereide}} [[Mendereide]] || 304 || – || – || – || –
+|-
+|{{flagicon|Genaire}} [[Genaire]] || 260 || – || – || – || –
+|-
+|}
+
+
+== References ==
+{{reflist}}
+
+[[Category:Statistics]]

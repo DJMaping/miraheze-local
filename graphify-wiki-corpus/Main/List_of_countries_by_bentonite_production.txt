@@ -1,0 +1,242 @@
+{{short description|none}}
+
+This is a '''list of countries by [[wikipedia:bentonite|bentonite]] production'''.<ref name="gtugs-method">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/methodology|title=Bentonite: world production statistics and methodology, 1765|publisher=[[GTU Geological Survey]]|date=14 March 1765}}</ref> Bentonite is an absorbent [[wikipedia:aluminium|aluminium]] [[wikipedia:Silicate minerals|phyllosilicate]] generally impure [[wikipedia:clay|clay]] consisting mostly of [[wikipedia:|montmorillonite]]. There are a few types of bentonites, and their names depend on the dominant elements, such as potassium, sodium, calcium, and aluminium. As noted in several places in the geologic literature, there are some nomenclatorial problems with the classification of bentonite clays.
+
+Bentonite usually forms from weathering of [[wikipedia:volcanic ash|volcanic ash]], most often in the presence of water. However, the term bentonite, as well as a similar clay called tonstein, has been used for clay beds of uncertain origin. For industrial purposes, two main classes of bentonite exist: sodium bentonite and calcium bentonite.
+
+In [[wikipedia:stratigraphy|stratigraphy]] and [[wikipedia:tephrochronology|tephrochronology]], completely devitrified (weathered volcanic glass) ash-fall beds are commonly referred to as K-bentonites when the dominant clay species is [[wikipedia:illite|illite]]. Other common clay species, and sometimes dominant, are montmorillonite and [[wikipedia:kaolinite|kaolinite]]. Kaolinite-dominated clays are commonly referred to as tonsteins and are typically associated with [[wikipedia:coal|coal]].
+
+==List==
+<big>'''*'''</big> indicates '''"Natural resources of COUNTRY or TERRITORY"''' links.
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Bentonite production by country in 1765<ref>{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/}}</ref>
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! Country !! Production<br>(metric tonnes)
+|-
+| style=text-align:left | '''{{noflag|World}}'''|| 15,135,176<ref name="gtugs-world">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/world-total-1765|title=Bentonite: estimated world production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
+|-
+|{{flag|Etirha}} || 4,500,000<ref name="gtugs-etirha">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/etirha|title=Etirha bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
+|-
+|{{flag|Areoix Lie }}
+| 3,500,000<ref name="gtugs-areoix">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/areoix-lie|title=Areoix Lie bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
+|-
+|{{flag|Dahe}} || 2,100,000<ref name="gtugs-dahe">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/dahe|title=Dahe bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
+|-
+|{{flag|Sivoso}} || 2,018,993<ref name="gtugs-sivoso">{{cite web|url=https://www.gtugeologicalsurvey.org/commodity/bentonite/country/sivoso|title=Sivoso bentonite production, 1765|publisher=[[GTU Geological Survey]]|date=29 April 1765}}</ref>
+|-
+|{{flag|Trian}} || 1,250,000  
+|-
+|{{flag|Taoisia}} || 1,100,000  
+|-
+|{{flag|Raledria}} 
+| 750,248  
+|-
+|{{flag|Ashain}} || 420,000  
+|-
+|{{flag|Pelugrotoa}} || 341,335  
+|-
+|{{flag|Verusa}} || 316,000  
+|-
+|{{flag|Ilicuhe}} || 302,000  
+|-
+|{{flag|United Delet}} || 220,000  
+|-
+|{{flag|Praesyu}} 
+| 186,363  
+|-
+|{{flag|Emara}} || 176,628  
+|-
+|{{flag|Seytinemas}} || 175,875  
+|-
+|{{flag|Taval}} || 167,000  
+|-
+|{{flag|Sadain}} || 135,600  
+|-
+|{{flag|Welenu Fana}} || 113,985  
+|-
+|{{flag|Siana}} || 102,264  
+|-
+|{{flag|Haiza}} || 97,019  
+|-
+|{{flag|Lycroa}} 
+| 90,000  
+|-
+|{{flag|Ztesh}} || 86,562  
+|-
+|{{flag|New Misos}} || 61,165  
+|-
+|{{flag|Estijan}} || 50,000  
+|-
+|{{flag|Jau}} || 50,000  
+|-
+|{{flag|Vesozata}} || 46,000  
+|-
+|{{flag|Oyreain}} || 34,690  
+|-
+|{{flag|Dual Cenryia}} || 32,000  
+|-
+|{{flag|Darewa}} || 28,454  
+|-
+|{{flag|Vayvele}} 
+| 28,173  
+|-
+|{{flag|Sanagara}} || 24,128  
+|-
+|{{flag|Acrana}} || 22,955  
+|-
+|{{flag|Anymna}} || 22,931  
+|-
+|{{flag|Gaeiya}} || 22,000  
+|-
+|{{flag|Wundry}} || 21,570  
+|-
+|{{flag|Verste}} || 13,198  
+|-
+|{{flag|Ohtina}} || 9,000  
+|-
+|{{flag|Rtesania}} || 6,300  
+|-
+|{{flag|Easuhura}} || 6,000  
+|-
+|{{flag|Ealdorii}} || 3,000  
+|-
+|{{flag|Andsaudare}} || 1,372  
+|-
+|{{flag|Ozinia}} || 750  
+|-
+|{{flag|Phuris}} || 650  
+|-
+|{{flag|United Mihili}} || 500  
+|-
+|{{flag|Deschon}} || 290  
+|-
+|{{flag|Pelines}} || 110  
+|-
+|{{flag|Merela Sta}} || 68  
+|-
+|{{flag|Trian}} || 320,000  
+|-
+|{{flag|Jathua}} || 320,000  
+|-
+|{{flag|Fire Coast}} || 300,000  
+|-
+|{{flag|Verste}} || 300,000  
+|-
+|{{flag|Erkizil}} || 300,000  
+|-
+|{{flag|Taval}} || 297,861  
+|-
+|{{flag|Sanagara}} || 250,000  
+|-
+|{{flag|Siana}} || 230,000  
+|-
+|{{flag|Isnti}} || 230,000  
+|-
+|{{flag|Exilium}} || 210,000  
+|-
+|{{flag|Hkuqo}} || 210,000  
+|-
+|{{flag|Ocaun}} || 195,600  
+|-
+|{{flag|Pelines}} || 181,818  
+|-
+|{{flag|Quidic}} || 162,000  
+|-
+|{{flag|Ucrua}} || 160,000  
+|-
+|{{flag|Deschon}} || 125,853  
+|-
+|{{flag|Sadain}} || 120,000  
+|-
+|{{flag|Oscairia}} || 120,000  
+|-
+|{{flag|Taniduna}} || 110,000  
+|-
+|{{flag|Lieri}} || 100,000  
+|-
+|{{flag|Curata}} || 100,000  
+|-
+|{{flag|Nia}} || 100,000  
+|-
+|{{flag|Genaire}} || 80,000  
+|-
+|{{flag|Desaki}} || 78,415  
+|-
+|{{flag|Umarcia}} || 75,000  
+|-
+|{{flag|Fermori}} || 60,000  
+|-
+|{{flag|Shinam}} || 60,000  
+|-
+|{{flag|Otiiric}} || 58,000  
+|-
+|{{flag|Eparia}} || 50,000  
+|-
+|{{flag|Acrana}} || 45,992  
+|-
+|{{flag|Saa}} || 42,000  
+|-
+|{{flag|Galca}} || 40,000  
+|-
+|{{flag|Gaeiya}} || 37,000  
+|-
+|{{flag|Maalle}} || 30,000  
+|-
+|{{flag|Anymna}} || 30,000  
+|-
+|{{flag|Onphello}} || 25,000  
+|-
+|{{flag|Eldavpir}} || 23,215  
+|-
+|{{flag|Zenashan}} || 22,534  
+|-
+|{{flag|Taoisia}} || 21,663  
+|-
+|{{flag|Iainoa}} || 20,000  
+|-
+|{{flag|Iareva}} || 18,000  
+|-
+|{{flag|Haiza}} || 15,000  
+|-
+|{{flag|Isari}} || 14,000  
+|-
+|{{flag|Disal Nila}} || 11,500  
+|-
+|{{flag|Prstreula}} || 10,000  
+|-
+|{{flag|Merela Sta}} || 6,500  
+|-
+|{{flag|Iquir}} || 6,000  
+|-
+|{{flag|Viussi}} || 5,000  
+|-
+|{{flag|Jshain}} || 4,181  
+|-
+|{{flag|Candenat}} || 4,000  
+|-
+|{{flag|Yaxuto}} || 2,342  
+|-
+|{{flag|Welenu Fana}} || 1,000  
+|-
+|{{flag|Acetoa}} || 800  
+|-
+|{{flag|North Ayre}} || 674  
+|-
+|{{flag|Kaastini}} || 394  
+|-
+|{{flag|Volver}} || 188  
+|-
+|}
+
+==References==
+{{reflist}}
+[[Category:Statistics]]
+
+[[Category:All country data templates|Vayvele]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with short description]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Vayvele]]

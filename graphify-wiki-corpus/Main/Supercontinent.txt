@@ -1,0 +1,68 @@
+{{Infobox continent
+|title          = The Supercontinent
+|image          = Supercontinent Map.png
+|imagecaption   = Location of the Supercontinent
+|area           = {{convert|69,729,927|km2|sqmi|abbr=on}}
+|population     = 4,454,200,000 (1765)
+|density        = {{convert|63.88|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}72.170 trillion
+|GDP_nominal    = {{lahn}}38.042 trillion
+|GDP_per_capita = {{lahn}}8,540
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = 
+|countries      = 89
+|list_countries = 
+|dependencies   = 11
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Alqiran Language|Alqiran]]
+* [[Arten Language|Arten]]
+* [[Cenryi Language|Cenryi]]
+* [[Dahen Language|Dahen]]
+* [[Emaran Language|Emaran]]
+* [[Ealdorii Language|Ealdorii]] 
+* [[Estijan Language|Estijan]] 
+* [[Lastnu Language|Lastnu]]
+* [[Pelugrotoan Language|Pelugrotoan]]
+* [[Seytinemasi Language|Seytinemasi]]
+* [[Versuan Language|Versuan]] 
+* [[Vesozatan Language|Vesozatan]]
+}}
+|time           = UTC 0 to +6
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Fekhalai]]
+*[[Zirohu]]
+*[[Havok]]
+*[[Vurahi]]
+*[[Bhaliloi]]
+*[[Kejira]]
+*[[Fashti]]
+*[[Fekunza]]
+*[[Rivostan]]
+*[[Thavrin]]
+*[[Nakahiki]]
+*[[Xuqilin]]
+*[[Shurqan]]
+*[[Shabiran]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+The '''Supercontinent''' is a collection of continents located across the northern and southern hemispheres. It includes [[Ayuma]] and [[Acrola]] in the north, and [[Mahea]] and [[Massir]] to the south, The supercontinent covers around {{convert|69,729,927|km2|sqmi|abbr=on}} of land and with a total of about population of 4,454,200,000 as of 1765, making up around 65% of the global population.
+
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

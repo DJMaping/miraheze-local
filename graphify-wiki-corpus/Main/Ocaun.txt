@@ -1,0 +1,140 @@
+{{Infobox country
+| conventional_long_name = Grand State of Ocaun
+| native_name            = ''__''  - Ocunese 
+| image_flag             = Ocaun Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = OH-kawn
+| national_anthem        = /ˈoʊ.kɔːn/
+| image_map              = Ocaun Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Ocaun(green)
+| capital                = [[Kejira]]
+| largest_city           = [[Kejira]]
+| official_languages     = Ocunese 
+| demonym                = Ocunese 
+| government_type        = Totalitarian hereditary dictatorship
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| legislature            = Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Easuhura]]
+| established            = 
+| established_event1     = [[Kuhn Founded]]
+| established_date1      = 215 AFA
+| established_event2     = [[Hepdans invasions]]
+| established_date2      = 410~ AFA
+| established_event3     = [[Marhm Sunm]]
+| established_date3      = 789 AFA
+| established_event4     = [[Ocaun Kingdom]]
+| established_date4      = 908 AFA
+| established_event5     = [[Ocaun Empire]]
+| established_date5      = 1282 AFA
+| established_event6     = [[Easuhuran protectorate]]
+| established_date6      = 1645 AFA
+| established_event7     = Independence 
+| established_date7      = 1709 AFA
+| established_event8     = [[Dictatorship established]]
+| established_date8      = 1720 AFA
+| area_rank              = 29th
+| area_km2               = 1,399,717
+| area_sq_mi             = 540,434
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.00
+| population_estimate    = {{increaseNeutral}}88,913,000<ref name="POP OCA">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.oca/List_of_countries_and_dependencies_by_population/Ocaun|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 29th
+| population_estimate_year = 1765
+| population_density_km2 = 63.5
+| population_density_rank = 73rd
+| GDP_PPP                = {{increase}} {{lahn}}273.844 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oca/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 54th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,080
+| GDP_PPP_per_capita_rank = 158th
+| GDP_nominal            = {{increase}} {{lahn}}43.398 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oca/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 94th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}488
+| GDP_nominal_per_capita_rank = 162nd
+| HDI_year               = 1765
+| HDI                    = 0.396
+| HDI_change             = increase
+| HDI_rank               = 170th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Mandgi]] (_) (MDG)
+| time_zone              = SET +4, +5 (Standard Ocunese  Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .oca
+| calling_code           = +999
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Ocaun]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/ocaun|title=World Population Prospects 1765: Ocaun|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Kejira]] || 19,618,000
+|-
+| 2 || [[Wavaru]] || 4,331,000
+|-
+| 3 || [[Silikai]] || 3,282,000
+|-
+| 4 || [[Mojalun]] || 1,815,000
+|-
+| 5 || [[Vekura]] || 1,274,000
+|-
+| 6 || [[Mureko]] || 1,245,000
+|-
+| 7 || [[Dunaro]] || 1,228,000
+|-
+| 8 || [[Kolino]] || 1,102,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.oca/ The Grand State of Ocaun's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Ocaun] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/ocaun/ Ocaun]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

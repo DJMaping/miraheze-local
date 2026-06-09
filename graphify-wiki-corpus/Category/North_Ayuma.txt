@@ -1,0 +1,51 @@
+==List of states and territories==
+'''Continue to [[North Ayuma]]'''
+{|class="sortable wikitable"
+|-
+| style="background:lightcyan; border:1px solid #aaa; width:2em;" | *
+| = Geoscheme disputed<ref>{{cite web|url=http://enclaiw.gov.hei/nation/geoscheme|title=Ayuma or Acrola? |publisher=National government of Heiso}}</ref>
+|}
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;" | {{flagicon|Danocia}} || [[Danocia]] || style="text-align:right;"| 749,885 || style="text-align:right;"| 2,020,940 || style="text-align:right;"| 3 || [[Tazmirak]]
+|-
+| style="text-align:center;"| {{flagicon|Estijan}} || [[Estijan]] || style="text-align:right;"| 7,271,341 || style="text-align:right;"| 260,844,816 || style="text-align:right;"| 36 || [[Shabiran]]
+|-
+| style="text-align:center;" | {{flagicon|Fermori}} || [[Fermori]] || style="text-align:right;"| 214,401 || style="text-align:right;"| 12,299,328 || style="text-align:right;"| 57 || [[Khalviro]]
+|- style="background:lightcyan;" 
+| style="text-align:center;"| {{flagicon|Heiso}} || [[Heiso]] || style="text-align:right;"| 334,534 || style="text-align:right;"| 20,605,956 || style="text-align:right;"| 62 || [[Mivlo]]
+|-
+| style="text-align:center;"| {{flagicon|Ikzen}} || [[Ikzen]] || style="text-align:right;"| 2,015,144 || style="text-align:right;"| 3,103,322 || style="text-align:right;"| 2 || [[Velotha]]
+|-
+| style="text-align:center;"| {{flagicon|Koruch}} || [[Koruch]] || style="text-align:right;"| 426,461 || style="text-align:right;"| 820,937 || style="text-align:right;"| 2 || [[Basturah]]
+|-
+| style="text-align:center;"| {{flagicon|Lydroa}} || [[Lydroa]] || style="text-align:right;"| 268,177 || style="text-align:right;"| 18,995,781 || style="text-align:right;"| 71 || [[Zarfan]]
+|-
+| style="text-align:center;"| {{flagicon|New Kizura}} || [[New Kizura]] || style="text-align:right;"| 345,623 || style="text-align:right;"| 133,065 || style="text-align:right;"| >1 || [[New Kizura]]
+|-
+| style="text-align:center;"| {{flagicon|Niul Spijan}} || [[Niul Spijan]] || style="text-align:right;"| 18,110 || style="text-align:right;"| 220,218 || style="text-align:right;"| 12 || [[Chludu Ura]]
+|-
+| style="text-align:center;"| {{flagicon|Urbiqu}} || [[Urbiqu]] || style="text-align:right;"| 1,242,986 || style="text-align:right;"| 1,914,198 || style="text-align:right;"| 2 || [[Alshira]]
+|-
+| style="text-align:center;"| {{flagicon|Uularin}} || [[Uularin]] || style="text-align:right;"| 119,193 || style="text-align:right;"| 5,001,934 || style="text-align:right;"| 42 || [[Zahlim]]
+|-
+|-
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 11
+| style="text-align:right;"| 13,005,855
+| style="text-align:right;"| 325,960,495
+| style="text-align:right;"| 25
+|}
+==References==
+{{reflist}}
+
+[[Category:Ayuma]]
+[[Category:Ayuman Regions]]

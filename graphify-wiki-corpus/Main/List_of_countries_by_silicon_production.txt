@@ -1,0 +1,72 @@
+{{Short description|none}}
+This is a '''list of countries by [[wikipedia:silicon|silicon]] production''' in 2024, based on [[Global Trade Union|GTU]] figures.
+
+Silicon (Si) is a light chemical element that combines with oxygen and other elements to form silicates. Silicon in the form of silicates constitutes more than 25% of the Earth's crust. Silica (SiO<sub>2</sub>) as quartz or quartzite is used to produce silicon ferroalloys and silicon metal.   Demand for silicon ferroalloys is driven principally by the production of cast iron and steel.   Silicon metal, which is generally produced like ferrosilicon in submerged-arc electric furnaces, is used not as a ferroalloy, but rather for alloying with aluminium and for the production of chemicals, especially silicones. Small quantities of silicon are processed into high-purity silicon for use in the semiconductor industry.
+
+In 1764, Pelugrotoa accounted for almost 80% of the total global estimated silicon production. 
+
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by silicon production<br>(in thousands of metric tons per year)
+|- bgcolor="#ececec"
+! Country / region 
+!Ferrosilicon<br>production
+!Silicon metal<br>production
+! Total silicon<br>production 
+|-
+|{{noflag}}''World''
+|5100
+|4600
+|9700
+|-
+|{{flag|Pelugrotoa}} || 3,500 || 3,900 || 7,400  
+|-
+|{{flag|Estijan}} || 470 || 50 || 520  
+|-
+|{{flag|United Delet}} || 200 || 190 || 390  
+|-
+|{{flag|Raledria}} 
+| – || – || 310  
+|-
+|{{flag|Lycroa}} 
+| 180 || 120 || 300  
+|-
+|{{flag|Ealdorii}} || 130 || 7 || 137  
+|-
+|{{flag|Ashain}} || 130 || – || 130  
+|-
+|{{flag|Emara}} || 20 || 90 || 110  
+|-
+|{{flag|Etirha}} || 70 || 20 || 90  
+|-
+|{{flag|Elja and Munusia}} || 80 || – || 80  
+|-
+|{{flag|Ztesh}} || 60 || - || 60  
+|-
+|{{flag|Gaeiya}} || 20 || 30 || 50  
+|-
+|{{flag|Praesyu}} 
+| 40 || 5 || 45  
+|-
+|{{flag|Easuhura}} || - || 40 || 40  
+|-
+|{{flag|Darewa}} || 30 || - || 30  
+|-
+|	'''''Other countries''''' 
+|130
+|78
+|208
+|}
+
+==References==
+{{reflist}}
+
+[[Category:All country data templates|Praesyu]]
+[[Category:Articles with short description]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Praesyu]]

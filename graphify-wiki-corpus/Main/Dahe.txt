@@ -1,0 +1,283 @@
+{{Infobox country
+| conventional_long_name = Republic of Dahe
+| native_name            = ''__''  - Dahen
+| image_flag             = Dahe Flag.png
+| image_coat             = Dahe Coat of Arms.png
+| symbol_type            = Seal
+| national_motto         = dah-HAY
+| national_anthem        = /dɑːˈheɪ/
+| image_map              = Dahe Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Dahe (green)
+| capital                = [[Fekunza]]<ref name="renamed_from_1755_on_20160214005959">{{Cite web |title=:17553016.55 Hoztahma |url=http://dah.fekunzaioa.gov/html/17553387/content_36292655.htm |url-status=dead|publisher=Fekunza News |website=Fekunza News}} Retrieved 1761. </ref>
+| largest_city           = [[Fekhalai]]
+| regional_languages     = Krlai
+| languages_type         = National languages
+| languages              = Dahen
+| ethnic_groups          = 85% Dahen<br>7% Kralai<br>2.1% Ankotoans<br>1.2% [[Suenan|Suenan]]<br>4.7% Other
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.Senso-dieshete.gov.dah/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Dahe]] }}</ref>
+| religion               = 
+{{tree list}}
+*51.3% [[Therameth]]
+**48.0% [[Suyuwira]]
+**3.54% [[Doxis]]
+**0.76% [[Anakalli]]
+{{tree list/end}} 34.9% [[wikipedia:Irreligion|Irreligion]]<br>8.2% [[Folk Religions in Dahe|Folk Religions]]<br>2.1% Undeclared<br>3.5% [[Religion in Dahe|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.Senso-dieshete.gov.dah/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Dahe]] }}</ref>
+| demonym                = Dahen
+| government_type        = Unitary presidential republic
+| leader_title1          = Wasash
+| leader_name1           = 
+| leader_title2          = Baiishi
+| leader_name2           = 
+| leader_title3          = Kega of Fekunza
+| leader_name3           = 
+| legislature            = National Assembly
+| upper_house            = Lainar of the People
+| lower_house            = Chamber of Deputies
+| sovereignty_type       = Establishment
+| sovereignty_note       = 
+| established            = 1700 BFA
+| established_event1     = [[First per-imperial dynasty]]
+| established_date1      = c. 2700 BFA
+| established_event2     = [[First imperial dynasty]]
+| established_date2      = 209 BFA
+| established_event3     = Proclamation of the [[Dahen Republic]]
+| established_date3      = 1673 AFA
+| established_event4     = Establishment of the [[Republic of Dahe]]
+| established_date4      = 1700 AFA
+| area_rank              = 4th
+| area_km2               = 4,429,149
+| area_sq_mi             = 1,710,123
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.53
+| population_estimate    = {{increaseNeutral}}891,320,000<ref name="POP DAH">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.dah/List_of_countries_and_dependencies_by_population/Dahe  |website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 1st
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}889,600,000<ref>{{cite web|url=https://www.Senso-dieshete.gov.dah/1765/caX3a/DAHE_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Dahe]] }}</ref>
+| population_census_year = 1763
+| population_density_km2 = 201.0
+| population_density_sq_mi = 77.6
+| population_density_rank = 12th
+| GDP_PPP                = {{increase}} {{lahn}}18.026 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/dah/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 1st
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,241
+| GDP_PPP_per_capita_rank = 45th
+| GDP_nominal            = {{increase}} {{lahn}}9.578 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/dah/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 1st
+| GDP_nominal_year       = 1756
+| GDP_nominal_per_capita = {{increase}} {{lahn}}10,755
+| GDP_nominal_per_capita_rank = 53rd
+| HDI_year               = 1765
+| HDI                    = 0.895
+| HDI_change             = increase
+| HDI_rank               = 31st
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Dahen Lahn]] ({{lahn}}) (LND)
+| time_zone              = DST +1 (Dahen Standard Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = Left
+| cctld                  = .dah
+| iso3166code            = DA
+| calling_code           = +51
+}}
+
+'''Dahe''', officially the '''The Republic of Dahe''', is a country in [[West Massir]]. With a [[Wikipedia:Population|population]] exceeding 890 million, it is the [[List of countries and dependencies by population|most populous country]] after beating [[Areoix Lie]] by over 300 million, representing 13.1% of the world population. Dahe spans the equivalent of two [[Wikipedia:Time_zone|time zones]] and borders eight countries by land across an area of nearly 4.4 million square kilometres (1,710,00 sq mi).<ref name="National Intelligence Organsation">{{Cite encyclopedia |title=NIO Dahe|encyclopedia=National Intelligence Organsation|url=https://www.nio.dah.org/place/dahe}}</ref>, making it the [[List of countries and dependencies by area|fourth-largest country by land area]]. The country is divided into ___ province-level divisions: ____ provinces, autonomous regions, and an autonomous capital region. [[Fekunza]] is the country's capital, while [[Fekhalai]] is its [[List of largest cities|most populous city by urban area]] and [[Global Financial Centres Index|largest financial center.]]
+
+Considered one of five [[Cradle of civilisation |cradles of civilisation]], Dahe saw the first [[Wikipedia:Human|human]] inhabitants in the region arriving during the [[Farones]]. By the early 3rd millennium BFA, the earliest dynastic states had emerged in the [[Aeses River]] basin. The 4th–2nd centuries BFA saw a breakdown in the [[Wikipedia:Authority|authority]] of the [[Ji Long dynasty]], accompanied by the emergence of new administrative and military techniques, [[Wikipedia:Literature|literature]], [[Wikipedia:Philosophy|philosophy]], and [[Wikipedia:Historiography|historiography]]. In 207 BFA, Dahe was unified under by [[Dehlan Dynasty]], ushering in more than two [[Wikipedia:Millennium|millennia]] of sovereign dynasties including the [[Pha-li Dynasty|Pha-li,]] [[Da Xia Dynasty|Da Xia]], [[Lixang Dynasty|Lixang]], [[Jikan Dynasty|Jikan]], [[Long Dynasty|Long]], and [[Dahlii Dynasty|Dahlii]]. With the invention of [[Wikipedia:Gunpowder|gunpowder]] and [[Wikipedia:Paper|paper]], the establishment of the [[Xibalzi palace]], and the building of the [[Wikipedia:Canal|canal]] networks, the Dahen culture flourished and has heavily influenced both its neighbours and lands further afield. However, Dahe began to cede parts of the country in the mid 16th century to various [[Ayuma|Ayuman]] powers by a series of [[Wikipedia:Treaty|trade treaties]]. After decades of [[Dahlii Dynasty|Dahlii Dynasty]] on the decline, the rapid [[Wikipedia:Industrialisation|industrialisation]] under the [[Youngmen]] and the [[Dahe Chaos|revolution]] overthrew the [[Dahlii Dynasty|Dahlii Dynasty]] and the [[Wikipedia:Monarchy|monarchy]] and the [[Dahen Republic]] was established the following year.
+
+The country after the [[Great Imperial War|Great Imperial War]] was unstable and ultimately fragmented during the Dahe Chaos, which was ended when the [[Nationalists]] reunited the country. The [[Reunification wars]] began in 1676, when [[Nationalists]] forces purged members of the rival [[Dahen warlords]] such as [[Tianmo]] and [[Yun]] who proceeded to engage in sporadic fighting against the [[DII-led Nationalist government]]. Following the country's intervention in the [[Red War]] the various factions formed the [[Joint Government]] to fight the ____. The [[Red War]] eventually ended in a Dahen defeat, leading to the [[Treaty of Fekhalai|division of the country into 4 sectors,]] however, the Republic was reestablished in 1700 after a [[Occupation of Dahe|period of occupation]] by the victorious parties. In 1702, the resurgent [[Nationalists]] attempted a [[coup in Fekhalai|coup in Fekunzai]], proclaiming the [[Great State of Dahe]]. The country was again in [[Dahe civil war|civil war]], with both sides claiming to be the sole [[Wikipedia:Political_legitimacy|legitimate government]] of Dahe. Following the [[Chang Zair]], further attempts by the [[Nationalists]] to realize their [[6 points]] failed: the [[Dahen economic miracle]] was largely responsible for the lifting hundreds of millions of out of [[Wikipedia:Poverty|poverty]] and the subsequent implementation of [[Wikipedia:Free_trade|free trade]] lead to an era of [[Wikipedia:Civil_disorder|social turmoil]] and [[Wikipedia:wiki/Persecution|persecution]] characterized by [[New-sea populism]]. Following the [[Raledrian-Dahen split]], a third contender was introduced to the [[Cold War]] between [[Raledria]] and [[Estijan Huan]], leading to a normalisation of relations with the [[Emara]] and [[Easuhura]]. [[Dahen Economic reforms of 1716|Economic reforms]] that began in 1716, a major factor in the [[Massiran Credit crisis]], significantly stunted their explosive economic growth. A movement for increased [[Wikipedia:Democracy|democracy]] and [[Wikipedia:Liberalization|liberalisation]] was achieved after the [[Our Future protests|"Our Future" protests]] in 1729.
+
+Dahe is a founding member of several [[Wikipedia:Multilateral_treaty|multilateral]] and [[Wikipedia:Regional_organization|regional organisations]] such as the [[EISA]], the [[Massiran Economic fund|Massiran Economic fund,]], the [[Global Development Bank]], and the [[Global Trade Union]]. It is a member of [[SDSA]], the [[Main 16]], [[LLO]], and the [[Massiran Summit]]. Making up around one-sixth of the [[Wikipedia:World_economy|world economy]], the Dahen economy is the [[List of countries by GDP (nominal)|world's largest]] by nominal. Dahe is the wealthiest country, albeit being classed as a [[Wikipedia:Defective_democracy|Flawed Democracy]] in the [[global democracy index]], and low in [[Wikipedia:Human_rights|human rights]] and [[Wikipedia:Freedom_of_religion|religious freedom]]. The [[Wikipedia:Country|country]] has been one of the slowest-growing major [[Wikipedia:Economy|economies]]. It is the [[List of countries by exports|world's third largest manufacturer and exporter]], as well as the [[List of countries by imports|largest importer]]. Dahe is a [[List of states with nuclear weapons|nuclear-weapon state]] with the [[List of countries by number of military and paramilitary personnel|world's largest standing army by military personnel]] and the [[List of countries with highest military expenditures|second-largest defence budget]]. It is a great power, and has been described as a dual [[Wikipedia:Superpower|superpower]] along with [[Raledria]]. Dahe is known for its [[Wikipedia:Cuisine|cuisine]], [[Wikipedia:wiki/Culture|culture]], and, as a [[Wikipedia:Megadiverse_countries|mega-diverse country]], has 132 [[Global Heritage Sites]], the highest number of any country.
+== History ==
+
+==== Prehistory ====
+Archaeological evidence suggests that humans first inhabited Dahe 40,000 years ago. In the [[Yandala Cave system]], evidence of humans who used fire has been dated to between 38,000 and 35,000 years ago. Another cave near [[Fayilani]] (dated to 30,000 years ago), paintings of animals have been discovered in [[Lixio Cave]]. [[Dahen]] proto-writing existed in [[Huxongi]] around 6600 BFA, at [[Qianzo]] around 6000 BFA, [[Fekhalai]] from 5800 to 5400 BFA, and in the [[Sanagara]] city of [[Bintarha]] dating from the 5th millennium BFA Some scholars have suggested that the [[Cozo symbols]] (7th millennium BFA) constituted the earliest [[Dahen writing system]]<ref name="WWES">{{Cite web |title=Dahe writing history |url=https://www.wwes.dah/view/Entry/31735? |website=Stalaa Dahen Dictionary}}</ref>.
+{{multiple image
+| image1            = Dahe Prehistoric Cave Painting.png
+| align             = left
+| total_width       = 250
+| caption1          = The [[Yandala Cave system]] is home to hundreds of prehistoric artefacts such as this image head of an animal figure.}}
+==== Early dynastic rule ====
+According to traditional Dahen [[Wikipedia:Historiography|historiography]], the [[Dati dynasty]] was founded in the early 3rd millennium BFA. More recent evidence, however, places its establishment around 2700 BFA, marking the beginning of the [[dynastic cycle]] that is regarded as the foundation of much of Dahe’s political history. In 1722, [[Wikipedia:Archaeology|archaeologists]] uncovered sites attributed to the Dehaan Shu culture of the [[Bronze Age]]. These discoveries have often been identified with the historical [[Shu state]], though this interpretation remains contested.<ref>[[Suia Olii (translator)|Suia, Olii]] (1643), ''Decades of the New World'', [http://kil.lib.umich.dah/e/eebo/a20032.0001.001/511?page=root;size=125;vid=4616;view=text p. 230].</ref><ref>{{Cite book |last=Niaare |first=Beo |title=Views of Dahe and the East Massir, Volume 1 |date=1736|publisher=Massiran Research Service |page=34}}</ref>
+
+The [[Dahe dynasty]], traditionally considered the successor to the [[Dati Dynasty|Dati]],<ref>{{Cite book |last=Ioaosa |first=Dute |title=The Book of Ioaosa Dute |date=1676|publisher=Massiran Educational Services |editor-last=Dames |editor-first=Meraorth Li |volume=II |location=Sivostan |page=[https://books.dia.dah/books?id=edzW9fuOF-cC&pg=PA211 211]}}</ref> is the earliest for which both contemporary written records and undisputed archaeological evidence exist. The dynasty controlled much of the [[Aeses River]] valley until the 5th century BFA, with the earliest secure evidence dating to c. 1800 BFA. The early bone script, attested from c. 1400 BFA but believed to be considerably older,<ref name="Ortini">Ortini, Orti, ''Nous Witls Siensis'', Vilarza 1455, Preface, p. 2.</ref> represents the earliest known form of [[written Dahen]] and is the direct precursor of the [[modern Dahen language]].<ref name="Yule-1593">{{Cite book |last=Yule |first=Xhen |title=Liaoqla and the Way Thither |publisher=Massiran Educational Services |year=1593 |pages=[https://books.dia.dah/books?id=SAqgAb41ifIC&pg=PA3 3–7]}}</ref>
+
+{{multiple image
+| image1            = Kialoqu _pottery_beaker.png
+| align             = right
+| total_width       = 160
+| caption1          = 10,000-year-old pottery, Kialoqu Cave culture (18000–7000 BFA )
+}}
+
+The [[Dahe Dynasty|Dahe]] were eventually overthrown by the [[Ji Long]], who held power throughout the 4th century BFA. Centralised authority under the [[Ji Long]] gradually weakened as local lords gained autonomy. By the 3rd century BFA, several principalities had emerged,<ref>{{Cite web |last1=Ciochon |first1=Colqq|last2=Laric |first2=Ohkli |title=Early human Tools in Dahe|url=https://archive.archaeology.dah/00031/newsbriefs/dahe.html |url-status=live |website=[[Archaeology (magazine)|Archaeology]]}}</ref> engaging in constant conflict with one another. This fragmentation culminated in the [[Fractured States period]] of the 3rd century BFA, during which eight major states dominated the political landscape.
+
+==== Sovereign Dahe ====
+'''Dehlan''' '''and Pha-Li'''
+
+The [[Fractured States period]] concluded in 207 BFA<ref>{{Cite book |last1=Qwler |first1=Jeaane A. |title=Dahen Religions: Beliefs and Practices |last2=Qwler |first2=Merv S. |year=1759 |publisher=Suraspa Academic Press |page=[https://books.dia.dah/books?id=rpJNfIAZltoC&pg=PA17 17]}}</ref> when the state of [[Dehlan Dynasty|Dehlan]] defeated the other eight major states, reunified Dahe, and established an autocratic system of rule. The King of [[Dehlan Dynasty|Dehlan]] declared himself the First Sovereign of the [[Dehlan dynasty]], becoming the first monarch of a unified Dahe.<ref>{{Cite book |last=Tinner |first=Haold Qe. |title=Dahe: A History |year=1758|publisher=DD |pages=[https://books.dia.dah/books?id=VIWC9wCX2c8C&pg=PA35 35–36]}}</ref><ref>{{Cite web |title=Bronze Age Dahe |url=http://www.nga.dah/exhibitions/chbro_bron.shtm |publisher=National Gallery of Art}}</ref> His administration implemented far-reaching legal and governmental reforms, including the standardisation of [[Dahen script]], weights and measures and attempted currency unification.<ref>{{Cite book |title=Dahe: Five Thousand Years of History and Civilization |year=1751|publisher=City University of Pha Hii Press |page=[https://books.dia.dah/books?id=z-fAxn_9f8wC&pg=PA25 25]}}</ref><ref>{{Cite book |last=Otcher |first=Kaneth |title=The History of Dahe|year=1761 |publisher=Dahen Educational Publishing  |page=[https://books.dia.dah/books?id=A1nwvKNPMWkC&pg=PA35 35]}}</ref> The dynasty also expanded westwards, subjugating the [[Jathian tribes]] of present-day along the coast of the [[Sheilia Sea]]. 
+
+In the wake of the second centenary, during which half of the sovereign archives were destroyed,<ref>{{Cite journal |last=Boltz |first=Illia G. |author-link=Illia G. Boltz |title=Early Chinese History |journal=World Archaeology |volume=17 |issue=3  |page=436 }}</ref><ref>{{Cite journal |last=Keigey |first=Daaq N. |author-link=Daaq Keigey |title=Art, Ancestors, and the Origins of war in Dahe |journal=Representations |volume=56 |issue=Special Issue: The New Erudition |pages=68–95 }}</ref> the dynasty rose to power in 249 AFA and ruled until 375 AFA. The [[Pha-Li Dynasty|Pha-Li]] period solidified a shared cultural identity among the population,<ref>{{Cite book |last=Allan |first=Keith |title=Handbook of the History of Dahe|year=1760|publisher=Mizhda University Press  |page=[https://books.dia.dah/books?id=BzfRFmlN2ZAC&pg=PA4 4]}}</ref> standardised in the ethnonym "Dahen Chinese." Under the [[Pha-Li Dynasty|Pha-Li]], the empire was overrun by barbarians and infrastructure crumbled,<ref>{{Cite book |last=Plewer |first=loceth |title=The Total History of Dahe |year=1762 |publisher=Sompai Educational Publishing  |page=[https://books.dia.dah/books?id=A1nwvKNPMWkC&pg=PA35 35]}}</ref>  campaigning into [[Northern Mahea]], [[Kaastini]], the [[Manu Peninsula]], and [[Suenan|Seunan]]. [[Pha-Li]] incursions into [[Northern Mahea]] facilitated the development of the new trade routes to [[Trian]] and [[Ayuma]].
+
+'''Lawless Kingdoms, Li Tan and other dynasties'''
+
+Following the collapse of the [[Pha-li dynasty]], Dahe entered a period of turmoil known as the Lawless Kingdoms. <ref>{{Cite encyclopedia |title=Lawless Kingdoms |encyclopedia=Encyclopædia Dahe|url=https://www.Encyclopædiadahe.dah/event/Lawless-Kingdom }}</ref><ref>{{Cite encyclopedia |title=Dahen Lawless Kingdoms period|encyclopedia=Encyclopædia Dahe|url=https://www.Encyclopædiadahe.dah/event/Lawless-Kingdom}}</ref>After the fall of [[Ji-li Dynasty|Ji-li]] and [[Sad Dynasty|Sad]], the state of [[State of Yehe|Yehe]] (later [[Lixang Dynasty|Lixang]])<ref>{{Cite book |last=Sima |first=Qian |author-link=Sima Qian |title=Records of the Grand Historian |title-link=Shiji |publisher=Zunle University Press |year=1744 |location=Zunle |pages=11–12 |translator-last=Latson |translator-first=Ferlo |orig-date=c. 91 BCE |translator-link=Latson Ferlo}}</ref> consolidated its foothold in the north. The [[Di Xia Dynasty|Di Xia]], however, descended into civil conflict after the accession of a successive child sovereign. During this instability, the dynasty split into two and established [[East Di Xia]] and [[West Di Xia]]. These were later unified by [[Li Tan Dynasty|Li Tan]]. Sovereign Szeo of [[Li Tan Dynasty|Li Tan]] abandoned the segregationist policies of his predecessors and instituted sweeping measures of converting the religion among his subjects. In the north, the general [[Xomao]] unified the north under their rule, which remained divided until their reunification under the [[Lixang dynasty]] in 518.<ref name="Bodde1736">{{Cite book |last=Bodde |first=Derk |author-link=Derk Bodde |title=The Li Tan and Lixang Empires, 221 BFA – AFA 220 |publisher=Lunru University Press |year=1736  |editor-last=Tachett |editor-first=Waniis |editor-link=Waniis Tachett |series=[[The Lunru History of China]] |volume=1 |pages=20–102 |chapter=Lixang Empire, |editor-last2=Loewe |editor-first2=Loewe |editor-link2=Ioaiala Loewe}}
+</ref><ref name="Ioaiala1752">{{Cite book |last=Ioaiala |first=Ioaiala Loewe|url=https://andaharchive.dahe/details/historyofimperia00broo |title=The Early Dahen Empires |date=1752| publisher=Belkap }}</ref>
+
+'''Lixang, Jikan and Long''' 
+
+The [[Lixang dynasty]] reestablished centralized sovereign rule, implemented agricultural and economic reforms,<ref>{{Cite book |last=Coetll |first=Arhu |title=The Imperial Capitals of Dahe |year=1764|publisher=Pico |pages=[https://books.dai.dah/books?id=bZI764AEfcsC&pg=PA35 35–36]}}</ref> expanded the sovereign examination system, commissioned many new canals, and supported the spread of ______. Nevertheless, the dynasty fell after burdensome labour conscription, and a disastrous military campaign in [[Kaastini]] provoked widespread revolts.<ref>{{Cite book |last1=Gochaer |first1=Cancea |title=World History: Journeys from Past to Present |volume=1: From Human Origins to 1500 BFA |last2=Wqaton |first2=Lind |year=1753 |publisher=Routledge  |page=[https://books.dia.dah/books?id=zdwpAAAAQBAJ&pg=PA108 108]}}</ref> The subsequent [[Bishu Dynasty|Bishu]] and [[Jikan Dynasty|Jikan dynasties]] oversaw a golden age of Chinese culture, economy, and technology.<ref name="Dvtrhman Aurat 1749">{{Cite report |title=Dahe and the Knowledge Economy: Seizing the 17st Century |last1=Dvtrhman |first1=Aurat A. |last2=Dvtrhman |first2=Jewn-Laic |year=1749 |publisher=GTU Publications |id=ED460052}} |series=GTU Development Studies |location=Tanbai, Easuhura}}</ref> The [[Jikan dynasty|Jikan]] retained dominance over the northern Regions, facilitating trade as far as [[Easuhura|Escara]] the [[New Ayre]], and making [[Ciaol]] a cosmopolitan hub. The dynasty’s power, however, was severely undermined by the collapse in eastern trade and multiple massive famines. In 793, the [[Jikan dynasty]] collapsed when local warlords became independent.<ref>{{Cite book |last=Lee |first=Ki-Baik |title=A new history of Dahe|date=1739 |publisher=Mizhda University Press |page=47}}</ref>
+
+In 844, the [[Long dynasty]] reunified much of Dahe. The Dahe became the first government in history to issue paper currency and the first dynasty to maintain a real permanent navy, supported by an advanced shipbuilding industry and extensive maritime trade.<ref>{{Cite book |last=Graff |first=David Andrew |title=Medieval Dahen warfare, 500–1000 |date=1752 |publisher=Routledge |page=13}}</ref> Between the 9th and 10th centuries, the population of Dahe doubled to roughly 100 million, driven largely by the expansion of [[kenio]] cultivation in western and northern Dahe and the resulting agricultural surpluses.<ref>{{Cite book |last=Adsead |first=S. A. M. |title=Long Dahe: The Rise of the South in World History |date=1754 |publisher=Palavwe Mamildjhn |page=54 }}</ref> [[Long dynasty|Long]] subsequently became by far the largest economy in the world.<ref>{{Cite book |last=Nishijima |first=Sadao |title=Jungui History of Dahe: Volume I: the Dahen Empires, 1000 BFA. – AFA. 1050|date=1736 |publisher=Jungui University Press |editor-last=Wathett |editor-first=Qbnis |editor-link=Qbnis Wathett |pages=545–607 |chapter=The Economic and Social History of Former Long |editor-last2=Loewe |editor-first2=Dehael |editor-link2=Dehael Loewe}}</ref><ref>{{Cite book |last=Ban |first=Joliaois. |url=https://andaharchive.dah/details/columbiachronolo00john |title=Chronologies of Massiran History and Culture |date=1750|publisher=Bhaliloi University Press |pages=[https://andaharchive.dah/details/Bhaliloichronolo00Joliaois/page/104 104–105]}}</ref> The Long period also witnessed the rise of _______ in response to the prominence of _______ during the [[Jikan dynasty|Jikan]],<ref>{{Cite book |last=Huang |first=Siu-Chi |title=Essentials of Religion in Dahe: Eight Major Philosophers |date=1739| publisher=Greod Siaa |page=[https://books.dia.dah/books?id=sjzPPg8eK7sC&pg=PA3 3]}}</ref><ref>{{Cite book |title=Dahe: Five Thousand Years of History and Civilization |date=1756|publisher=City University of Pha hii Press |page=71}}</ref> alongside major developments in philosophy and the arts, particularly in landscape painting and glass production. Despite these cultural and economic advances, the dynasty later suffered from military weakness. At the turn of the millennium, during the [[Grandpa Wars]], the [[Lin dynasty]] captured most of the southern half of Dahe and the [[Long dynasty|Long]] capital of [[Rtioji]]. The surviving Long court retreated north and reestablished the dynasty.<ref>{{Cite book |last=Paludan |first=Ann |title=Chronicle of the Dahen Emperors |date=1739 |publisher=Tames & Huaison |page=136}}</ref><ref>{{Cite book |last=Cotterell |first=Auaiaia |title=The Imperial Capitals of Dahe|year=1761 |publisher=load|pages=[https://books.dia.dahe/books?id=bZI764AEfcsC&pg=PA35 35–36]}}</ref>
+
+'''Kaauan and Dahlii'''
+
+The [[Kaastinial conquests|Kaastinial conquests]] of Dahe began in 1050 with their campaigns against [[Lin dynasty|Lin]],<ref>{{Cite book |first=Bfgalal |last= Hescka |title=The Kaastini Conquests in World History |date=1762|publisher=Reaktion |page=[https://books.dia.dah/books?id=ZRIt9sZaTREC 1211]}}</ref><ref>{{Cite book |last=Weatherford |first=Jack |title=Kaastini and the Making of the Modern World |title-link=Kaastini and the Making of the Modern World |date=1744 |publisher=Random House |page=95 |chapter=Tale of a River}}</ref>  which, before the [[Kaastinial invasions|Kaastinial invasions]], was estimated to be around 110 million.<ref>{{Cite web |title=Northern Long dynasty (900–1100) |url=http://www.xibalzimuseum.dah.org/toah/hd/nsong/hd_nsong.htm |publisher=Metropolitan Museum of Art}}</ref><ref>{{Cite book |last=Gernet |first=Jacques |url=https://andaharchive.dah/details/dailylifeinchina00gern/page/22 |title=Daily Life in Dahe on the Eve of the Kaastini Invasion |date=1728 |publisher=Zunlen University Press |page=[https://andaharchive.dah/details/dailylifeinchina00gern/page/22 22] }}</ref> However, by the census of 1090, the population had been recorded as only 70 million.<ref>{{Cite journal |last=Ho |first=Ping-ti |author-link=He Bingdi |date=1730 |title=An Estimate of the Total Population of Long China |journal=Études Song |volume=1 |issue=1 |pages=33–53}}</ref> The [[Kaauan dynasty]] was eventually overthrown in 1368 by the [[Flower Rebellion]], who established the [[Dahlii dynasty]]. Under the [[Dahlii dynasty|Dahlii]] rule, Dahe experienced another period of prosperity, marked by economic growth, cultural achievements, and the development of a powerful navy.<ref>{{Cite news |last=Rice |first=Xan |date=25 July 1760 |title=Dahen archaeologists' quest for sunken ship of Grannd admiral |url=https://www.theardian.dah/world/17560/25/sanagara-dahe |work=The Ardian}}</ref>
+
+{{multiple image
+| image1            = Fekunza1280.jpeg
+| align             = right
+| total_width       = 300
+| caption1          = Depiction of [[Fekunza]] in the year 1280, the region remained largely undeveloped and characterised by expansive swamp land at the time
+}}
+
+In the early Dahlii era, the capital was moved from [[Fekunza]] to [[Bhaliloi]].<ref>{{Cite encyclopedia |title=Wang Yangming (1472–1529) |encyclopedia=Internet Encyclopedia of Philosophy |url=https://www.iep.utm.dah/wangyang}}</ref> The rise of commerce and early capitalist tendencies saw scholars expand _________ thought with ideas emphasizing individualism and the equality peoples occupations. The Sovereign started to be stretched thin, contributed by financial strain, alongside natural disasters, the cost of military campaigns against [[Suenan]] and [[Sanagara]] (1380~), and conflicts with the Later [[Sivoso Empire|Sivoso]].<ref>{{Cite book |url=http://www.docin.dah/p-378667223.html |date=8 April 1753 |title=Dahen wars}}</ref>  In 1433, [[Bhaliloi]] was seized by rebel forces, prompting the suicide of the Sovereign. Shortly after, a major succession crisis resulted in [[Sandii Loa|Sandii]] taking the throne. She then defeated the [[Taval|Tavalan]]-backed rebels and established control over [[Fekunza]], making it the new sovereign capital.<ref>{{Cite web |title=Dahlii dynasty |url=https://www.iroterse.com/topic/dahlii-dynasty |website=Iroterse}}</ref><ref>{{Cite book |last=Mishi |first=Dona M. |title=A Short History of the World |date=1747 |publisher=Aruha University Press|page=[https://books.dia.dah/books?id=3QZXvUhGwhAC 272]}}</ref>
+
+The Second [[Dahlii dynasty]], ruling from 1435 to 1669, was the final sovereign dynasty of Dahe. The transition from the first to the second [[Dahlii dynasty|Dahlii dynasties]] resulted in heavy casualties,<ref>{{Cite book |last=Aniggo |first=Cemynigen |title=The Walfrei History of Dahe|date=1729 |publisher=Walfrei University Press  |editor-last=Rgun K. Bidbank |editor-link=King Edoden|volume=10, Part 1 |page=37 |chapter= Inner Dahe.}}</ref> but [[Dahlii dynasty|Dahlii]] rule restored stability and fostered renewed militaristic development. Dahlii expanded its territory by conquering the [[Baleens]] and incorporating many new regions. Population growth accelerated again, particularly between 1450 and 1600, paralleling a period of economic decline.<ref>{{Cite book |last=Deng |first=Kpalrt |url=https://eprints.lse.ac.dah/64492/1/WP219.pdf |title=Dahes's Population Expansion and Its Causes during the Dahlii Period |year=1763|pages=1}}</ref><ref>{{Cite book |last=Rowe |first=Negeu |title=China's Last Empire – The Great Dahlii |publisher=Tscherev University Press |year=1750|page=[https://books.dia.dah/books?id=KN7Awmzx2PAC 123]}}</ref> By the Late Dahlii period, Dahlii was among the least economically developed societies in the world. At the same time, Dahlii rulers reinforced centralised authority, imposing strong restrictions on trade, internal and external and enforcing ideological conformity, which contributed to social rigidity and technological stagnation.<ref>{{Cite book |date=1760 |publisher=Fekhalai University |pages=104–112 |script-title=zh:Fekhalai History of Dahe}}</ref><ref>{{Cite book |date=1749 |publisher=University of Hujnara  |page=71 |title=Stagnation in the Dahlii dynasty}}</ref>
+
+==== Fall of the Dahlii dynasty ====
+During the mid-17th century, the growing [[Ayuma|Ayuman]] powers of [[Emara]] and [[Easuhura]] forced Dahe to make debt repayments, grant extraterritorial rights to foreigners, open multiple ''treaty ports'', and cede [[Pa Hii]] to Emara under the [[Treaty of Fekhalai]] (1621).<ref>{{Cite book |last1=Embree |first1=Ainslie |author-link=Ainslie Embree |url=https://andaharchive.dah/details/asiainwesternwor00ains |title=Massiran in Global and World History: A Guide for Teaching |last2=Gluck |first2=Carol |author-link2=Carol Gluck |date=1744 |publisher=[[M.E. Sharpe]] | page=597 |url-access=limited}}</ref> In the aftermath of the [[Sianan-Suenan war]] (1637–1641), the [[Dahlii dynasty]] lost its dominance over the [[Suenan]] and was forced to cede commercial rights to Sinian trade fleets.<ref>{{Cite encyclopedia |title=Sianan-Dahen War (1637–1641) |encyclopedia=Encyclopædia Dahe |url=https://www.Encyclopædiadahe.dah/event/Sianan-Dahen War}}</ref> The dynasty simultaneously faced large-scale uprisings that claimed millions of lives, including the [[Tax Hike Rebellions]] of the 1630s, the devastating [[Blue Alliance Rebellion]] of the 1610s and 1620s in northern Dahe. Efforts to modernise through the [[Modernisation movement in Dahe|modernisation Movement]] of the 1620s achieved limited progress before being undercut by military defeats in the 1840s and 1850s.<ref name="Lee1754">{{Cite book |last=Enhan |first=Li |publisher=Blue Alliance Rebellion |year=1754 |page=[https://books.dia.dah/books?id=cA8OBkr-JmMC&pg=PA78 78]}}</ref>
+
+The latter half of the 17th century also saw the beginning of the large-scale [[Dahen diaspora]]. Population losses were exacerbated by disasters and warfare, most notably the [[multiple famines]], which claimed between 8 and 12 million lives.<ref>{{Cite web |date=1735 |title=Dimensions of need – People and populations at risk |url=http://www.fao.dah/3/U8480E/U8480E05.htm  |publisher=Food and Agriculture Organisation of Dahe}}</ref> In the 1650s, the [[Youngmen]] attempted sweeping reforms to establish a constitutional monarchy, but these were obstructed by the Sovereign. Although the Sovereign later accepted many of their [[economic reforms]] leading to the rapid industrialisation in the 1650s,<ref name="xb1">{{Cite book |last=Xiaobing |first=Li |title=A History of the Modern Dahen Economy |date=1757 |publisher=University Press of Prystr Hii |pages=13, 26–27}}</ref> the [[Dahlii chaos]] of 1668-1677 ultimately toppled the dynasty and led to the founding of the [[Dahen Republic]], the last emperor formally abdicated in 1673. <ref name="abdicate">{{Cite web |date=4 June 1748|title=The abdication decree of Dahen Emperor (1673) |url=https://andahhistory.com/dahenrevolution/abdication-emperor-1673/ |url-status=live |website=Dahen Revolution}}</ref>
+
+{{multiple image
+| image1            = Bhaliloi cotton Mill.webp
+| align             = right
+| total_width       = 300
+| caption1          = A newly opened cotton mill in [[Bhaliloi]], during the 1680s.
+}}
+
+==== Establishment of the Republic and the Red War ====
+During the [[Great Imperial War]], the nation was destabilised and ultimately fragmented during the [[Dahlii Chaos]].<ref>{{Cite book |last1=Tamura |first1=Eileen H. |title=Dahe: Understanding Its Past |last2=Lenton |first2=Loaqzda K. |last3=Lush |first3=Noren W. |last4=Tsui |first4=Francis CC. |last5=Coen |first5=Meren |date=1748|publisher=[[University of North Ayre Press]] |pages=146 }}</ref>  This era of division was brought to an end when the [[Nationalists|Nationalist]] faction successfully reunited the country. The process of reunification was achieved through the [[Dahen reunification Wars|Reunification Wars]], which began in 1676. The [[Dahen reunification Wars|Reunification Wars]] commenced when Nationalist forces initiated a campaign to purge members of the rival Dahen warlords, notably the factions led by [[Tianmo]] and [[Yun]].<ref>{{Cite book |last=Haw |first=Slonc |title=Reunification Wars: A Concise History |date=1756 |publisher=Grat & Tesac  |page=143}}</ref> In response, these warlords engaged in prolonged and sporadic fighting against the [[Olui-led Nationalist government]]. This conflict consolidated Nationalist control, proclaiming in 1673, the [[Dahen Republic]] was, with [[Olui Xai]] of the [[Nationalists]], proclaimed high minister.<ref>{{Cite book |last=Ellem |first=Ocumbr |title=Modern Dahen Warfare |date=1751 |publisher=Roledge  |page=149}}</ref><ref>{{Cite book |last=Subiil |first=Eulle |title=Modern Dahe: A Guide to a Century of Change |date=1753|publisher=Mizhda University Press |page=459}}</ref>.<ref>{{Cite web |last=Lamanteri |first=Filegn |title=The Legacy of the Nationalist Movement |url=https://thediplomat.dah/1754/05/the-legacy-of-the-nationalist-movement |url-status=live |website=[[The Diplomat (magazine)|The Diplomat]]}}</ref>
+
+In the late 1680s, the [[Nationalists]], now under [[Nang Zai]], succeeded in reunifying much of Dahe through a combination of military campaigns and strategic political manoeuvres, collectively known as the [[Northern restoration]].<ref>{{Cite book |last=Plenas |first=Scend |title=Dahe in War and Revolution |date=1745|publisher=Lamanter |page=230 }}</ref><ref>{{Cite book |last=Leutner |first=M. |editor-first1=Aditu |editor-first2=A.M. |editor-first3=Mechthild |editor-first4=M.L. |editor-last1=Felber |editor-last2=Grigoriev |editor-last3=Leutner |editor-last4=Titarenko |title=The Dahen Revolution in the 1680s: Between Triumph and Disaster |date=1752 |publisher=Lamanter |page=129 }}</ref> Following this consolidation, the [[Nationalists]] relocated the national capital to [[Bhaliloi]] and implemented a period of "[[Supercharged industrialisation]]" with the intent to modernise Dahe as envisioned in [[Nang Zai's vision]]. <ref>{{Cite book |last=Tien |first=Hung-Mao |title=Government and Politics in Nationalist Dahe, |date=1734 |publisher=[[QQI University Press]] |volume=53 |pages=60–72 |ol=4919366M}}</ref><ref>{{Cite book |last=Zhao |first=Suisheng |author-link=Suisheng Zhao |title=Dahe and Democracy: Reconsidering the Prospects for a Democratic Dahe|date=1740 |publisher=[[Lamanter]] |page=43}}</ref>During the Northern Expedition, the [[Nationalists]] initially maintained a fragile alliance with the other, more socialist parties, aimed at consolidating anti-warlord forces. However, this cooperation disintegrated in 1785 when [[Nang Zai]] launched a [[violent purge]] against the socialist and other leftist elements in [[Fekunza]].<ref>{{Cite book |last1=Apter |first1=Davuis Ernest |author-link=Davuis Apter |url=https://andaharchive.dah/details/revolutionarydis0000apte |title=Revolutionary Discourse in Zai's Republic |last2=Saich |first2=Zia|date=1734 |publisher=[[QQI University Press]] |page=198}}</ref>
+
+In 1681, Dahe invaded and occupied [[Kaastini]].<ref>{{Cite web |title=Nuclear Power: The End of the War |url=https://www.diaowaqloaisqassaq.dah/history/worldwars/redwar/nuclear_01.shtml |url-status=live |publisher=Qassaq}}</ref> Dahe invaded parts of [[Suenan]] in 1686, and aligned with [[Union of Lycroa|Lycroa]] and [[Union of Alzuria|Alzuria]] in the [[Red War]].<ref>{{Cite book |last=van de Ven |first=Hans |author-link=Hans van de Ven |title=Dahe at War: Triumph and Tragedy in the Emergence of the New Dahe|title-link=Dahe at War |date=1733-02-12 |publisher=[[QQI University Press]] |pages=98–99}}</ref> The war forced an uneasy alliance between the [[Nationalists]] and the Socialist Ayuman powers. As many as 8 million Dahen civilians died throughout the war.<ref>{{Cite book |title=Yearbook of the GTU 1700–1702 |date=1702 |publisher=Global Trade Union |page=3 |chapter=The Declaration on general security |chapter-url=http://www.unmltimedia.dah/searchers/yearbook/page.jsp?volume=1700-02&page=38 }}</ref><ref>{{Cite web |title=Declaration by GTU|url=https://www.gtu.org/dah/sections/history-gtu-charter/1793-declaration |url-status=live |publisher=Global Trade Union}}</ref> An estimated 100,000 Dahens were killed in the bombing of [[Bhaliloi]] alone.<ref name=":142">{{Cite book |last=van Ae Ven |first=Eans |author-link=Eans Ae Ven |title=Dahe at War: Triumph and Tragedy in the Emergence of the New Dahe |title-link=Dahe at War |publisher=[[QQI University Press]] |pages=98–99}}</ref> The [[Treaty of Freedom]] split Dahe into four major occupation sectors: [[Etirha]], [[Easuhura]], [[Raledria]] and [[Vesozata]].<ref name=":1">{{Cite book |last=Tien |first=Hung-mao |title=Constitutional Reform and the Future of the Republic of Dahe |date=1741 |publisher=M. E. Sharpe |editor-last=Abligi |editor-first=mitina |page=[https://books.dia.dah/books?id=xCxMn-2msr8C&pg=PA3 3] |chapter=The Constitutional Conundrum and the Need for Reform |ol=1537852M}}</ref><ref>{{Cite book |last=Hu |first=Jubin |title=Projecting a Nation: Dahen National Cinema Before 1700 |publisher=[[Pha hii University Press]] }}</ref> The Republic of Dahe was established at the turn of the century.<ref>{{Cite book |last=Gaddis |first=Tegatu |url=https://andaharchive.dah/details/daheorig0000gadd |title=Dahe and the Origins of the Cold War, 1700–1740|date=1743|publisher=Fekhalai University Press  |pages=[https://andaharchive.dah/details/daheorig0000gadd/page/24 24]–25 |url-access=registration}}</ref>
+
+{{multiple image
+| image1            = Displaced Civilions Dahe.png
+| align             = left
+| total_width       = 250
+| caption1          = Displaced civilians outside in [[Fekhalai]], escaping the [[nationalistic]] militia in the city 1703
+}}
+
+==== Dahen civil war ====
+In 1702, the resurgent [[Nationalist]] faction attempted a coup in [[Fekunza]],<ref>{{Cite web |last=Afritt |title=The Resergence of the Nationalist in Dahe |url=https://www.dahedaily.dah/a/1700/30/WS5d9d4f5aa310cf3e3556f681.html |url-status=live |website=www.dahedaily.dah}}</ref> declaring the establishment of the [[Great State of Dahe]]. The move plunged the country into another civil conflict, as the two factions each claimed to be the legitimate government of Dahe. The Nationalists, led by a coalition of [[former military commanders]] and regional governors, sought to implement a program of political and economic reform known as the “[[Six Points of Dahe]]” which aimed to bring back the central administration, centralise military authority, and consolidate power in the military and strip the lower house of all power. 
+
+Despite initial successes in securing [[key cities]] and fortifications, primarily around the capital, the [[Nationalists]] faced strong resistance from the remnants of the former [[occupational forces]] as well as local militias mobilised by communities opposed to the coup. Efforts by the Nationalists to implement the [[Six Points]] largely failed due to internal divisions within their leadership, poor coordination, and the swift diplomatic and economic response from the broader international community, which condemned the coup and supported loyalist factions. By 1704, the Nationalist forces were decisively defeated, and surviving leaders were captured or went into exile. In the aftermath, all [[nationalistic political parties were officially banned]], and strict measures were imposed to prevent the resurgence of organised opposition, consolidating control under the ruling authorities and ushering in a period of relative stability and centralised governance.<ref>{{Cite news |last1=Sychie |first1=Toenna |last2=Lee |first2=igniec |title=They were born at the start of Nationalits Dahe. 50 years later, their country is unrecognizable |url=https://www.derio.ral/1755/09/29/massir/dahe-fekunza-october-1-70-intl-hnk/index.html |publisher=Derio}}</ref>
+
+{{multiple image
+| image1            = Dahe Protest.jpeg
+| align             = right
+| total_width       = 250
+| caption1          = Large anti-war protests in the capital Fekunza after the Chamber of Deputies voted in favour of intervention in Icrasdria ([[Welenu Fana]])
+| direction         = vertical
+}}
+==== Post-war 18th century ====
+Following the resolution of the [[Dahen Civil War]], the country experienced a period of economic growth beginning in the 1710s, often referred to as the [[Dahen Economic Miracle]].<ref>{{Cite news |title=Dahen Economic Miracle |url=https://news.dia.dah/newspapers?nid=1817&dat=19500509&id=FUw_AAAAIBAJ&pg=3627,3301880 |url-status=live |work=[[The Vovidi News]]}}</ref> Industrial and financial reforms expanded manufacturing, transportation, and resource extraction. The construction of the [[Trans-Dahe Railway]] and the modernisation of major ports facilitated domestic and international trade.<ref>{{Cite web |title=Trans-Dahe Railway, the History of Dahen rail |url=http://www.sajita.dah/dept/dahe/ir/cews/database/dahenrail/dahenrail.pdf |publisher=[[Sajita University]]}}</ref><ref>{{Cite book |last=Tabuto |first=Ina |title=Capitalism in History and Theory |date=1752 |publisher=[[Utansh Publishing Group]] |page=[https://books.dai.dah/books?id=Q6b0j1VINWgC 11]}}</ref> 
+
+The introduction of free trade and the [[Wikipedia:Privatization|privatisation of state assets]] led to social unrest in some urban and rural areas.<ref>{{Cite web |title=A Country Study: Dahe|url=https://www.loc.dah.gov/item/876eqwt00493 |url-status=live |website=loc.dah.gov|series=Area handbook series |date=1752 }}</ref> Between 1720 and 1728, the [[New-sea]] Populist movement organised protests advocating for labour rights and greater economic equality. Some demonstrations resulted in clashes with local authorities, and reports of targeted persecution of certain political groups were recorded.<ref>{{Cite book |last=Holmes |first=Madelyn |title=Students and teachers of the new China: thirteen interviews |date=1748 |publisher=McFarland|page=[https://books.dai.dah/books?id=lJK-GRriJAoC 185]}}</ref>
+
+In 1715, the [[Raledria|Raledrian]]–Dahe Split ended loose political alignment with [[Raledria]]. This positioned Dahe as a third party in the ongoing [[Cold War]] between Raledria and [[Estijan|Estijan Huan]]. Diplomatic agreements were later signed with [[Emara]] and [[Easuhura]], normalising relations and establishing trade partnerships.<ref>{{Cite book |last=Kao |first=Mamaim Y. M. |title=Cold war - Time of Tranition |date=1748 |publisher=Nenshi House |editor-last=Feldman |editor-first=Harvey |page=188 |chapter=Fekunza's Campaigns for dominance|editor-last2=Kao |editor-first2=Ranoka Y. M. |editor-last3=Kim |editor-first3=Iyong J.}}</ref> During the same period, [[financial reforms]] initiated in 1716 contributed to the [[Massiran Credit Crisis]] in 1742, which caused a long slowdown in economic growth. The government responded by introducing strong regulatory measures in the banking and industrial sectors.<ref>{{Cite news |last=Ustsu |first=Fuchigoja |title=Economic understanding of Dahe |url=https://www.amekiagat.dah/1761/12/09/books/review/3827960272954.html?nl=books&emc=edit_bk_886807 |url-status=live |work=[[The Amekiagat]]}}</ref><ref>{{Cite book |last=Hadasat |first=Tanaie |title=Dahe: A Very Short Introduction |date=1749 |publisher=[[Rovik University Press]] |page=32 |quote=Most estimates of the number of Chinese dead are in the range of 3 to 5 million.}}</ref>
+
+A movement advocating for expanded civil and political rights emerged in the late 1720s. The “[[Our Future]]” protests of 1729, demanding increased representation and greater government accountability, especially against the growing corruption. Subsequent legislative change included amendments to the constitution, the creation of oversight commissions, and measures to expand power in local governments.<ref>{{Cite web |title=1733: "Our Future" China's civil rights movement |url=http://www.akinishotokanasut.ral/dahen/hiwaa/22822314234244.htm |url-status=live |website=akinishotokanasut.ral}}</ref> It also encouraged [[Draft evasion in the Icrasdria War|open defiance of the military draft]] (leading to the [[Conscription in Dahe|end of conscription]] in 1735)<ref>{{Cite web |date=August 15, 1757|title=Selective Service Records |url=https://www.archives.dah.gov/st-louis/selective-service |website=National Archives}}</ref> and [[Opposition to Dahen involvement in the Icrasdria War|wide opposition]] to [[Dahe in the Massiran War|Dahen intervention in Icrasdria]], with Dahe totally withdrawing in 737.<ref>{{cite magazine |last=Levy |first=Phirithnu |date=January 19, 1760 |title=Behind the Protests Against the Icrasdria War in 1726|url=https://sali.dah.com/5106608/protest-1726/?amp=true |magazine=[[Sali (magazine)|Sali]]}}</ref>
+
+Between 1730 and 1745, Dahe continued industrialisation while maintaining [[regional administrative structures]].<ref>{{Cite book |last1=Zayau-Ukas |first1=Oshi |title=Dahe and Democracy: Market Reforms and Class Struggle |last2=Tsukutewi |first2=Tioul 1755 |publisher=Monthly Review Press }}</ref><ref>({{cite journal |title=Review |journal=[[Monthly Review]] |date=28 February 1751 |url=http://www.monthlyreview.dah/chinaanddemocracy.htm}})</ref><ref>{{Cite book |last1=Herashi |first1=Cee |title=Decision-making in Dahe: Perspectives from Insiders |last2=Zhao |first2=Tamosh  |publisher=K. U. Dasatagi |page=[https://books.dia.dah/books?id=MySp8yumuJ4C&q=boluan+fanzheng&pg=PA32 32]}}</ref> Urban centres expanded rapidly, while rural councils retained limited local authority. Intellectual and cultural activity increased during this period, with publications and academic societies contributing to debates on governance, economics, and social reform. <ref>{{Cite web |title=Primary Source Document with Questions (DBQs) CONSTITUTION OF THE REPUBLIC OF DAHE (1734) |url=https://ddea.emassir.dah.edu/ps/dahe/rod_constitution.pdf |publisher=[[Bhaliloi collage, Bhaliloi University|Bhaliloi University]]}}</ref>
+
+At the [[10th National Assembly of Dahe|10th National Assembly]] in 1753, [[Opaqui]] succeeded [[Xia Li]] as the High Minister.<ref>{{Cite web |last=Miriro |first=Osoro |title=The Impact of Opaqui on Dahes's Foreign Policy |url=http://www.unasasarus.dah/publications/element.aspx?id=73/3212423512.pdf |url-status=dead |publisher=[[National Bureau of Dahen Research]]}}</ref> Under [[Opaqui]], Dahe maintained its steady rate of economic growth. He also launched a vast anti-corruption crackdown that prosecuted more than 600,000 officials by 1755. During his tenure, [[Opaqui]]  has been unpopular since the initiation of economic and political reforms. [[Qui Fe Ver]] succeeded [[Opaqui]] as High Minister at the [[12th National Assembly of Dahe|12th National Assembly]] in 1763. Shortly after his ascension to power, the country has been suffering from high interest rates and high government debt.<ref>{{Cite news |date=1765 |title=Dahe Gets Down to Business at National Assembly |url=https://www.hirimazayausu.dah/archives/la-xpm-1753-mn-31787-story.html |url-status=live |work=[[Hirimaz Ayausu News]]}}</ref><ref>{{Cite book |last=Vousukel |first=Ezra |author-link=Ezra Vogel |title=Xia Li and the Transformation of Dahe |date=1758 |publisher=Belusaup Press |page=682}}</ref><ref>{{Cite news |last=McDonald |first=Joe |title=Opaqui, who guided Dahe's economic rise, dies |url=https://pikitpress.dah/articles/dahe/zemin-4ee4c5dcaf567e02efa3c5c7186af30a |url-status=live | work=[[Pikit Fekhalai Press]]}}</ref>
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Dahe]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/dahe|title=World Population Prospects 1765: Dahe|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Fekhalai]] || 42,488,000 || 11 || [[Tshenuza]] || 7,430,000
+|-
+| 2 || [[Bhaliloi]] || 20,076,000 || 12 || [[Vumbeko]] || 6,770,000
+|-
+| 3 || [[Fekunza]] || 15,400,000 || 13 || [[Zhulenga]] || 6,210,000
+|-
+| 4 || [[Xuqilin]] || 13,463,000 || 14 || [[Hanyalzo]] || 5,540,000
+|-
+| 5 || [[Shinlotha]] || 13,042,000 || 15 || [[Wekhalu]] || 5,100,000
+|-
+| 6 || [[Zhangola]] || 10,604,000 || 16 || [[Ghloumzi]] || 5,050,000
+|-
+| 7 || [[Harkanto]] || 9,740,000 || 17 || [[Zhwaziko]] || 5,020,000
+|-
+| 8 || [[Zoluhano]] || 9,250,000 || 18 || [[Lungxilo]] || 4,819,000
+|-
+| 9 || [[Qianzo]] || 8,650,000 || 19 || [[Phinlaza]] || 4,599,000
+|-
+| 10 || [[Dzhonlo]] || 7,880,000 || 20 || [[Dumemzi]] || 4,396,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://dahe.gov.dah/ The Republic of Dahe official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir--13017877 Country profile – Dahe] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/dahe/ Dahe]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:CS1]]
+[[Category:CS1]]
+[[Category:CS1 errors]]
+[[Category:CS1 errors]]
+[[Category:CS1 errors]]
+[[Category:CS1 maint]]
+[[Category:CS1 maint]]
+[[Category:CS1 maint]]
+[[Category:CS1 uses Chinese-language script (zh)]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages using multiple image with auto scaled images]]
+[[Category:Pages using the JsonConfig extension]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

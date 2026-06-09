@@ -1,0 +1,78 @@
+{{Infobox continent
+|title          = West Quia
+|image          = West Quia Globe.png
+|imagecaption   = Location of West Quia
+|area           = {{convert|2,970,040|km2|sqmi|abbr=on}}
+|population     = 371,199,741 (1765)
+|density        = {{convert|124.98|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}5.333 trillion
+|GDP_nominal    = {{lahn}}2.697 trillion
+|GDP_per_capita = {{lahn}}7,267
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = West Quian
+|countries      = 5
+|list_countries = 
+|dependencies   = 0
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Ashani Language|Ashani]] 
+* [[Aksalshai Language|Aksalshai]] 
+* [[Lirali Language|Lirali]]
+* [[Verstian Language|Verstian]] 
+* [[Dorimian Language|Dorimian]] 
+}}
+|time           = UTC +6 to -13
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Ralut]]
+*[[Sjoran]]
+*[[Erkadu]]
+*[[Erosan]]
+*[[Mikori]]
+*[[Chavillar]]
+*[[Talvani]]
+*[[Ribash]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''West Quia''' is a sub-continent located in the southern hemisphere. It is bordered the [[Hinsakian Ocean]] to the north, [[Haanian Ocean]] to the southwest, and the [[North Quia]] to the east. The continent covers around {{convert|2,970,040|km2|sqmi|abbr=on}} of land, making it the 18th largest sub-continent in the world, with a total of about 371,199,741 as of 1765, making it also the 5th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Ahokini}} || [[Ahokini]] || style="text-align:right;" | 168,631 || style="text-align:right;" | 20,712,946 || style="text-align:right;" | 123 || [[Ribash]]
+|-
+| style="text-align:center;"| {{flagicon|Ashain}} || [[Ashain]] || style="text-align:right;" | 422,225 || style="text-align:right;" | 62,265,521 || style="text-align:right;" | 147 || [[Sjoran]]
+|-
+| style="text-align:center;"| {{flagicon|Erkizil}} || [[Erkizil]] || style="text-align:right;" | 522,616 || style="text-align:right;" | 90,945,636 || style="text-align:right;" | 174 || [[Tiraqsi]]
+|-
+| style="text-align:center;"| {{flagicon|Quidic}} || [[Quidic]] || style="text-align:right;" | 663,041 || style="text-align:right;" | 143,972,723 || style="text-align:right;" | 217 || [[Talvani]]
+|-
+| style="text-align:center;"| {{flagicon|Verste}} || [[Verste]] || style="text-align:right;" | 1,193,527 || style="text-align:right;" | 53,302,916 || style="text-align:right;" | 45 || [[Kaimlo]]
+|-
+| style="text-align:center;"| {{flagicon|Wundry}} || [[Wundry]] || style="text-align:right;" | 509,719 || style="text-align:right;" | 140,080,976 || style="text-align:right;" | 275 || [[Teveme]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 6
+| style="text-align:right;"| 3,479,759
+| style="text-align:right;"| 511,280,718
+| style="text-align:right;"| 147
+|}
+==References==
+{{reflist}}
+[[Category:Geoscheme]]

@@ -1,0 +1,71 @@
+{{Infobox continent
+|title          = Quia
+|image          = Quia Map.png
+|imagecaption   = Location of Quia
+|area           = {{convert|29,918,641|km2|sqmi|abbr=on}}
+|population     = 1,168,890,000 (1765)
+|density        = {{convert|39.06|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}14.080 trillion
+|GDP_nominal    = {{lahn}}6.275 trillion
+|GDP_per_capita = {{lahn}}5.368
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = Quian
+|countries      = 24
+|list_countries = 
+|dependencies   = 0
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+*[[Aksalshai Language|Aksalshai]]
+*[[Anymnan Language|Anymnan]]
+*[[Ashani Language|Ashani]]
+*[[Dorimian Language|Dorimian]]
+*[[Emaran Language|Emaran]]
+*[[Finaean Language|Finaean]]
+*[[Lastnu Language|Lastnu]]
+*[[Mihilian Language|Mihilian]]
+*[[Mylanese Language|Mylanese]]
+*[[Onsrian Language|Onsrian]]
+*[[Sursian Language|Sursian]]
+*[[Verstian Language|Verstian]]
+}}
+|time           = UTC -7 to -12 (spans across to +12)
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+*[[Erkadu]]
+*[[Eserni]]
+*[[Hishara]]
+*[[Mihkose]]
+*[[Mikori]]
+*[[Naksos]]
+*[[Ralut]]
+*[[Ratsom]]
+*[[Ribash]]
+*[[Sjoran]]
+*[[Takhna]]
+*[[Talvani]]
+*[[Teveme]]
+*[[Tiraqsi]]
+*[[Wiskot]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''Quia''' is a continent located in the southern hemisphere. It is bordered by the [[Hinsakian Ocean]] and [[Northern Eanif Ocean]] to the north, the [[Haainian Ocean]] to the west and south, [[Southern Eanif Ocean]] to the east. The continent covers around {{convert|29,918,641|km2|sqmi|abbr=on}} of land, making it the largest continent in the world, with a total of about 1,168,890,000 as of 1765, making it also the 3rd largest continent by population behind [[Mahea]] and [[Massir]].
+
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Pages with broken file links]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Quia]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,44 @@
+==List of states and territories==
+'''Continue to [[North Acrola]]'''
+{|class="sortable wikitable"
+|-
+| style="background:lightcyan; border:1px solid #aaa; width:2em;" | *
+| = Geoscheme disputed<ref>{{cite web|url=http://enclaiw.gov.hei/nation/geoscheme|title=Ayuma or Acrola? |publisher=National government of Heiso}}</ref>
+|}
+
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Acetoa}} || [[Acetoa]] || style="text-align:right;" | 388,005 || style="text-align:right;" | 11,203,256 || style="text-align:right;" | 29 || [[Yezhito]]
+|-
+| style="text-align:center;"| {{flagicon|Areoix Lie}} 
+| [[Areoix Lie]] || style="text-align:right;" | 5,854,217 || style="text-align:right;" | 579,087,437 || style="text-align:right;" | 99 || [[Vurahi]]
+|-
+| style="text-align:center;"| {{flagicon|Feio Lie}} || [[Feio Lie]] || style="text-align:right;" | 229,074 || style="text-align:right;" | 7,849,450 || style="text-align:right;" | 34 || [[Keliaro]]
+|- style="background:lightcyan;" 
+| style="text-align:center;"| {{flagicon|Heiso}} || [[Heiso]] || style="text-align:right;" | 334,534 || style="text-align:right;" | 20,605,956 || style="text-align:right;" | 62 || [[Mivlo]]
+|-
+| style="text-align:center;"| {{flagicon|Jau}} || [[Jau]] || style="text-align:right;" | 2,059,631 || style="text-align:right;" | 22,993,720 || style="text-align:right;" | 11 || [[Muntai]]
+|-
+| style="text-align:center;"| {{flagicon|Terressin}} || [[Terressin]] || style="text-align:right;" | 1,112,428 || style="text-align:right;" | 74,091,042 || style="text-align:right;" | 67 || [[Velloro]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 6
+| style="text-align:right;"| 9,977,889
+| style="text-align:right;"| 715,830,861
+| style="text-align:right;"| 72
+|}
+==References==
+{{reflist}}
+
+[[Category:Acrola]]
+[[Category:Acrolan Regions]]
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

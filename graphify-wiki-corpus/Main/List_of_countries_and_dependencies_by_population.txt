@@ -1,0 +1,568 @@
+[[File:List_of_countries_by_Population_1765.png|thumb|upright=2|Map of countries by population - 1765]]
+
+This is a '''list of countries and dependencies by population'''. It includes [https://en.wikipedia.org/wiki/Sovereign_state sovereign states], inhabited dependent territories and, in some cases, constituent countries of sovereign states. For instance, [[Dahe]] is considered a single entity, while the constituent countries of the [[Emara]] are considered separately. In addition, this list includes certain [[list of states with limited recognition|states with limited recognition]]. Also given in a percentage is each country's [https://en.wikipedia.org/wiki/Population population] compared with the world population, which the [[World Data Union]] estimated at 6,750 Billion as of 2025.<ref name="WDU-WPP">{{cite web|url=https://worlddataunion.org/population/world-population-prospects-1765|title=World Population Prospects 1765: Summary Tables|publisher=World Data Union|date=14 February 1765}}</ref>
+
+== Method ==
+Figures used in this chart are based on the most up-to-date estimates or population projection by the [https://en.wikipedia.org/wiki/Census national census authority,] where available, and are usually rounded off.<ref name="WDU-method">{{cite web|url=https://worlddataunion.org/population/methodology-1765|title=World Population Prospects 1765: Methodology of the Population Estimates and Projections|publisher=World Data Union|date=14 February 1765}}</ref>
+
+Where updated national data are not available, figures are based on the estimates or projections for 1765 by the Population Division of the [[World Data Union]].<ref name="WDU-WPP" />
+
+Because the compiled figures are not collected at the same time in every country, or at the same level of accuracy, the resulting numerical comparisons may create misleading conclusions. Furthermore, the addition of figures from all countries may not equal the world total.
+
+Areas that form integral parts of [https://en.wikipedia.org/wiki/Sovereign_state sovereign state], such as the overseas territories of [[Emara]], are counted as part of the sovereign states concerned.<ref name="WDU-territories">{{cite web|url=https://worlddataunion.org/population/dependencies-and-territories-1765|title=World Population Prospects 1765: Treatment of Dependent and Overseas Territories|publisher=World Data Union|date=3 March 1765}}</ref> Not included are other entities that are not sovereign states, such as the [[Quian Union]], and independent territories that do not have permanent populations, such as the ____.
+
+== Sovereign states and dependencies by population ==
+
+Note: A numbered rank is assigned to the 172 Nations of the world, Dependent territories and constituent countries that are parts of sovereign states are not assigned a numbered rank. In addition, sovereign states with limited recognition are included, but not assigned a number rank.
+
+
+{{mw-datatable}}{{sort under}}{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable mw-datatable sort-under static-row-numbers sticky-header col1left col5left" {{right}}
+|+ List of countries and territories by total population
+
+! Location
+! Population
+! style=width:2em | % of{{br}}world
+! Date
+! {{nowrap|Source (official or from<br>[[World Data Union|World Data Union]])
+
+|- class=static-row-numbers-norank
+| '''{{noflag|World}}'''
+| 6,750,000,000<ref name="WDU-WPP" />|| {{center|100%}} || 1765
+| WDU projection
+
+|-
+| {{flag|Dahe}}
+| {{n+p|890600000|{{worldpop}}|sigfig=2|disp=table}}<ref>{{cite web|url=https://worlddataunion.org/population/profiles/dahe-1765|title=World Population Prospects 1765: Dahe, the world's most populous country|publisher=World Data Union|date=14 February 1765}}</ref> || 1765 || Population Estimate
+|-
+| {{flag|Areoix Lie}}
+| {{n+p|579087437|{{worldpop}}|sigfig=2|disp=table}}<ref>{{cite web|url=https://census.areoixlie.gov/1763/results|title=1763 Census of Population and Housing: Final Results|publisher=[[Census Areoix Lie]]|date=30 September 1763}}</ref> || 1763 || 1763 Census Data
+|-
+| {{flag|Ztesh}}
+| {{n+p|425141434|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Pelugrotoa}}
+| {{n+p|347520587|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 WDU Estimate
+|-
+| {{flag|Raledria}}
+| {{n+p|301115278|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Estijan}}
+| {{n+p|260844816|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Inania}}
+| {{n+p|236475569|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Quidic}}
+| {{n+p|143972723|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Official projection
+|-
+| {{flag|Wundry}}
+| {{n+p|140080976|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Ealdorii}}
+| {{n+p|137992639|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Vesozata}}
+| {{n+p|121753072|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Dual Cenryia}}
+| {{n+p|95001457|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 WDU Estimate
+|-
+| {{flag|United Delet}}
+| {{n+p|93832500|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Erkizil}}
+| {{n+p|90945636|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Emara}}
+| {{n+p|90861040|{{worldpop}}|sigfig=2|disp=table}}<ref name="WDU-territories" /> || 1765 || Population Estimate
+|-
+| {{flag|Ocaun}}
+| {{n+p|88913943|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Official projection
+|-
+| {{flag|Pelines}}
+| {{n+p|88057485|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Ukhdari}}
+| {{n+p|85678806|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Lycroa}}
+| {{n+p|81313729|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Sunsokua}}
+| {{n+p|79558877|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 WDU Estimate
+|-
+| {{flag|Etirha}}
+| {{n+p|74667447|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Vayvele}}
+| {{n+p|74436761|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Terressin}}
+| {{n+p|74091042|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Seytinemas}}
+| {{n+p|71957346|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Official projection
+|-
+| {{flag|Verusa}}
+| {{n+p|69480631|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Ashain}}
+| {{n+p|62265521|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Suenan}}
+| {{n+p|54705622|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|New Misos}}
+| {{n+p|53637198|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 WDU Estimate
+|-
+| {{flag|Verste}}
+| {{n+p|53302916|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Taniduna}}
+| {{n+p|45062542|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Taval}}
+| {{n+p|44529546|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Astye}}
+| {{n+p|44277194|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Official projection
+|-
+| {{flag|Myla}}
+| {{n+p|42672208|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Siana}}
+| {{n+p|39335005|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Praesyu}}
+| {{n+p|39227750|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Sanagara}}
+| {{n+p|38792291|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 WDU Estimate
+|-
+| {{flag|Lieri}}
+| {{n+p|36478307|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Iquir}}
+| {{n+p|36356117|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Isnti}}
+| {{n+p|35956798|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|United Mihili}}
+| {{n+p|33524353|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Official projection
+|-
+| {{flag|Ohtina}}
+| {{n+p|33245174|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Shinam}}
+| {{n+p|31948027|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Finae}}
+| {{n+p|31745420|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Selaja}}
+| {{n+p|31644352|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 WDU Estimate
+|-
+| {{flag|Oyreain}}
+| {{n+p|31491757|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Ucrua}}
+| {{n+p|30764253|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Deschon}}
+| {{n+p|30642963|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Othya}}
+| {{n+p|30421695|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Official projection
+|-
+| {{flag|Easuhura}}
+| {{n+p|29913650|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Eldavpir}}
+| {{n+p|29421790|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Desaki}}
+| {{n+p|29182698|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Trian}}
+| {{n+p|27844193|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 WDU Estimate
+|-
+| {{flag|Candenat}}
+| {{n+p|27332521|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Phuris}}
+| {{n+p|27120468|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Exilium}}
+| {{n+p|25083674|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Merela Sta}}
+| {{n+p|23361657|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Official projection
+|-
+| {{flag|Jau}}
+| {{n+p|22993720|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Hkuqo}}
+| {{n+p|22833760|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Maalle}}
+| {{n+p|22501433|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Oscairia}}
+| {{n+p|22386666|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 WDU Estimate
+|-
+| {{flag|Sivoso}}
+| {{n+p|21995119|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Anymna}}
+| {{n+p|21768597|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Otiiric}}
+| {{n+p|21611863|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Etretes}}
+| {{n+p|21374692|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Official projection
+|-
+| {{flag|Ahokini}}
+| {{n+p|20712946|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Heiso}}
+| {{n+p|20605956|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Darewa}}
+| {{n+p|19678480|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Welenu Fana}}
+| {{n+p|19674606|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 WDU Estimate
+|-
+| {{flag|Lydroa}}
+| {{n+p|18995781|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Yaxuto}}
+| {{n+p|18401158|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Sadain}}
+| {{n+p|18288844|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Viussi}}
+| {{n+p|17339111|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Official projection
+|-
+| {{flag|Volver}}
+| {{n+p|17219177|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Haiza}}
+| {{n+p|17079116|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Nia}}
+| {{n+p|16302960|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Galca}}
+| {{n+p|16057397|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 WDU Estimate
+|-
+| {{flag|Genaire}}
+| {{n+p|15795087|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Iainoa}}
+| {{n+p|15105090|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Acrana}}
+| {{n+p|14469041|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Chaenia}}
+| {{n+p|13815053|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Official projection
+|-
+| {{flag|Pelan}}
+| {{n+p|13705584|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Jathua}}
+| {{n+p|13153004|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Isari}}
+| {{n+p|12783095|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Jshain}}
+| {{n+p|12584520|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 WDU Estimate
+|-
+| {{flag|Umarcia}}
+| {{n+p|12307247|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Fermori}}
+| {{n+p|12299328|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Nheyes Si}}
+| {{n+p|12224862|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Ruylku}}
+| {{n+p|11838201|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Official projection
+|-
+| {{flag|Taoisia}}
+| {{n+p|11247660|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Acetoa}}
+| {{n+p|11203256|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Mendereide}}
+| {{n+p|11019227|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|North Ayre}}
+| {{n+p|10967500|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 WDU Estimate
+|-
+| {{flag|Onphello}}
+| {{n+p|10233103|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Rtesania}}
+| {{n+p|9975075|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Zenashan}}
+| {{n+p|9819273|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Gaeiya}}
+| {{n+p|9533900|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Official projection
+|-
+| {{flag|Sattle}}
+| {{n+p|9388939|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Kusierna}}
+| {{n+p|9164021|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Byllu}}
+| {{n+p|9106539|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Reerica}}
+| {{n+p|8871251|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 WDU Estimate
+|-
+| {{flag|Yihnurda}}
+| {{n+p|8714286|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Iareva}}
+| {{n+p|8002152|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Ozinia}}
+| {{n+p|7898975|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Feio Lie}}
+| {{n+p|7849450|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Official projection
+|-
+| {{flag|Disal Nila}}
+| {{n+p|7438559|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Umendel}}
+| {{n+p|7437017|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Zhanshe}}
+| {{n+p|7354910|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Fire Coast}}
+| {{n+p|7181169|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 WDU Estimate
+|-
+| {{flag|Prstreula}}
+| {{n+p|6835852|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Arbiya}}
+| {{n+p|6585930|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Laselteh}}
+| {{n+p|6524522|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Ihner}}
+| {{n+p|6257140|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Official projection
+|-
+| {{flag|Migoku}}
+| {{n+p|6231859|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Eldjo}}
+| {{n+p|5393380|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Yoprioq}}
+| {{n+p|5131190|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Uularin}}
+| {{n+p|5001934|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 WDU Estimate
+|-
+| {{flag|Fincen}}
+| {{n+p|4620320|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Curata}}
+| {{n+p|4523613|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Kaastini}}
+| {{n+p|4348275|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Eparia}}
+| {{n+p|4070555|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Official projection
+|-
+| {{flag|Rijan bu}}
+| {{n+p|3626297|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Grazail}}
+| {{n+p|3347590|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Pruim Fijan}}
+| {{n+p|3307617|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Ilicuhe}}
+| {{n+p|3254988|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 WDU Estimate
+|-
+| {{flag|Andsaudare}}
+| {{n+p|3146473|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Palina}}
+| {{n+p|3123402|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Ikzen}}
+| {{n+p|3103322|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Western Migoku}}
+| {{n+p|2950683|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Official projection
+|-
+| {{flag|Shomjind}}
+| {{n+p|2898502|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Pha Hii}}
+| {{n+p|2646840|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Saa}}
+| {{n+p|2549416|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Amcha}}
+| {{n+p|2236563|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 WDU Estimate
+|-
+| {{flag|lasri}}
+| {{n+p|2170550|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Slyiaduun}}
+| {{n+p|2166683|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Taing}}
+| {{n+p|2162677|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Inrea}}
+| {{n+p|2051970|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Official projection
+|-
+| {{flag|Mesjan Hyaa}}
+| {{n+p|2048851|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Danocia}}
+| {{n+p|2020940|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Urbiqu}}
+| {{n+p|1914198|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Hyelen}}
+| {{n+p|1724423|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 WDU Estimate
+|-
+| {{flag|Prystr Hii}}
+| {{n+p|1640804|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Baluyde}}
+| {{n+p|1638021|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Far Lands}}
+| {{n+p|1441954|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Aetintio}}
+| {{n+p|1405387|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Official projection
+|-
+| {{flag|Peka}}
+| {{n+p|1300163|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Tomscilus}}
+| {{n+p|1158763|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Crila Republic}}
+| {{n+p|945980|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Guise}}
+| {{n+p|833491|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 WDU Estimate
+|-
+| {{flag|Veelmit}}
+| {{n+p|828597|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Koruch}}
+| {{n+p|820937|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Canldives}}
+| {{n+p|759043|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Walporein}}
+| {{n+p|730203|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Official projection
+|-
+| {{flag|Metndria}}
+| {{n+p|635532|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Elja and Munusia}}
+| {{n+p|495291|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 Census Data
+|-
+| {{flag|Yutnitu}}
+| {{n+p|447879|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Aplasia}}
+| {{n+p|376609|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 WDU Estimate
+|-
+| {{flag|Stinebar}}
+| {{n+p|345037|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Rkmepuia}}
+| {{n+p|324028|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Census Data
+|-
+| {{flag|Hiwush}}
+| {{n+p|239092|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Rinew}}
+| {{n+p|233966|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Official projection
+|-
+| {{flag|Niul Spijan}}
+| {{n+p|220218|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Niretui and Anulan}}
+| {{n+p|189681|{{worldpop}}|sigfig=2|disp=table}} || 1763 || 1763 Census Data
+|-
+| {{flag|Tonder}}
+| {{n+p|143925|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|New Kizura}}
+| {{n+p|133065|{{worldpop}}|sigfig=2|disp=table}} || 1761 || 1761 WDU Estimate
+|-
+| {{flag|Rethern}}
+| {{n+p|82798|{{worldpop}}|sigfig=2|disp=table}} || 1765 || National annual projection
+|-
+| {{flag|Letan}}
+| {{n+p|76045|{{worldpop}}|sigfig=2|disp=table}} || 1764 || 1764 Census Data
+|-
+| {{flag|Enina}}
+| {{n+p|51690|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Population Estimate
+|-
+| {{flag|Cloja}}
+| {{n+p|47933|{{worldpop}}|sigfig=2|disp=table}} || 1762 || 1762 Official projection
+|-
+| {{flag|Isuibul}}
+| {{n+p|37482|{{worldpop}}|sigfig=2|disp=table}} || 1765 || WDU Estimate
+|-
+| {{flag|Trevilla}}
+| {{n+p|10360|{{worldpop}}|sigfig=2|disp=table}} || 1760 || 1760 Census Data
+|-
+| {{flag|Tvecoca}}
+| {{n+p|5165|{{worldpop}}|sigfig=2|disp=table}} || 1765 || Official projection
+|-
+| {{flag|Cruthi Anoso}}
+| {{n+p|3984|{{worldpop}}|sigfig=2|disp=table}}<ref>{{cite web|url=https://worlddataunion.org/population/profiles/cruthi-anoso-1763|title=World Population Prospects 1763: Cruthi Anoso, the least populous listed territory|publisher=World Data Union|date=11 November 1763}}</ref> || 1763 || 1763 WDU Estimate
+|}
+
+== See also ==
+* [[Demographics of the world]]
+* [[List of countries and dependencies by area]]
+* [[List of countries and dependencies by population density]]
+* [[List of countries by population growth rate]]
+
+== References ==
+{{reflist}}
+
+[[Category:All country data templates|Slyiaduun]]
+[[Category:Country data templates with distinct template name|Laseltsh]]
+[[Category:Flag icons missing country data templates]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with non-numeric formatnum arguments]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Slyiaduun]]

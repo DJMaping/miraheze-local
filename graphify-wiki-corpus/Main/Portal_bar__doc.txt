@@ -1,0 +1,86 @@
+{{Documentation subpage}}
+{{High-use}}
+{{Warning|{{strong|This template does not belong in the "See also" section.}} Per [[MOS:SECTIONORDER]], this template is bottom matter and goes below standard navigation templates, and above geographical coordinates and authority control templates.}}
+
+The primary purpose of this template is for when using {{tlx|portal}} would cause formatting problems. This template forms a horizontal bar instead of a vertical, sidebar-like template.
+
+Please note that this template {{strong|[[MOS:ORDER|does not belong]]}} in the "See also" section.
+This template is bottom matter and goes below standard navigation templates, and above geographical coordinates and authority control templates.
+
+{{Lua|Module:Portal bar}}
+{{Portal information sidebar}}
+
+== Usage ==
+{{xref|See {{section link|Module:Portal|Image}} on how to add, update, or remove portal images.}}
+
+=== Border ===
+To add the template to a page:
+: &rarr; <code><nowiki>{{Portal bar|Biology|Fungi|Plants|Science}}</nowiki></code>
+{{Portal bar|Biology|Fungi|Plants|Science}}
+
+=== No border ===
+For a version with no border:
+: &rarr; <code><nowiki>{{Portal bar|Biology|Fungi|Plants|Science|border=n}}</nowiki></code>
+{{Portal bar|Biology|Fungi|Plants|Science|border=n}}
+
+Portal bar with border extends to the full width of the article, and that can be a problem with right-floating items. To use space better, remove the border.
+
+== Error tracking ==
+If the {{{type|template}}} is used incorrectly, the page will be added to a tracking category.
+
+The tracking categories are not applied if any of the following is true:
+# Tracking is specially disabled for that usage. This is done by setting the optional parameter {{para|tracking}} to any the following values: <code><nowiki>no</nowiki></code>, <code><nowiki>n</nowiki></code>, <code><nowiki>false</nowiki></code>
+# The template is used on a page in any of these namespaces: Talk, User, User talk, Wikipedia talk, File talk, Template talk, Category talk, Portal talk, Draft, Draft talk, Module talk
+# The title page on which the template is used includes any of the following case-insensitive strings: "/archive", "/doc", "/test", "/sandbox"
+* {{clc|Portal templates with too few portals}}
+* {{clc|Portal templates with redlinked portals}}
+* {{clc|Pages with empty portal template}}
+:{{Purge page|''Purge page to update totals''}}
+
+== TemplateData ==
+{{Collapse top|[[WP:TemplateData|TemplateData]] documentation used by [[WP:VisualEditor|VisualEditor]] and other tools}}
+{{TemplateData header|noheader=1}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"required": true,
+			"type": "string/line",
+			"description": "The first portal, without surrounding text. For example, use \"Science\" to display the science portal."
+		},
+		"2": {
+			"type": "string/line",
+			"description": "The second portal."
+		},
+		"3": {
+			"type": "string/line",
+			"description": "The third portal."
+		},
+		"4": {
+			"type": "string/line",
+			"description": "The fourth portal"
+		},
+		"5": {
+			"type": "string/line",
+			"description": "The fifth portal."
+		},
+		"border": {
+			"type": "boolean",
+			"description": "Set this to \"no\" if you do not want to display a border around the portals. You can also use \"n\", \"false\", or \"0\".",
+			"default": "Yes"
+		}
+	},
+	"description": "This template adds a bar of portals. It is usually used just above an article's navboxes or in its \"See also\" section when using [[Template:Portal]] would cause formatting problems."
+}
+</templatedata>
+{{Collapse bottom}}
+
+== See also ==
+* {{tl|Portal}}
+* {{tl|Portal-inline}}
+* {{tl|Subject bar}}
+
+<includeonly>{{Sandbox other||
+[[Category:Internal link templates]]
+[[Category:Wikipedia Portal navflags]]
+}}</includeonly>

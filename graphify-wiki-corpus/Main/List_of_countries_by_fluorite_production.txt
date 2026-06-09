@@ -1,0 +1,73 @@
+{{short description|none}}
+
+This is a '''list of countries by [[wikipedia:fluorite|fluorite]]''' '''production''' based on the GTU Geological Survey.<ref>{{Cite web |title=World mineral statistics data |url=https://www.gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/}}</ref>
+
+<big><big>'''*'''</big></big> indicates '''"Natural resources of COUNTRY or TERRITORY"''' links.
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Fluorite production by country (2022)
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! Country (or area) !! Production<br>(metric tonnes)
+|-
+|style=text-align:left|'''{{noflag|World}}'''||'''8,192,670'''
+|-
+|{{flag|Pelugrotoa}} || 5,700,000   
+|-
+|{{flag|Gaeiya}} || 990,079   
+|-
+|{{flag|Verste}} || 420,000   
+|-
+|{{flag|Myla}} || 217,975   
+|-
+|{{flag|Praesyu}} 
+| 203,768   
+|-
+|{{flag|Haiza}} || 122,900   
+|-
+|{{flag|Areoix Lie}} 
+| 110,000   
+|-
+|{{flag|Verusa}} || 104,461   
+|-
+|{{flag|Ealdorii}} || 77,035   
+|-
+|{{flag|Ikzen}} || 67,000   
+|-
+|{{flag|Finae}} || 59,243   
+|-
+|{{flag|Estijan}} || 32,000   
+|-
+|{{flag|United Delet}} || 28,969   
+|-
+|{{flag|Ukhdari}} || 17,252   
+|-
+|{{flag|Emara}} || 13,000   
+|-
+|{{flag|Ztesh}} || 7,200   
+|-
+|{{flag|Etretes}} || 7,000   
+|-
+|{{flag|Ucrua}} || 4,800   
+|-
+|{{flag|Umarcia}} || 4,000   
+|-
+|{{flag|Ozinia}} || 4,000   
+|-
+|{{flag|Seytinemas}} || 1,000   
+|-
+|{{flag|Trian}} || 988   
+|-
+|}
+
+== References ==
+{{Reflist}}
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Articles with short description]]
+[[Category:Country data templates with distinct template name|Praesyu]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with reference errors]]
+[[Category:Pages with short description]]
+[[Category:Statistics]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

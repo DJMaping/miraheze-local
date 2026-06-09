@@ -1,0 +1,33 @@
+==List of states and territories==
+'''Continue to [[East Atirha]]'''
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Disal Nila}} || [[Disal Nila]] || style="text-align:right;" | 168,040 || style="text-align:right;" | 7,438,559 || style="text-align:right;" | 44 || [[Naliti]]
+|-
+| style="text-align:center;"| {{flagicon|Etirha}} || [[Etirha]] || style="text-align:right;" | 1,864,826 || style="text-align:right;" | 74,667,447 || style="text-align:right;" | 40 || [[Albiran]]
+|-
+| style="text-align:center;"| {{flagicon|Grazail}} || [[Grazail]] || style="text-align:right;" | 202,209 || style="text-align:right;" | 3,347,590 || style="text-align:right;" | 17 || [[Mushira]]
+|-
+| style="text-align:center;"| {{flagicon|Guise}} || [[Guise]] || style="text-align:right;" | 8,590 || style="text-align:right;" | 833,491 || style="text-align:right;" | 97 || [[Tosakaa]]
+|-
+| style="text-align:center;"| {{flagicon|Laselteh}} || [[Laselteh]] || style="text-align:right;" | 1,599,030 || style="text-align:right;" | 6,524,522 || style="text-align:right;" | 4 || [[Dariya]]
+|-
+| style="text-align:center;"| {{flagicon|Peka}} || [[Peka]] || style="text-align:right;" | 34,109 || style="text-align:right;" | 1,300,163 || style="text-align:right;" | 38 || [[Kerefa]]
+|-
+| style="text-align:center;"| {{flagicon|Pelan}} || [[Pelan]] || style="text-align:right;" | 80,042 || style="text-align:right;" | 13,705,584 || style="text-align:right;" | 171 || [[Taoqu]]
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 3,956,846
+| style="text-align:right;"| 107,817,356
+| style="text-align:right;"| 27
+|}
+
+[[Category:Atirha]]
+[[Category:Atirhan Regions]]

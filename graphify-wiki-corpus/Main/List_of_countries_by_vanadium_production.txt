@@ -1,0 +1,28 @@
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right;"
+|+Vanadium production by country
+! Country !! Production (kg)
+!Year
+|-
+|'''{{noflag}}World'''||'''110,000'''
+|'''1764'''
+|-
+|{{flag|Areoix Lie}} 
+| 70,000 || 1764  
+|-
+|{{flag|Estijan}} || 21,000 || 1764  
+|-
+|{{flag|Pelugrotoa}} || 8,000 || 1764  
+|-
+|{{flag|Haiza}} || 5,000 || 1764  
+|-
+|{{flag|Volver}} || 2,000 || 1764  
+|}
+
+==References==
+{{Reflist|30em}}
+[[Category:Statistics]]
+
+[[Category:All country data templates|Areoix Lie]]
+[[Category:Pages with broken file links]]
+[[Category:Templates using TemplateData]]
+[[Category:Uncategorized country data templates|Areoix Lie]]

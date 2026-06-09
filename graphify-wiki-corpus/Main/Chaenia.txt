@@ -1,0 +1,170 @@
+{{Infobox country
+| conventional_long_name = Chaenia
+| native_name            = ''__''  - Emaran
+| image_flag             = Chaenia Flag.png
+| image_coat             = Chaenia coat of arms.png
+| symbol_type            = 
+| national_motto         = KAY-nee-ah
+| national_anthem        = /ˈkeɪ.ni.ə/
+| image_map              = Chaenia Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Chaenia (green)
+| capital                = [[Lutur]]
+| largest_city           = [[Tibokan]]
+| official_languages     = Lastnu
+| regional_languages     = Seytinemasi<br>Trian
+| ethnic_groups          = 61.5% Chaenian<br>14.5% [[Dual Cenryia|Cenryi]]<br>6.2% [[Seytinemas|Seytinemasi]]<br>3.5% [[Vesozata|Vesozatan]]<br>3.3% Others
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.cha/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Chaenia]] }}</ref>
+| religion               = {{tree list}}
+*54.2% [[Kallimethra]]
+**41.9% [[Doxis]]
+**12.3% [[Anakalli]]
+{{tree list/end}} 
+11.7% [[wikipedia:Irreligion|Irreligion]]<br>10.8% [[Passanu]]<br>8.2% [[Thessovai]]<br>5.3% [[Imarel]]<br>9.8% [[Religion in Chaenia|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.cha/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Chaenia]] }}</ref>
+| demonym                = Chaenian
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Chaenia
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Ankarr Kingdom]]
+| established_date1      = 195 BFA
+| established_event2     = [[Trian Empire]]
+| established_date2      = 38 BFA
+| established_event3     = [[Lieas Invasions]]
+| established_date3      = 364 AFA
+| established_event4     = [[Trian Empire]]
+| established_date4      = 601 AFA
+| established_event5     = [[Trian City States]]
+| established_date5      = 730 AFA
+| established_event6     = [[Folite Invasions]]
+| established_date6      = 760 AFA
+| established_event7     = [[Anir Kingdom]]
+| established_date7      = 812 AFA
+| established_event8     = [[Partasi Empire]]
+| established_date8      = 934 AFA
+| established_event9     = [[Egarea Kingdom]]
+| established_date9      = 1000~ AFA
+| established_event10    = [[Seytinemas Kingdom]]
+| established_date10     = 1162 AFA
+| established_event11    = [[Wenin Republic]]
+| established_date11     = 1231 AFA
+| established_event12    = [[Vesozara Empire]]
+| established_date12     = 1532-1533 AFA
+| established_event13    = [[Tavalan Bordectala Colony]]
+| established_date13     = 1589 AFA
+| established_event14    = [[Emaran Chaenia Colony]]
+| established_date14     = 1593 AFA
+| established_event15    = Independence
+| established_date15     = 1703 AFA
+| area_rank              = 134th
+| area_km2               = 84,476
+| area_sq_mi             = 32,616
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 2.19
+| population_estimate    = {{decreaseNeutral}}13,815,000<ref name="POP CHA">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.cha/List_of_countries_and_dependencies_by_population/Chaenia|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 80th
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}13,495,000<ref>{{cite web|url=https://www.gov.cha/1765/caX3a/CHAENIA_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Chaenia]] }}</ref>
+| population_census_year = 1760
+| population_density_km2 = 163.5
+| population_density_rank = 24th
+| GDP_PPP                = {{increase}} {{lahn}}289 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/cha/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 52nd
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,988
+| GDP_PPP_per_capita_rank = 34th
+| GDP_nominal            = {{increase}} {{lahn}}224 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 45th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}16,270
+| GDP_nominal_per_capita_rank = 28th
+| HDI_year               = 1765
+| HDI                    = 0.921
+| HDI_change             = increase
+| HDI_rank               = 18th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Ryhte]] (_) (RHY)
+| time_zone              = SCT +3 (Standard Chaenia Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .cha
+| calling_code           = +920
+}}
+
+'''Chaenia''' is an island country in the central [[Ubrana Sea]]. Situated in [[West Mahea]], its cultural identity and geopolitical orientation are overwhelmingly [[Seytinemas|Seytinemasi]]. Chaenia is the only major island in the [[Ubrana Sea]] and is the most populous island in the [[Ubrana Sea|Ubrana]]. It's mainland provinces border [[Seytinemas]] to the north and [[Dual Cenryia]] to the south, while the island borders [[Otiiric]] to the south and [[Eparia]] to the west. Its capital is [[Lutur]] and its largest city is [[Tibokan]]. Chaenia hosts the military bases of: [[Ashain]], [[Areoix Lie]], [[Dahe]], [[Easuhura]], [[Emara]], [[Lycroa]], and [[Raledria]]. The state of [[Mirran]] is de facto governed by the [[Republic of Mirran]], which is Autonomous from the Republic of Chaenia.
+
+Chaenia was first settled by [[wikipedia:Hunter-gatherer|hunter-gatherers]] around 40,000 years ago, with [[wikipedia:Wheat#Early_farming|farming]] communities emerging by 1200 BC. The late [[Bronze Age]] saw the emergence of [[Keleissi Culture|Keleissi]], an urbanised society closely connected to the wider [[Ubrana Sea|Ubrana]] world. Chaenia experienced waves of settlement by [[Ankarra|Ankarrans]] at the end of the 2nd millennium BFA. Owing to its rich natural resources (particularly [[wikipedia:Copper|copper]]) and strategic position at the centre of the [[Ubrana Sea|Ubrana]], the island was subsequently contested and occupied by several empires, including the [[Ankarr Kingdom]] [[Trian Empire]], and the [[Lieas Invasions|Lieas]]’s from whom it was seized in 333 BC by [[Trian Empire|Trian]].
+
+Successive rule by [[Trian City States]], the [[Folite Invasions|Folite’s]], [[Anir Kingdom]], the [[Seytinemas Kingdom]], followed by over three centuries of an independent [[Wenin Republic|Republic]]. Chaenia was placed first under [[Vesozata|Vesozara]] administration in 1533, then [[Taval|Tavaln]] administration in 1589, [[Siana|Sianan]] administration in 1592, and formally annexed by [[Emara]] in 1593. Gaining its Independence in 1703 AFA after the Red War.
+
+From the early 1710s, Chaenia saw rapid [[wikipedia:Economic_growth|economic growth]] and [[wikipedia:/Industrialisation|industrialisation]] known as the "[[Chaenian Miracle]]". In the late 1720s and early 1730s, its government transitioned from a [[Taltinople|corrupt one-party state]] under martial law to a [[wikipedia:Multi-party_system|multi-party democracy]], with democratically elected presidents beginning in 1733. Chaenia’s export-oriented economy is the [[List of countries by GDP (nominal)|45th-largest in the world by nominal GDP]] and the [[List of countries by GDP (nominal) per capita|28th-largest by per capita]] measures, with a focus on [[wikipedia:/Steel|steel]], machinery, [[wikipedia:Electronics|electronics]], and chemicals manufacturing. Chaenia is a [[wikipedia:Developed_country|developed country]] with an advanced [[List of countries by GDP (nominal) per capita|high-income economy,]] a [[List of countries by Krali Total Development Index|high standard of living]], and robust [[wikipedia:Welfare_state|social welfare policies]]. Chaenia culture and society are broadly progressive, [[wikipedia:Egalitarianism|egalitarian]], and [[wikipedia:Social_liberalism socially liberal]]. Chaenia was the third country to legally recognise [[wikipedia:Same-sex_marriage|same-sex partnerships]]. It is a founding member of the [[SOAQ]], the [[EISA]], and is part of the [[free Schwa movement area]]. Chaenia maintains close political, cultural, and linguistic ties with its [[Trian Culture|Trian]] neighbours. The [[Chaenia political system]], which emphasises broad consensus, is used by Sunsokuan political scientist [[Dra Ider Rakel]] as a reference point for incredible institutions; his phrase "getting to Chaenia" refers to the country's status as a global model for stable social and [[wikipedia:Political_system|political institutions]].
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Chaenia]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/chaenia|title=World Population Prospects 1765: Chaenia|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Tibokan]] || 1,868,000
+|-
+| 2 || [[Lutur]] || 1,262,000
+|-
+| 3 || [[Munela]] || 1,073,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://gov.cha/ Chaenia's government official website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-ayuma-13017877 Country profile – Chaenia] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/chaenia/ Chaenia]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages using the JsonConfig extension]]
+[[Category:Pages with broken file links]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

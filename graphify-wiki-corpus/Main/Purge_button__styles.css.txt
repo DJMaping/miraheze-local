@@ -1,0 +1,37 @@
+/* {{pp-template}} */
+.purge-button {
+	border: 1px solid var( --border-color-base, #a2a9b1 );
+	background-color: var( --background-color-interactive-subtle, #f8f9fa );
+	color: inherit;
+	font-size: 85%;
+	text-align: center;
+	width: 70px;
+}
+
+.purge-button-label {
+	font-weight: bold;
+	line-height: 1.2em;
+	display: block;
+}
+
+@media (min-width: 500px) {
+	.purge-button-right {
+		float: right;
+		margin: 0 0.5em;
+	}
+	
+	.purge-button-center {
+		margin: 0 auto;
+	}
+	
+	.purge-button-left {
+		float: left;
+		margin: 0 0.5em;
+	}
+}
+
+@media print {
+	.purge-button {
+		display: none;
+	}
+}

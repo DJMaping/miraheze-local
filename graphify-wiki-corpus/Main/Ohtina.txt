@@ -1,0 +1,138 @@
+{{Infobox country
+| conventional_long_name = Republic of Ohtina
+| native_name            = ''__''  - Alqiran
+| image_flag             = Ohtina Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = oh-TEE-nah
+| national_anthem        = /ˌoʊˈtiː.nɑː/
+| image_map              = Ohtina Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Ohtina (green)
+| capital                = [[Fenavo]]
+| largest_city           = [[Su Sariko]]
+| official_languages     = Alqiran
+| regional_languages     = 
+| religion               = 81.7% [[Kallimethra]]<br>11.6% [[wikipedia:Irreligion|Irreligion]]<br>6.7% [[Religion in Ohtina|Others]]<br>1.5% N/a
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.oht/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Ohtina]] }}</ref>
+| demonym                = Ohtinan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Biscear
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Taval]]
+| established            = 
+| established_event1     = Independence from [[Astye Lo]]
+| established_date1      = 1601 AFA
+| established_event2     = Military Junta
+| established_date2      = 1618 AFA
+| established_event3     = Current constitution 
+| established_date3      = 1741 AFA
+| established_event4     = 
+| established_date4      = 
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 53rd
+| area_km2               = 654,175
+| area_sq_mi             = 252,578
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.51
+| population_estimate    = {{increaseNeutral}}33,245,000<ref name="POP OHT">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.oht/List_of_countries_and_dependencies_by_population/Ohtina|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 41st
+| population_estimate_year = 1765
+| population_census      = {{increaseNeutral}}31,511,000<ref>{{cite web|url=https://www.gov.oht/1765/caX3a/OHTINA_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Ohtina]] }}</ref>
+| population_census_year = 1760
+| population_density_km2 = 50.8
+| population_density_rank = 84th
+| GDP_PPP                = {{increase}} {{lahn}}577 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oht/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 38th
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}17,364
+| GDP_PPP_per_capita_rank = 62nd
+| GDP_nominal            = {{increase}} {{lahn}}291 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oht/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 41st
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}8,770
+| GDP_nominal_per_capita_rank = 68th
+| HDI_year               = 1765
+| HDI                    = 0.820
+| HDI_change             = increase
+| HDI_rank               = 62nd
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Haachas]] (_) (Haa)
+| time_zone              = SOT -6 (Standard Ohtina Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = right
+| cctld                  = .oht
+| calling_code           = +61
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Ohtina]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/ohtina|title=World Population Prospects 1765: Ohtina|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Su Sariko]] || 3,207,000
+|-
+| 2 || [[Lumeka]] || 2,965,000
+|-
+| 3 || [[Fenavo]] || 2,168,000
+|-
+| 4 || [[Hirvasa]] || 1,978,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.oht/ The Republic of Ohtina's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Ohtina] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/ohtina/ Ohtina]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

@@ -1,0 +1,174 @@
+{{See also|List of silver mines}}
+This is a '''list of countries by [[wikipedia:silver|silver]] production''' in 1762, based on figures compiled by the [[GTU Geological Survey]]. All production figures refer to mine production of silver, whether produced as the principal product of a mine or as a by-product of base-metal and gold mining.<ref name="GTUGS">{{Cite web |date=January 1763 |title=Mineral Commodity Summaries 1762: Silver |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver.pdf |publisher=[[GTU Geological Survey]]}}</ref> [[Genaire]] is the world's largest silver producer, accounting for roughly a quarter of global mine output, while [[Andsaudare]] holds the largest reported reserves.<ref name="GTUGS-data">{{Cite web |date=March 1763 |title=World mineral statistics data: silver |url=https://gtu.org/minerals/statistics/world-mineral-statistics/world-mineral-statistics-data-download/world-mineral-statistics-data/ |publisher=[[GTU Geological Survey]]}}</ref>
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by silver production in tonnes<ref name="GTUGS" />
+!Country
+!Production
+!Reserves
+!Year
+|- class="static-row-header"
+|'''{{noflag}}World'''
+|'''25,790'''<ref name="GTUGS-data" />
+|'''640,000'''<ref>{{Cite web |date=March 1763 |title=Silver: world reserves and resources, 1762 estimate |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-reserves.pdf |publisher=[[GTU Geological Survey]]}}</ref>
+|'''1762'''
+|- class="static-row-header"
+|{{noflag}}''Other countries''
+|566
+|57,000
+|1762
+|-
+|{{flagicon|Genaire}} [[Genaire]] || 6,300<ref>{{Cite web |date=February 1763 |title=Silver mining in Genaire: production statistics 1762 |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-genaire.pdf |publisher=[[GTU Geological Survey]]}}</ref> || 37,000 || 1762
+|-
+|{{flagicon|Arbiya}} [[Arbiya]] || 3,300 || 70,000<ref>{{Cite web |date=March 1763 |title=Mineral Commodity Summaries 1762: silver reserves by country |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-country-reserves.pdf |publisher=[[GTU Geological Survey]]}}</ref> || 1762
+|-
+|{{flagicon|Andsaudare}} [[Andsaudare]] || 3,100 || 140,000<ref>{{Cite web |date=February 1763 |title=Silver resources of Andsaudare: 1762 assessment |url=https://gtu.org/periodicals/mcs1762/mcs1762-silver-andsaudare.pdf |publisher=[[GTU Geological Survey]]}}</ref> || 1762
+|-
+|{{flagicon|Raledria}} [[Raledria]] 
+| 1,200 || 26,000 || 1762 
+|-
+|{{flagicon|Anymna}} [[Anymna]] || 1,300 || 61,000 || 1762 
+|-
+|{{flagicon|Dahe}} [[Dahe]] || 1,000 || 94,000 || 1762 
+|-
+|{{flagicon|Darewa}} [[Darewa]] || 1,300 || 22,000 || 1762 
+|-
+|{{flagicon|Iainoa}} [[Iainoa]] || 1,200 || 92,000 || 1762 
+|-
+|{{flagicon|Estijan}} [[Estijan]] || 1,100 || 23,000 || 1762 
+|-
+|{{flagicon|Gaeiya}} [[Gaeiya]] 
+| 1,000 || – || 1762 
+|-
+|{{flagicon|Etretes}} [[Etretes]] || 800 || 6,500 || 1762 
+|-
+|{{flagicon|Zhanshe}} [[Zhanshe]] || 800 || 8,000 || 1762 
+|-
+|{{flagicon|Yihnurda}} [[Yihnurda]] || 400 || – || 1762 
+|-
+|{{flagicon|Exilium}} [[Exilium]] || 300 || 4,900 || 1762 
+|-
+|{{flagicon|Oyreain}} [[Oyreain]] || 299 || – || 1762 
+|-
+|{{flagicon|Acetoa}} [[Acetoa]] || 218 || – || 1762 
+|-
+|{{flagicon|Ukhdari}} [[Ukhdari]] || 200 || – || 1762 
+|-
+|{{flagicon|Sivoso}} [[Sivoso]] || 143 || – || 1762 
+|-
+|{{flagicon|Emara}} [[Emara]] || 87.5 || – || 1762 
+|-
+|{{flagicon|Mendereide}} [[Mendereide]] || 84 || – || 1762 
+|-
+|{{flagicon|Maalle}} [[Maalle]] || 80 || – || 1762 
+|-
+|{{flagicon|Uularin}} [[Uularin]] || 78.4 || – || 1762 
+|-
+|{{flagicon|Eparia}} [[Eparia]] || 73.4 || – || 1762 
+|-
+|{{flagicon|Vesozata}} [[Vesozata]] || 65.4 || – || 1762 
+|-
+|{{flagicon|Pelugrotoa}} [[Pelugrotoa]] || 58.2 || – || 1762 
+|-
+|{{flagicon|Phuris}} [[Phuris]] || 56.2 || – || 1762 
+|-
+|{{flagicon|Iareva}} [[Iareva]] || 50 || – || 1762 
+|-
+|{{flagicon|Verste}} [[Verste]] || 50 || – || 1762 
+|-
+|{{flagicon|Taval}} [[Taval]] || 50 || – || 1762 
+|-
+|{{flagicon|Inania}} [[Inania]] || 49.9 || – || 1762 
+|-
+|{{flagicon|Jau}} [[Jau]] || 45.7 || – || 1762 
+|-
+|{{flagicon|Ikzen}} [[Ikzen]] || 38 || – || 1762 
+|-
+|{{flagicon|Taing}} [[Taing]] || 37 || – || 1762 
+|-
+|{{flagicon|Amcha}} [[Amcha]] || 36.4 || – || 1762 
+|-
+|{{flagicon|Ohtina}} [[Ohtina]] || 35.8 || – || 1762 
+|-
+|{{flagicon|Laselteh}} [[Laselteh]] 
+| 31.2 || – || 1762 
+|-
+|{{flagicon|Quidic}} [[Quidic]] || 22.4 || – || 1762 
+|-
+|{{flagicon|Fincen}} [[Fincen]] || 21.6 || – || 1762 
+|-
+|{{flagicon|North Ayre}} [[North Ayre]] || 21.3 || – || 1762 
+|-
+|{{flagicon|Taniduna}} [[Taniduna]] || 20 || – || 1762 
+|-
+|{{flagicon|United Mihili}} [[United Mihili]] || 18.4 || – || 1762 
+|-
+|{{flagicon|Praesyu}} [[Praesyu]] 
+| 18 || – || 1762 
+|-
+|{{flagicon|Trian}} [[Trian]] || 15 || – || 1762 
+|-
+|{{flagicon|Deschon}} [[Deschon]] || 13.6 || – || 1762 
+|-
+|{{flagicon|Galca}} [[Galca]] || 12.6 || – || 1762 
+|-
+|{{flagicon|Haiza}} [[Haiza]] || 12 || – || 1762 
+|-
+|{{flagicon|Acrana}} [[Acrana]] || 12 || – || 1762 
+|-
+|{{flagicon|Lydroa}} [[Lydroa]] || 11 || – || 1762 
+|-
+|{{flagicon|New Misos}} [[New Misos]] || 9 || – || 1762 
+|-
+|{{flagicon|Ztesh}} [[Ztesh]] || 7.3 || – || 1762 
+|-
+|{{flagicon|Sunsokua}} [[Sunsokua]] || 6.8 || – || 1762 
+|-
+|{{flagicon|Umendel}} [[Umendel]] || 5.2 || – || 1762 
+|-
+|{{flagicon|Ealdorii}} [[Ealdorii]] || 4.4 || – || 1762 
+|-
+|{{flagicon|Etirha}} [[Etirha]] 
+| 3.9 || – || 1762 
+|-
+|{{flagicon|Areoix Lie}} [[Areoix Lie]] 
+| 3.4 || – || 1762 
+|-
+|{{flagicon|Verusa}} [[Verusa]] || 3.1 || – || 1762 
+|-
+|{{flagicon|Migoku}} [[Migoku]] || 2.9 || – || 1762 
+|-
+|{{flagicon|Easuhura}} [[Easuhura]] || 2.8 || – || 1762 
+|-
+|{{flagicon|Ocaun}} [[Ocaun]] || 2.1 || – || 1762 
+|-
+|{{flagicon|Kaastini}} [[Kaastini]] || 1.5 || – || 1762 
+|-
+|{{flagicon|Dual Cenryia}} [[Dual Cenryia]] || 1.3 || – || 1762 
+|-
+|{{flagicon|Ashain}} [[Ashain]] || 1.3 || – || 1762 
+|-
+|{{flagicon|Far Lands}} [[Far Lands]] || 1.2 || – || 1762 
+|-
+|{{flagicon|Aplasia}} [[Aplasia]] || 1.1 || – || 1762 
+|-
+|{{flagicon|Danocia}} [[Danocia]] || 0.709 || – || 1762 
+|-
+|{{flagicon|Urbiqu}} [[Urbiqu]] || 0.481 || – || 1762 
+|-
+|{{flagicon|Desaki}} [[Desaki]] || 0.475 || – || 1762 
+|-
+|{{flagicon|Rethern}} [[Rethern]] || 0.354 || – || 1762 
+|-
+|{{flagicon|Viussi}} [[Viussi]] || 0.319 || – || 1762 
+|-
+|{{flagicon|Lycroa}} [[Lycroa]] 
+| 0.252 || – || 1762 
+|-
+|{{flagicon|Shinam}} [[Shinam]] || 0.029 || – || 1762 
+|-
+|}
+
+
+[[Category:Statistics]]
+== References ==
+{{reflist}}

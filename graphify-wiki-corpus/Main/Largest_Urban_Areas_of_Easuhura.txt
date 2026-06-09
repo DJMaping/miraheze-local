@@ -1,0 +1,40 @@
+{{Largest cities
+| name = Largest Urban Areas of the United Kingdom
+| country      = the United Kingdom
+| stat_ref     = (England and Wales: 2011 census built-up area;<ref name="BUA">{{cite web | url=http://www.nomisweb.co.uk/articles/747.aspx|title=2011 Census - Built-up areas| publisher=[[Office for National Statistics|ONS]] | access-date=1 July 2013}}</ref> Scotland: 2016 estimates settlement;<ref name="NRS">{{cite web|title=NRS – Background Information Settlements and Localities|url=https://www.nrscotland.gov.uk/files//geography/products/2012-setts-locals-back-info.pdf|website=National Records of Scotland|access-date=29 September 2020}}</ref> Northern Ireland: 2001 census urban area)<ref>[http://www.ons.gov.uk/ons/rel/fertility-analysis/focus-on-people-and-migration/december-2005/focus-on-people-and-migration---focus-on-people-and-migration---chapter-3.pdf The UK's major urban areas] Office for National Statistics (Urban area of Belfast and connected settlements, Table 3.1, page 47)</ref>
+| list_by_pop  = List of urban areas in the United Kingdom
+| class        = {{{class|}}}
+| div_name     = 
+| div_link     = List of urban areas in the United Kingdom{{!}}Urban area
+
+| city_1 = London | div_1 = Greater London Urban Area{{!}}Greater London | pop_1 = 9,787,426
+| city_2 = Manchester | div_2 = Greater Manchester Urban Area{{!}}Greater Manchester | pop_2 = 2,553,379 
+| city_3 = Birmingham | div_3 = West Midlands Urban Area{{!}}West Midlands | pop_3 = 2,440,986 
+| city_4 = Leeds | div_4 =West Yorkshire Urban Area{{!}}West Yorkshire | pop_4 = 1,777,934  
+| city_5 = Glasgow | div_5 = Greater Glasgow| pop_5 = 985,290 
+| city_6 = Liverpool | div_6 = Liverpool Urban Area{{!}}Liverpool | pop_6 = 864,122
+| city_7 = Southampton | div_7 = South Hampshire| pop_7 = 855,569 
+| city_8 = Newcastle upon Tyne{{!}}Newcastle upon Tyne | div_8 = Tyneside | pop_8 = 774,891
+| city_9 = Nottingham | div_9 = Nottingham Urban Area{{!}}Nottingham | pop_9 = 729,977
+| city_10 = Sheffield | div_10 = Sheffield Urban Area{{!}}Sheffield| pop_10 = 685,368
+| city_11 = Bristol | div_11 = Greater Bristol{{!}}Bristol | pop_11 = 617,280
+| city_12 = Edinburgh | div_12 = Edinburgh | pop_12 = 512,150 
+| city_13 = Leicester | div_13 = Leicester Urban Area{{!}}Leicester | pop_13 = 508,916
+| city_14 = Belfast | div_14 = Belfast | pop_14 = 483,418
+| city_15 = Brighton | div_15 = Brighton and Hove built-up area {{!}} Brighton & Hove | pop_15 = 474,485
+| city_16 = Bournemouth | div_16 = South East Dorset conurbation {{!}} South East Dorset | pop_16 = 466,266
+| city_17 = Cardiff | div_17 = Cardiff Urban Area {{!}} Cardiff| pop_17 = 390,214
+| city_18 = Middlesbrough| div_18 = Teesside| pop_18 = 376,633
+| city_19 = Stoke-on-Trent{{!}}Stoke-on-Trent | div_19 = Stoke-on-Trent Built-up Area {{!}}Stoke-on-Trent | pop_19 = 372,775
+| city_20 = Coventry | div_20 = Coventry built-up area {{!}} Coventry | pop_20 = 359,262
+
+}}<noinclude>
+
+==References==
+These will be included in the {{tlx|reflist}} of any article using this template.
+{{reflist|2}}
+{{World topic|prefix=Template:Largest cities of|noredlinks=y|title=Largest cities of countries templates}}
+
+[[Category:Largest cities of Europe templates|United Kingdom]]
+[[Category:United Kingdom city templates| ]]
+{{pp-template|small=yes}}</noinclude>

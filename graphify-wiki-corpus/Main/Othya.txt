@@ -1,0 +1,129 @@
+{{Infobox country
+| conventional_long_name = Republic of Othya
+| native_name            = ''__''  - Othyan<br>''__''  - Lastnu
+| image_flag             = Othya Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = OTH-yah
+| national_anthem        = /ˈɒθ.jɑː/
+| image_map              = Othya Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Othya (green)
+| capital                = [[Harlitak]]
+| largest_city           = [[Harlitak]]
+| official_languages     = Othyan<br>Lastnu
+| religion               = 50.3% [[Kelhari]]<br>43.2% [[Imarel]]<br>6.5% [[Religion in Othya|Others]]
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.oth/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Othya]] }}</ref>
+| demonym                = Othyan
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Othya
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence 
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Acbard Kingdom]]
+| established_date1      = 1295 AFA
+| established_event2     = [[Ksoko Kingdom]]
+| established_date2      = 1622 AFA
+| established_event3     = [[Easuhuran colony]]
+| established_date3      = 1650 AFA
+| established_event4     = [[Yaxutoan colony]]
+| established_date4      = 1682 AFA
+| established_event5     = [[Emaran colony]]
+| established_date5      = 1695 AFA
+| established_event6     = Independence 
+| established_date6      = 1710 AFA
+| area_rank              = 71st
+| area_km2               = 462,090
+| area_sq_mi             = 178,414
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 0.65
+| population_estimate    = {{increaseNeutral}}30,421,000<ref name="POP OTH">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.oth/List_of_countries_and_dependencies_by_population/Acrana|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 48th
+| population_estimate_year = 1765
+| population_density_km2 = 65.8
+| population_density_rank = 70th
+| GDP_PPP                = {{increase}} {{lahn}}127.017 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oth/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 83rd
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}4,175
+| GDP_PPP_per_capita_rank = 153rd
+| GDP_nominal            = {{increase}} {{lahn}}33.077 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oth/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 103rd
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}1,087
+| GDP_nominal_per_capita_rank = 154th
+| HDI_year               = 1765
+| HDI                    = 0.487
+| HDI_change             = increase
+| HDI_rank               = 163rd
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Duxim]] (_) (DUX)
+| time_zone              = STY +4 (Standard Othyan Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .oth
+| calling_code           = +947
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Othya]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/othya|title=World Population Prospects 1765: Othya|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Harlitak]] || 1,957,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.oth/ The Republic of Othya's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Othya] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/othya/ Othya]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

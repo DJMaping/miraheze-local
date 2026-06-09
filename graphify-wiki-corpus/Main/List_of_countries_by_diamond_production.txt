@@ -1,0 +1,64 @@
+{{short description|none}}
+This is a '''list of countries by [[wikipedia:diamond|diamond]] production''', based on data reported by the [[Global Trade Union].
+{{srn}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:right"
+|+List of countries by diamond production (1764)
+! rowspan="2" |Country
+! colspan="3" |Diamond production
+|- class="static-row-header"
+!Carats
+|-
+|{{flag|Far Lands}} || 37,322,794   
+|-
+|{{flag|Estijan}} || 28,181,710   
+|-
+|{{flag|Ealdorii}} || 14,027,003   
+|-
+|{{flag|Areoix Lie}} 
+| 13,321,628   
+|-
+|{{flag|Praesyu}} 
+| 9,788,202   
+|-
+|{{flag|Acrana}} || 5,340,219   
+|-
+|{{flag|Ukhdari}} || 5,293,329   
+|-
+|{{flag|Eldjo}} || 2,319,489   
+|-
+|{{flag|Ikzen}} || 695,888   
+|-
+|{{flag|Fermori}} || 573,983   
+|-
+|{{flag|Lydroa}} || 373,679   
+|-
+|{{flag|Siana}} || 332,790   
+|-
+|{{flag|Darewa}} || 113,379   
+|-
+|{{flag|Iareva}} || 111,377   
+|-
+|{{flag|Jathua}} || 51,922   
+|-
+|{{flag|Inania}} || 49,808   
+|-
+|{{flag|Tonder}} || 47,812   
+|-
+|{{flag|Deschon}} || 11,220   
+|-
+|{{flag|Iquir}} || 1,696   
+|-
+|{{flag|Zenashan}} || 913   
+|-
+|{{flag|Urbiqu}} || 868   
+|-
+|{{flag|Finae}} || 800   
+|-
+|{{flag|Dahe}} || 419   
+|-
+|}
+
+
+== References ==
+{{reflist}}
+[[Category:Statistics]]

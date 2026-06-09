@@ -1,0 +1,90 @@
+{{Infobox continent
+|title          = North Quia
+|image          = North Quia Globe.png
+|imagecaption   = Location of North Quia
+|area           = {{convert|4,638,211|km2|sqmi|abbr=on}}
+|population     = 600,317,860 (1765)
+|density        = {{convert|129.43|/km2|/sqmi|abbr=on}}
+|GDP_PPP        = {{lahn}}5.855 trillion
+|GDP_nominal    = {{lahn}}2.026 trillion
+|GDP_per_capita = {{lahn}}3,376
+|HDI            = 
+|ethnic_groups  = 
+|religions      = 
+|demonym        = North Quian
+|countries      = 7
+|list_countries = 
+|dependencies   = 1
+|unrecognized   = <!-- states not recognized by United nations -->
+|languages      = Most common:
+{{flatlist|
+* [[Aksalshai Language|Aksalshai]]
+* [[Anymnan Language|Anymnan]]
+* [[Dorimian Language|Dorimian]]
+* [[Sursian Language|Sursian]]
+* [[Yihnurdan Language|Yihnurdan]] 
+}}
+|time           = UTC -13 to -9
+|internet       = <!-- internet Top-level domain -->
+|calling_code   = 
+|cities         = Largest urban areas:
+{{flatlist|
+* [[Ashkik]]
+* [[Eserni]]
+* [[Mihkose]]
+* [[Nakos]]
+* [[Ratsom]]
+* [[Takhna]]
+* [[Teveme]]
+* [[Wiskot]]
+}}
+|m49            = <!-- UN M49 code -->
+|footnotes      = 
+}}
+
+'''North Quia''' is a sub-continent located in the southern hemisphere. It is bordered the [[South Quia]] and [[East Quia]] to the south, [[West Quia]] to the west, [[Etraien Sea]] to the north, and the [[Northern Eanif Ocean]] to the east. The continent covers around {{convert|4,638,211|km2|sqmi|abbr=on}} of land, making it the 13th largest sub-continent in the world, with a total of about 600,317,860 as of 1765, making it also the 4th largest sub-continent by population.
+
+==List of Nations==
+{| class="sortable wikitable"
+! style="line-height:95%; width:2em" class="unsortable" | Flag
+! Name
+! [[List of countries and dependencies by area|Area]]<br />(km<sup>2</sup>)
+! [[List of countries and dependencies by population|Population]]<br />
+! [[List of countries and dependencies by population density|Population<br />density]]<br />(per km<sup>2</sup>)
+! Capital
+|-
+| style="text-align:center;"| {{flagicon|Anymna}} || [[Anymna]] || style="text-align:right;" | 500,370 || style="text-align:right;" | 21,768,597 || style="text-align:right;" | 44 || [[Khureldai]]
+|-
+| style="text-align:center;"| {{flagicon|Baluyde}} || [[Baluyde]] || style="text-align:right;" | 15,195 || style="text-align:right;" | 1,638,021 || style="text-align:right;" | 108 || [[Kirotu]]
+|-
+| style="text-align:center;"| {{flagicon|Letan}} || [[Letan]] || style="text-align:right;" | 1,646 || style="text-align:right;" | 76,045 || style="text-align:right;" | 46 || [[Actilica]]
+|-
+| style="text-align:center;"| {{flagicon|Shomjind}} || [[Shomjind]] || style="text-align:right;" | 42,776 || style="text-align:right;" | 2,898,502 || style="text-align:right;" | 68 || [[City 1 (Arimoa)]]
+|-
+| style="text-align:center;"| {{flagicon|Wundry}} || [[Wundry]] || style="text-align:right;" | 509,719 || style="text-align:right;" | 140,080,976 || style="text-align:right;" | 275 || [[Teveme]]
+|-
+| style="text-align:center;"| {{flagicon|Yihnurda}} || [[Yihnurda]] || style="text-align:right;" | 1,886,209 || style="text-align:right;" | 8,714,286 || style="text-align:right;" | 5 || [[Parloth]]
+|-
+| style="text-align:center;"| {{flagicon|Ztesh}} || [[Ztesh]] || style="text-align:right;" | 1,682,296 || style="text-align:right;" | 425,141,434 || style="text-align:right;" | 253 || [[Nakos]]
+|-
+
+|- class="sortbottom" style="font-weight:bold;"
+| style="text-align:right;"| Total
+| style="text-align:right;"| 7
+| style="text-align:right;"| 4,638,211
+| style="text-align:right;"| 600,317,860
+| style="text-align:right;"| 130
+|}
+==References==
+{{reflist}}
+
+[[Category:Geoscheme]]
+[[Category:Infobox templates| ]]
+[[Category:Lua-based templates]]
+[[Category:Place infobox templates|Continent]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]

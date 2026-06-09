@@ -1,0 +1,135 @@
+{{Infobox country
+| conventional_long_name = Republic of Sadain
+| native_name            = ''__''  - Sadainite
+| image_flag             = Sadain Flag.png
+| image_coat             = 
+| symbol_type            = 
+| national_motto         = sah-DAYN
+| national_anthem        = /ˈsɑː.deɪn/
+| image_map              = Sadain Globe.png
+| image_map_size         = 300px
+| image_map2_size        = 300px
+| map_caption            = Location of Sadain (green)
+| capital                = [[Sivona]]
+| largest_city           = [[Sivona]]
+| official_languages     = Sadainite
+| regional_languages     = [[Sunsokua|Sunsokuan]]<br>[[Vayvele|Vayvelean]]
+| ethnic_groups          = 58.4% Sadainite<br>22.5% [[Sunsokua|Sunsokuan]]<br>13.8% [[Vayvele|Vayvelean]]<br>5.3% [[Religion in Sadain|Others]]
+| ethnic_groups_year     = 1765
+| ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.sad/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Sadain]] }}</ref>
+| religion               = 59.2% [[Passanu]]<br>18.1% [[Imarel]]<br>18.2% [[wikipedia:Irreligion|Irreligion]]<br>4.5% Others
+| religion_year          = 1765
+| religion_ref           = <ref>{{cite web|url=https://www.gov.sad/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Sadain]] }}</ref>
+| demonym                = Sadainite
+| government_type        = Unitary parliamentary republic
+| leader_title1          = High Minister
+| leader_name1           = N/a
+| leader_title2          = Low Minister
+| leader_name2           = N/a
+| legislature            = Union of Sadain
+| upper_house            = Lainar of the People
+| lower_house            = National Assembly
+| sovereignty_type       = Independence
+| sovereignty_note       = from [[Emara]]
+| established            = 
+| established_event1     = [[Sadain Kingdom]]
+| established_date1      = 901 AFA
+| established_event2     = [[Emaran Colony]]
+| established_date2      = 1633 AFA
+| established_event3     = [[Kuwanan Ralichi]]
+| established_date3      = 1667 AFA
+| established_event4     = [[Treaty of Freedom]]
+| established_date4      = 1695 AFA
+| established_event5     = 
+| established_date5      = 
+| established_event6     = 
+| established_date6      = 
+| area_rank              = 130th
+| area_km2               = 111,241
+| area_sq_mi             = 42,950
+| area_footnote          = <!--Optional footnote for area-->
+| percent_water          = 1.60
+| population_estimate    = {{increaseNeutral}}18,288,000<ref name="POP SAD">{{Cite web |title=World Population Prospects  |url=https://WorldDataUnion.sad/List_of_countries_and_dependencies_by_population/Sadain|website=Population Division – World Data Union }} Retrieved 1765.</ref>
+| population_estimate_rank = 71st
+| population_estimate_year = 1765
+| population_density_km2 = 164.4
+| population_density_rank = 22nd
+| GDP_PPP                = {{increase}} {{lahn}}289.420 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sad/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_rank           = 53rd
+| GDP_PPP_year           = 1765
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}15,825
+| GDP_PPP_per_capita_rank = 72nd
+| GDP_nominal            = {{increase}} {{lahn}}137.166 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sad/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal_rank       = 54th
+| GDP_nominal_year       = 1765
+| GDP_nominal_per_capita = {{increase}} {{lahn}}7,500
+| GDP_nominal_per_capita_rank = 75th
+| HDI_year               = 1765
+| HDI                    = 0.880
+| HDI_change             = increase
+| HDI_rank               = 40th
+| HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
+| currency               = [[Anfl]] (_) (ANF)
+| time_zone              = SEA +6 (Standard Sadainite Time)
+| date_format            = dd/mm/yyyy
+| drives_on              = left
+| cctld                  = .sad
+| calling_code           = +909
+}}
+
+== History ==
+
+== Geography ==
+
+== Government Structure and Politics ==
+
+== Economy ==
+
+== Demographics ==
+
+== Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Sadain]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/sadain|title=World Population Prospects 1765: Sadain|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Takolo]] || 4,006,000
+|-
+| 2 || [[Sivona]] || 1,599,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
+== References ==
+{{reflist}}
+
+=== Government ===
+* [http://www.gov.sad/ The Republic of Sadain's official government website]
+
+=== General information ===
+* [https://www.bbc.co.uk/news/andah-massir-13017877 Country profile – Sadain] at [[BBC News Andah]]
+* [https://www.cia.gov/the-world-factbook/countries/andah/sadain/ Sadain]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
+
+=== Maps ===
+
+[[Category:All country data templates|Germany]]
+[[Category:Countries]]
+[[Category:Country data templates of Germany| ]]
+[[Category:Country data templates of countries|Germany]]
+[[Category:Country data templates with documentation subpage|Germany]]
+[[Category:Country infobox templates| ]]
+[[Category:Infobox templates]]
+[[Category:Lua-based templates]]
+[[Category:Pages using duplicate arguments in template calls]]
+[[Category:Pages using gadget WikiMiniAtlas]]
+[[Category:Pages with script errors]]
+[[Category:Pages with template loops]]
+[[Category:Sidebars with styles needing conversion]]
+[[Category:Template documentation pages|Infobox country/doc]]
+[[Category:Templates based on the Infobox Lua module]]
+[[Category:Templates generating hCards]]
+[[Category:Templates generating microformats]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using TemplateData]]
+[[Category:Wikipedia metatemplates|Infobox]]
