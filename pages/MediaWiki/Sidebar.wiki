@@ -1,0 +1,11 @@
+* navigation
+** mainpage|mainpage-description
+** Special:Random|Random article
+** Special:RecentChanges|Recent changes
+** Special:Statistics|About Andah
+** Special:NewPages|New pages
+* Contribute
+** Help:Contents|Help
+** Project:Community portal|Community portal
+** Special:Upload|Upload file
+** Special:SpecialPages|Special pages

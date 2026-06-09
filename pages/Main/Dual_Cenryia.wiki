@@ -96,6 +96,34 @@ Dual Cenryia is a regional power in [[Mahea]] and a [[wikipedia:Middle_power|mid
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Dual Cenryia]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/dual-cenryia|title=World Population Prospects 1765: Dual Cenryia|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Vrandig]] || 11,642,000 || 11 || [[Faskel]] || 1,035,000
+|-
+| 2 || [[Panstel]] || 6,990,000 ||  || || 
+|-
+| 3 || [[Stravik]] || 4,740,000 ||  || || 
+|-
+| 4 || [[Krunka]] || 3,058,000 ||  || || 
+|-
+| 5 || [[Hovrith]] || 2,662,000 ||  || || 
+|-
+| 6 || [[Pardesh]] || 2,329,000 ||  || || 
+|-
+| 7 || [[Grimsa]] || 1,638,000 ||  || || 
+|-
+| 8 || [[Klemerda]] || 1,477,000 ||  || || 
+|-
+| 9 || [[Jastinor]] || 1,087,000 ||  || || 
+|-
+| 10 || [[Zalmar]] || 1,036,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

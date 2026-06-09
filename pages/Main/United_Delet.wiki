@@ -89,6 +89,34 @@ Delet is a [[wikipedia:Middle_power|regional and middle power]] and a rising glo
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[United Delet]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/united-delet|title=World Population Prospects 1765: United Delet|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Mantraal]] || 19,980,000 || 11 || [[Solekhan]] || 1,139,000
+|-
+| 2 || [[Heslian]] || 6,880,000 || 12 || [[Tivara]] || 1,131,000
+|-
+| 3 || [[Narvila]] || 4,193,000 ||  || || 
+|-
+| 4 || [[Roviri]] || 2,477,000 ||  || || 
+|-
+| 5 || [[Firanza]] || 2,403,000 ||  || || 
+|-
+| 6 || [[Torivis]] || 2,038,000 ||  || || 
+|-
+| 7 || [[Lurimah]] || 1,743,000 ||  || || 
+|-
+| 8 || [[Zadira]] || 1,251,000 ||  || || 
+|-
+| 9 || [[Ravohni]] || 1,198,000 ||  || || 
+|-
+| 10 || [[Talanvi]] || 1,155,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -80,6 +80,16 @@ Darewa is a [[wikipedia:Semi-presidential_republic|semi-presidential republic]] 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Darewa]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/darewa|title=World Population Prospects 1765: Darewa|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Shamarin]] || 2,569,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

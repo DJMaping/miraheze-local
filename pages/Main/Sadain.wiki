@@ -89,6 +89,18 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Sadain]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/sadain|title=World Population Prospects 1765: Sadain|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Takolo]] || 4,006,000
+|-
+| 2 || [[Sivona]] || 1,599,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

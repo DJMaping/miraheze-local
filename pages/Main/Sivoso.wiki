@@ -87,6 +87,18 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Sivoso]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/sivoso|title=World Population Prospects 1765: Sivoso|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Jirakai]] || 1,499,000
+|-
+| 2 || [[Amrata]] || 1,448,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

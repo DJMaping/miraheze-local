@@ -101,6 +101,34 @@ Emara retains its centuries-long status as a global centre of [[wikipedia:Art|ar
 == Culture and Society ==
 
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Emara]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/emara|title=World Population Prospects 1765: Emara|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Rivostan]] || 14,967,000 || 11 || [[Lashirov]] || 1,060,000
+|-
+| 2 || [[Khalzhun]] || 7,320,000 ||  || || 
+|-
+| 3 || [[Shaikuv]] || 4,565,000 ||  || || 
+|-
+| 4 || [[Yilovka]] || 3,115,000 ||  || || 
+|-
+| 5 || [[Borzhai]] || 3,078,000 ||  || || 
+|-
+| 6 || [[Tirzovik]] || 2,913,000 ||  || || 
+|-
+| 7 || [[Chishanov]] || 2,721,000 ||  || || 
+|-
+| 8 || [[Baxian]] || 2,050,000 ||  || || 
+|-
+| 9 || [[Alubri City]] || 1,891,000 ||  || || 
+|-
+| 10 || [[Zhrunbei]] || 1,276,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

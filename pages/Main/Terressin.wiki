@@ -82,6 +82,22 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Terressin]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/terressin|title=World Population Prospects 1765: Terressin|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Canelu]] || 9,130,000
+|-
+| 2 || [[Velloro]] || 5,090,000
+|-
+| 3 || [[Kauhuo]] || 1,621,000
+|-
+| 4 || [[Fanitia]] || 1,149,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

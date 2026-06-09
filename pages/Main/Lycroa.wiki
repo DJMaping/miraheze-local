@@ -99,6 +99,30 @@ Lycroa is a [[Wikipedia:Developed_country |developed country]] with a strong eco
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Lycroa]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/lycroa|title=World Population Prospects 1765: Lycroa|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Jungui]] || 9,990,000
+|-
+| 2 || [[Liambra]] || 3,627,000
+|-
+| 3 || [[Sompai]] || 2,358,000
+|-
+| 4 || [[Tianco]] || 1,599,000
+|-
+| 5 || [[Zaringao]] || 1,243,000
+|-
+| 6 || [[Huetun]] || 1,168,000
+|-
+| 7 || [[Rimao]] || 1,134,000
+|-
+| 8 || [[Sorvaya]] || 1,121,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

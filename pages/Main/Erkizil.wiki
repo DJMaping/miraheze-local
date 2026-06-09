@@ -106,6 +106,34 @@ Erkizil has been a [[wikipedia:Unitary_state|unitary republic]] since 1765, gove
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Erkizil]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/erkizil|title=World Population Prospects 1765: Erkizil|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Tiraqsi]] || 16,896,000 || 11 || [[Lorasak]] || 1,002,000
+|-
+| 2 || [[Erosan]] || 4,355,000 ||  || || 
+|-
+| 3 || [[Vellikar]] || 3,526,000 ||  || || 
+|-
+| 4 || [[Cairiso]] || 3,421,000 ||  || || 
+|-
+| 5 || [[Iktavi]] || 2,791,000 ||  || || 
+|-
+| 6 || [[Washashi]] || 1,822,000 ||  || || 
+|-
+| 7 || [[Koyah]] || 1,474,000 ||  || || 
+|-
+| 8 || [[Tsalaka]] || 1,470,000 ||  || || 
+|-
+| 9 || [[Tuhli]] || 1,169,000 ||  || || 
+|-
+| 10 || [[Nuhtalu]] || 1,122,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

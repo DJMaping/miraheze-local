@@ -106,6 +106,28 @@ Owing to record dictatorship from 1700 to 1725, Hkuqo is a [[Wikipedia:Developin
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Hkuqo]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/hkuqo|title=World Population Prospects 1765: Hkuqo|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Tanshiva]] || 4,030,000
+|-
+| 2 || [[Dhamasol]] || 1,801,000
+|-
+| 3 || [[Vindasira]] || 1,477,000
+|-
+| 4 || [[Zurlan]] || 1,119,000
+|-
+| 5 || [[Chitralna]] || 1,114,000
+|-
+| 6 || [[Lunavati]] || 1,110,000
+|-
+| 7 || [[Rajalindo]] || 1,002,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

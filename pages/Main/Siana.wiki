@@ -96,6 +96,22 @@ Siana has been a [[Wikipedia:Parliamentary_republic|parliamentary republic]] wit
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Siana]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/siana|title=World Population Prospects 1765: Siana|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Wadika]] || 5,110,000
+|-
+| 2 || [[Zothra]] || 3,306,000
+|-
+| 3 || [[Mangiwa]] || 1,803,000
+|-
+| 4 || [[Tungkam]] || 1,195,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

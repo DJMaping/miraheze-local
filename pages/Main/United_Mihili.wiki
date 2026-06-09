@@ -82,6 +82,20 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[United Mihili]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/united-mihili|title=World Population Prospects 1765: United Mihili|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Bristel]] || 3,608,000
+|-
+| 2 || [[Velkura]] || 1,190,000
+|-
+| 3 || [[Nalvin]] || 1,082,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

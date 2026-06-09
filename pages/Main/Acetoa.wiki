@@ -87,6 +87,20 @@ The Acetoan economy is defined by a nominal GDP of {{Lahn}}93 billion, [[List of
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Acetoa]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/acetoa|title=World Population Prospects 1765: Acetoa|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Tahuato]] || 1,284,000
+|-
+| 2 || [[Yezhito]] || 1,157,000
+|-
+| 3 || [[Aruhala]] || 1,083,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

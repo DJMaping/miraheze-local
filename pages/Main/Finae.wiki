@@ -108,6 +108,20 @@ Currently, Finae is recognised as a [[wikipedia:Developing_country|developing co
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Finae]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/finae|title=World Population Prospects 1765: Finae|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Mankat]] || 3,246,000
+|-
+| 2 || [[Hisara]] || 2,240,000
+|-
+| 3 || [[Kailan]] || 1,218,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

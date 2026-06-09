@@ -95,6 +95,20 @@ Deschon is mountainous in the south and densely forested elsewhere, where [[Moun
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Deschon]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/deschon|title=World Population Prospects 1765: Deschon|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Obelinti]] || 3,688,000
+|-
+| 2 || [[Ulamsik]] || 2,640,000
+|-
+| 3 || [[Hunakwe]] || 2,505,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -93,6 +93,34 @@ A [[Wikipedia:Developed_country|developed country]], Raledria ranks high in econ
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Raledria]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/raledria|title=World Population Prospects 1765: Raledria|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Tirna-Rovik]] || 19,378,000 || 11 || [[Dhalpavishka]] || 2,092,000
+|-
+| 2 || [[Zunle]] || 12,488,000 || 12 || [[Pikvor]] || 1,906,000
+|-
+| 3 || [[Tavik]] || 9,480,000 || 13 || [[Yaltra]] || 1,756,000
+|-
+| 4 || [[Pekrin-Vavlen]] || 8,210,000 || 14 || [[Zhoshi]] || 1,629,000
+|-
+| 5 || [[Tirna]] || 5,880,000 || 15 || [[Bodhar]] || 1,528,000
+|-
+| 6 || [[Birska]] || 5,070,000 || 16 || [[Tsamir]] || 1,236,000
+|-
+| 7 || [[Fryokar]] || 4,937,000 || 17 || [[Druvka]] || 1,231,000
+|-
+| 8 || [[Nirun]] || 3,027,000 || 18 || [[Lijar]] || 1,199,000
+|-
+| 9 || [[Komiros]] || 2,869,000 || 19 || [[Gorchi]] || 1,178,000
+|-
+| 10 || [[Vadja]] || 2,487,000 || 20 || [[Pusko]] || 1,110,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

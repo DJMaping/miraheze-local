@@ -95,6 +95,18 @@ Galca has [[wikipedia:Coastal_plain|coastal plains]], a high central plateau in 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Galca]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/galca|title=World Population Prospects 1765: Galca|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Altepso]] || 1,121,000
+|-
+| 2 || [[Dherkiv]] || 1,020,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

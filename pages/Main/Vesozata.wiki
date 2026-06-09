@@ -86,6 +86,34 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Vesozata]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/vesozata|title=World Population Prospects 1765: Vesozata|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Korvani]] || 10,389,000 || 11 || [[Zarufeli]] || 1,223,000
+|-
+| 2 || [[Shatiruk]] || 8,000,000 || 12 || [[Vahira]] || 1,130,000
+|-
+| 3 || [[Muvkora]] || 4,946,000 || 13 || [[Lufiro]] || 1,087,000
+|-
+| 4 || [[Mararo]] || 4,261,000 || 14 || [[Sakali]] || 1,058,000
+|-
+| 5 || [[Dilambo]] || 3,826,000 || 15 || [[Kandula]] || 1,045,000
+|-
+| 6 || [[Zavakara]] || 3,096,000 ||  || || 
+|-
+| 7 || [[Lijola]] || 2,390,000 ||  || || 
+|-
+| 8 || [[Mvangiro]] || 1,632,000 ||  || || 
+|-
+| 9 || [[Vaturiko]] || 1,560,000 ||  || || 
+|-
+| 10 || [[Malinkai]] || 1,537,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

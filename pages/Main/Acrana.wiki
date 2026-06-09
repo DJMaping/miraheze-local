@@ -105,6 +105,18 @@ Acrana supported the once de facto independent [[Republic of Eiuwa]], which had 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Acrana]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/acrana|title=World Population Prospects 1765: Acrana|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Samaru]] || 1,072,000
+|-
+| 2 || [[Borezu]] || 1,027,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

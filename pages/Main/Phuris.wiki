@@ -83,6 +83,22 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Phuris]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/phuris|title=World Population Prospects 1765: Phuris|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[City of Dauris]] || 5,240,000
+|-
+| 2 || [[Tamira]] || 4,581,000
+|-
+| 3 || [[Sakraza]] || 1,819,000
+|-
+| 4 || [[Raldino]] || 1,388,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

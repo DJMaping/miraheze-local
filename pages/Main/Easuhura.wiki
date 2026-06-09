@@ -128,6 +128,28 @@ The [[Easuhuran language]] is the official and most widely spoken language in Ea
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Easuhura]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/easuhura|title=World Population Prospects 1765: Easuhura|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Tanbai]] || 9,360,000
+|-
+| 2 || [[Chayek]] || 2,771,000
+|-
+| 3 || [[Phalanij]] || 1,568,000
+|-
+| 4 || [[Khessli]] || 1,256,000
+|-
+| 5 || [[Paviri]] || 1,161,000
+|-
+| 6 || [[Boklan]] || 1,128,000
+|-
+| 7 || [[Bokayek]] || 1,041,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

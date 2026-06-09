@@ -90,6 +90,24 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Vayvele]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/vayvele|title=World Population Prospects 1765: Vayvele|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Kaisri]] || 12,020,000
+|-
+| 2 || [[Vardak]] || 1,191,000
+|-
+| 3 || [[Zanovik]] || 1,173,000
+|-
+| 4 || [[Kijora]] || 1,155,000
+|-
+| 5 || [[Beskun]] || 1,082,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

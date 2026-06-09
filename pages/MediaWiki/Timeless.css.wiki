@@ -1,1 +1,9 @@
 /* All CSS here will be loaded for users of the Timeless skin */
+
+/* Make the whole header color bar a single blue (incl. the left section,
+   which is red by default). #36c matches the middle/right already set. */
+.color-left,
+.color-right,
+.color-middle {
+    background: #36c !important;
+}

@@ -96,6 +96,26 @@ Verusa is a [[developed country]] with a strong economy; it has the [[List of co
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Verusa]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/verusa|title=World Population Prospects 1765: Verusa|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Huifarn]] || 5,080,000
+|-
+| 2 || [[Jentori]] || 4,019,000
+|-
+| 3 || [[Valkirseh]] || 1,445,000
+|-
+| 4 || [[Foulang]] || 1,068,000
+|-
+| 5 || [[Gulshen]] || 1,040,000
+|-
+| 6 || [[Walfrei]] || 1,008,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -102,6 +102,34 @@ Verste is considered both a regional and a [[wikipedia:Middle_power|middle power
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Verste]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/verste|title=World Population Prospects 1765: Verste|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Ralut]] || 7,650,000
+|-
+| 2 || [[Minoan]] || 4,497,000
+|-
+| 3 || [[Ovetta]] || 3,587,000
+|-
+| 4 || [[Gavriko]] || 2,799,000
+|-
+| 5 || [[Viralna]] || 2,528,000
+|-
+| 6 || [[Mendri]] || 2,330,000
+|-
+| 7 || [[Sutrah]] || 1,597,000
+|-
+| 8 || [[Fenkai]] || 1,407,000
+|-
+| 9 || [[Kaimlo]] || 1,283,000
+|-
+| 10 || [[Zalar]] || 1,233,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

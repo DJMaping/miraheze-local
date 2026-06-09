@@ -90,6 +90,34 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Wundry]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/wundry|title=World Population Prospects 1765: Wundry|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Eserni]] || 8,880,000 || 11 || [[Enorva]] || 1,036,000
+|-
+| 2 || [[Teveme]] || 6,650,000 || 12 || [[Lenera]] || 1,024,000
+|-
+| 3 || [[Reeveta]] || 2,721,000 ||  || || 
+|-
+| 4 || [[Meenor]] || 2,140,000 ||  || || 
+|-
+| 5 || [[Eteska]] || 1,818,000 ||  || || 
+|-
+| 6 || [[Reevon]] || 1,736,000 ||  || || 
+|-
+| 7 || [[Vereen]] || 1,686,000 ||  || || 
+|-
+| 8 || [[Seevera]] || 1,680,000 ||  || || 
+|-
+| 9 || [[Keeter]] || 1,319,000 ||  || || 
+|-
+| 10 || [[Teeneval]] || 1,081,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

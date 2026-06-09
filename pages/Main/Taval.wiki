@@ -100,6 +100,34 @@ Having achieved [[wikipedia:Economic_growth|record economic growth]] from 1700 t
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Taval]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/taval|title=World Population Prospects 1765: Taval|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Tamalpura]] || 5,320,000
+|-
+| 2 || [[Suraspa]] || 3,652,000
+|-
+| 3 || [[Palnoro]] || 2,279,000
+|-
+| 4 || [[Luzparan]] || 1,729,000
+|-
+| 5 || [[Caminastra]] || 1,635,000
+|-
+| 6 || [[Vesnadi]] || 1,614,000
+|-
+| 7 || [[Vidadesh]] || 1,554,000
+|-
+| 8 || [[Chavindora]] || 1,243,000
+|-
+| 9 || [[Tanshivar]] || 1,174,000
+|-
+| 10 || [[Bhanquillo]] || 1,173,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

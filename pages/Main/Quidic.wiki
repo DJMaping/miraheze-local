@@ -90,6 +90,34 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Quidic]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/quidic|title=World Population Prospects 1765: Quidic|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Talvani]] || 19,281,000 || 11 || [[Viltira]] || 1,171,000
+|-
+| 2 || [[Mikori]] || 6,100,000 ||  || || 
+|-
+| 3 || [[Oshkari]] || 2,080,000 ||  || || 
+|-
+| 4 || [[Kivalin]] || 2,021,000 ||  || || 
+|-
+| 5 || [[Nihara]] || 1,968,000 ||  || || 
+|-
+| 6 || [[Kavato]] || 1,681,000 ||  || || 
+|-
+| 7 || [[Rikotha]] || 1,542,000 ||  || || 
+|-
+| 8 || [[Likorin]] || 1,497,000 ||  || || 
+|-
+| 9 || [[Zekrah]] || 1,358,000 ||  || || 
+|-
+| 10 || [[Dunora]] || 1,182,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

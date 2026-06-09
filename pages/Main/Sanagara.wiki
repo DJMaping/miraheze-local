@@ -99,6 +99,24 @@ Sanagara maintains a [[Dahe-Sanagara relations|strong diplomatic and economic re
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Sanagara]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/sanagara|title=World Population Prospects 1765: Sanagara|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Koyaya]] || 8,320,000
+|-
+| 2 || [[Rathghat]] || 1,818,000
+|-
+| 3 || [[Shasweli]] || 1,708,000
+|-
+| 4 || [[Waktala]] || 1,370,000
+|-
+| 5 || [[Bintarha]] || 1,126,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

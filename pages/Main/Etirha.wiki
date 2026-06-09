@@ -88,6 +88,34 @@ A developed country, Etirha has a high [[List of countries by GDP (nominal) per 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Etirha]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/etirha|title=World Population Prospects 1765: Etirha|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Albiran]] || 10,119,000 || 11 || [[Korvona]] || 1,243,000
+|-
+| 2 || [[Lunru]] || 8,770,000 || 12 || [[Nalvoku]] || 1,225,000
+|-
+| 3 || [[Kavlira]] || 4,220,000 || 13 || [[Shernuka]] || 1,223,000
+|-
+| 4 || [[Shinori]] || 3,950,000 ||  || || 
+|-
+| 5 || [[Turkhian]] || 3,681,000 ||  || || 
+|-
+| 6 || [[Zhetren]] || 2,359,000 ||  || || 
+|-
+| 7 || [[Mulkhan]] || 2,207,000 ||  || || 
+|-
+| 8 || [[Dazkar]] || 1,990,000 ||  || || 
+|-
+| 9 || [[Yeklan]] || 1,647,000 ||  || || 
+|-
+| 10 || [[Mushka]] || 1,563,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

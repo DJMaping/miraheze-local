@@ -95,6 +95,34 @@ Pelugrotoa is a [[Wikipedia:Great_power|Major power]] in global affairs and a fo
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Pelugrotoa]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/pelugrotoa|title=World Population Prospects 1765: Pelugrotoa|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Havok]] || 22,650,000 || 11 || [[Kalvor]] || 3,117,000
+|-
+| 2 || [[Thavrin]] || 14,838,000 || 12 || [[Veshro]] || 2,797,000
+|-
+| 3 || [[Veshtak]] || 9,500,000 || 13 || [[Tairim]] || 2,050,000
+|-
+| 4 || [[Zilvak]] || 7,540,000 || 14 || [[Sileth]] || 1,990,000
+|-
+| 5 || [[Pothin]] || 5,430,000 || 15 || [[Jalinth]] || 1,920,000
+|-
+| 6 || [[Khamri]] || 4,908,000 || 16 || [[Tarnokh]] || 1,812,000
+|-
+| 7 || [[Beylok]] || 4,746,000 || 17 || [[Trelmar]] || 1,427,000
+|-
+| 8 || [[Velkhor]] || 4,506,000 || 18 || [[Rivik]] || 1,203,000
+|-
+| 9 || [[Mirek]] || 3,916,000 || 19 || [[Sarnin]] || 1,196,000
+|-
+| 10 || [[Balsor]] || 3,409,000 || 20 || [[Olkar]] || 1,185,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -98,6 +98,18 @@ Haiza's economy is the largest in [[North Massir]], with [[Tijhara]] serving as 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Haiza]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/haiza|title=World Population Prospects 1765: Haiza|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Chavira]] || 1,223,000
+|-
+| 2 || [[Tijhara]] || 1,215,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

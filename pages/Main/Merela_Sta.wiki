@@ -91,6 +91,20 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Merela Sta]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/merela-sta|title=World Population Prospects 1765: Merela Sta|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Talung]] || 1,686,000
+|-
+| 2 || [[Lungkai]] || 1,160,000
+|-
+| 3 || [[Ser]] || 1,133,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

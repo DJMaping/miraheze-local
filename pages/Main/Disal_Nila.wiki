@@ -92,6 +92,18 @@ It is a developed country with a [[List of countries by Krali Total Development 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Disal Nila]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/disal-nila|title=World Population Prospects 1765: Disal Nila|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Naliti]] || 1,181,000
+|-
+| 2 || [[Mbeke]] || 1,170,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

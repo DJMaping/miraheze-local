@@ -122,6 +122,20 @@ From the early 1710s, Chaenia saw rapid [[wikipedia:Economic_growth|economic gro
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Chaenia]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/chaenia|title=World Population Prospects 1765: Chaenia|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Tibokan]] || 1,868,000
+|-
+| 2 || [[Lutur]] || 1,262,000
+|-
+| 3 || [[Munela]] || 1,073,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

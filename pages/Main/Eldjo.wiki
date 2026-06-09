@@ -92,9 +92,9 @@
 
 Eldjo is a [[wikipedia:federal|republic]] composed of 14 provinces, with [[Shorakim]] serving as the federal capital city and the seat of the national government. The country encompasses four principal linguistic and cultural regions—[[Eldjan language|Eldjan]], [[Lycroan language|Lycroan]], [[Fravala language|Fravala]], and [[Hadan language|Hadan]]—reflecting a long-standing tradition of [[wikipedia:Multilingualism|multilingualism]] and cultural pluralism. Eldjan's national identity nonetheless remains fairly cohesive, rooted in a shared historical background, common values such as federalism and direct democracy. Eldjan nationhood transcends language, ethnicity, and religion.
 
-Eldjo originates from the [[Kingdom of Paher]], established in the Late Middle Ages as a defensive and commercial alliance; the [[Kingdom of Iceten]] formation in 1220 is considered the country's founding. The Kingdom had influence over the semi-autonomous areas within the [[Lycroan Kingdom]]. Eldjan's independence from the Lycroan Crown was formally recognised in 1504, creating the unified [[Kingdom of Eldjo]] in 1504. The confederation was among the first and few republics of the early modern period. Eldjo remained a network of [[self-governing provinces]] until 1534, when [[Seniaai Empire|Seniaai]] invaded and annexed the nation. Following the [[Seniaaii wars]], Eldjo became the [[Confederation of Eldjo]], officially abolishing the monarchy, but by 1593 faced growing division and conflict between liberal and conservative movements; this culminated in a new constitution in 1602 that established the current federal system and enshrined principles such as [[wikipedia:Individual_and_group_rights|individual rights]], separation of powers, and [[wikipedia:Bicameralism|parliamentary bicameralism]].
+Eldjo originates from the [[Kingdom of Paher]], established in the Late Middle Ages as a defensive and commercial alliance; the formation of the [[Kingdom of Iceten]] in 1220 is considered the country's founding. The Kingdom had influence over the semi-autonomous areas within the [[Lycroan Kingdom]]. Eldjan's independence from the Lycroan Crown was formally recognized in 1504, creating the unified [[Kingdom of Eldjo]] in 1504. The confederation was among the first and few republics of the early modern period. Eldjo remained a network of [[self-governing provinces]] until 1534, when [[Seniaai Empire|Seniaai]] invaded and annexed the nation. Following the [[Seniaaii wars]], Eldjo became the [[Confederation of Eldjo]], officially abolishing the monarchy, but by 1593 faced growing division and conflict between liberal and conservative movements; this culminated in a new constitution in 1602 that established the current federal system and enshrined principles such as [[wikipedia:Individual_and_group_rights|individual rights]], separation of powers, and [[wikipedia:Bicameralism|parliamentary bicameralism]].
 
-Eldjo has maintained a policy of armed neutrality since the 16th, though invaded in the [[Red War,]] Eldjo never surrounded, leading its famous [[wikipedia:Guerrilla_warfare|guerrilla campaign]] against the [[Lycroan Union|Lycroans]]. Eldjo is the birthplace of the [[CEE]] and hosts the headquarters of many [[Ayuman organisations]]. Eldjo is a very developed country, with the [[List of countries by GDP (PPP) per capita|26th highest gross domestic product]] (PPP) per capita. It performs highly on several international metrics, including economic competitiveness, democratic governance, and [[wikipedia:Freedom_of_the_press|press freedom]]. Eldjo has a longstanding advanced pharmaceutical and [[wikipedia:Biotechnology|biotechnology]] industry, and a strong tradition of [[wikipedia:Glassblowing|glassblowing]]. It is known for its [[wikipedia:Bread|breads]] and alcohol production, well-developed [[wikipedia:Tourism|tourism industry]], and growing startup sector. 
+Eldjo has maintained a policy of armed neutrality since the 16th century, though invaded in the [[Red War,]] Eldjo never surrendered, leading its famous [[wikipedia:Guerrilla_warfare|guerrilla campaign]] against the [[Lycroan Union|Lycroans]]. Eldjo is the birthplace of the [[CEE]] and hosts the headquarters of many [[Ayuman organizations]]. Eldjo is a highly developed country, with the [[List of countries by GDP (PPP) per capita| 26th-highest gross domestic product]] (PPP) per capita. It performs highly on several international metrics, including economic competitiveness, democratic governance, and [[wikipedia:Freedom_of_the_press|press freedom]]. Eldjo has a longstanding advanced pharmaceutical and [[wikipedia:Biotechnology|biotechnology]] industry, and a strong tradition of [[wikipedia:Glassblowing|glassblowing]]. It is known for its [[wikipedia:Bread|breads]] and alcohol production, well-developed [[wikipedia:Tourism|tourism industry]], and growing startup sector. 
 
 == History ==
 
@@ -107,6 +107,16 @@ Eldjo has maintained a policy of armed neutrality since the 16th, though invaded
 == Demographics ==
 
 == Culture and Society ==
+
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Eldjo]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/eldjo|title=World Population Prospects 1765: Eldjo|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Shorakim]] || 1,254,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
 
 == References ==
 {{reflist}}

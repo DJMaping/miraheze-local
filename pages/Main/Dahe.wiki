@@ -210,6 +210,34 @@ At the [[10th National Assembly of Dahe|10th National Assembly]] in 1753, [[Opaq
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Dahe]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/dahe|title=World Population Prospects 1765: Dahe|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Fekhalai]] || 42,488,000 || 11 || [[Tshenuza]] || 7,430,000
+|-
+| 2 || [[Bhaliloi]] || 20,076,000 || 12 || [[Vumbeko]] || 6,770,000
+|-
+| 3 || [[Fekunza]] || 15,400,000 || 13 || [[Zhulenga]] || 6,210,000
+|-
+| 4 || [[Xuqilin]] || 13,463,000 || 14 || [[Hanyalzo]] || 5,540,000
+|-
+| 5 || [[Shinlotha]] || 13,042,000 || 15 || [[Wekhalu]] || 5,100,000
+|-
+| 6 || [[Zhangola]] || 10,604,000 || 16 || [[Ghloumzi]] || 5,050,000
+|-
+| 7 || [[Harkanto]] || 9,740,000 || 17 || [[Zhwaziko]] || 5,020,000
+|-
+| 8 || [[Zoluhano]] || 9,250,000 || 18 || [[Lungxilo]] || 4,819,000
+|-
+| 9 || [[Qianzo]] || 8,650,000 || 19 || [[Phinlaza]] || 4,599,000
+|-
+| 10 || [[Dzhonlo]] || 7,880,000 || 20 || [[Dumemzi]] || 4,396,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

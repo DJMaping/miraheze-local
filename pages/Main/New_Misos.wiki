@@ -87,6 +87,32 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[New Misos]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/new-misos|title=World Population Prospects 1765: New Misos|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Lirika]] || 7,770,000
+|-
+| 2 || [[Minafi]] || 4,675,000
+|-
+| 3 || [[Lunava]] || 2,647,000
+|-
+| 4 || [[Solima]] || 2,049,000
+|-
+| 5 || [[Albira]] || 1,455,000
+|-
+| 6 || [[Darnet]] || 1,225,000
+|-
+| 7 || [[Sanilu]] || 1,212,000
+|-
+| 8 || [[Nokavi]] || 1,186,000
+|-
+| 9 || [[Hiranzo]] || 1,177,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

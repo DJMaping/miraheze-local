@@ -93,6 +93,20 @@ Astye is one of the world's [[wikipedia:Megadiverse countries megadiverse countr
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Astye]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/astye|title=World Population Prospects 1765: Astye|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Kavirro]] || 2,631,000
+|-
+| 2 || [[Losari]] || 1,246,000
+|-
+| 3 || [[Glonashi]] || 1,219,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -89,6 +89,20 @@ Desaki has been [[inhabited]] since prehistoric times around 20,000 BFA. The inh
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Desaki]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/desaki|title=World Population Prospects 1765: Desaki|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Velthura]] || 3,092,000
+|-
+| 2 || [[Yshtra]] || 2,955,000
+|-
+| 3 || [[Trephin]] || 2,297,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

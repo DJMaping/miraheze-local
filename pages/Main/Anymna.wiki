@@ -102,6 +102,22 @@ The [[Constitution of Anymna]], adopted in 1755, affirms the country as a [[wiki
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Anymna]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/anymna|title=World Population Prospects 1765: Anymna|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Khureldai]] || 3,302,000
+|-
+| 2 || [[Tovsagaan]] || 3,066,000
+|-
+| 3 || [[Vurekh]] || 2,486,000
+|-
+| 4 || [[Altorg]] || 1,388,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

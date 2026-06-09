@@ -7,7 +7,9 @@
       "Write",
       "WebFetch",
       "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe --version)",
-      "PowerShell(.\\\\venv\\\\Scripts\\\\pip.exe install requests python-dotenv)"
+      "PowerShell(.\\\\venv\\\\Scripts\\\\pip.exe install requests python-dotenv)",
+      "Skill(browse)",
+      "Skill(browse:*)"
     ]
   }
 }

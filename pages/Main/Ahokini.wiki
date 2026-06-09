@@ -90,6 +90,18 @@ Ahokini performs well in metrics of education, [[List of countries by Krali Tota
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Ahokini]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/ahokini|title=World Population Prospects 1765: Ahokini|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Ribash]] || 3,803,000
+|-
+| 2 || [[Horamtu]] || 1,371,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -94,6 +94,18 @@ The majority of the country's population (63.2%) is ___. The Constitution of Hei
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Heiso]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/heiso|title=World Population Prospects 1765: Heiso|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Mivlo]] || 1,576,000
+|-
+| 2 || [[Felitu]] || 1,200,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

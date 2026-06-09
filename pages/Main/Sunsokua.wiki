@@ -95,6 +95,34 @@ Today, Sunsokua is a [[Wikipedia:Developed_country|developed country]] with an e
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Sunsokua]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/sunsokua|title=World Population Prospects 1765: Sunsokua|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Hikrun]] || 10,257,000 || 11 || [[Yamaru]] || 1,190,000
+|-
+| 2 || [[Mikalu]] || 8,430,000 || 12 || [[Senkal]] || 1,189,000
+|-
+| 3 || [[Jalenek]] || 4,034,000 || 13 || [[Kashibo]] || 1,178,000
+|-
+| 4 || [[Katanir]] || 4,002,000 || 14 || [[Otkiru]] || 1,138,000
+|-
+| 5 || [[Bodrul]] || 3,637,000 || 15 || [[Sodaru]] || 1,062,000
+|-
+| 6 || [[Shiruna]] || 2,695,000 || 16 || [[Pirozu]] || 1,058,000
+|-
+| 7 || [[Yokemaru]] || 2,199,000 ||  || || 
+|-
+| 8 || [[Pakram]] || 1,952,000 ||  || || 
+|-
+| 9 || [[Velkai]] || 1,681,000 ||  || || 
+|-
+| 10 || [[Muzhara]] || 1,321,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

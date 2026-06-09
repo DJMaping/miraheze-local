@@ -148,6 +148,32 @@ Main article: [[Demographics of Ashain]]
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Ashain]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/ashain|title=World Population Prospects 1765: Ashain|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Sjoran]] || 14,751,000
+|-
+| 2 || [[Kaitriss]] || 4,941,000
+|-
+| 3 || [[Pelfen]] || 4,855,000
+|-
+| 4 || [[Varnai]] || 3,948,000
+|-
+| 5 || [[Yorvex]] || 2,812,000
+|-
+| 6 || [[Zinlor]] || 2,580,000
+|-
+| 7 || [[Lusvani]] || 2,011,000
+|-
+| 8 || [[Kenriko]] || 1,690,000
+|-
+| 9 || [[Darnai]] || 1,142,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

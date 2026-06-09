@@ -84,6 +84,34 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Inania]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/inania|title=World Population Prospects 1765: Inania|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Fashti]] || 18,819,000 || 11 || [[Kastra]] || 1,359,000
+|-
+| 2 || [[Varnan]] || 9,010,000 || 12 || [[Liroska]] || 1,358,000
+|-
+| 3 || [[Yolan]] || 3,880,000 || 13 || [[Zavrik]] || 1,241,000
+|-
+| 4 || [[Hondir]] || 2,822,000 || 14 || [[Yrelth]] || 1,214,000
+|-
+| 5 || [[Kirvok]] || 2,149,000 || 15 || [[Zinthi]] || 1,168,000
+|-
+| 6 || [[Swandor]] || 1,996,000 || 16 || [[Syntar]] || 1,137,000
+|-
+| 7 || [[Lokren]] || 1,959,000 || 17 || [[Taylan]] || 1,092,000
+|-
+| 8 || [[Jiloth]] || 1,822,000 || 18 || [[Vekti]] || 1,002,000
+|-
+| 9 || [[Junik]] || 1,481,000 ||  || || 
+|-
+| 10 || [[Zanir]] || 1,381,000 ||  || || 
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

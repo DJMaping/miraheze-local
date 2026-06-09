@@ -90,6 +90,18 @@ Since the end of the civil war after the [[Terst revolution]] in 1723, Eldavpir 
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Eldavpir]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/eldavpir|title=World Population Prospects 1765: Eldavpir|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Lunfrix]] || 1,865,000
+|-
+| 2 || [[Tavon]] || 1,487,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

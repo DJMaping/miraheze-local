@@ -96,6 +96,34 @@ Ztesh has been a federal republic since 1707, governed through a [https://en.wik
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Ztesh]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/ztesh|title=World Population Prospects 1765: Ztesh|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population !! Rank !! City !! Population
+|-
+| 1 || [[Nakos]] || 25,222,000 || 11 || [[Tiyotik]] || 2,433,000
+|-
+| 2 || [[Mihkose]] || 15,333,000 || 12 || [[Nimitik]] || 2,226,000
+|-
+| 3 || [[Takhna]] || 9,860,000 || 13 || [[Makahk]] || 2,069,000
+|-
+| 4 || [[Wiskot]] || 8,990,000 || 14 || [[Pihkosi]] || 1,790,000
+|-
+| 5 || [[Ratsom]] || 7,100,000 || 15 || [[Tewapik]] || 1,763,000
+|-
+| 6 || [[Ashkik]] || 4,140,000 || 16 || [[Yoteka]] || 1,514,000
+|-
+| 7 || [[Ikkat]] || 3,977,000 || 17 || [[Sakitho]] || 1,365,000
+|-
+| 8 || [[Kaskis]] || 3,664,000 || 18 || [[Zanikwa]] || 1,317,000
+|-
+| 9 || [[Oposkwe]] || 3,022,000 || 19 || [[Toska]] || 1,309,000
+|-
+| 10 || [[Pakikwan]] || 2,824,000 || 20 || [[Tatamis]] || 1,244,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

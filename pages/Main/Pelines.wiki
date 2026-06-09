@@ -86,6 +86,20 @@
 
 == Culture and Society ==
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Pelines]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/pelines|title=World Population Prospects 1765: Pelines|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Dalyar]] || 10,472,000
+|-
+| 2 || [[Yagmosantri]] || 3,836,000
+|-
+| 3 || [[Arokdan]] || 1,457,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 

@@ -103,6 +103,18 @@ A developed country, Genaire has a [[List of countries by GDP (nominal) per capi
 == Culture and Society ==
 
 
+<!-- LARGEST-CITIES-AUTO START -->
+== Largest cities ==
+{| class="wikitable" style="text-align:center"
+|+ Largest cities in [[Genaire]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/genaire|title=World Population Prospects 1765: Genaire|publisher=World Data Union}}</ref></small>
+! Rank !! City !! Population
+|-
+| 1 || [[Braniv]] || 1,533,000
+|-
+| 2 || [[Lishka]] || 1,439,000
+|}
+<!-- LARGEST-CITIES-AUTO END -->
+
 == References ==
 {{reflist}}
 
