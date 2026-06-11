@@ -260,7 +260,7 @@ The sixteen qualified teams were drawn into four groups of four. Each group oper
 
 ==Knockout stage==
 
-The knockout stage involved the eight teams that advanced from the group stage. Matches still level after 90 minutes were extended by a period of extra time. The quarter-final between [[Raledria]] and [[Emara]] was the only tie of the round to require additional time, Raledria prevailing 2–1 after a goalless extra period.
+The knockout stage involved the eight teams that advanced from the group stage. Matches still level after 90 minutes were extended by a period of extra time. The quarter-final between [[Raledria]] and [[Emara]] was a tightly contested tie, [[Raledria]] prevailing 2–1.
 
 ===Bracket===
 {| class="wikitable" style="text-align: center; font-size: 95%;"
@@ -273,7 +273,7 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 |-
 | align="left" | {{Flagicon|Lycroa}} '''Lycroa''' 2–0 {{Flagicon|Verusa}} Verusa || rowspan="2" align="left" | {{Flagicon|Lycroa}} '''Lycroa''' 1–0 {{Flagicon|Raledria}} Raledria
 |-
-| align="left" | {{Flagicon|Raledria}} '''Raledria''' 2–1 {{Flagicon|Emara}} Emara ''(a.e.t.)''
+| align="left" | {{Flagicon|Raledria}} '''Raledria''' 2–1 {{Flagicon|Emara}} Emara
 |}
 ''Third-place play-off: {{Flagicon|Etirha}} '''Etirha''' 2–1 {{Flagicon|Raledria}} Raledria.''
 
@@ -320,7 +320,7 @@ The four quarter-finals were played on 18 June. [[Praesyu]] continued their unbe
 {{Football box
 | date = {{Start date|1720|6|18|df=y}}
 | team1 = [[Raledria]] {{Flagicon|Raledria}}
-| score = 2–1 {{Aet}}
+| score = 2–1
 | team2 = {{Flagicon|Emara}} [[Emara]]
 | goals1 = Volok {{Goal|44}}<br/>Rast {{Goal|73}}
 | goals2 = Hale {{Goal|61}}
