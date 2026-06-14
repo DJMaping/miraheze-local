@@ -1,5 +1,7 @@
 {{Short description|List of the finals of the FLLA World Cup}}
 
+[[File:Map_of_FLLA_World_Cup_finals_winners.png|thumb|upright=1.8|Nations that have reached an FLLA World Cup final, shaded by the number of finals won]]
+
 The '''[[FLLA World Cup]]''' is an international [[Arraby]] competition contested by the senior men's national teams of the member associations of the [[FLLA]], the sport's global governing body. The competition has been held every four years since the inaugural tournament in 1656, staged at the time as the Ayuman Continental Tournament, with the exception of four editions cancelled because of intercontinental conflict. The '''final''' is the last match of the competition, played by the two teams that have come through the [[FLLA World Cup#Final tournament|knockout stage]], and the winners are crowned world champions.<ref name="fllaheritage">{{cite web|url=https://www.flla.org/heritage/world-cup/roll-of-honour|title=FLLA World Cup roll of honour|publisher=[[FLLA]]|date=20 August 1764}}</ref>
 
 Twenty-four finals have been contested between the [[1656 FLLA World Cup|1656 edition]] and the [[1764 FLLA World Cup|1764 edition]]. Twelve different national teams have appeared as champions. [[Lycroa]] are the most successful side, having won the trophy five times and reached the final on eight occasions, both records; [[Raledria]] are second with four titles, and [[Emara]] third with three. The reigning champions are [[Easuhura]], who defeated [[Emara]] 2–1 in the [[1764 FLLA World Cup|1764 final]] at the Tirna National Stadium in [[Tirna]] to claim their first title.<ref name="flla1764final">{{cite web|url=https://www.flla.org/competitions/world-cup/1764/final|title=1764 FLLA World Cup final: Easuhura 2–1 Emara|publisher=[[FLLA]]|date=14 July 1764}}</ref>
@@ -106,7 +108,7 @@ The table below ranks the fifteen nations to have reached an FLLA World Cup fina
 
 ==Results by confederation==
 
-Sides from the [[AYFVL]], the Ayuman confederation, have won sixteen of the twenty-four finals and have appeared in the final on twenty occasions, fourteen of them in all-Ayuman finals. The [[ATFVL]] (Atirhan) confederation has provided six champions and the [[NAFVL]] ([[New Ayre]]) and [[QUFVL]] ([[Quia]]) confederations one each; the [[MAFVL]] ([[Mahea]]) has reached the final twice without winning, while the [[MSFVL]] and [[ACFVL]] have yet to provide a finalist.<ref name="fllaheritage" />
+Sides from the [[AYFVL]], the Ayuman confederation, have won sixteen of the twenty-four finals and have appeared in the final on twenty occasions, fourteen of them in all-Ayuman finals. The [[ATFVL]] (Atirhan) confederation has provided six champions and the [[NAFVL]] ([[New Ayre]]) and [[QUFVL]] ([[Quia]]) confederations one each; the [[MAFVL]] ([[Mahea]]) and [[MSFVL]] ([[Massir]]) have each reached the final once without winning, while the [[ACFVL]] has yet to provide a finalist.<ref name="fllaheritage" />
 
 {| class="wikitable sortable" style="text-align: center;"
 |+ Results by confederation
@@ -118,11 +120,11 @@ Sides from the [[AYFVL]], the Ayuman confederation, have won sixteen of the twen
 |-
 | align="left" | [[NAFVL]] || align="left" | [[New Ayre]] || 1 || 1 || 2
 |-
-| align="left" | [[MAFVL]] || align="left" | [[Mahea]] || 0 || 2 || 2
+| align="left" | [[MAFVL]] || align="left" | [[Mahea]] || 0 || 1 || 1
+|-
+| align="left" | [[MSFVL]] || align="left" | [[Massir]] || 0 || 1 || 1
 |-
 | align="left" | [[QUFVL]] || align="left" | [[Quia]] || 1 || 0 || 1
-|-
-| align="left" | [[MSFVL]] || align="left" | [[Massir]] || 0 || 0 || 0
 |-
 | align="left" | [[ACFVL]] || align="left" | [[Acrola]] || 0 || 0 || 0
 |}

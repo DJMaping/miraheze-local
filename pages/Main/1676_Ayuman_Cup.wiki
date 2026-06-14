@@ -21,7 +21,7 @@
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
-| Champion || {{Flagicon|Eldjo}} '''[[Eldjo]]'''
+| Champion || {{Flagicon|Eldjo}} '''[[Eldjo]]''' ''(1st title)''
 |-
 | Runner-up || {{Flagicon|Emara}} [[Emara]]
 |-
@@ -40,9 +40,9 @@
 
 The '''1676 Ayuman Cup''', recognised retrospectively as the 5th edition of the '''[[FLLA World Cup]]''', was an international [[Arraby]] tournament contested by the senior men's national teams of the leading Ayuman football associations. It was held in [[Praesyu]], across [[Ayuma]], from 5 June to 2 July 1676, and was won by [[Eldjo]], who defeated [[Emara]] 3–0 in the [[#Final|final]] at the Brimasha Stadium to claim the [[FLLA World Cup#The Andah Cup|Andah Cup]].<ref name="heritage-overview">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/overview|title=The 1676 Ayuman Cup: tournament overview|publisher=[[FLLA]]|date=14 June 1763}}</ref>
 
-The competition was staged under the older title of the Ayuman Cup, the name it bore before the [[FLLA]] was constituted and the contest was relaunched and renamed the [[FLLA World Cup]] at the [[1700 FLLA World Cup|1700 edition]]; the seven continental confederations did not yet exist, and all twelve entrants were drawn from [[Ayuma]]. The 1676 finals were organised by a congress of the Ayuman national associations, the informal body that arranged the early editions of the competition.<ref name="heritage-rename">{{cite web|url=https://www.flla.org/heritage/history/early-competition-names|title=From the Ayuman Cup to the FLLA World Cup: the early names of the competition|publisher=[[FLLA]]|date=12 February 1764}}</ref>
+The competition was staged under the older title of the Ayuman Cup, the name it bore before the [[FLLA]] was constituted and the contest was relaunched and renamed the [[FLLA World Cup]] at the [[1700 FLLA World Cup|1700 edition]]; the seven continental confederations did not yet exist, and the field was drawn overwhelmingly from [[Ayuma]], although the competition had by now begun to admit associations from beyond the continent, [[Taval]] of [[Mahea]] appearing among the entrants for the first time. The 1676 finals were organised by a congress of the Ayuman national associations, the informal body that arranged the early editions of the competition.<ref name="heritage-rename">{{cite web|url=https://www.flla.org/heritage/history/early-competition-names|title=From the Ayuman Cup to the FLLA World Cup: the early names of the competition|publisher=[[FLLA]]|date=12 February 1764}}</ref>
 
-The 1676 edition was contested for the original rotating '''[[FLLA World Cup#The Andah Cup|Andah Cup]]''', the single trophy that had been awarded since the inaugural [[1656 FLLA World Cup|1656 edition]] and that passed to the champion of each tournament. The cup was presented to the victorious Eldjo side at the close of the final. No bespoke permanent trophy was commissioned in 1676; the permanent-trophy tradition that came to characterise the competition began only at the [[1700 FLLA World Cup|1700 edition]], after the original cup was lost during the [[Red War]].<ref name="heritage-trophy">{{cite web|url=https://www.flla.org/heritage/trophies/the-andah-cup|title=The original Andah Cup, 1656 to 1688|publisher=[[FLLA]]|date=2 July 1764}}</ref>
+The 1676 edition was contested for the original rotating '''[[FLLA World Cup#The Andah Cup|Andah Cup]]''', the trophy that had been awarded since its introduction at the [[1668 FLLA World Cup|1668 edition]] and that passed to the champion of each tournament. The cup was presented to the victorious Eldjo side at the close of the final. No bespoke permanent trophy was commissioned in 1676; the permanent-trophy tradition that came to characterise the competition began only at the [[1700 FLLA World Cup|1700 edition]], after the original cup was lost during the [[Red War]].<ref name="heritage-trophy">{{cite web|url=https://www.flla.org/heritage/trophies/the-andah-cup|title=The original Andah Cup, 1656 to 1688|publisher=[[FLLA]]|date=2 July 1764}}</ref>
 
 ==Host selection==
 
@@ -56,7 +56,7 @@ The knockout stage consisted of single-elimination ties played over 90 minutes. 
 
 ==Participating teams==
 
-Twelve teams took part in the 1676 finals, all of them Ayuman national associations. The continental confederations that later structured the [[FLLA World Cup]] had not yet been established, and qualification was settled under the informal arrangements of the period; as host nation, [[Praesyu]] took part automatically. The participating teams were:<ref name="heritage-teams">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/teams|title=1676 Ayuman Cup: participating teams|publisher=[[FLLA]]|date=20 June 1763}}</ref>
+Twelve teams took part in the 1676 finals, the majority of them Ayuman national associations. The continental confederations that later structured the [[FLLA World Cup]] had not yet been established, and qualification was settled under the informal arrangements of the period; as host nation, [[Praesyu]] took part automatically. [[Taval]], a [[Mahea]]n association, took part for the first time, an early instance of the competition admitting a side from beyond [[Ayuma]]. The participating teams were:<ref name="heritage-teams">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/teams|title=1676 Ayuman Cup: participating teams|publisher=[[FLLA]]|date=20 June 1763}}</ref>
 
 {| class="wikitable" style="font-size: 95%;"
 |-
@@ -196,7 +196,7 @@ All dates are given in the local time of the host cities.
 
 ==Knockout stage==
 
-The knockout stage involved the eight teams that advanced from the group stage: the three group winners, the three runners-up and the two best third-placed sides. Ties level after 90 minutes were extended by a single period of [[wikipedia:Extra time|extra time]]; one of the four quarter-finals was decided in the additional period. No tie required a replay.
+The knockout stage involved the eight teams that advanced from the group stage: the three group winners, the three runners-up and the two best third-placed sides. Ties level after 90 minutes were to be extended by a single period of [[wikipedia:Extra time|extra time]]; no tie in 1676 required extra time or a replay.
 
 ===Bracket===
 {{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
@@ -205,7 +205,7 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 | | {{Flagicon|Siana}} Siana | 2 | {{Flagicon|Estijan}} Estijan | 1
 | | {{Flagicon|Emara}} Emara | 2 | {{Flagicon|Verusa}} Verusa | 0
 | | {{Flagicon|Eldjo}} Eldjo | 2 | {{Flagicon|Praesyu}} Praesyu | 1
-| | {{Flagicon|Siana}} Siana (a.e.t.) | 1 | {{Flagicon|Emara}} Emara | 2
+| | {{Flagicon|Siana}} Siana | 1 | {{Flagicon|Emara}} Emara | 2
 | | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Emara}} Emara | 0
 | | {{Flagicon|Praesyu}} Praesyu | 2 | {{Flagicon|Siana}} Siana | 1
 }}
@@ -359,7 +359,7 @@ In keeping with the practice of the period, a final ranking was published only f
 
 ==Trophy and significance==
 
-The 1676 edition was contested for the original rotating [[FLLA World Cup#The Andah Cup|Andah Cup]], the same trophy that had been awarded at every edition since the inaugural [[1656 FLLA World Cup|1656 tournament]]. Under the custom of the period the cup passed to each new champion in turn, and Eldjo's victory placed it in their keeping until the following edition.<ref name="heritage-trophy" />
+The 1676 edition was contested for the original rotating [[FLLA World Cup#The Andah Cup|Andah Cup]], the same trophy that had been awarded at every edition since its introduction at the [[1668 FLLA World Cup|1668 tournament]]. Under the custom of the period the cup passed to each new champion in turn, and Eldjo's victory placed it in their keeping until the following edition.<ref name="heritage-trophy" />
 
 Eldjo's win came at the expense of the host nation only indirectly: [[Praesyu]] reached the semi-finals and took third place on home soil, while the title was settled between the two Group C qualifiers, Eldjo and [[Emara]], who had been kept apart in the draw until the final. The result was among the more decisive finals of the early editions, Eldjo becoming the first side to win the deciding match without conceding.<ref name="heritage-overview" />
 
