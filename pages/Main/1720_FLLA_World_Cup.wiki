@@ -263,19 +263,16 @@ The sixteen qualified teams were drawn into four groups of four. Each group oper
 The knockout stage involved the eight teams that advanced from the group stage. Matches still level after 90 minutes were extended by a period of extra time. The quarter-final between [[Raledria]] and [[Emara]] was a tightly contested tie, [[Raledria]] prevailing 2–1.
 
 ===Bracket===
-{| class="wikitable" style="text-align: center; font-size: 95%;"
-|+ Knockout stage bracket
-! Quarter-finals !! Semi-finals !! Final
-|-
-| align="left" | {{Flagicon|Praesyu}} '''Praesyu''' 3–1 {{Flagicon|Easuhura}} Easuhura || rowspan="2" align="left" | {{Flagicon|Praesyu}} '''Praesyu''' 2–0 {{Flagicon|Etirha}} Etirha || rowspan="4" align="left" | {{Flagicon|Praesyu}} '''Praesyu''' 4–0 {{Flagicon|Lycroa}} Lycroa
-|-
-| align="left" | {{Flagicon|Etirha}} '''Etirha''' 2–1 {{Flagicon|Dahe}} Dahe
-|-
-| align="left" | {{Flagicon|Lycroa}} '''Lycroa''' 2–0 {{Flagicon|Verusa}} Verusa || rowspan="2" align="left" | {{Flagicon|Lycroa}} '''Lycroa''' 1–0 {{Flagicon|Raledria}} Raledria
-|-
-| align="left" | {{Flagicon|Raledria}} '''Raledria''' 2–1 {{Flagicon|Emara}} Emara
-|}
-''Third-place play-off: {{Flagicon|Etirha}} '''Etirha''' 2–1 {{Flagicon|Raledria}} Raledria.''
+{{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
+| | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Easuhura}} Easuhura | 1
+| | {{Flagicon|Etirha}} Etirha | 2 | {{Flagicon|Dahe}} Dahe | 1
+| | {{Flagicon|Lycroa}} Lycroa | 2 | {{Flagicon|Verusa}} Verusa | 0
+| | {{Flagicon|Raledria}} Raledria | 2 | {{Flagicon|Emara}} Emara | 1
+| | {{Flagicon|Praesyu}} Praesyu | 2 | {{Flagicon|Etirha}} Etirha | 0
+| | {{Flagicon|Lycroa}} Lycroa | 1 | {{Flagicon|Raledria}} Raledria | 0
+| | {{Flagicon|Praesyu}} Praesyu | 4 | {{Flagicon|Lycroa}} Lycroa | 0
+| | {{Flagicon|Etirha}} Etirha | 2 | {{Flagicon|Raledria}} Raledria | 1
+}}
 
 ===Quarter-finals===
 

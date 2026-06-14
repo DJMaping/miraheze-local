@@ -105,112 +105,246 @@ Each of the sixteen participating associations registered a squad of eighteen pl
 
 ==Group stage==
 
-The group stage was played between 17 and 26 June 1704. The hosts opened the tournament against [[Dahe]] at the Rivostan National Ground, winning 4–0 before a crowd of 38,000.<ref name="groupstage">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/group-stage|title=Group stage results, 1704 FLLA World Cup|publisher=[[FLLA]]|date=27 June 1704}}</ref> The reigning World Cup holders [[Raledria]] and the [[1660 FLLA World Cup|1660]] and [[1680 FLLA World Cup|1680]] champions [[Lycroa]] both advanced from Group B, while the [[1684 FLLA World Cup|1684 champions]] [[Alzuria]], appearing at their first tournament since the [[Red War]], were eliminated in Group C without a win.
+The group stage was played between 17 and 26 June 1704. The sixteen finalists were divided into four groups of four, each contested as a single round-robin; two points were awarded for a win and one for a draw, with the top two sides in each group advancing to the [[#Knockout stage|knockout stage]]. The hosts opened the tournament against [[Dahe]] at the Rivostan National Ground, winning 4–0 before a crowd of 38,000.<ref name="groupstage">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/group-stage|title=Group stage results, 1704 FLLA World Cup|publisher=[[FLLA]]|date=27 June 1704}}</ref> The reigning World Cup holders [[Raledria]] and the [[1660 FLLA World Cup|1660]] and [[1680 FLLA World Cup|1680]] champions [[Lycroa]] both advanced from Group B, which they finished level on points, while the [[1684 FLLA World Cup|1684 champions]] [[Alzuria]], appearing at their first tournament since the [[Red War]], were eliminated in Group C without a win.
+
+All dates are given in the local time of the host cities.
 
 ===Group A===
-
 {| class="wikitable" style="text-align: center;"
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|+ Group A standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' ''(H)'' || 3 || 3 || 0 || 0 || 9 || 1 || +8 || 6 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' || 3 || 2 || 0 || 1 || 5 || 4 || +1 || 4
 |-
-| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' (H) || 3 || 3 || 0 || 0 || 9 || 1 || 6
+| 3 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 0 || 1 || 2 || 2 || 6 || −4 || 1 ||
 |-
-| 2 || align="left" | {{Flagicon|Etirha}} '''[[Etirha]]''' || 3 || 2 || 0 || 1 || 5 || 4 || 4
-|-
-| 3 || align="left" | {{Flagicon|Quidic}} [[Quidic]] || 3 || 0 || 1 || 2 || 2 || 6 || 1
-|-
-| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 0 || 1 || 2 || 1 || 7 || 1
+| 4 || align="left" | {{Flagicon|Dahe}} [[Dahe]] || 3 || 0 || 1 || 2 || 1 || 7 || −6 || 1 ||
 |}
+''(H) Host.''
 
-''Emara 4–0 Dahe · Etirha 2–1 Quidic · Emara 2–1 Etirha · Quidic 1–1 Dahe · Emara 3–0 Quidic · Etirha 2–0 Dahe''
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group A matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 17 June 1704 || align="right" | '''Emara''' {{Flagicon|Emara}} || 4–0 || {{Flagicon|Dahe}} Dahe || align="left" | Rivostan National Ground, Rivostan
+|-
+| align="left" | 18 June 1704 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–1 || {{Flagicon|Quidic}} Quidic || align="left" | Shaikuv Arraby Park, Shaikuv
+|-
+| align="left" | 21 June 1704 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Etirha}} Etirha || align="left" | Rivostan National Ground, Rivostan
+|-
+| align="left" | 21 June 1704 || align="right" | Quidic {{Flagicon|Quidic}} || 1–1 || {{Flagicon|Dahe}} Dahe || align="left" | Tirzovik Park, Tirzovik
+|-
+| align="left" | 24 June 1704 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–0 || {{Flagicon|Quidic}} Quidic || align="left" | Rivostan National Ground, Rivostan
+|-
+| align="left" | 24 June 1704 || align="right" | '''Etirha''' {{Flagicon|Etirha}} || 2–0 || {{Flagicon|Dahe}} Dahe || align="left" | Tirzovik Park, Tirzovik
+|}
 
 ===Group B===
-
 {| class="wikitable" style="text-align: center;"
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|+ Group B standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5
 |-
-| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || 5
+| 3 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 3 || 1 || 0 || 2 || 2 || 5 || −3 || 2 ||
 |-
-| 2 || align="left" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 3 || 2 || 1 || 0 || 6 || 2 || 5
-|-
-| 3 || align="left" | {{Flagicon|Seytinemas}} [[Seytinemas]] || 3 || 1 || 0 || 2 || 2 || 5 || 2
-|-
-| 4 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 0 || 3 || 3 || 8 || 0
+| 4 || align="left" | {{Flagicon|Areoix Lie}} [[Areoix Lie]] || 3 || 0 || 0 || 3 || 3 || 8 || −5 || 0 ||
 |}
+''Lycroa finished above Raledria on goals scored, the two sides being level on points and goal average after their 1–1 meeting.''
 
-''Lycroa 3–1 Areoix Lie · Raledria 2–0 Seytinemas · Lycroa 1–1 Raledria · Seytinemas 2–1 Areoix Lie · Lycroa 2–0 Seytinemas · Raledria 3–1 Areoix Lie''
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group B matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 18 June 1704 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Khalzhun City Stadium, Khalzhun
+|-
+| align="left" | 18 June 1704 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–0 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Shaikuv Arraby Park, Shaikuv
+|-
+| align="left" | 21 June 1704 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|Raledria}} Raledria || align="left" | Khalzhun City Stadium, Khalzhun
+|-
+| align="left" | 22 June 1704 || align="right" | '''Seytinemas''' {{Flagicon|Seytinemas}} || 2–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Shaikuv Arraby Park, Shaikuv
+|-
+| align="left" | 25 June 1704 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–0 || {{Flagicon|Seytinemas}} Seytinemas || align="left" | Khalzhun City Stadium, Khalzhun
+|-
+| align="left" | 25 June 1704 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 3–1 || {{Flagicon|Areoix Lie}} Areoix Lie || align="left" | Khalzhun City Stadium, Khalzhun
+|}
 
 ===Group C===
-
 {| class="wikitable" style="text-align: center;"
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|+ Group C standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 2 || 1 || 0 || 6 || 3 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 5
 |-
-| 1 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' || 3 || 2 || 1 || 0 || 6 || 3 || 5
+| 3 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 3 || 0 || 1 || 2 || 3 || 6 || −3 || 1 ||
 |-
-| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 4 || 2 || 5
-|-
-| 3 || align="left" | {{Flagicon|United Delet}} [[United Delet]] || 3 || 0 || 1 || 2 || 3 || 6 || 1
-|-
-| 4 || align="left" | {{Flagicon|Alzuria}} [[Alzuria]] || 3 || 0 || 1 || 2 || 4 || 6 || 1
+| 4 || align="left" | {{Flagicon|Alzuria}} [[Alzuria]] || 3 || 0 || 1 || 2 || 4 || 6 || −2 || 1 ||
 |}
 
-''Easuhura 2–1 Alzuria · Estijan 1–0 United Delet · Easuhura 1–1 Estijan · United Delet 2–2 Alzuria · Easuhura 3–1 United Delet · Estijan 2–1 Alzuria''
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group C matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 19 June 1704 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–1 || {{Flagicon|Alzuria}} Alzuria || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 19 June 1704 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 1–0 || {{Flagicon|United Delet}} United Delet || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 22 June 1704 || align="right" | Easuhura {{Flagicon|Easuhura}} || 1–1 || {{Flagicon|Estijan}} Estijan || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 22 June 1704 || align="right" | United Delet {{Flagicon|United Delet}} || 2–2 || {{Flagicon|Alzuria}} Alzuria || align="left" | Tirzovik Park, Tirzovik
+|-
+| align="left" | 26 June 1704 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 3–1 || {{Flagicon|United Delet}} United Delet || align="left" | Borzhai Stadium, Borzhai
+|-
+| align="left" | 26 June 1704 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–1 || {{Flagicon|Alzuria}} Alzuria || align="left" | Borzhai Stadium, Borzhai
+|}
 
 ===Group D===
-
 {| class="wikitable" style="text-align: center;"
-! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! Pts
+|+ Group D standings
+! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
+|- style="background:#ccffcc;"
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+|- style="background:#ccffcc;"
+| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 5
 |-
-| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 6 || 2 || 5
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 1 || 0 || 2 || 3 || 5 || −2 || 2 ||
 |-
-| 2 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 4 || 2 || 5
-|-
-| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 1 || 0 || 2 || 3 || 5 || 2
-|-
-| 4 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 3 || 0 || 0 || 3 || 2 || 6 || 0
+| 4 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 3 || 0 || 0 || 3 || 2 || 6 || −4 || 0 ||
 |}
 
-''Siana 2–0 Eldjo · Praesyu 1–0 Verusa · Siana 1–1 Praesyu · Verusa 2–1 Eldjo · Siana 3–1 Verusa · Praesyu 2–1 Eldjo''
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Group D matches
+! Date !! Home !! Score !! Away !! Venue
+|-
+| align="left" | 19 June 1704 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Yilovka Municipal Ground, Yilovka
+|-
+| align="left" | 20 June 1704 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 1–0 || {{Flagicon|Verusa}} Verusa || align="left" | Tirzovik Park, Tirzovik
+|-
+| align="left" | 22 June 1704 || align="right" | Siana {{Flagicon|Siana}} || 1–1 || {{Flagicon|Praesyu}} Praesyu || align="left" | Yilovka Municipal Ground, Yilovka
+|-
+| align="left" | 23 June 1704 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Tirzovik Park, Tirzovik
+|-
+| align="left" | 26 June 1704 || align="right" | '''Siana''' {{Flagicon|Siana}} || 3–1 || {{Flagicon|Verusa}} Verusa || align="left" | Yilovka Municipal Ground, Yilovka
+|-
+| align="left" | 26 June 1704 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Yilovka Municipal Ground, Yilovka
+|}
 
 ==Knockout stage==
 
 The knockout stage was played between 29 June and 4 July 1704. Group winners were paired with the runners-up of another group in the quarter-finals.<ref name="knockout">{{cite web|url=https://www.flla.org/heritage/world-cup/1704/knockout|title=Knockout stage results, 1704 FLLA World Cup|publisher=[[FLLA]]|date=4 July 1704}}</ref>
 
-{| class="wikitable" style="text-align: center; font-size: 95%;"
-|+ Knockout bracket
-! colspan="2" | Quarter-finals !! colspan="2" | Semi-finals !! colspan="2" | Final
-|-
-| align="left" | {{Flagicon|Emara}} '''Emara''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || rowspan="4" | &nbsp; || rowspan="4" | &nbsp;
-|-
-| align="left" | {{Flagicon|Raledria}} Raledria || 1
-|-
-| align="left" | {{Flagicon|Easuhura}} Easuhura || 1 || align="left" | {{Flagicon|Emara}} '''Emara''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp;
-|-
-| align="left" | {{Flagicon|Praesyu}} Praesyu || 0 || align="left" | {{Flagicon|Easuhura}} Easuhura || 1
-|-
-| align="left" | {{Flagicon|Lycroa}} '''Lycroa''' || 3 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || align="left" | {{Flagicon|Emara}} '''Emara''' || 3
-|-
-| align="left" | {{Flagicon|Etirha}} Etirha || 0 || || || align="left" | {{Flagicon|Siana}} Siana || 2
-|-
-| align="left" | {{Flagicon|Siana}} '''Siana''' || 2 || align="left" | {{Flagicon|Siana}} '''Siana''' || 2 || colspan="2" rowspan="2" | &nbsp;
-|-
-| align="left" | {{Flagicon|Estijan}} Estijan || 1 || align="left" | {{Flagicon|Lycroa}} Lycroa || 1
-|}
+{{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
+| | {{Flagicon|Emara}} Emara | 2 | {{Flagicon|Raledria}} Raledria | 1
+| | {{Flagicon|Easuhura}} Easuhura | 2 | {{Flagicon|Praesyu}} Praesyu | 0
+| | {{Flagicon|Lycroa}} Lycroa | 3 | {{Flagicon|Etirha}} Etirha | 0
+| | {{Flagicon|Siana}} Siana | 2 | {{Flagicon|Estijan}} Estijan | 1
+| | {{Flagicon|Emara}} Emara | 2 | {{Flagicon|Easuhura}} Easuhura | 1
+| | {{Flagicon|Siana}} Siana | 2 | {{Flagicon|Lycroa}} Lycroa | 1
+| | {{Flagicon|Emara}} Emara | 3 | {{Flagicon|Siana}} Siana | 2
+| | {{Flagicon|Lycroa}} Lycroa | 3 | {{Flagicon|Easuhura}} Easuhura | 1
+}}
 
 ===Quarter-finals===
 
-* '''Emara 2–1 Raledria''' (29 June, Rivostan). The hosts eliminated the reigning World Cup holders before a capacity crowd, Mirek Tovasch scoring both Emaran goals.
-* '''Easuhura 2–0 Praesyu''' (29 June, Khalzhun).
-* '''Lycroa 3–0 Etirha''' (30 June, Shaikuv), the most emphatic result of the round.
-* '''Siana 2–1 Estijan''' (30 June, Yilovka).
+The hosts opened the knockout round by eliminating the reigning World Cup holders [[Raledria]], Mirek Tovasch scoring both Emaran goals before a capacity crowd at the Rivostan National Ground. [[Lycroa]]'s 3–0 win over [[Etirha]] was the most emphatic result of the round.
+
+{{Football box
+| date = {{Start date|1704|6|29|df=y}}
+| team1 = '''[[Emara]]''' {{Flagicon|Emara}}
+| score = 2–1
+| team2 = {{Flagicon|Raledria}} [[Raledria]]
+| goals1 = Tovasch {{Goal|27|74}}
+| goals2 = Renn {{Goal|61}}
+| stadium = Rivostan National Ground, [[Rivostan]]
+| attendance = 41,000
+| referee = Osvar Tehlund ([[United Delet]])
+}}
+----
+{{Football box
+| date = {{Start date|1704|6|29|df=y}}
+| team1 = '''[[Easuhura]]''' {{Flagicon|Easuhura}}
+| score = 2–0
+| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
+| goals1 = Vels {{Goal|34}}<br/>Maron {{Goal|70}}
+| goals2 =
+| stadium = Khalzhun City Stadium, [[Khalzhun]]
+| attendance = 26,500
+| referee = Caval Renko ([[Seytinemas]])
+}}
+----
+{{Football box
+| date = {{Start date|1704|6|30|df=y}}
+| team1 = '''[[Lycroa]]''' {{Flagicon|Lycroa}}
+| score = 3–0
+| team2 = {{Flagicon|Etirha}} [[Etirha]]
+| goals1 = Kresimar {{Goal|19|58}}<br/>Vasch {{Goal|81}}
+| goals2 =
+| stadium = Shaikuv Arraby Park, [[Shaikuv]]
+| attendance = 23,800
+| referee = Damir Eskil ([[Dahe]])
+}}
+----
+{{Football box
+| date = {{Start date|1704|6|30|df=y}}
+| team1 = '''[[Siana]]''' {{Flagicon|Siana}}
+| score = 2–1
+| team2 = {{Flagicon|Estijan}} [[Estijan]]
+| goals1 = Saryah {{Goal|40}}<br/>Phakra {{Goal|66}}
+| goals2 = Estov {{Goal|83}}
+| stadium = Yilovka Municipal Ground, [[Yilovka]]
+| attendance = 20,400
+| referee = Yann Verel ([[Raledria]])
+}}
 
 ===Semi-finals===
 
-* '''Emara 2–1 Easuhura''' (1 July, Rivostan). Emara recovered from conceding first to reach a home final.
-* '''Siana 2–1 Lycroa''' (2 July, Khalzhun). Siana's victory over the five-time finalists [[Lycroa]] was the principal upset of the tournament and carried the West Ayuman side to their first World Cup final.
+Emara recovered from conceding first to reach a home final, while Siana's victory over the five-time finalists [[Lycroa]] was the principal upset of the tournament and carried the West Ayuman side to their first World Cup final.
+
+{{Football box
+| date = {{Start date|1704|7|1|df=y}}
+| team1 = '''[[Emara]]''' {{Flagicon|Emara}}
+| score = 2–1
+| team2 = {{Flagicon|Easuhura}} [[Easuhura]]
+| goals1 = Kresch {{Goal|52}}<br/>Tovasch {{Goal|78}}
+| goals2 = Vels {{Goal|24}}
+| stadium = Rivostan National Ground, [[Rivostan]]
+| attendance = 41,000
+| referee = Osvar Tehlund ([[United Delet]])
+}}
+----
+{{Football box
+| date = {{Start date|1704|7|2|df=y}}
+| team1 = '''[[Siana]]''' {{Flagicon|Siana}}
+| score = 2–1
+| team2 = {{Flagicon|Lycroa}} [[Lycroa]]
+| goals1 = Wadiri {{Goal|37}}<br/>Saryah {{Goal|71}}
+| goals2 = Kresimar {{Goal|59}}
+| stadium = Khalzhun City Stadium, [[Khalzhun]]
+| attendance = 28,200
+| referee = Damir Eskil ([[Dahe]])
+}}
 
 ===Third-place match===
 
-* '''Lycroa 3–1 Easuhura''' (3 July, Shaikuv). Lycroa took third place with a comfortable win over the [[1660 FLLA World Cup|1660 hosts]].
+Lycroa took third place with a comfortable win over the [[1660 FLLA World Cup|1660 hosts]] [[Easuhura]].
+
+{{Football box
+| date = {{Start date|1704|7|3|df=y}}
+| team1 = '''[[Lycroa]]''' {{Flagicon|Lycroa}}
+| score = 3–1
+| team2 = {{Flagicon|Easuhura}} [[Easuhura]]
+| goals1 = Vasch {{Goal|28}}<br/>Kresimar {{Goal|55}}<br/>Holt {{Goal|77}}
+| goals2 = Vels {{Goal|66}}
+| stadium = Shaikuv Arraby Park, [[Shaikuv]]
+| attendance = 22,100
+| referee = Osvar Tehlund ([[United Delet]])
+}}
 
 ==Final==
 
@@ -219,6 +353,18 @@ The final was played on 4 July 1704 at the Rivostan National Ground before an an
 Emara took an early two-goal lead through Mirek Tovasch and the midfielder Daron Kresch within the opening half-hour. Siana, urged forward by their captain Arun Phakra, recovered to level the match early in the second half with goals from Sael Wadiri and Onuk Saryah, the equaliser arriving with twenty minutes remaining. The decisive goal came eight minutes from time, when Tovasch turned in a low cross from the Emaran right to complete his personal tally for the tournament and restore the hosts' lead at 3–2. Emara held the advantage to the final whistle to claim their second senior title and their first as World Cup hosts.<ref name="flla1704final" />
 
 The Wulfen was presented to the Emaran captain Veniel Stanev by the president of the Emaran Arraby Federation at the closing ceremony. The match is recorded in FLLA literature as the establishment of Emara as a leading Arraby nation of the period; the country would go on to reach a further five finals over the following sixty years, winning again as hosts at the [[1728 FLLA World Cup|1728 edition]].<ref name="factbookrevival" />
+
+{{Football box
+| date = {{Start date|1704|7|4|df=y}}
+| team1 = '''[[Emara]]''' {{Flagicon|Emara}}
+| score = 3–2
+| team2 = {{Flagicon|Siana}} [[Siana]]
+| goals1 = Tovasch {{Goal|9|82}}<br/>Kresch {{Goal|26}}
+| goals2 = Wadiri {{Goal|58}}<br/>Saryah {{Goal|70}}
+| stadium = Rivostan National Ground, [[Rivostan]]
+| attendance = 41,000
+| referee = Yann Verel ([[Raledria]])
+}}
 
 ==Statistics==
 

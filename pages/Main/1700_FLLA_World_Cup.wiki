@@ -257,28 +257,16 @@ All dates are given in the local time of the host cities.
 The knockout stage involved the eight teams that advanced from the group stage, with each group winner drawn against a runner-up from another group. Ties level after 90 minutes were extended by a single period of [[wikipedia:Extra time|extra time]]; one of the four quarter-finals and one of the two semi-finals were decided in the additional period. No tie required a replay.
 
 ===Bracket===
-{| class="wikitable" style="text-align: center; font-size: 95%;"
-|+ Knockout bracket
-! colspan="2" | Quarter-finals !! colspan="2" | Semi-finals !! colspan="2" | Final
-|-
-| align="left" | {{Flagicon|Raledria}} '''Raledria''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || rowspan="4" | &nbsp; || rowspan="4" | &nbsp;
-|-
-| align="left" | {{Flagicon|Eldjo}} Eldjo || 0
-|-
-| align="left" | {{Flagicon|Siana}} '''Siana''' (a.e.t.) || 1 || align="left" | {{Flagicon|Raledria}} '''Raledria''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp;
-|-
-| align="left" | {{Flagicon|Estijan}} Estijan || 0 || align="left" | {{Flagicon|Siana}} Siana || 1
-|-
-| align="left" | {{Flagicon|Lycroa}} '''Lycroa''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || align="left" | {{Flagicon|Raledria}} '''Raledria''' || 3
-|-
-| align="left" | {{Flagicon|Praesyu}} Praesyu || 1 || || || align="left" | {{Flagicon|United Delet}} United Delet || 1
-|-
-| align="left" | {{Flagicon|United Delet}} '''United Delet''' || 2 || align="left" | {{Flagicon|United Delet}} '''United Delet''' (a.e.t.) || 1 || colspan="2" rowspan="2" | &nbsp;
-|-
-| align="left" | {{Flagicon|Emara}} Emara || 1 || align="left" | {{Flagicon|Lycroa}} Lycroa || 0
-|}
-
-''Third-place playoff: {{Flagicon|Lycroa}} '''[[Lycroa]]''' 3–1 {{Flagicon|Siana}} [[Siana]].''
+{{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
+| | {{Flagicon|Raledria}} Raledria | 2 | {{Flagicon|Eldjo}} Eldjo | 0
+| | {{Flagicon|Siana}} Siana (a.e.t.) | 1 | {{Flagicon|Estijan}} Estijan | 0
+| | {{Flagicon|Lycroa}} Lycroa | 2 | {{Flagicon|Praesyu}} Praesyu | 1
+| | {{Flagicon|United Delet}} United Delet | 2 | {{Flagicon|Emara}} Emara | 1
+| | {{Flagicon|Raledria}} Raledria | 2 | {{Flagicon|Siana}} Siana | 1
+| | {{Flagicon|United Delet}} United Delet (a.e.t.) | 1 | {{Flagicon|Lycroa}} Lycroa | 0
+| | {{Flagicon|Raledria}} Raledria | 3 | {{Flagicon|United Delet}} United Delet | 1
+| | {{Flagicon|Lycroa}} Lycroa | 3 | {{Flagicon|Siana}} Siana | 1
+}}
 
 ===Quarter-finals===
 
