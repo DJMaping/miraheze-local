@@ -67,6 +67,7 @@ The [[NAFVL]] case for the United Delet bid rested principally on the forty-four
 
 ===Qualification===
 {{Main|1752 FLLA World Cup qualification}}
+[[File:1752 FLLA World Cup qualification.png|thumb|upright=1.5|{{legend|#000cff|Countries qualified for World Cup}} {{legend|#ffb400|Country did not qualify}} {{legend|black|Countries that did not enter the World Cup or were expelled from the tournament by FLLA prior to playing a match}} {{legend|#ababab|Country not a FLLA member}}]]
 
 A total of 32 places at the tournament were allocated across the seven continental confederations of the [[FLLA]]. Each confederation administered its own qualifying competition, with the format reflecting the size of its membership and its allocation of finals berths. The host association [[United Delet]] qualified as of right under FLLA hosting regulations and additionally took part in the [[NAFVL]] qualifying tournament in a non-binding capacity; United Delet were placed in the [[NAFVL]] central qualifying pool but withdrew from the qualifying matchday programme after the third round. The defending champions [[New Misos]], winners of the [[1748 FLLA World Cup]], qualified through the [[ATFVL]] qualifiers on merit.<ref>{{cite web|url=https://www.flla.org/1752/qualification-summary|title=1752 FLLA World Cup qualification: confederation berth allocation|publisher=[[FLLA]]|date=20 November 1751}}</ref>
 
@@ -77,8 +78,8 @@ First-round groups followed by a final octagonal round-robin. Qualified teams:
 * {{Flagicon|New Misos}} [[New Misos]]
 * {{Flagicon|Raledria}} [[Raledria]]
 * {{Flagicon|Etirha}} [[Etirha]]
-* {{Flagicon|Laselteh}} [[Laselteh]]
-* {{Flagicon|Guise}} [[Guise]]
+* {{Flagicon|Grazail}} [[Grazail]]
+* {{Flagicon|Genaire}} [[Genaire]]
 
 ==== [[AYFVL]] (Ayuma) 6 berths ====
 Six qualifying groups; group winners qualify directly. Qualified teams:
@@ -94,7 +95,7 @@ A single 23-team double round-robin league, with the host association exempt fro
 * {{Flagicon|United Delet}} [[United Delet]] ''(host)''
 * {{Flagicon|Iainoa}} [[Iainoa]]
 * {{Flagicon|Walporein}} [[Walporein]]
-* {{Flagicon|Mendereide}} [[Mendereide]]
+* {{Flagicon|Rethern}} [[Rethern]]
 * {{Flagicon|Andsaudare}} [[Andsaudare]]
 * {{Flagicon|Astye}} [[Astye]]
 
@@ -102,8 +103,8 @@ A single 23-team double round-robin league, with the host association exempt fro
 Four qualifying groups; group winners qualify directly. Qualified teams:
 * {{Flagicon|Sivoso}} [[Sivoso]]
 * {{Flagicon|Trian}} [[Trian]]
-* {{Flagicon|Exilium}} [[Exilium]]
-* {{Flagicon|Chaenia}} [[Chaenia]]
+* {{Flagicon|Selaja}} [[Selaja]]
+* {{Flagicon|Otiiric}} [[Otiiric]]
 
 ==== [[QUFVL]] (Quia) 5 berths ====
 Two qualifying groups followed by a final round-robin. Qualified teams:
@@ -111,18 +112,18 @@ Two qualifying groups followed by a final round-robin. Qualified teams:
 * {{Flagicon|Quidic}} [[Quidic]]
 * {{Flagicon|Wundry}} [[Wundry]]
 * {{Flagicon|Ztesh}} [[Ztesh]]
-* {{Flagicon|Myla}} [[Myla]]
+* {{Flagicon|Zhanshe}} [[Zhanshe]]
 
 ==== [[MSFVL]] (Massir) 3 berths ====
 First-round groups followed by a single final round-robin. Qualified teams:
 * {{Flagicon|Haiza}} [[Haiza]]
-* {{Flagicon|Ucrua}} [[Ucrua]]
+* {{Flagicon|Sanagara}} [[Sanagara]]
 * {{Flagicon|Taval}} [[Taval]]
 
 ==== [[ACFVL]] (Acrola) 3 berths ====
 First-round groups followed by single-leg knockout playoffs. Qualified teams:
-* {{Flagicon|Terressin}} [[Terressin]]
-* {{Flagicon|Pelines}} [[Pelines]]
+* {{Flagicon|Taniduna}} [[Taniduna]]
+* {{Flagicon|Candenat}} [[Candenat]]
 * {{Flagicon|Acetoa}} [[Acetoa]]
 
 ===Final draw===
@@ -161,22 +162,22 @@ The draw was conducted by FLLA general secretary Maren Vossal and presented by U
 | {{Flagicon|Ztesh}} [[Ztesh]]
 | {{Flagicon|Trian}} [[Trian]]
 |-
-| {{Flagicon|Chaenia}} [[Chaenia]]
-| {{Flagicon|Myla}} [[Myla]]
-| {{Flagicon|Mendereide}} [[Mendereide]]
+| {{Flagicon|Otiiric}} [[Otiiric]]
+| {{Flagicon|Zhanshe}} [[Zhanshe]]
+| {{Flagicon|Rethern}} [[Rethern]]
 | {{Flagicon|Emara}} [[Emara]]
 | {{Flagicon|Sivoso}} [[Sivoso]]
-| {{Flagicon|Laselteh}} [[Laselteh]]
-| {{Flagicon|Exilium}} [[Exilium]]
+| {{Flagicon|Grazail}} [[Grazail]]
+| {{Flagicon|Selaja}} [[Selaja]]
 | {{Flagicon|Easuhura}} [[Easuhura]]
 |-
 | {{Flagicon|Taval}} [[Taval]]
 | {{Flagicon|Acetoa}} [[Acetoa]]
 | {{Flagicon|Haiza}} [[Haiza]]
-| {{Flagicon|Pelines}} [[Pelines]]
-| {{Flagicon|Guise}} [[Guise]]
-| {{Flagicon|Ucrua}} [[Ucrua]]
-| {{Flagicon|Terressin}} [[Terressin]]
+| {{Flagicon|Candenat}} [[Candenat]]
+| {{Flagicon|Genaire}} [[Genaire]]
+| {{Flagicon|Sanagara}} [[Sanagara]]
+| {{Flagicon|Taniduna}} [[Taniduna]]
 | {{Flagicon|Etirha}} [[Etirha]]
 |}
 ''Host is shown in italics.''
@@ -278,7 +279,7 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Walporein}} '''[[Walporein]]''' || 3 || 1 || 2 || 0 || 4 || 3 || +1 || 5
 |-
-| 3 || align="left" | {{Flagicon|Chaenia}} [[Chaenia]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
+| 3 || align="left" | {{Flagicon|Otiiric}} [[Otiiric]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
 |-
 | 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 3 || 0 || 1 || 2 || 1 || 4 || −3 || 1 ||
 |}
@@ -289,15 +290,15 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | align="left" | 7 June 1752 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Talanvi Olympic Stadium, Talanvi
 |-
-| align="left" | 7 June 1752 || align="right" | Walporein {{Flagicon|Walporein}} || 1–1 || {{Flagicon|Chaenia}} Chaenia || align="left" | Mordeli City Stadium, Mordeli
+| align="left" | 7 June 1752 || align="right" | Walporein {{Flagicon|Walporein}} || 1–1 || {{Flagicon|Otiiric}} Otiiric || align="left" | Mordeli City Stadium, Mordeli
 |-
-| align="left" | 11 June 1752 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 1–0 || {{Flagicon|Chaenia}} Chaenia || align="left" | Talanvi Olympic Stadium, Talanvi
+| align="left" | 11 June 1752 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 1–0 || {{Flagicon|Otiiric}} Otiiric || align="left" | Talanvi Olympic Stadium, Talanvi
 |-
 | align="left" | 11 June 1752 || align="right" | '''Walporein''' {{Flagicon|Walporein}} || 2–1 || {{Flagicon|Taval}} Taval || align="left" | Mordeli City Stadium, Mordeli
 |-
 | align="left" | 16 June 1752 || align="right" | Praesyu {{Flagicon|Praesyu}} || 1–1 || {{Flagicon|Walporein}} Walporein || align="left" | Estadio Mantraal, Mantraal
 |-
-| align="left" | 16 June 1752 || align="right" | Chaenia {{Flagicon|Chaenia}} || 1–1 || {{Flagicon|Taval}} Taval || align="left" | Lurimah Field, Lurimah
+| align="left" | 16 June 1752 || align="right" | Otiiric {{Flagicon|Otiiric}} || 1–1 || {{Flagicon|Taval}} Taval || align="left" | Lurimah Field, Lurimah
 |}
 
 ===Group B===
@@ -309,7 +310,7 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Iainoa}} '''[[Iainoa]]''' || 3 || 1 || 2 || 0 || 3 || 1 || +2 || 5
 |-
-| 3 || align="left" | {{Flagicon|Myla}} [[Myla]] || 3 || 1 || 1 || 1 || 3 || 3 || 0 || 4 ||
+| 3 || align="left" | {{Flagicon|Zhanshe}} [[Zhanshe]] || 3 || 1 || 1 || 1 || 3 || 3 || 0 || 4 ||
 |-
 | 4 || align="left" | {{Flagicon|Acetoa}} [[Acetoa]] || 3 || 0 || 0 || 3 || 0 || 4 || −4 || 0 ||
 |}
@@ -320,13 +321,13 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | align="left" | 8 June 1752 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 1–0 || {{Flagicon|Acetoa}} Acetoa || align="left" | Vairana Arena, Vairana
 |-
-| align="left" | 8 June 1752 || align="right" | Iainoa {{Flagicon|Iainoa}} || 1–1 || {{Flagicon|Myla}} Myla || align="left" | Zarnath Coliseum, Zarnath
+| align="left" | 8 June 1752 || align="right" | Iainoa {{Flagicon|Iainoa}} || 1–1 || {{Flagicon|Zhanshe}} Zhanshe || align="left" | Zarnath Coliseum, Zarnath
 |-
 | align="left" | 12 June 1752 || align="right" | Raledria {{Flagicon|Raledria}} || 0–0 || {{Flagicon|Iainoa}} Iainoa || align="left" | Vairana Arena, Vairana
 |-
-| align="left" | 12 June 1752 || align="right" | '''Myla''' {{Flagicon|Myla}} || 1–0 || {{Flagicon|Acetoa}} Acetoa || align="left" | Ravohni Sports Park, Ravohni
+| align="left" | 12 June 1752 || align="right" | '''Zhanshe''' {{Flagicon|Zhanshe}} || 1–0 || {{Flagicon|Acetoa}} Acetoa || align="left" | Ravohni Sports Park, Ravohni
 |-
-| align="left" | 17 June 1752 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Myla}} Myla || align="left" | Zarnath Coliseum, Zarnath
+| align="left" | 17 June 1752 || align="right" | '''Raledria''' {{Flagicon|Raledria}} || 2–1 || {{Flagicon|Zhanshe}} Zhanshe || align="left" | Zarnath Coliseum, Zarnath
 |-
 | align="left" | 17 June 1752 || align="right" | '''Iainoa''' {{Flagicon|Iainoa}} || 2–0 || {{Flagicon|Acetoa}} Acetoa || align="left" | Ravohni Sports Park, Ravohni
 |}
@@ -342,7 +343,7 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | 3 || align="left" | {{Flagicon|Haiza}} [[Haiza]] || 3 || 1 || 0 || 2 || 1 || 5 || −4 || 3 ||
 |-
-| 4 || align="left" | {{Flagicon|Mendereide}} [[Mendereide]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1 ||
+| 4 || align="left" | {{Flagicon|Rethern}} [[Rethern]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
@@ -351,13 +352,13 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | align="left" | 8 June 1752 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 2–0 || {{Flagicon|Haiza}} Haiza || align="left" | Estadio Mantraal, Mantraal
 |-
-| align="left" | 8 June 1752 || align="right" | Ukhdari {{Flagicon|Ukhdari}} || 1–1 || {{Flagicon|Mendereide}} Mendereide || align="left" | Calhantri Federal Stadium, Calhantri
+| align="left" | 8 June 1752 || align="right" | Ukhdari {{Flagicon|Ukhdari}} || 1–1 || {{Flagicon|Rethern}} Rethern || align="left" | Calhantri Federal Stadium, Calhantri
 |-
 | align="left" | 12 June 1752 || align="right" | Quidic {{Flagicon|Quidic}} || 1–1 || {{Flagicon|Ukhdari}} Ukhdari || align="left" | Estadio Mantraal, Mantraal
 |-
-| align="left" | 13 June 1752 || align="right" | Mendereide {{Flagicon|Mendereide}} || 0–1 || {{Flagicon|Haiza}} '''Haiza''' || align="left" | Solekhan Memorial Stadium, Solekhan
+| align="left" | 13 June 1752 || align="right" | Rethern {{Flagicon|Rethern}} || 0–1 || {{Flagicon|Haiza}} '''Haiza''' || align="left" | Solekhan Memorial Stadium, Solekhan
 |-
-| align="left" | 17 June 1752 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 1–0 || {{Flagicon|Mendereide}} Mendereide || align="left" | Calhantri Federal Stadium, Calhantri
+| align="left" | 17 June 1752 || align="right" | '''Quidic''' {{Flagicon|Quidic}} || 1–0 || {{Flagicon|Rethern}} Rethern || align="left" | Calhantri Federal Stadium, Calhantri
 |-
 | align="left" | 17 June 1752 || align="right" | '''Ukhdari''' {{Flagicon|Ukhdari}} || 3–0 || {{Flagicon|Haiza}} Haiza || align="left" | Solekhan Memorial Stadium, Solekhan
 |}
@@ -373,24 +374,24 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | 3 || align="left" | {{Flagicon|Emara}} [[Emara]] || 3 || 1 || 1 || 1 || 3 || 4 || −1 || 4 ||
 |-
-| 4 || align="left" | {{Flagicon|Pelines}} [[Pelines]] || 3 || 0 || 0 || 3 || 0 || 4 || −4 || 0 ||
+| 4 || align="left" | {{Flagicon|Candenat}} [[Candenat]] || 3 || 0 || 0 || 3 || 0 || 4 || −4 || 0 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group D matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 9 June 1752 || align="right" | '''New Misos''' {{Flagicon|New Misos}} || 1–0 || {{Flagicon|Pelines}} Pelines || align="left" | Khaldari National Stadium, Khaldari
+| align="left" | 9 June 1752 || align="right" | '''New Misos''' {{Flagicon|New Misos}} || 1–0 || {{Flagicon|Candenat}} Candenat || align="left" | Khaldari National Stadium, Khaldari
 |-
 | align="left" | 9 June 1752 || align="right" | '''Andsaudare''' {{Flagicon|Andsaudare}} || 2–1 || {{Flagicon|Emara}} Emara || align="left" | Mordeli City Stadium, Mordeli
 |-
 | align="left" | 13 June 1752 || align="right" | New Misos {{Flagicon|New Misos}} || 1–1 || {{Flagicon|Andsaudare}} Andsaudare || align="left" | Khaldari National Stadium, Khaldari
 |-
-| align="left" | 13 June 1752 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Pelines}} Pelines || align="left" | Mordeli City Stadium, Mordeli
+| align="left" | 13 June 1752 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Candenat}} Candenat || align="left" | Mordeli City Stadium, Mordeli
 |-
 | align="left" | 18 June 1752 || align="right" | '''New Misos''' {{Flagicon|New Misos}} || 2–0 || {{Flagicon|Emara}} Emara || align="left" | Lurimah Field, Lurimah
 |-
-| align="left" | 18 June 1752 || align="right" | '''Andsaudare''' {{Flagicon|Andsaudare}} || 1–0 || {{Flagicon|Pelines}} Pelines || align="left" | Ravohni Sports Park, Ravohni
+| align="left" | 18 June 1752 || align="right" | '''Andsaudare''' {{Flagicon|Andsaudare}} || 1–0 || {{Flagicon|Candenat}} Candenat || align="left" | Ravohni Sports Park, Ravohni
 |}
 
 ===Group E===
@@ -404,7 +405,7 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | 3 || align="left" | {{Flagicon|Astye}} [[Astye]] || 3 || 0 || 2 || 1 || 2 || 4 || −2 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Guise}} [[Guise]] || 3 || 0 || 2 || 1 || 1 || 3 || −2 || 2 ||
+| 4 || align="left" | {{Flagicon|Genaire}} [[Genaire]] || 3 || 0 || 2 || 1 || 1 || 3 || −2 || 2 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
@@ -413,15 +414,15 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |-
 | align="left" | 7 June 1752 || align="right" | '''Sivoso''' {{Flagicon|Sivoso}} || 1–0 || {{Flagicon|Verusa}} Verusa || align="left" | Calhantri Federal Stadium, Calhantri
 |-
-| align="left" | 7 June 1752 || align="right" | Astye {{Flagicon|Astye}} || 1–1 || {{Flagicon|Guise}} Guise || align="left" | Zarnath Coliseum, Zarnath
+| align="left" | 7 June 1752 || align="right" | Astye {{Flagicon|Astye}} || 1–1 || {{Flagicon|Genaire}} Genaire || align="left" | Zarnath Coliseum, Zarnath
 |-
-| align="left" | 12 June 1752 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–0 || {{Flagicon|Guise}} Guise || align="left" | Solekhan Memorial Stadium, Solekhan
+| align="left" | 12 June 1752 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–0 || {{Flagicon|Genaire}} Genaire || align="left" | Solekhan Memorial Stadium, Solekhan
 |-
 | align="left" | 12 June 1752 || align="right" | Sivoso {{Flagicon|Sivoso}} || 1–1 || {{Flagicon|Astye}} Astye || align="left" | Calhantri Federal Stadium, Calhantri
 |-
 | align="left" | 16 June 1752 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–0 || {{Flagicon|Astye}} Astye || align="left" | Zarnath Coliseum, Zarnath
 |-
-| align="left" | 16 June 1752 || align="right" | Sivoso {{Flagicon|Sivoso}} || 0–0 || {{Flagicon|Guise}} Guise || align="left" | Lurimah Field, Lurimah
+| align="left" | 16 June 1752 || align="right" | Sivoso {{Flagicon|Sivoso}} || 0–0 || {{Flagicon|Genaire}} Genaire || align="left" | Lurimah Field, Lurimah
 |}
 
 ===Group F===
@@ -433,26 +434,26 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 1 || 1 || 3 || 4 || −1 || 4
 |-
-| 3 || align="left" | {{Flagicon|Laselteh}} [[Laselteh]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
+| 3 || align="left" | {{Flagicon|Grazail}} [[Grazail]] || 3 || 0 || 2 || 1 || 2 || 3 || −1 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Ucrua}} [[Ucrua]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1 ||
+| 4 || align="left" | {{Flagicon|Sanagara}} [[Sanagara]] || 3 || 0 || 1 || 2 || 1 || 3 || −2 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group F matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 9 June 1752 || align="right" | '''Erkizil''' {{Flagicon|Erkizil}} || 2–0 || {{Flagicon|Ucrua}} Ucrua || align="left" | Estadio Mantraal, Mantraal
+| align="left" | 9 June 1752 || align="right" | '''Erkizil''' {{Flagicon|Erkizil}} || 2–0 || {{Flagicon|Sanagara}} Sanagara || align="left" | Estadio Mantraal, Mantraal
 |-
-| align="left" | 9 June 1752 || align="right" | Merela Sta {{Flagicon|Merela Sta}} || 1–1 || {{Flagicon|Laselteh}} Laselteh || align="left" | Solekhan Memorial Stadium, Solekhan
+| align="left" | 9 June 1752 || align="right" | Merela Sta {{Flagicon|Merela Sta}} || 1–1 || {{Flagicon|Grazail}} Grazail || align="left" | Solekhan Memorial Stadium, Solekhan
 |-
-| align="left" | 13 June 1752 || align="right" | '''Erkizil''' {{Flagicon|Erkizil}} || 1–0 || {{Flagicon|Laselteh}} Laselteh || align="left" | Calhantri Federal Stadium, Calhantri
+| align="left" | 13 June 1752 || align="right" | '''Erkizil''' {{Flagicon|Erkizil}} || 1–0 || {{Flagicon|Grazail}} Grazail || align="left" | Calhantri Federal Stadium, Calhantri
 |-
-| align="left" | 14 June 1752 || align="right" | Ucrua {{Flagicon|Ucrua}} || 0–1 || {{Flagicon|Merela Sta}} '''Merela Sta''' || align="left" | Lurimah Field, Lurimah
+| align="left" | 14 June 1752 || align="right" | Sanagara {{Flagicon|Sanagara}} || 0–1 || {{Flagicon|Merela Sta}} '''Merela Sta''' || align="left" | Lurimah Field, Lurimah
 |-
 | align="left" | 18 June 1752 || align="right" | '''Erkizil''' {{Flagicon|Erkizil}} || 2–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Estadio Mantraal, Mantraal
 |-
-| align="left" | 18 June 1752 || align="right" | Ucrua {{Flagicon|Ucrua}} || 1–1 || {{Flagicon|Laselteh}} Laselteh || align="left" | Calhantri Federal Stadium, Calhantri
+| align="left" | 18 June 1752 || align="right" | Sanagara {{Flagicon|Sanagara}} || 1–1 || {{Flagicon|Grazail}} Grazail || align="left" | Calhantri Federal Stadium, Calhantri
 |}
 
 ===Group G===
@@ -464,26 +465,26 @@ All times listed are United Delet Time ([[wikipedia:UTC+05:00|UDT]], [[wikipedia
 |- style="background:#ccffcc;"
 | 2 || align="left" | {{Flagicon|Ztesh}} '''[[Ztesh]]''' || 3 || 1 || 2 || 0 || 2 || 1 || +1 || 5
 |-
-| 3 || align="left" | {{Flagicon|Exilium}} [[Exilium]] || 3 || 1 || 0 || 2 || 2 || 4 || −2 || 3 ||
+| 3 || align="left" | {{Flagicon|Selaja}} [[Selaja]] || 3 || 1 || 0 || 2 || 2 || 4 || −2 || 3 ||
 |-
-| 4 || align="left" | {{Flagicon|Terressin}} [[Terressin]] || 3 || 0 || 1 || 2 || 1 || 4 || −3 || 1 ||
+| 4 || align="left" | {{Flagicon|Taniduna}} [[Taniduna]] || 3 || 0 || 1 || 2 || 1 || 4 || −3 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group G matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 10 June 1752 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Terressin}} Terressin || align="left" | Vairana Arena, Vairana
+| align="left" | 10 June 1752 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Taniduna}} Taniduna || align="left" | Vairana Arena, Vairana
 |-
-| align="left" | 10 June 1752 || align="right" | '''Ztesh''' {{Flagicon|Ztesh}} || 1–0 || {{Flagicon|Exilium}} Exilium || align="left" | Zarnath Coliseum, Zarnath
+| align="left" | 10 June 1752 || align="right" | '''Ztesh''' {{Flagicon|Ztesh}} || 1–0 || {{Flagicon|Selaja}} Selaja || align="left" | Zarnath Coliseum, Zarnath
 |-
 | align="left" | 14 June 1752 || align="right" | Wundry {{Flagicon|Wundry}} || 1–1 || {{Flagicon|Ztesh}} Ztesh || align="left" | Vairana Arena, Vairana
 |-
-| align="left" | 14 June 1752 || align="right" | '''Exilium''' {{Flagicon|Exilium}} || 2–1 || {{Flagicon|Terressin}} Terressin || align="left" | Ravohni Sports Park, Ravohni
+| align="left" | 14 June 1752 || align="right" | '''Selaja''' {{Flagicon|Selaja}} || 2–1 || {{Flagicon|Taniduna}} Taniduna || align="left" | Ravohni Sports Park, Ravohni
 |-
-| align="left" | 19 June 1752 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Exilium}} Exilium || align="left" | Mordeli City Stadium, Mordeli
+| align="left" | 19 June 1752 || align="right" | '''Wundry''' {{Flagicon|Wundry}} || 2–0 || {{Flagicon|Selaja}} Selaja || align="left" | Mordeli City Stadium, Mordeli
 |-
-| align="left" | 19 June 1752 || align="right" | Ztesh {{Flagicon|Ztesh}} || 0–0 || {{Flagicon|Terressin}} Terressin || align="left" | Zarnath Coliseum, Zarnath
+| align="left" | 19 June 1752 || align="right" | Ztesh {{Flagicon|Ztesh}} || 0–0 || {{Flagicon|Taniduna}} Taniduna || align="left" | Zarnath Coliseum, Zarnath
 |}
 
 ===Group H===
@@ -965,7 +966,7 @@ The final between [[Praesyu]] and [[Verusa]] was the most-watched television bro
 
 ===Attendance===
 
-Cumulative attendance across the 64 matches of the tournament was 2,948,000 spectators, an average of 46,063 per match. The highest single-match attendance was the 79,800 recorded at the [[#Final|final]] between [[Praesyu]] and [[Verusa]] at the Estadio Mantraal in [[Mantraal]], just below the stadium's listed all-seater capacity of 80,000; the lowest was the 36,400 attending the Group F fixture between [[Ucrua]] and [[Laselteh]] at the Calhantri Federal Stadium on 18 June.
+Cumulative attendance across the 64 matches of the tournament was 2,948,000 spectators, an average of 46,063 per match. The highest single-match attendance was the 79,800 recorded at the [[#Final|final]] between [[Praesyu]] and [[Verusa]] at the Estadio Mantraal in [[Mantraal]], just below the stadium's listed all-seater capacity of 80,000; the lowest was the 36,400 attending the Group F fixture between [[Sanagara]] and [[Grazail]] at the Calhantri Federal Stadium on 18 June.
 
 Across the tournament, attendance averaged 54,300 in the knockout stage and 43,750 in the group stage. The three highest single-match attendances of the tournament were all recorded at the Estadio Mantraal, with the final, the QF1 between [[Praesyu]] and [[Quidic]], and the round-of-16 fixture between [[Praesyu]] and [[Iainoa]] all drawing crowds in excess of 78,000.
 
