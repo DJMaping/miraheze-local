@@ -46,7 +46,7 @@ Because the original [[FLLA World Cup#The Andah Cup|Andah Cup]] had been destroy
 
 ==Host selection==
 
-The 1700 tournament was the first to be organised by the [[FLLA]] following its reconstitution in 1683 and the disruption of the [[Red War]]. The competition scheduled for [[1688 FLLA World Cup|1688]] had been awarded to [[Raledria]] at a Federation Congress in 1685, but was abandoned after the outbreak of war on 22 May 1688; the planned host city was overrun in the early phase of the conflict, and the original Andah Cup, awaiting transfer to the new champions, was lost in the ensuing fire.<ref name="flla-redwar">{{cite web|url=https://www.flla.org/heritage/history/red-war-cancellations|title=The Red War and the cancelled editions of 1688, 1692 and 1696|publisher=[[FLLA]]|date=30 May 1763}}</ref>
+The 1700 tournament was the first to be organised by the [[FLLA]] following its reconstitution in 1683 and the disruption of the [[Red War]]. The competition scheduled for [[1688 FLLA World Cup|1688]] had been awarded to [[Raledria]] at a Federation Congress in 1685, but was abandoned after the outbreak of war on 22 May 1688.
 
 With the cessation of hostilities and the Council's resolution to re-establish the competition under a new framework, the hosting rights for the relaunched tournament were awarded to [[Raledria]] at a Council meeting on 3 April 1697, in part as a restoration of the edition lost in 1688. The Raledrian Arraby Association undertook to stage the finals across six cities and to commission a permanent trophy for the champions in the absence of a rotating cup. The choice of an [[Atirha|Atirhan]] host, the first outside [[Ayuma]] in the competition's history, was presented by the Council as a deliberate expression of the tournament's newly declared worldwide character.<ref name="flla-rebrand" />
 
@@ -257,91 +257,25 @@ All dates are given in the local time of the host cities.
 The knockout stage involved the eight teams that advanced from the group stage, with each group winner drawn against a runner-up from another group. Ties level after 90 minutes were extended by a single period of [[wikipedia:Extra time|extra time]]; one of the four quarter-finals and one of the two semi-finals were decided in the additional period. No tie required a replay.
 
 ===Bracket===
-{| style="border-collapse:collapse; text-align:center; font-size:90%;" cellpadding="4"
+{| class="wikitable" style="text-align: center; font-size: 95%;"
+|+ Knockout bracket
+! colspan="2" | Quarter-finals !! colspan="2" | Semi-finals !! colspan="2" | Final
 |-
-! style="width:11em;" | Quarter-finals
-! style="width:1.5em;" |
-! style="width:11em;" | Semi-finals
-! style="width:1.5em;" |
-! style="width:11em;" | Final
+| align="left" | {{Flagicon|Raledria}} '''Raledria''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || rowspan="4" | &nbsp; || rowspan="4" | &nbsp;
 |-
-| align="right" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 2
-| rowspan="2" |
-|
-|
-|
+| align="left" | {{Flagicon|Eldjo}} Eldjo || 0
 |-
-| align="right" | {{Flagicon|Eldjo}} [[Eldjo]] || 0
-|
-|
-|
-|
+| align="left" | {{Flagicon|Siana}} '''Siana''' (a.e.t.) || 1 || align="left" | {{Flagicon|Raledria}} '''Raledria''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp;
 |-
-|
-|
-| align="right" | {{Flagicon|Raledria}} '''[[Raledria]]''' || 2
-| rowspan="2" |
-|
+| align="left" | {{Flagicon|Estijan}} Estijan || 0 || align="left" | {{Flagicon|Siana}} Siana || 1
 |-
-|
-|
-| align="right" | {{Flagicon|Siana}} [[Siana]] || 1
-|
-|
+| align="left" | {{Flagicon|Lycroa}} '''Lycroa''' || 2 || rowspan="2" | &nbsp; || rowspan="2" | &nbsp; || align="left" | {{Flagicon|Raledria}} '''Raledria''' || 3
 |-
-| align="right" | {{Flagicon|Siana}} '''[[Siana]]''' (a.e.t.) || 1
-| rowspan="2" |
-|
-|
-|
+| align="left" | {{Flagicon|Praesyu}} Praesyu || 1 || || || align="left" | {{Flagicon|United Delet}} United Delet || 1
 |-
-| align="right" | {{Flagicon|Estijan}} [[Estijan]] || 0
-|
-|
-|
-| align="right" | {{Flagicon|Raledria}} '''[[Raledria]]''' || '''3'''
+| align="left" | {{Flagicon|United Delet}} '''United Delet''' || 2 || align="left" | {{Flagicon|United Delet}} '''United Delet''' (a.e.t.) || 1 || colspan="2" rowspan="2" | &nbsp;
 |-
-|
-|
-|
-|
-| align="right" | {{Flagicon|United Delet}} [[United Delet]] || 1
-|-
-| align="right" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 2
-| rowspan="2" |
-|
-|
-|
-|-
-| align="right" | {{Flagicon|Praesyu}} [[Praesyu]] || 1
-|
-|
-|
-|
-|-
-|
-|
-| align="right" | {{Flagicon|Lycroa}} [[Lycroa]] || 0
-| rowspan="2" |
-|
-|-
-|
-|
-| align="right" | {{Flagicon|United Delet}} '''[[United Delet]]''' (a.e.t.) || 1
-|
-|
-|-
-| align="right" | {{Flagicon|Emara}} [[Emara]] || 1
-| rowspan="2" |
-|
-|
-|
-|-
-| align="right" | {{Flagicon|United Delet}} '''[[United Delet]]''' || 2
-|
-|
-|
-|
+| align="left" | {{Flagicon|Emara}} Emara || 1 || align="left" | {{Flagicon|Lycroa}} Lycroa || 0
 |}
 
 ''Third-place playoff: {{Flagicon|Lycroa}} '''[[Lycroa]]''' 3–1 {{Flagicon|Siana}} [[Siana]].''
@@ -492,7 +426,7 @@ In keeping with the practice of the period, the [[FLLA]] published a final ranki
 
 The 1700 edition holds a distinctive place in the history of the [[FLLA World Cup]]. As the first tournament staged under the World Cup name, the first held in [[Atirha]] and the first to follow the [[Red War]], it marked the relaunch of the competition under the reconstituted [[FLLA]] and the formal recognition of its worldwide character.<ref name="flla-rebrand" />
 
-It also established the competition's enduring [[FLLA World Cup#Permanent trophies|permanent-trophy tradition]]. With the original Andah Cup destroyed in 1688 and no rotating trophy yet available, the Raledrian Arraby Association commissioned a bespoke permanent trophy, '''the Solana''', as the sole senior award of the tournament. The Solana was presented to [[Raledria]] in perpetuity and is held at the Tirna National Museum. The practice of commissioning a unique permanent trophy for each edition proved popular among champion associations and was retained alongside the new Andah Cup when the rotating cup was reintroduced at the [[1716 FLLA World Cup|1716 edition]], producing the two-trophy system that has characterised the competition ever since.<ref name="flla-solana" />
+It also established the competition's enduring [[FLLA World Cup#Permanent trophies|permanent-trophy tradition]]. With the original Andah Cup destroyed in 1688 in [[Alzuria]] and no rotating trophy yet available, the Raledrian Arraby Association commissioned a bespoke permanent trophy, '''the Solana''', as the sole senior award of the tournament. The Solana was presented to [[Raledria]] in perpetuity and is held at the Tirna National Museum. The practice of commissioning a unique permanent trophy for each edition proved popular among champion associations and was retained alongside the new Andah Cup when the rotating cup was reintroduced at the [[1716 FLLA World Cup|1716 edition]], producing the two-trophy system that has characterised the competition ever since.<ref name="flla-solana" />
 
 The victory was the first of [[Raledria]]'s four FLLA World Cup titles and the start of a sustained period of Raledrian success, the country reaching the final of each of the following four editions and winning three of them. For [[United Delet]], the runners-up finish anticipated their own triumph as hosts at the [[1708 FLLA World Cup|1708 edition]], the first FLLA World Cup held in [[New Ayre]].<ref name="flla-overview" />
 
