@@ -1,6 +1,6 @@
 * navigation
 ** mainpage|mainpage-description
-** Special:Random|Random article
+** randompage-url|randompage
 ** Special:RecentChanges|Recent changes
 ** Special:Statistics|About Andah
 ** Special:NewPages|New pages

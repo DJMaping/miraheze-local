@@ -1,0 +1,91 @@
+<includeonly>{{Navbox
+| name  = FLLA World Cup
+| title = [[FLLA World Cup]]
+| state = {{{state|autocollapse}}}
+| listclass = hlist
+| above = [[FLLA]], the global governing body of [[Arraby]]
+
+| group1 = Tournaments
+| list1 =
+* [[1656 FLLA World Cup|1656]]
+* [[1660 FLLA World Cup|1660]]
+* ''1664''<sup>†</sup>
+* [[1668 FLLA World Cup|1668]]
+* [[1672 FLLA World Cup|1672]]
+* [[1676 FLLA World Cup|1676]]
+* [[1680 FLLA World Cup|1680]]
+* [[1684 FLLA World Cup|1684]]
+* ''1688''<sup>†</sup>
+* ''1692''<sup>†</sup>
+* ''1696''<sup>†</sup>
+* [[1700 FLLA World Cup|1700]]
+* [[1704 FLLA World Cup|1704]]
+* [[1708 FLLA World Cup|1708]]
+* [[1712 FLLA World Cup|1712]]
+* [[1716 FLLA World Cup|1716]]
+* [[1720 FLLA World Cup|1720]]
+* [[1724 FLLA World Cup|1724]]
+* [[1728 FLLA World Cup|1728]]
+* [[1732 FLLA World Cup|1732]]
+* [[1736 FLLA World Cup|1736]]
+* [[1740 FLLA World Cup|1740]]
+* [[1744 FLLA World Cup|1744]]
+* [[1748 FLLA World Cup|1748]]
+* [[1752 FLLA World Cup|1752]]
+* [[1756 FLLA World Cup|1756]]
+* [[1760 FLLA World Cup|1760]]
+* [[1764 FLLA World Cup|1764]]
+* [[1768 FLLA World Cup|1768]]
+* [[1772 FLLA World Cup|1772]]
+* [[1776 FLLA World Cup|1776]]
+
+| group2 = Qualification
+| list2 =
+* [[1704 FLLA World Cup qualification|1704]]
+* [[1752 FLLA World Cup qualification|1752]]
+
+| group3 = Squads
+| list3 =
+* [[1704 FLLA World Cup squads|1704]]
+
+| group4 = Confederations
+| list4 =
+* [[AYFVL]]
+* [[ATFVL]]
+* [[NAFVL]]
+* [[MAFVL]]
+* [[QUFVL]]
+* [[MSFVL]]
+* [[ACFVL]]
+
+| group5 = Trophies
+| list5 =
+* [[FLLA World Cup#The Andah Cup|Andah Cup]]
+* [[FLLA World Cup#The Ayuma Cup|Ayuma Cup]]
+* [[FLLA World Cup#Permanent trophies|Permanent trophies]]
+
+| group6 = Awards
+| list6 =
+* [[FLLA World Cup#Awards|Vairan Ball]]
+* [[FLLA World Cup#Awards|Marskval]]
+* [[FLLA World Cup#Awards|Bastion]]
+* [[FLLA World Cup#Awards|Best Young Player]]
+* [[FLLA World Cup#Awards|Fair Play Trophy]]
+
+| group7 = Symbols
+| list7 =
+* [[FLLA World Cup#Emblem and trophy|Emblems]]
+* [[FLLA World Cup#Mascot|Mascots]]
+* [[FLLA World Cup#Match ball|Match balls]]
+
+| group8 = Lists and records
+| list8 =
+* [[List of FLLA World Cup hosts|Hosts]]
+* [[List of FLLA World Cup finals|Finals]]
+* [[List of FLLA World Cup champions|Champions]]
+* [[National team appearances in the FLLA World Cup|Team appearances]]
+
+| below = <sup>†</sup> Awarded but not contested, cancelled because of intercontinental conflict (the [[Great Imperial War]] and the [[Red War]]).<br/>[[FLLA]]&nbsp;&middot; [[Arraby]] &middot; [[:Category:FLLA World Cup|Category]]
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

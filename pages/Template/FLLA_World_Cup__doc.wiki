@@ -1,0 +1,21 @@
+{{Documentation subpage}}
+
+This is the navigation box for the [[FLLA World Cup]] and its related articles. Place it at the foot of any FLLA World Cup article, below the ''See also'' / ''References'' sections and above the category block.
+
+== Usage ==
+
+<pre>{{FLLA World Cup}}</pre>
+
+The box is collapsible. By default it uses <code>autocollapse</code> (collapsed when two or more navboxes appear on the same page). To force a state, pass the <code>state</code> parameter:
+
+<pre>{{FLLA World Cup|state=collapsed}}
+{{FLLA World Cup|state=expanded}}</pre>
+
+== Notes ==
+
+* Editions marked <sup>†</sup> ([[1664 FLLA World Cup|1664]], [[1688 FLLA World Cup|1688]], [[1692 FLLA World Cup|1692]], [[1696 FLLA World Cup|1696]]) were awarded but never contested because of the [[Great Imperial War]] and the [[Red War]]; they are shown unlinked.
+* The [[1772 FLLA World Cup|1772]] and [[1776 FLLA World Cup|1776]] editions have confirmed hosts but no article yet.
+* Trophy, award and symbol entries point to sections of the main [[FLLA World Cup]] article until standalone articles exist.
+
+<includeonly>[[Category:FLLA World Cup]]
+[[Category:Sports navigational boxes]]</includeonly>
