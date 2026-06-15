@@ -1,0 +1,11 @@
+filters:
+  and:
+    - note.type == "confederation"
+views:
+  - type: table
+    name: Confederations
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC

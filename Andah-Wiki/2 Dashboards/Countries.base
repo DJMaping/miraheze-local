@@ -1,0 +1,16 @@
+filters:
+  and:
+    - note.type == "country"
+views:
+  - type: table
+    name: All countries
+    order:
+      - file.name
+      - note.capital
+      - note.population
+      - note.gdp_ppp
+      - note.hdi
+      - note.government
+    sort:
+      - property: note.population
+        direction: DESC

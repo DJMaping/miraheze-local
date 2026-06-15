@@ -23,6 +23,7 @@ Scale: ~3,250 tracked pages (~530 Main articles, ~1,580 Templates, ~340 Modules,
   WIKI_USER=BotUsername@BotName
   WIKI_PASS=bot-password-here
   EDIT_SUMMARY=Optional default edit summary
+  # OBSIDIAN_VAULT=optional vault path for to_obsidian.py (default: Andah-Wiki/ beside the script)
   ```
   Bot password is created at `Special:BotPasswords`.
 - `.state.json` is the local index (gitignored). It maps each page title to
@@ -99,8 +100,11 @@ Violating the canon rules below has repeatedly forced full rewrites and page del
 - `generate_cities.py` — regenerates `== Largest cities ==` sections from the `data/*Cities*.xlsx`
   spreadsheets. `python generate_cities.py dry [Country...]` to preview, `apply` to write.
   Idempotent (replaces the `LARGEST-CITIES-AUTO` block).
-- `to_obsidian.py` — one-directional export of Main + Category pages to an Obsidian vault. Never
-  writes back to the wiki.
+- `to_obsidian.py` — one-directional export of Main + Category pages to an Obsidian vault (target
+  resolved by `resolve_vault`: `--vault` > `OBSIDIAN_VAULT` env > default `Andah-Wiki/` beside the
+  script). Writes `<vault>/Articles/` + `<vault>/Categories/`, both **overwritten every run** (never
+  hand-edit; keep hand-authored notes elsewhere), with typed, queryable frontmatter (`type:` +
+  per-type fields). Never writes back to the wiki.
 
 ## Conventions for changes to this repo
 

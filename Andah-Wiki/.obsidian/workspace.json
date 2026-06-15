@@ -33,10 +33,14 @@
             "id": "b205943b563b7b6c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "4 Templates/Country.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Country"
             }
           }
         ]
@@ -201,8 +205,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "93648369cb003ee3",
+  "active": "b205943b563b7b6c",
   "lastOpenFiles": [
+    "4 Templates/Religion.md",
+    "1 Maps/World Cups.md",
+    "1 Maps/Religions.md",
+    "1 Maps/Economy.md",
+    "1 Maps/Confederations.md",
     "Welcome.md"
   ]
 }

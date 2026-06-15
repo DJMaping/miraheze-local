@@ -1,0 +1,15 @@
+filters:
+  and:
+    - note.type == "worldcup"
+views:
+  - type: table
+    name: World Cup editions
+    order:
+      - note.year
+      - note.host
+      - note.champion
+      - note.runner_up
+      - note.top_scorer
+    sort:
+      - property: note.year
+        direction: ASC

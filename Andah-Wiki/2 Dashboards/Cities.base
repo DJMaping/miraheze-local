@@ -1,0 +1,14 @@
+filters:
+  and:
+    - note.type == "city"
+views:
+  - type: table
+    name: Cities
+    order:
+      - file.name
+      - note.settlement_type
+      - note.population
+      - note.demonym
+    sort:
+      - property: note.population
+        direction: DESC

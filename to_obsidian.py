@@ -11,12 +11,24 @@ Read-only against the wiki/GitHub; only writes into the Obsidian vault.
 import os
 import re
 import json
+import argparse
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 STATE_FILE = Path(".state.json")
-VAULT = Path(r"C:\Users\danny\Documents\1 Ob Andah\Andah-Wiki")
-ART_DIR = VAULT / "Articles"
-CAT_DIR = VAULT / "Categories"
+
+
+def resolve_vault(cli_vault=None):
+    """Locate the Obsidian vault: --vault arg > OBSIDIAN_VAULT env > sibling default."""
+    if cli_vault:
+        return Path(cli_vault).expanduser().resolve()
+    env = os.environ.get("OBSIDIAN_VAULT")
+    if env:
+        return Path(env).expanduser().resolve()
+    return Path(__file__).resolve().parent / "Andah-Wiki"
 
 # ---------------------------------------------------------------------------
 # Cleanup helpers
@@ -227,7 +239,9 @@ def _skip_param(k: str) -> bool:
 def _render_infobox(tmpl: str):
     inner = tmpl[2:-2]
     parts = _split_params(inner)
+    template = re.sub(r"^\s*infobox\b\s*", "", parts[0], flags=re.IGNORECASE).strip().lower()
     rows = []
+    fields = {}
     for p in parts[1:]:
         if "=" not in p:
             continue
@@ -242,20 +256,25 @@ def _render_infobox(tmpl: str):
         v = re.sub(r"\s+", " ", v).strip().strip(",").strip()
         if not v:
             continue
+        fields[k.lower()] = v
         key = k.replace("_", " ").strip()
         key = key[:1].upper() + key[1:]
         rows.append((key, v))
+    meta = {"template": template, "fields": fields}
     if not rows:
-        return ""
+        return "", meta
     md = ["", "|  |  |", "| --- | --- |"]
     for k, v in rows:
         md.append(f"| {k} | {v} |")
     md.append("")
-    return "\n".join(md)
+    return "\n".join(md), meta
 
 
-def convert_infoboxes(text: str) -> str:
+def convert_infoboxes(text: str):
+    """Render infoboxes to markdown tables; also return the first infobox's
+    parsed {template, fields} dict for typed-frontmatter extraction."""
     out, i = [], 0
+    meta = None
     while True:
         m = re.search(r"\{\{\s*Infobox", text[i:], re.IGNORECASE)
         if not m:
@@ -265,9 +284,12 @@ def convert_infoboxes(text: str) -> str:
         tmpl, end = _find_template(text, start)
         if tmpl is None:
             out.append(text[start:]); break
-        out.append(_render_infobox(tmpl))
+        md, m_meta = _render_infobox(tmpl)
+        out.append(md)
+        if meta is None or (not meta.get("fields") and m_meta.get("fields")):
+            meta = m_meta
         i = end
-    return "".join(out)
+    return "".join(out), (meta or {"template": None, "fields": {}})
 
 
 def convert_tables(text: str) -> str:
@@ -390,7 +412,208 @@ def tag_slug(cat: str) -> str:
     return s
 
 
-def convert(title: str, raw: str) -> str:
+# ---------------------------------------------------------------------------
+# Typed frontmatter (second-brain enrichment)
+# ---------------------------------------------------------------------------
+
+_ARROW_CHARS = "▲▼▬"
+_NUMERIC_KEYS = {"population", "population_year", "area_km2", "hdi", "year", "countries"}
+EMIT_AS_LIST = {"official_languages", "denominations"}
+
+# Per-type field maps: (frontmatter_key, lowercased infobox/source key)
+_COUNTRY_FIELDS = [
+    ("capital", "capital"),
+    ("largest_city", "largest_city"),
+    ("population", "population_estimate"),
+    ("area_km2", "area_km2"),
+    ("gdp_ppp", "gdp_ppp"),
+    ("gdp_nominal", "gdp_nominal"),
+    ("hdi", "hdi"),
+    ("currency", "currency"),
+    ("government", "government_type"),
+    ("demonym", "demonym"),
+    ("official_languages", "official_languages"),
+]
+_CONTINENT_FIELDS = [
+    ("area", "area"),
+    ("population", "population"),
+    ("gdp_ppp", "gdp_ppp"),
+    ("gdp_nominal", "gdp_nominal"),
+    ("gdp_per_capita", "gdp_per_capita"),
+    ("countries", "countries"),
+    ("demonym", "demonym"),
+]
+_CITY_FIELDS = [
+    ("settlement_type", "settlement_type"),
+    ("population", "population_total"),
+    ("population_year", "population_as_of"),
+    ("demonym", "population_demonym"),
+]
+_WORLDCUP_FIELDS = [
+    ("year", "year"),
+    ("host", "host"),
+    ("dates", "dates"),
+    ("teams", "teams"),
+    ("champion", "champion"),
+    ("runner_up", "runner_up"),
+    ("third_place", "third_place"),
+    ("top_scorer", "top_scorer"),
+    ("best_player", "best_player"),
+]
+
+_WC_TITLE_RE = re.compile(r"^\d{4}\s+FLLA\s+World\s+Cup$", re.IGNORECASE)
+_WC_LABELS = {
+    "host country": "host", "host": "host", "host countries": "host",
+    "dates": "dates",
+    "teams": "teams",
+    "champion": "champion", "champions": "champion",
+    "runner-up": "runner_up", "runners-up": "runner_up", "runner up": "runner_up",
+    "third place": "third_place",
+    "top scorer": "top_scorer", "top scorers": "top_scorer", "top scorer(s)": "top_scorer",
+    "best player": "best_player",
+}
+
+
+def yaml_scalar(v) -> str:
+    """Double-quote and escape a value for safe YAML frontmatter."""
+    s = str(v).replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{s}"'
+
+
+def _clean_value(v: str) -> str:
+    v = v.strip().lstrip(_ARROW_CHARS).strip()
+    v = re.sub(r"(?i)\blahn(?=\d)", "lahn ", v)  # {{lahn}} expands glued to the figure
+    return v
+
+
+def _numish(v: str):
+    """Return a bare numeric string if v is purely numeric (commas/units-free), else None."""
+    core = re.sub(r"\s*\([^)]*\)\s*$", "", v).strip()   # drop a trailing "(1765)" etc.
+    core = core.lstrip(_ARROW_CHARS).strip().replace(",", "")
+    return core if re.fullmatch(r"\d+(?:\.\d+)?", core) else None
+
+
+def _delink(x: str) -> str:
+    return re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", x)
+
+
+def _split_list(v: str):
+    out, seen = [], set()
+    for item in v.split(","):
+        it = _delink(item.strip().lstrip("*").strip()).strip().strip(",").strip()
+        if not it or it.endswith(":") or re.fullmatch(r"[\W_]+", it):
+            continue
+        if "[[" in it or "]]" in it:            # drop mangled wikilink fragments
+            continue
+        if it.lower() in seen:
+            continue
+        seen.add(it.lower())
+        out.append(it)
+    return out
+
+
+def _detect_type(title: str, template, cats, is_category: bool) -> str:
+    """First match wins: title pattern > infobox template > clean category > generic."""
+    if is_category:
+        return "category"
+    if _WC_TITLE_RE.match(title.strip()):
+        return "worldcup"
+    t = (template or "").lower()
+    if t in ("country", "former country", "nation"):
+        return "country"
+    if t == "continent":
+        return "continent"
+    if t in ("settlement", "city"):
+        return "city"
+    if t == "officeholder":
+        return "person"
+    catset = {c.lower() for c in cats}
+    if "flla confederations" in catset or "confederations" in catset:
+        return "confederation"
+    if "religions" in catset or "religion" in catset:
+        return "religion"
+    return "article"
+
+
+def _clean_wc_value(v: str) -> str:
+    v = strip_refs(v)
+    v = remove_templates(v)        # drops {{Flagicon|...}}, maps {{flag|X}} -> [[X]]
+    v = convert_inline(v)          # ''' -> **, '' -> *
+    v = v.replace("*", "")         # strip emphasis markers for a clean scalar
+    v = re.sub(r"\s+", " ", v).strip().strip("|").strip()
+    return v
+
+
+def extract_worldcup(raw: str, title: str) -> dict:
+    """Pull World Cup edition details from the page's hand-rolled infobox table."""
+    fields = {}
+    ym = re.match(r"(\d{4})", title.strip())
+    if ym:
+        fields["year"] = ym.group(1)
+    m = re.search(r'\{\|\s*class="[^"]*infobox', raw, re.IGNORECASE)
+    if not m:
+        return fields
+    block = raw[m.start():]
+    end = block.find("|}")
+    if end != -1:
+        block = block[:end]
+    for line in block.split("\n"):
+        s = line.strip()
+        if not s.startswith("|") or s.startswith(("|-", "|+", "|}")):
+            continue
+        if "||" not in s:
+            continue
+        label, _, value = s[1:].partition("||")
+        key = _WC_LABELS.get(label.strip().lower())
+        if not key or key in fields:
+            continue
+        cv = _clean_wc_value(value)
+        if cv:
+            fields[key] = cv
+    return fields
+
+
+def build_typed_frontmatter(title, cats, ibox, wc, is_category):
+    """Return YAML lines for `type:` plus typed properties for the note."""
+    ibox = ibox or {}
+    template = ibox.get("template")
+    fields = ibox.get("fields", {})
+    ntype = _detect_type(title, template, cats, is_category)
+    lines = [f"type: {ntype}"]
+
+    if ntype == "worldcup":
+        spec, src = _WORLDCUP_FIELDS, (wc or {})
+    elif ntype == "country":
+        spec, src = _COUNTRY_FIELDS, fields
+    elif ntype == "continent":
+        spec, src = _CONTINENT_FIELDS, fields
+    elif ntype == "city":
+        spec, src = _CITY_FIELDS, fields
+    else:
+        spec, src = [], {}
+
+    for out_key, in_key in spec:
+        raw_val = src.get(in_key)
+        if raw_val is None or raw_val == "":
+            continue
+        val = _clean_value(str(raw_val))
+        if not val:
+            continue
+        if out_key in EMIT_AS_LIST:
+            items = _split_list(val)
+            if not items:
+                continue
+            lines.append(f"{out_key}:")
+            lines.extend(f"  - {yaml_scalar(it)}" for it in items)
+        elif out_key in _NUMERIC_KEYS:
+            num = _numish(val)
+            lines.append(f"{out_key}: {num}" if num is not None else f"{out_key}: {yaml_scalar(val)}")
+        else:
+            lines.append(f"{out_key}: {yaml_scalar(val)}")
+    return lines
+
+
+def convert(title: str, raw: str, is_category: bool = False) -> str:
     cats, body = extract_categories(raw)
 
     # redirect pages
@@ -400,7 +623,7 @@ def convert(title: str, raw: str) -> str:
     body = strip_refs(body)
     body = expand_data_templates(body)
     body = strip_file_links(body)
-    body = convert_infoboxes(body)
+    body, ibox = convert_infoboxes(body)
     body = convert_tables(body)
     body = remove_templates(body)
     body = convert_external_links(body)
@@ -409,8 +632,11 @@ def convert(title: str, raw: str) -> str:
     body = convert_inline(body)
     body = collapse_blanks(body)
 
+    wc = extract_worldcup(raw, title) if _WC_TITLE_RE.match(title.strip()) else None
+
     fm = ["---"]
-    fm.append(f'title: "{title}"')
+    fm.append(f"title: {yaml_scalar(title)}")
+    fm.extend(build_typed_frontmatter(title, cats, ibox, wc, is_category))
     if cats:
         fm.append("tags:")
         for c in cats:
@@ -435,19 +661,21 @@ def safe_path(base: Path, title: str) -> Path:
     return p.with_suffix(".md")
 
 
-def main():
+def main(vault: Path):
+    art_dir = vault / "Articles"
+    cat_dir = vault / "Categories"
     state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
-    ART_DIR.mkdir(parents=True, exist_ok=True)
-    CAT_DIR.mkdir(parents=True, exist_ok=True)
+    art_dir.mkdir(parents=True, exist_ok=True)
+    cat_dir.mkdir(parents=True, exist_ok=True)
 
     n_main = n_cat = 0
     for title, info in state.items():
         path = Path(info["path"])
         parts = path.parts
         if "Main" in parts:
-            base, kind = ART_DIR, "main"
+            base, kind = art_dir, "main"
         elif "Category" in parts:
-            base, kind = CAT_DIR, "cat"
+            base, kind = cat_dir, "cat"
         else:
             continue
         if not path.exists():
@@ -456,7 +684,7 @@ def main():
 
         # category notes: title is "Category:Foo" -> use bare name for file + link
         disp_title = title.split(":", 1)[1] if kind == "cat" and ":" in title else title
-        md = convert(disp_title, raw)
+        md = convert(disp_title, raw, is_category=(kind == "cat"))
         out = safe_path(base, disp_title)
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(md, encoding="utf-8")
@@ -465,9 +693,12 @@ def main():
         else:
             n_cat += 1
 
-    print(f"Wrote {n_main} articles -> {ART_DIR}")
-    print(f"Wrote {n_cat} categories -> {CAT_DIR}")
+    print(f"Wrote {n_main} articles -> {art_dir}")
+    print(f"Wrote {n_cat} categories -> {cat_dir}")
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser(description="Export pulled MediaWiki pages into an Obsidian vault.")
+    ap.add_argument("--vault", help="Target vault path (overrides OBSIDIAN_VAULT env and the default).")
+    args = ap.parse_args()
+    main(resolve_vault(args.vault))

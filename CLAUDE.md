@@ -59,7 +59,7 @@ Always run `python push.py --dry-run` first after bulk edits to review what will
 
 These are not part of the pull/push loop and read from `data/`:
 - `generate_cities.py` — regenerates the `== Largest cities ==` section on country pages from the `data/*Cities*.xlsx` spreadsheets, merged with `data/Largest Cities by Population.xlsx`. Run `python generate_cities.py dry [Country...]` to preview, `python generate_cities.py apply` to write. Idempotent: it replaces the block between `<!-- LARGEST-CITIES-AUTO START -->` / `END` markers. `ALIAS` maps spreadsheet sheet names to actual wiki page titles where they differ.
-- `to_obsidian.py` — one-directional export of Main + Category pages to an Obsidian vault (hardcoded path `C:\Users\danny\Documents\1 Ob Andah\Andah-Wiki`). Converts wikitext → markdown, turns categories into frontmatter tags, expands a large set of canon data templates (see `_expand_one`). Never writes back to the wiki.
+- `to_obsidian.py` — one-directional export of Main + Category pages to an Obsidian vault. The target vault is resolved by `resolve_vault`: `--vault` arg > `OBSIDIAN_VAULT` env var > the default `Andah-Wiki/` beside the script. Writes generated notes into `<vault>/Articles/` and `<vault>/Categories/` — both are **overwritten on every run**, so never hand-edit them (the two-zone rule: keep hand-authored notes in other folders). Converts wikitext → markdown, turns categories into frontmatter tags, and emits **typed frontmatter** — a `type:` (country / continent / city / worldcup / confederation / religion / person / article) plus per-type queryable properties (capital, population, gdp_ppp, hdi, host, champion, …) for Bases/Dataview; see `build_typed_frontmatter`. Expands a large set of canon data templates (see `_expand_one`). Never writes back to the wiki.
 
 ## Environment
 
@@ -69,6 +69,9 @@ WIKI_API=https://andah.miraheze.org/w/api.php
 WIKI_USER=BotUsername@BotName
 WIKI_PASS=bot-password-here
 EDIT_SUMMARY=Optional default edit summary
+# Optional: override the Obsidian vault target for to_obsidian.py
+# (defaults to Andah-Wiki/ beside the script if unset)
+# OBSIDIAN_VAULT=C:\Users\danny\Documents\miraheze-local\Andah-Wiki
 ```
 Bot password is created at `Special:BotPasswords`. Auth is a two-step login-token → login flow repeated in each script's `session_login()`. Python deps: `requests`, `python-dotenv` (plus `openpyxl` for `generate_cities.py`). Use the venv in `venv/`.
 

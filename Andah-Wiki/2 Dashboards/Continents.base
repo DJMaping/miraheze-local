@@ -1,0 +1,15 @@
+filters:
+  and:
+    - note.type == "continent"
+views:
+  - type: table
+    name: Continents
+    order:
+      - file.name
+      - note.population
+      - note.countries
+      - note.gdp_ppp
+      - note.demonym
+    sort:
+      - property: note.population
+        direction: DESC
