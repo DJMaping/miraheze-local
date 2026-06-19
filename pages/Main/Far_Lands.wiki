@@ -20,8 +20,7 @@
 | leader_title2          = Low Minister
 | leader_name2           = N/a
 | legislature            = Union of the Far Lands
-| upper_house            = National Assembly
-| lower_house            = Lainar of the People
+| upper_house            = National of the People
 | sovereignty_type       = Independence
 | sovereignty_note       = from [[Emara]]
 | established            = 

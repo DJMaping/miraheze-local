@@ -27,7 +27,7 @@
 | leader_title2          = Low Minister
 | leader_name2           = N/a
 | legislature            = Union of Zenashan
-| upper_house            = National Assembly
+
 | lower_house            = Lainar of the People
 | sovereignty_type       = Establishment
 | sovereignty_note       = 

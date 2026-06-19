@@ -25,9 +25,6 @@
 | leader_name1           = N/a
 | leader_title2          = Low Minister
 | leader_name2           = N/a
-| legislature            = Union of Ozinia
-| upper_house            = National Assembly
-| lower_house            = Lainar of the People
 | sovereignty_type       = Establishment
 | sovereignty_note       = 
 | established            = 
