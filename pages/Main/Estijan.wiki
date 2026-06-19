@@ -25,8 +25,9 @@
 | leader_name1           = N/a
 | leader_title2          = High Justice
 | leader_name2           = N/a
-| legislature            = Parliament of Estijan
-| lower_house            = State Council
+| legislature            = [[Union of Estijan]]
+| upper_house            = State Council
+| lower_house            = Lainar of the People
 | sovereignty_type       = Unification
 | sovereignty_note       = 
 | established            = Unification

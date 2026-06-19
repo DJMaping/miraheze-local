@@ -24,8 +24,8 @@
 | leader_title2          = Low Minister
 | leader_name2           = N/a
 | legislature            = Union of Jathua
-| upper_house            = Lainar of the People
-| lower_house            = National Assembly
+| upper_house            = National Assembly
+| lower_house            = Lainar of the People
 | sovereignty_type       = Indepenence
 | sovereignty_note       = from [[Emara]]
 | established            = 

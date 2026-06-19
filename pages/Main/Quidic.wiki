@@ -34,8 +34,8 @@
 | leader_title3          = Great Sectary 
 | leader_name3           = N/a
 | legislature            = Union of Quidic
-| upper_house            = Lainar of the People
-| lower_house            = National Assembly
+| upper_house            = National Assembly
+| lower_house            = Lainar of the People
 | sovereignty_type       = Establishment
 | established_event1     = Quidic Kingdom
 | established_date1      = 1566 AFA

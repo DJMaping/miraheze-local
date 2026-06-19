@@ -36,8 +36,8 @@
 | leader_title3          = Court Minister
 | leader_name3           = N/a
 | legislature            = Union of Oyreain
-| upper_house            = Lainar of the People
-| lower_house            = National Assembly
+| upper_house            = National Assembly
+| lower_house            = Lainar of the People
 | sovereignty_type       = Independence
 | sovereignty_note       = from [[Siana]]
 | area_rank              = 83rd

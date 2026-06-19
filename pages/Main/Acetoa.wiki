@@ -20,9 +20,8 @@
 | leader_name1           = N/a
 | leader_title2          = Sialo Mara 
 | leader_name2           = N/a
-| legislature            = Little House
-| upper_house            = Lainar of the People
-| lower_house            = National People's Congress
+| legislature            = Appic Alsa
+| lower_house            = Dumentemli
 | sovereignty_type       = Independence
 | sovereignty_note       = from [[Areoix Lie]]
 | established            = 

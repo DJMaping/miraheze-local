@@ -31,8 +31,8 @@
 | leader_title2          = ____ of Emara
 | leader_name2           = N/a
 | legislature            = Union of Emara
-| upper_house            = Lainar of the People
-| lower_house            = National Assembly
+| upper_house            = National Assembly
+| lower_house            = Lainar of the People
 | sovereignty_type       = Establishment
 | sovereignty_note       = 
 | established            = 1343 BFA
