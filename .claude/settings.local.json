@@ -9,7 +9,8 @@
       "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe --version)",
       "PowerShell(.\\\\venv\\\\Scripts\\\\pip.exe install requests python-dotenv)",
       "Skill(browse)",
-      "Skill(browse:*)"
+      "Skill(browse:*)",
+      "mcp__claude_ai_Google_Drive__create_file"
     ]
   }
 }
