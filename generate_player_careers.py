@@ -59,6 +59,13 @@ def is_surname_only(notes):
     return "surname only" in (notes or "")
 
 
+def row_key(row):
+    """Identity for a base row. Includes the first attested year so that rows
+    sharing a name+team across eras (split by the build) stay distinct."""
+    ys = parse_years(row["World Cups"])
+    return (row["Player"], row["Team(s)"], min(ys) if ys else 0)
+
+
 def draw_length(rng):
     r = rng.random()
     for thresh, length in LENGTH_CDF:
@@ -87,7 +94,7 @@ def main():
         with open(CAREERS_CSV, encoding="utf-8", newline="") as fh:
             for row in csv.DictReader(fh):
                 career = parse_goals_by_year(row["Career"])
-                careers[(row["Player"], row["Team"])] = career
+                careers[(row["Player"], row["Team"], int(row["Anchor"]))] = career
         generated = False
     else:
         careers = {}
@@ -134,23 +141,24 @@ def main():
                 hard_cap = max(edition_top.get(y, 1) - 1, 0)
                 own_cap = peak_goals if peak_goals > 0 else 1
                 career[y] = max(0, min(g, own_cap, hard_cap))
-            careers[(name, team)] = career
+            careers[row_key(row)] = career
 
         with open(CAREERS_CSV, "w", encoding="utf-8", newline="") as fh:
             w = csv.writer(fh)
-            w.writerow(["Player", "Team", "Position", "Career"])
+            w.writerow(["Player", "Team", "Anchor", "Position", "Career"])
             for row in base:
-                key = (row["Player"], row["Team(s)"])
+                key = row_key(row)
                 if key in careers:
                     career = careers[key]
                     spec = "; ".join(f"{y}:{career[y]}" for y in sorted(career))
-                    w.writerow([row["Player"], row["Team(s)"], row["Position"], spec])
+                    w.writerow([row["Player"], row["Team(s)"], key[2],
+                                row["Position"], spec])
         generated = True
 
     # --- merge careers onto base -> enriched primary file -------------------
     enriched = []
     for row in base:
-        key = (row["Player"], row["Team(s)"])
+        key = row_key(row)
         gby = parse_goals_by_year(row["Goals by World Cup"])
         years = set(parse_years(row["World Cups"]))
         notes = row["Notes"]

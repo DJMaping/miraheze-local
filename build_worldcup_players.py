@@ -359,10 +359,10 @@ def main():
         if m:
             edition_files.append((int(m.group(1)), os.path.join(PAGES, fn)))
 
-    glob = {}   # (name_lower, team_lower) -> record
+    glob = {}   # (name_lower, team_lower[, year]) -> record
 
-    def record(name, team):
-        k = _key(name, team)
+    def record(name, team, key=None):
+        k = key if key is not None else _key(name, team)
         r = glob.get(k)
         if r is None:
             r = {"name": name, "teams": set(), "positions": set(),
@@ -379,7 +379,14 @@ def main():
             continue
         editions_parsed += 1
         for e in entries.values():
-            r = record(e["name"], e["team"])
+            # A bare surname is not a stable identity across editions, so keep
+            # surname-only scorers as a distinct record per edition; full names
+            # aggregate across editions as before.
+            if e["surname_only"]:
+                key = (e["name"].lower(), e["team"].lower(), year)
+                r = record(e["name"], e["team"], key=key)
+            else:
+                r = record(e["name"], e["team"])
             r["years"].add(year)
             r["goals_by_year"][year] = e["goals"]
             if e["position"]:
@@ -418,11 +425,17 @@ def main():
         r["positions"].add(pos)
 
     # Conservative cross-edition consolidation of surname-only records into a
-    # unique full-name record on the same team.
+    # unique full-name record on the same team -- but only when it stays a
+    # plausible career: the merged appearances must span <= MAX_CAREER_SPAN
+    # years. Surname appearances outside that window (e.g. the same surname
+    # decades apart) are left as separate single-edition records.
+    MAX_CAREER_SPAN = 12   # ~4 editions; matches the career generator's ceiling
     consolidated = 0
-    for k in [k for k, r in glob.items()
-              if len(r["name"].split()) == 1
-              and any("surname only" in n for n in r["notes"])]:
+    sn_keys = [k for k, r in glob.items()
+               if len(r["name"].split()) == 1
+               and any("surname only" in n for n in r["notes"])]
+    sn_keys.sort(key=lambda k: k[2] if len(k) > 2 else 0)   # oldest first
+    for k in sn_keys:
         r = glob.get(k)
         if r is None:
             continue
@@ -431,33 +444,57 @@ def main():
                  if kk != k and (r["teams"] & rr["teams"])
                  and len(rr["name"].split()) > 1
                  and rr["name"].split()[-1].lower() == sn]
-        if len(cands) == 1:
-            tgt = glob[cands[0]]
-            tgt["years"] |= r["years"]
-            tgt["positions"] |= r["positions"]
-            tgt["awards"] |= r["awards"]
-            tgt["teams"] |= r["teams"]
-            for y, g in r["goals_by_year"].items():
-                tgt["goals_by_year"][y] = max(tgt["goals_by_year"].get(y, 0), g)
-            tgt["notes"].add("includes surname-only match data")
-            del glob[k]
-            consolidated += 1
+        if len(cands) != 1:
+            continue
+        tgt = glob[cands[0]]
+        merged_years = tgt["years"] | r["years"]
+        if max(merged_years) - min(merged_years) > MAX_CAREER_SPAN:
+            continue   # would be an implausibly long career: leave separate
+        tgt["years"] |= r["years"]
+        tgt["positions"] |= r["positions"]
+        tgt["awards"] |= r["awards"]
+        tgt["teams"] |= r["teams"]
+        for y, g in r["goals_by_year"].items():
+            tgt["goals_by_year"][y] = max(tgt["goals_by_year"].get(y, 0), g)
+        tgt["notes"].add("includes surname-only match data")
+        del glob[k]
+        consolidated += 1
 
     rows = []
+    split_records = 0
     for r in glob.values():
-        total = sum(r["goals_by_year"].values())
-        gby = "; ".join(f"{y}: {g}" for y, g in sorted(r["goals_by_year"].items()) if g)
-        awards = "; ".join(f"{y} {a}" for y, a in sorted(r["awards"]))
-        rows.append({
-            "Player": r["name"],
-            "Team(s)": "; ".join(sorted(r["teams"])),
-            "Position": "; ".join(sorted(r["positions"])),
-            "World Cups": ", ".join(str(y) for y in sorted(r["years"])),
-            "Total goals": total,
-            "Goals by World Cup": gby,
-            "Awards": awards,
-            "Notes": "; ".join(sorted(r["notes"])),
-        })
+        # If a record's appearances span more than a plausible career, the same
+        # name is being shared across eras (a name reused by the wiki, or a
+        # surname collision). Split it into separate people, one per cluster of
+        # years that fits inside MAX_CAREER_SPAN.
+        clusters = []
+        for y in sorted(r["years"]):
+            if clusters and y - clusters[-1][0] <= MAX_CAREER_SPAN:
+                clusters[-1].append(y)
+            else:
+                clusters.append([y])
+        multi = len(clusters) > 1
+        if multi:
+            split_records += 1
+        for cyears in clusters:
+            cyset = set(cyears)
+            gb = {y: g for y, g in r["goals_by_year"].items() if y in cyset}
+            gby = "; ".join(f"{y}: {g}" for y, g in sorted(gb.items()) if g)
+            awards = "; ".join(f"{y} {a}" for y, a in sorted(r["awards"]) if y in cyset)
+            positions = sorted(r["positions"]) if (not multi or 1704 in cyset) else []
+            notes = set(r["notes"])
+            if multi:
+                notes.add("name shared across eras (split)")
+            rows.append({
+                "Player": r["name"],
+                "Team(s)": "; ".join(sorted(r["teams"])),
+                "Position": "; ".join(positions),
+                "World Cups": ", ".join(str(y) for y in cyears),
+                "Total goals": sum(gb.values()),
+                "Goals by World Cup": gby,
+                "Awards": awards,
+                "Notes": "; ".join(sorted(notes)),
+            })
 
     rows.sort(key=lambda x: (-x["Total goals"], x["Player"].lower()))
 
@@ -473,6 +510,7 @@ def main():
     print(f"Editions parsed:         {editions_parsed}")
     print(f"1704 squad players:      {squad_count}")
     print(f"Cross-edition merges:    {consolidated}")
+    print(f"Shared-name splits:      {split_records}")
     print(f"Total players (rows):    {len(rows)}")
     print(f"  with recorded goals:   {scorers}")
     print(f"Wrote {OUT_CSV}")

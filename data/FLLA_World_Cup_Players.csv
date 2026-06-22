@@ -1,12 +1,13 @@
 Player,Team(s),Position,World Cups,Total goals,Goals by World Cup,Awards,Notes
-Niall Brask,Raledria,,"1708, 1748, 1752, 1756, 1760, 1764",21,1708: 3; 1748: 1; 1752: 2; 1756: 6; 1760: 5; 1764: 4,,includes surname-only match data
-Daron Veshani,Quidic,,"1736, 1744, 1748, 1752, 1756",19,1736: 3; 1744: 3; 1748: 2; 1752: 3; 1756: 8,1756 Top scorer (Marskval),includes surname-only match data
+Niall Brask,Raledria,,"1752, 1756, 1760, 1764",17,1752: 2; 1756: 6; 1760: 5; 1764: 4,,
 Tovan Brunscar,Verusa,,"1752, 1756, 1760",17,1752: 8; 1756: 4; 1760: 5,1752 Top scorer (Marskval),
 Aurelian Sundas,Raledria,,"1732, 1736, 1740, 1744",16,1732: 5; 1736: 6; 1740: 3; 1744: 2,1736 Top scorer (Marskval),career spans generated
 Theio Ravar,Emara,,"1752, 1756, 1760, 1764",16,1752: 1; 1756: 2; 1760: 4; 1764: 9,1764 Top scorer (Marskval),career spans generated
 Maharan Soldai,Sanagara,,"1732, 1736, 1740, 1744",12,1732: 4; 1736: 1; 1740: 2; 1744: 5,,career spans generated
 Aldo Vossen,Dual Cenryia,,"1756, 1760, 1764",11,1756: 6; 1760: 3; 1764: 2,,career spans generated
 Caio Rentini,Taval,,"1760, 1764",11,1760: 6; 1764: 5,,
+Daron Veshani,Quidic,,"1752, 1756",11,1752: 3; 1756: 8,1756 Top scorer (Marskval),name shared across eras (split)
+Halric Ostley,Emara,,"1748, 1752",11,1748: 7; 1752: 4,1748 Top scorer (Marskval),career spans generated
 Setrul Karavi,New Misos,,"1748, 1752, 1756",11,1748: 6; 1752: 3; 1756: 2,1748 Best young player,career spans generated
 Velmir Drasko,Raledria,,"1700, 1704, 1708",11,1700: 6; 1704: 3; 1708: 2,1700 Top scorer (Marskval),career spans generated
 Anders Vellholm,Verusa,,"1756, 1760, 1764",10,1756: 2; 1760: 3; 1764: 5,1764 Best young player,career spans generated
@@ -20,13 +21,13 @@ Andrik Vossarin,Emara,,"1724, 1728",9,1724: 3; 1728: 6,1728 Top scorer (Marskval
 Daron Veshani,Finae,,"1732, 1736",9,1732: 6; 1736: 3,,career spans generated
 Estien Marlo,Lycroa,,"1712, 1716, 1720",9,1712: 1; 1716: 3; 1720: 5,,career spans generated
 Galari Mestrei,Lycroa,,"1744, 1748",9,1744: 6; 1748: 3,1744 Top scorer (Marskval),career spans generated
-Halric Ostley,Emara,,"1700, 1748, 1764",9,1700: 1; 1748: 7; 1764: 1,1748 Top scorer (Marskval),includes surname-only match data
 Joren Khaldari,United Delet,,"1704, 1708",9,1704: 3; 1708: 6,1708 Top scorer (Marskval),career spans generated
 Petren Toranki,Wundry,,"1732, 1736",9,1732: 4; 1736: 5,,
 Reiner Valsk,Verusa,,"1724, 1728, 1732, 1736",9,1724: 2; 1728: 4; 1732: 2; 1736: 1,,career spans generated
 Telkor Andovi,Seytinemas,,"1744, 1748",9,1744: 3; 1748: 6,,career spans generated
 Tomaz Renari,Emara,,"1728, 1732",9,1728: 3; 1732: 6,,career spans generated
 Adari Lonven,New Misos,,"1748, 1752",8,1748: 5; 1752: 3,1748 Best player (Vairan Ball),career spans generated
+Daron Veshani,Quidic,,"1736, 1740, 1744",8,1736: 3; 1740: 2; 1744: 3,,name shared across eras (split); career spans generated
 Maharan Soldai,Taval,,"1732, 1736, 1740",8,1732: 2; 1736: 4; 1740: 2,,career spans generated
 Talin Kestor,Quidic,,"1748, 1752, 1756",8,1748: 1; 1752: 2; 1756: 5,1756 Best young player,career spans generated
 Tiago Marenzi,Ohtina,,"1748, 1752, 1756, 1760",8,1748: 1; 1752: 1; 1756: 2; 1760: 4,,career spans generated
@@ -87,11 +88,11 @@ Sava Tarkhel,Etirha,,"1712, 1716, 1720",4,1716: 1; 1720: 3,,career spans generat
 Senn Drevali,Praesyu,,"1708, 1712",4,1708: 1; 1712: 3,,career spans generated
 Tomir Daleski,Lycroa,,"1728, 1732, 1736",4,1728: 3; 1732: 1,,career spans generated
 Velsani,Lycroa,,1716,4,1716: 4,,name from match data (surname only)
-Venn,Emara,,"1708, 1728",4,1708: 3; 1728: 1,,name from match data (surname only)
 Aldwin,Emara,,1756,3,1756: 3,,name from match data (surname only)
 Andrei Volok,Raledria,,1720,3,1720: 3,,
 Ardrei,Ukhdari,,1732,3,1732: 3,,name from match data (surname only)
 Borek,Seytinemas,,1764,3,1764: 3,,name from match data (surname only)
+Brask,Raledria,,1708,3,1708: 3,,name from match data (surname only)
 Cael,Emara,,1756,3,1756: 3,,name from match data (surname only)
 Caldori,Verusa,,1724,3,1724: 3,,name from match data (surname only)
 Calveni,Lycroa,,1724,3,1724: 3,,name from match data (surname only)
@@ -103,9 +104,7 @@ Halvik,Dual Cenryia,,1756,3,1756: 3,,name from match data (surname only)
 Marek Calahn,United Delet,,1752,3,1752: 3,,
 Maresto,Lycroa,,1724,3,1724: 3,,name from match data (surname only)
 Marwen,Lycroa,,1700,3,1700: 3,,name from match data (surname only)
-Mokshlein,Verusa,,"1732, 1736",3,1732: 1; 1736: 2,,name from match data (surname only)
 Onuk Saryah,Siana,FW,1704,3,1704: 3,,
-Pelan,Ohtina,,"1736, 1744",3,1736: 2; 1744: 1,,name from match data (surname only)
 Phalavi,Easuhura,,1716,3,1716: 3,,name from match data (surname only)
 Renji,Ztesh,,1760,3,1760: 3,,name from match data (surname only)
 Rivosi,Emara,,1724,3,1724: 3,,name from match data (surname only)
@@ -115,20 +114,16 @@ Toman Vaskar,Raledria,,1712,3,1712: 3,1712 Best player (Vairan Ball),
 Vaitu Marenga,Taval,,1728,3,1728: 3,,
 Valente,Siana,,1700,3,1700: 3,,name from match data (surname only)
 Velim Khastane,Praesyu,,1752,3,1752: 3,1752 Best player (Vairan Ball),
-Voskar,Raledria,,"1760, 1764",3,1760: 2; 1764: 1,,name from match data (surname only)
-Astren,Praesyu,,"1724, 1740",2,1724: 1; 1740: 1,,name from match data (surname only)
+Venn,Emara,,1708,3,1708: 3,,name from match data (surname only)
 Bhadra,Finae,,1764,2,1764: 2,,name from match data (surname only)
 Bokan,Easuhura,,1716,2,1716: 2,,name from match data (surname only)
 Bretmar,Emara,,1756,2,1756: 2,,name from match data (surname only)
 Brunsbeck,Emara,,1764,2,1764: 2,,name from match data (surname only)
-Brunscar,United Delet,,"1732, 1736",2,1732: 1; 1736: 1,,name from match data (surname only)
 Calveit,Lycroa,,1700,2,1700: 2,,name from match data (surname only)
 Calvenza,Lycroa,,1740,2,1740: 2,,name from match data (surname only)
 Carreta,Genaire,,1732,2,1732: 2,,name from match data (surname only)
-Carteni,Raledria,,"1724, 1740",2,1724: 1; 1740: 1,,name from match data (surname only)
 Corwen,Raledria,,1756,2,1756: 2,,name from match data (surname only)
 Edran Volkmar,Raledria,,1716,2,1716: 2,1716 Best player (Vairan Ball),
-Halver,Etirha,,"1736, 1744",2,1736: 1; 1744: 1,,name from match data (surname only)
 Holt,Emara,,1708,2,1708: 2,,name from match data (surname only)
 Hresan,Anymna,,1736,2,1736: 2,,name from match data (surname only)
 Jensen,Finae,,1748,2,1748: 2,,name from match data (surname only)
@@ -138,10 +133,12 @@ Kervanis,Fermori,,1740,2,1740: 2,,name from match data (surname only)
 Lieth,Finae,,1732,2,1732: 2,,name from match data (surname only)
 Maletier,United Delet,,1740,2,1740: 2,,name from match data (surname only)
 Marsen,Dual Cenryia,,1748,2,1748: 2,,name from match data (surname only)
+Mokshlein,Verusa,,1736,2,1736: 2,,name from match data (surname only)
 Naseef,Haiza,,1760,2,1760: 2,,name from match data (surname only)
 Olanze,Terressin,,1732,2,1732: 2,,name from match data (surname only)
 Olstai,Anymna,,1736,2,1736: 2,,name from match data (surname only)
 Ostroski,Verusa,,1764,2,1764: 2,,name from match data (surname only)
+Pelan,Ohtina,,1736,2,1736: 2,,name from match data (surname only)
 Pikashka,Ztesh,,1756,2,1756: 2,,name from match data (surname only)
 Ravkin,Raledria,,1700,2,1700: 2,,name from match data (surname only)
 Razuli,Vesozata,,1756,2,1756: 2,,name from match data (surname only)
@@ -151,7 +148,6 @@ Renvis,Verusa,,1724,2,1724: 2,,name from match data (surname only)
 Sael Wadiri,Siana,FW,1704,2,1704: 2,,
 Sandar,Dahe,,1748,2,1748: 2,,name from match data (surname only)
 Solani,United Delet,,1708,2,1708: 2,,name from match data (surname only)
-Soldan,Dahe,,"1712, 1736",2,1712: 1; 1736: 1,,name from match data (surname only)
 Sorvel,New Misos,,1756,2,1756: 2,,name from match data (surname only)
 Tepura,Areoix Lie,,1724,2,1724: 2,,name from match data (surname only)
 Tomaso Velli,Lycroa,MF,"1704, 1708",2,1708: 2,,includes surname-only match data
@@ -159,6 +155,8 @@ Trakor,Seytinemas,,1748,2,1748: 2,,name from match data (surname only)
 Trezzini,Lycroa,,1716,2,1716: 2,,name from match data (surname only)
 Vairos,United Delet,,1708,2,1708: 2,,name from match data (surname only)
 Vasch,Lycroa,,1704,2,1704: 2,,name from match data (surname only)
+Veshani,Quidic,,1748,2,1748: 2,,name from match data (surname only)
+Voskar,Raledria,,1760,2,1760: 2,,name from match data (surname only)
 Yaru,Easuhura,,1764,2,1764: 2,,name from match data (surname only)
 Zhao,Dahe,,1732,2,1732: 2,,name from match data (surname only)
 Aldan Estren,Estijan,FW,"1700, 1704, 1708, 1712",1,1708: 1,,career spans generated
@@ -166,17 +164,24 @@ Aldhus,Verusa,,1716,1,1716: 1,,name from match data (surname only)
 Anjit,Sanagara,,1756,1,1756: 1,,name from match data (surname only)
 Ardrein,Erkizil,,1752,1,1752: 1,,name from match data (surname only)
 Arun Phakra,Siana,MF,1704,1,1704: 1,,
+Astren,Praesyu,,1724,1,1724: 1,,name from match data (surname only)
+Astren,Praesyu,,1740,1,1740: 1,,name from match data (surname only)
 Bako Deschon,Areoix Lie,MF,"1700, 1704, 1708, 1712",1,1712: 1,,career spans generated
 Bhalla,Sanagara,,1764,1,1764: 1,,name from match data (surname only)
 Bhandar,Dahe,,1724,1,1724: 1,,name from match data (surname only)
+Brask,Raledria,,1748,1,1748: 1,,name from match data (surname only)
 Brevik,Praesyu,,1716,1,1716: 1,,name from match data (surname only)
 Brindes,United Delet,,1740,1,1740: 1,,name from match data (surname only)
 Brunn,Verusa,,1728,1,1728: 1,,name from match data (surname only)
 Brunscar,Praesyu,,1732,1,1732: 1,,name from match data (surname only)
+Brunscar,United Delet,,1732,1,1732: 1,,name from match data (surname only)
+Brunscar,United Delet,,1736,1,1736: 1,,name from match data (surname only)
 Calder,New Misos,,1760,1,1760: 1,,name from match data (surname only)
 Caldis,Emara,,1712,1,1712: 1,,name from match data (surname only)
 Caltari,Lycroa,,1716,1,1716: 1,,name from match data (surname only)
 Carosi,United Delet,,1740,1,1740: 1,,name from match data (surname only)
+Carteni,Raledria,,1724,1,1724: 1,,name from match data (surname only)
+Carteni,Raledria,,1740,1,1740: 1,,name from match data (surname only)
 Casin,Areoix Lie,,1708,1,1708: 1,,name from match data (surname only)
 Castin,Trian,,1760,1,1760: 1,,name from match data (surname only)
 Damolo,Praesyu,,1708,1,1708: 1,,name from match data (surname only)
@@ -204,6 +209,8 @@ Hale,Emara,,1720,1,1720: 1,,name from match data (surname only)
 Halen,Dahe,,1744,1,1744: 1,,name from match data (surname only)
 Hales,Praesyu,,1700,1,1700: 1,,name from match data (surname only)
 Halvad Renn,Raledria,FW,1704,1,1704: 1,,
+Halver,Etirha,,1736,1,1736: 1,,name from match data (surname only)
+Halver,Etirha,,1744,1,1744: 1,,name from match data (surname only)
 Hano Verste,Quidic,MF,"1700, 1704, 1708",1,1700: 1,,career spans generated
 Harlan,Easuhura,,1720,1,1720: 1,,name from match data (surname only)
 Helven,Raledria,,1752,1,1752: 1,,name from match data (surname only)
@@ -236,6 +243,7 @@ Maven,Taval,,1724,1,1724: 1,,name from match data (surname only)
 Mavidis,Chaenia,,1764,1,1764: 1,,name from match data (surname only)
 Mendric,United Delet,,1748,1,1748: 1,,name from match data (surname only)
 Mereth,Wundry,,1752,1,1752: 1,,name from match data (surname only)
+Mokshlein,Verusa,,1732,1,1732: 1,,name from match data (surname only)
 Mosk,New Misos,,1760,1,1760: 1,,name from match data (surname only)
 Mwenza,Dahe,,1732,1,1732: 1,,name from match data (surname only)
 Norvan,Ohtina,,1756,1,1756: 1,,name from match data (surname only)
@@ -246,8 +254,11 @@ Olwen Lirkar,New Misos,,"1748, 1752",1,1752: 1,1748 Best goalkeeper (Bastion),ca
 Onlami,Acetoa,,1740,1,1740: 1,,name from match data (surname only)
 Oradi,Haiza,,1760,1,1760: 1,,name from match data (surname only)
 Oraska,Easuhura,,1724,1,1724: 1,,name from match data (surname only)
+Ostley,Emara,,1700,1,1700: 1,,name from match data (surname only)
+Ostley,Emara,,1764,1,1764: 1,,name from match data (surname only)
 Othol,Terressin,,1756,1,1756: 1,,name from match data (surname only)
 Pavnik,Isnti,,1764,1,1764: 1,,name from match data (surname only)
+Pelan,Ohtina,,1744,1,1744: 1,,name from match data (surname only)
 Pelan,Terressin,,1756,1,1756: 1,,name from match data (surname only)
 Pelorni,Genaire,,1732,1,1732: 1,,name from match data (surname only)
 Pharo,Dahe,,1720,1,1720: 1,,name from match data (surname only)
@@ -265,6 +276,8 @@ Sin Hapuag,Siana,DF,"1704, 1708",1,1708: 1,,career spans generated
 Sin Jumatel,Siana,DF,"1700, 1704, 1708",1,1708: 1,,career spans generated
 Sokal,New Misos,,1724,1,1724: 1,,name from match data (surname only)
 Sokhan,Easuhura,,1716,1,1716: 1,,name from match data (surname only)
+Soldan,Dahe,,1712,1,1712: 1,,name from match data (surname only)
+Soldan,Dahe,,1736,1,1736: 1,,name from match data (surname only)
 Solven,Genaire,,1760,1,1760: 1,,name from match data (surname only)
 Solwen,Oyreain,,1732,1,1732: 1,,name from match data (surname only)
 Sota Stineb,Dahe,FW,"1704, 1708, 1712, 1716",1,1708: 1,,career spans generated
@@ -292,12 +305,14 @@ Velkari,Praesyu,,1732,1,1732: 1,,name from match data (surname only)
 Velkari,United Delet,,1732,1,1732: 1,,name from match data (surname only)
 Velsar,Praesyu,,1712,1,1712: 1,,name from match data (surname only)
 Venn,Lycroa,,1720,1,1720: 1,,name from match data (surname only)
+Venn,Emara,,1728,1,1728: 1,,name from match data (surname only)
 Verzini,Lycroa,,1732,1,1732: 1,,name from match data (surname only)
 Vesmar,Verusa,,1716,1,1716: 1,,name from match data (surname only)
 Virelle,Taval,,1756,1,1756: 1,,name from match data (surname only)
 Voltani,Raledria,,1728,1,1728: 1,,name from match data (surname only)
 Voltaska,New Misos,,1740,1,1740: 1,,name from match data (surname only)
 Vornsai,Ukhdari,,1732,1,1732: 1,,name from match data (surname only)
+Voskar,Raledria,,1764,1,1764: 1,,name from match data (surname only)
 Voskeld,United Delet,,1700,1,1700: 1,,name from match data (surname only)
 Voskoda,Taval,,1760,1,1760: 1,,name from match data (surname only)
 Vossen,Raledria,,1708,1,1708: 1,,name from match data (surname only)
