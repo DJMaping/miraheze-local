@@ -211,6 +211,31 @@ def build_edition(year, text):
             e = get_or_create(name, team)
             e["goals"] = max(e["goals"], goals)
 
+    # 1b) Pre-1700 Goalscorers tier list (Ayuman Cup editions) ----------------
+    # Those pages list goals as a bulleted '''N goals''' tier list with full
+    # names, rather than the "Top individual goalscorers" table used from 1712.
+    # Treat the tier total as authoritative (group goals are anonymous on these
+    # pages, so the match-event branch alone would undercount).
+    if year < 1700 and "Top individual goalscorers" not in text:
+        gi = text.find("===Goalscorers===")
+        if gi != -1:
+            ge = text.find("\n===", gi + 3)
+            block = text[gi:ge if ge != -1 else len(text)]
+            cur = None
+            for line in block.splitlines():
+                s = line.strip()
+                hm = re.match(r"^'''(\d+)\s*goals?'''$", s)
+                if hm:
+                    cur = int(hm.group(1))
+                    continue
+                if cur is not None and s.startswith("*"):
+                    val = s[1:].strip()
+                    name = player_name(val)
+                    team = team_from_cell(val)
+                    if name and team:
+                        e = get_or_create(name, team)
+                        e["goals"] = max(e["goals"], cur)
+
     # 2) Match goal events (every scorer, surname only) -----------------------
     matchcounts = defaultdict(int)   # (surname_lower, team) -> goals
     matchnames = {}                   # surname_lower -> display surname
@@ -353,11 +378,20 @@ def parse_1704_squads(text):
 # --- global aggregation ------------------------------------------------------
 
 def main():
-    edition_files = []
+    # Edition pages: FLLA World Cup (1700+) and the older Ayuman Cup (pre-1700).
+    # For pre-1700 years a redirect stub (e.g. 1656_FLLA_World_Cup.wiki ->
+    # "1656 Ayuman Cup") sits alongside the real content page; skip the stubs
+    # and keep one real file per year.
+    by_year = {}
     for fn in sorted(os.listdir(PAGES)):
-        m = re.match(r"^(\d{4})_FLLA_World_Cup\.wiki$", fn)
-        if m:
-            edition_files.append((int(m.group(1)), os.path.join(PAGES, fn)))
+        m = re.match(r"^(\d{4})_(?:FLLA_World_Cup|Ayuman_Cup)\.wiki$", fn)
+        if not m:
+            continue
+        path = os.path.join(PAGES, fn)
+        if read(path).lstrip().upper().startswith("#REDIRECT"):
+            continue
+        by_year.setdefault(int(m.group(1)), path)
+    edition_files = sorted(by_year.items())
 
     glob = {}   # (name_lower, team_lower[, year]) -> record
 

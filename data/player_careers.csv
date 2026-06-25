@@ -1,32 +1,49 @@
 Player,Team,Anchor,Position,Career
+Aldo Feronti,Siana,1672,,1672:3; 1676:6; 1680:4; 1684:7
+Tomas Brody,Estijan,1656,,1656:15; 1660:8
+Edmar Calvik,Lycroa,1660,,1656:7; 1660:14
 Aurelian Sundas,Raledria,1732,,1732:5; 1736:6; 1740:3; 1744:2
+Dragomir Volzhen,Emara,1672,,1672:10; 1676:5
+Davor Klent,Eldjo,1676,,1668:2; 1672:4; 1676:9
 Maharan Soldai,Sanagara,1732,,1732:4; 1736:1; 1740:2; 1744:5
 Theio Ravar,Emara,1764,,1752:1; 1756:2; 1760:4; 1764:9
+Tomas Calmar,Lycroa,1672,,1672:9; 1676:5; 1680:2
+Konrad Veitz,Alzurian Union,1684,,1676:2; 1680:4; 1684:8
+Lio Vanetti,Siana,1668,,1668:8; 1672:4; 1676:2; 1680:1
 Niall Brask,Etirha,1736,,1736:4; 1740:2; 1744:4
+Ravan Sokhai,Easuhura,1660,,1660:8; 1668:4; 1672:2
+Renso Mazzo,Siana,1676,,1676:5; 1680:2; 1684:3
 Halric Ostley,Emara,1748,,1748:7; 1752:4
+Marco Renzi,Siana,1680,,1676:3; 1680:7
 Veylan Marrik,Raledria,1712,,1712:7; 1716:3
 Aldo Vossen,Dual Cenryia,1756,,1756:6; 1760:3; 1764:2
 Andrik Vossarin,Emara,1728,,1724:3; 1728:6
 Daron Veshani,Finae,1732,,1732:6; 1736:3
 Daron Veshani,Quidic,1736,,1736:3; 1740:2; 1744:3
+Ferid Voral,Lycroa,1668,,1668:6; 1672:3; 1676:1
 Galari Mestrei,Lycroa,1744,,1744:6; 1748:3
 Joren Khaldari,United Delet,1708,,1704:3; 1708:6
 Kashik Tonaq,Ztesh,1744,,1744:1; 1748:1; 1752:1; 1756:4
+Renso Paoli,Siana,1668,,1660:3; 1668:6
 Setrul Karavi,New Misos,1748,,1748:6; 1752:3; 1756:2
 Telkor Andovi,Seytinemas,1748,,1744:3; 1748:6
+Tobin Henlo,Praesyu,1676,,1676:6; 1680:3
 Tomaz Renari,Emara,1732,,1728:3; 1732:6
 Tovan Ranov,Ohtina,1736,,1736:3; 1740:2; 1744:3
-Velmir Drasko,Raledria,1700,,1700:6; 1704:3; 1708:2
 Adari Lonven,New Misos,1748,,1748:5; 1752:3
 Aldermin Yaxri,Easuhura,1736,,1732:2; 1736:5; 1740:2
 Anders Vellholm,Verusa,1764,,1756:2; 1760:3; 1764:5
 Daro Lemniska,Seytinemas,1764,,1756:2; 1760:3; 1764:5
+Erik Malden,Eldjo,1680,,1680:5; 1684:3
 Estien Marlo,Lycroa,1720,,1712:1; 1716:3; 1720:5
 Halvik Yantra,Easuhura,1712,,1708:2; 1712:5
+Janek Wol,Praesyu,1656,,1656:5; 1660:3
+Lio Bassi,Siana,1680,,1676:2; 1680:5; 1684:2
 Olen Marhan,Sanagara,1732,,1732:2; 1736:1; 1740:1; 1744:3
 Ranjit Kavari,Sanagara,1748,,1740:2; 1744:3; 1748:5
 Renal Reka,United Delet,1752,,1752:4; 1756:2; 1760:1
 Talin Kestor,Quidic,1756,,1748:1; 1752:2; 1756:5
+Tomaz Reska,Eldjo,1676,,1668:1; 1672:2; 1676:5
 Tovi Renkalmar,Easuhura,1744,,1740:2; 1744:5
 Aurelio Mestri,Raledria,1728,,1724:2; 1728:4
 Brask Norvali,Etretes,1732,,1728:2; 1732:4
@@ -35,6 +52,7 @@ Davor Mirkeln,Etirha,1720,,1716:2; 1720:4
 Emil Korvan,Praesyu,1760,,1756:2; 1760:4
 Erron Petlik,New Misos,1744,,1744:4; 1748:2
 Maharan Soldai,Taval,1736,,1732:2; 1736:4; 1740:2
+Navid Ravan,Easuhura,1660,,1660:4; 1668:2
 Ravik Tolmesh,Praesyu,1712,,1712:4; 1716:2; 1720:1
 Reiner Valsk,Verusa,1728,,1724:2; 1728:4; 1732:2; 1736:1
 Tiago Marenzi,Ohtina,1760,,1748:1; 1752:1; 1756:2; 1760:4
@@ -42,12 +60,16 @@ Velari Mantor,New Misos,1748,,1744:2; 1748:4
 Vidoma Calreth,Emara,1732,,1732:4; 1736:2
 Aakash Rashvel,Sanagara,1748,,1740:0; 1744:1; 1748:3; 1752:1
 Aldermin Sarro,Easuhura,1712,,1704:1; 1708:2; 1712:3
+Anders Halden,Alzurian Union,1684,,1676:0; 1680:2; 1684:3
 Bertan Soreno,Lycroa,1744,,1736:1; 1740:2; 1744:3
 Friedrik Lannvert,Verusa,1736,,1732:1; 1736:3; 1740:2
 Galuran Erith,Easuhura,1736,,1732:1; 1736:3
 Karen Vekiri,Erkizil,1752,,1748:1; 1752:2; 1756:1
+Lukan Brod,Estijan,1680,,1676:1; 1680:3; 1684:1
 Marishen Olstre,Seytinemas,1748,,1744:2; 1748:3
+Milorad Tschev,Emara,1672,,1672:3; 1676:1
 Mirek Tavold,Emara,1728,,1724:2; 1728:3; 1732:1
+Niko Salm,Palina,1680,,1676:2; 1680:3; 1684:2
 Sava Tarkhel,Etirha,1720,,1712:0; 1716:1; 1720:3
 Senn Drevali,Praesyu,1712,,1708:1; 1712:3
 Tomir Daleski,Lycroa,1728,,1728:3; 1732:1; 1736:0
@@ -70,7 +92,7 @@ Chiga Tungkam,Siana,1704,FW,1700:0; 1704:0
 Daro Yokin,Easuhura,1704,MF,1700:0; 1704:0
 Davi Easan,Easuhura,1704,MF,1704:0; 1708:0; 1712:0
 Davi Estor,Estijan,1704,MF,1704:0; 1708:1
-Davi Mikal,Raledria,1704,MF,1700:0; 1704:0; 1708:0; 1712:1
+Davi Mikal,Raledria,1704,MF,1700:0; 1704:0; 1708:0
 Davi Praeun,Praesyu,1704,MF,1704:0; 1708:0
 Davlen Mikar,Raledria,1704,FW,1704:0; 1708:0
 Davlen Tijor,Estijan,1704,FW,1704:0; 1708:0; 1712:0
@@ -87,22 +109,22 @@ Frey Maalle,United Delet,1704,MF,1704:0; 1708:0; 1712:0
 Gunn Eldkvist,Eldjo,1704,GK,1704:0; 1708:0
 Gunn Veren,Verusa,1704,GK,1704:0; 1708:0
 Halan Renar,Raledria,1704,MF,1704:0; 1708:0
-Haldor Eldahl,Eldjo,1704,DF,1700:0; 1704:0; 1708:0
+Haldor Eldahl,Eldjo,1704,DF,1700:0; 1704:0
 Hano Tijar,Estijan,1704,DF,1700:0; 1704:0
-Hano Verste,Quidic,1704,MF,1700:1; 1704:0; 1708:0
-Hans Astye,United Delet,1704,MF,1700:0; 1704:0; 1708:0; 1712:0
+Hano Verste,Quidic,1704,MF,1700:1; 1704:0
+Hans Astye,United Delet,1704,MF,1700:0; 1704:0
 Hanu Ashin,Quidic,1704,DF,1704:0; 1708:0
 Hanu Taing,Seytinemas,1704,DF,1700:0; 1704:0
 Haru Ihner,Dahe,1704,DF,1700:0; 1704:0; 1708:0
 Haruo Pruim,Dahe,1704,MF,1700:0; 1704:0; 1708:0
-Hugo Alzun,Alzuria,1704,FW,1700:0; 1704:0; 1708:0
-Iram Mavel,Easuhura,1704,GK,1700:0; 1704:0; 1708:1
+Hugo Alzun,Alzuria,1704,FW,1700:0; 1704:0
+Iram Mavel,Easuhura,1704,GK,1700:0; 1704:0
 Jaro Estil,Estijan,1704,DF,1700:0; 1704:0
 Joren Vahsk,Raledria,1760,,1760:0; 1764:1
 Jorg Volken,Alzuria,1704,FW,1700:0; 1704:0; 1708:0
-Juma Bagusil,Siana,1704,MF,1700:0; 1704:0; 1708:0
+Juma Bagusil,Siana,1704,MF,1700:0; 1704:0
 Kaito Vesoz,Dahe,1704,FW,1704:0; 1708:0; 1712:0; 1716:1
-Kaiu Trian,Seytinemas,1704,DF,1700:0; 1704:0; 1708:0; 1712:0
+Kaiu Trian,Seytinemas,1704,DF,1700:0; 1704:0
 Karl Andsaud,United Delet,1704,DF,1704:0; 1708:0; 1712:0
 Karl Halren,Verusa,1704,FW,1704:0; 1708:0
 Karlo Alzen,Alzuria,1704,DF,1704:0; 1708:0
@@ -110,23 +132,23 @@ Karo Tijan,Estijan,1704,DF,1704:0; 1708:0
 Kavan Torul,Raledria,1704,DF,1704:0; 1708:0; 1712:0
 Kiro Letan,Quidic,1704,DF,1700:0; 1704:0; 1708:0
 Kofi Reeric,Areoix Lie,1704,FW,1700:0; 1704:0; 1708:0
-Koren Brimun,Praesyu,1704,DF,1700:0; 1704:0; 1708:0
+Koren Brimun,Praesyu,1704,DF,1700:0; 1704:0
 Koren Phuran,Etirha,1704,DF,1704:0; 1708:0
 Koren Tijal,Estijan,1704,DF,1704:0; 1708:0
 Lars Brunel,Verusa,1704,DF,1704:0; 1708:0
 Lars Eldby,Eldjo,1704,MF,1704:0; 1708:0
 Lars Iaino,United Delet,1704,DF,1704:0; 1708:0; 1712:0
 Leif Brunor,Verusa,1704,FW,1704:0; 1708:0
-Leif Eldval,Eldjo,1704,FW,1700:0; 1704:0; 1708:0
+Leif Eldval,Eldjo,1704,FW,1700:0; 1704:0
 Lino Brunel,Lycroa,1704,FW,1704:0; 1708:0
 Loic Umend,Areoix Lie,1704,MF,1700:0; 1704:0
 Loku Amcha,Seytinemas,1704,MF,1700:0; 1704:0
 Loren Phuris,Etirha,1704,MF,1700:0; 1704:0
-Loren Tirzen,Raledria,1704,DF,1700:1; 1704:0; 1708:0; 1712:0
+Loren Tirzen,Raledria,1704,DF,1700:1; 1704:0; 1708:0
 Lorenzo Lucani,Lycroa,1704,FW,1704:0; 1708:0; 1712:1
 Lucan Calvel,Lycroa,1704,DF,1704:0; 1708:0
 Luk Chigao,Siana,1704,FW,1704:0; 1708:0
-Luk Tungka,Siana,1704,DF,1700:0; 1704:0; 1708:0
+Luk Tungka,Siana,1704,DF,1700:0; 1704:0
 Mads Halen,Verusa,1704,FW,1700:0; 1704:0; 1708:0
 Mangi Phakal,Siana,1704,MF,1704:0; 1708:0
 Marc Yoprio,Areoix Lie,1704,FW,1704:0; 1708:0
@@ -140,7 +162,7 @@ Mirsa Praen,Praesyu,1704,DF,1704:0; 1708:0
 Niko Laselt,Etirha,1704,DF,1704:0; 1708:0
 Niko Tscheren,Emara,1704,MF,1704:0; 1708:0
 Nils Halvar,Verusa,1704,MF,1704:0; 1708:0
-Niram Vellar,Easuhura,1704,MF,1700:0; 1704:0; 1708:0
+Niram Vellar,Easuhura,1704,MF,1700:0; 1704:0
 Niran Yoki,Easuhura,1704,GK,1704:0; 1708:0; 1712:0
 Niran Yokima,Easuhura,1764,,1760:0; 1764:0
 Odin Brunic,Verusa,1704,MF,1700:0; 1704:0; 1708:0
@@ -151,7 +173,7 @@ Ostan Peka,Etirha,1704,FW,1704:0; 1708:0; 1712:0
 Otvan Reinal,Alzuria,1704,GK,1700:0; 1704:0
 Petr Kovsul,Emara,1704,MF,1700:0; 1704:0
 Ravko Borzhin,Emara,1704,DF,1700:0; 1704:0; 1708:0
-Reku Shomjin,Quidic,1704,DF,1700:0; 1704:0; 1708:0
+Reku Shomjin,Quidic,1704,DF,1700:0; 1704:0
 Reku Vayvel,Seytinemas,1704,FW,1700:0; 1704:0
 Remy Feior,Areoix Lie,1704,FW,1704:0; 1708:0; 1712:0
 Renar Brimen,Praesyu,1704,FW,1700:0; 1704:0; 1708:0
@@ -171,7 +193,7 @@ Ryo Sanag,Dahe,1704,FW,1704:0; 1708:0
 Sahir Mavan,Easuhura,1704,FW,1704:0; 1708:0
 Sanu Hyelen,Quidic,1704,DF,1700:0; 1704:0
 Saro Nheyes,Quidic,1704,MF,1704:0; 1708:0
-Saro Ocaun,Seytinemas,1704,MF,1700:0; 1704:0; 1708:0
+Saro Ocaun,Seytinemas,1704,MF,1700:0; 1704:0
 Sevan Toral,Raledria,1704,MF,1704:0; 1708:0
 Sevan Yokar,Easuhura,1704,MF,1700:1; 1704:0
 Sevren Olbrak,New Misos,1756,,1752:0; 1756:0; 1760:0
@@ -184,16 +206,16 @@ Stig Eldun,Eldjo,1704,FW,1700:0; 1704:0; 1708:1
 Sune Baluyd,Quidic,1704,FW,1704:0; 1708:0; 1712:0
 Sven Walpor,United Delet,1704,DF,1700:0; 1704:0; 1708:0
 Taro Eparin,Dahe,1704,GK,1700:0; 1704:0
-Taru Ucrun,Dahe,1704,MF,1700:0; 1704:0; 1708:0; 1712:1
+Taru Ucrun,Dahe,1704,MF,1700:0; 1704:0
 Tavi Iarev,Quidic,1704,MF,1700:0; 1704:0
 Tavu Lunava,Seytinemas,1704,GK,1700:0; 1704:0; 1708:0
 Tenu Finae,Quidic,1704,FW,1704:0; 1708:0; 1712:0
-Tenu Lieri,Seytinemas,1704,FW,1700:0; 1704:0; 1708:0; 1712:0
+Tenu Lieri,Seytinemas,1704,FW,1700:0; 1704:0; 1708:0
 Tiery Jathu,Areoix Lie,1704,DF,1704:0; 1708:0; 1712:0
 Tobias Reinl,Alzuria,1704,MF,1704:0; 1708:0
-Toby Vaster,Raledria,1704,MF,1700:0; 1704:0; 1708:0
+Toby Vaster,Raledria,1704,MF,1700:0; 1704:0
 Toman Reyas,Praesyu,1720,,1712:0; 1716:0; 1720:0
-Tomik Guisar,Etirha,1704,FW,1700:0; 1704:0; 1708:0
+Tomik Guisar,Etirha,1704,FW,1700:0; 1704:0
 Tomik Zerikul,Emara,1704,DF,1704:0; 1708:0; 1712:0
 Tor Verun,Verusa,1704,MF,1704:0; 1708:0
 Tor Yutnit,United Delet,1704,MF,1704:0; 1708:0
@@ -201,12 +223,12 @@ Tovan Brunar,Verusa,1704,DF,1704:0; 1708:0; 1712:0
 Tovan Eldlund,Eldjo,1704,DF,1704:0; 1708:0
 Tovan Huan,Estijan,1704,FW,1704:0; 1708:1
 Tovan Praeal,Praesyu,1704,FW,1700:0; 1704:0
-Tovan Vellim,Easuhura,1704,DF,1700:0; 1704:0; 1708:0
+Tovan Vellim,Easuhura,1704,DF,1700:0; 1704:0
 Tovar Fincen,Etirha,1704,DF,1704:0; 1708:0
 Ulf Elden,Eldjo,1704,MF,1704:0; 1708:0
 Ulf Halor,Verusa,1704,MF,1700:0; 1704:0
-Ulf Niar,United Delet,1704,GK,1700:0; 1704:0; 1708:0
-Vael Rushen,Emara,1704,MF,1700:0; 1704:0; 1708:0
+Ulf Niar,United Delet,1704,GK,1700:0; 1704:0
+Vael Rushen,Emara,1704,MF,1700:0; 1704:0
 Vaiu Taoin,Seytinemas,1704,MF,1704:0; 1708:0
 Veniel Stanev,Emara,1704,GK,1704:0; 1708:0; 1712:0
 Vico Calven,Lycroa,1704,MF,1704:0; 1708:0

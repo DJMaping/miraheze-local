@@ -17,7 +17,7 @@
 |-
 | Matches played || 16
 |-
-| Goals scored || 86 (5.38 per match)
+| Goals scored || 45 (2.81 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -31,7 +31,7 @@
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
-| Top scorer || {{Flagicon|Lycroa}} Edmar Calvik ([[Lycroa]]) (14 goals)
+| Top scorer || {{Flagicon|Lycroa}} Edmar Calvik ([[Lycroa]]) (7 goals)
 |-
 | Previous: || ''[[1656 FLLA World Cup|1656]]''
 |-
@@ -104,30 +104,30 @@ All dates are given in the local time of the host cities.
 |+ Group A standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 14 || 4 || +10 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 12 || 4 || +8 || 5
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5
 |-
-| 3 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 3 || 0 || 1 || 2 || 4 || 12 || −8 || 1 ||
+| 3 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 4 || 14 || −10 || 1 ||
+| 4 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 2 || 6 || −4 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group A matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 6 June 1660 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 5–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Lachon Stadium, Lachon
+| align="left" | 6 June 1660 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Lachon Stadium, Lachon
 |-
-| align="left" | 6 June 1660 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 5–0 || {{Flagicon|Verusa}} Verusa || align="left" | Chayek Field, Chayek
+| align="left" | 6 June 1660 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–0 || {{Flagicon|Verusa}} Verusa || align="left" | Chayek Field, Chayek
 |-
-| align="left" | 10 June 1660 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 7–2 || {{Flagicon|Verusa}} Verusa || align="left" | Lachon Stadium, Lachon
+| align="left" | 10 June 1660 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Verusa}} Verusa || align="left" | Lachon Stadium, Lachon
 |-
-| align="left" | 10 June 1660 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 5–2 || {{Flagicon|Eldjo}} Eldjo || align="left" | Chayek Field, Chayek
+| align="left" | 10 June 1660 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Chayek Field, Chayek
 |-
-| align="left" | 14 June 1660 || align="right" | Lycroa {{Flagicon|Lycroa}} || 2–2 || {{Flagicon|Estijan}} Estijan || align="left" | Lachon Stadium, Lachon
+| align="left" | 14 June 1660 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|Estijan}} Estijan || align="left" | Lachon Stadium, Lachon
 |-
-| align="left" | 14 June 1660 || align="right" | Verusa {{Flagicon|Verusa}} || 2–2 || {{Flagicon|Eldjo}} Eldjo || align="left" | Chayek Field, Chayek
+| align="left" | 14 June 1660 || align="right" | Verusa {{Flagicon|Verusa}} || 1–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Chayek Field, Chayek
 |}
 
 ===Group B===
@@ -135,13 +135,13 @@ All dates are given in the local time of the host cities.
 |+ Group B standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 14 || 2 || +12 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 6 || 1 || +5 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' ''(H)'' || 3 || 2 || 1 || 0 || 12 || 4 || +8 || 5
+| 2 || align="left" | {{Flagicon|Easuhura}} '''[[Easuhura]]''' ''(H)'' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5
 |-
-| 3 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 4 || 14 || −10 || 1 ||
+| 3 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 2 || 6 || −4 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3 || 0 || 1 || 2 || 2 || 12 || −10 || 1 ||
+| 4 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3 || 0 || 1 || 2 || 1 || 5 || −4 || 1 ||
 |}
 ''(H) Host.''
 
@@ -149,17 +149,17 @@ All dates are given in the local time of the host cities.
 |+ Group B matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 5 June 1660 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 5–0 || {{Flagicon|Praesyu}} Praesyu || align="left" | Bokayek Grand Stadium, Bokayek
+| align="left" | 5 June 1660 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–0 || {{Flagicon|Praesyu}} Praesyu || align="left" | Bokayek Grand Stadium, Bokayek
 |-
-| align="left" | 6 June 1660 || align="right" | '''Emara''' {{Flagicon|Emara}} || 7–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Sokhan Arena, Sokhan
+| align="left" | 6 June 1660 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Sokhan Arena, Sokhan
 |-
-| align="left" | 9 June 1660 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 5–2 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Bokayek Grand Stadium, Bokayek
+| align="left" | 9 June 1660 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–1 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Bokayek Grand Stadium, Bokayek
 |-
-| align="left" | 10 June 1660 || align="right" | '''Emara''' {{Flagicon|Emara}} || 5–0 || {{Flagicon|Praesyu}} Praesyu || align="left" | Sokhan Arena, Sokhan
+| align="left" | 10 June 1660 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Praesyu}} Praesyu || align="left" | Sokhan Arena, Sokhan
 |-
-| align="left" | 13 June 1660 || align="right" | Emara {{Flagicon|Emara}} || 2–2 || {{Flagicon|Easuhura}} Easuhura || align="left" | Bokayek Grand Stadium, Bokayek
+| align="left" | 13 June 1660 || align="right" | Emara {{Flagicon|Emara}} || 1–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Bokayek Grand Stadium, Bokayek
 |-
-| align="left" | 13 June 1660 || align="right" | Yaxuto {{Flagicon|Yaxuto}} || 2–2 || {{Flagicon|Praesyu}} Praesyu || align="left" | Sokhan Arena, Sokhan
+| align="left" | 13 June 1660 || align="right" | Yaxuto {{Flagicon|Yaxuto}} || 1–1 || {{Flagicon|Praesyu}} Praesyu || align="left" | Sokhan Arena, Sokhan
 |}
 
 ==Knockout stage==
@@ -168,10 +168,10 @@ The knockout stage involved the four teams that advanced from the group stage, w
 
 ===Bracket===
 {{#invoke:RoundN|N4|3rdplace=yes|bold_winner=high
-| | {{Flagicon|Lycroa}} Lycroa | 5 | {{Flagicon|Easuhura}} Easuhura | 1
-| | {{Flagicon|Emara}} Emara | 3 | {{Flagicon|Estijan}} Estijan | 0
+| | {{Flagicon|Lycroa}} Lycroa | 3 | {{Flagicon|Easuhura}} Easuhura | 1
+| | {{Flagicon|Emara}} Emara | 2 | {{Flagicon|Estijan}} Estijan | 0
 | | {{Flagicon|Lycroa}} Lycroa | 6 | {{Flagicon|Emara}} Emara | 1
-| | {{Flagicon|Easuhura}} Easuhura | 3 | {{Flagicon|Estijan}} Estijan | 1
+| | {{Flagicon|Easuhura}} Easuhura | 2 | {{Flagicon|Estijan}} Estijan | 1
 }}
 
 ===Semi-finals===
@@ -179,9 +179,9 @@ The knockout stage involved the four teams that advanced from the group stage, w
 {{Football box
 | date = {{Start date|1660|6|28|df=y}}
 | team1 = '''[[Lycroa]]''' {{Flagicon|Lycroa}}
-| score = 5–1
+| score = 3–1
 | team2 = {{Flagicon|Easuhura}} [[Easuhura]]
-| goals1 = Calvik {{Goal|22|58}}<br/>Edrin {{Goal|49|85}}<br/>Reln {{Goal|77}}
+| goals1 = Calvik {{Goal|22}}<br/>Edrin {{Goal|49}}<br/>Reln {{Goal|77}}
 | goals2 = Ravan {{Goal|60}}
 | stadium = Sokhan Arena, [[Sokhan]]
 | attendance = 11,500
@@ -191,9 +191,9 @@ The knockout stage involved the four teams that advanced from the group stage, w
 {{Football box
 | date = {{Start date|1660|6|28|df=y}}
 | team1 = '''[[Emara]]''' {{Flagicon|Emara}}
-| score = 3–0
+| score = 2–0
 | team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Crale {{Goal|35|38}}<br/>Voss {{Goal|71}}
+| goals1 = Crale {{Goal|35}}<br/>Voss {{Goal|71}}
 | goals2 =
 | stadium = Lachon Stadium, [[Lachon]]
 | attendance = 9,000
@@ -205,9 +205,9 @@ The knockout stage involved the four teams that advanced from the group stage, w
 {{Football box
 | date = {{Start date|1660|7|3|df=y}}
 | team1 = '''[[Easuhura]]''' {{Flagicon|Easuhura}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Sokhai {{Goal|28|77}}<br/>Daris {{Goal|66}}
+| goals1 = Sokhai {{Goal|28}}<br/>Daris {{Goal|66}}
 | goals2 = Brody {{Goal|54}}
 | stadium = Paviri Park, [[Paviri]]
 | attendance = 8,500
@@ -234,20 +234,20 @@ The final was held at the Bokayek Grand Stadium on 4 July 1660 before an estimat
 
 ===Goalscorers===
 
-A total of 86 goals were scored in 16 matches, an average of 5.38 per match. The leading scorer was the Lycroan forward Edmar Calvik, who scored fourteen goals across the tournament, including a hat-trick in the final. No formal individual awards were presented at the 1660 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1660/statistics|title=1660 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+A total of 45 goals were scored in 16 matches, an average of 2.81 per match. The leading scorer was the Lycroan forward Edmar Calvik, who scored seven goals across the tournament, including a hat-trick in the final. No formal individual awards were presented at the 1660 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1660/statistics|title=1660 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
 
-'''14 goals'''
+'''7 goals'''
 * {{Flagicon|Lycroa}} Edmar Calvik ([[Lycroa]])
 
-'''10 goals'''
+'''5 goals'''
 * {{Flagicon|Lycroa}} Joren Edrin ([[Lycroa]])
 * {{Flagicon|Emara}} Edmund Crale ([[Emara]])
 
-'''8 goals'''
+'''4 goals'''
 * {{Flagicon|Easuhura}} Ravan Sokhai ([[Easuhura]])
 * {{Flagicon|Estijan}} Alvar Brody ([[Estijan]])
 
-'''4 goals'''
+'''2 goals'''
 * {{Flagicon|Lycroa}} Mern Holt ([[Lycroa]])
 * {{Flagicon|Emara}} Pell Voss ([[Emara]])
 * {{Flagicon|Easuhura}} Daris Phalan ([[Easuhura]])

@@ -17,7 +17,7 @@
 |-
 | Matches played || 24
 |-
-| Goals scored || 100 (4.17 per match)
+| Goals scored || 58 (2.42 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -31,14 +31,14 @@
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
-| Top scorer || {{Flagicon|Emara}} Dragomir Volzhen ([[Emara]]) (10 goals)
+| Top scorer || {{Flagicon|Emara}} Dragomir Volzhen ([[Emara]]) (6 goals)
 |-
 | Previous: || ''[[1668 FLLA World Cup|1668]]''
 |-
 | Next: || ''[[1676 FLLA World Cup|1676]]''
 |}
 
-The '''1672 Ayuman Cup''', recognised retrospectively as the 4th edition of the '''[[FLLA World Cup]]''', was an international [[Arraby]] tournament contested by the senior men's national teams of the leading Ayuman football associations. It was held in [[Emara]], across [[Ayuma]], from 4 June to 2 July 1672, and was won by the hosts, [[Emara]], who defeated [[Lycroa]] 6–3 in the [[#Final|final]] at the Rivostan Grand Stadium to claim their first title.<ref name="heritage-overview">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/overview|title=The 1672 Ayuman Cup: tournament overview|publisher=[[FLLA]]|date=14 March 1763}}</ref>
+The '''1672 Ayuman Cup''', recognised retrospectively as the 4th edition of the '''[[FLLA World Cup]]''', was an international [[Arraby]] tournament contested by the senior men's national teams of the leading Ayuman football associations. It was held in [[Emara]], across [[Ayuma]], from 4 June to 2 July 1672, and was won by the hosts, [[Emara]], who defeated [[Lycroa]] 4–2 in the [[#Final|final]] at the Rivostan Grand Stadium to claim their first title.<ref name="heritage-overview">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/overview|title=The 1672 Ayuman Cup: tournament overview|publisher=[[FLLA]]|date=14 March 1763}}</ref>
 
 The tournament was staged under the older title of the Ayuman Cup, the name the competition bore before the [[FLLA]] was constituted and the contest was relaunched and renamed the [[FLLA World Cup]] at the [[1700 FLLA World Cup|1700 edition]]; the seven continental confederations did not yet exist, and all ten entrants were drawn from [[Ayuma]]. It was the fourth edition to be completed, the [[1664 FLLA World Cup|1664 tournament]] having been awarded but abandoned before play on the outbreak of the [[Great Imperial War]].<ref name="heritage-rename">{{cite web|url=https://www.flla.org/heritage/history/early-competition-names|title=From the Ayuman Cup to the FLLA World Cup: the early names of the competition|publisher=[[FLLA]]|date=12 February 1764}}</ref>
 
@@ -104,40 +104,40 @@ All dates are given in the local time of the host cities.
 |+ Group A standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 4 || 3 || 1 || 0 || 14 || 4 || +10 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 4 || 3 || 1 || 0 || 7 || 3 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 4 || 1 || 3 || 0 || 10 || 6 || +4 || 5
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 4 || 1 || 3 || 0 || 5 || 3 || +2 || 5
 |-
-| 3 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || 4 || 1 || 2 || 1 || 7 || 8 || −1 || 4 ||
+| 3 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || 4 || 1 || 2 || 1 || 4 || 4 || 0 || 4 ||
 |-
-| 4 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 4 || 1 || 1 || 2 || 5 || 8 || −3 || 3 ||
+| 4 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 4 || 1 || 1 || 2 || 3 || 4 || −1 || 3 ||
 |-
-| 5 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 4 || 0 || 1 || 3 || 2 || 12 || −10 || 1 ||
+| 5 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 4 || 0 || 1 || 3 || 1 || 6 || −5 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group A matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 5 June 1672 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 4–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Borzhai Ground, Borzhai
+| align="left" | 5 June 1672 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Borzhai Ground, Borzhai
 |-
-| align="left" | 5 June 1672 || align="right" | Estijan {{Flagicon|Estijan}} || 2–2 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Yilovka Park, Yilovka
+| align="left" | 5 June 1672 || align="right" | Estijan {{Flagicon|Estijan}} || 1–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Yilovka Park, Yilovka
 |-
-| align="left" | 8 June 1672 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Borzhai Ground, Borzhai
+| align="left" | 8 June 1672 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 1–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Borzhai Ground, Borzhai
 |-
-| align="left" | 9 June 1672 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 4–1 || {{Flagicon|Verusa}} Verusa || align="left" | Borzhai Ground, Borzhai
+| align="left" | 9 June 1672 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Verusa}} Verusa || align="left" | Borzhai Ground, Borzhai
 |-
-| align="left" | 9 June 1672 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 4–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Yilovka Park, Yilovka
+| align="left" | 9 June 1672 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Yilovka Park, Yilovka
 |-
-| align="left" | 12 June 1672 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 4–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Borzhai Ground, Borzhai
+| align="left" | 12 June 1672 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Borzhai Ground, Borzhai
 |-
-| align="left" | 13 June 1672 || align="right" | Verusa {{Flagicon|Verusa}} || 2–2 || {{Flagicon|Estijan}} Estijan || align="left" | Yilovka Park, Yilovka
+| align="left" | 13 June 1672 || align="right" | Verusa {{Flagicon|Verusa}} || 1–1 || {{Flagicon|Estijan}} Estijan || align="left" | Yilovka Park, Yilovka
 |-
-| align="left" | 13 June 1672 || align="right" | Yaxuto {{Flagicon|Yaxuto}} || 2–2 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Borzhai Ground, Borzhai
+| align="left" | 13 June 1672 || align="right" | Yaxuto {{Flagicon|Yaxuto}} || 1–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Borzhai Ground, Borzhai
 |-
-| align="left" | 16 June 1672 || align="right" | Praesyu {{Flagicon|Praesyu}} || 2–2 || {{Flagicon|Estijan}} Estijan || align="left" | Borzhai Ground, Borzhai
+| align="left" | 16 June 1672 || align="right" | Praesyu {{Flagicon|Praesyu}} || 1–1 || {{Flagicon|Estijan}} Estijan || align="left" | Borzhai Ground, Borzhai
 |-
-| align="left" | 16 June 1672 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 2–0 || {{Flagicon|Verusa}} Verusa || align="left" | Yilovka Park, Yilovka
+| align="left" | 16 June 1672 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 1–0 || {{Flagicon|Verusa}} Verusa || align="left" | Yilovka Park, Yilovka
 |}
 
 ===Group B===
@@ -145,15 +145,15 @@ All dates are given in the local time of the host cities.
 |+ Group B standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' ''(H)'' || 4 || 3 || 1 || 0 || 12 || 3 || +9 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' ''(H)'' || 4 || 3 || 1 || 0 || 6 || 2 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 4 || 2 || 2 || 0 || 12 || 6 || +6 || 6
+| 2 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 4 || 2 || 2 || 0 || 6 || 4 || +2 || 6
 |-
-| 3 || align="left" | {{Flagicon|Siana}} [[Siana]] || 4 || 2 || 1 || 1 || 9 || 7 || +2 || 5 ||
+| 3 || align="left" | {{Flagicon|Siana}} [[Siana]] || 4 || 2 || 1 || 1 || 5 || 4 || +1 || 5 ||
 |-
-| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 4 || 0 || 1 || 3 || 4 || 12 || −8 || 1 ||
+| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 4 || 0 || 1 || 3 || 3 || 6 || −3 || 1 ||
 |-
-| 5 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 4 || 0 || 1 || 3 || 3 || 12 || −9 || 1 ||
+| 5 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 4 || 0 || 1 || 3 || 2 || 6 || −4 || 1 ||
 |}
 ''(H) Host.''
 
@@ -161,25 +161,25 @@ All dates are given in the local time of the host cities.
 |+ Group B matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 4 June 1672 || align="right" | '''Emara''' {{Flagicon|Emara}} || 4–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Rivostan Grand Stadium, Rivostan
+| align="left" | 4 June 1672 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Rivostan Grand Stadium, Rivostan
 |-
-| align="left" | 5 June 1672 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 4–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Khalzhun Arena, Khalzhun
+| align="left" | 5 June 1672 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Khalzhun Arena, Khalzhun
 |-
-| align="left" | 7 June 1672 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Shaikuv Stadium, Shaikuv
+| align="left" | 7 June 1672 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Shaikuv Stadium, Shaikuv
 |-
-| align="left" | 8 June 1672 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Easuhura}} Easuhura || align="left" | Rivostan Grand Stadium, Rivostan
+| align="left" | 8 June 1672 || align="right" | '''Emara''' {{Flagicon|Emara}} || 1–0 || {{Flagicon|Easuhura}} Easuhura || align="left" | Rivostan Grand Stadium, Rivostan
 |-
-| align="left" | 9 June 1672 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 4–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Khalzhun Arena, Khalzhun
+| align="left" | 9 June 1672 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Khalzhun Arena, Khalzhun
 |-
-| align="left" | 11 June 1672 || align="right" | Siana {{Flagicon|Siana}} || 2–2 || {{Flagicon|Lycroa}} Lycroa || align="left" | Shaikuv Stadium, Shaikuv
+| align="left" | 11 June 1672 || align="right" | Siana {{Flagicon|Siana}} || 1–1 || {{Flagicon|Lycroa}} Lycroa || align="left" | Shaikuv Stadium, Shaikuv
 |-
-| align="left" | 12 June 1672 || align="right" | '''Emara''' {{Flagicon|Emara}} || 4–1 || {{Flagicon|Siana}} Siana || align="left" | Rivostan Grand Stadium, Rivostan
+| align="left" | 12 June 1672 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Siana}} Siana || align="left" | Rivostan Grand Stadium, Rivostan
 |-
-| align="left" | 13 June 1672 || align="right" | Easuhura {{Flagicon|Easuhura}} || 2–2 || {{Flagicon|Eldjo}} Eldjo || align="left" | Khalzhun Arena, Khalzhun
+| align="left" | 13 June 1672 || align="right" | Easuhura {{Flagicon|Easuhura}} || 1–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Khalzhun Arena, Khalzhun
 |-
-| align="left" | 16 June 1672 || align="right" | Emara {{Flagicon|Emara}} || 2–2 || {{Flagicon|Lycroa}} Lycroa || align="left" | Rivostan Grand Stadium, Rivostan
+| align="left" | 16 June 1672 || align="right" | Emara {{Flagicon|Emara}} || 1–1 || {{Flagicon|Lycroa}} Lycroa || align="left" | Rivostan Grand Stadium, Rivostan
 |-
-| align="left" | 16 June 1672 || align="right" | '''Siana''' {{Flagicon|Siana}} || 4–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Shaikuv Stadium, Shaikuv
+| align="left" | 16 June 1672 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Shaikuv Stadium, Shaikuv
 |}
 
 ==Knockout stage==
@@ -188,10 +188,10 @@ The knockout stage involved the four teams that advanced from the group stage. E
 
 ===Bracket===
 {{#invoke:RoundN|N4|3rdplace=yes|bold_winner=high
-| | {{Flagicon|Emara}} Emara | 4 | {{Flagicon|Estijan}} Estijan | 1
-| | {{Flagicon|Praesyu}} Praesyu | 1 | {{Flagicon|Lycroa}} Lycroa | 3
-| | {{Flagicon|Emara}} Emara | 6 | {{Flagicon|Lycroa}} Lycroa | 3
-| | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Estijan}} Estijan | 1
+| | {{Flagicon|Emara}} Emara | 3 | {{Flagicon|Estijan}} Estijan | 1
+| | {{Flagicon|Praesyu}} Praesyu | 1 | {{Flagicon|Lycroa}} Lycroa | 2
+| | {{Flagicon|Emara}} Emara | 4 | {{Flagicon|Lycroa}} Lycroa | 2
+| | {{Flagicon|Praesyu}} Praesyu | 2 | {{Flagicon|Estijan}} Estijan | 1
 }}
 
 ===Semi-finals===
@@ -199,9 +199,9 @@ The knockout stage involved the four teams that advanced from the group stage. E
 {{Football box
 | date = {{Start date|1672|6|25|df=y}}
 | team1 = '''[[Emara]]''' {{Flagicon|Emara}}
-| score = 4–1
+| score = 3–1
 | team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Volzhen {{Goal|17|20|64}}<br/>Kazhan {{Goal|78}}
+| goals1 = Volzhen {{Goal|20|64}}<br/>Kazhan {{Goal|78}}
 | goals2 = Brody {{Goal|50}}
 | stadium = Rivostan Grand Stadium, [[Rivostan]]
 | attendance = 19,500
@@ -211,10 +211,10 @@ The knockout stage involved the four teams that advanced from the group stage. E
 {{Football box
 | date = {{Start date|1672|6|25|df=y}}
 | team1 = {{Flagicon|Praesyu}} [[Praesyu]]
-| score = 1–3
+| score = 1–2
 | team2 = '''[[Lycroa]]''' {{Flagicon|Lycroa}}
 | goals1 = Wol {{Goal|60}}
-| goals2 = Calmar {{Goal|35|44}}<br/>Veldt {{Goal|88}}
+| goals2 = Calmar {{Goal|35}}<br/>Veldt {{Goal|88}}
 | stadium = Khalzhun Arena, [[Khalzhun]]
 | attendance = 14,800
 | referee = Halsten Vey ([[Yaxuto]])
@@ -225,9 +225,9 @@ The knockout stage involved the four teams that advanced from the group stage. E
 {{Football box
 | date = {{Start date|1672|7|1|df=y}}
 | team1 = '''[[Praesyu]]''' {{Flagicon|Praesyu}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Wol {{Goal|22|81}}<br/>Henlo {{Goal|70}}
+| goals1 = Wol {{Goal|22}}<br/>Henlo {{Goal|70}}
 | goals2 = Aldis {{Goal|55}}
 | stadium = Yilovka Park, [[Yilovka]]
 | attendance = 11,200
@@ -236,15 +236,15 @@ The knockout stage involved the four teams that advanced from the group stage. E
 
 ===Final===
 
-The final was held at the Rivostan Grand Stadium on 2 July 1672 before an estimated crowd of 20,000. [[Emara]] took the lead early through Dragomir Volzhen, the tournament's leading scorer, and led 3–1 by the hour through Ivor Kazhan and Milorad Tschev, with [[Lycroa]] replying through Tomas Calmar. Volzhen completed his hat-trick and Tschev added a second, and although Calmar struck again and Andrej Veldt pulled one back, Emara ran out 6–3 winners. The victory secured Emara's first title, won on home soil, and the original [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented to the Emaran captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/final|title=The 1672 Ayuman Cup final: Emara 6–3 Lycroa|publisher=[[FLLA]]|date=14 March 1763}}</ref>
+The final was held at the Rivostan Grand Stadium on 2 July 1672 before an estimated crowd of 20,000. [[Emara]] took the lead early through Dragomir Volzhen, the tournament's leading scorer, and led 3–1 by the hour through goals from Ivor Kazhan and Milorad Tschev, with [[Lycroa]] replying through Tomas Calmar before the interval. Volzhen added his second of the match to make it 4–1, and Andrej Veldt struck a late consolation for Lycroa to set the final score at 4–2. The victory secured Emara's first title, won on home soil, and the original [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented to the Emaran captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/final|title=The 1672 Ayuman Cup final: Emara 4–2 Lycroa|publisher=[[FLLA]]|date=14 March 1763}}</ref>
 
 {{Football box
 | date = {{Start date|1672|7|2|df=y}}
 | team1 = '''[[Emara]]''' {{Flagicon|Emara}}
-| score = 6–3
+| score = 4–2
 | team2 = {{Flagicon|Lycroa}} [[Lycroa]]
-| goals1 = Volzhen {{Goal|8|52|75}}<br/>Kazhan {{Goal|33}}<br/>Tschev {{Goal|58|82}}
-| goals2 = Calmar {{Goal|45|66}}<br/>Veldt {{Goal|70}}
+| goals1 = Volzhen {{Goal|8|75}}<br/>Kazhan {{Goal|33}}<br/>Tschev {{Goal|58}}
+| goals2 = Calmar {{Goal|45}}<br/>Veldt {{Goal|70}}
 | stadium = Rivostan Grand Stadium, [[Rivostan]]
 | attendance = 20,000
 | referee = Mikol Renz ([[Eldjo]])
@@ -254,22 +254,22 @@ The final was held at the Rivostan Grand Stadium on 2 July 1672 before an estima
 
 ===Goalscorers===
 
-A total of 100 goals were scored in 24 matches, an average of 4.17 per match. The leading scorer was the Emaran forward Dragomir Volzhen, who scored ten goals across the tournament, including three in the final. No formal individual awards were presented at the 1672 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/statistics|title=1672 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 March 1763}}</ref>
+A total of 58 goals were scored in 24 matches, an average of 2.42 per match. The leading scorer was the Emaran forward Dragomir Volzhen, who scored six goals across the tournament, including two in the final. No formal individual awards were presented at the 1672 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/statistics|title=1672 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 March 1763}}</ref>
 
-'''10 goals'''
+'''6 goals'''
 * {{Flagicon|Emara}} Dragomir Volzhen ([[Emara]])
 
-'''9 goals'''
+'''5 goals'''
 * {{Flagicon|Lycroa}} Tomas Calmar ([[Lycroa]])
 
-'''7 goals'''
+'''4 goals'''
 * {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 
-'''5 goals'''
+'''3 goals'''
 * {{Flagicon|Emara}} Ivor Kazhan ([[Emara]])
 * {{Flagicon|Lycroa}} Andrej Veldt ([[Lycroa]])
 
-'''3 goals'''
+'''2 goals'''
 * {{Flagicon|Emara}} Milorad Tschev ([[Emara]])
 * {{Flagicon|Praesyu}} Aldous Henlo ([[Praesyu]])
 * {{Flagicon|Siana}} Aldo Feronti ([[Siana]])

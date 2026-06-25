@@ -17,7 +17,7 @@
 |-
 | Matches played || 30
 |-
-| Goals scored || 85 (2.83 per match)
+| Goals scored || 63 (2.10 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -31,7 +31,7 @@
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
-| Top scorer || {{Flagicon|Lycroa}} Davin Calmar ([[Lycroa]]) (8 goals)
+| Top scorer || {{Flagicon|Lycroa}} Davin Calmar ([[Lycroa]]) (6 goals)
 |-
 | Previous: || ''[[1676 FLLA World Cup|1676]]''
 |-
@@ -112,26 +112,26 @@ All dates are given in the local time of the host cities.
 |+ Group A standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 7 || 2 || +5 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 6 || 2 || +4 || 5
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 2 || 1 || 0 || 4 || 2 || +2 || 5
 |-
-| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 2 || 6 || −4 || 1 ||
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 2 || 4 || −2 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 2 || 7 || −5 || 1 ||
+| 4 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group A matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 9 June 1680 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Liambra Arena, Liambra
+| align="left" | 9 June 1680 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Liambra Arena, Liambra
 |-
-| align="left" | 10 June 1680 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–0 || {{Flagicon|Verusa}} Verusa || align="left" | Tianco Park, Tianco
+| align="left" | 10 June 1680 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 1–0 || {{Flagicon|Verusa}} Verusa || align="left" | Tianco Park, Tianco
 |-
-| align="left" | 13 June 1680 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–1 || {{Flagicon|Verusa}} Verusa || align="left" | Liambra Arena, Liambra
+| align="left" | 13 June 1680 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Verusa}} Verusa || align="left" | Liambra Arena, Liambra
 |-
-| align="left" | 14 June 1680 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 3–1 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Tianco Park, Tianco
+| align="left" | 14 June 1680 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–1 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Tianco Park, Tianco
 |-
 | align="left" | 17 June 1680 || align="right" | Praesyu {{Flagicon|Praesyu}} || 1–1 || {{Flagicon|Estijan}} Estijan || align="left" | Liambra Arena, Liambra
 |-
@@ -143,26 +143,26 @@ All dates are given in the local time of the host cities.
 |+ Group B standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 7 || 2 || +5 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Palina}} '''[[Palina]]''' || 3 || 1 || 2 || 0 || 4 || 2 || +2 || 4
+| 2 || align="left" | {{Flagicon|Palina}} '''[[Palina]]''' || 3 || 1 || 2 || 0 || 3 || 2 || +1 || 4
 |- style="background:#ccffcc;"
-| 3 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 0 || 2 || 4 || 6 || −2 || 2 || Advance as best third-placed team
+| 3 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 0 || 2 || 3 || 4 || −1 || 2 || Advance as best third-placed team
 |-
-| 4 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 2 || 7 || −5 || 1 ||
+| 4 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group B matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 9 June 1680 || align="right" | '''Siana''' {{Flagicon|Siana}} || 3–0 || {{Flagicon|Darewa}} Darewa || align="left" | Sompai Stadium, Sompai
+| align="left" | 9 June 1680 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–0 || {{Flagicon|Darewa}} Darewa || align="left" | Sompai Stadium, Sompai
 |-
-| align="left" | 10 June 1680 || align="right" | '''Palina''' {{Flagicon|Palina}} || 2–0 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Zaringao Field, Zaringao
+| align="left" | 10 June 1680 || align="right" | '''Palina''' {{Flagicon|Palina}} || 1–0 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Zaringao Field, Zaringao
 |-
-| align="left" | 13 June 1680 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 3–1 || {{Flagicon|Darewa}} Darewa || align="left" | Sompai Stadium, Sompai
+| align="left" | 13 June 1680 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 2–1 || {{Flagicon|Darewa}} Darewa || align="left" | Sompai Stadium, Sompai
 |-
-| align="left" | 14 June 1680 || align="right" | '''Siana''' {{Flagicon|Siana}} || 3–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Zaringao Field, Zaringao
+| align="left" | 14 June 1680 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Zaringao Field, Zaringao
 |-
 | align="left" | 17 June 1680 || align="right" | Siana {{Flagicon|Siana}} || 1–1 || {{Flagicon|Palina}} Palina || align="left" | Sompai Stadium, Sompai
 |-
@@ -174,15 +174,15 @@ All dates are given in the local time of the host cities.
 |+ Group C standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' ''(H)'' || 4 || 3 || 1 || 0 || 10 || 3 || +7 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' ''(H)'' || 4 || 3 || 1 || 0 || 7 || 3 || +4 || 7 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 4 || 3 || 0 || 1 || 9 || 3 || +6 || 6
+| 2 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 4 || 3 || 0 || 1 || 6 || 2 || +4 || 6
 |- style="background:#ccffcc;"
-| 3 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 4 || 2 || 1 || 1 || 7 || 4 || +3 || 5 || Advance as best third-placed team
+| 3 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 4 || 2 || 1 || 1 || 5 || 3 || +2 || 5 || Advance as best third-placed team
 |-
-| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 4 || 1 || 0 || 3 || 4 || 9 || −5 || 2 ||
+| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 4 || 1 || 0 || 3 || 3 || 6 || −3 || 2 ||
 |-
-| 5 || align="left" | {{Flagicon|Taval}} [[Taval]] || 4 || 0 || 0 || 4 || 0 || 11 || −11 || 0 ||
+| 5 || align="left" | {{Flagicon|Taval}} [[Taval]] || 4 || 0 || 0 || 4 || 0 || 7 || −7 || 0 ||
 |}
 ''(H) Host.''
 
@@ -190,23 +190,23 @@ All dates are given in the local time of the host cities.
 |+ Group C matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 8 June 1680 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–0 || {{Flagicon|Taval}} Taval || align="left" | Jungui Grand Stadium, Jungui
+| align="left" | 8 June 1680 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Jungui Grand Stadium, Jungui
 |-
-| align="left" | 9 June 1680 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Zaringao Field, Zaringao
+| align="left" | 9 June 1680 || align="right" | '''Emara''' {{Flagicon|Emara}} || 1–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Zaringao Field, Zaringao
 |-
-| align="left" | 12 June 1680 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Emara}} Emara || align="left" | Jungui Grand Stadium, Jungui
+| align="left" | 12 June 1680 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Emara}} Emara || align="left" | Jungui Grand Stadium, Jungui
 |-
-| align="left" | 12 June 1680 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 3–0 || {{Flagicon|Taval}} Taval || align="left" | Zaringao Field, Zaringao
+| align="left" | 12 June 1680 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Zaringao Field, Zaringao
 |-
-| align="left" | 15 June 1680 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Zaringao Field, Zaringao
+| align="left" | 15 June 1680 || align="right" | '''Easuhura''' {{Flagicon|Easuhura}} || 1–0 || {{Flagicon|Taval}} Taval || align="left" | Zaringao Field, Zaringao
 |-
-| align="left" | 15 June 1680 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jungui Grand Stadium, Jungui
+| align="left" | 15 June 1680 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jungui Grand Stadium, Jungui
 |-
-| align="left" | 18 June 1680 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–0 || {{Flagicon|Taval}} Taval || align="left" | Zaringao Field, Zaringao
+| align="left" | 18 June 1680 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Zaringao Field, Zaringao
 |-
-| align="left" | 18 June 1680 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 3–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jungui Grand Stadium, Jungui
+| align="left" | 18 June 1680 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 2–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jungui Grand Stadium, Jungui
 |-
-| align="left" | 21 June 1680 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–0 || {{Flagicon|Easuhura}} Easuhura || align="left" | Zaringao Field, Zaringao
+| align="left" | 21 June 1680 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–0 || {{Flagicon|Easuhura}} Easuhura || align="left" | Zaringao Field, Zaringao
 |-
 | align="left" | 21 June 1680 || align="right" | Lycroa {{Flagicon|Lycroa}} || 1–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Jungui Grand Stadium, Jungui
 |}
@@ -219,11 +219,11 @@ The two best of the three third-placed teams advanced to the knockout stage. To 
 |+ Third-placed teams (adjusted to three matches)
 ! Group !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| C || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 1 || 1 || 1 || 4 || 4 || 0 || 3 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| C || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 1 || 1 || 1 || 3 || 2 || +1 || 3 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| B || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 0 || 2 || 4 || 6 || −2 || 2
+| B || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 0 || 2 || 3 || 4 || −1 || 2
 |-
-| A || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 2 || 6 || −4 || 1 ||
+| A || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 2 || 4 || −2 || 1 ||
 |}
 
 ==Knockout stage==
@@ -232,14 +232,14 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 
 ===Bracket===
 {{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
-| | {{Flagicon|Lycroa}} Lycroa | 3 | {{Flagicon|Merela Sta}} Merela Sta | 0
-| | {{Flagicon|Siana}} Siana | 3 | {{Flagicon|Estijan}} Estijan | 1
+| | {{Flagicon|Lycroa}} Lycroa | 2 | {{Flagicon|Merela Sta}} Merela Sta | 0
+| | {{Flagicon|Siana}} Siana | 2 | {{Flagicon|Estijan}} Estijan | 1
 | | {{Flagicon|Praesyu}} Praesyu | 1 | {{Flagicon|Emara}} Emara | 0
-| | {{Flagicon|Eldjo}} Eldjo (a.e.t.) | 3 | {{Flagicon|Palina}} Palina | 1
+| | {{Flagicon|Eldjo}} Eldjo (a.e.t.) | 2 | {{Flagicon|Palina}} Palina | 1
 | | {{Flagicon|Lycroa}} Lycroa | 1 | {{Flagicon|Siana}} Siana | 0
-| | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Praesyu}} Praesyu | 1
+| | {{Flagicon|Eldjo}} Eldjo | 2 | {{Flagicon|Praesyu}} Praesyu | 1
 | | {{Flagicon|Lycroa}} Lycroa (coin toss) | 0 | {{Flagicon|Eldjo}} Eldjo | 0
-| | {{Flagicon|Siana}} Siana | 3 | {{Flagicon|Praesyu}} Praesyu | 1
+| | {{Flagicon|Siana}} Siana | 2 | {{Flagicon|Praesyu}} Praesyu | 1
 }}
 
 ===Quarter-finals===
@@ -247,9 +247,9 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 {{Football box
 | date = {{Start date|1680|6|25|df=y}}
 | team1 = '''[[Lycroa]]''' {{Flagicon|Lycroa}}
-| score = 3–0
+| score = 2–0
 | team2 = {{Flagicon|Merela Sta}} [[Merela Sta]]
-| goals1 = Calmar {{Goal|31|88}}<br/>Aldun {{Goal|67}}
+| goals1 = Calmar {{Goal|31}}<br/>Aldun {{Goal|67}}
 | goals2 =
 | stadium = Jungui Grand Stadium, [[Jungui]]
 | attendance = 24,000
@@ -259,9 +259,9 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 {{Football box
 | date = {{Start date|1680|6|25|df=y}}
 | team1 = '''[[Siana]]''' {{Flagicon|Siana}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Renzi {{Goal|22|58}}<br/>Bassi {{Goal|64}}
+| goals1 = Renzi {{Goal|22}}<br/>Bassi {{Goal|64}}
 | goals2 = Brod {{Goal|48}}
 | stadium = Liambra Arena, [[Liambra]]
 | attendance = 16,800
@@ -283,9 +283,9 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 {{Football box
 | date = {{Start date|1680|6|26|df=y}}
 | team1 = '''[[Eldjo]]''' {{Flagicon|Eldjo}}
-| score = 3–1 {{Aet}}
+| score = 2–1 {{Aet}}
 | team2 = {{Flagicon|Palina}} [[Palina]]
-| goals1 = Roval {{Goal|38|95}}<br/>Malden {{Goal|105}}
+| goals1 = Roval {{Goal|38}}<br/>Malden {{Goal|105}}
 | goals2 = Salm {{Goal|71}}
 | stadium = Tianco Park, [[Tianco]]
 | attendance = 13,400
@@ -309,9 +309,9 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 {{Football box
 | date = {{Start date|1680|7|1|df=y}}
 | team1 = '''[[Eldjo]]''' {{Flagicon|Eldjo}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Praesyu}} [[Praesyu]]
-| goals1 = Roval {{Goal|27|88}}<br/>Malden {{Goal|73}}
+| goals1 = Roval {{Goal|27}}<br/>Malden {{Goal|73}}
 | goals2 = Wol {{Goal|61}}
 | stadium = Sompai Stadium, [[Sompai]]
 | attendance = 15,600
@@ -323,9 +323,9 @@ The knockout stage involved the eight teams that advanced from the group stage. 
 {{Football box
 | date = {{Start date|1680|7|6|df=y}}
 | team1 = '''[[Siana]]''' {{Flagicon|Siana}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Praesyu}} [[Praesyu]]
-| goals1 = Renzi {{Goal|34|63}}<br/>Bassi {{Goal|70}}
+| goals1 = Renzi {{Goal|34}}<br/>Bassi {{Goal|70}}
 | goals2 = Wol {{Goal|56}}
 | stadium = Tianco Park, [[Tianco]]
 | attendance = 12,400
@@ -353,24 +353,24 @@ The final was held at the Jungui Grand Stadium on 7 July 1680 before an estimate
 
 ===Goalscorers===
 
-A total of 85 goals were scored in 30 matches, an average of 2.83 per match. The leading scorer was the Lycroan forward Davin Calmar, who scored eight goals across the tournament, though he did not find the net in the goalless final. No formal individual awards were presented at the 1680 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1680/statistics|title=1680 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+A total of 63 goals were scored in 30 matches, an average of 2.10 per match. The leading scorer was the Lycroan forward Davin Calmar, who scored six goals across the tournament, though he did not find the net in the goalless final. No formal individual awards were presented at the 1680 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1680/statistics|title=1680 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
 
-'''8 goals'''
+'''6 goals'''
 * {{Flagicon|Lycroa}} Davin Calmar ([[Lycroa]])
 
-'''7 goals'''
+'''5 goals'''
 * {{Flagicon|Eldjo}} Sten Roval ([[Eldjo]])
 * {{Flagicon|Siana}} Marco Renzi ([[Siana]])
 
-'''5 goals'''
+'''4 goals'''
 * {{Flagicon|Eldjo}} Erik Malden ([[Eldjo]])
 * {{Flagicon|Siana}} Lio Bassi ([[Siana]])
 * {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 
-'''4 goals'''
+'''3 goals'''
 * {{Flagicon|Lycroa}} Renko Vasil ([[Lycroa]])
 
-'''3 goals'''
+'''2 goals'''
 * {{Flagicon|Emara}} Edmund Crale ([[Emara]])
 * {{Flagicon|Estijan}} Lukan Brod ([[Estijan]])
 * {{Flagicon|Palina}} Niko Salm ([[Palina]])

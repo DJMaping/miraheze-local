@@ -42,7 +42,7 @@ The wider [[FLLA]] was constituted in 1683, formally extending the governance of
 
 ===Continental Tournament (1656 to 1684)===
 
-The first seven editions of the competition were contested under the title '''Ayuman Continental Tournament''', a designation reflecting the participation of teams drawn predominantly from the [[AYFVL]] confederation. The inaugural [[1656 FLLA World Cup|1656 edition]] was hosted by [[Siana]] and contested by nine teams in two groups followed by a knockout stage; [[Estijan]] defeated [[Eldjo]] 4–2 in the final, a result remembered as the first major international honour won by an Estijan side.<ref name="flla1656">{{cite web|url=https://www.flla.org/heritage/world-cup/1656|title=The 1656 Ayuman Continental Tournament|publisher=[[FLLA]]|date=18 June 1763}}</ref> Four years later, the [[1660 FLLA World Cup|1660 edition]] in [[Easuhura]] produced the largest-margin final in the competition's history when [[Lycroa]] defeated [[Emara]] 6–1, a five-goal winning margin not equalled at any subsequent edition.<ref name="fllarecords">{{cite web|url=https://www.flla.org/heritage/world-cup/records|title=FLLA World Cup final records and milestones|publisher=[[FLLA]]|date=22 August 1764}}</ref>
+The first seven editions of the competition were contested under the title '''Ayuman Continental Tournament''', a designation reflecting the participation of teams drawn predominantly from the [[AYFVL]] confederation. The inaugural [[1656 FLLA World Cup|1656 edition]] was hosted by [[Siana]] and contested by nine teams in two groups followed by a knockout stage; [[Estijan]] defeated [[Eldjo]] 6–3 in the final, a result remembered as the first major international honour won by an Estijan side.<ref name="flla1656">{{cite web|url=https://www.flla.org/heritage/world-cup/1656|title=The 1656 Ayuman Continental Tournament|publisher=[[FLLA]]|date=18 June 1763}}</ref> Four years later, the [[1660 FLLA World Cup|1660 edition]] in [[Easuhura]] produced the largest-margin final in the competition's history when [[Lycroa]] defeated [[Emara]] 6–1, a five-goal winning margin not equalled at any subsequent edition.<ref name="fllarecords">{{cite web|url=https://www.flla.org/heritage/world-cup/records|title=FLLA World Cup final records and milestones|publisher=[[FLLA]]|date=22 August 1764}}</ref>
 
 The [[1664 FLLA World Cup|1664 tournament]], scheduled to be held in [[Kingdom of Alzuria|Alzuria]] with the largest field then contemplated (nine teams), was cancelled by the Federation's Council on 11 May 1661 following the outbreak of the [[Great Imperial War]].<ref name="flla1664cancel">{{cite web|url=https://www.flla.org/heritage/world-cup/1664-cancellation|title=The cancelled 1664 edition and the Great Imperial War|publisher=[[FLLA]]|date=5 May 1763}}</ref> The competition resumed in [[1668 FLLA World Cup|1668]] with [[Eldjo]] hosting twelve teams; the cycle continued without interruption through the [[1672 FLLA World Cup|1672]], [[1676 FLLA World Cup|1676]], [[1680 FLLA World Cup|1680]] and [[1684 FLLA World Cup|1684 editions]]. The 1680 final, contested between [[Lycroa]] and [[Eldjo]] at the Jungui Grand Stadium in [[Jungui]], finished goalless after extra time and was settled by a single coin toss, a method of resolution unique in the tournament's records.<ref name="flla1680">{{cite web|url=https://www.flla.org/heritage/world-cup/1680-final|title=The 1680 final: the coin-toss decision|publisher=[[FLLA]]|date=14 September 1763}}</ref>
 
@@ -163,21 +163,21 @@ The following table lists all twenty-four completed editions of the FLLA World C
 |+ FLLA World Cup editions
 ! Year !! Edition !! Host(s) !! Continent !! Final score !! Champion !! Runner-up !! Teams
 |-
-| [[1656 FLLA World Cup|1656]] || 1st || align="left" | [[Siana]] || align="left" | [[Ayuma]] || 4–2 || align="left" | {{Flagicon|Estijan}} [[Estijan]]<ref name="flla1656" /> || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 9
+| [[1656 FLLA World Cup|1656]] || 1st || align="left" | [[Siana]] || align="left" | [[Ayuma]] || 6–3 || align="left" | {{Flagicon|Estijan}} [[Estijan]]<ref name="flla1656" /> || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 9
 |-
 | [[1660 FLLA World Cup|1660]] || 2nd || align="left" | [[Easuhura]] || align="left" | [[Ayuma]] || 6–1 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || align="left" | {{Flagicon|Emara}} [[Emara]] || 8
 |-
 | 1664 || colspan="6" align="center" | ''Cancelled because of the [[Great Imperial War]]'' || 9 ''(planned)''
 |-
-| [[1668 FLLA World Cup|1668]] || 3rd || align="left" | [[Eldjo]] || align="left" | [[Ayuma]] || 2–1 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || align="left" | {{Flagicon|Estijan}} [[Estijan]] || 12
+| [[1668 FLLA World Cup|1668]] || 3rd || align="left" | [[Eldjo]] || align="left" | [[Ayuma]] || 3–1 || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || align="left" | {{Flagicon|Estijan}} [[Estijan]] || 12
 |-
-| [[1672 FLLA World Cup|1672]] || 4th || align="left" | [[Emara]] || align="left" | [[Ayuma]] || 4–2 || align="left" | {{Flagicon|Emara}} [[Emara]] || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 10
+| [[1672 FLLA World Cup|1672]] || 4th || align="left" | [[Emara]] || align="left" | [[Ayuma]] || 6–3 || align="left" | {{Flagicon|Emara}} [[Emara]] || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || 10
 |-
 | [[1676 FLLA World Cup|1676]] || 5th || align="left" | [[Praesyu]] || align="left" | [[Ayuma]] || 3–0 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || align="left" | {{Flagicon|Emara}} [[Emara]] || 12
 |-
 | [[1680 FLLA World Cup|1680]] || 6th || align="left" | [[Lycroa]] || align="left" | [[Ayuma]] || 0–0 ''(coin toss)'' || align="left" | {{Flagicon|Lycroa}} [[Lycroa]] || align="left" | {{Flagicon|Eldjo}} [[Eldjo]] || 13
 |-
-| [[1684 FLLA World Cup|1684]] || 7th || align="left" | [[Alzurian_Union|Alzuria]] || align="left" | [[Ayuma]] || 4–2 || align="left" | {{Flagicon|Alzurian_Union}} [[Alzurian_Union|Alzuria]] || align="left" | {{Flagicon|Siana}} [[Siana]] || 16
+| [[1684 FLLA World Cup|1684]] || 7th || align="left" | [[Alzurian_Union|Alzuria]] || align="left" | [[Ayuma]] || 5–3 || align="left" | {{Flagicon|Alzurian_Union}} [[Alzurian_Union|Alzuria]] || align="left" | {{Flagicon|Siana}} [[Siana]] || 16
 |-
 | 1688 || colspan="6" align="center" | ''Cancelled because of the [[Red War]]'' || (planned)
 |-
@@ -341,7 +341,7 @@ Total sponsorship revenue across the [[1764 FLLA World Cup|1764 cycle]] was {{la
 
 The following are among the most frequently discussed individual matches in the history of the FLLA World Cup:
 
-* The '''[[1656 FLLA World Cup|1656 final]]''', the first international fixture decided under standardised Federation rules, in which [[Estijan]] beat [[Eldjo]] 4–2.
+* The '''[[1656 FLLA World Cup|1656 final]]''', the first international fixture decided under standardised Federation rules, in which [[Estijan]] beat [[Eldjo]] 6–3.
 * The '''[[1680 FLLA World Cup|1680 final]]''', the only final in the tournament's history to have been decided by a coin toss after a goalless 120 minutes between [[Lycroa]] and [[Eldjo]].
 * The '''[[1700 FLLA World Cup|1700 final]]''', the first edition of the tournament held under the "World Cup" name, won by [[Raledria]] against [[United Delet]].
 * The '''[[1716 FLLA World Cup|1716 hosting controversy]]''', in which the tournament was reallocated from [[Estijan]] to [[Easuhura]] on the disclosure of a coordinated programme of performance-enhancing pharmaceutical use within the Estijan domestic league.

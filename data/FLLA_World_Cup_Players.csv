@@ -1,19 +1,38 @@
 Player,Team(s),Position,World Cups,Total goals,Goals by World Cup,Awards,Notes
+Tomas Brody,Estijan,,"1656, 1660",23,1656: 15; 1660: 8,1656 Top scorer (Marskval),career spans generated
+Henrik Wol,Praesyu,,"1672, 1676, 1680, 1684",22,1672: 7; 1676: 8; 1680: 5; 1684: 2,,
+Edmar Calvik,Lycroa,,"1656, 1660",21,1656: 7; 1660: 14,1660 Top scorer (Marskval),career spans generated
+Aldo Feronti,Siana,,"1672, 1676, 1680, 1684",20,1672: 3; 1676: 6; 1680: 4; 1684: 7,,career spans generated
 Niall Brask,Raledria,,"1752, 1756, 1760, 1764",17,1752: 2; 1756: 6; 1760: 5; 1764: 4,,
 Tovan Brunscar,Verusa,,"1752, 1756, 1760",17,1752: 8; 1756: 4; 1760: 5,1752 Top scorer (Marskval),
 Aurelian Sundas,Raledria,,"1732, 1736, 1740, 1744",16,1732: 5; 1736: 6; 1740: 3; 1744: 2,1736 Top scorer (Marskval),career spans generated
 Theio Ravar,Emara,,"1752, 1756, 1760, 1764",16,1752: 1; 1756: 2; 1760: 4; 1764: 9,1764 Top scorer (Marskval),career spans generated
+Tomas Calmar,Lycroa,,"1672, 1676, 1680",16,1672: 9; 1676: 5; 1680: 2,,career spans generated
+Davor Klent,Eldjo,,"1668, 1672, 1676",15,1668: 2; 1672: 4; 1676: 9,1676 Top scorer (Marskval),career spans generated
+Dragomir Volzhen,Emara,,"1672, 1676",15,1672: 10; 1676: 5,1672 Top scorer (Marskval),career spans generated
+Edmund Crale,Emara,,"1656, 1660",15,1656: 5; 1660: 10,,name shared across eras (split)
+Lio Vanetti,Siana,,"1668, 1672, 1676, 1680",15,1668: 8; 1672: 4; 1676: 2; 1680: 1,,career spans generated
+Konrad Veitz,Alzurian Union,,"1676, 1680, 1684",14,1676: 2; 1680: 4; 1684: 8,1684 Top scorer (Marskval),career spans generated
+Ravan Sokhai,Easuhura,,"1660, 1668, 1672",14,1660: 8; 1668: 4; 1672: 2,,career spans generated
+Dario Castel,Siana,,1656,13,1656: 13,,
+Edmund Crale,Emara,,"1676, 1680, 1684",13,1676: 8; 1680: 3; 1684: 2,,name shared across eras (split)
 Maharan Soldai,Sanagara,,"1732, 1736, 1740, 1744",12,1732: 4; 1736: 1; 1740: 2; 1744: 5,,career spans generated
+Tomas Calier,Lycroa,,1668,12,1668: 12,1668 Top scorer (Marskval),
 Aldo Vossen,Dual Cenryia,,"1756, 1760, 1764",11,1756: 6; 1760: 3; 1764: 2,,career spans generated
 Caio Rentini,Taval,,"1760, 1764",11,1760: 6; 1764: 5,,
 Daron Veshani,Quidic,,"1752, 1756",11,1752: 3; 1756: 8,1756 Top scorer (Marskval),name shared across eras (split)
 Halric Ostley,Emara,,"1748, 1752",11,1748: 7; 1752: 4,1748 Top scorer (Marskval),career spans generated
 Setrul Karavi,New Misos,,"1748, 1752, 1756",11,1748: 6; 1752: 3; 1756: 2,1748 Best young player,career spans generated
-Velmir Drasko,Raledria,,"1700, 1704, 1708",11,1700: 6; 1704: 3; 1708: 2,1700 Top scorer (Marskval),career spans generated
 Anders Vellholm,Verusa,,"1756, 1760, 1764",10,1756: 2; 1760: 3; 1764: 5,1764 Best young player,career spans generated
+Brod Halson,Estijan,,1668,10,1668: 10,,
 Daro Lemniska,Seytinemas,,"1756, 1760, 1764",10,1756: 2; 1760: 3; 1764: 5,,career spans generated
+Ferid Voral,Lycroa,,"1668, 1672, 1676",10,1668: 6; 1672: 3; 1676: 1,,career spans generated
+Halvard Renn,Eldjo,,1656,10,1656: 10,,
+Joren Edrin,Lycroa,,1660,10,1660: 10,,
+Marco Renzi,Siana,,"1676, 1680",10,1676: 3; 1680: 7,,career spans generated
 Niall Brask,Etirha,,"1736, 1740, 1744",10,1736: 4; 1740: 2; 1744: 4,,career spans generated
 Ranjit Kavari,Sanagara,,"1740, 1744, 1748",10,1740: 2; 1744: 3; 1748: 5,,career spans generated
+Renso Mazzo,Siana,,"1676, 1680, 1684",10,1676: 5; 1680: 2; 1684: 3,,career spans generated
 Sebrek Galenas,New Misos,,"1752, 1756",10,1752: 3; 1756: 7,,
 Veylan Marrik,Raledria,,"1712, 1716",10,1712: 7; 1716: 3,1712 Top scorer (Marskval),career spans generated
 Aldermin Yaxri,Easuhura,,"1732, 1736, 1740",9,1732: 2; 1736: 5; 1740: 2,,career spans generated
@@ -22,15 +41,27 @@ Daron Veshani,Finae,,"1732, 1736",9,1732: 6; 1736: 3,,career spans generated
 Estien Marlo,Lycroa,,"1712, 1716, 1720",9,1712: 1; 1716: 3; 1720: 5,,career spans generated
 Galari Mestrei,Lycroa,,"1744, 1748",9,1744: 6; 1748: 3,1744 Top scorer (Marskval),career spans generated
 Joren Khaldari,United Delet,,"1704, 1708",9,1704: 3; 1708: 6,1708 Top scorer (Marskval),career spans generated
+Lio Bassi,Siana,,"1676, 1680, 1684",9,1676: 2; 1680: 5; 1684: 2,,career spans generated
 Petren Toranki,Wundry,,"1732, 1736",9,1732: 4; 1736: 5,,
 Reiner Valsk,Verusa,,"1724, 1728, 1732, 1736",9,1724: 2; 1728: 4; 1732: 2; 1736: 1,,career spans generated
+Renso Paoli,Siana,,"1660, 1668",9,1660: 3; 1668: 6,,career spans generated
 Telkor Andovi,Seytinemas,,"1744, 1748",9,1744: 3; 1748: 6,,career spans generated
+Tobin Henlo,Praesyu,,"1676, 1680",9,1676: 6; 1680: 3,,career spans generated
 Tomaz Renari,Emara,,"1728, 1732",9,1728: 3; 1732: 6,,career spans generated
 Adari Lonven,New Misos,,"1748, 1752",8,1748: 5; 1752: 3,1748 Best player (Vairan Ball),career spans generated
+Alvar Brody,Estijan,,1660,8,1660: 8,,
 Daron Veshani,Quidic,,"1736, 1740, 1744",8,1736: 3; 1740: 2; 1744: 3,,name shared across eras (split); career spans generated
+Davin Calmar,Lycroa,,1680,8,1680: 8,1680 Top scorer (Marskval),
+Emeric Sael,Estijan,,1656,8,1656: 8,,
+Erik Malden,Eldjo,,"1680, 1684",8,1680: 5; 1684: 3,,career spans generated
+Halvard Sten,Eldjo,,1668,8,1668: 8,,
+Janek Wol,Praesyu,,"1656, 1660",8,1656: 5; 1660: 3,,career spans generated
+Lukan Verd,Estijan,,1656,8,1656: 8,,
 Maharan Soldai,Taval,,"1732, 1736, 1740",8,1732: 2; 1736: 4; 1740: 2,,career spans generated
+Sigur Molde,Eldjo,,1656,8,1656: 8,,
 Talin Kestor,Quidic,,"1748, 1752, 1756",8,1748: 1; 1752: 2; 1756: 5,1756 Best young player,career spans generated
 Tiago Marenzi,Ohtina,,"1748, 1752, 1756, 1760",8,1748: 1; 1752: 1; 1756: 2; 1760: 4,,career spans generated
+Tomaz Reska,Eldjo,,"1668, 1672, 1676",8,1668: 1; 1672: 2; 1676: 5,,career spans generated
 Tovan Ranov,Ohtina,,"1736, 1740, 1744",8,1736: 3; 1740: 2; 1744: 3,,career spans generated
 Aakash Vinjala,Sanagara,,1764,7,1764: 7,,
 Aldan Verric,Trian,,1760,7,1760: 7,1760 Top scorer (Marskval),
@@ -42,12 +73,16 @@ Kashik Tonaq,Ztesh,,"1744, 1748, 1752, 1756",7,1744: 1; 1748: 1; 1752: 1; 1756: 
 Marenta,Dahe,,1740,7,1740: 7,,name from match data (surname only)
 Marlen Tavri,Quidic,,"1748, 1752, 1756",7,1748: 1; 1752: 1; 1756: 5,1756 Best player (Vairan Ball),includes surname-only match data
 Mirek Tovasch,Emara,FW,1704,7,1704: 7,1704 Top scorer (Marskval),
+Niko Salm,Palina,,"1676, 1680, 1684",7,1676: 2; 1680: 3; 1684: 2,,career spans generated
 Olen Marhan,Sanagara,,"1732, 1736, 1740, 1744",7,1732: 2; 1736: 1; 1740: 1; 1744: 3,,includes surname-only match data; career spans generated
 Ravik Tolmesh,Praesyu,,"1712, 1716, 1720",7,1712: 4; 1716: 2; 1720: 1,,career spans generated
 Renal Reka,United Delet,,"1752, 1756, 1760",7,1752: 4; 1756: 2; 1760: 1,,includes surname-only match data; career spans generated
+Sten Roval,Eldjo,,1680,7,1680: 7,,
 Tovi Renkalmar,Easuhura,,"1740, 1744",7,1740: 2; 1744: 5,,career spans generated
 Wilhelm Brashein,Verusa,,1732,7,1732: 7,1732 Top scorer (Marskval),
 Aldermin Sarro,Easuhura,,"1704, 1708, 1712",6,1704: 1; 1708: 2; 1712: 3,,career spans generated
+Alwin Hodge,Emara,,1676,6,1676: 6,,
+Antal Resk,Praesyu,,1668,6,1668: 6,,
 Aurelio Mestri,Raledria,,"1724, 1728",6,1724: 2; 1728: 4,,career spans generated
 Bertan Soreno,Lycroa,,"1736, 1740, 1744",6,1736: 1; 1740: 2; 1744: 3,1744 Best young player,career spans generated
 Brask Norvali,Etretes,,"1728, 1732",6,1728: 2; 1732: 4,,career spans generated
@@ -56,38 +91,58 @@ Davor Mirkeln,Etirha,,"1716, 1720",6,1716: 2; 1720: 4,,career spans generated
 Emil Korvan,Praesyu,,"1756, 1760",6,1756: 2; 1760: 4,,career spans generated
 Erron Petlik,New Misos,,"1744, 1748",6,1744: 4; 1748: 2,,career spans generated
 Friedrik Lannvert,Verusa,,"1732, 1736, 1740",6,1732: 1; 1736: 3; 1740: 2,,career spans generated
+Heinric Marold,Alzurian Union,,1684,6,1684: 6,,
 Mirek Tavold,Emara,,"1724, 1728, 1732",6,1724: 2; 1728: 3; 1732: 1,1728 Best player (Vairan Ball),career spans generated
+Navid Ravan,Easuhura,,"1660, 1668",6,1660: 4; 1668: 2,,career spans generated
 Sokri,New Misos,,1740,6,1740: 6,,name from match data (surname only)
+Stipan Verlo,Eldjo,,1676,6,1676: 6,,
 Toren Vasque,Verusa,,1724,6,1724: 6,1724 Top scorer (Marskval),
 Velari Mantor,New Misos,,"1744, 1748",6,1744: 2; 1748: 4,,career spans generated
 Velkhan,Emara,,1716,6,1716: 6,,name from match data (surname only)
+Velmir Drasko,Raledria,,1700,6,1700: 6,1700 Top scorer (Marskval),
 Vidoma Calreth,Emara,,"1732, 1736",6,1732: 4; 1736: 2,,career spans generated
 Aakash Rashvel,Sanagara,,"1740, 1744, 1748, 1752",5,1744: 1; 1748: 3; 1752: 1,,career spans generated
+Anders Halden,Alzurian Union,,"1676, 1680, 1684",5,1680: 2; 1684: 3,,career spans generated
+Andrej Veldt,Lycroa,,1672,5,1672: 5,,
 Cael Mordane,Emara,,1712,5,1712: 5,,
+Cal Brody,Estijan,,1676,5,1676: 5,,
 Halmeri,Easuhura,,1724,5,1724: 5,,name from match data (surname only)
 Halvor Marzeti,Lycroa,,1732,5,1732: 5,1732 Best player (Vairan Ball),
 Iremu Sahale,Taval,,1728,5,1728: 5,,
+Ivor Kazhan,Emara,,1672,5,1672: 5,,
 Khalo Bahkir,Haiza,,1760,5,1760: 5,,
 Linwei Pung,Dahe,,1732,5,1732: 5,,
+Lukan Brod,Estijan,,"1676, 1680, 1684",5,1676: 1; 1680: 3; 1684: 1,,career spans generated
 Marishen Olstre,Seytinemas,,"1744, 1748",5,1744: 2; 1748: 3,,career spans generated
+Renzo Verano,Siana,,1656,5,1656: 5,,
+Tomas Hald,Verusa,,1656,5,1656: 5,,
 Alaric Sumar,Praesyu,,1752,4,1752: 4,1752 Best young player,
 Anrik Vossel,Praesyu,,1720,4,1720: 4,1720 Best player (Vairan Ball),
+Aslen Velk,Eldjo,,1668,4,1668: 4,,
 Brenmar,United Delet,,1700,4,1700: 4,,name from match data (surname only)
+Daris Phalan,Easuhura,,1660,4,1660: 4,,
 Daro Kessil,Raledria,,1712,4,1712: 4,,
+Davin Marlo,Emara,,1668,4,1668: 4,,
 Davo Karelis,Easuhura,,1764,4,1764: 4,,
 Devan Lehrek,Verusa,,"1756, 1760, 1764",4,1756: 1; 1760: 2; 1764: 1,1760 Best young player,includes surname-only match data
 Galuran Erith,Easuhura,,"1732, 1736",4,1732: 1; 1736: 3,,career spans generated
 Karen Vekiri,Erkizil,,"1748, 1752, 1756",4,1748: 1; 1752: 2; 1756: 1,,includes surname-only match data; career spans generated
 Kel Renstrom,Dual Cenryia,,1756,4,1756: 4,,
+Kord Vesli,Estijan,,1668,4,1668: 4,,
 Maraki,Areoix Lie,,1724,4,1724: 4,,name from match data (surname only)
 Marek Vetrai,Raledria,,"1732, 1736",4,1732: 1; 1736: 3,1736 Best player (Vairan Ball),includes surname-only match data
+Mern Holt,Lycroa,,1660,4,1660: 4,,
+Milorad Tschev,Emara,,"1672, 1676",4,1672: 3; 1676: 1,,career spans generated
 Mun-Hyun Daek,Finae,,1748,4,1748: 4,,
+Pell Voss,Emara,,1660,4,1660: 4,,
 Ravan Sarkel,Ukhdari,,1760,4,1760: 4,,
+Renko Vasil,Lycroa,,1680,4,1680: 4,,
 Resko Velam,Finae,,1748,4,1748: 4,,
 Sava Tarkhel,Etirha,,"1712, 1716, 1720",4,1716: 1; 1720: 3,,career spans generated
 Senn Drevali,Praesyu,,"1708, 1712",4,1708: 1; 1712: 3,,career spans generated
 Tomir Daleski,Lycroa,,"1728, 1732, 1736",4,1728: 3; 1732: 1,,career spans generated
 Velsani,Lycroa,,1716,4,1716: 4,,name from match data (surname only)
+Aldous Henlo,Praesyu,,1672,3,1672: 3,,
 Aldwin,Emara,,1756,3,1756: 3,,name from match data (surname only)
 Andrei Volok,Raledria,,1720,3,1720: 3,,
 Ardrei,Ukhdari,,1732,3,1732: 3,,name from match data (surname only)
@@ -104,6 +159,8 @@ Halvik,Dual Cenryia,,1756,3,1756: 3,,name from match data (surname only)
 Marek Calahn,United Delet,,1752,3,1752: 3,,
 Maresto,Lycroa,,1724,3,1724: 3,,name from match data (surname only)
 Marwen,Lycroa,,1700,3,1700: 3,,name from match data (surname only)
+Miron Vask,Raledria,,1684,3,1684: 3,,
+Niklas Brody,Estijan,,1672,3,1672: 3,,
 Onuk Saryah,Siana,FW,1704,3,1704: 3,,
 Phalavi,Easuhura,,1716,3,1716: 3,,name from match data (surname only)
 Renji,Ztesh,,1760,3,1760: 3,,name from match data (surname only)
@@ -138,6 +195,7 @@ Naseef,Haiza,,1760,2,1760: 2,,name from match data (surname only)
 Olanze,Terressin,,1732,2,1732: 2,,name from match data (surname only)
 Olstai,Anymna,,1736,2,1736: 2,,name from match data (surname only)
 Ostroski,Verusa,,1764,2,1764: 2,,name from match data (surname only)
+Pavol Brek,Raledria,,1684,2,1684: 2,,
 Pelan,Ohtina,,1736,2,1736: 2,,name from match data (surname only)
 Pikashka,Ztesh,,1756,2,1756: 2,,name from match data (surname only)
 Ravkin,Raledria,,1700,2,1700: 2,,name from match data (surname only)
@@ -161,6 +219,8 @@ Yaru,Easuhura,,1764,2,1764: 2,,name from match data (surname only)
 Zhao,Dahe,,1732,2,1732: 2,,name from match data (surname only)
 Aldan Estren,Estijan,FW,"1700, 1704, 1708, 1712",1,1708: 1,,career spans generated
 Aldhus,Verusa,,1716,1,1716: 1,,name from match data (surname only)
+Aldis,Estijan,,1672,1,1672: 1,,name from match data (surname only)
+Aldun,Lycroa,,1680,1,1680: 1,,name from match data (surname only)
 Anjit,Sanagara,,1756,1,1756: 1,,name from match data (surname only)
 Ardrein,Erkizil,,1752,1,1752: 1,,name from match data (surname only)
 Arun Phakra,Siana,MF,1704,1,1704: 1,,
@@ -172,12 +232,14 @@ Bhandar,Dahe,,1724,1,1724: 1,,name from match data (surname only)
 Brask,Raledria,,1748,1,1748: 1,,name from match data (surname only)
 Brevik,Praesyu,,1716,1,1716: 1,,name from match data (surname only)
 Brindes,United Delet,,1740,1,1740: 1,,name from match data (surname only)
+Brody,Estijan,,1684,1,1684: 1,,name from match data (surname only)
 Brunn,Verusa,,1728,1,1728: 1,,name from match data (surname only)
 Brunscar,Praesyu,,1732,1,1732: 1,,name from match data (surname only)
 Brunscar,United Delet,,1732,1,1732: 1,,name from match data (surname only)
 Brunscar,United Delet,,1736,1,1736: 1,,name from match data (surname only)
 Calder,New Misos,,1760,1,1760: 1,,name from match data (surname only)
 Caldis,Emara,,1712,1,1712: 1,,name from match data (surname only)
+Calmar,Lycroa,,1684,1,1684: 1,,name from match data (surname only)
 Caltari,Lycroa,,1716,1,1716: 1,,name from match data (surname only)
 Carosi,United Delet,,1740,1,1740: 1,,name from match data (surname only)
 Carteni,Raledria,,1724,1,1724: 1,,name from match data (surname only)
@@ -185,9 +247,9 @@ Carteni,Raledria,,1740,1,1740: 1,,name from match data (surname only)
 Casin,Areoix Lie,,1708,1,1708: 1,,name from match data (surname only)
 Castin,Trian,,1760,1,1760: 1,,name from match data (surname only)
 Damolo,Praesyu,,1708,1,1708: 1,,name from match data (surname only)
+Daris,Easuhura,,1660,1,1660: 1,,name from match data (surname only)
 Daru,Sanagara,,1756,1,1756: 1,,name from match data (surname only)
 Davi Estor,Estijan,MF,"1704, 1708",1,1708: 1,,career spans generated
-Davi Mikal,Raledria,MF,"1700, 1704, 1708, 1712",1,1712: 1,,career spans generated
 Daxen,Easuhura,,1756,1,1756: 1,,name from match data (surname only)
 Demane,Terressin,,1764,1,1764: 1,,name from match data (surname only)
 Denrik,New Misos,,1756,1,1756: 1,,name from match data (surname only)
@@ -211,12 +273,12 @@ Hales,Praesyu,,1700,1,1700: 1,,name from match data (surname only)
 Halvad Renn,Raledria,FW,1704,1,1704: 1,,
 Halver,Etirha,,1736,1,1736: 1,,name from match data (surname only)
 Halver,Etirha,,1744,1,1744: 1,,name from match data (surname only)
-Hano Verste,Quidic,MF,"1700, 1704, 1708",1,1700: 1,,career spans generated
+Hano Verste,Quidic,MF,"1700, 1704",1,1700: 1,,career spans generated
 Harlan,Easuhura,,1720,1,1720: 1,,name from match data (surname only)
 Helven,Raledria,,1752,1,1752: 1,,name from match data (surname only)
+Henlo,Praesyu,,1684,1,1684: 1,,name from match data (surname only)
 Hkulan,Ealdorii,,1736,1,1736: 1,,name from match data (surname only)
 Holt,Lycroa,,1704,1,1704: 1,,name from match data (surname only)
-Iram Mavel,Easuhura,GK,"1700, 1704, 1708",1,1708: 1,,career spans generated
 Joren Vahsk,Raledria,,"1760, 1764",1,1764: 1,1760 Best goalkeeper (Bastion),career spans generated
 Kaito Vesoz,Dahe,FW,"1704, 1708, 1712, 1716",1,1716: 1,,career spans generated
 Khrishi,Sanagara,,1764,1,1764: 1,,name from match data (surname only)
@@ -227,7 +289,7 @@ Korvis,Siana,,1712,1,1712: 1,,name from match data (surname only)
 Kweli,Terressin,,1732,1,1732: 1,,name from match data (surname only)
 Lavanti,Emara,,1732,1,1732: 1,,name from match data (surname only)
 Lerek,Pelines,,1748,1,1748: 1,,name from match data (surname only)
-Loren Tirzen,Raledria,DF,"1700, 1704, 1708, 1712",1,1700: 1,,career spans generated
+Loren Tirzen,Raledria,DF,"1700, 1704, 1708",1,1700: 1,,career spans generated
 Lorenzo Lucani,Lycroa,FW,"1704, 1708, 1712",1,1712: 1,,career spans generated
 Maalen,United Delet,,1716,1,1716: 1,,name from match data (surname only)
 Mahari,Sanagara,,1748,1,1748: 1,,name from match data (surname only)
@@ -261,9 +323,11 @@ Pavnik,Isnti,,1764,1,1764: 1,,name from match data (surname only)
 Pelan,Ohtina,,1744,1,1744: 1,,name from match data (surname only)
 Pelan,Terressin,,1756,1,1756: 1,,name from match data (surname only)
 Pelorni,Genaire,,1732,1,1732: 1,,name from match data (surname only)
+Pesca,Merela Sta,,1676,1,1676: 1,,name from match data (surname only)
 Pharo,Dahe,,1720,1,1720: 1,,name from match data (surname only)
 Pradesh,Haiza,,1748,1,1748: 1,,name from match data (surname only)
 Rast,Raledria,,1720,1,1720: 1,,name from match data (surname only)
+Reln,Lycroa,,1660,1,1660: 1,,name from match data (surname only)
 Reltari,Lycroa,,1732,1,1732: 1,,name from match data (surname only)
 Renvad,Fermori,,1740,1,1740: 1,,name from match data (surname only)
 Reol,Sanagara,,1732,1,1732: 1,,name from match data (surname only)
@@ -286,7 +350,6 @@ Suendar,Easuhura,,1724,1,1724: 1,,name from match data (surname only)
 Suon,Taval,,1756,1,1756: 1,,name from match data (surname only)
 Talvi,Quidic,,1724,1,1724: 1,,name from match data (surname only)
 Tarin,Siana,,1764,1,1764: 1,,name from match data (surname only)
-Taru Ucrun,Dahe,MF,"1700, 1704, 1708, 1712",1,1712: 1,,career spans generated
 Tarven,Erkizil,,1756,1,1756: 1,,name from match data (surname only)
 Tashin,Dahe,,1724,1,1724: 1,,name from match data (surname only)
 Tavela,Merela Sta,,1752,1,1752: 1,,name from match data (surname only)
@@ -356,6 +419,7 @@ Daro Praesi,Praesyu,DF,1704,0,,,
 Daro Yokin,Easuhura,MF,"1700, 1704",0,,,career spans generated
 Davi Aetin,Etirha,MF,1704,0,,,
 Davi Easan,Easuhura,MF,"1704, 1708, 1712",0,,,career spans generated
+Davi Mikal,Raledria,MF,"1700, 1704, 1708",0,,,career spans generated
 Davi Praeun,Praesyu,MF,"1704, 1708",0,,,career spans generated
 Davir Khalan,Easuhura,,1716,0,,1716 Best goalkeeper (Bastion),
 Davlen Aetir,Etirha,FW,1704,0,,,
@@ -386,10 +450,10 @@ Gunn Eldkvist,Eldjo,GK,"1704, 1708",0,,,career spans generated
 Gunn Veren,Verusa,GK,"1704, 1708",0,,,career spans generated
 Halan Grazel,Etirha,FW,1704,0,,,
 Halan Renar,Raledria,MF,"1704, 1708",0,,,career spans generated
-Haldor Eldahl,Eldjo,DF,"1700, 1704, 1708",0,,,career spans generated
+Haldor Eldahl,Eldjo,DF,"1700, 1704",0,,,career spans generated
 Hano Tijar,Estijan,DF,"1700, 1704",0,,,career spans generated
 Hans Alzar,Alzuria,DF,1704,0,,,
-Hans Astye,United Delet,MF,"1700, 1704, 1708, 1712",0,,,career spans generated
+Hans Astye,United Delet,MF,"1700, 1704",0,,,career spans generated
 Hanu Ashin,Quidic,DF,"1704, 1708",0,,,career spans generated
 Hanu Taing,Seytinemas,DF,"1700, 1704",0,,,career spans generated
 Haru Ihner,Dahe,DF,"1700, 1704, 1708",0,,,career spans generated
@@ -397,8 +461,9 @@ Haruo Pruim,Dahe,MF,"1700, 1704, 1708",0,,,career spans generated
 Hau Selaj,Seytinemas,MF,1704,0,,,
 Heinz Reial,Alzuria,DF,1704,0,,,
 Hiren Quartelar,Lycroa,,1744,0,,1744 Best goalkeeper (Bastion),
-Hugo Alzun,Alzuria,FW,"1700, 1704, 1708",0,,,career spans generated
+Hugo Alzun,Alzuria,FW,"1700, 1704",0,,,career spans generated
 Ilya Puzhin,Emara,FW,1704,0,,,
+Iram Mavel,Easuhura,GK,"1700, 1704",0,,,career spans generated
 Iram Praek,Praesyu,GK,1704,0,,,
 Ivan Huak,Estijan,GK,1704,0,,,
 Ivan Syliad,Etirha,GK,1704,0,,,
@@ -406,11 +471,11 @@ Ivan Tirzal,Raledria,GK,1704,0,,,
 Jaro Estil,Estijan,DF,"1700, 1704",0,,,career spans generated
 Jean Tanidun,Areoix Lie,GK,1704,0,,,
 Jorg Volken,Alzuria,FW,"1700, 1704, 1708",0,,,career spans generated
-Juma Bagusil,Siana,MF,"1700, 1704, 1708",0,,,career spans generated
+Juma Bagusil,Siana,MF,"1700, 1704",0,,,career spans generated
 Juma Sariyah,Siana,DF,1704,0,,,
 Kael Mesjan,Quidic,FW,1704,0,,,
 Kaeu Inrea,Seytinemas,FW,1704,0,,,
-Kaiu Trian,Seytinemas,DF,"1700, 1704, 1708, 1712",0,,,career spans generated
+Kaiu Trian,Seytinemas,DF,"1700, 1704",0,,,career spans generated
 Karen Brimor,Praesyu,FW,1704,0,,,
 Karen Estal,Estijan,FW,1704,0,,,
 Karl Andsaud,United Delet,DF,"1704, 1708, 1712",0,,,career spans generated
@@ -426,7 +491,7 @@ Kenji Cloja,Dahe,DF,1704,0,,,
 Kiro Letan,Quidic,DF,"1700, 1704, 1708",0,,,career spans generated
 Klaus Volkin,Alzuria,FW,1704,0,,,
 Kofi Reeric,Areoix Lie,FW,"1700, 1704, 1708",0,,,career spans generated
-Koren Brimun,Praesyu,DF,"1700, 1704, 1708",0,,,career spans generated
+Koren Brimun,Praesyu,DF,"1700, 1704",0,,,career spans generated
 Koren Easil,Easuhura,DF,1704,0,,,
 Koren Phuran,Etirha,DF,"1704, 1708",0,,,career spans generated
 Koren Tijal,Estijan,DF,"1704, 1708",0,,,career spans generated
@@ -436,7 +501,7 @@ Lars Brunel,Verusa,DF,"1704, 1708",0,,,career spans generated
 Lars Eldby,Eldjo,MF,"1704, 1708",0,,,career spans generated
 Lars Iaino,United Delet,DF,"1704, 1708, 1712",0,,,career spans generated
 Leif Brunor,Verusa,FW,"1704, 1708",0,,,career spans generated
-Leif Eldval,Eldjo,FW,"1700, 1704, 1708",0,,,career spans generated
+Leif Eldval,Eldjo,FW,"1700, 1704",0,,,career spans generated
 Leif Rethern,United Delet,FW,1704,0,,,
 Lev Vahkhen,Emara,DF,1704,0,,,
 Lino Brunel,Lycroa,FW,"1704, 1708",0,,,career spans generated
@@ -451,7 +516,7 @@ Loren Phuris,Etirha,MF,"1700, 1704",0,,,career spans generated
 Lucan Calvel,Lycroa,DF,"1704, 1708",0,,,career spans generated
 Lucien Pelin,Areoix Lie,DF,1704,0,,,
 Luk Chigao,Siana,FW,"1704, 1708",0,,,career spans generated
-Luk Tungka,Siana,DF,"1700, 1704, 1708",0,,,career spans generated
+Luk Tungka,Siana,DF,"1700, 1704",0,,,career spans generated
 Lukas Alzir,Alzuria,MF,1704,0,,,
 Mads Deltar,United Delet,FW,1704,0,,,
 Mads Eldnes,Eldjo,FW,1704,0,,,
@@ -478,7 +543,7 @@ Niko Vasil,Raledria,FW,1704,0,,,
 Nils Eldorf,Eldjo,MF,1704,0,,,
 Nils Halvar,Verusa,MF,"1704, 1708",0,,,career spans generated
 Nils Veelmit,United Delet,MF,1704,0,,,
-Niram Vellar,Easuhura,MF,"1700, 1704, 1708",0,,,career spans generated
+Niram Vellar,Easuhura,MF,"1700, 1704",0,,,career spans generated
 Niran Yoki,Easuhura,GK,"1704, 1708, 1712",0,,,career spans generated
 Niran Yokima,Easuhura,,"1760, 1764",0,,1764 Best goalkeeper (Bastion),career spans generated
 Odin Brunic,Verusa,MF,"1700, 1704, 1708",0,,,career spans generated
@@ -497,7 +562,7 @@ Phako Mangiw,Siana,FW,1704,0,,,
 Pino Marsel,Lycroa,FW,1704,0,,,
 Ravko Borzhin,Emara,DF,"1700, 1704, 1708",0,,,career spans generated
 Reinz Volk,Alzuria,DF,1704,0,,,
-Reku Shomjin,Quidic,DF,"1700, 1704, 1708",0,,,career spans generated
+Reku Shomjin,Quidic,DF,"1700, 1704",0,,,career spans generated
 Reku Vayvel,Seytinemas,FW,"1700, 1704",0,,,career spans generated
 Reku Verul,Quidic,FW,1704,0,,,
 Remy Feior,Areoix Lie,FW,"1704, 1708, 1712",0,,,career spans generated
@@ -527,7 +592,7 @@ Sanu Hyelen,Quidic,DF,"1700, 1704",0,,,career spans generated
 Saro Brimel,Praesyu,MF,1704,0,,,
 Saro Estir,Estijan,MF,1704,0,,,
 Saro Nheyes,Quidic,MF,"1704, 1708",0,,,career spans generated
-Saro Ocaun,Seytinemas,MF,"1700, 1704, 1708",0,,,career spans generated
+Saro Ocaun,Seytinemas,MF,"1700, 1704",0,,,career spans generated
 Saua Chaen,Seytinemas,DF,1704,0,,,
 Sefu Eldav,Areoix Lie,MF,1704,0,,,
 Sevan Praeir,Praesyu,MF,1704,0,,,
@@ -551,32 +616,33 @@ Sven Halst,Verusa,DF,1704,0,,,
 Sven Walpor,United Delet,DF,"1700, 1704, 1708",0,,,career spans generated
 Taren Huar,Estijan,GK,1704,0,,,
 Taro Eparin,Dahe,GK,"1700, 1704",0,,,career spans generated
+Taru Ucrun,Dahe,MF,"1700, 1704",0,,,career spans generated
 Tavi Iarev,Quidic,MF,"1700, 1704",0,,,career spans generated
 Tavu Lunava,Seytinemas,GK,"1700, 1704, 1708",0,,,career spans generated
 Tenu Finae,Quidic,FW,"1704, 1708, 1712",0,,,career spans generated
-Tenu Lieri,Seytinemas,FW,"1700, 1704, 1708, 1712",0,,,career spans generated
+Tenu Lieri,Seytinemas,FW,"1700, 1704, 1708",0,,,career spans generated
 Tiba Sattle,Areoix Lie,MF,1704,0,,,
 Tiery Jathu,Areoix Lie,DF,"1704, 1708, 1712",0,,,career spans generated
 Toban Vellun,Easuhura,FW,1704,0,,,
 Tobias Reinl,Alzuria,MF,"1704, 1708",0,,,career spans generated
-Toby Vaster,Raledria,MF,"1700, 1704, 1708",0,,,career spans generated
+Toby Vaster,Raledria,MF,"1700, 1704",0,,,career spans generated
 Toman Reyas,Praesyu,,"1712, 1716, 1720",0,,1720 Best goalkeeper (Bastion),career spans generated
-Tomik Guisar,Etirha,FW,"1700, 1704, 1708",0,,,career spans generated
+Tomik Guisar,Etirha,FW,"1700, 1704",0,,,career spans generated
 Tomik Zerikul,Emara,DF,"1704, 1708, 1712",0,,,career spans generated
 Tor Verun,Verusa,MF,"1704, 1708",0,,,career spans generated
 Tor Yutnit,United Delet,MF,"1704, 1708",0,,,career spans generated
 Tovan Brunar,Verusa,DF,"1704, 1708, 1712",0,,,career spans generated
 Tovan Eldlund,Eldjo,DF,"1704, 1708",0,,,career spans generated
 Tovan Praeal,Praesyu,FW,"1700, 1704",0,,,career spans generated
-Tovan Vellim,Easuhura,DF,"1700, 1704, 1708",0,,,career spans generated
+Tovan Vellim,Easuhura,DF,"1700, 1704",0,,,career spans generated
 Tovar Fincen,Etirha,DF,"1704, 1708",0,,,career spans generated
 Tovin Brimas,Praesyu,GK,1704,0,,,
 Ulf Elden,Eldjo,MF,"1704, 1708",0,,,career spans generated
 Ulf Halor,Verusa,MF,"1700, 1704",0,,,career spans generated
-Ulf Niar,United Delet,GK,"1700, 1704, 1708",0,,,career spans generated
+Ulf Niar,United Delet,GK,"1700, 1704",0,,,career spans generated
 Vael Anymn,Quidic,DF,1704,0,,,
 Vael Arbin,Etirha,MF,1704,0,,,
-Vael Rushen,Emara,MF,"1700, 1704, 1708",0,,,career spans generated
+Vael Rushen,Emara,MF,"1700, 1704",0,,,career spans generated
 Vaiu Taoin,Seytinemas,MF,"1704, 1708",0,,,career spans generated
 Veniel Stanev,Emara,GK,"1704, 1708, 1712",0,,,career spans generated
 Vico Calven,Lycroa,MF,"1704, 1708",0,,,career spans generated

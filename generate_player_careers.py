@@ -40,6 +40,11 @@ COLS = ["Player", "Team(s)", "Position", "World Cups",
 # Career-length distribution (cumulative thresholds) and a realistic ceiling.
 LENGTH_CDF = [(0.45, 1), (0.75, 2), (0.93, 3), (1.01, 4)]
 MAX_LEN = 4   # at most 4 editions (~16 years); longer is unrealistic
+# A career must not span more real years than this, so an added edition never
+# bridges a long gap in the calendar -- the 1684->1700 war hiatus (three
+# cancelled editions) or a single cancelled edition (e.g. 1664). Editions are
+# indexed consecutively, so without this a 1684 player could be handed 1700.
+MAX_SPAN_YEARS = 12
 
 
 def seeded_rng(*parts):
@@ -119,6 +124,20 @@ def main():
             start = min_i - offset
             start = max(0, min(start, len(timeline) - length))
             window = [timeline[i] for i in range(start, start + length)]
+
+            # Trim added (non-attested) editions off the ends until the career's
+            # real-year span is plausible, so it never bridges a war-cancelled
+            # gap (e.g. 1684 -> 1700). Attested years are always kept.
+            need = set(attested)
+            while window[-1] - window[0] > MAX_SPAN_YEARS and len(window) > 1:
+                left_drop, right_drop = window[0] not in need, window[-1] not in need
+                if not left_drop and not right_drop:
+                    break
+                left_far, right_far = min(attested) - window[0], window[-1] - max(attested)
+                if left_drop and (not right_drop or left_far >= right_far):
+                    window = window[1:]
+                else:
+                    window = window[:-1]
 
             if len(window) <= len(set(attested)):
                 continue   # no extra editions -> stays single

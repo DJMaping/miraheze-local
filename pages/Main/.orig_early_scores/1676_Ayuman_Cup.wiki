@@ -17,7 +17,7 @@
 |-
 | Matches played || 26
 |-
-| Goals scored || 84 (3.23 per match)
+| Goals scored || 65 (2.50 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -31,7 +31,7 @@
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
-| Top scorer || {{Flagicon|Eldjo}} Davor Klent ([[Eldjo]]) (9 goals)
+| Top scorer || {{Flagicon|Eldjo}} Davor Klent ([[Eldjo]]) (6 goals)
 |-
 | Previous: || ''[[1672 FLLA World Cup|1672]]''
 |-
@@ -106,13 +106,13 @@ All dates are given in the local time of the host cities.
 |+ Group A standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' ''(H)'' || 3 || 2 || 1 || 0 || 7 || 2 || +5 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Praesyu}} '''[[Praesyu]]''' ''(H)'' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 1 || 2 || 0 || 5 || 3 || +2 || 4
+| 2 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 1 || 2 || 0 || 4 || 3 || +1 || 4
 |- style="background:#ccffcc;"
-| 3 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 1 || 0 || 2 || 5 || 6 || −1 || 2 || Advance as [[#Knockout stage|best third-placed team]]
+| 3 || align="left" | {{Flagicon|Verusa}} '''[[Verusa]]''' || 3 || 1 || 0 || 2 || 4 || 4 || 0 || 2 || Advance as [[#Knockout stage|best third-placed team]]
 |-
-| 4 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 1 || 7 || −6 || 1 ||
+| 4 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 1 || 5 || −4 || 1 ||
 |}
 ''(H) Host.''
 
@@ -120,17 +120,17 @@ All dates are given in the local time of the host cities.
 |+ Group A matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 5 June 1676 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Brimasha Stadium, Brimasha
+| align="left" | 5 June 1676 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Brimasha Stadium, Brimasha
 |-
-| align="left" | 6 June 1676 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 3–1 || {{Flagicon|Verusa}} Verusa || align="left" | Drashir Ground, Drashir
+| align="left" | 6 June 1676 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–1 || {{Flagicon|Verusa}} Verusa || align="left" | Drashir Ground, Drashir
 |-
-| align="left" | 9 June 1676 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 3–1 || {{Flagicon|Verusa}} Verusa || align="left" | Brimasha Stadium, Brimasha
+| align="left" | 9 June 1676 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Verusa}} Verusa || align="left" | Brimasha Stadium, Brimasha
 |-
 | align="left" | 10 June 1676 || align="right" | Estijan {{Flagicon|Estijan}} || 1–1 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Drashir Ground, Drashir
 |-
 | align="left" | 13 June 1676 || align="right" | Praesyu {{Flagicon|Praesyu}} || 1–1 || {{Flagicon|Estijan}} Estijan || align="left" | Brimasha Stadium, Brimasha
 |-
-| align="left" | 13 June 1676 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 3–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Drashir Ground, Drashir
+| align="left" | 13 June 1676 || align="right" | '''Verusa''' {{Flagicon|Verusa}} || 2–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Drashir Ground, Drashir
 |}
 
 ===Group B===
@@ -138,30 +138,30 @@ All dates are given in the local time of the host cities.
 |+ Group B standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 6 || 1 || +5 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 2 || 1 || 0 || 4 || 1 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Palina}} '''[[Palina]]''' || 3 || 1 || 2 || 0 || 5 || 3 || +2 || 4
+| 2 || align="left" | {{Flagicon|Palina}} '''[[Palina]]''' || 3 || 1 || 2 || 0 || 4 || 3 || +1 || 4
 |- style="background:#ccffcc;"
-| 3 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 0 || 2 || 4 || 6 || −2 || 2 || Advance as [[#Knockout stage|best third-placed team]]
+| 3 || align="left" | {{Flagicon|Merela Sta}} '''[[Merela Sta]]''' || 3 || 1 || 0 || 2 || 3 || 4 || −1 || 2 || Advance as [[#Knockout stage|best third-placed team]]
 |-
-| 4 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 2 || 7 || −5 || 1 ||
+| 4 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group B matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 5 June 1676 || align="right" | '''Siana''' {{Flagicon|Siana}} || 3–0 || {{Flagicon|Darewa}} Darewa || align="left" | Zaraqon Arena, Zaraqon
+| align="left" | 5 June 1676 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–0 || {{Flagicon|Darewa}} Darewa || align="left" | Zaraqon Arena, Zaraqon
 |-
-| align="left" | 6 June 1676 || align="right" | '''Palina''' {{Flagicon|Palina}} || 3–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Lorkan Stadium, Lorkan
+| align="left" | 6 June 1676 || align="right" | '''Palina''' {{Flagicon|Palina}} || 2–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Lorkan Stadium, Lorkan
 |-
-| align="left" | 9 June 1676 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–0 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Zaraqon Arena, Zaraqon
+| align="left" | 9 June 1676 || align="right" | '''Siana''' {{Flagicon|Siana}} || 1–0 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Zaraqon Arena, Zaraqon
 |-
 | align="left" | 10 June 1676 || align="right" | Palina {{Flagicon|Palina}} || 1–1 || {{Flagicon|Darewa}} Darewa || align="left" | Lorkan Stadium, Lorkan
 |-
 | align="left" | 13 June 1676 || align="right" | Siana {{Flagicon|Siana}} || 1–1 || {{Flagicon|Palina}} Palina || align="left" | Zaraqon Arena, Zaraqon
 |-
-| align="left" | 13 June 1676 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 3–1 || {{Flagicon|Darewa}} Darewa || align="left" | Lorkan Stadium, Lorkan
+| align="left" | 13 June 1676 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 2–1 || {{Flagicon|Darewa}} Darewa || align="left" | Lorkan Stadium, Lorkan
 |}
 
 ===Group C===
@@ -169,26 +169,26 @@ All dates are given in the local time of the host cities.
 |+ Group C standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 2 || 1 || 0 || 7 || 2 || +5 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 2 || 1 || 0 || 5 || 2 || +3 || 5 || rowspan="2" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 7 || 3 || +4 || 5
+| 2 || align="left" | {{Flagicon|Emara}} '''[[Emara]]''' || 3 || 2 || 1 || 0 || 5 || 3 || +2 || 5
 |-
-| 3 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 3 || 0 || 1 || 2 || 3 || 7 || −4 || 1 ||
+| 3 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 3 || 0 || 1 || 2 || 3 || 5 || −2 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 3 || 0 || 1 || 2 || 2 || 7 || −5 || 1 ||
+| 4 || align="left" | {{Flagicon|Taval}} [[Taval]] || 3 || 0 || 1 || 2 || 2 || 5 || −3 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group C matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 7 June 1676 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 3–0 || {{Flagicon|Taval}} Taval || align="left" | Meveran Park, Meveran
+| align="left" | 7 June 1676 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 2–0 || {{Flagicon|Taval}} Taval || align="left" | Meveran Park, Meveran
 |-
-| align="left" | 7 June 1676 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Drashir Ground, Drashir
+| align="left" | 7 June 1676 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Drashir Ground, Drashir
 |-
-| align="left" | 10 June 1676 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 3–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Meveran Park, Meveran
+| align="left" | 10 June 1676 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 2–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Meveran Park, Meveran
 |-
-| align="left" | 11 June 1676 || align="right" | '''Emara''' {{Flagicon|Emara}} || 3–1 || {{Flagicon|Taval}} Taval || align="left" | Drashir Ground, Drashir
+| align="left" | 11 June 1676 || align="right" | '''Emara''' {{Flagicon|Emara}} || 2–1 || {{Flagicon|Taval}} Taval || align="left" | Drashir Ground, Drashir
 |-
 | align="left" | 14 June 1676 || align="right" | Eldjo {{Flagicon|Eldjo}} || 1–1 || {{Flagicon|Emara}} Emara || align="left" | Meveran Park, Meveran
 |-
@@ -201,14 +201,14 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 
 ===Bracket===
 {{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
-| | {{Flagicon|Eldjo}} Eldjo | 4 | {{Flagicon|Palina}} Palina | 0
-| | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Merela Sta}} Merela Sta | 1
-| | {{Flagicon|Siana}} Siana | 3 | {{Flagicon|Estijan}} Estijan | 1
-| | {{Flagicon|Emara}} Emara | 3 | {{Flagicon|Verusa}} Verusa | 0
-| | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Praesyu}} Praesyu | 1
-| | {{Flagicon|Siana}} Siana | 1 | {{Flagicon|Emara}} Emara | 3
+| | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Palina}} Palina | 0
+| | {{Flagicon|Praesyu}} Praesyu | 2 | {{Flagicon|Merela Sta}} Merela Sta | 1
+| | {{Flagicon|Siana}} Siana | 2 | {{Flagicon|Estijan}} Estijan | 1
+| | {{Flagicon|Emara}} Emara | 2 | {{Flagicon|Verusa}} Verusa | 0
+| | {{Flagicon|Eldjo}} Eldjo | 2 | {{Flagicon|Praesyu}} Praesyu | 1
+| | {{Flagicon|Siana}} Siana | 1 | {{Flagicon|Emara}} Emara | 2
 | | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Emara}} Emara | 0
-| | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Siana}} Siana | 1
+| | {{Flagicon|Praesyu}} Praesyu | 2 | {{Flagicon|Siana}} Siana | 1
 }}
 
 ===Quarter-finals===
@@ -216,9 +216,9 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|6|21|df=y}}
 | team1 = '''[[Eldjo]]''' {{Flagicon|Eldjo}}
-| score = 4–0
+| score = 3–0
 | team2 = {{Flagicon|Palina}} [[Palina]]
-| goals1 = Klent {{Goal|12|63}}<br/>Verlo {{Goal|40}}<br/>Reska {{Goal|71}}
+| goals1 = Klent {{Goal|12}}<br/>Verlo {{Goal|40}}<br/>Reska {{Goal|71}}
 | goals2 =
 | stadium = Brimasha Stadium, [[Brimasha]]
 | attendance = 19,000
@@ -228,9 +228,9 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|6|21|df=y}}
 | team1 = '''[[Praesyu]]''' {{Flagicon|Praesyu}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Merela Sta}} [[Merela Sta]]
-| goals1 = Wol {{Goal|22|81}}<br/>Henlo {{Goal|64}}
+| goals1 = Wol {{Goal|22}}<br/>Henlo {{Goal|64}}
 | goals2 = Pesca {{Goal|50}}
 | stadium = Zaraqon Arena, [[Zaraqon]]
 | attendance = 14,000
@@ -240,9 +240,9 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|6|22|df=y}}
 | team1 = '''[[Siana]]''' {{Flagicon|Siana}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Feronti {{Goal|13|18}}<br/>Mazzo {{Goal|60}}
+| goals1 = Feronti {{Goal|18}}<br/>Mazzo {{Goal|60}}
 | goals2 = Brody {{Goal|44}}
 | stadium = Lorkan Stadium, [[Lorkan]]
 | attendance = 13,500
@@ -252,9 +252,9 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|6|22|df=y}}
 | team1 = '''[[Emara]]''' {{Flagicon|Emara}}
-| score = 3–0
+| score = 2–0
 | team2 = {{Flagicon|Verusa}} [[Verusa]]
-| goals1 = Crale {{Goal|33|74}}<br/>Hodge {{Goal|78}}
+| goals1 = Crale {{Goal|33}}<br/>Hodge {{Goal|78}}
 | goals2 =
 | stadium = Meveran Park, [[Meveran]]
 | attendance = 11,000
@@ -266,9 +266,9 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|6|26|df=y}}
 | team1 = '''[[Eldjo]]''' {{Flagicon|Eldjo}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Praesyu}} [[Praesyu]]
-| goals1 = Verlo {{Goal|28|38}}<br/>Klent {{Goal|70}}
+| goals1 = Verlo {{Goal|28}}<br/>Klent {{Goal|70}}
 | goals2 = Wol {{Goal|55}}
 | stadium = Brimasha Stadium, [[Brimasha]]
 | attendance = 21,000
@@ -278,10 +278,10 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|6|26|df=y}}
 | team1 = [[Siana]] {{Flagicon|Siana}}
-| score = 1–3
+| score = 1–2
 | team2 = {{Flagicon|Emara}} '''[[Emara]]'''
 | goals1 = Feronti {{Goal|36}}
-| goals2 = Crale {{Goal|22|41}}<br/>Hodge {{Goal|81}}
+| goals2 = Crale {{Goal|22}}<br/>Hodge {{Goal|81}}
 | stadium = Zaraqon Arena, [[Zaraqon]]
 | attendance = 15,000
 | referee = Brem Tavik ([[Taval]])
@@ -292,9 +292,9 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 {{Football box
 | date = {{Start date|1676|7|1|df=y}}
 | team1 = '''[[Praesyu]]''' {{Flagicon|Praesyu}}
-| score = 3–1
+| score = 2–1
 | team2 = {{Flagicon|Siana}} [[Siana]]
-| goals1 = Wol {{Goal|23|27}}<br/>Henlo {{Goal|69}}
+| goals1 = Wol {{Goal|27}}<br/>Henlo {{Goal|69}}
 | goals2 = Mazzo {{Goal|58}}
 | stadium = Meveran Park, [[Meveran]]
 | attendance = 12,000
@@ -321,22 +321,22 @@ The final was held at the Brimasha Stadium on 2 July 1676 before an estimated cr
 
 ===Goalscorers===
 
-A total of 84 goals were scored in 26 matches, an average of 3.23 per match. The leading scorer was the Eldjo forward Davor Klent, who scored nine goals across the tournament, including two in the final. No formal individual awards were presented at the 1676 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/statistics|title=1676 Ayuman Cup statistical record|publisher=[[FLLA]]|date=20 June 1763}}</ref>
+A total of 65 goals were scored in 26 matches, an average of 2.50 per match. The leading scorer was the Eldjo forward Davor Klent, who scored six goals across the tournament, including two in the final. No formal individual awards were presented at the 1676 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/statistics|title=1676 Ayuman Cup statistical record|publisher=[[FLLA]]|date=20 June 1763}}</ref>
 
-'''9 goals'''
+'''6 goals'''
 * {{Flagicon|Eldjo}} Davor Klent ([[Eldjo]])
 
-'''8 goals'''
+'''5 goals'''
 * {{Flagicon|Emara}} Edmund Crale ([[Emara]])
 * {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 
-'''6 goals'''
+'''4 goals'''
 * {{Flagicon|Eldjo}} Stipan Verlo ([[Eldjo]])
 * {{Flagicon|Emara}} Alwin Hodge ([[Emara]])
 * {{Flagicon|Praesyu}} Tobin Henlo ([[Praesyu]])
 * {{Flagicon|Siana}} Aldo Feronti ([[Siana]])
 
-'''5 goals'''
+'''3 goals'''
 * {{Flagicon|Eldjo}} Tomaz Reska ([[Eldjo]])
 * {{Flagicon|Siana}} Renso Mazzo ([[Siana]])
 * {{Flagicon|Estijan}} Cal Brody ([[Estijan]])
