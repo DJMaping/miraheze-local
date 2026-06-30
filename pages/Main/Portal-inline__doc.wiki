@@ -19,12 +19,12 @@
 Everything inside square brackets is optional, do not include the square brackets.
 
 == Parameters ==
-* <code>1</code> — required; The first unnamed/positional parameter is the name of the portal.
-* <code>size</code>— optional; Specify <code>|size=small</code> to show a 23x20 image or <code>|size=tiny</code> for a 17×15 image instead of the usual size.
-* <code>text</code>— optional; Specify <code>|text=(name)</code> for a different associated name to appear.
-* <code>short</code>— optional; Specify <code>|short=''anything''</code> to remove ''portal'' from the output.
-* <code>redlinks</code>— optional; Specify <code>|redlinks=yes</code> to show the portal if it is redlinked.
-* <code>nowrap</code>— optional; Specify <code>|nowrap=yes</code> to prevent the entire output from wrapping.
+* <code>1</code>: required; The first unnamed/positional parameter is the name of the portal.
+* <code>size</code>: optional; Specify <code>|size=small</code> to show a 23x20 image or <code>|size=tiny</code> for a 17×15 image instead of the usual size.
+* <code>text</code>: optional; Specify <code>|text=(name)</code> for a different associated name to appear.
+* <code>short</code>: optional; Specify <code>|short=''anything''</code> to remove ''portal'' from the output.
+* <code>redlinks</code>: optional; Specify <code>|redlinks=yes</code> to show the portal if it is redlinked.
+* <code>nowrap</code>: optional; Specify <code>|nowrap=yes</code> to prevent the entire output from wrapping.
 
 == Examples ==
 

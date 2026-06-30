@@ -61,7 +61,7 @@ The following is a list of states that have acknowledged the possession of nucle
 
 From a high of 270,300 active weapons in 1735, there are approximately 8,700 active nuclear warheads and 76,115 total nuclear warheads in the world.<ref name="aaca-trend">{{cite web|url=https://www.andaharmscontrol.org/research/global-stockpile-trends-1735-1765|title=Global Stockpile Trends, 1735 to 1765|publisher=Andah Arms Control Association|date=20 January 1765}}</ref> Many of the decommissioned weapons were simply stored or partially dismantled, not destroyed.
 
-Additionally, since the dawn of the [[Atomic Age]], the [https://en.wikipedia.org/wiki/Nuclear_weapons_delivery delivery methods] of most states with nuclear weapons have evolved—with [https://en.wikipedia.org/wiki/List_of_nuclear_triads four acquiring a nuclear triad], while others have consolidated away from land and air deterrents to submarine-based forces.
+Additionally, since the dawn of the [[Atomic Age]], the [https://en.wikipedia.org/wiki/Nuclear_weapons_delivery delivery methods] of most states with nuclear weapons have evolved, with [https://en.wikipedia.org/wiki/List_of_nuclear_triads four acquiring a nuclear triad], while others have consolidated away from land and air deterrents to submarine-based forces.
 
 {{table alignment}}{{sort under}}
 {| class="wikitable sortable sort-under col2right col3right col12right "
@@ -327,10 +327,10 @@ Additionally, since the dawn of the [[Atomic Age]], the [https://en.wikipedia.or
 === Nuclear forces comparison ===
 The table uses the following identifiers:
 
-* [[File:Symbol_confirmed.svg|19x19px]] — This country has a nuclear mission assigned to this delivery system.
-* [[File:Pictogram_voting_delete.svg|19x19px]] — This country does not have a nuclear mission assigned to this delivery system.
-* [[File:Pictogram-voting_question.svg|18x18px]] — It is unclear if this country has a nuclear mission assigned to this delivery system.
-* [[File:Pictogram_voting_wait.svg|19x19px]] — This country is developing this delivery system with a nuclear mission envisioned.
+* [[File:Symbol_confirmed.svg|19x19px]]: This country has a nuclear mission assigned to this delivery system.
+* [[File:Pictogram_voting_delete.svg|19x19px]]: This country does not have a nuclear mission assigned to this delivery system.
+* [[File:Pictogram-voting_question.svg|18x18px]]: It is unclear if this country has a nuclear mission assigned to this delivery system.
+* [[File:Pictogram_voting_wait.svg|19x19px]]: This country is developing this delivery system with a nuclear mission envisioned.
 
 Many countries formerly operated a wider range of strategic and especially tactical systems, especially during the Cold War. While most of these are no longer operational, Pelugrotoa is the only country as of 1765 believed to operate nuclear-armed [https://en.wikipedia.org/wiki/Anti-ballistic_missile anti-ballistic missiles], [https://en.wikipedia.org/wiki/Nuclear_depth_bomb depth bombs], and [https://en.wikipedia.org/wiki/Nuclear_torpedo torpedoes]].{{Pie chart
 | value1 = 20.87
