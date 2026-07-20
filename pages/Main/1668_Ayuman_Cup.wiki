@@ -15,9 +15,9 @@
 |-
 | Venues || 5 (in 5 host cities)
 |-
-| Matches played || 22
+| Matches played || 21
 |-
-| Goals scored || 101 (4.59 per match)
+| Goals scored || 97 (4.62 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -25,9 +25,7 @@
 |-
 | Runner-up || {{Flagicon|Estijan}} [[Estijan]]
 |-
-| Third place || {{Flagicon|Eldjo}} [[Eldjo]]
-|-
-| Fourth place || {{Flagicon|Siana}} [[Siana]]
+| Semi-finalists || {{Flagicon|Eldjo}} [[Eldjo]] and {{Flagicon|Siana}} [[Siana]]
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
@@ -52,7 +50,7 @@ The 1668 tournament was awarded to [[Eldjo]] by a congress of the Ayuman nationa
 
 The 12 entered teams were divided into three groups of four for the group stage. Each group operated on a single round-robin basis, with each team playing the other three sides in its group; two points were awarded for a win and one for a draw, in line with the scoring system then in use. The three group winners advanced to the [[#Knockout stage|knockout stage]] directly, and were joined by the best of the three group runners-up, determined first by points, then by goal difference and then by goals scored. Where teams within a group finished level on points, places were determined first by goal difference and then by goals scored.
 
-The knockout stage consisted of two semi-finals, a [[#Third place playoff|third-place playoff]] and a final, each played as a single-elimination tie over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1668. The two losing semi-finalists contested the third-place playoff on the day before the final.
+The knockout stage consisted of two semi-finals and a final, each played as a single-elimination tie over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1668.
 
 ==Participating teams==
 
@@ -69,7 +67,7 @@ Twelve teams took part in the 1668 finals, all of them Ayuman national associati
 
 ==Venues==
 
-Five stadiums in five host cities, all in [[Eldjo]], were used in the final tournament. The principal venue was the Jioquin Grand Stadium in the capital, [[Jioquin]], which staged the opening match and the final and was the largest ground in use. The two semi-finals were divided between the Shorakim Arena in [[Shorakim]] and the Suveto Stadium in [[Suveto]], with the [[#Third place playoff|third-place playoff]] held at Velsar Park in [[Velsar]]. The remaining group-stage fixtures were shared between these grounds and the smallest venue, at [[Xaipla]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/venues|title=Host stadiums of the 1668 Ayuman Cup|publisher=[[FLLA]]|date=21 May 1763}}</ref>
+Five stadiums in five host cities, all in [[Eldjo]], were used in the final tournament. The principal venue was the Jioquin Grand Stadium in the capital, [[Jioquin]], which staged the opening match and the final and was the largest ground in use. The two semi-finals were divided between the Shorakim Arena in [[Shorakim]] and the Suveto Stadium in [[Suveto]]. The remaining group-stage fixtures were shared between these grounds, Velsar Park in [[Velsar]] and the smallest venue, at [[Xaipla]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/venues|title=Host stadiums of the 1668 Ayuman Cup|publisher=[[FLLA]]|date=21 May 1763}}</ref>
 
 {| class="wikitable sortable" style="text-align: center;"
 |+ Stadiums of the 1668 Ayuman Cup
@@ -81,7 +79,7 @@ Five stadiums in five host cities, all in [[Eldjo]], were used in the final tour
 |-
 | align="left" | [[Suveto]] || align="left" | Suveto Stadium || 13,000 || align="left" | Semi-final
 |-
-| align="left" | [[Velsar]] || align="left" | Velsar Park || 11,000 || align="left" | Third-place playoff
+| align="left" | [[Velsar]] || align="left" | Velsar Park || 11,000 || align="left" | Group stage
 |-
 | align="left" | [[Xaipla]] || align="left" | Xaipla Field || 10,000 || align="left" | Group stage
 |}
@@ -214,11 +212,10 @@ To determine the fourth knockout place, the three group runners-up were compared
 The knockout stage involved the three group winners and the best runner-up. The draw was arranged so that the host, [[Eldjo]], met the [[Group A]] winner, [[Estijan]], in one semi-final, while the other two group winners, [[Lycroa]] and [[Siana]], met in the second. Ties level after 90 minutes were to be extended by a single period of [[wikipedia:Extra time|extra time]]; no tie in 1668 required extra time or a replay.
 
 ===Bracket===
-{{#invoke:RoundN|N4|3rdplace=yes|bold_winner=high
+{{#invoke:RoundN|N4|bold_winner=high
 | | {{Flagicon|Estijan}} Estijan | 3 | {{Flagicon|Eldjo}} Eldjo | 1
 | | {{Flagicon|Lycroa}} Lycroa | 5 | {{Flagicon|Siana}} Siana | 1
 | | {{Flagicon|Estijan}} Estijan | 1 | {{Flagicon|Lycroa}} Lycroa | 3
-| | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Siana}} Siana | 1
 }}
 
 ===Semi-finals===
@@ -247,20 +244,6 @@ The knockout stage involved the three group winners and the best runner-up. The 
 | referee = Bren Holt ([[Palina]])
 }}
 
-===Third place playoff===
-
-{{Football box
-| date = {{Start date|1668|7|1|df=y}}
-| team1 = '''[[Eldjo]]''' {{Flagicon|Eldjo}}
-| score = 3–1
-| team2 = {{Flagicon|Siana}} [[Siana]]
-| goals1 = Sten {{Goal|28|58}}<br/>Velk {{Goal|71}}
-| goals2 = Vanetti {{Goal|40}}
-| stadium = Velsar Park, [[Velsar]]
-| attendance = 10,400
-| referee = Marn Eskil ([[Merela Sta]])
-}}
-
 ===Final===
 
 The final was held at the Jioquin Grand Stadium on 2 July 1668 before an estimated crowd of 18,000. [[Estijan]] led at the interval through Brod Halson, but [[Lycroa]] turned the match after the break: Tomas Calier, the tournament's leading scorer, levelled and then struck again to put his side ahead, before Ferid Voral added a third late on for a 3–1 victory. The win secured Lycroa's second title, and the original [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented to the Lycroan captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/final|title=The 1668 Ayuman Cup final: Lycroa 3–1 Estijan|publisher=[[FLLA]]|date=14 May 1763}}</ref>
@@ -281,7 +264,7 @@ The final was held at the Jioquin Grand Stadium on 2 July 1668 before an estimat
 
 ===Goalscorers===
 
-A total of 101 goals were scored in 22 matches, an average of 4.59 per match. The leading scorer was the Lycroan forward Tomas Calier, who scored twelve goals across the tournament, including two in the final. No formal individual awards were presented at the 1668 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/statistics|title=1668 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 May 1763}}</ref>
+A total of 97 goals were scored in 21 matches, an average of 4.62 per match. The leading scorer was the Lycroan forward Tomas Calier, who scored twelve goals across the tournament, including two in the final. No formal individual awards were presented at the 1668 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/statistics|title=1668 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 May 1763}}</ref>
 
 '''12 goals'''
 * {{Flagicon|Lycroa}} Tomas Calier ([[Lycroa]])
@@ -289,19 +272,21 @@ A total of 101 goals were scored in 22 matches, an average of 4.59 per match. Th
 '''10 goals'''
 * {{Flagicon|Estijan}} Brod Halson ([[Estijan]])
 
-'''8 goals'''
-* {{Flagicon|Eldjo}} Halvard Sten ([[Eldjo]])
+'''7 goals'''
 * {{Flagicon|Siana}} Lio Vanetti ([[Siana]])
 
 '''6 goals'''
+* {{Flagicon|Eldjo}} Halvard Sten ([[Eldjo]])
 * {{Flagicon|Lycroa}} Ferid Voral ([[Lycroa]])
 * {{Flagicon|Siana}} Renso Paoli ([[Siana]])
 * {{Flagicon|Praesyu}} Antal Resk ([[Praesyu]])
 
 '''4 goals'''
-* {{Flagicon|Eldjo}} Aslen Velk ([[Eldjo]])
 * {{Flagicon|Emara}} Davin Marlo ([[Emara]])
 * {{Flagicon|Estijan}} Kord Vesli ([[Estijan]])
+
+'''3 goals'''
+* {{Flagicon|Eldjo}} Aslen Velk ([[Eldjo]])
 
 ===Final ranking===
 
@@ -317,7 +302,7 @@ In keeping with the practice of the period, a final ranking was published only f
 |-
 | 3 || align="left" | {{Flagicon|Eldjo}} [[Eldjo]]
 |-
-| 4 || align="left" | {{Flagicon|Siana}} [[Siana]]
+| 3 || align="left" | {{Flagicon|Siana}} [[Siana]]
 |}
 
 ==Trophy and significance==

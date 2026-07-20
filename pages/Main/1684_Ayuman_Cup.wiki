@@ -15,9 +15,9 @@
 |-
 | Venues || 6 (in 6 host cities)
 |-
-| Matches played || 32
+| Matches played || 31
 |-
-| Goals scored || 90 (2.81 per match)
+| Goals scored || 87 (2.81 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -25,9 +25,7 @@
 |-
 | Runner-up || {{Flagicon|Siana}} [[Siana]]
 |-
-| Third place || {{Flagicon|Raledria}} [[Raledria]]
-|-
-| Fourth place || {{Flagicon|Praesyu}} [[Praesyu]]
+| Semi-finalists || {{Flagicon|Raledria}} [[Raledria]] and {{Flagicon|Praesyu}} [[Praesyu]]
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
@@ -52,7 +50,7 @@ The 1684 tournament was awarded to [[Alzurian Union|Alzuria]] by a congress of t
 
 The 16 entered teams were divided into four groups of four for the group stage. Each group operated on a single round-robin basis, with each team playing the other three sides in its group; two points were awarded for a win and one for a draw, in line with the scoring system then in use. The top two teams in each group advanced to the [[#Knockout stage|knockout stage]], while the bottom two were eliminated. Where teams finished level on points, places were determined first by goal difference and then by goals scored.
 
-The knockout stage consisted of single-elimination ties played over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1684. The two losing semi-finalists contested a [[#Third place playoff|third-place playoff]] on the day before the final.
+The knockout stage consisted of single-elimination ties played over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1684.
 
 ==Participating teams==
 
@@ -71,7 +69,7 @@ Sixteen teams took part in the 1684 finals, most of them Ayuman national associa
 
 ==Venues==
 
-Six stadiums in six host cities, all in [[Alzurian Union|Alzuria]], were used in the final tournament. The principal venue was the Shurqan Grand Stadium in the capital, [[Shurqan]], which staged the opening match and the final and was the only ground with a capacity above 30,000. The two semi-finals were divided between the Turashik Arena in [[Turashik]] and the Veshgadar Stadium in [[Veshgadar]], with the [[#Third place playoff|third-place playoff]] held at Borshavi Park in [[Borshavi]]. The remaining group-stage fixtures were shared between these grounds and the two smallest venues, at [[Zarhesh]] and [[Havrishka]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1684/venues|title=Host stadiums of the 1684 Ayuman Cup|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+Six stadiums in six host cities, all in [[Alzurian Union|Alzuria]], were used in the final tournament. The principal venue was the Shurqan Grand Stadium in the capital, [[Shurqan]], which staged the opening match and the final and was the only ground with a capacity above 30,000. The two semi-finals were divided between the Turashik Arena in [[Turashik]] and the Veshgadar Stadium in [[Veshgadar]]. The remaining group-stage fixtures were shared between these grounds, Borshavi Park in [[Borshavi]], and the two smallest venues, at [[Zarhesh]] and [[Havrishka]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1684/venues|title=Host stadiums of the 1684 Ayuman Cup|publisher=[[FLLA]]|date=18 June 1763}}</ref>
 
 {| class="wikitable sortable" style="text-align: center;"
 |+ Stadiums of the 1684 Ayuman Cup
@@ -83,7 +81,7 @@ Six stadiums in six host cities, all in [[Alzurian Union|Alzuria]], were used in
 |-
 | align="left" | [[Veshgadar]] || align="left" | Veshgadar Stadium || 20,000 || align="left" | Semi-final
 |-
-| align="left" | [[Borshavi]] || align="left" | Borshavi Park || 16,000 || align="left" | Third-place playoff
+| align="left" | [[Borshavi]] || align="left" | Borshavi Park || 16,000 || align="left" | Group stage
 |-
 | align="left" | [[Zarhesh]] || align="left" | Zarhesh Ground || 14,000 || align="left" | Group stage
 |-
@@ -234,7 +232,7 @@ All dates are given in the local time of the host cities.
 The knockout stage involved the eight teams that advanced from the group stage, with each group winner drawn against a runner-up from another group. Ties level after 90 minutes were extended by a single period of [[wikipedia:Extra time|extra time]]; one of the four quarter-finals was decided in the additional period. No tie required a replay.
 
 ===Bracket===
-{{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
+{{#invoke:RoundN|N8|bold_winner=high
 | | {{Flagicon|Alzurian Union}} Alzuria | 3 | {{Flagicon|Lycroa}} Lycroa | 1
 | | {{Flagicon|Raledria}} Raledria | 2 | {{Flagicon|Emara}} Emara | 1
 | | {{Flagicon|Siana}} Siana (a.e.t.) | 2 | {{Flagicon|Estijan}} Estijan | 1
@@ -242,7 +240,6 @@ The knockout stage involved the eight teams that advanced from the group stage, 
 | | {{Flagicon|Alzurian Union}} Alzuria | 2 | {{Flagicon|Raledria}} Raledria | 0
 | | {{Flagicon|Siana}} Siana | 3 | {{Flagicon|Praesyu}} Praesyu | 1
 | | {{Flagicon|Alzurian Union}} Alzuria | 5 | {{Flagicon|Siana}} Siana | 3
-| | {{Flagicon|Raledria}} Raledria | 2 | {{Flagicon|Praesyu}} Praesyu | 1
 }}
 
 ===Quarter-finals===
@@ -321,20 +318,6 @@ The knockout stage involved the eight teams that advanced from the group stage, 
 | referee = Joren Aldal ([[Verusa]])
 }}
 
-===Third place playoff===
-
-{{Football box
-| date = {{Start date|1684|7|3|df=y}}
-| team1 = '''[[Raledria]]''' {{Flagicon|Raledria}}
-| score = 2–1
-| team2 = {{Flagicon|Praesyu}} [[Praesyu]]
-| goals1 = Vask {{Goal|21}}<br/>Brek {{Goal|75}}
-| goals2 = Henlo {{Goal|50}}
-| stadium = Borshavi Park, [[Borshavi]]
-| attendance = 13,800
-| referee = Halsten Vey ([[Yaxuto]])
-}}
-
 ===Final===
 
 The final was held at the Shurqan Grand Stadium on 4 July 1684 before an estimated crowd of 30,000. [[Alzurian Union|Alzuria]] took the lead early through Konrad Veitz, the tournament's leading scorer, and led through Heinric Marold before [[Siana]] drew level with goals from Aldo Feronti and Renso Mazzo. Marold restored the lead with his second, Veitz struck again and Anders Halden added a fifth late on, with a second from Feronti giving Siana the last word in a 5–3 win. The victory secured Alzuria's first title, won on home soil, and the original [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented to the Alzurian captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1684/final|title=The 1684 Ayuman Cup final: Alzuria 5–3 Siana|publisher=[[FLLA]]|date=11 June 1763}}</ref>
@@ -355,7 +338,7 @@ The final was held at the Shurqan Grand Stadium on 4 July 1684 before an estimat
 
 ===Goalscorers===
 
-A total of 90 goals were scored in 32 matches, an average of 2.81 per match. The leading scorer was the Alzurian forward Konrad Veitz, who scored eight goals across the tournament, including two in the final. No formal individual awards were presented at the 1684 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1684/statistics|title=1684 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+A total of 87 goals were scored in 31 matches, an average of 2.81 per match. The leading scorer was the Alzurian forward Konrad Veitz, who scored eight goals across the tournament, including two in the final. No formal individual awards were presented at the 1684 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1684/statistics|title=1684 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
 
 '''8 goals'''
 * {{Flagicon|Alzurian Union}} Konrad Veitz ([[Alzurian Union|Alzuria]])
@@ -369,12 +352,14 @@ A total of 90 goals were scored in 32 matches, an average of 2.81 per match. The
 '''3 goals'''
 * {{Flagicon|Alzurian Union}} Anders Halden ([[Alzurian Union|Alzuria]])
 * {{Flagicon|Siana}} Renso Mazzo ([[Siana]])
-* {{Flagicon|Raledria}} Miron Vask ([[Raledria]])
 
 '''2 goals'''
-* {{Flagicon|Raledria}} Pavol Brek ([[Raledria]])
+* {{Flagicon|Raledria}} Miron Vask ([[Raledria]])
 * {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 * {{Flagicon|Emara}} Edmund Crale ([[Emara]])
+
+'''1 goal'''
+* {{Flagicon|Raledria}} Pavol Brek ([[Raledria]])
 
 ===Final ranking===
 
@@ -390,7 +375,7 @@ In keeping with the practice of the period, a final ranking was published only f
 |-
 | 3 || align="left" | {{Flagicon|Raledria}} [[Raledria]]
 |-
-| 4 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]]
+| 3 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]]
 |}
 
 ==Trophy and significance==

@@ -15,9 +15,9 @@
 |-
 | Venues || 5 (in 5 host cities)
 |-
-| Matches played || 24
+| Matches played || 23
 |-
-| Goals scored || 103 (4.29 per match)
+| Goals scored || 99 (4.30 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -25,9 +25,7 @@
 |-
 | Runner-up || {{Flagicon|Lycroa}} [[Lycroa]]
 |-
-| Third place || {{Flagicon|Praesyu}} [[Praesyu]]
-|-
-| Fourth place || {{Flagicon|Estijan}} [[Estijan]]
+| Semi-finalists || {{Flagicon|Praesyu}} [[Praesyu]] and {{Flagicon|Estijan}} [[Estijan]]
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
@@ -52,7 +50,7 @@ The 1672 tournament was awarded to [[Emara]] by a congress of the Ayuman nationa
 
 The 10 entered teams were divided into two groups of five for the group stage. Each group operated on a single round-robin basis, with each team playing the other four sides in its group; two points were awarded for a win and one for a draw, in line with the scoring system then in use. The top two teams in each group advanced to the [[#Knockout stage|knockout stage]], while the remaining three were eliminated. Where teams finished level on points, places were determined first by goal difference and then by goals scored.
 
-The knockout stage took the form of two semi-finals, in which each group winner was drawn against the runner-up of the other group, followed by a [[#Third place playoff|third-place playoff]] and the [[#Final|final]]. Knockout ties were single-elimination matches played over 90 minutes; a tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]], with any tie still level after extra time to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1672.
+The knockout stage took the form of two semi-finals, in which each group winner was drawn against the runner-up of the other group, followed by the [[#Final|final]]. Knockout ties were single-elimination matches played over 90 minutes; a tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]], with any tie still level after extra time to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1672.
 
 ==Participating teams==
 
@@ -67,7 +65,7 @@ Ten teams took part in the 1672 finals, all of them Ayuman national associations
 
 ==Venues==
 
-Five stadiums in five host cities, all in [[Emara]], were used in the final tournament. The principal venue was the Rivostan Grand Stadium in the capital, [[Rivostan]], which staged the opening match and the final and was the largest ground in use. The two semi-finals were divided between the Khalzhun Arena in [[Khalzhun]] and the Shaikuv Stadium in [[Shaikuv]], with the [[#Third place playoff|third-place playoff]] held at Yilovka Park in [[Yilovka]]. The remaining group-stage fixtures were shared between these grounds and the smallest venue, at [[Borzhai]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/venues|title=Host stadiums of the 1672 Ayuman Cup|publisher=[[FLLA]]|date=21 March 1763}}</ref>
+Five stadiums in five host cities, all in [[Emara]], were used in the final tournament. The principal venue was the Rivostan Grand Stadium in the capital, [[Rivostan]], which staged the opening match and the final and was the largest ground in use. The two semi-finals were divided between the Khalzhun Arena in [[Khalzhun]] and the Shaikuv Stadium in [[Shaikuv]]. The remaining group-stage fixtures were shared between these grounds, Yilovka Park in [[Yilovka]], and the smallest venue, at [[Borzhai]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/venues|title=Host stadiums of the 1672 Ayuman Cup|publisher=[[FLLA]]|date=21 March 1763}}</ref>
 
 {| class="wikitable sortable" style="text-align: center;"
 |+ Stadiums of the 1672 Ayuman Cup
@@ -79,7 +77,7 @@ Five stadiums in five host cities, all in [[Emara]], were used in the final tour
 |-
 | align="left" | [[Shaikuv]] || align="left" | Shaikuv Stadium || 15,000 || align="left" | Semi-final
 |-
-| align="left" | [[Yilovka]] || align="left" | Yilovka Park || 13,000 || align="left" | Third-place playoff
+| align="left" | [[Yilovka]] || align="left" | Yilovka Park || 13,000 || align="left" | Group stage
 |-
 | align="left" | [[Borzhai]] || align="left" | Borzhai Ground || 12,000 || align="left" | Group stage
 |}
@@ -183,14 +181,13 @@ All dates are given in the local time of the host cities.
 
 ==Knockout stage==
 
-The knockout stage involved the four teams that advanced from the group stage. Each group winner was drawn against the runner-up of the other group: [[Emara]], the winners of Group B, met the Group A runner-up [[Estijan]], while the Group A winners [[Praesyu]] met the Group B runner-up [[Lycroa]]. The two losing semi-finalists contested a [[#Third place playoff|third-place playoff]] on the day before the final.
+The knockout stage involved the four teams that advanced from the group stage. Each group winner was drawn against the runner-up of the other group: [[Emara]], the winners of Group B, met the Group A runner-up [[Estijan]], while the Group A winners [[Praesyu]] met the Group B runner-up [[Lycroa]].
 
 ===Bracket===
-{{#invoke:RoundN|N4|3rdplace=yes|bold_winner=high
+{{#invoke:RoundN|N4|bold_winner=high
 | | {{Flagicon|Emara}} Emara | 4 | {{Flagicon|Estijan}} Estijan | 1
 | | {{Flagicon|Praesyu}} Praesyu | 1 | {{Flagicon|Lycroa}} Lycroa | 3
 | | {{Flagicon|Emara}} Emara | 6 | {{Flagicon|Lycroa}} Lycroa | 3
-| | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Estijan}} Estijan | 1
 }}
 
 ===Semi-finals===
@@ -219,20 +216,6 @@ The knockout stage involved the four teams that advanced from the group stage. E
 | referee = Halsten Vey ([[Yaxuto]])
 }}
 
-===Third place playoff===
-
-{{Football box
-| date = {{Start date|1672|7|1|df=y}}
-| team1 = '''[[Praesyu]]''' {{Flagicon|Praesyu}}
-| score = 3–1
-| team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Wol {{Goal|22|81}}<br/>Henlo {{Goal|70}}
-| goals2 = Aldis {{Goal|55}}
-| stadium = Yilovka Park, [[Yilovka]]
-| attendance = 11,200
-| referee = Taren Sol ([[Merela Sta]])
-}}
-
 ===Final===
 
 The final was held at the Rivostan Grand Stadium on 2 July 1672 before an estimated crowd of 20,000. [[Emara]] took the lead early through Dragomir Volzhen, the tournament's leading scorer, and led 3–1 by the hour through Ivor Kazhan and Milorad Tschev, with [[Lycroa]] replying through Tomas Calmar. Volzhen completed his hat-trick and Tschev added a second, and although Calmar struck again and Andrej Veldt pulled one back, Emara ran out 6–3 winners. The victory secured Emara's first title, won on home soil, and the original [[FLLA World Cup#The Andah Cup|Andah Cup]] was presented to the Emaran captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/final|title=The 1672 Ayuman Cup final: Emara 6–3 Lycroa|publisher=[[FLLA]]|date=14 March 1763}}</ref>
@@ -253,7 +236,7 @@ The final was held at the Rivostan Grand Stadium on 2 July 1672 before an estima
 
 ===Goalscorers===
 
-A total of 103 goals were scored in 24 matches, an average of 4.29 per match. The leading scorer was the Emaran forward Dragomir Volzhen, who scored ten goals across the tournament, including three in the final. No formal individual awards were presented at the 1672 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/statistics|title=1672 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 March 1763}}</ref>
+A total of 99 goals were scored in 23 matches, an average of 4.30 per match. The leading scorer was the Emaran forward Dragomir Volzhen, who scored ten goals across the tournament, including three in the final. No formal individual awards were presented at the 1672 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1672/statistics|title=1672 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 March 1763}}</ref>
 
 '''10 goals'''
 * {{Flagicon|Emara}} Dragomir Volzhen ([[Emara]])
@@ -261,18 +244,18 @@ A total of 103 goals were scored in 24 matches, an average of 4.29 per match. Th
 '''9 goals'''
 * {{Flagicon|Lycroa}} Tomas Calmar ([[Lycroa]])
 
-'''7 goals'''
-* {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
-
 '''5 goals'''
 * {{Flagicon|Emara}} Ivor Kazhan ([[Emara]])
 * {{Flagicon|Lycroa}} Andrej Veldt ([[Lycroa]])
+* {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 
 '''3 goals'''
 * {{Flagicon|Emara}} Milorad Tschev ([[Emara]])
-* {{Flagicon|Praesyu}} Aldous Henlo ([[Praesyu]])
 * {{Flagicon|Siana}} Aldo Feronti ([[Siana]])
 * {{Flagicon|Estijan}} Niklas Brody ([[Estijan]])
+
+'''2 goals'''
+* {{Flagicon|Praesyu}} Aldous Henlo ([[Praesyu]])
 
 ===Final ranking===
 
@@ -288,7 +271,7 @@ In keeping with the practice of the period, a final ranking was published only f
 |-
 | 3 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]]
 |-
-| 4 || align="left" | {{Flagicon|Estijan}} [[Estijan]]
+| 3 || align="left" | {{Flagicon|Estijan}} [[Estijan]]
 |}
 
 ==Trophy and significance==

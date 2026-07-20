@@ -17,7 +17,7 @@
 |-
 | Matches played || 15
 |-
-| Goals scored || 81 (5.4 per match)
+| Goals scored || 81 (5.40 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -77,7 +77,7 @@ Five stadiums in five host cities, all in [[Easuhura]], were used in the final t
 |-
 | align="left" | [[Lachon]] || align="left" | Lachon Stadium || 11,000 || align="left" | Semi-final
 |-
-| align="left" | [[Paviri]] || align="left" | Paviri Park || 9,000 || align="left" | Third-place playoff
+| align="left" | [[Paviri]] || align="left" | Paviri Park || 9,000 || align="left" | Group stage
 |-
 | align="left" | [[Chayek]] || align="left" | Chayek Field || 8,000 || align="left" | Group stage
 |}
@@ -164,11 +164,10 @@ All dates are given in the local time of the host cities.
 The knockout stage involved the four teams that advanced from the group stage, with each group winner drawn against the runner-up of the other group. Ties level after 90 minutes were extended by a single period of [[wikipedia:Extra time|extra time]]; both semi-finals were settled inside normal time, and no tie required a replay.
 
 ===Bracket===
-{{#invoke:RoundN|N4|3rdplace=yes|bold_winner=high
+{{#invoke:RoundN|N4|bold_winner=high
 | | {{Flagicon|Lycroa}} Lycroa | 5 | {{Flagicon|Easuhura}} Easuhura | 1
 | | {{Flagicon|Emara}} Emara | 3 | {{Flagicon|Estijan}} Estijan | 0
 | | {{Flagicon|Lycroa}} Lycroa | 6 | {{Flagicon|Emara}} Emara | 1
-| | {{Flagicon|Easuhura}} Easuhura | 3 | {{Flagicon|Estijan}} Estijan | 1
 }}
 
 ===Semi-finals===
@@ -197,20 +196,6 @@ The knockout stage involved the four teams that advanced from the group stage, w
 | referee = Dren Halvik ([[Darewa]])
 }}
 
-===Third place playoff===
-
-{{Football box
-| date = {{Start date|1660|7|3|df=y}}
-| team1 = '''[[Easuhura]]''' {{Flagicon|Easuhura}}
-| score = 3–1
-| team2 = {{Flagicon|Estijan}} [[Estijan]]
-| goals1 = Sokhai {{Goal|28|77}}<br/>Daris {{Goal|66}}
-| goals2 = Brody {{Goal|54}}
-| stadium = Paviri Park, [[Paviri]]
-| attendance = 8,500
-| referee = Tomas Veld ([[Verusa]])
-}}
-
 ===Final===
 
 The final was held at the Bokayek Grand Stadium on 4 July 1660 before an estimated crowd of 15,000. [[Lycroa]] took an early lead through Edmar Calvik, the tournament's leading scorer, and were 3–0 ahead before [[Emara]] replied through Edmund Crale; Calvik went on to complete a hat-trick, with two goals from Joren Edrin and a late one from Mern Holt, for a 6–1 finish. The margin remains the largest recorded in a final of the competition, and the victory secured Lycroa's first title; the [[FLLA World Cup#The Ayuma Cup|Ayuma Cup]] was presented to the Lycroan captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1660/final|title=The 1660 Ayuman Cup final: Lycroa 6–1 Emara|publisher=[[FLLA]]|date=14 June 1763}}</ref>
@@ -231,7 +216,7 @@ The final was held at the Bokayek Grand Stadium on 4 July 1660 before an estimat
 
 ===Goalscorers===
 
-A total of 85 goals were scored in 16 matches, an average of 5.31 per match. The leading scorer was the Lycroan forward Edmar Calvik, who scored fourteen goals across the tournament, including a hat-trick in the final. No formal individual awards were presented at the 1660 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1660/statistics|title=1660 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
+A total of 81 goals were scored in 15 matches, an average of 5.40 per match. The leading scorer was the Lycroan forward Edmar Calvik, who scored fourteen goals across the tournament, including a hat-trick in the final. No formal individual awards were presented at the 1660 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1660/statistics|title=1660 Ayuman Cup statistical record|publisher=[[FLLA]]|date=18 June 1763}}</ref>
 
 '''14 goals'''
 * {{Flagicon|Lycroa}} Edmar Calvik ([[Lycroa]])
@@ -240,15 +225,19 @@ A total of 85 goals were scored in 16 matches, an average of 5.31 per match. The
 * {{Flagicon|Lycroa}} Joren Edrin ([[Lycroa]])
 * {{Flagicon|Emara}} Edmund Crale ([[Emara]])
 
-'''8 goals'''
-* {{Flagicon|Easuhura}} Ravan Sokhai ([[Easuhura]])
+'''7 goals'''
 * {{Flagicon|Estijan}} Alvar Brody ([[Estijan]])
+
+'''6 goals'''
+* {{Flagicon|Easuhura}} Ravan Sokhai ([[Easuhura]])
 
 '''4 goals'''
 * {{Flagicon|Lycroa}} Mern Holt ([[Lycroa]])
 * {{Flagicon|Emara}} Pell Voss ([[Emara]])
-* {{Flagicon|Easuhura}} Daris Phalan ([[Easuhura]])
 * {{Flagicon|Easuhura}} Navid Ravan ([[Easuhura]])
+
+'''3 goals'''
+* {{Flagicon|Easuhura}} Daris Phalan ([[Easuhura]])
 
 ===Final ranking===
 
@@ -264,12 +253,12 @@ In keeping with the practice of the period, a final ranking was published only f
 |-
 | 3 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]]
 |-
-| 4 || align="left" | {{Flagicon|Estijan}} [[Estijan]]
+| 3 || align="left" | {{Flagicon|Estijan}} [[Estijan]]
 |}
 
 ==Trophy and significance==
 
-The 1660 edition was only the second tournament in the competition's history, following the inaugural [[1656 FLLA World Cup|1656 edition]], and the first to be staged with a field of eight teams. Lycroa's 6–1 victory over Emara is remembered as the most one-sided final the competition has produced, and the result established Lycroa as one of the strongest of the early Ayuman sides. That the hosts, Easuhura, reached the semi-finals and took third place rather than the title was in keeping with a competition in which the host nation has rarely prevailed.<ref name="heritage-overview" />
+The 1660 edition was only the second tournament in the competition's history, following the inaugural [[1656 FLLA World Cup|1656 edition]], and the first to be staged with a field of eight teams. Lycroa's 6–1 victory over Emara is remembered as the most one-sided final the competition has produced, and the result established Lycroa as one of the strongest of the early Ayuman sides. That the hosts, Easuhura, reached the semi-finals rather than the final was in keeping with a competition in which the host nation has rarely prevailed.<ref name="heritage-overview" />
 
 The cup that Lycroa lifted was the [[FLLA World Cup#The Ayuma Cup|Ayuma Cup]], the original rotating trophy, which had been introduced at the inaugural edition four years earlier. The 1660 edition was the second and last at which it was contested: it was retired in 1668 on the introduction of the original [[FLLA World Cup#The Andah Cup|Andah Cup]], and as its last holders Lycroa retained it. It was the Andah Cup, used from 1668, that was finally lost when it was destroyed in [[Alzurian Union|Alzuria]] in 1688; when the competition was relaunched and renamed the [[FLLA World Cup]] at the [[1700 FLLA World Cup|1700 edition]], no rotating cup was available, and the permanent-trophy tradition that has characterised the competition ever since was begun in its place.<ref name="heritage-trophy" />
 

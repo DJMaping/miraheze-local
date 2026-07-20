@@ -15,9 +15,9 @@
 |-
 | Venues || 5 (in 5 host cities)
 |-
-| Matches played || 26
+| Matches played || 25
 |-
-| Goals scored || 85 (3.27 per match)
+| Goals scored || 81 (3.24 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -25,9 +25,7 @@
 |-
 | Runner-up || {{Flagicon|Emara}} [[Emara]]
 |-
-| Third place || {{Flagicon|Praesyu}} [[Praesyu]]
-|-
-| Fourth place || {{Flagicon|Siana}} [[Siana]]
+| Semi-finalists || {{Flagicon|Praesyu}} [[Praesyu]] and {{Flagicon|Siana}} [[Siana]]
 |-
 ! colspan="2" style="text-align:center;" | Tournament statistics
 |-
@@ -52,7 +50,7 @@ The 1676 tournament was awarded to [[Praesyu]] by a congress of the Ayuman natio
 
 The 12 entered teams were divided into three groups of four for the group stage. Each group operated on a single round-robin basis, with each team playing the other three sides in its group; two points were awarded for a win and one for a draw, in line with the scoring system then in use. The top two teams in each group advanced to the [[#Knockout stage|knockout stage]], together with the two best third-placed teams across the three groups, making up an eight-team knockout. Where teams finished level on points, places were determined first by goal difference and then by goals scored.
 
-The knockout stage consisted of single-elimination ties played over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1676. The two losing semi-finalists contested a [[#Third place playoff|third-place playoff]] on the day before the final.
+The knockout stage consisted of single-elimination ties played over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1676.
 
 ==Participating teams==
 
@@ -69,7 +67,7 @@ Twelve teams took part in the 1676 finals, the majority of them Ayuman national 
 
 ==Venues==
 
-Five stadiums in five host cities, all in [[Praesyu]], were used in the final tournament. The principal venue was the Brimasha Stadium in [[Brimasha]], which staged the opening match and the final and was the only ground with a capacity above 22,000. The two semi-finals were divided between the Brimasha Stadium and the Zaraqon Arena in [[Zaraqon]], with the [[#Third place playoff|third-place playoff]] held at Meveran Park in [[Meveran]]. The remaining group-stage fixtures were shared between these grounds and the smaller venues at [[Lorkan]] and [[Drashir]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/venues|title=Host stadiums of the 1676 Ayuman Cup|publisher=[[FLLA]]|date=20 June 1763}}</ref>
+Five stadiums in five host cities, all in [[Praesyu]], were used in the final tournament. The principal venue was the Brimasha Stadium in [[Brimasha]], which staged the opening match and the final and was the only ground with a capacity above 22,000. The two semi-finals were divided between the Brimasha Stadium and the Zaraqon Arena in [[Zaraqon]]. The remaining group-stage fixtures were shared between these grounds and the smaller venues at Meveran Park in [[Meveran]], [[Lorkan]] and [[Drashir]].<ref name="heritage-venues">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/venues|title=Host stadiums of the 1676 Ayuman Cup|publisher=[[FLLA]]|date=20 June 1763}}</ref>
 
 {| class="wikitable sortable" style="text-align: center;"
 |+ Stadiums of the 1676 Ayuman Cup
@@ -81,7 +79,7 @@ Five stadiums in five host cities, all in [[Praesyu]], were used in the final to
 |-
 | align="left" | [[Lorkan]] || align="left" | Lorkan Stadium || 15,000 || align="left" | Group stage
 |-
-| align="left" | [[Meveran]] || align="left" | Meveran Park || 13,000 || align="left" | Third-place playoff
+| align="left" | [[Meveran]] || align="left" | Meveran Park || 13,000 || align="left" | Group stage
 |-
 | align="left" | [[Drashir]] || align="left" | Drashir Ground || 12,000 || align="left" | Group stage
 |}
@@ -199,7 +197,7 @@ All dates are given in the local time of the host cities.
 The knockout stage involved the eight teams that advanced from the group stage: the three group winners, the three runners-up and the two best third-placed sides. Ties level after 90 minutes were to be extended by a single period of [[wikipedia:Extra time|extra time]]; no tie in 1676 required extra time or a replay.
 
 ===Bracket===
-{{#invoke:RoundN|N8|3rdplace=yes|bold_winner=high
+{{#invoke:RoundN|N8|bold_winner=high
 | | {{Flagicon|Eldjo}} Eldjo | 4 | {{Flagicon|Palina}} Palina | 0
 | | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Merela Sta}} Merela Sta | 1
 | | {{Flagicon|Siana}} Siana | 3 | {{Flagicon|Estijan}} Estijan | 1
@@ -207,7 +205,6 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 | | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Praesyu}} Praesyu | 1
 | | {{Flagicon|Siana}} Siana | 1 | {{Flagicon|Emara}} Emara | 3
 | | {{Flagicon|Eldjo}} Eldjo | 3 | {{Flagicon|Emara}} Emara | 0
-| | {{Flagicon|Praesyu}} Praesyu | 3 | {{Flagicon|Siana}} Siana | 1
 }}
 
 ===Quarter-finals===
@@ -286,20 +283,6 @@ The knockout stage involved the eight teams that advanced from the group stage: 
 | referee = Brem Tavik ([[Taval]])
 }}
 
-===Third place playoff===
-
-{{Football box
-| date = {{Start date|1676|7|1|df=y}}
-| team1 = '''[[Praesyu]]''' {{Flagicon|Praesyu}}
-| score = 3–1
-| team2 = {{Flagicon|Siana}} [[Siana]]
-| goals1 = Wol {{Goal|23|27}}<br/>Henlo {{Goal|69}}
-| goals2 = Mazzo {{Goal|58}}
-| stadium = Meveran Park, [[Meveran]]
-| attendance = 12,000
-| referee = Os Easuhra ([[Easuhura]])
-}}
-
 ===Final===
 
 The final was held at the Brimasha Stadium on 2 July 1676 before an estimated crowd of 22,000. [[Eldjo]] took the lead early through Davor Klent, the tournament's leading scorer, and a goal from Tomaz Reska shortly after the interval put the side two clear before Klent added a third in the second half to seal a 3–0 win. [[Emara]], who had reached the final without conceding in the knockout rounds until the closing stages, were unable to find a reply. The victory secured the Andah Cup for Eldjo, which was presented to the Eldjo captain at the close of the match.<ref name="heritage-final">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/final|title=The 1676 Ayuman Cup final: Eldjo 3–0 Emara|publisher=[[FLLA]]|date=14 June 1763}}</ref>
@@ -320,25 +303,27 @@ The final was held at the Brimasha Stadium on 2 July 1676 before an estimated cr
 
 ===Goalscorers===
 
-A total of 85 goals were scored in 26 matches, an average of 3.27 per match. The leading scorer was the Eldjo forward Davor Klent, who scored nine goals across the tournament, including two in the final. No formal individual awards were presented at the 1676 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/statistics|title=1676 Ayuman Cup statistical record|publisher=[[FLLA]]|date=20 June 1763}}</ref>
+A total of 81 goals were scored in 25 matches, an average of 3.24 per match. The leading scorer was the Eldjo forward Davor Klent, who scored nine goals across the tournament, including two in the final. No formal individual awards were presented at the 1676 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1676/statistics|title=1676 Ayuman Cup statistical record|publisher=[[FLLA]]|date=20 June 1763}}</ref>
 
 '''9 goals'''
 * {{Flagicon|Eldjo}} Davor Klent ([[Eldjo]])
 
 '''8 goals'''
 * {{Flagicon|Emara}} Edmund Crale ([[Emara]])
-* {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 
 '''6 goals'''
 * {{Flagicon|Eldjo}} Stipan Verlo ([[Eldjo]])
 * {{Flagicon|Emara}} Alwin Hodge ([[Emara]])
-* {{Flagicon|Praesyu}} Tobin Henlo ([[Praesyu]])
+* {{Flagicon|Praesyu}} Henrik Wol ([[Praesyu]])
 * {{Flagicon|Siana}} Aldo Feronti ([[Siana]])
 
 '''5 goals'''
 * {{Flagicon|Eldjo}} Tomaz Reska ([[Eldjo]])
-* {{Flagicon|Siana}} Renso Mazzo ([[Siana]])
+* {{Flagicon|Praesyu}} Tobin Henlo ([[Praesyu]])
 * {{Flagicon|Estijan}} Cal Brody ([[Estijan]])
+
+'''4 goals'''
+* {{Flagicon|Siana}} Renso Mazzo ([[Siana]])
 
 ===Final ranking===
 
@@ -354,14 +339,14 @@ In keeping with the practice of the period, a final ranking was published only f
 |-
 | 3 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]]
 |-
-| 4 || align="left" | {{Flagicon|Siana}} [[Siana]]
+| 3 || align="left" | {{Flagicon|Siana}} [[Siana]]
 |}
 
 ==Trophy and significance==
 
 The 1676 edition was contested for the original rotating [[FLLA World Cup#The Andah Cup|Andah Cup]], the same trophy that had been awarded at every edition since its introduction at the [[1668 FLLA World Cup|1668 tournament]]. Under the custom of the period the cup passed to each new champion in turn, and Eldjo's victory placed it in their keeping until the following edition.<ref name="heritage-trophy" />
 
-Eldjo's win came at the expense of the host nation only indirectly: [[Praesyu]] reached the semi-finals and took third place on home soil, while the title was settled between the two Group C qualifiers, Eldjo and [[Emara]], who had been kept apart in the draw until the final. The result was among the more decisive finals of the early editions, Eldjo becoming the first side to win the deciding match without conceding.<ref name="heritage-overview" />
+Eldjo's win came at the expense of the host nation only indirectly: [[Praesyu]] reached the semi-finals on home soil, while the title was settled between the two Group C qualifiers, Eldjo and [[Emara]], who had been kept apart in the draw until the final. The result was among the more decisive finals of the early editions, Eldjo becoming the first side to win the deciding match without conceding.<ref name="heritage-overview" />
 
 The competition continued under the Ayuman Cup name through the editions of [[1680 FLLA World Cup|1680]] and [[1684 FLLA World Cup|1684]] before the original cup was lost during the [[Red War]] and the contest was relaunched and renamed the [[FLLA World Cup]] at the [[1700 FLLA World Cup|1700 edition]].<ref name="heritage-rename" />
 
