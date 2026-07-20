@@ -17,7 +17,7 @@
 |-
 | Matches played || 22
 |-
-| Goals scored || 102 (4.64 per match)
+| Goals scored || 101 (4.59 per match)
 |-
 ! colspan="2" style="text-align:center;" | Final positions
 |-
@@ -55,7 +55,6 @@ The 12 entered teams were divided into three groups of four for the group stage.
 The knockout stage consisted of two semi-finals, a [[#Third place playoff|third-place playoff]] and a final, each played as a single-elimination tie over 90 minutes. A tie level at the end of normal time was extended by a single 30-minute period of [[wikipedia:Extra time|extra time]]; under the regulations of the period, any tie still level after extra time was to be settled by a replay rather than by a [[wikipedia:Penalty shoot-out (association football)|penalty shoot-out]], a procedure not yet in use. No replay proved necessary in 1668. The two losing semi-finalists contested the third-place playoff on the day before the final.
 
 ==Participating teams==
-[[File:1668 Ayuman Cup qualification.png|thumb|upright=1.5|{{legend|#000cff|Countries qualified for Ayuman Cup}} {{legend|#ffb400|Country did not qualify}} {{legend|black|Countries that did not enter the Ayuman Cup or were expelled from the tournament prior to playing a match}} {{legend|#ababab|Country outside Ayuma}}]]
 
 Twelve teams took part in the 1668 finals, all of them Ayuman national associations. The continental confederations that later structured the [[FLLA World Cup]] had not yet been established, and qualification was settled under the informal arrangements of the period; as host nation, [[Eldjo]] took part automatically. The participating teams were:<ref name="heritage-teams">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/teams|title=1668 Ayuman Cup: participating teams|publisher=[[FLLA]]|date=21 May 1763}}</ref>
 
@@ -106,30 +105,30 @@ All dates are given in the local time of the host cities.
 |+ Group A standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 3 || 0 || 0 || 14 || 0 || +14 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Estijan}} '''[[Estijan]]''' || 3 || 3 || 0 || 0 || 15 || 4 || +11 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
 |-
-| 2 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3 || 2 || 0 || 1 || 10 || 3 || +7 || 4 ||
+| 2 || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3 || 2 || 0 || 1 || 8 || 5 || +3 || 4 ||
 |-
-| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 3 || 12 || −9 || 1 ||
+| 3 || align="left" | {{Flagicon|Verusa}} [[Verusa]] || 3 || 0 || 1 || 2 || 3 || 8 || −5 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 2 || 14 || −12 || 1 ||
+| 4 || align="left" | {{Flagicon|Yaxuto}} [[Yaxuto]] || 3 || 0 || 1 || 2 || 2 || 11 || −9 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group A matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 4 June 1668 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 7–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Jioquin Grand Stadium, Jioquin
+| align="left" | 4 June 1668 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 6–1 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Jioquin Grand Stadium, Jioquin
 |-
-| align="left" | 5 June 1668 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 5–1 || {{Flagicon|Verusa}} Verusa || align="left" | Xaipla Field, Xaipla
+| align="left" | 5 June 1668 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 2–1 || {{Flagicon|Verusa}} Verusa || align="left" | Xaipla Field, Xaipla
 |-
-| align="left" | 8 June 1668 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 5–0 || {{Flagicon|Verusa}} Verusa || align="left" | Jioquin Grand Stadium, Jioquin
+| align="left" | 8 June 1668 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 5–1 || {{Flagicon|Verusa}} Verusa || align="left" | Jioquin Grand Stadium, Jioquin
 |-
-| align="left" | 9 June 1668 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 5–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Xaipla Field, Xaipla
+| align="left" | 9 June 1668 || align="right" | '''Praesyu''' {{Flagicon|Praesyu}} || 4–0 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Xaipla Field, Xaipla
 |-
-| align="left" | 12 June 1668 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 2–0 || {{Flagicon|Praesyu}} Praesyu || align="left" | Jioquin Grand Stadium, Jioquin
+| align="left" | 12 June 1668 || align="right" | '''Estijan''' {{Flagicon|Estijan}} || 4–2 || {{Flagicon|Praesyu}} Praesyu || align="left" | Jioquin Grand Stadium, Jioquin
 |-
-| align="left" | 12 June 1668 || align="right" | Verusa {{Flagicon|Verusa}} || 2–2 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Xaipla Field, Xaipla
+| align="left" | 12 June 1668 || align="right" | Verusa {{Flagicon|Verusa}} || 1–1 || {{Flagicon|Yaxuto}} Yaxuto || align="left" | Xaipla Field, Xaipla
 |}
 
 ===Group B===
@@ -137,30 +136,30 @@ All dates are given in the local time of the host cities.
 |+ Group B standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 3 || 0 || 0 || 12 || 1 || +11 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Siana}} '''[[Siana]]''' || 3 || 3 || 0 || 0 || 12 || 4 || +8 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
 |-
-| 2 || align="left" | {{Flagicon|Palina}} [[Palina]] || 3 || 1 || 1 || 1 || 4 || 4 || 0 || 3 ||
+| 2 || align="left" | {{Flagicon|Palina}} [[Palina]] || 3 || 1 || 1 || 1 || 4 || 5 || −1 || 3 ||
 |-
-| 3 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || 3 || 1 || 0 || 2 || 6 || 8 || −2 || 2 ||
+| 3 || align="left" | {{Flagicon|Merela Sta}} [[Merela Sta]] || 3 || 1 || 0 || 2 || 7 || 9 || −2 || 2 ||
 |-
-| 4 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 3 || 12 || −9 || 1 ||
+| 4 || align="left" | {{Flagicon|Darewa}} [[Darewa]] || 3 || 0 || 1 || 2 || 4 || 9 || −5 || 1 ||
 |}
 
 {| class="wikitable" style="text-align: center; font-size: 95%;"
 |+ Group B matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 4 June 1668 || align="right" | '''Siana''' {{Flagicon|Siana}} || 5–0 || {{Flagicon|Darewa}} Darewa || align="left" | Suveto Stadium, Suveto
+| align="left" | 4 June 1668 || align="right" | '''Siana''' {{Flagicon|Siana}} || 4–1 || {{Flagicon|Darewa}} Darewa || align="left" | Suveto Stadium, Suveto
 |-
-| align="left" | 5 June 1668 || align="right" | '''Palina''' {{Flagicon|Palina}} || 2–0 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Shorakim Arena, Shorakim
+| align="left" | 5 June 1668 || align="right" | '''Palina''' {{Flagicon|Palina}} || 2–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Shorakim Arena, Shorakim
 |-
-| align="left" | 8 June 1668 || align="right" | '''Siana''' {{Flagicon|Siana}} || 5–1 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Suveto Stadium, Suveto
+| align="left" | 8 June 1668 || align="right" | '''Siana''' {{Flagicon|Siana}} || 5–2 || {{Flagicon|Merela Sta}} Merela Sta || align="left" | Suveto Stadium, Suveto
 |-
-| align="left" | 9 June 1668 || align="right" | Palina {{Flagicon|Palina}} || 2–2 || {{Flagicon|Darewa}} Darewa || align="left" | Shorakim Arena, Shorakim
+| align="left" | 9 June 1668 || align="right" | Palina {{Flagicon|Palina}} || 1–1 || {{Flagicon|Darewa}} Darewa || align="left" | Shorakim Arena, Shorakim
 |-
-| align="left" | 12 June 1668 || align="right" | '''Siana''' {{Flagicon|Siana}} || 2–0 || {{Flagicon|Palina}} Palina || align="left" | Suveto Stadium, Suveto
+| align="left" | 12 June 1668 || align="right" | '''Siana''' {{Flagicon|Siana}} || 3–1 || {{Flagicon|Palina}} Palina || align="left" | Suveto Stadium, Suveto
 |-
-| align="left" | 12 June 1668 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 5–1 || {{Flagicon|Darewa}} Darewa || align="left" | Shorakim Arena, Shorakim
+| align="left" | 12 June 1668 || align="right" | '''Merela Sta''' {{Flagicon|Merela Sta}} || 4–2 || {{Flagicon|Darewa}} Darewa || align="left" | Shorakim Arena, Shorakim
 |}
 
 ===Group C===
@@ -168,13 +167,13 @@ All dates are given in the local time of the host cities.
 |+ Group C standings
 ! Pos !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 3 || 0 || 0 || 12 || 1 || +11 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || align="left" | {{Flagicon|Lycroa}} '''[[Lycroa]]''' || 3 || 3 || 0 || 0 || 9 || 2 || +7 || 6 || align="left" | Advance to [[#Knockout stage|knockout stage]]
 |- style="background:#ccffcc;"
-| 2 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' ''(H)'' || 3 || 2 || 0 || 1 || 12 || 3 || +9 || 4 || align="left" | Advance as best runner-up
+| 2 || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' ''(H)'' || 3 || 2 || 0 || 1 || 11 || 5 || +6 || 4 || align="left" | Advance as best runner-up
 |-
-| 3 || align="left" | {{Flagicon|Emara}} [[Emara]] || 3 || 0 || 1 || 2 || 4 || 12 || −8 || 1 ||
+| 3 || align="left" | {{Flagicon|Emara}} [[Emara]] || 3 || 0 || 1 || 2 || 4 || 10 || −6 || 1 ||
 |-
-| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 3 || 0 || 1 || 2 || 2 || 14 || −12 || 1 ||
+| 4 || align="left" | {{Flagicon|Easuhura}} [[Easuhura]] || 3 || 0 || 1 || 2 || 4 || 11 || −7 || 1 ||
 |}
 ''(H) Host.''
 
@@ -182,15 +181,15 @@ All dates are given in the local time of the host cities.
 |+ Group C matches
 ! Date !! Home !! Score !! Away !! Venue
 |-
-| align="left" | 6 June 1668 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 5–0 || {{Flagicon|Easuhura}} Easuhura || align="left" | Velsar Park, Velsar
+| align="left" | 6 June 1668 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 4–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Velsar Park, Velsar
 |-
-| align="left" | 7 June 1668 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 5–1 || {{Flagicon|Emara}} Emara || align="left" | Jioquin Grand Stadium, Jioquin
+| align="left" | 7 June 1668 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 5–2 || {{Flagicon|Emara}} Emara || align="left" | Jioquin Grand Stadium, Jioquin
 |-
-| align="left" | 10 June 1668 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 5–1 || {{Flagicon|Emara}} Emara || align="left" | Velsar Park, Velsar
+| align="left" | 10 June 1668 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 3–0 || {{Flagicon|Emara}} Emara || align="left" | Velsar Park, Velsar
 |-
-| align="left" | 11 June 1668 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 7–0 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jioquin Grand Stadium, Jioquin
+| align="left" | 11 June 1668 || align="right" | '''Eldjo''' {{Flagicon|Eldjo}} || 5–1 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jioquin Grand Stadium, Jioquin
 |-
-| align="left" | 14 June 1668 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–0 || {{Flagicon|Eldjo}} Eldjo || align="left" | Velsar Park, Velsar
+| align="left" | 14 June 1668 || align="right" | '''Lycroa''' {{Flagicon|Lycroa}} || 2–1 || {{Flagicon|Eldjo}} Eldjo || align="left" | Velsar Park, Velsar
 |-
 | align="left" | 14 June 1668 || align="right" | Emara {{Flagicon|Emara}} || 2–2 || {{Flagicon|Easuhura}} Easuhura || align="left" | Jioquin Grand Stadium, Jioquin
 |}
@@ -203,11 +202,11 @@ To determine the fourth knockout place, the three group runners-up were compared
 |+ Ranking of the second-placed teams
 ! Pos !! Grp !! Team !! Pld !! W !! D !! L !! GF !! GA !! GD !! Pts !! Qualification
 |- style="background:#ccffcc;"
-| 1 || C || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 2 || 0 || 1 || 12 || 3 || +9 || 4 || align="left" | Advance to [[#Knockout stage|knockout stage]]
+| 1 || C || align="left" | {{Flagicon|Eldjo}} '''[[Eldjo]]''' || 3 || 2 || 0 || 1 || 11 || 5 || +6 || 4 || align="left" | Advance to [[#Knockout stage|knockout stage]]
 |-
-| 2 || A || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3 || 2 || 0 || 1 || 10 || 3 || +7 || 4 ||
+| 2 || A || align="left" | {{Flagicon|Praesyu}} [[Praesyu]] || 3 || 2 || 0 || 1 || 8 || 5 || +3 || 4 ||
 |-
-| 3 || B || align="left" | {{Flagicon|Palina}} [[Palina]] || 3 || 1 || 1 || 1 || 4 || 4 || 0 || 3 ||
+| 3 || B || align="left" | {{Flagicon|Palina}} [[Palina]] || 3 || 1 || 1 || 1 || 4 || 5 || −1 || 3 ||
 |}
 
 ==Knockout stage==
@@ -282,7 +281,7 @@ The final was held at the Jioquin Grand Stadium on 2 July 1668 before an estimat
 
 ===Goalscorers===
 
-A total of 102 goals were scored in 22 matches, an average of 4.64 per match. The leading scorer was the Lycroan forward Tomas Calier, who scored twelve goals across the tournament, including two in the final. No formal individual awards were presented at the 1668 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/statistics|title=1668 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 May 1763}}</ref>
+A total of 101 goals were scored in 22 matches, an average of 4.59 per match. The leading scorer was the Lycroan forward Tomas Calier, who scored twelve goals across the tournament, including two in the final. No formal individual awards were presented at the 1668 edition: the leading-player, top-scorer and best-goalkeeper prizes (the [[FLLA World Cup#Awards|Vairan Ball, Marskval and Bastion]]) were not instituted until the [[1744 FLLA World Cup|1744 edition]], and the figures below are recognised retrospectively in the [[FLLA]]'s heritage records.<ref name="heritage-stats">{{cite web|url=https://www.flla.org/heritage/world-cup/1668/statistics|title=1668 Ayuman Cup statistical record|publisher=[[FLLA]]|date=21 May 1763}}</ref>
 
 '''12 goals'''
 * {{Flagicon|Lycroa}} Tomas Calier ([[Lycroa]])
