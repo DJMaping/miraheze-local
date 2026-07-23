@@ -191,6 +191,7 @@ The result of each team at each edition is shown using the following key:
 {{col-2}}
 * '''1st''' &ndash; Champions
 * '''2nd''' &ndash; Runners-up
+* '''SF''' &ndash; Semi-finalists (1656&ndash;1684, before the third-place playoff)
 * '''3rd''' &ndash; Third place
 * '''4th''' &ndash; Fourth place
 {{col-2}}
@@ -259,13 +260,13 @@ Host nations are shown in '''bold'''. For each team, "Apps" gives the total numb
 | 21
 |-
 ! style="text-align:left; font-weight:normal;" | {{Flagicon|Praesyu}} [[Praesyu]]
-| style="background:#81c846; color:#000000;" | 4th
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#b94954; color:#ffffff;" | GS
 | style="background:#b94954; color:#ffffff;" | GS
-| style="background:#269c5a; color:#ffffff;" | 3rd
-| style="background:#269c5a; color:#ffffff;" | '''3rd'''
-| style="background:#81c846; color:#000000;" | 4th
-| style="background:#81c846; color:#000000;" | 4th
+| style="background:#4aa564; color:#ffffff;" | SF
+| style="background:#4aa564; color:#ffffff;" | '''SF'''
+| style="background:#4aa564; color:#ffffff;" | SF
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#b94954; color:#ffffff;" | GS
 | style="background:#e4e454; color:#000000;" | QF
 | style="background:#e4e454; color:#000000;" | QF
@@ -314,7 +315,7 @@ Host nations are shown in '''bold'''. For each team, "Apps" gives the total numb
 |-
 ! style="text-align:left; font-weight:normal;" | {{Flagicon|Easuhura}} [[Easuhura]]
 | style="background:#b94954; color:#ffffff;" | GS
-| style="background:#269c5a; color:#ffffff;" | '''3rd'''
+| style="background:#4aa564; color:#ffffff;" | '''SF'''
 | style="background:#b94954; color:#ffffff;" | GS
 | style="background:#b94954; color:#ffffff;" | GS
 | style="background:#b94954; color:#ffffff;" | GS
@@ -373,7 +374,7 @@ Host nations are shown in '''bold'''. For each team, "Apps" gives the total numb
 | style="background:#ececec;" |
 | style="background:#ececec;" |
 | style="background:#ececec;" |
-| style="background:#269c5a; color:#ffffff;" | 3rd
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#2b42a3; color:#ffffff;" | '''1st'''
 | style="background:#e4e454; color:#000000;" | QF
 | style="background:#34c0be; color:#000000;" | 2nd
@@ -421,12 +422,12 @@ Host nations are shown in '''bold'''. For each team, "Apps" gives the total numb
 | 16
 |-
 ! style="text-align:left; font-weight:normal;" | {{Flagicon|Siana}} [[Siana]]
-| style="background:#269c5a; color:#ffffff;" | '''3rd'''
+| style="background:#4aa564; color:#ffffff;" | '''SF'''
 | style="background:#ececec;" |
-| style="background:#81c846; color:#000000;" | 4th
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#b94954; color:#ffffff;" | GS
-| style="background:#81c846; color:#000000;" | 4th
-| style="background:#269c5a; color:#ffffff;" | 3rd
+| style="background:#4aa564; color:#ffffff;" | SF
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#34c0be; color:#000000;" | 2nd
 | style="background:#81c846; color:#000000;" | 4th
 | style="background:#34c0be; color:#000000;" | 2nd
@@ -504,7 +505,7 @@ Host nations are shown in '''bold'''. For each team, "Apps" gives the total numb
 ! style="text-align:left; font-weight:normal;" | {{Flagicon|Eldjo}} [[Eldjo]]
 | style="background:#34c0be; color:#000000;" | 2nd
 | style="background:#b94954; color:#ffffff;" | GS
-| style="background:#269c5a; color:#ffffff;" | '''3rd'''
+| style="background:#4aa564; color:#ffffff;" | '''SF'''
 | style="background:#b94954; color:#ffffff;" | GS
 | style="background:#2b42a3; color:#ffffff;" | 1st
 | style="background:#34c0be; color:#000000;" | 2nd
@@ -638,9 +639,9 @@ Host nations are shown in '''bold'''. For each team, "Apps" gives the total numb
 |-
 ! style="text-align:left; font-weight:normal;" | {{Flagicon|Estijan}} [[Estijan]]
 | style="background:#2b42a3; color:#ffffff;" | 1st
-| style="background:#81c846; color:#000000;" | 4th
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#34c0be; color:#000000;" | 2nd
-| style="background:#81c846; color:#000000;" | 4th
+| style="background:#4aa564; color:#ffffff;" | SF
 | style="background:#b94954; color:#ffffff;" | GS
 | style="background:#e4e454; color:#000000;" | QF
 | style="background:#e4e454; color:#000000;" | QF
