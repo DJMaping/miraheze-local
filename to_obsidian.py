@@ -16,6 +16,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+# Secrets live outside the repo (~/.miraheze-secrets/.env); local .env is a fallback.
+load_dotenv(Path.home() / ".miraheze-secrets" / ".env")
 load_dotenv()
 
 STATE_FILE = Path(".state.json")

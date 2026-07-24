@@ -9,6 +9,8 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+# Secrets live outside the repo (~/.miraheze-secrets/.env); local .env is a fallback.
+load_dotenv(Path.home() / ".miraheze-secrets" / ".env")
 load_dotenv()
 API = os.environ["WIKI_API"]
 USER = os.environ["WIKI_USER"]

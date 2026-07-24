@@ -19,6 +19,9 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+# Secrets live outside the repo (~/.miraheze-secrets/.env) so they can never
+# be committed or bundled up with the folder. A local .env still works as a fallback.
+load_dotenv(Path.home() / ".miraheze-secrets" / ".env")
 load_dotenv()
 
 API = os.environ["WIKI_API"]

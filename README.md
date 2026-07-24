@@ -10,7 +10,10 @@ Edit your Miraheze wiki from VS Code / Claude Code with a pull → edit → push
    ```
 2. **Get a bot password** at `https://YOURWIKI.miraheze.org/wiki/Special:BotPasswords`.
    Grant: Basic rights, High-volume editing, Edit existing pages, Create/edit/move pages.
-3. **Configure**: copy `.env.example` to `.env` and fill in `WIKI_API`, `WIKI_USER`, `WIKI_PASS`.
+3. **Configure**: create `%USERPROFILE%\.miraheze-secrets\.env` (outside the repo)
+   and fill in `WIKI_API`, `WIKI_USER`, `WIKI_PASS`. A `.env` in the repo root
+   also works as a fallback, but keeping it outside means it can never be
+   committed or bundled up with the folder.
 
 ## Daily workflow
 
@@ -56,7 +59,9 @@ then `python push.py` to send the changes.
 
 ## Safety notes
 
-- `.env` is gitignored — never commit it.
+- Credentials live in `%USERPROFILE%\.miraheze-secrets\.env`, outside the repo,
+  so they can't end up on GitHub. (`.env` is also gitignored as a belt-and-braces
+  measure in case one is ever created in the repo root.)
 - `push.py` uses `nocreate=1` by default, so it won't accidentally create new
   pages. To create a new page, pull it once (it'll be empty), edit, then push.
 - The bot flag is honoured (`bot=1`), so your edits won't flood Recent Changes

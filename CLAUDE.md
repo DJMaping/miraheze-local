@@ -63,7 +63,9 @@ These are not part of the pull/push loop and read from `data/`:
 
 ## Environment
 
-Requires a gitignored `.env` (never commit it):
+Credentials live **outside the repo** at `%USERPROFILE%\.miraheze-secrets\.env`
+(loaded by every script via `load_dotenv(Path.home() / ".miraheze-secrets" / ".env")`;
+a gitignored `.env` in the repo root still works as a fallback). Never commit credentials:
 ```
 WIKI_API=https://andah.miraheze.org/w/api.php
 WIKI_USER=BotUsername@BotName
