@@ -1,6 +1,6 @@
 {{Infobox country
 | conventional_long_name = Great Yaxutan Republic
-| native_name            = ''__''  - Yaxutan
+| native_name            = ''__''  - Ioithin
 | image_flag             = Yaxuto Flag.png
 | image_coat             = 
 | symbol_type            = 
@@ -12,7 +12,7 @@
 | map_caption            = Location of Yaxuto (green)
 | capital                = [[Khorin]]
 | largest_city           = [[Khorin]]
-| official_languages     = Yaxutan
+| official_languages     = Ioithin
 | regional_languages     = 
 | ethnic_groups          = 91.8% Yaxutan<br>3.2% [[Verusa|Verusan]]<br>2.1% Other<br>0.9% N/a
 | ethnic_groups_year     = 1765
