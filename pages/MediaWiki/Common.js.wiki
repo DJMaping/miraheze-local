@@ -1,0 +1,200 @@
+/**
+ * Lahn currency conversion tooltips.
+ *
+ * Finds every {{lahn}} symbol in article content, reads the amount that follows
+ * it, and shows a hover popup converting that amount into the major currencies.
+ * Requires no changes to any article or template.
+ *
+ * To change the rates, edit RATES below. Values are units of each currency
+ * per 1 lahn. USD is an out-of-universe reader aid and is ruled off from the
+ * canon currencies in the popup.
+ */
+( function () {
+	'use strict';
+
+	var RATES = {
+		USD: { name: 'US dollar', per: 0.155, sym: '$', real: true },
+		EIS: { name: 'Emaran Islatan', per: 0.19 },
+		RKA: { name: 'Raledrian Kasare', per: 0.36 },
+		AAR: { name: 'Arten Araik', per: 4.20 },
+		POR: { name: 'Pelugrotoan Oran', per: 7.75 },
+		EZD: { name: 'Estijan Zundetra', per: 61.0 }
+	};
+
+	var SCALES = { million: 1e6, billion: 1e9, trillion: 1e12, quadrillion: 1e15 };
+
+	// A bare number, then optionally a scale word. \s covers the &nbsp; in
+	// {{lahn}}1.98&nbsp;billion.
+	var NUM_RE = /^([0-9][0-9,]*(?:\.[0-9]+)?)(\s*(?:million|billion|trillion|quadrillion))?/i;
+
+	// "8,579 trillion" is a decimal-point typo, not eight thousand trillion.
+	// Skip these rather than show a figure a thousand times too large.
+	var TYPO_RE = /^[0-9]{1,3},[0-9]{3}$/;
+
+	var CSS = '.lahn-cvt{border-bottom:1px dotted #7d858d;cursor:help}' +
+		'#lahn-cvt-pop{position:fixed;z-index:9999;display:none;min-width:210px;' +
+		'padding:9px 11px;font-size:13px;line-height:1.5;pointer-events:none;' +
+		'background:#0f1113;color:#e6e6e6;border:1px solid #c8a04a;border-radius:5px;' +
+		'box-shadow:0 8px 26px rgba(0,0,0,.6)}' +
+		'#lahn-cvt-pop table{width:100%;border-collapse:collapse}' +
+		'#lahn-cvt-pop td{padding:2px 0}' +
+		'.lahn-cvt-src{margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid #2b3035;' +
+		'color:#c8a04a;font-weight:bold;white-space:nowrap}' +
+		'.lahn-cvt-c{padding-right:14px;color:#9aa3ab;white-space:nowrap}' +
+		'.lahn-cvt-code{opacity:.6}' +
+		'.lahn-cvt-v{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}' +
+		'.lahn-cvt-real td{padding-bottom:5px;border-bottom:1px solid #2b3035}' +
+		'.lahn-cvt-real+tr td{padding-top:5px}' +
+		'.lahn-cvt-foot{margin-top:6px;padding-top:5px;border-top:1px solid #2b3035;' +
+		'color:#6d757c;font-size:11px;font-style:italic}';
+
+	function parseAmount( text ) {
+		var m = NUM_RE.exec( text );
+		if ( !m ) {
+			return null;
+		}
+		if ( m[ 2 ] && TYPO_RE.test( m[ 1 ] ) ) {
+			return null;
+		}
+		var n = parseFloat( m[ 1 ].replace( /,/g, '' ) );
+		if ( !isFinite( n ) ) {
+			return null;
+		}
+		var scale = m[ 2 ] ? SCALES[ m[ 2 ].trim().toLowerCase() ] : 1;
+		return { raw: m[ 0 ], value: n * scale };
+	}
+
+	function fmt( n ) {
+		var u;
+		if ( n >= 1e15 ) { u = [ n / 1e15, ' quadrillion' ]; }
+		else if ( n >= 1e12 ) { u = [ n / 1e12, ' trillion' ]; }
+		else if ( n >= 1e9 ) { u = [ n / 1e9, ' billion' ]; }
+		else if ( n >= 1e6 ) { u = [ n / 1e6, ' million' ]; }
+		else { return Math.round( n ).toLocaleString( 'en-GB' ); }
+		return u[ 0 ].toFixed( 3 ).replace( /\.?0+$/, '' ) + u[ 1 ];
+	}
+
+	/**
+	 * {{lahn}} renders as
+	 *   <span typeof="mw:File"><span title="Lahn"><img alt="Lahn"></span></span>
+	 * so the amount is a sibling of the OUTER span, not of the image itself.
+	 */
+	function amountNodeAfter( img ) {
+		var node = img,
+			hops = 0;
+		while ( !node.nextSibling && node.parentNode && hops < 4 ) {
+			if ( node.parentNode.nodeName !== 'SPAN' && node.parentNode.nodeName !== 'A' ) {
+				return null;
+			}
+			node = node.parentNode;
+			hops++;
+		}
+		var next = node.nextSibling;
+		return ( next && next.nodeType === 3 ) ? next : null;
+	}
+
+	function enhance( root ) {
+		if ( !root || !root.querySelectorAll ) {
+			return;
+		}
+		var imgs = root.querySelectorAll( 'img[alt="Lahn"]' );
+		Array.prototype.forEach.call( imgs, function ( img ) {
+			var textNode = amountNodeAfter( img );
+			if ( !textNode ) {
+				return;
+			}
+			var amount = parseAmount( textNode.nodeValue );
+			if ( !amount ) {
+				return;
+			}
+			var tail = textNode.splitText( amount.raw.length ),
+				span = document.createElement( 'span' );
+			span.className = 'lahn-cvt';
+			span.setAttribute( 'data-lahn', amount.value );
+			span.appendChild( document.createTextNode( amount.raw ) );
+			textNode.parentNode.replaceChild( span, textNode );
+			span.parentNode.insertBefore( tail, span.nextSibling );
+		} );
+	}
+
+	function buildPopup( lahn ) {
+		var rows = '';
+		Object.keys( RATES ).forEach( function ( code ) {
+			var r = RATES[ code ];
+			rows += '<tr' + ( r.real ? ' class="lahn-cvt-real"' : '' ) + '>' +
+				'<td class="lahn-cvt-c">' + r.name +
+				' <span class="lahn-cvt-code">(' + code + ')</span></td>' +
+				'<td class="lahn-cvt-v">' + ( r.sym || '' ) +
+				fmt( lahn * r.per ) + '</td></tr>';
+		} );
+		return '<div class="lahn-cvt-src">' + fmt( lahn ) + ' lahn</div>' +
+			'<table>' + rows + '</table>' +
+			'<div class="lahn-cvt-foot">GTU reference rates, 1765</div>';
+	}
+
+	var pop = null;
+
+	function popEl() {
+		if ( !pop ) {
+			pop = document.createElement( 'div' );
+			pop.id = 'lahn-cvt-pop';
+			document.body.appendChild( pop );
+		}
+		return pop;
+	}
+
+	function place( el, e ) {
+		var pad = 12,
+			x = e.clientX + pad,
+			y = e.clientY + pad;
+		if ( x + el.offsetWidth > window.innerWidth - 8 ) {
+			x = e.clientX - el.offsetWidth - pad;
+		}
+		if ( y + el.offsetHeight > window.innerHeight - 8 ) {
+			y = e.clientY - el.offsetHeight - pad;
+		}
+		el.style.left = Math.max( 8, x ) + 'px';
+		el.style.top = Math.max( 8, y ) + 'px';
+	}
+
+	function target( e ) {
+		return ( e.target && e.target.closest ) ? e.target.closest( '.lahn-cvt' ) : null;
+	}
+
+	document.addEventListener( 'mouseover', function ( e ) {
+		var t = target( e );
+		if ( !t ) {
+			return;
+		}
+		var el = popEl();
+		el.innerHTML = buildPopup( parseFloat( t.getAttribute( 'data-lahn' ) ) );
+		el.style.display = 'block';
+		place( el, e );
+	} );
+
+	document.addEventListener( 'mousemove', function ( e ) {
+		if ( pop && pop.style.display === 'block' && target( e ) ) {
+			place( pop, e );
+		}
+	} );
+
+	document.addEventListener( 'mouseout', function ( e ) {
+		if ( pop && target( e ) ) {
+			pop.style.display = 'none';
+		}
+	} );
+
+	mw.loader.using( 'mediawiki.util' ).then( function () {
+		mw.util.addCSS( CSS );
+		// wikipage.content has usually already fired by the time this module
+		// runs, and does not replay for late subscribers here, so sweep the
+		// rendered page directly first.
+		enhance( document.getElementById( 'mw-content-text' ) || document.body );
+		// Then keep listening, for live preview and lazily loaded content.
+		// Re-running is harmless: an already-wrapped amount is an element node,
+		// not a text node, so it is skipped.
+		mw.hook( 'wikipage.content' ).add( function ( $content ) {
+			enhance( $content[ 0 ] );
+		} );
+	} );
+}() );

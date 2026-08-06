@@ -1,0 +1,232 @@
+<meta charset="utf-8">
+<title>Andah — GDP currency hover: feasibility prototype</title>
+<style>
+  :root{
+    --bg:#16181a; --panel:#1f2225; --line:#3a3f45; --text:#e6e6e6;
+    --muted:#9aa3ab; --link:#6ba4e7; --up:#2ecc40; --accent:#c8a04a;
+  }
+  body{background:var(--bg);color:var(--text);font:15px/1.5 "Segoe UI",system-ui,sans-serif;margin:0;padding:28px}
+  .wrap{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:340px 1fr;gap:32px;align-items:start}
+  h1{font-size:20px;margin:0 0 4px;font-weight:600}
+  h2{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:26px 0 8px;font-weight:600}
+  p{margin:0 0 10px}
+  .note{color:var(--muted);font-size:13px}
+  a{color:var(--link);text-decoration:none}
+
+  /* ---- fake Timeless infobox ---- */
+  .infobox{background:var(--panel);border:1px solid var(--line);border-radius:3px;font-size:14px;overflow:hidden}
+  .infobox .hdr{background:#2a2e33;padding:8px 12px;font-weight:600;text-align:center;border-bottom:1px solid var(--line)}
+  .infobox table{width:100%;border-collapse:collapse}
+  .infobox th{text-align:left;vertical-align:top;padding:6px 10px;font-weight:600;width:44%;color:#cfd6dc}
+  .infobox td{padding:6px 10px;vertical-align:top}
+  .infobox tr+tr{border-top:1px solid #2b3035}
+  .sub{color:var(--muted);font-size:12px;padding:6px 10px 2px;font-style:italic}
+  .up{color:var(--up)}
+  sup{font-size:75%;color:var(--link)}
+  .lahn{color:var(--accent);font-weight:600}
+
+  /* ---- THE FEATURE: hover popup ---- */
+  .cvt{
+    border-bottom:1px dotted #7d858d;
+    cursor:help;
+  }
+  .cvt:hover{border-bottom-color:var(--accent)}
+  #cvt-pop{
+    position:fixed;z-index:9999;display:none;
+    background:#0f1113;border:1px solid var(--accent);border-radius:5px;
+    box-shadow:0 8px 26px rgba(0,0,0,.6);
+    padding:9px 11px;font-size:13px;min-width:210px;
+    pointer-events:none;
+  }
+  #cvt-pop .pop-src{color:var(--accent);font-weight:600;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid #2b3035;white-space:nowrap}
+  #cvt-pop table{border-collapse:collapse;width:100%}
+  #cvt-pop td{padding:2px 0}
+  #cvt-pop td.c{color:var(--muted);padding-right:14px;white-space:nowrap}
+  #cvt-pop td.v{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  /* USD is an out-of-universe reader aid, so rule it off from the canon currencies */
+  #cvt-pop tr.real td{border-bottom:1px solid #2b3035;padding-bottom:5px}
+  #cvt-pop tr.real+tr td{padding-top:5px}
+  #cvt-pop .pop-foot{color:#6d757c;font-size:11px;margin-top:6px;padding-top:5px;border-top:1px solid #2b3035;font-style:italic}
+
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:14px 16px;margin-bottom:14px}
+  code{background:#0f1113;padding:1px 5px;border-radius:3px;font-size:12.5px;color:#d7b877}
+  pre{background:#0f1113;border:1px solid var(--line);border-radius:4px;padding:10px 12px;overflow:auto;font-size:12.5px;margin:0}
+  .ok{color:var(--up)} .warn{color:#e8b04b}
+  ul{margin:0 0 10px;padding-left:20px} li{margin:3px 0}
+</style>
+
+<div class="wrap">
+<div>
+  <h1>Areoix Lie</h1>
+  <p class="note">Hover any GDP figure &darr;</p>
+
+  <div class="infobox">
+    <div class="hdr">Economy</div>
+    <table>
+      <tr><th colspan="2" style="padding-bottom:0"><span class="sub" style="padding:0">GDP (PPP)</span></th></tr>
+      <tr>
+        <th>1756 estimate</th>
+        <td>
+          <span class="up">&#9650;</span> <span class="lahn">&#9878;</span>11.173 trillion<sup>[3]</sup> (2nd)<br>
+          <span class="up">&#9650;</span> <span class="lahn">&#9878;</span>19,295 (51st)
+        </td>
+      </tr>
+      <tr><th colspan="2" style="padding-bottom:0"><span class="sub" style="padding:0">GDP (nominal)</span></th></tr>
+      <tr>
+        <th>1765 estimate</th>
+        <td>
+          <span class="up">&#9650;</span> <span class="lahn">&#9878;</span>4.595 trillion<sup>[4]</sup> (3rd)<br>
+          <span class="up">&#9650;</span> <span class="lahn">&#9878;</span>7,937 (73rd)
+        </td>
+      </tr>
+      <tr><th>Currency</th><td><a href="#">Arten Araik</a> (AAR)</td></tr>
+    </table>
+  </div>
+
+  <p class="note" style="margin-top:14px">Prose works too, with no markup change:<br>
+  The port handled <span class="lahn">&#9878;</span>1.98&nbsp;billion of trade in 1764.</p>
+</div>
+
+<div>
+  <h2>What this proves</h2>
+  <div class="panel">
+    <p><span class="ok">&#10003;</span> <b>No wikitext edits needed.</b> The script finds the lahn symbol
+    (on the real wiki: <code>&lt;img alt="Lahn"&gt;</code> from <code>{{lahn}}</code>), reads the number
+    that follows it, and wraps it. Every one of the ~180 country infoboxes lights up from a single
+    <code>MediaWiki:Common.js</code> edit. Zero page edits, zero template edits.</p>
+    <p><span class="ok">&#10003;</span> Handles <code>11.173 trillion</code>, <code>19,295</code>,
+    <code>1.98&nbsp;billion</code> &mdash; scale words and comma grouping both.</p>
+    <p><span class="ok">&#10003;</span> Styled popup, instant, positioned to the cursor. Not the sluggish
+    native <code>title=</code> tooltip your month template uses.</p>
+    <p><span class="ok">&#10003;</span> <b>Running on your five rates.</b> Codes corrected to
+    <code>EIS</code> and <code>RKA</code>. Nothing here has been uploaded to the wiki.</p>
+  </div>
+
+  <h2>Your existing month tooltip, for comparison</h2>
+  <div class="panel">
+    <p><code>Template:Tooltip</code> emits
+    <code>&lt;span class="tooltip tooltip-dotted" title="June"&gt;</code> &mdash; the browser's own
+    tooltip. Fine for a fixed word; wrong tool for a live-computed table, because <code>title=</code>
+    can only hold plain text and takes ~1s to appear.</p>
+  </div>
+
+  <h2>Rate table &mdash; lives in one place</h2>
+  <div class="panel"><pre>var RATES = {
+  USD: { name:'US dollar',         per: 0.155, sym:'$', real:true },
+  EIS: { name:'Emaran Islatan',    per: 0.19 },
+  RKA: { name:'Raledrian Kasare',  per: 0.36 },
+  AAR: { name:'Arten Araik',       per: 4.20 },
+  POR: { name:'Pelugrotoan Oran',  per: 7.75 },
+  EZD: { name:'Estijan Zundetra',  per: 61.0 }
+};</pre>
+  <p class="note" style="margin-top:10px">Corrected from your snippet: <code>KIM</code> is Acrana's
+  Kimoro, so the Emaran Islatan is <code>EIS</code>; Raledria's real code is <code>RKA</code>, not the
+  placeholder <code>RKS</code>. Missing comma after <code>7.75 }</code> added.</p></div>
+
+  <h2>Site config found</h2>
+  <div class="panel">
+    <ul>
+      <li><span class="ok">&#10003;</span> You hold <b>interface-admin</b> &mdash; <code>editsitejs</code> + <code>editsitecss</code> confirmed</li>
+      <li><span class="ok">&#10003;</span> <code>MediaWiki:Common.js</code> does not exist yet &mdash; clean creation</li>
+      <li><span class="ok">&#10003;</span> Scribunto (Lua), TemplateStyles, ParserFunctions, Gadgets all installed</li>
+      <li><span class="warn">&#9888;</span> No exchange-rate data anywhere &mdash; <code>Lahn</code> and
+          <code>Raledrian Kasare</code> both have an empty <code>==Exchange rate==</code> section</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<div id="cvt-pop"></div>
+
+<script>
+/* ============================================================
+   PROTOTYPE of MediaWiki:Common.js
+   Rates are INVENTED placeholders. Units: 1 lahn = `per` units.
+   ============================================================ */
+var RATES = {
+  USD: { name:'US dollar',        per: 0.155, sym:'$', real:true },
+  EIS: { name:'Emaran Islatan',   per: 0.19 },
+  RKA: { name:'Raledrian Kasare', per: 0.36 },
+  AAR: { name:'Arten Araik',      per: 4.20 },
+  POR: { name:'Pelugrotoan Oran', per: 7.75 },
+  EZD: { name:'Estijan Zundetra', per: 61.0 }
+};
+var SCALES = { million:1e6, billion:1e9, trillion:1e12 };
+
+/* Match a number directly after the lahn symbol, with optional scale word. */
+var NUM_RE = /^\s*([0-9][0-9,]*(?:\.[0-9]+)?)(\s*(?:million|billion|trillion))?/i;
+
+function fmt(n){
+  if (n >= 1e12) return (n/1e12).toFixed(3).replace(/\.?0+$/,'') + ' trillion';
+  if (n >= 1e9)  return (n/1e9 ).toFixed(3).replace(/\.?0+$/,'') + ' billion';
+  if (n >= 1e6)  return (n/1e6 ).toFixed(3).replace(/\.?0+$/,'') + ' million';
+  return Math.round(n).toLocaleString('en-GB');
+}
+
+/* Walk the DOM, find lahn markers, wrap the number that follows them. */
+function enhance(root){
+  // On the live wiki the marker is: img[alt="Lahn"]. Here it's .lahn.
+  var markers = root.querySelectorAll('.lahn');
+  Array.prototype.forEach.call(markers, function(mark){
+    var next = mark.nextSibling;
+    if (!next || next.nodeType !== 3) return;          // must be a text node
+    var m = NUM_RE.exec(next.nodeValue);
+    if (!m) return;
+
+    var digits = parseFloat(m[1].replace(/,/g,''));
+    var scale  = m[2] ? SCALES[m[2].trim().toLowerCase()] : 1;
+    var lahn   = digits * scale;
+    if (!isFinite(lahn)) return;
+
+    // split the text node so only the number gets wrapped
+    var rest = next.splitText(m[0].length);
+    var span = document.createElement('span');
+    span.className = 'cvt';
+    span.setAttribute('data-lahn', lahn);
+    span.appendChild(document.createTextNode(m[0]));
+    next.parentNode.replaceChild(span, next);
+    span.parentNode.insertBefore(rest, span.nextSibling);
+  });
+}
+
+/* ---- popup ---- */
+var pop = document.getElementById('cvt-pop');
+
+function build(lahn){
+  var rows = '';
+  for (var code in RATES){
+    var r = RATES[code];
+    rows += '<tr' + (r.real ? ' class="real"' : '') + '>' +
+            '<td class="c">' + r.name + ' <span style="opacity:.6">(' + code + ')</span></td>' +
+            '<td class="v">' + (r.sym || '') + fmt(lahn * r.per) + '</td></tr>';
+  }
+  return '<div class="pop-src">&#9878; ' + fmt(lahn) + ' lahn</div>' +
+         '<table>' + rows + '</table>' +
+         '<div class="pop-foot">GTU reference rates, 1765</div>';
+}
+
+function place(e){
+  var pad = 12, w = pop.offsetWidth, h = pop.offsetHeight;
+  var x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > window.innerWidth  - 8) x = e.clientX - w - pad;
+  if (y + h > window.innerHeight - 8) y = e.clientY - h - pad;
+  pop.style.left = Math.max(8,x) + 'px';
+  pop.style.top  = Math.max(8,y) + 'px';
+}
+
+document.addEventListener('mouseover', function(e){
+  var t = e.target.closest && e.target.closest('.cvt');
+  if (!t) return;
+  pop.innerHTML = build(parseFloat(t.getAttribute('data-lahn')));
+  pop.style.display = 'block';
+  place(e);
+});
+document.addEventListener('mousemove', function(e){
+  if (pop.style.display === 'block' && e.target.closest && e.target.closest('.cvt')) place(e);
+});
+document.addEventListener('mouseout', function(e){
+  if (e.target.closest && e.target.closest('.cvt')) pop.style.display = 'none';
+});
+
+enhance(document);
+</script>
