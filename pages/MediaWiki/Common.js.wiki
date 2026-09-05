@@ -31,22 +31,65 @@
 	// Skip these rather than show a figure a thousand times too large.
 	var TYPO_RE = /^[0-9]{1,3},[0-9]{3}$/;
 
-	var CSS = '.lahn-cvt{border-bottom:1px dotted #7d858d;cursor:help}' +
-		'#lahn-cvt-pop{position:fixed;z-index:9999;display:none;min-width:210px;' +
-		'padding:9px 11px;font-size:13px;line-height:1.5;pointer-events:none;' +
-		'background:#0f1113;color:#e6e6e6;border:1px solid #c8a04a;border-radius:5px;' +
-		'box-shadow:0 8px 26px rgba(0,0,0,.6)}' +
-		'#lahn-cvt-pop table{width:100%;border-collapse:collapse}' +
-		'#lahn-cvt-pop td{padding:2px 0}' +
-		'.lahn-cvt-src{margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid #2b3035;' +
-		'color:#c8a04a;font-weight:bold;white-space:nowrap}' +
-		'.lahn-cvt-c{padding-right:14px;color:#9aa3ab;white-space:nowrap}' +
-		'.lahn-cvt-code{opacity:.6}' +
-		'.lahn-cvt-v{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}' +
-		'.lahn-cvt-real td{padding-bottom:5px;border-bottom:1px solid #2b3035}' +
-		'.lahn-cvt-real+tr td{padding-top:5px}' +
-		'.lahn-cvt-foot{margin-top:6px;padding-top:5px;border-top:1px solid #2b3035;' +
-		'color:#6d757c;font-size:11px;font-style:italic}';
+	// Built from the same design tokens as the rest of the wiki
+	// ([[MediaWiki:Timeless.css]], section 1) rather than restating the
+	// palette, so it follows the site if the palette ever moves again. Every
+	// var() carries the day value as a fallback, because Common.js runs under
+	// every skin while the tokens are only defined for Timeless.
+	//
+	// The shape is the infobox's: a title band, the rows, a footer band, each
+	// bleeding to the card's edge. So the card itself carries no padding --
+	// the three parts carry their own -- and clips to its own radius, which is
+	// what squares the bands off against the border.
+	//
+	// NIGHT MODE is now free, and this is the part worth keeping. Night here
+	// is the DarkMode extension putting filter: invert(1) hue-rotate(180deg)
+	// on <html>, so a colour written in this file is eaten by the filter
+	// rather than displayed: the original background-color:#101418 inverted
+	// straight back to white, which is why the popup used to appear as a white
+	// card on a dark page. The tokens are already authored pre-inverse, so
+	// reading them through var() lands on the right night colour with no
+	// second set of rules and no arithmetic -- the whole
+	// html.skin-theme-clientpref-night block this replaced is simply gone.
+	//
+	// --a-raised exists for exactly this: a panel floating above another panel
+	// has to sit a step lighter than --a-surface at night or it reads as a
+	// hole. In day the border and shadow do that on their own. The shadow
+	// inverts to a soft light halo, which still reads as elevation, so it is
+	// left as it is.
+	var CSS = [
+		'.lahn-cvt{border-bottom:1px dotted;cursor:help}',
+
+		'#lahn-cvt-pop{position:fixed;z-index:500;display:none;overflow:hidden;',
+		'max-width:26em;padding:0;pointer-events:none;',
+		'font-size:0.88rem;line-height:1.5;',
+		'background:var(--a-raised,#fff);color:var(--a-text,#202122);',
+		'border:1px solid var(--a-border-firm,#c8ccd1);',
+		'border-radius:var(--a-radius,2px);',
+		'box-shadow:0 2px 8px rgba(0,0,0,0.12)}',
+
+		'.lahn-cvt-src{margin:0;padding:0.45em 0.9em;',
+		'background:var(--a-thead,#eaecf0);',
+		'border-bottom:1px solid var(--a-border-firm,#c8ccd1);',
+		'font-weight:bold;text-align:center;white-space:nowrap}',
+
+		'#lahn-cvt-pop table{width:100%;margin:0.4em 0;',
+		'border-collapse:collapse;background:transparent}',
+		'#lahn-cvt-pop td{padding:0.16em 0.9em;border:0}',
+		'.lahn-cvt-c{padding-right:1.5em;white-space:nowrap}',
+		'.lahn-cvt-code{color:var(--a-text-dim,#54595d)}',
+		'.lahn-cvt-v{text-align:right;font-variant-numeric:tabular-nums;',
+		'white-space:nowrap}',
+
+		'.lahn-cvt-real td{padding-bottom:0.4em;',
+		'border-bottom:1px solid var(--a-border,#dfe3e8)}',
+		'.lahn-cvt-real+tr td{padding-top:0.4em}',
+
+		'.lahn-cvt-foot{margin:0;padding:0.4em 0.9em;',
+		'background:var(--a-sunk,#f8f9fa);',
+		'border-top:1px solid var(--a-border,#dfe3e8);',
+		'color:var(--a-text-dim,#54595d);font-size:92%;font-style:italic}'
+	].join( '' );
 
 	function parseAmount( text ) {
 		var m = NUM_RE.exec( text );
@@ -193,6 +236,142 @@
 		// Then keep listening, for live preview and lazily loaded content.
 		// Re-running is harmless: an already-wrapped amount is an element node,
 		// not a text node, so it is skipped.
+		mw.hook( 'wikipage.content' ).add( function ( $content ) {
+			enhance( $content[ 0 ] );
+		} );
+	} );
+}() );
+/**
+ * Switchable images ({{Switcher}}).
+ *
+ * Module:Switcher only emits markup: a .switcher-container holding one div per
+ * image, each ending in a hidden span.switcher-label caption. All the actual
+ * behaviour lives in MediaWiki:Gadget-switcher.js on Wikipedia, which this wiki
+ * does not have, so the images just stacked on top of each other. This is that
+ * gadget, inlined here so it works for logged-out readers with no preference
+ * to tick.
+ *
+ * The initially shown option is the one whose label span carries
+ * data-switcher-default (Module:Switcher sets it from |default=N). An option
+ * whose label is empty comes from an unpaired parameter and is dropped, since
+ * there is no caption to put on a radio button for it.
+ */
+( function () {
+	'use strict';
+
+	var CSS = [
+		'.switcher-controls {',
+			'margin: 0.4em 0 0;',
+			'font-size: 88%;',
+			'line-height: 1.4;',
+			'text-align: center;',
+		'}',
+		'.switcher-controls label {',
+			'display: inline-block;',
+			'margin: 0 0.6em 0.2em 0;',
+			'cursor: pointer;',
+			'white-space: normal;',
+		'}',
+		'.switcher-controls label:last-child { margin-right: 0; }',
+		'.switcher-controls input {',
+			'margin: 0 0.3em 0 0;',
+			'vertical-align: middle;',
+		'}'
+	].join( '' );
+
+	var seq = 0;
+
+	function trim( s ) {
+		return s.replace( /^\s+|\s+$/g, '' );
+	}
+
+	function build( container ) {
+		if ( container.className.indexOf( 'switcher-ready' ) !== -1 ) {
+			return;
+		}
+
+		var panes = [];
+		var kids = Array.prototype.slice.call( container.children );
+
+		kids.forEach( function ( node ) {
+			var label = node.querySelector ?
+				node.querySelector( '.switcher-label' ) : null;
+			if ( !label ) {
+				return;
+			}
+			label.style.display = 'none';
+			if ( !trim( label.textContent || label.innerText || '' ) ) {
+				// Unpaired parameter: content with no caption, so nothing to
+				// label a button with. Not selectable, so do not show it.
+				node.style.display = 'none';
+				return;
+			}
+			panes.push( {
+				node: node,
+				html: label.innerHTML,
+				isDefault: label.hasAttribute( 'data-switcher-default' )
+			} );
+		} );
+
+		if ( panes.length < 2 ) {
+			return;
+		}
+
+		container.className += ' switcher-ready';
+
+		function show( idx ) {
+			panes.forEach( function ( pane, j ) {
+				pane.node.style.display = ( j === idx ) ? '' : 'none';
+			} );
+			panes[ idx ].radio.checked = true;
+		}
+
+		var name = 'switcher-' + ( ++seq );
+		var controls = document.createElement( 'div' );
+		controls.className = 'switcher-controls';
+		var chosen = 0;
+
+		panes.forEach( function ( pane, idx ) {
+			if ( pane.isDefault ) {
+				chosen = idx;
+			}
+
+			var label = document.createElement( 'label' );
+			var radio = document.createElement( 'input' );
+			radio.type = 'radio';
+			radio.name = name;
+			radio.addEventListener( 'change', function () {
+				show( idx );
+			} );
+
+			var text = document.createElement( 'span' );
+			text.innerHTML = pane.html;
+
+			label.appendChild( radio );
+			label.appendChild( text );
+			controls.appendChild( label );
+			pane.radio = radio;
+		} );
+
+		container.appendChild( controls );
+		show( chosen );
+	}
+
+	function enhance( root ) {
+		if ( !root || !root.querySelectorAll ) {
+			return;
+		}
+		Array.prototype.forEach.call(
+			root.querySelectorAll( '.switcher-container' ), build
+		);
+	}
+
+	mw.loader.using( 'mediawiki.util' ).then( function () {
+		mw.util.addCSS( CSS );
+		// wikipage.content has usually already fired by the time this runs and
+		// does not replay for late subscribers, so sweep the rendered page
+		// first, then keep listening for previews and lazily loaded content.
+		enhance( document.getElementById( 'mw-content-text' ) || document.body );
 		mw.hook( 'wikipage.content' ).add( function ( $content ) {
 			enhance( $content[ 0 ] );
 		} );
