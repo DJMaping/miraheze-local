@@ -1,0 +1,364 @@
+This is a '''list of countries by exports per capita''': the value of a country's exports of goods and services in 1765 divided by its population. Export figures are from the [[Global Trade Union]]<ref name="gtu">{{Cite web |url=https://www.globaltradeunion.org/database/trade-outlook/1765/countries |title=International trade statistics by country, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765}} Retrieved 1765.</ref> and population estimates from the [[World Data Union]].<ref name="wdu">{{Cite web |url=https://www.worlddataunion.org/population/1765 |title=World population estimates, 1765 |publisher=[[World Data Union]] |date=1765}} Retrieved 1765.</ref> Values are in [[lahn]] at current prices. Merchandise exports include re-exports, which is why several small trading states with large ports rank near the top.
+
+== Exports per capita, 1765 ==
+{| class="wikitable sortable" style="text-align:right"
+|+ Exports per capita by country, 1765
+! Rank !! Country !! Population (thousands) !! Merchandise exports ({{lahn}} million) !! Merchandise exports per capita ({{lahn}}) !! Service exports ({{lahn}} million) !! Service exports per capita ({{lahn}}) !! Total exports ({{lahn}} million) !! Total exports per capita ({{lahn}})
+|- style="font-style:italic; background:#f2f2f2"
+|  || ''World'' || 6,750,558 || 112,391,078 || 16,649 || 30,704,955 || 4,549 || 143,096,033 || 21,198
+|-
+| 1 || style="text-align:left" | {{flag|Pha Hii}} || 2,647 || 1,371,579 || 518,195 || 252,179 || 95,276 || 1,623,759 || 613,471
+|-
+| 2 || style="text-align:left" | {{flag|New Kizura}} || 133 || 19,131 || 143,776 || 20,726 || 155,757 || 39,857 || 299,532
+|-
+| 3 || style="text-align:left" | {{flag|Guise}} || 833 || 195,206 || 234,203 || 42,954 || 51,535 || 238,160 || 285,738
+|-
+| 4 || style="text-align:left" | {{flag|Ilicuhe}} || 3,255 || 558,662 || 171,633 || 90,975 || 27,949 || 649,637 || 199,582
+|-
+| 5 || style="text-align:left" | {{flag|Prystr Hii}} || 1,641 || 199,333 || 121,485 || 121,364 || 73,966 || 320,697 || 195,451
+|-
+| 6 || style="text-align:left" | {{flag|Aplasia}} || 377 || 47,815 || 126,962 || 12,591 || 33,432 || 60,406 || 160,395
+|-
+| 7 || style="text-align:left" | {{flag|Stinebar}} || 345 || 11,522 || 33,393 || 43,179 || 125,143 || 54,701 || 158,536
+|-
+| 8 || style="text-align:left" | {{flag|Walporein}} || 730 || 78,728 || 107,817 || 33,347 || 45,668 || 112,075 || 153,484
+|-
+| 9 || style="text-align:left" | {{flag|Merela Sta}} || 23,362 || 3,276,547 || 140,253 || 136,954 || 5,862 || 3,413,501 || 146,116
+|-
+| 10 || style="text-align:left" | {{flag|Canldives}} || 759 || 32,877 || 43,313 || 76,849 || 101,245 || 109,726 || 144,558
+|-
+| 11 || style="text-align:left" | {{flag|Tvecoca}} || 5 || 318 || 61,660 || 345 || 66,799 || 663 || 128,459
+|-
+| 12 || style="text-align:left" | {{flag|Inrea}} || 2,052 || 202,120 || 98,500 || 19,650 || 9,576 || 221,770 || 108,076
+|-
+| 13 || style="text-align:left" | {{flag|Yutnitu}} || 448 || 19,488 || 43,513 || 28,814 || 64,334 || 48,302 || 107,847
+|-
+| 14 || style="text-align:left" | {{flag|Koruch}} || 821 || 68,032 || 82,872 || 15,754 || 19,191 || 83,787 || 102,062
+|-
+| 15 || style="text-align:left" | {{flag|Cloja}} || 48 || 1,982 || 41,344 || 2,798 || 58,372 || 4,780 || 99,716
+|-
+| 16 || style="text-align:left" | {{flag|Mesjan Hyaa}} || 2,049 || 156,203 || 76,239 || 37,046 || 18,082 || 193,249 || 94,321
+|-
+| 17 || style="text-align:left" | {{flag|Easuhura}} || 29,914 || 1,990,209 || 66,532 || 783,441 || 26,190 || 2,773,650 || 92,722
+|-
+| 18 || style="text-align:left" | {{flag|Ahokini}} || 20,713 || 1,214,079 || 58,615 || 495,386 || 23,917 || 1,709,465 || 82,531
+|-
+| 19 || style="text-align:left" | {{flag|Chaenia}} || 13,815 || 814,395 || 58,950 || 236,557 || 17,123 || 1,050,952 || 76,073
+|-
+| 20 || style="text-align:left" | {{flag|Peka}} || 1,300 || 72,667 || 55,891 || 24,270 || 18,667 || 96,937 || 74,557
+|-
+| 21 || style="text-align:left" | {{flag|Tomscilus}} || 1,159 || 57,016 || 49,205 || 28,395 || 24,504 || 85,411 || 73,709
+|-
+| 22 || style="text-align:left" | {{flag|Gaeiya}} || 9,534 || 546,750 || 57,348 || 110,352 || 11,575 || 657,102 || 68,923
+|-
+| 23 || style="text-align:left" | {{flag|Etirha}} || 74,667 || 3,324,527 || 44,524 || 1,784,051 || 23,893 || 5,108,578 || 68,418
+|-
+| 24 || style="text-align:left" | {{flag|Niretui and Anulan}} || 190 || 9,041 || 47,667 || 3,857 || 20,337 || 12,899 || 68,003
+|-
+| 25 || style="text-align:left" | {{flag|Disal Nila}} || 7,439 || 375,152 || 50,433 || 124,221 || 16,700 || 499,373 || 67,133
+|-
+| 26 || style="text-align:left" | {{flag|Emara}} || 90,861 || 5,007,327 || 55,110 || 936,504 || 10,307 || 5,943,831 || 65,417
+|-
+| 27 || style="text-align:left" | {{flag|Sanagara}} || 38,792 || 2,178,639 || 56,162 || 324,496 || 8,365 || 2,503,135 || 64,527
+|-
+| 28 || style="text-align:left" | {{flag|Crila Republic}} || 946 || 23,655 || 25,006 || 35,036 || 37,037 || 58,692 || 62,044
+|-
+| 29 || style="text-align:left" | {{flag|Palina}} || 3,123 || 165,143 || 52,873 || 24,518 || 7,850 || 189,661 || 60,723
+|-
+| 30 || style="text-align:left" | {{flag|Iareva}} || 8,002 || 375,360 || 46,907 || 94,372 || 11,793 || 469,732 || 58,701
+|-
+| 31 || style="text-align:left" | {{flag|Laselteh}} || 6,525 || 251,724 || 38,581 || 127,760 || 19,581 || 379,484 || 58,163
+|-
+| 32 || style="text-align:left" | {{flag|North Ayre}} || 10,968 || 565,001 || 51,516 || 55,762 || 5,084 || 620,763 || 56,600
+|-
+| 33 || style="text-align:left" | {{flag|Yaxuto}} || 18,401 || 685,024 || 37,227 || 309,306 || 16,809 || 994,330 || 54,036
+|-
+| 34 || style="text-align:left" | {{flag|Raledria}} || 301,115 || 9,627,693 || 31,973 || 5,238,130 || 17,396 || 14,865,822 || 49,369
+|-
+| 35 || style="text-align:left" | {{flag|Etretes}} || 21,375 || 752,257 || 35,194 || 294,093 || 13,759 || 1,046,350 || 48,953
+|-
+| 36 || style="text-align:left" | {{flag|Verusa}} || 69,481 || 2,681,272 || 38,590 || 712,544 || 10,255 || 3,393,816 || 48,845
+|-
+| 37 || style="text-align:left" | {{flag|Trian}} || 27,844 || 1,078,847 || 38,746 || 230,555 || 8,280 || 1,309,402 || 47,026
+|-
+| 38 || style="text-align:left" | {{flag|Oyreain}} || 31,492 || 1,291,222 || 41,002 || 182,073 || 5,782 || 1,473,295 || 46,784
+|-
+| 39 || style="text-align:left" | {{flag|Genaire}} || 15,795 || 557,132 || 35,273 || 175,881 || 11,135 || 733,014 || 46,408
+|-
+| 40 || style="text-align:left" | {{flag|Rijan bu}} || 3,626 || 122,153 || 33,685 || 45,228 || 12,472 || 167,381 || 46,157
+|-
+| 41 || style="text-align:left" | {{flag|Eldjo}} || 5,393 || 160,125 || 29,689 || 64,188 || 11,901 || 224,314 || 41,591
+|-
+| 42 || style="text-align:left" | {{flag|Pelugrotoa}} || 347,521 || 12,885,227 || 37,078 || 1,378,973 || 3,968 || 14,264,200 || 41,046
+|-
+| 43 || style="text-align:left" | {{flag|Enina}} || 52 || 979 || 18,932 || 1,060 || 20,509 || 2,039 || 39,441
+|-
+| 44 || style="text-align:left" | {{flag|Baluyde}} || 1,638 || 25,854 || 15,784 || 38,453 || 23,475 || 64,307 || 39,259
+|-
+| 45 || style="text-align:left" | {{flag|Arbiya}} || 6,586 || 206,048 || 31,286 || 47,743 || 7,249 || 253,790 || 38,535
+|-
+| 46 || style="text-align:left" | {{flag|Trevilla}} || 10 || 187 || 18,028 || 202 || 19,530 || 389 || 37,558
+|-
+| 47 || style="text-align:left" | {{flag|Rethern}} || 83 || 2,352 || 28,400 || 732 || 8,840 || 3,083 || 37,241
+|-
+| 48 || style="text-align:left" | {{flag|Isuibul}} || 37 || 669 || 17,849 || 725 || 19,337 || 1,394 || 37,186
+|-
+| 49 || style="text-align:left" | {{flag|Siana}} || 39,335 || 962,329 || 24,465 || 481,678 || 12,246 || 1,444,008 || 36,710
+|-
+| 50 || style="text-align:left" | {{flag|Fincen}} || 4,620 || 115,592 || 25,018 || 51,185 || 11,078 || 166,777 || 36,096
+|-
+| 51 || style="text-align:left" | {{flag|Curata}} || 4,524 || 113,808 || 25,159 || 45,859 || 10,138 || 159,668 || 35,296
+|-
+| 52 || style="text-align:left" | {{flag|Taval}} || 44,530 || 1,101,354 || 24,733 || 450,227 || 10,111 || 1,551,581 || 34,844
+|-
+| 53 || style="text-align:left" | {{flag|Haiza}} || 17,079 || 537,177 || 31,452 || 48,238 || 2,824 || 585,415 || 34,277
+|-
+| 54 || style="text-align:left" | {{flag|Grazail}} || 3,348 || 80,355 || 24,004 || 30,676 || 9,164 || 111,031 || 33,168
+|-
+| 55 || style="text-align:left" | {{flag|Praesyu}} || 39,228 || 916,056 || 23,352 || 364,658 || 9,296 || 1,280,714 || 32,648
+|-
+| 56 || style="text-align:left" | {{flag|lasri}} || 2,171 || 54,713 || 25,207 || 15,946 || 7,347 || 70,659 || 32,554
+|-
+| 57 || style="text-align:left" | {{flag|Rinew}} || 234 || 3,649 || 15,595 || 3,953 || 16,895 || 7,602 || 32,490
+|-
+| 58 || style="text-align:left" | {{flag|Sunsokua}} || 79,559 || 1,965,891 || 24,710 || 502,965 || 6,322 || 2,468,856 || 31,032
+|-
+| 59 || style="text-align:left" | {{flag|Lycroa}} || 81,314 || 1,628,678 || 20,030 || 835,683 || 10,277 || 2,464,361 || 30,307
+|-
+| 60 || style="text-align:left" | {{flag|Anymna}} || 21,769 || 553,107 || 25,408 || 100,393 || 4,612 || 653,500 || 30,020
+|-
+| 61 || style="text-align:left" | {{flag|Taing}} || 2,163 || 44,875 || 20,750 || 19,704 || 9,111 || 64,579 || 29,861
+|-
+| 62 || style="text-align:left" | {{flag|Desaki}} || 29,183 || 650,640 || 22,295 || 174,307 || 5,973 || 824,947 || 28,268
+|-
+| 63 || style="text-align:left" | {{flag|Andsaudare}} || 3,146 || 81,566 || 25,923 || 4,485 || 1,426 || 86,051 || 27,348
+|-
+| 64 || style="text-align:left" | {{flag|Ashain}} || 62,266 || 1,194,290 || 19,181 || 461,102 || 7,405 || 1,655,393 || 26,586
+|-
+| 65 || style="text-align:left" | {{flag|Aetintio}} || 1,405 || 27,199 || 19,354 || 10,040 || 7,144 || 37,239 || 26,497
+|-
+| 66 || style="text-align:left" | {{flag|Verste}} || 53,303 || 1,207,778 || 22,659 || 174,016 || 3,265 || 1,381,795 || 25,923
+|-
+| 67 || style="text-align:left" | {{flag|Seytinemas}} || 71,957 || 1,628,950 || 22,638 || 206,311 || 2,867 || 1,835,262 || 25,505
+|-
+| 68 || style="text-align:left" | {{flag|Sadain}} || 18,289 || 389,347 || 21,289 || 74,316 || 4,063 || 463,663 || 25,352
+|-
+| 69 || style="text-align:left" | {{flag|New Misos}} || 53,637 || 909,064 || 16,948 || 419,466 || 7,820 || 1,328,530 || 24,769
+|-
+| 70 || style="text-align:left" | {{flag|Darewa}} || 19,678 || 353,286 || 17,953 || 127,006 || 6,454 || 480,292 || 24,407
+|-
+| 71 || style="text-align:left" | {{flag|Cruthi Anoso}} || 4 || 46 || 11,603 || 50 || 12,570 || 96 || 24,173
+|-
+| 72 || style="text-align:left" | {{flag|Areoix Lie}} || 579,087 || 10,526,848 || 18,178 || 3,453,305 || 5,963 || 13,980,153 || 24,142
+|-
+| 73 || style="text-align:left" | {{flag|Acrana}} || 14,469 || 265,105 || 18,322 || 79,969 || 5,527 || 345,074 || 23,849
+|-
+| 74 || style="text-align:left" | {{flag|Fermori}} || 12,299 || 218,022 || 17,726 || 70,116 || 5,701 || 288,137 || 23,427
+|-
+| 75 || style="text-align:left" | {{flag|Vayvele}} || 74,437 || 1,455,161 || 19,549 || 218,652 || 2,937 || 1,673,813 || 22,486
+|-
+| 76 || style="text-align:left" | {{flag|Dahe}} || 890,601 || 14,648,961 || 16,448 || 2,841,761 || 3,191 || 17,490,723 || 19,639
+|-
+| 77 || style="text-align:left" | {{flag|Metndria}} || 636 || 2,548 || 4,008 || 9,639 || 15,167 || 12,187 || 19,176
+|-
+| 78 || style="text-align:left" | {{flag|Niul Spijan}} || 220 || 1,927 || 8,752 || 2,088 || 9,482 || 4,016 || 18,234
+|-
+| 79 || style="text-align:left" | {{flag|Reerica}} || 8,871 || 120,949 || 13,634 || 38,065 || 4,291 || 159,014 || 17,925
+|-
+| 80 || style="text-align:left" | {{flag|Hiwush}} || 239 || 1,452 || 6,074 || 2,804 || 11,727 || 4,256 || 17,801
+|-
+| 81 || style="text-align:left" | {{flag|Isari}} || 12,783 || 162,331 || 12,699 || 56,938 || 4,454 || 219,270 || 17,153
+|-
+| 82 || style="text-align:left" | {{flag|Finae}} || 31,745 || 383,444 || 12,079 || 158,089 || 4,980 || 541,533 || 17,059
+|-
+| 83 || style="text-align:left" | {{flag|Slyiaduun}} || 2,167 || 31,653 || 14,609 || 5,214 || 2,407 || 36,867 || 17,016
+|-
+| 84 || style="text-align:left" | {{flag|Estijan}} || 260,845 || 3,398,228 || 13,028 || 1,027,966 || 3,941 || 4,426,194 || 16,969
+|-
+| 85 || style="text-align:left" | {{flag|Prstreula}} || 6,836 || 85,088 || 12,447 || 28,960 || 4,236 || 114,048 || 16,684
+|-
+| 86 || style="text-align:left" | {{flag|Ukhdari}} || 85,679 || 1,004,742 || 11,727 || 396,041 || 4,622 || 1,400,782 || 16,349
+|-
+| 87 || style="text-align:left" | {{flag|Suenan}} || 54,706 || 702,582 || 12,843 || 152,267 || 2,783 || 854,849 || 15,626
+|-
+| 88 || style="text-align:left" | {{flag|Kaastini}} || 4,348 || 51,826 || 11,919 || 15,254 || 3,508 || 67,081 || 15,427
+|-
+| 89 || style="text-align:left" | {{flag|Ihner}} || 6,257 || 86,800 || 13,872 || 9,505 || 1,519 || 96,305 || 15,391
+|-
+| 90 || style="text-align:left" | {{flag|United Delet}} || 93,832 || 1,020,047 || 10,871 || 405,141 || 4,318 || 1,425,189 || 15,189
+|-
+| 91 || style="text-align:left" | {{flag|Uularin}} || 5,002 || 55,514 || 11,098 || 19,170 || 3,832 || 74,684 || 14,931
+|-
+| 92 || style="text-align:left" | {{flag|Kusierna}} || 9,164 || 102,894 || 11,228 || 28,945 || 3,159 || 131,840 || 14,387
+|-
+| 93 || style="text-align:left" | {{flag|Elja and Munusia}} || 495 || 6,358 || 12,837 || 532 || 1,074 || 6,890 || 13,911
+|-
+| 94 || style="text-align:left" | {{flag|Mendereide}} || 11,019 || 117,123 || 10,629 || 35,968 || 3,264 || 153,090 || 13,893
+|-
+| 95 || style="text-align:left" | {{flag|Volver}} || 17,219 || 187,149 || 10,869 || 48,784 || 2,833 || 235,933 || 13,702
+|-
+| 96 || style="text-align:left" | {{flag|Ohtina}} || 33,245 || 322,032 || 9,687 || 126,691 || 3,811 || 448,723 || 13,497
+|-
+| 97 || style="text-align:left" | {{flag|Selaja}} || 31,644 || 335,897 || 10,615 || 88,748 || 2,805 || 424,645 || 13,419
+|-
+| 98 || style="text-align:left" | {{flag|Rkmepuia}} || 324 || 1,188 || 3,666 || 3,046 || 9,400 || 4,234 || 13,066
+|-
+| 99 || style="text-align:left" | {{flag|Acetoa}} || 11,203 || 103,755 || 9,261 || 37,863 || 3,380 || 141,618 || 12,641
+|-
+| 100 || style="text-align:left" | {{flag|Pelan}} || 13,706 || 128,183 || 9,353 || 40,958 || 2,988 || 169,141 || 12,341
+|-
+| 101 || style="text-align:left" | {{flag|Fire Coast}} || 7,181 || 78,055 || 10,869 || 9,278 || 1,292 || 87,333 || 12,161
+|-
+| 102 || style="text-align:left" | {{flag|Iainoa}} || 15,105 || 153,585 || 10,168 || 17,418 || 1,153 || 171,003 || 11,321
+|-
+| 103 || style="text-align:left" | {{flag|Umarcia}} || 12,307 || 101,746 || 8,267 || 34,286 || 2,786 || 136,031 || 11,053
+|-
+| 104 || style="text-align:left" | {{flag|Letan}} || 76 || 382 || 5,025 || 414 || 5,444 || 796 || 10,469
+|-
+| 105 || style="text-align:left" | {{flag|Myla}} || 42,672 || 325,112 || 7,619 || 119,918 || 2,810 || 445,030 || 10,429
+|-
+| 106 || style="text-align:left" | {{flag|Maalle}} || 22,501 || 207,653 || 9,228 || 19,067 || 847 || 226,720 || 10,076
+|-
+| 107 || style="text-align:left" | {{flag|Lydroa}} || 18,996 || 135,918 || 7,155 || 44,685 || 2,352 || 180,603 || 9,508
+|-
+| 108 || style="text-align:left" | {{flag|Ealdorii}} || 137,993 || 1,114,147 || 8,074 || 125,441 || 909 || 1,239,587 || 8,983
+|-
+| 109 || style="text-align:left" | {{flag|Nia}} || 16,303 || 132,586 || 8,133 || 13,792 || 846 || 146,379 || 8,979
+|-
+| 110 || style="text-align:left" | {{flag|Heiso}} || 20,606 || 139,637 || 6,777 || 42,104 || 2,043 || 181,741 || 8,820
+|-
+| 111 || style="text-align:left" | {{flag|Danocia}} || 2,021 || 15,846 || 7,841 || 1,925 || 952 || 17,770 || 8,793
+|-
+| 112 || style="text-align:left" | {{flag|Feio Lie}} || 7,849 || 51,886 || 6,610 || 17,064 || 2,174 || 68,951 || 8,784
+|-
+| 113 || style="text-align:left" | {{flag|Onphello}} || 10,233 || 76,042 || 7,431 || 13,334 || 1,303 || 89,376 || 8,734
+|-
+| 114 || style="text-align:left" | {{flag|Saa}} || 2,549 || 19,364 || 7,595 || 2,130 || 836 || 21,494 || 8,431
+|-
+| 115 || style="text-align:left" | {{flag|Veelmit}} || 829 || 5,875 || 7,090 || 563 || 679 || 6,437 || 7,769
+|-
+| 116 || style="text-align:left" | {{flag|Pruim Fijan}} || 3,308 || 23,188 || 7,010 || 2,431 || 735 || 25,618 || 7,745
+|-
+| 117 || style="text-align:left" | {{flag|Otiiric}} || 21,612 || 134,153 || 6,207 || 29,127 || 1,348 || 163,280 || 7,555
+|-
+| 118 || style="text-align:left" | {{flag|Sivoso}} || 21,995 || 126,222 || 5,739 || 31,339 || 1,425 || 157,560 || 7,163
+|-
+| 119 || style="text-align:left" | {{flag|Zenashan}} || 9,819 || 56,524 || 5,756 || 13,257 || 1,350 || 69,780 || 7,106
+|-
+| 120 || style="text-align:left" | {{flag|Amcha}} || 2,237 || 14,443 || 6,457 || 1,397 || 625 || 15,839 || 7,082
+|-
+| 121 || style="text-align:left" | {{flag|Tonder}} || 144 || 898 || 6,239 || 90 || 624 || 988 || 6,863
+|-
+| 122 || style="text-align:left" | {{flag|Ikzen}} || 3,103 || 19,555 || 6,301 || 1,733 || 558 || 21,288 || 6,860
+|-
+| 123 || style="text-align:left" | {{flag|Nheyes Si}} || 12,225 || 65,391 || 5,349 || 17,438 || 1,426 || 82,829 || 6,775
+|-
+| 124 || style="text-align:left" | {{flag|Hyelen}} || 1,724 || 9,451 || 5,481 || 1,971 || 1,143 || 11,422 || 6,624
+|-
+| 125 || style="text-align:left" | {{flag|Ruylku}} || 11,838 || 66,618 || 5,627 || 11,633 || 983 || 78,252 || 6,610
+|-
+| 126 || style="text-align:left" | {{flag|Jshain}} || 12,585 || 55,223 || 4,388 || 22,000 || 1,748 || 77,223 || 6,136
+|-
+| 127 || style="text-align:left" | {{flag|Eparia}} || 4,071 || 19,044 || 4,679 || 5,535 || 1,360 || 24,579 || 6,038
+|-
+| 128 || style="text-align:left" | {{flag|Urbiqu}} || 1,914 || 10,317 || 5,389 || 1,062 || 555 || 11,378 || 5,944
+|-
+| 129 || style="text-align:left" | {{flag|Astye}} || 44,277 || 207,820 || 4,694 || 50,014 || 1,130 || 257,835 || 5,823
+|-
+| 130 || style="text-align:left" | {{flag|Hkuqo}} || 22,834 || 99,936 || 4,377 || 30,458 || 1,334 || 130,393 || 5,711
+|-
+| 131 || style="text-align:left" | {{flag|Quidic}} || 143,973 || 620,048 || 4,307 || 192,890 || 1,340 || 812,938 || 5,646
+|-
+| 132 || style="text-align:left" | {{flag|Taoisia}} || 11,248 || 48,619 || 4,323 || 8,431 || 750 || 57,050 || 5,072
+|-
+| 133 || style="text-align:left" | {{flag|Inania}} || 236,476 || 1,030,030 || 4,356 || 123,293 || 521 || 1,153,323 || 4,877
+|-
+| 134 || style="text-align:left" | {{flag|Terressin}} || 74,091 || 248,653 || 3,356 || 77,008 || 1,039 || 325,661 || 4,395
+|-
+| 135 || style="text-align:left" | {{flag|Oscairia}} || 22,387 || 84,335 || 3,767 || 10,023 || 448 || 94,357 || 4,215
+|-
+| 136 || style="text-align:left" | {{flag|Dual Cenryia}} || 95,001 || 310,140 || 3,265 || 76,750 || 808 || 386,890 || 4,072
+|-
+| 137 || style="text-align:left" | {{flag|Erkizil}} || 90,946 || 337,254 || 3,708 || 23,124 || 254 || 360,378 || 3,963
+|-
+| 138 || style="text-align:left" | {{flag|Vesozata}} || 121,753 || 362,461 || 2,977 || 94,837 || 779 || 457,298 || 3,756
+|-
+| 139 || style="text-align:left" | {{flag|Phuris}} || 27,120 || 82,418 || 3,039 || 19,120 || 705 || 101,538 || 3,744
+|-
+| 140 || style="text-align:left" | {{flag|Ztesh}} || 425,141 || 1,122,672 || 2,641 || 270,945 || 637 || 1,393,617 || 3,278
+|-
+| 141 || style="text-align:left" | {{flag|Pelines}} || 88,057 || 232,700 || 2,643 || 50,057 || 568 || 282,756 || 3,211
+|-
+| 142 || style="text-align:left" | {{flag|Isnti}} || 35,957 || 87,922 || 2,445 || 22,222 || 618 || 110,144 || 3,063
+|-
+| 143 || style="text-align:left" | {{flag|Ucrua}} || 30,764 || 77,719 || 2,526 || 16,203 || 527 || 93,922 || 3,053
+|-
+| 144 || style="text-align:left" | {{flag|Galca}} || 16,057 || 41,038 || 2,556 || 7,511 || 468 || 48,549 || 3,023
+|-
+| 145 || style="text-align:left" | {{flag|Exilium}} || 25,084 || 63,922 || 2,548 || 11,836 || 472 || 75,758 || 3,020
+|-
+| 146 || style="text-align:left" | {{flag|Ozinia}} || 7,899 || 18,504 || 2,343 || 3,500 || 443 || 22,004 || 2,786
+|-
+| 147 || style="text-align:left" | {{flag|Yihnurda}} || 8,714 || 20,531 || 2,356 || 3,282 || 377 || 23,814 || 2,733
+|-
+| 148 || style="text-align:left" | {{flag|Deschon}} || 30,643 || 61,337 || 2,002 || 21,794 || 711 || 83,131 || 2,713
+|-
+| 149 || style="text-align:left" | {{flag|Wundry}} || 140,081 || 310,165 || 2,214 || 59,799 || 427 || 369,963 || 2,641
+|-
+| 150 || style="text-align:left" | {{flag|Umendel}} || 7,437 || 14,943 || 2,009 || 3,117 || 419 || 18,061 || 2,428
+|-
+| 151 || style="text-align:left" | {{flag|United Mihili}} || 33,524 || 63,175 || 1,884 || 14,086 || 420 || 77,261 || 2,305
+|-
+| 152 || style="text-align:left" | {{flag|Eldavpir}} || 29,422 || 50,627 || 1,721 || 9,683 || 329 || 60,310 || 2,050
+|-
+| 153 || style="text-align:left" | {{flag|Byllu}} || 9,107 || 14,766 || 1,621 || 2,870 || 315 || 17,636 || 1,937
+|-
+| 154 || style="text-align:left" | {{flag|Viussi}} || 17,339 || 23,493 || 1,355 || 3,999 || 231 || 27,492 || 1,586
+|-
+| 155 || style="text-align:left" | {{flag|Iquir}} || 36,356 || 45,520 || 1,252 || 7,124 || 196 || 52,644 || 1,448
+|-
+| 156 || style="text-align:left" | {{flag|Rtesania}} || 9,975 || 10,744 || 1,077 || 2,017 || 202 || 12,761 || 1,279
+|-
+| 157 || style="text-align:left" | {{flag|Jathua}} || 13,153 || 13,754 || 1,046 || 2,411 || 183 || 16,165 || 1,229
+|-
+| 158 || style="text-align:left" | {{flag|Othya}} || 30,422 || 31,388 || 1,032 || 5,643 || 185 || 37,031 || 1,217
+|-
+| 159 || style="text-align:left" | {{flag|Shomjind}} || 2,899 || 1,210 || 418 || 1,822 || 629 || 3,032 || 1,046
+|-
+| 160 || style="text-align:left" | {{flag|Lieri}} || 36,478 || 29,359 || 805 || 7,463 || 205 || 36,822 || 1,009
+|-
+| 161 || style="text-align:left" | {{flag|Sattle}} || 9,389 || 7,384 || 786 || 1,506 || 160 || 8,890 || 947
+|-
+| 162 || style="text-align:left" | {{flag|Zhanshe}} || 7,355 || 6,007 || 817 || 583 || 79 || 6,590 || 896
+|-
+| 163 || style="text-align:left" | {{flag|Migoku}} || 6,232 || 4,788 || 768 || 334 || 54 || 5,122 || 822
+|-
+| 164 || style="text-align:left" | {{flag|Welenu Fana}} || 19,675 || 13,129 || 667 || 849 || 43 || 13,978 || 710
+|-
+| 165 || style="text-align:left" | {{flag|Shinam}} || 31,948 || 18,517 || 580 || 3,881 || 121 || 22,398 || 701
+|-
+| 166 || style="text-align:left" | {{flag|Jau}} || 22,994 || 9,511 || 414 || 3,893 || 169 || 13,404 || 583
+|-
+| 167 || style="text-align:left" | {{flag|Ocaun}} || 88,914 || 44,789 || 504 || 5,209 || 59 || 49,997 || 562
+|-
+| 168 || style="text-align:left" | {{flag|Far Lands}} || 1,442 || 678 || 470 || 83 || 57 || 761 || 528
+|-
+| 169 || style="text-align:left" | {{flag|Taniduna}} || 45,063 || 17,393 || 386 || 3,133 || 70 || 20,526 || 455
+|-
+| 170 || style="text-align:left" | {{flag|Candenat}} || 27,333 || 6,650 || 243 || 2,198 || 80 || 8,848 || 324
+|-
+| 171 || style="text-align:left" | {{flag|Yoprioq}} || 5,131 || 773 || 151 || 332 || 65 || 1,105 || 215
+|-
+| 172 || style="text-align:left" | {{flag|Western Migoku}} || 2,951 || 569 || 193 || 54 || 18 || 624 || 211
+|}
+
+== See also ==
+* [[List of countries by exports]]
+* [[List of countries by imports]]
+* [[Global Trade Union]]
+
+== References ==
+{{reflist}}
+
+[[Category:Economy]]
+[[Category:Countries]]
