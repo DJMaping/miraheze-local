@@ -5,1061 +5,1061 @@ Some countries, such as [[Merela Sta]] and [[Pha Hii]], have export figures that
 == By total exports ==
 {| class="wikitable sortable" style="text-align:right"
 |+ Exports of goods and services, 1765
-! Rank !! Country !! Exports ({{lahn}} million) !! Year !! Top goods export
+! Rank !! Country !! Exports !! Year !! Top goods export
 |- style="font-style:italic; background:#f2f2f2"
-|  || ''World'' || 143,096,033 || 1765 || 
+|  || ''World'' || {{lahn}}143,096,033 million || 1765 || 
 |-
-| 1 || style="text-align:left" | {{flag|Dahe}} || 17,490,723 || 1765 || style="text-align:left" | Coal and briquettes
+| 1 || style="text-align:left" | {{flag|Dahe}} || {{lahn}}17,490,723 million || 1765 || style="text-align:left" | Coal and briquettes
 |-
-| 2 || style="text-align:left" | {{flag|Raledria}} || 14,865,822 || 1765 || style="text-align:left" | Integrated circuits
+| 2 || style="text-align:left" | {{flag|Raledria}} || {{lahn}}14,865,822 million || 1765 || style="text-align:left" | Integrated circuits
 |-
-| 3 || style="text-align:left" | {{flag|Pelugrotoa}} || 14,264,200 || 1765 || style="text-align:left" | Crude petroleum
+| 3 || style="text-align:left" | {{flag|Pelugrotoa}} || {{lahn}}14,264,200 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 4 || style="text-align:left" | {{flag|Areoix Lie}} || 13,980,153 || 1765 || style="text-align:left" | Telephones and handsets
+| 4 || style="text-align:left" | {{flag|Areoix Lie}} || {{lahn}}13,980,153 million || 1765 || style="text-align:left" | Telephones and handsets
 |-
-| 5 || style="text-align:left" | {{flag|Emara}} || 5,943,831 || 1765 || style="text-align:left" | Integrated circuits
+| 5 || style="text-align:left" | {{flag|Emara}} || {{lahn}}5,943,831 million || 1765 || style="text-align:left" | Integrated circuits
 |-
-| 6 || style="text-align:left" | {{flag|Etirha}} || 5,108,578 || 1765 || style="text-align:left" | Organic chemicals
+| 6 || style="text-align:left" | {{flag|Etirha}} || {{lahn}}5,108,578 million || 1765 || style="text-align:left" | Organic chemicals
 |- style="font-style:italic"
-|  || style="text-align:left" | ''[[Quian Union]]''<ref group="note">The [[Quian Union]] is a customs union of thirteen member states. It is shown for comparison with its members' trade with countries outside the union only; trade between members is excluded. It is not ranked.</ref> || 4,655,684 || 1765 || 
+|  || style="text-align:left" | ''[[Quian Union]]''<ref group="note">The [[Quian Union]] is a customs union of thirteen member states. It is shown for comparison with its members' trade with countries outside the union only; trade between members is excluded. It is not ranked.</ref> || {{lahn}}4,655,684 million || 1765 || 
 |-
-| 7 || style="text-align:left" | {{flag|Estijan}} || 4,426,194 || 1765 || style="text-align:left" | Iron ore
+| 7 || style="text-align:left" | {{flag|Estijan}} || {{lahn}}4,426,194 million || 1765 || style="text-align:left" | Iron ore
 |-
-| 8 || style="text-align:left" | {{flag|Merela Sta}} || 3,413,501 || 1765 || style="text-align:left" | Other industrial machinery
+| 8 || style="text-align:left" | {{flag|Merela Sta}} || {{lahn}}3,413,501 million || 1765 || style="text-align:left" | Other industrial machinery
 |-
-| 9 || style="text-align:left" | {{flag|Verusa}} || 3,393,816 || 1765 || style="text-align:left" | Cars
+| 9 || style="text-align:left" | {{flag|Verusa}} || {{lahn}}3,393,816 million || 1765 || style="text-align:left" | Cars
 |-
-| 10 || style="text-align:left" | {{flag|Easuhura}} || 2,773,650 || 1765 || style="text-align:left" | Ships and tankers
+| 10 || style="text-align:left" | {{flag|Easuhura}} || {{lahn}}2,773,650 million || 1765 || style="text-align:left" | Ships and tankers
 |-
-| 11 || style="text-align:left" | {{flag|Sanagara}} || 2,503,135 || 1765 || style="text-align:left" | Integrated circuits
+| 11 || style="text-align:left" | {{flag|Sanagara}} || {{lahn}}2,503,135 million || 1765 || style="text-align:left" | Integrated circuits
 |-
-| 12 || style="text-align:left" | {{flag|Sunsokua}} || 2,468,856 || 1765 || style="text-align:left" | Crude petroleum
+| 12 || style="text-align:left" | {{flag|Sunsokua}} || {{lahn}}2,468,856 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 13 || style="text-align:left" | {{flag|Lycroa}} || 2,464,361 || 1765 || style="text-align:left" | Integrated circuits
+| 13 || style="text-align:left" | {{flag|Lycroa}} || {{lahn}}2,464,361 million || 1765 || style="text-align:left" | Integrated circuits
 |-
-| 14 || style="text-align:left" | {{flag|Seytinemas}} || 1,835,262 || 1765 || style="text-align:left" | Cars
+| 14 || style="text-align:left" | {{flag|Seytinemas}} || {{lahn}}1,835,262 million || 1765 || style="text-align:left" | Cars
 |-
-| 15 || style="text-align:left" | {{flag|Ahokini}} || 1,709,465 || 1765 || style="text-align:left" | Crude petroleum
+| 15 || style="text-align:left" | {{flag|Ahokini}} || {{lahn}}1,709,465 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 16 || style="text-align:left" | {{flag|Vayvele}} || 1,673,813 || 1765 || style="text-align:left" | Crude petroleum
+| 16 || style="text-align:left" | {{flag|Vayvele}} || {{lahn}}1,673,813 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 17 || style="text-align:left" | {{flag|Ashain}} || 1,655,393 || 1765 || style="text-align:left" | Cars
+| 17 || style="text-align:left" | {{flag|Ashain}} || {{lahn}}1,655,393 million || 1765 || style="text-align:left" | Cars
 |-
-| 18 || style="text-align:left" | {{flag|Pha Hii}} || 1,623,759 || 1765 || style="text-align:left" | Pharmaceuticals
+| 18 || style="text-align:left" | {{flag|Pha Hii}} || {{lahn}}1,623,759 million || 1765 || style="text-align:left" | Pharmaceuticals
 |-
-| 19 || style="text-align:left" | {{flag|Taval}} || 1,551,581 || 1765 || style="text-align:left" | Nickel
+| 19 || style="text-align:left" | {{flag|Taval}} || {{lahn}}1,551,581 million || 1765 || style="text-align:left" | Nickel
 |-
-| 20 || style="text-align:left" | {{flag|Oyreain}} || 1,473,295 || 1765 || style="text-align:left" | Other industrial machinery
+| 20 || style="text-align:left" | {{flag|Oyreain}} || {{lahn}}1,473,295 million || 1765 || style="text-align:left" | Other industrial machinery
 |-
-| 21 || style="text-align:left" | {{flag|Siana}} || 1,444,008 || 1765 || style="text-align:left" | Organic chemicals
+| 21 || style="text-align:left" | {{flag|Siana}} || {{lahn}}1,444,008 million || 1765 || style="text-align:left" | Organic chemicals
 |-
-| 22 || style="text-align:left" | {{flag|United Delet}} || 1,425,189 || 1765 || style="text-align:left" | Vehicle parts
+| 22 || style="text-align:left" | {{flag|United Delet}} || {{lahn}}1,425,189 million || 1765 || style="text-align:left" | Vehicle parts
 |-
-| 23 || style="text-align:left" | {{flag|Ukhdari}} || 1,400,782 || 1765 || style="text-align:left" | Cars
+| 23 || style="text-align:left" | {{flag|Ukhdari}} || {{lahn}}1,400,782 million || 1765 || style="text-align:left" | Cars
 |-
-| 24 || style="text-align:left" | {{flag|Ztesh}} || 1,393,617 || 1765 || style="text-align:left" | Woven fabric
+| 24 || style="text-align:left" | {{flag|Ztesh}} || {{lahn}}1,393,617 million || 1765 || style="text-align:left" | Woven fabric
 |-
-| 25 || style="text-align:left" | {{flag|Verste}} || 1,381,795 || 1765 || style="text-align:left" | Crude petroleum
+| 25 || style="text-align:left" | {{flag|Verste}} || {{lahn}}1,381,795 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 26 || style="text-align:left" | {{flag|New Misos}} || 1,328,530 || 1765 || style="text-align:left" | Cars
+| 26 || style="text-align:left" | {{flag|New Misos}} || {{lahn}}1,328,530 million || 1765 || style="text-align:left" | Cars
 |-
-| 27 || style="text-align:left" | {{flag|Trian}} || 1,309,402 || 1765 || style="text-align:left" | Integrated circuits
+| 27 || style="text-align:left" | {{flag|Trian}} || {{lahn}}1,309,402 million || 1765 || style="text-align:left" | Integrated circuits
 |-
-| 28 || style="text-align:left" | {{flag|Praesyu}} || 1,280,714 || 1765 || style="text-align:left" | Cars
+| 28 || style="text-align:left" | {{flag|Praesyu}} || {{lahn}}1,280,714 million || 1765 || style="text-align:left" | Cars
 |-
-| 29 || style="text-align:left" | {{flag|Ealdorii}} || 1,239,587 || 1765 || style="text-align:left" | Cars
+| 29 || style="text-align:left" | {{flag|Ealdorii}} || {{lahn}}1,239,587 million || 1765 || style="text-align:left" | Cars
 |-
-| 30 || style="text-align:left" | {{flag|Inania}} || 1,153,323 || 1765 || style="text-align:left" | Palladium
+| 30 || style="text-align:left" | {{flag|Inania}} || {{lahn}}1,153,323 million || 1765 || style="text-align:left" | Palladium
 |-
-| 31 || style="text-align:left" | {{flag|Chaenia}} || 1,050,952 || 1765 || style="text-align:left" | Integrated circuits
+| 31 || style="text-align:left" | {{flag|Chaenia}} || {{lahn}}1,050,952 million || 1765 || style="text-align:left" | Integrated circuits
 |-
-| 32 || style="text-align:left" | {{flag|Etretes}} || 1,046,350 || 1765 || style="text-align:left" | Crude petroleum
+| 32 || style="text-align:left" | {{flag|Etretes}} || {{lahn}}1,046,350 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 33 || style="text-align:left" | {{flag|Yaxuto}} || 994,330 || 1765 || style="text-align:left" | Watches and clocks
+| 33 || style="text-align:left" | {{flag|Yaxuto}} || {{lahn}}994,330 million || 1765 || style="text-align:left" | Watches and clocks
 |-
-| 34 || style="text-align:left" | {{flag|Suenan}} || 854,849 || 1765 || style="text-align:left" | Cars
+| 34 || style="text-align:left" | {{flag|Suenan}} || {{lahn}}854,849 million || 1765 || style="text-align:left" | Cars
 |-
-| 35 || style="text-align:left" | {{flag|Desaki}} || 824,947 || 1765 || style="text-align:left" | Iron ore
+| 35 || style="text-align:left" | {{flag|Desaki}} || {{lahn}}824,947 million || 1765 || style="text-align:left" | Iron ore
 |-
-| 36 || style="text-align:left" | {{flag|Quidic}} || 812,938 || 1765 || style="text-align:left" | Knitted garments
+| 36 || style="text-align:left" | {{flag|Quidic}} || {{lahn}}812,938 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 37 || style="text-align:left" | {{flag|Genaire}} || 733,014 || 1765 || style="text-align:left" | Silver
+| 37 || style="text-align:left" | {{flag|Genaire}} || {{lahn}}733,014 million || 1765 || style="text-align:left" | Silver
 |-
-| 38 || style="text-align:left" | {{flag|Gaeiya}} || 657,102 || 1765 || style="text-align:left" | Gold
+| 38 || style="text-align:left" | {{flag|Gaeiya}} || {{lahn}}657,102 million || 1765 || style="text-align:left" | Gold
 |-
-| 39 || style="text-align:left" | {{flag|Anymna}} || 653,500 || 1765 || style="text-align:left" | Copper ore
+| 39 || style="text-align:left" | {{flag|Anymna}} || {{lahn}}653,500 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 40 || style="text-align:left" | {{flag|Ilicuhe}} || 649,637 || 1765 || style="text-align:left" | Organic chemicals
+| 40 || style="text-align:left" | {{flag|Ilicuhe}} || {{lahn}}649,637 million || 1765 || style="text-align:left" | Organic chemicals
 |-
-| 41 || style="text-align:left" | {{flag|North Ayre}} || 620,763 || 1765 || style="text-align:left" | Other industrial machinery
+| 41 || style="text-align:left" | {{flag|North Ayre}} || {{lahn}}620,763 million || 1765 || style="text-align:left" | Other industrial machinery
 |-
-| 42 || style="text-align:left" | {{flag|Haiza}} || 585,415 || 1765 || style="text-align:left" | Lithium
+| 42 || style="text-align:left" | {{flag|Haiza}} || {{lahn}}585,415 million || 1765 || style="text-align:left" | Lithium
 |-
-| 43 || style="text-align:left" | {{flag|Finae}} || 541,533 || 1765 || style="text-align:left" | Transformers and switchgear
+| 43 || style="text-align:left" | {{flag|Finae}} || {{lahn}}541,533 million || 1765 || style="text-align:left" | Transformers and switchgear
 |-
-| 44 || style="text-align:left" | {{flag|Disal Nila}} || 499,373 || 1765 || style="text-align:left" | Crude petroleum
+| 44 || style="text-align:left" | {{flag|Disal Nila}} || {{lahn}}499,373 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 45 || style="text-align:left" | {{flag|Darewa}} || 480,292 || 1765 || style="text-align:left" | Silver
+| 45 || style="text-align:left" | {{flag|Darewa}} || {{lahn}}480,292 million || 1765 || style="text-align:left" | Silver
 |-
-| 46 || style="text-align:left" | {{flag|Iareva}} || 469,732 || 1765 || style="text-align:left" | Gold
+| 46 || style="text-align:left" | {{flag|Iareva}} || {{lahn}}469,732 million || 1765 || style="text-align:left" | Gold
 |-
-| 47 || style="text-align:left" | {{flag|Sadain}} || 463,663 || 1765 || style="text-align:left" | Natural gas
+| 47 || style="text-align:left" | {{flag|Sadain}} || {{lahn}}463,663 million || 1765 || style="text-align:left" | Natural gas
 |-
-| 48 || style="text-align:left" | {{flag|Vesozata}} || 457,298 || 1765 || style="text-align:left" | Gold
+| 48 || style="text-align:left" | {{flag|Vesozata}} || {{lahn}}457,298 million || 1765 || style="text-align:left" | Gold
 |-
-| 49 || style="text-align:left" | {{flag|Ohtina}} || 448,723 || 1765 || style="text-align:left" | Vehicle parts
+| 49 || style="text-align:left" | {{flag|Ohtina}} || {{lahn}}448,723 million || 1765 || style="text-align:left" | Vehicle parts
 |-
-| 50 || style="text-align:left" | {{flag|Myla}} || 445,030 || 1765 || style="text-align:left" | Vehicle parts
+| 50 || style="text-align:left" | {{flag|Myla}} || {{lahn}}445,030 million || 1765 || style="text-align:left" | Vehicle parts
 |-
-| 51 || style="text-align:left" | {{flag|Selaja}} || 424,645 || 1765 || style="text-align:left" | Vehicle parts
+| 51 || style="text-align:left" | {{flag|Selaja}} || {{lahn}}424,645 million || 1765 || style="text-align:left" | Vehicle parts
 |-
-| 52 || style="text-align:left" | {{flag|Dual Cenryia}} || 386,890 || 1765 || style="text-align:left" | Knitted garments
+| 52 || style="text-align:left" | {{flag|Dual Cenryia}} || {{lahn}}386,890 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 53 || style="text-align:left" | {{flag|Laselteh}} || 379,484 || 1765 || style="text-align:left" | Cosmetics and perfumes
+| 53 || style="text-align:left" | {{flag|Laselteh}} || {{lahn}}379,484 million || 1765 || style="text-align:left" | Cosmetics and perfumes
 |-
-| 54 || style="text-align:left" | {{flag|Wundry}} || 369,963 || 1765 || style="text-align:left" | Knitted garments
+| 54 || style="text-align:left" | {{flag|Wundry}} || {{lahn}}369,963 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 55 || style="text-align:left" | {{flag|Erkizil}} || 360,378 || 1765 || style="text-align:left" | Inorganic chemicals
+| 55 || style="text-align:left" | {{flag|Erkizil}} || {{lahn}}360,378 million || 1765 || style="text-align:left" | Inorganic chemicals
 |-
-| 56 || style="text-align:left" | {{flag|Acrana}} || 345,074 || 1765 || style="text-align:left" | Rough diamonds
+| 56 || style="text-align:left" | {{flag|Acrana}} || {{lahn}}345,074 million || 1765 || style="text-align:left" | Rough diamonds
 |-
-| 57 || style="text-align:left" | {{flag|Terressin}} || 325,661 || 1765 || style="text-align:left" | Knitted garments
+| 57 || style="text-align:left" | {{flag|Terressin}} || {{lahn}}325,661 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 58 || style="text-align:left" | {{flag|Prystr Hii}} || 320,697 || 1765 || style="text-align:left" | Cosmetics and perfumes
+| 58 || style="text-align:left" | {{flag|Prystr Hii}} || {{lahn}}320,697 million || 1765 || style="text-align:left" | Cosmetics and perfumes
 |-
-| 59 || style="text-align:left" | {{flag|Fermori}} || 288,137 || 1765 || style="text-align:left" | Insulated wire and cable
+| 59 || style="text-align:left" | {{flag|Fermori}} || {{lahn}}288,137 million || 1765 || style="text-align:left" | Insulated wire and cable
 |-
-| 60 || style="text-align:left" | {{flag|Pelines}} || 282,756 || 1765 || style="text-align:left" | Knitted garments
+| 60 || style="text-align:left" | {{flag|Pelines}} || {{lahn}}282,756 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 61 || style="text-align:left" | {{flag|Astye}} || 257,835 || 1765 || style="text-align:left" | Knitted garments
+| 61 || style="text-align:left" | {{flag|Astye}} || {{lahn}}257,835 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 62 || style="text-align:left" | {{flag|Arbiya}} || 253,790 || 1765 || style="text-align:left" | Silver
+| 62 || style="text-align:left" | {{flag|Arbiya}} || {{lahn}}253,790 million || 1765 || style="text-align:left" | Silver
 |-
-| 63 || style="text-align:left" | {{flag|Guise}} || 238,160 || 1765 || style="text-align:left" | Coke and semi-coke
+| 63 || style="text-align:left" | {{flag|Guise}} || {{lahn}}238,160 million || 1765 || style="text-align:left" | Coke and semi-coke
 |-
-| 64 || style="text-align:left" | {{flag|Volver}} || 235,933 || 1765 || style="text-align:left" | Gold
+| 64 || style="text-align:left" | {{flag|Volver}} || {{lahn}}235,933 million || 1765 || style="text-align:left" | Gold
 |-
-| 65 || style="text-align:left" | {{flag|Maalle}} || 226,720 || 1765 || style="text-align:left" | Platinum
+| 65 || style="text-align:left" | {{flag|Maalle}} || {{lahn}}226,720 million || 1765 || style="text-align:left" | Platinum
 |-
-| 66 || style="text-align:left" | {{flag|Eldjo}} || 224,314 || 1765 || style="text-align:left" | Measuring and testing instruments
+| 66 || style="text-align:left" | {{flag|Eldjo}} || {{lahn}}224,314 million || 1765 || style="text-align:left" | Measuring and testing instruments
 |-
-| 67 || style="text-align:left" | {{flag|Inrea}} || 221,770 || 1765 || style="text-align:left" | Insulated wire and cable
+| 67 || style="text-align:left" | {{flag|Inrea}} || {{lahn}}221,770 million || 1765 || style="text-align:left" | Insulated wire and cable
 |-
-| 68 || style="text-align:left" | {{flag|Isari}} || 219,270 || 1765 || style="text-align:left" | Woven fabric
+| 68 || style="text-align:left" | {{flag|Isari}} || {{lahn}}219,270 million || 1765 || style="text-align:left" | Woven fabric
 |-
-| 69 || style="text-align:left" | {{flag|Mesjan Hyaa}} || 193,249 || 1765 || style="text-align:left" | Gold
+| 69 || style="text-align:left" | {{flag|Mesjan Hyaa}} || {{lahn}}193,249 million || 1765 || style="text-align:left" | Gold
 |-
-| 70 || style="text-align:left" | {{flag|Palina}} || 189,661 || 1765 || style="text-align:left" | Agricultural machinery
+| 70 || style="text-align:left" | {{flag|Palina}} || {{lahn}}189,661 million || 1765 || style="text-align:left" | Agricultural machinery
 |-
-| 71 || style="text-align:left" | {{flag|Heiso}} || 181,741 || 1765 || style="text-align:left" | Insulated wire and cable
+| 71 || style="text-align:left" | {{flag|Heiso}} || {{lahn}}181,741 million || 1765 || style="text-align:left" | Insulated wire and cable
 |-
-| 72 || style="text-align:left" | {{flag|Lydroa}} || 180,603 || 1765 || style="text-align:left" | Agricultural machinery
+| 72 || style="text-align:left" | {{flag|Lydroa}} || {{lahn}}180,603 million || 1765 || style="text-align:left" | Agricultural machinery
 |-
-| 73 || style="text-align:left" | {{flag|Iainoa}} || 171,003 || 1765 || style="text-align:left" | Copper ore
+| 73 || style="text-align:left" | {{flag|Iainoa}} || {{lahn}}171,003 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 74 || style="text-align:left" | {{flag|Pelan}} || 169,141 || 1765 || style="text-align:left" | Insulated wire and cable
+| 74 || style="text-align:left" | {{flag|Pelan}} || {{lahn}}169,141 million || 1765 || style="text-align:left" | Insulated wire and cable
 |-
-| 75 || style="text-align:left" | {{flag|Rijan bu}} || 167,381 || 1765 || style="text-align:left" | Insulated wire and cable
+| 75 || style="text-align:left" | {{flag|Rijan bu}} || {{lahn}}167,381 million || 1765 || style="text-align:left" | Insulated wire and cable
 |-
-| 76 || style="text-align:left" | {{flag|Fincen}} || 166,777 || 1765 || style="text-align:left" | Inorganic chemicals
+| 76 || style="text-align:left" | {{flag|Fincen}} || {{lahn}}166,777 million || 1765 || style="text-align:left" | Inorganic chemicals
 |-
-| 77 || style="text-align:left" | {{flag|Otiiric}} || 163,280 || 1765 || style="text-align:left" | Vehicle parts
+| 77 || style="text-align:left" | {{flag|Otiiric}} || {{lahn}}163,280 million || 1765 || style="text-align:left" | Vehicle parts
 |-
-| 78 || style="text-align:left" | {{flag|Curata}} || 159,668 || 1765 || style="text-align:left" | Cranes and lifting equipment
+| 78 || style="text-align:left" | {{flag|Curata}} || {{lahn}}159,668 million || 1765 || style="text-align:left" | Cranes and lifting equipment
 |-
-| 79 || style="text-align:left" | {{flag|Reerica}} || 159,014 || 1765 || style="text-align:left" | Leather and hides
+| 79 || style="text-align:left" | {{flag|Reerica}} || {{lahn}}159,014 million || 1765 || style="text-align:left" | Leather and hides
 |-
-| 80 || style="text-align:left" | {{flag|Sivoso}} || 157,560 || 1765 || style="text-align:left" | Copper ore
+| 80 || style="text-align:left" | {{flag|Sivoso}} || {{lahn}}157,560 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 81 || style="text-align:left" | {{flag|Mendereide}} || 153,090 || 1765 || style="text-align:left" | Electric motors
+| 81 || style="text-align:left" | {{flag|Mendereide}} || {{lahn}}153,090 million || 1765 || style="text-align:left" | Electric motors
 |-
-| 82 || style="text-align:left" | {{flag|Nia}} || 146,379 || 1765 || style="text-align:left" | Gold
+| 82 || style="text-align:left" | {{flag|Nia}} || {{lahn}}146,379 million || 1765 || style="text-align:left" | Gold
 |-
-| 83 || style="text-align:left" | {{flag|Acetoa}} || 141,618 || 1765 || style="text-align:left" | Agricultural machinery
+| 83 || style="text-align:left" | {{flag|Acetoa}} || {{lahn}}141,618 million || 1765 || style="text-align:left" | Agricultural machinery
 |-
-| 84 || style="text-align:left" | {{flag|Umarcia}} || 136,031 || 1765 || style="text-align:left" | Vehicle parts
+| 84 || style="text-align:left" | {{flag|Umarcia}} || {{lahn}}136,031 million || 1765 || style="text-align:left" | Vehicle parts
 |-
-| 85 || style="text-align:left" | {{flag|Kusierna}} || 131,840 || 1765 || style="text-align:left" | Electric motors
+| 85 || style="text-align:left" | {{flag|Kusierna}} || {{lahn}}131,840 million || 1765 || style="text-align:left" | Electric motors
 |-
-| 86 || style="text-align:left" | {{flag|Hkuqo}} || 130,393 || 1765 || style="text-align:left" | Woven fabric
+| 86 || style="text-align:left" | {{flag|Hkuqo}} || {{lahn}}130,393 million || 1765 || style="text-align:left" | Woven fabric
 |-
-| 87 || style="text-align:left" | {{flag|Prstreula}} || 114,048 || 1765 || style="text-align:left" | Leather and hides
+| 87 || style="text-align:left" | {{flag|Prstreula}} || {{lahn}}114,048 million || 1765 || style="text-align:left" | Leather and hides
 |-
-| 88 || style="text-align:left" | {{flag|Walporein}} || 112,075 || 1765 || style="text-align:left" | Organic chemicals
+| 88 || style="text-align:left" | {{flag|Walporein}} || {{lahn}}112,075 million || 1765 || style="text-align:left" | Organic chemicals
 |-
-| 89 || style="text-align:left" | {{flag|Grazail}} || 111,031 || 1765 || style="text-align:left" | Fish
+| 89 || style="text-align:left" | {{flag|Grazail}} || {{lahn}}111,031 million || 1765 || style="text-align:left" | Fish
 |-
-| 90 || style="text-align:left" | {{flag|Isnti}} || 110,144 || 1765 || style="text-align:left" | Crude petroleum
+| 90 || style="text-align:left" | {{flag|Isnti}} || {{lahn}}110,144 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 91 || style="text-align:left" | {{flag|Canldives}} || 109,726 || 1765 || style="text-align:left" | Coke and semi-coke
+| 91 || style="text-align:left" | {{flag|Canldives}} || {{lahn}}109,726 million || 1765 || style="text-align:left" | Coke and semi-coke
 |-
-| 92 || style="text-align:left" | {{flag|Phuris}} || 101,538 || 1765 || style="text-align:left" | Fish
+| 92 || style="text-align:left" | {{flag|Phuris}} || {{lahn}}101,538 million || 1765 || style="text-align:left" | Fish
 |-
-| 93 || style="text-align:left" | {{flag|Peka}} || 96,937 || 1765 || style="text-align:left" | Organic chemicals
+| 93 || style="text-align:left" | {{flag|Peka}} || {{lahn}}96,937 million || 1765 || style="text-align:left" | Organic chemicals
 |-
-| 94 || style="text-align:left" | {{flag|Ihner}} || 96,305 || 1765 || style="text-align:left" | Gold
+| 94 || style="text-align:left" | {{flag|Ihner}} || {{lahn}}96,305 million || 1765 || style="text-align:left" | Gold
 |-
-| 95 || style="text-align:left" | {{flag|Oscairia}} || 94,357 || 1765 || style="text-align:left" | Cobalt
+| 95 || style="text-align:left" | {{flag|Oscairia}} || {{lahn}}94,357 million || 1765 || style="text-align:left" | Cobalt
 |-
-| 96 || style="text-align:left" | {{flag|Ucrua}} || 93,922 || 1765 || style="text-align:left" | Paper and paperboard
+| 96 || style="text-align:left" | {{flag|Ucrua}} || {{lahn}}93,922 million || 1765 || style="text-align:left" | Paper and paperboard
 |-
-| 97 || style="text-align:left" | {{flag|Onphello}} || 89,376 || 1765 || style="text-align:left" | Copper ore
+| 97 || style="text-align:left" | {{flag|Onphello}} || {{lahn}}89,376 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 98 || style="text-align:left" | {{flag|Fire Coast}} || 87,333 || 1765 || style="text-align:left" | Nickel
+| 98 || style="text-align:left" | {{flag|Fire Coast}} || {{lahn}}87,333 million || 1765 || style="text-align:left" | Nickel
 |-
-| 99 || style="text-align:left" | {{flag|Andsaudare}} || 86,051 || 1765 || style="text-align:left" | Silver
+| 99 || style="text-align:left" | {{flag|Andsaudare}} || {{lahn}}86,051 million || 1765 || style="text-align:left" | Silver
 |-
-| 100 || style="text-align:left" | {{flag|Tomscilus}} || 85,411 || 1765 || style="text-align:left" | Inorganic chemicals
+| 100 || style="text-align:left" | {{flag|Tomscilus}} || {{lahn}}85,411 million || 1765 || style="text-align:left" | Inorganic chemicals
 |-
-| 101 || style="text-align:left" | {{flag|Koruch}} || 83,787 || 1765 || style="text-align:left" | Crude petroleum
+| 101 || style="text-align:left" | {{flag|Koruch}} || {{lahn}}83,787 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 102 || style="text-align:left" | {{flag|Deschon}} || 83,131 || 1765 || style="text-align:left" | Cocoa
+| 102 || style="text-align:left" | {{flag|Deschon}} || {{lahn}}83,131 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 103 || style="text-align:left" | {{flag|Nheyes Si}} || 82,829 || 1765 || style="text-align:left" | Tobacco
+| 103 || style="text-align:left" | {{flag|Nheyes Si}} || {{lahn}}82,829 million || 1765 || style="text-align:left" | Tobacco
 |-
-| 104 || style="text-align:left" | {{flag|Ruylku}} || 78,252 || 1765 || style="text-align:left" | Cocoa
+| 104 || style="text-align:left" | {{flag|Ruylku}} || {{lahn}}78,252 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 105 || style="text-align:left" | {{flag|United Mihili}} || 77,261 || 1765 || style="text-align:left" | Wheat
+| 105 || style="text-align:left" | {{flag|United Mihili}} || {{lahn}}77,261 million || 1765 || style="text-align:left" | Wheat
 |-
-| 106 || style="text-align:left" | {{flag|Jshain}} || 77,223 || 1765 || style="text-align:left" | Cocoa
+| 106 || style="text-align:left" | {{flag|Jshain}} || {{lahn}}77,223 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 107 || style="text-align:left" | {{flag|Exilium}} || 75,758 || 1765 || style="text-align:left" | Tobacco
+| 107 || style="text-align:left" | {{flag|Exilium}} || {{lahn}}75,758 million || 1765 || style="text-align:left" | Tobacco
 |-
-| 108 || style="text-align:left" | {{flag|Uularin}} || 74,684 || 1765 || style="text-align:left" | Agricultural machinery
+| 108 || style="text-align:left" | {{flag|Uularin}} || {{lahn}}74,684 million || 1765 || style="text-align:left" | Agricultural machinery
 |-
-| 109 || style="text-align:left" | {{flag|lasri}} || 70,659 || 1765 || style="text-align:left" | Knitted garments
+| 109 || style="text-align:left" | {{flag|lasri}} || {{lahn}}70,659 million || 1765 || style="text-align:left" | Knitted garments
 |-
-| 110 || style="text-align:left" | {{flag|Zenashan}} || 69,780 || 1765 || style="text-align:left" | Fruit
+| 110 || style="text-align:left" | {{flag|Zenashan}} || {{lahn}}69,780 million || 1765 || style="text-align:left" | Fruit
 |-
-| 111 || style="text-align:left" | {{flag|Feio Lie}} || 68,951 || 1765 || style="text-align:left" | Agricultural machinery
+| 111 || style="text-align:left" | {{flag|Feio Lie}} || {{lahn}}68,951 million || 1765 || style="text-align:left" | Agricultural machinery
 |-
-| 112 || style="text-align:left" | {{flag|Kaastini}} || 67,081 || 1765 || style="text-align:left" | Copper ore
+| 112 || style="text-align:left" | {{flag|Kaastini}} || {{lahn}}67,081 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 113 || style="text-align:left" | {{flag|Taing}} || 64,579 || 1765 || style="text-align:left" | Agricultural machinery
+| 113 || style="text-align:left" | {{flag|Taing}} || {{lahn}}64,579 million || 1765 || style="text-align:left" | Agricultural machinery
 |-
-| 114 || style="text-align:left" | {{flag|Baluyde}} || 64,307 || 1765 || style="text-align:left" | Fish
+| 114 || style="text-align:left" | {{flag|Baluyde}} || {{lahn}}64,307 million || 1765 || style="text-align:left" | Fish
 |-
-| 115 || style="text-align:left" | {{flag|Aplasia}} || 60,406 || 1765 || style="text-align:left" | Crude petroleum
+| 115 || style="text-align:left" | {{flag|Aplasia}} || {{lahn}}60,406 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 116 || style="text-align:left" | {{flag|Eldavpir}} || 60,310 || 1765 || style="text-align:left" | Cocoa
+| 116 || style="text-align:left" | {{flag|Eldavpir}} || {{lahn}}60,310 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 117 || style="text-align:left" | {{flag|Crila Republic}} || 58,692 || 1765 || style="text-align:left" | Fruit
+| 117 || style="text-align:left" | {{flag|Crila Republic}} || {{lahn}}58,692 million || 1765 || style="text-align:left" | Fruit
 |-
-| 118 || style="text-align:left" | {{flag|Taoisia}} || 57,050 || 1765 || style="text-align:left" | Iron ore
+| 118 || style="text-align:left" | {{flag|Taoisia}} || {{lahn}}57,050 million || 1765 || style="text-align:left" | Iron ore
 |-
-| 119 || style="text-align:left" | {{flag|Stinebar}} || 54,701 || 1765 || style="text-align:left" | Plastic articles
+| 119 || style="text-align:left" | {{flag|Stinebar}} || {{lahn}}54,701 million || 1765 || style="text-align:left" | Plastic articles
 |-
-| 120 || style="text-align:left" | {{flag|Iquir}} || 52,644 || 1765 || style="text-align:left" | Copper ore
+| 120 || style="text-align:left" | {{flag|Iquir}} || {{lahn}}52,644 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 121 || style="text-align:left" | {{flag|Ocaun}} || 49,997 || 1765 || style="text-align:left" | Other cereals
+| 121 || style="text-align:left" | {{flag|Ocaun}} || {{lahn}}49,997 million || 1765 || style="text-align:left" | Other cereals
 |-
-| 122 || style="text-align:left" | {{flag|Galca}} || 48,549 || 1765 || style="text-align:left" | Tobacco
+| 122 || style="text-align:left" | {{flag|Galca}} || {{lahn}}48,549 million || 1765 || style="text-align:left" | Tobacco
 |-
-| 123 || style="text-align:left" | {{flag|Yutnitu}} || 48,302 || 1765 || style="text-align:left" | Cosmetics and perfumes
+| 123 || style="text-align:left" | {{flag|Yutnitu}} || {{lahn}}48,302 million || 1765 || style="text-align:left" | Cosmetics and perfumes
 |-
-| 124 || style="text-align:left" | {{flag|New Kizura}} || 39,857 || 1765 || style="text-align:left" | Nickel
+| 124 || style="text-align:left" | {{flag|New Kizura}} || {{lahn}}39,857 million || 1765 || style="text-align:left" | Nickel
 |-
-| 125 || style="text-align:left" | {{flag|Aetintio}} || 37,239 || 1765 || style="text-align:left" | Beverages and spirits
+| 125 || style="text-align:left" | {{flag|Aetintio}} || {{lahn}}37,239 million || 1765 || style="text-align:left" | Beverages and spirits
 |-
-| 126 || style="text-align:left" | {{flag|Othya}} || 37,031 || 1765 || style="text-align:left" | Cocoa
+| 126 || style="text-align:left" | {{flag|Othya}} || {{lahn}}37,031 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 127 || style="text-align:left" | {{flag|Slyiaduun}} || 36,867 || 1765 || style="text-align:left" | Fish
+| 127 || style="text-align:left" | {{flag|Slyiaduun}} || {{lahn}}36,867 million || 1765 || style="text-align:left" | Fish
 |-
-| 128 || style="text-align:left" | {{flag|Lieri}} || 36,822 || 1765 || style="text-align:left" | Tobacco
+| 128 || style="text-align:left" | {{flag|Lieri}} || {{lahn}}36,822 million || 1765 || style="text-align:left" | Tobacco
 |-
-| 129 || style="text-align:left" | {{flag|Viussi}} || 27,492 || 1765 || style="text-align:left" | Cocoa
+| 129 || style="text-align:left" | {{flag|Viussi}} || {{lahn}}27,492 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 130 || style="text-align:left" | {{flag|Pruim Fijan}} || 25,618 || 1765 || style="text-align:left" | Natural gas
+| 130 || style="text-align:left" | {{flag|Pruim Fijan}} || {{lahn}}25,618 million || 1765 || style="text-align:left" | Natural gas
 |-
-| 131 || style="text-align:left" | {{flag|Eparia}} || 24,579 || 1765 || style="text-align:left" | Fish
+| 131 || style="text-align:left" | {{flag|Eparia}} || {{lahn}}24,579 million || 1765 || style="text-align:left" | Fish
 |-
-| 132 || style="text-align:left" | {{flag|Yihnurda}} || 23,814 || 1765 || style="text-align:left" | Silver
+| 132 || style="text-align:left" | {{flag|Yihnurda}} || {{lahn}}23,814 million || 1765 || style="text-align:left" | Silver
 |-
-| 133 || style="text-align:left" | {{flag|Shinam}} || 22,398 || 1765 || style="text-align:left" | Natural gas
+| 133 || style="text-align:left" | {{flag|Shinam}} || {{lahn}}22,398 million || 1765 || style="text-align:left" | Natural gas
 |-
-| 134 || style="text-align:left" | {{flag|Ozinia}} || 22,004 || 1765 || style="text-align:left" | Fruit
+| 134 || style="text-align:left" | {{flag|Ozinia}} || {{lahn}}22,004 million || 1765 || style="text-align:left" | Fruit
 |-
-| 135 || style="text-align:left" | {{flag|Saa}} || 21,494 || 1765 || style="text-align:left" | Crude petroleum
+| 135 || style="text-align:left" | {{flag|Saa}} || {{lahn}}21,494 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 136 || style="text-align:left" | {{flag|Ikzen}} || 21,288 || 1765 || style="text-align:left" | Copper ore
+| 136 || style="text-align:left" | {{flag|Ikzen}} || {{lahn}}21,288 million || 1765 || style="text-align:left" | Copper ore
 |-
-| 137 || style="text-align:left" | {{flag|Taniduna}} || 20,526 || 1765 || style="text-align:left" | Gold
+| 137 || style="text-align:left" | {{flag|Taniduna}} || {{lahn}}20,526 million || 1765 || style="text-align:left" | Gold
 |-
-| 138 || style="text-align:left" | {{flag|Umendel}} || 18,061 || 1765 || style="text-align:left" | Cocoa
+| 138 || style="text-align:left" | {{flag|Umendel}} || {{lahn}}18,061 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 139 || style="text-align:left" | {{flag|Danocia}} || 17,770 || 1765 || style="text-align:left" | Natural gas
+| 139 || style="text-align:left" | {{flag|Danocia}} || {{lahn}}17,770 million || 1765 || style="text-align:left" | Natural gas
 |-
-| 140 || style="text-align:left" | {{flag|Byllu}} || 17,636 || 1765 || style="text-align:left" | Tobacco
+| 140 || style="text-align:left" | {{flag|Byllu}} || {{lahn}}17,636 million || 1765 || style="text-align:left" | Tobacco
 |-
-| 141 || style="text-align:left" | {{flag|Jathua}} || 16,165 || 1765 || style="text-align:left" | Cocoa
+| 141 || style="text-align:left" | {{flag|Jathua}} || {{lahn}}16,165 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 142 || style="text-align:left" | {{flag|Amcha}} || 15,839 || 1765 || style="text-align:left" | Aluminium
+| 142 || style="text-align:left" | {{flag|Amcha}} || {{lahn}}15,839 million || 1765 || style="text-align:left" | Aluminium
 |-
-| 143 || style="text-align:left" | {{flag|Welenu Fana}} || 13,978 || 1765 || style="text-align:left" | Gold
+| 143 || style="text-align:left" | {{flag|Welenu Fana}} || {{lahn}}13,978 million || 1765 || style="text-align:left" | Gold
 |-
-| 144 || style="text-align:left" | {{flag|Jau}} || 13,404 || 1765 || style="text-align:left" | Tea and spices
+| 144 || style="text-align:left" | {{flag|Jau}} || {{lahn}}13,404 million || 1765 || style="text-align:left" | Tea and spices
 |-
-| 145 || style="text-align:left" | {{flag|Niretui and Anulan}} || 12,899 || 1765 || style="text-align:left" | Fruit
+| 145 || style="text-align:left" | {{flag|Niretui and Anulan}} || {{lahn}}12,899 million || 1765 || style="text-align:left" | Fruit
 |-
-| 146 || style="text-align:left" | {{flag|Rtesania}} || 12,761 || 1765 || style="text-align:left" | Fruit
+| 146 || style="text-align:left" | {{flag|Rtesania}} || {{lahn}}12,761 million || 1765 || style="text-align:left" | Fruit
 |-
-| 147 || style="text-align:left" | {{flag|Metndria}} || 12,187 || 1765 || style="text-align:left" | Fish
+| 147 || style="text-align:left" | {{flag|Metndria}} || {{lahn}}12,187 million || 1765 || style="text-align:left" | Fish
 |-
-| 148 || style="text-align:left" | {{flag|Hyelen}} || 11,422 || 1765 || style="text-align:left" | Wood pulp
+| 148 || style="text-align:left" | {{flag|Hyelen}} || {{lahn}}11,422 million || 1765 || style="text-align:left" | Wood pulp
 |-
-| 149 || style="text-align:left" | {{flag|Urbiqu}} || 11,378 || 1765 || style="text-align:left" | Chromium and ferroalloys
+| 149 || style="text-align:left" | {{flag|Urbiqu}} || {{lahn}}11,378 million || 1765 || style="text-align:left" | Chromium and ferroalloys
 |-
-| 150 || style="text-align:left" | {{flag|Sattle}} || 8,890 || 1765 || style="text-align:left" | Tea and spices
+| 150 || style="text-align:left" | {{flag|Sattle}} || {{lahn}}8,890 million || 1765 || style="text-align:left" | Tea and spices
 |-
-| 151 || style="text-align:left" | {{flag|Candenat}} || 8,848 || 1765 || style="text-align:left" | Tea and spices
+| 151 || style="text-align:left" | {{flag|Candenat}} || {{lahn}}8,848 million || 1765 || style="text-align:left" | Tea and spices
 |-
-| 152 || style="text-align:left" | {{flag|Rinew}} || 7,602 || 1765 || style="text-align:left" | Fish
+| 152 || style="text-align:left" | {{flag|Rinew}} || {{lahn}}7,602 million || 1765 || style="text-align:left" | Fish
 |-
-| 153 || style="text-align:left" | {{flag|Elja and Munusia}} || 6,890 || 1765 || style="text-align:left" | Fruit
+| 153 || style="text-align:left" | {{flag|Elja and Munusia}} || {{lahn}}6,890 million || 1765 || style="text-align:left" | Fruit
 |-
-| 154 || style="text-align:left" | {{flag|Zhanshe}} || 6,590 || 1765 || style="text-align:left" | Gold
+| 154 || style="text-align:left" | {{flag|Zhanshe}} || {{lahn}}6,590 million || 1765 || style="text-align:left" | Gold
 |-
-| 155 || style="text-align:left" | {{flag|Veelmit}} || 6,437 || 1765 || style="text-align:left" | Cocoa
+| 155 || style="text-align:left" | {{flag|Veelmit}} || {{lahn}}6,437 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 156 || style="text-align:left" | {{flag|Migoku}} || 5,122 || 1765 || style="text-align:left" | Iron ore
+| 156 || style="text-align:left" | {{flag|Migoku}} || {{lahn}}5,122 million || 1765 || style="text-align:left" | Iron ore
 |-
-| 157 || style="text-align:left" | {{flag|Cloja}} || 4,780 || 1765 || style="text-align:left" | Computers
+| 157 || style="text-align:left" | {{flag|Cloja}} || {{lahn}}4,780 million || 1765 || style="text-align:left" | Computers
 |-
-| 158 || style="text-align:left" | {{flag|Hiwush}} || 4,256 || 1765 || style="text-align:left" | Fish
+| 158 || style="text-align:left" | {{flag|Hiwush}} || {{lahn}}4,256 million || 1765 || style="text-align:left" | Fish
 |-
-| 159 || style="text-align:left" | {{flag|Rkmepuia}} || 4,234 || 1765 || style="text-align:left" | Fish
+| 159 || style="text-align:left" | {{flag|Rkmepuia}} || {{lahn}}4,234 million || 1765 || style="text-align:left" | Fish
 |-
-| 160 || style="text-align:left" | {{flag|Niul Spijan}} || 4,016 || 1765 || style="text-align:left" | Fish
+| 160 || style="text-align:left" | {{flag|Niul Spijan}} || {{lahn}}4,016 million || 1765 || style="text-align:left" | Fish
 |-
-| 161 || style="text-align:left" | {{flag|Rethern}} || 3,083 || 1765 || style="text-align:left" | Carpets and home textiles
+| 161 || style="text-align:left" | {{flag|Rethern}} || {{lahn}}3,083 million || 1765 || style="text-align:left" | Carpets and home textiles
 |-
-| 162 || style="text-align:left" | {{flag|Shomjind}} || 3,032 || 1765 || style="text-align:left" | Tea and spices
+| 162 || style="text-align:left" | {{flag|Shomjind}} || {{lahn}}3,032 million || 1765 || style="text-align:left" | Tea and spices
 |-
-| 163 || style="text-align:left" | {{flag|Enina}} || 2,039 || 1765 || style="text-align:left" | Fish
+| 163 || style="text-align:left" | {{flag|Enina}} || {{lahn}}2,039 million || 1765 || style="text-align:left" | Fish
 |-
-| 164 || style="text-align:left" | {{flag|Isuibul}} || 1,394 || 1765 || style="text-align:left" | Fish
+| 164 || style="text-align:left" | {{flag|Isuibul}} || {{lahn}}1,394 million || 1765 || style="text-align:left" | Fish
 |-
-| 165 || style="text-align:left" | {{flag|Yoprioq}} || 1,105 || 1765 || style="text-align:left" | Tea and spices
+| 165 || style="text-align:left" | {{flag|Yoprioq}} || {{lahn}}1,105 million || 1765 || style="text-align:left" | Tea and spices
 |-
-| 166 || style="text-align:left" | {{flag|Tonder}} || 988 || 1765 || style="text-align:left" | Rough diamonds
+| 166 || style="text-align:left" | {{flag|Tonder}} || {{lahn}}988 million || 1765 || style="text-align:left" | Rough diamonds
 |-
-| 167 || style="text-align:left" | {{flag|Letan}} || 796 || 1765 || style="text-align:left" | Tea and spices
+| 167 || style="text-align:left" | {{flag|Letan}} || {{lahn}}796 million || 1765 || style="text-align:left" | Tea and spices
 |-
-| 168 || style="text-align:left" | {{flag|Far Lands}} || 761 || 1765 || style="text-align:left" | Rough diamonds
+| 168 || style="text-align:left" | {{flag|Far Lands}} || {{lahn}}761 million || 1765 || style="text-align:left" | Rough diamonds
 |-
-| 169 || style="text-align:left" | {{flag|Tvecoca}} || 663 || 1765 || style="text-align:left" | Crude petroleum
+| 169 || style="text-align:left" | {{flag|Tvecoca}} || {{lahn}}663 million || 1765 || style="text-align:left" | Crude petroleum
 |-
-| 170 || style="text-align:left" | {{flag|Western Migoku}} || 624 || 1765 || style="text-align:left" | Cocoa
+| 170 || style="text-align:left" | {{flag|Western Migoku}} || {{lahn}}624 million || 1765 || style="text-align:left" | Cocoa
 |-
-| 171 || style="text-align:left" | {{flag|Trevilla}} || 389 || 1765 || style="text-align:left" | Fish
+| 171 || style="text-align:left" | {{flag|Trevilla}} || {{lahn}}389 million || 1765 || style="text-align:left" | Fish
 |-
-| 172 || style="text-align:left" | {{flag|Cruthi Anoso}} || 96 || 1765 || style="text-align:left" | Fish
+| 172 || style="text-align:left" | {{flag|Cruthi Anoso}} || {{lahn}}96 million || 1765 || style="text-align:left" | Fish
 |}
 
 == By merchandise exports ==
 Merchandise exports include re-exports. Figures are in {{lahn}} millions.<ref name="gtu" />
 {| class="wikitable sortable" style="text-align:right"
 |+ Merchandise exports, 1765
-! Rank !! Country !! Merchandise exports ({{lahn}} million) !! Year
+! Rank !! Country !! Merchandise exports !! Year
 |- style="font-style:italic; background:#f2f2f2"
-|  || ''World'' || 112,391,078 || 1765
+|  || ''World'' || {{lahn}}112,391,078 million || 1765
 |-
-| 1 || style="text-align:left" | {{flag|Dahe}} || 14,648,961 || 1765
+| 1 || style="text-align:left" | {{flag|Dahe}} || {{lahn}}14,648,961 million || 1765
 |-
-| 2 || style="text-align:left" | {{flag|Pelugrotoa}} || 12,885,227 || 1765
+| 2 || style="text-align:left" | {{flag|Pelugrotoa}} || {{lahn}}12,885,227 million || 1765
 |-
-| 3 || style="text-align:left" | {{flag|Areoix Lie}} || 10,526,848 || 1765
+| 3 || style="text-align:left" | {{flag|Areoix Lie}} || {{lahn}}10,526,848 million || 1765
 |-
-| 4 || style="text-align:left" | {{flag|Raledria}} || 9,627,693 || 1765
+| 4 || style="text-align:left" | {{flag|Raledria}} || {{lahn}}9,627,693 million || 1765
 |-
-| 5 || style="text-align:left" | {{flag|Emara}} || 5,007,327 || 1765
+| 5 || style="text-align:left" | {{flag|Emara}} || {{lahn}}5,007,327 million || 1765
 |-
-| 6 || style="text-align:left" | {{flag|Estijan}} || 3,398,228 || 1765
+| 6 || style="text-align:left" | {{flag|Estijan}} || {{lahn}}3,398,228 million || 1765
 |-
-| 7 || style="text-align:left" | {{flag|Etirha}} || 3,324,527 || 1765
+| 7 || style="text-align:left" | {{flag|Etirha}} || {{lahn}}3,324,527 million || 1765
 |-
-| 8 || style="text-align:left" | {{flag|Merela Sta}} || 3,276,547 || 1765
+| 8 || style="text-align:left" | {{flag|Merela Sta}} || {{lahn}}3,276,547 million || 1765
 |-
-| 9 || style="text-align:left" | {{flag|Verusa}} || 2,681,272 || 1765
+| 9 || style="text-align:left" | {{flag|Verusa}} || {{lahn}}2,681,272 million || 1765
 |-
-| 10 || style="text-align:left" | {{flag|Sanagara}} || 2,178,639 || 1765
+| 10 || style="text-align:left" | {{flag|Sanagara}} || {{lahn}}2,178,639 million || 1765
 |-
-| 11 || style="text-align:left" | {{flag|Easuhura}} || 1,990,209 || 1765
+| 11 || style="text-align:left" | {{flag|Easuhura}} || {{lahn}}1,990,209 million || 1765
 |-
-| 12 || style="text-align:left" | {{flag|Sunsokua}} || 1,965,891 || 1765
+| 12 || style="text-align:left" | {{flag|Sunsokua}} || {{lahn}}1,965,891 million || 1765
 |-
-| 13 || style="text-align:left" | {{flag|Seytinemas}} || 1,628,950 || 1765
+| 13 || style="text-align:left" | {{flag|Seytinemas}} || {{lahn}}1,628,950 million || 1765
 |-
-| 14 || style="text-align:left" | {{flag|Lycroa}} || 1,628,678 || 1765
+| 14 || style="text-align:left" | {{flag|Lycroa}} || {{lahn}}1,628,678 million || 1765
 |-
-| 15 || style="text-align:left" | {{flag|Vayvele}} || 1,455,161 || 1765
+| 15 || style="text-align:left" | {{flag|Vayvele}} || {{lahn}}1,455,161 million || 1765
 |-
-| 16 || style="text-align:left" | {{flag|Pha Hii}} || 1,371,579 || 1765
+| 16 || style="text-align:left" | {{flag|Pha Hii}} || {{lahn}}1,371,579 million || 1765
 |-
-| 17 || style="text-align:left" | {{flag|Oyreain}} || 1,291,222 || 1765
+| 17 || style="text-align:left" | {{flag|Oyreain}} || {{lahn}}1,291,222 million || 1765
 |-
-| 18 || style="text-align:left" | {{flag|Ahokini}} || 1,214,079 || 1765
+| 18 || style="text-align:left" | {{flag|Ahokini}} || {{lahn}}1,214,079 million || 1765
 |-
-| 19 || style="text-align:left" | {{flag|Verste}} || 1,207,778 || 1765
+| 19 || style="text-align:left" | {{flag|Verste}} || {{lahn}}1,207,778 million || 1765
 |-
-| 20 || style="text-align:left" | {{flag|Ashain}} || 1,194,290 || 1765
+| 20 || style="text-align:left" | {{flag|Ashain}} || {{lahn}}1,194,290 million || 1765
 |-
-| 21 || style="text-align:left" | {{flag|Ztesh}} || 1,122,672 || 1765
+| 21 || style="text-align:left" | {{flag|Ztesh}} || {{lahn}}1,122,672 million || 1765
 |-
-| 22 || style="text-align:left" | {{flag|Ealdorii}} || 1,114,147 || 1765
+| 22 || style="text-align:left" | {{flag|Ealdorii}} || {{lahn}}1,114,147 million || 1765
 |-
-| 23 || style="text-align:left" | {{flag|Taval}} || 1,101,354 || 1765
+| 23 || style="text-align:left" | {{flag|Taval}} || {{lahn}}1,101,354 million || 1765
 |-
-| 24 || style="text-align:left" | {{flag|Trian}} || 1,078,847 || 1765
+| 24 || style="text-align:left" | {{flag|Trian}} || {{lahn}}1,078,847 million || 1765
 |-
-| 25 || style="text-align:left" | {{flag|Inania}} || 1,030,030 || 1765
+| 25 || style="text-align:left" | {{flag|Inania}} || {{lahn}}1,030,030 million || 1765
 |-
-| 26 || style="text-align:left" | {{flag|United Delet}} || 1,020,047 || 1765
+| 26 || style="text-align:left" | {{flag|United Delet}} || {{lahn}}1,020,047 million || 1765
 |-
-| 27 || style="text-align:left" | {{flag|Ukhdari}} || 1,004,742 || 1765
+| 27 || style="text-align:left" | {{flag|Ukhdari}} || {{lahn}}1,004,742 million || 1765
 |-
-| 28 || style="text-align:left" | {{flag|Siana}} || 962,329 || 1765
+| 28 || style="text-align:left" | {{flag|Siana}} || {{lahn}}962,329 million || 1765
 |-
-| 29 || style="text-align:left" | {{flag|Praesyu}} || 916,056 || 1765
+| 29 || style="text-align:left" | {{flag|Praesyu}} || {{lahn}}916,056 million || 1765
 |-
-| 30 || style="text-align:left" | {{flag|New Misos}} || 909,064 || 1765
+| 30 || style="text-align:left" | {{flag|New Misos}} || {{lahn}}909,064 million || 1765
 |-
-| 31 || style="text-align:left" | {{flag|Chaenia}} || 814,395 || 1765
+| 31 || style="text-align:left" | {{flag|Chaenia}} || {{lahn}}814,395 million || 1765
 |-
-| 32 || style="text-align:left" | {{flag|Etretes}} || 752,257 || 1765
+| 32 || style="text-align:left" | {{flag|Etretes}} || {{lahn}}752,257 million || 1765
 |-
-| 33 || style="text-align:left" | {{flag|Suenan}} || 702,582 || 1765
+| 33 || style="text-align:left" | {{flag|Suenan}} || {{lahn}}702,582 million || 1765
 |-
-| 34 || style="text-align:left" | {{flag|Yaxuto}} || 685,024 || 1765
+| 34 || style="text-align:left" | {{flag|Yaxuto}} || {{lahn}}685,024 million || 1765
 |-
-| 35 || style="text-align:left" | {{flag|Desaki}} || 650,640 || 1765
+| 35 || style="text-align:left" | {{flag|Desaki}} || {{lahn}}650,640 million || 1765
 |-
-| 36 || style="text-align:left" | {{flag|Quidic}} || 620,048 || 1765
+| 36 || style="text-align:left" | {{flag|Quidic}} || {{lahn}}620,048 million || 1765
 |-
-| 37 || style="text-align:left" | {{flag|North Ayre}} || 565,001 || 1765
+| 37 || style="text-align:left" | {{flag|North Ayre}} || {{lahn}}565,001 million || 1765
 |-
-| 38 || style="text-align:left" | {{flag|Ilicuhe}} || 558,662 || 1765
+| 38 || style="text-align:left" | {{flag|Ilicuhe}} || {{lahn}}558,662 million || 1765
 |-
-| 39 || style="text-align:left" | {{flag|Genaire}} || 557,132 || 1765
+| 39 || style="text-align:left" | {{flag|Genaire}} || {{lahn}}557,132 million || 1765
 |-
-| 40 || style="text-align:left" | {{flag|Anymna}} || 553,107 || 1765
+| 40 || style="text-align:left" | {{flag|Anymna}} || {{lahn}}553,107 million || 1765
 |-
-| 41 || style="text-align:left" | {{flag|Gaeiya}} || 546,750 || 1765
+| 41 || style="text-align:left" | {{flag|Gaeiya}} || {{lahn}}546,750 million || 1765
 |-
-| 42 || style="text-align:left" | {{flag|Haiza}} || 537,177 || 1765
+| 42 || style="text-align:left" | {{flag|Haiza}} || {{lahn}}537,177 million || 1765
 |-
-| 43 || style="text-align:left" | {{flag|Sadain}} || 389,347 || 1765
+| 43 || style="text-align:left" | {{flag|Sadain}} || {{lahn}}389,347 million || 1765
 |-
-| 44 || style="text-align:left" | {{flag|Finae}} || 383,444 || 1765
+| 44 || style="text-align:left" | {{flag|Finae}} || {{lahn}}383,444 million || 1765
 |-
-| 45 || style="text-align:left" | {{flag|Iareva}} || 375,360 || 1765
+| 45 || style="text-align:left" | {{flag|Iareva}} || {{lahn}}375,360 million || 1765
 |-
-| 46 || style="text-align:left" | {{flag|Disal Nila}} || 375,152 || 1765
+| 46 || style="text-align:left" | {{flag|Disal Nila}} || {{lahn}}375,152 million || 1765
 |-
-| 47 || style="text-align:left" | {{flag|Vesozata}} || 362,461 || 1765
+| 47 || style="text-align:left" | {{flag|Vesozata}} || {{lahn}}362,461 million || 1765
 |-
-| 48 || style="text-align:left" | {{flag|Darewa}} || 353,286 || 1765
+| 48 || style="text-align:left" | {{flag|Darewa}} || {{lahn}}353,286 million || 1765
 |-
-| 49 || style="text-align:left" | {{flag|Erkizil}} || 337,254 || 1765
+| 49 || style="text-align:left" | {{flag|Erkizil}} || {{lahn}}337,254 million || 1765
 |-
-| 50 || style="text-align:left" | {{flag|Selaja}} || 335,897 || 1765
+| 50 || style="text-align:left" | {{flag|Selaja}} || {{lahn}}335,897 million || 1765
 |-
-| 51 || style="text-align:left" | {{flag|Myla}} || 325,112 || 1765
+| 51 || style="text-align:left" | {{flag|Myla}} || {{lahn}}325,112 million || 1765
 |-
-| 52 || style="text-align:left" | {{flag|Ohtina}} || 322,032 || 1765
+| 52 || style="text-align:left" | {{flag|Ohtina}} || {{lahn}}322,032 million || 1765
 |-
-| 53 || style="text-align:left" | {{flag|Wundry}} || 310,165 || 1765
+| 53 || style="text-align:left" | {{flag|Wundry}} || {{lahn}}310,165 million || 1765
 |-
-| 54 || style="text-align:left" | {{flag|Dual Cenryia}} || 310,140 || 1765
+| 54 || style="text-align:left" | {{flag|Dual Cenryia}} || {{lahn}}310,140 million || 1765
 |-
-| 55 || style="text-align:left" | {{flag|Acrana}} || 265,105 || 1765
+| 55 || style="text-align:left" | {{flag|Acrana}} || {{lahn}}265,105 million || 1765
 |-
-| 56 || style="text-align:left" | {{flag|Laselteh}} || 251,724 || 1765
+| 56 || style="text-align:left" | {{flag|Laselteh}} || {{lahn}}251,724 million || 1765
 |-
-| 57 || style="text-align:left" | {{flag|Terressin}} || 248,653 || 1765
+| 57 || style="text-align:left" | {{flag|Terressin}} || {{lahn}}248,653 million || 1765
 |-
-| 58 || style="text-align:left" | {{flag|Pelines}} || 232,700 || 1765
+| 58 || style="text-align:left" | {{flag|Pelines}} || {{lahn}}232,700 million || 1765
 |-
-| 59 || style="text-align:left" | {{flag|Fermori}} || 218,022 || 1765
+| 59 || style="text-align:left" | {{flag|Fermori}} || {{lahn}}218,022 million || 1765
 |-
-| 60 || style="text-align:left" | {{flag|Astye}} || 207,820 || 1765
+| 60 || style="text-align:left" | {{flag|Astye}} || {{lahn}}207,820 million || 1765
 |-
-| 61 || style="text-align:left" | {{flag|Maalle}} || 207,653 || 1765
+| 61 || style="text-align:left" | {{flag|Maalle}} || {{lahn}}207,653 million || 1765
 |-
-| 62 || style="text-align:left" | {{flag|Arbiya}} || 206,048 || 1765
+| 62 || style="text-align:left" | {{flag|Arbiya}} || {{lahn}}206,048 million || 1765
 |-
-| 63 || style="text-align:left" | {{flag|Inrea}} || 202,120 || 1765
+| 63 || style="text-align:left" | {{flag|Inrea}} || {{lahn}}202,120 million || 1765
 |-
-| 64 || style="text-align:left" | {{flag|Prystr Hii}} || 199,333 || 1765
+| 64 || style="text-align:left" | {{flag|Prystr Hii}} || {{lahn}}199,333 million || 1765
 |-
-| 65 || style="text-align:left" | {{flag|Guise}} || 195,206 || 1765
+| 65 || style="text-align:left" | {{flag|Guise}} || {{lahn}}195,206 million || 1765
 |-
-| 66 || style="text-align:left" | {{flag|Volver}} || 187,149 || 1765
+| 66 || style="text-align:left" | {{flag|Volver}} || {{lahn}}187,149 million || 1765
 |-
-| 67 || style="text-align:left" | {{flag|Palina}} || 165,143 || 1765
+| 67 || style="text-align:left" | {{flag|Palina}} || {{lahn}}165,143 million || 1765
 |-
-| 68 || style="text-align:left" | {{flag|Isari}} || 162,331 || 1765
+| 68 || style="text-align:left" | {{flag|Isari}} || {{lahn}}162,331 million || 1765
 |-
-| 69 || style="text-align:left" | {{flag|Eldjo}} || 160,125 || 1765
+| 69 || style="text-align:left" | {{flag|Eldjo}} || {{lahn}}160,125 million || 1765
 |-
-| 70 || style="text-align:left" | {{flag|Mesjan Hyaa}} || 156,203 || 1765
+| 70 || style="text-align:left" | {{flag|Mesjan Hyaa}} || {{lahn}}156,203 million || 1765
 |-
-| 71 || style="text-align:left" | {{flag|Iainoa}} || 153,585 || 1765
+| 71 || style="text-align:left" | {{flag|Iainoa}} || {{lahn}}153,585 million || 1765
 |-
-| 72 || style="text-align:left" | {{flag|Heiso}} || 139,637 || 1765
+| 72 || style="text-align:left" | {{flag|Heiso}} || {{lahn}}139,637 million || 1765
 |-
-| 73 || style="text-align:left" | {{flag|Lydroa}} || 135,918 || 1765
+| 73 || style="text-align:left" | {{flag|Lydroa}} || {{lahn}}135,918 million || 1765
 |-
-| 74 || style="text-align:left" | {{flag|Otiiric}} || 134,153 || 1765
+| 74 || style="text-align:left" | {{flag|Otiiric}} || {{lahn}}134,153 million || 1765
 |-
-| 75 || style="text-align:left" | {{flag|Nia}} || 132,586 || 1765
+| 75 || style="text-align:left" | {{flag|Nia}} || {{lahn}}132,586 million || 1765
 |-
-| 76 || style="text-align:left" | {{flag|Pelan}} || 128,183 || 1765
+| 76 || style="text-align:left" | {{flag|Pelan}} || {{lahn}}128,183 million || 1765
 |-
-| 77 || style="text-align:left" | {{flag|Sivoso}} || 126,222 || 1765
+| 77 || style="text-align:left" | {{flag|Sivoso}} || {{lahn}}126,222 million || 1765
 |-
-| 78 || style="text-align:left" | {{flag|Rijan bu}} || 122,153 || 1765
+| 78 || style="text-align:left" | {{flag|Rijan bu}} || {{lahn}}122,153 million || 1765
 |-
-| 79 || style="text-align:left" | {{flag|Reerica}} || 120,949 || 1765
+| 79 || style="text-align:left" | {{flag|Reerica}} || {{lahn}}120,949 million || 1765
 |-
-| 80 || style="text-align:left" | {{flag|Mendereide}} || 117,123 || 1765
+| 80 || style="text-align:left" | {{flag|Mendereide}} || {{lahn}}117,123 million || 1765
 |-
-| 81 || style="text-align:left" | {{flag|Fincen}} || 115,592 || 1765
+| 81 || style="text-align:left" | {{flag|Fincen}} || {{lahn}}115,592 million || 1765
 |-
-| 82 || style="text-align:left" | {{flag|Curata}} || 113,808 || 1765
+| 82 || style="text-align:left" | {{flag|Curata}} || {{lahn}}113,808 million || 1765
 |-
-| 83 || style="text-align:left" | {{flag|Acetoa}} || 103,755 || 1765
+| 83 || style="text-align:left" | {{flag|Acetoa}} || {{lahn}}103,755 million || 1765
 |-
-| 84 || style="text-align:left" | {{flag|Kusierna}} || 102,894 || 1765
+| 84 || style="text-align:left" | {{flag|Kusierna}} || {{lahn}}102,894 million || 1765
 |-
-| 85 || style="text-align:left" | {{flag|Umarcia}} || 101,746 || 1765
+| 85 || style="text-align:left" | {{flag|Umarcia}} || {{lahn}}101,746 million || 1765
 |-
-| 86 || style="text-align:left" | {{flag|Hkuqo}} || 99,936 || 1765
+| 86 || style="text-align:left" | {{flag|Hkuqo}} || {{lahn}}99,936 million || 1765
 |-
-| 87 || style="text-align:left" | {{flag|Isnti}} || 87,922 || 1765
+| 87 || style="text-align:left" | {{flag|Isnti}} || {{lahn}}87,922 million || 1765
 |-
-| 88 || style="text-align:left" | {{flag|Ihner}} || 86,800 || 1765
+| 88 || style="text-align:left" | {{flag|Ihner}} || {{lahn}}86,800 million || 1765
 |-
-| 89 || style="text-align:left" | {{flag|Prstreula}} || 85,088 || 1765
+| 89 || style="text-align:left" | {{flag|Prstreula}} || {{lahn}}85,088 million || 1765
 |-
-| 90 || style="text-align:left" | {{flag|Oscairia}} || 84,335 || 1765
+| 90 || style="text-align:left" | {{flag|Oscairia}} || {{lahn}}84,335 million || 1765
 |-
-| 91 || style="text-align:left" | {{flag|Phuris}} || 82,418 || 1765
+| 91 || style="text-align:left" | {{flag|Phuris}} || {{lahn}}82,418 million || 1765
 |-
-| 92 || style="text-align:left" | {{flag|Andsaudare}} || 81,566 || 1765
+| 92 || style="text-align:left" | {{flag|Andsaudare}} || {{lahn}}81,566 million || 1765
 |-
-| 93 || style="text-align:left" | {{flag|Grazail}} || 80,355 || 1765
+| 93 || style="text-align:left" | {{flag|Grazail}} || {{lahn}}80,355 million || 1765
 |-
-| 94 || style="text-align:left" | {{flag|Walporein}} || 78,728 || 1765
+| 94 || style="text-align:left" | {{flag|Walporein}} || {{lahn}}78,728 million || 1765
 |-
-| 95 || style="text-align:left" | {{flag|Fire Coast}} || 78,055 || 1765
+| 95 || style="text-align:left" | {{flag|Fire Coast}} || {{lahn}}78,055 million || 1765
 |-
-| 96 || style="text-align:left" | {{flag|Ucrua}} || 77,719 || 1765
+| 96 || style="text-align:left" | {{flag|Ucrua}} || {{lahn}}77,719 million || 1765
 |-
-| 97 || style="text-align:left" | {{flag|Onphello}} || 76,042 || 1765
+| 97 || style="text-align:left" | {{flag|Onphello}} || {{lahn}}76,042 million || 1765
 |-
-| 98 || style="text-align:left" | {{flag|Peka}} || 72,667 || 1765
+| 98 || style="text-align:left" | {{flag|Peka}} || {{lahn}}72,667 million || 1765
 |-
-| 99 || style="text-align:left" | {{flag|Koruch}} || 68,032 || 1765
+| 99 || style="text-align:left" | {{flag|Koruch}} || {{lahn}}68,032 million || 1765
 |-
-| 100 || style="text-align:left" | {{flag|Ruylku}} || 66,618 || 1765
+| 100 || style="text-align:left" | {{flag|Ruylku}} || {{lahn}}66,618 million || 1765
 |-
-| 101 || style="text-align:left" | {{flag|Nheyes Si}} || 65,391 || 1765
+| 101 || style="text-align:left" | {{flag|Nheyes Si}} || {{lahn}}65,391 million || 1765
 |-
-| 102 || style="text-align:left" | {{flag|Exilium}} || 63,922 || 1765
+| 102 || style="text-align:left" | {{flag|Exilium}} || {{lahn}}63,922 million || 1765
 |-
-| 103 || style="text-align:left" | {{flag|United Mihili}} || 63,175 || 1765
+| 103 || style="text-align:left" | {{flag|United Mihili}} || {{lahn}}63,175 million || 1765
 |-
-| 104 || style="text-align:left" | {{flag|Deschon}} || 61,337 || 1765
+| 104 || style="text-align:left" | {{flag|Deschon}} || {{lahn}}61,337 million || 1765
 |-
-| 105 || style="text-align:left" | {{flag|Tomscilus}} || 57,016 || 1765
+| 105 || style="text-align:left" | {{flag|Tomscilus}} || {{lahn}}57,016 million || 1765
 |-
-| 106 || style="text-align:left" | {{flag|Zenashan}} || 56,524 || 1765
+| 106 || style="text-align:left" | {{flag|Zenashan}} || {{lahn}}56,524 million || 1765
 |-
-| 107 || style="text-align:left" | {{flag|Uularin}} || 55,514 || 1765
+| 107 || style="text-align:left" | {{flag|Uularin}} || {{lahn}}55,514 million || 1765
 |-
-| 108 || style="text-align:left" | {{flag|Jshain}} || 55,223 || 1765
+| 108 || style="text-align:left" | {{flag|Jshain}} || {{lahn}}55,223 million || 1765
 |-
-| 109 || style="text-align:left" | {{flag|lasri}} || 54,713 || 1765
+| 109 || style="text-align:left" | {{flag|lasri}} || {{lahn}}54,713 million || 1765
 |-
-| 110 || style="text-align:left" | {{flag|Feio Lie}} || 51,886 || 1765
+| 110 || style="text-align:left" | {{flag|Feio Lie}} || {{lahn}}51,886 million || 1765
 |-
-| 111 || style="text-align:left" | {{flag|Kaastini}} || 51,826 || 1765
+| 111 || style="text-align:left" | {{flag|Kaastini}} || {{lahn}}51,826 million || 1765
 |-
-| 112 || style="text-align:left" | {{flag|Eldavpir}} || 50,627 || 1765
+| 112 || style="text-align:left" | {{flag|Eldavpir}} || {{lahn}}50,627 million || 1765
 |-
-| 113 || style="text-align:left" | {{flag|Taoisia}} || 48,619 || 1765
+| 113 || style="text-align:left" | {{flag|Taoisia}} || {{lahn}}48,619 million || 1765
 |-
-| 114 || style="text-align:left" | {{flag|Aplasia}} || 47,815 || 1765
+| 114 || style="text-align:left" | {{flag|Aplasia}} || {{lahn}}47,815 million || 1765
 |-
-| 115 || style="text-align:left" | {{flag|Iquir}} || 45,520 || 1765
+| 115 || style="text-align:left" | {{flag|Iquir}} || {{lahn}}45,520 million || 1765
 |-
-| 116 || style="text-align:left" | {{flag|Taing}} || 44,875 || 1765
+| 116 || style="text-align:left" | {{flag|Taing}} || {{lahn}}44,875 million || 1765
 |-
-| 117 || style="text-align:left" | {{flag|Ocaun}} || 44,789 || 1765
+| 117 || style="text-align:left" | {{flag|Ocaun}} || {{lahn}}44,789 million || 1765
 |-
-| 118 || style="text-align:left" | {{flag|Galca}} || 41,038 || 1765
+| 118 || style="text-align:left" | {{flag|Galca}} || {{lahn}}41,038 million || 1765
 |-
-| 119 || style="text-align:left" | {{flag|Canldives}} || 32,877 || 1765
+| 119 || style="text-align:left" | {{flag|Canldives}} || {{lahn}}32,877 million || 1765
 |-
-| 120 || style="text-align:left" | {{flag|Slyiaduun}} || 31,653 || 1765
+| 120 || style="text-align:left" | {{flag|Slyiaduun}} || {{lahn}}31,653 million || 1765
 |-
-| 121 || style="text-align:left" | {{flag|Othya}} || 31,388 || 1765
+| 121 || style="text-align:left" | {{flag|Othya}} || {{lahn}}31,388 million || 1765
 |-
-| 122 || style="text-align:left" | {{flag|Lieri}} || 29,359 || 1765
+| 122 || style="text-align:left" | {{flag|Lieri}} || {{lahn}}29,359 million || 1765
 |-
-| 123 || style="text-align:left" | {{flag|Aetintio}} || 27,199 || 1765
+| 123 || style="text-align:left" | {{flag|Aetintio}} || {{lahn}}27,199 million || 1765
 |-
-| 124 || style="text-align:left" | {{flag|Baluyde}} || 25,854 || 1765
+| 124 || style="text-align:left" | {{flag|Baluyde}} || {{lahn}}25,854 million || 1765
 |-
-| 125 || style="text-align:left" | {{flag|Crila Republic}} || 23,655 || 1765
+| 125 || style="text-align:left" | {{flag|Crila Republic}} || {{lahn}}23,655 million || 1765
 |-
-| 126 || style="text-align:left" | {{flag|Viussi}} || 23,493 || 1765
+| 126 || style="text-align:left" | {{flag|Viussi}} || {{lahn}}23,493 million || 1765
 |-
-| 127 || style="text-align:left" | {{flag|Pruim Fijan}} || 23,188 || 1765
+| 127 || style="text-align:left" | {{flag|Pruim Fijan}} || {{lahn}}23,188 million || 1765
 |-
-| 128 || style="text-align:left" | {{flag|Yihnurda}} || 20,531 || 1765
+| 128 || style="text-align:left" | {{flag|Yihnurda}} || {{lahn}}20,531 million || 1765
 |-
-| 129 || style="text-align:left" | {{flag|Ikzen}} || 19,555 || 1765
+| 129 || style="text-align:left" | {{flag|Ikzen}} || {{lahn}}19,555 million || 1765
 |-
-| 130 || style="text-align:left" | {{flag|Yutnitu}} || 19,488 || 1765
+| 130 || style="text-align:left" | {{flag|Yutnitu}} || {{lahn}}19,488 million || 1765
 |-
-| 131 || style="text-align:left" | {{flag|Saa}} || 19,364 || 1765
+| 131 || style="text-align:left" | {{flag|Saa}} || {{lahn}}19,364 million || 1765
 |-
-| 132 || style="text-align:left" | {{flag|New Kizura}} || 19,131 || 1765
+| 132 || style="text-align:left" | {{flag|New Kizura}} || {{lahn}}19,131 million || 1765
 |-
-| 133 || style="text-align:left" | {{flag|Eparia}} || 19,044 || 1765
+| 133 || style="text-align:left" | {{flag|Eparia}} || {{lahn}}19,044 million || 1765
 |-
-| 134 || style="text-align:left" | {{flag|Shinam}} || 18,517 || 1765
+| 134 || style="text-align:left" | {{flag|Shinam}} || {{lahn}}18,517 million || 1765
 |-
-| 135 || style="text-align:left" | {{flag|Ozinia}} || 18,504 || 1765
+| 135 || style="text-align:left" | {{flag|Ozinia}} || {{lahn}}18,504 million || 1765
 |-
-| 136 || style="text-align:left" | {{flag|Taniduna}} || 17,393 || 1765
+| 136 || style="text-align:left" | {{flag|Taniduna}} || {{lahn}}17,393 million || 1765
 |-
-| 137 || style="text-align:left" | {{flag|Danocia}} || 15,846 || 1765
+| 137 || style="text-align:left" | {{flag|Danocia}} || {{lahn}}15,846 million || 1765
 |-
-| 138 || style="text-align:left" | {{flag|Umendel}} || 14,943 || 1765
+| 138 || style="text-align:left" | {{flag|Umendel}} || {{lahn}}14,943 million || 1765
 |-
-| 139 || style="text-align:left" | {{flag|Byllu}} || 14,766 || 1765
+| 139 || style="text-align:left" | {{flag|Byllu}} || {{lahn}}14,766 million || 1765
 |-
-| 140 || style="text-align:left" | {{flag|Amcha}} || 14,443 || 1765
+| 140 || style="text-align:left" | {{flag|Amcha}} || {{lahn}}14,443 million || 1765
 |-
-| 141 || style="text-align:left" | {{flag|Jathua}} || 13,754 || 1765
+| 141 || style="text-align:left" | {{flag|Jathua}} || {{lahn}}13,754 million || 1765
 |-
-| 142 || style="text-align:left" | {{flag|Welenu Fana}} || 13,129 || 1765
+| 142 || style="text-align:left" | {{flag|Welenu Fana}} || {{lahn}}13,129 million || 1765
 |-
-| 143 || style="text-align:left" | {{flag|Stinebar}} || 11,522 || 1765
+| 143 || style="text-align:left" | {{flag|Stinebar}} || {{lahn}}11,522 million || 1765
 |-
-| 144 || style="text-align:left" | {{flag|Rtesania}} || 10,744 || 1765
+| 144 || style="text-align:left" | {{flag|Rtesania}} || {{lahn}}10,744 million || 1765
 |-
-| 145 || style="text-align:left" | {{flag|Urbiqu}} || 10,317 || 1765
+| 145 || style="text-align:left" | {{flag|Urbiqu}} || {{lahn}}10,317 million || 1765
 |-
-| 146 || style="text-align:left" | {{flag|Jau}} || 9,511 || 1765
+| 146 || style="text-align:left" | {{flag|Jau}} || {{lahn}}9,511 million || 1765
 |-
-| 147 || style="text-align:left" | {{flag|Hyelen}} || 9,451 || 1765
+| 147 || style="text-align:left" | {{flag|Hyelen}} || {{lahn}}9,451 million || 1765
 |-
-| 148 || style="text-align:left" | {{flag|Niretui and Anulan}} || 9,041 || 1765
+| 148 || style="text-align:left" | {{flag|Niretui and Anulan}} || {{lahn}}9,041 million || 1765
 |-
-| 149 || style="text-align:left" | {{flag|Sattle}} || 7,384 || 1765
+| 149 || style="text-align:left" | {{flag|Sattle}} || {{lahn}}7,384 million || 1765
 |-
-| 150 || style="text-align:left" | {{flag|Candenat}} || 6,650 || 1765
+| 150 || style="text-align:left" | {{flag|Candenat}} || {{lahn}}6,650 million || 1765
 |-
-| 151 || style="text-align:left" | {{flag|Elja and Munusia}} || 6,358 || 1765
+| 151 || style="text-align:left" | {{flag|Elja and Munusia}} || {{lahn}}6,358 million || 1765
 |-
-| 152 || style="text-align:left" | {{flag|Zhanshe}} || 6,007 || 1765
+| 152 || style="text-align:left" | {{flag|Zhanshe}} || {{lahn}}6,007 million || 1765
 |-
-| 153 || style="text-align:left" | {{flag|Veelmit}} || 5,875 || 1765
+| 153 || style="text-align:left" | {{flag|Veelmit}} || {{lahn}}5,875 million || 1765
 |-
-| 154 || style="text-align:left" | {{flag|Migoku}} || 4,788 || 1765
+| 154 || style="text-align:left" | {{flag|Migoku}} || {{lahn}}4,788 million || 1765
 |-
-| 155 || style="text-align:left" | {{flag|Rinew}} || 3,649 || 1765
+| 155 || style="text-align:left" | {{flag|Rinew}} || {{lahn}}3,649 million || 1765
 |-
-| 156 || style="text-align:left" | {{flag|Metndria}} || 2,548 || 1765
+| 156 || style="text-align:left" | {{flag|Metndria}} || {{lahn}}2,548 million || 1765
 |-
-| 157 || style="text-align:left" | {{flag|Rethern}} || 2,352 || 1765
+| 157 || style="text-align:left" | {{flag|Rethern}} || {{lahn}}2,352 million || 1765
 |-
-| 158 || style="text-align:left" | {{flag|Cloja}} || 1,982 || 1765
+| 158 || style="text-align:left" | {{flag|Cloja}} || {{lahn}}1,982 million || 1765
 |-
-| 159 || style="text-align:left" | {{flag|Niul Spijan}} || 1,927 || 1765
+| 159 || style="text-align:left" | {{flag|Niul Spijan}} || {{lahn}}1,927 million || 1765
 |-
-| 160 || style="text-align:left" | {{flag|Hiwush}} || 1,452 || 1765
+| 160 || style="text-align:left" | {{flag|Hiwush}} || {{lahn}}1,452 million || 1765
 |-
-| 161 || style="text-align:left" | {{flag|Shomjind}} || 1,210 || 1765
+| 161 || style="text-align:left" | {{flag|Shomjind}} || {{lahn}}1,210 million || 1765
 |-
-| 162 || style="text-align:left" | {{flag|Rkmepuia}} || 1,188 || 1765
+| 162 || style="text-align:left" | {{flag|Rkmepuia}} || {{lahn}}1,188 million || 1765
 |-
-| 163 || style="text-align:left" | {{flag|Enina}} || 979 || 1765
+| 163 || style="text-align:left" | {{flag|Enina}} || {{lahn}}979 million || 1765
 |-
-| 164 || style="text-align:left" | {{flag|Tonder}} || 898 || 1765
+| 164 || style="text-align:left" | {{flag|Tonder}} || {{lahn}}898 million || 1765
 |-
-| 165 || style="text-align:left" | {{flag|Yoprioq}} || 773 || 1765
+| 165 || style="text-align:left" | {{flag|Yoprioq}} || {{lahn}}773 million || 1765
 |-
-| 166 || style="text-align:left" | {{flag|Far Lands}} || 678 || 1765
+| 166 || style="text-align:left" | {{flag|Far Lands}} || {{lahn}}678 million || 1765
 |-
-| 167 || style="text-align:left" | {{flag|Isuibul}} || 669 || 1765
+| 167 || style="text-align:left" | {{flag|Isuibul}} || {{lahn}}669 million || 1765
 |-
-| 168 || style="text-align:left" | {{flag|Western Migoku}} || 569 || 1765
+| 168 || style="text-align:left" | {{flag|Western Migoku}} || {{lahn}}569 million || 1765
 |-
-| 169 || style="text-align:left" | {{flag|Letan}} || 382 || 1765
+| 169 || style="text-align:left" | {{flag|Letan}} || {{lahn}}382 million || 1765
 |-
-| 170 || style="text-align:left" | {{flag|Tvecoca}} || 318 || 1765
+| 170 || style="text-align:left" | {{flag|Tvecoca}} || {{lahn}}318 million || 1765
 |-
-| 171 || style="text-align:left" | {{flag|Trevilla}} || 187 || 1765
+| 171 || style="text-align:left" | {{flag|Trevilla}} || {{lahn}}187 million || 1765
 |-
-| 172 || style="text-align:left" | {{flag|Cruthi Anoso}} || 46 || 1765
+| 172 || style="text-align:left" | {{flag|Cruthi Anoso}} || {{lahn}}46 million || 1765
 |}
 
 == By service exports ==
 Service exports cover transport, travel, and financial, business and information services. Figures are in {{lahn}} millions.<ref name="gtu" />
 {| class="wikitable sortable" style="text-align:right"
 |+ Service exports, 1765
-! Rank !! Country !! Service exports ({{lahn}} million) !! Year
+! Rank !! Country !! Service exports !! Year
 |- style="font-style:italic; background:#f2f2f2"
-|  || ''World'' || 30,704,955 || 1765
+|  || ''World'' || {{lahn}}30,704,955 million || 1765
 |-
-| 1 || style="text-align:left" | {{flag|Raledria}} || 5,238,130 || 1765
+| 1 || style="text-align:left" | {{flag|Raledria}} || {{lahn}}5,238,130 million || 1765
 |-
-| 2 || style="text-align:left" | {{flag|Areoix Lie}} || 3,453,305 || 1765
+| 2 || style="text-align:left" | {{flag|Areoix Lie}} || {{lahn}}3,453,305 million || 1765
 |-
-| 3 || style="text-align:left" | {{flag|Dahe}} || 2,841,761 || 1765
+| 3 || style="text-align:left" | {{flag|Dahe}} || {{lahn}}2,841,761 million || 1765
 |-
-| 4 || style="text-align:left" | {{flag|Etirha}} || 1,784,051 || 1765
+| 4 || style="text-align:left" | {{flag|Etirha}} || {{lahn}}1,784,051 million || 1765
 |-
-| 5 || style="text-align:left" | {{flag|Pelugrotoa}} || 1,378,973 || 1765
+| 5 || style="text-align:left" | {{flag|Pelugrotoa}} || {{lahn}}1,378,973 million || 1765
 |-
-| 6 || style="text-align:left" | {{flag|Estijan}} || 1,027,966 || 1765
+| 6 || style="text-align:left" | {{flag|Estijan}} || {{lahn}}1,027,966 million || 1765
 |-
-| 7 || style="text-align:left" | {{flag|Emara}} || 936,504 || 1765
+| 7 || style="text-align:left" | {{flag|Emara}} || {{lahn}}936,504 million || 1765
 |-
-| 8 || style="text-align:left" | {{flag|Lycroa}} || 835,683 || 1765
+| 8 || style="text-align:left" | {{flag|Lycroa}} || {{lahn}}835,683 million || 1765
 |-
-| 9 || style="text-align:left" | {{flag|Easuhura}} || 783,441 || 1765
+| 9 || style="text-align:left" | {{flag|Easuhura}} || {{lahn}}783,441 million || 1765
 |-
-| 10 || style="text-align:left" | {{flag|Verusa}} || 712,544 || 1765
+| 10 || style="text-align:left" | {{flag|Verusa}} || {{lahn}}712,544 million || 1765
 |-
-| 11 || style="text-align:left" | {{flag|Sunsokua}} || 502,965 || 1765
+| 11 || style="text-align:left" | {{flag|Sunsokua}} || {{lahn}}502,965 million || 1765
 |-
-| 12 || style="text-align:left" | {{flag|Ahokini}} || 495,386 || 1765
+| 12 || style="text-align:left" | {{flag|Ahokini}} || {{lahn}}495,386 million || 1765
 |-
-| 13 || style="text-align:left" | {{flag|Siana}} || 481,678 || 1765
+| 13 || style="text-align:left" | {{flag|Siana}} || {{lahn}}481,678 million || 1765
 |-
-| 14 || style="text-align:left" | {{flag|Ashain}} || 461,102 || 1765
+| 14 || style="text-align:left" | {{flag|Ashain}} || {{lahn}}461,102 million || 1765
 |-
-| 15 || style="text-align:left" | {{flag|Taval}} || 450,227 || 1765
+| 15 || style="text-align:left" | {{flag|Taval}} || {{lahn}}450,227 million || 1765
 |-
-| 16 || style="text-align:left" | {{flag|New Misos}} || 419,466 || 1765
+| 16 || style="text-align:left" | {{flag|New Misos}} || {{lahn}}419,466 million || 1765
 |-
-| 17 || style="text-align:left" | {{flag|United Delet}} || 405,141 || 1765
+| 17 || style="text-align:left" | {{flag|United Delet}} || {{lahn}}405,141 million || 1765
 |-
-| 18 || style="text-align:left" | {{flag|Ukhdari}} || 396,041 || 1765
+| 18 || style="text-align:left" | {{flag|Ukhdari}} || {{lahn}}396,041 million || 1765
 |-
-| 19 || style="text-align:left" | {{flag|Praesyu}} || 364,658 || 1765
+| 19 || style="text-align:left" | {{flag|Praesyu}} || {{lahn}}364,658 million || 1765
 |-
-| 20 || style="text-align:left" | {{flag|Sanagara}} || 324,496 || 1765
+| 20 || style="text-align:left" | {{flag|Sanagara}} || {{lahn}}324,496 million || 1765
 |-
-| 21 || style="text-align:left" | {{flag|Yaxuto}} || 309,306 || 1765
+| 21 || style="text-align:left" | {{flag|Yaxuto}} || {{lahn}}309,306 million || 1765
 |-
-| 22 || style="text-align:left" | {{flag|Etretes}} || 294,093 || 1765
+| 22 || style="text-align:left" | {{flag|Etretes}} || {{lahn}}294,093 million || 1765
 |-
-| 23 || style="text-align:left" | {{flag|Ztesh}} || 270,945 || 1765
+| 23 || style="text-align:left" | {{flag|Ztesh}} || {{lahn}}270,945 million || 1765
 |-
-| 24 || style="text-align:left" | {{flag|Pha Hii}} || 252,179 || 1765
+| 24 || style="text-align:left" | {{flag|Pha Hii}} || {{lahn}}252,179 million || 1765
 |-
-| 25 || style="text-align:left" | {{flag|Chaenia}} || 236,557 || 1765
+| 25 || style="text-align:left" | {{flag|Chaenia}} || {{lahn}}236,557 million || 1765
 |-
-| 26 || style="text-align:left" | {{flag|Trian}} || 230,555 || 1765
+| 26 || style="text-align:left" | {{flag|Trian}} || {{lahn}}230,555 million || 1765
 |-
-| 27 || style="text-align:left" | {{flag|Vayvele}} || 218,652 || 1765
+| 27 || style="text-align:left" | {{flag|Vayvele}} || {{lahn}}218,652 million || 1765
 |-
-| 28 || style="text-align:left" | {{flag|Seytinemas}} || 206,311 || 1765
+| 28 || style="text-align:left" | {{flag|Seytinemas}} || {{lahn}}206,311 million || 1765
 |-
-| 29 || style="text-align:left" | {{flag|Quidic}} || 192,890 || 1765
+| 29 || style="text-align:left" | {{flag|Quidic}} || {{lahn}}192,890 million || 1765
 |-
-| 30 || style="text-align:left" | {{flag|Oyreain}} || 182,073 || 1765
+| 30 || style="text-align:left" | {{flag|Oyreain}} || {{lahn}}182,073 million || 1765
 |-
-| 31 || style="text-align:left" | {{flag|Genaire}} || 175,881 || 1765
+| 31 || style="text-align:left" | {{flag|Genaire}} || {{lahn}}175,881 million || 1765
 |-
-| 32 || style="text-align:left" | {{flag|Desaki}} || 174,307 || 1765
+| 32 || style="text-align:left" | {{flag|Desaki}} || {{lahn}}174,307 million || 1765
 |-
-| 33 || style="text-align:left" | {{flag|Verste}} || 174,016 || 1765
+| 33 || style="text-align:left" | {{flag|Verste}} || {{lahn}}174,016 million || 1765
 |-
-| 34 || style="text-align:left" | {{flag|Finae}} || 158,089 || 1765
+| 34 || style="text-align:left" | {{flag|Finae}} || {{lahn}}158,089 million || 1765
 |-
-| 35 || style="text-align:left" | {{flag|Suenan}} || 152,267 || 1765
+| 35 || style="text-align:left" | {{flag|Suenan}} || {{lahn}}152,267 million || 1765
 |-
-| 36 || style="text-align:left" | {{flag|Merela Sta}} || 136,954 || 1765
+| 36 || style="text-align:left" | {{flag|Merela Sta}} || {{lahn}}136,954 million || 1765
 |-
-| 37 || style="text-align:left" | {{flag|Laselteh}} || 127,760 || 1765
+| 37 || style="text-align:left" | {{flag|Laselteh}} || {{lahn}}127,760 million || 1765
 |-
-| 38 || style="text-align:left" | {{flag|Darewa}} || 127,006 || 1765
+| 38 || style="text-align:left" | {{flag|Darewa}} || {{lahn}}127,006 million || 1765
 |-
-| 39 || style="text-align:left" | {{flag|Ohtina}} || 126,691 || 1765
+| 39 || style="text-align:left" | {{flag|Ohtina}} || {{lahn}}126,691 million || 1765
 |-
-| 40 || style="text-align:left" | {{flag|Ealdorii}} || 125,441 || 1765
+| 40 || style="text-align:left" | {{flag|Ealdorii}} || {{lahn}}125,441 million || 1765
 |-
-| 41 || style="text-align:left" | {{flag|Disal Nila}} || 124,221 || 1765
+| 41 || style="text-align:left" | {{flag|Disal Nila}} || {{lahn}}124,221 million || 1765
 |-
-| 42 || style="text-align:left" | {{flag|Inania}} || 123,293 || 1765
+| 42 || style="text-align:left" | {{flag|Inania}} || {{lahn}}123,293 million || 1765
 |-
-| 43 || style="text-align:left" | {{flag|Prystr Hii}} || 121,364 || 1765
+| 43 || style="text-align:left" | {{flag|Prystr Hii}} || {{lahn}}121,364 million || 1765
 |-
-| 44 || style="text-align:left" | {{flag|Myla}} || 119,918 || 1765
+| 44 || style="text-align:left" | {{flag|Myla}} || {{lahn}}119,918 million || 1765
 |-
-| 45 || style="text-align:left" | {{flag|Gaeiya}} || 110,352 || 1765
+| 45 || style="text-align:left" | {{flag|Gaeiya}} || {{lahn}}110,352 million || 1765
 |-
-| 46 || style="text-align:left" | {{flag|Anymna}} || 100,393 || 1765
+| 46 || style="text-align:left" | {{flag|Anymna}} || {{lahn}}100,393 million || 1765
 |-
-| 47 || style="text-align:left" | {{flag|Vesozata}} || 94,837 || 1765
+| 47 || style="text-align:left" | {{flag|Vesozata}} || {{lahn}}94,837 million || 1765
 |-
-| 48 || style="text-align:left" | {{flag|Iareva}} || 94,372 || 1765
+| 48 || style="text-align:left" | {{flag|Iareva}} || {{lahn}}94,372 million || 1765
 |-
-| 49 || style="text-align:left" | {{flag|Ilicuhe}} || 90,975 || 1765
+| 49 || style="text-align:left" | {{flag|Ilicuhe}} || {{lahn}}90,975 million || 1765
 |-
-| 50 || style="text-align:left" | {{flag|Selaja}} || 88,748 || 1765
+| 50 || style="text-align:left" | {{flag|Selaja}} || {{lahn}}88,748 million || 1765
 |-
-| 51 || style="text-align:left" | {{flag|Acrana}} || 79,969 || 1765
+| 51 || style="text-align:left" | {{flag|Acrana}} || {{lahn}}79,969 million || 1765
 |-
-| 52 || style="text-align:left" | {{flag|Terressin}} || 77,008 || 1765
+| 52 || style="text-align:left" | {{flag|Terressin}} || {{lahn}}77,008 million || 1765
 |-
-| 53 || style="text-align:left" | {{flag|Canldives}} || 76,849 || 1765
+| 53 || style="text-align:left" | {{flag|Canldives}} || {{lahn}}76,849 million || 1765
 |-
-| 54 || style="text-align:left" | {{flag|Dual Cenryia}} || 76,750 || 1765
+| 54 || style="text-align:left" | {{flag|Dual Cenryia}} || {{lahn}}76,750 million || 1765
 |-
-| 55 || style="text-align:left" | {{flag|Sadain}} || 74,316 || 1765
+| 55 || style="text-align:left" | {{flag|Sadain}} || {{lahn}}74,316 million || 1765
 |-
-| 56 || style="text-align:left" | {{flag|Fermori}} || 70,116 || 1765
+| 56 || style="text-align:left" | {{flag|Fermori}} || {{lahn}}70,116 million || 1765
 |-
-| 57 || style="text-align:left" | {{flag|Eldjo}} || 64,188 || 1765
+| 57 || style="text-align:left" | {{flag|Eldjo}} || {{lahn}}64,188 million || 1765
 |-
-| 58 || style="text-align:left" | {{flag|Wundry}} || 59,799 || 1765
+| 58 || style="text-align:left" | {{flag|Wundry}} || {{lahn}}59,799 million || 1765
 |-
-| 59 || style="text-align:left" | {{flag|Isari}} || 56,938 || 1765
+| 59 || style="text-align:left" | {{flag|Isari}} || {{lahn}}56,938 million || 1765
 |-
-| 60 || style="text-align:left" | {{flag|North Ayre}} || 55,762 || 1765
+| 60 || style="text-align:left" | {{flag|North Ayre}} || {{lahn}}55,762 million || 1765
 |-
-| 61 || style="text-align:left" | {{flag|Fincen}} || 51,185 || 1765
+| 61 || style="text-align:left" | {{flag|Fincen}} || {{lahn}}51,185 million || 1765
 |-
-| 62 || style="text-align:left" | {{flag|Pelines}} || 50,057 || 1765
+| 62 || style="text-align:left" | {{flag|Pelines}} || {{lahn}}50,057 million || 1765
 |-
-| 63 || style="text-align:left" | {{flag|Astye}} || 50,014 || 1765
+| 63 || style="text-align:left" | {{flag|Astye}} || {{lahn}}50,014 million || 1765
 |-
-| 64 || style="text-align:left" | {{flag|Volver}} || 48,784 || 1765
+| 64 || style="text-align:left" | {{flag|Volver}} || {{lahn}}48,784 million || 1765
 |-
-| 65 || style="text-align:left" | {{flag|Haiza}} || 48,238 || 1765
+| 65 || style="text-align:left" | {{flag|Haiza}} || {{lahn}}48,238 million || 1765
 |-
-| 66 || style="text-align:left" | {{flag|Arbiya}} || 47,743 || 1765
+| 66 || style="text-align:left" | {{flag|Arbiya}} || {{lahn}}47,743 million || 1765
 |-
-| 67 || style="text-align:left" | {{flag|Curata}} || 45,859 || 1765
+| 67 || style="text-align:left" | {{flag|Curata}} || {{lahn}}45,859 million || 1765
 |-
-| 68 || style="text-align:left" | {{flag|Rijan bu}} || 45,228 || 1765
+| 68 || style="text-align:left" | {{flag|Rijan bu}} || {{lahn}}45,228 million || 1765
 |-
-| 69 || style="text-align:left" | {{flag|Lydroa}} || 44,685 || 1765
+| 69 || style="text-align:left" | {{flag|Lydroa}} || {{lahn}}44,685 million || 1765
 |-
-| 70 || style="text-align:left" | {{flag|Stinebar}} || 43,179 || 1765
+| 70 || style="text-align:left" | {{flag|Stinebar}} || {{lahn}}43,179 million || 1765
 |-
-| 71 || style="text-align:left" | {{flag|Guise}} || 42,954 || 1765
+| 71 || style="text-align:left" | {{flag|Guise}} || {{lahn}}42,954 million || 1765
 |-
-| 72 || style="text-align:left" | {{flag|Heiso}} || 42,104 || 1765
+| 72 || style="text-align:left" | {{flag|Heiso}} || {{lahn}}42,104 million || 1765
 |-
-| 73 || style="text-align:left" | {{flag|Pelan}} || 40,958 || 1765
+| 73 || style="text-align:left" | {{flag|Pelan}} || {{lahn}}40,958 million || 1765
 |-
-| 74 || style="text-align:left" | {{flag|Baluyde}} || 38,453 || 1765
+| 74 || style="text-align:left" | {{flag|Baluyde}} || {{lahn}}38,453 million || 1765
 |-
-| 75 || style="text-align:left" | {{flag|Reerica}} || 38,065 || 1765
+| 75 || style="text-align:left" | {{flag|Reerica}} || {{lahn}}38,065 million || 1765
 |-
-| 76 || style="text-align:left" | {{flag|Acetoa}} || 37,863 || 1765
+| 76 || style="text-align:left" | {{flag|Acetoa}} || {{lahn}}37,863 million || 1765
 |-
-| 77 || style="text-align:left" | {{flag|Mesjan Hyaa}} || 37,046 || 1765
+| 77 || style="text-align:left" | {{flag|Mesjan Hyaa}} || {{lahn}}37,046 million || 1765
 |-
-| 78 || style="text-align:left" | {{flag|Mendereide}} || 35,968 || 1765
+| 78 || style="text-align:left" | {{flag|Mendereide}} || {{lahn}}35,968 million || 1765
 |-
-| 79 || style="text-align:left" | {{flag|Crila Republic}} || 35,036 || 1765
+| 79 || style="text-align:left" | {{flag|Crila Republic}} || {{lahn}}35,036 million || 1765
 |-
-| 80 || style="text-align:left" | {{flag|Umarcia}} || 34,286 || 1765
+| 80 || style="text-align:left" | {{flag|Umarcia}} || {{lahn}}34,286 million || 1765
 |-
-| 81 || style="text-align:left" | {{flag|Walporein}} || 33,347 || 1765
+| 81 || style="text-align:left" | {{flag|Walporein}} || {{lahn}}33,347 million || 1765
 |-
-| 82 || style="text-align:left" | {{flag|Sivoso}} || 31,339 || 1765
+| 82 || style="text-align:left" | {{flag|Sivoso}} || {{lahn}}31,339 million || 1765
 |-
-| 83 || style="text-align:left" | {{flag|Grazail}} || 30,676 || 1765
+| 83 || style="text-align:left" | {{flag|Grazail}} || {{lahn}}30,676 million || 1765
 |-
-| 84 || style="text-align:left" | {{flag|Hkuqo}} || 30,458 || 1765
+| 84 || style="text-align:left" | {{flag|Hkuqo}} || {{lahn}}30,458 million || 1765
 |-
-| 85 || style="text-align:left" | {{flag|Otiiric}} || 29,127 || 1765
+| 85 || style="text-align:left" | {{flag|Otiiric}} || {{lahn}}29,127 million || 1765
 |-
-| 86 || style="text-align:left" | {{flag|Prstreula}} || 28,960 || 1765
+| 86 || style="text-align:left" | {{flag|Prstreula}} || {{lahn}}28,960 million || 1765
 |-
-| 87 || style="text-align:left" | {{flag|Kusierna}} || 28,945 || 1765
+| 87 || style="text-align:left" | {{flag|Kusierna}} || {{lahn}}28,945 million || 1765
 |-
-| 88 || style="text-align:left" | {{flag|Yutnitu}} || 28,814 || 1765
+| 88 || style="text-align:left" | {{flag|Yutnitu}} || {{lahn}}28,814 million || 1765
 |-
-| 89 || style="text-align:left" | {{flag|Tomscilus}} || 28,395 || 1765
+| 89 || style="text-align:left" | {{flag|Tomscilus}} || {{lahn}}28,395 million || 1765
 |-
-| 90 || style="text-align:left" | {{flag|Palina}} || 24,518 || 1765
+| 90 || style="text-align:left" | {{flag|Palina}} || {{lahn}}24,518 million || 1765
 |-
-| 91 || style="text-align:left" | {{flag|Peka}} || 24,270 || 1765
+| 91 || style="text-align:left" | {{flag|Peka}} || {{lahn}}24,270 million || 1765
 |-
-| 92 || style="text-align:left" | {{flag|Erkizil}} || 23,124 || 1765
+| 92 || style="text-align:left" | {{flag|Erkizil}} || {{lahn}}23,124 million || 1765
 |-
-| 93 || style="text-align:left" | {{flag|Isnti}} || 22,222 || 1765
+| 93 || style="text-align:left" | {{flag|Isnti}} || {{lahn}}22,222 million || 1765
 |-
-| 94 || style="text-align:left" | {{flag|Jshain}} || 22,000 || 1765
+| 94 || style="text-align:left" | {{flag|Jshain}} || {{lahn}}22,000 million || 1765
 |-
-| 95 || style="text-align:left" | {{flag|Deschon}} || 21,794 || 1765
+| 95 || style="text-align:left" | {{flag|Deschon}} || {{lahn}}21,794 million || 1765
 |-
-| 96 || style="text-align:left" | {{flag|New Kizura}} || 20,726 || 1765
+| 96 || style="text-align:left" | {{flag|New Kizura}} || {{lahn}}20,726 million || 1765
 |-
-| 97 || style="text-align:left" | {{flag|Taing}} || 19,704 || 1765
+| 97 || style="text-align:left" | {{flag|Taing}} || {{lahn}}19,704 million || 1765
 |-
-| 98 || style="text-align:left" | {{flag|Inrea}} || 19,650 || 1765
+| 98 || style="text-align:left" | {{flag|Inrea}} || {{lahn}}19,650 million || 1765
 |-
-| 99 || style="text-align:left" | {{flag|Uularin}} || 19,170 || 1765
+| 99 || style="text-align:left" | {{flag|Uularin}} || {{lahn}}19,170 million || 1765
 |-
-| 100 || style="text-align:left" | {{flag|Phuris}} || 19,120 || 1765
+| 100 || style="text-align:left" | {{flag|Phuris}} || {{lahn}}19,120 million || 1765
 |-
-| 101 || style="text-align:left" | {{flag|Maalle}} || 19,067 || 1765
+| 101 || style="text-align:left" | {{flag|Maalle}} || {{lahn}}19,067 million || 1765
 |-
-| 102 || style="text-align:left" | {{flag|Nheyes Si}} || 17,438 || 1765
+| 102 || style="text-align:left" | {{flag|Nheyes Si}} || {{lahn}}17,438 million || 1765
 |-
-| 103 || style="text-align:left" | {{flag|Iainoa}} || 17,418 || 1765
+| 103 || style="text-align:left" | {{flag|Iainoa}} || {{lahn}}17,418 million || 1765
 |-
-| 104 || style="text-align:left" | {{flag|Feio Lie}} || 17,064 || 1765
+| 104 || style="text-align:left" | {{flag|Feio Lie}} || {{lahn}}17,064 million || 1765
 |-
-| 105 || style="text-align:left" | {{flag|Ucrua}} || 16,203 || 1765
+| 105 || style="text-align:left" | {{flag|Ucrua}} || {{lahn}}16,203 million || 1765
 |-
-| 106 || style="text-align:left" | {{flag|lasri}} || 15,946 || 1765
+| 106 || style="text-align:left" | {{flag|lasri}} || {{lahn}}15,946 million || 1765
 |-
-| 107 || style="text-align:left" | {{flag|Koruch}} || 15,754 || 1765
+| 107 || style="text-align:left" | {{flag|Koruch}} || {{lahn}}15,754 million || 1765
 |-
-| 108 || style="text-align:left" | {{flag|Kaastini}} || 15,254 || 1765
+| 108 || style="text-align:left" | {{flag|Kaastini}} || {{lahn}}15,254 million || 1765
 |-
-| 109 || style="text-align:left" | {{flag|United Mihili}} || 14,086 || 1765
+| 109 || style="text-align:left" | {{flag|United Mihili}} || {{lahn}}14,086 million || 1765
 |-
-| 110 || style="text-align:left" | {{flag|Nia}} || 13,792 || 1765
+| 110 || style="text-align:left" | {{flag|Nia}} || {{lahn}}13,792 million || 1765
 |-
-| 111 || style="text-align:left" | {{flag|Onphello}} || 13,334 || 1765
+| 111 || style="text-align:left" | {{flag|Onphello}} || {{lahn}}13,334 million || 1765
 |-
-| 112 || style="text-align:left" | {{flag|Zenashan}} || 13,257 || 1765
+| 112 || style="text-align:left" | {{flag|Zenashan}} || {{lahn}}13,257 million || 1765
 |-
-| 113 || style="text-align:left" | {{flag|Aplasia}} || 12,591 || 1765
+| 113 || style="text-align:left" | {{flag|Aplasia}} || {{lahn}}12,591 million || 1765
 |-
-| 114 || style="text-align:left" | {{flag|Exilium}} || 11,836 || 1765
+| 114 || style="text-align:left" | {{flag|Exilium}} || {{lahn}}11,836 million || 1765
 |-
-| 115 || style="text-align:left" | {{flag|Ruylku}} || 11,633 || 1765
+| 115 || style="text-align:left" | {{flag|Ruylku}} || {{lahn}}11,633 million || 1765
 |-
-| 116 || style="text-align:left" | {{flag|Aetintio}} || 10,040 || 1765
+| 116 || style="text-align:left" | {{flag|Aetintio}} || {{lahn}}10,040 million || 1765
 |-
-| 117 || style="text-align:left" | {{flag|Oscairia}} || 10,023 || 1765
+| 117 || style="text-align:left" | {{flag|Oscairia}} || {{lahn}}10,023 million || 1765
 |-
-| 118 || style="text-align:left" | {{flag|Eldavpir}} || 9,683 || 1765
+| 118 || style="text-align:left" | {{flag|Eldavpir}} || {{lahn}}9,683 million || 1765
 |-
-| 119 || style="text-align:left" | {{flag|Metndria}} || 9,639 || 1765
+| 119 || style="text-align:left" | {{flag|Metndria}} || {{lahn}}9,639 million || 1765
 |-
-| 120 || style="text-align:left" | {{flag|Ihner}} || 9,505 || 1765
+| 120 || style="text-align:left" | {{flag|Ihner}} || {{lahn}}9,505 million || 1765
 |-
-| 121 || style="text-align:left" | {{flag|Fire Coast}} || 9,278 || 1765
+| 121 || style="text-align:left" | {{flag|Fire Coast}} || {{lahn}}9,278 million || 1765
 |-
-| 122 || style="text-align:left" | {{flag|Taoisia}} || 8,431 || 1765
+| 122 || style="text-align:left" | {{flag|Taoisia}} || {{lahn}}8,431 million || 1765
 |-
-| 123 || style="text-align:left" | {{flag|Galca}} || 7,511 || 1765
+| 123 || style="text-align:left" | {{flag|Galca}} || {{lahn}}7,511 million || 1765
 |-
-| 124 || style="text-align:left" | {{flag|Lieri}} || 7,463 || 1765
+| 124 || style="text-align:left" | {{flag|Lieri}} || {{lahn}}7,463 million || 1765
 |-
-| 125 || style="text-align:left" | {{flag|Iquir}} || 7,124 || 1765
+| 125 || style="text-align:left" | {{flag|Iquir}} || {{lahn}}7,124 million || 1765
 |-
-| 126 || style="text-align:left" | {{flag|Othya}} || 5,643 || 1765
+| 126 || style="text-align:left" | {{flag|Othya}} || {{lahn}}5,643 million || 1765
 |-
-| 127 || style="text-align:left" | {{flag|Eparia}} || 5,535 || 1765
+| 127 || style="text-align:left" | {{flag|Eparia}} || {{lahn}}5,535 million || 1765
 |-
-| 128 || style="text-align:left" | {{flag|Slyiaduun}} || 5,214 || 1765
+| 128 || style="text-align:left" | {{flag|Slyiaduun}} || {{lahn}}5,214 million || 1765
 |-
-| 129 || style="text-align:left" | {{flag|Ocaun}} || 5,209 || 1765
+| 129 || style="text-align:left" | {{flag|Ocaun}} || {{lahn}}5,209 million || 1765
 |-
-| 130 || style="text-align:left" | {{flag|Andsaudare}} || 4,485 || 1765
+| 130 || style="text-align:left" | {{flag|Andsaudare}} || {{lahn}}4,485 million || 1765
 |-
-| 131 || style="text-align:left" | {{flag|Viussi}} || 3,999 || 1765
+| 131 || style="text-align:left" | {{flag|Viussi}} || {{lahn}}3,999 million || 1765
 |-
-| 132 || style="text-align:left" | {{flag|Rinew}} || 3,953 || 1765
+| 132 || style="text-align:left" | {{flag|Rinew}} || {{lahn}}3,953 million || 1765
 |-
-| 133 || style="text-align:left" | {{flag|Jau}} || 3,893 || 1765
+| 133 || style="text-align:left" | {{flag|Jau}} || {{lahn}}3,893 million || 1765
 |-
-| 134 || style="text-align:left" | {{flag|Shinam}} || 3,881 || 1765
+| 134 || style="text-align:left" | {{flag|Shinam}} || {{lahn}}3,881 million || 1765
 |-
-| 135 || style="text-align:left" | {{flag|Niretui and Anulan}} || 3,857 || 1765
+| 135 || style="text-align:left" | {{flag|Niretui and Anulan}} || {{lahn}}3,857 million || 1765
 |-
-| 136 || style="text-align:left" | {{flag|Ozinia}} || 3,500 || 1765
+| 136 || style="text-align:left" | {{flag|Ozinia}} || {{lahn}}3,500 million || 1765
 |-
-| 137 || style="text-align:left" | {{flag|Yihnurda}} || 3,282 || 1765
+| 137 || style="text-align:left" | {{flag|Yihnurda}} || {{lahn}}3,282 million || 1765
 |-
-| 138 || style="text-align:left" | {{flag|Taniduna}} || 3,133 || 1765
+| 138 || style="text-align:left" | {{flag|Taniduna}} || {{lahn}}3,133 million || 1765
 |-
-| 139 || style="text-align:left" | {{flag|Umendel}} || 3,117 || 1765
+| 139 || style="text-align:left" | {{flag|Umendel}} || {{lahn}}3,117 million || 1765
 |-
-| 140 || style="text-align:left" | {{flag|Rkmepuia}} || 3,046 || 1765
+| 140 || style="text-align:left" | {{flag|Rkmepuia}} || {{lahn}}3,046 million || 1765
 |-
-| 141 || style="text-align:left" | {{flag|Byllu}} || 2,870 || 1765
+| 141 || style="text-align:left" | {{flag|Byllu}} || {{lahn}}2,870 million || 1765
 |-
-| 142 || style="text-align:left" | {{flag|Hiwush}} || 2,804 || 1765
+| 142 || style="text-align:left" | {{flag|Hiwush}} || {{lahn}}2,804 million || 1765
 |-
-| 143 || style="text-align:left" | {{flag|Cloja}} || 2,798 || 1765
+| 143 || style="text-align:left" | {{flag|Cloja}} || {{lahn}}2,798 million || 1765
 |-
-| 144 || style="text-align:left" | {{flag|Pruim Fijan}} || 2,431 || 1765
+| 144 || style="text-align:left" | {{flag|Pruim Fijan}} || {{lahn}}2,431 million || 1765
 |-
-| 145 || style="text-align:left" | {{flag|Jathua}} || 2,411 || 1765
+| 145 || style="text-align:left" | {{flag|Jathua}} || {{lahn}}2,411 million || 1765
 |-
-| 146 || style="text-align:left" | {{flag|Candenat}} || 2,198 || 1765
+| 146 || style="text-align:left" | {{flag|Candenat}} || {{lahn}}2,198 million || 1765
 |-
-| 147 || style="text-align:left" | {{flag|Saa}} || 2,130 || 1765
+| 147 || style="text-align:left" | {{flag|Saa}} || {{lahn}}2,130 million || 1765
 |-
-| 148 || style="text-align:left" | {{flag|Niul Spijan}} || 2,088 || 1765
+| 148 || style="text-align:left" | {{flag|Niul Spijan}} || {{lahn}}2,088 million || 1765
 |-
-| 149 || style="text-align:left" | {{flag|Rtesania}} || 2,017 || 1765
+| 149 || style="text-align:left" | {{flag|Rtesania}} || {{lahn}}2,017 million || 1765
 |-
-| 150 || style="text-align:left" | {{flag|Hyelen}} || 1,971 || 1765
+| 150 || style="text-align:left" | {{flag|Hyelen}} || {{lahn}}1,971 million || 1765
 |-
-| 151 || style="text-align:left" | {{flag|Danocia}} || 1,925 || 1765
+| 151 || style="text-align:left" | {{flag|Danocia}} || {{lahn}}1,925 million || 1765
 |-
-| 152 || style="text-align:left" | {{flag|Shomjind}} || 1,822 || 1765
+| 152 || style="text-align:left" | {{flag|Shomjind}} || {{lahn}}1,822 million || 1765
 |-
-| 153 || style="text-align:left" | {{flag|Ikzen}} || 1,733 || 1765
+| 153 || style="text-align:left" | {{flag|Ikzen}} || {{lahn}}1,733 million || 1765
 |-
-| 154 || style="text-align:left" | {{flag|Sattle}} || 1,506 || 1765
+| 154 || style="text-align:left" | {{flag|Sattle}} || {{lahn}}1,506 million || 1765
 |-
-| 155 || style="text-align:left" | {{flag|Amcha}} || 1,397 || 1765
+| 155 || style="text-align:left" | {{flag|Amcha}} || {{lahn}}1,397 million || 1765
 |-
-| 156 || style="text-align:left" | {{flag|Urbiqu}} || 1,062 || 1765
+| 156 || style="text-align:left" | {{flag|Urbiqu}} || {{lahn}}1,062 million || 1765
 |-
-| 157 || style="text-align:left" | {{flag|Enina}} || 1,060 || 1765
+| 157 || style="text-align:left" | {{flag|Enina}} || {{lahn}}1,060 million || 1765
 |-
-| 158 || style="text-align:left" | {{flag|Welenu Fana}} || 849 || 1765
+| 158 || style="text-align:left" | {{flag|Welenu Fana}} || {{lahn}}849 million || 1765
 |-
-| 159 || style="text-align:left" | {{flag|Rethern}} || 732 || 1765
+| 159 || style="text-align:left" | {{flag|Rethern}} || {{lahn}}732 million || 1765
 |-
-| 160 || style="text-align:left" | {{flag|Isuibul}} || 725 || 1765
+| 160 || style="text-align:left" | {{flag|Isuibul}} || {{lahn}}725 million || 1765
 |-
-| 161 || style="text-align:left" | {{flag|Zhanshe}} || 583 || 1765
+| 161 || style="text-align:left" | {{flag|Zhanshe}} || {{lahn}}583 million || 1765
 |-
-| 162 || style="text-align:left" | {{flag|Veelmit}} || 563 || 1765
+| 162 || style="text-align:left" | {{flag|Veelmit}} || {{lahn}}563 million || 1765
 |-
-| 163 || style="text-align:left" | {{flag|Elja and Munusia}} || 532 || 1765
+| 163 || style="text-align:left" | {{flag|Elja and Munusia}} || {{lahn}}532 million || 1765
 |-
-| 164 || style="text-align:left" | {{flag|Letan}} || 414 || 1765
+| 164 || style="text-align:left" | {{flag|Letan}} || {{lahn}}414 million || 1765
 |-
-| 165 || style="text-align:left" | {{flag|Tvecoca}} || 345 || 1765
+| 165 || style="text-align:left" | {{flag|Tvecoca}} || {{lahn}}345 million || 1765
 |-
-| 166 || style="text-align:left" | {{flag|Migoku}} || 334 || 1765
+| 166 || style="text-align:left" | {{flag|Migoku}} || {{lahn}}334 million || 1765
 |-
-| 167 || style="text-align:left" | {{flag|Yoprioq}} || 332 || 1765
+| 167 || style="text-align:left" | {{flag|Yoprioq}} || {{lahn}}332 million || 1765
 |-
-| 168 || style="text-align:left" | {{flag|Trevilla}} || 202 || 1765
+| 168 || style="text-align:left" | {{flag|Trevilla}} || {{lahn}}202 million || 1765
 |-
-| 169 || style="text-align:left" | {{flag|Tonder}} || 90 || 1765
+| 169 || style="text-align:left" | {{flag|Tonder}} || {{lahn}}90 million || 1765
 |-
-| 170 || style="text-align:left" | {{flag|Far Lands}} || 83 || 1765
+| 170 || style="text-align:left" | {{flag|Far Lands}} || {{lahn}}83 million || 1765
 |-
-| 171 || style="text-align:left" | {{flag|Western Migoku}} || 54 || 1765
+| 171 || style="text-align:left" | {{flag|Western Migoku}} || {{lahn}}54 million || 1765
 |-
-| 172 || style="text-align:left" | {{flag|Cruthi Anoso}} || 50 || 1765
+| 172 || style="text-align:left" | {{flag|Cruthi Anoso}} || {{lahn}}50 million || 1765
 |}
 
 == See also ==

@@ -3,353 +3,353 @@ This is a '''list of countries by exports per capita''': the value of a country'
 == Exports per capita, 1765 ==
 {| class="wikitable sortable" style="text-align:right"
 |+ Exports per capita by country, 1765
-! Rank !! Country !! Population (thousands) !! Merchandise exports ({{lahn}} million) !! Merchandise exports per capita ({{lahn}}) !! Service exports ({{lahn}} million) !! Service exports per capita ({{lahn}}) !! Total exports ({{lahn}} million) !! Total exports per capita ({{lahn}})
+! Rank !! Country !! Population (thousands) !! Merchandise exports !! Merchandise exports per capita !! Service exports !! Service exports per capita !! Total exports !! Total exports per capita
 |- style="font-style:italic; background:#f2f2f2"
-|  || ''World'' || 6,750,558 || 112,391,078 || 16,649 || 30,704,955 || 4,549 || 143,096,033 || 21,198
+|  || ''World'' || 6,750,558 || {{lahn}}112,391,078 million || {{lahn}}16,649 || {{lahn}}30,704,955 million || {{lahn}}4,549 || {{lahn}}143,096,033 million || {{lahn}}21,198
 |-
-| 1 || style="text-align:left" | {{flag|Pha Hii}} || 2,647 || 1,371,579 || 518,195 || 252,179 || 95,276 || 1,623,759 || 613,471
+| 1 || style="text-align:left" | {{flag|Pha Hii}} || 2,647 || {{lahn}}1,371,579 million || {{lahn}}518,195 || {{lahn}}252,179 million || {{lahn}}95,276 || {{lahn}}1,623,759 million || {{lahn}}613,471
 |-
-| 2 || style="text-align:left" | {{flag|New Kizura}} || 133 || 19,131 || 143,776 || 20,726 || 155,757 || 39,857 || 299,532
+| 2 || style="text-align:left" | {{flag|New Kizura}} || 133 || {{lahn}}19,131 million || {{lahn}}143,776 || {{lahn}}20,726 million || {{lahn}}155,757 || {{lahn}}39,857 million || {{lahn}}299,532
 |-
-| 3 || style="text-align:left" | {{flag|Guise}} || 833 || 195,206 || 234,203 || 42,954 || 51,535 || 238,160 || 285,738
+| 3 || style="text-align:left" | {{flag|Guise}} || 833 || {{lahn}}195,206 million || {{lahn}}234,203 || {{lahn}}42,954 million || {{lahn}}51,535 || {{lahn}}238,160 million || {{lahn}}285,738
 |-
-| 4 || style="text-align:left" | {{flag|Ilicuhe}} || 3,255 || 558,662 || 171,633 || 90,975 || 27,949 || 649,637 || 199,582
+| 4 || style="text-align:left" | {{flag|Ilicuhe}} || 3,255 || {{lahn}}558,662 million || {{lahn}}171,633 || {{lahn}}90,975 million || {{lahn}}27,949 || {{lahn}}649,637 million || {{lahn}}199,582
 |-
-| 5 || style="text-align:left" | {{flag|Prystr Hii}} || 1,641 || 199,333 || 121,485 || 121,364 || 73,966 || 320,697 || 195,451
+| 5 || style="text-align:left" | {{flag|Prystr Hii}} || 1,641 || {{lahn}}199,333 million || {{lahn}}121,485 || {{lahn}}121,364 million || {{lahn}}73,966 || {{lahn}}320,697 million || {{lahn}}195,451
 |-
-| 6 || style="text-align:left" | {{flag|Aplasia}} || 377 || 47,815 || 126,962 || 12,591 || 33,432 || 60,406 || 160,395
+| 6 || style="text-align:left" | {{flag|Aplasia}} || 377 || {{lahn}}47,815 million || {{lahn}}126,962 || {{lahn}}12,591 million || {{lahn}}33,432 || {{lahn}}60,406 million || {{lahn}}160,395
 |-
-| 7 || style="text-align:left" | {{flag|Stinebar}} || 345 || 11,522 || 33,393 || 43,179 || 125,143 || 54,701 || 158,536
+| 7 || style="text-align:left" | {{flag|Stinebar}} || 345 || {{lahn}}11,522 million || {{lahn}}33,393 || {{lahn}}43,179 million || {{lahn}}125,143 || {{lahn}}54,701 million || {{lahn}}158,536
 |-
-| 8 || style="text-align:left" | {{flag|Walporein}} || 730 || 78,728 || 107,817 || 33,347 || 45,668 || 112,075 || 153,484
+| 8 || style="text-align:left" | {{flag|Walporein}} || 730 || {{lahn}}78,728 million || {{lahn}}107,817 || {{lahn}}33,347 million || {{lahn}}45,668 || {{lahn}}112,075 million || {{lahn}}153,484
 |-
-| 9 || style="text-align:left" | {{flag|Merela Sta}} || 23,362 || 3,276,547 || 140,253 || 136,954 || 5,862 || 3,413,501 || 146,116
+| 9 || style="text-align:left" | {{flag|Merela Sta}} || 23,362 || {{lahn}}3,276,547 million || {{lahn}}140,253 || {{lahn}}136,954 million || {{lahn}}5,862 || {{lahn}}3,413,501 million || {{lahn}}146,116
 |-
-| 10 || style="text-align:left" | {{flag|Canldives}} || 759 || 32,877 || 43,313 || 76,849 || 101,245 || 109,726 || 144,558
+| 10 || style="text-align:left" | {{flag|Canldives}} || 759 || {{lahn}}32,877 million || {{lahn}}43,313 || {{lahn}}76,849 million || {{lahn}}101,245 || {{lahn}}109,726 million || {{lahn}}144,558
 |-
-| 11 || style="text-align:left" | {{flag|Tvecoca}} || 5 || 318 || 61,660 || 345 || 66,799 || 663 || 128,459
+| 11 || style="text-align:left" | {{flag|Tvecoca}} || 5 || {{lahn}}318 million || {{lahn}}61,660 || {{lahn}}345 million || {{lahn}}66,799 || {{lahn}}663 million || {{lahn}}128,459
 |-
-| 12 || style="text-align:left" | {{flag|Inrea}} || 2,052 || 202,120 || 98,500 || 19,650 || 9,576 || 221,770 || 108,076
+| 12 || style="text-align:left" | {{flag|Inrea}} || 2,052 || {{lahn}}202,120 million || {{lahn}}98,500 || {{lahn}}19,650 million || {{lahn}}9,576 || {{lahn}}221,770 million || {{lahn}}108,076
 |-
-| 13 || style="text-align:left" | {{flag|Yutnitu}} || 448 || 19,488 || 43,513 || 28,814 || 64,334 || 48,302 || 107,847
+| 13 || style="text-align:left" | {{flag|Yutnitu}} || 448 || {{lahn}}19,488 million || {{lahn}}43,513 || {{lahn}}28,814 million || {{lahn}}64,334 || {{lahn}}48,302 million || {{lahn}}107,847
 |-
-| 14 || style="text-align:left" | {{flag|Koruch}} || 821 || 68,032 || 82,872 || 15,754 || 19,191 || 83,787 || 102,062
+| 14 || style="text-align:left" | {{flag|Koruch}} || 821 || {{lahn}}68,032 million || {{lahn}}82,872 || {{lahn}}15,754 million || {{lahn}}19,191 || {{lahn}}83,787 million || {{lahn}}102,062
 |-
-| 15 || style="text-align:left" | {{flag|Cloja}} || 48 || 1,982 || 41,344 || 2,798 || 58,372 || 4,780 || 99,716
+| 15 || style="text-align:left" | {{flag|Cloja}} || 48 || {{lahn}}1,982 million || {{lahn}}41,344 || {{lahn}}2,798 million || {{lahn}}58,372 || {{lahn}}4,780 million || {{lahn}}99,716
 |-
-| 16 || style="text-align:left" | {{flag|Mesjan Hyaa}} || 2,049 || 156,203 || 76,239 || 37,046 || 18,082 || 193,249 || 94,321
+| 16 || style="text-align:left" | {{flag|Mesjan Hyaa}} || 2,049 || {{lahn}}156,203 million || {{lahn}}76,239 || {{lahn}}37,046 million || {{lahn}}18,082 || {{lahn}}193,249 million || {{lahn}}94,321
 |-
-| 17 || style="text-align:left" | {{flag|Easuhura}} || 29,914 || 1,990,209 || 66,532 || 783,441 || 26,190 || 2,773,650 || 92,722
+| 17 || style="text-align:left" | {{flag|Easuhura}} || 29,914 || {{lahn}}1,990,209 million || {{lahn}}66,532 || {{lahn}}783,441 million || {{lahn}}26,190 || {{lahn}}2,773,650 million || {{lahn}}92,722
 |-
-| 18 || style="text-align:left" | {{flag|Ahokini}} || 20,713 || 1,214,079 || 58,615 || 495,386 || 23,917 || 1,709,465 || 82,531
+| 18 || style="text-align:left" | {{flag|Ahokini}} || 20,713 || {{lahn}}1,214,079 million || {{lahn}}58,615 || {{lahn}}495,386 million || {{lahn}}23,917 || {{lahn}}1,709,465 million || {{lahn}}82,531
 |-
-| 19 || style="text-align:left" | {{flag|Chaenia}} || 13,815 || 814,395 || 58,950 || 236,557 || 17,123 || 1,050,952 || 76,073
+| 19 || style="text-align:left" | {{flag|Chaenia}} || 13,815 || {{lahn}}814,395 million || {{lahn}}58,950 || {{lahn}}236,557 million || {{lahn}}17,123 || {{lahn}}1,050,952 million || {{lahn}}76,073
 |-
-| 20 || style="text-align:left" | {{flag|Peka}} || 1,300 || 72,667 || 55,891 || 24,270 || 18,667 || 96,937 || 74,557
+| 20 || style="text-align:left" | {{flag|Peka}} || 1,300 || {{lahn}}72,667 million || {{lahn}}55,891 || {{lahn}}24,270 million || {{lahn}}18,667 || {{lahn}}96,937 million || {{lahn}}74,557
 |-
-| 21 || style="text-align:left" | {{flag|Tomscilus}} || 1,159 || 57,016 || 49,205 || 28,395 || 24,504 || 85,411 || 73,709
+| 21 || style="text-align:left" | {{flag|Tomscilus}} || 1,159 || {{lahn}}57,016 million || {{lahn}}49,205 || {{lahn}}28,395 million || {{lahn}}24,504 || {{lahn}}85,411 million || {{lahn}}73,709
 |-
-| 22 || style="text-align:left" | {{flag|Gaeiya}} || 9,534 || 546,750 || 57,348 || 110,352 || 11,575 || 657,102 || 68,923
+| 22 || style="text-align:left" | {{flag|Gaeiya}} || 9,534 || {{lahn}}546,750 million || {{lahn}}57,348 || {{lahn}}110,352 million || {{lahn}}11,575 || {{lahn}}657,102 million || {{lahn}}68,923
 |-
-| 23 || style="text-align:left" | {{flag|Etirha}} || 74,667 || 3,324,527 || 44,524 || 1,784,051 || 23,893 || 5,108,578 || 68,418
+| 23 || style="text-align:left" | {{flag|Etirha}} || 74,667 || {{lahn}}3,324,527 million || {{lahn}}44,524 || {{lahn}}1,784,051 million || {{lahn}}23,893 || {{lahn}}5,108,578 million || {{lahn}}68,418
 |-
-| 24 || style="text-align:left" | {{flag|Niretui and Anulan}} || 190 || 9,041 || 47,667 || 3,857 || 20,337 || 12,899 || 68,003
+| 24 || style="text-align:left" | {{flag|Niretui and Anulan}} || 190 || {{lahn}}9,041 million || {{lahn}}47,667 || {{lahn}}3,857 million || {{lahn}}20,337 || {{lahn}}12,899 million || {{lahn}}68,003
 |-
-| 25 || style="text-align:left" | {{flag|Disal Nila}} || 7,439 || 375,152 || 50,433 || 124,221 || 16,700 || 499,373 || 67,133
+| 25 || style="text-align:left" | {{flag|Disal Nila}} || 7,439 || {{lahn}}375,152 million || {{lahn}}50,433 || {{lahn}}124,221 million || {{lahn}}16,700 || {{lahn}}499,373 million || {{lahn}}67,133
 |-
-| 26 || style="text-align:left" | {{flag|Emara}} || 90,861 || 5,007,327 || 55,110 || 936,504 || 10,307 || 5,943,831 || 65,417
+| 26 || style="text-align:left" | {{flag|Emara}} || 90,861 || {{lahn}}5,007,327 million || {{lahn}}55,110 || {{lahn}}936,504 million || {{lahn}}10,307 || {{lahn}}5,943,831 million || {{lahn}}65,417
 |-
-| 27 || style="text-align:left" | {{flag|Sanagara}} || 38,792 || 2,178,639 || 56,162 || 324,496 || 8,365 || 2,503,135 || 64,527
+| 27 || style="text-align:left" | {{flag|Sanagara}} || 38,792 || {{lahn}}2,178,639 million || {{lahn}}56,162 || {{lahn}}324,496 million || {{lahn}}8,365 || {{lahn}}2,503,135 million || {{lahn}}64,527
 |-
-| 28 || style="text-align:left" | {{flag|Crila Republic}} || 946 || 23,655 || 25,006 || 35,036 || 37,037 || 58,692 || 62,044
+| 28 || style="text-align:left" | {{flag|Crila Republic}} || 946 || {{lahn}}23,655 million || {{lahn}}25,006 || {{lahn}}35,036 million || {{lahn}}37,037 || {{lahn}}58,692 million || {{lahn}}62,044
 |-
-| 29 || style="text-align:left" | {{flag|Palina}} || 3,123 || 165,143 || 52,873 || 24,518 || 7,850 || 189,661 || 60,723
+| 29 || style="text-align:left" | {{flag|Palina}} || 3,123 || {{lahn}}165,143 million || {{lahn}}52,873 || {{lahn}}24,518 million || {{lahn}}7,850 || {{lahn}}189,661 million || {{lahn}}60,723
 |-
-| 30 || style="text-align:left" | {{flag|Iareva}} || 8,002 || 375,360 || 46,907 || 94,372 || 11,793 || 469,732 || 58,701
+| 30 || style="text-align:left" | {{flag|Iareva}} || 8,002 || {{lahn}}375,360 million || {{lahn}}46,907 || {{lahn}}94,372 million || {{lahn}}11,793 || {{lahn}}469,732 million || {{lahn}}58,701
 |-
-| 31 || style="text-align:left" | {{flag|Laselteh}} || 6,525 || 251,724 || 38,581 || 127,760 || 19,581 || 379,484 || 58,163
+| 31 || style="text-align:left" | {{flag|Laselteh}} || 6,525 || {{lahn}}251,724 million || {{lahn}}38,581 || {{lahn}}127,760 million || {{lahn}}19,581 || {{lahn}}379,484 million || {{lahn}}58,163
 |-
-| 32 || style="text-align:left" | {{flag|North Ayre}} || 10,968 || 565,001 || 51,516 || 55,762 || 5,084 || 620,763 || 56,600
+| 32 || style="text-align:left" | {{flag|North Ayre}} || 10,968 || {{lahn}}565,001 million || {{lahn}}51,516 || {{lahn}}55,762 million || {{lahn}}5,084 || {{lahn}}620,763 million || {{lahn}}56,600
 |-
-| 33 || style="text-align:left" | {{flag|Yaxuto}} || 18,401 || 685,024 || 37,227 || 309,306 || 16,809 || 994,330 || 54,036
+| 33 || style="text-align:left" | {{flag|Yaxuto}} || 18,401 || {{lahn}}685,024 million || {{lahn}}37,227 || {{lahn}}309,306 million || {{lahn}}16,809 || {{lahn}}994,330 million || {{lahn}}54,036
 |-
-| 34 || style="text-align:left" | {{flag|Raledria}} || 301,115 || 9,627,693 || 31,973 || 5,238,130 || 17,396 || 14,865,822 || 49,369
+| 34 || style="text-align:left" | {{flag|Raledria}} || 301,115 || {{lahn}}9,627,693 million || {{lahn}}31,973 || {{lahn}}5,238,130 million || {{lahn}}17,396 || {{lahn}}14,865,822 million || {{lahn}}49,369
 |-
-| 35 || style="text-align:left" | {{flag|Etretes}} || 21,375 || 752,257 || 35,194 || 294,093 || 13,759 || 1,046,350 || 48,953
+| 35 || style="text-align:left" | {{flag|Etretes}} || 21,375 || {{lahn}}752,257 million || {{lahn}}35,194 || {{lahn}}294,093 million || {{lahn}}13,759 || {{lahn}}1,046,350 million || {{lahn}}48,953
 |-
-| 36 || style="text-align:left" | {{flag|Verusa}} || 69,481 || 2,681,272 || 38,590 || 712,544 || 10,255 || 3,393,816 || 48,845
+| 36 || style="text-align:left" | {{flag|Verusa}} || 69,481 || {{lahn}}2,681,272 million || {{lahn}}38,590 || {{lahn}}712,544 million || {{lahn}}10,255 || {{lahn}}3,393,816 million || {{lahn}}48,845
 |-
-| 37 || style="text-align:left" | {{flag|Trian}} || 27,844 || 1,078,847 || 38,746 || 230,555 || 8,280 || 1,309,402 || 47,026
+| 37 || style="text-align:left" | {{flag|Trian}} || 27,844 || {{lahn}}1,078,847 million || {{lahn}}38,746 || {{lahn}}230,555 million || {{lahn}}8,280 || {{lahn}}1,309,402 million || {{lahn}}47,026
 |-
-| 38 || style="text-align:left" | {{flag|Oyreain}} || 31,492 || 1,291,222 || 41,002 || 182,073 || 5,782 || 1,473,295 || 46,784
+| 38 || style="text-align:left" | {{flag|Oyreain}} || 31,492 || {{lahn}}1,291,222 million || {{lahn}}41,002 || {{lahn}}182,073 million || {{lahn}}5,782 || {{lahn}}1,473,295 million || {{lahn}}46,784
 |-
-| 39 || style="text-align:left" | {{flag|Genaire}} || 15,795 || 557,132 || 35,273 || 175,881 || 11,135 || 733,014 || 46,408
+| 39 || style="text-align:left" | {{flag|Genaire}} || 15,795 || {{lahn}}557,132 million || {{lahn}}35,273 || {{lahn}}175,881 million || {{lahn}}11,135 || {{lahn}}733,014 million || {{lahn}}46,408
 |-
-| 40 || style="text-align:left" | {{flag|Rijan bu}} || 3,626 || 122,153 || 33,685 || 45,228 || 12,472 || 167,381 || 46,157
+| 40 || style="text-align:left" | {{flag|Rijan bu}} || 3,626 || {{lahn}}122,153 million || {{lahn}}33,685 || {{lahn}}45,228 million || {{lahn}}12,472 || {{lahn}}167,381 million || {{lahn}}46,157
 |-
-| 41 || style="text-align:left" | {{flag|Eldjo}} || 5,393 || 160,125 || 29,689 || 64,188 || 11,901 || 224,314 || 41,591
+| 41 || style="text-align:left" | {{flag|Eldjo}} || 5,393 || {{lahn}}160,125 million || {{lahn}}29,689 || {{lahn}}64,188 million || {{lahn}}11,901 || {{lahn}}224,314 million || {{lahn}}41,591
 |-
-| 42 || style="text-align:left" | {{flag|Pelugrotoa}} || 347,521 || 12,885,227 || 37,078 || 1,378,973 || 3,968 || 14,264,200 || 41,046
+| 42 || style="text-align:left" | {{flag|Pelugrotoa}} || 347,521 || {{lahn}}12,885,227 million || {{lahn}}37,078 || {{lahn}}1,378,973 million || {{lahn}}3,968 || {{lahn}}14,264,200 million || {{lahn}}41,046
 |-
-| 43 || style="text-align:left" | {{flag|Enina}} || 52 || 979 || 18,932 || 1,060 || 20,509 || 2,039 || 39,441
+| 43 || style="text-align:left" | {{flag|Enina}} || 52 || {{lahn}}979 million || {{lahn}}18,932 || {{lahn}}1,060 million || {{lahn}}20,509 || {{lahn}}2,039 million || {{lahn}}39,441
 |-
-| 44 || style="text-align:left" | {{flag|Baluyde}} || 1,638 || 25,854 || 15,784 || 38,453 || 23,475 || 64,307 || 39,259
+| 44 || style="text-align:left" | {{flag|Baluyde}} || 1,638 || {{lahn}}25,854 million || {{lahn}}15,784 || {{lahn}}38,453 million || {{lahn}}23,475 || {{lahn}}64,307 million || {{lahn}}39,259
 |-
-| 45 || style="text-align:left" | {{flag|Arbiya}} || 6,586 || 206,048 || 31,286 || 47,743 || 7,249 || 253,790 || 38,535
+| 45 || style="text-align:left" | {{flag|Arbiya}} || 6,586 || {{lahn}}206,048 million || {{lahn}}31,286 || {{lahn}}47,743 million || {{lahn}}7,249 || {{lahn}}253,790 million || {{lahn}}38,535
 |-
-| 46 || style="text-align:left" | {{flag|Trevilla}} || 10 || 187 || 18,028 || 202 || 19,530 || 389 || 37,558
+| 46 || style="text-align:left" | {{flag|Trevilla}} || 10 || {{lahn}}187 million || {{lahn}}18,028 || {{lahn}}202 million || {{lahn}}19,530 || {{lahn}}389 million || {{lahn}}37,558
 |-
-| 47 || style="text-align:left" | {{flag|Rethern}} || 83 || 2,352 || 28,400 || 732 || 8,840 || 3,083 || 37,241
+| 47 || style="text-align:left" | {{flag|Rethern}} || 83 || {{lahn}}2,352 million || {{lahn}}28,400 || {{lahn}}732 million || {{lahn}}8,840 || {{lahn}}3,083 million || {{lahn}}37,241
 |-
-| 48 || style="text-align:left" | {{flag|Isuibul}} || 37 || 669 || 17,849 || 725 || 19,337 || 1,394 || 37,186
+| 48 || style="text-align:left" | {{flag|Isuibul}} || 37 || {{lahn}}669 million || {{lahn}}17,849 || {{lahn}}725 million || {{lahn}}19,337 || {{lahn}}1,394 million || {{lahn}}37,186
 |-
-| 49 || style="text-align:left" | {{flag|Siana}} || 39,335 || 962,329 || 24,465 || 481,678 || 12,246 || 1,444,008 || 36,710
+| 49 || style="text-align:left" | {{flag|Siana}} || 39,335 || {{lahn}}962,329 million || {{lahn}}24,465 || {{lahn}}481,678 million || {{lahn}}12,246 || {{lahn}}1,444,008 million || {{lahn}}36,710
 |-
-| 50 || style="text-align:left" | {{flag|Fincen}} || 4,620 || 115,592 || 25,018 || 51,185 || 11,078 || 166,777 || 36,096
+| 50 || style="text-align:left" | {{flag|Fincen}} || 4,620 || {{lahn}}115,592 million || {{lahn}}25,018 || {{lahn}}51,185 million || {{lahn}}11,078 || {{lahn}}166,777 million || {{lahn}}36,096
 |-
-| 51 || style="text-align:left" | {{flag|Curata}} || 4,524 || 113,808 || 25,159 || 45,859 || 10,138 || 159,668 || 35,296
+| 51 || style="text-align:left" | {{flag|Curata}} || 4,524 || {{lahn}}113,808 million || {{lahn}}25,159 || {{lahn}}45,859 million || {{lahn}}10,138 || {{lahn}}159,668 million || {{lahn}}35,296
 |-
-| 52 || style="text-align:left" | {{flag|Taval}} || 44,530 || 1,101,354 || 24,733 || 450,227 || 10,111 || 1,551,581 || 34,844
+| 52 || style="text-align:left" | {{flag|Taval}} || 44,530 || {{lahn}}1,101,354 million || {{lahn}}24,733 || {{lahn}}450,227 million || {{lahn}}10,111 || {{lahn}}1,551,581 million || {{lahn}}34,844
 |-
-| 53 || style="text-align:left" | {{flag|Haiza}} || 17,079 || 537,177 || 31,452 || 48,238 || 2,824 || 585,415 || 34,277
+| 53 || style="text-align:left" | {{flag|Haiza}} || 17,079 || {{lahn}}537,177 million || {{lahn}}31,452 || {{lahn}}48,238 million || {{lahn}}2,824 || {{lahn}}585,415 million || {{lahn}}34,277
 |-
-| 54 || style="text-align:left" | {{flag|Grazail}} || 3,348 || 80,355 || 24,004 || 30,676 || 9,164 || 111,031 || 33,168
+| 54 || style="text-align:left" | {{flag|Grazail}} || 3,348 || {{lahn}}80,355 million || {{lahn}}24,004 || {{lahn}}30,676 million || {{lahn}}9,164 || {{lahn}}111,031 million || {{lahn}}33,168
 |-
-| 55 || style="text-align:left" | {{flag|Praesyu}} || 39,228 || 916,056 || 23,352 || 364,658 || 9,296 || 1,280,714 || 32,648
+| 55 || style="text-align:left" | {{flag|Praesyu}} || 39,228 || {{lahn}}916,056 million || {{lahn}}23,352 || {{lahn}}364,658 million || {{lahn}}9,296 || {{lahn}}1,280,714 million || {{lahn}}32,648
 |-
-| 56 || style="text-align:left" | {{flag|lasri}} || 2,171 || 54,713 || 25,207 || 15,946 || 7,347 || 70,659 || 32,554
+| 56 || style="text-align:left" | {{flag|lasri}} || 2,171 || {{lahn}}54,713 million || {{lahn}}25,207 || {{lahn}}15,946 million || {{lahn}}7,347 || {{lahn}}70,659 million || {{lahn}}32,554
 |-
-| 57 || style="text-align:left" | {{flag|Rinew}} || 234 || 3,649 || 15,595 || 3,953 || 16,895 || 7,602 || 32,490
+| 57 || style="text-align:left" | {{flag|Rinew}} || 234 || {{lahn}}3,649 million || {{lahn}}15,595 || {{lahn}}3,953 million || {{lahn}}16,895 || {{lahn}}7,602 million || {{lahn}}32,490
 |-
-| 58 || style="text-align:left" | {{flag|Sunsokua}} || 79,559 || 1,965,891 || 24,710 || 502,965 || 6,322 || 2,468,856 || 31,032
+| 58 || style="text-align:left" | {{flag|Sunsokua}} || 79,559 || {{lahn}}1,965,891 million || {{lahn}}24,710 || {{lahn}}502,965 million || {{lahn}}6,322 || {{lahn}}2,468,856 million || {{lahn}}31,032
 |-
-| 59 || style="text-align:left" | {{flag|Lycroa}} || 81,314 || 1,628,678 || 20,030 || 835,683 || 10,277 || 2,464,361 || 30,307
+| 59 || style="text-align:left" | {{flag|Lycroa}} || 81,314 || {{lahn}}1,628,678 million || {{lahn}}20,030 || {{lahn}}835,683 million || {{lahn}}10,277 || {{lahn}}2,464,361 million || {{lahn}}30,307
 |-
-| 60 || style="text-align:left" | {{flag|Anymna}} || 21,769 || 553,107 || 25,408 || 100,393 || 4,612 || 653,500 || 30,020
+| 60 || style="text-align:left" | {{flag|Anymna}} || 21,769 || {{lahn}}553,107 million || {{lahn}}25,408 || {{lahn}}100,393 million || {{lahn}}4,612 || {{lahn}}653,500 million || {{lahn}}30,020
 |-
-| 61 || style="text-align:left" | {{flag|Taing}} || 2,163 || 44,875 || 20,750 || 19,704 || 9,111 || 64,579 || 29,861
+| 61 || style="text-align:left" | {{flag|Taing}} || 2,163 || {{lahn}}44,875 million || {{lahn}}20,750 || {{lahn}}19,704 million || {{lahn}}9,111 || {{lahn}}64,579 million || {{lahn}}29,861
 |-
-| 62 || style="text-align:left" | {{flag|Desaki}} || 29,183 || 650,640 || 22,295 || 174,307 || 5,973 || 824,947 || 28,268
+| 62 || style="text-align:left" | {{flag|Desaki}} || 29,183 || {{lahn}}650,640 million || {{lahn}}22,295 || {{lahn}}174,307 million || {{lahn}}5,973 || {{lahn}}824,947 million || {{lahn}}28,268
 |-
-| 63 || style="text-align:left" | {{flag|Andsaudare}} || 3,146 || 81,566 || 25,923 || 4,485 || 1,426 || 86,051 || 27,348
+| 63 || style="text-align:left" | {{flag|Andsaudare}} || 3,146 || {{lahn}}81,566 million || {{lahn}}25,923 || {{lahn}}4,485 million || {{lahn}}1,426 || {{lahn}}86,051 million || {{lahn}}27,348
 |-
-| 64 || style="text-align:left" | {{flag|Ashain}} || 62,266 || 1,194,290 || 19,181 || 461,102 || 7,405 || 1,655,393 || 26,586
+| 64 || style="text-align:left" | {{flag|Ashain}} || 62,266 || {{lahn}}1,194,290 million || {{lahn}}19,181 || {{lahn}}461,102 million || {{lahn}}7,405 || {{lahn}}1,655,393 million || {{lahn}}26,586
 |-
-| 65 || style="text-align:left" | {{flag|Aetintio}} || 1,405 || 27,199 || 19,354 || 10,040 || 7,144 || 37,239 || 26,497
+| 65 || style="text-align:left" | {{flag|Aetintio}} || 1,405 || {{lahn}}27,199 million || {{lahn}}19,354 || {{lahn}}10,040 million || {{lahn}}7,144 || {{lahn}}37,239 million || {{lahn}}26,497
 |-
-| 66 || style="text-align:left" | {{flag|Verste}} || 53,303 || 1,207,778 || 22,659 || 174,016 || 3,265 || 1,381,795 || 25,923
+| 66 || style="text-align:left" | {{flag|Verste}} || 53,303 || {{lahn}}1,207,778 million || {{lahn}}22,659 || {{lahn}}174,016 million || {{lahn}}3,265 || {{lahn}}1,381,795 million || {{lahn}}25,923
 |-
-| 67 || style="text-align:left" | {{flag|Seytinemas}} || 71,957 || 1,628,950 || 22,638 || 206,311 || 2,867 || 1,835,262 || 25,505
+| 67 || style="text-align:left" | {{flag|Seytinemas}} || 71,957 || {{lahn}}1,628,950 million || {{lahn}}22,638 || {{lahn}}206,311 million || {{lahn}}2,867 || {{lahn}}1,835,262 million || {{lahn}}25,505
 |-
-| 68 || style="text-align:left" | {{flag|Sadain}} || 18,289 || 389,347 || 21,289 || 74,316 || 4,063 || 463,663 || 25,352
+| 68 || style="text-align:left" | {{flag|Sadain}} || 18,289 || {{lahn}}389,347 million || {{lahn}}21,289 || {{lahn}}74,316 million || {{lahn}}4,063 || {{lahn}}463,663 million || {{lahn}}25,352
 |-
-| 69 || style="text-align:left" | {{flag|New Misos}} || 53,637 || 909,064 || 16,948 || 419,466 || 7,820 || 1,328,530 || 24,769
+| 69 || style="text-align:left" | {{flag|New Misos}} || 53,637 || {{lahn}}909,064 million || {{lahn}}16,948 || {{lahn}}419,466 million || {{lahn}}7,820 || {{lahn}}1,328,530 million || {{lahn}}24,769
 |-
-| 70 || style="text-align:left" | {{flag|Darewa}} || 19,678 || 353,286 || 17,953 || 127,006 || 6,454 || 480,292 || 24,407
+| 70 || style="text-align:left" | {{flag|Darewa}} || 19,678 || {{lahn}}353,286 million || {{lahn}}17,953 || {{lahn}}127,006 million || {{lahn}}6,454 || {{lahn}}480,292 million || {{lahn}}24,407
 |-
-| 71 || style="text-align:left" | {{flag|Cruthi Anoso}} || 4 || 46 || 11,603 || 50 || 12,570 || 96 || 24,173
+| 71 || style="text-align:left" | {{flag|Cruthi Anoso}} || 4 || {{lahn}}46 million || {{lahn}}11,603 || {{lahn}}50 million || {{lahn}}12,570 || {{lahn}}96 million || {{lahn}}24,173
 |-
-| 72 || style="text-align:left" | {{flag|Areoix Lie}} || 579,087 || 10,526,848 || 18,178 || 3,453,305 || 5,963 || 13,980,153 || 24,142
+| 72 || style="text-align:left" | {{flag|Areoix Lie}} || 579,087 || {{lahn}}10,526,848 million || {{lahn}}18,178 || {{lahn}}3,453,305 million || {{lahn}}5,963 || {{lahn}}13,980,153 million || {{lahn}}24,142
 |-
-| 73 || style="text-align:left" | {{flag|Acrana}} || 14,469 || 265,105 || 18,322 || 79,969 || 5,527 || 345,074 || 23,849
+| 73 || style="text-align:left" | {{flag|Acrana}} || 14,469 || {{lahn}}265,105 million || {{lahn}}18,322 || {{lahn}}79,969 million || {{lahn}}5,527 || {{lahn}}345,074 million || {{lahn}}23,849
 |-
-| 74 || style="text-align:left" | {{flag|Fermori}} || 12,299 || 218,022 || 17,726 || 70,116 || 5,701 || 288,137 || 23,427
+| 74 || style="text-align:left" | {{flag|Fermori}} || 12,299 || {{lahn}}218,022 million || {{lahn}}17,726 || {{lahn}}70,116 million || {{lahn}}5,701 || {{lahn}}288,137 million || {{lahn}}23,427
 |-
-| 75 || style="text-align:left" | {{flag|Vayvele}} || 74,437 || 1,455,161 || 19,549 || 218,652 || 2,937 || 1,673,813 || 22,486
+| 75 || style="text-align:left" | {{flag|Vayvele}} || 74,437 || {{lahn}}1,455,161 million || {{lahn}}19,549 || {{lahn}}218,652 million || {{lahn}}2,937 || {{lahn}}1,673,813 million || {{lahn}}22,486
 |-
-| 76 || style="text-align:left" | {{flag|Dahe}} || 890,601 || 14,648,961 || 16,448 || 2,841,761 || 3,191 || 17,490,723 || 19,639
+| 76 || style="text-align:left" | {{flag|Dahe}} || 890,601 || {{lahn}}14,648,961 million || {{lahn}}16,448 || {{lahn}}2,841,761 million || {{lahn}}3,191 || {{lahn}}17,490,723 million || {{lahn}}19,639
 |-
-| 77 || style="text-align:left" | {{flag|Metndria}} || 636 || 2,548 || 4,008 || 9,639 || 15,167 || 12,187 || 19,176
+| 77 || style="text-align:left" | {{flag|Metndria}} || 636 || {{lahn}}2,548 million || {{lahn}}4,008 || {{lahn}}9,639 million || {{lahn}}15,167 || {{lahn}}12,187 million || {{lahn}}19,176
 |-
-| 78 || style="text-align:left" | {{flag|Niul Spijan}} || 220 || 1,927 || 8,752 || 2,088 || 9,482 || 4,016 || 18,234
+| 78 || style="text-align:left" | {{flag|Niul Spijan}} || 220 || {{lahn}}1,927 million || {{lahn}}8,752 || {{lahn}}2,088 million || {{lahn}}9,482 || {{lahn}}4,016 million || {{lahn}}18,234
 |-
-| 79 || style="text-align:left" | {{flag|Reerica}} || 8,871 || 120,949 || 13,634 || 38,065 || 4,291 || 159,014 || 17,925
+| 79 || style="text-align:left" | {{flag|Reerica}} || 8,871 || {{lahn}}120,949 million || {{lahn}}13,634 || {{lahn}}38,065 million || {{lahn}}4,291 || {{lahn}}159,014 million || {{lahn}}17,925
 |-
-| 80 || style="text-align:left" | {{flag|Hiwush}} || 239 || 1,452 || 6,074 || 2,804 || 11,727 || 4,256 || 17,801
+| 80 || style="text-align:left" | {{flag|Hiwush}} || 239 || {{lahn}}1,452 million || {{lahn}}6,074 || {{lahn}}2,804 million || {{lahn}}11,727 || {{lahn}}4,256 million || {{lahn}}17,801
 |-
-| 81 || style="text-align:left" | {{flag|Isari}} || 12,783 || 162,331 || 12,699 || 56,938 || 4,454 || 219,270 || 17,153
+| 81 || style="text-align:left" | {{flag|Isari}} || 12,783 || {{lahn}}162,331 million || {{lahn}}12,699 || {{lahn}}56,938 million || {{lahn}}4,454 || {{lahn}}219,270 million || {{lahn}}17,153
 |-
-| 82 || style="text-align:left" | {{flag|Finae}} || 31,745 || 383,444 || 12,079 || 158,089 || 4,980 || 541,533 || 17,059
+| 82 || style="text-align:left" | {{flag|Finae}} || 31,745 || {{lahn}}383,444 million || {{lahn}}12,079 || {{lahn}}158,089 million || {{lahn}}4,980 || {{lahn}}541,533 million || {{lahn}}17,059
 |-
-| 83 || style="text-align:left" | {{flag|Slyiaduun}} || 2,167 || 31,653 || 14,609 || 5,214 || 2,407 || 36,867 || 17,016
+| 83 || style="text-align:left" | {{flag|Slyiaduun}} || 2,167 || {{lahn}}31,653 million || {{lahn}}14,609 || {{lahn}}5,214 million || {{lahn}}2,407 || {{lahn}}36,867 million || {{lahn}}17,016
 |-
-| 84 || style="text-align:left" | {{flag|Estijan}} || 260,845 || 3,398,228 || 13,028 || 1,027,966 || 3,941 || 4,426,194 || 16,969
+| 84 || style="text-align:left" | {{flag|Estijan}} || 260,845 || {{lahn}}3,398,228 million || {{lahn}}13,028 || {{lahn}}1,027,966 million || {{lahn}}3,941 || {{lahn}}4,426,194 million || {{lahn}}16,969
 |-
-| 85 || style="text-align:left" | {{flag|Prstreula}} || 6,836 || 85,088 || 12,447 || 28,960 || 4,236 || 114,048 || 16,684
+| 85 || style="text-align:left" | {{flag|Prstreula}} || 6,836 || {{lahn}}85,088 million || {{lahn}}12,447 || {{lahn}}28,960 million || {{lahn}}4,236 || {{lahn}}114,048 million || {{lahn}}16,684
 |-
-| 86 || style="text-align:left" | {{flag|Ukhdari}} || 85,679 || 1,004,742 || 11,727 || 396,041 || 4,622 || 1,400,782 || 16,349
+| 86 || style="text-align:left" | {{flag|Ukhdari}} || 85,679 || {{lahn}}1,004,742 million || {{lahn}}11,727 || {{lahn}}396,041 million || {{lahn}}4,622 || {{lahn}}1,400,782 million || {{lahn}}16,349
 |-
-| 87 || style="text-align:left" | {{flag|Suenan}} || 54,706 || 702,582 || 12,843 || 152,267 || 2,783 || 854,849 || 15,626
+| 87 || style="text-align:left" | {{flag|Suenan}} || 54,706 || {{lahn}}702,582 million || {{lahn}}12,843 || {{lahn}}152,267 million || {{lahn}}2,783 || {{lahn}}854,849 million || {{lahn}}15,626
 |-
-| 88 || style="text-align:left" | {{flag|Kaastini}} || 4,348 || 51,826 || 11,919 || 15,254 || 3,508 || 67,081 || 15,427
+| 88 || style="text-align:left" | {{flag|Kaastini}} || 4,348 || {{lahn}}51,826 million || {{lahn}}11,919 || {{lahn}}15,254 million || {{lahn}}3,508 || {{lahn}}67,081 million || {{lahn}}15,427
 |-
-| 89 || style="text-align:left" | {{flag|Ihner}} || 6,257 || 86,800 || 13,872 || 9,505 || 1,519 || 96,305 || 15,391
+| 89 || style="text-align:left" | {{flag|Ihner}} || 6,257 || {{lahn}}86,800 million || {{lahn}}13,872 || {{lahn}}9,505 million || {{lahn}}1,519 || {{lahn}}96,305 million || {{lahn}}15,391
 |-
-| 90 || style="text-align:left" | {{flag|United Delet}} || 93,832 || 1,020,047 || 10,871 || 405,141 || 4,318 || 1,425,189 || 15,189
+| 90 || style="text-align:left" | {{flag|United Delet}} || 93,832 || {{lahn}}1,020,047 million || {{lahn}}10,871 || {{lahn}}405,141 million || {{lahn}}4,318 || {{lahn}}1,425,189 million || {{lahn}}15,189
 |-
-| 91 || style="text-align:left" | {{flag|Uularin}} || 5,002 || 55,514 || 11,098 || 19,170 || 3,832 || 74,684 || 14,931
+| 91 || style="text-align:left" | {{flag|Uularin}} || 5,002 || {{lahn}}55,514 million || {{lahn}}11,098 || {{lahn}}19,170 million || {{lahn}}3,832 || {{lahn}}74,684 million || {{lahn}}14,931
 |-
-| 92 || style="text-align:left" | {{flag|Kusierna}} || 9,164 || 102,894 || 11,228 || 28,945 || 3,159 || 131,840 || 14,387
+| 92 || style="text-align:left" | {{flag|Kusierna}} || 9,164 || {{lahn}}102,894 million || {{lahn}}11,228 || {{lahn}}28,945 million || {{lahn}}3,159 || {{lahn}}131,840 million || {{lahn}}14,387
 |-
-| 93 || style="text-align:left" | {{flag|Elja and Munusia}} || 495 || 6,358 || 12,837 || 532 || 1,074 || 6,890 || 13,911
+| 93 || style="text-align:left" | {{flag|Elja and Munusia}} || 495 || {{lahn}}6,358 million || {{lahn}}12,837 || {{lahn}}532 million || {{lahn}}1,074 || {{lahn}}6,890 million || {{lahn}}13,911
 |-
-| 94 || style="text-align:left" | {{flag|Mendereide}} || 11,019 || 117,123 || 10,629 || 35,968 || 3,264 || 153,090 || 13,893
+| 94 || style="text-align:left" | {{flag|Mendereide}} || 11,019 || {{lahn}}117,123 million || {{lahn}}10,629 || {{lahn}}35,968 million || {{lahn}}3,264 || {{lahn}}153,090 million || {{lahn}}13,893
 |-
-| 95 || style="text-align:left" | {{flag|Volver}} || 17,219 || 187,149 || 10,869 || 48,784 || 2,833 || 235,933 || 13,702
+| 95 || style="text-align:left" | {{flag|Volver}} || 17,219 || {{lahn}}187,149 million || {{lahn}}10,869 || {{lahn}}48,784 million || {{lahn}}2,833 || {{lahn}}235,933 million || {{lahn}}13,702
 |-
-| 96 || style="text-align:left" | {{flag|Ohtina}} || 33,245 || 322,032 || 9,687 || 126,691 || 3,811 || 448,723 || 13,497
+| 96 || style="text-align:left" | {{flag|Ohtina}} || 33,245 || {{lahn}}322,032 million || {{lahn}}9,687 || {{lahn}}126,691 million || {{lahn}}3,811 || {{lahn}}448,723 million || {{lahn}}13,497
 |-
-| 97 || style="text-align:left" | {{flag|Selaja}} || 31,644 || 335,897 || 10,615 || 88,748 || 2,805 || 424,645 || 13,419
+| 97 || style="text-align:left" | {{flag|Selaja}} || 31,644 || {{lahn}}335,897 million || {{lahn}}10,615 || {{lahn}}88,748 million || {{lahn}}2,805 || {{lahn}}424,645 million || {{lahn}}13,419
 |-
-| 98 || style="text-align:left" | {{flag|Rkmepuia}} || 324 || 1,188 || 3,666 || 3,046 || 9,400 || 4,234 || 13,066
+| 98 || style="text-align:left" | {{flag|Rkmepuia}} || 324 || {{lahn}}1,188 million || {{lahn}}3,666 || {{lahn}}3,046 million || {{lahn}}9,400 || {{lahn}}4,234 million || {{lahn}}13,066
 |-
-| 99 || style="text-align:left" | {{flag|Acetoa}} || 11,203 || 103,755 || 9,261 || 37,863 || 3,380 || 141,618 || 12,641
+| 99 || style="text-align:left" | {{flag|Acetoa}} || 11,203 || {{lahn}}103,755 million || {{lahn}}9,261 || {{lahn}}37,863 million || {{lahn}}3,380 || {{lahn}}141,618 million || {{lahn}}12,641
 |-
-| 100 || style="text-align:left" | {{flag|Pelan}} || 13,706 || 128,183 || 9,353 || 40,958 || 2,988 || 169,141 || 12,341
+| 100 || style="text-align:left" | {{flag|Pelan}} || 13,706 || {{lahn}}128,183 million || {{lahn}}9,353 || {{lahn}}40,958 million || {{lahn}}2,988 || {{lahn}}169,141 million || {{lahn}}12,341
 |-
-| 101 || style="text-align:left" | {{flag|Fire Coast}} || 7,181 || 78,055 || 10,869 || 9,278 || 1,292 || 87,333 || 12,161
+| 101 || style="text-align:left" | {{flag|Fire Coast}} || 7,181 || {{lahn}}78,055 million || {{lahn}}10,869 || {{lahn}}9,278 million || {{lahn}}1,292 || {{lahn}}87,333 million || {{lahn}}12,161
 |-
-| 102 || style="text-align:left" | {{flag|Iainoa}} || 15,105 || 153,585 || 10,168 || 17,418 || 1,153 || 171,003 || 11,321
+| 102 || style="text-align:left" | {{flag|Iainoa}} || 15,105 || {{lahn}}153,585 million || {{lahn}}10,168 || {{lahn}}17,418 million || {{lahn}}1,153 || {{lahn}}171,003 million || {{lahn}}11,321
 |-
-| 103 || style="text-align:left" | {{flag|Umarcia}} || 12,307 || 101,746 || 8,267 || 34,286 || 2,786 || 136,031 || 11,053
+| 103 || style="text-align:left" | {{flag|Umarcia}} || 12,307 || {{lahn}}101,746 million || {{lahn}}8,267 || {{lahn}}34,286 million || {{lahn}}2,786 || {{lahn}}136,031 million || {{lahn}}11,053
 |-
-| 104 || style="text-align:left" | {{flag|Letan}} || 76 || 382 || 5,025 || 414 || 5,444 || 796 || 10,469
+| 104 || style="text-align:left" | {{flag|Letan}} || 76 || {{lahn}}382 million || {{lahn}}5,025 || {{lahn}}414 million || {{lahn}}5,444 || {{lahn}}796 million || {{lahn}}10,469
 |-
-| 105 || style="text-align:left" | {{flag|Myla}} || 42,672 || 325,112 || 7,619 || 119,918 || 2,810 || 445,030 || 10,429
+| 105 || style="text-align:left" | {{flag|Myla}} || 42,672 || {{lahn}}325,112 million || {{lahn}}7,619 || {{lahn}}119,918 million || {{lahn}}2,810 || {{lahn}}445,030 million || {{lahn}}10,429
 |-
-| 106 || style="text-align:left" | {{flag|Maalle}} || 22,501 || 207,653 || 9,228 || 19,067 || 847 || 226,720 || 10,076
+| 106 || style="text-align:left" | {{flag|Maalle}} || 22,501 || {{lahn}}207,653 million || {{lahn}}9,228 || {{lahn}}19,067 million || {{lahn}}847 || {{lahn}}226,720 million || {{lahn}}10,076
 |-
-| 107 || style="text-align:left" | {{flag|Lydroa}} || 18,996 || 135,918 || 7,155 || 44,685 || 2,352 || 180,603 || 9,508
+| 107 || style="text-align:left" | {{flag|Lydroa}} || 18,996 || {{lahn}}135,918 million || {{lahn}}7,155 || {{lahn}}44,685 million || {{lahn}}2,352 || {{lahn}}180,603 million || {{lahn}}9,508
 |-
-| 108 || style="text-align:left" | {{flag|Ealdorii}} || 137,993 || 1,114,147 || 8,074 || 125,441 || 909 || 1,239,587 || 8,983
+| 108 || style="text-align:left" | {{flag|Ealdorii}} || 137,993 || {{lahn}}1,114,147 million || {{lahn}}8,074 || {{lahn}}125,441 million || {{lahn}}909 || {{lahn}}1,239,587 million || {{lahn}}8,983
 |-
-| 109 || style="text-align:left" | {{flag|Nia}} || 16,303 || 132,586 || 8,133 || 13,792 || 846 || 146,379 || 8,979
+| 109 || style="text-align:left" | {{flag|Nia}} || 16,303 || {{lahn}}132,586 million || {{lahn}}8,133 || {{lahn}}13,792 million || {{lahn}}846 || {{lahn}}146,379 million || {{lahn}}8,979
 |-
-| 110 || style="text-align:left" | {{flag|Heiso}} || 20,606 || 139,637 || 6,777 || 42,104 || 2,043 || 181,741 || 8,820
+| 110 || style="text-align:left" | {{flag|Heiso}} || 20,606 || {{lahn}}139,637 million || {{lahn}}6,777 || {{lahn}}42,104 million || {{lahn}}2,043 || {{lahn}}181,741 million || {{lahn}}8,820
 |-
-| 111 || style="text-align:left" | {{flag|Danocia}} || 2,021 || 15,846 || 7,841 || 1,925 || 952 || 17,770 || 8,793
+| 111 || style="text-align:left" | {{flag|Danocia}} || 2,021 || {{lahn}}15,846 million || {{lahn}}7,841 || {{lahn}}1,925 million || {{lahn}}952 || {{lahn}}17,770 million || {{lahn}}8,793
 |-
-| 112 || style="text-align:left" | {{flag|Feio Lie}} || 7,849 || 51,886 || 6,610 || 17,064 || 2,174 || 68,951 || 8,784
+| 112 || style="text-align:left" | {{flag|Feio Lie}} || 7,849 || {{lahn}}51,886 million || {{lahn}}6,610 || {{lahn}}17,064 million || {{lahn}}2,174 || {{lahn}}68,951 million || {{lahn}}8,784
 |-
-| 113 || style="text-align:left" | {{flag|Onphello}} || 10,233 || 76,042 || 7,431 || 13,334 || 1,303 || 89,376 || 8,734
+| 113 || style="text-align:left" | {{flag|Onphello}} || 10,233 || {{lahn}}76,042 million || {{lahn}}7,431 || {{lahn}}13,334 million || {{lahn}}1,303 || {{lahn}}89,376 million || {{lahn}}8,734
 |-
-| 114 || style="text-align:left" | {{flag|Saa}} || 2,549 || 19,364 || 7,595 || 2,130 || 836 || 21,494 || 8,431
+| 114 || style="text-align:left" | {{flag|Saa}} || 2,549 || {{lahn}}19,364 million || {{lahn}}7,595 || {{lahn}}2,130 million || {{lahn}}836 || {{lahn}}21,494 million || {{lahn}}8,431
 |-
-| 115 || style="text-align:left" | {{flag|Veelmit}} || 829 || 5,875 || 7,090 || 563 || 679 || 6,437 || 7,769
+| 115 || style="text-align:left" | {{flag|Veelmit}} || 829 || {{lahn}}5,875 million || {{lahn}}7,090 || {{lahn}}563 million || {{lahn}}679 || {{lahn}}6,437 million || {{lahn}}7,769
 |-
-| 116 || style="text-align:left" | {{flag|Pruim Fijan}} || 3,308 || 23,188 || 7,010 || 2,431 || 735 || 25,618 || 7,745
+| 116 || style="text-align:left" | {{flag|Pruim Fijan}} || 3,308 || {{lahn}}23,188 million || {{lahn}}7,010 || {{lahn}}2,431 million || {{lahn}}735 || {{lahn}}25,618 million || {{lahn}}7,745
 |-
-| 117 || style="text-align:left" | {{flag|Otiiric}} || 21,612 || 134,153 || 6,207 || 29,127 || 1,348 || 163,280 || 7,555
+| 117 || style="text-align:left" | {{flag|Otiiric}} || 21,612 || {{lahn}}134,153 million || {{lahn}}6,207 || {{lahn}}29,127 million || {{lahn}}1,348 || {{lahn}}163,280 million || {{lahn}}7,555
 |-
-| 118 || style="text-align:left" | {{flag|Sivoso}} || 21,995 || 126,222 || 5,739 || 31,339 || 1,425 || 157,560 || 7,163
+| 118 || style="text-align:left" | {{flag|Sivoso}} || 21,995 || {{lahn}}126,222 million || {{lahn}}5,739 || {{lahn}}31,339 million || {{lahn}}1,425 || {{lahn}}157,560 million || {{lahn}}7,163
 |-
-| 119 || style="text-align:left" | {{flag|Zenashan}} || 9,819 || 56,524 || 5,756 || 13,257 || 1,350 || 69,780 || 7,106
+| 119 || style="text-align:left" | {{flag|Zenashan}} || 9,819 || {{lahn}}56,524 million || {{lahn}}5,756 || {{lahn}}13,257 million || {{lahn}}1,350 || {{lahn}}69,780 million || {{lahn}}7,106
 |-
-| 120 || style="text-align:left" | {{flag|Amcha}} || 2,237 || 14,443 || 6,457 || 1,397 || 625 || 15,839 || 7,082
+| 120 || style="text-align:left" | {{flag|Amcha}} || 2,237 || {{lahn}}14,443 million || {{lahn}}6,457 || {{lahn}}1,397 million || {{lahn}}625 || {{lahn}}15,839 million || {{lahn}}7,082
 |-
-| 121 || style="text-align:left" | {{flag|Tonder}} || 144 || 898 || 6,239 || 90 || 624 || 988 || 6,863
+| 121 || style="text-align:left" | {{flag|Tonder}} || 144 || {{lahn}}898 million || {{lahn}}6,239 || {{lahn}}90 million || {{lahn}}624 || {{lahn}}988 million || {{lahn}}6,863
 |-
-| 122 || style="text-align:left" | {{flag|Ikzen}} || 3,103 || 19,555 || 6,301 || 1,733 || 558 || 21,288 || 6,860
+| 122 || style="text-align:left" | {{flag|Ikzen}} || 3,103 || {{lahn}}19,555 million || {{lahn}}6,301 || {{lahn}}1,733 million || {{lahn}}558 || {{lahn}}21,288 million || {{lahn}}6,860
 |-
-| 123 || style="text-align:left" | {{flag|Nheyes Si}} || 12,225 || 65,391 || 5,349 || 17,438 || 1,426 || 82,829 || 6,775
+| 123 || style="text-align:left" | {{flag|Nheyes Si}} || 12,225 || {{lahn}}65,391 million || {{lahn}}5,349 || {{lahn}}17,438 million || {{lahn}}1,426 || {{lahn}}82,829 million || {{lahn}}6,775
 |-
-| 124 || style="text-align:left" | {{flag|Hyelen}} || 1,724 || 9,451 || 5,481 || 1,971 || 1,143 || 11,422 || 6,624
+| 124 || style="text-align:left" | {{flag|Hyelen}} || 1,724 || {{lahn}}9,451 million || {{lahn}}5,481 || {{lahn}}1,971 million || {{lahn}}1,143 || {{lahn}}11,422 million || {{lahn}}6,624
 |-
-| 125 || style="text-align:left" | {{flag|Ruylku}} || 11,838 || 66,618 || 5,627 || 11,633 || 983 || 78,252 || 6,610
+| 125 || style="text-align:left" | {{flag|Ruylku}} || 11,838 || {{lahn}}66,618 million || {{lahn}}5,627 || {{lahn}}11,633 million || {{lahn}}983 || {{lahn}}78,252 million || {{lahn}}6,610
 |-
-| 126 || style="text-align:left" | {{flag|Jshain}} || 12,585 || 55,223 || 4,388 || 22,000 || 1,748 || 77,223 || 6,136
+| 126 || style="text-align:left" | {{flag|Jshain}} || 12,585 || {{lahn}}55,223 million || {{lahn}}4,388 || {{lahn}}22,000 million || {{lahn}}1,748 || {{lahn}}77,223 million || {{lahn}}6,136
 |-
-| 127 || style="text-align:left" | {{flag|Eparia}} || 4,071 || 19,044 || 4,679 || 5,535 || 1,360 || 24,579 || 6,038
+| 127 || style="text-align:left" | {{flag|Eparia}} || 4,071 || {{lahn}}19,044 million || {{lahn}}4,679 || {{lahn}}5,535 million || {{lahn}}1,360 || {{lahn}}24,579 million || {{lahn}}6,038
 |-
-| 128 || style="text-align:left" | {{flag|Urbiqu}} || 1,914 || 10,317 || 5,389 || 1,062 || 555 || 11,378 || 5,944
+| 128 || style="text-align:left" | {{flag|Urbiqu}} || 1,914 || {{lahn}}10,317 million || {{lahn}}5,389 || {{lahn}}1,062 million || {{lahn}}555 || {{lahn}}11,378 million || {{lahn}}5,944
 |-
-| 129 || style="text-align:left" | {{flag|Astye}} || 44,277 || 207,820 || 4,694 || 50,014 || 1,130 || 257,835 || 5,823
+| 129 || style="text-align:left" | {{flag|Astye}} || 44,277 || {{lahn}}207,820 million || {{lahn}}4,694 || {{lahn}}50,014 million || {{lahn}}1,130 || {{lahn}}257,835 million || {{lahn}}5,823
 |-
-| 130 || style="text-align:left" | {{flag|Hkuqo}} || 22,834 || 99,936 || 4,377 || 30,458 || 1,334 || 130,393 || 5,711
+| 130 || style="text-align:left" | {{flag|Hkuqo}} || 22,834 || {{lahn}}99,936 million || {{lahn}}4,377 || {{lahn}}30,458 million || {{lahn}}1,334 || {{lahn}}130,393 million || {{lahn}}5,711
 |-
-| 131 || style="text-align:left" | {{flag|Quidic}} || 143,973 || 620,048 || 4,307 || 192,890 || 1,340 || 812,938 || 5,646
+| 131 || style="text-align:left" | {{flag|Quidic}} || 143,973 || {{lahn}}620,048 million || {{lahn}}4,307 || {{lahn}}192,890 million || {{lahn}}1,340 || {{lahn}}812,938 million || {{lahn}}5,646
 |-
-| 132 || style="text-align:left" | {{flag|Taoisia}} || 11,248 || 48,619 || 4,323 || 8,431 || 750 || 57,050 || 5,072
+| 132 || style="text-align:left" | {{flag|Taoisia}} || 11,248 || {{lahn}}48,619 million || {{lahn}}4,323 || {{lahn}}8,431 million || {{lahn}}750 || {{lahn}}57,050 million || {{lahn}}5,072
 |-
-| 133 || style="text-align:left" | {{flag|Inania}} || 236,476 || 1,030,030 || 4,356 || 123,293 || 521 || 1,153,323 || 4,877
+| 133 || style="text-align:left" | {{flag|Inania}} || 236,476 || {{lahn}}1,030,030 million || {{lahn}}4,356 || {{lahn}}123,293 million || {{lahn}}521 || {{lahn}}1,153,323 million || {{lahn}}4,877
 |-
-| 134 || style="text-align:left" | {{flag|Terressin}} || 74,091 || 248,653 || 3,356 || 77,008 || 1,039 || 325,661 || 4,395
+| 134 || style="text-align:left" | {{flag|Terressin}} || 74,091 || {{lahn}}248,653 million || {{lahn}}3,356 || {{lahn}}77,008 million || {{lahn}}1,039 || {{lahn}}325,661 million || {{lahn}}4,395
 |-
-| 135 || style="text-align:left" | {{flag|Oscairia}} || 22,387 || 84,335 || 3,767 || 10,023 || 448 || 94,357 || 4,215
+| 135 || style="text-align:left" | {{flag|Oscairia}} || 22,387 || {{lahn}}84,335 million || {{lahn}}3,767 || {{lahn}}10,023 million || {{lahn}}448 || {{lahn}}94,357 million || {{lahn}}4,215
 |-
-| 136 || style="text-align:left" | {{flag|Dual Cenryia}} || 95,001 || 310,140 || 3,265 || 76,750 || 808 || 386,890 || 4,072
+| 136 || style="text-align:left" | {{flag|Dual Cenryia}} || 95,001 || {{lahn}}310,140 million || {{lahn}}3,265 || {{lahn}}76,750 million || {{lahn}}808 || {{lahn}}386,890 million || {{lahn}}4,072
 |-
-| 137 || style="text-align:left" | {{flag|Erkizil}} || 90,946 || 337,254 || 3,708 || 23,124 || 254 || 360,378 || 3,963
+| 137 || style="text-align:left" | {{flag|Erkizil}} || 90,946 || {{lahn}}337,254 million || {{lahn}}3,708 || {{lahn}}23,124 million || {{lahn}}254 || {{lahn}}360,378 million || {{lahn}}3,963
 |-
-| 138 || style="text-align:left" | {{flag|Vesozata}} || 121,753 || 362,461 || 2,977 || 94,837 || 779 || 457,298 || 3,756
+| 138 || style="text-align:left" | {{flag|Vesozata}} || 121,753 || {{lahn}}362,461 million || {{lahn}}2,977 || {{lahn}}94,837 million || {{lahn}}779 || {{lahn}}457,298 million || {{lahn}}3,756
 |-
-| 139 || style="text-align:left" | {{flag|Phuris}} || 27,120 || 82,418 || 3,039 || 19,120 || 705 || 101,538 || 3,744
+| 139 || style="text-align:left" | {{flag|Phuris}} || 27,120 || {{lahn}}82,418 million || {{lahn}}3,039 || {{lahn}}19,120 million || {{lahn}}705 || {{lahn}}101,538 million || {{lahn}}3,744
 |-
-| 140 || style="text-align:left" | {{flag|Ztesh}} || 425,141 || 1,122,672 || 2,641 || 270,945 || 637 || 1,393,617 || 3,278
+| 140 || style="text-align:left" | {{flag|Ztesh}} || 425,141 || {{lahn}}1,122,672 million || {{lahn}}2,641 || {{lahn}}270,945 million || {{lahn}}637 || {{lahn}}1,393,617 million || {{lahn}}3,278
 |-
-| 141 || style="text-align:left" | {{flag|Pelines}} || 88,057 || 232,700 || 2,643 || 50,057 || 568 || 282,756 || 3,211
+| 141 || style="text-align:left" | {{flag|Pelines}} || 88,057 || {{lahn}}232,700 million || {{lahn}}2,643 || {{lahn}}50,057 million || {{lahn}}568 || {{lahn}}282,756 million || {{lahn}}3,211
 |-
-| 142 || style="text-align:left" | {{flag|Isnti}} || 35,957 || 87,922 || 2,445 || 22,222 || 618 || 110,144 || 3,063
+| 142 || style="text-align:left" | {{flag|Isnti}} || 35,957 || {{lahn}}87,922 million || {{lahn}}2,445 || {{lahn}}22,222 million || {{lahn}}618 || {{lahn}}110,144 million || {{lahn}}3,063
 |-
-| 143 || style="text-align:left" | {{flag|Ucrua}} || 30,764 || 77,719 || 2,526 || 16,203 || 527 || 93,922 || 3,053
+| 143 || style="text-align:left" | {{flag|Ucrua}} || 30,764 || {{lahn}}77,719 million || {{lahn}}2,526 || {{lahn}}16,203 million || {{lahn}}527 || {{lahn}}93,922 million || {{lahn}}3,053
 |-
-| 144 || style="text-align:left" | {{flag|Galca}} || 16,057 || 41,038 || 2,556 || 7,511 || 468 || 48,549 || 3,023
+| 144 || style="text-align:left" | {{flag|Galca}} || 16,057 || {{lahn}}41,038 million || {{lahn}}2,556 || {{lahn}}7,511 million || {{lahn}}468 || {{lahn}}48,549 million || {{lahn}}3,023
 |-
-| 145 || style="text-align:left" | {{flag|Exilium}} || 25,084 || 63,922 || 2,548 || 11,836 || 472 || 75,758 || 3,020
+| 145 || style="text-align:left" | {{flag|Exilium}} || 25,084 || {{lahn}}63,922 million || {{lahn}}2,548 || {{lahn}}11,836 million || {{lahn}}472 || {{lahn}}75,758 million || {{lahn}}3,020
 |-
-| 146 || style="text-align:left" | {{flag|Ozinia}} || 7,899 || 18,504 || 2,343 || 3,500 || 443 || 22,004 || 2,786
+| 146 || style="text-align:left" | {{flag|Ozinia}} || 7,899 || {{lahn}}18,504 million || {{lahn}}2,343 || {{lahn}}3,500 million || {{lahn}}443 || {{lahn}}22,004 million || {{lahn}}2,786
 |-
-| 147 || style="text-align:left" | {{flag|Yihnurda}} || 8,714 || 20,531 || 2,356 || 3,282 || 377 || 23,814 || 2,733
+| 147 || style="text-align:left" | {{flag|Yihnurda}} || 8,714 || {{lahn}}20,531 million || {{lahn}}2,356 || {{lahn}}3,282 million || {{lahn}}377 || {{lahn}}23,814 million || {{lahn}}2,733
 |-
-| 148 || style="text-align:left" | {{flag|Deschon}} || 30,643 || 61,337 || 2,002 || 21,794 || 711 || 83,131 || 2,713
+| 148 || style="text-align:left" | {{flag|Deschon}} || 30,643 || {{lahn}}61,337 million || {{lahn}}2,002 || {{lahn}}21,794 million || {{lahn}}711 || {{lahn}}83,131 million || {{lahn}}2,713
 |-
-| 149 || style="text-align:left" | {{flag|Wundry}} || 140,081 || 310,165 || 2,214 || 59,799 || 427 || 369,963 || 2,641
+| 149 || style="text-align:left" | {{flag|Wundry}} || 140,081 || {{lahn}}310,165 million || {{lahn}}2,214 || {{lahn}}59,799 million || {{lahn}}427 || {{lahn}}369,963 million || {{lahn}}2,641
 |-
-| 150 || style="text-align:left" | {{flag|Umendel}} || 7,437 || 14,943 || 2,009 || 3,117 || 419 || 18,061 || 2,428
+| 150 || style="text-align:left" | {{flag|Umendel}} || 7,437 || {{lahn}}14,943 million || {{lahn}}2,009 || {{lahn}}3,117 million || {{lahn}}419 || {{lahn}}18,061 million || {{lahn}}2,428
 |-
-| 151 || style="text-align:left" | {{flag|United Mihili}} || 33,524 || 63,175 || 1,884 || 14,086 || 420 || 77,261 || 2,305
+| 151 || style="text-align:left" | {{flag|United Mihili}} || 33,524 || {{lahn}}63,175 million || {{lahn}}1,884 || {{lahn}}14,086 million || {{lahn}}420 || {{lahn}}77,261 million || {{lahn}}2,305
 |-
-| 152 || style="text-align:left" | {{flag|Eldavpir}} || 29,422 || 50,627 || 1,721 || 9,683 || 329 || 60,310 || 2,050
+| 152 || style="text-align:left" | {{flag|Eldavpir}} || 29,422 || {{lahn}}50,627 million || {{lahn}}1,721 || {{lahn}}9,683 million || {{lahn}}329 || {{lahn}}60,310 million || {{lahn}}2,050
 |-
-| 153 || style="text-align:left" | {{flag|Byllu}} || 9,107 || 14,766 || 1,621 || 2,870 || 315 || 17,636 || 1,937
+| 153 || style="text-align:left" | {{flag|Byllu}} || 9,107 || {{lahn}}14,766 million || {{lahn}}1,621 || {{lahn}}2,870 million || {{lahn}}315 || {{lahn}}17,636 million || {{lahn}}1,937
 |-
-| 154 || style="text-align:left" | {{flag|Viussi}} || 17,339 || 23,493 || 1,355 || 3,999 || 231 || 27,492 || 1,586
+| 154 || style="text-align:left" | {{flag|Viussi}} || 17,339 || {{lahn}}23,493 million || {{lahn}}1,355 || {{lahn}}3,999 million || {{lahn}}231 || {{lahn}}27,492 million || {{lahn}}1,586
 |-
-| 155 || style="text-align:left" | {{flag|Iquir}} || 36,356 || 45,520 || 1,252 || 7,124 || 196 || 52,644 || 1,448
+| 155 || style="text-align:left" | {{flag|Iquir}} || 36,356 || {{lahn}}45,520 million || {{lahn}}1,252 || {{lahn}}7,124 million || {{lahn}}196 || {{lahn}}52,644 million || {{lahn}}1,448
 |-
-| 156 || style="text-align:left" | {{flag|Rtesania}} || 9,975 || 10,744 || 1,077 || 2,017 || 202 || 12,761 || 1,279
+| 156 || style="text-align:left" | {{flag|Rtesania}} || 9,975 || {{lahn}}10,744 million || {{lahn}}1,077 || {{lahn}}2,017 million || {{lahn}}202 || {{lahn}}12,761 million || {{lahn}}1,279
 |-
-| 157 || style="text-align:left" | {{flag|Jathua}} || 13,153 || 13,754 || 1,046 || 2,411 || 183 || 16,165 || 1,229
+| 157 || style="text-align:left" | {{flag|Jathua}} || 13,153 || {{lahn}}13,754 million || {{lahn}}1,046 || {{lahn}}2,411 million || {{lahn}}183 || {{lahn}}16,165 million || {{lahn}}1,229
 |-
-| 158 || style="text-align:left" | {{flag|Othya}} || 30,422 || 31,388 || 1,032 || 5,643 || 185 || 37,031 || 1,217
+| 158 || style="text-align:left" | {{flag|Othya}} || 30,422 || {{lahn}}31,388 million || {{lahn}}1,032 || {{lahn}}5,643 million || {{lahn}}185 || {{lahn}}37,031 million || {{lahn}}1,217
 |-
-| 159 || style="text-align:left" | {{flag|Shomjind}} || 2,899 || 1,210 || 418 || 1,822 || 629 || 3,032 || 1,046
+| 159 || style="text-align:left" | {{flag|Shomjind}} || 2,899 || {{lahn}}1,210 million || {{lahn}}418 || {{lahn}}1,822 million || {{lahn}}629 || {{lahn}}3,032 million || {{lahn}}1,046
 |-
-| 160 || style="text-align:left" | {{flag|Lieri}} || 36,478 || 29,359 || 805 || 7,463 || 205 || 36,822 || 1,009
+| 160 || style="text-align:left" | {{flag|Lieri}} || 36,478 || {{lahn}}29,359 million || {{lahn}}805 || {{lahn}}7,463 million || {{lahn}}205 || {{lahn}}36,822 million || {{lahn}}1,009
 |-
-| 161 || style="text-align:left" | {{flag|Sattle}} || 9,389 || 7,384 || 786 || 1,506 || 160 || 8,890 || 947
+| 161 || style="text-align:left" | {{flag|Sattle}} || 9,389 || {{lahn}}7,384 million || {{lahn}}786 || {{lahn}}1,506 million || {{lahn}}160 || {{lahn}}8,890 million || {{lahn}}947
 |-
-| 162 || style="text-align:left" | {{flag|Zhanshe}} || 7,355 || 6,007 || 817 || 583 || 79 || 6,590 || 896
+| 162 || style="text-align:left" | {{flag|Zhanshe}} || 7,355 || {{lahn}}6,007 million || {{lahn}}817 || {{lahn}}583 million || {{lahn}}79 || {{lahn}}6,590 million || {{lahn}}896
 |-
-| 163 || style="text-align:left" | {{flag|Migoku}} || 6,232 || 4,788 || 768 || 334 || 54 || 5,122 || 822
+| 163 || style="text-align:left" | {{flag|Migoku}} || 6,232 || {{lahn}}4,788 million || {{lahn}}768 || {{lahn}}334 million || {{lahn}}54 || {{lahn}}5,122 million || {{lahn}}822
 |-
-| 164 || style="text-align:left" | {{flag|Welenu Fana}} || 19,675 || 13,129 || 667 || 849 || 43 || 13,978 || 710
+| 164 || style="text-align:left" | {{flag|Welenu Fana}} || 19,675 || {{lahn}}13,129 million || {{lahn}}667 || {{lahn}}849 million || {{lahn}}43 || {{lahn}}13,978 million || {{lahn}}710
 |-
-| 165 || style="text-align:left" | {{flag|Shinam}} || 31,948 || 18,517 || 580 || 3,881 || 121 || 22,398 || 701
+| 165 || style="text-align:left" | {{flag|Shinam}} || 31,948 || {{lahn}}18,517 million || {{lahn}}580 || {{lahn}}3,881 million || {{lahn}}121 || {{lahn}}22,398 million || {{lahn}}701
 |-
-| 166 || style="text-align:left" | {{flag|Jau}} || 22,994 || 9,511 || 414 || 3,893 || 169 || 13,404 || 583
+| 166 || style="text-align:left" | {{flag|Jau}} || 22,994 || {{lahn}}9,511 million || {{lahn}}414 || {{lahn}}3,893 million || {{lahn}}169 || {{lahn}}13,404 million || {{lahn}}583
 |-
-| 167 || style="text-align:left" | {{flag|Ocaun}} || 88,914 || 44,789 || 504 || 5,209 || 59 || 49,997 || 562
+| 167 || style="text-align:left" | {{flag|Ocaun}} || 88,914 || {{lahn}}44,789 million || {{lahn}}504 || {{lahn}}5,209 million || {{lahn}}59 || {{lahn}}49,997 million || {{lahn}}562
 |-
-| 168 || style="text-align:left" | {{flag|Far Lands}} || 1,442 || 678 || 470 || 83 || 57 || 761 || 528
+| 168 || style="text-align:left" | {{flag|Far Lands}} || 1,442 || {{lahn}}678 million || {{lahn}}470 || {{lahn}}83 million || {{lahn}}57 || {{lahn}}761 million || {{lahn}}528
 |-
-| 169 || style="text-align:left" | {{flag|Taniduna}} || 45,063 || 17,393 || 386 || 3,133 || 70 || 20,526 || 455
+| 169 || style="text-align:left" | {{flag|Taniduna}} || 45,063 || {{lahn}}17,393 million || {{lahn}}386 || {{lahn}}3,133 million || {{lahn}}70 || {{lahn}}20,526 million || {{lahn}}455
 |-
-| 170 || style="text-align:left" | {{flag|Candenat}} || 27,333 || 6,650 || 243 || 2,198 || 80 || 8,848 || 324
+| 170 || style="text-align:left" | {{flag|Candenat}} || 27,333 || {{lahn}}6,650 million || {{lahn}}243 || {{lahn}}2,198 million || {{lahn}}80 || {{lahn}}8,848 million || {{lahn}}324
 |-
-| 171 || style="text-align:left" | {{flag|Yoprioq}} || 5,131 || 773 || 151 || 332 || 65 || 1,105 || 215
+| 171 || style="text-align:left" | {{flag|Yoprioq}} || 5,131 || {{lahn}}773 million || {{lahn}}151 || {{lahn}}332 million || {{lahn}}65 || {{lahn}}1,105 million || {{lahn}}215
 |-
-| 172 || style="text-align:left" | {{flag|Western Migoku}} || 2,951 || 569 || 193 || 54 || 18 || 624 || 211
+| 172 || style="text-align:left" | {{flag|Western Migoku}} || 2,951 || {{lahn}}569 million || {{lahn}}193 || {{lahn}}54 million || {{lahn}}18 || {{lahn}}624 million || {{lahn}}211
 |}
 
 == See also ==
