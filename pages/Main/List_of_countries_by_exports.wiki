@@ -1,4 +1,4 @@
-This is a '''list of countries by exports''', including both merchandise exports and service exports, based on figures published by the [[Global Trade Union]] for 1765.<ref name="gtu">{{Cite web |url=https://www.globaltradeunion.org/database/trade-outlook/1765/countries |title=International trade statistics by country, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765}} Retrieved 1765.</ref> Merchandise exports are goods produced in one country and sold to another; service exports are services supplied across borders between residents of different countries. The figures are in millions of [[lahn]] at current prices.
+This is a '''list of countries by exports''', including both merchandise exports and service exports, based on figures published by the [[Global Trade Union]] for 1765.<ref name="gtu">{{Cite web |url=https://www.globaltradeunion.org/database/trade-outlook/1765/countries |title=International trade statistics by country, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765}} Retrieved 1765.</ref> Merchandise exports are goods produced in one country and sold to another; service exports are services supplied across borders between residents of different countries. The figures are in {{lahn}} millions at current prices.
 
 Some countries, such as [[Merela Sta]] and [[Pha Hii]], have export figures that are large relative to the size of their economies because of re-exports: goods that pass through their ports and are sold on without substantial processing.<ref name="gtu" />
 
@@ -357,7 +357,7 @@ Some countries, such as [[Merela Sta]] and [[Pha Hii]], have export figures that
 |}
 
 == By merchandise exports ==
-Merchandise exports include re-exports. Figures are in millions of lahn.<ref name="gtu" />
+Merchandise exports include re-exports. Figures are in {{lahn}} millions.<ref name="gtu" />
 {| class="wikitable sortable" style="text-align:right"
 |+ Merchandise exports, 1765
 ! Rank !! Country !! Merchandise exports ({{lahn}} million) !! Year
@@ -710,7 +710,7 @@ Merchandise exports include re-exports. Figures are in millions of lahn.<ref nam
 |}
 
 == By service exports ==
-Service exports cover transport, travel, and financial, business and information services. Figures are in millions of lahn.<ref name="gtu" />
+Service exports cover transport, travel, and financial, business and information services. Figures are in {{lahn}} millions.<ref name="gtu" />
 {| class="wikitable sortable" style="text-align:right"
 |+ Service exports, 1765
 ! Rank !! Country !! Service exports ({{lahn}} million) !! Year

@@ -95,7 +95,7 @@ def exports_page():
     L.append(f"This is a '''list of countries by exports''', including both merchandise exports and service exports, "
              f"based on figures published by the [[Global Trade Union]] for {YEAR}.{GTU} Merchandise exports are goods "
              f"produced in one country and sold to another; service exports are services supplied across borders between "
-             f"residents of different countries. The figures are in millions of [[lahn]] at current prices.")
+             f"residents of different countries. The figures are in {{{{lahn}}}} millions at current prices.")
     L.append("")
     hubs = [c["name"] for c in rows(lambda c: c["reexports"] / max(c["x"], 1)) if c["reexports"] > 0.3 * c["x"]][:3]
     if hubs:
@@ -118,7 +118,7 @@ def exports_page():
     L.append("|}")
     L.append("")
     L.append("== By merchandise exports ==")
-    L.append(f"Merchandise exports include re-exports. Figures are in millions of lahn.{GTU2}")
+    L.append(f"Merchandise exports include re-exports. Figures are in {{{{lahn}}}} millions.{GTU2}")
     L += table_head(f"Merchandise exports, {YEAR}", ["Rank", "Country", f"Merchandise exports ({{{{lahn}}}} million)", "Year"])
     L += world_row(["", "''World''", m(wg), str(YEAR)])
     for i, c in enumerate(rows(lambda c: c["goods_x"]), 1):
@@ -126,7 +126,7 @@ def exports_page():
     L.append("|}")
     L.append("")
     L.append("== By service exports ==")
-    L.append(f"Service exports cover transport, travel, and financial, business and information services. Figures are in millions of lahn.{GTU2}")
+    L.append(f"Service exports cover transport, travel, and financial, business and information services. Figures are in {{{{lahn}}}} millions.{GTU2}")
     L += table_head(f"Service exports, {YEAR}", ["Rank", "Country", f"Service exports ({{{{lahn}}}} million)", "Year"])
     L += world_row(["", "''World''", m(ws), str(YEAR)])
     for i, c in enumerate(rows(lambda c: c["svc_x"]), 1):
@@ -151,7 +151,7 @@ def imports_page():
     L.append(f"This is a '''list of countries by imports''', including both merchandise imports and service imports, "
              f"based on figures published by the [[Global Trade Union]] for {YEAR}.{GTU} Merchandise imports are goods "
              f"produced in one country and purchased by another; service imports are services procured across borders "
-             f"between residents of different countries. The figures are in millions of [[lahn]] at current prices, and the "
+             f"between residents of different countries. The figures are in {{{{lahn}}}} millions at current prices, and the "
              f"trade balance is exports of goods and services less imports.")
     L.append("")
     L.append("== By total and merchandise imports ==")
@@ -174,7 +174,7 @@ def imports_page():
     L.append("")
     L.append("== By service imports ==")
     L.append(f"Service imports cover transport, travel abroad, and financial, business and information services bought from "
-             f"other countries. Figures are in millions of lahn.{GTU2}")
+             f"other countries. Figures are in {{{{lahn}}}} millions.{GTU2}")
     L += table_head(f"Service imports, {YEAR}", ["Rank", "Country", f"Service imports ({{{{lahn}}}} million)", "Year"])
     L += world_row(["", "''World''", m(wsvc), str(YEAR)])
     for i, c in enumerate(rows(lambda c: c["m"] * (c.get("svc_share") or 0.0)), 1):
@@ -198,7 +198,7 @@ def per_capita_page():
     L = []
     L.append(f"This is a '''list of countries by exports per capita''': the value of a country's exports of goods and "
              f"services in {YEAR} divided by its population. Export figures are from the [[Global Trade Union]]{GTU} and "
-             f"population estimates from the [[World Data Union]].{WDU} Values are in [[lahn]] at current prices. Merchandise "
+             f"population estimates from the [[World Data Union]].{WDU} Values are in {{{{lahn}}}} at current prices. Merchandise "
              f"exports include re-exports, which is why several small trading states with large ports rank near the top.")
     L.append("")
     L.append(f"== Exports per capita, {YEAR} ==")

@@ -1,4 +1,4 @@
-This is a '''list of countries by imports''', including both merchandise imports and service imports, based on figures published by the [[Global Trade Union]] for 1765.<ref name="gtu">{{Cite web |url=https://www.globaltradeunion.org/database/trade-outlook/1765/countries |title=International trade statistics by country, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765}} Retrieved 1765.</ref> Merchandise imports are goods produced in one country and purchased by another; service imports are services procured across borders between residents of different countries. The figures are in millions of [[lahn]] at current prices, and the trade balance is exports of goods and services less imports.
+This is a '''list of countries by imports''', including both merchandise imports and service imports, based on figures published by the [[Global Trade Union]] for 1765.<ref name="gtu">{{Cite web |url=https://www.globaltradeunion.org/database/trade-outlook/1765/countries |title=International trade statistics by country, 1765 |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765}} Retrieved 1765.</ref> Merchandise imports are goods produced in one country and purchased by another; service imports are services procured across borders between residents of different countries. The figures are in {{lahn}} millions at current prices, and the trade balance is exports of goods and services less imports.
 
 == By total and merchandise imports ==
 {| class="wikitable sortable" style="text-align:right"
@@ -355,7 +355,7 @@ This is a '''list of countries by imports''', including both merchandise imports
 |}
 
 == By service imports ==
-Service imports cover transport, travel abroad, and financial, business and information services bought from other countries. Figures are in millions of lahn.<ref name="gtu" />
+Service imports cover transport, travel abroad, and financial, business and information services bought from other countries. Figures are in {{lahn}} millions.<ref name="gtu" />
 {| class="wikitable sortable" style="text-align:right"
 |+ Service imports, 1765
 ! Rank !! Country !! Service imports ({{lahn}} million) !! Year
