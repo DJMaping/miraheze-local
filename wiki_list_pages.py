@@ -40,22 +40,8 @@ SERVICES = {"transport", "tourism", "finance_business"}
 
 
 def m(v):
-    """
-    A currency cell: {{lahn}}17,490,723 million. Every amount starts with the
-    lahn template and carries its scale word, because the wiki's conversion
-    tooltip (MediaWiki:Common.js) reads the number and scale that follow the
-    symbol; a bare number under a "million" header would be read as units.
-    A minus sign goes before the template so the number still starts with a
-    digit.
-    """
-    sign = "−" if v < 0 else ""
-    return f"{sign}{{{{lahn}}}}{abs(v) / 1e6:,.0f} million"
-
-
-def cur(v):
-    """A per-capita currency cell: {{lahn}}613,471."""
-    sign = "−" if v < 0 else ""
-    return f"{sign}{{{{lahn}}}}{abs(v):,.0f}"
+    """lahn millions with thousands separators."""
+    return f"{v / 1e6:,.0f}"
 
 
 def n0(v):
@@ -118,7 +104,7 @@ def exports_page():
                  f"through their ports and are sold on without substantial processing.{GTU2}")
         L.append("")
     L.append("== By total exports ==")
-    L += table_head(f"Exports of goods and services, {YEAR}", ["Rank", "Country", "Exports", "Year", "Top goods export"])
+    L += table_head(f"Exports of goods and services, {YEAR}", ["Rank", "Country", f"Exports ({{{{lahn}}}} million)", "Year", "Top goods export"])
     L += world_row(["", "''World''", m(wx), str(YEAR), ""])
     unions = sorted(U.values(), key=lambda u: -u["x"])
     for i, c in enumerate(rows(lambda c: c["x"]), 1):
@@ -133,7 +119,7 @@ def exports_page():
     L.append("")
     L.append("== By merchandise exports ==")
     L.append(f"Merchandise exports include re-exports. Figures are in {{{{lahn}}}} millions.{GTU2}")
-    L += table_head(f"Merchandise exports, {YEAR}", ["Rank", "Country", "Merchandise exports", "Year"])
+    L += table_head(f"Merchandise exports, {YEAR}", ["Rank", "Country", f"Merchandise exports ({{{{lahn}}}} million)", "Year"])
     L += world_row(["", "''World''", m(wg), str(YEAR)])
     for i, c in enumerate(rows(lambda c: c["goods_x"]), 1):
         L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {m(c['goods_x'])} || {YEAR}"]
@@ -141,7 +127,7 @@ def exports_page():
     L.append("")
     L.append("== By service exports ==")
     L.append(f"Service exports cover transport, travel, and financial, business and information services. Figures are in {{{{lahn}}}} millions.{GTU2}")
-    L += table_head(f"Service exports, {YEAR}", ["Rank", "Country", "Service exports", "Year"])
+    L += table_head(f"Service exports, {YEAR}", ["Rank", "Country", f"Service exports ({{{{lahn}}}} million)", "Year"])
     L += world_row(["", "''World''", m(ws), str(YEAR)])
     for i, c in enumerate(rows(lambda c: c["svc_x"]), 1):
         L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {m(c['svc_x'])} || {YEAR}"]
@@ -170,15 +156,18 @@ def imports_page():
     L.append("")
     L.append("== By total and merchandise imports ==")
     L += table_head(f"Imports of goods and services, {YEAR}",
-                    ["Rank", "Country", "Total imports", "Merchandise imports", "Trade balance", "Year"])
-    L += world_row(["", "''World''", m(wm), m(wgm), m(0), str(YEAR)])
+                    ["Rank", "Country", f"Total imports ({{{{lahn}}}} million)", f"Merchandise imports ({{{{lahn}}}} million)",
+                     f"Trade balance ({{{{lahn}}}} million)", "Year"])
+    L += world_row(["", "''World''", m(wm), m(wgm), "0", str(YEAR)])
     unions = sorted(U.values(), key=lambda u: -u["m"])
     for i, c in enumerate(rows(lambda c: c["m"]), 1):
         while unions and unions[0]["m"] >= c["m"]:
             u = unions.pop(0)
             L += union_row(["", f"style=\"text-align:left\" | {union_cell(u)}", m(u["m"]), "", m(u["bal"]), str(YEAR)])
         gm = c["m"] * (1.0 - (c.get("svc_share") or 0.0))
-        L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {m(c['m'])} || {m(gm)} || {m(c['bal'])} || {YEAR}"]
+        bal = c["bal"]
+        bal_s = ("−" if bal < 0 else "") + m(abs(bal))
+        L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {m(c['m'])} || {m(gm)} || {bal_s} || {YEAR}"]
     for u in unions:
         L += union_row(["", f"style=\"text-align:left\" | {union_cell(u)}", m(u["m"]), "", m(u["bal"]), str(YEAR)])
     L.append("|}")
@@ -186,7 +175,7 @@ def imports_page():
     L.append("== By service imports ==")
     L.append(f"Service imports cover transport, travel abroad, and financial, business and information services bought from "
              f"other countries. Figures are in {{{{lahn}}}} millions.{GTU2}")
-    L += table_head(f"Service imports, {YEAR}", ["Rank", "Country", "Service imports", "Year"])
+    L += table_head(f"Service imports, {YEAR}", ["Rank", "Country", f"Service imports ({{{{lahn}}}} million)", "Year"])
     L += world_row(["", "''World''", m(wsvc), str(YEAR)])
     for i, c in enumerate(rows(lambda c: c["m"] * (c.get("svc_share") or 0.0)), 1):
         L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {m(c['m'] * (c.get('svc_share') or 0.0))} || {YEAR}"]
@@ -214,13 +203,13 @@ def per_capita_page():
     L.append("")
     L.append(f"== Exports per capita, {YEAR} ==")
     L += ['{| class="wikitable sortable" style="text-align:right"', f"|+ Exports per capita by country, {YEAR}",
-          "! Rank !! Country !! Population (thousands) !! Merchandise exports !! Merchandise exports per capita "
-          "!! Service exports !! Service exports per capita !! Total exports !! Total exports per capita"]
-    L += world_row(["", "''World''", n0(wp / 1e3), m(wg), cur(wg / wp), m(ws), cur(ws / wp), m(wx), cur(wx / wp)])
+          "! Rank !! Country !! Population (thousands) !! Merchandise exports ({{lahn}} million) !! Merchandise exports per capita ({{lahn}}) "
+          "!! Service exports ({{lahn}} million) !! Service exports per capita ({{lahn}}) !! Total exports ({{lahn}} million) !! Total exports per capita ({{lahn}})"]
+    L += world_row(["", "''World''", n0(wp / 1e3), m(wg), n0(wg / wp), m(ws), n0(ws / wp), m(wx), n0(wx / wp)])
     for i, c in enumerate(rows(lambda c: c["x"] / max(c["population"], 1)), 1):
         p = max(c["population"], 1)
-        L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {n0(p / 1e3)} || {m(c['goods_x'])} || {cur(c['goods_x'] / p)} "
-                    f"|| {m(c['svc_x'])} || {cur(c['svc_x'] / p)} || {m(c['x'])} || {cur(c['x'] / p)}"]
+        L += ["|-", f"| {i} || style=\"text-align:left\" | {flag(c['name'])} || {n0(p / 1e3)} || {m(c['goods_x'])} || {n0(c['goods_x'] / p)} "
+                    f"|| {m(c['svc_x'])} || {n0(c['svc_x'] / p)} || {m(c['x'])} || {n0(c['x'] / p)}"]
     L.append("|}")
     L += ["", "== See also ==",
           "* [[List of countries by exports]]",
