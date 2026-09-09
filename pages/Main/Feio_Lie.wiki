@@ -49,20 +49,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 34.3
 | population_density_rank = 113th
-| GDP_PPP                = {{increase}} {{lahn}}112 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/fei/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}896 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/fei/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 87th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}14,333
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}114,664
 | GDP_PPP_per_capita_rank = 85th
-| GDP_nominal            = {{increase}} {{lahn}}43 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/fei/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}344 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/fei/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 94th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}5,556
+| GDP_nominal_per_capita = {{increase}} {{lahn}}44,448
 | GDP_nominal_per_capita_rank = 91st
 | HDI_year               = 1765
-| HDI                    = 0.717
+| HDI                    = 0.648
 | HDI_change             = increase
-| HDI_rank               = 107th
+| HDI_rank               = 114th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Feian Araik]] (_) (FAK)
 | time_zone              = SET +3 (Standard Feian Time)

@@ -46,20 +46,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 132.8
 | population_density_rank = 31st
-| GDP_PPP                = {{increase}} {{lahn}}3.875 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/nir/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}31 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/nir/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 153rd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,433
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}163,464
 | GDP_PPP_per_capita_rank = 41st
-| GDP_nominal            = {{increase}} {{lahn}}2.039 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/nir/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}16.312 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/nir/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 152nd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}10,754
+| GDP_nominal_per_capita = {{increase}} {{lahn}}86,032
 | GDP_nominal_per_capita_rank = 56th
 | HDI_year               = 1765
-| HDI                    = 0.827
+| HDI                    = 0.817
 | HDI_change             = increase
-| HDI_rank               = 56th
+| HDI_rank               = 44th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Estijan Zundetra]] (_) (EZD)
 | time_zone              = SET -4 (Standard Niretui and Anulan Time)

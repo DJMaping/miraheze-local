@@ -51,21 +51,21 @@
 | population_density_km2 = 109.3
 | population_density_sq_mi = 42.2
 | population_density_rank = 41st
-| GDP_PPP                = {{increase}} {{lahn}}1.768 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ukh/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}14.144 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ukh/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 
 | GDP_PPP_rank           = 14th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,643
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}165,144
 | GDP_PPP_per_capita_rank = 36th
-| GDP_nominal            = {{increase}} {{lahn}}962 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ukh/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}7.696 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ukh/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 12st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}11,230
+| GDP_nominal_per_capita = {{increase}} {{lahn}}89,840
 | GDP_nominal_per_capita_rank = 48th
 | HDI_year               = 1765
-| HDI                    = 0.834
+| HDI                    = 0.732
 | HDI_change             = increase
-| HDI_rank               = 55th
+| HDI_rank               = 84th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Ukhdari Anasu]] (_) (UAN)
 | time_zone              = SUT +1 (Standard Ukhdari Time)

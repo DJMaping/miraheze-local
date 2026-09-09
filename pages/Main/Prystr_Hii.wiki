@@ -47,20 +47,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 2694.3
 | population_density_rank = 2nd
-| GDP_PPP                = {{increase}} {{lahn}}48.817 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/pry/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}390.536 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/pry/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 113th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}29,752
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}238,016
 | GDP_PPP_per_capita_rank = 8th
-| GDP_nominal            = {{increase}} {{lahn}}50.851 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/pry/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}406.808 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/pry/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 84th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}30,992
+| GDP_nominal_per_capita = {{increase}} {{lahn}}247,936
 | GDP_nominal_per_capita_rank = 4th
 | HDI_year               = 1765
-| HDI                    = 0.913
+| HDI                    = 0.880
 | HDI_change             = increase
-| HDI_rank               = 22nd
+| HDI_rank               = 15th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Prystr Islatan]] (_) (PIS)
 | time_zone              = SPT +1 (Standard Prystr Time)

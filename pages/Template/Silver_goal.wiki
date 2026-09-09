@@ -1,0 +1,8 @@
+[[File:Soccerball shade silver.svg|13px|Silver goal|link=|alt=silver-colored soccer ball]]<noinclude>
+</noinclude>{{safesubst<noinclude />:#if: {{safesubst<noinclude />:#if:{{{1|}}}|{{{1|}}}|{{{2|}}}}}|&#32;<span>{{safesubst<noinclude />:#if: {{{1|}}}|{{{1}}}&#39;}}{{safesubst<noinclude />:#if: {{{2|}}}|{{safesubst<noinclude />:#if:{{{1|}}}|&nbsp;}}{{safesubst<noinclude />:#switch: {{{2|}}} |o.g. =([[Own goal#Association football|o.g.]]) |pen. =([[Penalty kick (association football)|pen.]]) |p =([[Penalty kick (association football)|p]]) | #default = ({{{2}}})}}}}</span>}}{{main other|{{#if:{{#invoke:string|endswith|1={{{1}}}|2='}}|[[Category:Association football templates needing maintenance]]}}}}<noinclude>
+
+{{documentation}}
+
+<!-- Categories and interwikis go on /doc -->
+
+</noinclude>

@@ -51,20 +51,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 40.0
 | population_density_rank = 66th
-| GDP_PPP                = {{increase}} {{lahn}}194 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/dsc/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.552 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/dsc/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 66th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}6,357
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}50,856
 | GDP_PPP_per_capita_rank = 132nd
-| GDP_nominal            = {{increase}} {{lahn}}55 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/dsc/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}440 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/dsc/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 79th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,821
+| GDP_nominal_per_capita = {{increase}} {{lahn}}14,568
 | GDP_nominal_per_capita_rank = 135th
 | HDI_year               = 1765
-| HDI                    = 0.553
+| HDI                    = 0.626
 | HDI_change             = increase
-| HDI_rank               = 155th
+| HDI_rank               = 121st
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 
 | currency               = [[Deschonian Islatan]] (_) (DIS)

@@ -49,20 +49,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 1.9
 | population_density_rank = 165th
-| GDP_PPP                = {{increase}} {{lahn}}13.786 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kor/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}110.288 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kor/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 142nd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}16,794
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}134,352
 | GDP_PPP_per_capita_rank = 67th
-| GDP_nominal            = {{increase}} {{lahn}}14.985 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kor/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}119.88 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kor/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 121st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}18,254
+| GDP_nominal_per_capita = {{increase}} {{lahn}}146,032
 | GDP_nominal_per_capita_rank = 24th
 | HDI_year               = 1765
-| HDI                    = 0.930
+| HDI                    = 0.885
 | HDI_change             = increase
-| HDI_rank               = 15th
+| HDI_rank               = 13th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Koruchi Zundetra]] (_) (KZD)
 | time_zone              = SET +1, +2, +3 (Standard KoruchiTime)
@@ -71,6 +71,11 @@
 | cctld                  = .kor
 | calling_code           = +56
 }}
+'''Koruch''', officially the '''Koruchi Republic''', is a country in [[North Ayuma]]. It borders [[Daconia]] to the south, the [[Srandan Ocean]] to the north, and shares a maritime border with [[Estijan]] to the east in the [[Hinsakian Ocean]]. Its capital and largest city is [[Suharimti]]. Koruch has a population of 820,900. The official language is [[Koruchi language|Koruchi]], and most of the population is also fluent in [[Estijan language|Estijan]]. Koruch's climate varies from [[Boreal climate|boreal]] in the east to [[wikipedia:Tundra|Tundra]] in the west. Its land is predominantly covered by [[wikipedia:boreal forest|boreal forest]], with [[List of lakes of Koruch|over 10,000 recorded lakes]].
+
+Koruch was first settled around 10,000 BFA after the [[wikipedia:Last Glacial Period|last Ice Age]]. During the [[Stone Age]], various cultures emerged, distinguished by different ceramic styles. The [[Bronze Age]] and [[Iron Age]]s were marked by contacts with other cultures such as the [[Murmane peoples|Murmane]]s. From the late 14th century, Koruch was settled by the Hanteri following the [[Hanteri migrations]], forming the [[Koruchi Kingdom]] in the 1390s. In 1655, as a result of the [[Koruchi War]], Koruch became [[Estijan colony of Koruch|an autonomous colony]] within the [[Estijan Huan]]. During this period, [[Golden Age of Koruchi Art|Koruchi art flourished]] and an [[Independence of Koruch|independence movement]] gradually developed. During the [[Grand Game]], Koruch's status was changed to an [[Estijan Dominion of Koruch|Estijan Dominion]] in 1725. During the Crisis that caused the collapse of Huan, Koruch declared independence in 1738, only recognised in 1741. 
+
+Koruch remained a largely [[wikipedia:agrarian country|rural and agrarian country]] until the 1700s, when it pursued rapid industrialisation and, with an influx of oil revenue, resulting in [[Economy of Koruch|an advanced economy]] and high [[List of countries by GDP (nominal) per capita|per capita income]]. The country ranks highly in international rankings across various categories, such as education, economic competitiveness, happiness, and prosperity. Koruchi's foreign policy emphasizes international cooperation and partnership, which has recently shifted towards closer [[Koruch–Estijan relations|ties with Estijan]]. 
 
 == History ==
 

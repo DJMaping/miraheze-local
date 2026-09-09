@@ -52,21 +52,21 @@
 | population_estimate_year = 1765
 | population_density_km2 = 0.77
 | population_density_rank = 171st
-| GDP_PPP                = {{increase}}$61.985 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/mes/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}495.88 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/mes/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 
 | GDP_PPP_rank           = 107
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}}$30,254
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}242,032
 | GDP_PPP_per_capita_rank = 5th
-| GDP_nominal            = {{increase}}$48.050 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/mes/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}384.4 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/mes/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 88th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}}$23,452
+| GDP_nominal_per_capita = {{increase}} {{lahn}}187,616
 | GDP_nominal_per_capita_rank = 11th
 | HDI_year               = 1765
-| HDI                    = 0.885
+| HDI                    = 0.894
 | HDI_change             = increase
-| HDI_rank               = 37th
+| HDI_rank               = 8th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Hyian Soreo]] (_) (HSR)
 | time_zone              = SET -10, -11 (Standard Hyian Time)

@@ -46,20 +46,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 36.2
 | population_density_rank = 109th
-| GDP_PPP                = {{increase}} {{lahn}}1.220 billion<ref>{{cite web|url=https://www.Cloja.gov.clo/1765/caX3a/CLOJA_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Cloja]] }}</ref>
+| GDP_PPP                = {{increase}} {{lahn}}9.76 billion<ref>{{cite web|url=https://www.Cloja.gov.clo/1765/caX3a/CLOJA_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Cloja]] }}</ref>
 | GDP_PPP_rank           = 163rd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}25,470
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}203,760
 | GDP_PPP_per_capita_rank = 20th
-| GDP_nominal            = {{increase}} {{lahn}}540 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/clo/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}4.32 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/clo/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 162nd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}11,270
+| GDP_nominal_per_capita = {{increase}} {{lahn}}90,160
 | GDP_nominal_per_capita_rank = 47th
 | HDI_year               = 1765
-| HDI                    = 0.752
+| HDI                    = 0.764
 | HDI_change             = increase
-| HDI_rank               = 91st
+| HDI_rank               = 69th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Clojan Lahn]] (_) (CJN)
 | time_zone              = CLJ +0 (Standard Clojan Time)

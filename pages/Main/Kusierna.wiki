@@ -1,5 +1,5 @@
 {{Infobox country
-| conventional_long_name = Federal Republic of Kusierna
+| conventional_long_name = Kingdom of Kusierna
 | native_name            = ''__''  - Kusiernian
 | image_flag             = Kusierna Flag.png
 | image_coat             = 
@@ -50,20 +50,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 9.2
 | population_density_rank = 151st
-| GDP_PPP                = {{increase}} {{lahn}}157.293 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kus/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.258 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kus/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 73rd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}17,164
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}137,312
 | GDP_PPP_per_capita_rank = 64th
-| GDP_nominal            = {{increase}} {{lahn}}58.911 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kus/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}471.288 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kus/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 77th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}6,429
+| GDP_nominal_per_capita = {{increase}} {{lahn}}51,432
 | GDP_nominal_per_capita_rank = 85th
 | HDI_year               = 1765
-| HDI                    = 0.693
+| HDI                    = 0.765
 | HDI_change             = increase
-| HDI_rank               = 121st
+| HDI_rank               = 68th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Kusiernian Oran]] (_) (KRN)
 | time_zone              = SET +1, +2 (Standard Kusiernian Time)
@@ -72,6 +72,13 @@
 | cctld                  = .kus
 | calling_code           = +555
 }}
+'''Kusierna''', officially the '''Kingdom of Kusierna''', is a country in [[South Massir]]. It has a population of about 9.1 million. Its [[wikipedia:capital city|capital]] and largest city is [[Mikavasi]], with a population of over 1.9 million. The [[wikipedia:sovereign state|sovereign state]] shares a land border with [[Vesozata]] and [[Suenan]], to the north. It is otherwise surrounded by the [[Southern Eanif Ocean]], with the [[Bay of Rimi]] to the southeast. It is a [[wikipedia:Federation|federal]], [[wikipedia:parliamentary system|parliamentary]] [[wikipedia:constitutional monarchy|constitutional monarchy]]. The [[Monarchy of Kusierna|monarch]] is [[wikipedia:head of state|head of state]] and reigns on the advice of ministers, with the [[wikipedia:royal prerogative|prerogative]] exercised almost entirely through the federal government. The legislature, the [[Union of Kusierna]], consists of a [[Wikipedia:lower house|lower house]], the [[National Assembly (Kusierna)|National Assembly]]; an [[Wikipedia:upper house|upper house]], the [[Lainar of the People (Kusierna)|Lainar of the People]]; and an elected [[High Minister of Kusierna|High Minister]], who presides over the Union and discharges the reserve powers of the Crown in the monarch's name. The [[wikipedia:head of government|head of government]] is the Low Minister, elected by the National Assembly and appointed by the High Minister on the monarch's behalf, who appoints other government ministers.
+
+The [[Kusiernian Kingdom]] was founded in 1582 and ruled the region until the royal house was deposed by [[Easuhura]] in the 1660s. The [[Kusierna colony]] was created with [[wikipedia:Dominion|Dominion]] status in 1669, following the [[Easuhuran-Kusiernian Treaty]]. In 1695, a [[Constitution of Kusierna|new constitution]] was adopted, in which the state was named "Kusierna" and effectively became a republic, with an elected [[Head of state#Non-executive model|non-executive president]]. It was officially declared a republic in 1698, following [[The Republic of Kusierna Act 1698]]. Kusierna became a member of the [[Global Trade Union]] in 1702. The monarchy was restored in 1721, the royal house returning under a settlement that vested the presidency's former functions in the Crown and left the office of High Minister elected. The state had no formal relations with [[Dahe]] for most of the early 18th century, but the 1730s and 1740s saw the Vesozatan and Kusiernian governments working with Vesozatan Unionist parties to resolve the conflict that had become known as [[the despairs]]. Since the signing of the [[Normality Agreement]] in 1748, the [[Government of Kusierna|Kusiernian government]] and [[Vesozatan Unionists|Vesozatan Unionist parties]] have co-operated on several policy areas, though the idea of unification with Vesozata remains unresolved.
+
+Kusierna is a [[wikipedia:secular state|secular state]]. Kusierna comprises 12 [[Regions of Kusierna|regions]]. While [[non-governmental organisation|NGOs]] have defined Kusierna as a "semi-democratic state with limited [[wikipedia:Civil and political rights|civil rights]]", significant reforms under Kusierna's second monarch since the restoration, [[Soyv Liaovi]], who acceded in 1756, have been made. The country also holds strong ties with other major regional and global powers like [[Dahe]], [[Raledria]], [[Easuhura]], [[Emara]], [[Pelugrotoa]], and [[Sunsokua]].
+
+The [[Economy of Kusierna|Kusiernian economy]] is undergoing a gradual transition to a [[wikipedia:market economy|market economy]], with foreign trade policy being based on [[Import substitution industrialization|import substitution]]. In September 1749, the country's currency became fully convertible at market rates. Kusierna is a major producer and exporter of [[wikipedia:uranium|uranium]] and [[wikipedia:Titanium|Titanium]].
 
 == History ==
 

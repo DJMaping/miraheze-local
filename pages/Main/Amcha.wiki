@@ -62,20 +62,20 @@
 | population_census_year = 1762
 | population_density_km2 = 6.2
 | population_density_rank = 156th
-| GDP_PPP                = {{increase}} {{lahn}}9.902 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/amc/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}79.216 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/amc/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 148th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}4,428
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}35,424
 | GDP_PPP_per_capita_rank = 150th
-| GDP_nominal            = {{increase}} {{lahn}}4.286 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/amc/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}34.288 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/amc/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 145th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,917
+| GDP_nominal_per_capita = {{increase}} {{lahn}}15,336
 | GDP_nominal_per_capita_rank = 130th
 | HDI_year               = 1765
-| HDI                    = 0.688
+| HDI                    = 0.614
 | HDI_change             = increase
-| HDI_rank               = 123rd
+| HDI_rank               = 125th
 | HDI_ref                = <!--(for any ref/s to associate with HDI number)-->
 | currency               = [[Clenta]] (_) (CKE)
 | time_zone              = AMC +6 (Standard Amcha Time)
@@ -89,7 +89,7 @@ The '''Federal Republic of Amchan''', commonly known as '''Amchan''', is a sover
 
 The early history of the region is defined by the emergence of the [[Folite Kingdoms]] in 733 AFA. This period of decentralised rule transitioned into a more centralised authority with the rise of the [[Amcharian Empire]] in 885 AFA, which led to an invasion of [[Hijita]]. Following a period of constant civil wars under the [[Kiener Dynasty]], the [[Amcha Kingdom]] was established in 1210 AFA, marking a long era of monarchical stability. The nation entered an era of isolation that ended in 1603 when an [[Emara|Emaran]] fleet forced concessions, including the naval port in [[Zardalune]]. It became an [[Easuhura|Easuhuran]] protectorate in 1654 after the [[Cewia affair]]. This period of foreign administration lasted until 1706 AFA, when Amchan successfully [[achieved independence]], leading to the formation of the modern republic after a [[vote over whether to be a monarchy or a republic]].
 
-Amchan is a [[wikipedia:developing country]], [[List of countries by Krali Total Development Index|ranking 108th in the Krali Total Development Index]]. It is one of the poorest countries in [[Mahea]] in terms of per capita income; however, large parts of the population are well off. [[Omlo Juaill]] came to office in 1726 and created a [[dictatorship]], which stabilised its power through a [[client network]]. The official language of Amchan is [[Standardised Amchan]], and the [[Diaokiuo]] ethnic group constitute around 85% of the country's population with a sizable [[Ocaun|Ocunese]] minority, mostly located in the north. ___ is the nation's predominant religion, practised by about 80% of the population. Amchan's  [[List of countries by GDP (nominal) per capita|nominal GDP per capita is]] {{lahn}}10,149 in 1765
+Amchan is a [[wikipedia:developing country]], [[List of countries by Krali Total Development Index|ranking 108th in the Krali Total Development Index]]. It is one of the poorest countries in [[Mahea]] in terms of per capita income; however, large parts of the population are well off. [[Omlo Juaill]] came to office in 1726 and created a [[dictatorship]], which stabilised its power through a [[client network]]. The official language of Amchan is [[Standardised Amchan]], and the [[Diaokiuo]] ethnic group constitute around 85% of the country's population with a sizable [[Ocaun|Ocunese]] minority, mostly located in the north. ___ is the nation's predominant religion, practised by about 80% of the population. Amchan's  [[List of countries by GDP (nominal) per capita|nominal GDP per capita is]] {{lahn}}81,192 in 1765
 
 == History ==
 

@@ -46,9 +46,9 @@
 | demographics_type2 = GDP
 | demographics2_footnotes = 
 | demographics2_title1 = Total
-| demographics2_info1 = {{lahn}}39.513 Billion (1765)
+| demographics2_info1 = {{lahn}}316.104 billion (1765)
 | demographics2_title2 = Per capita 
-| demographics2_info2 = {{lahn}}17,043 (1765)
+| demographics2_info2 = {{lahn}}136,344 (1765)
 | blank_name_sec2 = Currency
 | blank_info_sec2 = [[Etirhan Kasare]] (_) (EKA) 
 }}

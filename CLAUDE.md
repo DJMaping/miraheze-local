@@ -34,6 +34,8 @@ python pull.py                        # Pull all main-namespace pages
 python pull.py "Page Title"           # Pull one specific page (namespace inferred from prefix)
 python pull.py --ns 10                # Pull templates (namespace 10)
 python pull.py --all-ns               # Pull every namespace in NS_NAMES
+python pull_changed.py                # Pull ONLY pages changed on the wiki since the last pull (all namespaces);
+                                      #   backs up any local file that differs from git HEAD to pages_backup/ before overwriting
 
 python push.py --dry-run              # Preview what would be sent (no login, no writes)
 python push.py -m "Edit summary"      # Push all changed pages

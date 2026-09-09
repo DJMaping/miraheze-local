@@ -55,20 +55,20 @@
 | population_density_km2 = 108
 | population_density_sq_mi = 41.6
 | population_density_rank = 42th
-| GDP_PPP                = {{decrease}} {{lahn}}1,401 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sun/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{decrease}} {{lahn}}11.209 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sun/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 17th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{decrease}} {{lahn}}17,611
+| GDP_PPP_per_capita     = {{decrease}} {{lahn}}140,888
 | GDP_PPP_per_capita_rank = 61st
-| GDP_nominal            = {{decrease}} {{lahn}}1.000 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sun/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{decrease}} {{lahn}}8 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sun/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 11st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{decrease}} {{lahn}}12,579
+| GDP_nominal_per_capita = {{decrease}} {{lahn}}100,632
 | GDP_nominal_per_capita_rank = 44th
 | HDI_year               = 1765
-| HDI                    = 0.918
+| HDI                    = 0.820
 | HDI_change             = increase
-| HDI_rank               = 19st
+| HDI_rank               = 42nd
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Sunsokuan Mejit]] (_) (SMJ)
 | time_zone              = SST +6 (Standard Sunsokuam Time)

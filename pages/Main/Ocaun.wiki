@@ -47,20 +47,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 63.5
 | population_density_rank = 73rd
-| GDP_PPP                = {{increase}} {{lahn}}273.844 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oca/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}2.191 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oca/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 54th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,080
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}24,640
 | GDP_PPP_per_capita_rank = 158th
-| GDP_nominal            = {{increase}} {{lahn}}43.398 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oca/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}347.184 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oca/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 94th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}488
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,904
 | GDP_nominal_per_capita_rank = 162nd
 | HDI_year               = 1765
-| HDI                    = 0.396
+| HDI                    = 0.398
 | HDI_change             = increase
-| HDI_rank               = 170th
+| HDI_rank               = 161st
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Mandgi]] (_) (MDG)
 | time_zone              = SET +4, +5 (Standard Ocunese  Time)

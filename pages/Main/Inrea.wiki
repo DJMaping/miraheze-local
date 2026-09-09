@@ -54,20 +54,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 5.0
 | population_density_rank = 158th
-| GDP_PPP                = {{decrease}} {{lahn}}31.343 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/inr/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{decrease}} {{lahn}}250.744 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/inr/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 123rd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{decrease}} {{lahn}}15,275
+| GDP_PPP_per_capita     = {{decrease}} {{lahn}}122,200
 | GDP_PPP_per_capita_rank = 75th
-| GDP_nominal            = {{decrease}} {{lahn}}26.789 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/inr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{decrease}} {{lahn}}214.312 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/inr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 108th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{decrease}} {{lahn}}13,056
+| GDP_nominal_per_capita = {{decrease}} {{lahn}}104,448
 | GDP_nominal_per_capita_rank = 40th
 | HDI_year               = 1765
-| HDI                    = 0.841
+| HDI                    = 0.814
 | HDI_change             = increase
-| HDI_rank               = 53rd
+| HDI_rank               = 45th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Inrean Iscali]] (_) (IIS)
 | time_zone              = SIN +4,+5 (Standard Inrean Time)
@@ -76,6 +76,12 @@
 | cctld                  = .inr
 | calling_code           = +914
 }}
+
+'''Inrea''' formally known as the '''Federal Republic of Inrea''', is located in [[South Mahea]]. It borders [[Exilium]] and [[Ocaun]] to the north, and [[Amcha]] to the east, and shares a maritime border with [[Cruthi Anoso]] to the south. Inrea claims sovereignty over the Cruthi Anoso Islands. At {{convert|409984|km2|sqmi}}<ref name="auto" /> and with a population of 2.0 million, is the [[List of Mahean countries by area|thirteenth-largest country in Mahea]]. Its capital and largest city is [[Dalsjiv]]. The population density is {{convert|5.0|PD/km2|PD/sqmi}}, and 78% of [[Inrean]] reside in urban areas, mostly along the southern coast, and western portions of the country. Inrea's urban areas together cover 0.5% of its land area. Inrea has a diverse [[Climate of Inrea|climate]] owing to the [[Wasan Mountains]] of the country, which crosses through the middle of the country, creating the [[Knac Steppe]] in the north.
+
+The unified Kingdom of Inrea emerged in the late eighth century AFA as a [[maritime power]]. In 1397, it went through the [[Citionc crisis]], which lead to the adoption of the [[Constitution of Inrea]] on 5 June 1649 ended the [[absolute monarchy]]. In the [[Easuhuran-Inrean]], Inrea became a [[Easuhura]] [[Inrean protectorate]] in 1641, which led to changes in Inrean politics henceforth emphasising social cohesion, as well as the clearing of the vast marshes arond the capital for agriculture, new Irreligion movements surged during this time.
+
+Inrea discovered oil in the turn of the century, becoming a major oil exporter. Inrea remained under Easuhuran influence until full independence as the Federal Republic of Inrea in 1728 Along with the democratization of the government, with the Pro-Easuhuran king ousted. Inrea is a [[developed country]] with, high [[standard of living]], and robust social welfare policies. It is a member of [[Global Trade Union|GTU]], and was a member of the [[Mahean Petroleum Union]], but left in 1762.
 
 == History ==
 

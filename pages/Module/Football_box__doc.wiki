@@ -1,0 +1,6 @@
+{{High-use}}
+{{Lua|Module:Delink|Module:If preview|Module:Arguments}}
+{{Uses TemplateStyles|Module:Football box/styles.css|Template:Plainlist/styles.css}}
+Implements {{tl|Football box}}<noinclude>
+[[Category:Module documentation pages]]
+</noinclude>

@@ -52,20 +52,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 34.7
 | population_density_rank = 112th
-| GDP_PPP                = {{increase}} {{lahn}}6.553 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/met/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}52.424 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/met/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 150th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}10,311
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}82,488
 | GDP_PPP_per_capita_rank = 104th
-| GDP_nominal            = {{increase}} {{lahn}}2.824 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/met/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}22.592 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/met/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 150th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}4,444
+| GDP_nominal_per_capita = {{increase}} {{lahn}}35,552
 | GDP_nominal_per_capita_rank = 99th
 | HDI_year               = 1765
-| HDI                    = 0.774
+| HDI                    = 0.691
 | HDI_change             = increase
-| HDI_rank               = 79th
+| HDI_rank               = 96th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 
 | currency               = [[Metndria Nie]] (_) (YAC)

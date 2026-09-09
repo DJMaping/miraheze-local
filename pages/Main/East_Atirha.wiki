@@ -5,9 +5,9 @@
 |area           = {{convert|3,956,846|km2|sqmi|abbr=on}}
 |population     = 107,817,357 (1765)
 |density        = {{convert|27.25|/km2|/sqmi|abbr=on}}
-|GDP_PPP        = {{lahn}}2.719 trillion
-|GDP_nominal    = {{lahn}}3.076 trillion
-|GDP_per_capita = {{lahn}}28,534
+|GDP_PPP        = {{lahn}}21.752 trillion
+|GDP_nominal    = {{lahn}}24.608 trillion
+|GDP_per_capita = {{lahn}}228,272
 |HDI            = 
 |ethnic_groups  = 
 |religions      = 

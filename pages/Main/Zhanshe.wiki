@@ -49,20 +49,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 1.38
 | population_density_rank = 169th
-| GDP_PPP                = {{increase}} {{lahn}}3.714 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}29.712 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 155th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}505
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}4,040
 | GDP_PPP_per_capita_rank = 171st
-| GDP_nominal            = {{increase}} {{lahn}}2.596 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}20.768 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 151st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}353
+| GDP_nominal_per_capita = {{increase}} {{lahn}}2,824
 | GDP_nominal_per_capita_rank = 165th
 | HDI_year               = 1765
-| HDI                    = 0.528
+| HDI                    = 0.385
 | HDI_change             = increase
-| HDI_rank               = 158th
+| HDI_rank               = 163rd
 | HDI_ref                = <!--(for any ref/s to associate with HDI number)-->
 | currency               = [[Urusur Zhanshean]] (_) (UZH)
 | time_zone              = SZT -11, -10, -9 (Standard Zhanshean Time)

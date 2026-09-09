@@ -10,8 +10,8 @@
 | image_map_size         = 300px
 | image_map2_size        = 300px
 | map_caption            = Location of Walporein (green)
-| capital                = [[City]]
-| largest_city           = [[City]]
+| capital                = [[Sokira]]
+| largest_city           = [[Sokira]]
 | official_languages     = [[Easuhura|Easuhuran]]
 | demonym                = Walporei
 | government_type        = Unitary presidential republic
@@ -46,20 +46,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 220.605
 | population_density_rank = 8th
-| GDP_PPP                = {{increase}} {{lahn}}21.917 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/wal/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}175.336 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/wal/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 130th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}30,016
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}240,128
 | GDP_PPP_per_capita_rank = 7th
-| GDP_nominal            = {{increase}} {{lahn}}17.965 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/wal/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}143.72 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/wal/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 118th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}24,603
+| GDP_nominal_per_capita = {{increase}} {{lahn}}196,824
 | GDP_nominal_per_capita_rank = 10th
 | HDI_year               = 1765
-| HDI                    = 0.892
+| HDI                    = 0.897
 | HDI_change             = increase
-| HDI_rank               = 33rd
+| HDI_rank               = 7th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Walporei Oran]] (_) (WOR)
 | time_zone              = SWT -4 (Standard Walporei Time)

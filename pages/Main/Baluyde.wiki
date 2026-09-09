@@ -63,20 +63,20 @@
 | population_census_year = 1762
 | population_density_km2 = 107.8
 | population_density_rank = 44th
-| GDP_PPP                = {{increase}} {{lahn}}29.129 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/bal/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}233.032 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/bal/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 125th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}17,783
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}142,264
 | GDP_PPP_per_capita_rank = 60th
-| GDP_nominal            = {{increase}} {{lahn}}15.405 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/bal/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}123.24 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/bal/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 120th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}9,405
+| GDP_nominal_per_capita = {{increase}} {{lahn}}75,240
 | GDP_nominal_per_capita_rank = 62nd
 | HDI_year               = 1765
-| HDI                    = 0.705
+| HDI                    = 0.782
 | HDI_change             = increase
-| HDI_rank               = 114th
+| HDI_rank               = 59th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Baluydan Att]] (_) (BTT)
 | time_zone              = SBT -12 (Standard Baluyde Time)

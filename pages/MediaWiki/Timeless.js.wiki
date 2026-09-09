@@ -1,0 +1,648 @@
+/**
+ * Andah -- Timeless chrome.
+ *
+ * Loaded only for the Timeless skin. It adds the pieces of furniture the skin
+ * does not emit, and which [[MediaWiki:Timeless.css]] therefore cannot style
+ * into existence:
+ *
+ *   1. a header hamburger that collapses the site menu,
+ *   2. the article table of contents, lifted into the left rail,
+ *   3. an Appearance panel (text size / width / colour) at the foot of it,
+ *   4. skip links, because the rails come last in the DOM,
+ *
+ * plus one rearrangement: Wiki tools moves from the left rail to the right.
+ *
+ * Nothing here paints. Every visual decision lives in Timeless.css; this file
+ * only creates elements and writes preference classes onto <html>. If it fails
+ * to run, the skin falls back to Timeless's own inline table of contents and
+ * the extension's Dark mode link, which is why the CSS hides both of those on
+ * classes this script sets rather than unconditionally.
+ */
+( function () {
+	'use strict';
+
+	/**
+	 * Preferences.
+	 *
+	 * `feature` is both the storage key and the <html> class prefix, so
+	 * andah-text/large becomes html.andah-text-clientpref-large. The suffix
+	 * follows core's naming convention for readability; the values themselves
+	 * are kept in localStorage, for the reasons set out below.
+	 *
+	 * Colour is the odd one out. It is stored as a preference of its own
+	 * because it has a third state, Automatic, that core has no class for; what
+	 * it actually drives is skin-theme, which the DarkMode extension watches.
+	 * See applyTheme().
+	 */
+	var PREFS = [ {
+		feature: 'andah-text',
+		label: 'Text',
+		def: 'standard',
+		options: [
+			[ 'small', 'Small' ],
+			[ 'standard', 'Standard' ],
+			[ 'large', 'Large' ]
+		]
+	}, {
+		feature: 'andah-width',
+		label: 'Width',
+		def: 'standard',
+		options: [
+			[ 'standard', 'Standard' ],
+			[ 'wide', 'Wide' ]
+		]
+	}, {
+		feature: 'andah-theme',
+		label: 'Colour',
+		// Light, not Automatic: the wiki has always rendered light, and night
+		// mode here is a whole-page inversion filter, so defaulting to the
+		// reader's system setting would flip the look of the site under
+		// everyone running a dark desktop without their ever asking for it.
+		def: 'day',
+		options: [
+			[ 'os', 'Automatic' ],
+			[ 'day', 'Light' ],
+			[ 'night', 'Dark' ]
+		]
+	} ];
+
+	// Not in the Appearance panel -- the hamburger is its own control -- but
+	// stored the same way so the rail stays collapsed across page loads.
+	var NAV_PREF = {
+		feature: 'andah-nav',
+		def: 'shown',
+		options: [ [ 'shown' ], [ 'hidden' ] ]
+	};
+
+	/* --- preferences -------------------------------------------------------
+	 * Stored in localStorage, as one object, and NOT in mw.user.clientPrefs.
+	 * That API looks like the right home for these and is not, for two
+	 * independent reasons:
+	 *
+	 *   1. clientPrefs.set() throws outright for a logged-in reader --
+	 *      "clientPrefs are for unregistered users only". Since the throw
+	 *      happened while saving, before the theme was applied, choosing Dark
+	 *      did nothing at all for anyone with an account.
+	 *
+	 *   2. clientPrefs.get() reads the class list on <html>, not the cookie,
+	 *      and MediaWiki only emits those classes server-side for features it
+	 *      knows about. It has never heard of andah-text, so every page load
+	 *      read back "unset" and fell to the default. The settings looked like
+	 *      they persisted, because the cookie really was being written; nothing
+	 *      ever read it again.
+	 *
+	 * localStorage has neither problem. The cost is a brief flash of the
+	 * default before this runs, which is unavoidable without the skin
+	 * rendering the classes itself.
+	 */
+
+	var STORE_KEY = 'andah-appearance';
+
+	function readStore() {
+		try {
+			return JSON.parse( mw.storage.get( STORE_KEY ) || '{}' ) || {};
+		} catch ( e ) {
+			return {};
+		}
+	}
+
+	function writeStore( feature, value ) {
+		try {
+			var all = readStore();
+			all[ feature ] = value;
+			mw.storage.set( STORE_KEY, JSON.stringify( all ) );
+		} catch ( e ) {
+			// Private browsing, a full quota, storage disabled. The setting
+			// still applies to this page view; it just will not be remembered.
+		}
+	}
+
+	function readPref( pref ) {
+		var stored = readStore()[ pref.feature ],
+			known = pref.options.some( function ( option ) {
+				return option[ 0 ] === stored;
+			} );
+		return known ? stored : pref.def;
+	}
+
+	function applyClass( feature, value ) {
+		var root = document.documentElement,
+			prefix = feature + '-clientpref-';
+		Array.prototype.slice.call( root.classList ).forEach( function ( name ) {
+			if ( name.indexOf( prefix ) === 0 ) {
+				root.classList.remove( name );
+			}
+		} );
+		root.classList.add( prefix + value );
+	}
+
+	/**
+	 * Apply first, remember second, and never let the remembering break the
+	 * applying. Only called on an actual choice, so a reader who never opens
+	 * the panel leaves no storage behind.
+	 */
+	function savePref( feature, value ) {
+		applyClass( feature, value );
+		writeStore( feature, value );
+	}
+
+	function prefersDark() {
+		return !!( window.matchMedia &&
+			window.matchMedia( '( prefers-color-scheme: dark )' ).matches );
+	}
+
+	/**
+	 * Colour is delegated to the DarkMode extension rather than reimplemented:
+	 * the extension owns the invert filter that the night palette in
+	 * Timeless.css is authored against, and it keys that filter on core's
+	 * skin-theme-clientpref-night class. So all this has to do is resolve
+	 * Automatic against the system and set skin-theme accordingly. The
+	 * extension has no Automatic of its own, which is the whole reason the
+	 * reader's choice is stored separately as andah-theme.
+	 */
+	function applyTheme( mode ) {
+		var night = mode === 'night' || ( mode === 'os' && prefersDark() );
+		// The class only, never stored: what gets remembered is the reader's
+		// andah-theme choice, which has three states. skin-theme is the
+		// two-state class derived from it that the DarkMode extension watches,
+		// and it is recomputed from andah-theme on every load.
+		applyClass( 'skin-theme', night ? 'night' : 'day' );
+	}
+
+	/* --- building blocks ---------------------------------------------------
+	 * A rail box, in Timeless's own shape:
+	 *
+	 *   div.sidebar-chunk > h2 > span            drawer toggle; the skin hides
+	 *                                            this on desktop
+	 *                     > div.sidebar-inner
+	 *                       > div.mw-portlet
+	 *                         > h3               the visible box title
+	 *                         > div.mw-portlet-body
+	 *
+	 * Reproducing it exactly, rather than inventing something lighter, is what
+	 * lets the two new boxes pick up the skin's own rail styling and its
+	 * narrow-screen drawer behaviour for free. Content goes in .mw-portlet-body.
+	 */
+
+	function chunk( id, title ) {
+		var box = document.createElement( 'div' ),
+			h2 = document.createElement( 'h2' ),
+			h2span = document.createElement( 'span' ),
+			inner = document.createElement( 'div' ),
+			portlet = document.createElement( 'div' ),
+			h3 = document.createElement( 'h3' ),
+			body = document.createElement( 'div' );
+
+		box.id = id;
+		box.className = 'sidebar-chunk';
+		h2span.textContent = title;
+		h2.appendChild( h2span );
+
+		inner.className = 'sidebar-inner';
+		portlet.className = 'mw-portlet';
+		portlet.setAttribute( 'role', 'navigation' );
+		h3.textContent = title;
+		body.className = 'mw-portlet-body';
+
+		portlet.appendChild( h3 );
+		portlet.appendChild( body );
+		inner.appendChild( portlet );
+		box.appendChild( h2 );
+		box.appendChild( inner );
+
+		return box;
+	}
+
+	/**
+	 * A hide/show control in a box's own heading, in the manner of Vector's.
+	 * The state is remembered per box under its own key, so a reader who never
+	 * wants the table of contents open does not have to close it on every
+	 * article. The heading itself is left as a heading rather than being turned
+	 * into a button: screen readers use those to navigate, and swallowing one
+	 * to save a few pixels is a poor trade.
+	 */
+	function addCollapse( box, feature ) {
+		var portlet = box.querySelector( '.mw-portlet' ),
+			heading = box.querySelector( '.mw-portlet > h3' ),
+			body = box.querySelector( '.mw-portlet-body' ),
+			button = document.createElement( 'button' ),
+			hidden = readStore()[ feature ] === 'hidden',
+			// Read before the button goes in, or it ends up in its own label.
+			label = heading.textContent.trim();
+
+		button.type = 'button';
+		button.className = 'andah-collapse';
+		button.setAttribute( 'aria-controls', box.id + '-body' );
+		body.id = box.id + '-body';
+
+		function render() {
+			button.textContent = hidden ? 'show' : 'hide';
+			button.setAttribute( 'aria-expanded', hidden ? 'false' : 'true' );
+			button.setAttribute( 'aria-label', ( hidden ? 'Show ' : 'Hide ' ) + label );
+			body.hidden = hidden;
+			portlet.classList.toggle( 'andah-collapsed', hidden );
+		}
+
+		button.addEventListener( 'click', function () {
+			hidden = !hidden;
+			writeStore( feature, hidden ? 'hidden' : 'shown' );
+			render();
+		} );
+
+		heading.appendChild( button );
+		render();
+	}
+
+	/* --- 1. hamburger ------------------------------------------------------ */
+
+	function buildNavToggle() {
+		var header = document.getElementById( 'mw-header' );
+		if ( !header ) {
+			return;
+		}
+		var button = document.createElement( 'button' ),
+			bars = document.createElement( 'span' ),
+			state = readPref( NAV_PREF );
+
+		button.id = 'andah-nav-toggle';
+		button.type = 'button';
+		button.setAttribute( 'aria-controls', 'mw-site-navigation' );
+		button.appendChild( bars );
+
+		function render() {
+			var hidden = state === 'hidden';
+			button.setAttribute( 'aria-expanded', hidden ? 'false' : 'true' );
+			button.title = hidden ? 'Show navigation' : 'Hide navigation';
+			button.setAttribute( 'aria-label', button.title );
+		}
+
+		button.addEventListener( 'click', function () {
+			state = state === 'hidden' ? 'shown' : 'hidden';
+			savePref( NAV_PREF.feature, state );
+			render();
+		} );
+
+		applyClass( NAV_PREF.feature, state );
+		render();
+		header.insertBefore( button, header.firstChild );
+	}
+
+	/* --- 1b. Wiki tools -----------------------------------------------------
+	 * Timeless puts Wiki tools (Cite this page, Get shortened URL, ...) in the
+	 * left rail, under site navigation. They are per-page tools, so they belong
+	 * beside the rest of them on the right, and moving them leaves the left
+	 * rail as navigation plus contents and nothing else.
+	 */
+
+	function moveWikiTools() {
+		var tools = document.getElementById( 'site-tools' ),
+			rail = document.getElementById( 'mw-related-navigation' );
+		if ( tools && rail ) {
+			rail.appendChild( tools );
+		}
+	}
+
+	/* --- 2. table of contents ---------------------------------------------- */
+
+	/**
+	 * Rebuilds Timeless's inline TOC as a rail box rather than moving the
+	 * original node, which carries a toggle checkbox and section numbering that
+	 * only make sense inline. Sub-levels start collapsed; the top level never
+	 * collapses.
+	 */
+	function buildToc() {
+		var source = document.querySelector(
+			'#mw-content-text #toc > ul, #mw-content-text .toc > ul'
+		);
+		if ( !source || !source.children.length ) {
+			return;
+		}
+
+		var box = chunk( 'andah-toc', 'Contents' ),
+			body = box.querySelector( '.mw-portlet-body' );
+
+		function convert( sourceList, depth ) {
+			var list = document.createElement( 'ul' );
+			if ( depth === 0 ) {
+				list.className = 'andah-toc-list';
+			}
+			Array.prototype.forEach.call( sourceList.children, function ( sourceItem ) {
+				var sourceLink = sourceItem.querySelector( ':scope > a' ),
+					sourceChildren = sourceItem.querySelector( ':scope > ul' );
+				if ( !sourceLink ) {
+					return;
+				}
+				var item = document.createElement( 'li' ),
+					row = document.createElement( 'div' ),
+					link = document.createElement( 'a' ),
+					text = sourceLink.querySelector( '.toctext' );
+
+				row.className = 'andah-toc-row';
+				link.href = sourceLink.getAttribute( 'href' );
+				link.textContent = ( text ? text.textContent : sourceLink.textContent ).trim();
+
+				if ( sourceChildren ) {
+					var toggle = document.createElement( 'button' ),
+						children = convert( sourceChildren, depth + 1 );
+					toggle.type = 'button';
+					toggle.className = 'andah-toc-toggle';
+					toggle.setAttribute( 'aria-expanded', 'false' );
+					toggle.setAttribute( 'aria-label', 'Toggle ' + link.textContent + ' subsection' );
+					children.hidden = true;
+					toggle.addEventListener( 'click', function () {
+						var open = toggle.getAttribute( 'aria-expanded' ) === 'true';
+						toggle.setAttribute( 'aria-expanded', open ? 'false' : 'true' );
+						children.hidden = open;
+					} );
+					row.appendChild( toggle );
+					row.appendChild( link );
+					item.appendChild( row );
+					item.appendChild( children );
+				} else {
+					row.classList.add( 'andah-toc-leaf' );
+					row.appendChild( link );
+					item.appendChild( row );
+				}
+				list.appendChild( item );
+			} );
+			return list;
+		}
+
+		body.appendChild( convert( source, 0 ) );
+
+		var rail = document.getElementById( 'mw-site-navigation' ),
+			after = document.getElementById( 'site-navigation' );
+		if ( !rail ) {
+			return;
+		}
+		rail.insertBefore( box, after ? after.nextSibling : rail.firstChild );
+		document.body.classList.add( 'andah-has-sidebar-toc' );
+
+		addCollapse( box, 'andah-toc-state' );
+		trackCurrentSection( box );
+	}
+
+	/**
+	 * Marks the section the reader is in. A scroll listener rather than an
+	 * IntersectionObserver: headings are points, not regions, so what is wanted
+	 * is "the last heading above the fold", which an observer reports awkwardly.
+	 */
+	function trackCurrentSection( box ) {
+		var rows = Array.prototype.map.call(
+			box.querySelectorAll( '.andah-toc-row > a' ),
+			function ( link ) {
+				var id = decodeURIComponent( link.hash.slice( 1 ) );
+				return { row: link.parentNode, heading: id && document.getElementById( id ) };
+			}
+		).filter( function ( entry ) {
+			return entry.heading;
+		} );
+		if ( !rows.length ) {
+			return;
+		}
+
+		var current = null,
+			queued = false;
+
+		function update() {
+			queued = false;
+			var best = null;
+			rows.forEach( function ( entry ) {
+				if ( entry.heading.getBoundingClientRect().top <= 80 ) {
+					best = entry;
+				}
+			} );
+			if ( best === current ) {
+				return;
+			}
+			if ( current ) {
+				current.row.classList.remove( 'andah-toc-current' );
+			}
+			if ( best ) {
+				best.row.classList.add( 'andah-toc-current' );
+				// Open every collapsed ancestor, or the mark is invisible.
+				var node = best.row.parentNode;
+				while ( node && node !== box ) {
+					if ( node.nodeName === 'UL' && node.hidden ) {
+						node.hidden = false;
+						var toggle = node.previousSibling &&
+							node.previousSibling.querySelector( '.andah-toc-toggle' );
+						if ( toggle ) {
+							toggle.setAttribute( 'aria-expanded', 'true' );
+						}
+					}
+					node = node.parentNode;
+				}
+			}
+			current = best;
+		}
+
+		window.addEventListener( 'scroll', function () {
+			if ( !queued ) {
+				queued = true;
+				window.requestAnimationFrame( update );
+			}
+		}, { passive: true } );
+		update();
+	}
+
+	/* --- 3. Appearance panel ----------------------------------------------- */
+
+	function buildAppearance( values ) {
+		var rail = document.getElementById( 'mw-related-navigation' );
+		if ( !rail ) {
+			return;
+		}
+		var box = chunk( 'andah-appearance', 'Appearance' ),
+			body = box.querySelector( '.mw-portlet-body' );
+
+		PREFS.forEach( function ( pref ) {
+			var group = document.createElement( 'fieldset' ),
+				legend = document.createElement( 'legend' );
+			group.className = 'andah-pref-group';
+			legend.textContent = pref.label;
+			group.appendChild( legend );
+
+			pref.options.forEach( function ( option ) {
+				var label = document.createElement( 'label' ),
+					input = document.createElement( 'input' ),
+					text = document.createElement( 'span' );
+				label.className = 'andah-pref-option';
+				input.type = 'radio';
+				input.name = pref.feature;
+				input.value = option[ 0 ];
+				input.checked = values[ pref.feature ] === option[ 0 ];
+				text.textContent = option[ 1 ];
+				input.addEventListener( 'change', function () {
+					if ( !input.checked ) {
+						return;
+					}
+					values[ pref.feature ] = option[ 0 ];
+					savePref( pref.feature, option[ 0 ] );
+					if ( pref.feature === 'andah-theme' ) {
+						applyTheme( option[ 0 ] );
+					}
+				} );
+				label.appendChild( input );
+				label.appendChild( text );
+				group.appendChild( label );
+			} );
+
+			body.appendChild( group );
+		} );
+
+		// LAST in the right rail, under Page tools and Wiki tools.
+		//
+		// It was first, which put a pinned box above two that scroll: the tools
+		// slid up underneath it and vanished behind its own background, which
+		// looks like a rendering fault rather than a design. Underneath them,
+		// the tools scroll away cleanly off the top and this box pins once it
+		// gets there, with nothing left to pass behind it.
+		rail.appendChild( box );
+
+		// Lets the CSS retire the DarkMode extension's own menu link, now that
+		// this panel owns colour. Set here so the link survives if the panel
+		// never gets built.
+		addCollapse( box, 'andah-appearance-state' );
+		document.body.classList.add( 'andah-has-appearance' );
+
+		// Automatic has to keep tracking the system after the page has loaded.
+		if ( window.matchMedia ) {
+			var query = window.matchMedia( '( prefers-color-scheme: dark )' ),
+				onChange = function () {
+					if ( values[ 'andah-theme' ] === 'os' ) {
+						applyTheme( 'os' );
+					}
+				};
+			if ( query.addEventListener ) {
+				query.addEventListener( 'change', onChange );
+			} else if ( query.addListener ) {
+				query.addListener( onChange );
+			}
+		}
+	}
+
+	/* --- 4. skip links ------------------------------------------------------
+	 * Timeless puts both rails after the article in the DOM and only reorders
+	 * them visually with flex. So everything this file lifted into the rails
+	 * lands at the very end of the tab order: on [[Dahe]] the contents box is
+	 * focusable element 429 of 464, which makes it useless to anyone driving
+	 * the page from the keyboard. Two skip links at the top of the header fix
+	 * that without touching the DOM order the skin's layout depends on.
+	 *
+	 * Built last, so it can tell whether there is a contents box to skip to.
+	 */
+
+	function buildSkipLinks() {
+		var header = document.getElementById( 'mw-header' );
+		if ( !header ) {
+			return;
+		}
+
+		var nav = document.createElement( 'nav' ),
+			wanted = [
+				[ 'Skip to content', 'mw-content-text' ],
+				[ 'Skip to contents', 'andah-toc' ]
+			],
+			added = 0;
+
+		nav.id = 'andah-skip';
+		nav.setAttribute( 'aria-label', 'Skip links' );
+
+		wanted.forEach( function ( pair ) {
+			var target = document.getElementById( pair[ 1 ] );
+			if ( !target ) {
+				return;
+			}
+			// Lets the target take focus when jumped to, without adding a tab
+			// stop of its own on the way past.
+			target.setAttribute( 'tabindex', '-1' );
+			var link = document.createElement( 'a' );
+			link.href = '#' + pair[ 1 ];
+			link.textContent = pair[ 0 ];
+			nav.appendChild( link );
+			added++;
+		} );
+
+		if ( added ) {
+			header.insertBefore( nav, header.firstChild );
+		}
+	}
+
+	/* --- start ------------------------------------------------------------- */
+
+	function start() {
+		// Build once. Every piece of furniture below is addressed by id, in the
+		// CSS and in here, so a second run would produce a second hamburger, a
+		// second contents box and a second Appearance panel, and duplicate ids
+		// make both copies unaddressable. Cheap insurance against the module
+		// being loaded twice.
+		if ( document.documentElement.dataset.andahChrome ) {
+			return;
+		}
+		document.documentElement.dataset.andahChrome = '1';
+
+		var values = {};
+		PREFS.forEach( function ( pref ) {
+			values[ pref.feature ] = readPref( pref );
+		} );
+
+		// Text, width and colour go on at once, ahead of the DOM-ready
+		// callback. The site module is deferred, so there is a brief moment of
+		// the default before these land; doing it here rather than after the
+		// panel is built keeps that to one reflow instead of two.
+		applyClass( 'andah-text', values[ 'andah-text' ] );
+		applyClass( 'andah-width', values[ 'andah-width' ] );
+		applyTheme( values[ 'andah-theme' ] );
+
+		$( function () {
+			buildNavToggle();
+			moveWikiTools();
+			buildToc();
+			buildAppearance( values );
+			// Last: it needs to know whether buildToc produced anything.
+			buildSkipLinks();
+		} );
+	}
+
+	/**
+	 * The site module does not depend on mediawiki.storage, so it has to be
+	 * asked for; reaching straight for mw.storage would throw and take the
+	 * whole file with it.
+	 *
+	 * Everything below is about one principle: the chrome gets built no matter
+	 * what storage does. Three ways it can go wrong, all of them seen:
+	 *
+	 *   - mw.loader.using may not exist yet. It comes from mediawiki.base, and
+	 *     if this file is evaluated first, calling it throws and every piece of
+	 *     furniture disappears with no error a reader could act on.
+	 *   - the module may reject. Both handlers are start, so that is survivable.
+	 *   - the module may simply never settle. A request that hangs leaves a
+	 *     promise pending forever, .then never fires, and the page keeps its
+	 *     bare Timeless chrome with no clue why. Hence the timeout.
+	 *
+	 * Losing storage costs the reader their remembered settings for that page
+	 * view. Losing the chrome costs them the table of contents, the appearance
+	 * controls and the only route to dark mode. The two are not close.
+	 */
+	function boot() {
+		var started = false,
+			go = function () {
+				if ( started ) {
+					return;
+				}
+				started = true;
+				start();
+			};
+
+		setTimeout( go, 3000 );
+
+		if ( mw.loader && typeof mw.loader.using === 'function' ) {
+			mw.loader.using( [ 'mediawiki.storage' ] ).then( go, go );
+		} else {
+			go();
+		}
+	}
+
+	boot();
+}() );

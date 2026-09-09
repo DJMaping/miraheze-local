@@ -61,20 +61,20 @@
 | population_census_year = 1764
 | population_density_km2 = 44.6
 | population_density_rank = 96th
-| GDP_PPP                = {{decrease}} {{lahn}}996 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/vst/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{decrease}} {{lahn}}7.968 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/vst/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 25th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}15,685
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}125,480
 | GDP_PPP_per_capita_rank = 56th
-| GDP_nominal            = {{decrease}} {{lahn}}539 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/vst/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{decrease}} {{lahn}}4.312 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/vst/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 25th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}10,119
+| GDP_nominal_per_capita = {{increase}} {{lahn}}80,952
 | GDP_nominal_per_capita_rank = 61st
 | HDI_year               = 1765
-| HDI                    = 0.900
+| HDI                    = 0.741
 | HDI_change             = increase
-| HDI_rank               = 29th
+| HDI_rank               = 79th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Soreo]] (_) (SOR)
 | time_zone              = VET +12 (Verste Time)

@@ -46,21 +46,21 @@
 | population_density_km2 = 98.9
 | population_density_sq_mi = 38.2
 | population_density_rank = 47th
-| GDP_PPP                = {{increase}} {{lahn}}11.173 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}89.384 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_year           = 1756
 | GDP_PPP_rank           = 2nd
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}19,295
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}154,360
 | GDP_PPP_per_capita_rank = 51st
-| GDP_nominal            = {{increase}} {{lahn}}4.595 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}36.76 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_year       = 1765
 | GDP_nominal_rank       = 3rd
-| GDP_nominal_per_capita = {{increase}} {{lahn}}7,937
+| GDP_nominal_per_capita = {{increase}} {{lahn}}63,496
 | GDP_nominal_per_capita_rank = 73rd
-| HDI                    = 0.712
+| HDI                    = 0.684
 | HDI_year               = 1764
 | HDI_change             = increase
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
-| HDI_rank               = 110th
+| HDI_rank               = 101st
 | currency               = [[Arten Araik]] (_) (AAR)
 | time_zone              = ART +3 (Arten Time)
 | date_format            = dd/mm/yyyy

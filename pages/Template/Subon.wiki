@@ -1,0 +1,6 @@
+[[File:Sub on.svg|10px|Substituted on|link=|alt=upward-facing green arrow]]<!--
+-->{{#if: {{{1|<noinclude>-</noinclude>}}}|&nbsp;<span style="vertical-align: middle;">{{{1}}}{{`}}</span>{{main other|{{#if:{{#invoke:string|endswith|1={{{1}}}|2='}}|[[Category:Association football templates needing maintenance]]}}}}}}{{#if:{{{con|{{{concussion|}}}}}}|&nbsp;({{abbr|con.|Substituted on for a concussed player; not counted towards substitution limit}})}}<noinclude>
+
+{{documentation}}
+<!-- Categories and interwikis go on /doc -->
+</noinclude>

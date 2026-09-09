@@ -54,22 +54,22 @@
 | population_estimate_year = 1765
 | population_density_km2 = 40.0
 | population_density_rank = 103rd
-| GDP_PPP                = {{increase}} {{lahn}}100.430 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/onp/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}803.44 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/onp/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 93rd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}9,814
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}78,512
 | GDP_PPP_per_capita_rank = 108th
-| GDP_nominal            = {{increase}} {{lahn}}37.196 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/onp/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}297.568 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/onp/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 96th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}3,635
+| GDP_nominal_per_capita = {{increase}} {{lahn}}29,080
 | GDP_nominal_per_capita_rank = 108th
 | HDI_year               = 1765
-| HDI                    = 0.701
+| HDI                    = 0.687
 | HDI_change             = increase
-| HDI_rank               = 117th
+| HDI_rank               = 99th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
-| currency               = [[Onphellan Islatan]] (_) (OIS)
+| currency               = [[Soreo]] (_) (SOR)
 | time_zone              = SOT -9 (Standard Onphellan Time)
 | date_format            = dd/mm/yyyy
 | drives_on              = left

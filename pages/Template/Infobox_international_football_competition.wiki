@@ -1,0 +1,110 @@
+{{#invoke:infobox|infoboxTemplate
+
+| bodyclass  = vcalendar
+| titleclass = summary
+| title      = {{#if:{{{tourney_name|}}}|{{{year|}}} {{{tourney_name|}}} {{{yearr|}}} <includeonly>|{{PAGENAMEBASE}}</includeonly>}}
+| above      = {{{other_titles|}}}
+| abovestyle = font-size: 100%
+| image      = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{if empty|{{{image_size|}}}|{{{size|}}}}} |sizedefault=frameless |upright={{if empty|{{{upright|}}}|1}} |alt={{{alt|}}} |suppressplaceholder=yes}}
+| caption    = {{{caption|}}}
+
+| header1    = {{#if:{{{country|}}}{{{city|}}}{{{num_teams|}}}{{{venues|}}}|Tournament details}}
+
+| label2     = Host countr{{#if:{{{country2|}}}|ies|y}}
+| data2      = {{#if:{{{country|}}}|{{{country}}}}}<!--
+  -->{{#if:{{{country2|}}}|<br />{{{country2|}}}}}<!-- 
+  -->{{#if:{{{country3|}}}|<br />{{{country3|}}}}}<!--
+  -->{{#if:{{{country4|}}}|<br />{{{country4|}}}}}<!--
+  -->{{#if:{{{country5|}}}|<br />{{{country5|}}}}}<!--
+  -->{{#if:{{{country6|}}}|<br />{{{country6|}}}}}<!--
+  -->{{#if:{{{country7|}}}|<br />{{{country7|}}}}}<!--
+  -->{{#if:{{{country8|}}}|<br />{{{country8|}}}}}<!--
+  -->{{#if:{{{country9|}}}|<br />{{{country9|}}}}}<!--
+  -->{{#if:{{{country10|}}}|<br />{{{country10|}}}}}<!--
+  -->{{#if:{{{country11|}}}|<br />{{{country11|}}}}}<!--
+  -->{{#if:{{{country12|}}}|<br />{{{country12|}}}}}<!--
+  -->{{#if:{{{country13|}}}|<br />{{{country13|}}}}}<!--
+  -->{{#if:{{{country14|}}}|<br />{{{country14|}}}}}<!--
+  -->{{#if:{{{country15|}}}|<br />{{{country15|}}}}}
+| label3     = City
+| data3      = {{{city|}}}
+| class3     = location
+
+| label4     = Dates
+| data4      = {{{dates|}}}
+
+| label5     = Teams
+| data5      = {{{num_teams|}}}{{#if: {{{confederations|}}}|&nbsp;(from {{{confederations}}} confederation{{#ifeq:{{{confederations}}}|1| |s}})}}{{#if: {{{sub-confederations|}}}|&nbsp;(from {{{sub-confederations}}} sub-confederation{{#ifeq:{{{sub-confederations}}}|1| |s}})}}{{#if: {{{associations|}}}|&nbsp;(from {{{associations}}} association{{#ifeq:{{{associations}}}|1| |s}})}}
+
+| label6     = Venue{{pluralize from text|{{{venues|}}}|likely=(s)|plural=s}}
+| data6      = {{{venues|}}}{{#if:{{{cities|}}}|&nbsp;(in {{{cities}}} host cit{{#ifeq: {{{cities}}}|1|y|ies}})}}
+
+| header7    = {{#if:{{{champion|}}}{{{champion_other|}}}|Final positions}}
+
+| label8     = {{#if:{{{American|}}}|Champion(s)|Champions}}
+| data8      = {{#if:{{{champion|}}}|{{fb|{{{champion|}}}|{{{champion-flagvar|}}}|name={{{champion-name|}}}}}{{#if: {{{count|}}}|{{nowrap| ({{ordinal|{{{count}}}}} title)}} }}{{#if:{{{champion-note|}}}|{{{champion-note}}}}} }}
+
+| label9     = {{#if:{{{American|}}}|Champion(s)|Champions}}
+| data9      = {{#if:{{{champion_other|}}}|{{{champion_other}}}{{#if: {{{count|}}}|{{nowrap| ({{ordinal|{{{count}}}}} title)}} }} }}
+
+| label10    = Runners-up
+| data10     = {{#if:{{{second|}}}|{{fb|{{{second|}}}|{{{second-flagvar|}}}|name={{{second-name|}}}}}{{#if:{{{second-note|}}}|{{{second-note}}}}} }}
+
+| label11    = Runners-up
+| data11     = {{#if:{{{second_other|}}}|{{{second_other|}}} }}
+
+| label12    = Third place
+| data12     = {{#if:{{{third|}}}|{{fb|{{{third|}}}|{{{third-flagvar|}}}|name={{{third-name|}}}}}{{#if:{{{third-note|}}}|{{{third-note}}}}} }}
+
+| label13    = Third place
+| data13     = {{#if:{{{third_other|}}}|{{{third_other|}}} }}
+
+| label14    = Fourth place
+| data14     = {{#if:{{{fourth|}}}|{{fb|{{{fourth|}}}|{{{fourth-flagvar|}}}|name={{{fourth-name|}}}}}{{#if:{{{fourth-note|}}}|{{{fourth-note}}}}} }}
+
+| label15    = Fourth place
+| data15     = {{#if:{{{fourth_other|}}}|{{{fourth_other|}}} }}
+
+| label16    = Promoted
+| data16     = {{#if:{{{promoted|}}}|{{{promoted|}}} }}
+
+| label17    = Relegated
+| data17     = {{#if:{{{relegated|}}}|{{{relegated|}}} }}
+
+| header18   = {{#if:{{{matches|}}}{{{goals|}}}{{{attendance|}}}{{{top_scorer|}}}{{{player|}}}|Tournament statistics}}
+
+| label19    = Matches&nbsp;played
+| data19     = {{#if:{{{matches|}}}|{{formatnum:{{{matches}}}}}{{{matches_footnote|}}}}}
+
+| label20    = Goals scored
+| data20     = {{#if:{{{goals|}}}|{{formatnum:{{{goals}}}}}{{#if:{{{matches|}}}|&nbsp;({{formatnum:{{#expr: {{if empty|{{{goals|}}}|0}} / {{if empty|{{{matches|}}}|1}} round 2}}}} per match)}}{{{goals_footnote|}}}}}
+
+| label21    = Attendance
+| data21     = {{#if:{{{attendance|}}}|{{formatnum: {{if empty|{{{attendance|}}}|0}}}}{{#if:{{{matches|}}}|&nbsp;({{formatnum: {{#expr: {{if empty|{{{attendance|}}}|0}} / {{if empty|{{{matches|}}}|1}} round 0}}}} per match) }} }}
+
+| label22    = Top scorer{{pluralize from text|{{{top_scorer|}}}|likely=(s)|plural=s}}
+| data22     = {{{top_scorer|}}}
+| class22    = attendee
+
+| label23    = Best player{{pluralize from text|{{{player|}}}|likely=(s)|plural=s}}
+| data23     = {{{player|}}}
+| class23    = attendee
+
+| label24    = Best young player
+| data24     = {{{young_player|}}}
+| class24    = attendee
+
+| label25    = Best [[Goalkeeper (association football)|goalkeeper]]
+| data25     = {{{goalkeeper|}}}
+| class25    = attendee
+
+| label26    = Fair play award
+| data26     = {{{fair_play|}}}
+| class26    = attendee
+
+| belowstyle = border-top:#bbb solid 1px
+| below      = {{#if:{{{season_text|}}}|''{{{season_text|}}}'' {{clear}} }}{{#if:{{{prevseason|}}}|{{align|left|&larr; {{{prevseason|}}} }} | {{#if:{{{season_text|}}}|{{0|&larr; {{if empty|{{{nextseason|}}}|0000–00}}}}}} }}{{#if:{{{nextseason|}}}|{{align|right|{{{nextseason|}}} &rarr; }} | {{#if:{{{season_text|}}}|{{0|{{if empty|{{{prevseason|}}}|0000–00}} &rarr;}}}} }}
+{{#if:{{{prevseason2|}}}{{{nextseason2|}}}|{{clear}}{{#if:{{{season_text2|}}}|''{{{season_text2|}}}'' {{clear}} }}{{#if:{{{prevseason2|}}}|{{align|left|&larr; {{{prevseason2|}}} }} | {{#if:{{{season_text2|}}}|{{0|&larr; {{if empty|{{{nextseason2|}}}|0000–00}}}}}} }}{{#if:{{{nextseason2|}}}|{{align|right|{{{nextseason2|}}} &rarr; }} | {{#if:{{{season_text|}}}|{{0|{{if empty|{{{prevseason2|}}}|0000–00}} &rarr;}}}} }} }}
+{{#if:{{{updated|}}}|{{clear}}All statistics correct as of {{{updated}}}.}}{{#if:{{{extra information|}}}|{{clear}}{{{extra information}}}}}
+| decat = {{#if:{{{prevseason|}}}{{{nextseason|}}}|yes|no}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox international football competition with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox international football competition]] with unknown parameter "_VALUE_"|ignoreblank=y| alt | American | associations | attendance | caption | champion | champion_other | champion-flagvar | champion-name | champion-note | cities | city | confederations | count | country | country10 | country11 | country12 | country13 | country14 | country15 | country2 | country3 | country4 | country5 | country6 | country7 | country8 | country9 | dates | extra information | fair_play | fourth | fourth_other | fourth-flagvar | fourth-name | fourth-note | goalkeeper | goals | goals_footnote | image | image_size | matches | matches_footnote | nextseason | nextseason2 | num_teams | other_titles | player | prevseason | prevseason2 | promoted | relegated | season_text | season_text2 | second | second_other | second-flagvar | second-name | second-note | size | sub-confederations | third | third_other | third-flagvar | third-name | third-note | top_scorer | tourney_name | updated | upright | venues | year | yearr | young_player }}<includeonly>{{Short description|International football competition|2=noreplace}}</includeonly><noinclude>{{documentation}}</noinclude>

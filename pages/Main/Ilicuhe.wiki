@@ -60,20 +60,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 118.187
 | population_density_rank = 38th
-| GDP_PPP                = {{increase}} {{lahn}}82.150 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ili/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}657.2 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ili/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 99th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}25,238
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}201,904
 | GDP_PPP_per_capita_rank = 20th
-| GDP_nominal            = {{increase}} {{lahn}}95.970 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ili/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}767.76 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ili/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 64th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}29,484
+| GDP_nominal_per_capita = {{increase}} {{lahn}}235,872
 | GDP_nominal_per_capita_rank = 5th
 | HDI_year               = 1765
-| HDI                    = 0.958
+| HDI                    = 0.922
 | HDI_change             = increase
-| HDI_rank               = 5th
+| HDI_rank               = 2nd
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Ilicuhan Oran]] (_) (IOR)
 | time_zone              = SET +0 (Standard Ilicuhe Time)

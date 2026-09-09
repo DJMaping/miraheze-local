@@ -5,9 +5,9 @@
 |area           = {{convert|9,977,889|km2|sqmi|abbr=on}}<ref name="heiso">{{cite web|url=http://enclaiw.gov.hei/nation/geoscheme|title=Ayuma or Acrola? |publisher=National government of Heiso}}</ref>
 |population     = 715,830,862 (1765)
 |density        = {{convert|71.74|/km2|/sqmi|abbr=on}}<ref name="heiso" />
-|GDP_PPP        = {{lahn}}12.511 trillion<ref name="heiso" />
-|GDP_nominal    = {{lahn}}5.201 trillion<ref name="heiso" />
-|GDP_per_capita = {{lahn}}7,267<ref name="heiso" />
+|GDP_PPP        = {{lahn}}100.088 trillion<ref name="heiso" />
+|GDP_nominal    = {{lahn}}41.608 trillion<ref name="heiso" />
+|GDP_per_capita = {{lahn}}58,136<ref name="heiso" />
 |HDI            = 
 |ethnic_groups  = 
 |religions      = 

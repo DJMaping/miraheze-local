@@ -62,22 +62,22 @@
 | population_estimate_year = 1765
 | population_density_km2 = 174.0
 | population_density_rank = 18th
-| GDP_PPP                = {{increase}} {{lahn}}586.779 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/erk/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}4.694 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/erk/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 37th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}6,452
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}51,616
 | GDP_PPP_per_capita_rank = 129th
-| GDP_nominal            = {{increase}} {{lahn}}165.290 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/erk/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}1.322 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/erk/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 50th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,817
+| GDP_nominal_per_capita = {{increase}} {{lahn}}14,536
 | GDP_nominal_per_capita_rank = 136th
 | HDI_year               = 1765
-| HDI                    = 0.601
+| HDI                    = 0.576
 | HDI_change             = increase
-| HDI_rank               = 147th
+| HDI_rank               = 138th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
-| currency               = [[Erkizilian Ichali]] (_) (EIC)
+| currency               = [[Soreo]] (_) (SOR)
 | time_zone              = SEZ -12 (Standard Erkizilian Time)
 | date_format            = dd/mm/yyyy
 | drives_on              = left
@@ -93,7 +93,7 @@ Early civilizations in the area included the [[Ankusano-Elaian language family|A
 
 After the [[Ashani empire]] was dismantled in the [[Treaty of Freedom]] in 1695, [[Ankuano]] was partitioned into four independent nations: [[Ztesh]], Erkizil, [[Quidic]] and [[Wundry]]. A large-scale loss of life and an [[unprecedented migration]] accompanied the [[partition]].
 
-Erkizil has been a [[wikipedia:Unitary_state|unitary republic]] since 1765, governed through a democratic [[wikipedia:Parliamentary_system|parliamentary system]]. It is a pluralistic, [[wikipedia:Multilingualism|multilingual]] and [[wikipedia:Multiracial_people|multi-ethnic]] society. Erkizil's population grew from 24 million in 1700 to over 90 million in 1765. During this time, its [[List of countries by GDP (nominal) per capita|nominal per capita income]] increased from {{lahn}}____ annually to {{lahn}}1,817, and its literacy rate from 16.6% to 74%. A comparatively destitute country in 1951. Among the socio-economic challenges Erkizil faces are gender inequality [[wikipedia:Undernutrition_in_children|child malnutrition]], and rising levels of [[wikipedia:Air_pollution|air pollution]]. Erkizil's land is [[wikipedia:Megadiverse_countries|megadiverse]] with four biodiversity hotspots. Erkizil's wildlife, which has traditionally been tolerated in its [[Erkizilian Culture|culture]], is supported in [[Erkizilian protected habitats|protected habitats]].
+Erkizil has been a [[wikipedia:Unitary_state|unitary republic]] since 1765, governed through a democratic [[wikipedia:Parliamentary_system|parliamentary system]]. It is a pluralistic, [[wikipedia:Multilingualism|multilingual]] and [[wikipedia:Multiracial_people|multi-ethnic]] society. Erkizil's population grew from 24 million in 1700 to over 90 million in 1765. During this time, its [[List of countries by GDP (nominal) per capita|nominal per capita income]] increased from {{lahn}}____ annually to {{lahn}}14,536, and its literacy rate from 16.6% to 74%. A comparatively destitute country in 1951. Among the socio-economic challenges Erkizil faces are gender inequality [[wikipedia:Undernutrition_in_children|child malnutrition]], and rising levels of [[wikipedia:Air_pollution|air pollution]]. Erkizil's land is [[wikipedia:Megadiverse_countries|megadiverse]] with four biodiversity hotspots. Erkizil's wildlife, which has traditionally been tolerated in its [[Erkizilian Culture|culture]], is supported in [[Erkizilian protected habitats|protected habitats]].
 == History ==
 
 == Geography ==

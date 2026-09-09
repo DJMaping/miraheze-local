@@ -54,20 +54,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 64.7
 | population_density_rank = 71st
-| GDP_PPP                = {{increase}} {{lahn}}56.122 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/shi/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}448.976 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/shi/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 109th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}1,757
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}14,056
 | GDP_PPP_per_capita_rank = 163rd
-| GDP_nominal            = {{increase}} {{lahn}}15.720 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/shi/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}125.76 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/shi/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 119th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}492
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,936
 | GDP_nominal_per_capita_rank = 161st
 | HDI_year               = 1765
-| HDI                    = 0.543
+| HDI                    = 0.419
 | HDI_change             = decreace
-| HDI_rank               = 156th
+| HDI_rank               = 160th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Myones]] (_) (MYO)
 | time_zone              = SSH +0 (Standard Shinamese Time)

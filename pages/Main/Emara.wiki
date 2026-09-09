@@ -6,7 +6,7 @@
 | symbol_type            = 
 | national_motto         = eh-MAH-rah
 | national_anthem        = /ɛˈmɑː.rə/
-| image_map              = Emara Globe.png
+| image_map              = {{Switcher|[[File:Emara Globe.png|frameless]]|Show globe|[[File:Mainland Emara.png|frameless]]|Mainland Emara and its neighbours|default=1}}
 | image_map_size         = 300px
 | image_map2_size        = 300px
 | map_caption            = Location of Emara (green)
@@ -58,20 +58,20 @@
 | population_density_km2 = 211.9
 | population_density_sq_mi = 81.8
 | population_density_rank = 11th
-| GDP_PPP                = {{increase}} {{lahn}}2.693 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ema/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}21.544 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ema/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 7th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}29,646
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}237,168
 | GDP_PPP_per_capita_rank = 9th
-| GDP_nominal            = {{increase}} {{lahn}}2.109 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ema/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}16.872 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ema/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 7st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}23,214
+| GDP_nominal_per_capita = {{increase}} {{lahn}}185,712
 | GDP_nominal_per_capita_rank = 12th
 | HDI_year               = 1765
-| HDI                    = 0.945
+| HDI                    = 0.898
 | HDI_change             = decrease
-| HDI_rank               = 10st
+| HDI_rank               = 6th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Emaran Islatan]] (_) (EIS)
 | time_zone              = SET +0 (Standard Emaran Time)
@@ -81,7 +81,7 @@
 | calling_code           = +1
 }}
 
-'''Emara''' officially the '''Emaran Republic''' located primarily in [[South Ayuma]]. Its overseas regions and territories include [[Tiesa Canal Territory|Tiesa Canal territory]], [[Eldas Isle]], [[Weimrino]], and [[Lyters]] in the [[Hinsakian Ocean]], and many islands in [[South Eanif Ocean|South]] and [[North Eanif Ocean]], giving it one of the largest discontinuous exclusive [[economic zones]] in the world. Emara shares borders with [[Siana]] and [[Lycroa]] to the north; also borders [[Trian]] and [[Etretes]] via the [[Tiesa Canal Territory|Tiesa canal territory]], and has a maritime border with [[Easuhura]] to the east. Its metropolitan area extends from the [[Druvain river]] to the north, [[Vihsanna Ocean]], and from the [[Rianian Sea]] to the [[Escaran Channel]]. Its 32 central regions (1 of which is overseas) span a combined area of 428,786 km2 (165,555 sq mi) and have an estimated total population of over 90.8 million as of 1765. Emara is a [[wikipedia:Semi-presidential_republic|semi-presidential republic]] and its capital, largest city, and main cultural and economic center is [[Rivostan]].
+'''Emara''' officially the '''Emaran Republic''' located primarily in [[South Ayuma]]. Its overseas regions and territories include [[Tiesa Canal Territory|Tiesa Canal territory]], [[Eldas Isle]], [[Weimrino]], and [[Lyters]] in the [[Hinsakian Ocean]], and many islands in [[South Eanif Ocean|South]] and [[North Eanif Ocean]], giving it one of the largest discontinuous exclusive [[economic zones]] in the world. Emara take up the entire [[Emaran Peninsula]] and shares borders with [[Siana]] and [[Lycroa]] to the north; also borders [[Trian]] and [[Etretes]] via the [[Tiesa Canal Territory|Tiesa canal territory]], and has a maritime border with [[Easuhura]] to the east. Its metropolitan area extends from the [[Druvain river]] to the north, [[Vihsanna Ocean]], and from the [[Rianian Sea]] to the [[Escaran Channel]]. Its 32 central regions (1 of which is overseas) span a combined area of 428,786 km2 (165,555 sq mi) and have an estimated total population of over 90.8 million as of 1765. Emara is a [[wikipedia:Semi-presidential_republic|semi-presidential republic]] and its capital, largest city, and main cultural and economic center is [[Rivostan]].
 
 Emara was settled during the [[Bronze age]] by [[Carth]] tribes known as [[Arznx]] before [[Ecossians]] first started settling the east coast in the 5-4th centuries BFA, followed by the conquests by the [[Vestorian empire]] in the 1st century BFA, leading to a distinct Vestor-Ecossian culture. In the [[Early Middle Ages]], the Emarans formed the kingdom of Destria, which became the heartland of the Destrain Empire. The [[Treaty of Abutot]] in 664 partitioned the empire, with [[West Bervia]] evolving into the [[Kingdom of Poime.]] In the [[Early Middle Ages]], Emara was a powerful but decentralized [[wikipedia:Feudalism|feudal kingdom]], but from the mid-11th to the mid-12th centuries, Emara was plunged into a dynastic conflict with [[Easuhura]] known as the [[Two Hundred Years' War]]. In the 14th century, Emaran culture flourished during the [[Emaran Renaissance]] under [[Lycroa|Lycoan]] rule, and an Emaran colonial empire emerged. Internally, Emara was dominated by the conflict with the Lycroans under the [[Friliens]] and the growing religious conflict between [[Inurraconas]] and [[Lengea]]. Emara was successful in the [[Redea Succession war]] and further increased its influence during the reign of [[Zonasa the Honourable]].
 
@@ -95,6 +95,16 @@ Emara retains its centuries-long status as a global center of [[wikipedia:Art|ar
 == Government Structure and Politics ==
 
 == Economy ==
+<!-- TRADE-AUTO START -->
+=== Trade ===
+Emara has an open, trade-dependent economy. In 1765 its exports of goods and services were valued at {{lahn}}5.94&nbsp;trillion, the fifth largest in the world and 4.2% of the world total, equivalent to 35% of GDP.<ref name="gtu-trade">{{Cite web |url=https://www.globaltradeunion.org/database/1765/trade/emara |title=International trade statistics 1765: Emara |website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765}} Retrieved 1765.</ref> Imports were {{lahn}}6.22&nbsp;trillion, leaving a trade deficit of {{lahn}}278&nbsp;billion.<ref name="gtu-trade" />
+
+Manufactured goods make up most of what Emara sells abroad. Electronics and electrical equipment account for 34% of exports, led by integrated circuits and medical and surgical devices, followed by chemicals and pharmaceuticals (28%), chiefly pharmaceuticals and organic chemicals, and travel and tourism (8%). Emara is the world's largest exporter of medical and surgical devices and semiconductors and the second largest of integrated circuits, pharmaceuticals and plastic articles.<ref name="gtu-trade" /> Services provide 16% of export earnings, the largest part of them travel and tourism (8%).<ref name="gtu-trade" />
+
+Emara's largest trading partners are [[Lycroa]] and [[Easuhura]], which between them take 35% of its exports, followed by [[Raledria]] (9%), [[Dahe]] (8%) and [[Areoix Lie]] (5%).<ref name="gtu-trade" /> Its imports come chiefly from [[Easuhura]] (17%), [[Lycroa]] (16%) and [[Dahe]] (7%).<ref name="gtu-trade" />
+
+Emara owns and operates the Tiesa Canal, through which {{lahn}}5.52&nbsp;trillion of cargo passed in 1765; tolls earned it {{lahn}}17&nbsp;billion.<ref name="gtu-trade" /> Tourism is a significant earner: visitors spent {{lahn}}432&nbsp;billion in 1765, 8% of export earnings.<ref name="gtu-trade" />
+<!-- TRADE-AUTO END -->
 
 == Demographics ==
 

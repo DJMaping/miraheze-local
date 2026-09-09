@@ -52,20 +52,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 32.3
 | population_density_rank = 116th
-| GDP_PPP                = {{increase}} {{lahn}}24.920 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/epa/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}199.36 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/epa/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 129th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}6,122
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}48,976
 | GDP_PPP_per_capita_rank = 135th
-| GDP_nominal            = {{increase}} {{lahn}}8.593 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/epa/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}68.744 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/epa/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 133rd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}2,111
+| GDP_nominal_per_capita = {{increase}} {{lahn}}16,888
 | GDP_nominal_per_capita_rank = 130th
 | HDI_year               = 1765
-| HDI                    = 0.670
+| HDI                    = 0.606
 | HDI_change             = increase
-| HDI_rank               = 128th
+| HDI_rank               = 130th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 
 | currency               = [[Eparian Oran]] (_) (EPO)

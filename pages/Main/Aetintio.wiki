@@ -37,20 +37,20 @@
 | population_census_year = 1762
 | population_density_km2 = 55.1
 | population_density_rank = 81st
-| GDP_PPP                = {{increase}} {{lahn}}20.819 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/aet/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}166.552 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/aet/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 131st
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}14,814
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}118,512
 | GDP_PPP_per_capita_rank = 79th
-| GDP_nominal            = {{increase}} {{lahn}}10.205 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/aet/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}81.64 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/aet/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 129th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}7,262
+| GDP_nominal_per_capita = {{increase}} {{lahn}}58,096
 | GDP_nominal_per_capita_rank = 80th
 | HDI_year               = 1765
-| HDI                    = 0.815
+| HDI                    = 0.724
 | HDI_change             = increase
-| HDI_rank               = 64th
+| HDI_rank               = 86th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Aetintine Nie]] (_) (AEN)
 | time_zone              = SAI +0 (Standard Aetintine Time)

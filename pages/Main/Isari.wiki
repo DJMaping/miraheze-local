@@ -10,8 +10,8 @@
 | image_map_size         = 300px
 | image_map2_size        = 300px
 | map_caption            = Location of Isari(green)
-| capital                = [[Isarian]]
-| largest_city           = [[Isarian]]
+| capital                = [[Damsiri]]
+| largest_city           = [[Damsiri]]
 | official_languages     = [[Taval|Alqiran]]<br>Isarian
 | ethnic_groups          = 94.2% Isarian<br>5.8% Other
 | ethnic_groups_year     = 1765
@@ -53,20 +53,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 66.2
 | population_density_rank = 60th
-| GDP_PPP                = {{increase}} {{lahn}}190.184 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/isa/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.521 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/isa/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 67th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}14,878
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}119,024
 | GDP_PPP_per_capita_rank = 78th
-| GDP_nominal            = {{increase}} {{lahn}}92.322 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/isa/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}738.576 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/isa/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 66th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}7,222
+| GDP_nominal_per_capita = {{increase}} {{lahn}}57,776
 | GDP_nominal_per_capita_rank = 81st
 | HDI_year               = 1765
-| HDI                    = 0.812
+| HDI                    = 0.773
 | HDI_change             = increase
-| HDI_rank               = 65th
+| HDI_rank               = 62nd
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Isarian Nie]] (_) (INI)
 | time_zone              = SET -3 (Standard Isarian Time)
@@ -75,6 +75,15 @@
 | cctld                  = .isa
 | calling_code           = +65
 }}
+'''Isari''', officially the '''Republic of Isari''', is a country in [[South New Ayre]]. It shares maritime borders with [[Mendereide]] to its west, [[Yutnitu]] to the east, while bordering the [[Rianian Ocean]] to the north, and the [[Southern Eanif Ocean]] to the south. Comprising over 1,000 islands, Isari covers an area of approximately {{convert|193,050|km2|sqmi|sp=us}}. It has a population of almost 12.7 million people, of whom nearly 2 million live in [[Damsiri metropolitan area|the metropolitan area]] of its capital and [[List of cities in Isari|largest city]], [[Damsiri]].
+
+The area that became Isari was first inhabited by groups of [[wikipedia:hunter gatherer|hunter gatherer]]s 35,000 years ago. The [[Oyreains]] started migrating and settling there from the [[Ayre archipelago]] in the 6th century, through to the 11th century. The Kingdom of Umuss cementing itself. The [[Tanblitri Empire]], founded in 1123, expanded across the [[Isarian archipelago]] and into the [[Dari Peninsula]]. During the late 13th century, the Empire fell into civil conflict due to the collapse of trade with Mahea and Ayuma. The Tavalan Empire conquered the region in the early 14th century, and established the colony of [[Colony of |New Ayre]], which is where the continent gets its name from. 
+
+At the time of [[Tavalan colonization of New Ayre|Tavalan arrival]], New Ayre (colony) became a major center of the transoceanic economy for the Tavalan Empire, fueled by silver mining and its position as a hub between Ayuma, New Ayre, and Massir. The Tavalans established [[Damsiri]] in 1462 as a military stronghold. Isari secured its independence between 1584 and 1588, following a three-way struggle involving Taval, Emara, and later the [[Real Kocis Delaosa]]. In 1588, Isari and Mendereide, split from the [[Unified State of New Ayre]] Proenacted its [[Constitution of Isari|constitution]] and was formally established as an independent state.
+
+During the early years following its independence, Isari remained subject to foreign influence and intervention, along with a series of internal conflicts and political turmoil. From the second half of the 16th century, the country saw significant [[Immigration to Isari|waves of Massiran migration]] (mainly from [[Tavalan Isarians|Taval]], [[Dahen Isarians|Dahen]], and [[Ayren Isarians|Ayrens]]) which greatly influenced its [[Demographics of Isari|demographics]] and laid the foundation for modern-day [[Culture of Isari|Isarian culture and society]]. National politics were dominated by two political parties: the [[Conventional Party (Isari)|Conventional Party]] and the [[Ikokeu Party|Ikokeu Party]], which clashed in several civil wars during the 19th century and are collectively known as 'The Parties'. In the early 20th century, a series of pioneering economic, labor, and social reforms laid the foundations of an advanced [[welfare state]]. Combined with a period of sustained political stability. Isari is today a [[Democratic republic|democratic]] [[Republic|constitutional republic]], with a High Minister who serves as both [[wikipedia:head of state|head of state]] and [[wikipedia:head of government|head of government]].
+
+Isari higher than average ranked in international measurements of democracy, government transparency, economic freedom, social progress, [[List of countries by income equality|income equality]], [[wikipedia:per capita income|per capita income]], innovation, and infrastructure. It is also highly [[Cultural liberalism|socially liberal]], and has [[Ni'aoe  in Isari|fully legalized Ni'aoe]] <!-- Ni'aoe is a light psychoactive drug, similar to cannabis in strength -->one of the first country in the world to do so as well as legalising [[wikipedia:Same-sex marriage in Isari|same-sex marriage]], [[wikipedia:abortion|abortion]] and [[wikipedia:Euthanasia|euthanasia]]. Isari is also a founding member of the [[Global Trade Union]].
 
 == History ==
 

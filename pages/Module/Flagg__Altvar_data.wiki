@@ -3,6 +3,7 @@ local p = {}
 function p.alttable(age)
 
 	local alt_map = {
+		["3x3"] = { altlink="men's national 3x3 team"; altvar="3x3" };
 		["af"] = { altlink="national American football team"; altvar="American football" };
 		["afu"] = { altlink="national junior American football team"; altvar="American football" };
 		["afw"] = { altlink="women's national American football team"; altvar="American football" };
@@ -101,6 +102,7 @@ function p.alttable(age)
 	}
 
 	local alt_aliases = {
+		["3x3 national basketball team"] = "3x3";
 		["armed forces"] = "military";
 		["a'football"] = "fbl";
 		["americanfootball"] = "af";

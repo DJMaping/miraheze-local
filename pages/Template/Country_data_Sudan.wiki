@@ -1,0 +1,25 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Sudan
+| flag alias = Flag of Sudan.svg
+| flag alias-1956 = Flag of Sudan (1956-1970).svg
+| flag alias-air force = Ensign of the Sudanese Air Force.svg
+| link alias-air force = Sudanese Air Force
+| flag alias-naval = Naval Ensign of Sudan.svg
+| link alias-naval = Sudanese Navy
+| flag alias-army = Flag of the Sudanese Army (1956–present).svg
+| link alias-army = Sudanese Army
+| flag alias-navy = Naval Ensign of Sudan.svg
+| link alias-navy = Sudanese Navy
+| flag alias-military = Insignia of the Sudanese Armed Forces.svg
+| link alias-military = Sudanese Armed Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1956
+| redir1 = SDN
+| redir2 = SUD
+| related1 = South Sudan
+</noinclude>
+}}

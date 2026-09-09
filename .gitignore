@@ -9,3 +9,10 @@ __pycache__/
 # The hand-authored "brain" folders (0 Home.md, 1 Maps/ ... 4 Templates/) stay tracked.
 Andah-Wiki/Articles/
 Andah-Wiki/Categories/
+
+# Records which pages scale_lahn.py has already rescaled (prevents double-scaling)
+.lahn_scaled.json
+.preview/
+
+# local copies of page edits overwritten by pull_changed.py
+pages_backup/

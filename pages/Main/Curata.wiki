@@ -49,20 +49,18 @@
 | population_estimate_year = 1765
 | population_density_km2 = 47.7
 | population_density_rank = 87th
-| GDP_PPP                = {{increase}} {{lahn}}88,393 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ace/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}707.144 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ace/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 95th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}19.540
-| GDP_PPP_per_capita_rank = 49th
-| GDP_nominal            = {{increase}} {{lahn}}50,800 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ace/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}156,320| GDP_PPP_per_capita_rank = 49th
+| GDP_nominal            = {{increase}} {{lahn}}406.4 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ace/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 86th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}11.230
-| GDP_nominal_per_capita_rank = 50th
+| GDP_nominal_per_capita = {{increase}} {{lahn}}89,840| GDP_nominal_per_capita_rank = 50th
 | HDI_year               = 1765
-| HDI                    = 0.856
+| HDI                    = 0.791
 | HDI_change             = increase
-| HDI_rank               = 49th
+| HDI_rank               = 57th
 | HDI_ref                = <!--(for any ref/s to associate with HDI number)-->
 | currency               = [[Curatan Kasare]] (_) (YAC)
 | time_zone              = SCU +6 (Standard Curata Time)

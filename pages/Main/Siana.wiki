@@ -50,21 +50,21 @@
 | population_density_km2 = 129.7
 | population_density_sq_mi = 50.0
 | population_density_rank = 49th
-| GDP_PPP                = {{increase}} {{lahn}}865 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sia/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}6.92 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sia/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_year           = 1765
 | GDP_PPP_rank           = 27th
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}22,011
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}176,088
 | GDP_PPP_per_capita_rank = 29th
-| GDP_nominal            = {{increase}} {{lahn}}750 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sia/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}6 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sia/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_year       = 1765
 | GDP_nominal_rank       = 17th
-| GDP_nominal_per_capita = {{increase}} {{lahn}}19,087
+| GDP_nominal_per_capita = {{increase}} {{lahn}}152,696
 | GDP_nominal_per_capita_rank = 19th
-| HDI                    = 0.960
+| HDI                    = 0.854
 | HDI_year               = 1765
 | HDI_change             = increase
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
-| HDI_rank               = 4th
+| HDI_rank               = 25th
 | currency               = [[Fanzu]] (_) (FNZ)
 | time_zone              = SST +0 (Standard Sianan Time)
 | date_format            = dd/mm/yyyy

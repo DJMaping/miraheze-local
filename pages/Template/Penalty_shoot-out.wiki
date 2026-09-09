@@ -1,0 +1,9 @@
+{{#if:{{{1|}}}|{{nowrap|({{{1|}}} [[Penalty shoot-out (association football)|p]])}}|([[Penalty shoot-out (association football)|p]])}}<noinclude>
+{{pp-30-500|small=yes}}
+{{documentation
+|content=
+{{tsh|pso}}
+{{No documentation}}
+[[Category:Association football templates]]
+}}
+</noinclude>

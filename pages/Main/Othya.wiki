@@ -50,20 +50,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 65.8
 | population_density_rank = 70th
-| GDP_PPP                = {{increase}} {{lahn}}127.017 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oth/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.016 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/oth/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 83rd
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}4,175
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}33,400
 | GDP_PPP_per_capita_rank = 153rd
-| GDP_nominal            = {{increase}} {{lahn}}33.077 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oth/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}264.616 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/oth/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 103rd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,087
+| GDP_nominal_per_capita = {{increase}} {{lahn}}8,696
 | GDP_nominal_per_capita_rank = 154th
 | HDI_year               = 1765
-| HDI                    = 0.487
+| HDI                    = 0.422
 | HDI_change             = increase
-| HDI_rank               = 163rd
+| HDI_rank               = 158th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Duxim]] (_) (DUX)
 | time_zone              = STY +4 (Standard Othyan Time)

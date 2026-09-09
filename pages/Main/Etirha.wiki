@@ -46,20 +46,20 @@
 | population_density_km2 = 40.0
 | population_density_sq_mi = 15.4
 | population_density_rank = 105st
-| GDP_PPP                = {{increase}} {{lahn}}2,191 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/eti/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}17.528 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/eti/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 8th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}29,344
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}234,752
 | GDP_PPP_per_capita_rank = 10th
-| GDP_nominal            = {{increase}} {{lahn}}2.642 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/eti/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}21.136 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/eti/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 6th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}35,397
+| GDP_nominal_per_capita = {{increase}} {{lahn}}283,176
 | GDP_nominal_per_capita_rank = 7th
 | HDI_year               = 1765
-| HDI                    = 0.969
+| HDI                    = 0.917
 | HDI_change             = increase
-| HDI_rank               = 2nd
+| HDI_rank               = 4th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Etirhan Kasare]] (_) (EKA)
 | time_zone              = UTC -3 to -4

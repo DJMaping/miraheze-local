@@ -56,20 +56,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 40.4
 | population_density_rank = 102nd 
-| GDP_PPP                = {{increase}} {{lahn}}18.214 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sat/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}145.712 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/sat/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 135th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}1,940
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}15,520
 | GDP_PPP_per_capita_rank = 161st
-| GDP_nominal            = {{increase}} {{lahn}}6.259 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sat/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}50.072 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/sat/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 141st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}667
+| GDP_nominal_per_capita = {{increase}} {{lahn}}5,336
 | GDP_nominal_per_capita_rank = 160th
 | HDI_year               = 1765
-| HDI                    = 0.474
+| HDI                    = 0.355
 | HDI_change             = increase
-| HDI_rank               = 164th
+| HDI_rank               = 165th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Sattlean Qekinin]] (_) (SQE)
 | time_zone              = SET +4 (Standard Sattlean Time)

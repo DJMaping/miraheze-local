@@ -1,0 +1,92 @@
+/* {{pp-template}} */
+.footballbox {
+	clear: both;
+	overflow: auto;
+}
+
+.footballbox tr {
+	vertical-align: top;
+}
+
+.footballbox time {
+	display: block;
+	overflow: auto;
+}
+
+.footballbox .ftitle {
+	text-align: center;
+	font-weight: bold;
+}
+
+.footballbox .fevent {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+}
+
+.footballbox .fevent,
+.footballbox .fright {
+	margin-bottom: 10px;
+}
+
+.footballbox .fdate,
+.footballbox .ftime {
+	display: block;
+}
+
+.footballbox .fhome,
+.footballbox .faway {
+	width: 39%;
+}
+
+.footballbox .fscore {
+	width: 22%;
+}
+
+.footballbox .fgoals {
+	font-size: 85%;
+}
+
+.footballbox .fhome,
+.footballbox .fhgoal {
+	text-align: right;
+}
+
+.footballbox .faway,
+.footballbox .fagoal {
+	text-align: left;
+}
+
+@media all and (min-width: 720px) {
+	.footballbox .fdate,
+	.footballbox .ftime,
+	.footballbox .frnd {
+		text-align: right;
+	}
+	
+	.footballbox .fleft,
+	.footballbox .fright {
+		float: left;
+		padding: 2px 0;
+	}
+	
+	.footballbox .fleft {
+		width: 15%;
+		overflow: auto;
+	}
+	
+	.footballbox .fevent {
+		float: left;
+		width: 61%;
+	}
+	
+	.footballbox .fevent,
+	.footballbox .fright {
+		margin-bottom: 0;
+	}
+	
+	.footballbox .fright {
+		font-size: 85%;
+		width: 24%;
+	}
+}

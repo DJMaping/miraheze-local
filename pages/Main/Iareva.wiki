@@ -46,20 +46,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 1.9
 | population_density_rank = 164th
-| GDP_PPP                = {{increase}} {{lahn}}231.173 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/iar/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.849 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/iar/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 59th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}28,889
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}231,112
 | GDP_PPP_per_capita_rank = 12th
-| GDP_nominal            = {{increase}} {{lahn}}165.123 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/iar/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}1.321 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/iar/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 50th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}20,635
+| GDP_nominal_per_capita = {{increase}} {{lahn}}165,080
 | GDP_nominal_per_capita_rank = 17th
 | HDI_year               = 1765
-| HDI                    = 0.876
+| HDI                    = 0.893
 | HDI_change             = increase
-| HDI_rank               = 41st
+| HDI_rank               = 10th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Iarevan Soreo]] (_) (ISR)
 | time_zone              = SIV -12,-11,-10,-9 (Standard Iarevan Time)
@@ -72,7 +72,7 @@ Iareva is a unitary absolute monarchy located in [[South Quia]], bordered by the
 
 Iareva has been inhabited since at least 10,000 BFA, with indigenous [[Native languages of Iareva|native speaking]] peoples occupying the region's dense [[Wikipedia:Forests|forests]], [[Permafrost|frozen plains]], and vast river valleys long before the arrival of outside powers. The region came under the influence of the [[Ast-Desaki]], which incorporated much of the territory into its ast during the early 15th century AFA, bringing [[Desakian settlers]] and language into the western fringes of what is now Iareva. As [[Ast-Desaki|Ast-Desaki's]] power began to wane, a [[consolidation of Iarevan and Verstian-speaking lords]] unified the region into a single political entity in 1592 AFA, after the Ast lost the ability to project power in the region. Iareva emerged as a fully independent sovereign state upon the collapse of Ast-Desaki, inheriting vast stretches of sparsely governed frontier territory in the process.
 
-Since independence, Iareva has worked to consolidate authority over its enormous interior. Despite its low population density, the country's [[Lists of countries by mineral production|abundant natural resources]] including extensive [[Wikipedia:Timber|timber reserves]], [[Lists of countries by mineral production|mineral deposits]], and major river systems underpinned steady economic development throughout the early to mid 1700s AFA. By 1765, Iareva had developed a notably high per capita gdp relative to its population, with a GDP (PPP) per capita of {{lahn}}28,889, ranking [[List of countries by GDP (PPP) per capita|12th globally]], and a nominal per capita of {{lahn}}20,635, [[List of countries by GDP (nominal) per capita|ranking 17th]]. Iareva's Krali Total Development Index stands at 0.876, [[List of countries by Krali Total Development Index|placing it 41st in the world]] and firmly in the high development tier, a remarkable achievement for a nation of its geographic scale and sparse settlement.
+Since independence, Iareva has worked to consolidate authority over its enormous interior. Despite its low population density, the country's [[Lists of countries by mineral production|abundant natural resources]] including extensive [[Wikipedia:Timber|timber reserves]], [[Lists of countries by mineral production|mineral deposits]], and major river systems underpinned steady economic development throughout the early to mid 1700s AFA. By 1765, Iareva had developed a notably high per capita gdp relative to its population, with a GDP (PPP) per capita of {{lahn}}231,112, ranking [[List of countries by GDP (PPP) per capita|12th globally]], and a nominal per capita of {{lahn}}165,080, [[List of countries by GDP (nominal) per capita|ranking 17th]]. Iareva's Krali Total Development Index stands at 0.876, [[List of countries by Krali Total Development Index|placing it 41st in the world]] and firmly in the high development tier, a remarkable achievement for a nation of its geographic scale and sparse settlement.
 == History ==
 
 == Geography ==

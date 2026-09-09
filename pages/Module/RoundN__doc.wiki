@@ -1,0 +1,295 @@
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High-use}}
+{{Module rating |release<!-- Values:  pre-alpha • alpha • beta • release • protected  --  If a rating not needed/relevant, delete this template call -->}}
+
+== Usage ==
+This is a module for meta templates such as {{tl|Round16}}, {{tl|Round8}}, etc. Though originally designed for sports, it can be used to present any tree.
+
+Basic form:
+<pre>{{#invoke:RoundN|main|columns = [number of columns (3 columns for Round8, 4 columns for Round16, etc.)]}}</pre>
+
+Alternatively, the shorthand form <code><nowiki>{{#invoke:RoundN|N16}}</nowiki></code> (or any power of 2 between N2 and N512) is equivalent to {{code|<nowiki>{{#invoke:RoundN|main|columns = 4}}</nowiki>}}
+
+==Parameter list==
+*{{red|red}} parameter names are required.
+*''italicized'' parameter names are required in some cases 
+*{{blue|blue}} parameter names involve new features not available prior to the release of this module
+{| class='wikitable' style='width:75%'
+! Parameter name
+! Description
+
+|-
+
+|style='text-align:center;vertical-align:top;width:9em'| {{TOC tab|{{red|columns}}}}
+|style='background-color:#fff'|Number of columns/eliminations (3 columns for Round8, 4 columns for Round16, etc.)
+
+'''Note'''
+* For <code>columns</code> ''less than 4'' (i.e. Round2-Round8), the 3rd Place match box is hidden by default. For <code>columns</code> ''greater or equal to  4'', the 3rd Place match box is visible by default. This reflects the behavior of the templates prior to this module's release.
+
+{{TOC tab|'''Shorthand'''|shorthand|depth=2}}
+While required for invoking the main function (<code><nowiki>{{#invoke:RoundN|main|columns=}}</nowiki></code>), this module has meta functions in the form of 'N##' which can call main with the right {{code|columns}} for you. For example, you may replace <code>... |main|columns = 7...</code> with <code>...|N128 ...</code>. Valid for N# where # is a power of 2. You must invoke this module directly to use this (vs. a template that already has a columns value). Only works up to N512. If say N1024 ever becomes necessary, call main directly and set {{para|columns|10}}.
+
+<small>PS: Though adding shorthands up to N ~70 trillion would be easy, it would make unnecessary overhead as these meta functions are generated eached time this module is called (granted generating such functions up to ~70 trillion is probably less expensive than making the table for columns = 3).</small>
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{{#}}}}}
+|style='background-color:#fff'|Unnamed parameters (i.e. a value not prefixed by <code>[param_name] =</code>) are read sequentially in groups of 5 such that:
+====Example 1====
+{{demo|<nowiki>{{#invoke:RoundN|main|columns=2
+|Day 1|A|'''7'''|B|5
+|Day 2|C||D|
+|tdb|A|||
+}}</nowiki>|br=0}}
+Placing each group of 5 on a new line is optional, but does make it easier to read. Also, consider adding the comments such as <code><nowiki><!-- Date-Place/Team 1/Score 1/Team 2/Score 2 --></nowiki></code> on top and <code><nowiki><!-- Finals --></nowiki></code> above the first group of 5 in the finals round, etc.
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{blue|style}}}}
+|style='background-color:#fff'| Set the <code>style</code> parameter to add custom CSS to the table.
+
+{{Module talk:RoundN/testcases/1|param=style|style=width:20em;font-size:70%}}
+
+To center-align the whole block, use <code>style=margin:auto;</code>
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|''{{blue|scroll_height}}''}}
+|style='background-color:#fff'| For large tables, set {{code|scroll_height}} to the desired height in pixels.
+
+{{Module talk:RoundN/testcases/1|param=scroll_height|scroll_height=140}}
+
+CSS units are also allowed (i.e. '20em', '30%', etc.).
+
+'''Note''' This works by duplicating the entire table and then using CSS to lock the clone of the table to the top of the div. Conceivably, for extremely large tables, this can result in a significant amount of extra HTML code to download versus if {{code|scroll_head_unlock}} is used.
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{blue|scroll_head_unlock}}|depth=2}}
+|style='background-color:#fff'| If it is desirable to have the round heading scroll with the table (such as if a larger viewing area is desired), set {{code|scroll_head_unlock}} to 'yes'
+
+{{Module talk:RoundN/testcases/1|param=scroll_head_unlock|scroll_head_unlock=yes|scroll_height=140|example=the code the {{code|scroll_height}} example}}
+
+|-
+
+|style='text-align:center;vertical-align:top'| {{TOC tab|skipmatch##}}
+|style='background-color:#fff'|If set, boxes for the #th match group will not be shown. Most often used for playoffs or when the number of teams playing in the first round is not a power of 2.
+{{Module talk:RoundN/testcases/1|param=skipmatch2|skipmatch2=yes}}
+{{TOC tab|{{blue|'''NEW'''}}|shorthand (range)|depth=2}}:
+The shorthand <code>|skipmatch = 1-2;4;6-7</code> will do the same thing as:
+<pre>|skipmatch1=yes
+|skipmatch2=yes
+|skipmatch4=yes
+|skipmatch6=yes
+|skipmatch7=yes</pre>
+
+'''Note:''' 
+*Unlike in the original templates, this module does not require leading zeroes in this parameter, i.e. skipmatch001 is the same as skipmatch1 (though it may make your template code easier to read if lead with an appropriate number of zeroes).
+*The 5 parameters that would have populated the skipped box will be ignored regardless of value unless <code>omit_blanks</code> is set to 'yes' (see below).
+*Previously, skipmatch only worked in the first round. This limitation no longer applies. (See [[Module talk:RoundN/testcases/3]])
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{blue|omit_blanks}}|depth=2}}
+|style='background-color:#fff'|If <code>omit_blanks</code> is set to yes, then all parameters that would have been skipped will instead be shifted to the next non-skipped box. (This is turned off by default because most templates made before the release of this module were required to use empty parameters as placeholders.)
+{{Module talk:RoundN/testcases/1|param=omit_blanks|omit_blanks=yes|skipmatch2=yes|example=''Example 1'' with <code>{{!}}skipmatch2=yes</code>}}
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{blue|bold_winner}}}}
+|style='background-color:#fff'|The {{code|bold_winner}} parameter accepts either {{code|'high'}} or {{code|'low'}}, which will automatically bold the text of the participant with the ''higher'' or ''lower'' score, respectively. In other words, set this to 'low' if the lower score wins and 'high' if the high score wins.
+====Example 2====
+{{Module talk:RoundN/testcases/2}}
+'''Note:'''
+* If entering a score that includes non-numbers{{--}}such as <code>3 (6)</code>, the Semi Final score for team C in the above example{{--}}the module will first remove all non-digit characters and concatenate the rest. For example, <code>3 (5)</code> and <code>3 (6)</code> would be converted to <code>35</code> and <code>36</code>, respectively, before being compared. This should be valid for most cases, however, you may override using the <code>manualboldmatch##</code> parameter.
+* If the scores are tied or contain no numbers, then neither will be bolded, however, you may still manually bold them with wikimarkup.
+* This does not remove any formatting already present.
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{blue|manualboldmatch##}}|depth=2}}
+|style='background-color:#fff'|
+{{Module talk:RoundN/testcases/2|param=manualboldmatch1|param2=scroll_height|manualboldmatch1=yes|scroll_height=12em|result_arg=output|before=In the same manner as the <code>skipmatch</code> parameters, you may use |after= on '''Example 2''' to prevent automatic bolding in the first group, etc.  Again, as with skipmatch, leading zeroes may be added as desired.}}
+
+
+{{TOC tab|'''Shorthand'''|shorthand (range)|depth=3}}
+The form <code>manualboldmatch = 1-3;6;9-12</code> is also available.
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|{{blue|previewnumbers}}}}
+|style='background-color:#fff'|
+Set <code>|previewnumbers = yes</code> to show numbers next to each match group (useful for {{code|skipmatch}} and {{code|manualboldmatch}}) when viewing on the template page.
+
+Note that these numbers will not appear in article space.
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|RD##}}
+|style='background-color:#fff'|Use <code>RD#</code>, replacing # with the desired column such that 1 is the leftmost round and X is the rightmost when <code>columns = X</code>. For example:
+{{demo|<nowiki>{{#invoke:RoundN|N128
+|RD2 = {{red|'''SECOND ROUND'''}}|RD7 = {{red|'''Championship'''}} | RD8 = {{red|'''So close, yet so far'''}}
+|scroll_height=15em
+}}</nowiki>}}
+'''Note''' RD[N+1] = Third Place, and will perform the job of the <code>Consol</code> parameter if the latter is omitted, i.e. RD[N+1] is ignored if Consol is true. Also, this alternate name for Consol was not available prior to the release of this module (and is provided because the module's programmer thought 'Consol' was unintuitive).
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|3rdplace}}
+|style='background-color:#fff'|By default, <code><nowiki>|3rdplace=</nowiki></code> is set to 'yes' when <code>columns</code> is greater than 3 and 'no' otherwise. Override as desired. (See <code>Consol</code> if you wish to rename this heading)
+
+{{demo|<nowiki>{{#invoke:RoundN|main|columns=1
+|1
+}}</nowiki>|br=0}}
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|Consol|depth=2}}
+|style='background-color:#fff'|Set <code>Consol=name</code> to change the 'Third Place' label to 'name'. You may also use the form RD# where # = columns + 1.
+{{demo|<nowiki>{{#invoke:RoundN|main|columns=1
+|3rdplace=yes
+|Consol=Runner up
+|1
+}}</nowiki>|br=0}}
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|color}}
+|style='background-color:#fff'|Add <code><nowiki>|color=yes</nowiki></code>
+{{#invoke:RoundN|main|columns=1
+ |color=yes
+ |3rdplace=yes
+ |7|Team A|3|Team B|2
+ |8|Team C||Team D|0
+}}
+
+* '''Note:''' When <code><nowiki>|color=yes</nowiki></code> is set, the brackets are hardcoded to be colored as shown in the example above. To color the "correct" cells, you must also activate '''''bold_winner''''' to either ''high'' or ''low''. Thus allowing the module to identify and color the winners and losers correctly.
+----
+Add <code><nowiki>|color=yes & |bold_winner=high</nowiki></code> for colored brackets when the winner is the ''highest scorer''.
+{{#invoke:RoundN|main|columns=1
+ |bold_winner=high
+ |color=yes
+ |3rdplace=yes
+ |7|Silver medalist|2|Gold medalist|3
+ |8||0|Bronze medalist|1
+}}
+
+----
+Add <code><nowiki>|color=yes & |bold_winner=low</nowiki></code> for colored brackets when the winner is the ''lowest scorer''.
+{{#invoke:RoundN|main|columns=1
+ |bold_winner=low
+ |color=yes
+ |3rdplace=yes
+ |7|Gold medalist|2|Silver medalist|3
+ |8|Bronze medalist|0||1
+}}
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|color_repechage}}
+|style='background-color:#fff'|Add <code><nowiki>|color_repechage=yes</nowiki></code> for repechage brackets, where the winner is awarded a bronze medal.
+{{#invoke:RoundN|main|columns=1
+ |color_repechage=yes
+ |7|Team A|3|Team B|2
+}}
+
+* '''Note 1:''' When <code><nowiki>|color_repechage=yes</nowiki></code> is set, the brackets are hardcoded to be colored as shown in the example above. To color the "correct" cells, you must also activate '''''bold_winner''''' to either ''high'' or ''low''. Thus allowing the module to identify and color the winners and losers correctly.
+
+* '''Note 2:''' When <code><nowiki>|color_repechage=yes</nowiki></code> is set AND the final match of the brackest is skipped, as in cases where there are two bronze medalists, all winners of the final stage visible will be colored bronze.
+----
+Add <code><nowiki>|color_repechage=yes & |bold_winner=high</nowiki></code> for colored brackets when the winner is the ''highest scorer''.
+{{#invoke:RoundN|main|columns=1
+ |bold_winner=high
+ |color_repechage=yes
+ |7|Team A|3|Team B|2
+}}
+----
+Add <code><nowiki>|color_repechage=yes & |bold_winner=low</nowiki></code> for colored brackets when the winner is the ''lowest scorer''.
+{{#invoke:RoundN|main|columns=1
+ |bold_winner=low
+ |color_repechage=yes
+ |7|Team A|3|Team B|2
+}}
+----
+Add <code><nowiki>|color_repechage=yes & skip the final match of the brackets</nowiki></code> for colored brackets when there are two bronze medalists.
+{{#invoke:RoundN|main|columns=3
+ |bold_winner     = high
+ |color_repechage = yes
+ |flex_tree       = yes
+ |skipmatch       = 2;4;7
+ |omit_blanks     = yes
+ |RD1             = Repechage
+ |RD2             = Bronze medal
+ |RD3             = omit_label
+ |1|Team A|3|Team B|2
+ |2|Team C|6|Team D|5
+ |3|Team A|8|Team E|7
+ |4|Team C|10|Team F|11
+}}
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|team-width}}
+|style='background-color:#fff'|Set <code><nowiki>team-width</nowiki></code> to the desired width in pixels. (Default is 170)
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|score-width}}
+|style='background-color:#fff'|Set <code><nowiki>score-width</nowiki></code> to the desired width in pixels. (Default is 30)
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|widescore|depth=2}}
+|style='background-color:#fff'|Setting <code><nowiki>|widescore=yes</nowiki></code> is basically equal to <code><nowiki>|score-width=40</nowiki></code>. Provided for compatibility. Ignored if <code>score-width</code> is set.
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|score-boxes}}
+|style='background-color:#fff'|Set <code>score-boxes</code> to the desired number of score boxes per match. (Default is 1). The number can be followed by <code> + sum</code>, which will add one more score box with the sum of all the others. For examples, see [[Module_talk:RoundN/testcases/5|test case 5]] and [[Module_talk:RoundN/testcases/6|test case 6]].
+
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|flex_tree}}
+|style='background-color:#fff'|Set <code>|flex_tree=yes</code> to make the brackets vertically more compact. That is, to have less space between matches of the same round.
+{{#invoke:RoundN|N4
+| 3rdplace  = no
+| flex_tree = yes
+}}
+|-
+
+|style='text-align:center;vertical-align:top'|{{TOC tab|short_brackets}}
+|style='background-color:#fff'|Set <code>|short_brackets=yes</code> to make the brackets horizontally more compact. That is, to have less space between matches of following rounds.
+{{#invoke:RoundN|N4
+| 3rdplace       = no
+| short_brackets = yes
+}}
+|}
+
+==Node Functions==
+{{Ombox
+|type=notice
+|text=Some of these functions are still in alpha testing and may not be stable. Please feel free to comment at the [[Module_talk:RoundN|talk page]].
+}}
+
+For greater customization, node functions may be added to the parameter usually used for providing match information such as dates and location.  Simply insert <code>node_function{''function name''}</code> in the appropriate location. A demonstration of most of the node functions can be found at [[Module_talk:RoundN/testcases/4|RoundN/testcases/4]].
+
+* '''orphan''' - Current node is disconnected from all other nodes (no lines will be drawn). One practical use for this may be when the winners of the previous round advance to a different tournament instead of playing each other but the losers still play a consolation match for 3rd place, as per [[Module talk:RoundN#Lines_between_matches_not_in_line_with_centre_of_box|this discussion]].
+
+For the next three node functions, the parameters usually used for team names and scores should be omitted if these node functions are used.
+* '''line''' - Current node is omitted and replaced with a horizontal line. Text may be displayed above this line via <code>node_function{line(''text'')}</code> (at some point, the preferred format would be <code>node_function{line}''text''</code> to match the form of the canvas function though backwards compatibility would probably be maintained). If [[Bracket#Curly_brackets|curly brackets]] are desired in the text, make sure to escape them with <code>\</code>.
+* '''bridge''' - Current node is omitted and replaced with a vertical line.
+* '''canvas''' - Current node is replaced with whatever you want via <code>node_function{canvas}''anything''</code>
+* '''heading''' - <u>Not yet implemented.</u> Planned node function with the form <code>node_function{heading(''name'')}''date/location''</code>. Makes a round name heading like for the [[Module:RoundN#Consol|Consol]] parameter, but may be placed anywhere, as per the "Elimination Rounds" of [[Module_talk:RoundN/testcases/6|RoundN/testcases/6]] (which currently renders the planned output of this function without the functions).
+
+==Undocumented features==
+Alas [[:User:Codehydro]] seriously overbuilt this module and never found the time to document even half the features available. Check out the following examples which may contain some advanced features:
+{{Special:PrefixIndex/Module talk:RoundN/testcases}}
+
+===Partial List of undocumented params===
+*no_column_head
+*branch_upwards
+
+Note that some of these features may not have been documented due to incomplete implementation.
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Sports modules]]
+}}</includeonly>

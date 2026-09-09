@@ -68,20 +68,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 6.5
 | population_density_rank = 155th
-| GDP_PPP                = {{increase}} {{lahn}}76,612 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kaa/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}612.896 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kaa/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 101st
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}17,619
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}140,952
 | GDP_PPP_per_capita_rank = 61st
-| GDP_nominal            = {{increase}} {{lahn}}31,921 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kaa/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}255.368 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kaa/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 69th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}7,341
+| GDP_nominal_per_capita = {{increase}} {{lahn}}58,728
 | GDP_nominal_per_capita_rank = 77th
 | HDI_year               = 1765
-| HDI                    = 0.744
+| HDI                    = 0.749
 | HDI_change             = increase
-| HDI_rank               = 96th
+| HDI_rank               = 77th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Kzuhri]] (_) (ZHU)
 | time_zone              = SET +1 (Standard Kaastini Time)
@@ -90,7 +90,13 @@
 | cctld                  = .kaa
 | calling_code           = +56
 }}
+'''Kaastini''' is a [[landlocked country]] in [[West Massir]]. It is bordered by [[Dahe]] to the north, [[Suenan]] to the southeast, and Vesozata to the east. It covers an area of {{convert|sp=us|	664,569|km2|abbr=off}}, making it the [[List of countries and dependencies by area | 51st-largest country]] in the world. With a population of 4.3 million, Kaastini is one of the world's [[List of countries and dependencies by population density|most sparsely populated sovereign states]]. The country constitutes a significant portion of the [[Kaastini Plateau]], and its natural environment is characterised by grassy [[steppe]], the [[Kozhika Mountains]] to the south and east, and the [[Hiemuekan Desert]] through the middle of the country. [[Suharimti]], the capital and [[List of cities in Kaastini|largest city]], is home to roughly a quarter of the country's population.
 
+The territory of modern-day Kaastini has been ruled by various [[nomadic empire]]s, including the [[Mesti]], the [[Cutrans]], the [[Xhinj]], the [[Kurtan]], the [[Suadona]], and others. In 1050, [[Aluri Guian]] founded the [[Kaastini Empire]], which became the largest [[List of largest empires|contiguous land empire]] in history. His grandson [[Fiani Guian]] finished the conquest of [[Dahe]] and established the [[Kaauan dynasty]]. After the collapse of the Kaauan, the [[Kaauans]] retreated to Kaastini and resumed their earlier pattern of factional conflict, except during.
+
+In the 13th century, [[Kallimethra in Kaastini|Kallimethra]] spread to Kaastini. The [[Dahlii dynasty]] absorbed the country in the 15th century. After the [[Dahlii Chaos]] in 1670, Kaastini declared independence and achieved actual independence from the [[Dahen Republic]] in 1674 as the Kaastini Confederation. Shortly thereafter, the country became a [[wikiepdia:satellite state|satellite state]] of the [[Dahen Republic]]. In 1695, the Republic of Kaastini was founded after it conducted its own peaceful [[Kaastini Revolution of 1694]]. This led to a [[wikipedia:multi-party system|multi-party system]], a new [[Constitution of Kaastini|constitution of 1698]], and a transition to a [[wikipedia:market economy|market economy]].
+
+Approximately 10% of the population is [[wikipedia:nomad|nomad]]ic or semi-nomadic. [[Kallimethra]] is the majority religion (51.7%), with the [[Passanu]] being the second-largest group (40.6%). [[wikipedia:Irreligion|Irreligion]] is the third-largest religious identification (3.2%), concentrated among youth in the cities. The vast majority of citizens are ethnic Kaastini, with roughly 5% of the population being [[Dahe|Dahen]], and other ethnic minorities, who are especially concentrated in the western regions. Kaastini is a member of the [[Global Trade Union]], [[Democratic Action Council]].
 == History ==
 
 == Geography ==

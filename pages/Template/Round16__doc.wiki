@@ -1,0 +1,69 @@
+{{Documentation subpage}}
+{{Lua|Module:RoundN}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+==Usage==
+<syntaxhighlight lang="wikitext">
+{{Round16
+<!-- Date-Place/Team 1/Score 1/Team 2/Score 2 -->
+<!-- round of 16  -->
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+<!-- quarter finals  -->
+|||||
+|||||
+|||||
+|||||
+<!-- semi finals -->
+|||||
+|||||
+<!-- final -->
+|||||
+<!-- consol=name -->
+|||||
+}}
+</syntaxhighlight>
+
+Use the parameters listed below to customise the template. For example, putting <code>|3rdplace=no|color=yes}}</code> in the last line will remove the 3rd place match place-holder and color the Champion and Runner-up place-holders. The following parameter values are acceptable:
+
+{| class="wikitable"
+!Parameter value
+!Description
+|-
+|''RD1=name''||Renames Round of 16 to ''name''.
+|-
+|''RD2=name''||Renames Quarter-finals to ''name''.
+|-
+|''RD3=name''||Renames Semi-finals to ''name''.
+|-
+|''RD4=name''||Renames Final to ''name''.
+|-
+|''Consol=name''||Renames Third place to ''name''.
+|-
+|''3rdplace=no''||Remove 3rd place match place-holder.
+|-
+|''color=yes''||Add color for Gold, Silver & Bronze position.
+|-
+|''widescore=yes''||Widens score box (for penalty scores etc.).
+|-
+|''template=yes''||If used in a template (adds V.T.E. link)
+|-
+|''name=PAGENAME''||Required if used as a template
+|}
+
+==See also==
+* [[Template:16TeamBracket]]
+* [[Template:Round8]]
+* [[Template:Round4]]
+* [[Template:Round2]]
+
+<includeonly>{{Sandbox other||<!--
+++++ PLEASE ADD CATEGORIES, INSIDE INCLUDEONLY TAGS, THANK YOU. -->
+
+[[Category:16-Team bracket templates]]
+}}</includeonly>

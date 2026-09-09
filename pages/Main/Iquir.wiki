@@ -49,20 +49,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 74.3
 | population_density_rank = 59th
-| GDP_PPP                = {{increase}} {{lahn}}140.173 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/iqu/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.121 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/iqu/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 80th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,856
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}30,848
 | GDP_PPP_per_capita_rank = 155th
-| GDP_nominal            = {{increase}} {{lahn}}40.395 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/iqu/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}323.16 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/iqu/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 95th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,111
+| GDP_nominal_per_capita = {{increase}} {{lahn}}8,888
 | GDP_nominal_per_capita_rank = 153rd
 | HDI_year               = 1765
-| HDI                    = 0.560
+| HDI                    = 0.486
 | HDI_change             = increase
-| HDI_rank               = 154th
+| HDI_rank               = 153rd
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Qekinin]] (_) (QEK)
 | time_zone              = SIQ +3 (Standard Iquirian Time)
@@ -71,8 +71,14 @@
 | cctld                  = .iqu
 | calling_code           = +910
 }}
+'''Iquir''', officially the '''Republic of Iquir''', is a [[landlocked country]] located in the western regions of [[Middle Acrola]]. It shares borders with [[Terressin]] to the north, [[Eldavpir]] to the northeast, [[Sattle]] to the east, [[Taniduna]] and [[Candenat]] to the south, and [[Jau]] to the northwest. Iquir covers a land area of {{Convert|489302|km2|sqmi|abbr=on}}. As of 1765, it has around 36.3 million inhabitants, making it the [[List of countries and dependencies by population|38th-most populous]] country in the world and the 5th most populous country in Acrola. The national capital and largest city is  [[Chavillar]].
 
-<!-- LARGEST-CITIES-AUTO START -->
+In 250 AFA, the Kingdom of Amarr extended its realm over most of Moddern Iquir, maintaining a unified civilisation in the region for 900 years. Tzinalii arrived in the kingdom in 530 AFA, while Kelhari gained influence during the Rabiare Empire in the 13th century. After the collapse of Amarr in 1199, the [[Jian dynasty]] ruled the central parts of Acrola. The [[Yanasu]] usurper, [[Yeklak Yanasu]], overthrew the dynasty in 1370 at the [[Battle of Yualaqa]]. Later, the [[Arten–Iquirian War]] (1376–1390) led to the empire's fall and its rule as an Arten vassal state. Ultimately continued the fragmentation of the Amarrans and Balulunds.
+
+After the Great Imperial War, Iquir repelled weakened Arten governance during the [[Iquir independence war]], most notably defeating an Arten invasion at the [[Battle of Lsea]] in 1677. Under Emperor [[Miwaq II]], tight government censorship and control ended with the execution of the emperor, and the establishment of the [[Iquiran Second Republic]], an Raledrian-backed military junta, took place a year later, and ruled the country for 4 years. In 1726, the junta fell, allowing for the establishment of the Third Republic. Since then, Iquir has suffered from prolonged and unsolved inter-ethnic clashes and political instability marked by [[authoritarianism]]. From 1750, regional and ethnically based factions carried out armed attacks in [[Iquirian civil conflict (1754–present)|multiple ongoing wars throughout Iquir]].
+
+Iquir is a [[Multinational state|multi-ethnic state]] with over 80 different [[List of ethnic groups in Iquir|ethnic groups]]. [[Tzinalii]] is the most widely professed faith in the country, followed by [[Kelhari]] and a small percentage of [[Traditional Acrolan religion|traditional faiths]]. The country is a founding member of the GTU and the [[South Acrolan Cooperation Council]]. Having the [[List of Acrolan countries by GDP growth|fastest economic growth]] in [[Middle Acrola]] countries because of [[foreign direct investment]] in expansion of agricultural and manufacturing industries; [[Agriculture in Iquir|agriculture]] is the country's largest economic sector, accounting for over 37% of the [[Gross domestic product|GDP]] as of 1762. Although the Iquirian economy has experienced consistent growth, in terms of [[Wikipedia:per capita income|per capita income]] and the [[List of countries by Krali Total Development Index|Krali Total Development Index]] the country remains among the poorest in Acrola. Iquir faces numerous challenges, including high rates of [[Poverty in Iquir|poverty]], [[Human rights in Iquir|human rights]] violations, widespread ethnic discrimination, and a literacy rate of 70%.<!-- LARGEST-CITIES-AUTO START -->
+
 == Largest cities ==
 {| class="wikitable" style="text-align:center"
 |+ Largest cities in [[Iquir]]<br /><small>Population: World Population Prospects 1765<ref name="wpp1765">{{cite web|url=https://worlddataunion.org/prospects/1765/iquir|title=World Population Prospects 1765: Iquir|publisher=World Data Union}}</ref></small>

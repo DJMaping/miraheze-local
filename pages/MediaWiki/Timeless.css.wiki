@@ -1,9 +1,1359 @@
 /* All CSS here will be loaded for users of the Timeless skin */
 
-/* Make the whole header color bar a single blue (incl. the left section,
-   which is red by default). #36c matches the middle/right already set. */
-.color-left,
-.color-right,
-.color-middle {
-    background: #36c !important;
+/* =============================================================================
+   ANDAH -- Timeless restyle
+   =============================================================================
+   Flat chrome in place of Timeless's grey surround and blue colour bar, with a
+   table of contents in the left rail and an Appearance panel (text size /
+   width / colour) at the top of the right, in the manner of Vector 2022.
+
+   What follows the reader down a page and what does not is deliberate. The
+   left rail is pinned, and so is the Appearance box; the rest of the right
+   rail, which is per-page tools, scrolls away with the page it describes.
+
+   Four of those pieces are not reachable from CSS, because they need elements
+   Timeless does not emit. [[MediaWiki:Timeless.js]] creates them:
+
+       #andah-nav-toggle   header hamburger, collapses the site menu
+       #andah-toc          the article TOC, lifted into the left rail
+       #andah-appearance   the Appearance panel, at the top of the right rail
+       #andah-skip         skip links, since the rails come last in the DOM
+
+   Everything they create is styled here. If that page is blanked the layout
+   still stands; it just loses those four pieces and falls back to Timeless's
+   own inline TOC.
+
+   COLOURS: declared once, as custom properties, in the TOKENS block, and
+   overridden wholesale for night mode in section 10. Do not hardcode a colour
+   anywhere else in this file -- night mode is an inversion filter, and a
+   literal colour outside the token block will not survive it. See section 10.
+
+   SPECIFICITY: Timeless styles the rails at #mw-site-navigation .sidebar-chunk
+   (1,2,0), so a bare .sidebar-chunk rule here silently loses. Rail rules below
+   therefore mirror that shape -- both rail IDs spelled out -- and the two new
+   panels are addressed through their rail ID as well. That is why the
+   selectors are longer than they look like they need to be. Do not shorten
+   them.
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+   1. TOKENS
+   -------------------------------------------------------------------------- */
+
+:root {
+	--a-canvas:        #f8f9fa;  /* page surround, behind every panel */
+	--a-surface:       #ffffff;  /* header, article panel, sidebar boxes */
+	--a-raised:        #ffffff;  /* popups floating ABOVE a panel */
+	--a-sunk:          #f8f9fa;  /* search field, category bar, boxed content */
+	--a-thead:         #eaecf0;  /* table header cells, one step above sunk */
+	--a-hover:         #eaf1fb;  /* row hover in the rails */
+	--a-border:        #dfe3e8;  /* hairlines between panels */
+	--a-border-firm:   #c8ccd1;  /* inputs, rules under headings */
+	--a-control:       #72777d;  /* the edge of a control you can click */
+	--a-text:          #202122;
+	--a-text-dim:      #54595d;  /* labels, captions */
+	--a-link:          #3366cc;
+	--a-link-visited:  #6b4ba1;
+	--a-link-new:      #d73333;
+	--a-accent:        #3366cc;  /* title rule, selected radio, focus ring */
+	--a-radius:        2px;
+
+	/* Set by the Appearance panel; see section 8. */
+	--a-text-scale:    1;
+	--a-layout-max:    1596px;
+}
+
+/* -----------------------------------------------------------------------------
+   2. PAGE CHROME
+   --------------------------------------------------------------------------
+   Timeless paints the area outside .ts-inner in #72777d and the gutter behind
+   the rails in #eaecf0, which reads as two different greys either side of the
+   article. Collapse both onto one near-white canvas. */
+
+body,
+#mw-content-container,
+#mw-content-container.ts-container {
+	background: var( --a-canvas );
+	color: var( --a-text );
+}
+
+/* The blue strip under the header. It is position: fixed and purely decorative,
+   so removing it costs no layout. */
+#mw-header-hack,
+#mw-header-nav-hack {
+	display: none;
+}
+
+/* #mw-content-container clears the header AND the strip, at 3.475em. With the
+   strip gone, 3.125em would be the header's exact height -- which turned out
+   to be too exact: the rails and the article panel then butt straight up
+   against the search bar with nothing between them. 3.75em leaves about 10px
+   of air, which is what the colour bar used to provide.
+
+   Both the fixed header and this margin only exist above 851px; below it the
+   header is in normal flow and the margin would open a real gap. */
+@media screen and ( min-width: 851px ) {
+	#mw-content-container {
+		margin-top: 3.75em;
+	}
+}
+
+/* Timeless finishes the content column with a 4px green rule above the footer,
+   left over from a palette this restyle does not use. */
+#mw-content-container {
+	border-bottom: 0;
+}
+
+/* The footer. Timeless pitches its text near-white, because by default it sits
+   on the dark #72777d surround that section 2 just replaced with a near-white
+   canvas -- so as written it renders #ffffff on #f4f5f7, which is 1.09:1 and
+   invisible. Both modes are affected: at night it lands #000000 on #121212. */
+#mw-footer,
+#mw-footer-container {
+	color: var( --a-text-dim );
+}
+
+/* -----------------------------------------------------------------------------
+   3. HEADER
+   -------------------------------------------------------------------------- */
+
+#mw-header-container,
+#mw-header-container.ts-container {
+	background: var( --a-surface );
+	border-bottom: 1px solid var( --a-border );
+	box-shadow: none;
+}
+
+/* #mw-header is .ts-inner, the centred column the header furniture sits in. It
+   anchors the hamburger below, so it has to be a containing block. */
+#mw-header {
+	position: relative;
+}
+
+/* No left padding, so the wordmark centres over the full width of the column
+   and therefore over the Navigation box directly beneath it. It used to be
+   padded clear of the hamburger, which pushed it 23px right of that centre --
+   close enough to look accidental. The hamburger moves out to the column's
+   very edge instead; see below. */
+#p-logo-text {
+	padding-left: 0;
+}
+
+/* The wordmark's colour is left to Timeless, which sets #000 at #p-logo-text a.
+   That is a more specific selector than anything sensible here, and it happens
+   to be the right answer in both modes -- black in day, and the inversion turns
+   it white in night. */
+#p-banner {
+	letter-spacing: 0.01em;
+}
+
+#p-banner:hover {
+	text-decoration: none;
+}
+
+/* Hamburger, built by Timeless.js as
+       <button id="andah-nav-toggle"><span></span></button>
+
+   left: 0, which is the outer edge of the centred column -- about 16px left of
+   the Navigation box, since normal-flow children start 1em in. That offset is
+   deliberate and it is the price of centring the wordmark: the wordmark is
+   182px in a 228px box, so once it is centred there is not room for a 32px
+   button beside it without the two touching. Putting the button just outside
+   the column keeps a clear gap and leaves the wordmark honestly centred. */
+#andah-nav-toggle {
+	position: absolute;
+	top: 0.125rem;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2rem;
+	height: 2rem;
+	padding: 0;
+	border: 1px solid transparent;
+	border-radius: var( --a-radius );
+	background: transparent;
+	color: var( --a-text-dim );
+	cursor: pointer;
+}
+
+#andah-nav-toggle:hover {
+	background: var( --a-hover );
+	color: var( --a-text );
+}
+
+#andah-nav-toggle:focus-visible {
+	outline: 2px solid var( --a-accent );
+	outline-offset: 1px;
+}
+
+/* One bar, plus two more as pseudo-elements. Both are absolutely positioned
+   with no offsets, so they resolve to their static position -- the top of the
+   middle bar -- and the margins push them 6px either side of it. */
+#andah-nav-toggle > span,
+#andah-nav-toggle > span::before,
+#andah-nav-toggle > span::after {
+	display: block;
+	width: 1.125rem;
+	height: 2px;
+	background: currentcolor;
+}
+
+#andah-nav-toggle > span::before,
+#andah-nav-toggle > span::after {
+	position: absolute;
+	content: "";
+}
+
+#andah-nav-toggle > span::before {
+	margin-top: -0.375rem;
+}
+
+#andah-nav-toggle > span::after {
+	margin-top: 0.375rem;
+}
+
+/* Skip links, built by Timeless.js. Hidden until focused, and absolutely
+   positioned so that the focused pill cannot reflow anything: in normal flow
+   it pushes the whole page down by the height of the header row the moment it
+   appears, which is a nasty surprise for the one reader who needs it. */
+#andah-skip {
+	position: absolute;
+	top: 0.125rem;
+	left: 2.5rem;
+	z-index: 1;
+}
+
+#andah-skip a {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset( 50% );
+	white-space: nowrap;
+}
+
+#andah-skip a:focus {
+	position: static;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 0.25rem 0.625rem;
+	overflow: visible;
+	clip-path: none;
+	background: var( --a-surface );
+	border: 1px solid var( --a-accent );
+	border-radius: var( --a-radius );
+	color: var( --a-link );
+	font-size: 0.875rem;
+}
+
+/* Search. */
+#simpleSearch,
+#searchInput {
+	background: var( --a-sunk );
+	border-color: var( --a-border-firm );
+	border-radius: var( --a-radius );
+}
+
+#simpleSearch:focus-within {
+	background: var( --a-surface );
+	border-color: var( --a-accent );
+	box-shadow: inset 0 0 0 1px var( --a-accent );
+}
+
+/* The DarkMode extension's own Dark mode link in the user menu. The Appearance
+   panel owns colour now, and two controls that disagree about Automatic would
+   be worse than one. Keyed on the class Timeless.js sets once the panel is
+   actually on the page, so the link comes back if the script does not run. */
+body.andah-has-appearance #pt-darkmode {
+	display: none;
+}
+
+/* -----------------------------------------------------------------------------
+   4. RAILS
+   -------------------------------------------------------------------------- */
+
+/* The globe. The wordmark in the header already identifies the wiki, and the
+   logo is the single largest thing in the left rail. */
+#p-logo {
+	display: none;
+}
+
+/* Contribute and Share this, dropped so the left rail carries navigation and
+   contents and nothing else.
+
+   Hidden rather than deleted at source: Share this is generated by the
+   ShareThis extension and has no wikitext to delete, so one mechanism for both
+   keeps the decision in one place. Contribute's four entries are still listed
+   in [[MediaWiki:Sidebar]] -- deleting this rule brings them straight back.
+
+   Worth knowing: Help, Community portal, Upload file and Special pages are now
+   unreachable from the sidebar. Nothing else in the chrome links to them. */
+#p-Contribute,
+#p-share-header {
+	display: none;
+}
+
+/* The box. Timeless gives it a 0.2em bottom border and a drop shadow, which at
+   four boxes a column reads as a stack of cards; one hairline all round is
+   quieter and lets the canvas do the separating. */
+#mw-site-navigation .sidebar-chunk,
+#mw-related-navigation .sidebar-chunk {
+	margin: 0 0 0.75rem;
+	padding: 0.75rem 0.875rem 0.25rem;
+	background: var( --a-surface );
+	border: 1px solid var( --a-border );
+	border-width: 1px;
+	border-radius: var( --a-radius );
+	box-shadow: none;
+	line-height: 1.4;
+}
+
+/* Timeless keeps its own left/right margin on the first-level rule above; put
+   the gutter back so the boxes do not touch the article panel. */
+#mw-site-navigation .sidebar-chunk {
+	margin-right: 0;
+}
+
+#mw-related-navigation .sidebar-chunk {
+	margin-left: 0;
+}
+
+/* The visible box title. Timeless hides .sidebar-chunk h2 on desktop -- it is
+   only there to drive the drawer toggle on narrow screens -- and shows the
+   portlet h3 instead, under a 2px rule. Keep that arrangement, hairline it. */
+#mw-site-navigation .sidebar-chunk h3,
+#mw-related-navigation .sidebar-chunk h3,
+#mw-site-navigation .sidebar-chunk label,
+#mw-related-navigation .sidebar-chunk label {
+	margin: 0 0 0.5rem;
+	padding-bottom: 0.375rem;
+	border-bottom: 1px solid var( --a-border );
+	color: var( --a-text );
+	font-size: 0.9375rem;
+	font-weight: 600;
+}
+
+/* The hide/show control in a box heading, built by Timeless.js. Quiet, set on
+   the baseline of the title it sits beside, and pushed to the right edge of
+   the box. Only the two boxes this file creates get one. */
+#mw-site-navigation .sidebar-chunk h3,
+#mw-related-navigation .sidebar-chunk h3 {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.5rem;
+}
+
+.andah-collapse {
+	flex: none;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var( --a-link );
+	font-family: inherit;
+	font-size: 0.8125rem;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.andah-collapse:hover {
+	text-decoration: underline;
+}
+
+.andah-collapse:focus-visible {
+	outline: 2px solid var( --a-accent );
+	outline-offset: 1px;
+}
+
+/* A collapsed box keeps its title but loses the rule under it, so it reads as
+   one closed line rather than an empty frame. */
+.mw-portlet.andah-collapsed > h3 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+#mw-site-navigation .sidebar-chunk .mw-portlet-body,
+#mw-related-navigation .sidebar-chunk .mw-portlet-body,
+#mw-site-navigation .sidebar-chunk .mw-portlet > div,
+#mw-related-navigation .sidebar-chunk .mw-portlet > div {
+	margin-bottom: 1rem;
+}
+
+#mw-site-navigation .sidebar-chunk li,
+#mw-related-navigation .sidebar-chunk li {
+	padding: 0;
+}
+
+#mw-site-navigation .sidebar-chunk li a,
+#mw-related-navigation .sidebar-chunk li a {
+	display: block;
+	margin: 0 -0.375rem;
+	padding: 0.1875rem 0.375rem;
+	border-radius: var( --a-radius );
+	line-height: 1.5;
+}
+
+#mw-site-navigation .sidebar-chunk li a:hover,
+#mw-related-navigation .sidebar-chunk li a:hover {
+	background: var( --a-hover );
+	text-decoration: none;
+}
+
+/* The three columns hug each other and the group centres.
+   Timeless lets the middle column grow into whatever is left, which was fine
+   when it grew without limit. Now that the article panel is capped, that slack
+   has to go somewhere -- and it was collecting BETWEEN the article and the
+   tools rail. Worst on the main page: it has no contents box, so with the site
+   menu hidden the whole left rail goes, and its 243px reappeared as a hole in
+   the middle of the layout. Centring the row puts any leftover outside the
+   columns, as canvas, where it belongs. */
+#mw-content-block {
+	justify-content: flex-start;
+}
+
+/* The article panel takes every pixel the two rails do not, which is what
+   Vector does and is the single change that fixes the most here.
+
+   It used to be capped at 48rem + 3.8rem = 828.8px. Three faults came out of
+   that one line. The panel was 828.8px inside a 1596px shell, so 311px of
+   canvas sat dead, 155px down each side, and the three columns floated in the
+   middle instead of reading as one layout. The text column was 766px against
+   Wikipedia's 948px. And the Width preference did nothing whatever: releasing
+   --a-layout-max widened the shell from 1596px to 1970px while the panel,
+   capped, stayed at 828.8px -- measured at both settings, 766px of text either
+   way.
+
+   Flexing instead: at the 1596px Standard shell the rails take 243.2 + 212.8,
+   leaving a 1140px panel and 1077px of text; Wide releases the shell and the
+   panel follows it out. */
+#mw-content-wrapper {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+/* Rail widths, swapped. Timeless gives the left rail 14em and the right 16em,
+   which was fine when the left held five site links -- but it now carries the
+   article's section titles, and the wider column carries "Cite this page".
+   With sections expanded, 9 of 53 Contents rows on [[1764 FLLA World Cup]]
+   wrapped onto two lines while the tool rail sat half empty.
+
+   Only above 1340px, where both rails are columns. The header pieces move with
+   them so the wordmark and the search field stay aligned to the columns below;
+   the article keeps exactly the width it had, since the two rails simply trade
+   30px. */
+/* The numbers are Wikipedia's, not ours. Its left sidebar is 324px and its
+   reading column 948px, measured at a 1985px window; 20.25rem is that 324px
+   and the right rail then takes what is left over so the column lands on 948
+   too. Everything still fills the shell, so no canvas is stranded.
+
+   Letting the panel simply take all the slack -- rails at 16em/14em, column at
+   1047px -- put 160 characters on a line against Wikipedia's 128. That is a
+   fifth more text per line than the thing it is meant to match, and read as
+   about a word too wide at each edge, which is exactly what it was.
+
+   In rem rather than em so the rails and the header pieces above them resolve
+   against the same 16px root. They are the same widths deliberately: the
+   wordmark sits over the left rail and the user menu over the right, and an em
+   here would silently drift the moment either font-size changed. */
+@media screen and ( min-width: 1340px ) {
+	#mw-content-block #mw-site-navigation {
+		flex-basis: 20.25rem;
+	}
+
+	#mw-content-block #mw-related-navigation {
+		flex-basis: 14.4rem;
+	}
+
+	#mw-header #p-logo-text {
+		min-width: 20.25rem;
+		max-width: 20.25rem;
+	}
+
+	#mw-header #user-tools {
+		min-width: 14.4rem;
+	}
+}
+
+/* The LEFT rail follows the reader; the right one does not.
+   Left holds navigation, contents and Appearance -- things you reach for from
+   anywhere in an article, so they stay pinned under the header. Right holds
+   Page tools and Wiki tools, which belong to the page as a whole, so they
+   scroll away with it rather than taking up a column for the whole descent.
+
+   Timeless already lays #mw-content-block out as a flex row, so the rail is a
+   flex item and sticky works on it without further help.
+
+   The offsets are em, not rem, on purpose: Timeless lays the whole page out in
+   em against a 15.2px base, so a rem value here drifts. In em the columns keep
+   their relationship to the header for a reader who has set a larger default
+   font size too.
+
+   No overscroll-behavior. Containing it sounds tidy but traps the wheel: on a
+   page whose Contents overflows the rail, a reader with the pointer over the
+   rail finds the page stops scrolling once the rail hits its end, and those
+   are precisely the pages where the rail matters most. */
+#mw-site-navigation {
+	position: sticky;
+	top: 3.75em;
+	align-self: flex-start;
+	max-height: calc( 100vh - 4.75em );
+	overflow-x: hidden;
+	overflow-y: auto;
+	scrollbar-width: thin;
+}
+
+/* The right rail itself does NOT follow the reader: Page tools and Wiki tools
+   belong to the page as a whole, so they scroll away with it rather than
+   holding a column for the whole descent. */
+#mw-related-navigation {
+	position: static;
+	max-height: none;
+	overflow: visible;
+}
+
+/* Appearance is the exception, and is pinned on its own rather than by pinning
+   the rail around it. It is a reading control, wanted at any point in an
+   article, and it is the only way to reach dark mode now that the extension's
+   own menu link is hidden.
+
+   It works by leaning on the rail being a flex item that stretches to the full
+   height of the article: that is the tall containing block the box sticks
+   inside. It sits LAST, under Page tools and Wiki tools, so those scroll away
+   off the top and this pins once it reaches the header, with nothing left
+   below to slide behind it. Putting it first instead looks tidier at rest and
+   is worse in motion: the two boxes underneath scroll up and disappear behind
+   its background, which reads as a rendering fault.
+
+   Only above 1340px, and that limit is real rather than cautious. Below it
+   Timeless stops using two columns and stacks both rails into one, where the
+   right rail is a few hundred pixels tall instead of ten thousand -- so there
+   is nothing to stick inside, and pinning this box there would only fight the
+   left rail, which is already pinned in the very same column. In that range it
+   sits at the top of the stacked sidebar and scrolls with it. */
+@media screen and ( min-width: 1340px ) {
+	#mw-related-navigation {
+		align-self: stretch;
+	}
+
+	#mw-related-navigation #andah-appearance {
+		position: sticky;
+		top: 3.75em;
+		z-index: 1;
+	}
+}
+
+/* Collapsed by the hamburger -- the site menu only, not the whole rail.
+   The button is labelled "Hide navigation" and Contents is not navigation: a
+   click used to take a 53-row table of contents away with the five site links,
+   on exactly the long pages where it is most wanted. The last rule is the
+   fallback: on a page with no Contents box there is nothing left in the rail
+   worth keeping, so the whole column goes and the article takes the width. */
+@media screen and ( min-width: 851px ) {
+	html.andah-nav-clientpref-hidden #mw-site-navigation {
+		display: block;
+	}
+
+	html.andah-nav-clientpref-hidden #mw-site-navigation #site-navigation {
+		display: none;
+	}
+
+	html.andah-nav-clientpref-hidden body:not( .andah-has-sidebar-toc ) #mw-site-navigation {
+		display: none;
+	}
+}
+
+/* -----------------------------------------------------------------------------
+   5. CONTENTS  (the article TOC, lifted into the left rail)
+   --------------------------------------------------------------------------
+   Timeless.js copies the links out of #toc into #andah-toc and leaves the
+   original where it is. Hiding the original here rather than removing it in JS
+   keeps the #toc anchor resolvable, and means a failed script degrades to the
+   ordinary inline TOC instead of no TOC at all. */
+
+.andah-has-sidebar-toc #mw-content-text .toc,
+.andah-has-sidebar-toc #mw-content-text #toc {
+	display: none;
+}
+
+#mw-site-navigation #andah-toc ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#mw-site-navigation #andah-toc li {
+	margin: 0;
+	padding: 0;
+}
+
+/* The row: chevron, then link. Section numbers are dropped -- they cost a
+   column of digits at this width, and the nesting already carries the depth. */
+#mw-site-navigation #andah-toc .andah-toc-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 0;
+}
+
+#mw-site-navigation #andah-toc .andah-toc-row > a {
+	flex: 1;
+	margin: 0;
+	padding: 0.1875rem 0.375rem;
+	border-radius: var( --a-radius );
+	color: var( --a-link );
+	font-size: 0.875rem;
+	line-height: 1.4;
+}
+
+#mw-site-navigation #andah-toc .andah-toc-row > a:hover {
+	background: var( --a-hover );
+	text-decoration: none;
+}
+
+/* The section currently under the reader. */
+#mw-site-navigation #andah-toc .andah-toc-current > a {
+	background: var( --a-hover );
+	color: var( --a-text );
+	font-weight: 600;
+}
+
+/* Expand/collapse for a section with children. Drawn as a rotated corner, so
+   it costs no image request and animates cleanly. 1.5rem square is the 24px
+   minimum target; it was 18 wide, which is a small thing to hit repeatedly. */
+#mw-site-navigation #andah-toc .andah-toc-toggle {
+	flex: none;
+	width: 1.5rem;
+	height: 1.5rem;
+	padding: 0;
+	border: 0;
+	border-radius: var( --a-radius );
+	background: transparent;
+	color: var( --a-text-dim );
+	line-height: 1;
+	cursor: pointer;
+}
+
+/* It sits 2px from a link that has both a hover and a focus state, and had
+   neither of its own. */
+#mw-site-navigation #andah-toc .andah-toc-toggle:hover {
+	background: var( --a-hover );
+	color: var( --a-text );
+}
+
+#mw-site-navigation #andah-toc .andah-toc-toggle:focus-visible {
+	outline: 2px solid var( --a-accent );
+	outline-offset: 1px;
+}
+
+#mw-site-navigation #andah-toc .andah-toc-toggle::before {
+	display: block;
+	width: 0.4375rem;
+	height: 0.4375rem;
+	margin: 0.125rem auto 0;
+	border: solid currentcolor;
+	border-width: 0 1.5px 1.5px 0;
+	content: "";
+	transform: rotate( -45deg );
+	transition: transform 100ms ease;
+}
+
+#mw-site-navigation #andah-toc .andah-toc-toggle[ aria-expanded="true" ]::before {
+	margin-top: 0;
+	transform: rotate( 45deg );
+}
+
+/* A row with no children still needs the chevron's width, or its text will not
+   line up with the rows that have one. Must match the toggle's width exactly:
+   at 1.125rem against a 1.5rem toggle, leaf links sat 2px left of parent links
+   all the way down the column. */
+#mw-site-navigation #andah-toc .andah-toc-row.andah-toc-leaf {
+	padding-left: 1.5rem;
+}
+
+#mw-site-navigation #andah-toc .andah-toc-list ul {
+	margin-left: 0.75rem;
+}
+
+/* -----------------------------------------------------------------------------
+   6. APPEARANCE PANEL
+   -------------------------------------------------------------------------- */
+
+#mw-related-navigation #andah-appearance .andah-pref-group {
+	margin: 0 0 0.75rem;
+	padding: 0;
+	border: 0;
+}
+
+#mw-related-navigation #andah-appearance .andah-pref-group > legend {
+	margin-bottom: 0.25rem;
+	padding: 0;
+	color: var( --a-text-dim );
+	font-size: 0.8125rem;
+	font-weight: 600;
+}
+
+/* Overriding the rail's own label rule, which is a box title (block, bold,
+   ruled off) and not what a radio row wants. */
+#mw-related-navigation #andah-appearance .andah-pref-option {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 0 -0.375rem;
+	padding: 0.1875rem 0.375rem;
+	border: 0;
+	border-radius: var( --a-radius );
+	color: var( --a-text );
+	font-size: 0.875rem;
+	font-weight: normal;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+#mw-related-navigation #andah-appearance .andah-pref-option:hover {
+	background: var( --a-hover );
+}
+
+/* Custom radio: a ring that becomes a ring around a dot by growing its own
+   border inwards. Cheaper than a pseudo-element, and it picks the accent
+   colour straight out of the token block. */
+/* --a-control, not --a-border-firm: an unchecked ring drawn in the hairline
+   colour is 1.61:1 against the box by day and 1.98:1 at night, where a control
+   boundary wants 3:1, and on a hovered row its white fill sat on the hover
+   fill at 1.42:1 -- so the disc lost its edge exactly as the reader aimed. */
+#mw-related-navigation #andah-appearance input[ type="radio" ] {
+	appearance: none;
+	-webkit-appearance: none;
+	flex: none;
+	width: 0.875rem;
+	height: 0.875rem;
+	margin: 0;
+	/* Longhands rather than the border shorthand, for legibility.
+	   KNOWN ODDITY: in testing, this ring kept computing #72777d under night
+	   mode even though --a-control resolves to #7f7f7f on the element itself,
+	   and an inline border-top-color would not move it either, which ought to
+	   be impossible. The measurement rig is the likelier culprit than the
+	   cascade. It does not matter in practice -- #72777d inverts to #84898f,
+	   which is 4.83:1 on the panel against the 3:1 a control boundary needs, so
+	   both modes clear the bar either way. Worth another look with real
+	   devtools before anyone builds on this token. */
+	border-width: 1px;
+	border-style: solid;
+	border-color: var( --a-control );
+	border-radius: 50%;
+	background: var( --a-surface );
+	cursor: pointer;
+	transition: border-width 100ms ease, border-color 100ms ease;
+}
+
+#mw-related-navigation #andah-appearance input[ type="radio" ]:hover {
+	border-color: var( --a-accent );
+}
+
+#mw-related-navigation #andah-appearance input[ type="radio" ]:checked {
+	border-width: 4px;
+	border-color: var( --a-accent );
+}
+
+#mw-related-navigation #andah-appearance input[ type="radio" ]:focus-visible {
+	outline: 2px solid var( --a-accent );
+	outline-offset: 1px;
+}
+
+/* -----------------------------------------------------------------------------
+   7. ARTICLE PANEL
+   --------------------------------------------------------------------------
+   Body typography is left to Timeless, which already sets serif headings under
+   a rule. Only the surfaces and the link palette are restated here, so that
+   both follow the tokens into night mode. */
+
+#mw-content {
+	background: var( --a-surface );
+	border: 1px solid var( --a-border );
+	border-radius: var( --a-radius );
+	box-shadow: none;
+}
+
+#content.mw-body {
+	border-color: var( --a-border );
+}
+
+/* The rule under the title is Timeless's one loud piece of colour, at 4px.
+   Keep it, thinner.
+
+   1.8rem is 28.8px, which is Wikipedia's h1 exactly, and like Wikipedia's it
+   does NOT follow the Text setting: measured there at Small, Standard and
+   Large, the title is 28.8px in all three. Section headings do scale, being
+   sized in em off the body, so at Large an h2 reaches 30px and edges past the
+   title. That happens on Wikipedia too and is left alone here for the same
+   reason -- the title is already marked out by the rule beneath it, and a
+   heading that grows with the reader's chosen size is worth more than a
+   ranking that only holds at one setting.
+
+   A previous version scaled the title to keep it clear of the h2s. At the old
+   20px Standard that put it at 38px, a third larger than the reference, which
+   is most of why the page read as magnified. */
+#firstHeading,
+.firstHeading {
+	padding-bottom: 0.15em;
+	border-bottom: 2px solid var( --a-accent );
+	font-size: 1.8rem;
+}
+
+#siteSub {
+	color: var( --a-text-dim );
+}
+
+.mw-body .mw-heading2,
+.mw-body h2 {
+	border-bottom-color: var( --a-border-firm );
+}
+
+/* The heading ladder. Timeless sets h1 to h4 in Linux Libertine at weight 400
+   and 30.4 / 27.4 / 24.3 / 21.3px -- a step of 1.11 between levels, which is
+   not enough to rank them. On a page like [[1764 FLLA World Cup]] that leaves
+   a run of seven h4s sitting 3px below the h3 heading them, all in the same
+   face, and a section head that looks almost exactly like the page title once
+   you have scrolled past it.
+
+   The serif stays where it earns its keep, on the title and the section heads.
+   Below that the headings drop to the body sans, because at these sizes a
+   change of face separates levels far more cleanly than another 2px would. */
+/* The spacing is Wikipedia's, measured rather than guessed: on an article
+   there, an h2 carries 6px of margin either side and sits 24px on a 33px line,
+   so a section head reads as attached to the section it opens instead of
+   floating in a band of its own. Timeless left 22px above every h2, which is
+   what made this feel loose beside Wikipedia. */
+#mw-content-text .mw-heading2 {
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+	border-bottom-width: 1px;
+	font-size: 1.5em;
+	line-height: 1.375;
+}
+
+#mw-content-text .mw-heading3 {
+	margin-top: 0.6em;
+	margin-bottom: 0.2em;
+	font-size: 1.2em;
+}
+
+#mw-content-text .mw-heading4 {
+	font-size: 1em;
+}
+
+#mw-content-text .mw-heading5,
+#mw-content-text .mw-heading6 {
+	font-size: 1em;
+}
+
+/* Both the wrapper and the heading inside it: MediaWiki 1.45 wraps every
+   heading in a .mw-heading div and the skin styles both, so setting only one
+   leaves the other still serif. */
+#mw-content-text .mw-heading3,
+#mw-content-text .mw-heading3 > h3,
+#mw-content-text .mw-heading5,
+#mw-content-text .mw-heading5 > h5,
+#mw-content-text .mw-heading6,
+#mw-content-text .mw-heading6 > h6 {
+	font-family: inherit;
+	font-weight: 600;
+}
+
+/* h4 lands at body size, so it needs the extra weight to stay a heading. */
+#mw-content-text .mw-heading4,
+#mw-content-text .mw-heading4 > h4 {
+	font-family: inherit;
+	font-weight: 700;
+}
+
+/* Links. Two stylesheets already hardcode these -- core, at a:link, and the
+   DarkMode extension, at .skin-theme-clientpref-night a:visited and
+   .skin-theme-clientpref-night a.new. Both outrank a bare `a` selector, so the
+   night-mode variants have to be spelled out here even though the colour they
+   resolve to is the same var() in every case; the tokens still do the actual
+   theming, this is only about winning the cascade. */
+html a:link,
+html.skin-theme-clientpref-night a:link,
+html.client-darkmode a:link {
+	color: var( --a-link );
+}
+
+html a:visited,
+html.skin-theme-clientpref-night a:visited,
+html.client-darkmode a:visited {
+	color: var( --a-link-visited );
+}
+
+html a.new:link,
+html a.new:visited,
+html.skin-theme-clientpref-night a.new:link,
+html.skin-theme-clientpref-night a.new:visited,
+html.client-darkmode a.new:link,
+html.client-darkmode a.new:visited {
+	color: var( --a-link-new );
+}
+
+/* Tabs and page actions above the article.
+
+   overflow: hidden is what makes the rule land under the tabs. Every child of
+   this box floats, so it collapses to 1px tall and draws its hairline 26px
+   ABOVE the tabs it is supposed to underline, leaving a 59px dead band before
+   the first paragraph. Containing the floats takes the box to 45.8px and the
+   gap to 15.2px. Not display: flow-root, which is the usual answer: it would
+   out-rank Timeless's own print rule and drag the whole tab row onto paper. */
+#mw-page-header-links {
+	overflow: hidden;
+	border-bottom: 1px solid var( --a-border );
+}
+
+/* The underline belongs to the li. Timeless draws it there and zeroes the
+   anchor's border, so colouring the anchor did nothing at all and the tab kept
+   its own hardcoded #3366cc -- which matches by day, but at night renders
+   #6da0ff against the title rule's #6f9fd8, putting two different blues on the
+   page, one of them outside the token system entirely. */
+#mw-page-header-links li.selected {
+	border-bottom-color: var( --a-accent );
+}
+
+#mw-page-header-links li.selected a {
+	font-weight: 600;
+}
+
+#mw-page-header-links li:hover {
+	border-bottom-color: var( --a-control );
+}
+
+/* Footer links, for the same reason as the footer text above. */
+#mw-footer-container a:link {
+	color: var( --a-link );
+}
+
+#mw-footer-container a:visited {
+	color: var( --a-link-visited );
+}
+
+/* -----------------------------------------------------------------------------
+   8. APPEARANCE PREFERENCES
+   --------------------------------------------------------------------------
+   Timeless.js writes one class per preference onto <html> and these rules do
+   the rest, so the panel never touches an inline style. */
+
+/* Text. Wikipedia's own ladder, read off en.wikipedia.org rather than guessed:
+   14 / 16 / 20px, with Standard at 16px. Scoped to .mw-body-content so it moves
+   the article and nothing in the chrome.
+
+   An earlier version of this file ran 18 / 20 / 22px, on the reasoning that
+   anything at the reference size had been reported as too small. That reading
+   was wrong. What was too small was the amount of text per line, not the
+   letters: the column was 766px where Wikipedia's is 948px, so at 20px a line
+   here carried 90 characters against Wikipedia's 128. Widening the column is
+   the fix, and it is below; the type goes back to the reference size.
+
+   Line height 1.625 matches too: 26px on 16px text. Templates that set their
+   own, infoboxes especially, still win inside their own markup. */
+html.andah-text-clientpref-small {
+	--a-text-scale: 0.875;
+}
+
+html.andah-text-clientpref-standard {
+	--a-text-scale: 1;
+}
+
+html.andah-text-clientpref-large {
+	--a-text-scale: 1.25;
+}
+
+.mw-body-content {
+	font-size: calc( 1rem * var( --a-text-scale ) );
+	line-height: 1.625;
+}
+
+/* Width. Standard caps the whole layout at 1596px, which is Wikipedia's cap to
+   the pixel; Wide releases it and the page runs to the window, again as
+   Wikipedia's does. The cap is on the SHELL, not on the prose: everything
+   inside -- the article panel, the paragraphs, the floating infobox -- shares
+   the panel's edges, so widening the shell widens the reading column with it
+   and no band of empty white can open up beside anything.
+
+   This only became true once the panel stopped being capped; see
+   #mw-content-wrapper in section 7. Until then Wide moved the shell and
+   nothing else, and reported as doing nothing at all -- correctly.
+
+   Measured at a 1985px window: Standard gives a 1596px shell and 1077px of
+   text, Wide a 1970px shell and 1451px. Wikipedia at the same window gives 948
+   and 1322; ours run wider because our rails are narrower than its sidebars,
+   243px and 213px against 324px and 272px. */
+
+html.andah-width-clientpref-standard {
+	--a-layout-max: 1596px;
+}
+
+html.andah-width-clientpref-wide {
+	--a-layout-max: none;
+}
+
+#mw-header.ts-inner,
+#mw-content-block.ts-inner,
+#mw-footer.ts-inner {
+	max-width: var( --a-layout-max );
+}
+
+/* The infobox does NOT follow the Text setting.
+   Common.css sizes it at 88% of its parent, so the Text control used to drag
+   it along with the prose. 0.88rem is that same 88%, but resolved against the
+   root instead of the parent, so at Standard it is the identical 14.08px --
+   which is also Wikipedia's infobox size exactly -- and at Small and Large it
+   simply stays there.
+
+   Deliberately excluded from the Text control, on request. Worth knowing if
+   accessibility comes up later: a reader who sets Large gets larger prose but
+   an infobox that stays where it is. Wikipedia does scale its own, at 0.88em
+   of the body; one character here, rem to em, would match that. */
+.mw-parser-output .infobox.infobox {
+	font-size: 0.88rem;
+}
+
+.mw-parser-output > blockquote {
+	box-sizing: border-box;
+}
+
+/* -----------------------------------------------------------------------------
+   9. CATEGORIES
+   --------------------------------------------------------------------------
+   Timeless puts categories in the right rail, where on a page like [[Dahe]]
+   they run to thirty entries and dwarf everything else in the column.
+
+   No JavaScript is involved: Timeless already renders the ordinary #catlinks
+   bar under the article and hides it whenever the rail box is present, so this
+   is only a swap of which of the two is shown. */
+
+#catlinks-sidebar {
+	display: none;
+}
+
+/* The 1.9rem side padding is not arbitrary: it matches #mw-content's own
+   30.4px, so the chips and the label line up exactly with the article text
+   above instead of starting 16.4px to its left. The outline is promoted to the
+   firmer border colour as well, because the fill is 1.02:1 against the canvas
+   and actually lighter than it, so the box was drawn by nothing at all. */
+#content-bottom-stuff #catlinks {
+	display: block;
+	margin: 1.25rem 0 0;
+	padding: 0.625rem 1.9rem;
+	background: var( --a-sunk );
+	border: 1px solid var( --a-border-firm );
+	border-radius: var( --a-radius );
+	font-size: 0.875rem;
+}
+
+/* "Categories:" is a link to Special:Categories, so left alone it reads as the
+   thirty-first category rather than as the label for the other thirty. */
+#content-bottom-stuff #catlinks .mw-normal-catlinks > a {
+	color: var( --a-text-dim );
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#content-bottom-stuff #catlinks ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content-bottom-stuff #catlinks li {
+	display: inline-block;
+	margin: 0.125rem 0;
+	padding: 0 0.5em;
+	border-left: 1px solid var( --a-border );
+	line-height: 1.4;
+}
+
+#content-bottom-stuff #catlinks li:first-child {
+	padding-left: 0;
+	border-left: 0;
+}
+
+/* -----------------------------------------------------------------------------
+   10. NIGHT MODE
+   --------------------------------------------------------------------------
+   The DarkMode extension ships no night palette. It applies
+   `filter: invert(1) hue-rotate(180deg)` to <html> and then re-inverts media,
+   so every colour on the page simply flips.
+
+   That is what section 1 is for. Overriding the tokens here restyles the whole
+   skin in one block -- but each value below is authored as its PRE-INVERSE:
+   the value the filter consumes, not the value anyone sees. The comment on
+   each line is what actually renders.
+
+   Every grey target below is a pure grey, and hue-rotate leaves greys
+   untouched, so the arithmetic is just:
+
+       authored = 255 - target
+
+   The link colours are not grey; those were tuned by eye against the rendered
+   result. Do not "correct" any of these in the editor -- they are meant to
+   look wrong there and right in the browser.
+
+   Base text is NOT left to the filter. Core's #202122 flips to #dddedf, which
+   is 12.65:1 on the panel -- fine by the numbers, but it reads as grey rather
+   than as text, and it is not even consistent: Common.css sets
+   .infobox { color: black }, which flips to pure #ffffff at 17:1, so an
+   article and the infobox beside it are two visibly different colours. Both
+   are pulled onto one value here, #f0f0f0 at 14.7:1. Off-white rather than
+   white on purpose: pure white on a near-black panel haloes at body sizes. */
+
+html.skin-theme-clientpref-night,
+html.client-darkmode {
+	--a-canvas:       #f4f4f4;  /* renders #0b0b0b */
+	--a-surface:      #e3e3e3;  /* renders #1c1c1c */
+	/* A step ABOVE surface rather than equal to it. A popup drawn on the
+	   surface colour sits on exactly the infobox it is covering, so it
+	   reads as a hole punched in the page instead of as something in
+	   front of it. Only night needs the lift; in day the border and the
+	   shadow do that work on their own. */
+	--a-raised:       #d1d1d1;  /* renders #2e2e2e */
+	--a-sunk:         #d9d9d9;  /* renders #262626 */
+	--a-thead:        #cdcdcd;  /* renders #323232 */
+	--a-hover:        #cdcdcd;  /* renders #323232 */
+	--a-border:       #c7c7c7;  /* renders #383838 */
+	--a-border-firm:  #b3b3b3;  /* renders #4c4c4c */
+	--a-control:      #7f7f7f;  /* renders #808080 */
+	--a-text:         #0f0f0f;  /* renders #f0f0f0 */
+	--a-text-dim:     #6e6e6e;  /* renders #919191 */
+	--a-link:         #3c6ca5;  /* renders #6f9fd8 */
+	--a-link-visited: #765c9d;  /* renders #a98fd0 */
+	--a-link-new:     #bc6363;  /* renders #cf7676 */
+	--a-accent:       #3c6ca5;  /* renders #6f9fd8 */
+}
+
+/* Making the text token stick. Core pins #202122 on .mw-body and Common.css
+   pins black on .infobox, both at one class, so a bare selector loses the tie;
+   these are pitched above both. Anything that sets its own colour -- links,
+   the dimmed captions, the red links -- is more specific still and unaffected,
+   which is the point: only the default inherited colour moves. */
+html.skin-theme-clientpref-night .mw-body,
+html.client-darkmode .mw-body,
+html.skin-theme-clientpref-night .mw-body-content,
+html.client-darkmode .mw-body-content,
+html.skin-theme-clientpref-night .mw-parser-output,
+html.client-darkmode .mw-parser-output {
+	color: var( --a-text );
+}
+
+/* Infoboxes and wikitables both set a colour of their own -- black in both
+   cases, which flips to pure white and leaves them brighter than the article
+   they sit in. Pulled onto the same value; cells inherit from the table, so
+   only the table itself needs saying. Cells with a colour of their own, such
+   as team strips, still keep it. */
+html.skin-theme-clientpref-night .mw-parser-output .infobox.infobox,
+html.client-darkmode .mw-parser-output .infobox.infobox,
+html.skin-theme-clientpref-night .mw-parser-output .wikitable.wikitable,
+html.client-darkmode .mw-parser-output .wikitable.wikitable {
+	color: var( --a-text );
+}
+
+/* The search field. The extension pins it to the same flat #ddd as everything
+   else, at #simpleSearch under a class on <html>, which outranks the plain ID
+   rule in section 3. */
+html.skin-theme-clientpref-night #simpleSearch,
+html.client-darkmode #simpleSearch,
+html.skin-theme-clientpref-night #searchInput,
+html.client-darkmode #searchInput {
+	background-color: var( --a-sunk );
+	border-color: var( --a-border-firm );
+}
+
+/* Content furniture the templates own: infoboxes, tables, thumbnails, navboxes.
+   The extension's own defaults put every one of these on a flat #ddd, which
+   collapses them into a single slab with the page behind them.
+
+   The rule these follow is: night mirrors the STRUCTURE of day -- which
+   surfaces are tinted relative to which -- and not day's exact deltas. In
+   daylight an infobox is #f8f9fa on a #fff panel, a difference of about one
+   per cent that the eye reads as "a box". Inverted, a delta that small
+   disappears entirely, so the box is given a full step instead. */
+html.skin-theme-clientpref-night table,
+html.client-darkmode table,
+html.skin-theme-clientpref-night .infobox,
+html.client-darkmode .infobox,
+html.skin-theme-clientpref-night .wikitable,
+html.client-darkmode .wikitable,
+html.skin-theme-clientpref-night .toc,
+html.client-darkmode .toc,
+html.skin-theme-clientpref-night .thumbinner,
+html.client-darkmode .thumbinner,
+html.skin-theme-clientpref-night table.toccolours,
+html.client-darkmode table.toccolours {
+	background-color: var( --a-sunk );
+	border-color: var( --a-border );
+}
+
+/* Table header cells, and ONLY table header cells.
+   Not .infobox th. Every cell in an infobox -- the title, the section headers
+   like Establishment, and the whole left-hand label column -- is transparent
+   in daylight, so tinting them here invents a band of colour that exists in
+   night mode and nowhere else. A wikitable's th genuinely is tinted (#eaecf0),
+   so it genuinely gets one. */
+html.skin-theme-clientpref-night .wikitable > * > tr > th,
+html.client-darkmode .wikitable > * > tr > th {
+	background-color: var( --a-thead );
+	border-color: var( --a-border );
+}
+
+/* Cell borders, both kinds, in both sorts of table.
+   Miss any one of these and that side of the line keeps the template's own
+   #a2a9b1, which inverts to a warm #5d564e -- so a single horizontal rule ends
+   up rendering in two different colours, dark across the label column and
+   light across the data column.
+
+   The selectors below are long on purpose. Infobox TemplateStyles are injected
+   into the body, AFTER this file, so they win every tie, and the country
+   infobox reaches four classes deep:
+
+       .mw-parser-output .ib-country .mergedbottomrow .infobox-label
+
+   Hence .mw-parser-output, and hence .infobox written twice. Repeating a class
+   is the ordinary way to buy specificity: it takes these rules to five classes
+   and wins outright. Colour only, never width -- the merged-row rules switch
+   borders off to join cells vertically, and that structure has to survive.
+
+   !important would be the lazy way to win, and is deliberately not used. It
+   would also beat the inline style attributes these templates rely on, and
+   flatten borders that templates colour on purpose, such as team strips. */
+html.skin-theme-clientpref-night .mw-parser-output .infobox.infobox th,
+html.client-darkmode .mw-parser-output .infobox.infobox th,
+html.skin-theme-clientpref-night .mw-parser-output .infobox.infobox td,
+html.client-darkmode .mw-parser-output .infobox.infobox td,
+html.skin-theme-clientpref-night .mw-parser-output .wikitable.wikitable > * > tr > th,
+html.client-darkmode .mw-parser-output .wikitable.wikitable > * > tr > th,
+html.skin-theme-clientpref-night .mw-parser-output .wikitable.wikitable > * > tr > td,
+html.client-darkmode .mw-parser-output .wikitable.wikitable > * > tr > td {
+	border-color: var( --a-border );
+}
+
+/* -----------------------------------------------------------------------------
+   11. NARROW SCREENS
+   --------------------------------------------------------------------------
+   Below 851px the rails stack above the article, where sticky positioning and
+   a viewport-height cap would strand them. Between 851 and 1339 they are still
+   columns, so Contents can and should be pinned there too. */
+
+/* Contents follows the reader on a laptop. Timeless pins both rails in place
+   below 1340px, which meant that on [[1764 FLLA World Cup]] the Contents box
+   scrolled out of sight after 887px of a 22,000px page: on screen for 4% of
+   the article, while the script went on marking a current section nobody could
+   see.
+
+   The z-index and the backgrounds are the price. In this range the two rails
+   can pass over one another, so each needs an opaque ground of its own, and
+   the right rail is put on top. In practice that means Contents is briefly
+   covered while the right rail scrolls past, for roughly the first screen and
+   a half, and is then pinned for the rest of the article. */
+@media screen and ( min-width: 1100px ) and ( max-width: 1339px ) {
+	#mw-site-navigation {
+		position: sticky;
+		top: 3.75em;
+		max-height: calc( 100vh - 4.75em );
+		overflow-y: auto;
+		background: var( --a-canvas );
+		z-index: 2;
+	}
+
+	#mw-related-navigation {
+		position: relative;
+		z-index: 3;
+		background: var( --a-canvas );
+	}
+}
+
+/* 1100px is the real floor for any of this. Below it Timeless stops laying the
+   rails out as columns beside the article and stacks them underneath it, where
+   sticky positioning and a viewport-height cap do nothing except risk clipping
+   a box that is now sitting in normal flow at the foot of the page. */
+@media screen and ( max-width: 1099px ) {
+	#mw-site-navigation,
+	#mw-related-navigation {
+		position: static;
+		max-height: none;
+		overflow: visible;
+	}
+
+	/* Once the rails are stacked under the article, a contents box goes with
+	   them -- to the very foot of the page, thousands of pixels past the
+	   article it indexes, while the inline one it replaced stays hidden. So
+	   below 1100px the sidebar version stands down and Timeless's own inline
+	   TOC comes back, in the one place a reader will actually look for it. */
+	#andah-toc {
+		display: none;
+	}
+
+	.andah-has-sidebar-toc #mw-content-text .toc,
+	.andah-has-sidebar-toc #mw-content-text #toc {
+		display: block;
+	}
+
+	/* Appearance renders as an ordinary titled block down here rather than as
+	   one of Timeless's icon-only drawer buttons, which it has no icon for. It
+	   has to stay reachable: this panel is the only colour control on the page
+	   once the extension's own menu link is hidden.
+
+	   The !important is answering one. Between 851 and 1099 the skin carries
+	   `.sidebar-inner, #p-logo { display: none !important }` to collapse the
+	   rails into drawers, and without matching it this panel is not merely
+	   collapsed but invisible, with no way to open it. */
+	#mw-related-navigation #andah-appearance > h2 {
+		display: none;
+	}
+
+	#mw-related-navigation #andah-appearance .sidebar-inner {
+		display: block !important;
+		position: static;
+	}
+}
+
+@media screen and ( max-width: 850px ) {
+	/* Timeless drives its own drawer menus at this width off the same rail
+	   markup, and a hamburger that hides that markup would fight them. */
+	#andah-nav-toggle {
+		display: none;
+	}
+
+	html.andah-nav-clientpref-hidden #mw-site-navigation,
+	html.andah-nav-clientpref-hidden #mw-site-navigation #site-navigation {
+		display: block;
+	}
+
+	/* The category strip drops back to the narrow gutter the article uses here,
+	   or it would indent 30px against a panel that no longer has the room. */
+	#content-bottom-stuff #catlinks {
+		padding-right: 0.4275rem;
+		padding-left: 0.4275rem;
+	}
+
+	#p-logo-text {
+		padding-left: 0;
+	}
+
+	/* The contents and Appearance fallbacks used to live here. They now sit in
+	   the 1099px block above, because the thing that makes them necessary --
+	   the rails ceasing to be columns -- starts at 1100, not 850. */
+}
+
+/* -----------------------------------------------------------------------------
+   12. PRINT
+   -------------------------------------------------------------------------- */
+
+@media print {
+	#andah-nav-toggle,
+	#andah-toc,
+	#andah-appearance {
+		display: none;
+	}
+
+	#mw-content {
+		border: 0;
+	}
 }

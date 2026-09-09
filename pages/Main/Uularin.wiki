@@ -50,20 +50,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 41.9
 | population_density_rank = 100th
-| GDP_PPP                = {{increase}} {{lahn}}82.17 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}657.36 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 98th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}16,429
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}131,432
 | GDP_PPP_per_capita_rank = 69th
-| GDP_nominal            = {{increase}} {{lahn}}36.52<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}292.176 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/tai/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 98th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}7,302
+| GDP_nominal_per_capita = {{increase}} {{lahn}}58,416
 | GDP_nominal_per_capita_rank = 79th
 | HDI_year               = 1765
-| HDI                    = 0.773
+| HDI                    = 0.741
 | HDI_change             = increase
-| HDI_rank               = 80th
+| HDI_rank               = 79th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Yanden]] (_) (YAN)
 | time_zone              = SUU +1 (Standard Uularini Time)

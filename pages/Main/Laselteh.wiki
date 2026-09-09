@@ -18,21 +18,23 @@
 | religion_ref           = <ref>{{cite web|url=https://www.gov.las/1765/caX3a/CENSUS.PDF |title=Population by religious community – 1763 |publisher=[[Census Laselteh]] }}</ref>
 | demonym                = Laseltshen
 | government_type        = Unitary constitutional monarchy
-| leader_title1          = High Minister
+| leader_title1          = Monarch
 | leader_name1           = N/a
-| leader_title2          = Low Minister
+| leader_title2          = High Minister
 | leader_name2           = N/a
+| leader_title3          = Low Minister
+| leader_name3           = N/a
 | legislature            = Union of Laselteh
 | upper_house            = National Assembly
 | lower_house            = Lainar of the People
-| sovereignty_type       = Independece 
+| sovereignty_type       = Independence
 | sovereignty_note       = from [[Estijan]]
 | established            = 
 | established_event1     = [[Mii Lands colony]]
 | established_date1      = 1470 AFA
-| established_event2     = [[Laseltshe independence war]]
+| established_event2     = [[Laseltshen Independence War]]
 | established_date2      = 1647 AFA
-| established_event3     = [[Backstab war]]
+| established_event3     = [[Backstab War]]
 | established_date3      = 1655 AFA
 | established_event4     = [[Yantat acquisition]]
 | established_date4      = 1700 AFA
@@ -50,20 +52,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 4.1
 | population_density_rank = 161st
-| GDP_PPP                = {{increase}}$183.882 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/las/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.471 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/las/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 68th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}}$28,183
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}225,464
 | GDP_PPP_per_capita_rank = 14th
-| GDP_nominal            = {{increase}}$161.300 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/las/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}1.29 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/las/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 52nd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}}$24,722
+| GDP_nominal_per_capita = {{increase}} {{lahn}}197,776
 | GDP_nominal_per_capita_rank = 8th
 | HDI_year               = 1765
-| HDI                    = 0.908
+| HDI                    = 0.876
 | HDI_change             = increase
-| HDI_rank               = 24th
+| HDI_rank               = 20th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Laseltshen Kasare]] (_) (LKA)
 | time_zone              = SET -3 (Standard Laseltshen Time)
@@ -72,6 +74,13 @@
 | cctld                  = .las
 | calling_code           = +28
 }}
+
+'''Laselteh''', officially the '''Republic of Laselteh''', is a country in [[East Atirha]], in the [[Mii lands]]. Covering [[List of countries and dependencies by area|1,599,030 km2 (617,389 sq mi)]], it is the world's twenty-fifth-largest country by area, yet with a [[List of countries and dependencies by population|population of about 6.5 million]] it is also one of the [[List of countries and dependencies by population density|most thinly populated]], at 4.1 inhabitants per square kilometre. It is bordered by [[Gaeiya]] to the west and by [[Grazail]] and [[Etirha]] to the south, with the [[Rianian Ocean]] to the east and the [[Srandan Ocean]] to the north. Its [[wikipedia:capital city|capital]] and largest city is [[Dariya]], whose 2 million inhabitants account for close to a third of the national population. The official language is [[Estijan Language|Estijan]], and the national currency is the [[Laseltshen Kasare]].
+
+[[Estijan]] settlement of the region began in the late 1390s with the founding of the [[Ama Koevw colony]], in what is now [[Grazail]]. The [[Mii Lands colony]] followed in 1470, and [[Dariya]] became the seat of [[Estijan Huan|Estijan]] authority in [[Atirha]]. Colonial rule ended with the [[Laseltshen Independence War]] of 1644–1647, fought as part of the [[East Atirhan wars of independence]]. Laselteh declared independence on 5 February 1647, uniting five former Estijan provinces into a single republic, and was formally recognised by [[Estijan Huan]] on 3 December 1649. Under [[Tyidai Idueria]], who succeeded [[Azraniel Barque]] as [[Supreme Director of Laselteh|Supreme Director]], discontent in the southern provinces led to the [[Backstab War]] of 1654–1655, after which Laselteh recognised the independence of [[Grazail]] under the [[Treaty of Zayden (1655)|Treaty of Zayden]]. 
+
+Laselteh is a [[wikipedia:unitary state|unitary]] [[wikipedia:constitutional monarchy|constitutional monarchy]]. The [[Monarchy of Laselteh|monarch]] is [[wikipedia:head of state|head of state]]. The legislature, the [[Union of Laselteh]], is bicameral, comprising the [[National Assembly (Laselteh)|National Assembly]] and the [[Lainar of the People (Laselteh)|Lainar of the People]], with the [[High Minister of Laselteh|High Minister]] and the Low Minister at the head of the executive. It is among the world's most [[wikipedia:Irreligion|irreligious]] states, 89.4 per cent of the population professing no religion at the 1765 census. Despite its small population it has an [[wikipedia:Developed country|advanced economy]], with a [[List of countries by GDP (nominal) per capita|nominal GDP per capita of]] {{lahn}}197,776, the eighth-highest in the world, and it ranks [[List of countries by Krali Total Development Index|20th]] on the [[Krali Development Report|Krali Total Development Index]]. That wealth rests heavily on mineral extraction: Laselteh holds the world's [[List of countries by nickel production|third-largest nickel reserves]] and is a notable producer of [[wikipedia:palladium|palladium]] and [[wikipedia:thorium|thorium]]. 
+
 
 == History ==
 

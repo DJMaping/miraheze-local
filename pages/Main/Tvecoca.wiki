@@ -47,20 +47,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 40.0
 | population_density_rank = 104th
-| GDP_PPP                = {{increase}} {{lahn}}94.4 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/tve/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}755.2 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/tve/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 170th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}18,278
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}146,224
 | GDP_PPP_per_capita_rank = 59th
-| GDP_nominal            = {{increase}} {{lahn}}48.1 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/tve/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}384.8 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/tve/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 170th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}9,325
+| GDP_nominal_per_capita = {{increase}} {{lahn}}74,600
 | GDP_nominal_per_capita_rank = 64th
 | HDI_year               = 1765
-| HDI                    = 0.822
+| HDI                    = 0.755
 | HDI_change             = increase
-| HDI_rank               = 61st
+| HDI_rank               = 74th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Oshikin]] (_) (OSH)
 | time_zone              = SET -4 (Standard Tvecocan Time)

@@ -1,0 +1,359 @@
+{{Short description|Research body classifying the cities of Andah by their integration into the world city network}}
+{{Infobox
+| abovestyle = font-size:125%; font-weight:bold;
+| labelstyle = white-space:nowrap;
+| above  = World Cities Observatory
+| image  = [[File:World_Cities_Observatory_logo.png|frameless|upright=0.85|alt=Logo of the World Cities Observatory]]
+| label1 = Abbreviation
+| data1  = WCO
+| label2 = Formation
+| data2  = 1748; 17 years ago
+| label3 = Type
+| data3  = Research body
+| label4 = Purpose
+| data4  = Study of the world city network
+| label5 = Headquarters
+| data5  = [[Albiran]], [[Etirha]]
+| label6 = Parent organisation
+| data6  = [[University of Albiran]]
+| label7 = Website
+| data7  = {{URL|https://www.wco.albiran.et/}}
+}}
+The '''World Cities Observatory''' ('''WCO''') is an Etirhan research body that studies the relationships between cities in the context of globalisation. It is based in the department of geography at the [[University of Albiran]] in [[Albiran]], [[Etirha]], and was founded in 1748 by a group of economic geographers working on the office networks of international service firms.<ref name="wco-about">{{cite web|url=https://www.wco.albiran.et/about|title=About the World Cities Observatory|publisher=World Cities Observatory|date=3 February 1764}}</ref>
+
+The observatory is best known for its biennial '''roster of world cities''', which classifies cities by their connectivity within the world city network rather than by population, land area or national importance.<ref name="wco-roster-method">{{cite web|url=https://www.wco.albiran.et/roster/1764/methodology|title=The 1764 roster of world cities: methodology|publisher=World Cities Observatory|date=3 February 1764}}</ref> Since the 1756 roster the observatory has graded cities on a nine-step scale built from three levels of reach (world, continental and regional) and three network roles (nexus, hub and node).<ref name="wco-scale">{{cite web|url=https://www.wco.albiran.et/roster/scale|title=The reach and role classification|publisher=World Cities Observatory|date=3 February 1764}}</ref> The roster is widely cited alongside the [[Global Financial Centres Index]] and the [[Global Trade Union]] trade statistics as a measure of urban standing in Andah.<ref name="gtu-citation">{{cite web|url=https://www.globaltradeunion.org/database/urban/world-city-network|title=The world city network: measuring urban connectivity|publisher=[[Global Trade Union]]|date=17 June 1765}}</ref>
+
+==History==
+The observatory grew out of a research programme at the University of Albiran in the late 1740s that examined how firms in accountancy, advertising, banking and law distributed their offices across borders. Its founders argued that the standard measures of urban importance in use at the time, chiefly population and national capital status, said little about how cities actually related to one another, and that a city's place in the world economy was better read from the service firms that chose to locate in it.<ref name="wco-about" />
+
+The observatory was formally constituted in 1748 and published its first roster of world cities in 1750, covering 312 cities.<ref name="wco-editions">{{cite web|url=https://www.wco.albiran.et/roster/editions|title=Rosters of world cities, 1750 to 1764|publisher=World Cities Observatory|date=3 February 1764}}</ref> Rosters have appeared roughly every two years since, with a gap between 1752 and 1756 while the classification was revised. The 1756 edition introduced the present nine-step scale in place of the simpler four-band grouping used in the first two rosters, and later editions have widened the sample of firms and cities rather than altering the scale.<ref name="wco-editions" />
+
+The observatory has no membership and no formal standing with any government or international body. Its work is funded by the University of Albiran and by research grants, and its data on firm activity is drawn in part from returns collected by the [[Global Trade Union]].<ref name="gtu-citation" />
+
+==Methodology==
+
+===Advanced producer services===
+The roster is built from the office networks of firms supplying ''advanced producer services'', the specialised business services that firms buy in rather than provide for themselves. The observatory tracks four sectors: accountancy, advertising, banking and finance, and law.<ref name="wco-roster-method" /> The 1764 roster drew on the office networks of 176 leading firms across 748 cities.<ref name="wco-editions" />
+
+For each firm the observatory records the presence and standing of its offices in every city, distinguishing a headquarters from a full regional office and from a small representative presence. The resulting figures measure not the size of a city but the extent to which international business is routed through it.<ref name="wco-roster-method" />
+
+===Interlocking network model===
+Cities are treated as nodes in a single world city network, and the connection between any two cities is estimated from the offices that firms hold in both. A city that shares many senior offices with many other cities scores highly; a large city whose firms serve only its own national market scores poorly. This is the basis of the observatory's frequent observation that population and connectivity are only loosely related, and that several of the most populous cities of Andah sit well below smaller cities in the roster.<ref name="wco-scale" />
+
+Because the model rests on the location decisions of private firms, the observatory states plainly that it measures economic connectivity and not political weight or cultural influence, and that the roster should not be read as a ranking of cities in general.<ref name="wco-roster-method" />
+
+==Classification==
+Cities are placed on a nine-step scale. The first term of each grade gives the ''reach'' of a city's connections, and the second gives its ''role'' within that reach. Each grade carries a short code used in the observatory's tables.<ref name="wco-scale" />
+
+{| class="wikitable" style="margin:1em auto 1em 0;"
+|+ The reach and role classification
+! scope="col" | Code
+! scope="col" | Grade
+! scope="col" | Description
+|-
+! scope="row" | W1
+| '''World Nexus''' || The small number of cities through which the greater part of the world's advanced producer services is routed. Their loss would disrupt the network as a whole.
+|-
+! scope="row" | W2
+| '''World Hub''' || Cities of worldwide reach that concentrate several service sectors at once and act as the principal alternatives to the world nexuses.
+|-
+! scope="row" | W3
+| '''World Node''' || Cities present across the world network but built on a narrower range of sectors, often finance or law alone.
+|-
+! scope="row" | C1
+| '''Continental Nexus''' || The dominant service centre of a continent, through which most of that continent's external business passes.
+|-
+! scope="row" | C2
+| '''Continental Hub''' || Major continental centres linking a substantial economic region to the world economy.
+|-
+! scope="row" | C3
+| '''Continental Node''' || Cities of continental reach with a narrower service mix, commonly a single strong sector.
+|-
+! scope="row" | R1
+| '''Regional Nexus''' || The leading centre of a defined region, typically a large national economy or a group of smaller ones.
+|-
+! scope="row" | R2
+| '''Regional Hub''' || Substantial regional centres that carry an appreciable share of their region's international business.
+|-
+! scope="row" | R3
+| '''Regional Node''' || The lowest graded step. Cities that link smaller economic regions into the world economy through a limited set of firms.
+|}
+
+Cities below the regional node grade are not listed. Their absence from the roster indicates only that too few of the sampled firms are present to place them, and not that they lack an economy of their own.<ref name="wco-scale" />
+
+===Bands===
+The three levels of reach are commonly quoted as bands in their own right.<ref name="wco-scale" />
+
+* '''World cities''' (W1 to W3) are tied to the major economic states and regions of Andah and are the most closely integrated into the world economy.
+* '''Continental cities''' (C1 to C3) link a continent or a substantial economic region to the world economy.
+* '''Regional cities''' (R1 to R3) link smaller economic regions into the world economy.
+
+==Roster of world cities==
+The grades below are those of the 1764 roster, the most recent published.<ref name="wco-editions" />
+
+
+===World Nexus (W1)===
+{{div col|colwidth=18em}}
+* {{flagicon|Dahe}} [[Fekhalai]]
+* {{flagicon|Emara}} [[Rivostan]]
+* {{flagicon|Raledria}} [[Tirna-Rovik]]
+{{div col end}}
+
+===World Hub (W2)===
+{{div col|colwidth=18em}}
+* {{flagicon|Etirha}} [[Albiran]]
+* {{flagicon|Dahe}} [[Bhaliloi]]
+* {{flagicon|Pelugrotoa}} [[Havok]]
+* {{flagicon|Lycroa}} [[Jungui]]
+* {{flagicon|Ztesh}} [[Nakos]]
+* {{flagicon|Pha Hii}}/{{flagicon|Dahe}} [[Pha Hii]]
+* {{flagicon|Easuhura}} [[Tanbai]]
+* {{flagicon|Raledria}} [[Zunle]]
+{{div col end}}
+
+===World Node (W3)===
+{{div col|colwidth=18em}}
+* {{flagicon|Praesyu}} [[Brimasha]]
+* {{flagicon|Dahe}} [[Fekunza]]
+* {{flagicon|Verusa}} [[Huifarn]]
+* {{flagicon|Sanagara}} [[Koyaya]]
+* {{flagicon|United Delet}} [[Mantraal]]
+* {{flagicon|Raledria}} [[Pekrin-Vavlen]]
+* {{flagicon|Estijan}} [[Sarwun]]
+* {{flagicon|Estijan}} [[Shabiran]]
+* {{flagicon|Ashain}} [[Sjoran]]
+* {{flagicon|Pelugrotoa}} [[Thavrin]]
+* {{flagicon|Seytinemas}} [[Vulna]]
+* {{flagicon|Siana}} [[Wadika]]
+* {{flagicon|Areoix Lie}} [[Zirohu]]
+{{div col end}}
+
+===Continental Nexus (C1)===
+{{div col|colwidth=18em}}
+* {{flagicon|Emara}} [[Alubri City]]
+* {{flagicon|Raledria}} [[Birska]]
+* {{flagicon|Sunsokua}} [[Hikrum]]
+* {{flagicon|Vayvele}} [[Kaisri]]
+* {{flagicon|Yaxuto}} [[Khorin]]
+* {{flagicon|Vesozata}} [[Korvani]]
+* {{flagicon|New Misos}} [[Lunava]]
+* {{flagicon|Chaenia}} [[Lutur]]
+* {{flagicon|Ztesh}} [[Mihkose]]
+* {{flagicon|Prystr Hii}}/{{flagicon|Dahe}} [[Prystr Hii]]
+* {{flagicon|Verste}} [[Ralut]]
+* {{flagicon|Ahokini}} [[Ribash]]
+* {{flagicon|Ilicuhe}} [[Sakhen]]
+* {{flagicon|Dahe}} [[Shinlotha]]
+* {{flagicon|Ealdorii}} [[Shurqan]]
+* {{flagicon|Merela Sta}} [[Talung]]
+* {{flagicon|Taval}} [[Tamalpura]]
+* {{flagicon|Raledria}} [[Tavik]]
+* {{flagicon|Etretes}} [[Todorac]]
+* {{flagicon|Trian}} [[Treka]]
+* {{flagicon|Desaki}} [[Velthura]]
+* {{flagicon|Ukhdari}} [[Veshgadar]]
+* {{flagicon|Areoix Lie}} [[Vurahi]]
+* {{flagicon|Dahe}} [[Xuqilin]]
+* {{flagicon|Inania}} [[Yolan]]
+{{div col end}}
+
+===Continental Hub (C2)===
+{{div col|colwidth=18em}}
+* {{flagicon|Haiza}} [[Chavira]]
+* {{flagicon|Myla}} [[Erkadu]]
+* {{flagicon|Wundry}} [[Eserni]]
+* {{flagicon|Raledria}} [[Fryokar]]
+* {{flagicon|Verusa}} [[Jentori]]
+* {{flagicon|Emara}} [[Khalzhun]]
+* {{flagicon|Genaire}} [[Lishka]]
+* {{flagicon|Etirha}} [[Lunru]]
+* {{flagicon|Sunsokua}} [[Mikalu]]
+* {{flagicon|Areoix Lie}} [[Nakahiki]]
+* {{flagicon|Acrana}} [[Samaru]]
+* {{flagicon|Emara}} [[Shaikuv]]
+* {{flagicon|Darewa}} [[Shamarin]]
+* {{flagicon|Eldjo}} [[Shorakim]]
+* {{flagicon|Lycroa}} [[Sompai]]
+* {{flagicon|Ohtina}} [[Su Sariko]]
+* {{flagicon|Taval}} [[Suraspa]]
+* {{flagicon|Quidic}} [[Talvani]]
+* {{flagicon|Gaeiya}} [[Tsyanka]]
+* {{flagicon|Pelugrotoa}} [[Veshtak]]
+* {{flagicon|Dual Cenryia}} [[Vrandig]]
+* {{flagicon|Suenan}} [[Weregami]]
+* {{flagicon|Oyreain}} [[Yetembo]]
+* {{flagicon|Pelugrotoa}} [[Zilvak]]
+{{div col end}}
+
+===Continental Node (C3)===
+{{div col|colwidth=18em}}
+* {{flagicon|Pelugrotoa}} [[Balsor]]
+* {{flagicon|Emara}} [[Chishanov]]
+* {{flagicon|Phuris}} [[City of Dauris]]
+* {{flagicon|Pelines}} [[Dalyar]]
+* {{flagicon|Raledria}} [[Dhalpavishka]]
+* {{flagicon|Dahe}} [[Dzhonlo]]
+* {{flagicon|Dahe}} [[Harkanto]]
+* {{flagicon|United Delet}} [[Heslian]]
+* {{flagicon|Ocaun}} [[Kejira]]
+* {{flagicon|Fermori}} [[Khalviro]]
+* {{flagicon|Pelugrotoa}} [[Khamri]]
+* {{flagicon|Anymna}} [[Khureldai]]
+* {{flagicon|Lycroa}} [[Liambra]]
+* {{flagicon|New Misos}} [[Lirika]]
+* {{flagicon|Finae}} [[Mankat]]
+* {{flagicon|Disal Nila}} [[Naliti]]
+* {{flagicon|Raledria}} [[Nirun]]
+* {{flagicon|Pelugrotoa}} [[Pothin]]
+* {{flagicon|Pelugrotoa}} [[Rivik]]
+* {{flagicon|Ztesh}} [[Takhna]]
+* {{flagicon|Erkizil}} [[Tiraqsi]]
+* {{flagicon|Terressin}} [[Veloro]]
+* {{flagicon|Dahe}} [[Vukwazi]]
+* {{flagicon|Dahe}} [[Wekhalu]]
+* {{flagicon|Dahe}} [[Zhangola]]
+{{div col end}}
+
+===Regional Nexus (R1)===
+{{div col|colwidth=18em}}
+* {{flagicon|Estijan}} [[Barashir]]
+* {{flagicon|Oyreain}} [[Batikolo]]
+* {{flagicon|Easuhura}} [[Chayek]]
+* {{flagicon|Inrea}} [[Dalsjiv]]
+* {{flagicon|Isari}} [[Damsiri]]
+* {{flagicon|Laselteh}} [[Dariya]]
+* {{flagicon|Volver}} [[Drolmukhazin]]
+* {{flagicon|Iareva}} [[Droskaneth]]
+* {{flagicon|Ukhdari}} [[Dy]]
+* {{flagicon|Inania}} [[Fashti]]
+* {{flagicon|Curata}} [[Hulong]]
+* {{flagicon|Arbiya}} [[Karevu]]
+* {{flagicon|North Ayre}} [[Kokema]]
+* {{flagicon|Raledria}} [[Komiros]]
+* {{flagicon|Heiso}} [[Mivlo]]
+* {{flagicon|Areoix Lie}} [[Nikahatu]]
+* {{flagicon|Dual Cenryia}} [[Panstel]]
+* {{flagicon|Dahe}} [[Qianzo]]
+* {{flagicon|Selaja}} [[Selja]]
+* {{flagicon|Walporein}} [[Sokira]]
+* {{flagicon|Sadain}} [[Takolo]]
+* {{flagicon|Tomscilus}} [[Ternyu]]
+* {{flagicon|Dahe}} [[Tshenuza]]
+* {{flagicon|Verusa}} [[Walfrei]]
+* {{flagicon|Ztesh}} [[Wiskot]]
+* {{flagicon|Raledria}} [[Yaltra]]
+* {{flagicon|Acetoa}} [[Yezhito]]
+* {{flagicon|Emara}} [[Yilovka]]
+* {{flagicon|Lydroa}} [[Zarfan]]
+* {{flagicon|Dahe}} [[Zoluhano]]
+{{div col end}}
+
+===Regional Hub (R2)===
+{{div col|colwidth=18em}}
+* {{flagicon|Sivoso}} [[Amrata]]
+* {{flagicon|Pelugrotoa}} [[Beylok]]
+* {{flagicon|Dahe}} [[Dumemzi]]
+* {{flagicon|Otiiric}} [[Fyntek]]
+* {{flagicon|Dahe}} [[Ghloumzi]]
+* {{flagicon|Umarcia}} [[Hirvani]]
+* {{flagicon|Nia}} [[Kovasi]]
+* {{flagicon|Isnti}} [[Mahsira]]
+* {{flagicon|Kusierna}} [[Mikavasi]]
+* {{flagicon|Grazail}} [[Mushira]]
+* {{flagicon|Deschon}} [[Obelinti]]
+* {{flagicon|Raledria}} [[Pikvor]]
+* {{flagicon|Raledria}} [[Pusko]]
+* {{flagicon|Maalle}} [[Rudeka]]
+* {{flagicon|Pelugrotoa}} [[Sarnin]]
+* {{flagicon|Etirha}} [[Shinori]]
+* {{flagicon|Hkuqo}} [[Tanshiva]]
+* {{flagicon|Raledria}} [[Vadja]]
+* {{flagicon|Dahe}} [[Vumbeko]]
+* {{flagicon|Dahe}} [[Xintali]]
+{{div col end}}
+
+===Regional Node (R3)===
+{{div col|colwidth=18em}}
+* {{flagicon|Ztesh}} [[Ashkik]]
+* {{flagicon|Iquir}} [[Chavillar]]
+* {{flagicon|Ucrua}} [[Frevinta]]
+* {{flagicon|Reerica}} [[Halumbaro]]
+* {{flagicon|Finae}} [[Hishara]]
+* {{flagicon|Ashain}} [[Kaitriss]]
+* {{flagicon|Eldavpir}} [[Lunfrix]]
+* {{flagicon|Areoix Lie}} [[Mahana]]
+* {{flagicon|Quidic}} [[Mikori]]
+* {{flagicon|New Misos}} [[Minafi]]
+* {{flagicon|Verste}} [[Minoan]]
+* {{flagicon|Estijan}} [[Miranis]]
+* {{flagicon|Lieri}} [[Nabruik]]
+* {{flagicon|Ashain}} [[Pelfen]]
+* {{flagicon|Ztesh}} [[Ratsom]]
+* {{flagicon|Crila Republic}} [[Risavo]]
+* {{flagicon|Estijan}} [[Sharo]]
+* {{flagicon|Vesozata}} [[Shatiruk]]
+* {{flagicon|Phuris}} [[Tamira]]
+* {{flagicon|Pelugrotoa}} [[Tarnokh]]
+* {{flagicon|Wundry}} [[Teveme]]
+* {{flagicon|Chaenia}} [[Tibokan]]
+* {{flagicon|Mendereide}} [[Tovani]]
+* {{flagicon|Ealdorii}} [[Turashik]]
+* {{flagicon|Inania}} [[Varnan]]
+* {{flagicon|Pelugrotoa}} [[Velkhor]]
+* {{flagicon|Areoix Lie}} [[Xalavi]]
+* {{flagicon|Dahe}} [[Zhulenga]]
+* {{flagicon|Taniduna}} [[Zolittique]]
+{{div col end}}
+
+==Publication history==
+{| class="wikitable" style="margin:1em auto 1em 0;"
+|+ Rosters of world cities<ref name="wco-editions" />
+! scope="col" | Roster
+! scope="col" | Published
+! scope="col" | Cities assessed
+! scope="col" | Notes
+|-
+! scope="row" | 1750
+| 14 March 1750 || style="text-align:right;" | 312 || First roster. Four-band grouping.
+|-
+! scope="row" | 1752
+| 9 March 1752 || style="text-align:right;" | 344 || Advertising added as a sampled sector.
+|-
+! scope="row" | 1756
+| 22 February 1756 || style="text-align:right;" | 401 || Nine-step reach and role scale introduced.
+|-
+! scope="row" | 1758
+| 18 February 1758 || style="text-align:right;" | 466 ||
+|-
+! scope="row" | 1760
+| 15 February 1760 || style="text-align:right;" | 523 ||
+|-
+! scope="row" | 1762
+| 12 February 1762 || style="text-align:right;" | 619 ||
+|-
+! scope="row" | 1764
+| 3 February 1764 || style="text-align:right;" | 748 || Sample widened to 176 firms.
+|}
+
+Grades are not directly comparable across the 1752 and 1756 rosters because of the change of scale, and the observatory advises against reading movement between the two as a change in a city's standing.<ref name="wco-editions" />
+
+==Reception and criticism==
+The roster is quoted widely in the press and in government planning documents, and cities have on occasion cited a promotion in the roster in support of investment campaigns.<ref name="factbook-wco">{{cite web|url=https://www.andahfactbook.org/entries/world-cities-observatory|title=World Cities Observatory|publisher=The Andah Factbook|date=8 August 1765}}</ref>
+
+Three criticisms recur. The first is that by measuring only advanced producer services the roster weighs a city's economy far more heavily than its political or cultural standing, so that seats of government and long established centres of learning can be graded well below commercial cities of a fraction of their population.<ref name="factbook-wco" /> The second is that the model rewards the presence of foreign firms, which tends to favour open economies over large but closed ones and to understate cities in states that restrict foreign ownership of professional services.<ref name="gtu-critique">{{cite web|url=https://www.globaltradeunion.org/database/urban/connectivity-measures-review|title=Measures of urban connectivity: a review|publisher=[[Global Trade Union]]|date=29 November 1764}}</ref> The third is that grades at the regional end of the scale are volatile, since the opening or closing of a single office can move a city between grades or remove it from the roster entirely.<ref name="gtu-critique" />
+
+The observatory accepts the first of these criticisms as a description of what the roster is intended to measure, and has published guidance discouraging the use of grades as a general ranking of cities.<ref name="wco-roster-method" />
+
+==See also==
+* [[Council on Vertical Urbanism]]
+* [[List of largest cities]]
+* [[Rovik Global University Rankings]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [https://www.wco.albiran.et/ Official website]
+
+[[Category:Organisations]]
+[[Category:Statistics]]

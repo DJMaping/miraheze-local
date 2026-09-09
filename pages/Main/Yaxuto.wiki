@@ -1,6 +1,6 @@
 {{Infobox country
 | conventional_long_name = Great Yaxutan Republic
-| native_name            = ''__''  - Yaxutan
+| native_name            = ''__''  - Ioithin
 | image_flag             = Yaxuto Flag.png
 | image_coat             = 
 | symbol_type            = 
@@ -12,7 +12,7 @@
 | map_caption            = Location of Yaxuto (green)
 | capital                = [[Khorin]]
 | largest_city           = [[Khorin]]
-| official_languages     = Yaxutan
+| official_languages     = Ioithin
 | regional_languages     = 
 | ethnic_groups          = 91.8% Yaxutan<br>3.2% [[Verusa|Verusan]]<br>2.1% Other<br>0.9% N/a
 | ethnic_groups_year     = 1765
@@ -56,20 +56,20 @@
 | population_census_year = 1760
 | population_density_km2 = 103.2
 | population_density_rank = 45th
-| GDP_PPP                = {{increase}} {{lahn}}432 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/yax/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}3.456 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/yax/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 44th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}23,508
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}188,064
 | GDP_PPP_per_capita_rank = 24th
-| GDP_nominal            = {{increase}} {{lahn}}340 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/yax/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}2.72 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/yax/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 35th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}18,492
+| GDP_nominal_per_capita = {{increase}} {{lahn}}147,936
 | GDP_nominal_per_capita_rank = 22nd
 | HDI_year               = 1765
-| HDI                    = 0.902
+| HDI                    = 0.838
 | HDI_change             = increase
-| HDI_rank               = 27nd
+| HDI_rank               = 30th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Ilessande]] (_) (ILE)
 | time_zone              = SYT +0 (Standard Yaxuto Time)

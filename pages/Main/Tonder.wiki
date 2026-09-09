@@ -45,21 +45,21 @@
 | population_estimate_year = 1765
 | population_density_km2 = 6.5
 | population_density_rank = 154th
-| GDP_PPP                = {{increase}} {{lahn}}456.4 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ton/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}3.651 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ton/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 167th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,171
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}25,368
 | GDP_PPP_per_capita_rank = 157th
-| GDP_nominal            = {{increase}} {{lahn}}154.2 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ton/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}1.234 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ton/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 
 | GDP_nominal_rank       = 168th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,071
+| GDP_nominal_per_capita = {{increase}} {{lahn}}8,568
 | GDP_nominal_per_capita_rank = 155th
 | HDI_year               = 1765
-| HDI                    = 0.662
+| HDI                    = 0.447
 | HDI_change             = increase
-| HDI_rank               = 132nd
+| HDI_rank               = 156th
 | HDI_ref                = <!--(for any ref/s to associate with HDI number)-->
 | currency               = [[Tonderian Zundetra]] (_) (TZU)
 | time_zone              = STN +1 (Standard Tonderian Time)

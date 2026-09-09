@@ -56,20 +56,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 449.2
 | population_density_rank = 3rd
-| GDP_PPP                = {{increase}} {{lahn}}19.238 billion<ref>{{cite web|url=https://cri.gov/1765/caX3a/CRILA_REPUBLIC_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Crila Republic]] }}</ref>
+| GDP_PPP                = {{increase}} {{lahn}}153.904 billion<ref>{{cite web|url=https://cri.gov/1765/caX3a/CRILA_REPUBLIC_population_CENSUS.PDF |title=Population Census– 1763 |publisher=[[Census Popuation Crila Republic]] }}</ref>
 | GDP_PPP_rank           = 134th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}20,337
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}162,696
 | GDP_PPP_per_capita_rank = 45th
-| GDP_nominal            = {{increase}} {{lahn}}11.250 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/cri/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}90 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/cri/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 127th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}11,893
+| GDP_nominal_per_capita = {{increase}} {{lahn}}95,144
 | GDP_nominal_per_capita_rank = 45th
 | HDI_year               = 1765
-| HDI                    = 0.858
+| HDI                    = 0.822
 | HDI_change             = increase
-| HDI_rank               = 48th
+| HDI_rank               = 37th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Sigin]] (_) (SIG)
 | time_zone              = SCT -6 (Standard Crilan Time)

@@ -30,7 +30,7 @@
 | established_event1     = [[Hepdans]]
 | established_date1      = 410~ AFA
 | established_event2     = [[Hepdan Empire]]
-| established_date2      = 576 AFA
+| established_date2      = 624 AFA
 | established_event3     = [[Smasdan Zaridai]]
 | established_date3      = 822 AFA
 | established_event4     = [[Durnid Zaridai]]
@@ -53,20 +53,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 143.6
 | population_density_rank = 37th
-| GDP_PPP                = {{increase}} {{lahn}}293.781 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/isn/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}2.35 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/isn/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 50th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}8,170
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}65,360
 | GDP_PPP_per_capita_rank = 119th
-| GDP_nominal            = {{increase}} {{lahn}}53.649 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/isn/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}429.192 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/isn/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 82nd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,492
+| GDP_nominal_per_capita = {{increase}} {{lahn}}11,936
 | GDP_nominal_per_capita_rank = 149th
 | HDI_year               = 1765
-| HDI                    = 0.717
+| HDI                    = 0.544
 | HDI_change             = increase
-| HDI_rank               = 108th
+| HDI_rank               = 146th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Isnti Frundin]] (_) (IFR)
 | time_zone              = SET +5 (Standard Isnti Time)
@@ -75,6 +75,11 @@
 | cctld                  = .isn
 | calling_code           = +926
 }}
+'''Isnti''', officially the '''Federal Republic of Isnti''', is a country in [[South Mahea]]. It is bordered by [[Pelugrotoa]] to the north, [[Byllu]] to the west, and [[Ocaun]] and [[Galca]] to the east, and has a coastline along the [[Adrad Sea]] in the east. It spans an area of about {{Convert|250,357|km2|sqmi|lk=out|abbr=on}}. Isnti has a population of about 35 million people, the majority of whom are ethnically [[Isnti people|Isnti]]. Its capital and [[List of cities and towns in Isnti|most populous city]] is [[Mahsira]], followed by [[Sahmado]] and [[Amhurok]].
+
+In the early 5th century, the [[Hepdan peoples]] migrated from the [[Amoray]] to the [[Galcan Peninsula]], becoming the Hepdan Empire in 624 when it conquered the [[Kingdom of Kuhn]]. In 802 AFA, the Kingdom of [[Smasdan Zaridai]] was founded within the warring Hepdan princes of Lasdan. This marked the beginning of the [[Zaridai Era|Zaridai]] Era for Isnti. The [[Thessovini-controlled kingdom]] facilitated the spread of the [[Thessovini]], replacing [[Passanu]] in the region, and undertook religious infrastructural projects throughout the region. In the late 14th century, it was split between Ocaun and Farones. It gained independence in 1525 AFA as the [[Isnti Kingdom]], and acted as a buffer state between [[Ocaun]] and [[Pelugrotoa]]. Isnti became an [[Emaran Protectorate of Isnti|Emara Colony]] in 1631 after the king signed the [[Treaty of Lindarbah]]. Following [[Ashani occupation of Isnti|Ashani occupation]] during the [[Red War]], Isnti declared independence from Emara in 1692, Gaining property independence in 1708, establishing a new constitution.
+
+Isnti is a [[wikipedia:Parliamentary republic|Federal parliamentary republic]] and a [[multi-party system|multi-party]] state. The GTU designates Isnti a [[wikipedia:least developed country|least developed country]]. [[wikipedia:Agriculture|Agriculture]] remains its dominant economic sector, with growth in textiles, construction, garments, and [[wikipedia:tourism|tourism]] leading to increased foreign investment and international trade. [[wikipedia:Corruption|Corruption]], [[Deforestation in Isnti|deforestation]], [[Human rights in Isnti|human rights issues]] and [[Scam centres in Isnti|organized crime]] have remained major challenges in Isnti's post-conflict development. The official and most widely spoken language is [[Isnti language|Isnti]], and the most widely practiced religion is [[Thessovini in Isnti|Thessovini]].
 
 == History ==
 
@@ -113,24 +118,4 @@
 * [https://www.cia.gov/the-world-factbook/countries/andah/isnti/ Isnti]. ''[[The Andah Factbook]]''. [[Central Intelligence Agency]].
 
 === Maps ===
-
-[[Category:All country data templates|Germany]]
 [[Category:Countries]]
-[[Category:Country data templates of Germany| ]]
-[[Category:Country data templates of countries|Germany]]
-[[Category:Country data templates with documentation subpage|Germany]]
-[[Category:Country infobox templates| ]]
-[[Category:Infobox templates]]
-[[Category:Lua-based templates]]
-[[Category:Pages using duplicate arguments in template calls]]
-[[Category:Pages using gadget WikiMiniAtlas]]
-[[Category:Pages with script errors]]
-[[Category:Pages with template loops]]
-[[Category:Sidebars with styles needing conversion]]
-[[Category:Template documentation pages|Infobox country/doc]]
-[[Category:Templates based on the Infobox Lua module]]
-[[Category:Templates generating hCards]]
-[[Category:Templates generating microformats]]
-[[Category:Templates that add a tracking category]]
-[[Category:Templates using TemplateData]]
-[[Category:Wikipedia metatemplates|Infobox]]

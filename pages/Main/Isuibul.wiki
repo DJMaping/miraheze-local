@@ -47,20 +47,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 14.6
 | population_density_rank = 135th
-| GDP_PPP                = {{increase}} {{lahn}}425.956 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/isu/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}3.408 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/isu/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 168th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}11,364
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}90,912
 | GDP_PPP_per_capita_rank = 98th
-| GDP_nominal            = {{increase}} {{lahn}}165.099 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/isu/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}1.321 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/isu/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 167th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}4,405
+| GDP_nominal_per_capita = {{increase}} {{lahn}}35,240
 | GDP_nominal_per_capita_rank = 100th
 | HDI_year               = 1765
-| HDI                    = 0.722
+| HDI                    = 0.719
 | HDI_change             = increase
-| HDI_rank               = 105th
+| HDI_rank               = 87th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Emaran Islatan]] (_) (EIS)
 | time_zone              = SET -1 (Standard Isuibuler Time)
@@ -69,7 +69,15 @@
 | cctld                  = .isu
 | calling_code           = +652
 }}
+'''Isuibul''', also referred to its native Emaran name '''Ysuibul Uai''', and known officially as the '''Republic of Isuibul''', is an [[wikipedia:Island country|Island country]] located in the [[Vihsanna and Ocean]], off the coast of the [[Isarian archipelago]] in [[New Ayre]]. It consists of a [[Wikipedia:volcanic island|volcanic island]] with a land area of about 2,562 square kilometres (989&nbsp;sq&nbsp;mi). These islands lie between 700 kilometres (435 miles) west of [[Hiwush]]. The easternmost point of New Ayre. Isuibul forms part of the [[Uhilenesia]] ecoregion, along with the [[Canldives]], the [[Eldas Isle]], [[Hiwush]] and the [[Yutnitu]].
 
+The archipelago was uninhabited until the 12th century, when [[Tavalan explorers]] settled the islands, establishing the first one of the first Tavalan settlement in [[New Ayre]]. Its strategic position gave it a significant role in the [[wikipedia:slave trade|slave trade]] during the 14th and 15th centuries; the islands saw rapid economic growth driven by the trade of manufactured goods, alcohol, cloth for Massiran slaves, silver, and gold. The island was bought by [[Lycroa]] in 1427 and taken in 1544 by Emara during the [[Seniaaii Revolution]]. This led to increased foreign competition, persistent drought, and the decline of the [[wikipedia:Slave_trade|slave trade]], which led to economic decline and emigration; Isuibul gradually recovered as an important commercial centre and stopping point for major shipping routes. 
+
+Isuibul became independent in 1734. Since the early 1740s, it has been an unstable [[wikipedia:representative democracy|representative democracy]] and has remained one of the least developed and democratic countries in [[New Ayre]]. Lacking natural resources, its developing economy is mostly service-oriented, with a growing focus on tourism and foreign investment. With a population of around 37,000 as of 1765, Isuibul is [[List of countries and dependencies by population|among the least populous countries in New Ayre]]. The Isuibulan people trace their ancestry primarily to Continental [[North Massir|North Massiran]] populations, with additional contributions from early Alqiran settlers and other groups who came to the islands. A sizeable [[Isuibulan diaspora|diaspora]] exists in Emara, considerably outnumbering the inhabitants on the islands. Isuibul is a member state of the [[GTU]].
+
+There are two official languages, [[Emaran language|Emaran]] and [[Alqiran language|Alqiran]], while the recognised [[wikipedia:national language|national language]] is [[Isuibulan Creole]], which has been on the decline for decades, with [[Alqiran Language|Standard Tavalan Alqiran]] replacing it. '''Isuibul''', also referred to its native Emaran name '''Ysuibul Uai''' 
+== Etymology ==
+The country is named after the [[Ysuibul (flower)]], (meaning Deep-coloured Flower), a flower native only to the inland, the name given to it by Alqiran explorers in 1300, a few years before they came across the islands. The name ''Isuibul'', in turn, comes from the [[Emaran language]]’s pronunciation of that flower, and historically, the name has been translated as ''Isuibul''. In 1759, the country requested to be called by its native name, that only ''Ysuibul'' and not other translations should be used for official purposes.
 == History ==
 
 == Geography ==

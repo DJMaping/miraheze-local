@@ -1,0 +1,463 @@
+{
+ "evidence": {
+  "Eldavpir": {},
+  "Iquir": {
+   "agri_food": 3,
+   "machinery": 1
+  },
+  "Viussi": {},
+  "Umendel": {},
+  "Reerica": {},
+  "Saa": {},
+  "Sattle": {},
+  "Areoix Lie": {},
+  "Jau": {
+   "agri_food": 3
+  },
+  "Terressin": {},
+  "Acetoa": {
+   "transport": 1
+  },
+  "Feio Lie": {
+   "transport": 1
+  },
+  "Taniduna": {},
+  "Jathua": {
+   "agri_food": 2
+  },
+  "Deschon": {
+   "tourism": 1
+  },
+  "Pelines": {},
+  "Candenat": {
+   "ores_metals": 1,
+   "transport": 1
+  },
+  "Othya": {},
+  "Yoprioq": {},
+  "Jshain": {
+   "ores_metals": 4,
+   "agri_food": 1,
+   "machinery": 1,
+   "tourism": 2
+  },
+  "Fire Coast": {},
+  "Rijan bu": {
+   "transport": 1
+  },
+  "Rinew": {},
+  "Enina": {
+   "agri_food": 2,
+   "tourism": 1
+  },
+  "Trevilla": {},
+  "Gaeiya": {
+   "precious": 1,
+   "electronics": 1
+  },
+  "Raledria": {
+   "electronics": 3
+  },
+  "Arbiya": {
+   "precious": 1
+  },
+  "Fincen": {
+   "refined_fuels": 1,
+   "agri_food": 2,
+   "machinery": 2
+  },
+  "Curata": {
+   "ores_metals": 1,
+   "agri_food": 2
+  },
+  "Etirha": {
+   "refined_fuels": 1
+  },
+  "Laselteh": {
+   "ores_metals": 2
+  },
+  "Grazail": {
+   "transport": 1
+  },
+  "Disal Nila": {
+   "crude_oil_gas": 2,
+   "ores_metals": 2,
+   "precious": 2,
+   "agri_food": 3,
+   "transport": 1
+  },
+  "Pelan": {},
+  "Peka": {},
+  "Guise": {
+   "transport": 2,
+   "tourism": 1,
+   "finance_business": 2
+  },
+  "Genaire": {
+   "finance_business": 2
+  },
+  "New Misos": {},
+  "Phuris": {},
+  "lasri": {},
+  "Slyiaduun": {},
+  "Aetintio": {
+   "refined_fuels": 1,
+   "agri_food": 1,
+   "machinery": 2
+  },
+  "Metndria": {},
+  "Tomscilus": {},
+  "Ealdorii": {
+   "refined_fuels": 1,
+   "precious": 1,
+   "agri_food": 1,
+   "transport": 1,
+   "tourism": 1
+  },
+  "Ukhdari": {},
+  "Hkuqo": {
+   "precious": 1,
+   "transport": 2,
+   "tourism": 2
+  },
+  "Acrana": {
+   "ores_metals": 1,
+   "finance_business": 1
+  },
+  "Zenashan": {},
+  "Heiso": {},
+  "Estijan": {
+   "agri_food": 1,
+   "electronics": 1
+  },
+  "Ikzen": {
+   "precious": 1,
+   "transport": 2,
+   "finance_business": 1
+  },
+  "Urbiqu": {},
+  "Danocia": {},
+  "Koruch": {
+   "precious": 1
+  },
+  "New Kizura": {},
+  "Lydroa": {},
+  "Fermori": {},
+  "Uularin": {},
+  "Niul Spijan": {},
+  "Praesyu": {},
+  "Lycroa": {
+   "electronics": 1,
+   "finance_business": 1
+  },
+  "Emara": {
+   "transport": 4,
+   "tourism": 2
+  },
+  "Eldjo": {
+   "chemicals": 1,
+   "tourism": 2
+  },
+  "Easuhura": {
+   "crude_oil_gas": 13,
+   "refined_fuels": 5,
+   "ores_metals": 1,
+   "agri_food": 8,
+   "forestry_paper": 1,
+   "machinery": 9,
+   "electronics": 2,
+   "vehicles": 1,
+   "tourism": 2,
+   "finance_business": 22
+  },
+  "Ilicuhe": {},
+  "Tonder": {},
+  "Verusa": {
+   "electronics": 1,
+   "transport": 3
+  },
+  "Darewa": {
+   "precious": 1,
+   "finance_business": 1
+  },
+  "Siana": {
+   "precious": 1,
+   "agri_food": 4,
+   "transport": 1,
+   "finance_business": 2
+  },
+  "Yaxuto": {},
+  "Merela Sta": {},
+  "Palina": {},
+  "Sunsokua": {
+   "agri_food": 1,
+   "chemicals": 1,
+   "machinery": 1,
+   "transport": 1
+  },
+  "Vayvele": {},
+  "Selaja": {},
+  "Sadain": {},
+  "Inania": {
+   "agri_food": 3,
+   "machinery": 1
+  },
+  "Pelugrotoa": {
+   "crude_oil_gas": 5,
+   "agri_food": 2,
+   "machinery": 2
+  },
+  "Lieri": {},
+  "Rtesania": {},
+  "Ozinia": {},
+  "Ocaun": {},
+  "Dual Cenryia": {
+   "precious": 1
+  },
+  "Byllu": {
+   "agri_food": 1
+  },
+  "Exilium": {
+   "agri_food": 2,
+   "machinery": 2
+  },
+  "Inrea": {
+   "crude_oil_gas": 2,
+   "agri_food": 1
+  },
+  "Amcha": {
+   "transport": 2
+  },
+  "Isnti": {
+   "agri_food": 2,
+   "textiles": 2,
+   "tourism": 2
+  },
+  "Galca": {
+   "transport": 1
+  },
+  "Otiiric": {},
+  "Taing": {},
+  "Cruthi Anoso": {},
+  "Sivoso": {},
+  "Taoisia": {},
+  "Seytinemas": {
+   "machinery": 2,
+   "transport": 1,
+   "tourism": 2
+  },
+  "Trian": {
+   "textiles": 1
+  },
+  "Chaenia": {
+   "ores_metals": 4,
+   "agri_food": 3,
+   "chemicals": 1,
+   "machinery": 2,
+   "electronics": 2,
+   "transport": 1
+  },
+  "Migoku": {},
+  "Welenu Fana": {},
+  "Haiza": {
+   "agri_food": 2,
+   "transport": 2,
+   "tourism": 1
+  },
+  "Ucrua": {},
+  "Ihner": {},
+  "Oscairia": {},
+  "Shinam": {},
+  "Ruylku": {},
+  "Taval": {
+   "precious": 6,
+   "transport": 2,
+   "tourism": 4
+  },
+  "Western Migoku": {},
+  "Pruim Fijan": {},
+  "Canldives": {
+   "agri_food": 2,
+   "transport": 1,
+   "tourism": 2
+  },
+  "Vesozata": {},
+  "Etretes": {
+   "electronics": 1,
+   "transport": 3
+  },
+  "Kusierna": {
+   "refined_fuels": 2,
+   "transport": 1
+  },
+  "Eparia": {
+   "ores_metals": 3,
+   "agri_food": 1,
+   "tourism": 2
+  },
+  "Dahe": {
+   "refined_fuels": 1,
+   "precious": 1,
+   "agri_food": 2,
+   "forestry_paper": 3,
+   "machinery": 1,
+   "electronics": 4,
+   "vehicles": 1,
+   "transport": 6,
+   "finance_business": 4
+  },
+  "Kaastini": {
+   "transport": 1
+  },
+  "Suenan": {},
+  "Oyreain": {
+   "finance_business": 1
+  },
+  "Sanagara": {
+   "agri_food": 1,
+   "tourism": 2,
+   "finance_business": 1
+  },
+  "North Ayre": {},
+  "Stinebar": {},
+  "Cloja": {
+   "transport": 1,
+   "tourism": 1,
+   "finance_business": 1
+  },
+  "Pha Hii": {},
+  "Prystr Hii": {},
+  "Maalle": {},
+  "United Delet": {
+   "agri_food": 2,
+   "machinery": 1
+  },
+  "Ohtina": {},
+  "Astye": {},
+  "Prstreula": {},
+  "Veelmit": {},
+  "Aplasia": {
+   "crude_oil_gas": 5,
+   "finance_business": 1
+  },
+  "Elja and Munusia": {},
+  "Walporein": {},
+  "Crila Republic": {},
+  "Niretui and Anulan": {},
+  "Rethern": {},
+  "Tvecoca": {},
+  "Andsaudare": {
+   "crude_oil_gas": 1,
+   "refined_fuels": 3,
+   "ores_metals": 8,
+   "precious": 2,
+   "agri_food": 2,
+   "forestry_paper": 2,
+   "textiles": 2
+  },
+  "Nia": {},
+  "Umarcia": {},
+  "Mendereide": {},
+  "Iainoa": {
+   "ores_metals": 2,
+   "agri_food": 2,
+   "machinery": 2,
+   "electronics": 2
+  },
+  "Isari": {
+   "ores_metals": 1,
+   "precious": 1
+  },
+  "Rkmepuia": {},
+  "Hiwush": {
+   "transport": 2
+  },
+  "Isuibul": {
+   "precious": 2,
+   "transport": 1,
+   "tourism": 1
+  },
+  "Yutnitu": {},
+  "Zhanshe": {},
+  "Volver": {},
+  "Finae": {
+   "agri_food": 1,
+   "machinery": 1,
+   "transport": 1,
+   "tourism": 1
+  },
+  "Myla": {},
+  "Nheyes Si": {},
+  "Onphello": {},
+  "Hyelen": {},
+  "Yihnurda": {},
+  "Ztesh": {
+   "electronics": 1
+  },
+  "Wundry": {},
+  "Anymna": {
+   "transport": 1
+  },
+  "Shomjind": {},
+  "Baluyde": {},
+  "Letan": {},
+  "Iareva": {
+   "forestry_paper": 2
+  },
+  "United Mihili": {},
+  "Mesjan Hyaa": {},
+  "Desaki": {},
+  "Far Lands": {
+   "ores_metals": 2,
+   "precious": 2,
+   "forestry_paper": 2
+  },
+  "Verste": {
+   "crude_oil_gas": 8,
+   "agri_food": 2,
+   "transport": 1,
+   "finance_business": 1
+  },
+  "Quidic": {},
+  "Erkizil": {
+   "precious": 1
+  },
+  "Ashain": {
+   "ores_metals": 1,
+   "agri_food": 18,
+   "chemicals": 1,
+   "machinery": 2,
+   "electronics": 1,
+   "vehicles": 6
+  },
+  "Ahokini": {}
+ },
+ "great_importance": {
+  "Raledria": "Maintaining technological supremacy, countering Dahe in Eanif-Vish, energy independence, DAC leadership",
+  "Dahe": "Naval expansion in Adrad Sea, Massiran free trade zone, technological self-reliance, industrial competitiveness",
+  "Pelugrotoa": "Military expansion across Mahea, Mahean Petroleum Union, Focus on asymmetric capabilities and energy leverage.",
+  "Areoix Lie": "Countering Estijan, Pelugrotoan partnership, energy security, counter-terrorism",
+  "Estijan": "Ayuman dominance, defense modernization, maintaining influence in former Huan states, countering Arten and Raledria expansion",
+  "Etirha": "Moaneill sovereignty, energy exports, defense spending, supporting Pelan, Raledria relations",
+  "Verusa": "Energy transition, defense spending increase, industrial competitiveness, trade agreements",
+  "Emara": "Global Emara, Kera-Ubrana pivot, defense modernization, Border tensions with Etretes persist.",
+  "Sunsokua": "Energy market control, economic diversification, regional influence, countering Pelugrotoa",
+  "Ztesh": "Quian leadership, digital infrastructure, countering Raledrian infuence, energy security, space capabilities",
+  "Lycroa": "National integration, migration control, energy security, defense modernization",
+  "Seytinemas": "Maritime security, trade hub, balancing Dahen-Pelugrotoan, technology",
+  "Ashain": "Countering Pelugrotoa, defense spending increase, energy security, technology leadership",
+  "Verste": "Nuclear program, regional proxy influence, countering Raledrian/Pelugrotoan, energy exports",
+  "Easuhura": "Strategic autonomy, Ayuman influence, nuclear deterrence, defense industry, climate leadership",
+  "United Delet": "Environmental protection, DAC Membership, regional influence, energy independence",
+  "Ukhdari": "Regional influence, energy hub, countering Hkuqoan groups, balancing East-West",
+  "Etretes": "Security, countering Vesozata, normalization with neighboring states, technology exports",
+  "Desaki": "Quian Union southern flank, defense modernization, supporting Verste, economic security",
+  "New Misos": "Raledrian relations, migration management, energy independence, trade",
+  "Vesozata": "Territorial integrity, Raledrian Allience, global integration, defense",
+  "Inania": "Undoson protection, regional influence, energy independence, counter-terrorism",
+  "Taval": "RSDA leadership, maritime security, economic growth, balancing Raledrian-Emaran",
+  "Ocaun": "Nuclear program, regional proxy influence, countering Pelugrotoa, economic independence",
+  "Pelines": "Regional leadership, energy exports, counter-terrorism, economic diversification",
+  "Ahokini": "Energy exports, regional influence, technology hub, normalization"
+ }
+}

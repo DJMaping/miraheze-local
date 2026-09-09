@@ -1,0 +1,4281 @@
+{
+ "categories": [
+  "Crude oil & natural gas",
+  "Refined fuels & coal",
+  "Ores & base metals",
+  "Precious metals & gems",
+  "Food, crops & livestock",
+  "Forestry, paper & fibres",
+  "Textiles & apparel",
+  "Chemicals & pharmaceuticals",
+  "Machinery & industrial equipment",
+  "Electronics & electrical",
+  "Vehicles, ships & aircraft",
+  "Other manufactures",
+  "Transport & logistics services",
+  "Travel & tourism",
+  "Finance, business & IT services"
+ ],
+ "countries": [
+  {
+   "name": "Vesozata",
+   "continent": "Massir",
+   "subregion": "South Massir",
+   "population": 121753072,
+   "gdp_lahn": 3018703155016,
+   "gdp_per_capita_lahn": 24794,
+   "gdp_per_capita_usd_equiv": 3099,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3304,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 574401445939,
+   "trade_gdp": 0.35,
+   "export_rank": 46,
+   "basket_top6": {
+    "Food, crops & livestock": 0.488,
+    "Textiles & apparel": 0.182,
+    "Ores & base metals": 0.104,
+    "Other manufactures": 0.057,
+    "Travel & tourism": 0.042,
+    "Machinery & industrial equipment": 0.029
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Etretes",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Terressin",
+   "continent": "Acrola",
+   "subregion": "North Acrola",
+   "population": 74091042,
+   "gdp_lahn": 2893078786136,
+   "gdp_per_capita_lahn": 39048,
+   "gdp_per_capita_usd_equiv": 4881,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 12,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 440373134584,
+   "trade_gdp": 0.3147,
+   "export_rank": 55,
+   "basket_top6": {
+    "Food, crops & livestock": 0.337,
+    "Textiles & apparel": 0.236,
+    "Other manufactures": 0.093,
+    "Finance, business & IT services": 0.075,
+    "Machinery & industrial equipment": 0.064,
+    "Travel & tourism": 0.047
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Suenan",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 54705622,
+   "gdp_lahn": 2813431982272,
+   "gdp_per_capita_lahn": 51429,
+   "gdp_per_capita_usd_equiv": 6429,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3120,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 1016626048575,
+   "trade_gdp": 0.7284,
+   "export_rank": 35,
+   "basket_top6": {
+    "Food, crops & livestock": 0.35,
+    "Textiles & apparel": 0.247,
+    "Other manufactures": 0.131,
+    "Machinery & industrial equipment": 0.127,
+    "Electronics & electrical": 0.08,
+    "Vehicles, ships & aircraft": 0.019
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Pha Hii",
+    "Sanagara"
+   ]
+  },
+  {
+   "name": "Finae",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 31745420,
+   "gdp_lahn": 2741191855896,
+   "gdp_per_capita_lahn": 86349,
+   "gdp_per_capita_usd_equiv": 10794,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1880,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 652522927646,
+   "trade_gdp": 0.5038,
+   "export_rank": 43,
+   "basket_top6": {
+    "Food, crops & livestock": 0.265,
+    "Machinery & industrial equipment": 0.262,
+    "Travel & tourism": 0.158,
+    "Electronics & electrical": 0.073,
+    "Finance, business & IT services": 0.067,
+    "Textiles & apparel": 0.057
+   },
+   "top_export_partners": [
+    "Myla",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Yaxuto",
+   "continent": "Ayuma",
+   "subregion": "West Ayuma",
+   "population": 18401158,
+   "gdp_lahn": 2722203067600,
+   "gdp_per_capita_lahn": 147937,
+   "gdp_per_capita_usd_equiv": 18492,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 552,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 1282970533079,
+   "trade_gdp": 0.9842,
+   "export_rank": 32,
+   "basket_top6": {
+    "Finance, business & IT services": 0.209,
+    "Machinery & industrial equipment": 0.194,
+    "Electronics & electrical": 0.141,
+    "Vehicles, ships & aircraft": 0.118,
+    "Chemicals & pharmaceuticals": 0.073,
+    "Transport & logistics services": 0.07
+   },
+   "top_export_partners": [
+    "Verusa",
+    "Merela Sta",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Merela Sta",
+   "continent": "Ayuma",
+   "subregion": "West Ayuma",
+   "population": 23361657,
+   "gdp_lahn": 2655070828816,
+   "gdp_per_capita_lahn": 113651,
+   "gdp_per_capita_usd_equiv": 14206,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1013,
+   "land_neighbours": 3,
+   "transit_hub": true,
+   "exports_lahn": 3454055855062,
+   "trade_gdp": 2.6018,
+   "export_rank": 10,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.218,
+    "Electronics & electrical": 0.203,
+    "Vehicles, ships & aircraft": 0.15,
+    "Other manufactures": 0.13,
+    "Chemicals & pharmaceuticals": 0.096,
+    "Food, crops & livestock": 0.065
+   },
+   "top_export_partners": [
+    "Verusa",
+    "Emara",
+    "Siana"
+   ]
+  },
+  {
+   "name": "Dual Cenryia",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 95001457,
+   "gdp_lahn": 2506228907056,
+   "gdp_per_capita_lahn": 26381,
+   "gdp_per_capita_usd_equiv": 3298,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1173,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 492451017264,
+   "trade_gdp": 0.3864,
+   "export_rank": 52,
+   "basket_top6": {
+    "Food, crops & livestock": 0.402,
+    "Textiles & apparel": 0.204,
+    "Other manufactures": 0.088,
+    "Travel & tourism": 0.055,
+    "Machinery & industrial equipment": 0.055,
+    "Transport & logistics services": 0.044
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Seytinemas",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Myla",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 42672208,
+   "gdp_lahn": 2506145551552,
+   "gdp_per_capita_lahn": 58730,
+   "gdp_per_capita_usd_equiv": 7341,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 482,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 540736621089,
+   "trade_gdp": 0.4545,
+   "export_rank": 48,
+   "basket_top6": {
+    "Food, crops & livestock": 0.287,
+    "Textiles & apparel": 0.217,
+    "Other manufactures": 0.092,
+    "Machinery & industrial equipment": 0.09,
+    "Finance, business & IT services": 0.077,
+    "Travel & tourism": 0.071
+   },
+   "top_export_partners": [
+    "Finae",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Wundry",
+   "continent": "Quia",
+   "subregion": "North Quia",
+   "population": 140080976,
+   "gdp_lahn": 2494775469856,
+   "gdp_per_capita_lahn": 17810,
+   "gdp_per_capita_usd_equiv": 2226,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2553,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 447550456409,
+   "trade_gdp": 0.3358,
+   "export_rank": 54,
+   "basket_top6": {
+    "Food, crops & livestock": 0.465,
+    "Textiles & apparel": 0.18,
+    "Other manufactures": 0.076,
+    "Ores & base metals": 0.074,
+    "Travel & tourism": 0.049,
+    "Machinery & industrial equipment": 0.04
+   },
+   "top_export_partners": [
+    "Ztesh",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Genaire",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 15795087,
+   "gdp_lahn": 2356727305936,
+   "gdp_per_capita_lahn": 149206,
+   "gdp_per_capita_usd_equiv": 18651,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 8732,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 844223579336,
+   "trade_gdp": 0.6907,
+   "export_rank": 37,
+   "basket_top6": {
+    "Precious metals & gems": 0.449,
+    "Finance, business & IT services": 0.164,
+    "Machinery & industrial equipment": 0.074,
+    "Electronics & electrical": 0.056,
+    "Travel & tourism": 0.055,
+    "Vehicles, ships & aircraft": 0.047
+   },
+   "top_export_partners": [
+    "Raledria",
+    "New Misos",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Ohtina",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 33245174,
+   "gdp_lahn": 2332439156664,
+   "gdp_per_capita_lahn": 70159,
+   "gdp_per_capita_usd_equiv": 8770,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1182,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 539961403537,
+   "trade_gdp": 0.4909,
+   "export_rank": 49,
+   "basket_top6": {
+    "Food, crops & livestock": 0.268,
+    "Textiles & apparel": 0.176,
+    "Machinery & industrial equipment": 0.115,
+    "Finance, business & IT services": 0.103,
+    "Other manufactures": 0.085,
+    "Electronics & electrical": 0.076
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Oyreain",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 31491757,
+   "gdp_lahn": 2029468804504,
+   "gdp_per_capita_lahn": 64444,
+   "gdp_per_capita_usd_equiv": 8056,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 7245,
+   "land_neighbours": 0,
+   "transit_hub": true,
+   "exports_lahn": 1632281482285,
+   "trade_gdp": 1.6083,
+   "export_rank": 28,
+   "basket_top6": {
+    "Food, crops & livestock": 0.303,
+    "Textiles & apparel": 0.188,
+    "Travel & tourism": 0.134,
+    "Transport & logistics services": 0.123,
+    "Machinery & industrial equipment": 0.081,
+    "Other manufactures": 0.066
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Sanagara",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Anymna",
+   "continent": "Quia",
+   "subregion": "North Quia",
+   "population": 21768597,
+   "gdp_lahn": 1872790395664,
+   "gdp_per_capita_lahn": 86032,
+   "gdp_per_capita_usd_equiv": 10754,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3333,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 750297230934,
+   "trade_gdp": 0.7004,
+   "export_rank": 41,
+   "basket_top6": {
+    "Ores & base metals": 0.883,
+    "Travel & tourism": 0.029,
+    "Finance, business & IT services": 0.029,
+    "Transport & logistics services": 0.027,
+    "Precious metals & gems": 0.01,
+    "Food, crops & livestock": 0.004
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Ztesh",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Pelines",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 88057485,
+   "gdp_lahn": 1803081832640,
+   "gdp_per_capita_lahn": 20476,
+   "gdp_per_capita_usd_equiv": 2560,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 981,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 356213432148,
+   "trade_gdp": 0.38,
+   "export_rank": 59,
+   "basket_top6": {
+    "Food, crops & livestock": 0.435,
+    "Textiles & apparel": 0.192,
+    "Other manufactures": 0.085,
+    "Travel & tourism": 0.05,
+    "Machinery & industrial equipment": 0.049,
+    "Transport & logistics services": 0.039
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Pelugrotoa",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Chaenia",
+   "continent": "Mahea",
+   "subregion": "West Mahea",
+   "population": 13815053,
+   "gdp_lahn": 1798149753368,
+   "gdp_per_capita_lahn": 130159,
+   "gdp_per_capita_usd_equiv": 16270,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1622,
+   "land_neighbours": 2,
+   "transit_hub": true,
+   "exports_lahn": 1157633099841,
+   "trade_gdp": 1.3245,
+   "export_rank": 33,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.228,
+    "Electronics & electrical": 0.21,
+    "Vehicles, ships & aircraft": 0.124,
+    "Other manufactures": 0.099,
+    "Chemicals & pharmaceuticals": 0.099,
+    "Transport & logistics services": 0.076
+   },
+   "top_export_partners": [
+    "Seytinemas",
+    "Pelugrotoa",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Darewa",
+   "continent": "Ayuma",
+   "subregion": "West Ayuma",
+   "population": 19678480,
+   "gdp_lahn": 1767939610992,
+   "gdp_per_capita_lahn": 89841,
+   "gdp_per_capita_usd_equiv": 11230,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 338,
+   "land_neighbours": 8,
+   "transit_hub": false,
+   "exports_lahn": 573648558036,
+   "trade_gdp": 0.6645,
+   "export_rank": 47,
+   "basket_top6": {
+    "Finance, business & IT services": 0.308,
+    "Machinery & industrial equipment": 0.183,
+    "Food, crops & livestock": 0.143,
+    "Electronics & electrical": 0.113,
+    "Textiles & apparel": 0.065,
+    "Other manufactures": 0.058
+   },
+   "top_export_partners": [
+    "Verusa",
+    "Merela Sta",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Selaja",
+   "continent": "Mahea",
+   "subregion": "East Mahea",
+   "population": 31644352,
+   "gdp_lahn": 1617377973120,
+   "gdp_per_capita_lahn": 51111,
+   "gdp_per_capita_usd_equiv": 6389,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3415,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 515880203806,
+   "trade_gdp": 0.5763,
+   "export_rank": 51,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.589,
+    "Food, crops & livestock": 0.096,
+    "Textiles & apparel": 0.081,
+    "Travel & tourism": 0.044,
+    "Other manufactures": 0.04,
+    "Machinery & industrial equipment": 0.035
+   },
+   "top_export_partners": [
+    "Vayvele",
+    "Pelugrotoa",
+    "Sunsokua"
+   ]
+  },
+  {
+   "name": "Gaeiya",
+   "continent": "Atirha",
+   "subregion": "Central Atirha",
+   "population": 9533900,
+   "gdp_lahn": 1498184242120,
+   "gdp_per_capita_lahn": 157143,
+   "gdp_per_capita_usd_equiv": 19643,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 6066,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 786360523822,
+   "trade_gdp": 0.9654,
+   "export_rank": 39,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.817,
+    "Precious metals & gems": 0.132,
+    "Finance, business & IT services": 0.021,
+    "Travel & tourism": 0.013,
+    "Transport & logistics services": 0.009,
+    "Ores & base metals": 0.005
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Erkizil",
+   "continent": "Quia",
+   "subregion": "West Quia",
+   "population": 90945636,
+   "gdp_lahn": 1322320680464,
+   "gdp_per_capita_lahn": 14540,
+   "gdp_per_capita_usd_equiv": 1818,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2974,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 412446395773,
+   "trade_gdp": 0.6052,
+   "export_rank": 56,
+   "basket_top6": {
+    "Food, crops & livestock": 0.391,
+    "Machinery & industrial equipment": 0.27,
+    "Other manufactures": 0.228,
+    "Electronics & electrical": 0.095,
+    "Vehicles, ships & aircraft": 0.008,
+    "Textiles & apparel": 0.007
+   },
+   "top_export_partners": [
+    "Ahokini",
+    "Raledria",
+    "Quidic"
+   ]
+  },
+  {
+   "name": "Iareva",
+   "continent": "Quia",
+   "subregion": "South Quia",
+   "population": 8002152,
+   "gdp_lahn": 1320990146664,
+   "gdp_per_capita_lahn": 165079,
+   "gdp_per_capita_usd_equiv": 20635,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 11676,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 538807056307,
+   "trade_gdp": 0.7328,
+   "export_rank": 50,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.811,
+    "Precious metals & gems": 0.171,
+    "Finance, business & IT services": 0.011,
+    "Travel & tourism": 0.004,
+    "Transport & logistics services": 0.003,
+    "Refined fuels & coal": 0.0
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Desaki"
+   ]
+  },
+  {
+   "name": "Astye",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 44277194,
+   "gdp_lahn": 1308637069168,
+   "gdp_per_capita_lahn": 29556,
+   "gdp_per_capita_usd_equiv": 3694,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1336,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 308176988898,
+   "trade_gdp": 0.4571,
+   "export_rank": 62,
+   "basket_top6": {
+    "Food, crops & livestock": 0.426,
+    "Textiles & apparel": 0.209,
+    "Ores & base metals": 0.081,
+    "Other manufactures": 0.075,
+    "Machinery & industrial equipment": 0.044,
+    "Travel & tourism": 0.043
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Ohtina"
+   ]
+  },
+  {
+   "name": "Laselteh",
+   "continent": "Atirha",
+   "subregion": "East Atirha",
+   "population": 6524522,
+   "gdp_lahn": 1290405483784,
+   "gdp_per_capita_lahn": 197778,
+   "gdp_per_capita_usd_equiv": 24722,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 6462,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 467522145216,
+   "trade_gdp": 0.7554,
+   "export_rank": 53,
+   "basket_top6": {
+    "Finance, business & IT services": 0.244,
+    "Machinery & industrial equipment": 0.147,
+    "Vehicles, ships & aircraft": 0.11,
+    "Travel & tourism": 0.097,
+    "Electronics & electrical": 0.096,
+    "Chemicals & pharmaceuticals": 0.08
+   },
+   "top_export_partners": [
+    "Etirha",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Haiza",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 17079116,
+   "gdp_lahn": 1274156269104,
+   "gdp_per_capita_lahn": 74603,
+   "gdp_per_capita_usd_equiv": 9325,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2624,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 728062542593,
+   "trade_gdp": 1.0795,
+   "export_rank": 42,
+   "basket_top6": {
+    "Ores & base metals": 0.591,
+    "Machinery & industrial equipment": 0.134,
+    "Electronics & electrical": 0.104,
+    "Other manufactures": 0.064,
+    "Food, crops & livestock": 0.054,
+    "Vehicles, ships & aircraft": 0.028
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Sadain",
+   "continent": "Mahea",
+   "subregion": "East Mahea",
+   "population": 18288844,
+   "gdp_lahn": 1097330615008,
+   "gdp_per_capita_lahn": 60000,
+   "gdp_per_capita_usd_equiv": 7500,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1699,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 607434321263,
+   "trade_gdp": 0.9963,
+   "export_rank": 45,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Travel & tourism": 0.024,
+    "Finance, business & IT services": 0.02,
+    "Transport & logistics services": 0.018,
+    "Food, crops & livestock": 0.007,
+    "Textiles & apparel": 0.006
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Sunsokua",
+    "Vayvele"
+   ]
+  },
+  {
+   "name": "Disal Nila",
+   "continent": "Atirha",
+   "subregion": "East Atirha",
+   "population": 7438559,
+   "gdp_lahn": 1081542931592,
+   "gdp_per_capita_lahn": 145397,
+   "gdp_per_capita_usd_equiv": 18175,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1264,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 623112538319,
+   "trade_gdp": 1.0658,
+   "export_rank": 44,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.825,
+    "Finance, business & IT services": 0.047,
+    "Transport & logistics services": 0.022,
+    "Travel & tourism": 0.022,
+    "Machinery & industrial equipment": 0.019,
+    "Electronics & electrical": 0.016
+   },
+   "top_export_partners": [
+    "Etirha",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Acrana",
+   "continent": "Ayuma",
+   "subregion": "Central Ayuma",
+   "population": 14469041,
+   "gdp_lahn": 1024316244936,
+   "gdp_per_capita_lahn": 70794,
+   "gdp_per_capita_usd_equiv": 8849,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2047,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 391893010569,
+   "trade_gdp": 0.7634,
+   "export_rank": 57,
+   "basket_top6": {
+    "Food, crops & livestock": 0.373,
+    "Textiles & apparel": 0.199,
+    "Machinery & industrial equipment": 0.11,
+    "Finance, business & IT services": 0.089,
+    "Other manufactures": 0.068,
+    "Travel & tourism": 0.065
+   },
+   "top_export_partners": [
+    "Emara",
+    "Ealdorii",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Volver",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 17219177,
+   "gdp_lahn": 1016751379600,
+   "gdp_per_capita_lahn": 59048,
+   "gdp_per_capita_usd_equiv": 7381,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 606,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 264934305511,
+   "trade_gdp": 0.5143,
+   "export_rank": 66,
+   "basket_top6": {
+    "Food, crops & livestock": 0.345,
+    "Precious metals & gems": 0.34,
+    "Textiles & apparel": 0.187,
+    "Other manufactures": 0.029,
+    "Machinery & industrial equipment": 0.029,
+    "Finance, business & IT services": 0.023
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Myla",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Lydroa",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 18995781,
+   "gdp_lahn": 982956309488,
+   "gdp_per_capita_lahn": 51746,
+   "gdp_per_capita_usd_equiv": 6468,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 238318143500,
+   "trade_gdp": 0.4911,
+   "export_rank": 69,
+   "basket_top6": {
+    "Food, crops & livestock": 0.348,
+    "Textiles & apparel": 0.262,
+    "Finance, business & IT services": 0.096,
+    "Other manufactures": 0.082,
+    "Machinery & industrial equipment": 0.065,
+    "Electronics & electrical": 0.041
+   },
+   "top_export_partners": [
+    "Verusa",
+    "Estijan",
+    "Emara"
+   ]
+  },
+  {
+   "name": "North Ayre",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 10967500,
+   "gdp_lahn": 922662667288,
+   "gdp_per_capita_lahn": 84127,
+   "gdp_per_capita_usd_equiv": 10516,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 4052,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 760104642435,
+   "trade_gdp": 1.5831,
+   "export_rank": 40,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.475,
+    "Electronics & electrical": 0.345,
+    "Other manufactures": 0.102,
+    "Vehicles, ships & aircraft": 0.052,
+    "Crude oil & natural gas": 0.011,
+    "Chemicals & pharmaceuticals": 0.007
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Oyreain"
+   ]
+  },
+  {
+   "name": "Fermori",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 12299328,
+   "gdp_lahn": 905855251336,
+   "gdp_per_capita_lahn": 73651,
+   "gdp_per_capita_usd_equiv": 9206,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 586,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 350320872135,
+   "trade_gdp": 0.7675,
+   "export_rank": 60,
+   "basket_top6": {
+    "Food, crops & livestock": 0.344,
+    "Textiles & apparel": 0.169,
+    "Machinery & industrial equipment": 0.117,
+    "Refined fuels & coal": 0.083,
+    "Finance, business & IT services": 0.078,
+    "Electronics & electrical": 0.062
+   },
+   "top_export_partners": [
+    "Verusa",
+    "Estijan",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Pha Hii",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 2646840,
+   "gdp_lahn": 857071973704,
+   "gdp_per_capita_lahn": 323810,
+   "gdp_per_capita_usd_equiv": 40476,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 40,
+   "land_neighbours": 2,
+   "transit_hub": true,
+   "exports_lahn": 1655067862731,
+   "trade_gdp": 3.8891,
+   "export_rank": 25,
+   "basket_top6": {
+    "Finance, business & IT services": 0.109,
+    "Machinery & industrial equipment": 0.107,
+    "Vehicles, ships & aircraft": 0.104,
+    "Chemicals & pharmaceuticals": 0.1,
+    "Electronics & electrical": 0.099,
+    "Transport & logistics services": 0.095
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Sanagara",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Heiso",
+   "continent": "Ayuma",
+   "subregion": "North Acrola",
+   "population": 20605956,
+   "gdp_lahn": 778447236640,
+   "gdp_per_capita_lahn": 37778,
+   "gdp_per_capita_usd_equiv": 4722,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1712,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 215082145826,
+   "trade_gdp": 0.5604,
+   "export_rank": 73,
+   "basket_top6": {
+    "Food, crops & livestock": 0.346,
+    "Textiles & apparel": 0.235,
+    "Other manufactures": 0.094,
+    "Travel & tourism": 0.077,
+    "Machinery & industrial equipment": 0.065,
+    "Transport & logistics services": 0.044
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Estijan",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Arbiya",
+   "continent": "Atirha",
+   "subregion": "Central Atirha",
+   "population": 6585930,
+   "gdp_lahn": 769403884664,
+   "gdp_per_capita_lahn": 116825,
+   "gdp_per_capita_usd_equiv": 14603,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 1,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 284520041636,
+   "trade_gdp": 0.6675,
+   "export_rank": 63,
+   "basket_top6": {
+    "Precious metals & gems": 0.617,
+    "Finance, business & IT services": 0.095,
+    "Machinery & industrial equipment": 0.042,
+    "Transport & logistics services": 0.041,
+    "Electronics & electrical": 0.038,
+    "Travel & tourism": 0.037
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Ilicuhe",
+   "continent": "Ayuma",
+   "subregion": "South Ayuma",
+   "population": 3254988,
+   "gdp_lahn": 767763875584,
+   "gdp_per_capita_lahn": 235873,
+   "gdp_per_capita_usd_equiv": 29484,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 457,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 800079883735,
+   "trade_gdp": 2.1283,
+   "export_rank": 38,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.199,
+    "Vehicles, ships & aircraft": 0.174,
+    "Electronics & electrical": 0.159,
+    "Chemicals & pharmaceuticals": 0.134,
+    "Other manufactures": 0.107,
+    "Finance, business & IT services": 0.072
+   },
+   "top_export_partners": [
+    "Emara",
+    "Lycroa",
+    "Easuhura"
+   ]
+  },
+  {
+   "name": "Acetoa",
+   "continent": "Acrola",
+   "subregion": "North Acrola",
+   "population": 11203256,
+   "gdp_lahn": 746883758000,
+   "gdp_per_capita_lahn": 66667,
+   "gdp_per_capita_usd_equiv": 8333,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 179271426257,
+   "trade_gdp": 0.5032,
+   "export_rank": 81,
+   "basket_top6": {
+    "Food, crops & livestock": 0.285,
+    "Textiles & apparel": 0.191,
+    "Finance, business & IT services": 0.152,
+    "Machinery & industrial equipment": 0.101,
+    "Other manufactures": 0.082,
+    "Electronics & electrical": 0.066
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Isari",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 12783095,
+   "gdp_lahn": 738578841000,
+   "gdp_per_capita_lahn": 57778,
+   "gdp_per_capita_usd_equiv": 7222,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 4087,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 253751250538,
+   "trade_gdp": 0.7032,
+   "export_rank": 67,
+   "basket_top6": {
+    "Food, crops & livestock": 0.312,
+    "Textiles & apparel": 0.228,
+    "Travel & tourism": 0.144,
+    "Other manufactures": 0.084,
+    "Machinery & industrial equipment": 0.08,
+    "Electronics & electrical": 0.052
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Sivoso",
+   "continent": "Mahea",
+   "subregion": "West Mahea",
+   "population": 21995119,
+   "gdp_lahn": 651474490104,
+   "gdp_per_capita_lahn": 29619,
+   "gdp_per_capita_usd_equiv": 3702,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 693,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 198072730490,
+   "trade_gdp": 0.5476,
+   "export_rank": 79,
+   "basket_top6": {
+    "Ores & base metals": 0.592,
+    "Food, crops & livestock": 0.229,
+    "Textiles & apparel": 0.095,
+    "Other manufactures": 0.027,
+    "Machinery & industrial equipment": 0.014,
+    "Travel & tourism": 0.013
+   },
+   "top_export_partners": [
+    "Trian",
+    "Pelugrotoa",
+    "Seytinemas"
+   ]
+  },
+  {
+   "name": "Otiiric",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 21611863,
+   "gdp_lahn": 631203631472,
+   "gdp_per_capita_lahn": 29206,
+   "gdp_per_capita_usd_equiv": 3651,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2007,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 213214218115,
+   "trade_gdp": 0.6243,
+   "export_rank": 74,
+   "basket_top6": {
+    "Food, crops & livestock": 0.494,
+    "Crude oil & natural gas": 0.437,
+    "Textiles & apparel": 0.063,
+    "Other manufactures": 0.003,
+    "Travel & tourism": 0.001,
+    "Machinery & industrial equipment": 0.001
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Eldjo",
+   "continent": "Ayuma",
+   "subregion": "South Ayuma",
+   "population": 5393380,
+   "gdp_lahn": 594127927312,
+   "gdp_per_capita_lahn": 110159,
+   "gdp_per_capita_usd_equiv": 13770,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 160,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 273338110621,
+   "trade_gdp": 0.9507,
+   "export_rank": 65,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.24,
+    "Finance, business & IT services": 0.196,
+    "Electronics & electrical": 0.164,
+    "Travel & tourism": 0.154,
+    "Vehicles, ships & aircraft": 0.059,
+    "Chemicals & pharmaceuticals": 0.047
+   },
+   "top_export_partners": [
+    "Lycroa",
+    "Emara",
+    "Praesyu"
+   ]
+  },
+  {
+   "name": "Umarcia",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 12307247,
+   "gdp_lahn": 593873500000,
+   "gdp_per_capita_lahn": 48254,
+   "gdp_per_capita_usd_equiv": 6032,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1944,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 167265385557,
+   "trade_gdp": 0.5794,
+   "export_rank": 83,
+   "basket_top6": {
+    "Food, crops & livestock": 0.314,
+    "Textiles & apparel": 0.253,
+    "Other manufactures": 0.093,
+    "Travel & tourism": 0.084,
+    "Machinery & industrial equipment": 0.071,
+    "Finance, business & IT services": 0.049
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Maalle",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 22501433,
+   "gdp_lahn": 585751584000,
+   "gdp_per_capita_lahn": 26032,
+   "gdp_per_capita_usd_equiv": 3254,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3057,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 219181475325,
+   "trade_gdp": 0.6146,
+   "export_rank": 71,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Travel & tourism": 0.017,
+    "Ores & base metals": 0.016,
+    "Food, crops & livestock": 0.015,
+    "Transport & logistics services": 0.012,
+    "Finance, business & IT services": 0.01
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Mendereide",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 11019227,
+   "gdp_lahn": 556208595048,
+   "gdp_per_capita_lahn": 50476,
+   "gdp_per_capita_usd_equiv": 6310,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 6764,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 179070873557,
+   "trade_gdp": 0.6358,
+   "export_rank": 82,
+   "basket_top6": {
+    "Food, crops & livestock": 0.399,
+    "Textiles & apparel": 0.288,
+    "Other manufactures": 0.072,
+    "Travel & tourism": 0.058,
+    "Machinery & industrial equipment": 0.053,
+    "Crude oil & natural gas": 0.032
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Pelan",
+   "continent": "Atirha",
+   "subregion": "East Atirha",
+   "population": 13705584,
+   "gdp_lahn": 552574325168,
+   "gdp_per_capita_lahn": 40317,
+   "gdp_per_capita_usd_equiv": 5040,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 788,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 186344942120,
+   "trade_gdp": 0.6877,
+   "export_rank": 80,
+   "basket_top6": {
+    "Food, crops & livestock": 0.326,
+    "Textiles & apparel": 0.239,
+    "Other manufactures": 0.096,
+    "Machinery & industrial equipment": 0.068,
+    "Travel & tourism": 0.066,
+    "Transport & logistics services": 0.054
+   },
+   "top_export_partners": [
+    "Etirha",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Reerica",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 8871251,
+   "gdp_lahn": 540723884800,
+   "gdp_per_capita_lahn": 60952,
+   "gdp_per_capita_usd_equiv": 7619,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 976,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 206901151582,
+   "trade_gdp": 0.7487,
+   "export_rank": 76,
+   "basket_top6": {
+    "Food, crops & livestock": 0.427,
+    "Textiles & apparel": 0.239,
+    "Crude oil & natural gas": 0.138,
+    "Machinery & industrial equipment": 0.051,
+    "Other manufactures": 0.048,
+    "Finance, business & IT services": 0.028
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Hkuqo",
+   "continent": "Ayuma",
+   "subregion": "Central Ayuma",
+   "population": 22833760,
+   "gdp_lahn": 536412148888,
+   "gdp_per_capita_lahn": 23492,
+   "gdp_per_capita_usd_equiv": 2936,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3411,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 158408159481,
+   "trade_gdp": 0.5629,
+   "export_rank": 84,
+   "basket_top6": {
+    "Food, crops & livestock": 0.478,
+    "Textiles & apparel": 0.199,
+    "Other manufactures": 0.075,
+    "Travel & tourism": 0.051,
+    "Machinery & industrial equipment": 0.041,
+    "Ores & base metals": 0.037
+   },
+   "top_export_partners": [
+    "Ukhdari",
+    "Dahe",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Fincen",
+   "continent": "Atirha",
+   "subregion": "Central Atirha",
+   "population": 4620320,
+   "gdp_lahn": 475232888568,
+   "gdp_per_capita_lahn": 102857,
+   "gdp_per_capita_usd_equiv": 12857,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1489,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 209778124552,
+   "trade_gdp": 0.9177,
+   "export_rank": 75,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.238,
+    "Finance, business & IT services": 0.166,
+    "Food, crops & livestock": 0.131,
+    "Electronics & electrical": 0.103,
+    "Travel & tourism": 0.085,
+    "Transport & logistics services": 0.081
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "New Misos"
+   ]
+  },
+  {
+   "name": "Kusierna",
+   "continent": "Massir",
+   "subregion": "South Massir",
+   "population": 9164021,
+   "gdp_lahn": 471292501320,
+   "gdp_per_capita_lahn": 51429,
+   "gdp_per_capita_usd_equiv": 6429,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3398,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 144475750641,
+   "trade_gdp": 0.623,
+   "export_rank": 88,
+   "basket_top6": {
+    "Food, crops & livestock": 0.335,
+    "Textiles & apparel": 0.258,
+    "Other manufactures": 0.088,
+    "Travel & tourism": 0.079,
+    "Machinery & industrial equipment": 0.071,
+    "Electronics & electrical": 0.045
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Deschon",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 30642963,
+   "gdp_lahn": 446511749280,
+   "gdp_per_capita_lahn": 14571,
+   "gdp_per_capita_usd_equiv": 1821,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 215,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 108959485488,
+   "trade_gdp": 0.4576,
+   "export_rank": 97,
+   "basket_top6": {
+    "Food, crops & livestock": 0.494,
+    "Textiles & apparel": 0.182,
+    "Other manufactures": 0.08,
+    "Travel & tourism": 0.044,
+    "Machinery & industrial equipment": 0.04,
+    "Forestry, paper & fibres": 0.04
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Areoix Lie",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "United Mihili",
+   "continent": "Quia",
+   "subregion": "South Quia",
+   "population": 33524353,
+   "gdp_lahn": 443798574960,
+   "gdp_per_capita_lahn": 13238,
+   "gdp_per_capita_usd_equiv": 1655,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2216,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 101682415635,
+   "trade_gdp": 0.3698,
+   "export_rank": 100,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.701,
+    "Food, crops & livestock": 0.218,
+    "Textiles & apparel": 0.046,
+    "Other manufactures": 0.014,
+    "Travel & tourism": 0.006,
+    "Forestry, paper & fibres": 0.005
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Verste"
+   ]
+  },
+  {
+   "name": "Iainoa",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 15105090,
+   "gdp_lahn": 440205480000,
+   "gdp_per_capita_lahn": 29143,
+   "gdp_per_capita_usd_equiv": 3643,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2056,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 205653972781,
+   "trade_gdp": 0.8037,
+   "export_rank": 77,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Precious metals & gems": 0.039,
+    "Food, crops & livestock": 0.013,
+    "Travel & tourism": 0.011,
+    "Transport & logistics services": 0.008,
+    "Finance, business & IT services": 0.007
+   },
+   "top_export_partners": [
+    "Raledria",
+    "United Delet",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Nia",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 16302960,
+   "gdp_lahn": 439921136112,
+   "gdp_per_capita_lahn": 26984,
+   "gdp_per_capita_usd_equiv": 3373,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2679,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 157969955659,
+   "trade_gdp": 0.5854,
+   "export_rank": 85,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Ores & base metals": 0.074,
+    "Crude oil & natural gas": 0.026,
+    "Refined fuels & coal": 0.0,
+    "Food, crops & livestock": 0.0,
+    "Forestry, paper & fibres": 0.0
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Isnti",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 35956798,
+   "gdp_lahn": 429198605768,
+   "gdp_per_capita_lahn": 11937,
+   "gdp_per_capita_usd_equiv": 1492,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 460,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 151697849265,
+   "trade_gdp": 0.5517,
+   "export_rank": 86,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Food, crops & livestock": 0.086,
+    "Textiles & apparel": 0.012,
+    "Other manufactures": 0.001,
+    "Forestry, paper & fibres": 0.001,
+    "Machinery & industrial equipment": 0.0
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Ucrua",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 30764253,
+   "gdp_lahn": 408236755888,
+   "gdp_per_capita_lahn": 13270,
+   "gdp_per_capita_usd_equiv": 1659,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1176,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 112164473628,
+   "trade_gdp": 0.49,
+   "export_rank": 96,
+   "basket_top6": {
+    "Food, crops & livestock": 0.598,
+    "Textiles & apparel": 0.143,
+    "Forestry, paper & fibres": 0.125,
+    "Other manufactures": 0.046,
+    "Ores & base metals": 0.032,
+    "Machinery & industrial equipment": 0.017
+   },
+   "top_export_partners": [
+    "Taval",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Prystr Hii",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 1640804,
+   "gdp_lahn": 406815132176,
+   "gdp_per_capita_lahn": 247937,
+   "gdp_per_capita_usd_equiv": 30992,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 66,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 386368248288,
+   "trade_gdp": 1.9627,
+   "export_rank": 58,
+   "basket_top6": {
+    "Finance, business & IT services": 0.126,
+    "Machinery & industrial equipment": 0.109,
+    "Vehicles, ships & aircraft": 0.104,
+    "Chemicals & pharmaceuticals": 0.098,
+    "Electronics & electrical": 0.098,
+    "Transport & logistics services": 0.096
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Sanagara",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Curata",
+   "continent": "Atirha",
+   "subregion": "Central Atirha",
+   "population": 4523613,
+   "gdp_lahn": 406407119336,
+   "gdp_per_capita_lahn": 89841,
+   "gdp_per_capita_usd_equiv": 11230,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 845,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 199618448678,
+   "trade_gdp": 0.9922,
+   "export_rank": 78,
+   "basket_top6": {
+    "Food, crops & livestock": 0.329,
+    "Machinery & industrial equipment": 0.147,
+    "Finance, business & IT services": 0.136,
+    "Electronics & electrical": 0.1,
+    "Textiles & apparel": 0.063,
+    "Other manufactures": 0.058
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Phuris",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 27120468,
+   "gdp_lahn": 404654595272,
+   "gdp_per_capita_lahn": 14921,
+   "gdp_per_capita_usd_equiv": 1865,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 9123,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 121091099277,
+   "trade_gdp": 0.5514,
+   "export_rank": 91,
+   "basket_top6": {
+    "Food, crops & livestock": 0.553,
+    "Textiles & apparel": 0.173,
+    "Other manufactures": 0.067,
+    "Travel & tourism": 0.04,
+    "Crude oil & natural gas": 0.036,
+    "Machinery & industrial equipment": 0.03
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Prstreula",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 6835852,
+   "gdp_lahn": 394960343552,
+   "gdp_per_capita_lahn": 57778,
+   "gdp_per_capita_usd_equiv": 7222,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 4757,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 133833994790,
+   "trade_gdp": 0.6903,
+   "export_rank": 89,
+   "basket_top6": {
+    "Food, crops & livestock": 0.324,
+    "Textiles & apparel": 0.237,
+    "Other manufactures": 0.087,
+    "Travel & tourism": 0.085,
+    "Machinery & industrial equipment": 0.083,
+    "Electronics & electrical": 0.054
+   },
+   "top_export_partners": [
+    "Ohtina",
+    "Raledria",
+    "United Delet"
+   ]
+  },
+  {
+   "name": "Mesjan Hyaa",
+   "continent": "Quia",
+   "subregion": "South Quia",
+   "population": 2048851,
+   "gdp_lahn": 384403407664,
+   "gdp_per_capita_lahn": 187619,
+   "gdp_per_capita_usd_equiv": 23452,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2940,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 230209261118,
+   "trade_gdp": 1.1183,
+   "export_rank": 70,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.797,
+    "Ores & base metals": 0.198,
+    "Precious metals & gems": 0.005,
+    "Finance, business & IT services": 0.001,
+    "Travel & tourism": 0.0,
+    "Refined fuels & coal": 0.0
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Volver"
+   ]
+  },
+  {
+   "name": "Rijan bu",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 3626297,
+   "gdp_lahn": 375292997760,
+   "gdp_per_capita_lahn": 103492,
+   "gdp_per_capita_usd_equiv": 12936,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 539,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 218423162277,
+   "trade_gdp": 1.1434,
+   "export_rank": 72,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.311,
+    "Machinery & industrial equipment": 0.199,
+    "Electronics & electrical": 0.131,
+    "Finance, business & IT services": 0.131,
+    "Food, crops & livestock": 0.055,
+    "Other manufactures": 0.041
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Areoix Lie",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Palina",
+   "continent": "Ayuma",
+   "subregion": "West Ayuma",
+   "population": 3123402,
+   "gdp_lahn": 370842070800,
+   "gdp_per_capita_lahn": 118730,
+   "gdp_per_capita_usd_equiv": 14841,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 248025586776,
+   "trade_gdp": 1.3806,
+   "export_rank": 68,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.207,
+    "Electronics & electrical": 0.199,
+    "Vehicles, ships & aircraft": 0.152,
+    "Other manufactures": 0.134,
+    "Chemicals & pharmaceuticals": 0.102,
+    "Finance, business & IT services": 0.055
+   },
+   "top_export_partners": [
+    "Merela Sta",
+    "Verusa",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Nheyes Si",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 12224862,
+   "gdp_lahn": 359372141504,
+   "gdp_per_capita_lahn": 29397,
+   "gdp_per_capita_usd_equiv": 3675,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3103,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 100559994748,
+   "trade_gdp": 0.555,
+   "export_rank": 102,
+   "basket_top6": {
+    "Food, crops & livestock": 0.394,
+    "Textiles & apparel": 0.214,
+    "Other manufactures": 0.09,
+    "Travel & tourism": 0.067,
+    "Machinery & industrial equipment": 0.057,
+    "Transport & logistics services": 0.039
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Finae"
+   ]
+  },
+  {
+   "name": "Exilium",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 25083674,
+   "gdp_lahn": 349578818264,
+   "gdp_per_capita_lahn": 13937,
+   "gdp_per_capita_usd_equiv": 1742,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1259,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 90652855960,
+   "trade_gdp": 0.4874,
+   "export_rank": 109,
+   "basket_top6": {
+    "Food, crops & livestock": 0.497,
+    "Textiles & apparel": 0.152,
+    "Other manufactures": 0.074,
+    "Machinery & industrial equipment": 0.052,
+    "Travel & tourism": 0.044,
+    "Forestry, paper & fibres": 0.041
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Inrea"
+   ]
+  },
+  {
+   "name": "Feio Lie",
+   "continent": "Acrola",
+   "subregion": "North Acrola",
+   "population": 7849450,
+   "gdp_lahn": 348864430400,
+   "gdp_per_capita_lahn": 44444,
+   "gdp_per_capita_usd_equiv": 5556,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 89746240520,
+   "trade_gdp": 0.5292,
+   "export_rank": 110,
+   "basket_top6": {
+    "Food, crops & livestock": 0.32,
+    "Textiles & apparel": 0.259,
+    "Other manufactures": 0.095,
+    "Finance, business & IT services": 0.077,
+    "Machinery & industrial equipment": 0.067,
+    "Transport & logistics services": 0.054
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Ocaun",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 88913943,
+   "gdp_lahn": 347187777616,
+   "gdp_per_capita_lahn": 3905,
+   "gdp_per_capita_usd_equiv": 488,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3217,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 65214488775,
+   "trade_gdp": 0.291,
+   "export_rank": 120,
+   "basket_top6": {
+    "Food, crops & livestock": 0.703,
+    "Crude oil & natural gas": 0.118,
+    "Textiles & apparel": 0.115,
+    "Other manufactures": 0.029,
+    "Ores & base metals": 0.012,
+    "Forestry, paper & fibres": 0.011
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Iquir",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 36356117,
+   "gdp_lahn": 323165486256,
+   "gdp_per_capita_lahn": 8889,
+   "gdp_per_capita_usd_equiv": 1111,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 11,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 72199123729,
+   "trade_gdp": 0.3064,
+   "export_rank": 116,
+   "basket_top6": {
+    "Ores & base metals": 0.891,
+    "Food, crops & livestock": 0.086,
+    "Textiles & apparel": 0.012,
+    "Other manufactures": 0.004,
+    "Forestry, paper & fibres": 0.002,
+    "Machinery & industrial equipment": 0.002
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Onphello",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 10233103,
+   "gdp_lahn": 297572134544,
+   "gdp_per_capita_lahn": 29079,
+   "gdp_per_capita_usd_equiv": 3635,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2783,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 104952984932,
+   "trade_gdp": 0.6331,
+   "export_rank": 99,
+   "basket_top6": {
+    "Ores & base metals": 0.634,
+    "Food, crops & livestock": 0.213,
+    "Textiles & apparel": 0.084,
+    "Other manufactures": 0.023,
+    "Travel & tourism": 0.012,
+    "Machinery & industrial equipment": 0.012
+   },
+   "top_export_partners": [
+    "Finae",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Jshain",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 12584520,
+   "gdp_lahn": 292440265920,
+   "gdp_per_capita_lahn": 23238,
+   "gdp_per_capita_usd_equiv": 2905,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1557,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 93624234762,
+   "trade_gdp": 0.6326,
+   "export_rank": 107,
+   "basket_top6": {
+    "Food, crops & livestock": 0.407,
+    "Textiles & apparel": 0.2,
+    "Other manufactures": 0.092,
+    "Travel & tourism": 0.066,
+    "Machinery & industrial equipment": 0.056,
+    "Transport & logistics services": 0.04
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Uularin",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 5001934,
+   "gdp_lahn": 292176476536,
+   "gdp_per_capita_lahn": 58413,
+   "gdp_per_capita_usd_equiv": 7302,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 13,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 92450836123,
+   "trade_gdp": 0.6513,
+   "export_rank": 108,
+   "basket_top6": {
+    "Food, crops & livestock": 0.303,
+    "Textiles & apparel": 0.224,
+    "Finance, business & IT services": 0.125,
+    "Other manufactures": 0.087,
+    "Machinery & industrial equipment": 0.085,
+    "Electronics & electrical": 0.057
+   },
+   "top_export_partners": [
+    "Verusa",
+    "Estijan",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Eldavpir",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 29421790,
+   "gdp_lahn": 282075572648,
+   "gdp_per_capita_lahn": 9587,
+   "gdp_per_capita_usd_equiv": 1198,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 422,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 85475214669,
+   "trade_gdp": 0.478,
+   "export_rank": 112,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.794,
+    "Food, crops & livestock": 0.2,
+    "Ores & base metals": 0.004,
+    "Textiles & apparel": 0.002,
+    "Other manufactures": 0.0,
+    "Refined fuels & coal": 0.0
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Grazail",
+   "continent": "Atirha",
+   "subregion": "East Atirha",
+   "population": 3347590,
+   "gdp_lahn": 279497214848,
+   "gdp_per_capita_lahn": 83492,
+   "gdp_per_capita_usd_equiv": 10436,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1094,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 127616339330,
+   "trade_gdp": 0.925,
+   "export_rank": 90,
+   "basket_top6": {
+    "Food, crops & livestock": 0.248,
+    "Machinery & industrial equipment": 0.194,
+    "Textiles & apparel": 0.114,
+    "Electronics & electrical": 0.113,
+    "Finance, business & IT services": 0.107,
+    "Transport & logistics services": 0.079
+   },
+   "top_export_partners": [
+    "Etirha",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Lieri",
+   "continent": "Mahea",
+   "subregion": "North Mahea",
+   "population": 36478307,
+   "gdp_lahn": 270981712592,
+   "gdp_per_capita_lahn": 7429,
+   "gdp_per_capita_usd_equiv": 929,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 45791894578,
+   "trade_gdp": 0.3003,
+   "export_rank": 128,
+   "basket_top6": {
+    "Food, crops & livestock": 0.528,
+    "Textiles & apparel": 0.188,
+    "Other manufactures": 0.086,
+    "Forestry, paper & fibres": 0.049,
+    "Machinery & industrial equipment": 0.041,
+    "Travel & tourism": 0.024
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Seytinemas",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Oscairia",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 22386666,
+   "gdp_lahn": 270772051544,
+   "gdp_per_capita_lahn": 12095,
+   "gdp_per_capita_usd_equiv": 1512,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 214,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 114515835199,
+   "trade_gdp": 0.691,
+   "export_rank": 94,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Food, crops & livestock": 0.027,
+    "Travel & tourism": 0.016,
+    "Transport & logistics services": 0.013,
+    "Textiles & apparel": 0.012,
+    "Finance, business & IT services": 0.008
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Othya",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 30421695,
+   "gdp_lahn": 264620459400,
+   "gdp_per_capita_lahn": 8698,
+   "gdp_per_capita_usd_equiv": 1087,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 1,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 48329234437,
+   "trade_gdp": 0.32,
+   "export_rank": 126,
+   "basket_top6": {
+    "Food, crops & livestock": 0.553,
+    "Textiles & apparel": 0.167,
+    "Ores & base metals": 0.088,
+    "Other manufactures": 0.068,
+    "Forestry, paper & fibres": 0.035,
+    "Machinery & industrial equipment": 0.028
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Pelugrotoa",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Kaastini",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 4348275,
+   "gdp_lahn": 255374879016,
+   "gdp_per_capita_lahn": 58730,
+   "gdp_per_capita_usd_equiv": 7341,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 80495542197,
+   "trade_gdp": 0.6149,
+   "export_rank": 114,
+   "basket_top6": {
+    "Ores & base metals": 0.424,
+    "Food, crops & livestock": 0.214,
+    "Textiles & apparel": 0.144,
+    "Finance, business & IT services": 0.068,
+    "Other manufactures": 0.043,
+    "Machinery & industrial equipment": 0.041
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Suenan",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Ruylku",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 11838201,
+   "gdp_lahn": 252172463152,
+   "gdp_per_capita_lahn": 21302,
+   "gdp_per_capita_usd_equiv": 2663,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1963,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 95524078816,
+   "trade_gdp": 0.6719,
+   "export_rank": 105,
+   "basket_top6": {
+    "Food, crops & livestock": 0.686,
+    "Crude oil & natural gas": 0.228,
+    "Textiles & apparel": 0.064,
+    "Ores & base metals": 0.013,
+    "Other manufactures": 0.006,
+    "Machinery & industrial equipment": 0.001
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Taval",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Taing",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 2162677,
+   "gdp_lahn": 228625844728,
+   "gdp_per_capita_lahn": 105714,
+   "gdp_per_capita_usd_equiv": 13214,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 81330761103,
+   "trade_gdp": 0.7464,
+   "export_rank": 113,
+   "basket_top6": {
+    "Finance, business & IT services": 0.237,
+    "Machinery & industrial equipment": 0.146,
+    "Electronics & electrical": 0.125,
+    "Food, crops & livestock": 0.085,
+    "Other manufactures": 0.079,
+    "Vehicles, ships & aircraft": 0.075
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Seytinemas",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Zenashan",
+   "continent": "Ayuma",
+   "subregion": "Central Ayuma",
+   "population": 9819273,
+   "gdp_lahn": 227557755032,
+   "gdp_per_capita_lahn": 23175,
+   "gdp_per_capita_usd_equiv": 2897,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 516,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 85654788558,
+   "trade_gdp": 0.7433,
+   "export_rank": 111,
+   "basket_top6": {
+    "Food, crops & livestock": 0.414,
+    "Textiles & apparel": 0.202,
+    "Other manufactures": 0.092,
+    "Machinery & industrial equipment": 0.056,
+    "Travel & tourism": 0.054,
+    "Transport & logistics services": 0.044
+   },
+   "top_export_partners": [
+    "Emara",
+    "Ukhdari",
+    "Ealdorii"
+   ]
+  },
+  {
+   "name": "Inrea",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 2051970,
+   "gdp_lahn": 214316858312,
+   "gdp_per_capita_lahn": 104444,
+   "gdp_per_capita_usd_equiv": 13056,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2457,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 276120862718,
+   "trade_gdp": 2.5079,
+   "export_rank": 64,
+   "basket_top6": {
+    "Machinery & industrial equipment": 0.449,
+    "Electronics & electrical": 0.371,
+    "Vehicles, ships & aircraft": 0.073,
+    "Other manufactures": 0.055,
+    "Crude oil & natural gas": 0.046,
+    "Chemicals & pharmaceuticals": 0.006
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Fire Coast",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 7181169,
+   "gdp_lahn": 202896521632,
+   "gdp_per_capita_lahn": 28254,
+   "gdp_per_capita_usd_equiv": 3532,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 812,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 116764903467,
+   "trade_gdp": 1.0195,
+   "export_rank": 93,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Ores & base metals": 0.099,
+    "Food, crops & livestock": 0.001,
+    "Textiles & apparel": 0.0,
+    "Refined fuels & coal": 0.0,
+    "Precious metals & gems": 0.0
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Galca",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 16057397,
+   "gdp_lahn": 200335147856,
+   "gdp_per_capita_lahn": 12476,
+   "gdp_per_capita_usd_equiv": 1560,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3103,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 57373075795,
+   "trade_gdp": 0.5465,
+   "export_rank": 122,
+   "basket_top6": {
+    "Food, crops & livestock": 0.481,
+    "Textiles & apparel": 0.183,
+    "Other manufactures": 0.087,
+    "Forestry, paper & fibres": 0.05,
+    "Travel & tourism": 0.048,
+    "Machinery & industrial equipment": 0.043
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Sunsokua"
+   ]
+  },
+  {
+   "name": "Viussi",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 17339111,
+   "gdp_lahn": 185500965512,
+   "gdp_per_capita_lahn": 10698,
+   "gdp_per_capita_usd_equiv": 1337,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 33,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 35643748416,
+   "trade_gdp": 0.361,
+   "export_rank": 129,
+   "basket_top6": {
+    "Food, crops & livestock": 0.472,
+    "Textiles & apparel": 0.186,
+    "Other manufactures": 0.092,
+    "Forestry, paper & fibres": 0.055,
+    "Machinery & industrial equipment": 0.047,
+    "Travel & tourism": 0.04
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Ihner",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 6257140,
+   "gdp_lahn": 182946849288,
+   "gdp_per_capita_lahn": 29238,
+   "gdp_per_capita_usd_equiv": 3655,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1722,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 98236115222,
+   "trade_gdp": 0.9434,
+   "export_rank": 104,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Food, crops & livestock": 0.032,
+    "Textiles & apparel": 0.019,
+    "Other manufactures": 0.009,
+    "Travel & tourism": 0.008,
+    "Ores & base metals": 0.007
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Pelugrotoa",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Taoisia",
+   "continent": "Mahea",
+   "subregion": "West Mahea",
+   "population": 11247660,
+   "gdp_lahn": 160323783240,
+   "gdp_per_capita_lahn": 14254,
+   "gdp_per_capita_usd_equiv": 1782,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2187,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 69056661304,
+   "trade_gdp": 0.7111,
+   "export_rank": 118,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Refined fuels & coal": 0.06,
+    "Food, crops & livestock": 0.021,
+    "Textiles & apparel": 0.007,
+    "Travel & tourism": 0.003,
+    "Other manufactures": 0.003
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Trian"
+   ]
+  },
+  {
+   "name": "Tomscilus",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 1158763,
+   "gdp_lahn": 155605287600,
+   "gdp_per_capita_lahn": 134286,
+   "gdp_per_capita_usd_equiv": 16786,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 67,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 107413873122,
+   "trade_gdp": 1.4269,
+   "export_rank": 98,
+   "basket_top6": {
+    "Finance, business & IT services": 0.194,
+    "Machinery & industrial equipment": 0.153,
+    "Electronics & electrical": 0.127,
+    "Vehicles, ships & aircraft": 0.097,
+    "Transport & logistics services": 0.094,
+    "Travel & tourism": 0.092
+   },
+   "top_export_partners": [
+    "Raledria",
+    "New Misos",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Andsaudare",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 3146473,
+   "gdp_lahn": 153827547376,
+   "gdp_per_capita_lahn": 48889,
+   "gdp_per_capita_usd_equiv": 6111,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 2414,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 98313369520,
+   "trade_gdp": 1.1618,
+   "export_rank": 103,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Precious metals & gems": 0.1,
+    "Crude oil & natural gas": 0.0,
+    "Travel & tourism": 0.0,
+    "Refined fuels & coal": 0.0,
+    "Food, crops & livestock": 0.0
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Peka",
+   "continent": "Atirha",
+   "subregion": "East Atirha",
+   "population": 1300163,
+   "gdp_lahn": 151479360808,
+   "gdp_per_capita_lahn": 116508,
+   "gdp_per_capita_usd_equiv": 14564,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 798,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 120156604775,
+   "trade_gdp": 1.4947,
+   "export_rank": 92,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.686,
+    "Machinery & industrial equipment": 0.068,
+    "Electronics & electrical": 0.056,
+    "Finance, business & IT services": 0.046,
+    "Vehicles, ships & aircraft": 0.031,
+    "Other manufactures": 0.025
+   },
+   "top_export_partners": [
+    "Etirha",
+    "Raledria",
+    "Guise"
+   ]
+  },
+  {
+   "name": "lasri",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 2170550,
+   "gdp_lahn": 144703303344,
+   "gdp_per_capita_lahn": 66667,
+   "gdp_per_capita_usd_equiv": 8333,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 579,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 95452797310,
+   "trade_gdp": 1.2625,
+   "export_rank": 106,
+   "basket_top6": {
+    "Food, crops & livestock": 0.446,
+    "Textiles & apparel": 0.231,
+    "Crude oil & natural gas": 0.086,
+    "Machinery & industrial equipment": 0.08,
+    "Other manufactures": 0.057,
+    "Electronics & electrical": 0.039
+   },
+   "top_export_partners": [
+    "Raledria",
+    "New Misos",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Walporein",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 730203,
+   "gdp_lahn": 143722406664,
+   "gdp_per_capita_lahn": 196825,
+   "gdp_per_capita_usd_equiv": 24603,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 372,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 150542703242,
+   "trade_gdp": 2.0168,
+   "export_rank": 87,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.761,
+    "Finance, business & IT services": 0.086,
+    "Machinery & industrial equipment": 0.06,
+    "Vehicles, ships & aircraft": 0.032,
+    "Electronics & electrical": 0.024,
+    "Chemicals & pharmaceuticals": 0.016
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Shinam",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 31948027,
+   "gdp_lahn": 125763662424,
+   "gdp_per_capita_lahn": 3937,
+   "gdp_per_capita_usd_equiv": 492,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 30531458627,
+   "trade_gdp": 0.2998,
+   "export_rank": 131,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Ores & base metals": 0.058,
+    "Food, crops & livestock": 0.014,
+    "Travel & tourism": 0.006,
+    "Transport & logistics services": 0.006,
+    "Textiles & apparel": 0.005
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Haiza",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Baluyde",
+   "continent": "Quia",
+   "subregion": "North Quia",
+   "population": 1638021,
+   "gdp_lahn": 123241580000,
+   "gdp_per_capita_lahn": 75238,
+   "gdp_per_capita_usd_equiv": 9405,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 1381,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 75091540163,
+   "trade_gdp": 1.228,
+   "export_rank": 115,
+   "basket_top6": {
+    "Food, crops & livestock": 0.326,
+    "Travel & tourism": 0.204,
+    "Textiles & apparel": 0.159,
+    "Machinery & industrial equipment": 0.127,
+    "Electronics & electrical": 0.069,
+    "Other manufactures": 0.063
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Ztesh",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Koruch",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 820937,
+   "gdp_lahn": 119882925552,
+   "gdp_per_capita_lahn": 146032,
+   "gdp_per_capita_usd_equiv": 18254,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3444,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 113232468511,
+   "trade_gdp": 1.8027,
+   "export_rank": 95,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.825,
+    "Finance, business & IT services": 0.051,
+    "Travel & tourism": 0.038,
+    "Transport & logistics services": 0.032,
+    "Machinery & industrial equipment": 0.011,
+    "Electronics & electrical": 0.009
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Estijan",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Yihnurda",
+   "continent": "Quia",
+   "subregion": "North Quia",
+   "population": 8714286,
+   "gdp_lahn": 118956914264,
+   "gdp_per_capita_lahn": 13651,
+   "gdp_per_capita_usd_equiv": 1706,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 92,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 25743859182,
+   "trade_gdp": 0.3713,
+   "export_rank": 137,
+   "basket_top6": {
+    "Food, crops & livestock": 0.543,
+    "Precious metals & gems": 0.448,
+    "Textiles & apparel": 0.009,
+    "Other manufactures": 0.0,
+    "Crude oil & natural gas": 0.0,
+    "Refined fuels & coal": 0.0
+   },
+   "top_export_partners": [
+    "Verste",
+    "Ztesh",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Guise",
+   "continent": "Atirha",
+   "subregion": "East Atirha",
+   "population": 833491,
+   "gdp_lahn": 111925952552,
+   "gdp_per_capita_lahn": 134286,
+   "gdp_per_capita_usd_equiv": 16786,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 438,
+   "land_neighbours": 1,
+   "transit_hub": true,
+   "exports_lahn": 332380448273,
+   "trade_gdp": 5.8506,
+   "export_rank": 61,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.801,
+    "Transport & logistics services": 0.186,
+    "Machinery & industrial equipment": 0.006,
+    "Electronics & electrical": 0.004,
+    "Vehicles, ships & aircraft": 0.001,
+    "Finance, business & IT services": 0.001
+   },
+   "top_export_partners": [
+    "Etirha",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Ozinia",
+   "continent": "Mahea",
+   "subregion": "North Mahea",
+   "population": 7898975,
+   "gdp_lahn": 110836413392,
+   "gdp_per_capita_lahn": 14032,
+   "gdp_per_capita_usd_equiv": 1754,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 1,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 27143974690,
+   "trade_gdp": 0.4715,
+   "export_rank": 134,
+   "basket_top6": {
+    "Food, crops & livestock": 0.451,
+    "Textiles & apparel": 0.186,
+    "Other manufactures": 0.091,
+    "Forestry, paper & fibres": 0.05,
+    "Machinery & industrial equipment": 0.049,
+    "Travel & tourism": 0.044
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Byllu",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 9106539,
+   "gdp_lahn": 100894667008,
+   "gdp_per_capita_lahn": 11079,
+   "gdp_per_capita_usd_equiv": 1385,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 21875726271,
+   "trade_gdp": 0.4114,
+   "export_rank": 139,
+   "basket_top6": {
+    "Food, crops & livestock": 0.468,
+    "Textiles & apparel": 0.17,
+    "Other manufactures": 0.089,
+    "Forestry, paper & fibres": 0.056,
+    "Machinery & industrial equipment": 0.048,
+    "Travel & tourism": 0.046
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Jathua",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 13153004,
+   "gdp_lahn": 90192030720,
+   "gdp_per_capita_lahn": 6857,
+   "gdp_per_capita_usd_equiv": 857,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 1,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 19183546699,
+   "trade_gdp": 0.3518,
+   "export_rank": 141,
+   "basket_top6": {
+    "Food, crops & livestock": 0.657,
+    "Ores & base metals": 0.191,
+    "Textiles & apparel": 0.091,
+    "Other manufactures": 0.029,
+    "Forestry, paper & fibres": 0.012,
+    "Machinery & industrial equipment": 0.009
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Crila Republic",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 945980,
+   "gdp_lahn": 90003282912,
+   "gdp_per_capita_lahn": 95143,
+   "gdp_per_capita_usd_equiv": 11893,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 236,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 69486774938,
+   "trade_gdp": 1.581,
+   "export_rank": 117,
+   "basket_top6": {
+    "Travel & tourism": 0.232,
+    "Machinery & industrial equipment": 0.158,
+    "Electronics & electrical": 0.123,
+    "Food, crops & livestock": 0.11,
+    "Finance, business & IT services": 0.096,
+    "Other manufactures": 0.075
+   },
+   "top_export_partners": [
+    "United Delet",
+    "Raledria",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Taniduna",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 45062542,
+   "gdp_lahn": 84402856960,
+   "gdp_per_capita_lahn": 1873,
+   "gdp_per_capita_usd_equiv": 234,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 21,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 21247565913,
+   "trade_gdp": 0.3059,
+   "export_rank": 140,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Refined fuels & coal": 0.026,
+    "Food, crops & livestock": 0.019,
+    "Travel & tourism": 0.009,
+    "Crude oil & natural gas": 0.009,
+    "Transport & logistics services": 0.008
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Aetintio",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 1405387,
+   "gdp_lahn": 81646278872,
+   "gdp_per_capita_lahn": 58095,
+   "gdp_per_capita_usd_equiv": 7262,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 328,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 46098081451,
+   "trade_gdp": 1.1525,
+   "export_rank": 127,
+   "basket_top6": {
+    "Food, crops & livestock": 0.286,
+    "Textiles & apparel": 0.166,
+    "Machinery & industrial equipment": 0.129,
+    "Other manufactures": 0.082,
+    "Finance, business & IT services": 0.08,
+    "Travel & tourism": 0.076
+   },
+   "top_export_partners": [
+    "Raledria",
+    "New Misos",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Jau",
+   "continent": "Acrola",
+   "subregion": "North Acrola",
+   "population": 22993720,
+   "gdp_lahn": 80295531848,
+   "gdp_per_capita_lahn": 3492,
+   "gdp_per_capita_usd_equiv": 436,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 1,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 17523093025,
+   "trade_gdp": 0.2475,
+   "export_rank": 143,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Ores & base metals": 0.07,
+    "Food, crops & livestock": 0.019,
+    "Precious metals & gems": 0.004,
+    "Textiles & apparel": 0.003,
+    "Other manufactures": 0.001
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Rtesania",
+   "continent": "Mahea",
+   "subregion": "North Mahea",
+   "population": 9975075,
+   "gdp_lahn": 70933864864,
+   "gdp_per_capita_lahn": 7111,
+   "gdp_per_capita_usd_equiv": 889,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 16,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 15718934805,
+   "trade_gdp": 0.4085,
+   "export_rank": 145,
+   "basket_top6": {
+    "Food, crops & livestock": 0.518,
+    "Textiles & apparel": 0.192,
+    "Other manufactures": 0.091,
+    "Forestry, paper & fibres": 0.053,
+    "Machinery & industrial equipment": 0.044,
+    "Travel & tourism": 0.026
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Slyiaduun",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 2166683,
+   "gdp_lahn": 69471408984,
+   "gdp_per_capita_lahn": 32063,
+   "gdp_per_capita_usd_equiv": 4008,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 768,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 54004922802,
+   "trade_gdp": 1.4267,
+   "export_rank": 124,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Food, crops & livestock": 0.065,
+    "Textiles & apparel": 0.025,
+    "Other manufactures": 0.005,
+    "Machinery & industrial equipment": 0.002,
+    "Electronics & electrical": 0.001
+   },
+   "top_export_partners": [
+    "Raledria",
+    "New Misos",
+    "Tomscilus"
+   ]
+  },
+  {
+   "name": "Eparia",
+   "continent": "Massir",
+   "subregion": "South Massir",
+   "population": 4070555,
+   "gdp_lahn": 68747150048,
+   "gdp_per_capita_lahn": 16889,
+   "gdp_per_capita_usd_equiv": 2111,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1697,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 28152319327,
+   "trade_gdp": 0.7936,
+   "export_rank": 133,
+   "basket_top6": {
+    "Food, crops & livestock": 0.474,
+    "Textiles & apparel": 0.17,
+    "Other manufactures": 0.082,
+    "Travel & tourism": 0.063,
+    "Machinery & industrial equipment": 0.046,
+    "Forestry, paper & fibres": 0.04
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Pelugrotoa",
+    "Etretes"
+   ]
+  },
+  {
+   "name": "Stinebar",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 345037,
+   "gdp_lahn": 68021586368,
+   "gdp_per_capita_lahn": 197143,
+   "gdp_per_capita_usd_equiv": 24643,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 419,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 65194776354,
+   "trade_gdp": 1.9738,
+   "export_rank": 121,
+   "basket_top6": {
+    "Finance, business & IT services": 0.151,
+    "Machinery & industrial equipment": 0.13,
+    "Travel & tourism": 0.127,
+    "Vehicles, ships & aircraft": 0.112,
+    "Electronics & electrical": 0.105,
+    "Chemicals & pharmaceuticals": 0.095
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Sanagara"
+   ]
+  },
+  {
+   "name": "Yutnitu",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 447879,
+   "gdp_lahn": 66257665592,
+   "gdp_per_capita_lahn": 147937,
+   "gdp_per_capita_usd_equiv": 18492,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 448,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 57082970302,
+   "trade_gdp": 1.7721,
+   "export_rank": 123,
+   "basket_top6": {
+    "Travel & tourism": 0.183,
+    "Finance, business & IT services": 0.17,
+    "Machinery & industrial equipment": 0.166,
+    "Electronics & electrical": 0.122,
+    "Vehicles, ships & aircraft": 0.101,
+    "Chemicals & pharmaceuticals": 0.069
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Candenat",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 27332521,
+   "gdp_lahn": 65945129064,
+   "gdp_per_capita_lahn": 2413,
+   "gdp_per_capita_usd_equiv": 302,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 17,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 10467068048,
+   "trade_gdp": 0.2548,
+   "export_rank": 151,
+   "basket_top6": {
+    "Food, crops & livestock": 0.63,
+    "Textiles & apparel": 0.19,
+    "Other manufactures": 0.077,
+    "Forestry, paper & fibres": 0.04,
+    "Machinery & industrial equipment": 0.032,
+    "Chemicals & pharmaceuticals": 0.008
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Umendel",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 7437017,
+   "gdp_lahn": 63037569176,
+   "gdp_per_capita_lahn": 8476,
+   "gdp_per_capita_usd_equiv": 1060,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 902,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 24442774099,
+   "trade_gdp": 0.6664,
+   "export_rank": 138,
+   "basket_top6": {
+    "Food, crops & livestock": 0.78,
+    "Crude oil & natural gas": 0.084,
+    "Textiles & apparel": 0.083,
+    "Ores & base metals": 0.029,
+    "Other manufactures": 0.015,
+    "Forestry, paper & fibres": 0.004
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Aplasia",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 376609,
+   "gdp_lahn": 57148913560,
+   "gdp_per_capita_lahn": 151746,
+   "gdp_per_capita_usd_equiv": 18968,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 528,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 65663397277,
+   "trade_gdp": 2.2127,
+   "export_rank": 119,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.82,
+    "Finance, business & IT services": 0.042,
+    "Machinery & industrial equipment": 0.027,
+    "Electronics & electrical": 0.021,
+    "Vehicles, ships & aircraft": 0.018,
+    "Chemicals & pharmaceuticals": 0.013
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "United Delet"
+   ]
+  },
+  {
+   "name": "Ikzen",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 3103322,
+   "gdp_lahn": 54184983112,
+   "gdp_per_capita_lahn": 17460,
+   "gdp_per_capita_usd_equiv": 2182,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 26741068004,
+   "trade_gdp": 0.8423,
+   "export_rank": 135,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Precious metals & gems": 0.033,
+    "Food, crops & livestock": 0.017,
+    "Transport & logistics services": 0.01,
+    "Finance, business & IT services": 0.009,
+    "Textiles & apparel": 0.009
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Estijan",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Canldives",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 759043,
+   "gdp_lahn": 51566719720,
+   "gdp_per_capita_lahn": 67937,
+   "gdp_per_capita_usd_equiv": 8492,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 895,
+   "land_neighbours": 0,
+   "transit_hub": true,
+   "exports_lahn": 100632708768,
+   "trade_gdp": 3.93,
+   "export_rank": 101,
+   "basket_top6": {
+    "Transport & logistics services": 0.271,
+    "Travel & tourism": 0.164,
+    "Machinery & industrial equipment": 0.09,
+    "Electronics & electrical": 0.082,
+    "Finance, business & IT services": 0.08,
+    "Food, crops & livestock": 0.08
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Sattle",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 9388939,
+   "gdp_lahn": 50074342432,
+   "gdp_per_capita_lahn": 5333,
+   "gdp_per_capita_usd_equiv": 667,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 11779037456,
+   "trade_gdp": 0.4087,
+   "export_rank": 150,
+   "basket_top6": {
+    "Food, crops & livestock": 0.618,
+    "Textiles & apparel": 0.169,
+    "Ores & base metals": 0.066,
+    "Other manufactures": 0.064,
+    "Forestry, paper & fibres": 0.031,
+    "Machinery & industrial equipment": 0.025
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Pruim Fijan",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 3307617,
+   "gdp_lahn": 45046591000,
+   "gdp_per_capita_lahn": 13619,
+   "gdp_per_capita_usd_equiv": 1702,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 606,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 35217693529,
+   "trade_gdp": 1.412,
+   "export_rank": 130,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Food, crops & livestock": 0.025,
+    "Travel & tourism": 0.016,
+    "Transport & logistics services": 0.013,
+    "Textiles & apparel": 0.012,
+    "Finance, business & IT services": 0.009
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Taval"
+   ]
+  },
+  {
+   "name": "Danocia",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 2020940,
+   "gdp_lahn": 43626642888,
+   "gdp_per_capita_lahn": 21587,
+   "gdp_per_capita_usd_equiv": 2698,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3219,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 26307875256,
+   "trade_gdp": 1.0671,
+   "export_rank": 136,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Food, crops & livestock": 0.054,
+    "Textiles & apparel": 0.022,
+    "Other manufactures": 0.008,
+    "Machinery & industrial equipment": 0.004,
+    "Forestry, paper & fibres": 0.003
+   },
+   "top_export_partners": [
+    "Estijan",
+    "Raledria",
+    "Emara"
+   ]
+  },
+  {
+   "name": "New Kizura",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 133065,
+   "gdp_lahn": 43510095448,
+   "gdp_per_capita_lahn": 326984,
+   "gdp_per_capita_usd_equiv": 40873,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 4141,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 48638042575,
+   "trade_gdp": 2.1715,
+   "export_rank": 125,
+   "basket_top6": {
+    "Finance, business & IT services": 0.408,
+    "Ores & base metals": 0.286,
+    "Machinery & industrial equipment": 0.14,
+    "Vehicles, ships & aircraft": 0.079,
+    "Travel & tourism": 0.031,
+    "Chemicals & pharmaceuticals": 0.03
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Estijan",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Saa",
+   "continent": "Acrola",
+   "subregion": "Middle Acrola",
+   "population": 2549416,
+   "gdp_lahn": 38848245336,
+   "gdp_per_capita_lahn": 15238,
+   "gdp_per_capita_usd_equiv": 1905,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1633,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 29682868726,
+   "trade_gdp": 1.3797,
+   "export_rank": 132,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.9,
+    "Food, crops & livestock": 0.024,
+    "Travel & tourism": 0.017,
+    "Textiles & apparel": 0.012,
+    "Transport & logistics services": 0.011,
+    "Ores & base metals": 0.01
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Amcha",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 2236563,
+   "gdp_lahn": 34293971592,
+   "gdp_per_capita_lahn": 15333,
+   "gdp_per_capita_usd_equiv": 1917,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 3831,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 18118997638,
+   "trade_gdp": 0.9084,
+   "export_rank": 142,
+   "basket_top6": {
+    "Ores & base metals": 0.887,
+    "Food, crops & livestock": 0.11,
+    "Textiles & apparel": 0.002,
+    "Other manufactures": 0.0,
+    "Crude oil & natural gas": 0.0,
+    "Refined fuels & coal": 0.0
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Hyelen",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 1724423,
+   "gdp_lahn": 33722051440,
+   "gdp_per_capita_lahn": 19556,
+   "gdp_per_capita_usd_equiv": 2444,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1666,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 14238330479,
+   "trade_gdp": 0.8189,
+   "export_rank": 149,
+   "basket_top6": {
+    "Food, crops & livestock": 0.473,
+    "Textiles & apparel": 0.195,
+    "Other manufactures": 0.083,
+    "Travel & tourism": 0.048,
+    "Machinery & industrial equipment": 0.045,
+    "Forestry, paper & fibres": 0.033
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Finae"
+   ]
+  },
+  {
+   "name": "Welenu Fana",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 19674606,
+   "gdp_lahn": 30729860904,
+   "gdp_per_capita_lahn": 1562,
+   "gdp_per_capita_usd_equiv": 195,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 923,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 15821409486,
+   "trade_gdp": 0.8321,
+   "export_rank": 144,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Crude oil & natural gas": 0.098,
+    "Ores & base metals": 0.002,
+    "Food, crops & livestock": 0.0,
+    "Refined fuels & coal": 0.0,
+    "Forestry, paper & fibres": 0.0
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Urbiqu",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 1914198,
+   "gdp_lahn": 27345692000,
+   "gdp_per_capita_lahn": 14286,
+   "gdp_per_capita_usd_equiv": 1786,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 7,
+   "transit_hub": false,
+   "exports_lahn": 14333623853,
+   "trade_gdp": 0.8981,
+   "export_rank": 148,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Food, crops & livestock": 0.026,
+    "Travel & tourism": 0.014,
+    "Transport & logistics services": 0.013,
+    "Textiles & apparel": 0.013,
+    "Finance, business & IT services": 0.012
+   },
+   "top_export_partners": [
+    "Emara",
+    "Verusa",
+    "Praesyu"
+   ]
+  },
+  {
+   "name": "Metndria",
+   "continent": "Atirha",
+   "subregion": "West Atirha",
+   "population": 635532,
+   "gdp_lahn": 22596698912,
+   "gdp_per_capita_lahn": 35556,
+   "gdp_per_capita_usd_equiv": 4444,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 1168,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 14374124359,
+   "trade_gdp": 1.282,
+   "export_rank": 147,
+   "basket_top6": {
+    "Food, crops & livestock": 0.34,
+    "Textiles & apparel": 0.222,
+    "Travel & tourism": 0.106,
+    "Other manufactures": 0.095,
+    "Machinery & industrial equipment": 0.065,
+    "Electronics & electrical": 0.042
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "New Misos"
+   ]
+  },
+  {
+   "name": "Zhanshe",
+   "continent": "Quia",
+   "subregion": "East Quia",
+   "population": 7354910,
+   "gdp_lahn": 20780538064,
+   "gdp_per_capita_lahn": 2825,
+   "gdp_per_capita_usd_equiv": 353,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 7,
+   "land_neighbours": 8,
+   "transit_hub": false,
+   "exports_lahn": 7790623261,
+   "trade_gdp": 0.555,
+   "export_rank": 154,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Ores & base metals": 0.047,
+    "Food, crops & livestock": 0.015,
+    "Travel & tourism": 0.007,
+    "Crude oil & natural gas": 0.007,
+    "Transport & logistics services": 0.006
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Anymna",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Niretui and Anulan",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 189681,
+   "gdp_lahn": 16318608264,
+   "gdp_per_capita_lahn": 86032,
+   "gdp_per_capita_usd_equiv": 10754,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 365,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 14785371761,
+   "trade_gdp": 1.8462,
+   "export_rank": 146,
+   "basket_top6": {
+    "Food, crops & livestock": 0.196,
+    "Finance, business & IT services": 0.192,
+    "Machinery & industrial equipment": 0.188,
+    "Electronics & electrical": 0.111,
+    "Textiles & apparel": 0.088,
+    "Travel & tourism": 0.07
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Walporein",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Migoku",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 6231859,
+   "gdp_lahn": 15431270032,
+   "gdp_per_capita_lahn": 2476,
+   "gdp_per_capita_usd_equiv": 310,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1027,
+   "land_neighbours": 5,
+   "transit_hub": false,
+   "exports_lahn": 6344065205,
+   "trade_gdp": 0.6246,
+   "export_rank": 156,
+   "basket_top6": {
+    "Ores & base metals": 0.9,
+    "Food, crops & livestock": 0.069,
+    "Textiles & apparel": 0.017,
+    "Other manufactures": 0.006,
+    "Forestry, paper & fibres": 0.003,
+    "Machinery & industrial equipment": 0.002
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Pelugrotoa",
+    "Raledria"
+   ]
+  },
+  {
+   "name": "Rinew",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 233966,
+   "gdp_lahn": 11512627752,
+   "gdp_per_capita_lahn": 49206,
+   "gdp_per_capita_usd_equiv": 6151,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 1248,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 9225484000,
+   "trade_gdp": 1.6214,
+   "export_rank": 152,
+   "basket_top6": {
+    "Food, crops & livestock": 0.304,
+    "Textiles & apparel": 0.244,
+    "Travel & tourism": 0.126,
+    "Other manufactures": 0.092,
+    "Machinery & industrial equipment": 0.072,
+    "Electronics & electrical": 0.048
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Areoix Lie",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Veelmit",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 828597,
+   "gdp_lahn": 11284702000,
+   "gdp_per_capita_lahn": 13619,
+   "gdp_per_capita_usd_equiv": 1702,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 1250,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 7148644960,
+   "trade_gdp": 1.1207,
+   "export_rank": 155,
+   "basket_top6": {
+    "Food, crops & livestock": 0.794,
+    "Crude oil & natural gas": 0.193,
+    "Textiles & apparel": 0.013,
+    "Other manufactures": 0.001,
+    "Refined fuels & coal": 0.0,
+    "Ores & base metals": 0.0
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "United Delet"
+   ]
+  },
+  {
+   "name": "Shomjind",
+   "continent": "Quia",
+   "subregion": "North Quia",
+   "population": 2898502,
+   "gdp_lahn": 9201592888,
+   "gdp_per_capita_lahn": 3175,
+   "gdp_per_capita_usd_equiv": 397,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 2433,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 3588655573,
+   "trade_gdp": 0.7229,
+   "export_rank": 161,
+   "basket_top6": {
+    "Food, crops & livestock": 0.607,
+    "Textiles & apparel": 0.194,
+    "Other manufactures": 0.081,
+    "Forestry, paper & fibres": 0.043,
+    "Machinery & industrial equipment": 0.035,
+    "Chemicals & pharmaceuticals": 0.009
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Ztesh"
+   ]
+  },
+  {
+   "name": "Elja and Munusia",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 495291,
+   "gdp_lahn": 8962415808,
+   "gdp_per_capita_lahn": 18095,
+   "gdp_per_capita_usd_equiv": 2262,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 538,
+   "land_neighbours": 1,
+   "transit_hub": false,
+   "exports_lahn": 8041386673,
+   "trade_gdp": 1.6507,
+   "export_rank": 153,
+   "basket_top6": {
+    "Food, crops & livestock": 0.803,
+    "Ores & base metals": 0.169,
+    "Textiles & apparel": 0.026,
+    "Other manufactures": 0.001,
+    "Machinery & industrial equipment": 0.0,
+    "Crude oil & natural gas": 0.0
+   },
+   "top_export_partners": [
+    "Raledria",
+    "United Delet",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Rkmepuia",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 324028,
+   "gdp_lahn": 6748018346,
+   "gdp_per_capita_lahn": 20825,
+   "gdp_per_capita_usd_equiv": 2603,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 827,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 5053801023,
+   "trade_gdp": 1.493,
+   "export_rank": 159,
+   "basket_top6": {
+    "Food, crops & livestock": 0.399,
+    "Textiles & apparel": 0.194,
+    "Other manufactures": 0.094,
+    "Travel & tourism": 0.086,
+    "Machinery & industrial equipment": 0.057,
+    "Forestry, paper & fibres": 0.041
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Yoprioq",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 5131190,
+   "gdp_lahn": 6515797049,
+   "gdp_per_capita_lahn": 1270,
+   "gdp_per_capita_usd_equiv": 159,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 1,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 1489400012,
+   "trade_gdp": 0.3946,
+   "export_rank": 165,
+   "basket_top6": {
+    "Food, crops & livestock": 0.629,
+    "Textiles & apparel": 0.19,
+    "Other manufactures": 0.077,
+    "Forestry, paper & fibres": 0.04,
+    "Machinery & industrial equipment": 0.032,
+    "Chemicals & pharmaceuticals": 0.008
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Pelugrotoa",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Niul Spijan",
+   "continent": "Ayuma",
+   "subregion": "North Ayuma",
+   "population": 220218,
+   "gdp_lahn": 6082200381,
+   "gdp_per_capita_lahn": 27619,
+   "gdp_per_capita_usd_equiv": 3452,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 1805,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 4883086104,
+   "trade_gdp": 1.6086,
+   "export_rank": 160,
+   "basket_top6": {
+    "Food, crops & livestock": 0.368,
+    "Textiles & apparel": 0.204,
+    "Travel & tourism": 0.096,
+    "Other manufactures": 0.095,
+    "Machinery & industrial equipment": 0.062,
+    "Electronics & electrical": 0.038
+   },
+   "top_export_partners": [
+    "Estijan",
+    "Raledria",
+    "Areoix Lie"
+   ]
+  },
+  {
+   "name": "Hiwush",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 239092,
+   "gdp_lahn": 5981088149,
+   "gdp_per_capita_lahn": 25016,
+   "gdp_per_capita_usd_equiv": 3127,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 673,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 5055557068,
+   "trade_gdp": 1.6907,
+   "export_rank": 158,
+   "basket_top6": {
+    "Food, crops & livestock": 0.379,
+    "Textiles & apparel": 0.2,
+    "Other manufactures": 0.094,
+    "Travel & tourism": 0.092,
+    "Machinery & industrial equipment": 0.06,
+    "Transport & logistics services": 0.037
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Cloja",
+   "continent": "Massir",
+   "subregion": "West Massir",
+   "population": 47933,
+   "gdp_lahn": 4321584498,
+   "gdp_per_capita_lahn": 90159,
+   "gdp_per_capita_usd_equiv": 11270,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 363,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 5676340440,
+   "trade_gdp": 2.6624,
+   "export_rank": 157,
+   "basket_top6": {
+    "Travel & tourism": 0.238,
+    "Machinery & industrial equipment": 0.154,
+    "Food, crops & livestock": 0.13,
+    "Electronics & electrical": 0.115,
+    "Finance, business & IT services": 0.087,
+    "Textiles & apparel": 0.08
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "North Ayre"
+   ]
+  },
+  {
+   "name": "Rethern",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 82798,
+   "gdp_lahn": 3338207530,
+   "gdp_per_capita_lahn": 40317,
+   "gdp_per_capita_usd_equiv": 5040,
+   "landlocked": false,
+   "island": false,
+   "coast_km": 166,
+   "land_neighbours": 2,
+   "transit_hub": false,
+   "exports_lahn": 3523045255,
+   "trade_gdp": 2.1226,
+   "export_rank": 162,
+   "basket_top6": {
+    "Food, crops & livestock": 0.331,
+    "Textiles & apparel": 0.241,
+    "Other manufactures": 0.096,
+    "Machinery & industrial equipment": 0.067,
+    "Travel & tourism": 0.064,
+    "Transport & logistics services": 0.052
+   },
+   "top_export_partners": [
+    "Walporein",
+    "Raledria",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Western Migoku",
+   "continent": "Massir",
+   "subregion": "North Massir",
+   "population": 2950683,
+   "gdp_lahn": 3006886674,
+   "gdp_per_capita_lahn": 1019,
+   "gdp_per_capita_usd_equiv": 127,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 12,
+   "land_neighbours": 4,
+   "transit_hub": false,
+   "exports_lahn": 757682986,
+   "trade_gdp": 0.4414,
+   "export_rank": 169,
+   "basket_top6": {
+    "Food, crops & livestock": 0.629,
+    "Textiles & apparel": 0.19,
+    "Other manufactures": 0.077,
+    "Forestry, paper & fibres": 0.04,
+    "Machinery & industrial equipment": 0.032,
+    "Chemicals & pharmaceuticals": 0.008
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Pelugrotoa"
+   ]
+  },
+  {
+   "name": "Enina",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 51690,
+   "gdp_lahn": 2018375334,
+   "gdp_per_capita_lahn": 39048,
+   "gdp_per_capita_usd_equiv": 4881,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 194,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 2493342649,
+   "trade_gdp": 2.483,
+   "export_rank": 163,
+   "basket_top6": {
+    "Food, crops & livestock": 0.33,
+    "Textiles & apparel": 0.182,
+    "Travel & tourism": 0.124,
+    "Other manufactures": 0.09,
+    "Machinery & industrial equipment": 0.068,
+    "Electronics & electrical": 0.049
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Far Lands",
+   "continent": "Quia",
+   "subregion": "South Quia",
+   "population": 1441954,
+   "gdp_lahn": 1785276306,
+   "gdp_per_capita_lahn": 1238,
+   "gdp_per_capita_usd_equiv": 155,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 6,
+   "transit_hub": false,
+   "exports_lahn": 924778237,
+   "trade_gdp": 0.8384,
+   "export_rank": 168,
+   "basket_top6": {
+    "Precious metals & gems": 0.9,
+    "Food, crops & livestock": 0.024,
+    "Travel & tourism": 0.016,
+    "Transport & logistics services": 0.014,
+    "Finance, business & IT services": 0.012,
+    "Textiles & apparel": 0.011
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Desaki",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Isuibul",
+   "continent": "New Ayre",
+   "subregion": "South New Ayre",
+   "population": 37482,
+   "gdp_lahn": 1320796400,
+   "gdp_per_capita_lahn": 35238,
+   "gdp_per_capita_usd_equiv": 4405,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 328,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 1663777652,
+   "trade_gdp": 2.5289,
+   "export_rank": 164,
+   "basket_top6": {
+    "Food, crops & livestock": 0.341,
+    "Textiles & apparel": 0.221,
+    "Travel & tourism": 0.111,
+    "Other manufactures": 0.094,
+    "Machinery & industrial equipment": 0.065,
+    "Electronics & electrical": 0.042
+   },
+   "top_export_partners": [
+    "Dahe",
+    "Raledria",
+    "Emara"
+   ]
+  },
+  {
+   "name": "Tonder",
+   "continent": "Ayuma",
+   "subregion": "South Ayuma",
+   "population": 143925,
+   "gdp_lahn": 1233639000,
+   "gdp_per_capita_lahn": 8571,
+   "gdp_per_capita_usd_equiv": 1071,
+   "landlocked": true,
+   "island": false,
+   "coast_km": 0,
+   "land_neighbours": 3,
+   "transit_hub": false,
+   "exports_lahn": 972752235,
+   "trade_gdp": 1.4627,
+   "export_rank": 166,
+   "basket_top6": {
+    "Food, crops & livestock": 0.799,
+    "Textiles & apparel": 0.108,
+    "Precious metals & gems": 0.055,
+    "Other manufactures": 0.024,
+    "Forestry, paper & fibres": 0.008,
+    "Machinery & industrial equipment": 0.005
+   },
+   "top_export_partners": [
+    "Emara",
+    "Lycroa",
+    "Easuhura"
+   ]
+  },
+  {
+   "name": "Letan",
+   "continent": "Quia",
+   "subregion": "North Quia",
+   "population": 76045,
+   "gdp_lahn": 987380533,
+   "gdp_per_capita_lahn": 12984,
+   "gdp_per_capita_usd_equiv": 1623,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 574,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 951569752,
+   "trade_gdp": 1.9096,
+   "export_rank": 167,
+   "basket_top6": {
+    "Food, crops & livestock": 0.451,
+    "Textiles & apparel": 0.185,
+    "Other manufactures": 0.092,
+    "Travel & tourism": 0.072,
+    "Forestry, paper & fibres": 0.054,
+    "Machinery & industrial equipment": 0.049
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Dahe",
+    "Etirha"
+   ]
+  },
+  {
+   "name": "Tvecoca",
+   "continent": "New Ayre",
+   "subregion": "North New Ayre",
+   "population": 5165,
+   "gdp_lahn": 385337333,
+   "gdp_per_capita_lahn": 74603,
+   "gdp_per_capita_usd_equiv": 9325,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 102,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 642691787,
+   "trade_gdp": 3.2309,
+   "export_rank": 170,
+   "basket_top6": {
+    "Crude oil & natural gas": 0.898,
+    "Travel & tourism": 0.018,
+    "Finance, business & IT services": 0.013,
+    "Food, crops & livestock": 0.011,
+    "Transport & logistics services": 0.011,
+    "Textiles & apparel": 0.01
+   },
+   "top_export_partners": [
+    "Raledria",
+    "Etirha",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Trevilla",
+   "continent": "Acrola",
+   "subregion": "South Acrola",
+   "population": 10360,
+   "gdp_lahn": 292723825,
+   "gdp_per_capita_lahn": 28254,
+   "gdp_per_capita_usd_equiv": 3532,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 193,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 475813118,
+   "trade_gdp": 3.2544,
+   "export_rank": 171,
+   "basket_top6": {
+    "Food, crops & livestock": 0.365,
+    "Textiles & apparel": 0.206,
+    "Travel & tourism": 0.097,
+    "Other manufactures": 0.095,
+    "Machinery & industrial equipment": 0.062,
+    "Electronics & electrical": 0.038
+   },
+   "top_export_partners": [
+    "Areoix Lie",
+    "Raledria",
+    "Dahe"
+   ]
+  },
+  {
+   "name": "Cruthi Anoso",
+   "continent": "Mahea",
+   "subregion": "South Mahea",
+   "population": 3984,
+   "gdp_lahn": 60199750,
+   "gdp_per_capita_lahn": 15111,
+   "gdp_per_capita_usd_equiv": 1889,
+   "landlocked": false,
+   "island": true,
+   "coast_km": 215,
+   "land_neighbours": 0,
+   "transit_hub": false,
+   "exports_lahn": 100405234,
+   "trade_gdp": 3.322,
+   "export_rank": 172,
+   "basket_top6": {
+    "Food, crops & livestock": 0.434,
+    "Textiles & apparel": 0.187,
+    "Other manufactures": 0.093,
+    "Travel & tourism": 0.076,
+    "Machinery & industrial equipment": 0.052,
+    "Forestry, paper & fibres": 0.05
+   },
+   "top_export_partners": [
+    "Pelugrotoa",
+    "Dahe",
+    "Raledria"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{{Documentation subpage}}
+<!-- Place categories where indicated at bottom of page and interwikis at Wikidata -->
+{{High-use}}
+{{auto short description}}
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+
+=== Usage ===
+
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox international football competition
+| tourney_name = <!-- PAGE NAME-->
+| year = 
+| yearr = 
+| other_titles = 
+| image = 
+| size = <!-- in pixels; just enter an integer -->
+| alt = 
+| caption = 
+| city = 
+| country =
+| dates = <!-- {{Start and end dates|YYYY|MM|DD|YYYY|MM|DD|df=y}} -->
+| num_teams = 
+| confederations = <!-- use only one of these three options -->
+| sub-confederations = <!-- use only one of these three options -->
+| associations = <!-- use only one of these three options -->
+| venues = 
+| cities = 
+| champion = <!-- automatically wraps into {{fb}} template; links to men's teams only -->
+| champion-flagvar = use if the flag is other as current
+| champion_other = <!-- use instead if the team is not in {{fb}} (enter your own code, e.g. {{fbwu}}) -->
+| count = 
+| second = <!-- automatically wraps into {{fb}} template; links to men's teams only -->
+| second-flagvar = use if the flag is other as current
+| second_other = <!-- use instead if the team is not in {{fb}} (enter your own code) -->
+| third = <!-- automatically wraps into {{fb}} template; links to men's teams only -->
+| third-flagvar = use if the flag is other as current
+| third_other = <!-- use instead if the team is not in {{fb}} (enter your own code) -->
+| fourth = <!-- automatically wraps into {{fb}} template; links to men's teams only -->
+| fourth-flagvar = use if the flag is other as current
+| fourth_other = <!-- use instead if the team is not in {{fb}} (enter your own code) -->
+| matches = 
+| goals = 
+| attendance = 
+| top_scorer = 
+| player = 
+| young_player = 
+| goalkeeper = 
+| fair_play =
+| prevseason = 
+| nextseason = 
+| updated = 
+}}
+</syntaxhighlight>
+
+
+{{Infobox international football competition
+| tourney_name = All-Player Gold Cup
+| year = 2009
+| other_titles = All-Player Championship
+| image = No image.svg
+| size = 200px
+| alt = Blank image
+| caption = 2007 All-Player Gold Cup official logo
+| country = United States
+| dates = {{Start and end dates|2009|06|06|2009|06|24}}
+| num_teams = 12
+| confederations = 1
+| venues = 6
+| cities = 6
+| champion = Brazil
+| second_other = {{flag icon|Italy}} [[A.C. Milan]]
+| third_other = {{fbw|Germany}}
+| fourth_other = {{fbu|20|Sudan}}
+| count = 4
+| matches = 2
+| goals = 64
+| attendance = 921476
+| top_scorer = {{flag icon|HON}} [[Carlos Pavón]]
+| player = {{flag icon|CAN}} [[Julian De Guzman]]
+| young_player = 
+| updated = 31 December 2011
+}}
+<syntaxhighlight lang="wikitext" style="overflow:auto;">
+{{Infobox international football competition
+| tourney_name = All-Player Gold Cup
+| year = 2009
+| other_titles = All-Player Championship
+| image = No image.svg
+| size = 200px
+| alt = Blank image
+| caption = 2007 All-Player Gold Cup official logo
+| country = United States
+| dates = {{Start and end dates|2009|06|06|2009|06|24}}
+| num_teams = 12
+| confederations = 1
+| venues = 6
+| cities = 6
+| champion = Brazil
+| second_other = {{flag icon|Italy}} [[A.C. Milan]]
+| third_other = {{fbw|Germany}}
+| fourth_other = {{fbu|20|Sudan}}
+| count = 4
+| matches = 2
+| goals = 64
+| attendance = 921476
+| top_scorer = {{flag icon|HON}} [[Carlos Pavón]] (7)
+| player = {{flag icon|CAN}} [[Julian De Guzman]]
+| young_player = 
+| updated = 31 December 2011
+}}
+</syntaxhighlight>
+
+== Microformat ==
+{{UF-hcal}}
+
+== Tracking category ==
+* {{clc|Pages using infobox international football competition with unknown parameters}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Association football infobox templates|International Football Competition]]
+[[Category:Infobox templates with updated parameter]]
+[[Category:Templates that add a tracking category]]
+
+}}</includeonly>

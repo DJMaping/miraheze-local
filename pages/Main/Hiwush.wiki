@@ -46,20 +46,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 61.6
 | population_density_rank = 75th
-| GDP_PPP                = {{increase}} {{lahn}}1.749 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/hiw/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}13.992 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/hiw/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 161st
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}7,317
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}58,536
 | GDP_PPP_per_capita_rank = 125th
-| GDP_nominal            = {{increase}} {{lahn}}747.6 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/hiw/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}5.981 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/hiw/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 161st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}3,127
+| GDP_nominal_per_capita = {{increase}} {{lahn}}25,016
 | GDP_nominal_per_capita_rank = 117th
 | HDI_year               = 1765
-| HDI                    = 0.777
+| HDI                    = 0.636
 | HDI_change             = increase
-| HDI_rank               = 77th
+| HDI_rank               = 117th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Hiwushi  Islatan]] (_) (HIS)
 | time_zone              = SET -2 (Standard Hiwushi Time)

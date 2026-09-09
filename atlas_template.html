@@ -1,0 +1,1347 @@
+<meta charset="utf-8">
+<title>Andah Trade Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Source+Sans+3:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --ground:#F2EDE1; --surface:#FBF8F1; --raised:#FFFDF7;
+  --ink:#14262E; --body:#33474F; --muted:#6B7E87;
+  --line:#DCD2BD; --hair:#E9E1D0;
+  --sea:#CBD9DD; --land:#E0D4BC; --landedge:#B9AC93;
+  --coral:#D9491F; --coral-soft:#F0A78E;
+  --brass:#9C6F14;
+  --pos:#2F6B4F; --neg:#B3452B;
+  --shadow:0 1px 2px rgba(20,38,46,.06),0 8px 24px rgba(20,38,46,.07);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#091920; --surface:#0E2831; --raised:#12333E;
+    --ink:#EDE6D6; --body:#C3D0D5; --muted:#8CA3AC;
+    --line:#1D3F4B; --hair:#17343F;
+    --sea:#0B222A; --land:#2B4C57; --landedge:#40646F;
+    --coral:#FF7C55; --coral-soft:#8A3B26;
+    --brass:#D9A441;
+    --pos:#5FBF8F; --neg:#FF8163;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#091920; --surface:#0E2831; --raised:#12333E;
+  --ink:#EDE6D6; --body:#C3D0D5; --muted:#8CA3AC;
+  --line:#1D3F4B; --hair:#17343F;
+  --sea:#0B222A; --land:#2B4C57; --landedge:#40646F;
+  --coral:#FF7C55; --coral-soft:#8A3B26;
+  --brass:#D9A441;
+  --pos:#5FBF8F; --neg:#FF8163;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--ground); color:var(--body);
+  font:400 16px/1.6 "Source Sans 3",ui-sans-serif,system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px 72px}
+h1,h2,h3{color:var(--ink);font-family:Fraunces,Georgia,serif;text-wrap:balance;margin:0}
+h1{font-size:clamp(34px,5vw,56px);font-weight:800;line-height:1.02;letter-spacing:-.02em}
+h2{font-size:clamp(22px,2.6vw,30px);font-weight:600;line-height:1.15}
+h3{font-size:17px;font-weight:600}
+p{margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--muted);
+}
+
+/* ---------- masthead ---------- */
+header.top{
+  border-bottom:1px solid var(--line);
+  padding:44px 0 30px;
+  display:grid;gap:22px;
+}
+.title-row{display:flex;flex-wrap:wrap;align-items:flex-end;gap:20px;justify-content:space-between}
+.lede{max-width:58ch;font-size:17.5px;color:var(--body)}
+.lede em{color:var(--ink);font-style:normal;font-weight:600}
+.figures{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--line);border-radius:3px;overflow:hidden;background:var(--surface)}
+.fig{padding:12px 20px;border-right:1px solid var(--hair);min-width:120px}
+.fig:last-child{border-right:0}
+.fig .v{font-family:"IBM Plex Mono",monospace;font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums}
+.fig .k{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+/* ---------- atlas ---------- */
+.atlas{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:26px;padding-top:30px;align-items:start}
+.atlas>*{min-width:0}
+@media (max-width:1020px){.atlas{grid-template-columns:1fr}}
+.chart{
+  background:var(--surface);border:1px solid var(--line);border-radius:3px;
+  overflow:hidden;box-shadow:var(--shadow);
+}
+.chart-head{
+  display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;
+  padding:12px 16px;border-bottom:1px solid var(--hair);
+}
+.seg{display:flex;border:1px solid var(--line);border-radius:2px;overflow:hidden}
+.seg button{
+  font:500 12px/1 "IBM Plex Mono",monospace;letter-spacing:.04em;
+  padding:8px 11px;background:transparent;color:var(--muted);
+  border:0;border-right:1px solid var(--hair);cursor:pointer;
+}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--coral);color:#fff}
+.seg button:focus-visible{outline:2px solid var(--coral);outline-offset:-2px}
+svg#map{display:block;width:100%;height:auto;background:var(--sea);cursor:grab;touch-action:none}
+svg#map.drag{cursor:grabbing}
+#map path{stroke:var(--landedge);stroke-width:.35;cursor:pointer;transition:opacity .12s;vector-effect:non-scaling-stroke}
+.zoomhint{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted)}
+.zoombtns{display:flex;gap:4px}
+.zoombtns button{font:500 12px/1 "IBM Plex Mono",monospace;width:26px;height:26px;border:1px solid var(--line);
+  background:transparent;color:var(--muted);border-radius:2px;cursor:pointer}
+.zoombtns button:hover{color:var(--ink);border-color:var(--ink)}
+.zoombtns button:focus-visible{outline:2px solid var(--coral);outline-offset:-2px}
+.bbar{display:flex;height:14px;overflow:hidden;border-radius:1px;margin-top:12px}
+.bbar i{display:block;height:100%}
+.blist{display:grid;gap:5px;margin-top:10px}
+.bl{display:grid;grid-template-columns:11px minmax(0,1fr) 48px;gap:8px;align-items:center;font-size:13px}
+.bl .bn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bl .sw{width:11px;height:11px;border-radius:1px}
+.bl .bn{color:var(--ink)}
+.bl .bv{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);text-align:right}
+.catleg{display:flex;flex-wrap:wrap;gap:6px 14px;padding:10px 16px;border-top:1px solid var(--hair)}
+/* treemaps, in the OEC idiom: a title question, a total, region-coloured blocks */
+.tmwrap{padding:18px 22px;border-bottom:1px solid var(--hair)}
+.tmhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px}
+.tmhead h3{font-family:"Source Sans 3",sans-serif;font-weight:600;font-size:16px;color:var(--ink)}
+.tmhead h3 em{font-style:italic}
+.tmtotal{font-family:"Source Sans 3",sans-serif;font-weight:600;font-size:14px;color:var(--ink);
+  border-bottom:1px dashed var(--ink);padding-bottom:1px}
+.tmtotal b{font-family:"IBM Plex Mono",monospace;font-weight:400;font-size:12px;color:var(--muted);margin-left:9px}
+.catsel{font-family:"Source Sans 3",sans-serif;font-size:13px;padding:4px 8px;max-width:100%;
+  border:1px solid var(--line);border-radius:2px;background:var(--surface);color:var(--ink)}
+.tm{position:relative;width:100%;height:360px;overflow:hidden;background:var(--hair)}
+.tm .cell{position:absolute;overflow:hidden;box-sizing:border-box;border:1px solid rgba(255,255,255,.85);
+  padding:3px 5px;line-height:1.1;font-family:"Source Sans 3",sans-serif}
+.tm .cell b{display:block;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tm .cell span{display:block;margin-top:.25em;white-space:nowrap}
+.tm .cell i{font-style:normal;opacity:.72;margin-left:.5em}
+.tmleg{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin-top:10px;font-size:13px;color:var(--muted)}
+.tmleg .lt{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  padding-right:14px;border-right:1px solid var(--line)}
+.tmleg span{display:inline-flex;align-items:center;gap:6px}
+.tmleg i{width:12px;height:12px;border-radius:1px}
+.fl{width:17px;height:11px;object-fit:cover;border-radius:1px;margin-right:7px;
+  vertical-align:-1px;box-shadow:0 0 0 1px rgba(0,0,0,.28);flex:none}
+.detail-head h2 .fl{width:30px;height:20px;margin-right:11px;vertical-align:-2px}
+.uni{display:flex;align-items:center;gap:9px;padding:9px 14px;border-top:1px solid var(--hair);
+  font-size:13px;color:var(--body);cursor:pointer;user-select:none}
+.uni input{accent-color:var(--coral);width:15px;height:15px}
+#map path.uni-on{stroke:var(--brass);stroke-width:1.5}
+.tmcats span{gap:5px}
+.tmcats b{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:12px;color:var(--ink);margin-left:2px}
+.twogrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0}
+.twogrid>*{min-width:0}
+@media (max-width:900px){.twogrid{grid-template-columns:1fr}}
+.twogrid .tmwrap:first-child{border-right:1px solid var(--hair)}
+/* the five lists */
+.lists{display:grid;gap:34px}
+.lists>*{min-width:0}
+.lists h3{font-family:Fraunces,Georgia,serif;font-size:20px;font-weight:600;margin-bottom:10px}
+.lists .sub{font-size:13.5px;color:var(--muted);max-width:70ch;margin-bottom:10px}
+.lists table td.c{color:var(--ink);font-weight:600}
+.lists .tw{max-height:520px;overflow:auto}
+.lists thead th{position:sticky;top:0;background:var(--surface);z-index:1}
+.catblock{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:14px}
+.catblock>*{min-width:0}
+.catblock .tw{max-height:none}
+.catblock h4{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);padding:9px 14px 6px;border-bottom:1px solid var(--hair);display:flex;justify-content:space-between}
+.catblock h4 i{width:10px;height:10px;border-radius:1px;display:inline-block;margin-right:7px;vertical-align:-1px}
+.catleg span{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.catleg i{width:10px;height:10px;border-radius:1px}
+#map path:hover{stroke:var(--ink);stroke-width:1.1}
+#map path.sel{stroke:var(--coral);stroke-width:1.6}
+#map path:focus-visible{outline:none;stroke:var(--coral);stroke-width:1.6}
+.legend{display:flex;align-items:center;gap:8px;padding:10px 16px;border-top:1px solid var(--hair);flex-wrap:wrap}
+.ramp{display:flex;height:9px;flex:1;min-width:140px;border:1px solid var(--hair)}
+.ramp span{flex:1}
+.legend .lab{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted)}
+
+/* ---------- rankings ---------- */
+.rail{background:var(--surface);border:1px solid var(--line);border-radius:3px;box-shadow:var(--shadow)}
+.rail-head{padding:12px 16px;border-bottom:1px solid var(--hair);display:flex;justify-content:space-between;align-items:baseline}
+.rows{max-height:520px;overflow-y:auto}
+.row{
+  display:grid;grid-template-columns:26px 1fr auto;gap:10px;align-items:baseline;
+  padding:7px 16px;border:0;width:100%;background:transparent;text-align:left;cursor:pointer;
+  border-bottom:1px solid var(--hair);color:var(--body);font:inherit;
+}
+.row:last-child{border-bottom:0}
+.row:hover{background:var(--raised)}
+.row[aria-current="true"]{background:var(--coral);color:#fff}
+.row[aria-current="true"] .nm,.row[aria-current="true"] .vl,.row[aria-current="true"] .rk{color:#fff}
+.row:focus-visible{outline:2px solid var(--coral);outline-offset:-2px}
+.rk{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
+.nm{color:var(--ink);font-weight:600;font-size:14.5px}
+.vl{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--body)}
+
+/* ---------- detail ---------- */
+.detail{margin-top:26px;background:var(--surface);border:1px solid var(--line);border-radius:3px;box-shadow:var(--shadow);overflow:hidden}
+.detail-head{padding:18px 22px;border-bottom:1px solid var(--hair);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:flex-end}
+.detail-head h2{font-size:28px}
+.tag{
+  display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;padding:4px 9px;border:1px solid var(--line);border-radius:2px;color:var(--muted);
+}
+.tag.hub{border-color:var(--coral);color:var(--coral)}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr))}
+.grid4>*{min-width:0}
+.cell{padding:16px 22px;border-right:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.cell .v{font-family:"IBM Plex Mono",monospace;font-size:19px;color:var(--ink)}
+.cell .k{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))}
+.cols>*{min-width:0}
+.col{padding:18px 22px;border-right:1px solid var(--hair)}
+.col:last-child{border-right:0}
+.plist{display:grid;gap:7px;margin-top:12px}
+.pr{display:grid;grid-template-columns:minmax(0,1fr) 62px;gap:10px;align-items:center;font-size:14px}
+.pn{overflow:hidden;text-overflow:ellipsis}
+.bar{grid-column:1/-1;height:4px;background:var(--hair);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--coral)}
+.pn{color:var(--ink)}
+.pv{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);text-align:right}
+
+/* ---------- sections ---------- */
+section{padding-top:56px}
+.sec-head{max-width:64ch;display:grid;gap:10px;margin-bottom:22px}
+.sec-head p{color:var(--body)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;
+  border:1px solid var(--line);border-radius:3px;background:var(--surface)}
+th,td{padding:9px 14px;text-align:left;border-bottom:1px solid var(--hair);white-space:nowrap}
+th{font:500 11px/1 "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+td.n{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;text-align:right}
+tr:last-child td{border-bottom:0}
+.ok{color:var(--pos);font-weight:600}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--pos);margin-right:7px}
+
+.note{
+  margin-top:22px;padding:16px 20px;border-left:2px solid var(--brass);
+  background:var(--surface);font-size:14.5px;max-width:70ch;
+}
+.note b{color:var(--ink)}
+footer{margin-top:64px;padding-top:22px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);max-width:74ch}
+@media (max-width:640px){
+  .wrap{padding:0 14px 48px}
+  header.top{padding:26px 0 20px;gap:16px}
+  h1{font-size:clamp(28px,9vw,40px)}
+  .lede{font-size:16px}
+  /* the figure strip becomes a two-up grid instead of a row that has to squeeze */
+  .figures{display:grid;grid-template-columns:1fr 1fr;border-radius:3px}
+  .fig{min-width:0;padding:10px 14px;border-bottom:1px solid var(--hair)}
+  .fig:nth-child(odd){border-right:1px solid var(--hair)}
+  .fig .v{font-size:17px}
+  .atlas{padding-top:20px;gap:16px}
+  .chart-head{padding:10px 12px;gap:8px;flex-direction:column;align-items:stretch}
+  .seg{width:100%;flex-wrap:wrap}
+  .seg button{flex:1 1 30%;min-width:0;padding:9px 4px;font-size:11px;
+    border-bottom:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .zoomhint{display:none}          /* the gesture is discoverable by trying it */
+  .rows{max-height:340px}
+  .detail-head{padding:14px 16px}
+  .detail-head h2{font-size:22px}
+  .cell,.col,.tmwrap{padding:14px 16px}
+  .tm{height:300px}
+  .tmhead h3{font-size:15px}
+  /* one treemap at a time reads far better than two half-width ones */
+  .twogrid{grid-template-columns:1fr}
+  .twogrid .tmwrap:first-child{border-right:0}
+  .catblock{grid-template-columns:1fr}
+  .lists .tw{max-height:380px}
+  section{padding-top:36px}
+  .note{padding:14px 16px;font-size:14px}
+  table{font-size:13px}
+  th,td{padding:7px 10px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <div class="title-row">
+    <div style="display:grid;gap:12px">
+      <div class="eyebrow">Global Trade Union &middot; estimates for <span id="yr"></span> AFA</div>
+      <h1>Andah Trade Atlas</h1>
+    </div>
+    <div class="figures" id="figures"></div>
+  </div>
+  <p class="lede">Every figure here is <em>derived, not assigned</em>. Trade volumes come from a regression on
+  population, income, area, coastline and resource endowment; who trades with whom comes from a gravity model
+  reconciled onto those totals and pulled toward pairs whose export baskets complement each other. No
+  country was placed in a category first.</p>
+</header>
+
+<div class="atlas">
+  <div class="chart">
+    <div class="chart-head">
+      <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+        <div class="eyebrow">172 countries &middot; equirectangular</div>
+        <div class="zoombtns" role="group" aria-label="Zoom">
+          <button type="button" id="zin" aria-label="Zoom in">+</button>
+          <button type="button" id="zout" aria-label="Zoom out">&minus;</button>
+          <button type="button" id="zreset" aria-label="Reset view" title="Reset view">&#8634;</button>
+        </div>
+        <span class="zoomhint">scroll to zoom &middot; drag to pan &middot; double-click resets</span>
+      </div>
+      <div class="seg" id="metric" role="group" aria-label="Map measure"></div>
+      <label class="uni" id="unionbox" hidden>
+        <input type="checkbox" id="uniontoggle">
+        <span>Count <b id="unionname"></b> as one country (external trade only)</span>
+      </label>
+    </div>
+    <svg id="map" role="img" aria-label="Map of Andah shaded by the selected trade measure"></svg>
+    <div class="legend">
+      <span class="lab" id="lo"></span>
+      <div class="ramp" id="ramp"></div>
+      <span class="lab" id="hi"></span>
+      <span class="lab" id="metric-name" style="margin-left:auto"></span>
+    </div>
+    <div class="catleg" id="catleg" hidden></div>
+  </div>
+
+  <div class="rail">
+    <div class="rail-head">
+      <h3 id="rail-title">Largest exporters</h3>
+      <span class="eyebrow" id="rail-unit">lahn</span>
+    </div>
+    <div class="rows" id="rows"></div>
+  </div>
+</div>
+
+<div class="detail" id="detail"></div>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Who makes it</div>
+    <h2>Pick a product, see every country that sells it</h2>
+    <p>Any of the fifteen categories or the 175 products beneath them, ranked by export value with each
+    country's share of the world's exports of it.</p>
+  </div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px">
+    <select class="catsel" id="makersel" aria-label="Product"></select>
+    <span id="makernote" style="font-size:13px;color:var(--muted)"></span>
+  </div>
+  <div id="makers"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">The lists</div>
+    <h2>Five tables, in the shapes the wiki uses</h2>
+    <p>Laid out to match the Wikipedia list pages so they can be lifted straight into articles. All values in
+    lahn for ${DATA.year}; world trade balances to zero by construction.</p>
+  </div>
+  <div class="lists" id="lists"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Calibration</div>
+    <h2>Measured against Earth in 2015</h2>
+    <p>1765 AFA maps to 2015 on Earth, so Earth's distribution is the yardstick. Every metric is a ratio or a
+    share &mdash; the test is whether Andah's <em>shape</em> is one a real world produces, not its size.</p>
+  </div>
+  <div class="tw"><table id="metrics"><thead><tr>
+    <th>Metric</th><th style="text-align:right">Andah</th><th style="text-align:right">Earth 2015</th><th>What it tests</th>
+  </tr></thead><tbody></tbody></table></div>
+  <div class="note"><b>One honest limitation.</b> The gravity model that assigns trade between pairs cannot be
+  validated with anything in Andah. It agrees closely with the world's flight network, but that network's demand
+  is itself a gravity model over the same figures, so the agreement shows the two are consistent, not that
+  gravity is the right structure. The metrics above are the genuinely external check.</div>
+</section>
+
+<footer>
+  Currency is the lahn. Figures are model estimates for 1765 AFA, generated by <span class="mono">build_trade_model.py</span>
+  from the Janus statistics, the container port table, 34 commodity production sheets and 172 country polygons.
+  World trade balances to zero by construction.
+</footer>
+</div>
+
+<script>const DATA = /*__DATA__*/{};</script>
+<script>
+(function(){
+  const C = DATA.countries, S = DATA.shapes, W = DATA.world;
+  const names = Object.keys(C);
+  const FLAG = DATA.flags || {};
+  const flag = n => FLAG[n] ? `<img class="fl" src="${FLAG[n]}" alt="">` : '';
+  // TREATING A BLOC AS ONE COUNTRY, the way Eurostat reports the EU: only trade
+  // that crosses the union's outer border counts. Trade between members is
+  // internal and drops out, which is the whole point - it answers what the union
+  // sells to the world rather than what its members sell each other.
+  const UNIONS = DATA.unions || {};
+  let unionMode = false;
+  const U = {};
+  for (const [uname, u] of Object.entries(UNIONS)){
+    const ms = u.members.filter(x => C[x]);
+    const svc = ['transport','tourism','finance_business']
+      .reduce((a, k) => a + (u.basket[k] || 0), 0);
+    const wsum = (k) => ms.reduce((a, x) => a + C[x][k] * C[x].x, 0)
+                        / (ms.reduce((a, x) => a + C[x].x, 0) || 1);
+    U[uname] = Object.assign({}, u, {
+      continent: C[ms[0]] ? C[ms[0]].continent : 'Other',
+      subregion: ms.length + ' member states',
+      label: 'economic union', hub: false, landlocked: false, island: false,
+      basket_edited: false, reexports: 0, neighbours: 0,
+      goods_x: u.x * (1 - svc), svc_x: u.x * svc, svc_share: svc,
+      trade_gdp: (u.x + u.m) / (u.gdp || 1),
+      gdp_pc: Math.round(u.gdp / (u.population || 1)),
+      dva: wsum('dva'), reach: wsum('reach'), eci: wsum('eci'),
+      top_share: Math.max(0, ...Object.values(u.basket)),
+      lead_cat: Object.entries(u.basket).sort((a, b) => b[1] - a[1])[0][0],
+      coast: ms.reduce((a, x) => a + (C[x].coast || 0), 0),
+      history: {}, ports: [].concat(...ms.map(x => C[x].ports || []))
+                              .sort((a, b) => b[1] - a[1]).slice(0, 8),
+      rank: 1 + names.filter(x => C[x].x > u.x).length,
+    });
+  }
+  const unionOf = n => Object.keys(U).find(k => U[k].members.includes(n));
+  const REC = n => U[n] || C[n];
+
+
+  // Collapsing the bloc on the PARTNER side as well.
+  //
+  // A member's OWN union stays in its list. Quidic sells to Ahokini and Ztesh,
+  // and with the bloc counted as one that is Quidic exporting to the Quian
+  // Union, which is exactly how Eurostat reports a member state: intra-bloc and
+  // extra-bloc trade both belong to it. Only the union's own record is
+  // external-only, because a bloc cannot trade with itself.
+  const memberOf = {};
+  for (const [uname, u] of Object.entries(DATA.unions || {}))
+    u.members.forEach(x => memberOf[x] = uname);
+  function mergeU(list, self){
+    if (!unionMode) return list;
+    const agg = {}, order = [];
+    for (const [q, v] of list){
+      const k = memberOf[q] || q;
+      if (!(k in agg)) order.push(k);
+      agg[k] = (agg[k] || 0) + v;
+    }
+    return order.map(k => [k, agg[k]]).sort((a, b) => b[1] - a[1]);
+  }
+
+
+  const money = v => {
+    const a = Math.abs(v);
+    if (a >= 1e12) return (v/1e12).toFixed(2)+'T';
+    if (a >= 1e9)  return (v/1e9).toFixed(1)+'bn';
+    if (a >= 1e6)  return (v/1e6).toFixed(0)+'m';
+    return v.toFixed(0);
+  };
+  const pct = v => (v*100).toFixed(v*100 < 10 ? 1 : 0) + '%';
+  const pctT = v => !v ? '0%' : (v*100 < 0.1 ? '<0.1%' : (v*100).toFixed(1) + '%');
+  const ofWorld = v => pctT(v / (DATA.world.exports || 1));
+
+  // ---- masthead figures -------------------------------------------------
+  document.getElementById('yr').textContent = DATA.year;
+  document.getElementById('figures').innerHTML = [
+    ['World exports', money(W.exports)],
+    ['Share of world GDP', pct(W.openness)],
+    ['Countries', W.countries],
+    ['Landlocked', W.landlocked],
+    ['Islands', W.islands]
+  ].map(([k,v]) => `<div class="fig"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+
+  // ---- measures ---------------------------------------------------------
+  const MEASURES = {
+    exports:  {label:'Exports',        unit:'lahn',       get:c=>c.x,          fmt:money, rank:'rank',
+               title:'Largest exporters', diverge:false},
+    openness: {label:'Trade / GDP',    unit:'% of GDP',   get:c=>c.trade_gdp,  fmt:pct,   rank:null,
+               title:'Most trade-dependent', diverge:false},
+    balance:  {label:'Balance',        unit:'lahn',       get:c=>c.bal,        fmt:money, rank:null,
+               title:'Largest surpluses', diverge:true},
+    dva:      {label:'Domestic value', unit:'% of goods', get:c=>c.dva,        fmt:pct,   rank:null,
+               title:'Thinnest domestic value added', diverge:false, asc:true},
+    lead:     {label:'Leading export', unit:'largest export category', get:c=>c.lead_cat, fmt:v=>CATLABEL[v]||v,
+               rank:null, title:'By leading export', categorical:true},
+    eci:      {label:'Complexity', unit:'economic complexity index', get:c=>c.eci||0,
+               fmt:v=>(v>=0?'+':'')+v.toFixed(2), rank:null, title:'Most complex economies', diverge:true},
+    lanes:    {label:'Sea lanes', unit:'value routed through each stretch of sea', get:c=>c.x, fmt:money,
+               rank:null, title:'Largest exporters', lanemap:true},
+    partner:  {label:'Top partner', unit:'largest trading partner, by total trade',
+               get:c=>TOPP[c.name].share, fmt:pct, rank:null, title:'Most dependent on one partner',
+               categorical:true, catOf:c=>partKey(TOPP,c), catCol:k=>PARTCOL[k]||PARTOTHER,
+               catList:()=>PARTLIST, catValue:nm=>(TOPP[nm]||{share:0}).share, catText:nm=>U[nm]?'':partText(TOPP,nm)},
+    market:   {label:'Export market', unit:'largest export market',
+               get:c=>TOPX[c.name].share, fmt:pct, rank:null, title:'Most dependent on one export market',
+               categorical:true, catOf:c=>partKey(TOPX,c), catCol:k=>PARTCOL[k]||PARTOTHER,
+               catList:()=>PARTLIST, catValue:nm=>(TOPX[nm]||{share:0}).share, catText:nm=>U[nm]?'':partText(TOPX,nm)},
+    source:   {label:'Import source', unit:'largest source of imports',
+               get:c=>TOPM[c.name].share, fmt:pct, rank:null, title:'Most reliant on one supplier',
+               categorical:true, catOf:c=>partKey(TOPM,c), catCol:k=>PARTCOL[k]||PARTOTHER,
+               catList:()=>PARTLIST, catValue:nm=>(TOPM[nm]||{share:0}).share, catText:nm=>U[nm]?'':partText(TOPM,nm)}
+  };
+  const CATS = DATA.categories || [];
+  const CATLABEL = Object.fromEntries(CATS.map(([k,l])=>[k,l]));
+  const catShares = c => { const t = CATS.reduce((s,[k])=>s+(c.basket[k]||0), 0) || 1;
+                           return CATS.map(([k,l]) => [k, l, (c.basket[k]||0)/t]); };
+  const catShare = (c,k) => { const t = CATS.reduce((s,[j])=>s+(c.basket[j]||0), 0) || 1;
+                              return (c.basket[k]||0)/t; };
+  // one hue family per group: fuels dark, metals slate, farm greens, manufactures blues and violets, services warm
+  const CATCOL = {
+    crude_oil_gas:'#3B2A1E', refined_fuels:'#6B4A2B', ores_metals:'#5C6B78', precious:'#C9A227',
+    agri_food:'#5E8C3A', forestry_paper:'#8AA35A', textiles:'#B76E79', chemicals:'#7A5FA8',
+    machinery:'#3E6B99', electronics:'#2F8FA6', vehicles:'#4A5FB8', other_manuf:'#8C8FA3',
+    transport:'#D9781F', tourism:'#E0A33A', finance_business:'#B8452B'
+  };
+  // ---- leading partners ---------------------------------------------------
+  // Three readings of one question. Total trade is the relationship people mean
+  // by "largest trading partner"; the two directional readings matter because a
+  // country's biggest customer is often not its biggest supplier. The 'Other'
+  // bucket is a remainder rather than a country, so it cannot win the title, but
+  // it stays in the denominator so the share is a share of all the trade there is.
+  function leaders(pick){
+    const out = {};
+    for (const nm of names){
+      const tot = {};
+      for (const [q,v] of pick(C[nm])) tot[q] = (tot[q]||0) + v;
+      const all = Object.values(tot).reduce((a,b)=>a+b, 0);
+      delete tot.Other;
+      let who = null, bv = 0;
+      for (const k in tot) if (tot[k] > bv){ bv = tot[k]; who = k; }
+      out[nm] = {who, share: all ? bv/all : 0};
+    }
+    return out;
+  }
+  // WHEN THE UNION IS COUNTED AS ONE, IT IS ONE ON BOTH SIDES OF THE TRADE.
+  // Merging it only in the rankings would be half an answer: every other
+  // country's partner treemap would still show thirteen small tiles where one
+  // large one belongs, and the partner maps could never name the bloc.
+  let TOPP, TOPX, TOPM, HUBS, PARTCOL, PARTLIST;
+  function computeLeaders(){
+    TOPP = leaders(c => mergeU(c.partners.concat(c.buyers), c.name));
+    TOPX = leaders(c => mergeU(c.partners, c.name));
+    TOPM = leaders(c => mergeU(c.buyers, c.name));
+    const HUBN = {};
+    for (const T of [TOPP, TOPX, TOPM])
+      for (const nm of names) if (T[nm].who) HUBN[T[nm].who] = (HUBN[T[nm].who]||0) + 1;
+    HUBS = Object.keys(HUBN).sort((a,b)=> HUBN[b]-HUBN[a] || a.localeCompare(b));
+    PARTCOL = {};
+    HUBS.slice(0, PARTPAL.length).forEach((h,i)=> PARTCOL[h] = PARTPAL[i]);
+    // the bloc keeps its own brass rather than taking a hub colour, so it reads
+    // as a different kind of thing on the map
+    for (const u in U) if (HUBN[u]) PARTCOL[u] = '#C9A227';
+    PARTLIST = HUBS.filter(h => PARTCOL[h]).map(h => [h, h])
+      .concat(HUBS.some(h => !PARTCOL[h]) ? [['__other__', 'Smaller partners']] : []);
+  }
+
+  // ONE COLOUR PER HUB ACROSS ALL THREE MAPS, so a country keeps its colour as
+  // you switch between them and the three can be read against each other.
+  // Ranked by how many countries it leads across the three; the top twelve get a
+  // colour and the rest share a grey, because twenty-odd distinguishable hues is
+  // more than a map can carry. The tooltip names the partner either way.
+  const PARTPAL = ['#C8453C','#3E7CB1','#E08A1E','#4F9D50','#8E5BA6','#12897F',
+                   '#D6608C','#7A6A4F','#A8B545','#E2662C','#41637E','#B08CC7'];
+  const PARTOTHER = '#8C93A0';
+  computeLeaders();
+  const partKey = (T, c) => T[c.name].who ? (PARTCOL[T[c.name].who] ? T[c.name].who : '__other__') : null;
+  const partText = (T, nm) => T[nm].who ? `${T[nm].who} ${pct(T[nm].share)}` : 'no partner';
+
+  let measure = 'exports', selected = names.sort((a,b)=>C[a].rank-C[b].rank)[0];
+
+  const uNames = Object.keys(U);
+  if (uNames.length){
+    document.getElementById('unionbox').hidden = false;
+    document.getElementById('unionname').textContent = uNames[0];
+    document.getElementById('uniontoggle').addEventListener('change', e => {
+      unionMode = e.target.checked;
+      lists(); makers();
+      // members outlined so the bloc is visible on the map whatever the layer
+      const inside = new Set([].concat(...Object.values(U).map(u => u.members)));
+      for (const k in paths) paths[k].classList.toggle('uni-on', unionMode && inside.has(k));
+      computeLeaders();   // the partner maps must be able to name the bloc
+      shade();
+      rankRows();
+      // members leave the RANKING but stay selectable from the map, because a
+      // member's own view - what it sells to the bloc it is in - is the thing
+      // this toggle is for
+      if (!unionMode && U[selected]) select(U[selected].members[0]);
+      else select(selected);
+    });
+  }
+
+  document.getElementById('metric').innerHTML = Object.entries(MEASURES)
+    .map(([k,m]) => `<button type="button" data-m="${k}" aria-pressed="${k===measure}">${m.label}</button>`).join('');
+
+  // ---- projection -------------------------------------------------------
+  let x0=180,x1=-180,y0=90,y1=-90;
+  for (const n in S) for (const part of S[n]) for (const p of part){
+    if(p[0]<x0)x0=p[0]; if(p[0]>x1)x1=p[0]; if(p[1]<y0)y0=p[1]; if(p[1]>y1)y1=p[1];
+  }
+  const PAD=4, W_=1000, H_=Math.round(W_*(y1-y0)/(x1-x0));
+  const px = lon => PAD + (lon-x0)/(x1-x0)*(W_-2*PAD);
+  const py = lat => PAD + (y1-lat)/(y1-y0)*(H_-2*PAD);
+  const svg = document.getElementById('map');
+  svg.setAttribute('viewBox', `0 0 ${W_} ${H_}`);
+
+  const paths = {};
+  let markup = '';
+  for (const n of names){
+    const parts = S[n]; if(!parts) continue;
+    const d = parts.map(part => 'M' + part.map(p => px(p[0]).toFixed(1)+','+py(p[1]).toFixed(1)).join('L') + 'Z').join(' ');
+    markup += `<path id="p-${n.replace(/[^A-Za-z0-9]/g,'_')}" d="${d}" tabindex="0" role="button" aria-label="${n}"><title></title></path>`;
+  }
+  svg.innerHTML = '<g id="world">' + markup + '<g id="flowlayer" style="pointer-events:none"></g></g>';
+  for (const n of names){
+    const el = svg.querySelector('#p-'+n.replace(/[^A-Za-z0-9]/g,'_'));
+    if (el){ paths[n]=el; el.addEventListener('click',()=>select(n));
+      el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(n);}}); }
+  }
+
+  // ---- colour ramps -----------------------------------------------------
+  const css = k => getComputedStyle(document.documentElement).getPropertyValue(k).trim();
+  const hex2rgb = h => [1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+  const mix = (a,b,t) => `rgb(${a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(',')})`;
+
+  function shade(){
+    const m = MEASURES[measure];
+    const land = hex2rgb(css('--land')), coral = hex2rgb(css('--coral')), pos = hex2rgb(css('--pos'));
+    const leg = document.getElementById('catleg');
+    if (m.categorical){
+      // A categorical layer says what it colours by, where its colours come from
+      // and what its legend holds; the export-basket layer is just the default.
+      const keyOf = m.catOf  || (c  => c.lead_cat);
+      const colOf = m.catCol || (k  => CATCOL[k]);
+      const text  = m.catText|| (nm => `${CATLABEL[C[nm].lead_cat]||''} ${pct(catShare(C[nm], C[nm].lead_cat))}`);
+      const list  = m.catList ? m.catList() : CATS;
+      drawFlows(false); drawLanes(false);
+      for (const n of names) if (paths[n]) paths[n].style.fill = colOf(keyOf(C[n])) || css('--land');
+      document.getElementById('lo').textContent = '';
+      document.getElementById('hi').textContent = '';
+      document.getElementById('ramp').innerHTML = '';
+      document.getElementById('metric-name').textContent = m.unit;
+      const used = new Set(names.map(n=>keyOf(C[n])));
+      leg.innerHTML = list.filter(([k])=>used.has(k)).map(([k,l])=>
+        `<span><i style="background:${colOf(k)}"></i>${l}</span>`).join('');
+      leg.hidden = false;
+      for (const n of names) if (paths[n]) paths[n].querySelector('title').textContent =
+        `${n} — ${text(n)}`;
+      return;
+    }
+    leg.hidden = true;
+    drawFlows(!!m.flowmap);
+    drawLanes(!!m.lanemap);
+    const vals = names.map(n=>m.get(C[n]));
+    if (m.diverge){
+      const lim = Math.max(...vals.map(Math.abs));
+      for (const n of names){
+        const v = m.get(C[n]);
+        const t = Math.sqrt(Math.abs(v)/lim);
+        paths[n] && (paths[n].style.fill = mix(land, v>=0?pos:coral, Math.min(1,t)));
+      }
+      document.getElementById('lo').textContent = '-'+money(lim);
+      document.getElementById('hi').textContent = '+'+money(lim);
+    } else {
+      const lo = Math.min(...vals), hi = Math.max(...vals);
+      for (const n of names){
+        let t = (m.get(C[n]) - lo) / (hi - lo || 1);
+        t = Math.pow(t, .38);                       // long tail: compress the top
+        if (m.asc) t = 1 - t;
+        paths[n] && (paths[n].style.fill = mix(land, coral, t));
+      }
+      document.getElementById('lo').textContent = m.fmt(m.asc?hi:lo);
+      document.getElementById('hi').textContent = m.fmt(m.asc?lo:hi);
+    }
+    const land2 = hex2rgb(css('--land')), coral2 = hex2rgb(css('--coral'));
+    document.getElementById('ramp').innerHTML = Array.from({length:22},(_,i)=>{
+      const t=i/21;
+      const c = m.diverge
+        ? mix(hex2rgb(css('--coral')), hex2rgb(css('--pos')), t)
+        : mix(land2, coral2, Math.pow(t,.38));
+      return `<span style="background:${c}"></span>`;
+    }).join('');
+    document.getElementById('metric-name').textContent = m.unit;
+    for (const n of names) if (paths[n]) paths[n].querySelector('title').textContent =
+      `${n} — ${m.fmt(m.get(C[n]))}`;
+  }
+
+  // ---- the flow layer ----------------------------------------------------
+  // Great-circle-ish arcs between country centroids, one per trading
+  // relationship, thickness by value. Directed pairs were merged upstream: a
+  // line on a map is a relationship, not a direction. Arcs bow away from the
+  // straight line so overlapping pairs stay distinguishable, and any pair whose
+  // centroids sit more than half the map apart is drawn straight to avoid
+  // sweeping an arc across the antimeridian.
+  // WHERE THE SHIPS GO. Cells are the sea grid, sized and lit by the value that
+  // routes through them; the brightest are the chokepoints. Lanes are the
+  // shortest sea path of the heaviest flows - round the cape, through the
+  // canal - drawn where the arcs used to draw a crow's flight.
+  function drawLanes(on){
+    const layer = document.getElementById('flowlayer');
+    if (!layer) return;
+    if (!on || !DATA.lanes){ if (on) layer.innerHTML = ''; return; }
+    const L = DATA.lanes;
+    let out = '';
+    for (const [lon, lat, t] of L.cells){
+      if (t < 0.015) continue;
+      const r = (0.55 + 2.3 * Math.sqrt(t)).toFixed(2);
+      const o = (0.10 + 0.75 * Math.sqrt(t)).toFixed(2);
+      out += `<circle cx="${px(lon).toFixed(1)}" cy="${py(lat).toFixed(1)}" r="${r}" fill="${css('--brass')}" fill-opacity="${o}"/>`;
+    }
+    const vals = Object.values(L.lanes).map(l => l.v);
+    const max = Math.max(1, ...vals);
+    for (const l of Object.values(L.lanes)){
+      const t = Math.pow(l.v / max, 0.45);
+      let d = '', prev = null;
+      for (const [lon, lat] of l.pts){
+        const x = px(lon), y = py(lat);
+        d += (prev !== null && Math.abs(x - prev) < W_ * 0.5) ? `L${x.toFixed(1)},${y.toFixed(1)}` : `M${x.toFixed(1)},${y.toFixed(1)}`;
+        prev = x;
+      }
+      out += `<path d="${d}" fill="none" stroke="${css('--coral')}" stroke-width="${(0.3 + 2.6 * t).toFixed(2)}" stroke-opacity="${(0.25 + 0.6 * t).toFixed(2)}" stroke-linejoin="round" stroke-linecap="round"/>`;
+    }
+    layer.innerHTML = out;
+  }
+  function drawFlows(on){
+    const layer = document.getElementById('flowlayer');
+    if (!layer) return;
+    if (!on || !DATA.top_flows){ layer.innerHTML = ''; return; }
+    const F = DATA.top_flows;
+    const max = F[0][2] || 1;
+    let out = '';
+    for (const [a, b, v] of F){
+      const A = C[a], B = C[b];
+      if (!A || !B) continue;
+      const x1 = px(A.lon), y1 = py(A.lat), x2 = px(B.lon), y2 = py(B.lat);
+      if (Math.abs(x2 - x1) > W_ * 0.5) continue;
+      const t = Math.pow(v / max, 0.42);
+      const w = (0.35 + 3.1 * t).toFixed(2);
+      const o = (0.16 + 0.5 * t).toFixed(2);
+      const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+      const dx = x2 - x1, dy = y2 - y1;
+      const bow = 0.16;
+      const cx2 = mx - dy * bow, cy2 = my + dx * bow;
+      out += `<path d="M${x1.toFixed(1)},${y1.toFixed(1)}Q${cx2.toFixed(1)},${cy2.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}" fill="none" stroke="${css('--coral')}" stroke-width="${w}" stroke-opacity="${o}" stroke-linecap="round"/>`;
+    }
+    layer.innerHTML = out;
+  }
+
+  // ---- rankings ---------------------------------------------------------
+  function rankRows(){
+    const m = MEASURES[measure];
+    const key = m.categorical ? (m.catValue || (n=>catShare(REC(n), REC(n).lead_cat))) : (n=>m.get(REC(n)));
+    let pool = names;
+    if (unionMode){
+      const inside = new Set([].concat(...Object.values(U).map(u => u.members)));
+      pool = names.filter(x => !inside.has(x)).concat(Object.keys(U));
+    }
+    const ord = pool.slice().sort((a,b)=> m.asc ? key(a)-key(b) : key(b)-key(a));
+    document.getElementById('rail-title').textContent = m.title;
+    document.getElementById('rail-unit').textContent = m.unit;
+    document.getElementById('rows').innerHTML = ord.map((n,i)=>
+      `<button class="row" type="button" data-n="${n}" aria-current="${n===selected}">
+         <span class="rk">${i+1}</span><span class="nm">${flag(n)}${n}</span><span class="vl">${m.categorical
+            ? (m.catText ? m.catText(n) : pct(catShare(REC(n), REC(n).lead_cat))+' '+(CATLABEL[REC(n).lead_cat]||'').split(' ')[0].toLowerCase())
+            : m.fmt(m.get(REC(n)))}</span>
+       </button>`).join('');
+  }
+
+  // ---- detail -----------------------------------------------------------
+  function detail(){
+    const c = REC(selected);
+    const cells = [
+      ['Exports', money(c.x)], ['Imports', money(c.m)],
+      ['Balance', (c.bal>=0?'+':'')+money(c.bal)],
+      ['Trade / GDP', pct(c.trade_gdp)],
+      ['Domestic value added', pct(c.dva)],
+      ['GDP per capita', c.gdp_pc.toLocaleString()]
+    ];
+    const plist = (arr, tot) => arr.map(([p,v])=>`
+      <div class="pr"><span class="pn">${p}</span><span class="pv">${money(v)}</span>
+      <span class="bar"><i style="width:${Math.max(3,Math.round(v/tot*100))}%"></i></span></div>`).join('');
+    document.getElementById('detail').innerHTML = `
+      <div class="detail-head">
+        <div style="display:grid;gap:7px">
+          <div class="eyebrow">${c.subregion} &middot; ${c.continent}</div>
+          <h2>${flag(c.name)}${c.name}</h2>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <span class="tag">${c.label}</span>
+          ${c.hub?'<span class="tag hub">transit hub</span>':''}
+          ${c.landlocked?'<span class="tag">landlocked</span>':''}
+          ${c.island?'<span class="tag">island</span>':''}
+          <span class="tag">#${c.rank} exporter</span>
+        </div>
+      </div>
+      <div class="grid4">${cells.map(([k,v])=>
+        `<div class="cell"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('')}</div>
+      <div class="tmwrap">
+        <div class="tmhead">
+          <span class="tmtotal">Total Value: ${money(c.goods_x + c.svc_x - c.reexports)}<b>${ofWorld(c.goods_x + c.svc_x - c.reexports)} of world exports</b></span>
+          <h3 id="h-products">What did ${c.name} export in ${DATA.year}?</h3>
+        </div>
+        <div class="tm" id="tm-products"></div>
+        <div id="prod-partners"></div>
+        <div class="tmleg tmcats"><span class="lt">Categories</span>${catShares(c)
+          .sort((a,b)=>b[2]-a[2]).map(([k,l,v])=>`<span><i style="background:${CATCOL[k]}"></i>${l}<b>${pctT(v)}</b></span>`).join('')}</div>
+      </div>
+      <div class="twogrid">
+        <div class="tmwrap">
+          <div class="tmhead"><span class="tmtotal" id="tot-out"></span>${catSelect('out', c)}</div>
+          <h3 id="h-out"></h3>
+          <div class="tm" id="tm-out"></div>
+        </div>
+        <div class="tmwrap">
+          <div class="tmhead"><span class="tmtotal" id="tot-in"></span>${catSelect('in', c)}</div>
+          <h3 id="h-in"></h3>
+          <div class="tm" id="tm-in"></div>
+        </div>
+      </div>
+      <div class="tmleg" style="padding:12px 22px 4px"><span class="lt">Regions</span>${Object.entries(CONTCOL).map(([k,v])=>`<span><i style="background:${v}"></i>${k}</span>`).join('')}</div>
+      <div class="cols">
+        ${portsCol(c)}
+        ${historyCol(c)}
+        <div class="col">
+          <div class="eyebrow">Profile</div>
+          <div class="plist" style="gap:9px;margin-top:12px">
+            <div class="pr"><span class="pn">Services share</span><span class="pv">${pct(c.svc_share)}</span></div>
+            <div class="pr"><span class="pn">Global reach</span><span class="pv">${c.reach.toFixed(2)}</span></div>
+            <div class="pr"><span class="pn">Top product share</span><span class="pv">${pct(c.top_share)}</span></div>
+            <div class="pr"><span class="pn">Services exports</span><span class="pv">${money(c.svc_x)}</span></div>
+            <div class="pr"><span class="pn">Re-exports</span><span class="pv">${money(c.reexports)}</span></div>
+            <div class="pr"><span class="pn">Land neighbours</span><span class="pv">${c.neighbours}</span></div>
+            <div class="pr"><span class="pn">Coastline</span><span class="pv">${c.coast.toLocaleString()} km</span></div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  // The model re-runs itself for 1725 and 1745 on DJ's own population series and
+  // growth rates, with world openness set to each era's shipping technology. It
+  // is the same model, not a trend line drawn backwards, so what a country used
+  // to sell is a result rather than a guess.
+  function historyCol(c){
+    const h = c.history || {};
+    const years = Object.keys(h).sort();
+    if (c.members) return '';
+    if (!years.length) return '';
+    const rows = years.map(y => [y, h[y].x, h[y].lead])
+                      .concat([[String(DATA.year), c.x, c.lead_cat]]);
+    const max = Math.max(...rows.map(r => r[1])) || 1;
+    return `<div class="col">
+      <div class="eyebrow">Trade history</div>
+      <div class="plist" style="gap:9px;margin-top:12px">
+        ${rows.map(([y, v, lead]) => `
+          <div class="pr">
+            <span class="pn">${y} &middot; ${CATLABEL[lead] || lead || ''}</span>
+            <span class="pv">${money(v)}</span>
+            <span class="bar"><i style="width:${Math.max(3, Math.round(v / max * 100))}%"></i></span>
+          </div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  // The cargo tables name 60 quays across 37 countries, and their throughput
+  // sums exactly to each country's total, so a country's seaborne goods split
+  // across its own ports without anything being invented. The value is the
+  // country's goods trade shared out by tonnage, which is why a port handling
+  // high-value cargo can rank low on tonnage and high on worth.
+  function portsCol(c){
+    const ps = c.ports || [];
+    if (!ps.length) return '';
+    const max = Math.max(...ps.map(p => p[1])) || 1;
+    return `<div class="col">
+      <div class="eyebrow">Ports</div>
+      <div class="plist" style="gap:9px;margin-top:12px">
+        ${ps.map(([nm, cargo, share, loc, rank, val]) => `
+          <div class="pr">
+            <span class="pn">${nm}<span style="color:var(--muted)"> &middot; ${loc || ''}</span></span>
+            <span class="pv">${money(val)}</span>
+            <span class="bar"><i style="width:${Math.max(3, Math.round(cargo / max * 100))}%"></i></span>
+          </div>`).join('')}
+      </div>
+      <div style="margin-top:10px;font-size:12px;color:var(--muted)">
+        ${ps.length === 1 ? 'One recorded port' : ps.length + ' recorded ports'}, largest is
+        world #${Math.min(...ps.map(p => p[4]))} by tonnage.
+        ${c.hub ? 'Much of this tonnage is other countries&rsquo; cargo passing through.' : ''}
+      </div>
+    </div>`;
+  }
+
+  // ---- squarified treemaps ------------------------------------------------
+  function squarify(items, x, y, w, h){
+    const out = [];
+    const total = items.reduce((s, it) => s + it.v, 0);
+    if (!total || w <= 0 || h <= 0) return out;
+    const areas = items.map(it => it.v / total * w * h);
+    let i = 0, cx = x, cy = y, cw = w, ch = h;
+    while (i < areas.length){
+      const side = Math.max(1e-6, Math.min(cw, ch));
+      let row = [], sum = 0, best = Infinity, j = i;
+      while (j < areas.length){
+        const trial = row.concat(areas[j]); const ts = sum + areas[j];
+        const mx = Math.max(...trial), mn = Math.min(...trial);
+        const worst = Math.max(side*side*mx/(ts*ts), ts*ts/(side*side*mn));
+        if (worst > best && row.length) break;
+        row = trial; sum = ts; best = worst; j++;
+      }
+      if (cw >= ch){ const sw = sum / ch; let yy = cy;
+        row.forEach((a, k) => { const hh = a / sw; out.push(Object.assign({}, items[i+k], {x: cx, y: yy, w: sw, h: hh})); yy += hh; });
+        cx += sw; cw -= sw;
+      } else { const sh = sum / cw; let xx = cx;
+        row.forEach((a, k) => { const ww = a / sh; out.push(Object.assign({}, items[i+k], {x: xx, y: cy, w: ww, h: sh})); xx += ww; });
+        cy += sh; ch -= sh;
+      }
+      i += row.length;
+    }
+    return out;
+  }
+  // Continent colours as DJ specified them.
+  const CONTCOL = {Acrola:'#D18B22', Atirha:'#3E5BA9', Ayuma:'#C24736', Mahea:'#7A5A33',
+                   Massir:'#4E8C3F', 'New Ayre':'#3E8CA8', Quia:'#B85A78', Other:'#5C6B78'};
+  // Ink chosen by measuring the background rather than matching its first two
+  // hex digits, which is what the old rule did: it would have put dark text on
+  // the new red and white text on the new sky blue, because both start with
+  // characters the list happened to name.
+  for (const u in U) CONTCOL[u] = '#C9A227';   // the bloc gets brass, not a continent
+  const lightInk = bg => {
+    const h = String(bg).replace('#', '');
+    if (h.length < 6) return '#fff';
+    const [r, g, b] = [0, 2, 4].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+    const lin = v => v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    const L = 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b);
+    // whichever ink actually contrasts better, rather than a threshold picked by
+    // eye: the green sits close enough to the middle that guessing put white on
+    // it at a contrast of 2.75, where black reaches 6.35
+    return (L + 0.05) / 0.0614 > 1.05 / (L + 0.05) ? '#1a1a1a' : '#fff';
+  };
+  // Measuring the real strings beats guessing from a tile's share of the area:
+  // the same 3% block is 34px wide on a phone and 110px on a desktop.
+  const _mc = document.createElement('canvas').getContext('2d');
+  const textW = (t, size) => { _mc.font = `${size}px "Source Sans 3", system-ui, sans-serif`;
+                               return _mc.measureText(t).width; };
+  function drawTreemap(el, groups){
+    // groups: [{name, colour, items:[{name, v}]}] -> nested: regions first, members inside
+    if (!el) return;
+    const cw = Math.max(el.clientWidth, 1), chh = Math.max(el.clientHeight, 1);
+    const W = 1000, H = 1000 * chh / cw;
+    const gl = groups.map(g => ({name: g.name, colour: g.colour, items: g.items, v: g.items.reduce((s,i)=>s+i.v,0)}))
+                     .filter(g => g.v > 0).sort((a,b)=>b.v-a.v);
+    const total = gl.reduce((s,g)=>s+g.v,0) || 1;
+    let html = '';
+    for (const g of squarify(gl, 0, 0, W, H)){
+      const members = g.items.slice().sort((a,b)=>b.v-a.v);
+      for (const m of squarify(members, g.x, g.y, g.w, g.h)){
+        const pw = m.w / W * 100, ph = m.h / H * 100;
+        const px = m.x / W * 100, py = m.y / H * 100;
+        const area = pw * ph;
+        const wpx = pw / 100 * cw, hpx = ph / 100 * chh;
+        const big = area > 4 && wpx >= 46 && hpx >= 26;
+        const mid = area > 1.1 && wpx >= 24 && hpx >= 19;
+        const fs = big ? Math.min(26, 9 + Math.sqrt(area) * 2.2, (hpx - 8) / 1.15) : (mid ? 11 : 0);
+        // An explicit share where the caller has one, so the legend's figure and
+        // the block's figure round from the same number rather than from two
+        // that differ in the last bit of a float.
+        const sh = (m.p !== undefined) ? m.p : m.v / total;
+        // The percentage is the figure that has to survive: where the tile is
+        // too narrow for both, the value drops and the percentage stays.
+        let label = '';
+        if (fs) {
+          label = `<b style="font-size:${fs}px">${m.name}</b>`;
+          const sub = Math.max(10, Math.min(fs * 0.78, 15));
+          const room = wpx - 12, pt = pctT(sh), vt = money(m.v);
+          if (hpx - (fs * 1.1 + 7) >= sub * 1.35) {
+            if (textW(vt, sub) + textW(pt, sub) + sub * 0.55 <= room)
+              label += `<span style="font-size:${sub}px">${vt}<i>${pt}</i></span>`;
+            else if (textW(pt, sub) <= room)
+              label += `<span style="font-size:${sub}px">${pt}</span>`;
+          }
+        }
+        html += `<div class="cell" data-k="${m.key||''}" style="left:${px}%;top:${py}%;width:${pw}%;height:${ph}%;background:${m.colour||g.colour};color:${lightInk(m.colour||g.colour)}" title="${m.name} — ${money(m.v)} (${(m.v/total*100).toFixed(1)}%)">${label}</div>`;
+      }
+    }
+    el.innerHTML = html;
+  }
+  function partnerGroups(list){
+    const by = {};
+    for (const [n, v] of list){
+      const cont = n === 'Other' ? 'Other' : (U[n] ? n : (DATA.continents[n] || 'Other'));
+      (by[cont] = by[cont] || []).push({name: n, v});
+    }
+    return Object.entries(by).map(([k, items]) => ({name: k, colour: CONTCOL[k] || CONTCOL.Other, items}));
+  }
+  // The model solves a separate bilateral matrix per category, so the buyers of
+  // a country's oil and the buyers of its electronics are different sets rather
+  // than one partner list scaled by a basket. These two dropdowns are what makes
+  // that visible.
+  let catOut = '', catIn = '';
+  function catSelect(side, c){
+    // The two sides need different lists. What a country SELLS is its basket;
+    // what it BUYS is a different set entirely, and Dahe is the case that proves
+    // it - no crude in its exports at all, 2.42T of crude in its imports.
+    let held;
+    if (side === 'out'){
+      held = catShares(c).filter(([k,l,v]) => v > 0.004).sort((a,b)=>b[2]-a[2]);
+    } else {
+      const mv = c.cat_m || {};
+      held = CATS.map(([k,l]) => [k, l, (mv[k]||0) / (c.m||1)])
+                 .filter(([k,l,v]) => v > 0.004).sort((a,b)=>b[2]-a[2]);
+    }
+    const cur = side === 'out' ? catOut : catIn;
+    return `<select class="catsel" data-side="${side}" aria-label="Filter by product">
+      <option value=""${cur?'':' selected'}>All products</option>
+      ${held.map(([k,l,v])=>`<option value="${k}"${cur===k?' selected':''}>${l} &middot; ${pctT(v)}</option>`).join('')}
+    </select>`;
+  }
+  function drawPartnerMap(side, c){
+    const out = side === 'out';
+    const key = out ? catOut : catIn;
+    const dom = c.goods_x + c.svc_x - c.reexports;
+    const label = key ? (CATLABEL[key] || key) : 'All Products';
+    let groups, total;
+    if (!key){
+      total = out ? c.x : c.m;
+      groups = partnerGroups(mergeU(out ? c.partners : c.buyers, c.name));
+    } else {
+      const src = (out ? c.cat_buyers : c.cat_sellers) || {};
+      const list = src[key] || [];
+      total = out ? (c.basket[key]||0) * dom : ((c.cat_m||{})[key] || 0);
+      const items = mergeU(list.map(([q,sh]) => [q, sh * total]), c.name);
+      const rest = total - items.reduce((a,b)=>a+b[1], 0);
+      if (rest > total * 0.005) items.push(['Other', rest]);
+      groups = partnerGroups(items);
+    }
+    document.getElementById('tot-' + side).innerHTML =
+      `Total Value: ${money(total)}<b>${ofWorld(total)} of world ${out?'exports':'imports'}</b>`;
+    document.getElementById('h-' + side).innerHTML = out
+      ? `Where did ${c.name} export <em>${label}</em> to in ${DATA.year}?`
+      : `Where did ${c.name} import <em>${label}</em> from in ${DATA.year}?`;
+    drawTreemap(document.getElementById('tm-' + side), groups);
+  }
+  // ONE LEVEL DOWN. The 175 products divide what a country sells; they do not
+  // carry flows, so the partner treemaps stay at the category level where the
+  // model actually solves a matrix. Clicking a category tile descends into it;
+  // the heading grows a link back up.
+  const PRODUCTS = DATA.products || [];
+  const PLABEL = Object.fromEntries(PRODUCTS.map(([k, l]) => [k, l]));
+  const PPARENT = Object.fromEntries(PRODUCTS.map(([k, l, par]) => [k, par]));
+  let drillCat = null;
+  function subShares(c){
+    if (c.sub) return c.sub;
+    // a union has no product table of its own: weight its members' tables by
+    // their exports and rescale each family onto the union's own basket
+    if (!c.members) return {};
+    const acc = {}, wsum = {};
+    for (const mname of c.members){
+      const mc = C[mname]; if (!mc || !mc.sub) continue;
+      for (const [k, v] of Object.entries(mc.sub)){
+        const par = PPARENT[k];
+        acc[k] = (acc[k] || 0) + v * mc.x;
+        wsum[par] = (wsum[par] || 0) + v * mc.x;
+      }
+    }
+    const out = {};
+    for (const [k, v] of Object.entries(acc)){
+      const par = PPARENT[k];
+      out[k] = wsum[par] ? (v / wsum[par]) * (c.basket[par] || 0) : 0;
+    }
+    return out;
+  }
+  function drawProducts(c){
+    const dom = c.goods_x + c.svc_x - c.reexports;
+    const el = document.getElementById('tm-products');
+    const pp = document.getElementById('prod-partners'); if (pp) pp.innerHTML = drillCat ? '<div class="sub" style="margin-top:6px">Click a product for who buys it and who sells it.</div>' : '';
+    const head = document.getElementById('h-products');
+    if (!drillCat){
+      drawTreemap(el, [{name:'products', colour:'#888',
+        items: catShares(c).map(([k,l,v]) => ({name: l, key: k, v: v * dom, p: v, colour: CATCOL[k]})).filter(i=>i.v>0)}]);
+      if (head) head.innerHTML = `What did ${c.name} export in ${DATA.year}?${c.basket_edited?' <span style="color:var(--coral);font-size:12px">hand-edited</span>':''}`;
+      return;
+    }
+    const sh = subShares(c);
+    const parent = catShare(c, drillCat) || Object.entries(sh).filter(([k])=>PPARENT[k]===drillCat).reduce((a,[,v])=>a+v,0) || 1;
+    const items = Object.entries(sh).filter(([k]) => PPARENT[k] === drillCat)
+      .map(([k, v]) => ({name: PLABEL[k] || k, key: k, v: v * dom, p: v / parent, colour: CATCOL[drillCat]}))
+      .filter(i => i.v > 0);
+    drawTreemap(el, [{name: drillCat, colour: CATCOL[drillCat], items}]);
+    if (head) head.innerHTML = `<a href="#" id="drillup" style="color:var(--coral);text-decoration:none">&larr; All products</a>
+      &nbsp; What did ${c.name} export within <em>${CATLABEL[drillCat] || drillCat}</em>? <span style="color:var(--muted);font-size:13px">${pctT(parent)} of exports</span>`;
+  }
+  function drawCountryTreemaps(c){
+    drawProducts(c);
+    drawPartnerMap('out', c);
+    drawPartnerMap('in', c);
+  }
+  document.addEventListener('click', e => {
+    const up = e.target.closest('#drillup');
+    if (up){ e.preventDefault(); drillCat = null; drawProducts(REC(selected)); return; }
+    const cell = e.target.closest('#tm-products .cell');
+    if (cell && !drillCat && cell.dataset.k && CATCOL[cell.dataset.k]){
+      drillCat = cell.dataset.k; drawProducts(REC(selected));
+      return;
+    }
+    if (cell && drillCat && cell.dataset.k && PPARENT[cell.dataset.k]){
+      productPartners(REC(selected), cell.dataset.k);
+    }
+  });
+
+  // WHO BUYS A PRODUCT, WHO SELLS IT. The model's flows are per category; a
+  // product's buyers are the category's buyers weighted by how much of that
+  // product each buyer's income says it imports (the poor-to-rich product
+  // profile), and a product's sellers are the category's sellers weighted by
+  // how much of the product is in each seller's own table. Both are scaled
+  // to the country's exports or imports of the product.
+  const PPROFILE = Object.fromEntries(PRODUCTS.map(p => [p[0], p[7] || [0, 0]]));
+  const [INC_LO, INC_HI] = DATA.income_span || [12000, 280000];
+  function profileShare(key, gdp_pc){
+    const par = PPARENT[key];
+    const f = Math.max(0, Math.min(1, (Math.log(Math.max(gdp_pc, 1)) - Math.log(INC_LO)) / (Math.log(INC_HI) - Math.log(INC_LO))));
+    const w = k => { const pr = PPROFILE[k]; return pr[0] + (pr[1] - pr[0]) * f; };
+    const tot = PRODUCTS.filter(p => p[2] === par).reduce((a, p) => a + w(p[0]), 0) || 1;
+    return w(key) / tot;
+  }
+  function productPartners(c, key){
+    const el = document.getElementById('prod-partners'); if (!el) return;
+    const par = PPARENT[key], label = PLABEL[key] || key;
+    if (!c.cat_buyers || !c.sub){ el.innerHTML = `<div class="sub">Product partners are shown for single countries, not unions.</div>`; return; }
+    const dom = c.goods_x + c.svc_x - c.reexports;
+    const xp = (c.sub[key] || 0) * dom;
+    const catM = (c.cat_m || {})[par] || 0;
+    const mp = catM * profileShare(key, c.gdp_pc);
+    const bn = v => money(v);
+    const buyers = ((c.cat_buyers[par] || []).map(([q, sh]) => [q, sh * profileShare(key, (C[q] || {}).gdp_pc || c.gdp_pc)]));
+    const bt = buyers.reduce((a, b) => a + b[1], 0) || 1;
+    const sellers = ((c.cat_sellers[par] || []).map(([q, sh]) => {
+      const s = C[q]; const intensity = s && s.sub && s.basket && s.basket[par] ? (s.sub[key] || 0) / s.basket[par] : profileShare(key, c.gdp_pc);
+      return [q, sh * intensity];
+    }));
+    const st = sellers.reduce((a, b) => a + b[1], 0) || 1;
+    const tbl = (title, rows, total) => `<div class="tw"><h4><span>${title}</span><span>${bn(total)}</span></h4><table><tbody>` +
+      rows.sort((a, b) => b[1] - a[1]).slice(0, 8).map(([q, v], i) => `<tr><td class="n">${i + 1}</td><td class="c">${flag(q)}${q}</td><td class="n">${bn(v)}</td><td class="n">${pctT(v / (total || 1))}</td></tr>`).join('') +
+      `</tbody></table></div>`;
+    el.innerHTML = `<div class="sub" style="margin-top:8px">${label}: where ${c.name}'s go, and where its own come from. Shares within the category's partners, weighted by each partner's product mix.</div><div class="catblock">` +
+      (xp > 0 ? tbl(`Buyers of ${c.name}'s ${label.toLowerCase()}`, buyers.map(([q, v]) => [q, v / bt * xp]), xp) : `<div class="sub">${c.name} does not export ${label.toLowerCase()}.</div>`) +
+      (mp > 0 ? tbl(`Sellers of ${label.toLowerCase()} to ${c.name}`, sellers.map(([q, v]) => [q, v / st * mp]), mp) : '') +
+      `</div>`;
+    el.scrollIntoView({block: 'nearest', behavior: 'smooth'});
+  }
+  document.addEventListener('change', e => {
+    const sel = e.target.closest('.catsel');
+    if (!sel || !sel.dataset.side) return;   // the makers select shares the class, not the job
+    if (sel.dataset.side === 'out') catOut = sel.value; else catIn = sel.value;
+    drawPartnerMap(sel.dataset.side, C[selected]);
+  });
+
+  function select(n){
+    selected = n; drillCat = null;
+    if (U[n]){
+      for (const k in paths) paths[k].classList.remove('sel');
+      U[n].members.forEach(x => paths[x] && paths[x].classList.add('sel'));
+      document.querySelectorAll('.row').forEach(r=>r.setAttribute('aria-current', String(r.dataset.n===n)));
+      detail(); drawCountryTreemaps(U[n]);
+      return;
+    }
+    for (const k in paths) paths[k].classList.toggle('sel', k===n);
+    document.querySelectorAll('.row').forEach(r=>r.setAttribute('aria-current', String(r.dataset.n===n)));
+    detail();
+    drawCountryTreemaps(C[n]);
+    }
+  window.addEventListener('resize', () => drawCountryTreemaps(C[selected]));
+
+  // ---- zoom and pan: a transform on the world group; strokes hold their width
+  const world = document.getElementById('world');
+  let k=1, tx=0, ty=0, dragging=false, sx=0, sy=0, moved=0;
+  const apply = () => { world.setAttribute('transform', `translate(${tx} ${ty}) scale(${k})`); };
+  const toSvg = (ev) => {
+    const r = svg.getBoundingClientRect();
+    return [ (ev.clientX - r.left) / r.width * W_, (ev.clientY - r.top) / r.height * H_ ];
+  };
+  const zoomAt = (px_, py_, factor) => {
+    const nk = Math.max(1, Math.min(14, k * factor));
+    if (nk === k) return;
+    tx = px_ - (px_ - tx) * (nk / k);
+    ty = py_ - (py_ - ty) * (nk / k);
+    k = nk;
+    if (k === 1) { tx = 0; ty = 0; }
+    apply();
+  };
+  const reset = () => { k=1; tx=0; ty=0; apply(); };
+  svg.addEventListener('wheel', e => { e.preventDefault(); const [x,y] = toSvg(e); zoomAt(x, y, e.deltaY < 0 ? 1.25 : 0.8); }, {passive:false});
+  // setPointerCapture was the bug that made countries unclickable: once the
+  // SVG captures the pointer, the click that follows is dispatched to the SVG
+  // itself, never to the path under the cursor, so the path handlers never ran.
+  // Track the drag without capture, and treat a press-and-release with no real
+  // movement as a click on whatever country is under the pointer.
+  let downTarget = null;
+  svg.addEventListener('pointerdown', e => { dragging=true; moved=0; downTarget=e.target; [sx,sy]=toSvg(e); svg.classList.add('drag'); });
+  window.addEventListener('pointermove', e => { if(!dragging) return; const [x,y]=toSvg(e); tx += x-sx; ty += y-sy; moved += Math.abs(x-sx)+Math.abs(y-sy); sx=x; sy=y; apply(); });
+  const endDrag = e => {
+    if (!dragging) return;
+    dragging=false; svg.classList.remove('drag');
+    if (moved <= 3) {
+      const el = document.elementFromPoint(e.clientX, e.clientY);
+      const path = el && el.closest ? el.closest('#map path') : null;
+      if (path) { const n = path.getAttribute('aria-label'); if (n && C[n]) select(n); }
+    }
+  };
+  window.addEventListener('pointerup', endDrag); window.addEventListener('pointercancel', endDrag);
+  // the native click would now double-fire after a tap; suppress it, selection is handled above
+  svg.addEventListener('click', e => { e.stopPropagation(); e.preventDefault(); }, true);
+  svg.addEventListener('dblclick', e => { e.preventDefault(); reset(); });
+  document.getElementById('zin').addEventListener('click', ()=>zoomAt(W_/2, H_/2, 1.5));
+  document.getElementById('zout').addEventListener('click', ()=>zoomAt(W_/2, H_/2, 1/1.5));
+  document.getElementById('zreset').addEventListener('click', reset);
+
+  document.getElementById('metric').addEventListener('click', e=>{
+    const b = e.target.closest('button'); if(!b) return;
+    measure = b.dataset.m;
+    document.querySelectorAll('#metric button').forEach(x=>x.setAttribute('aria-pressed', String(x.dataset.m===measure)));
+    shade(); rankRows();
+  });
+  document.getElementById('rows').addEventListener('click', e=>{
+    const b = e.target.closest('.row'); if(b) select(b.dataset.n);
+  });
+
+  // ---- the five lists ---------------------------------------------------
+  // The tables follow the toggle. With the bloc counted as one, its thirteen
+  // rows become a single row carrying only trade that crosses the union's outer
+  // border, and the world total drops by the trade that has become internal.
+  // Ranked makers of one category or product, computed from every country's
+  // basket and product table; follows the union toggle like the lists do.
+  function makers(){
+    const sel = document.getElementById('makersel'); if (!sel) return;
+    if (!sel.options.length){
+      let h = '<optgroup label="Categories">' + CATS.map(([k,l])=>`<option value="c:${k}">${l}</option>`).join('') + '</optgroup>';
+      for (const [k, l] of CATS){
+        const ps = PRODUCTS.filter(p => p[2] === k);
+        if (ps.length) h += `<optgroup label="${l}">` + ps.map(p=>`<option value="p:${p[0]}">${p[1]}</option>`).join('') + '</optgroup>';
+      }
+      sel.innerHTML = h;
+      sel.addEventListener('change', makers);
+    }
+    const [kind, key] = sel.value.split(':');
+    const val = c => {
+      const dom = c.goods_x + c.svc_x - c.reexports;
+      return kind === 'c' ? catShare(c, key) * dom : ((c.sub || subShares(c))[key] || 0) * dom;
+    };
+    const inside = new Set(Object.keys(memberOf));
+    const pool = unionMode ? names.filter(x=>!inside.has(x)).concat(Object.keys(U)) : names;
+    const rows = pool.map(nm => [nm, val(REC(nm))]).filter(r => r[1] > 0).sort((a,b)=>b[1]-a[1]);
+    const world = rows.reduce((a,r)=>a+r[1], 0) || 1;
+    const bn = v => (v/1e9).toLocaleString(undefined, {maximumFractionDigits: 0});
+    const label = kind === 'c' ? (CATLABEL[key]||key) : (PLABEL[key]||key);
+    const pci = kind === 'p' ? (PRODUCTS.find(p=>p[0]===key)||[])[3] : null;
+    const prod = kind === 'p' ? (PRODUCTS.find(p=>p[0]===key)||[]) : [];
+    const earth = prod[4], verdict = prod[6];
+    const sh = rows.map(r=>r[1]/world);
+    const top = n => sh.slice(0, n).reduce((a,b)=>a+b, 0);
+    const n1 = sh.filter(v=>v>=0.01).length;
+    const shapeLine = (who, lead, t1, t3, t10, n, share) =>
+      `<b>${who}</b> ${lead} ${(t1*100).toFixed(0)}% · top-3 ${(t3*100).toFixed(0)}% · top-10 ${(t10*100).toFixed(0)}% · ${n} exporters ≥1%` + (share != null ? ` · ${(share*100).toFixed(2)}% of world trade` : '');
+    let note = `${rows.length} exporters, ${money(world)} world trade` + (pci != null ? ` · product complexity ${pci>=0?'+':''}${pci.toFixed(2)}` : '');
+    if (kind === 'p' && rows.length){
+      const worldAll = names.reduce((a,n)=>{const c=REC(n); return a + (c.goods_x + c.svc_x - c.reexports);}, 0) || 1;
+      note += '<br>' + shapeLine('Andah:', rows[0][0], sh[0], top(3), top(10), n1, world/worldAll);
+      if (earth) note += '<br>' + shapeLine('Earth 2015:', earth.leader, earth.top1, earth.top3, earth.top10, earth.n, earth.share) +
+        (verdict ? ` · <i>${verdict}</i>` : '');
+      else note += '<br><i>resource product: shares follow the wiki production tables, not fitted to Earth</i>';
+    }
+    document.getElementById('makernote').innerHTML = note;
+    document.getElementById('makers').innerHTML =
+      `<div class="tw" style="max-height:520px"><table><thead><tr><th>#</th><th>Country</th><th style="text-align:right">${label} (lahn bn)</th><th style="text-align:right">% of world</th><th style="text-align:right">% of its exports</th></tr></thead><tbody>` +
+      rows.map(([nm, v], i) => `<tr><td class="n">${i+1}</td><td class="c">${flag(nm)}${nm}</td><td class="n">${bn(v)}</td><td class="n">${pctT(v/world)}</td><td class="n">${pctT(v/(REC(nm).x||1))}</td></tr>`).join('') +
+      `</tbody></table></div>`;
+  }
+
+  function lists(){
+    const el = document.getElementById('lists'); if (!el) return;
+    const L = DATA.lists || {};
+    const cont = DATA.continents || {};
+    const rank = (arr) => arr.map((r, i) => Object.assign({rank: i+1}, r));
+    const bn = v => (v/1e9).toLocaleString(undefined, {maximumFractionDigits: 0});
+    const inside = new Set(Object.keys(memberOf));
+    const pool = unionMode ? names.filter(x=>!inside.has(x)).concat(Object.keys(U)) : names;
+    const nameOf = q => (unionMode && memberOf[q]) ? memberOf[q] : q;
+    // merge a [name, value] list onto the pool's naming
+    const fold = rows => {
+      if (!unionMode) return rows;
+      const agg = {}, order = [];
+      for (const [q, ...rest] of rows){
+        const k = nameOf(q);
+        if (!(k in agg)){ order.push(k); agg[k] = [k, ...rest.map(()=>0)]; }
+        rest.forEach((v, i) => { if (typeof v === 'number') agg[k][i+1] += v; });
+      }
+      return order.map(k => agg[k]).sort((a,b)=> (b[1]||0)-(a[1]||0));
+    };
+    const byX = pool.slice().sort((a,b)=>REC(b).x-REC(a).x);
+    const byM = pool.slice().sort((a,b)=>REC(b).m-REC(a).m);
+    const tbl = (head, rows) => `<div class="tw"><table><thead><tr>${head.map(h=>`<th${/^(Exports|Imports|Value|Balance|Share|Market|Goods|Services|Rank|#|%)/.test(h)?' style="text-align:right"':''}>${h}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+    const worldX = pool.reduce((s,n)=>s+REC(n).x,0), worldM = pool.reduce((s,n)=>s+REC(n).m,0);
+
+    let h = '';
+    h += `<div><h3>List of countries by exports</h3><div class="sub">Goods and services exports, lahn billions. Top goods export is the largest line of the country's basket.</div>` +
+      tbl(['Rank','Country','Exports (lahn bn)','% of world','Year','Top export'],
+        [`<tr><td class="n">—</td><td class="c">World</td><td class="n">${bn(worldX)}</td><td class="n">100%</td><td class="n">${DATA.year}</td><td>—</td></tr>`].concat(
+        byX.map((n,i)=>`<tr><td class="n">${i+1}</td><td class="c">${flag(n)}${n}</td><td class="n">${bn(REC(n).x)}</td><td class="n">${pctT(REC(n).x/worldX)}</td><td class="n">${DATA.year}</td><td>${CATLABEL[REC(n).lead_cat]||''}</td></tr>`))) + `</div>`;
+
+    h += `<div><h3>List of countries by imports</h3><div class="sub">Total imports split into merchandise and services, with the trade balance. Lahn billions.</div>` +
+      tbl(['Rank','Country','Imports (lahn bn)','% of world','Goods','Services','Balance'],
+        [`<tr><td class="n">—</td><td class="c">World</td><td class="n">${bn(worldM)}</td><td class="n">100%</td><td class="n"></td><td class="n"></td><td class="n">0</td></tr>`].concat(
+        byM.map((n,i)=>{const c=REC(n); const gm=c.m - (c.m*(c.svc_share||0)); return `<tr><td class="n">${i+1}</td><td class="c">${flag(n)}${n}</td><td class="n">${bn(c.m)}</td><td class="n">${pctT(c.m/worldM)}</td><td class="n">${bn(gm)}</td><td class="n">${bn(c.m-gm)}</td><td class="n" style="color:${c.bal<0?'var(--neg)':'var(--pos)'}">${c.bal<0?'−':''}${bn(Math.abs(c.bal))}</td></tr>`;}))) + `</div>`;
+
+    const cats = L.by_category || {};
+    h += `<div><h3>List of top exporting countries by category</h3><div class="sub">Five leading exporters for each of the fifteen categories, with their share of the world's exports of that category.</div><div class="catblock">` +
+      CATS.map(([k,l])=>{ const rows=(cats[k]||[]).slice(0,5); const tot=(cats[k]||[]).reduce((s,r)=>s+r[1],0)||1;
+        return `<div class="tw"><h4><span><i style="background:${CATCOL[k]}"></i>${l}</span><span>${money(tot)}</span></h4><table><tbody>${rows.map((r,i)=>`<tr><td class="n">${i+1}</td><td class="c">${r[0]}</td><td class="n">${bn(r[1])}</td><td class="n">${(r[1]/tot*100).toFixed(1)}%</td></tr>`).join('')}</tbody></table></div>`;}).join('') + `</div></div>`;
+
+    const ht = (L.high_tech||[]).slice(0,15);
+    h += `<div><h3>List of countries by high-tech exports</h3><div class="sub">Electronics & electrical, plus the pharmaceutical share of chemicals and the aerospace share of vehicles, both rising with income. Lahn billions; share of manufactured exports alongside.</div>` +
+      tbl(['#','Country','Value (lahn bn)','% of manufactured exports','Year'],
+        fold(ht).map((r,i)=>`<tr><td class="n">${i+1}</td><td class="c">${flag(r[0])}${r[0]}</td><td class="n">${bn(r[1])}</td><td class="n">${(r[2]*100).toFixed(1)}%</td><td class="n">${DATA.year}</td></tr>`)) + `</div>`;
+
+    const lp = L.leading_partners || [];
+    h += `<div><h3>List of countries by leading trade partners</h3><div class="sub">Largest export market and largest import source for every country, with that partner's share.</div>` +
+      tbl(['Country','Leading export market','Share','Leading import source','Share'],
+        lpRows().map(r=>`<tr><td class="c">${flag(r[0])}${r[0]}</td><td>${flag(r[1])}${r[1]}</td><td class="n">${(r[2]*100).toFixed(1)}%</td><td>${flag(r[3])}${r[3]}</td><td class="n">${(r[4]*100).toFixed(1)}%</td></tr>`)) + `</div>`;
+    el.innerHTML = h;
+
+    function lpRows(){
+      if (!unionMode) return lp;
+      const out = lp.filter(r => !inside.has(r[0])).map(r => [r[0], nameOf(r[1]), r[2], nameOf(r[3]), r[4]]);
+      // the bloc's own row, from its external partner distribution
+      for (const [uname, u] of Object.entries(U)){
+        const top = l => l.length ? l[0] : ['', 0];
+        const tx = top(u.partners), tm = top(u.buyers);
+        const sx = u.partners.reduce((a,b)=>a+b[1],0) || 1;
+        const sm = u.buyers.reduce((a,b)=>a+b[1],0) || 1;
+        out.push([uname, tx[0], tx[1]/sx, tm[0], tm[1]/sm]);
+      }
+      return out;
+    }
+  }
+  lists(); makers();
+
+  // ---- calibration table ------------------------------------------------
+  // Most of these are ratios, but distance is in kilometres and reads as
+  // nonsense to three decimal places.
+  const mnum = v => Math.abs(v) >= 100 ? Math.round(v).toLocaleString() : v.toFixed(3);
+  document.querySelector('#metrics tbody').innerHTML = DATA.metrics.map(m=>`
+    <tr><td>${m.ok?'<span class="dot"></span>':''}${m.name}</td>
+      <td class="n">${mnum(m.andah)}</td><td class="n">${mnum(m.earth)}</td>
+      <td style="white-space:normal;color:var(--muted)">${m.note}</td></tr>`).join('');
+
+  shade(); rankRows(); select(selected);
+
+  // The map's fills are computed from the CSS custom properties, so they have to
+  // be recomputed whenever the palette changes. Two things can change it: the
+  // OS preference, and the host stamping data-theme on the root element. Only
+  // watching the media query left the map painted in light-theme parchment and
+  // coral on a night-chart ground.
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  if (mq.addEventListener) mq.addEventListener('change', shade);
+  new MutationObserver(shade).observe(document.documentElement,
+    {attributes:true, attributeFilter:['data-theme']});
+})();
+</script>

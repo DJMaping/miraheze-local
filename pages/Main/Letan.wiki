@@ -33,20 +33,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 46.2
 | population_density_rank = 91st
-| GDP_PPP                = {{increase}} {{lahn}}328.304 million<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/let/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}2.626 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/let/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 169th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}4,317
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}34,536
 | GDP_PPP_per_capita_rank = 152nd
-| GDP_nominal            = {{increase}} {{lahn}}123.422 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/let/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}987.376 million<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/let/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 169th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}1,623
+| GDP_nominal_per_capita = {{increase}} {{lahn}}12,984
 | GDP_nominal_per_capita_rank = 146th
 | HDI_year               = 1765
-| HDI                    = 0.720
+| HDI                    = 0.543
 | HDI_change             = increase
-| HDI_rank               = 106th
+| HDI_rank               = 147th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Llocha]] (_) (LLO)
 | time_zone              = SET -8 (Standard Letan Time)

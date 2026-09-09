@@ -1,0 +1,21 @@
+<span style="white-space:nowrap;">{{#switch: {{{1|}}}
+
+| 0 | #default = [[File:Red card.svg|10px|alt=Red card|Sent off (straight red)|link=]]{{#if: {{{2|}}} |&nbsp;{{#switch:{{uc:{{{2}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}|{{{2}}}{{`}}}}}}
+
+| 1 = [[File:Yellow card.svg|10px|alt=Yellow card|Booked|link=]]{{#if: {{{2|}}} |&nbsp;{{#switch:{{uc:{{{2}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}|{{{2}}}{{`}}}}}}&nbsp;[[File:Red card.svg|10px|alt=Red card|Sent off (straight red)|link=]]{{#if: {{{3|}}} |&nbsp;{{#switch:{{uc:{{{3}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}|{{{3}}}{{`}}}}}}
+
+| 1+1 = [[File:Yellow card.svg|10px|alt=Yellow card|Booked|link=]]{{#if: {{{2|}}} |&nbsp;{{#switch:{{uc:{{{2}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|{{{2}}}{{`}}}}}}&nbsp;[[File:Yellow card.svg|10px|alt=Yellow card|Booked immediately before/during/after penalty shoot-out (cards reset)|link=]]{{#if: {{{3|}}} |&nbsp;{{#switch:{{uc:{{{3}}}}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}}}}}&nbsp;[[File:Red card.svg|10px|alt=Red card|Sent off (straight red) immediately before/during/after penalty shoot-out|link=]]{{#if: {{{4|}}} |&nbsp;{{#switch:{{uc:{{{4}}}}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}}}}}
+
+| 2 = [[File:Yellow card.svg|10px|alt=Yellow card|Booked|link=]]{{#if: {{{2|}}} |&nbsp;{{#switch:{{uc:{{{2}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}|{{{2}}}{{`}}}}}}&nbsp;[[File:Yellow-red card.svg|12px|alt=Yellow-red card|Sent off (second booking)|link=]]{{#if: {{{3|}}} |&nbsp;{{#switch:{{uc:{{{3}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}|{{{3}}}{{`}}}}}}
+
+| 1+2 = [[File:Yellow card.svg|10px|alt=Yellow card|Booked|link=]]{{#if: {{{2|}}} |&nbsp;{{#switch:{{uc:{{{2}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|{{{2}}}{{`}}}}}}&nbsp;[[File:Yellow card.svg|10px|alt=Yellow card|Booked immediately before/during/after penalty shoot-out (cards reset)|link=]]{{#if: {{{3|}}} |&nbsp;{{#switch:{{uc:{{{3}}}}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}}}}}&nbsp;[[File:Yellow-red card.svg|12px|alt=Yellow-red card|Sent off (second booking) immediately before/during/after penalty shoot-out|link=]]{{#if: {{{4|}}} |&nbsp;{{#switch:{{uc:{{{4}}}}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}}}}}
+
+| 3 = [[File:Yellow card.svg|10px|alt=Yellow card|Booked|link=]]{{#if: {{{2|}}} |&nbsp;{{{2}}}{{`}}}}&nbsp;[[File:Yellow card.svg|10px|alt=Yellow card|Booked again|link=]]{{#if: {{{3|}}} |&nbsp;{{{3}}}{{`}}}}&nbsp;[[File:Yellow-red card.svg|12px|alt=Yellow-red card|Sent off (third booking)|link=]]{{#if: {{{4|}}} |&nbsp;{{{4}}}{{`}}}}
+
+}}</span>{{#if:{{#invoke:ustring|match|\{{{2|}}}¬¬{{{3|}}}¬¬{{{4|}}}¬¬|'%s*¬¬}}|{{main other|[[Category:Association football templates needing maintenance]]}}}}<noinclude>
+
+{{documentation}}
+
+<!-- Categories and interwikis go on /doc -->
+
+</noinclude>

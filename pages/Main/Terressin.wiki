@@ -47,20 +47,20 @@
 | population_census_year = 1763
 | population_density_km2 = 66.6
 | population_density_rank = 68th
-| GDP_PPP                = {{increase}} {{lahn}}759 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ter/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}6.072 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ter/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 31st
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}10,250
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}82,000
 | GDP_PPP_per_capita_rank = 105th
-| GDP_nominal            = {{increase}} {{lahn}}361 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ter/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}2.888 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ter/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 32nd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}4,881
+| GDP_nominal_per_capita = {{increase}} {{lahn}}39,048
 | GDP_nominal_per_capita_rank = 96th
 | HDI_year               = 1765
-| HDI                    = 0.655
+| HDI                    = 0.712
 | HDI_change             = increase
-| HDI_rank               = 136th
+| HDI_rank               = 91st
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Terressin Araik]] (_) (TAR)
 | time_zone              = SRT +3 (Standard Terressin Time)

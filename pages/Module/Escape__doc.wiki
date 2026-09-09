@@ -1,0 +1,228 @@
+{{Module rating |release<!-- Values:  pre-alpha • alpha • beta • release • protected  --  If a rating not needed/relevant, delete this template call -->}}
+{{High use}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+== Usage ==
+This module is designed as an way to escape strings in a customized and efficient manner. It works by replacing characters that are preceded by your escape char (or phrase) There are two ways to call this module:
+
+From another module:
+ {{codett|2=lua|1=local esc = require('Module:Escape')}}
+ esc:char({{green|''escape char (or sequence)''}})
+ {{codett|2=lua|1=local to_escape = esc:text}}({{green|''string''}})
+ {{green|''code that replaces or removes unescaped chars''}}
+ {{codett|2=lua|1=local result = esc:undo(to_escape)}}
+
+From a template:
+ {{mlx|Escape|main|mode{{=}}{{green|''function''}}|char{{=}}{{green|''escape char (or sequence)''}}|{{green|''text''}}}}
+
+In a template, the most useful function is {{code|kill}}. 
+
+This module is primarily intended to be used by other modules. However all functions can be called in template space using {{para|mode|the function you want to call}} followed by arguments.
+
+All module functions (i.e. any func. other than {{code|main()}}) should be called using a colon ({{char|:}}), e.g. {{code|esc:char('%')|lua}} or {{code|<nowiki>esc:kill{'{{example|\\}}}', '}'} == '{{example|}'</nowiki>|lua}}
+
+{|class="wikitable"
+|-
+!style="vertical-align:top;width:7em;font-family:monospace;"|{{TOC tab|escape:text()}}
+|This function takes only one argument: A string. All characters in this string which are preceded by the sequence set by {{code|escape:char()}} will be replaced with placeholders that can be converted back into that char by escape:undo()
+|-
+!style="vertical-align:top;width:5em;font-family:monospace;"|{{TOC tab|escape:undo()}}
+|Takes two arguments:
+# The string that may contain placeholders set by {{code|escape:text()}}
+# Optional, a char to be placed in front of any characters that have been de-escaped. (i.e. if you need to re-escape those string with a different char)
+|-
+!style="vertical-align:top;width:5em;font-family:monospace;"|{{TOC tab|escape:kill()}}
+|This is basically equivalent to calling {{code|string.gsub()}} on the string returned by {{code|escape:text()}} and feeding that result into {{code|escape:undo()}} in a single step. Takes three arguments:
+# A string
+# A sequence of characters to be removed from that string. (May use a {{code|string.gsub()}} pattern)
+# Optional, a char to be placed in front of any characters that have been de-escaped.
+|- 
+!style="vertical-align:top;font-family:monospace;"|{{TOC tab|escape:char()}}
+|This function's primary use is to initialize the patterns to scan a string for an escape/escaped sequence. It takes two arguments, the first being the escape character and the second being a table of arguments (optional). By default, this module will escape the {{code|\}} char. To escape the {{code|{}} char instead, you can do {{code|require('Module:Escape'):char('{')|lua}} (or {{code|esc:char('{')|lua}} (presuming you stored the table returned by this module in the local variable {{code|esc}}).
+
+When called without the second argument, char() will return a table containing the functions. This allows, for example, {{code|escape:char('*'):kill('1*23', '%d')|lua}} which would return '{{samp|2}}'.
+
+For the most part, there is very little reason to set {{para|mode}} in template space since the patterns it stores are not shared with other invokations of this module. Templates should instead use the {{para|char}} if a new escape sequence is desired.
+
+====Shortcut====
+If provided a second argument that is a table containing a <code>{key = value}</code> pair, such that the key is {{code|text}}, {{code|undo}}, or {{code|kill}} and the value is a table containing the arguments that would have been passed to those functions. For example, {{code|escape:char('\\', {text {{=}} 'string'})|lua}} is equivalent to {{code|escape:char('\\'):text('string')|lua}}.
+
+Note that if multiple key-value pairs are provided, only one may execute. {{code|kill}} is ignored if either {{code|text}} or {{code|undo}} are present. {{code|undo}} is ignored if {{code|text}} is present.
+|}
+<span id='functions doc'></span>
+
+===Caveats===
+* When using a multi-character escape sequence, this module only marks it using the byte value of the first character. Thus, {{code|2=lua|escape:undo()}} will unescape, for example, all characters escaped with {{code|'e'}} and {{code|'esc'}} if both were used. In practice however this shouldn't be a problem as multiple escape sequences are pretty rare unless you're transitioning between multiple code languages. (Multiple multi-char escape sequences beginning with the same character are simply bad practice anyhow.)
+* Since byte values are stored as numbers, it is not recommended for you to use a number as an escape sequence (though it may work just fine).
+* Placeholder byte values separated with return ({{code|'\r'}}) characters--chosen because they are seldom used at all, and virtually never used unpaired with {{code|'\n'}}; moreover, it is distinct from the markers generated by {{tag|nowiki}} or {{code|mw.text.nowiki()}} (which use the delete char). To set a different separator char, include the key-value pair <code>{safeChr = {{green|alternate character}}}</code> in the table that you pass to escape:char().
+
+==Speed==
+The following are benchmarks...
+
+when executing the following module function:
+<syntaxhighlight lang="lua">
+ function p.test_kill500(frame)
+  local esc = require('Module:Escape')
+  for k = 1, 500 do
+   local v = esc:kill(p.test_string2(), 'test')
+  end
+  return os.clock(esc)
+ end
+</syntaxhighlight>
+'''{{#invoke:Escape/testcases|test_kill500}}'''
+
+when repeating the following line 500 times in a template:
+
+{{code|<nowiki>{{#invoke:Escape|main|mode=kill|{{#invoke:Escape/testcases|test_string2}}|test}}</nowiki>|wikitext}}
+
+'''0.767'''<!-- 
+NewPP limit report
+Parsed by mw1144
+CPU time usage: 1.082 seconds
+Real time usage: 1.109 seconds
+Preprocessor visited node count: 4001/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 33000/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/500
+Lua time usage: 0.767/10.000 seconds
+Lua memory usage: 1.5 MB/50 MB
+-->
+
+All times in seconds. The module time x500 was calculated when you loaded this doc page (normally between 0.02 and 0.07). The template time x500 was recorded on Jan 15, 2015.
+
+==Examples==
+===Template===
+{{Module talk:Escape/testcases}}
+===Module===
+Here's some sample output from the debug console below the module editor:
+{{pre|
+{{blue|'''local escape {{=}} require('Module:Escape')<br>test {{=}} '{{#invoke:Escape/testcases|test_string_module}}'<br><br>test2 {{=}} escape:char('{'):text(test)<br>{{=}}test2'''}}<br>
+{{#invoke:Escape|main
+|mode=text
+|char={
+|{{#invoke:Escape/testcases|test_string}}
+}}
+
+{{blue|'''test3 {{=}} escape:char('\\'):text(test2)<br>{{=}}test3'''}}<br>
+{{#invoke:Escape|main
+|mode=text
+|{{#invoke:Escape|main
+ |mode=text
+ |char={
+ |{{#invoke:Escape/testcases|test_string}}
+ }}
+}}
+
+{{blue|'''test4 {{=}} escape:char('{', {undo {{=}} test3})<br>{{=}}test4'''}}<br>
+{{#invoke:Escape|main|mode=undo
+|char={
+|{{#invoke:Escape|main|mode=text
+ |{{#invoke:Escape|main|mode=text
+  |char={
+  |{{#invoke:Escape/testcases|test_string}}
+  }}
+ }}
+}}
+
+{{blue|'''test4 {{=}} escape:char('\\', {undo {{=}} test3})<br>{{=}}test4'''}}<br>
+{{#invoke:Escape|main
+|mode=undo
+|{{#invoke:Escape|main
+ |mode=text
+ |{{#invoke:Escape|main
+  |mode=text
+  |char={
+  |{{#invoke:Escape/testcases|test_string}}}}
+ }}
+}}
+
+{{blue|'''test5 {{=}} escape:char('{', {undo {{=}} test4})<br>{{=}}test5 {{=}}{{=}} test'''}}<br>
+{{#ifeq:
+ {{#invoke:Escape|main
+ |mode=undo
+ |char={
+ |{{#invoke:Escape|main
+  |mode=undo
+  |{{#invoke:Escape|main
+   |mode=text
+   |{{#invoke:Escape|main
+    |mode=text
+    |char={
+    |{{#invoke:Escape/testcases|test_string}}
+    }}
+   }}|\
+  }}|{
+ }}
+|{{#invoke:Escape/testcases|test_string}}
+|true
+|false
+}}
+
+'''{{blue|{{=}}escape:undo(test3)}}'''{{green|--doesn't work because char is still set to '{' in current session}}<br>
+<!--Obviously template calls don't remember sessions so we must code it here-->
+{{#invoke:Escape|main|mode=undo
+|char={
+|{{#invoke:Escape|main|mode=text|{{#invoke:Escape|main|mode=text|char={|{{#invoke:Escape/testcases|test_string}}}}}}
+}}
+
+'''{{blue|{{=}}escape:undo(test4)}}'''<br>
+{{#invoke:Escape|main|mode=undo
+|char={
+|{{#invoke:Escape|main|mode=undo
+ |{{#invoke:Escape|main|mode=text
+  |{{#invoke:Escape|main|mode=text
+   |char={
+   |{{#invoke:Escape/testcases|test_string}}
+  }}
+ }}
+ |\}}
+}}
+
+'''{{blue|{{=}}escape:char('\\'):undo(test3)}}'''<br>
+{{#invoke:Escape|main
+|mode=undo
+|{{#invoke:Escape|main|mode=text|{{#invoke:Escape|main|mode=text|char={|{{#invoke:Escape/testcases|test_string}}}}}}
+}}
+
+'''{{blue|{{=}}escape:char('{', {undo {{=}} escape:char('\\'):undo(test3)})}}'''<br>
+{{#invoke:Escape|main|mode=undo|char={
+|{{#invoke:Escape|main|mode=undo|{{#invoke:Escape|main|mode=text|{{#invoke:Escape|main|mode=text|char={|{{#invoke:Escape/testcases|test_string}}}}}}}}
+|{
+}}
+
+'''{{blue|{{=}}test {{=}}{{=}} escape:char('{', {undo {{=}} escape:char('\\'):undo(test3)})}}'''<br>
+false
+
+'''{{blue|{{=}}test {{=}}{{=}} escape:char('{', {undo {{=}} escape:char('\\'):undo(test3, '\\')})}}'''<br>
+{{#ifeq:
+{{#invoke:Escape|main
+|mode=char
+|char={
+|undo={{#invoke:Escape|main
+ |mode=char
+ |char=\
+ |undo={{#invoke:Escape|main|mode=text|{{#invoke:Escape|main|mode=text|char={|{{#invoke:Escape/testcases|test_string}}}}}}
+ }}
+}}
+|{{#invoke:Escape/testcases|test_string}}
+|true
+|false
+}}
+
+'''{{blue|local t {{=}} '{{#invoke:Escape/testcases|test_string_module|2}}'<br>{{=}}t}}<br>'''
+{{#invoke:Escape/testcases|test_string2}}
+
+'''{{blue|local e {{=}} require('Module:Escape')<br>local t2 {{=}} escape:text(t)<br>local t3 {{=}} string.gsub(t2, '{', '')<br>local t4 {{=}} escape:undo(t3)<br>{{=}}t4''}}<br>'''
+test  test { test, test, {,test   \
+
+'''{{blue|local tk0 {{=}} escape:kill(t, '{')<br>{{=}}tk0 {{=}}{{=}} t4}}<br>'''
+true
+}}
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Modules that manipulate strings|Escape]]
+[[Category:Template metamodules|Escape]]
+}}</includeonly><noinclude>
+[[Category:Module documentation pages]]
+</noinclude>

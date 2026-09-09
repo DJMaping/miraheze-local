@@ -65,20 +65,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 41.2
 | population_density_rank = 101st
-| GDP_PPP                = {{increase}} {{lahn}}123 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/eld/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}984 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/eld/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 87th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}22,858
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}182,864
 | GDP_PPP_per_capita_rank = 26th
-| GDP_nominal            = {{increase}} {{lahn}}74 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/eld/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}592 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/eld/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 70th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}13,770
+| GDP_nominal_per_capita = {{increase}} {{lahn}}110,160
 | GDP_nominal_per_capita_rank = 38th
 | HDI_year               = 1765
-| HDI                    = 0.860
+| HDI                    = 0.852
 | HDI_change             = increase
-| HDI_rank               = 47th
+| HDI_rank               = 27th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Eldjan Biecoh]] (_) (EIE)
 | time_zone              = SEJ +1 (Standard Eldjan Time)

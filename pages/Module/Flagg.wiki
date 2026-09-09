@@ -216,7 +216,7 @@ function p.luaMain(frame,args)
 	end
 
 	--Define separator
-	local separator = "&nbsp;" --non-breaking space (n)
+	local separator = "&nbsp;"
 	if ms=="x" then --no separator
 		separator = ""
 	elseif ms=="l" then --line break
@@ -288,12 +288,12 @@ function p.luaMain(frame,args)
 		if (ms=="x" and mi=="x") or (string.find(me,"o") and iname==placeholder and pimage~=placeholder) then --name only
 			out = text
 		elseif ms=="x" or ms=="n" or ms=="l" then --no separator, non-breaking space, or line break
-			out = text.."<span class=\"flagicon\">"..separator..image.."</span>"
+			out = text.."<span class=\"flagicon nowrap\">"..separator..image.."</span>"
 		elseif ms=="t" then --table cell
 			out = "style=\"text-align:"..(nalign or "left").."\"|"..text.."||style=\"text-align:"..(align or "center").."\"|<span class=\"flagicon\">"..image.."</span>"
 		else --fixed-width span box (default)
-			local width = args["width"] or args["w"] or require("Module:Flaglist").luawidth(size)
-			out = text.."&nbsp;<span class=\"flagicon\" style=\"display:inline-block;width:"..width.."px;text-align:"..(align or "right").."\">"..image.."</span>"
+			local width = args["width"] or args["w"] or require("Module:Flag list").luawidth(size)
+			out = text.."<span class=\"nowrap\">&nbsp;<span class=\"flagicon\" style=\"display:inline-block;width:"..width.."px;text-align:"..(align or "right").."\">"..image.."</span></span>"
 		end
 	else --image left of name
 		if (ms=="x" and mi=="x") or (string.find(me,"o") and iname==placeholder and pimage~=placeholder) then --name only
@@ -303,12 +303,9 @@ function p.luaMain(frame,args)
 		elseif ms=="t" then --table cell
 			out = "style=\"text-align:"..(align or "center")..";\"|<span class=\"flagicon\">"..image.."</span>||style=\"text-align:"..(nalign or "left").."\"|"..text
 		else --fixed-width span box (default)
-			local width = nopx(args["width"] or args["w"]) or require("Module:Flaglist").luawidth(size)
-			out = "<span class=\"flagicon\" style=\"display:inline-block;width:"..width.."px;text-align:"..(align or "left").."\">"..image.."</span>&nbsp;"..text
+			local width = nopx(args["width"] or args["w"]) or require("Module:Flag list").luawidth(size)
+			out = "<span class=\"nowrap\"><span class=\"flagicon\" style=\"display:inline-block;width:"..width.."px;text-align:"..(align or "left").."\">"..image.."</span>&nbsp;</span>"..text
 		end
-	end
-	if string.find(me,"w") then --avoid wrapping
-		out = "<span class=\"nowrap\">"..out.."</span>"
 	end
 	
 	-- align in table

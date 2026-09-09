@@ -13,7 +13,7 @@
 | capital                = [[Muntai]]
 | largest_city           = [[Muntai]]
 | official_languages     = Arten<br>Terressin
-| ethnic_groups          = 47.6% Jauan<br>22.1% [[Nnaollt]]<br>14.6% [[Onderne]]<br>7.8% [[Arten]]<br>3.2% [[Irrsteho]]<br>4.7% Other
+| ethnic_groups          = 47.6% [[Onderne]]<br>22.1% [[Nnaollt]]<br>14.6% [[Arten]]{{ref|a}}<br>11.0% [[Irrsteho]]<br>4.7% Other
 | ethnic_groups_year     = 1765
 | ethnic_groups_ref      = <ref>{{cite web|url=https://www.gov.jau/1765/caX3a/CENSUS.PDF |title=Population by ethnic community – 1763 |publisher=[[Census Jau]] }}</ref>
 | religion               = 64.5% [[Tzinalli]]<br>24.8% [[Kelhari]]<br>5.2% [[Kallimethra]]<br>5.5% [[Religion in Jau|Others]]
@@ -50,20 +50,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 11.2
 | population_density_rank = 147th
-| GDP_PPP                = {{increase}} {{lahn}}33.222 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/jau/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}265.776 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/jau/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 121st
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}1,445
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}11,560
 | GDP_PPP_per_capita_rank = 164th
-| GDP_nominal            = {{increase}} {{lahn}}10.036 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/jau/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}80.288 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/jau/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 130th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}437
+| GDP_nominal_per_capita = {{increase}} {{lahn}}3,496
 | GDP_nominal_per_capita_rank = 163rd
 | HDI_year               = 1765
-| HDI                    = 0.595
+| HDI                    = 0.369
 | HDI_change             = increase
-| HDI_rank               = 148th
+| HDI_rank               = 164th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Jauan Araik]] (_) (JAK)
 | time_zone              = SJT +3 (Standard Jauan Time)
@@ -72,6 +72,14 @@
 | cctld                  = .jau
 | calling_code           = +80
 }}
+'''Jau''', is a country in [[Noorth Acrola]] region of [[Acrola]]. It is bordered by [[Hkuqo]] to the west, [[Taniduna]] and [[Jshain]] to the south, [[Iquir]] to the southeast, [[Terressin]] to the east, and [[Areoix Lie]] to the north. By land area, Jau is the [[List of Acrolan countries by area|2nd-largest country in Acrola]] and the [[List of countries and dependencies by area|15th-largest in the world]]; 55% of its territory is in the [[Siita desert|Siita]] desert. Most of [[Demographics of Jau|its population]] of 22.9 million live in the temperate south of the country, while the capital and largest city, [[Muntai]], is located ij the north of the country near the border with [[Areiox Lie]].
+
+The country's name derives from the Acrolan name for a region to the north. The [[Bayudaian peoples|Bayudaians]] occupied what is now Jau through most of recorded history. Groups of [[Alzurian tribes]] migrated to this area in the late 6th century, bringing with them [[Kelhari]], [[Alzurian culture]], and the [[Azlurian Languages|Azlurian languages]]. In the late 16th century, Jau was colonised by Areoix Lie as part of [[Arten Jau]]. It achieved independence in 1715, following the [[Arten Revolution]] and the [[Declaration of Rights]] within [[Areoix Lie]]. The country has since experienced recurrent political violence and periods of rebellion, especially in the south. Jau has a poor [[Human rights in Jau|human rights record]], particularly because of its perpetuation of [[Slavery in Jau|slavery]]; the 1760 [[World Slavery Index]] estimates there are about 150,000 slaves in the country.
+
+Despite an abundance of natural resources, Jau [[Wikipedia:Least developed countries|remains poor]]; [[Economy of Jau|its economy]] is based primarily on [[Wikipedia:Agriculture|agriculture]] and fishing. Jau is culturally and politically part of the [[Arten world]]. [[Arten Language|Arten]] and [[Terressin Language|Terressin]] are both official languages. The state religion is [[Tzinalli ]], while under half of its inhabitants are followers. Despite its prevailing [[Arten identity]], Jaun society is multiethnic. The [[Onderne]], comprise 40% of the population, [[Nnaollt peoples|Nnaollt]] make up 22%, and [[Jauan peoples|Jauan]] and others of Arten descent make up 15% of the population. The remaining 12% of Jau’s population comprises various [[Acrolan ethnic groups]].
+
+==Etymology==
+Jau takes its name from the ancient story about the [[Bayudaians]], where the Bayudaian would be unified uner one ruler descended from heaven, and free them from their chains. The term "Jau", in turn, derives from either Arten or Ukhdari origins. [[wikipedia:Endonym and exonym|exonym]] for the Bayudaian peoples of the kingdom. The word "Jau" is also the root of the name for the [[Joula]].
 
 == History ==
 
@@ -97,6 +105,9 @@
 
 == References ==
 {{reflist}}
+
+==Notes==
+:1.{{note|a}}The term "Arten" refers to a self-identified ethnic group rather than a nationality. It includes individuals from Areoix Lie, Jau, Terressin, and elsewhere, and is not limited to people from Areoix Lie.
 
 === Government ===
 * [http://www.gov.jau/ The Republic of Jau's official government website]

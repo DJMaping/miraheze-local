@@ -29,7 +29,7 @@
 | sovereignty_type       = Indepenence
 | sovereignty_note       = from [[Emara]]
 | established            = 
-| established_event1     = [[Praesian Aircumi Pastos ccolony]]
+| established_event1     = [[Praesyuan Aircumi Pastos ccolony]]
 | established_date1      = 1650 AFA
 | established_event2     = [[Treaty of Fraud]]
 | established_date2      = 1667 AFA
@@ -50,20 +50,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 12.3
 | population_density_rank = 137th
-| GDP_PPP                = {{decrease}} {{lahn}}43.066 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/jat/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{decrease}} {{lahn}}344.528 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/jat/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 115th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{decrease}} {{lahn}}3,274
+| GDP_PPP_per_capita     = {{decrease}} {{lahn}}26,192
 | GDP_PPP_per_capita_rank = 156th
-| GDP_nominal            = {{decrease}} {{lahn}}11.274 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/jat/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{decrease}} {{lahn}}90.192 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/jat/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 126th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{decrease}} {{lahn}}857
+| GDP_nominal_per_capita = {{decrease}} {{lahn}}6,856
 | GDP_nominal_per_capita_rank = 159th
 | HDI_year               = 1765
-| HDI                    = 0.492
+| HDI                    = 0.453
 | HDI_change             = increase
-| HDI_rank               = 162nd
+| HDI_rank               = 155th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Jathuan Rixim]] (_) (JRX)
 | time_zone              = SET +3 (Standard Jathuan Time)
@@ -72,6 +72,13 @@
 | cctld                  = .jat
 | calling_code           = +941
 }}
+'''Jathua''', officially the '''Federal Republic of Jathua''', is a [[wikipedia:landlocked country|landlocked country]] in [[South Acrola]]. It is a [[wikipedia:Federation|Federation]] bordered by [[Viussi]] to the northeast, [[Yoprioq]] to the east, [[Deschon]] and [[Inania]] to the east, [[Taoisia]] to the south, [[Taniduna]] to the west, and [[Candenat]] to the north. It covers a land area of almost {{convert|1.06|e6km2|mi2|abbr=unit}}, making it the fifth-largest country in Acrola and the fourth-largest landlocked nation in Acrola. Over 70% of its land area lies in the [[Dyrswo Desert]] and Okaren Mountains. Its population of about {{million|13,153,000}} lives mostly in clusters in the North of the country. The capital [[Nyvek]] is located in the northeast corner along the namesake [[Jathua River]].
+
+Following the spread of [[Imarel]] and [[Killimethra]] to the region, Jathua is on the fringes of some states, including the [[Acbard Empire]] and the [[Sivoso Empire]]. It was colonised by Emara after the [[Treaty of the Globe]] as part of [[Emaran Candenat]], while half of its territory, most of the Deser areas in the south, came under [[Praesyuan Aircumi Pastos colony]], becoming a [[Colony of Jathua|distinct colony]] in 1711. Since obtaining independence in 1712, Jathua has experienced five coups d'état and four periods of military rule. Jathua's seventh and most recent constitution was enacted in 1765, establishing a multiparty, federal semi-presidential system. Following the most recent [[1763 Jathuaien coup d'état|coup in 1763]], the country has been ruled by [[National Council Deffence]], a [[wikipedia:military junta|military junta]], led by General [[Quai Panira]].
+
+The [[Waleco people|Waleco]] are the largest ethnic group, making up around 36% of the population. [[Jathuan language|Jathuan]] is the official language; ten other indigenous languages have the status of national languages. According to the GTU’s Poverty Index report of 1760, Jathua is one of the poorest countries in the world. Some non-desert portions of the country undergo periodic drought and desertification. [[economy of Jathua|Its economy]] is concentrated around subsistence agriculture, with some export agriculture in the less arid south, and the export of raw materials, including [[titanium]], [[bentonite]]. It faces challenges to development due to its landlocked position, desert terrain, low literacy rate, [[Valsumat insurgency in Jathua|terrorism]], and high fertility rates due to birth control not being used and the resulting rapid population growth.
+== Etymology ==
+The name comes from the [[Jathua River]] which flows through the north of the country. The origin of the river's name is uncertain. The modern spelling ''Niger'' was first recorded by Rabiaren scholars in 1300 possibly derived from the [[Jathua language|Jathuan]] phrase meaning literally “main river”. There is broad consensus among linguists that it does not derive from the [[Alqiran language|Alqiran]] as was first erroneously believed. 
 
 == History ==
 

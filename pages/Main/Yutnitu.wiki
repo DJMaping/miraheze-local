@@ -52,20 +52,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 175.6
 | population_density_rank = 16th
-| GDP_PPP                = {{increase}} {{lahn}}12.257 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/yut/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}98.056 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/yut/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 144th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}27,368
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}218,944
 | GDP_PPP_per_capita_rank = 15th
-| GDP_nominal            = {{increase}} {{lahn}}8.282 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/yut/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}66.256 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/yut/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 135th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}18,492
+| GDP_nominal_per_capita = {{increase}} {{lahn}}147,936
 | GDP_nominal_per_capita_rank = 22nd
 | HDI_year               = 1765
-| HDI                    = 0.871
+| HDI                    = 0.877
 | HDI_change             = increase
-| HDI_rank               = 43rd
+| HDI_rank               = 19th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Xysuo]] (_) (XYS)
 | time_zone              = SET -2 (Standard Yutnitun Time)

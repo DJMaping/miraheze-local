@@ -1,4 +1,4 @@
-*
+/*
  * This is the CSS common to all desktop skins on en.Wikipedia.
  * Styling inside .mw-parser-output should generally use TemplateStyles.
  */
@@ -25,10 +25,16 @@ small {
 	font-size: 85%;
 }
 
+/* A floor under citation markers. 80% is a percentage, so it compounds with
+   every ancestor that shrinks: inside an infobox, which is itself at 88%, 38
+   elements on [[Dahe]] compute below 12px and the smallest lands at 10.34px,
+   nearly all of them reference markers and their brackets. The calc keeps them
+   tracking the Appearance panel's Text setting, which a flat rem floor would
+   not; the max stops the compounding. */
 .mw-body-content sub,
 .mw-body-content sup,
 span.reference /* for Parsoid */ {
-	font-size: 80%;
+	font-size: max( calc( 0.76rem * var( --a-text-scale, 1 ) ), 0.8em );
 }
 
 /* Same spacing for indented and unindented paragraphs on talk pages */
@@ -236,6 +242,120 @@ span.mwe-math-mathml-inline {
 /* Hide broken download box on Special:Book pending T285400 */
 .mw-special-Book #coll-downloadbox {
 	display: none;
+}
+
+/* Currency symbols in dark mode.
+   The DarkMode extension inverts the whole page, then re-inverts every image so
+   photographs keep their real colours. The lahn and Raledrian Kasare glyphs are
+   solid black marks on transparency, so that re-inversion leaves them black on a
+   black background. Cancelling the filter opts them out of the re-inversion,
+   letting the page-level flip render them white instead.
+   Keyed on the alt text set by [[Template:Lahn]] and
+   [[Template:Raledrian Kasare]] -- change the alt there and this stops matching. */
+html.client-darkmode img[ alt="Lahn" ],
+html.skin-theme-clientpref-night img[ alt="Lahn" ],
+html.client-darkmode img[ alt="Raledrian_Kasare" ],
+html.skin-theme-clientpref-night img[ alt="Raledrian_Kasare" ] {
+	-webkit-filter: none;
+	filter: none;
+}
+
+/* Dark mode palette -- content surfaces.
+   See [[MediaWiki:Timeless.css]] for the full explanation: the DarkMode
+   extension inverts the whole page, so each colour here is authored as its
+   pre-inverse and the comment states what actually renders. The DarkMode
+   extension's own defaults put every one of these on a flat #ddd -> #222,
+   which collapses tables, infoboxes and the TOC into a single slab.
+
+   These duplicate section 10 of [[MediaWiki:Timeless.css]], deliberately.
+   Timeless.css is the skin the wiki actually renders in, and its copy wins the
+   cascade there (site.styles concatenates Common.css first); this copy is what
+   a reader on Vector or Monobook gets. If you retune the night palette, retune
+   both, or the two skins will drift apart. */
+
+/* Base text. Core's #202122 flips to #dddedf, which reads as grey rather than
+   as text, and is inconsistent with the .infobox { color: black } further down
+   this file, which flips to pure white. Both are pulled onto #f0f0f0. Pitched
+   above .mw-body and .infobox, which are one class each. */
+html.skin-theme-clientpref-night .mw-body,
+html.client-darkmode .mw-body,
+html.skin-theme-clientpref-night .mw-body-content,
+html.client-darkmode .mw-body-content,
+html.skin-theme-clientpref-night .mw-parser-output,
+html.client-darkmode .mw-parser-output,
+html.skin-theme-clientpref-night .mw-parser-output .infobox.infobox,
+html.client-darkmode .mw-parser-output .infobox.infobox,
+html.skin-theme-clientpref-night .mw-parser-output .wikitable.wikitable,
+html.client-darkmode .mw-parser-output .wikitable.wikitable {
+	color: #0f0f0f; /* renders #f0f0f0 */
+}
+
+/* Boxed content: infoboxes, wikitables, TOC, thumbnails, navboxes. */
+html.skin-theme-clientpref-night .infobox,
+html.client-darkmode .infobox,
+html.skin-theme-clientpref-night .wikitable,
+html.client-darkmode .wikitable,
+html.skin-theme-clientpref-night .toc,
+html.client-darkmode .toc,
+html.skin-theme-clientpref-night #toc,
+html.client-darkmode #toc,
+html.skin-theme-clientpref-night .thumbinner,
+html.client-darkmode .thumbinner,
+html.skin-theme-clientpref-night table.toccolours,
+html.client-darkmode table.toccolours {
+	background-color: #d9d9d9; /* renders #262626 */
+	border-color: #c7c7c7; /* renders #383838 */
+}
+
+/* Table header cells, and ONLY table header cells. Not .infobox th: every cell
+   in an infobox, including the whole left-hand label column, is transparent in
+   daylight, so tinting them here invents a band that exists in night mode and
+   nowhere else. */
+html.skin-theme-clientpref-night .wikitable > * > tr > th,
+html.client-darkmode .wikitable > * > tr > th {
+	background-color: #cdcdcd; /* renders #323232 */
+	border-color: #c7c7c7; /* renders #383838 */
+}
+
+/* Cell borders, both kinds, in both sorts of table. Miss any one of these and
+   that side of the line keeps the template's own #a2a9b1, which inverts to a
+   warm #5d564e, so one horizontal rule renders in two different colours.
+
+   The length is load-bearing: infobox TemplateStyles are injected after this
+   file and reach four classes deep, so a plain ".infobox th" loses the tie.
+   Repeating .infobox is the ordinary way to buy the specificity to win.
+   Colour only, never width -- merged rows switch borders off to join cells
+   vertically and that has to survive. */
+html.skin-theme-clientpref-night .mw-parser-output .infobox.infobox th,
+html.client-darkmode .mw-parser-output .infobox.infobox th,
+html.skin-theme-clientpref-night .mw-parser-output .infobox.infobox td,
+html.client-darkmode .mw-parser-output .infobox.infobox td,
+html.skin-theme-clientpref-night .mw-parser-output .wikitable.wikitable > * > tr > th,
+html.client-darkmode .mw-parser-output .wikitable.wikitable > * > tr > th,
+html.skin-theme-clientpref-night .mw-parser-output .wikitable.wikitable > * > tr > td,
+html.client-darkmode .mw-parser-output .wikitable.wikitable > * > tr > td {
+	border-color: #c7c7c7; /* renders #383838 */
+}
+
+/* Links. The extension's own night values are pitched bright (#6da0ff blue,
+   #e45353 red); these are pulled back to sit calmly on the panel colour. */
+html.skin-theme-clientpref-night a,
+html.client-darkmode a,
+html.skin-theme-clientpref-night .mw-parser-output a.external,
+html.client-darkmode .mw-parser-output a.external {
+	color: #3c6ca5; /* renders #6f9fd8 */
+}
+
+html.skin-theme-clientpref-night a:visited,
+html.client-darkmode a:visited {
+	color: #765c9d; /* renders #a98fd0 */
+}
+
+html.skin-theme-clientpref-night a.new,
+html.client-darkmode a.new,
+html.skin-theme-clientpref-night a.new:visited,
+html.client-darkmode a.new:visited {
+	color: #bc6363; /* renders #cf7676 */
 }
 
 /*

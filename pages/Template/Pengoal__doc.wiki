@@ -1,0 +1,19 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+This template is intended only for penalties made during a [[Penalty shoot-out (association football)|shoot-out]] and not for any that are made during the match itself.
+
+== Usage ==
+<code><nowiki>{{pengoal}}</nowiki></code>
+*<code><nowiki>{{pengoal}}</nowiki> -> </code>{{pengoal}}
+
+== See also ==
+{{Football match report templates}}
+
+<includeonly>{{Sandbox other||
+
+[[Category:Association football formatting and function templates]]
+
+[[es:Plantilla:Gol]]
+
+}}</includeonly>

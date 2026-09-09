@@ -1,0 +1,9 @@
+{{#if:{{{2|}}}|{{country data {{{2}}}
+| flag link/core
+| variant = {{{variant|{{{3|}}}}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = national under-{{{1}}} football team
+| altvar = football
+| age = under-{{{1}}}
+}}|{{error-small|Fbu template missing parameter}}[[Category:Pages using Fbu template with missing parameter]]}}<noinclude>{{documentation}}</noinclude>

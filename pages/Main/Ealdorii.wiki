@@ -51,21 +51,21 @@
 | population_density_km2 = 88.2
 | population_density_sq_mi = 34.1
 | population_density_rank = 52nd
-| GDP_PPP                = {{increase}} {{lahn}}1.548 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/eal/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}12.384 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/eal/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 15th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}11,219
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}89,752
 | GDP_PPP_per_capita_rank = 99th
-| GDP_nominal            = {{increase}} {{lahn}}679 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}5.432 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/acr/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 
 | GDP_nominal_rank       = 21st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}4,921
+| GDP_nominal_per_capita = {{increase}} {{lahn}}39,368
 | GDP_nominal_per_capita_rank = 95th
 | HDI_year               = 1765
-| HDI                    = 0.780
+| HDI                    = 0.650
 | HDI_change             = increase
-| HDI_rank               = 74th
+| HDI_rank               = 113th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Ealdorii Anasu]] (_) (EAN)
 | time_zone              = EMT +1 (Ealdorii Main Time)

@@ -52,20 +52,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 61.9
 | population_density_rank = 74th
-| GDP_PPP                = {{increase}} {{lahn}}110.763 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}886.104 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 88th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}3,036
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}24,288
 | GDP_PPP_per_capita_rank = 159th
-| GDP_nominal            = {{increase}} {{lahn}}33.872 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}270.976 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/lie/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 101st
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}929
+| GDP_nominal_per_capita = {{increase}} {{lahn}}7,432
 | GDP_nominal_per_capita_rank = 157th
 | HDI_year               = 1765
-| HDI                    = 0.602
+| HDI                    = 0.515
 | HDI_change             = increase
-| HDI_rank               = 146th
+| HDI_rank               = 151st
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Seytinemas Velleci]] (_) (SVE)
 | time_zone              = SET +4 (Standard Lierin Time)

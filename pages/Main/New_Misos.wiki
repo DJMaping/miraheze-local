@@ -53,20 +53,20 @@
 | population_density_km2 = 45.8
 | population_density_sq_mi = 17.6
 | population_density_rank = 93rd
-| GDP_PPP                = {{increase}} {{lahn}}1.209 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/mis/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}9.672 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/mis/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 18th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}22,558
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}180,464
 | GDP_PPP_per_capita_rank = 28th
-| GDP_nominal            = {{increase}} {{lahn}}834 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/mis/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}6.672 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/mis/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 28th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}15,556
+| GDP_nominal_per_capita = {{increase}} {{lahn}}124,448
 | GDP_nominal_per_capita_rank = 29th
 | HDI_year               = 1765
-| HDI                    = 0.868
+| HDI                    = 0.814
 | HDI_change             = increase
-| HDI_rank               = 1st
+| HDI_rank               = 45th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Misoan Nie ]] (_) (MIE)
 | time_zone              = EMT-7 (Eastern Misoan Time), WMT -7 (Western Misoan Time)

@@ -1,0 +1,20 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+
+This template is intended only for penalties missed during a [[Penalty shoot-out (association football)|shoot-out]] and not for any that are missed during the match itself.
+
+== Usage ==
+<code><nowiki>{{penmiss}}</nowiki></code>
+*<code><nowiki>{{penmiss}}</nowiki> -> </code>{{penmiss}}
+
+==See also==
+{{Football match report templates}}
+
+<includeonly>{{Sandbox other||
+
+<!-- Categories and interwikis go here: -->
+
+[[Category:Association football formatting and function templates]]
+
+}}</includeonly>

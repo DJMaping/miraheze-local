@@ -1,0 +1,10 @@
+[[File:Yellow card.svg|10px|alt=Yellow card|Booked|link=]]<!--
+-->{{#if: {{{1|}}} |<span style="vertical-align: middle;">&nbsp;{{#switch:{{uc:{{{1}}}}}|PRE={{abbr|PRE|Pre-match}}|HT={{abbr|HT|Half-time}}|AWET={{abbr|AWET|Awaiting extra time}}|HTET={{abbr|HTET|Half-time in extra time}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}|{{{1}}}{{`}}}}</span>}}<!--
+-->{{#switch:{{uc:{{{2}}}}}|PSO|PK|FT=&nbsp;[[File:Yellow card.svg|10px|alt=Yellow card|Booked immediately before/during/after penalty shoot-out (cards reset)|link=]]<span style="vertical-align: middle;">&nbsp;{{#switch:{{uc:{{{2}}}}}|PSO|PK={{abbr|PSO|Penalty shoot-out}}|FT={{abbr|FT|After full-time}}}}</span>}}{{main other|{{#if:{{#invoke:string|endswith|1={{{1}}}|2='}}|[[Category:Association football templates needing maintenance]]}}}}{{main other|{{#if:{{{2|}}}{{{3|}}}{{{4|}}}|[[Category:Yellow card template with second parameter]]}}}}<!--
+--><noinclude>
+
+{{documentation}}
+
+<!-- Categories and interwikis go on /doc -->
+
+</noinclude>

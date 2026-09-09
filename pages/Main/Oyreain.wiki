@@ -52,20 +52,20 @@
 | population_census_year = 1762
 | population_density_km2 = 150.1
 | population_density_rank = 25th
-| GDP_PPP                = {{increase}} {{lahn}}575 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ory/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}4.6 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/ory/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 39th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}18,286
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}146,288
 | GDP_PPP_per_capita_rank = 57th
-| GDP_nominal            = {{increase}} {{lahn}}253 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ory/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}2.024 trillion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/ory/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 42nd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}8,056
+| GDP_nominal_per_capita = {{increase}} {{lahn}}64,448
 | GDP_nominal_per_capita_rank = 72nd
 | HDI_year               = 1764
-| HDI                    = 0.765
+| HDI                    = 0.760
 | HDI_change             = increase
-| HDI_rank               = 83rd
+| HDI_rank               = 70th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Oyreaini Lahn]] (_) (OLD)
 | time_zone              = SOY +0 (Standard Oyreaini Time)

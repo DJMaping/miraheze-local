@@ -49,20 +49,20 @@
 | population_census_year = 1762
 | population_density_km2 = 11.9
 | population_density_rank = 142nd
-| GDP_PPP                = {{increase}} {{lahn}}155 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/arb/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}1.24 trillion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/arb/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 74th
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}23,657
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}189,256
 | GDP_PPP_per_capita_rank = 23rd
-| GDP_nominal            = {{increase}} {{lahn}}96 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/arb/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}768 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/arb/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 63rd
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}14,603
+| GDP_nominal_per_capita = {{increase}} {{lahn}}116,824
 | GDP_nominal_per_capita_rank = 33rd
 | HDI_year               = 1765
-| HDI                    = 0.862
+| HDI                    = 0.826
 | HDI_change             = increase
-| HDI_rank               = 46th
+| HDI_rank               = 35th
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Rassew]] (_) (RSS)
 | time_zone              = SRB -6 (Standard Arbiya Time)

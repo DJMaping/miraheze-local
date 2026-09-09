@@ -46,20 +46,20 @@
 | population_estimate_year = 1765
 | population_density_km2 = 0.38
 | population_density_rank = 172nd
-| GDP_PPP                = {{increase}} {{lahn}}4.361 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kiz/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_PPP                = {{increase}} {{lahn}}34.888 billion<ref name="GTU">{{Cite web |url=https://www.globaltradeunion.org/kiz/Publications/gtu/gdp_ppp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_PPP_rank           = 151st
 | GDP_PPP_year           = 1765
-| GDP_PPP_per_capita     = {{increase}} {{lahn}}32,780
+| GDP_PPP_per_capita     = {{increase}} {{lahn}}262,240
 | GDP_PPP_per_capita_rank = 2nd
-| GDP_nominal            = {{increase}} {{lahn}}5.438 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kiz/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
+| GDP_nominal            = {{increase}} {{lahn}}43.504 billion<ref name="GTU.">{{Cite web |url=https://www.globaltradeunion.org/kiz/Publications/gtu/gdp-database/1765/wef-report |title=Global Trade Union Forecast Database, 1765|website=globaltradeunion.org |publisher=[[Global Trade Union]] |date=1765 }} Retrieved 1765.</ref>
 | GDP_nominal_rank       = 144th
 | GDP_nominal_year       = 1765
-| GDP_nominal_per_capita = {{increase}} {{lahn}}40,873
+| GDP_nominal_per_capita = {{increase}} {{lahn}}326,984
 | GDP_nominal_per_capita_rank = 1st
 | HDI_year               = 1765
-| HDI                    = 0.952
+| HDI                    = 0.919
 | HDI_change             = increase
-| HDI_rank               = 7th
+| HDI_rank               = 3rd
 | HDI_ref                = <ref name="sdi">{{Cite web |title=Krali Development Report 1764-1765|url=https://www.krali.org/files/documents/ktdi1764-1765_(3).pdf |website=[[Krali Development Report]] }} 1764. Retrieved 1765.</ref>
 | currency               = [[Wealdi]] (_) (WEA)
 | time_zone              = SET +5 (Standard Kizuran Time)
