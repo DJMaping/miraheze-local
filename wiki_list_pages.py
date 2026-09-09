@@ -138,7 +138,7 @@ def exports_page():
           "* [[Global Trade Union]]",
           "", "== Notes ==", '{{reflist|group="note"}}',
           "", "== References ==", "{{reflist}}",
-          "", "[[Category:Economy]]", "[[Category:Countries]]"]
+          "", "[[Category:Statistics]]"]
     return "\n".join(L) + "\n"
 
 
@@ -186,7 +186,7 @@ def imports_page():
           "* [[Global Trade Union]]",
           "", "== Notes ==", '{{reflist|group="note"}}',
           "", "== References ==", "{{reflist}}",
-          "", "[[Category:Economy]]", "[[Category:Countries]]"]
+          "", "[[Category:Statistics]]"]
     return "\n".join(L) + "\n"
 
 
@@ -216,7 +216,7 @@ def per_capita_page():
           "* [[List of countries by imports]]",
           "* [[Global Trade Union]]",
           "", "== References ==", "{{reflist}}",
-          "", "[[Category:Economy]]", "[[Category:Countries]]"]
+          "", "[[Category:Statistics]]"]
     return "\n".join(L) + "\n"
 
 
